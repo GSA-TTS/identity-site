@@ -1,0 +1,21 @@
+# Site settings
+title: login.gov
+description: login.gov, the consumer identity platform
+baseurl: '/'
+
+# Pages
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Build settings
+kramdown:
+  hard_wrap: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: main
