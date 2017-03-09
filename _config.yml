@@ -1,6 +1,6 @@
 # Site settings
 title: login.gov
-description: Welcome to the Login.gov
+description: login.gov, the consumer identity platform
 baseurl: '/'
 
 # Pages
