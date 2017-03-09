@@ -1,0 +1,60 @@
+---
+title: Security
+permalink: /security/
+---
+
+<div class="bg-white">
+  <div class="container py3">
+    <div class="clearfix mxn1 mb5">
+      <img class="col sm-col-4 mt4 px2" src="{{ site.baseurl }}/assets/img/vault-door.svg" alt="A vault door" width="260"/>
+      <div class="col sm-col-8 px2">
+        <h1 class="blue hz-dot-border">How login.gov keeps personal information private</h1>
+        <p class="m0 pt-20p h3 serif">login.gov encrypts the personal information of each user separately, using a unique value generated from each user’s password. Our encryption method works like a safe deposit box in a bank vault. Only the user has the key. Only the user can open the box to reveal the contents. Only the user knows the password, and only the user can decrypt their information.</p>
+      </div>
+    </div>
+
+    <div class="clearfix mxn1">
+      <div class="col sm-col-4 px2">
+        <div class="clearfix">
+          <img class="col sm-col-5" src="{{ site.baseurl }}/assets/img/vault.svg" alt="an open vault" width="122">
+        </div>
+        <h2 class="blue mb3 hz-dot-border">The vault</h2>
+        <p>It's hard to break into the “vault” or database. login.gov implements the latest <a href="https://www.nist.gov/">National Institute of Standards and Technology (NIST)</a> standards for secure authentication and verification. Our plans for ongoing security include regular penetration testing and external security reviews. </p>
+      </div>
+      <div class="col sm-col-4 px2">
+        <div class="clearfix">
+          <img class="col sm-col-5" src="{{ site.baseurl }}/assets/img/safe-deposit.svg" alt="a group of safe deposit boxes" width="122">
+        </div>
+        <h2 class="blue mb3 hz-dot-border">The safe deposit box</h2>
+        <p>Individual accounts get a double layer of security. We require two-factor authentication as well as strong passwords that meet new NIST requirements. Two factor authentication requires that you login with your password and a code that we send to your phone.</p>
+        <p>We will evaluate and implement new authentication methods as they become widely available to make sure that login.gov remains accessible and secure.</p>
+      </div>
+      <div class="col sm-col-4 px2">
+        <div class="clearfix">
+          <img class="col sm-col-5" src="{{ site.baseurl }}/assets/img/key.svg" alt="a key" width="122">
+        </div>
+        <h2 class="blue mb3 hz-dot-border">Your personal key</h2>
+        <p>Encrypting personal data separately means that login.gov cannot share any information with other government entities without users’ permission. Not even database administrators can decrypt a user’s personal information without the user’s password.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container serif h5">
+    <div class="clearfix mxn1">
+      <div class="col sm-col-12 mt3">
+        <img class="col sm-col-2 py1 pl3" src="{{ site.baseurl }}/assets/img/code.svg" alt="maginifying glass examining computer code" width="113"/>
+        <p class="col sm-col-6 px3 regular py1 m0 mb3">We welcome external review of our privacy-protection measures. All of our code is available for public inspection in an open-source repository. Our goal: make sure that at every step users know their privacy is being protected by design.</h4>
+        <div class="col sm-col-4 px2 py1 vt-dot-border">
+          <div class="ml2">
+            <div class='sm-show'>
+              <img class="col col-6 mb1" src="{{ site.baseurl }}/assets/img/logo.svg" alt="login.gov logo">
+            </div>
+            <p class="col col-12">Please email <a href="mailto:info@login.gov">info@login.gov</a> to learn more about how our protection works. You can also visit our <a target="_blank" href="https://github.com/18F/identity-idp">open-source repository</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
