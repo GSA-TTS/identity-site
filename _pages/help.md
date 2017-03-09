@@ -128,7 +128,7 @@ Alternatively, you may have accidentally mistyped your email address. If
 so, you can always make another account with your correct email address.
 
 -   If you mistyped your address, you can [create a new
-    account](/sign_up/enter_email).
+    account](https://idp.login.gov/sign_up/enter_email).
 -   If you are certain you entered the correct address, choose “Send
     again” to get a new confirmation email.
 
@@ -138,7 +138,7 @@ If you didn’t receive a security code, check whether you entered your
 phone number correctly.
 
 -   If you entered the wrong phone number, you can [update your phone
-    number here](/manage/phone).
+    number here](https://idp.login.gov/sign_up/enter_email/manage/phone).
 -   If you entered your phone number correctly, you can [resend the
     confirmation SMS](#). Select if you want to receive the security
     code by text message if you have a mobile phone or through a phone
@@ -285,11 +285,11 @@ Changing settings
 
 ### How do I change my password?
 
-To change your password, sign in at [login.gov](/) and go to your
-Profile page. If you want to change your password, select Edit next to
-password, enter the new password and submit your change. Passwords must
-be at least 8 characters but otherwise there are no restrictions. You
-can even use more than one word with spaces to get to 8 characters.
+To change your password, sign in at [login.gov](https://idp.login.gov/) and go
+to your Profile page. If you want to change your password, select Edit next to
+password, enter the new password and submit your change. Passwords must be at
+least 8 characters but otherwise there are no restrictions. You can even use
+more than one word with spaces to get to 8 characters.
 
 Instead, try making a long and complex password by using a phrase or a
 series of words that only you recognize. And please make it different
@@ -339,7 +339,8 @@ a security code you receive on your phone. Two-step authentication can
 help protect your account against password compromises.
 
 Your information will stay secure. For more information, read our
-[security and privacy policy](/privacy). Please email <info@login.gov>
+[security and privacy policy]({{ site.baseurl }}/privacy). Please email
+<[info@login.gov](mailto:info@login.gov)>
 to learn more about how our protection works.
 
 ### Will login.gov share my information?
@@ -398,4 +399,4 @@ Friday, except federal holidays.
 Please let us know what's working and what you'd like to see in the
 future - we're actively improving login.gov, and we base our
 improvements on feedback from users like you! Email your suggestions to
-<info@login.gov>.
+<[info@login.gov](mailto:info@login.gov)>.
