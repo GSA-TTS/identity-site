@@ -1,0 +1,26 @@
+{
+  "name": "identity-site",
+  "version": "1.0.0",
+  "description": "login.gov static site",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm run update-css",
+    "update-css": "npm run normalize-scss && npm run basscss-sass",
+    "normalize-scss": "rsync -avr --delete node_modules/normalize-scss _sass/vendor",
+    "basscss-sass": "rsync -avr --delete node_modules/basscss-sass _sass/vendor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18F/identity-site.git"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/18F/identity-site/issues"
+  },
+  "homepage": "https://github.com/18F/identity-site#readme",
+  "dependencies": {
+    "basscss-sass": "^3.0.0",
+    "normalize-scss": "^6.0.0"
+  }
+}

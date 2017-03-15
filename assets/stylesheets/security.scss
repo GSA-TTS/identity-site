@@ -1,0 +1,61 @@
+---
+---
+@charset "UTF-8";
+
+@import 'variables';
+
+$border-dot-base64: 'PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0IDQiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojMDJiZmU3O308L3N0eWxlPjwvZGVmcz48dGl0bGU+RG90dGVkLWxpbmU8L3RpdGxlPjxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iMiIgY3k9IjIiIHI9IjIiLz48L3N2Zz4KCjwhLS0gPHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0IDE2IiB3aWR0aD0iMjUiIGhlaWdodD0iMjUiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTF7IGZpbGw6IzAyYmZlNzt9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8dGl0bGU+RG90dGVkLWxpbmU8L3RpdGxlPgogIDxnIGNsYXNzPSJkb3QtYm9yZGVyIj4KICAgIDxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iMSIgY3k9IjMiIHI9IjIiLz4KICAgIDxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iNyIgY3k9IjMiIHI9IjIiLz4KICA8L2c+Cjwvc3ZnPiAtLT4K';
+
+@mixin background-image-spaced($width, $height, $margin, $orientation, $image) {
+  $safeWidth: $width;
+  $safeHeight: $height;
+
+  @if $orientation == "vertical" {
+    $height: $height + $margin;
+  } @else {
+    $width: $width + $margin;
+  }
+
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="#{$width}" height="#{$height}"><image width="#{$safeWidth}" height="#{$safeHeight}" xlink:href="data:image/svg+xml;base64,#{$image}" /></svg>');
+}
+
+@mixin psuedo() {
+  content: ' ';
+  position: absolute;
+}
+
+@mixin horizontal-dot-border() {
+  @include background-image-spaced(4px, 4px, 8px, 'horizontal', $border-dot-base64);
+  @include psuedo();
+
+  background-repeat: repeat-x;
+  bottom: -20px;
+  height: 4px;
+  width: 100%;
+  left: 2px;
+}
+
+@mixin vertical-dot-border() {
+  @include background-image-spaced(4px, 4px, 8px, 'vertical', $border-dot-base64);
+  @include psuedo();
+
+  background-repeat: repeat-y;
+  top: 0px;
+  width: 4px;
+  height: 100%;
+  left: 0px;
+}
+
+.vt-dot-border, .hz-dot-border {
+  position: relative;
+}
+
+.hz-dot-border:after {
+  @include horizontal-dot-border();
+}
+
+.vt-dot-border:before {
+  @include vertical-dot-border();
+}
+
+.pt-20p { padding-top: 20px; }

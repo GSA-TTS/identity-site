@@ -1,0 +1,80 @@
+---
+---
+@charset "UTF-8";
+
+@import 'variables';
+
+body { position: relative; }
+
+a { text-decoration: none; }
+
+.fs-lead { font-size: 1.25rem; }
+
+[tabindex="-1"] {
+  outline: none;
+}
+
+.affix {
+  padding-top: 0;
+  position: fixed;
+  top: 1rem;
+  width: 235px;
+}
+
+.pb-list {
+  &--bullet {
+    color: $teal;
+
+    a {
+      background: url('../img/ico-arrow.svg') no-repeat right 8px;
+      background-size: .75rem .75rem;
+      padding-right: 1.25rem;
+    }
+  }
+
+  &--checked li { background: url('../img/ico-checked.svg') no-repeat left 2px; }
+  &--checkbox li { background: url('../img/ico-checkbox.svg') no-repeat left 2px; }
+}
+
+#pb-nav--side .active {
+  list-style-type: disc;
+
+  a {
+    color: $red;
+    font-weight: $bold-font-weight;
+  }
+}
+
+@media #{$breakpoint-md} {
+
+  .pb-nav--top {
+    background-color: transparent;
+    margin-top: 0;
+    text-align: left;
+
+    a {
+      color: $gray;
+      font-size: $base-font-size;
+    }
+
+    li { border: none; }
+
+    a:hover,
+    .active, {
+      color: $red;
+      padding-bottom: $space-1;
+      position: relative;
+      text-decoration: none;
+
+      &::after {
+        border-bottom: $red 4px solid;
+        border-radius: 12px;
+        content: '';
+        left: 0;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
