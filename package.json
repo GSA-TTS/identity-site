@@ -2,12 +2,12 @@
   "name": "identity-site",
   "version": "1.0.0",
   "description": "login.gov static site",
-  "main": "index.js",
   "scripts": {
-    "install": "npm run update-css",
-    "update-css": "npm run normalize-scss && npm run basscss-sass",
-    "normalize-scss": "rsync -avr --delete node_modules/normalize-scss _sass/vendor",
-    "basscss-sass": "rsync -avr --delete node_modules/basscss-sass _sass/vendor"
+    "install": "npm run build-css",
+    "build-css": "npm run build-css:init && npm run build-css:normalize-scss && npm run build-css:basscss-sass",
+    "build-css:init": "mkdir -p _sass/vendor && mkdir -p _sass/vendor/normalize && mkdir -p _sass/vendor/basscss-sass",
+    "build-css:normalize-scss": "cp -R node_modules/normalize-scss/sass/* _sass/vendor/normalize",
+    "build-css:basscss-sass": "cp node_modules/basscss-sass/*.scss _sass/vendor/basscss-sass"
   },
   "repository": {
     "type": "git",
