@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,12 +9,14 @@
     <meta name="description" content="{{ site.description }}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% include styles.html %}
   </head>
-
-  <body>
+  <body class="{{ layout.class }} {{ page.class }}">
     {% include header.html %}
 
+    <main id="main-content">
     {{ content }}
+    </main>
 
     {% include footer.html %}
   </body>

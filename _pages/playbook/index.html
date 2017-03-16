@@ -1,6 +1,8 @@
 ---
 title: login.gov Playbook
 permalink: /playbook/
+styles:
+  - /assets/stylesheets/playbook.css
 ---
 
 {% include playbook_navigation.html %}
@@ -16,13 +18,13 @@ permalink: /playbook/
 
 <div class="bg-navy">
   <div class="container cntnr-wide px2 py5">
-    <h2 class="mt0 mb4 h2 sm-h1 white">
+    <h2 class="mt0 mb4 h1 white">
         The principles
     </h2>
     <div class="flex flex-wrap mxn1">
       {% for p in site.playbook.principles %}
         <div class="col-12 md-col-6 border-box mb2 px1">
-          <a class="p3 flex flex-center bg-white navy rounded-med" href="{{ site.baseurl }}/playbook/principles/#{{ p.anchor }}">
+          <a class="p3 flex flex-center bg-white navy rounded-lg" href="{{ site.baseurl }}/playbook/principles/#{{ p.anchor }}">
             <img alt="" height="50" width="50" class="flex-none mr2 md-mr3" src="{{ site.baseurl }}/assets/img/{{ p.img }}.svg">
             <div class="flex-auto h3 bold line-height-1">
               {{ p.text }}

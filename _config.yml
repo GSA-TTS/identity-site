@@ -8,6 +8,13 @@ collections:
     output: true
     permalink: /:path/
 
+# Styles
+styles:
+  - /assets/stylesheets/main.css
+
+sass:
+  style: compressed
+
 # Build settings
 kramdown:
   hard_wrap: true
