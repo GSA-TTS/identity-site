@@ -6,19 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
-
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    {% include styles.html %}
   </head>
-  <body class="{{ layout.class }} {{ page.class }}">
-    {% include header.html %}
-
-    <main id="main-content">
-    {{ content }}
-    </main>
-
-    {% include footer.html %}
+  <body>
   </body>
-
 </html>
