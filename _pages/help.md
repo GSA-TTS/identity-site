@@ -6,15 +6,11 @@ permalink: /help/
 Help Center
 ===========
 
-<!-- MarkdownTOC depth="6" autolink="true" bracket="round" -->
+<!-- MarkdownTOC depth="2" autolink="true" bracket="round" -->
 
   - [What is login.gov?](#what-is-logingov)
 - [Creating an account](#creating-an-account)
   - [How do I create an account with login.gov?](#how-do-i-create-an-account-with-logingov)
-    - [Enter your email and confirm it](#enter-your-email-and-confirm-it)
-    - [Enter your password](#enter-your-password)
-    - [Enter your phone number and confirm it](#enter-your-phone-number-and-confirm-it)
-    - [Save your personal key](#save-your-personal-key)
   - [What is two-step authentication?](#what-is-two-step-authentication)
   - [Why do I need to confirm my email address and my phone number?](#why-do-i-need-to-confirm-my-email-address-and-my-phone-number)
   - [I didn’t receive a confirmation email from login.gov.](#i-didn’t-receive-a-confirmation-email-from-logingov)
