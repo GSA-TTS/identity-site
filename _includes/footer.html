@@ -5,9 +5,9 @@
         U.S. General Services Administration
       </div>
       <div class="sm-col-right caps">
-        <a href="{{ site.baseurl }}/help" class="white text-decoration-none mr3">Help</a>
-        <a href="{{ site.baseurl }}/contact" class="white text-decoration-none mr3">Contact</a>
-        <a href="{{ site.baseurl }}/policy" class="white text-decoration-none">Privacy Policy</a>
+        <a href="{{ '/help/' | relative_url }}" class="white text-decoration-none mr3 {% if page.url == '/help/' %}bold{% endif %}">Help</a>
+        <a href="{{ '/contact/' | relative_url }}" class="white text-decoration-none mr3 {% if page.url == '/contact/' %}bold{% endif %}">Contact</a>
+        <a href="{{ '/policy/' | relative_url }}" class="white text-decoration-none {% if page.url == '/policy/' %}bold{% endif %}">Privacy Policy</a>
       </div>
     </div>
   </div>
