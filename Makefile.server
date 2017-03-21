@@ -1,0 +1,8 @@
+run: npm-dev jekyll
+
+jekyll:
+	bundle exec jekyll serve --watch
+
+npm-dev:
+	npm run start
+

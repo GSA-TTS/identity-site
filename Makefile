@@ -1,2 +1,5 @@
 run:
-	bundle exec jekyll serve --watch
+	make -f Makefile.server -j4 run
+
+clean:
+	rm -rf _site
