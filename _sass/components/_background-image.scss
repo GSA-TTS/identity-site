@@ -1,0 +1,12 @@
+#intro-header {
+  background: none;
+}
+
+@media #{$breakpoint-sm} {
+  #intro-header {
+    background-image: url(/assets/img/header.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+  }
+}

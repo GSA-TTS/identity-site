@@ -1,7 +1,13 @@
-<ul>
-  <li><a href="{{ site.baseurl }}/">Intro</a></li>
-  <li><a href="{{ site.baseurl }}/playbook">Playbook</a></li>
-  <li><a href="{{ site.baseurl }}/security">Security</a></li>
-  <li><a href="https://pages.18f.gov/identity-dev-docs/">Developers</a></li>
-  <li><a href="https://secure.login.gov">Sign In</a></li>
-</ul>
+<nav class="mt-tiny h5 mxn1 caps">
+  {% for link in site.header %}
+    {% assign _href = link.href %}
+    {% assign _current = false %}
+    {% if link.href == page.url or link.href == page.permalink %}
+      {% assign _current = true %}
+    {% endif %}
+
+    <a href="{{ _href | relative_url }}" class="px1 gray text-decoration-none {% if _current %}active{% endif %}">
+      {{ link.text }}
+    </a>
+  {% endfor %}
+</nav>

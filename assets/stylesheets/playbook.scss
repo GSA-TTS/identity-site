@@ -44,37 +44,3 @@ a { text-decoration: none; }
     font-weight: $bold-font-weight;
   }
 }
-
-@media #{$breakpoint-md} {
-
-  .pb-nav--top {
-    background-color: transparent;
-    margin-top: 0;
-    text-align: left;
-
-    a {
-      color: $gray;
-      font-size: $base-font-size;
-    }
-
-    li { border: none; }
-
-    a:hover,
-    .active, {
-      color: $red;
-      padding-bottom: $space-1;
-      position: relative;
-      text-decoration: none;
-
-      &::after {
-        border-bottom: $red 4px solid;
-        border-radius: 12px;
-        content: '';
-        left: 0;
-        position: absolute;
-        top: 100%;
-        width: 100%;
-      }
-    }
-  }
-}

@@ -3,6 +3,9 @@ title: Privacy Policy
 permalink: /policy/
 ---
 
+<div class="bg-white">
+  <div class="container cntnr-wide pb3" markdown="1">
+
 Security & Privacy
 ==================
 
@@ -83,3 +86,6 @@ notices](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy
 
 We are happy to answer any questions you may have via our [contact
 form](/contact).
+
+  </div>
+</div>

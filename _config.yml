@@ -26,6 +26,18 @@ defaults:
     values:
       layout: main
 
+header:
+  - href: /
+    text: Home
+  - href: /playbook/
+    text: Playbook
+  - href: /security/
+    text: Security
+  - href: https://pages.18f.gov/identity-dev-docs/
+    text: Developers
+  - href: https://secure.login.gov
+    text: Sign in
+
 # Per-section configs
 playbook:
   principles:

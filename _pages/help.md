@@ -3,6 +3,9 @@ title: Help
 permalink: /help/
 ---
 
+<div class="bg-white">
+  <div class="container cntnr-wide pb3" markdown="1">
+
 Help Center
 ===========
 
@@ -396,3 +399,6 @@ Please let us know what's working and what you'd like to see in the
 future - we're actively improving login.gov, and we base our
 improvements on feedback from users like you! Email your suggestions to
 <[info@login.gov](mailto:info@login.gov)>.
+
+  </div>
+</div>

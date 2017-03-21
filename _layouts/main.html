@@ -13,12 +13,29 @@
     {% include google_analytics.html %}
   </head>
   <body class="{{ layout.class }} {{ page.class }}">
-    {% include header.html %}
+    <div class="site-wrap">
+      <div class="py1 bg-navy white fs-12p line-height-1 center">
+        <img alt="US flag" src="{{ site.baseurl }}/assets/img/us-flag.png" width="18" class="mr1 align-bottom">
+        An official website of the United States government
+      </div>
 
-    <main id="main-content">
-    {{ content }}
-    </main>
+      <nav class="bg-white">
+        <div class="container cntnr-wide px2 py3">
+          <div class="clearfix">
+            <div class="sm-col mb1 sm-m0">
+              <a href="{{ site.baseurl }}/" class="inline-block"><img alt="US flag" src="{{ site.baseurl }}/assets/img/logo.svg" width="188"></a>
+            </div>
+            <div class="sm-col-right sm-right-align">
+              {% include header.html %}
+            </div>
+          </div>
+        </div>
+      </nav>
 
+      <main id="main-content">
+      {{ content }}
+      </main>
+    </div>
     {% include footer.html %}
   </body>
   <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
