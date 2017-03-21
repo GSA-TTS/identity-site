@@ -1,0 +1,18 @@
+nav {
+  .active, {
+    color: $red;
+    padding-bottom: $space-1;
+    position: relative;
+    text-decoration: none;
+
+    &::after {
+      border-bottom: $red 4px solid;
+      border-radius: 12px;
+      content: '';
+      left: 0;
+      position: absolute;
+      top: 100%;
+      width: 100%;
+    }
+  }
+}
