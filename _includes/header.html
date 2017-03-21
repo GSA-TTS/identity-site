@@ -6,7 +6,7 @@
       {% assign _current = true %}
     {% endif %}
 
-    <a href="{{ _href | realative_url }}" class="px1 gray text-decoration-none {% if _current %}active{% endif %}">
+    <a href="{{ _href | relative_url }}" class="px1 gray text-decoration-none {% if _current %}active{% endif %}">
       {{ link.text }}
     </a>
   {% endfor %}
