@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "login.gov static site",
   "scripts": {
-    "install": "npm run build-css",
-    "build-css": "npm run build-css:init && npm run build-css:normalize-scss && npm run build-css:basscss-sass",
-    "build-css:init": "mkdir -p _sass/vendor && mkdir -p _sass/vendor/normalize-scss && mkdir -p _sass/vendor/basscss-sass",
-    "build-css:normalize-scss": "cp -R node_modules/normalize-scss/sass/* _sass/vendor/normalize-scss",
-    "build-css:basscss-sass": "cp node_modules/basscss-sass/*.scss _sass/vendor/basscss-sass"
+    "dev": "webpack -w --progress --colors",
+    "start": "npm run dev"
   },
   "repository": {
     "type": "git",
@@ -20,7 +17,14 @@
   },
   "homepage": "https://github.com/18F/identity-site#readme",
   "dependencies": {
-    "basscss-sass": "^3.0.0",
-    "normalize-scss": "^6.0.0"
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0",
+    "jquery-smooth-scroll": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "webpack": "^1.13.2"
   }
 }
