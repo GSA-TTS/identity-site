@@ -96,7 +96,7 @@ to get a security code by a phone call or by SMS.
 #### Save your personal key
 
 After you’ve created your account, you will get a personal key, which is
-a set of 16 randomly generated letters. Make a note of them and store
+a set of 16 randomly generated letters and numbers. Make a note of them and store
 the note separately from your phone. If you forget your password or
 don't have your phone, you can enter the personal key to access your
 services or applications.
