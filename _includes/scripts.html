@@ -1,0 +1,10 @@
+{% assign _scripts = '' | split: '' %}
+{% assign _scripts = _scripts
+  | push: site.scripts
+  | push: layout.scripts
+  | push: page.scripts
+  | uniq %}
+{% for _list in _scripts %}{% for _script in _list %}
+  {% assign _src = _script.src | default: _script %}
+<script src="{{ _src | relative_url }}"></script>
+{% endfor %}{% endfor %}
