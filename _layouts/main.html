@@ -10,6 +10,7 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     {% include styles.html %}
+    {% include google_analytics.html %}
   </head>
   <body class="{{ layout.class }} {{ page.class }}">
     {% include header.html %}
@@ -20,5 +21,6 @@
 
     {% include footer.html %}
   </body>
-
+  <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
+  <script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA&subagency=18F" id="_fed_an_ua_tag"></script>
 </html>
