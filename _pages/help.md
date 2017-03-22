@@ -14,7 +14,7 @@ Help Center
   - [What is login.gov?](#what-is-logingov)
 - [Creating an account](#creating-an-account)
   - [How do I create an account with login.gov?](#how-do-i-create-an-account-with-logingov)
-  - [What is two-step authentication?](#what-is-two-step-authentication)
+  - [What is two-factor authentication?](#what-is-two-factor-authentication)
   - [Why do I need to confirm my email address and my phone number?](#why-do-i-need-to-confirm-my-email-address-and-my-phone-number)
   - [I didn’t receive a confirmation email from login.gov.](#i-didn’t-receive-a-confirmation-email-from-logingov)
   - [Why didn’t I receive a security code to confirm my phone?](#why-didn’t-i-receive-a-security-code-to-confirm-my-phone)
@@ -81,7 +81,7 @@ between words to get to 8 characters.
 Next, you will enter a phone number at which you can get calls or SMS
 messages. If you have a landline, please ask for a security code by a
 phone call. We will send a unique security code to that phone number
-each time you sign into your account. This is called two-step
+each time you sign into your account. This is called two-factor
 authentication. The second step keeps your account more secure than
 using only a password.
 
@@ -104,11 +104,10 @@ the note separately from your phone. If you forget your password or
 don't have your phone, you can enter the personal key to access your
 services or applications.
 
-### What is two-step authentication?
+### What is two-factor authentication?
 
-login.gov uses two-step authentication to keep accounts secure. As its
-name implies, two-step authentication (sometimes called two-factor
-authentication, or 2FA), requires two different methods to sign into an
+login.gov uses two-factor authentication to keep accounts secure. As its
+name implies, two-factor authentication (sometimes called 2FA), requires two different methods to sign into an
 account. Usually this means entering a memorized password and a unique
 code sent to a device (such as a phone) that you own. Requiring two
 methods makes breaking into your account much harder.
@@ -333,8 +332,8 @@ Individual accounts get a double layer of security. We require
 two-factor authentication as well as strong passwords that meet new
 [National Institute of Standards of Technology](https://www.nist.gov/)
 requirements for secure validation and verification. This includes
-two-step authentication that requires you log in with your password and
-a security code you receive on your phone. Two-step authentication can
+two-factor authentication that requires you log in with your password and
+a security code you receive on your phone. Two-factor authentication can
 help protect your account against password compromises.
 
 Your information will stay secure. For more information, read our
