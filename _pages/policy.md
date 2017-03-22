@@ -56,7 +56,7 @@ required to share data for law enforcement purposes.
 
 The information you provide to access your login.gov account is
 collected pursuant to the [E-Government Act of
-2002](https://www.gpo.gov/fdsys/pkg/PLAW-107publ347/html/PLAW-107publ347.htm).
+2002](https://www.gpo.gov/fdsys/pkg/PLAW-107publ347/html/PLAW-107publ347.htm){:target="_blank"}.
 
 #### Purpose
 
@@ -80,7 +80,7 @@ federal agency to provide access to information about you held by the
 agency. It may also assist in determining your eligibility for a
 requested benefit in accordance with the approved routine uses, as
 described in the associated [systems of records
-notices](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records).
+notices](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"}.
 
 #### For more information
 
