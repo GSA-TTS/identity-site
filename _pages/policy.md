@@ -41,7 +41,9 @@ criminal prosecution and penalties.
 
 ### Vulnerability Disclosure Policy
 
-View our [Vulnerability Discloure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/).
+Login.gov authorizes the outside security community to perform security research for the intent of reporting discovered security vulnerabilities in the Login.gov platform.
+
+View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/) for details on this policy and how to report discovered vulnerabilities.
 
 Our privacy practices
 ---------------------
