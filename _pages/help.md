@@ -16,18 +16,18 @@ Help Center
   - [How do I create an account with login.gov?](#how-do-i-create-an-account-with-logingov)
   - [What is two-step authentication?](#what-is-two-step-authentication)
   - [Why do I need to confirm my email address and my phone number?](#why-do-i-need-to-confirm-my-email-address-and-my-phone-number)
-  - [I didn’t receive a confirmation email from login.gov.](#i-didn’t-receive-a-confirmation-email-from-logingov)
-  - [Why didn’t I receive a security code to confirm my phone?](#why-didn’t-i-receive-a-security-code-to-confirm-my-phone)
+  - [I didn't receive a confirmation email from login.gov.](#i-didnt-receive-a-confirmation-email-from-logingov)
+  - [Why didn't I receive a security code to confirm my phone?](#why-didnt-i-receive-a-security-code-to-confirm-my-phone)
   - [Do I need a mobile phone to use login.gov?](#do-i-need-a-mobile-phone-to-use-logingov)
   - [Why do I need to use login.gov to access government services online?](#why-do-i-need-to-use-logingov-to-access-government-services-online)
   - [What do I do if an account already exists under my email address?](#what-do-i-do-if-an-account-already-exists-under-my-email-address)
   - [What do I do if an account has already been created using my phone number?](#what-do-i-do-if-an-account-has-already-been-created-using-my-phone-number)
 - [Signing in](#signing-in)
   - [What do I need to have in order to sign in?](#what-do-i-need-to-have-in-order-to-sign-in)
-  - [What do I do if my password doesn’t work or I forget it?](#what-do-i-do-if-my-password-doesn’t-work-or-i-forget-it)
+  - [What do I do if my password doesn't work or I forget it?](#what-do-i-do-if-my-password-doesnt-work-or-i-forget-it)
   - [What happens if I miss the phone call or the text message with my one-time security code?](#what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code)
-  - [If I don’t have my phone with me, can I still sign in?](#if-i-don’t-have-my-phone-with-me-can-i-still-sign-in)
-  - [I can’t remember where my personal key is and I don’t have my phone with me.](#i-can’t-remember-where-my-personal-key-is-and-i-don’t-have-my-phone-with-me)
+  - [If I don't have my phone with me, can I still sign in?](#if-i-dont-have-my-phone-with-me-can-i-still-sign-in)
+  - [I can't remember where my personal key is and I don't have my phone with me.](#i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me)
   - [Why does the system log me out?](#why-does-the-system-log-me-out)
   - [I forgot which email address I used to create an account.](#i-forgot-which-email-address-i-used-to-create-an-account)
 - [Changing settings](#changing-settings)
@@ -50,8 +50,8 @@ participating government programs. With one login.gov account, users can
 sign in to multiple government agencies. The goal: make managing federal
 benefits, services and applications faster and more secure.
 
-The [General Services Administration](https://gsa.gov), or GSA, manages
-login.gov. As a federal agency, GSA’s mission is to make interactions
+The [General Services Administration](https://gsa.gov){:target="_blank"}, or GSA, manages
+login.gov. As a federal agency, GSA's mission is to make interactions
 with the government easier and more efficient.
 
 Creating an account
@@ -86,19 +86,19 @@ authentication. The second step keeps your account more secure than
 using only a password.
 
 Each security code expires after 5 minutes and can only be used once. If
-you don’t enter the security code within 5 minutes, just request a new
-code. Each code is only good once, so no one can steal one you’ve
+you don't enter the security code within 5 minutes, just request a new
+code. Each code is only good once, so no one can steal one you've
 already used.
 
-Type the security code into the field. That’s it! You have just taken an
+Type the security code into the field. That's it! You have just taken an
 important step to keep yourself and your government safe. Every time you
 sign back into your login.gov account, you will receive a new security
-code that you need to enter. You’ll get the option each time you sign in
+code that you need to enter. You'll get the option each time you sign in
 to get a security code by a phone call or by SMS.
 
 #### Save your personal key
 
-After you’ve created your account, you will get a personal key, which is
+After you've created your account, you will get a personal key, which is
 a set of 16 random characters. Make a note of them and store
 the note separately from your phone. If you forget your password or
 don't have your phone, you can enter the personal key to access your
@@ -116,28 +116,28 @@ methods makes breaking into your account much harder.
 ### Why do I need to confirm my email address and my phone number?
 
 login.gov uses your email address and phone number to send important
-security messages about account activity. We won’t use them for any
-other purposes, and we won’t share them with anyone without your express
+security messages about account activity. We won't use them for any
+other purposes, and we won't share them with anyone without your express
 permission.
 
-### I didn’t receive a confirmation email from login.gov.
+### I didn't receive a confirmation email from login.gov.
 
-If you didn’t receive a confirmation email, check your spam filter.
+If you didn't receive a confirmation email, check your spam filter.
 Alternatively, you may have accidentally mistyped your email address. If
 so, you can always make another account with your correct email address.
 
 -   If you mistyped your address, you can [create a new
-    account](https://idp.login.gov/sign_up/enter_email).
+    account](https://secure.login.gov/sign_up/enter_email){:target="_blank"}.
 -   If you are certain you entered the correct address, choose “Send
     again” to get a new confirmation email.
 
-### Why didn’t I receive a security code to confirm my phone?
+### Why didn't I receive a security code to confirm my phone?
 
-If you didn’t receive a security code, check whether you entered your
+If you didn't receive a security code, check whether you entered your
 phone number correctly.
 
 -   If you entered the wrong phone number, you can [update your phone
-    number here](https://idp.login.gov/sign_up/enter_email/manage/phone).
+    number here](https://secure.login.gov/sign_up/enter_email/manage/phone){:target="_blank"}.
 -   If you entered your phone number correctly, you can [resend the
     confirmation SMS](#). Select if you want to receive the security
     code by text message if you have a mobile phone or through a phone
@@ -160,13 +160,13 @@ finished at login.gov, you will be directed back to the agency.
 
 We hope login.gov is a convenient and secure option for you. However, if
 you prefer not to use login.gov, you can always access government
-services. You’ll find more information at your agency.
+services. You'll find more information at your agency.
 
 ### What do I do if an account already exists under my email address?
 
 Confirming access to an email address is the first step in making a
 login.gov account. If you received a notice that there is already a
-login.gov account associated with your email address but you don’t
+login.gov account associated with your email address but you don't
 remember creating it, use your email address to sign in and go through
 the password reset process.
 
@@ -196,15 +196,15 @@ email address and password, login.gov will send to your phone a security
 code, which you will need to enter into the security code field in order
 to be logged in securely.
 
-### What do I do if my password doesn’t work or I forget it?
+### What do I do if my password doesn't work or I forget it?
 
-If you don’t know your password, the link to reset it is on the sign-in
+If you don't know your password, the link to reset it is on the sign-in
 page. Enter your email address to receive a link to reset your password.
-Once you follow the link, you’ll be asked to enter a new password.
+Once you follow the link, you'll be asked to enter a new password.
 Reconfirm that you have your phone (the one you will use to receive
 one-time passcodes).
 
-After you’ve successfully signed into login.gov after resetting your
+After you've successfully signed into login.gov after resetting your
 password, login.gov will give you a personal key. The personal key is to
 be used in the event you forget your password or don't have your phone
 with you. Make a note of it and store it separately from your phone.
@@ -216,36 +216,36 @@ sent to your phone either by text message or by phone call. The security
 code you receive expires after 5 minutes and can only be used once. If
 you miss entering the security code within the 5 minutes or you just
 missed the phone call, just request a new security code. Each security
-code is only good once, so no one can steal one you’ve already used. We
+code is only good once, so no one can steal one you've already used. We
 limit requests to three every 15 minutes, but otherwise you can request
 as many codes as you need.
 
-### If I don’t have my phone with me, can I still sign in?
+### If I don't have my phone with me, can I still sign in?
 
 It is necessary to have your phone in order to get the security key to
-sign in. But if you don’t have your phone with you, you will need the
+sign in. But if you don't have your phone with you, you will need the
 personal key you received when you created your account. Enter the
 personal key when instructed and select submit. Once you are signed in,
 you will immediately get a new personal key. Please store the personal
 key in a safe place separately from your phone since the personal key
-will let you sign in to your account in case you don’t have your phone
+will let you sign in to your account in case you don't have your phone
 with you.
 
 We encourage you to store your personal key somewhere other than your
-computer or mobile device — this way, you’ll be able to access your
+computer or mobile device — this way, you'll be able to access your
 personal key even if your device is stolen or your online accounts are
 hacked.
 
-### I can’t remember where my personal key is and I don’t have my phone with me.
+### I can't remember where my personal key is and I don't have my phone with me.
 
-If you don’t have your phone or your personal key, you may need to
+If you don't have your phone or your personal key, you may need to
 create a new account and re-verify your personal information. To create
 a new account, you will need to use a different email address than you
 did when you created your first account. For urgent matters — for
 example, to check the status of an in-progress application — you may
 want to directly contact the government agency.
 
-Or, if you don’t have your personal key and phone, call 1-844-USLOGIN to
+Or, if you don't have your personal key and phone, call 1-844-USLOGIN to
 talk to an information specialist between the hours of 8 a.m. and 8 p.m.
 Eastern Time, Monday through Friday, except federal holidays.
 
@@ -264,7 +264,7 @@ three per session, followed by a 5-minute lockout.
 
 ### I forgot which email address I used to create an account.
 
-If you can’t remember which email address you used to create your
+If you can't remember which email address you used to create your
 account, you can use the password reset function to see if your email
 address is on file.
 
@@ -274,7 +274,7 @@ have your email address in our records, we will send instructions on how
 to reset your password. Check your email in a few minutes for these
 instructions.
 
-If still can’t remember the email address you used to set up your
+If still can't remember the email address you used to set up your
 account, call 1-844-USLOGIN to talk to an information specialist between
 the hours of 8 a.m. and 8 p.m. Eastern Time, Monday through Friday,
 except federal holidays.
@@ -284,7 +284,7 @@ Changing settings
 
 ### How do I change my password?
 
-To change your password, sign in at [login.gov](https://idp.login.gov/) and go
+To change your password, sign in at [login.gov](https://secure.login.gov/){:target="_blank"} and go
 to your Profile page. If you want to change your password, select Edit next to
 password, enter the new password and submit your change. Passwords must be at
 least 8 characters but otherwise there are no restrictions. You can even use
@@ -317,7 +317,7 @@ Privacy and security
 
 login.gov respects your privacy. We collect personal data online only to
 help you fulfill your requests with federal agencies that partner with
-us. login.gov manages specific parts of that agency’s website so we
+us. login.gov manages specific parts of that agency's website so we
 collect personal data in order to provide a secure and private
 environment for you to access certain government services. We are bound
 by our privacy policy. login.gov does not lease, sell or release your
@@ -331,7 +331,7 @@ disclaimer available on their website.
 
 Individual accounts get a double layer of security. We require
 two-factor authentication as well as strong passwords that meet new
-[National Institute of Standards of Technology](https://www.nist.gov/)
+[National Institute of Standards of Technology](https://www.nist.gov/){:target="_blank"}
 requirements for secure validation and verification. This includes
 two-step authentication that requires you log in with your password and
 a security code you receive on your phone. Two-step authentication can
@@ -345,8 +345,8 @@ to learn more about how our protection works.
 ### Will login.gov share my information?
 
 login.gov cannot share any information with other government agencies
-without the user’s permission. Not even login.gov administrators can
-decrypt or access a user’s personal information without the user’s
+without the user's permission. Not even login.gov administrators can
+decrypt or access a user's personal information without the user's
 password.
 
 ### How do I make my password strong?
@@ -357,10 +357,10 @@ many words are stronger than short passwords with special characters.
 
 When creating a password, also try to avoid using slang terms and common
 misspellings and words spelled backward. Also, avoid using your company
-name or your spouse’s or children’s names - and even your pet - as well
+name or your spouse's or children's names - and even your pet - as well
 as other personal information such as your age or birth date.
 
-If you’re already signed in, and you’re trying to change your password,
+If you're already signed in, and you're trying to change your password,
 email, or phone, you will be prompted to enter your current password
 before you can make the changes.
 
@@ -372,19 +372,19 @@ failed attempts.
 ### Can I remove a saved password or login information from my browser?
 
 If you accidentally saved your login.gov password or other sign-in
-information in your browser, it’s a good idea for you to delete it; this
+information in your browser, it's a good idea for you to delete it; this
 will help you keep your account more secure. From the following list,
 select the browser (the computer program you use to access the World
 Wide Web) you use to learn how to make it erase any saved information:
 
--   [Chrome](https://support.google.com/chrome/answer/95606)
--   [Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-change-passwords#w_viewing-and-deleting-passwords)
+-   [Chrome](https://support.google.com/chrome/answer/95606){:target="_blank"}
+-   [Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-change-passwords#w_viewing-and-deleting-passwords){:target="_blank"}
 -   [Internet
-    Explorer](https://support.microsoft.com/en-us/help/17499/windows-internet-explorer-11-remember-passwords-fill-out-web-forms#ie=ie-11)
--   [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103)
+    Explorer](https://support.microsoft.com/en-us/help/17499/windows-internet-explorer-11-remember-passwords-fill-out-web-forms#ie=ie-11){:target="_blank"}
+-   [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank"}
 
-Also, remember whenever you’re online, check the address bar of any
-webpage you’re visiting to make sure that you can trust them, especially
+Also, remember whenever you're online, check the address bar of any
+webpage you're visiting to make sure that you can trust them, especially
 any page that asks you to share a username and password. Be careful
 about sharing personal information such as your login credentials,
 financial information, or Social Security number over email.

@@ -1,0 +1,5 @@
+cache: bundler
+language: ruby
+script:
+  - make clean
+  - make test
