@@ -12,6 +12,7 @@ Security & Privacy
 <!-- MarkdownTOC depth="6" autolink="true" bracket="round" -->
 
 - [Our security practices](#our-security-practices)
+  - [Vulnerability Disclosure Policy](#vulnerability-disclosure-policy)
 - [Our privacy practices](#our-privacy-practices)
   - [Privacy Act statement](#privacy-act-statement)
     - [Authorities](#authorities)
@@ -37,6 +38,10 @@ upload or change information, or otherwise cause damage.
 Unauthorized access or use of login.gov (e.g. use for criminal purposes,
 or to cause damage, etc) is against the law, and may subject you to
 criminal prosecution and penalties.
+
+### Vulnerability Disclosure Policy
+
+View our [Vulnerability Discloure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/).
 
 Our privacy practices
 ---------------------
