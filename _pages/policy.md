@@ -43,7 +43,7 @@ criminal prosecution and penalties.
 
 Login.gov authorizes the outside security community to perform security research for the intent of reporting discovered security vulnerabilities in the Login.gov platform.
 
-View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/) for details on this policy and how to report discovered vulnerabilities.
+View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} for details on this policy and how to report discovered vulnerabilities.
 
 Our privacy practices
 ---------------------
