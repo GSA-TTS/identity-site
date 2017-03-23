@@ -338,7 +338,7 @@ help protect your account against password compromises.
 
 Your information will stay secure. For more information, read our
 [security and privacy policy]({{ site.baseurl }}/privacy). Please email
-<[info@login.gov](mailto:info@login.gov)>
+[info@login.gov](mailto:info@login.gov)
 to learn more about how our protection works.
 
 ### Will login.gov share my information?
@@ -397,7 +397,7 @@ Friday, except federal holidays.
 Please let us know what's working and what you'd like to see in the
 future - we're actively improving login.gov, and we base our
 improvements on feedback from users like you! Email your suggestions to
-<[info@login.gov](mailto:info@login.gov)>.
+[info@login.gov](mailto:info@login.gov).
 
   </div>
 </div>

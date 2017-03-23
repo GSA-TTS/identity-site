@@ -53,3 +53,19 @@ RSpec::Matchers.define :include_a_valid_table_of_contents do
     end
   end
 end
+
+RSpec::Matchers.define :properly_escape_html do
+  escaped_html_tags = nil
+
+  match do |actual|
+    doc = actual
+
+    escaped_html_tags = doc.to_s.scan(/(&lt;(.+)&gt;)/).map(&:first)
+
+    expect(escaped_html_tags).to be_empty
+  end
+
+  failure_message do |actual|
+    "expected that #{actual.url} would not have escaped html tags, but found:\n#{escaped_html_tags.join("\n")}"
+  end
+end
