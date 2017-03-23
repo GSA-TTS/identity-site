@@ -22,7 +22,7 @@ class: bg-light-blue
           <img class="col sm-col-5" src="{{ site.baseurl }}/assets/img/vault.svg" alt="an open vault" width="122">
         </div>
         <h2 class="h3 blue mb3 hz-dot-border">The vault</h2>
-        <p>It's hard to break into the “vault” or database. login.gov implements the latest <a href="https://www.nist.gov/">National Institute of Standards and Technology (NIST)</a> standards for secure authentication and verification. Our plans for ongoing security include regular penetration testing and external security reviews. </p>
+        <p>It's hard to break into the “vault” or database. login.gov implements the latest <a href="https://www.nist.gov/" target="_blank">National Institute of Standards and Technology (NIST)</a> standards for secure authentication and verification. Our plans for ongoing security include regular penetration testing and external security reviews. </p>
       </div>
       <div class="col sm-col-4 px2">
         <div class="clearfix">
@@ -48,7 +48,7 @@ class: bg-light-blue
     <div class="clearfix mxn1">
       <div class="col sm-col-12 my3">
         <img class="col sm-col-2 py1 pl3" src="{{ site.baseurl }}/assets/img/code.svg" alt="maginifying glass examining computer code" width="113"/>
-        <p class="col sm-col-6 px3 regular py1 m0">We welcome external review of our privacy-protection measures. All of our code is available for public inspection in an open-source repository. Our goal: make sure that at every step users know their privacy is being protected by design.</h4>
+        <p class="col sm-col-6 px3 regular py1 m0">We welcome external review of our privacy-protection measures. All of our code is available for public inspection in an open-source repository. Our goal: make sure that at every step users know their privacy is being protected by design.</p>
         <div class="col sm-col-4 px2 py1 vt-dot-border">
           <div class="ml2">
             <div class='sm-show'>
