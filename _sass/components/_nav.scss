@@ -1,13 +1,12 @@
 header nav {
   .active, {
-    color: $red;
+    font-weight: bold;
     padding-bottom: $space-1;
     position: relative;
     text-decoration: none;
 
     &::after {
-      border-bottom: $red 4px solid;
-      border-radius: 12px;
+      border-bottom: $red 2px solid;
       content: '';
       left: 0;
       position: absolute;

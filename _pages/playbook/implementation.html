@@ -1,27 +1,28 @@
 ---
-title: About identity management
-permalink: /playbook/about/
+title: Implementation
+permalink: /playbook/implementation/
 styles:
   - /assets/stylesheets/playbook.css
-scripts:
-  - /assets/js/build/bundle.js
 ---
 
-{% include playbook_navigation.html %}
-
 <div id="about-identity" class="bg-navy" tabIndex="-1">
-  <div class="container cntnr-wide px2 py5">
-    <h2 class="mt0 mb1 h1 white">
-      About identity management
-    </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-2.svg' | prepend: site.baseurl }}">
-    <p class="h2 mb2 serif white">
-      Before implementing login.gov or any other consumer identity management system, you should determine whether your agency or organization needs one. Below is a list of questions to ask and things to consider to help you figure that out.
-    </p>
+  <div class="container cntnr-wide px2 py3">
+    <h1 class="m0 h2 white">
+      Implementing an identity management system
+    </h1>
   </div>
 </div>
 <div class="bg-white">
   <div class="container cntnr-wide px2 pt4 pb5">
     <div class="clearfix">
+      <nav id="pb-nav--side-cntnr" class="sm-col-right sm-col-3 sm-show">
+        <ul id="pb-nav--side" class="list-reset pt2 red nav">
+          <li class="mb2"><a class="h5 serif" href="#protecting">What are you protecting?</a></li>
+          <li class="mb2"><a class="h5 serif" href="#consumer-identity">What is a consumer identity management system?</a></li>
+          <li class="mb2"><a class="h5 serif" href="#implementation">Implementation</a></li>
+          <li class="mb2"><a class="h5 serif" href="#resources">Resources</a></li>
+        </ul>
+      </nav>
       <div class="sm-col sm-col-8 mb2">
         <h3 id="protecting" class="mt0 mb2 pt2 h1" tabIndex="-1">
           What are you protecting?
@@ -169,15 +170,6 @@ scripts:
           </li>
         </ul>
       </div>
-      <nav id="pb-nav--side-cntnr" class="sm-col-right sm-col-3 sm-show">
-        <ul id="pb-nav--side" class="list-reset pt2 red nav">
-          <li class="mb2"><a class="h5 serif" href="#about-identity">About identity management</a></li>
-          <li class="mb2"><a class="h5 serif" href="#protecting">What are you protecting?</a></li>
-          <li class="mb2"><a class="h5 serif" href="#consumer-identity">What is a consumer identity management system?</a></li>
-          <li class="mb2"><a class="h5 serif" href="#implementation">Implementation</a></li>
-          <li class="mb2"><a class="h5 serif" href="#resources">Resources</a></li>
-        </ul>
-      </nav>
     </div>
   </div>
 </div>

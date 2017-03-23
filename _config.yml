@@ -8,6 +8,10 @@ collections:
     output: true
     permalink: /:path/
 
+# Scripts
+scripts:
+  - /assets/js/build/bundle.js
+
 # Styles
 styles:
   - /assets/stylesheets/main.css

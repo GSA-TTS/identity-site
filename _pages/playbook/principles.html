@@ -3,44 +3,25 @@ title: Principles
 permalink: /playbook/principles/
 styles:
   - /assets/stylesheets/playbook.css
-scripts:
-  - /assets/js/build/bundle.js
 ---
 
-{% include playbook_navigation.html %}
-
 <div id="principles" class="bg-navy" tabIndex="-1">
-  <div class="container cntnr-wide px2 py5">
-    <h2 class="mt0 mb1 h1 white">
-      The principles
-    </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-1.svg' | prepend: site.baseurl }}">
-    <div class="clearfix mxn2 fs-lead">
-      <div class="sm-col sm-col-8 px2 white">
-        <div class="serif">
-          <p>
-            Building this system includes taking recommendations and best practices from policy experts, system architects, and people focused on creating a great user experience. Our research and our progress so far has led us to identify five major principles that we believe will help us make the best system possible.
-          </p>
-          <p>
-            If you are adopting the system we’re building or creating your own, please use these principles as a guide to ensure a reliable product that deserves the public trust.
-          </p>
-        </div>
-        <ul class="mt3 mb0 ml1 pl1 pb-list--bullet">
-          {% for p in site.playbook.principles %}
-            <li class="mb2">
-              <a class="white bold" href="#{{p.anchor}}">{{p.text}}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="sm-col sm-col-4 px2 center sm-show">
-        <img alt="" width="244" class="mt2" src="{{ '/assets/img/graphic-playbook.png' | prepend: site.baseurl }}">
-      </div>
-    </div>
+  <div class="container cntnr-wide px2 py3">
+    <h1 class="m0 h2 white">
+      The principles of the identity playbook
+    </h1>
   </div>
 </div>
 <div class="bg-white">
   <div class="container cntnr-wide px2 pt4 pb5">
     <div class="clearfix">
+      <nav id="pb-nav--side-cntnr" class="sm-col-right sm-col-3 sm-show">
+        <ul id="pb-nav--side" class="list-reset pt2 red nav">
+          {% for p in site.playbook.principles %}
+            <li class="mb2"><a class="h5 serif" href="#{{p.anchor}}">{{p.text}}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
       <div class="sm-col sm-col-8">
         <div class="mb4 pt2" id="users" tabIndex="-1">
           <img alt="" width="126" class="mb3 block" src="{{ '/assets/img/graphic-users.svg' | prepend: site.baseurl }}">
@@ -180,14 +161,6 @@ scripts:
           </p>
         </div>
       </div>
-      <nav id="pb-nav--side-cntnr" class="sm-col-right sm-col-3 sm-show">
-        <ul id="pb-nav--side" class="list-reset pt2 red nav">
-          <li class="mb2"><a class="h5 serif" href="#principles">The principles</a></li>
-          {% for p in site.playbook.principles %}
-            <li class="mb2"><a class="h5 serif" href="#{{p.anchor}}">{{p.text}}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
     </div>
   </div>
 </div>
