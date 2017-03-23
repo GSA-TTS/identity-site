@@ -1,5 +1,6 @@
 ---
 title: login.gov
+permalink: /
 ---
 
 <div class="bg-navy mb-40p">
@@ -40,8 +41,14 @@ title: login.gov
 
 <div class="bg-light-blue">
   <div class="container cntnr-wide px2 py3">
-    <h2 class="mt1 mb2 h3 teal">Learn more</h2>
-    <p class="mt0 fs-20p serif line-height-3">If you’re interested in learning more or helping us deliver this platform for millions of Americans, please send us a note at 18F@gsa.gov.</p>
-    <a href="{{ site.baseurl }}/contact" class="btn btn-primary btn-wide mb2">Contact us</a>
+    <div class="clearfix">
+      <div class="col-10 mx-auto">
+        <h2 class="mt1 mb2 h3 red">Learn more</h2>
+        <p class="mt0 fs-20p serif line-height-3">If you’re interested in learning more or helping us deliver this platform for millions of Americans, please send us a note at 18F@gsa.gov.</p>
+        <div class="center">
+          <a href="{{ site.baseurl }}/contact" class="btn btn-primary btn-wide mb2">Contact us</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
