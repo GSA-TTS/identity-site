@@ -1,8 +1,10 @@
-run: npm-dev jekyll
+run: npm-build-js npm-watch-css jekyll
 
 jekyll:
 	bundle exec jekyll serve --watch
 
-npm-dev:
-	npm run start
+npm-build-js:
+	npm run build-js
 
+npm-watch-css:
+	npm run watch-css
