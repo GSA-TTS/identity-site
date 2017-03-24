@@ -1,12 +1,12 @@
 ---
-title: Help
+title: Help center
 permalink: /help/
 ---
 
 <div class="bg-white">
   <div class="container cntnr-wide pb3" markdown="1">
 
-Help Center
+Help center
 ===========
 
 <!-- MarkdownTOC depth="2" autolink="true" bracket="round" -->

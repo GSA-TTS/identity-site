@@ -1,44 +1,20 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
-
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% include meta.html %}
     {% include styles.html %}
     {% include google_analytics.html %}
   </head>
-  <body class="{{ layout.class }} {{ page.class }} site" data-spy="scroll" data-target="#pb-nav--side-cntnr">
+  <body class="{{ layout.class }} {{ page.class }} site"{% if page.url contains '/playbook/' %} data-spy="scroll" data-target="#pb-nav--side-cntnr"{% endif %}>
     <div class="site-wrap">
-      <div class="py1 bg-navy white fs-12p line-height-1 center">
-        <img alt="US flag" src="{{ site.baseurl }}/assets/img/us-flag.png" width="18" class="mr1 align-bottom">
-        An official website of the United States government
-      </div>
-
-      <header class="bg-white">
-        <div class="container cntnr-wide px2 py3">
-          <div class="clearfix">
-            <div class="col">
-              <a href="{{ site.baseurl }}/" class="inline-block"><img alt="US flag" src="{{ site.baseurl }}/assets/img/logo.svg" width="188"></a>
-            </div>
-            <div class="col-right">
-              {% include header.html %}
-            </div>
-          </div>
-        </div>
-      </header>
-
+      {% include banner.html %}
+      {% include header.html %}
       <main id="main-content">
       {{ content }}
       </main>
     </div>
     {% include footer.html %}
   </body>
-  <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
-  <script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA&subagency=18F" id="_fed_an_ua_tag"></script>
+  {% include dap.html %}
   {% include scripts.html %}
 </html>
