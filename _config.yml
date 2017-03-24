@@ -14,7 +14,7 @@ scripts:
 
 # Styles
 styles:
-  - /assets/stylesheets/main.css
+  - /assets/stylesheets/build/main.css
 
 sass:
   style: compressed
@@ -29,6 +29,15 @@ defaults:
       path: ""
     values:
       layout: main
+
+exclude:
+  - /assets/stylesheets/main.scss
+  - Gemfile*
+  - Makefile*
+  - node_modules
+  - package.json
+  - spec
+  - webpack.config.js
 
 # Per-section configs
 playbook:
