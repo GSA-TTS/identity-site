@@ -1,8 +1,12 @@
+---
+layout: null
+---
+
 <?xml version="1.0" encoding="utf-8"?>
 <browserconfig>
   <msapplication>
     <tile>
-      <square150x150logo src="/mstile-150x150.png"/>
+      <square150x150logo src="{{ '/mstile-150x150.png' | relative_url }}"/>
       <TileColor>#2b5797</TileColor>
     </tile>
   </msapplication>
