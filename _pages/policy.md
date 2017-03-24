@@ -92,7 +92,7 @@ notices](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy
 #### For more information
 
 We are happy to answer any questions you may have via our [contact
-form](/contact).
+form]({{site.baseurl}}/contact).
 
   </div>
 </div>
