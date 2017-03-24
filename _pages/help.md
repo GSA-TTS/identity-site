@@ -136,7 +136,7 @@ If you didn't receive a security code, check whether you entered your
 phone number correctly.
 
 -   If you entered the wrong phone number, you can update your phone
-    number here.
+    number in your account settings.
 -   If you entered your phone number correctly, you can [resend the
     confirmation SMS](#). Select if you want to receive the security
     code by text message if you have a mobile phone or through a phone
