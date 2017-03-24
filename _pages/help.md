@@ -125,8 +125,8 @@ If you didn't receive a confirmation email, check your spam filter.
 Alternatively, you may have accidentally mistyped your email address. If
 so, you can always make another account with your correct email address.
 
--   If you mistyped your address, you can [create a new
-    account](https://secure.login.gov/sign_up/enter_email){:target="_blank"}.
+-   If you mistyped your address, you can create a new
+    account.
 -   If you are certain you entered the correct address, choose “Send
     again” to get a new confirmation email.
 
@@ -135,8 +135,8 @@ so, you can always make another account with your correct email address.
 If you didn't receive a security code, check whether you entered your
 phone number correctly.
 
--   If you entered the wrong phone number, you can [update your phone
-    number here](https://secure.login.gov/sign_up/enter_email/manage/phone){:target="_blank"}.
+-   If you entered the wrong phone number, you can update your phone
+    number here.
 -   If you entered your phone number correctly, you can [resend the
     confirmation SMS](#). Select if you want to receive the security
     code by text message if you have a mobile phone or through a phone
@@ -283,7 +283,7 @@ Changing settings
 
 ### How do I change my password?
 
-To change your password, sign in at [login.gov](https://secure.login.gov/){:target="_blank"} and go
+To change your password, sign in at login.gov and go
 to your Profile page. If you want to change your password, select Edit next to
 password, enter the new password and submit your change. Passwords must be at
 least 8 characters but otherwise there are no restrictions. You can even use
