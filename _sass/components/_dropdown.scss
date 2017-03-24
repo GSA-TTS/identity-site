@@ -7,6 +7,10 @@
   .dropdown {
     position: relative;
 
+    & > a {
+      padding-bottom: $space-1;
+    }
+
     li {
       border-bottom: $border-width solid $border-color;
 
@@ -61,12 +65,8 @@
 
   .dropdown:hover,
   .dropdown.focused {
-    & > a {
-      padding-bottom: $space-1;
-      
-      &::after {
-        content: none;
-      }
+    & > a::after {
+      content: none;
     }
 
     ul {

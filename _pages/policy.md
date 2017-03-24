@@ -1,12 +1,12 @@
 ---
-title: Privacy Policy
+title: Security & privacy
 permalink: /policy/
 ---
 
 <div class="bg-white">
   <div class="container cntnr-wide pb3" markdown="1">
 
-Security & Privacy
+Security & privacy
 ==================
 
 <!-- MarkdownTOC depth="6" autolink="true" bracket="round" -->
