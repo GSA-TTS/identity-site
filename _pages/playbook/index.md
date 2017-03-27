@@ -1,15 +1,13 @@
 ---
 title: Identity playbook
 permalink: /playbook/
-styles:
-  - /assets/stylesheets/playbook.css
 ---
 
 <div class="bg-navy mb-40p">
   <div class="container cntnr-wide px2 py3">
     <img alt="" width="231" class="mt1 mx4 right md-show" src="{{ '/assets/img/playbook-landing.svg' | prepend: site.baseurl }}">
     <h1 class="h2 mt1 white">Identity playbook</h1>
-    <p class="pt4 md-pt2 h4 overflow-hidden white line-height-3 fs-lead">
+    <p class="pt4 md-pt2 h4 overflow-hidden white line-height-3 fs-20p">
       Identity management — or making sure that only the correct people get access to systems — is central to delivering public services online. We are sharing these principles to help developers and technologists in government agencies build usable, secure, and privacy-protecting consumer identity management systems.
     </p>
   </div>

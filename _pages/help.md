@@ -1,62 +1,64 @@
 ---
-title: Help center
+title: Help Center
 permalink: /help/
+class: relative
 ---
 
+<div id="help-center" class="bg-navy">
+  <div class="container cntnr-wide px2 py5">
+    <h1 class="mt0 mb1 h2 white">
+      {{ page.title }}
+    </h1><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-1.svg' | relative_url }}">
+    <div class="clearfix mxn2 fs-20p">
+      <div class="sm-col sm-col-8 px2 white">
+        <div class="serif">
+          <p>
+            login.gov offers the public secure and private online access to participating government programs. With one login.gov account, users can sign in to multiple government agencies. The goal: make managing federal benefits, services and applications faster and more secure.
+          </p>
+          <p>
+            The General Services Administration, or GSA, manages login.gov. As a federal agency, GSA’s mission is to make interactions with the government easier and more efficient.
+          </p>
+        </div>
+        <ul class="mt3 mb0 ml1 pl1 list-arrow teal js-smooth-scroll">
+          {% for section in site.help_center %}
+            <li class="mb2"><a class="white bold text-decoration-none" href="#{{section.anchor}}">{{section.text}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="sm-col sm-col-4 px2 center sm-show">
+        <img alt="" width="244" class="mt2" src="{{ '/assets/img/help-center.svg' | relative_url }}">
+      </div>
+    </div>
+  </div>
+</div>
 <div class="bg-white">
-  <div class="container cntnr-wide pb3" markdown="1">
+  <div class="container cntnr-wide px2 pt4 pb5">
+    <div class="clearfix">
+      <nav id="pb-nav--side-cntnr" class="sm-col-right sm-col-3 sm-show">
+        <ul id="pb-nav--side" class="list-reset pt2 red nav">
+          {% for section in site.help_center %}
+            <li class="mb2"><a class="h5 serif" href="#{{section.anchor}}">{{section.text}}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <div class="sm-col sm-col-8">
+        <div id="creating-an-account" class="mb4 pt2">
+          <h2 class="mt0 mb1">
+            Creating an account
+          </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-2.svg' | prepend: site.baseurl }}">
+          <ul class="list-reset mb3 serif bold h4 teal-dots js-smooth-scroll">
+            <li class="mb2 pl3"><a href="#how-do-i-create-an-account-with-logingov">How do I create an account with login.gov?</a></li>
+            <li class="mb2 pl3"><a href="#what-is-two-factor-authentication">What is two-factor authentication?</a></li>
+            <li class="mb2 pl3"><a href="#why-do-i-need-to-confirm-my-email-address-and-my-phone-number">Why do I need to confirm my email address and my phone number?</a></li>
+            <li class="mb2 pl3"><a href="#i-didnt-receive-a-confirmation-email-from-logingov">I didn't receive a confirmation email from login.gov.</a></li>
+            <li class="mb2 pl3"><a href="#why-didnt-i-receive-a-security-code-to-confirm-my-phone">Why didn't I receive a security code to confirm my phone?</a></li>
+            <li class="mb2 pl3"><a href="#do-i-need-a-mobile-phone-to-use-logingov">Do I need a mobile phone to use login.gov?</a></li>
+            <li class="mb2 pl3"><a href="#why-do-i-need-to-use-logingov-to-access-government-services-online">Why do I need to use login.gov to access government services online?</a></li>
+            <li class="mb2 pl3"><a href="#what-do-i-do-if-an-account-already-exists-under-my-email-address">What do I do if an account already exists under my email address?</a></li>
+            <li class="mb2 pl3"><a href="#what-do-i-do-if-an-account-has-already-been-created-using-my-phone-number">What do I do if an account has already been created using my phone number?</a></li>
+          </ul>
 
-Help center
-===========
-
-<!-- MarkdownTOC depth="2" autolink="true" bracket="round" -->
-
-  - [What is login.gov?](#what-is-logingov)
-- [Creating an account](#creating-an-account)
-  - [How do I create an account with login.gov?](#how-do-i-create-an-account-with-logingov)
-  - [What is two-factor authentication?](#what-is-two-factor-authentication)
-  - [Why do I need to confirm my email address and my phone number?](#why-do-i-need-to-confirm-my-email-address-and-my-phone-number)
-  - [I didn't receive a confirmation email from login.gov.](#i-didnt-receive-a-confirmation-email-from-logingov)
-  - [Why didn't I receive a security code to confirm my phone?](#why-didnt-i-receive-a-security-code-to-confirm-my-phone)
-  - [Do I need a mobile phone to use login.gov?](#do-i-need-a-mobile-phone-to-use-logingov)
-  - [Why do I need to use login.gov to access government services online?](#why-do-i-need-to-use-logingov-to-access-government-services-online)
-  - [What do I do if an account already exists under my email address?](#what-do-i-do-if-an-account-already-exists-under-my-email-address)
-  - [What do I do if an account has already been created using my phone number?](#what-do-i-do-if-an-account-has-already-been-created-using-my-phone-number)
-- [Signing in](#signing-in)
-  - [What do I need to have in order to sign in?](#what-do-i-need-to-have-in-order-to-sign-in)
-  - [What do I do if my password doesn't work or I forget it?](#what-do-i-do-if-my-password-doesnt-work-or-i-forget-it)
-  - [What happens if I miss the phone call or the text message with my one-time security code?](#what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code)
-  - [If I don't have my phone with me, can I still sign in?](#if-i-dont-have-my-phone-with-me-can-i-still-sign-in)
-  - [I can't remember where my personal key is and I don't have my phone with me.](#i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me)
-  - [Why does the system log me out?](#why-does-the-system-log-me-out)
-  - [I forgot which email address I used to create an account.](#i-forgot-which-email-address-i-used-to-create-an-account)
-- [Changing settings](#changing-settings)
-  - [How do I change my password?](#how-do-i-change-my-password)
-  - [How do I change my email address?](#how-do-i-change-my-email-address)
-  - [How do I change the phone number I am using with my account?](#how-do-i-change-the-phone-number-i-am-using-with-my-account)
-- [Privacy and security](#privacy-and-security)
-  - [How does login.gov protect my data?](#how-does-logingov-protect-my-data)
-  - [Will login.gov share my information?](#will-logingov-share-my-information)
-  - [How do I make my password strong?](#how-do-i-make-my-password-strong)
-  - [Can I remove a saved password or login information from my browser?](#can-i-remove-a-saved-password-or-login-information-from-my-browser)
-  - [Still have questions?](#still-have-questions)
-
-<!-- /MarkdownTOC -->
-
-### What is login.gov?
-
-login.gov offers the public secure and private online access to
-participating government programs. With one login.gov account, users can
-sign in to multiple government agencies. The goal: make managing federal
-benefits, services and applications faster and more secure.
-
-The [General Services Administration](https://gsa.gov){:target="_blank"}, or GSA, manages
-login.gov. As a federal agency, GSA's mission is to make interactions
-with the government easier and more efficient.
-
-Creating an account
--------------------
-
+<div markdown="1">
 ### How do I create an account with login.gov?
 
 To create a login.gov account, you will need: a valid email address, and
@@ -183,10 +185,24 @@ If you are not able to sign in or you have other questions about this,
 call 1-844-USLOGIN to talk to an information specialist between the
 hours of 8 a.m. and 8 p.m. Eastern Time, Monday through Friday, except
 federal holidays.
+</div>
 
-Signing in
-----------
+        </div>
+        <div id="signing-in" class="mb4 pt2">
+          <h2 class="mt0 mb1">
+            Signing in
+          </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-3.svg' | prepend: site.baseurl }}">
+          <ul class="list-reset mb3 serif bold h4 teal-dots js-smooth-scroll">
+            <li class="mb2 pl3"><a href="#what-do-i-need-to-have-in-order-to-sign-in">What do I need to have in order to sign in?</a></li>
+            <li class="mb2 pl3"><a href="#what-do-i-do-if-my-password-doesnt-work-or-i-forget-it">What do I do if my password doesn't work or I forget it?</a></li>
+            <li class="mb2 pl3"><a href="#what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code">What happens if I miss the phone call or the text message with my one-time security code?</a></li>
+            <li class="mb2 pl3"><a href="#if-i-dont-have-my-phone-with-me-can-i-still-sign-in">If I don't have my phone with me, can I still sign in?</a></li>
+            <li class="mb2 pl3"><a href="#i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me">I can't remember where my personal key is and I don't have my phone with me.</a></li>
+            <li class="mb2 pl3"><a href="#why-does-the-system-log-me-out">Why does the system log me out?</a></li>
+            <li class="mb2 pl3"><a href="#i-forgot-which-email-address-i-used-to-create-an-account">I forgot which email address I used to create an account.</a></li>
+          </ul>
 
+<div markdown="1">
 ### What do I need to have in order to sign in?
 
 Every time you log into your account, you will need your email address,
@@ -277,10 +293,20 @@ If still can't remember the email address you used to set up your
 account, call 1-844-USLOGIN to talk to an information specialist between
 the hours of 8 a.m. and 8 p.m. Eastern Time, Monday through Friday,
 except federal holidays.
+</div>
 
-Changing settings
------------------
+        </div>
+        <div id="changing-settings" class="mb4 pt2">
+          <h2 class="mt0 mb1">
+            Changing settings
+          </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}">
+          <ul class="list-reset mb3 serif bold h4 teal-dots js-smooth-scroll">
+            <li class="mb2 pl3"><a href="#how-do-i-change-my-password">How do I change my password?</a></li>
+            <li class="mb2 pl3"><a href="#how-do-i-change-my-email-address">How do I change my email address?</a></li>
+            <li class="mb2 pl3"><a href="#how-do-i-change-the-phone-number-i-am-using-with-my-account">How do I change the phone number I am using with my account?</a></li>
+          </ul>
 
+<div markdown="1">
 ### How do I change my password?
 
 To change your password, sign in at login.gov and go
@@ -308,10 +334,22 @@ Once you reach login.gov your new email address is established.
 To change the phone number where you get your security code, select Edit
 next to the phone number and enter the new phone number. login.gov will
 immediately send your security code to confirm the new phone number.
+</div>
 
-Privacy and security
---------------------
+        </div>
+        <div id="privacy-and-security" class="mb4 pt2">
+          <h2 class="mt0 mb1">
+            Privacy and security
+          </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-5.svg' | prepend: site.baseurl }}">
+          <ul class="list-reset mb3 serif bold h4 teal-dots js-smooth-scroll">
+            <li class="mb2 pl3"><a href="#how-does-logingov-protect-my-data">How does login.gov protect my data?</a></li>
+            <li class="mb2 pl3"><a href="#will-logingov-share-my-information">Will login.gov share my information?</a></li>
+            <li class="mb2 pl3"><a href="#how-do-i-make-my-password-strong">How do I make my password strong?</a></li>
+            <li class="mb2 pl3"><a href="#can-i-remove-a-saved-password-or-login-information-from-my-browser">Can I remove a saved password or login information from my browser?</a></li>
+            <li class="mb2 pl3"><a href="#still-have-questions">Still have questions?</a></li>
+          </ul>
 
+<div markdown="1">
 ### How does login.gov protect my data?
 
 login.gov respects your privacy. We collect personal data online only to
@@ -398,6 +436,10 @@ Please let us know what's working and what you'd like to see in the
 future - we're actively improving login.gov, and we base our
 improvements on feedback from users like you! Email your suggestions to
 [info@login.gov](mailto:info@login.gov).
+</div>
 
+        </div>
+      </div>
+    </div>
   </div>
 </div>

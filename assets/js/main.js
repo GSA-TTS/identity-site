@@ -34,11 +34,12 @@ $(function() {
       }
     });
 
-    $('#pb-nav--side a, #principles li a').smoothScroll({
+    $('#pb-nav--side a, .js-smooth-scroll a').smoothScroll({
       afterScroll: function(options) {
         var $tgt = $(options.scrollTarget);
-        $tgt.attr('tabIndex', '-1');
-        $tgt[0].focus();
+        $tgt.attr('tabindex', -1).on('blur focusout', function() {
+          $(this).removeAttr('tabindex');
+        }).focus();
       }
     });
 
@@ -47,4 +48,3 @@ $(function() {
     });
   }
 });
-

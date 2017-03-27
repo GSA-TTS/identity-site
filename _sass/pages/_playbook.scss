@@ -1,0 +1,19 @@
+[tabindex="-1"] {
+  outline: none;
+}
+
+.affix {
+  padding-top: 0;
+  position: fixed;
+  top: 1rem;
+  width: 235px;
+}
+
+#pb-nav--side .active {
+  list-style-type: disc;
+
+  a {
+    color: $red;
+    font-weight: $bold-font-weight;
+  }
+}

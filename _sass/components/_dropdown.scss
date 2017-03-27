@@ -6,6 +6,7 @@
 
   .dropdown {
     position: relative;
+    z-index: 1;
 
     & > a {
       padding-bottom: $space-1;
