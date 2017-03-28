@@ -40,16 +40,6 @@ exclude:
   - webpack.config.js
 
 # Per-section configs
-help_center:
-  - anchor: creating-an-account
-    text: Creating an account
-  - anchor: signing-in
-    text: Signing in
-  - anchor: changing-settings
-    text: Changing settings
-  - anchor: privacy-and-security
-    text: Privacy and security
-
 playbook:
   principles:
    - anchor: users
