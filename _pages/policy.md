@@ -1,98 +1,42 @@
 ---
 title: Security & privacy
 permalink: /policy/
+class: relative
 ---
 
+<div class="bg-navy">
+  <div class="container cntnr-wide px2 py3">
+    <h1 class="m0 h2 white">
+      {{ page.title }}
+    </h1>
+  </div>
+</div>
 <div class="bg-white">
-  <div class="container cntnr-wide pb3" markdown="1">
-
-Security & privacy
-==================
-
-<!-- MarkdownTOC depth="6" autolink="true" bracket="round" -->
-
-- [Our security practices](#our-security-practices)
-  - [Vulnerability Disclosure Policy](#vulnerability-disclosure-policy)
-- [Our privacy practices](#our-privacy-practices)
-  - [Privacy Act statement](#privacy-act-statement)
-    - [Authorities](#authorities)
-    - [Purpose](#purpose)
-    - [Disclosure](#disclosure)
-    - [Routine uses](#routine-uses)
-    - [For more information](#for-more-information)
-
-<!-- /MarkdownTOC -->
-
-By using login.gov, you agree that you understand and consent to the
-following terms of service:
-
-Our security practices
-----------------------
-
-login.gov uses a variety of industry-standard security methods to
-protect this U.S. government service and your data, and to ensure the
-service remains available to all users. These methods include monitoring
-and recording network traffic to identify unauthorized attempts to
-upload or change information, or otherwise cause damage.
-
-Unauthorized access or use of login.gov (e.g. use for criminal purposes,
-or to cause damage, etc) is against the law, and may subject you to
-criminal prosecution and penalties.
-
-### Vulnerability Disclosure Policy
-
-login.gov authorizes the outside security community to perform security research for the intent of reporting discovered security vulnerabilities in the login.gov platform.
-
-View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} for details on this policy and how to report discovered vulnerabilities.
-
-Our privacy practices
----------------------
-
-This privacy notice describes how we ask for, use, retain, and protect
-your personal information, as well as your obligation to disclose it.
-
-Our goal is to protect your personal information, and we will not share
-it without your permission. For example, we will ask you before sharing
-your data with another agency to assess eligibility for additional
-services. However, there may be exceptional circumstances where we are
-required to share data for law enforcement purposes.
-
-### Privacy Act statement
-
-#### Authorities
-
-The information you provide to access your login.gov account is
-collected pursuant to the [E-Government Act of
-2002](https://www.gpo.gov/fdsys/pkg/PLAW-107publ347/html/PLAW-107publ347.htm){:target="_blank"}.
-
-#### Purpose
-
-The information that you submit may be used to create or update your
-login.gov account. Once you create an account, login.gov will use the
-information you provide to verify your identity in order to provide
-online access to government services.
-
-#### Disclosure
-
-You decide what information to give us. However, failure to provide
-complete and accurate information may delay identity proofing and thus
-access to the desired government agency/or service. Please note that the
-login.gov system will record user information such as Internet Protocol
-address and web browser type and version upon submission.
-
-#### Routine uses
-
-This information you give login.gov will be shared with the applicable
-federal agency to provide access to information about you held by the
-agency. It may also assist in determining your eligibility for a
-requested benefit in accordance with the approved routine uses, as
-described in the associated [systems of records
-notices](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"}.
-
-#### For more information
-
-We are happy to answer any questions you may have via our [contact
-form]({{site.baseurl}}/contact).
-
+  <div class="container cntnr-wide px2 pt4 pb5">
+    <div class="clearfix">
+      <nav id="pb-nav--side-cntnr" class="sm-col-right sm-col-3 sm-show">
+        <ul id="pb-nav--side" class="list-reset pt2 red nav">
+          {% for section in site.data.policy %}
+            <li class="mb2"><a class="h5 serif" href="#{{section.anchor}}">{{section.section}}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <div class="sm-col sm-col-8">
+        <p>By using login.gov, you agree that you understand and consent to the following terms of service:</p>
+        {% for section in site.data.policy %}
+          <div id="{{ section.anchor }}" class="mb4 pt2">
+            <h2 class="mt0 mb1">
+            {{ section.section }}
+            </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-2.svg' | prepend: site.baseurl }}">
+<div markdown="1">
+{{ section.content }}
+</div>
+          </div>
+        {% endfor %}
+        <h4>For more information</h4>
+        <p markdown="1">For more information, please visit the login.gov [Help
+Center]({{site.baseurl}}/help) or [contact us]({{site.baseurl}}/contact).</p>
+      </div>
+    </div>
   </div>
 </div>
