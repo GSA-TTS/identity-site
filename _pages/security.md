@@ -54,8 +54,7 @@ class: bg-light-blue
             <div class='sm-show'>
               <img class="col col-6 mb1" src="{{ site.baseurl }}/assets/img/logo.svg" alt="login.gov logo">
             </div>
-            <p class="col col-12">For more information, please visit the login.gov [Help
-Center]({{site.baseurl}}/help) or [contact us]({{site.baseurl}}/contact). You can also visit our <a target="_blank" href="https://github.com/18F/identity-idp">open-source repository</a>.</p>
+            <p class="col col-12">For more information, please visit the login.gov <a href="{{site.baseurl}}/help">Help Center</a> or <a href="{{site.baseurl}}/contact">contact us</a>. You can also visit our <a target="_blank" href="https://github.com/18F/identity-idp">open-source repository</a>.</p>
           </div>
         </div>
       </div>

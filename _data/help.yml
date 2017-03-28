@@ -282,7 +282,7 @@
         help protect your account against password compromises.
 
         Your information will stay secure. For more information, read our
-        [security and privacy policy]({{ site.baseurl }}/privacy). Please email
+        [security and privacy policy](site.baseurl/privacy). Please email
         [info@login.gov](mailto:info@login.gov)
         to learn more about how our protection works.
     - question: Will login.gov share my information?
@@ -336,5 +336,5 @@
       content: |
         Please let us know what's working and what you'd like to see in the
         future - we're actively improving login.gov, and we base our
-        improvements on feedback from users like you! Please [contact us]
-        ({{site.baseurl}}/contact) with your questions or feedback.
+        improvements on feedback from users like you! Please [contact us](site.baseurl/contact)
+        with your questions or feedback.

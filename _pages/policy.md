@@ -29,13 +29,10 @@ class: relative
             {{ section.section }}
             </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-2.svg' | prepend: site.baseurl }}">
 <div markdown="1">
-{{ section.content }}
+{{ section.content | replace: 'site.baseurl', site.baseurl }}
 </div>
           </div>
         {% endfor %}
-        <h4>For more information</h4>
-        <p markdown="1">For more information, please visit the login.gov [Help
-Center]({{site.baseurl}}/help) or [contact us]({{site.baseurl}}/contact).</p>
       </div>
     </div>
   </div>
