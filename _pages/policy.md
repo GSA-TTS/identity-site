@@ -34,7 +34,8 @@ class: relative
           </div>
         {% endfor %}
         <h4>For more information</h4>
-        <p markdown="1">We are happy to answer any questions you may have via our [contact form]({{site.baseurl}}/contact).</p>
+        <p markdown="1">For more information, please visit the login.gov [Help
+Center]({{site.baseurl}}/help) or [contact us]({{site.baseurl}}/contact).</p>
       </div>
     </div>
   </div>
