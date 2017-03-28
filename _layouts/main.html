@@ -5,7 +5,7 @@
     {% include styles.html %}
     {% include google_analytics.html %}
   </head>
-  <body class="{{ layout.class }} {{ page.class }} site"{% if page.url contains '/playbook/' %} data-spy="scroll" data-target="#pb-nav--side-cntnr"{% endif %}>
+  <body class="{{ layout.class }} {{ page.class }} site" data-spy="scroll" data-target="#pb-nav--side-cntnr">
     <div class="site-wrap">
       {% include banner.html %}
       {% include header.html %}

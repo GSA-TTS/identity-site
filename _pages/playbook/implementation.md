@@ -1,11 +1,10 @@
 ---
 title: Implementation
 permalink: /playbook/implementation/
-styles:
-  - /assets/stylesheets/playbook.css
+class: relative
 ---
 
-<div id="about-identity" class="bg-navy" tabIndex="-1">
+<div class="bg-navy">
   <div class="container cntnr-wide px2 py3">
     <h1 class="m0 h2 white">
       Implementing an identity management system
@@ -24,27 +23,27 @@ styles:
         </ul>
       </nav>
       <div class="sm-col sm-col-8 mb2">
-        <h3 id="protecting" class="mt0 mb2 pt2 h1" tabIndex="-1">
+        <h3 id="protecting" class="mt0 mb2 pt2 h1">
           What are you protecting?
         </h3>
-        <p class="mb4 serif fs-lead">
+        <p class="mb4 serif fs-20p">
           It’s worth assessing what you really need before beginning implementation. Not all information requires an identity system to manage access. You can protect the privacy of users and reduce the security risk to your systems by avoiding any unnecessary collection of personally identifiable information — this even includes contact details.
         </p>
         <h4 class="mt0 mb2 h3">
           You might not need to implement an identity system if:
         </h4>
-        <ul class="mb3 pl2 ml2 serif h4 pb-list--bullet">
-          <li class="mb2 fs-lead">
+        <ul class="mb3 pl2 ml2 serif h4 teal">
+          <li class="mb2 fs-20p">
             <div class="gray">
               You do not need to have an ongoing relationship with users.
             </div>
           </li>
-          <li class="mb2 fs-lead">
+          <li class="mb2 fs-20p">
             <div class="gray">
               Transactions don’t depend upon personal information being accurate.
             </div>
           </li>
-          <li class="mb2 fs-lead">
+          <li class="mb2 fs-20p">
             <div class="gray">
               You can rely on other forms of security.
             </div>
@@ -53,7 +52,7 @@ styles:
         <h4 class="mt0 mb2 h3">
           To answer this, ask
         </h4>
-        <ul class="list-reset mb4 pb-list--checkbox">
+        <ul class="list-reset mb4 list-checkbox">
           <li class="mb3 pl3">
             <div class="mb1 serif h4 bold">
               What transactions will users need?
@@ -90,13 +89,13 @@ styles:
         <h4 class="mt0 mb2 h3">
           What kinds of resources do you already have to identify customers?
         </h4>
-        <p class="mb3 serif fs-lead">
+        <p class="mb3 serif fs-20p">
           Your agency may already have mission-specific information and resources that can be used to identify customers. By integrating resources you know and trust, you can increase the reliability of identification.
         </p>
         <h4 class="mt0 mb2 h3">
           To answer this, ask
         </h4>
-        <ul class="list-reset mb3 pb-list--checkbox">
+        <ul class="list-reset mb3 list-checkbox">
           <li class="mb3 pl3">
             <div class="mb1 serif h4 bold">
               What resources are unique to your agency?
@@ -106,10 +105,10 @@ styles:
             </p>
           </li>
         </ul>
-        <h3 id="consumer-identity" class="mt0 mb1 pt2 h1" tabIndex="-1">
+        <h3 id="consumer-identity" class="mt0 mb1 pt2 h1">
           What is a consumer identity management system?
         </h3><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-5.svg' | prepend: site.baseurl }}">
-        <p class="mb5 serif fs-lead">
+        <p class="mb5 serif fs-20p">
           When you’re at home and someone knocks at your door it’s easy enough to decide whether or not to answer. Based on your knowledge of who’s outside, you can decide whether to open the door. Is the person outside a friend? A mail carrier or other expected service provider? A complete stranger? Online, the question of deciding “who’s there” is much harder. Consumer identity management systems make it easier for system administrators to decide whether or not to open the door, and how wide.
         </p>
         <h4 class="mt0 mb1 h3">
@@ -133,7 +132,7 @@ styles:
         <p class="mb3">
           Identity systems don’t just benefit system administrators. Users can do some very handy things with an authenticated digital identity. Here’s a small list:
         </p>
-        <ul class="mt0 mb5 ml1 pl1 pb-list--bullet">
+        <ul class="mt0 mb5 ml1 pl1 teal">
           <li class="mb2">
             <span class="gray"><span class="bold">Pre-filling online forms with verified information speeds up application processing.</span> There’s less redundant effort, and users don’t need to worry about basic errors.</span>
           </li>
@@ -144,7 +143,7 @@ styles:
             <span class="gray"><span class="bold">Identity systems can protect your privacy.</span> If you need to be 21 or older to access a service, you can authorize an identity system to confirm your age without sharing your exact birth date.</span>
           </li>
         </ul>
-        <h3 id="implementation" class="mb2 pt2 h1" tabIndex="-1">
+        <h3 id="implementation" class="mb2 pt2 h1">
           Implementation
         </h3><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-6.svg' | prepend: site.baseurl }}">
         <ul class="list-reset mb5">
@@ -152,7 +151,7 @@ styles:
             <a href="https://pages.18f.gov/identity-dev-docs/" target="_blank">Please read the developer documentation.</a>
           </li>
         </ul>
-        <h3 id="resources" class="mb2 pt2 h1" tabIndex="-1">
+        <h3 id="resources" class="mb2 pt2 h1">
           Resources
         </h3><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}">
         <ul class="list-reset mb3">

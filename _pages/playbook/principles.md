@@ -1,11 +1,10 @@
 ---
 title: Principles
 permalink: /playbook/principles/
-styles:
-  - /assets/stylesheets/playbook.css
+class: relative
 ---
 
-<div id="principles" class="bg-navy" tabIndex="-1">
+<div class="bg-navy">
   <div class="container cntnr-wide px2 py3">
     <h1 class="m0 h2 white">
       The principles of the identity playbook
@@ -23,12 +22,12 @@ styles:
         </ul>
       </nav>
       <div class="sm-col sm-col-8">
-        <div class="mb4 pt2" id="users" tabIndex="-1">
+        <div class="mb4 pt2" id="users">
           <img alt="" width="126" class="mb3 block" src="{{ '/assets/img/graphic-users.svg' | prepend: site.baseurl }}">
           <h3 class="mt0 mb1 h2 sm-h1">
             Focus on user needs
           </h3><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-3.svg' | prepend: site.baseurl }}">
-          <ul class="list-reset mb3 serif bold h4 pb-list--checked">
+          <ul class="list-reset mb3 serif bold h4 list-checked">
             <li class="mb2 pl3">Identify your potential audiences
             </li>
             <li class="mb2 pl3">Understand the login experiences and identity needs of your audiences
@@ -56,12 +55,12 @@ styles:
             There are a number of specific design methods we practice to remain user-centered, and you can read about all of them, and use them yourself, by reviewing the <a href="https://methods.18f.gov/" target="_blank">18F Design Methods</a>.
           </p>
         </div>
-        <div class="mb4 pt2" id="transparent" tabIndex="-1">
+        <div class="mb4 pt2" id="transparent">
           <img alt="" width="154" class="mb3 block" src="{{ '/assets/img/graphic-venn.svg' | prepend: site.baseurl }}">
           <h3 class="mt0 mb1 h2 sm-h1">
             Be transparent about how it works
           </h3><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}">
-          <ul class="list-reset mb3 serif bold h4 pb-list--checked">
+          <ul class="list-reset mb3 serif bold h4 list-checked">
             <li class="mb2 pl3">Engage experts, advocates, and the public early and often
             </li>
             <li class="mb2 pl3">Explain how and why you’re collecting, sharing, and storing data
@@ -81,12 +80,12 @@ styles:
             login.gov is working to implement all of these transparency-enhancing features. Further, to help people understand all that is happening, we’re creating a privacy policy that explains how data is shared and what it means to opt out.
           </p>
         </div>
-        <div class="mb4 pt2" id="flexible" tabIndex="-1">
+        <div class="mb4 pt2" id="flexible">
           <img alt="" width="151" class="mb3 block" src="{{ '/assets/img/graphic-half-circle.svg' | prepend: site.baseurl }}">
           <h3 class="mt0 mb1 h2 sm-h1">
             Build a flexible product
-          </h3><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}">
-          <ul class="list-reset mb3 serif bold h4 pb-list--checked">
+          </h3><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-5.svg' | prepend: site.baseurl }}">
+          <ul class="list-reset mb3 serif bold h4 list-checked">
             <li class="mb2 pl3">Develop the product in sprints and evaluate effectiveness after each sprint
             </li>
             <li class="mb2 pl3">Continually talk with stakeholders and experts to evaluate needs and success metrics
@@ -108,12 +107,12 @@ styles:
             <a href="https://pages.18f.gov/agile/index.html" target="_blank">Read this guide</a> to agile principles and practices put together by the 18F team to learn more about what it means to work in an agile way.
           </p>
         </div>
-        <div class="mb4 pt2" id="privacy" tabIndex="-1">
+        <div class="mb4 pt2" id="privacy">
           <img alt="" width="123" class="mb3 block" src="{{ '/assets/img/graphic-locks.svg' | prepend: site.baseurl }}">
           <h3 class="mt0 mb1 h2 sm-h1">
             Use modern privacy practices
-          </h3><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-2.svg' | prepend: site.baseurl }}">
-          <ul class="list-reset mb3 serif bold h4 pb-list--checked">
+          </h3><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-6.svg' | prepend: site.baseurl }}">
+          <ul class="list-reset mb3 serif bold h4 list-checked">
             <li class="mb2 pl3">Store as little personally identifying data as possible
             </li>
             <li class="mb2 pl3">Give users other means of accomplishing their goals
@@ -134,12 +133,12 @@ styles:
             As we design login.gov, we’re also working to educate users to help them safeguard their own data. We want people to understand why we have to ask for certain kinds of sensitive information, such as social security numbers, and how we’re using them.
           </p>
         </div>
-        <div class="mb2 pt2" id="security" tabIndex="-1">
+        <div class="mb2 pt2" id="security">
           <img alt="" width="152" class="mb3 block" src="{{ '/assets/img/graphic-hex.svg' | prepend: site.baseurl }}">
           <h3 class="mt0 mb1 h2 sm-h1">
             Create responsive security systems
-          </h3><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-2.svg' | prepend: site.baseurl }}">
-          <ul class="list-reset mb3 serif bold h4 pb-list--checked">
+          </h3><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}">
+          <ul class="list-reset mb3 serif bold h4 list-checked">
             <li class="mb2 pl3">Identify industry best practices and abide by them</li>
             <li class="mb2 pl3">Comply with federal regulations such as FISMA and FedRamp</li>
             <li class="mb2 pl3">Set up systems to monitor and detect fraud</li>
