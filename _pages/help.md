@@ -50,7 +50,7 @@ class: relative
 {% for question in section.content %}
 <h3 id="{{ question.anchor }}">{{ question.question }}</h3>
 <div markdown="1">
-{{ question.content }}
+{{ question.content | replace: 'site.baseurl', site.baseurl }}
 </div>
 {% endfor %}
             </div>
