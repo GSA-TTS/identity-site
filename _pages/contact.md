@@ -8,7 +8,7 @@ permalink: /contact/
 
 # Contact us
 
-Call 1-844-US-LOGIN between 8 a.m. and 8 p.m. Monday through Friday, except holidays, for help with your account.
+For information or questions please contact us at <a href="mailto:18f@gsa.gov?subject=login.gov">18F@gsa.gov</a>.
 
   </div>
 </div>
