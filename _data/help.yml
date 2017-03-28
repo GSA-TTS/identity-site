@@ -334,11 +334,7 @@
     - question: Still have questions?
       anchor: "still-have-questions"
       content: |
-        Call toll-free at 1-844-USLOGIN to speak to an information specialist
-        between the hours of 8 a.m. and 8 p.m. Eastern Time, Monday through
-        Friday, except federal holidays.
-
         Please let us know what's working and what you'd like to see in the
         future - we're actively improving login.gov, and we base our
-        improvements on feedback from users like you! Email your suggestions to
-        [info@login.gov](mailto:info@login.gov).
+        improvements on feedback from users like you! Please [contact us]
+        ({{site.baseurl}}/contact) with your questions or feedback.
