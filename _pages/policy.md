@@ -1,12 +1,12 @@
 ---
-title: Security & privacy
+title: Privacy policy
 permalink: /policy/
 class: relative
 ---
 
 <div class="bg-navy">
   <div class="container cntnr-wide px2 py3">
-    <h1 class="m0 h2 white">
+    <h1 class="m0 white">
       {{ page.title }}
     </h1>
   </div>
@@ -28,7 +28,7 @@ class: relative
             <h2 class="mt0 mb1">
             {{ section.section }}
             </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-2.svg' | prepend: site.baseurl }}">
-<div markdown="1">
+<div markdown="1" class="mb3 pb2 border-bottom border-light-blue h3">
 {{ section.content | replace: 'site.baseurl', site.baseurl }}
 </div>
           </div>
