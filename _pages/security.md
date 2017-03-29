@@ -6,37 +6,35 @@ styles:
 class: bg-light-blue
 ---
 
-<div class="bg-white">
-  <div class="container cntnr-wide pb3">
-    <div class="clearfix mxn1 mb5">
-      <img class="col sm-col-4 mt4 px2" src="{{ site.baseurl }}/assets/img/vault-door.svg" alt="A vault door" width="260"/>
-      <div class="col sm-col-8 px2">
-        <h1 class="h2 blue hz-dot-border">How login.gov keeps personal information private</h1>
-        <p class="m0 pt-20p h4 serif">login.gov encrypts the personal information of each user separately, using a unique value generated from each user’s password. Our encryption method works like a safe deposit box in a bank vault. Only the user has the key. Only the user can open the box to reveal the contents. Only the user knows the password, and only the user can decrypt their information.</p>
-      </div>
-    </div>
+<div class="bg-navy">
+  <div class="container cntnr-wide px2 py5">
+    <img alt="" width="244" class="mt1 mx4 right md-show" src="{{ '/assets/img/vault-door.svg' | prepend: site.baseurl }}">
+    <h1 class="mt0 mb1 white">
+      How login.gov keeps personal information private
+    </h1><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-1.svg' | relative_url }}">
+    <p class="overflow-hidden white fs-20p serif">
+      login.gov encrypts the personal information of each user separately, using a unique value generated from each user’s password. Our encryption method works like a safe deposit box in a bank vault. Only the user has the key. Only the user can open the box to reveal the contents. Only the user knows the password, and only the user can decrypt their information.
+    </p>
+  </div>
+</div>
 
+<div class="bg-white">
+  <div class="container cntnr-wide px2 pt4 pb2">
     <div class="clearfix mxn1">
-      <div class="col sm-col-4 px2">
-        <div class="clearfix">
-          <img class="col sm-col-5" src="{{ site.baseurl }}/assets/img/vault.svg" alt="an open vault" width="122">
-        </div>
-        <h2 class="h3 blue mb3 hz-dot-border">The vault</h2>
-        <p>It's hard to break into the “vault” or database. login.gov implements the latest <a href="https://www.nist.gov/" target="_blank">National Institute of Standards and Technology (NIST)</a> standards for secure authentication and verification. Our plans for ongoing security include regular penetration testing and external security reviews. </p>
+      <div class="col sm-col-4 px2 mb3">
+        <img src="{{ site.baseurl }}/assets/img/vault.svg" alt="an open vault" width="122">
+        <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">The vault</h2>
+        <p>It's hard to break into the “vault” or database. login.gov implements the latest <a href="https://www.nist.gov/" target="_blank">National Institute of Standards and Technology (NIST)</a> standards for secure authentication and verification. Our plans for ongoing security include regular penetration testing and external security reviews.</p> 
       </div>
-      <div class="col sm-col-4 px2">
-        <div class="clearfix">
-          <img class="col sm-col-5" src="{{ site.baseurl }}/assets/img/safe-deposit.svg" alt="a group of safe deposit boxes" width="122">
-        </div>
-        <h2 class="h3 blue mb3 hz-dot-border">The safe deposit box</h2>
+      <div class="col sm-col-4 px2 mb3">
+        <img src="{{ site.baseurl }}/assets/img/safe-deposit.svg" alt="a group of safe deposit boxes" width="122">
+        <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">The safe deposit box</h2>
         <p>Individual accounts get a double layer of security. We require two-factor authentication as well as strong passwords that meet new NIST requirements. Two factor authentication requires that you login with your password and a code that we send to your phone.</p>
         <p>We will evaluate and implement new authentication methods as they become widely available to make sure that login.gov remains accessible and secure.</p>
       </div>
-      <div class="col sm-col-4 px2">
-        <div class="clearfix">
-          <img class="col sm-col-5" src="{{ site.baseurl }}/assets/img/key.svg" alt="a key" width="122">
-        </div>
-        <h2 class="h3 blue mb3 hz-dot-border">Your personal key</h2>
+      <div class="col sm-col-4 px2 mb3">
+        <img src="{{ site.baseurl }}/assets/img/key.svg" alt="a key" width="122">
+        <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">Your personal key</h2>
         <p>Encrypting personal data separately means that login.gov cannot share any information with other government entities without users’ permission. Not even database administrators can decrypt a user’s personal information without the user’s password.</p>
       </div>
     </div>

@@ -3,34 +3,12 @@ ul a {
 }
 
 .teal-dots {
-  list-style: none;
-  padding: 0;
-
   li {
     padding-left: 1rem;
     text-indent: -1rem;
 
     &::before {
       color: $teal;
-      content: '•';
-      font-size: 2rem;
-      line-height: 1.5rem;
-      padding-right: .5rem;
-      vertical-align: -3px;
-    }
-  }
-}
-
-.yellow-dots {
-  list-style: none;
-  padding: 0;
-
-  li {
-    padding-left: 1rem;
-    text-indent: -1rem;
-
-    &::before {
-      color: $yellow;
       content: '•';
       font-size: 2rem;
       line-height: 1.5rem;
@@ -49,9 +27,11 @@ ul a {
 }
 
 .list-checked li {
-  background: url('../../img/ico-checked.svg') no-repeat left 2px;
+  background: url('../../img/ico-checked.svg') no-repeat left 4px;
+  background-size: 1rem;
 }
 
 .list-checkbox li {
-  background: url('../../img/ico-checkbox.svg') no-repeat left 2px;
+  background: url('../../img/ico-checkbox.svg') no-repeat left 4px;
+  background-size: 1rem;
 }

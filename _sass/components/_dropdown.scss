@@ -8,10 +8,6 @@
     position: relative;
     z-index: 1;
 
-    & > a {
-      padding-bottom: $space-1;
-    }
-
     li {
       border-bottom: $border-width solid $border-color;
 
@@ -27,9 +23,10 @@
       left: 0;
       list-style: none;
       margin: 0;
+      opacity: 0;
       padding: 0;
       position: absolute;
-      transition: .1s;
+      transition: all .1s;
       visibility: hidden;
 
       a {
@@ -66,13 +63,21 @@
 
   .dropdown:hover,
   .dropdown.focused {
+    & > a {
+      padding-bottom: $space-1;
+    }
+
     & > a::after {
-      content: none;
+      display: none;
     }
 
     ul {
-      transition-delay: 0s;
+      opacity: 100;
       visibility: visible;
+
+      a:hover {
+        text-decoration: underline;
+      }
     }
   }
 
