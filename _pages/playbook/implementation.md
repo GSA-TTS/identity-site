@@ -23,9 +23,9 @@ class: relative
         </ul>
       </nav>
       <div class="sm-col sm-col-8 mb2">
-        <h2 id="protecting" class="mt0 mb2 pt2">
+        <h2 id="protecting" class="mt0 mb1 pt2">
           What are you protecting?
-        </h2>
+        </h2><img alt="" class="mb3" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}" height="6">
         <p class="mb4 serif fs-20p">
           It’s worth assessing what you really need before beginning implementation. Not all information requires an identity system to manage access. You can protect the privacy of users and reduce the security risk to your systems by avoiding any unnecessary collection of personally identifiable information — this even includes contact details.
         </p>
@@ -101,7 +101,7 @@ class: relative
         </ul>
         <h2 id="consumer-identity" class="mt0 mb1 pt2">
           What is a consumer identity management system?
-        </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-5.svg' | prepend: site.baseurl }}" width="60">
+        </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-5.svg' | prepend: site.baseurl }}" height="6">
         <p class="mb5 serif fs-20p">
           When you’re at home and someone knocks at your door it’s easy enough to decide whether or not to answer. Based on your knowledge of who’s outside, you can decide whether to open the door. Is the person outside a friend? A mail carrier or other expected service provider? A complete stranger? Online, the question of deciding “who’s there” is much harder. Consumer identity management systems make it easier for system administrators to decide whether or not to open the door, and how wide.
         </p>
@@ -139,7 +139,7 @@ class: relative
         </ul>
         <h2 id="implementation" class="mb2 pt2">
           Implementation
-        </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-6.svg' | prepend: site.baseurl }}" width="60">
+        </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-6.svg' | prepend: site.baseurl }}" height="6">
         <ul class="list-reset mb5 h3">
           <li class="mb2">
             <a href="https://pages.18f.gov/identity-dev-docs/" target="_blank">Please read the developer documentation.</a>
@@ -147,7 +147,7 @@ class: relative
         </ul>
         <h2 id="resources" class="mb2 pt2">
           Resources
-        </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}" width="60">
+        </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}" height="6">
         <ul class="list-reset mb3 h3">
           <li class="mb2">
             <a href="https://pages.nist.gov/800-63-3/" target="_blank">National Institute of Standards in Technology</a> (NIST 800-63-3)

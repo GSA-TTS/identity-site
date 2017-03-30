@@ -11,7 +11,7 @@ class: bg-light-blue
     <img alt="" width="244" class="mt1 mx4 right md-show" src="{{ '/assets/img/vault-door.svg' | prepend: site.baseurl }}">
     <h1 class="mt0 mb1 white">
       How login.gov keeps personal information private
-    </h1><img alt="" class="mb3" src="{{ '/assets/img/hr-red-1.svg' | relative_url }}">
+    </h1><img alt="" class="mb3" src="{{ '/assets/img/hr-red-3.svg' | relative_url }}">
     <p class="overflow-hidden white fs-20p serif">
       login.gov encrypts the personal information of each user separately, using a unique value generated from each user’s password. Our encryption method works like a safe deposit box in a bank vault. Only the user has the key. Only the user can open the box to reveal the contents. Only the user knows the password, and only the user can decrypt their information.
     </p>
@@ -20,7 +20,7 @@ class: bg-light-blue
 
 <div class="bg-white">
   <div class="container cntnr-wide px2 pt4 pb2">
-    <div class="clearfix mxn1">
+    <div class="clearfix mxn2">
       <div class="col sm-col-4 px2 mb3">
         <img src="{{ site.baseurl }}/assets/img/vault.svg" alt="" width="122">
         <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">The vault</h2>
