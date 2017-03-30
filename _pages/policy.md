@@ -22,7 +22,10 @@ class: relative
         </ul>
       </nav>
       <div class="sm-col sm-col-8">
-        <p>By using login.gov, you agree that you understand and consent to the following terms of service:</p>
+        <p class="h3">Your privacy is very important to us. We’re providing you with our privacy policy so you are aware of what information we collect, why we collect it, and what we do with it. login.gov does not collect your email address or phone number unless you choose to provide it. We do collect other limited information automatically from visitors who read or browse information from our site. We do this to better understand how the site is being used and how we can make it more helpful.</p>
+
+        <p class="h3">If you create an account, login.gov collects personally identifiable information (PII) from you, including your email address and phone number. We collect your email address and with your consent share it with each federal agency (“partner agency”) at which you are seeking to access information and services. We collect your phone number in order to enable two-factor authentication as a security measure for your login.gov account. Your phone number is only sent to a one-time password service provider, not any of the partner agencies.</p>
+
         {% for section in site.data.policy %}
           <div id="{{ section.anchor }}" class="mb4 pt2">
             <h2 class="mt0 mb1">
