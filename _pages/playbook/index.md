@@ -28,7 +28,7 @@ permalink: /playbook/
         <h2 class="mt0 blue">Implementation</h2>
         <img alt="" class="mb2" src="{{ '/assets/img/hr-red-3.svg' | relative_url }}" width="60">
         <p class="mb3">Before implementing login.gov or any other consumer identity management system, you should determine whether your agency or organization needs one. Below is a list of questions to ask and things to consider to help you figure that out.</p>
-        <p><a href="{{ '/playbook/implementation/' | relative_url }}" class="btn btn-primary btn-wide mb2">Learn more</a></p>
+        <p><a href="{{ '/playbook/implementation/' | relative_url }}" class="btn btn-primary btn-wide mb2">Learn about implementation</a></p>
       </div>
     </div>
   </div>

@@ -33,26 +33,20 @@ class: relative
           You might not need to implement an identity system if:
         </h3>
         <ul class="mb3 pl2 ml2 serif teal">
-          <li class="mb2 fs-20p">
-            <div class="gray">
-              You do not need to have an ongoing relationship with users.
-            </div>
+          <li class="mb2">
+            <span class="gray">You do not need to have an ongoing relationship with users.</span>
           </li>
-          <li class="mb2 fs-20p">
-            <div class="gray">
-              Transactions don’t depend upon personal information being accurate.
-            </div>
+          <li class="mb2">
+            <span class="gray">Transactions don’t depend upon personal information being accurate.</span>
           </li>
-          <li class="mb2 fs-20p">
-            <div class="gray">
-              You can rely on other forms of security.
-            </div>
+          <li class="mb2">
+            <span class="gray">You can rely on other forms of security.</span>
           </li>
         </ul>
         <h4 class="mt0 mb2">
           To answer this, ask
         </h4>
-        <ul class="list-reset mb4 list-checkbox">
+        <ul class="list-reset mb4 list-checked">
           <li class="mb3 pl3">
             <div class="mb1 serif bold">
               What transactions will users need?
@@ -95,7 +89,7 @@ class: relative
         <h4 class="mt0 mb2">
           To answer this, ask
         </h4>
-        <ul class="list-reset mb3 list-checkbox">
+        <ul class="list-reset mb3 list-checked">
           <li class="mb3 pl3">
             <div class="mb1 serif bold">
               What resources are unique to your agency?
