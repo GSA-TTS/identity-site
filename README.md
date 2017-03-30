@@ -1,5 +1,17 @@
 # identity-site
 
+The static marketing site for login.gov
+
+## Branches
+
+1. `master` branch is published publicly
+2. `preview` branch is published at a preview URL
+
+## Development & Publishing Workflow
+
+- Branch off of `preview` and make pull requests back to the `preview` branch
+- When ready to publish, merge `preview` into `master`
+
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md) for additional information.

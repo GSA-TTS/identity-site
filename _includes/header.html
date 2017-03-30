@@ -1,7 +1,12 @@
-<ul>
-  <li><a href="{{ site.baseurl }}/">Intro</a></li>
-  <li><a href="{{ site.baseurl }}/playbook">Playbook</a></li>
-  <li><a href="{{ site.baseurl }}/security">Security</a></li>
-  <li><a href="https://pages.18f.gov/identity-dev-docs/">Developers</a></li>
-  <li><a href="https://idp.login.gov">Sign In</a></li>
-</ul>
+<header class="bg-white">
+  <div class="container cntnr-wide px2 py3">
+    <div class="clearfix">
+      <div class="col">
+        <a href="{{ site.baseurl }}/" class="inline-block"><img class="align-middle" alt="login.gov" src="{{ site.baseurl }}/assets/img/logo.svg" width="188"></a>
+      </div>
+      <div class="col-right">
+        {% include nav.html %}
+      </div>
+    </div>
+  </div>
+</header>

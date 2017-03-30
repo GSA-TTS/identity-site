@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    {% include meta.html %}
+    {% include styles.html %}
+    {% include google_analytics.html %}
   </head>
-  <body>
+  <body class="{{ layout.class }} {{ page.class }} site" data-spy="scroll" data-target="#pb-nav--side-cntnr">
+    <div class="site-wrap">
+      {% include banner.html %}
+      {% include header.html %}
+      <main id="main-content">
+      {{ content }}
+      </main>
+    </div>
+    {% include footer.html %}
   </body>
+  {% include dap.html %}
+  {% include scripts.html %}
 </html>
