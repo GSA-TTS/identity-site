@@ -26,7 +26,7 @@ class: relative
           <img alt="" width="126" class="mb3 block" src="{{ '/assets/img/graphic-users.svg' | prepend: site.baseurl }}">
           <h2 class="mt0 mb1">
             Focus on user needs
-          </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-3.svg' | prepend: site.baseurl }}" width="60">
+          </h2><img alt="" class="mb3" src="{{ '/assets/img/hr-red-3.svg' | prepend: site.baseurl }}" height="6">
           <ul class="list-reset mb3 serif bold list-checked">
             <li class="mb2 pl3">Identify your potential audiences
             </li>
@@ -61,7 +61,7 @@ class: relative
           <img alt="" width="154" class="mb3 block" src="{{ '/assets/img/graphic-venn.svg' | prepend: site.baseurl }}">
           <h2 class="mt0 mb1">
             Be transparent about how it works
-          </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}" width="60">
+          </h2><img alt="" class="mb3" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}" height="6">
           <ul class="list-reset mb3 serif bold list-checked">
             <li class="mb2 pl3">Engage experts, advocates, and the public early and often
             </li>
@@ -88,7 +88,7 @@ class: relative
           <img alt="" width="151" class="mb3 block" src="{{ '/assets/img/graphic-half-circle.svg' | prepend: site.baseurl }}">
           <h2 class="mt0 mb1">
             Build a flexible product
-          </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-5.svg' | prepend: site.baseurl }}" width="60">
+          </h2><img alt="" class="mb3" src="{{ '/assets/img/hr-red-5.svg' | prepend: site.baseurl }}" height="6">
           <ul class="list-reset mb3 serif bold list-checked">
             <li class="mb2 pl3">Develop the product in sprints and evaluate effectiveness after each sprint
             </li>
@@ -117,7 +117,7 @@ class: relative
           <img alt="" width="123" class="mb3 block" src="{{ '/assets/img/graphic-locks.svg' | prepend: site.baseurl }}">
           <h2 class="mt0 mb1">
             Use modern privacy practices
-          </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-6.svg' | prepend: site.baseurl }}" width="60">
+          </h2><img alt="" class="mb3" src="{{ '/assets/img/hr-red-6.svg' | prepend: site.baseurl }}" height="6">
           <ul class="list-reset mb3 serif bold list-checked">
             <li class="mb2 pl3">Store as little personally identifying data as possible
             </li>
@@ -145,7 +145,7 @@ class: relative
           <img alt="" width="152" class="mb3 block" src="{{ '/assets/img/graphic-hex.svg' | prepend: site.baseurl }}">
           <h2 class="mt0 mb1">
             Create responsive security systems
-          </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}" width="60">
+          </h2><img alt="" class="mb3" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}" height="6">
           <ul class="list-reset mb3 serif bold list-checked">
             <li class="mb2 pl3">Identify industry best practices and abide by them</li>
             <li class="mb2 pl3">Comply with federal regulations such as FISMA and FedRamp</li>

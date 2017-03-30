@@ -27,10 +27,12 @@ class: relative
         <p class="h3">If you create an account, login.gov collects personally identifiable information (PII) from you, including your email address and phone number. We collect your email address and with your consent share it with each federal agency (“partner agency”) at which you are seeking to access information and services. We collect your phone number in order to enable two-factor authentication as a security measure for your login.gov account. Your phone number is only sent to a one-time password service provider, not any of the partner agencies.</p>
 
         {% for section in site.data.policy %}
+          {% assign _index = forloop.index %}
+          {% capture _hr %}/assets/img/hr-red-{{_index}}.svg{% endcapture %}
           <div id="{{ section.anchor }}" class="mb4 pt2">
             <h2 class="mt0 mb1">
             {{ section.section }}
-            </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-2.svg' | prepend: site.baseurl }}">
+            </h2><img alt="hr" class="mb3" src="{{ _hr | prepend: site.baseurl }}" height="6">
 <div markdown="1" class="mb3 pb2 border-bottom border-light-blue h3">
 {{ section.content | replace: 'site.baseurl', site.baseurl }}
 </div>

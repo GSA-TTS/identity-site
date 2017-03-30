@@ -14,7 +14,7 @@ permalink: /
 
 <div class="bg-white">
   <div class="container cntnr-wide px2 pt4 pb2">
-    <div class="clearfix mxn1">
+    <div class="clearfix mxn2">
       <div class="col sm-col-4 px2 mb3">
         <img alt="" src="{{ site.baseurl }}/assets/img/users.svg" height="90">
         <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">Simple and secure for our users</h2>

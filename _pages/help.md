@@ -9,7 +9,7 @@ class: relative
     <img alt="" width="244" class="mt1 mx4 right md-show" src="{{ '/assets/img/help-center.svg' | relative_url }}">
     <h1 class="mt0 mb1 white">
       {{ page.title }}
-    </h1><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-1.svg' | relative_url }}">
+    </h1><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-4.svg' | relative_url }}">
     <div class="overflow-hidden white fs-20p serif">
       <p>
         login.gov offers the public secure and private online access to participating government programs. With one login.gov account, users can sign in to multiple government agencies. The goal: make managing federal benefits, services and applications faster and more secure.
@@ -32,10 +32,12 @@ class: relative
       </nav>
       <div class="sm-col sm-col-8">
         {% for section in site.data.help %}
+          {% assign _index = forloop.index %}
+          {% capture _hr %}/assets/img/hr-red-{{_index}}.svg{% endcapture %}
             <div id="{{ section.anchor }}" class="mb4 pt2">
               <h2 class="mt0 mb1">
               {{ section.section }}
-              </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-2.svg' | prepend: site.baseurl }}" width="60">
+              </h2><img alt="hr" class="mb3" src="{{ _hr | prepend: site.baseurl }}" height="6">
                 <ul class="mb3 pb2 bold list-reset list-arrow teal-dots js-smooth-scroll border-bottom border-light-blue">
                   {% for question in section.content %}
                     <li class="mb1"><a href="{{ question.anchor }}">{{ question.question }}</a></li>
