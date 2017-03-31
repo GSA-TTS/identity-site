@@ -40,7 +40,7 @@ class: relative
               </h2><img alt="hr" class="mb3" src="{{ _hr | prepend: site.baseurl }}" height="6">
                 <ul class="mb3 pb2 bold list-reset list-arrow teal-dots js-smooth-scroll border-bottom border-light-blue">
                   {% for question in section.content %}
-                    <li class="mb1"><a href="{{ question.anchor }}">{{ question.question }}</a></li>
+                    <li class="mb1"><a href="#{{ question.anchor }}">{{ question.question }}</a></li>
                   {% endfor %}
                 </ul>
 {% for question in section.content %}
