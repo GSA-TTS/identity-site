@@ -11,6 +11,10 @@ RSpec.describe '/playbook' do
     it 'escapes html correctly' do
       expect(doc).to properly_escape_html
     end
+
+    it 'links to valid headings' do
+      expect(doc).to link_to_valid_headers
+    end
   end
 
   describe '/implementation' do
@@ -23,6 +27,10 @@ RSpec.describe '/playbook' do
     it 'escapes html correctly' do
       expect(doc).to properly_escape_html
     end
+
+    it 'links to valid headings' do
+      expect(doc).to link_to_valid_headers
+    end
   end
 
   describe '/principles' do
@@ -34,6 +42,10 @@ RSpec.describe '/playbook' do
 
     it 'escapes html correctly' do
       expect(doc).to properly_escape_html
+    end
+
+    it 'links to valid headings' do
+      expect(doc).to link_to_valid_headers
     end
   end
 end

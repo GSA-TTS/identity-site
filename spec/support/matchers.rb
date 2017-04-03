@@ -18,39 +18,30 @@ RSpec::Matchers.define :open_external_links_in_new_window do
   end
 end
 
-RSpec::Matchers.define :include_a_valid_table_of_contents do
-  error = nil
+RSpec::Matchers.define :link_to_valid_headers do
   missing_headers = []
 
   match do |actual|
     doc = actual
-    toc_comment = doc.at("//comment()[contains(.,'MarkdownTOC')]")
 
-    toc = toc_comment.next_sibling
-    until toc.name == 'ul'
-      toc = toc.next_sibling
-    end
-
-    error = :no_toc if toc.nil?
-    expect(toc).to be
-
-    toc.css('a').each do |a|
+    doc.css('a[href^="#"]').each do |a|
       target = a[:href]
 
-      anchor = doc.at(target)
-      missing_headers << target if anchor.nil?
+      next if a[:id] == 'js-mobile-nav-toggle'
+
+      if target == '#'
+        missing_headers << a.to_s
+      else
+        anchor = doc.at(target)
+        missing_headers << target if anchor.nil?
+      end
     end
 
     expect(missing_headers).to be_empty
   end
 
   failure_message do |actual|
-    case error
-    when :no_toc
-      "expected that #{actual.url} would have a table of contents (MarkdownTOC)"
-    else
-      "expected that #{actual.url} would link to valid headers:\n#{missing_headers.join("\n")}"
-    end
+    "expected that #{actual.url} would link to valid headers:\n#{missing_headers.join("\n")}"
   end
 end
 
