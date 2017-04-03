@@ -121,13 +121,6 @@
 
         Please notify login.gov if you are sure you did not create an account,
         and feel like someone else is using your email address.
-    - question: What do I do if an account has already been created using my phone number?
-      anchor: "what-do-i-do-if-an-account-has-already-been-created-using-my-phone-number"
-      content: |
-        If you are not able to sign in or you have other questions about this,
-        call 1-844-USLOGIN to talk to an information specialist between the
-        hours of 8 a.m. and 8 p.m. Eastern Time, Monday through Friday, except
-        federal holidays.
 - section: Signing in
   anchor: "signing-in"
   content:
