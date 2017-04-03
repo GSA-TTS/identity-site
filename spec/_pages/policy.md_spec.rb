@@ -10,4 +10,8 @@ RSpec.describe 'policy.md' do
   it 'escapes html correctly' do
     expect(doc).to properly_escape_html
   end
+
+  it 'links to valid headings' do
+    expect(doc).to link_to_valid_headers
+  end
 end
