@@ -1,6 +1,7 @@
 # Site settings
 title: login.gov
 description: login.gov, the consumer identity platform
+canonical_domain: www.login.gov
 
 # Pages
 collections:
