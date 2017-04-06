@@ -114,11 +114,6 @@
         remember creating it, use your email address to sign in and go through
         the password reset process.
 
-        If you are not able to sign in or you have other questions about this,
-        call 1-844-USLOGIN to talk to an information specialist between the
-        hours of 8 a.m. and 8 p.m. Eastern Time, Monday through Friday, except
-        federal holidays.
-
         Please notify login.gov if you are sure you did not create an account,
         and feel like someone else is using your email address.
 - section: Signing in
@@ -182,10 +177,6 @@
         example, to check the status of an in-progress application — you may
         want to directly contact the government agency.
 
-        Or, if you don't have your personal key and phone, call 1-844-USLOGIN to
-        talk to an information specialist between the hours of 8 a.m. and 8 p.m.
-        Eastern Time, Monday through Friday, except federal holidays.
-
         Another option is to log in at a later time when you have your phone
         near you.
     - question: Why does the system log me out?
@@ -210,11 +201,6 @@
         have your email address in our records, we will send instructions on how
         to reset your password. Check your email in a few minutes for these
         instructions.
-
-        If still can't remember the email address you used to set up your
-        account, call 1-844-USLOGIN to talk to an information specialist between
-        the hours of 8 a.m. and 8 p.m. Eastern Time, Monday through Friday,
-        except federal holidays.
 - section: Changing settings
   anchor: "changing-settings"
   content:
@@ -275,9 +261,7 @@
         help protect your account against password compromises.
 
         Your information will stay secure. For more information, read our
-        [security and privacy policy](site.baseurl/privacy). Please email
-        [info@login.gov](mailto:info@login.gov)
-        to learn more about how our protection works.
+        [security and privacy policy](site.baseurl/privacy).
     - question: Will login.gov share my information?
       anchor: "will-logingov-share-my-information"
       content: |
