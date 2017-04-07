@@ -15,6 +15,10 @@ RSpec.describe '/playbook' do
     it 'links to valid headings' do
       expect(doc).to link_to_valid_headers
     end
+
+    it 'links to valid internal pages' do
+      expect(doc).to link_to_valid_internal_pages
+    end
   end
 
   describe '/implementation' do
@@ -31,6 +35,10 @@ RSpec.describe '/playbook' do
     it 'links to valid headings' do
       expect(doc).to link_to_valid_headers
     end
+
+    it 'links to valid internal pages' do
+      expect(doc).to link_to_valid_internal_pages
+    end
   end
 
   describe '/principles' do
@@ -46,6 +54,10 @@ RSpec.describe '/playbook' do
 
     it 'links to valid headings' do
       expect(doc).to link_to_valid_headers
+    end
+
+    it 'links to valid internal pages' do
+      expect(doc).to link_to_valid_internal_pages
     end
   end
 end
