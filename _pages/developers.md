@@ -36,7 +36,7 @@ quickly get started integrating with login.gov.
 ## Tiered Accounts
 
 We support two levels of accounts, corresponding to
-[NIST 800-63-3](https://pages.nist.gov/800-63-3/) levels of assurange (LOA):
+[NIST 800-63-3](https://pages.nist.gov/800-63-3/) levels of assurance (LOA):
 
 - **LOA1** provides verified email
 
@@ -51,7 +51,7 @@ the verification work and speed up the sign-up process for other agencies.
 ## API Documentation & Guides
 
 Our [login.gov developer documentation](https://pages.18f.gov/identity-dev-docs) site contains
-detailed information for both SAML and OpenID Connect implentations, as well as information on how
+detailed information for both SAML and OpenID Connect implementations, as well as information on how
 to register a service provider and get started testing with our integration environment.
 
 Guides:
