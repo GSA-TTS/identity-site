@@ -13,7 +13,7 @@ class: relative
 </div>
 
 <div class="bg-white">
-<div class="container cntnr-wide px2 pt4 pb5" markdown="1">
+<div class="container cntnr-xskinny px2 pt4 pb5" markdown="1">
 
 <!-- MarkdownTOC depth="1" autolink="true" bracket="round" -->
 
