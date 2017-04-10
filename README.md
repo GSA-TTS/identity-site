@@ -4,13 +4,27 @@ The static marketing site for login.gov
 
 ## Branches
 
-1. `master` branch is published publicly
+1. `master` branch is published publicly at https://www.login.gov.
 2. `preview` branch is published at a preview URL
 
-## Development & Publishing Workflow
+## Publishing Workflow
 
 - Branch off of `preview` and make pull requests back to the `preview` branch
 - When ready to publish, merge `preview` into `master`
+
+## Development
+
+This is a Jekyll-built static site. To start serve the site locally in development:
+
+```
+make run
+```
+
+To run specs:
+
+```
+make test
+```
 
 ## Contributing
 
