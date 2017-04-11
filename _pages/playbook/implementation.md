@@ -18,7 +18,6 @@ class: relative
         <ul id="pb-nav--side" class="list-reset pt2 red nav">
           <li class="mb2"><a class="h5 serif" href="#protecting">What are you protecting?</a></li>
           <li class="mb2"><a class="h5 serif" href="#consumer-identity">What is a consumer identity management system?</a></li>
-          <li class="mb2"><a class="h5 serif" href="#implementation">Implementation</a></li>
           <li class="mb2"><a class="h5 serif" href="#resources">Resources</a></li>
         </ul>
       </nav>
@@ -137,14 +136,6 @@ class: relative
             <span class="gray"><span class="bold">Identity systems can protect your privacy.</span> If you need to be 21 or older to access a service, you can authorize an identity system to confirm your age without sharing your exact birth date.</span>
           </li>
         </ul>
-        <h2 id="implementation" class="mb2 pt2">
-          Implementation
-        </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-6.svg' | prepend: site.baseurl }}" height="6">
-        <ul class="list-reset mb5 h3">
-          <li class="mb2">
-            <a href="https://pages.18f.gov/identity-dev-docs/" target="_blank">Please read the developer documentation.</a>
-          </li>
-        </ul>
         <h2 id="resources" class="mb2 pt2">
           Resources
         </h2><img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}" height="6">
@@ -154,9 +145,6 @@ class: relative
           </li>
           <li class="mb2">
             <a href="https://playbook.cio.gov/#introduction" target="_blank">Digital Services Playbook</a>
-          </li>
-          <li class="mb2">
-            <a href="https://github.com/18F/identity-idp" target="_blank">GitHub repo for login.gov</a>
           </li>
           <li class="mb2">
             <a href="https://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog" target="_blank">On the Internet, nobody knows you're a dog</a>
