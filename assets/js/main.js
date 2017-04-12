@@ -3,9 +3,6 @@ import $ from 'jquery';
 import 'bootstrap/js/affix';
 import 'bootstrap/js/scrollspy';
 
-import 'jquery-smooth-scroll';
-
-
 $(function() {
 
   // Mobile nav toggle
@@ -39,30 +36,29 @@ $(function() {
     });
   }
 
-  // Smooth scroll and scroll spy
+  // Smooth scroll
 
-  $(window).bind('hashchange', function(event) {
-    $.smoothScroll({
-      scrollTarget: location.hash.replace(/^\#\/?/, '#'),
-      afterScroll: function(options) {
-        var $tgt = $(options.scrollTarget);
+  $('a[href*="#"]').on('click', function(event) {
 
-        $tgt.attr('tabindex', -1).on('blur focusout', function() {
+    if (this.hash !== '') {
+      event.preventDefault();
+
+      var hash = this.hash;
+      
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        $(hash).attr('tabindex', -1).on('blur focusout', function() {
           $(this).removeAttr('tabindex');
         }).focus();
-      }
-    });
-  });
 
-  $('a[href*="#"]').bind('click', function(event) {
-    var hash = this.hash.replace(/^#/, '')
-    if (this.pathname === location.pathname && hash) {
-      event.preventDefault();
-      location.hash = '#/' + hash;
+        if (history.pushState) {
+          history.pushState(null, null, hash);
+        } else {
+          window.location.hash = hash;
+        }
+      });
     }
   });
-
-  if (location.hash) {
-    $(window).trigger('hashchange');
-  }
 });

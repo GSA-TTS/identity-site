@@ -29,8 +29,8 @@ class: relative
         {% for section in site.data.policy %}
           {% assign _index = forloop.index %}
           {% capture _hr %}/assets/img/hr-red-{{_index}}.svg{% endcapture %}
-          <div id="{{ section.anchor }}" class="mb4 pt2">
-            <h2 class="mt0 mb1">
+          <div class="mb4">
+            <h2 id="{{ section.anchor }}" class="mt0 mb1 pt2">
             {{ section.section }}
             </h2><img alt="hr" class="mb3" src="{{ _hr | prepend: site.baseurl }}" height="6">
 <div markdown="1" class="mb3 pb2 border-bottom border-light-blue h3">
