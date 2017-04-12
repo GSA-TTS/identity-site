@@ -4,13 +4,13 @@ The static marketing site for login.gov
 
 ## Branches
 
-1. `master` branch is published publicly at https://www.login.gov.
-2. `preview` branch is published at a preview URL
+1. `production` branch is published publicly at https://www.login.gov.
+2. `master` branch is published at a preview URL
 
 ## Publishing Workflow
 
-- Branch off of `preview` and make pull requests back to the `preview` branch
-- When ready to publish, merge `preview` into `master`
+- Branch off of `master` and make pull requests back to the `master` branch
+- When ready to publish, push changes to `production`
 
 ## Development
 
