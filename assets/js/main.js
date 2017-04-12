@@ -24,7 +24,7 @@ $(function() {
     $(this).removeClass('focused');
   });
 
-  // Playbook affix and scroll spy
+  // Affix
 
   if ($('#pb-nav--side').length ) {
     
@@ -34,17 +34,35 @@ $(function() {
       }
     });
 
-    $('#pb-nav--side a, .js-smooth-scroll a').smoothScroll({
+    $(window).resize(function() {
+      $('#pb-nav--side').affix('checkPosition');
+    });
+  }
+
+  // Smooth scroll and scroll spy
+
+  $(window).bind('hashchange', function(event) {
+    $.smoothScroll({
+      scrollTarget: location.hash.replace(/^\#\/?/, '#'),
       afterScroll: function(options) {
         var $tgt = $(options.scrollTarget);
+
         $tgt.attr('tabindex', -1).on('blur focusout', function() {
           $(this).removeAttr('tabindex');
         }).focus();
       }
     });
+  });
 
-    $(window).resize(function() {
-      $('#pb-nav--side').affix('checkPosition');
-    });
+  $('a[href*="#"]').bind('click', function(event) {
+    var hash = this.hash.replace(/^#/, '')
+    if (this.pathname === location.pathname && hash) {
+      event.preventDefault();
+      location.hash = '#/' + hash;
+    }
+  });
+
+  if (location.hash) {
+    $(window).trigger('hashchange');
   }
 });
