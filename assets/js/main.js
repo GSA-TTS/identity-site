@@ -3,9 +3,6 @@ import $ from 'jquery';
 import 'bootstrap/js/affix';
 import 'bootstrap/js/scrollspy';
 
-import 'jquery-smooth-scroll';
-
-
 $(function() {
 
   // Mobile nav toggle
@@ -24,7 +21,7 @@ $(function() {
     $(this).removeClass('focused');
   });
 
-  // Playbook affix and scroll spy
+  // Affix
 
   if ($('#pb-nav--side').length ) {
     
@@ -34,17 +31,34 @@ $(function() {
       }
     });
 
-    $('#pb-nav--side a, .js-smooth-scroll a').smoothScroll({
-      afterScroll: function(options) {
-        var $tgt = $(options.scrollTarget);
-        $tgt.attr('tabindex', -1).on('blur focusout', function() {
-          $(this).removeAttr('tabindex');
-        }).focus();
-      }
-    });
-
     $(window).resize(function() {
       $('#pb-nav--side').affix('checkPosition');
     });
   }
+
+  // Smooth scroll
+
+  $('a[href^="#"]').on('click', function(event) {
+
+    if (this.hash !== '') {
+      event.preventDefault();
+
+      var hash = this.hash;
+      
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        $(hash).attr('tabindex', -1).on('blur focusout', function() {
+          $(this).removeAttr('tabindex');
+        }).focus();
+
+        if (history.pushState) {
+          history.pushState(null, null, hash);
+        } else {
+          window.location.hash = hash;
+        }
+      });
+    }
+  });
 });

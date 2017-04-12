@@ -34,8 +34,8 @@ class: relative
         {% for section in site.data.help %}
           {% assign _index = forloop.index %}
           {% capture _hr %}/assets/img/hr-red-{{_index}}.svg{% endcapture %}
-            <div id="{{ section.anchor }}" class="mb4 pt2">
-              <h2 class="mt0 mb1">
+            <div class="mb4">
+              <h2 id="{{ section.anchor }}" class="mt0 mb1 pt2">
               {{ section.section }}
               </h2><img alt="hr" class="mb3" src="{{ _hr | prepend: site.baseurl }}" height="6">
                 <ul class="mb3 pb2 bold list-reset list-arrow teal-dots js-smooth-scroll border-bottom border-light-blue">
@@ -44,8 +44,8 @@ class: relative
                   {% endfor %}
                 </ul>
 {% for question in section.content %}
-<h3 id="{{ question.anchor }}">{{ question.question }}</h3>
-<div markdown="1" class="mb3 pb2 border-bottom border-light-blue h3">
+<h3 id="{{ question.anchor }}" class="mt0 pt3">{{ question.question }}</h3>
+<div markdown="1" class="pb2 border-bottom border-light-blue h3">
 {{ question.content | replace: 'site.baseurl', site.baseurl }}
 </div>
 {% endfor %}
