@@ -70,22 +70,19 @@
         Alternatively, you may have accidentally mistyped your email address. If
         so, you can always make another account with your correct email address.
 
-        -   If you mistyped your address, you can create a new
-            account.
-        -   If you are certain you entered the correct address, choose “Send
-            again” to get a new confirmation email.
+        - If you mistyped your address, you can create a new
+          account.
+        - If you are certain you entered the correct address, choose “Send
+          again” to get a new confirmation email.
     - question: Why didn't I receive a security code to confirm my phone?
       anchor: "why-didnt-i-receive-a-security-code-to-confirm-my-phone"
       content: |
         If you didn't receive a security code, check whether you entered your
         phone number correctly.
 
-        -   If you entered the wrong phone number, you can update your phone
-            number in your account settings.
-        -   If you entered your phone number correctly, you can resend the
-            confirmation SMS. Select if you want to receive the security
-            code by text message if you have a mobile phone or through a phone
-            call if you have either a landline or a mobile phone.
+        - Did you enter a wrong phone number? Look for the option to enter it again.
+        - If it's the right number, request the code again. Receive it by SMS or by
+          a phone call on a landline or a mobile phone.
     - question: Do I need a mobile phone to use login.gov?
       anchor: "do-i-need-a-mobile-phone-to-use-logingov"
       content: |
