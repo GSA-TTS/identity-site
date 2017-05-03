@@ -4,10 +4,10 @@
 </a>
 <nav class="sm-show">
   <ul class="list-reset m0 mt-tiny">
-    <li class="sm-mr3">
+    <li class="sm-mr2 md-mr3">
       <a href="{{ '/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/' %}active{% endif %}">Home</a>
     </li>
-    <li class="sm-mr3 dropdown">
+    <li class="sm-mr2 md-mr3 dropdown">
       <a href="{{ '/playbook/' | relative_url }}" class="blue caps text-decoration-none {% if page.url contains '/playbook/' %}active{% endif %}">Playbook<span class="dropdown-arrow"> &#9662;</span></a>
         <ul class="sm-show">
           <li><a href="{{ '/playbook/' | relative_url }}">Overview</a></li>
@@ -16,14 +16,17 @@
         </ul>
       </li>
     </li>
-    <li class="sm-mr3">
+    <li class="sm-mr2 md-mr3">
       <a href="{{ '/security/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/security/' %}active{% endif %}">Security</a>
     </li>
-    <li class="sm-mr3">
+    <li class="sm-mr2 md-mr3">
       <a href="https://pages.18f.gov/identity-dev-docs/" class="blue caps text-decoration-none" target="_blank">Developers</a>
     </li>
+    <li class="sm-mr2 md-mr3">
+      <a href="{{ '/help/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/help/' %}active{% endif %}">Help</a>
+    </li>
     <li>
-      <a href="{{ '/help/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/help/' %}active{% endif %}">Help Center</a>
+      <a href="https://secure.login.gov/" class="blue caps text-decoration-none">Manage Account</a>
     </li>
   </ul>
 </nav>
