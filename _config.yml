@@ -39,6 +39,7 @@ exclude:
   - package.json
   - spec
   - webpack.config.js
+  - vendor
 
 # Per-section configs
 playbook:
