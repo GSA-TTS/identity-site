@@ -198,6 +198,12 @@
         have your email address in our records, we will send instructions on how
         to reset your password. Check your email in a few minutes for these
         instructions.
+- question: What is an authenticator app?
+      anchor: "what-is-an-authenticator-app"
+      content: |
+        A mobile security application that generates security codes for signing in. These apps generate codes even without an internet. 
+        It initiates your two-step verification before you can fully access login.gov or other websites and services. 
+        You can use the app to get codes even if you don't have an Internet connection or mobile service.
 - section: Changing settings
   anchor: "changing-settings"
   content:
