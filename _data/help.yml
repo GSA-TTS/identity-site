@@ -202,7 +202,7 @@
       anchor: "what-is-an-authenticator-app"
       content: |
         A mobile security application that generates security codes for signing in. 
-        You can use the app to get codes even if you don't have an Internet connection or mobile service.
+        You can use the app to get codes even if you don't have an internet connection or mobile service.
 - section: Changing settings
   anchor: "changing-settings"
   content:
