@@ -198,7 +198,7 @@
         have your email address in our records, we will send instructions on how
         to reset your password. Check your email in a few minutes for these
         instructions.
-- question: What is an authenticator app?
+    - question: What is an authenticator app?
       anchor: "what-is-an-authenticator-app"
       content: |
         A mobile security application that generates security codes for signing in. 
