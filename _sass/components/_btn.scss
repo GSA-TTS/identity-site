@@ -18,6 +18,11 @@
   border-radius: $border-radius-lg;
 }
 
+.btn-inverse {
+  background: $white;
+  color: $blue;
+}
+
 .btn-wide {
   box-sizing: border-box;
   min-width: 220px;
@@ -25,8 +30,22 @@
 }
 
 .btn-transparent {
-  @extend %btn-basic;
+  @include prefix(appearance, none, webkit ms);
+  background: transparent;
+  border: 0;
+  box-shadow: none;
   cursor: pointer;
+  font-size: $base-font-size;
+  font-weight: normal;
+  line-height: $line-height;
+
+  &.border-bottom {
+    @extend .border-bottom;
+  }
+
+  &.border-top {
+    @extend .border-top;
+  }
 }
 
 .btn-link {
@@ -56,5 +75,14 @@
     border-color: $field-focus-color;
     box-shadow: 0 0 0 2px rgba($field-focus-color, .5);
     outline: none;
+  }
+}
+
+
+.btn-outline {
+  &:hover,
+  &:focus,
+  &:active {
+    box-shadow: 0 0 8px 0 $navy;
   }
 }

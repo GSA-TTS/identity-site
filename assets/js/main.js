@@ -3,6 +3,8 @@ import $ from 'jquery';
 import 'bootstrap/js/affix';
 import 'bootstrap/js/scrollspy';
 
+var accordion = require('aria-accordion');
+
 $(function() {
 
   // Mobile nav toggle
@@ -15,16 +17,27 @@ $(function() {
 
   // Dropdown menu
 
-  $('.dropdown').focusin( function () {
+  $('.dropdown').focusin(function () {
     $(this).addClass('focused');
   }).focusout(function(){
     $(this).removeClass('focused');
   });
 
+  $(document).on('click touch', function(event) {
+    var $target = $(event.target);
+    var $dropdownSm = $('.dropdown-sm');
+    if (!$target.hasClass('dropdown-text')
+      && !$target.hasClass('dropdown-sm')) {
+      $dropdownSm.removeClass('focused').blur();
+    } else {
+      $dropdownSm.toggleClass('focused');
+    }
+  });
+
   // Affix
 
   if ($('#pb-nav--side').length ) {
-    
+
     $('#pb-nav--side').affix({
       offset: {
         top: $('#pb-nav--side').offset().top
@@ -44,7 +57,7 @@ $(function() {
       event.preventDefault();
 
       var hash = this.hash;
-      
+
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 800, function(){
@@ -61,4 +74,11 @@ $(function() {
       });
     }
   });
+
+
+  // Required element to turn into an accordion
+  var elm = document.querySelector('.js-accordion');
+  if (elm) {
+    new accordion.Accordion(elm, {}, { reflectStatic: true });
+  }
 });

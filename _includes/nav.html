@@ -3,7 +3,7 @@
   <img src="{{ site.baseurl }}/assets/img/close.svg" width="13" alt="Close" class="display-none mx-auto">
 </a>
 
-<nav class="sm-flex flex-center">
+<nav class="sm-flex flex-center z2">
   <ul class="list-reset m0 sm-mt1">
     <li class="sm-mr3">
       <a href="{{ '/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/' %}active{% endif %}">Home</a>
@@ -23,8 +23,16 @@
     <li class="sm-mr3">
       <a href="https://developers.login.gov/" class="blue caps text-decoration-none" target="_blank">Developers</a>
     </li>
-    <li class="sm-mr3">
-      <a href="{{ '/help/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/help/' %}active{% endif %}">Help</a>
+    <li class="sm-mr2 md-mr3 dropdown">
+      <a href="{{ '/help/' | relative_url }}" class="blue caps text-decoration-none {% if page.url contains '/help/' %}active{% endif %}">Help<span class="dropdown-arrow"> &#9662;</span></a>
+      <ul class="sm-show dropdown-min-width">
+        <li><a href="{{ '/help/' | relative_url }}">Overview</a></li>
+        {% for subpage in site.help_pages %}
+          {% assign subpage_slug = subpage | slugify %}
+          {% assign subpage_link = site.help | where_exp: "item", "item.url contains subpage_slug" | where: 'order', 1 | first %}
+          <li><a href="{{ subpage_link.url | relative_url }}">{{ subpage }}</a></li>
+        {% endfor %}
+      </ul>
     </li>
     <li>
       <a href="https://secure.login.gov/" class="blue caps text-decoration-none">Manage Account</a>

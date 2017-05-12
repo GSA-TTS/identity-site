@@ -1,0 +1,17 @@
+.nav-sidenav-item {
+  border-left: 4px solid transparent;
+  color: $blue;
+
+  &.active,
+  &:hover,
+  &:focus {
+    border-left-color: $red;
+    color: $navy;
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $blue-lightest;
+  }
+}

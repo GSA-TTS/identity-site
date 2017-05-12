@@ -1,0 +1,48 @@
+.nav-secondary {
+  color: red;
+
+  a {
+    color: $white;
+  }
+
+  li {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+
+    &.active {
+      font-weight: $bold-font-weight;
+
+      $triangle-size: 0.5rem;
+      $triangle-rounding: 0.05rem;
+
+      &::before {
+        border-bottom: $triangle-size solid $white;
+        border-left: $triangle-size solid transparent;
+        border-right: $triangle-size solid transparent;
+        bottom: 0;
+        content: "";
+        padding-top: 0.4rem;
+        position: absolute;
+      }
+
+      &::after {
+        border: $triangle-rounding solid $blue-mid;
+        bottom: 0;
+        content: "";
+        margin-bottom: $triangle-size - $triangle-rounding;
+        position: absolute;
+      }
+    }
+  }
+
+  a {
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+
+      li { text-decoration: underline; }
+    }
+  }
+}
