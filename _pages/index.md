@@ -17,11 +17,13 @@ permalink: /
     <div class="clearfix mxn2">
       <div class="col sm-col-4 px2 mb3">
         <img alt="" src="{{ site.baseurl }}/assets/img/users.svg" height="90">
-        <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">Simple *and* secure for the public</h2>
+        <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue" markdown="1">Simple *and* secure for the public</h2>
         <p>Because login.gov is a shared service,</p>
-        <p>* Users need fewer passwords and learn fewer interfaces
-        * Security experts protect one service instead of many.
-        * Dedicated teams of design and security experts will  continuously improve it.</p>
+        <ul>
+          <li>Users need fewer passwords and learn fewer interfaces.</li>
+          <li>Security experts protect one service instead of many.</li>
+          <li>Dedicated teams of design and security experts will continuously improve it.</li>
+        </ul>
       </div>
       <div class="col sm-col-4 px2 mb3">
         <img alt="" src="{{ site.baseurl }}/assets/img/partners.svg" height="90">
