@@ -26,13 +26,13 @@ permalink: /
       <div class="col sm-col-4 px2 mb3">
         <img alt="" src="{{ site.baseurl }}/assets/img/partners.svg" height="90">
         <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">Saving the federal government time and money</h2>
-        <p>llogin.gov handles software development, security operations, and customer support. This frees up government departments to focus on their missions while reducing costs and improving security.</p>
-        <p>A shared authentication platform frees up agency resources to deliver great services while reducing costs and improving security.</p>
+        <p>login.gov handles software development, security operations, and customer support. This frees up government                    departments to focus on their missions while reducing costs and improving security.</p>
+        <p>A shared authentication platform frees up agency resources to deliver great services while reducing costs and                  improving security.</p>
       </div>
       <div class="col sm-col-4 px2 mb3">
         <img alt="" src="{{ site.baseurl }}/assets/img/built.svg" height="90">
         <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">Built<br/>cooperatively</h2>
-        <p>login.gov works hand-in-hand with the private sector and nonprofits to identify and implement best practices and new standards in secure, privacy-protecting authentication.</p>
+        <p>login.gov works hand-in-hand with the private sector and nonprofits to identify and implement best practices and              new standards in secure, privacy-protecting authentication.</p>
         <p>Led by the <a href="https://www.usds.gov" target="_blank">U.S. Digital Service</a> and <a href="https://18f.gsa.gov" target="_blank">18F</a>, login.gov builds on groundwork laid by the <a href="http://www.nist.gov/" target="_blank">National Institute for Standards in Technology</a>, the <a href="https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan" target="_blank">Cybersecurity National Action Plan</a>, and the <a href="http://www.gsa.gov/portal/content/105080" target="_blank">Federal Acquisition Service</a>.</p>
         </div>
     </div>
