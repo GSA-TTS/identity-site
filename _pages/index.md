@@ -19,17 +19,17 @@ permalink: /
         <img alt="" src="{{ site.baseurl }}/assets/img/users.svg" height="90">
         <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue" markdown="1">Simple *and* secure for the public</h2>
         <p>Because login.gov is a shared service,</p>
-        <ul>
-          <li>Users need fewer passwords and learn fewer interfaces.</li>
-          <li>Security experts protect one service instead of many.</li>
-          <li>Dedicated teams of design and security experts will continuously improve it.</li>
+        <ul class="list-reset teal-dots">
+          <li class="mb1">Users need fewer passwords and learn fewer interfaces.</li>
+          <li class="mb1">Security experts protect one service instead of many.</li>
+          <li class="mb1">Dedicated teams of design and security experts will continuously improve it.</li>
         </ul>
       </div>
       <div class="col sm-col-4 px2 mb3">
         <img alt="" src="{{ site.baseurl }}/assets/img/partners.svg" height="90">
         <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">Saving the federal government time and money</h2>
-        <p>login.gov handles software development, security operations, and customer support. This frees up government                    departments to focus on their missions while reducing costs and improving security.</p>
-        <p>A shared authentication platform frees up agency resources to deliver great services while reducing costs and                  improving security.</p>
+        <p>login.gov handles software development, security operations, and customer support. This frees up government departments to focus on their missions while reducing costs and improving security.</p>
+        <p>A shared authentication platform frees up agency resources to deliver great services while reducing costs and improving security.</p>
       </div>
       <div class="col sm-col-4 px2 mb3">
         <img alt="" src="{{ site.baseurl }}/assets/img/built.svg" height="90">
