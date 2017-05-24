@@ -14,4 +14,8 @@ RSpec.describe 'index.md' do
   it 'links to valid internal pages' do
     expect(doc).to link_to_valid_internal_pages
   end
+
+  it 'contains specific copy that NewRelic checks for' do
+    expect(doc.text).to include('secure access to government services')
+  end
 end
