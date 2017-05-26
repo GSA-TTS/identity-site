@@ -1,15 +1,23 @@
-header {
-  position: relative;
+.logo { 
+  line-height: 14px;
+
+  img { height: 14px; }
 }
+
+header { position: relative; }
 
 header nav {
   background-color: $blue-light;
   border-top: $border-width solid $border-color;
-  margin-top: $space-3;
+  display: none;
   position: absolute;
   right: 0;
   left: 0;
-  width: 100%;
+  top: 100%;
+
+  & > ul {
+    width: 100%;
+  }
 
   & > ul > li {
     border-bottom: $border-width solid $border-color;
@@ -37,11 +45,16 @@ header nav {
 }
 
 @media #{$breakpoint-sm} {
+  .logo { 
+    line-height: 17px;
+    
+    img { height: 17px; }
+  }
+
   header nav {
     background-color: transparent;
     border: none;
     font-size: $sm-h6;
-    margin-top: 0;
     position: static;
 
     & > ul > li {

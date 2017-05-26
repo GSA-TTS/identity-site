@@ -10,7 +10,7 @@ $(function() {
   $('#js-mobile-nav-toggle').click( function () {
     $(this).find('span').toggle();
     $(this).find('img').toggleClass('display-none');
-    $('header nav').toggleClass('sm-show');
+    $('header nav').toggleClass('flex');
   });
 
   // Dropdown menu
