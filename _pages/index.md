@@ -27,7 +27,7 @@ permalink: /
       </div>
       <div class="col sm-col-4 px2 mb3">
         <img alt="" src="{{ site.baseurl }}/assets/img/partners.svg" height="90">
-        <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">Saving the federal government time and money</h2>
+        <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">Saving time and money</h2>
         <p>login.gov handles software development, security operations, and customer support. This frees up government departments to focus on their missions while reducing costs and improving security.</p>
         <p>A shared authentication platform frees up agency resources to deliver great services while reducing costs and improving security.</p>
       </div>
