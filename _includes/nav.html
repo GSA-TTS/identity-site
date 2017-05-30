@@ -1,13 +1,14 @@
-<a href="#" class="sm-hide caps bold text-decoration-none" id="js-mobile-nav-toggle">
-  <span>Menu</span>
-  <img src="{{ site.baseurl }}/assets/img/close.svg" width="16" alt="Close" class="display-none">
+<a href="#" class="sm-hide flex flex-center w-60p flex-justify bg-lightest-blue caps bold text-decoration-none fs-13p" id="js-mobile-nav-toggle">
+  <span class="block mx-auto">Menu</span>
+  <img src="{{ site.baseurl }}/assets/img/close.svg" width="13" alt="Close" class="display-none mx-auto">
 </a>
-<nav class="sm-show">
-  <ul class="list-reset m0 mt-tiny">
-    <li class="sm-mr2 md-mr3">
+
+<nav class="sm-flex flex-center">
+  <ul class="list-reset m0 sm-mt1">
+    <li class="sm-mr3">
       <a href="{{ '/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/' %}active{% endif %}">Home</a>
     </li>
-    <li class="sm-mr2 md-mr3 dropdown">
+    <li class="sm-mr3 dropdown">
       <a href="{{ '/playbook/' | relative_url }}" class="blue caps text-decoration-none {% if page.url contains '/playbook/' %}active{% endif %}">Playbook<span class="dropdown-arrow"> &#9662;</span></a>
         <ul class="sm-show">
           <li><a href="{{ '/playbook/' | relative_url }}">Overview</a></li>
@@ -16,13 +17,13 @@
         </ul>
       </li>
     </li>
-    <li class="sm-mr2 md-mr3">
+    <li class="sm-mr3">
       <a href="{{ '/security/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/security/' %}active{% endif %}">Security</a>
     </li>
-    <li class="sm-mr2 md-mr3">
+    <li class="sm-mr3">
       <a href="https://developers.login.gov/" class="blue caps text-decoration-none" target="_blank">Developers</a>
     </li>
-    <li class="sm-mr2 md-mr3">
+    <li class="sm-mr3">
       <a href="{{ '/help/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/help/' %}active{% endif %}">Help</a>
     </li>
     <li>
