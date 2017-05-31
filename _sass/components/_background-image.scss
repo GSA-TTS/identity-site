@@ -1,8 +1,8 @@
 @media #{$breakpoint-sm} {
   #intro-header {
-    background-image: url('../../img/header.svg');
-    background-position: left center;
+    background-image: url('../../img/header@2x.png');
+    background-position: calc(50% - 300px) 50%;
     background-repeat: no-repeat;
-    background-size: 45%;
+    background-size: 650px;
   }
 }
