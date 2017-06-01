@@ -1,6 +1,6 @@
 <nav class="bg-navy flex sm-hide">
   <div class="dropdown-sm text-decoration-none list-reset inline-block">
-    <div class="dropdown-text bg-blue inline-block text-decoration-none caps white px1 py1"><span class="dropdown-sm-arrow"></span><span class="caret">&#9662;</span> Help</div>
+    <div class="dropdown-text bg-blue inline-block text-decoration-none caps white px1 py1"><span class="dropdown-sm-arrow"></span><span class="caret">&#9662;</span> {% t pages.help %}</div>
     <ul class="bg-blue list-reset">
       {% for subpage in site.help_pages %}
         {% assign subpage_slug = subpage | slugify %}
@@ -9,13 +9,13 @@
           {% assign this_page_parent = subpage %}
           <a class="dropdown-links active white py1 pl1 pr2" href="{{ subpage_link.url | prepend: site.baseurl }}">
             <li class="block bold">
-              <img height="8" alt="" src="{{ site.baseurl }}/assets/img/check-mobile.svg"> {{ subpage }}
+              <img height="8" alt="" src="{{ site.baseurl }}/assets/img/check-mobile.svg"> {{ site["translations"][site.lang]["help_subpages"][subpage] }}
             </li>
           </a>
         {% else %}
           <a class="dropdown-links white py1 px2" href="{{ subpage_link.url | prepend: site.baseurl }}">
             <li class="block">
-              &nbsp; {{ subpage }}
+              &nbsp; {{ site["translations"][site.lang]["help_subpages"][subpage] }}
             </li>
           </a>
         {% endif %}

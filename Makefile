@@ -4,6 +4,10 @@ run:
 clean:
 	rm -rf _site
 
+setup:
+	bundle check || bundle install
+	npm install
+
 test: build
 	bundle exec rspec spec
 
