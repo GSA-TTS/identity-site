@@ -110,6 +110,7 @@ $dropdown-min-width: 125px;
     padding: 0;
     position: absolute;
     transition: all .1s;
+    top: 100%;
     visibility: hidden;
 
     a {
