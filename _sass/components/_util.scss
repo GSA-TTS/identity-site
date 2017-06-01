@@ -2,12 +2,16 @@
 
 .w-60p { width: 60px; }
 
+.w-100pc { width: 100%; }
+
 .bg-light-blue { background-color: $blue-light; }
 .bg-lightest-blue { background-color: $blue-lightest; }
 
 .no-hover-decoration:hover { text-decoration: none; }
 
 .invisible { visibility: hidden; }
+
+.inline-flex { display: inline-flex; }
 
 @media #{$breakpoint-sm} {
   .sm-maxw-190p { max-width: 190px; }
