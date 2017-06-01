@@ -1,6 +1,6 @@
 <nav class="bg-navy flex sm-hide">
   <div class="dropdown-sm text-decoration-none list-reset inline-block">
-    <div class="dropdown-text bg-blue inline-block text-decoration-none caps white px1 py1"><span class="dropdown-sm-arrow"></span><span class="caret">&#9662;</span> Help</div>
+    <div class="dropdown-text bg-blue inline-block text-decoration-none caps white px1 py1"><span class="dropdown-sm-arrow"></span><span class="caret">&#9662;</span> {% t pages.help %}</div>
     <ul class="bg-blue list-reset">
       {% for subpage in site.help_pages %}
         {% assign subpage_slug = subpage | slugify %}

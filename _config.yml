@@ -1,7 +1,10 @@
 # Site settings
 title: login.gov
-description: login.gov, the consumer identity platform
 canonical_domain: www.login.gov
+
+# i18n
+languages: ['en', 'es']
+exclude_from_localizations: ["javascript", "images", "css"]
 
 # Pages
 collections:
@@ -38,12 +41,6 @@ defaults:
   values:
     layout: main
 
-help_pages:
-- Creating an account
-- Signing in
-- Changing settings
-- Privacy and security
-
 exclude:
   - /assets/stylesheets/main.scss
   - Gemfile*
@@ -56,6 +53,13 @@ exclude:
 
 gems:
   - jekyll-redirect-from
+  - jekyll-multiple-languages-plugin
+
+help_pages:
+- Creating an account
+- Signing in
+- Changing settings
+- Privacy and security
 
 # Per-section configs
 playbook:

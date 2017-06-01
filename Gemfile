@@ -4,6 +4,7 @@ ruby '2.3.1'
 
 gem 'jekyll'
 gem 'jekyll-redirect-from'
+gem 'jekyll-multiple-languages-plugin'
 
 group :development do
   gem 'pry'
