@@ -3,11 +3,11 @@ title: login.gov
 permalink: /
 ---
 
-<div class="bg-navy">
-  <div id="intro-header" class="container cntnr-wide px2 py5 clearfix">
-    <div class="sm-col sm-col-6 sm-col-right">
+<div id="intro-header" class="bg-navy">
+  <div class="container cntnr-wide px2 py5 clearfix">
+    <div class="sm-col sm-col-7 sm-col-right">
       <h1 class="mt0 mb2 teal">Simple, secure access to government services online</h1>
-      <p class="m0 white line-height-3">login.gov offers the public secure and private online access to participating government programs. With one login.gov account, users can sign in to multiple government agencies. Our goal is to make managing federal benefits, services and applications easier and more secure.</p>
+      <p class="m0 white fs-20p">login.gov offers the public secure and private online access to participating government programs. With one login.gov account, users can sign in to multiple government agencies. Our goal is to make managing federal benefits, services and applications easier and more secure.</p>
     </div>
   </div>
 </div>
@@ -27,7 +27,7 @@ permalink: /
       </div>
       <div class="col sm-col-4 px2 mb3">
         <img alt="" src="{{ site.baseurl }}/assets/img/partners.svg" height="90">
-        <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">Saving time and money</h2>
+        <h2 class="mt2 mb2 pb2 blue border-bottom border-light-blue">Saving time and <br class="sm-show" />money</h2>
         <p>login.gov handles software development, security operations, and customer support. This frees up government departments to focus on their missions while reducing costs and improving security.</p>
         <p>A shared authentication platform frees up agency resources to deliver great services while reducing costs and improving security.</p>
       </div>
