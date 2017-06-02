@@ -3,7 +3,7 @@ title: login.gov
 canonical_domain: www.login.gov
 
 # i18n
-languages: ['en', 'es']
+languages: ['en']
 exclude_from_localizations: ["javascript", "images", "css"]
 
 # Pages
