@@ -2,6 +2,7 @@
 title: Help
 layout: main
 permalink: /help/
+description: Get answers to common questions about login.gov.
 bg_color: bg-blue-mid
 links:
   - name: Creating an account

@@ -1,6 +1,7 @@
 ---
 title: Implementation
 permalink: /playbook/implementation/
+description: Determine whether your agency or organization needs a consumer identity management system.
 class: relative
 ---
 
