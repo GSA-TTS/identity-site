@@ -1,13 +1,16 @@
-<footer class="footer bg-navy white">
-  <div class="container cntnr-wide py2 h6">
+<footer class="footer bg-navy">
+  <div class="container cntnr-wide py1 px2 lg-px0 h6">
     <div class="clearfix">
-      <div class="sm-col-right center caps pb2 sm-pb0">
+      <div class="col-right caps">
         <a href="{{ '/help/' | relative_url }}" class="white text-decoration-none mr3 {% if page.url == '/help/' %}bold{% endif %}">Help</a>
         <a href="{{ '/contact/' | relative_url }}" class="white text-decoration-none mr3 {% if page.url == '/contact/' %}bold{% endif %}">Contact</a>
-        <a href="{{ '/policy/' | relative_url }}" class="white text-decoration-none {% if page.url == '/policy/' %}bold{% endif %}">Privacy and security</a>
+        <a href="{{ '/policy/' | relative_url }}" class="white text-decoration-none {% if page.url == '/policy/' %}bold{% endif %}">Privacy & security</a>
       </div>
-      <div class="sm-col pt2 sm-pt0 center border-top sm-border-none border-blue">
-        U.S. General Services Administration
+      <div class="col">
+        <a href="https://www.gsa.gov" class="flex flex-center text-decoration-none white" target="_blank">
+          <img src="{{ '/assets/img/square-gsa.svg' | relative_url }}" width="20" height="20" class="mr1" alt="GSA hompage" />
+          <span class="sm-show">U.S. General Services Administration</span>
+        </a>
       </div>
     </div>
   </div>
