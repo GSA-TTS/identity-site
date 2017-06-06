@@ -1,6 +1,7 @@
 ---
 title: Security
 permalink: /security/
+description: Learn how login.gov keeps personal information private.
 styles:
   - /assets/stylesheets/security.css
 class: bg-light-blue

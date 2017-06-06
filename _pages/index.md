@@ -1,6 +1,8 @@
 ---
-title: login.gov
+title: Home
 permalink: /
+twitter_card: large
+image: /assets/img/login-gov-600x314.png
 ---
 
 <div id="intro-header" class="bg-navy">

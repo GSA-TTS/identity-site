@@ -1,6 +1,7 @@
 ---
-title: Privacy policy
+title: Privacy and security
 permalink: /policy/
+description: Learn more about our security and privacy practices.
 class: relative
 ---
 

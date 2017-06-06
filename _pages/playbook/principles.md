@@ -1,6 +1,7 @@
 ---
 title: Principles
 permalink: /playbook/principles/
+description: Explore the principles that have helped us make the best system possible.
 class: relative
 ---
 
