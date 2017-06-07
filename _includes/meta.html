@@ -33,15 +33,15 @@
 
 <!-- Image -->
 {% if page.image %}
-  <link rel="image_src" href="{{ page.image | prepend: site.baseurl }}">
-  <meta name="image" content="{{ page.image | prepend: site.baseurl }}">
-  <meta property="og:image" content="{{ page.image | prepend: site.baseurl }}" />
-  <meta name="twitter:image" content="{{ page.image | prepend: site.baseurl }}">
+  <link rel="image_src" href="{{ page.image | absolute_url }}">
+  <meta name="image" content="{{ page.image | absolute_url }}">
+  <meta property="og:image" content="{{ page.image | absolute_url }}" />
+  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
 {% else %}
-  <link rel="image_src" href="{{ site.image | prepend: site.baseurl }}">
-  <meta name="image" content="{{ site.image | prepend: site.baseurl }}">
-  <meta property="og:image" content="{{ site.image | prepend: site.baseurl }}" />
-  <meta name="twitter:image" content="{{ site.image | prepend: site.baseurl }}">
+  <link rel="image_src" href="{{ site.image | absolute_url }}">
+  <meta name="image" content="{{ site.image | absolute_url }}">
+  <meta property="og:image" content="{{ site.image | absolute_url }}" />
+  <meta name="twitter:image" content="{{ site.image | absolute_url }}">
 {% endif %}
 
 <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.canonical_domain | replace: '//', '/' | prepend: 'https://' }}">
