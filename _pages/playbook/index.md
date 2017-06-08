@@ -1,13 +1,14 @@
 ---
-title: Identity playbook
+title: Playbook
 permalink: /playbook/
+description: Helping developers and technologists in government agencies build usable, secure, and privacy-protecting consumer identity management systems.
 ---
 
 <div class="bg-navy">
   <div class="container cntnr-wide px2 py5">
     <img alt="" width="231" class="mt1 mx4 right md-show" src="{{ '/assets/img/playbook-landing.svg' | prepend: site.baseurl }}">
     <h1 class="mt0 mb1 white">
-      {{ page.title }}
+      Identity Playbook
     </h1><img alt="" class="mb3" src="{{ '/assets/img/hr-red-2.svg' | relative_url }}">
     <p class="overflow-hidden white fs-20p serif">
       Identity management — or making sure that only the correct people get access to systems — is central to delivering public services online. We are sharing these principles to help developers and technologists in government agencies build usable, secure, and privacy-protecting consumer identity management systems.

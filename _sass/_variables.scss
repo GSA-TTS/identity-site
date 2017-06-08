@@ -2,6 +2,7 @@ $aqua: #7fdbff !default;
 $blue: #0071bc !default;
 $blue-light: #ebf3fa !default;
 $blue-lightest: #f2f9ff !default;
+$blue-mid: #1c5899;
 $navy: #112e51 !default;
 $teal: #00bfe7 !default;
 $green: #68e380 !default;
@@ -60,6 +61,7 @@ $space-tiny: .25rem !default;
 
 $space-1: .5rem !default;
 $space-2: 1rem !default;
+$space-2-5: 1.5rem !default;
 $space-3: 2rem !default;
 $space-4: 3rem !default;
 $space-5: 4rem !default;
@@ -101,6 +103,7 @@ $border-radius-lg: 8px !default;
 $border-radius-xl: 16px !default;
 $border-radius-xxl: 24px !default;
 $border-color: #cedbec !default;
+$border-color-secondary: $blue-mid !default;
 
 $table-header-font-weight: $bold-font-weight !default;
 $table-cell-padding-x: $space-2 !default;
@@ -126,3 +129,5 @@ $container-skinny-width: 620px !default;
 $container-xskinny-width: 540px !default;
 $container-xxskinny-width: 396px !default;
 $container-wide-width: 940px !default;
+
+$icon-width: 0.8rem;

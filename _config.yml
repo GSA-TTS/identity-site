@@ -1,10 +1,14 @@
 # Site settings
 title: login.gov
-description: login.gov, the consumer identity platform
+description: Simple, secure access to government services online
+image: /assets/img/login-gov-288x288.png
 canonical_domain: www.login.gov
 
 # Pages
 collections:
+  help:
+    output: true
+    permalink: /:collection/:path/
   pages:
     output: true
     permalink: /:path/
@@ -26,10 +30,20 @@ kramdown:
 
 # Defaults
 defaults:
-  - scope:
-      path: ""
-    values:
-      layout: main
+- scope:
+    path: "_help"
+  values:
+    layout: help
+- scope:
+    path: ""
+  values:
+    layout: main
+
+help_pages:
+- Creating an account
+- Signing in
+- Changing settings
+- Privacy and security
 
 exclude:
   - /assets/stylesheets/main.scss
@@ -40,6 +54,9 @@ exclude:
   - spec
   - webpack.config.js
   - vendor
+
+gems:
+  - jekyll-redirect-from
 
 # Per-section configs
 playbook:

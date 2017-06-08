@@ -34,3 +34,7 @@ h6, .h6 { font-size: $h6; }
 
   .fs-20p { font-size: 20px; }
 }
+
+p + h4 {
+  margin-top: $space-2-5;
+}

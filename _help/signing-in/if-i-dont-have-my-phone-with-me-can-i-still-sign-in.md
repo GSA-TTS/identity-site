@@ -1,0 +1,8 @@
+---
+title: If I don't have my phone with me, can I still sign in?
+order: 4
+---
+
+It is necessary to have your phone in order to get the security key to sign in. But if you don't have your phone with you, you will need the personal key you received when you created your account. Enter the personal key when instructed and select submit. Once you are signed in, you will immediately get a new personal key. Please store the personal key in a safe place separately from your phone since the personal key will let you sign in to your account in case you don't have your phone with you.
+
+We encourage you to store your personal key somewhere other than your computer or mobile device — this way, you'll be able to access your personal key even if your device is stolen or your online accounts are hacked.
