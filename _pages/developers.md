@@ -22,7 +22,8 @@ permalink: /developers/
     <div class="center mt3 mb4">
       <h2 class="h1 mt0 mb1">Built for flexibility</h2>
       <p class="mb0 fs-20p">
-        Add some more content here
+       We offer options for different apps
+
       </p>
     </div>
 
