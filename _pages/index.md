@@ -48,7 +48,7 @@ image: /assets/img/login-gov-600x314.png
     <div class="clearfix">
       <div class="col-12 sm-col-10 mx-auto">
         <h2 class="mt1 mb2 red">Learn more</h2>
-        <p class="mt0 fs-20p serif line-height-3">If you’re interested in learning more or helping us deliver this platform for millions of Americans, please send us a note at <a href="mailto:login-contact@gsa.gov?subject=login.gov">login-contact@gsa.gov</a>.</p>
+        <p class="mt0 fs-20p serif line-height-3">If you’re interested in learning more about this platform, please send us a note at <a href="mailto:login-contact@gsa.gov?subject=login.gov">login-contact@gsa.gov</a>.</p>
         <div class="center">
           <a href="{{ site.baseurl }}/contact" class="btn btn-primary btn-wide mb2">Contact us</a>
         </div>
