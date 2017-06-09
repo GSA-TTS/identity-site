@@ -30,17 +30,17 @@ permalink: /developers/
     <div class="clearfix mxn2">
       <div class="col col-12 sm-col-4 px2 mb3 center">
         <img alt="" src="{{ '/assets/img/users.svg' | relative_url }}" height="90">
-        <h2 class="mt2 mb2 blue"><a href="https://developers.login.gov/" target="_blank" class="text-decoration-none">Comply with changing identity assurance guidelines</a></h2>
+        <h2 class="mt2 mb2 blue">Comply with changing identity assurance guidelines</h2>
         <p>We currently support LOA1 and LOA3 for NIST 800-63-2, and are updating for compliance with 800-63-3.</p>
       </div>
       <div class="col col-12 sm-col-4 px2 mb3 center">
         <img alt="" src="{{ '/assets/img/partners.svg' | relative_url }}" height="90">
-        <h2 class="mt2 mb2 blue"><a href="https://developers.login.gov/" target="_blank" class="text-decoration-none">Reduce the time to launch</a></h2>
+        <h2 class="mt2 mb2 blue">Reduce the time to launch</h2>
         <p>We support standard protocols such as OpenID and SAML, letting you take full advantage of reusable code libraries.</p>
       </div>
       <div class="col col-12 sm-col-4 px2 mb3 center">
         <img alt="" src="{{ '/assets/img/built.svg' | relative_url }}" height="90">
-        <h2 class="mt2 mb2 blue"><a href="https://developers.login.gov/" target="_blank" class="text-decoration-none">Develop in the open</a></h2>
+        <h2 class="mt2 mb2 blue">Develop in the open</h2>
         <p>We welcome contributions and review within open code repositories to improve the platform.</p>
       </div>
     </div>
