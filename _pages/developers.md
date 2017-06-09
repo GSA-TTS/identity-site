@@ -35,8 +35,8 @@ permalink: /developers/
       </div>
       <div class="col col-12 sm-col-4 px2 mb3 center">
         <img alt="" src="{{ site.baseurl }}/assets/img/partners.svg" height="90">
-        <h2 class="mt2 mb2 blue"><a href="https://developers.login.gov/" target="_blank" class="text-decoration-none">Get the flexibility to adapt</a></h2>
-        <p>Major authentication protocols such as OpenID and SAML have reusable libraries behind them, which reduce the amount of coding necessary for you to adopt them.</p>
+        <h2 class="mt2 mb2 blue"><a href="https://developers.login.gov/" target="_blank" class="text-decoration-none">Reduce the time to launch</a></h2>
+        <p>We support standard protocols such as OpenID and SAML, letting you take full advantage of reusable code libraries.</p>
       </div>
       <div class="col col-12 sm-col-4 px2 mb3 center">
         <img alt="" src="{{ site.baseurl }}/assets/img/built.svg" height="90">
