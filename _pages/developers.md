@@ -7,10 +7,10 @@ permalink: /developers/
   <div class="container cntnr-wide px2 py5 clearfix">
     <img alt="" width="231" class="mt1 mx4 right md-show" src="{{ '/assets/img/playbook-landing.svg' | relative_url }}">
     <h1 class="mt0 mb1 white">
-      Built for easy integration
+      Easy integration and flexibility
     </h1><img alt="" class="mb3" src="{{ '/assets/img/hr-red-2.svg' | relative_url }}">
     <p class="mb3 overflow-hidden white fs-20p serif">
-      We speed up integration with open code repositories, standards-based support, and API-based interactions.
+      Standard protocols, reusable libraries and continuous open development speed up development and help you stay compliant.
     </p>
     <a href="https://developers.login.gov/" target="_blank" class="btn btn-primary btn-wide">Get started</a>
   </div>
@@ -18,15 +18,6 @@ permalink: /developers/
 
 <div class="bg-white">
   <div class="container cntnr-wide p2">
-
-    <div class="center mt3 mb4">
-      <h2 class="h1 mt0 mb1">Built for flexibility</h2>
-      <p class="mb0 fs-20p">
-       We offer options for different apps
-
-      </p>
-    </div>
-
     <div class="clearfix mxn2">
       <div class="col col-12 sm-col-4 px2 mb3 center">
         <img alt="" src="{{ '/assets/img/users.svg' | relative_url }}" height="90">
