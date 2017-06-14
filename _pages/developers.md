@@ -21,18 +21,18 @@ permalink: /developers/
     <div class="clearfix mxn2">
       <div class="col col-12 sm-col-4 px2 mb3 center">
         <img alt="" src="{{ '/assets/img/users.svg' | relative_url }}" height="90">
-        <h2 class="mt2 mb2 blue">Comply with changing identity assurance guidelines</h2>
-        <p>We currently support <a href="https://developers.login.gov/attributes/" target="_blank">LOA1 and LOA3</a> for <a href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-2.pdf" target="_blank">NIST 800-63-2</a>, and are updating for compliance with 800-63-3.</p>
+        <h2 class="mt2 mb2 blue">Comply with changing digital identity guidance</h2>
+        <p>Choose between <a href="https://developers.login.gov/attributes/" target="_blank">LOA1 and LOA3</a> for <a href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-2.pdf" target="_blank">NIST 800-63-2</a>. When   <a href="https://pages.nist.gov/800-63-3/" target="_blank">policies</a> change, we do the work to ensure compliance.</p>
       </div>
       <div class="col col-12 sm-col-4 px2 mb3 center">
         <img alt="" src="{{ '/assets/img/partners.svg' | relative_url }}" height="90">
         <h2 class="mt2 mb2 blue">Reduce the time to launch</h2>
-        <p>We support standard protocols such as <a href="https://developers.login.gov/openid-connect/" target="_blank">OpenID</a> and <a href="https://developers.login.gov/saml/" target="_blank">SAML</a>, letting you take full advantage of reusable code libraries.</p>
+        <p>Take advantage of reusable code libraries. We support both <a href="https://developers.login.gov/openid-connect/" target="_blank">OpenID</a> and <a href="https://developers.login.gov/saml/" target="_blank">SAML</a>.</p>
       </div>
       <div class="col col-12 sm-col-4 px2 mb3 center">
         <img alt="" src="{{ '/assets/img/built.svg' | relative_url }}" height="90">
-        <h2 class="mt2 mb2 blue">Develop in the open</h2>
-        <p>We welcome contributions and review within an <a href="https://github.com/18F/identity-idp" target="_blank">open code repository</a> to improve the platform.</p>
+        <h2 class="mt2 mb2 blue">See constant improvements with open development</h2>
+        <p>Follow ongoing feature development, user experience improvement, and security reviews in our <a href="https://github.com/18F/identity-idp" target="_blank">open code repository</a>.</p>
       </div>
     </div>
   </div>
