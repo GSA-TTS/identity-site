@@ -122,6 +122,27 @@ security_page:
 contact_page:
   content: |
     First, check out answers to [common questions](site.baseurl/help/). Still have a question or a problem with the platform? Contact us at [login-contact@gsa.gov](mailto:login-contact@gsa.gov).
+developers_page:
+  intro:
+    heading: Easy integration and flexibility
+    p_1: Standard protocols, reusable libraries, and continuous open reviews speed up development and help you stay compliant.
+    a_1: See the documentation
+  column_1:
+    heading: Comply with changing guidance
+    content:
+      p_1: Choose between [LOA1 and LOA3](https://developers.login.gov/attributes/){:target="_blank"} for [NIST 800-63-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-2.pdf){:target="_blank"}. When [policies](https://pages.nist.gov/800-63-3/){:target="_blank"} change, we do the work to ensure compliance.
+  column_2:
+    heading: Reduce the time to launch
+    content:
+      p_1: Take advantage of reusable code libraries. We support both [OpenID Connect](https://developers.login.gov/openid-connect/){:target="_blank"} and [SAML](https://developers.login.gov/saml/){:target="_blank"}. Get started fast with example integration code in [Java](https://github.com/18F/identity-sp-java){:target="_blank"}, [Ruby](https://github.com/18F/identity-sp-sinatra){:target="_blank"}, [Python](https://github.com/18F/identity-sp-python){:target="_blank"} and [iOS](https://github.com/18F/identity-openidconnect-ios-client){:target="_blank"}.
+  column_3:
+    heading: Check out the <br class="sm-show">code
+    content:
+      p_1: Follow ongoing feature development, user experience improvement, and security reviews in our [open source repository](https://github.com/18F/identity-idp){:target="_blank"}.
+  footer:
+    heading: Contact us
+    p_1: If you’re interested in learning more about the platform, please
+    a_1: contact us
 implementation_page:
   heading: Implementing an identity management system
   section_1:
