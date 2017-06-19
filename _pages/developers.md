@@ -29,12 +29,12 @@ bg_color: bg-lightest-blue
       <div class="col col-12 sm-col-4 px2">
         <img alt="" src="{{ '/assets/img/launch.svg' | relative_url }}" height="117">
         <h2 class="mt2 mb2 pb2 blue border-bottom">Reduce the time to launch</h2>
-        <p>Take advantage of reusable code libraries. We support both <a href="https://developers.login.gov/openid-connect/" target="_blank">OpenID</a> and <a href="https://developers.login.gov/saml/" target="_blank">SAML</a>. Get started fast with example integration code in <a href="https://github.com/18F/identity-sp-java" target="_blank">Java</a>, <a href="https://github.com/18F/identity-sp-sinatra" target="_blank">Ruby</a>, <a href="https://github.com/18F/identity-sp-python" target="_blank">Python</a> and <a href="https://github.com/18F/identity-openidconnect-ios-client" target="_blank">iOS</a>.</p>
+        <p>Take advantage of reusable code libraries. We support both <a href="https://developers.login.gov/openid-connect/" target="_blank">OpenID Connect</a> and <a href="https://developers.login.gov/saml/" target="_blank">SAML</a>. Get started fast with example integration code in <a href="https://github.com/18F/identity-sp-java" target="_blank">Java</a>, <a href="https://github.com/18F/identity-sp-sinatra" target="_blank">Ruby</a>, <a href="https://github.com/18F/identity-sp-python" target="_blank">Python</a> and <a href="https://github.com/18F/identity-openidconnect-ios-client" target="_blank">iOS</a>.</p>
       </div>
       <div class="col col-12 sm-col-4 px2">
         <img alt="" src="{{ '/assets/img/develop.svg' | relative_url }}" height="117">
         <h2 class="mt2 mb2 pb2 blue border-bottom">Check out the <br class="sm-show">code</h2>
-        <p>Follow ongoing feature development, user experience improvement, and security reviews in our <a href="https://github.com/18F/identity-idp" target="_blank">open code repository</a>.</p>
+        <p>Follow ongoing feature development, user experience improvement, and security reviews in our <a href="https://github.com/18F/identity-idp" target="_blank">open source repository</a>.</p>
       </div>
     </div>
   </div>
