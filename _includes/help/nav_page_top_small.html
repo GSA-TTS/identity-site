@@ -6,7 +6,7 @@
         {% assign subpage_slug = subpage | slugify %}
         {% assign subpage_link = site.help | where_exp: "item", "item.url contains subpage_slug" | where: 'order', 1 | first %}
         {% if parent_url contains subpage_slug %}
-          {% assign this_page_parent = subpage %}
+          {% assign this_page_parent = site["translations"][site.lang]["help_subpages"][subpage] %}
           <a class="dropdown-links active white py1 pl1 pr2" href="{{ subpage_link.url | prepend: site.baseurl }}">
             <li class="block bold">
               <img height="8" alt="" src="{{ site.baseurl }}/assets/img/check-mobile.svg"> {{ site["translations"][site.lang]["help_subpages"][subpage] }}
