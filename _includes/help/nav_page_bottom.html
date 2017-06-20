@@ -8,7 +8,7 @@
         {% capture is_initially_expanded %}{% if page.url contains subpage_slug %}true{% else %}false{% endif %}{% endcapture %}
         {% capture is_initially_hidden %}{% if page.url contains subpage_slug %}false{% else %}true{% endif %}{% endcapture %}
         <button class="btn-transparent border-bottom {% if forloop.first %}border-top{% endif %} flex flex-center w-100pc left-align p2" aria-expanded="{{ is_initially_expanded }}">
-          <span class="w-100pc">{{ subpage }}</span>
+          <span class="w-100pc">{{ site["translations"][site.lang]["help_subpages"][subpage] }}</span>
           <span class="svg-wrapper svg-gray">{% include svg/carat-down.svg %}</span>
         </button>
 
