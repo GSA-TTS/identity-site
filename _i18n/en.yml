@@ -303,6 +303,34 @@ principles_page:
     In login.gov’s case, for instance, we have to decide exactly what data we store and for how long. We also have to decide what steps users must take to access their information. All of these decisions take careful deliberation to determine what’s the best option for both users and agencies and to ensure maximum functionality.
 
     In building login.gov, we’re adhering to standards put forward by the [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/){:target="_blank"} (NIST 800-63-2) and will move adapt their new draft standards (NIST 800-63-3) as they become final. The draft standards take a very different approach to authentication and identity proofing (how a person logs in and how they verify their identity) from the current version. Additionally we’re adhering to [government security best practices](https://playbook.cio.gov/#play11){:target="_blank"} including FedRAMP, building in the open, conducting rigorous and routine security evaluations in addition to compliance with the Federal Information Security Management Act (FISMA).
+help:
+  changing-settings:
+    how-do-i-change-my-email-address: How do I change my email address?
+    how-do-i-change-my-password: How do I change my password?
+    how-do-i-change-the-phone-number-i-am-using-with-my-account: How do I change the phone number I am using with my account?
+  creating-an-account:
+    do-i-need-a-mobile-phone-to-use-logingov: Do I need a mobile phone to use login.gov?
+    how-do-i-create-an-account-with-logingov: How do I create an account with login.gov?
+    i-didnt-receive-a-confirmation-email-from-logingov: I didnt receive a confirmation email from login.gov.
+    what-do-i-do-if-an-account-already-exists-under-my-email-address: What do I do if an account already exists under my email address?
+    what-is-two-factor-authentication: What is two factor authentication?
+    why-didnt-i-receive-a-security-code-to-confirm-my-phone: Why didnt I receive a security code to confirm my phone?
+    why-do-i-need-to-confirm-my-email-address-and-my-phone-number: Why do I need to confirm my email address and my phone number?
+    why-do-i-need-to-use-logingov-to-access-government-services-online: Why do I need to use login.gov to access government services online?
+  privacy-and-security:
+    can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove a saved password or login information from my browser?
+    how-do-i-make-my-password-strong: How do I make my password strong?
+    how-does-logingov-protect-my-data: How does login.gov protect my data?
+    will-logingov-share-my-information: Will login.gov share my information?
+  signing-in:
+    i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: I cant remember where my personal key is and I dont have my phone with me.
+    i-forgot-which-email-address-i-used-to-create-an-account: I forgot which email address I used to create an account.
+    if-i-dont-have-my-phone-with-me-can-i-still-sign-in: If I dont have my phone with me can I still sign in?
+    what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: What do I do if my password doesnt work or I forget it?
+    what-do-i-need-to-have-in-order-to-sign-in: What do I need to have in order to sign in?
+    what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: What happens if I miss the phone call or the text message with my one time security code?
+    what-is-an-authenticator-app: What is an authenticator app?
+    why-does-the-system-log-me-out: Why does the system log me out?
 policies:
   - section: Our security practices
     anchor: "our-security-practices"

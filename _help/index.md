@@ -33,8 +33,7 @@ links:
       <ul class="pl0">
       {% for subpage in page.links %}
         {% assign subpage_slug = subpage.name | slugify %}
-        {% assign lang_path = "/" | append: site.lang | append: "/" %}
-        {% assign first_subpage = site.help | where_exp: "item", "item.url contains lang_path" | where_exp: "item", "item.url contains subpage_slug" | where: 'order', 1 | first %}
+        {% assign first_subpage = site.help | where_exp: "item", "item.url contains subpage_slug" | where: 'order', 1 | first %}
         <li class="list-style-none mb2">
           <a class="no-hover-decoration" href="{{ first_subpage.url | prepend: site.baseurl }}">
             <button class="btn btn-inverse btn-primary btn-big btn-outline flex flex-center w-100pc" tabindex="-1">
