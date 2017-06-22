@@ -1,0 +1,3 @@
+{% assign file_size = include.url | size | minus: 2 %}
+{% assign page_file = include.url | slice: 1 , file_size | append: '.md' %}
+{% translate_file page_file %}
