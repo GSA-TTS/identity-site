@@ -1,4 +1,11 @@
 @media #{$breakpoint-sm} {
+  #developer-header {
+    background-image: url('../../img/dev-landing@2x.png');
+    background-position: right 16px center;
+    background-repeat: no-repeat;
+    background-size: 285px;
+  }
+
   #intro-header {
     background-image: url('../../img/header@2x.png');
     background-position: calc(50% - 300px) 50%;

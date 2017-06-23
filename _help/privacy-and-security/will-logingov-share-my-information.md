@@ -1,6 +1,5 @@
 ---
-title: Will login.gov share my information?
 order: 2
 ---
 
-login.gov cannot share any information with other government agencies without the user's permission. Not even login.gov administrators can decrypt or access a user's personal information without the user's password.
+{% include help/translate_page.html url=page.url %}

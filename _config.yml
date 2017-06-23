@@ -4,6 +4,10 @@ description: Simple, secure access to government services online
 image: /assets/img/login-gov-288x288.png
 canonical_domain: www.login.gov
 
+# i18n
+languages: ['en']
+exclude_from_localizations: ["javascript", "images", "css"]
+
 # Pages
 collections:
   help:
@@ -39,12 +43,6 @@ defaults:
   values:
     layout: main
 
-help_pages:
-- Creating an account
-- Signing in
-- Changing settings
-- Privacy and security
-
 exclude:
   - /assets/stylesheets/main.scss
   - Gemfile*
@@ -57,6 +55,13 @@ exclude:
 
 gems:
   - jekyll-redirect-from
+  - jekyll-multiple-languages-plugin
+
+help_pages:
+- creating-an-account
+- signing-in
+- changing-settings
+- privacy-and-security
 
 # Per-section configs
 playbook:

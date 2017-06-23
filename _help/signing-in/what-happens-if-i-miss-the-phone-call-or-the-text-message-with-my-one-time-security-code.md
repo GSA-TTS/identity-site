@@ -1,6 +1,5 @@
 ---
-title: What happens if I miss the phone call or the text message with my one-time security code?
 order: 3
 ---
 
-Every time you sign in you will need to enter a security code that is sent to your phone either by text message or by phone call. The security code you receive expires after 5 minutes and can only be used once. If you miss entering the security code within the 5 minutes or you just missed the phone call, just request a new security code. Each security code is only good once, so no one can steal one you've already used. We limit requests to three every 15 minutes, but otherwise you can request as many codes as you need.
+{% include help/translate_page.html url=page.url %}

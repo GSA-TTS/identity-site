@@ -4,6 +4,7 @@ layout: main
 permalink: /help/
 description: Get answers to common questions about login.gov.
 bg_color: bg-blue-mid
+## Help page names should also be listed in translations under "help_subpages"
 links:
   - name: Creating an account
     url: /help/creating-an-account/do-i-need-a-mobile-phone-to-use-logingov/
@@ -18,6 +19,7 @@ links:
     url: /help/privacy-and-security/can-i-remove-a-saved-password-or-login-information-from-my-browser/
     img_url: /assets/img/privacy-security-light.svg
 ---
+
 
 <div class="bg-navy">
   <div class="container cntnr-xxskinny py2">
@@ -36,7 +38,7 @@ links:
           <a class="no-hover-decoration" href="{{ first_subpage.url | prepend: site.baseurl }}">
             <button class="btn btn-inverse btn-primary btn-big btn-outline flex flex-center w-100pc" tabindex="-1">
               <img src="{{ subpage.img_url | prepend: site.baseurl }}" alt="" class="w-60p mr2" />
-              <span class="w-100pc left-align">{{ subpage.name }}</span>
+              <span class="w-100pc left-align">{{ site.translations[site.lang]["help_subpages"][subpage_slug] }}</span>
               <span class="svg-wrapper blue">{% include svg/carat-right.svg %}</span>
             </button>
           </a>
