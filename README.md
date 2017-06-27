@@ -20,7 +20,7 @@ This is a Jekyll-built static site. To install dependencies:
 bundle install
 ```
 
-To start serve the site locally in development:
+To start serving the site locally in development:
 
 ```
 make run
