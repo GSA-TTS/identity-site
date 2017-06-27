@@ -17,7 +17,7 @@ The static marketing site for login.gov
 This is a Jekyll-built static site. To install dependencies:
 
 ```
-bundle install
+make setup
 ```
 
 To start serving the site locally in development:
