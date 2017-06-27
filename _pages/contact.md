@@ -5,7 +5,7 @@ description: Have a question or a problem with login.gov?
 ---
 
 <div class="bg-navy">
-  <div class="container cntnr-wide px2 py3">
+  <div class="container cntnr-wide px2 py3 sm-py4">
     <h1 class="m0 white">
       {% t pages.contact_us %}
     </h1>

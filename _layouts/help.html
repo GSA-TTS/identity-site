@@ -13,13 +13,13 @@ layout: main
   <div class="container cntnr-wide px2 pt2 pb0">
     <div class="clearfix">
       {% include help/nav_sidenav.html %}
-      <div class="sm-col sm-col-8 sm-pl2 sm-pr5">
+      <div class="sm-col sm-col-8 sm-pr5">
         <h2 id="{{ page.slug }}" class="mt0 mb1 pt2">
           {% assign url_size = page.url | size | minus: 1 %}
           {% assign page_title = page.url | replace: "/", "." | slice: 1, url_size %}
           {% t page_title %}
         </h2>
-        <img alt="hr" src="{{ site.baseurl }}/assets/img/hr-red-{{ _index }}.svg" height="6" class="mb3">
+        <img alt="" src="{{ site.baseurl }}/assets/img/hr-red-{{ _index }}.svg" height="6" class="mb2">
         <div class="mb0">
           <div class="pb2 h3">
           {{ page.content | replace: 'site.baseurl', site.baseurl | markdownify }}

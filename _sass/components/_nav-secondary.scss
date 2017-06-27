@@ -22,15 +22,9 @@
         border-right: $triangle-size solid transparent;
         bottom: 0;
         content: "";
+        left: 50%;
+        margin-left: -$triangle-size;
         padding-top: 0.4rem;
-        position: absolute;
-      }
-
-      &::after {
-        border: $triangle-rounding solid $blue-mid;
-        bottom: 0;
-        content: "";
-        margin-bottom: $triangle-size - $triangle-rounding;
         position: absolute;
       }
     }

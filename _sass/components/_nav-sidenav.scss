@@ -8,6 +8,11 @@
     border-left-color: $red;
     color: $navy;
     text-decoration: none;
+
+    a {
+      color: $navy;
+      text-decoration: none;
+    }
   }
 
   &:hover,
