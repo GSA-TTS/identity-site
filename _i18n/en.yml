@@ -6,13 +6,13 @@ pages:
   contact: Contact
   contact_us: Contact us
   help: Help
-  privacy_and_security: Privacy and security
+  privacy_and_security: Privacy & security
   privacy_policy: Privacy policy
   playbook: Identity Playbook
 help_subpages:
   changing-settings: Changing settings
   creating-an-account: Creating an account
-  privacy-and-security: Privacy and security
+  privacy-and-security: Privacy & security
   signing-in: Signing in
 nav:
   overview: Overview
@@ -46,7 +46,7 @@ index:
 
       A shared authentication platform frees up agency resources to deliver great services while reducing costs and improving security.
   column_3:
-    heading: Built<br/>cooperatively
+    heading: Built<br class="sm-show"/>cooperatively
     p_1: |
       login.gov works hand-in-hand with the private sector and nonprofits to identify and implement best practices and new standards in secure, privacy-protecting authentication.
 
@@ -143,6 +143,8 @@ developers_page:
     heading: Contact us
     p_1: If you’re interested in learning more about the platform, please
     a_1: contact us
+help_page:
+  p_1: Browse common topics
 implementation_page:
   heading: Implementing an identity management system
   section_1:

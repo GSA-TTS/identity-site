@@ -6,7 +6,7 @@ class: relative
 ---
 
 <div class="bg-navy">
-  <div class="container cntnr-wide px2 py3">
+  <div class="container cntnr-wide px2 py3 sm-py4">
     <h1 class="m0 white">
       {% t implementation_page.heading %}
     </h1>
@@ -15,34 +15,34 @@ class: relative
 <div class="bg-white">
   <div class="container cntnr-wide px2 pt4 pb5">
     <div class="clearfix">
-      <nav id="pb-nav--side-cntnr" class="sm-col-right sm-col-3 sm-show">
-        <ul id="pb-nav--side" class="list-reset pt2 red nav">
-          <li class="mb2">
-            <a class="h5 serif" href="#protecting">
+      <nav id="pb-nav--side-cntnr" class="sm-col-right sm-col-4 sm-show">
+        <ul id="pb-nav--side" class="list-reset nav">
+          <li class="border-bottom nav-sidenav-item">
+            <a class="p2 block h6" href="#protecting">
               {% t implementation_page.section_1.ul.li_1.a_1 %}
             </a>
           </li>
-          <li class="mb2">
-            <a class="h5 serif" href="#consumer-identity">
+          <li class="border-bottom nav-sidenav-item">
+            <a class="p2 block h6" href="#consumer-identity">
               {% t implementation_page.section_1.ul.li_2.a_1 %}
             </a>
           </li>
-          <li class="mb2">
-            <a class="h5 serif" href="#implementation">
+          <li class="border-bottom nav-sidenav-item">
+            <a class="p2 block h6" href="#implementation">
               {% t implementation_page.section_1.ul.li_3.a_1 %}
             </a>
           </li>
-          <li class="mb2">
-            <a class="h5 serif" href="#resources">
+          <li class="border-bottom nav-sidenav-item">
+            <a class="p2 block h6" href="#resources">
               {% t implementation_page.section_1.ul.li_4.a_1 %}
             </a>
           </li>
         </ul>
       </nav>
-      <div class="sm-col sm-col-8 mb2">
+      <div class="sm-col sm-col-8 sm-pr5">
         <h2 id="protecting" class="mt0 mb1 pt2">
           {% t implementation_page.section_2.heading_1 %}
-        </h2><img alt="" class="mb3" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}" height="6">
+        </h2><img alt="" class="mb2" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}" height="6">
         <p class="mb4 serif fs-20p">
           {% t implementation_page.section_2.p_1 %}
         </p>
@@ -125,7 +125,7 @@ class: relative
         <h2 id="consumer-identity" class="mt0 mb1 pt2">
           {% t implementation_page.section_2.heading_6 %}
         </h2>
-        <img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-5.svg' | prepend: site.baseurl }}" height="6">
+        <img alt="" class="mb2" src="{{ '/assets/img/hr-red-5.svg' | prepend: site.baseurl }}" height="6">
         <p class="mb5 serif fs-20p">
           {% t implementation_page.section_2.p_3 %}
         </p>
@@ -179,7 +179,7 @@ class: relative
         <h2 id="implementation" class="mb2 pt2">
           {% t implementation_page.section_2.heading_10 %}
         </h2>
-        <img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-6.svg' | prepend: site.baseurl }}" height="6">
+        <img alt="" class="mb2" src="{{ '/assets/img/hr-red-6.svg' | prepend: site.baseurl }}" height="6">
         <ul class="list-reset mb5 h3">
           <li class="mb2">
             <a href="https://pages.18f.gov/identity-dev-docs/" target="_blank">
@@ -190,7 +190,7 @@ class: relative
         <h2 id="resources" class="mb2 pt2">
           {% t implementation_page.section_2.heading_11 %}
         </h2>
-        <img alt="hr" class="mb3" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}" height="6">
+        <img alt="" class="mb2" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}" height="6">
         <ul class="list-reset mb3 h3">
           <li class="mb2">
             <a href="https://pages.nist.gov/800-63-3/" target="_blank">

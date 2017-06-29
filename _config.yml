@@ -25,9 +25,6 @@ scripts:
 styles:
   - /assets/stylesheets/build/main.css
 
-sass:
-  style: compressed
-
 # Build settings
 kramdown:
   hard_wrap: true

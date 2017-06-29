@@ -22,25 +22,25 @@ links:
 
 
 <div class="bg-navy">
-  <div class="container cntnr-xxskinny py2">
-    <h1 class="my0 white pl2 sm-pl0">{{ page.title }}</h1>
+  <div class="container cntnr-xxskinny pl2 sm-pl0 py3 sm-py4">
+    <h1 class="mt0 mb1 white">{{ page.title }}</h1>
+    <p class="mb0 white fs-20p">
+      {% t help_page.p_1 %}
+    </p>
   </div>
 </div>
 <div class="bg-blue-mid flex">
-  <div class="container cntnr-xxskinny p2 w-100pc">
+  <div class="container cntnr-xxskinny px2 pt2 sm-pt3 col-12">
     <div class="clearfix">
-      <h2 class="h4 mb2 sans-serif white regular">Browse common topics</h2>
       <ul class="pl0">
       {% for subpage in page.links %}
         {% assign subpage_slug = subpage.name | slugify %}
         {% assign first_subpage = site.help | where_exp: "item", "item.url contains subpage_slug" | where: 'order', 1 | first %}
         <li class="list-style-none mb2">
-          <a class="no-hover-decoration" href="{{ first_subpage.url | prepend: site.baseurl }}">
-            <button class="btn btn-inverse btn-primary btn-big btn-outline flex flex-center w-100pc" tabindex="-1">
-              <img src="{{ subpage.img_url | prepend: site.baseurl }}" alt="" class="w-60p mr2" />
-              <span class="w-100pc left-align">{{ site.translations[site.lang]["help_subpages"][subpage_slug] }}</span>
-              <span class="svg-wrapper blue">{% include svg/carat-right.svg %}</span>
-            </button>
+          <a class="btn btn-inverse btn-primary btn-big btn-outline flex flex-center no-hover-decoration" href="{{ first_subpage.url | prepend: site.baseurl }}">
+            <img src="{{ subpage.img_url | prepend: site.baseurl }}" alt="" class="help-ico mr2" />
+            <span class="flex-auto serif left-align">{{ site.translations[site.lang]["help_subpages"][subpage_slug] }}</span>
+            <span class="svg-wrapper blue">{% include svg/carat-right.svg %}</span>
           </a>
         </li>
         {% endfor %}
