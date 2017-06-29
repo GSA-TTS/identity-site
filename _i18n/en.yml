@@ -404,7 +404,7 @@ policies:
 
       View our [Privacy Impact Assessment](site.baseurl/assets/docs/privacy-impact-assessment.pdf).
 
-- section: Our security practices
+  - section: Our security practices
     anchor: "our-security-practices"
     content: |
       login.gov uses a variety of security methods to protect this U.S.
@@ -425,10 +425,9 @@ policies:
 
       View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"}
       for details on this policy and how to report discovered vulnerabilities.
-      
+
       ### For more information
 
       We are happy to answer questions about our security and privacy practices.
       For more information, please visit [Help](site.baseurl/help)
       or [contact us](site.baseurl/contact).
-
