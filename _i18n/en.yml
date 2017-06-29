@@ -65,7 +65,7 @@ index:
   column_1:
     heading: Simple and secure for the public
     content:
-      p_1: Because login.gov is a shared service, users need fewer passwords and learn fewer interfaces. Also, security experts protect one service instead of many. And dedicated teams of design and security experts will continuously improve it.
+      p_1: Because login.gov is a shared service, users need fewer passwords and learn fewer interfaces. Also, security experts protect one service instead of many. Dedicated teams of design and security experts also will continuously improve it.
   column_2:
     heading: Saving time and <br class="sm-show" />money
     p_1: |
