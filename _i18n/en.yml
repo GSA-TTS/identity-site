@@ -118,7 +118,7 @@ security_page:
       repository. Our goal: make sure that at every step users know their
       privacy is being protected by design.
     p_2: |
-      For more information, please visit the login.gov [Help Center](site.baseurl/help) or [contact us](site.baseurl/contact). You can also visit our [open-source repository](https://github.com/18F/identity-idp){:target="_blank"}.
+      For more information, please visit [Help](site.baseurl/help) or [contact us](site.baseurl/contact). You can also visit our [open-source repository](https://github.com/18F/identity-idp){:target="_blank"}.
 contact_page:
   content: |
     First, check out answers to [common questions](site.baseurl/help/). Still have a question or a problem with the platform? Contact us at [login-contact@gsa.gov](mailto:login-contact@gsa.gov).
@@ -334,27 +334,6 @@ help:
     what-is-an-authenticator-app: What is an authenticator app?
     why-does-the-system-log-me-out: Why does the system log me out?
 policies:
-  - section: Our security practices
-    anchor: "our-security-practices"
-    content: |
-      login.gov uses a variety of security methods to protect this U.S.
-      government service and your data, and to ensure the service remains
-      available to all users. These methods include monitoring and recording
-      network traffic (any data going in and out of login.gov) to identify
-      unauthorized attempts to change information, or otherwise cause damage.
-
-      Unauthorized access or use of login.gov (e.g. use for criminal purposes,
-      or to cause damage, etc) is against the law, and may subject you to
-      criminal prosecution and penalties.
-
-      ### Vulnerability Disclosure Policy
-
-      login.gov authorizes the outside security community to perform security
-      research for the intent of reporting discovered security vulnerabilities
-      in the login.gov platform.
-
-      View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"}
-      for details on this policy and how to report discovered vulnerabilities.
   - section: Our privacy practices
     anchor: "our-privacy-practices"
     content: |
@@ -425,9 +404,30 @@ policies:
 
       View our [Privacy Impact Assessment](site.baseurl/assets/docs/privacy-impact-assessment.pdf).
 
-      #### For more information
+  - section: Our security practices
+    anchor: "our-security-practices"
+    content: |
+      login.gov uses a variety of security methods to protect this U.S.
+      government service and your data, and to ensure the service remains
+      available to all users. These methods include monitoring and recording
+      network traffic (any data going in and out of login.gov) to identify
+      unauthorized attempts to change information, or otherwise cause damage.
+
+      Unauthorized access or use of login.gov (e.g. use for criminal purposes,
+      or to cause damage, etc) is against the law, and may subject you to
+      criminal prosecution and penalties.
+
+      ### Vulnerability Disclosure Policy
+
+      login.gov authorizes the outside security community to perform security
+      research for the intent of reporting discovered security vulnerabilities
+      in the login.gov platform.
+
+      View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"}
+      for details on this policy and how to report discovered vulnerabilities.
+
+      ### For more information
 
       We are happy to answer questions about our security and privacy practices.
-      For more information, please visit the login.gov [Help Center](site.baseurl/help)
+      For more information, please visit [Help](site.baseurl/help)
       or [contact us](site.baseurl/contact).
-
