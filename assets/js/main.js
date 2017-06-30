@@ -17,9 +17,10 @@ $(function() {
 
   // Dropdown menu
 
-  $('.dropdown').focusin(function () {
+  $('.dropdown').on('click focusin', function (e) {
+    e.preventDefault();
     $(this).addClass('focused');
-  }).focusout(function(){
+  }).on('blur focusout', function(){
     $(this).removeClass('focused');
   });
 
