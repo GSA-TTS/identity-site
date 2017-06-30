@@ -23,7 +23,7 @@ links:
 
 <div class="bg-navy">
   <div class="container cntnr-xxskinny pl2 sm-pl0 py3 sm-py4">
-    <h1 class="mt0 mb1 white">{{ page.title }}</h1>
+    <h1 class="mt0 mb1 white">{% t pages.help %}</h1>
     <p class="mb0 white fs-20p">
       {% t help_page.p_1 %}
     </p>

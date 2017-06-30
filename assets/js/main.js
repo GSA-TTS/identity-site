@@ -7,13 +7,27 @@ var accordion = require('aria-accordion');
 
 $(function() {
 
-  // Mobile nav toggle
+  // Mobile main nav toggle
 
   $('#js-mobile-nav-toggle').click( function () {
     $(this).find('span').toggle();
     $(this).find('img').toggleClass('display-none');
     $('header nav').toggleClass('flex');
   });
+
+  // Language picker
+
+    // Mobile
+    $('#i18n-mobile-toggle').click( function () {
+      $(this).toggleClass('focused');
+      $('#i18n-mobile-dropdown').toggle();
+    });
+
+    // Desktop
+    $('#i18n-desktop-toggle').click( function () {
+      $(this).toggleClass('focused');
+      $('#i18n-desktop-dropdown').toggle();
+    });
 
   // Dropdown menu
 
@@ -85,4 +99,5 @@ $(function() {
   if (elm) {
     new accordion.Accordion(elm, {}, { reflectStatic: true });
   }
+
 });

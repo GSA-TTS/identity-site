@@ -1,0 +1,2 @@
+Login.gov utiliza la autenticación de dos factores para mantener las cuentas seguras. Tal como lo indica su nombre, la autenticación de dos factores (a veces llamado 2FA) requiere dos métodos diferentes para iniciar sesión en una cuenta. Por lo general, esto significa ingresar una contraseña memorizada y un código de sólo un uso que es enviado a un dispositivo (como un teléfono) que usted posee. El requerimiento de dos métodos hace que la entrada forzada a su cuenta sea mucho más difícil.
+  

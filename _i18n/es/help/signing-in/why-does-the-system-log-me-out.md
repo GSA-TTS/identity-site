@@ -1,0 +1,3 @@
+Cuando un usuario ya ha iniciado sesión y desea cambiar su email, contraseña o número de teléfono, debe ingresar primero su contraseña actual. Después de tres intentos incorrectos, el usuario es desconectado. 
+
+El sistema también lo desconecta después de tres intentos si ingresa incorrectamente el código de seguridad que recibe en su teléfono. Los intentos fallidos se limitan a tres por sesión, seguido de un bloqueo de cinco minutos.

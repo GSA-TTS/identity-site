@@ -5,7 +5,7 @@ image: /assets/img/login-gov-288x288.png
 canonical_domain: www.login.gov
 
 # i18n
-languages: ['en']
+languages: ['en', 'es']
 exclude_from_localizations: ["javascript", "images", "css"]
 
 # Pages
