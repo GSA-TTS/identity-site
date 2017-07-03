@@ -1,10 +1,13 @@
-run: npm-build-js npm-watch-css jekyll
+run: npm-build jekyll watch-webpack watch-guide
+
+npm-build:
+	npm run build
 
 jekyll:
 	bundle exec jekyll serve --watch
 
-npm-build-js:
-	npm run build-js
+watch-guide:
+	npm run watch-guide
 
-npm-watch-css:
-	npm run watch-css
+watch-webpack:
+	npm run watch-webpack

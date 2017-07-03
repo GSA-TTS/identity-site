@@ -20,11 +20,18 @@ This is a Jekyll-built static site. To install dependencies:
 make setup
 ```
 
-To start serving the site locally in development:
+
+To run locally in conjunction with [`identity-style-guide`](https://github.com/18F/identity-style-guide/), run the following commands:
+
+0. In the `identity-style-guide` directory, run `npm link`. This will create a symlink that will make changes to this repo accessible in `identity-site`
+
+Then, to start serving the site locally in development:
 
 ```
 make run
 ```
+
+This will start multiple processes that will watch for changes in your local `identity-style-guide` repository.
 
 To run specs:
 

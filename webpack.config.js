@@ -1,11 +1,12 @@
 var webpack = require('webpack');
 
 module.exports = {
-  entry: './assets/js/main.js',
-
+  entry: {
+    'site': './js/site.js'
+  },
   output: {
     filename: 'bundle.js',
-    path: __dirname + '/assets/js/build'
+    path: __dirname + '/js/build'
   },
 
   devtool: '#cheap-module-eval-source-map',
