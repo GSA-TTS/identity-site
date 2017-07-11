@@ -122,7 +122,9 @@ security_page:
       For more information, please visit [Help](site.baseurl/help) or [contact us](site.baseurl/contact). You can also visit our [open-source repository](https://github.com/18F/identity-idp){:target="_blank"}.
 contact_page:
   content: |
-    First, check out answers to [common questions](site.baseurl/help/). Still have a question or a problem with the platform? Call toll-free at 844-875-6446 for more answers and to speak with an information specialist. Information specialists are available between 8:00 a.m. to 8:00 p.m. ET, Monday to Friday, except federal holidays.
+    First, check out answers to [common questions](site.baseurl/help/). Still have a question or a problem? 
+    Call 844-875-6446 toll-free for more answers and to speak with an information specialist. 
+    Information specialists are available between 8:00 a.m. to 8:00 p.m. ET, Monday to Friday, except federal holidays.
 developers_page:
   intro:
     heading: Easy integration and flexibility
