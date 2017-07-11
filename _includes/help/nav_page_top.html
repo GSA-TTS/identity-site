@@ -1,14 +1,14 @@
 <div class="bg-navy flex sm-show">
-  <div class="container cntnr-wide text-decoration-none py2 flex">
-    <h1 class="m0 white pl2">{% t pages.help %}</h1>
+  <div class="container cntnr-wide text-decoration-none px2 py3 sm-py4 flex">
+    <h1 class="m0 white">{% t pages.help %}</h1>
   </div>
 </div>
 <nav class="sm-show nav-secondary bg-blue-mid">
-  <ul class="list-reset flex flex-center container cntnr-wide py0">
+  <ul class="flex flex-center container cntnr-wide py0 px2 list-style-none">
   {% for subpage in site.help_pages %}
     {% assign subpage_slug = subpage | slugify %}
     {% assign subpage_link = site.help | where_exp: "item", "item.url contains subpage_slug" | where: 'order', 1 | first %}
-    <a class="px2 py2 relative" href="{{ subpage_link.url | prepend: site.baseurl }}">
+    <a class="{% if forloop.first %}pr2 {% else %}px2 {% endif %}py2 relative" href="{{ subpage_link.url | prepend: site.baseurl }}">
       <li class="flex flex-column flex-center inline-block {% if parent_url contains subpage_slug %}active{% endif %}">
         <span>{{ site["translations"][site.lang]["help_subpages"][subpage] }}</span>
       </li>

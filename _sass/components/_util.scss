@@ -1,7 +1,8 @@
 // supplemental utility classes
 
-.w-60p { width: 60px; }
+.help-ico { width: 40px; }
 
+.w-60p { width: 60px; }
 .w-100pc { width: 100%; }
 
 .bg-light-blue { background-color: $blue-light; }
@@ -13,7 +14,16 @@
 
 .inline-flex { display: inline-flex; }
 
+.vertical-align::before {
+  content: ' ';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
 @media #{$breakpoint-sm} {
+  .help-ico { width: 60px; }
+
   .sm-maxw-190p { max-width: 190px; }
 
   .sm-bg-light-blue { background-color: $blue-light; }

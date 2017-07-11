@@ -14,7 +14,13 @@ The static marketing site for login.gov
 
 ## Development
 
-This is a Jekyll-built static site. To start serve the site locally in development:
+This is a Jekyll-built static site. To install dependencies:
+
+```
+make setup
+```
+
+To start serving the site locally in development:
 
 ```
 make run

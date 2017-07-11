@@ -37,7 +37,6 @@ $(function() {
   // Affix
 
   if ($('#pb-nav--side').length ) {
-
     $('#pb-nav--side').affix({
       offset: {
         top: $('#pb-nav--side').offset().top
@@ -45,8 +44,13 @@ $(function() {
     });
 
     $(window).resize(function() {
-      $('#pb-nav--side').affix('checkPosition');
+      $('#pb-nav--side').affix('checkPosition').width($('#pb-nav--side-cntnr').width());
     });
+
+    $('#pb-nav--side').on('affixed.bs.affix', function() {
+      $('#pb-nav--side').width($('#pb-nav--side-cntnr').width());
+    });
+
   }
 
   // Smooth scroll
