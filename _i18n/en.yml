@@ -313,10 +313,10 @@ help:
   creating-an-account:
     do-i-need-a-mobile-phone-to-use-logingov: Do I need a mobile phone to use login.gov?
     how-do-i-create-an-account-with-logingov: How do I create an account with login.gov?
-    i-didnt-receive-a-confirmation-email-from-logingov: I didnt receive a confirmation email from login.gov.
+    i-didnt-receive-a-confirmation-email-from-logingov: "I didn't receive a confirmation email from login.gov."
     what-do-i-do-if-an-account-already-exists-under-my-email-address: What do I do if an account already exists under my email address?
     what-is-two-factor-authentication: What is two factor authentication?
-    why-didnt-i-receive-a-security-code-to-confirm-my-phone: Why didnt I receive a security code to confirm my phone?
+    why-didnt-i-receive-a-security-code-to-confirm-my-phone: "Why didn't I receive a security code to confirm my phone?"
     why-do-i-need-to-confirm-my-email-address-and-my-phone-number: Why do I need to confirm my email address and my phone number?
     why-do-i-need-to-use-logingov-to-access-government-services-online: Why do I need to use login.gov to access government services online?
   privacy-and-security:
@@ -325,9 +325,9 @@ help:
     how-does-logingov-protect-my-data: How does login.gov protect my data?
     will-logingov-share-my-information: Will login.gov share my information?
   signing-in:
-    i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: I cant remember where my personal key is and I dont have my phone with me.
+    i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: "I can't remember where my personal key is and I dont have my phone with me."
     i-forgot-which-email-address-i-used-to-create-an-account: I forgot which email address I used to create an account.
-    if-i-dont-have-my-phone-with-me-can-i-still-sign-in: If I dont have my phone with me can I still sign in?
+    if-i-dont-have-my-phone-with-me-can-i-still-sign-in: "If I don't have my phone with me can I still sign in?"
     what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: What do I do if my password doesnt work or I forget it?
     what-do-i-need-to-have-in-order-to-sign-in: What do I need to have in order to sign in?
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: What happens if I miss the phone call or the text message with my one time security code?
