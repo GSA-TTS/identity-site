@@ -47,6 +47,8 @@ bg_color: bg-lightest-blue
   <div class="container cntnr-wide px2 py3 center">
     <h3 class="inline align-middle">{% t developers_page.footer.heading %}</h3>
     <span class="inline-block sm-px1 h1 blue align-middle line-height-1">▸</span>
-    <p class="m0 fs-20p inline align-middle">{% t developers_page.footer.p_1 %} <a class="nowrap" href="{{ '/contact/' | relative_url }}">{% t developers_page.footer.a_1 %}</a>.</p>
+    <p class="m0 fs-20p inline align-middle" markdown="1">
+      {% t developers_page.footer.p_1 %}
+    </p>
   </div>
 </div>
