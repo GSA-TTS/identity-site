@@ -55,18 +55,12 @@ image: /assets/img/login-gov-600x314.png
   </div>
 </div>
 
-<div class="bg-light-blue">
-  <div class="container cntnr-wide px2 py3">
-    <div class="clearfix">
-      <div class="col-12 sm-col-10 mx-auto">
-        <h2 class="mt1 mb2 red">{% t index.footer.heading %}</h2>
-        <p class="mt0 fs-20p serif line-height-3" markdown="1">
-          {{ site.translations[site.lang]["index"]["footer"]["p_1"] | replace: 'site.baseurl', site.baseurl }}
-        </p>
-        <div class="center">
-          <a href="{{ site.baseurl }}/contact" class="btn btn-primary btn-wide mb2">{% t pages.contact_us %}</a>
-        </div>
-      </div>
-    </div>
+<div class="bg-lightest-blue">
+  <div class="container cntnr-wide px2 py3 center">
+    <h3 class="inline align-middle">{% t index.footer.heading %}</h3>
+    <span class="inline-block sm-px1 h1 blue align-middle line-height-1">▸</span>
+    <p class="m0 fs-20p inline align-middle" markdown="1">
+      {% t index.footer.p_1 %}
+    </p>
   </div>
 </div>

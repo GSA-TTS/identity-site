@@ -53,9 +53,9 @@ index:
 
         Led by the [U.S. Digital Service](https://www.usds.gov){:target="_blank"} and [18F](https://18f.gsa.gov){:target="_blank"}, login.gov builds on groundwork laid by the [National Institute for Standards in Technology](https://www.nist.gov/){:target="_blank"}, the [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, and the [Federal Acquisition Service](href="https://www.gsa.gov/portal/content/105080){:target="_blank"}.
   footer:
-    heading: Learn more
+    heading: Contact us
     p_1: |
-      If you’re interested in learning more about this platform, please send us a note at [login-contact@gsa.gov](mailto:login-contact@gsa.gov).
+        Have a question or a problem? Call [844-875-6446](tel:1-844-875-6446) between 8:00 am to 8:00 pm ET, Monday to Friday except federal holidays.
 policy_page:
   content:
     p_1: |
@@ -142,8 +142,7 @@ developers_page:
       p_1: Follow ongoing feature development, user experience improvement, and security reviews in our [open source repository](https://github.com/18F/identity-idp){:target="_blank"}.
   footer:
     heading: Contact us
-    p_1: If you’re interested in learning more about the platform, please
-    a_1: contact us
+    p_1: If you’re interested in learning more about the platform, please email [partners@login.gov](mailto:partners@login.gov).
 help_page:
   p_1: Browse common topics
 implementation_page:
