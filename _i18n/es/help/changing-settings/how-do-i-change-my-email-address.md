@@ -1,0 +1,1 @@
+Para cambiar su email, seleccione Editar al lado del email. Ingrese un email nuevo y envíelo, luego revise su cuenta de email y busque el email de login.gov. Abra el email que le enviamos y haga clic en el enlace adentro. Este enlace lo redireccionará de nuevo a login.gov y así su email nuevo será establecido.

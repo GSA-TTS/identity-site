@@ -29,6 +29,8 @@
     "node-sass": "^3.7.0",
     "nodemon": "^1.9.2",
     "normalize.css": "^4.2.0",
-    "webpack": "^1.13.2"
-  }
+    "webpack": "^1.15.0"
+  },
+  "main": "webpack.config.js",
+  "keywords": []
 }
