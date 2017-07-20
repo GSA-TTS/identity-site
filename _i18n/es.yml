@@ -35,7 +35,7 @@ nav:
   developers: Desarrolladores
   help: Ayuda
   manage: Administrar cuenta
-  skip_nav: Skip to main content
+  skip_nav: Salte al contenido principal
 footer:
   gsa: Administración General de Servicios de EE. UU.
 index:
@@ -162,7 +162,7 @@ developers_page:
     p_1: Si está interesado en aprender más sobre la plataforma, por favor
     a_1: Contáctenos
 help_page:
-  p_1: Browse common topics
+  p_1: Explore los temas comunes
 implementation_page:
   heading: Implementando un sistema de gestión de la identidad
   section_1:
