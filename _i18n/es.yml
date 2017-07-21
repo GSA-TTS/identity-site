@@ -1,7 +1,8 @@
 global:
   language: Idioma
-  english: English
-  spanish: Español
+  locales:
+    en: English
+    es: Español
 meta:
   description: Login.gov, la plataforma de identidad del consumidor
 banner:

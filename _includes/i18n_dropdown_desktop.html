@@ -1,16 +1,22 @@
-<div href="#" id="i18n-desktop-toggle" class="sm-show my1 mr3 white text-decoration-none border border-blue rounded-lg px1 py-tiny relative">
-  <img src="{{ site.baseurl }}/assets/img/globe-white.svg" width="12" height="12" class="mr1" alt="">{% t global.language %}
-  <span class="caret inline-block ml-tiny">&#9662;</span>
-  <div id="i18n-desktop-dropdown">
-    <ul class="list-reset mb0 white">
-      <li class="border-bottom border-navy"><a href="{{ page.url | prepend: site.baseurl_root }}" class="block pl-24p py2 text-decoration-none white">{% t global.english %}</a></li>
-      <li class="border-bottom border-navy">
-        {% if site.lang == 'es' %}
-        <a href="{{ page.url | relative_url }}" class="block pl-24p py2 text-decoration-none white">{% t global.spanish %}</a></li>
-        {% else %}
-        <a href="{{ page.url | prepend: 'es' | relative_url }}" class="block pl-24p py2 text-decoration-none white">{% t global.spanish %}</a></li>
-        {% endif %}
-      </li>
-    </ul>
+{% if site.languages.size > 1 %}
+  <div href="#" id="i18n-desktop-toggle" class="sm-show my1 mr3 white text-decoration-none border border-blue rounded-lg px1 py-tiny relative">
+    <img src="{{ site.baseurl }}/assets/img/globe-white.svg" width="12" height="12" class="mr1" alt="">{% t global.language %}
+    <span class="caret inline-block ml-tiny">&#9662;</span>
+    <div id="i18n-desktop-dropdown">
+      <ul class="list-reset mb0 white">
+        {% for locale in site.languages %}
+          {% capture name %}global.locales.{{ locale }}{% endcapture %}
+          <li class="border-bottom border-navy">
+            {% if locale == 'en' %}
+              <a href="{{ page.url | prepend: site.baseurl_root }}" class="block pl-24p py2 text-decoration-none white">{% t name %}</a>
+            {% elsif site.lang != 'en' and locale == site.lang %}
+              <a href="{{ page.url | relative_url  }}" class="block pl-24p py2 text-decoration-none white">{% t name %}</a>
+            {% else %}
+              <a href="{{ page.url | prepend: locale | relative_url }}" class="block pl-24p py2 text-decoration-none white">{% t name %}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
-</div>
+{% endif %}
