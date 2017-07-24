@@ -1,8 +1,8 @@
 ---
-title: titles.help
+title: meta.help.title
 layout: main
 permalink: /help/
-description: meta.description.help
+description: meta.help.description
 bg_color: bg-blue-mid
 ## Help page names should also be listed in translations under "help_subpages"
 links:
@@ -23,7 +23,7 @@ links:
 
 <div class="bg-navy">
   <div class="container cntnr-xxskinny pl2 sm-pl0 py3 sm-py4">
-    <h1 class="mt0 mb1 white">{% t titles.help %}</h1>
+    <h1 class="mt0 mb1 white">{% t meta.help.title %}</h1>
     <p class="mb0 white fs-20p">
       {% t help_page.p_1 %}
     </p>

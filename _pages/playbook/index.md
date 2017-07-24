@@ -1,14 +1,14 @@
 ---
-title: titles.playbook
+title: meta.playbook.title
 permalink: /playbook/
-description: meta.description.playbook
+description: meta.playbook.description
 ---
 
 <div class="bg-navy">
   <div class="container cntnr-wide px2 flex flex-center flex-justify">
     <div class="sm-col-8 py3 sm-py4">
       <h1 class="mt0 mb1 white">
-        {% t titles.playbook %}
+        {% t meta.playbook.title %}
       </h1>
       <p class="mb0 white fs-20p">
         {% t playbook_page.section_1.p_1 %}

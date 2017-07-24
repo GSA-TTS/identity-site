@@ -1,7 +1,7 @@
 ---
-title: titles.principles
+title: meta.principles.title
 permalink: /playbook/principles/
-description: meta.description.principles
+description: meta.principles.description
 class: relative
 ---
 

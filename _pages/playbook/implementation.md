@@ -1,7 +1,7 @@
 ---
-title: titles.implementation
+title: meta.implementation.title
 permalink: /playbook/implementation/
-description: meta.description.implementation
+description: meta.implementation.description
 class: relative
 ---
 

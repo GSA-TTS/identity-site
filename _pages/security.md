@@ -1,7 +1,7 @@
 ---
-title: titles.security
+title: meta.security.title
 permalink: /security/
-description: meta.description.security
+description: meta.security.description
 styles:
   - /assets/stylesheets/security.css
 class: bg-light-blue

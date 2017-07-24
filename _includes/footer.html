@@ -4,9 +4,9 @@
     <div class="flex flex-center">
       <div class="flex flex-center">
         {% include i18n_dropdown_desktop.html %}
-        <a href="{{ '/help/' | relative_url }}" class="caps h6 white text-decoration-none mr3 {% if page.url == '/help/' %}bold{% endif %}">{% t titles.help %}</a>
-        <a href="{{ '/contact/' | relative_url }}" class="caps h6 white text-decoration-none mr3 {% if page.url == '/contact/' %}bold{% endif %}">{% t titles.contact %}</a>
-        <a href="{{ '/policy/' | relative_url }}" class="caps h6 white text-decoration-none {% if page.url == '/policy/' %}bold{% endif %}">{% t titles.privacy_and_security %}</a>
+        <a href="{{ '/help/' | relative_url }}" class="caps h6 white text-decoration-none mr3 {% if page.url == '/help/' %}bold{% endif %}">{% t meta.help.title %}</a>
+        <a href="{{ '/contact/' | relative_url }}" class="caps h6 white text-decoration-none mr3 {% if page.url == '/contact/' %}bold{% endif %}">{% t meta.contact.title %}</a>
+        <a href="{{ '/policy/' | relative_url }}" class="caps h6 white text-decoration-none {% if page.url == '/policy/' %}bold{% endif %}">{% t meta.privacy_and_security.title %}</a>
       </div>
       <div class="flex flex-auto flex-first">
         <a href="https://www.gsa.gov" class="flex text-decoration-none white h6" target="_blank">

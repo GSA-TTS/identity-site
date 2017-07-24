@@ -1,5 +1,5 @@
 ---
-title: titles.developers
+title: meta.developers.title
 permalink: /developers/
 bg_color: bg-lightest-blue
 ---

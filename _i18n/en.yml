@@ -4,30 +4,40 @@ global:
     en: English
     es: Español
 meta:
-  description:
-    contact_us: Have a question or a problem with login.gov?
-    help: Get answers to common questions about login.gov.
-    home: Simple, secure access to government services online
-    implementation: Determine whether your agency or organization needs a consumer identity management system.
-    principles: Explore the principles that have helped us make the best system possible.
-    privacy_and_security: Learn more about our security and privacy practices.
-    playbook: Helping developers and technologists in government agencies build usable, secure, and privacy-protecting consumer identity management systems.
-    security: Learn how login.gov keeps personal information private.
+  contact:
+    title: Contact
+  contact_us:
+    description: Have a question or a problem with login.gov?
+    title: Contact us
+  developers:
+    title: Developers
+  help:
+    description: Get answers to common questions about login.gov.
+    title: Help
+  home:
+    description: Simple, secure access to government services online
+    title: Home
+  implementation:
+    description: Determine whether your agency or organization needs a consumer identity management system.
+    title: Implementation
+  not_found:
+    title: '404'
+  principles:
+    description: Explore the principles that have helped us make the best system possible.
+    title: Principles
+  privacy_and_security:
+    description: Learn more about our security and privacy practices.
+    title: Privacy & security
+  privacy_policy:
+    title: Privacy policy
+  playbook:
+    description: Helping developers and technologists in government agencies build usable, secure, and privacy-protecting consumer identity management systems.
+    title: Identity Playbook
+  security:
+    description: Learn how login.gov keeps personal information private.
+    title: Security
 banner:
   text: An official website of the United States government
-titles:
-  contact: Contact
-  contact_us: Contact us
-  developers: Developers
-  help: Help
-  home: Home
-  implementation: Implementation
-  not_found: '404'
-  principles: Principles
-  privacy_and_security: Privacy & security
-  privacy_policy: Privacy policy
-  playbook: Identity Playbook
-  security: Security
 help_subpages:
   changing-settings: Changing settings
   creating-an-account: Creating an account
