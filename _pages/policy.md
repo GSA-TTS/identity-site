@@ -1,14 +1,14 @@
 ---
-title: Privacy and security
+title: titles.privacy_and_security
 permalink: /policy/
-description: Learn more about our security and privacy practices.
+description: meta.description.privacy_and_security
 class: relative
 ---
 
 <div class="bg-navy">
   <div class="container cntnr-wide px2 py3 sm-py4">
     <h1 class="m0 white">
-      {% t pages.privacy_policy %}
+      {% t titles.privacy_policy %}
     </h1>
   </div>
 </div>

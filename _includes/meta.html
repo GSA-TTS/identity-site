@@ -10,10 +10,16 @@
 {% endif %}
 
 <!-- Title -->
-{% if page.title %}
-  <title>{{ site.title }} | {{ page.title }}</title>
-  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}" />
-  <meta name="twitter:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}">
+{% if page.layout == 'help' %}
+  {% assign url_size = page.url | size | minus: 1 %}
+  {% assign page_title = page.url | replace: "/", "." | slice: 1, url_size %}
+  <title>{{ site.title }} | {% t page_title %}</title>
+  <meta property="og:title" content="{{ site.title | xml_escape }} | {% t page_title %}" />
+  <meta name="twitter:title" content="{{ site.title | xml_escape }} | {% t page_title %}">
+{% elsif page.title %}
+  <title>{{ site.title }} | {% t page.title %}</title>
+  <meta property="og:title" content="{{ site.title | xml_escape }} | {% t page.title %}" />
+  <meta name="twitter:title" content="{{ site.title | xml_escape }} | {% t page.title %}">
 {% else %}
   <title>{{ site.title }} | {{ site.description }}</title>
   <meta property="og:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}" />
@@ -22,13 +28,13 @@
 
 <!-- Description -->
 {% if page.description %}
-  <meta name="description" content="{{ page.description | xml_escape }}">
-  <meta property="og:description" content="{{ page.description | xml_escape }}" />
-  <meta property="twitter:description" content="{{ page.description | xml_escape }}" />
+  <meta name="description" content="{% t page.description %}">
+  <meta property="og:description" content="{% t page.description %}" />
+  <meta property="twitter:description" content="{% t page.description %}" />
 {% else %}
-  <meta name="description" content="{{ site.description | xml_escape }}">
-  <meta property="og:description" content="{{ site.description | xml_escape }}" />
-  <meta property="twitter:description" content="{{ site.description | xml_escape }}" />
+  <meta name="description" content="{% t meta.description.home %}">
+  <meta property="og:description" content="{% t meta.description.home %}" />
+  <meta property="twitter:description" content="{% t meta.description.home %}" />
 {% endif %}
 
 <!-- Image -->

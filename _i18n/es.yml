@@ -4,18 +4,32 @@ global:
     en: English
     es: Español
 meta:
-  description: Login.gov, la plataforma de identidad del consumidor
+  description:
+    contact_us: Have a question or a problem with login.gov?
+    help: Get answers to common questions about login.gov.
+    home: Simple, secure access to government services online
+    implementation: Determine whether your agency or organization needs a consumer identity management system.
+    principles: Explore the principles that have helped us make the best system possible.
+    privacy_and_security: Learn more about our security and privacy practices.
+    playbook: Helping developers and technologists in government agencies build usable, secure, and privacy-protecting consumer identity management systems.
+    security: Learn how login.gov keeps personal information private.
 banner:
   text: |2-
 
     Un sitio oficial del Gobierno de Estados Unidos
-pages:
+titles:
   contact: Contacto
   contact_us: Contáctenos
+  developers: Desarrolladores
   help: Ayuda
+  home: Inicio
+  implementation: 'Implementación'
+  not_found: '404'
+  principles: Principios
   privacy_and_security: Privacidad y seguridad
   privacy_policy: Política de privacidad
   playbook: Manual de identidad
+  security: Seguridad
 help_subpages:
   changing-settings: Cambiando las configuraciones
   creating-an-account: Creando una cuenta
