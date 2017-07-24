@@ -1,7 +1,7 @@
 ---
-title: Security
+title: meta.security.title
 permalink: /security/
-description: Learn how login.gov keeps personal information private.
+description: meta.security.description
 styles:
   - /assets/stylesheets/security.css
 class: bg-light-blue

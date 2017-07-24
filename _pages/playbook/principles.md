@@ -1,7 +1,7 @@
 ---
-title: Principles
+title: meta.principles.title
 permalink: /playbook/principles/
-description: Explore the principles that have helped us make the best system possible.
+description: meta.principles.description
 class: relative
 ---
 
