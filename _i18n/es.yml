@@ -72,30 +72,26 @@ index:
       Nuestro objetivo es hacer que el manejo de beneficios, servicios y aplicaciones
       federales sea más fácil y más seguro.
   column_1:
-    heading: Simple *y* seguro para el público
+    heading: Servicio compartido
     content:
-      p_1: Debido a que login.gov es un servicio compartido,
-      li_1: |2-
-
-        Los usuarios necesitan menos contraseñas y aprenden menos interfaces.
-      li_2: Los expertos en seguridad protegen un servicio en lugar de muchos.
-      li_3: Equipos dedicados de expertos en diseño y seguridad lo mejorarán continuamente.
+      li_1: Los usuarios necesitan menos contraseñas y menos interfaces para recibir atención de diferentes oficinas del Gobierno.
+      li_2: Los expertos en seguridad protegen un solo servicio en lugar de muchos.
+      li_3: Equipos de expertos se dedican a mejorar el diseño y la seguridad continuamente.
   column_2:
-    heading: Ahorrando tiempo y <br class="sm-show" />dinero
+    heading: Conveniencia y eficacia
     p_1: |-
-      Login.gov maneja el desarrollo de software, las operaciones de seguridad y el soporte al cliente. Esto libera a los departamentos del Gobierno para que puedan concentrarse en sus misiones, reduciendo los costos y mejorando la seguridad al mismo tiempo.
+      Esto permite ahorro de tiempo y dinero en el Gobierno, quitando una tarea común que no distraiga la concentración de las agencias en sus funciones principales.
 
-      Una plataforma de autenticación compartida libera recursos de la agencia para ofrecer grandes servicios, reduciendo los costos y mejorando la seguridad al mismo tiempo.
+      La plataforma de autenticación compartida permite reducir los costos de mantenimiento de cada agencia y ofrece mayor seguridad para todos.
   column_3:
-    heading: Construido<br/>en cooperación
+    heading: Mayor cooperación
     p_1: |-
-      Login.gov funciona mano a mano con el sector privado y organizaciones sin fines de lucro para identificar e implementar las mejores prácticas y nuevos estándares en la autenticación segura que protege la privacidad.
+      Login.gov cultiva una estrecha relación con el sector privado y organizaciones sin fines de lucro para identificar e implementar conjuntamente las mejores prácticas y nuevos estándares en sistemas de autenticación seguros que protegen la privacidad.
 
       Dirigido por el [Servicio Digital de EE. UU. (en inglés)](https://www.usds.gov){:target="_blank"} y [18F (en inglés)](https://18f.gsa.gov){:target="_blank"}, login.gov construye sobre las bases establecidas por el [Instituto Nacional de Estándares en Tecnología (en inglés)](http://www.nist.gov/){:target="_blank"}, el [Plan Nacional de Acción de Seguridad Cibernética (en inglés)](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, y el [Servicio Federal de Adquisición (en inglés)](http://www.gsa.gov/portal/content/105080){:target="_blank"}.
   footer:
     heading: Aprenda más
-    p_1: 'Si está interesado en aprender más sobre esta plataforma, envíenos un email
-      a [login-contact@gsa.gov](mailto: login-contact@gsa.gov).'
+    p_1: '¿Tiene alguna pregunta o problema? Llámenos al [844-875-6446](tel:1-844-875-6446) entre las 8:00 AM y las 8:00 PM (hora del Este) de lunes a viernes, excepto feriados federales'
 policy_page:
   content:
     p_1: |-

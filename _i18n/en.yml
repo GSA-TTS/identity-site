@@ -65,7 +65,6 @@ index:
   column_1:
     heading: Simple *and* secure for the public
     content:
-      p_1: Because login.gov is a shared service,
       li_1: Users need fewer passwords and learn fewer interfaces.
       li_2: Security experts protect one service instead of many.
       li_3: Dedicated teams of design and security experts will continuously improve it.
