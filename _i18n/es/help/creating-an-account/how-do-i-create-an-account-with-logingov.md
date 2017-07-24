@@ -5,11 +5,11 @@ Seleccione "crear una cuenta" e ingrese su email donde se indica. Luego, revise 
 
 #### Ingrese su contraseña
 
-A continuación, creará una contraseña segura. Utilice el medidor de contraseñas seguras en la pantalla para guiarlo. Las contraseñas deben tener al menos 8 caracteres, pero de lo contrario no hay restricciones. Incluso puede usar espacios entre palabras para llegar a 8 caracteres.
+Las contraseñas deben tener al menos 8 caracteres, pero de lo contrario no hay restricciones. Incluso puede usar espacios entre palabras para llegar a 8 caracteres.
 
 #### Ingrese su número de teléfono y confírmelo
 
-A continuación, ingrese un número de teléfono en el que puede recibir llamadas o mensajes de texto. Si tiene un teléfono fijo, solicite un código de seguridad mediante una llamada telefónica. Le enviaremos un código de seguridad de sólo un uso a ese número de teléfono cada vez que inicie sesión en su cuenta. Esto se llama autenticación de dos factores. El segundo paso mantiene su cuenta más segura que si usara sólo una contraseña.
+Ingrese un número de teléfono en el que puede recibir llamadas o mensajes de texto. Si tiene un teléfono fijo, solicite un código de seguridad mediante una llamada telefónica. Le enviaremos un código de seguridad de sólo un uso a ese número de teléfono cada vez que inicie sesión en su cuenta. Esto se llama autenticación de dos factores. El segundo paso mantiene su cuenta más segura que si usara sólo una contraseña.
 
 Cada código de seguridad caduca después de 5 minutos y sólo se puede utilizar una vez. Si no ingresa el código de seguridad en 5 minutos, solicite un código nuevo. Cada código es válido una vez solamente, por lo que nadie puede robar uno que ya ha utilizado.
 
