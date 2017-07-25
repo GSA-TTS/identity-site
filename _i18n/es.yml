@@ -145,10 +145,10 @@ security_page:
       los usuarios tengan conocimiento de que su privacidad está siendo protegida
       de la manera que diseñamos la plataforma.'
     p_2: 'Para obtener más información, visite el sitio web de login.gov [Centro de
-      ayuda]({{site.baseurl}}/help) o [contáctenos]({{site.baseurl}}/contact). También
+      ayuda](site.baseurl/help) o [contáctenos](site.baseurl/contact). También
       puede visitar nuestro [repositorio de código abierto](https://github.com/18F/identity-idp){:target="_blank"}.'
 contact_page:
-  content: 'Primero, vea las respuestas a [preguntas comunes]({{site.baseurl}}/help/).
+  content: 'Primero, vea las respuestas a [preguntas comunes](site.baseurl/help/).
     ¿Todavía tiene una pregunta o un problema con la plataforma? Contáctenos a [login-contact@gsa.gov](mailto:
     login-contact@gsa.gov).'
 developers_page:
@@ -594,7 +594,7 @@ policies:
       en agencias asociadas, y por lo tanto, puede tener una necesidad comercial para
       retener la información por más tiempo que el período de retención de seis años.\n\n###
       Evaluación de Impacto de la Privacidad\n\nVea nuestra [Evaluación del impacto
-      sobre la privacidad]({{site.baseurl}}/assets/docs/privacy-impact-assessment.pdf).\n\n####
+      sobre la privacidad](site.baseurl/assets/docs/privacy-impact-assessment.pdf).\n\n####
       Para más información\n\nNos complace responder sus preguntas sobre nuestras
       prácticas de seguridad y privacidad. Para obtener más información, visite el
-      sitio login.gov [Centro de ayuda]({{site.baseurl}}/help)\no [contáctenos]({{site.baseurl}}/contacto)."
+      sitio login.gov [Centro de ayuda](site.baseurl/help)\no [contáctenos](site.baseurl/contacto)."
