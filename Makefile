@@ -1,4 +1,4 @@
-run: npm-link
+run:
 	make -f Makefile.server -j4 run
 
 clean:
@@ -10,15 +10,11 @@ node_modules/.touch: package.json
 
 setup: node_modules/.touch
 	bundle check || bundle install
-	npm link identity-style-guide
 
 test: build
 	bundle exec rspec spec
 
-npm-link:
-	npm link identity-style-guide
-
-build: npm-link
+build:
 	npm run build && bundle exec jekyll build
 
 .PHONY: setup
