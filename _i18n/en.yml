@@ -430,7 +430,7 @@ policies:
 
       ### Privacy Impact Assessment
 
-      View our [Privacy Impact Assessment](site.baseurl/assets/documents/privacy-impact-assessment.pdf).
+      View our [Privacy Impact Assessment](site.baseurl/docs/privacy-impact-assessment.pdf).
 
   - section: Our security practices
     anchor: "our-security-practices"
