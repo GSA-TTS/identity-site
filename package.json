@@ -8,9 +8,10 @@
     "build-css": "node-sass --output-style compressed assets/stylesheets/main.scss assets/stylesheets/build/main.css",
     "build-js": "webpack --config --progress --colors && webpack --config webpack.federalist.config.js --progress --colors",
     "build-js-federalist": "webpack --config webpack.federalist.config.js --progress --colors",
-    "clean": "rm -rf ./assets && rm -rf _sass",
-    "copy": "npm run copy-img && npm run copy-font && npm run copy-js && npm run copy-css && npm run copy-documents",
+    "clean": "rm -rf ./assets && rm -rf _sass && rm -f ./*.ico && rm -f ./*.png && rm -f ./*.svg && rm -f ./browserconfig.xml && rm -f ./manifest.json",
+    "copy": "npm run copy-img && npm run copy-font && npm run copy-js && npm run copy-css && npm run copy-documents && npm run copy-favicons",
     "copy-img": "cp -r node_modules/identity-style-guide/src/img/* ./assets/img/",
+    "copy-favicons": "cp node_modules/identity-style-guide/src/favicons/* ./",
     "copy-font": "cp node_modules/identity-style-guide/src/font/* ./assets/fonts/",
     "copy-js": "cp -r node_modules/identity-style-guide/src/js/* ./assets/js/",
     "copy-css": "cp -r node_modules/identity-style-guide/src/css/* ./assets/stylesheets/",
@@ -52,7 +53,7 @@
   "main": "webpack.config.js",
   "keywords": [],
   "dependencies": {
-    "identity-style-guide": "^0.1.7",
+    "identity-style-guide": "^0.1.8",
     "node-sass": "^3.7.0",
     "webpack": "^1.13.2"
   }
