@@ -20,7 +20,7 @@
     "make-dirs": "mkdir -p ./assets/stylesheets/build && mkdir -p ./assets/js && mkdir -p ./assets/img && mkdir -p ./assets/fonts && mkdir -p ./assets/documents",
     "rebuild": "npm run clean && npm run build",
     "start": "npm run build && bundle exec jekyll serve --incremental",
-    "watch-guide": "onchange './node_modules/identity-style-guide/src/css/*.scss' './node_modules/identity-style-guide/src/js/*.js' './node_modules/identity-style-guide/src/img/*' -v -- npm run build",
+    "watch-guide": "onchange './node_modules/identity-style-guide/src/css/**/*.scss' './node_modules/identity-style-guide/src/js/**/*.js' './node_modules/identity-style-guide/src/img/**/*' -v -- npm run build",
     "watch-webpack": "webpack -w --progress --colors",
     "webpack": "webpack --progress --colors"
   },
