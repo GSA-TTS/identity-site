@@ -585,7 +585,7 @@ policies:
 
       ### Evaluación de Impacto de la Privacidad
       Vea nuestra [Evaluación del impacto
-      sobre la privacidad](site.baseurl/assets/docs/privacy-impact-assessment.pdf).
+      sobre la privacidad](site.baseurl/docs/privacy-impact-assessment.pdf).
   - section: "Nuestras prácticas de seguridad"
     anchor: "nuestras-prácticas-de-seguridad"
     content: |
