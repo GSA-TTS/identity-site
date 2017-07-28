@@ -1,0 +1,603 @@
+global:
+  language: Idioma
+  locales:
+    en: English
+    es: Español
+meta:
+  contact:
+    title: Contacto
+  contact_us:
+    description: Have a question or a problem with login.gov?
+    title: Contáctenos
+  developers:
+    title: Desarrolladores
+  help:
+    description: Get answers to common questions about login.gov.
+    title: Ayuda
+  home:
+    description: Simple, secure access to government services online
+    title: Inicio
+  implementation:
+    description: Determine whether your agency or organization needs a consumer identity management system.
+    title: 'Implementación'
+  not_found:
+    title: '404'
+  principles:
+    description: Explore the principles that have helped us make the best system possible.
+    title: Principios
+  privacy_and_security:
+    description: Learn more about our security and privacy practices.
+    title: Privacidad y seguridad
+  privacy_policy:
+    title: Política de privacidad
+  playbook:
+    description: Helping developers and technologists in government agencies build usable, secure, and privacy-protecting consumer identity management systems.
+    title: Manual de identidad
+  security:
+    description: Learn how login.gov keeps personal information private.
+    title: Seguridad
+banner:
+  text: |2-
+
+    Un sitio oficial del Gobierno de Estados Unidos
+help_subpages:
+  changing-settings: Cambiando las configuraciones
+  creating-an-account: Creando una cuenta
+  privacy-and-security: Privacidad y seguridad
+  signing-in: |2-
+
+    Iniciando sesión
+nav:
+  overview: Resumen
+  menu: Menú
+  home: Inicio
+  playbook: Manual
+  principles: Principios
+  implementation: 'Implementación'
+  security: |2-
+
+    Seguridad
+  developers: Desarrolladores
+  help: Ayuda
+  manage: Administrar cuenta
+  skip_nav: Salte al contenido principal
+footer:
+  gsa: Administración General de Servicios de EE. UU.
+index:
+  intro:
+    heading: Acceso simple y seguro a los servicios en línea del Gobierno
+    content: Login.gov ofrece al público un servicio seguro y privado en línea para
+      acceder a los programas del Gobierno que participan en esta plataforma. Con
+      una cuenta de login.gov, los usuarios pueden acceder a varias agencias gubernamentales.
+      Nuestro objetivo es hacer que el manejo de beneficios, servicios y aplicaciones
+      federales sea más fácil y más seguro.
+  column_1:
+    heading: Servicio compartido
+    content:
+      li_1: Los usuarios necesitan menos contraseñas y menos interfaces para recibir atención de diferentes oficinas del Gobierno.
+      li_2: Los expertos en seguridad protegen un solo servicio en lugar de muchos.
+      li_3: Equipos de expertos se dedican a mejorar el diseño y la seguridad continuamente.
+  column_2:
+    heading: Conveniencia y eficacia
+    p_1: |-
+      Esto permite ahorro de tiempo y dinero en el Gobierno, quitando una tarea común que no distraiga la concentración de las agencias en sus funciones principales.
+
+      La plataforma de autenticación compartida permite reducir los costos de mantenimiento de cada agencia y ofrece mayor seguridad para todos.
+  column_3:
+    heading: Mayor cooperación
+    p_1: |-
+      Login.gov cultiva una estrecha relación con el sector privado y organizaciones sin fines de lucro para identificar e implementar conjuntamente las mejores prácticas y nuevos estándares en sistemas de autenticación seguros que protegen la privacidad.
+
+      Dirigido por el [Servicio Digital de EE. UU. (en inglés)](https://www.usds.gov){:target="_blank"} y [18F (en inglés)](https://18f.gsa.gov){:target="_blank"}, login.gov construye sobre las bases establecidas por el [Instituto Nacional de Estándares en Tecnología (en inglés)](http://www.nist.gov/){:target="_blank"}, el [Plan Nacional de Acción de Seguridad Cibernética (en inglés)](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, y el [Servicio Federal de Adquisición (en inglés)](http://www.gsa.gov/portal/content/105080){:target="_blank"}.
+  footer:
+    heading: Aprenda más
+    p_1: '¿Tiene alguna pregunta o problema? Llámenos al [844-875-6446](tel:1-844-875-6446) entre las 8:00 AM y las 8:00 PM (hora del Este) de lunes a viernes, excepto feriados federales'
+policy_page:
+  content:
+    p_1: |-
+      Su privacidad es muy importante para nosotros. Le proveemos nuestra política de privacidad para que usted tenga conocimiento de la información que recopilamos, por qué la recopilamos y qué hacemos con ella. Login.gov no recopila su email o número de teléfono, a menos que usted elija proporcionarlo.
+      Recopilamos otra información limitada automáticamente de los visitantes que leen o navegan la información de nuestro sitio. Hacemos esto para entender mejor cómo se utiliza el sitio y cómo podemos hacerlo más servicial.
+    p_2: |-
+      Si crea una cuenta, login.gov recopila su información personal identificable (PII, sigla en inglés), incluyendo su email y número de teléfono. Recopilamos su email y con su consentimiento lo compartimos con cada agencia federal ("agencia asociada") en la que usted está buscando acceso a información y servicios. Recopilamos su número de teléfono para poder permitir la autenticación de dos factores como medida de seguridad para su cuenta de login.gov. Su número de teléfono es compartido sólo una vez con un
+      proveedor de servicios de contraseñas, no con cualquiera de las agencias asociadas.
+404_page:
+  heading: La página que buscaba no existe.
+  content:
+    p_1: Es posible que desee comprobar su enlace e intentar nuevamente. (404)
+security_page:
+  heading: |2-
+
+    Cómo login.gov mantiene la información personal en privado
+  content:
+    p_1: |2-
+
+      Login.gov encripta la información personal de cada usuario por separado, usando un valor único generado a partir de la contraseña de cada usuario. Nuestro método de encripción funciona como una caja de seguridad en una bóveda del banco.
+      Sólo el usuario tiene la clave. Sólo el usuario puede abrir la caja para revelar los contenidos. Sólo el usuario conoce la contraseña y sólo el usuario puede descifrar su información.
+  column_1:
+    heading: La bóveda
+    p_1: Es difícil entrar en la "bóveda" o en la base de datos. Login.gov implementa
+      los estándares más recientes para la autenticación y la verificación seguras
+      del [Instituto Nacional de Estándares y Tecnología (NIST, sigla en inglés)](https://www.nist.gov/){:target="_blank"}.
+      Nuestros planes de seguridad continua incluyen pruebas de penetración regulares
+      y revisiones de seguridad externas.
+  column_2:
+    heading: |2-
+
+      La caja fuerte
+    p_1: Las cuentas individuales obtienen dos niveles de seguridad. Requerimos la
+      autenticación de dos factores, así como contraseñas seguras que cumplan con
+      los nuevos requisitos del NIST. La autenticación de dos factores requiere que
+      usted ingrese con su contraseña y un código que enviamos a su teléfono.
+    p_2: Evaluaremos e implementaremos nuevos métodos de autenticación a medida que
+      estén ampliamente disponibles para asegurar que login.gov permanezca accesible
+      y seguro.
+  column_3:
+    heading: Su clave personal
+    p_1: La encripción de la información personal por separado significa que login.gov
+      no puede compartir cualquier información con otras entidades gubernamentale
+      sin el permiso de los usuarios. Ni siquiera los administradores de las bases
+      de datos pueden descifrar la información personal de un usuario sin la contraseña
+      del usuario.
+  footer:
+    p_1: 'La revisión externa de nuestras medidas de protección de la privacidad es
+      bienvenida. Todo nuestro código está disponible para la inspección pública en
+      un repositorio de código abierto. Nuestra meta: asegurarnos de que en cada paso
+      los usuarios tengan conocimiento de que su privacidad está siendo protegida
+      de la manera que diseñamos la plataforma.'
+    p_2: 'Para obtener más información, visite el sitio web de login.gov [Centro de
+      ayuda](site.baseurl/help) o [contáctenos](site.baseurl/contact). También
+      puede visitar nuestro [repositorio de código abierto](https://github.com/18F/identity-idp){:target="_blank"}.'
+contact_page:
+  content: 'Primero, vea las respuestas a [preguntas comunes](site.baseurl/help/).
+    ¿Todavía tiene una pregunta o un problema con la plataforma? Contáctenos a [login-contact@gsa.gov](mailto:
+    login-contact@gsa.gov).'
+developers_page:
+  intro:
+    heading: Fácil integración y flexibilidad
+    p_1: Los protocolos estándar, las bibliotecas reusables y las revisiones continuas
+      de código abierto aceleran el desarrollo y lo ayudan a mantenerse en conformidad.
+    a_1: Ver la documentación
+  column_1:
+    heading: Cumplir con el cambio de orientación
+    content:
+      p_1: Elija entre [LOA1 y LOA3](https://developers.login.gov/attributes/){:target="_blank"}
+        para [NIST 800-63-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-2.pdf){:target="_blank"}.
+        Cuando cambiamos [políticas](https://pages.nist.gov/800-63-3/){:target="_blank"},
+        hacemos el trabajo para asegurar el cumplimiento.
+  column_2:
+    heading: Reducir el tiempo de lanzamiento
+    content:
+      p_1: Aproveche las bibliotecas de código reusable. Apoyamos tanto [OpenID Connect](https://developers.login.gov/openid-connect/){:target="_blank"}
+        como [SAML](https://developers.login.gov/saml/){:target="_blank"}. Comience
+        rápidamente con el código de integración de ejemplo en [Java](https://github.com/18F/identity-sp-java){:target="_blank"},
+        [Ruby](https://github.com/18F / Identity-sp-sinatra){:target="_blank"}, [Python](https://github.com/18F/identity-sp-python){:target="_blank"}
+        y [iOS](https://github.com/18F/identity-openidconnect-ios-client){:target="_blank"}.
+  column_3:
+    heading: Mire el <br class="sm-show">código
+    content:
+      p_1: Siga el desarrollo continuo de funciones, el mejoramiento de la experiencia
+        del usuario y las revisiones de seguridad en nuestro [repositorio de código
+        abierto](https://github.com/18F/identity-idp){:target="_blank"}.
+  footer:
+    heading: Contáctenos
+    p_1: Si está interesado en aprender más sobre la plataforma, por favor
+    a_1: Contáctenos
+help_page:
+  p_1: Explore los temas comunes
+implementation_page:
+  heading: Implementando un sistema de gestión de la identidad
+  section_1:
+    ul:
+      li_1:
+        a_1: "¿Qué está protegiendo?"
+      li_2:
+        a_1: "¿Qué es un sistema de gestión de la identidad del consumidor?"
+      li_3:
+        a_1: Implementación
+      li_4:
+        a_1: Recursos
+  section_2:
+    heading_1: |2-
+
+      ¿Qué está protegiendo?
+    p_1: |2-
+
+      Vale la pena evaluar lo que realmente necesita antes de comenzar la implementación. No toda la información requiere un sistema de identidad para administrar el acceso. Puede proteger la privacidad de los usuarios y reducir el riesgo de seguridad en sus sistemas, evitando cualquier recopilación innecesaria de información personal identificable—incluso los detalles de contacto.
+    heading_2: 'Es posible que no necesite implementar un sistema de identidad si:'
+    ul_1:
+      li_1: No es necesario tener una relación continua con los usuarios.
+      li_2: |2-
+
+        Las transacciones no dependen de que la información personal sea exacta.
+      li_3: Puede contar con otras formas de seguridad.
+    heading_3: Para responder a esto, pregunte
+    ul_2:
+      li_1:
+        content: "¿Qué transacciones necesitarán los usuarios?"
+        p_1: "¿Serán continuas las transacciones, por ejemplo cuando los usuarios
+          añaden a sus favoritos las solicitudes de beneficios o subvención para llenar
+          más tarde y luego regresan repetidamente para comprobar el estado de su
+          solicitud? ¿O será que sus usuarios regresarán una vez o infrecuentemente
+          como cuando la gente descarga registros médicos o financieros?"
+      li_2:
+        content: |2-
+
+          ¿Qué tipo de información necesita para proteger a sus clientes?
+        p_1: "¿Necesita el nombre completo y otra información personal para que los
+          usuarios puedan acceder a la información privada? ¿O sólo necesita verificar
+          que un usuario encaja en ciertas categorías como la categoría de veteranos
+          o la categoría de jubilados?"
+      li_3:
+        content: |2-
+
+          ¿Qué tipo de delito se podría cometer con el acceso a esta información?
+        p_1: La información que parece simple por sí misma puede ser valiosa para
+          los estafadores y otros criminales en combinación con otra información de
+          fácil acceso.
+      li_4:
+        content: "¿Qué otras formas de seguridad están disponibles?"
+        p_1: Los números de rastreo postal, por ejemplo, no son secretos porque el
+          paquete sólo se entregará a una dirección específica. La seguridad de la
+          entrega radica en la seguridad del edificio y la conducta de la persona
+          responsable de la entrega, no en la discreción del número en sí.
+    heading_4: "¿Qué tipos de recursos ya tiene para identificar clientes?"
+    p_2: Es posible que su agencia ya tenga información específica de la misión y
+      recursos que se puedan utilizar para identificar a los clientes. Al integrar
+      los recursos que conoce y confía, puede aumentar la seguridad de la identificación.
+    heading_5: Para responder a esto, pregunte
+    ul_3:
+      li_1:
+        content: "¿Qué recursos son únicos para su agencia?"
+        p_1: Las interacciones confidenciales de los individuos con las agencias gubernamentales
+          pueden generar un rastro de metadatos. Los metadatos usados cuidadosamente
+          pueden facilitar la verificación de la identidad en base al conocimiento
+          de esas actividades. Otras organizaciones gubernamentales sirven como repositorios
+          autorizados de datos biométricos disponibles para uso interno. Algunas agencias
+          pueden tener lugares para que los clientes puedan visitarlos en persona.
+    heading_6: |2-
+
+      ¿Qué es un sistema de gestión de la identidad del consumidor?
+    p_3: Cuando está en su casa y alguien toca la puerta es bastante fácil decidir
+      si responder o no. Fundado en su conocimiento de quién está afuera, usted puede
+      decidir si abre la puerta. ¿La persona que está afuera es un amigo? ¿Un repartidor
+      de correo u otro proveedor de servicios esperado? ¿Un completo extraño? En línea
+      la cuestión de decidir "quién está afuera" es mucho más difícil. Los sistemas
+      de manejo de identidad del consumidor facilitan la decisión de si se abre o
+      no la puerta y qué tanto se abre.
+    heading_7: "¿Qué es una identidad?"
+    p_4: En el mundo de la seguridad, la "identidad" tiene un significado técnico
+      muy específico diferente a su significado común. Una "identidad" en términos
+      técnicos es un tipo especial de registro —una combinación de diferentes tipos
+      de datos que en conjunto describe sólo a un usuario del sistema [NIST 800-63-3].
+      Esos datos pueden incluir referencias a registros gubernamentales oficiales,
+      como números de licencia de conducir y fechas de nacimiento registradas, así
+      como datos más mutables como emails y nombres de usuario. Los atributos físicos
+      como las huellas dactilares y el ADN también pueden formar parte de un registro
+      de identidad.
+    heading_8: "¿Cómo funciona el manejo de identidad y acceso?"
+    p_5: Los administradores del sistema asignan privilegios de acceso a cada registro
+      de identidad. Estos privilegios autorizan ciertas actividades y prohíben otras.
+      Para "abrir la puerta" de manera seguridad, los administradores necesitan la
+      confianza de que los usuarios que tocan la puerta son quienes dicen ser.
+    p_6: Para que el sistema y sus administradores tengan confianza en sus identidades,
+      los usuarios deben probar sus identidades a través de una actividad llamada
+      autenticación. Los usuarios se autentican presentando pruebas que se vinculan
+      a los registros. Para ello, los usuarios primero ayudan al sistema a validar
+      su registro, por ejemplo, escribiendo un nombre de usuario. Luego, los usuarios
+      entregan la evidencia, a menudo las contraseñas u otra información que sólo
+      la persona real puede saber.
+    heading_9: "¿Qué permite un registro de identidad?"
+    p_7: 'Los sistemas de identidad no sólo benefician a los administradores del sistema.
+      Los usuarios pueden realizar algunas cosas muy útiles con una identidad digital
+      autenticada. Aquí hay una pequeña lista:'
+    ul_4:
+      li_1:
+        span_1: |2-
+
+          Llenar con anticipación formularios en línea con información verificada acelera el procesamiento de solicitudes.
+        span_2: Hay menos esfuerzo redundante, y los usuarios no necesitan preocuparse
+          por errores básicos.
+      li_2:
+        span_1: Los usuarios autenticados pueden acceder y descargar sus datos del
+          sistema, por ejemplo la actividad de su cuenta.
+        span_2: Con una identidad legal verificada, el usuario puede acceder a registros
+          médicos o financieros muy sensibles e incluso descargarlos.
+      li_3:
+        span_1: Los sistemas de identidad pueden proteger su privacidad.
+        span_2: Si debe tener 21 años o más para acceder a un servicio, puede autorizar
+          un sistema de identidad para confirmar su edad sin compartir su fecha de
+          nacimiento exacta.
+    heading_10: Implementación
+    ul_5:
+      li_1:
+        a_1: Lea la documentación del desarrollador.
+    heading_11: Recursos <small>(los enlaces están en inglés)</small>
+    ul_6:
+      li_1:
+        a_1: Instituto Nacional de Estándares en Tecnología
+        content: "(NIST 800-63-3)"
+      li_2:
+        a_1: Manual de servicios digitales
+      li_3:
+        a_1: |2-
+
+          Acuerdo de recompra de GitHub para login.gov
+      li_4:
+        a_1: En internet nadie sabe que eres un perro
+playbook_page:
+  section_1:
+    p_1: 'El manejo de identidades —o asegurarse de que sólo las personas apropiadas
+      tengan acceso a los sistemas— es fundamental para la prestación de servicios
+      públicos en línea. Estamos compartiendo estos principios para ayudar a los desarrolladores
+      y tecnólogos en agencias gubernamentales a crear sistemas de manejo de identidad
+      que sean utilizables, seguros y protejan la privacidad del consumidor. '
+  section_2:
+    heading_1: Los principios
+    p_1: La construcción de este sistema incluye tomar recomendaciones y mejores prácticas
+      de expertos en política, arquitectos de sistemas y personas enfocadas crear una experiencia
+      excepcional para el usuario. Hasta ahora nuestra investigación y
+      nuestro progreso nos ha llevado a identificar cinco principios fundamentales
+      que creemos que nos ayudarán a establecer el mejor sistema posible.
+    p_2:
+      a_1: Ver los principios
+    heading_2: Implementación
+    p_3: Antes de implementar login.gov o cualquier otro sistema de gestión de la
+      identidad del consumidor, debe determinar si su agencia u organización necesita
+      uno. A continuación se muestra una lista de preguntas que debe hacerse y cosas
+      que debe considerar para ayudarlo a determinar su necesidad.
+    p_4:
+      a_1: Conozca más información sobre la implementación
+principles_page:
+  heading_1: Los principios del manual de identidad
+  heading_2: Concéntrese en las necesidades de los usuarios
+  ul_1:
+    li_1: |2-
+
+      Identifique sus audiencias potenciales
+    li_2: 'Comprenda las experiencias de acceso y las necesidades de identidad de
+      sus audiencias '
+    li_3: Realice investigaciones antes de crear o implementar un sistema
+    li_4: "\nHaga pruebas de su producto para identificar puntos ciegos o áreas de
+      mejoramiento "
+    li_5: Cuando las mejores prácticas actuales no son lo suficientemente buenas para
+      sus usuarios, pruebe nuevas soluciones y ayude a la adopción
+  p_1: |-
+    Resolver problemas reales para los usuarios potenciales debe ser el foco de cualquier sistema, y ​​es doblemente importante cuando se construye un sistema de gestión de identidades. A lo largo de este manual, verá cómo satisfacer las necesidades del usuario es un principio rector en cada decisión tomada.
+
+    Uno de los primeros pasos que debe tomar es identificar a sus usuarios principales. Para login.gov, hemos identificado dos grupos como usuarios principales: el público en general y las personas involucradas en tecnología dentro de las agencias gubernamentales. El objetivo del sistema es apoyar y abordar las necesidades del público en general. Para decirlo claramente, queremos asegurarnos de que nuestro sistema haga que la gente se sienta cómoda al ingresar a los servicios gubernamentales. El público debe sentirse seguro de que login.gov funciona según la expectativa y no los decepcionará. El sistema también debe atender la experiencia completa de los usuarios a medida que tratan de lograr sus objetivos. Debido a que la verificación de identidad y la autenticación son tecnológicamente complejos, no es improbable que incluso la gente más experta en tecnología pueda atascarse si su teléfono se pierde o si un sistema tiene errores. Por lo tanto, en apoyo de la misión de cada agencia, los arquitectos y diseñadores de sistemas de manejo de identidad de los consumidores necesitan anticipar puntos de adherencia probables para que la gente no pierda el acceso a los servicios y beneficios.
+
+    Las agencias deben saber a qué porción del público sirven y cómo se pueden crear servicios para atender sus necesidades específicas. Esto ayudará a los equipos de integración de agencias a entender lo que necesitan si deciden implementar la plataforma login.gov o cualquier otro sistema de gestión de la identidad del consumidor.
+
+    Por último, deben hacerse pruebas continuamente de los diseños y herramientas cuando estén listos para compartirse y luego ajustar su proyecto en función de lo que se aprenda. En algunos casos, aprendemos que las mejores prácticas actuales no son lo suficientemente buenas. Y en esos casos somos empujados a probar nuevas maneras de entregar a los usuarios la mejor experiencia posible. Ese proceso implica más pruebas, educar a los usuarios y una voluntad para repetir.
+
+    Hay una serie de métodos de diseño específicos que practicamos para permanecer centrados en el usuario y usted puede leer sobre todos ellos y usarlos revisando los [Métodos de Diseño de 18F (en inglés)](https://methods.18f.gov/){:target="_blank"}.
+  heading_3: Sea transparente sobre cómo funciona
+  ul_2:
+    li_1: Involucre a expertos, partidarios y al público tempranamente y a menudo
+    li_2: Explique cómo y por qué está recopilando, compartiendo y almacenando datos
+    li_3: Construya una política de privacidad que las personas en general puedan
+      acceder y entender
+    li_4: Construya una política de privacidad que sea inclusiva e informativa
+  p_2: |-
+    [Trabajar con transparencia (en inglés)](https://playbook.cio.gov/#play13){:target="_blank"} y la creación de un sistema transparente debe ser la forma en que funciona cualquier agencia cuando se construye o implementa un sistema de gestión de la identidad. Para ejecutar este principio con login.gov, estamos construyendo la plataforma para que las partes interesadas puedan asesorarnos sobre las mejores prácticas y para que sigamos siendo responsables ante el público y nuestros socios en todo el Gobierno. Además, significa construir un sistema que informe a los usuarios sobre lo que se hace con su información para crear responsabilidad y generar confianza. Estamos involucrando a los usuarios y otras partes interesadas a través de nuestro [acuerdo de recompra de GitHub (en inglés)](https://github.com/18F/identity-idp){:target="_blank"} y trabajando en la creación de foros públicos donde la gente pueda conversar sobre nuestro trabajo.
+
+    Para que un sistema de gestión de la identidad sea transparente para los usuarios finales, el sistema que usted cree incluirá funciones que informen a la gente sobre cómo funciona el sistema, por qué funciona de esa manera y cómo pueden controlar lo que ocurre con sus datos. También debe informar a los usuarios de la información que necesita una agencia al iniciar sesión en un servicio. También es importante informar a los usuarios qué información almacenarán sus sistemas y si se comparte algún dato con otras agencias. Si las personas que usan el sistema no se sienten cómodas con el intercambio de información, no deben verse obligadas a participar.
+
+    login.gov está trabajando para implementar todas estas características que mejoran la transparencia. Además, para ayudar a las personas a entender todo lo que está sucediendo, estamos creando una política de privacidad que explica cómo se comparten los datos y lo que significa no participar.
+  heading_4: Construya un producto flexible
+  ul_3:
+    li_1: |2-
+
+      Desarrolle el producto en etapas y evalúe la efectividad después de cada etapa
+    li_2: Hable continuamente con las partes interesadas y expertos para evaluar las
+      necesidades y los indicadores de éxito
+    li_3: Haga pruebas de su producto continuamente con los usuarios a medida que
+      agrega nuevas herramientas y refina las viejas
+    li_4: Defina qué es un producto mínimo viable para sus necesidades de manejo de
+      identidades
+    li_5: 'Planifique evolucionar en función de la tecnología y los estándares cambiantes '
+  p_3: |-
+    La tecnología y los estándares para la verificación y autenticación de identidad pueden cambiar rápidamente. Los sistemas de manejo de identidad de los consumidores deben adaptarse fácilmente a las normas cambiantes y reaccionar ante las nuevas amenazas de seguridad. Para hacer posible la adaptación a nuevas políticas y capacidades, la creación de productos usando métodos ágiles es una buena práctica, considerando versiones cambiantes en el proceso. En otras palabras, planificar las modificaciones para ayudar a que su servicio de identidad esté tan actualizado como sea posible y sea compatible con las normas y políticas actuales.
+
+    Estamos adoptando este principio para cada aspecto del proyecto en la creación de login.gov.
+
+    [Lea esta guía (en inglés)](https://pages.18f.gov/agile/index.html){:target="_blank"} a los principios y prácticas ágiles elaborados por el equipo de 18F para aprender más sobre lo que significa trabajar de manera ágil.
+  heading_5: Use prácticas modernas de privacidad
+  ul_4:
+    li_1: Guarde la menor cantidad posible de datos de identificación personal
+    li_2: Proporcione a los usuarios otras formas para lograr sus objetivos
+    li_3: Proporcione a los usuarios el control sobre sus datos
+  p_4: "Los sistemas de manejo de la identidad del consumidor almacenan información
+    personal sobre los usuarios para que la gente no tenga que repetir los procesos
+    de verificación y autenticación una y otra vez. Sin embargo, la recopilación y
+    el almacenimiento de información personal causa preguntas éticas y legales que
+    los diseñadores y desarrolladores del sistema deben considerar. A menudo, lo que
+    primero viene a la mente son las cuestiones técnicas sobre la seguridad: la protección
+    de la información contra el acceso y los usos no autorizados o ilegales. Sin embargo,
+    hay que preocuparse también por los usos autorizados, legales de la información
+    personal que violan las expectativas de privacidad de los usuarios. Los usuarios
+    de login.gov necesitan estar seguros de que estamos manejando su información personal
+    respetuosamente y apropiadamente. \n\nEl primer paso es solamente la recopilación
+    de la información que usted necesita absolutamente. Y eso es lo que está haciendo
+    login.gov. La verificación de identidad de alta seguridad para tareas delicadas
+    requiere una amplia recolección de información. Sin embargo, muchas actividades
+    no requieren altos niveles de seguridad (LOA, sigla en inglés) y login.gov apoya
+    diferentes niveles para que las agencias puedan delinear claramente a usuarios
+    que requieren niveles de seguridad más bajos y separarlos de aquellos usuarios
+    con necesidades más delicadas, asegurando la usabilidad y la seguridad de los
+    datos. Al minimizar la cantidad de información recopilada y almacenada no sólo
+    se reduce el riesgo de seguridad sino que también se reducen las preocupaciones
+    de los usuarios sobre la reutilización y divulgación de datos. \n\nEl siguiente
+    paso es dar a los usuarios el mayor control posible sobre qué información se comparte.
+    Creemos firmemente que la gente es dueña de sus datos, no nosotros, y siempre
+    actuaremos consecuentemente. Si la gente no se siente cómoda con los requisitos
+    de datos para usar un sistema, deben saber que no tienen que inscribirse y que
+    hay otras maneras de lograr sus propósitos. \n\nAl diseñar login.gov, también
+    estamos trabajando en educar a los usuarios para que ayuden a proteger sus propios
+    datos. Queremos que la gente entienda por qué tenemos que pedir ciertos tipos
+    de información delicada, como números de Seguro Social, y cómo los estamos utilizando."
+  heading_6: Construya sistemas de seguridad receptivos
+  ul_5:
+    li_1: Identifique las mejores prácticas de la industria y adhiérase a ellas
+    li_2: Cumpla con las regulaciones federales como FISMA y FedRamp
+    li_3: |2-
+
+      Establezca sistemas para monitorear y detectar fraudes
+    li_4: Utilice técnicas modernas de encripción en todo el montón de tecnología
+    li_5: 'Guarde solamente el mínimo absoluto de datos necesarios '
+    li_6: Ayude a los usuarios a comprender las medidas de seguridad que deben cumplir
+  p_5: "Para la gestión de la identidad del consumidor es clave determinar quién está
+    tratando de acceder a la información personal y asegurarse de que sólo los usuarios
+    autorizados puedan acceder a esa información. La razón por la que sistemas como
+    este existen es para proteger la identidad del usuario de aquellos que buscan
+    cometer robo o fraude. \n\nSer deliberado sobre la seguridad significa concentrar
+    nuestra atención en lo que hay que proteger. Significa pensar cuidadosamente sobre
+    cómo conseguir equilibrio entre la protección y la accesibilidad. Hacer esto exitosamente
+    incluye educar a los usuarios sobre cómo pueden protegerse ellos mismos o mitigar
+    los efectos de la delincuencia. \n\nEn el caso de login.gov, por ejemplo, tenemos
+    que decidir exactamente qué datos almacenamos y por cuánto tiempo. También tenemos
+    que decidir qué pasos deben tomar los usuarios para acceder a su información.
+    Todas estas decisiones requieren una deliberación cuidadosa para determinar cuál
+    es la mejor opción tanto para los usuarios como para las agencias y para asegurar
+    máxima funcionalidad. \n\nEn la construcción de login.gov, estamos cumpliendo
+    con las normas presentadas por el [Instituto Nacional de Estándares y Tecnología (en inglés)](https://pages.nist.gov/800-63-3/){:target=\"_blank\"}
+    (NIST 800-63-2) y adaptaremos sus planes preliminares de estándares nuevos (NIST
+    800-63-3) a medida que sean terminados. Los planes preliminares para los estándares
+    adoptan un enfoque muy diferente para la autenticación y la prueba de identidad
+    (cómo una persona inicia sesión y cómo verifica su identidad) de la versión actual.
+    Además, seguimos las [mejores practicas de seguridad del Gobierno (en inglés)](https://playbook.cio.gov/#play11){:target=\"_blank\"}
+    incluyendo FedRAMP, operando en código abierto, realizando rigurosas evaluaciones
+    rutinarias de seguridad, además del cumplimiento de la Ley Federal de Gestión
+    de la Seguridad de la Información (FISMA, sigla en inglés)."
+help:
+  changing-settings:
+    how-do-i-change-my-email-address: "¿Cómo puedo cambiar mi email?"
+    how-do-i-change-my-password: "¿Como puedo cambiar mi contraseña?"
+    how-do-i-change-the-phone-number-i-am-using-with-my-account: "¿Cómo puedo cambiar
+      el número de teléfono que estoy usando con mi cuenta?"
+  creating-an-account:
+    do-i-need-a-mobile-phone-to-use-logingov: "¿Necesito un teléfono móvil para usar
+      login.gov?"
+    how-do-i-create-an-account-with-logingov: "¿Cómo puedo crear una cuenta con login.gov?"
+    i-didnt-receive-a-confirmation-email-from-logingov: |2-
+
+      No recibí un email de confirmación de login.gov.
+    what-do-i-do-if-an-account-already-exists-under-my-email-address: "¿Qué debo hacer
+      si una cuenta con mi email ya existe?"
+    what-is-two-factor-authentication: "¿Qué es la autenticación de dos factores?"
+    why-didnt-i-receive-a-security-code-to-confirm-my-phone: |2-
+
+      ¿Por qué no recibí un código de seguridad para confirmar mi teléfono?
+    why-do-i-need-to-confirm-my-email-address-and-my-phone-number: |2-
+
+      ¿Por qué tengo que confirmar mi email y mi número de teléfono?
+    why-do-i-need-to-use-logingov-to-access-government-services-online: "¿Por qué
+      tengo que usar login.gov para acceder a los servicios del Gobierno en línea?"
+  privacy-and-security:
+    can-i-remove-a-saved-password-or-login-information-from-my-browser: "¿Puedo borrar
+      de mi navegador una contraseña o información guardarda para iniciar sesión?"
+    how-do-i-make-my-password-strong: |2-
+
+      ¿Cómo puedo hacer que mi contraseña sea segura?
+    how-does-logingov-protect-my-data: |2-
+
+      ¿Cómo protege login.gov mis datos?
+    will-logingov-share-my-information: "¿Compartirá login.gov mi información?"
+  signing-in:
+    i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: No
+      puedo recordar dónde está mi clave personal y no tengo mi teléfono conmigo.
+    i-forgot-which-email-address-i-used-to-create-an-account: Olvidé el email que
+      utilicé para crear una cuenta.
+    if-i-dont-have-my-phone-with-me-can-i-still-sign-in: |2-
+
+      Si no tengo mi teléfono conmigo, ¿puedo iniciar sesión?
+    what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: "¿Qué hago si mi contraseña
+      no funciona o la olvido?"
+    what-do-i-need-to-have-in-order-to-sign-in: "¿Qué debo tener para iniciar sesión?"
+    what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: |2-
+
+      ¿Qué sucede si pierdo la llamada telefónica o el mensaje de texto con mi código de seguridad de un sólo uso?
+    what-is-an-authenticator-app: "¿Qué es una app de autenticación?"
+    why-does-the-system-log-me-out: "¿Por qué el sistema me desconecta?"
+policies:
+  - section: "Nuestras prácticas de privacidad"
+    anchor: "nuestras-prácticas-de-privacidad"
+    content: |
+      Este aviso de privacidad describe cómo pedimos, utilizamos, retenemos
+      y protegemos su información personal, así como su obligación de divulgarla.
+
+      Nuestro objetivo es proteger su información personal, y no la compartiremos
+      sin su permiso. Por ejemplo, encriptaremos su información personal en tránsito
+      y en reposo y pediremos su permiso antes de compartir sus datos con una agencia
+      asociada. Sin embargo, pueden haber circunstancias en las que somos requeridos
+      a compartir ciertos datos. Por ejemplo: si la información es relevante y necesaria
+      para un propósito autorizado en la aplicación de la ley, a fin de responder
+      a una violación, o para ayudar a otra agencia que responde a un incumplimiento.
+      Para obtener información adicional, consulte el [sistema de número de notificación
+      de registro GSA / TTS-1](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice
+      -de-un-nuevo-sistema-de-registros){:target="_blank"} que el Servicio de Transformación
+      de Tecnología de GSA (TTS, sigla en inglés) publicó el 19 de enero de 2017.
+
+      ### Declaración de la Ley de Privacidad
+
+      #### Autoridades
+      La información que usted proporciona para acceder a su cuenta de login.gov es recogida
+      en conformidad con 6 USC § 1523 (b) (1) (A) - (E), la [Ley de Gobierno Electrónico de 2002
+      (44 USC § 3501)](https://www.gpo.gov/fdsys/pkg/PLAW-107publ347/html/PLAW-107publ347.htm){:target="_blank"},
+      Y 40 USC § 501.
+
+      #### Propósito
+      La información que usted envía se utiliza para crear o actualizar su cuenta de login.gov.
+      Una vez que creada su cuenta, con su consentimiento, login.gov compartirá su email con la
+      agencia asociada para proveer acceso en línea a información y servicios gubernamentales.
+
+      #### Divulgación
+      Usted decide qué información nos da. Sin embargo, la falta de información
+      completa y precisa puede retrasar el acceso a la agencia asociada. La información
+      que usted entrega a login.gov será compartida con la agencia federal correspondiente
+      para proveer acceso a su información bajo el mantenimiento de la agencia, tal
+      como se describe en los correspondientes [sistemas de registros de avisos](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-sistema de registros){:target="_blank"}. Tenga en cuenta que el sistema login.gov
+      grabará cierta información a nivel de sesión en relación a su uso del servicio,
+      incluyendo pero no limitado a, tipo y versión del navegador web, y la duración
+      de su sesión. Esta información permite que login.gov comprenda mejor cómo el
+      sitio está siendo utilizando y cómo puede hacerse más útil.
+
+      #### Almacenamiento
+      Todos los registros se almacenan electrónicamente en una base de datos
+      en GSA [Amazon Web Services (AWS)](https://aws.amazon.com/){:target="_blank"}.
+      Usted puede modificar o corregir su email o número de teléfono, accediendo a
+      su cuenta. Debe elegir un email a través del cual desea recibir correspondencia
+      de cualquier agencia asociada cuyos servicios o información usted puede acceder.
+      El cambio de su email redireccionará toda la correspondencia por email con cualquier
+      agencia asociada.
+
+      Del mismo modo, usted debe elegir el número de un teléfono
+      al que tiene acceso para recibir y responder con la(s) contraseña(s) de sólo
+      un uso que se envían a ese número.
+
+      Su email y número de teléfono se mantendrán
+      por al menos seis\naños de acuerdo con la Administración Nacional de Archivos
+      y Registros (NARA, sigla en inglés). Sin embargo, GSA está autorizado a mantener
+      la información por más tiempo si es necesario para el uso comercial. Login.gov
+      debe ser capaz de proporcionar a sus usuarios acceso a información y servicios
+      en agencias asociadas, y por lo tanto, puede tener una necesidad comercial para
+      retener la información por más tiempo que el período de retención de seis años.
+
+      ### Evaluación de Impacto de la Privacidad
+      Vea nuestra [Evaluación del impacto
+      sobre la privacidad](site.baseurl/docs/privacy-impact-assessment.pdf).
+  - section: "Nuestras prácticas de seguridad"
+    anchor: "nuestras-prácticas-de-seguridad"
+    content: |
+      login.gov utiliza una variedad de métodos de seguridad para proteger este
+      servicio del Gobierno y sus datos, y para asegurar que el servicio permanezca disponible para todos los usuarios. Estos métodos incluyen el monitoreo y registro
+      de tráfico de red (cualquier dato que entra y sale de login.gov) para identificar intentos no autorizados de cambiar la información o de otra manera causar daño.
+
+      El acceso no autorizado o el uso de login.gov (por ejemplo, uso con fines criminales, o para causar daño, etc.) está en contra de la ley, y puede someterle a procesamiento penal y sanciones.
+
+      ### Política de divulgación de vulnerabilidades
+
+      login.gov autoriza a la comunidad de seguridad externa a realizar investigación en seguridad con la intención de reportar vulnerabilidades de seguridad descubiertas en la plataforma login.gov.
+
+      Vea nuestra [Política de divulgación de vulnerabilidades](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"}
+      Para obtener detalles sobre esta política y sobre cómo informar de las vulnerabilidades detectadas.

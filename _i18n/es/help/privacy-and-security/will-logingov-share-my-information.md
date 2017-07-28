@@ -1,0 +1,2 @@
+Login.gov no puede compartir ninguna información con otras agencias del Gobierno sin el permiso del usuario. Ni siquiera los administradores de login.gov pueden descifrar o acceder a la información personal de un usuario sin la contraseña del usuario.
+  

@@ -5,3 +5,10 @@ node_modules/
 .python-version
 *.log
 .DS_Store
+_sass/
+assets/
+/*.ico
+/*.png
+/*.svg
+/browserconfig.xml
+/manifest.json

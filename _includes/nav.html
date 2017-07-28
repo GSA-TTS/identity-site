@@ -39,7 +39,11 @@
       </ul>
     </li>
     <li>
-      <a href="https://secure.login.gov/" class="blue caps text-decoration-none">{% t nav.manage %}</a>
+      {% if site.lang != 'en' %}
+        <a href="https://secure.login.gov/{{site.lang}}/" class="blue caps text-decoration-none">{% t nav.manage %}</a>
+      {% else %}
+        <a href="https://secure.login.gov/" class="blue caps text-decoration-none">{% t nav.manage %}</a>
+      {% endif %}
     </li>
   </ul>
 </nav>

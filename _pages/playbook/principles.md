@@ -1,7 +1,7 @@
 ---
-title: Principles
+title: meta.principles.title
 permalink: /playbook/principles/
-description: Explore the principles that have helped us make the best system possible.
+description: meta.principles.description
 class: relative
 ---
 
@@ -17,9 +17,16 @@ class: relative
     <div class="clearfix">
       <nav id="pb-nav--side-cntnr" class="sm-col-right sm-col-4 sm-show">
         <ul id="pb-nav--side" class="list-reset nav">
-          {% for p in site.playbook.principles %}
+          {% for h in site.playbook.principles %}
             <li class="border-bottom nav-sidenav-item">
-              <a class="p2 block h6" href="#{{p.anchor}}">{{p.text}}</a>
+              <a class="p2 block h6" href="#{{h.anchor}}">
+                {% for t in site.translations.en.principles_page %}
+                  {% if t[1] == h.text %}
+                    {% capture key %}{{ t[0] | remove: " " }}{% endcapture %}
+                    {{ site.translations[site.lang]["principles_page"][key] }}
+                  {% endif %}
+                {% endfor %}
+              </a>
             </li>
           {% endfor %}
         </ul>

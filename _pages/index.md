@@ -1,5 +1,5 @@
 ---
-title: Home
+title: meta.home.title
 permalink: /
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
@@ -22,9 +22,6 @@ image: /assets/img/login-gov-600x314.png
         <h2 class="mt2 mb2 pb2 gray border-bottom border-light-blue" markdown="1">
           {% t index.column_1.heading %}
         </h2>
-        <p class="mb1">
-          {% t index.column_1.content.p_1 %}
-        </p>
         <ul class="list-reset teal-dots">
           <li class="mb1">
             {% t index.column_1.content.li_1 %}

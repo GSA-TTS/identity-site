@@ -3,9 +3,25 @@
   "version": "1.0.0",
   "description": "login.gov static site",
   "scripts": {
-    "build-js": "webpack -w --progress --colors",
-    "build-css": "node-sass --include-path node_modules --include-path _sass --output-style compressed assets/stylesheets/main.scss assets/stylesheets/build/main.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "build": "npm run make-dirs && npm run copy && npm run build-css && npm run build-js",
+    "build-federalist": "npm run make-dirs && npm run copy && npm run build-css && npm run build-js-federalist",
+    "build-css": "node-sass --output-style compressed assets/stylesheets/main.scss assets/stylesheets/build/main.css",
+    "build-js": "webpack --config --progress --colors && webpack --config webpack.federalist.config.js --progress --colors",
+    "build-js-federalist": "webpack --config webpack.federalist.config.js --progress --colors",
+    "clean": "rm -rf ./assets && rm -rf _sass && rm -f ./*.ico && rm -f ./*.png && rm -f ./*.svg && rm -f ./browserconfig.xml && rm -f ./manifest.json",
+    "copy": "npm run copy-img && npm run copy-font && npm run copy-js && npm run copy-css && npm run copy-favicons",
+    "copy-img": "cp -r node_modules/identity-style-guide/src/img/* ./assets/img/",
+    "copy-favicons": "cp node_modules/identity-style-guide/src/favicons/* ./",
+    "copy-font": "cp node_modules/identity-style-guide/src/font/* ./assets/fonts/",
+    "copy-js": "cp -r node_modules/identity-style-guide/src/js/* ./assets/js/",
+    "copy-css": "cp -r node_modules/identity-style-guide/src/css/* ./assets/stylesheets/",
+    "federalist": "npm run build-federalist",
+    "make-dirs": "mkdir -p ./assets/stylesheets/build && mkdir -p ./assets/js && mkdir -p ./assets/img && mkdir -p ./assets/fonts",
+    "rebuild": "npm run clean && npm run build",
+    "start": "npm run build && bundle exec jekyll serve --incremental",
+    "watch-guide": "onchange './node_modules/identity-style-guide/src/css/**/*.scss' './node_modules/identity-style-guide/src/js/**/*.js' './node_modules/identity-style-guide/src/img/**/*' -v -- npm run build",
+    "watch-webpack": "webpack -w --progress --colors",
+    "webpack": "webpack --progress --colors"
   },
   "repository": {
     "type": "git",
@@ -15,6 +31,10 @@
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/18F/identity-site/issues"
+  },
+  "engines": {
+    "node": "5.x.x",
+    "npm": "3.x.x"
   },
   "homepage": "https://github.com/18F/identity-site#readme",
   "devDependencies": {
@@ -26,9 +46,14 @@
     "basscss-sass": "^3.0.0",
     "bootstrap": "^3.3.7",
     "jquery": "^3.1.0",
-    "node-sass": "^3.7.0",
-    "nodemon": "^1.9.2",
     "normalize.css": "^4.2.0",
+    "onchange": "git+https://git@github.com/msecret/onchange.git"
+  },
+  "main": "webpack.config.js",
+  "keywords": [],
+  "dependencies": {
+    "identity-style-guide": "^0.2.0",
+    "node-sass": "^3.7.0",
     "webpack": "^1.13.2"
   }
 }

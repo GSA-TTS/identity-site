@@ -10,25 +10,36 @@
 {% endif %}
 
 <!-- Title -->
-{% if page.title %}
-  <title>{{ site.title }} | {{ page.title }}</title>
-  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}" />
-  <meta name="twitter:title" content="{{ site.title | xml_escape }} | {{ page.title | xml_escape }}">
+{% if page.layout == 'help' %}
+  {% assign url_size = page.url | size | minus: 1 %}
+  {% assign help_page_title = page.url | replace: "/", "." | slice: 1, url_size %}
+  {% capture help_page_title_rendered %}{% t help_page_title %}{% endcapture %}
+  <title>{{ site.title }} | {{ help_page_title_rendered | xml_escape }}</title>
+  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ help_page_title_rendered | xml_escape }}" />
+  <meta name="twitter:title" content="{{ site.title | xml_escape }} | {{ help_page_title_rendered | xml_escape }}">
+{% elsif page.title %}
+  {% capture page_title_rendered %}{% t page.title %}{% endcapture %}
+  <title>{{ site.title }} | {{ page_title_rendered | xml_escape }}</title>
+  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ page_title_rendered | xml_escape }}" />
+  <meta name="twitter:title" content="{{ site.title | xml_escape }} | {{ page_title_rendered | xml_escape }}">
 {% else %}
-  <title>{{ site.title }} | {{ site.description }}</title>
-  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}" />
-  <meta property="twitter:title" content="{{ site.title | xml_escape }} | {{ site.title | xml_escape }}" />
+  {% capture site_title_rendered %}{% t meta.home.description %}{% endcapture %}
+  <title>{{ site.title }} | {{ site_title_rendered | xml_escape }}</title>
+  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ site_title_rendered | xml_escape }}" />
+  <meta property="twitter:title" content="{{ site.title | xml_escape }} | {{ site_title_rendered | xml_escape }}" />
 {% endif %}
 
 <!-- Description -->
 {% if page.description %}
-  <meta name="description" content="{{ page.description | xml_escape }}">
-  <meta property="og:description" content="{{ page.description | xml_escape }}" />
-  <meta property="twitter:description" content="{{ page.description | xml_escape }}" />
+  {% capture page_description_rendered %}{% t page.description %}{% endcapture %}
+  <meta name="description" content="{{ page_description_rendered | xml_escape }}">
+  <meta property="og:description" content="{{ page_description_rendered | xml_escape }}" />
+  <meta property="twitter:description" content="{{ page_description_rendered | xml_escape }}" />
 {% else %}
-  <meta name="description" content="{{ site.description | xml_escape }}">
-  <meta property="og:description" content="{{ site.description | xml_escape }}" />
-  <meta property="twitter:description" content="{{ site.description | xml_escape }}" />
+  {% capture site_description_rendered %}{% t meta.home.description %}{% endcapture %}
+  <meta name="description" content="{{ site_description_rendered | xml_escape }}">
+  <meta property="og:description" content="{{ site_description_rendered | xml_escape }}" />
+  <meta property="twitter:description" content="{{ site_description_rendered | xml_escape }}" />
 {% endif %}
 
 <!-- Image -->
