@@ -20,7 +20,7 @@ collections:
 
 # Scripts
 scripts:
-  - /assets/js/build/bundle.js
+  - /js/build/bundle.js
 
 # Styles
 styles:
