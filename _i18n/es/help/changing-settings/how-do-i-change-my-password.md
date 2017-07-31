@@ -1,3 +1,0 @@
-Para cambiar su contraseña, ingrese a login.gov y vaya a su página de perfil. Si desea cambiar su contraseña, seleccione Editar junto a la contraseña. Ingrese la contraseña nueva y envíe su cambio. Las contraseñas deben tener al menos 8 caracteres, pero de lo contrario no hay restricciones. Usted incluso puede utilizar más de una palabra con espacios para llegar a 8 caracteres.
-
-En su lugar, intente crear una contraseña larga y compleja utilizando una frase o una serie de palabras que sólo usted reconozca. Y por favor, hágalo diferente a cualquier otra contraseña que use para acceder a otras cuentas como su cuenta bancaria o email. El uso de las mismas contraseñas para su email, cuentas financieras y de medios sociales hace que el robo de identidad sea más fácil.

@@ -1,1 +1,0 @@
-login.gov uses your email address and phone number to send important security messages about account activity. We won't use them for any other purposes, and we won't share them with anyone without your express permission.
