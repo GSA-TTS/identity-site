@@ -4,10 +4,9 @@
   "description": "login.gov static site",
   "scripts": {
     "build": "npm run make-dirs && npm run copy && npm run build-css && npm run build-js",
-    "build-federalist": "npm run make-dirs && npm run copy && npm run build-css && npm run build-js-federalist",
+    "build-federalist": "npm run make-dirs && npm run copy && npm run build-css && npm run build-js",
     "build-css": "node-sass --output-style compressed assets/stylesheets/main.scss assets/stylesheets/build/main.css",
-    "build-js": "webpack --config --progress --colors && webpack --config webpack.federalist.config.js --progress --colors",
-    "build-js-federalist": "webpack --config webpack.federalist.config.js --progress --colors",
+    "build-js": "webpack --config --progress --colors",
     "clean": "rm -rf ./assets && rm -rf _sass && rm -f ./*.ico && rm -f ./*.png && rm -f ./*.svg && rm -f ./browserconfig.xml && rm -f ./manifest.json",
     "copy": "npm run copy-img && npm run copy-font && npm run copy-js && npm run copy-css && npm run copy-favicons",
     "copy-img": "cp -r node_modules/identity-style-guide/src/img/* ./assets/img/",
@@ -20,8 +19,7 @@
     "rebuild": "npm run clean && npm run build",
     "start": "npm run build && bundle exec jekyll serve --incremental",
     "watch-guide": "onchange './node_modules/identity-style-guide/src/css/**/*.scss' './node_modules/identity-style-guide/src/js/**/*.js' './node_modules/identity-style-guide/src/img/**/*' -v -- npm run build",
-    "watch-webpack": "webpack -w --progress --colors",
-    "webpack": "webpack --progress --colors"
+    "watch-webpack": "webpack -w --progress --colors"
   },
   "repository": {
     "type": "git",
