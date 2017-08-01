@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+## Small script to get a yaml structured correctly
+## from current i18n help translations
+
+require 'yaml'
+
+help_hash = Hash.new
+
+## Change dir as needed
+Dir["../_i18n/es/help/*"].each do |path|
+  dir = path.split('/').last
+  help_hash[dir] = Hash.new
+  
+  Dir["#{path}/*.md"].each do |file|
+    file_name = file.split('/').last[0..-4]
+    file_content = File.read(file).strip
+    help_hash[dir][file_name] = file_content
+  end
+
+end
+
+puts Hash['help_pages', help_hash].to_yaml
+

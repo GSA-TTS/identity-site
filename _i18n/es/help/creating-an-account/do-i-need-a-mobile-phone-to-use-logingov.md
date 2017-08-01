@@ -1,2 +1,0 @@
-Usted no necesita tener un teléfono móvil para usar login.gov. Usted necesita proporcionar un número de teléfono, ya sea un teléfono fijo o un teléfono móvil, en el que puede recibir códigos de seguridad cada vez que inicie sesión ya sea por mensaje de texto o llamada de teléfono.
-  
