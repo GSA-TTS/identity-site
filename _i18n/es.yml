@@ -73,16 +73,12 @@ index:
       federales sea más fácil y más seguro.
   column_1:
     heading: Servicio compartido
-    content:
-      li_1: Los usuarios necesitan menos contraseñas y menos interfaces para recibir atención de diferentes oficinas del Gobierno.
-      li_2: Los expertos en seguridad protegen un solo servicio en lugar de muchos.
-      li_3: Equipos de expertos se dedican a mejorar el diseño y la seguridad continuamente.
+    p_1: |
+      Los usuarios necesitan menos contraseñas y menos interfaces para recibir atención de diferentes oficinas del Gobierno. Los expertos en seguridad protegen un solo servicio en lugar de muchos. Equipos de expertos se dedican a mejorar el diseño y la seguridad continuamente.
   column_2:
     heading: Conveniencia y eficacia
     p_1: |-
       Esto permite ahorro de tiempo y dinero en el Gobierno, quitando una tarea común que no distraiga la concentración de las agencias en sus funciones principales.
-
-      La plataforma de autenticación compartida permite reducir los costos de mantenimiento de cada agencia y ofrece mayor seguridad para todos.
   column_3:
     heading: Mayor cooperación
     p_1: |-

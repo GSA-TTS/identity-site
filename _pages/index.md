@@ -22,17 +22,7 @@ image: /assets/img/login-gov-600x314.png
         <h2 class="mt2 mb2 pb2 gray border-bottom border-light-blue" markdown="1">
           {% t index.column_1.heading %}
         </h2>
-        <ul class="list-reset teal-dots">
-          <li class="mb1">
-            {% t index.column_1.content.li_1 %}
-          </li>
-          <li class="mb1">
-            {% t index.column_1.content.li_2 %}
-          </li>
-          <li class="mb1">
-            {% t index.column_1.content.li_3 %}
-          </li>
-        </ul>
+        {{ site.translations[site.lang]["index"]["column_1"]["p_1"] | replace: 'site.baseurl', site.baseurl | markdownify }}
       </div>
       <div class="col sm-col-4 px2 sm-mb3 mb2">
         <img alt="" src="{{ site.baseurl }}/assets/img/partners.svg" height="90">
