@@ -63,23 +63,19 @@ index:
     content: |
       login.gov offers the public secure and private online access to participating government programs. With one login.gov account, users can sign in to multiple government agencies. Our goal is to make managing federal benefits, services and applications easier and more secure.
   column_1:
-    heading: Simple *and* secure for the public
-    content:
-      li_1: Users need fewer passwords and learn fewer interfaces.
-      li_2: Security experts protect one service instead of many.
-      li_3: Dedicated teams of design and security experts will continuously improve it.
+    heading: Simple and secure for the public
+    p_1: |
+      Because login.gov is a shared service, users need fewer passwords and learn fewer interfaces. Also, security experts protect one service instead of many. Dedicated teams of design and security experts also will continuously improve it.
   column_2:
     heading: Saving time and <br class="sm-show" />money
     p_1: |
       login.gov handles software development, security operations, and customer support. This frees up government departments to focus on their missions while reducing costs and improving security.
-
-      A shared authentication platform frees up agency resources to deliver great services while reducing costs and improving security.
   column_3:
     heading: Built <br class="sm-show"/>cooperatively
     p_1: |
-      login.gov works hand-in-hand with the private sector and nonprofits to identify and implement best practices and new standards in secure, privacy-protecting authentication.
+      login.gov works with the private sector and nonprofits to identify and implement best practices and new standards.
 
-        Led by the [U.S. Digital Service](https://www.usds.gov){:target="_blank"} and [18F](https://18f.gsa.gov){:target="_blank"}, login.gov builds on groundwork laid by the [National Institute for Standards in Technology](https://www.nist.gov/){:target="_blank"}, the [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, and the [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
+      login.gov builds on groundwork laid by the [National Institute for Standards in Technology](https://www.nist.gov/){:target="_blank"}, the [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, and the [Federal Acquisition Service](href="https://www.gsa.gov/portal/content/105080){:target="_blank"}.
   footer:
     heading: Contact us
     p_1: |
