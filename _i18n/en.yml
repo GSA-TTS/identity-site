@@ -79,7 +79,7 @@ index:
   footer:
     heading: Contact us
     p_1: |
-        Have a question or a problem? Call [844-875-6446](tel:1-844-875-6446) between 8:00 am to 8:00 pm ET, Monday to Friday except federal holidays.
+      Have a question or problem? [Get in touch](site.baseurl/contact).
 policy_page:
   content:
     p_1: |
