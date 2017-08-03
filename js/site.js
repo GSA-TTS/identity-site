@@ -18,17 +18,23 @@ $(function() {
 
   // Language picker
 
-    // Mobile
-    $('#i18n-mobile-toggle').click( function () {
-      $(this).toggleClass('focused');
-      $('#i18n-mobile-dropdown').toggle();
-    });
+  function languagePicker(trigger, dropdown) {
+    trigger.on('click keypress', function (event) {
+      event.preventDefault();
+      var eventType = event.type;
+      if (eventType == 'click' || (eventType == 'keypress' && event.which == 13)) {
+        $(this).parent().toggleClass('focused');
+        dropdown.toggle();
 
-    // Desktop
-    $('#i18n-desktop-toggle').click( function () {
-      $(this).toggleClass('focused');
-      $('#i18n-desktop-dropdown').toggle();
+        $(this).attr('aria-expanded', function (i, attr) {
+            return attr == 'true' ? 'false' : 'true'
+        });
+      }
     });
+  }
+
+  languagePicker($('#i18n-desktop-toggle > a'), $('#i18n-desktop-dropdown'));
+  languagePicker($('#i18n-mobile-toggle > a'), $('#i18n-mobile-dropdown'));
 
   // Dropdown menu
 

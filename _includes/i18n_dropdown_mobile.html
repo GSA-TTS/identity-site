@@ -1,11 +1,11 @@
 {% if site.languages.size > 1 %}
   <div class="sm-hide border-bottom border-blue">
     <div class="container cntnr-wide py1 px2 lg-px0 h5">
-      <div class="center">
-        <span id="i18n-mobile-toggle" class="block text-decoration-none white fs-13p">
-          <img src="{{ site.baseurl }}/assets/img/globe-white.svg" width="12" height="12" class="mr1" alt="">{% t global.language %}
-          <span class="caret inline-block ml-tiny">&#9662;</span>
-        </span>
+      <div id="i18n-mobile-toggle" class="center">
+        <a href="#" class="block text-decoration-none white fs-13p" aria-expanded="false">
+          <img src="{{ site.baseurl }}/assets/img/globe-white.svg" width="12" height="12" class="mr1" alt="" aria-hidden="true">{% t global.language %}
+          <span class="caret inline-block ml-tiny" aria-hidden="true">&#9662;</span>
+        </a>
       </div>
     </div>
   </div>
