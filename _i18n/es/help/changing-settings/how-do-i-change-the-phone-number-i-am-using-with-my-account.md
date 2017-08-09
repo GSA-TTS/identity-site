@@ -1,1 +1,0 @@
-Ingrese a login.gov y vaya a su página de perfil. Para cambiar el número de teléfono donde obtiene su código de seguridad, seleccione Editar junto al número de teléfono e ingrese el número de teléfono nuevo. login.gov le enviará inmediatamente su código de seguridad para confirmar el número de teléfono nuevo.

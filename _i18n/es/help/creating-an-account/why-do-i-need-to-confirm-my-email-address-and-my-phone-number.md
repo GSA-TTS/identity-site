@@ -1,2 +1,0 @@
-Login.gov utiliza su dirección de email y su número de teléfono para enviar mensajes de seguridad importantes acerca de la actividad de la cuenta. No los usaremos para ningún otro propósito y no los compartiremos con nadie sin su permiso expreso.
-  

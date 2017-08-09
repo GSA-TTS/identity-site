@@ -73,16 +73,12 @@ index:
       federales sea más fácil y más seguro.
   column_1:
     heading: Servicio compartido
-    content:
-      li_1: Los usuarios necesitan menos contraseñas y menos interfaces para recibir atención de diferentes oficinas del Gobierno.
-      li_2: Los expertos en seguridad protegen un solo servicio en lugar de muchos.
-      li_3: Equipos de expertos se dedican a mejorar el diseño y la seguridad continuamente.
+    p_1: |
+      Los usuarios necesitan menos contraseñas y menos interfaces para recibir atención de diferentes oficinas del Gobierno. Los expertos en seguridad protegen un solo servicio en lugar de muchos. Equipos de expertos se dedican a mejorar el diseño y la seguridad continuamente.
   column_2:
     heading: Conveniencia y eficacia
     p_1: |-
       Esto permite ahorro de tiempo y dinero en el Gobierno, quitando una tarea común que no distraiga la concentración de las agencias en sus funciones principales.
-
-      La plataforma de autenticación compartida permite reducir los costos de mantenimiento de cada agencia y ofrece mayor seguridad para todos.
   column_3:
     heading: Mayor cooperación
     p_1: |-
@@ -601,3 +597,146 @@ policies:
 
       Vea nuestra [Política de divulgación de vulnerabilidades](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"}
       Para obtener detalles sobre esta política y sobre cómo informar de las vulnerabilidades detectadas.
+help_pages:
+  changing-settings:
+    how-do-i-change-my-email-address: Ingrese a login.gov y vaya a su página de perfil.
+      Para cambiar su email, seleccione Editar al lado del email. Ingrese un email
+      nuevo y envíelo, luego revise su cuenta de email y busque el email de login.gov.
+      Abra el email que le enviamos y haga clic en el enlace adentro. Este enlace
+      lo redireccionará de nuevo a login.gov y así su email nuevo será establecido.
+    how-do-i-change-my-password: |-
+      Para cambiar su contraseña, ingrese a login.gov y vaya a su página de perfil. Si desea cambiar su contraseña, seleccione Editar junto a la contraseña. Ingrese la contraseña nueva y envíe su cambio. Las contraseñas deben tener al menos 8 caracteres, pero de lo contrario no hay restricciones. Usted incluso puede utilizar más de una palabra con espacios para llegar a 8 caracteres.
+
+      En su lugar, intente crear una contraseña larga y compleja utilizando una frase o una serie de palabras que sólo usted reconozca. Y por favor, hágalo diferente a cualquier otra contraseña que use para acceder a otras cuentas como su cuenta bancaria o email. El uso de las mismas contraseñas para su email, cuentas financieras y de medios sociales hace que el robo de identidad sea más fácil.
+    how-do-i-change-the-phone-number-i-am-using-with-my-account: Ingrese a login.gov
+      y vaya a su página de perfil. Para cambiar el número de teléfono donde obtiene
+      su código de seguridad, seleccione Editar junto al número de teléfono e ingrese
+      el número de teléfono nuevo. login.gov le enviará inmediatamente su código de
+      seguridad para confirmar el número de teléfono nuevo.
+  creating-an-account:
+    do-i-need-a-mobile-phone-to-use-logingov: Usted no necesita tener un teléfono
+      móvil para usar login.gov. Usted necesita proporcionar un número de teléfono,
+      ya sea un teléfono fijo o un teléfono móvil, en el que puede recibir códigos
+      de seguridad cada vez que inicie sesión ya sea por mensaje de texto o llamada
+      de teléfono.
+    how-do-i-create-an-account-with-logingov: |-
+      Para crear una cuenta de login.gov, necesitará un email válido y un número de teléfono que funcione. También le pediremos que establezca una contraseña.
+      #### Ingrese su email y confírmelo
+
+      Seleccione "crear una cuenta" e ingrese su email donde se indica. Luego, revise su cuenta de email para encontrar un mensaje de nosotros. Dentro del email hay un enlace. Al hacer clic en el enlace, usted regresará a login.gov con su email confirmado.
+
+      #### Ingrese su contraseña
+
+      Las contraseñas deben tener al menos 8 caracteres, pero de lo contrario no hay restricciones. Incluso puede usar espacios entre palabras para llegar a 8 caracteres.
+
+      #### Ingrese su número de teléfono y confírmelo
+
+      Ingrese un número de teléfono en el que puede recibir llamadas o mensajes de texto. Si tiene un teléfono fijo, solicite un código de seguridad mediante una llamada telefónica. Le enviaremos un código de seguridad de sólo un uso a ese número de teléfono cada vez que inicie sesión en su cuenta. Esto se llama autenticación de dos factores. El segundo paso mantiene su cuenta más segura que si usara sólo una contraseña.
+
+      Cada código de seguridad caduca después de 5 minutos y sólo se puede utilizar una vez. Si no ingresa el código de seguridad en 5 minutos, solicite un código nuevo. Cada código es válido una vez solamente, por lo que nadie puede robar uno que ya ha utilizado.
+
+      Escriba el código de seguridad en el casillero. ¡Eso es! Acaba de dar un paso importante para mantener a su persona y a su Gobierno a salvo. Cada vez que acceda a su cuenta de login.gov, recibirá un nuevo código de seguridad que debe ingresar. Cada vez que inicie sesión, tendrá la opción para obtener un código de seguridad mediante una llamada telefónica o mensaje de texto.
+
+      #### Guarde su clave personal
+
+      Después de crear su cuenta, obtendrá una clave personal, que es un conjunto de 16 caracteres aleatorios. Tome nota de ellos y guarde su clave por separado de su teléfono. Si olvida su contraseña o no tiene su teléfono, puede ingresar la clave personal para acceder a sus servicios o apps.
+    i-didnt-receive-a-confirmation-email-from-logingov: |-
+      Si no recibió un email de confirmación, revise su correo basura. También considere que ha podido escribir su email incorrectamente. Si es así, siempre puede crear otra cuenta con su email correcto.
+
+      - Si ha escrito incorrectamente su email puede crear una cuenta nueva.
+      - Si está seguro de haber ingresado su email correctamente, seleccione "Enviar de nuevo" para obtener un nuevo email de confirmación.
+    what-do-i-do-if-an-account-already-exists-under-my-email-address: |-
+      El primer paso para crear una cuenta de login.gov es confirmar el acceso a un email. Si recibió una notificación de que ya existe una cuenta de login.gov asociada a su email, pero usted no recuerda haberla creado, use su email para iniciar sesión y siga el proceso para restablecer su contraseña.
+
+      Por favor, notifique a login.gov si está seguro de que no creó una cuenta y considera que otra persona está usando su email.
+    what-is-two-factor-authentication: Login.gov utiliza la autenticación de dos factores
+      para mantener las cuentas seguras. Tal como lo indica su nombre, la autenticación
+      de dos factores (a veces llamado 2FA) requiere dos métodos diferentes para iniciar
+      sesión en una cuenta. Por lo general, esto significa ingresar una contraseña
+      memorizada y un código de sólo un uso que es enviado a un dispositivo (como
+      un teléfono) que usted posee. El requerimiento de dos métodos hace que la entrada
+      forzada a su cuenta sea mucho más difícil.
+    why-didnt-i-receive-a-security-code-to-confirm-my-phone: |-
+      Si no recibió un código de seguridad, revise si ingresó correctamente su número de teléfono.
+
+      - ¿Ingresó un número de teléfono equivocado? Busque la opción para volver a ingresarlo.
+      - Si es el número correcto, solicite el código nuevamente. Recíbalo por mensaje de texto o por llamada telefónica, sea un teléfono fijo o móvil.
+    why-do-i-need-to-confirm-my-email-address-and-my-phone-number: Login.gov utiliza
+      su dirección de email y su número de teléfono para enviar mensajes de seguridad
+      importantes acerca de la actividad de la cuenta. No los usaremos para ningún
+      otro propósito y no los compartiremos con nadie sin su permiso expreso.
+    why-do-i-need-to-use-logingov-to-access-government-services-online: |-
+      Las agencias del Gobierno deciden por sí mismas cómo quieren interactuar con el público. Usted fue enviado a login.gov porque el servicio o programa que desea utilizar ha optado por aprovechar la eficiencia y la seguridad de login.gov como una plataforma tecnológica compartida. Una vez que haya terminado en login.gov, será dirigido de regreso a la agencia.
+
+      Esperamos que login.gov sea una opción conveniente y segura para usted. Sin embargo, si prefiere no utilizar login.gov, siempre podrá acceder a los servicios gubernamentales. Encontrará más información en su agencia.
+  privacy-and-security:
+    can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
+      Si guardó accidentalmente su contraseña de login.gov o cualquier otra información de acceso en su navegador, sería una buena idea borrarla del navegador. Eso lo ayudará a mantener su cuenta más segura. De la siguiente lista, seleccione el navegador (programa de computadora que usa para acceder al internet) que usa para aprender cómo borrar cualquier información guardada (los enlaces están en inglés):
+
+      - [Chrome](https://support.google.com/chrome/answer/95606){:target="_blank"}
+      - [Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-change-passwords#w_viewing-and-deleting-passwords){:target="_blank"}
+      - [Internet Explorer](https://support.microsoft.com/en-us/help/17499/windows-internet-explorer-11-remember-passwords-fill-out-web-forms#ie=ie-11){:target="_blank"}
+      - [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank"}
+
+      Cada vez que esté en línea, recuerde revisar la barra de dirección (URL) de cualquier página web que esté visitando para asegurarse de que puede confiar en ellos, especialmente en cualquier página que le pida compartir un nombre de usuario y una contraseña. Tenga cuidado al compartir información personal como sus credenciales de acceso, información financiera o número de Seguro Social por email.
+    how-do-i-make-my-password-strong: |-
+      Su contraseña debe tener un mínimo de 8 caracteres. Intente usar varias palabras y espacios para crear una frase que pueda recordar. Las contraseñas más largas con muchas palabras son más seguras que las contraseñas cortas con caracteres especiales.
+
+      Al crear una contraseña, también trate de evitar el uso de jerga, errores ortográficos comunes y palabras deletreadas al revés. Además, evite usar el nombre de su empresa, cónyuge o hijos, incluso su mascota, y cualquier otra información personal como su edad o fecha de nacimiento.
+
+      Si ya ha iniciado sesión y está intentando cambiar su contraseña, email o teléfono, se le pedirá que ingrese su contraseña actual antes de poder realizar los cambios.
+
+      Sin embargo, si repetidamente ingresa una contraseña incorrecta, es muy probable que se deba a que una persona malintencionada se está apoderando de su máquina que dejó desatendida. En ese caso y por su seguridad, lo desconectamos después de tres intentos fallidos.
+    how-does-logingov-protect-my-data: |-
+      Login.gov respeta su privacidad. Nosotros recopilamos datos personales en línea solamente para ayudarlo a ejecutar sus solicitudes con agencias federales asociadas con nosotros. login.gov gestiona partes específicas de la página web de esa agencia para que podamos recopilar datos personales con el fin de proporcionar una plataforma segura y privada para que usted pueda acceder a ciertos servicios del Gobierno. Estamos sujetos a nuestra política de privacidad. Login.gov no alquila, vende o divulga su información personal a empresas privadas, contratistas o vendedores con fines de mercadeo.
+
+      Login.gov tiene enlaces a sitios externos del Gobierno federal para los servicios proporcionados por esas agencias. Esos sitios están sujetos a su propia política de privacidad, que suele estar explicada en la política de privacidad y descargo de responsabilidad legal disponible en su sitio web.
+
+      Las cuentas individuales obtienen dos niveles de seguridad. Requerimos la autenticación de dos factores, así como contraseñas seguras que cumplan con los nuevos requisitos de validación y verificación seguras [Instituto Nacional de Estándares de Tecnología](https://www.nist.gov/){:target="_blank"}. Esto incluye la autenticación de dos factores que requiere que inicie sesión con su contraseña y un código de seguridad que usted recibe en su teléfono. La autenticación de dos factores puede ayudar a proteger su cuenta contra contraseñas comprometidas.
+
+      Su información permanecerá segura. Para obtener más información, lea nuestra [política de seguridad y privacidad](site.baseurl/policy).
+    will-logingov-share-my-information: Login.gov no puede compartir ninguna información
+      con otras agencias del Gobierno sin el permiso del usuario. Ni siquiera los
+      administradores de login.gov pueden descifrar o acceder a la información personal
+      de un usuario sin la contraseña del usuario.
+  signing-in:
+    i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: |-
+      Si no tiene su teléfono o su clave personal, es posible que deba crear una cuenta nueva y volver a verificar su información personal. Para crear una cuenta nueva, deberá usar un email diferente al que utilizó cuando creó su primera cuenta. Para asuntos urgentes —por ejemplo, para verificar el estado de una solicitud en curso— comuníquese directamente con la agencia del Gobierno.
+
+      Otra opción es tratar de iniciar sesión luego cuando tenga su teléfono cerca.
+    i-forgot-which-email-address-i-used-to-create-an-account: |-
+      Si no puede recordar el email que utilizó para crear su cuenta, puede utilizar la función para restablecer la contraseña y ver si su email está en el archivo.
+
+      Intente iniciar una sesión como de costumbre y solicite restablecer su contraseña. Luego, ingrese el email que cree que utilizó para crear su cuenta. Si tenemos su email en nuestros registros, le enviaremos instrucciones para restablecer su contraseña. Revise su email en unos minutos para obtener estas instrucciones.
+    if-i-dont-have-my-phone-with-me-can-i-still-sign-in: |-
+      Es necesario tener su teléfono con el fin de obtener la clave de seguridad para iniciar sesión. Pero si no tiene su teléfono con usted, necesitará la clave personal que recibió cuando creó su cuenta. Ingrese la clave personal cuando se le indique y seleccione enviar. Una vez que haya iniciado sesión, inmediatamente obtendrá una nueva clave personal. Por favor, guarde la clave personal en un lugar seguro por separado de su teléfono, ya que la clave personal le permitirá iniciar sesión en su cuenta en caso de que no tenga su teléfono con usted.
+
+      Le recomendamos que guarde su clave personal en otro lugar que no sea su computadora o dispositivo móvil. De esta forma, podrá acceder a su clave personal incluso si le roban su dispositivo o si la seguridad de sus cuentas en línea ha sido comprometida.
+    what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: |-
+      Si no sabe su contraseña, el enlace para restablecerla se encuentra en la página de inicio de sesión. Ingrese su email para recibir un enlace para restablecer su contraseña. Una vez que siga el enlace, se le pedirá que ingrese una contraseña nueva. Reconfirme que tiene su teléfono (el que utilizará para recibir los códigos de sólo un uso para obtener acceso).
+
+
+      Una vez que haya iniciado sesión en login.gov después de restablecer su contraseña, login.gov le proporcionará una clave personal. La clave personal se utilizará en caso de que olvide su contraseña o no tenga su teléfono consigo. Anótelo y guárdelo por separado del teléfono.
+    what-do-i-need-to-have-in-order-to-sign-in: Cada vez que inicie una sesión en
+      su cuenta, necesitará su email, su contraseña y acceso a su teléfono. Después
+      de haber ingresado su email y contraseña, login.gov enviará a su teléfono un
+      código de seguridad que deberá ingresar en el casillero de código de seguridad
+      para poder iniciar la sesión de forma segura.
+    what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Cada
+      vez que inicie una sesión deberá ingresar un código de seguridad que se envía
+      a su teléfono, ya sea por mensaje de texto o por llamada telefónica. El código
+      de seguridad que recibe expira después de cinco minutos y sólo se puede utilizar
+      una vez. Si no puede ingresar el código de seguridad dentro de los cinco minutos
+      o no pudo contestar la llamada telefónica, solicite un nuevo código de seguridad.
+      Cada código de seguridad es válido sólo una vez, por lo que nadie puede robar
+      uno que haya utilizado. Limitamos las solicitudes a tres códigos cada 15 minutos,
+      pero de lo contrario puede solicitar tantos códigos como necesite.
+    what-is-an-authenticator-app: Una app de seguridad móvil que genera códigos de
+      seguridad para iniciar sesión. Puede utilizar la app para obtener códigos aunque
+      no tenga una conexión a internet o un servicio móvil.
+    why-does-the-system-log-me-out: "Cuando un usuario ya ha iniciado sesión y desea
+      cambiar su email, contraseña o número de teléfono, debe ingresar primero su
+      contraseña actual. Después de tres intentos incorrectos, el usuario es desconectado.
+      \n\nEl sistema también lo desconecta después de tres intentos si ingresa incorrectamente
+      el código de seguridad que recibe en su teléfono. Los intentos fallidos se limitan
+      a tres por sesión, seguido de un bloqueo de cinco minutos."

@@ -1,1 +1,0 @@
-Cada vez que inicie una sesión en su cuenta, necesitará su email, su contraseña y acceso a su teléfono. Después de haber ingresado su email y contraseña, login.gov enviará a su teléfono un código de seguridad que deberá ingresar en el casillero de código de seguridad para poder iniciar la sesión de forma segura.
