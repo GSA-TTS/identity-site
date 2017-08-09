@@ -48,10 +48,8 @@
   "main": "webpack.config.js",
   "keywords": [],
   "dependencies": {
-    "basscss-sass": "^3.0.0",
-    "identity-style-guide": "^0.2.3",
+    "identity-style-guide": "^0.2.4",
     "node-sass": "^3.7.0",
-    "normalize.css": "^4.2.0",
     "webpack": "^1.13.2"
   }
 }
