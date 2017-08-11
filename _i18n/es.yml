@@ -74,7 +74,7 @@ index:
   column_1:
     heading: Servicio compartido
     p_1: |
-      Los usuarios necesitan menos contraseñas y menos interfaces para recibir atención de diferentes oficinas del Gobierno. Los expertos en seguridad protegen un solo servicio en lugar de muchos. Equipos de expertos se dedican a mejorar el diseño y la seguridad continuamente.
+      Debido a que login.gov es un servicio compartido, los usuarios necesitan menos contraseñas y menos interfaces que aprender. Además, los expertos en seguridad protegen un solo servicio en lugar de muchos. Los equipos de expertos se dedican a mejorar el diseño y la seguridad continuamente.
   column_2:
     heading: Conveniencia y eficacia
     p_1: |-
@@ -82,9 +82,9 @@ index:
   column_3:
     heading: Mayor cooperación
     p_1: |-
-      Login.gov cultiva una estrecha relación con el sector privado y organizaciones sin fines de lucro para identificar e implementar conjuntamente las mejores prácticas y nuevos estándares en sistemas de autenticación seguros que protegen la privacidad.
+      login.gov trabaja con el sector privado y organizaciones sin fines de lucro para identificar e implementar las mejores prácticas y nuevos estándares.
 
-      Dirigido por el [Servicio Digital de EE. UU. (en inglés)](https://www.usds.gov){:target="_blank"} y [18F (en inglés)](https://18f.gsa.gov){:target="_blank"}, login.gov construye sobre las bases establecidas por el [Instituto Nacional de Estándares en Tecnología (en inglés)](http://www.nist.gov/){:target="_blank"}, el [Plan Nacional de Acción de Seguridad Cibernética (en inglés)](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, y el [Servicio Federal de Adquisición (en inglés)](http://www.gsa.gov/portal/content/105080){:target="_blank"}.
+      login.gov construye sobre las bases establecidas por el Instituto [Nacional de Estándares en Tecnología (en inglés)](https://www.nist.gov/){:target="_blank"}, el [Plan Nacional de Acción de Seguridad Cibernética (en inglés)](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, y el [Servicio Federal de Adquisición (en inglés)](href="https://www.gsa.gov/portal/content/105080){:target="_blank"}.
   footer:
     heading: Aprenda más
     p_1: '¿Tiene alguna pregunta o problema? [Contáctenos](site.baseurl/contact).'
@@ -144,9 +144,28 @@ security_page:
       ayuda](site.baseurl/help) o [contáctenos](site.baseurl/contact). También
       puede visitar nuestro [repositorio de código abierto](https://github.com/18F/identity-idp){:target="_blank"}.'
 contact_page:
-  content: 'Primero, vea las respuestas a [preguntas comunes](site.baseurl/help/).
-    ¿Todavía tiene una pregunta o un problema con la plataforma? Contáctenos a [login-contact@gsa.gov](mailto:
-    login-contact@gsa.gov).'
+  content: |
+    ## Encuentre ayuda para usar login.gov
+
+    Revise las respuestas a las [preguntas comunes](site.baseurl/ayuda) primero. ¿Aún tiene alguna pregunta o problema? Llámenos a la línea telefónica gratuita 844-875-6446 para recibir más respuestas o para hablar con un operador.
+
+    Los operadores están disponibles entre las 8:00 AM y las 8:00 PM (hora del Este) de lunes a viernes, excepto feriados federales.
+
+    ## Asóciese con login.gov
+
+    Si usted es una agencia gubernamental interesada en asociarse con login.gov, por favor contáctenos por email, [partners@login.gov](mailto:partners@login.gov).
+
+    ## Reporte un error
+
+    Visite nuestro [repositorio de Identidad-IDP (en inglés)](https://github.com/18F/identity-idp){:target="_blank"} para crear un ticket e informarnos sobre un error.
+
+    ## Infórmenos sobre un problema de seguridad
+
+    Si es un investigador de seguridad que desea informar sobre una vulnerabilidad, revise nuestra [política de divulgación de vulnerabilidad (en inglés)](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} y póngase en contacto con nosotros por email, [security@login.gov](mailto:security@login.gov).
+
+    ## ¿Otras preguntas?
+
+    ¿Tiene algo más que quiera decirnos? Escríbanos a [hello@login.gov](mailto:hello@login.gov).
 developers_page:
   intro:
     heading: Fácil integración y flexibilidad
