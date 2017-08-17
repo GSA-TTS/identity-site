@@ -7,6 +7,8 @@ canonical_domain: www.login.gov
 languages:
   - en
   - es
+  - fr
+
 exclude_from_localizations: ["javascript", "images", "css"]
 
 # Pages
