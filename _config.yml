@@ -6,7 +6,9 @@ canonical_domain: www.login.gov
 # i18n
 languages:
   - en
-  # - es # disabled in production for now
+  - es
+  - fr
+
 exclude_from_localizations: ["javascript", "images", "css"]
 
 # Pages

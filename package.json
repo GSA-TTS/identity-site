@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npm run make-dirs && npm run copy && npm run build-css && npm run build-js",
     "build-federalist": "npm run make-dirs && npm run copy && npm run build-css && npm run build-js",
-    "build-css": "node-sass --output-style compressed assets/stylesheets/main.scss assets/stylesheets/build/main.css",
+    "build-css": "node-sass --output-style compressed assets/stylesheets/static.scss assets/stylesheets/build/main.css",
     "build-js": "webpack --config --progress --colors",
     "clean": "rm -rf ./assets && rm -rf _sass && rm -f ./*.ico && rm -f ./*.png && rm -f ./*.svg && rm -f ./browserconfig.xml && rm -f ./manifest.json",
     "copy": "npm run copy-img && npm run copy-font && npm run copy-js && npm run copy-css && npm run copy-favicons",
@@ -48,10 +48,8 @@
   "main": "webpack.config.js",
   "keywords": [],
   "dependencies": {
-    "basscss-sass": "^3.0.0",
-    "identity-style-guide": "^0.2.3",
+    "identity-style-guide": "0.2.6",
     "node-sass": "^3.7.0",
-    "normalize.css": "^4.2.0",
     "webpack": "^1.13.2"
   }
 }

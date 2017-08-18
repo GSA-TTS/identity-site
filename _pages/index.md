@@ -47,7 +47,7 @@ image: /assets/img/login-gov-600x314.png
     <h3 class="inline align-middle">{% t index.footer.heading %}</h3>
     <span class="inline-block sm-px1 h1 blue align-middle line-height-1">▸</span>
     <p class="m0 fs-20p inline align-middle" markdown="1">
-      {% t index.footer.p_1 %}
+      {{ site.translations[site.lang]["index"]["footer"]["p_1"] | replace: 'site.baseurl', site.baseurl }}
     </p>
   </div>
 </div>
