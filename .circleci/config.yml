@@ -1,0 +1,39 @@
+# Ruby CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-ruby/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      # Specify the Ruby version you desire here
+      - image: circleci/ruby:2.3.4-node
+        environment:
+          RAILS_ENV: test
+
+    working_directory: ~/identity-site
+
+    steps:
+      - checkout
+
+      - run:
+          name: update-npm
+          command: |
+            node --version
+
+      - run:
+          name: Install dependencies
+          command: |
+            gem install bundler
+            bundle install --jobs=4 --retry=3 --without development --path vendor/bundle
+
+      - run:
+          name: Test Setup
+          command: |
+            make clean
+            make setup
+
+      - run:
+          name: Run Tests
+          command: |
+            make test
