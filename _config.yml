@@ -22,7 +22,7 @@ collections:
 
 # Scripts
 scripts:
-  - /js/build/bundle.js
+  - /assets/js/build/bundle.js
 
 # Styles
 styles:
@@ -49,9 +49,14 @@ exclude:
   - Makefile*
   - node_modules
   - package.json
+  - scripts
   - spec
   - webpack.config.js
   - vendor
+
+keep_files:
+  - /assets/js/build/*
+  - /assets/stylesheets/build/*
 
 gems:
   - jekyll-redirect-from

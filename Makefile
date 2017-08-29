@@ -2,19 +2,16 @@ run:
 	make -f Makefile.server -j4 run
 
 clean:
-	rm -rf _site && npm run clean
+	rm -rf _site
 
-node_modules/.touch: package.json
-	npm install
-	touch node_modules/.touch
-
-setup: node_modules/.touch
+setup:
 	bundle check || bundle install
+	npm install
 
 test: build
 	bundle exec rspec spec
 
 build:
-	npm run build && bundle exec jekyll build
-
-.PHONY: setup
+	npm run build-css
+	npm run build-js
+	bundle exec jekyll build
