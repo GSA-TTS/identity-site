@@ -1,0 +1,32 @@
+ul a {
+  text-decoration: none;
+}
+
+.teal-dots {
+  li {
+    padding-left: 1rem;
+    text-indent: -1.3rem;
+
+    &::before {
+      color: $teal;
+      content: '•';
+      font-size: 2rem;
+      line-height: 1.5rem;
+      padding-right: .5rem;
+      vertical-align: -3px;
+    }
+  }
+}
+
+.list-arrow{
+  a {
+    background: url('../../img/ico-arrow.svg') no-repeat right 6px;
+    background-size: .75rem .75rem;
+    padding-right: 1.25rem;
+  }
+}
+
+.list-checked li {
+  background: url('../../img/ico-checked.svg') no-repeat left 4px;
+  background-size: 1rem;
+}
