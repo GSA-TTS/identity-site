@@ -9,26 +9,37 @@ meta:
   contact:
     title: Contact
   contact_us:
+    description: Vous avez une question ou un problème concernant login.gov?
     title: Nous joindre
   developers:
     title: Développeurs
   help:
+    description: Trouvez des réponses aux questions fréquentes concernant login.gov.
     title: Aide
   home:
+    description: Un accès simple et sécuritaire aux services en ligne du gouvernement.
     title: Accueil
   implementation:
+    description: Déterminez si votre agence ou votre organisme a besoin d'un système de gestion
+      de l'identité des utilisateurs.
     title: Mise en œuvre
   not_found:
     title: '404'
   principles:
+    description: Explorez les principes qui nous ont permis de concevoir le meilleur système possible.
     title: Principes
   privacy_and_security:
+    description: Découvrez nos pratiques de sécurité et de confidentialité.
     title: Confidentialité et sécurité
   privacy_policy:
     title: Politique de confidentialité
   playbook:
+    description: Aider les développeurs et les technologues des agences gouvernementales
+      à mettre en place des systèmes de gestion de l'identité des utilisateurs pratiques,
+      sécuritaires et respectueux de la vie privée.
     title: Guide de mise en œuvre relatif à l'identité
   security:
+    description: Découvrez comment login.gov protège la confidentialité des renseignements personnels.
     title: Sécurité
 banner:
   text: Un site web officiel du gouvernement des États-Unis
@@ -78,10 +89,8 @@ index:
 
         Dirigé par le [U.S. Digital Service](https://www.usds.gov){:target="_blank"} et [18F](https://18f.gsa.gov){:target="_blank"}, login.gov est bâti sur les bases établies par le [National Institute for Standards in Technology](https://www.nist.gov/){:target="_blank"}, le [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"} et le [Federal Acquisition Service](href="https://www.gsa.gov/portal/content/105080){:target="_blank"}.
   footer:
-    heading: Nous joindre
-    p_1: 'Vous avez une question ou un problème? Appelez au [844-875-6446](tél. :
-      1-844-875-6446) entre 8 h et 20 h HE, du lundi au vendredi, sauf les jours fériés
-      fédéraux.'
+    heading: Pour nous joindre
+    p_1: Vous avez une question ou un problème? [Communiquez avec nous](site.baseurl/contact).
 policy_page:
   content:
     p_1: |-
@@ -139,11 +148,28 @@ security_page:
       ou [contact us](site.baseurl/contact). Vous pouvez aussi visiter notre [référentiel
       à code source ouvert](https://github.com/18F/identity-idp){:target="_blank"}.
 contact_page:
-  content: Consultez d'abord les réponses aux [questions fréquentes](site.baseurl/help/).
-    Si par la suite vous avez toujours une question ou un problème? Appelez au 844-875-6446
-    sans frais pour obtenir plus de réponses et pour parler avec un spécialiste de
-    l'information. Les spécialistes de l'information sont disponibles entre 8 h et
-    20 h HE, du lundi au vendredi, sauf les jours fériés fédéraux.
+  content:  |-
+    ## Assistance à l'utilisation de login.gov
+
+    Consultez d'abord les réponses aux [questions fréquentes](site.baseurl/help). Si votre question demeure sans réponse ou votre problème n'est pas résolu, appelez sans frais au <span class="bold nowrap">1&nbsp;844&nbsp;875-6446</span> pour parler à un spécialiste du renseignement qui saura vous éclairer.
+
+    Les spécialistes du renseignement sont disponibles de 8&nbsp;h à 20&nbsp;h, heure de l'Est, du lundi au vendredi à l'exception des jours fériés.
+
+    ## Partenariats avec login.gov
+
+    Si vous représentez une agence gouvernementale désirant s'associer à login.gov, veuillez nous écrire à [partners@login.gov](mailto:partners@login.gov).
+
+    ## Signaler un bogue
+
+    Veuillez visiter notre [dépôt identity-idp](https://github.com/18F/identity-idp){:target="_blank"} pour créer une question et signaler un bogue.
+
+    ## Signaler un problème de sécurité
+
+    Si vous êtes un chercheur ou une chercheuse en sécurité désirant signaler une vulnérabilité, veuillez consulter notre [politique de divulgation des vulnérabilités](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} et nous écrire à [security@login.gov](mailto:security@login.gov).
+
+    ## D'autres questions?
+
+    Si vous désirez vous entretenir avec nous pour toute autre raison, écrivez-nous à [hello@login.gov](mailto:hello@login.gov).
 developers_page:
   intro:
     heading: Intégration facile et flexibilité
