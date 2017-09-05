@@ -9,26 +9,36 @@ meta:
   contact:
     title: Contact
   contact_us:
+    description: Have a question or a problem with login.gov?
     title: Nous joindre
   developers:
     title: Développeurs
   help:
+    description: Get answers to common questions about login.gov.
     title: Aide
   home:
+    description: Simple, secure access to government services online
     title: Accueil
   implementation:
+    description: Determine whether your agency or organization needs a consumer identity
+      management system.
     title: Mise en œuvre
   not_found:
     title: '404'
   principles:
+    description: Explore the principles that have helped us make the best system possible.
     title: Principes
   privacy_and_security:
+    description: Learn more about our security and privacy practices.
     title: Confidentialité et sécurité
   privacy_policy:
     title: Politique de confidentialité
   playbook:
+    description: Helping developers and technologists in government agencies build
+      usable, secure, and privacy-protecting consumer identity management systems.
     title: Guide de mise en œuvre relatif à l'identité
   security:
+    description: Learn how login.gov keeps personal information private.
     title: Sécurité
 banner:
   text: Un site web officiel du gouvernement des États-Unis
