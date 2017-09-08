@@ -156,6 +156,13 @@ security_page:
       us](site.baseurl/contact). You can also visit our [open-source repository](https://github.com/18F/identity-idp){:target="_blank"}.
 contact_page:
   content: |-
+    ## ADVISORY
+    
+    As of 2 p.m. Saturday, Sept 9, the login.gov Customer Service Support Line will be closed because our call center will be impacted by Hurricane Irma. If you have an emergency, please dial 911.
+    If you need the help of an information specialist, please call again later next week. We apologize for the inconvenience, but at this time we are uncertain when information specialists will be available.
+    However, we invite you to visit our [Help page](site.baseurl/help) on this website for answers to common questions or you may reach out to the login.gov team at [hello@login.gov] (mailto:hello@login.gov).
+    
+    
     ## Find help using login.gov
 
     First, check out answers to [common questions](site.baseurl/help). Still have a question or a problem? Call <span class="bold nowrap">844-875-6446</span> toll-free for more answers and to speak with an information specialist.
