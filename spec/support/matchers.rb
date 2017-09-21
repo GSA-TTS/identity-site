@@ -1,3 +1,5 @@
+require 'uri'
+
 RSpec::Matchers.define :open_external_links_in_new_window do
   missing_target_blank = []
 
@@ -82,5 +84,31 @@ RSpec::Matchers.define :properly_escape_html do
 
   failure_message do |actual|
     "expected that #{actual.url} would not have escaped html tags, but found:\n#{escaped_html_tags.join("\n")}"
+  end
+end
+
+RSpec::Matchers.define :link_to_valid_urls do
+  bad_urls = []
+
+  match do |actual|
+    doc = actual
+
+    doc.css('a').each do |a|
+      href = a[:href]
+
+      next if href == '#'
+
+      begin
+        URI(href)
+      rescue URI::InvalidURIError
+        bad_urls << href
+      end
+    end
+
+    expect(bad_urls).to be_empty
+  end
+
+  failure_message do |actual|
+    "expected that #{actual.url} would link to valid URLs, but found:\n#{bad_urls.join("\n")}"
   end
 end
