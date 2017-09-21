@@ -31,9 +31,9 @@ $sm-h1: 2rem !default;
 $sm-h2: 1.5rem !default;
 $sm-h3: 1.125rem !default;
 $sm-h4: 1rem !default;
-$sm-h5: .875rem !default;
-$sm-h6: .8125rem !default;
-$sm-es: .74249rem !default;
+$sm-h5: 0.875rem !default;
+$sm-h6: 0.8125rem !default;
+$sm-lang: 0.72rem !default;
 
 $space-tiny: .25rem !default;
 
@@ -101,7 +101,7 @@ $breakpoint-lg: '(min-width: 64em)' !default;
 $breakpoint-xl: '(min-width: 96em)' !default;
 $breakpoint-sm-md: '(min-width: 40em) and (max-width: 52em)' !default;
 $breakpoint-md-lg: '(min-width: 52em) and (max-width: 64em)' !default;
-$breakpoint-es: '(min-width: 736px) and (max-width: 775px)' !default;
+$breakpoint-lang: '(min-width: 736px) and (max-width: 775px)' !default;
 
 $container-width: 780px !default;
 $container-skinny-width: 620px !default;

@@ -5,10 +5,10 @@
 
 <nav class="sm-flex flex-center z2 {{ site.lang }}-nav">
   <ul class="list-reset m0 sm-mt1">
-    <li class="sm-mr3">
+    <li class="sm-mr3 lang-nav-item">
       <a href="{{ '/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/' %}active{% endif %}">{% t nav.home %}</a>
     </li>
-    <li class="sm-mr3 dropdown">
+    <li class="sm-mr3 lang-nav-item dropdown">
       <a href="{{ '/playbook/' | relative_url }}" class="blue caps text-decoration-none {% if page.url contains '/playbook/' %}active{% endif %}">{% t nav.playbook %}<span class="dropdown-arrow"> &#9662;</span></a>
         <ul class="sm-show">
           <li><a href="{{ '/playbook/' | relative_url }}">{% t nav.overview %}</a></li>
@@ -17,13 +17,13 @@
         </ul>
       </li>
     </li>
-    <li class="sm-mr3">
+    <li class="sm-mr3 lang-nav-item">
       <a href="{{ '/security/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/security/' %}active{% endif %}">{% t nav.security %}</a>
     </li>
-    <li class="sm-mr3">
+    <li class="sm-mr3 lang-nav-item">
       <a href="{{ '/developers/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/developers/' %}active{% endif %}">{% t nav.developers %}</a>
     </li>
-    <li class="sm-mr2 md-mr3 dropdown">
+    <li class="sm-mr3 lang-nav-item dropdown">
       <a href="{{ '/help/' | relative_url }}" class="blue caps text-decoration-none {% if page.url contains '/help/' %}active{% endif %}">{% t nav.help %}<span class="dropdown-arrow"> &#9662;</span></a>
       <ul class="sm-show dropdown-min-width">
         <li><a href="{{ '/help/' | relative_url }}">{% t nav.overview %}</a></li>
