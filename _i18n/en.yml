@@ -158,7 +158,7 @@ contact_page:
   content: |-
     We’re experiencing extremely high volumes due to the Trusted Traveler Program launch today. Thank you for your patience as we work to improve our system performance.
 
-    For questions about the Trusted Traveler Program, Global Entry, GOES, Sentri, or Nexus), please contact CBP at [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask)
+    For questions about the Trusted Traveler Programs (Global Entry, GOES, Sentri, or Nexus), please contact CBP at [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}
 
     For questions about creating an account or signing in with login.gov, look for answers to [common questions](site.baseurl/help). For other questions, please contact us [hello@login.gov](mailto:hello@login.gov). Please keep in mind that we’re experiencing a heavy volume of requests so it might take us several days to get back to you.
 developers_page:
