@@ -156,27 +156,15 @@ security_page:
       us](site.baseurl/contact). You can also visit our [open-source repository](https://github.com/18F/identity-idp){:target="_blank"}.
 contact_page:
   content: |-
-    ## Find help using login.gov
+    We’re experiencing extremely high traffic due to the Trusted Traveler Program launch today. Thank you for your patience as we work to improve our system performance.
 
-    First, check out answers to [common questions](site.baseurl/help). Still have a question or a problem? Call <span class="bold nowrap">844-875-6446</span> toll-free for more answers and to speak with an information specialist.
+    **Note for Trusted Traveler Program users:** To sign into the Trusted Traveler Program website, you must create a new login.gov account. login.gov does not have access to old GOES username, userID, or password and will not automatically recognize your email address. Only your newly created login.gov username and password will allow you to sign in.
 
-    Information specialists are available between 8:00 a.m. to 8:00 p.m. ET, Monday to Friday, except federal holidays.
+    login.gov does not manage nor impact any of your existing membership, payments, appointments, or application status and is unable to respond to any questions about them.
 
-    ## Partner with login.gov
+    For questions about the Trusted Traveler Programs (Global Entry, GOES, Sentri, or Nexus), please contact CBP at [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}
 
-    If you’re a government agency interested in partnering with login.gov, please contact us at [partners@login.gov](mailto:partners@login.gov).
-
-    ## Report a bug
-
-    Please visit our [identity-idp repository](https://github.com/18F/identity-idp){:target="_blank"} to open an issue to report a bug.
-
-    ## Report a security issue
-
-    If you’re a security researcher looking to report a vulnerability, please review our [vulnerability disclosure policy](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} and contact us at [security@login.gov](mailto:security@login.gov).
-
-    ## Other questions?
-
-    Something else you want to talk about? Reach us at [hello@login.gov](mailto:hello@login.gov).
+    For questions about creating an account or signing in with login.gov, look for answers to [common questions](site.baseurl/help). For other questions, please contact us [hello@login.gov](mailto:hello@login.gov). Please keep in mind that we’re experiencing a heavy volume of requests so it might take us several days to get back to you.
 developers_page:
   intro:
     heading: Easy integration and flexibility

@@ -149,27 +149,7 @@ security_page:
       à code source ouvert](https://github.com/18F/identity-idp){:target="_blank"}.
 contact_page:
   content:  |-
-    ## Assistance à l'utilisation de login.gov
-
-    Consultez d'abord les réponses aux [questions fréquentes](site.baseurl/help). Si votre question demeure sans réponse ou votre problème n'est pas résolu, appelez sans frais au <span class="bold nowrap">1&nbsp;844&nbsp;875-6446</span> pour parler à un spécialiste du renseignement qui saura vous éclairer.
-
-    Les spécialistes du renseignement sont disponibles de 8&nbsp;h à 20&nbsp;h, heure de l'Est, du lundi au vendredi à l'exception des jours fériés.
-
-    ## Partenariats avec login.gov
-
-    Si vous représentez une agence gouvernementale désirant s'associer à login.gov, veuillez nous écrire à [partners@login.gov](mailto:partners@login.gov).
-
-    ## Signaler un bogue
-
-    Veuillez visiter notre [dépôt identity-idp](https://github.com/18F/identity-idp){:target="_blank"} pour créer une question et signaler un bogue.
-
-    ## Signaler un problème de sécurité
-
-    Si vous êtes un chercheur ou une chercheuse en sécurité désirant signaler une vulnérabilité, veuillez consulter notre [politique de divulgation des vulnérabilités](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} et nous écrire à [security@login.gov](mailto:security@login.gov).
-
-    ## D'autres questions?
-
-    Si vous désirez vous entretenir avec nous pour toute autre raison, écrivez-nous à [hello@login.gov](mailto:hello@login.gov).
+    Nous connaissons des volumes extrêmement élevés en raison du lancement du programme Trusted Traveler aujourd’hui. Nous vous remercions de votre patience car nous travaillons à améliorer les performances de notre système.
 developers_page:
   intro:
     heading: Intégration facile et flexibilité
