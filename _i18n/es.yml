@@ -140,27 +140,7 @@ security_page:
       visitar nuestro [repositorio de código abierto](https://github.com/18F/identity-idp){:target="_blank"}.
 contact_page:
   content: |-
-    ## Encuentre ayuda para usar login.gov
-
-    Revise las respuestas a las [preguntas comunes](site.baseurl/ayuda) primero. ¿Aún tiene alguna pregunta o problema? Llámenos a la línea telefónica gratuita 844-875-6446 para recibir más respuestas o para hablar con un operador.
-
-    Los operadores están disponibles entre las 8:00 AM y las 8:00 PM (hora del Este) de lunes a viernes, excepto feriados federales.
-
-    ## Asóciese con login.gov
-
-    Si usted es una agencia gubernamental interesada en asociarse con login.gov, por favor contáctenos por email, [partners@login.gov](mailto:partners@login.gov).
-
-    ## Reporte un error
-
-    Visite nuestro [repositorio de Identidad-IDP (en inglés)](https://github.com/18F/identity-idp){:target="_blank"} para crear un ticket e informarnos sobre un error.
-
-    ## Infórmenos sobre un problema de seguridad
-
-    Si es un investigador de seguridad que desea informar sobre una vulnerabilidad, revise nuestra [política de divulgación de vulnerabilidad (en inglés)](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} y póngase en contacto con nosotros por email, [security@login.gov](mailto:security@login.gov).
-
-    ## ¿Otras preguntas?
-
-    ¿Tiene algo más que quiera decirnos? Escríbanos a [hello@login.gov](mailto:hello@login.gov).
+    Estamos experimentando un volumen extremadamente alto debido al lanzamiento del programa Trusted Traveler hoy. Gracias por su paciencia mientras trabajamos para mejorar el rendimiento de nuestro sistema.
 developers_page:
   intro:
     heading: Fácil integración y flexibilidad
