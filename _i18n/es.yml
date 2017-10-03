@@ -140,7 +140,16 @@ security_page:
       visitar nuestro [repositorio de código abierto](https://github.com/18F/identity-idp){:target="_blank"}.
 contact_page:
   content: |-
-    Estamos experimentando un volumen extremadamente alto debido al lanzamiento del programa Trusted Traveler hoy. Gracias por su paciencia mientras trabajamos para mejorar el rendimiento de nuestro sistema.
+    Estamos experimentando un tráfico extremadamente alto debido al lanzamiento del programa Trusted Traveler hoy. Gracias por su paciencia mientras trabajamos para mejorar el rendimiento de nuestro sistema.
+
+    **Nota para los usuarios del programa Trusted Traveler:** Para iniciar sesión en el sitio web del Programa Trusted Traveler, debe crear una nueva cuenta login.gov. login.gov no tiene acceso al antiguo nombre de usuario, ID de usuario ni contraseña de GOES y no reconocerá automáticamente su dirección de correo electrónico. Sólo el nombre de usuario y la contraseña de login.gov recién creados le permitirán iniciar sesión.
+
+    login.gov no gestiona ni afecta a ninguno de sus miembros, pagos, citas o estado de la aplicación y no podemos responder a ninguna pregunta sobre ellos.
+
+    Para preguntas sobre el Programa de viajeros de confianza (Global Entry, GOES, Sentri o Nexus), comuníquese con CBP en [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}
+
+    Para preguntas acerca de crear una cuenta o iniciar sesión con login.gov, busque respuestas a preguntas comunes. Para otras preguntas, por favor contáctenos: [hello@login.gov](mailto:hello@login.gov). Tenga en cuenta que estamos experimentando un gran volumen de solicitudes, por lo que puede tardar varios días en comunicarnos con usted.
+
 developers_page:
   intro:
     heading: Fácil integración y flexibilidad
