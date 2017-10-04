@@ -471,6 +471,13 @@ help:
     no-text-message: I’m not getting a text message (Needs Translation)
     only-shows-login: When I sign in, it only shows my login.gov account information, and there’s no way to get back to the Trusted Traveler Programs site (Needs Translation)
     another-question: I have another question (Needs Translation)
+    dont-know-passid: I don’t know my PASSID (Needs Translation)
+    family-account: How do I create a login.gov account for my family member? (Needs Translation)
+    do-i-need-to-pay-again: Do I need to pay again? (Needs Translation)
+    schedule-an-appointment: Can you help with scheduling an appointment? (Needs Translation)
+    application-status: What is the status of my application? (Needs Translation)
+    known-traveler-number: Will my KTN (Known Traveler Number) change? (Needs Translation)
+    whats-going-on: I’m seeing seeing a lot of changes on the Trusted Travelers Programs site. What’s going on? (Needs Translation)
   signing-in:
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: Je
       ne me rappelle pas de ma clé personnelle et je n'ai pas mon téléphone avec moi.
@@ -648,6 +655,46 @@ help_pages:
       Même les administrateurs de login.gov ne peuvent déchiffrer ou accéder à l'information
       personnelle sans le mot de passe de l'utilisateur.
   trusted-traveler-programs:
+    whats-going-on: |-
+      (Needs translation) This week, login.gov saw higher than expected volume which caused downtime and delays for many users. We apologize for any inconvenience. We have scaled up our infrastructure to support the increased server load and the system should be stable going forward.
+
+      Please see if your question is answered here. If you have more questions or problems, feel free to [contact us](/contact/).
+    application-status: |-
+      (Needs translation) Sign in to the [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} to find out the status of your application.
+
+      login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
+
+      For additional Trusted Traveler related questions such as these, please contact CBP directly [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+    schedule-an-appointment: |-
+      (Needs translation) The best way to schedule an appointment is through the Trusted Traveler Programs site.
+
+      login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
+
+      For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+    do-i-need-to-pay-again: |-
+      (Needs translation) You do not need to pay again, unless it is time to renew your membership.
+
+      login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
+
+      For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+    known-traveler-number: |-
+      (Needs translation) Your KTN will not change.
+
+      login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
+
+      For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+    family-account: |-
+      (Needs translation) The [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} supports only one login.gov account per individual application. Each family member will need a unique email address to create a login.gov account. We completely understand you may prefer to share an email address with your family members, or do not wish to set up an email account for your children.
+
+      Some email providers may have options to create alias addresses (or, forwarding addresses). If you are a Gmail user, you can use this trick to get multiple email aliases to point to the same inbox:
+
+      If your email is example@gmail.com, you may enter example+john@gmail.com or example+jane@gmail.com when creating a new login.gov account. login.gov will recognize each of these email addresses as unique, and all confirmation emails will be delivered to your example@gmail.com inbox.
+
+      For more information, go to [https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html){:target="_blank"}.
+    dont-know-passid: |-
+      (Needs translation) Once you have created a login.gov username and password and successfully signed into [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"}, you will be asked to enter your PASSID in order to link your old GOES profile to the new login.gov credentials.
+      
+      If you have trouble with your PASSID or GOES username and password, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
     another-question: |-
       (Needs translation) If you have a question or problem that was not covered by this page, please contact us at [hello@login.gov](mailto:hello@login.gov).
     only-shows-login: |-
