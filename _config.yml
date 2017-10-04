@@ -67,6 +67,7 @@ help_pages:
 - signing-in
 - changing-settings
 - privacy-and-security
+- trusted-traveler-programs
 
 # Per-section configs
 playbook:
