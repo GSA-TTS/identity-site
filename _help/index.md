@@ -18,6 +18,8 @@ links:
   - name: Privacy and security
     url: /help/privacy-and-security/can-i-remove-a-saved-password-or-login-information-from-my-browser/
     img_url: /assets/img/privacy-security-light.svg
+  - name: Trusted Traveler Programs
+    url: /help/trusted-traveler-programs/sign-in-doesnt-work/
 ---
 
 
