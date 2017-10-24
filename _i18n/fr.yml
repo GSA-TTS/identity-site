@@ -88,7 +88,7 @@ index:
     p_1: |-
       login.gov travaille en collaboration avec le secteur privé, les organismes à but non lucratif afin d'identifier et mettre en œuvre les meilleures pratiques et les nouvelles normes en matière d'authentification sécurisée qui protège la confidentialité.
 
-        Dirigé par le [U.S. Digital Service](https://www.usds.gov){:target="_blank"} et [18F](https://18f.gsa.gov){:target="_blank"}, login.gov est bâti sur les bases établies par le [National Institute for Standards in Technology](https://www.nist.gov/){:target="_blank"}, le [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"} et le [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
+        Dirigé par le [U.S. Digital Service](https://www.usds.gov){:target="_blank"} et [18F](https://18f.gsa.gov){:target="_blank"}, login.gov est bâti sur les bases établies par le [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"}, le [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"} et le [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
   footer:
     heading: Pour nous joindre
     p_1: Vous avez une question ou un problème? [Communiquez avec nous](site.baseurl/contact).
@@ -322,7 +322,7 @@ implementation_page:
     heading_11: Ressources
     ul_6:
       li_1:
-        a_1: National Institute of Standards in Technology
+        a_1: National Institute of Standards and Technology
         content: "(NIST 800-63-3)"
       li_2:
         a_1: Guide de mise en œuvre des services numériques
@@ -647,7 +647,7 @@ help_pages:
 
       Les hyperliens présents sur login.gov qui mènent vers des sites externes du gouvernement fédéral concernent des services fournis par ces agences. Ces sites sont tenus par leur propre politique de confidentialité qui se trouve normalement sur leur site avec les mentions légales.
 
-      Les comptes individuels font face à une sécurité à deux étapes. Nous exigeons une authentification à deux facteurs de même que des mots de passe forts qui répondent aux normes du [National Institute of Standards of Technology](https://www.nist.gov/){:target="_blank"} relatives à la validation et à la vérification. Celles-ci incluent l'authentification à deux facteurs qui requiert que vous vous connectiez avec votre mot de passe et un code de sécurité reçu sur votre téléphone. L'authentification à deux facteurs peut aider à protéger votre compte et à empêcher que la sécurité de votre mot de passe soit compromise.
+      Les comptes individuels font face à une sécurité à deux étapes. Nous exigeons une authentification à deux facteurs de même que des mots de passe forts qui répondent aux normes du [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"} relatives à la validation et à la vérification. Celles-ci incluent l'authentification à deux facteurs qui requiert que vous vous connectiez avec votre mot de passe et un code de sécurité reçu sur votre téléphone. L'authentification à deux facteurs peut aider à protéger votre compte et à empêcher que la sécurité de votre mot de passe soit compromise.
 
       Votre information demeurera sécurisée. Pour plus d'information, consultez notre [politique de sécurité et de confidentialité](site.baseurl/policy).
     will-logingov-share-my-information: Le site login.gov ne peut partager de l'information

@@ -85,7 +85,7 @@ index:
     p_1: |-
       login.gov works with the private sector and nonprofits to identify and implement best practices and new standards.
 
-      login.gov builds on groundwork laid by the [National Institute for Standards in Technology](https://www.nist.gov/){:target="_blank"}, the [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, and the [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
+      login.gov builds on groundwork laid by the [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"}, the [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, and the [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
   footer:
     heading: Contact us
     p_1: Have a question or problem? [Get in touch](site.baseurl/contact).
@@ -314,7 +314,7 @@ implementation_page:
     heading_11: Resources
     ul_6:
       li_1:
-        a_1: National Institute of Standards in Technology
+        a_1: National Institute of Standards and Technology
         content: "(NIST 800-63-3)"
       li_2:
         a_1: Digital Services Playbook
@@ -660,7 +660,7 @@ help_pages:
 
       login.gov links to external federal government sites for services provided by those agencies. Those sites are subject to their own privacy policy, which is usually spelled out in a privacy policy and legal disclaimer available on their website.
 
-      Individual accounts get a double layer of security. We require two-factor authentication as well as strong passwords that meet new [National Institute of Standards of Technology](https://www.nist.gov/){:target="_blank"} requirements for secure validation and verification. This includes two-factor authentication that requires you log in with your password and a security code you receive on your phone. Two-factor authentication can help protect your account against password compromises.
+      Individual accounts get a double layer of security. We require two-factor authentication as well as strong passwords that meet new [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"} requirements for secure validation and verification. This includes two-factor authentication that requires you log in with your password and a security code you receive on your phone. Two-factor authentication can help protect your account against password compromises.
 
       Your information will stay secure. For more information, read our [security and privacy policy](site.baseurl/policy).
     will-logingov-share-my-information: login.gov cannot share any information with
