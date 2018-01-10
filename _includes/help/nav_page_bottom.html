@@ -22,7 +22,8 @@
                 <li class="py1 px2 nav-sidenav-item{% if question.url == page.url %} active{% endif %}">
                   {% assign url_size = question.url | size | minus: 1 %}
                   {% assign page_title = question.url | replace: "/", "." | slice: 1, url_size %}
-                  {% t page_title %}
+                  {% capture page_title %}{% t page_title %}{% endcapture %}
+                  {{ page_title | markdownify }}
                 </li>
               </a>
             {% endfor %}

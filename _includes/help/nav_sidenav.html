@@ -11,7 +11,8 @@
         <li class="p2 {% unless forloop.last %}border-bottom{% endunless %}">
           {% assign url_size = question.url | size | minus: 1 %}
           {% assign page_title = question.url | replace: "/", "." | slice: 1, url_size %}
-          {% t page_title %}
+          {% capture page_title %}{% t page_title %}{% endcapture %}
+          {{ page_title | markdownify }}
         </li>
       </a>
     {% endfor %}
