@@ -17,7 +17,8 @@ layout: main
         <h2 id="{{ page.slug }}" class="mt0 mb1 pt2">
           {% assign url_size = page.url | size | minus: 1 %}
           {% assign page_title = page.url | replace: "/", "." | slice: 1, url_size %}
-          {% t page_title %}
+          {% capture page_title %}{% t page_title %}{% endcapture %}
+          {{ page_title | markdownify }}
         </h2>
         <img alt="" src="{{ site.baseurl }}/assets/img/hr-red-{{ _index }}.svg" height="6" class="mb2">
         <div class="mb0">
