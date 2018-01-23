@@ -158,20 +158,21 @@ security_page:
       us](site.baseurl/contact). You can also visit our [open-source repository](https://github.com/18F/identity-idp){:target="_blank"}.
 contact_page:
   content: |-
-    ### Find help using login.gov
-    First, check out answers to [common questions](site.baseurl/help). Still have a question or a problem? Call **844-875-6446** toll-free for more answers and to speak with an information specialist. Information specialists are available between 8:00 a.m. to 8:00 p.m. ET, Monday to Friday, except federal holidays.
+    ## Find help using login.gov
+    First, check out answers to [common questions](site.baseurl/help). Still have a question or a problem?
+    Call **844-875-6446** toll-free for more answers and to speak with an information specialist. Information specialists are available between 8:00 a.m. to 8:00 p.m. ET, Monday to Friday, except federal holidays.
 
-    ### Partner with login.gov
+    ## Partner with login.gov
     If you’re a government agency interested in partnering with login.gov, please contact us at [partners@login.gov](mailto:partners@login.gov).
 
-    ### Report a security issue
+    ## Report a security issue
     If you’re a security researcher looking to report a vulnerability, please review our [vulnerability disclosure policy](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} and contact us at [security@login.gov](mailto:security@login.gov).
 
-    ### Other questions?
+    ## Other questions?
     Something else you want to talk about? Reach us at [hello@login.gov](mailto:hello@login.gov).
 
-    ### Note for Trusted Traveler Programs users
-    For questions about the Trusted Traveler Programs (Global Entry, GOES, Sentri, or Nexus), please contact CBP at (https://help.cbp.gov/app/ask).
+    ## Note for Trusted Traveler Programs users
+    For questions about the Trusted Traveler Programs (Global Entry, GOES, Sentri, or Nexus), [please contact CBP](https://help.cbp.gov/app/ask){:target="_blank"}.
 developers_page:
   intro:
     heading: Easy integration and flexibility
