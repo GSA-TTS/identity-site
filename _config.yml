@@ -68,6 +68,7 @@ help_pages:
 - changing-settings
 - privacy-and-security
 - trusted-traveler-programs
+- usajobs
 
 # Per-section configs
 playbook:

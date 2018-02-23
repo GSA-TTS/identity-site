@@ -20,6 +20,8 @@ links:
     img_url: /assets/img/privacy-security-light.svg
   - name: Trusted Traveler Programs
     url: /help/trusted-traveler-programs/
+  - name: USAJobs
+    url: /help/usajobs/
 ---
 
 

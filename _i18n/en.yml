@@ -48,6 +48,7 @@ help_subpages:
   privacy-and-security: Privacy & security
   signing-in: Signing in
   trusted-traveler-programs: Trusted Traveler Programs
+  usajobs: USAJobs
 nav:
   overview: Overview
   menu: Menu
@@ -157,15 +158,21 @@ security_page:
       us](site.baseurl/contact). You can also visit our [open-source repository](https://github.com/18F/identity-idp){:target="_blank"}.
 contact_page:
   content: |-
-    ## Note for Trusted Traveler Programs users
-    To sign into the Trusted Traveler Programs website, **you must create a new login.gov account.** login.gov does not have access to your old GOES userID and password and will not automatically recognize your email address. **Only your newly created login.gov username and password will allow you to sign in.**
-
-    login.gov does not manage nor impact any of your existing Trusted Traveler Programs membership, payments, appointments, or application status and is unable to respond to any questions about them.
-
-    For questions about the Trusted Traveler Programs (Global Entry, GOES, Sentri, or Nexus), please contact CBP at [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
-
     ## Find help using login.gov
-    First, check out answers to [common questions](site.baseurl/help). If you still have a question or problem, please contact us [hello@login.gov](mailto:hello@login.gov). Please do not send us your PASSID or other private information that only you should know. Please keep in mind that we’re experiencing a heavy volume of requests so it might take us several days to get back to you.
+    First, check out answers to [common questions](site.baseurl/help). Still have a question or a problem?
+    Call **844-875-6446** toll-free for more answers and to speak with an information specialist. Information specialists are available between 8:00 a.m. to 8:00 p.m. ET, Monday to Friday, except federal holidays.
+
+    ## Partner with login.gov
+    If you’re a government agency interested in partnering with login.gov, please contact us at [partners@login.gov](mailto:partners@login.gov).
+
+    ## Report a security issue
+    If you’re a security researcher looking to report a vulnerability, please review our [vulnerability disclosure policy](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} and contact us at [security@login.gov](mailto:security@login.gov).
+
+    ## Other questions?
+    Something else you want to talk about? Reach us at [hello@login.gov](mailto:hello@login.gov).
+
+    ## Note for Trusted Traveler Programs users
+    For questions about the Trusted Traveler Programs (Global Entry, GOES, Sentri, or Nexus), [please contact CBP](https://help.cbp.gov/app/ask){:target="_blank"}.
 developers_page:
   intro:
     heading: Easy integration and flexibility
@@ -473,6 +480,12 @@ help:
       code?
     what-is-an-authenticator-app: What is an authenticator app?
     why-does-the-system-log-me-out: Why does the system log me out?
+  usajobs:
+    what-happens-to-my-profile: What will happen to my USAJOBS Profile?
+    what-email-address-do-i-use: What email address do I use to create a login.gov account?
+    security-code: What do I need to receive the login.gov security code?
+    gov-mil-edu-email-address: Should I use a .gov, .mil and .edu email address?
+    profile-information: What if I don’t see my USAJOBS profile information after I create a login.gov account?
 policies:
 - section: Our privacy practices
   anchor: our-privacy-practices
@@ -784,3 +797,20 @@ help_pages:
       When a user is already signed in, and they want to change their email, password, or phone number, they must enter their current password first. After three incorrect guesses, the user is signed out.
 
       The system also logs you out if you entered the security code that was sent to your phone, incorrectly 3 times. Failed attempts are limited to three per session, followed by a 5-minute lockout.
+  usajobs:
+    what-happens-to-my-profile: |-
+      Nothing will happen to the information stored in your USAJOBS profile. You’ll keep all of your applications, saved searches and saved jobs.
+
+      Once you set up a login.gov account, we’ll link it back to your USAJOBS profile. The only difference is you’ll use your login.gov email address, password and security code to sign into USAJOBS.
+    what-email-address-do-i-use: |-
+      To keep your USAJOBS profile information, you need to use your primary or secondary USAJOBS email when you create your login.gov account. When you use the same email address, USAJOBS will automatically link your profile to the login.gov account. If you use a different email address when signing up for login.gov, USAJOBS won't be able to automatically link your profile. But, you can use your USAJOBS primary or secondary email address to help you search for your profile.
+    profile-information: |-
+       If USAJOBS can’t find your profile information, you’ll be signed in as Guest. If you think you have a USAJOBS profile, first try the “Already have a profile?” option. USAJOBS will walk you through a few steps to find your profile.  If you’re still having issues linking to your profile, contact the USAJOBS Help Desk.
+    security-code: |-
+      You can choose to receive the one time security code via text or phone call if you have a U.S. based cell phone. Landlines can only receive a phone call. If you’re outside the U.S., most phone numbers can only receive a text.
+
+      As an alternative to receiving a text or phone call, you can also [use an authenticator app after successfully creating your account](/help/signing-in/what-is-an-authenticator-app/).
+    gov-mil-edu-email-address: |-
+      We recommend you don’t use a .gov, .mil or .edu email address, because if you leave your government or military position or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password.
+
+      If your USAJOBS primary or secondary email address is a .gov, .mil or .edu email address, you may want to consider changing it AFTER you get through the login.gov account set-up and USAJOBS profile linking process.
