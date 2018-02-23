@@ -1,5 +1,5 @@
 ---
-order: 40
+order: 2
 redirect_from: /help/usajobs/
 ---
 
