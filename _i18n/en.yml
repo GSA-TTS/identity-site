@@ -159,8 +159,16 @@ security_page:
 contact_page:
   content: |-
     ## Find help using login.gov
+    ul:
+      li_1:**Web**: [Help](site.baseurl/help)
+      li_2:**Phone**: 844-875-6446
+      li_3:**Email**: [hello@login.gov](mailto:hello@login.gov)
+    
     First, check out answers to [common questions](site.baseurl/help). Still have a question or a problem?
+    
     Call **844-875-6446** toll-free for more answers and to speak with an information specialist. Information specialists are available between 8:00 a.m. to 8:00 p.m. ET, Monday to Friday, except federal holidays.
+
+    You can also email us your questions at [hello@login.gov](mailto:hello@login.gov).
 
     ## Partner with login.gov
     If you’re a government agency interested in partnering with login.gov, please contact us at [partners@login.gov](mailto:partners@login.gov).
