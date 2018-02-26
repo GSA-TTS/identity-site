@@ -159,10 +159,9 @@ security_page:
 contact_page:
   content: |-
     ## Find help using login.gov
-    ul:
-      li_1:**Web**: [Help](site.baseurl/help)
-      li_2:**Phone**: 844-875-6446
-      li_3:**Email**: [hello@login.gov](mailto:hello@login.gov)
+    **Web**: [Help](site.baseurl/help)
+    **Phone**: 844-875-6446
+    **Email**: [hello@login.gov](mailto:hello@login.gov)
     
     First, check out answers to [common questions](site.baseurl/help). Still have a question or a problem?
     
