@@ -37,9 +37,11 @@
     "basscss-sass": "^3.0.0",
     "bootstrap": "^3.3.7",
     "hint.css": "^2.5.0",
+    "identity-style-guide": "^0.2.8",
     "jquery": "^3.3.1",
     "node-sass": "^3.7.0",
     "normalize.css": "^4.2.0",
+    "npm": "^5.7.1",
     "webpack": "^1.13.2"
   }
 }
