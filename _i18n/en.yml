@@ -620,40 +620,29 @@ help_pages:
       #### Enter your email and confirm it
       <img src="/assets/img/help/2-login-gov-enteremail.png" class="mt3 mb3 block" alt="Enter your email help image" />
       Select [“create an account”](https://secure.login.gov/) and enter your email address. Then check your email account for a message from us. Within the email is a link. Clicking the link will confirm your email address and send you back to login.gov.
-
       This is what it looks like:
       <img src="/assets/img/help/3-confirm-your-email.png" class="mt3 mb3 block" alt="Confirm your email help image" />
 
       #### Create a password
-
       Next, you will create a strong password. Use the password strength meter on the screen as a guide. Passwords must be at least 8 characters, but otherwise there are no restrictions. You can even enter spaces in between words to get to 8 characters.
-
       <img src="/assets/img/help/4-choose-a-password.png" class="mt3 mb3 block" alt="Choose password help image" />
 
       #### Enter your phone number and confirm it
-
       Next, you will enter a phone number at which you can get calls or SMS messages. If you have a landline, please ask for a security code by a phone call. We will send a unique security code to that phone number each time you sign into your account. This is called two-factor authentication. The second step keeps your account more secure than using only a password.
-
       <img src="/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
 
       Each security code expires after 5 minutes and can only be used once. If you don’t enter the security code within 5 minutes, just request a new code. Each code is only good once, so no one can steal one you’ve already used.
-
       <img src="/assets/img/help/text-confirmation-code.png" class="mt3 mb3 block" alt="Phone text confirmation code help image" />
 
       Type the security code into the field. That’s it! Every time you sign back into your login.gov account, you will receive a new security code that you need to enter. You’ll get the option each time you sign in to get a security code by a phone call or by SMS.
-
       <img src="/assets/img/help/6-enter-one-time-security-code.png" class="mt3 mb3 block" alt="Enter security code help image" />
 
       #### Save your personal key
-
       After you’ve created your account, you will get a personal key, which is a set of 16 random characters.
-
       <img src="/assets/img/help/7-personalkey.png" class="mt3 mb3 block" alt="Store your personal key help image" />
-
       It’s very important that you make a note of your personal key and store the note separately from your phone. If you forget your password or don't have your phone, you can enter the personal key to access your services or applications.
 
       To make sure you’ve stored your personal key, the last step in creating your account is entering the key you were just given.
-
       <img src="/assets/img/help/8-personalkey.png" class="mt3 mb3 block" alt="Enter your personal key help image" />
 
     i-didnt-receive-a-confirmation-email-from-logingov: |-
