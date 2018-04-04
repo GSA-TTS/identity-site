@@ -161,9 +161,9 @@ contact_page:
     ## Find help using login.gov
     **Web**: [Help](site.baseurl/help)
     **Email**: [hello@login.gov](mailto:hello@login.gov)
-    
+
     First, check out answers to [common questions](site.baseurl/help). Still have a question or a problem?
-    
+
     You can also email us your questions at [hello@login.gov](mailto:hello@login.gov).
 
     ## Partner with login.gov
@@ -466,7 +466,7 @@ help:
     do-i-need-to-pay-again: Do I need to pay again?
     schedule-an-appointment: Can you help with scheduling an appointment?
     application-status: What is the status of my application?
-    known-traveler-number: Will my KTN (Known Traveler Number) change? 
+    known-traveler-number: Will my KTN (Known Traveler Number) change?
     whats-going-on: I’m seeing a lot of changes on the Trusted Travelers Programs site. What’s going on?
   signing-in:
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: I can't
@@ -723,7 +723,7 @@ help_pages:
       For more information, go to [https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html){:target="_blank"}.
     dont-know-passid: |-
       Once you have created a login.gov username and password and successfully signed into [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"}, you will be asked to enter your PASSID in order to link your old GOES profile to the new login.gov credentials. If you do not have your PASSID, you will be prompted for security questions and additional information by TTP.
-      
+
       If you have trouble with your PASSID or GOES username and password, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
     another-question: |-
       If you have a question or problem that was not covered by this page, please contact us at [hello@login.gov](mailto:hello@login.gov).
@@ -741,7 +741,7 @@ help_pages:
     sign-in-doesnt-work: |-
       You will no longer be able to use your GOES User ID and password to sign in. Please create a new login.gov account. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. No credit card or payment will be required.
 
-      To register a new account:  
+      To register a new account:
 
       1. Please visit [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}
       2. If you are a new user, select “Get Started” in the middle of the page. If you are a returning user, select “LOG IN” on the upper right hand corner.
@@ -794,9 +794,17 @@ help_pages:
       a new security code. Each security code is only good once, so no one can steal
       one you've already used. We limit requests to three every 15 minutes, but otherwise
       you can request as many codes as you need.
-    what-is-an-authenticator-app: A mobile security application that generates security
-      codes for signing in. You can use the app to get codes even if you don't have
-      an internet connection or mobile service.
+    what-is-an-authenticator-app: |-
+      A mobile security application that generates security codes for signing in. You can use the app to get codes even if you don't have an internet connection or mobile service.
+
+      You can use an authentication app to generate a login.gov security code. After your [initial registration](site.baseurl/help/signing-in/what-do-i-need-to-have-in-order-to-sign-in/), you can set up an authentication app to generate security codes. To do this you will first need a device, such as a computer or phone, on which you can install new applications. Then you will need to download an authentication app to that device. After installing and configuring the application to work with login.gov, you will be able to receive security codes without a phone number. Some options for authentication apps include:
+
+        - Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+        - iOS options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+        - Windows apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}, [OneLogin OTP](https://support.onelogin.com/hc/en-us/articles/201174454-OneLogin-OTP-for-Windows-Desktop){:target="_blank"}
+        - Mac apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
+        - Chrome extensions: [SecureAuth OTP](https://chrome.google.com/webstore/detail/secureauth-otp/cjpfiickajaodicfcmkfgdicnlhaompc?hl=en-US){:target="_blank"}, [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
+
     why-does-the-system-log-me-out: |-
       When a user is already signed in, and they want to change their email, password, or phone number, they must enter their current password first. After three incorrect guesses, the user is signed out.
 
