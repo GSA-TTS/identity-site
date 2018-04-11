@@ -482,7 +482,7 @@ help:
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: What
       happens if I miss the phone call or the text message with my one time security
       code?
-    what-is-an-authenticator-app: What is an authenticator app?
+    what-is-an-authentication-app: What is an authentication app?
     why-does-the-system-log-me-out: Why does the system log me out?
   usajobs:
     what-happens-to-my-profile: What will happen to my USAJOBS Profile?
@@ -794,10 +794,10 @@ help_pages:
       a new security code. Each security code is only good once, so no one can steal
       one you've already used. We limit requests to three every 15 minutes, but otherwise
       you can request as many codes as you need.
-    what-is-an-authenticator-app: |-
-      A mobile security application that generates security codes for signing in. You can use the app to get codes even if you don't have an internet connection or mobile service.
+    what-is-an-authentication-app: |-
+      Authentication apps generate security codes for signing in to sites that require a high level of security. You can use these apps to get security codes even if you don’t have an internet connection or mobile service.
 
-      You can use an authentication app to generate a login.gov security code. After your [initial registration](site.baseurl/help/signing-in/what-do-i-need-to-have-in-order-to-sign-in/), you can set up an authentication app to generate security codes. To do this you will first need a device, such as a computer or phone, on which you can install new applications. Then you will need to download an authentication app to that device. After installing and configuring the application to work with login.gov, you will be able to receive security codes without a phone number. Some options for authentication apps include:
+      You can set up an authentication app to generate your login.gov security code. First, you’ll need to download an authentication app to your computer or phone. After installing and configuring the application to work with login.gov, you will be able to receive security codes without a phone number. Some options for authentication apps include:
 
         - Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
         - iOS options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
@@ -821,7 +821,7 @@ help_pages:
     security-code: |-
       You can choose to receive the one time security code via text or phone call if you have a U.S. based cell phone. Landlines can only receive a phone call. If you’re outside the U.S., most phone numbers can only receive a text.
 
-      As an alternative to receiving a text or phone call, you can also [use an authenticator app after successfully creating your account](/help/signing-in/what-is-an-authenticator-app/).
+      As an alternative to receiving a text or phone call, you can also [use an authenticator app after successfully creating your account](/help/signing-in/what-is-an-authentication-app/).
     gov-mil-edu-email-address: |-
       We recommend you don’t use a .gov, .mil or .edu email address, because if you leave your government or military position or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password.
 
