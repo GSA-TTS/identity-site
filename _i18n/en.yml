@@ -160,12 +160,14 @@ contact_page:
   content: |-
     ## Find help using login.gov
     **Web**: [Help](site.baseurl/help)
-    **Phone**: 844-875-6446
     **Email**: [hello@login.gov](mailto:hello@login.gov)
 
     First, check out answers to [common questions](site.baseurl/help). Still have a question or a problem?
+<<<<<<< HEAD
 
     Call **844-875-6446** toll-free for more answers and to speak with an information specialist. Information specialists are available between 8:00 a.m. to 8:00 p.m. ET, Monday to Friday, except federal holidays.
+=======
+>>>>>>> master
 
     You can also email us your questions at [hello@login.gov](mailto:hello@login.gov).
 
@@ -485,7 +487,7 @@ help:
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: What
       happens if I miss the phone call or the text message with my one time security
       code?
-    what-is-an-authenticator-app: What is an authenticator app?
+    what-is-an-authentication-app: What is an authentication app?
     why-does-the-system-log-me-out: Why does the system log me out?
   usajobs:
     what-happens-to-my-profile: What will happen to my USAJOBS Profile?
@@ -813,9 +815,17 @@ help_pages:
       a new security code. Each security code is only good once, so no one can steal
       one you've already used. We limit requests to three every 15 minutes, but otherwise
       you can request as many codes as you need.
-    what-is-an-authenticator-app: A mobile security application that generates security
-      codes for signing in. You can use the app to get codes even if you don't have
-      an internet connection or mobile service.
+    what-is-an-authentication-app: |-
+      Authentication apps generate security codes for signing in to sites that require a high level of security. You can use these apps to get security codes even if you don’t have an internet connection or mobile service.
+
+      You can set up an authentication app to generate your login.gov security code. First, you’ll need to download an authentication app to your computer or phone. After installing and configuring the application to work with login.gov, you will be able to receive security codes without a phone number. Some options for authentication apps include:
+
+        - Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+        - iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+        - Windows apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}, [OneLogin OTP](https://support.onelogin.com/hc/en-us/articles/201174454-OneLogin-OTP-for-Windows-Desktop){:target="_blank"}
+        - Mac apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
+        - Chrome extensions: [SecureAuth OTP](https://chrome.google.com/webstore/detail/secureauth-otp/cjpfiickajaodicfcmkfgdicnlhaompc?hl=en-US){:target="_blank"}, [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
+
     why-does-the-system-log-me-out: |-
       When a user is already signed in, and they want to change their email, password, or phone number, they must enter their current password first. After three incorrect guesses, the user is signed out.
 
@@ -832,7 +842,7 @@ help_pages:
     security-code: |-
       You can choose to receive the one time security code via text or phone call if you have a U.S. based cell phone. Landlines can only receive a phone call. If you’re outside the U.S., most phone numbers can only receive a text.
 
-      As an alternative to receiving a text or phone call, you can also [use an authenticator app after successfully creating your account](/help/signing-in/what-is-an-authenticator-app/).
+      As an alternative to receiving a text or phone call, you can also [use an authenticator app after successfully creating your account](/help/signing-in/what-is-an-authentication-app/).
     gov-mil-edu-email-address: |-
       We recommend you don’t use a .gov, .mil or .edu email address, because if you leave your government or military position or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password.
 
