@@ -506,7 +506,7 @@ help:
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: "¿Qué
       sucede si pierdo la llamada telefónica o el mensaje de texto con mi código de
       seguridad de un sólo uso?"
-    what-is-an-authenticator-app: "¿Qué es una app de autenticación?"
+    what-is-an-authentication-app: "¿Qué es una app de autenticación?"
     why-does-the-system-log-me-out: "¿Por qué el sistema me desconecta?"
 policies:
 - section: Nuestras prácticas de privacidad
@@ -801,7 +801,7 @@ help_pages:
       Cada código de seguridad es válido sólo una vez, por lo que nadie puede robar
       uno que haya utilizado. Limitamos las solicitudes a tres códigos cada 15 minutos,
       pero de lo contrario puede solicitar tantos códigos como necesite.
-    what-is-an-authenticator-app: Una app de seguridad móvil que genera códigos de
+    what-is-an-authentication-app: Una app de seguridad móvil que genera códigos de
       seguridad para iniciar sesión. Puede utilizar la app para obtener códigos aunque
       no tenga una conexión a internet o un servicio móvil.
     why-does-the-system-log-me-out: "Cuando un usuario ya ha iniciado sesión y desea
