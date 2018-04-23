@@ -43,6 +43,10 @@ make test
 
 See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
 
+## Release process
+
+The release process is documented in the [Identity Private repo](https://github.com/18F/identity-private/wiki/Static-site-release-process).
+
 ## Public domain
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
