@@ -614,7 +614,7 @@ help_pages:
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
       To create a login.gov account you’ll need a valid email address and a working phone number. We’ll also ask you to create a password.
 
-      Please be prepared to write down and store your password as well as the personal key that is generated for you in case you ever need to recover your account.
+      Please be prepared to save your password as well as the personal key that is generated for you in case you ever need to recover your account.
 
       #### Enter your email and confirm it
       <img src="site.baseurl/assets/img/help/2-login-gov-enteremail.png" class="mt3 mb3 block" alt="Enter your email help image" />
@@ -639,7 +639,7 @@ help_pages:
       #### Save your personal key
       After you’ve created your account, you will get a personal key, which is a set of 16 random characters.
       <img src="site.baseurl/assets/img/help/7-personalkey.png" class="mt3 mb3 block" alt="Store your personal key help image" />
-      It’s very important that you make a note of your personal key and store the note separately from your phone. If you forget your password or don't have your phone, you can enter the personal key to access your services or applications.
+      It’s very important that you make a note of your personal key and store it safely. If you lose access to your phone, you can enter the personal key to access your services or applications.
 
       To make sure you’ve stored your personal key, the last step in creating your account is entering the key you were just given.
       <img src="site.baseurl/assets/img/help/8-personalkey.png" class="mt3 mb3 block" alt="Enter your personal key help image" />
