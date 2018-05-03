@@ -486,6 +486,7 @@ help:
       code?
     what-is-an-authentication-app: What is an authentication app?
     why-does-the-system-log-me-out: Why does the system log me out?
+    how-do-I-turn-off-two-factor-authentication: How do I turn off two-factor authentication?
   usajobs:
     what-happens-to-my-profile: What will happen to my USAJOBS Profile?
     what-email-address-do-i-use: What email address do I use to create a login.gov account?
@@ -827,6 +828,13 @@ help_pages:
       When a user is already signed in, and they want to change their email, password, or phone number, they must enter their current password first. After three incorrect guesses, the user is signed out.
 
       The system also logs you out if you entered the security code that was sent to your phone, incorrectly 3 times. Failed attempts are limited to three per session, followed by a 5-minute lockout.
+    how-do-I-turn-off-two-factor-authentication:  |-
+      Place holder to see if it works
+      
+        - Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+        - iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+        - Windows apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}, [OneLogin OTP](https://support.onelogin.com/hc/en-us/articles/201174454-OneLogin-OTP-for-Windows-Desktop){:target="_blank"}
+        - Mac apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
   usajobs:
     what-happens-to-my-profile: |-
       Nothing will happen to the information stored in your USAJOBS profile. You’ll keep all of your applications, saved searches and saved jobs.
