@@ -492,7 +492,7 @@ help:
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Que
       se produit-il si je manque l'appel téléphonique ou le message texte contenant
       mon code de sécurité à utilisation unique?
-    what-is-an-authenticator-app: Qu'est-ce qu'une application d'authentification?
+    what-is-an-authentication-app: Qu'est-ce qu'une application d'authentification?
     why-does-the-system-log-me-out: Pourquoi le système me déconnecte-t-il?
 policies:
 - section: Nos pratiques relatives à la confidentialité
@@ -765,7 +765,7 @@ help_pages:
       ne peut voler un code que vous avez déjà utilisé. Nous limitons les demandes
       à trois par 15 minutes, mais autrement, vous pouvez demander autant de code
       que vous le souhaitez.
-    what-is-an-authenticator-app: Il s'agit d'une application de sécurité mobile qui
+    what-is-an-authentication-app: Il s'agit d'une application de sécurité mobile qui
       génère des codes de sécurité pour la connexion. Vous pouvez utiliser l'application
       pour obtenir des codes même si vous n'avez pas de connexion internet.
     why-does-the-system-log-me-out: |-

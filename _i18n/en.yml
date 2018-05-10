@@ -161,9 +161,11 @@ contact_page:
     ## Find help using login.gov
     **Web**: [Help](site.baseurl/help)
     **Email**: [hello@login.gov](mailto:hello@login.gov)
-    
+
     First, check out answers to [common questions](site.baseurl/help). Still have a question or a problem?
-    
+
+    Call **844-875-6446** toll-free for more answers and to speak with an information specialist. Information specialists are available between 8:00 a.m. to 8:00 p.m. ET, Monday to Friday, except federal holidays.
+
     You can also email us your questions at [hello@login.gov](mailto:hello@login.gov).
 
     ## Partner with login.gov
@@ -466,7 +468,7 @@ help:
     do-i-need-to-pay-again: Do I need to pay again?
     schedule-an-appointment: Can you help with scheduling an appointment?
     application-status: What is the status of my application?
-    known-traveler-number: Will my KTN (Known Traveler Number) change? 
+    known-traveler-number: Will my KTN (Known Traveler Number) change?
     whats-going-on: I’m seeing a lot of changes on the Trusted Travelers Programs site. What’s going on?
   signing-in:
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: I can't
@@ -482,7 +484,7 @@ help:
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: What
       happens if I miss the phone call or the text message with my one time security
       code?
-    what-is-an-authenticator-app: What is an authenticator app?
+    what-is-an-authentication-app: What is an authentication app?
     why-does-the-system-log-me-out: Why does the system log me out?
   usajobs:
     what-happens-to-my-profile: What will happen to my USAJOBS Profile?
@@ -608,24 +610,40 @@ help_pages:
       or a mobile phone – at which you can receive security codes every time you sign
       in either by SMS or phone call.
     how-do-i-create-an-account-with-logingov: |-
-      To create a login.gov account, you will need: a valid email address, and a working phone number. We will also ask you to create a password.
+      #### How do you create an account with login.gov?
+      <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
+      To create a login.gov account you’ll need a valid email address and a working phone number. We’ll also ask you to create a password.
+
+      Please be prepared to save your password as well as the personal key that is generated for you in case you ever need to recover your account.
+
       #### Enter your email and confirm it
+      <img src="site.baseurl/assets/img/help/2-login-gov-enteremail.png" class="mt3 mb3 block" alt="Enter your email help image" />
+      Select [“create an account”](https://secure.login.gov/sign_up/enter_email) and enter your email address. Then check your email account for a message from us. Within the email is a link. Clicking the link will confirm your email address and send you back to login.gov.
+      This is what it looks like:
+      <img src="site.baseurl/assets/img/help/3-confirm-your-email.png" class="mt3 mb3 block" alt="Confirm your email help image" />
 
-      Select “create an account” and enter your email address where indicated. Then check your email account for a message from us. Within the email is a link. Clicking the link will send you back to login.gov with your email confirmed.
-      #### Enter your password
-
+      #### Create a password
       Next, you will create a strong password. Use the password strength meter on the screen as a guide. Passwords must be at least 8 characters, but otherwise there are no restrictions. You can even enter spaces in between words to get to 8 characters.
+      <img src="site.baseurl/assets/img/help/4-choose-a-password.png" class="mt3 mb3 block" alt="Choose password help image" />
+
       #### Enter your phone number and confirm it
-
       Next, you will enter a phone number at which you can get calls or SMS messages. If you have a landline, please ask for a security code by a phone call. We will send a unique security code to that phone number each time you sign into your account. This is called two-factor authentication. The second step keeps your account more secure than using only a password.
+      <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
 
-      Each security code expires after 5 minutes and can only be used once. If you don't enter the security code within 5 minutes, just request a new code. Each code is only good once, so no one can steal one you've already used.
+      Each security code expires after 10 minutes and can only be used once. If you don’t enter the security code within 10 minutes, just request a new code. Each code is only good once, so no one can steal one you’ve already used.
+      <img src="site.baseurl/assets/img/help/text-confirmation-code.png" class="mt3 mb3 block" alt="Phone text confirmation code help image" />
 
-      Type the security code into the field. That's it! You have just taken an important step to keep yourself and your government safe. Every time you sign back into your login.gov account, you will receive a new security code that you need to enter. You'll get the option each time you sign in to get a security code by a phone call or by SMS.
+      Type the security code into the field. That’s it! Every time you sign back into your login.gov account, you will receive a new security code that you need to enter. You’ll get the option each time you sign in to get a security code by a phone call or by SMS.
+      <img src="site.baseurl/assets/img/help/6-enter-one-time-security-code.png" class="mt3 mb3 block" alt="Enter security code help image" />
 
       #### Save your personal key
+      After you’ve created your account, you will get a personal key, which is a set of 16 random characters.
+      <img src="site.baseurl/assets/img/help/7-personalkey.png" class="mt3 mb3 block" alt="Store your personal key help image" />
+      It’s very important that you make a note of your personal key and store it safely. If you lose access to your phone, you can enter the personal key to access your services or applications.
 
-      After you've created your account, you will get a personal key, which is a set of 16 random characters. Make a note of them and store the note separately from your phone. If you forget your password or don't have your phone, you can enter the personal key to access your services or applications.
+      To make sure you’ve stored your personal key, the last step in creating your account is entering the key you were just given.
+      <img src="site.baseurl/assets/img/help/8-personalkey.png" class="mt3 mb3 block" alt="Enter your personal key help image" />
+
     i-didnt-receive-a-confirmation-email-from-logingov: |-
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
 
@@ -723,7 +741,7 @@ help_pages:
       For more information, go to [https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html){:target="_blank"}.
     dont-know-passid: |-
       Once you have created a login.gov username and password and successfully signed into [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"}, you will be asked to enter your PASSID in order to link your old GOES profile to the new login.gov credentials. If you do not have your PASSID, you will be prompted for security questions and additional information by TTP.
-      
+
       If you have trouble with your PASSID or GOES username and password, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
     another-question: |-
       If you have a question or problem that was not covered by this page, please contact us at [hello@login.gov](mailto:hello@login.gov).
@@ -741,7 +759,7 @@ help_pages:
     sign-in-doesnt-work: |-
       You will no longer be able to use your GOES User ID and password to sign in. Please create a new login.gov account. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. No credit card or payment will be required.
 
-      To register a new account:  
+      To register a new account:
 
       1. Please visit [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}
       2. If you are a new user, select “Get Started” in the middle of the page. If you are a returning user, select “LOG IN” on the upper right hand corner.
@@ -751,14 +769,14 @@ help_pages:
       6. Wait for an email confirmation & follow the instructions in the email
       7. Continue with the account creation process as described here: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
       8. You should now see a page that looks like this:
-      <img src="/assets/img/created_acount.png" class="mt3 mb3 block" alt="Login.gov created account page" />
+      <img src="site.baseurl/assets/img/created_acount.png" class="mt3 mb3 block" alt="Login.gov created account page" />
 
       9. Click “Continue” to go back to the Trusted Traveler Programs website
       10. You should now see a page that looks like this:
-      <img src="/assets/img/trusted_traveler_program.png" class="mt3 mb3 block" alt="Trusted traveler account profile" />
+      <img src="site.baseurl/assets/img/trusted_traveler_program.png" class="mt3 mb3 block" alt="Trusted traveler account profile" />
 
       11. Fill out your info on that page, and at the bottom, you will see a section for previous applications. Under “Have you ever applied for Global Entry, NEXUS, or SENTRI?”, click “Yes”. It looks like this:
-      <img src="/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
+      <img src="site.baseurl/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
 
 
       If you have any other questions about creating an account with login.gov please refer to our FAQ as our call center volume is extremely high this week: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
@@ -794,9 +812,17 @@ help_pages:
       a new security code. Each security code is only good once, so no one can steal
       one you've already used. We limit requests to three every 15 minutes, but otherwise
       you can request as many codes as you need.
-    what-is-an-authenticator-app: A mobile security application that generates security
-      codes for signing in. You can use the app to get codes even if you don't have
-      an internet connection or mobile service.
+    what-is-an-authentication-app: |-
+      Authentication apps generate security codes for signing in to sites that require a high level of security. You can use these apps to get security codes even if you don’t have an internet connection or mobile service.
+
+      You can set up an authentication app to generate your login.gov security code. First, you’ll need to download an authentication app to your computer or phone. After installing and configuring the application to work with login.gov, you will be able to receive security codes without a phone number. Some options for authentication apps include:
+
+        - Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+        - iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+        - Windows apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}, [OneLogin OTP](https://support.onelogin.com/hc/en-us/articles/201174454-OneLogin-OTP-for-Windows-Desktop){:target="_blank"}
+        - Mac apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
+        - Chrome extensions: [SecureAuth OTP](https://chrome.google.com/webstore/detail/secureauth-otp/cjpfiickajaodicfcmkfgdicnlhaompc?hl=en-US){:target="_blank"}, [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
+
     why-does-the-system-log-me-out: |-
       When a user is already signed in, and they want to change their email, password, or phone number, they must enter their current password first. After three incorrect guesses, the user is signed out.
 
@@ -813,7 +839,7 @@ help_pages:
     security-code: |-
       You can choose to receive the one time security code via text or phone call if you have a U.S. based cell phone. Landlines can only receive a phone call. If you’re outside the U.S., most phone numbers can only receive a text.
 
-      As an alternative to receiving a text or phone call, you can also [use an authenticator app after successfully creating your account](/help/signing-in/what-is-an-authenticator-app/).
+      As an alternative to receiving a text or phone call, you can also [use an authentication app after successfully creating your account](/help/signing-in/what-is-an-authentication-app/).
     gov-mil-edu-email-address: |-
       We recommend you don’t use a .gov, .mil or .edu email address, because if you leave your government or military position or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password.
 
