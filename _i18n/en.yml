@@ -118,9 +118,9 @@ security_page:
   heading: How login.gov keeps personal information private
   content:
     p_1: |-
-      login.gov encrypts the personal information of each user separately,
-      using a unique value generated from each user’s password. Our
-      encryption method works like a safe deposit box in a bank vault.
+      login.gov encrypts the sensitive personal information of each user
+      separately using a unique value generated from each user’s password. 
+      Our encryption method works like a safe deposit box in a bank vault.
       Only the user has the key. Only the user can open the box to reveal
       the contents. Only the user knows the password, and only the user can
       decrypt their information.
