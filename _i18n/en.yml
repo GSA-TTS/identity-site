@@ -145,7 +145,7 @@ security_page:
     heading: Your personal key
     p_1: |-
       Encrypting personal data separately means that login.gov cannot
-      share any information with other government entities without
+      share any sensitive information with other government entities without
       users’ permission. Not even database administrators can decrypt
       a user’s personal information without the user’s password.
   footer:
