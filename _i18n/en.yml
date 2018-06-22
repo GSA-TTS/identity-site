@@ -467,7 +467,6 @@ help:
     schedule-an-appointment: Can you help with scheduling an appointment?
     application-status: What is the status of my application?
     known-traveler-number: Will my KTN (Known Traveler Number) change?
-    whats-going-on: I’m seeing a lot of changes on the Trusted Travelers Programs site. What’s going on?
   signing-in:
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: I can't
       remember where my personal key is and I don't have my phone with me.
@@ -701,10 +700,6 @@ help_pages:
       administrators can decrypt or access a user's personal information without the
       user's password.
   trusted-traveler-programs:
-    whats-going-on: |-
-      This week, login.gov saw higher than expected volume which caused downtime and delays for many users. We apologize for any inconvenience. We have scaled up our infrastructure to support the increased server load and the system should be stable going forward.
-
-      Please see if your question is answered here. If you have more questions or problems, feel free to [contact us](/contact/).
     application-status: |-
       Sign in to the [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} to find out the status of your application.
 
