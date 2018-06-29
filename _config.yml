@@ -69,6 +69,7 @@ help_pages:
 - privacy-and-security
 - trusted-traveler-programs
 - usajobs
+- sam
 
 # Per-section configs
 playbook:
