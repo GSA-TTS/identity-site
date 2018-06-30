@@ -6,4 +6,5 @@ node_modules/
 .jekyll-metadata
 .python-version
 *.log
+*.swp
 .DS_Store
