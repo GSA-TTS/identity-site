@@ -462,6 +462,7 @@ help:
     no-longer-have-email: What should I do if I no longer have access to the email I used to create my SAM.gov account?
     change-account-settings: How do I change my account settings?
     have-account-different-email: I already have a login.gov account but the email is not the same as my SAM email?
+    relink-my-profile: How do I relink my SAM profile after deleting my login.gov account?
     why-is-sam-using-login-gov: Why is SAM using login.gov?
   signing-in:
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: I can't
@@ -491,11 +492,13 @@ help:
     schedule-an-appointment: Can you help with scheduling an appointment?
     application-status: What is the status of my application?
     known-traveler-number: Will my KTN (Known Traveler Number) change?
+    relink-my-profile: How do I relink my Trusted Traveler profile after deleting my login.gov account?
   usajobs:
     what-happens-to-my-profile: What will happen to my USAJOBS Profile?
     what-email-address-do-i-use: What email address do I use to create a login.gov account?
     security-code: What do I need to receive the login.gov security code?
     gov-mil-edu-email-address: Should I use a .gov, .mil and .edu email address?
+    relink-my-profile: How do I relink my USAJOBS profile after deleting my login.gov account?
     profile-information: What if I don’t see my USAJOBS profile information after I create a login.gov account?
 policies:
 - section: Our privacy practices
@@ -724,7 +727,7 @@ help_pages:
     where-is-my-profile-info: |-
       If you are an existing SAM user and don’t see your SAM.gov profile after signing in, this means you did not use the same email address you registered with SAM.gov. To update your email address to match your SAM.gov registered email you’ll need to:
 
-        1. Go to [https://www.login.gov/](https://www.login.gov/){:target="_blank"} and
+        1. Go to [https://www.login.gov/](https://www.login.gov/) and
         2. Click “Manage Account” to sign in
         3. Click “edit” next to your email
         4. Enter the correct email address and click “update”
@@ -738,7 +741,7 @@ help_pages:
     change-account-settings: |-
       To make changes and updates to information tied to your login.gov account (email, phone number, personal key, etc.), you must sign in to your login.gov account:
 
-        1. Go to [https://www.login.gov/](https://www.login.gov/){:target="_blank"} and click “Manage Account”
+        1. Go to [https://www.login.gov/](https://www.login.gov/) and click “Manage Account”
         2. Sign in using your login.gov credentials
 
       Once logged in, you will be able to edit and update your login.gov information.
@@ -754,6 +757,16 @@ help_pages:
         1. **Update your SAM.gov email**: Before 6:00 pm EST on Friday, June 29th, you can update your SAM.gov email to the email address you used to create your login.gov account. When you sign on to SAM.gov using login.gov for the first time, your profile will automatically link.
         2. **Change your login.gov email**: You can change your login.gov email to match your SAM.gov email address. You must change your login.gov email before signing into SAM using login.gov. Changing your email will not affect your profiles with other government applications, and once you’ve signed into SAM.gov and linked your profile, you can change your login.gov email back to the original email used. To change your login.gov email, do the following:
         3. **Create another login.gov account**: You can also create a new login.gov account using the same email registered with SAM.
+    relink-my-profile: |-
+      If you cannot sign into your SAM account because you’ve permanently lost access to your security method and personal key, you can reset your account by deleting it. 
+
+      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will unlink your SAM profile. You must follow the below steps to relink your account:
+
+      1. To delete your account, sign in at [https://sam.gov/](https://sam.gov/). When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link. 
+      2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. Click "Yes, continue deletion" to proceed. 
+      3. You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.  
+      4. After you delete your account, go to [https://sam.gov/](https://sam.gov/) to create a new account.
+      5. If you have used the correct email address, your SAM profile will automatically link once you’ve signed in.
     why-is-sam-using-login-gov: |-
       login.gov uses two-factor authentication, and stronger passwords, that meet new [National Institute of Standards of Technology](https://www.nist.gov/){:target="_blank"} requirements for secure validation and verification. By using login.gov, you’ll get an extra layer of security to help protect your SAM.gov profile against password compromises.
         - **Do I have to create a login.gov account to sign into SAM?**
@@ -837,11 +850,36 @@ help_pages:
 
       If you have any other questions about creating an account with login.gov please refer to our FAQ as our call center volume is extremely high this week: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
 
+    relink-my-profile: |-
+
+      If you cannot sign into your Trusted Traveler account because you’ve permanently lost access to your security method and personal key, you can reset your account by deleting it. 
+
+      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will unlink your Trusted Traveler profile. You must follow the below steps to relink your account:
+
+      1. To delete your account, sign in at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/).  When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link. 
+      2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. Click "Yes, continue deletion" to proceed. 
+      3. You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.  
+      4. After you delete your account, go to [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/) to create a new account.
+      5. Once you have created a new account, fill out the information on the account profile page, and at the bottom, you will see a section for previous applications. Under “Have you ever applied for Global Entry, NEXUS, or SENTRI?”, click “Yes.”
+      6. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask).
+
   signing-in:
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: |-
-      If you don't have your phone or your personal key, you may need to create a new account and re-verify your personal information. To create a new account, you will need to use a different email address than you did when you created your first account. For urgent matters — for example, to check the status of an in-progress application — you may want to directly contact the government agency.
+      If you cannot sign into your login.gov account because you’ve permanently lost access to your security method and personal key, you may need to reset your account by deleting it. 
 
-      Another option is to log in at a later time when you have your phone near you.
+      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will remove any agency applications you have linked to your account, and you will need to restore each connection. 
+
+      To delete your account, either sign in via your agency application or by visiting [https://secure.login.gov/](https://secure.login.gov/). When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
+      
+      Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. Click "Yes, continue deletion" to proceed.
+      
+      You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.
+
+      ### Relevant Articles
+      [How do I relink my USAJOBS profile after deleting my login.gov account?](site.baseurl/help/usajobs/relink-my-profile)
+      [How do I relink my Trusted Traveler profile after deleting my login.gov account?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+      [How do I relink my SAM profile after deleting my login.gov account?](site.baseurl/help/sam/relink-my-profile)
+  
     i-forgot-which-email-address-i-used-to-create-an-account: |-
       If you can't remember which email address you used to create your account, you can use the password reset function to see if your email address is on file.
 
@@ -900,3 +938,18 @@ help_pages:
       We recommend you don’t use a .gov, .mil or .edu email address, because if you leave your government or military position or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password.
 
       If your USAJOBS primary or secondary email address is a .gov, .mil or .edu email address, you may want to consider changing it AFTER you get through the login.gov account set-up and USAJOBS profile linking process.
+      As an alternative to receiving a text or phone call, you can also [use an authentication app after successfully creating your account](/help/signing-in/what-is-an-authentication-app/).
+    relink-my-profile: |-
+      If you cannot sign into your USAJOBS account because you’ve permanently lost access to your security method and personal key, you can reset your account by deleting it. 
+
+      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will unlink your USAJOBS profile. You must follow the below steps to relink your account
+
+      1. To delete your account, sign in at [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"}. When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link. 
+      2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings and click "Yes, continue deletion" to proceed. 
+      3. You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.  
+      4. After you delete your account, you must contact the USAJOBS helpdesk to unlink your account. You will have to answer security questions to do this. NOTE You must first unlink your account before creating a new one. If you do not unlink your account before you create a new one, we will not be able to link your accounts. 
+      5. Go to [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} to create a new login.gov account, using the same email address.
+      6. If you followed these steps in this order and used the correct email, your profile will automatically link.
+
+      If you have any questions about linking your account, please contact the USAJOBS helpdesk. 
+
