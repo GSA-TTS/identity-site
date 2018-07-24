@@ -672,8 +672,10 @@ help_pages:
     why-didnt-i-receive-a-security-code-to-confirm-my-phone: |-
       If you didn't receive a security code, check whether you entered your phone number correctly.
 
-      - Did you enter a wrong phone number? Look for the option to enter it again.
-      - If it's the right number, request the code again. Receive it by SMS or by a phone call on a landline or a mobile phone.
+      - Did you enter a wrong phone number? Look for the option to enter it again. If you have a non-U.S. number, make sure you select the correct country code. 
+      - If you have a landline, please make sure to pick the “Phone call” option under “How would you like to receive your security code?” We cannot send a text message to landlines.
+      - If you have an international phone number, make sure you select to receive the security code by text message. login.gov does not support sending security codes to international landlines at this time.
+      - If it's the right number, make sure you have service and request the code again. You can receive the code by text message or by a phone call.
     why-do-i-need-to-confirm-my-email-address-and-my-phone-number: login.gov uses
       your email address and phone number to send important security messages about
       account activity. We won't use them for any other purposes, and we won't share
