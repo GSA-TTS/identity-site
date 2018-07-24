@@ -450,6 +450,8 @@ help:
       confirm my email address and my phone number?
     why-do-i-need-to-use-logingov-to-access-government-services-online: Why do I need
       to use login.gov to access government services online?
+      confirm my email address and my phone number?
+    why-is-my-confirmation-link-invalid: Why is my confirmation link invalid?
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove
       a saved password or login information from my browser?
@@ -680,6 +682,15 @@ help_pages:
       Government agencies decide for themselves how they want to interact with the public. You were sent to login.gov because the service or program you want to use has chosen to take advantage of the efficiency and security of login.gov as a shared technology platform. Once you have finished at login.gov, you will be directed back to the agency.
 
       We hope login.gov is a convenient and secure option for you. However, if you prefer not to use login.gov, you can always access government services. You'll find more information at your agency.
+      them with anyone without your express permission.
+    why-is-my-confirmation-link-invalid: |-
+      Email confirmation links expire after 24 hours. Click “resend” to get a new confirmation email or start the process over by clicking “create account” and entering your email address.
+
+      If you have requested more than one confirmation email, you must use the most recent email. All links in older emails will be invalid. 
+
+      If the confirmation link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter. 
+
+      For additional help, please send an email to [hello@login.gov](mailto:hello@login.gov).
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       If you accidentally saved your login.gov password or other sign-in information in your browser, it's a good idea for you to delete it; this will help you keep your account more secure. From the following list, select the browser (the computer program you use to access the World Wide Web) you use to learn how to make it erase any saved information:
