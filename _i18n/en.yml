@@ -452,6 +452,7 @@ help:
       to use login.gov to access government services online?
       confirm my email address and my phone number?
     why-is-my-confirmation-link-invalid: Why is my confirmation link invalid?
+    what-is-my-personal-key: What is my personal key?    
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove
       a saved password or login information from my browser?
@@ -697,6 +698,14 @@ help_pages:
       If the confirmation link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter. 
 
       For additional help, please send an email to [hello@login.gov](mailto:hello@login.gov).
+    what-is-my-personal-key: |-
+      A personal key is a 16-character secret code we give you when you create an account. The personal key is the only way to sign in if you lose access to the device you use for two-factor authentication. 
+      
+      You can only use your personal key once.  You will receive a new personal key each time you use it to sign in, and your old one will no longer work.
+      
+      Because a personal key is the only way to recover your account, make sure to store it in a safe place. Some good ways of storing your personal key include writing it down, taking a screenshot, pasting it into a secure document, or making a printout of it. 
+      
+      [Read more on how to sign in using your personal key](/todo/link)      
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       If you accidentally saved your login.gov password or other sign-in information in your browser, it's a good idea for you to delete it; this will help you keep your account more secure. From the following list, select the browser (the computer program you use to access the World Wide Web) you use to learn how to make it erase any saved information:
