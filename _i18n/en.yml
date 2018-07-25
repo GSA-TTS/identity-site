@@ -436,6 +436,7 @@ help:
     how-do-i-change-my-password: How do I change my password?
     how-do-i-change-the-phone-number-i-am-using-with-my-account: How do I change the
       phone number I am using with my account?
+    how-do-I-get-a-new-personal-key: How do I get a new personal key?
   creating-an-account:
     do-i-need-a-mobile-phone-to-use-logingov: I don’t have a phone. Can I still use login.gov?
     how-do-i-create-an-account-with-logingov: How do I create an account with login.gov?
@@ -486,6 +487,7 @@ help:
     why-didnt-i-receive-a-security-code: Why didn’t I receive a security code?
     my-reset-password-link-is-invalid: My reset password link is invalid
     why-didnt-I-receive-a-reset-password-email-from-logingov: Why didn’t I receive a reset password email from login.gov?
+    why-is-my-personal-key-invalid: Why is my personal key invalid?
   trusted-traveler-programs:
     sign-in-doesnt-work: I’m trying to sign in, but it doesn’t work / I’m trying to reset my password, but I don’t get an email / I did not get an email confirmation
     aol-verizon: I use AOL/Verizon for email and I did not get an email confirmation
@@ -618,6 +620,11 @@ help_pages:
       number where you get your security code, select Edit next to the phone number
       and enter the new phone number. login.gov will immediately send your security
       code to confirm the new phone number.
+    how-do-I-get-a-new-personal-key: |-
+      To request a new personal key, go to [https://www.login.gov/](https://www.login.gov/) and click “Manage Account” to sign into sign into your login.gov account page. Next to personal key click “Get a new key.” Follow the instructions to write down and/or print out the new personal key and click to continue. Remember, you can only request a new personal key if you are able to sign into your login.gov account. 
+
+      Store your personal key in a safe place as this is the only way you can sign in if you can’t receive a security code. Some good ways of storing your personal key include writing it down, taking a screenshot, pasting it into a secure document, or making a printout of it. You can only use each personal key only once, after which we’ll give you another.
+
   creating-an-account:
     do-i-need-a-mobile-phone-to-use-logingov: |-
       login.gov requires all users to use two-factor authentication when creating an account and signing in. You can receive security codes using a mobile phone or landline. Mobile phones can receive security codes by text message or phone call. Landlines can receive security codes only by a phone call. login.gov cannot send security codes to extensions. 
@@ -982,6 +989,12 @@ help_pages:
 
     why-didnt-I-receive-a-reset-password-email-from-logingov: |-
       If you didn't receive a reset email, check your spam filter. If you add “no-reply@login.gov” to your contact list, your email provider will not send it to spam. Alternatively, you may have accidentally mistyped your email address. If you are confident you entered the correct address, choose "Send again" to get a new password reset email. If you are still not receiving emails, we recommend you contact your email provider about the issue or check your account settings if you are forwarding your email.
+
+    why-is-my-personal-key-invalid: |-
+      A personal key is a 16-character secret code we give you when you create an account. The personal key is the only way to sign in if you lose access to the device you use for two-factor authentication. You can only use your personal key once.  You will receive a new personal key each time you use it to sign in, and your old one will no longer work.
+
+      If you are being told your personal key is invalid, you have either typed it in incorrectly or you have already used it to sign in and it is no longer valid. If you have already used your personal key to sign in, you were given a new one that must be used to sign in.
+
 
   usajobs:
     what-happens-to-my-profile: |-
