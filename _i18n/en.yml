@@ -484,6 +484,7 @@ help:
     what-is-an-authentication-app: What is an authentication app?
     why-does-the-system-log-me-out: Why does the system log me out?
     why-didnt-i-receive-a-security-code: Why didn’t I receive a security code?
+    my-reset-password-link-is-invalid: My reset password link is invalid
   trusted-traveler-programs:
     sign-in-doesnt-work: I’m trying to sign in, but it doesn’t work / I’m trying to reset my password, but I don’t get an email / I did not get an email confirmation
     aol-verizon: I use AOL/Verizon for email and I did not get an email confirmation
@@ -968,6 +969,15 @@ help_pages:
         - If you have a landline, please make sure to pick the “Phone call” option under “How would you like to receive your security code?” We cannot send a text message to landlines.
         - If you have an international phone number, make sure you select to receive the security code by text message. login.gov does not support sending security codes by phone call to international numbers at this time.
         - If it's the right number, make sure you have service and request the code again. You can receive the code by text message or by a phone call.
+
+    my-reset-password-link-is-invalid: |-
+      Reset password links expire after 6 hours. If this has happened, click “Resend” to get a new reset password link or click “forgot password” and enter your email address.
+
+      If you have requested more than one reset password link, you must use the link in the most recent email. All links in older emails will be invalid.
+
+      If the reset password link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter. 
+
+      For additional help, contact us at [hello@login.gov](mailto:hello@login.gov)
 
   usajobs:
     what-happens-to-my-profile: |-
