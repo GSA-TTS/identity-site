@@ -483,6 +483,7 @@ help:
       code?
     what-is-an-authentication-app: What is an authentication app?
     why-does-the-system-log-me-out: Why does the system log me out?
+    why-didnt-i-receive-a-security-code: Why didn’t I receive a security code?
   trusted-traveler-programs:
     sign-in-doesnt-work: I’m trying to sign in, but it doesn’t work / I’m trying to reset my password, but I don’t get an email / I did not get an email confirmation
     aol-verizon: I use AOL/Verizon for email and I did not get an email confirmation
@@ -960,6 +961,14 @@ help_pages:
       When a user is already signed in, and they want to change their email, password, or phone number, they must enter their current password first. After three incorrect guesses, the user is signed out.
 
       The system also logs you out if you entered the security code that was sent to your phone, incorrectly 3 times. Failed attempts are limited to three per session, followed by a 5-minute lockout.
+
+    why-didnt-i-receive-a-security-code: |-
+      If you didn’t receive a security code, check whether you entered your phone number correctly.
+        - Did you enter a wrong phone number? Look for the option to enter it again. If you have a non-U.S. number, make sure you select the correct country code. 
+        - If you have a landline, please make sure to pick the “Phone call” option under “How would you like to receive your security code?” We cannot send a text message to landlines.
+        - If you have an international phone number, make sure you select to receive the security code by text message. login.gov does not support sending security codes by phone call to international numbers at this time.
+        - If it's the right number, make sure you have service and request the code again. You can receive the code by text message or by a phone call.
+
   usajobs:
     what-happens-to-my-profile: |-
       Nothing will happen to the information stored in your USAJOBS profile. You’ll keep all of your applications, saved searches and saved jobs.
