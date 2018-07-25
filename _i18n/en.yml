@@ -485,6 +485,7 @@ help:
     why-does-the-system-log-me-out: Why does the system log me out?
     why-didnt-i-receive-a-security-code: Why didn’t I receive a security code?
     my-reset-password-link-is-invalid: My reset password link is invalid
+    why-didnt-I-receive-a-reset-password-email-from-logingov: Why didn’t I receive a reset password email from login.gov?
   trusted-traveler-programs:
     sign-in-doesnt-work: I’m trying to sign in, but it doesn’t work / I’m trying to reset my password, but I don’t get an email / I did not get an email confirmation
     aol-verizon: I use AOL/Verizon for email and I did not get an email confirmation
@@ -978,6 +979,9 @@ help_pages:
       If the reset password link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter. 
 
       For additional help, contact us at [hello@login.gov](mailto:hello@login.gov)
+
+    why-didnt-I-receive-a-reset-password-email-from-logingov: |-
+      If you didn't receive a reset email, check your spam filter. If you add “no-reply@login.gov” to your contact list, your email provider will not send it to spam. Alternatively, you may have accidentally mistyped your email address. If you are confident you entered the correct address, choose "Send again" to get a new password reset email. If you are still not receiving emails, we recommend you contact your email provider about the issue or check your account settings if you are forwarding your email.
 
   usajobs:
     what-happens-to-my-profile: |-
