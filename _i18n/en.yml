@@ -437,7 +437,7 @@ help:
     how-do-i-change-the-phone-number-i-am-using-with-my-account: How do I change the
       phone number I am using with my account?
   creating-an-account:
-    do-i-need-a-mobile-phone-to-use-logingov: Do I need a mobile phone to use login.gov?
+    do-i-need-a-mobile-phone-to-use-logingov: I don’t have a phone. Can I still use login.gov?
     how-do-i-create-an-account-with-logingov: How do I create an account with login.gov?
     i-didnt-receive-a-confirmation-email-from-logingov: I didn't receive a confirmation
       email from login.gov.
@@ -467,8 +467,7 @@ help:
     relink-my-profile: How do I relink my SAM profile after deleting my login.gov account?
     why-is-sam-using-login-gov: Why is SAM using login.gov?
   signing-in:
-    i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: I can't
-      remember where my personal key is and I don't have my phone with me.
+    how-do-i-sign-in-if-i-dont-have-my-phone-or-my-personal-key: How do I sign in if I don’t have my phone or my personal key?
     i-forgot-which-email-address-i-used-to-create-an-account: I forgot which email
       address I used to create an account.
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: If I don't have my phone
@@ -615,10 +614,14 @@ help_pages:
       and enter the new phone number. login.gov will immediately send your security
       code to confirm the new phone number.
   creating-an-account:
-    do-i-need-a-mobile-phone-to-use-logingov: You do not need to own a mobile phone
-      to use login.gov. You do need to provide a phone number – either a landline
-      or a mobile phone – at which you can receive security codes every time you sign
-      in either by SMS or phone call.
+    do-i-need-a-mobile-phone-to-use-logingov: |-
+      login.gov requires all users to use two-factor authentication when creating an account and signing in. You can receive security codes using a mobile phone or landline. Mobile phones can receive security codes by text message or phone call. Landlines can receive security codes only by a phone call. login.gov cannot send security codes to extensions. 
+ 
+      If you do not have a phone, you can also set up your account using an authentication application on the device you are using to sign in. Once you have created your account, you can also use your personal key to sign in. 
+
+      [Read more on how to set up an authentication application](site.baseurl/help/signing-in/what-is-an-authentication-app/)
+      Read more on how to sign in using your personal key
+
     how-do-i-create-an-account-with-logingov: |-
       #### How do you create an account with login.gov?
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
@@ -877,12 +880,12 @@ help_pages:
       6. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask).
 
   signing-in:
-    i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: |-
+    how-do-i-sign-in-if-i-dont-have-my-phone-or-my-personal-key: |-
       If you cannot sign into your login.gov account because you’ve permanently lost access to your security method and personal key, you may need to reset your account by deleting it. 
 
-      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will remove any agency applications you have linked to your account, and you will need to restore each connection. 
+      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will remove any agency applications you have linked to your account. We recommend you use the articles listed below to learn how to relink your account after deleting it. 
 
-      To delete your account, either sign in via your agency application or by visiting [https://secure.login.gov/](https://secure.login.gov/). When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
+      To delete your account, either sign in via your agency application or by visiting [https://secure.login.gov/](https://secure.login.gov/). When you are prompted to enter your security code, click the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
       
       Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. Click "Yes, continue deletion" to proceed.
       
