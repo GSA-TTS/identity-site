@@ -676,15 +676,15 @@ help_pages:
       - If you mistyped your address, you can create a new account.
       - If you are certain you entered the correct address, choose “Send again” to get a new confirmation email.
     what-do-i-do-if-an-account-already-exists-under-my-email-address: |-
-      Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in].
+      Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in](site.baseurl/help/signing-in/how-do-i-reset-my-password).
  
       Please contact [hello@login.gov](mailto:hello@login.gov) if you are sure you did not create an account. 
       
-      What is two-factor authentication
+      [What is two-factor authentication](site.baseurl/help/creating-an-account/what-is-two-factor-authentication/)
       
-      Why do I need to confirm my email address and phone number
+      [Why do I need to confirm my email address and phone number](site.baseurl/help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/)
       
-      Why do I need to use login.gov to access government services online?
+      [Why do I need to use login.gov to access government services online?](site.baseurl/help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/)
 
     what-is-two-factor-authentication: login.gov uses two-factor authentication to
       keep accounts secure. As its name implies, two-factor authentication (sometimes
