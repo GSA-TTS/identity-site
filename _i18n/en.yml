@@ -896,16 +896,6 @@ help_pages:
       8. You should now see a page that looks like this:
       <img src="site.baseurl/assets/img/created_acount.png" class="mt3 mb3 block" alt="Login.gov created account page" />
 
-      9. Click “Continue” to go back to the Trusted Traveler Programs website
-      10. You should now see a page that looks like this:
-      <img src="site.baseurl/assets/img/trusted_traveler_program.png" class="mt3 mb3 block" alt="Trusted traveler account profile" />
-
-      11. Fill out your info on that page, and at the bottom, you will see a section for previous applications. Under “Have you ever applied for Global Entry, NEXUS, or SENTRI?”, click “Yes”. It looks like this:
-      <img src="site.baseurl/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
-
-
-      If you have any other questions about creating an account with login.gov please refer to our FAQ as our call center volume is extremely high this week: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
-
     relink-my-profile: |-
 
       If you cannot sign into your Trusted Traveler account because you’ve permanently lost access to your security method and personal key, you can reset your account by deleting it. 
