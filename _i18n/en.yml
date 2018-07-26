@@ -1005,7 +1005,25 @@ help_pages:
     what-email-address-do-i-use: |-
       To keep your USAJOBS profile information, you need to use your primary or secondary USAJOBS email when you create your login.gov account. When you use the same email address, USAJOBS will automatically link your profile to the login.gov account. If you use a different email address when signing up for login.gov, USAJOBS won't be able to automatically link your profile. But, you can use your USAJOBS primary or secondary email address to help you search for your profile.
     profile-information: |-
-       If USAJOBS can’t find your profile information, you’ll be signed in as Guest. If you think you have a USAJOBS profile, first try the “Already have a profile?” option. USAJOBS will walk you through a few steps to find your profile.  If you’re still having issues linking to your profile, contact the USAJOBS Help Desk.
+       If USAJOBS can’t find your profile information, you’ll be signed in as Guest. 
+
+        To find your USAJOBS profile, follow these steps:
+
+          1. Sign into USAJOBS
+          2. Click the “find existing profile” button
+          3. Enter your email address and click “send email”
+          4. Check your email and follow the instructions to confirm your account.
+
+        If you receive an email that says the email address is not associated with a USAJOBS account, we recommend trying to link your profile using a different email. 
+
+        If you are unable to link your profile or you no longer have access to the email address you used to create your USAJOBS profile, you can click “lost access to your email addresses” to contact the USAJOBS Help Center for additional support or use this link: [https://www.usajobs.gov/Help/faq/account/no-profile/](https://www.usajobs.gov/Help/faq/account/no-profile/)
+
+        [What email address do I use to create a login.gov account?](https://www.login.gov/help/usajobs/what-email-address-do-i-use/)
+
+        [Should I use a .gov, .mil, or .edu email address?](https://www.login.gov/help/usajobs/gov-mil-edu-email-address/)
+
+        [How do I relink my USAJOBS profile after deleting my login.gov account?](https://www.login.gov/help/usajobs/relink-my-profile/)
+
     security-code: |-
       You can choose to receive the one time security code via text or phone call if you have a U.S. based cell phone. Landlines can only receive a phone call. If you’re outside the U.S., most phone numbers can only receive a text.
 
