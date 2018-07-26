@@ -434,8 +434,7 @@ help:
   changing-settings:
     how-do-i-change-my-email-address: How do I change my email address?
     how-do-i-change-my-password: How do I change my password?
-    how-do-i-change-the-phone-number-i-am-using-with-my-account: How do I change the
-      phone number I am using with my account?
+    how-do-i-change-the-phone-number-i-use-to-sign-in:  How do I change the phone number I use to sign in?
     how-do-I-get-a-new-personal-key: How do I get a new personal key?
   creating-an-account:
     do-i-need-a-mobile-phone-to-use-logingov: I don’t have a phone. Can I still use login.gov?
@@ -612,10 +611,11 @@ help_pages:
       To change your password, sign in at login.gov and go to your Profile page. If you want to change your password, select Edit next to password, enter the new password and submit your change. Passwords must be at least 8 characters but otherwise there are no restrictions. You can even use more than one word with spaces to get to 8 characters.
 
       Instead, try making a long and complex password by using a phrase or a series of words that only you recognize. And please make it different than any other passwords you use to sign into other accounts such as your bank account or email. Using the same passwords for your email, financial and social media accounts makes identity theft easier.
-    how-do-i-change-the-phone-number-i-am-using-with-my-account: To change the phone
-      number where you get your security code, select Edit next to the phone number
-      and enter the new phone number. login.gov will immediately send your security
-      code to confirm the new phone number.
+    how-do-i-change-the-phone-number-i-use-to-sign-in: |-
+      To change the phone number where you get your security code, go to [https://www.login.gov/](https://www.login.gov/) and click “Manage Account” to sign into your login.gov account. Once signed in, select “edit” next to the phone number. Enter the phone number and click “confirm change.” login.gov will immediately send your security code to confirm the new phone number.
+
+      If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key](site.basurl/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed). 
+
     how-do-I-get-a-new-personal-key: |-
       To request a new personal key, go to [https://www.login.gov/](https://www.login.gov/) and click “Manage Account” to sign into sign into your login.gov account page. Next to personal key click “Get a new key.” Follow the instructions to write down and/or print out the new personal key and click to continue. Remember, you can only request a new personal key if you are able to sign into your login.gov account. 
 
