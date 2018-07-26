@@ -508,6 +508,7 @@ help:
     gov-mil-edu-email-address: Should I use a .gov, .mil and .edu email address?
     relink-my-profile: How do I relink my USAJOBS profile after deleting my login.gov account?
     profile-information: What if I don’t see my USAJOBS profile information after I create a login.gov account?
+    im-trying-to-sign-in-but-it-doesnt-work: I’m trying to sign in, but it doesn’t work / I’m trying to reset my password, but I don’t get an email / I did not get an email confirmation
 policies:
 - section: Our privacy practices
   anchor: our-privacy-practices
@@ -1027,4 +1028,23 @@ help_pages:
       6. If you followed these steps in this order and used the correct email, your profile will automatically link.
 
       If you have any questions about linking your account, please contact the USAJOBS helpdesk. 
+    im-trying-to-sign-in-but-it-doesnt-work: |-
+      USAJOBS recently switched their login system to login.gov. Your USAJOBS username and password no longer work. You must create a login.gov account to sign.
+      
+      To automatically link your USAJOBS profile to your new account, you must use your primary or secondary USAJOBS email. If you don't sign up with one of these emails, we won't be able to link your profile automatically, but you can use your USAJOBS primary or secondary email address to try and recover your profile once logged in.
+
+      To register a new account:  
+        1. Go to [https://www.usajobs.gov/](https://www.usajobs.gov/)
+        2. Click “Sign in”
+        3. Click “Continue”
+        4. If you have not created a login.gov account, click "Create an account." If you already have a login.gov account, click "Sign in."
+        5. Enter your email address: this is your new username going forward
+        6. Wait for an email confirmation & follow the instructions in the email
+        7. Continue with the account creation process as described here: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](site.baseurl/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
+
+      If you sign in and don’t see your profile, you can try to recover your account by clicking “Already have a USAJOBS profile.” USAJOBS will walk you through a few steps to find your profile.
+      
+      If you’re still having issues linking your profile, contact the USAJOBS Help Center. [https://www.usajobs.gov/Help/how-to/account/#usajobs-contact-form](https://www.usajobs.gov/Help/how-to/account/#usajobs-contact-form)
+
+      If you have any other questions about creating an account with login.gov, please refer to our create account FAQ: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](site.baseurl/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
 
