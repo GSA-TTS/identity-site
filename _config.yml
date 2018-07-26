@@ -6,8 +6,8 @@ canonical_domain: www.login.gov
 # i18n
 languages:
   - en
-  # - es
-  # - fr
+  - es
+  - fr
 
 exclude_from_localizations: ["javascript", "images", "css"]
 
