@@ -475,7 +475,7 @@ help:
     how-do-i-turn-off-two-factor-authentication: How do I turn off two-factor authentication?
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: If I don't have my phone
       with me can I still sign in?
-    what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: What do I do if my password
+    how-do-i-reset-my-password: What do I do if my password
       doesn't work or I forget it?
     what-do-i-need-to-have-in-order-to-sign-in: What do I need to have in order to
       sign in?
@@ -676,9 +676,16 @@ help_pages:
       - If you mistyped your address, you can create a new account.
       - If you are certain you entered the correct address, choose “Send again” to get a new confirmation email.
     what-do-i-do-if-an-account-already-exists-under-my-email-address: |-
-      Confirming access to an email address is the first step in making a login.gov account. If you received a notice that there is already a login.gov account associated with your email address but you don't remember creating it, use your email address to sign in and go through the password reset process.
+      Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in].
+ 
+      Please contact [hello@login.gov](mailto:hello@login.gov) if you are sure you did not create an account. 
+      
+      What is two-factor authentication
+      
+      Why do I need to confirm my email address and phone number
+      
+      Why do I need to use login.gov to access government services online?
 
-      Please notify login.gov if you are sure you did not create an account, and feel like someone else is using your email address.
     what-is-two-factor-authentication: login.gov uses two-factor authentication to
       keep accounts secure. As its name implies, two-factor authentication (sometimes
       called 2FA), requires two different methods to sign into an account. Usually
@@ -933,7 +940,7 @@ help_pages:
       It is necessary to have your phone in order to get the security key to sign in. But if you don't have your phone with you, you will need the personal key you received when you created your account. Enter the personal key when instructed and select submit. Once you are signed in, you will immediately get a new personal key. Please store the personal key in a safe place separately from your phone since the personal key will let you sign in to your account in case you don't have your phone with you.
 
       We encourage you to store your personal key somewhere other than your computer or mobile device — this way, you'll be able to access your personal key even if your device is stolen or your online accounts are hacked.
-    what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: |-
+    how-do-i-reset-my-password: |-
       If you don't know your password, the link to reset it is on the sign-in page. Enter your email address to receive a link to reset your password. Once you follow the link, you'll be asked to enter a new password. Reconfirm that you have your phone (the one you will use to receive one-time passcodes).
 
 
