@@ -475,7 +475,7 @@ help:
     how-do-i-turn-off-two-factor-authentication: How do I turn off two-factor authentication?
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: If I don't have my phone
       with me can I still sign in?
-    how-do-i-reset-my-password: What do I do if my password
+    how-do-i-reset-my-password: How do I reset my password?
       doesn't work or I forget it?
     what-do-i-need-to-have-in-order-to-sign-in: What do I need to have in order to
       sign in?
@@ -941,10 +941,7 @@ help_pages:
 
       We encourage you to store your personal key somewhere other than your computer or mobile device — this way, you'll be able to access your personal key even if your device is stolen or your online accounts are hacked.
     how-do-i-reset-my-password: |-
-      If you don't know your password, the link to reset it is on the sign-in page. Enter your email address to receive a link to reset your password. Once you follow the link, you'll be asked to enter a new password. Reconfirm that you have your phone (the one you will use to receive one-time passcodes).
-
-
-      After you've successfully signed into login.gov after resetting your password, login.gov will give you a personal key. The personal key is to be used in the event you forget your password or don't have your phone with you. Make a note of it and store it separately from your phone.
+      If you don't know your password, the link to reset it is on the sign-in page. Enter your email address to receive a link to reset your password. Once you follow the link, you'll be asked to enter a new password. Your password must be 9 characters long and clear the password strength meter. Click "show password" to ensure you are typing your password correctly. You will be taken back to the sign in page after completing these steps. You can now sign in using your new login.gov password.
     what-do-i-need-to-have-in-order-to-sign-in: Every time you log into your account,
       you will need your email address, your password, and access to your phone. After
       you have entered your email address and password, login.gov will send to your
