@@ -857,7 +857,7 @@ help_pages:
     family-account: |-
       The [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} supports only one login.gov account per individual application. Each family member will need a unique email address to create a login.gov account. We completely understand you may prefer to share an email address with your family members, or do not wish to set up an email account for your children.
  
-      Some email providers may have options to create alias addresses (or, forwarding addresses). If you are a Gmail user, you have multiple email aliases point to the same inbox:
+      Some email providers may have options to create alias addresses (or, forwarding addresses). If you are a Gmail user, you can have multiple email aliases point to the same inbox:
       
       If your email is example@gmail.com, you may enter example+john@gmail.com or example+jane@gmail.com when creating a new login.gov account. login.gov will recognize each of these email addresses as unique, and all confirmation emails will be delivered to your example@gmail.com inbox.
 
