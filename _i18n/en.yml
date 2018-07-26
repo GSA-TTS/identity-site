@@ -136,7 +136,7 @@ security_page:
     p_1: |-
       Individual accounts get a double layer of security. We require
       two-factor authentication as well as strong passwords that meet
-      new NIST requirements. Two factor authentication requires that
+      new NIST requirements. two-factor authentication requires that
       you login with your password and a code that we send to your phone.
     p_2: |-
       We will evaluate and implement new authentication methods as they
@@ -440,11 +440,10 @@ help:
   creating-an-account:
     do-i-need-a-mobile-phone-to-use-logingov: I don’t have a phone. Can I still use login.gov?
     how-do-i-create-an-account-with-logingov: How do I create an account with login.gov?
-    i-didnt-receive-a-confirmation-email-from-logingov: I didn't receive a confirmation
-      email from login.gov.
+    i-didnt-receive-a-confirmation-email-from-logingov: Why didn’t I receive a confirmation email from login.gov?
     what-do-i-do-if-an-account-already-exists-under-my-email-address: What do I do
       if an account already exists under my email address?
-    what-is-two-factor-authentication: What is two factor authentication?
+    what-is-two-factor-authentication: What is two-factor authentication?
     why-didnt-i-receive-a-security-code-to-confirm-my-phone: Why didn't I receive
       a security code to confirm my phone?
     why-do-i-need-to-confirm-my-email-address-and-my-phone-number: Why do I need to
@@ -477,7 +476,6 @@ help:
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: If I don't have my phone
       with me can I still sign in?
     how-do-i-reset-my-password: How do I reset my password?
-      doesn't work or I forget it?
     what-do-i-need-to-have-in-order-to-sign-in: What do I need to have in order to
       sign in?
     why-is-my-security-code-invalid: Why is my security code invalid?
@@ -609,12 +607,12 @@ help_pages:
     how-do-i-change-my-password: |-
       To change your password, go to https://www.login.gov/ and select “Manage Account” to sign into your login.gov account. Select “Edit” next to password, enter the new password and submit your change. Passwords must be at least 9 characters but otherwise there are no restrictions. You can even use more than one word with spaces to get to 9 characters. Instead, try making a long and complex password by using a phrase or a series of words that only you recognize. And please make it different than any other passwords you use to sign into other accounts such as your bank account or email. Using the same passwords for your email, financial and social media accounts makes identity theft easier.
 
-      [Read more on how to reset your password](site.baseurl/help/signing-in/how-do-i-reset-my-passwordhow-do-i-reset-my-password/)
+      [Read more on how to reset your password](site.baseurl/help/signing-in/how-do-i-reset-my-password/)
 
     how-do-i-change-the-phone-number-i-use-to-sign-in: |-
       To change the phone number where you get your security code, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Once signed in, select “edit” next to the phone number. Enter the phone number and select “confirm change.” login.gov will immediately send your security code to confirm the new phone number.
 
-      If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key](site.basurl/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed). 
+      If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key](site.basurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed). 
 
     how-do-I-get-a-new-personal-key: |-
       To request a new personal key, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into sign into your login.gov account page. Next to personal key select “Get a new key.” Follow the instructions to write down and/or print out the new personal key and select to continue. Remember, you can only request a new personal key if you are able to sign into your login.gov account. 
@@ -643,7 +641,7 @@ help_pages:
       If you do not have a phone, you can also set up your account using an authentication application on the device you are using to sign in. Once you have created your account, you can also use your personal key to sign in. 
 
       [Read more on how to set up an authentication application](site.baseurl/help/signing-in/what-is-an-authentication-app/)
-      [Read more on how to sign in using your personal key](site.basurl/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed)
+      [Read more on how to sign in using your personal key](site.basurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed)
 
     how-do-i-create-an-account-with-logingov: |-
       #### How do you create an account with login.gov?
@@ -710,7 +708,7 @@ help_pages:
       - Did you enter a wrong phone number? Look for the option to enter it again. If you have a non-U.S. number, make sure you select the correct country code. 
       - If you have a landline, please make sure to pick the “Phone call” option under “How would you like to receive your security code?” We cannot send a text message to landlines.
       - If you have an international phone number, make sure you select to receive the security code by text message. login.gov does not support sending security codes to international landlines at this time.
-      - If it's the right number, make sure you have service and request the code again. You can receive the code by text message or by a phone call.
+      - If the number you’ve entered is correct, make sure you have service and request the code again. You can receive the code by text message or by a phone call.
     why-do-i-need-to-confirm-my-email-address-and-my-phone-number: login.gov uses
       your email address and phone number to send important security messages about
       account activity. We won't use them for any other purposes, and we won't share
@@ -735,7 +733,7 @@ help_pages:
       
       Because a personal key is the only way to recover your account, make sure to store it in a safe place. Some good ways of storing your personal key include writing it down, taking a screenshot, pasting it into a secure document, or making a printout of it. 
       
-      [Read more on how to sign in using your personal key](site.basurl/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed)      
+      [Read more on how to sign in using your personal key](site.basurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed)      
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       If you accidentally saved your login.gov password or other sign-in information in your browser, it's a good idea for you to delete it; this will help you keep your account more secure. From the following list, select the browser (the computer program you use to access the World Wide Web) you use to learn how to make it erase any saved information:
@@ -944,7 +942,7 @@ help_pages:
       you have entered your email address and password, login.gov will send to your
       phone a security code, which you will need to enter into the security code field
       in order to be logged in securely.
-    why-is-my-security-code-invalid: Every time you sign in you will need to enter a security code that is sent to your phone either by a text message or a phone call. The security code you receive expires after 10 minutes and is only valid for one use. If you miss entering the security code within the 10 minutes or you missed the phone call, you can request a new security code. Each security code is only good once, so make sure you are using the most recent security code. We limit requests to 3 every 15 minutes, but otherwise, you can request as many codes as you need.
+    why-is-my-security-code-invalid: Every time you sign in you will need to enter a security code that is sent to your phone either by a text message or a phone call. The security code you receive expires after 10 minutes and is only valid for one use. If you miss entering the security code within the 10 minutes or you missed the phone call, you can request a new security code. Each security code is only good once, so make sure you are using the most recent security code. You can only request 3 security codes every 15 minutes, but otherwise, you can request as many codes as you need.
     what-is-an-authentication-app: |-
       Authentication apps (also known as TOTP or Time-based One-Time Password apps) are not required to use login.gov. This is an advanced security feature for people familiar with TOTP. The most common way to receive your authentication code is via a text message or voice call to your phone number.
 
@@ -964,11 +962,7 @@ help_pages:
     why-am-i-locked-out-of-logingov: |-
       There are several ways you can be temporarily locked out of login.gov. 
         - You will be unable to login for 10 minutes if you incorrectly enter your security code 3 times.  
-        - You will be unable to login for 10 minutes if you request more than 10 security code in a 5 minute time period.  
-
-      [I forgot which email address I used to create an account.](site.baseurl/help/signing-in/i-forgot-which-email-address-i-used-to-create-an-account/)
-      [What do I need to sign in?](/help/signing-in/what-do-i-need-to-have-in-order-to-sign-in/)
-
+        - You will be unable to login for 10 minutes if you request more than 10 security codes in a 5 minute time period.  
 
     why-didnt-i-receive-a-security-code: |-
       If you didn’t receive a security code, check whether you entered your phone number correctly.
