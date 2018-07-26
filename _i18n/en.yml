@@ -470,6 +470,7 @@ help:
     why-is-sam-using-login-gov: Why is SAM using login.gov?
   signing-in:
     how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed: How do I sign in if I don’t have my phone or my personal key?
+    how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: How do I sign in if I don’t have my phone or my personal key?
     i-forgot-which-email-address-i-used-to-create-an-account: I forgot which email
       address I used to create an account.
     how-do-i-turn-off-two-factor-authentication: How do I turn off two-factor authentication?
@@ -918,8 +919,13 @@ help_pages:
         4. Enter the original personal key you received when you created your account.
         5. You will receive a new personal key. Enter it into the field, click “Continue.” *NOTE*: You will be given a new personal key every time you use it to sign in. If you plan to use your personal key each time, you must always use the newest version of it.
       
-      If you have permanently lost access to your phone and you don’t have your personal key, login.gov cannot recover your account for security reasons. Your only options are to delete your current login.gov account so you can create a new one using the same email address or create a new login.gov account using a new email address. [Read more on how to delete your login.gov account].
+      If you have permanently lost access to your phone and you don’t have your personal key, login.gov cannot recover your account for security reasons. Your only options are to delete your current login.gov account so you can create a new one using the same email address or create a new login.gov account using a new email address. [Read more on how to delete your login.gov account](site.baseurl/help/signing-in/how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key).
 
+  
+    how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: |-
+      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will remove any agency applications you have linked to your account. We recommend you use the articles listed below to learn how to relink your account after deleting it.
+
+      To delete your account, either sign in via your agency application or by visiting [https://secure.login.gov/](https://secure.login.gov/). When you are prompted to enter your security code, click the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
   
     i-forgot-which-email-address-i-used-to-create-an-account: |-
       If you can't remember which email address you used to create your account, you can use the password reset function to see if your email address is on file.
