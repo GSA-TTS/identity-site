@@ -663,7 +663,9 @@ help_pages:
       <img src="site.baseurl/assets/img/help/4-choose-a-password.png" class="mt3 mb3 block" alt="Choose password help image" />
 
       #### Enter your phone number and confirm it
-      Next, you will enter a phone number at which you can get phone calls or text messages. If you have a landline, you must receive your security code by phone call. login.gov cannot send security codes to extensions.  We will send a unique security code to that phone number each time you sign into your account. This is called two-factor authentication. The second step keeps your account more secure than using only a password. You can also use an authentication app on your phone or your browser. Read more on how to set up an authentication app. [Read more on how to set up an authentication app.](site.baseurl/help/changing-settings/how-do-i-set-up-an-authentication-app)
+      Next, you will enter a phone number at which you can get phone calls or text messages. If you have a landline, you must receive your security code by phone call. login.gov cannot send security codes to extensions.  
+      
+      We will send a unique security code to that phone number each time you sign into your account. This is called two-factor authentication. The second step keeps your account more secure than using only a password. You can also use an authentication app on your phone or your browser. [Read more on how to set up an authentication app.](site.baseurl/help/changing-settings/how-do-I-set-up-an-authentication-app/)
       <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
 
       Each security code expires after 10 minutes and can only be used once. If you don’t enter the security code within 10 minutes, just request a new code. Each code is only good once, so no one can steal one you’ve already used.
