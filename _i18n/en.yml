@@ -908,16 +908,22 @@ help_pages:
 
   signing-in:
     how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed: |-
-      If you don’t have access to your phone, you can sign in using the 16-character [personal key](site.baseurl/help/changing-settings/what-is-my-personal-key) you received when you created your account. Another option is to log in at a later time when you have your phone near you.
-
-      How to Sign in Using your Personal Key
-        1. Sign in with your email address and password.
-        2. When you are prompted to enter your security code, select the link that says “choose another security option.” 
-        3. On the “Select your security option” page, choose “personal key.”
-        4. Enter the original personal key you received when you created your account.
-        5. You will receive a new personal key. Enter it into the field, select “Continue.” *NOTE*: You will be given a new personal key every time you use it to sign in. If you plan to use your personal key each time, you must always use the newest version of it.
+      If you cannot sign into your login.gov account because you’ve permanently lost access to your security method and personal key, you may need to reset your account by deleting it.
+ 
+      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will remove any agency applications you have linked to your account, and you will need to restore each connection. We recommend you use the articles listed below to learn how to relink your account after deleting it.
       
-      If you have permanently lost access to your phone and you don’t have your personal key, login.gov cannot recover your account for security reasons. Your only options are to delete your current login.gov account so you can create a new one using the same email address or create a new login.gov account using a new email address. [Read more on how to delete your login.gov account](site.baseurl/help/signing-in/how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key).
+      To delete your account, either sign in via your agency application or by visiting [https://secure.login.gov/](https://secure.login.gov/). When you are prompted to enter your security code, follow the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
+      
+      Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. Click “Yes, continue deletion” to proceed.
+      
+      You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.
+
+      ## Relevant articles
+      [How do I relink my USAJOBS profile after deleting my login.gov account?](site.baseurl/help/usajobs/relink-my-profile)
+      [How do I relink my Trusted Traveler profile after deleting my login.gov account?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+      [How do I relink my SAM profile after deleting my login.gov account?](site.baseurl/help/sam/relink-my-profile)
+
+
 
   
     how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: |-
