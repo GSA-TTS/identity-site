@@ -622,7 +622,7 @@ help_pages:
     how-do-I-set-up-an-authentication-app: |-
       If you don’t want to receive security codes by text or phone call, you can set up an authentication app on your device to generate security codes. 
         1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps. 
-        2. Download and install one of the following authentication apps to your device:
+        2. Download and install an authentication apps to your device. Some popular options include:
           - Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
           - iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
           - Windows apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}, [OneLogin OTP](https://support.onelogin.com/hc/en-us/articles/201174454-OneLogin-OTP-for-Windows-Desktop){:target="_blank"}
