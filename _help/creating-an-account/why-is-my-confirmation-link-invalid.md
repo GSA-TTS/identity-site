@@ -1,5 +1,5 @@
 ---
-order: 40
+order: 2
 ---
 
 {% include help/translate_page.html url=page.url %}
