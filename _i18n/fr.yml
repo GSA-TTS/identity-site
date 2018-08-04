@@ -89,7 +89,7 @@ index:
     p_1: |-
       login.gov travaille en collaboration avec le secteur privé, les organismes à but non lucratif afin d'identifier et mettre en œuvre les meilleures pratiques et les nouvelles normes en matière d'authentification sécurisée qui protège la confidentialité.
 
-        Dirigé par le [U.S. Digital Service](https://www.usds.gov){:target="_blank"} et [18F](https://18f.gsa.gov){:target="_blank"}, login.gov est bâti sur les bases établies par le [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"}, le [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"} et le [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
+        Dirigé par le [U.S. Digital Service](https://www.usds.gov){:target="_blank" rel="noopener noreferrer"} et [18F](https://18f.gsa.gov){:target="_blank" rel="noopener noreferrer"}, login.gov est bâti sur les bases établies par le [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank" rel="noopener noreferrer"}, le [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank" rel="noopener noreferrer"} et le [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank" rel="noopener noreferrer"}.
   footer:
     heading: Pour nous joindre
     p_1: Vous avez une question ou un problème? [Communiquez avec nous](site.baseurl/contact).
@@ -122,7 +122,7 @@ security_page:
     heading: La chambre forte
     p_1: Il est difficile de s'introduire par effraction dans la « chambre forte »
       ou dans la base de données. login.gov met en œuvre les normes les plus récentes
-      du [National Institute of Standards and Technology (NIST)](https://www.nist.gov/){:target="_blank"}
+      du [National Institute of Standards and Technology (NIST)](https://www.nist.gov/){:target="_blank" rel="noopener noreferrer"}
       relatives aux authentifications et vérifications sécurisées. Notre plan d'action
       pour assurer une sécurité continue inclut des tests réguliers sur la pénétration
       et des examens réguliers de la sécurité externe.
@@ -148,7 +148,7 @@ security_page:
       La totalité de notre code est disponible pour inspection publique dans un référentiel à source ouverte. Notre objectif : s'assurer qu'à chaque étape, les utilisateurs sachent que leur confidentialité est protégée au niveau même de la conception.
     p_2: Pour obtenir plus d'information, veuillez visiter [Help](site.baseurl/help)
       ou [contact us](site.baseurl/contact). Vous pouvez aussi visiter notre [référentiel
-      à code source ouvert](https://github.com/18F/identity-idp){:target="_blank"}.
+      à code source ouvert](https://github.com/18F/identity-idp){:target="_blank" rel="noopener noreferrer"}.
 contact_page:
   content:  |-
     Nous connaissons un trafic extrêmement élevé en raison du lancement du programme Trusted Traveler aujourd'hui. Nous vous remercions de votre patience car nous travaillons à améliorer les performances de notre système.
@@ -157,7 +157,7 @@ contact_page:
 
     login.gov ne gère ni n'affecte aucun de vos membres, paiements, rendez-vous ou statut d'application existants et nous ne sommes pas en mesure de répondre à vos questions.
 
-    Pour des questions sur le programme Trusted Traveler (Global Entry, GOES, Sentri ou Nexus), veuillez contacter le CBP à l'adresse [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}
+    Pour des questions sur le programme Trusted Traveler (Global Entry, GOES, Sentri ou Nexus), veuillez contacter le CBP à l'adresse [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank" rel="noopener noreferrer"}
 
     Pour des questions sur la création d'un compte ou sur la connexion avec login.gov, recherchez des réponses aux questions courantes. Pour d'autres questions, veuillez nous contacter [hello@login.gov](mailto:hello@login.gov). N'oubliez pas que nous avons beaucoup de demandes afin de prendre plusieurs jours pour vous rappeler.
 
@@ -170,25 +170,25 @@ developers_page:
   column_1:
     heading: Se conformer à un auditoire changeant
     content:
-      p_1: Choisissez entre [LOA1 and LOA3](https://developers.login.gov/attributes/){:target="_blank"}
-        pour [NIST 800-63-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-2.pdf){:target="_blank"}.
-        Lorsque [policies](https://pages.nist.gov/800-63-3/){:target="_blank"} change,
+      p_1: Choisissez entre [LOA1 and LOA3](https://developers.login.gov/attributes/){:target="_blank" rel="noopener noreferrer"}
+        pour [NIST 800-63-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-2.pdf){:target="_blank" rel="noopener noreferrer"}.
+        Lorsque [policies](https://pages.nist.gov/800-63-3/){:target="_blank" rel="noopener noreferrer"} change,
         nous effectuons le travail pour assurer la conformité.
   column_2:
     heading: Réduire les délais de lancement
     content:
       p_1: Tirez profit des bibliothèques de codes réutilisables. Nous prenons en
-        charge [OpenID Connect](https://developers.login.gov/openid-connect/){:target="_blank"}
-        et [SAML](https://developers.login.gov/saml/){:target="_blank"}. Démarrez
-        rapidement avec un code d'intégration exemple dans [Java](https://github.com/18F/identity-sp-java){:target="_blank"},
-        [Ruby](https://github.com/18F/identity-sp-sinatra){:target="_blank"}, [Python](https://github.com/18F/identity-sp-python){:target="_blank"}
-        et [iOS](https://github.com/18F/identity-openidconnect-ios-client){:target="_blank"}.
+        charge [OpenID Connect](https://developers.login.gov/openid-connect/){:target="_blank" rel="noopener noreferrer"}
+        et [SAML](https://developers.login.gov/saml/){:target="_blank" rel="noopener noreferrer"}. Démarrez
+        rapidement avec un code d'intégration exemple dans [Java](https://github.com/18F/identity-sp-java){:target="_blank" rel="noopener noreferrer"},
+        [Ruby](https://github.com/18F/identity-sp-sinatra){:target="_blank" rel="noopener noreferrer"}, [Python](https://github.com/18F/identity-sp-python){:target="_blank" rel="noopener noreferrer"}
+        et [iOS](https://github.com/18F/identity-openidconnect-ios-client){:target="_blank" rel="noopener noreferrer"}.
   column_3:
     heading: Consultez le <br class="sm-show">code
     content:
       p_1: Suivez le développement continu des fonctionnalités, les améliorations
         apportées à l'expérience de l'utilisateur et les examens de la sécurité dans
-        notre [référentiel à code source ouvert](https://github.com/18F/identity-idp){:target="_blank"}.
+        notre [référentiel à code source ouvert](https://github.com/18F/identity-idp){:target="_blank" rel="noopener noreferrer"}.
   footer:
     heading: Nous joindre
     p_1: Si vous souhaitez en savoir plus sur la plate-forme, veuillez envoyer un
@@ -375,7 +375,7 @@ principles_page:
 
     Enfin, vous devez constamment tester les designs et outils au moment où ils sont prêts à être partagés et ensuite ajuster votre projet en fonction de ce que vous avez appris. Dans certains cas, nous apprenons que les meilleures pratiques actuelles ne sont pas adéquates. Et dans ces cas, nous sommes poussés à essayer de nouvelles façons de donner aux utilisateurs la meilleure expérience possible. Ce processus implique plus de tests, l'éducation des utilisateurs et une volonté à itérer.
 
-    Il existe un nombre de méthodes de conception spécifiques que nous mettons en pratique pour demeurer axés sur l'utilisateur et vous pouvez lire au sujet de tous ces processus et les utiliser en passant en revue le [18F Design Methods](https://methods.18f.gov/){:target="_blank"}.
+    Il existe un nombre de méthodes de conception spécifiques que nous mettons en pratique pour demeurer axés sur l'utilisateur et vous pouvez lire au sujet de tous ces processus et les utiliser en passant en revue le [18F Design Methods](https://methods.18f.gov/){:target="_blank" rel="noopener noreferrer"}.
   heading_3: Être transparent sur le fonctionnement
   ul_2:
     li_1: Impliquez des experts, des intervenants et le public tôt et souvent
@@ -384,7 +384,7 @@ principles_page:
       que tous peuvent comprendre
     li_4: Créez une politique de confidentialité inclusive et informative
   p_2: |-
-    [Travailler de façon transparente](https://playbook.cio.gov/#play13){:target="_blank"} et créer un système transparent devrait être la façon dont toute agence travaille pour bâtir ou mettre en œuvre un système de gestion d'identité. Pour exécuter ce principe avec login.gov, nous bâtissons la plate-forme de manière à ce que les parties intéressées puisse nous conseiller sur les meilleures pratiques afin que nous demeurions responsables envers le public et envers nos partenaires de toutes les agences gouvernementales. De plus, cela signifie qu'un système qui indique aux utilisateurs ce qu'il fait de leur information dans le but de créer une responsabilisation et établir une confiance. Nous impliquons les utilisateurs et autres parties intéressées par le biais de notre [référentiel GitHub](https://github.com/18F/identity-idp){:target="_blank"} et travaillons à la création de forums publics où les utilisateurs peuvent discuter de notre travail.
+    [Travailler de façon transparente](https://playbook.cio.gov/#play13){:target="_blank" rel="noopener noreferrer"} et créer un système transparent devrait être la façon dont toute agence travaille pour bâtir ou mettre en œuvre un système de gestion d'identité. Pour exécuter ce principe avec login.gov, nous bâtissons la plate-forme de manière à ce que les parties intéressées puisse nous conseiller sur les meilleures pratiques afin que nous demeurions responsables envers le public et envers nos partenaires de toutes les agences gouvernementales. De plus, cela signifie qu'un système qui indique aux utilisateurs ce qu'il fait de leur information dans le but de créer une responsabilisation et établir une confiance. Nous impliquons les utilisateurs et autres parties intéressées par le biais de notre [référentiel GitHub](https://github.com/18F/identity-idp){:target="_blank" rel="noopener noreferrer"} et travaillons à la création de forums publics où les utilisateurs peuvent discuter de notre travail.
 
     Afin de rendre un système de gestion d'identité transparent pour les utilisateurs finaux, le système doit inclure des fonctionnalités qui éduquent les gens sur la façon dont le système fonctionne, pourquoi il fonctionne de cette façon et de quelle manière ils peuvent contrôler ce qui advient de leurs données. Vous devriez aussi informer les utilisateurs de l'information qui est requise par une agence pour la connexion à un service. Il est aussi important d'informer les utilisateurs de quelle information vos systèmes stockeront et si toute donnée est partagée avec les autres agences. Si les gens qui utilisent le système ne sont pas à l'aise avec le partage d'information, ils ne doivent pas être obligés de participer.
 
@@ -406,7 +406,7 @@ principles_page:
 
     Nous adhérons à ce principe pour chaque aspect des projets qui construisent login.gov.
 
-    [Lisez ce guide](https://pages.18f.gov/agile/index.html){:target="_blank"} des principes et pratiques agiles élaborés par l'équipe 18F pour en savoir plus sur ce que signifie de travailler de façon agile.
+    [Lisez ce guide](https://pages.18f.gov/agile/index.html){:target="_blank" rel="noopener noreferrer"} des principes et pratiques agiles élaborés par l'équipe 18F pour en savoir plus sur ce que signifie de travailler de façon agile.
   heading_5: Utiliser des pratiques de confidentialité modernes
   ul_4:
     li_1: Stockez aussi peu de renseignements permettant d'identifier une personne
@@ -438,7 +438,7 @@ principles_page:
 
     Dans le cas de login.gov, par exemple, nous devons décider exactement quelles données nous stockons et pour combien de temps. Nous devons aussi décider quelles étapes les utilisateurs doivent suivre pour accéder à leur information. Toutes ces décisions nécessitent une délibération attentive afin de déterminer la meilleure option pour les utilisateurs autant que pour les agences et assurer une fonctionnalité maximale.
 
-    Pour la construction de login.gov, nous adhérons aux normes mises de l'avant par le [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/){:target="_blank"} (NIST 800-63-2) nous adapterons les nouveaux projets de normes (NIST 800-63-3) au fur et à mesure qu'elles deviennent finales. Les projets de normes adoptent une approche très différente de l'authentification et de la vérification de l'identité (comment une personne se connecte-t-elle et comment vérifie-t-elle son identité) de celle de la version actuelle. De plus, nous adhérons aux [meilleures pratiques du gouvernement](https://playbook.cio.gov/#play11){:target="_blank"} incluant FedRAMP, en bâtissant dans la transparence et en menant des évaluations de sécurité rigoureuses et routinières en plus d'assurer la conformité au Federal Information Security Management Act (FISMA).
+    Pour la construction de login.gov, nous adhérons aux normes mises de l'avant par le [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/){:target="_blank" rel="noopener noreferrer"} (NIST 800-63-2) nous adapterons les nouveaux projets de normes (NIST 800-63-3) au fur et à mesure qu'elles deviennent finales. Les projets de normes adoptent une approche très différente de l'authentification et de la vérification de l'identité (comment une personne se connecte-t-elle et comment vérifie-t-elle son identité) de celle de la version actuelle. De plus, nous adhérons aux [meilleures pratiques du gouvernement](https://playbook.cio.gov/#play11){:target="_blank" rel="noopener noreferrer"} incluant FedRAMP, en bâtissant dans la transparence et en menant des évaluations de sécurité rigoureuses et routinières en plus d'assurer la conformité au Federal Information Security Management Act (FISMA).
 help:
   changing-settings:
     how-do-i-change-my-email-address: Comment changer mon adresse courriel?
@@ -514,7 +514,7 @@ policies:
 
     #### Autorités
 
-    L'information que vous fournissez pour accéder à votre compte login.gov est recueillie conformément à la norme 6 USC § 1523 (b)(1)(A)-(E), au [E-Government Act of 2002 (44 USC § 3501)](https://www.gpo.gov/fdsys/pkg/PLAW-107publ347/html/PLAW-107publ347.htm){:target="_blank"},
+    L'information que vous fournissez pour accéder à votre compte login.gov est recueillie conformément à la norme 6 USC § 1523 (b)(1)(A)-(E), au [E-Government Act of 2002 (44 USC § 3501)](https://www.gpo.gov/fdsys/pkg/PLAW-107publ347/html/PLAW-107publ347.htm){:target="_blank" rel="noopener noreferrer"},
     et à la norme 40 USC § 501.
 
     #### Objectif
@@ -524,13 +524,13 @@ policies:
     #### Divulgation
 
     Vous décidez quelle information vous nous donnez. Toutefois, le défaut de fournir de l'information complète et exacte peut retarder l'accès à l'agence partenaire.
-    L'information que vous donnez à login.gov sera partagée avec l'agence fédérale applicable pour fournir un accès à l'information sur vous détenue par cette agence tel que décrit dans les [systèmes d'avis sur les comptes](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"} associés.
+    L'information que vous donnez à login.gov sera partagée avec l'agence fédérale applicable pour fournir un accès à l'information sur vous détenue par cette agence tel que décrit dans les [systèmes d'avis sur les comptes](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank" rel="noopener noreferrer"} associés.
     Veuillez noter que le système login.gov enregistrera certinaes informations du niveau session sur votre utilisation du service, incluant, mais sans s'y limiter, type et version de navigateur et la durée de votre session. Cette information permet à
     login.gov de mieux comprendre comment le site est utilisé et comment il peut être rendu plus utile.
 
     #### Stockage
 
-    Tous les dossiers sont stockés électroniquement dans une base de données dans l'[environnement Amazon Web Services (AWS)](https://aws.amazon.com/){:target="_blank"} de GSA.
+    Tous les dossiers sont stockés électroniquement dans une base de données dans l'[environnement Amazon Web Services (AWS)](https://aws.amazon.com/){:target="_blank" rel="noopener noreferrer"} de GSA.
     Vous pouvez changer ou modifier votre adresse courriel ou numéro de téléphone en y accédant dans votre compte. Vous devez choisir une adresse courriel à laquelle vous souhaitez recevoir des correspondances de n'importe quelle agence partenaire dont vous pourriez accéder aux services ou à l'information. Changer cette adresse redirigera toutes les correspondances par courriel de toute agence partenaire.
 
     De manière similaire, vous devez choisir le numéro d'un téléphone auquel vous avez accès afin de recevoir et répondre avec le(s) mot(s) de passe à utilisation unique qui est/sont envoyé(s) à ce numéro.
@@ -553,7 +553,7 @@ policies:
 
     login.gov autorise la communauté externe de sécurité à effectuer des recherches de sécurité destinées à produire des rapports des vulnérabilités de sécurité découvertes sur la plate-forme login.gov.
 
-    Consultez notre [Politique de divulgation de vulnérabilité](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"}
+    Consultez notre [Politique de divulgation de vulnérabilité](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank" rel="noopener noreferrer"}
     pour obtenir plus de détails sur cette politique et comment soumettre des rapports des vulnérabilités découvertes.
 
     ### Pour plus d'information
@@ -635,10 +635,10 @@ help_pages:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       "Si vous avez accidentellement sauvegardé votre mot de passe ou toute autre information de connexion liée à login.gov dans votre navigateur, il est préférable de les supprimer. Ainsi, vous conserverez un compte plus sécurisé. Dans la liste suivante, sélectionnez le navigateur (le programme informatique que vous utilisez pour accéder au web) que vous utilisez pour apprendre comment supprimer toute information sauvegardée :"
 
-      - [Chrome](https://support.google.com/chrome/answer/95606){:target="_blank"}
-      - [Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-change-passwords#w_viewing-and-deleting-passwords){:target="_blank"}
-      - [Internet Explorer](https://support.microsoft.com/en-us/help/17499/windows-internet-explorer-11-remember-passwords-fill-out-web-forms#ie=ie-11){:target="_blank"}
-      - [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank"}
+      - [Chrome](https://support.google.com/chrome/answer/95606){:target="_blank" rel="noopener noreferrer"}
+      - [Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-change-passwords#w_viewing-and-deleting-passwords){:target="_blank" rel="noopener noreferrer"}
+      - [Internet Explorer](https://support.microsoft.com/en-us/help/17499/windows-internet-explorer-11-remember-passwords-fill-out-web-forms#ie=ie-11){:target="_blank" rel="noopener noreferrer"}
+      - [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank" rel="noopener noreferrer"}
 
       Aussi, lorsque vous êtes en ligne, vérifiez la barre d'adresse de toute page que vous visitez et assurez-vous qu'il s'agit de sites de confiance, particulièrement les pages qui vous demandent d'inscrire un nom d'utilisateur et un mot de passe. Soyez prudent(e) quand vous partagez de l'information personnelle par courriel, notamment vos authentifiants de connexion, votre information bancaire ou votre numéro de sécurité sociale.
     how-do-i-make-my-password-strong: |-
@@ -654,7 +654,7 @@ help_pages:
 
       Les hyperliens présents sur login.gov qui mènent vers des sites externes du gouvernement fédéral concernent des services fournis par ces agences. Ces sites sont tenus par leur propre politique de confidentialité qui se trouve normalement sur leur site avec les mentions légales.
 
-      Les comptes individuels font face à une sécurité à deux étapes. Nous exigeons une authentification à deux facteurs de même que des mots de passe forts qui répondent aux normes du [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"} relatives à la validation et à la vérification. Celles-ci incluent l'authentification à deux facteurs qui requiert que vous vous connectiez avec votre mot de passe et un code de sécurité reçu sur votre téléphone. L'authentification à deux facteurs peut aider à protéger votre compte et à empêcher que la sécurité de votre mot de passe soit compromise.
+      Les comptes individuels font face à une sécurité à deux étapes. Nous exigeons une authentification à deux facteurs de même que des mots de passe forts qui répondent aux normes du [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank" rel="noopener noreferrer"} relatives à la validation et à la vérification. Celles-ci incluent l'authentification à deux facteurs qui requiert que vous vous connectiez avec votre mot de passe et un code de sécurité reçu sur votre téléphone. L'authentification à deux facteurs peut aider à protéger votre compte et à empêcher que la sécurité de votre mot de passe soit compromise.
 
       Votre information demeurera sécurisée. Pour plus d'information, consultez notre [politique de sécurité et de confidentialité](site.baseurl/policy).
     will-logingov-share-my-information: Le site login.gov ne peut partager de l'information
@@ -667,7 +667,7 @@ help_pages:
 
       **To create a login.gov account:**
 
-        1. Start from the [sam.gov](https://www.sam.gov/){:target="_blank"} portal and select the Log in button.
+        1. Start from the [sam.gov](https://www.sam.gov/){:target="_blank" rel="noopener noreferrer"} portal and select the Log in button.
         2. Choose Create an Account to start creating a login.gov account.
         3. Confirm an email address during the account set up. If you are a returning SAM.gov user, you must use the email address registered with SAM.gov to link your profile information to your login.gov account.
         4. Create a new password.
@@ -678,13 +678,13 @@ help_pages:
     where-is-my-profile-info: |-
       If you are an existing SAM user and don’t see your SAM.gov profile after signing in, this means you did not use the same email address you registered with SAM.gov. To update your email address to match your SAM.gov registered email you’ll need to:
 
-        1. Go to [https://www.login.gov/](https://www.login.gov/){:target="_blank"} and
+        1. Go to [https://www.login.gov/](https://www.login.gov/){:target="_blank" rel="noopener noreferrer"} and
         2. Click “Manage Account” to sign in
         3. Click “edit” next to your email
         4. Enter the correct email address and click “update”
         5. You will be sent a confirmation email. You must open and click the confirmation link to finish updating your email
 
-        If you can’t remember the email you registered with SAM.gov, you can contact the Federal Service Desk at 866-606-8220 (toll fee) or 334-206-7828 (internationally) for assistance. You may also submit your request via web form at [www.fsd.gov](https://www.fsd.gov/){:target="_blank"}.
+        If you can’t remember the email you registered with SAM.gov, you can contact the Federal Service Desk at 866-606-8220 (toll fee) or 334-206-7828 (internationally) for assistance. You may also submit your request via web form at [www.fsd.gov](https://www.fsd.gov/){:target="_blank" rel="noopener noreferrer"}.
 
         If you no longer have access to the email you used to create your SAM.gov profile, you will need to create a new SAM.gov profile with your new login.gov account.
     no-longer-have-email: |-
@@ -692,12 +692,12 @@ help_pages:
     change-account-settings: |-
       To make changes and updates to information tied to your login.gov account (email, phone number, personal key, etc.), you must sign in to your login.gov account:
 
-        1. Go to [https://www.login.gov/](https://www.login.gov/){:target="_blank"} and click “Manage Account”
+        1. Go to [https://www.login.gov/](https://www.login.gov/){:target="_blank" rel="noopener noreferrer"} and click “Manage Account”
         2. Sign in using your login.gov credentials
 
       Once logged in, you will be able to edit and update your login.gov information.
 
-      To make changes to your SAM.gov account, you will need to sign in at [https://www.sam.gov](https://sam.gov){:target="_blank"}. Once signed in to your SAM account:
+      To make changes to your SAM.gov account, you will need to sign in at [https://www.sam.gov](https://sam.gov){:target="_blank" rel="noopener noreferrer"}. Once signed in to your SAM account:
 
         1. Select My Account Settings from the sub-navigation menu on your My SAM page.
         2. Select Edit User Information.
@@ -709,7 +709,7 @@ help_pages:
         2. **Change your login.gov email**: You can change your login.gov email to match your SAM.gov email address. You must change your login.gov email before signing into SAM using login.gov. Changing your email will not affect your profiles with other government applications, and once you’ve signed into SAM.gov and linked your profile, you can change your login.gov email back to the original email used. To change your login.gov email, do the following:
         3. **Create another login.gov account**: You can also create a new login.gov account using the same email registered with SAM.
     why-is-sam-using-login-gov: |-
-      login.gov uses two-factor authentication, and stronger passwords, that meet new [National Institute of Standards of Technology](https://www.nist.gov/){:target="_blank"} requirements for secure validation and verification. By using login.gov, you’ll get an extra layer of security to help protect your SAM.gov profile against password compromises.
+      login.gov uses two-factor authentication, and stronger passwords, that meet new [National Institute of Standards of Technology](https://www.nist.gov/){:target="_blank" rel="noopener noreferrer"} requirements for secure validation and verification. By using login.gov, you’ll get an extra layer of security to help protect your SAM.gov profile against password compromises.
         - **Do I have to create a login.gov account to sign into SAM?**
           You must create a new account with login.gov. This is a one-time step. For existing SAM users, you should use your existing SAM.gov email address. For new users, you will be able to create a new SAM profile once you complete the login.gov authentication.
         - **What will happen to my SAM Profile?**
@@ -718,45 +718,45 @@ help_pages:
           If you are an existing SAM user, use the same email address you registered within SAM.gov so we can automatically link your SAM.gov profile to your login.gov account. If you use a different email address, we won't be able to link your profile automatically.
   trusted-traveler-programs:
     application-status: |-
-      Sign in to the [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} to find out the status of your application.
+      Sign in to the [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank" rel="noopener noreferrer"} to find out the status of your application.
 
       login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
 
-      For additional Trusted Traveler related questions such as these, please contact CBP directly [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+      For additional Trusted Traveler related questions such as these, please contact CBP directly [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank" rel="noopener noreferrer"}.
     schedule-an-appointment: |-
       The best way to schedule an appointment is through the Trusted Traveler Programs site.
 
       login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
 
-      For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+      For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank" rel="noopener noreferrer"}.
     do-i-need-to-pay-again: |-
       You do not need to pay again, unless it is time to renew your membership.
 
       login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
 
-      For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+      For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank" rel="noopener noreferrer"}.
     known-traveler-number: |-
       Your KTN will not change.
 
       login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
 
-      For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+      For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank" rel="noopener noreferrer"}.
     family-account: |-
-      The [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} supports only one login.gov account per individual application. Each family member will need a unique email address to create a login.gov account. We completely understand you may prefer to share an email address with your family members, or do not wish to set up an email account for your children.
+      The [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank" rel="noopener noreferrer"} supports only one login.gov account per individual application. Each family member will need a unique email address to create a login.gov account. We completely understand you may prefer to share an email address with your family members, or do not wish to set up an email account for your children.
 
       Some email providers may have options to create alias addresses (or, forwarding addresses). If you are a Gmail user, you can use this trick to get multiple email aliases to point to the same inbox:
 
       If your email is example@gmail.com, you may enter example+john@gmail.com or example+jane@gmail.com when creating a new login.gov account. login.gov will recognize each of these email addresses as unique, and all confirmation emails will be delivered to your example@gmail.com inbox.
 
-      For more information, go to [https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html){:target="_blank"}.
+      For more information, go to [https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html){:target="_blank" rel="noopener noreferrer"}.
     dont-know-passid: |-
-      Once you have created a login.gov username and password and successfully signed into [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"}, you will be asked to enter your PASSID in order to link your old GOES profile to the new login.gov credentials.
+      Once you have created a login.gov username and password and successfully signed into [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank" rel="noopener noreferrer"}, you will be asked to enter your PASSID in order to link your old GOES profile to the new login.gov credentials.
       
-      If you have trouble with your PASSID or GOES username and password, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
+      If you have trouble with your PASSID or GOES username and password, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank" rel="noopener noreferrer"}. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
     another-question: |-
       If you have a question or problem that was not covered by this page, please contact us at [hello@login.gov](mailto:hello@login.gov).
     only-shows-login: |-
-      If you want to access your Trusted Traveler Programs (TTP) account, always start at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. After you follow the [instructions to create an account](/help/creating-an-account/how-do-i-create-an-account-with-logingov/), you will be taken back to your TTP membership information.
+      If you want to access your Trusted Traveler Programs (TTP) account, always start at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank" rel="noopener noreferrer"}. After you follow the [instructions to create an account](/help/creating-an-account/how-do-i-create-an-account-with-logingov/), you will be taken back to your TTP membership information.
 
       If you sign in directly from login.gov, you will only see your login.gov account information, and will not be able to view your TTP membership information.
     no-text-message: |-
@@ -767,11 +767,11 @@ help_pages:
     aol-verizon: |-
       We are actively looking into issues of emails not being delivered to Verizon or AOL accounts. Please check your spam folder for your email confirmation. If you <strong>add “no-reply@login.gov” to your contact list,</strong> AOL will not send it to spam.
     sign-in-doesnt-work: |-
-      You will no longer be able to use your GOES User ID and password to sign in. Please create a new login.gov account. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. No credit card or payment will be required.
+      You will no longer be able to use your GOES User ID and password to sign in. Please create a new login.gov account. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank" rel="noopener noreferrer"}. No credit card or payment will be required.
 
       To register a new account:  
 
-      1. Please visit [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}
+      1. Please visit [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank" rel="noopener noreferrer"}
       2. If you are a new user, select “Get Started” in the middle of the page. If you are a returning user, select “LOG IN” on the upper right hand corner.
       3. Click “Consent & Continue”
       4. Click “Create an account”
