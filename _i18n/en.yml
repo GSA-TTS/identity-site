@@ -450,7 +450,6 @@ help:
       confirm my email address and my phone number?
     why-do-i-need-to-use-logingov-to-access-government-services-online: Why do I need
       to use login.gov to access government services online?
-      confirm my email address and my phone number?
     why-is-my-confirmation-link-invalid: Why is my confirmation link invalid?
     what-is-my-personal-key: What is my personal key?    
   privacy-and-security:
@@ -573,7 +572,7 @@ policies:
 
     ### Privacy Impact Assessment
 
-    View our [Privacy Impact Assessment](site.baseurl/docs/privacy-impact-assessment.pdf).
+    View our [Privacy Impact Assessment](site.baseurl/docs/Privacy-Impact-Assessment 9-18.pdf).
 - section: Our security practices
   anchor: our-security-practices
   content: |-
@@ -603,9 +602,9 @@ policies:
     or [contact us](site.baseurl/contact).
 help_pages:
   changing-settings:
-    how-do-i-change-my-email-address: To change the email associated with your login.gov account, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Select “edit” next to the email address. Enter the new email address and submit it. Then check your email account and look for an email from login.gov. Open the email and select the link provided. selecting the link will redirect you back to login.gov. Once you reach login.gov, your new email address is established.
+    how-do-i-change-my-email-address: To change the email associated with your login.gov account, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Select “edit” next to the email address. Enter the new email address and submit it. Then check your email account and look for an email from login.gov. Open the email and select the link provided. Selecting the link will redirect you back to login.gov. Once you reach login.gov, your new email address is established.
     how-do-i-change-my-password: |-
-      To change your password, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Select “Edit” next to password, enter the new password and submit your change. Passwords must be at least 9 characters but otherwise there are no restrictions. You can even use more than one word with spaces to get to 9 characters. Instead, try making a long and complex password by using a phrase or a series of words that only you recognize. And please make it different than any other passwords you use to sign into other accounts such as your bank account or email. Using the same passwords for your email, financial and social media accounts makes identity theft easier.
+      To change your password, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Select “Edit” next to password, enter the new password and submit your change. Passwords must be at least 9 characters but otherwise there are no restrictions. You can even use more than one word with spaces to get to 9 characters. Try making a long and complex password by using a phrase or a series of words that only you recognize. And please make it different than any other passwords you use to sign into other accounts such as your bank account or email. Using the same passwords for your email, financial and social media accounts makes identity theft easier.
 
       [Read more on how to reset your password](site.baseurl/help/signing-in/how-do-i-reset-my-password/)
 
@@ -615,19 +614,19 @@ help_pages:
       If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed). 
 
     how-do-I-get-a-new-personal-key: |-
-      To request a new personal key, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account page. Next to personal key select “Get a new key.” Follow the instructions to write down and/or print out the new personal key and select to continue. Remember, you can only request a new personal key if you are able to sign into your login.gov account. 
+      To request a new personal key, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account page. Next to personal key select “Get a new key.” Follow the instructions to write down and/or print out the new personal key and select continue to finish the process. Remember, you can only request a new personal key if you are able to sign into your login.gov account. 
 
       Store your personal key in a safe place as this is the only way you can sign in if you can’t receive a security code. Some good ways of storing your personal key include writing it down, taking a screenshot, pasting it into a secure document, or making a printout of it. You can only use each personal key only once, after which we’ll give you another.
     
     how-do-I-set-up-an-authentication-app: |-
       If you don’t want to receive security codes by text or phone call, you can set up an authentication app on your device to generate security codes. 
         1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps. 
-        2. Download and install one of the following authentication apps to your device:
+        2. Download and install an authentication app to your device. Some popular options include:
           - Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
           - iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
           - Windows apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}, [OneLogin OTP](https://support.onelogin.com/hc/en-us/articles/201174454-OneLogin-OTP-for-Windows-Desktop){:target="_blank"}
           - Mac apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
-          - Chrome extensions: [SecureAuth OTP](https://chrome.google.com/webstore/detail/secureauth-otp/cjpfiickajaodicfcmkfgdicnlhaompc?hl=en-US){:target="_blank"}, [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
+          - Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
         3. Open a new browser and sign into your login.gov account at [https://secure.login.gov/](https://secure.login.gov/). *NOTE*: If you do not have access to the phone you used to create your account, you will need to sign in using your personal key.
         4. Select “enable” next to Authentication app and follow the instructions to scan or enter a code associating your authentication app with your account.
 
@@ -641,7 +640,7 @@ help_pages:
       If you do not have a phone, you can also set up your account using an authentication application on the device you are using to sign in. Once you have created your account, you can also use your personal key to sign in. 
 
       [Read more on how to set up an authentication application](site.baseurl/help/signing-in/what-is-an-authentication-app/)
-      [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed)
+      [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/)
 
     how-do-i-create-an-account-with-logingov: |-
       #### How do you create an account with login.gov?
@@ -684,7 +683,7 @@ help_pages:
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
 
       - If you mistyped your address, you can create a new account.
-      - If you are certain you entered the correct address, choose “Send again” to get a new confirmation email.
+      - If you are certain you entered the correct address, choose “send again” to get a new confirmation email.
     what-do-i-do-if-an-account-already-exists-under-my-email-address: |-
       Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in](site.baseurl/help/signing-in/how-do-i-reset-my-password).
  
@@ -717,9 +716,8 @@ help_pages:
       Government agencies decide for themselves how they want to interact with the public. You were sent to login.gov because the service or program you want to use has chosen to take advantage of the efficiency and security of login.gov as a shared technology platform. Once you have finished at login.gov, you will be directed back to the agency.
 
       We hope login.gov is a convenient and secure option for you. However, if you prefer not to use login.gov, you can always access government services. You'll find more information at your agency.
-      them with anyone without your express permission.
     why-is-my-confirmation-link-invalid: |-
-      Email confirmation links expire after 24 hours. select “resend” to get a new confirmation email or start the process over by selecting “create account” and entering your email address.
+      Email confirmation links expire after 24 hours. Select “resend” to get a new confirmation email or start the process over by selecting “create account” and entering your email address.
 
       If you have requested more than one confirmation email, you must use the most recent email. All links in older emails will be invalid. 
 
@@ -733,7 +731,7 @@ help_pages:
       
       Because a personal key is the only way to recover your account, make sure to store it in a safe place. Some good ways of storing your personal key include writing it down, taking a screenshot, pasting it into a secure document, or making a printout of it. 
       
-      [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed)      
+      [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in)      
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       If you accidentally saved your login.gov password or other sign-in information in your browser, it's a good idea for you to delete it; this will help you keep your account more secure. From the following list, select the browser (the computer program you use to access the World Wide Web) you use to learn how to make it erase any saved information:
@@ -879,17 +877,17 @@ help_pages:
 
       1. Please visit [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}
       2. If you are a new user, select “Get Started” in the middle of the page. If you are a returning user, select “LOG IN” on the upper right hand corner.
-      3. select “Consent & Continue”
-      4. select “Create an account”
+      3. Select “Consent & Continue”
+      4. Select “Create an account”
       5. Enter your email address: this is your new username going forward
-      6. Wait for an email confirmation & follow the instructions in the email
+      6. Wait for an email confirmation and follow the instructions in the email
       7. Continue with the account creation process as described here: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
       8. You should now see a page that looks like this:
       <img src="site.baseurl/assets/img/created_acount.png" class="mt3 mb3 block" alt="Login.gov created account page" />
-      9. Click “Continue” to go back to the Trusted Traveler Programs website
+      9. Select “Continue” to go back to the Trusted Traveler Programs website
       10. You should now see a page that looks like this:
       <img src="site.baseurl/assets/img/trusted_traveler_program.png" class="mt3 mb3 block" alt="Trusted traveler account profile" />
-      11. Fill out your info on that page, and at the bottom, you will see a section for previous applications. Under “Have you ever applied for Global Entry, NEXUS, or SENTRI?”, click “Yes”. It looks like this:
+      11. Fill out your info on that page, and at the bottom, you will see a section for previous applications. Under “Have you ever applied for Global Entry, NEXUS, or SENTRI?”, select “Yes”. It looks like this:
       <img src="site.baseurl/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
       If you have any other questions about creating an account with login.gov please refer to our FAQ as our call center volume is extremely high this week: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
 
@@ -915,7 +913,7 @@ help_pages:
       
       To delete your account, either sign in via your agency application or by visiting [https://secure.login.gov/](https://secure.login.gov/). When you are prompted to enter your security code, follow the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
       
-      Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. Click “Yes, continue deletion” to proceed.
+      Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. Select “Yes, continue deletion” to proceed.
       
       You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.
 
@@ -945,11 +943,11 @@ help_pages:
         3. After setting up "remember browser," you will not be prompted to enter a security code for 30 days.
 
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: |-
-      It is necessary to have your phone in order to get the security key to sign in. But if you don't have your phone with you, you will need the personal key you received when you created your account. Enter the personal key when instructed and select submit. Once you are signed in, you will immediately get a new personal key. Please store the personal key in a safe place separately from your phone since the personal key will let you sign in to your account in case you don't have your phone with you.
+      It is necessary to have your phone in order to get the security code to sign in. But if you don't have your phone with you, you will need the personal key you received when you created your account. Enter the personal key when instructed and select submit. Once you are signed in, you will immediately get a new personal key. Please store the personal key in a safe place separately from your phone since the personal key will let you sign in to your account in case you don't have your phone with you.
 
       We encourage you to store your personal key somewhere other than your computer or mobile device — this way, you'll be able to access your personal key even if your device is stolen or your online accounts are hacked.
     how-do-i-reset-my-password: |-
-      If you don't know your password, the link to reset it is on the sign-in page. Enter your email address to receive a link to reset your password. Once you follow the link, you'll be asked to enter a new password. Your password must be 9 characters long and clear the password strength meter. select "show password" to ensure you are typing your password correctly. You will be taken back to the sign in page after completing these steps. You can now sign in using your new login.gov password.
+      If you don't know your password, the link to reset it is on the sign-in page. Enter your email address to receive a link to reset your password. Once you follow the link, you'll be asked to enter a new password. Your password must be 9 characters long and clear the password strength meter. Select "show password" to ensure you are typing your password correctly. You will be taken back to the sign in page after completing these steps. You can now sign in using your new login.gov password.
     what-do-i-need-to-have-in-order-to-sign-in: Every time you log into your account,
       you will need your email address, your password, and access to your phone. After
       you have entered your email address and password, login.gov will send to your
@@ -984,7 +982,7 @@ help_pages:
     why-is-my-personal-key-invalid: |-
       A personal key is a 16-character secret code we give you when you create an account. The personal key is the only way to sign in if you lose access to the device you use for two-factor authentication. You can only use your personal key once.  You will receive a new personal key each time you use it to sign in, and your old one will no longer work.
 
-      If you are being told your personal key is invalid, you have either typed it in incorrectly or you have already used it to sign in and it is no longer valid. If you have already used your personal key to sign in, you were given a new one that must be used to sign in.
+      If you are being told your personal key is invalid, you have either typed it incorrectly or you have already used it to sign in and it is no longer valid. If you have already used your personal key to sign in, you were given a new one that must be used to sign in.
 
     what-is-an-authentication-app: |-
       Authentication apps generate security codes for signing in to sites that require a high level of security. You can use these apps to get security codes even if you don’t have an internet connection or mobile service.
@@ -993,7 +991,7 @@ help_pages:
         - iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
         - Windows apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}, [OneLogin OTP](https://support.onelogin.com/hc/en-us/articles/201174454-OneLogin-OTP-for-Windows-Desktop){:target="_blank"}
         - Mac apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
-        - Chrome extensions: [SecureAuth OTP](https://chrome.google.com/webstore/detail/secureauth-otp/cjpfiickajaodicfcmkfgdicnlhaompc?hl=en-US){:target="_blank"}, [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
+        - Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
 
   usajobs:
     what-happens-to-my-profile: |-
@@ -1008,11 +1006,11 @@ help_pages:
         To find your USAJOBS profile, follow these steps:
 
           1. Sign into USAJOBS
-          2. select the “find existing profile” button
+          2. Select the “find existing profile” button
           3. Enter your email address and select “send email”
           4. Check your email and follow the instructions to confirm your account.
 
-        If you receive an email that says the email address is not associated with a USAJOBS account, we recommend trying to link your profile using a different email. 
+        If you receive an email that says the email address is not associated with a USAJOBS account, try to link your profile using a different email. 
 
         If you are unable to link your profile or you no longer have access to the email address you used to create your USAJOBS profile, you can select “lost access to your email addresses” to contact the USAJOBS Help Center for additional support or use this link: [https://www.usajobs.gov/Help/faq/account/no-profile/](https://www.usajobs.gov/Help/faq/account/no-profile/)
 
@@ -1045,8 +1043,8 @@ help_pages:
 
       To register a new account:  
         1. Go to [https://www.usajobs.gov/](https://www.usajobs.gov/)
-        2. select “Sign in”
-        3. select “Continue”
+        2. Select “Sign in”
+        3. Select “Continue”
         4. If you have not created a login.gov account, select "Create an account." If you already have a login.gov account, select "Sign in."
         5. Enter your email address: this is your new username going forward
         6. Wait for an email confirmation & follow the instructions in the email
