@@ -120,7 +120,7 @@ security_page:
   content:
     p_1: |-
       login.gov encrypts the sensitive personal information of each user
-      separately using a unique value generated from each user’s password. 
+      separately using a unique value generated from each user’s password.
       Our encryption method works like a safe deposit box in a bank vault.
       Only the user has the key. Only the user can open the box to reveal
       the contents. Only the user knows the password, and only the user can
@@ -451,7 +451,7 @@ help:
     why-do-i-need-to-use-logingov-to-access-government-services-online: Why do I need
       to use login.gov to access government services online?
     why-is-my-confirmation-link-invalid: Why is my confirmation link invalid?
-    what-is-my-personal-key: What is my personal key?    
+    what-is-my-personal-key: What is my personal key?
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove
       a saved password or login information from my browser?
@@ -572,7 +572,7 @@ policies:
 
     ### Privacy Impact Assessment
 
-    View our [Privacy Impact Assessment](site.baseurl/docs/Privacy-Impact-Assessment 9-18.pdf).
+    View our [Privacy Impact Assessment](site.baseurl/docs/Privacy-Impact-Assessment%209-18.pdf).
 - section: Our security practices
   anchor: our-security-practices
   content: |-
@@ -611,16 +611,16 @@ help_pages:
     how-do-i-change-the-phone-number-i-use-to-sign-in: |-
       To change the phone number where you get your security code, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Once signed in, select “edit” next to the phone number. Enter the phone number and select “confirm change.” login.gov will immediately send your security code to confirm the new phone number.
 
-      If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed). 
+      If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed).
 
     how-do-I-get-a-new-personal-key: |-
-      To request a new personal key, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account page. Next to personal key select “Get a new key.” Follow the instructions to write down and/or print out the new personal key and select continue to finish the process. Remember, you can only request a new personal key if you are able to sign into your login.gov account. 
+      To request a new personal key, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account page. Next to personal key select “Get a new key.” Follow the instructions to write down and/or print out the new personal key and select continue to finish the process. Remember, you can only request a new personal key if you are able to sign into your login.gov account.
 
       Store your personal key in a safe place as this is the only way you can sign in if you can’t receive a security code. Some good ways of storing your personal key include writing it down, taking a screenshot, pasting it into a secure document, or making a printout of it. You can only use each personal key only once, after which we’ll give you another.
-    
+
     how-do-I-set-up-an-authentication-app: |-
-      If you don’t want to receive security codes by text or phone call, you can set up an authentication app on your device to generate security codes. 
-        1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps. 
+      If you don’t want to receive security codes by text or phone call, you can set up an authentication app on your device to generate security codes.
+        1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps.
         2. Download and install an authentication app to your device. Some popular options include:
           - Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
           - iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
@@ -630,14 +630,14 @@ help_pages:
         3. Open a new browser and sign into your login.gov account at [https://secure.login.gov/](https://secure.login.gov/). *NOTE*: If you do not have access to the phone you used to create your account, you will need to sign in using your personal key.
         4. Select “enable” next to Authentication app and follow the instructions to scan or enter a code associating your authentication app with your account.
 
-      You will now be able to use the one-time passcodes generated by the application each time you sign in instead of receiving a text message or a phone call. If you are having difficulty setting up the authentication app, you will need to contact the app developer directly for assistance.           
+      You will now be able to use the one-time passcodes generated by the application each time you sign in instead of receiving a text message or a phone call. If you are having difficulty setting up the authentication app, you will need to contact the app developer directly for assistance.
 
 
   creating-an-account:
     do-i-need-a-mobile-phone-to-use-logingov: |-
-      login.gov requires all users to use two-factor authentication when creating an account and signing in. You can receive security codes using a mobile phone or landline. Mobile phones can receive security codes by text message or phone call. Landlines can receive security codes only by a phone call. login.gov cannot send security codes to extensions. 
- 
-      If you do not have a phone, you can also set up your account using an authentication application on the device you are using to sign in. Once you have created your account, you can also use your personal key to sign in. 
+      login.gov requires all users to use two-factor authentication when creating an account and signing in. You can receive security codes using a mobile phone or landline. Mobile phones can receive security codes by text message or phone call. Landlines can receive security codes only by a phone call. login.gov cannot send security codes to extensions.
+
+      If you do not have a phone, you can also set up your account using an authentication application on the device you are using to sign in. Once you have created your account, you can also use your personal key to sign in.
 
       [Read more on how to set up an authentication application](site.baseurl/help/signing-in/what-is-an-authentication-app/)
       [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/)
@@ -660,8 +660,8 @@ help_pages:
       <img src="site.baseurl/assets/img/help/4-choose-a-password.png" class="mt3 mb3 block" alt="Choose password help image" />
 
       #### Enter your phone number and confirm it
-      Next, you will enter a phone number at which you can get phone calls or text messages. If you have a landline, you must receive your security code by phone call. login.gov cannot send security codes to extensions.  
-      
+      Next, you will enter a phone number at which you can get phone calls or text messages. If you have a landline, you must receive your security code by phone call. login.gov cannot send security codes to extensions.
+
       We will send a unique security code to that phone number each time you sign into your account. This is called two-factor authentication. The second step keeps your account more secure than using only a password. You can also use an authentication app on your phone or your browser. [Read more on how to set up an authentication app.](site.baseurl/help/changing-settings/how-do-I-set-up-an-authentication-app/)
       <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
 
@@ -686,13 +686,13 @@ help_pages:
       - If you are certain you entered the correct address, choose “send again” to get a new confirmation email.
     what-do-i-do-if-an-account-already-exists-under-my-email-address: |-
       Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in](site.baseurl/help/signing-in/how-do-i-reset-my-password).
- 
-      Please contact [hello@login.gov](mailto:hello@login.gov) if you are sure you did not create an account. 
-      
+
+      Please contact [hello@login.gov](mailto:hello@login.gov) if you are sure you did not create an account.
+
       [What is two-factor authentication](site.baseurl/help/creating-an-account/what-is-two-factor-authentication/)
-      
+
       [Why do I need to confirm my email address and phone number](site.baseurl/help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/)
-      
+
       [Why do I need to use login.gov to access government services online?](site.baseurl/help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/)
 
     what-is-two-factor-authentication: login.gov uses two-factor authentication to
@@ -704,7 +704,7 @@ help_pages:
     why-didnt-i-receive-a-security-code-to-confirm-my-phone: |-
       If you didn't receive a security code, check whether you entered your phone number correctly.
 
-      - Did you enter a wrong phone number? Look for the option to enter it again. If you have a non-U.S. number, make sure you select the correct country code. 
+      - Did you enter a wrong phone number? Look for the option to enter it again. If you have a non-U.S. number, make sure you select the correct country code.
       - If you have a landline, please make sure to pick the “Phone call” option under “How would you like to receive your security code?” We cannot send a text message to landlines.
       - If you have an international phone number, make sure you select to receive the security code by text message. login.gov does not support sending security codes to international landlines at this time.
       - If the number you’ve entered is correct, make sure you have service and request the code again. You can receive the code by text message or by a phone call.
@@ -719,19 +719,19 @@ help_pages:
     why-is-my-confirmation-link-invalid: |-
       Email confirmation links expire after 24 hours. Select “resend” to get a new confirmation email or start the process over by selecting “create account” and entering your email address.
 
-      If you have requested more than one confirmation email, you must use the most recent email. All links in older emails will be invalid. 
+      If you have requested more than one confirmation email, you must use the most recent email. All links in older emails will be invalid.
 
-      If the confirmation link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter. 
+      If the confirmation link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter.
 
       For additional help, please send an email to [hello@login.gov](mailto:hello@login.gov).
     what-is-my-personal-key: |-
-      A personal key is a 16-character secret code we give you when you create an account. The personal key is the only way to sign in if you lose access to the device you use for two-factor authentication. 
-      
+      A personal key is a 16-character secret code we give you when you create an account. The personal key is the only way to sign in if you lose access to the device you use for two-factor authentication.
+
       You can only use your personal key once.  You will receive a new personal key each time you use it to sign in, and your old one will no longer work.
-      
-      Because a personal key is the only way to recover your account, make sure to store it in a safe place. Some good ways of storing your personal key include writing it down, taking a screenshot, pasting it into a secure document, or making a printout of it. 
-      
-      [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in)      
+
+      Because a personal key is the only way to recover your account, make sure to store it in a safe place. Some good ways of storing your personal key include writing it down, taking a screenshot, pasting it into a secure document, or making a printout of it.
+
+      [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in)
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       If you accidentally saved your login.gov password or other sign-in information in your browser, it's a good idea for you to delete it; this will help you keep your account more secure. From the following list, select the browser (the computer program you use to access the World Wide Web) you use to learn how to make it erase any saved information:
@@ -810,13 +810,13 @@ help_pages:
         2. **Change your login.gov email**: You can change your login.gov email to match your SAM.gov email address. You must change your login.gov email before signing into SAM using login.gov. Changing your email will not affect your profiles with other government applications, and once you’ve signed into SAM.gov and linked your profile, you can change your login.gov email back to the original email used. To change your login.gov email, do the following:
         3. **Create another login.gov account**: You can also create a new login.gov account using the same email registered with SAM.
     relink-my-profile: |-
-      If you cannot sign into your SAM account because you’ve permanently lost access to your security method and personal key, you can reset your account by deleting it. 
+      If you cannot sign into your SAM account because you’ve permanently lost access to your security method and personal key, you can reset your account by deleting it.
 
       Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will unlink your SAM profile. You must follow the below steps to relink your account:
 
-      1. To delete your account, sign in at [https://sam.gov/](https://sam.gov/). When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link. 
-      2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. select "Yes, continue deletion" to proceed. 
-      3. You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.  
+      1. To delete your account, sign in at [https://sam.gov/](https://sam.gov/). When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
+      2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. select "Yes, continue deletion" to proceed.
+      3. You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.
       4. After you delete your account, go to [https://sam.gov/](https://sam.gov/) to create a new account.
       5. If you have used the correct email address, your SAM profile will automatically link once you’ve signed in.
     why-is-sam-using-login-gov: |-
@@ -854,15 +854,15 @@ help_pages:
       For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
     family-account: |-
       The [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} supports only one login.gov account per individual application. Each family member will need a unique email address to create a login.gov account. We completely understand you may prefer to share an email address with your family members, or do not wish to set up an email account for your children.
- 
+
       Some email providers may have options to create alias addresses (or, forwarding addresses). If you are a Gmail user, you can have multiple email aliases point to the same inbox:
-      
+
       If your email is example@gmail.com, you may enter example+john@gmail.com or example+jane@gmail.com when creating a new login.gov account. login.gov will recognize each of these email addresses as unique, and all confirmation emails will be delivered to your example@gmail.com inbox.
 
       For more information, go to [https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html){:target="_blank"}.
     dont-know-passid: |-
       Once you have created a login.gov username and password and successfully signed into [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"}, you will be asked to enter your PASSID to link your old GOES profile to the new login.gov credentials. You will have to answer security questions and additional information by TTP If you do not have your PASSID.
- 
+
       If you have trouble with your PASSID or GOES username and password, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
     another-question: |-
       If you have a question or problem that was not covered by this page, please contact us at [hello@login.gov](mailto:hello@login.gov).
@@ -894,13 +894,13 @@ help_pages:
 
     relink-my-profile: |-
 
-      If you cannot sign into your Trusted Traveler account because you’ve permanently lost access to your security method and personal key, you can reset your account by deleting it. 
+      If you cannot sign into your Trusted Traveler account because you’ve permanently lost access to your security method and personal key, you can reset your account by deleting it.
 
       Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will unlink your Trusted Traveler profile. You must follow the below steps to relink your account:
 
-      1. To delete your account, sign in at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/).  When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link. 
-      2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. select "Yes, continue deletion" to proceed. 
-      3. You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.  
+      1. To delete your account, sign in at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/).  When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
+      2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. select "Yes, continue deletion" to proceed.
+      3. You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.
       4. After you delete your account, go to [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/) to create a new account.
       5. Once you have created a new account, fill out the information on the account profile page, and at the bottom, you will see a section for previous applications. Under “Have you ever applied for Global Entry, NEXUS, or SENTRI?”, select “Yes.”
       6. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask).
@@ -908,13 +908,13 @@ help_pages:
   signing-in:
     how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed: |-
       If you cannot sign into your login.gov account because you’ve permanently lost access to your security method and personal key, you may need to reset your account by deleting it.
- 
+
       Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will remove any agency applications you have linked to your account, and you will need to restore each connection. We recommend you use the articles listed below to learn how to relink your account after deleting it.
-      
+
       To delete your account, either sign in via your agency application or by visiting [https://secure.login.gov/](https://secure.login.gov/). When you are prompted to enter your security code, follow the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
-      
+
       Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. Select “Yes, continue deletion” to proceed.
-      
+
       You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.
 
       ## Relevant articles
@@ -924,22 +924,22 @@ help_pages:
 
 
 
-  
+
     how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: |-
       Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will remove any agency applications you have linked to your account. We recommend you use the articles listed below to learn how to relink your account after deleting it.
 
       To delete your account, either sign in via your agency application or by visiting [https://secure.login.gov/](https://secure.login.gov/). When you are prompted to enter your security code, select the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
-  
+
     i-forgot-which-email-address-i-used-to-create-an-account: |-
       If you can't remember which email address you used to create your account, you can use the password reset function to see if your email address is on file.
 
       Try to sign in as usual and ask to have your password reset. Then, enter the email address you believe you used to create your account. If we have your email address in our records, we will send instructions on how to reset your password. Check your email in a few minutes for these instructions.
-  
+
     how-do-i-turn-off-two-factor-authentication: |-
-      login.gov does not allow you to turn off two-factor authentication, but you can set up the "remember browser" feature. This will allow you to sign in without entering a security code for 30 days. Every 30 days you will be required to renew this feature by going through the normal two-factor authentication steps and selecting "remember browser." NOTE: If you use login.gov on multiple devices and browsers, you must set up “remember browser” on each one. 
-        
+      login.gov does not allow you to turn off two-factor authentication, but you can set up the "remember browser" feature. This will allow you to sign in without entering a security code for 30 days. Every 30 days you will be required to renew this feature by going through the normal two-factor authentication steps and selecting "remember browser." NOTE: If you use login.gov on multiple devices and browsers, you must set up “remember browser” on each one.
+
         1. Enter email and password to begin sign in process.
-        2. Enter the security code and select “Remember this browser for 30 days”. 
+        2. Enter the security code and select “Remember this browser for 30 days”.
         3. After setting up "remember browser," you will not be prompted to enter a security code for 30 days.
 
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: |-
@@ -956,13 +956,13 @@ help_pages:
     why-is-my-security-code-invalid: Every time you sign in you will need to enter a security code that is sent to your phone either by a text message or a phone call. The security code you receive expires after 10 minutes and is only valid for one use. If you miss entering the security code within the 10 minutes or you missed the phone call, you can request a new security code. Each security code is only good once, so make sure you are using the most recent security code. You can only request 3 security codes every 15 minutes, but otherwise, you can request as many codes as you need.
 
     why-am-i-locked-out-of-logingov: |-
-      There are several ways you can be temporarily locked out of login.gov. 
-        - You will be unable to login for 10 minutes if you incorrectly enter your security code 3 times.  
-        - You will be unable to login for 10 minutes if you request more than 10 security codes in a 5 minute time period.  
+      There are several ways you can be temporarily locked out of login.gov.
+        - You will be unable to login for 10 minutes if you incorrectly enter your security code 3 times.
+        - You will be unable to login for 10 minutes if you request more than 10 security codes in a 5 minute time period.
 
     why-didnt-i-receive-a-security-code: |-
       If you didn’t receive a security code, check whether you entered your phone number correctly.
-        - Did you enter a wrong phone number? Look for the option to enter it again. If you have a non-U.S. number, make sure you select the correct country code. 
+        - Did you enter a wrong phone number? Look for the option to enter it again. If you have a non-U.S. number, make sure you select the correct country code.
         - If you have a landline, please make sure to pick the “Phone call” option under “How would you like to receive your security code?” We cannot send a text message to landlines.
         - If you have an international phone number, make sure you select to receive the security code by text message. login.gov does not support sending security codes by phone call to international numbers at this time.
         - If it's the right number, make sure you have service and request the code again. You can receive the code by text message or by a phone call.
@@ -972,7 +972,7 @@ help_pages:
 
       If you have requested more than one reset password link, you must use the link in the most recent email. All links in older emails will be invalid.
 
-      If the reset password link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter. 
+      If the reset password link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter.
 
       For additional help, contact us at [hello@login.gov](mailto:hello@login.gov)
 
@@ -1001,7 +1001,7 @@ help_pages:
     what-email-address-do-i-use: |-
       To keep your USAJOBS profile information, you need to use your primary or secondary USAJOBS email when you create your login.gov account. When you use the same email address, USAJOBS will automatically link your profile to the login.gov account. If you use a different email address when signing up for login.gov, USAJOBS won't be able to automatically link your profile. But, you can use your USAJOBS primary or secondary email address to help you search for your profile.
     profile-information: |-
-       If USAJOBS can’t find your profile information, you’ll be signed in as Guest. 
+       If USAJOBS can’t find your profile information, you’ll be signed in as Guest.
 
         To find your USAJOBS profile, follow these steps:
 
@@ -1010,7 +1010,7 @@ help_pages:
           3. Enter your email address and select “send email”
           4. Check your email and follow the instructions to confirm your account.
 
-        If you receive an email that says the email address is not associated with a USAJOBS account, try to link your profile using a different email. 
+        If you receive an email that says the email address is not associated with a USAJOBS account, try to link your profile using a different email.
 
         If you are unable to link your profile or you no longer have access to the email address you used to create your USAJOBS profile, you can select “lost access to your email addresses” to contact the USAJOBS Help Center for additional support or use this link: [https://www.usajobs.gov/Help/faq/account/no-profile/](https://www.usajobs.gov/Help/faq/account/no-profile/)
 
@@ -1024,24 +1024,24 @@ help_pages:
       If your USAJOBS primary or secondary email address is a .gov, .mil or .edu email address, you may want to consider changing it AFTER you get through the login.gov account set-up and USAJOBS profile linking process.
       As an alternative to receiving a text or phone call, you can also [use an authentication app after successfully creating your account](/help/signing-in/what-is-an-authentication-app/).
     relink-my-profile: |-
-      If you cannot sign into your USAJOBS account because you’ve permanently lost access to your security method and personal key, you can reset your account by deleting it. 
+      If you cannot sign into your USAJOBS account because you’ve permanently lost access to your security method and personal key, you can reset your account by deleting it.
 
       Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will unlink your USAJOBS profile. You must follow the below steps to relink your account
 
-      1. To delete your account, sign in at [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"}. When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link. 
-      2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings and select "Yes, continue deletion" to proceed. 
-      3. You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.  
-      4. After you delete your account, you must contact the USAJOBS helpdesk to unlink your account. You will have to answer security questions to do this. NOTE You must first unlink your account before creating a new one. If you do not unlink your account before you create a new one, we will not be able to link your accounts. 
+      1. To delete your account, sign in at [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"}. When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
+      2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings and select "Yes, continue deletion" to proceed.
+      3. You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.
+      4. After you delete your account, you must contact the USAJOBS helpdesk to unlink your account. You will have to answer security questions to do this. NOTE You must first unlink your account before creating a new one. If you do not unlink your account before you create a new one, we will not be able to link your accounts.
       5. Go to [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} to create a new login.gov account, using the same email address.
       6. If you followed these steps in this order and used the correct email, your profile will automatically link.
 
-      If you have any questions about linking your account, please contact the USAJOBS helpdesk. 
+      If you have any questions about linking your account, please contact the USAJOBS helpdesk.
     im-trying-to-sign-in-but-it-doesnt-work: |-
       USAJOBS recently switched their login system to login.gov. Your USAJOBS username and password no longer work. You must create a login.gov account to sign.
-      
+
       To automatically link your USAJOBS profile to your new account, you must use your primary or secondary USAJOBS email. If you don't sign up with one of these emails, we won't be able to link your profile automatically, but you can use your USAJOBS primary or secondary email address to try and recover your profile once logged in.
 
-      To register a new account:  
+      To register a new account:
         1. Go to [https://www.usajobs.gov/](https://www.usajobs.gov/)
         2. Select “Sign in”
         3. Select “Continue”
@@ -1051,8 +1051,7 @@ help_pages:
         7. Continue with the account creation process as described here: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](site.baseurl/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
 
       If you sign in and don’t see your profile, you can try to recover your account by selecting “Already have a USAJOBS profile.” USAJOBS will walk you through a few steps to find your profile.
-      
+
       If you’re still having issues linking your profile, contact the USAJOBS Help Center. [https://www.usajobs.gov/Help/how-to/account/#usajobs-contact-form](https://www.usajobs.gov/Help/how-to/account/#usajobs-contact-form)
 
       If you have any other questions about creating an account with login.gov, please refer to our create account FAQ: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](site.baseurl/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
-
