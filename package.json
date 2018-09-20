@@ -19,7 +19,7 @@
     "url": "https://github.com/18F/identity-site/issues"
   },
   "engines": {
-    "node": "5.x.x",
+    "node": "6.x.x",
     "npm": "3.x.x"
   },
   "homepage": "https://github.com/18F/identity-site#readme",
