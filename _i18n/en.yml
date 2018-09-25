@@ -943,9 +943,10 @@ help_pages:
         3. After setting up "remember browser," you will not be prompted to enter a security code for 30 days.
 
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: |-
-      It is necessary to have your phone in order to get the security code to sign in. But if you don't have your phone with you, you will need the personal key you received when you created your account. Enter the personal key when instructed and select submit. Once you are signed in, you will immediately get a new personal key. Please store the personal key in a safe place separately from your phone since the personal key will let you sign in to your account in case you don't have your phone with you.
+      It is necessary to have your phone in order to get the security code to sign in. But if you don't have your phone with you, you will need the personal key you received when you created your account. First, sign in with your email address and password. On the “Enter your security code” page, select “Choose another security option”, and then select the personal key. Enter the personal key you received when you created your account. If you have successfully entered your personal key, you will receive a new one. You are given a new personal key every time you use it to sign in. If you plan to use your personal key to sign in, you must always use the newest version of it.
 
-      We encourage you to store your personal key somewhere other than your computer or mobile device — this way, you'll be able to access your personal key even if your device is stolen or your online accounts are hacked.
+      We encourage you to store your personal key somewhere other than your computer or mobile device — this way, you’ll be able to access your personal key even if your device is stolen or your online accounts are hacked.
+     
     how-do-i-reset-my-password: |-
       If you don't know your password, the link to reset it is on the sign-in page. Enter your email address to receive a link to reset your password. Once you follow the link, you'll be asked to enter a new password. Your password must be 9 characters long and clear the password strength meter. Select "show password" to ensure you are typing your password correctly. You will be taken back to the sign in page after completing these steps. You can now sign in using your new login.gov password.
     what-do-i-need-to-have-in-order-to-sign-in: Every time you log into your account,
