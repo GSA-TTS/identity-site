@@ -1,5 +1,6 @@
 # Site settings
 title: login.gov
+baseurl: ''
 image: /assets/img/login-gov-288x288.png
 canonical_domain: www.login.gov
 
@@ -58,7 +59,7 @@ keep_files:
   - /assets/js/build/*
   - /assets/stylesheets/build/*
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
 
