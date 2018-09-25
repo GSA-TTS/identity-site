@@ -57,7 +57,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    rb-readline (0.5.4)
+    rb-readline (0.5.5)
     rouge (3.2.1)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
