@@ -4,7 +4,7 @@ jekyll:
 	bundle exec jekyll serve --watch
 
 npm-watch-js:
-	npm run watch-js
+	yarn run watch-js
 
 npm-watch-css:
-	npm run watch-css
+	yarn run watch-css
