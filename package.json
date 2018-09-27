@@ -19,8 +19,8 @@
     "url": "https://github.com/18F/identity-site/issues"
   },
   "engines": {
-    "node": "6.x.x",
-    "npm": "3.x.x"
+    "node": "10.x.x",
+    "yarn": "1.x.x"
   },
   "homepage": "https://github.com/18F/identity-site#readme",
   "main": "webpack.config.js",
@@ -38,7 +38,7 @@
     "bootstrap": "^3.3.7",
     "hint.css": "^2.5.0",
     "jquery": "^3.3.1",
-    "node-sass": "^3.7.0",
+    "node-sass": "^4.9.3",
     "normalize.css": "^4.2.0",
     "webpack": "^1.13.2"
   }
