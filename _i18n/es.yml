@@ -604,7 +604,7 @@ help_pages:
       Abra el email que le enviamos y haga clic en el enlace adentro. Este enlace
       lo redireccionará de nuevo a login.gov y así su email nuevo será establecido.
     how-do-i-change-my-password: |-
-      Para cambiar su contraseña, ingrese a login.gov y vaya a su página de perfil. Si desea cambiar su contraseña, seleccione Editar junto a la contraseña. Ingrese la contraseña nueva y envíe su cambio. Las contraseñas deben tener al menos 8 caracteres, pero de lo contrario no hay restricciones. Usted incluso puede utilizar más de una palabra con espacios para llegar a 8 caracteres.
+      Para cambiar su contraseña, ingrese a login.gov y vaya a su página de perfil. Si desea cambiar su contraseña, seleccione Editar junto a la contraseña. Ingrese la contraseña nueva y envíe su cambio. Las contraseñas deben tener al menos 12 caracteres, pero de lo contrario no hay restricciones. Usted incluso puede utilizar más de una palabra con espacios para llegar a 12 caracteres.
 
       En su lugar, intente crear una contraseña larga y compleja utilizando una frase o una serie de palabras que sólo usted reconozca. Y por favor, hágalo diferente a cualquier otra contraseña que use para acceder a otras cuentas como su cuenta bancaria o email. El uso de las mismas contraseñas para su email, cuentas financieras y de medios sociales hace que el robo de identidad sea más fácil.
     how-do-i-change-the-phone-number-i-am-using-with-my-account: Ingrese a login.gov
@@ -626,7 +626,7 @@ help_pages:
 
       #### Ingrese su contraseña
 
-      Las contraseñas deben tener al menos 8 caracteres, pero de lo contrario no hay restricciones. Incluso puede usar espacios entre palabras para llegar a 8 caracteres.
+      Las contraseñas deben tener al menos 12 caracteres, pero de lo contrario no hay restricciones. Incluso puede usar espacios entre palabras para llegar a 12 caracteres.
 
       #### Ingrese su número de teléfono y confírmelo
 
@@ -679,7 +679,7 @@ help_pages:
 
       Cada vez que esté en línea, recuerde revisar la barra de dirección (URL) de cualquier página web que esté visitando para asegurarse de que puede confiar en ellos, especialmente en cualquier página que le pida compartir un nombre de usuario y una contraseña. Tenga cuidado al compartir información personal como sus credenciales de acceso, información financiera o número de Seguro Social por email.
     how-do-i-make-my-password-strong: |-
-      Su contraseña debe tener un mínimo de 8 caracteres. Intente usar varias palabras y espacios para crear una frase que pueda recordar. Las contraseñas más largas con muchas palabras son más seguras que las contraseñas cortas con caracteres especiales.
+      Su contraseña debe tener un mínimo de 12 caracteres. Intente usar varias palabras y espacios para crear una frase que pueda recordar. Las contraseñas más largas con muchas palabras son más seguras que las contraseñas cortas con caracteres especiales.
 
       Al crear una contraseña, también trate de evitar el uso de jerga, errores ortográficos comunes y palabras deletreadas al revés. Además, evite usar el nombre de su empresa, cónyuge o hijos, incluso su mascota, y cualquier otra información personal como su edad o fecha de nacimiento.
 
@@ -788,7 +788,7 @@ help_pages:
       For more information, go to [https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html){:target="_blank"}.
     dont-know-passid: |-
       Once you have created a login.gov username and password and successfully signed into [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"}, you will be asked to enter your PASSID in order to link your old GOES profile to the new login.gov credentials.
-      
+
       If you have trouble with your PASSID or GOES username and password, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
     another-question: |-
       If you have a question or problem that was not covered by this page, please contact us at [hello@login.gov](mailto:hello@login.gov).
@@ -806,7 +806,7 @@ help_pages:
     sign-in-doesnt-work: |-
       You will no longer be able to use your GOES User ID and password to sign in. Please create a new login.gov account. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. No credit card or payment will be required.
 
-      To register a new account:  
+      To register a new account:
 
       1. Please visit [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}
       2. If you are a new user, select “Get Started” in the middle of the page. If you are a returning user, select “LOG IN” on the upper right hand corner.
