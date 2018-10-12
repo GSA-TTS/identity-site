@@ -6,12 +6,12 @@ clean:
 
 setup:
 	bundle check || bundle install
-	npm install
+	yarn install
 
 test: build
 	bundle exec rspec spec
 
 build:
-	npm run build-css
-	npm run build-js
+	yarn run build-css
+	yarn run build-js
 	bundle exec jekyll build

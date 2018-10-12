@@ -58,7 +58,7 @@ keep_files:
   - /assets/js/build/*
   - /assets/stylesheets/build/*
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
 
@@ -89,3 +89,4 @@ playbook:
    - anchor: security
      img: graphic-hex
      text: Create responsive security systems
+baseurl:

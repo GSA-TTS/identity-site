@@ -569,7 +569,7 @@ help_pages:
       et cliquez sur le lien fourni, ce qui vous ramènera à login.gov. Votre nouvelle
       adresse courriel est fonctionnelle une fois de retour sur login.gov.
     how-do-i-change-my-password: |-
-      Pour changer votre mot de passe, connectez-vous à login.gov et allez à votre page de profil. Si vous souhaitez changer votre mot de passe, sélectionnez « Modifier » à côté de celui-ci, entrez le nouveau mot de passe et soumettez votre changement. Les mots de passe doivent contenir au moins 8 caractères, mais il n'y a aucune autre restriction. Vous pouvez même utiliser plus d'un mot avec des espaces pour obtenir 8 caractères.
+      Pour changer votre mot de passe, connectez-vous à login.gov et allez à votre page de profil. Si vous souhaitez changer votre mot de passe, sélectionnez « Modifier » à côté de celui-ci, entrez le nouveau mot de passe et soumettez votre changement. Les mots de passe doivent contenir au moins 12 caractères, mais il n'y a aucune autre restriction. Vous pouvez même utiliser plus d'un mot avec des espaces pour obtenir 12 caractères.
 
       Essayez de créer un mot de passe long et complexe en utilisant une phrase ou une série de mots que vous seul(e) pouvez reconnaître. Assurez-vous également qu'il soit différent de tout autre mot de passe que vous utilisez pour vous connecter à d'autres comptes, par exemple votre compte bancaire ou votre compte courriel. Utiliser le même mot de passe pour les courriels, les comptes bancaires et les médias sociaux facilite le vol d'identité.
     how-do-i-change-the-phone-number-i-am-using-with-my-account: Pour changer le numéro
@@ -589,7 +589,7 @@ help_pages:
       Sélectionnez « Créer un compte » et entrez votre adresse courriel là où c'est indiqué. Consultez ensuite le message que nous vous avons envoyé dans votre boîte de courriels. Celui-ci contient un lien sur lequel vous devez cliquer. Vous serez alors redirigé vers login.gov.
       #### Entrez votre mot de passe
 
-      Vous devez ensuite créer un mot de passe fort. Servez-vous de l'indicateur de force à l'écran comme guide. Les mots de passe doivent contenir au moins 8 caractères, mais il n'y a aucune autre restriction. Vous pouvez même entrer des espaces entre les mots pour obtenir 8 caractères.
+      Vous devez ensuite créer un mot de passe fort. Servez-vous de l'indicateur de force à l'écran comme guide. Les mots de passe doivent contenir au moins 12 caractères, mais il n'y a aucune autre restriction. Vous pouvez même entrer des espaces entre les mots pour obtenir 12 caractères.
       #### Entrez votre numéro de téléphone et confirmez-le
 
       Vous devez également inscrire un numéro de téléphone où vous pouvez recevoir des appels ou des messages texte. Si vous avez une ligne fixe, vous devez demander de recevoir un code de sécurité par appel téléphonique. Nous enverrons un code de sécurité unique à ce numéro de téléphone chaque fois que vous vous connecterez à votre compte. Il s'agit d'une authentification à deux facteurs. La deuxième étape maintient votre compte plus sécurisé que si vous utilisiez seulement un mot de passe.
@@ -642,7 +642,7 @@ help_pages:
 
       Aussi, lorsque vous êtes en ligne, vérifiez la barre d'adresse de toute page que vous visitez et assurez-vous qu'il s'agit de sites de confiance, particulièrement les pages qui vous demandent d'inscrire un nom d'utilisateur et un mot de passe. Soyez prudent(e) quand vous partagez de l'information personnelle par courriel, notamment vos authentifiants de connexion, votre information bancaire ou votre numéro de sécurité sociale.
     how-do-i-make-my-password-strong: |-
-      Votre mot de passe doit compter un minimum de 8 caractères. Essayez avec plusieurs mots et espaces pour créer une phrase facile à mémoriser. Les mots de passe plus longs et contenant plusieurs mots sont plus forts que les mots de passe courts comportant des caractères spéciaux.
+      Votre mot de passe doit compter un minimum de 12 caractères. Essayez avec plusieurs mots et espaces pour créer une phrase facile à mémoriser. Les mots de passe plus longs et contenant plusieurs mots sont plus forts que les mots de passe courts comportant des caractères spéciaux.
 
       Au moment de créer un mot de passe, évitez également d'utiliser des termes du langage de la rue, les fautes d'orthographe communes et les mots épelés à l'envers. Évitez aussi d'utiliser le nom de votre entreprise, de votre conjoint(e) ou les noms de vos enfants ou de vos animaux de compagnie ainsi que de l'information personnelle comme votre âge ou votre date de naissance.
 
@@ -751,7 +751,7 @@ help_pages:
       For more information, go to [https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html){:target="_blank"}.
     dont-know-passid: |-
       Once you have created a login.gov username and password and successfully signed into [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"}, you will be asked to enter your PASSID in order to link your old GOES profile to the new login.gov credentials.
-      
+
       If you have trouble with your PASSID or GOES username and password, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
     another-question: |-
       If you have a question or problem that was not covered by this page, please contact us at [hello@login.gov](mailto:hello@login.gov).
@@ -769,7 +769,7 @@ help_pages:
     sign-in-doesnt-work: |-
       You will no longer be able to use your GOES User ID and password to sign in. Please create a new login.gov account. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. No credit card or payment will be required.
 
-      To register a new account:  
+      To register a new account:
 
       1. Please visit [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}
       2. If you are a new user, select “Get Started” in the middle of the page. If you are a returning user, select “LOG IN” on the upper right hand corner.
