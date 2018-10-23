@@ -94,9 +94,6 @@ help:
       mon code de sécurité à utilisation unique?
     what-is-an-authentication-app: Qu'est-ce qu'une application d'authentification?
     why-does-the-system-log-me-out: Pourquoi le système me déconnecte-t-il?
-  trusted-traveler-programs:
-    aol-verizon: I use AOL/Verizon for email and I did not get an email confirmation
-    no-text-message: I’m not getting a text message
 help_page:
   p_1: Parcourir les sujets communs
 help_pages:
