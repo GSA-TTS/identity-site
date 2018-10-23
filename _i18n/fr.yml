@@ -78,23 +78,6 @@ help:
       confirmer mon adresse courriel et mon numéro de téléphone?
     why-do-i-need-to-use-logingov-to-access-government-services-online: Pourquoi dois-je
       utiliser login.gov pour accéder aux services en ligne du gouvernement?
-  privacy-and-security:
-    can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove
-      a saved password or login information from my browser?
-    how-do-i-make-my-password-strong: How do I make my password strong?
-    how-does-logingov-protect-my-data: How does login.gov protect my data?
-    will-logingov-share-my-information: Will login.gov share my information?
-  sam:
-    change-account-settings: How do I change my account settings?
-    have-account-different-email: I already have a login.gov account but the email
-      is not the same as my SAM email?
-    no-longer-have-email: What should I do if I no longer have access to the email
-      I used to create my SAM.gov account?
-    username-and-password-sign-in: Why can’t I sign into SAM.gov with my username
-      and password?
-    where-is-my-profile-info: Why don’t I see my SAM profile information after I create
-      my login.gov account and sign in?
-    why-is-sam-using-login-gov: Why is SAM using login.gov?
   signing-in:
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: Je
       ne me rappelle pas de ma clé personnelle et je n'ai pas mon téléphone avec moi.
@@ -111,20 +94,6 @@ help:
       mon code de sécurité à utilisation unique?
     what-is-an-authentication-app: Qu'est-ce qu'une application d'authentification?
     why-does-the-system-log-me-out: Pourquoi le système me déconnecte-t-il?
-  trusted-traveler-programs:
-    another-question: I have another question
-    aol-verizon: I use AOL/Verizon for email and I did not get an email confirmation
-    application-status: What is the status of my application?
-    do-i-need-to-pay-again: Do I need to pay again?
-    dont-know-passid: I don’t know my PASSID
-    family-account: How do I create a login.gov account for my family member?
-    known-traveler-number: Will my KTN (Known Traveler Number) change?
-    no-text-message: I’m not getting a text message
-    only-shows-login: When I sign in, it only shows my login.gov account information,
-      and there’s no way to get back to the Trusted Traveler Programs site
-    schedule-an-appointment: Can you help with scheduling an appointment?
-    sign-in-doesnt-work: I’m trying to sign in, but it doesn’t work / I’m trying to
-      reset my password, but I don’t get an email / I did not get an email confirmation
 help_page:
   p_1: Parcourir les sujets communs
 help_pages:
@@ -227,64 +196,6 @@ help_pages:
       avec d'autres agences gouvernementales sans l'autorisation de l'utilisateur.
       Même les administrateurs de login.gov ne peuvent déchiffrer ou accéder à l'information
       personnelle sans le mot de passe de l'utilisateur.
-  sam:
-    change-account-settings: |-
-      To make changes and updates to information tied to your login.gov account (email, phone number, personal key, etc.), you must sign in to your login.gov account:
-
-        1. Go to [https://www.login.gov/](https://www.login.gov/){:target="_blank"} and click “Manage Account”
-        2. Sign in using your login.gov credentials
-
-      Once logged in, you will be able to edit and update your login.gov information.
-
-      To make changes to your SAM.gov account, you will need to sign in at [https://www.sam.gov](https://sam.gov){:target="_blank"}. Once signed in to your SAM account:
-
-        1. Select My Account Settings from the sub-navigation menu on your My SAM page.
-        2. Select Edit User Information.
-
-      You will not be able to update your SAM username or email address. To update the email address associated with your SAM account, please update your login.gov account.
-    have-account-different-email: |-
-      Your login.gov email address must be the same as your SAM.gov email address to successfully link your SAM profile to your login.gov account. If you have already created a login.gov account, but with an email address that is different from your SAM.gov registered email you can do the following:
-        1. **Update your SAM.gov email**: Before 6:00 pm EST on Friday, June 29th, you can update your SAM.gov email to the email address you used to create your login.gov account. When you sign on to SAM.gov using login.gov for the first time, your profile will automatically link.
-        2. **Change your login.gov email**: You can change your login.gov email to match your SAM.gov email address. You must change your login.gov email before signing into SAM using login.gov. Changing your email will not affect your profiles with other government applications, and once you’ve signed into SAM.gov and linked your profile, you can change your login.gov email back to the original email used. To change your login.gov email, do the following:
-        3. **Create another login.gov account**: You can also create a new login.gov account using the same email registered with SAM.
-    no-longer-have-email: If you no longer have access to the email you used to create
-      your SAM.gov profile, you will need to create a new SAM.gov profile with your
-      new login.gov account. You need to have access to the email in order to receive
-      the login.gov confirmation email. Unfortunately, SAM will not be able to link
-      your profile and information to your account.
-    username-and-password-sign-in: |-
-      You must have a login.gov account to sign into SAM.gov. If you don’t have a login.gov account, you need to create one. **Your old SAM.gov username and password won’t work anymore.**
-
-      **To create a login.gov account:**
-
-        1. Start from the [sam.gov](https://www.sam.gov/){:target="_blank"} portal and select the Log in button.
-        2. Choose Create an Account to start creating a login.gov account.
-        3. Confirm an email address during the account set up. If you are a returning SAM.gov user, you must use the email address registered with SAM.gov to link your profile information to your login.gov account.
-        4. Create a new password.
-        5. Have a working phone number (mobile or landline) near you - login.gov will send you a security code each time you sign in.
-        6. Finish setting up your login.gov account by writing down the personal key.
-
-      Once you’ve finished setting up your login.gov account, you’ll go back to SAM.gov where you should see your profile. You need to use your login.gov email address, password, and security code every time you want to sign into SAM.gov.
-    where-is-my-profile-info: |-
-      If you are an existing SAM user and don’t see your SAM.gov profile after signing in, this means you did not use the same email address you registered with SAM.gov. To update your email address to match your SAM.gov registered email you’ll need to:
-
-        1. Go to [https://www.login.gov/](https://www.login.gov/){:target="_blank"} and
-        2. Click “Manage Account” to sign in
-        3. Click “edit” next to your email
-        4. Enter the correct email address and click “update”
-        5. You will be sent a confirmation email. You must open and click the confirmation link to finish updating your email
-
-        If you can’t remember the email you registered with SAM.gov, you can contact the Federal Service Desk at 866-606-8220 (toll fee) or 334-206-7828 (internationally) for assistance. You may also submit your request via web form at [www.fsd.gov](https://www.fsd.gov/){:target="_blank"}.
-
-        If you no longer have access to the email you used to create your SAM.gov profile, you will need to create a new SAM.gov profile with your new login.gov account.
-    why-is-sam-using-login-gov: |-
-      login.gov uses two-factor authentication, and stronger passwords, that meet new [National Institute of Standards of Technology](https://www.nist.gov/){:target="_blank"} requirements for secure validation and verification. By using login.gov, you’ll get an extra layer of security to help protect your SAM.gov profile against password compromises.
-        - **Do I have to create a login.gov account to sign into SAM?**
-          You must create a new account with login.gov. This is a one-time step. For existing SAM users, you should use your existing SAM.gov email address. For new users, you will be able to create a new SAM profile once you complete the login.gov authentication.
-        - **What will happen to my SAM Profile?**
-          Nothing will happen to the information stored in your SAM.gov account and profile. If you use the same email to create your login.gov profile, you will keep all of your records, data access requests, and saved searches. If you use a new email address, nothing will happen to your SAM.gov profile, but you will be unable to access it.
-        - **What email address should I use to create a login.gov account?**
-          If you are an existing SAM user, use the same email address you registered within SAM.gov so we can automatically link your SAM.gov profile to your login.gov account. If you use a different email address, we won't be able to link your profile automatically.
   signing-in:
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: |-
       Si n'avez pas votre téléphone ou votre clé personnelle, vous pourriez devoir créer un nouveau compte et vérifier votre information personnelle de nouveau. Pour créer un nouveau compte, vous devrez utiliser une adresse courriel différente de celle que vous avez utilisée lorsque vous avez créé votre premier compte. Pour les questions urgentes, par exemple pour vérifier le statut d'une application en cours, il est recommandé de communiquer directement avec l'agence gouvernementale.
@@ -326,80 +237,6 @@ help_pages:
 
       Le système vous déconnecte également si vous avez entré 3 fois de façon erronée le code de sécurité qui a été envoyé à votre téléphone. Les tentatives échouées sont limitées à 3 par session, suivies d'un verrouillage de l'accès de 5 minutes.
   trusted-traveler-programs:
-    another-question: If you have a question or problem that was not covered by this
-      page, please contact us at [hello@login.gov](mailto:hello@login.gov).
-    aol-verizon: We are actively looking into issues of emails not being delivered
-      to Verizon or AOL accounts. Please check your spam folder for your email confirmation.
-      If you <strong>add “no-reply@login.gov” to your contact list,</strong> AOL will
-      not send it to spam.
-    application-status: |-
-      Sign in to the [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} to find out the status of your application.
-
-      login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
-
-      For additional Trusted Traveler related questions such as these, please contact CBP directly [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
-    do-i-need-to-pay-again: |-
-      You do not need to pay again, unless it is time to renew your membership.
-
-      login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
-
-      For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
-    dont-know-passid: |-
-      Once you have created a login.gov username and password and successfully signed into [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"}, you will be asked to enter your PASSID in order to link your old GOES profile to the new login.gov credentials.
-
-      If you have trouble with your PASSID or GOES username and password, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
-    family-account: |-
-      The [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} supports only one login.gov account per individual application. Each family member will need a unique email address to create a login.gov account. We completely understand you may prefer to share an email address with your family members, or do not wish to set up an email account for your children.
-
-      Some email providers may have options to create alias addresses (or, forwarding addresses). If you are a Gmail user, you can use this trick to get multiple email aliases to point to the same inbox:
-
-      If your email is example@gmail.com, you may enter example+john@gmail.com or example+jane@gmail.com when creating a new login.gov account. login.gov will recognize each of these email addresses as unique, and all confirmation emails will be delivered to your example@gmail.com inbox.
-
-      For more information, go to [https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html){:target="_blank"}.
-    known-traveler-number: |-
-      Your KTN will not change.
-
-      login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
-
-      For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
-    no-text-message: |-
-      If you have a landline, please make sure to pick the “Phone call” option under “How would you like to receive your security code?” We cannot send a text message to landlines.
-
-      If you have an international phone number, please make sure to pick the correct country from the “International code” dropdown, such as +52 for Mexico, and try again.
-    only-shows-login: |-
-      If you want to access your Trusted Traveler Programs (TTP) account, always start at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. After you follow the [instructions to create an account](/help/creating-an-account/how-do-i-create-an-account-with-logingov/), you will be taken back to your TTP membership information.
-
-      If you sign in directly from login.gov, you will only see your login.gov account information, and will not be able to view your TTP membership information.
-    schedule-an-appointment: |-
-      The best way to schedule an appointment is through the Trusted Traveler Programs site.
-
-      login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
-
-      For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
-    sign-in-doesnt-work: |-
-      You will no longer be able to use your GOES User ID and password to sign in. Please create a new login.gov account. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. No credit card or payment will be required.
-
-      To register a new account:
-
-      1. Please visit [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}
-      2. If you are a new user, select “Get Started” in the middle of the page. If you are a returning user, select “LOG IN” on the upper right hand corner.
-      3. Click “Consent & Continue”
-      4. Click “Create an account”
-      5. Enter your email address: this is your new username going forward
-      6. Wait for an email confirmation & follow the instructions in the email
-      7. Continue with the account creation process as described here: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
-      8. You should now see a page that looks like this:
-      <img src="/assets/img/created_acount.png" class="mt3 mb3 block" alt="Login.gov created account page" />
-
-      9. Click “Continue” to go back to the Trusted Traveler Programs website
-      10. You should now see a page that looks like this:
-      <img src="/assets/img/trusted_traveler_program.png" class="mt3 mb3 block" alt="Trusted traveler account profile" />
-
-      11. Fill out your info on that page, and at the bottom, you will see a section for previous applications. Under “Have you ever applied for Global Entry, NEXUS, or SENTRI?”, click “Yes”. It looks like this:
-      <img src="/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
-
-
-      If you have any other questions about creating an account with login.gov please refer to our FAQ as our call center volume is extremely high this week: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
 help_subpages:
   changing-settings: Changement des paramètres
   creating-an-account: Création d'un compte
@@ -407,6 +244,7 @@ help_subpages:
   sam: SAM
   signing-in: Connexion
   trusted-traveler-programs: Trusted Traveler Programs
+  usajobs: USAJobs
 implementation_page:
   heading: Mise en œuvre d'un système de gestion d'identité
   section_1:
@@ -534,9 +372,6 @@ implementation_page:
       li_1:
         a_1: veuillez lire la documentation du développeur.
     ul_6:
-      li_1:
-        a_1: National Institute of Standards and Technology
-        content: "(NIST 800-63-3)"
       li_2:
         a_1: Guide de mise en œuvre des services numériques
       li_3:
@@ -573,8 +408,6 @@ index:
       et de la rendre plus sécurisée.
     heading: Accès simple et sécurisé aux services en ligne du gouvernement
 meta:
-  contact:
-    title: Contact
   contact_us:
     description: Vous avez une question ou un problème concernant login.gov?
     title: Nous joindre
