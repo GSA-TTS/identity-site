@@ -107,6 +107,12 @@ help:
     where-is-my-profile-info: Why don’t I see my SAM profile information after I create
       my login.gov account and sign in?
     why-is-sam-using-login-gov: Why is SAM using login.gov?
+  security-keys:
+    what-is-a-security-key: What is a security key?
+    what-is-phishing: What is phishing?
+    do-i-need-to-set-up-a-security-key-to-use-logingov: Do I need to set up a security key to use login.gov?
+    how-do-i-protect-my-logingov-account-with-a-security-key: How do I protect my login.gov account with a security key?
+    does-using-a-security-key-mean-im-completely-safe-from-phishing: Does using a security key mean I’m completely safe from phishing?
   signing-in:
     how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: How do I sign in
       if I don’t have my phone or my personal key?
@@ -385,6 +391,27 @@ help_pages:
           Nothing will happen to the information stored in your SAM.gov account and profile. If you use the same email to create your login.gov profile, you will keep all of your records, data access requests, and saved searches. If you use a new email address, nothing will happen to your SAM.gov profile, but you will be unable to access it.
         - **What email address should I use to create a login.gov account?**
           If you are an existing SAM user, use the same email address you registered within SAM.gov so we can automatically link your SAM.gov profile to your login.gov account. If you use a different email address, we won't be able to link your profile automatically.
+  security-keys:
+    what-is-a-security-key: |-
+      A security key is an authentication device that strengthens account security when used in addition to a password when signing in. Using a security key is better than receiving codes via phone call or text message because these codes can be phished or intercepted. When you use a security key to sign in, the key will check to make sure you are on the official login.gov website.
+
+      A security key is usually a piece of physical hardware, like a USB, that you can carry on your keychain. You can also use supporting software, such as a web browser extension or other services. When choosing a security key, look for compatibility with the [FIDO standard](https://fidoalliance.org/fido2/){:target="_blank"}.
+    what-is-phishing: |-
+      Phishing is when someone tries to trick you into sharing your password or other personal information online. Phishing is typically done through email, ads, or by sites that look similar to sites you already use. For example, you might get an email that looks like it’s from login.gov asking you to confirm your email, password, security code, or personal key. A security key makes it harder for this to occur because there are no codes that you can mistakenly share with an attacker. The security key will also make sure you’re entering information on the official login.gov website.
+    do-i-need-to-set-up-a-security-key-to-use-logingov: |-
+      You do not need to use a security key to use login.gov. However, all login.gov accounts must be set up with a two-factor method. You can set up two-factor authentication by phone call, text message, authentication app, or a security key. A security key is the most secure two-factor method.
+    how-do-i-protect-my-logingov-account-with-a-security-key: |-
+      To set up a security key with your login.gov account, you must first have a security key that supports the [FIDO standard](https://fidoalliance.org/fido2/){:target="_blank"}. If you don’t currently have a login.gov account, you will be given the option to secure your account using a security key during account creation. Once you have confirmed your email address and created your password, select “Security key” and follow the instructions to give your key a nickname, connect the key to register it.
+
+      If you already have a login.gov account, you can add your security key by signing into your login.gov account. Go to [https://login.gov/](https://login.gov/){:target="_blank"} and click “manage account.” Sign in and select “Add hardware security key.” You will be prompted to give your security key a nickname, connect it, and press the button to register.
+
+      Each time you sign in to login.gov, we will ask you to use your security key. If you do not have your security key, you can also use any other authentication methods you have enabled. We recommend enabling multiple security keys and/or other two-factor methods so you don’t get locked out of your account.
+    does-using-a-security-key-mean-im-completely-safe-from-phishing: |-
+      Adding a security key to your login.gov account and consistently using it to log in will dramatically increase your safety from phishing attacks.
+
+      However, your account may have other two-factor methods enabled, and login.gov provides all users a recovery key, any of which could also be used to gain access to your account.
+
+      If you have a security key enabled, login.gov will ask you to use it first, every time you log in. If you are not asked to use a security key during the login process, this could be a warning that you are not at the real login.gov website. To stay safe when using login.gov, expect to use your security key consistently to log in.
   signing-in:
     how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: |-
       Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will remove any agency applications you have linked to your account. We recommend you use the articles listed below to learn how to relink your account after deleting it.
@@ -622,6 +649,7 @@ help_subpages:
   creating-an-account: Creating an account
   privacy-and-security: Privacy & security
   sam: SAM
+  security-keys: Security keys
   signing-in: Signing in
   trusted-traveler-programs: Trusted Traveler Programs
   usajobs: USAJobs

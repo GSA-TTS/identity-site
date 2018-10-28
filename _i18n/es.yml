@@ -82,6 +82,12 @@ help:
     how-do-i-make-my-password-strong: "¿Cómo puedo hacer que mi contraseña sea segura?"
     how-does-logingov-protect-my-data: "¿Cómo protege login.gov mis datos?"
     will-logingov-share-my-information: "¿Compartirá login.gov mi información?"
+  security-keys:
+    what-is-a-security-key: ¿Qué es una clave de seguridad?
+    what-is-phishing: ¿Qué es el phishing?
+    do-i-need-to-set-up-a-security-key-to-use-logingov: ¿Necesito configurar una clave de seguridad para usar login.gov?
+    how-do-i-protect-my-logingov-account-with-a-security-key: ¿Cómo protejo mi cuenta login.gov con una clave de seguridad?
+    does-using-a-security-key-mean-im-completely-safe-from-phishing: ¿El uso de una clave de seguridad significa que estoy completamente a salvo del phishing?
   signing-in:
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: No
       puedo recordar dónde está mi clave personal y no tengo mi teléfono conmigo.
@@ -202,6 +208,27 @@ help_pages:
       administradores de login.gov pueden descifrar o acceder a la información personal
       de un usuario sin la contraseña del usuario.
   sam:
+  security-keys:
+    what-is-a-security-key: |-
+      Una clave de seguridad es un dispositivo de autenticación que refuerza la seguridad de la cuenta cuando se usa además de una contraseña al iniciar sesión. Utilizar una clave de seguridad es mejor que recibir códigos a través de llamadas telefónicas o mensajes de texto, ya que estos códigos pueden ser objeto de suplantación o intercepción. Cuando use una clave de seguridad para iniciar sesión, la clave comprobará que se encuentre en el sitio web oficial login.gov.
+
+             Una clave de seguridad suele ser una pieza de hardware físico, como un USB, que puede llevar en su llavero. También puede usar software de soporte, como una extensión de navegador web u otros servicios. Al elegir una clave de seguridad, busque la compatibilidad con el [estándar FIDO](https://fidoalliance.org/fido2/){:target="_blank"}.
+    what-is-phishing: |-
+      El phishing es cuando alguien trata de engañarlo para que comparta su contraseña u otra información personal en línea. Por lo general, el phishing se realiza a través de correo electrónico, anuncios o sitios que se parecen a los sitios que ya usa. Por ejemplo, puede recibir un correo electrónico que parece que proviene de login.gov y le solicita que confirme su correo electrónico, contraseña, código de seguridad o clave personal. Una clave de seguridad hace que sea más difícil que esto ocurra porque no hay códigos que pueda compartir por error con un atacante. La clave de seguridad también se asegurará de que ingrese información en el sitio web oficial login.gov.
+    do-i-need-to-set-up-a-security-key-to-use-logingov: |-
+      No necesita usar una clave de seguridad para usar login.gov. Sin embargo, todas las cuentas login.gov deben configurarse con un método de dos factores. Puede configurar la autenticación de dos factores por llamada telefónica, mensaje de texto, aplicación de autenticación o una clave de seguridad. Una clave de seguridad es el método de dos factores más seguro.
+    how-do-i-protect-my-logingov-account-with-a-security-key: |-
+      Para configurar una clave de seguridad con su cuenta login.gov, primero debe tener una clave de seguridad que admita el [estándar FIDO](https://fidoalliance.org/fido2/){:target="_blank"}. Si actualmente no tiene una cuenta de login.gov, se le dará la opción de proteger su cuenta con una clave de seguridad durante la creación de la cuenta. Una vez que haya confirmado su dirección de correo electrónico y haya creado su contraseña, seleccione "Clave de seguridad" y siga las instrucciones para darle un apodo a su clave, conecte la clave para registrarla.
+
+      Si ya tiene una cuenta de login.gov, puede agregar su clave de seguridad iniciando sesión en su cuenta de login.gov. Vaya a [https://login.gov/](https://login.gov/){:target="_blank"} y haga clic en “administrar cuenta”. Inicie sesión y seleccione “Agregar clave de seguridad de hardware”. Se le solicitará que le dé un apodo a su clave de seguridad, conéctela y presione el botón para registrarse.
+
+      Cada vez que inicie sesión en login.gov, le pediremos que utilice su clave de seguridad. Si no tiene su clave de seguridad, también puede usar cualquier otro método de autenticación que haya habilitado. Recomendamos habilitar múltiples claves de seguridad y / u otros métodos de dos factores para que no quede bloqueado de su cuenta.
+    does-using-a-security-key-mean-im-completely-safe-from-phishing: |-
+      Agregar una clave de seguridad a su cuenta login.gov y usarla constantemente para iniciar sesión aumentará considerablemente su seguridad frente a los ataques de phishing.
+
+      Sin embargo, su cuenta puede tener habilitados otros métodos de dos factores, y login.gov proporciona a todos los usuarios una clave de recuperación, cualquiera de los cuales también podría usarse para obtener acceso a su cuenta.
+
+      Si tiene una clave de seguridad habilitada, login.gov le pedirá que la use primero, cada vez que inicie sesión. Si no se le pide que use una clave de seguridad durante el proceso de inicio de sesión, esto podría ser una advertencia de que no está El sitio web real login.gov. Para estar seguro al usar login.gov, espere usar su clave de seguridad de manera consistente para iniciar sesión.
   signing-in:
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: |-
       Si no tiene su teléfono o su clave personal, es posible que deba crear una cuenta nueva y volver a verificar su información personal. Para crear una cuenta nueva, deberá usar un email diferente al que utilizó cuando creó su primera cuenta. Para asuntos urgentes —por ejemplo, para verificar el estado de una solicitud en curso— comuníquese directamente con la agencia del Gobierno.
@@ -248,6 +275,7 @@ help_subpages:
   creating-an-account: Creando una cuenta
   privacy-and-security: Privacidad y seguridad
   sam: SAM
+  security-keys: Llaves de seguridad
   signing-in: Iniciando sesión
   trusted-traveler-programs: Trusted Traveler Programs
   usajobs: USAJobs
