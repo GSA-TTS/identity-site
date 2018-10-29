@@ -92,7 +92,7 @@ setInterval(timestamp, 500);
   <input type='hidden' name="retURL" value="http://login.gov" />
   <input type='hidden' name="orgid" value="00DU0000000Leux" />
   <div class="lg-col lg-col-12 select">
-    <label class='bold' for="00Nt0000000OYA2">{% t contact_page.support_request_form.labels.agency_application %}:</label>
+    <label class='bold' for="00Nt0000000OYA2">{% t contact_page.support_request_form.labels.agency_application %}</label>
     <select class='block col-12 mb1 field select required' id="00Nt0000000OYA2" name="00Nt0000000OYA2" title="Agency Application" required="true">
       <option value="CBP Jobs">{% t contact_page.support_request_form.agencies.cbp_jobs %}</option>
       <option value="CBP ROAM">{% t contact_page.support_request_form.agencies.cbp_roam %}</option>
@@ -110,23 +110,23 @@ setInterval(timestamp, 500);
     </select>
   </div>
   <div class="lg-col lg-col-12">
-    <label class='bold' for="00NU0000004z90C">{% t contact_page.support_request_form.labels.first_name %}:</label>
+    <label class='bold' for="00NU0000004z90C">{% t contact_page.support_request_form.labels.first_name %}</label>
     <input class='bold field string col-12 mb1 required' id="00NU0000004z90C" maxlength="255" name="00NU0000004z90C" type="text" required="true" />
   </div>
   <div class="lg-col lg-col-12">
-    <label class='bold' for="00NU0000004z90D">{% t contact_page.support_request_form.labels.last_name %}:</label>
+    <label class='bold' for="00NU0000004z90D">{% t contact_page.support_request_form.labels.last_name %}</label>
     <input class='bold field string col-12 mb1 required' id="00NU0000004z90D" maxlength="255" name="00NU0000004z90D" type="text" required="true" />
   </div>
   <div class="lg-col lg-col-12">
-    <label class='bold' for="00NU0000004z90B">{% t contact_page.support_request_form.labels.email %}:</label>
+    <label class='bold' for="00NU0000004z90B">{% t contact_page.support_request_form.labels.email %}</label>
     <input class='bold field string col-12 mb1 required' id="00NU0000004z90B" maxlength="255" name="00NU0000004z90B" type="text" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$" title="Please enter an email address" required="true" />
   </div>
   <div class="lg-col lg-col-12">
-    <label class='bold' for="00NU0000004z90E">{% t contact_page.support_request_form.labels.phone %}:</label>
+    <label class='bold' for="00NU0000004z90E">{% t contact_page.support_request_form.labels.phone %}</label>
     <input class='bold field string col-12 mb1 required' id="00NU0000004z90E" maxlength="40" name="00NU0000004z90D" type="text" pattern="^\d{3}[-. (]*\d{3}[-. (]*\d{4}$" title="Please enter a phone number in 5556667777 format"/>
   </div>
   <div class="lg-col lg-col-12">
-    <label class='bold' for="00NU0000004z903">{% t contact_page.support_request_form.labels.topic %}:</label>
+    <label class='bold' for="00NU0000004z903">{% t contact_page.support_request_form.labels.topic %}</label>
     <select class='block col-12 mb1 field select required' id="00NU0000004z903" name="00NU0000004z903" title="Issue Topic" placeholder="Select Issue Topic" required="true" onchange="javascript:dynamicdropdown(this.options[this.selectedIndex].value);">
       <option value="Account Linking">{% t contact_page.support_request_form.topics.account_linking %}</option>
       <option value="Changing Settings">{% t contact_page.support_request_form.topics.changing_settings %}</option>
@@ -140,13 +140,13 @@ setInterval(timestamp, 500);
     </select>
   </div>
   <div class="lg-col lg-col-12">
-    <label class='bold' for="00NU0000004z905">{% t contact_page.support_request_form.labels.subtopic %}: </label>
+    <label class='bold' for="00NU0000004z905">{% t contact_page.support_request_form.labels.subtopic %}</label>
     <select class='block col-12 mb1 field select required' id="sub-topic" name="00NU0000004z905" title="Issue Sub-Topic" placeholder="Select Issue Sub-Topic">
       <option value="">{% t contact_page.support_request_form.subtopics.none %}</option>
     </select>
   </div>
   <div class="lg-col lg-col-12">
-    <label class='bold' for="description">{% t contact_page.support_request_form.labels.description %}:</label>
+    <label class='bold' for="description">{% t contact_page.support_request_form.labels.description %}</label>
     <textarea class='bold field text col-12 mb1 required' id='description' name="description" required="true" maxlength="32000"></textarea>
   </div>
   <input type="hidden" name="status" id="status" value="New" />
