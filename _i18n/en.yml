@@ -42,6 +42,7 @@ contact_page:
       trusted_traveler_program: Trusted Traveler Program
       usajobs: USAJobs
       usss_pix: USSS PIX
+    instructions: Let us know a bit about the problem you’re experiencing and we’ll get back to you soon
     labels:
       agency_application: Agency application
       description: Issue description
@@ -83,7 +84,7 @@ contact_page:
       site_navigation: Site navigation
       unwanted_otp: Multiple OTPs
       wrong_account_update: Wrong account update
-    title: Support request form
+    title: Contact the login.gov team
     topics:
       account_linking: Account linking
       changing_settings: Changing settings
