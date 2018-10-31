@@ -49,7 +49,7 @@ contact_page:
       email: Email
       first_name: First name
       last_name: Last name
-      phone: Phone number
+      phone: Phone number (optional)
       subtopic: Issue sub-topic
       topic: Issue topic
     submit: Submit
