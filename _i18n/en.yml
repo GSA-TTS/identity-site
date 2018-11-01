@@ -26,6 +26,75 @@ contact_page:
 
     ## Note for Trusted Traveler Programs users
     For questions about the Trusted Traveler Programs (Global Entry, GOES, Sentri, or Nexus), [please contact CBP](https://help.cbp.gov/app/ask){:target="_blank"}.
+  support_request_form:
+    agencies:
+      cbp_jobs: CBP Jobs
+      cbp_roam: CBP Roam
+      dot_nrcme: DoT NRCME
+      dot_portal: DoT Portal
+      eop_hipchat: EOP Hipchat
+      move_mil: Move.mil
+      my_cbp_employee_portal: MyCBP Employee Portal
+      nga: NGA
+      other: Other
+      railroad_retirement_board: Railroad Retirement Board
+      sam: SAM.gov
+      trusted_traveler_program: Trusted Traveler Program
+      usajobs: USAJobs
+      usss_pix: USSS PIX
+    instructions: Let us know a bit about the problem you’re experiencing and we’ll get back to you soon
+    labels:
+      agency_application: Agency application
+      description: Issue description
+      email: Email
+      first_name: First name
+      last_name: Last name
+      phone: Phone number (optional)
+      subtopic: Issue sub-topic
+      topic: Issue topic
+    submit: Submit
+    subtopics:
+      agency_app: Agency app issue
+      authentication_app: Authentication app
+      authentication_app_setup: Authentication app setup
+      change_email: Change email
+      change_password: Change password
+      change_phone_number: Change phone number
+      delete_account: Delete account
+      email_delivery_issue: Email delivery issue
+      forgot_password: Forgot password
+      international_number: International number
+      invalid_email: Invalid email
+      invalid_otp: Invalid OTP
+      locked_out: Locked out
+      lost_2fa_method: Lost 2FA method
+      multiple_otps: Multiple OTPs
+      new_account: New account
+      new_personal_key: New personal key
+      no_otp_received: No OTP received
+      no_phone: No phone
+      none: --None--
+      other: Other
+      password_issue: Password issue
+      personal_key: Personal key
+      personal_key_setup: Personal key setup
+      privacy_and_security: Privacy and security
+      remember_device_issue: Remember device issue
+      service_quality: Service quality
+      site_navigation: Site navigation
+      unwanted_otp: Multiple OTPs
+      wrong_account_update: Wrong account update
+    title: Contact the login.gov team
+    topics:
+      account_linking: Account linking
+      changing_settings: Changing settings
+      creating_account: Creating accounts
+      login_system: Login.gov system
+      mfa: MFA (Mutli-factor authentication)
+      not_login_gov: Not login.gov
+      piv_cac: PIV/CAC issue
+      other: Other
+      signing_in: Signing in
 developers_page:
   column_1:
     content:

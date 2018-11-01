@@ -1,0 +1,33 @@
+label {
+  display: inline-block;
+  margin-bottom: $space-tiny;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.field {
+  background-color: #f2f9ff;
+  color: $gray;
+  display: block;
+  font-weight: $bold-font-weight;
+
+  &:focus,
+  &.is-focused {
+    border-color: $field-focus-color;
+    box-shadow: 0 0 0 2px rgba($field-focus-color, .5);
+    outline: none;
+  }
+
+  &:invalid,
+  &.is-error {
+    border-color: $border-color;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
