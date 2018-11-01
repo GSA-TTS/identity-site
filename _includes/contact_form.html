@@ -1,0 +1,149 @@
+<!--
+  This is some slightly modified code provided by the contact center to interact
+  with their support ticket intake system
+-->
+
+<script>
+function dynamicdropdown(listindex) {
+  document.getElementById('sub-topic').options.length = 0;
+  switch (listindex) {
+    case "Account Linking":
+      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+      break;
+    case "Changing Settings":
+      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+      document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.authentication_app_setup %}", "Authentication app setup");
+      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.change_password %}", "Change password");
+      document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.change_email %}", "Change email");
+      document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.change_phone_number %}", "Change phone number");
+      document.getElementById("sub-topic").options[5] = new Option("{% t contact_page.support_request_form.subtopics.delete_account %}", "Delete account");
+      document.getElementById("sub-topic").options[6] = new Option("{% t contact_page.support_request_form.subtopics.new_personal_key %}", "New personal key");
+      document.getElementById("sub-topic").options[7] = new Option("{% t contact_page.support_request_form.subtopics.site_navigation %}", "Site navigation");
+      document.getElementById("sub-topic").options[8] = new Option("{% t contact_page.support_request_form.subtopics.wrong_account_update %}", "Wrong account update");
+      document.getElementById("sub-topic").options[9] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
+      break;
+    case "Creating Account":
+      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+      document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.site_navigation %}", "Site navigation");
+      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.email_delivery_issue %}", "Email delivery issue");
+      document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.invalid_email %}", "Invalid email");
+      document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.password_issue %}", "Password issue");
+      document.getElementById("sub-topic").options[5] = new Option("{% t contact_page.support_request_form.subtopics.no_phone %}", "No phone");
+      document.getElementById("sub-topic").options[6] = new Option("{% t contact_page.support_request_form.subtopics.new_account %}", "New account");
+      document.getElementById("sub-topic").options[7] = new Option("{% t contact_page.support_request_form.subtopics.authentication_app_setup %}", "Authentication app setup");
+      document.getElementById("sub-topic").options[8] = new Option("{% t contact_page.support_request_form.subtopics.personal_key_setup %}", "Personal key setup");
+      document.getElementById("sub-topic").options[9] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
+      break;
+    case "Login.gov system":
+      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+      document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.privacy_and_security %}", "Privacy and Security");
+      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.service_quality %}", "Service quality");
+      document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
+      break;
+    case "MFA (Multi Factor Authentication)":
+      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+      document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.international_number %}", "International number");
+      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.no_otp_received %}", "No OTP received");
+      document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.invalid_otp %}", "Invalid OTP");
+      document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.unwanted_otp %}", "Unwanted OTP");
+      document.getElementById("sub-topic").options[5] = new Option("{% t contact_page.support_request_form.subtopics.multiple_otps %}", "Multiple OTPs");
+      document.getElementById("sub-topic").options[6] = new Option("{% t contact_page.support_request_form.subtopics.authentication_app %}", "Authentication app");
+      document.getElementById("sub-topic").options[7] = new Option("{% t contact_page.support_request_form.subtopics.lost_2fa_method %}", "Lost 2FA method");
+      document.getElementById("sub-topic").options[8] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
+      break;
+    case "Not login.gov":
+      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+      document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.agency_app %}", "Agency app issue");
+      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
+      break;
+    case "Other":
+      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+      break;
+    case "PIV/CAC Issue":
+      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+      break;
+    case "Signing In":
+      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+      document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.site_navigation %}", "Site navigation");
+      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.forgot_password %}", "Forgot password");
+      document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.personal_key %}", "Personal key");
+      document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.locked_out %}", "Locked out");
+      document.getElementById("sub-topic").options[5] = new Option("{% t contact_page.support_request_form.subtopics.remember_device_issue %}", "Remember device issue");
+      document.getElementById("sub-topic").options[6] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
+      break;
+  }
+  return true;
+}
+
+function timestamp() {
+    var response = document.getElementById("g-recaptcha-response");
+    if (response == null || response.value.trim() == "") {
+        var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
+        elems["ts"] = JSON.stringify(new Date().getTime());
+        document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems);
+    }
+}
+setInterval(timestamp, 500);
+</script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<h2>{% t contact_page.support_request_form.title %}</h2>
+<p>{% t contact_page.support_request_form.instructions %}</p>
+<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+  <input type='hidden' name="retURL" value="http://login.gov" />
+  <input type='hidden' name="orgid" value="00DU0000000Leux" />
+  <div class="lg-col lg-col-12 select">
+    <label class='bold' for="00Nt0000000OYA2">{% t contact_page.support_request_form.labels.agency_application %}</label>
+    <select class='block sm-col-6 mb2 field select required' id="00Nt0000000OYA2" name="00Nt0000000OYA2" title="Agency Application" required="true">
+      <option value="CBP Jobs">{% t contact_page.support_request_form.agencies.cbp_jobs %}</option>
+      <option value="CBP ROAM">{% t contact_page.support_request_form.agencies.cbp_roam %}</option>
+      <option value="DoT NRCME">{% t contact_page.support_request_form.agencies.dot_nrcme %}</option>
+      <option value="DoT Portal">{% t contact_page.support_request_form.agencies.dot_portal %}</option>
+      <option value="EOP Hipchat">{% t contact_page.support_request_form.agencies.eop_hipchat %}</option>
+      <option value="Move.mil">{% t contact_page.support_request_form.agencies.move_mil %}</option>
+      <option value="MyCBP Employee Portal">{% t contact_page.support_request_form.agencies.my_cbp_employee_portal %}</option>
+      <option value="NGA">{% t contact_page.support_request_form.agencies.nga %}</option>
+      <option value="Railroad Retirement Board">{% t contact_page.support_request_form.agencies.railroad_retirement_board %}</option>
+      <option value="SAM.gov">{% t contact_page.support_request_form.agencies.sam %}</option>
+      <option value="Trusted Traveler Program">{% t contact_page.support_request_form.agencies.trusted_traveler_program %}</option>
+      <option value="USAJobs">{% t contact_page.support_request_form.agencies.usajobs %}</option>
+      <option value="Other">{% t contact_page.support_request_form.agencies.other %}</option>
+    </select>
+  </div>
+  <div class="lg-col lg-col-12">
+    <label class='bold' for="00NU0000004z90B">{% t contact_page.support_request_form.labels.email %}</label>
+    <input class='bold field string sm-col-12 mb2 required' id="00NU0000004z90B" maxlength="255" name="00NU0000004z90B" type="text" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$" title="Please enter an email address" required="true" />
+  </div>
+  <div class="lg-col lg-col-12">
+    <label class='bold' for="00NU0000004z90E">{% t contact_page.support_request_form.labels.phone %}</label>
+    <input class='bold field string sm-col-4 mb2 required' id="00NU0000004z90E" maxlength="40" name="00NU0000004z90D" type="text" pattern="^\d{3}[-. (]*\d{3}[-. (]*\d{4}$" title="Please enter a phone number in 5556667777 format"/>
+  </div>
+  <div class="lg-col lg-col-12">
+    <label class='bold' for="00NU0000004z903">{% t contact_page.support_request_form.labels.topic %}</label>
+    <select class='block sm-col-6 mb2 field select required' id="00NU0000004z903" name="00NU0000004z903" title="Issue Topic" placeholder="Select Issue Topic" required="true" onchange="javascript:dynamicdropdown(this.options[this.selectedIndex].value);">
+      <option value="Account Linking">{% t contact_page.support_request_form.topics.account_linking %}</option>
+      <option value="Changing Settings">{% t contact_page.support_request_form.topics.changing_settings %}</option>
+      <option value="Creating Account">{% t contact_page.support_request_form.topics.creating_account %}</option>
+      <option value="Login.gov system">{% t contact_page.support_request_form.topics.login_system %}</option>
+      <option value="MFA (Multi Factor Authentication)">{% t contact_page.support_request_form.topics.mfa %}</option>
+      <option value="Not login.gov">{% t contact_page.support_request_form.topics.not_login_gov %}</option>
+      <option value="PIV/CAC Issue">{% t contact_page.support_request_form.topics.piv_cac %}</option>
+      <option value="Signing In">{% t contact_page.support_request_form.topics.signing_in %}</option>
+      <option value="Other">{% t contact_page.support_request_form.topics.other %}</option>
+    </select>
+  </div>
+  <div class="lg-col lg-col-12">
+    <label class='bold' for="00NU0000004z905">{% t contact_page.support_request_form.labels.subtopic %}</label>
+    <select class='block sm-col-6 mb2 field select required' id="sub-topic" name="00NU0000004z905" title="Issue Sub-Topic" placeholder="Select Issue Sub-Topic">
+      <option value="">{% t contact_page.support_request_form.subtopics.none %}</option>
+    </select>
+  </div>
+  <div class="lg-col lg-col-12">
+    <label class='bold' for="description">{% t contact_page.support_request_form.labels.description %}</label>
+    <textarea class='bold field text sm-col-12 mb2 required' id='description' name="description" required="true" maxlength="32000"></textarea>
+  </div>
+  <input type="hidden" name="status" id="status" value="New" />
+  <input type="hidden" id="external" name="external" value="1" />
+  <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu" />
+  <input class="btn btn-primary sm-col-3 btn-wide mt3 mb3" type="submit" name="submit" value="{% t contact_page.support_request_form.submit %}"/>
+</form>
