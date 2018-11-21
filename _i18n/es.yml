@@ -30,7 +30,7 @@ contact_page:
       railroad_retirement_board: Railroad Retirement Board
       sam: SAM.gov
       trusted_traveler_program: Trusted Traveler Program
-      usajobs: USAJobs
+      usajobs: USAJOBS
       usss_pix: USSS PIX
     instructions: Cuéntanos un poco sobre el problema que estás experimentando y te
       responderemos pronto
@@ -747,7 +747,7 @@ help_subpages:
   security-keys: Llaves de seguridad
   signing-in: Iniciando sesión
   trusted-traveler-programs: Trusted Traveler Programs
-  usajobs: USAJobs
+  usajobs: USAJOBS
 implementation_page:
   heading: Implementando un sistema de gestión de la identidad
   section_1:

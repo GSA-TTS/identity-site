@@ -23,7 +23,7 @@ links:
   - name: Trusted Traveler Programs
     url: /help/trusted-traveler-programs/
     img_url: /assets/img/app.svg
-  - name: USAJobs
+  - name: USAJOBS
     url: /help/usajobs/
     img_url: /assets/img/app.svg
   - name: SAM
