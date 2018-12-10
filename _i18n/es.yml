@@ -35,7 +35,7 @@ contact_page:
     instructions: Cuéntanos un poco sobre el problema que estás experimentando y te
       responderemos pronto
     form_helpers:
-      select_one: "--Seleccione uno--"
+      select_one: "--Elige un tema--"
     labels:
       agency_application: Aplicación de agencia
       description: Descripción del problema
