@@ -36,7 +36,7 @@ contact_page:
     instructions: Décrivez-nous le problème que vous rencontrez et nous vous répondrons
       dans les plus brefs délais.
     form_helpers:
-      select_one: "--Select One--"
+      select_one: "--Choisir un sujet--"
     labels:
       agency_application: Demande à une agence
       description: Description du problème
