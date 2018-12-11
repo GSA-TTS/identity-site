@@ -39,6 +39,8 @@ contact_page:
       usss_pix: USSS PIX
     instructions: Let us know a bit about the problem you’re experiencing and we’ll
       get back to you soon
+    form_helpers:
+      select_one: "--Select one--"
     labels:
       agency_application: Agency application
       description: Issue description
