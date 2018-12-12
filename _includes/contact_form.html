@@ -94,7 +94,8 @@ setInterval(timestamp, 500);
   <input type='hidden' name="orgid" value="00DU0000000Leux" />
   <div class="lg-col lg-col-12 select">
     <label class='bold' for="00Nt0000000OYA2">{% t contact_page.support_request_form.labels.agency_application %}</label>
-    <select class='block sm-col-6 mb2 field select required' id="00Nt0000000OYA2" name="00Nt0000000OYA2" title="Agency Application" required="true">
+    <select class='block sm-col-6 mb2 field select required' id="00Nt0000000OYA2" name="00Nt0000000OYA2" title="Agency Application" required="true" placeholder="Select Agency">
+      <option value="" selected hidden>{% t contact_page.support_request_form.form_helpers.select_one %}</option>
       <option value="CBP Jobs">{% t contact_page.support_request_form.agencies.cbp_jobs %}</option>
       <option value="CBP ROAM">{% t contact_page.support_request_form.agencies.cbp_roam %}</option>
       <option value="DoT NRCME">{% t contact_page.support_request_form.agencies.dot_nrcme %}</option>
@@ -116,11 +117,12 @@ setInterval(timestamp, 500);
   </div>
   <div class="lg-col lg-col-12">
     <label class='bold' for="00NU0000004z90E">{% t contact_page.support_request_form.labels.phone %}</label>
-    <input class='bold field string sm-col-4 mb2 required' id="00NU0000004z90E" maxlength="40" name="00NU0000004z90D" type="text" pattern="^\d{3}[-. (]*\d{3}[-. (]*\d{4}$" title="Please enter a phone number in 5556667777 format"/>
+    <input class='bold field string sm-col-4 mb2 required' id="00NU0000004z90E" maxlength="40" name="00NU0000004z90E" type="text" pattern="^\d{3}[-. (]*\d{3}[-. (]*\d{4}$" title="Please enter a phone number in 5556667777 format"/>
   </div>
   <div class="lg-col lg-col-12">
     <label class='bold' for="00NU0000004z903">{% t contact_page.support_request_form.labels.topic %}</label>
     <select class='block sm-col-6 mb2 field select required' id="00NU0000004z903" name="00NU0000004z903" title="Issue Topic" placeholder="Select Issue Topic" required="true" onchange="javascript:dynamicdropdown(this.options[this.selectedIndex].value);">
+      <option value="" selected hidden>{% t contact_page.support_request_form.form_helpers.select_one %}</option>
       <option value="Account Linking">{% t contact_page.support_request_form.topics.account_linking %}</option>
       <option value="Changing Settings">{% t contact_page.support_request_form.topics.changing_settings %}</option>
       <option value="Creating Account">{% t contact_page.support_request_form.topics.creating_account %}</option>

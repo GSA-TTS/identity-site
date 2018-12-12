@@ -38,6 +38,29 @@ To run specs:
 make test
 ```
 
+## Release
+
+This is the release process for www.login.gov, the [18F/identity-site](https://github.com/18F/identity-site) repo.
+
+### Branches
+
+Branches in the [18F/identity-site](https://github.com/18F/identity-site) repo that are published:
+
+| branch | URL | role |
+| ------ | --- | ---- |
+| `master` | https://preview.login.gov | preview (staging) |
+| `production` | https://www.login.gov | production |
+
+### Process
+
+1. Feature branches should be merged to `master` when they are ready through the normal code review process (have at least **one** person who is not the author Approve the PR)
+2. After merging, changes should be confirmed at https://preview.login.gov
+3. When changes are merged/confirmed, update and close the issue in Jira that asked for the change.
+4. Production deploys of the static site are low-risk, low effort, and should be done frequently when changes have been made.
+5. To deploy to production, create a Pull Request from `master` branch with a **base branch** of `production`
+    - Visit this URL https://github.com/18F/identity-site/compare/production...master and click "Create Pull Request" to create a PR that promotes to production.
+    - Have at least 🔥✨**two**✨🔥  people who are not the author Approve the PR after inspecting the candidate at the preview URL (https://preview.login.gov)
+
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
