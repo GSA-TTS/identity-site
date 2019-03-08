@@ -1066,6 +1066,7 @@ policy_page:
       Recopilamos otra información limitada automáticamente de los visitantes que leen o navegan la información de nuestro sitio. Hacemos esto para entender mejor cómo se utiliza el sitio y cómo podemos hacerlo más servicial.
     p_2: |-
       Si crea una cuenta, login.gov recopila su información personal identificable (PII, sigla en inglés), incluyendo su email y número de teléfono. Recopilamos su email y con su consentimiento lo compartimos con cada agencia federal ("agencia asociada") en la que usted está buscando acceso a información y servicios. Recopilamos su número de teléfono para poder permitir la autenticación de dos factores como medida de seguridad para su cuenta de login.gov.
+principles_page:
   heading_1: Los principios del manual de identidad
   heading_2: Concéntrese en las necesidades de los usuarios
   heading_3: Sea transparente sobre cómo funciona
