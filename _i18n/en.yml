@@ -1065,8 +1065,7 @@ policy_page:
       with each federal agency (“partner agency”) at which you are seeking
       to access information and services. We collect your phone number in
       order to enable two-factor authentication as a security measure for
-      your login.gov account. Your phone number is only sent to a one-time
-      password service provider, not any of the partner agencies.
+      your login.gov account.
 principles_page:
   heading_1: The principles of the identity playbook
   heading_2: Focus on user needs
