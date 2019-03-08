@@ -1062,9 +1062,7 @@ policy_page:
       avec chaque agence fédérale (« agence partenaire ») auprès de laquelle vous
       cherchez à obtenir de l'information et des services. Nous recueillons votre
       numéro de téléphone afin de permettre une authentification à deux facteurs comme
-      mesure de sécurité pour votre compte login.gov. Votre numéro de téléphone est
-      envoyé uniquement à un fournisseur de mot de passe à utilisation unique, mais
-      à aucune des agences partenaires.
+      mesure de sécurité pour votre compte login.gov.
 principles_page:
   heading_1: Les principes du guide de mise en œuvre de l'identité
   heading_2: Axé sur les besoins des utilisateurs
