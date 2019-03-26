@@ -45,9 +45,9 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     method_source (0.9.0)
-    mini_portile2 (2.3.0)
-    nokogiri (1.8.4)
-      mini_portile2 (~> 2.3.0)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.2)
+      mini_portile2 (~> 2.4.0)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     pry (0.11.3)
@@ -93,7 +93,7 @@ DEPENDENCIES
   rspec (~> 3.5.0)
 
 RUBY VERSION
-   ruby 2.5.1p57
+   ruby 2.5.5p157
 
 BUNDLED WITH
-   1.16.5
+   1.17.3
