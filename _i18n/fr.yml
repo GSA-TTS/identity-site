@@ -91,8 +91,8 @@ contact_page:
 developers_page:
   column_1:
     content:
-      p_1: Choisissez entre [LOA1 and LOA3](https://developers.login.gov/attributes/){:target="_blank"}
-        pour [NIST 800-63-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-2.pdf){:target="_blank"}.
+      p_1: Choisissez entre [IAL1 and IAL2](https://developers.login.gov/attributes/){:target="_blank"}
+        pour [NIST 800-63-3](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf){:target="_blank"}.
         Lorsque [policies](https://pages.nist.gov/800-63-3/){:target="_blank"} change,
         nous effectuons le travail pour assurer la conformité.
     heading: Se conformer à un auditoire changeant
@@ -1107,7 +1107,7 @@ principles_page:
 
     Dans le cas de login.gov, par exemple, nous devons décider exactement quelles données nous stockons et pour combien de temps. Nous devons aussi décider quelles étapes les utilisateurs doivent suivre pour accéder à leur information. Toutes ces décisions nécessitent une délibération attentive afin de déterminer la meilleure option pour les utilisateurs autant que pour les agences et assurer une fonctionnalité maximale.
 
-    Pour la construction de login.gov, nous adhérons aux normes mises de l'avant par le [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/){:target="_blank"} (NIST 800-63-2) nous adapterons les nouveaux projets de normes (NIST 800-63-3) au fur et à mesure qu'elles deviennent finales. Les projets de normes adoptent une approche très différente de l'authentification et de la vérification de l'identité (comment une personne se connecte-t-elle et comment vérifie-t-elle son identité) de celle de la version actuelle. De plus, nous adhérons aux [meilleures pratiques du gouvernement](https://playbook.cio.gov/#play11){:target="_blank"} incluant FedRAMP, en bâtissant dans la transparence et en menant des évaluations de sécurité rigoureuses et routinières en plus d'assurer la conformité au Federal Information Security Management Act (FISMA).
+    Pour la construction de login.gov, nous adhérons aux normes mises de l'avant par le [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/){:target="_blank"} (NIST 800-63-3). De plus, nous adhérons aux [meilleures pratiques du gouvernement](https://playbook.cio.gov/#play11){:target="_blank"} incluant FedRAMP, en bâtissant dans la transparence et en menant des évaluations de sécurité rigoureuses et routinières en plus d'assurer la conformité au Federal Information Security Management Act (FISMA).
   ul_1:
     li_1: Identifier vos auditoires potentiels
     li_2: Comprendre les expériences de connexion et identifier les besoins de vos

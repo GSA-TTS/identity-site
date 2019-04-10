@@ -95,8 +95,8 @@ contact_page:
 developers_page:
   column_1:
     content:
-      p_1: Choose between [LOA1 and LOA3](https://developers.login.gov/attributes/){:target="_blank"}
-        for [NIST 800-63-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-2.pdf){:target="_blank"}.
+      p_1: Choose between [IAL1 and IAL2](https://developers.login.gov/attributes/){:target="_blank"}
+        for [NIST 800-63-3](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf){:target="_blank"}.
         When [policies](https://pages.nist.gov/800-63-3/){:target="_blank"} change,
         we do the work to ensure compliance.
     heading: Comply with changing guidance
@@ -1110,7 +1110,7 @@ principles_page:
 
     In login.gov’s case, for instance, we have to decide exactly what data we store and for how long. We also have to decide what steps users must take to access their information. All of these decisions take careful deliberation to determine what’s the best option for both users and agencies and to ensure maximum functionality.
 
-    In building login.gov, we’re adhering to standards put forward by the [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/){:target="_blank"} (NIST 800-63-2) and will move to adapt their new draft standards (NIST 800-63-3) as they become final. The draft standards take a very different approach to authentication and identity proofing (how a person logs in and how they verify their identity) from the current version. Additionally we’re adhering to [government security best practices](https://playbook.cio.gov/#play11){:target="_blank"} including FedRAMP, building in the open, conducting rigorous and routine security evaluations in addition to compliance with the Federal Information Security Management Act (FISMA).
+    In building login.gov, we’re adhering to standards put forward by the [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/){:target="_blank"} (NIST 800-63-3). Additionally we’re adhering to [government security best practices](https://playbook.cio.gov/#play11){:target="_blank"} including FedRAMP, building in the open, conducting rigorous and routine security evaluations in addition to compliance with the Federal Information Security Management Act (FISMA).
   ul_1:
     li_1: Identify your potential audiences
     li_2: Understand the login experiences and identity needs of your audiences

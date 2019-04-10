@@ -91,8 +91,8 @@ contact_page:
 developers_page:
   column_1:
     content:
-      p_1: Elija entre [LOA1 y LOA3](https://developers.login.gov/attributes/){:target="_blank"}
-        para [NIST 800-63-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-2.pdf){:target="_blank"}.
+      p_1: Elija entre [IAL1 y IAL2](https://developers.login.gov/attributes/){:target="_blank"}
+        para [NIST 800-63-3](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf){:target="_blank"}.
         Cuando cambiamos [políticas](https://pages.nist.gov/800-63-3/){:target="_blank"},
         hacemos el trabajo para asegurar el cumplimiento.
     heading: Cumplir con el cambio de orientación
@@ -1139,12 +1139,9 @@ principles_page:
     es la mejor opción tanto para los usuarios como para las agencias y para asegurar
     máxima funcionalidad. \n\nEn la construcción de login.gov, estamos cumpliendo
     con las normas presentadas por el [Instituto Nacional de Estándares y Tecnología
-    (en inglés)](https://pages.nist.gov/800-63-3/){:target=\"_blank\"} (NIST 800-63-2)
-    y adaptaremos sus planes preliminares de estándares nuevos (NIST 800-63-3) a medida
-    que sean terminados. Los planes preliminares para los estándares adoptan un enfoque
-    muy diferente para la autenticación y la prueba de identidad (cómo una persona
-    inicia sesión y cómo verifica su identidad) de la versión actual. Además, seguimos
-    las [mejores practicas de seguridad del Gobierno (en inglés)](https://playbook.cio.gov/#play11){:target=\"_blank\"}
+    (en inglés)](https://pages.nist.gov/800-63-3/){:target=\"_blank\"} (NIST 800-63-3).
+    Además, seguimos las [mejores practicas de seguridad del Gobierno
+    (en inglés)](https://playbook.cio.gov/#play11){:target=\"_blank\"}
     incluyendo FedRAMP, operando en código abierto, realizando rigurosas evaluaciones
     rutinarias de seguridad, además del cumplimiento de la Ley Federal de Gestión
     de la Seguridad de la Información (FISMA, sigla en inglés)."
