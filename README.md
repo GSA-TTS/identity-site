@@ -4,13 +4,17 @@ The static marketing site for login.gov
 
 ## Branches
 
-1. `production` branch is published publicly at https://www.login.gov.
-2. `master` branch is published at a preview URL
+`master` branch is published at https://www.login.gov
 
 ## Publishing Workflow
 
-- Branch off of `master` and make pull requests back to the `master` branch
-- When ready to publish, push changes to `production`
+Branch off of `master` and make pull requests back to the `master` branch. Federalist will build a live preview for each branch  so we suggest using those builds as staging environments to run your proposed changes by the rest of the team.
+
+To view the preview URL for your branch click the federalist link in your pull request or modify the following URL to include your branch name:
+
+```
+https://federalist-proxy.app.cloud.gov/preview/18f/identity-site/{BRANCH}/
+```
 
 ## Development
 
