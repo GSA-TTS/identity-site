@@ -1,7 +1,7 @@
 run: jekyll npm-watch-js npm-watch-css
 
 jekyll:
-	bundle exec jekyll serve --watch
+	bundle exec jekyll serve --watch --port 4000
 
 npm-watch-js:
 	yarn run watch-js

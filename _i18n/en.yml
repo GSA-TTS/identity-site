@@ -268,9 +268,9 @@ help_pages:
       If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed).
   creating-an-account:
     do-i-need-a-mobile-phone-to-use-logingov: |-
-      login.gov requires all users to use two-factor authentication when creating an account and signing in. You can receive security codes using a mobile phone or landline. Mobile phones can receive security codes by text message or phone call. Landlines can receive security codes only by a phone call. login.gov cannot send security codes to extensions.
+      login.gov requires all users to use two-factor authentication when creating an account and signing in.
 
-      If you do not have a phone, you can also set up your account using an authentication application on the device you are using to sign in. Once you have created your account, you can also use your personal key to sign in.
+      Even if you do not have a phone you still have a number of options for a second factor. You can chose between using an authentication application on the device you are using to sign in, backup codes, or a security key.
 
       [Read more on how to set up an authentication application](site.baseurl/help/signing-in/what-is-an-authentication-app/)
       [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/)
