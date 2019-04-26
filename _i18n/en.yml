@@ -54,6 +54,7 @@ contact_page:
       agency_app: Agency app issue
       authentication_app: Authentication app
       authentication_app_setup: Authentication app setup
+      backup_codes: Backup codes
       change_email: Change email
       change_password: Change password
       change_phone_number: Change phone number

@@ -13,6 +13,7 @@ function dynamicdropdown(listindex) {
     case "Changing Settings":
       document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
       document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.authentication_app_setup %}", "Authentication app setup");
+      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.backup_codes %}", "Backup codes");
       document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.change_password %}", "Change password");
       document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.change_email %}", "Change email");
       document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.change_phone_number %}", "Change phone number");
@@ -24,6 +25,7 @@ function dynamicdropdown(listindex) {
       break;
     case "Creating Account":
       document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.backup_codes %}", "Backup codes");
       document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.site_navigation %}", "Site navigation");
       document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.email_delivery_issue %}", "Email delivery issue");
       document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.invalid_email %}", "Invalid email");
@@ -42,6 +44,7 @@ function dynamicdropdown(listindex) {
       break;
     case "MFA (Multi Factor Authentication)":
       document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.backup_codes %}", "Backup codes");
       document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.international_number %}", "International number");
       document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.no_otp_received %}", "No OTP received");
       document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.invalid_otp %}", "Invalid OTP");
@@ -64,6 +67,7 @@ function dynamicdropdown(listindex) {
       break;
     case "Signing In":
       document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.backup_codes %}", "Backup codes");
       document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.site_navigation %}", "Site navigation");
       document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.forgot_password %}", "Forgot password");
       document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.personal_key %}", "Personal key");
