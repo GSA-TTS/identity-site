@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1ece1ba-cf10-456d-8597-72608496eb35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Makefile.server" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile.server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_i18n/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/en.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -47,14 +46,14 @@
         <counts>
           <entry key="md" value="3093" />
           <entry key="server" value="12" />
-          <entry key="yml" value="212" />
+          <entry key="yml" value="3357" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="3093" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="YAML" value="212" />
+          <entry key="YAML" value="3357" />
         </counts>
       </usages-collector>
     </session>
@@ -64,18 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_i18n/en.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="272" column="211" lean-forward="true" selection-start-line="272" selection-start-column="211" selection-end-line="272" selection-end-column="211" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tmp/edit.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+            <state relative-caret-position="504">
+              <caret line="720" column="114" selection-start-line="720" selection-start-column="114" selection-end-line="720" selection-end-column="114" />
             </state>
           </provider>
         </entry>
@@ -84,10 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key</find>
-      <find>To request a new personal key, go to</find>
-      <find>Store your personal key in a safe</find>
-      <find>. Open a new browser and sign into your login.gov</find>
       <find>If you cannot receive the security code because</find>
       <find>If you do not have a phone, you can also set up your account using</find>
       <find>Read more on how to sign in using your personal key</find>
@@ -112,8 +97,12 @@
       <find>personal</find>
       <find>how-do-i-create-an-account-with-logingov</find>
       <find>what-is-two-factor-authentication</find>
-      <find />
       <find>do-i-need-a-mobile-phone-to-use-logingov</find>
+      <find>if-i-dont-have-my-phone-with-me-can-i-still-sign-in</find>
+      <find />
+      <find>how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-</find>
+      <find>how-do-I-get-a-new-personal-key</find>
+      <find>relink-my-profile</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -127,8 +116,8 @@
       <list>
         <option value="$PROJECT_DIR$/_i18n/to_add_en.yml" />
         <option value="$PROJECT_DIR$/../tmp/edit.md" />
-        <option value="$PROJECT_DIR$/_i18n/en.yml" />
         <option value="$PROJECT_DIR$/Makefile.server" />
+        <option value="$PROJECT_DIR$/_i18n/en.yml" />
       </list>
     </option>
   </component>
@@ -148,11 +137,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1443" />
-    <option name="y" value="26" />
-    <option name="width" value="2209" />
-    <option name="height" value="1110" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -267,12 +255,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556128218600</updated>
-      <workItem from="1556128221011" duration="15479000" />
+      <workItem from="1556128221011" duration="19669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15479000" />
+    <option name="totallyTimeSpent" value="19669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1443" y="26" width="2209" height="1110" extended-state="0" />
@@ -284,7 +272,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.32907662" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32907662" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.42675158" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -373,14 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tmp/edit.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -395,10 +375,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../tmp/edit.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_i18n/en.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="272" column="211" lean-forward="true" selection-start-line="272" selection-start-column="211" selection-end-line="272" selection-end-column="211" />
+        <state relative-caret-position="504">
+          <caret line="720" column="114" selection-start-line="720" selection-start-column="114" selection-end-line="720" selection-end-column="114" />
         </state>
       </provider>
     </entry>
