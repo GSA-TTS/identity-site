@@ -445,7 +445,7 @@ help_pages:
       the login.gov confirmation email. Unfortunately, SAM will not be able to link
       your profile and information to your account.
     relink-my-profile: |-
-      If you cannot sign into your SAM account because you’ve permanently lost access to your security methods you can reset your account by deleting it.
+      If you cannot sign into your SAM account because you’ve permanently lost access to your two-factor authentication methods you can reset your account by deleting it.
 
       Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will unlink your SAM profile. You must follow the below steps to relink your account:
 
@@ -650,9 +650,9 @@ help_pages:
 
       If you sign in directly from login.gov, you will only see your login.gov account information, and will not be able to view your TTP membership information.
     relink-my-profile: |-
-      If you cannot sign into your Trusted Traveler account because you’ve permanently lost access to your configured security methods you can reset your account by deleting it.
+      If you cannot sign into your Trusted Traveler account because you’ve permanently lost access to your configured two-factor authentication methods you can reset your account by deleting it.
 
-      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will unlink your Trusted Traveler profile. You must follow the below steps to relink your account:
+      Deleting your existing account and creating a new one will allow you to use the same email address and set up new two-factor authentication methods. However, deleting will unlink your Trusted Traveler profile. You must follow the below steps to relink your account:
 
       1. To delete your account, sign in at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/).  When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
       2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. select "Yes, continue deletion" to proceed.
@@ -725,7 +725,7 @@ help_pages:
 
        If you are unable to link your profile or you no longer have access to the email address you used to create your USAJOBS profile, you can select “lost access to your email addresses” to contact the USAJOBS Help Center for additional support or use this link: [https://www.usajobs.gov/Help/faq/account/no-profile/](https://www.usajobs.gov/Help/faq/account/no-profile/)
     relink-my-profile: |-
-      If you cannot sign into your USAJOBS account because you’ve permanently lost access to your security methods you can reset your account by deleting it.
+      If you cannot sign into your USAJOBS account because you’ve permanently lost access to your configured two-factor authentication methods you can reset your account by deleting it.
 
       Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will unlink your USAJOBS profile. You must follow the below steps to relink your account
 
