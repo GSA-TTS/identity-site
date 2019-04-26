@@ -279,7 +279,7 @@ help_pages:
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
       To create a login.gov account you’ll need a valid email address and a working phone number. We’ll also ask you to create a password.
 
-      Please be prepared to save your password as well as the personal key that is generated for you in case you ever need to recover your account.
+      Please be prepared to configure another authentication method out of the list available. Using this secondary authentication method allows us to better protect your account.
 
       #### Enter your email and confirm it
       <img src="site.baseurl/assets/img/help/2-login-gov-enteremail.png" class="mt3 mb3 block" alt="Enter your email help image" />
@@ -291,10 +291,14 @@ help_pages:
       Next, you will create a strong password. Use the password strength meter on the screen as a guide. Passwords must be at least 12 characters, but otherwise there are no restrictions. You can even enter spaces in between words to get to 12 characters.
       <img src="site.baseurl/assets/img/help/4-choose-a-password.png" class="mt3 mb3 block" alt="Choose password help image" />
 
-      #### Enter your phone number and confirm it
-      Next, you will enter a phone number at which you can get phone calls or text messages. If you have a landline, you must receive your security code by phone call. login.gov cannot send security codes to extensions.
+      #### Configure a second layer of security
+      Next, you will configure a secondary authentication factor. The second step keeps your account more secure than using only a password. You can chose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
+      <img src="site.baseurl/assets/img/help/2nd_factor_options.png" class="mt3 mb3 block" alt="2nd factor options help image" />
 
-      We will send a unique security code to that phone number each time you sign into your account. This is called two-factor authentication. The second step keeps your account more secure than using only a password. You can also use an authentication app on your phone or your browser. [Read more on how to set up an authentication app.](site.baseurl/help/changing-settings/how-do-I-set-up-an-authentication-app/)
+      #####Text message/SMS or Phone call
+      If you select Text message/SMS or Phone call as a second authentication factor, enter a phone number at which you can get phone calls or text messages. If you have a landline, you must receive your security code by phone call. login.gov cannot send security codes to extensions.
+
+      We will send a unique security code to that phone number each time you sign into your account.
       <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
 
       Each security code expires after 10 minutes and can only be used once. If you don’t enter the security code within 10 minutes, just request a new code. Each code is only good once, so no one can steal one you’ve already used.
@@ -303,13 +307,19 @@ help_pages:
       Type the security code into the field. That’s it! Every time you sign back into your login.gov account, you will receive a new security code that you need to enter. You’ll get the option each time you sign in to get a security code by a phone call or by SMS.
       <img src="site.baseurl/assets/img/help/6-enter-one-time-security-code.png" class="mt3 mb3 block" alt="Enter security code help image" />
 
-      #### Save your personal key
-      After you’ve created your account, you will get a personal key, which is a set of 16 random characters.
-      <img src="site.baseurl/assets/img/help/7-personalkey.png" class="mt3 mb3 block" alt="Store your personal key help image" />
-      It’s very important that you make a note of your personal key and store it safely. If you lose access to your phone, you can enter the personal key to access your services or applications.
+      #####Authentication application
+      To use an authentication app, you must first install one of the supported applications and configure it to work with login.gov.  [Read more on how to set up an authentication app.](site.baseurl/help/changing-settings/how-do-I-set-up-an-authentication-app/)
+      <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
 
-      To make sure you’ve stored your personal key, the last step in creating your account is entering the key you were just given.
-      <img src="site.baseurl/assets/img/help/8-personalkey.png" class="mt3 mb3 block" alt="Enter your personal key help image" />
+      #####Security key
+      Your security key must support the FIDO standard. You can add as many security keys as you want. Once you connect your key to your computer, usually by plugging it into a USB port, assign the key a name to identify it within your login.gov account. The next step will ask you to activate your key. This is generally done by pressing a button on the key itself.
+
+      <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Security key help image" />
+
+      #####Backup codes
+      Backup codes are another method of authentication. When you elect to use the backup codes as your 2nd factor, login.gov will generate a set of 10 codes. After you log in with your username and password you will be prompted for a code. Each code may only be used once, once the 10th code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of attention as you would your password.
+
+      <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
     i-didnt-receive-a-confirmation-email-from-logingov: |-
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
 
@@ -326,13 +336,23 @@ help_pages:
 
       [Why do I need to use login.gov to access government services online?](site.baseurl/help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/)
     what-is-my-personal-key: |-
-      A personal key is a 16-character secret code we give you when you create an account. The personal key is the only way to sign in if you lose access to the device you use for two-factor authentication.
+      A personal key is a 16-character secret code we have been historically generating as a form of two factor authentication. [Read more about two-factor authentication here](site.baseurl/help/creating-an-account/what-is-two-factor-authentication/)
 
-      You can only use your personal key once.  You will receive a new personal key each time you use it to sign in, and your old one will no longer work.
+      Recently we have began the process of retiring personal keys as a form of two factor authentication as they are apt to being lost easily. In their place users now have a variety of options for a second authentication factor including backup codes.
 
-      Because a personal key is the only way to recover your account, make sure to store it in a safe place. Some good ways of storing your personal key include writing it down, taking a screenshot, pasting it into a secure document, or making a printout of it.
+      If you are creating a new account you will not be assigned a personal key. Instead, select one of the available two-factor authentication options presented.
+
+      If you were assigned a personal key previously you are still able to use it, however next time you use the personal key you will be asked to select a new form of two factor authentication and the personal key option will be removed. Until you use your current personal key it will still be active and available to you as a two factor option.
+
+      <!---
+      TO ADD WHEN DEPLOYING DOCAUTH
+      You are assigned a personal key when you complete your identification proofing. You can only use your personal key once.  You will receive a new personal key each time you use it to sign in, and your old one will no longer work.
+
+      Because a personal key is the only way to reset your password while maintaining your identity validated, make sure to store it in a safe place. Some good ways of storing your personal key include writing it down, taking a screenshot, pasting it into a secure document, or making a printout of it. If you do forget your personal key you will still be able to recover your account but must go through the proofing process again.
 
       [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in)
+      -->
+
     what-is-two-factor-authentication: login.gov uses two-factor authentication to
       keep accounts secure. As its name implies, two-factor authentication (sometimes
       called 2FA), requires two different methods to sign into an account. Usually
