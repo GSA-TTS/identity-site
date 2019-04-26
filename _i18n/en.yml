@@ -147,6 +147,7 @@ help:
     what-do-i-do-if-an-account-already-exists-under-my-email-address: What do I do
       if an account already exists under my email address?
     what-is-my-personal-key: What is my personal key?
+    what-are-backup-codes: What are backup codes?
     what-is-two-factor-authentication: What is two-factor authentication?
     why-didnt-i-receive-a-security-code-to-confirm-my-phone: Why didn't I receive
       a security code to confirm my phone?
@@ -353,6 +354,11 @@ help_pages:
 
       [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in)
       -->
+    what-are-backup-codes: Backup codes are a set of 10 generated codes you can use as a second authentication mechanism. If you lose your phones or otherwise can't get codes via text, voice call, or authentication app, you can use backup codes to sign in. If you don't have your security key, you can also use these codes to sign in.
+
+      After you’ve used a backup code to sign in, it will become inactive. Once you have used all of your backup codes a new set will be generated for you. You can also generate a new set of 10 codes from the account page. After creating a new set, the old set will automatically become inactive.
+
+      We recommend you store your codes in a safe manner. Like the codes on your phone, backup codes are only valuable to someone if they manage to also steal your password.
 
     what-is-two-factor-authentication: login.gov uses two-factor authentication to
       keep accounts secure. As its name implies, two-factor authentication (sometimes
