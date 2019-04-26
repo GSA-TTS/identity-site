@@ -358,7 +358,7 @@ help_pages:
 
       After you’ve used a backup code to sign in, it will become inactive. Once you have used all of your backup codes a new set will be generated for you. You can also generate a new set of 10 codes from the account page. After creating a new set, the old set will automatically become inactive.
 
-      We recommend you store your codes in a safe manner. Like the codes on your phone, backup codes are only valuable to someone if they manage to also steal your password.
+      We recommend you store your codes in a safe manner. Like the security codes sent to your phone, backup codes are only valuable to someone if they manage to also steal your password.
 
     what-is-two-factor-authentication: login.gov uses two-factor authentication to
       keep accounts secure. As its name implies, two-factor authentication (sometimes
