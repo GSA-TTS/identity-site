@@ -7,4 +7,5 @@ node_modules/
 .python-version
 *.log
 *.swp
+.idea/
 .DS_Store
