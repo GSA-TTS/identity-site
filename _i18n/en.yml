@@ -272,7 +272,7 @@ help_pages:
     do-i-need-a-mobile-phone-to-use-logingov: |-
       login.gov requires all users to use two-factor authentication when creating an account and signing in.
 
-      Even if you do not have a phone you still have a number of options for a second factor. You can chose between using an authentication application on the device you are using to sign in, backup codes, or a security key.
+      Even if you do not have a phone you still have a number of options for a second factor. You can choose between using an authentication application on the device you are using to sign in, backup codes, or a security key.
 
       [Read more on how to set up an authentication application](site.baseurl/help/signing-in/what-is-an-authentication-app/)
       [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/)
@@ -281,7 +281,7 @@ help_pages:
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
       To create a login.gov account you’ll need a valid email address and a working phone number. We’ll also ask you to create a password.
 
-      Please be prepared to configure another authentication method out of the list available. Using this secondary authentication method allows us to better protect your account.
+      Please be prepared to configure another authentication method out of the list available. Using this secondary authentication method allows us to protect your account better.
 
       ### Enter your email and confirm it
       <img src="site.baseurl/assets/img/help/2-login-gov-enteremail.png" class="mt3 mb3 block" alt="Enter your email help image" />
@@ -319,7 +319,7 @@ help_pages:
       <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Security key help image" />
 
       #### Backup codes
-      Backup codes are another method of authentication. When you elect to use the backup codes as your 2nd factor, login.gov will generate a set of 10 codes. After you log in with your username and password you will be prompted for a code. Each code may only be used once, once the 10th code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of attention as you would your password.
+      Backup codes are another method of authentication. When you elect to use the backup codes as your 2nd factor, login.gov will generate a set of 10 codes. After you log in with your username and password, you will be prompted for a code. Each code may only be used once, once the 10th code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of attention as you would your password.
 
       <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
     i-didnt-receive-a-confirmation-email-from-logingov: |-
@@ -340,17 +340,17 @@ help_pages:
     what-is-my-personal-key: |-
       A personal key is a 16-character secret code we have been historically generating as a form of two-factor authentication. [Read more about two-factor authentication here](site.baseurl/help/creating-an-account/what-is-two-factor-authentication/)
 
-      Recently we have began the process of retiring personal keys as a form of two-factor authentication as they are apt to being lost easily. In their place users now have a variety of options for a second authentication factor including backup codes.
+      Recently we have begun the process of retiring personal keys as a form of two-factor authentication because they have not worked well for our users. In their place users now have a variety of options for a second authentication factor including backup codes.
 
-      If you are creating a new account you will not be assigned a personal key. Instead, select one of the available two-factor authentication options presented.
+      If you are creating a new account, you will not be assigned a personal key. Instead, select one of the available two-factor authentication options presented.
 
-      If you were assigned a personal key previously you are still able to use it, however next time you use the personal key you will be asked to select a new form of two-factor authentication and the personal key option will be removed. Until you use your current personal key to sign in to your account, it will remain active and available as a second authentication factor.
+      If you were assigned a personal key previously you are still able to use it, however next time you use the personal key you will be asked to select a new form of two-factor authentication, and the personal key option will be removed. Until you use your current personal key to sign in to your account, it will remain active and available as a second authentication factor.
 
       <!---
       TO ADD WHEN DEPLOYING DOCAUTH
       You are assigned a personal key when you complete your identification proofing. You can only use your personal key once.  You will receive a new personal key each time you use it to sign in, and your old one will no longer work.
 
-      Because a personal key is the only way to reset your password while maintaining your identity validated, make sure to store it in a safe place. Some good ways of storing your personal key include writing it down, taking a screenshot, pasting it into a secure document, or making a printout of it. If you do forget your personal key you will still be able to recover your account but must go through the proofing process again.
+      Because a personal key is the only way to reset your password while maintaining your identity validated, make sure to store it in a safe place. Some good ways of storing your personal key include writing it down, taking a screenshot, pasting it into a secure document, or making a printout of it. If you do forget your personal key, you will still be able to recover your account but must go through the proofing process again.
 
       [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in)
       -->
