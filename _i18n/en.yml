@@ -318,7 +318,7 @@ help_pages:
     what-do-i-do-if-an-account-already-exists-under-my-email-address: |-
       Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in](site.baseurl/help/signing-in/how-do-i-reset-my-password).
 
-      Please contact [hello@login.gov](mailto:hello@login.gov) if you are sure you did not create an account.
+      Please submit a [support ticket] (https://login.gov/contact) if you are sure you did not create an account.
 
       [What is two-factor authentication](site.baseurl/help/creating-an-account/what-is-two-factor-authentication/)
 
@@ -361,7 +361,7 @@ help_pages:
 
       If the confirmation link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter.
 
-      For additional help, please send an email to [hello@login.gov](mailto:hello@login.gov).
+      For additional help, [please submit a support ticket] (https://login.gov/contact).
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       If you accidentally saved your login.gov password or other sign-in information in your browser, it's a good idea for you to delete it; this will help you keep your account more secure. From the following list, select the browser (the computer program you use to access the World Wide Web) you use to learn how to make it erase any saved information:
@@ -538,7 +538,7 @@ help_pages:
 
       If the reset password link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter.
 
-      For additional help, contact us at [hello@login.gov](mailto:hello@login.gov)
+      For additional help, you can [submit a support ticket] (https://login.gov/contact)
     what-do-i-need-to-have-in-order-to-sign-in: Every time you log into your account,
       you will need your email address, your password, and access to your phone. After
       you have entered your email address and password, login.gov will send to your
@@ -584,7 +584,7 @@ help_pages:
       you can request as many codes as you need.
   trusted-traveler-programs:
     another-question: If you have a question or problem that was not covered by this
-      page, please contact us at [hello@login.gov](mailto:hello@login.gov).
+      page, please [submit a support ticket] (https://login.gov/contact).
     application-status: |-
       Sign in to the [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} to find out the status of your application.
 
