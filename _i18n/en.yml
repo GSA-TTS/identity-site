@@ -239,7 +239,7 @@ help_pages:
     how-do-I-get-a-new-personal-key: |-
       We are currently in the process of retiring personal keys. It is highly suggested you configure one or more additional second factor authentication methods. To do so log into your account page and request backup codes, configure a phone, register a security key, configure an authentication app, or, if you are a government employee, attach your PIV/CAC card to your account.
 
-      If you have a valid personal key you will still be able to use it in the case you have lost your other authentication mechanism. Once you use the personal key however you will no longer be generated a new one. Instead you will have to configure a different authentication mechanism. After entering your personal key you will be redirected to a screen that will prompt you to chose one or more additional authentication mechanisms.
+      If you have a valid personal key you will still be able to use it in the case you have lost your other authentication mechanism. Once you use the personal key however you will no longer be generated a new one. Instead you will have to configure a different authentication mechanism. After entering your personal key you will be redirected to a screen that will prompt you to choose one or more additional authentication mechanisms.
     how-do-I-set-up-an-authentication-app: |-
       If you don’t want to receive security codes by text or phone call, you can set up an authentication app on your device to generate security codes.
         1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps.
@@ -294,7 +294,7 @@ help_pages:
       <img src="site.baseurl/assets/img/help/4-choose-a-password.png" class="mt3 mb3 block" alt="Choose password help image" />
 
       ### Configure a second layer of security
-      Next, you will configure a secondary authentication factor. The second step keeps your account more secure than using only a password. You can chose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
+      Next, you will configure a secondary authentication factor. The second step keeps your account more secure than using only a password. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
       <img src="site.baseurl/assets/img/help/2nd_factor_options.png" class="mt3 mb3 block" alt="2nd factor options help image" />
 
       #### Text message/SMS or Phone call
