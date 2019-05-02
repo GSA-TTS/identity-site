@@ -147,6 +147,7 @@ help:
     what-do-i-do-if-an-account-already-exists-under-my-email-address: Que dois-je
       faire si un compte existe déjà avec mon adresse courriel?
     what-is-my-personal-key: Quelle est ma clé personnelle?
+    what-are-backup-codes: Quelles sont les codes de sauvegarde
     what-is-two-factor-authentication: Qu'est-ce qu'une authentification à deux facteurs?
     why-didnt-i-receive-a-security-code-to-confirm-my-phone: Pourquoi n'ai-je pas
       reçu de code de sécurité pour confirmer mon numéro de téléphone?
@@ -305,7 +306,7 @@ help_pages:
       <img src="site.baseurl/assets/img/help/4-choose-a-password.png" class="mt3 mb3 block" alt="Choose password help image" />
       Vous devez ensuite créer un mot de passe fort. Servez-vous de l'indicateur de force à l'écran comme guide. Les mots de passe doivent contenir au moins 12 caractères, mais il n'y a aucune autre restriction. Vous pouvez même entrer des espaces entre les mots pour obtenir 12 caractères.
 
-      #### Configuration d’une deuxième étape de sécurité
+      ### Configuration d’une deuxième étape de sécurité
       Ensuite, vous configurerez un deuxième facteur d’authentification. La deuxième étape maintient une meilleure sécurité pour votre compte que la simple utilisation d’un mot de passe. Vous pouvez choisir entre des messages texte, des appels téléphoniques, une application d’authentification, une clé de sécurité ou des codes de sauvegarde. Les employés du gouvernement peuvent aussi utiliser leurs cartes PIV ou CAC.
 
       <img src="site.baseurl/assets/img/help/2nd_factor_options.png" class="mt3 mb3 block" alt="2nd factor options help image" />
@@ -337,6 +338,8 @@ help_pages:
       La confirmation de l'accès à une adresse courriel est la première étape de création d'un compte login.gov. Si vous avez reçu un avis indiquant qu'un compte login.gov associé à votre adresse courriel a été créé, mais que vous ne vous souvenez pas l'avoir créé, utilisez votre adresse courriel pour vous connecter et effectuer le processus de réinitialisation du mot de passe.
 
       Veuillez informer login.gov si vous êtes certain(e) de ne pas avoir créé de compte et si vous croyez que quelqu'un utilise votre adresse courriel.
+    what-are-backup-codes: Les codes de sauvegarde sont une autre méthode d’authentification. Lorsque vous choisissez d’utiliser les codes de sauvegarde comme deuxième facteur, login.gov génère un ensemble de 10 codes. Une fois connecté(e) avec votre nom d’utilisateur et votre mot de passe, on vous demandera un code. Chaque code peut être utilisé une fois, une fois le 10e code utilisé, on vous demandera de télécharger une nouvelle liste. Traitez vos codes de récupération avec le même niveau d’attention que vous auriez pour votre mot de passe.
+
     what-is-my-personal-key: |-
       Une clé personnelle est un code secret de 16 caractères que nous nous générons depuis toujours comme forme d’authentification à deux facteurs. [En savoir plus sur l’authentification à deux facteurs ici]
 
