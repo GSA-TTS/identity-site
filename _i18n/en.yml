@@ -141,6 +141,7 @@ help:
     do-i-need-a-mobile-phone-to-use-logingov: I don’t have a phone. Can I still use
       login.gov?
     how-do-i-create-an-account-with-logingov: How do I create an account with login.gov?
+    how-do-i-verify-my-identity-by-mail: How do I verify my identity by mail?
     i-didnt-receive-a-confirmation-email-from-logingov: Why didn’t I receive a confirmation
       email from login.gov?
     what-do-i-do-if-an-account-already-exists-under-my-email-address: What do I do
@@ -310,6 +311,12 @@ help_pages:
 
       To make sure you’ve stored your personal key, the last step in creating your account is entering the key you were just given.
       <img src="site.baseurl/assets/img/help/8-personalkey.png" class="mt3 mb3 block" alt="Enter your personal key help image" />
+    how-do-i-verify-my-identity-by-mail: |-
+      If you do not have a state-issued ID or if we cannot verify your identity using the images you upload, you may need to verify your identity by mail. This means that, in order to finish the identity verification process, we will mail you a letter with a confirmation code that you must enter at [https://secure.login.gov](https://secure.login.gov){:target="_blank"}.
+
+      You will receive the letter via U.S. Postal Service, three to five business days after the date when you request the code. The confirmation code will expire 30 days after the date when you submit your request.
+
+      If you do not receive your letter or your confirmation code expires before you finish the identity verification process, you can request a new confirmation code. To do so, sign into [https://secure.login.gov](https://secure.login.gov){:target="_blank"} and select “Send me a new confirmation code” when asked to enter your code.
     i-didnt-receive-a-confirmation-email-from-logingov: |-
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
 

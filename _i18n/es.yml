@@ -141,6 +141,7 @@ help:
     do-i-need-a-mobile-phone-to-use-logingov: "¿Necesito un teléfono móvil para usar
       login.gov?"
     how-do-i-create-an-account-with-logingov: "¿Cómo puedo crear una cuenta con login.gov?"
+    how-do-i-verify-my-identity-by-mail: "¿Cómo verifico mi identidad por correo?"
     i-didnt-receive-a-confirmation-email-from-logingov: No recibí un email de confirmación
       de login.gov.
     what-do-i-do-if-an-account-already-exists-under-my-email-address: "¿Qué debo hacer
@@ -308,6 +309,12 @@ help_pages:
       #### Guarde su clave personal
 
       Después de crear su cuenta, obtendrá una clave personal, que es un conjunto de 16 caracteres aleatorios. Tome nota de ellos y guarde su clave por separado de su teléfono. Si olvida su contraseña o no tiene su teléfono, puede ingresar la clave personal para acceder a sus servicios o apps.
+    how-do-i-verify-my-identity-by-mail: |-
+      Si no tiene una identificación emitida por el estado o si no podemos verificar su identidad utilizando las imágenes que carga, es posible que deba verificar su identidad por correo. Esto significa que, para finalizar el proceso de verificación de identidad, le enviaremos una carta con un código de confirmación que debe ingresar en [https://secure.login.gov] (https://secure.login.gov) {: target = "_ blank"}.
+
+      Recibirá la carta a través del Servicio Postal de EE. UU., De tres a cinco días hábiles después de la fecha en que solicita el código. El código de confirmación caducará 30 días después de la fecha en que envíe su solicitud.
+
+      Si no recibe su carta o su código de confirmación caduca antes de finalizar el proceso de verificación de identidad, puede solicitar un nuevo código de confirmación. Para hacerlo, inicie sesión en [https://secure.login.gov] (https://secure.login.gov) {: target = "_blank"} y seleccione "Enviarme un nuevo código de confirmación" cuando se le solicite ingresar tu codigo.
     i-didnt-receive-a-confirmation-email-from-logingov: |-
       Si no recibió un email de confirmación, revise su correo basura. También considere que ha podido escribir su email incorrectamente. Si es así, siempre puede crear otra cuenta con su email correcto.
 
