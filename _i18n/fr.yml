@@ -142,7 +142,7 @@ help:
     do-i-need-a-mobile-phone-to-use-logingov: Dois-je posséder un téléphone cellulaire
       pour utiliser login.gov?
     how-do-i-create-an-account-with-logingov: Comment créer un compte sur login.gov?
-    how-do-i-verify-my-identity-by-mail: Comment vérifier mon identité par courrier?
+    how-do-i-verify-my-address-by-mail: Comment vérifier mon adresse par courrier?
     i-didnt-receive-a-confirmation-email-from-logingov: Je n'ai pas reçu de courriel
       de confirmation de login.gov.
     what-do-i-do-if-an-account-already-exists-under-my-email-address: Que dois-je
@@ -310,12 +310,12 @@ help_pages:
       #### Sauvegardez votre clé personnelle
 
       Après avoir créé votre compte, vous obtiendrez une clé personnelle qui est une suite de 16 caractères aléatoires. Notez-la et conservez-la séparément de votre téléphone. Si vous oubliez votre mot de passe ou si vous n'avez pas votre téléphone, vous pouvez entrer la clé personnelle pour accéder à vos services ou applications.
-    how-do-i-verify-my-identity-by-mail: |-
-      Si vous ne possédez pas d'identifiant émis par l'État ou si nous ne pouvons pas vérifier votre identité à l'aide des images que vous téléchargez, vous devrez peut-être vérifier votre identité par courrier. Cela signifie que, pour terminer le processus de vérification de l'identité, nous vous enverrons une lettre avec un code de confirmation que vous devez entrer à l'adresse [https://secure.login.gov] (https://secure.login.gov). {: target = "_ blank"}.
+    how-do-i-verify-my-address-by-mail: |-
+      Si nous ne pouvons pas vérifier automatiquement votre adresse, vous devez la vérifier par courrier. Cela signifie que nous vous enverrons une lettre avec un code de confirmation que vous devez utiliser pour terminer la configuration de votre compte.
       
       Vous recevrez la lettre par le biais du service postal américain, trois à cinq jours ouvrables après la date à laquelle vous avez demandé le code. Le code de confirmation expirera 30 jours après la date à laquelle vous avez soumis votre demande.
 
-      Si vous ne recevez pas votre lettre ou si votre code de confirmation expire avant la fin du processus de vérification de l'identité, vous pouvez demander un nouveau code de confirmation. Pour ce faire, connectez-vous à [https://secure.login.gov] (https://secure.login.gov) {: target = "_blank"} et sélectionnez "Envoyez-moi un nouveau code de confirmation" lorsque vous y êtes invité. votre code.
+      Si vous ne recevez pas votre lettre ou si votre code de confirmation expire avant la fin du processus de vérification de l'identité, vous pouvez demander un nouveau code de confirmation. Pour ce faire, connectez-vous à la demande du gouvernement ou à [https://secure.login.gov] (https://secure.login.gov) {: target = "_blank"} et sélectionnez "Envoyez-moi un nouveau code de confirmation" lorsque vous y êtes invité. votre code.
     i-didnt-receive-a-confirmation-email-from-logingov: |-
       Si vous n'avez pas reçu de courriel de confirmation, regardez dans votre courrier indésirable. Autrement, vous pourriez avoir noté l'adresse courriel de façon erronée. Si c'est le cas, vous pouvez toujours créer un autre compte avec la bonne adresse courriel.
 
