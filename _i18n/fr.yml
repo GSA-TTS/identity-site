@@ -16,7 +16,8 @@ contact_page:
 
     Pour des questions sur le programme Trusted Traveler (Global Entry, GOES, Sentri ou Nexus), veuillez contacter le CBP à l'adresse [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}
 
-    Pour des questions sur la création d'un compte ou sur la connexion avec login.gov, recherchez des réponses aux questions courantes. Pour d'autres questions, veuillez nous contacter [hello@login.gov](mailto:hello@login.gov). N'oubliez pas que nous avons beaucoup de demandes afin de prendre plusieurs jours pour vous rappeler.
+    Pour des questions sur la création d'un compte ou sur la connexion avec login.gov, recherchez des réponses aux questions courantes. Pour d'autres questions, veuillez nous contacter [hello@login.gov](mailto:hello@login.gov). N'oubliez pas que nous avons beaucoup de 
+    s afin de prendre plusieurs jours pour vous rappeler.
   support_request_form:
     agencies:
       cbp_jobs: CBP Jobs
@@ -315,7 +316,7 @@ help_pages:
       
       Vous recevrez la lettre par le biais du service postal américain, trois à cinq jours ouvrables après la date à laquelle vous avez demandé le code. Le code de confirmation expirera 30 jours après la date à laquelle vous avez soumis votre demande.
 
-      Si vous ne recevez pas votre lettre ou si votre code de confirmation expire avant la fin du processus de vérification de l'identité, vous pouvez demander un nouveau code de confirmation. Pour ce faire, connectez-vous à la demande du gouvernement ou à [https://secure.login.gov] (https://secure.login.gov) {: target = "_blank"} et sélectionnez "Envoyez-moi un nouveau code de confirmation" lorsque vous y êtes invité. votre code.
+      Si vous ne recevez pas votre lettre ou si votre code de confirmation expire avant la fin du processus de vérification de l'identité, vous pouvez demander un nouveau code de confirmation. Pour ce faire, connectez-vous à l'application du gouvernement ou à [https://secure.login.gov](https://secure.login.gov) {: target = "_blank"} et sélectionnez "Envoyez-moi un nouveau code de confirmation" lorsque vous y êtes invité. votre code.
     i-didnt-receive-a-confirmation-email-from-logingov: |-
       Si vous n'avez pas reçu de courriel de confirmation, regardez dans votre courrier indésirable. Autrement, vous pourriez avoir noté l'adresse courriel de façon erronée. Si c'est le cas, vous pouvez toujours créer un autre compte avec la bonne adresse courriel.
 
