@@ -147,6 +147,7 @@ help:
     what-do-i-do-if-an-account-already-exists-under-my-email-address: Que dois-je
       faire si un compte existe déjà avec mon adresse courriel?
     what-is-my-personal-key: Quelle est ma clé personnelle?
+    what-are-backup-codes: Quelles sont les codes de sauvegarde
     what-is-two-factor-authentication: Qu'est-ce qu'une authentification à deux facteurs?
     why-didnt-i-receive-a-security-code-to-confirm-my-phone: Pourquoi n'ai-je pas
       reçu de code de sécurité pour confirmer mon numéro de téléphone?
@@ -292,23 +293,42 @@ help_pages:
       texte ou par un appel téléphonique.
     how-do-i-create-an-account-with-logingov: |-
       Pour créer un compte login.gov, vous devrez fournir : une adresse courriel valide et un numéro de téléphone actif. Nous vous demanderons aussi de créer un mot de passe.
-      #### Entrez votre adresse courriel et confirmez-la
 
-      Sélectionnez « Créer un compte » et entrez votre adresse courriel là où c'est indiqué. Consultez ensuite le message que nous vous avons envoyé dans votre boîte de courriels. Celui-ci contient un lien sur lequel vous devez cliquer. Vous serez alors redirigé vers login.gov.
-      #### Entrez votre mot de passe
+      Veuillez vous préparer à configurer une autre méthode d’authentification parmi la liste des méthodes offertes. L’utilisation de cette méthode d’authentification secondaire nous permet de mieux protéger votre compte.
 
+      ### Entrez votre adresse courriel et confirmez-la
+      <img src="site.baseurl/assets/img/help/2-login-gov-enteremail.png" class="mt3 mb3 block" alt="Enter your email help image" />
+
+      Sélectionnez « ["Créer un compte”](https://secure.login.gov/sign_up/enter_email) » et entrez votre adresse courriel là où c'est indiqué. Consultez ensuite le message que nous vous avons envoyé dans votre boîte de courriels. Celui-ci contient un lien sur lequel vous devez cliquer. Vous serez alors redirigé vers login.gov.
+      <img src="site.baseurl/assets/img/help/3-confirm-your-email.png" class="mt3 mb3 block" alt="Confirm your email help image" />
+
+      ### Entrez votre mot de passe
+      <img src="site.baseurl/assets/img/help/4-choose-a-password.png" class="mt3 mb3 block" alt="Choose password help image" />
       Vous devez ensuite créer un mot de passe fort. Servez-vous de l'indicateur de force à l'écran comme guide. Les mots de passe doivent contenir au moins 12 caractères, mais il n'y a aucune autre restriction. Vous pouvez même entrer des espaces entre les mots pour obtenir 12 caractères.
-      #### Entrez votre numéro de téléphone et confirmez-le
 
-      Vous devez également inscrire un numéro de téléphone où vous pouvez recevoir des appels ou des messages texte. Si vous avez une ligne fixe, vous devez demander de recevoir un code de sécurité par appel téléphonique. Nous enverrons un code de sécurité unique à ce numéro de téléphone chaque fois que vous vous connecterez à votre compte. Il s'agit d'une authentification à deux facteurs. La deuxième étape maintient votre compte plus sécurisé que si vous utilisiez seulement un mot de passe.
+      ### Configuration d’une deuxième étape de sécurité
+      Ensuite, vous configurerez un deuxième facteur d’authentification. La deuxième étape maintient une meilleure sécurité pour votre compte que la simple utilisation d’un mot de passe. Vous pouvez choisir entre des messages texte, des appels téléphoniques, une application d’authentification, une clé de sécurité ou des codes de sauvegarde. Les employés du gouvernement peuvent aussi utiliser leurs cartes PIV ou CAC.
 
-      Chaque code de sécurité expire après 5 minutes et peut être utilisé une fois seulement. Si vous n'entrez pas le code dans un délai de 5 minutes, vous n'avez qu'à demander un nouveau code. Chaque code est valide pour une seule fois. Ainsi, personne ne peut voler un code que vous avez déjà utilisé.
+      <img src="site.baseurl/assets/img/help/2nd_factor_options.png" class="mt3 mb3 block" alt="2nd factor options help image" />
 
-      Entrez le code de sécurité dans le champ. C'est tout! Vous venez de franchir une étape importante pour vous maintenir, ainsi que le gouvernement, en sécurité. Chaque fois que vous vous connecterez à votre compte login.gov, vous recevrez un nouveau code de sécurité à inscrire. Chaque fois, vous aurez également l'option d'obtenir un code de sécurité par téléphone ou par message texte.
+      #### Messages texte/SMS ou appels téléphoniques
+      Si vous choisissez messages texte/SMS ou appels téléphoniques comme deuxième facteur d’authentification, entrez un numéro de téléphone auquel vous pouvez recevoir votre code de sécurité par appel téléphonique. Si vous avez une ligne fixe, vous devez recevoir le code de sécurité par appel téléphonique. login.gov ne peut envoyer de codes de sécurité à des numéros de poste.
 
-      #### Sauvegardez votre clé personnelle
+      Nous enverrons un code de sécurité unique à ce numéro de téléphone chaque fois où vous vous connectez à votre compte.
+      <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
 
-      Après avoir créé votre compte, vous obtiendrez une clé personnelle qui est une suite de 16 caractères aléatoires. Notez-la et conservez-la séparément de votre téléphone. Si vous oubliez votre mot de passe ou si vous n'avez pas votre téléphone, vous pouvez entrer la clé personnelle pour accéder à vos services ou applications.
+      #### Application d’authentification
+      Pour utiliser une application d’authentification, vous devez d’abord installer une des applications prises en charge et la configurer pour qu’elle fonctionne avec login.gov. [En savoir plus sur la configuration d’une application d’authentification.](site.baseurl/help/changing-settings/how-do-I-set-up-an-authentication-app/)
+      <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
+
+      #### Clé de sécurité
+      Votre clé de sécurité doit prendre en charge la norme FIDO. Vous pouvez ajouter autant de clés de sécurité que vous le souhaitez. Une fois que vous avez connecté votre clé à votre ordinateur, de manière générale en la connectant à un port USB, assignez un nom à la clé pour l’identifier dans votre compte login.gov. À l’étape suivante, on vous demandera d’activer votre clé. Cela peut être fait généralement en appuyant sur un bouton situé sur la clé.
+
+      <img src="site.baseurl/assets/img/help/security_key.png" class="mt3 mb3 block" alt="Security key help image" />
+
+      #### Codes de sauvegarde
+      Les codes de sauvegarde sont une autre méthode d’authentification. Lorsque vous choisissez d’utiliser les codes de sauvegarde comme deuxième facteur, login.gov génère un ensemble de 10 codes. Une fois connecté(e) avec votre nom d’utilisateur et votre mot de passe, on vous demandera un code. Chaque code peut être utilisé une fois, une fois le 10e code utilisé, on vous demandera de télécharger une nouvelle liste. Traitez vos codes de récupération avec le même niveau d’attention que vous auriez pour votre mot de passe.
+      <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
     i-didnt-receive-a-confirmation-email-from-logingov: |-
       Si vous n'avez pas reçu de courriel de confirmation, regardez dans votre courrier indésirable. Autrement, vous pourriez avoir noté l'adresse courriel de façon erronée. Si c'est le cas, vous pouvez toujours créer un autre compte avec la bonne adresse courriel.
 
@@ -318,14 +338,29 @@ help_pages:
       La confirmation de l'accès à une adresse courriel est la première étape de création d'un compte login.gov. Si vous avez reçu un avis indiquant qu'un compte login.gov associé à votre adresse courriel a été créé, mais que vous ne vous souvenez pas l'avoir créé, utilisez votre adresse courriel pour vous connecter et effectuer le processus de réinitialisation du mot de passe.
 
       Veuillez informer login.gov si vous êtes certain(e) de ne pas avoir créé de compte et si vous croyez que quelqu'un utilise votre adresse courriel.
+    what-are-backup-codes: Les codes de sauvegarde sont une autre méthode d’authentification. Lorsque vous choisissez d’utiliser les codes de sauvegarde comme deuxième facteur, login.gov génère un ensemble de 10 codes. Une fois connecté(e) avec votre nom d’utilisateur et votre mot de passe, on vous demandera un code. Chaque code peut être utilisé une fois, une fois le 10e code utilisé, on vous demandera de télécharger une nouvelle liste. Traitez vos codes de récupération avec le même niveau d’attention que vous auriez pour votre mot de passe.
+
     what-is-my-personal-key: |-
-      Une clé personnelle est un code secret de 16 caractères que nous vous fournissons lorsque vous créez un compte. L'utilisation de la clé personnelle est le seul moyen de vous connecter si vous perdez l'accès à l'appareil que vous utilisez pour l'authentification à deux facteurs.
+      Une clé personnelle est un code secret de 16 caractères que nous nous générons depuis toujours comme forme d’authentification à deux facteurs. [En savoir plus sur l’authentification à deux facteurs ici]
 
-      Vous pouvez utiliser votre clé personnelle une fois seulement. Vous recevrez une nouvelle clé personnelle chaque fois où vous utiliserez la vôtre pour vous connecter et votre ancienne ne fonctionnera plus.
+      Vous pouvez utiliser votre clé personnelle une fois seulement. Vous recevrez une nouvelle clé personnelle chaque fois où vous l’utilisez pour vous connecter et votre ancienne clé ne fonctionnera plus. Récemment, nous avons commencé le processus d’élimination des clés personnelles comme forme d’authentification à deux facteurs parce qu’elles se perdent facilement.
 
-      Parce que la clé personnelle est le seul moyen de récupérer votre compte, assurez-vous de la placer en lieu sûr. Certains moyens sûrs de sauvegarde de votre clé personnelle sont : la prendre en note, faire une capture d'écran, la coller dans un document sécurisé ou l'imprimer.
+      Au lieu de celles-ci, les utilisateurs ont maintenant une variété d’options pour un deuxième facteur d’authentification incluant les codes de sauvegarde.
+
+      Parce qu’une clé personnelle est la seule façon de récupérer votre compte, assurez-vous de la stocker en lieu sûr. De bonnes façons de stocker votre clé personnelle sont notamment de la prendre en note, faire une capture d’écran, la coller dans un document sécurisé ou l’imprimer.
+
+      Si vous créez un nouveau compte, on ne vous assignera pas de clé personnelle. Sélectionnez plutôt une des options d’authentification à deux facteurs offertes qui vous sont présentées.
+
+      Si on vous a déjà assigné une clé personnelle, vous pouvez toujours l’utiliser. Cependant, la prochaine fois que vous utilisez la clé personnelle, on vous demandera de sélectionner une nouvelle forme d’authentification à deux facteurs et l’option de clé personnelle sera éliminée. Jusqu’à ce que vous utilisiez votre clé personnelle, elle sera active et vous pourrez l’utiliser comme option d’authentification à deux facteurs.
+
+      <!---
+      TO ADD WHEN DEPLOYING DOCAUTH
+      On vous assigne une clé personnelle lorsque vous effectuez la vérification de votre identification. Vous pouvez utiliser votre clé personnelle une fois seulement.  Vous recevrez une nouvelle clé personnelle chaque fois où vous vous connectez et votre ancienne ne fonctionnera plus.
+
+      Parce qu’une clé personnelle est la seule façon de réinitialiser votre mot de passe tout en conservant la validation de votre identité, assurez-vous de la stocker en lieu sûr. De bonnes façons de stocker votre clé personnelle sont notamment de la prendre en note, faire une capture d’écran, la coller dans un document sécurisé ou l’imprimer. Si vous oubliez votre clé personnelle, vous serez en mesure de récupérer votre compte mais vous devez passer le processus de vérification de nouveau.
 
       [En savoir plus sur la façon de vous connecter en utilisant votre clé personnelle](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in)
+      -->
     what-is-two-factor-authentication: login.gov utilise une authentification à deux
       facteurs pour maintenir les comptes sécurisés. Comme son nom l'indique, l'authentification
       à deux facteurs (parfois appelée 2FA) requiert deux méthodes de connexion différentes
