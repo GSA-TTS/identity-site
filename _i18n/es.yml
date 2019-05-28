@@ -146,6 +146,7 @@ help:
       de login.gov.
     what-do-i-do-if-an-account-already-exists-under-my-email-address: "¿Qué debo hacer
       si una cuenta con mi email ya existe?"
+    what-are-backup-codes: "¿Qué son los códigos de respaldo?"
     what-is-my-personal-key: "¿Cuál es mi clave personal?"
     what-is-two-factor-authentication: "¿Qué es la autenticación de dos factores?"
     why-didnt-i-receive-a-security-code-to-confirm-my-phone: "¿Por qué no recibí un
@@ -289,26 +290,43 @@ help_pages:
       de seguridad cada vez que inicie sesión ya sea por mensaje de texto o llamada
       de teléfono.
     how-do-i-create-an-account-with-logingov: |-
+      <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
       Para crear una cuenta de login.gov, necesitará un email válido y un número de teléfono que funcione. También le pediremos que establezca una contraseña.
-      #### Ingrese su email y confírmelo
 
+      Prepárese para configurar otro método de autenticación que no esté en la lista disponible. Usar este método de autenticación secundario le permite proteger mejor su cuenta.
+      ### Ingrese su email y confírmelo
+      <img src="site.baseurl/assets/img/help/2-login-gov-enteremail.png" class="mt3 mb3 block" alt="Enter your email help image" />
       Seleccione "crear una cuenta" e ingrese su email donde se indica. Luego, revise su cuenta de email para encontrar un mensaje de nosotros. Dentro del email hay un enlace. Al hacer clic en el enlace, usted regresará a login.gov con su email confirmado.
-
-      #### Ingrese su contraseña
+      <img src="site.baseurl/assets/img/help/3-confirm-your-email.png" class="mt3 mb3 block" alt="Confirm your email help image" />
+      ### Ingrese su contraseña
 
       Las contraseñas deben tener al menos 12 caracteres, pero de lo contrario no hay restricciones. Incluso puede usar espacios entre palabras para llegar a 12 caracteres.
+      <img src="site.baseurl/assets/img/help/4-choose-a-password.png" class="mt3 mb3 block" alt="Choose password help image" />
 
-      #### Ingrese su número de teléfono y confírmelo
+      ### Configure una segunda barrera de seguridad
+      Después, configurará un factor de autenticación secundario. El segundo paso mantiene su cuenta más segura que con solo usar una contraseña. Puede elegir entre mensajes de texto, llamadas telefónicas, una aplicación de autenticación, una clave de seguridad o códigos de respaldo. Los empleados del gobierno también pueden usar sus tarjetas PIV (verificación de identidad personal) o CAC (tarjeta de acceso común).
+      <img src="site.baseurl/assets/img/help/2nd_factor_options.png" class="mt3 mb3 block" alt="2nd factor options help image" />
 
-      Ingrese un número de teléfono en el que puede recibir llamadas o mensajes de texto. Si tiene un teléfono fijo, solicite un código de seguridad mediante una llamada telefónica. Le enviaremos un código de seguridad de sólo un uso a ese número de teléfono cada vez que inicie sesión en su cuenta. Esto se llama autenticación de dos factores. El segundo paso mantiene su cuenta más segura que si usara sólo una contraseña.
+      #### Mensaje de texto/SMS o llamada telefónica
 
-      Cada código de seguridad caduca después de 5 minutos y sólo se puede utilizar una vez. Si no ingresa el código de seguridad en 5 minutos, solicite un código nuevo. Cada código es válido una vez solamente, por lo que nadie puede robar uno que ya ha utilizado.
+      Si usted selecciona el mensaje de texto/SMS o llamada telefónica como segundo factor de autenticación, ingrese un número telefónico en el cual pueda recibir llamadas telefónicas o mensajes de texto. Si tiene un teléfono fijo, debe recibir su código de seguridad por llamada telefónica. login.gov no puede enviar códigos de seguridad a las extensiones.
+      Enviaremos un código de seguridad único a ese número telefónico cada vez que inicie sesión en su cuenta.
+      <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
+      Cada código de seguridad caduca a los 10 minutos y solo se puede utilizar una vez. Si no ingresa el código de seguridad en 10 minutos, solo solicite un código nuevo. Cada código solo es válido una vez, por lo que nadie puede robar uno que ya haya usado.
+      <img src="site.baseurl/assets/img/help/text-confirmation-code.png" class="mt3 mb3 block" alt="Phone text confirmation code help image" />
 
-      Escriba el código de seguridad en el casillero. ¡Eso es! Acaba de dar un paso importante para mantener a su persona y a su Gobierno a salvo. Cada vez que acceda a su cuenta de login.gov, recibirá un nuevo código de seguridad que debe ingresar. Cada vez que inicie sesión, tendrá la opción para obtener un código de seguridad mediante una llamada telefónica o mensaje de texto.
+      #### Aplicación de autenticación
+      Para usar una aplicación de autenticación, primero debe instalar una de las aplicaciones compatibles y configurarla para que trabaje con login.gov [Lea más sobre cómo configurar una aplicación de autenticación].
+      <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
 
-      #### Guarde su clave personal
+      #### Clave de seguridad
+      Su clave de seguridad debe ser compatible con el estándar FIDO. Puede agregar tantas claves de seguridad como desee. Una vez que conecte su clave a su computadora, usualmente conectándola a un puerto USB, asigne un nombre a la clave para así identificarla dentro de su cuenta en login.gov. El siguiente paso le pedirá que active su cuenta. Por lo general, esto se hace presionando un botón en la misma clave.
+      <img src="site.baseurl/assets/img/help/security_key.png" class="mt3 mb3 block" alt="Security key help image" />
 
-      Después de crear su cuenta, obtendrá una clave personal, que es un conjunto de 16 caracteres aleatorios. Tome nota de ellos y guarde su clave por separado de su teléfono. Si olvida su contraseña o no tiene su teléfono, puede ingresar la clave personal para acceder a sus servicios o apps.
+      #### Códigos de respaldo
+      Los códigos de respaldo son otro método de autenticación. Cuando elija usar los códigos de respaldo como su segundo factor, login.gov le generará una serie de 10 códigos. Después de que inicie sesión con su nombre de usuario y contraseña, se le pedirá un código. Cada código puede usarse una vez, y cuando se haya usado el décimo, se le pedirá que descargue una lista nueva. Trate sus códigos de recuperación con el mismo nivel de atención que le daría a su contraseña.
+      <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
+
     how-do-i-verify-my-address-by-mail: |-
       Si no podemos verificar automáticamente su dirección, debe verificarla por correo. Esto significa que le enviaremos una carta con un código de confirmación que debe usar para terminar de configurar su cuenta.
 
@@ -324,21 +342,28 @@ help_pages:
       El primer paso para crear una cuenta de login.gov es confirmar el acceso a un email. Si recibió una notificación de que ya existe una cuenta de login.gov asociada a su email, pero usted no recuerda haberla creado, use su email para iniciar sesión y siga el proceso para restablecer su contraseña.
 
       Por favor, notifique a login.gov si está seguro de que no creó una cuenta y considera que otra persona está usando su email.
+    what-are-backup-codes: |-
+      Los códigos de respaldo son otro método de autenticación. Cuando elija usar los códigos de respaldo como su segundo factor, login.gov le generará una serie de 10 códigos. Después de que inicie sesión con su nombre de usuario y contraseña, se le pedirá un código. Cada código puede usarse una vez, y cuando se haya usado el décimo, se le pedirá que descargue una lista nueva. Trate sus códigos de recuperación con el mismo nivel de atención que le daría a su contraseña.
     what-is-my-personal-key: |-
-      Una clave personal es un código secreto de 16 caracteres que le proporcionamos cuando crea una cuenta. La clave personal es la única manera de iniciar sesión si pierde el acceso al dispositivo que utiliza para la autenticación de dos factores.
+      Una clave personal es un código secreto de 16 caracteres que hemos generado históricamente como una forma de autenticación de dos factores [Lea más sobre la autenticación de dos factores aquí]
 
-      Únicamente puede utilizar su clave personal una sola vez. Recibirá una nueva clave personal cada vez que la utilice para iniciar sesión, y la antigua ya no funcionará.
+      Solo puede usar su clave personal una vez. Recibirá una nueva clave personal cada vez que la use para iniciar sesión, y la antigua ya no funcionará. Recientemente, hemos comenzado el proceso de retirar las claves personales como una forma de autenticación de dos factores ya que tienden a perderse fácilmente. En su lugar, ahora los usuarios tienen una variedad de opciones para un segundo factor de autenticación, incluyendo los códigos de respaldo.
 
-      Debido a que la única manera de recuperar su cuenta es con una clave personal, asegúrese de guardarla en un lugar seguro. Entre las formas más adecuadas de conservar su clave personal se incluyen anotarla, tomar una captura de pantalla, pegarla en un documento seguro o imprimirla.
+      Debido a que una clave personal es la única forma de recuperar su cuenta, asegúrese de guardarla en un lugar seguro. Entre algunas buenas formas de guardar su clave personal se incluyen escribirla, tomarle una captura de pantalla, pegarla en un documento seguro o imprimirla.
+
+      Si está creando una cuenta nueva, no se le asignará una clave personal. En lugar de ello, seleccione una de las opciones de autenticación de dos factores disponibles que se muestran.
+
+      <!---
+      TO ADD WHEN DEPLOYING DOCAUTH
+      Si se le asignó previamente una clave personal, aún puede usarla. Sin embargo, la próxima vez que use la clave personal, se le pedirá que seleccione una nueva forma de autenticación de dos factores, y se eliminará la opción de clave personal. Hasta que use su clave personal actual, aún estará activa y disponible para usted como una opción de dos factores.
+
+      A usted se le asigna una clave personal cuando completa su prueba de identificación. Solo puede usar su clave personal una vez. Recibirá una clave personal nueva cada vez que la use para iniciar sesión, y la antigua ya no funcionará.
+
+      Debido a que una clave personal es la única forma de restablecer su contraseña mientras mantiene validada su identidad, asegúrese de guardarla en un lugar seguro. Entre algunas buenas formas de guardar su clave personal se incluyen escribirla, tomarle una captura de pantalla, pegarla en un documento seguro o imprimirla. Si olvida su clave personal, aún podrá recuperar su cuenta, pero debe pasar por el proceso de prueba otra vez.
 
       [Obtenga más información sobre cómo iniciar sesión con su clave personal](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in)
-    what-is-two-factor-authentication: Login.gov utiliza la autenticación de dos factores
-      para mantener las cuentas seguras. Tal como lo indica su nombre, la autenticación
-      de dos factores (a veces llamado 2FA) requiere dos métodos diferentes para iniciar
-      sesión en una cuenta. Por lo general, esto significa ingresar una contraseña
-      memorizada y un código de sólo un uso que es enviado a un dispositivo (como
-      un teléfono) que usted posee. El requerimiento de dos métodos hace que la entrada
-      forzada a su cuenta sea mucho más difícil.
+      -->
+    what-is-two-factor-authentication: Login.gov utiliza la autenticación de dos factores para mantener las cuentas seguras. Tal como lo indica su nombre, la autenticación de dos factores (a veces llamado 2FA) requiere dos métodos diferentes para iniciar sesión en una cuenta. Por lo general, esto significa ingresar una contraseña memorizada y un código de sólo un uso que es enviado a un dispositivo (como un teléfono) que usted posee. El requerimiento de dos métodos hace que la entrada forzada a su cuenta sea mucho más difícil.
     why-didnt-i-receive-a-security-code-to-confirm-my-phone: |-
       Si no recibió un código de seguridad, revise si ingresó correctamente su número de teléfono.
 
