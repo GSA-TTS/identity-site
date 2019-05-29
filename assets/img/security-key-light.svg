@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Security Keys</title>
+    <desc>An icon representative of a yubikey</desc>
+    <defs>
+        <linearGradient x1="90.59375%" y1="91%" x2="9.03125%" y2="8.625%" id="linearGradient-1">
+            <stop stop-color="#00BFE7" offset="0%"></stop>
+            <stop stop-color="#99D7F4" offset="71%"></stop>
+        </linearGradient>
+        <linearGradient x1="22.0568393%" y1="20.3936688%" x2="80.6628436%" y2="117.177354%" id="linearGradient-2">
+            <stop stop-color="#0071BB" offset="0%"></stop>
+            <stop stop-color="#99D7F4" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8">
+            <rect id="Rectangle-Copy-82" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="96" height="96" rx="8"></rect>
+            <path d="M48,96 L48,19 L69.6949135,19 L96,45.3050865 L96,88 C96,92.418278 92.418278,96 88,96 L48,96 Z" id="Combined-Shape-Copy-2" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+            <circle id="Oval-Copy-96" fill="#112E51" fill-rule="nonzero" cx="9" cy="87" r="3"></circle>
+            <circle id="Oval-Copy-97" fill="#112E51" fill-rule="nonzero" cx="87" cy="9" r="3"></circle>
+            <circle id="Oval-Copy-98" fill="#112E51" fill-rule="nonzero" cx="9" cy="9" r="3"></circle>
+            <circle id="Oval-Copy-99" fill="#112E51" fill-rule="nonzero" cx="87" cy="87" r="3"></circle>
+            <path d="M20.5,94.5 L75.5,94.5 L75.5,59 C75.5,58.1715729 74.8284271,57.5 74,57.5 L22,57.5 C21.1715729,57.5 20.5,58.1715729 20.5,59 L20.5,94.5 Z" id="Rectangle-Copy-83" stroke="#112E51" stroke-width="3"></path>
+            <rect id="Rectangle-Copy-84" fill="#FFFFFF" x="22" y="59" width="52" height="37"></rect>
+            <path d="M24.5,57.5 L71.5,57.5 L71.5,24 C71.5,22.0670034 69.9329966,20.5 68,20.5 L28,20.5 C26.0670034,20.5 24.5,22.0670034 24.5,24 L24.5,57.5 Z" id="Rectangle-Copy-85" stroke="#112E51" stroke-width="3" fill="#FFFFFF"></path>
+            <path d="M41.2702703,29.7619048 L44.4594595,29.7619048 C45.564029,29.7619048 46.4594595,30.6573353 46.4594595,31.7619048 L46.4594595,57.3809524 L39.2702703,57.3809524 L39.2702703,31.7619048 C39.2702703,30.6573353 40.1657008,29.7619048 41.2702703,29.7619048 Z" id="Rectangle-Copy-86" fill="#112E51"></path>
+            <path d="M51.5405405,29.7619048 L54.7297297,29.7619048 C55.8342992,29.7619048 56.7297297,30.6573353 56.7297297,31.7619048 L56.7297297,57.3809524 L49.5405405,57.3809524 L49.5405405,31.7619048 C49.5405405,30.6573353 50.435971,29.7619048 51.5405405,29.7619048 Z" id="Rectangle-Copy-87" fill="#112E51"></path>
+            <path d="M31,25 L34.1891892,25 C35.2937587,25 36.1891892,25.8954305 36.1891892,27 L36.1891892,57.3809524 L29,57.3809524 L29,27 C29,25.8954305 29.8954305,25 31,25 Z" id="Rectangle-Copy-88" fill="#112E51"></path>
+            <path d="M61.8108108,25 L65,25 C66.1045695,25 67,25.8954305 67,27 L67,57.3809524 L59.8108108,57.3809524 L59.8108108,27 C59.8108108,25.8954305 60.7062413,25 61.8108108,25 Z" id="Rectangle-Copy-89" fill="#112E51"></path>
+            <circle id="Oval-Copy-100" fill="#112E51" cx="48" cy="78.109375" r="8"></circle>
+        </g>
+    </g>
+</svg>

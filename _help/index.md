@@ -20,6 +20,7 @@ links:
     img_url: /assets/img/privacy-security-light.svg
   - name: Security keys
     url: /help/security-keys/what-is-a-security-key/
+    img_url: /assets/img/security-key-light.svg
   - name: Trusted Traveler Programs
     url: /help/trusted-traveler-programs/
     img_url: /assets/img/app.svg
