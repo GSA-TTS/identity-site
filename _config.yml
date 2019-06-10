@@ -43,6 +43,10 @@ defaults:
   values:
     layout: main
 
+include:
+  # dotfiles are excluded by default
+  - .well-known
+
 exclude:
   - /assets/stylesheets/main.scss
   - Gemfile*
