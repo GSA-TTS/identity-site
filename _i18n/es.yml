@@ -238,8 +238,7 @@ help:
       correo electrónico / No he recibido una confirmación mediante correo electrónico
     profile-information: "¿Qué sucede si no veo la información de mi perfil en USAJOBS
       después de crear una cuenta en login.gov?"
-    relink-my-profile: "¿Cómo puedo volver a vincular mi perfil de USAJOBS después
-      de eliminar mi cuenta de login.gov?"
+    relink-my-profile: "Perdí mi método de autenticación. ¿Cómo elimino mi perfil de login.gov y vuelvo a vincular uno nuevo a mi perfil de USAJOBS?"
     security-code: "¿Qué necesito para recibir el código de seguridad de login.gov?"
     what-email-address-do-i-use: "¿Qué dirección de correo electrónico utilizo para
       crear una cuenta de login.gov?"
@@ -744,30 +743,30 @@ help_pages:
 
        Si no puede vincular su perfil o ya no tiene acceso a la dirección de correo electrónico que utilizó para crear su perfil de USAJOBS, puede seleccionar "se ha perdido el acceso a sus direcciones de correo electrónico" para ponerse en contacto con el Centro de Ayuda de USAJOBS y poder obtener ayuda adicional o utilizar este enlace: [https://www.usajobs.gov/Help/faq/account/no-profile/](https://www.usajobs.gov/Help/faq/account/no-profile/)
     relink-my-profile: |-
-      Si no puede iniciar sesión en su cuenta de USAJOBS porque ha perdido de forma permanente el acceso a su método de seguridad y a su clave personal, puede restablecer su cuenta eliminándola.
+      Si no puede iniciar sesión en su perfil de USAJOBS porque ha perdido el acceso permanente a sus métodos de autenticación, puede restablecer su cuenta eliminándola y volviendo a vincular una nueva.
 
-      Al eliminar su cuenta actual y crear una nueva, podrá utilizar la misma dirección de correo electrónico y configurar nuevas opciones de seguridad. Sin embargo, al eliminarla se desvinculará su perfil de USAJOBS. Debe seguir los siguientes pasos para volver a vincular su cuenta:
+      Eliminar su cuenta existente y crear una nueva le permitirá usar la misma dirección de correo electrónico y configurar nuevos métodos de autenticación. Sin embargo, si elimina su cuenta login.gov, no podrá iniciar sesión en USAJOBS (ni en ninguna otra aplicación gubernamental que esté vinculada a su cuenta login.gov) hasta que cree una nueva cuenta y la vuelva a vincular. Le tomará al menos 24 horas eliminar su cuenta.
 
-      1. Para eliminar su cuenta, inicie sesión en [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"}. Cuando se le pida que introduzca su código de seguridad, desplácese hasta la parte inferior de la página, a la sección que dice "Si no puede utilizar ninguna de las opciones de seguridad anteriores, puede restablecer sus preferencias eliminando su cuenta" y siga ese enlace.
-      2. Lea detenidamente toda la información para asegurarse de que la única forma de restablecer los ajustes de su cuenta es eliminándola y seleccione "Sí, continuar con la eliminación" para proceder.
-      3. Recibirá inmediatamente una confirmación por correo electrónico de que se ha recibido su solicitud de eliminación. Como medida de seguridad, recibirá otro correo electrónico con el enlace para continuar eliminando su cuenta 24 horas después de que llegue la confirmación inicial.
-      4. Después de eliminar su cuenta, debe ponerse en contacto con el servicio de asistencia técnica de USAJOBS para desvincular su cuenta. Para ello, deberá responder a las preguntas de seguridad. NOTA: Primero debe desvincular su cuenta antes de crear una nueva. Si no desvincula su cuenta antes de crear una nueva, no podremos vincular sus cuentas.
-      5. Vaya a [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} para crear una nueva cuenta de login.gov, con la misma dirección de correo electrónico.
-      6. Si ha seguido estos pasos en este orden y ha utilizado el correo electrónico correcto, su perfil se vinculará automáticamente.
+      ### Borre y desvincule su perfil de login.gov de USAJOBS
+      1. Primero, inicie sesión en [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} con su nombre de usuario y contraseña. Cuando se le solicite su método de autenticación, desplácese hasta la parte inferior de la página y haga clic en "Elegir otra opción de seguridad". En la página siguiente, desplácese hacia abajo hasta "Si no puede usar ninguna de las opciones de seguridad anteriores, puede restablecer su preferencias eliminando su cuenta " y haga clic en el enlace.
+      2. Lea cuidadosamente toda la información para asegurarse de que eliminar su cuenta es la única forma de restablecer la configuración de su cuenta y haga clic en "Sí, continuar con la eliminación" para continuar.
+      3. Inmediatamente recibirá una confirmación por correo electrónico de que se recibió su solicitud de eliminación.
+      4. Como medida de seguridad, recibirá otro correo electrónico con el enlace para continuar eliminando su cuenta 24 horas después de que llegue la confirmación inicial.
+      5. Mientras espera la segunda notificación por correo electrónico, debe ponerse en contacto con el servicio de asistencia técnica de USAJOBS para desvincular su perfil. Vaya al [Centro de Ayuda de USAJOBS en login.gov](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"} y haga clic en el botón "Contáctenos" que se encuentra en la parte inferior de la página. No cree una nueva cuenta de login.gov hasta que haya recibido la confirmación de que su perfil ha sido desvinculado. Deberá proporcionar la siguiente información sobre su perfil al servicio de asistencia técnica de USAJOBS:
+        * Dirección de correo electrónico
+        * Primero, segundo nombre y apellido (si corresponde, también incluya el sufijo (Jr., Sr., III, etc.) y el apellido de soltera)
+        * Dirección de correo y domicilio (incluya cualquier dirección pasada o presente que haya enumerado en su perfil)
+        * Números de teléfono (incluya cualquier número de teléfono pasado o presente que haya incluido en su perfil)
+        * Respuestas a sus preguntas de seguridad (Pregunta secreta 1-3)
+      6. El servicio de asistencia de USAJOBS le enviará un correo electrónico confirmando que su perfil ha sido desvinculado. Ese correo electrónico también proporcionará una guía para recuperar el acceso a su cuenta.
 
-      Si tiene alguna pregunta sobre cómo vincular su cuenta, póngase en contacto con el servicio de asistencia de USAJOBS.
-    security-code: |-
-      Puede optar por recibir el código de seguridad único a través de un mensaje de texto o una llamada telefónica si tiene un teléfono móvil de Estados Unidos. Las líneas fijas solo pueden recibir una llamada telefónica. Si se encuentra fuera de Estados Unidos, la mayoría de los números de teléfono solo pueden recibir un mensaje de texto.
+      ### Crea un nuevo perfil de login.gov y vincúlalo a USAJOBS
+      1. Vaya a [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"}, haga clic en "Iniciar sesión", haga clic en "Crear una cuenta" y siga los pasos para crear una nueva cuenta de login.gov. Asegúrese de usar la misma dirección de correo electrónico que la cuenta que acaba de eliminar (la dirección de correo electrónico que utiliza para su cuenta USAJOB).
+      2. Si siguió estos pasos en este orden y utilizó el correo electrónico correcto, su perfil se vinculará automáticamente.
 
-      Como alternativa a la recepción de un mensaje de texto o una llamada telefónica, también puede [utilizar una aplicación de autenticación después de haber creado correctamente su cuenta](/help/signing-in/what-is-an-authentication-app/).
-    what-email-address-do-i-use: Para conservar la información de su perfil de USAJOBS,
-      debe usar su correo electrónico principal o secundario de USAJOBS cuando cree
-      su cuenta de login.gov. Cuando utilice la misma dirección de correo electrónico,
-      USAJOBS vinculará automáticamente su perfil a la cuenta de login.gov. Si utiliza
-      una dirección de correo electrónico diferente al registrarse en login.gov, USAJOBS
-      no podrá vincular automáticamente su perfil. Sin embargo, puede utilizar su
-      dirección de correo electrónico principal o secundaria de USAJOBS para buscar
-      su perfil.
+      NOTA: No cree una nueva cuenta de login.gov hasta que su perfil haya sido desvinculado. Primero debes desvincular tu cuenta antes de crear una nueva. Si no desvincula su cuenta antes de crear una nueva, no podremos vincular sus cuentas.
+
+      Si tiene alguna pregunta sobre cómo vincular su cuenta, comuníquese con el [servicio de asistencia técnica de USAJOBS](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"}.
     what-happens-to-my-profile: |-
       No le ocurrirá nada a la información que esté guardada en su perfil de USAJOBS. Mantendrá todas sus solicitudes, búsquedas guardadas y trabajos guardados.
 

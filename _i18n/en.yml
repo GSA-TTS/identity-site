@@ -227,8 +227,7 @@ help:
       get an email confirmation
     profile-information: What if I don’t see my USAJOBS profile information after
       I create a login.gov account?
-    relink-my-profile: How do I relink my USAJOBS profile after deleting my login.gov
-      account?
+    relink-my-profile: I lost my authentication method. How do I delete my login.gov profile and relink a new one to my USAJOBS profile?
     security-code: What do I need to receive the login.gov security code?
     what-email-address-do-i-use: What email address do I use to create a login.gov
       account?
@@ -734,18 +733,30 @@ help_pages:
 
        If you are unable to link your profile or you no longer have access to the email address you used to create your USAJOBS profile, you can select “lost access to your email addresses” to contact the USAJOBS Help Center for additional support or use this link: [https://www.usajobs.gov/Help/faq/account/no-profile/](https://www.usajobs.gov/Help/faq/account/no-profile/)
     relink-my-profile: |-
-      If you cannot sign into your USAJOBS account because you’ve permanently lost access to your configured two-factor authentication methods you can reset your account by deleting it.
+      If you cannot sign in to your USAJOBS profile because you’ve permanently lost access to your authentication methods, you can reset your account by deleting it and relinking a new one.
 
-      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. Your information/applications will not be deleted, however, deleting will remove any agency applications you have linked to your account, including the link to your USAJOBS profile. You must follow the below steps to relink your account:
+      Deleting your existing account and creating a new one will let you use the same email address and set up new authentication methods. However, if you delete your login.gov account, you will not be able to sign in to USAJOBS (or any other government application that is linked to your login.gov account) until you create a new account and relink it. It will take at least 24 hours to delete your account.
 
-      1. To delete your account, sign in at [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"}. When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
-      2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings and select "Yes, continue deletion" to proceed.
-      3. You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.
-      4. After you delete your account, you must contact the USAJOBS helpdesk to unlink your account. You will have to answer security questions to do this. NOTE You must first unlink your account before creating a new one. If you do not unlink your account before you create a new one, we will not be able to link your accounts.
-      5. Go to [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} to create a new login.gov account, using the same email address.
-      6. If you followed these steps in this order and used the correct email, your profile will automatically link.
+      ### Delete and unlink your login.gov profile from USAJOBS
+      1. First, sign in at [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} with your username and password. When asked for your authentication method, scroll to the bottom of the page and click on “Choose another security option.” On the next page, scroll down to “If you can't use any of these security options above, you can reset your preferences by deleting your account.” and click on the link.
+      2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings and click on “Yes, continue deletion” to proceed.
+      3. You will immediately receive an email confirmation that your delete request was received.
+      4. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.
+      5. While you are waiting for the second email notification, you must contact the USAJOBS helpdesk to unlink your profile. Go to the [USAJOBS Help Center on login.gov](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"} and click on the “Contact Us” button located at the bottom of the page. Do not create a new login.gov account until you have received confirmation that your profile has been unlinked. You will need to provide the following information about your profile to the USAJOBS helpdesk:
+        * Email address
+        * First, middle, and last name (if applicable, also include suffix (Jr., Sr., III, etc.) and maiden name)
+        * Mailing and home address (include any past or present addresses that you’ve listed in your profile)
+        * Phone numbers (include any past or present phone numbers you’ve listed in your profile)
+        * Answers to your security questions (Secret Question 1-3)
+      6. The USAJOBS helpdesk will send you an email confirming that your profile has been unlinked. That email will also provide guidance for regaining access to your account.
 
-      If you have any questions about linking your account, please contact the USAJOBS helpdesk.
+      ### Create a new login.gov profile and link it to USAJOBS
+      1. Go to [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"}, click on “Sign in”, click on “Create an account”, and follow the steps to create a new login.gov account. Make sure you use the same email address as the account you just deleted (the email address you use for your USAJOB account).
+      2. If you followed these steps in this order and used the correct email, your profile will automatically link.
+
+      NOTE: Do not create a new login.gov account until your profile has been unlinked. You must first unlink your account before creating a new one. If you do not unlink your account before you create a new one, we will not be able to link your accounts.
+
+      If you have any questions about linking your account, please contact the [USAJOBS helpdesk](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"}.
     security-code: |-
       You can choose to receive the one time security code via text or phone call if you have a U.S. based cell phone. Landlines can only receive a phone call. If you’re outside the U.S., most phone numbers can only receive a text.
 

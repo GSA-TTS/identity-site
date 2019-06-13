@@ -242,8 +242,7 @@ help:
       pas d'e-mail/Je n'ai pas reçu d'e-mail de confirmation
     profile-information: Que dois-je faire si je ne vois pas l'information de mon
       profil après avoir créé un compte login.gov ?
-    relink-my-profile: Comment puis-je rétablir le lien avec mon profil USAJOBS après
-      avoir supprimé mon compte login.gov ?
+    relink-my-profile: J'ai perdu ma méthode d'authentification. Comment supprimer mon profil login.gov et en associer un nouveau à mon profil USAJOBS?
     security-code: De quoi ai-je besoin pour recevoir le code de sécurité login.gov ?
     what-email-address-do-i-use: Quelle adresse e-mail dois-je utiliser pour créer
       un compte login.gov ?
@@ -758,18 +757,30 @@ help_pages:
 
       Si vous n'êtes pas en mesure de lier votre profil ou que vous n'avez plus accès à l'adresse e-mail que vous avez utilisé pour créer votre profil USAJOBS, vous pouvez sélectionner « lost access to your email addresses » (accès à vos adresses e-mail perdu) pour contacter le centre d'assistance de USAJOBS pour obtenir de l'assistance additionnelle ou utilisez ce lien : [https://www.usajobs.gov/Help/faq/account/no-profile/](https://www.usajobs.gov/Help/faq/account/no-profile/)
     relink-my-profile: |-
-      Si vous ne pouvez vous connecter à votre compte USAJOBS parce que vous avez perdu l'accès à votre méthode de sécurité et à votre clé personnelle de façon permanente, vous pouvez réinitialiser votre compte en le supprimant.
+      Si vous ne pouvez pas vous connecter à votre profil USAJOBS parce que vous avez définitivement perdu l’accès à vos méthodes d’authentification, vous pouvez réinitialiser votre compte en le supprimant et en en reliant un nouveau.
 
-      La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles options de sécurité. Toutefois, la suppression annulera le lien à votre profil Trusted Traveler. Vous devez suivre les étapes ci-dessous pour rétablir le lien avec votre compte :
+      La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles méthodes d'authentification. Toutefois, si vous supprimez votre compte login.gov, vous ne pourrez pas vous connecter à USAJOBS (ni à aucune autre application gouvernementale liée à votre compte login.gov) tant que vous n'avez pas créé un nouveau compte et que vous ne l'avez pas lié de nouveau. Il faudra au moins 24 heures pour supprimer votre compte.
 
-      1. Pour supprimer votre compte, connectez-vous à [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"}. Lorsqu'on vous demande d'entrer votre code de sécurité, faites défiler vers le bas de la page jusqu'à la section « If you can't use any of these security options above, you can reset your preferences by deleting your account » (Si vous ne pouvez utiliser aucune des options de sécurité ci-dessus, vous pouvez réinitialiser vos préférences en supprimant votre compte) et suivez ce lien.
-      2. Lisez attentivement toute l'information pour vous assurer que la suppression de votre compte est la seule façon de réinitialiser les paramètres de votre compte. Sélectionnez « Yes, continue deletion » pour procéder à la suppression de votre compte.
-      3. Vous recevrez immédiatement une confirmation par e-mail vous informant que votre demande de suppression a bien été reçue. À titre de mesure de sécurité, vous recevrez un autre e-mail avec le lien servant à confirmer la suppression de votre compte 24 heures après avoir reçu la confirmation initiale.
-      4. Après avoir supprimé votre compte, vous devez contacter le bureau d'assistance de USAJOBS pour annuler le lien à votre compte. Vous devrez répondre à des questions de sécurité pour le faire. REMARQUE? Vous devez d'abord éliminer le lien à votre compte avant d'en créer un nouveau. Si vous ne l'annulez pas, avant la création d'un nouveau, nous ne serons pas en mesure de lier vos comptes.
-      5. Visitez [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} pour créer un nouveau compte login.gov en utilisant la même adresse e-mail.
-      6. Si vous avez suivi ces étapes dans cet ordre et utilisé la bonne adresse e-mail, votre profil sera automatiquement lié.
+      ### Supprimer et dissocier votre profil login.gov de USAJOBS
+      1. Commencez par vous connecter à l'adresse [https://www.login.gov/](https://www.login.gov/){:target="_blank"} avec votre nom d'utilisateur et votre mot de passe. Lorsque la méthode d’authentification vous est demandée, faites défiler vers le bas de la page et cliquez sur «Choisir une autre option de sécurité». Sur la page suivante, sélectionnez «Si vous ne pouvez utiliser aucune de ces options de sécurité ci-dessus, vous pouvez réinitialiser votre système. préférences en supprimant votre compte. ”et cliquez sur le lien.
+      2. Lisez attentivement toutes les informations pour vous assurer que la suppression de votre compte est le seul moyen de réinitialiser les paramètres de votre compte, puis sélectionnez «Oui, poursuivre la suppression» pour continuer.
+      3. Vous recevrez immédiatement un email de confirmation de la réception de votre demande de suppression.
+      4. Par mesure de sécurité, vous recevrez un autre e-mail contenant le lien vous permettant de continuer à supprimer votre compte 24 heures après la confirmation initiale.
+      5. En attendant la deuxième notification par courrier électronique, vous devez contacter le service d'assistance d'USAJOBS pour dissocier votre profil. Allez au [centre d'aide USAJOBS sur login.gov](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"} et cliquez sur le bouton «Contactez-nous» situé au bas de la page. Ne créez pas de nouveau compte login.gov avant d'avoir reçu la confirmation que votre profil a été dissocié. Vous devrez fournir les informations suivantes concernant votre profil au service d'assistance d'USAJOBS:
+        * Adresse électronique
+        * Prénom, deuxième prénom et nom de famille (le cas échéant, inclure également le suffixe (Jr., Sr., III, etc.) et le nom de jeune fille)
+        * Adresse postale et domicile (incluez toutes les adresses passées ou présentes que vous avez répertoriées dans votre profil)
+        * Numéros de téléphone (incluez tous les numéros de téléphone passés ou présents que vous avez répertoriés dans votre profil)
+        * Réponses à vos questions de sécurité (Question secrète 1-3)
+      6. Le service d'assistance d'USAJOBS vous enverra un courrier électronique confirmant que votre profil n'a pas été lié. Cet e-mail vous guidera également pour retrouver l'accès à votre compte.
 
-      Pour toute question concernant le lien à votre compte, veuillez contacter le bureau d'assistance de USAJOBS.
+      ### Créer un nouveau profil login.gov et le lier à USAJOBS
+      1. Allez sur [https://www.login.gov/](https://www.login.gov/){:target="_blank"}, cliquez sur «Connexion», cliquez sur «Créer un compte», puis suivez les étapes pour créer un nouveau compte login.gov. Assurez-vous d'utiliser la même adresse électronique que le compte que vous venez de supprimer (l'adresse électronique que vous utilisez pour votre compte USAJOB).
+      2. Si vous avez suivi ces étapes dans cet ordre et utilisé le bon email, votre profil sera automatiquement lié.
+
+      REMARQUE: Ne créez pas de nouveau compte login.gov tant que votre profil n’a pas été dissocié. Vous devez d'abord dissocier votre compte avant d'en créer un nouveau. Si vous ne dissociez pas votre compte avant d'en créer un, nous ne pourrons pas lier vos comptes.
+
+      Si vous avez des questions sur l'association de votre compte, veuillez contacter le [service d'assistance d'USAJOBS](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"}.
     security-code: |-
       Vous pouvez choisir de recevoir le code de sécurité à utilisation unique par SMS ou par appel téléphonique si vous avez un téléphone portable des États-Unis. Les lignes terrestres peuvent seulement recevoir un appel téléphonique. Si vous êtes à l'extérieur des États-Unis, la plupart des numéros de téléphone peuvent seulement recevoir un SMS.
 
