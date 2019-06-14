@@ -139,9 +139,9 @@ help:
     how-do-i-change-the-phone-number-i-use-to-sign-in: Comment puis-je changer le
       numéro de téléphone que j'utilise pour me connecter ?
   creating-an-account:
-    do-i-need-a-mobile-phone-to-use-logingov: Je n'ai pas de téléphone. Puis-je quand même utiliser login.gov?
+    do-i-need-a-mobile-phone-to-use-logingov: Dois-je posséder un téléphone cellulaire
+      pour utiliser login.gov?
     how-do-i-create-an-account-with-logingov: Comment créer un compte sur login.gov?
-    how-do-i-create-an-account-with-only-one-two-factor-authenticator: Je n’ai pas de téléphone, d’application d’authentification, de clé de sécurité ou d’identité gouvernementale. Puis-je quand même créer un compte login.gov?
     how-do-i-verify-my-address-by-mail: Comment vérifier mon adresse par courrier?
     i-didnt-receive-a-confirmation-email-from-logingov: Je n'ai pas reçu de courriel
       de confirmation de login.gov.
@@ -187,8 +187,11 @@ help:
     what-is-a-security-key: Qu'est-ce qu'une clé de sécurité?
     what-is-phishing: Qu'est-ce que le phishing?
   signing-in:
+    how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: Comment puis-je me
+      connecter si je n'ai pas mon numéro de téléphone ni ma clé personnelle ?
     how-do-i-reset-my-password: Comment puis-je réinitialiser mon mot de passe?
-    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: Comment me connecter si je n’ai pas mes méthodes d’authentification (téléphone, codes de sauvegarde, application d’authentification, etc.)?
+    how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed: Comment
+      puis-je me connecter si je n'ai pas mon numéro de téléphone ou ma clé personnelle ?
     how-do-i-turn-off-two-factor-authentication: Comment puis-je désactiver l'authentification
       à deux facteurs ?
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: Je
@@ -201,7 +204,8 @@ help:
       n'est pas valide
     what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: Que dois-je faire si mon
       mot de passe ne fonctionne pas ou si je l'ai oublié?
-    what-do-i-need-to-have-in-order-to-sign-in: De quoi ai-je besoin pour pouvoir me connecter?
+    what-do-i-need-to-have-in-order-to-sign-in: Que dois-je avoir en main pour me
+      connecter?
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Que
       se produit-il si je manque l'appel téléphonique ou le message texte contenant
       mon code de sécurité à utilisation unique?
@@ -280,12 +284,13 @@ help_pages:
     how-do-i-change-the-phone-number-i-use-to-sign-in: |-
       Pour changer le numéro de téléphone où vous recevez votre code de sécurité, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Gérer le compte » pour vous connecter à votre compte login.gov. Une fois connecté(e), sélectionnez « modifier » à côté du numéro de téléphone. Entrez le numéro de téléphone et sélectionnez « confirmer le changement ». login.gov vous enverra immédiatement votre code de sécurité pour confirmer le nouveau numéro de téléphone.
 
-      Si vous ne pouvez recevoir le code de sécurité parce que vous n'avez plus accès à votre téléphone, vous devrez [vous connecter en utilisant votre clé personnelle](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods).
+      Si vous ne pouvez recevoir le code de sécurité parce que vous n'avez plus accès à votre téléphone, vous devrez [vous connecter en utilisant votre clé personnelle](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed).
   creating-an-account:
-    do-i-need-a-mobile-phone-to-use-logingov: |-
-      login.gov exige que tous les utilisateurs utilisent une authentification à deux facteurs lors de la création d'un compte et de la connexion.
-
-      Même si vous n'avez pas de téléphone, vous avez toujours un certain nombre d'options pour un deuxième facteur. Vous pouvez choisir d'utiliser une application d'authentification sur votre appareil, des codes de sauvegarde ou une clé de sécurité. Si vous êtes un employé du gouvernement, vous pouvez également utiliser votre identifiant gouvernemental (carte PIV/CAC).
+    do-i-need-a-mobile-phone-to-use-logingov: Vous n'avez pas besoin de téléphone
+      cellulaire pour utiliser login.gov. Vous devez fournir un numéro de téléphone,
+      soit une ligne fixe ou mobile où vous pouvez recevoir les codes de sécurité.
+      Ceux-ci vous seront envoyés chaque fois que vous vous connectez, par message
+      texte ou par un appel téléphonique.
     how-do-i-create-an-account-with-logingov: |-
       Pour créer un compte login.gov, vous devrez fournir : une adresse courriel valide et un numéro de téléphone actif. Nous vous demanderons aussi de créer un mot de passe.
 
@@ -324,18 +329,6 @@ help_pages:
       #### Codes de sauvegarde
       Les codes de sauvegarde sont une autre méthode d’authentification. Lorsque vous choisissez d’utiliser les codes de sauvegarde comme deuxième facteur, login.gov génère un ensemble de 10 codes. Une fois connecté(e) avec votre nom d’utilisateur et votre mot de passe, on vous demandera un code. Chaque code peut être utilisé une fois, une fois le 10e code utilisé, on vous demandera de télécharger une nouvelle liste. Traitez vos codes de récupération avec le même niveau d’attention que vous auriez pour votre mot de passe.
       <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
-    how-do-i-create-an-account-with-only-one-two-factor-authenticator: |-
-      login.gov exige que les utilisateurs configurent deux formes de méthodes d'authentification à deux facteurs lors de la création d'un compte. Toutefois, si vous n'avez pas accès à un téléphone, à une application d'authentification, à une clé de sécurité ou à un ID d'employé gouvernemental (carte PIV / CAC), vous pouvez configurer votre compte avec uniquement des codes de sauvegarde.
-
-      Avertissement: La configuration de votre compte avec des codes de sauvegarde comme seule méthode d’authentification n’est pas recommandée. Si vous perdez vos codes de sauvegarde, vous ne pourrez pas vous connecter à votre compte.
-
-      Lorsque vous créez votre compte, vous accédez à la page «Sécuriser votre compte». C'est ici que vous devez choisir votre méthode d'authentification principale. Si vous n'avez accès à aucune des autres options, sélectionnez «Codes de sauvegarde», puis cliquez sur «Continuer».
-
-      Téléchargez, imprimez, copiez ou notez vos codes de sauvegarde et enregistrez-les dans un endroit sûr. Ensuite, cliquez sur «Continuer». Remarque: vous devez cliquer sur «Continuer» pour activer vos codes de sauvegarde. Si vous ne le faites pas et que vous quittez la page, vous ne pourrez pas utiliser cet ensemble de codes de sauvegarde pour vous connecter ultérieurement.
-
-      Sur la page «Ajouter une autre méthode», sélectionnez «Je n’ai aucun de ces choix» et cliquez sur «Continuer».
-
-      Vous aurez alors fini de créer votre compte. Chaque fois que vous vous connecterez à l'aide de login.gov, il vous sera demandé de saisir l'un de vos codes de sauvegarde. Après avoir utilisé le 10ème code, vous recevrez un nouvel ensemble de codes de sauvegarde à enregistrer et à utiliser.
     how-do-i-verify-my-address-by-mail: |-
       Si nous ne pouvons pas vérifier automatiquement votre adresse, vous devez la vérifier par courrier. Cela signifie que nous vous enverrons une lettre avec un code de confirmation que vous devez utiliser pour terminer la configuration de votre compte.
       
@@ -536,6 +529,10 @@ help_pages:
       vous permettra également de saisir les informations sur le site Web officiel
       login.gov.
   signing-in:
+    how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: |-
+      La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles options de sécurité. Toutefois, la suppression éliminera toutes les applications de l'agence qui sont liées à votre compte et vous devrez restaurer chaque connexion. Nous vous recommandons de consulter les articles ci-dessous pour savoir comment rétablir le lien avec votre compte après l'avoir supprimé.
+
+      Pour supprimer votre compte, connectez-vous en utilisant votre application de l'agence ou en visitant [https://secure.login.gov/](https://secure.login.gov/). Lorsqu'on vous demande d'entrer votre code de sécurité, cliquez sur  le lien « choisir une autre option de sécurité ». À la page suivante, faites défiler vers le bas de la page jusqu'à la section « Si vous ne pouvez utiliser aucune des options de sécurité ci-dessus, vous pouvez réinitialiser vos préférences en supprimant votre compte » et suivez ce lien.
     how-do-i-reset-my-password: Si vous ne connaissez pas votre mot de passe, le lien
       pour le réinitialiser se trouve à la page de connexion. Saisissez votre adresse
       e-mail pour recevoir un lien pour réinitialiser votre mot de passe. Lorsque
@@ -545,20 +542,18 @@ help_pages:
       de saisir correctement votre mot de passe. Vous serez renvoyé à la page de connexion
       après avoir suivi ces étapes. Vous pouvez maintenant vous connecter en utilisant
       votre nouveau mot de passe login.gov.
-    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: |-
-      Si vous ne pouvez pas vous connecter à votre compte login.gov parce que vous avez définitivement perdu l'accès à vos méthodes d'authentification (telles que votre téléphone, vos codes de sauvegarde, votre application d'authentification et votre clé personnelle), il peut être nécessaire de réinitialiser votre compte en le supprimant.
+    how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed: |-
+      Si vous ne pouvez vous connecter à votre compte login.gov parce que vous avez perdu l'accès à votre méthode de sécurité et à votre clé personnelle de façon permanente, vous pouvez réinitialiser votre compte en le supprimant.
 
-      Si vous avez perdu l'accès à votre méthode d'authentification principale, mais que vous avez toujours accès à votre méthode d'authentification secondaire, cliquez sur "Choisir une autre option" lors de la connexion. Si vous configurez uniquement des codes de sauvegarde comme méthode d'authentification unique, vous ne disposerez d'aucun autre options à choisir et devra supprimer votre compte.
+      La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles options de sécurité. Toutefois, la suppression éliminera toutes les applications de l'agence qui sont liées à votre compte et vous devrez restaurer chaque connexion. Nous vous recommandons de consulter les articles ci-dessous pour savoir comment rétablir le lien avec votre compte après l'avoir supprimé.
 
-      Supprimer votre compte existant et en créer un nouveau vous permettra d'utiliser la même adresse e-mail et de définir de nouvelles options de sécurité. Cependant, la suppression supprimera toutes les applications d'agence que vous avez liées à votre compte et vous devrez restaurer chaque connexion. Nous vous recommandons d'utiliser les articles répertoriés ci-dessous pour apprendre à relier votre compte après l'avoir supprimé.
+      Pour supprimer votre compte, connectez-vous à votre application de l'agence ou visitez [https://secure.login.gov/](https://secure.login.gov/). Lorsqu'on vous demande d'entrer votre code de sécurité, cliquez sur le lien « choisir une autre option de sécurité ». À la page suivante, faites défiler vers le bas de la page jusqu'à la section « Si vous ne pouvez utiliser aucune des options de sécurité ci-dessus, vous pouvez réinitialiser vos préférences en supprimant votre compte » et suivez ce lien.
 
-      Pour supprimer votre compte, connectez-vous via votre application d'agence ou en visitant https://secure.login.gov/. Lorsque vous êtes invité à entrer votre code de sécurité, suivez le lien "Choisissez une autre option de sécurité". vous pouvez réinitialiser vos préférences en supprimant votre compte »et suivez ce lien.
+      Lisez attentivement toute l'information pour vous assurer que la suppression de votre compte est la seule façon de réinitialiser les paramètres de votre compte. Sélectionnez « Oui, continuer avec la suppression » pour procéder à la suppression de votre compte.
 
-      Lisez attentivement toutes les informations pour vous assurer que la suppression de votre compte est le seul moyen de réinitialiser les paramètres de votre compte. Sélectionnez «Oui, continuer la suppression» pour continuer.
+      Vous recevrez immédiatement une confirmation par e-mail vous informant que votre demande de suppression a bien été reçue. À titre de mesure de sécurité, vous recevrez un autre e-mail avec le lien servant à confirmer la suppression de votre compte 24 heures après avoir reçu la confirmation initiale.
 
-      Vous recevrez immédiatement un email de confirmation de la réception de votre demande de suppression. Par mesure de sécurité, vous recevrez un autre courrier électronique contenant le lien vous permettant de continuer à supprimer votre compte. Le lien est disponible pendant 24 heures après l’arrivée de la confirmation initiale et expire à la fin de ces 24 heures.
-
-      ## Articles pertinents
+      ## Articles connexes
       [How do I relink my USAJOBS profile after deleting my login.gov account?](site.baseurl/help/usajobs/relink-my-profile)
       [How do I relink my Trusted Traveler profile after deleting my login.gov account?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
       [How do I relink my SAM profile after deleting my login.gov account?](site.baseurl/help/sam/relink-my-profile)
@@ -593,8 +588,11 @@ help_pages:
 
 
       Lorsque vous serez connectés à login.gov après la réinitialisation de votre mot de passe, login.gov vous fournira une clé personnelle. La clé personnelle vous sera utile si vous oubliez votre mot de passe ou si vous n'avez pas votre téléphone avec vous. Assurez-vous de la prendre en note et de la conserver séparément de votre téléphone.
-    what-do-i-need-to-have-in-order-to-sign-in: |-
-      Chaque fois que vous vous connecterez à votre compte, vous aurez besoin de votre adresse électronique, de votre mot de passe et de l'accès à l'une des méthodes d'authentification à deux facteurs que vous avez configurées. Après avoir entré votre adresse e-mail et votre mot de passe pour vous connecter, login.gov vous demandera de vous authentifier (entrez un code de sécurité envoyé à votre téléphone par voix ou texte, entrez le code de sécurité de votre application d'authentification, entrez un code de sauvegarde, utilisez votre clé de sécurité, ou utilisez votre carte gouvernementale PIV/CAC).
+    what-do-i-need-to-have-in-order-to-sign-in: Chaque fois que vous vous connectez
+      à votre compte, vous devez avoir votre adresse courriel, votre mot de passe,
+      ainsi que votre téléphone à portée de main. Après avoir inscrit votre adresse
+      courriel, login.gov enverra un code de sécurité à votre téléphone. Vous devrez
+      l'inscrire dans le champ du code de sécurité pour vous connecter de façon sécurisée.
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Chaque
       fois que vous vous connectez, vous devez entrer un code de sécurité qui est
       envoyé à votre téléphone par message texte ou par appel téléphonique. Le code

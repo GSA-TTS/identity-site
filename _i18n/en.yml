@@ -142,7 +142,6 @@ help:
     do-i-need-a-mobile-phone-to-use-logingov: I don’t have a phone. Can I still use
       login.gov?
     how-do-i-create-an-account-with-logingov: How do I create an account with login.gov?
-    how-do-i-create-an-account-with-only-one-two-factor-authenticator: I don’t have a phone, authentication app, security key, or government ID. Can I still create a login.gov account?
     how-do-i-verify-my-address-by-mail: How do I verify my address by mail?
     i-didnt-receive-a-confirmation-email-from-logingov: Why didn’t I receive a confirmation
       email from login.gov?
@@ -187,8 +186,11 @@ help:
     what-is-a-security-key: What is a security key?
     what-is-phishing: What is phishing?
   signing-in:
+    how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: How do I sign in
+      if I don’t have my phone or my personal key?
     how-do-i-reset-my-password: How do I reset my password?
-    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: How do I sign in if I don’t have my authentication methods (phone, backup codes, authentication app, etc.)?
+    how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed: How do
+      I sign in if I don’t have my phone or my personal key?
     how-do-i-turn-off-two-factor-authentication: How do I turn off two-factor authentication?
     i-forgot-which-email-address-i-used-to-create-an-account: I forgot which email
       address I used to create an account.
@@ -265,16 +267,15 @@ help_pages:
     how-do-i-change-the-phone-number-i-use-to-sign-in: |-
       To change the phone number where you get your security code, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Once signed in, click on “Manage” next to the phone number. Enter the phone number and select “confirm change.” login.gov will immediately send your security code to confirm the new phone number.
 
-      If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key if you were assigned one and it is still valid](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods) or use another configured authentication method.
+      If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key if you were assigned one and it is still valid](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed) or use another configured authentication method.
   creating-an-account:
     do-i-need-a-mobile-phone-to-use-logingov: |-
       login.gov requires all users to use two-factor authentication when creating an account and signing in.
 
-      Even if you do not have a phone you still have a number of options for a second factor. You can choose between using an authentication application on your device, backup codes, or a security key. If you are a government employee, you can also use your government ID (PIV/CAC card).
+      Even if you do not have a phone you still have a number of options for a second factor. You can choose between using an authentication application on the device you are using to sign in, backup codes, or a security key.
 
       [Read more on how to set up an authentication application](site.baseurl/help/signing-in/what-is-an-authentication-app/)
       [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/)
-      [Read more on how to create a login.gov account if you don’t have a phone, authentication app, security key, or government employee ID](site.baseurl/help/creating-an-account/how-do-i-create-an-account-with-only-one-two-factor-authenticator/)
     how-do-i-create-an-account-with-logingov: |-
       ### How do you create an account with login.gov?
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
@@ -321,18 +322,7 @@ help_pages:
       Backup codes are another method of authentication. When you elect to use the backup codes as your 2nd factor, login.gov will generate a set of 10 codes. After you log in with your username and password, you will be prompted for a code. Each code may only be used once, once the 10th code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of attention as you would your password.
 
       <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
-    how-do-i-create-an-account-with-only-one-two-factor-authenticator: |-
-      login.gov requires users to set up two forms of two-factor authentication methods when creating an account. However, if you do not have access to a phone, authentication application, security key, or government employee ID (PIV/CAC card), you can set up your account with only backup codes.
 
-      Warning: Setting up your account with backup codes as your only authentication method is not recommended. If you ever lose your backup codes, you will not be able to sign in to your account.
-
-      When you are creating your account, you will reach the “Secure your account” page. This is where you must choose you primary authentication method. If you do not have access to any of the other options, select “Backup Codes” and click “Continue”.
-
-      Download, print, copy, or write down your back up codes and save them in a secure place. Then, click “Continue”. Note: you must click “Continue” to activate your backup codes. If you do not and you exit the page instead, you will not be able to use that set of backup codes to sign in later.
-
-      On the “Add another method” page, select “I don’t have any of the above” and click “Continue”
-
-      You will then be finished creating your account. Each time you sign in using login.gov, you will be asked to enter one of your backup codes. After you use the 10th code, you will be given a new set of backup codes to save and use.
     how-do-i-verify-my-address-by-mail: |-
       If we cannot automatically verify your address, you must verify it by mail. This means that we will mail you a letter with a confirmation code that you must use to finish setting up your account.
       
@@ -535,6 +525,10 @@ help_pages:
       share with an attacker. The security key will also make sure you’re entering
       information on the official login.gov website.
   signing-in:
+    how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: |-
+      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. Your information/applications will not be deleted, however, deleting will remove any agency applications you have linked to your account. We recommend you use the articles listed below to learn how to relink your account after deleting it.
+
+      To delete your account, either sign in via your agency application or by visiting [https://secure.login.gov/](https://secure.login.gov/). When you are prompted to enter your security code, select the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
     how-do-i-reset-my-password: If you don't know your password, the link to reset
       it is on the sign-in page. Enter your email address to receive a link to reset
       your password. Once you follow the link, you'll be asked to enter a new password.
@@ -542,14 +536,12 @@ help_pages:
       Select "show password" to ensure you are typing your password correctly. You
       will be taken back to the sign in page after completing these steps. You can
       now sign in using your new login.gov password.
-    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: |-
-      If you cannot sign into your login.gov account because you’ve permanently lost access to your authentication methods (such as your phone, backup codes, authentication app, and personal key), you may need to reset your account by deleting it.
-
-      If you lost access to your primary authentication method, but still have access to your secondary authentication method, click on “Choose another option” when signing in. If you only set up backup codes as your sole authentication method, you will not have any other options to choose from and will have to delete your account.
+    how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed: |-
+      If you cannot sign into your login.gov account because you’ve permanently lost access to your security method and personal key, you may need to reset your account by deleting it.
 
       Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will remove any agency applications you have linked to your account, and you will need to restore each connection. We recommend you use the articles listed below to learn how to relink your account after deleting it.
 
-      To delete your account, either sign in via your agency application or by visiting https://secure.login.gov/. When you are prompted to enter your security code, follow the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
+      To delete your account, either sign in via your agency application or by visiting [https://secure.login.gov/](https://secure.login.gov/). When you are prompted to enter your security code, follow the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
 
       Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. Select “Yes, continue deletion” to proceed.
 
@@ -583,8 +575,11 @@ help_pages:
       If the reset password link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter.
 
       For additional help, you can [submit a support ticket] (https://login.gov/contact)
-    what-do-i-need-to-have-in-order-to-sign-in: |-
-      Every time you log into your account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up. After you enter your email address and password to sign in, login.gov will ask you to authenticate (enter a security code sent to your phone by voice or text, enter the security code from your authentication application, enter a backup code, use your security key, or use your government PIV/CAC card).
+    what-do-i-need-to-have-in-order-to-sign-in: Every time you log into your account,
+      you will need your email address, your password, and access to your phone. After
+      you have entered your email address and password, login.gov will send to your
+      phone a security code, which you will need to enter into the security code field
+      in order to be logged in securely.
     what-is-an-authentication-app: |-
       Authentication apps generate security codes for signing in to sites that require a high level of security. You can use these apps to get security codes even if you don’t have an internet connection or mobile service.
       You can set up an authentication app to generate your login.gov security code. First, you’ll need to download an authentication app to your computer or phone. After installing and configuring the application to work with login.gov, you will be able to receive security codes without a phone number. Some options for authentication apps include:
