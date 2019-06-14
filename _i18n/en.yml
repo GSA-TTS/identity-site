@@ -188,8 +188,7 @@ help:
     what-is-phishing: What is phishing?
   signing-in:
     how-do-i-reset-my-password: How do I reset my password?
-    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: How do
-      I sign in if I don’t have my phone or my personal key?
+    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: How do I sign in if I don’t have my authentication methods (phone, backup codes, authentication app, etc.)?
     how-do-i-turn-off-two-factor-authentication: How do I turn off two-factor authentication?
     i-forgot-which-email-address-i-used-to-create-an-account: I forgot which email
       address I used to create an account.
@@ -544,11 +543,13 @@ help_pages:
       will be taken back to the sign in page after completing these steps. You can
       now sign in using your new login.gov password.
     how-do-i-sign-in-if-i-dont-have-my-authentication-methods: |-
-      If you cannot sign into your login.gov account because you’ve permanently lost access to your security method and personal key, you may need to reset your account by deleting it.
+      If you cannot sign into your login.gov account because you’ve permanently lost access to your authentication methods (such as your phone, backup codes, authentication app, and personal key), you may need to reset your account by deleting it.
+
+      If you lost access to your primary authentication method, but still have access to your secondary authentication method, click on “Choose another option” when signing in. If you only set up backup codes as your sole authentication method, you will not have any other options to choose from and will have to delete your account.
 
       Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will remove any agency applications you have linked to your account, and you will need to restore each connection. We recommend you use the articles listed below to learn how to relink your account after deleting it.
 
-      To delete your account, either sign in via your agency application or by visiting [https://secure.login.gov/](https://secure.login.gov/). When you are prompted to enter your security code, follow the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
+      To delete your account, either sign in via your agency application or by visiting https://secure.login.gov/. When you are prompted to enter your security code, follow the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
 
       Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. Select “Yes, continue deletion” to proceed.
 
