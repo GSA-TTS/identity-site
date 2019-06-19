@@ -165,7 +165,6 @@ help:
       délivré par l'État, puis-je quand même vérifier mon identité?
     i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
       J'ai plusieurs comptes login.gov, puis-je vérifier mon identité pour chacun d'entre eux?
-    related-articles: Articles liés
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Puis-je supprimer
       un mot de passe ou un identifiant sauvegardé de mon navigateur ?
@@ -459,7 +458,8 @@ help_pages:
         3. Sur la page "Votre compte", accédez à la section "Informations de connexion" et cliquez sur "Ajouter un email"
         4. Suivez les étapes pour ajouter et confirmer votre adresse email
 
-    related-articles: |-
+      Articles liés
+      
       [Comment relier mon profil USAJOBS après la suppression de mon compte login.gov?](site.baseurl/help/usajobs/relink-my-profile)
 
       [Comment relier mon profil Trusted Traveler après la suppression de mon compte login.gov?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)

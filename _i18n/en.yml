@@ -164,7 +164,6 @@ help:
       state-issued ID, can I still verify my identity?
     i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
       I have more than one login.gov account, can I verify my identity for all of them?
-    related-articles: Related articles
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove
       a saved password or login information from my browser?
@@ -459,7 +458,8 @@ help_pages:
         3. On the “Your account” page, go to the “login information” section and click on “Add email”
         4. Follow the steps to add and confirm your email address
 
-    related-articles: |-
+      Related Articles:
+
       [How do I relink my USAJOBS profile after deleting my login.gov account?](site.baseurl/help/usajobs/relink-my-profile)
 
       [How do I relink my Trusted Traveler profile after deleting my login.gov account?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)

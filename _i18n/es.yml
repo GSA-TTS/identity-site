@@ -163,7 +163,6 @@ help:
       emitida por el estado, ¿aún puedo verificar mi identidad?
     i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
       Tengo más de una cuenta de login.gov ¿puedo verificar mi identidad en todas?
-    related-articles: Artículos relacionados
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: "¿Puedo borrar
       de mi navegador una contraseña o información guardarda para iniciar sesión?"
@@ -447,7 +446,8 @@ help_pages:
         3. En la página "Su cuenta", ve a la sección "Información de inicio de sesión" y haga clic en "Agregar correo electrónico"
         4. Sigue los pasos para agregar y confirmar tu dirección de correo electrónico.
 
-    related-articles: |-
+      Artículos relacionados:
+
       [¿Cómo puedo volver a vincular mi perfil de USAJOBS después de eliminar mi cuenta login.gov?](site.baseurl/help/usajobs/relink-my-profile)
 
       [¿Cómo puedo volver a vincular mi perfil de Trusted Traveler después de eliminar mi cuenta login.gov?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
