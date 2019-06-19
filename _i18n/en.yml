@@ -157,6 +157,14 @@ help:
     why-do-i-need-to-use-logingov-to-access-government-services-online: Why do I need
       to use login.gov to access government services online?
     why-is-my-confirmation-link-invalid: Why is my confirmation link invalid?
+  identity-verification:
+    why-do-i-need-to-verify-my-identity: Why do I need to verify my identity?
+    how-do-i-verify-my-identity-on-logingov: How do I verify my identity on login.gov?
+    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: I do not have a
+      state-issued ID, can I still verify my identity?
+    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
+      I have more than one login.gov account, can I verify my identity for all of them?
+    related-articles: Related articles
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove
       a saved password or login information from my browser?
@@ -317,7 +325,7 @@ help_pages:
       Your security key must support the FIDO standard. You can add as many security keys as you want. Once you connect your key to your computer, usually by plugging it into a USB port, assign the key a name to identify it within your login.gov account. The next step will ask you to activate your key. This is generally done by pressing a button on the key itself.
 
       <img src="site.baseurl/assets/img/help/security_key.png" class="mt3 mb3 block" alt="Security key help image" />
-    
+
       #### Backup codes
       Backup codes are another method of authentication. When you elect to use the backup codes as your 2nd factor, login.gov will generate a set of 10 codes. After you log in with your username and password, you will be prompted for a code. Each code may only be used once, once the 10th code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of attention as you would your password.
 
@@ -325,11 +333,11 @@ help_pages:
 
     how-do-i-verify-my-address-by-mail: |-
       If we cannot automatically verify your address, you must verify it by mail. This means that we will mail you a letter with a confirmation code that you must use to finish setting up your account.
-      
+
       You will receive the letter via U.S. Postal Service, three to five business days after the date when you request the code. The confirmation code will expire 30 days after the date when you submit your request.
 
       If you do not receive your letter or your confirmation code expires before you finish the identity verification process, you can request a new confirmation code. To do so, sign in to the government application or to [https://secure.login.gov](https://secure.login.gov){:target="_blank"} and select “Send me a new confirmation code” when asked to enter your code.
-      
+
     i-didnt-receive-a-confirmation-email-from-logingov: |-
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
 
@@ -397,6 +405,66 @@ help_pages:
       If the confirmation link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter.
 
       For additional help, [please submit a support ticket] (https://login.gov/contact).
+  identity-verification:
+    why-do-i-need-to-verify-my-identity: |-
+      Some government applications that use login.gov require users to verify their identities. This means that you must prove that you are who you say you are. By doing this, we make sure that only the right people get access to sensitive information.
+
+      You will only be asked to verify your identity the first time you sign in to certain government applications.
+
+      You only need to verify your identity once for your login.gov account (after you verify your identity with login.gov for one government application, you don’t need to do it again for other government applications).
+    how-do-i-verify-my-identity-on-logingov: |-
+      If a government application requires identity verification, login.gov will ask you to verify your identity the first time you sign in to it. You will need to have your state-issued ID (like your driver’s license) or a picture of the front and the back of it. Use the following steps to verify your identity on login.gov:
+      1. When you are signing in or creating an account, you will see the “We need to verify your identity” page. Click on “Get started”.
+      <img src="site.baseurl/assets/img/verify-my-identity-1.png" class="mt3 mb3 block" />
+      2. On the “How would you like to upload your state issued ID?” page, choose to upload images of your ID from your computer or from your phone (take a picture with your phone’s camera or upload an image from your phone’s photo library).
+      <img src="site.baseurl/assets/img/verify-my-identity-2.png" class="mt3 mb3 block" />
+      <b>Use your computer</b>
+      - Upload an image of the front of your state-issued ID by clicking on “Choose File”, selecting the file from your computer, and clicking on “Continue”
+        <img src="site.baseurl/assets/img/verify-my-identity-3.png" class="mt3 mb3 block" />
+      - Upload an image of the back of your state-issued ID by clicking on “Choose File”, selecting the file from your computer, and clicking on “Continue”
+      <b style='margin-left: -40px;'>Use your phone</b>
+      - Enter your phone number and click “Continue”
+        <img src="site.baseurl/assets/img/verify-my-identity-4.png" class="mt3 mb3 block" />
+      - Go to your phone
+      - You will receive a text message with a link. Click on the link.
+        <img src="site.baseurl/assets/img/verify-my-identity-5.jpeg" class="mt3 mb3 block" />
+      - Upload or take an image of the front of your state-issued ID by clicking on “Choose File”, taking a picture or uploading one from your photo library, and clicking on “Continue”
+        <img src="site.baseurl/assets/img/verify-my-identity-6.jpeg" class="mt3 mb3 block" />
+      - Upload or take an image of the back of your state-issued ID by clicking on “Choose File”, taking a picture or uploading one from your photo library, and clicking on “Continue”
+      - Go back to your computer and click “Continue”
+
+      3. Enter your social security number and click “Continue”
+      4. Make sure your information is correct and click “Continue”
+      5. Enter a phone number to verify your identity. If you do not have a phone plan with your name on it or a U.S. phone number, click on “Get a code via mail instead”. You will have to wait to receive a letter in the mail and then follow the instructions to enter the code.
+      6. Re-enter your login.gov password
+      7. Set up two-factor authentication (if this is a new account)
+
+      If we are able to verify your identity, you will see a confirmation page and be able to enter the government application.
+    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: |-
+      At this time, you cannot verify your identity on login.gov without a state-issued ID. We’re currently working to add more ways to verify your identity.
+
+      In the meantime, please contact your government application’s help center to find out what you can do.
+    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them: |-
+      You can only verify your identity for one account. If you have more than one login.gov account, you can combine them by deleting one account and then adding that email address to the other. Before you do this, remember that you will have to relink any government applications that were connected to the account(s) you are deleting. Also, you can only add a maximum of three email address to a single login.gov account.
+
+      Delete an account
+        1. Go to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
+        2. Sign in with your email, password, and authentication method
+        3. Scroll to the bottom of the “Your account” page to the “Account management” section, and click on “Delete”
+        4. Follow the steps to delete your account
+
+      Add an email address to your account
+        1. Go to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
+        2. Sign in with your email, password, and authentication method
+        3. On the “Your account” page, go to the “login information” section and click on “Add email”
+        4. Follow the steps to add and confirm your email address
+
+    related-articles: |-
+      [How do I relink my USAJOBS profile after deleting my login.gov account?](site.baseurl/help/usajobs/relink-my-profile)
+
+      [How do I relink my Trusted Traveler profile after deleting my login.gov account?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+
+      [How do I relink my SAM profile after deleting my login.gov account?](site.baseurl/help/sam/relink-my-profile)
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       If you accidentally saved your login.gov password or other sign-in information in your browser, it's a good idea for you to delete it; this will help you keep your account more secure. From the following list, select the browser (the computer program you use to access the World Wide Web) you use to learn how to make it erase any saved information:
@@ -775,6 +843,7 @@ help_pages:
 help_subpages:
   changing-settings: Changing settings
   creating-an-account: Creating an account
+  identity-verification: Identity verification
   privacy-and-security: Privacy & security
   sam: SAM
   security-keys: Security keys

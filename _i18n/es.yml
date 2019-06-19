@@ -156,6 +156,14 @@ help:
     why-do-i-need-to-use-logingov-to-access-government-services-online: "¿Por qué
       tengo que usar login.gov para acceder a los servicios del Gobierno en línea?"
     why-is-my-confirmation-link-invalid: "¿Por qué no es válido mi enlace de confirmación?"
+  identity-verification:
+    why-do-i-need-to-verify-my-identity: ¿Por qué necesito verificar mi identidad?
+    how-do-i-verify-my-identity-on-logingov: ¿Cómo verifico mi identidad en login.gov?
+    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: No tengo una identificación
+      emitida por el estado, ¿aún puedo verificar mi identidad?
+    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
+      Tengo más de una cuenta de login.gov ¿puedo verificar mi identidad en todas?
+    related-articles: Artículos relacionados
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: "¿Puedo borrar
       de mi navegador una contraseña o información guardarda para iniciar sesión?"
@@ -384,6 +392,67 @@ help_pages:
       Si el enlace de confirmación sigue sin ser válido y ha seguido los pasos descritos anteriormente, es posible que su proveedor de correo electrónico haya codificado el enlace. Una forma de determinar si ha sucedido esto es copiando y pegando el enlace de confirmación en su navegador. Si hay símbolos o palabras inusuales en el enlace, quítelos y pulse "Intro".
 
       Para obtener ayuda adicional, envíe un correo electrónico a [hello@login.gov](mailto:hello@login.gov).
+  identity-verification:
+    why-do-i-need-to-verify-my-identity: |-
+      Algunas aplicaciones gubernamentales que utilizan login.gov requieren que los usuarios verifiquen sus identidades. Esto significa que debes demostrar que eres quien dices que eres. Al hacer esto, nos aseguramos de que solo las personas adecuadas tengan acceso a información confidencial.
+
+      Solo se te pedirá que verifiques tu identidad la primera vez que inicies sesión en ciertas aplicaciones gubernamentales.
+
+      Solo necesitas verificar tu identidad una vez para tu cuenta de login.gov (después de verificar a tu identidad con login.gov para una aplicacion gubernamental, no necesitaras hacerlo de nuevo para otras aplicaciones gubernamentales).
+    how-do-i-verify-my-identity-on-logingov: |-
+      Si una aplicacion gubernamental requiere verificación de identidad, login.gov te pedirá que verifiques tu identidad la primera vez que inicie sesión con esa aplicación. Necesitarás tener tu identificación emitida por el estado (como tu licencia de conducir) o una fotografía de la parte frontal y posterior de la tarjeta. Usa los siguientes pasos para verificar tu identidad en login.gov:
+      1. Cuando inicies sesión o creas una cuenta, verás la página "Necesitamos verificar tu identidad". Haz clic en "Comenzar".
+      <img src="site.baseurl/assets/img/verify-my-identity-1.png" class="mt3 mb3 block" />
+      2. En la página “¿Cómo desea cargar la identificación emitida por su estado?”, elige cargar imágenes de tu identificación desde tu computadora o desde tu teléfono (tomar una foto con la cámara de tu teléfono o cargar una imagen de la biblioteca de fotos de tu teléfono).
+      <img src="site.baseurl/assets/img/verify-my-identity-2.png" class="mt3 mb3 block" />
+      <b>Usa tu computadora</b>
+      - Carga una imagen de la parte frontal de tu identificación emitida por el estado haciendo clic en "Choose File", seleccionando el archivo de tu computadora y haciendo clic en "Continuar"
+        <img src="site.baseurl/assets/img/verify-my-identity-3.png" class="mt3 mb3 block" />
+      - Carga una imagen de la parte posterior de tu identificación emitida por el estado haciendo clic en "Choose File", seleccionando el archivo de tu computadora y haciendo clic en "Continuar"
+      <b style='margin-left: -40px;'>Usa tu telefono</b>
+      - Ingresa tu número de teléfono y haz clic en "Continuar"
+        <img src="site.baseurl/assets/img/verify-my-identity-4.png" class="mt3 mb3 block" />
+      - Ve a tu telefono
+      - Recibirás un mensaje de texto con un enlace. Haz clic en el enlace.
+        <img src="site.baseurl/assets/img/verify-my-identity-5.jpeg" class="mt3 mb3 block" />
+      - Cargua o toma una imagen de la parte frontal de tu identificación emitida por el estado haciendo clic en "Choose File", tomando una foto o cargando una desde tu biblioteca de fotos, y haciendo clic en "Continuar"
+        <img src="site.baseurl/assets/img/verify-my-identity-6.jpeg" class="mt3 mb3 block" />
+      - Cargua o tome una imagen de la parte posterior de tu identificación emitida por el estado haciendo clic en "Choose File", tomando una foto o cargando una desde tu biblioteca de fotos, y haciendo clic en "Continuar"
+      - Vuelve a tu computadora y haz clic en "Continuar"
+
+      3. Ingresa tu número de seguro social y haz clic en "Continuar"
+      4. Asegúrate de que su información sea correcta y haz clic en "Continuar"
+
+      5. Ingresa un número de teléfono para verificar tu identidad. Si no tienes un plan de teléfono con tu nombre o un número de teléfono de los Estados Unidos, haz clic en "Obtener un código por correo". Tendrás que esperar para recibir una carta por correo y luego seguir las instrucciones para ingresar el código.
+      6. Vuelva a ingresar su contraseña de login.gov
+      7. Configura la autenticación de dos factores (si se trata de una cuenta nueva)
+
+      Si podemos verificar tu identidad, verás una página de confirmación y podrás ingresar a la aplicación gubernamental.
+    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: |-
+      En este momento, no puedes verificar a tu identidad en login.gov sin una tajeta de identidad emitida por el estado. Actualmente estamos trabajando para agregar más formas de verificar identidades.
+
+      Mientras tanto, comuníquese con el centro de ayuda de la aplicaciones gubernamentales para averiguar qué puede hacer.
+    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them: |-
+      Solo puedes verificar tu identidad en una cuenta. Si tienes más de una cuenta de login.gov, puedes combinarlas eliminando una cuenta y luego agregando su dirección de correo electrónico a la otra. Antes de hacer esto, recuerda que tendrás que volver a vincular todas las aplicaciones gubernamentales que estaban conectadas a la(s) cuenta(s) que estás eliminando. Además, solo puedes agregar un máximo de tres direcciones de correo electrónico a una sola cuenta de login.gov.
+
+      Eliminar una cuenta
+        1. Ve a [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
+        2. Inicia sesión con tu correo electrónico, contraseña, y método de autenticación
+        3. Avanza hasta la parte inferior de la página "Su cuenta", hasta la sección "Administración de cuentas", y haz clic en "Eliminar"
+        4. Sigue los pasos para borrar tu cuenta
+
+      Agrega una dirección de correo electrónico a tu cuenta
+        1. Ve a [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
+        2. Inicia sesión con tu correo electrónico, contraseña, y método de autenticación
+        3. En la página "Su cuenta", ve a la sección "Información de inicio de sesión" y haga clic en "Agregar correo electrónico"
+        4. Sigue los pasos para agregar y confirmar tu dirección de correo electrónico.
+
+    related-articles: |-
+      [¿Cómo puedo volver a vincular mi perfil de USAJOBS después de eliminar mi cuenta login.gov?](site.baseurl/help/usajobs/relink-my-profile)
+
+      [¿Cómo puedo volver a vincular mi perfil de Trusted Traveler después de eliminar mi cuenta login.gov?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+
+      [¿Cómo puedo volver a vincular mi perfil SAM después de eliminar mi cuenta login.gov?](site.baseurl/help/sam/relink-my-profile)
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       Si guardó accidentalmente su contraseña de login.gov o cualquier otra información de acceso en su navegador, sería una buena idea borrarla del navegador. Eso lo ayudará a mantener su cuenta más segura. De la siguiente lista, seleccione el navegador (programa de computadora que usa para acceder al internet) que usa para aprender cómo borrar cualquier información guardada (los enlaces están en inglés):
@@ -774,6 +843,7 @@ help_pages:
 help_subpages:
   changing-settings: Cambiando las configuraciones
   creating-an-account: Creando una cuenta
+  identity-verification: Verificación de identidad
   privacy-and-security: Privacidad y seguridad
   sam: SAM
   security-keys: Llaves de seguridad

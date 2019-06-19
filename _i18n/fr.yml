@@ -158,6 +158,14 @@ help:
       utiliser login.gov pour accéder aux services en ligne du gouvernement?
     why-is-my-confirmation-link-invalid: Pourquoi mon lien de confirmation n'est-il
       pas valide?
+  identity-verification:
+    why-do-i-need-to-verify-my-identity: Pourquoi dois-je vérifier mon identité?
+    how-do-i-verify-my-identity-on-logingov: Comment vérifier mon identité sur login.gov?
+    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: Je n'ai pas d'identifiant
+      délivré par l'État, puis-je quand même vérifier mon identité?
+    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
+      J'ai plusieurs comptes login.gov, puis-je vérifier mon identité pour chacun d'entre eux?
+    related-articles: Articles liés
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Puis-je supprimer
       un mot de passe ou un identifiant sauvegardé de mon navigateur ?
@@ -320,7 +328,7 @@ help_pages:
       #### Application d’authentification
       Pour utiliser une application d’authentification, vous devez d’abord installer une des applications prises en charge et la configurer pour qu’elle fonctionne avec login.gov. [En savoir plus sur la configuration d’une application d’authentification.](site.baseurl/help/changing-settings/how-do-I-set-up-an-authentication-app/)
       <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
-      
+
       #### Clé de sécurité
       Votre clé de sécurité doit prendre en charge la norme FIDO. Vous pouvez ajouter autant de clés de sécurité que vous le souhaitez. Une fois que vous avez connecté votre clé à votre ordinateur, de manière générale en la connectant à un port USB, assignez un nom à la clé pour l’identifier dans votre compte login.gov. À l’étape suivante, on vous demandera d’activer votre clé. Cela peut être fait généralement en appuyant sur un bouton situé sur la clé.
 
@@ -331,7 +339,7 @@ help_pages:
       <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
     how-do-i-verify-my-address-by-mail: |-
       Si nous ne pouvons pas vérifier automatiquement votre adresse, vous devez la vérifier par courrier. Cela signifie que nous vous enverrons une lettre avec un code de confirmation que vous devez utiliser pour terminer la configuration de votre compte.
-      
+
       Vous recevrez la lettre par le biais du service postal américain, trois à cinq jours ouvrables après la date à laquelle vous avez demandé le code. Le code de confirmation expirera 30 jours après la date à laquelle vous avez soumis votre demande.
 
       Si vous ne recevez pas votre lettre ou si votre code de confirmation expire avant la fin du processus de vérification de l'identité, vous pouvez demander un nouveau code de confirmation. Pour ce faire, connectez-vous à l'application du gouvernement ou à [https://secure.login.gov](https://secure.login.gov){: target = "_blank"} et sélectionnez "Envoyez-moi un nouveau code de confirmation" lorsque vous y êtes invité. votre code.
@@ -396,6 +404,67 @@ help_pages:
       Si le lien de confirmation ne fonctionne pas et que vous avez suivi les étapes indiquées ci-dessus, il est possible que votre fournisseur de messagerie ait brouillé le lien. Une façon de déterminer si cela s'est produit est de copier et de coller le lien de confirmation dans votre navigateur. S'il y a des symboles ou des mots inhabituels dans le lien, éliminez-les et appuyez sur la touche entrer.
 
       Pour obtenir de l'assistance additionnelle, veuillez envoyer un e-mail à [hello@login.gov](mailto:hello@login.gov).
+  identity-verification:
+    why-do-i-need-to-verify-my-identity: |-
+      Certaines applications gouvernementales qui utilisent login.gov imposent aux utilisateurs de vérifier leur identité. Cela signifie que vous devez prouver que vous êtes ce que vous dites. Ce faisant, nous nous assurons que seules les personnes appropriées ont accès aux informations sensibles.
+
+      Vous ne serez invité à vérifier votre identité que la première fois que vous vous connecterez à certaines applications gouvernementales.
+
+      Il vous suffit de vérifier votre identité une seule fois pour votre compte login.gov (une fois que vous avez vérifié votre identité avec login.gov pour une application gouvernementale, vous n’avez plus besoin de la refaire pour d’autres applications gouvernementales).
+    how-do-i-verify-my-identity-on-logingov: |-
+      Si l'application gouvernementale que vous vous inscrivez requiert une vérification de l'identité, login.gov vous demandera de vérifier votre identité. Vous aurez besoin de votre pièce d'identité émise par l'État (comme votre permis de conduire) ou d'une photo à l'avant et à l'arrière de celle-ci. Utilisez les étapes suivantes pour vérifier votre identité sur login.gov:
+      1. Lorsque vous vous inscrivez ou créez un compte, vous verrez la page "Devons vérifier votre identité". Cliquez sur "Commencer".
+      <img src="site.baseurl/assets/img/verify-my-identity-1.png" class="mt3 mb3 block" />
+      2. Sur la page "Comment souhaitez-vous télécharger votre identifiant d'état?", Choisissez de télécharger des images de votre identifiant à partir de votre ordinateur ou de votre téléphone (prenez une photo avec l'appareil photo de votre téléphone ou téléchargez une image de la photothèque de votre téléphone).
+      <img src="site.baseurl/assets/img/verify-my-identity-2.png" class="mt3 mb3 block" />
+      <b>Utilisez votre ordinateur</b>
+      - Téléchargez une image du recto de votre ID délivré par l'État en cliquant sur "Choisir un fichier", en sélectionnant le fichier sur votre ordinateur et en cliquant sur "Continuer".
+        <img src="site.baseurl/assets/img/verify-my-identity-3.png" class="mt3 mb3 block" />
+      - Téléchargez une image au verso de votre identifiant émis par l'État en cliquant sur "Choisir un fichier", en sélectionnant le fichier sur votre ordinateur et en cliquant sur "Continuer".
+      <b style='margin-left: -40px;'>Utilisez votre téléphone</b>
+      - Entrez votre numéro de téléphone et cliquez sur "Continuer"
+        <img src="site.baseurl/assets/img/verify-my-identity-4.png" class="mt3 mb3 block" />
+      - Allez sur votre téléphone
+      - Vous recevrez un SMS avec un lien. Cliquez sur le lien
+        <img src="site.baseurl/assets/img/verify-my-identity-5.jpeg" class="mt3 mb3 block" />
+      - Téléchargez ou prenez une photo du recto de votre identifiant émis par l'État en cliquant sur "Choisir un fichier", en prenant une photo ou en téléchargeant une de votre photothèque, puis en cliquant sur "Continuer".
+        <img src="site.baseurl/assets/img/verify-my-identity-6.jpeg" class="mt3 mb3 block" />
+      - Téléchargez ou prenez une photo au verso de votre identifiant émis par l'État en cliquant sur "Choisir un fichier", en prenant une photo ou en téléchargeant une depuis votre photothèque, puis en cliquant sur "Continuer".
+      - Retournez sur votre ordinateur et cliquez sur "Continuer"
+
+      3. Entrez votre numéro de sécurité sociale et cliquez sur "Continuer"
+      4. Assurez-vous que vos informations sont correctes et cliquez sur "Continuer"
+      5. Entrez un numéro de téléphone pour vérifier votre identité. Si vous ne possédez pas de forfait téléphonique portant votre nom ni de numéro de téléphone américain, cliquez sur «Obtenir un code par mail à la place». Vous devrez attendre pour recevoir une lettre par la poste, puis suivez les instructions pour entrer le code.
+      6. Ressaisissez votre mot de passe login.gov
+      7. Configurer l'authentification à deux facteurs (s'il s'agit d'un nouveau compte)
+
+      Si nous sommes en mesure de vérifier votre identité, vous verrez une page de confirmation et pourrez entrer dans l'application gouvernementale.
+    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: |-
+      Pour le moment, vous ne pouvez pas vérifier votre identité sur login.gov sans un ID délivré par un État. Nous travaillons actuellement à ajouter d'autres moyens de vérifier votre identité.
+
+      En attendant, veuillez contacter le centre d'aide de votre application gouvernementale pour savoir ce que vous pouvez faire.
+    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them: |-
+      Vous ne pouvez vérifier votre identité que pour un seul compte. Si vous avez plusieurs comptes login.gov, vous pouvez les combiner en supprimant un compte, puis en ajoutant cette adresse électronique à l'autre. Avant de faire cela, rappelez-vous que vous devrez relier toute application gouvernementale connectée au (x) compte (s) que vous supprimez. En outre, vous ne pouvez ajouter qu'un maximum de trois adresses électroniques à un seul compte login.gov.
+
+      Supprimer un compte
+        1. Allez à [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
+        2. Connectez-vous avec votre email, mot de passe et méthode d'authentification
+        3. Faites défiler jusqu'au bas de la page "Votre compte" jusqu'à la section "Gestion de compte", puis cliquez sur "Supprimer"
+        4. Suivez les étapes pour supprimer votre compte
+
+
+      Ajouter une adresse email à votre compte
+        1. Allez à [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
+        2. Connectez-vous avec votre email, mot de passe et méthode d'authentification
+        3. Sur la page "Votre compte", accédez à la section "Informations de connexion" et cliquez sur "Ajouter un email"
+        4. Suivez les étapes pour ajouter et confirmer votre adresse email
+
+    related-articles: |-
+      [Comment relier mon profil USAJOBS après la suppression de mon compte login.gov?](site.baseurl/help/usajobs/relink-my-profile)
+
+      [Comment relier mon profil Trusted Traveler après la suppression de mon compte login.gov?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+
+      [Comment relier mon profil SAM après la suppression de mon compte login.gov?](site.baseurl/help/sam/relink-my-profile)
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       "Si vous avez accidentellement sauvegardé votre mot de passe ou toute autre information de connexion liée à login.gov dans votre navigateur, il est préférable de les supprimer. Ainsi, vous conserverez un compte plus sécurisé. Dans la liste suivante, sélectionnez le navigateur (le programme informatique que vous utilisez pour accéder au web) que vous utilisez pour apprendre comment supprimer toute information sauvegardée :"
@@ -800,6 +869,7 @@ help_pages:
 help_subpages:
   changing-settings: Changement des paramètres
   creating-an-account: Création d'un compte
+  identity-verification: Vérification d'identité
   privacy-and-security: Confidentialité et sécurité
   sam: SAM
   security-keys: Clés de sécurité
