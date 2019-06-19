@@ -445,7 +445,7 @@ help_pages:
 
       In the meantime, please contact your government application’s help center to find out what you can do.
     i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them: |-
-      You can only verify your identity for one account. If you have more than one login.gov account, you can combine them by deleting one account and then adding that email address to the other. Before you do this, remember that you will have to relink any government applications that were connected to the account(s) you are deleting. Also, you can only add a maximum of three email address to a single login.gov account.
+      You can only verify your identity for one account. If you have more than one login.gov account, you can combine them by deleting one account and then adding that email address to the other. Before you do this, remember that you will have to relink any government applications that were connected to the account(s) you are deleting. Also, you can only add a maximum of three email addresses to a single login.gov account.
 
       Delete an account
         1. Go to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
