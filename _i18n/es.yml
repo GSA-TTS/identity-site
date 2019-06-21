@@ -424,7 +424,6 @@ help_pages:
 
       5. Ingresa un número de teléfono para verificar tu identidad. Si no tienes un plan de teléfono con tu nombre o un número de teléfono de los Estados Unidos, haz clic en "Obtener un código por correo". Tendrás que esperar para recibir una carta por correo y luego seguir las instrucciones para ingresar el código.
       6. Vuelva a ingresar su contraseña de login.gov
-      7. Configura la autenticación de dos factores (si se trata de una cuenta nueva)
 
       Si podemos verificar tu identidad, verás una página de confirmación y podrás ingresar a la aplicación gubernamental.
     i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: |-
@@ -432,7 +431,7 @@ help_pages:
 
       Mientras tanto, comuníquese con el centro de ayuda de la aplicaciones gubernamentales para averiguar qué puede hacer.
     i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them: |-
-      Solo puedes verificar tu identidad en una cuenta. Si tienes más de una cuenta de login.gov, puedes combinarlas eliminando una cuenta y luego agregando su dirección de correo electrónico a la otra. Antes de hacer esto, recuerda que tendrás que volver a vincular todas las aplicaciones gubernamentales que estaban conectadas a la(s) cuenta(s) que estás eliminando. Además, solo puedes agregar un máximo de tres direcciones de correo electrónico a una sola cuenta de login.gov.
+      Solo puedes verificar tu identidad en una cuenta. Si tienes más de una cuenta de login.gov, puedes combinarlas eliminando una cuenta y luego agregando su dirección de correo electrónico a la otra. Antes de hacer esto, recuerda que tendrás que volver a vincular todas las aplicaciones gubernamentales que estaban conectadas a la(s) cuenta(s) que estás eliminando. Además, solo puedes agregar un máximo de diez direcciones de correo electrónico a una sola cuenta de login.gov.
 
       Eliminar una cuenta
         1. Ve a [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}

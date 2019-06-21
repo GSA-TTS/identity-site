@@ -435,7 +435,6 @@ help_pages:
       4. Assurez-vous que vos informations sont correctes et cliquez sur "Continuer"
       5. Entrez un numéro de téléphone pour vérifier votre identité. Si vous ne possédez pas de forfait téléphonique portant votre nom ni de numéro de téléphone américain, cliquez sur «Obtenir un code par mail à la place». Vous devrez attendre pour recevoir une lettre par la poste, puis suivez les instructions pour entrer le code.
       6. Ressaisissez votre mot de passe login.gov
-      7. Configurer l'authentification à deux facteurs (s'il s'agit d'un nouveau compte)
 
       Si nous sommes en mesure de vérifier votre identité, vous verrez une page de confirmation et pourrez entrer dans l'application gouvernementale.
     i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: |-
@@ -443,7 +442,7 @@ help_pages:
 
       En attendant, veuillez contacter le centre d'aide de votre application gouvernementale pour savoir ce que vous pouvez faire.
     i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them: |-
-      Vous ne pouvez vérifier votre identité que pour un seul compte. Si vous avez plusieurs comptes login.gov, vous pouvez les combiner en supprimant un compte, puis en ajoutant cette adresse électronique à l'autre. Avant de faire cela, rappelez-vous que vous devrez relier toute application gouvernementale connectée au (x) compte (s) que vous supprimez. En outre, vous ne pouvez ajouter qu'un maximum de trois adresses électroniques à un seul compte login.gov.
+      Vous ne pouvez vérifier votre identité que pour un seul compte. Si vous avez plusieurs comptes login.gov, vous pouvez les combiner en supprimant un compte, puis en ajoutant cette adresse électronique à l'autre. Avant de faire cela, rappelez-vous que vous devrez relier toute application gouvernementale connectée au (x) compte (s) que vous supprimez. En outre, vous ne pouvez ajouter qu'un maximum de dix adresses électroniques à un seul compte login.gov.
 
       Supprimer un compte
         1. Allez à [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
@@ -459,7 +458,7 @@ help_pages:
         4. Suivez les étapes pour ajouter et confirmer votre adresse email
 
       Articles liés
-      
+
       [Comment relier mon profil USAJOBS après la suppression de mon compte login.gov?](site.baseurl/help/usajobs/relink-my-profile)
 
       [Comment relier mon profil Trusted Traveler après la suppression de mon compte login.gov?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)

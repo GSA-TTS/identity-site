@@ -436,7 +436,6 @@ help_pages:
       4. Make sure your information is correct and click “Continue”
       5. Enter a phone number to verify your identity. If you do not have a phone plan with your name on it or a U.S. phone number, click on “Get a code via mail instead”. You will have to wait to receive a letter in the mail and then follow the instructions to enter the code.
       6. Re-enter your login.gov password
-      7. Set up two-factor authentication (if this is a new account)
 
       If we are able to verify your identity, you will see a confirmation page and be able to enter the government application.
     i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: |-
@@ -444,7 +443,7 @@ help_pages:
 
       In the meantime, please contact your government application’s help center to find out what you can do.
     i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them: |-
-      You can only verify your identity for one account. If you have more than one login.gov account, you can combine them by deleting one account and then adding that email address to the other. Before you do this, remember that you will have to relink any government applications that were connected to the account(s) you are deleting. Also, you can only add a maximum of three email addresses to a single login.gov account.
+      You can only verify your identity for one account. If you have more than one login.gov account, you can combine them by deleting one account and then adding that email address to the other. Before you do this, remember that you will have to relink any government applications that were connected to the account(s) you are deleting. Also, you can only add a maximum of ten email addresses to a single login.gov account.
 
       Delete an account
         1. Go to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
