@@ -138,9 +138,9 @@ help:
     how-do-i-change-the-phone-number-i-use-to-sign-in: "¿Cómo puedo cambiar el número
       de teléfono que uso para iniciar sesión?"
   creating-an-account:
-    do-i-need-a-mobile-phone-to-use-logingov: "¿Necesito un teléfono móvil para usar
-      login.gov?"
+    do-i-need-a-mobile-phone-to-use-logingov: "No tengo telefono ¿Puedo seguir usando login.gov?"
     how-do-i-create-an-account-with-logingov: "¿Cómo puedo crear una cuenta con login.gov?"
+    how-do-i-create-an-account-with-only-one-two-factor-authenticator: No tengo teléfono, aplicación de autenticación, clave de seguridad o ID de gobierno. ¿Puedo crear una cuenta de login.gov?
     how-do-i-verify-my-address-by-mail: "¿Cómo verifico mi dirección por correo?"
     i-didnt-receive-a-confirmation-email-from-logingov: No recibí un email de confirmación
       de login.gov.
@@ -192,11 +192,8 @@ help:
     what-is-a-security-key: "¿Qué es una clave de seguridad?"
     what-is-phishing: "¿Qué es el phishing?"
   signing-in:
-    how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: "¿Cómo inicio sesión
-      si no tengo mi teléfono o mi clave personal?"
     how-do-i-reset-my-password: "¿Cómo puedo restablecer mi contraseña?"
-    how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed: "¿Cómo
-      inicio sesión si no tengo mi teléfono o mi clave personal?"
+    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: "¿Cómo inicio sesión si no tengo mis métodos de autenticación (teléfono, códigos de respaldo, aplicación de autenticación, etc.)?"
     how-do-i-turn-off-two-factor-authentication: "¿Cómo desactivo la autenticación
       de dos factores?"
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: No
@@ -209,7 +206,7 @@ help:
       es válido
     what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: "¿Qué hago si mi contraseña
       no funciona o la olvido?"
-    what-do-i-need-to-have-in-order-to-sign-in: "¿Qué debo tener para iniciar sesión?"
+    what-do-i-need-to-have-in-order-to-sign-in: "¿Qué necesito tener para iniciar sesión?"
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: "¿Qué
       sucede si pierdo la llamada telefónica o el mensaje de texto con mi código de
       seguridad de un sólo uso?"
@@ -288,13 +285,12 @@ help_pages:
     how-do-i-change-the-phone-number-i-use-to-sign-in: |-
       Para cambiar el número de teléfono en el que obtener el código de seguridad, vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Administrar cuenta" para iniciar sesión en su cuenta de login.gov. Una vez que haya iniciado sesión, seleccione "editar" junto al número de teléfono. Introduzca el número de teléfono y seleccione "confirmar el cambio". login.gov enviará inmediatamente su código de seguridad para confirmar el nuevo número de teléfono.
 
-      Si no puede recibir el código de seguridad porque ya no tiene acceso a su teléfono, deberá [iniciar sesión con su clave personal](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed).
+      Si no puede recibir el código de seguridad porque ya no tiene acceso a su teléfono, deberá [iniciar sesión con su clave personal](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods).
   creating-an-account:
-    do-i-need-a-mobile-phone-to-use-logingov: Usted no necesita tener un teléfono
-      móvil para usar login.gov. Usted necesita proporcionar un número de teléfono,
-      ya sea un teléfono fijo o un teléfono móvil, en el que puede recibir códigos
-      de seguridad cada vez que inicie sesión ya sea por mensaje de texto o llamada
-      de teléfono.
+    do-i-need-a-mobile-phone-to-use-logingov: |-
+      login.gov requiere que todos los usuarios utilicen la autenticación de dos factores al crear una cuenta e iniciar sesión.
+
+      Incluso si no tiene un teléfono, todavía tiene una serie de opciones para un segundo factor. Puede elegir entre usar una aplicación de autenticación en su dispositivo, códigos de respaldo o una clave de seguridad. Si es un empleado del gobierno, también puede usar su identificación del gobierno (tarjeta PIV/CAC).
     how-do-i-create-an-account-with-logingov: |-
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
       Para crear una cuenta de login.gov, necesitará un email válido y un número de teléfono que funcione. También le pediremos que establezca una contraseña.
@@ -332,7 +328,18 @@ help_pages:
       #### Códigos de respaldo
       Los códigos de respaldo son otro método de autenticación. Cuando elija usar los códigos de respaldo como su segundo factor, login.gov le generará una serie de 10 códigos. Después de que inicie sesión con su nombre de usuario y contraseña, se le pedirá un código. Cada código puede usarse una vez, y cuando se haya usado el décimo, se le pedirá que descargue una lista nueva. Trate sus códigos de recuperación con el mismo nivel de atención que le daría a su contraseña.
       <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
+    how-do-i-create-an-account-with-only-one-two-factor-authenticator: |-
+      login.gov requiere que los usuarios configuren dos formas de métodos de autenticación de dos factores al crear una cuenta. Sin embargo, si no tiene acceso a un teléfono, una aplicación de autenticación, una clave de seguridad o una identificación de empleado del gobierno (tarjeta PIV / CAC), puede configurar su cuenta solo con códigos de respaldo.
 
+      Advertencia: no se recomienda configurar su cuenta con códigos de respaldo como único método de autenticación. Si alguna vez pierde sus códigos de respaldo, no podrá iniciar sesión en su cuenta.
+
+      Cuando esté creando su cuenta, llegará a la página "Asegure su cuenta". Aquí es donde debe elegir el método de autenticación principal. Si no tiene acceso a ninguna de las otras opciones, seleccione "Códigos de respaldo" y haga clic en "Continuar".
+
+      Descargue, imprima, copie o anote sus códigos de respaldo y guárdelos en un lugar seguro. Luego, haga clic en "Continuar". Nota: debe hacer clic en "Continuar" para activar sus códigos de respaldo. Si no lo hace y sale de la página, no podrá utilizar ese conjunto de códigos de respaldo para iniciar sesión más tarde.
+
+      En la página "Agregar otro método", seleccione "No tengo ninguno de los anteriores" y haga clic en "Continuar"
+
+      A continuación, habrá terminado de crear su cuenta. Cada vez que inicie sesión con login.gov, se le pedirá que ingrese uno de sus códigos de respaldo. Después de usar el décimo código, se le dará un nuevo conjunto de códigos de respaldo para guardar y usar.
     how-do-i-verify-my-address-by-mail: |-
       Si no podemos verificar automáticamente su dirección, debe verificarla por correo. Esto significa que le enviaremos una carta con un código de confirmación que debe usar para terminar de configurar su cuenta.
 
@@ -583,10 +590,6 @@ help_pages:
       por error con un atacante. La clave de seguridad también se asegurará de que
       ingrese información en el sitio web oficial login.gov.
   signing-in:
-    how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: |-
-      Al eliminar su cuenta actual y crear una nueva, podrá utilizar la misma dirección de correo electrónico y configurar nuevas opciones de seguridad. Sin embargo, al eliminarla, se eliminarán también las aplicaciones de agencia que haya vinculado a su cuenta. Le recomendamos que utilice los artículos que se enumeran a continuación para saber cómo volver a vincular su cuenta después de eliminarla.
-
-      Para eliminar su cuenta, inicie sesión a través de su aplicación de agencia o accediendo a [https://secure.login.gov/](https://secure.login.gov/). Cuando se le pida que introduzca su código de seguridad, seleccione el enlace que dice "elegir otra opción de seguridad". En la página siguiente, vaya a la parte inferior de la pantalla hasta la sección que dice "Si no puede utilizar ninguna de las opciones de seguridad anteriores, puede restablecer sus preferencias eliminando su cuenta", y siga ese enlace.
     how-do-i-reset-my-password: Si no conoce su contraseña, el enlace para restablecerla
       se encuentra en la página de inicio de sesión. Introduzca su dirección de correo
       electrónico para recibir un enlace para restablecer su contraseña. Una vez que
@@ -596,18 +599,20 @@ help_pages:
       escribiendo la contraseña correctamente. Después de seguir estos pasos, volverá
       a la página de inicio de sesión. Ahora puede iniciar sesión con su nueva contraseña
       de login.gov.
-    how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed: |-
-      Si no puede iniciar sesión en su cuenta de login.gov porque ha perdido de forma permanente el acceso a su método de seguridad y su clave personal, puede que tenga que restablecer su cuenta, eliminándola.
+    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: |-
+      Si no puede iniciar sesión en su cuenta de login.gov porque perdió el acceso permanente a sus métodos de autenticación (como su teléfono, códigos de respaldo, aplicación de autenticación y clave personal), es posible que deba restablecer su cuenta eliminándola.
 
-      Al eliminar su cuenta actual y crear una nueva, podrá utilizar la misma dirección de correo electrónico y configurar nuevas opciones de seguridad. Sin embargo, la eliminación también eliminará todas las aplicaciones de agencia que haya vinculado a su cuenta y deberá restaurar cada conexión. Le recomendamos que utilice los artículos que se indican a continuación para saber cómo volver a vincular su cuenta después de eliminarla.
+      Si perdió el acceso a su método de autenticación principal, pero aún tiene acceso a su método de autenticación secundario, haga clic en "Elegir otra opción" al iniciar sesión. Si solo configura códigos de respaldo como su único método de autenticación, no tendrá ninguna otra. opciones para elegir y tendrá que eliminar su cuenta.
 
-      Para eliminar su cuenta, inicie sesión a través de su aplicación de agencia o accediendo a [https://secure.login.gov/](https://secure.login.gov/). Cuando se le pida que introduzca su código de seguridad, siga el enlace que dice "elegir otra opción de seguridad". En la página siguiente, desplácese hasta la parte inferior de la sección que dice "Si no puede utilizar ninguna de las opciones de seguridad anteriores, puede restablecer sus preferencias eliminando su cuenta" y siga ese enlace.
+      Eliminar su cuenta existente y crear una nueva le permitirá usar la misma dirección de correo electrónico y configurar nuevas opciones de seguridad. Sin embargo, al eliminar se eliminarán todas las solicitudes de agencias que haya vinculado a su cuenta y deberá restaurar cada conexión. Le recomendamos que utilice los artículos que se enumeran a continuación para aprender cómo volver a vincular su cuenta después de eliminarla.
 
-      Lea toda la información detenidamente para asegurarse de que la única manera de restablecer los ajustes de su cuenta es eliminando su cuenta. Seleccione "Sí, continuar con la eliminación" para proceder.
+      Para eliminar su cuenta, inicie sesión a través de la solicitud de su agencia o visite https://secure.login.gov/. Cuando se le solicite ingresar su código de seguridad, siga el enlace que dice "elija otra opción de seguridad". En la página siguiente, vaya a la parte inferior de la sección que dice "Si no puede usar ninguna de estas opciones de seguridad arriba, puede restablecer sus preferencias eliminando su cuenta ", y siga ese enlace.
 
-      Recibirá inmediatamente una confirmación por correo electrónico de que se ha recibido su solicitud de eliminación. Como medida de seguridad, recibirá otro correo electrónico con el enlace para continuar con la eliminación de su cuenta 24 horas después de que llegue la confirmación inicial.
+      Lea detenidamente toda la información para asegurarse de que eliminar su cuenta sea la única forma de restablecer la configuración de su cuenta. Seleccione "Sí, continuar con la eliminación" para continuar.
 
-      ## Artículos de interés
+      Inmediatamente recibirá una confirmación por correo electrónico de que se recibió su solicitud de eliminación. Como medida de seguridad, recibirá otro correo electrónico con el enlace para continuar eliminando su cuenta. El enlace está disponible durante las 24 horas posteriores a la recepción de la confirmación inicial y caduca al finalizar esas 24 horas.
+
+      ## Artículos relevantes
       ¿Cómo puedo volver a vincular mi perfil de USAJOBS después de eliminar mi cuenta de login.gov?](site.baseurl/help/usajobs/relink-my-profile)
       ¿Cómo puedo volver a vincular mi perfil de viajero de confianza después de eliminar mi cuenta de login.gov?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
       [¿Cómo puedo volver a vincular mi perfil de SAM después de eliminar mi cuenta de login.gov?](site.baseurl/help/sam/relink-my-profile)
@@ -642,11 +647,8 @@ help_pages:
 
 
       Una vez que haya iniciado sesión en login.gov después de restablecer su contraseña, login.gov le proporcionará una clave personal. La clave personal se utilizará en caso de que olvide su contraseña o no tenga su teléfono consigo. Anótelo y guárdelo por separado del teléfono.
-    what-do-i-need-to-have-in-order-to-sign-in: Cada vez que inicie una sesión en
-      su cuenta, necesitará su email, su contraseña y acceso a su teléfono. Después
-      de haber ingresado su email y contraseña, login.gov enviará a su teléfono un
-      código de seguridad que deberá ingresar en el casillero de código de seguridad
-      para poder iniciar la sesión de forma segura.
+    what-do-i-need-to-have-in-order-to-sign-in: |-
+      Cada vez que inicie sesión en su cuenta, necesitará su dirección de correo electrónico, su contraseña y el acceso a uno de los métodos de autenticación de dos factores que configura. Después de ingresar su dirección de correo electrónico y contraseña para iniciar sesión, login.gov le solicitará que se autentique (ingrese un código de seguridad enviado a su teléfono por voz o texto, ingrese el código de seguridad de su aplicación de autenticación, ingrese un código de respaldo, use su clave de seguridad, o use su tarjeta gubernamental PIV/CAC).
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Cada
       vez que inicie una sesión deberá ingresar un código de seguridad que se envía
       a su teléfono, ya sea por mensaje de texto o por llamada telefónica. El código
