@@ -138,6 +138,9 @@ help:
     how-do-i-change-my-password: How do I change my password?
     how-do-i-change-the-phone-number-i-use-to-sign-in: How do I change the phone number
       I use to sign in?
+    how-do-i-add-or-remove-an-email-address_html: How do I add or remove an email address?
+    i-got-an-error-message-when-i-added-an-email: I got an error message when I added an email address to my account. What do I do?
+    how-do-i-delete-my-account: How do I delete my account?
   creating-an-account:
     do-i-need-a-mobile-phone-to-use-logingov: I don’t have a phone. Can I still use
       login.gov?
@@ -241,6 +244,63 @@ help_page:
   p_1: Browse common topics
 help_pages:
   changing-settings:
+    how-do-i-add-or-remove-an-email-address_html: |-
+      You can add or delete email addresses from your login.gov Your Account page.
+
+      <b>To add an email address</b> to your account, use the steps below:
+        1. Go to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"} and sign in to your account
+        2. Click on “Add email”
+        3. Enter the email address you want to add to your account and click Submit
+        4. You will receive an email in your inbox. Click on the link to confirm your email address.
+      The link will take you to the Your account page. You will see a green alert message confirming that your email address was added.
+
+      <b>To delete an email address</b> from your account, use the steps below:
+      Note: you can’t delete an email address if it’s the only one linked to your account.
+        1. Go to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"} and sign in to your account
+        2. Click on the “Delete” link that is next to the email address you want to delete
+        3. Make sure the next page shows the correct email address that you want to delete
+        4. Click on “Delete email address”
+      You will see a green alert message confirming that your email address was removed.
+    i-got-an-error-message-when-i-added-an-email: |-
+      If you try to add an email address that is connected to another login.gov account, you will get an error message that says, “You have confirmed your email address but it is associated with another login.gov account. You need to remove it from the other account before you can associate it with this one.”
+
+      You can’t add the same email address to two different login.gov accounts, but you can combine the two accounts. To combine accounts, use the steps below:
+        1. Delete one of the accounts (Note: For security reasons, it will take at least 24 hours to delete your account.)
+        2. Sign in to the other account and add the email address that was linked to the account you just deleted
+        3. Relink the application profiles that were linked to your deleted account
+
+      [Read how to delete your account](site.baseurl/help/changing-settings/how-do-i-delete-my-account/)
+      [Read how to add or remove an email address](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
+      [Read how to reset your password](site.baseurl/help/changing-settings/how-do-i-change-my-password/)
+    how-do-i-delete-my-account: |-
+      Deleting your account is the first step to resetting it or combining multiple accounts. If you do not have access to your two-factor authentication method, it will take at least 24 hours to delete your account.
+
+      After you delete your account, you will not be able to sign in to the government applications that you normally use this account for. You will not lose the information in those application profiles, but you will need to relink a new login.gov account to be able to sign in to them.
+
+      To delete your account, use the steps below:
+        1. Go to your government application sign in page or to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
+        2. Sign in with your email, password, and authentication method
+        3. On the Your Account page, scroll to the bottom and click on “Delete”
+        4. Confirm that you are sure you want to delete your account by clicking on “Delete account”
+
+      If you don’t have access to your authentication methods, use the steps below:
+        1. Go to your government application sign in page or to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
+        2. Sign in with your email and password
+        3. On the authentication page (enter your security, app, or backup code; PIV/CAC card; or security key), click on “Choose another security option”
+        4. Scroll to the bottom and click on the “deleting your account” link
+        5. Read through all the information carefully to make sure deleting your account is your only option
+        6. Click on “Yes, continue deletion”
+        7. You will immediately receive an email confirming that we receive your request to delete your account. Your account is not deleted yet. As a security measure, you must wait 24 hours for a second email and click on the link.
+        8. 24 hours later, you will receive a second email. You must open the email and confirm that you want to delete your account by clicking on the link. (Note: The link will expire after 24 hours. Afterwards, you will have to start the account deletion process again.)
+
+      If you are deleting your account to combine it with another, you can now add this email address to your other account. Then, you can relink your application profiles.
+
+      If you are resetting your account, you can now relink your application profiles.
+
+      [Read how to add an email address](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
+      [Read how to relink your USAJOBS profile](site.baseurl/help/usajobs/relink-my-profile)
+      [Read how to relink your Trusted Traveler profile](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+      [Read how to relink your SAM profile](site.baseurl/help/sam/relink-my-profile)
     how-do-I-get-a-new-personal-key: |-
       We are currently in the process of retiring personal keys. It is highly suggested you configure one or more additional second factor authentication methods. To do so log into your account page and request backup codes, configure a phone, register a security key, configure an authentication app, or, if you are a government employee, attach your PIV/CAC card to your account.
 
@@ -610,22 +670,24 @@ help_pages:
       will be taken back to the sign in page after completing these steps. You can
       now sign in using your new login.gov password.
     how-do-i-sign-in-if-i-dont-have-my-authentication-methods: |-
-      If you cannot sign into your login.gov account because you’ve permanently lost access to your authentication methods (such as your phone, backup codes, authentication app, and personal key), you may need to reset your account by deleting it.
+      If you don’t have or can’t use your authentication method (your phone, backup codes, authentication app, or personal key), you can still sign in to your account.
 
-      If you lost access to your primary authentication method, but still have access to your secondary authentication method, click on “Choose another option” when signing in. If you only set up backup codes as your sole authentication method, you will not have any other options to choose from and will have to delete your account.
+      If you lost access to your default authentication method, but still have access to one of your backup authentication methods, use the steps below:
+        1. Sign in with your email and password
+        2. Click on “Choose another option”
+        3. Select the option that you have available
+        4. Click on “Continue” and follow the steps to sign in
 
-      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will remove any agency applications you have linked to your account, and you will need to restore each connection. We recommend you use the articles listed below to learn how to relink your account after deleting it.
+      If you lost access to all of your authentication methods forever, you will need to reset your account. Use the steps below:
+        1. Delete your account
+        2. If you are a USAJOBS users, contact USAJOBS to unlink your old account
+        3. Create a new account using the same email address
+        4. Relink your applications
 
-      To delete your account, either sign in via your agency application or by visiting https://secure.login.gov/. When you are prompted to enter your security code, follow the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
-
-      Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. Select “Yes, continue deletion” to proceed.
-
-      You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account. The link is available for 24 hours after the initial confirmation arrives and it expires at the end of those 24 hours.
-
-      ## Relevant articles
-      [How do I relink my USAJOBS profile after deleting my login.gov account?](site.baseurl/help/usajobs/relink-my-profile)
-      [How do I relink my Trusted Traveler profile after deleting my login.gov account?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
-      [How do I relink my SAM profile after deleting my login.gov account?](site.baseurl/help/sam/relink-my-profile)
+      [Read how to delete your account](site.baseurl/help/changing-settings/how-do-i-delete-my-account/)
+      [Read how to relink your USAJOBS profile](site.baseurl/help/usajobs/relink-my-profile)
+      [Read how to relink your Trusted Traveler profile](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+      [Read how to relink your SAM profile](site.baseurl/help/sam/relink-my-profile)
     how-do-i-turn-off-two-factor-authentication: |-
       login.gov does not allow you to turn off two-factor authentication, but you can set up the "remember browser" feature. This will allow you to sign in without entering a security code for 30 days. Every 30 days you will be required to renew this feature by going through the normal two-factor authentication steps and selecting "remember browser." NOTE: If you use login.gov on multiple devices and browsers, you must set up “remember browser” on each one.
 
