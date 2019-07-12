@@ -309,12 +309,12 @@ help_pages:
       Vous devez ensuite créer un mot de passe fort. Servez-vous de l'indicateur de force à l'écran comme guide. Les mots de passe doivent contenir au moins 12 caractères, mais il n'y a aucune autre restriction. Vous pouvez même entrer des espaces entre les mots pour obtenir 12 caractères.
 
       ### Configuration d’une deuxième étape de sécurité
-      Ensuite, vous configurerez un deuxième facteur d’authentification. La deuxième étape maintient une meilleure sécurité pour votre compte que la simple utilisation d’un mot de passe. Vous pouvez choisir entre des messages texte, des appels téléphoniques, une application d’authentification, une clé de sécurité ou des codes de sauvegarde. Les employés du gouvernement peuvent aussi utiliser leurs cartes PIV ou CAC.
+      Ensuite, vous configurerez un deuxième méthode d’authentification. La deuxième étape maintient une meilleure sécurité pour votre compte que la simple utilisation d’un mot de passe. Vous pouvez choisir entre des messages texte, des appels téléphoniques, une application d’authentification, une clé de sécurité ou des codes de sauvegarde. Les employés du gouvernement peuvent aussi utiliser leurs cartes PIV ou CAC.
 
       <img src="site.baseurl/assets/img/help/2nd_factor_options.png" class="mt3 mb3 block" alt="2nd factor options help image" />
 
       #### Messages texte/SMS ou appels téléphoniques
-      Si vous choisissez messages texte/SMS ou appels téléphoniques comme deuxième facteur d’authentification, entrez un numéro de téléphone auquel vous pouvez recevoir votre code de sécurité par appel téléphonique. Si vous avez une ligne fixe, vous devez recevoir le code de sécurité par appel téléphonique. login.gov ne peut envoyer de codes de sécurité à des numéros de poste.
+      Si vous choisissez messages texte/SMS ou appels téléphoniques comme deuxième méthode d’authentification, entrez un numéro de téléphone auquel vous pouvez recevoir votre code de sécurité par appel téléphonique. Si vous avez une ligne fixe, vous devez recevoir le code de sécurité par appel téléphonique. login.gov ne peut envoyer de codes de sécurité à des numéros de poste.
 
       Nous enverrons un code de sécurité unique à ce numéro de téléphone chaque fois où vous vous connectez à votre compte.
       <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
@@ -332,7 +332,7 @@ help_pages:
       Les codes de sauvegarde sont une autre méthode d’authentification. Lorsque vous choisissez d’utiliser les codes de sauvegarde comme deuxième facteur, login.gov génère un ensemble de 10 codes. Une fois connecté(e) avec votre nom d’utilisateur et votre mot de passe, on vous demandera un code. Chaque code peut être utilisé une fois, une fois le 10e code utilisé, on vous demandera de télécharger une nouvelle liste. Traitez vos codes de récupération avec le même niveau d’attention que vous auriez pour votre mot de passe.
       <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
     how-do-i-create-an-account-with-only-one-two-factor-authenticator: |-
-      login.gov exige que les utilisateurs configurent deux formes de méthodes d'authentification à deux facteurs lors de la création d'un compte. Toutefois, si vous n'avez pas accès à un téléphone, à une application d'authentification, à une clé de sécurité ou à un ID d'employé gouvernemental (carte PIV / CAC), vous pouvez configurer votre compte avec uniquement des codes de sauvegarde.
+      login.gov exige que les utilisateurs configurent deux méthodes de méthodes d'authentification à deux facteurs lors de la création d'un compte. Toutefois, si vous n'avez pas accès à un téléphone, à une application d'authentification, à une clé de sécurité ou à un ID d'employé gouvernemental (carte PIV / CAC), vous pouvez configurer votre compte avec uniquement des codes de sauvegarde.
 
       Avertissement: La configuration de votre compte avec des codes de sauvegarde comme seule méthode d’authentification n’est pas recommandée. Si vous perdez vos codes de sauvegarde, vous ne pourrez pas vous connecter à votre compte.
 
@@ -361,17 +361,17 @@ help_pages:
     what-are-backup-codes: Les codes de sauvegarde sont une autre méthode d’authentification. Lorsque vous choisissez d’utiliser les codes de sauvegarde comme deuxième facteur, login.gov génère un ensemble de 10 codes. Une fois connecté(e) avec votre nom d’utilisateur et votre mot de passe, on vous demandera un code. Chaque code peut être utilisé une fois, une fois le 10e code utilisé, on vous demandera de télécharger une nouvelle liste. Traitez vos codes de récupération avec le même niveau d’attention que vous auriez pour votre mot de passe.
 
     what-is-my-personal-key: |-
-      Une clé personnelle est un code secret de 16 caractères que nous nous générons depuis toujours comme forme d’authentification à deux facteurs. [En savoir plus sur l’authentification à deux facteurs ici]
+      Une clé personnelle est un code secret de 16 caractères que nous nous générons depuis toujours comme une méthode d’authentification à deux facteurs. [En savoir plus sur l’authentification à deux facteurs ici]
 
-      Vous pouvez utiliser votre clé personnelle une fois seulement. Vous recevrez une nouvelle clé personnelle chaque fois où vous l’utilisez pour vous connecter et votre ancienne clé ne fonctionnera plus. Récemment, nous avons commencé le processus d’élimination des clés personnelles comme forme d’authentification à deux facteurs parce qu’elles se perdent facilement.
+      Vous pouvez utiliser votre clé personnelle une fois seulement. Vous recevrez une nouvelle clé personnelle chaque fois où vous l’utilisez pour vous connecter et votre ancienne clé ne fonctionnera plus. Récemment, nous avons commencé le processus d’élimination des clés personnelles comme une méthode d’authentification à deux facteurs parce qu’elles se perdent facilement.
 
-      Au lieu de celles-ci, les utilisateurs ont maintenant une variété d’options pour un deuxième facteur d’authentification incluant les codes de sauvegarde.
+      Au lieu de celles-ci, les utilisateurs ont maintenant une variété d’options pour un deuxième méthode d’authentification incluant les codes de sauvegarde.
 
       Parce qu’une clé personnelle est la seule façon de récupérer votre compte, assurez-vous de la stocker en lieu sûr. De bonnes façons de stocker votre clé personnelle sont notamment de la prendre en note, faire une capture d’écran, la coller dans un document sécurisé ou l’imprimer.
 
       Si vous créez un nouveau compte, on ne vous assignera pas de clé personnelle. Sélectionnez plutôt une des options d’authentification à deux facteurs offertes qui vous sont présentées.
 
-      Si on vous a déjà assigné une clé personnelle, vous pouvez toujours l’utiliser. Cependant, la prochaine fois que vous utilisez la clé personnelle, on vous demandera de sélectionner une nouvelle forme d’authentification à deux facteurs et l’option de clé personnelle sera éliminée. Jusqu’à ce que vous utilisiez votre clé personnelle, elle sera active et vous pourrez l’utiliser comme option d’authentification à deux facteurs.
+      Si on vous a déjà assigné une clé personnelle, vous pouvez toujours l’utiliser. Cependant, la prochaine fois que vous utilisez la clé personnelle, on vous demandera de sélectionner une nouvelle méthode d’authentification à deux facteurs et l’option de clé personnelle sera éliminée. Jusqu’à ce que vous utilisiez votre clé personnelle, elle sera active et vous pourrez l’utiliser comme option d’authentification à deux facteurs.
 
       <!---
       TO ADD WHEN DEPLOYING DOCAUTH
@@ -530,9 +530,9 @@ help_pages:
     relink-my-profile: |-
       Si vous ne pouvez vous connecter à votre compte SAM parce que vous avez perdu l'accès à votre méthode de sécurité et à votre clé personnelle de façon permanente, vous pouvez réinitialiser votre compte en le supprimant.
 
-      La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles options de sécurité. Toutefois, la suppression annulera le lien à votre profil SAM. Vous devez suivre les étapes ci-dessous pour rétablir le lien avec votre compte :
+      La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles méthodes d'authentification. Toutefois, la suppression annulera le lien à votre profil SAM. Vous devez suivre les étapes ci-dessous pour rétablir le lien avec votre compte :
 
-      1. Pour supprimer votre compte, connectez-vous à [https://sam.gov/](https://sam.gov/). Lorsqu'on vous demande d'entrer votre code de sécurité, faites défiler vers le bas de la page jusqu'à la section « If you can't use any of these security options above, you can reset your preferences by deleting your account » (Si vous ne pouvez utiliser aucune des options de sécurité ci-dessus, vous pouvez réinitialiser vos préférences en supprimant votre compte) et suivez ce lien.
+      1. Pour supprimer votre compte, connectez-vous à [https://sam.gov/](https://sam.gov/). Lorsqu'on vous demande d'entrer votre code de sécurité, faites défiler vers le bas de la page jusqu'à la section « If you can't use any of these authentication methods above, you can reset your preferences by deleting your account » (Si vous ne pouvez utiliser aucune des méthodes d'authentification ci-dessus, vous pouvez réinitialiser vos préférences en supprimant votre compte) et suivez ce lien.
       2. Lisez attentivement toute l'information pour vous assurer que la suppression de votre compte est la seule façon de réinitialiser les paramètres de votre compte. Sélectionnez « Yes, continue deletion » pour procéder à la suppression de votre compte.
       3. Vous recevrez immédiatement une confirmation par e-mail vous informant que votre demande de suppression a bien été reçue. À titre de mesure de sécurité, vous recevrez un autre e-mail avec le lien servant à confirmer la suppression de votre compte 24 heures après avoir reçu la confirmation initiale.
       4. Après avoir supprimé votre compte, allez à [https://sam.gov/](https://sam.gov/) pour créer un nouveau compte.
@@ -618,7 +618,7 @@ help_pages:
 
       Si vous avez perdu l'accès à votre méthode d'authentification principale, mais que vous avez toujours accès à votre méthode d'authentification secondaire, cliquez sur "Choisir une autre option" lors de la connexion. Si vous configurez uniquement des codes de sauvegarde comme méthode d'authentification unique, vous ne disposerez d'aucun autre options à choisir et devra supprimer votre compte.
 
-      Supprimer votre compte existant et en créer un nouveau vous permettra d'utiliser la même adresse e-mail et de définir de nouvelles options de sécurité. Cependant, la suppression supprimera toutes les applications d'agence que vous avez liées à votre compte et vous devrez restaurer chaque connexion. Nous vous recommandons d'utiliser les articles répertoriés ci-dessous pour apprendre à relier votre compte après l'avoir supprimé.
+      Supprimer votre compte existant et en créer un nouveau vous permettra d'utiliser la même adresse e-mail et de définir de nouvelles méthodes d'authentification. Cependant, la suppression supprimera toutes les applications d'agence que vous avez liées à votre compte et vous devrez restaurer chaque connexion. Nous vous recommandons d'utiliser les articles répertoriés ci-dessous pour apprendre à relier votre compte après l'avoir supprimé.
 
       Pour supprimer votre compte, connectez-vous via votre application d'agence ou en visitant https://secure.login.gov/. Lorsque vous êtes invité à entrer votre code de sécurité, suivez le lien "Choisissez une autre option de sécurité". vous pouvez réinitialiser vos préférences en supprimant votre compte »et suivez ce lien.
 
@@ -753,9 +753,9 @@ help_pages:
     relink-my-profile: |-
       Si vous ne pouvez vous connecter à votre compte Trusted Traveler parce que vous avez perdu l'accès à votre méthode de sécurité et à votre clé personnelle de façon permanente, vous pouvez réinitialiser votre compte en le supprimant.
 
-      La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles options de sécurité. Toutefois, la suppression annulera le lien à votre profil Trusted Traveler. Vous devez suivre les étapes ci-dessous pour rétablir le lien avec votre compte :
+      La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles méthodes d'authentification. Toutefois, la suppression annulera le lien à votre profil Trusted Traveler. Vous devez suivre les étapes ci-dessous pour rétablir le lien avec votre compte :
 
-      1. Pour supprimer votre compte, connectez-vous à [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/). Lorsqu'on vous demande d'entrer votre code de sécurité, faites défiler vers le bas de la page jusqu'à la section « Si vous ne pouvez utiliser aucune des options de sécurité ci-dessus, vous pouvez réinitialiser vos préférences en supprimant votre compte » et suivez ce lien.
+      1. Pour supprimer votre compte, connectez-vous à [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/). Lorsqu'on vous demande d'entrer votre code de sécurité, faites défiler vers le bas de la page jusqu'à la section « Si vous ne pouvez utiliser aucune des méthodes d'authentification ci-dessus, vous pouvez réinitialiser vos préférences en supprimant votre compte » et suivez ce lien.
       2. Lisez attentivement toute l'information pour vous assurer que la suppression de votre compte est la seule façon de réinitialiser les paramètres de votre compte. Sélectionnez « Oui, continuer avec la suppression » pour procéder à la suppression de votre compte.
       3. Vous recevrez immédiatement une confirmation par e-mail vous informant que votre demande de suppression a bien été reçue. À titre de mesure de sécurité, vous recevrez un autre e-mail avec le lien servant à confirmer la suppression de votre compte 24 heures après avoir reçu la confirmation initiale.
       4. Après avoir supprimé votre compte, allez à [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/) pour créer un nouveau compte.
@@ -832,7 +832,7 @@ help_pages:
       La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles méthodes d'authentification. Toutefois, si vous supprimez votre compte login.gov, vous ne pourrez pas vous connecter à USAJOBS (ni à aucune autre application gouvernementale liée à votre compte login.gov) tant que vous n'avez pas créé un nouveau compte et que vous ne l'avez pas lié de nouveau. Il faudra au moins 24 heures pour supprimer votre compte.
 
       ### Supprimer et dissocier votre profil login.gov de USAJOBS
-      1. Commencez par vous connecter à l'adresse [https://www.login.gov/](https://www.login.gov/){:target="_blank"} avec votre nom d'utilisateur et votre mot de passe. Lorsque la méthode d’authentification vous est demandée, faites défiler vers le bas de la page et cliquez sur «Choisir une autre option de sécurité». Sur la page suivante, sélectionnez «Si vous ne pouvez utiliser aucune de ces options de sécurité ci-dessus, vous pouvez réinitialiser votre système. préférences en supprimant votre compte. ”et cliquez sur le lien.
+      1. Commencez par vous connecter à l'adresse [https://www.login.gov/](https://www.login.gov/){:target="_blank"} avec votre nom d'utilisateur et votre mot de passe. Lorsque la méthode d’authentification vous est demandée, faites défiler vers le bas de la page et cliquez sur «Choisir une autre option de sécurité». Sur la page suivante, sélectionnez «Si vous ne pouvez utiliser aucune de ces méthodes d'authentification ci-dessus, vous pouvez réinitialiser votre système. préférences en supprimant votre compte. ”et cliquez sur le lien.
       2. Lisez attentivement toutes les informations pour vous assurer que la suppression de votre compte est le seul moyen de réinitialiser les paramètres de votre compte, puis sélectionnez «Oui, poursuivre la suppression» pour continuer.
       3. Vous recevrez immédiatement un email de confirmation de la réception de votre demande de suppression.
       4. Par mesure de sécurité, vous recevrez un autre e-mail contenant le lien vous permettant de continuer à supprimer votre compte 24 heures après la confirmation initiale.
@@ -870,7 +870,6 @@ help_pages:
 help_subpages:
   changing-settings: Changement des paramètres
   creating-an-account: Création d'un compte
-  identity-verification: Vérification d'identité
   privacy-and-security: Confidentialité et sécurité
   sam: SAM
   security-keys: Clés de sécurité
@@ -948,7 +947,7 @@ implementation_page:
     ul_1:
       li_1: Vous n'avez pas à avoir une relation continue avec les utilisateurs.
       li_2: Les transactions ne dépendent pas de l'exactitude de l'information personnelle.
-      li_3: Vous pouvez vous fier à d'autres formes de sécurité.
+      li_3: Vous pouvez vous fier à d'autres méthodes d'authentification.
     ul_2:
       li_1:
         content: De quelles transactions auront besoin les utilisateurs?
@@ -1025,7 +1024,7 @@ index:
     p_1: |-
       login.gov gère le développement de logiciels, les opérations de sécurité et l'assistance à la clientèle. Ceci libère les départements gouvernementaux et leur permet de se concentrer sur leurs missions tout en réduisant les coûts et en améliorant la sécurité.
 
-      Une plate-forme d'authentification partagée libère les ressources des agences gouvernementales afin d'offrir d'excellents services tout en réduisant les coûts et en améliorant la sécurité.
+      Une plate-méthode d'authentification partagée libère les ressources des agences gouvernementales afin d'offrir d'excellents services tout en réduisant les coûts et en améliorant la sécurité.
   column_3:
     heading: Bâti <br class="sm-show"/>de façon coopérative
     p_1: |-
@@ -1205,7 +1204,7 @@ principles_page:
 
     Il existe un nombre de méthodes de conception spécifiques que nous mettons en pratique pour demeurer axés sur l'utilisateur et vous pouvez lire au sujet de tous ces processus et les utiliser en passant en revue le [18F Design Methods](https://methods.18f.gov/){:target="_blank"}.
   p_2: |-
-    [Travailler de façon transparente](https://playbook.cio.gov/#play13){:target="_blank"} et créer un système transparent devrait être la façon dont toute agence travaille pour bâtir ou mettre en œuvre un système de gestion d'identité. Pour exécuter ce principe avec login.gov, nous bâtissons la plate-forme de manière à ce que les parties intéressées puisse nous conseiller sur les meilleures pratiques afin que nous demeurions responsables envers le public et envers nos partenaires de toutes les agences gouvernementales. De plus, cela signifie qu'un système qui indique aux utilisateurs ce qu'il fait de leur information dans le but de créer une responsabilisation et établir une confiance. Nous impliquons les utilisateurs et autres parties intéressées par le biais de notre [référentiel GitHub](https://github.com/18F/identity-idp){:target="_blank"} et travaillons à la création de forums publics où les utilisateurs peuvent discuter de notre travail.
+    [Travailler de façon transparente](https://playbook.cio.gov/#play13){:target="_blank"} et créer un système transparent devrait être la façon dont toute agence travaille pour bâtir ou mettre en œuvre un système de gestion d'identité. Pour exécuter ce principe avec login.gov, nous bâtissons la plate-méthode de manière à ce que les parties intéressées puisse nous conseiller sur les meilleures pratiques afin que nous demeurions responsables envers le public et envers nos partenaires de toutes les agences gouvernementales. De plus, cela signifie qu'un système qui indique aux utilisateurs ce qu'il fait de leur information dans le but de créer une responsabilisation et établir une confiance. Nous impliquons les utilisateurs et autres parties intéressées par le biais de notre [référentiel GitHub](https://github.com/18F/identity-idp){:target="_blank"} et travaillons à la création de forums publics où les utilisateurs peuvent discuter de notre travail.
 
     Afin de rendre un système de gestion d'identité transparent pour les utilisateurs finaux, le système doit inclure des fonctionnalités qui éduquent les gens sur la façon dont le système fonctionne, pourquoi il fonctionne de cette façon et de quelle manière ils peuvent contrôler ce qui advient de leurs données. Vous devriez aussi informer les utilisateurs de l'information qui est requise par une agence pour la connexion à un service. Il est aussi important d'informer les utilisateurs de quelle information vos systèmes stockeront et si toute donnée est partagée avec les autres agences. Si les gens qui utilisent le système ne sont pas à l'aise avec le partage d'information, ils ne doivent pas être obligés de participer.
 

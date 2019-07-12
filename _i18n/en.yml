@@ -300,11 +300,11 @@ help_pages:
       <img src="site.baseurl/assets/img/help/4-choose-a-password.png" class="mt3 mb3 block" alt="Choose password help image" />
 
       ### Configure a second layer of security
-      Next, you will configure a secondary authentication factor. The second step keeps your account more secure than using only a password. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
+      Next, you will configure a secondary authentication method. The second step keeps your account more secure than using only a password. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
       <img src="site.baseurl/assets/img/help/2nd_factor_options.png" class="mt3 mb3 block" alt="2nd factor options help image" />
 
       #### Text message/SMS or Phone call
-      If you select Text message/SMS or Phone call as a second authentication factor, enter a phone number at which you can get phone calls or text messages. If you have a landline, you must receive your security code by phone call. login.gov cannot send security codes to extensions or voicemails.
+      If you select Text message/SMS or Phone call as a second authentication method, enter a phone number at which you can get phone calls or text messages. If you have a landline, you must receive your security code by phone call. login.gov cannot send security codes to extensions or voicemails.
 
       We will send a unique security code to that phone number each time you sign into your account.
       <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
@@ -365,11 +365,11 @@ help_pages:
     what-is-my-personal-key: |-
       A personal key is a 16-character secret code we have been historically generating as a form of two-factor authentication. [Read more about two-factor authentication here](site.baseurl/help/creating-an-account/what-is-two-factor-authentication/)
 
-      Recently we have begun the process of retiring personal keys as a form of two-factor authentication because they have not worked well for our users. In their place users now have a variety of options for a second authentication factor including backup codes.
+      Recently we have begun the process of retiring personal keys as a form of two-factor authentication because they have not worked well for our users. In their place users now have a variety of options for a second authentication method including backup codes.
 
       If you are creating a new account, you will not be assigned a personal key. Instead, select one of the available two-factor authentication options presented.
 
-      If you were assigned a personal key previously you are still able to use it, however next time you use the personal key you will be asked to select a new form of two-factor authentication, and the personal key option will be removed. Until you use your current personal key to sign in to your account, it will remain active and available as a second authentication factor.
+      If you were assigned a personal key previously you are still able to use it, however next time you use the personal key you will be asked to select a new form of two-factor authentication, and the personal key option will be removed. Until you use your current personal key to sign in to your account, it will remain active and available as a second authentication method.
 
       <!---
       TO ADD WHEN DEPLOYING DOCAUTH
@@ -532,9 +532,9 @@ help_pages:
     relink-my-profile: |-
       If you cannot sign into your SAM account because you’ve permanently lost access to your two-factor authentication methods you can reset your account by deleting it.
 
-      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. Your information/applications will not be deleted, however, deleting will remove any agency applications you have linked to your account, including the link to your SAM profile. You must follow the below steps to relink your account:
+      Deleting your existing account and creating a new one will allow you to use the same email address and set up new authentication methods. Your information/applications will not be deleted, however, deleting will remove any agency applications you have linked to your account, including the link to your SAM profile. You must follow the below steps to relink your account:
 
-      1. To delete your account, sign in at [https://sam.gov/](https://sam.gov/). When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
+      1. To delete your account, sign in at [https://sam.gov/](https://sam.gov/). When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of the authentication methods above, you can reset your preferences by deleting your account,” and follow that link.
       2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. select "Yes, continue deletion" to proceed.
       3. You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.
       4. After you delete your account, go to [https://sam.gov/](https://sam.gov/) to create a new account.
@@ -614,9 +614,9 @@ help_pages:
 
       If you lost access to your primary authentication method, but still have access to your secondary authentication method, click on “Choose another option” when signing in. If you only set up backup codes as your sole authentication method, you will not have any other options to choose from and will have to delete your account.
 
-      Deleting your existing account and creating a new one will allow you to use the same email address and set up new security options. However, deleting will remove any agency applications you have linked to your account, and you will need to restore each connection. We recommend you use the articles listed below to learn how to relink your account after deleting it.
+      Deleting your existing account and creating a new one will allow you to use the same email address and set up new authentication methods. However, deleting will remove any agency applications you have linked to your account, and you will need to restore each connection. We recommend you use the articles listed below to learn how to relink your account after deleting it.
 
-      To delete your account, either sign in via your agency application or by visiting https://secure.login.gov/. When you are prompted to enter your security code, follow the link that says “choose another security option.” On the next page, scroll to the bottom to the section that says “If you can’t use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
+      To delete your account, either sign in via your agency application or by visiting [https://secure.login.gov/](https://secure.login.gov/). When you are prompted to enter your security code, follow the link that says “choose another authentication method.” On the next page, scroll to the bottom to the section that says “If you can’t use any of the authentication methods above, you can reset your preferences by deleting your account,” and follow that link.
 
       Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. Select “Yes, continue deletion” to proceed.
 
@@ -637,9 +637,9 @@ help_pages:
 
       Try to sign in as usual and ask to have your password reset. Then, enter the email address you believe you used to create your account. If we have your email address in our records, we will send instructions on how to reset your password. Check your email in a few minutes for these instructions.
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: |-
-      If you selected phone call or text message as your second factor it is necessary to have your phone in order to get the security code to sign in. For this reason it's useful to select multiple authentication mechanisms in case you do not have access to one. If you have configured more than one second factor method, once you sign in with your email address and password select “Choose another security option” if the first option is using your phone. This will give you the option to select any other security options you have previously configured.
+      If you selected phone call or text message as your second factor it is necessary to have your phone in order to get the security code to sign in. For this reason it's useful to select multiple authentication mechanisms in case you do not have access to one. If you have configured more than one second factor method, once you sign in with your email address and password select “Choose another authentication method” if the first option is using your phone. This will give you the option to select any other authentication methods you have previously configured.
 
-      If you were provided with a personal key and have not yet used the one that was last generated you can also select the personal key option. Enter the personal key that was last generated for you. If you have successfully entered your personal key, you will be prompted to configure a new second factor then redirected to your original destination. Because personal keys are being retired as a second authentication factor, once you use your last generated personal key you will no longer be assigned a new one. Instead you must use backup codes, an authentication application, or a security key.
+      If you were provided with a personal key and have not yet used the one that was last generated you can also select the personal key option. Enter the personal key that was last generated for you. If you have successfully entered your personal key, you will be prompted to configure a new second factor then redirected to your original destination. Because personal keys are being retired as a second authentication method, once you use your last generated personal key you will no longer be assigned a new one. Instead you must use backup codes, an authentication application, or a security key.
 
       We encourage you to configure multiple authentication methods — this way, you’ll be able to access your account even if your device is stolen or your online accounts are hacked.
     my-reset-password-link-is-invalid: |-
@@ -734,7 +734,7 @@ help_pages:
 
       Deleting your existing account and creating a new one will allow you to use the same email address and set up new two-factor authentication methods. Your information/applications will not be deleted, however, deleting will remove any agency applications you have linked to your account, including the link to your Trusted Traveler profile. You must follow the below steps to relink your account:
 
-      1. To delete your account, sign in at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/).  When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of these security options above, you can reset your preferences by deleting your account,” and follow that link.
+      1. To delete your account, sign in at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/).  When you are prompted to enter your security code, scroll to the bottom of the page to the section that says “If you can't use any of the authentication methods above, you can reset your preferences by deleting your account,” and follow that link.
       2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings. select "Yes, continue deletion" to proceed.
       3. You will immediately receive an email confirmation that your delete request was received. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.
       4. After you delete your account, go to [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/) to create a new account.
@@ -810,7 +810,7 @@ help_pages:
       Deleting your existing account and creating a new one will let you use the same email address and set up new authentication methods. However, if you delete your login.gov account, you will not be able to sign in to USAJOBS (or any other government application that is linked to your login.gov account) until you create a new account and relink it. It will take at least 24 hours to delete your account.
 
       ### Delete and unlink your login.gov profile from USAJOBS
-      1. First, sign in at [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} with your username and password. When asked for your authentication method, scroll to the bottom of the page and click on “Choose another security option.” On the next page, scroll down to “If you can't use any of these security options above, you can reset your preferences by deleting your account.” and click on the link.
+      1. First, sign in at [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} with your username and password. When asked for your authentication method, scroll to the bottom of the page and click on “Choose another authentication method.” On the next page, scroll down to “If you can't use any of these security options above, you can reset your preferences by deleting your account.” and click on the link.
       2. Read through all the information carefully to make sure deleting your account is the only way to reset your account settings and click on “Yes, continue deletion” to proceed.
       3. You will immediately receive an email confirmation that your delete request was received.
       4. As a security measure, you will receive another email with the link to continue deleting your account 24 hours after the initial confirmation arrives.
@@ -1146,7 +1146,7 @@ policies:
 - section: Our security practices
   anchor: our-security-practices
   content: |-
-    login.gov uses a variety of security methods to protect this U.S.
+    login.gov uses a variety of authentication methods to protect this U.S.
     government service and your data, and to ensure the service remains
     available to all users. These methods include monitoring and recording
     network traffic (any data going in and out of login.gov) to identify
