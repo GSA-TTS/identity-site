@@ -138,9 +138,10 @@ help:
     how-do-i-change-the-phone-number-i-use-to-sign-in: "¿Cómo puedo cambiar el número
       de teléfono que uso para iniciar sesión?"
   creating-an-account:
-    do-i-need-a-mobile-phone-to-use-logingov: "¿Necesito un teléfono móvil para usar
-      login.gov?"
+    do-i-need-a-mobile-phone-to-use-logingov: "No tengo telefono ¿Puedo seguir usando login.gov?"
     how-do-i-create-an-account-with-logingov: "¿Cómo puedo crear una cuenta con login.gov?"
+    how-do-i-create-an-account-with-only-one-two-factor-authenticator: No tengo teléfono, aplicación de autenticación, clave de seguridad o ID de gobierno. ¿Puedo crear una cuenta de login.gov?
+    how-do-i-verify-my-address-by-mail: "¿Cómo verifico mi dirección por correo?"
     i-didnt-receive-a-confirmation-email-from-logingov: No recibí un email de confirmación
       de login.gov.
     what-do-i-do-if-an-account-already-exists-under-my-email-address: "¿Qué debo hacer
@@ -155,6 +156,13 @@ help:
     why-do-i-need-to-use-logingov-to-access-government-services-online: "¿Por qué
       tengo que usar login.gov para acceder a los servicios del Gobierno en línea?"
     why-is-my-confirmation-link-invalid: "¿Por qué no es válido mi enlace de confirmación?"
+  identity-verification:
+    why-do-i-need-to-verify-my-identity: ¿Por qué necesito verificar mi identidad?
+    how-do-i-verify-my-identity-on-logingov: ¿Cómo verifico mi identidad en login.gov?
+    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: No tengo una identificación
+      emitida por el estado, ¿aún puedo verificar mi identidad?
+    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
+      Tengo más de una cuenta de login.gov ¿puedo verificar mi identidad en todas?
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: "¿Puedo borrar
       de mi navegador una contraseña o información guardarda para iniciar sesión?"
@@ -184,11 +192,8 @@ help:
     what-is-a-security-key: "¿Qué es una clave de seguridad?"
     what-is-phishing: "¿Qué es el phishing?"
   signing-in:
-    how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: "¿Cómo inicio sesión
-      si no tengo mi teléfono o mi clave personal?"
     how-do-i-reset-my-password: "¿Cómo puedo restablecer mi contraseña?"
-    how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed: "¿Cómo
-      inicio sesión si no tengo mi teléfono o mi clave personal?"
+    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: "¿Cómo inicio sesión si no tengo mis métodos de autenticación (teléfono, códigos de respaldo, aplicación de autenticación, etc.)?"
     how-do-i-turn-off-two-factor-authentication: "¿Cómo desactivo la autenticación
       de dos factores?"
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: No
@@ -201,7 +206,7 @@ help:
       es válido
     what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: "¿Qué hago si mi contraseña
       no funciona o la olvido?"
-    what-do-i-need-to-have-in-order-to-sign-in: "¿Qué debo tener para iniciar sesión?"
+    what-do-i-need-to-have-in-order-to-sign-in: "¿Qué necesito tener para iniciar sesión?"
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: "¿Qué
       sucede si pierdo la llamada telefónica o el mensaje de texto con mi código de
       seguridad de un sólo uso?"
@@ -237,8 +242,7 @@ help:
       correo electrónico / No he recibido una confirmación mediante correo electrónico
     profile-information: "¿Qué sucede si no veo la información de mi perfil en USAJOBS
       después de crear una cuenta en login.gov?"
-    relink-my-profile: "¿Cómo puedo volver a vincular mi perfil de USAJOBS después
-      de eliminar mi cuenta de login.gov?"
+    relink-my-profile: "Perdí mi método de autenticación. ¿Cómo elimino mi perfil de login.gov y vuelvo a vincular uno nuevo a mi perfil de USAJOBS?"
     security-code: "¿Qué necesito para recibir el código de seguridad de login.gov?"
     what-email-address-do-i-use: "¿Qué dirección de correo electrónico utilizo para
       crear una cuenta de login.gov?"
@@ -281,13 +285,12 @@ help_pages:
     how-do-i-change-the-phone-number-i-use-to-sign-in: |-
       Para cambiar el número de teléfono en el que obtener el código de seguridad, vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Administrar cuenta" para iniciar sesión en su cuenta de login.gov. Una vez que haya iniciado sesión, seleccione "editar" junto al número de teléfono. Introduzca el número de teléfono y seleccione "confirmar el cambio". login.gov enviará inmediatamente su código de seguridad para confirmar el nuevo número de teléfono.
 
-      Si no puede recibir el código de seguridad porque ya no tiene acceso a su teléfono, deberá [iniciar sesión con su clave personal](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed).
+      Si no puede recibir el código de seguridad porque ya no tiene acceso a su teléfono, deberá [iniciar sesión con su clave personal](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods).
   creating-an-account:
-    do-i-need-a-mobile-phone-to-use-logingov: Usted no necesita tener un teléfono
-      móvil para usar login.gov. Usted necesita proporcionar un número de teléfono,
-      ya sea un teléfono fijo o un teléfono móvil, en el que puede recibir códigos
-      de seguridad cada vez que inicie sesión ya sea por mensaje de texto o llamada
-      de teléfono.
+    do-i-need-a-mobile-phone-to-use-logingov: |-
+      login.gov requiere que todos los usuarios utilicen la autenticación de dos factores al crear una cuenta e iniciar sesión.
+
+      Incluso si no tiene un teléfono, todavía tiene una serie de opciones para un segundo factor. Puede elegir entre usar una aplicación de autenticación en su dispositivo, códigos de respaldo o una clave de seguridad. Si es un empleado del gobierno, también puede usar su identificación del gobierno (tarjeta PIV/CAC).
     how-do-i-create-an-account-with-logingov: |-
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
       Para crear una cuenta de login.gov, necesitará un email válido y un número de teléfono que funcione. También le pediremos que establezca una contraseña.
@@ -325,7 +328,24 @@ help_pages:
       #### Códigos de respaldo
       Los códigos de respaldo son otro método de autenticación. Cuando elija usar los códigos de respaldo como su segundo factor, login.gov le generará una serie de 10 códigos. Después de que inicie sesión con su nombre de usuario y contraseña, se le pedirá un código. Cada código puede usarse una vez, y cuando se haya usado el décimo, se le pedirá que descargue una lista nueva. Trate sus códigos de recuperación con el mismo nivel de atención que le daría a su contraseña.
       <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
+    how-do-i-create-an-account-with-only-one-two-factor-authenticator: |-
+      login.gov requiere que los usuarios configuren dos formas de métodos de autenticación de dos factores al crear una cuenta. Sin embargo, si no tiene acceso a un teléfono, una aplicación de autenticación, una clave de seguridad o una identificación de empleado del gobierno (tarjeta PIV / CAC), puede configurar su cuenta solo con códigos de respaldo.
 
+      Advertencia: no se recomienda configurar su cuenta con códigos de respaldo como único método de autenticación. Si alguna vez pierde sus códigos de respaldo, no podrá iniciar sesión en su cuenta.
+
+      Cuando esté creando su cuenta, llegará a la página "Asegure su cuenta". Aquí es donde debe elegir el método de autenticación principal. Si no tiene acceso a ninguna de las otras opciones, seleccione "Códigos de respaldo" y haga clic en "Continuar".
+
+      Descargue, imprima, copie o anote sus códigos de respaldo y guárdelos en un lugar seguro. Luego, haga clic en "Continuar". Nota: debe hacer clic en "Continuar" para activar sus códigos de respaldo. Si no lo hace y sale de la página, no podrá utilizar ese conjunto de códigos de respaldo para iniciar sesión más tarde.
+
+      En la página "Agregar otro método", seleccione "No tengo ninguno de los anteriores" y haga clic en "Continuar"
+
+      A continuación, habrá terminado de crear su cuenta. Cada vez que inicie sesión con login.gov, se le pedirá que ingrese uno de sus códigos de respaldo. Después de usar el décimo código, se le dará un nuevo conjunto de códigos de respaldo para guardar y usar.
+    how-do-i-verify-my-address-by-mail: |-
+      Si no podemos verificar automáticamente su dirección, debe verificarla por correo. Esto significa que le enviaremos una carta con un código de confirmación que debe usar para terminar de configurar su cuenta.
+
+      Recibirá la carta a través del Servicio Postal de EE. UU., De tres a cinco días hábiles después de la fecha en que solicita el código. El código de confirmación caducará 30 días después de la fecha en que envíe su solicitud.
+
+      Si no recibe su carta o su código de confirmación caduca antes de finalizar el proceso de verificación de identidad, puede solicitar un nuevo código de confirmación. Para hacerlo, inicie sesión en la aplicación de gobierno o en [https://secure.login.gov](https://secure.login.gov){: target = "_blank"} y seleccione "Enviarme un nuevo código de confirmación" cuando se le solicite ingresar tu codigo.
     i-didnt-receive-a-confirmation-email-from-logingov: |-
       Si no recibió un email de confirmación, revise su correo basura. También considere que ha podido escribir su email incorrectamente. Si es así, siempre puede crear otra cuenta con su email correcto.
 
@@ -378,6 +398,67 @@ help_pages:
       Si el enlace de confirmación sigue sin ser válido y ha seguido los pasos descritos anteriormente, es posible que su proveedor de correo electrónico haya codificado el enlace. Una forma de determinar si ha sucedido esto es copiando y pegando el enlace de confirmación en su navegador. Si hay símbolos o palabras inusuales en el enlace, quítelos y pulse "Intro".
 
       Para obtener ayuda adicional, envíe un correo electrónico a [hello@login.gov](mailto:hello@login.gov).
+  identity-verification:
+    why-do-i-need-to-verify-my-identity: |-
+      Algunas aplicaciones gubernamentales que utilizan login.gov requieren que los usuarios verifiquen sus identidades. Esto significa que debes demostrar que eres quien dices que eres. Al hacer esto, nos aseguramos de que solo las personas adecuadas tengan acceso a información confidencial.
+
+      Solo se te pedirá que verifiques tu identidad la primera vez que inicies sesión en ciertas aplicaciones gubernamentales.
+
+      Solo necesitas verificar tu identidad una vez para tu cuenta de login.gov (después de verificar a tu identidad con login.gov para una aplicacion gubernamental, no necesitaras hacerlo de nuevo para otras aplicaciones gubernamentales).
+    how-do-i-verify-my-identity-on-logingov: |-
+      Si una aplicacion gubernamental requiere verificación de identidad, login.gov te pedirá que verifiques tu identidad la primera vez que inicie sesión con esa aplicación. Necesitarás tener tu identificación emitida por el estado (como tu licencia de conducir) o una fotografía de la parte frontal y posterior de la tarjeta. Usa los siguientes pasos para verificar tu identidad en login.gov:
+      1. Cuando inicies sesión o creas una cuenta, verás la página "Necesitamos verificar tu identidad". Haz clic en "Comenzar".
+      <img src="site.baseurl/assets/img/verify-my-identity-1.png" class="mt3 mb3 block" />
+      2. En la página “¿Cómo desea cargar la identificación emitida por su estado?”, elige cargar imágenes de tu identificación desde tu computadora o desde tu teléfono (tomar una foto con la cámara de tu teléfono o cargar una imagen de la biblioteca de fotos de tu teléfono).
+      <img src="site.baseurl/assets/img/verify-my-identity-2.png" class="mt3 mb3 block" />
+      <b>Usa tu computadora</b>
+      - Carga una imagen de la parte frontal de tu identificación emitida por el estado haciendo clic en "Choose File", seleccionando el archivo de tu computadora y haciendo clic en "Continuar"
+        <img src="site.baseurl/assets/img/verify-my-identity-3.png" class="mt3 mb3 block" />
+      - Carga una imagen de la parte posterior de tu identificación emitida por el estado haciendo clic en "Choose File", seleccionando el archivo de tu computadora y haciendo clic en "Continuar"
+      <b style='margin-left: -40px;'>Usa tu telefono</b>
+      - Ingresa tu número de teléfono y haz clic en "Continuar"
+        <img src="site.baseurl/assets/img/verify-my-identity-4.png" class="mt3 mb3 block" />
+      - Ve a tu telefono
+      - Recibirás un mensaje de texto con un enlace. Haz clic en el enlace.
+        <img src="site.baseurl/assets/img/verify-my-identity-5.jpeg" class="mt3 mb3 block" />
+      - Cargua o toma una imagen de la parte frontal de tu identificación emitida por el estado haciendo clic en "Choose File", tomando una foto o cargando una desde tu biblioteca de fotos, y haciendo clic en "Continuar"
+        <img src="site.baseurl/assets/img/verify-my-identity-6.jpeg" class="mt3 mb3 block" />
+      - Cargua o tome una imagen de la parte posterior de tu identificación emitida por el estado haciendo clic en "Choose File", tomando una foto o cargando una desde tu biblioteca de fotos, y haciendo clic en "Continuar"
+      - Vuelve a tu computadora y haz clic en "Continuar"
+
+      3. Ingresa tu número de seguro social y haz clic en "Continuar"
+      4. Asegúrate de que su información sea correcta y haz clic en "Continuar"
+
+      5. Ingresa un número de teléfono para verificar tu identidad. Si no tienes un plan de teléfono con tu nombre o un número de teléfono de los Estados Unidos, haz clic en "Obtener un código por correo". Tendrás que esperar para recibir una carta por correo y luego seguir las instrucciones para ingresar el código.
+      6. Vuelva a ingresar su contraseña de login.gov
+
+      Si podemos verificar tu identidad, verás una página de confirmación y podrás ingresar a la aplicación gubernamental.
+    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: |-
+      En este momento, no puedes verificar a tu identidad en login.gov sin una tajeta de identidad emitida por el estado. Actualmente estamos trabajando para agregar más formas de verificar identidades.
+
+      Mientras tanto, comuníquese con el centro de ayuda de la aplicaciones gubernamentales para averiguar qué puede hacer.
+    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them: |-
+      Solo puedes verificar tu identidad en una cuenta. Si tienes más de una cuenta de login.gov, puedes combinarlas eliminando una cuenta y luego agregando su dirección de correo electrónico a la otra. Antes de hacer esto, recuerda que tendrás que volver a vincular todas las aplicaciones gubernamentales que estaban conectadas a la(s) cuenta(s) que estás eliminando. Además, solo puedes agregar un máximo de diez direcciones de correo electrónico a una sola cuenta de login.gov.
+
+      Eliminar una cuenta
+        1. Ve a [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
+        2. Inicia sesión con tu correo electrónico, contraseña, y método de autenticación
+        3. Avanza hasta la parte inferior de la página "Su cuenta", hasta la sección "Administración de cuentas", y haz clic en "Eliminar"
+        4. Sigue los pasos para borrar tu cuenta
+
+      Agrega una dirección de correo electrónico a tu cuenta
+        1. Ve a [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
+        2. Inicia sesión con tu correo electrónico, contraseña, y método de autenticación
+        3. En la página "Su cuenta", ve a la sección "Información de inicio de sesión" y haga clic en "Agregar correo electrónico"
+        4. Sigue los pasos para agregar y confirmar tu dirección de correo electrónico.
+
+      Artículos relacionados:
+
+      [¿Cómo puedo volver a vincular mi perfil de USAJOBS después de eliminar mi cuenta login.gov?](site.baseurl/help/usajobs/relink-my-profile)
+
+      [¿Cómo puedo volver a vincular mi perfil de Trusted Traveler después de eliminar mi cuenta login.gov?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+
+      [¿Cómo puedo volver a vincular mi perfil SAM después de eliminar mi cuenta login.gov?](site.baseurl/help/sam/relink-my-profile)
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       Si guardó accidentalmente su contraseña de login.gov o cualquier otra información de acceso en su navegador, sería una buena idea borrarla del navegador. Eso lo ayudará a mantener su cuenta más segura. De la siguiente lista, seleccione el navegador (programa de computadora que usa para acceder al internet) que usa para aprender cómo borrar cualquier información guardada (los enlaces están en inglés):
@@ -509,10 +590,6 @@ help_pages:
       por error con un atacante. La clave de seguridad también se asegurará de que
       ingrese información en el sitio web oficial login.gov.
   signing-in:
-    how-do-I-sign-in-if-I-dont-have-my-phone-or-my-personal-key: |-
-      Al eliminar su cuenta actual y crear una nueva, podrá utilizar la misma dirección de correo electrónico y configurar nuevas opciones de seguridad. Sin embargo, al eliminarla, se eliminarán también las aplicaciones de agencia que haya vinculado a su cuenta. Le recomendamos que utilice los artículos que se enumeran a continuación para saber cómo volver a vincular su cuenta después de eliminarla.
-
-      Para eliminar su cuenta, inicie sesión a través de su aplicación de agencia o accediendo a [https://secure.login.gov/](https://secure.login.gov/). Cuando se le pida que introduzca su código de seguridad, seleccione el enlace que dice "elegir otra opción de seguridad". En la página siguiente, vaya a la parte inferior de la pantalla hasta la sección que dice "Si no puede utilizar ninguna de las opciones de seguridad anteriores, puede restablecer sus preferencias eliminando su cuenta", y siga ese enlace.
     how-do-i-reset-my-password: Si no conoce su contraseña, el enlace para restablecerla
       se encuentra en la página de inicio de sesión. Introduzca su dirección de correo
       electrónico para recibir un enlace para restablecer su contraseña. Una vez que
@@ -522,18 +599,20 @@ help_pages:
       escribiendo la contraseña correctamente. Después de seguir estos pasos, volverá
       a la página de inicio de sesión. Ahora puede iniciar sesión con su nueva contraseña
       de login.gov.
-    how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed: |-
-      Si no puede iniciar sesión en su cuenta de login.gov porque ha perdido de forma permanente el acceso a su método de seguridad y su clave personal, puede que tenga que restablecer su cuenta, eliminándola.
+    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: |-
+      Si no puede iniciar sesión en su cuenta de login.gov porque perdió el acceso permanente a sus métodos de autenticación (como su teléfono, códigos de respaldo, aplicación de autenticación y clave personal), es posible que deba restablecer su cuenta eliminándola.
 
-      Al eliminar su cuenta actual y crear una nueva, podrá utilizar la misma dirección de correo electrónico y configurar nuevas opciones de seguridad. Sin embargo, la eliminación también eliminará todas las aplicaciones de agencia que haya vinculado a su cuenta y deberá restaurar cada conexión. Le recomendamos que utilice los artículos que se indican a continuación para saber cómo volver a vincular su cuenta después de eliminarla.
+      Si perdió el acceso a su método de autenticación principal, pero aún tiene acceso a su método de autenticación secundario, haga clic en "Elegir otra opción" al iniciar sesión. Si solo configura códigos de respaldo como su único método de autenticación, no tendrá ninguna otra. opciones para elegir y tendrá que eliminar su cuenta.
 
-      Para eliminar su cuenta, inicie sesión a través de su aplicación de agencia o accediendo a [https://secure.login.gov/](https://secure.login.gov/). Cuando se le pida que introduzca su código de seguridad, siga el enlace que dice "elegir otra opción de seguridad". En la página siguiente, desplácese hasta la parte inferior de la sección que dice "Si no puede utilizar ninguna de las opciones de seguridad anteriores, puede restablecer sus preferencias eliminando su cuenta" y siga ese enlace.
+      Eliminar su cuenta existente y crear una nueva le permitirá usar la misma dirección de correo electrónico y configurar nuevas opciones de seguridad. Sin embargo, al eliminar se eliminarán todas las solicitudes de agencias que haya vinculado a su cuenta y deberá restaurar cada conexión. Le recomendamos que utilice los artículos que se enumeran a continuación para aprender cómo volver a vincular su cuenta después de eliminarla.
 
-      Lea toda la información detenidamente para asegurarse de que la única manera de restablecer los ajustes de su cuenta es eliminando su cuenta. Seleccione "Sí, continuar con la eliminación" para proceder.
+      Para eliminar su cuenta, inicie sesión a través de la solicitud de su agencia o visite https://secure.login.gov/. Cuando se le solicite ingresar su código de seguridad, siga el enlace que dice "elija otra opción de seguridad". En la página siguiente, vaya a la parte inferior de la sección que dice "Si no puede usar ninguna de estas opciones de seguridad arriba, puede restablecer sus preferencias eliminando su cuenta ", y siga ese enlace.
 
-      Recibirá inmediatamente una confirmación por correo electrónico de que se ha recibido su solicitud de eliminación. Como medida de seguridad, recibirá otro correo electrónico con el enlace para continuar con la eliminación de su cuenta 24 horas después de que llegue la confirmación inicial.
+      Lea detenidamente toda la información para asegurarse de que eliminar su cuenta sea la única forma de restablecer la configuración de su cuenta. Seleccione "Sí, continuar con la eliminación" para continuar.
 
-      ## Artículos de interés
+      Inmediatamente recibirá una confirmación por correo electrónico de que se recibió su solicitud de eliminación. Como medida de seguridad, recibirá otro correo electrónico con el enlace para continuar eliminando su cuenta. El enlace está disponible durante las 24 horas posteriores a la recepción de la confirmación inicial y caduca al finalizar esas 24 horas.
+
+      ## Artículos relevantes
       ¿Cómo puedo volver a vincular mi perfil de USAJOBS después de eliminar mi cuenta de login.gov?](site.baseurl/help/usajobs/relink-my-profile)
       ¿Cómo puedo volver a vincular mi perfil de viajero de confianza después de eliminar mi cuenta de login.gov?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
       [¿Cómo puedo volver a vincular mi perfil de SAM después de eliminar mi cuenta de login.gov?](site.baseurl/help/sam/relink-my-profile)
@@ -568,11 +647,8 @@ help_pages:
 
 
       Una vez que haya iniciado sesión en login.gov después de restablecer su contraseña, login.gov le proporcionará una clave personal. La clave personal se utilizará en caso de que olvide su contraseña o no tenga su teléfono consigo. Anótelo y guárdelo por separado del teléfono.
-    what-do-i-need-to-have-in-order-to-sign-in: Cada vez que inicie una sesión en
-      su cuenta, necesitará su email, su contraseña y acceso a su teléfono. Después
-      de haber ingresado su email y contraseña, login.gov enviará a su teléfono un
-      código de seguridad que deberá ingresar en el casillero de código de seguridad
-      para poder iniciar la sesión de forma segura.
+    what-do-i-need-to-have-in-order-to-sign-in: |-
+      Cada vez que inicie sesión en su cuenta, necesitará su dirección de correo electrónico, su contraseña y el acceso a uno de los métodos de autenticación de dos factores que configura. Después de ingresar su dirección de correo electrónico y contraseña para iniciar sesión, login.gov le solicitará que se autentique (ingrese un código de seguridad enviado a su teléfono por voz o texto, ingrese el código de seguridad de su aplicación de autenticación, ingrese un código de respaldo, use su clave de seguridad, o use su tarjeta gubernamental PIV/CAC).
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Cada
       vez que inicie una sesión deberá ingresar un código de seguridad que se envía
       a su teléfono, ya sea por mensaje de texto o por llamada telefónica. El código
@@ -737,30 +813,30 @@ help_pages:
 
        Si no puede vincular su perfil o ya no tiene acceso a la dirección de correo electrónico que utilizó para crear su perfil de USAJOBS, puede seleccionar "se ha perdido el acceso a sus direcciones de correo electrónico" para ponerse en contacto con el Centro de Ayuda de USAJOBS y poder obtener ayuda adicional o utilizar este enlace: [https://www.usajobs.gov/Help/faq/account/no-profile/](https://www.usajobs.gov/Help/faq/account/no-profile/)
     relink-my-profile: |-
-      Si no puede iniciar sesión en su cuenta de USAJOBS porque ha perdido de forma permanente el acceso a su método de seguridad y a su clave personal, puede restablecer su cuenta eliminándola.
+      Si no puede iniciar sesión en su perfil de USAJOBS porque ha perdido el acceso permanente a sus métodos de autenticación, puede restablecer su cuenta eliminándola y volviendo a vincular una nueva.
 
-      Al eliminar su cuenta actual y crear una nueva, podrá utilizar la misma dirección de correo electrónico y configurar nuevas opciones de seguridad. Sin embargo, al eliminarla se desvinculará su perfil de USAJOBS. Debe seguir los siguientes pasos para volver a vincular su cuenta:
+      Eliminar su cuenta existente y crear una nueva le permitirá usar la misma dirección de correo electrónico y configurar nuevos métodos de autenticación. Sin embargo, si elimina su cuenta login.gov, no podrá iniciar sesión en USAJOBS (ni en ninguna otra aplicación gubernamental que esté vinculada a su cuenta login.gov) hasta que cree una nueva cuenta y la vuelva a vincular. Le tomará al menos 24 horas eliminar su cuenta.
 
-      1. Para eliminar su cuenta, inicie sesión en [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"}. Cuando se le pida que introduzca su código de seguridad, desplácese hasta la parte inferior de la página, a la sección que dice "Si no puede utilizar ninguna de las opciones de seguridad anteriores, puede restablecer sus preferencias eliminando su cuenta" y siga ese enlace.
-      2. Lea detenidamente toda la información para asegurarse de que la única forma de restablecer los ajustes de su cuenta es eliminándola y seleccione "Sí, continuar con la eliminación" para proceder.
-      3. Recibirá inmediatamente una confirmación por correo electrónico de que se ha recibido su solicitud de eliminación. Como medida de seguridad, recibirá otro correo electrónico con el enlace para continuar eliminando su cuenta 24 horas después de que llegue la confirmación inicial.
-      4. Después de eliminar su cuenta, debe ponerse en contacto con el servicio de asistencia técnica de USAJOBS para desvincular su cuenta. Para ello, deberá responder a las preguntas de seguridad. NOTA: Primero debe desvincular su cuenta antes de crear una nueva. Si no desvincula su cuenta antes de crear una nueva, no podremos vincular sus cuentas.
-      5. Vaya a [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} para crear una nueva cuenta de login.gov, con la misma dirección de correo electrónico.
-      6. Si ha seguido estos pasos en este orden y ha utilizado el correo electrónico correcto, su perfil se vinculará automáticamente.
+      ### Borre y desvincule su perfil de login.gov de USAJOBS
+      1. Primero, inicie sesión en [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} con su nombre de usuario y contraseña. Cuando se le solicite su método de autenticación, desplácese hasta la parte inferior de la página y haga clic en "Elegir otra opción de seguridad". En la página siguiente, desplácese hacia abajo hasta "Si no puede usar ninguna de las opciones de seguridad anteriores, puede restablecer su preferencias eliminando su cuenta " y haga clic en el enlace.
+      2. Lea cuidadosamente toda la información para asegurarse de que eliminar su cuenta es la única forma de restablecer la configuración de su cuenta y haga clic en "Sí, continuar con la eliminación" para continuar.
+      3. Inmediatamente recibirá una confirmación por correo electrónico de que se recibió su solicitud de eliminación.
+      4. Como medida de seguridad, recibirá otro correo electrónico con el enlace para continuar eliminando su cuenta 24 horas después de que llegue la confirmación inicial.
+      5. Mientras espera la segunda notificación por correo electrónico, debe ponerse en contacto con el servicio de asistencia técnica de USAJOBS para desvincular su perfil. Vaya al [Centro de Ayuda de USAJOBS en login.gov](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"} y haga clic en el botón "Contáctenos" que se encuentra en la parte inferior de la página. No cree una nueva cuenta de login.gov hasta que haya recibido la confirmación de que su perfil ha sido desvinculado. Deberá proporcionar la siguiente información sobre su perfil al servicio de asistencia técnica de USAJOBS:
+        * Dirección de correo electrónico
+        * Primero, segundo nombre y apellido (si corresponde, también incluya el sufijo (Jr., Sr., III, etc.) y el apellido de soltera)
+        * Dirección de correo y domicilio (incluya cualquier dirección pasada o presente que haya enumerado en su perfil)
+        * Números de teléfono (incluya cualquier número de teléfono pasado o presente que haya incluido en su perfil)
+        * Respuestas a sus preguntas de seguridad (Pregunta secreta 1-3)
+      6. El servicio de asistencia de USAJOBS le enviará un correo electrónico confirmando que su perfil ha sido desvinculado. Ese correo electrónico también proporcionará una guía para recuperar el acceso a su cuenta.
 
-      Si tiene alguna pregunta sobre cómo vincular su cuenta, póngase en contacto con el servicio de asistencia de USAJOBS.
-    security-code: |-
-      Puede optar por recibir el código de seguridad único a través de un mensaje de texto o una llamada telefónica si tiene un teléfono móvil de Estados Unidos. Las líneas fijas solo pueden recibir una llamada telefónica. Si se encuentra fuera de Estados Unidos, la mayoría de los números de teléfono solo pueden recibir un mensaje de texto.
+      ### Crea un nuevo perfil de login.gov y vincúlalo a USAJOBS
+      1. Vaya a [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"}, haga clic en "Iniciar sesión", haga clic en "Crear una cuenta" y siga los pasos para crear una nueva cuenta de login.gov. Asegúrese de usar la misma dirección de correo electrónico que la cuenta que acaba de eliminar (la dirección de correo electrónico que utiliza para su cuenta USAJOB).
+      2. Si siguió estos pasos en este orden y utilizó el correo electrónico correcto, su perfil se vinculará automáticamente.
 
-      Como alternativa a la recepción de un mensaje de texto o una llamada telefónica, también puede [utilizar una aplicación de autenticación después de haber creado correctamente su cuenta](/help/signing-in/what-is-an-authentication-app/).
-    what-email-address-do-i-use: Para conservar la información de su perfil de USAJOBS,
-      debe usar su correo electrónico principal o secundario de USAJOBS cuando cree
-      su cuenta de login.gov. Cuando utilice la misma dirección de correo electrónico,
-      USAJOBS vinculará automáticamente su perfil a la cuenta de login.gov. Si utiliza
-      una dirección de correo electrónico diferente al registrarse en login.gov, USAJOBS
-      no podrá vincular automáticamente su perfil. Sin embargo, puede utilizar su
-      dirección de correo electrónico principal o secundaria de USAJOBS para buscar
-      su perfil.
+      NOTA: No cree una nueva cuenta de login.gov hasta que su perfil haya sido desvinculado. Primero debes desvincular tu cuenta antes de crear una nueva. Si no desvincula su cuenta antes de crear una nueva, no podremos vincular sus cuentas.
+
+      Si tiene alguna pregunta sobre cómo vincular su cuenta, comuníquese con el [servicio de asistencia técnica de USAJOBS](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"}.
     what-happens-to-my-profile: |-
       No le ocurrirá nada a la información que esté guardada en su perfil de USAJOBS. Mantendrá todas sus solicitudes, búsquedas guardadas y trabajos guardados.
 
@@ -768,6 +844,7 @@ help_pages:
 help_subpages:
   changing-settings: Cambiando las configuraciones
   creating-an-account: Creando una cuenta
+  identity-verification: Verificación de identidad
   privacy-and-security: Privacidad y seguridad
   sam: SAM
   security-keys: Llaves de seguridad

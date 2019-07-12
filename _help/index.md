@@ -9,6 +9,10 @@ links:
   - name: Creating an account
     url: /help/creating-an-account/do-i-need-a-mobile-phone-to-use-logingov/
     img_url: /assets/img/create-account-light.svg
+## LG-1378 - the following section has been commented out until Proofing release 
+#  - name: Identity verification
+#    url: /help/identity-verification/do-i-need-a-mobile-phone-to-use-logingov/
+#    img_url: /assets/img/lg-1425-identity-verfication.svg
   - name: Signing in
     url: /help/signing-in/i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me/
     img_url: /assets/img/sign-in-light.svg
@@ -20,6 +24,7 @@ links:
     img_url: /assets/img/privacy-security-light.svg
   - name: Security keys
     url: /help/security-keys/what-is-a-security-key/
+    img_url: /assets/img/security-key-light.svg
   - name: Trusted Traveler Programs
     url: /help/trusted-traveler-programs/
     img_url: /assets/img/app.svg

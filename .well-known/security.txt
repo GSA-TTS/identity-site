@@ -1,0 +1,7 @@
+Contact: mailto:security@login.gov
+Contact: https://login.gov/contact/
+Contact: https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform
+Preferred-Languages: en
+Canonical: https://login.gov/.well-known/security.txt
+Policy: https://18f.gsa.gov/vulnerability-disclosure-policy/
+Hiring: https://join.tts.gsa.gov/join/security-ops-engineer/
