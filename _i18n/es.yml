@@ -515,11 +515,11 @@ help_pages:
       para recibir el correo de confirmación de login.gov. Lamentablemente, SAM no
       podrá vincular su perfil y su información a su cuenta.
     relink-my-profile: |-
-      Si no puede iniciar sesión en su cuenta de SAM porque ha perdido de forma permanente el acceso a su método de seguridad y su clave personal, puede restablecer su cuenta eliminándola.
+      Si no puede iniciar sesión en su cuenta de SAM porque ha perdido de forma permanente el acceso a su método de autenticación y su clave personal, puede restablecer su cuenta eliminándola.
 
-      Al eliminar su cuenta actual y crear una nueva, podrá utilizar la misma dirección de correo electrónico y configurar nuevas opciones de seguridad. Sin embargo, al eliminarla se desvinculará su perfil de SAM. Debe seguir los siguientes pasos para volver a vincular su cuenta:
+      Al eliminar su cuenta actual y crear una nueva, podrá utilizar la misma dirección de correo electrónico y configurar nuevas métodos de autenticación. Sin embargo, al eliminarla se desvinculará su perfil de SAM. Debe seguir los siguientes pasos para volver a vincular su cuenta:
 
-      1. Para eliminar su cuenta, inicie sesión en [https://sam.gov/](https://sam.gov/). Cuando se le pida que introduzca su código de seguridad, desplácese hasta la parte inferior de la página, hasta la sección que dice "Si no puede utilizar ninguna de las opciones de seguridad anteriores, puede restablecer sus preferencias eliminando su cuenta" y siga ese enlace.
+      1. Para eliminar su cuenta, inicie sesión en [https://sam.gov/](https://sam.gov/). Cuando se le pida que introduzca su código de seguridad, desplácese hasta la parte inferior de la página, hasta la sección que dice "Si no puede utilizar ninguna de las métodos de autenticación anteriores, puede restablecer sus preferencias eliminando su cuenta" y siga ese enlace.
       2. Lea detenidamente toda la información para asegurarse de que la única forma de restablecer los ajustes de su cuenta sea eliminando la cuenta. Seleccione "Sí, continuar con la eliminación" para proceder.
       3. Recibirá inmediatamente una confirmación por correo electrónico de que se ha recibido su solicitud de eliminación. Como medida de seguridad, recibirá otro correo electrónico con el enlace para continuar con la eliminación de su cuenta 24 horas después de que llegue la confirmación inicial.
       4. Después de eliminar su cuenta, vaya a [https://sam.gov/](https://sam.gov/) para crear una nueva cuenta.
@@ -604,9 +604,9 @@ help_pages:
 
       Si perdió el acceso a su método de autenticación principal, pero aún tiene acceso a su método de autenticación secundario, haga clic en "Elegir otra opción" al iniciar sesión. Si solo configura códigos de respaldo como su único método de autenticación, no tendrá ninguna otra. opciones para elegir y tendrá que eliminar su cuenta.
 
-      Eliminar su cuenta existente y crear una nueva le permitirá usar la misma dirección de correo electrónico y configurar nuevas opciones de seguridad. Sin embargo, al eliminar se eliminarán todas las solicitudes de agencias que haya vinculado a su cuenta y deberá restaurar cada conexión. Le recomendamos que utilice los artículos que se enumeran a continuación para aprender cómo volver a vincular su cuenta después de eliminarla.
+      Eliminar su cuenta existente y crear una nueva le permitirá usar la misma dirección de correo electrónico y configurar nuevas métodos de autenticación. Sin embargo, al eliminar se eliminarán todas las solicitudes de agencias que haya vinculado a su cuenta y deberá restaurar cada conexión. Le recomendamos que utilice los artículos que se enumeran a continuación para aprender cómo volver a vincular su cuenta después de eliminarla.
 
-      Para eliminar su cuenta, inicie sesión a través de la solicitud de su agencia o visite https://secure.login.gov/. Cuando se le solicite ingresar su código de seguridad, siga el enlace que dice "elija otra opción de seguridad". En la página siguiente, vaya a la parte inferior de la sección que dice "Si no puede usar ninguna de estas opciones de seguridad arriba, puede restablecer sus preferencias eliminando su cuenta ", y siga ese enlace.
+      Para eliminar su cuenta, inicie sesión a través de la solicitud de su agencia o visite https://secure.login.gov/. Cuando se le solicite ingresar su código de seguridad, siga el enlace que dice "elija otra método de autenticación". En la página siguiente, vaya a la parte inferior de la sección que dice "Si no puede usar ninguna de estas métodos de autenticación arriba, puede restablecer sus preferencias eliminando su cuenta ", y siga ese enlace.
 
       Lea detenidamente toda la información para asegurarse de que eliminar su cuenta sea la única forma de restablecer la configuración de su cuenta. Seleccione "Sí, continuar con la eliminación" para continuar.
 
@@ -738,11 +738,11 @@ help_pages:
 
       Si inicia sesión directamente desde login.gov, solo verá la información de su cuenta en login.gov, y no podrá ver la información de su suscripción a TTP.
     relink-my-profile: |-
-      Si no puede iniciar sesión en su cuenta de "Viajeros de confianza" porque ha perdido de forma permanente el acceso a su método de seguridad y a su clave personal, puede restablecer su cuenta, eliminándola.
+      Si no puede iniciar sesión en su cuenta de "Viajeros de confianza" porque ha perdido de forma permanente el acceso a su método de autenticación y a su clave personal, puede restablecer su cuenta, eliminándola.
 
-      Al eliminar su cuenta actual y crear una nueva, podrá utilizar la misma dirección de correo electrónico y configurar nuevas opciones de seguridad. Sin embargo, al eliminarla se desvinculará su perfil de "Viajeros de confianza". Debe seguir los siguientes pasos para volver a vincular su cuenta:
+      Al eliminar su cuenta actual y crear una nueva, podrá utilizar la misma dirección de correo electrónico y configurar nuevas métodos de autenticación. Sin embargo, al eliminarla se desvinculará su perfil de "Viajeros de confianza". Debe seguir los siguientes pasos para volver a vincular su cuenta:
 
-      1. Para eliminar su cuenta, inicie sesión en [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/).  Cuando se le pida que introduzca su código de seguridad, desplácese hasta la parte inferior de la página, a la sección que dice "Si no puede utilizar ninguna de las opciones de seguridad anteriores, puede restablecer sus preferencias eliminando su cuenta" y haga clic en ese enlace.
+      1. Para eliminar su cuenta, inicie sesión en [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/).  Cuando se le pida que introduzca su código de seguridad, desplácese hasta la parte inferior de la página, a la sección que dice "Si no puede utilizar ninguna de las métodos de autenticación anteriores, puede restablecer sus preferencias eliminando su cuenta" y haga clic en ese enlace.
       2. Lea detenidamente toda la información para asegurarse de que la única forma de restablecer los ajustes de su cuenta sea mediante la eliminación de la misma. Seleccione "Sí, continuar con la eliminación" para proceder.
       3. Recibirá inmediatamente una confirmación por correo electrónico de que se ha recibido su solicitud de eliminación. Como medida de seguridad, recibirá otro correo electrónico con el enlace para continuar con la eliminación de su cuenta 24 horas después de que llegue la confirmación inicial.
       4. Después de eliminar su cuenta, vaya a [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/) para crear una nueva cuenta.
@@ -818,7 +818,7 @@ help_pages:
       Eliminar su cuenta existente y crear una nueva le permitirá usar la misma dirección de correo electrónico y configurar nuevos métodos de autenticación. Sin embargo, si elimina su cuenta login.gov, no podrá iniciar sesión en USAJOBS (ni en ninguna otra aplicación gubernamental que esté vinculada a su cuenta login.gov) hasta que cree una nueva cuenta y la vuelva a vincular. Le tomará al menos 24 horas eliminar su cuenta.
 
       ### Borre y desvincule su perfil de login.gov de USAJOBS
-      1. Primero, inicie sesión en [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} con su nombre de usuario y contraseña. Cuando se le solicite su método de autenticación, desplácese hasta la parte inferior de la página y haga clic en "Elegir otra opción de seguridad". En la página siguiente, desplácese hacia abajo hasta "Si no puede usar ninguna de las opciones de seguridad anteriores, puede restablecer su preferencias eliminando su cuenta " y haga clic en el enlace.
+      1. Primero, inicie sesión en [https://www.usajobs.gov/](https://www.usajobs.gov/){:target="_blank"} con su nombre de usuario y contraseña. Cuando se le solicite su método de autenticación, desplácese hasta la parte inferior de la página y haga clic en "Elegir otra método de autenticación". En la página siguiente, desplácese hacia abajo hasta "Si no puede usar ninguna de las métodos de autenticación anteriores, puede restablecer su preferencias eliminando su cuenta " y haga clic en el enlace.
       2. Lea cuidadosamente toda la información para asegurarse de que eliminar su cuenta es la única forma de restablecer la configuración de su cuenta y haga clic en "Sí, continuar con la eliminación" para continuar.
       3. Inmediatamente recibirá una confirmación por correo electrónico de que se recibió su solicitud de eliminación.
       4. Como medida de seguridad, recibirá otro correo electrónico con el enlace para continuar eliminando su cuenta 24 horas después de que llegue la confirmación inicial.
@@ -1149,7 +1149,7 @@ policies:
 - section: Nuestras prácticas de seguridad
   anchor: nuestras-prácticas-de-seguridad
   content: |-
-    login.gov utiliza una variedad de métodos de seguridad para proteger este
+    login.gov utiliza una variedad de métodos de autenticación para proteger este
     servicio del Gobierno y sus datos, y para asegurar que el servicio permanezca disponible para todos los usuarios. Estos métodos incluyen el monitoreo y registro
     de tráfico de red (cualquier dato que entra y sale de login.gov) para identificar intentos no autorizados de cambiar la información o de otra manera causar daño.
 
