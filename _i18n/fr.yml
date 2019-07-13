@@ -284,14 +284,14 @@ help_pages:
 
       [Lisez comment supprimer votre compte](site.baseurl/help/changing-settings/how-do-i-delete-my-account/)
       [Lisez comment ajouter ou supprimer une adresse email](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
-      [Lisez comment réinitialiser votre mot de passe](site.baseurl/help/changing-settings/how-do-i-change-my-password/)
+      [Lisez comment réinitialiser votre mot de passe](site.baseurl/help/signing-in/how-do-i-reset-my-password/)
     how-do-i-delete-my-account: |-
       La suppression de votre compte est la première étape de la réinitialisation ou de la fusion de plusieurs comptes. Si vous n'avez pas accès à votre méthode d'authentification à deux facteurs, la suppression de votre compte prendra au moins 24 heures.
 
       Une fois votre compte supprimé, vous ne pourrez plus vous connecter aux applications gouvernementales pour lesquelles vous utilisez normalement ce compte. Vous ne perdrez pas les informations contenues dans ces profils d'application, mais vous devrez vous reconnecter à un nouveau compte login.gov pour pouvoir vous y connecter.
 
       Pour supprimer votre compte, suivez les étapes ci-dessous:
-        1. Accédez à la page de connexion de votre application gouvernementale ou à [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}.
+        1. Accédez à [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}.
         2. Connectez-vous avec votre email, mot de passe et méthode d'authentification
         3. Sur la page Votre compte, faites défiler vers le bas et cliquez sur "Supprimer".
         4. Confirmez que vous êtes sûr de vouloir supprimer votre compte en cliquant sur "Supprimer le compte".
@@ -331,11 +331,13 @@ help_pages:
         4. Sélectionnez « activer » à côté de l'appli d'authentification et suivez les instructions pour scanner ou saisir un code qui associe votre appli d'authentification à votre compte.
 
       Vous serez maintenant en mesure d'utiliser les mots de passe à utilisation unique générés par l'application chaque fois où vous vous connectez au lieu de recevoir un SMS ou un appel téléphonique. Si vous éprouvez des difficultés à configurer votre appli d'authentification, vous devez contacter le développeur de l'application directement pour obtenir de l'assistance.
-    how-do-i-change-my-email-address: Pour changer votre adresse courriel, sélectionnez
-      « Modifier » à côté de celle-ci. Entrez la nouvelle adresse courriel et soumettez-la.
-      Retrouvez ensuite le courriel de login.gov dans votre boîte. Ouvrez le courriel
-      et cliquez sur le lien fourni, ce qui vous ramènera à login.gov. Votre nouvelle
-      adresse courriel est fonctionnelle une fois de retour sur login.gov.
+    how-do-i-change-my-email-address: Pour changer l'adresse e-mail associée à votre compte
+      login.gov, allez à [https://secure.login.gov/](https://secure.login.gov/) et connectez-vous à votre compte 
+      login.gov. Cliquez sur "Ajouter un e-mail" et procédez au processus d'ajout de votre nouvelle 
+      adresse e-mail. Cliquez ensuite sur "Supprimer" en regard de l'adresse e-mail que vous
+      remplacez et procédez au processus de suppression.
+      
+      [En savoir plus sur la façon d'ajouter ou de supprimer une adresse électronique](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
     how-do-i-change-my-password: |-
       Pour changer votre mot de passe, connectez-vous à login.gov et allez à votre page de profil. Si vous souhaitez changer votre mot de passe, sélectionnez « Modifier » à côté de celui-ci, entrez le nouveau mot de passe et soumettez votre changement. Les mots de passe doivent contenir au moins 12 caractères, mais il n'y a aucune autre restriction. Vous pouvez même utiliser plus d'un mot avec des espaces pour obtenir 12 caractères.
 
