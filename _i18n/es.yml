@@ -281,14 +281,14 @@ help_pages:
 
       [Lee cómo borrar tu cuenta](site.baseurl/help/changing-settings/how-do-i-delete-my-account/)
       [Lee cómo agregar o eliminar una dirección de correo electrónico](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
-      [Lee cómo reiniciar tu contraseña](site.baseurl/help/changing-settings/how-do-i-change-my-password/)
+      [Lee cómo reiniciar tu contraseña](site.baseurl/help/signing-in/how-do-i-reset-my-password/)
     how-do-i-delete-my-account: |-
       Eliminar a tu cuenta es el primer paso para restablecerla o combinar varias cuentas. Si no tienes acceso a tu método de autenticación de dos factores, tardaras al menos 24 horas en eliminar tu cuenta.
 
       Después de eliminar tu cuenta, no podrás iniciar sesión en las aplicaciones gubernamentales por las que normalmente utilizas esta cuenta. No perderás la información en esos perfiles de aplicación, pero deberás volver a vincular una nueva cuenta de login.gov para poder iniciar sesión en ellos.
 
       Para eliminar tu cuenta, sigue los pasos a continuación:
-        1. Ve a la página de inicio de sesión de tu aplicacion gubernamental o [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
+        1. Ve a [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
         2. Inicia sesión con tu correo electrónico, contraseña y método de autenticación
         3. En la página Tu cuenta, avanza hasta la parte inferior y haz clic en "Eliminar"
         4. Confirma que estás seguro de que deseas eliminar tu cuenta haciendo clic en "Eliminar cuenta"
@@ -328,11 +328,13 @@ help_pages:
         4. Seleccione "habilitar" junto a la aplicación de autenticación y siga las instrucciones para escanear o introducir un código que vincule su aplicación de autenticación con su cuenta.
 
       Ahora podrá utilizar las contraseñas de un solo uso generadas por la aplicación cada vez que inicie sesión, en lugar de recibir un mensaje de texto o una llamada telefónica. Si tiene problemas para configurar la aplicación de autenticación, deberá ponerse en contacto directamente con el desarrollador de la aplicación para obtener ayuda.
-    how-do-i-change-my-email-address: Ingrese a login.gov y vaya a su página de perfil.
-      Para cambiar su email, seleccione Editar al lado del email. Ingrese un email
-      nuevo y envíelo, luego revise su cuenta de email y busque el email de login.gov.
-      Abra el email que le enviamos y haga clic en el enlace adentro. Este enlace
-      lo redireccionará de nuevo a login.gov y así su email nuevo será establecido.
+    how-do-i-change-my-email-address: Para cambiar la dirección de correo electrónico 
+      asociada con su cuenta de login.gov, vaya a [https://secure.login.gov/](https://secure.login.gov/)
+      e inicie sesión en su cuenta login.gov. Haga clic en "Agregar correo electrónico" y continúe con
+      el proceso de agregar su nueva dirección de correo electrónico. Luego, haga clic en "Eliminar" junto 
+      a la dirección de correo electrónico que está reemplazando y pase por el proceso de eliminación.
+      
+      [Lea más sobre cómo agregar o eliminar una dirección de correo electrónico](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
     how-do-i-change-my-password: |-
       Para cambiar su contraseña, ingrese a login.gov y vaya a su página de perfil. Si desea cambiar su contraseña, seleccione Editar junto a la contraseña. Ingrese la contraseña nueva y envíe su cambio. Las contraseñas deben tener al menos 12 caracteres, pero de lo contrario no hay restricciones. Usted incluso puede utilizar más de una palabra con espacios para llegar a 12 caracteres.
 
