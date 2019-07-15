@@ -59,7 +59,7 @@ contact_page:
       invalid_email: Número no válido
       invalid_otp: Pedido de pago no válido
       locked_out: Bloqueado
-      lost_2fa_method: Método 2FA (autenticación de dos factores) perdido
+      lost_2fa_method: Método autenticación de dos factores perdido
       multiple_otps: Múltiples pedidos de pago
       new_account: Nueva cuenta
       new_personal_key: Nueva clave personal
