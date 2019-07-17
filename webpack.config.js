@@ -1,9 +1,12 @@
 var webpack = require('webpack');
 
 module.exports = {
+  mode: 'production',
+
   entry: {
     'site': './assets/js/main.js'
   },
+
   output: {
     filename: 'bundle.js',
     path: __dirname + '/assets/js/build'
@@ -12,26 +15,26 @@ module.exports = {
   devtool: '#cheap-module-eval-source-map',
 
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
-        query: {
-          presets: ['es2015'],
+        options: {
+          presets: ['@babel/preset-env']
         }
-      },
+      }
     ]
   },
 
   plugins: [
     new webpack.ProvidePlugin({
-        $: 'jquery',
-        jQuery: 'jquery'
+      $: 'jquery',
+      jQuery: 'jquery'
     })
   ],
 
   resolve: {
-    extensions: ['', '.js']
+    extensions: ['.js']
   }
 };

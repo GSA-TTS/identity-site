@@ -4,10 +4,10 @@
   "description": "login.gov static site",
   "scripts": {
     "build-css": "`npm bin`/node-sass --include-path node_modules --include-path _sass --output-style compressed assets/stylesheets/main.scss assets/stylesheets/build/main.css",
-    "build-js": "webpack --config --progress --colors",
+    "build-js": "webpack --progress --colors",
     "federalist": "npm run build-css && npm run build-js",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "watch-js": "webpack -w --config --progress --colors"
+    "watch-js": "webpack -w --progress --colors"
   },
   "repository": {
     "type": "git",
@@ -26,20 +26,20 @@
   "main": "webpack.config.js",
   "keywords": [],
   "devDependencies": {
-    "nodemon": "^1.15.1"
+    "nodemon": "^1.19.1",
+    "webpack-cli": "^3.3.6"
   },
   "dependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "7.4.5",
     "aria-accordion": "^1.1.0",
-    "babel-core": "^6.14.0",
-    "babel-loader": "^6.2.5",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
-    "babel-preset-es2015": "^6.14.0",
+    "babel-loader": "^8.0.6",
     "basscss-sass": "^3.0.0",
-    "bootstrap": "^3.4.0",
-    "hint.css": "^2.5.0",
-    "jquery": "^3.4.0",
-    "node-sass": "^4.9.3",
-    "normalize.css": "^4.2.0",
-    "webpack": "^1.13.2"
+    "bootstrap": "^3.4.1",
+    "hint.css": "^2.6.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "webpack": "^4.36.1"
   }
 }

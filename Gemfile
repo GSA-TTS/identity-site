@@ -11,6 +11,6 @@ group :development do
   gem 'rb-readline'
 end
 group :test do
-  gem 'rspec', '~> 3.5.0'
-  gem 'nokogiri', '~> 1.8'
+  gem 'rspec', '~> 3.8'
+  gem 'nokogiri', '~> 1.10'
 end
