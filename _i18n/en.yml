@@ -302,7 +302,7 @@ help_pages:
       [Read how to relink your Trusted Traveler profile](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
       [Read how to relink your SAM profile](site.baseurl/help/sam/relink-my-profile)
     how-do-I-get-a-new-personal-key: |-
-      We are currently in the process of retiring personal keys. It is highly suggested you configure one or more additional second factor authentication methods. To do so log into your account page and request backup codes, configure a phone, register a security key, configure an authentication app, or, if you are a government employee, attach your PIV/CAC card to your account.
+      We are currently in the process of retiring personal keys. It is highly suggested you configure one or more additional second factor authentication methods. To do so sign in to your account page and request backup codes, configure a phone, register a security key, configure an authentication app, or, if you are a government employee, attach your PIV/CAC card to your account.
 
       If you have a valid personal key you will still be able to use it in the case you have lost your other authentication mechanism. Once you use the personal key however you will no longer be generated a new one. Instead you will have to configure a different authentication mechanism. After entering your personal key you will be redirected to a screen that will prompt you to choose one or more additional authentication mechanisms.
     how-do-I-set-up-an-authentication-app: |-
@@ -384,7 +384,7 @@ help_pages:
       <img src="site.baseurl/assets/img/help/security_key.png" class="mt3 mb3 block" alt="Security key help image" />
 
       #### Backup codes
-      Backup codes are another method of authentication. When you elect to use the backup codes as your 2nd factor, login.gov will generate a set of 10 codes. After you log in with your username and password, you will be prompted for a code. Each code may only be used once, once the 10th code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of attention as you would your password.
+      Backup codes are another method of authentication. When you elect to use the backup codes as your 2nd factor, login.gov will generate a set of 10 codes. After you sign in with your username and password, you will be prompted for a code. Each code may only be used once, once the 10th code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of attention as you would your password.
 
       <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
     how-do-i-create-an-account-with-only-one-two-factor-authenticator: |-
@@ -556,7 +556,7 @@ help_pages:
 
       login.gov links to external federal government sites for services provided by those agencies. Those sites are subject to their own privacy policy, which is usually spelled out in a privacy policy and legal disclaimer available on their website.
 
-      Individual accounts get a double layer of security. We require two-factor authentication as well as strong passwords that meet new [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"} requirements for secure validation and verification. This includes two-factor authentication that requires you log in with your password and a security code you receive on your phone. Two-factor authentication can help protect your account against password compromises.
+      Individual accounts get a double layer of security. We require two-factor authentication as well as strong passwords that meet new [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"} requirements for secure validation and verification. This includes two-factor authentication that requires you sign in with your password and a security code you receive on your phone. Two-factor authentication can help protect your account against password compromises.
 
       Your information will stay secure. For more information, read our [security and privacy policy](site.baseurl/policy).
     will-logingov-share-my-information: login.gov cannot share any information with
@@ -637,11 +637,11 @@ help_pages:
       message, authentication app, or a security key. A security key is the most secure
       two-factor method.
     does-using-a-security-key-mean-im-completely-safe-from-phishing: |-
-      Adding a security key to your login.gov account and consistently using it to log in will dramatically increase your safety from phishing attacks.
+      Adding a security key to your login.gov account and consistently using it to sign in will dramatically increase your safety from phishing attacks.
 
       However, your account may have other two-factor methods enabled, and login.gov provides all users a recovery key, any of which could also be used to gain access to your account.
 
-      If you have a security key enabled, login.gov will ask you to use it first, every time you log in. If you are not asked to use a security key during the login process, this could be a warning that you are not at the real login.gov website. To stay safe when using login.gov, expect to use your security key consistently to log in.
+      If you have a security key enabled, login.gov will ask you to use it first, every time you sign in. If you are not asked to use a security key during the login process, this could be a warning that you are not at the real login.gov website. To stay safe when using login.gov, expect to use your security key consistently to sign in.
     how-do-i-protect-my-logingov-account-with-a-security-key: |-
       To set up a security key with your login.gov account, you must first have a security key that supports the [FIDO standard](https://fidoalliance.org/fido2/){:target="_blank"}. If you don’t currently have a login.gov account, you will be given the option to secure your account using a security key during account creation. Once you have confirmed your email address and created your password, select “Security key” and follow the instructions to give your key a nickname, connect the key to register it.
 
@@ -712,7 +712,7 @@ help_pages:
 
       For additional help, you can [submit a support ticket] (https://login.gov/contact)
     what-do-i-need-to-have-in-order-to-sign-in: |-
-      Every time you log into your account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up. After you enter your email address and password to sign in, login.gov will ask you to authenticate (enter a security code sent to your phone by voice or text, enter the security code from your authentication application, enter a backup code, use your security key, or use your government PIV/CAC card).
+      Every time you sign in to your account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up. After you enter your email address and password to sign in, login.gov will ask you to authenticate (enter a security code sent to your phone by voice or text, enter the security code from your authentication application, enter a backup code, use your security key, or use your government PIV/CAC card).
     what-is-an-authentication-app: |-
       Authentication apps generate security codes for signing in to sites that require a high level of security. You can use these apps to get security codes even if you don’t have an internet connection or mobile service.
       You can set up an authentication app to generate your login.gov security code. First, you’ll need to download an authentication app to your computer or phone. After installing and configuring the application to work with login.gov, you will be able to receive security codes without a phone number. Some options for authentication apps include:
