@@ -4,90 +4,93 @@
 -->
 
 <script>
-function dynamicdropdown(listindex) {
-  document.getElementById('sub-topic').options.length = 0;
-  switch (listindex) {
-    case "Account Linking":
-      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
-      break;
-    case "Changing Settings":
-      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
-      document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.authentication_app_setup %}", "Authentication app setup");
-      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.backup_codes %}", "Backup codes");
-      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.change_password %}", "Change password");
-      document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.change_email %}", "Change email");
-      document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.change_phone_number %}", "Change phone number");
-      document.getElementById("sub-topic").options[5] = new Option("{% t contact_page.support_request_form.subtopics.delete_account %}", "Delete account");
-      document.getElementById("sub-topic").options[6] = new Option("{% t contact_page.support_request_form.subtopics.new_personal_key %}", "New personal key");
-      document.getElementById("sub-topic").options[7] = new Option("{% t contact_page.support_request_form.subtopics.site_navigation %}", "Site navigation");
-      document.getElementById("sub-topic").options[8] = new Option("{% t contact_page.support_request_form.subtopics.wrong_account_update %}", "Wrong account update");
-      document.getElementById("sub-topic").options[9] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
-      break;
-    case "Creating Account":
-      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
-      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.backup_codes %}", "Backup codes");
-      document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.site_navigation %}", "Site navigation");
-      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.email_delivery_issue %}", "Email delivery issue");
-      document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.invalid_email %}", "Invalid email");
-      document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.password_issue %}", "Password issue");
-      document.getElementById("sub-topic").options[5] = new Option("{% t contact_page.support_request_form.subtopics.no_phone %}", "No phone");
-      document.getElementById("sub-topic").options[6] = new Option("{% t contact_page.support_request_form.subtopics.new_account %}", "New account");
-      document.getElementById("sub-topic").options[7] = new Option("{% t contact_page.support_request_form.subtopics.authentication_app_setup %}", "Authentication app setup");
-      document.getElementById("sub-topic").options[8] = new Option("{% t contact_page.support_request_form.subtopics.personal_key_setup %}", "Personal key setup");
-      document.getElementById("sub-topic").options[9] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
-      break;
-    case "Login.gov system":
-      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
-      document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.privacy_and_security %}", "Privacy and Security");
-      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.service_quality %}", "Service quality");
-      document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
-      break;
-    case "MFA (Multi Factor Authentication)":
-      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
-      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.backup_codes %}", "Backup codes");
-      document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.international_number %}", "International number");
-      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.no_otp_received %}", "No OTP received");
-      document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.invalid_otp %}", "Invalid OTP");
-      document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.unwanted_otp %}", "Unwanted OTP");
-      document.getElementById("sub-topic").options[5] = new Option("{% t contact_page.support_request_form.subtopics.multiple_otps %}", "Multiple OTPs");
-      document.getElementById("sub-topic").options[6] = new Option("{% t contact_page.support_request_form.subtopics.authentication_app %}", "Authentication app");
-      document.getElementById("sub-topic").options[7] = new Option("{% t contact_page.support_request_form.subtopics.lost_2fa_method %}", "Lost 2FA method");
-      document.getElementById("sub-topic").options[8] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
-      break;
-    case "Not login.gov":
-      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
-      document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.agency_app %}", "Agency app issue");
-      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
-      break;
-    case "Other":
-      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
-      break;
-    case "PIV/CAC Issue":
-      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
-      break;
-    case "Signing In":
-      document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
-      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.backup_codes %}", "Backup codes");
-      document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.site_navigation %}", "Site navigation");
-      document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.forgot_password %}", "Forgot password");
-      document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.personal_key %}", "Personal key");
-      document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.locked_out %}", "Locked out");
-      document.getElementById("sub-topic").options[5] = new Option("{% t contact_page.support_request_form.subtopics.remember_device_issue %}", "Remember device issue");
-      document.getElementById("sub-topic").options[6] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
-      break;
+  function dynamicdropdown(listindex) {
+    document.getElementById('sub-topic').options.length = 0;
+    switch (listindex) {
+      case "Account Linking":
+        document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+        break;
+      case "Changing Settings":
+        document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+        document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.authentication_app_setup %}", "Authentication app setup");
+        document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.backup_codes %}", "Backup codes");
+        document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.change_password %}", "Change password");
+        document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.change_email %}", "Change email");
+        document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.change_phone_number %}", "Change phone number");
+        document.getElementById("sub-topic").options[5] = new Option("{% t contact_page.support_request_form.subtopics.delete_account %}", "Delete account");
+        document.getElementById("sub-topic").options[6] = new Option("{% t contact_page.support_request_form.subtopics.new_personal_key %}", "New personal key");
+        document.getElementById("sub-topic").options[7] = new Option("{% t contact_page.support_request_form.subtopics.site_navigation %}", "Site navigation");
+        document.getElementById("sub-topic").options[8] = new Option("{% t contact_page.support_request_form.subtopics.wrong_account_update %}", "Wrong account update");
+        document.getElementById("sub-topic").options[9] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
+        break;
+      case "Creating Account":
+        document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+        document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.backup_codes %}", "Backup codes");
+        document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.site_navigation %}", "Site navigation");
+        document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.email_delivery_issue %}", "Email delivery issue");
+        document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.invalid_email %}", "Invalid email");
+        document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.password_issue %}", "Password issue");
+        document.getElementById("sub-topic").options[5] = new Option("{% t contact_page.support_request_form.subtopics.no_phone %}", "No phone");
+        document.getElementById("sub-topic").options[6] = new Option("{% t contact_page.support_request_form.subtopics.new_account %}", "New account");
+        document.getElementById("sub-topic").options[7] = new Option("{% t contact_page.support_request_form.subtopics.authentication_app_setup %}", "Authentication app setup");
+        document.getElementById("sub-topic").options[8] = new Option("{% t contact_page.support_request_form.subtopics.personal_key_setup %}", "Personal key setup");
+        document.getElementById("sub-topic").options[9] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
+        break;
+      case "Login.gov system":
+        document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+        document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.privacy_and_security %}", "Privacy and Security");
+        document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.service_quality %}", "Service quality");
+        document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
+        break;
+      case "MFA (Multi Factor Authentication)":
+        document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+        document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.backup_codes %}", "Backup codes");
+        document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.international_number %}", "International number");
+        document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.no_otp_received %}", "No OTP received");
+        document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.invalid_otp %}", "Invalid OTP");
+        document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.unwanted_otp %}", "Unwanted OTP");
+        document.getElementById("sub-topic").options[5] = new Option("{% t contact_page.support_request_form.subtopics.multiple_otps %}", "Multiple OTPs");
+        document.getElementById("sub-topic").options[6] = new Option("{% t contact_page.support_request_form.subtopics.authentication_app %}", "Authentication app");
+        document.getElementById("sub-topic").options[7] = new Option("{% t contact_page.support_request_form.subtopics.lost_2fa_method %}", "Lost 2FA method");
+        document.getElementById("sub-topic").options[8] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
+        break;
+      case "Not login.gov":
+        document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+        document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.agency_app %}", "Agency app issue");
+        document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
+        break;
+      case "Other":
+        document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+        break;
+      case "PIV/CAC Issue":
+        document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+        break;
+      case "Signing In":
+        document.getElementById("sub-topic").options[0] = new Option("{% t contact_page.support_request_form.subtopics.none %}", "");
+        document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.backup_codes %}", "Backup codes");
+        document.getElementById("sub-topic").options[1] = new Option("{% t contact_page.support_request_form.subtopics.site_navigation %}", "Site navigation");
+        document.getElementById("sub-topic").options[2] = new Option("{% t contact_page.support_request_form.subtopics.forgot_password %}", "Forgot password");
+        document.getElementById("sub-topic").options[3] = new Option("{% t contact_page.support_request_form.subtopics.personal_key %}", "Personal key");
+        document.getElementById("sub-topic").options[4] = new Option("{% t contact_page.support_request_form.subtopics.locked_out %}", "Locked out");
+        document.getElementById("sub-topic").options[5] = new Option("{% t contact_page.support_request_form.subtopics.remember_device_issue %}", "Remember device issue");
+        document.getElementById("sub-topic").options[6] = new Option("{% t contact_page.support_request_form.subtopics.other %}", "Other");
+        break;
+    }
+    return true;
   }
-  return true;
-}
 
-function timestamp() {
-    var response = document.getElementById("g-recaptcha-response");
-    if (response == null || response.value.trim() == "") {
-        var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
+  function timestamp() {
+    let response = document.getElementById("g-recaptcha-response");
+    if (response == null || response.value == null || response.value.trim().length > 0) {
+      if (document.getElementsByName("captcha_settings")[0] != null) {
+        let elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
         elems["ts"] = JSON.stringify(new Date().getTime());
         document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems);
+      }
     }
-}
-setInterval(timestamp, 500);
+  }
+
+  setInterval(timestamp, 500);
 </script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
 
@@ -101,17 +104,41 @@ setInterval(timestamp, 500);
     <select class='block sm-col-6 mb2 field select required' id="00Nt0000000OYA2" name="00Nt0000000OYA2" title="Agency Application" required="true" placeholder="Select Agency">
       <option value="" selected hidden>{% t contact_page.support_request_form.form_helpers.select_one %}</option>
       <option value="CBP Jobs">{% t contact_page.support_request_form.agencies.cbp_jobs %}</option>
-      <option value="CBP ROAM">{% t contact_page.support_request_form.agencies.cbp_roam %}</option>
       <option value="DoT NRCME">{% t contact_page.support_request_form.agencies.dot_nrcme %}</option>
       <option value="DoT Portal">{% t contact_page.support_request_form.agencies.dot_portal %}</option>
       <option value="Move.mil">{% t contact_page.support_request_form.agencies.move_mil %}</option>
-      <option value="MyCBP Employee Portal">{% t contact_page.support_request_form.agencies.my_cbp_employee_portal %}</option>
-      <option value="NGA">{% t contact_page.support_request_form.agencies.nga %}</option>
+      <option value="MyCBP Employee Portal">{% t contact_page.support_request_form.agencies.dhs_my_cbp_employee_portal %}</option>
+      <option value="NGA HiPER CLOUD">{% t contact_page.support_request_form.agencies.nga_hiper %}</option>
       <option value="Railroad Retirement Board">{% t contact_page.support_request_form.agencies.railroad_retirement_board %}</option>
-      <option value="SAM.gov">{% t contact_page.support_request_form.agencies.sam %}</option>
-      <option value="Trusted Traveler Program">{% t contact_page.support_request_form.agencies.trusted_traveler_program %}</option>
-      <option value="USAJobs">{% t contact_page.support_request_form.agencies.usajobs %}</option>
+      <option value="SAM.gov">{% t contact_page.support_request_form.agencies.gsa_sam %}</option>
+      <option value="Trusted Traveler Program">{% t contact_page.support_request_form.agencies.dhs_ttp %}</option>
+      <option value="USAJobs">{% t contact_page.support_request_form.agencies.opm_usajobs %}</option>
       <option value="Other">{% t contact_page.support_request_form.agencies.other %}</option>
+      <option value="Tibco (OPM)">{% t contact_page.support_request_form.agencies.opm_tibco %}</option>
+      <option value="I94 (DHS)">{% t contact_page.support_request_form.agencies.dhs_i94 %}</option>
+      <option value="Homes.mil (Navy)">{% t contact_page.support_request_form.agencies.navy_homes_mil %}</option>
+      <option value="Natural Gas Import/Export Portal (DOE)">{% t contact_page.support_request_form.agencies.doe_ngiep %}</option>
+      <option value="Foreign Labor Application Gateway (DOL)">{% t contact_page.support_request_form.agencies.dol_falg %}</option>
+      <option value="Apprenticeship.gov (DOL)">{% t contact_page.support_request_form.agencies.dol_apprenticeship %}</option>
+      <option value="LMS (DOT)">{% t contact_page.support_request_form.agencies.dot_lms %}</option>
+      <option value="ESC Delphi eInvoicing (FAA)">{% t contact_page.support_request_form.agencies.faa_delphi %}</option>
+      <option value="FMCSA’s Appian (DOT)">{% t contact_page.support_request_form.agencies.dot_appian %}</option>
+      <option value="FMCSA National Registry (DOT)">{% t contact_page.support_request_form.agencies.dot_fmcsa %}</option>
+      <option value="Section 3 Job Portal (HUD)">{% t contact_page.support_request_form.agencies.hud_s3jobs %}</option>
+      <option value="GEOINT Viewer (NGA)">{% t contact_page.support_request_form.agencies.ngs_geoint_viewer %}</option>
+      <option value="GEOWorks Landing Page (NGA)">{% t contact_page.support_request_form.agencies.nsa_geoworks %}</option>
+      <option value="NOME (NGA)">{% t contact_page.support_request_form.agencies.nga_home %}</option>
+      <option value="MAGE (NGA)">{% t contact_page.support_request_form.agencies.nga_mage %}</option>
+      <option value="GEOWorks Symphony (NGA)">{% t contact_page.support_request_form.agencies.nga_geoworks_sym %}</option>
+      <option value="ROME (NGA)">{% t contact_page.support_request_form.agencies.nga_rome %}</option>
+      <option value="Api.data.gov (GSA)">{% t contact_page.support_request_form.agencies.gsa_api %}</option>
+      <option value="19D-1 (SEC)">{% t contact_page.support_request_form.agencies.sec_19d %}</option>
+      <option value="My.move.mil (DOD)">{% t contact_page.support_request_form.agencies.dod_my_move %}</option>
+      <option value="Office.move.mil (DOD)">{% t contact_page.support_request_form.agencies.dod_office_move %}</option>
+      <option value="Tsp.move.mil (DOD)">{% t contact_page.support_request_form.agencies.dod_tsp_move %}</option>
+      <option value="Admin.move.mil (DOD)">{% t contact_page.support_request_form.agencies.dod_admin_move %}</option>
+      <option value="DIS (USAID)">{% t contact_page.support_request_form.agencies.usaid_dis %}</option>
+      <option value="National Labor Relations Board (NLRB)">{% t contact_page.support_request_form.agencies.nlrb %}</option>
     </select>
   </div>
   <div class="lg-col lg-col-12">

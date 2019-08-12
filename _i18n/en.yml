@@ -23,19 +23,43 @@ contact_page:
     For questions about the Trusted Traveler Programs (Global Entry, GOES, Sentri, or Nexus), [please contact CBP](https://help.cbp.gov/app/ask){:target="_blank"}.
   support_request_form:
     agencies:
-      cbp_jobs: CBP Jobs
-      cbp_roam: CBP Roam
-      dot_nrcme: DoT NRCME
-      dot_portal: DoT Portal
-      move_mil: Move.mil
-      my_cbp_employee_portal: MyCBP Employee Portal
-      nga: NGA
+      cbp_jobs: CBP Jobs (DHS)
+      dot_nrcme: NRCME (DOT)
+      dot_portal: FMCSA Portal (DOT)
+      move_mil: Move.mil (Navy)
+      dhs_my_cbp_employee_portal: MyCBP Employee Portal (DHS)
+      nga_hiper: HiPER CLOUD (NGA)
       other: Other
-      railroad_retirement_board: Railroad Retirement Board
-      sam: SAM.gov
-      trusted_traveler_program: Trusted Traveler Program
-      usajobs: USAJOBS
-      usss_pix: USSS PIX
+      railroad_retirement_board: Online Retirement Application (RBB)
+      gsa_sam: SAM.gov (GSA)
+      dhs_ttp: Trusted Traveler Programs (TTP) (DHS)
+      opm_usajobs: USAJOBS (OPM)
+      opm_tibco: Tibco (OPM)
+      dhs_i94: I94 (DHS)
+      navy_homes_mil: Homes.mil (Navy)
+      doe_ ngiep: Natural Gas Import/Export Portal (DOE)
+      dol_falg: Foreign Labor Application Gateway (DOL)
+      dol_apprenticeship: Apprenticeship.gov (DOL)
+      dot_lms: LMS (DOT)
+      faa_delphi: ESC Delphi eInvoicing (FAA)
+      dot_appian: FMCSA’s Appian (DOT)
+      dot_fmcsa: FMCSA National Registry (DOT)
+      hud_s3jobs: Section 3 Job Portal (HUD)
+      ngs_hiper: HiPER CLOUD (NGA)
+      ngs_geoint_viewer: GEOINT Viewer (NGA)
+      nsa_geoworks: GEOWorks Landing Page (NGA)
+      nga_home: NOME (NGA)
+      nga_mage: MAGE (NGA)
+      nga_geoworks_sym: GEOWorks Symphony (NGA)
+      nga_rome: ROME (NGA)
+      gsa_api: Api.data.gov (GSA)
+      sec_19d: 19D-1 (SEC)
+      dod_my_move: My.move.mil (DOD)
+      dod_office_move: Office.move.mil (DOD)
+      dod_tsp_move: Tsp.move.mil (DOD)
+      dod_admin_move: Admin.move.mil (DOD)
+      usaid_dis: DIS (USAID)
+      nlrb: National Labor Relations Board (NLRB)
     instructions: Let us know a bit about the problem you’re experiencing and we’ll
       get back to you soon
     form_helpers:

@@ -18,19 +18,43 @@ contact_page:
     Para preguntas acerca de crear una cuenta o iniciar sesión con login.gov, busque respuestas a preguntas comunes. Para otras preguntas, por favor contáctenos: [hello@login.gov](mailto:hello@login.gov). Tenga en cuenta que estamos experimentando un gran volumen de solicitudes, por lo que puede tardar varios días en comunicarnos con usted.
   support_request_form:
     agencies:
-      cbp_jobs: CBP Jobs
-      cbp_roam: CBP Roam
-      dot_nrcme: DoT NRCME
-      dot_portal: DoT Portal
-      move_mil: Move.mil
-      my_cbp_employee_portal: MyCBP Employee Portal
-      nga: NGA
-      other: Other
-      railroad_retirement_board: Railroad Retirement Board
-      sam: SAM.gov
-      trusted_traveler_program: Trusted Traveler Program
-      usajobs: USAJOBS
-      usss_pix: USSS PIX
+      cbp_jobs: CBP Jobs (DHS)
+        dot_nrcme: NRCME (DOT)
+        dot_portal: FMCSA Portal (DOT)
+        move_mil: Move.mil (Navy)
+        dhs_my_cbp_employee_portal: MyCBP Employee Portal (DHS)
+        nga_hiper: HiPER CLOUD (NGA)
+        other: Other
+        railroad_retirement_board: Online Retirement Application (RBB)
+        gsa_sam: SAM.gov (GSA)
+        dhs_ttp: Trusted Traveler Programs (TTP) (DHS)
+        opm_usajobs: USAJOBS (OPM)
+        opm_tibco: Tibco (OPM)
+        dhs_i94: I94 (DHS)
+        navy_homes_mil: Homes.mil (Navy)
+        doe_ ngiep: Natural Gas Import/Export Portal (DOE)
+        dol_falg: Foreign Labor Application Gateway (DOL)
+        dol_apprenticeship: Apprenticeship.gov (DOL)
+        dot_lms: LMS (DOT)
+        faa_delphi: ESC Delphi eInvoicing (FAA)
+        dot_appian: FMCSA’s Appian (DOT)
+        dot_fmcsa: FMCSA National Registry (DOT)
+        hud_s3jobs: Section 3 Job Portal (HUD)
+        ngs_hiper: HiPER CLOUD (NGA)
+        ngs_geoint_viewer: GEOINT Viewer (NGA)
+        nsa_geoworks: GEOWorks Landing Page (NGA)
+        nga_home: NOME (NGA)
+        nga_mage: MAGE (NGA)
+        nga_geoworks_sym: GEOWorks Symphony (NGA)
+        nga_rome: ROME (NGA)
+        gsa_api: Api.data.gov (GSA)
+        sec_19d: 19D-1 (SEC)
+        dod_my_move: My.move.mil (DOD)
+        dod_office_move: Office.move.mil (DOD)
+        dod_tsp_move: Tsp.move.mil (DOD)
+        dod_admin_move: Admin.move.mil (DOD)
+        usaid_dis: DIS (USAID)
+        nlrb: National Labor Relations Board (NLRB)
     instructions: Cuéntanos un poco sobre el problema que estás experimentando y te
       responderemos pronto
     form_helpers:
