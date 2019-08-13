@@ -332,11 +332,11 @@ help_pages:
 
       Vous serez maintenant en mesure d'utiliser les mots de passe à utilisation unique générés par l'application chaque fois où vous vous connectez au lieu de recevoir un SMS ou un appel téléphonique. Si vous éprouvez des difficultés à configurer votre appli d'authentification, vous devez contacter le développeur de l'application directement pour obtenir de l'assistance.
     how-do-i-change-my-email-address: Pour changer l'adresse e-mail associée à votre compte
-      login.gov, allez à [https://secure.login.gov/](https://secure.login.gov/) et connectez-vous à votre compte 
-      login.gov. Cliquez sur "Ajouter un e-mail" et procédez au processus d'ajout de votre nouvelle 
+      login.gov, allez à [https://secure.login.gov/](https://secure.login.gov/) et connectez-vous à votre compte
+      login.gov. Cliquez sur "Ajouter un e-mail" et procédez au processus d'ajout de votre nouvelle
       adresse e-mail. Cliquez ensuite sur "Supprimer" en regard de l'adresse e-mail que vous
       remplacez et procédez au processus de suppression.
-      
+
       [En savoir plus sur la façon d'ajouter ou de supprimer une adresse électronique](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
     how-do-i-change-my-password: |-
       Pour changer votre mot de passe, connectez-vous à login.gov et allez à votre page de profil. Si vous souhaitez changer votre mot de passe, sélectionnez « Modifier » à côté de celui-ci, entrez le nouveau mot de passe et soumettez votre changement. Les mots de passe doivent contenir au moins 12 caractères, mais il n'y a aucune autre restriction. Vous pouvez même utiliser plus d'un mot avec des espaces pour obtenir 12 caractères.
@@ -1197,7 +1197,7 @@ policies:
 
     #### Objectif
 
-    L'information que vous soumettez est utilisée pour créer ou mettre à jour votre compte login.gov. Une fois que vous avez créé votre compte, avec votre consentement, login.gov partagera votre adresse courriel avec l'agence partenaire pour fournir un accès en ligne à l'information et aux services du gouvernement.
+    L'information que vous soumettez est utilisée pour créer ou mettre à jour votre compte login.gov. Une fois que vous avez créé votre compte, avec votre consentement, login.gov partagera votre adresse courriel avec l'agence partenaire pour fournir un accès en ligne à l'information et aux services du gouvernement. De plus, si vous accédez à une application gouvernementale nécessitant une preuve d'identité, les informations supplémentaires que vous soumettez seront utilisées pour vérifier votre identité.
 
     #### Divulgation
 
@@ -1250,7 +1250,11 @@ policy_page:
       avec chaque agence fédérale (« agence partenaire ») auprès de laquelle vous
       cherchez à obtenir de l'information et des services. Nous recueillons votre
       numéro de téléphone afin de permettre une authentification à deux facteurs comme
-      mesure de sécurité pour votre compte login.gov.
+      mesure de sécurité pour votre compte login.gov. Si vous vous connectez à
+      une application gouvernementale nécessitant une preuve d'identité,
+      login.gov collectera, utilisera, conservera et partagera des informations
+      personnelles supplémentaires identifiables dans le seul but
+      de prouver votre identité.
 principles_page:
   heading_1: Les principes du guide de mise en œuvre de l'identité
   heading_2: Axé sur les besoins des utilisateurs

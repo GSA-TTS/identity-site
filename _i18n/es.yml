@@ -328,12 +328,12 @@ help_pages:
         4. Seleccione "habilitar" junto a la aplicación de autenticación y siga las instrucciones para escanear o introducir un código que vincule su aplicación de autenticación con su cuenta.
 
       Ahora podrá utilizar las contraseñas de un solo uso generadas por la aplicación cada vez que inicie sesión, en lugar de recibir un mensaje de texto o una llamada telefónica. Si tiene problemas para configurar la aplicación de autenticación, deberá ponerse en contacto directamente con el desarrollador de la aplicación para obtener ayuda.
-    how-do-i-change-my-email-address: Para cambiar la dirección de correo electrónico 
+    how-do-i-change-my-email-address: Para cambiar la dirección de correo electrónico
       asociada con su cuenta de login.gov, vaya a [https://secure.login.gov/](https://secure.login.gov/)
       e inicie sesión en su cuenta login.gov. Haga clic en "Agregar correo electrónico" y continúe con
-      el proceso de agregar su nueva dirección de correo electrónico. Luego, haga clic en "Eliminar" junto 
+      el proceso de agregar su nueva dirección de correo electrónico. Luego, haga clic en "Eliminar" junto
       a la dirección de correo electrónico que está reemplazando y pase por el proceso de eliminación.
-      
+
       [Lea más sobre cómo agregar o eliminar una dirección de correo electrónico](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
     how-do-i-change-my-password: |-
       Para cambiar su contraseña, ingrese a login.gov y vaya a su página de perfil. Si desea cambiar su contraseña, seleccione Editar junto a la contraseña. Ingrese la contraseña nueva y envíe su cambio. Las contraseñas deben tener al menos 12 caracteres, pero de lo contrario no hay restricciones. Usted incluso puede utilizar más de una palabra con espacios para llegar a 12 caracteres.
@@ -1173,7 +1173,9 @@ policies:
     #### Propósito
     La información que usted envía se utiliza para crear o actualizar su cuenta de login.gov.
     Una vez que creada su cuenta, con su consentimiento, login.gov compartirá su email con la
-    agencia asociada para proveer acceso en línea a información y servicios gubernamentales.
+    agencia asociada para proveer acceso en línea a información y servicios gubernamentales. 
+    Además, si está accediendo a una aplicación gubernamental que requiere pruebas de
+    identidad, la información adicional que usted envíe se utilizara para verificar su identidad.
 
     #### Divulgación
     Usted decide qué información nos da. Sin embargo, la falta de información
@@ -1231,7 +1233,18 @@ policy_page:
       Su privacidad es muy importante para nosotros. Le proveemos nuestra política de privacidad para que usted tenga conocimiento de la información que recopilamos, por qué la recopilamos y qué hacemos con ella. Login.gov no recopila su email o número de teléfono, a menos que usted elija proporcionarlo.
       Recopilamos otra información limitada automáticamente de los visitantes que leen o navegan la información de nuestro sitio. Hacemos esto para entender mejor cómo se utiliza el sitio y cómo podemos hacerlo más servicial.
     p_2: |-
-      Si crea una cuenta, login.gov recopila su información personal identificable (PII, sigla en inglés), incluyendo su email y número de teléfono. Recopilamos su email y con su consentimiento lo compartimos con cada agencia federal ("agencia asociada") en la que usted está buscando acceso a información y servicios. Recopilamos su número de teléfono para poder permitir la autenticación de dos factores como medida de seguridad para su cuenta de login.gov.
+      Si crea una cuenta, login.gov recopila su información personal
+      identificable (PII, sigla en inglés), incluyendo su email y número
+      de teléfono. Recopilamos su email y con su consentimiento lo
+      compartimos con cada agencia federal ("agencia asociada") en
+      la que usted está buscando acceso a información y servicios.
+      Recopilamos su número de teléfono para poder permitir la
+      autenticación de dos factores como medida de seguridad para
+      su cuenta de login.gov. Si está ingresando a una aplicación
+      gubernamental que requiere pruebas de identidad, login.gov
+      recopilará, usará, mantendrá y compartirá información de
+      identificación personal adicional con el único propósito de
+      probar a su identidad.
 principles_page:
   heading_1: Los principios del manual de identidad
   heading_2: Concéntrese en las necesidades de los usuarios
