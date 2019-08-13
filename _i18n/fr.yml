@@ -60,7 +60,7 @@ contact_page:
       invalid_email: E-mail invalide
       invalid_otp: OTP invalide
       locked_out: Verrouillé
-      lost_2fa_method: Méthode 2FA perdue
+      lost_2fa_method: Authentification à deux facteurs perdue
       multiple_otps: Multiples OTP
       new_account: Nouveau compte
       new_personal_key: Nouvelle clé personnelle

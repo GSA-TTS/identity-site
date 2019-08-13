@@ -65,7 +65,7 @@ contact_page:
       invalid_email: Invalid email
       invalid_otp: Invalid OTP
       locked_out: Locked out
-      lost_2fa_method: Lost 2FA method
+      lost_2fa_method: Lost two-factor authentication method
       multiple_otps: Multiple OTPs
       new_account: New account
       new_personal_key: New personal key
