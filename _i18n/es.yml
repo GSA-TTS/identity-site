@@ -186,8 +186,6 @@ help:
   security-keys:
     do-i-need-to-set-up-a-security-key-to-use-logingov: "¿Necesito configurar una
       clave de seguridad para usar login.gov?"
-    does-using-a-security-key-mean-im-completely-safe-from-phishing: "¿El uso de una
-      clave de seguridad significa que estoy completamente a salvo del phishing?"
     how-do-i-protect-my-logingov-account-with-a-security-key: "¿Cómo protejo mi cuenta
       login.gov con una clave de seguridad?"
     security-key: "¿Qué es una clave de seguridad?"
@@ -619,12 +617,6 @@ help_pages:
       de dos factores por llamada telefónica, mensaje de texto, aplicación de autenticación
       o una clave de seguridad. Una clave de seguridad es el método de dos factores
       más seguro.
-    does-using-a-security-key-mean-im-completely-safe-from-phishing: |-
-      Agregar una clave de seguridad a su cuenta login.gov y usarla constantemente para iniciar sesión aumentará considerablemente su seguridad frente a los ataques de phishing.
-
-      Sin embargo, su cuenta puede tener habilitados otros métodos de dos factores, y login.gov proporciona a todos los usuarios una clave de recuperación, cualquiera de los cuales también podría usarse para obtener acceso a su cuenta.
-
-      Si tiene una clave de seguridad habilitada, login.gov le pedirá que la use primero, cada vez que inicie sesión. Si no se le pide que use una clave de seguridad durante el proceso de inicio de sesión, esto podría ser una advertencia de que no está El sitio web real login.gov. Para estar seguro al usar login.gov, espere usar su clave de seguridad de manera consistente para iniciar sesión.
     how-do-i-protect-my-logingov-account-with-a-security-key: |-
       Para configurar una clave de seguridad con su cuenta login.gov, primero debe tener una clave de seguridad que admita el [estándar FIDO](https://fidoalliance.org/fido2/){:target="_blank"}. Si actualmente no tiene una cuenta de login.gov, se le dará la opción de proteger su cuenta con una clave de seguridad durante la creación de la cuenta. Una vez que haya confirmado su dirección de correo electrónico y haya creado su contraseña, seleccione "Clave de seguridad" y siga las instrucciones para darle un apodo a su clave, conecte la clave para registrarla.
 

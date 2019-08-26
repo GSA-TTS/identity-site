@@ -185,8 +185,6 @@ help:
   security-keys:
     do-i-need-to-set-up-a-security-key-to-use-logingov: Do I need to set up a security
       key to use login.gov?
-    does-using-a-security-key-mean-im-completely-safe-from-phishing: Does using a
-      security key mean I’m completely safe from phishing?
     how-do-i-protect-my-logingov-account-with-a-security-key: How do I protect my
       login.gov account with a security key?
     security-key: Security key
@@ -623,12 +621,6 @@ help_pages:
       two-factor method. You can set up two-factor authentication by phone call, text
       message, authentication app, or a security key. A security key is the most secure
       two-factor method.
-    does-using-a-security-key-mean-im-completely-safe-from-phishing: |-
-      Adding a security key to your login.gov account and consistently using it to sign in will dramatically increase your safety from phishing attacks.
-
-      However, your account may have other two-factor methods enabled, and login.gov provides all users a recovery key, any of which could also be used to gain access to your account.
-
-      If you have a security key enabled, login.gov will ask you to use it first, every time you sign in. If you are not asked to use a security key during the login process, this could be a warning that you are not at the real login.gov website. To stay safe when using login.gov, expect to use your security key consistently to sign in.
     how-do-i-protect-my-logingov-account-with-a-security-key: |-
       To set up a security key with your login.gov account, you must first have a security key that supports the [FIDO standard](https://fidoalliance.org/fido2/){:target="_blank"}. If you don’t currently have a login.gov account, you will be given the option to secure your account using a security key during account creation. Once you have confirmed your email address and created your password, select “Security key” and follow the instructions to give your key a nickname, connect the key to register it.
 
