@@ -153,8 +153,6 @@ help:
     what-are-backup-codes: What are backup codes?
     two-factor-authentication: Two-factor authentication
     phone-didnt-get-a-security-code: Phone didn't get a security code
-    why-do-i-need-to-confirm-my-email-address-and-my-phone-number: Why do I need to
-      confirm my email address and my phone number?
     why-do-i-need-to-use-logingov-to-access-government-services-online: Why do I need
       to use login.gov to access government services online?
     email-address-confirmation-link-is-invalid: Email address confirmation link is invalid
@@ -204,7 +202,6 @@ help:
     my-reset-password-link-is-invalid: My reset password link is invalid
     what-do-i-need-to-have-in-order-to-sign-in: What do I need to have in order to
       sign in?
-    what-is-an-authentication-app: What is an authentication app?
     why-am-i-locked-out-of-logingov: Why am I locked out of login.gov?
     why-didnt-I-receive-a-reset-password-email-from-logingov: Why didn’t I receive
       a reset password email from login.gov?
@@ -335,7 +332,6 @@ help_pages:
 
       Even if you do not have a phone you still have a number of options for a second factor. You can choose between using an authentication application on your device, backup codes, or a security key. If you are a government employee, you can also use your government ID (PIV/CAC card).
 
-      [Read more on how to set up an authentication application](site.baseurl/help/signing-in/what-is-an-authentication-app/)
       [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/)
       [Read more on how to create a login.gov account if you don’t have a phone, authentication app, security key, or government employee ID](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
     how-to-create-an-account: |-
@@ -415,8 +411,6 @@ help_pages:
 
       [What is two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
 
-      [Why do I need to confirm my email address and phone number](site.baseurl/help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/)
-
       [Why do I need to use login.gov to access government services online?](site.baseurl/help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/)
     personal-key: |-
       A personal key is a 16-character secret code we have been historically generating as a form of two-factor authentication. [Read more about two-factor authentication here](site.baseurl/help/creating-an-account/two-factor-authentication/)
@@ -454,10 +448,6 @@ help_pages:
       - If you have a landline, please make sure to pick the “Phone call” option under “How would you like to receive your security code?” We cannot send a text message to landlines.
       - If you have an international phone number, make sure you select to receive the security code by text message. login.gov does not support sending security codes to international landlines at this time.
       - If the number you’ve entered is correct, make sure you have service and request the code again. You can receive the code by text message or by a phone call.
-    why-do-i-need-to-confirm-my-email-address-and-my-phone-number: login.gov uses
-      your email address and phone number to send important security messages about
-      account activity. We won't use them for any other purposes, and we won't share
-      them with anyone without your express permission.
     why-do-i-need-to-use-logingov-to-access-government-services-online: |-
       Government agencies decide for themselves how they want to interact with the public. You were sent to login.gov because the service or program you want to use has chosen to take advantage of the efficiency and security of login.gov as a shared technology platform. Once you have finished at login.gov, you will be directed back to the agency.
 
@@ -710,14 +700,6 @@ help_pages:
       For additional help, you can [submit a support ticket] (https://login.gov/contact)
     what-do-i-need-to-have-in-order-to-sign-in: |-
       Every time you sign in to your account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up. After you enter your email address and password to sign in, login.gov will ask you to authenticate (enter a security code sent to your phone by voice or text, enter the security code from your authentication application, enter a backup code, use your security key, or use your government PIV/CAC card).
-    what-is-an-authentication-app: |-
-      Authentication apps generate security codes for signing in to sites that require a high level of security. You can use these apps to get security codes even if you don’t have an internet connection or mobile service.
-      You can set up an authentication app to generate your login.gov security code. First, you’ll need to download an authentication app to your computer or phone. After installing and configuring the application to work with login.gov, you will be able to receive security codes without a phone number. Some options for authentication apps include:
-        - Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
-        - iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
-        - Windows apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}, [OneLogin OTP](https://support.onelogin.com/hc/en-us/articles/201174454-OneLogin-OTP-for-Windows-Desktop){:target="_blank"}
-        - Mac apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
-        - Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
     why-am-i-locked-out-of-logingov: |-
       There are several ways you can be temporarily locked out of login.gov.
         - You will be unable to login for 10 minutes if you incorrectly enter your security code 3 times.
@@ -829,7 +811,6 @@ help_pages:
       We recommend you don’t use a .gov, .mil or .edu email address, because if you leave your government or military position or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password.
 
       If your USAJOBS primary or secondary email address is a .gov, .mil or .edu email address, you may want to consider changing it AFTER you get through the login.gov account set-up and USAJOBS profile linking process.
-      As an alternative to receiving a text or phone call, you can also [use an authentication app after successfully creating your account](/help/signing-in/what-is-an-authentication-app/).
     im-trying-to-sign-in-but-it-doesnt-work: |-
       USAJOBS recently switched their login system to login.gov. Your USAJOBS username and password no longer work. You must create a login.gov account to sign.
 
@@ -889,8 +870,6 @@ help_pages:
       If you have any questions about linking your account, please contact the [USAJOBS helpdesk](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"}.
     security-code: |-
       You can choose to receive the one time security code via text or phone call if you have a U.S. based cell phone. Landlines can only receive a phone call. If you’re outside the U.S., most phone numbers can only receive a text.
-
-      As an alternative to receiving a text or phone call, you can also [use an authentication app after successfully creating your account](/help/signing-in/what-is-an-authentication-app/).
     what-email-address-do-i-use: To keep your USAJOBS profile information, you need
       to use your primary or secondary USAJOBS email when you create your login.gov
       account. When you use the same email address, USAJOBS will automatically link

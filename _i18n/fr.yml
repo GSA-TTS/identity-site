@@ -155,8 +155,6 @@ help:
     two-factor-authentication: Qu'est-ce qu'une authentification à deux facteurs?
     phone-didnt-get-a-security-code: Pourquoi n'ai-je pas
       reçu de code de sécurité pour confirmer mon numéro de téléphone?
-    why-do-i-need-to-confirm-my-email-address-and-my-phone-number: Pourquoi dois-je
-      confirmer mon adresse courriel et mon numéro de téléphone?
     why-do-i-need-to-use-logingov-to-access-government-services-online: Pourquoi dois-je
       utiliser login.gov pour accéder aux services en ligne du gouvernement?
     email-address-confirmation-link-is-invalid: Pourquoi mon lien de confirmation n'est-il
@@ -215,7 +213,6 @@ help:
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Que
       se produit-il si je manque l'appel téléphonique ou le message texte contenant
       mon code de sécurité à utilisation unique?
-    what-is-an-authentication-app: Qu'est-ce qu'une application d'authentification?
     why-am-i-locked-out-of-logingov: Pourquoi l'accès à login.gov ne m'est-il pas
       accordé?
     why-didnt-I-receive-a-reset-password-email-from-logingov: Pourquoi n'ai-je pas
@@ -455,11 +452,6 @@ help_pages:
 
       - Avez-vous entré un numéro de téléphone incorrect? Recherchez l'option qui vous permet de l'inscrire de nouveau.
       - S'il s'agit du bon numéro, demandez le code de nouveau. Vous le recevrez par message texte ou par appel téléphonique sur une ligne fixe ou un téléphone cellulaire.
-    why-do-i-need-to-confirm-my-email-address-and-my-phone-number: Le site login.gov
-      utilise votre adresse courriel et votre numéro de téléphone pour vous envoyer
-      d'importants messages de sécurité sur l'activité de votre compte. Nous ne les
-      utiliserons à aucune autre fin et nous ne les partagerons avec personne sans
-      votre consentement.
     why-do-i-need-to-use-logingov-to-access-government-services-online: |-
       Les agences gouvernementales décident de façon indépendante comment interagir avec le public. Vous avez été redirigé(e) vers login.gov parce que le service ou le programme que vous souhaitez utiliser a choisi la plateforme partagée login.gov pour son efficacité et sa sécurité. Lorsque vous aurez terminé d'utiliser login.gov, vous serez redirigé(e) vers l'agence de départ.
 
@@ -738,9 +730,6 @@ help_pages:
       ne peut voler un code que vous avez déjà utilisé. Nous limitons les demandes
       à trois par 15 minutes, mais autrement, vous pouvez demander autant de code
       que vous le souhaitez.
-    what-is-an-authentication-app: Il s'agit d'une application de sécurité mobile
-      qui génère des codes de sécurité pour la connexion. Vous pouvez utiliser l'application
-      pour obtenir des codes même si vous n'avez pas de connexion internet.
     why-am-i-locked-out-of-logingov: |-
       Il existe plusieurs raisons pour lesquelles vous pourriez ne pas avoir accès à login.gov temporairement.
        – Vous ne pourrez vous connecter pendant 10 minutes si vous avez soumis votre code de sécurité 3 fois de façon erronée.
@@ -857,7 +846,6 @@ help_pages:
       Nous vous recommandons d'utiliser une adresse e-mail .gov, .mil ou .edu car si vous quittez votre poste au gouvernement, militaire ou dans un établissement d'enseignement, vous n'aurez plus accès à cette adresse e-mail. Sans accès à cette adresse e-mail, il sera beaucoup plus difficile de vérifier votre identité si vous devez réinitialiser votre mot de passe.
 
       Si votre adresse e-mail USAJOBS primaire ou secondaire est une adresse e-mail .gov, .mil ou .edu, vous pourriez envisager de la changer APRÈS avoir effectué le processus de configuration de votre compte login.gov et d'établissement du lien à votre profil USAJOBS.
-      Au lieu de recevoir un SMS ou un appel téléphonique, vous pouvez [utiliser une appli d'authentification après avoir créé votre compte](/help/signing-in/what-is-an-authentication-app/).
     im-trying-to-sign-in-but-it-doesnt-work: |-
       USAJOBS a récemment fait passer sont système de connexion à login.gov. Votre nom d'utilisateur et mot de passe de USAJOBS ne fonctionnent dorénavant plus. Vous devez créer un compte login.gov pour vous connecter.
 
@@ -918,8 +906,6 @@ help_pages:
       Si vous avez des questions sur l'association de votre compte, veuillez contacter le [service d'assistance d'USAJOBS](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"}.
     security-code: |-
       Vous pouvez choisir de recevoir le code de sécurité à utilisation unique par SMS ou par appel téléphonique si vous avez un téléphone portable des États-Unis. Les lignes terrestres peuvent seulement recevoir un appel téléphonique. Si vous êtes à l'extérieur des États-Unis, la plupart des numéros de téléphone peuvent seulement recevoir un SMS.
-
-      Comme alternative au SMS ou à un appel téléphonique, vous pouvez aussi [utiliser une application d'authentification après avoir créé votre compte avec succès](/help/signing-in/what-is-an-authentication-app/).
     what-email-address-do-i-use: Pour conserver votre information de profil de USAJOBS,
       vous devez utiliser votre adresse e-mail principale ou secondaire de USAJOBS
       lorsque vous créez votre compte login.gov. Lorsque vous utilisez la même adresse

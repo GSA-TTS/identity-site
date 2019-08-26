@@ -154,8 +154,6 @@ help:
     two-factor-authentication: "¿Qué es la autenticación de dos factores?"
     phone-didnt-get-a-security-code: "¿Por qué no recibí un
       código de seguridad para confirmar mi teléfono?"
-    why-do-i-need-to-confirm-my-email-address-and-my-phone-number: "¿Por qué tengo
-      que confirmar mi email y mi número de teléfono?"
     why-do-i-need-to-use-logingov-to-access-government-services-online: "¿Por qué
       tengo que usar login.gov para acceder a los servicios del Gobierno en línea?"
     email-address-confirmation-link-is-invalid: "¿Por qué no es válido mi enlace de confirmación?"
@@ -213,7 +211,6 @@ help:
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: "¿Qué
       sucede si pierdo la llamada telefónica o el mensaje de texto con mi código de
       seguridad de un sólo uso?"
-    what-is-an-authentication-app: "¿Qué es una app de autenticación?"
     why-am-i-locked-out-of-logingov: "¿Por qué estoy bloqueado en login.gov?"
     why-didnt-I-receive-a-reset-password-email-from-logingov: "¿Por qué no he recibido
       un correo electrónico de restablecimiento de la contraseña de login.gov?"
@@ -444,10 +441,6 @@ help_pages:
 
       - ¿Ingresó un número de teléfono equivocado? Busque la opción para volver a ingresarlo.
       - Si es el número correcto, solicite el código nuevamente. Recíbalo por mensaje de texto o por llamada telefónica, sea un teléfono fijo o móvil.
-    why-do-i-need-to-confirm-my-email-address-and-my-phone-number: Login.gov utiliza
-      su dirección de email y su número de teléfono para enviar mensajes de seguridad
-      importantes acerca de la actividad de la cuenta. No los usaremos para ningún
-      otro propósito y no los compartiremos con nadie sin su permiso expreso.
     why-do-i-need-to-use-logingov-to-access-government-services-online: |-
       Las agencias del Gobierno deciden por sí mismas cómo quieren interactuar con el público. Usted fue enviado a login.gov porque el servicio o programa que desea utilizar ha optado por aprovechar la eficiencia y la seguridad de login.gov como una plataforma tecnológica compartida. Una vez que haya terminado en login.gov, será dirigido de regreso a la agencia.
 
@@ -722,9 +715,6 @@ help_pages:
       Cada código de seguridad es válido sólo una vez, por lo que nadie puede robar
       uno que haya utilizado. Limitamos las solicitudes a tres códigos cada 15 minutos,
       pero de lo contrario puede solicitar tantos códigos como necesite.
-    what-is-an-authentication-app: Una app de seguridad móvil que genera códigos de
-      seguridad para iniciar sesión. Puede utilizar la app para obtener códigos aunque
-      no tenga una conexión a internet o un servicio móvil.
     why-am-i-locked-out-of-logingov: |-
       Hay diversas maneras de bloquear temporalmente su acceso a login.gov.
         - No podrá iniciar sesión durante diez minutos si introduce incorrectamente su código de seguridad tres veces.
@@ -843,7 +833,6 @@ help_pages:
       Le recomendamos no utilizar una dirección de correo electrónico .gov, .mil o .edu, porque si abandona su puesto en el Gobierno, en el ejército o en la institución educativa, ya no tendrá acceso a esa dirección de correo electrónico. Sin acceso a esa dirección de correo electrónico, será mucho más difícil verificar su identidad, en caso de que necesite restablecer su contraseña.
 
       Si su dirección de correo electrónico principal o secundaria de USAJOBS es una dirección de correo electrónico .gov, .mil o .edu, es posible que desee cambiarla DESPUÉS de completar la configuración de la cuenta de login.gov y el proceso de vinculación de perfiles de USAJOBS.
-      En lugar de recibir un mensaje de texto o una llamada telefónica, también puede [utilizar una aplicación de autenticación después de haber creado correctamente su cuenta](/help/signing-in/what-is-an-authentication-app/).
     im-trying-to-sign-in-but-it-doesnt-work: |-
       USAJOBS recientemente transfirió su sistema de inicio de sesión a login.gov. Su nombre de usuario y contraseña de USAJOBS ya no funcionan. Debe crear una cuenta en login.gov para iniciar sesión.
 
