@@ -133,7 +133,7 @@ global:
 help:
   changing-settings:
     how-do-I-get-a-new-personal-key: How do I get a new personal key?
-    how-do-I-set-up-an-authentication-app: How do I set up an authentication app?
+    authentication-application: Authentication application
     how-do-i-change-my-email-address: How do I change my email address?
     how-do-i-change-my-password: How do I change my password?
     how-do-i-change-the-phone-number-i-use-to-sign-in: How do I change the phone number
@@ -144,23 +144,20 @@ help:
   creating-an-account:
     do-i-need-a-mobile-phone-to-use-logingov: I don’t have a phone. Can I still use
       login.gov?
-    how-do-i-create-an-account-with-logingov: How do I create an account with login.gov?
-    how-do-i-create-an-account-with-only-one-two-factor-authenticator: I don’t have a phone, authentication app, security key, or government ID. Can I still create a login.gov account?
+    how-to-create-an-account: How to create an account
+    no-phone-or-other-authentication-method: No phone or other authentication method
     how-do-i-verify-my-address-by-mail: How do I verify my address by mail?
-    i-didnt-receive-a-confirmation-email-from-logingov: Why didn’t I receive a confirmation
-      email from login.gov?
-    what-do-i-do-if-an-account-already-exists-under-my-email-address: What do I do
-      if an account already exists under my email address?
-    what-is-my-personal-key: What is my personal key?
+    email-address-confirmation-not-received: Email address confirmation not received
+    email-address-is-already-in-use: Email address is already in use
+    personal-key: Personal key
     what-are-backup-codes: What are backup codes?
-    what-is-two-factor-authentication: What is two-factor authentication?
-    why-didnt-i-receive-a-security-code-to-confirm-my-phone: Why didn't I receive
-      a security code to confirm my phone?
+    two-factor-authentication: Two-factor authentication
+    phone-didnt-get-a-security-code: Phone didn't get a security code
     why-do-i-need-to-confirm-my-email-address-and-my-phone-number: Why do I need to
       confirm my email address and my phone number?
     why-do-i-need-to-use-logingov-to-access-government-services-online: Why do I need
       to use login.gov to access government services online?
-    why-is-my-confirmation-link-invalid: Why is my confirmation link invalid?
+    email-address-confirmation-link-is-invalid: Email address confirmation link is invalid
   identity-verification:
     why-do-i-need-to-verify-my-identity: Why do I need to verify my identity?
     how-do-i-verify-my-identity-on-logingov: How do I verify my identity on login.gov?
@@ -171,7 +168,7 @@ help:
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove
       a saved password or login information from my browser?
-    how-do-i-make-my-password-strong: How do I make my password strong?
+    creating-a-strong-password: Creating a strong password
     how-does-logingov-protect-my-data: How does login.gov protect my data?
     will-logingov-share-my-information: Will login.gov share my information?
   sam:
@@ -194,7 +191,7 @@ help:
       security key mean I’m completely safe from phishing?
     how-do-i-protect-my-logingov-account-with-a-security-key: How do I protect my
       login.gov account with a security key?
-    what-is-a-security-key: What is a security key?
+    security-key: Security key
     what-is-phishing: What is phishing?
   signing-in:
     how-do-i-reset-my-password: How do I reset my password?
@@ -305,7 +302,7 @@ help_pages:
       We are currently in the process of retiring personal keys. It is highly suggested you configure one or more additional second factor authentication methods. To do so sign in to your account page and request backup codes, configure a phone, register a security key, configure an authentication app, or, if you are a government employee, attach your PIV/CAC card to your account.
 
       If you have a valid personal key you will still be able to use it in the case you have lost your other authentication mechanism. Once you use the personal key however you will no longer be generated a new one. Instead you will have to configure a different authentication mechanism. After entering your personal key you will be redirected to a screen that will prompt you to choose one or more additional authentication mechanisms.
-    how-do-I-set-up-an-authentication-app: |-
+    authentication-application: |-
       If you don’t want to receive security codes by text or phone call, you can set up an authentication app on your device to generate security codes.
         1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps.
         2. Download and install an authentication app to your device. Some popular options include:
@@ -340,8 +337,8 @@ help_pages:
 
       [Read more on how to set up an authentication application](site.baseurl/help/signing-in/what-is-an-authentication-app/)
       [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/)
-      [Read more on how to create a login.gov account if you don’t have a phone, authentication app, security key, or government employee ID](site.baseurl/help/creating-an-account/how-do-i-create-an-account-with-only-one-two-factor-authenticator/)
-    how-do-i-create-an-account-with-logingov: |-
+      [Read more on how to create a login.gov account if you don’t have a phone, authentication app, security key, or government employee ID](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
+    how-to-create-an-account: |-
       ### How do you create an account with login.gov?
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
       To create a login.gov account you’ll need a valid email address and a working phone number. We’ll also ask you to create a password.
@@ -375,7 +372,7 @@ help_pages:
       <img src="site.baseurl/assets/img/help/6-enter-one-time-security-code.png" class="mt3 mb3 block" alt="Enter security code help image" />
 
       #### Authentication application
-      To use an authentication app, you must first install one of the supported applications and configure it to work with login.gov.  [Read more on how to set up an authentication app.](site.baseurl/help/changing-settings/how-do-I-set-up-an-authentication-app/)
+      To use an authentication app, you must first install one of the supported applications and configure it to work with login.gov.  [Read more on how to set up an authentication app.](site.baseurl/help/changing-settings/authentication-application/)
       <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
 
       #### Security key
@@ -387,7 +384,7 @@ help_pages:
       Backup codes are another method of authentication. When you elect to use the backup codes as your 2nd factor, login.gov will generate a set of 10 codes. After you sign in with your username and password, you will be prompted for a code. Each code may only be used once, once the 10th code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of attention as you would your password.
 
       <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
-    how-do-i-create-an-account-with-only-one-two-factor-authenticator: |-
+    no-phone-or-other-authentication-method: |-
       login.gov requires users to set up two forms of two-factor authentication methods when creating an account. However, if you do not have access to a phone, authentication application, security key, or government employee ID (PIV/CAC card), you can set up your account with only backup codes.
 
       Warning: Setting up your account with backup codes as your only authentication method is not recommended. If you ever lose your backup codes, you will not be able to sign in to your account.
@@ -406,23 +403,23 @@ help_pages:
 
       If you do not receive your letter or your confirmation code expires before you finish the identity verification process, you can request a new confirmation code. To do so, sign in to the government application or to [https://secure.login.gov](https://secure.login.gov){:target="_blank"} and select “Send me a new confirmation code” when asked to enter your code.
 
-    i-didnt-receive-a-confirmation-email-from-logingov: |-
+    email-address-confirmation-not-received: |-
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
 
       - If you mistyped your address, you can create a new account.
       - If you are certain you entered the correct address, choose “send again” to get a new confirmation email.
-    what-do-i-do-if-an-account-already-exists-under-my-email-address: |-
+    email-address-is-already-in-use: |-
       Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in](site.baseurl/help/signing-in/how-do-i-reset-my-password).
 
       Please submit a [support ticket] (https://login.gov/contact) if you are sure you did not create an account.
 
-      [What is two-factor authentication](site.baseurl/help/creating-an-account/what-is-two-factor-authentication/)
+      [What is two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
 
       [Why do I need to confirm my email address and phone number](site.baseurl/help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/)
 
       [Why do I need to use login.gov to access government services online?](site.baseurl/help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/)
-    what-is-my-personal-key: |-
-      A personal key is a 16-character secret code we have been historically generating as a form of two-factor authentication. [Read more about two-factor authentication here](site.baseurl/help/creating-an-account/what-is-two-factor-authentication/)
+    personal-key: |-
+      A personal key is a 16-character secret code we have been historically generating as a form of two-factor authentication. [Read more about two-factor authentication here](site.baseurl/help/creating-an-account/two-factor-authentication/)
 
       Recently we have begun the process of retiring personal keys as a form of two-factor authentication because they have not worked well for our users. In their place users now have a variety of options for a second authentication method including backup codes.
 
@@ -444,13 +441,13 @@ help_pages:
 
       We recommend you store your codes in a safe manner. Like the security codes sent to your phone, backup codes are only valuable to someone if they manage to also steal your password.
 
-    what-is-two-factor-authentication: login.gov uses two-factor authentication to
+    two-factor-authentication: login.gov uses two-factor authentication to
       keep accounts secure. As its name implies, two-factor authentication (sometimes
       called 2FA), requires two different methods to sign into an account. Usually
       this means entering a memorized password and a unique code sent to a device
       (such as a phone) that you own. Requiring two methods makes breaking into your
       account much harder.
-    why-didnt-i-receive-a-security-code-to-confirm-my-phone: |-
+    phone-didnt-get-a-security-code: |-
       If you didn't receive a security code, check whether you entered your phone number correctly.
 
       - Did you enter a wrong phone number? Look for the option to enter it again. If you have a non-U.S. number, make sure you select the correct country code.
@@ -465,7 +462,7 @@ help_pages:
       Government agencies decide for themselves how they want to interact with the public. You were sent to login.gov because the service or program you want to use has chosen to take advantage of the efficiency and security of login.gov as a shared technology platform. Once you have finished at login.gov, you will be directed back to the agency.
 
       We hope login.gov is a convenient and secure option for you. However, if you prefer not to use login.gov, you can always access government services. You'll find more information at your agency.
-    why-is-my-confirmation-link-invalid: |-
+    email-address-confirmation-link-is-invalid: |-
       Email confirmation links expire after 24 hours. Select “resend” to get a new confirmation email or start the process over by selecting “create account” and entering your email address.
 
       If you have requested more than one confirmation email, you must use the most recent email. All links in older emails will be invalid.
@@ -543,7 +540,7 @@ help_pages:
       - [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank"}
 
       Also, remember whenever you're online, check the address bar of any webpage you're visiting to make sure that you can trust them, especially any page that asks you to share a username and password. Be careful about sharing personal information such as your login credentials, financial information, or Social Security number over email.
-    how-do-i-make-my-password-strong: |-
+    creating-a-strong-password: |-
       Your password should be at least 8 characters long. Try using multiple words and spaces to create a memorable phrase. Longer passwords with many words are stronger than short passwords with special characters.
 
       When creating a password, also try to avoid using slang terms and common misspellings and words spelled backward. Also, avoid using your company name or your spouse's or children's names - and even your pet - as well as other personal information such as your age or birth date.
@@ -648,7 +645,7 @@ help_pages:
       If you already have a login.gov account, you can add your security key by signing into your login.gov account. Go to [https://login.gov/](https://login.gov/){:target="_blank"} and click “manage account.” Sign in and select “Add hardware security key.” You will be prompted to give your security key a nickname, connect it, and press the button to register.
 
       Each time you sign in to login.gov, we will ask you to use your security key. If you do not have your security key, you can also use any other authentication methods you have enabled. We recommend enabling multiple security keys and/or other two-factor methods so you don’t get locked out of your account.
-    what-is-a-security-key: |-
+    security-key: |-
       A security key is an authentication device that strengthens account security when used in addition to a password when signing in. Using a security key is better than receiving codes via phone call or text message because these codes can be phished or intercepted. When you use a security key to sign in, the key will check to make sure you are on the official login.gov website.
 
       A security key is usually a piece of physical hardware, like a USB, that you can carry on your keychain. You can also use supporting software, such as a web browser extension or other services. When choosing a security key, look for compatibility with the [FIDO standard](https://fidoalliance.org/fido2/){:target="_blank"}.
@@ -787,7 +784,7 @@ help_pages:
 
       For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
     only-shows-login: |-
-      If you want to access your Trusted Traveler Programs (TTP) account, always start at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. After you follow the [instructions to create an account](/help/creating-an-account/how-do-i-create-an-account-with-logingov/), you will be taken back to your TTP membership information.
+      If you want to access your Trusted Traveler Programs (TTP) account, always start at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. After you follow the [instructions to create an account](/help/creating-an-account/how-to-create-an-account/), you will be taken back to your TTP membership information.
 
       If you sign in directly from login.gov, you will only see your login.gov account information, and will not be able to view your TTP membership information.
     relink-my-profile: |-
@@ -818,7 +815,7 @@ help_pages:
       4. Select “Create an account”
       5. Enter your email address: this is your new username going forward
       6. Wait for an email confirmation and follow the instructions in the email
-      7. Continue with the account creation process as described here: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
+      7. Continue with the account creation process as described here: [https://login.gov/help/creating-an-account/how-to-create-an-account/](/help/creating-an-account/how-to-create-an-account/)
       8. You should now see a page that looks like this:
       <img src="site.baseurl/assets/img/created_acount.png" class="mt3 mb3 block" alt="Login.gov created account page" />
       9. Select “Continue” to go back to the Trusted Traveler Programs website
@@ -826,7 +823,7 @@ help_pages:
       <img src="site.baseurl/assets/img/trusted_traveler_program.png" class="mt3 mb3 block" alt="Trusted traveler account profile" />
       11. Fill out your info on that page, and at the bottom, you will see a section for previous applications. Under “Have you ever applied for Global Entry, NEXUS, or SENTRI?”, select “Yes”. It looks like this:
       <img src="site.baseurl/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
-      If you have any other questions about creating an account with login.gov please refer to our FAQ as our call center volume is extremely high this week: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
+      If you have any other questions about creating an account with login.gov please refer to our FAQ as our call center volume is extremely high this week: [https://login.gov/help/creating-an-account/how-to-create-an-account/](/help/creating-an-account/how-to-create-an-account/)
   usajobs:
     gov-mil-edu-email-address: |-
       We recommend you don’t use a .gov, .mil or .edu email address, because if you leave your government or military position or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password.
@@ -845,13 +842,13 @@ help_pages:
         4. If you have not created a login.gov account, select "Create an account." If you already have a login.gov account, select "Sign in."
         5. Enter your email address: this is your new username going forward
         6. Wait for an email confirmation & follow the instructions in the email
-        7. Continue with the account creation process as described here: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](site.baseurl/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
+        7. Continue with the account creation process as described here: [https://login.gov/help/creating-an-account/how-to-create-an-account/](site.baseurl/help/creating-an-account/how-to-create-an-account/)
 
       If you sign in and don’t see your profile, you can try to recover your account by selecting “Already have a USAJOBS profile.” USAJOBS will walk you through a few steps to find your profile.
 
       If you’re still having issues linking your profile, contact the USAJOBS Help Center. [https://www.usajobs.gov/Help/how-to/account/#usajobs-contact-form](https://www.usajobs.gov/Help/how-to/account/#usajobs-contact-form)
 
-      If you have any other questions about creating an account with login.gov, please refer to our create account FAQ: [https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/](site.baseurl/help/creating-an-account/how-do-i-create-an-account-with-logingov/)
+      If you have any other questions about creating an account with login.gov, please refer to our create account FAQ: [https://login.gov/help/creating-an-account/how-to-create-an-account/](site.baseurl/help/creating-an-account/how-to-create-an-account/)
     profile-information: |-
       If USAJOBS can’t find your profile information, you’ll be signed in as Guest.
 
