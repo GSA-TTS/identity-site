@@ -241,7 +241,7 @@ help:
     my-usajobs-information-is-not-there: Que dois-je faire si je ne vois pas l'information de mon
       profil après avoir créé un compte login.gov ?
     reset-or-relink-my-logingov-account-for-usajobs: J'ai perdu ma méthode d'authentification. Comment supprimer mon profil login.gov et en associer un nouveau à mon profil USAJOBS?
-    security-code: De quoi ai-je besoin pour recevoir le code de sécurité login.gov ?
+    how-to-receive-the-security-code: De quoi ai-je besoin pour recevoir le code de sécurité login.gov ?
     what-email-address-should-i-use: Quelle adresse e-mail dois-je utiliser pour créer
       un compte login.gov ?
     what-will-happen-to-my-usajobs-profile: Qu'adviendra-t-il de mon profil USAJOBS ?
@@ -883,7 +883,7 @@ help_pages:
       REMARQUE: Ne créez pas de nouveau compte login.gov tant que votre profil n’a pas été dissocié. Vous devez d'abord dissocier votre compte avant d'en créer un nouveau. Si vous ne dissociez pas votre compte avant d'en créer un, nous ne pourrons pas lier vos comptes.
 
       Si vous avez des questions sur l'association de votre compte, veuillez contacter le [service d'assistance d'USAJOBS](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"}.
-    security-code: |-
+    how-to-receive-the-security-code: |-
       Vous pouvez choisir de recevoir le code de sécurité à utilisation unique par SMS ou par appel téléphonique si vous avez un téléphone portable des États-Unis. Les lignes terrestres peuvent seulement recevoir un appel téléphonique. Si vous êtes à l'extérieur des États-Unis, la plupart des numéros de téléphone peuvent seulement recevoir un SMS.
     what-email-address-should-i-use: Pour conserver votre information de profil de USAJOBS,
       vous devez utiliser votre adresse e-mail principale ou secondaire de USAJOBS
