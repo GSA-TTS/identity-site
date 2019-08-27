@@ -133,7 +133,7 @@ global:
 help:
   changing-settings:
     get-a-new-personal-key: Get a new personal key
-    change-my-email-address: How do I change my email address?
+    change-my-email-address: Change my email address
     change-my-password: Change my password
     change-my-phone-number: Change my phone number
     add-or-remove-email-address: Add or remove email address
@@ -163,7 +163,7 @@ help:
   privacy-and-security:
     why-do-i-have-to-use-logingov: Why do I have to use login.gov?
     how-does-logingov-protect-my-information: How does login.gov protect my information?
-    does-logingov-share-my-information: Will login.gov share my information?
+    does-logingov-share-my-information: Does login.gov share my information?
     what-is-phishing: What is phishing?
   sam:
     change-account-settings: Change account settings
@@ -684,7 +684,7 @@ help_pages:
       you can request as many codes as you need.
   trusted-traveler-programs:
     i-have-another-question: If you have a question or problem that was not covered by this
-      page, please [submit a support ticket] (https://login.gov/contact).
+      page, please [submit a support ticket](https://login.gov/contact).
     ttp-application-status: |-
       Sign in to the [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} to find out the status of your application.
 
