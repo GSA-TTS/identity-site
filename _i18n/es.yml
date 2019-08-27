@@ -188,8 +188,8 @@ help:
     security-key: "¿Qué es una clave de seguridad?"
     what-is-phishing: "¿Qué es el phishing?"
   signing-in:
-    how-do-i-reset-my-password: "¿Cómo puedo restablecer mi contraseña?"
-    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: "¿Cómo inicio sesión si no tengo mis métodos de autenticación (teléfono, códigos de respaldo, aplicación de autenticación, etc.)?"
+    forgot-my-password: "¿Cómo puedo restablecer mi contraseña?"
+    phone-or-authentication-methods-not-available: "¿Cómo inicio sesión si no tengo mis métodos de autenticación (teléfono, códigos de respaldo, aplicación de autenticación, etc.)?"
     how-do-i-turn-off-two-factor-authentication: "¿Cómo desactivo la autenticación
       de dos factores?"
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: No
@@ -198,7 +198,7 @@ help:
       utilicé para crear una cuenta.
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: Si no tengo mi teléfono conmigo,
       ¿puedo iniciar sesión?
-    my-reset-password-link-is-invalid: El enlace para restablecer mi contraseña no
+    reset-password-link-is-invalid: El enlace para restablecer mi contraseña no
       es válido
     what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: "¿Qué hago si mi contraseña
       no funciona o la olvido?"
@@ -206,13 +206,13 @@ help:
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: "¿Qué
       sucede si pierdo la llamada telefónica o el mensaje de texto con mi código de
       seguridad de un sólo uso?"
-    why-am-i-locked-out-of-logingov: "¿Por qué estoy bloqueado en login.gov?"
-    why-didnt-I-receive-a-reset-password-email-from-logingov: "¿Por qué no he recibido
+    locked-out-of-account: "¿Por qué estoy bloqueado en login.gov?"
+    reset-password-email-not-received: "¿Por qué no he recibido
       un correo electrónico de restablecimiento de la contraseña de login.gov?"
-    why-didnt-i-receive-a-security-code: "¿Por qué no recibí un código de seguridad?"
+    phone-didnt-get-a-security-code: "¿Por qué no recibí un código de seguridad?"
     why-does-the-system-log-me-out: "¿Por qué el sistema me desconecta?"
-    why-is-my-personal-key-invalid: "¿Por qué mi clave personal no es válida?"
-    why-is-my-security-code-invalid: "¿Por qué mi código de seguridad no es válido?"
+    personal-key-not-working: "¿Por qué mi clave personal no es válida?"
+    security-code-not-working: "¿Por qué mi código de seguridad no es válido?"
   trusted-traveler-programs:
     another-question: Tengo otra pregunta
     application-status: "¿Cuál es el estado de mi solicitud?"
@@ -273,7 +273,7 @@ help_pages:
 
       [Lee cómo borrar tu cuenta](site.baseurl/help/changing-settings/how-do-i-delete-my-account/)
       [Lee cómo agregar o eliminar una dirección de correo electrónico](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
-      [Lee cómo reiniciar tu contraseña](site.baseurl/help/signing-in/how-do-i-reset-my-password/)
+      [Lee cómo reiniciar tu contraseña](site.baseurl/help/signing-in/forgot-my-password/)
     how-do-i-delete-my-account: |-
       Eliminar a tu cuenta es el primer paso para restablecerla o combinar varias cuentas. Si no tienes acceso a tu método de autenticación de dos factores, tardaras al menos 24 horas en eliminar tu cuenta.
 
@@ -339,7 +339,7 @@ help_pages:
     how-do-i-change-the-phone-number-i-use-to-sign-in: |-
       Para cambiar el número de teléfono en el que obtener el código de seguridad, vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Administrar cuenta" para iniciar sesión en su cuenta de login.gov. Una vez que haya iniciado sesión, seleccione "editar" junto al número de teléfono. Introduzca el número de teléfono y seleccione "confirmar el cambio". login.gov enviará inmediatamente su código de seguridad para confirmar el nuevo número de teléfono.
 
-      Si no puede recibir el código de seguridad porque ya no tiene acceso a su teléfono, deberá [iniciar sesión con su clave personal](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods).
+      Si no puede recibir el código de seguridad porque ya no tiene acceso a su teléfono, deberá [iniciar sesión con su clave personal](site.baseurl/help/signing-in/phone-or-authentication-methods-not-available).
   creating-an-account:
     how-to-create-an-account: |-
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
@@ -624,7 +624,7 @@ help_pages:
       por error con un atacante. La clave de seguridad también se asegurará de que
       ingrese información en el sitio web oficial login.gov.
   signing-in:
-    how-do-i-reset-my-password: Si no conoce su contraseña, el enlace para restablecerla
+    forgot-my-password: Si no conoce su contraseña, el enlace para restablecerla
       se encuentra en la página de inicio de sesión. Introduzca su dirección de correo
       electrónico para recibir un enlace para restablecer su contraseña. Una vez que
       siga el enlace, se le pedirá que introduzca una nueva contraseña. Su contraseña
@@ -633,7 +633,7 @@ help_pages:
       escribiendo la contraseña correctamente. Después de seguir estos pasos, volverá
       a la página de inicio de sesión. Ahora puede iniciar sesión con su nueva contraseña
       de login.gov.
-    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: |-
+    phone-or-authentication-methods-not-available: |-
       Si no tienes o no puedes usar tu método de autenticación (tu teléfono, códigos de respaldo, aplicación de autenticación, o clave personal), aún puedes iniciar sesión en tu cuenta.
 
       Si perdiste el acceso a tu método de autenticación predeterminado, pero aún tienes acceso a uno de tus métodos de autenticación de respaldo, sigue los pasos a continuación:
@@ -670,7 +670,7 @@ help_pages:
       Es necesario tener su teléfono con el fin de obtener la clave de seguridad para iniciar sesión. Pero si no tiene su teléfono con usted, necesitará la clave personal que recibió cuando creó su cuenta. Ingrese la clave personal cuando se le indique y seleccione enviar. Una vez que haya iniciado sesión, inmediatamente obtendrá una nueva clave personal. Por favor, guarde la clave personal en un lugar seguro por separado de su teléfono, ya que la clave personal le permitirá iniciar sesión en su cuenta en caso de que no tenga su teléfono con usted.
 
       Le recomendamos que guarde su clave personal en otro lugar que no sea su computadora o dispositivo móvil. De esta forma, podrá acceder a su clave personal incluso si le roban su dispositivo o si la seguridad de sus cuentas en línea ha sido comprometida.
-    my-reset-password-link-is-invalid: |-
+    reset-password-link-is-invalid: |-
       Los enlaces de restablecimiento de contraseña caducan al cabo de seis horas. Si ha sucedido esto, seleccione "Reenviar" para obtener un nuevo enlace de restablecimiento de contraseña o seleccione "Contraseña olvidada" e introduzca su dirección de correo electrónico.
 
       Si ha solicitado más de un enlace para restablecer la contraseña, debe utilizar el enlace del correo electrónico más reciente. Todos los enlaces de los correos electrónicos antiguos no serán válidos.
@@ -694,11 +694,11 @@ help_pages:
       Cada código de seguridad es válido sólo una vez, por lo que nadie puede robar
       uno que haya utilizado. Limitamos las solicitudes a tres códigos cada 15 minutos,
       pero de lo contrario puede solicitar tantos códigos como necesite.
-    why-am-i-locked-out-of-logingov: |-
+    locked-out-of-account: |-
       Hay diversas maneras de bloquear temporalmente su acceso a login.gov.
         - No podrá iniciar sesión durante diez minutos si introduce incorrectamente su código de seguridad tres veces.
         - No podrá iniciar sesión durante diez minutos si solicita más de diez códigos de seguridad en un período de cinco minutos.
-    why-didnt-I-receive-a-reset-password-email-from-logingov: Si no ha recibido un
+    reset-password-email-not-received: Si no ha recibido un
       correo electrónico de reinicio, compruebe su filtro de correo no deseado. Si
       añade "no-reply@login.gov" a su lista de contactos, su proveedor de correo electrónico
       no lo enviará al correo no deseado. Asimismo, puede que accidentalmente haya
@@ -708,7 +708,7 @@ help_pages:
       electrónicos, le recomendamos que se ponga en contacto con su proveedor de correo
       electrónico para informarle sobre el problema o que compruebe los ajustes de
       su cuenta en caso de que reenvíe su correo electrónico.
-    why-didnt-i-receive-a-security-code: |-
+    phone-didnt-get-a-security-code: |-
       Si no ha recibido un código de seguridad, compruebe si ha introducido correctamente su número de teléfono.
         - ¿Ha introducido un número de teléfono incorrecto? Busque la opción de volver a introducirlo. Si tiene un número que no sea estadounidense, asegúrese de seleccionar el código de país correcto.
         - Si tiene un teléfono fijo, asegúrese de elegir la opción "Llamada telefónica" en "¿Cómo le gustaría recibir su código de seguridad?". No podemos enviar mensajes de texto a teléfonos fijos.
@@ -720,11 +720,11 @@ help_pages:
       \n\nEl sistema también lo desconecta después de tres intentos si ingresa incorrectamente
       el código de seguridad que recibe en su teléfono. Los intentos fallidos se limitan
       a tres por sesión, seguido de un bloqueo de cinco minutos."
-    why-is-my-personal-key-invalid: |-
+    personal-key-not-working: |-
       Una clave personal es un código secreto de 16 caracteres que le proporcionamos cuando crea una cuenta. La clave personal es la única forma de iniciar sesión si pierde el acceso al dispositivo que utiliza para la autenticación de dos factores. Únicamente puede utilizar su clave personal una vez. Recibirá una nueva clave personal cada vez que la utilice para iniciar sesión, y la antigua ya no funcionará.
 
       Si le dicen que su clave personal no es válida, o bien la ha escrito incorrectamente o ya la ha utilizado para iniciar sesión y ha dejado de ser válida. Si ya ha utilizado su clave personal para iniciar sesión, se le asignó una nueva que debe utilizar para iniciar sesión.
-    why-is-my-security-code-invalid: Cada vez que inicie sesión, deberá introducir
+    security-code-not-working: Cada vez que inicie sesión, deberá introducir
       un código de seguridad que se enviará a su teléfono mediante un mensaje de texto
       o una llamada telefónica. El código de seguridad que reciba caducará después
       de diez minutos y solo será válido para un uso. Si no introduce el código de

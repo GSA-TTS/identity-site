@@ -190,8 +190,8 @@ help:
     security-key: Qu'est-ce qu'une clé de sécurité?
     what-is-phishing: Qu'est-ce que le phishing?
   signing-in:
-    how-do-i-reset-my-password: Comment puis-je réinitialiser mon mot de passe?
-    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: Comment me connecter si je n’ai pas mes méthodes d’authentification (téléphone, codes de sauvegarde, application d’authentification, etc.)?
+    forgot-my-password: Comment puis-je réinitialiser mon mot de passe?
+    phone-or-authentication-methods-not-available: Comment me connecter si je n’ai pas mes méthodes d’authentification (téléphone, codes de sauvegarde, application d’authentification, etc.)?
     how-do-i-turn-off-two-factor-authentication: Comment puis-je désactiver l'authentification
       à deux facteurs ?
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: Je
@@ -200,7 +200,7 @@ help:
       courriel j'ai utilisée pour créer un compte.
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: Si je n'ai pas mon téléphone
       avec moi, puis-je quand même me connecter?
-    my-reset-password-link-is-invalid: Mon lien de réinitialisation de mot de passe
+    reset-password-link-is-invalid: Mon lien de réinitialisation de mot de passe
       n'est pas valide
     what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: Que dois-je faire si mon
       mot de passe ne fonctionne pas ou si je l'ai oublié?
@@ -208,14 +208,14 @@ help:
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Que
       se produit-il si je manque l'appel téléphonique ou le message texte contenant
       mon code de sécurité à utilisation unique?
-    why-am-i-locked-out-of-logingov: Pourquoi l'accès à login.gov ne m'est-il pas
+    locked-out-of-account: Pourquoi l'accès à login.gov ne m'est-il pas
       accordé?
-    why-didnt-I-receive-a-reset-password-email-from-logingov: Pourquoi n'ai-je pas
+    reset-password-email-not-received: Pourquoi n'ai-je pas
       reçu d'e-mail de réinitialisation de mot de passe de login.gov?
-    why-didnt-i-receive-a-security-code: Pourquoi n'ai-je pas reçu de code de sécurité ?
+    phone-didnt-get-a-security-code: Pourquoi n'ai-je pas reçu de code de sécurité ?
     why-does-the-system-log-me-out: Pourquoi le système me déconnecte-t-il?
-    why-is-my-personal-key-invalid: Pourquoi ma clé personnelle n'est-elle pas valide ?
-    why-is-my-security-code-invalid: Pourquoi mon code de sécurité n'est-il pas valide ?
+    personal-key-not-working: Pourquoi ma clé personnelle n'est-elle pas valide ?
+    security-code-not-working: Pourquoi mon code de sécurité n'est-il pas valide ?
   trusted-traveler-programs:
     another-question: J'ai une autre question
     application-status: Quel est le statut de ma demande ?
@@ -276,7 +276,7 @@ help_pages:
 
       [Lisez comment supprimer votre compte](site.baseurl/help/changing-settings/how-do-i-delete-my-account/)
       [Lisez comment ajouter ou supprimer une adresse email](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
-      [Lisez comment réinitialiser votre mot de passe](site.baseurl/help/signing-in/how-do-i-reset-my-password/)
+      [Lisez comment réinitialiser votre mot de passe](site.baseurl/help/signing-in/forgot-my-password/)
     how-do-i-delete-my-account: |-
       La suppression de votre compte est la première étape de la réinitialisation ou de la fusion de plusieurs comptes. Si vous n'avez pas accès à votre méthode d'authentification à deux facteurs, la suppression de votre compte prendra au moins 24 heures.
 
@@ -341,7 +341,7 @@ help_pages:
     how-do-i-change-the-phone-number-i-use-to-sign-in: |-
       Pour changer le numéro de téléphone où vous recevez votre code de sécurité, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Gérer le compte » pour vous connecter à votre compte login.gov. Une fois connecté(e), sélectionnez « modifier » à côté du numéro de téléphone. Entrez le numéro de téléphone et sélectionnez « confirmer le changement ». login.gov vous enverra immédiatement votre code de sécurité pour confirmer le nouveau numéro de téléphone.
 
-      Si vous ne pouvez recevoir le code de sécurité parce que vous n'avez plus accès à votre téléphone, vous devrez [vous connecter en utilisant votre clé personnelle](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods).
+      Si vous ne pouvez recevoir le code de sécurité parce que vous n'avez plus accès à votre téléphone, vous devrez [vous connecter en utilisant votre clé personnelle](site.baseurl/help/signing-in/phone-or-authentication-methods-not-available).
   creating-an-account:
     how-to-create-an-account: |-
       Pour créer un compte login.gov, vous devrez fournir : une adresse courriel valide et un numéro de téléphone actif. Nous vous demanderons aussi de créer un mot de passe.
@@ -637,7 +637,7 @@ help_pages:
       vous permettra également de saisir les informations sur le site Web officiel
       login.gov.
   signing-in:
-    how-do-i-reset-my-password: Si vous ne connaissez pas votre mot de passe, le lien
+    forgot-my-password: Si vous ne connaissez pas votre mot de passe, le lien
       pour le réinitialiser se trouve à la page de connexion. Saisissez votre adresse
       e-mail pour recevoir un lien pour réinitialiser votre mot de passe. Lorsque
       vous suivez le lien, on vous demande de soumettre un nouveau mot de passe. Votre
@@ -646,7 +646,7 @@ help_pages:
       de saisir correctement votre mot de passe. Vous serez renvoyé à la page de connexion
       après avoir suivi ces étapes. Vous pouvez maintenant vous connecter en utilisant
       votre nouveau mot de passe login.gov.
-    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: |-
+    phone-or-authentication-methods-not-available: |-
       Si vous n'avez pas ou ne pouvez pas utiliser votre méthode d'authentification (votre téléphone, vos codes de sauvegarde, votre application d'authentification ou votre mot de passe personnel), vous pouvez toujours vous connecter à votre compte.
 
       Si vous avez perdu l'accès à votre méthode d'authentification par défaut, mais que vous avez toujours accès à l'une de vos méthodes d'authentification de sauvegarde, procédez comme suit:
@@ -684,7 +684,7 @@ help_pages:
       Vous devez avoir votre téléphone afin d'obtenir la clé de sécurité pour vous connecter. Si vous n'avez pas votre téléphone avec vous, vous devrez utiliser la clé personnelle que vous avez reçue lorsque vous avez créé votre compte. Après avoir inscrit votre clé personnelle, cliquez sur « soumettre ». Une fois connecté(e), vous obtiendrez immédiatement une nouvelle clé personnelle. Veuillez conserver votre clé personnelle en lieu sûr, séparément de votre téléphone, car elle vous permet de vous connecter à votre compte quand vous n'avez pas votre téléphone avec vous.
 
       Nous vous encourageons à conserver votre clé personnelle ailleurs que dans votre ordinateur ou appareil mobile. Ainsi, vous serez en mesure d'accéder à votre clé personnelle même si votre appareil est volé ou que votre compte en ligne est piraté.
-    my-reset-password-link-is-invalid: |-
+    reset-password-link-is-invalid: |-
       Le lien de confirmation envoyé par e-mail expire après 6 heures. Si cela s'est produit, sélectionnez « Envoyer de nouveau » pour obtenir un nouvel e-mail contenant un lien de réinitialisation du mot de passe ou sélectionnez « mot de passe oublié » et saisissez votre adresse e-mail.
 
       Si vous avez demandé plus d'un lien de réinitialisation, vous devez utiliser le plus récent e-mail. Tous les liens envoyés dans les e-mails plus anciens ne seront plus valides.
@@ -709,11 +709,11 @@ help_pages:
       ne peut voler un code que vous avez déjà utilisé. Nous limitons les demandes
       à trois par 15 minutes, mais autrement, vous pouvez demander autant de code
       que vous le souhaitez.
-    why-am-i-locked-out-of-logingov: |-
+    locked-out-of-account: |-
       Il existe plusieurs raisons pour lesquelles vous pourriez ne pas avoir accès à login.gov temporairement.
        – Vous ne pourrez vous connecter pendant 10 minutes si vous avez soumis votre code de sécurité 3 fois de façon erronée.
        – Vous ne pourrez vous connecter pendant 10 minutes si vous demandez plus de 10 codes de sécurité dans une période de 5 minutes.
-    why-didnt-I-receive-a-reset-password-email-from-logingov: Si vous n'avez pas reçu
+    reset-password-email-not-received: Si vous n'avez pas reçu
       d'e-mail de réinitialisation, vérifiez votre filtre anti-spam. Si vous ajoutez
       « no-reply@login.gov » à votre liste de contacts, votre fournisseur de messagerie
       e-mail ne l'enverra pas dans le dossier des indésirables. Vous pourriez aussi
@@ -723,7 +723,7 @@ help_pages:
       du mot de passe, nous vous recommandons de contacter votre fournisseur de messagerie
       e-mail à ce sujet ou vérifiez les paramètres de votre compte si vous effectuez
       une redirection de vos e-mails.
-    why-didnt-i-receive-a-security-code: |-
+    phone-didnt-get-a-security-code: |-
       Si vous n'avez pas reçu de code de sécurité, vérifiez si vous avez saisi correctement le numéro de téléphone.
        – Avez-vous soumis un numéro de téléphone erroné? Recherchez l'option pour l'entrer de nouveau. Si vous avez un numéro de l'extérieur des États-Unis, assurez-vous de sélectionner le bon code de pays.
        – Si vous avez une ligne fixe, veuillez vous assurer de choisir l'option « Appel téléphonique » sous « Par quel moyen souhaitez-vous recevoir votre code de sécurité ? ». Nous ne pouvons envoyer de SMS à une ligne terrestre.
@@ -733,11 +733,11 @@ help_pages:
       Lorsqu'un utilisateur est déjà connecté et qu'il souhaite changer son adresse courriel, son mot de passe ou son numéro de téléphone, il doit d'abord entrer son mot de passe courant. Après trois essais ratés, l'utilisateur est déconnecté.
 
       Le système vous déconnecte également si vous avez entré 3 fois de façon erronée le code de sécurité qui a été envoyé à votre téléphone. Les tentatives échouées sont limitées à 3 par session, suivies d'un verrouillage de l'accès de 5 minutes.
-    why-is-my-personal-key-invalid: |-
+    personal-key-not-working: |-
       Une clé personnelle est un code secret de 16 caractères que nous vous fournissons lorsque vous créez un compte. L'utilisation de la clé personnelle est le seul moyen de vous connecter si vous perdez l'accès à l'appareil que vous utilisez pour l'authentification à deux facteurs. Vous pouvez utiliser votre clé personnelle une fois seulement. Vous recevrez une nouvelle clé personnelle chaque fois où vous utiliserez la vôtre pour vous connecter et votre ancienne ne fonctionnera plus.
 
       Si on vous indique que votre clé personnelle n'est pas valide, vous l'avez saisie avec une erreur ou vous l'avez déjà utilisée pour vous connecter et elle n'est plus valide. Si avez déjà utilisé votre clé personnelle pour vous connecter, vous en avez reçu une nouvelle qui doit être utilisée pour vous connecter.
-    why-is-my-security-code-invalid: Chaque fois où vous vous connectez, vous devez
+    security-code-not-working: Chaque fois où vous vous connectez, vous devez
       soumettre un code de sécurité qui est envoyé à votre téléphone par SMS ou par
       appel téléphonique. Le code sécurité que vous recevez expire après 10 minutes
       et est valide pour une seule utilisation. Si vous n'entrez pas le code de sécurité

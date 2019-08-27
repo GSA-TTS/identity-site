@@ -158,8 +158,6 @@ help:
     how-to-verify-my-identity: How to verify my identity
     multiple-accounts-to-verifying-my-identity-for: Multiple accounts to verifying my identity for
     dont-have-a-state-issued-id: Don't have a state-issued ID
-    multiple-accounts-to-verifying-my-identity-for:
-      I have more than one login.gov account, can I verify my identity for all of them?
     phone-plan-is-not-in-my-name-or-address: Phone plan is not in my name or address
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove
@@ -181,20 +179,19 @@ help:
       my login.gov account and sign in?
     why-is-sam-using-login-gov: Why is SAM using login.gov?
   signing-in:
-    how-do-i-reset-my-password: How do I reset my password?
-    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: How do I sign in if I don’t have my authentication methods (phone, backup codes, authentication app, etc.)?
+    forgot-my-password: Forgot my password
+    phone-or-authentication-methods-not-available: Phone or authentication methods not available
     how-do-i-turn-off-two-factor-authentication: How do I turn off two-factor authentication?
     forgot-my-email-address: Forgot my email address
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: If I don't have my phone
       with me can I still sign in?
-    my-reset-password-link-is-invalid: My reset password link is invalid
+    reset-password-link-is-invalid: Reset password link is invalid
     how-to-sign-in: How to sign in
-    why-am-i-locked-out-of-logingov: Why am I locked out of login.gov?
-    why-didnt-I-receive-a-reset-password-email-from-logingov: Why didn’t I receive
-      a reset password email from login.gov?
-    why-didnt-i-receive-a-security-code: Why didn’t I receive a security code?
-    why-is-my-personal-key-invalid: Why is my personal key invalid?
-    why-is-my-security-code-invalid: Why is my security code invalid?
+    locked-out-of-account: Locked out of account
+    reset-password-email-not-received: Reset password email not received
+    phone-didnt-get-a-security-code: Phone didn't get a security code
+    personal-key-not-working: Personal key not working
+    security-code-not-working: Security code not working
   trusted-traveler-programs:
     another-question: I have another question
     application-status: What is the status of my application?
@@ -252,7 +249,7 @@ help_pages:
 
       [Read how to delete your account](site.baseurl/help/changing-settings/how-do-i-delete-my-account/)
       [Read how to add or remove an email address](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
-      [Read how to reset your password](site.baseurl/help/signing-in/how-do-i-reset-my-password/)
+      [Read how to reset your password](site.baseurl/help/signing-in/forgot-my-password/)
     how-do-i-delete-my-account: |-
       Deleting your account is the first step to resetting it or combining multiple accounts. If you do not have access to your two-factor authentication method, it will take at least 24 hours to delete your account.
 
@@ -295,11 +292,11 @@ help_pages:
     how-do-i-change-my-password: |-
       To change your password, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Select “Edit” next to password, enter the new password and submit your change. Passwords must be at least 12 characters but otherwise there are no restrictions. You can even use more than one word with spaces to get to 12 characters. Try making a long and complex password by using a phrase or a series of words that only you recognize. And please make it different than any other passwords you use to sign into other accounts such as your bank account or email. Using the same passwords for your email, financial and social media accounts makes identity theft easier.
 
-      [Read more on how to reset your password](site.baseurl/help/signing-in/how-do-i-reset-my-password/)
+      [Read more on how to reset your password](site.baseurl/help/signing-in/forgot-my-password/)
     how-do-i-change-the-phone-number-i-use-to-sign-in: |-
       To change the phone number where you get your security code, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Once signed in, click on “Manage” next to the phone number. Enter the phone number and select “confirm change.” login.gov will immediately send your security code to confirm the new phone number.
 
-      If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key if you were assigned one and it is still valid](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods) or use another configured authentication method.
+      If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key if you were assigned one and it is still valid](site.baseurl/help/signing-in/phone-or-authentication-methods-not-available) or use another configured authentication method.
   creating-an-account:
     how-to-create-an-account: |-
       ### How do you create an account with login.gov?
@@ -359,20 +356,13 @@ help_pages:
       On the “Add another method” page, select “I don’t have any of the above” and click “Continue”
 
       You will then be finished creating your account. Each time you sign in using login.gov, you will be asked to enter one of your backup codes. After you use the 10th code, you will be given a new set of backup codes to save and use.
-    phone-plan-is-not-in-my-name-or-address: |-
-      If we cannot automatically verify your address, you must verify it by mail. This means that we will mail you a letter with a confirmation code that you must use to finish setting up your account.
-
-      You will receive the letter via U.S. Postal Service, three to five business days after the date when you request the code. The confirmation code will expire 30 days after the date when you submit your request.
-
-      If you do not receive your letter or your confirmation code expires before you finish the identity verification process, you can request a new confirmation code. To do so, sign in to the government application or to [https://secure.login.gov](https://secure.login.gov){:target="_blank"} and select “Send me a new confirmation code” when asked to enter your code.
-
     email-address-confirmation-not-received: |-
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
 
       - If you mistyped your address, you can create a new account.
       - If you are certain you entered the correct address, choose “send again” to get a new confirmation email.
     email-address-is-already-in-use: |-
-      Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in](site.baseurl/help/signing-in/how-do-i-reset-my-password).
+      Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in](site.baseurl/help/signing-in/forgot-my-password).
 
       Please submit a [support ticket] (https://login.gov/contact) if you are sure you did not create an account.
 
@@ -512,6 +502,12 @@ help_pages:
       [How do I relink my Trusted Traveler profile after deleting my login.gov account?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
 
       [How do I relink my SAM profile after deleting my login.gov account?](site.baseurl/help/sam/relink-my-profile)
+    phone-plan-is-not-in-my-name-or-address: |-
+      If we cannot automatically verify your address, you must verify it by mail. This means that we will mail you a letter with a confirmation code that you must use to finish setting up your account.
+
+      You will receive the letter via U.S. Postal Service, three to five business days after the date when you request the code. The confirmation code will expire 30 days after the date when you submit your request.
+
+      If you do not receive your letter or your confirmation code expires before you finish the identity verification process, you can request a new confirmation code. To do so, sign in to the government application or to [https://secure.login.gov](https://secure.login.gov){:target="_blank"} and select “Send me a new confirmation code” when asked to enter your code.
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       If you accidentally saved your login.gov password or other sign-in information in your browser, it's a good idea for you to delete it; this will help you keep your account more secure. From the following list, select the browser (the computer program you use to access the World Wide Web) you use to learn how to make it erase any saved information:
@@ -611,14 +607,14 @@ help_pages:
       share with an attacker. The security key will also make sure you’re entering
       information on the official login.gov website.
   signing-in:
-    how-do-i-reset-my-password: If you don't know your password, the link to reset
+    forgot-my-password: If you don't know your password, the link to reset
       it is on the sign-in page. Enter your email address to receive a link to reset
       your password. Once you follow the link, you'll be asked to enter a new password.
       Your password must be 12 characters long and clear the password strength meter.
       Select "show password" to ensure you are typing your password correctly. You
       will be taken back to the sign in page after completing these steps. You can
       now sign in using your new login.gov password.
-    how-do-i-sign-in-if-i-dont-have-my-authentication-methods: |-
+    phone-or-authentication-methods-not-available: |-
       If you don’t have or can’t use your authentication method (your phone, backup codes, authentication app, or personal key), you can still sign in to your account.
 
       If you lost access to your default authentication method, but still have access to one of your backup authentication methods, use the steps below:
@@ -653,7 +649,7 @@ help_pages:
       If you were provided with a personal key and have not yet used the one that was last generated you can also select the personal key option. Enter the personal key that was last generated for you. If you have successfully entered your personal key, you will be prompted to configure a new second factor then redirected to your original destination. Because personal keys are being retired as a second authentication method, once you use your last generated personal key you will no longer be assigned a new one. Instead you must use backup codes, an authentication application, or a security key.
 
       We encourage you to configure multiple authentication methods — this way, you’ll be able to access your account even if your device is stolen or your online accounts are hacked.
-    my-reset-password-link-is-invalid: |-
+    reset-password-link-is-invalid: |-
       Reset password links expire after 6 hours. If this has happened, select “Resend” to get a new reset password link or select “forgot password” and enter your email address.
 
       If you have requested more than one reset password link, you must use the link in the most recent email. All links in older emails will be invalid.
@@ -663,11 +659,11 @@ help_pages:
       For additional help, you can [submit a support ticket] (https://login.gov/contact)
     how-to-sign-in: |-
       Every time you sign in to your account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up. After you enter your email address and password to sign in, login.gov will ask you to authenticate (enter a security code sent to your phone by voice or text, enter the security code from your authentication application, enter a backup code, use your security key, or use your government PIV/CAC card).
-    why-am-i-locked-out-of-logingov: |-
+    locked-out-of-account: |-
       There are several ways you can be temporarily locked out of login.gov.
         - You will be unable to login for 10 minutes if you incorrectly enter your security code 3 times.
         - You will be unable to login for 10 minutes if you request more than 10 security codes in a 5 minute time period.
-    why-didnt-I-receive-a-reset-password-email-from-logingov: If you didn't receive
+    reset-password-email-not-received: If you didn't receive
       a reset email, check your spam filter. If you add “no-reply@login.gov” to your
       contact list, your email provider will not send it to spam. Alternatively, you
       may have accidentally mistyped your email address. If you are confident you
@@ -675,19 +671,19 @@ help_pages:
       email. If you are still not receiving emails, we recommend you contact your
       email provider about the issue or check your account settings if you are forwarding
       your email.
-    why-didnt-i-receive-a-security-code: |-
+    phone-didnt-get-a-security-code: |-
       If you didn’t receive a security code, check whether you entered your phone number correctly.
         - Did you enter a wrong phone number? Look for the option to enter it again. If you have a non-U.S. number, make sure you select the correct country code.
         - If you have a landline, please make sure to pick the “Phone call” option under “How would you like to receive your security code?” We cannot send a text message to landlines.
         - If you have an international phone number, make sure you select to receive the security code by text message. login.gov does not support sending security codes by phone call to international numbers at this time.
         - If it's the right number, make sure you have service and request the code again. You can receive the code by text message or by a phone call.
-    why-is-my-personal-key-invalid: |-
+    personal-key-not-working: |-
       A personal key is a 16-character secret code we used to generate for users when creating an account. Currently we are moving away from using personal keys and instead requesting the users to configure one or more second factor authentication mechanisms such as backup codes, authentication apps, security keys, or phones. The personal key used to be the only way to sign in if you lost access to the device you use for two-factor authentication. You could only use your personal key once.  Once used, you would immediately receive a new personal key and your old key would no longer work. If you still have a personal key option upon login it means you did not use your last generated key yet.
 
       If you still have a personal key option upon login it means you did not use your last generate key yet. Being told your personal key is invalid means you have either typed it incorrectly or you have already used it to sign in and it is no longer valid. If you have already used your personal key to sign in, you were given a new one that must be used to sign in.
 
       Once you use the last generated personal key you will be asked to configure a new authentication mechanism as a new personal key will no longer be generated.
-    why-is-my-security-code-invalid: Every time you sign in you will need to enter
+    security-code-not-working: Every time you sign in you will need to enter
       a security code that is sent to your phone either by a text message or a phone
       call. The security code you receive expires after 10 minutes and is only valid
       for one use. If you miss entering the security code within the 10 minutes or
