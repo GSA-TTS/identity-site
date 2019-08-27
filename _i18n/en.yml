@@ -195,19 +195,16 @@ help:
     another-question: I have another question
     application-status: What is the status of my application?
     do-i-need-to-pay-again: Do I need to pay again?
-    dont-know-passid: I don’t know my PASSID
+    whats-my-passid: What's my PASSID?
     family-account: How do I create a login.gov account for my family member?
     known-traveler-number: Will my KTN (Known Traveler Number) change?
-    only-shows-login: When I sign in, it only shows my login.gov account information,
-      and there’s no way to get back to the Trusted Traveler Programs site
-    relink-my-profile: How do I relink my Trusted Traveler profile after deleting
-      my login.gov account?
+    my-ttp-information-is-not-there: MY TTP information is not there
+    reset-or-relink-my-logingov-account-for-ttp: Reset or relink my login.gov account for TTP
     schedule-an-appointment: Can you help with scheduling an appointment?
-    sign-in-doesnt-work: I’m trying to sign in, but it doesn’t work / I’m trying to
-      reset my password, but I don’t get an email / I did not get an email confirmation
+    cant-sign-in-or-reset-my-password-goes-account: Can't sign in or reset my password (GOES account)
   usajobs:
     gov-mil-edu-email-address: Should I use a .gov, .mil and .edu email address?
-    im-trying-to-sign-in-but-it-doesnt-work: I’m trying to sign in, but it doesn’t
+    cant-sign-in-or-reset-my-password-usajobs-account: I’m trying to sign in, but it doesn’t
       work / I’m trying to reset my password, but I don’t get an email / I did not
       get an email confirmation
     profile-information: What if I don’t see my USAJOBS profile information after
@@ -276,7 +273,7 @@ help_pages:
 
       [Read how to add an email address](site.baseurl/help/changing-settings/add-or-remove-email-address/)
       [Read how to relink your USAJOBS profile](site.baseurl/help/usajobs/relink-my-profile)
-      [Read how to relink your Trusted Traveler profile](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+      [Read how to relink your Trusted Traveler profile](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
       [Read how to relink your SAM profile](site.baseurl/help/sam/relink-my-profile)
     get-a-new-personal-key: |-
       We are currently in the process of retiring personal keys. It is highly suggested you configure one or more additional second factor authentication methods. To do so sign in to your account page and request backup codes, configure a phone, register a security key, configure an authentication app, or, if you are a government employee, attach your PIV/CAC card to your account.
@@ -513,7 +510,7 @@ help_pages:
 
       [How do I relink my USAJOBS profile after deleting my login.gov account?](site.baseurl/help/usajobs/relink-my-profile)
 
-      [How do I relink my Trusted Traveler profile after deleting my login.gov account?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+      [How do I relink my Trusted Traveler profile after deleting my login.gov account?](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
 
       [How do I relink my SAM profile after deleting my login.gov account?](site.baseurl/help/sam/relink-my-profile)
     phone-plan-is-not-in-my-name-or-address: |-
@@ -640,7 +637,7 @@ help_pages:
 
       [Read how to delete your account](site.baseurl/help/changing-settings/delete-my-account/)
       [Read how to relink your USAJOBS profile](site.baseurl/help/usajobs/relink-my-profile)
-      [Read how to relink your Trusted Traveler profile](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+      [Read how to relink your Trusted Traveler profile](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
       [Read how to relink your SAM profile](site.baseurl/help/sam/relink-my-profile)
     forgot-my-email-address: |-
       If you can't remember which email address you used to create your account, you can use the password reset function to see if your email address is on file.
@@ -709,7 +706,7 @@ help_pages:
       login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
 
       For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
-    dont-know-passid: |-
+    whats-my-passid: |-
       Once you have created a login.gov username and password and successfully signed into [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"}, you will be asked to enter your PASSID to link your old GOES profile to the new login.gov credentials. You will have to answer security questions and additional information by TTP If you do not have your PASSID.
 
       If you have trouble with your PASSID or GOES username and password, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
@@ -727,11 +724,11 @@ help_pages:
       login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
 
       For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
-    only-shows-login: |-
+    my-ttp-information-is-not-there: |-
       If you want to access your Trusted Traveler Programs (TTP) account, always start at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. After you follow the [instructions to create an account](/help/creating-an-account/how-to-create-an-account/), you will be taken back to your TTP membership information.
 
       If you sign in directly from login.gov, you will only see your login.gov account information, and will not be able to view your TTP membership information.
-    relink-my-profile: |-
+    reset-or-relink-my-logingov-account-for-ttp: |-
       If you cannot sign into your Trusted Traveler account because you’ve permanently lost access to your configured two-factor authentication methods you can reset your account by deleting it.
 
       Deleting your existing account and creating a new one will allow you to use the same email address and set up new two-factor authentication methods. Your information/applications will not be deleted, however, deleting will remove any agency applications you have linked to your account, including the link to your Trusted Traveler profile. You must follow the below steps to relink your account:
@@ -748,7 +745,7 @@ help_pages:
       login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
 
       For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
-    sign-in-doesnt-work: |-
+    cant-sign-in-or-reset-my-password-goes-account: |-
       You will no longer be able to use your GOES User ID and password to sign in. Please create a new login.gov account. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. No credit card or payment will be required.
 
       To register a new account:
@@ -773,7 +770,7 @@ help_pages:
       We recommend you don’t use a .gov, .mil or .edu email address, because if you leave your government or military position or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password.
 
       If your USAJOBS primary or secondary email address is a .gov, .mil or .edu email address, you may want to consider changing it AFTER you get through the login.gov account set-up and USAJOBS profile linking process.
-    im-trying-to-sign-in-but-it-doesnt-work: |-
+    cant-sign-in-or-reset-my-password-usajobs-account: |-
       USAJOBS recently switched their login system to login.gov. Your USAJOBS username and password no longer work. You must create a login.gov account to sign.
 
       To automatically link your USAJOBS profile to your new account, you must use your primary or secondary USAJOBS email. If you don't sign up with one of these emails, we won't be able to link your profile automatically, but you can use your USAJOBS primary or secondary email address to try and recover your profile once logged in.
