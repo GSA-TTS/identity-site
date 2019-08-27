@@ -181,7 +181,7 @@ help:
       e-mail est différente de mon adresse SAM.
     my-email-address-used-for-sam-is-not-available: Que dois-je faire si je n'ai plus accès à l'adresse e-mail
       que j'ai utilisée pour créer mon compte SAM.gov ?
-    relink-my-profile: Comment puis-je rétablir le lien avec mon profil SAM après
+    reset-or-relink-my-logingov-account-for-sam: Comment puis-je rétablir le lien avec mon profil SAM après
       avoir supprimé mon compte login.gov ?
     cant-sign-in-or-reset-my-password-sam-account: Pourquoi ne puis-je pas m'identifier sur SAM.gov
       à l'aide de mon nom d'utilisateur et de mon mot de passe ?
@@ -227,7 +227,7 @@ help:
     my-ttp-information-is-not-there: Lorsque je me connecte, je ne vois que les informations de mon
       compte login.gov et je ne parviens pas à revenir sur le site Trusted Traveler
       Programs.
-    relink-my-profile: Comment puis-je rétablir le lien avec mon profil Trusted Traveler
+    reset-or-relink-my-logingov-account-for-ttp: Comment puis-je rétablir le lien avec mon profil Trusted Traveler
       après avoir supprimé mon compte login.gov ?
     scheduling-an-appointment: Pouvez-vous m'aider à prendre un rendez-vous ?
     cant-sign-in-or-reset-my-password-goes-account: Je tente de me connecter, mais cela ne fonctionne pas/Je
@@ -240,7 +240,7 @@ help:
       pas d'e-mail/Je n'ai pas reçu d'e-mail de confirmation
     my-usajobs-information-is-not-there: Que dois-je faire si je ne vois pas l'information de mon
       profil après avoir créé un compte login.gov ?
-    relink-my-profile: J'ai perdu ma méthode d'authentification. Comment supprimer mon profil login.gov et en associer un nouveau à mon profil USAJOBS?
+    reset-or-relink-my-logingov-account-for-usajobs: J'ai perdu ma méthode d'authentification. Comment supprimer mon profil login.gov et en associer un nouveau à mon profil USAJOBS?
     security-code: De quoi ai-je besoin pour recevoir le code de sécurité login.gov ?
     what-email-address-should-i-use: Quelle adresse e-mail dois-je utiliser pour créer
       un compte login.gov ?
@@ -318,9 +318,9 @@ help_pages:
       Si vous redémarrez votre compte, vous pouvez maintenant associer vos profils d'applications.
 
       [Lisez comment ajouter ou supprimer une adresse email](site.baseurl/help/changing-settings/add-or-remove-email-address/)
-      [Lisez comment vous relier à votre profil USAJOBS](site.baseurl/help/usajobs/relink-my-profile)
-      [Lisez comment vous relier à votre profil Trusted Traveler](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
-      [Lisez comment vous relier à votre profil SAM](site.baseurl/help/sam/relink-my-profile)
+      [Lisez comment vous relier à votre profil USAJOBS](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
+      [Lisez comment vous relier à votre profil Trusted Traveler](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
+      [Lisez comment vous relier à votre profil SAM](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
     get-a-new-personal-key: |-
       Pour soumettre une demande de nouvelle clé personnelle, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Gérer le compte » pour vous connecter à la page de votre compte login.gov. À côté de la clé personnelle, sélectionnez « Obtenir une nouvelle clé ». Suivez les instructions pour prendre en note ou imprimer la nouvelle clé personnelle et sélectionnez « continuer » pour terminer le processus. Rappelez-vous que vous pouvez faire la demande d'une nouvelle clé uniquement si vous êtes en mesure de vous connecter à votre compte login.gov.
 
@@ -538,11 +538,11 @@ help_pages:
 
       Articles liés
 
-      [Comment relier mon profil USAJOBS après la suppression de mon compte login.gov?](site.baseurl/help/usajobs/relink-my-profile)
+      [Comment relier mon profil USAJOBS après la suppression de mon compte login.gov?](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
 
-      [Comment relier mon profil Trusted Traveler après la suppression de mon compte login.gov?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+      [Comment relier mon profil Trusted Traveler après la suppression de mon compte login.gov?](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
 
-      [Comment relier mon profil SAM après la suppression de mon compte login.gov?](site.baseurl/help/sam/relink-my-profile)
+      [Comment relier mon profil SAM après la suppression de mon compte login.gov?](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
   privacy-and-security:
     what-is-phishing: Le phishing se produit lorsque quelqu'un tente de vous amener
       à partager votre mot de passe ou d'autres informations personnelles en ligne.
@@ -592,7 +592,7 @@ help_pages:
       e-mail pour recevoir l'e-mail de confirmation de login.gov. Malheureusement,
       SAM ne sera pas en mesure de relier votre profil et vos informations à votre
       compte.
-    relink-my-profile: |-
+    reset-or-relink-my-logingov-account-for-sam: |-
       Si vous ne pouvez vous connecter à votre compte SAM parce que vous avez perdu l'accès à votre méthode de sécurité et à votre clé personnelle de façon permanente, vous pouvez réinitialiser votre compte en le supprimant.
 
       La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles méthodes d'authentification. Toutefois, la suppression annulera le lien à votre profil SAM. Vous devez suivre les étapes ci-dessous pour rétablir le lien avec votre compte :
@@ -669,9 +669,9 @@ help_pages:
         4. Lien vers vos applications
 
       [Lisez comment supprimer votre compte](site.baseurl/help/changing-settings/delete-my-account/)
-      [Lisez comment vous relier à votre profil USAJOBS](site.baseurl/help/usajobs/relink-my-profile)
-      [Lisez comment vous relier à votre profil Trusted Traveler](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
-      [Lisez comment vous relier à votre profil SAM](site.baseurl/help/sam/relink-my-profile)
+      [Lisez comment vous relier à votre profil USAJOBS](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
+      [Lisez comment vous relier à votre profil Trusted Traveler](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
+      [Lisez comment vous relier à votre profil SAM](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: |-
       Si n'avez pas votre téléphone ou votre clé personnelle, vous pourriez devoir créer un nouveau compte et vérifier votre information personnelle de nouveau. Pour créer un nouveau compte, vous devrez utiliser une adresse courriel différente de celle que vous avez utilisée lorsque vous avez créé votre premier compte. Pour les questions urgentes, par exemple pour vérifier le statut d'une application en cours, il est recommandé de communiquer directement avec l'agence gouvernementale.
 
@@ -783,7 +783,7 @@ help_pages:
       Si vous souhaitez accéder à votre compte Trusted Traveler Programs (TTP), commencez toujours à l'adresse [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. Après avoir suivi les [instructions de création de compte](/help/creating-an-account/how-to-create-an-account/), vous serez renvoyé vers les informations de votre adhésion à TTP.
 
       Si vous vous connectez directement depuis login.gov, vous verrez seulement les informations de votre compte login.gov et vous ne pourrez pas voir les informations de votre adhésion à TTP.
-    relink-my-profile: |-
+    reset-or-relink-my-logingov-account-for-ttp: |-
       Si vous ne pouvez vous connecter à votre compte Trusted Traveler parce que vous avez perdu l'accès à votre méthode de sécurité et à votre clé personnelle de façon permanente, vous pouvez réinitialiser votre compte en le supprimant.
 
       La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles méthodes d'authentification. Toutefois, la suppression annulera le lien à votre profil Trusted Traveler. Vous devez suivre les étapes ci-dessous pour rétablir le lien avec votre compte :
@@ -858,7 +858,7 @@ help_pages:
       Si vous recevez un e-mail qui indique que l'adresse e-mail n'est associée à aucun compte USAJOBS, essayez de lier votre profil en utilisant une adresse e-mail différente.
 
       Si vous n'êtes pas en mesure de lier votre profil ou que vous n'avez plus accès à l'adresse e-mail que vous avez utilisé pour créer votre profil USAJOBS, vous pouvez sélectionner « lost access to your email addresses » (accès à vos adresses e-mail perdu) pour contacter le centre d'assistance de USAJOBS pour obtenir de l'assistance additionnelle ou utilisez ce lien : [https://www.usajobs.gov/Help/faq/account/no-profile/](https://www.usajobs.gov/Help/faq/account/no-profile/)
-    relink-my-profile: |-
+    reset-or-relink-my-logingov-account-for-usajobs: |-
       Si vous ne pouvez pas vous connecter à votre profil USAJOBS parce que vous avez définitivement perdu l’accès à vos méthodes d’authentification, vous pouvez réinitialiser votre compte en le supprimant et en en reliant un nouveau.
 
       La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles méthodes d'authentification. Toutefois, si vous supprimez votre compte login.gov, vous ne pourrez pas vous connecter à USAJOBS (ni à aucune autre application gouvernementale liée à votre compte login.gov) tant que vous n'avez pas créé un nouveau compte et que vous ne l'avez pas lié de nouveau. Il faudra au moins 24 heures pour supprimer votre compte.
