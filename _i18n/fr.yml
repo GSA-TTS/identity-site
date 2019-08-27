@@ -130,17 +130,17 @@ global:
     fr: Français
 help:
   changing-settings:
-    how-do-I-get-a-new-personal-key: Comment puis-je obtenir une clé personnelle?
+    get-a-new-personal-key: Comment puis-je obtenir une clé personnelle?
     authentication-application: Comment puis-je configurer une appli d'authentification?
-    how-do-i-change-my-email-address: Comment changer mon adresse courriel?
-    how-do-i-change-my-password: Comment changer mon mot de passe?
+    change-my-email-address: Comment changer mon adresse courriel?
+    change-my-password: Comment changer mon mot de passe?
     how-do-i-change-the-phone-number-i-am-using-with-my-account: Comment changer le
       numéro de téléphone que j'utilise avec mon compte?
-    how-do-i-change-the-phone-number-i-use-to-sign-in: Comment puis-je changer le
+    change-my-phone-number: Comment puis-je changer le
       numéro de téléphone que j'utilise pour me connecter ?
-    how-do-i-add-or-remove-an-email-address_html: Comment ajouter ou supprimer une adresse email?
-    i-got-an-error-message-when-i-added-an-email: J'ai reçu un message d'erreur lorsque j'ai ajouté une adresse électronique à mon compte. Que dois-je faire?
-    how-do-i-delete-my-account: Comment puis-je supprimer mon compte?
+    add-or-remove-email-address: Comment ajouter ou supprimer une adresse email?
+    email-address-is-already-in-use: J'ai reçu un message d'erreur lorsque j'ai ajouté une adresse électronique à mon compte. Que dois-je faire?
+    delete-my-account: Comment puis-je supprimer mon compte?
   creating-an-account:
     how-to-create-an-account: Comment créer un compte sur login.gov?
     no-phone-or-other-authentication-method: Je n’ai pas de téléphone, d’application d’authentification, de clé de sécurité ou d’identité gouvernementale. Puis-je quand même créer un compte login.gov?
@@ -166,7 +166,7 @@ help:
     multiple-accounts-to-verifying-my-identity-for:
       J'ai plusieurs comptes login.gov, puis-je vérifier mon identité pour chacun d'entre eux?
   privacy-and-security:
-    can-i-remove-a-saved-password-or-login-information-from-my-browser: Puis-je supprimer
+    remove-saved-password-from-browser: Puis-je supprimer
       un mot de passe ou un identifiant sauvegardé de mon navigateur ?
     creating-a-strong-password: Comment puis-je choisir un mot de passe sûr ?
     how-does-logingov-protect-my-data: Comment login.gov protège-t-il mes données ?
@@ -192,7 +192,7 @@ help:
   signing-in:
     forgot-my-password: Comment puis-je réinitialiser mon mot de passe?
     phone-or-authentication-methods-not-available: Comment me connecter si je n’ai pas mes méthodes d’authentification (téléphone, codes de sauvegarde, application d’authentification, etc.)?
-    how-do-i-turn-off-two-factor-authentication: Comment puis-je désactiver l'authentification
+    turn-off-two-factor-authentication: Comment puis-je désactiver l'authentification
       à deux facteurs ?
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: Je
       ne me rappelle pas de ma clé personnelle et je n'ai pas mon téléphone avec moi.
@@ -249,7 +249,7 @@ help_page:
   p_1: Parcourir les sujets communs
 help_pages:
   changing-settings:
-    how-do-i-add-or-remove-an-email-address_html: |-
+    add-or-remove-email-address: |-
       Vous pouvez ajouter ou supprimer des adresses électroniques à partir de votre page de connexion login.gov.
 
       <b>Pour ajouter une adresse email</b> à votre compte, suivez les étapes ci-dessous:
@@ -266,7 +266,7 @@ help_pages:
         3. Assurez-vous que la page suivante indique la bonne adresse email à supprimer.
         4. Cliquez sur "Supprimer l'adresse e-mail"
       Vous verrez un message d'alerte vert confirmant que votre adresse e-mail a été supprimée.
-    i-got-an-error-message-when-i-added-an-email: |-
+    email-address-is-already-in-use: |-
       Si vous essayez d'ajouter une adresse électronique connectée à un autre compte login.gov, vous recevrez un message d'erreur indiquant: "Vous avez confirmé votre adresse électronique, mais elle est associée à un autre compte login.gov. Vous devez le supprimer de l'autre compte avant de pouvoir l'associer à celui-ci."
 
       Vous ne pouvez pas ajouter la même adresse électronique à deux comptes login.gov différents, mais vous pouvez combiner les deux comptes. Pour combiner des comptes, suivez les étapes ci-dessous:
@@ -274,10 +274,10 @@ help_pages:
         2. Connectez-vous à l'autre compte et ajoutez l'adresse e-mail liée au compte que vous venez de supprimer.
         3. Rétablir le lien avec les applications liées à votre compte supprimé
 
-      [Lisez comment supprimer votre compte](site.baseurl/help/changing-settings/how-do-i-delete-my-account/)
-      [Lisez comment ajouter ou supprimer une adresse email](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
+      [Lisez comment supprimer votre compte](site.baseurl/help/changing-settings/delete-my-account/)
+      [Lisez comment ajouter ou supprimer une adresse email](site.baseurl/help/changing-settings/add-or-remove-email-address/)
       [Lisez comment réinitialiser votre mot de passe](site.baseurl/help/signing-in/forgot-my-password/)
-    how-do-i-delete-my-account: |-
+    delete-my-account: |-
       La suppression de votre compte est la première étape de la réinitialisation ou de la fusion de plusieurs comptes. Si vous n'avez pas accès à votre méthode d'authentification à deux facteurs, la suppression de votre compte prendra au moins 24 heures.
 
       Une fois votre compte supprimé, vous ne pourrez plus vous connecter aux applications gouvernementales pour lesquelles vous utilisez normalement ce compte. Vous ne perdrez pas les informations contenues dans ces profils d'application, mais vous devrez vous reconnecter à un nouveau compte login.gov pour pouvoir vous y connecter.
@@ -302,11 +302,11 @@ help_pages:
 
       Si vous redémarrez votre compte, vous pouvez maintenant associer vos profils d'applications.
 
-      [Lisez comment ajouter ou supprimer une adresse email](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
+      [Lisez comment ajouter ou supprimer une adresse email](site.baseurl/help/changing-settings/add-or-remove-email-address/)
       [Lisez comment vous relier à votre profil USAJOBS](site.baseurl/help/usajobs/relink-my-profile)
       [Lisez comment vous relier à votre profil Trusted Traveler](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
       [Lisez comment vous relier à votre profil SAM](site.baseurl/help/sam/relink-my-profile)
-    how-do-I-get-a-new-personal-key: |-
+    get-a-new-personal-key: |-
       Pour soumettre une demande de nouvelle clé personnelle, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Gérer le compte » pour vous connecter à la page de votre compte login.gov. À côté de la clé personnelle, sélectionnez « Obtenir une nouvelle clé ». Suivez les instructions pour prendre en note ou imprimer la nouvelle clé personnelle et sélectionnez « continuer » pour terminer le processus. Rappelez-vous que vous pouvez faire la demande d'une nouvelle clé uniquement si vous êtes en mesure de vous connecter à votre compte login.gov.
 
       Placez votre clé personnelle en lieu sûr, il s'agit de votre unique moyen de vous connecter si vous ne pouvez recevoir un code de sécurité. Certains moyens appropriés de stocker votre clé personnelle comprennent de la prendre en note, d'en faire une capture d'écran, de la coller dans un document sécurisé ou de l'imprimer. Vous pouvez utiliser chaque clé personnelle une fois seulement, nous vous en fournirons une autre ensuite.
@@ -323,14 +323,14 @@ help_pages:
         4. Sélectionnez « activer » à côté de l'appli d'authentification et suivez les instructions pour scanner ou saisir un code qui associe votre appli d'authentification à votre compte.
 
       Vous serez maintenant en mesure d'utiliser les mots de passe à utilisation unique générés par l'application chaque fois où vous vous connectez au lieu de recevoir un SMS ou un appel téléphonique. Si vous éprouvez des difficultés à configurer votre appli d'authentification, vous devez contacter le développeur de l'application directement pour obtenir de l'assistance.
-    how-do-i-change-my-email-address: Pour changer l'adresse e-mail associée à votre compte
+    change-my-email-address: Pour changer l'adresse e-mail associée à votre compte
       login.gov, allez à [https://secure.login.gov/](https://secure.login.gov/) et connectez-vous à votre compte
       login.gov. Cliquez sur "Ajouter un e-mail" et procédez au processus d'ajout de votre nouvelle
       adresse e-mail. Cliquez ensuite sur "Supprimer" en regard de l'adresse e-mail que vous
       remplacez et procédez au processus de suppression.
 
-      [En savoir plus sur la façon d'ajouter ou de supprimer une adresse électronique](site.baseurl/help/changing-settings/how-do-i-add-or-remove-an-email-address_html/)
-    how-do-i-change-my-password: |-
+      [En savoir plus sur la façon d'ajouter ou de supprimer une adresse électronique](site.baseurl/help/changing-settings/add-or-remove-email-address/)
+    change-my-password: |-
       Pour changer votre mot de passe, connectez-vous à login.gov et allez à votre page de profil. Si vous souhaitez changer votre mot de passe, sélectionnez « Modifier » à côté de celui-ci, entrez le nouveau mot de passe et soumettez votre changement. Les mots de passe doivent contenir au moins 12 caractères, mais il n'y a aucune autre restriction. Vous pouvez même utiliser plus d'un mot avec des espaces pour obtenir 12 caractères.
 
       Essayez de créer un mot de passe long et complexe en utilisant une phrase ou une série de mots que vous seul(e) pouvez reconnaître. Assurez-vous également qu'il soit différent de tout autre mot de passe que vous utilisez pour vous connecter à d'autres comptes, par exemple votre compte bancaire ou votre compte courriel. Utiliser le même mot de passe pour les courriels, les comptes bancaires et les médias sociaux facilite le vol d'identité.
@@ -338,7 +338,7 @@ help_pages:
       de téléphone où est envoyé votre code de sécurité, sélectionnez « Modifier »
       à côté de celui-ci. Le site login.gov vous enverra immédiatement votre code
       de sécurité pour confirmer le nouveau numéro de téléphone.
-    how-do-i-change-the-phone-number-i-use-to-sign-in: |-
+    change-my-phone-number: |-
       Pour changer le numéro de téléphone où vous recevez votre code de sécurité, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Gérer le compte » pour vous connecter à votre compte login.gov. Une fois connecté(e), sélectionnez « modifier » à côté du numéro de téléphone. Entrez le numéro de téléphone et sélectionnez « confirmer le changement ». login.gov vous enverra immédiatement votre code de sécurité pour confirmer le nouveau numéro de téléphone.
 
       Si vous ne pouvez recevoir le code de sécurité parce que vous n'avez plus accès à votre téléphone, vous devrez [vous connecter en utilisant votre clé personnelle](site.baseurl/help/signing-in/phone-or-authentication-methods-not-available).
@@ -517,7 +517,7 @@ help_pages:
 
       [Comment relier mon profil SAM après la suppression de mon compte login.gov?](site.baseurl/help/sam/relink-my-profile)
   privacy-and-security:
-    can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
+    remove-saved-password-from-browser: |-
       "Si vous avez accidentellement sauvegardé votre mot de passe ou toute autre information de connexion liée à login.gov dans votre navigateur, il est préférable de les supprimer. Ainsi, vous conserverez un compte plus sécurisé. Dans la liste suivante, sélectionnez le navigateur (le programme informatique que vous utilisez pour accéder au web) que vous utilisez pour apprendre comment supprimer toute information sauvegardée :"
 
       - [Chrome](https://support.google.com/chrome/answer/95606){:target="_blank"}
@@ -662,11 +662,11 @@ help_pages:
         3. Créer un nouveau compte en utilisant la même adresse email
         4. Lien vers vos applications
 
-      [Lisez comment supprimer votre compte](site.baseurl/help/changing-settings/how-do-i-delete-my-account/)
+      [Lisez comment supprimer votre compte](site.baseurl/help/changing-settings/delete-my-account/)
       [Lisez comment vous relier à votre profil USAJOBS](site.baseurl/help/usajobs/relink-my-profile)
       [Lisez comment vous relier à votre profil Trusted Traveler](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
       [Lisez comment vous relier à votre profil SAM](site.baseurl/help/sam/relink-my-profile)
-    how-do-i-turn-off-two-factor-authentication: |-
+    turn-off-two-factor-authentication: |-
       login.gov ne permet pas de désactiver l'authentification à deux facteurs, mais vous pouvez configurer la fonctionnalité « se souvenir du navigateur ». Cela vous permet de vous connecter sans entrer de code de sécurité pendant 30 jours. Tous les 30 jours, vous devrez renouveler cette fonctionnalité en passant les étapes normales d'authentification à deux facteurs et en sélectionnant « se souvenir du navigateur ». REMARQUE : Si vous utilisez login.gov sur plusieurs appareils et navigateurs, vous devez configurer la fonctionnalité « se souvenir du navigateur » sur chacun d'eux.
 
         1. Saisissez l'adresse e-mail et le mot de passe pour commencer le processus de connexion.
