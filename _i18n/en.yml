@@ -153,9 +153,9 @@ help:
     no-phone-or-other-authentication-method: No phone or other authentication method
     personal-key: Personal key
     what-are-backup-codes: What are backup codes?
-  identity-verification:
+  verifying-your-identity:
     why-do-i-need-to-verify-my-identity: Why do I need to verify my identity?
-    how-do-i-verify-my-identity-on-logingov: How do I verify my identity on login.gov?
+    how-to-verify-my-identity: How to verify my identity
     i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: I do not have a
       state-issued ID, can I still verify my identity?
     i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
@@ -456,14 +456,14 @@ help_pages:
       If the confirmation link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter.
 
       For additional help, [please submit a support ticket] (https://login.gov/contact).
-  identity-verification:
+  verifying-your-identity:
     why-do-i-need-to-verify-my-identity: |-
       Some government applications that use login.gov require users to verify their identities. This means that you must prove that you are who you say you are. By doing this, we make sure that only the right people get access to sensitive information.
 
       You will only be asked to verify your identity the first time you sign in to certain government applications.
 
       You only need to verify your identity once for your login.gov account (after you verify your identity with login.gov for one government application, you don’t need to do it again for other government applications).
-    how-do-i-verify-my-identity-on-logingov: |-
+    how-to-verify-my-identity: |-
       If a government application requires identity verification, login.gov will ask you to verify your identity the first time you sign in to it. You will need to have your state-issued ID (like your driver’s license) or a picture of the front and the back of it. Use the following steps to verify your identity on login.gov:
       1. When you are signing in or creating an account, you will see the “We need to verify your identity” page. Click on “Get started”.
       <img src="site.baseurl/assets/img/verify-my-identity-1.png" class="mt3 mb3 block" />
@@ -851,7 +851,7 @@ help_pages:
 help_subpages:
   changing-settings: Changing settings
   creating-an-account: Creating an account
-  identity-verification: Identity verification
+  verifying-your-identity: Verifying your identity
   privacy-and-security: Privacy & security
   sam: SAM
   security-keys: Security keys

@@ -158,9 +158,9 @@ help:
       utiliser login.gov pour accéder aux services en ligne du gouvernement?
     email-address-confirmation-link-is-invalid: Pourquoi mon lien de confirmation n'est-il
       pas valide?
-  identity-verification:
+  verifying-your-identity:
     why-do-i-need-to-verify-my-identity: Pourquoi dois-je vérifier mon identité?
-    how-do-i-verify-my-identity-on-logingov: Comment vérifier mon identité sur login.gov?
+    how-to-verify-my-identity: Comment vérifier mon identité sur login.gov?
     i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: Je n'ai pas d'identifiant
       délivré par l'État, puis-je quand même vérifier mon identité?
     i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
@@ -455,14 +455,14 @@ help_pages:
       Si le lien de confirmation ne fonctionne pas et que vous avez suivi les étapes indiquées ci-dessus, il est possible que votre fournisseur de messagerie ait brouillé le lien. Une façon de déterminer si cela s'est produit est de copier et de coller le lien de confirmation dans votre navigateur. S'il y a des symboles ou des mots inhabituels dans le lien, éliminez-les et appuyez sur la touche entrer.
 
       Pour obtenir de l'assistance additionnelle, veuillez envoyer un e-mail à [hello@login.gov](mailto:hello@login.gov).
-  identity-verification:
+  verifying-your-identity:
     why-do-i-need-to-verify-my-identity: |-
       Certaines applications gouvernementales qui utilisent login.gov imposent aux utilisateurs de vérifier leur identité. Cela signifie que vous devez prouver que vous êtes ce que vous dites. Ce faisant, nous nous assurons que seules les personnes appropriées ont accès aux informations sensibles.
 
       Vous ne serez invité à vérifier votre identité que la première fois que vous vous connecterez à certaines applications gouvernementales.
 
       Il vous suffit de vérifier votre identité une seule fois pour votre compte login.gov (une fois que vous avez vérifié votre identité avec login.gov pour une application gouvernementale, vous n’avez plus besoin de la refaire pour d’autres applications gouvernementales).
-    how-do-i-verify-my-identity-on-logingov: |-
+    how-to-verify-my-identity: |-
       Si l'application gouvernementale que vous vous inscrivez requiert une vérification de l'identité, login.gov vous demandera de vérifier votre identité. Vous aurez besoin de votre pièce d'identité émise par l'État (comme votre permis de conduire) ou d'une photo à l'avant et à l'arrière de celle-ci. Utilisez les étapes suivantes pour vérifier votre identité sur login.gov:
       1. Lorsque vous vous inscrivez ou créez un compte, vous verrez la page "Devons vérifier votre identité". Cliquez sur "Commencer".
       <img src="site.baseurl/assets/img/verify-my-identity-1.png" class="mt3 mb3 block" />
