@@ -143,7 +143,7 @@ help:
   creating-an-account:
     how-to-create-an-account: "¿Cómo puedo crear una cuenta con login.gov?"
     no-phone-or-other-authentication-method: No tengo teléfono, aplicación de autenticación, clave de seguridad o ID de gobierno. ¿Puedo crear una cuenta de login.gov?
-    how-do-i-verify-my-address-by-mail: "¿Cómo verifico mi dirección por correo?"
+    phone-plan-is-not-in-my-name-or-address: "¿Cómo verifico mi dirección por correo?"
     email-address-confirmation-not-received: No recibí un email de confirmación
       de login.gov.
     email-address-is-already-in-use: "¿Qué debo hacer
@@ -159,9 +159,9 @@ help:
   verifying-your-identity:
     why-do-i-need-to-verify-my-identity: ¿Por qué necesito verificar mi identidad?
     how-to-verify-my-identity: ¿Cómo verifico mi identidad en login.gov?
-    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: No tengo una identificación
+    dont-have-a-state-issued-id: No tengo una identificación
       emitida por el estado, ¿aún puedo verificar mi identidad?
-    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
+    multiple-accounts-to-verifying-my-identity-for:
       Tengo más de una cuenta de login.gov ¿puedo verificar mi identidad en todas?
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: "¿Puedo borrar
@@ -194,7 +194,7 @@ help:
       de dos factores?"
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: No
       puedo recordar dónde está mi clave personal y no tengo mi teléfono conmigo.
-    i-forgot-which-email-address-i-used-to-create-an-account: Olvidé el email que
+    forgot-my-email-address: Olvidé el email que
       utilicé para crear una cuenta.
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: Si no tengo mi teléfono conmigo,
       ¿puedo iniciar sesión?
@@ -202,7 +202,7 @@ help:
       es válido
     what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: "¿Qué hago si mi contraseña
       no funciona o la olvido?"
-    what-do-i-need-to-have-in-order-to-sign-in: "¿Qué necesito tener para iniciar sesión?"
+    how-to-sign-in: "¿Qué necesito tener para iniciar sesión?"
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: "¿Qué
       sucede si pierdo la llamada telefónica o el mensaje de texto con mi código de
       seguridad de un sólo uso?"
@@ -390,7 +390,7 @@ help_pages:
       En la página "Agregar otro método", seleccione "No tengo ninguno de los anteriores" y haga clic en "Continuar"
 
       A continuación, habrá terminado de crear su cuenta. Cada vez que inicie sesión con login.gov, se le pedirá que ingrese uno de sus códigos de respaldo. Después de usar el décimo código, se le dará un nuevo conjunto de códigos de respaldo para guardar y usar.
-    how-do-i-verify-my-address-by-mail: |-
+    phone-plan-is-not-in-my-name-or-address: |-
       Si no podemos verificar automáticamente su dirección, debe verificarla por correo. Esto significa que le enviaremos una carta con un código de confirmación que debe usar para terminar de configurar su cuenta.
 
       Recibirá la carta a través del Servicio Postal de EE. UU., De tres a cinco días hábiles después de la fecha en que solicita el código. El código de confirmación caducará 30 días después de la fecha en que envíe su solicitud.
@@ -479,11 +479,11 @@ help_pages:
       6. Vuelva a ingresar su contraseña de login.gov
 
       Si podemos verificar tu identidad, verás una página de confirmación y podrás ingresar a la aplicación gubernamental.
-    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: |-
+    dont-have-a-state-issued-id: |-
       En este momento, no puedes verificar a tu identidad en login.gov sin una tajeta de identidad emitida por el estado. Actualmente estamos trabajando para agregar más formas de verificar identidades.
 
       Mientras tanto, comuníquese con el centro de ayuda de la aplicaciones gubernamentales para averiguar qué puede hacer.
-    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them: |-
+    multiple-accounts-to-verifying-my-identity-for: |-
       Solo puedes verificar tu identidad en una cuenta. Si tienes más de una cuenta de login.gov, puedes combinarlas eliminando una cuenta y luego agregando su dirección de correo electrónico a la otra. Antes de hacer esto, recuerda que tendrás que volver a vincular todas las aplicaciones gubernamentales que estaban conectadas a la(s) cuenta(s) que estás eliminando. Además, solo puedes agregar un máximo de diez direcciones de correo electrónico a una sola cuenta de login.gov.
 
       Eliminar una cuenta
@@ -662,7 +662,7 @@ help_pages:
       Si no tiene su teléfono o su clave personal, es posible que deba crear una cuenta nueva y volver a verificar su información personal. Para crear una cuenta nueva, deberá usar un email diferente al que utilizó cuando creó su primera cuenta. Para asuntos urgentes —por ejemplo, para verificar el estado de una solicitud en curso— comuníquese directamente con la agencia del Gobierno.
 
       Otra opción es tratar de iniciar sesión luego cuando tenga su teléfono cerca.
-    i-forgot-which-email-address-i-used-to-create-an-account: |-
+    forgot-my-email-address: |-
       Si no puede recordar el email que utilizó para crear su cuenta, puede utilizar la función para restablecer la contraseña y ver si su email está en el archivo.
 
       Intente iniciar una sesión como de costumbre y solicite restablecer su contraseña. Luego, ingrese el email que cree que utilizó para crear su cuenta. Si tenemos su email en nuestros registros, le enviaremos instrucciones para restablecer su contraseña. Revise su email en unos minutos para obtener estas instrucciones.
@@ -683,7 +683,7 @@ help_pages:
 
 
       Una vez que haya iniciado sesión en login.gov después de restablecer su contraseña, login.gov le proporcionará una clave personal. La clave personal se utilizará en caso de que olvide su contraseña o no tenga su teléfono consigo. Anótelo y guárdelo por separado del teléfono.
-    what-do-i-need-to-have-in-order-to-sign-in: |-
+    how-to-sign-in: |-
       Cada vez que inicie sesión en su cuenta, necesitará su dirección de correo electrónico, su contraseña y el acceso a uno de los métodos de autenticación de dos factores que configura. Después de ingresar su dirección de correo electrónico y contraseña para iniciar sesión, login.gov le solicitará que se autentique (ingrese un código de seguridad enviado a su teléfono por voz o texto, ingrese el código de seguridad de su aplicación de autenticación, ingrese un código de respaldo, use su clave de seguridad, o use su tarjeta gubernamental PIV/CAC).
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Cada
       vez que inicie una sesión deberá ingresar un código de seguridad que se envía

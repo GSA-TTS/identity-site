@@ -156,14 +156,12 @@ help:
   verifying-your-identity:
     why-do-i-need-to-verify-my-identity: Why do I need to verify my identity?
     how-to-verify-my-identity: How to verify my identity
-    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: I do not have a
-      state-issued ID, can I still verify my identity?
-    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
+    multiple-accounts-to-verifying-my-identity-for: Multiple accounts to verifying my identity for
+    dont-have-a-state-issued-id: Don't have a state-issued ID
+    multiple-accounts-to-verifying-my-identity-for:
       I have more than one login.gov account, can I verify my identity for all of them?
-    how-do-i-verify-my-address-by-mail: How do I verify my address by mail?
+    phone-plan-is-not-in-my-name-or-address: Phone plan is not in my name or address
   privacy-and-security:
-    multiple-accounts-to-verifying-my-identity-for: Why do I need
-      to use login.gov to access government services online?
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove
       a saved password or login information from my browser?
     how-does-logingov-protect-my-data: How does login.gov protect my data?
@@ -186,13 +184,11 @@ help:
     how-do-i-reset-my-password: How do I reset my password?
     how-do-i-sign-in-if-i-dont-have-my-authentication-methods: How do I sign in if I don’t have my authentication methods (phone, backup codes, authentication app, etc.)?
     how-do-i-turn-off-two-factor-authentication: How do I turn off two-factor authentication?
-    i-forgot-which-email-address-i-used-to-create-an-account: I forgot which email
-      address I used to create an account.
+    forgot-my-email-address: Forgot my email address
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: If I don't have my phone
       with me can I still sign in?
     my-reset-password-link-is-invalid: My reset password link is invalid
-    what-do-i-need-to-have-in-order-to-sign-in: What do I need to have in order to
-      sign in?
+    how-to-sign-in: How to sign in
     why-am-i-locked-out-of-logingov: Why am I locked out of login.gov?
     why-didnt-I-receive-a-reset-password-email-from-logingov: Why didn’t I receive
       a reset password email from login.gov?
@@ -363,7 +359,7 @@ help_pages:
       On the “Add another method” page, select “I don’t have any of the above” and click “Continue”
 
       You will then be finished creating your account. Each time you sign in using login.gov, you will be asked to enter one of your backup codes. After you use the 10th code, you will be given a new set of backup codes to save and use.
-    how-do-i-verify-my-address-by-mail: |-
+    phone-plan-is-not-in-my-name-or-address: |-
       If we cannot automatically verify your address, you must verify it by mail. This means that we will mail you a letter with a confirmation code that you must use to finish setting up your account.
 
       You will receive the letter via U.S. Postal Service, three to five business days after the date when you request the code. The confirmation code will expire 30 days after the date when you submit your request.
@@ -490,11 +486,11 @@ help_pages:
       6. Re-enter your login.gov password
 
       If we are able to verify your identity, you will see a confirmation page and be able to enter the government application.
-    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: |-
+    dont-have-a-state-issued-id: |-
       At this time, you cannot verify your identity on login.gov without a state-issued ID. We’re currently working to add more ways to verify your identity.
 
       In the meantime, please contact your government application’s help center to find out what you can do.
-    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them: |-
+    multiple-accounts-to-verifying-my-identity-for: |-
       You can only verify your identity for one account. If you have more than one login.gov account, you can combine them by deleting one account and then adding that email address to the other. Before you do this, remember that you will have to relink any government applications that were connected to the account(s) you are deleting. Also, you can only add a maximum of ten email addresses to a single login.gov account.
 
       Delete an account
@@ -647,7 +643,7 @@ help_pages:
         1. Enter email and password to begin sign in process.
         2. Enter the security code and select “Remember this browser for 30 days”.
         3. After setting up "remember browser," you will not be prompted to enter a security code for 30 days.
-    i-forgot-which-email-address-i-used-to-create-an-account: |-
+    forgot-my-email-address: |-
       If you can't remember which email address you used to create your account, you can use the password reset function to see if your email address is on file.
 
       Try to sign in as usual and ask to have your password reset. Then, enter the email address you believe you used to create your account. If we have your email address in our records, we will send instructions on how to reset your password. Check your email in a few minutes for these instructions.
@@ -665,7 +661,7 @@ help_pages:
       If the reset password link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter.
 
       For additional help, you can [submit a support ticket] (https://login.gov/contact)
-    what-do-i-need-to-have-in-order-to-sign-in: |-
+    how-to-sign-in: |-
       Every time you sign in to your account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up. After you enter your email address and password to sign in, login.gov will ask you to authenticate (enter a security code sent to your phone by voice or text, enter the security code from your authentication application, enter a backup code, use your security key, or use your government PIV/CAC card).
     why-am-i-locked-out-of-logingov: |-
       There are several ways you can be temporarily locked out of login.gov.

@@ -144,7 +144,7 @@ help:
   creating-an-account:
     how-to-create-an-account: Comment créer un compte sur login.gov?
     no-phone-or-other-authentication-method: Je n’ai pas de téléphone, d’application d’authentification, de clé de sécurité ou d’identité gouvernementale. Puis-je quand même créer un compte login.gov?
-    how-do-i-verify-my-address-by-mail: Comment vérifier mon adresse par courrier?
+    phone-plan-is-not-in-my-name-or-address: Comment vérifier mon adresse par courrier?
     email-address-confirmation-not-received: Je n'ai pas reçu de courriel
       de confirmation de login.gov.
     email-address-is-already-in-use: Que dois-je
@@ -161,9 +161,9 @@ help:
   verifying-your-identity:
     why-do-i-need-to-verify-my-identity: Pourquoi dois-je vérifier mon identité?
     how-to-verify-my-identity: Comment vérifier mon identité sur login.gov?
-    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: Je n'ai pas d'identifiant
+    dont-have-a-state-issued-id: Je n'ai pas d'identifiant
       délivré par l'État, puis-je quand même vérifier mon identité?
-    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
+    multiple-accounts-to-verifying-my-identity-for:
       J'ai plusieurs comptes login.gov, puis-je vérifier mon identité pour chacun d'entre eux?
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Puis-je supprimer
@@ -196,7 +196,7 @@ help:
       à deux facteurs ?
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: Je
       ne me rappelle pas de ma clé personnelle et je n'ai pas mon téléphone avec moi.
-    i-forgot-which-email-address-i-used-to-create-an-account: J'ai oublié quelle adresse
+    forgot-my-email-address: J'ai oublié quelle adresse
       courriel j'ai utilisée pour créer un compte.
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: Si je n'ai pas mon téléphone
       avec moi, puis-je quand même me connecter?
@@ -204,7 +204,7 @@ help:
       n'est pas valide
     what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: Que dois-je faire si mon
       mot de passe ne fonctionne pas ou si je l'ai oublié?
-    what-do-i-need-to-have-in-order-to-sign-in: De quoi ai-je besoin pour pouvoir me connecter?
+    how-to-sign-in: De quoi ai-je besoin pour pouvoir me connecter?
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Que
       se produit-il si je manque l'appel téléphonique ou le message texte contenant
       mon code de sécurité à utilisation unique?
@@ -393,7 +393,7 @@ help_pages:
       Sur la page «Ajouter une autre méthode», sélectionnez «Je n’ai aucun de ces choix» et cliquez sur «Continuer».
 
       Vous aurez alors fini de créer votre compte. Chaque fois que vous vous connecterez à l'aide de login.gov, il vous sera demandé de saisir l'un de vos codes de sauvegarde. Après avoir utilisé le 10ème code, vous recevrez un nouvel ensemble de codes de sauvegarde à enregistrer et à utiliser.
-    how-do-i-verify-my-address-by-mail: |-
+    phone-plan-is-not-in-my-name-or-address: |-
       Si nous ne pouvons pas vérifier automatiquement votre adresse, vous devez la vérifier par courrier. Cela signifie que nous vous enverrons une lettre avec un code de confirmation que vous devez utiliser pour terminer la configuration de votre compte.
 
       Vous recevrez la lettre par le biais du service postal américain, trois à cinq jours ouvrables après la date à laquelle vous avez demandé le code. Le code de confirmation expirera 30 jours après la date à laquelle vous avez soumis votre demande.
@@ -489,11 +489,11 @@ help_pages:
       6. Ressaisissez votre mot de passe login.gov
 
       Si nous sommes en mesure de vérifier votre identité, vous verrez une page de confirmation et pourrez entrer dans l'application gouvernementale.
-    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: |-
+    dont-have-a-state-issued-id: |-
       Pour le moment, vous ne pouvez pas vérifier votre identité sur login.gov sans un ID délivré par un État. Nous travaillons actuellement à ajouter d'autres moyens de vérifier votre identité.
 
       En attendant, veuillez contacter le centre d'aide de votre application gouvernementale pour savoir ce que vous pouvez faire.
-    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them: |-
+    multiple-accounts-to-verifying-my-identity-for: |-
       Vous ne pouvez vérifier votre identité que pour un seul compte. Si vous avez plusieurs comptes login.gov, vous pouvez les combiner en supprimant un compte, puis en ajoutant cette adresse électronique à l'autre. Avant de faire cela, rappelez-vous que vous devrez relier toute application gouvernementale connectée au (x) compte (s) que vous supprimez. En outre, vous ne pouvez ajouter qu'un maximum de dix adresses électroniques à un seul compte login.gov.
 
       Supprimer un compte
@@ -676,7 +676,7 @@ help_pages:
       Si n'avez pas votre téléphone ou votre clé personnelle, vous pourriez devoir créer un nouveau compte et vérifier votre information personnelle de nouveau. Pour créer un nouveau compte, vous devrez utiliser une adresse courriel différente de celle que vous avez utilisée lorsque vous avez créé votre premier compte. Pour les questions urgentes, par exemple pour vérifier le statut d'une application en cours, il est recommandé de communiquer directement avec l'agence gouvernementale.
 
       Vous pouvez également vous connecter plus tard lorsque vous aurez votre téléphone avec vous.
-    i-forgot-which-email-address-i-used-to-create-an-account: |-
+    forgot-my-email-address: |-
       Si vous ne vous souvenez pas quelle adresse courriel vous avez utilisée pour créer votre compte, vous pouvez utiliser la fonction de réinitialisation de mot de passe pour vérifier si votre adresse courriel est inscrite au dossier.
 
       Essayez de vous connecter comme d'habitude et demandez une réinitialisation de mot de passe. Ensuite, entrez l'adresse courriel que vous croyez avoir utilisée pour créer votre compte. Si votre adresse courriel est inscrite dans nos dossiers, nous vous enverrons des instructions pour réinitialiser votre mot de passe. Vérifiez vos courriels dans quelques minutes pour y trouver ces instructions.
@@ -697,7 +697,7 @@ help_pages:
 
 
       Lorsque vous serez connectés à login.gov après la réinitialisation de votre mot de passe, login.gov vous fournira une clé personnelle. La clé personnelle vous sera utile si vous oubliez votre mot de passe ou si vous n'avez pas votre téléphone avec vous. Assurez-vous de la prendre en note et de la conserver séparément de votre téléphone.
-    what-do-i-need-to-have-in-order-to-sign-in: |-
+    how-to-sign-in: |-
       Chaque fois que vous vous connecterez à votre compte, vous aurez besoin de votre adresse électronique, de votre mot de passe et de l'accès à l'une des méthodes d'authentification à deux facteurs que vous avez configurées. Après avoir entré votre adresse e-mail et votre mot de passe pour vous connecter, login.gov vous demandera de vous authentifier (entrez un code de sécurité envoyé à votre téléphone par voix ou texte, entrez le code de sécurité de votre application d'authentification, entrez un code de sauvegarde, utilisez votre clé de sécurité, ou utilisez votre carte gouvernementale PIV/CAC).
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Chaque
       fois que vous vous connectez, vous devez entrer un code de sécurité qui est
