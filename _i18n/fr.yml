@@ -173,17 +173,17 @@ help:
     does-logingov-share-my-information: login.gov partagera-t-il mes informations ?
   sam:
     change-account-settings: Comment puis-je modifier les paramètres de mon compte ?
-    have-account-different-email: Je possède déjà un compte login.gov mais l'adresse
+    my-logingov-account-uses-a-different-email-address: Je possède déjà un compte login.gov mais l'adresse
       e-mail est différente de mon adresse SAM.
-    no-longer-have-email: Que dois-je faire si je n'ai plus accès à l'adresse e-mail
+    my-email-address-used-for-sam-is-not-available: Que dois-je faire si je n'ai plus accès à l'adresse e-mail
       que j'ai utilisée pour créer mon compte SAM.gov ?
     relink-my-profile: Comment puis-je rétablir le lien avec mon profil SAM après
       avoir supprimé mon compte login.gov ?
-    username-and-password-sign-in: Pourquoi ne puis-je pas m'identifier sur SAM.gov
+    cant-sign-in-or-reset-my-password-sam-account: Pourquoi ne puis-je pas m'identifier sur SAM.gov
       à l'aide de mon nom d'utilisateur et de mon mot de passe ?
-    where-is-my-profile-info: Pourquoi ne puis-je pas voir les informations de mon
+    my-sam-information-is-not-there: Pourquoi ne puis-je pas voir les informations de mon
       profil SAM après avoir créé mon compte login.gov et m'être identifié ?
-    why-is-sam-using-login-gov: Pourquoi SAM utilise-t-il login.gov ?
+    why-sam-uses-logingov: Pourquoi SAM utilise-t-il login.gov ?
   security-keys:
     how-do-i-protect-my-logingov-account-with-a-security-key: Comment protéger mon
       compte login.gov avec une clé de sécurité?
@@ -561,12 +561,12 @@ help_pages:
         2. Sélectionnez « Modifier les informations de l'utilisateur ».
 
       Vous ne serez pas en mesure d'actualiser votre nom d'utilisateur ou votre adresse e-mail SAM. Pour actualiser l'adresse e-mail associée à votre compte SAM, veuillez actualiser votre compte login.gov.
-    have-account-different-email: |-
+    my-logingov-account-uses-a-different-email-address: |-
       Votre adresse e-mail login.gov doit être identique à votre adresse e-mail SAM.gov pour lier votre profil SAM à votre compte login.gov. Si vous avez déjà créé un compte login.gov avec une adresse différente de celle enregistrée sur SAM.gov, vous pouvez suivre les étapes suivantes :
         1. **Actualisez votre adresse e-mail SAM.gov** : vous pouvez remplacer votre adresse e-mail SAM.gov par l'adresse utilisée pour créer votre compte login.gov avant le vendredi 29 juin à 18 h (heure de l'Est). Votre profil sera lié automatiquement lors de votre première connexion à SAM.gov à l'aide de login.gov.
         2. **Modifiez votre adresse e-mail login.gov** : vous pouvez remplacer votre adresse e-mail login.gov par la même adresse utilisée sur votre compte SAM.gov. Vous devez modifier votre adresse login.gov avant de vous connecter à SAM à l'aide de login.gov. La modification de votre adresse e-mail n'affectera pas vos profils pour d'autres demandes gouvernementales. Une fois connecté à SAM.gov et après avoir lié votre profil, vous pourrez rétablir l'adresse e-mail d'origine sur votre compte login.gov. Pour modifier votre adresse e-mail login.gov, suivez les étapes ci-dessous :
         3. **Créez un autre compte login.gov** : vous pouvez également créer un nouveau compte login.gov à l'aide de la même adresse e-mail enregistrée sur SAM.
-    no-longer-have-email: Si vous n'avez plus accès à l'adresse e-mail que vous avez
+    my-email-address-used-for-sam-is-not-available: Si vous n'avez plus accès à l'adresse e-mail que vous avez
       utilisée pour créer votre profil SAM.gov, vous devrez créer un nouveau profil
       SAM.gov avec votre nouveau compte login.gov. Vous devez avoir accès à l'adresse
       e-mail pour recevoir l'e-mail de confirmation de login.gov. Malheureusement,
@@ -582,7 +582,7 @@ help_pages:
       3. Vous recevrez immédiatement une confirmation par e-mail vous informant que votre demande de suppression a bien été reçue. À titre de mesure de sécurité, vous recevrez un autre e-mail avec le lien servant à confirmer la suppression de votre compte 24 heures après avoir reçu la confirmation initiale.
       4. Après avoir supprimé votre compte, allez à [https://sam.gov/](https://sam.gov/) pour créer un nouveau compte.
       5. si vous avez utilisé la bonne adresse e-mail, votre profil SAM sera automatiquement lié une fois que vous vous êtes connecté.
-    username-and-password-sign-in: |-
+    cant-sign-in-or-reset-my-password-sam-account: |-
       Vous devez posséder un compte login.gov pour vous connecter à SAM.gov. Si vous ne possédez pas de compte login.gov, vous devrez en créer un. **Vos anciens nom d'utilisateur et mot de passe SAM.gov ne fonctionneront plus.**
 
       **Pour créer un compte login.gov :**
@@ -595,7 +595,7 @@ help_pages:
         6. Terminez la configuration de votre compte login.gov en notant votre clé personnelle.
 
       Lorsque vous aurez terminé la configuration de votre compte login.gov, vous reviendrez sur SAM.gov où vous devriez voir votre profil. Vous devez utiliser votre adresse e-mail, votre mot de passe et votre code de sécurité login.gov lors de chaque connexion à SAM.gov.
-    where-is-my-profile-info: |-
+    my-sam-information-is-not-there: |-
       Si vous êtes un utilisateur de SAM existant et que vous ne voyez pas votre profil SAM.gov une fois connecté, cela signifie que vous n'avez pas utilisé la même adresse e-mail avec laquelle vous vous êtes inscrit sur SAM.gov. Pour actualiser l'adresse e-mail afin qu'elle corresponde à votre adresse SAM.gov, vous devrez suivre les étapes suivantes :
 
         1. Visitez [https://www.login.gov/](https://www.login.gov/) et
@@ -607,7 +607,7 @@ help_pages:
         Si vous avez oublié l'adresse e-mail utilisée pour vous inscrire sur SAM.gov, vous pouvez contacter le bureau du service fédéral au numéro 866-606-8220 (appel gratuit) ou 334-206-7828 (depuis l'étranger) pour obtenir de l'aide. Vous pouvez également soumettre votre demande depuis le formulaire web à l'adresse [www.fsd.gov](https://www.fsd.gov/){:target="_blank"}.
 
         Si vous n'avez plus accès à l'adresse e-mail utilisée pour créer votre profil SAM.gov, vous devrez créer un nouveau profil SAM.gov à l'aide de votre nouveau compte login.gov.
-    why-is-sam-using-login-gov: |-
+    why-sam-uses-logingov: |-
       login.gov utilise l'authentification à double facteur et des mots de passe plus sécurisés qui respectent les nouvelles exigences du [National Institute of Standards of Technology](https://www.nist.gov/){:target="_blank"} en matière de validation et de vérification sécurisées. En utilisant login.gov, vous bénéficierez d'une couche de sécurité supplémentaire qui aidera à protéger votre profil SAM.gov contre les vols de mot de passe.
         - **Comment puis-je créer un compte login.gov pour me connecter à SAM ?**
           Vous devez créer un nouveau compte avec login.gov. Il s'agit d'une étape unique. Les utilisateurs de SAM existants doivent utiliser leur adresse e-mail SAM.gov existante. Les nouveaux utilisateurs seront en mesure de créer un nouveau profil SAM après s'être authentifiés sur login.gov.
