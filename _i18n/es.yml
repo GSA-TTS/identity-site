@@ -153,7 +153,7 @@ help:
     two-factor-authentication: "¿Qué es la autenticación de dos factores?"
     phone-didnt-get-a-security-code: "¿Por qué no recibí un
       código de seguridad para confirmar mi teléfono?"
-    why-do-i-need-to-use-logingov-to-access-government-services-online: "¿Por qué
+    multiple-accounts-to-verifying-my-identity-for: "¿Por qué
       tengo que usar login.gov para acceder a los servicios del Gobierno en línea?"
     email-address-confirmation-link-is-invalid: "¿Por qué no es válido mi enlace de confirmación?"
   verifying-your-identity:
@@ -432,7 +432,7 @@ help_pages:
 
       - ¿Ingresó un número de teléfono equivocado? Busque la opción para volver a ingresarlo.
       - Si es el número correcto, solicite el código nuevamente. Recíbalo por mensaje de texto o por llamada telefónica, sea un teléfono fijo o móvil.
-    why-do-i-need-to-use-logingov-to-access-government-services-online: |-
+    multiple-accounts-to-verifying-my-identity-for: |-
       Las agencias del Gobierno deciden por sí mismas cómo quieren interactuar con el público. Usted fue enviado a login.gov porque el servicio o programa que desea utilizar ha optado por aprovechar la eficiencia y la seguridad de login.gov como una plataforma tecnológica compartida. Una vez que haya terminado en login.gov, será dirigido de regreso a la agencia.
 
       Esperamos que login.gov sea una opción conveniente y segura para usted. Sin embargo, si prefiere no utilizar login.gov, siempre podrá acceder a los servicios gubernamentales. Encontrará más información en su agencia.

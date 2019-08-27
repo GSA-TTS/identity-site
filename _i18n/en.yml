@@ -162,7 +162,7 @@ help:
       I have more than one login.gov account, can I verify my identity for all of them?
     how-do-i-verify-my-address-by-mail: How do I verify my address by mail?
   privacy-and-security:
-    why-do-i-need-to-use-logingov-to-access-government-services-online: Why do I need
+    multiple-accounts-to-verifying-my-identity-for: Why do I need
       to use login.gov to access government services online?
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove
       a saved password or login information from my browser?
@@ -382,7 +382,7 @@ help_pages:
 
       [What is two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
 
-      [Why do I need to use login.gov to access government services online?](site.baseurl/help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/)
+      [Why do I need to use login.gov to access government services online?](site.baseurl/help/creating-an-account/multiple-accounts-to-verifying-my-identity-for/)
     creating-a-strong-password: |-
       Your password should be at least 8 characters long. Try using multiple words and spaces to create a memorable phrase. Longer passwords with many words are stronger than short passwords with special characters.
 
@@ -444,7 +444,7 @@ help_pages:
       - If you have a landline, please make sure to pick the “Phone call” option under “How would you like to receive your security code?” We cannot send a text message to landlines.
       - If you have an international phone number, make sure you select to receive the security code by text message. login.gov does not support sending security codes to international landlines at this time.
       - If the number you’ve entered is correct, make sure you have service and request the code again. You can receive the code by text message or by a phone call.
-    why-do-i-need-to-use-logingov-to-access-government-services-online: |-
+    multiple-accounts-to-verifying-my-identity-for: |-
       Government agencies decide for themselves how they want to interact with the public. You were sent to login.gov because the service or program you want to use has chosen to take advantage of the efficiency and security of login.gov as a shared technology platform. Once you have finished at login.gov, you will be directed back to the agency.
 
       We hope login.gov is a convenient and secure option for you. However, if you prefer not to use login.gov, you can always access government services. You'll find more information at your agency.
