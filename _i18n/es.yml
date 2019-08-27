@@ -129,8 +129,9 @@ global:
     fr: Français
 help:
   changing-settings:
+    turn-off-two-factor-authentication: "¿Cómo desactivo la autenticación
+      de dos factores?"
     get-a-new-personal-key: "¿Cómo obtengo una nueva clave personal?"
-    authentication-application: "¿Cómo configuro una aplicación de autenticación?"
     change-my-email-address: "¿Cómo puedo cambiar mi email?"
     change-my-password: "¿Como puedo cambiar mi contraseña?"
     how-do-i-change-the-phone-number-i-am-using-with-my-account: "¿Cómo puedo cambiar
@@ -141,9 +142,11 @@ help:
     email-address-is-already-in-use: Recibí un mensaje de error cuando agregue una dirección de correo electrónico a mi cuenta. ¿Qué debo hacer?
     delete-my-account: ¿Cómo borro mi cuenta?
   creating-an-account:
+    security-key: "¿Qué es una clave de seguridad?"
+    authentication-application: "¿Cómo configuro una aplicación de autenticación?"
+    creating-a-strong-password: "¿Cómo puedo hacer que mi contraseña sea segura?"
     how-to-create-an-account: "¿Cómo puedo crear una cuenta con login.gov?"
     no-phone-or-other-authentication-method: No tengo teléfono, aplicación de autenticación, clave de seguridad o ID de gobierno. ¿Puedo crear una cuenta de login.gov?
-    phone-plan-is-not-in-my-name-or-address: "¿Cómo verifico mi dirección por correo?"
     email-address-confirmation-not-received: No recibí un email de confirmación
       de login.gov.
     email-address-is-already-in-use: "¿Qué debo hacer
@@ -157,6 +160,7 @@ help:
       tengo que usar login.gov para acceder a los servicios del Gobierno en línea?"
     email-address-confirmation-link-is-invalid: "¿Por qué no es válido mi enlace de confirmación?"
   verifying-your-identity:
+    phone-plan-is-not-in-my-name-or-address: "¿Cómo verifico mi dirección por correo?"
     why-do-i-need-to-verify-my-identity: ¿Por qué necesito verificar mi identidad?
     how-to-verify-my-identity: ¿Cómo verifico mi identidad en login.gov?
     dont-have-a-state-issued-id: No tengo una identificación
@@ -166,16 +170,16 @@ help:
   privacy-and-security:
     remove-saved-password-from-browser: "¿Puedo borrar
       de mi navegador una contraseña o información guardarda para iniciar sesión?"
-    creating-a-strong-password: "¿Cómo puedo hacer que mi contraseña sea segura?"
     how-does-logingov-protect-my-information: "¿Cómo protege login.gov mis datos?"
     does-logingov-share-my-information: "¿Compartirá login.gov mi información?"
+    what-is-phishing: "¿Qué es el phishing?"
   sam:
     change-account-settings: "¿Cómo puedo cambiar los ajustes de mi cuenta?"
     my-logingov-account-uses-a-different-email-address: Ya tengo una cuenta de login.gov, pero el correo
       electrónico no es el mismo que mi correo electrónico de SAM.
     my-email-address-used-for-sam-is-not-available: "¿Qué debo hacer si ya no tengo acceso al correo electrónico
       que utilicé para crear mi cuenta de SAM.gov?"
-    relink-my-profile: "¿Cómo puedo volver a vincular mi perfil de SAM después de
+    reset-or-relink-my-logingov-account-for-sam: "¿Cómo puedo volver a vincular mi perfil de SAM después de
       eliminar mi cuenta de login.gov?"
     cant-sign-in-or-reset-my-password-sam-account: "¿Por qué no puedo iniciar sesión en SAM.gov con
       mi nombre de usuario y contraseña?"
@@ -185,13 +189,9 @@ help:
   security-keys:
     how-do-i-protect-my-logingov-account-with-a-security-key: "¿Cómo protejo mi cuenta
       login.gov con una clave de seguridad?"
-    security-key: "¿Qué es una clave de seguridad?"
-    what-is-phishing: "¿Qué es el phishing?"
   signing-in:
     forgot-my-password: "¿Cómo puedo restablecer mi contraseña?"
     phone-or-authentication-methods-not-available: "¿Cómo inicio sesión si no tengo mis métodos de autenticación (teléfono, códigos de respaldo, aplicación de autenticación, etc.)?"
-    turn-off-two-factor-authentication: "¿Cómo desactivo la autenticación
-      de dos factores?"
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: No
       puedo recordar dónde está mi clave personal y no tengo mi teléfono conmigo.
     forgot-my-email-address: Olvidé el email que
@@ -223,7 +223,7 @@ help:
     my-ttp-information-is-not-there: Cuando inicio sesión, solo muestra la información de mi cuenta
       de login.gov, y no hay ninguna manera de volver al sitio de programas para viajeros
       de confianza
-    relink-my-profile: "¿Cómo puedo volver a vincular mi perfil de viajero de confianza
+    reset-or-relink-my-logingov-account-for-ttp: "¿Cómo puedo volver a vincular mi perfil de viajero de confianza
       después de eliminar mi cuenta de login.gov?"
     scheduling-an-appointment: "¿Puede ayudar a programar una cita?"
     cant-sign-in-or-reset-my-password-goes-account: Estoy intentando iniciar sesión, pero no funciona / Estoy
@@ -238,7 +238,7 @@ help:
     my-usajobs-information-is-not-there: "¿Qué sucede si no veo la información de mi perfil en USAJOBS
       después de crear una cuenta en login.gov?"
     relink-my-profile: "Perdí mi método de autenticación. ¿Cómo elimino mi perfil de login.gov y vuelvo a vincular uno nuevo a mi perfil de USAJOBS?"
-    security-code: "¿Qué necesito para recibir el código de seguridad de login.gov?"
+    how-to-receive-the-security-code: "¿Qué necesito para recibir el código de seguridad de login.gov?"
     what-email-address-should-i-use: "¿Qué dirección de correo electrónico utilizo para
       crear una cuenta de login.gov?"
     what-will-happen-to-my-usajobs-profile: "¿Qué pasará con mi perfil de USAJOBS?"
@@ -246,6 +246,12 @@ help_page:
   p_1: Explore los temas comunes
 help_pages:
   changing-settings:
+    turn-off-two-factor-authentication: |-
+      login.gov no le permite desactivar la autenticación de dos factores, pero puede configurar la función "recordar navegador". Esto le permitirá iniciar sesión sin necesidad de introducir un código de seguridad para 30 días. Cada 30 días se le pedirá que renueve esta característica siguiendo los pasos normales de autenticación de dos factores y seleccionando "recordar navegador". NOTA: Si utiliza login.gov en varios dispositivos y navegadores, debe configurar "recordar navegador" en cada uno de ellos.
+
+        1. Introduzca el correo electrónico y la contraseña para comenzar el proceso de inicio de sesión.
+        2. Introduzca el código de seguridad y seleccione "Recordar este navegador durante 30 días".
+        3. Después de configurar "recordar navegador", no se le pedirá que introduzca un código de seguridad durante 30 días.
     add-or-remove-email-address: |-
       Puedes agregar o eliminar direcciones de correo electrónico desde tu página de inicio de sesión de login.gov.
 
@@ -301,25 +307,12 @@ help_pages:
 
       [Lee cómo agregar o eliminar una dirección de correo electrónico](site.baseurl/help/changing-settings/add-or-remove-email-address/)
       [Lee cómo vincular de nuevo a tu perfil de USAJOBS](site.baseurl/help/usajobs/relink-my-profile)
-      [Lee cómo vincular de nuevo a tu perfil de Trusted Traveler](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
-      [Lee cómo vincular de nuevo a tu perfil de SAM](site.baseurl/help/sam/relink-my-profile)
+      [Lee cómo vincular de nuevo a tu perfil de Trusted Traveler](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
+      [Lee cómo vincular de nuevo a tu perfil de SAM](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
     get-a-new-personal-key: |-
       Para solicitar una nueva clave personal, vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Administrar cuenta" para acceder a la página de su cuenta de login.gov. Al lado de la clave personal, seleccione "Obtener una nueva clave". Siga las instrucciones para anotar o imprimir la nueva clave personal y seleccione "Continuar" para finalizar el proceso. No olvide que solo puede solicitar una nueva clave personal si puede iniciar sesión en su cuenta de login.gov.
 
       Guarde su clave personal en un lugar seguro, ya que es la única manera de iniciar sesión si no puede recibir un código de seguridad. Entre las formas más adecuadas de conservar su clave personal se incluyen anotarla, tomar una captura de pantalla, pegarla en un documento seguro o imprimirla. Solo puede usar cada clave personal una sola vez, después de lo cual le daremos otra.
-    authentication-application: |-
-      Si no desea recibir códigos de seguridad mediante mensaje de texto o llamada telefónica, puede configurar una aplicación de autenticación en su dispositivo para que genere códigos de seguridad.
-       1. Elija un dispositivo, como un ordenador o un dispositivo móvil (teléfono o tableta), en el que pueda instalar aplicaciones.
-        2. Descargue e instale una aplicación de autenticación en su dispositivo. Algunas opciones populares son:
-          - Opciones para Android: [Autenticador de Google](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
-          - Opciones para iOS: [Autenticador de Google](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
-          - Aplicaciones de Windows: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}
-          - Aplicaciones de Mac: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
-          - Extensiones de Chrome: [Autenticador](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
-        3. Abra un nuevo navegador e inicie sesión en su cuenta de login.gov en [https://secure.login.gov/](https://secure.login.gov/). *NOTA*: Si no tiene acceso al teléfono que utilizó para crear su cuenta, deberá iniciar sesión con su clave personal.
-        4. Seleccione "habilitar" junto a la aplicación de autenticación y siga las instrucciones para escanear o introducir un código que vincule su aplicación de autenticación con su cuenta.
-
-      Ahora podrá utilizar las contraseñas de un solo uso generadas por la aplicación cada vez que inicie sesión, en lugar de recibir un mensaje de texto o una llamada telefónica. Si tiene problemas para configurar la aplicación de autenticación, deberá ponerse en contacto directamente con el desarrollador de la aplicación para obtener ayuda.
     change-my-email-address: Para cambiar la dirección de correo electrónico
       asociada con su cuenta de login.gov, vaya a [https://secure.login.gov/](https://secure.login.gov/)
       e inicie sesión en su cuenta login.gov. Haga clic en "Agregar correo electrónico" y continúe con
@@ -341,6 +334,31 @@ help_pages:
 
       Si no puede recibir el código de seguridad porque ya no tiene acceso a su teléfono, deberá [iniciar sesión con su clave personal](site.baseurl/help/signing-in/phone-or-authentication-methods-not-available).
   creating-an-account:
+    security-key: |-
+      Una clave de seguridad es un dispositivo de autenticación que refuerza la seguridad de la cuenta cuando se usa además de una contraseña al iniciar sesión. Utilizar una clave de seguridad es mejor que recibir códigos a través de llamadas telefónicas o mensajes de texto, ya que estos códigos pueden ser objeto de suplantación o intercepción. Cuando use una clave de seguridad para iniciar sesión, la clave comprobará que se encuentre en el sitio web oficial login.gov.
+
+             Una clave de seguridad suele ser una pieza de hardware físico, como un USB, que puede llevar en su llavero. También puede usar software de soporte, como una extensión de navegador web u otros servicios. Al elegir una clave de seguridad, busque la compatibilidad con el [estándar FIDO](https://fidoalliance.org/fido2/){:target="_blank"}.
+    authentication-application: |-
+      Si no desea recibir códigos de seguridad mediante mensaje de texto o llamada telefónica, puede configurar una aplicación de autenticación en su dispositivo para que genere códigos de seguridad.
+       1. Elija un dispositivo, como un ordenador o un dispositivo móvil (teléfono o tableta), en el que pueda instalar aplicaciones.
+        2. Descargue e instale una aplicación de autenticación en su dispositivo. Algunas opciones populares son:
+          - Opciones para Android: [Autenticador de Google](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+          - Opciones para iOS: [Autenticador de Google](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+          - Aplicaciones de Windows: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}
+          - Aplicaciones de Mac: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
+          - Extensiones de Chrome: [Autenticador](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
+        3. Abra un nuevo navegador e inicie sesión en su cuenta de login.gov en [https://secure.login.gov/](https://secure.login.gov/). *NOTA*: Si no tiene acceso al teléfono que utilizó para crear su cuenta, deberá iniciar sesión con su clave personal.
+        4. Seleccione "habilitar" junto a la aplicación de autenticación y siga las instrucciones para escanear o introducir un código que vincule su aplicación de autenticación con su cuenta.
+
+      Ahora podrá utilizar las contraseñas de un solo uso generadas por la aplicación cada vez que inicie sesión, en lugar de recibir un mensaje de texto o una llamada telefónica. Si tiene problemas para configurar la aplicación de autenticación, deberá ponerse en contacto directamente con el desarrollador de la aplicación para obtener ayuda.
+    creating-a-strong-password: |-
+      Su contraseña debe tener un mínimo de 12 caracteres. Intente usar varias palabras y espacios para crear una frase que pueda recordar. Las contraseñas más largas con muchas palabras son más seguras que las contraseñas cortas con caracteres especiales.
+
+      Al crear una contraseña, también trate de evitar el uso de jerga, errores ortográficos comunes y palabras deletreadas al revés. Además, evite usar el nombre de su empresa, cónyuge o hijos, incluso su mascota, y cualquier otra información personal como su edad o fecha de nacimiento.
+
+      Si ya ha iniciado sesión y está intentando cambiar su contraseña, email o teléfono, se le pedirá que ingrese su contraseña actual antes de poder realizar los cambios.
+
+      Sin embargo, si repetidamente ingresa una contraseña incorrecta, es muy probable que se deba a que una persona malintencionada se está apoderando de su máquina que dejó desatendida. En ese caso y por su seguridad, lo desconectamos después de tres intentos fallidos.
     how-to-create-an-account: |-
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
       Para crear una cuenta de login.gov, necesitará un email válido y un número de teléfono que funcione. También le pediremos que establezca una contraseña.
@@ -390,12 +408,6 @@ help_pages:
       En la página "Agregar otro método", seleccione "No tengo ninguno de los anteriores" y haga clic en "Continuar"
 
       A continuación, habrá terminado de crear su cuenta. Cada vez que inicie sesión con login.gov, se le pedirá que ingrese uno de sus códigos de respaldo. Después de usar el décimo código, se le dará un nuevo conjunto de códigos de respaldo para guardar y usar.
-    phone-plan-is-not-in-my-name-or-address: |-
-      Si no podemos verificar automáticamente su dirección, debe verificarla por correo. Esto significa que le enviaremos una carta con un código de confirmación que debe usar para terminar de configurar su cuenta.
-
-      Recibirá la carta a través del Servicio Postal de EE. UU., De tres a cinco días hábiles después de la fecha en que solicita el código. El código de confirmación caducará 30 días después de la fecha en que envíe su solicitud.
-
-      Si no recibe su carta o su código de confirmación caduca antes de finalizar el proceso de verificación de identidad, puede solicitar un nuevo código de confirmación. Para hacerlo, inicie sesión en la aplicación de gobierno o en [https://secure.login.gov](https://secure.login.gov){: target = "_blank"} y seleccione "Enviarme un nuevo código de confirmación" cuando se le solicite ingresar tu codigo.
     email-address-confirmation-not-received: |-
       Si no recibió un email de confirmación, revise su correo basura. También considere que ha podido escribir su email incorrectamente. Si es así, siempre puede crear otra cuenta con su email correcto.
 
@@ -445,6 +457,12 @@ help_pages:
 
       Para obtener ayuda adicional, envíe un correo electrónico a [hello@login.gov](mailto:hello@login.gov).
   verifying-your-identity:
+    phone-plan-is-not-in-my-name-or-address: |-
+      Si no podemos verificar automáticamente su dirección, debe verificarla por correo. Esto significa que le enviaremos una carta con un código de confirmación que debe usar para terminar de configurar su cuenta.
+
+      Recibirá la carta a través del Servicio Postal de EE. UU., De tres a cinco días hábiles después de la fecha en que solicita el código. El código de confirmación caducará 30 días después de la fecha en que envíe su solicitud.
+
+      Si no recibe su carta o su código de confirmación caduca antes de finalizar el proceso de verificación de identidad, puede solicitar un nuevo código de confirmación. Para hacerlo, inicie sesión en la aplicación de gobierno o en [https://secure.login.gov](https://secure.login.gov){: target = "_blank"} y seleccione "Enviarme un nuevo código de confirmación" cuando se le solicite ingresar tu codigo.
     why-do-i-need-to-verify-my-identity: |-
       Algunas aplicaciones gubernamentales que utilizan login.gov requieren que los usuarios verifiquen sus identidades. Esto significa que debes demostrar que eres quien dices que eres. Al hacer esto, nos aseguramos de que solo las personas adecuadas tengan acceso a información confidencial.
 
@@ -502,10 +520,19 @@ help_pages:
 
       [¿Cómo puedo volver a vincular mi perfil de USAJOBS después de eliminar mi cuenta login.gov?](site.baseurl/help/usajobs/relink-my-profile)
 
-      [¿Cómo puedo volver a vincular mi perfil de Trusted Traveler después de eliminar mi cuenta login.gov?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+      [¿Cómo puedo volver a vincular mi perfil de Trusted Traveler después de eliminar mi cuenta login.gov?](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
 
-      [¿Cómo puedo volver a vincular mi perfil SAM después de eliminar mi cuenta login.gov?](site.baseurl/help/sam/relink-my-profile)
+      [¿Cómo puedo volver a vincular mi perfil SAM después de eliminar mi cuenta login.gov?](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
   privacy-and-security:
+    what-is-phishing: El phishing es cuando alguien trata de engañarlo para que comparta
+      su contraseña u otra información personal en línea. Por lo general, el phishing
+      se realiza a través de correo electrónico, anuncios o sitios que se parecen
+      a los sitios que ya usa. Por ejemplo, puede recibir un correo electrónico que
+      parece que proviene de login.gov y le solicita que confirme su correo electrónico,
+      contraseña, código de seguridad o clave personal. Una clave de seguridad hace
+      que sea más difícil que esto ocurra porque no hay códigos que pueda compartir
+      por error con un atacante. La clave de seguridad también se asegurará de que
+      ingrese información en el sitio web oficial login.gov.
     remove-saved-password-from-browser: |-
       Si guardó accidentalmente su contraseña de login.gov o cualquier otra información de acceso en su navegador, sería una buena idea borrarla del navegador. Eso lo ayudará a mantener su cuenta más segura. De la siguiente lista, seleccione el navegador (programa de computadora que usa para acceder al internet) que usa para aprender cómo borrar cualquier información guardada (los enlaces están en inglés):
 
@@ -515,14 +542,6 @@ help_pages:
       - [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank"}
 
       Cada vez que esté en línea, recuerde revisar la barra de dirección (URL) de cualquier página web que esté visitando para asegurarse de que puede confiar en ellos, especialmente en cualquier página que le pida compartir un nombre de usuario y una contraseña. Tenga cuidado al compartir información personal como sus credenciales de acceso, información financiera o número de Seguro Social por email.
-    creating-a-strong-password: |-
-      Su contraseña debe tener un mínimo de 12 caracteres. Intente usar varias palabras y espacios para crear una frase que pueda recordar. Las contraseñas más largas con muchas palabras son más seguras que las contraseñas cortas con caracteres especiales.
-
-      Al crear una contraseña, también trate de evitar el uso de jerga, errores ortográficos comunes y palabras deletreadas al revés. Además, evite usar el nombre de su empresa, cónyuge o hijos, incluso su mascota, y cualquier otra información personal como su edad o fecha de nacimiento.
-
-      Si ya ha iniciado sesión y está intentando cambiar su contraseña, email o teléfono, se le pedirá que ingrese su contraseña actual antes de poder realizar los cambios.
-
-      Sin embargo, si repetidamente ingresa una contraseña incorrecta, es muy probable que se deba a que una persona malintencionada se está apoderando de su máquina que dejó desatendida. En ese caso y por su seguridad, lo desconectamos después de tres intentos fallidos.
     how-does-logingov-protect-my-information: |-
       Login.gov respeta su privacidad. Nosotros recopilamos datos personales en línea solamente para ayudarlo a ejecutar sus solicitudes con agencias federales asociadas con nosotros. login.gov gestiona partes específicas de la página web de esa agencia para que podamos recopilar datos personales con el fin de proporcionar una plataforma segura y privada para que usted pueda acceder a ciertos servicios del Gobierno. Estamos sujetos a nuestra política de privacidad. Login.gov no alquila, vende o divulga su información personal a empresas privadas, contratistas o vendedores con fines de mercadeo.
 
@@ -560,7 +579,7 @@ help_pages:
       su nueva cuenta de login.gov. Es necesario que tenga acceso al correo electrónico
       para recibir el correo de confirmación de login.gov. Lamentablemente, SAM no
       podrá vincular su perfil y su información a su cuenta.
-    relink-my-profile: |-
+    reset-or-relink-my-logingov-account-for-sam: |-
       Si no puede iniciar sesión en su cuenta de SAM porque ha perdido de forma permanente el acceso a su método de autenticación y su clave personal, puede restablecer su cuenta eliminándola.
 
       Al eliminar su cuenta actual y crear una nueva, podrá utilizar la misma dirección de correo electrónico y configurar nuevas métodos de autenticación. Sin embargo, al eliminarla se desvinculará su perfil de SAM. Debe seguir los siguientes pasos para volver a vincular su cuenta:
@@ -610,19 +629,6 @@ help_pages:
       Si ya tiene una cuenta de login.gov, puede agregar su clave de seguridad iniciando sesión en su cuenta de login.gov. Vaya a [https://login.gov/](https://login.gov/){:target="_blank"} y haga clic en “administrar cuenta”. Inicie sesión y seleccione “Agregar clave de seguridad de hardware”. Se le solicitará que le dé un apodo a su clave de seguridad, conéctela y presione el botón para registrarse.
 
       Cada vez que inicie sesión en login.gov, le pediremos que utilice su clave de seguridad. Si no tiene su clave de seguridad, también puede usar cualquier otro método de autenticación que haya habilitado. Recomendamos habilitar múltiples claves de seguridad y / u otros métodos de dos factores para que no quede bloqueado de su cuenta.
-    security-key: |-
-      Una clave de seguridad es un dispositivo de autenticación que refuerza la seguridad de la cuenta cuando se usa además de una contraseña al iniciar sesión. Utilizar una clave de seguridad es mejor que recibir códigos a través de llamadas telefónicas o mensajes de texto, ya que estos códigos pueden ser objeto de suplantación o intercepción. Cuando use una clave de seguridad para iniciar sesión, la clave comprobará que se encuentre en el sitio web oficial login.gov.
-
-             Una clave de seguridad suele ser una pieza de hardware físico, como un USB, que puede llevar en su llavero. También puede usar software de soporte, como una extensión de navegador web u otros servicios. Al elegir una clave de seguridad, busque la compatibilidad con el [estándar FIDO](https://fidoalliance.org/fido2/){:target="_blank"}.
-    what-is-phishing: El phishing es cuando alguien trata de engañarlo para que comparta
-      su contraseña u otra información personal en línea. Por lo general, el phishing
-      se realiza a través de correo electrónico, anuncios o sitios que se parecen
-      a los sitios que ya usa. Por ejemplo, puede recibir un correo electrónico que
-      parece que proviene de login.gov y le solicita que confirme su correo electrónico,
-      contraseña, código de seguridad o clave personal. Una clave de seguridad hace
-      que sea más difícil que esto ocurra porque no hay códigos que pueda compartir
-      por error con un atacante. La clave de seguridad también se asegurará de que
-      ingrese información en el sitio web oficial login.gov.
   signing-in:
     forgot-my-password: Si no conoce su contraseña, el enlace para restablecerla
       se encuentra en la página de inicio de sesión. Introduzca su dirección de correo
@@ -650,14 +656,8 @@ help_pages:
 
       [Lee cómo borrar tu cuenta](site.baseurl/help/changing-settings/delete-my-account/)
       [Lee cómo vincular de nuevo a tu perfil de USAJOBS](site.baseurl/help/usajobs/relink-my-profile)
-      [Lee cómo vincular de nuevo a tu perfil de Trusted Traveler](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
-      [Lee cómo vincular de nuevo a tu perfil de SAM](site.baseurl/help/sam/relink-my-profile)
-    turn-off-two-factor-authentication: |-
-      login.gov no le permite desactivar la autenticación de dos factores, pero puede configurar la función "recordar navegador". Esto le permitirá iniciar sesión sin necesidad de introducir un código de seguridad para 30 días. Cada 30 días se le pedirá que renueve esta característica siguiendo los pasos normales de autenticación de dos factores y seleccionando "recordar navegador". NOTA: Si utiliza login.gov en varios dispositivos y navegadores, debe configurar "recordar navegador" en cada uno de ellos.
-
-        1. Introduzca el correo electrónico y la contraseña para comenzar el proceso de inicio de sesión.
-        2. Introduzca el código de seguridad y seleccione "Recordar este navegador durante 30 días".
-        3. Después de configurar "recordar navegador", no se le pedirá que introduzca un código de seguridad durante 30 días.
+      [Lee cómo vincular de nuevo a tu perfil de Trusted Traveler](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
+      [Lee cómo vincular de nuevo a tu perfil de SAM](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: |-
       Si no tiene su teléfono o su clave personal, es posible que deba crear una cuenta nueva y volver a verificar su información personal. Para crear una cuenta nueva, deberá usar un email diferente al que utilizó cuando creó su primera cuenta. Para asuntos urgentes —por ejemplo, para verificar el estado de una solicitud en curso— comuníquese directamente con la agencia del Gobierno.
 
@@ -770,7 +770,7 @@ help_pages:
       Si desea acceder a su cuenta de programas para viajeros de confianza (TTP), empiece siempre por [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. Después de seguir las [instrucciones para crear una cuenta](/help/creating-an-account/how-to-create-an-account/), volverá a su información de suscripción a TTP.
 
       Si inicia sesión directamente desde login.gov, solo verá la información de su cuenta en login.gov, y no podrá ver la información de su suscripción a TTP.
-    relink-my-profile: |-
+    reset-or-relink-my-logingov-account-for-ttp: |-
       Si no puede iniciar sesión en su cuenta de "Viajeros de confianza" porque ha perdido de forma permanente el acceso a su método de autenticación y a su clave personal, puede restablecer su cuenta, eliminándola.
 
       Al eliminar su cuenta actual y crear una nueva, podrá utilizar la misma dirección de correo electrónico y configurar nuevas métodos de autenticación. Sin embargo, al eliminarla se desvinculará su perfil de "Viajeros de confianza". Debe seguir los siguientes pasos para volver a vincular su cuenta:
