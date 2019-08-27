@@ -130,8 +130,11 @@ global:
     fr: Français
 help:
   changing-settings:
+    remove-saved-password-from-browser: Puis-je supprimer
+      un mot de passe ou un identifiant sauvegardé de mon navigateur ?
+    turn-off-two-factor-authentication: Comment puis-je désactiver l'authentification
+      à deux facteurs ?
     get-a-new-personal-key: Comment puis-je obtenir une clé personnelle?
-    authentication-application: Comment puis-je configurer une appli d'authentification?
     change-my-email-address: Comment changer mon adresse courriel?
     change-my-password: Comment changer mon mot de passe?
     how-do-i-change-the-phone-number-i-am-using-with-my-account: Comment changer le
@@ -142,6 +145,9 @@ help:
     email-address-is-already-in-use: J'ai reçu un message d'erreur lorsque j'ai ajouté une adresse électronique à mon compte. Que dois-je faire?
     delete-my-account: Comment puis-je supprimer mon compte?
   creating-an-account:
+    security-key: Qu'est-ce qu'une clé de sécurité?
+    authentication-application: Comment puis-je configurer une appli d'authentification?
+    creating-a-strong-password: Comment puis-je choisir un mot de passe sûr ?
     how-to-create-an-account: Comment créer un compte sur login.gov?
     no-phone-or-other-authentication-method: Je n’ai pas de téléphone, d’application d’authentification, de clé de sécurité ou d’identité gouvernementale. Puis-je quand même créer un compte login.gov?
     phone-plan-is-not-in-my-name-or-address: Comment vérifier mon adresse par courrier?
@@ -166,11 +172,9 @@ help:
     multiple-accounts-to-verifying-my-identity-for:
       J'ai plusieurs comptes login.gov, puis-je vérifier mon identité pour chacun d'entre eux?
   privacy-and-security:
-    remove-saved-password-from-browser: Puis-je supprimer
-      un mot de passe ou un identifiant sauvegardé de mon navigateur ?
-    creating-a-strong-password: Comment puis-je choisir un mot de passe sûr ?
     how-does-logingov-protect-my-information: Comment login.gov protège-t-il mes données ?
     does-logingov-share-my-information: login.gov partagera-t-il mes informations ?
+    what-is-phishing: Qu'est-ce que le phishing?
   sam:
     change-account-settings: Comment puis-je modifier les paramètres de mon compte ?
     my-logingov-account-uses-a-different-email-address: Je possède déjà un compte login.gov mais l'adresse
@@ -187,13 +191,9 @@ help:
   security-keys:
     how-do-i-protect-my-logingov-account-with-a-security-key: Comment protéger mon
       compte login.gov avec une clé de sécurité?
-    security-key: Qu'est-ce qu'une clé de sécurité?
-    what-is-phishing: Qu'est-ce que le phishing?
   signing-in:
     forgot-my-password: Comment puis-je réinitialiser mon mot de passe?
     phone-or-authentication-methods-not-available: Comment me connecter si je n’ai pas mes méthodes d’authentification (téléphone, codes de sauvegarde, application d’authentification, etc.)?
-    turn-off-two-factor-authentication: Comment puis-je désactiver l'authentification
-      à deux facteurs ?
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: Je
       ne me rappelle pas de ma clé personnelle et je n'ai pas mon téléphone avec moi.
     forgot-my-email-address: J'ai oublié quelle adresse
@@ -249,6 +249,21 @@ help_page:
   p_1: Parcourir les sujets communs
 help_pages:
   changing-settings:
+    remove-saved-password-from-browser: |-
+      "Si vous avez accidentellement sauvegardé votre mot de passe ou toute autre information de connexion liée à login.gov dans votre navigateur, il est préférable de les supprimer. Ainsi, vous conserverez un compte plus sécurisé. Dans la liste suivante, sélectionnez le navigateur (le programme informatique que vous utilisez pour accéder au web) que vous utilisez pour apprendre comment supprimer toute information sauvegardée :"
+
+      - [Chrome](https://support.google.com/chrome/answer/95606){:target="_blank"}
+      - [Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-change-passwords#w_viewing-and-deleting-passwords){:target="_blank"}
+      - [Internet Explorer](https://support.microsoft.com/en-us/help/17499/windows-internet-explorer-11-remember-passwords-fill-out-web-forms#ie=ie-11){:target="_blank"}
+      - [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank"}
+
+      Aussi, lorsque vous êtes en ligne, vérifiez la barre d'adresse de toute page que vous visitez et assurez-vous qu'il s'agit de sites de confiance, particulièrement les pages qui vous demandent d'inscrire un nom d'utilisateur et un mot de passe. Soyez prudent(e) quand vous partagez de l'information personnelle par courriel, notamment vos authentifiants de connexion, votre information bancaire ou votre numéro de sécurité sociale.
+    turn-off-two-factor-authentication: |-
+      login.gov ne permet pas de désactiver l'authentification à deux facteurs, mais vous pouvez configurer la fonctionnalité « se souvenir du navigateur ». Cela vous permet de vous connecter sans entrer de code de sécurité pendant 30 jours. Tous les 30 jours, vous devrez renouveler cette fonctionnalité en passant les étapes normales d'authentification à deux facteurs et en sélectionnant « se souvenir du navigateur ». REMARQUE : Si vous utilisez login.gov sur plusieurs appareils et navigateurs, vous devez configurer la fonctionnalité « se souvenir du navigateur » sur chacun d'eux.
+
+        1. Saisissez l'adresse e-mail et le mot de passe pour commencer le processus de connexion.
+        2. Saisissez le code de sécurité et sélectionnez « Se souvenir du navigateur pendant 30 jours ».
+        3. Après avoir configuré la fonctionnalité « se souvenir du navigateur », vous n'aurez pas à soumettre de code de sécurité pendant 30 jours.
     add-or-remove-email-address: |-
       Vous pouvez ajouter ou supprimer des adresses électroniques à partir de votre page de connexion login.gov.
 
@@ -310,19 +325,6 @@ help_pages:
       Pour soumettre une demande de nouvelle clé personnelle, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Gérer le compte » pour vous connecter à la page de votre compte login.gov. À côté de la clé personnelle, sélectionnez « Obtenir une nouvelle clé ». Suivez les instructions pour prendre en note ou imprimer la nouvelle clé personnelle et sélectionnez « continuer » pour terminer le processus. Rappelez-vous que vous pouvez faire la demande d'une nouvelle clé uniquement si vous êtes en mesure de vous connecter à votre compte login.gov.
 
       Placez votre clé personnelle en lieu sûr, il s'agit de votre unique moyen de vous connecter si vous ne pouvez recevoir un code de sécurité. Certains moyens appropriés de stocker votre clé personnelle comprennent de la prendre en note, d'en faire une capture d'écran, de la coller dans un document sécurisé ou de l'imprimer. Vous pouvez utiliser chaque clé personnelle une fois seulement, nous vous en fournirons une autre ensuite.
-    authentication-application: |-
-      Si vous ne souhaitez pas recevoir de codes de sécurité par SMS ou par appel téléphonique, vous pouvez configurer une appli d'authentification sur votre appareil pour générer des codes de sécurité.
-        1. Choisissez un appareil comme un ordinateur ou un appareil mobile (téléphone ou tablette) sur lequel vous pouvez installer des applis.
-        2. Téléchargez et installez une appli d'authentification sur votre appareil. Certaines des options populaires sont :
-          - Options pour Android : [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
-          - Options pour iOS : [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
-          - Applications Windows : [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}
-          - Applications Mac : [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
-          - Extensions Chrome : [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
-        3. Lancez un nouveau navigateur et connectez-vous à votre compte login.gov à [https://secure.login.gov/](https://secure.login.gov/). *REMARQUE* : Si vous n'avez pas accès au téléphone que vous avez utilisé pour créer votre compte, vous devrez vous connecter en utilisant votre clé personnelle.
-        4. Sélectionnez « activer » à côté de l'appli d'authentification et suivez les instructions pour scanner ou saisir un code qui associe votre appli d'authentification à votre compte.
-
-      Vous serez maintenant en mesure d'utiliser les mots de passe à utilisation unique générés par l'application chaque fois où vous vous connectez au lieu de recevoir un SMS ou un appel téléphonique. Si vous éprouvez des difficultés à configurer votre appli d'authentification, vous devez contacter le développeur de l'application directement pour obtenir de l'assistance.
     change-my-email-address: Pour changer l'adresse e-mail associée à votre compte
       login.gov, allez à [https://secure.login.gov/](https://secure.login.gov/) et connectez-vous à votre compte
       login.gov. Cliquez sur "Ajouter un e-mail" et procédez au processus d'ajout de votre nouvelle
@@ -343,6 +345,31 @@ help_pages:
 
       Si vous ne pouvez recevoir le code de sécurité parce que vous n'avez plus accès à votre téléphone, vous devrez [vous connecter en utilisant votre clé personnelle](site.baseurl/help/signing-in/phone-or-authentication-methods-not-available).
   creating-an-account:
+    security-key: |-
+      Une clé de sécurité est un dispositif d'authentification qui renforce la sécurité du compte lorsqu'il est utilisé en plus d'un mot de passe lors de la connexion. L'utilisation d'une clé de sécurité est préférable à la réception de codes par appel téléphonique ou SMS, car ces codes peuvent être phishing ou interceptés. Lorsque vous utilisez une clé de sécurité pour vous connecter, cette clé vérifie que vous vous trouvez bien sur le site Web officiel login.gov.
+
+             Une clé de sécurité est généralement un élément de matériel physique, tel qu'une clé USB, que vous pouvez utiliser avec votre trousseau. Vous pouvez également utiliser un logiciel de support, tel qu'une extension de navigateur Web ou d'autres services. Lorsque vous choisissez une clé de sécurité, recherchez la compatibilité avec le [standard FIDO](https://fidoalliance.org/fido2/){:target="_blank"}.
+    authentication-application: |-
+      Si vous ne souhaitez pas recevoir de codes de sécurité par SMS ou par appel téléphonique, vous pouvez configurer une appli d'authentification sur votre appareil pour générer des codes de sécurité.
+        1. Choisissez un appareil comme un ordinateur ou un appareil mobile (téléphone ou tablette) sur lequel vous pouvez installer des applis.
+        2. Téléchargez et installez une appli d'authentification sur votre appareil. Certaines des options populaires sont :
+          - Options pour Android : [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+          - Options pour iOS : [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+          - Applications Windows : [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}
+          - Applications Mac : [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
+          - Extensions Chrome : [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
+        3. Lancez un nouveau navigateur et connectez-vous à votre compte login.gov à [https://secure.login.gov/](https://secure.login.gov/). *REMARQUE* : Si vous n'avez pas accès au téléphone que vous avez utilisé pour créer votre compte, vous devrez vous connecter en utilisant votre clé personnelle.
+        4. Sélectionnez « activer » à côté de l'appli d'authentification et suivez les instructions pour scanner ou saisir un code qui associe votre appli d'authentification à votre compte.
+
+      Vous serez maintenant en mesure d'utiliser les mots de passe à utilisation unique générés par l'application chaque fois où vous vous connectez au lieu de recevoir un SMS ou un appel téléphonique. Si vous éprouvez des difficultés à configurer votre appli d'authentification, vous devez contacter le développeur de l'application directement pour obtenir de l'assistance.
+    creating-a-strong-password: |-
+      Votre mot de passe doit compter un minimum de 12 caractères. Essayez avec plusieurs mots et espaces pour créer une phrase facile à mémoriser. Les mots de passe plus longs et contenant plusieurs mots sont plus forts que les mots de passe courts comportant des caractères spéciaux.
+
+      Au moment de créer un mot de passe, évitez également d'utiliser des termes du langage de la rue, les fautes d'orthographe communes et les mots épelés à l'envers. Évitez aussi d'utiliser le nom de votre entreprise, de votre conjoint(e) ou les noms de vos enfants ou de vos animaux de compagnie ainsi que de l'information personnelle comme votre âge ou votre date de naissance.
+
+      Si vous êtes déjà connecté(e) et que vous essayez de changer votre mot de passe, votre courriel ou votre numéro de téléphone, on vous demandera d'entrer votre mot de passe actuel avant de pouvoir effectuer les changements.
+
+      Cependant, si vous entrez un mot de passe erroné à répétition, il est probable qu'une personne mal intentionnée essaie de prendre le contrôle de votre machine que vous avez laissée sans surveillance. Dans une telle situation, vous serez déconnecté après trois échecs de connexion, et ce, pour assurer votre sécurité.
     how-to-create-an-account: |-
       Pour créer un compte login.gov, vous devrez fournir : une adresse courriel valide et un numéro de téléphone actif. Nous vous demanderons aussi de créer un mot de passe.
 
@@ -517,23 +544,16 @@ help_pages:
 
       [Comment relier mon profil SAM après la suppression de mon compte login.gov?](site.baseurl/help/sam/relink-my-profile)
   privacy-and-security:
-    remove-saved-password-from-browser: |-
-      "Si vous avez accidentellement sauvegardé votre mot de passe ou toute autre information de connexion liée à login.gov dans votre navigateur, il est préférable de les supprimer. Ainsi, vous conserverez un compte plus sécurisé. Dans la liste suivante, sélectionnez le navigateur (le programme informatique que vous utilisez pour accéder au web) que vous utilisez pour apprendre comment supprimer toute information sauvegardée :"
-
-      - [Chrome](https://support.google.com/chrome/answer/95606){:target="_blank"}
-      - [Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-change-passwords#w_viewing-and-deleting-passwords){:target="_blank"}
-      - [Internet Explorer](https://support.microsoft.com/en-us/help/17499/windows-internet-explorer-11-remember-passwords-fill-out-web-forms#ie=ie-11){:target="_blank"}
-      - [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank"}
-
-      Aussi, lorsque vous êtes en ligne, vérifiez la barre d'adresse de toute page que vous visitez et assurez-vous qu'il s'agit de sites de confiance, particulièrement les pages qui vous demandent d'inscrire un nom d'utilisateur et un mot de passe. Soyez prudent(e) quand vous partagez de l'information personnelle par courriel, notamment vos authentifiants de connexion, votre information bancaire ou votre numéro de sécurité sociale.
-    creating-a-strong-password: |-
-      Votre mot de passe doit compter un minimum de 12 caractères. Essayez avec plusieurs mots et espaces pour créer une phrase facile à mémoriser. Les mots de passe plus longs et contenant plusieurs mots sont plus forts que les mots de passe courts comportant des caractères spéciaux.
-
-      Au moment de créer un mot de passe, évitez également d'utiliser des termes du langage de la rue, les fautes d'orthographe communes et les mots épelés à l'envers. Évitez aussi d'utiliser le nom de votre entreprise, de votre conjoint(e) ou les noms de vos enfants ou de vos animaux de compagnie ainsi que de l'information personnelle comme votre âge ou votre date de naissance.
-
-      Si vous êtes déjà connecté(e) et que vous essayez de changer votre mot de passe, votre courriel ou votre numéro de téléphone, on vous demandera d'entrer votre mot de passe actuel avant de pouvoir effectuer les changements.
-
-      Cependant, si vous entrez un mot de passe erroné à répétition, il est probable qu'une personne mal intentionnée essaie de prendre le contrôle de votre machine que vous avez laissée sans surveillance. Dans une telle situation, vous serez déconnecté après trois échecs de connexion, et ce, pour assurer votre sécurité.
+    what-is-phishing: Le phishing se produit lorsque quelqu'un tente de vous amener
+      à partager votre mot de passe ou d'autres informations personnelles en ligne.
+      Le phishing se fait généralement par courrier électronique, par des annonces
+      ou par des sites similaires aux sites que vous utilisez déjà. Par exemple, vous
+      pourriez recevoir un email ressemblant à celui de login.gov vous demandant de
+      confirmer votre email, votre mot de passe, votre code de sécurité ou votre clé
+      personnelle. Une clé de sécurité rend la tâche plus difficile car il n'y a pas
+      de codes que vous pouvez partager par erreur avec un attaquant. La clé de sécurité
+      vous permettra également de saisir les informations sur le site Web officiel
+      login.gov.
     how-does-logingov-protect-my-information: |-
       Le site login.gov respecte la confidentialité. Nous recueillons des données personnelles en ligne seulement pour répondre aux demandes que vous transmettez aux agences fédérales partenaires du site. Le site login.gov gère des parties spécifiques du site web de ces agences, ce qui nous permet de recueillir des données personnelles dans un environnement sécurisé et confidentiel lorsque vous accédez à certains services gouvernementaux. Nous sommes tenus de respecter notre politique de confidentialité. Le site login.gov ne loue, ne vend pas et ne publie aucune information personnelle à des fins marketing à des entreprises privées, des entrepreneurs ou des distributeurs.
 
@@ -622,20 +642,6 @@ help_pages:
       Si vous avez déjà un compte login.gov, vous pouvez ajouter votre clé de sécurité en vous connectant à votre compte login.gov. Allez sur [https://login.gov/](https://login.gov/){:target="_blank"} et cliquez sur «Gérer le compte». Connectez-vous et sélectionnez «Ajouter une clé de sécurité matérielle». Vous serez invité à attribuer un surnom à votre clé de sécurité, à la connecter et à appuyer sur le bouton pour s'enregistrer.
 
       Chaque fois que vous vous connecterez à login.gov, nous vous demanderons d'utiliser votre clé de sécurité. Si vous ne possédez pas votre clé de sécurité, vous pouvez également utiliser toute autre méthode d'authentification que vous avez activée. Nous vous recommandons d’activer plusieurs clés de sécurité et / ou d’autres méthodes à deux facteurs afin que votre compte ne soit pas verrouillé.
-    security-key: |-
-      Une clé de sécurité est un dispositif d'authentification qui renforce la sécurité du compte lorsqu'il est utilisé en plus d'un mot de passe lors de la connexion. L'utilisation d'une clé de sécurité est préférable à la réception de codes par appel téléphonique ou SMS, car ces codes peuvent être phishing ou interceptés. Lorsque vous utilisez une clé de sécurité pour vous connecter, cette clé vérifie que vous vous trouvez bien sur le site Web officiel login.gov.
-
-             Une clé de sécurité est généralement un élément de matériel physique, tel qu'une clé USB, que vous pouvez utiliser avec votre trousseau. Vous pouvez également utiliser un logiciel de support, tel qu'une extension de navigateur Web ou d'autres services. Lorsque vous choisissez une clé de sécurité, recherchez la compatibilité avec le [standard FIDO](https://fidoalliance.org/fido2/){:target="_blank"}.
-    what-is-phishing: Le phishing se produit lorsque quelqu'un tente de vous amener
-      à partager votre mot de passe ou d'autres informations personnelles en ligne.
-      Le phishing se fait généralement par courrier électronique, par des annonces
-      ou par des sites similaires aux sites que vous utilisez déjà. Par exemple, vous
-      pourriez recevoir un email ressemblant à celui de login.gov vous demandant de
-      confirmer votre email, votre mot de passe, votre code de sécurité ou votre clé
-      personnelle. Une clé de sécurité rend la tâche plus difficile car il n'y a pas
-      de codes que vous pouvez partager par erreur avec un attaquant. La clé de sécurité
-      vous permettra également de saisir les informations sur le site Web officiel
-      login.gov.
   signing-in:
     forgot-my-password: Si vous ne connaissez pas votre mot de passe, le lien
       pour le réinitialiser se trouve à la page de connexion. Saisissez votre adresse
@@ -666,12 +672,6 @@ help_pages:
       [Lisez comment vous relier à votre profil USAJOBS](site.baseurl/help/usajobs/relink-my-profile)
       [Lisez comment vous relier à votre profil Trusted Traveler](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
       [Lisez comment vous relier à votre profil SAM](site.baseurl/help/sam/relink-my-profile)
-    turn-off-two-factor-authentication: |-
-      login.gov ne permet pas de désactiver l'authentification à deux facteurs, mais vous pouvez configurer la fonctionnalité « se souvenir du navigateur ». Cela vous permet de vous connecter sans entrer de code de sécurité pendant 30 jours. Tous les 30 jours, vous devrez renouveler cette fonctionnalité en passant les étapes normales d'authentification à deux facteurs et en sélectionnant « se souvenir du navigateur ». REMARQUE : Si vous utilisez login.gov sur plusieurs appareils et navigateurs, vous devez configurer la fonctionnalité « se souvenir du navigateur » sur chacun d'eux.
-
-        1. Saisissez l'adresse e-mail et le mot de passe pour commencer le processus de connexion.
-        2. Saisissez le code de sécurité et sélectionnez « Se souvenir du navigateur pendant 30 jours ».
-        3. Après avoir configuré la fonctionnalité « se souvenir du navigateur », vous n'aurez pas à soumettre de code de sécurité pendant 30 jours.
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: |-
       Si n'avez pas votre téléphone ou votre clé personnelle, vous pourriez devoir créer un nouveau compte et vérifier votre information personnelle de nouveau. Pour créer un nouveau compte, vous devrez utiliser une adresse courriel différente de celle que vous avez utilisée lorsque vous avez créé votre premier compte. Pour les questions urgentes, par exemple pour vérifier le statut d'une application en cours, il est recommandé de communiquer directement avec l'agence gouvernementale.
 
