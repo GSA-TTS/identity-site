@@ -283,7 +283,7 @@ help_pages:
     change-my-phone-number: |-
       To change the phone number where you get your security code, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Once signed in, click on “Manage” next to the phone number. Enter the phone number and select “confirm change.” login.gov will immediately send your security code to confirm the new phone number.
 
-      If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key if you were assigned one and it is still valid](site.baseurl/help/signing-in/phone-or-authentication-methods-not-available) or use another configured authentication method.
+      If you cannot receive the security code because you don't have access to your phone, you will need to sign in using your [personal key](site.baseurl/help/creating-an-account/personal-key/), if you were assigned one and it's still valid, or using another [two-factor authentication method](site.baseurl/help/creating-an-account/two-factor-authentication/) you've set up.
     turn-off-two-factor-authentication: |-
       login.gov does not allow you to turn off two-factor authentication, but you can set up the "remember browser" feature. This will allow you to sign in without entering a security code for 30 days. Every 30 days you will be required to renew this feature by going through the normal two-factor authentication steps and selecting "remember browser." NOTE: If you use login.gov on multiple devices and browsers, you must set up “remember browser” on each one.
 
@@ -366,11 +366,11 @@ help_pages:
     email-address-is-already-in-use: |-
       Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in](site.baseurl/help/signing-in/forgot-my-password).
 
-      Please submit a [support ticket] (https://login.gov/contact) if you are sure you did not create an account.
+      Please submit a [support ticket](site.baseurl/contact) if you are sure you did not create an account.
 
       [What is two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
 
-      [Why do I need to use login.gov to access government services online?](site.baseurl/help/creating-an-account/multiple-accounts-to-verifying-my-identity-for/)
+      [Why do I have to use login.gov?](site.baseurl/help/privacy-and-security/why-do-i-have-to-use-logingov/)
     creating-a-strong-password: |-
       Your password should be at least 8 characters long. Try using multiple words and spaces to create a memorable phrase. Longer passwords with many words are stronger than short passwords with special characters.
 
@@ -716,7 +716,7 @@ help_pages:
 
       For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
     my-ttp-information-is-not-there: |-
-      If you want to access your Trusted Traveler Programs (TTP) account, always start at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. After you follow the [instructions to create an account](/help/creating-an-account/how-to-create-an-account/), you will be taken back to your TTP membership information.
+      If you want to access your Trusted Traveler Programs (TTP) account, always start at [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. After you follow the [instructions to create an account](site.baseurl/help/creating-an-account/how-to-create-an-account/), you will be taken back to your TTP membership information.
 
       If you sign in directly from login.gov, you will only see your login.gov account information, and will not be able to view your TTP membership information.
     reset-or-relink-my-logingov-account-for-ttp: |-
@@ -747,7 +747,7 @@ help_pages:
       4. Select “Create an account”
       5. Enter your email address: this is your new username going forward
       6. Wait for an email confirmation and follow the instructions in the email
-      7. Continue with the account creation process as described here: [https://login.gov/help/creating-an-account/how-to-create-an-account/](/help/creating-an-account/how-to-create-an-account/)
+      7. Continue with the account creation process as [described here](site.baseurl/help/creating-an-account/how-to-create-an-account/)
       8. You should now see a page that looks like this:
       <img src="site.baseurl/assets/img/created_acount.png" class="mt3 mb3 block" alt="Login.gov created account page" />
       9. Select “Continue” to go back to the Trusted Traveler Programs website
@@ -755,7 +755,6 @@ help_pages:
       <img src="site.baseurl/assets/img/trusted_traveler_program.png" class="mt3 mb3 block" alt="Trusted traveler account profile" />
       11. Fill out your info on that page, and at the bottom, you will see a section for previous applications. Under “Have you ever applied for Global Entry, NEXUS, or SENTRI?”, select “Yes”. It looks like this:
       <img src="site.baseurl/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
-      If you have any other questions about creating an account with login.gov please refer to our FAQ as our call center volume is extremely high this week: [https://login.gov/help/creating-an-account/how-to-create-an-account/](/help/creating-an-account/how-to-create-an-account/)
   usajobs:
     try-not-to-use-a-gov-mil-or-edu-email-address: |-
       We recommend you don’t use a .gov, .mil or .edu email address, because if you leave your government or military position or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password.
