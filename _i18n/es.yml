@@ -167,8 +167,8 @@ help:
     remove-saved-password-from-browser: "¿Puedo borrar
       de mi navegador una contraseña o información guardarda para iniciar sesión?"
     creating-a-strong-password: "¿Cómo puedo hacer que mi contraseña sea segura?"
-    how-does-logingov-protect-my-data: "¿Cómo protege login.gov mis datos?"
-    will-logingov-share-my-information: "¿Compartirá login.gov mi información?"
+    how-does-logingov-protect-my-information: "¿Cómo protege login.gov mis datos?"
+    does-logingov-share-my-information: "¿Compartirá login.gov mi información?"
   sam:
     change-account-settings: "¿Cómo puedo cambiar los ajustes de mi cuenta?"
     have-account-different-email: Ya tengo una cuenta de login.gov, pero el correo
@@ -523,7 +523,7 @@ help_pages:
       Si ya ha iniciado sesión y está intentando cambiar su contraseña, email o teléfono, se le pedirá que ingrese su contraseña actual antes de poder realizar los cambios.
 
       Sin embargo, si repetidamente ingresa una contraseña incorrecta, es muy probable que se deba a que una persona malintencionada se está apoderando de su máquina que dejó desatendida. En ese caso y por su seguridad, lo desconectamos después de tres intentos fallidos.
-    how-does-logingov-protect-my-data: |-
+    how-does-logingov-protect-my-information: |-
       Login.gov respeta su privacidad. Nosotros recopilamos datos personales en línea solamente para ayudarlo a ejecutar sus solicitudes con agencias federales asociadas con nosotros. login.gov gestiona partes específicas de la página web de esa agencia para que podamos recopilar datos personales con el fin de proporcionar una plataforma segura y privada para que usted pueda acceder a ciertos servicios del Gobierno. Estamos sujetos a nuestra política de privacidad. Login.gov no alquila, vende o divulga su información personal a empresas privadas, contratistas o vendedores con fines de mercadeo.
 
       Login.gov tiene enlaces a sitios externos del Gobierno federal para los servicios proporcionados por esas agencias. Esos sitios están sujetos a su propia política de privacidad, que suele estar explicada en la política de privacidad y descargo de responsabilidad legal disponible en su sitio web.
@@ -531,7 +531,7 @@ help_pages:
       Las cuentas individuales obtienen dos niveles de seguridad. Requerimos la autenticación de dos factores, así como contraseñas seguras que cumplan con los nuevos requisitos de validación y verificación seguras [Instituto Nacional de Estándares y Tecnología](https://www.nist.gov/){:target="_blank"}. Esto incluye la autenticación de dos factores que requiere que inicie sesión con su contraseña y un código de seguridad que usted recibe en su teléfono. La autenticación de dos factores puede ayudar a proteger su cuenta contra contraseñas comprometidas.
 
       Su información permanecerá segura. Para obtener más información, lea nuestra [política de seguridad y privacidad](site.baseurl/policy).
-    will-logingov-share-my-information: Login.gov no puede compartir ninguna información
+    does-logingov-share-my-information: Login.gov no puede compartir ninguna información
       con otras agencias del Gobierno sin el permiso del usuario. Ni siquiera los
       administradores de login.gov pueden descifrar o acceder a la información personal
       de un usuario sin la contraseña del usuario.

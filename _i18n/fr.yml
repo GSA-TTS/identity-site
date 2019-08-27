@@ -169,8 +169,8 @@ help:
     remove-saved-password-from-browser: Puis-je supprimer
       un mot de passe ou un identifiant sauvegardé de mon navigateur ?
     creating-a-strong-password: Comment puis-je choisir un mot de passe sûr ?
-    how-does-logingov-protect-my-data: Comment login.gov protège-t-il mes données ?
-    will-logingov-share-my-information: login.gov partagera-t-il mes informations ?
+    how-does-logingov-protect-my-information: Comment login.gov protège-t-il mes données ?
+    does-logingov-share-my-information: login.gov partagera-t-il mes informations ?
   sam:
     change-account-settings: Comment puis-je modifier les paramètres de mon compte ?
     have-account-different-email: Je possède déjà un compte login.gov mais l'adresse
@@ -534,7 +534,7 @@ help_pages:
       Si vous êtes déjà connecté(e) et que vous essayez de changer votre mot de passe, votre courriel ou votre numéro de téléphone, on vous demandera d'entrer votre mot de passe actuel avant de pouvoir effectuer les changements.
 
       Cependant, si vous entrez un mot de passe erroné à répétition, il est probable qu'une personne mal intentionnée essaie de prendre le contrôle de votre machine que vous avez laissée sans surveillance. Dans une telle situation, vous serez déconnecté après trois échecs de connexion, et ce, pour assurer votre sécurité.
-    how-does-logingov-protect-my-data: |-
+    how-does-logingov-protect-my-information: |-
       Le site login.gov respecte la confidentialité. Nous recueillons des données personnelles en ligne seulement pour répondre aux demandes que vous transmettez aux agences fédérales partenaires du site. Le site login.gov gère des parties spécifiques du site web de ces agences, ce qui nous permet de recueillir des données personnelles dans un environnement sécurisé et confidentiel lorsque vous accédez à certains services gouvernementaux. Nous sommes tenus de respecter notre politique de confidentialité. Le site login.gov ne loue, ne vend pas et ne publie aucune information personnelle à des fins marketing à des entreprises privées, des entrepreneurs ou des distributeurs.
 
       Les hyperliens présents sur login.gov qui mènent vers des sites externes du gouvernement fédéral concernent des services fournis par ces agences. Ces sites sont tenus par leur propre politique de confidentialité qui se trouve normalement sur leur site avec les mentions légales.
@@ -542,7 +542,7 @@ help_pages:
       Les comptes individuels font face à une sécurité à deux étapes. Nous exigeons une authentification à deux facteurs de même que des mots de passe forts qui répondent aux normes du [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"} relatives à la validation et à la vérification. Celles-ci incluent l'authentification à deux facteurs qui requiert que vous vous connectiez avec votre mot de passe et un code de sécurité reçu sur votre téléphone. L'authentification à deux facteurs peut aider à protéger votre compte et à empêcher que la sécurité de votre mot de passe soit compromise.
 
       Votre information demeurera sécurisée. Pour plus d'information, consultez notre [politique de sécurité et de confidentialité](site.baseurl/policy).
-    will-logingov-share-my-information: Le site login.gov ne peut partager de l'information
+    does-logingov-share-my-information: Le site login.gov ne peut partager de l'information
       avec d'autres agences gouvernementales sans l'autorisation de l'utilisateur.
       Même les administrateurs de login.gov ne peuvent déchiffrer ou accéder à l'information
       personnelle sans le mot de passe de l'utilisateur.
