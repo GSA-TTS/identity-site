@@ -150,7 +150,6 @@ help:
     creating-a-strong-password: Comment puis-je choisir un mot de passe sûr ?
     how-to-create-an-account: Comment créer un compte sur login.gov?
     no-phone-or-other-authentication-method: Je n’ai pas de téléphone, d’application d’authentification, de clé de sécurité ou d’identité gouvernementale. Puis-je quand même créer un compte login.gov?
-    phone-plan-is-not-in-my-name-or-address: Comment vérifier mon adresse par courrier?
     email-address-confirmation-not-received: Je n'ai pas reçu de courriel
       de confirmation de login.gov.
     email-address-is-already-in-use: Que dois-je
@@ -165,6 +164,7 @@ help:
     email-address-confirmation-link-is-invalid: Pourquoi mon lien de confirmation n'est-il
       pas valide?
   verifying-your-identity:
+    phone-plan-is-not-in-my-name-or-address: Comment vérifier mon adresse par courrier?
     why-do-i-need-to-verify-my-identity: Pourquoi dois-je vérifier mon identité?
     how-to-verify-my-identity: Comment vérifier mon identité sur login.gov?
     dont-have-a-state-issued-id: Je n'ai pas d'identifiant
@@ -420,12 +420,6 @@ help_pages:
       Sur la page «Ajouter une autre méthode», sélectionnez «Je n’ai aucun de ces choix» et cliquez sur «Continuer».
 
       Vous aurez alors fini de créer votre compte. Chaque fois que vous vous connecterez à l'aide de login.gov, il vous sera demandé de saisir l'un de vos codes de sauvegarde. Après avoir utilisé le 10ème code, vous recevrez un nouvel ensemble de codes de sauvegarde à enregistrer et à utiliser.
-    phone-plan-is-not-in-my-name-or-address: |-
-      Si nous ne pouvons pas vérifier automatiquement votre adresse, vous devez la vérifier par courrier. Cela signifie que nous vous enverrons une lettre avec un code de confirmation que vous devez utiliser pour terminer la configuration de votre compte.
-
-      Vous recevrez la lettre par le biais du service postal américain, trois à cinq jours ouvrables après la date à laquelle vous avez demandé le code. Le code de confirmation expirera 30 jours après la date à laquelle vous avez soumis votre demande.
-
-      Si vous ne recevez pas votre lettre ou si votre code de confirmation expire avant la fin du processus de vérification de l'identité, vous pouvez demander un nouveau code de confirmation. Pour ce faire, connectez-vous à l'application du gouvernement ou à [https://secure.login.gov](https://secure.login.gov){: target = "_blank"} et sélectionnez "Envoyez-moi un nouveau code de confirmation" lorsque vous y êtes invité. votre code.
     email-address-confirmation-not-received: |-
       Si vous n'avez pas reçu de courriel de confirmation, regardez dans votre courrier indésirable. Autrement, vous pourriez avoir noté l'adresse courriel de façon erronée. Si c'est le cas, vous pouvez toujours créer un autre compte avec la bonne adresse courriel.
 
@@ -483,6 +477,12 @@ help_pages:
 
       Pour obtenir de l'assistance additionnelle, veuillez envoyer un e-mail à [hello@login.gov](mailto:hello@login.gov).
   verifying-your-identity:
+    phone-plan-is-not-in-my-name-or-address: |-
+      Si nous ne pouvons pas vérifier automatiquement votre adresse, vous devez la vérifier par courrier. Cela signifie que nous vous enverrons une lettre avec un code de confirmation que vous devez utiliser pour terminer la configuration de votre compte.
+
+      Vous recevrez la lettre par le biais du service postal américain, trois à cinq jours ouvrables après la date à laquelle vous avez demandé le code. Le code de confirmation expirera 30 jours après la date à laquelle vous avez soumis votre demande.
+
+      Si vous ne recevez pas votre lettre ou si votre code de confirmation expire avant la fin du processus de vérification de l'identité, vous pouvez demander un nouveau code de confirmation. Pour ce faire, connectez-vous à l'application du gouvernement ou à [https://secure.login.gov](https://secure.login.gov){: target = "_blank"} et sélectionnez "Envoyez-moi un nouveau code de confirmation" lorsque vous y êtes invité. votre code.
     why-do-i-need-to-verify-my-identity: |-
       Certaines applications gouvernementales qui utilisent login.gov imposent aux utilisateurs de vérifier leur identité. Cela signifie que vous devez prouver que vous êtes ce que vous dites. Ce faisant, nous nous assurons que seules les personnes appropriées ont accès aux informations sensibles.
 
@@ -900,6 +900,7 @@ help_pages:
 help_subpages:
   changing-settings: Changement des paramètres
   creating-an-account: Création d'un compte
+  verifying-your-identity: Vérifier votre identité
   privacy-and-security: Confidentialité et sécurité
   sam: SAM
   security-keys: Clés de sécurité
