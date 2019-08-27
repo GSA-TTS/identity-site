@@ -214,34 +214,34 @@ help:
     personal-key-not-working: "¿Por qué mi clave personal no es válida?"
     security-code-not-working: "¿Por qué mi código de seguridad no es válido?"
   trusted-traveler-programs:
-    another-question: Tengo otra pregunta
-    application-status: "¿Cuál es el estado de mi solicitud?"
+    i-have-another-question: Tengo otra pregunta
+    ttp-application-status: "¿Cuál es el estado de mi solicitud?"
     do-i-need-to-pay-again: "¿Tengo que pagar de nuevo?"
     whats-my-passid: No conozco mi PASSID
-    family-account: "¿Cómo puedo crear una cuenta en login.gov para mi familiar?"
-    known-traveler-number: "¿Cambiará mi KTN (número de viajero conocido)?"
+    family-member-accounts: "¿Cómo puedo crear una cuenta en login.gov para mi familiar?"
+    will-my-ktn-known-traveler-number-change: "¿Cambiará mi KTN (número de viajero conocido)?"
     my-ttp-information-is-not-there: Cuando inicio sesión, solo muestra la información de mi cuenta
       de login.gov, y no hay ninguna manera de volver al sitio de programas para viajeros
       de confianza
     relink-my-profile: "¿Cómo puedo volver a vincular mi perfil de viajero de confianza
       después de eliminar mi cuenta de login.gov?"
-    schedule-an-appointment: "¿Puede ayudar a programar una cita?"
+    scheduling-an-appointment: "¿Puede ayudar a programar una cita?"
     cant-sign-in-or-reset-my-password-goes-account: Estoy intentando iniciar sesión, pero no funciona / Estoy
       intentando restablecer mi contraseña, pero no recibo un correo electrónico /
       No he recibido una confirmación mediante correo electrónico
   usajobs:
-    gov-mil-edu-email-address: "¿Debo usar una dirección de correo electrónico .gov,
+    try-not-to-use-a-gov-mil-or-edu-email-address: "¿Debo usar una dirección de correo electrónico .gov,
       .mil y .edu?"
     cant-sign-in-or-reset-my-password-usajobs-account: Estoy intentando iniciar sesión, pero
       no funciona / Estoy intentando restablecer mi contraseña, pero no recibo ningún
       correo electrónico / No he recibido una confirmación mediante correo electrónico
-    profile-information: "¿Qué sucede si no veo la información de mi perfil en USAJOBS
+    my-usajobs-information-is-not-there: "¿Qué sucede si no veo la información de mi perfil en USAJOBS
       después de crear una cuenta en login.gov?"
     relink-my-profile: "Perdí mi método de autenticación. ¿Cómo elimino mi perfil de login.gov y vuelvo a vincular uno nuevo a mi perfil de USAJOBS?"
     security-code: "¿Qué necesito para recibir el código de seguridad de login.gov?"
-    what-email-address-do-i-use: "¿Qué dirección de correo electrónico utilizo para
+    what-email-address-should-i-use: "¿Qué dirección de correo electrónico utilizo para
       crear una cuenta de login.gov?"
-    what-happens-to-my-profile: "¿Qué pasará con mi perfil de USAJOBS?"
+    what-will-happen-to-my-usajobs-profile: "¿Qué pasará con mi perfil de USAJOBS?"
 help_page:
   p_1: Explore los temas comunes
 help_pages:
@@ -734,9 +734,9 @@ help_pages:
       puede solicitar tres códigos de seguridad cada 15 minutos, pero por lo demás,
       puede solicitar tantos códigos como necesite.
   trusted-traveler-programs:
-    another-question: Si tiene alguna pregunta o problema que no se haya tratado en
+    i-have-another-question: Si tiene alguna pregunta o problema que no se haya tratado en
       esta página, póngase en contacto con nosotros en [hello@login.gov](mailto:hello@login.gov).
-    application-status: |-
+    ttp-application-status: |-
       Inicie sesión en el [sitio de los programas para viajeros de confianza](https://ttp.cbp.dhs.gov/){:target="_blank"} para conocer el estado de su solicitud.
 
       login.gov es únicamente para acceder a la cuenta e iniciar sesión y no afecta ni tiene ninguna información sobre su solicitud, su suscripción o su idoneidad para el programa de viajeros de confianza. No envíe datos confidenciales de login.gov sobre usted ni números de suscripción que permitan la identificación.
@@ -752,7 +752,7 @@ help_pages:
       Una vez que haya creado un nombre de usuario y una contraseña en login.gov y haya iniciado sesión correctamente en el [sitio de los programas para viajeros de confianza](https://ttp.cbp.dhs.gov/){:target="_blank"}, se le pedirá que introduzca su PASSID para vincular su antiguo perfil de GOES a las nuevas credenciales de login.gov. Tendrá que responder a las preguntas de seguridad e información adicional que le plantearán los TTP si no tiene su PASSID.
 
       Si tiene problemas con su nombre de usuario y contraseña de PASSID o GOES, póngase en contacto con CBP directamente: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. No envíe datos confidenciales de login.gov sobre usted o números de suscripción que permitan la identificación.
-    family-account: |-
+    family-member-accounts: |-
       El [sitio web de programas para viajeros de confianza](https://ttp.cbp.dhs.gov/){:target="_blank"} solo admite una cuenta de login.gov por solicitud individual. Cada uno de los miembros de la familia necesitará una dirección de correo electrónico única para crear una cuenta de login.gov. Entendemos perfectamente que prefiera compartir una dirección de correo electrónico con sus familiares, o que no quiera crear una cuenta de correo electrónico para sus hijos.
 
       Algunos proveedores de correo electrónico pueden disponer de la opción de crear direcciones de alias (o direcciones de reenvío). Si es usuario de Gmail, puede tener varios alias de correo electrónico que dirijan a la misma bandeja de entrada:
@@ -760,7 +760,7 @@ help_pages:
       Si su correo electrónico es example@gmail.com, puede introducir example+john@gmail.com o example+jane@gmail.com al crear una nueva cuenta de login.gov. login.gov reconocerá cada una de estas direcciones de correo electrónico como únicas, y todos los correos electrónicos de confirmación se enviarán a su buzón de entrada de example@gmail.com
 
       Para obtener más información, vaya a [https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html){:target="_blank"}.
-    known-traveler-number: |-
+    will-my-ktn-known-traveler-number-change: |-
       Su KTN no cambiará.
 
       login.gov es solo para acceder a su cuenta e iniciar sesión y no afecta ni contiene información sobre su solicitud, su suscripción o su aptitud para el programa para viajeros de confianza. No envíe datos confidenciales de login.gov sobre usted ni números de suscripción que puedan identificarle.
@@ -781,7 +781,7 @@ help_pages:
       4. Después de eliminar su cuenta, vaya a [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/) para crear una nueva cuenta.
       5. Una vez que haya creado una nueva cuenta, rellene la información de la página de perfil de la cuenta y, en la parte inferior, verá una sección de solicitudes anteriores. En "¿Alguna vez ha hecho una solicitud en Global Entry, NEXUS o SENTRI?", seleccione "Sí".
       6. Podrá vincular esta nueva cuenta con su antigua cuenta GOES si proporciona su PASSID. Si tiene problemas con su PASSID, póngase en contacto directamente con CBP: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask).
-    schedule-an-appointment: |-
+    scheduling-an-appointment: |-
       La mejor manera de programar una cita es por medio del sitio de programas para viajeros de confianza.
 
       login.gov es solamente para el acceso a la cuenta y el inicio de sesión y no afecta ni tiene ninguna información sobre su solicitud, suscripción o aptitud para el programa de viajeros de confianza. No envíe datos confidenciales de login.gov sobre usted ni números de suscripción que permitan la identificación.
@@ -808,7 +808,7 @@ help_pages:
       <img src="site.baseurl/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
       Si tiene alguna otra pregunta sobre la creación de una cuenta con login.gov, por favor, consulte nuestras preguntas frecuentes, ya que el volumen de nuestro centro de llamadas está siendo sumamente elevado esta semana: [https://login.gov/help/creating-an-account/how-to-create-an-account/](/help/creating-an-account/how-to-create-an-account/)
   usajobs:
-    gov-mil-edu-email-address: |-
+    try-not-to-use-a-gov-mil-or-edu-email-address: |-
       Le recomendamos no utilizar una dirección de correo electrónico .gov, .mil o .edu, porque si abandona su puesto en el Gobierno, en el ejército o en la institución educativa, ya no tendrá acceso a esa dirección de correo electrónico. Sin acceso a esa dirección de correo electrónico, será mucho más difícil verificar su identidad, en caso de que necesite restablecer su contraseña.
 
       Si su dirección de correo electrónico principal o secundaria de USAJOBS es una dirección de correo electrónico .gov, .mil o .edu, es posible que desee cambiarla DESPUÉS de completar la configuración de la cuenta de login.gov y el proceso de vinculación de perfiles de USAJOBS.
@@ -831,7 +831,7 @@ help_pages:
       Si todavía tiene problemas para vincular su perfil, póngase en contacto con el Centro de Ayuda de USAJOBS. [https://www.usajobs.gov/Help/how-to/account/#usajobs-contact-form](https://www.usajobs.gov/Help/how-to/account/#usajobs-contact-form)
 
       Si tiene alguna otra pregunta sobre la creación de una cuenta con login.gov, por favor, consulte nuestra sección de preguntas frecuentes sobre la creación de cuentas: [https://login.gov/help/creating-an-account/how-to-create-an-account/](site.baseurl/help/creating-an-account/how-to-create-an-account/)
-    profile-information: |-
+    my-usajobs-information-is-not-there: |-
       Si USAJOBS no puede encontrar la información de su perfil, iniciará sesión como invitado.
 
        Para encontrar su perfil de USAJOBS, siga estos pasos:
@@ -869,7 +869,7 @@ help_pages:
       NOTA: No cree una nueva cuenta de login.gov hasta que su perfil haya sido desvinculado. Primero debes desvincular tu cuenta antes de crear una nueva. Si no desvincula su cuenta antes de crear una nueva, no podremos vincular sus cuentas.
 
       Si tiene alguna pregunta sobre cómo vincular su cuenta, comuníquese con el [servicio de asistencia técnica de USAJOBS](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"}.
-    what-happens-to-my-profile: |-
+    what-will-happen-to-my-usajobs-profile: |-
       No le ocurrirá nada a la información que esté guardada en su perfil de USAJOBS. Mantendrá todas sus solicitudes, búsquedas guardadas y trabajos guardados.
 
       Una vez que haya creado una cuenta de login.gov, la vincularemos de nuevo a su perfil de USAJOBS. La única diferencia es que usará su dirección de correo electrónico, su contraseña y su código de seguridad de login.gov para iniciar sesión en USAJOBS.

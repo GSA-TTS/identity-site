@@ -192,28 +192,24 @@ help:
     personal-key-not-working: Personal key not working
     security-code-not-working: Security code not working
   trusted-traveler-programs:
-    another-question: I have another question
-    application-status: What is the status of my application?
+    i-have-another-question: I have another question
+    ttp-application-status: TTP application status
     do-i-need-to-pay-again: Do I need to pay again?
     whats-my-passid: What's my PASSID?
-    family-account: How do I create a login.gov account for my family member?
-    known-traveler-number: Will my KTN (Known Traveler Number) change?
+    family-member-accounts: Family member accounts
+    will-my-ktn-known-traveler-number-change: Will my KTN (Known Traveler Number) change?
     my-ttp-information-is-not-there: MY TTP information is not there
     reset-or-relink-my-logingov-account-for-ttp: Reset or relink my login.gov account for TTP
-    schedule-an-appointment: Can you help with scheduling an appointment?
+    scheduling-an-appointment: Scheduling an appointment
     cant-sign-in-or-reset-my-password-goes-account: Can't sign in or reset my password (GOES account)
   usajobs:
-    gov-mil-edu-email-address: Should I use a .gov, .mil and .edu email address?
-    cant-sign-in-or-reset-my-password-usajobs-account: I’m trying to sign in, but it doesn’t
-      work / I’m trying to reset my password, but I don’t get an email / I did not
-      get an email confirmation
-    profile-information: What if I don’t see my USAJOBS profile information after
-      I create a login.gov account?
-    relink-my-profile: I lost my authentication method. How do I delete my login.gov profile and relink a new one to my USAJOBS profile?
-    security-code: What do I need to receive the login.gov security code?
-    what-email-address-do-i-use: What email address do I use to create a login.gov
-      account?
-    what-happens-to-my-profile: What will happen to my USAJOBS Profile?
+    try-not-to-use-a-gov-mil-or-edu-email-address: Try not to use a .gov, .mil or .edu email address
+    cant-sign-in-or-reset-my-password-usajobs-account: Can't sign in or reset my password (USAJOBS account)
+    my-usajobs-information-is-not-there: My USAJOBS information is not there
+    reset-or-relink-my-logingov-account-for-usajobs: Reset or relink my login.gov account for USAJOBS
+    how-to-receive-the-security-code: How to receive the security code
+    what-email-address-should-i-use: What email address should I use?
+    what-will-happen-to-my-usajobs-profile: What will happen to my USAJOBS Profile?
 help_page:
   p_1: Browse common topics
 help_pages:
@@ -272,7 +268,7 @@ help_pages:
       If you are resetting your account, you can now relink your application profiles.
 
       [Read how to add an email address](site.baseurl/help/changing-settings/add-or-remove-email-address/)
-      [Read how to relink your USAJOBS profile](site.baseurl/help/usajobs/relink-my-profile)
+      [Read how to relink your USAJOBS profile](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
       [Read how to relink your Trusted Traveler profile](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
       [Read how to relink your SAM profile](site.baseurl/help/sam/relink-my-profile)
     get-a-new-personal-key: |-
@@ -508,7 +504,7 @@ help_pages:
 
       Related Articles:
 
-      [How do I relink my USAJOBS profile after deleting my login.gov account?](site.baseurl/help/usajobs/relink-my-profile)
+      [How do I relink my USAJOBS profile after deleting my login.gov account?](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
 
       [How do I relink my Trusted Traveler profile after deleting my login.gov account?](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
 
@@ -636,7 +632,7 @@ help_pages:
         4. Relink your applications
 
       [Read how to delete your account](site.baseurl/help/changing-settings/delete-my-account/)
-      [Read how to relink your USAJOBS profile](site.baseurl/help/usajobs/relink-my-profile)
+      [Read how to relink your USAJOBS profile](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
       [Read how to relink your Trusted Traveler profile](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
       [Read how to relink your SAM profile](site.baseurl/help/sam/relink-my-profile)
     forgot-my-email-address: |-
@@ -692,9 +688,9 @@ help_pages:
       code. You can only request 3 security codes every 15 minutes, but otherwise,
       you can request as many codes as you need.
   trusted-traveler-programs:
-    another-question: If you have a question or problem that was not covered by this
+    i-have-another-question: If you have a question or problem that was not covered by this
       page, please [submit a support ticket] (https://login.gov/contact).
-    application-status: |-
+    ttp-application-status: |-
       Sign in to the [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} to find out the status of your application.
 
       login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
@@ -710,7 +706,7 @@ help_pages:
       Once you have created a login.gov username and password and successfully signed into [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"}, you will be asked to enter your PASSID to link your old GOES profile to the new login.gov credentials. You will have to answer security questions and additional information by TTP If you do not have your PASSID.
 
       If you have trouble with your PASSID or GOES username and password, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
-    family-account: |-
+    family-member-accounts: |-
       The [Trusted Traveler Programs site](https://ttp.cbp.dhs.gov/){:target="_blank"} supports only one login.gov account per individual application. Each family member will need a unique email address to create a login.gov account. We completely understand you may prefer to share an email address with your family members, or do not wish to set up an email account for your children.
 
       Some email providers may have options to create alias addresses (or, forwarding addresses). If you are a Gmail user, you can have multiple email aliases point to the same inbox:
@@ -718,7 +714,7 @@ help_pages:
       If your email is example@gmail.com, you may enter example+john@gmail.com or example+jane@gmail.com when creating a new login.gov account. login.gov will recognize each of these email addresses as unique, and all confirmation emails will be delivered to your example@gmail.com inbox.
 
       For more information, go to [https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html){:target="_blank"}.
-    known-traveler-number: |-
+    will-my-ktn-known-traveler-number-change: |-
       Your KTN will not change.
 
       login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
@@ -739,7 +735,7 @@ help_pages:
       4. After you delete your account, go to [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/) to create a new account.
       5. Once you have created a new account, fill out the information on the account profile page, and at the bottom, you will see a section for previous applications. Under “Have you ever applied for Global Entry, NEXUS, or SENTRI?”, select “Yes.”
       6. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask).
-    schedule-an-appointment: |-
+    scheduling-an-appointment: |-
       The best way to schedule an appointment is through the Trusted Traveler Programs site.
 
       login.gov is for account access and sign-in only and does not affect or have any information about your Trusted Traveler Programs application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
@@ -766,7 +762,7 @@ help_pages:
       <img src="site.baseurl/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
       If you have any other questions about creating an account with login.gov please refer to our FAQ as our call center volume is extremely high this week: [https://login.gov/help/creating-an-account/how-to-create-an-account/](/help/creating-an-account/how-to-create-an-account/)
   usajobs:
-    gov-mil-edu-email-address: |-
+    try-not-to-use-a-gov-mil-or-edu-email-address: |-
       We recommend you don’t use a .gov, .mil or .edu email address, because if you leave your government or military position or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password.
 
       If your USAJOBS primary or secondary email address is a .gov, .mil or .edu email address, you may want to consider changing it AFTER you get through the login.gov account set-up and USAJOBS profile linking process.
@@ -789,7 +785,7 @@ help_pages:
       If you’re still having issues linking your profile, contact the USAJOBS Help Center. [https://www.usajobs.gov/Help/how-to/account/#usajobs-contact-form](https://www.usajobs.gov/Help/how-to/account/#usajobs-contact-form)
 
       If you have any other questions about creating an account with login.gov, please refer to our create account FAQ: [https://login.gov/help/creating-an-account/how-to-create-an-account/](site.baseurl/help/creating-an-account/how-to-create-an-account/)
-    profile-information: |-
+    my-usajobs-information-is-not-there: |-
       If USAJOBS can’t find your profile information, you’ll be signed in as Guest.
 
        To find your USAJOBS profile, follow these steps:
@@ -802,7 +798,7 @@ help_pages:
        If you receive an email that says the email address is not associated with a USAJOBS account, try to link your profile using a different email.
 
        If you are unable to link your profile or you no longer have access to the email address you used to create your USAJOBS profile, you can select “lost access to your email addresses” to contact the USAJOBS Help Center for additional support or use this link: [https://www.usajobs.gov/Help/faq/account/no-profile/](https://www.usajobs.gov/Help/faq/account/no-profile/)
-    relink-my-profile: |-
+    reset-or-relink-my-logingov-account-for-usajobs: |-
       If you cannot sign in to your USAJOBS profile because you’ve permanently lost access to your authentication methods, you can reset your account by deleting it and relinking a new one.
 
       Deleting your existing account and creating a new one will let you use the same email address and set up new authentication methods. However, if you delete your login.gov account, you will not be able to sign in to USAJOBS (or any other government application that is linked to your login.gov account) until you create a new account and relink it. It will take at least 24 hours to delete your account.
@@ -827,16 +823,16 @@ help_pages:
       NOTE: Do not create a new login.gov account until your profile has been unlinked. You must first unlink your account before creating a new one. If you do not unlink your account before you create a new one, we will not be able to link your accounts.
 
       If you have any questions about linking your account, please contact the [USAJOBS helpdesk](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"}.
-    security-code: |-
+    how-to-receive-the-security-code: |-
       You can choose to receive the one time security code via text or phone call if you have a U.S. based cell phone. Landlines can only receive a phone call. If you’re outside the U.S., most phone numbers can only receive a text.
-    what-email-address-do-i-use: To keep your USAJOBS profile information, you need
+    what-email-address-should-i-use: To keep your USAJOBS profile information, you need
       to use your primary or secondary USAJOBS email when you create your login.gov
       account. When you use the same email address, USAJOBS will automatically link
       your profile to the login.gov account. If you use a different email address
       when signing up for login.gov, USAJOBS won't be able to automatically link your
       profile. But, you can use your USAJOBS primary or secondary email address to
       help you search for your profile.
-    what-happens-to-my-profile: |-
+    what-will-happen-to-my-usajobs-profile: |-
       Nothing will happen to the information stored in your USAJOBS profile. You’ll keep all of your applications, saved searches and saved jobs.
 
       Once you set up a login.gov account, we’ll link it back to your USAJOBS profile. The only difference is you’ll use your login.gov email address, password and security code to sign into USAJOBS.
