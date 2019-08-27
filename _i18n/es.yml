@@ -129,6 +129,8 @@ global:
     fr: Français
 help:
   changing-settings:
+    remove-saved-password-from-browser: "¿Puedo borrar
+      de mi navegador una contraseña o información guardarda para iniciar sesión?"
     turn-off-two-factor-authentication: "¿Cómo desactivo la autenticación
       de dos factores?"
     get-a-new-personal-key: "¿Cómo obtengo una nueva clave personal?"
@@ -168,8 +170,6 @@ help:
     multiple-accounts-to-verifying-my-identity-for:
       Tengo más de una cuenta de login.gov ¿puedo verificar mi identidad en todas?
   privacy-and-security:
-    remove-saved-password-from-browser: "¿Puedo borrar
-      de mi navegador una contraseña o información guardarda para iniciar sesión?"
     how-does-logingov-protect-my-information: "¿Cómo protege login.gov mis datos?"
     does-logingov-share-my-information: "¿Compartirá login.gov mi información?"
     what-is-phishing: "¿Qué es el phishing?"
@@ -237,7 +237,7 @@ help:
       correo electrónico / No he recibido una confirmación mediante correo electrónico
     my-usajobs-information-is-not-there: "¿Qué sucede si no veo la información de mi perfil en USAJOBS
       después de crear una cuenta en login.gov?"
-    relink-my-profile: "Perdí mi método de autenticación. ¿Cómo elimino mi perfil de login.gov y vuelvo a vincular uno nuevo a mi perfil de USAJOBS?"
+    reset-or-relink-my-logingov-account-for-usajobs: "Perdí mi método de autenticación. ¿Cómo elimino mi perfil de login.gov y vuelvo a vincular uno nuevo a mi perfil de USAJOBS?"
     how-to-receive-the-security-code: "¿Qué necesito para recibir el código de seguridad de login.gov?"
     what-email-address-should-i-use: "¿Qué dirección de correo electrónico utilizo para
       crear una cuenta de login.gov?"
@@ -246,6 +246,15 @@ help_page:
   p_1: Explore los temas comunes
 help_pages:
   changing-settings:
+    remove-saved-password-from-browser: |-
+      Si guardó accidentalmente su contraseña de login.gov o cualquier otra información de acceso en su navegador, sería una buena idea borrarla del navegador. Eso lo ayudará a mantener su cuenta más segura. De la siguiente lista, seleccione el navegador (programa de computadora que usa para acceder al internet) que usa para aprender cómo borrar cualquier información guardada (los enlaces están en inglés):
+
+      - [Chrome](https://support.google.com/chrome/answer/95606){:target="_blank"}
+      - [Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-change-passwords#w_viewing-and-deleting-passwords){:target="_blank"}
+      - [Internet Explorer](https://support.microsoft.com/en-us/help/17499/windows-internet-explorer-11-remember-passwords-fill-out-web-forms#ie=ie-11){:target="_blank"}
+      - [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank"}
+
+      Cada vez que esté en línea, recuerde revisar la barra de dirección (URL) de cualquier página web que esté visitando para asegurarse de que puede confiar en ellos, especialmente en cualquier página que le pida compartir un nombre de usuario y una contraseña. Tenga cuidado al compartir información personal como sus credenciales de acceso, información financiera o número de Seguro Social por email.
     turn-off-two-factor-authentication: |-
       login.gov no le permite desactivar la autenticación de dos factores, pero puede configurar la función "recordar navegador". Esto le permitirá iniciar sesión sin necesidad de introducir un código de seguridad para 30 días. Cada 30 días se le pedirá que renueve esta característica siguiendo los pasos normales de autenticación de dos factores y seleccionando "recordar navegador". NOTA: Si utiliza login.gov en varios dispositivos y navegadores, debe configurar "recordar navegador" en cada uno de ellos.
 
@@ -306,7 +315,7 @@ help_pages:
       Si estás reiniciando tu cuenta, ahora puedes volver a vincular tus perfiles de aplicación.
 
       [Lee cómo agregar o eliminar una dirección de correo electrónico](site.baseurl/help/changing-settings/add-or-remove-email-address/)
-      [Lee cómo vincular de nuevo a tu perfil de USAJOBS](site.baseurl/help/usajobs/relink-my-profile)
+      [Lee cómo vincular de nuevo a tu perfil de USAJOBS](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
       [Lee cómo vincular de nuevo a tu perfil de Trusted Traveler](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
       [Lee cómo vincular de nuevo a tu perfil de SAM](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
     get-a-new-personal-key: |-
@@ -518,7 +527,7 @@ help_pages:
 
       Artículos relacionados:
 
-      [¿Cómo puedo volver a vincular mi perfil de USAJOBS después de eliminar mi cuenta login.gov?](site.baseurl/help/usajobs/relink-my-profile)
+      [¿Cómo puedo volver a vincular mi perfil de USAJOBS después de eliminar mi cuenta login.gov?](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
 
       [¿Cómo puedo volver a vincular mi perfil de Trusted Traveler después de eliminar mi cuenta login.gov?](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
 
@@ -533,15 +542,6 @@ help_pages:
       que sea más difícil que esto ocurra porque no hay códigos que pueda compartir
       por error con un atacante. La clave de seguridad también se asegurará de que
       ingrese información en el sitio web oficial login.gov.
-    remove-saved-password-from-browser: |-
-      Si guardó accidentalmente su contraseña de login.gov o cualquier otra información de acceso en su navegador, sería una buena idea borrarla del navegador. Eso lo ayudará a mantener su cuenta más segura. De la siguiente lista, seleccione el navegador (programa de computadora que usa para acceder al internet) que usa para aprender cómo borrar cualquier información guardada (los enlaces están en inglés):
-
-      - [Chrome](https://support.google.com/chrome/answer/95606){:target="_blank"}
-      - [Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-change-passwords#w_viewing-and-deleting-passwords){:target="_blank"}
-      - [Internet Explorer](https://support.microsoft.com/en-us/help/17499/windows-internet-explorer-11-remember-passwords-fill-out-web-forms#ie=ie-11){:target="_blank"}
-      - [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank"}
-
-      Cada vez que esté en línea, recuerde revisar la barra de dirección (URL) de cualquier página web que esté visitando para asegurarse de que puede confiar en ellos, especialmente en cualquier página que le pida compartir un nombre de usuario y una contraseña. Tenga cuidado al compartir información personal como sus credenciales de acceso, información financiera o número de Seguro Social por email.
     how-does-logingov-protect-my-information: |-
       Login.gov respeta su privacidad. Nosotros recopilamos datos personales en línea solamente para ayudarlo a ejecutar sus solicitudes con agencias federales asociadas con nosotros. login.gov gestiona partes específicas de la página web de esa agencia para que podamos recopilar datos personales con el fin de proporcionar una plataforma segura y privada para que usted pueda acceder a ciertos servicios del Gobierno. Estamos sujetos a nuestra política de privacidad. Login.gov no alquila, vende o divulga su información personal a empresas privadas, contratistas o vendedores con fines de mercadeo.
 
@@ -655,7 +655,7 @@ help_pages:
         4. Vincula de nuevo a tus aplicaciones
 
       [Lee cómo borrar tu cuenta](site.baseurl/help/changing-settings/delete-my-account/)
-      [Lee cómo vincular de nuevo a tu perfil de USAJOBS](site.baseurl/help/usajobs/relink-my-profile)
+      [Lee cómo vincular de nuevo a tu perfil de USAJOBS](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
       [Lee cómo vincular de nuevo a tu perfil de Trusted Traveler](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
       [Lee cómo vincular de nuevo a tu perfil de SAM](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: |-
@@ -844,7 +844,7 @@ help_pages:
        Si recibe un correo electrónico que indique que dicha dirección de correo no está asociada a una cuenta de USAJOBS, intente vincular su perfil mediante un correo electrónico diferente.
 
        Si no puede vincular su perfil o ya no tiene acceso a la dirección de correo electrónico que utilizó para crear su perfil de USAJOBS, puede seleccionar "se ha perdido el acceso a sus direcciones de correo electrónico" para ponerse en contacto con el Centro de Ayuda de USAJOBS y poder obtener ayuda adicional o utilizar este enlace: [https://www.usajobs.gov/Help/faq/account/no-profile/](https://www.usajobs.gov/Help/faq/account/no-profile/)
-    relink-my-profile: |-
+    reset-or-relink-my-logingov-account-for-usajobs: |-
       Si no puede iniciar sesión en su perfil de USAJOBS porque ha perdido el acceso permanente a sus métodos de autenticación, puede restablecer su cuenta eliminándola y volviendo a vincular una nueva.
 
       Eliminar su cuenta existente y crear una nueva le permitirá usar la misma dirección de correo electrónico y configurar nuevos métodos de autenticación. Sin embargo, si elimina su cuenta login.gov, no podrá iniciar sesión en USAJOBS (ni en ninguna otra aplicación gubernamental que esté vinculada a su cuenta login.gov) hasta que cree una nueva cuenta y la vuelva a vincular. Le tomará al menos 24 horas eliminar su cuenta.
