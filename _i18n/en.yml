@@ -133,7 +133,6 @@ global:
 help:
   changing-settings:
     how-do-I-get-a-new-personal-key: How do I get a new personal key?
-    authentication-application: Authentication application
     how-do-i-change-my-email-address: How do I change my email address?
     how-do-i-change-my-password: How do I change my password?
     how-do-i-change-the-phone-number-i-use-to-sign-in: How do I change the phone number
@@ -142,20 +141,18 @@ help:
     i-got-an-error-message-when-i-added-an-email: I got an error message when I added an email address to my account. What do I do?
     how-do-i-delete-my-account: How do I delete my account?
   creating-an-account:
-    do-i-need-a-mobile-phone-to-use-logingov: I don’t have a phone. Can I still use
-      login.gov?
     how-to-create-an-account: How to create an account
-    no-phone-or-other-authentication-method: No phone or other authentication method
-    how-do-i-verify-my-address-by-mail: How do I verify my address by mail?
     email-address-confirmation-not-received: Email address confirmation not received
+    email-address-confirmation-link-is-invalid: Email address confirmation link is invalid
     email-address-is-already-in-use: Email address is already in use
+    creating-a-strong-password: Creating a strong password
+    two-factor-authentication: Two-factor authentication
+    authentication-application: Authentication application
+    security-key: Security key
+    phone-didnt-get-a-security-code: Phone didn't get a security code
+    no-phone-or-other-authentication-method: No phone or other authentication method
     personal-key: Personal key
     what-are-backup-codes: What are backup codes?
-    two-factor-authentication: Two-factor authentication
-    phone-didnt-get-a-security-code: Phone didn't get a security code
-    why-do-i-need-to-use-logingov-to-access-government-services-online: Why do I need
-      to use login.gov to access government services online?
-    email-address-confirmation-link-is-invalid: Email address confirmation link is invalid
   identity-verification:
     why-do-i-need-to-verify-my-identity: Why do I need to verify my identity?
     how-do-i-verify-my-identity-on-logingov: How do I verify my identity on login.gov?
@@ -163,12 +160,15 @@ help:
       state-issued ID, can I still verify my identity?
     i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
       I have more than one login.gov account, can I verify my identity for all of them?
+    how-do-i-verify-my-address-by-mail: How do I verify my address by mail?
   privacy-and-security:
+    why-do-i-need-to-use-logingov-to-access-government-services-online: Why do I need
+      to use login.gov to access government services online?
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove
       a saved password or login information from my browser?
-    creating-a-strong-password: Creating a strong password
     how-does-logingov-protect-my-data: How does login.gov protect my data?
     will-logingov-share-my-information: Will login.gov share my information?
+    what-is-phishing: What is phishing?
   sam:
     change-account-settings: How do I change my account settings?
     have-account-different-email: I already have a login.gov account but the email
@@ -182,13 +182,6 @@ help:
     where-is-my-profile-info: Why don’t I see my SAM profile information after I create
       my login.gov account and sign in?
     why-is-sam-using-login-gov: Why is SAM using login.gov?
-  security-keys:
-    do-i-need-to-set-up-a-security-key-to-use-logingov: Do I need to set up a security
-      key to use login.gov?
-    how-do-i-protect-my-logingov-account-with-a-security-key: How do I protect my
-      login.gov account with a security key?
-    security-key: Security key
-    what-is-phishing: What is phishing?
   signing-in:
     how-do-i-reset-my-password: How do I reset my password?
     how-do-i-sign-in-if-i-dont-have-my-authentication-methods: How do I sign in if I don’t have my authentication methods (phone, backup codes, authentication app, etc.)?
@@ -297,19 +290,6 @@ help_pages:
       We are currently in the process of retiring personal keys. It is highly suggested you configure one or more additional second factor authentication methods. To do so sign in to your account page and request backup codes, configure a phone, register a security key, configure an authentication app, or, if you are a government employee, attach your PIV/CAC card to your account.
 
       If you have a valid personal key you will still be able to use it in the case you have lost your other authentication mechanism. Once you use the personal key however you will no longer be generated a new one. Instead you will have to configure a different authentication mechanism. After entering your personal key you will be redirected to a screen that will prompt you to choose one or more additional authentication mechanisms.
-    authentication-application: |-
-      If you don’t want to receive security codes by text or phone call, you can set up an authentication app on your device to generate security codes.
-        1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps.
-        2. Download and install an authentication app to your device. Some popular options include:
-          - Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
-          - iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
-          - Windows apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}
-          - Mac apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
-          - Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
-        3. Open a new browser and sign into your login.gov account at [https://secure.login.gov/](https://secure.login.gov/). *NOTE*: If you do not have access to your configured two-factor authentication mechanism, you may be able to sign in using your personal key if you were assigned one and it has never been used.
-        4. Select “enable” next to Authentication app and follow the instructions to scan or enter a code associating your authentication app with your account.
-
-      You will now be able to use the one-time passcodes generated by the application each time you sign in instead of receiving a text message or a phone call. If you are having difficulty setting up the authentication app, you will need to contact the app developer directly for assistance.
     how-do-i-change-my-email-address: To change the email address associated with your login.gov
       account, go to [https://secure.login.gov/](https://secure.login.gov/) and
       sign in to your login.gov account. Click on "Add email” and go through the process of adding your new email address.
@@ -325,13 +305,6 @@ help_pages:
 
       If you cannot receive the security code because you no longer have access to your phone, you will need to [sign in using your personal key if you were assigned one and it is still valid](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods) or use another configured authentication method.
   creating-an-account:
-    do-i-need-a-mobile-phone-to-use-logingov: |-
-      login.gov requires all users to use two-factor authentication when creating an account and signing in.
-
-      Even if you do not have a phone you still have a number of options for a second factor. You can choose between using an authentication application on your device, backup codes, or a security key. If you are a government employee, you can also use your government ID (PIV/CAC card).
-
-      [Read more on how to sign in using your personal key](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/)
-      [Read more on how to create a login.gov account if you don’t have a phone, authentication app, security key, or government employee ID](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
     how-to-create-an-account: |-
       ### How do you create an account with login.gov?
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
@@ -410,6 +383,14 @@ help_pages:
       [What is two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
 
       [Why do I need to use login.gov to access government services online?](site.baseurl/help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/)
+    creating-a-strong-password: |-
+      Your password should be at least 8 characters long. Try using multiple words and spaces to create a memorable phrase. Longer passwords with many words are stronger than short passwords with special characters.
+
+      When creating a password, also try to avoid using slang terms and common misspellings and words spelled backward. Also, avoid using your company name or your spouse's or children's names - and even your pet - as well as other personal information such as your age or birth date.
+
+      If you're already signed in, and you're trying to change your password, email, or phone, you will be prompted to enter your current password before you can make the changes.
+
+      But, if you repeatedly enter an incorrect password, it is most likely due to a malicious person taking over your machine that you left unattended. In that case, for your security, we sign you out after three failed attempts.
     personal-key: |-
       A personal key is a 16-character secret code we have been historically generating as a form of two-factor authentication. [Read more about two-factor authentication here](site.baseurl/help/creating-an-account/two-factor-authentication/)
 
@@ -439,6 +420,23 @@ help_pages:
       this means entering a memorized password and a unique code sent to a device
       (such as a phone) that you own. Requiring two methods makes breaking into your
       account much harder.
+    authentication-application: |-
+      If you don’t want to receive security codes by text or phone call, you can set up an authentication app on your device to generate security codes.
+        1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps.
+        2. Download and install an authentication app to your device. Some popular options include:
+          - Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+          - iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
+          - Windows apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}
+          - Mac apps: [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
+          - Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
+        3. Open a new browser and sign into your login.gov account at [https://secure.login.gov/](https://secure.login.gov/). *NOTE*: If you do not have access to your configured two-factor authentication mechanism, you may be able to sign in using your personal key if you were assigned one and it has never been used.
+        4. Select “enable” next to Authentication app and follow the instructions to scan or enter a code associating your authentication app with your account.
+
+      You will now be able to use the one-time passcodes generated by the application each time you sign in instead of receiving a text message or a phone call. If you are having difficulty setting up the authentication app, you will need to contact the app developer directly for assistance.
+    security-key: |-
+      A security key is an authentication device that strengthens account security when used in addition to a password when signing in. Using a security key is better than receiving codes via phone call or text message because these codes can be phished or intercepted. When you use a security key to sign in, the key will check to make sure you are on the official login.gov website.
+
+      A security key is usually a piece of physical hardware, like a USB, that you can carry on your keychain. You can also use supporting software, such as a web browser extension or other services. When choosing a security key, look for compatibility with the [FIDO standard](https://fidoalliance.org/fido2/){:target="_blank"}.
     phone-didnt-get-a-security-code: |-
       If you didn't receive a security code, check whether you entered your phone number correctly.
 
@@ -528,14 +526,6 @@ help_pages:
       - [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank"}
 
       Also, remember whenever you're online, check the address bar of any webpage you're visiting to make sure that you can trust them, especially any page that asks you to share a username and password. Be careful about sharing personal information such as your login credentials, financial information, or Social Security number over email.
-    creating-a-strong-password: |-
-      Your password should be at least 8 characters long. Try using multiple words and spaces to create a memorable phrase. Longer passwords with many words are stronger than short passwords with special characters.
-
-      When creating a password, also try to avoid using slang terms and common misspellings and words spelled backward. Also, avoid using your company name or your spouse's or children's names - and even your pet - as well as other personal information such as your age or birth date.
-
-      If you're already signed in, and you're trying to change your password, email, or phone, you will be prompted to enter your current password before you can make the changes.
-
-      But, if you repeatedly enter an incorrect password, it is most likely due to a malicious person taking over your machine that you left unattended. In that case, for your security, we sign you out after three failed attempts.
     how-does-logingov-protect-my-data: |-
       login.gov respects your privacy. We collect personal data online only to help you fulfill your requests with federal agencies that partner with us. login.gov manages specific parts of that agency's website so we collect personal data in order to provide a secure and private environment for you to access certain government services. We are bound by our privacy policy. login.gov does not lease, sell or release your personal information to private companies, contractors, or vendors for marketing purposes.
 
@@ -616,21 +606,6 @@ help_pages:
         - **What email address should I use to create a login.gov account?**
           If you are an existing SAM user, use the same email address you registered within SAM.gov so we can automatically link your SAM.gov profile to your login.gov account. If you use a different email address, we won't be able to link your profile automatically.
   security-keys:
-    do-i-need-to-set-up-a-security-key-to-use-logingov: You do not need to use a security
-      key to use login.gov. However, all login.gov accounts must be set up with a
-      two-factor method. You can set up two-factor authentication by phone call, text
-      message, authentication app, or a security key. A security key is the most secure
-      two-factor method.
-    how-do-i-protect-my-logingov-account-with-a-security-key: |-
-      To set up a security key with your login.gov account, you must first have a security key that supports the [FIDO standard](https://fidoalliance.org/fido2/){:target="_blank"}. If you don’t currently have a login.gov account, you will be given the option to secure your account using a security key during account creation. Once you have confirmed your email address and created your password, select “Security key” and follow the instructions to give your key a nickname, connect the key to register it.
-
-      If you already have a login.gov account, you can add your security key by signing into your login.gov account. Go to [https://login.gov/](https://login.gov/){:target="_blank"} and click “manage account.” Sign in and select “Add hardware security key.” You will be prompted to give your security key a nickname, connect it, and press the button to register.
-
-      Each time you sign in to login.gov, we will ask you to use your security key. If you do not have your security key, you can also use any other authentication methods you have enabled. We recommend enabling multiple security keys and/or other two-factor methods so you don’t get locked out of your account.
-    security-key: |-
-      A security key is an authentication device that strengthens account security when used in addition to a password when signing in. Using a security key is better than receiving codes via phone call or text message because these codes can be phished or intercepted. When you use a security key to sign in, the key will check to make sure you are on the official login.gov website.
-
-      A security key is usually a piece of physical hardware, like a USB, that you can carry on your keychain. You can also use supporting software, such as a web browser extension or other services. When choosing a security key, look for compatibility with the [FIDO standard](https://fidoalliance.org/fido2/){:target="_blank"}.
     what-is-phishing: Phishing is when someone tries to trick you into sharing your
       password or other personal information online. Phishing is typically done through
       email, ads, or by sites that look similar to sites you already use. For example,

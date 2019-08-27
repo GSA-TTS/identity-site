@@ -141,7 +141,6 @@ help:
     i-got-an-error-message-when-i-added-an-email: Recibí un mensaje de error cuando agregue una dirección de correo electrónico a mi cuenta. ¿Qué debo hacer?
     how-do-i-delete-my-account: ¿Cómo borro mi cuenta?
   creating-an-account:
-    do-i-need-a-mobile-phone-to-use-logingov: "No tengo telefono ¿Puedo seguir usando login.gov?"
     how-to-create-an-account: "¿Cómo puedo crear una cuenta con login.gov?"
     no-phone-or-other-authentication-method: No tengo teléfono, aplicación de autenticación, clave de seguridad o ID de gobierno. ¿Puedo crear una cuenta de login.gov?
     how-do-i-verify-my-address-by-mail: "¿Cómo verifico mi dirección por correo?"
@@ -184,8 +183,6 @@ help:
       después de crear mi cuenta de login.gov e iniciar sesión?"
     why-is-sam-using-login-gov: "¿Por qué SAM utiliza login.gov?"
   security-keys:
-    do-i-need-to-set-up-a-security-key-to-use-logingov: "¿Necesito configurar una
-      clave de seguridad para usar login.gov?"
     how-do-i-protect-my-logingov-account-with-a-security-key: "¿Cómo protejo mi cuenta
       login.gov con una clave de seguridad?"
     security-key: "¿Qué es una clave de seguridad?"
@@ -344,10 +341,6 @@ help_pages:
 
       Si no puede recibir el código de seguridad porque ya no tiene acceso a su teléfono, deberá [iniciar sesión con su clave personal](site.baseurl/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods).
   creating-an-account:
-    do-i-need-a-mobile-phone-to-use-logingov: |-
-      login.gov requiere que todos los usuarios utilicen la autenticación de dos factores al crear una cuenta e iniciar sesión.
-
-      Incluso si no tiene un teléfono, todavía tiene una serie de opciones para un segundo factor. Puede elegir entre usar una aplicación de autenticación en su dispositivo, códigos de respaldo o una clave de seguridad. Si es un empleado del gobierno, también puede usar su identificación del gobierno (tarjeta PIV/CAC).
     how-to-create-an-account: |-
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
       Para crear una cuenta de login.gov, necesitará un email válido y un número de teléfono que funcione. También le pediremos que establezca una contraseña.
@@ -611,12 +604,6 @@ help_pages:
         - **¿Qué dirección de correo electrónico debo usar para crear una cuenta de login.gov?**
           Si ya es usuario de SAM, utilice la misma dirección de correo electrónico que registró en SAM.gov para que podamos vincular automáticamente su perfil de SAM.gov a su cuenta de login.gov. Si utiliza una dirección de correo electrónico diferente, no podremos vincular su perfil automáticamente.
   security-keys:
-    do-i-need-to-set-up-a-security-key-to-use-logingov: No necesita usar una clave
-      de seguridad para usar login.gov. Sin embargo, todas las cuentas login.gov deben
-      configurarse con un método de dos factores. Puede configurar la autenticación
-      de dos factores por llamada telefónica, mensaje de texto, aplicación de autenticación
-      o una clave de seguridad. Una clave de seguridad es el método de dos factores
-      más seguro.
     how-do-i-protect-my-logingov-account-with-a-security-key: |-
       Para configurar una clave de seguridad con su cuenta login.gov, primero debe tener una clave de seguridad que admita el [estándar FIDO](https://fidoalliance.org/fido2/){:target="_blank"}. Si actualmente no tiene una cuenta de login.gov, se le dará la opción de proteger su cuenta con una clave de seguridad durante la creación de la cuenta. Una vez que haya confirmado su dirección de correo electrónico y haya creado su contraseña, seleccione "Clave de seguridad" y siga las instrucciones para darle un apodo a su clave, conecte la clave para registrarla.
 
