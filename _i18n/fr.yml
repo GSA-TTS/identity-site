@@ -344,7 +344,7 @@ help_pages:
     change-my-phone-number: |-
       Pour changer le numéro de téléphone où vous recevez votre code de sécurité, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Gérer le compte » pour vous connecter à votre compte login.gov. Une fois connecté(e), sélectionnez « modifier » à côté du numéro de téléphone. Entrez le numéro de téléphone et sélectionnez « confirmer le changement ». login.gov vous enverra immédiatement votre code de sécurité pour confirmer le nouveau numéro de téléphone.
 
-      Si vous ne pouvez recevoir le code de sécurité parce que vous n'avez plus accès à votre téléphone, vous devrez [vous connecter en utilisant votre clé personnelle](site.baseurl/help/signing-in/phone-or-authentication-methods-not-available).
+      Si vous ne pouvez pas recevoir le code de sécurité parce que vous n'avez pas accès à votre téléphone, vous devrez vous connecter à l'aide de votre [clé personnelle](site.baseurl/help/creating-an-account/personal-key/), si une clé vous a été attribuée et qu'elle est toujours valide, ou à l'aide d'une autre [méthode d'authentification à deux facteurs](site.baseurl/help/creating-an-account/two-factor-authentication/) que vous avez déjà installer. 
   creating-an-account:
     security-key: |-
       Une clé de sécurité est un dispositif d'authentification qui renforce la sécurité du compte lorsqu'il est utilisé en plus d'un mot de passe lors de la connexion. L'utilisation d'une clé de sécurité est préférable à la réception de codes par appel téléphonique ou SMS, car ces codes peuvent être phishing ou interceptés. Lorsque vous utilisez une clé de sécurité pour vous connecter, cette clé vérifie que vous vous trouvez bien sur le site Web officiel login.gov.
@@ -398,7 +398,7 @@ help_pages:
       <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
 
       #### Application d’authentification
-      Pour utiliser une application d’authentification, vous devez d’abord installer une des applications prises en charge et la configurer pour qu’elle fonctionne avec login.gov. [En savoir plus sur la configuration d’une application d’authentification.](site.baseurl/help/changing-settings/authentication-application/)
+      Pour utiliser une application d’authentification, vous devez d’abord installer une des applications prises en charge et la configurer pour qu’elle fonctionne avec login.gov. [En savoir plus sur la configuration d’une application d’authentification.](site.baseurl/help/creating-an-account/authentication-application/)
       <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
 
       #### Clé de sécurité
@@ -785,7 +785,7 @@ help_pages:
 
       Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
     my-ttp-information-is-not-there: |-
-      Si vous souhaitez accéder à votre compte Trusted Traveler Programs (TTP), commencez toujours à l'adresse [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. Après avoir suivi les [instructions de création de compte](/help/creating-an-account/how-to-create-an-account/), vous serez renvoyé vers les informations de votre adhésion à TTP.
+      Si vous souhaitez accéder à votre compte Trusted Traveler Programs (TTP), commencez toujours à l'adresse [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. Après avoir suivi les [instructions de création de compte](site.baseurl/help/creating-an-account/how-to-create-an-account/), vous serez renvoyé vers les informations de votre adhésion à TTP.
 
       Si vous vous connectez directement depuis login.gov, vous verrez seulement les informations de votre compte login.gov et vous ne pourrez pas voir les informations de votre adhésion à TTP.
     reset-or-relink-my-logingov-account-for-ttp: |-
@@ -816,7 +816,7 @@ help_pages:
       4. Sélectionnez « Créer un compte ».
       5. Entrez votre adresse e-mail : il s'agit désormais de votre nouveau nom d'utilisateur.
       6. Attendez de recevoir un e-mail de confirmation et suivez les instructions indiquées dans le message.
-      7. Continuez le processus de création de compte comme indiqué ici : [https://login.gov/help/creating-an-account/how-to-create-an-account/](/help/creating-an-account/how-to-create-an-account/)
+      7. Continuez le processus de création de compte [comme indiqué ici](site.baseurl/help/creating-an-account/how-to-create-an-account/)
       8. Vous devriez voir une page ressemblant à ceci :
       <img src="site.baseurl/assets/img/created_acount.png" class="mt3 mb3 block" alt="Login.gov created account page" />
       9. Sélectionnez « Continuer » pour revenir au site web Trusted Traveler Programs.
@@ -824,7 +824,6 @@ help_pages:
       <img src="site.baseurl/assets/img/trusted_traveler_program.png" class="mt3 mb3 block" alt="Trusted traveler account profile" />
       11. Complétez vos informations sur cette page. Vous verrez une section en bas de la page pour les demandes précédentes. En-dessous de « Avez-vous déjà déposé une demande pour Global Entry, NEXUS ou SENTRI ? », sélectionnez « Oui ». Voici à quoi ressemble la page :
       <img src="site.baseurl/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
-      Si vous avez d'autres questions concernant la création d'un compte sur login.gov, veuillez consulter notre FAQ car notre centre d'appels reçoit un très grand nombre d'appels cette semaine : [https://login.gov/help/creating-an-account/how-to-create-an-account/](/help/creating-an-account/how-to-create-an-account/)
   usajobs:
     try-not-to-use-a-gov-mil-or-edu-email-address: |-
       Nous vous recommandons d'utiliser une adresse e-mail .gov, .mil ou .edu car si vous quittez votre poste au gouvernement, militaire ou dans un établissement d'enseignement, vous n'aurez plus accès à cette adresse e-mail. Sans accès à cette adresse e-mail, il sera beaucoup plus difficile de vérifier votre identité si vous devez réinitialiser votre mot de passe.
