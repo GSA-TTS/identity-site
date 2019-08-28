@@ -170,6 +170,7 @@ help:
     multiple-accounts-to-verifying-my-identity-for:
       Tengo más de una cuenta de login.gov ¿puedo verificar mi identidad en todas?
   privacy-and-security:
+    why-do-i-have-to-use-logingov: "¿Por qué tengo que usar login.gov para acceder a los servicios del Gobierno en línea?"
     how-does-logingov-protect-my-information: "¿Cómo protege login.gov mis datos?"
     does-logingov-share-my-information: "¿Compartirá login.gov mi información?"
     what-is-phishing: "¿Qué es el phishing?"
@@ -533,6 +534,10 @@ help_pages:
 
       [¿Cómo puedo volver a vincular mi perfil SAM después de eliminar mi cuenta login.gov?](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
   privacy-and-security:
+    why-do-i-have-to-use-logingov: |-
+      Las agencias del Gobierno deciden por sí mismas cómo quieren interactuar con el público. Usted fue enviado a login.gov porque el servicio o programa que desea utilizar ha optado por aprovechar la eficiencia y la seguridad de login.gov como una plataforma tecnológica compartida. Una vez que haya terminado en login.gov, será dirigido de regreso a la agencia.
+
+      Esperamos que login.gov sea una opción conveniente y segura para usted. Sin embargo, si prefiere no utilizar login.gov, siempre podrá acceder a los servicios gubernamentales. Encontrará más información en su agencia.
     what-is-phishing: El phishing es cuando alguien trata de engañarlo para que comparta
       su contraseña u otra información personal en línea. Por lo general, el phishing
       se realiza a través de correo electrónico, anuncios o sitios que se parecen
