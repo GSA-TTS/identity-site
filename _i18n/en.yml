@@ -157,7 +157,7 @@ help:
   verifying-your-identity:
     why-do-i-need-to-verify-my-identity: Why do I need to verify my identity?
     how-to-verify-my-identity: How to verify my identity
-    multiple-accounts-to-verifying-my-identity-for: Multiple accounts to verifying my identity for
+    multiple-accounts-to-verifying-my-identity-for: Multiple accounts to verify my identity for
     dont-have-a-state-issued-id: Don't have a state-issued ID
     phone-plan-is-not-in-my-name-or-address: Phone plan is not in my name or address
   privacy-and-security:
@@ -301,7 +301,6 @@ help_pages:
       Also, remember whenever you're online, check the address bar of any webpage you're visiting to make sure that you can trust them, especially any page that asks you to share a username and password. Be careful about sharing personal information such as your login credentials, financial information, or Social Security number over email.
   creating-an-account:
     how-to-create-an-account: |-
-      ### How do you create an account with login.gov?
       <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
       To create a login.gov account you’ll need a valid email address and a working phone number. We’ll also ask you to create a password.
 
