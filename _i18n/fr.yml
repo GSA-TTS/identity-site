@@ -130,122 +130,95 @@ global:
     fr: Français
 help:
   changing-settings:
-    remove-saved-password-from-browser: Puis-je supprimer
-      un mot de passe ou un identifiant sauvegardé de mon navigateur ?
-    turn-off-two-factor-authentication: Comment puis-je désactiver l'authentification
-      à deux facteurs ?
-    get-a-new-personal-key: Comment puis-je obtenir une clé personnelle?
-    change-my-email-address: Comment changer mon adresse courriel?
-    change-my-password: Comment changer mon mot de passe?
+    remove-saved-password-from-browser: Supprimer le mot de passe enregistré du navigateur
+    turn-off-two-factor-authentication: Arrêter l'authentification à deux facteurs
+    get-a-new-personal-key: Obtenir une nouvelle clé personnelle
+    change-my-email-address: Changer mon adresse électronique
+    change-my-password: Changer mon mot de passe
     how-do-i-change-the-phone-number-i-am-using-with-my-account: Comment changer le
       numéro de téléphone que j'utilise avec mon compte?
-    change-my-phone-number: Comment puis-je changer le
-      numéro de téléphone que j'utilise pour me connecter ?
-    add-or-remove-email-address: Comment ajouter ou supprimer une adresse email?
-    email-address-is-already-in-use: J'ai reçu un message d'erreur lorsque j'ai ajouté une adresse électronique à mon compte. Que dois-je faire?
-    delete-my-account: Comment puis-je supprimer mon compte?
+    change-my-phone-number: Changer mon numéro de téléphone
+    add-or-remove-email-address: Ajouter ou retirer une adresse électronique
+    email-address-is-already-in-use: L'adresse électronique est déjà en cours d'utilisation
+    delete-my-account: Supprimer mon compte
   creating-an-account:
-    security-key: Qu'est-ce qu'une clé de sécurité?
-    authentication-application: Comment puis-je configurer une appli d'authentification?
-    creating-a-strong-password: Comment puis-je choisir un mot de passe sûr ?
-    how-to-create-an-account: Comment créer un compte sur login.gov?
-    no-phone-or-other-authentication-method: Je n’ai pas de téléphone, d’application d’authentification, de clé de sécurité ou d’identité gouvernementale. Puis-je quand même créer un compte login.gov?
-    email-address-confirmation-not-received: Je n'ai pas reçu de courriel
-      de confirmation de login.gov.
-    email-address-is-already-in-use: Que dois-je
-      faire si un compte existe déjà avec mon adresse courriel?
-    personal-key: Quelle est ma clé personnelle?
+    security-key: Clé de sécurité
+    authentication-application: Appli d'authentification
+    creating-a-strong-password: Créer un mot de passe à forte sécurité
+    how-to-create-an-account: Comment créer un compte
+    no-phone-or-other-authentication-method: Pas de téléphone ou autre méthode d'authentification
+    email-address-confirmation-not-received: Confirmation de l'adresse e-mail non reçue
+    email-address-is-already-in-use: Adresse électronique déjà utilisée
+    personal-key: Clé personnelle 
     what-are-backup-codes: Quelles sont les codes de sauvegarde
-    two-factor-authentication: Qu'est-ce qu'une authentification à deux facteurs?
-    phone-didnt-get-a-security-code: Pourquoi n'ai-je pas
-      reçu de code de sécurité pour confirmer mon numéro de téléphone?
+    two-factor-authentication: Identification à deux facteurs 
+    phone-didnt-get-a-security-code: Mon téléphone n'a pas reçu le code de sécurité
     multiple-accounts-to-verifying-my-identity-for: Pourquoi dois-je
       utiliser login.gov pour accéder aux services en ligne du gouvernement?
-    email-address-confirmation-link-is-invalid: Pourquoi mon lien de confirmation n'est-il
-      pas valide?
+    email-address-confirmation-link-is-invalid: Le lien de confirmation de l'adresse e-mail est invalide
   verifying-your-identity:
-    phone-plan-is-not-in-my-name-or-address: Comment vérifier mon adresse par courrier?
-    why-do-i-need-to-verify-my-identity: Pourquoi dois-je vérifier mon identité?
-    how-to-verify-my-identity: Comment vérifier mon identité sur login.gov?
-    dont-have-a-state-issued-id: Je n'ai pas d'identifiant
-      délivré par l'État, puis-je quand même vérifier mon identité?
+    phone-plan-is-not-in-my-name-or-address: Le forfait de téléphone n'est pas à mon nom ou adresse
+    why-do-i-need-to-verify-my-identity: Pourquoi est-il nécessaire de vérifier mon identité?
+    how-to-verify-my-identity: Comment vérifier mon identité
+    dont-have-a-state-issued-id: Je n'ai pas de carte nationale d'identité
     multiple-accounts-to-verifying-my-identity-for:
-      J'ai plusieurs comptes login.gov, puis-je vérifier mon identité pour chacun d'entre eux?
+      Vérifier mon identité pour plusieurs comptes
   privacy-and-security:
-    why-do-i-have-to-use-logingov: Pourquoi dois-je utiliser login.gov pour accéder aux services en ligne du gouvernement?
-    how-does-logingov-protect-my-information: Comment login.gov protège-t-il mes données ?
-    does-logingov-share-my-information: login.gov partagera-t-il mes informations ?
-    what-is-phishing: Qu'est-ce que le phishing?
+    why-do-i-have-to-use-logingov: Pourquoi dois-je utiliser login.gov?
+    how-does-logingov-protect-my-information: Comment login.gov protège-t-il mes informations?
+    does-logingov-share-my-information: login.gov partage-t-il mes informations?
+    what-is-phishing: Qu'est-ce que le hameçonnage (phishing)?
   sam:
-    change-account-settings: Comment puis-je modifier les paramètres de mon compte ?
-    my-logingov-account-uses-a-different-email-address: Je possède déjà un compte login.gov mais l'adresse
-      e-mail est différente de mon adresse SAM.
-    my-email-address-used-for-sam-is-not-available: Que dois-je faire si je n'ai plus accès à l'adresse e-mail
-      que j'ai utilisée pour créer mon compte SAM.gov ?
-    reset-or-relink-my-logingov-account-for-sam: Comment puis-je rétablir le lien avec mon profil SAM après
-      avoir supprimé mon compte login.gov ?
-    cant-sign-in-or-reset-my-password-sam-account: Pourquoi ne puis-je pas m'identifier sur SAM.gov
-      à l'aide de mon nom d'utilisateur et de mon mot de passe ?
-    my-sam-information-is-not-there: Pourquoi ne puis-je pas voir les informations de mon
-      profil SAM après avoir créé mon compte login.gov et m'être identifié ?
-    why-sam-uses-logingov: Pourquoi SAM utilise-t-il login.gov ?
+    change-account-settings: Modifier les paramètres de modification du compte
+    my-logingov-account-uses-a-different-email-address: Mon compte login.gov utilise une adresse électronique différente
+    my-email-address-used-for-sam-is-not-available: L'e-mail utilisé pour SAM n'est pas disponible
+    reset-or-relink-my-logingov-account-for-sam: Réinitialiser ou relier mon compte login.gov à SAM
+    cant-sign-in-or-reset-my-password-sam-account: Je ne peux pas m'authentifier ou réinitialiser mon mot de passe (compte SAM)
+    my-sam-information-is-not-there: Mes informations SAM ne sont pas là
+    why-sam-uses-logingov: Pourquoi SAM utilise-t-il login.gov?
   security-keys:
     how-do-i-protect-my-logingov-account-with-a-security-key: Comment protéger mon
       compte login.gov avec une clé de sécurité?
   signing-in:
-    forgot-my-password: Comment puis-je réinitialiser mon mot de passe?
-    phone-or-authentication-methods-not-available: Comment me connecter si je n’ai pas mes méthodes d’authentification (téléphone, codes de sauvegarde, application d’authentification, etc.)?
+    forgot-my-password: J'ai oublié mon mot de passe
+    phone-or-authentication-methods-not-available: Téléphone ou modes d'authentification non disponibles
     i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: Je
       ne me rappelle pas de ma clé personnelle et je n'ai pas mon téléphone avec moi.
-    forgot-my-email-address: J'ai oublié quelle adresse
-      courriel j'ai utilisée pour créer un compte.
+    forgot-my-email-address: J'ai oublié mon adresse électronique
     if-i-dont-have-my-phone-with-me-can-i-still-sign-in: Si je n'ai pas mon téléphone
       avec moi, puis-je quand même me connecter?
-    reset-password-link-is-invalid: Mon lien de réinitialisation de mot de passe
-      n'est pas valide
+    reset-password-link-is-invalid: Le lien de réinitialisation du mot de passe est invalide
     what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: Que dois-je faire si mon
       mot de passe ne fonctionne pas ou si je l'ai oublié?
-    how-to-sign-in: De quoi ai-je besoin pour pouvoir me connecter?
+    how-to-sign-in: Comment s'identifier
     what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Que
       se produit-il si je manque l'appel téléphonique ou le message texte contenant
       mon code de sécurité à utilisation unique?
-    locked-out-of-account: Pourquoi l'accès à login.gov ne m'est-il pas
-      accordé?
-    reset-password-email-not-received: Pourquoi n'ai-je pas
-      reçu d'e-mail de réinitialisation de mot de passe de login.gov?
-    phone-didnt-get-a-security-code: Pourquoi n'ai-je pas reçu de code de sécurité ?
+    locked-out-of-account: Compte bloqué
+    reset-password-email-not-received: E-mail de réinitialisation de mot de passe non reçu
+    phone-didnt-get-a-security-code: Mon téléphone n'a pas reçu le code de sécurité
     why-does-the-system-log-me-out: Pourquoi le système me déconnecte-t-il?
-    personal-key-not-working: Pourquoi ma clé personnelle n'est-elle pas valide ?
-    security-code-not-working: Pourquoi mon code de sécurité n'est-il pas valide ?
+    personal-key-not-working: Mon clé personnelle ne fonctionne pas
+    security-code-not-working: Le code de sécurité ne fonctionne pas
   trusted-traveler-programs:
     i-have-another-question: J'ai une autre question
-    ttp-application-status: Quel est le statut de ma demande ?
-    do-i-need-to-pay-again: Dois-je payer de nouveau ?
-    whats-my-passid: Je ne connais pas mon PASSID.
-    family-member-accounts: Comment puis-je créer un compte login.gov pour un membre de ma
-      famille ?
-    will-my-ktn-known-traveler-number-change: Mon KTN (Known Traveler Number) changera-t-il ?
-    my-ttp-information-is-not-there: Lorsque je me connecte, je ne vois que les informations de mon
-      compte login.gov et je ne parviens pas à revenir sur le site Trusted Traveler
-      Programs.
-    reset-or-relink-my-logingov-account-for-ttp: Comment puis-je rétablir le lien avec mon profil Trusted Traveler
-      après avoir supprimé mon compte login.gov ?
-    scheduling-an-appointment: Pouvez-vous m'aider à prendre un rendez-vous ?
-    cant-sign-in-or-reset-my-password-goes-account: Je tente de me connecter, mais cela ne fonctionne pas/Je
-      tente de réinitialiser mon mot de passe, mais je ne reçois pas d'e-mail/Je n'ai
-      pas reçu d'e-mail de confirmation
+    ttp-application-status: État de la demande TTP
+    do-i-need-to-pay-again: Dois-je payer encore une fois?
+    whats-my-passid: Quel est mon PASSID?
+    family-member-accounts: Comptes des membres de la famille
+    will-my-ktn-known-traveler-number-change: Mon KTN (Known Traveler Number) changera-t-il?
+    my-ttp-information-is-not-there: Mes informations TTP ne sont pas là
+    reset-or-relink-my-logingov-account-for-ttp: Réinitialiser ou relier mon compte login.gov à TTP
+    scheduling-an-appointment: Agenda et rendez-vous
+    cant-sign-in-or-reset-my-password-goes-account: Je ne peux pas m'authentifier ou réinitialiser mon mot de passe (compte GOES)
   usajobs:
-    try-not-to-use-a-gov-mil-or-edu-email-address: Dois-je utiliser une adresse e-mail .gov, .mil ou .edu ?
-    cant-sign-in-or-reset-my-password-usajobs-account: Je tente de me connecter, mais cela ne
-      fonctionne pas/Je tente de réinitialiser mon mot de passe, mais je ne reçois
-      pas d'e-mail/Je n'ai pas reçu d'e-mail de confirmation
-    my-usajobs-information-is-not-there: Que dois-je faire si je ne vois pas l'information de mon
-      profil après avoir créé un compte login.gov ?
-    reset-or-relink-my-logingov-account-for-usajobs: J'ai perdu ma méthode d'authentification. Comment supprimer mon profil login.gov et en associer un nouveau à mon profil USAJOBS?
-    how-to-receive-the-security-code: De quoi ai-je besoin pour recevoir le code de sécurité login.gov ?
-    what-email-address-should-i-use: Quelle adresse e-mail dois-je utiliser pour créer
-      un compte login.gov ?
-    what-will-happen-to-my-usajobs-profile: Qu'adviendra-t-il de mon profil USAJOBS ?
+    try-not-to-use-a-gov-mil-or-edu-email-address: Essayer de ne pas utiliser une adresse électronique en .gov, .mil ou .edu
+    cant-sign-in-or-reset-my-password-usajobs-account: Je ne peux pas m'authentifier ou réinitialiser mon mot de passe (compte USAJOBS)
+    my-usajobs-information-is-not-there: Mes informations USAJOBS ne sont pas là
+    reset-or-relink-my-logingov-account-for-usajobs: Réinitialiser ou relier mon compte login.gov à USAJOBS
+    how-to-receive-the-security-code: Comment recevoir le code de sécurité
+    what-email-address-should-i-use: Quel adresse électronique dois-je utiliser?
+    what-will-happen-to-my-usajobs-profile: Que va devenir mon profil USAJOBS?
 help_page:
   p_1: Parcourir les sujets communs
 help_pages:
@@ -902,13 +875,13 @@ help_pages:
 
       Une fois que vous avez configuré un compte login.gov, nous le lierons à votre profil USAJOBS. L'unique différence est que vous utiliserez votre adresse e-mail, votre mot de passe et votre code de sécurité de login.gov pour vous connecter à USAJOBS.
 help_subpages:
-  changing-settings: Changement des paramètres
-  creating-an-account: Création d'un compte
-  verifying-your-identity: Vérifier votre identité
-  privacy-and-security: Confidentialité et sécurité
+  changing-settings: Changer les paramètres
+  creating-an-account: Créer un compte
+  verifying-your-identity: Vérification de votre identité
+  privacy-and-security: Vie privée et sécurité
   sam: SAM
   security-keys: Clés de sécurité
-  signing-in: Connexion
+  signing-in: S'identifier
   trusted-traveler-programs: Trusted Traveler Programs
   usajobs: USAJOBS
 implementation_page:
