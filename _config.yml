@@ -68,11 +68,10 @@ plugins:
 
 help_pages:
 - creating-an-account
-- identity-verification
+- verifying-your-identity
 - signing-in
 - changing-settings
 - privacy-and-security
-- security-keys
 - trusted-traveler-programs
 - usajobs
 - sam

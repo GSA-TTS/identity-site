@@ -1,6 +1,5 @@
 ---
-order: 20
-redirect_from: /help/usajobs/
+order: 5
 ---
 
 {% include help/translate_page.html url=page.url %}

@@ -1,6 +1,5 @@
 ---
-order: 1
-redirect_from: /help/security-keys/
+order: 8
 ---
 
 {% include help/translate_page.html url=page.url %}

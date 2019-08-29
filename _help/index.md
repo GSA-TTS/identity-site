@@ -13,6 +13,9 @@ links:
 #  - name: Identity verification
 #    url: /help/identity-verification/do-i-need-a-mobile-phone-to-use-logingov/
 #    img_url: /assets/img/lg-1425-identity-verfication.svg
+  - name: Verifying your identity
+    url: /help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
+    img_url: /assets/img/create-account-light.svg
   - name: Signing in
     url: /help/signing-in/i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me/
     img_url: /assets/img/sign-in-light.svg
@@ -22,9 +25,6 @@ links:
   - name: Privacy and security
     url: /help/privacy-and-security/can-i-remove-a-saved-password-or-login-information-from-my-browser/
     img_url: /assets/img/privacy-security-light.svg
-  - name: Security keys
-    url: /help/security-keys/what-is-a-security-key/
-    img_url: /assets/img/security-key-light.svg
   - name: Trusted Traveler Programs
     url: /help/trusted-traveler-programs/
     img_url: /assets/img/app.svg

@@ -1,6 +1,5 @@
 ---
-order: 90
-redirect_from: /help/trusted-traveler-programs/
+order: 9
 ---
 
 {% include help/translate_page.html url=page.url %}
