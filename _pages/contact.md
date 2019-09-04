@@ -14,8 +14,10 @@ description: meta.contact_us.description
 
 <div class="bg-white">
   <div class="container cntnr-wide px2 pt4 pb5">
+    <div class="sm-col-8 mb2">	
       {% include contact_form.html %}
       {{ site.translations[site.lang]["contact_page"]["content"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
   </div>
 </div>
+
