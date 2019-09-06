@@ -31,7 +31,7 @@ description: meta.partners.description
           {% t partners_page.section_2.p_1 %}
         </p>
         <p>
-          <a href="{{ '/partners/why-login-gov/' | relative_url }}" class="btn btn-primary btn-wide mb2">
+          <a href="{{ '/partners/our-agency-partners/' | relative_url }}" class="btn btn-primary btn-wide mb2">
             {% t partners_page.section_2.p_2.a_1 %}
           </a>
         </p>
