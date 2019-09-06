@@ -1,6 +1,6 @@
 ---
 title: meta.developers.title
-permalink: /developers/
+permalink: /partners/
 bg_color: bg-lightest-blue
 ---
 
