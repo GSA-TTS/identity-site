@@ -18,37 +18,52 @@ class: relative
       <nav id="pb-nav--side-cntnr" class="sm-col-right sm-col-4 sm-show">
         <ul id="pb-nav--side" class="list-reset nav">
           <li class="border-bottom nav-sidenav-item">
-            <a class="p2 block h6" href="#protecting">
+            <a class="p2 block h6" href="#team">
               {% t our-agency-partners_page.section_1.ul.li_1.a_1 %}
             </a>
           </li>
           <li class="border-bottom nav-sidenav-item">
-            <a class="p2 block h6" href="#consumer-identity">
+            <a class="p2 block h6" href="#partners">
               {% t our-agency-partners_page.section_1.ul.li_2.a_1 %}
             </a>
           </li>
           <li class="border-bottom nav-sidenav-item">
-            <a class="p2 block h6" href="#implementation">
+            <a class="p2 block h6" href="#states">
               {% t our-agency-partners_page.section_1.ul.li_3.a_1 %}
             </a>
           </li>
           <li class="border-bottom nav-sidenav-item">
-            <a class="p2 block h6" href="#resources">
+            <a class="p2 block h6" href="#benefits ">
               {% t our-agency-partners_page.section_1.ul.li_4.a_1 %}
             </a>
           </li>
         </ul>
       </nav>
       <div class="sm-col sm-col-8 sm-pr5">
-        <h2 id="protecting" class="mt0 mb1 pt2">
+        <h2 id="team" class="mt0 mb1 pt2">
           {% t our-agency-partners_page.section_2.heading_1 %}
         </h2><img alt="" class="mb2" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}" height="6">
         <p class="mb4 serif fs-20p">
           {% t our-agency-partners_page.section_2.p_1 %}
         </p>
-        <h3 class="mt0 mb2">
+         <h2 id="partners" class="mt0 mb1 pt2">
           {%t our-agency-partners_page.section_2.heading_2 %}
-        </h3>
+        </h2><img alt="" class="mb2" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}" height="6">
+        <p class="mb4 serif fs-20p">
+          {% t our-agency-partners_page.section_2.p_2 %}
+        </p>
+        <h2 id="states" class="mt0 mb1 pt2">
+        {%t our-agency-partners_page.section_2.heading_3 %}
+        </h2><img alt="" class="mb2" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}" height="6">
+        <p class="mb3 serif fs-20p">
+          {% t our-agency-partners_page.section_2.p_3 %}
+        </p>
+        <h2 id="states" class="mt0 mb1 pt2">
+        {%t our-agency-partners_page.section_2.heading_4 %}
+        </h2><img alt="" class="mb2" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}" height="6">
+        <p class="mb3 serif fs-20p">
+          {% t our-agency-partners_page.section_2.p_4 %}
+        </p>
         <ul class="mb3 pl2 ml2 serif teal">
           <li class="mb2">
             <span class="gray">
@@ -65,53 +80,22 @@ class: relative
               {%t our-agency-partners_page.section_2.ul_1.li_3 %}
             </span>
           </li>
-        </ul>
-        <h4 class="mt0 mb2">
-          {%t our-agency-partners_page.section_2.heading_3 %}
-        </h4>
-        <ul class="list-reset mb4 list-checked">
-          <li class="mb3 pl3">
-            <div class="mb1 serif bold">
-              {%t our-agency-partners_page.section_2.ul_2.li_1.content %}
-            </div>
-            <p class="h3">
-              {%t our-agency-partners_page.section_2.ul_2.li_1.p_1 %}
-            </p>
+          <li class="mb2">
+            <span class="gray">
+              {%t our-agency-partners_page.section_2.ul_1.li_4 %}
+            </span>
           </li>
-          <li class="mb3 pl3">
-            <div class="mb1 serif bold">
-              {%t our-agency-partners_page.section_2.ul_2.li_2.content %}
-            </div>
-            <p class="h3">
-              {%t our-agency-partners_page.section_2.ul_2.li_2.p_1 %}
-            </p>
+          <li class="mb2">
+            <span class="gray">
+              {%t our-agency-partners_page.section_2.ul_1.li_5 %}
+            </span>
           </li>
-          <li class="mb3 pl3">
-            <div class="mb1 serif bold">
-              {%t our-agency-partners_page.section_2.ul_2.li_3.content %}
-            </div>
-            <p class="h3">
-              {%t our-agency-partners_page.section_2.ul_2.li_3.p_1 %}
-            </p>
-          </li>
-          <li class="mb3 pl3">
-            <div class="mb1 serif bold">
-              {%t our-agency-partners_page.section_2.ul_2.li_4.content %}
-            </div>
-            <p class="h3">
-              {%t our-agency-partners_page.section_2.ul_2.li_4.p_1 %}
-            </p>
+          <li class="mb2">
+            <span class="gray">
+              {%t our-agency-partners_page.section_2.ul_1.li_6 %}
+            </span>
           </li>
         </ul>
-        <h3 class="mt0 mb2">
-          {%t our-agency-partners_page.section_2.heading_4 %}
-        </h3>
-        <p class="mb3 serif fs-20p">
-          {% t our-agency-partners_page.section_2.p_2 %}
-        </p>
-        <h4 class="mt0 mb2">
-          {%t our-agency-partners_page.section_2.heading_5 %}
-        </h4>
         <ul class="list-reset mb3 list-checked">
           <li class="mb3 pl3">
             <div class="mb1 serif bold">
@@ -122,99 +106,16 @@ class: relative
             </p>
           </li>
         </ul>
-        <h2 id="consumer-identity" class="mt0 mb1 pt2">
-          {% t our-agency-partners_page.section_2.heading_6 %}
-        </h2>
-        <img alt="" class="mb2" src="{{ '/assets/img/hr-red-5.svg' | prepend: site.baseurl }}" height="6">
-        <p class="mb5 serif fs-20p">
-          {% t our-agency-partners_page.section_2.p_3 %}
-        </p>
-        <h3 class="mt0 mb1">
-          {%t our-agency-partners_page.section_2.heading_7 %}
-        </h3>
-        <p class="mb3 h3">
-          {% t our-agency-partners_page.section_2.p_4 %}
-        </p>
-        <h3 class="mt0 mb1">
-          {% t our-agency-partners_page.section_2.heading_8 %}
-        </h3>
-        <p class="h3">
-          {% t our-agency-partners_page.section_2.p_5 %}
-        </p>
-        <p class="mb3 h3">
-          {% t our-agency-partners_page.section_2.p_6 %}
-        </p>
-        <h3 class="mt0 mb1">
-          {% t our-agency-partners_page.section_2.heading_9 %}
-        </h3>
-        <p class="mb3 h3">
-          {% t our-agency-partners_page.section_2.p_7 %}
-        </p>
-        <ul class="mt0 mb5 ml1 pl1 teal h3">
-          <li class="mb2">
-            <span class="gray">
-              <span class="bold">
-                {% t our-agency-partners_page.section_2.ul_4.li_1.span_1 %}
-              </span>
-              {% t our-agency-partners_page.section_2.ul_4.li_1.span_2 %}
-            </span>
-          </li>
-          <li class="mb2">
-            <span class="gray">
-              <span class="bold">
-                {% t our-agency-partners_page.section_2.ul_4.li_2.span_1 %}
-              </span>
-                {% t our-agency-partners_page.section_2.ul_4.li_2.span_2 %}
-              </span>
-          </li>
-          <li class="mb2">
-            <span class="gray">
-              <span class="bold">
-                {% t our-agency-partners_page.section_2.ul_4.li_3.span_1 %}
-              </span> 
-              {% t our-agency-partners_page.section_2.ul_4.li_3.span_2 %}
-            </span>
-          </li>
-        </ul>
-        <h2 id="implementation" class="mb2 pt2">
-          {% t our-agency-partners_page.section_2.heading_10 %}
-        </h2>
-        <img alt="" class="mb2" src="{{ '/assets/img/hr-red-6.svg' | prepend: site.baseurl }}" height="6">
-        <ul class="list-reset mb5 h3">
-          <li class="mb2">
-            <a href="https://pages.18f.gov/identity-dev-docs/" target="_blank">
-              {% t iour-agency-partners_page.section_2.ul_5.li_1.a_1 %}
-            </a>
-          </li>
-        </ul>
-        <h2 id="resources" class="mb2 pt2">
-          {% t iour-agency-partners_page.section_2.heading_11 %}
-        </h2>
-        <img alt="" class="mb2" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}" height="6">
-        <ul class="list-reset mb3 h3">
-          <li class="mb2">
-            <a href="https://pages.nist.gov/800-63-3/" target="_blank">
-              {% t our-agency-partners_page.section_2.ul_6.li_1.a_1 %}
-            </a> 
-            {% t our-agency-partners_page.section_2.ul_6.li_1.content %}
-          </li>
-          <li class="mb2">
-            <a href="https://playbook.cio.gov/#introduction" target="_blank">
-              {% t our-agency-partners_page.section_2.ul_6.li_2.a_1 %}
-            </a>
-          </li>
-          <li class="mb2">
-            <a href="https://github.com/18F/identity-idp" target="_blank">
-              {% t our-agency-partners_page.section_2.ul_6.li_3.a_1 %}
-            </a>
-          </li>
-          <li class="mb2">
-            <a href="https://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog" target="_blank">
-              {% t our-agency-partners_page.section_2.ul_6.li_4.a_1 %}
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
+  </div>
+</div>
+<div class="bg-lightest-blue">
+  <div class="container cntnr-wide px2 py3 center">
+    <h3 class="inline align-middle">{% t our-agency-partners_page.footer.heading %}</h3>
+    <span class="inline-block sm-px1 h1 blue align-middle line-height-1">▸</span>
+    <p class="m0 fs-20p inline align-middle" markdown="1">
+      {% t our-agency-partners_page.footer.p_1 %}
+    </p>
   </div>
 </div>
