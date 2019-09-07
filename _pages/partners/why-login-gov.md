@@ -37,7 +37,7 @@ class: relative
             {% t why-login-gov_page.heading_1 %}
           </h2>
           <img alt="" class="mb2" src="{{ '/assets/img/hr-red-3.svg' | prepend: site.baseurl }}" height="6">
-          <div class="mb3 pb2 border-bottom border-light-blue h3"> 
+          <div class="mb3 pb2 border-bottom border-light-blue h3">
             {{ site.translations[site.lang]["why-login-gov_page"]["p_1"] | replace: 'site.baseurl', site.baseurl | markdownify}}
           </div>
         </div>
