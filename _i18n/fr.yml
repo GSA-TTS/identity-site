@@ -113,8 +113,7 @@ developers_page:
     heading: Consultez le <br class="sm-show">code
   footer:
     heading: Nous joindre
-    p_1: Si vous souhaitez en savoir plus sur la plate-forme, veuillez envoyer un
-      courriel à [partners@login.gov](mailto:partners@login.gov).
+    p_1: Si vous souhaitez en savoir plus sur la plate-forme, [veuillez remplir ce formulaire](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e){:target="_blank"}.
   intro:
     a_1: Voir la documentation
     heading: Intégration facile et flexibilité
