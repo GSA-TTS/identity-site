@@ -93,37 +93,6 @@ contact_page:
       piv_cac: Problema con CAC (tarjeta de acceso común) o PIV (verificación de identidad
         personal)
       signing_in: Iniciando sesión
-developers_page:
-  column_1:
-    content:
-      p_1: Elija entre [IAL1 y IAL2](https://developers.login.gov/attributes/){:target="_blank"}
-        para [NIST 800-63-3](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf){:target="_blank"}.
-        Cuando cambiamos [políticas](https://pages.nist.gov/800-63-3/){:target="_blank"},
-        hacemos el trabajo para asegurar el cumplimiento.
-    heading: Cumplir con el cambio de orientación
-  column_2:
-    content:
-      p_1: Aproveche las bibliotecas de código reusable. Apoyamos tanto [OpenID Connect](https://developers.login.gov/openid-connect/){:target="_blank"}
-        como [SAML](https://developers.login.gov/saml/){:target="_blank"}. Comience
-        rápidamente con el código de integración de ejemplo en [Java](https://github.com/18F/identity-sp-java){:target="_blank"},
-        [Ruby](https://github.com/18F / Identity-sp-sinatra){:target="_blank"}, [Python](https://github.com/18F/identity-sp-python){:target="_blank"}
-        y [iOS](https://github.com/18F/identity-openidconnect-ios-client){:target="_blank"}.
-    heading: Reducir el tiempo de lanzamiento
-  column_3:
-    content:
-      p_1: Siga el desarrollo continuo de funciones, el mejoramiento de la experiencia
-        del usuario y las revisiones de seguridad en nuestro [repositorio de código
-        abierto](https://github.com/18F/identity-idp){:target="_blank"}.
-    heading: Mire el <br class="sm-show">código
-  footer:
-    a_1: Contáctenos
-    heading: Contáctenos
-    p_1: Si está interesado en aprender más sobre la plataforma, por favor
-  intro:
-    a_1: Ver la documentación
-    heading: Fácil integración y flexibilidad
-    p_1: Los protocolos estándar, las bibliotecas reusables y las revisiones continuas
-      de código abierto aceleran el desarrollo y lo ayudan a mantenerse en conformidad.
 footer:
   gsa: Administración General de Servicios de EE. UU.
 global:
