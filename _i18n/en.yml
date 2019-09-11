@@ -1027,7 +1027,7 @@ meta:
     title: '404'
   partners:
     description: We help government agencies manage, secure and optimize the login experience for their websites, services and applications.
-    title: Partner with Login.gov
+    title: Partner with login.gov
   playbook:
     description: Helping developers and technologists in government agencies build
       usable, secure, and privacy-protecting consumer identity management systems.
@@ -1094,11 +1094,11 @@ partners_page:
   section_2:
     heading_1: For federal agencies
     heading_2: Save time and money
-    heading_3: Try out Login.gov
+    heading_3: Try out login.gov
     p_1: Identity proofing and authentication for use by all government agencies, created by a federal agency.
     p_2:
       a_1: Become a partner
-    p_3: Login.gov is a shared government service that includes development and customer support. Plus we do the work to ensure compliance.
+    p_3: login.gov is a shared government service that includes development and customer support. Plus we do the work to ensure compliance.
     p_4:
       a_1: Learn more
     p_5: Developers can create a test application in our sandbox and try out a future integration.
