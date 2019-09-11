@@ -132,7 +132,7 @@ class: relative
             {% t why-login-gov_page.heading_7 %}
           </h2>
           <img alt="" class="mb2" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}" height="6">
-          <div class="mb3 pb2 h3">
+          <div class="mb3 pb2  h3">
             {{ site.translations[site.lang]["why-login-gov_page"]["p_8"] | replace: 'site.baseurl', site.baseurl | markdownify}}
           </div>
            <ul class="list-reset mb3 serif bold list-checked">
@@ -156,12 +156,14 @@ class: relative
             </li>
           </ul>
         </div>
+        <div class="mb3 pb2 border-bottom border-light-blue h3">
+        </div>
         <div class="mb2 pt2" id="security">
           <h2 id="mobile" class="mt0 mb1">
             {% t why-login-gov_page.heading_8 %}
           </h2>
           <img alt="" class="mb2" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}" height="6">
-          <div class="mb3 pb2 border-bottom border-light-blue h3">
+          <div class="mb3 pb2 h3">
             {{ site.translations[site.lang]["why-login-gov_page"]["p_9"] | replace: 'site.baseurl', site.baseurl | markdownify}}
           </div>
         </div>

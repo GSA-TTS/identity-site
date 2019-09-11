@@ -1061,7 +1061,7 @@ our-agency-partners_page:
   footer:
     heading: Contact us
     p_1: If you’re interested in learning more about the platform, please email [partners@login.gov](mailto:partners@login.gov).
-  heading: Become a Partner
+  heading: Our agency partners
   section_1:
     ul:
       li_1:
@@ -1379,8 +1379,8 @@ security_page:
       us](site.baseurl/contact). You can also visit our [open-source repository](https://github.com/18F/identity-idp){:target="_blank"}.
   heading: How login.gov keeps personal information private
 why-login-gov_page:
-  heading: Overview of login.gov
-  heading_1: Overview
+  heading: Why login.gov
+  heading_1: Overview of login.gov
   heading_2: Why login.gov
   heading_3: login.gov’s offerings
   heading_4: login.gov’s opportunity
