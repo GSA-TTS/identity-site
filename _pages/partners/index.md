@@ -100,7 +100,7 @@ description: meta.partners.description
           {% t partners_page.section_4.heading_3 %}
         </h2>
         <p class="mb3">
-          {% t partners_page.section_4.p_3 %}
+          {{ site.translations[site.lang]["partners_page"]["section_4"]["p_3"] | markdownify }}
         </p>
       </div>
       <div class="sm-col sm-col-6 px3">
