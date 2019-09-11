@@ -1,24 +1,10 @@
 # identity-site
 
-The static marketing site for login.gov
-
-## Branches
-
-`master` branch is published at https://www.login.gov
-
-## Publishing Workflow
-
-Branch off of `master` and make pull requests back to the `master` branch. Federalist will build a live preview for each branch  so we suggest using those builds as staging environments to run your proposed changes by the rest of the team.
-
-To view the preview URL for your branch click the federalist link in your pull request or modify the following URL to include your branch name:
-
-```
-https://federalist-proxy.app.cloud.gov/preview/18f/identity-site/{BRANCH}/
-```
+The static marketing site for [login.gov](https://login.gov).
 
 ## Development
 
-This is a Jekyll-built static site. To install dependencies:
+This is a Jekyll static site. To install dependencies, run:
 
 ```
 make setup
@@ -26,7 +12,7 @@ make setup
 
 To run locally in conjunction with [`identity-style-guide`](https://github.com/18F/identity-style-guide/), run the following commands:
 
-0. In the `identity-style-guide` directory, run `npm link`. This will create a symlink that will make changes to this repo accessible in `identity-site`
+- In the `identity-style-guide` directory, run `npm link`. This will create a symlink that will make changes to this repo accessible in `identity-site`
 
 Then, to start serving the site locally in development:
 
@@ -42,18 +28,28 @@ To run specs:
 make test
 ```
 
+## Publishing workflow
+
+Branch off of `master` and make pull requests back to the `master` branch. Federalist will build a live preview for each branch  so we suggest using those builds as staging environments to run your proposed changes by the rest of the team.
+
+To view the preview URL for your branch click the federalist link in your pull request or modify the following URL to include your branch name:
+
+```
+https://federalist-proxy.app.cloud.gov/preview/18f/identity-site/{BRANCH}/
+```
+
 ## Release
 
 This is the release process for www.login.gov, the [18F/identity-site](https://github.com/18F/identity-site) repo.
 
 ### Branches
 
-Branches in the [18F/identity-site](https://github.com/18F/identity-site) repo that are published:
+Branches in this repo that are published:
 
-| branch | URL | role |
-| ------ | --- | ---- |
-| `master` | https://preview.login.gov | preview (staging) |
-| `production` | https://www.login.gov | production |
+| branch       | URL                       | role              |
+| ------------ | ------------------------- | ----------------- |
+| `master`     | https://preview.login.gov | preview (staging) |
+| `production` | https://www.login.gov     | production        |
 
 ### Process
 
