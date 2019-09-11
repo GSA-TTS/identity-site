@@ -57,7 +57,7 @@ description: meta.partners.description
           {% t partners_page.section_2.p_5 %}
         </p>
         <p>
-          <a href="{{ 'https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e' | relative_url }}" class="btn btn-primary btn-wide mb2">
+          <a href="{{ 'https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e' | relative_url }}" class="btn btn-primary btn-wide mb2" target="_blank">
             {% t partners_page.section_2.p_6.a_1 %}
           </a>
         </p>

@@ -128,13 +128,13 @@ developers_page:
   column_3:
     content:
       p_1: Create a test application in our sandbox.
-    heading: Try out Login.gov 
+    heading: Try out Login.gov
   footer:
     heading: Contact us
     p_1: If you’re interested in learning more about the platform, please [fill out this form](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e){:target="_blank"}.
   intro:
     a_1: Get started
-    heading: 
+    heading:
     p_1:
 footer:
   gsa: U.S. General Services Administration
@@ -1117,7 +1117,7 @@ partners_page:
     p_4: We follow all accessibility standards and we comply with Section 508.
   footer:
     heading: Developer Resources
-    p_1: Check out our easy-to-use login.gov [developer guide](http://developers.login.gov).
+    p_1: Check out our easy-to-use login.gov [developer guide](http://developers.login.gov){:target="_blank"}.
 playbook_page:
   section_1:
     p_1: Identity management — or making sure that only the correct people get access
@@ -1412,7 +1412,7 @@ why-login-gov_page:
       li_2: it saves taxpayer funds by centralizing login as a shared government service,
       li_3: and provides a world-class customer experience for the public.
   ul_2:
-      li_1: One account for every federal government service they interact with 
+      li_1: One account for every federal government service they interact with
       li_2: A secure and private authentication experience with opt-in user consent
       li_3: An intuitive, delightful, and well designed user experience
       li_4: The convenience of identity verification from home
