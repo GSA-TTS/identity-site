@@ -14,7 +14,7 @@ contact_page:
     Check out answers to [common questions](site.baseurl/help). Still have a question or a problem?
 
     ## Partner with login.gov
-    If you’re a U.S. federal government agency interested in partnering with login.gov, please [visit our partners page](site.baseurl/partners){:target="_blank"}.
+    If you’re a U.S. federal government agency interested in partnering with login.gov, please [visit our partners page](site.baseurl/partners).
 
     ## Report a security issue
     If you’re a security researcher looking to report a vulnerability, please review our [vulnerability disclosure policy](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} and contact us using our [vulnerability disclosure form](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform){:target="_blank"}.
