@@ -167,6 +167,11 @@ class: relative
             {{ site.translations[site.lang]["why-login-gov_page"]["p_9"] | replace: 'site.baseurl', site.baseurl | markdownify}}
           </div>
         </div>
+        <div class="mb3 pb2 border-bottom border-light-blue h3">
+        </div>
+        <h2 id="mobile" class="mt0 mb1">
+          <a href="{{ site.baseurl }}/partners/learn">Learn more</a> about login.gov
+        </h2>
       </div>
     </div>
   </div>
