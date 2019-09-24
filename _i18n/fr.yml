@@ -36,6 +36,7 @@ contact_page:
       dans les plus brefs délais.
     form_helpers:
       select_one: "--Choisir un sujet--"
+      select_topic: "--Choisissez un sujet en premier--"
     labels:
       agency_application: Demande à une agence
       description: Description du problème
@@ -47,6 +48,7 @@ contact_page:
       topic: Sujet du problème
     submit: Soumettre
     subtopics:
+      add_family_member: Comment ajouter un membre de la famille à mon compte login.gov?
       agency_app: Problème avec l'appli de l'agence
       authentication_app: Appli d'authentification
       authentication_app_setup: Configuration de l'appli d'authentification
@@ -54,6 +56,7 @@ contact_page:
       change_password: Modifier le mot de passe
       change_phone_number: Modifier le numéro de téléphone
       delete_account: Supprimer le compte
+      device_notification: J'ai reçu une alerte concernant une nouvelle connexion sur mon compte login.gov
       email_delivery_issue: Problème de distribution des e-mails
       forgot_password: Mot de passe oublié
       international_number: Numéro international
@@ -71,8 +74,13 @@ contact_page:
       password_issue: Problème de mot de passe
       personal_key: Clé personnelle
       personal_key_setup: Configuration de la clé personnelle
+      personal_key_notification: J'ai reçu une alerte concernant l'utilisation de ma clé personnelle pour me connecter
+      piv_cac: Je n'arrive pas à utiliser mon PIV / CAC pour me connecter
       privacy_and_security: Confidentialité et sécurité
+      recover_account: Comment puis-je me connecter à mon compte si je n'ai pas mon téléphone ou ma clé personnelle?
       remember_device_issue: Problème pour se souvenir de l'appareil
+      security_code: Je ne reçois pas le code de sécurité
+      security_key: Je ne parviens pas à utiliser ma clé de sécurité pour me connecter
       service_quality: Qualité du service
       site_navigation: Navigation du site
       unwanted_otp: Multiples OTP

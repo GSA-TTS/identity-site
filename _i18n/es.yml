@@ -35,6 +35,7 @@ contact_page:
       responderemos pronto
     form_helpers:
       select_one: "--Elige un tema--"
+      select_topic: "--Elige un tema primero--"
     labels:
       agency_application: Aplicación de agencia
       description: Descripción del problema
@@ -46,6 +47,7 @@ contact_page:
       topic: Tema del asunto
     submit: Enviar
     subtopics:
+      add_family_member: ¿Cómo agrego un familiar a mi cuenta login.gov?
       agency_app: Problema con la aplicación de la agencia
       authentication_app: Aplicación de autenticación
       authentication_app_setup: Instalación de la aplicación de autenticación
@@ -53,6 +55,7 @@ contact_page:
       change_password: Cambiar contraseña
       change_phone_number: Cambiar número de teléfono
       delete_account: Eliminar cuenta
+      device_notification: Recibí una alerta sobre un nuevo inicio de sesión en mi cuenta login.gov
       email_delivery_issue: Problema con el envío de correos electrónicos
       forgot_password: Olvidé la contraseña
       international_number: Número internacional
@@ -70,8 +73,13 @@ contact_page:
       password_issue: Problema con la contraseña
       personal_key: Clave personal
       personal_key_setup: Configuración de la clave personal
+      personal_key_notification: Recibí una alerta sobre el uso de mi clave personal para iniciar sesión
+      piv_cac: Tengo problemas para usar mi PIV / CAC para iniciar sesión
       privacy_and_security: Privacidad y seguridad
+      recover_account: ¿Cómo inicio sesión en mi cuenta si no tengo mi teléfono o mi clave personal?
       remember_device_issue: Recordar problema con el dispositivo
+      security_code: No recibo el código de seguridad
+      security_key: Tengo problemas para usar mi clave de seguridad para iniciar sesión
       service_quality: Calidad del servicio
       site_navigation: Navegación en la página web
       unwanted_otp: Múltiples pedidos de pago
