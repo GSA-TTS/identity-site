@@ -150,11 +150,11 @@
 
 <h2>{% t contact_page.support_request_form.title %}</h2>
 <p>{% t contact_page.support_request_form.instructions %}</p>
-<!-- https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8 -->
-<form action="https://gsa-peo--PEOdV48DVn.cs32.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST"
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST"
       onSubmit="return remapvalues(this); return true;">
   <input type='hidden' name="retURL" value="http://login.gov" />
-  <input type='hidden' name="orgid" value="00Dr00000001dCa"/> <!--00DU0000000Leux" /-->
+  <input type='hidden' name="orgid" value="00DU0000000Leux" />
   <div class="lg-col lg-col-12 select">
     <label class='bold' for="00Nt0000000OYA2">{% t contact_page.support_request_form.labels.agency_application
       %}</label>
