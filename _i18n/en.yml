@@ -23,13 +23,14 @@ contact_page:
     For questions about the Trusted Traveler Programs (Global Entry, GOES, Sentri, or Nexus), [please contact CBP](https://help.cbp.gov/app/ask){:target="_blank"}.
   support_request_form:
     agencies:
-      cbp_jobs: CBP Jobs
-      cbp_roam: CBP ROAM
-      dot_nrcme: National Registry of Certified Medical Examiners
-      homes_mil: HOMES.mil
+      cbp_jobs: Customs and Border Protection Jobs
+      cbp_roam: Customs and Border Protection ROAM
+      dot_fcmsa: DOT FCMSA (Motor Carrier Safety)
+      dot_nrcme: DOT National Registry of Certified Medical Examiners
+      moves_mil: DOD Moves.mil (Homes or Office)
       other: Other
       railroad_retirement_board: Railroad Retirement Board
-      sam: SAM
+      sam: GSA Sam.gov
       trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
     instructions: Let us know a bit about the problem you’re experiencing and we’ll
