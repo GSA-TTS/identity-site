@@ -305,10 +305,10 @@ help_pages:
 
       Guarde su clave personal en un lugar seguro, ya que es la única manera de iniciar sesión si no puede recibir un código de seguridad. Entre las formas más adecuadas de conservar su clave personal se incluyen anotarla, tomar una captura de pantalla, pegarla en un documento seguro o imprimirla. Solo puede usar cada clave personal una sola vez, después de lo cual le daremos otra.
     change-my-email-address: Para cambiar la dirección de correo electrónico
-                               asociada con su cuenta de login.gov, vaya a [https://secure.login.gov/](https://secure.login.gov/)
-                               e inicie sesión en su cuenta login.gov. Haga clic en "Agregar correo electrónico" y continúe con
-                               el proceso de agregar su nueva dirección de correo electrónico. Luego, haga clic en "Eliminar" junto
-                               a la dirección de correo electrónico que está reemplazando y pase por el proceso de eliminación.
+      asociada con su cuenta de login.gov, vaya a [https://secure.login.gov/](https://secure.login.gov/)
+      e inicie sesión en su cuenta login.gov. Haga clic en "Agregar correo electrónico" y continúe con
+      el proceso de agregar su nueva dirección de correo electrónico. Luego, haga clic en "Eliminar" junto
+      a la dirección de correo electrónico que está reemplazando y pase por el proceso de eliminación.
 
       [Lea más sobre cómo agregar o eliminar una dirección de correo electrónico](site.baseurl/help/changing-settings/add-or-remove-email-address/)
     change-my-password: |-
@@ -1099,88 +1099,88 @@ playbook_page:
     p_4:
       a_1: Conozca más información sobre la implementación
 policies:
-  - section: Nuestras prácticas de privacidad
-    anchor: nuestras-prácticas-de-privacidad
-    content: |-
-      Este aviso de privacidad describe cómo pedimos, utilizamos, retenemos
-      y protegemos su información personal, así como su obligación de divulgarla.
+- section: Nuestras prácticas de privacidad
+  anchor: nuestras-prácticas-de-privacidad
+  content: |-
+    Este aviso de privacidad describe cómo pedimos, utilizamos, retenemos
+    y protegemos su información personal, así como su obligación de divulgarla.
 
-      Nuestro objetivo es proteger su información personal, y no la compartiremos
-      sin su permiso. Por ejemplo, encriptaremos su información personal en tránsito
-      y en reposo y pediremos su permiso antes de compartir sus datos con una agencia
-      asociada. Sin embargo, pueden haber circunstancias en las que somos requeridos
-      a compartir ciertos datos. Por ejemplo: si la información es relevante y necesaria
-      para un propósito autorizado en la aplicación de la ley, a fin de responder
-      a una violación, o para ayudar a otra agencia que responde a un incumplimiento.
-      Para obtener información adicional, consulte el [sistema de número de notificación
-      de registro GSA / TTS-1](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records){:target="_blank"} que el Servicio de Transformación
-      de Tecnología de GSA (TTS, sigla en inglés) publicó el 10 de agosto de 2017.
+    Nuestro objetivo es proteger su información personal, y no la compartiremos
+    sin su permiso. Por ejemplo, encriptaremos su información personal en tránsito
+    y en reposo y pediremos su permiso antes de compartir sus datos con una agencia
+    asociada. Sin embargo, pueden haber circunstancias en las que somos requeridos
+    a compartir ciertos datos. Por ejemplo: si la información es relevante y necesaria
+    para un propósito autorizado en la aplicación de la ley, a fin de responder
+    a una violación, o para ayudar a otra agencia que responde a un incumplimiento.
+    Para obtener información adicional, consulte el [sistema de número de notificación
+    de registro GSA / TTS-1](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records){:target="_blank"} que el Servicio de Transformación
+    de Tecnología de GSA (TTS, sigla en inglés) publicó el 10 de agosto de 2017.
 
-      ### Declaración de la Ley de Privacidad
+    ### Declaración de la Ley de Privacidad
 
-      #### Autoridades
-      La información que usted proporciona para acceder a su cuenta de login.gov es recogida
-      en conformidad con 6 USC § 1523 (b) (1) (A) - (E), la [Ley de Gobierno Electrónico de 2002
-      (44 USC § 3501)](https://www.gpo.gov/fdsys/pkg/PLAW-107publ347/html/PLAW-107publ347.htm){:target="_blank"},
-      Y 40 USC § 501.
+    #### Autoridades
+    La información que usted proporciona para acceder a su cuenta de login.gov es recogida
+    en conformidad con 6 USC § 1523 (b) (1) (A) - (E), la [Ley de Gobierno Electrónico de 2002
+    (44 USC § 3501)](https://www.gpo.gov/fdsys/pkg/PLAW-107publ347/html/PLAW-107publ347.htm){:target="_blank"},
+    Y 40 USC § 501.
 
-      #### Propósito
-      La información que usted envía se utiliza para crear o actualizar su cuenta de login.gov.
-      Una vez que creada su cuenta, con su consentimiento, login.gov compartirá su email con la
-      agencia asociada para proveer acceso en línea a información y servicios gubernamentales.
-      Además, si está accediendo a una aplicación gubernamental que requiere pruebas de
-      identidad, la información adicional que usted envíe se utilizara para verificar su identidad.
+    #### Propósito
+    La información que usted envía se utiliza para crear o actualizar su cuenta de login.gov.
+    Una vez que creada su cuenta, con su consentimiento, login.gov compartirá su email con la
+    agencia asociada para proveer acceso en línea a información y servicios gubernamentales.
+    Además, si está accediendo a una aplicación gubernamental que requiere pruebas de
+    identidad, la información adicional que usted envíe se utilizara para verificar su identidad.
 
-      #### Divulgación
-      Usted decide qué información nos da. Sin embargo, la falta de información
-      completa y precisa puede retrasar el acceso a la agencia asociada. La información
-      que usted entrega a login.gov será compartida con la agencia federal correspondiente
-      para proveer acceso a su información bajo el mantenimiento de la agencia, tal
-      como se describe en los correspondientes [sistemas de registros de avisos](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records){:target="_blank"}. Tenga en cuenta que el sistema login.gov
-      grabará cierta información a nivel de sesión en relación a su uso del servicio,
-      incluyendo pero no limitado a, tipo y versión del navegador web, y la duración
-      de su sesión. Esta información permite que login.gov comprenda mejor cómo el
-      sitio está siendo utilizando y cómo puede hacerse más útil.
+    #### Divulgación
+    Usted decide qué información nos da. Sin embargo, la falta de información
+    completa y precisa puede retrasar el acceso a la agencia asociada. La información
+    que usted entrega a login.gov será compartida con la agencia federal correspondiente
+    para proveer acceso a su información bajo el mantenimiento de la agencia, tal
+    como se describe en los correspondientes [sistemas de registros de avisos](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records){:target="_blank"}. Tenga en cuenta que el sistema login.gov
+    grabará cierta información a nivel de sesión en relación a su uso del servicio,
+    incluyendo pero no limitado a, tipo y versión del navegador web, y la duración
+    de su sesión. Esta información permite que login.gov comprenda mejor cómo el
+    sitio está siendo utilizando y cómo puede hacerse más útil.
 
-      #### Almacenamiento
-      Todos los registros se almacenan electrónicamente en una base de datos
-      en GSA [Amazon Web Services (AWS)](https://aws.amazon.com/){:target="_blank"}.
-      Usted puede modificar o corregir su email o número de teléfono, accediendo a
-      su cuenta. Debe elegir un email a través del cual desea recibir correspondencia
-      de cualquier agencia asociada cuyos servicios o información usted puede acceder.
-      El cambio de su email redireccionará toda la correspondencia por email con cualquier
-      agencia asociada.
+    #### Almacenamiento
+    Todos los registros se almacenan electrónicamente en una base de datos
+    en GSA [Amazon Web Services (AWS)](https://aws.amazon.com/){:target="_blank"}.
+    Usted puede modificar o corregir su email o número de teléfono, accediendo a
+    su cuenta. Debe elegir un email a través del cual desea recibir correspondencia
+    de cualquier agencia asociada cuyos servicios o información usted puede acceder.
+    El cambio de su email redireccionará toda la correspondencia por email con cualquier
+    agencia asociada.
 
-      Del mismo modo, usted debe elegir el número de un teléfono
-      al que tiene acceso para recibir y responder con la(s) contraseña(s) de sólo
-      un uso que se envían a ese número.
+    Del mismo modo, usted debe elegir el número de un teléfono
+    al que tiene acceso para recibir y responder con la(s) contraseña(s) de sólo
+    un uso que se envían a ese número.
 
-      Su email y número de teléfono se mantendrán
-      por al menos seis\naños de acuerdo con la Administración Nacional de Archivos
-      y Registros (NARA, sigla en inglés). Sin embargo, GSA está autorizado a mantener
-      la información por más tiempo si es necesario para el uso comercial. Login.gov
-      debe ser capaz de proporcionar a sus usuarios acceso a información y servicios
-      en agencias asociadas, y por lo tanto, puede tener una necesidad comercial para
-      retener la información por más tiempo que el período de retención de seis años.
+    Su email y número de teléfono se mantendrán
+    por al menos seis\naños de acuerdo con la Administración Nacional de Archivos
+    y Registros (NARA, sigla en inglés). Sin embargo, GSA está autorizado a mantener
+    la información por más tiempo si es necesario para el uso comercial. Login.gov
+    debe ser capaz de proporcionar a sus usuarios acceso a información y servicios
+    en agencias asociadas, y por lo tanto, puede tener una necesidad comercial para
+    retener la información por más tiempo que el período de retención de seis años.
 
-      ### Evaluación de Impacto de la Privacidad
-      Vea nuestra [Evaluación del impacto
-      sobre la privacidad](site.baseurl/docs/privacy-impact-assessment.pdf).
-  - section: Nuestras prácticas de seguridad
-    anchor: nuestras-prácticas-de-seguridad
-    content: |-
-      login.gov utiliza una variedad de métodos de autenticación para proteger este
-      servicio del Gobierno y sus datos, y para asegurar que el servicio permanezca disponible para todos los usuarios. Estos métodos incluyen el monitoreo y registro
-      de tráfico de red (cualquier dato que entra y sale de login.gov) para identificar intentos no autorizados de cambiar la información o de otra manera causar daño.
+    ### Evaluación de Impacto de la Privacidad
+    Vea nuestra [Evaluación del impacto
+    sobre la privacidad](site.baseurl/docs/privacy-impact-assessment.pdf).
+- section: Nuestras prácticas de seguridad
+  anchor: nuestras-prácticas-de-seguridad
+  content: |-
+    login.gov utiliza una variedad de métodos de autenticación para proteger este
+    servicio del Gobierno y sus datos, y para asegurar que el servicio permanezca disponible para todos los usuarios. Estos métodos incluyen el monitoreo y registro
+    de tráfico de red (cualquier dato que entra y sale de login.gov) para identificar intentos no autorizados de cambiar la información o de otra manera causar daño.
 
-      El acceso no autorizado o el uso de login.gov (por ejemplo, uso con fines criminales, o para causar daño, etc.) está en contra de la ley, y puede someterle a procesamiento penal y sanciones.
+    El acceso no autorizado o el uso de login.gov (por ejemplo, uso con fines criminales, o para causar daño, etc.) está en contra de la ley, y puede someterle a procesamiento penal y sanciones.
 
-      ### Política de divulgación de vulnerabilidades
+    ### Política de divulgación de vulnerabilidades
 
-      login.gov autoriza a la comunidad de seguridad externa a realizar investigación en seguridad con la intención de reportar vulnerabilidades de seguridad descubiertas en la plataforma login.gov.
+    login.gov autoriza a la comunidad de seguridad externa a realizar investigación en seguridad con la intención de reportar vulnerabilidades de seguridad descubiertas en la plataforma login.gov.
 
-      Vea nuestra [Política de divulgación de vulnerabilidades](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"}
-      Para obtener detalles sobre esta política y sobre cómo informar de las vulnerabilidades detectadas.
+    Vea nuestra [Política de divulgación de vulnerabilidades](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"}
+    Para obtener detalles sobre esta política y sobre cómo informar de las vulnerabilidades detectadas.
 policy_page:
   content:
     p_1: |-
