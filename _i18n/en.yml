@@ -167,13 +167,12 @@ help:
     why-do-i-need-to-use-logingov-to-access-government-services-online: Why do I need
       to use login.gov to access government services online?
     why-is-my-confirmation-link-invalid: Why is my confirmation link invalid?
-  identity-verification:
+  verifying-your-identity:
+    phone-plan-is-not-in-my-name-or-address: Phone plan is not in my name or address
     why-do-i-need-to-verify-my-identity: Why do I need to verify my identity?
-    how-do-i-verify-my-identity-on-logingov: How do I verify my identity on login.gov?
-    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: I do not have a
-      state-issued ID, can I still verify my identity?
-    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them:
-      I have more than one login.gov account, can I verify my identity for all of them?
+    how-to-verify-my-identity: How to verify my identity
+    dont-have-a-state-issued-id: Don't have a state-issued ID
+    multiple-accounts-to-verifying-my-identity-for: Multiple accounts to verify my identity for
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: Can I remove
       a saved password or login information from my browser?
@@ -479,14 +478,20 @@ help_pages:
       If the confirmation link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter.
 
       For additional help, [please submit a support ticket] (https://login.gov/contact).
-  identity-verification:
+  verifying-your-identity:
+    phone-plan-is-not-in-my-name-or-address: |-
+      If we cannot automatically verify your address, you must verify it by mail. This means that we will mail you a letter with a confirmation code that you must use to finish setting up your account.
+
+      You will receive the letter via U.S. Postal Service, three to five business days after the date when you request the code. The confirmation code will expire 30 days after the date when you submit your request.
+
+      If you do not receive your letter or your confirmation code expires before you finish the identity verification process, you can request a new confirmation code. To do so, sign in to the government application or to [https://secure.login.gov](https://secure.login.gov){:target="_blank"} and select “Send me a new confirmation code” when asked to enter your code.
     why-do-i-need-to-verify-my-identity: |-
       Some government applications that use login.gov require users to verify their identities. This means that you must prove that you are who you say you are. By doing this, we make sure that only the right people get access to sensitive information.
 
       You will only be asked to verify your identity the first time you sign in to certain government applications.
 
       You only need to verify your identity once for your login.gov account (after you verify your identity with login.gov for one government application, you don’t need to do it again for other government applications).
-    how-do-i-verify-my-identity-on-logingov: |-
+    how-to-verify-my-identity: |-
       If a government application requires identity verification, login.gov will ask you to verify your identity the first time you sign in to it. You will need to have your state-issued ID (like your driver’s license) or a picture of the front and the back of it. Use the following steps to verify your identity on login.gov:
       1. When you are signing in or creating an account, you will see the “We need to verify your identity” page. Click on “Get started”.
       <img src="site.baseurl/assets/img/verify-my-identity-1.png" class="mt3 mb3 block" />
@@ -513,11 +518,11 @@ help_pages:
       6. Re-enter your login.gov password
 
       If we are able to verify your identity, you will see a confirmation page and be able to enter the government application.
-    i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity: |-
+    dont-have-a-state-issued-id: |-
       At this time, you cannot verify your identity on login.gov without a state-issued ID. We’re currently working to add more ways to verify your identity.
 
       In the meantime, please contact your government application’s help center to find out what you can do.
-    i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them: |-
+    multiple-accounts-to-verifying-my-identity-for: |-
       You can only verify your identity for one account. If you have more than one login.gov account, you can combine them by deleting one account and then adding that email address to the other. Before you do this, remember that you will have to relink any government applications that were connected to the account(s) you are deleting. Also, you can only add a maximum of ten email addresses to a single login.gov account.
 
       Delete an account
@@ -534,11 +539,11 @@ help_pages:
 
       Related Articles:
 
-      [How do I relink my USAJOBS profile after deleting my login.gov account?](site.baseurl/help/usajobs/relink-my-profile)
+      [How do I relink my USAJOBS profile after deleting my login.gov account?](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
 
-      [How do I relink my Trusted Traveler profile after deleting my login.gov account?](site.baseurl/help/trusted-traveler-programs/relink-my-profile)
+      [How do I relink my Trusted Traveler profile after deleting my login.gov account?](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
 
-      [How do I relink my SAM profile after deleting my login.gov account?](site.baseurl/help/sam/relink-my-profile)
+      [How do I relink my SAM profile after deleting my login.gov account?](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
   privacy-and-security:
     can-i-remove-a-saved-password-or-login-information-from-my-browser: |-
       If you accidentally saved your login.gov password or other sign-in information in your browser, it's a good idea for you to delete it; this will help you keep your account more secure. From the following list, select the browser (the computer program you use to access the World Wide Web) you use to learn how to make it erase any saved information:
@@ -914,7 +919,7 @@ help_pages:
 help_subpages:
   changing-settings: Changing settings
   creating-an-account: Creating an account
-  identity-verification: Identity verification
+  verifying-your-identity: Verifying your identity
   privacy-and-security: Privacy & security
   sam: SAM
   security-keys: Security keys
