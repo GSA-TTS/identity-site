@@ -24,18 +24,14 @@ contact_page:
   support_request_form:
     agencies:
       cbp_jobs: CBP Jobs
-      cbp_roam: CBP Roam
-      dot_nrcme: DoT NRCME
-      dot_portal: DoT Portal
-      move_mil: Move.mil
-      my_cbp_employee_portal: MyCBP Employee Portal
-      nga: NGA
+      cbp_roam: CBP ROAM
+      dot_nrcme: National Registry of Certified Medical Examiners
+      homes_mil: HOMES.mil
       other: Other
       railroad_retirement_board: Railroad Retirement Board
-      sam: SAM.gov
-      trusted_traveler_program: Trusted Traveler Program
+      sam: SAM
+      trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
-      usss_pix: USSS PIX
     instructions: Let us know a bit about the problem you’re experiencing and we’ll
       get back to you soon
     form_helpers:
