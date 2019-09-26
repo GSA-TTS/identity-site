@@ -153,83 +153,86 @@
 
 <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
       method="POST" onSubmit="return remapvalues(this); return true;">
-    <input type='hidden' name="retURL" value="http://login.gov"/>
-    <input type='hidden' name="orgid" value="00DU0000000Leux" />
-    <div class="lg-col lg-col-12 select">
-        <label class='bold' for="00Nt0000000OYA2">{% t
-            contact_page.support_request_form.labels.agency_application %}</label>
-        <select class='block sm-col-6 mb2 field select required' id="00Nt0000000OYA2" name="00Nt0000000OYA2"
-                title="Agency Application">
-            <option value="" selected hidden>{% t contact_page.support_request_form.form_helpers.select_one %}
-            </option>
-            <option value="USAJOBS">{% t contact_page.support_request_form.agencies.usajobs %}</option>
-            <option value="Trusted Traveler Programs (Global Entry/Nexus/Sentri)">{% t
-                contact_page.support_request_form.agencies.trusted_traveler_program %}
-            </option>
-            <option value="DOT FCMSA (Motor Carrier Safety)">{% t contact_page.support_request_form.agencies.dot_fcmsa %}</option>
-            <option value="GSA Sam.gov">{% t contact_page.support_request_form.agencies.sam %}</option>
-            <option value="Customs and Border Protection Jobs">{% t contact_page.support_request_form.agencies.cbp_jobs %}</option>
-            <option value="DOT National Registry of Certified Medical Examiners">{% t
-                contact_page.support_request_form.agencies.dot_nrcme %}
-            </option>
-            <option value="Customs and Border Protection ROAM">{% t
-                contact_page.support_request_form.agencies.cbp_roam %}
-            </option>
-            <option value="DOD Moves.mil (Homes or Office)">{% t
-                contact_page.support_request_form.agencies.moves_mil %}</option>
-            <option value="Railroad Retirement Board">{% t
-                contact_page.support_request_form.agencies.railroad_retirement_board %}
-            </option>
-            <option value="Other">{% t contact_page.support_request_form.agencies.other %}</option>
-        </select>
-    </div>
+  <input type='hidden' name="retURL" value="http://login.gov"/>
+  <input type='hidden' name="orgid" value="00DU0000000Leux"/>
+  <div class="lg-col lg-col-12 select">
+    <label class='bold' for="00Nt0000000OYA2">{% t
+      contact_page.support_request_form.labels.agency_application %}</label>
+    <select class='block sm-col-6 mb2 field select required' id="00Nt0000000OYA2" name="00Nt0000000OYA2"
+            title="Agency Application">
+      <option value="" selected hidden>{% t contact_page.support_request_form.form_helpers.select_one %}
+      </option>
+      <option value="USAJOBS">{% t contact_page.support_request_form.agencies.usajobs %}</option>
+      <option value="Trusted Traveler Programs (Global Entry/Nexus/Sentri)">{% t
+        contact_page.support_request_form.agencies.trusted_traveler_program %}
+      </option>
+      <option value="DOT FCMSA (Motor Carrier Safety)">{% t contact_page.support_request_form.agencies.dot_fcmsa %}
+      </option>
+      <option value="GSA Sam.gov">{% t contact_page.support_request_form.agencies.sam %}</option>
+      <option value="Customs and Border Protection Jobs">{% t contact_page.support_request_form.agencies.cbp_jobs %}
+      </option>
+      <option value="DOT National Registry of Certified Medical Examiners">{% t
+        contact_page.support_request_form.agencies.dot_nrcme %}
+      </option>
+      <option value="Customs and Border Protection ROAM">{% t
+        contact_page.support_request_form.agencies.cbp_roam %}
+      </option>
+      <option value="DOD Moves.mil (Homes or Office)">{% t
+        contact_page.support_request_form.agencies.moves_mil %}
+      </option>
+      <option value="Railroad Retirement Board">{% t
+        contact_page.support_request_form.agencies.railroad_retirement_board %}
+      </option>
+      <option value="Other">{% t contact_page.support_request_form.agencies.other %}</option>
+    </select>
+  </div>
 
-    <div class="lg-col lg-col-12">
-        <div class="form-group required-field">
-            <label class='bold' for="email">{% t contact_page.support_request_form.labels.email %}</label>
-            <input class='bold field string sm-col-12 mb2 required' id="email" maxlength="80"
-                   name="email" type="text" placeholder="john.smith@example.com"
-                   pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
-                   title="Please enter an email address" required="true"/>
-        </div>
+  <div class="lg-col lg-col-12">
+    <div class="form-group required-field">
+      <label class='bold' for="email">{% t contact_page.support_request_form.labels.email %}</label>
+      <input class='bold field string sm-col-12 mb2 required' id="email" maxlength="80"
+             name="email" type="text" placeholder="john.smith@example.com"
+             pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
+             title="Please enter an email address" required="true"/>
     </div>
+  </div>
 
-    <div class="lg-col lg-col-12">
-        <div class="form-group">
-            <label class='bold' for="00NU0000004z90E">{% t contact_page.support_request_form.labels.phone %}</label>
-            <input class='bold field string sm-col-4 mb2 required' id="00NU0000004z90E" maxlength="40"
-                   name="00NU0000004z90E" placeholder="5556667777"
-                   type="text" pattern="^\d{3}[-. (]*\d{3}[-. (]*\d{4}$"
-                   title="Please enter a phone number in 5556667777 format"/>
-        </div>
+  <div class="lg-col lg-col-12">
+    <div class="form-group">
+      <label class='bold' for="00NU0000004z90E">{% t contact_page.support_request_form.labels.phone %}</label>
+      <input class='bold field string sm-col-4 mb2 required' id="00NU0000004z90E" maxlength="40"
+             name="00NU0000004z90E" placeholder="5556667777"
+             type="text" pattern="^\d{3}[-. (]*\d{3}[-. (]*\d{4}$"
+             title="Please enter a phone number in 5556667777 format"/>
     </div>
+  </div>
 
-    <div class="lg-col lg-col-12">
-        <div class="form-group required-field">
-            <label class='bold' for="00NU0000004z903">{% t contact_page.support_request_form.labels.topic %}</label>
-            <select class='block sm-col-8 mb2 field select required' id="00NU0000004z903" name="00NU0000004z903"
-                    title="Issue Topic" onchange="dynamicdropdown(this.options[this.selectedIndex].value);">\
-            </select><br/>
-        </div>
+  <div class="lg-col lg-col-12">
+    <div class="form-group required-field">
+      <label class='bold' for="00NU0000004z903">{% t contact_page.support_request_form.labels.topic %}</label>
+      <select class='block sm-col-8 mb2 field select required' id="00NU0000004z903" name="00NU0000004z903"
+              title="Issue Topic" onchange="dynamicdropdown(this.options[this.selectedIndex].value);">\
+      </select><br/>
     </div>
+  </div>
 
-    <div class="lg-col lg-col-12">
-        <div class="form-group">
-            <label class="bold" for="sub-topic">{% t contact_page.support_request_form.labels.subtopic %}</label>
-            <select class="block sm-col-10 mb2 field select required"
-                    id="sub-topic" name="00NU0000004z905" title="Issue Sub-Topic">
-            </select><br/>
-        </div>
+  <div class="lg-col lg-col-12">
+    <div class="form-group">
+      <label class="bold" for="sub-topic">{% t contact_page.support_request_form.labels.subtopic %}</label>
+      <select class="block sm-col-10 mb2 field select required"
+              id="sub-topic" name="00NU0000004z905" title="Issue Sub-Topic">
+      </select><br/>
     </div>
+  </div>
 
-    <div class="lg-col lg-col-12">
-        <label class='bold' for="description">{% t contact_page.support_request_form.labels.description %}</label>
-        <textarea class='bold field text sm-col-12 mb2 required' id='description' name="description" required="true"
-                  rows="5" cols="50" maxlength="32000"></textarea>
-    </div>
-    <input type="hidden" name="status" id="status" value="New"/>
-    <input type="hidden" id="external" name="external" value="1"/>
-    <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu"/>
-    <input class="btn btn-primary sm-col-3 btn-wide mt3 mb3" type="submit" name="submit"
-           value="{% t contact_page.support_request_form.submit %}"/>
+  <div class="lg-col lg-col-12">
+    <label class='bold' for="description">{% t contact_page.support_request_form.labels.description %}</label>
+    <textarea class='bold field text sm-col-12 mb2 required' id='description' name="description" required="true"
+              rows="5" cols="50" maxlength="32000"></textarea>
+  </div>
+  <input type="hidden" name="status" id="status" value="New"/>
+  <input type="hidden" id="external" name="external" value="1"/>
+  <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu"/>
+  <input class="btn btn-primary sm-col-3 btn-wide mt3 mb3" type="submit" name="submit"
+         value="{% t contact_page.support_request_form.submit %}"/>
 </form>
