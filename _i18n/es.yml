@@ -18,19 +18,16 @@ contact_page:
     Para preguntas acerca de crear una cuenta o iniciar sesión con login.gov, busque respuestas a preguntas comunes. Para otras preguntas, por favor contáctenos: [hello@login.gov](mailto:hello@login.gov). Tenga en cuenta que estamos experimentando un gran volumen de solicitudes, por lo que puede tardar varios días en comunicarnos con usted.
   support_request_form:
     agencies:
-      cbp_jobs: CBP Jobs
-      cbp_roam: CBP Roam
-      dot_nrcme: DoT NRCME
-      dot_portal: DoT Portal
-      move_mil: Move.mil
-      my_cbp_employee_portal: MyCBP Employee Portal
-      nga: NGA
+      cbp_jobs: Customs and Border Protection Jobs
+      cbp_roam: Customs and Border Protection ROAM
+      dot_fcmsa: DOT FCMSA (Motor Carrier Safety)
+      dot_nrcme: DOT National Registry of Certified Medical Examiners
+      moves_mil: DOD Moves.mil (Homes or Office)
       other: Other
       railroad_retirement_board: Railroad Retirement Board
-      sam: SAM.gov
-      trusted_traveler_program: Trusted Traveler Program
+      sam: GSA SAM.gov
+      trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
-      usss_pix: USSS PIX
     instructions: Cuéntanos un poco sobre el problema que estás experimentando y te
       responderemos pronto
     form_helpers:
@@ -795,7 +792,7 @@ help_pages:
       <img src="site.baseurl/assets/img/trusted_traveler_program.png" class="mt3 mb3 block" alt="Trusted traveler account profile" />
       11. Rellene su información en esa página, y en la parte inferior, verá una sección para solicitudes anteriores. En "¿Alguna vez ha hecho una solicitud en Global Entry, NEXUS o SENTRI?", seleccione "Sí". Tiene este aspecto:
       <img src="site.baseurl/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
-     
+
   usajobs:
     try-not-to-use-a-gov-mil-or-edu-email-address: |-
       Le recomendamos no utilizar una dirección de correo electrónico .gov, .mil o .edu, porque si abandona su puesto en el Gobierno, en el ejército o en la institución educativa, ya no tendrá acceso a esa dirección de correo electrónico. Sin acceso a esa dirección de correo electrónico, será mucho más difícil verificar su identidad, en caso de que necesite restablecer su contraseña.
@@ -1130,7 +1127,7 @@ policies:
     #### Propósito
     La información que usted envía se utiliza para crear o actualizar su cuenta de login.gov.
     Una vez que creada su cuenta, con su consentimiento, login.gov compartirá su email con la
-    agencia asociada para proveer acceso en línea a información y servicios gubernamentales. 
+    agencia asociada para proveer acceso en línea a información y servicios gubernamentales.
     Además, si está accediendo a una aplicación gubernamental que requiere pruebas de
     identidad, la información adicional que usted envíe se utilizara para verificar su identidad.
 
