@@ -159,7 +159,7 @@
     <label class='bold' for="00Nt0000000OYA2">{% t
       contact_page.support_request_form.labels.agency_application %}</label>
     <select class='block sm-col-6 mb2 field select required' id="00Nt0000000OYA2" name="00Nt0000000OYA2"
-            title="Agency Application">
+            title="Agency Application" required>
       <option value="" selected hidden>{% t contact_page.support_request_form.form_helpers.select_one %}
       </option>
       <option value="USAJOBS">{% t contact_page.support_request_form.agencies.usajobs %}</option>
@@ -190,10 +190,10 @@
   <div class="lg-col lg-col-12">
     <div class="form-group required-field">
       <label class='bold' for="email">{% t contact_page.support_request_form.labels.email %}</label>
-      <input class='bold field string sm-col-12 mb2 required' id="email" maxlength="80"
+      <input class='bold field string sm-col-12 mb2' id="email" maxlength="80"
              name="email" type="text" placeholder="john.smith@example.com"
              pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
-             title="Please enter an email address" required="true"/>
+             title="Please enter an email address" required/>
     </div>
   </div>
 
@@ -210,8 +210,8 @@
   <div class="lg-col lg-col-12">
     <div class="form-group required-field">
       <label class='bold' for="00NU0000004z903">{% t contact_page.support_request_form.labels.topic %}</label>
-      <select class='block sm-col-8 mb2 field select required' id="00NU0000004z903" name="00NU0000004z903"
-              title="Issue Topic" onchange="dynamicdropdown(this.options[this.selectedIndex].value);">\
+      <select class='block sm-col-8 mb2 field select' id="00NU0000004z903" name="00NU0000004z903"
+              title="Issue Topic" required onchange="dynamicdropdown(this.options[this.selectedIndex].value);">
       </select><br/>
     </div>
   </div>
@@ -219,7 +219,7 @@
   <div class="lg-col lg-col-12">
     <div class="form-group">
       <label class="bold" for="sub-topic">{% t contact_page.support_request_form.labels.subtopic %}</label>
-      <select class="block sm-col-10 mb2 field select required"
+      <select class="block sm-col-10 mb2 field select"
               id="sub-topic" name="00NU0000004z905" title="Issue Sub-Topic">
       </select><br/>
     </div>
@@ -227,7 +227,7 @@
 
   <div class="lg-col lg-col-12">
     <label class='bold' for="description">{% t contact_page.support_request_form.labels.description %}</label>
-    <textarea class='bold field text sm-col-12 mb2 required' id='description' name="description" required="true"
+    <textarea class='bold field text sm-col-12 mb2' id='description' name="description" required
               rows="5" cols="50" maxlength="32000"></textarea>
   </div>
   <input type="hidden" name="status" id="status" value="New"/>
