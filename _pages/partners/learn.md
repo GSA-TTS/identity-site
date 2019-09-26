@@ -93,7 +93,7 @@ login.gov is an offering of the General Services Administration, an agency of th
 
 ## Our agency partners and users
 
-login.gov is used by over 60 applications at 17 agencies including Cabinet level agencies such as the Department of Defense, Department of Homeland Security, Department of Energy, and the Department of Transportation. Over 16 million people have signed up to use login.gov, across all applications.
+login.gov is used by over 60 applications at 17 agencies including Cabinet level agencies such as the Department of Defense, Department of Homeland Security, Department of Energy, and the Department of Transportation. Over 17 million people have signed up to use login.gov, across all applications.
 
 ## Support for state and local governments and tribes
 
@@ -286,9 +286,9 @@ To determine the your user volume and pricing tier, we count the total number of
 
 Estimated user volume, which determines the pricing tier, will be determined when a new agency comes onto the platform and once per year thereafter. GSA will generate and submit invoices to each agency based on the actual user volume in the final quarter of the billing cycle as referenced in block 27 in the 7600B. Actual volume is measured as the aggregate total number of users present in the applications for an agency at the time of invoicing, which is at the conclusion of the PoP. A conservative estimate of user volume is used during the remainder of the billing cycle.
 
-## User attribute update notifications: Webhooks for user events
+## User attribute update notifications
 
-We currently offer notifications of user attribute updates via a webhook (HTTP push API)for account deletion events, as users may recreate their account if they are unable to successfully recover access. Documentation on how to establish subscription to our push notification service is available in our [developer documentation](https://developers.login.gov/push-notifications). Additional notifications of attributes updates will be added in the future.
+We offer push notifications to partner applications of user attribute updates using the Web Push Protocol. See our [developer documentation](https://developers.login.gov/push-notifications) for details.
 
 ## Messaging available to communicate to your users
 
