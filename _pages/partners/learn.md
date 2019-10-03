@@ -280,8 +280,6 @@ We also provide a Slack channel for agency partners to communicate with our team
 
 login.gov prices its service using a tiered-pricing model based on user volume that saves you money. There is a fixed price for each tier, with lower per user rates at higher volume tiers, resulting in bulk savings. Our tier pricing is dependent on whether your users are using identity proofing (IAL2/AAL2) or just authentication (IAL1/AAL2) services. User volume is calculated at the application level.
 
-To determine the your user volume and pricing tier, we count the total number of users that log into individual applications (via login.gov) within your agency during the Period of Performance (PoP) defined in the IAA.
-
 ## Billing
 
 Estimated user volume, which determines the pricing tier, will be determined when a new agency comes onto the platform and once per year thereafter. GSA will generate and submit invoices to each agency based on the actual user volume in the final quarter of the billing cycle as referenced in block 27 in the 7600B. Actual volume is measured as the aggregate total number of users present in the applications for an agency at the time of invoicing, which is at the conclusion of the PoP. A conservative estimate of user volume is used during the remainder of the billing cycle.
