@@ -22,7 +22,7 @@ contact_page:
       cbp_roam: Customs and Border Protection ROAM
       dot_fmcsa: DOT FMCSA (Motor Carrier Safety)
       dot_nrcme: DOT National Registry of Certified Medical Examiners
-      moves_mil: DOD Moves.mil (Homes or Office)
+      move_mil: DOD Move.mil (Homes or Office)
       other: Other
       railroad_retirement_board: Railroad Retirement Board
       sam: GSA SAM.gov
