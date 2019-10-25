@@ -1025,6 +1025,9 @@ meta:
     title: Implementation
   not_found:
     title: '404'
+  our-agency-partners:
+    description: Join the dozens of U.S. government agencies using login.gov. Learn more about how login.gov can benefit your agency.
+    title: Our agency partners
   partners:
     description: We help government agencies manage, secure and optimize the login experience for their websites, services and applications.
     title: Partner with login.gov
@@ -1043,6 +1046,9 @@ meta:
   security:
     description: Learn how login.gov keeps personal information private.
     title: Security
+  why-login-gov:
+    description: U.S. government agencies can take advantage of login.gov’s authentication and identity proofing platform. Find out more about login.gov’s offerings and opportunities.
+    title: Why login.gov
 nav:
   help: Help
   home: Home
