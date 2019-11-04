@@ -380,24 +380,27 @@ help_pages:
     what-are-backup-codes: |-
       Los códigos de respaldo son otro método de autenticación. Cuando elija usar los códigos de respaldo como su segundo factor, login.gov le generará una serie de 10 códigos. Después de que inicie sesión con su nombre de usuario y contraseña, se le pedirá un código. Cada código puede usarse una vez, y cuando se haya usado el décimo, se le pedirá que descargue una lista nueva. Trate sus códigos de recuperación con el mismo nivel de atención que le daría a su contraseña.
     personal-key: |-
-      Una clave personal es un código secreto de 16 caracteres que hemos generado históricamente como una forma de autenticación de dos factores [Lea más sobre la autenticación de dos factores aquí]
+      Una clave personal es un código secreto de 16 caracteres que login.gov le proporciona después de verificar su identidad. Se usa para cifrar sus datos (piense en ellos como una llave para su información secreta). No lo necesita cada vez que inicia sesión, pero lo necesitará si restablece su contraseña.
 
-      Solo puede usar su clave personal una vez. Recibirá una nueva clave personal cada vez que la use para iniciar sesión, y la antigua ya no funcionará. Recientemente, hemos comenzado el proceso de retirar las claves personales como una forma de autenticación de dos factores ya que tienden a perderse fácilmente. En su lugar, ahora los usuarios tienen una variedad de opciones para un segundo factor de autenticación, incluyendo los códigos de respaldo.
+      Recuerde, es la clave de su información personal, así que asegúrese de guardarla en un lugar seguro donde no pueda perderse ni ser robada.
 
-      Debido a que una clave personal es la única forma de recuperar su cuenta, asegúrese de guardarla en un lugar seguro. Entre algunas buenas formas de guardar su clave personal se incluyen escribirla, tomarle una captura de pantalla, pegarla en un documento seguro o imprimirla.
+      Nota: Solo obtendrá y necesitará una clave personal si verificó su identidad en su cuenta login.gov (solo algunas aplicaciones gubernamentales requieren verificación de identidad).
 
-      Si está creando una cuenta nueva, no se le asignará una clave personal. En lugar de ello, seleccione una de las opciones de autenticación de dos factores disponibles que se muestran.
+      **Necesita su clave personal si restablece su contraseña**
+      Para mantener su información segura, su contraseña y su clave personal son las dos únicas formas de descifrar sus datos (las dos únicas llaves para su información secreta).
+      - Si restablece su contraseña, deberá ingresar su clave personal.
+      - Si pierde tanto su contraseña como su clave personal, deberá verificar su identidad nuevamente.
 
-      <!---
-      TO ADD WHEN DEPLOYING DOCAUTH
-      Si se le asignó previamente una clave personal, aún puede usarla. Sin embargo, la próxima vez que use la clave personal, se le pedirá que seleccione una nueva forma de autenticación de dos factores, y se eliminará la opción de clave personal. Hasta que use su clave personal actual, aún estará activa y disponible para usted como una opción de dos factores.
+      **Las claves personales ya no se usan para 2FA**
+      En el pasado, les dimos a los usuarios una clave personal para usar como método de autenticación de dos factores. Fue una forma de iniciar sesión en su cuenta si perdió o cambió su número de teléfono. Sin embargo, ahora hemos eliminado la posibilidad de usar claves personales como método de autenticación porque se pierden o son robadas fácilmente.
 
-      A usted se le asigna una clave personal cuando completa su prueba de identificación. Solo puede usar su clave personal una vez. Recibirá una clave personal nueva cada vez que la use para iniciar sesión, y la antigua ya no funcionará.
+      Si aún tiene la opción de usar la clave personal para la autenticación de dos factores, se le pedirá que configure un método de autenticación diferente la próxima vez que inicie sesión. Puede elegir entre SMS por teléfono o llamada de voz, aplicación de autenticación, llave de seguridad , identificación de empleado gubernamental o militar (PIV / CAC), o códigos de respaldo. Después de configurar su nuevo método de autenticación, ya no podrá usar la clave personal como método de autenticación.
 
-      Debido a que una clave personal es la única forma de restablecer su contraseña mientras mantiene validada su identidad, asegúrese de guardarla en un lugar seguro. Entre algunas buenas formas de guardar su clave personal se incluyen escribirla, tomarle una captura de pantalla, pegarla en un documento seguro o imprimirla. Si olvida su clave personal, aún podrá recuperar su cuenta, pero debe pasar por el proceso de prueba otra vez.
-
-      [Obtenga más información sobre cómo iniciar sesión con su clave personal](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in)
-      -->
+      **Leer mas**
+      [Autenticación de dos factores](site.baseurl/help/creating-an-account/two-factor-authentication/)
+      [Mi clave personal no funciona](site.baseurl/help/signing-in/personal-key-not-working/)
+      [¿Qué es suplantación de identidad (phishing)?](site.baseurl/help/privacy-and-security/what-is-phishing/)
+      [¿Por qué necesito verificar mi identidad?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
     two-factor-authentication: Login.gov utiliza la autenticación de dos factores para mantener las cuentas seguras. Tal como lo indica su nombre, la autenticación de dos factores (a veces llamado 2FA) requiere dos métodos diferentes para iniciar sesión en una cuenta. Por lo general, esto significa ingresar una contraseña memorizada y un código de sólo un uso que es enviado a un dispositivo (como un teléfono) que usted posee. El requerimiento de dos métodos hace que la entrada forzada a su cuenta sea mucho más difícil.
     phone-didnt-get-a-security-code: |-
       Si no recibió un código de seguridad, revise si ingresó correctamente su número de teléfono.
@@ -676,9 +679,25 @@ help_pages:
       el código de seguridad que recibe en su teléfono. Los intentos fallidos se limitan
       a tres por sesión, seguido de un bloqueo de cinco minutos."
     personal-key-not-working: |-
-      Una clave personal es un código secreto de 16 caracteres que le proporcionamos cuando crea una cuenta. La clave personal es la única forma de iniciar sesión si pierde el acceso al dispositivo que utiliza para la autenticación de dos factores. Únicamente puede utilizar su clave personal una vez. Recibirá una nueva clave personal cada vez que la utilice para iniciar sesión, y la antigua ya no funcionará.
+      Una clave personal es un código secreto de 16 caracteres que login.gov le proporciona después de verificar su identidad. Si verificó su identidad en su cuenta y luego tuvo que restablecer su contraseña, se le pedirá su clave personal.
 
-      Si le dicen que su clave personal no es válida, o bien la ha escrito incorrectamente o ya la ha utilizado para iniciar sesión y ha dejado de ser válida. Si ya ha utilizado su clave personal para iniciar sesión, se le asignó una nueva que debe utilizar para iniciar sesión.
+      **Si su clave personal no funciona**
+      - Vuelva a verificar para asegurarse de haberlo ingresado correctamente. No se preocupe por los caracteres que son difíciles de distinguir (como O y 0), significan lo mismo para nosotros.
+      - Asegúrese de que sea su clave personal más reciente. Las claves personales solo se pueden usar una vez; si ya usó su clave una vez, le dimos una nueva.
+
+      Si aún no funciona, haga clic en el enlace en la parte inferior de la página para verificar su identidad nuevamente.
+
+      **Clave personal como método de autenticación**
+      En el pasado, también les dimos a los usuarios una clave personal para usar como método de autenticación de dos factores. Fue una forma de iniciar sesión en su cuenta si perdió o cambió su número de teléfono. Sin embargo, ahora hemos eliminado la posibilidad de usar claves personales como método de autenticación porque se pierden o son robadas fácilmente.
+
+      Si aún tiene la opción de usar una clave personal, es porque no ha iniciado sesión desde que realizamos el cambio. Después de iniciar sesión con su correo electrónico, contraseña y clave personal o contraseña de un solo uso enviada a su teléfono, deberá configurar otro método de autenticación. Puede elegir entre SMS o llamadas de voz por teléfono, aplicación de autenticación, llave de seguridad, identificación de empleado gubernamental o militar (PIV / CAC), o códigos de respaldo. Después de configurar su nuevo método de autenticación, no podrá volver a utilizar la clave personal como método de autenticación.
+
+      Si no tiene uno de sus métodos de autenticación para iniciar sesión, deberá [restablecer su cuenta](site.baseurl/help/signing-in/phone-or-authentication-methods-not-available/).
+
+
+      **Leer mas**
+      [Autenticación de dos factores](site.baseurl/help/creating-an-account/two-factor-authentication/)
+      [Cómo verificar mi identidad](site.baseurl/help/verifying-your-identity/how-to-verify-my-identity/)
     security-code-not-working: Cada vez que inicie sesión, deberá introducir
       un código de seguridad que se enviará a su teléfono mediante un mensaje de texto
       o una llamada telefónica. El código de seguridad que reciba caducará después
