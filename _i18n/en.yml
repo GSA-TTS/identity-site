@@ -420,12 +420,24 @@ help_pages:
 
       We recommend you store your codes in a safe manner. Like the security codes sent to your phone, backup codes are only valuable to someone if they manage to also steal your password.
 
-    two-factor-authentication: login.gov uses two-factor authentication to
-      keep accounts secure. As its name implies, two-factor authentication (sometimes
-      called 2FA), requires two different methods to sign into an account. Usually
-      this means entering a memorized password and a unique code sent to a device
-      (such as a phone) that you own. Requiring two methods makes breaking into your
-      account much harder.
+    two-factor-authentication: |-
+      login.gov uses two-factor authentication (2FA) to keep accounts secure. This means that, each time you sign in, you must use something you know and something you have. This makes your account safer by making it much harder for others to break into it.
+
+      1. The ‘something you know’ is your password. We’ll ask you to create a strong password (at least 12 characters long) when you create your account.
+
+
+      2. The ‘something you have’ is your two-factor authentication method. You’ll be able to choose between the following options when you create your account.
+        - Phone: Get security codes by text message (SMS) or phone call
+        - [Authentication app](site.baseurl/help/creating-an-account/authentication-application/): Get codes from an app on your phone, computer, or tablet
+        - [Security key](site.baseurl/help/creating-an-account/security-key/): Use a security key that you have. It’s a physical device that you plug in or that is built in to your computer or phone (it often looks like a USB flash drive).
+        - Government employee ID: Insert your government or military PIV or CAC card and enter your PIN
+        - Backup codes: We’ll give you 10 codes to use and keep in a safe place. You can use backup codes as your only authentication method, if you don’t have any of the other options.
+
+      We’ll ask you to set up at least two different two-factor authentication methods for your account. You won’t have to use both every time you sign in, but it helps make sure you don’t lose access to your account (for example, if you lose your phone and need to change your phone number).
+
+      **Read more**
+      [Phone didn’t get a security code](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
+      [No phone or other authentication method](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
     authentication-application: |-
       If you don’t want to receive security codes by text or phone call, you can set up an authentication app on your device to generate security codes.
         1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps.
