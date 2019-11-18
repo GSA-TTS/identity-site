@@ -431,13 +431,23 @@ help_pages:
       [Mon clé personnelle ne fonctionne pas](site.baseurl/help/signing-in/personal-key-not-working/)
       [Qu’est-ce que le hameçonnage (phishing)?](site.baseurl/help/privacy-and-security/what-is-phishing/)
       [Pourquoi est-il nécessaire de vérifier mon identité?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
-    two-factor-authentication: login.gov utilise une authentification à deux
-      facteurs pour maintenir les comptes sécurisés. Comme son nom l'indique, l'authentification
-      à deux facteurs (parfois appelée 2FA) requiert deux méthodes de connexion différentes
-      pour se connecter à un compte. Habituellement, cela signifie d'entrer un mot
-      de passe mémorisé et un code unique envoyé à un de vos appareils (comme un téléphone).
-      Percer la sécurité de votre compte est beaucoup plus difficile grâce à la combinaison
-      de ces deux méthodes.
+    two-factor-authentication: |-
+      login.gov utilise une authentification à deux facteurs (2FA) pour sécuriser les comptes. Cela signifie que chaque fois que vous vous connectez, vous devez utiliser quelque chose que vous connaissez et que vous possédez. Cela sécurise davantage votre compte en rendant beaucoup plus difficile l'accès des autres utilisateurs.
+
+      1. Le "quelque chose que vous savez" est votre mot de passe. Nous vous demanderons de créer un mot de passe fort (au moins 12 caractères) lors de la création de votre compte.
+
+      2. Le "quelque chose que vous avez" est votre méthode d'authentification à deux facteurs. Vous pouvez choisir parmi les options suivantes lors de la création de votre compte.
+        - Téléphone: Obtenez les codes de sécurité par SMS ou appel téléphonique
+        - [Application d'authentification](site.baseurl/help/creating-an-account/authentication-application/): Obtenez les codes d'une application sur votre téléphone, votre ordinateur ou votre tablette
+        - [Clé de sécurité](site.baseurl/help/creating-an-account/security-key/): Utilisez une clé de sécurité que vous avez. C'est un périphérique physique qui se connecte ou est intégré à votre ordinateur ou à votre téléphone (parfois, il ressemble à une clé USB).
+        - Identifiant d'employé gouvernemental: Insérez votre carte gouvernementale ou militaire PIV ou CAC et entrez votre NIP
+        - Codes de sauvegarde: Nous vous donnerons 10 codes à utiliser et à stocker dans un endroit sûr. Vous pouvez utiliser des codes de sauvegarde comme seule méthode d'authentification, si vous ne disposez d'aucune des autres options.
+
+      Nous vous demanderons de configurer au moins deux méthodes d'authentification de deux facteurs différents pour votre compte. Vous n'aurez pas à utiliser les deux à chaque fois que vous vous connecterez, mais cela vous aidera à ne pas perdre l'accès à votre compte (par exemple, si vous perdez votre téléphone et devez changer de numéro de téléphone).
+
+      **Lire plus**
+      [Mon téléphone n’a pas reçu le code de sécurité](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
+      [Pas de téléphone ou autre méthode d’authentification](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
     phone-didnt-get-a-security-code: |-
       Si vous n'avez pas reçu de code de sécurité, assurez-vous d'avoir inscrit votre numéro de téléphone correctement.
 

@@ -401,7 +401,24 @@ help_pages:
       [Mi clave personal no funciona](site.baseurl/help/signing-in/personal-key-not-working/)
       [¿Qué es suplantación de identidad (phishing)?](site.baseurl/help/privacy-and-security/what-is-phishing/)
       [¿Por qué necesito verificar mi identidad?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
-    two-factor-authentication: Login.gov utiliza la autenticación de dos factores para mantener las cuentas seguras. Tal como lo indica su nombre, la autenticación de dos factores (a veces llamado 2FA) requiere dos métodos diferentes para iniciar sesión en una cuenta. Por lo general, esto significa ingresar una contraseña memorizada y un código de sólo un uso que es enviado a un dispositivo (como un teléfono) que usted posee. El requerimiento de dos métodos hace que la entrada forzada a su cuenta sea mucho más difícil.
+    two-factor-authentication: |-
+      login.gov utiliza la autenticación de dos factores (2FA) para mantener las cuentas seguras. Esto significa que, cada vez que inicias sesión, necesitas usar algo que sabes y algo que tienes. Esto hace que tu cuenta sea más segura al hacer que sea mucho más difícil para que otros ingresen.
+
+      1. El "algo que sabes" es tu contraseña. Te pediremos que crees una contraseña segura (de al menos 12 caracteres) cuando crees tu cuenta.
+
+
+      2. El "algo que tiene" es tu método de autenticación de dos factores. Podrás elegir entre las siguientes opciones cuando crees tu cuenta.
+        - Teléfono: Obtener códigos de seguridad por mensaje de texto (SMS) o llamada telefónica
+        - [Aplicación de autenticación](site.baseurl/help/creating-an-account/authentication-application/): Obtener códigos de una aplicación en tu teléfono, computadora o tableta
+        - [Llave de seguridad](site.baseurl/help/creating-an-account/security-key/): Usa una llave de seguridad que tienes. Es un aparato físico que se conecta o que está integrado en tu computadora o teléfono (a veces parece como una unidad flash USB).
+        - Identificación del empleado del gobierno: Inserta tu tarjeta gubernamental o militar PIV o CAC e ingresa tu PIN
+        - Códigos de respaldo: Te daremos 10 códigos para usar y guardar en un lugar seguro. Puedes usar códigos de respaldo como tu único método de autenticación, si no tienes ninguna de las otras opciones.
+
+      Te pediremos que configures al menos dos métodos de autenticación de dos factores diferentes para tu cuenta. No tendrás que usar ambos cada vez que inicies sesión, pero ayuda a asegurarse que no pierdas acceso a tu cuenta (por ejemplo, si pierdes tu teléfono y necesitas cambiar tu número de teléfono).
+
+      **Lee mas**
+      [No recibí un código de seguridad al teléfono](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
+      [No tengo teléfono u otro método de autenticación](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
     phone-didnt-get-a-security-code: |-
       Si no recibió un código de seguridad, revise si ingresó correctamente su número de teléfono.
 
