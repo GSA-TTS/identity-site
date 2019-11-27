@@ -19,19 +19,16 @@ contact_page:
     Pour des questions sur la création d'un compte ou sur la connexion avec login.gov, recherchez des réponses aux questions courantes. Pour d'autres questions, veuillez nous contacter [hello@login.gov](mailto:hello@login.gov). N'oubliez pas que nous avons beaucoup de demandes afin de prendre plusieurs jours pour vous rappeler.
   support_request_form:
     agencies:
-      cbp_jobs: CBP Jobs
-      cbp_roam: CBP Roam
-      dot_nrcme: DoT NRCME
-      dot_portal: DoT Portal
-      move_mil: Move.mil
-      my_cbp_employee_portal: MyCBP Employee Portal
-      nga: NGA
+      cbp_jobs: Customs and Border Protection Jobs
+      cbp_roam: Customs and Border Protection ROAM
+      dot_fmcsa: DOT FMCSA (Motor Carrier Safety)
+      dot_nrcme: DOT National Registry of Certified Medical Examiners
+      move_mil: DOD Move.mil (Homes or Office)
       other: Other
       railroad_retirement_board: Railroad Retirement Board
-      sam: SAM.gov
-      trusted_traveler_program: Trusted Traveler Program
+      sam: GSA SAM.gov
+      trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
-      usss_pix: USSS PIX
     instructions: Décrivez-nous le problème que vous rencontrez et nous vous répondrons
       dans les plus brefs délais.
     form_helpers:
@@ -156,9 +153,9 @@ help:
     no-phone-or-other-authentication-method: Pas de téléphone ou autre méthode d'authentification
     email-address-confirmation-not-received: Confirmation de l'adresse e-mail non reçue
     email-address-is-already-in-use: Adresse électronique déjà utilisée
-    personal-key: Clé personnelle 
+    personal-key: Clé personnelle
     what-are-backup-codes: Quelles sont les codes de sauvegarde
-    two-factor-authentication: Identification à deux facteurs 
+    two-factor-authentication: Identification à deux facteurs
     phone-didnt-get-a-security-code: Mon téléphone n'a pas reçu le code de sécurité
     multiple-accounts-to-verifying-my-identity-for: Pourquoi dois-je
       utiliser login.gov pour accéder aux services en ligne du gouvernement?
@@ -324,7 +321,7 @@ help_pages:
     change-my-phone-number: |-
       Pour changer le numéro de téléphone où vous recevez votre code de sécurité, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Gérer le compte » pour vous connecter à votre compte login.gov. Une fois connecté(e), sélectionnez « modifier » à côté du numéro de téléphone. Entrez le numéro de téléphone et sélectionnez « confirmer le changement ». login.gov vous enverra immédiatement votre code de sécurité pour confirmer le nouveau numéro de téléphone.
 
-      Si vous ne pouvez pas recevoir le code de sécurité parce que vous n'avez pas accès à votre téléphone, vous devrez vous connecter à l'aide de votre [clé personnelle](site.baseurl/help/creating-an-account/personal-key/), si une clé vous a été attribuée et qu'elle est toujours valide, ou à l'aide d'une autre [méthode d'authentification à deux facteurs](site.baseurl/help/creating-an-account/two-factor-authentication/) que vous avez déjà installer. 
+      Si vous ne pouvez pas recevoir le code de sécurité parce que vous n'avez pas accès à votre téléphone, vous devrez vous connecter à l'aide de votre [clé personnelle](site.baseurl/help/creating-an-account/personal-key/), si une clé vous a été attribuée et qu'elle est toujours valide, ou à l'aide d'une autre [méthode d'authentification à deux facteurs](site.baseurl/help/creating-an-account/two-factor-authentication/) que vous avez déjà installer.
   creating-an-account:
     security-key: |-
       Une clé de sécurité est un dispositif d'authentification qui renforce la sécurité du compte lorsqu'il est utilisé en plus d'un mot de passe lors de la connexion. L'utilisation d'une clé de sécurité est préférable à la réception de codes par appel téléphonique ou SMS, car ces codes peuvent être phishing ou interceptés. Lorsque vous utilisez une clé de sécurité pour vous connecter, cette clé vérifie que vous vous trouvez bien sur le site Web officiel login.gov.
@@ -413,33 +410,44 @@ help_pages:
     what-are-backup-codes: Les codes de sauvegarde sont une autre méthode d’authentification. Lorsque vous choisissez d’utiliser les codes de sauvegarde comme deuxième facteur, login.gov génère un ensemble de 10 codes. Une fois connecté(e) avec votre nom d’utilisateur et votre mot de passe, on vous demandera un code. Chaque code peut être utilisé une fois, une fois le 10e code utilisé, on vous demandera de télécharger une nouvelle liste. Traitez vos codes de récupération avec le même niveau d’attention que vous auriez pour votre mot de passe.
 
     personal-key: |-
-      Une clé personnelle est un code secret de 16 caractères que nous nous générons depuis toujours comme une méthode d’authentification à deux facteurs. [En savoir plus sur l’authentification à deux facteurs ici]
+      Une clé personnelle est un code secret à 16 caractères que login.gov vous donne après vérification de votre identité. Elle est utilisée pour encoder vos données (pensez qu'il s'agit d'une clé pour vos informations secrètes). Vous n'en avez pas besoin à chaque fois que vous vous connectez, mais vous en aurez besoin si vous réinitialisez votre mot de passe.
 
-      Vous pouvez utiliser votre clé personnelle une fois seulement. Vous recevrez une nouvelle clé personnelle chaque fois où vous l’utilisez pour vous connecter et votre ancienne clé ne fonctionnera plus. Récemment, nous avons commencé le processus d’élimination des clés personnelles comme une méthode d’authentification à deux facteurs parce qu’elles se perdent facilement.
+      Rappelez-vous qu'il s'agit de la clé de vos renseignements personnels, alors assurez-vous de la conserver dans un endroit sûr où elle ne peut être perdue ou volée.
 
-      Au lieu de celles-ci, les utilisateurs ont maintenant une variété d’options pour un deuxième méthode d’authentification incluant les codes de sauvegarde.
+      Remarque: vous n'obtiendrez et n'aurez besoin d'une clé personnelle que si vous avez vérifié votre identité sur votre compte login.gov (seules certaines applications gouvernementales exigent une vérification d'identité).
 
-      Parce qu’une clé personnelle est la seule façon de récupérer votre compte, assurez-vous de la stocker en lieu sûr. De bonnes façons de stocker votre clé personnelle sont notamment de la prendre en note, faire une capture d’écran, la coller dans un document sécurisé ou l’imprimer.
+      **Vous aurez besoin de votre clé personnelle si vous réinitialisez votre mot de passe**
+      Pour protéger vos informations, votre mot de passe et votre clé personnelle sont les deux seules façons de déchiffrer vos données (les deux seules clés de vos informations secrètes).
+      - Si vous réinitialisez votre mot de passe, vous devrez entrer votre clé personnelle.
+      - Si vous perdez votre mot de passe et votre clé personnelle, vous devrez vérifier à nouveau votre identité.
 
-      Si vous créez un nouveau compte, on ne vous assignera pas de clé personnelle. Sélectionnez plutôt une des options d’authentification à deux facteurs offertes qui vous sont présentées.
+      **Les clés personnelles ne sont plus utilisées pour l'authentification à deux facteurs**
+      Dans le passé, nous donnions aux utilisateurs une clé personnelle à utiliser comme méthode d'authentification à deux facteurs. C'était une façon de vous connecter à votre compte si vous perdiez ou changiez de numéro de téléphone. Cependant, nous avons maintenant supprimé la possibilité d'utiliser les clés personnelles comme méthode d'authentification, car elles sont facilement perdues ou volées.
 
-      Si on vous a déjà assigné une clé personnelle, vous pouvez toujours l’utiliser. Cependant, la prochaine fois que vous utilisez la clé personnelle, on vous demandera de sélectionner une nouvelle méthode d’authentification à deux facteurs et l’option de clé personnelle sera éliminée. Jusqu’à ce que vous utilisiez votre clé personnelle, elle sera active et vous pourrez l’utiliser comme option d’authentification à deux facteurs.
+      Si vous avez toujours la possibilité d'utiliser la clé personnelle pour l'authentification à deux facteurs, il vous sera demandé de configurer une méthode d'authentification différente lors de votre prochaine connexion. Vous pouvez choisir entre SMS par téléphone ou appel vocal, application d'authentification, clé de sécurité, code d'identification d'employé du gouvernement ou militaire (PIV/CAC) ou codes de sauvegarde. Après avoir configuré votre nouvelle méthode d'authentification, vous ne pourrez plus utiliser la clé personnelle comme méthode d'authentification.
 
-      <!---
-      TO ADD WHEN DEPLOYING DOCAUTH
-      On vous assigne une clé personnelle lorsque vous effectuez la vérification de votre identification. Vous pouvez utiliser votre clé personnelle une fois seulement.  Vous recevrez une nouvelle clé personnelle chaque fois où vous vous connectez et votre ancienne ne fonctionnera plus.
+      **Lire plus**
+      [Identification à deux facteurs](site.baseurl/help/creating-an-account/two-factor-authentication/)
+      [Mon clé personnelle ne fonctionne pas](site.baseurl/help/signing-in/personal-key-not-working/)
+      [Qu’est-ce que le hameçonnage (phishing)?](site.baseurl/help/privacy-and-security/what-is-phishing/)
+      [Pourquoi est-il nécessaire de vérifier mon identité?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
+    two-factor-authentication: |-
+      login.gov utilise une authentification à deux facteurs (2FA) pour sécuriser les comptes. Cela signifie que chaque fois que vous vous connectez, vous devez utiliser quelque chose que vous connaissez et que vous possédez. Cela sécurise davantage votre compte en rendant beaucoup plus difficile l'accès des autres utilisateurs.
 
-      Parce qu’une clé personnelle est la seule façon de réinitialiser votre mot de passe tout en conservant la validation de votre identité, assurez-vous de la stocker en lieu sûr. De bonnes façons de stocker votre clé personnelle sont notamment de la prendre en note, faire une capture d’écran, la coller dans un document sécurisé ou l’imprimer. Si vous oubliez votre clé personnelle, vous serez en mesure de récupérer votre compte mais vous devez passer le processus de vérification de nouveau.
+      1. Le "quelque chose que vous savez" est votre mot de passe. Nous vous demanderons de créer un mot de passe fort (au moins 12 caractères) lors de la création de votre compte.
 
-      [En savoir plus sur la façon de vous connecter en utilisant votre clé personnelle](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in)
-      -->
-    two-factor-authentication: login.gov utilise une authentification à deux
-      facteurs pour maintenir les comptes sécurisés. Comme son nom l'indique, l'authentification
-      à deux facteurs (parfois appelée 2FA) requiert deux méthodes de connexion différentes
-      pour se connecter à un compte. Habituellement, cela signifie d'entrer un mot
-      de passe mémorisé et un code unique envoyé à un de vos appareils (comme un téléphone).
-      Percer la sécurité de votre compte est beaucoup plus difficile grâce à la combinaison
-      de ces deux méthodes.
+      2. Le "quelque chose que vous avez" est votre méthode d'authentification à deux facteurs. Vous pouvez choisir parmi les options suivantes lors de la création de votre compte.
+        - Téléphone: Obtenez les codes de sécurité par SMS ou appel téléphonique
+        - [Application d'authentification](site.baseurl/help/creating-an-account/authentication-application/): Obtenez les codes d'une application sur votre téléphone, votre ordinateur ou votre tablette
+        - [Clé de sécurité](site.baseurl/help/creating-an-account/security-key/): Utilisez une clé de sécurité que vous avez. C'est un périphérique physique qui se connecte ou est intégré à votre ordinateur ou à votre téléphone (parfois, il ressemble à une clé USB).
+        - Identifiant d'employé gouvernemental: Insérez votre carte gouvernementale ou militaire PIV ou CAC et entrez votre NIP
+        - Codes de sauvegarde: Nous vous donnerons 10 codes à utiliser et à stocker dans un endroit sûr. Vous pouvez utiliser des codes de sauvegarde comme seule méthode d'authentification, si vous ne disposez d'aucune des autres options.
+
+      Nous vous demanderons de configurer au moins deux méthodes d'authentification de deux facteurs différents pour votre compte. Vous n'aurez pas à utiliser les deux à chaque fois que vous vous connecterez, mais cela vous aidera à ne pas perdre l'accès à votre compte (par exemple, si vous perdez votre téléphone et devez changer de numéro de téléphone).
+
+      **Lire plus**
+      [Mon téléphone n’a pas reçu le code de sécurité](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
+      [Pas de téléphone ou autre méthode d’authentification](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
     phone-didnt-get-a-security-code: |-
       Si vous n'avez pas reçu de code de sécurité, assurez-vous d'avoir inscrit votre numéro de téléphone correctement.
 
@@ -719,9 +727,24 @@ help_pages:
 
       Le système vous déconnecte également si vous avez entré 3 fois de façon erronée le code de sécurité qui a été envoyé à votre téléphone. Les tentatives échouées sont limitées à 3 par session, suivies d'un verrouillage de l'accès de 5 minutes.
     personal-key-not-working: |-
-      Une clé personnelle est un code secret de 16 caractères que nous vous fournissons lorsque vous créez un compte. L'utilisation de la clé personnelle est le seul moyen de vous connecter si vous perdez l'accès à l'appareil que vous utilisez pour l'authentification à deux facteurs. Vous pouvez utiliser votre clé personnelle une fois seulement. Vous recevrez une nouvelle clé personnelle chaque fois où vous utiliserez la vôtre pour vous connecter et votre ancienne ne fonctionnera plus.
+      Une clé personnelle est un code secret à 16 caractères que login.gov vous donne après vérification de votre identité. Si vous avez vérifié votre identité sur votre compte et que vous avez ensuite dû réinitialiser votre mot de passe, on vous demandera votre clé personnelle.
 
-      Si on vous indique que votre clé personnelle n'est pas valide, vous l'avez saisie avec une erreur ou vous l'avez déjà utilisée pour vous connecter et elle n'est plus valide. Si avez déjà utilisé votre clé personnelle pour vous connecter, vous en avez reçu une nouvelle qui doit être utilisée pour vous connecter.
+      **Si votre clé personnelle ne fonctionne pas**
+      - Vérifiez deux fois pour vous assurer que vous l'avez entrée correctement. Ne vous inquiétez pas pour les caractères qui sont difficiles à distinguer (comme O et 0), ils ont la même valeur pour nous.
+      - Assurez-vous qu'il s'agit de votre clé personnelle la plus récente. Les clés personnelles ne peuvent être utilisées qu'une seule fois, donc si vous l'avez déjà utilisée une fois, nous vous en avons donné une nouvelle.
+
+      Si cela ne fonctionne toujours pas, cliquez sur le lien au bas de la page pour vérifier à nouveau votre identité.
+
+      **La clé personnelle comme méthode d'authentification**
+      Dans le passé, nous donnions également aux utilisateurs une clé personnelle à utiliser comme méthode d'authentification à deux facteurs. C'était une façon de vous connecter à votre compte si vous perdiez ou changiez de numéro de téléphone. Cependant, nous avons maintenant supprimé la possibilité d'utiliser les clés personnelles comme méthode d'authentification, car elles sont facilement perdues ou volées.
+
+      Si vous avez toujours la possibilité d'utiliser une clé personnelle, c'est parce que vous ne vous êtes pas connecté depuis que nous avons fait le changement. Après vous être connecté avec votre courriel, votre mot de passe et votre clé personnelle ou votre mot de passe unique envoyé à votre téléphone, vous devrez configurer une autre méthode d'authentification. Vous pouvez choisir entre SMS par téléphone ou appel vocal, application d'authentification, clé de sécurité, code d'identification d'employé du gouvernement ou militaire (PIV/CAC) ou codes de sauvegarde. Après avoir configuré votre nouvelle méthode d'authentification, vous ne pourrez plus utiliser votre clé personnelle comme méthode d'authentification.
+
+      Si vous n'avez pas l'une de vos méthodes d'authentification pour vous connecter, vous devrez [réinitialiser votre compte](site.baseurl/help/signing-in/phone-or-authentication-methods-not-available/).
+
+      **Lire plus**
+      [Identification à deux facteurs](site.baseurl/help/creating-an-account/two-factor-authentication/)
+      [Comment vérifier mon identité](site.baseurl/help/verifying-your-identity/how-to-verify-my-identity/)
     security-code-not-working: Chaque fois où vous vous connectez, vous devez
       soumettre un code de sécurité qui est envoyé à votre téléphone par SMS ou par
       appel téléphonique. Le code sécurité que vous recevez expire après 10 minutes

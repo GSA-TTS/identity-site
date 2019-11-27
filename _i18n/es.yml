@@ -18,19 +18,16 @@ contact_page:
     Para preguntas acerca de crear una cuenta o iniciar sesión con login.gov, busque respuestas a preguntas comunes. Para otras preguntas, por favor contáctenos: [hello@login.gov](mailto:hello@login.gov). Tenga en cuenta que estamos experimentando un gran volumen de solicitudes, por lo que puede tardar varios días en comunicarnos con usted.
   support_request_form:
     agencies:
-      cbp_jobs: CBP Jobs
-      cbp_roam: CBP Roam
-      dot_nrcme: DoT NRCME
-      dot_portal: DoT Portal
-      move_mil: Move.mil
-      my_cbp_employee_portal: MyCBP Employee Portal
-      nga: NGA
+      cbp_jobs: Customs and Border Protection Jobs
+      cbp_roam: Customs and Border Protection ROAM
+      dot_fmcsa: DOT FMCSA (Motor Carrier Safety)
+      dot_nrcme: DOT National Registry of Certified Medical Examiners
+      move_mil: DOD Move.mil (Homes or Office)
       other: Other
       railroad_retirement_board: Railroad Retirement Board
-      sam: SAM.gov
-      trusted_traveler_program: Trusted Traveler Program
+      sam: GSA SAM.gov
+      trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
-      usss_pix: USSS PIX
     instructions: Cuéntanos un poco sobre el problema que estás experimentando y te
       responderemos pronto
     form_helpers:
@@ -96,37 +93,6 @@ contact_page:
       piv_cac: Problema con CAC (tarjeta de acceso común) o PIV (verificación de identidad
         personal)
       signing_in: Iniciando sesión
-developers_page:
-  column_1:
-    content:
-      p_1: Elija entre [IAL1 y IAL2](https://developers.login.gov/attributes/){:target="_blank"}
-        para [NIST 800-63-3](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf){:target="_blank"}.
-        Cuando cambiamos [políticas](https://pages.nist.gov/800-63-3/){:target="_blank"},
-        hacemos el trabajo para asegurar el cumplimiento.
-    heading: Cumplir con el cambio de orientación
-  column_2:
-    content:
-      p_1: Aproveche las bibliotecas de código reusable. Apoyamos tanto [OpenID Connect](https://developers.login.gov/openid-connect/){:target="_blank"}
-        como [SAML](https://developers.login.gov/saml/){:target="_blank"}. Comience
-        rápidamente con el código de integración de ejemplo en [Java](https://github.com/18F/identity-sp-java){:target="_blank"},
-        [Ruby](https://github.com/18F / Identity-sp-sinatra){:target="_blank"}, [Python](https://github.com/18F/identity-sp-python){:target="_blank"}
-        y [iOS](https://github.com/18F/identity-openidconnect-ios-client){:target="_blank"}.
-    heading: Reducir el tiempo de lanzamiento
-  column_3:
-    content:
-      p_1: Siga el desarrollo continuo de funciones, el mejoramiento de la experiencia
-        del usuario y las revisiones de seguridad en nuestro [repositorio de código
-        abierto](https://github.com/18F/identity-idp){:target="_blank"}.
-    heading: Mire el <br class="sm-show">código
-  footer:
-    a_1: Contáctenos
-    heading: Contáctenos
-    p_1: Si está interesado en aprender más sobre la plataforma, por favor
-  intro:
-    a_1: Ver la documentación
-    heading: Fácil integración y flexibilidad
-    p_1: Los protocolos estándar, las bibliotecas reusables y las revisiones continuas
-      de código abierto aceleran el desarrollo y lo ayudan a mantenerse en conformidad.
 footer:
   gsa: Administración General de Servicios de EE. UU.
 global:
@@ -414,25 +380,45 @@ help_pages:
     what-are-backup-codes: |-
       Los códigos de respaldo son otro método de autenticación. Cuando elija usar los códigos de respaldo como su segundo factor, login.gov le generará una serie de 10 códigos. Después de que inicie sesión con su nombre de usuario y contraseña, se le pedirá un código. Cada código puede usarse una vez, y cuando se haya usado el décimo, se le pedirá que descargue una lista nueva. Trate sus códigos de recuperación con el mismo nivel de atención que le daría a su contraseña.
     personal-key: |-
-      Una clave personal es un código secreto de 16 caracteres que hemos generado históricamente como una forma de autenticación de dos factores [Lea más sobre la autenticación de dos factores aquí]
+      Una clave personal es un código secreto de 16 caracteres que login.gov le proporciona después de verificar su identidad. Se usa para cifrar sus datos (piense en ellos como una llave para su información secreta). No lo necesita cada vez que inicia sesión, pero lo necesitará si restablece su contraseña.
 
-      Solo puede usar su clave personal una vez. Recibirá una nueva clave personal cada vez que la use para iniciar sesión, y la antigua ya no funcionará. Recientemente, hemos comenzado el proceso de retirar las claves personales como una forma de autenticación de dos factores ya que tienden a perderse fácilmente. En su lugar, ahora los usuarios tienen una variedad de opciones para un segundo factor de autenticación, incluyendo los códigos de respaldo.
+      Recuerde, es la clave de su información personal, así que asegúrese de guardarla en un lugar seguro donde no pueda perderse ni ser robada.
 
-      Debido a que una clave personal es la única forma de recuperar su cuenta, asegúrese de guardarla en un lugar seguro. Entre algunas buenas formas de guardar su clave personal se incluyen escribirla, tomarle una captura de pantalla, pegarla en un documento seguro o imprimirla.
+      Nota: Solo obtendrá y necesitará una clave personal si verificó su identidad en su cuenta login.gov (solo algunas aplicaciones gubernamentales requieren verificación de identidad).
 
-      Si está creando una cuenta nueva, no se le asignará una clave personal. En lugar de ello, seleccione una de las opciones de autenticación de dos factores disponibles que se muestran.
+      **Necesita su clave personal si restablece su contraseña**
+      Para mantener su información segura, su contraseña y su clave personal son las dos únicas formas de descifrar sus datos (las dos únicas llaves para su información secreta).
+      - Si restablece su contraseña, deberá ingresar su clave personal.
+      - Si pierde tanto su contraseña como su clave personal, deberá verificar su identidad nuevamente.
 
-      <!---
-      TO ADD WHEN DEPLOYING DOCAUTH
-      Si se le asignó previamente una clave personal, aún puede usarla. Sin embargo, la próxima vez que use la clave personal, se le pedirá que seleccione una nueva forma de autenticación de dos factores, y se eliminará la opción de clave personal. Hasta que use su clave personal actual, aún estará activa y disponible para usted como una opción de dos factores.
+      **Las claves personales ya no se usan para 2FA**
+      En el pasado, les dimos a los usuarios una clave personal para usar como método de autenticación de dos factores. Fue una forma de iniciar sesión en su cuenta si perdió o cambió su número de teléfono. Sin embargo, ahora hemos eliminado la posibilidad de usar claves personales como método de autenticación porque se pierden o son robadas fácilmente.
 
-      A usted se le asigna una clave personal cuando completa su prueba de identificación. Solo puede usar su clave personal una vez. Recibirá una clave personal nueva cada vez que la use para iniciar sesión, y la antigua ya no funcionará.
+      Si aún tiene la opción de usar la clave personal para la autenticación de dos factores, se le pedirá que configure un método de autenticación diferente la próxima vez que inicie sesión. Puede elegir entre SMS por teléfono o llamada de voz, aplicación de autenticación, llave de seguridad , identificación de empleado gubernamental o militar (PIV / CAC), o códigos de respaldo. Después de configurar su nuevo método de autenticación, ya no podrá usar la clave personal como método de autenticación.
 
-      Debido a que una clave personal es la única forma de restablecer su contraseña mientras mantiene validada su identidad, asegúrese de guardarla en un lugar seguro. Entre algunas buenas formas de guardar su clave personal se incluyen escribirla, tomarle una captura de pantalla, pegarla en un documento seguro o imprimirla. Si olvida su clave personal, aún podrá recuperar su cuenta, pero debe pasar por el proceso de prueba otra vez.
+      **Leer mas**
+      [Autenticación de dos factores](site.baseurl/help/creating-an-account/two-factor-authentication/)
+      [Mi clave personal no funciona](site.baseurl/help/signing-in/personal-key-not-working/)
+      [¿Qué es suplantación de identidad (phishing)?](site.baseurl/help/privacy-and-security/what-is-phishing/)
+      [¿Por qué necesito verificar mi identidad?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
+    two-factor-authentication: |-
+      login.gov utiliza la autenticación de dos factores (2FA) para mantener las cuentas seguras. Esto significa que, cada vez que inicias sesión, necesitas usar algo que sabes y algo que tienes. Esto hace que tu cuenta sea más segura al hacer que sea mucho más difícil para que otros ingresen.
 
-      [Obtenga más información sobre cómo iniciar sesión con su clave personal](site.baseurl/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in)
-      -->
-    two-factor-authentication: Login.gov utiliza la autenticación de dos factores para mantener las cuentas seguras. Tal como lo indica su nombre, la autenticación de dos factores (a veces llamado 2FA) requiere dos métodos diferentes para iniciar sesión en una cuenta. Por lo general, esto significa ingresar una contraseña memorizada y un código de sólo un uso que es enviado a un dispositivo (como un teléfono) que usted posee. El requerimiento de dos métodos hace que la entrada forzada a su cuenta sea mucho más difícil.
+      1. El "algo que sabes" es tu contraseña. Te pediremos que crees una contraseña segura (de al menos 12 caracteres) cuando crees tu cuenta.
+
+
+      2. El "algo que tiene" es tu método de autenticación de dos factores. Podrás elegir entre las siguientes opciones cuando crees tu cuenta.
+        - Teléfono: Obtener códigos de seguridad por mensaje de texto (SMS) o llamada telefónica
+        - [Aplicación de autenticación](site.baseurl/help/creating-an-account/authentication-application/): Obtener códigos de una aplicación en tu teléfono, computadora o tableta
+        - [Llave de seguridad](site.baseurl/help/creating-an-account/security-key/): Usa una llave de seguridad que tienes. Es un aparato físico que se conecta o que está integrado en tu computadora o teléfono (a veces parece como una unidad flash USB).
+        - Identificación del empleado del gobierno: Inserta tu tarjeta gubernamental o militar PIV o CAC e ingresa tu PIN
+        - Códigos de respaldo: Te daremos 10 códigos para usar y guardar en un lugar seguro. Puedes usar códigos de respaldo como tu único método de autenticación, si no tienes ninguna de las otras opciones.
+
+      Te pediremos que configures al menos dos métodos de autenticación de dos factores diferentes para tu cuenta. No tendrás que usar ambos cada vez que inicies sesión, pero ayuda a asegurarse que no pierdas acceso a tu cuenta (por ejemplo, si pierdes tu teléfono y necesitas cambiar tu número de teléfono).
+
+      **Lee mas**
+      [No recibí un código de seguridad al teléfono](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
+      [No tengo teléfono u otro método de autenticación](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
     phone-didnt-get-a-security-code: |-
       Si no recibió un código de seguridad, revise si ingresó correctamente su número de teléfono.
 
@@ -710,9 +696,25 @@ help_pages:
       el código de seguridad que recibe en su teléfono. Los intentos fallidos se limitan
       a tres por sesión, seguido de un bloqueo de cinco minutos."
     personal-key-not-working: |-
-      Una clave personal es un código secreto de 16 caracteres que le proporcionamos cuando crea una cuenta. La clave personal es la única forma de iniciar sesión si pierde el acceso al dispositivo que utiliza para la autenticación de dos factores. Únicamente puede utilizar su clave personal una vez. Recibirá una nueva clave personal cada vez que la utilice para iniciar sesión, y la antigua ya no funcionará.
+      Una clave personal es un código secreto de 16 caracteres que login.gov le proporciona después de verificar su identidad. Si verificó su identidad en su cuenta y luego tuvo que restablecer su contraseña, se le pedirá su clave personal.
 
-      Si le dicen que su clave personal no es válida, o bien la ha escrito incorrectamente o ya la ha utilizado para iniciar sesión y ha dejado de ser válida. Si ya ha utilizado su clave personal para iniciar sesión, se le asignó una nueva que debe utilizar para iniciar sesión.
+      **Si su clave personal no funciona**
+      - Vuelva a verificar para asegurarse de haberlo ingresado correctamente. No se preocupe por los caracteres que son difíciles de distinguir (como O y 0), significan lo mismo para nosotros.
+      - Asegúrese de que sea su clave personal más reciente. Las claves personales solo se pueden usar una vez; si ya usó su clave una vez, le dimos una nueva.
+
+      Si aún no funciona, haga clic en el enlace en la parte inferior de la página para verificar su identidad nuevamente.
+
+      **Clave personal como método de autenticación**
+      En el pasado, también les dimos a los usuarios una clave personal para usar como método de autenticación de dos factores. Fue una forma de iniciar sesión en su cuenta si perdió o cambió su número de teléfono. Sin embargo, ahora hemos eliminado la posibilidad de usar claves personales como método de autenticación porque se pierden o son robadas fácilmente.
+
+      Si aún tiene la opción de usar una clave personal, es porque no ha iniciado sesión desde que realizamos el cambio. Después de iniciar sesión con su correo electrónico, contraseña y clave personal o contraseña de un solo uso enviada a su teléfono, deberá configurar otro método de autenticación. Puede elegir entre SMS o llamadas de voz por teléfono, aplicación de autenticación, llave de seguridad, identificación de empleado gubernamental o militar (PIV / CAC), o códigos de respaldo. Después de configurar su nuevo método de autenticación, no podrá volver a utilizar la clave personal como método de autenticación.
+
+      Si no tiene uno de sus métodos de autenticación para iniciar sesión, deberá [restablecer su cuenta](site.baseurl/help/signing-in/phone-or-authentication-methods-not-available/).
+
+
+      **Leer mas**
+      [Autenticación de dos factores](site.baseurl/help/creating-an-account/two-factor-authentication/)
+      [Cómo verificar mi identidad](site.baseurl/help/verifying-your-identity/how-to-verify-my-identity/)
     security-code-not-working: Cada vez que inicie sesión, deberá introducir
       un código de seguridad que se enviará a su teléfono mediante un mensaje de texto
       o una llamada telefónica. El código de seguridad que reciba caducará después
@@ -795,7 +797,7 @@ help_pages:
       <img src="site.baseurl/assets/img/trusted_traveler_program.png" class="mt3 mb3 block" alt="Trusted traveler account profile" />
       11. Rellene su información en esa página, y en la parte inferior, verá una sección para solicitudes anteriores. En "¿Alguna vez ha hecho una solicitud en Global Entry, NEXUS o SENTRI?", seleccione "Sí". Tiene este aspecto:
       <img src="site.baseurl/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
-     
+
   usajobs:
     try-not-to-use-a-gov-mil-or-edu-email-address: |-
       Le recomendamos no utilizar una dirección de correo electrónico .gov, .mil o .edu, porque si abandona su puesto en el Gobierno, en el ejército o en la institución educativa, ya no tendrá acceso a esa dirección de correo electrónico. Sin acceso a esa dirección de correo electrónico, será mucho más difícil verificar su identidad, en caso de que necesite restablecer su contraseña.
@@ -1130,7 +1132,7 @@ policies:
     #### Propósito
     La información que usted envía se utiliza para crear o actualizar su cuenta de login.gov.
     Una vez que creada su cuenta, con su consentimiento, login.gov compartirá su email con la
-    agencia asociada para proveer acceso en línea a información y servicios gubernamentales. 
+    agencia asociada para proveer acceso en línea a información y servicios gubernamentales.
     Además, si está accediendo a una aplicación gubernamental que requiere pruebas de
     identidad, la información adicional que usted envíe se utilizara para verificar su identidad.
 

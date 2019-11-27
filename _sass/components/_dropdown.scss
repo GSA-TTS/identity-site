@@ -29,6 +29,7 @@ $dropdown-min-width: 125px;
       padding: 0;
       position: absolute;
       transition: all .1s;
+      white-space: nowrap;
       visibility: hidden;
 
       a {
