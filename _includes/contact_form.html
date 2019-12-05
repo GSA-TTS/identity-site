@@ -142,12 +142,23 @@
     }
 
     window.onload = populatetopics;
+
+
+    function doNotAnswer() {
+      const noAnswer = document.querySelector("#contact-us-form #information");
+      if (noAnswer) {
+        noAnswer.removeAttribute('required');
+        noAnswer.parentElement.style.position='absolute';
+        noAnswer.parentElement.style.left='7000px';
+      }
+    }
+    document.addEventListener('DOMContentLoaded', doNotAnswer);
 </script>
 
 <h2>{% t contact_page.support_request_form.title %}</h2>
 <p>{% t contact_page.support_request_form.instructions %}</p>
 
-<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
+<form id="contact-us-form" action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
       method="POST" onSubmit="return remapvalues(this); return true;">
   <input type='hidden' name="retURL" value="http://login.gov"/>
   <input type='hidden' name="orgid" value="00DU0000000Leux"/>
@@ -231,6 +242,13 @@
     <textarea class='bold field text sm-col-12 mb2' id='description' name="description" required
               rows="5" cols="50" maxlength="32000"></textarea>
   </div>
+
+  <div class="lg-col lg-col-12">
+    <label class='bold' for="description">Additional Info:</label>
+    <textarea class='bold field text sm-col-12 mb2' id='information' name="00Nt0000000FsTK" required
+              rows="1" cols="50" maxlength="80"></textarea>
+  </div>
+
   <input type="hidden" name="status" id="status" value="New"/>
   <input type="hidden" id="external" name="external" value="1"/>
   <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu"/>
