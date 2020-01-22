@@ -40,6 +40,6 @@
     "jquery": "^3.4.1",
     "node-sass": "^4.9.3",
     "normalize.css": "^4.2.0",
-    "webpack": "^1.13.2"
+    "webpack": "^2.2.0"
   }
 }
