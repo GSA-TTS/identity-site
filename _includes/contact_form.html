@@ -103,6 +103,12 @@
         let sub = document.getElementById('sub-topic');
         sub.options[0] = new Option("{% t contact_page.support_request_form.form_helpers.select_topic %}", null, false, true);
         sub.options[0].hidden = true;
+
+        var recaptcha = document.querySelector('#g-recaptcha-response');
+        if(recaptcha) {
+            console.log('here7')
+            recaptcha.setAttribute("required", "required");
+        }
     }
 
     function dynamicdropdown(listindex) {
