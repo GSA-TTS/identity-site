@@ -79,8 +79,8 @@ contact_page:
       other: Other
       password_issue: Password issue
       personal_key: My personal key is not working
-      personal_key_setup: Personal key setup
       personal_key_notification: I have received an alert about my personal key being used to sign in
+      personal_key_setup: Personal key setup
       phone_number_failure: I got an failure after entering my phone number
       piv_cac: I am having trouble using my PIV/CAC to sign in
       privacy_and_security: Privacy and security
