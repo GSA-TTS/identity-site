@@ -49,6 +49,7 @@ contact_page:
       topic: Issue topic
     submit: Submit
     subtopics:
+      account_locked: My account is locked for 24 hours
       add_family_member: How do I add a family member to my login.gov account?
       agency_app: Agency app issue
       authentication_app: I have an authentication app but it's not working
@@ -65,6 +66,7 @@ contact_page:
       international_number: I have an international number and am not receiviing my security code.
       invalid_email: login.gov is not accepting my email address. It says it is invalid
       invalid_otp: login.gov says my security code is invalid
+      letter_in_mail: I didn't get my letter by mail or it expired
       locked_out: I am locked out of my account
       lost_2fa_method: Lost two-factor authentication method
       multiple_otps: I am receiving many security codes when signgin in
@@ -79,6 +81,7 @@ contact_page:
       personal_key: My personal key is not working
       personal_key_setup: Personal key setup
       personal_key_notification: I have received an alert about my personal key being used to sign in
+      phone_number_failure: I got an failure after entering my phone number
       piv_cac: I am having trouble using my PIV/CAC to sign in
       privacy_and_security: Privacy and security
       recover_account: How do I sign into my account if I dont have my phone or personal key?
@@ -87,7 +90,9 @@ contact_page:
       security_key: I am having trouble using my security key to sign in
       service_quality: Service quality
       site_navigation: I don't know where to go to create an account
+      state_issued_id_error: I got an error after uploading my state-issued ID
       unwanted_otp: I am receiving security codes from login.gov that I didn't request
+      verify_identity_error: I got a failure trying to verify my identity
       wrong_account_update: Wrong account update
     title: Contact the login.gov team
     topics:
@@ -100,6 +105,7 @@ contact_page:
       other: Other
       piv_cac: PIV/CAC issue
       signing_in: Signing into your login.gov account
+      verifying_identity: Verifying your identity
 developers_page:
   section_1:
     p_1:
