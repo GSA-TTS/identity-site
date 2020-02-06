@@ -69,7 +69,7 @@ contact_page:
       letter_in_mail: I didn't get my letter by mail or it expired
       locked_out: I am locked out of my account
       lost_2fa_method: Lost two-factor authentication method
-      multiple_otps: I am receiving many security codes when signgin in
+      multiple_otps: I am receiving many security codes when signing in
       new_account: My email/username and password are not working.
       new_backup_codes: How do I get new backup codes?
       new_personal_key: How do I get a new personal key?
