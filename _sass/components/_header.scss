@@ -1,3 +1,9 @@
+header {
+  .flex-auto {
+    flex: 1 1 auto;
+  }
+}
+
 @media #{$breakpoint-sm} {
   #developer-header {
     background-image: url('../../img/dev-landing@2x.png');
