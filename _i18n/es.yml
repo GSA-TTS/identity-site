@@ -129,6 +129,8 @@ help:
     multiple-accounts-to-verifying-my-identity-for: "¿Por qué
       tengo que usar login.gov para acceder a los servicios del Gobierno en línea?"
     email-address-confirmation-link-is-invalid: "El enlace para confirmar mi correo electrónico no es válido"
+  authentication-methods:
+    which-authentication-method-should-i-use: "¿Qué método de autenticación debo usar?"
   verifying-your-identity:
     phone-plan-is-not-in-my-name-or-address: "Mi plan telefónico no está a mi nombre o dirección"
     why-do-i-need-to-verify-my-identity: ¿Por qué necesito verificar mi identidad?
@@ -335,26 +337,49 @@ help_pages:
 
       ### Configure una segunda barrera de seguridad
       Después, configurará un factor de autenticación secundario. El segundo paso mantiene su cuenta más segura que con solo usar una contraseña. Puede elegir entre mensajes de texto, llamadas telefónicas, una aplicación de autenticación, una clave de seguridad o códigos de respaldo. Los empleados del gobierno también pueden usar sus tarjetas PIV (verificación de identidad personal) o CAC (tarjeta de acceso común).
+
+      Login.gov utiliza la autenticación de dos factores (TFA) o la autenticación de múltiples factores (MFA), como una capa adicional de protección para proteger su información más confidencial.
+
+      La autenticación de dos factores se puede realizar de varias maneras y cada una tiene un nivel de seguridad diferente. Puede elegir entre mensajes de texto, llamadas telefónicas, una aplicación de autenticación, una clave de seguridad o códigos de respaldo. Los empleados del gobierno también pueden usar sus tarjetas PIV o CAC.
+
+      Le recomendamos que revise las opciones disponibles y seleccione la opción más segura para usted.
+
+      [Obtenga más información sobre cada método de autenticación.](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/)
+
       <img src="site.baseurl/assets/img/help/2nd_factor_options.png" class="mt3 mb3 block" alt="2nd factor options help image" />
 
+      #### Aplicación de autenticación
+      Las aplicaciones de autenticación se descargan en su dispositivo y generan códigos seguros de 6 dígitos que puede usar para iniciar sesión en sus cuentas. A diferencia de las llamadas telefónicas o los mensajes de texto / SMS, un hacker necesitaría acceso físico a su teléfono celular para usar el código.
+
+      Si bien las aplicaciones de autenticación no están protegidas si su dispositivo se pierde o es robado, estas aplicaciones ofrecen más seguridad que las llamadas telefónicas o los mensajes de texto / SMS contra el phishing, la piratería o la intercepción.
+
+      Si elige usar esta opción segura, puede descargar e instalar una de las aplicaciones compatibles y configurarla para que funcione con login.gov. Aprenda a configurar una aplicación de autenticación.
+      [Lea más sobre cómo configurar una aplicación de autenticación.](site.baseurl/help/creating-an-account/authentication-application/)
+
+      <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
+
+      #### Llave de seguridad
+      Una clave de seguridad suele ser un dispositivo físico, como un USB, que se conecta a la computadora. La clave está vinculada a sus cuentas y solo otorgará acceso a esas cuentas una vez que la clave esté enchufada y activada. Dado que una clave de seguridad no depende de su teléfono celular, tiene el más alto nivel de protección contra phishing y protecciones integradas contra piratería si se pierde o es robada.
+
+      Login.gov requiere claves de seguridad que cumplan con los estándares de FIDO. También puede agregar tantas claves de seguridad como desee para asegurar su cuenta.
+
+      Para utilizar esta opción segura para la autenticación, conecte la clave a un puerto USB y asigne un nombre a la clave para identificarla dentro de su cuenta login.gov. El siguiente paso le pedirá que active su clave. Esto generalmente se hace presionando un botón en la tecla.
+      <img src="site.baseurl/assets/img/help/security_key.png" class="mt3 mb3 block" alt="Security key help image" />
+
       #### Mensaje de texto/SMS o llamada telefónica
+      Los mensajes de texto / SMS o las llamadas telefónicas son convenientes, pero son extremadamente vulnerables a robos, piratas informáticos y otros ataques.
 
       Si usted selecciona el mensaje de texto/SMS o llamada telefónica como segundo factor de autenticación, ingrese un número telefónico en el cual pueda recibir llamadas telefónicas o mensajes de texto. Si tiene un teléfono fijo, debe recibir su código de seguridad por llamada telefónica. login.gov no puede enviar códigos de seguridad a las extensiones.
       Enviaremos un código de seguridad único a ese número telefónico cada vez que inicie sesión en su cuenta.
       <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
+
       Cada código de seguridad caduca a los 10 minutos y solo se puede utilizar una vez. Si no ingresa el código de seguridad en 10 minutos, solo solicite un código nuevo. Cada código solo es válido una vez, por lo que nadie puede robar uno que ya haya usado.
       <img src="site.baseurl/assets/img/help/text-confirmation-code.png" class="mt3 mb3 block" alt="Phone text confirmation code help image" />
 
-      #### Aplicación de autenticación
-      Para usar una aplicación de autenticación, primero debe instalar una de las aplicaciones compatibles y configurarla para que trabaje con login.gov [Lea más sobre cómo configurar una aplicación de autenticación.](site.baseurl/help/creating-an-account/authentication-application/)
-      <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
-
-      #### Llave de seguridad
-      Su clave de seguridad debe ser compatible con el estándar FIDO. Puede agregar tantas claves de seguridad como desee. Una vez que conecte su clave a su computadora, usualmente conectándola a un puerto USB, asigne un nombre a la clave para así identificarla dentro de su cuenta en login.gov. El siguiente paso le pedirá que active su cuenta. Por lo general, esto se hace presionando un botón en la misma clave.
-      <img src="site.baseurl/assets/img/help/security_key.png" class="mt3 mb3 block" alt="Security key help image" />
-
       #### Códigos de respaldo
-      Los códigos de respaldo son otro método de autenticación. Cuando elija usar los códigos de respaldo como su segundo factor, login.gov le generará una serie de 10 códigos. Después de que inicie sesión con su nombre de usuario y contraseña, se le pedirá un código. Cada código puede usarse una vez, y cuando se haya usado el décimo, se le pedirá que descargue una lista nueva. Trate sus códigos de recuperación con el mismo nivel de atención que le daría a su contraseña.
+      Si bien los códigos de respaldo son una opción accesible para los usuarios que no tienen acceso telefónico, estos códigos son la opción menos segura para la autenticación de dos factores. Los códigos de respaldo deben imprimirse o escribirse, lo que los hace más vulnerables al robo y al phishing.
+
+      Si elige seleccionar esta opción menos segura, login.gov generará un conjunto de 10 códigos. Después de iniciar sesión con su nombre de usuario y contraseña, se le solicitará un código. Cada código solo se puede usar una vez, una vez que se haya usado el décimo código, se le pedirá que descargue una nueva lista. Trate sus códigos de recuperación con el mismo nivel de atención que lo haría con su contraseña.
       <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
     no-phone-or-other-authentication-method: |-
       login.gov requiere que los usuarios configuren dos formas de métodos de autenticación de dos factores al crear una cuenta. Sin embargo, si no tiene acceso a un teléfono, una aplicación de autenticación, una clave de seguridad o una identificación de empleado del gobierno (tarjeta PIV / CAC), puede configurar su cuenta solo con códigos de respaldo.
@@ -436,6 +461,46 @@ help_pages:
       Si el enlace de confirmación sigue sin ser válido y ha seguido los pasos descritos anteriormente, es posible que su proveedor de correo electrónico haya codificado el enlace. Una forma de determinar si ha sucedido esto es copiando y pegando el enlace de confirmación en su navegador. Si hay símbolos o palabras inusuales en el enlace, quítelos y pulse "Intro".
 
       Para obtener ayuda adicional, envíe un correo electrónico a [hello@login.gov](mailto:hello@login.gov).
+  authentication-methods:
+    which-authentication-method-should-i-use: |-
+      Lamentablemente, las contraseñas ya no son suficientes para proteger su cuenta.
+
+      Login.gov utiliza la autenticación de dos factores (TFA) o la autenticación de múltiples factores (MFA), como una capa adicional de protección para proteger su información más confidencial.
+
+      La autenticación de dos factores se puede realizar de varias maneras y cada una tiene un nivel de seguridad diferente. Puede elegir entre mensajes de texto, llamadas telefónicas, una aplicación de autenticación, una clave de seguridad o códigos de respaldo. Los empleados del gobierno también pueden usar sus tarjetas PIV o CAC.
+
+      Le recomendamos que revise las opciones disponibles y seleccione la opción más segura para usted.
+
+      <span class="usa-tag float-right bg-info-dark">MÁS SEGURIDAD</span>
+      ### Clave de seguridad
+      Más seguro contra phishing y piratas informáticos con protecciones integradas contra robo.
+
+      Una clave de seguridad suele ser un dispositivo físico, como un USB, que se conecta a la computadora. La clave está vinculada a sus cuentas y solo otorgará acceso a esas cuentas una vez que la clave esté enchufada y activada. Dado que una clave de seguridad no depende de su teléfono celular, tiene el más alto nivel de protección contra phishing y protecciones integradas contra piratería si se pierde o es robada.
+
+      <span class="usa-tag float-right bg-info-dark">MÁS SEGURIDAD</span>
+      ### PIV/CAC para empleados militares y federales
+      Más seguro contra phishing y piratas informáticos con protecciones integradas contra robo.
+
+      Las tarjetas inteligentes físicas PIV y CAC son opciones seguras para el personal militar y los empleados federales. Estas tarjetas, con tecnología de chip encriptado, son resistentes al phishing y difíciles de hackear si son robadas.
+
+      <span class="usa-tag float-right bg-info-dark">MÁS SEGURIDAD</span>
+      ### Aplicación de autenticación
+      Más seguro contra phishing y piratas informáticos, pero con menos protección contra el robo.
+
+      Las aplicaciones de autenticación se descargan en su dispositivo y generan códigos seguros de 6 dígitos que puede usar para iniciar sesión en sus cuentas. A diferencia de las llamadas telefónicas o los mensajes de texto / SMS, un hacker necesitaría acceso físico a su teléfono celular para usar el código.
+
+      Si bien las aplicaciones de autenticación no están protegidas si su dispositivo se pierde o es robado, estas aplicaciones ofrecen más seguridad que las llamadas telefónicas o los mensajes de texto / SMS contra el phishing, la piratería o la intercepción.
+
+      ### Mensaje de texto / SMS o llamada telefónica
+      Menos seguro contra phishing, hacks y robos.
+
+      Los mensajes de texto / SMS o las llamadas telefónicas son convenientes, pero son extremadamente vulnerables a robos, piratas informáticos y otros ataques.
+
+      <span class="usa-tag float-right bg-info-dark">MENOS SEGURIDAD</span>
+      ### Códigos de respaldo
+      Menos seguro contra phishing, piratas informáticos y más subjetivo al robo.
+
+      Si bien los códigos de respaldo son una opción accesible para los usuarios que no tienen acceso telefónico, estos códigos son la opción menos segura para la autenticación de dos factores. Los códigos de respaldo deben imprimirse o escribirse, lo que los hace más vulnerables al robo y al phishing.
   verifying-your-identity:
     phone-plan-is-not-in-my-name-or-address: |-
       Si no podemos verificar automáticamente su dirección, debe verificarla por correo. Esto significa que le enviaremos una carta con un código de confirmación que debe usar para terminar de configurar su cuenta.
