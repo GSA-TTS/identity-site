@@ -39,6 +39,10 @@ defaults:
   values:
     layout: help
 - scope:
+    path: "_pages/partners"
+  values:
+    layout: partners
+- scope:
     path: ""
   values:
     layout: main

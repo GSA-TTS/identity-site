@@ -347,7 +347,7 @@ help_pages:
       <img src="site.baseurl/assets/img/help/6-enter-one-time-security-code.png" class="mt3 mb3 block" alt="Enter security code help image" />
 
       #### Authentication application
-      To use an authentication app, you must first install one of the supported applications and configure it to work with login.gov.  [Read more on how to set up an authentication app.](site.baseurl/help/changing-settings/authentication-application/)
+      To use an authentication app, you must first install one of the supported applications and configure it to work with login.gov.  [Read more on how to set up an authentication app.](site.baseurl/help/creating-an-account/authentication-application/)
       <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
 
       #### Security key
