@@ -5,6 +5,7 @@ ruby '~> 2.5.5'
 gem 'jekyll'
 gem 'jekyll-redirect-from'
 gem 'jekyll-multiple-languages-plugin'
+gem 'jekyll-sitemap'
 
 group :development do
   gem 'pry'
