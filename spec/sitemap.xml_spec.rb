@@ -13,7 +13,7 @@ RSpec.describe 'sitemap.xml' do
     expect(doc.xpath('//urlset/url/loc')).to_not be_empty
 
     doc.xpath('//urlset/url/loc').each do |loc|
-      path = URI("https://#{loc.text}").path
+      path = URI(loc.text).path
       expect(file_at(path)).to be
     end
   end
