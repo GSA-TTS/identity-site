@@ -69,6 +69,7 @@ keep_files:
 plugins:
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
+  - jekyll-sitemap
 
 help_pages:
 - creating-an-account
@@ -100,3 +101,5 @@ playbook:
      img: graphic-hex
      text: Create responsive security systems
 baseurl:
+
+url: www.login.gov
