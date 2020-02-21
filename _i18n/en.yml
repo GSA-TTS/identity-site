@@ -512,37 +512,42 @@ help_pages:
       Two-factor authentication can be done in multiple ways and each has a different level of security. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
 
       We encourage you to review the available options and select the most secure option for you.
+      
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">More Secure</div>
+        <h3>Security Key</h3>
+        <p class="bold mt1">More secure against phishing and hacks with built in protections against theft.</p>
+        <p>A security key is typically a physical device, like a USB, that you plug into your computer. The key is linked to your accounts and will only grant access to those accounts once the key is plugged in and activated. Since a security key does not rely on your cell phone, it has the highest level of protection against phishing and built in protections against hacking if it is lost or stolen.</p>
+      </div>
 
-      <div class="usa-tag float-right bg-info-dark">MORE SECURE</div>
-      ### Security Key
-      More secure against phishing and hacks with built in protections against theft.
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">More Secure</div>
+        <h3>PIV/CAC for military and federal employees</h3>
+        <p class="bold mt1">More secure against phishing and hacks with built in protections against theft.</p>
+        <p>Physical PIV and CAC smart cards are secure options for military personnel and federal employees. These cards, with encrypted chip technology, are resistant to phishing and difficult to hack if stolen.</p>
+      </div>
 
-      A security key is typically a physical device, like a USB, that you plug into your computer. The key is linked to your accounts and will only grant access to those accounts once the key is plugged in and activated. Since a security key does not rely on your cell phone, it has the highest level of protection against phishing and built in protections against hacking if it is lost or stolen.
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">More Secure</div>
+        <h3>Authentication App</h3>
+        <p class="bold mt1">More secure against phishing and hacks but with less protection against theft.</p>
+        <p>Authentication apps are downloaded to your device and generate secure, 6-digit codes you can use to log in to your accounts. Unlike phone calls or text messaging/SMS, a hacker would need physical access to your cell phone in order to use the code.</p>
+        <p>While authentication apps are not protected if your device is lost or stolen, these apps offer more security than phone calls or text messaging/SMS against phishing, hacking or interception.</p>
+      </div>
 
-      <div class="usa-tag float-right bg-info-dark">MORE SECURE</div>
-      ### PIV/CAC for military and federal employees
-      More secure against phishing and hacks with built in protections against theft.
+      <div class="mt3">
+        <h3>Text message/SMS or Phone call</h3>
+        <p class="bold mt1">Less secure against phishing, hacks and theft.</p>
+        <p>Text message/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers and other attacks.</p>
+      </div>
 
-      Physical PIV and CAC smart cards are secure options for military personnel and federal employees. These cards, with encrypted chip technology, are resistant to phishing and difficult to hack if stolen.
+      <div class="my3">
+        <div class="usa-tag caps float-right bg-info-dark">Less Secure</div>
+        <h3>Backup codes</h3>
+        <p class="bold mt1">Less secure against phishing, hacks and more subjective to theft.</p>
+        <p>While backup codes are an accessible option for users who do not have phone access, these codes are the least secure option for two-factor authentication. Backup codes must be printed or written down which makes them more vulnerable to theft and phishing.</p>
+      </div>
 
-      <div class="usa-tag float-right bg-info-dark">MORE SECURE</div>
-      ### Authentication App
-      More secure against phishing and hacks but with less protection against theft.
-
-      Authentication apps are downloaded to your device and generate secure, 6-digit codes you can use to log in to your accounts. Unlike phone calls or text messaging/SMS, a hacker would need physical access to your cell phone in order to use the code.
-
-      While authentication apps are not protected if your device is lost or stolen, these apps offer more security than phone calls or text messaging/SMS against phishing, hacking or interception.
-
-      ### Text message/SMS or Phone call
-      Less secure against phishing, hacks and theft.
-
-      Text message/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers and other attacks.
-
-      <div class="usa-tag float-right bg-info-dark">LESS SECURE</div>
-      ### Backup codes
-      Less secure against phishing, hacks and more subjective to theft.
-
-      While backup codes are an accessible option for users who do not have phone access, these codes are the least secure option for two-factor authentication. Backup codes must be printed or written down which makes them more vulnerable to theft and phishing.
   verifying-your-identity:
     why-do-i-need-to-verify-my-identity: |-
       Some government applications that use login.gov require users to verify their identities. This means that you must prove that you are who you say you are. By doing this, we make sure that only the right people get access to sensitive information.
