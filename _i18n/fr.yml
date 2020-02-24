@@ -82,6 +82,8 @@ contact_page:
       site_navigation: Navigation du site
       unwanted_otp: Multiples OTP
       wrong_account_update: Mise à jour de compte erronée
+    alert_banner: Les résidents de New York ne sont plus éligibles pour demander ou renouveler leur adhésion aux programmes de voyageurs de confiance des États-Unis pour les douanes et la protection des frontières (CBP). Votre remboursement sera traité automatiquement. Pour plus d'informations, veuillez visiter 
+    alert_banner_link: consulter le communiqué de presse du CBP
     title: Contactez l'équipe login.gov
     topics:
       account_linking: Lien vers le compte
