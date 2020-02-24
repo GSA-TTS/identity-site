@@ -175,7 +175,7 @@ We offer two levels of identity assurance within our platform. For our login.gov
 
 For identity verified accounts at the NIST 800-63 IAL2 level, we ask users to upload a photograph of their state-issued ID and we verify that information against Department of Motor Vehicles (DMV) records. As a fallback we can also leverage address verification by mail. Users must also provide their phone numbers and SSN, which are validated against their known phone bill for accuracy.
 
-To improve proofing coverage, we plan on expanding our use of data sources to include government data sources not available through traditional commercial data sources as we are a trusted federal entity. Likewise, we plan on integrating with in-person proofing services offered by the USPS.
+To improve proofing coverage, we plan on expanding our use of data sources to include government data sources not available through traditional commercial data sources as we are a trusted federal entity.
 
 ## Death check
 
