@@ -81,6 +81,8 @@ contact_page:
       site_navigation: Navegación en la página web
       unwanted_otp: Múltiples pedidos de pago
       wrong_account_update: Actualización de la cuenta errónea
+    alert_banner: Los residentes de Nueva York ya no son elegibles para solicitar o renovar la membresía en los Programas de Viajero Confiable de Aduanas y Protección Fronteriza (CBP) de EE. UU. Su reembolso será procesado automáticamente. Para obtener información adicional, visite
+    alert_banner_link: el comunicado de prensa de CBP
     title: Póngase en contacto con el equipo de login.gov
     topics:
       account_linking: Vinculación de cuenta
