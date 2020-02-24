@@ -471,36 +471,41 @@ help_pages:
 
       Le recomendamos que revise las opciones disponibles y seleccione la opción más segura para usted.
 
-      <span class="usa-tag float-right bg-info-dark">MÁS SEGURIDAD</span>
-      ### Clave de seguridad
-      Más seguro contra phishing y piratas informáticos con protecciones integradas contra robo.
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">MÁS SEGURIDAD</div>
+        <h3>Clave de seguridad</h3>
+        <p class="bold mt1">Más seguro contra phishing y piratas informáticos con protecciones integradas contra robo.</p>
+        <p>Una clave de seguridad suele ser un dispositivo físico, como un USB, que se conecta a la computadora. La clave está vinculada a sus cuentas y solo otorgará acceso a esas cuentas una vez que la clave esté enchufada y activada. Dado que una clave de seguridad no depende de su teléfono celular, tiene el más alto nivel de protección contra phishing y protecciones integradas contra piratería si se pierde o es robada.</p>
+      </div>
 
-      Una clave de seguridad suele ser un dispositivo físico, como un USB, que se conecta a la computadora. La clave está vinculada a sus cuentas y solo otorgará acceso a esas cuentas una vez que la clave esté enchufada y activada. Dado que una clave de seguridad no depende de su teléfono celular, tiene el más alto nivel de protección contra phishing y protecciones integradas contra piratería si se pierde o es robada.
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">MÁS SEGURIDAD</div>
+        <h3>PIV/CAC para empleados militares y federales</h3>
+        <p class="bold mt1">Más seguro contra phishing y piratas informáticos con protecciones integradas contra robo.</p>
+        <p>Las tarjetas inteligentes físicas PIV y CAC son opciones seguras para el personal militar y los empleados federales. Estas tarjetas, con tecnología de chip encriptado, son resistentes al phishing y difíciles de hackear si son robadas.</p>
+      </div>
 
-      <span class="usa-tag float-right bg-info-dark">MÁS SEGURIDAD</span>
-      ### PIV/CAC para empleados militares y federales
-      Más seguro contra phishing y piratas informáticos con protecciones integradas contra robo.
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">MÁS SEGURIDAD</div>
+        <h3>Aplicación de autenticación</h3>
+        <p class="bold mt1">Más seguro contra phishing y piratas informáticos, pero con menos protección contra el robo.</p>
+        <p>Las aplicaciones de autenticación se descargan en su dispositivo y generan códigos seguros de 6 dígitos que puede usar para iniciar sesión en sus cuentas. A diferencia de las llamadas telefónicas o los mensajes de texto / SMS, un hacker necesitaría acceso físico a su teléfono celular para usar el código.</p>
+        <p>Si bien las aplicaciones de autenticación no están protegidas si su dispositivo se pierde o es robado, estas aplicaciones ofrecen más seguridad que las llamadas telefónicas o los mensajes de texto / SMS contra el phishing, la piratería o la intercepción.</p>
+      </div>
 
-      Las tarjetas inteligentes físicas PIV y CAC son opciones seguras para el personal militar y los empleados federales. Estas tarjetas, con tecnología de chip encriptado, son resistentes al phishing y difíciles de hackear si son robadas.
+      <div class="mt3">
+        <h3>Mensaje de texto / SMS o llamada telefónica</h3>
+        <p class="bold mt1">Menos seguro contra phishing, hacks y robos.</p>
+        <p>Los mensajes de texto / SMS o las llamadas telefónicas son convenientes, pero son extremadamente vulnerables a robos, piratas informáticos y otros ataques.</p>
+      </div>
 
-      <span class="usa-tag float-right bg-info-dark">MÁS SEGURIDAD</span>
-      ### Aplicación de autenticación
-      Más seguro contra phishing y piratas informáticos, pero con menos protección contra el robo.
+      <div class="my3">
+        <div class="usa-tag caps float-right bg-info-dark">MENOS SEGURIDAD</div>
+        <h3>Códigos de respaldo</h3>
+        <p class="bold mt1">Menos seguro contra phishing, piratas informáticos y más subjetivo al robo.</p>
+        <p>Si bien los códigos de respaldo son una opción accesible para los usuarios que no tienen acceso telefónico, estos códigos son la opción menos segura para la autenticación de dos factores. Los códigos de respaldo deben imprimirse o escribirse, lo que los hace más vulnerables al robo y al phishing.</p>
+      </div>
 
-      Las aplicaciones de autenticación se descargan en su dispositivo y generan códigos seguros de 6 dígitos que puede usar para iniciar sesión en sus cuentas. A diferencia de las llamadas telefónicas o los mensajes de texto / SMS, un hacker necesitaría acceso físico a su teléfono celular para usar el código.
-
-      Si bien las aplicaciones de autenticación no están protegidas si su dispositivo se pierde o es robado, estas aplicaciones ofrecen más seguridad que las llamadas telefónicas o los mensajes de texto / SMS contra el phishing, la piratería o la intercepción.
-
-      ### Mensaje de texto / SMS o llamada telefónica
-      Menos seguro contra phishing, hacks y robos.
-
-      Los mensajes de texto / SMS o las llamadas telefónicas son convenientes, pero son extremadamente vulnerables a robos, piratas informáticos y otros ataques.
-
-      <span class="usa-tag float-right bg-info-dark">MENOS SEGURIDAD</span>
-      ### Códigos de respaldo
-      Menos seguro contra phishing, piratas informáticos y más subjetivo al robo.
-
-      Si bien los códigos de respaldo son una opción accesible para los usuarios que no tienen acceso telefónico, estos códigos son la opción menos segura para la autenticación de dos factores. Los códigos de respaldo deben imprimirse o escribirse, lo que los hace más vulnerables al robo y al phishing.
   verifying-your-identity:
     phone-plan-is-not-in-my-name-or-address: |-
       Si no podemos verificar automáticamente su dirección, debe verificarla por correo. Esto significa que le enviaremos una carta con un código de confirmación que debe usar para terminar de configurar su cuenta.

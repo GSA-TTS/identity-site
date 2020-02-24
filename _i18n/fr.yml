@@ -498,36 +498,40 @@ help_pages:
 
       Nous vous encourageons à examiner les options disponibles et à sélectionner l'option la plus sécurisée pour vous.
 
-      <span class="usa-tag float-right bg-info-dark">PLUS SÉCURISÉ</span>
-      ### Clef de sécurité
-      Plus sûr contre le phishing et les hacks avec des protections intégrées contre le vol.
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">PLUS SÉCURISÉ</div>
+        <h3>Clef de sécurité</h3>
+        <p class="bold mt1">Plus sûr contre le phishing et les hacks avec des protections intégrées contre le vol.</p>
+        <p>Une clé de sécurité est généralement un périphérique physique, comme une clé USB, que vous branchez à votre ordinateur. La clé est liée à vos comptes et n'accordera l'accès à ces comptes qu'une fois la clé connectée et activée. Puisqu'une clé de sécurité ne dépend pas de votre téléphone portable, elle possède le plus haut niveau de protection contre le phishing et des protections intégrées contre le piratage en cas de perte ou de vol.</p>
+      </div>
 
-      Une clé de sécurité est généralement un périphérique physique, comme une clé USB, que vous branchez à votre ordinateur. La clé est liée à vos comptes et n'accordera l'accès à ces comptes qu'une fois la clé connectée et activée. Puisqu'une clé de sécurité ne dépend pas de votre téléphone portable, elle possède le plus haut niveau de protection contre le phishing et des protections intégrées contre le piratage en cas de perte ou de vol.
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">PLUS SÉCURISÉ</div>
+        <h3>PIV/CAC pour les employés militaires et fédéraux</h3>
+        <p class="bold mt1">Plus sûr contre le phishing et les hacks avec des protections intégrées contre le vol.</p>
+        <p>Les cartes à puce physiques PIV et CAC sont des options sécurisées pour le personnel militaire et les employés fédéraux. Ces cartes, dotées d'une technologie de puce cryptée, résistent au phishing et sont difficiles à pirater en cas de vol.</p>
+      </div>
 
-      <span class="usa-tag float-right bg-info-dark">PLUS SÉCURISÉ</span>
-      ### PIV/CAC pour les employés militaires et fédéraux
-      Plus sûr contre le phishing et les hacks avec des protections intégrées contre le vol.
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">PLUS SÉCURISÉ</div>
+        <h3>Application d'authentification</h3>
+        <p class="bold mt1">Plus sûr contre le phishing et les hacks mais avec moins de protection contre le vol.</p>
+        <p>Les applications d'authentification sont téléchargées sur votre appareil et génèrent des codes sécurisés à 6 chiffres que vous pouvez utiliser pour vous connecter à vos comptes. Contrairement aux appels téléphoniques ou à la messagerie texte / SMS, un pirate aurait besoin d'un accès physique à votre téléphone portable pour utiliser le code.</p>
+        <p>Bien que les applications d'authentification ne soient pas protégées en cas de perte ou de vol de votre appareil, ces applications offrent plus de sécurité que les appels téléphoniques ou la messagerie texte / SMS contre le phishing, le piratage ou l'interception.</p>
+      </div>
 
-      Les cartes à puce physiques PIV et CAC sont des options sécurisées pour le personnel militaire et les employés fédéraux. Ces cartes, dotées d'une technologie de puce cryptée, résistent au phishing et sont difficiles à pirater en cas de vol.
+      <div class="mt3">
+        <h3> Message texte/SMS ou appel téléphonique</h3>
+        <p class="bold mt1">Moins sécurisé contre le phishing, les hacks et le vol.</p>
+        <p>Les SMS / SMS ou les appels téléphoniques sont pratiques mais sont extrêmement vulnérables au vol, aux pirates et autres attaques.</p>
+      </div>
 
-      <span class="usa-tag float-right bg-info-dark">PLUS SÉCURISÉ</span>
-      ### Application d'authentification
-      Plus sûr contre le phishing et les hacks mais avec moins de protection contre le vol.
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">MOINS SÉCURISÉ</div>
+        <h3> Codes de sauvegarde</h3>
+        <p class="bold mt1">Moins sécurisé contre le phishing, les hacks et plus subjectif au vol.</p>
+        <p>Bien que les codes de sauvegarde soient une option accessible pour les utilisateurs qui n'ont pas accès au téléphone, ces codes sont l'option la moins sécurisée pour l'authentification à deux facteurs. Les codes de sauvegarde doivent être imprimés ou écrits, ce qui les rend plus vulnérables au vol et au phishing.</p>
 
-      Les applications d'authentification sont téléchargées sur votre appareil et génèrent des codes sécurisés à 6 chiffres que vous pouvez utiliser pour vous connecter à vos comptes. Contrairement aux appels téléphoniques ou à la messagerie texte / SMS, un pirate aurait besoin d'un accès physique à votre téléphone portable pour utiliser le code.
-
-      Bien que les applications d'authentification ne soient pas protégées en cas de perte ou de vol de votre appareil, ces applications offrent plus de sécurité que les appels téléphoniques ou la messagerie texte / SMS contre le phishing, le piratage ou l'interception.
-
-      ### Message texte/SMS ou appel téléphonique
-      Moins sécurisé contre le phishing, les hacks et le vol.
-
-      Les SMS / SMS ou les appels téléphoniques sont pratiques mais sont extrêmement vulnérables au vol, aux pirates et autres attaques.
-
-      <span class="usa-tag float-right bg-info-dark">MOINS SÉCURISÉ</span>
-      ### Codes de sauvegarde
-      Moins sécurisé contre le phishing, les hacks et plus subjectif au vol.
-
-      Bien que les codes de sauvegarde soient une option accessible pour les utilisateurs qui n'ont pas accès au téléphone, ces codes sont l'option la moins sécurisée pour l'authentification à deux facteurs. Les codes de sauvegarde doivent être imprimés ou écrits, ce qui les rend plus vulnérables au vol et au phishing.
   verifying-your-identity:
     phone-plan-is-not-in-my-name-or-address: |-
       Si nous ne pouvons pas vérifier automatiquement votre adresse, vous devez la vérifier par courrier. Cela signifie que nous vous enverrons une lettre avec un code de confirmation que vous devez utiliser pour terminer la configuration de votre compte.
