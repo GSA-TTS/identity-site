@@ -4,6 +4,8 @@ import 'bootstrap/js/affix';
 import 'bootstrap/js/scrollspy';
 import './analytics.js';
 
+require('identity-style-guide/dist/assets/js/main');
+
 var accordion = require('aria-accordion');
 
 $(function() {
