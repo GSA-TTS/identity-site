@@ -29,86 +29,11 @@
   }
 }
 
-header { position: relative; }
-
-header nav {
-  //background-color: $blue-light;
-  border-top: $border-width solid $border-color;
-  display: none;
-  position: absolute;
-  right: 0;
-  left: 0;
-  top: 100%;
-
-  & > ul {
-    width: 100%;
-  }
-
-  & > ul > li {
-    border-bottom: $border-width solid $border-color;
-    display: block;
-
-    a {
-      display: block;
-      padding: $space-2 $space-2 $space-2 $space-3;
-    }
-  }
-
-  .active {
-    font-weight: bold;
-    position: relative;
-
-    &::before {
-      color: $red;
-      content: '•';
-      font-size: 2rem;
-      left: .75rem;
-      line-height: 1.3rem;
-      position: absolute;
-    }
-  }
-}
-
-
 @media #{$breakpoint-sm} {
   .logo {
     line-height: 17px;
 
     img { height: 17px; }
-  }
-
-  header nav {
-    background-color: transparent;
-    border: none;
-    font-size: $sm-h6;
-    position: static;
-
-    & > ul > li {
-      border: none;
-      display: inline-block;
-
-      a {
-        padding: 0 0 $space-1 0;
-      }
-    }
-
-    .active {
-      padding: 0;
-      text-decoration: none;
-
-      &::before {
-        content: none;
-      }
-
-      &::after {
-        border-bottom: $red 2px solid;
-        content: '';
-        left: 0;
-        position: absolute;
-        top: 100%;
-        width: 100%;
-      }
-    }
   }
 }
 
@@ -139,7 +64,6 @@ header nav {
     }
   }
 }
-
 
 @media #{$breakpoint-lang}{
   header nav {
