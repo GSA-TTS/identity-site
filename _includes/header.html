@@ -1,7 +1,7 @@
 <header class="usa-header usa-header--extended bg-white" role="banner">
   <div class="usa-navbar">
     <div class="usa-logo" id="extended-logo">
-      <a href="/" title="Home" aria-label="Home">
+      <a href="{{ site.baseurl }}" title="Home" aria-label="Home">
         <img src="{{ site.baseurl }}/assets/img/logo.svg" class="usa-logo__img" alt="login.gov">
       </a>
     </div>
@@ -89,7 +89,7 @@
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <a class="usa-nav__link" href="{% if site.lang != 'en' %}https://secure.login.gov/{{site.lang}}/{% else %} https://secure.login.gov/ {% endif %}">
+          <a class="usa-nav__link" href="{% if site.lang != 'en' %}https://secure.login.gov/{{site.lang}}/{% else %}https://secure.login.gov/{% endif %}">
             <span>{% t nav.manage %}</span>
           </a>
         </li>
