@@ -1,9 +1,111 @@
-<header class="bg-white">
-  <div class="container cntnr-wide sm-pr2">
-    <div class="flex flex-stretch">
-      <div class="flex-auto">
-      </div>
-      {% include nav.html %}
+<header class="usa-header usa-header--extended bg-white" role="banner">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+      <a href="{{ site.baseurl }}" title="Home" aria-label="Home">
+        <img src="{{ site.baseurl }}/assets/img/logo.svg" class="usa-logo__img" alt="login.gov">
+      </a>
     </div>
+
+    <button class="usa-menu-btn">Menu</button>
   </div>
+
+  <nav role="navigation" class="usa-nav" >
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close"><img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close"></button>
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link {% if page.url == '/' %}usa-current{% endif %}" href="{{ '/' | relative_url }}">
+            <span>{% t nav.home %}</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link {% if page.url contains '/playbook/' %}usa-current{% endif %}" aria-controls="unique-id-1">
+            <span>{% t nav.playbook %}</span>
+          </button>
+          <ul id="unique-id-1" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href="{{ '/playbook/' | relative_url }}">
+                <span>{% t nav.overview %}</span>
+              </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="{{ '/playbook/principles/' | relative_url }}">
+                <span>{% t nav.principles %}</span>
+              </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="{{ '/playbook/implementation/' | relative_url }}">
+                <span>{% t nav.implementation %}</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link {% if page.url == '/security/' %}usa-current{% endif %}" href="{{ '/security/' | relative_url }}">
+            <span>{% t nav.security %}</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link {% if page.url contains '/partners/' %}usa-current{% endif %}" aria-controls="unique-id-2">
+            <span>{% t nav.partners %}</span>
+          </button>
+          <ul id="unique-id-2" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href="{{ '/partners/' | relative_url }}">
+                <span>{% t nav.overview %}</span>
+              </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="{{ '/partners/our-agency-partners/' | relative_url }}">
+                <span>{% t nav.our-agency-partners %}</span>
+              </a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="{{ '/partners/why-login-gov/' | relative_url }}">
+                <span>{% t nav.why-login-gov %}</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link {% if page.url contains '/help/' %}usa-current{% endif %}" aria-controls="unique-id-3">
+            <span>{% t nav.help %}</span>
+          </button>
+          <ul id="unique-id-3" class="usa-nav__submenu ">
+            <li class="usa-nav__submenu-item">
+              <a href="{{ '/help/' | relative_url }}">
+                <span>{% t nav.overview %}</span>
+              </a>
+            </li>
+            {% for subpage in site.help_pages %}
+              {% assign subpage_slug = subpage | slugify %}
+              {% assign subpage_link = site.help | where_exp: "item", "item.url contains subpage_slug" | where: 'order', 1 | first %}
+              <li class="usa-nav__submenu-item">
+                <a href="{{ subpage_link.url | relative_url }}">
+                  <span>{{ site.translations[site.lang]["help_subpages"][subpage]}}</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link" href="{% if site.lang != 'en' %}https://secure.login.gov/{{site.lang}}/{% else %} https://secure.login.gov/ {% endif %}">
+            <span>{% t nav.manage %}</span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+    <div class="usa-nav__secondary">
+      <div class="usa-nav__secondary-container">
+        <form class="usa-search usa-search--small" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+          <input type="hidden" name="affiliate" id="affiliate" value="login.gov" />
+          <div role="search">
+            <input type="search" name="query" id="query" autocomplete="off" class="usa-input" />
+            <input type="submit" class="usa-button app-search" name="commit" value=" " data-disable-with="Search" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
 </header>

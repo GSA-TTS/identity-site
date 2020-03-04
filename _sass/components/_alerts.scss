@@ -30,15 +30,15 @@
 
 // alert-warning
 .usa-alert--warning {
-  background-image: url(../../img/alerts/warning.svg),-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
-  background-image: url(../../img/alerts/warning.svg),linear-gradient(transparent,transparent);
+  background-image: url(../img/alerts/warning.svg),-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
+  background-image: url(../img/alerts/warning.svg),linear-gradient(transparent,transparent);
   background-color: #fffdd7;
 }
 
 // alert-info
 .usa-alert--info {
-  background-image: url(../../img/alerts/info.svg),-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
-  background-image: url(../../img/alerts/info.svg),linear-gradient(transparent,transparent);
+  background-image: url(../img/alerts/info.svg),-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
+  background-image: url(../img/alerts/info.svg),linear-gradient(transparent,transparent);
   background-color: #ecfcff;
 }
 
