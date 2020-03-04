@@ -1,3 +1,12 @@
+.usa-input {
+  margin-top: 0;
+  height: 2rem !important;
+}
+
+.app-search {
+  height: 2rem !important;
+}
+
 .logo {
   line-height: 14px;
 
@@ -23,7 +32,7 @@
 header { position: relative; }
 
 header nav {
-  background-color: $blue-light;
+  //background-color: $blue-light;
   border-top: $border-width solid $border-color;
   display: none;
   position: absolute;

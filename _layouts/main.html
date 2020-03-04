@@ -8,9 +8,10 @@
   </head>
   <body class="{{ layout.class }} {{ page.class }} site lang-{{ site.lang }}" data-spy="scroll" data-target="#pb-nav--side-cntnr" data-offset="48">
     <div class="site-wrap {{ page.bg_color | default: layout.bg_color | default:'' }}">
-      {% include skip_nav.html %}
+      <!--{% include skip_nav.html %}-->
       {% include banner.html %}
-      {% include header.html %}
+      {% include search_header.html %}
+      <!--{% include header.html %}-->
       <main id="main-content">
       {{ content }}
       </main>

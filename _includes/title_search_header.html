@@ -1,0 +1,63 @@
+<a href="#" class="sm-hide flex flex-center w-60p flex-justify bg-lightest-blue caps bold text-decoration-none fs-13p" id="js-mobile-nav-toggle">
+  <span class="block mx-auto">{% t nav.menu %}</span>
+  <img src="{{ site.baseurl }}/assets/img/close.svg" width="13" alt="Close" class="display-none mx-auto">
+</a>
+
+<nav class="sm-flex flex-center z2 {{ site.lang }}-nav">
+  <ul class="list-reset m0 sm-mt1">
+    <li class="sm-mr3 lang-nav-item">
+      <a href="{{ '/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/' %}active{% endif %}">{% t nav.home %}</a>
+    </li>
+    <li class="sm-mr3 lang-nav-item dropdown">
+      <a href="{{ '/playbook/' | relative_url }}" class="blue caps text-decoration-none {% if page.url contains '/playbook/' %}active{% endif %}">{% t nav.playbook %}<span class="dropdown-arrow"> &#9662;</span></a>
+        <ul class="sm-show">
+          <li><a href="{{ '/playbook/' | relative_url }}">{% t nav.overview %}</a></li>
+          <li><a href="{{ '/playbook/principles/' | relative_url }}">{% t nav.principles %}</a></li>
+          <li><a href="{{ '/playbook/implementation/' | relative_url }}">{% t nav.implementation %}</a></li>
+        </ul>
+      </li>
+    </li>
+    <li class="sm-mr3 lang-nav-item">
+      <a href="{{ '/security/' | relative_url }}" class="blue caps text-decoration-none {% if page.url == '/security/' %}active{% endif %}">{% t nav.security %}</a>
+    </li>
+    <li class="sm-mr3 lang-nav-item dropdown">
+      <a href="{{ '/partners/' | relative_url }}" class="blue caps text-decoration-none {% if page.url contains '/partners/' %}active{% endif %}">{% t nav.partners %}<span class="dropdown-arrow"> &#9662;</span></a>
+        <ul class="sm-show">
+          <li><a href="{{ '/partners/' | relative_url }}">{% t nav.overview %}</a></li>
+          <li><a href="{{ '/partners/our-agency-partners/' | relative_url }}">{% t nav.our-agency-partners %}</a></li>
+          <li><a href="{{ '/partners/why-login-gov/' | relative_url }}">{% t nav.why-login-gov %}</a></li>
+        </ul>
+      </li>
+    </li>
+    <li class="sm-mr3 lang-nav-item dropdown">
+      <a href="{{ '/help/' | relative_url }}" class="blue caps text-decoration-none {% if page.url contains '/help/' %}active{% endif %}">{% t nav.help %}<span class="dropdown-arrow"> &#9662;</span></a>
+      <ul class="sm-show dropdown-min-width">
+        <li><a href="{{ '/help/' | relative_url }}">{% t nav.overview %}</a></li>
+        {% for subpage in site.help_pages %}
+          {% assign subpage_slug = subpage | slugify %}
+          {% assign subpage_link = site.help | where_exp: "item", "item.url contains subpage_slug" | where: 'order', 1 | first %}
+          <li>
+            <a href="{{ subpage_link.url | relative_url }}">
+              {{ site.translations[site.lang]["help_subpages"][subpage]}}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+    <li>
+      {% if site.lang != 'en' %}
+        <a href="https://secure.login.gov/{{site.lang}}/" class="blue caps text-decoration-none">{% t nav.manage %}</a>
+      {% else %}
+        <a href="https://secure.login.gov/" class="blue caps text-decoration-none">{% t nav.manage %}</a>
+      {% endif %}
+    </li>
+  </ul>
+</nav>
+
+<form id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+
+  <input type="hidden" name="affiliate" id="affiliate" value="login.gov" />
+  <label for="query">Enter Search Term(s):</label>
+  <input type="text" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete" />
+  <input type="submit" name="commit" value="Search" data-disable-with="Search" />
+</form>
