@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 ## This plugin copies the fonts and the images from the identity style guide
 ## to the appropriate path on the built site
 ##
