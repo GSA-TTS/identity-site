@@ -1141,16 +1141,17 @@ meta:
       personal.
     title: Seguridad
 nav:
+  create_account: Crea una cuenta
   developers: Desarrolladores
   help: Ayuda
   home: Inicio
   implementation: Implementación
-  manage: Administrar cuenta
   menu: Menú
   overview: Resumen
   playbook: Manual
   principles: Principios
   security: Seguridad
+  sign_in: Inicia sesión
   skip_nav: Salte al contenido principal
 playbook_page:
   section_1:

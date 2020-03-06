@@ -26,7 +26,7 @@ scripts:
 
 # Styles
 styles:
-  - /assets/stylesheets/build/main.css
+  - /assets/stylesheets/main.css
 
 # Build settings
 kramdown:

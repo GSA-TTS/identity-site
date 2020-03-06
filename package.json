@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "login.gov static site",
   "scripts": {
-    "build-css": "`npm bin`/node-sass --include-path node_modules --include-path _sass --output-style compressed assets/stylesheets/main.scss assets/stylesheets/build/main.css",
+    "build-css": "`npm bin`/node-sass --include-path node_modules --include-path _sass --output-style compressed assets/stylesheets/main.scss assets/stylesheets/main.css",
     "build-js": "webpack --config webpack.config.js --progress --colors",
     "federalist": "npm run build-css && npm run build-js",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
@@ -37,7 +37,7 @@
     "basscss-sass": "^3.0.0",
     "bootstrap": "^3.4.0",
     "hint.css": "^2.5.0",
-    "identity-style-guide": "^2.1.5",
+    "identity-style-guide": "^2.2.2",
     "jquery": "^3.4.1",
     "node-sass": "^4.13.1",
     "normalize.css": "^4.2.0",

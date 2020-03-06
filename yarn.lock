@@ -1991,10 +1991,10 @@ iconv-lite@^0.4.4:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-identity-style-guide@^2.1.5:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/identity-style-guide/-/identity-style-guide-2.2.0.tgz#ec6cf44a3a623063a7a04335e179e2a50442b476"
-  integrity sha512-AKK+03R2lB0MXe0aBlyFWaiIyW6ORNBtOsRnve54VNW9SPauytX2bLBnb3qCg2/T6BZKr3Cj0v4dwZpo/J8R0A==
+identity-style-guide@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/identity-style-guide/-/identity-style-guide-2.2.2.tgz#30624afaeaeb62e01622e361b3a5e76fe4cc22c4"
+  integrity sha512-QOmJK3FjbkFQ9cDcKZfhgG47Qr/F3Zc31YCr8A6/13fKvqMl0AhypnE2XElMoV0Qau2CLU50fN/FeD5Jdn2SVA==
   dependencies:
     zxcvbn "^4.4.2"
 

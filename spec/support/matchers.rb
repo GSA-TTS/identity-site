@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'uri'
 
 RSpec::Matchers.define :open_external_links_in_new_window do
@@ -7,7 +9,7 @@ RSpec::Matchers.define :open_external_links_in_new_window do
     doc = actual
 
     doc.css('a[href^=http]').each do |a|
-      next if !a.ancestors('nav').empty?
+      next unless a.ancestors('nav').empty?
 
       missing_target_blank << a[:href] if a[:target] != '_blank'
     end
@@ -58,7 +60,7 @@ RSpec::Matchers.define :link_to_valid_internal_pages do
 
       begin
         file_at(page)
-      rescue
+      rescue StandardError
         missing_pages << page
       end
     end
