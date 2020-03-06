@@ -1187,16 +1187,17 @@ meta:
       personnels.
     title: Sécurité
 nav:
+  create_account: Create an account
   developers: Développeurs
   help: Aide
   home: Accueil
   implementation: Mise en œuvre
-  manage: Gestion du compte
   menu: Menu
   overview: Aperçu
   playbook: Guide de mise en œuvre
   principles: Principes
   security: Sécurité
+  sign_in: Sign in
   skip_nav: Passer au contenu principal
 playbook_page:
   section_1:
