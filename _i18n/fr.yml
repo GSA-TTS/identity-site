@@ -1187,7 +1187,7 @@ meta:
       personnels.
     title: Sécurité
 nav:
-  create_account: Create an account
+  create_account: Créer un compte
   developers: Développeurs
   help: Aide
   home: Accueil
@@ -1197,7 +1197,7 @@ nav:
   playbook: Guide de mise en œuvre
   principles: Principes
   security: Sécurité
-  sign_in: Sign in
+  sign_in: Se connecter
   skip_nav: Passer au contenu principal
 playbook_page:
   section_1:

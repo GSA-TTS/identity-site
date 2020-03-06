@@ -1141,7 +1141,7 @@ meta:
       personal.
     title: Seguridad
 nav:
-  create_account: Create an account
+  create_account: Crea una cuenta
   developers: Desarrolladores
   help: Ayuda
   home: Inicio
@@ -1151,7 +1151,7 @@ nav:
   playbook: Manual
   principles: Principios
   security: Seguridad
-  sign_in: Sign in
+  sign_in: Inicia sesión
   skip_nav: Salte al contenido principal
 playbook_page:
   section_1:
