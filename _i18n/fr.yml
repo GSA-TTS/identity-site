@@ -492,8 +492,6 @@ help_pages:
       Pour obtenir de l'assistance additionnelle, veuillez envoyer un e-mail à [hello@login.gov](mailto:hello@login.gov).
   authentication-methods:
     which-authentication-method-should-i-use: |-
-      Malheureusement, les mots de passe ne suffisent plus à protéger votre compte.
-
       Login.gov utilise l'authentification à deux facteurs (TFA) ou l'authentification à plusieurs facteurs (MFA), comme couche de protection supplémentaire pour sécuriser vos informations les plus sensibles.
 
       L'authentification à deux facteurs peut être effectuée de plusieurs manières et chacune a un niveau de sécurité différent. Vous pouvez choisir entre des SMS, des appels téléphoniques, une application d'authentification, une clé de sécurité ou des codes de sauvegarde. Les employés du gouvernement peuvent également utiliser leurs cartes PIV ou CAC.
