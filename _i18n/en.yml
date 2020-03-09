@@ -94,8 +94,8 @@ contact_page:
       unwanted_otp: I am receiving security codes from login.gov that I didn't request
       verify_identity_error: I got a failure trying to verify my identity
       wrong_account_update: Wrong account update
-    alert_banner: New York Residents are no longer eligible to apply for or renew membership in U.S. Customs and Border Protection (CBP) Trusted Traveler Programs. Your refund will be processed automatically. For additional information, please visit
-    alert_banner_link: the CBP media release
+    alert_banner: 
+    alert_banner_link:
     title: Contact the login.gov team
     topics:
       account_linking: Linking your login.gov account to your profile
