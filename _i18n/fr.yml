@@ -306,7 +306,7 @@ help_pages:
       [Lisez comment vous relier à votre profil Trusted Traveler](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
       [Lisez comment vous relier à votre profil SAM](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
     get-a-new-personal-key: |-
-      Pour soumettre une demande de nouvelle clé personnelle, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Gérer le compte » pour vous connecter à la page de votre compte login.gov. À côté de la clé personnelle, sélectionnez « Obtenir une nouvelle clé ». Suivez les instructions pour prendre en note ou imprimer la nouvelle clé personnelle et sélectionnez « continuer » pour terminer le processus. Rappelez-vous que vous pouvez faire la demande d'une nouvelle clé uniquement si vous êtes en mesure de vous connecter à votre compte login.gov.
+      Pour soumettre une demande de nouvelle clé personnelle, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Se connecter » pour vous connecter à la page de votre compte login.gov. À côté de la clé personnelle, sélectionnez « Obtenir une nouvelle clé ». Suivez les instructions pour prendre en note ou imprimer la nouvelle clé personnelle et sélectionnez « continuer » pour terminer le processus. Rappelez-vous que vous pouvez faire la demande d'une nouvelle clé uniquement si vous êtes en mesure de vous connecter à votre compte login.gov.
 
       Placez votre clé personnelle en lieu sûr, il s'agit de votre unique moyen de vous connecter si vous ne pouvez recevoir un code de sécurité. Certains moyens appropriés de stocker votre clé personnelle comprennent de la prendre en note, d'en faire une capture d'écran, de la coller dans un document sécurisé ou de l'imprimer. Vous pouvez utiliser chaque clé personnelle une fois seulement, nous vous en fournirons une autre ensuite.
     change-my-email-address: Pour changer l'adresse e-mail associée à votre compte
@@ -325,7 +325,7 @@ help_pages:
       à côté de celui-ci. Le site login.gov vous enverra immédiatement votre code
       de sécurité pour confirmer le nouveau numéro de téléphone.
     change-my-phone-number: |-
-      Pour changer le numéro de téléphone où vous recevez votre code de sécurité, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Gérer le compte » pour vous connecter à votre compte login.gov. Une fois connecté(e), sélectionnez « modifier » à côté du numéro de téléphone. Entrez le numéro de téléphone et sélectionnez « confirmer le changement ». login.gov vous enverra immédiatement votre code de sécurité pour confirmer le nouveau numéro de téléphone.
+      Pour changer le numéro de téléphone où vous recevez votre code de sécurité, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Se connecter » pour vous connecter à votre compte login.gov. Une fois connecté(e), sélectionnez « modifier » à côté du numéro de téléphone. Entrez le numéro de téléphone et sélectionnez « confirmer le changement ». login.gov vous enverra immédiatement votre code de sécurité pour confirmer le nouveau numéro de téléphone.
 
       Si vous ne pouvez pas recevoir le code de sécurité parce que vous n'avez pas accès à votre téléphone, vous devrez vous connecter à l'aide de votre [clé personnelle](site.baseurl/help/creating-an-account/personal-key/), si une clé vous a été attribuée et qu'elle est toujours valide, ou à l'aide d'une autre [méthode d'authentification à deux facteurs](site.baseurl/help/creating-an-account/two-factor-authentication/) que vous avez déjà installer.
   creating-an-account:
@@ -632,7 +632,7 @@ help_pages:
     change-account-settings: |-
       Pour modifier et actualiser les informations liées à votre compte login.gov (e-mail, numéro de téléphone, clé personnelle, etc.), vous devez vous connecter à votre compte login.gov :
 
-        1. Visitez [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Gérer le compte ».
+        1. Visitez [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Se connecter ».
         2. Connectez-vous à l'aide de vos identifiants login.gov.
 
       Une fois connecté, vous serez en mesure de modifier et d'actualiser vos informations login.gov.
@@ -681,7 +681,7 @@ help_pages:
       Si vous êtes un utilisateur de SAM existant et que vous ne voyez pas votre profil SAM.gov une fois connecté, cela signifie que vous n'avez pas utilisé la même adresse e-mail avec laquelle vous vous êtes inscrit sur SAM.gov. Pour actualiser l'adresse e-mail afin qu'elle corresponde à votre adresse SAM.gov, vous devrez suivre les étapes suivantes :
 
         1. Visitez [https://www.login.gov/](https://www.login.gov/) et
-        2. sélectionnez « Gérer le compte » pour vous connecter.
+        2. sélectionnez « Se connecter » pour vous connecter.
         3. Sélectionnez « modifier » à côté de votre adresse e-mail.
         4. Entrez l'adresse e-mail adéquate et sélectionnez « actualiser ».
         5. Vous recevrez un e-mail de confirmation. Vous devez ouvrir et sélectionner le lien de confirmation pour terminer la mise à jour de votre adresse e-mail.
@@ -701,7 +701,7 @@ help_pages:
     how-do-i-protect-my-logingov-account-with-a-security-key: |-
       Pour configurer une clé de sécurité avec votre compte login.gov, vous devez d'abord disposer d'une clé de sécurité prenant en charge le [standard FIDO](https://fidoalliance.org/fido2/){:target="_blank"}. Si vous ne possédez pas encore de compte login.gov, vous aurez la possibilité de sécuriser votre compte à l’aide d’une clé de sécurité lors de la création du compte. Une fois que vous avez confirmé votre adresse e-mail et créé votre mot de passe, sélectionnez «Clé de sécurité», puis suivez les instructions pour donner un surnom à votre clé, puis connectez-la pour l’enregistrer.
 
-      Si vous avez déjà un compte login.gov, vous pouvez ajouter votre clé de sécurité en vous connectant à votre compte login.gov. Allez sur [https://login.gov/](https://login.gov/){:target="_blank"} et cliquez sur «Gérer le compte». Connectez-vous et sélectionnez «Ajouter une clé de sécurité matérielle». Vous serez invité à attribuer un surnom à votre clé de sécurité, à la connecter et à appuyer sur le bouton pour s'enregistrer.
+      Si vous avez déjà un compte login.gov, vous pouvez ajouter votre clé de sécurité en vous connectant à votre compte login.gov. Allez sur [https://login.gov/](https://login.gov/){:target="_blank"} et cliquez sur «Se connecter». Connectez-vous et sélectionnez «Ajouter une clé de sécurité matérielle». Vous serez invité à attribuer un surnom à votre clé de sécurité, à la connecter et à appuyer sur le bouton pour s'enregistrer.
 
       Chaque fois que vous vous connecterez à login.gov, nous vous demanderons d'utiliser votre clé de sécurité. Si vous ne possédez pas votre clé de sécurité, vous pouvez également utiliser toute autre méthode d'authentification que vous avez activée. Nous vous recommandons d’activer plusieurs clés de sécurité et / ou d’autres méthodes à deux facteurs afin que votre compte ne soit pas verrouillé.
   signing-in:

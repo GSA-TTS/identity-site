@@ -276,7 +276,7 @@ help_pages:
       [Lee cómo vincular de nuevo a tu perfil de Trusted Traveler](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
       [Lee cómo vincular de nuevo a tu perfil de SAM](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
     get-a-new-personal-key: |-
-      Para solicitar una nueva clave personal, vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Administrar cuenta" para acceder a la página de su cuenta de login.gov. Al lado de la clave personal, seleccione "Obtener una nueva clave". Siga las instrucciones para anotar o imprimir la nueva clave personal y seleccione "Continuar" para finalizar el proceso. No olvide que solo puede solicitar una nueva clave personal si puede iniciar sesión en su cuenta de login.gov.
+      Para solicitar una nueva clave personal, vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Inicia sesión" para acceder a la página de su cuenta de login.gov. Al lado de la clave personal, seleccione "Obtener una nueva clave". Siga las instrucciones para anotar o imprimir la nueva clave personal y seleccione "Continuar" para finalizar el proceso. No olvide que solo puede solicitar una nueva clave personal si puede iniciar sesión en su cuenta de login.gov.
 
       Guarde su clave personal en un lugar seguro, ya que es la única manera de iniciar sesión si no puede recibir un código de seguridad. Entre las formas más adecuadas de conservar su clave personal se incluyen anotarla, tomar una captura de pantalla, pegarla en un documento seguro o imprimirla. Solo puede usar cada clave personal una sola vez, después de lo cual le daremos otra.
     change-my-email-address: Para cambiar la dirección de correo electrónico
@@ -296,7 +296,7 @@ help_pages:
       el número de teléfono nuevo. login.gov le enviará inmediatamente su código de
       seguridad para confirmar el número de teléfono nuevo.
     change-my-phone-number: |-
-      Para cambiar el número de teléfono en el que obtener el código de seguridad, vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Administrar cuenta" para iniciar sesión en su cuenta de login.gov. Una vez que haya iniciado sesión, seleccione "editar" junto al número de teléfono. Introduzca el número de teléfono y seleccione "confirmar el cambio". login.gov enviará inmediatamente su código de seguridad para confirmar el nuevo número de teléfono.
+      Para cambiar el número de teléfono en el que obtener el código de seguridad, vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Inicia sesión" en su cuenta de login.gov. Una vez que haya iniciado sesión, seleccione "editar" junto al número de teléfono. Introduzca el número de teléfono y seleccione "confirmar el cambio". login.gov enviará inmediatamente su código de seguridad para confirmar el nuevo número de teléfono.
 
       Si no puede recibir el código de seguridad porque no tiene acceso a su teléfono, deberá iniciar sesión con su [clave personal](site.baseurl/help/creating-an-account/personal-key/), si se le asignó uno y sigue siendo válido, o con otro [método de autenticación de dos factores](site.baseurl/help/creating-an-account/two-factor-authentication/) que haya preparado.
   creating-an-account:
@@ -605,7 +605,7 @@ help_pages:
     change-account-settings: |-
       Para realizar cambios y actualizar la información relacionada con su cuenta de login.gov (correo electrónico, número de teléfono, clave personal, etc.), debe iniciar sesión en su cuenta de login.gov:
 
-        1. Vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Administrar cuenta".
+        1. Vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Inicia sesión".
         2. Inicie sesión con sus credenciales de login.gov
 
       Una vez que haya iniciado sesión, podrá editar y actualizar su información de login.gov.
@@ -653,7 +653,7 @@ help_pages:
       Si ya es usuario de SAM y no ve su perfil de SAM.gov después de iniciar sesión, esto significa que no ha utilizado la misma dirección de correo electrónico con la que se registró en SAM.gov. Para actualizar su dirección de correo electrónico de tal manera que coincida con su correo electrónico registrado en SAM.gov, deberá:
 
         1. Ir a [https://www.login.gov/](https://www.login.gov/) y
-        2. Seleccionar "Administrar cuenta" para iniciar sesión.
+        2. Seleccionar "Inicia sesión"
         3. Seleccionar "editar" al lado de su correo electrónico
         4. Introducir la dirección de correo electrónico correcta y seleccionar "actualizar".
         5. Se le enviará un correo electrónico de confirmación. Debe abrir y seleccionar el enlace de confirmación para terminar de actualizar su correo electrónico.
@@ -673,7 +673,7 @@ help_pages:
     how-do-i-protect-my-logingov-account-with-a-security-key: |-
       Para configurar una clave de seguridad con su cuenta login.gov, primero debe tener una clave de seguridad que admita el [estándar FIDO](https://fidoalliance.org/fido2/){:target="_blank"}. Si actualmente no tiene una cuenta de login.gov, se le dará la opción de proteger su cuenta con una clave de seguridad durante la creación de la cuenta. Una vez que haya confirmado su dirección de correo electrónico y haya creado su contraseña, seleccione "Llave de seguridad" y siga las instrucciones para darle un apodo a su llave, conecte la clave para registrarla.
 
-      Si ya tiene una cuenta de login.gov, puede agregar su clave de seguridad iniciando sesión en su cuenta de login.gov. Vaya a [https://login.gov/](https://login.gov/){:target="_blank"} y haga clic en “administrar cuenta”. Inicie sesión y seleccione “Agregar clave de seguridad de hardware”. Se le solicitará que le dé un apodo a su clave de seguridad, conéctela y presione el botón para registrarse.
+      Si ya tiene una cuenta de login.gov, puede agregar su clave de seguridad iniciando sesión en su cuenta de login.gov. Vaya a [https://login.gov/](https://login.gov/){:target="_blank"} y haga clic en “Inicia sesión”. Seleccione “Agregar clave de seguridad de hardware”. Se le solicitará que le dé un apodo a su clave de seguridad, conéctela y presione el botón para registrarse.
 
       Cada vez que inicie sesión en login.gov, le pediremos que utilice su clave de seguridad. Si no tiene su clave de seguridad, también puede usar cualquier otro método de autenticación que haya habilitado. Recomendamos habilitar múltiples claves de seguridad y / u otros métodos de dos factores para que no quede bloqueado de su cuenta.
   signing-in:

@@ -303,11 +303,11 @@ help_pages:
 
       [Read more on how to add or remove an email address](site.baseurl/help/changing-settings/add-or-remove-email-address/)
     change-my-password: |-
-      To change your password, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Select “Edit” next to password, enter the new password and submit your change. Passwords must be at least 12 characters but otherwise there are no restrictions. You can even use more than one word with spaces to get to 12 characters. Try making a long and complex password by using a phrase or a series of words that only you recognize. And please make it different than any other passwords you use to sign into other accounts such as your bank account or email. Using the same passwords for your email, financial and social media accounts makes identity theft easier.
+      To change your password, go to [https://www.login.gov/](https://www.login.gov/) and select z” to sign into your login.gov account. Select “Edit” next to password, enter the new password and submit your change. Passwords must be at least 12 characters but otherwise there are no restrictions. You can even use more than one word with spaces to get to 12 characters. Try making a long and complex password by using a phrase or a series of words that only you recognize. And please make it different than any other passwords you use to sign into other accounts such as your bank account or email. Using the same passwords for your email, financial and social media accounts makes identity theft easier.
 
       [Read more on how to reset your password](site.baseurl/help/signing-in/forgot-my-password/)
     change-my-phone-number: |-
-      To change the phone number where you get your security code, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Once signed in, click on “Manage” next to the phone number. Enter the phone number and select “confirm change.” login.gov will immediately send your security code to confirm the new phone number.
+      To change the phone number where you get your security code, go to [https://www.login.gov/](https://www.login.gov/) and select “Sign In” to access your login.gov account. Once signed in, click on “Manage” next to the phone number. Enter the phone number and select “confirm change.” login.gov will immediately send your security code to confirm the new phone number.
 
       If you cannot receive the security code because you don't have access to your phone, you will need to sign in using your [personal key](site.baseurl/help/creating-an-account/personal-key/), if you were assigned one and it's still valid, or using another [two-factor authentication method](site.baseurl/help/creating-an-account/two-factor-authentication/) you've set up.
     turn-off-two-factor-authentication: |-
@@ -645,7 +645,7 @@ help_pages:
     change-account-settings: |-
       To make changes and updates to information tied to your login.gov account (email, phone number, personal key, etc.), you must sign in to your login.gov account:
 
-        1. Go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account”
+        1. Go to [https://www.login.gov/](https://www.login.gov/) and select “Sign In”
         2. Sign in using your login.gov credentials
 
       Once logged in, you will be able to edit and update your login.gov information.
@@ -692,7 +692,7 @@ help_pages:
       If you are an existing SAM user and don’t see your SAM.gov profile after signing in, this means you did not use the same email address you registered with SAM.gov. To update your email address to match your SAM.gov registered email you’ll need to:
 
         1. Go to [https://www.login.gov/](https://www.login.gov/) and
-        2. select “Manage Account” to sign in
+        2. select “Sign In” to access your account
         3. select “edit” next to your email
         4. Enter the correct email address and select “update”
         5. You will be sent a confirmation email. You must open and select the confirmation link to finish updating your email
