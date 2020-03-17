@@ -94,10 +94,7 @@
     <div class="usa-nav__secondary">
       <div class="usa-nav__secondary-container">
         <ul class="usa-nav__secondary-links">
-          <li class="usa-nav__secondary-item">
-            <a href="{% if site.lang != 'en' %}https://secure.login.gov/{{site.lang}}/sign_up/enter_email{% else %}https://secure.login.gov/sign_up/enter_email{% endif %}">{% t nav.create_account %}</a>
-          </li>
-          <li class="usa-nav__secondary-item">
+          <li class="usa-nav__secondary-item b">
             <a href="{% if site.lang != 'en' %}https://secure.login.gov/{{site.lang}}/{% else %}https://secure.login.gov/{% endif %}">{% t nav.sign_in %}</a>
           </li>
         </ul>
