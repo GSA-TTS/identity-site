@@ -82,8 +82,10 @@ contact_page:
       site_navigation: Navigation du site
       unwanted_otp: Multiples OTP
       wrong_account_update: Mise à jour de compte erronée
-    alert_banner:
-    alert_banner_link:
+    alert_banner: Nous ne pouvons pas envoyer de lettres de vérification de l’imprimerie 
+      du gouvernement aux utilisateurs de la Railroad Retirement Board (RRB) qui tentent 
+      de vérifier leur identité en ligne. Veuillez contacter
+    alert_banner_link: RRB pour obtenir de l'aide
     title: Contactez l'équipe login.gov
     topics:
       account_linking: Lien vers le compte

@@ -94,8 +94,10 @@ contact_page:
       unwanted_otp: I am receiving security codes from login.gov that I didn't request
       verify_identity_error: I got a failure trying to verify my identity
       wrong_account_update: Wrong account update
-    alert_banner: 
-    alert_banner_link:
+    alert_banner: We are unable to send Government Printing Office verification 
+      letters to those Railroad Retirement Board (RRB) users who are attempting to 
+      verify their identities online. Please contact
+    alert_banner_link: RRB for assistance
     title: Contact the login.gov team
     topics:
       account_linking: Linking your login.gov account to your profile
