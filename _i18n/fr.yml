@@ -870,7 +870,7 @@ help_pages:
       3. Vous recevrez immédiatement une confirmation par e-mail vous informant que votre demande de suppression a bien été reçue. À titre de mesure de sécurité, vous recevrez un autre e-mail avec le lien servant à confirmer la suppression de votre compte 24 heures après avoir reçu la confirmation initiale.
       4. Après avoir supprimé votre compte, allez à [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/) pour créer un nouveau compte.
       5. Une fois que vous avez créé un nouveau compte, remplissez l'information à la page du profil du compte et au bas, vous verrez une section pour les applications précédentes. Sous « Avez-vous déjà soumis une demande pour l'obtention d'un accès Global Entry, NEXUS ou SENTRI ? », sélectionnez « Oui ».
-      6. Vous serez en mesure d'établir un lien entre ce nouveau compte et votre ancien compte GOES en fournissant votre PASSID. Si vous éprouvez des difficultés avec votre PASSID, veuillez contacter CBP directement : [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask).
+      6. Vous serez en mesure d'établir un lien entre ce nouveau compte et votre ancien compte GOES en fournissant votre PASSID. Si vous éprouvez des difficultés avec votre PASSID, veuillez contacter CBP directement : [https://help.cbp.gov/app/ask](https://help.cbp.gov/s/questions).
     scheduling-an-appointment: |-
       La meilleure façon de prendre un rendez-vous est d'utiliser le site Trusted Traveler Programs.
 
@@ -878,11 +878,11 @@ help_pages:
 
       Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
     cant-sign-in-or-reset-my-password-goes-account: |-
-      Vous ne serez plus en mesure d'utiliser votre identifiant d'utilisateur et votre mot de passe GOES pour vous connecter. Veuillez créer un nouveau compte login.gov. Vous serez en mesure de lier ce nouveau compte à votre ancien compte GOES en indiquant votre PASSID. Si vous rencontrez des difficultés avec votre PASSID, veuillez contacter CBP directement : [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. Aucun numéro de carte de crédit ou paiement ne vous sera demandé.
+      Vous ne serez plus en mesure d'utiliser votre identifiant d'utilisateur et votre mot de passe GOES pour vous connecter. Veuillez créer un nouveau compte login.gov. Vous serez en mesure de lier ce nouveau compte à votre ancien compte GOES en indiquant votre PASSID. Si vous rencontrez des difficultés avec votre PASSID, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions](https://help.cbp.gov/s/questions){:target="_blank"}. Aucun numéro de carte de crédit ou paiement ne vous sera demandé.
 
       Pour créer un nouveau compte :
 
-      1. Veuillez visiter [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}
+      1. Veuillez visiter [https://ttp.dhs.gov](https://ttp.dhs.gov){:target="_blank"}
       2. Si vous êtes un nouvel utilisateur, sélectionnez « Commencer » au milieu de la page. Si vous êtes déjà inscrit, sélectionnez « CONNEXION » en haut à droite de la page.
       3. Sélectionnez « Accepter et continuer ».
       4. Sélectionnez « Créer un compte ».
