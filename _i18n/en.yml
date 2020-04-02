@@ -1157,7 +1157,6 @@ meta:
     description: U.S. government agencies can take advantage of login.gov’s authentication and identity proofing platform. Find out more about login.gov’s offerings and opportunities.
     title: Why login.gov
 nav:
-  create_account: Create an account
   help: Help
   home: Home
   implementation: Implementation
