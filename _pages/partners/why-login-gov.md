@@ -14,6 +14,7 @@ class: relative
 </div>
 <div class="bg-white">
   <div class="container cntnr-wide px2 pt4 pb5">
+    {% include covid_banner.html %}
     <div class="clearfix">
           <nav id="pb-nav--side-cntnr" class="sm-col-right sm-col-4 sm-show">
         <ul id="pb-nav--side" class="list-reset nav">
