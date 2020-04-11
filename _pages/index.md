@@ -16,7 +16,6 @@ image: /assets/img/login-gov-600x314.png
 
 <div class="bg-white">
   <div class="container cntnr-wide px2 pt3 pb2">
-    {% include covid_banner.html %}
     <div class="clearfix mxn2">
       <div class="col sm-col-4 px2 sm-mb3 mb2">
         <img alt="" src="{{ site.baseurl }}/assets/img/users.svg" height="90">
