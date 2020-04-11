@@ -22,7 +22,6 @@ description: meta.partners.description
 
 <div class="bg-white">
   <div class="container cntnr-wide px2 pt4 pb2">
-    {% include covid_banner.html %}
     <div class="clearfix mxn3">
       <div class="sm-col sm-col-4 px3">
         <h2 class="mt0 mb2 pb2 gray border-bottom border-light-blue" markdown="1">
