@@ -100,6 +100,6 @@ playbook:
    - anchor: security
      img: graphic-hex
      text: Create responsive security systems
-baseurl: 
+baseurl:
 
 url: https://www.login.gov
