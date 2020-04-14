@@ -30,8 +30,13 @@ header {
   }
 }
 
-@media (min-width: $container-width) {
+//@media (min-width: $container-width) {
+@media (min-width: 768px) {
   p.black {
     float: left;
+
+    div {
+      float: left;
+    }
   }
 }
