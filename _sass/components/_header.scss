@@ -31,12 +31,14 @@ header {
 }
 
 //@media (min-width: $container-width) {
-@media (min-width: 768px) {
-  p.black {
-    float: left;
+@media (min-width: 785px) {
+  .covid {
+    //width: auto;
+  }
 
-    div {
-      float: left;
-    }
+  .maxw-full {
+    //float: left;
+    border: 1px solid red;
   }
 }
+
