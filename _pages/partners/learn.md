@@ -14,6 +14,7 @@ description: Learn about login.gov
   </div>
 </div>
 
+<div class="bg-white">
 
   <div class="container cntnr-wide px2 pt4 pb2" markdown="1">
 
