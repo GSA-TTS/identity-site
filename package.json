@@ -26,7 +26,7 @@
   "main": "webpack.config.js",
   "keywords": [],
   "devDependencies": {
-    "nodemon": "^1.15.1"
+    "nodemon": "^1.19.4"
   },
   "dependencies": {
     "aria-accordion": "^1.1.0",
@@ -37,7 +37,7 @@
     "basscss-sass": "^3.0.0",
     "bootstrap": "^3.4.0",
     "hint.css": "^2.5.0",
-    "identity-style-guide": "^2.2.2",
+    "identity-style-guide": "^2.2.3",
     "jquery": "^3.5.0",
     "node-sass": "^4.13.1",
     "normalize.css": "^4.2.0",
