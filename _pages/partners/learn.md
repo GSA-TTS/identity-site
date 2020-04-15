@@ -14,12 +14,6 @@ description: Learn about login.gov
   </div>
 </div>
 
-<div class="bg-white">
-<!--- begin covid banner holder --->
-  <div class="container cntnr-wide px2 pt4 pb2">
-    {% include covid_banner.html %}
-</div>
-<!--- end covid banner holder --->
 
   <div class="container cntnr-wide px2 pt4 pb2" markdown="1">
 
