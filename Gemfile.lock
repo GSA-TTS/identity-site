@@ -35,6 +35,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -46,7 +48,7 @@ GEM
     mercenary (0.3.6)
     method_source (0.9.0)
     mini_portile2 (2.4.0)
-    nokogiri (1.10.4)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
@@ -87,6 +89,7 @@ DEPENDENCIES
   jekyll
   jekyll-multiple-languages-plugin
   jekyll-redirect-from
+  jekyll-sitemap
   nokogiri (~> 1.10)
   pry
   rb-readline

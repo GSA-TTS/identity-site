@@ -26,7 +26,7 @@ scripts:
 
 # Styles
 styles:
-  - /assets/stylesheets/build/main.css
+  - /assets/stylesheets/main.css
 
 # Build settings
 kramdown:
@@ -38,6 +38,10 @@ defaults:
     path: "_help"
   values:
     layout: help
+- scope:
+    path: "_pages/partners"
+  values:
+    layout: partners
 - scope:
     path: ""
   values:
@@ -65,9 +69,11 @@ keep_files:
 plugins:
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
+  - jekyll-sitemap
 
 help_pages:
 - creating-an-account
+- authentication-methods
 - verifying-your-identity
 - signing-in
 - changing-settings
@@ -95,3 +101,5 @@ playbook:
      img: graphic-hex
      text: Create responsive security systems
 baseurl:
+
+url: https://www.login.gov

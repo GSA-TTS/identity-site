@@ -30,3 +30,9 @@ html {
   height: 0;
   visibility: hidden;
 }
+
+footer {
+  .flex-auto {
+    flex: 1 1 auto;
+  }
+}

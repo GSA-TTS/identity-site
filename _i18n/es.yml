@@ -5,6 +5,9 @@
   heading: La página que buscaba no existe.
 banner:
   text: Un sitio oficial del Gobierno de Estados Unidos
+  covid:
+    question: ¿Tiene su agencia una necesidad urgente relacionada con los esfuerzos de respuesta de COVID-19?
+    button: Contacto login.gov sociedades
 contact_page:
   content: |-
     Estamos experimentando un tráfico extremadamente alto debido al lanzamiento del programa Trusted Traveler hoy. Gracias por su paciencia mientras trabajamos para mejorar el rendimiento de nuestro sistema.
@@ -81,6 +84,10 @@ contact_page:
       site_navigation: Navegación en la página web
       unwanted_otp: Múltiples pedidos de pago
       wrong_account_update: Actualización de la cuenta errónea
+    alert_banner: No podemos enviar cartas de verificación de la Imprenta del Gobierno a 
+      los usuarios de la Junta de Railroad Retirement Board (RRB) que intentan verificar sus 
+      identidades en línea. Póngase en contacto con
+    alert_banner_link: RRB para obtener ayuda
     title: Póngase en contacto con el equipo de login.gov
     topics:
       account_linking: Vinculación de cuenta
@@ -129,6 +136,8 @@ help:
     multiple-accounts-to-verifying-my-identity-for: "¿Por qué
       tengo que usar login.gov para acceder a los servicios del Gobierno en línea?"
     email-address-confirmation-link-is-invalid: "El enlace para confirmar mi correo electrónico no es válido"
+  authentication-methods:
+    which-authentication-method-should-i-use: "¿Qué método de autenticación debo usar?"
   verifying-your-identity:
     phone-plan-is-not-in-my-name-or-address: "Mi plan telefónico no está a mi nombre o dirección"
     why-do-i-need-to-verify-my-identity: ¿Por qué necesito verificar mi identidad?
@@ -270,7 +279,7 @@ help_pages:
       [Lee cómo vincular de nuevo a tu perfil de Trusted Traveler](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
       [Lee cómo vincular de nuevo a tu perfil de SAM](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
     get-a-new-personal-key: |-
-      Para solicitar una nueva clave personal, vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Administrar cuenta" para acceder a la página de su cuenta de login.gov. Al lado de la clave personal, seleccione "Obtener una nueva clave". Siga las instrucciones para anotar o imprimir la nueva clave personal y seleccione "Continuar" para finalizar el proceso. No olvide que solo puede solicitar una nueva clave personal si puede iniciar sesión en su cuenta de login.gov.
+      Para solicitar una nueva clave personal, vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Inicia sesión" para acceder a la página de su cuenta de login.gov. Al lado de la clave personal, seleccione "Obtener una nueva clave". Siga las instrucciones para anotar o imprimir la nueva clave personal y seleccione "Continuar" para finalizar el proceso. No olvide que solo puede solicitar una nueva clave personal si puede iniciar sesión en su cuenta de login.gov.
 
       Guarde su clave personal en un lugar seguro, ya que es la única manera de iniciar sesión si no puede recibir un código de seguridad. Entre las formas más adecuadas de conservar su clave personal se incluyen anotarla, tomar una captura de pantalla, pegarla en un documento seguro o imprimirla. Solo puede usar cada clave personal una sola vez, después de lo cual le daremos otra.
     change-my-email-address: Para cambiar la dirección de correo electrónico
@@ -290,7 +299,7 @@ help_pages:
       el número de teléfono nuevo. login.gov le enviará inmediatamente su código de
       seguridad para confirmar el número de teléfono nuevo.
     change-my-phone-number: |-
-      Para cambiar el número de teléfono en el que obtener el código de seguridad, vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Administrar cuenta" para iniciar sesión en su cuenta de login.gov. Una vez que haya iniciado sesión, seleccione "editar" junto al número de teléfono. Introduzca el número de teléfono y seleccione "confirmar el cambio". login.gov enviará inmediatamente su código de seguridad para confirmar el nuevo número de teléfono.
+      Para cambiar el número de teléfono en el que obtener el código de seguridad, vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Inicia sesión" en su cuenta de login.gov. Una vez que haya iniciado sesión, seleccione "editar" junto al número de teléfono. Introduzca el número de teléfono y seleccione "confirmar el cambio". login.gov enviará inmediatamente su código de seguridad para confirmar el nuevo número de teléfono.
 
       Si no puede recibir el código de seguridad porque no tiene acceso a su teléfono, deberá iniciar sesión con su [clave personal](site.baseurl/help/creating-an-account/personal-key/), si se le asignó uno y sigue siendo válido, o con otro [método de autenticación de dos factores](site.baseurl/help/creating-an-account/two-factor-authentication/) que haya preparado.
   creating-an-account:
@@ -335,26 +344,49 @@ help_pages:
 
       ### Configure una segunda barrera de seguridad
       Después, configurará un factor de autenticación secundario. El segundo paso mantiene su cuenta más segura que con solo usar una contraseña. Puede elegir entre mensajes de texto, llamadas telefónicas, una aplicación de autenticación, una clave de seguridad o códigos de respaldo. Los empleados del gobierno también pueden usar sus tarjetas PIV (verificación de identidad personal) o CAC (tarjeta de acceso común).
+
+      Login.gov utiliza la autenticación de dos factores (TFA) o la autenticación de múltiples factores (MFA), como una capa adicional de protección para proteger su información más confidencial.
+
+      La autenticación de dos factores se puede realizar de varias maneras y cada una tiene un nivel de seguridad diferente. Puede elegir entre mensajes de texto, llamadas telefónicas, una aplicación de autenticación, una clave de seguridad o códigos de respaldo. Los empleados del gobierno también pueden usar sus tarjetas PIV o CAC.
+
+      Le recomendamos que revise las opciones disponibles y seleccione la opción más segura para usted.
+
+      [Obtenga más información sobre cada método de autenticación.](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/)
+
       <img src="site.baseurl/assets/img/help/2nd_factor_options.png" class="mt3 mb3 block" alt="2nd factor options help image" />
 
+      #### Aplicación de autenticación
+      Las aplicaciones de autenticación se descargan en su dispositivo y generan códigos seguros de 6 dígitos que puede usar para iniciar sesión en sus cuentas. A diferencia de las llamadas telefónicas o los mensajes de texto / SMS, un hacker necesitaría acceso físico a su teléfono celular para usar el código.
+
+      Si bien las aplicaciones de autenticación no están protegidas si su dispositivo se pierde o es robado, estas aplicaciones ofrecen más seguridad que las llamadas telefónicas o los mensajes de texto / SMS contra el phishing, la piratería o la intercepción.
+
+      Si elige usar esta opción segura, puede descargar e instalar una de las aplicaciones compatibles y configurarla para que funcione con login.gov. Aprenda a configurar una aplicación de autenticación.
+      [Lea más sobre cómo configurar una aplicación de autenticación.](site.baseurl/help/creating-an-account/authentication-application/)
+
+      <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
+
+      #### Llave de seguridad
+      Una clave de seguridad suele ser un dispositivo físico, como un USB, que se conecta a la computadora. La clave está vinculada a sus cuentas y solo otorgará acceso a esas cuentas una vez que la clave esté enchufada y activada. Dado que una clave de seguridad no depende de su teléfono celular, tiene el más alto nivel de protección contra phishing y protecciones integradas contra piratería si se pierde o es robada.
+
+      Login.gov requiere claves de seguridad que cumplan con los estándares de FIDO. También puede agregar tantas claves de seguridad como desee para asegurar su cuenta.
+
+      Para utilizar esta opción segura para la autenticación, conecte la clave a un puerto USB y asigne un nombre a la clave para identificarla dentro de su cuenta login.gov. El siguiente paso le pedirá que active su clave. Esto generalmente se hace presionando un botón en la tecla.
+      <img src="site.baseurl/assets/img/help/security_key.png" class="mt3 mb3 block" alt="Security key help image" />
+
       #### Mensaje de texto/SMS o llamada telefónica
+      Los mensajes de texto / SMS o las llamadas telefónicas son convenientes, pero son extremadamente vulnerables a robos, piratas informáticos y otros ataques.
 
       Si usted selecciona el mensaje de texto/SMS o llamada telefónica como segundo factor de autenticación, ingrese un número telefónico en el cual pueda recibir llamadas telefónicas o mensajes de texto. Si tiene un teléfono fijo, debe recibir su código de seguridad por llamada telefónica. login.gov no puede enviar códigos de seguridad a las extensiones.
       Enviaremos un código de seguridad único a ese número telefónico cada vez que inicie sesión en su cuenta.
       <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
+
       Cada código de seguridad caduca a los 10 minutos y solo se puede utilizar una vez. Si no ingresa el código de seguridad en 10 minutos, solo solicite un código nuevo. Cada código solo es válido una vez, por lo que nadie puede robar uno que ya haya usado.
       <img src="site.baseurl/assets/img/help/text-confirmation-code.png" class="mt3 mb3 block" alt="Phone text confirmation code help image" />
 
-      #### Aplicación de autenticación
-      Para usar una aplicación de autenticación, primero debe instalar una de las aplicaciones compatibles y configurarla para que trabaje con login.gov [Lea más sobre cómo configurar una aplicación de autenticación.](site.baseurl/help/creating-an-account/authentication-application/)
-      <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
-
-      #### Llave de seguridad
-      Su clave de seguridad debe ser compatible con el estándar FIDO. Puede agregar tantas claves de seguridad como desee. Una vez que conecte su clave a su computadora, usualmente conectándola a un puerto USB, asigne un nombre a la clave para así identificarla dentro de su cuenta en login.gov. El siguiente paso le pedirá que active su cuenta. Por lo general, esto se hace presionando un botón en la misma clave.
-      <img src="site.baseurl/assets/img/help/security_key.png" class="mt3 mb3 block" alt="Security key help image" />
-
       #### Códigos de respaldo
-      Los códigos de respaldo son otro método de autenticación. Cuando elija usar los códigos de respaldo como su segundo factor, login.gov le generará una serie de 10 códigos. Después de que inicie sesión con su nombre de usuario y contraseña, se le pedirá un código. Cada código puede usarse una vez, y cuando se haya usado el décimo, se le pedirá que descargue una lista nueva. Trate sus códigos de recuperación con el mismo nivel de atención que le daría a su contraseña.
+      Si bien los códigos de respaldo son una opción accesible para los usuarios que no tienen acceso telefónico, estos códigos son la opción menos segura para la autenticación de dos factores. Los códigos de respaldo deben imprimirse o escribirse, lo que los hace más vulnerables al robo y al phishing.
+
+      Si elige seleccionar esta opción menos segura, login.gov generará un conjunto de 10 códigos. Después de iniciar sesión con su nombre de usuario y contraseña, se le solicitará un código. Cada código solo se puede usar una vez, una vez que se haya usado el décimo código, se le pedirá que descargue una nueva lista. Trate sus códigos de recuperación con el mismo nivel de atención que lo haría con su contraseña.
       <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
     no-phone-or-other-authentication-method: |-
       login.gov requiere que los usuarios configuren dos formas de métodos de autenticación de dos factores al crear una cuenta. Sin embargo, si no tiene acceso a un teléfono, una aplicación de autenticación, una clave de seguridad o una identificación de empleado del gobierno (tarjeta PIV / CAC), puede configurar su cuenta solo con códigos de respaldo.
@@ -436,6 +468,49 @@ help_pages:
       Si el enlace de confirmación sigue sin ser válido y ha seguido los pasos descritos anteriormente, es posible que su proveedor de correo electrónico haya codificado el enlace. Una forma de determinar si ha sucedido esto es copiando y pegando el enlace de confirmación en su navegador. Si hay símbolos o palabras inusuales en el enlace, quítelos y pulse "Intro".
 
       Para obtener ayuda adicional, envíe un correo electrónico a [hello@login.gov](mailto:hello@login.gov).
+  authentication-methods:
+    which-authentication-method-should-i-use: |-
+      Login.gov utiliza la autenticación de dos factores (TFA) o la autenticación de múltiples factores (MFA), como una capa adicional de protección para proteger su información más confidencial.
+
+      La autenticación de dos factores se puede realizar de varias maneras y cada una tiene un nivel de seguridad diferente. Puede elegir entre mensajes de texto, llamadas telefónicas, una aplicación de autenticación, una clave de seguridad o códigos de respaldo. Los empleados del gobierno también pueden usar sus tarjetas PIV o CAC.
+
+      Le recomendamos que revise las opciones disponibles y seleccione la opción más segura para usted.
+
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">MÁS SEGURIDAD</div>
+        <h3>Clave de seguridad</h3>
+        <p class="bold mt1">Más seguro contra phishing y piratas informáticos con protecciones integradas contra robo.</p>
+        <p>Una clave de seguridad suele ser un dispositivo físico, como un USB, que se conecta a la computadora. La clave está vinculada a sus cuentas y solo otorgará acceso a esas cuentas una vez que la clave esté enchufada y activada. Dado que una clave de seguridad no depende de su teléfono celular, tiene el más alto nivel de protección contra phishing y protecciones integradas contra piratería si se pierde o es robada.</p>
+      </div>
+
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">MÁS SEGURIDAD</div>
+        <h3>PIV/CAC para empleados militares y federales</h3>
+        <p class="bold mt1">Más seguro contra phishing y piratas informáticos con protecciones integradas contra robo.</p>
+        <p>Las tarjetas inteligentes físicas PIV y CAC son opciones seguras para el personal militar y los empleados federales. Estas tarjetas, con tecnología de chip encriptado, son resistentes al phishing y difíciles de hackear si son robadas.</p>
+      </div>
+
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">MÁS SEGURIDAD</div>
+        <h3>Aplicación de autenticación</h3>
+        <p class="bold mt1">Más seguro contra phishing y piratas informáticos, pero con menos protección contra el robo.</p>
+        <p>Las aplicaciones de autenticación se descargan en su dispositivo y generan códigos seguros de 6 dígitos que puede usar para iniciar sesión en sus cuentas. A diferencia de las llamadas telefónicas o los mensajes de texto / SMS, un hacker necesitaría acceso físico a su teléfono celular para usar el código.</p>
+        <p>Si bien las aplicaciones de autenticación no están protegidas si su dispositivo se pierde o es robado, estas aplicaciones ofrecen más seguridad que las llamadas telefónicas o los mensajes de texto / SMS contra el phishing, la piratería o la intercepción.</p>
+      </div>
+
+      <div class="mt3">
+        <h3>Mensaje de texto / SMS o llamada telefónica</h3>
+        <p class="bold mt1">Menos seguro contra phishing, hacks y robos.</p>
+        <p>Los mensajes de texto / SMS o las llamadas telefónicas son convenientes, pero son extremadamente vulnerables a robos, piratas informáticos y otros ataques.</p>
+      </div>
+
+      <div class="my3">
+        <div class="usa-tag caps float-right bg-info-dark">MENOS SEGURIDAD</div>
+        <h3>Códigos de respaldo</h3>
+        <p class="bold mt1">Menos seguro contra phishing, piratas informáticos y más subjetivo al robo.</p>
+        <p>Si bien los códigos de respaldo son una opción accesible para los usuarios que no tienen acceso telefónico, estos códigos son la opción menos segura para la autenticación de dos factores. Los códigos de respaldo deben imprimirse o escribirse, lo que los hace más vulnerables al robo y al phishing.</p>
+      </div>
+
   verifying-your-identity:
     phone-plan-is-not-in-my-name-or-address: |-
       Si no podemos verificar automáticamente su dirección, debe verificarla por correo. Esto significa que le enviaremos una carta con un código de confirmación que debe usar para terminar de configurar su cuenta.
@@ -533,7 +608,7 @@ help_pages:
     change-account-settings: |-
       Para realizar cambios y actualizar la información relacionada con su cuenta de login.gov (correo electrónico, número de teléfono, clave personal, etc.), debe iniciar sesión en su cuenta de login.gov:
 
-        1. Vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Administrar cuenta".
+        1. Vaya a [https://www.login.gov/](https://www.login.gov/) y seleccione "Inicia sesión".
         2. Inicie sesión con sus credenciales de login.gov
 
       Una vez que haya iniciado sesión, podrá editar y actualizar su información de login.gov.
@@ -581,7 +656,7 @@ help_pages:
       Si ya es usuario de SAM y no ve su perfil de SAM.gov después de iniciar sesión, esto significa que no ha utilizado la misma dirección de correo electrónico con la que se registró en SAM.gov. Para actualizar su dirección de correo electrónico de tal manera que coincida con su correo electrónico registrado en SAM.gov, deberá:
 
         1. Ir a [https://www.login.gov/](https://www.login.gov/) y
-        2. Seleccionar "Administrar cuenta" para iniciar sesión.
+        2. Seleccionar "Inicia sesión"
         3. Seleccionar "editar" al lado de su correo electrónico
         4. Introducir la dirección de correo electrónico correcta y seleccionar "actualizar".
         5. Se le enviará un correo electrónico de confirmación. Debe abrir y seleccionar el enlace de confirmación para terminar de actualizar su correo electrónico.
@@ -601,7 +676,7 @@ help_pages:
     how-do-i-protect-my-logingov-account-with-a-security-key: |-
       Para configurar una clave de seguridad con su cuenta login.gov, primero debe tener una clave de seguridad que admita el [estándar FIDO](https://fidoalliance.org/fido2/){:target="_blank"}. Si actualmente no tiene una cuenta de login.gov, se le dará la opción de proteger su cuenta con una clave de seguridad durante la creación de la cuenta. Una vez que haya confirmado su dirección de correo electrónico y haya creado su contraseña, seleccione "Llave de seguridad" y siga las instrucciones para darle un apodo a su llave, conecte la clave para registrarla.
 
-      Si ya tiene una cuenta de login.gov, puede agregar su clave de seguridad iniciando sesión en su cuenta de login.gov. Vaya a [https://login.gov/](https://login.gov/){:target="_blank"} y haga clic en “administrar cuenta”. Inicie sesión y seleccione “Agregar clave de seguridad de hardware”. Se le solicitará que le dé un apodo a su clave de seguridad, conéctela y presione el botón para registrarse.
+      Si ya tiene una cuenta de login.gov, puede agregar su clave de seguridad iniciando sesión en su cuenta de login.gov. Vaya a [https://login.gov/](https://login.gov/){:target="_blank"} y haga clic en “Inicia sesión”. Seleccione “Agregar clave de seguridad de hardware”. Se le solicitará que le dé un apodo a su clave de seguridad, conéctela y presione el botón para registrarse.
 
       Cada vez que inicie sesión en login.gov, le pediremos que utilice su clave de seguridad. Si no tiene su clave de seguridad, también puede usar cualquier otro método de autenticación que haya habilitado. Recomendamos habilitar múltiples claves de seguridad y / u otros métodos de dos factores para que no quede bloqueado de su cuenta.
   signing-in:
@@ -779,11 +854,11 @@ help_pages:
 
       Si tiene preguntas adicionales relacionadas con "Viajeros de confianza" como estas, póngase en contacto directamente con CBP: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
     cant-sign-in-or-reset-my-password-goes-account: |-
-      Ya no podrá utilizar su n.º de usuario y su contraseña de GOES para iniciar sesión. Cree una nueva cuenta en login.gov. Podrá vincular esta nueva cuenta con su antigua cuenta de GOES proporcionando su PASSID. Si tiene problemas con su PASSID, póngase en contacto con CBP directamente: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. No se necesitará ninguna tarjeta de crédito ni hacer ningún pago.
+      Ya no podrá utilizar su n.º de usuario y su contraseña de GOES para iniciar sesión. Cree una nueva cuenta en login.gov. Podrá vincular esta nueva cuenta con su antigua cuenta de GOES proporcionando su PASSID. Si tiene problemas con su PASSID, póngase en contacto con CBP directamente: [https://help.cbp.gov/s/questions](https://help.cbp.gov/s/questions){:target="_blank"}. No se necesitará ninguna tarjeta de crédito ni hacer ningún pago.
 
       Para registrar una nueva cuenta:
 
-      1. Por favor, visite [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}
+      1. Por favor, visite [https://ttp.dhs.gov](https://ttp.dhs.gov){:target="_blank"}
       2. Si es un usuario nuevo, seleccione "Empezar" en el centro de la página. Si ya es un usuario registrado, seleccione "INICIAR SESIÓN" en la esquina superior derecha.
       3. Seleccione "Autorizar y continuar".
       4. Seleccione "Crear una cuenta".
@@ -1073,12 +1148,12 @@ nav:
   help: Ayuda
   home: Inicio
   implementation: Implementación
-  manage: Administrar cuenta
   menu: Menú
   overview: Resumen
   playbook: Manual
   principles: Principios
   security: Seguridad
+  sign_in: Inicia sesión
   skip_nav: Salte al contenido principal
 playbook_page:
   section_1:

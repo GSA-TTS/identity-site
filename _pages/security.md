@@ -33,7 +33,7 @@ class: bg-light-blue
         </h2>
         <p>
           {{ site.translations[site.lang]["security_page"]["column_1"]["p_1"] | replace: 'site.baseurl', site.baseurl | markdownify}}
-        </p> 
+        </p>
       </div>
       <div class="col sm-col-4 px2 sm-mb3 mb2">
         <img src="{{ site.baseurl }}/assets/img/safe-deposit.svg" alt="" height="104">
@@ -60,7 +60,7 @@ class: bg-light-blue
   </div>
 </div>
 
-<footer>
+<footer class='bg-primary-lighter'>
   <div class="container cntnr-wide serif h5">
     <div class="clearfix mxn1">
       <div class="col sm-col-12 my3">

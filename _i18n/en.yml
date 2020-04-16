@@ -5,6 +5,9 @@
   heading: The page you were looking for doesn’t exist.
 banner:
   text: An official website of the United States government
+  covid:
+    question: Does your agency have an urgent need related to COVID-19 response efforts?
+    button: Contact login.gov partnerships
 contact_page:
   content: |-
     ## Find help using login.gov
@@ -49,6 +52,7 @@ contact_page:
       topic: Issue topic
     submit: Submit
     subtopics:
+      account_locked: My account is locked for 24 hours
       add_family_member: How do I add a family member to my login.gov account?
       agency_app: Agency app issue
       authentication_app: I have an authentication app but it's not working
@@ -65,9 +69,10 @@ contact_page:
       international_number: I have an international number and am not receiviing my security code.
       invalid_email: login.gov is not accepting my email address. It says it is invalid
       invalid_otp: login.gov says my security code is invalid
+      letter_in_mail: I didn't get my letter by mail or it expired
       locked_out: I am locked out of my account
       lost_2fa_method: Lost two-factor authentication method
-      multiple_otps: I am receiving many security codes when signgin in
+      multiple_otps: I am receiving many security codes when signing in
       new_account: My email/username and password are not working.
       new_backup_codes: How do I get new backup codes?
       new_personal_key: How do I get a new personal key?
@@ -77,8 +82,9 @@ contact_page:
       other: Other
       password_issue: Password issue
       personal_key: My personal key is not working
-      personal_key_setup: Personal key setup
       personal_key_notification: I have received an alert about my personal key being used to sign in
+      personal_key_setup: Personal key setup
+      phone_number_failure: I got an failure after entering my phone number
       piv_cac: I am having trouble using my PIV/CAC to sign in
       privacy_and_security: Privacy and security
       recover_account: How do I sign into my account if I dont have my phone or personal key?
@@ -87,8 +93,14 @@ contact_page:
       security_key: I am having trouble using my security key to sign in
       service_quality: Service quality
       site_navigation: I don't know where to go to create an account
+      state_issued_id_error: I got an error after uploading my state-issued ID
       unwanted_otp: I am receiving security codes from login.gov that I didn't request
+      verify_identity_error: I got a failure trying to verify my identity
       wrong_account_update: Wrong account update
+    alert_banner: We are unable to send Government Printing Office verification 
+      letters to those Railroad Retirement Board (RRB) users who are attempting to 
+      verify their identities online. Please contact
+    alert_banner_link: RRB for assistance
     title: Contact the login.gov team
     topics:
       account_linking: Linking your login.gov account to your profile
@@ -100,6 +112,7 @@ contact_page:
       other: Other
       piv_cac: PIV/CAC issue
       signing_in: Signing into your login.gov account
+      verifying_identity: Verifying your identity
 developers_page:
   section_1:
     p_1:
@@ -168,6 +181,8 @@ help:
     no-phone-or-other-authentication-method: No phone or other authentication method
     personal-key: Personal key
     what-are-backup-codes: What are backup codes?
+  authentication-methods:
+    which-authentication-method-should-i-use: Which authentication method should I use?
   verifying-your-identity:
     why-do-i-need-to-verify-my-identity: Why do I need to verify my identity?
     how-to-verify-my-identity: How to verify my identity
@@ -291,11 +306,11 @@ help_pages:
 
       [Read more on how to add or remove an email address](site.baseurl/help/changing-settings/add-or-remove-email-address/)
     change-my-password: |-
-      To change your password, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Select “Edit” next to password, enter the new password and submit your change. Passwords must be at least 12 characters but otherwise there are no restrictions. You can even use more than one word with spaces to get to 12 characters. Try making a long and complex password by using a phrase or a series of words that only you recognize. And please make it different than any other passwords you use to sign into other accounts such as your bank account or email. Using the same passwords for your email, financial and social media accounts makes identity theft easier.
+      To change your password, go to [https://www.login.gov/](https://www.login.gov/) and select z” to sign into your login.gov account. Select “Edit” next to password, enter the new password and submit your change. Passwords must be at least 12 characters but otherwise there are no restrictions. You can even use more than one word with spaces to get to 12 characters. Try making a long and complex password by using a phrase or a series of words that only you recognize. And please make it different than any other passwords you use to sign into other accounts such as your bank account or email. Using the same passwords for your email, financial and social media accounts makes identity theft easier.
 
       [Read more on how to reset your password](site.baseurl/help/signing-in/forgot-my-password/)
     change-my-phone-number: |-
-      To change the phone number where you get your security code, go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account” to sign into your login.gov account. Once signed in, click on “Manage” next to the phone number. Enter the phone number and select “confirm change.” login.gov will immediately send your security code to confirm the new phone number.
+      To change the phone number where you get your security code, go to [https://www.login.gov/](https://www.login.gov/) and select “Sign In” to access your login.gov account. Once signed in, click on “Manage” next to the phone number. Enter the phone number and select “confirm change.” login.gov will immediately send your security code to confirm the new phone number.
 
       If you cannot receive the security code because you don't have access to your phone, you will need to sign in using your [personal key](site.baseurl/help/creating-an-account/personal-key/), if you were assigned one and it's still valid, or using another [two-factor authentication method](site.baseurl/help/creating-an-account/two-factor-authentication/) you've set up.
     turn-off-two-factor-authentication: |-
@@ -332,10 +347,39 @@ help_pages:
 
       ### Configure a second layer of security
       Next, you will configure a secondary authentication method. The second step keeps your account more secure than using only a password. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
+
+      Login.gov uses two-factor authentication (TFA), or multi-factor authentication (MFA), as an added layer of protection to secure your most sensitive information.
+
+      Two-factor authentication can be done in multiple ways and each has a different level of security. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
+
+      We encourage you to review the available options and select the most secure option for you.
+
+      [Learn more about each authentication method.](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/)
+
       <img src="site.baseurl/assets/img/help/2nd_factor_options.png" class="mt3 mb3 block" alt="2nd factor options help image" />
 
+      #### Authentication application
+      Authentication apps are downloaded to your device and generate secure, 6-digit codes you can use to log in to your accounts. Unlike phone calls or text messaging/SMS, a hacker would need physical access to your cell phone in order to use the code.
+
+      While authentication apps are not protected if your device is lost or stolen, these apps offer more security than phone calls or text messaging/SMS against phishing, hacking or interception.
+
+      If you choose to use this secure option, you can download and install one of the supported applications and configure it to work with login.gov. Learn how to set up an authentication app.
+      [Read more on how to set up an authentication app.](site.baseurl/help/creating-an-account/authentication-application/)
+
+      <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
+
+      #### Security key
+      A security key is typically a physical device, like a USB, that you plug into your computer. The key is linked to your accounts and will only grant access to those accounts once the key is plugged in and activated. Since a security key does not rely on your cell phone, it has the highest level of protection against phishing and built in protections against hacking if it is lost or stolen.
+
+      Login.gov requires security keys that meet the FIDO standards. You can also add as many security keys as you want to secure your account.
+
+      To use this secure option for authentication, plug the key into a USB port and assign the key a name to identify it within your login.gov account. The next step will ask you to activate your key. This is generally done by pressing a button on the key itself.
+      <img src="site.baseurl/assets/img/help/security_key.png" class="mt3 mb3 block" alt="Security key help image" />
+
       #### Text message/SMS or Phone call
-      If you select Text message/SMS or Phone call as a second authentication method, enter a phone number at which you can get phone calls or text messages. If you have a landline, you must receive your security code by phone call. login.gov cannot send security codes to extensions or voicemails.
+      Text message/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers and other attacks.
+
+      If you choose to use this less secure option, enter a phone number at which you can get phone calls or text messages. If you have a landline, you must receive your security code by phone call. login.gov cannot send security codes to extensions or voicemails.
 
       We will send a unique security code to that phone number each time you sign into your account.
       <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
@@ -346,18 +390,10 @@ help_pages:
       Type the security code into the field. That’s it! Every time you sign back into your login.gov account, you will receive a new security code that you need to enter. You’ll get the option each time you sign in to get a security code by a phone call or by SMS.
       <img src="site.baseurl/assets/img/help/6-enter-one-time-security-code.png" class="mt3 mb3 block" alt="Enter security code help image" />
 
-      #### Authentication application
-      To use an authentication app, you must first install one of the supported applications and configure it to work with login.gov.  [Read more on how to set up an authentication app.](site.baseurl/help/changing-settings/authentication-application/)
-      <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
-
-      #### Security key
-      Your security key must support the FIDO standard. You can add as many security keys as you want. Once you connect your key to your computer, usually by plugging it into a USB port, assign the key a name to identify it within your login.gov account. The next step will ask you to activate your key. This is generally done by pressing a button on the key itself.
-
-      <img src="site.baseurl/assets/img/help/security_key.png" class="mt3 mb3 block" alt="Security key help image" />
-
       #### Backup codes
-      Backup codes are another method of authentication. When you elect to use the backup codes as your 2nd factor, login.gov will generate a set of 10 codes. After you sign in with your username and password, you will be prompted for a code. Each code may only be used once, once the 10th code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of attention as you would your password.
+      While backup codes are an accessible option for users who do not have phone access, these codes are the least secure option for two-factor authentication. Backup codes must be printed or written down which makes them more vulnerable to theft and phishing.
 
+      If you choose to select this less secure option, login.gov will generate a set of 10 codes. After you sign in with your username and password, you will be prompted for a code. Each code may only be used once, once the 10th code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of attention as you would your password.
       <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
     no-phone-or-other-authentication-method: |-
       login.gov requires users to set up two forms of two-factor authentication methods when creating an account. However, if you do not have access to a phone, authentication application, security key, or government employee ID (PIV/CAC card), you can set up your account with only backup codes.
@@ -474,6 +510,49 @@ help_pages:
       If the confirmation link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter.
 
       For additional help, [please submit a support ticket] (https://login.gov/contact).
+  authentication-methods:
+    which-authentication-method-should-i-use: |-
+      Login.gov uses two-factor authentication (TFA), or multi-factor authentication (MFA), as an added layer of protection to secure your most sensitive information.
+
+      Two-factor authentication can be done in multiple ways and each has a different level of security. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
+
+      We encourage you to review the available options and select the most secure option for you.
+      
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">More Secure</div>
+        <h3>Security Key</h3>
+        <p class="bold mt1">More secure against phishing and hacks with built in protections against theft.</p>
+        <p>A security key is typically a physical device, like a USB, that you plug into your computer. The key is linked to your accounts and will only grant access to those accounts once the key is plugged in and activated. Since a security key does not rely on your cell phone, it has the highest level of protection against phishing and built in protections against hacking if it is lost or stolen.</p>
+      </div>
+
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">More Secure</div>
+        <h3>PIV/CAC for military and federal employees</h3>
+        <p class="bold mt1">More secure against phishing and hacks with built in protections against theft.</p>
+        <p>Physical PIV and CAC smart cards are secure options for military personnel and federal employees. These cards, with encrypted chip technology, are resistant to phishing and difficult to hack if stolen.</p>
+      </div>
+
+      <div class="mt3">
+        <div class="usa-tag caps float-right bg-info-dark">More Secure</div>
+        <h3>Authentication App</h3>
+        <p class="bold mt1">More secure against phishing and hacks but with less protection against theft.</p>
+        <p>Authentication apps are downloaded to your device and generate secure, 6-digit codes you can use to log in to your accounts. Unlike phone calls or text messaging/SMS, a hacker would need physical access to your cell phone in order to use the code.</p>
+        <p>While authentication apps are not protected if your device is lost or stolen, these apps offer more security than phone calls or text messaging/SMS against phishing, hacking or interception.</p>
+      </div>
+
+      <div class="mt3">
+        <h3>Text message/SMS or Phone call</h3>
+        <p class="bold mt1">Less secure against phishing, hacks and theft.</p>
+        <p>Text message/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers and other attacks.</p>
+      </div>
+
+      <div class="my3">
+        <div class="usa-tag caps float-right bg-info-dark">Less Secure</div>
+        <h3>Backup codes</h3>
+        <p class="bold mt1">Less secure against phishing, hacks and more subjective to theft.</p>
+        <p>While backup codes are an accessible option for users who do not have phone access, these codes are the least secure option for two-factor authentication. Backup codes must be printed or written down which makes them more vulnerable to theft and phishing.</p>
+      </div>
+
   verifying-your-identity:
     why-do-i-need-to-verify-my-identity: |-
       Some government applications that use login.gov require users to verify their identities. This means that you must prove that you are who you say you are. By doing this, we make sure that only the right people get access to sensitive information.
@@ -569,7 +648,7 @@ help_pages:
     change-account-settings: |-
       To make changes and updates to information tied to your login.gov account (email, phone number, personal key, etc.), you must sign in to your login.gov account:
 
-        1. Go to [https://www.login.gov/](https://www.login.gov/) and select “Manage Account”
+        1. Go to [https://www.login.gov/](https://www.login.gov/) and select “Sign In”
         2. Sign in using your login.gov credentials
 
       Once logged in, you will be able to edit and update your login.gov information.
@@ -616,7 +695,7 @@ help_pages:
       If you are an existing SAM user and don’t see your SAM.gov profile after signing in, this means you did not use the same email address you registered with SAM.gov. To update your email address to match your SAM.gov registered email you’ll need to:
 
         1. Go to [https://www.login.gov/](https://www.login.gov/) and
-        2. select “Manage Account” to sign in
+        2. select “Sign In” to access your account
         3. select “edit” next to your email
         4. Enter the correct email address and select “update”
         5. You will be sent a confirmation email. You must open and select the confirmation link to finish updating your email
@@ -780,11 +859,11 @@ help_pages:
 
       For additional Trusted Traveler related questions such as these, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
     cant-sign-in-or-reset-my-password-goes-account: |-
-      You will no longer be able to use your GOES User ID and password to sign in. Please create a new login.gov account. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. No credit card or payment will be required.
+      You will no longer be able to use your GOES User ID and password to sign in. Please create a new login.gov account. You will be able to link this new account with your old GOES account by providing your PASSID. If you have trouble with your PASSID, please contact CBP directly: [https://help.cbp.gov/s/questions](https://help.cbp.gov/s/questions){:target="_blank"}. No credit card or payment will be required.
 
       To register a new account:
 
-      1. Please visit [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}
+      1. Please visit [https://ttp.dhs.gov](https://ttp.dhs.gov){:target="_blank"}
       2. If you are a new user, select “Get Started” in the middle of the page. If you are a returning user, select “LOG IN” on the upper right hand corner.
       3. Select “Consent & Continue”
       4. Select “Create an account”
@@ -876,6 +955,7 @@ help_pages:
 help_subpages:
   changing-settings: Changing settings
   creating-an-account: Creating an account
+  authentication-methods: Authentication methods
   verifying-your-identity: Verifying your identity
   privacy-and-security: Privacy & security
   sam: SAM
@@ -1083,7 +1163,6 @@ nav:
   help: Help
   home: Home
   implementation: Implementation
-  manage: Manage Account
   menu: Menu
   overview: Overview
   why-login-gov: Why login.gov
@@ -1092,6 +1171,7 @@ nav:
   playbook: Playbook
   principles: Principles
   security: Security
+  sign_in: Sign in
   skip_nav: Skip to main content
 our-agency-partners_page:
   footer:
