@@ -5,6 +5,9 @@
   heading: La página que buscaba no existe.
 banner:
   text: Un sitio oficial del Gobierno de Estados Unidos
+  covid:
+    question: ¿Tiene su agencia una necesidad urgente relacionada con los esfuerzos de respuesta de COVID-19?
+    button: Contacto login.gov sociedades
 contact_page:
   content: |-
     Estamos experimentando un tráfico extremadamente alto debido al lanzamiento del programa Trusted Traveler hoy. Gracias por su paciencia mientras trabajamos para mejorar el rendimiento de nuestro sistema.

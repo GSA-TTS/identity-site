@@ -5,6 +5,9 @@
   heading: The page you were looking for doesn’t exist.
 banner:
   text: An official website of the United States government
+  covid:
+    question: Does your agency have an urgent need related to COVID-19 response efforts?
+    button: Contact login.gov partnerships
 contact_page:
   content: |-
     ## Find help using login.gov
