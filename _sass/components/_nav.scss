@@ -1,11 +1,8 @@
 .sign-in-logo {
-  width: 60px;
-  height: 17px;
-
-}
-
-.usa-button--small {
-  padding: 0 !important;
+  width: 103px;
+  height: 27px;
+  padding: 6px;
+  border-color: map-get($site-palette, 'site-light-blue');
 }
 
 .usa-search [type=search] {
