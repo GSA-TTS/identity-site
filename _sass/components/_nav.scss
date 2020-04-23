@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media #{$breakpoint-menu} {
   .sign-in-logo-padding {
     padding: 4px !important;
   }
