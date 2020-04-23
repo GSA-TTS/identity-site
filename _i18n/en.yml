@@ -10,7 +10,7 @@ banner:
     gov_heading: The .gov means it’s official.
     gov_description: Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
     secure_heading: The site is secure.
-    secure_description: "The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely."    
+    secure_description: "The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely."    
   covid:
     question: Does your agency have an urgent need related to COVID-19 response efforts?
     button: Contact login.gov partnerships

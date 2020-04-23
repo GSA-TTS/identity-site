@@ -11,7 +11,7 @@ banner:
     gov_heading: Le .gov signifie que c'est officiel.
     gov_description: Les sites Web du gouvernement fédéral se terminent souvent par .gov ou .mil. Avant de partager des informations sensibles, assurez-vous que vous êtes sur un site du gouvernement fédéral.
     secure_heading: Le site est sécurisé.
-    secure_description: "Le https: // garantit que vous vous connectez au site officiel et que toutes les informations que vous fournissez sont cryptées et transmises en toute sécurité."
+    secure_description: "Le <strong>https://</strong> garantit que vous vous connectez au site officiel et que toutes les informations que vous fournissez sont cryptées et transmises en toute sécurité."
   covid:
     question: Votre agence a-t-elle un besoin urgent lié aux efforts de réponse de COVID-19?
     button: Contactez les partenariats login.gov
