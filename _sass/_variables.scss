@@ -102,6 +102,8 @@ $breakpoint-xl: '(min-width: 96em)' !default;
 $breakpoint-sm-md: '(min-width: 40em) and (max-width: 52em)' !default;
 $breakpoint-md-lg: '(min-width: 52em) and (max-width: 64em)' !default;
 $breakpoint-lang: '(min-width: 736px) and (max-width: 775px)' !default;
+$breakpoint-menu: '(max-width: 1024px)' !default; //widths less than 1024px have menu
+$breakpoint-no-menu: '(min-width: 1025px)' !default; //widths less than 1024px have menu
 
 $container-width: 780px !default;
 $container-skinny-width: 620px !default;

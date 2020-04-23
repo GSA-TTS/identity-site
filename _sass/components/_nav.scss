@@ -1,4 +1,11 @@
+@media (max-width: 1024px) {
+  .sign-in-logo-padding {
+    padding: 4px !important;
+  }
+}
+
 .sign-in-logo {
+  background-color: transparent;
   width: 103px;
   height: 27px;
   padding: 6px;
