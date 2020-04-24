@@ -1205,7 +1205,7 @@ nav:
   playbook: Guide de mise en œuvre
   principles: Principes
   security: Sécurité
-  sign_in: Se connecter
+  sign_in: 'Se connecter avec:'
   skip_nav: Passer au contenu principal
 playbook_page:
   section_1:

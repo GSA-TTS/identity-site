@@ -1159,7 +1159,7 @@ nav:
   playbook: Manual
   principles: Principios
   security: Seguridad
-  sign_in: Inicia sesión
+  sign_in: 'Inicia sesión con:'
   skip_nav: Salte al contenido principal
 playbook_page:
   section_1:

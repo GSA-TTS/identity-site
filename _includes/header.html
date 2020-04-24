@@ -1,5 +1,5 @@
 <header class="usa-header usa-header--extended bg-white" role="banner">
-  <div class="usa-navbar">
+  <div class="usa-navbar margin-top-1">
     <div class="usa-logo" id="extended-logo">
       <a href="{{ '/' | prepend: site.baseurl }}" title="Home" aria-label="Home">
         <img src="{{ site.baseurl }}/assets/img/logo.svg" class="usa-logo__img" alt="login.gov">
@@ -95,7 +95,12 @@
       <div class="usa-nav__secondary-container">
         <ul class="usa-nav__secondary-links">
           <li class="usa-nav__secondary-item bold">
-            <a href="{% if site.lang != 'en' %}https://secure.login.gov/{{site.lang}}/{% else %}https://secure.login.gov/{% endif %}">{% t nav.sign_in %}</a>
+            <span class="font-sans-md">{% t nav.sign_in %}</span>
+            <button tabindex="-1" class="usa-button--small sign-in-logo sign-in-logo-padding">
+              <a href="{% if site.lang != 'en' %}https://secure.login.gov/{{site.lang}}/{% else %}https://secure.login.gov/{% endif %}" title="Sign In" aria-label="Sign in">
+                <img src="{{ site.baseurl }}/assets/img/logo_sign_in.svg" alt="login.gov">
+              </a>
+            </button>
           </li>
         </ul>
         <form class="usa-search usa-search--small" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
