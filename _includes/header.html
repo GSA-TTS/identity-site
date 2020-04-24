@@ -96,7 +96,7 @@
         <ul class="usa-nav__secondary-links">
           <li class="usa-nav__secondary-item bold">
             <span class="font-sans-md">{% t nav.sign_in %}</span>
-            <button class="usa-button--small sign-in-logo sign-in-logo-padding">
+            <button tabindex="-1" class="usa-button--small sign-in-logo sign-in-logo-padding">
               <a href="{% if site.lang != 'en' %}https://secure.login.gov/{{site.lang}}/{% else %}https://secure.login.gov/{% endif %}" title="Sign In" aria-label="Sign in">
                 <img src="{{ site.baseurl }}/assets/img/logo_sign_in.svg" alt="login.gov">
               </a>
