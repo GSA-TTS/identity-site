@@ -4,8 +4,8 @@
   }
 }
 
-#sign-in {
-  display: flex;
+.sign-in-wrapper {
+  display: flex !important;
   align-items: center;
 }
 
@@ -27,6 +27,7 @@
   a {
     font-size: 1.28rem;
     color: transparent;
+    background: url(../img/logo_sign_in.svg) center/contain no-repeat;
 
     &:hover {
       color: transparent;
