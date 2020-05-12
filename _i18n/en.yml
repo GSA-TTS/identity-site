@@ -55,6 +55,7 @@ contact_page:
       first_name: First name
       last_name: Last name
       phone: Phone number (optional)
+      pii_warning: Please do not include sensitive or identifying information in this section such as your full name, birth date or social security number.
       subtopic: Issue sub-topic
       topic: Issue topic
     submit: Submit

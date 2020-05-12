@@ -50,6 +50,7 @@ contact_page:
       first_name: Nombre
       last_name: Apellido
       phone: Número de teléfono (opcional)
+      pii_warning: No incluya información sensible o de identificación en esta sección, como su nombre completo, fecha de nacimiento o número de seguro social.
       subtopic: Subtema del asunto
       topic: Tema del asunto
     submit: Enviar
