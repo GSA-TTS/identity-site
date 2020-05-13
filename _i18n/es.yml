@@ -37,6 +37,7 @@ contact_page:
       sam: GSA SAM.gov
       trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
+      veterans_affairs: Veterans Affairs
     instructions: Cuéntanos un poco sobre el problema que estás experimentando y te
       responderemos pronto
     form_helpers:
@@ -49,6 +50,7 @@ contact_page:
       first_name: Nombre
       last_name: Apellido
       phone: Número de teléfono (opcional)
+      pii_warning: No incluya información sensible o de identificación en esta sección, como su nombre completo, fecha de nacimiento o número de seguro social.
       subtopic: Subtema del asunto
       topic: Tema del asunto
     submit: Enviar
@@ -90,7 +92,7 @@ contact_page:
       site_navigation: Navegación en la página web
       unwanted_otp: Múltiples pedidos de pago
       wrong_account_update: Actualización de la cuenta errónea
-    alert_banner: 
+    alert_banner:
     alert_banner_link:
     title: Póngase en contacto con el equipo de login.gov
     topics:

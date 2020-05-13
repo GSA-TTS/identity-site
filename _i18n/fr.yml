@@ -38,6 +38,7 @@ contact_page:
       sam: GSA SAM.gov
       trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
+      veterans_affairs: Veterans Affairs
     instructions: Décrivez-nous le problème que vous rencontrez et nous vous répondrons
       dans les plus brefs délais.
     form_helpers:
@@ -50,6 +51,7 @@ contact_page:
       first_name: Prénom
       last_name: Nom
       phone: Numéro de téléphone (facultatif)
+      pii_warning: Veuillez ne pas inclure d'informations sensibles ou d'identification dans cette section telles que votre nom complet, votre date de naissance ou votre numéro de sécurité sociale.
       subtopic: Sujet secondaire du problème
       topic: Sujet du problème
     submit: Soumettre
