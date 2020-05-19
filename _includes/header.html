@@ -88,19 +88,17 @@
             {% endfor %}
           </ul>
         </li>
-
       </ul>
     </div>
     <div class="usa-nav__secondary">
       <div class="usa-nav__secondary-container">
         <ul class="usa-nav__secondary-links">
-          <li class="usa-nav__secondary-item bold">
+          <li class="usa-nav__secondary-item bold sign-in-wrapper">
             <span class="font-sans-md">{% t nav.sign_in %}</span>
-            <button tabindex="-1" class="usa-button--small sign-in-logo sign-in-logo-padding">
-              <a href="{% if site.lang != 'en' %}https://secure.login.gov/{{site.lang}}/{% else %}https://secure.login.gov/{% endif %}" title="Sign In" aria-label="Sign in">
-                <img src="{{ site.baseurl }}/assets/img/logo_sign_in.svg" alt="login.gov">
-              </a>
-            </button>
+            <span class="usa-button--small sign-in-logo sign-in-logo-padding">
+              <a href="https://secure.login.gov/{% if site.lang != 'en' %}{{site.lang}}{% endif %}"
+                title="Login.gov" aria-label="Login.gov" tabindex="0">Login.gov</a>
+            </span>
           </li>
         </ul>
         <form class="usa-search usa-search--small" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
