@@ -4,7 +4,16 @@
     p_1: Es posible que desee comprobar su enlace e intentar nuevamente. (404)
   heading: La página que buscaba no existe.
 banner:
-  text: Un sitio oficial del Gobierno de Estados Unidos
+  text:
+    official: Un sitio web oficial del gobierno de los Estados Unidos
+    how: Así es como sabes
+    gov_heading: La .gov significa que es oficial.
+    gov_description: Los sitios web del gobierno federal a menudo terminan en .gov o .mil. Antes de compartir información confidencial, asegúrese de estar en un sitio del gobierno federal.
+    secure_heading: El sitio es seguro.
+    secure_description: "El <strong>https://</strong> garantiza que se está conectando al sitio web oficial y que toda la información que proporciona está encriptada y transmitida de forma segura."
+  covid:
+    question: ¿Tiene su agencia una necesidad urgente relacionada con los esfuerzos de respuesta de COVID-19?
+    button: Contacto login.gov sociedades
 contact_page:
   content: |-
     Estamos experimentando un tráfico extremadamente alto debido al lanzamiento del programa Trusted Traveler hoy. Gracias por su paciencia mientras trabajamos para mejorar el rendimiento de nuestro sistema.
@@ -28,6 +37,7 @@ contact_page:
       sam: GSA SAM.gov
       trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
+      veterans_affairs: Veterans Affairs
     instructions: Cuéntanos un poco sobre el problema que estás experimentando y te
       responderemos pronto
     form_helpers:
@@ -40,6 +50,7 @@ contact_page:
       first_name: Nombre
       last_name: Apellido
       phone: Número de teléfono (opcional)
+      pii_warning: No incluya información sensible o de identificación en esta sección, como su nombre completo, fecha de nacimiento o número de seguro social.
       subtopic: Subtema del asunto
       topic: Tema del asunto
     submit: Enviar
@@ -81,10 +92,8 @@ contact_page:
       site_navigation: Navegación en la página web
       unwanted_otp: Múltiples pedidos de pago
       wrong_account_update: Actualización de la cuenta errónea
-    alert_banner: No podemos enviar cartas de verificación de la Imprenta del Gobierno a 
-      los usuarios de la Junta de Railroad Retirement Board (RRB) que intentan verificar sus 
-      identidades en línea. Póngase en contacto con
-    alert_banner_link: RRB para obtener ayuda
+    alert_banner:
+    alert_banner_link:
     title: Póngase en contacto con el equipo de login.gov
     topics:
       account_linking: Vinculación de cuenta
@@ -1150,7 +1159,7 @@ nav:
   playbook: Manual
   principles: Principios
   security: Seguridad
-  sign_in: Inicia sesión
+  sign_in: 'Inicia sesión con:'
   skip_nav: Salte al contenido principal
 playbook_page:
   section_1:
@@ -1242,7 +1251,7 @@ policies:
 
     ### Evaluación de Impacto de la Privacidad
     Vea nuestra [Evaluación del impacto
-    sobre la privacidad](site.baseurl/docs/privacy-impact-assessment.pdf).
+    sobre la privacidad](site.baseurl/docs/Logingov_PIA_August2019.pdf).
 - section: Nuestras prácticas de seguridad
   anchor: nuestras-prácticas-de-seguridad
   content: |-

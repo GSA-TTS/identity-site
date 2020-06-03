@@ -5,7 +5,16 @@
       (404)
   heading: La page que vous recherchez n'existe pas.
 banner:
-  text: Un site web officiel du gouvernement des États-Unis
+  text:
+    official: Un site officiel du gouvernement américain
+    how: Voici comment vous savez
+    gov_heading: Le .gov signifie que c'est officiel.
+    gov_description: Les sites Web du gouvernement fédéral se terminent souvent par .gov ou .mil. Avant de partager des informations sensibles, assurez-vous que vous êtes sur un site du gouvernement fédéral.
+    secure_heading: Le site est sécurisé.
+    secure_description: "Le <strong>https://</strong> garantit que vous vous connectez au site officiel et que toutes les informations que vous fournissez sont cryptées et transmises en toute sécurité."
+  covid:
+    question: Votre agence a-t-elle un besoin urgent lié aux efforts de réponse de COVID-19?
+    button: Contactez les partenariats login.gov
 contact_page:
   content: |-
     Nous connaissons un trafic extrêmement élevé en raison du lancement du programme Trusted Traveler aujourd'hui. Nous vous remercions de votre patience car nous travaillons à améliorer les performances de notre système.
@@ -29,6 +38,7 @@ contact_page:
       sam: GSA SAM.gov
       trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
+      veterans_affairs: Veterans Affairs
     instructions: Décrivez-nous le problème que vous rencontrez et nous vous répondrons
       dans les plus brefs délais.
     form_helpers:
@@ -41,6 +51,7 @@ contact_page:
       first_name: Prénom
       last_name: Nom
       phone: Numéro de téléphone (facultatif)
+      pii_warning: Veuillez ne pas inclure d'informations sensibles ou d'identification dans cette section telles que votre nom complet, votre date de naissance ou votre numéro de sécurité sociale.
       subtopic: Sujet secondaire du problème
       topic: Sujet du problème
     submit: Soumettre
@@ -82,10 +93,8 @@ contact_page:
       site_navigation: Navigation du site
       unwanted_otp: Multiples OTP
       wrong_account_update: Mise à jour de compte erronée
-    alert_banner: Nous ne pouvons pas envoyer de lettres de vérification de l’imprimerie 
-      du gouvernement aux utilisateurs de la Railroad Retirement Board (RRB) qui tentent 
-      de vérifier leur identité en ligne. Veuillez contacter
-    alert_banner_link: RRB pour obtenir de l'aide
+    alert_banner:
+    alert_banner_link:
     title: Contactez l'équipe login.gov
     topics:
       account_linking: Lien vers le compte
@@ -1196,7 +1205,7 @@ nav:
   playbook: Guide de mise en œuvre
   principles: Principes
   security: Sécurité
-  sign_in: Se connecter
+  sign_in: 'Se connecter avec:'
   skip_nav: Passer au contenu principal
 playbook_page:
   section_1:
@@ -1261,7 +1270,7 @@ policies:
 
     ### Évaluation d'impact sur la confidentialité
 
-    Consultez notre [Évaluation d'impact sur la confidentialité](site.baseurl/assets/docs/privacy-impact-assessment.pdf).
+    Consultez notre [Évaluation d'impact sur la confidentialité](site.baseurl/assets/docs/Logingov_PIA_August2019.pdf).
 - section: Nos pratiques relatives à la sécurité
   anchor: nos pratiques relatives à la sécurité
   content: |-

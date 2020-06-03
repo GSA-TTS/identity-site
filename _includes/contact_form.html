@@ -168,16 +168,6 @@
     document.addEventListener('DOMContentLoaded', doNotAnswer);
 </script>
 
-<!-- Alert for RRB - Removed when ready -->
-<div class="usa-alert usa-alert--info margin-bottom-4">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">
-      {% t contact_page.support_request_form.alert_banner %}
-        <a href="https://rrb.gov/Benefits/myRRB/AccountSupport" target="_blank">
-          {% t contact_page.support_request_form.alert_banner_link %}</a>.</p>
-  </div>
-</div>
-
 <h2>{% t contact_page.support_request_form.title %}</h2>
 <p>{% t contact_page.support_request_form.instructions %}</p>
 
@@ -212,6 +202,9 @@
       </option>
       <option value="Railroad Retirement Board">{% t
         contact_page.support_request_form.agencies.railroad_retirement_board %}
+      </option>
+      <option value="Veterans Affairs">{% t
+        contact_page.support_request_form.agencies.veterans_affairs %}
       </option>
       <option value="Other">{% t contact_page.support_request_form.agencies.other %}</option>
     </select>
@@ -257,6 +250,7 @@
 
   <div class="lg-col lg-col-12">
     <label class='bold' for="description">{% t contact_page.support_request_form.labels.description %}</label>
+    <em class="instructions margin-bottom-1">{% t contact_page.support_request_form.labels.pii_warning %}</em>
     <textarea class='bold field text sm-col-12 mb2' id='description' name="description" required
               rows="5" cols="50" maxlength="32000"></textarea>
   </div>

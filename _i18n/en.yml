@@ -4,7 +4,16 @@
     p_1: You might want to double-check your link and try again. (404)
   heading: The page you were looking for doesn’t exist.
 banner:
-  text: An official website of the United States government
+  text:
+    official: An official website of the United States government
+    how: Here’s how you know
+    gov_heading: The .gov means it’s official.
+    gov_description: Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+    secure_heading: The site is secure.
+    secure_description: "The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely."
+  covid:
+    question: Does your agency have an urgent need related to COVID-19 response efforts?
+    button: Contact login.gov partnerships
 contact_page:
   content: |-
     ## Find help using login.gov
@@ -33,6 +42,7 @@ contact_page:
       sam: GSA SAM.gov
       trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
+      veterans_affairs: Veterans Affairs
     instructions: Let us know a bit about the problem you’re experiencing and we’ll
       get back to you soon
     form_helpers:
@@ -45,6 +55,7 @@ contact_page:
       first_name: First name
       last_name: Last name
       phone: Phone number (optional)
+      pii_warning: Please do not include sensitive or identifying information in this section such as your full name, birth date or social security number.
       subtopic: Issue sub-topic
       topic: Issue topic
     submit: Submit
@@ -94,10 +105,8 @@ contact_page:
       unwanted_otp: I am receiving security codes from login.gov that I didn't request
       verify_identity_error: I got a failure trying to verify my identity
       wrong_account_update: Wrong account update
-    alert_banner: We are unable to send Government Printing Office verification 
-      letters to those Railroad Retirement Board (RRB) users who are attempting to 
-      verify their identities online. Please contact
-    alert_banner_link: RRB for assistance
+    alert_banner:
+    alert_banner_link:
     title: Contact the login.gov team
     topics:
       account_linking: Linking your login.gov account to your profile
@@ -514,7 +523,7 @@ help_pages:
       Two-factor authentication can be done in multiple ways and each has a different level of security. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
 
       We encourage you to review the available options and select the most secure option for you.
-      
+
       <div class="mt3">
         <div class="usa-tag caps float-right bg-info-dark">More Secure</div>
         <h3>Security Key</h3>
@@ -1168,7 +1177,7 @@ nav:
   playbook: Playbook
   principles: Principles
   security: Security
-  sign_in: Sign in
+  sign_in: 'Sign in with:'
   skip_nav: Skip to main content
 our-agency-partners_page:
   footer:
@@ -1324,7 +1333,7 @@ policies:
 
     ### Privacy Impact Assessment
 
-    View our [Privacy Impact Assessment](site.baseurl/docs/Privacy-Impact-Assessment%209-18.pdf).
+    View our [Privacy Impact Assessment](site.baseurl/docs/Logingov_PIA_August2019.pdf).
 - section: Our security practices
   anchor: our-security-practices
   content: |-
