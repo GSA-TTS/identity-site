@@ -45,6 +45,9 @@ contact_page:
       select_topic: "--Elige un tema primero--"
     labels:
       agency_application: Aplicación de agencia
+      agency_application_all: Todas las aplicaciones
+      agency_application_common: Aplicaciones comunes
+      agency_application_other: Otras aplicaciones
       description: Descripción del problema
       email: Correo electrónico
       first_name: Nombre

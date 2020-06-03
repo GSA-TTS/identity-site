@@ -50,6 +50,9 @@ contact_page:
       select_topic: "--Select a topic first--"
     labels:
       agency_application: Agency application
+      agency_application_all: All Applications
+      agency_application_common: Common Applications
+      agency_application_other: Other Applications
       description: Issue description
       email: Email
       first_name: First name

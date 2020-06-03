@@ -181,17 +181,25 @@
     <select class='block sm-col-6 mb2 field select required' id="00Nt0000000OYA2" name="00Nt0000000OYA2"
             title="Agency Application" required>
       <option value="" selected hidden>{% t contact_page.support_request_form.form_helpers.select_one %}</option>
-      <option value="USAJOBS">{% t contact_page.support_request_form.agencies.usajobs %}</option>
-      <option value="Trusted Traveler Programs (Global Entry/Nexus/Sentri)">{% t contact_page.support_request_form.agencies.trusted_traveler_program %}</option>
-      <option value="Customs and Border Protection Jobs">{% t contact_page.support_request_form.agencies.cbp_jobs %}</option>
-      <option value="Customs and Border Protection ROAM">{% t contact_page.support_request_form.agencies.cbp_roam %}</option>
-      <option value="DOD Moves.mil (Homes or Office)">{% t contact_page.support_request_form.agencies.move_mil %}</option>
-      <option value="DOT FMCSA (Motor Carrier Safety)">{% t contact_page.support_request_form.agencies.dot_fmcsa %}</option>
-      <option value="DOT National Registry of Certified Medical Examiners">{% t contact_page.support_request_form.agencies.dot_nrcme %}</option>
-      <option value="GSA Sam.gov">{% t contact_page.support_request_form.agencies.sam %}</option>
-      <option value="Railroad Retirement Board">{% t contact_page.support_request_form.agencies.railroad_retirement_board %}</option>
-      <option value="Veterans Affairs">{% t contact_page.support_request_form.agencies.veterans_affairs %} </option>
-      <option value="Other">{% t contact_page.support_request_form.agencies.other %}</option>
+      <optgroup label="{% t contact_page.support_request_form.labels.agency_application_common %}">
+        <option value="USAJOBS">{% t contact_page.support_request_form.agencies.usajobs %}</option>
+        <option value="Trusted Traveler Programs (Global Entry/Nexus/Sentri)">{% t contact_page.support_request_form.agencies.trusted_traveler_program %}</option>
+      </optgroup>
+      <optgroup label="{% t contact_page.support_request_form.labels.agency_application_all %}">
+        <option value="Customs and Border Protection Jobs">{% t contact_page.support_request_form.agencies.cbp_jobs %}</option>
+        <option value="Customs and Border Protection ROAM">{% t contact_page.support_request_form.agencies.cbp_roam %}</option>
+        <option value="DOD Moves.mil (Homes or Office)">{% t contact_page.support_request_form.agencies.move_mil %}</option>
+        <option value="DOT FMCSA (Motor Carrier Safety)">{% t contact_page.support_request_form.agencies.dot_fmcsa %}</option>
+        <option value="DOT National Registry of Certified Medical Examiners">{% t contact_page.support_request_form.agencies.dot_nrcme %}</option>
+        <option value="GSA Sam.gov">{% t contact_page.support_request_form.agencies.sam %}</option>
+        <option value="Railroad Retirement Board">{% t contact_page.support_request_form.agencies.railroad_retirement_board %}</option>
+        <option value="Trusted Traveler Programs (Global Entry/Nexus/Sentri)">{% t contact_page.support_request_form.agencies.trusted_traveler_program %}</option>
+        <option value="USAJOBS">{% t contact_page.support_request_form.agencies.usajobs %}</option>
+        <option value="Veterans Affairs">{% t contact_page.support_request_form.agencies.veterans_affairs %} </option>
+      </optgroup>
+      <optgroup label="{% t contact_page.support_request_form.labels.agency_application_other %}">
+        <option value="Other">{% t contact_page.support_request_form.agencies.other %}</option>
+      </optgroup>
     </select>
   </div>
 
