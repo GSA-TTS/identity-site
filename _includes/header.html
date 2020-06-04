@@ -1,5 +1,5 @@
 <header class="usa-header usa-header--extended bg-white" role="banner">
-  <div class="usa-navbar margin-top-1">
+  <div class="usa-navbar">
     <div class="usa-logo" id="extended-logo">
       <a href="{{ '/' | prepend: site.baseurl }}" title="Home" aria-label="Home">
         <img src="{{ site.baseurl }}/assets/img/logo.svg" class="usa-logo__img" alt="login.gov">
@@ -22,7 +22,7 @@
           <button class="usa-accordion__button usa-nav__link {% if page.url contains '/playbook/' %}usa-current{% endif %}" aria-controls="unique-id-1">
             <span>{% t nav.playbook %}</span>
           </button>
-          <ul id="unique-id-1" class="usa-nav__submenu">
+          <ul id="unique-id-1" class="usa-nav__submenu" hidden>
             <li class="usa-nav__submenu-item">
               <a href="{{ '/playbook/' | relative_url }}">
                 <span>{% t nav.overview %}</span>
@@ -49,7 +49,7 @@
           <button class="usa-accordion__button usa-nav__link {% if page.url contains '/partners/' %}usa-current{% endif %}" aria-controls="unique-id-2">
             <span>{% t nav.partners %}</span>
           </button>
-          <ul id="unique-id-2" class="usa-nav__submenu">
+          <ul id="unique-id-2" class="usa-nav__submenu" hidden>
             <li class="usa-nav__submenu-item">
               <a href="{{ '/partners/' | relative_url }}">
                 <span>{% t nav.overview %}</span>
@@ -71,7 +71,7 @@
           <button class="usa-accordion__button usa-nav__link {% if page.url contains '/help/' %}usa-current{% endif %}" aria-controls="unique-id-3">
             <span>{% t nav.help %}</span>
           </button>
-          <ul id="unique-id-3" class="usa-nav__submenu ">
+          <ul id="unique-id-3" class="usa-nav__submenu" hidden>
             <li class="usa-nav__submenu-item">
               <a href="{{ '/help/' | relative_url }}">
                 <span>{% t nav.overview %}</span>
@@ -93,7 +93,7 @@
     <div class="usa-nav__secondary">
       <div class="usa-nav__secondary-container">
         <ul class="usa-nav__secondary-links">
-          <li class="usa-nav__secondary-item bold sign-in-wrapper">
+          <li class="usa-nav__secondary-item bold sign-in-wrapper margin-top-1">
             <span class="font-sans-md">{% t nav.sign_in %}</span>
             <span class="usa-button--small sign-in-logo sign-in-logo-padding">
               <a href="https://secure.login.gov/{% if site.lang != 'en' %}{{site.lang}}{% endif %}"
