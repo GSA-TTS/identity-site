@@ -7,7 +7,9 @@
     "build-js": "webpack --config webpack.config.js --progress --colors",
     "federalist": "npm run build-css && npm run build-js",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "watch-js": "webpack -w --config webpack.config.js --progress --colors"
+    "watch-js": "webpack -w --config webpack.config.js --progress --colors",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -41,6 +43,8 @@
     "jquery": "^3.5.0",
     "node-sass": "^4.13.1",
     "normalize.css": "^4.2.0",
-    "webpack": "^2.2.0"
-  }
+    "webpack": "^4.0.0",
+    "snyk": "^1.336.0"
+  },
+  "snyk": true
 }
