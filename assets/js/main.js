@@ -2,7 +2,6 @@ import $ from 'jquery';
 
 import 'bootstrap/js/affix';
 import 'bootstrap/js/scrollspy';
-import './analytics.js';
 
 require('identity-style-guide/dist/assets/js/main');
 
