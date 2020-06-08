@@ -32,6 +32,7 @@ contact_page:
       cbp_roam: Customs and Border Protection ROAM
       dot_fmcsa: DOT FMCSA (Motor Carrier Safety)
       dot_nrcme: DOT National Registry of Certified Medical Examiners
+      ds_logon: DS Logon
       move_mil: DOD Move.mil (Homes or Office)
       other: Other
       railroad_retirement_board: Railroad Retirement Board
@@ -46,6 +47,9 @@ contact_page:
       select_topic: "--Choisissez un sujet en premier--"
     labels:
       agency_application: Demande à une agence
+      agency_application_all: Toutes les applications
+      agency_application_common: Applications courantes
+      agency_application_other: Autres applications
       description: Description du problème
       email: E-mail
       first_name: Prénom
