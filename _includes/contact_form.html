@@ -112,10 +112,6 @@
         sub.options[0] = new Option("{% t contact_page.support_request_form.form_helpers.select_topic %}", null, false, true);
         sub.options[0].hidden = true;
 
-        var recaptcha = document.querySelector('#g-recaptcha-response');
-        if(recaptcha) {
-            recaptcha.setAttribute("required", "required");
-        }
     }
 
     function dynamicdropdown(listindex) {
@@ -255,11 +251,6 @@
               rows="1" cols="50" maxlength="80"></textarea>
   </div>
 
-  <div class="lg-col lg-col-12">
-    <div class="g-recaptcha" data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"></div><br>
-  </div>
-
-  <input type='hidden' name='captcha_settings' value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"00Dr00000001ZFs","ts":""}'/>
   <input type="hidden" name="status" id="status" value="New"/>
   <input type="hidden" id="external" name="external" value="1"/>
   <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu"/>
