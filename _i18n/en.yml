@@ -1365,6 +1365,25 @@ policies:
     We are happy to answer questions about our security and privacy practices.
     For more information, please visit [Help](site.baseurl/help)
     or [contact us](site.baseurl/contact).
+- section: Messaging terms and conditions
+  anchor: our-messaging-practices
+  content: |-
+    login.gov uses SMS text messaging to help verify your identity when you create
+    a new account.  SMS text messages or automated voice calls may also used if you
+    choose your phone as one of your authentication methods.
+
+    ### SMS Terms and Conditions
+    - login.gov provides an authentication service and will not use text or
+      voice messaging for any other purpose.
+    - Messaging and data rates may apply. 
+    - Messages will only be sent as part of setting up and signing into your
+      login.gov account.
+    -	You may contact customer care by email at <hello@login.gov> or by voice
+      at +1 (844) 875-6446.
+    -	To opt out of receiving text messages from login.gov reply with the message _STOP_
+      to the unwanted text message.
+    -	See [Our Privacy Practices](#our-privacy-practices) for privacy policy information.
+    -	Carriers are not liable for delayed or undelivered messages.
 policy_page:
   content:
     p_1: |-
