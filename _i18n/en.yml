@@ -1378,7 +1378,7 @@ policies:
     - Your carriers messaging and data rates may apply.
     - Messages will only be sent as part of setting up and signing into your
       login.gov account.
-    -	You may contact customer care by email at <hello@login.gov> on the web at <https://login.gov/contact>
+    -	You may [contact customer care here](site.baseurl/contact) or by email at <hello@login.gov>.
     -	To opt out of receiving text messages from login.gov reply with the message _STOP_
       to the unwanted text message.
     -	See [Our Privacy Practices](#our-privacy-practices) for privacy policy information.
