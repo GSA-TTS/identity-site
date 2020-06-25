@@ -1370,14 +1370,14 @@ policies:
   content: |-
     Login.gov uses SMS text messaging to help verify your identity when you create
     a new account.  SMS text messages, or automated voice calls, may also be used if
-    you choose your telephone number as on of your authentication methods.
+    you choose your telephone number as one of your authentication methods.
 
     ### SMS Terms and Conditions
     - Login.gov provides an authentication service and will not use text or
       voice messaging for any other purpose.
-    - Messaging and data rates may apply. 
+    - Your carriers messaging and data rates may apply.
     - Messages will only be sent as part of setting up and signing into your
-      Login.gov account.
+      login.gov account.
     -	You may contact customer care by email at <hello@login.gov> on the web at <https://login.gov/contact>
     -	To opt out of receiving text messages from login.gov reply with the message _STOP_
       to the unwanted text message.
