@@ -316,7 +316,7 @@ help_pages:
 
       [Read more on how to add or remove an email address](site.baseurl/help/changing-settings/add-or-remove-email-address/)
     change-my-password: |-
-      To change your password, go to [https://www.login.gov/](https://www.login.gov/) and select z” to sign into your login.gov account. Select “Edit” next to password, enter the new password and submit your change. Passwords must be at least 12 characters but otherwise there are no restrictions. You can even use more than one word with spaces to get to 12 characters. Try making a long and complex password by using a phrase or a series of words that only you recognize. And please make it different than any other passwords you use to sign into other accounts such as your bank account or email. Using the same passwords for your email, financial and social media accounts makes identity theft easier.
+      To change your password, go to [https://www.login.gov/](https://www.login.gov/) and select “Sign In” to sign into your login.gov account. Select “Edit” next to password, enter the new password and submit your change. Passwords must be at least 12 characters but otherwise there are no restrictions. You can even use more than one word with spaces to get to 12 characters. Try making a long and complex password by using a phrase or a series of words that only you recognize. And please make it different than any other passwords you use to sign into other accounts such as your bank account or email. Using the same passwords for your email, financial and social media accounts makes identity theft easier.
 
       [Read more on how to reset your password](site.baseurl/help/signing-in/forgot-my-password/)
     change-my-phone-number: |-
