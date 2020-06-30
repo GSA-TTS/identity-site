@@ -155,7 +155,7 @@ developers_page:
   footer:
     heading: Contact us
     p_1: If you’re interested in learning more about the platform, please [fill out this form](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e){:target="_blank"}.
-    intro:
+  intro:
     a_1: Get started
     heading:
     p_1:
