@@ -1107,20 +1107,20 @@ index:
       it.
   column_2:
     heading: Saving time and <br class="sm-show" />money
-    p_1: login.gov handles software development, security operations, and customer
+    p_1: Login.gov handles software development, security operations, and customer
       support. This frees up government departments to focus on their missions while
       reducing costs and improving security.
   column_3:
     heading: Built <br class="sm-show"/>cooperatively
     p_1: |-
-      login.gov works with the private sector and nonprofits to identify and implement best practices and new standards.
+      Login.gov works with the private sector and nonprofits to identify and implement best practices and new standards.
 
-      login.gov builds on groundwork laid by the [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"}, the [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, and the [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
+      Login.gov builds on groundwork laid by the [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"}, the [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, and the [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
   footer:
     heading: Contact us
     p_1: Have a question or problem? [Get in touch](site.baseurl/contact).
   intro:
-    content: login.gov offers the public secure and private online access to participating
+    content: Login.gov offers the public secure and private online access to participating
       government programs. With one login.gov account, users can sign in to multiple
       government agencies. Our goal is to make managing federal benefits, services
       and applications easier and more secure.
