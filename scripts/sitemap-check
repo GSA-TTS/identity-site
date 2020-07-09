@@ -90,4 +90,5 @@ else
   missing_urls.each do |url, source|
     puts "#{url} (#{source})"
   end
+  exit 1
 end
