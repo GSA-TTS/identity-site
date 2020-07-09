@@ -20,7 +20,7 @@
           {% elsif locale == site.lang %}
             <a href="{{ page.url | relative_url  }}" class="block py-12p px2 text-decoration-none white fs-13p">{% t name %}</a>
           {% else %}
-            <a href="{{ page.url | prepend: locale | relative_url }}" class="block py-12p px2 text-decoration-none white fs-13p">{% t name %}</a>
+            <a href="{{ page.url | prepend: locale | prepend: '/' | prepend: site.baseurl_root }}" class="block py-12p px2 text-decoration-none white fs-13p">{% t name %}</a>
           {% endif %}
         </li>
       {% endfor %}
