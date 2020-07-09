@@ -47,8 +47,32 @@ jobs:
           name: Run htmlproofer (no external links)
           command: bundle exec htmlproofer --disable-external --allow-hash-href --empty_alt_ignore `pwd`/_site
 
+  # Running external links as a separate job so we don't fail the build directly
+  # but do get the feedback/info
+  test-external-links:
+    docker:
+      - image: circleci/ruby:2.6-node-browsers
+    steps:
+      - checkout
+      - install-dependencies
+      - build-site
+      - run:
+          name: Run htmlproofer (external links only)
+          command: bundle exec script/htmlproofer-external `pwd`/_site
+
 workflows:
   version: 2
   release:
     jobs:
       - build
+      - test-external-links
+  daily-external-link-checker:
+    jobs:
+      - test-external-links
+    triggers:
+      - schedule:
+          cron: "10 * * * *"
+          filters:
+            branches:
+              only:
+                - master
