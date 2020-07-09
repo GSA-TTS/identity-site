@@ -44,6 +44,9 @@ jobs:
           name: run tests
           command: bundle exec rspec spec
       - run:
+          name: check old URLs
+          command: bundle exec ./scripts/sitemap-check --directory _site --old-urls-file OLD_URLS.yml
+      - run:
           name: Run htmlproofer (no external links)
           command: bundle exec htmlproofer --disable-external --allow-hash-href --empty_alt_ignore `pwd`/_site
 
