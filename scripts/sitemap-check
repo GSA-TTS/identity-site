@@ -1,0 +1,94 @@
+#!/usr/bin/env ruby
+# Script that checks that all URLs in the currently-deployed sitemap still exist
+# in a given directory, or at least have a redirect
+require 'cgi'
+require 'net/http'
+require 'nokogiri'
+require 'optparse'
+require 'yaml'
+
+DEFAULT_SITEMAP_URL = 'https://login.gov/sitemap.xml'
+
+directory = nil
+old_urls_file = nil
+sitemap_url = DEFAULT_SITEMAP_URL
+
+parser = OptionParser.new do |parser|
+  parser.banner = "Usage: #{$PROGRAM_NAME} --directory DIRECTORY [options]"
+
+  parser.on("--directory DIRECTORY", "local directory to check for links in") do |dir|
+    directory = dir
+  end
+
+  parser.on("--old-urls-file FILE",
+            "path to file for additional URLs not in the sitemap to check in (YAML file with an array)") do |file|
+    old_urls_file = file
+  end
+
+  parser.on("--sitemap-url SITEMAP_URL",
+            "remote sitemap to load and check against, defaults to #{DEFAULT_SITEMAP_URL}") do |url|
+    sitemap_url = url
+  end
+
+  parser.on("--help", "print this help message") do
+    puts parser
+  end
+end
+
+parser.parse!
+
+if !directory
+  puts parser
+  exit 1
+end
+
+def load_sitemap_urls(sitemap_url)
+  uri = URI(sitemap_url)
+  response = Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
+    http.request(Net::HTTP::Get.new(uri))
+  end
+  Nokogiri::XML(response.body).css('loc').map(&:text)
+end
+
+def to_relative_path(str)
+  CGI.unescape(
+    URI(str).tap do |uri|
+      uri.host = nil
+      uri.scheme = nil
+    end.to_s
+  )
+end
+
+def check_urls(urls:, directory:, source:)
+  missing_urls = []
+  urls.each do |url|
+    if !File.exist?(File.join(directory, to_relative_path(url)))
+      missing_urls << [url, source]
+    end
+  end
+  missing_urls
+end
+
+missing_urls = check_urls(
+  source: sitemap_url,
+  urls: load_sitemap_urls(sitemap_url),
+  directory: directory,
+)
+
+if old_urls_file
+  missing_urls += check_urls(
+    source: old_urls_file,
+    urls: YAML.load_file(old_urls_file).to_a,
+    directory: directory,
+  )
+end
+
+if missing_urls.empty?
+  exit 0
+else
+  puts "The following URLs not found locally (source):"
+  missing_urls.each do |url, source|
+    puts "#{url} (#{source})"
+  end
+  exit 1
+end
