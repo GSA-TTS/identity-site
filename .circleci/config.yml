@@ -1,10 +1,8 @@
-version: 2
-jobs:
-  build:
-    docker:
-      - image: circleci/ruby:2.6-node-browsers
+version: 2.1
+
+commands:
+  install-dependencies:
     steps:
-      - checkout
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
@@ -25,12 +23,32 @@ jobs:
           paths:
             - ./node_modules
           key: v1-dependencies-{{ checksum "yarn.lock" }}
+  build-site:
+    steps:
       - run:
           name: build the site
           command: |
             npm run build-css
             npm run build-js
             bundle exec jekyll build
+
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.6-node-browsers
+    steps:
+      - checkout
+      - install-dependencies
+      - build-site
       - run:
           name: run tests
           command: bundle exec rspec spec
+      - run:
+          name: Run htmlproofer (no external links)
+          command: bundle exec htmlproofer --disable-external --allow-hash-href --empty_alt_ignore `pwd`/_site
+
+workflows:
+  version: 2
+  release:
+    jobs:
+      - build
