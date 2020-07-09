@@ -58,7 +58,7 @@ jobs:
       - build-site
       - run:
           name: Run htmlproofer (external links only)
-          command: bundle exec script/htmlproofer-external `pwd`/_site
+          command: bundle exec scripts/htmlproofer-external `pwd`/_site
 
 workflows:
   version: 2
