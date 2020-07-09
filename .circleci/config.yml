@@ -36,4 +36,4 @@ jobs:
           command: bundle exec rspec spec
       - run:
           name: check old URLs
-          command: ./scripts/sitemap-check --directory _site --old-urls-file OLD_URLS.yml
+          command: bundle exec ./scripts/sitemap-check --directory _site --old-urls-file OLD_URLS.yml
