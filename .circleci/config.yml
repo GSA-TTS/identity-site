@@ -74,7 +74,8 @@ workflows:
       - test-external-links
     triggers:
       - schedule:
-          cron: "10 * * * *"
+          # Once a day at 12pm
+          cron: "0 12 * * *"
           filters:
             branches:
               only:
