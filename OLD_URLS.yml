@@ -1,15 +1,16 @@
 # Tracking old URLs that we used to have, so we can ensure we redirect to preserve old links
 - https://login.gov/developers/
-- https://login.gov/help/changing-settings/how-do-I-get-a-new-personal-key/
-- https://login.gov/help/changing-settings/how-do-I-set-up-an-authentication-app/
 - https://login.gov/help/changing-settings/how-do-i-change-my-email-address/
 - https://login.gov/help/changing-settings/how-do-i-change-my-password/
 - https://login.gov/help/changing-settings/how-do-i-change-the-phone-number-i-am-using-with-my-account/
 - https://login.gov/help/changing-settings/how-do-i-change-the-phone-number-i-use-to-sign-in/
 - https://login.gov/help/changing-settings/how-do-i-delete-my-account/
+- https://login.gov/help/changing-settings/how-do-I-get-a-new-personal-key/
+- https://login.gov/help/changing-settings/how-do-I-set-up-an-authentication-app/
 - https://login.gov/help/changing-settings/i-got-an-error-message-when-i-added-an-email/
 - https://login.gov/help/creating-an-account/do-i-need-a-mobile-phone-to-use-logingov/
 - https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/
+- https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-only-one-two-factor-authenticator/
 - https://login.gov/help/creating-an-account/how-do-i-verify-my-address-by-mail/
 - https://login.gov/help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 - https://login.gov/help/creating-an-account/i-didnt-receive-a-confirmation-email-from-logingov/
@@ -17,6 +18,7 @@
 - https://login.gov/help/creating-an-account/what-is-my-personal-key/
 - https://login.gov/help/creating-an-account/what-is-two-factor-authentication/
 - https://login.gov/help/creating-an-account/why-didnt-i-receive-a-security-code-to-confirm-my-phone/
+- https://login.gov/help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/
 - https://login.gov/help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/
 - https://login.gov/help/creating-an-account/why-is-my-confirmation-link-invalid/
 - https://login.gov/help/identity-verification/how-do-i-verify-my-identity-on-logingov/
@@ -56,10 +58,12 @@
 - https://login.gov/help/signing-in/why-is-my-personal-key-invalid/
 - https://login.gov/help/signing-in/why-is-my-security-code-invalid/
 - https://login.gov/help/trusted-traveler-programs/another-question/
+- https://login.gov/help/trusted-traveler-programs/aol-verizon/
 - https://login.gov/help/trusted-traveler-programs/application-status/
 - https://login.gov/help/trusted-traveler-programs/dont-know-passid/
 - https://login.gov/help/trusted-traveler-programs/family-account/
 - https://login.gov/help/trusted-traveler-programs/known-traveler-number/
+- https://login.gov/help/trusted-traveler-programs/no-text-message/
 - https://login.gov/help/trusted-traveler-programs/only-shows-login/
 - https://login.gov/help/trusted-traveler-programs/relink-my-profile/
 - https://login.gov/help/trusted-traveler-programs/schedule-an-appointment/
@@ -73,8 +77,3 @@
 - https://login.gov/help/usajobs/security-code/
 - https://login.gov/help/usajobs/what-email-address-do-i-use/
 - https://login.gov/help/usajobs/what-happens-to-my-profile/
-# TODO: These are old URLs we used to have, but don't have a good 1:1 match in new content for them
-# - https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-only-one-two-factor-authenticator/
-# - https://login.gov/help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/
-# - https://login.gov/help/trusted-traveler-programs/aol-verizon/
-# - https://login.gov/help/trusted-traveler-programs/no-text-message/

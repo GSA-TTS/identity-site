@@ -33,6 +33,11 @@ links:
   - name: SAM
     url: /help/sam/
     img_url: /assets/img/app.svg
+redirect_from:
+- /help/creating-an-account/how-do-i-create-an-account-with-only-one-two-factor-authenticator/
+- /help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/
+- /help/trusted-traveler-programs/aol-verizon/
+- /help/trusted-traveler-programs/no-text-message/
 ---
 
 
