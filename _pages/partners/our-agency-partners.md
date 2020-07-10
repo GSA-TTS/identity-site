@@ -46,7 +46,7 @@ class: relative
         <p class="mb4 serif fs-20p">
           {% t our-agency-partners_page.section_2.p_2 %}
         </p>
-        <h2 id="states" class="mt0 mb1 pt2">
+        <h2 id="benefits" class="mt0 mb1 pt2">
         {%t our-agency-partners_page.section_2.heading_4 %}
         </h2><img alt="" class="mb2" src="{{ '/assets/img/hr-red-4.svg' | prepend: site.baseurl }}" height="6">
         <p class="mb3 serif fs-20p">
