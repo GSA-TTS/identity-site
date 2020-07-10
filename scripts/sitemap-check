@@ -84,6 +84,7 @@ if old_urls_file
 end
 
 if missing_urls.empty?
+  puts "No missing urls!"
   exit 0
 else
   puts "The following URLs not found locally (source):"
