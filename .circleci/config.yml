@@ -1,10 +1,11 @@
-version: 2
-jobs:
-  build:
-    docker:
-      - image: circleci/ruby:2.6-node-browsers
+version: 2.1
+
+orbs:
+  slack: circleci/slack@3.4.2
+
+commands:
+  install-dependencies:
     steps:
-      - checkout
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
@@ -25,15 +26,64 @@ jobs:
           paths:
             - ./node_modules
           key: v1-dependencies-{{ checksum "yarn.lock" }}
+  build-site:
+    steps:
       - run:
           name: build the site
           command: |
             npm run build-css
             npm run build-js
             bundle exec jekyll build
+
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.6-node-browsers
+    steps:
+      - checkout
+      - install-dependencies
+      - build-site
       - run:
           name: run tests
           command: bundle exec rspec spec
       - run:
           name: check old URLs
           command: bundle exec ./scripts/sitemap-check --directory _site --old-urls-file OLD_URLS.yml
+      - run:
+          name: Run htmlproofer (no external links)
+          command: bundle exec htmlproofer --disable-external --allow-hash-href --empty_alt_ignore `pwd`/_site
+
+  # Running external links as a separate job so we don't fail the build directly
+  # but do get the feedback/info
+  test-external-links:
+    docker:
+      - image: circleci/ruby:2.6-node-browsers
+    steps:
+      - checkout
+      - install-dependencies
+      - build-site
+      - run:
+          name: Run htmlproofer (external links only)
+          command: bundle exec scripts/htmlproofer-external `pwd`/_site
+      - slack/status:
+          fail_only: true
+          failure_message: ":login-gov::red_circle: external link check failed"
+          only_for_branches: 'master' # don't notify Slack on a branch build
+
+workflows:
+  version: 2
+  release:
+    jobs:
+      - build
+      - test-external-links
+  daily-external-link-checker:
+    jobs:
+      - test-external-links
+    triggers:
+      - schedule:
+          # Once a day at 12pm
+          cron: "0 12 * * *"
+          filters:
+            branches:
+              only:
+                - master

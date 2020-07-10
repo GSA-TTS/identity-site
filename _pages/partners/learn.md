@@ -158,7 +158,7 @@ Please see our [developer documentation](https://developers.login.gov/attributes
 
 ## User account recovery
 
-Our most up-to-date account recovery documentation is available on our help site: [How do I sign in if I don't have my authentication methods?](https://login.gov/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods)
+Our most up-to-date account recovery documentation is available on our help site: [How do I sign in if I don't have my authentication methods?]({{site.baseurl}}/help/signing-in/phone-or-authentication-methods-not-available/)
 
 <div class="mt6"></div>
 
