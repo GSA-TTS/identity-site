@@ -1,5 +1,8 @@
 version: 2.1
 
+orbs:
+  slack: circleci/slack@3.4.2
+
 commands:
   install-dependencies:
     steps:
@@ -62,6 +65,9 @@ jobs:
       - run:
           name: Run htmlproofer (external links only)
           command: bundle exec scripts/htmlproofer-external `pwd`/_site
+      - slack/status:
+          fail_only: true
+          failure_message: ":login-gov::red_circle: external link check failed"
 
 workflows:
   version: 2
