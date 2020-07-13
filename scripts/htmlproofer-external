@@ -16,7 +16,4 @@ HTMLProofer.check_directory(directory, {
     ssl_verifypeer: false,
     ssl_verifyhost: 0,
   },
-  url_ignore: [
-    %r|https://help.cbp.gov|, # this site is down temporarily
-  ]
 }).run
