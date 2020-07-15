@@ -22,7 +22,7 @@ contact_page:
 
     login.gov no gestiona ni afecta a ninguno de sus miembros, pagos, citas o estado de la aplicación y no podemos responder a ninguna pregunta sobre ellos.
 
-    Para preguntas sobre el Programa de viajeros de confianza (Global Entry, GOES, Sentri o Nexus), comuníquese con CBP en [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}
+    Para preguntas sobre el Programa de viajeros de confianza (Global Entry, GOES, Sentri o Nexus), comuníquese con CBP en [https://help.cbp.gov/s/questions?language=es](https://help.cbp.gov/s/questions?language=es){:target="_blank"}
 
     Para preguntas acerca de crear una cuenta o iniciar sesión con login.gov, busque respuestas a preguntas comunes. Para otras preguntas, por favor contáctenos: [hello@login.gov](mailto:hello@login.gov). Tenga en cuenta que estamos experimentando un gran volumen de solicitudes, por lo que puede tardar varios días en comunicarnos con usted.
   support_request_form:
@@ -817,17 +817,17 @@ help_pages:
 
       login.gov es únicamente para acceder a la cuenta e iniciar sesión y no afecta ni tiene ninguna información sobre su solicitud, su suscripción o su idoneidad para el programa de viajeros de confianza. No envíe datos confidenciales de login.gov sobre usted ni números de suscripción que permitan la identificación.
 
-      Si tiene preguntas adicionales relacionadas con "Viajeros de confianza" como estas, póngase en contacto directamente con CBP [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+      Si tiene preguntas adicionales relacionadas con "Viajeros de confianza" como estas, póngase en contacto directamente con CBP [https://help.cbp.gov/s/questions?language=es](https://help.cbp.gov/s/questions?language=es){:target="_blank"}.
     do-i-need-to-pay-again: |-
       No es necesario que pague de nuevo, a menos que sea el momento de renovar su suscripción.
 
       login.gov es únicamente para acceder a la cuenta e iniciar sesión y no afecta ni tiene ninguna información sobre su solicitud, su suscripción o su idoneidad para el programa de viajeros de confianza. No envíe datos confidenciales de login.gov sobre usted ni números de suscripción que permitan la identificación.
 
-      Si tiene preguntas adicionales relacionadas con "Viajeros de confianza" como estas, póngase en contacto directamente con CBP: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+      Si tiene preguntas adicionales relacionadas con "Viajeros de confianza" como estas, póngase en contacto directamente con CBP: [https://help.cbp.gov/s/questions?language=es](https://help.cbp.gov/s/questions?language=es){:target="_blank"}.
     whats-my-passid: |-
       Una vez que haya creado un nombre de usuario y una contraseña en login.gov y haya iniciado sesión correctamente en el [sitio de los programas para viajeros de confianza](https://ttp.cbp.dhs.gov/){:target="_blank"}, se le pedirá que introduzca su PASSID para vincular su antiguo perfil de GOES a las nuevas credenciales de login.gov. Tendrá que responder a las preguntas de seguridad e información adicional que le plantearán los TTP si no tiene su PASSID.
 
-      Si tiene problemas con su nombre de usuario y contraseña de PASSID o GOES, póngase en contacto con CBP directamente: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. No envíe datos confidenciales de login.gov sobre usted o números de suscripción que permitan la identificación.
+      Si tiene problemas con su nombre de usuario y contraseña de PASSID o GOES, póngase en contacto con CBP directamente: [https://help.cbp.gov/s/questions?language=es](https://help.cbp.gov/s/questions?language=es){:target="_blank"}. No envíe datos confidenciales de login.gov sobre usted o números de suscripción que permitan la identificación.
     family-member-accounts: |-
       El [sitio web de programas para viajeros de confianza](https://ttp.cbp.dhs.gov/){:target="_blank"} solo admite una cuenta de login.gov por solicitud individual. Cada uno de los miembros de la familia necesitará una dirección de correo electrónico única para crear una cuenta de login.gov. Entendemos perfectamente que prefiera compartir una dirección de correo electrónico con sus familiares, o que no quiera crear una cuenta de correo electrónico para sus hijos.
 
@@ -841,7 +841,7 @@ help_pages:
 
       login.gov es solo para acceder a su cuenta e iniciar sesión y no afecta ni contiene información sobre su solicitud, su suscripción o su aptitud para el programa para viajeros de confianza. No envíe datos confidenciales de login.gov sobre usted ni números de suscripción que puedan identificarle.
 
-      Si tiene más preguntas relacionadas con "Viajeros de confianza" como estas, póngase en contacto directamente con CBP: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+      Si tiene más preguntas relacionadas con "Viajeros de confianza" como estas, póngase en contacto directamente con CBP: [https://help.cbp.gov/s/questions?language=es](https://help.cbp.gov/s/questions?language=es){:target="_blank"}.
     my-ttp-information-is-not-there: |-
       Si desea acceder a su cuenta de programas para viajeros de confianza (TTP), empiece siempre por [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. Después de seguir las [instrucciones para crear una cuenta](site.baseurl/help/creating-an-account/how-to-create-an-account/), volverá a su información de suscripción a TTP.
 
@@ -856,13 +856,13 @@ help_pages:
       3. Recibirá inmediatamente una confirmación por correo electrónico de que se ha recibido su solicitud de eliminación. Como medida de seguridad, recibirá otro correo electrónico con el enlace para continuar con la eliminación de su cuenta 24 horas después de que llegue la confirmación inicial.
       4. Después de eliminar su cuenta, vaya a [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/) para crear una nueva cuenta.
       5. Una vez que haya creado una nueva cuenta, rellene la información de la página de perfil de la cuenta y, en la parte inferior, verá una sección de solicitudes anteriores. En "¿Alguna vez ha hecho una solicitud en Global Entry, NEXUS o SENTRI?", seleccione "Sí".
-      6. Podrá vincular esta nueva cuenta con su antigua cuenta GOES si proporciona su PASSID. Si tiene problemas con su PASSID, póngase en contacto directamente con CBP: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask).
+      6. Podrá vincular esta nueva cuenta con su antigua cuenta GOES si proporciona su PASSID. Si tiene problemas con su PASSID, póngase en contacto directamente con CBP: [https://help.cbp.gov/s/questions?language=es](https://help.cbp.gov/s/questions?language=es).
     scheduling-an-appointment: |-
       La mejor manera de programar una cita es por medio del sitio de programas para viajeros de confianza.
 
       login.gov es solamente para el acceso a la cuenta y el inicio de sesión y no afecta ni tiene ninguna información sobre su solicitud, suscripción o aptitud para el programa de viajeros de confianza. No envíe datos confidenciales de login.gov sobre usted ni números de suscripción que permitan la identificación.
 
-      Si tiene preguntas adicionales relacionadas con "Viajeros de confianza" como estas, póngase en contacto directamente con CBP: [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+      Si tiene preguntas adicionales relacionadas con "Viajeros de confianza" como estas, póngase en contacto directamente con CBP: [https://help.cbp.gov/s/questions?language=es](https://help.cbp.gov/s/questions?language=es){:target="_blank"}.
     cant-sign-in-or-reset-my-password-goes-account: |-
       Ya no podrá utilizar su n.º de usuario y su contraseña de GOES para iniciar sesión. Cree una nueva cuenta en login.gov. Podrá vincular esta nueva cuenta con su antigua cuenta de GOES proporcionando su PASSID. Si tiene problemas con su PASSID, póngase en contacto con CBP directamente: [https://help.cbp.gov/s/questions](https://help.cbp.gov/s/questions){:target="_blank"}. No se necesitará ninguna tarjeta de crédito ni hacer ningún pago.
 

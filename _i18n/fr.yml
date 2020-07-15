@@ -23,7 +23,7 @@ contact_page:
 
     login.gov ne gère ni n'affecte aucun de vos membres, paiements, rendez-vous ou statut d'application existants et nous ne sommes pas en mesure de répondre à vos questions.
 
-    Pour des questions sur le programme Trusted Traveler (Global Entry, GOES, Sentri ou Nexus), veuillez contacter le CBP à l'adresse [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}
+    Pour des questions sur le programme Trusted Traveler (Global Entry, GOES, Sentri ou Nexus), veuillez contacter le CBP à l'adresse [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}
 
     Pour des questions sur la création d'un compte ou sur la connexion avec login.gov, recherchez des réponses aux questions courantes. Pour d'autres questions, veuillez nous contacter [hello@login.gov](mailto:hello@login.gov). N'oubliez pas que nous avons beaucoup de demandes afin de prendre plusieurs jours pour vous rappeler.
   support_request_form:
@@ -844,17 +844,17 @@ help_pages:
 
       login.gov est uniquement destiné à l'accès et à la connexion au compte. Il n'affecte pas et ne contient aucune information concernant votre demande, votre adhésion ou votre éligibilité aux Trusted Traveler Programs. Merci de ne pas envoyer de données confidentielles vous concernant ou de numéros de membre personnels sur login.gov.
 
-      Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+      Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}.
     do-i-need-to-pay-again: |-
       Vous n'avez pas besoin de payer de nouveau, sauf s'il est temps de renouveler votre adhésion.
 
       login.gov est uniquement destiné à l'accès et à la connexion au compte. Il n'affecte pas et ne contient aucune information concernant votre demande, votre adhésion ou votre éligibilité aux Trusted Traveler Programs. Merci de ne pas envoyer de données confidentielles vous concernant ou de numéros de membre personnels sur login.gov.
 
-      Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+      Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}.
     whats-my-passid: |-
       Après avoir créé un nom d'utilisateur et un mot de passe login.gov et vous être connecté au [site Trusted Traveler Programs](https://ttp.cbp.dhs.gov/){:target="_blank"}, il vous sera demandé d'entrer votre PASSID pour lier votre ancien profil GOES aux nouveaux identifiants login.gov. TTP vous demandera de répondre à des questions de sécurité et de fournir des informations supplémentaires si vous n'avez pas votre PASSID.
 
-      Si vous rencontrez des difficultés avec votre nom d'utilisateur et votre mot de passe PASSID ou GOES, veuillez contacter CBP directement : [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}. Merci de ne pas envoyer de données confidentielles vous concernant ou de numéros de membre personnels sur login.gov.
+      Si vous rencontrez des difficultés avec votre nom d'utilisateur et votre mot de passe PASSID ou GOES, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}. Merci de ne pas envoyer de données confidentielles vous concernant ou de numéros de membre personnels sur login.gov.
     family-member-accounts: |-
       Le [site Trusted Traveler Programs](https://ttp.cbp.dhs.gov/){:target="_blank"} ne prend en charge qu'un seul compte login.gov pour chaque demande. Chaque membre de la famille aura besoin d'une adresse e-mail unique pour créer un compte login.gov. Nous comprenons parfaitement votre choix de vouloir partager une adresse e-mail avec les membres de votre famille ou de ne pas créer de compte de messagerie pour vos enfants.
 
@@ -868,7 +868,7 @@ help_pages:
 
       login.gov est uniquement destiné à l'accès et à la connexion au compte. Il n'affecte pas et ne contient aucune information concernant votre demande, votre adhésion ou votre éligibilité aux Trusted Traveler Programs. Merci de ne pas envoyer de données confidentielles vous concernant ou de numéros de membre personnels sur login.gov.
 
-      Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+      Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}.
     my-ttp-information-is-not-there: |-
       Si vous souhaitez accéder à votre compte Trusted Traveler Programs (TTP), commencez toujours à l'adresse [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. Après avoir suivi les [instructions de création de compte](site.baseurl/help/creating-an-account/how-to-create-an-account/), vous serez renvoyé vers les informations de votre adhésion à TTP.
 
@@ -883,13 +883,13 @@ help_pages:
       3. Vous recevrez immédiatement une confirmation par e-mail vous informant que votre demande de suppression a bien été reçue. À titre de mesure de sécurité, vous recevrez un autre e-mail avec le lien servant à confirmer la suppression de votre compte 24 heures après avoir reçu la confirmation initiale.
       4. Après avoir supprimé votre compte, allez à [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/) pour créer un nouveau compte.
       5. Une fois que vous avez créé un nouveau compte, remplissez l'information à la page du profil du compte et au bas, vous verrez une section pour les applications précédentes. Sous « Avez-vous déjà soumis une demande pour l'obtention d'un accès Global Entry, NEXUS ou SENTRI ? », sélectionnez « Oui ».
-      6. Vous serez en mesure d'établir un lien entre ce nouveau compte et votre ancien compte GOES en fournissant votre PASSID. Si vous éprouvez des difficultés avec votre PASSID, veuillez contacter CBP directement : [https://help.cbp.gov/app/ask](https://help.cbp.gov/s/questions).
+      6. Vous serez en mesure d'établir un lien entre ce nouveau compte et votre ancien compte GOES en fournissant votre PASSID. Si vous éprouvez des difficultés avec votre PASSID, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions).
     scheduling-an-appointment: |-
       La meilleure façon de prendre un rendez-vous est d'utiliser le site Trusted Traveler Programs.
 
       login.gov est uniquement destiné à l'accès et à la connexion au compte. Il n'affecte pas et ne contient aucune information concernant votre demande, votre adhésion ou votre éligibilité à Trusted Traveler Programs. Merci de ne pas envoyer de données confidentielles vous concernant ou de numéros de membre personnels sur login.gov.
 
-      Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/app/ask](https://help.cbp.gov/app/ask){:target="_blank"}.
+      Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}.
     cant-sign-in-or-reset-my-password-goes-account: |-
       Vous ne serez plus en mesure d'utiliser votre identifiant d'utilisateur et votre mot de passe GOES pour vous connecter. Veuillez créer un nouveau compte login.gov. Vous serez en mesure de lier ce nouveau compte à votre ancien compte GOES en indiquant votre PASSID. Si vous rencontrez des difficultés avec votre PASSID, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions](https://help.cbp.gov/s/questions){:target="_blank"}. Aucun numéro de carte de crédit ou paiement ne vous sera demandé.
 
