@@ -12,15 +12,12 @@ module.exports = {
   devtool: '#cheap-module-eval-source-map',
 
   module: {
-    loaders: [
+    rules: [
       {
-        test: /\.js$/,
+        test: /\.(js)$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['es2015'],
-        }
-      },
+        use: ['babel-loader']
+      }
     ]
   },
 

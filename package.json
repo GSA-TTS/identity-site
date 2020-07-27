@@ -26,7 +26,8 @@
   "main": "webpack.config.js",
   "keywords": [],
   "devDependencies": {
-    "nodemon": "^1.15.1"
+    "nodemon": "^1.15.1",
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "aria-accordion": "^1.1.0",
@@ -41,6 +42,6 @@
     "jquery": "^3.5.0",
     "node-sass": "^4.13.1",
     "normalize.css": "^4.2.0",
-    "webpack": "^2.2.0"
+    "webpack": "^4.44.0"
   }
 }
