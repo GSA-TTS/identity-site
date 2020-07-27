@@ -1,5 +1,7 @@
 var webpack = require('webpack');
 
+const { NODE_ENV = 'production' } = process.env;
+
 module.exports = {
   entry: {
     'site': './assets/js/main.js'
@@ -11,16 +13,15 @@ module.exports = {
 
   devtool: '#cheap-module-eval-source-map',
 
+  mode: NODE_ENV,
+
   module: {
-    loaders: [
+    rules: [
       {
-        test: /\.js$/,
+        test: /\.(js)$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['es2015'],
-        }
-      },
+        use: ['babel-loader']
+      }
     ]
   },
 
