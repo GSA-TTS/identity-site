@@ -1164,7 +1164,7 @@ nav:
   playbook: Manual
   principles: Principios
   security: Seguridad
-  sign_in: 'Inicia sesión con:'
+  sign_in: 'Inicia sesión a:'
   skip_nav: Salte al contenido principal
 playbook_page:
   section_1:

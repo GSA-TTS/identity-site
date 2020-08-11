@@ -36,6 +36,7 @@ $(function() {
 
   languagePicker($('#i18n-desktop-toggle > a'), $('#i18n-desktop-dropdown'));
   languagePicker($('#i18n-mobile-toggle > a'), $('#i18n-mobile-dropdown'));
+  languagePicker($('.btn-lang-toggle'), $('#i18n-desktop-dropdown'));
 
   // Dropdown menu
 

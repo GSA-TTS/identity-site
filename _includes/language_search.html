@@ -1,0 +1,16 @@
+<section class="language-search-desktop" style="display:flex;align-items:center;justify-content:flex-end">
+  {% if site.languages.size > 1 %}
+    <button class="usa-button usa-button--outline btn-lang-toggle">
+        {% include svg/globe.svg %}
+        <span class="label">
+          {% t global.language %}
+        </span>
+    </button>
+  {% endif %}
+  <span>
+    <a class="usa-button sign-in-logo" href="https://secure.login.gov/{% if site.lang != 'en' %}{{site.lang}}{% endif %}"
+      title="Login.gov" aria-label="Login.gov" tabindex="0">
+      <span class="sign-into-label">{% t nav.sign_in %} <span>Login.gov</span></span>
+    </a>
+  </span>
+</section>
