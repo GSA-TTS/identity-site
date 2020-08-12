@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "login.gov static site",
   "scripts": {
-    "build-css": "rm _site/assets/stylesheets/main.css && npx sass --no-source-map --style=compressed --load-path node_modules --load-path _sass assets/stylesheets/main.scss assets/stylesheets/main.css && cp assets/stylesheets/main.css _site/assets/stylesheets/main.css",
+    "build-css": "rm -f _site/assets/stylesheets/main.css && npx sass --no-source-map --style=compressed --load-path node_modules --load-path _sass assets/stylesheets/main.scss assets/stylesheets/main.css && cp assets/stylesheets/main.css _site/assets/stylesheets/main.css",
     "build-js": "webpack --config webpack.config.js --progress --colors",
     "federalist": "npm run build-css && npm run build-js",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
