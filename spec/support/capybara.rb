@@ -1,3 +1,5 @@
+if false
+
 require 'capybara/rspec'
 require 'webdrivers/chromedriver'
 require 'selenium/webdriver'
@@ -22,3 +24,5 @@ Webdrivers.cache_time = 86_400
 Capybara.app = Rack::Jekyll.new(force_build: true)
 
 sleep 0.1 while Capybara.app.compiling?
+
+end

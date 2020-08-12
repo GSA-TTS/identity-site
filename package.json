@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "login.gov static site",
   "scripts": {
-    "build-css": "`npm bin`/node-sass --include-path node_modules --include-path _sass --output-style compressed assets/stylesheets/main.scss assets/stylesheets/main.css",
+    "build-css": "rm _site/assets/stylesheets/main.css && npx sass --no-source-map --style=compressed --load-path node_modules --load-path _sass assets/stylesheets/main.scss assets/stylesheets/main.css && cp assets/stylesheets/main.css _site/assets/stylesheets/main.css",
     "build-js": "webpack --config webpack.config.js --progress --colors",
     "federalist": "npm run build-css && npm run build-js",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
@@ -26,7 +26,8 @@
   "main": "webpack.config.js",
   "keywords": [],
   "devDependencies": {
-    "nodemon": "^1.15.1"
+    "nodemon": "^1.15.1",
+    "sass": "^1.26.10"
   },
   "dependencies": {
     "aria-accordion": "^1.1.0",
@@ -39,7 +40,6 @@
     "hint.css": "^2.5.0",
     "identity-style-guide": "^2.2.2",
     "jquery": "^3.5.1",
-    "node-sass": "^4.13.1",
     "normalize.css": "^4.2.0",
     "webpack": "^4.44.0",
     "webpack-cli": "^3.3.12"

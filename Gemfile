@@ -13,13 +13,7 @@ group :development do
 end
 
 group :test do
-  gem 'axe-matchers'
-  gem "capybara"
-  gem 'capybara-selenium', '>= 0.0.6'
   gem 'html-proofer'
   gem 'nokogiri', '~> 1.10'
-  gem 'puma'
-  gem 'rack-jekyll'
   gem 'rspec', '~> 3.5.0'
-  gem 'webdrivers', '~> 3.0'
 end
