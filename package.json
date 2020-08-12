@@ -5,8 +5,9 @@
   "scripts": {
     "build-css": "npx sass --no-source-map --style=compressed --load-path node_modules --load-path _sass assets/stylesheets/main.scss assets/stylesheets/main.css",
     "build-js": "webpack --config webpack.config.js --progress --colors",
+    "copy-main": "cp assets/stylesheets/main.css _site/assets/stylesheets",
     "federalist": "npm run build-css && npm run build-js",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "watch-css": "nodemon -e scss -x \"npm run build-css && npm run copy-main\"",
     "watch-js": "webpack -w --config webpack.config.js --progress --colors"
   },
   "repository": {
