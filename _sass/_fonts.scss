@@ -67,3 +67,8 @@
   font-weight: 700;
   src: url("../fonts/publicsans-bold.woff2") format("woff2"), url("../fonts/publicsans-bold.woff") format("woff"), url("../fonts/publicsans-bold.ttf") format("truetype");
 }
+
+.small-text,
+.usa-button.small-text {
+  font-size: 0.8125rem;
+}

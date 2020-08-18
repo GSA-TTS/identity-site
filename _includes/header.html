@@ -12,69 +12,62 @@
   <nav role="navigation" class="usa-nav" >
     <div class="usa-nav__inner">
       <button class="usa-nav__close"><img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close"></button>
+
+      <form class="usa-search usa-search--small" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="affiliate" id="affiliate" value="login.gov" />
+        <div role="search">
+          <input type="search" name="query" id="query" autocomplete="off" class="usa-input" />
+          <input type="submit" class="usa-button app-search" name="commit" value=" " data-disable-with="Search" />
+        </div>
+      </form>
+
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link what-the{% if page.url contains '/why-login/' %}usa-current{% endif %}" href="{{ '/' | relative_url }}">
-            <span>Why login.gov?</span>
+            <span>{% t nav.why-login-gov %}</span>
           </a>
         </li>
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link {% if page.url contains '/who-uses-login/' %}usa-current{% endif %}" href="{{ '/' | relative_url }}">
-            <span>Who uses login.gov?</span>
+            <span>{% t nav.who-uses-login-gov %}</span>
           </a>
         </li>
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link {% if page.url contains '/create-account/' %}usa-current{% endif %}" href="{{ '/' | relative_url }}">
-            <span>Create an account</span>
+            <span>{% t nav.create_an_account %}</span>
           </a>
         </li>
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link {% if page.url contains '/help/' %}usa-current{% endif %}" href="{{ '/' | relative_url }}">
-            <span>Help</span>
+            <span>{% t nav.help %}</span>
           </a>
         </li>
       </ul>
     </div>
 
-    <form class="usa-search usa-search--small" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
-      <input type="hidden" name="affiliate" id="affiliate" value="login.gov" />
-      <div role="search">
-        <input type="search" name="query" id="query" autocomplete="off" class="usa-input" />
-        <input type="submit" class="usa-button app-search" name="commit" value=" " data-disable-with="Search" />
-      </div>
-    </form>
+    {% include sign_in.html mobile="mobile" %}
 
-    <!--
-
-      Translations and search and Login
-
-    -->
-    <!--
-    <div class="usa-nav__secondary">
-      <div class="usa-nav__secondary-container">
-        <div class="ooomg" style="display:flex; align-items: center; justify-content: space-between;">
-          <span class="omg" style="display:inline-block; margin-right: 1em; margin-top: .5rem; white-space:nowrap">
-            <a class="usa-nav__link" href="/">English</a> &middot; <a class="usa-nav__link" href="/es">Español</a> &middot; <a class="usa-nav__link" href="/fr">Français</a>
-          </span>
-          <form class="usa-search usa-search--small" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
-            <input type="hidden" name="affiliate" id="affiliate" value="login.gov" />
-            <div role="search">
-              <input type="search" name="query" id="query" autocomplete="off" class="usa-input" />
-              <input type="submit" class="usa-button app-search" name="commit" value=" " data-disable-with="Search" />
-            </div>
-          </form>
-        </div>
-        <ul class="usa-nav__secondary-links">
-          <li class="usa-nav__secondary-item bold sign-in-wrapper margin-top-1">
-            <span class="font-sans-md">{% t nav.sign_in %}</span>
-            <span class="usa-button--small sign-in-logo sign-in-logo-padding">
-              <a href="https://secure.login.gov/{% if site.lang != 'en' %}{{site.lang}}{% endif %}"
-                title="Login.gov" aria-label="Login.gov" tabindex="0">Login.gov</a>
-            </span>
-          </li>
-        </ul>
-      </div>
+    <div class="mobile btn-lang-toggle">
+      {% include svg/globe.svg %}
+      <span class="label">
+        {% t global.language %}
+      </span>
     </div>
-    -->
+
+    <ul class="mobile language-list">
+      {% for locale in site.languages %}
+        {% capture name %}global.locales.{{ locale }}{% endcapture %}
+        <li>
+          {% if locale == 'en' %}
+            <a href="{{ page.url | prepend: site.baseurl_root }}">{% t name %}</a>
+          {% elsif site.lang != 'en' and locale == site.lang %}
+            <a href="{{ page.url | prepend: site.baseurl  }}">{% t name %}</a>
+          {% else %}
+            <a href="{{ page.url | prepend: locale | prepend: '/' | prepend: site.baseurl_root }}">{% t name %}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
   </nav>
+  <div class="modal-bg"></div>
 </div>

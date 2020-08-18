@@ -3,6 +3,8 @@
   content:
     p_1: Es posible que desee comprobar su enlace e intentar nuevamente. (404)
   heading: La página que buscaba no existe.
+actions:
+  read_more: Lee mas
 banner:
   text:
     official: Un sitio web oficial del gobierno de los Estados Unidos
@@ -1107,15 +1109,32 @@ index:
 
       Login.gov construye sobre las bases establecidas por el Instituto [Nacional de Estándares y Tecnología (en inglés)](https://www.nist.gov/){:target="_blank"}, el [Plan Nacional de Acción de Seguridad Cibernética (en inglés)](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, y el [Servicio Federal de Adquisición (en inglés)](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
   footer:
+    additional_info: Puede encontrar información adicional sobre la Administración de
+      Servicios Generales de EE. UU. (GSA) en
+    for_questions: Si tiene preguntas sobre este sitio web, envíe un correo electrónico
+      a email.gsa.gov.
     heading: Aprenda más
+    learn_more: Aprende más
+    links:
+      accessibility: Ver declaración de accesibilidad
+      budget: VVer informes de presupuesto y rendimiento
+      foia: Presentar una solicitud de la Ley de Libertad de Información (FOIA)
+      no_fear_act: Ver datos de No FEAR Act
+      report_fraud: Denuncie fraude, despilfarro o abuso a la Oficina del Inspector General
+    org: "[login.gov](/) es un producto de los [Servicios de Transformación Tecnológica](https://www.gsa.gov/tts)
+      de GSA y está administrado por la [Oficina de Soluciones](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions)."
     p_1: "¿Tiene alguna pregunta o problema? [Contáctenos](site.baseurl/contact)."
+    tts:
+      about: Como parte de los Servicios de transformación tecnológica (TTS) de GSA, aplicamos
+        metodologías y tecnologías modernas para mejorar la experiencia del público con el gobierno.
+        Ayudamos a las agencias a hacer que sus servicios sean más accesibles, eficientes y efectivos
+        con aplicaciones, plataformas, procesos, personal y soluciones de software modernas.
+      portfolio: TTS Solutions es una cartera de productos y servicios que ayudan a las agencias a
+        mejorar la entrega de información y servicios al público.
   intro:
-    content: Login.gov ofrece al público un servicio seguro y privado en línea para
-      acceder a los programas del Gobierno que participan en esta plataforma. Con
-      una cuenta de login.gov, los usuarios pueden acceder a varias agencias gubernamentales.
-      Nuestro objetivo es hacer que el manejo de beneficios, servicios y aplicaciones
-      federales sea más fácil y más seguro.
-    heading: Acceso simple y seguro a los servicios en línea del Gobierno
+    content: Use una cuenta para tener acceso privado y seguro a las agencias gubernamentales
+      participantes.
+    heading: La Única Cuenta del Público para el Gobierno
 meta:
   contact:
     title: Contacto
@@ -1155,7 +1174,16 @@ meta:
       personal.
     title: Seguridad
 nav:
+  about_us: Sobre nosotros
+  become_a_partner: Convertirse en un compañero
+  contact: Contacto
+  create_an_account: Crea una cuenta
+  developer_guide: Guía para desarrolladores
   developers: Desarrolladores
+  groups:
+    agencies: Para Agencias
+    learn: Aprender
+    support: Apoyo
   help: Ayuda
   home: Inicio
   implementation: Implementación
@@ -1163,9 +1191,13 @@ nav:
   overview: Resumen
   playbook: Manual
   principles: Principios
+  privacy_&_security: Privacidad y seguridad
   security: Seguridad
   sign_in: 'Inicia sesión a:'
   skip_nav: Salte al contenido principal
+  system_status: Estado del sistema login.gov
+  who-uses-login-gov: ¿Quién usa login.gov?
+  why-login-gov: ¿Por qué login.gov?
 playbook_page:
   section_1:
     p_1: El manejo de identidades —o asegurarse de que sólo las personas apropiadas
