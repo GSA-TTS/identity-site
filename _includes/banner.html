@@ -1,5 +1,5 @@
-<div class="flex-justify-center grid-row bg-yellow desktop:padding-x-4 padding-y-2 font-lang-4 center">
-  <div class="grid-col-auto black margin-x-2">
+<section class="flex-justify-center grid-row bg-yellow desktop:padding-x-4 padding-y-2 font-lang-4 center">
+  <div class="covid-prompt">
     {% t banner.covid.question %}
   </div>
   <div class="grid-col-auto covid">
@@ -7,44 +7,40 @@
       {% t banner.covid.button %}
     </a>
   </div>
-</div>
+</section>
 <section class="usa-banner" aria-label="Official government website">
   <div class="usa-accordion">
-      <header class="usa-banner__header">
-          <div class="usa-banner__inner">
-              <div class="grid-col-auto">
-                  <img class="usa-banner__header-flag" src="{{ site.baseurl }}/assets/img/us-flag.png" alt="U.S. flag">
-              </div>
-              <div class="grid-col-fill tablet:grid-col-auto">
-                  <p class="usa-banner__header-text">{% t banner.text.official %}</p>
-                  <p class="usa-banner__header-action" aria-hidden="true">{% t banner.text.how %}</p>
-              </div>
-              <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
-        <span class="usa-banner__button-text">{% t banner.text.how %}</span>
-      </button>
-          </div>
-      </header>
-      <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden>
-          <div class="grid-row grid-gap-lg">
-              <div class="usa-banner__guidance tablet:grid-col-6">
-                  <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/img/icon-dot-gov.svg" alt="Dot gov">
-                  <div class="usa-media-block__body">
-                      <p>
-                          <strong>{% t banner.text.gov_heading %}</strong>
-                          <br> {% t banner.text.gov_description %}
-                      </p>
-                  </div>
-              </div>
-              <div class="usa-banner__guidance tablet:grid-col-6">
-                  <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/img/icon-https.svg" alt="Https">
-                  <div class="usa-media-block__body">
-                      <p>
-                          <strong>{% t banner.text.secure_heading %}</strong>
-                          <br> {% t banner.text.secure_description %}
-                      </p>
-                  </div>
-              </div>
-          </div>
+    <div class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="{{ site.baseurl }}/assets/img/us-flag.png" alt="U.S. flag">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">{% t banner.text.official %}</p>
+          <p class="usa-banner__header-action" aria-hidden="true">{% t banner.text.how %}</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">{% t banner.text.how %}</span>
+        </button>
       </div>
+    </div>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden>
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/img/icon-dot-gov.svg" alt="Dot gov">
+          <p class="usa-media-block__body">
+            <strong>{% t banner.text.gov_heading %}</strong>
+            <br> {% t banner.text.gov_description %}
+          </p>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/img/icon-https.svg" alt="Https">
+          <p class="usa-media-block__body">
+            <strong>{% t banner.text.secure_heading %}</strong>
+            <br> {% t banner.text.secure_description %}
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>

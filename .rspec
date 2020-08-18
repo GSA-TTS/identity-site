@@ -1,2 +1,4 @@
+--require spec_helper
 --color
 --format=documentation
+--exclude_pattern=spec/accessibility_spec.rb

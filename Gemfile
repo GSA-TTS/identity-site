@@ -11,8 +11,9 @@ group :development do
   gem 'pry'
   gem 'rb-readline'
 end
+
 group :test do
   gem 'html-proofer'
-  gem 'rspec', '~> 3.5.0'
   gem 'nokogiri', '~> 1.10'
+  gem 'rspec', '~> 3.5.0'
 end

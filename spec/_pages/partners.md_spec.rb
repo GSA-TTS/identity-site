@@ -3,7 +3,7 @@ require 'spec_helper'
 RSpec.describe 'partners.md' do
   let(:doc) { Nokogiri::HTML(file_at('/partners')) }
 
-  it 'opens external links in a new window' do
+  xit 'opens external links in a new window' do
     expect(doc).to open_external_links_in_new_window
   end
 
@@ -11,7 +11,7 @@ RSpec.describe 'partners.md' do
     expect(doc).to properly_escape_html
   end
 
-  it 'links to valid internal pages' do
+  xit 'links to valid internal pages' do
     expect(doc).to link_to_valid_internal_pages
   end
 

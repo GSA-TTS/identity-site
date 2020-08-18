@@ -34,8 +34,8 @@ $(function() {
     });
   }
 
-  languagePicker($('#i18n-desktop-toggle > a'), $('#i18n-desktop-dropdown'));
-  languagePicker($('#i18n-mobile-toggle > a'), $('#i18n-mobile-dropdown'));
+  languagePicker($('.btn-lang-toggle'), $('.btn-lang-toggle + .dropdown'));
+  languagePicker($('.footer .learn-more'), $('.footer .learn-more-section-container'));
 
   // Dropdown menu
 
@@ -54,6 +54,10 @@ $(function() {
     } else {
       $dropdownSm.toggleClass('focused');
     }
+  });
+
+  $('.modal-bg').on('click touch', function(event) {
+    $('.usa-menu-btn').click();
   });
 
   // Affix

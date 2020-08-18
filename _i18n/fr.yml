@@ -4,6 +4,8 @@
     p_1: Nous vous recommandons de revérifier votre lien et d'essayer de nouveau.
       (404)
   heading: La page que vous recherchez n'existe pas.
+actions:
+  read_more: Lire la suite
 banner:
   text:
     official: Un site officiel du gouvernement américain
@@ -1153,15 +1155,32 @@ index:
 
         Dirigé par le [U.S. Digital Service](https://www.usds.gov){:target="_blank"} et [18F](https://18f.gsa.gov){:target="_blank"}, login.gov est bâti sur les bases établies par le [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"}, le [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"} et le [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
   footer:
+    additional_info: Des informations supplémentaires sur la General Services Administration (GSA)
+      des États-Unis sont disponibles à l'adresse
+    for_questions: Pour toute question concernant ce site Web, envoyez un e-mail à% email.gsa.gov.
     heading: Pour nous joindre
-    p_1: Vous avez une question ou un problème? [Communiquez avec nous](site.baseurl/contact).
+    learn_more: Apprendre encore plus
+    links:
+      accessibility: Afficher la déclaration d'accessibilité
+      budget: Afficher les rapports sur le budget et les performances
+      foia: Soumettre une demande en vertu de la loi sur la liberté de l'information (FOIA)
+      no_fear_act: Afficher les données No FEAR Act
+      report_fraud: Signaler toute fraude, gaspillage ou abus au Bureau de l'inspecteur général
+    org: "[login.gov](/) est un produit des [Services de Transformation Technologique](https://www.gsa.gov/tts)
+      de GSA et géré par le [Bureau des Solutions](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions)."
+    p_1: Vous avez une question ou un problème? [Communiquez avec nous](site.baseurl/contact)
+    tts:
+      about: Dans le cadre des services de transformation technologique (TTS) de GSA, nous appliquons
+        des méthodologies et des technologies modernes pour améliorer l’expérience du public avec
+        le gouvernement. Nous aidons les agences à rendre leurs services plus accessibles, efficients
+        et efficaces grâce à des applications, des plates-formes, des processus, du personnel et des
+        solutions logicielles modernes.
+      portfolio: TTS Solutions est un portefeuille de produits et de services qui aident les agences
+        à améliorer la fourniture d'informations et de services au public.
   intro:
-    content: Login.gov offre l'accès public et sécurisé en ligne aux programmes gouvernementaux
-      participants. Avec un compte de connexion à login.gov, les utilisateurs peuvent
-      se connecter à de multiples agences gouvernementales. Notre objectif est de
-      faciliter la gestion des avantages sociaux, applications et services fédéraux
-      et de la rendre plus sécurisée.
-    heading: Accès simple et sécurisé aux services en ligne du gouvernement
+    content: Utilisez un seul compte pour un accès sécurisé et privé aux agences gouvernementales
+      participantes.
+    heading: Le Compte Unique du Public pour le Gouvernement
 meta:
   contact:
     title: Contact
@@ -1201,7 +1220,16 @@ meta:
       personnels.
     title: Sécurité
 nav:
+  about_us: À propos de nous
+  become_a_partner: Devenir un partenaire
+  contact: Contact
+  create_an_account: Créer un compte
+  developer_guide: Guide du développeur
   developers: Développeurs
+  groups:
+    agencies: Pour les agences
+    learn: Apprendre
+    support: Soutien
   help: Aide
   home: Accueil
   implementation: Mise en œuvre
@@ -1209,9 +1237,13 @@ nav:
   overview: Aperçu
   playbook: Guide de mise en œuvre
   principles: Principes
+  privacy_&_security: Confidentialité et sécurité
   security: Sécurité
-  sign_in: 'Se connecter avec:'
+  sign_in: 'Connectez-vous à:'
   skip_nav: Passer au contenu principal
+  system_status: État du système login.gov
+  who-uses-login-gov: Qui utilise login.gov?
+  why-login-gov: Pourquoi login.gov?
 playbook_page:
   section_1:
     p_1: La gestion d'identité, ou s'assurer que seules les bonnes personnes obtiennent

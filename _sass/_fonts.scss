@@ -53,3 +53,22 @@
   font-weight: 700;
   src: url("../fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/merriweather-bold-webfont.woff2") format("woff2"), url("../fonts/merriweather-bold-webfont.woff") format("woff"), url("../fonts/merriweather-bold-webfont.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/publicsans-regular.woff2") format("woff2"), url("../fonts/publicsans-regular.woff") format("woff"), url("../fonts/publicsans-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/publicsans-bold.woff2") format("woff2"), url("../fonts/publicsans-bold.woff") format("woff"), url("../fonts/publicsans-bold.ttf") format("truetype");
+}
+
+.small-text,
+.usa-button.small-text {
+  font-size: 0.8125rem;
+}

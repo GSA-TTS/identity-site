@@ -1,6 +1,6 @@
-$serif-font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif !default;
-$sans-serif-font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif !default;
-$monospace-font-family: 'Source Code Pro', Consolas, monospace !default;
+$serif-font-family: "Public Sans", "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif !default;
+$sans-serif-font-family: "Public Sans", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif !default;
+$monospace-font-family: "Public Sans", "Source Code Pro", Consolas, monospace !default;
 
 $base-font-size: 16px !default;
 
@@ -102,7 +102,7 @@ $breakpoint-xl: '(min-width: 96em)' !default;
 $breakpoint-sm-md: '(min-width: 40em) and (max-width: 52em)' !default;
 $breakpoint-md-lg: '(min-width: 52em) and (max-width: 64em)' !default;
 $breakpoint-lang: '(min-width: 736px) and (max-width: 775px)' !default;
-$breakpoint-menu: '(max-width: 1024px)' !default; //widths less than 1024px show the menu layover
+$breakpoint-menu: '(max-width: 1023px)' !default; //widths less than 1024px show the menu layover
 
 $container-width: 780px !default;
 $container-skinny-width: 620px !default;
