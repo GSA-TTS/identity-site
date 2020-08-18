@@ -1180,7 +1180,7 @@ index:
   intro:
     content: Utilisez un seul compte pour un accès sécurisé et privé aux agences gouvernementales
       participantes.
-    heading: Le Compte Unique du Public pour le Gouvernement
+    heading: Le seul compte public pour le gouvernement.
 meta:
   contact:
     title: Contact
@@ -1193,7 +1193,7 @@ meta:
     description: Trouvez des réponses aux questions fréquentes concernant login.gov.
     title: Aide
   home:
-    description: Un accès simple et sécuritaire aux services en ligne du gouvernement.
+    description: Utilisez un seul compte pour un accès sécurisé et privé aux prestations et services fédéraux.
     title: Accueil
   implementation:
     description: Déterminez si votre agence ou votre organisme a besoin d'un système
