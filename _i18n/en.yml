@@ -1143,7 +1143,7 @@ index:
         delivery of information and services to the public.
   intro:
     content: Use one account for secure, private access to participating government agencies.
-    heading: The Public’s One Account for Government
+    heading: The public’s one account for government.
 meta:
   contact:
     title: Contact
@@ -1156,7 +1156,7 @@ meta:
     description: Get answers to common questions about login.gov.
     title: Help
   home:
-    description: Simple, secure access to government services online
+    description: Use one account for secure, private access to Federal benefits and services.
     title: Home
   implementation:
     description: Determine whether your agency or organization needs a consumer identity
