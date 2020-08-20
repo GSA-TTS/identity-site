@@ -13,13 +13,7 @@
     <div class="usa-nav__inner">
       <button class="usa-nav__close"><img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close"></button>
 
-      <form class="usa-search usa-search--small" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
-        <input type="hidden" name="affiliate" id="affiliate" value="login.gov" />
-        <div role="search">
-          <input type="search" name="query" id="query" autocomplete="off" class="usa-input" />
-          <input type="submit" class="usa-button app-search" name="commit" value=" " data-disable-with="Search" />
-        </div>
-      </form>
+      {% include sign_in.html mobile="mobile" %}
 
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
@@ -45,7 +39,13 @@
       </ul>
     </div>
 
-    {% include sign_in.html mobile="mobile" %}
+    <form class="usa-search usa-search--small" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <input type="hidden" name="affiliate" id="affiliate" value="login.gov" />
+      <div role="search">
+        <input type="search" name="query" id="query" autocomplete="off" class="usa-input" />
+        <input type="submit" class="usa-button app-search" name="commit" value=" " data-disable-with="Search" />
+      </div>
+    </form>
 
     <div class="mobile btn-lang-toggle">
       {% include svg/globe.svg %}
