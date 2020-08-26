@@ -508,11 +508,11 @@ help_pages:
       Pour obtenir de l'assistance additionnelle, veuillez envoyer un e-mail à [hello@login.gov](mailto:hello@login.gov).
   authentication-methods:
     which-authentication-method-should-i-use: |-
-      Login.gov utilise l'authentification à deux facteurs (TFA) ou l'authentification à plusieurs facteurs (MFA), comme couche de protection supplémentaire pour sécuriser vos informations les plus sensibles.
+      Login.gov oblige les utilisateurs à utiliser l'authentification à deux facteurs (TFA) ou l'authentification multifacteur (MFA) comme couche de protection supplémentaire pour votre compte.
 
-      L'authentification à deux facteurs peut être effectuée de plusieurs manières et chacune a un niveau de sécurité différent. Vous pouvez choisir entre des SMS, des appels téléphoniques, une application d'authentification, une clé de sécurité ou des codes de sauvegarde. Les employés du gouvernement peuvent également utiliser leurs cartes PIV ou CAC.
+      L'authentification à deux facteurs peut être effectuée de plusieurs manières. Vous pouvez choisir entre les messages texte, les appels téléphoniques, une application d'authentification, une clé de sécurité ou des codes de secours. Les employés du gouvernement peuvent également utiliser leurs cartes PIV/CAC. Nous vous encourageons à examiner les options disponibles et à sélectionner l'option la plus sûre pour vous.
 
-      Nous vous encourageons à examiner les options disponibles et à sélectionner l'option la plus sécurisée pour vous.
+      Chaque utilisateur doit sélectionner au moins deux méthodes MFA. Si vous [perdez votre méthode MFA principale](/fr/help/signing-in/phone-or-authentication-methods-not-available), vous pouvez utiliser votre deuxième option pour accéder à votre compte. Si vous perdez toutes vos options MFA, vous devrez [supprimer votre compte](/fr/help/changing-settings/delete-my-account) et suivre le processus pour créer à nouveau votre compte et relier vos informations.
 
       <div class="mt3">
         <div class="usa-tag caps float-right bg-info-dark">PLUS SÉCURISÉ</div>
