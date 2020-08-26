@@ -520,7 +520,7 @@ help_pages:
 
       If the confirmation link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter.
 
-      For additional help, [please submit a support ticket] (https://login.gov/contact).
+      For additional help, [please submit a support ticket](https://login.gov/contact).
   authentication-methods:
     which-authentication-method-should-i-use: |-
       Login.gov requires users to use two-factor authentication (TFA), or multi-factor authentication (MFA), as an added layer of protection for your account.
@@ -767,7 +767,7 @@ help_pages:
 
       If the reset password link still does not work and you have done the steps outlined above, it is possible your email provider has scrambled the link. One way to determine if this has happened is by copying and pasting the confirmation link into your browser. If there are any unusual symbols or words in the link, remove them and hit enter.
 
-      For additional help, you can [submit a support ticket] (https://login.gov/contact)
+      For additional help, you can [submit a support ticket](https://login.gov/contact)
     how-to-sign-in: |-
       Every time you sign in to your account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up. After you enter your email address and password to sign in, login.gov will ask you to authenticate (enter a security code sent to your phone by voice or text, enter the security code from your authentication application, enter a backup code, use your security key, or use your government PIV/CAC card).
     locked-out-of-account: |-
