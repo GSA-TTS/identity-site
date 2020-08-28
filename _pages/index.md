@@ -24,18 +24,18 @@ image: /assets/img/login-gov-600x314.png
     <div class="grid">
       <section>
         <h6>{% t nav.groups.agencies %}</h6>
-        <a class="h6" href="#">{% t nav.become_a_partner %}</a>
-        <a class="h6" href="#">{% t nav.developer_guide %}</a>
+        <a class="h6" href="https://partners.login.gov">{% t nav.become_a_partner %}</a>
+        <a class="h6" href="https://developers.login.gov">{% t nav.developer_guide %}</a>
       </section>
       <section>
         <h6>{% t nav.groups.learn %}</h6>
         <a class="h6" href="#">{% t nav.about_us %}</a>
-        <a class="h6" href="#">{% t nav.privacy_&_security %}</a>
+        <a class="h6" href="/policy">{% t nav.privacy_&_security %}</a>
       </section>
       <section>
         <h6>{% t nav.groups.support %}</h6>
-        <a class="h6" href="#">{% t nav.help %}</a>
-        <a class="h6" href="#">{% t nav.contact %}</a>
+        <a class="h6" href="/help">{% t nav.help %}</a>
+        <a class="h6" href="/contact">{% t nav.contact %}</a>
       </section>
     </div>
     <div class="system-status">

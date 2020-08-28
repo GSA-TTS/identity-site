@@ -276,3 +276,14 @@
     }
   }
 }
+
+.temp-wip {
+  padding: 2rem;
+  text-align: center;
+  background-color: red;
+  color: $white;
+
+  a {
+    color: $white;
+  }
+}
