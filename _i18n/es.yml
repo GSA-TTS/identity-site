@@ -481,11 +481,11 @@ help_pages:
       Para obtener ayuda adicional, envíe un correo electrónico a [hello@login.gov](mailto:hello@login.gov).
   authentication-methods:
     which-authentication-method-should-i-use: |-
-      Login.gov utiliza la autenticación de dos factores (TFA) o la autenticación de múltiples factores (MFA), como una capa adicional de protección para proteger su información más confidencial.
+      Login.gov requiere que los usuarios utilicen la autenticación de dos factores (TFA) o la autenticación de múltiples factores (MFA), como una capa adicional de protección para su cuenta.
 
-      La autenticación de dos factores se puede realizar de varias maneras y cada una tiene un nivel de seguridad diferente. Puede elegir entre mensajes de texto, llamadas telefónicas, una aplicación de autenticación, una clave de seguridad o códigos de respaldo. Los empleados del gobierno también pueden usar sus tarjetas PIV o CAC.
+      La autenticación de dos factores se puede realizar de varias formas. Puede elegir entre mensajes de texto, llamadas telefónicas, una aplicación de autenticación, una clave de seguridad o códigos de seguridad. Los empleados del gobierno también pueden usar sus tarjetas PIV/CAC. Le recomendamos que revise las opciones disponibles y seleccione la opción más segura para usted.
 
-      Le recomendamos que revise las opciones disponibles y seleccione la opción más segura para usted.
+      Cada usuario debe seleccionar al menos dos métodos MFA. Si [pierde su método MFA principal](/es/help/signing-in/phone-or-authentication-methods-not-available), puede usar su segunda opción para acceder a su cuenta. Si pierde todas sus opciones de MFA, deberá [eliminar su cuenta](/es/help/changing-settings/delete-my-account) y seguir el proceso para crear su cuenta nuevamente y volver a vincular su información.
 
       <div class="mt3">
         <div class="usa-tag caps float-right bg-info-dark">MÁS SEGURIDAD</div>
