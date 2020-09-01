@@ -1,5 +1,29 @@
 <footer class="footer bg-navy">
-  <div class="footer-sub-1">
+  <div class="footer-nav bg-lightest-blue">
+    <nav>
+      <div class="grid">
+        <section>
+          <h6>{% t nav.groups.agencies %}</h6>
+          <a class="h6" href="https://partners.login.gov">{% t nav.become_a_partner %}</a>
+          <a class="h6" href="https://developers.login.gov">{% t nav.developer_guide %}</a>
+        </section>
+        <section>
+          <h6>{% t nav.groups.learn %}</h6>
+          <a class="h6" href="#">{% t nav.about_us %}</a>
+          <a class="h6" href="/policy">{% t nav.privacy_&_security %}</a>
+        </section>
+        <section>
+          <h6>{% t nav.groups.support %}</h6>
+          <a class="h6" href="/help">{% t nav.help %}</a>
+          <a class="h6" href="/contact">{% t nav.contact %}</a>
+        </section>
+      </div>
+      <div class="system-status">
+        <a class="small-text" href="https://logingov.statuspage.io/uptime">{% t nav.system_status %}</a>
+      </div>
+    </nav>
+  </div>
+  <div class="footer-gsa">
     <div class="product-mgmt-statement">
       {% include svg/gsa-logo.svg %}
       {{ site.translations[site.lang]["index"]["footer"]["org"] | replace: 'site.baseurl', site.baseurl | markdownify }}
@@ -27,7 +51,7 @@
       </div>
     </div>
   </div>
-  <div class="footer-sub-2 h6">
+  <div class="ffooter-usa-gov h6">
     Looking for U.S. government and services? <a href="https://usa.gov">Visit USA.gov</a>
   </div>
 </footer>
