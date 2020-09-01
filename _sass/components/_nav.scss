@@ -212,7 +212,7 @@
   text-transform: none;
 }
 
-.pre-footer-nav {
+.footer-nav {
   border-top: 1px solid darken($blue-lightest, 15%);
   display: flex;
   justify-content: flex-end;
@@ -264,7 +264,7 @@
 }
 
 @media #{$breakpoint-menu} {
-  .pre-footer-nav {
+  .footer-nav {
     display: block;
     background: none;
     padding: 2em 1em;

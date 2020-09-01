@@ -20,7 +20,7 @@ html {
   }
 }
 
-.footer-sub-1 {
+.footer-gsa {
   padding: 2em 8em;
   display: flex;
   flex-wrap: wrap;
@@ -59,14 +59,14 @@ html {
   }
 }
 
-.footer-sub-2 {
+.footer-usa-gov {
   padding: 1em 8em;
   background-color: darken($navy, 7%);
   color: $white;
 }
 
 @media #{$breakpoint-menu} {
-  .footer-sub-1 {
+  .footer-gsa {
     padding: 1em;
     display: block;
 
@@ -84,7 +84,7 @@ html {
     }
   }
 
-  .footer-sub-2 {
+  .footer-usa-gov {
     padding: 1em;
   }
 }
