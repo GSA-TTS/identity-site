@@ -1,0 +1,111 @@
+$desktop: '(min-width: 1024px)' !default;
+
+main {
+  flex: 1 1 0;
+}
+
+div > .container,
+section > .container {
+  min-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.language-search .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.usa-header .usa-nav {
+  .usa-nav__primary-item:first-child .usa-nav__link {
+    padding-left: 0;
+  }
+
+  .usa-search {
+    right: 0;
+  }
+}
+
+.footer-nav {
+  border-top: 1px solid darken($blue-lightest, 15%);
+  background-image: none;
+  padding: 2em 0;
+
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+    background: url(../img/logo_sign_in.svg) top left no-repeat;
+  }
+
+  a {
+    color: $blue;
+  }
+}
+
+.footer-gsa {
+  padding: 2em 0;
+  display: block;
+
+  > .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media #{$desktop} {
+  .usa-header--extended {
+    .usa-navbar {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .usa-nav__inner {
+      // override package CSS rule
+      padding-left: 0 !important;
+      padding-right: 0;
+    }
+  }
+
+  #intro-header {
+    background-image: none;
+
+    > .container {
+      background-image: url(../img/header@2x.png);
+      background-position: 100% 50%;
+      background-repeat: no-repeat;
+      background-size: 650px;
+    }
+  }
+}
+
+@media #{$breakpoint-menu} {
+  div > .container,
+  section > .container {
+    min-width: unset;
+    margin-left: unset;
+    margin-right: unset;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .usa-navbar.container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .usa-banner__inner {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .footer {
+    .navigation {
+      display: block;
+      padding-top: 3rem;
+    }
+  }
+}

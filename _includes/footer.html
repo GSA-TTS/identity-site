@@ -1,57 +1,65 @@
 <footer class="footer bg-navy">
   <div class="footer-nav bg-lightest-blue">
-    <nav>
-      <div class="grid">
-        <section>
-          <h6>{% t nav.groups.agencies %}</h6>
-          <a class="h6" href="https://partners.login.gov">{% t nav.become_a_partner %}</a>
-          <a class="h6" href="https://developers.login.gov">{% t nav.developer_guide %}</a>
-        </section>
-        <section>
-          <h6>{% t nav.groups.learn %}</h6>
-          <a class="h6" href="#">{% t nav.about_us %}</a>
-          <a class="h6" href="/policy">{% t nav.privacy_&_security %}</a>
-        </section>
-        <section>
-          <h6>{% t nav.groups.support %}</h6>
-          <a class="h6" href="/help">{% t nav.help %}</a>
-          <a class="h6" href="/contact">{% t nav.contact %}</a>
-        </section>
+    <div class="container">
+      <div class="navigation">
+        <nav>
+          <div class="grid">
+            <section>
+              <h6>{% t nav.groups.agencies %}</h6>
+              <a class="h6" href="https://partners.login.gov">{% t nav.become_a_partner %}</a>
+              <a class="h6" href="https://developers.login.gov">{% t nav.developer_guide %}</a>
+            </section>
+            <section>
+              <h6>{% t nav.groups.learn %}</h6>
+              <a class="h6" href="#">{% t nav.about_us %}</a>
+              <a class="h6" href="/policy">{% t nav.privacy_&_security %}</a>
+            </section>
+            <section>
+              <h6>{% t nav.groups.support %}</h6>
+              <a class="h6" href="/help">{% t nav.help %}</a>
+              <a class="h6" href="/contact">{% t nav.contact %}</a>
+            </section>
+          </div>
+          <div class="system-status">
+            <a class="small-text" href="https://logingov.statuspage.io/uptime">{% t nav.system_status %}</a>
+          </div>
+        </nav>
       </div>
-      <div class="system-status">
-        <a class="small-text" href="https://logingov.statuspage.io/uptime">{% t nav.system_status %}</a>
-      </div>
-    </nav>
+    </div>
   </div>
   <div class="footer-gsa">
-    <div class="product-mgmt-statement">
-      {% include svg/gsa-logo.svg %}
-      {{ site.translations[site.lang]["index"]["footer"]["org"] | replace: 'site.baseurl', site.baseurl | markdownify }}
-    </div>
-    <button class="usa-button usa-button--outline learn-more">{% t index.footer.learn_more %}</button>
-    <div class="learn-more-section-container">
-      <div class="learn-more-section">
-        <section class="tts">
-          <p>{% t index.footer.tts.about %} <a href="https://www.gsa.gov/tts">{% t actions.read_more %}</a></p>
-          <p>{% t index.footer.tts.portfolio %} <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions">{% t actions.read_more %}</a></p>
-        </section>
-        <section class="questions_addl_info">
-          <p>{% t index.footer.for_questions %}</p>
-          <p>{% t index.footer.additional_info %} <a href="https://www.gsa.gov/about">https://www.gsa.gov/about</a></p>
-          <nav>
-            <ul>
-              <li><a href="https://www.gsaig.gov/">{% t index.footer.links.report_fraud %}</a></li>
-              <li><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia">{% t index.footer.links.foia %}</a></li>
-              <li><a href="https://www.gsa.gov/reference/reports/budget-performance">{% t index.footer.links.budget %}</a></li>
-              <li><a href="https://www.gsa.gov/website-information/accessibility-aids">{% t index.footer.links.accessibility %}</a></li>
-              <li><a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002">{% t index.footer.links.no_fear_act %}</a></li>
-            </ul>
-          </nav>
-        </section>
+    <div class="container">
+      <div class="product-mgmt-statement">
+        {% include svg/gsa-logo.svg %}
+        {{ site.translations[site.lang]["index"]["footer"]["org"] | replace: 'site.baseurl', site.baseurl | markdownify }}
+      </div>
+      <button class="usa-button usa-button--outline learn-more">{% t index.footer.learn_more %}</button>
+      <div class="learn-more-section-container">
+        <div class="learn-more-section">
+          <section class="tts">
+            <p>{% t index.footer.tts.about %} <a href="https://www.gsa.gov/tts">{% t actions.read_more %}</a></p>
+            <p>{% t index.footer.tts.portfolio %} <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions">{% t actions.read_more %}</a></p>
+          </section>
+          <section class="questions_addl_info">
+            <p>{% t index.footer.for_questions %}</p>
+            <p>{% t index.footer.additional_info %} <a href="https://www.gsa.gov/about">https://www.gsa.gov/about</a></p>
+            <nav>
+              <ul>
+                <li><a href="https://www.gsaig.gov/">{% t index.footer.links.report_fraud %}</a></li>
+                <li><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia">{% t index.footer.links.foia %}</a></li>
+                <li><a href="https://www.gsa.gov/reference/reports/budget-performance">{% t index.footer.links.budget %}</a></li>
+                <li><a href="https://www.gsa.gov/website-information/accessibility-aids">{% t index.footer.links.accessibility %}</a></li>
+                <li><a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002">{% t index.footer.links.no_fear_act %}</a></li>
+              </ul>
+            </nav>
+          </section>
+        </div>
       </div>
     </div>
   </div>
-  <div class="footer-usa-gov h6">
-    Looking for U.S. government and services? <a href="https://usa.gov">Visit USA.gov</a>
+  <div class="footer-usa-gov small-text">
+    <div class="container">
+      Looking for U.S. government and services? <a href="https://usa.gov">Visit USA.gov</a>
+    </div>
   </div>
 </footer>
