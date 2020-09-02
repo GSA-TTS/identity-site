@@ -16,5 +16,7 @@ image: /assets/img/login-gov-600x314.png
 </div>
 
 <div class="bg-white" style="padding:9em 0; text-align:center">
-  TBD
+  <div class="container">
+    TBD
+  </div>
 </div>

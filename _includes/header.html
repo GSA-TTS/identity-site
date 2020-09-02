@@ -1,5 +1,5 @@
 <div class="usa-header usa-header--extended bg-white">
-  <div class="usa-navbar">
+  <div class="usa-navbar container">
     <div class="usa-logo" id="extended-logo">
       <a href="{{ '/' | prepend: site.baseurl }}" title="Home" aria-label="Home">
         <img src="{{ site.baseurl }}/assets/img/logo.svg" class="usa-logo__img" alt="login.gov">
@@ -10,14 +10,14 @@
   </div>
 
   <nav role="navigation" class="usa-nav" >
-    <div class="usa-nav__inner">
+    <div class="usa-nav__inner container">
       <button class="usa-nav__close"><img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close"></button>
 
       {% include sign_in.html mobile="mobile" %}
 
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
-          <a class="usa-nav__link what-the{% if page.url contains '/why-login/' %}usa-current{% endif %}" href="{{ '/' | relative_url }}">
+          <a class="usa-nav__link {% if page.url contains '/why-login/' %}usa-current{% endif %}" href="{{ '/' | relative_url }}">
             <span>{% t nav.why-login-gov %}</span>
           </a>
         </li>
@@ -37,15 +37,15 @@
           </a>
         </li>
       </ul>
-    </div>
 
-    <form class="usa-search usa-search--small" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
-      <input type="hidden" name="affiliate" id="affiliate" value="login.gov" />
-      <div role="search">
-        <input type="search" name="query" id="query" autocomplete="off" class="usa-input" />
-        <input type="submit" class="usa-button app-search" name="commit" value=" " data-disable-with="Search" />
-      </div>
-    </form>
+      <form class="usa-search usa-search--small" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="affiliate" id="affiliate" value="login.gov" />
+        <div role="search">
+          <input type="search" name="query" id="query" autocomplete="off" class="usa-input" />
+          <input type="submit" class="usa-button app-search" name="commit" value=" " data-disable-with="Search" />
+        </div>
+      </form>
+    </div>
 
     <div class="mobile btn-lang-toggle">
       {% include svg/globe.svg %}
