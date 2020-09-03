@@ -2,6 +2,19 @@
   .sign-in-logo-padding {
     padding: 4px !important;
   }
+
+  #pb-nav--side-cntnr.sm-show {
+    display: block !important;
+  }
+
+  #pb-nav--side {
+    background: #fff;
+  }
+
+  .affix {
+    position: relative !important;
+    top: 0 !important;
+  }
 }
 
 .sign-in-wrapper {
@@ -108,4 +121,8 @@
       font-size: $sm-lang;
     }
   }
+}
+
+.anchor-to-top {
+  text-decoration: none;
 }

@@ -1196,11 +1196,28 @@ meta:
     title: Confidentialité et sécurité
   privacy_policy:
     title: Politique de confidentialité
+  privacy_security_policy:
+    how:
+      title: "Confidentialité et sécurité: comment ça marche"
+      description: Découvrez comment nous protégeons et sécurisons vos informations personnelles.
+    intro:
+      title: Confidentialité et sécurité
+      description: En savoir plus sur nos pratiques en matière de sécurité et de confidentialité.
+    messaging:
+      title: "Confidentialité et sécurité: Conditions générales de messagerie"
+      description: Découvrez comment nous utilisons la messagerie texte pour l'authentification.
+    privacy:
+      title: "Confidentialité et sécurité: nos pratiques de confidentialité"
+      description: Découvrez comment nous demandons, utilisons, conservons et protégeons vos informations personnelles, ainsi que votre obligation de les divulguer.
+    security:
+      title: "Confidentialité et sécurité: nos pratiques de sécurité"
+      description: Découvrez les différentes méthodes que nous utilisons pour protéger ce service du gouvernement américain et vos données, et pour garantir que le service reste disponible pour tous les utilisateurs.
   security:
     description: Découvrez comment login.gov protège la confidentialité des renseignements
       personnels.
     title: Sécurité
 nav:
+  anchor_to_top: Retour au sommet
   developers: Développeurs
   help: Aide
   home: Accueil
@@ -1236,81 +1253,184 @@ playbook_page:
     p_4:
       a_1: En savoir plus sur la mise en œuvre
 policies:
-- section: Nos pratiques relatives à la confidentialité
-  anchor: nos pratiques relatives à la confidentialité
-  content: |-
-    Cet avis lié à la confidentialité décrit comment nous demandons, utilisons, conservons et protégeons votre information personnelle de même que votre obligation à la divulguer.
+  title: Confidentialité et sécurité
+  sections:
+    - link:
+        text: Notre engagement envers votre confidentialité et votre sécurité
+        url: "./../policy"
+      sublinks:
+        -
+          text: Comment nous travaillons avec nos agences partenaires
+          url: "#how-we-work-with-our-partner-agencies"
+      content: |-
+        ## Login.gov s'engage à respecter votre confidentialité et votre sécurité ## {#intro}
 
-    Notre objectif est de protéger votre information personnelle et nous ne la partagerons pas sans votre autorisation. Par exemple, nous chiffrerons votre information personnelle en transit et inactive et nous vous demanderons avant de partager vos données avec une agence partenaire. Toutefois, il peut y avoir des circonstances où nous devons partager certaines données. Par exemple : si l'information est pertinente et nécessaire pour un but d'application de la loi autorisée; afin de réagir à une intrusion; ou pour aider une autre agence à intervenir suite à une intrusion. Pour de l'information additionnelle, consultez le [system of record notice number GSA/TTS-1](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="-blank"}
-    que les Services de transformation technologique de GSA ont publié le 19 janvier 2017.
+        Cet avis de confidentialité décrit comment nous demandons, utilisons, conservons et protégeons vos informations personnelles. La protection de vos informations est notre priorité sur login.gov.
 
-    ### Loi sur la protection des renseignements personnels
+        Les informations que vous soumettez sont utilisées pour créer ou mettre à jour votre compte login.gov et vous donner accès aux agences partenaires de login.gov. Lorsque vous fournissez votre adresse e-mail ou une autre preuve d'identité, comme un identifiant d'État, nous pouvons être sûrs qu'il s'agit bien de vous et vous accorder l'accès au compte - et éloigner les mauvais acteurs. Cette preuve, appelée justificatif d'identité électronique, revient à mettre une clé dans une serrure et à ouvrir en toute sécurité la porte à l'application ou au service de l'agence gouvernementale.
 
-    #### Autorités
+        ###  Comment nous travaillons avec nos agences partenaires: ### {#how-we-work-with-our-partner-agencies}
 
-    L'information que vous fournissez pour accéder à votre compte login.gov est recueillie conformément à la norme 6 USC § 1523 (b)(1)(A)-(E), au [E-Government Act of 2002 (44 USC § 3501)](https://www.gpo.gov/fdsys/pkg/PLAW-107publ347/html/PLAW-107publ347.htm){:target="_blank"},
-    et à la norme 40 USC § 501.
+        * Login.gov s'associe à des agences gouvernementales pour fournir un accès sécurisé à leur site Web, application ou service. L'agence partenaire (par exemple, United States Office of Personnel Management) sélectionne le type d'informations que nous vous demandons.
+            * Nous demandons principalement des informations pour authentifier votre compte et / ou prouver votre identité.
+        * Lorsque vous créez un compte login.gov, vous acceptez de partager des informations personnelles identifiables (PII). Les informations que vous devez partager dépendent de la demande de l'agence partenaire.
+            * Pour l'authentification afin d'établir un compte sécurisé, nous avons besoin de votre nom, de votre adresse e-mail et d'une méthode d'authentification. Votre méthode d'authentification peut être un numéro de téléphone sur lequel nous partageons un code SMS, une clé de sécurité USB ou d'autres options.
+            * La vérification d'identité nécessite des informations plus sensibles telles qu'un numéro de sécurité sociale, une adresse, un numéro de téléphone associé à votre adresse et un identifiant d'État ou un permis de conduire basé aux États-Unis.
+        * Lorsque les utilisateurs visitent login.gov, que ce soit pour accéder à leur compte ou non, nous agrégons anonymement certaines données. Aucune information d'identification individuelle n'est attachée à ces données. Nous regroupons des informations telles que les pages visitées, le type et la version du navigateur Web et la durée de votre session pour nous aider à améliorer l'expérience login.gov.
+            * Par exemple; Si vous rencontrez une erreur et que nous connaissons le type et la version de votre navigateur Web, nous pouvons mieux identifier comment résoudre votre problème.
+        * Les informations stockées sont cryptées à deux niveaux. Le chiffrement traduit vos données en code qui n'est accessible que par vous, le titulaire du compte login.gov. Cela signifie que vous êtes le seul à pouvoir afficher et modifier les informations de votre compte.
+            * Les opérateurs login.gov (c'est-à-dire notre centre d'aide pour les contacts) ne peuvent pas afficher vos informations ni effectuer de modifications.
+            * Les informations sont stockées et supprimées conformément au [calendrier des archives approuvé par la National Archives and Records Administration (NARA)](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records).
 
-    #### Objectif
+        La protection de vos informations est notre priorité. Vous pouvez lire ci-dessous pour une explication plus détaillée de nos pratiques de confidentialité et de sécurité.
 
-    L'information que vous soumettez est utilisée pour créer ou mettre à jour votre compte login.gov. Une fois que vous avez créé votre compte, avec votre consentement, login.gov partagera votre adresse courriel avec l'agence partenaire pour fournir un accès en ligne à l'information et aux services du gouvernement. De plus, si vous accédez à une application gouvernementale nécessitant une preuve d'identité, les informations supplémentaires que vous soumettez seront utilisées pour vérifier votre identité.
+        * [Comment ça marche?](./../policy/how-does-it-work)
+        * [Nos pratiques de confidentialité](./../policy/privacy)
+        * [Nos pratiques de sécurité](./../policy/security)
+    - link:
+        text: Comment ça marche?
+        url: "./../policy/how-does-it-work"
+      content: |-
+        ## Comment ça marche ## {#how-does-it-work}
 
-    #### Divulgation
+        Login.gov crypte vos informations personnelles en transit et au repos et vous demande avant de partager vos données avec une agence partenaire. Afin de réutiliser les informations d'identification d'assurance sur les sites Web gouvernementaux, login.gov est conforme à la spécification NIST 800-63-3A.
 
-    Vous décidez quelle information vous nous donnez. Toutefois, le défaut de fournir de l'information complète et exacte peut retarder l'accès à l'agence partenaire.
-    L'information que vous donnez à login.gov sera partagée avec l'agence fédérale applicable pour fournir un accès à l'information sur vous détenue par cette agence tel que décrit dans les [systèmes d'avis sur les comptes](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"} associés.
-    Veuillez noter que le système login.gov enregistrera certinaes informations du niveau session sur votre utilisation du service, incluant, mais sans s'y limiter, type et version de navigateur et la durée de votre session. Cette information permet à
-    login.gov de mieux comprendre comment le site est utilisé et comment il peut être rendu plus utile.
+        Lors de la vérification d'identité, l'authenticité de l'ID est également vérifiée. Ensuite, les informations personnelles sont validées auprès de la source émettrice (ex: DMV étatiques) ou de sources faisant autorité (ex: relevés de crédit, financiers, téléphoniques). Ces services externes ne conservent aucune information personnelle, ils ne sont utilisés qu'à des fins de validation. Compte tenu de ces exigences strictes, login.gov prend actuellement en charge les identifiants d'État et les identifiants d'employés du gouvernement fédéral. Au fil du temps, login.gov prendra en charge des identifiants supplémentaires.
 
-    #### Stockage
+        Votre adresse est également validée lors de ce processus. Cela peut être fait à distance en utilisant un numéro de téléphone associé à l'adresse ou par une lettre avec un code d'inscription envoyé à l'adresse du titulaire du compte. Veuillez noter que le code d'inscription est valable 30 jours. (5 à 10 jours pour la livraison de la lettre et 10 jours pour terminer la validation de l'adresse sur [https://secure.login.gov](https://secure.login.gov)). Une fois validées, les informations d'identification login.gov sont cryptées avec le mot de passe du titulaire du compte. Le cryptage garantit que seul vous, le titulaire du compte, pouvez accéder à vos informations avec votre mot de passe.
 
-    Tous les dossiers sont stockés électroniquement dans une base de données dans l'[environnement Amazon Web Services (AWS)](https://aws.amazon.com/){:target="_blank"} de GSA.
-    Vous pouvez changer ou modifier votre adresse courriel ou numéro de téléphone en y accédant dans votre compte. Vous devez choisir une adresse courriel à laquelle vous souhaitez recevoir des correspondances de n'importe quelle agence partenaire dont vous pourriez accéder aux services ou à l'information. Changer cette adresse redirigera toutes les correspondances par courriel de toute agence partenaire.
+        La protection de votre vie privée grâce au cryptage a un coût. Les opérateurs de Login.gov, tels que notre équipe du centre de contact, ne peuvent pas apporter de modifications en votre nom, telles que le déverrouillage de votre compte, la modification de votre mot de passe ou la mise à jour de votre adresse e-mail ou de votre numéro de téléphone. Nous vous encourageons à protéger votre méthode d'authentification pour cette raison. Bien que cela signifie que login.gov ne peut pas fournir ce niveau de support client, si nous choisissions de mettre ces options à la disposition de notre équipe de support client, cela rendrait notre système plus vulnérable au piratage et à d'autres mauvais acteurs.
 
-    De manière similaire, vous devez choisir le numéro d'un téléphone auquel vous avez accès afin de recevoir et répondre avec le(s) mot(s) de passe à utilisation unique qui est/sont envoyé(s) à ce numéro.
+        Les informations que vous fournissez à login.gov seront partagées avec l'agence partenaire concernée pour donner accès aux informations vous concernant détenues par cette agence, comme décrit dans les systèmes de notification associés. Veuillez noter que le système login.gov enregistrera certaines informations au niveau de la session concernant votre utilisation du service, y compris, mais sans s'y limiter, le type et la version du navigateur Web, ainsi que la durée de votre session. Ces informations permettent à login.gov de mieux comprendre comment le site est utilisé et comment il peut être rendu plus utile.
+    - link:
+        text: Nos pratiques de confidentialité
+        url: "./../policy/our-privacy-practices"
+      sublinks:
+        -
+          text: L'Autorité - Qui autorise la collecte de ces données?
+          url: "#authority"
+        -
+          text: The Purpose - Pourquoi avons-nous besoin de vos informations?
+          url: "#purpose"
+        -
+          text: Usages courants - Avec qui les informations sont-elles communément partagées?
+          url: "#routine-uses"
+        -
+          text: Consentement - Comment pouvez-vous contrôler quelles informations sont partagées?
+          url: "#consent"
+        -
+          text: Records - Où trouver plus d'informations?
+          url: "#records"
+        -
+          text: Analyse du site Web
+          url: "#analytics"
+        -
+          text: Évaluation des facteurs relatifs à la vie privée
+          url: "#impact"
+      content: |-
+        ## Nos pratiques de confidentialité ## {#our-privacy-practices}
 
-    Votre adresse courriel et votre numéro de téléphone seront conservés pendant un minimum de six ans conformément aux directives de la National Archives and Records Administration
-    (NARA) guidance. Cependant, GSA est autorisée à conserver l'information
-    plus longtemps si cela est requis pour des usages commerciaux. login.gov doit pouvoir fournir un accès aux utilisateurs à l'information et aux services des agences partenaires et donc peut avoir un besoin commercial de conserver l'information plus longtemps que la période de rétention de six ans.
+        ### L'Autorité - Qui autorise la collecte de ces données? ### {#authority}
 
-    ### Évaluation d'impact sur la confidentialité
+        Les informations que vous fournissez sont collectées conformément à 6 USC § 1523 (b) (1) (A) - (E), the E-Government Act of 2002 (Pub. L. 107–347, 44 USC 3501 note), et 40 USC § 501.
 
-    Consultez notre [Évaluation d'impact sur la confidentialité](site.baseurl/docs/Logingov_PIA_August2019.pdf).
-- section: Nos pratiques relatives à la sécurité
-  anchor: nos pratiques relatives à la sécurité
-  content: |-
-    login.gov utilise diverses méthodes de sécurité pour protéger ce service du gouvernement des États-Unis et vos données et pour assurer que le service demeure disponible pour tous les utilisateurs. Ces méthodes comprennent la surveillance et l'enregistrement du trafic sur le réseau (toute donnée arrivant à, ou sortant de, login.gov) destinés à identifier les tentatives non autorisées de changement d'information ou à causer préjudice de toute autre manière.
+        ### Le but - Pourquoi avons-nous besoin de vos informations? ### {#purpose}
 
-    L'accès ou l'utilisation non autorisés de login.gov (par ex., l'usage à des fins criminelles ou pour causer préjudice, etc.) est contraire à la loi et peut vous assujettir à des poursuites criminelles et des pénalités.
+        Login.gov collabore avec des agences qui ont besoin d'un accès sécurisé et privé à leurs applications et services. Chaque agence peut demander différents niveaux de sécurité en fonction de ses besoins. Lorsque vous créez et vous connectez à un compte login.gov, vous recevez un justificatif d'identité électronique. Nous avons besoin de vos informations d'identification personnelle, ou PII, pour générer ces informations d'identification. Imaginez cette information comme une clé que vous seul pouvez utiliser. La clé ouvre en toute sécurité la porte au service ou à l'application d'une agence partenaire.
 
-    ### Politique de divulgation de vulnérabilité
+        #### De quelles informations avons-nous besoin? ####
 
-    login.gov autorise la communauté externe de sécurité à effectuer des recherches de sécurité destinées à produire des rapports des vulnérabilités de sécurité découvertes sur la plate-forme login.gov.
+        * Pour l'authentification afin d'établir un compte sécurisé, nous avons besoin de votre nom, de votre adresse e-mail et d'une méthode d'authentification. Votre méthode d'authentification peut être un numéro de téléphone sur lequel nous partageons un code SMS, une clé de sécurité USB ou d'autres options.
+        * La vérification d'identité nécessite des informations plus sensibles telles qu'un numéro de sécurité sociale, une adresse, un numéro de téléphone associé à votre adresse et un identifiant d'État ou un permis de conduire basé aux États-Unis.
 
-    Consultez notre [Politique de divulgation de vulnérabilité](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"}
-    pour obtenir plus de détails sur cette politique et comment soumettre des rapports des vulnérabilités découvertes.
+        ### Utilisations courantes - Avec qui les informations sont-elles communément partagées? ### {#routine-uses}
 
-    ### Pour plus d'information
+        * Aux services tiers de preuve d'identité, le cas échéant à la preuve d'identité d'un individu pour accéder à un service au niveau d'assurance requis.
+        * À un expert, consultant ou sous-traitant de la GSA dans l'exercice d'une obligation fédérale pour laquelle l'information est pertinente.
+        * Au Government Publishing Office (GPO), lorsque Login.gov doit envoyer un formulaire de confirmation d'adresse à un utilisateur ou si un utilisateur demande des notifications par courrier des changements de compte ou des tentatives de vérification.
 
-    Nous sommes heureux de répondre à vos questions concernant notre sécurité et nos pratiques relatives à la confidentialité.
-    Pour plus d'information, veuillez visiter [Help](site.baseurl/help)
-    ou [contactez-nous](site.baseurl/contact).
-policy_page:
-  content:
-    p_1: |-
-      Votre confidentialité est très importante pour nous. Nous vous fournissons notre politique de confidentialité afin que vous soyez informé(e)s de l'information que nous recueillons, des raisons pour lesquelles nous la recueillons et de ce que nous en faisons. login.gov ne recueille pas votre adresse courriel ou votre numéro de téléphone sauf si vous choisissez de fournir ces informations.
-      Nous recueillons d'autres informations limitées automatiquement auprès des visiteurs qui lisent ou parcourent l'information contenue sur notre site. Nous faisons ceci pour mieux comprendre la manière dont le site est utilisé et comment nous pouvons le rendre plus utile.
-    p_2: Si vous créez un compte, login.gov recueille de vous des renseignements permettant
-      d'identifier une personne comme l'adresse courriel et le numéro de téléphone.
-      Nous recueillons votre adresse courriel et avec votre consentement nous la partageons
-      avec chaque agence fédérale (« agence partenaire ») auprès de laquelle vous
-      cherchez à obtenir de l'information et des services. Nous recueillons votre
-      numéro de téléphone afin de permettre une authentification à deux facteurs comme
-      mesure de sécurité pour votre compte login.gov. Si vous vous connectez à
-      une application gouvernementale nécessitant une preuve d'identité,
-      login.gov collectera, utilisera, conservera et partagera des informations
-      personnelles supplémentaires identifiables dans le seul but
-      de prouver votre identité.
+        Cette liste n'est pas compréhensible. Veuillez consulter la notice du système d'enregistrement pour toutes les entités et individus.
+
+        #### Qu'advient-il des informations que vous partagez? ####
+
+        Tous les enregistrements sont stockés électroniquement dans une base de données dans l'environnement Amazon Web Services (AWS) de GSA. Vous pouvez modifier ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/account).
+
+        Votre adresse e-mail et votre numéro de téléphone seront conservés pendant au moins six ans conformément aux directives de la National Archives and Records Administration (NARA). Cependant, GSA est autorisée à conserver les informations plus longtemps si elles sont nécessaires à un usage professionnel. Login.gov doit être en mesure de fournir aux utilisateurs l'accès aux informations et aux services des agences partenaires et peut donc avoir un besoin professionnel de conserver les informations plus longtemps que la période de conservation de six ans.
+
+        Il peut y avoir des circonstances dans lesquelles nous sommes tenus de partager certaines données. Par exemple: si les informations sont pertinentes et nécessaires à des fins d'application de la loi autorisées; afin de répondre à une violation; ou pour aider une autre agence à réagir à une violation. Pour de plus amples informations, voir le système de notification numéro GSA / TTS-1 que le service de transformation technologique (TTS) de GSA a publié le [10 août 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+
+        Même lorsque nous partageons les informations avec les forces de l'ordre, nous ne pouvons pas accéder aux informations personnelles car les informations sont cryptées de manière à ne pas être récupérées par l'équipe login.gov.
+
+        ### Consentement - Comment contrôler quelles informations sont partagées? ### {#consent}
+
+        Vous décidez des informations à nous donner et pouvez révoquer votre consentement à tout moment. Le partage de vos informations est volontaire.
+
+        Cependant, le fait de ne pas fournir d'informations complètes et exactes peut retarder l'accès à l'agence partenaire. Login.gov ne fait aucune détermination d'éligibilité ou d'aptitude; c'est la responsabilité des sites Web gouvernementaux qui utilisent le service login.gov.
+
+        Nous ne partagerons jamais vos informations sans votre consentement. Vos données sont cryptées et le seul moyen de les partager avec une agence partenaire est si vous, l'utilisateur autorisé, saisissez votre mot de passe et consentez explicitement à partager les informations.
+
+        Lorsque vous créez un compte ou visitez un nouveau site Web d'agence partenaire après avoir créé votre compte, vous verrez l'option de consentir à partager vos informations avec l'agence partenaire. Vous devez donner votre consentement chaque année pour chaque agence.
+
+        N'oubliez pas que vous pouvez révoquer votre consentement à tout moment via [votre page de compte](https://secure.login.gov/account) ou supprimer entièrement votre compte sur la même page.
+
+        ### Records - Où trouver plus d'informations? ### {#records}
+
+        Veuillez consulter la notice du système d'enregistrement Login.gov (GSA / TTS – 1) à l'adresse [www.gsa.gov/SORN](https://www.gsa.gov/SORN).
+
+        ### Analyse du site Web ### {#analytics}
+
+        D'autres données, comme les pages que vous visitez et la durée de votre session, sont regroupées dans des rapports pour nous aider à mieux comprendre comment le site est utilisé et comment nous pouvons le rendre plus utile. Les données sont anonymisées. Aucune information d'identification personnelle de l'utilisateur n'est liée à ces données et elles ne sont partagées que de manière anonyme avec l'équipe login.gov.
+
+        ### Évaluation des facteurs relatifs à la vie privée ### {#impact}
+
+        Consultez notre évaluation de l'impact sur la vie privée à l'adresse [www.gsa.gov/PIA](https://www.gsa.gov/PIA).
+    - link:
+        text: Nos pratiques de sécurité
+        url: "./../policy/our-security-practices"
+      sublinks:
+        -
+          text: Politique de divulgation des vulnérabilités
+          url: "#vdp"
+        -
+          text: Pour plus d'informations
+          url: "#more-info"
+      content: |-
+        ## Nos pratiques de sécurité ## {#our-security-practices}
+
+        login.gov utilise une variété de méthodes d'authentification pour protéger ce service du gouvernement américain et vos données, et pour garantir que le service reste disponible pour tous les utilisateurs. Ces méthodes incluent la surveillance et l'enregistrement du trafic réseau (toutes les données entrant et sortant de login.gov) pour identifier les tentatives non autorisées de modifier les informations ou de causer des dommages.
+
+        L'accès ou l'utilisation non autorisés de login.gov (par exemple, l'utilisation à des fins criminelles, ou pour causer des dommages, etc.) est contraire à la loi et peut vous exposer à des poursuites et à des sanctions pénales.
+
+        ### Politique de divulgation des vulnérabilités ### {#vdp}
+
+        login.gov autorise la communauté de sécurité extérieure à effectuer des recherches sur la sécurité dans le but de signaler les vulnérabilités de sécurité découvertes dans la plate-forme login.gov.
+
+        Consultez notre [Politique de divulgation des vulnérabilités](https://18f.gsa.gov/vulnerability-disclosure-policy/) pour plus de détails sur cette politique et comment signaler les vulnérabilités découvertes.
+
+        ### Pour plus d'informations ### {#more-info}
+
+        Nous sommes heureux de répondre aux questions sur nos pratiques de sécurité et de confidentialité. Pour plus d'informations, veuillez visiter [help](./../help/) ou [contactez-nous](./../contact/).
+    - link:
+        text: Termes et conditions de la messagerie
+        url: "./../policy/messaging-terms-and-conditions"
+      sublinks:
+        -
+          text: Termes et conditions SMS
+          url: "#terms"
+      content: |-
+        ## Termes et conditions de la messagerie ## {#messaging-terms-and-conditions}
+
+        login.gov utilise la messagerie texte SMS pour vous aider à vérifier votre identité lorsque vous créez un nouveau compte. Les messages texte SMS ou les appels vocaux automatisés peuvent également être utilisés si vous choisissez votre numéro de téléphone comme l'une de vos méthodes d'authentification.
+
+        ### Conditions d'utilisation des SMS ### {#terms}
+
+        * login.gov fournit un service d'authentification et n'utilisera pas la messagerie texte ou vocale à d'autres fins.
+        * Les tarifs de messagerie et de données de votre opérateur peuvent s'appliquer.
+        * Les messages ne seront envoyés que dans le cadre de la configuration et de la connexion à votre compte login.gov.
+        * Vous pouvez [contacter le service client ici](https://login.gov/contact) ou par e-mail à [hello@login.gov](mailto: hello@login.gov).
+        * Pour refuser de recevoir des messages texte de login.gov, répondez avec le message STOP au message texte indésirable.
+        * Voir [Nos pratiques de confidentialité](https://login.gov/policy/our-privacy-practices) pour obtenir des informations sur la politique de confidentialité.
+        * Les transporteurs ne sont pas responsables des messages retardés ou non livrés.
 principles_page:
   heading_1: Les principes du guide de mise en œuvre de l'identité
   heading_2: Axé sur les besoins des utilisateurs

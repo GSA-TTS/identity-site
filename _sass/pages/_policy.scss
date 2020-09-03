@@ -1,0 +1,87 @@
+nav.policy {
+  li {
+    border-left: 0;
+
+    a {
+      &:hover {
+        box-shadow: inset 4px 0 0 $red;
+      }
+    }
+
+    ul {
+      padding: 0;
+      margin-bottom: 0;
+      list-style-type: none;
+
+      li a {
+        padding-left: 3rem;
+      }
+    }
+  }
+
+  > ul > li:last-child {
+    border-bottom: none;
+  }
+}
+
+.policy-page {
+  font-size: 1.125rem;
+
+  h2 {
+    &::after {
+      content: '';
+      display: block;
+      height: 1rem;
+      width: 4rem;
+      margin-bottom: 2rem;
+      background-position: bottom left;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &.page-0 {
+    h2::after {
+      background-image: url(../img/hr-red-1.svg);
+    }
+  }
+
+  &.page-1 {
+    h2::after {
+      background-image: url(../img/hr-red-2.svg);
+    }
+  }
+
+  &.page-2 {
+    h2::after {
+      background-image: url(../img/hr-red-3.svg);
+    }
+  }
+
+  &.page-3 {
+    h2::after {
+      background-image: url(../img/hr-red-4.svg);
+    }
+  }
+
+  &.page-4 {
+    h2::after {
+      background-image: url(../img/hr-red-5.svg);
+    }
+  }
+
+  li ul {
+    list-style-type: none;
+
+    li:before {
+      content: '';
+      display: inline-block;
+      height: 2px;
+      width: 5px;
+      margin-bottom: 5px;
+      background-color: #000;
+      margin-left: -26px;
+      margin-right: 13px;
+    }
+  }
+}
