@@ -1316,8 +1316,8 @@ policies:
         Protecting your information is our priority. You can read below for a more detailed explanation of our privacy and security practices.
 
         * [How does it work?](site.baseurl/policy/how-does-it-work/)
-        * [Our privacy practices](site.baseurl/policy/privacy/)
-        * [Our security practices](site.baseurl/policy/security/)
+        * [Our privacy practices](site.baseurl/policy/our-privacy-practices/)
+        * [Our security practices](site.baseurl/policy/our-security-practices/)
     - link:
         text: How does it work?
         url: "/policy/how-does-it-work/"

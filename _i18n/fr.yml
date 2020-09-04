@@ -1285,8 +1285,8 @@ policies:
         La protection de vos informations est notre priorité. Vous pouvez lire ci-dessous pour une explication plus détaillée de nos pratiques de confidentialité et de sécurité.
 
         * [Comment ça marche?](site.baseurl/policy/how-does-it-work/)
-        * [Nos pratiques de confidentialité](site.baseurl/policy/privacy/)
-        * [Nos pratiques de sécurité](site.baseurl/policy/security/)
+        * [Nos pratiques de confidentialité](site.baseurl/policy/our-privacy-practices/)
+        * [Nos pratiques de sécurité](site.baseurl/policy/our-security-practices/)
     - link:
         text: Comment ça marche?
         url: "/policy/how-does-it-work/"
