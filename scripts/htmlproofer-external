@@ -10,20 +10,13 @@ if directory.nil?
   STR
 end
 
-# ignore new files from the PR
-directories = %w(content)
-merge_base = `git merge-base origin/production HEAD`.chomp
-diffable_files = `git diff -z --name-only --diff-filter=AC #{merge_base}`.split("\0")
-diffable_files = diffable_files.select do |filename|
-  next true if directories.include?(File.dirname(filename))
-  filename.end_with?('.md')
-end.map { |f| Regexp.new(File.basename(f, File.extname(f))) }
-
 HTMLProofer.check_directory(directory, {
-  url_ignore: diffable_files,
   external_only: true,
   typhoeus: {
     ssl_verifypeer: false,
     ssl_verifyhost: 0,
   },
+  # treat absolute URLs to our domain as if they were local
+  # helps for rel="canonical" tags that exist locally but are not deployed yet
+  url_swap: { %r|https://www.login.gov/| => '/' },
 }).run
