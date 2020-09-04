@@ -3,7 +3,7 @@
     {% assign section_index = 0 %}
     {% for section in site.translations[site.lang]["policies"]["sections"] %}
       <li class="border-bottom nav-sidenav-item">
-        <a href="{{ section.link.url }}" class="p2 block h6">
+        <a href="{{ section.link.url | prepend: site.baseurl }}" class="p2 block h6">
           {{ section.link.text }}
         </a>
         {% if section.sublinks and section.show_sublinks and section_index == page.index %}

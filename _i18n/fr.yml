@@ -637,7 +637,7 @@ help_pages:
 
       Les comptes individuels font face à une sécurité à deux étapes. Nous exigeons une authentification à deux facteurs de même que des mots de passe forts qui répondent aux normes du [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"} relatives à la validation et à la vérification. Celles-ci incluent l'authentification à deux facteurs qui requiert que vous vous connectiez avec votre mot de passe et un code de sécurité reçu sur votre téléphone. L'authentification à deux facteurs peut aider à protéger votre compte et à empêcher que la sécurité de votre mot de passe soit compromise.
 
-      Votre information demeurera sécurisée. Pour plus d'information, consultez notre [politique de sécurité et de confidentialité](site.baseurl/policy).
+      Votre information demeurera sécurisée. Pour plus d'information, consultez notre [politique de sécurité et de confidentialité](site.baseurl/policy/).
     does-logingov-share-my-information: Le site login.gov ne peut partager de l'information
       avec d'autres agences gouvernementales sans l'autorisation de l'utilisateur.
       Même les administrateurs de login.gov ne peuvent déchiffrer ou accéder à l'information
@@ -1257,7 +1257,7 @@ policies:
   sections:
     - link:
         text: Notre engagement envers votre confidentialité et votre sécurité
-        url: "./../policy"
+        url: "/policy/"
       sublinks:
         -
           text: Comment nous travaillons avec nos agences partenaires
@@ -1284,12 +1284,12 @@ policies:
 
         La protection de vos informations est notre priorité. Vous pouvez lire ci-dessous pour une explication plus détaillée de nos pratiques de confidentialité et de sécurité.
 
-        * [Comment ça marche?](./../policy/how-does-it-work)
-        * [Nos pratiques de confidentialité](./../policy/privacy)
-        * [Nos pratiques de sécurité](./../policy/security)
+        * [Comment ça marche?](site.baseurl/policy/how-does-it-work/)
+        * [Nos pratiques de confidentialité](site.baseurl/policy/privacy/)
+        * [Nos pratiques de sécurité](site.baseurl/policy/security/)
     - link:
         text: Comment ça marche?
-        url: "./../policy/how-does-it-work"
+        url: "/policy/how-does-it-work/"
       content: |-
         ## Comment ça marche ## {#how-does-it-work}
 
@@ -1304,7 +1304,7 @@ policies:
         Les informations que vous fournissez à login.gov seront partagées avec l'agence partenaire concernée pour donner accès aux informations vous concernant détenues par cette agence, comme décrit dans les systèmes de notification associés. Veuillez noter que le système login.gov enregistrera certaines informations au niveau de la session concernant votre utilisation du service, y compris, mais sans s'y limiter, le type et la version du navigateur Web, ainsi que la durée de votre session. Ces informations permettent à login.gov de mieux comprendre comment le site est utilisé et comment il peut être rendu plus utile.
     - link:
         text: Nos pratiques de confidentialité
-        url: "./../policy/our-privacy-practices"
+        url: "/policy/our-privacy-practices/"
       sublinks:
         -
           text: L'Autorité - Qui autorise la collecte de ces données?
@@ -1386,7 +1386,7 @@ policies:
         Consultez notre évaluation de l'impact sur la vie privée à l'adresse [www.gsa.gov/PIA](https://www.gsa.gov/PIA){:target="_blank"}.
     - link:
         text: Nos pratiques de sécurité
-        url: "./../policy/our-security-practices"
+        url: "/policy/our-security-practices/"
       sublinks:
         -
           text: Politique de divulgation des vulnérabilités
@@ -1409,10 +1409,10 @@ policies:
 
         ### Pour plus d'informations ### {#more-info}
 
-        Nous sommes heureux de répondre aux questions sur nos pratiques de sécurité et de confidentialité. Pour plus d'informations, veuillez visiter [help](./../help/) ou [contactez-nous](./../contact/).
+        Nous sommes heureux de répondre aux questions sur nos pratiques de sécurité et de confidentialité. Pour plus d'informations, veuillez visiter [help](site.baseurl/help/) ou [contactez-nous](site.baseurl/contact/).
     - link:
         text: Termes et conditions de la messagerie
-        url: "./../policy/messaging-terms-and-conditions"
+        url: "/policy/messaging-terms-and-conditions/"
       sublinks:
         -
           text: Termes et conditions SMS
@@ -1427,9 +1427,9 @@ policies:
         * login.gov fournit un service d'authentification et n'utilisera pas la messagerie texte ou vocale à d'autres fins.
         * Les tarifs de messagerie et de données de votre opérateur peuvent s'appliquer.
         * Les messages ne seront envoyés que dans le cadre de la configuration et de la connexion à votre compte login.gov.
-        * Vous pouvez [contacter le service client ici](./../contact) ou par e-mail à [hello@login.gov](mailto: hello@login.gov).
+        * Vous pouvez [contacter le service client ici](site.baseurl/contact/) ou par e-mail à [hello@login.gov](mailto: hello@login.gov).
         * Pour refuser de recevoir des messages texte de login.gov, répondez avec le message STOP au message texte indésirable.
-        * Voir [Nos pratiques de confidentialité](./../policy/our-privacy-practices) pour obtenir des informations sur la politique de confidentialité.
+        * Voir [Nos pratiques de confidentialité](site.baseurl/policy/our-privacy-practices/) pour obtenir des informations sur la politique de confidentialité.
         * Les transporteurs ne sont pas responsables des messages retardés ou non livrés.
 principles_page:
   heading_1: Les principes du guide de mise en œuvre de l'identité

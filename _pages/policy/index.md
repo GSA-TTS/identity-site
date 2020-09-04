@@ -5,4 +5,4 @@ description: meta.privacy_security_policy.intro.description
 permalink: /policy/
 index: 0
 ---
-{{ site.translations[site.lang]["policies"]["sections"][page.index]["content"] | markdownify }}
+{{ site.translations[site.lang]["policies"]["sections"][page.index]["content"] | replace: "site.baseurl", site.baseurl | markdownify }}
