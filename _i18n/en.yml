@@ -1311,7 +1311,7 @@ policies:
             * For example;  If you experience an error and we know your web browser type and version, we can better identify how to fix your issue.
         * Stored information is encrypted at two levels. Encryption translates your data into code that is only accessible by you, the login.gov account holder.  This means you are the only one who can view and make changes to your account information.
             * The login.gov operators (i.e. our contact help center) cannot view your information or make any changes.
-            * Information is stored and deleted according to the [National Archives and Records Administration (NARA) approved record schedule](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records).
+            * Information is stored and deleted according to the [National Archives and Records Administration (NARA) approved record schedule](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"}.
 
         Protecting your information is our priority. You can read below for a more detailed explanation of our privacy and security practices.
 
@@ -1328,7 +1328,7 @@ policies:
 
         During identity proofing, the ID is also checked for authenticity. Then, the personal information is validated with the issuing source (ex: state DMVs) or authoritative sources (ex: credit, financial, telephone records). These external services do not retain any personal information, they are only used for validation purposes. Given these stringent requirements, login.gov currently supports state IDs and federal government employee IDs. Over time, login.gov will support additional IDs.
 
-        Your address is also validated during this process. This can be done remotely using a telephone number associated with the address or through a letter with an enrollment code sent to the account holder's address. Please note, the enrollment code is valid for 30 days. (5-10 days for the letter to be delivered along with 10 days to complete address validation on [https://secure.login.gov](https://secure.login.gov)). Once validated, login.gov identity credentials are encrypted with the account holder's password. Encryption ensures that only you, the account holder, can access your information with your password.
+        Your address is also validated during this process. This can be done remotely using a telephone number associated with the address or through a letter with an enrollment code sent to the account holder's address. Please note, the enrollment code is valid for 30 days. (5-10 days for the letter to be delivered along with 10 days to complete address validation on [https://secure.login.gov](https://secure.login.gov){:target="_blank"}). Once validated, login.gov identity credentials are encrypted with the account holder's password. Encryption ensures that only you, the account holder, can access your information with your password.
 
         Protecting your privacy through encryption does come at a cost. Login.gov operators, such as our Contact Center team, cannot make changes on your behalf like unlocking your account, changing your password or updating your email address or phone number. We encourage you to safeguard your authentication method for this reason. While this means login.gov cannot provide that level of customer support, if we chose to make these options available to our customer support team, it would make our system more vulnerable to hacking and other bad actors.
 
@@ -1384,11 +1384,11 @@ policies:
 
         #### What happens to the information you share? ####
 
-        All records are stored electronically in a database in GSA’s Amazon Web Services (AWS) environment. You can modify, or amend, either your email address or phone number on your account page (https://secure.login.gov/account).
+        All records are stored electronically in a database in GSA’s Amazon Web Services (AWS) environment. You can modify, or amend, either your email address or phone number on your account page (https://secure.login.gov/account){:target="_blank"}.
 
         Your email address and phone number will be maintained for at least six years in accordance with National Archives and Records Administration (NARA) guidance. However, GSA is authorized to maintain the information for longer if it is required for business use. Login.gov must be able to provide users access to information and services at partner agencies and therefore may have a business need to retain the information longer than the six-year retention period.
 
-        There may be circumstances where we are required to share certain data. For example: if the information is relevant and necessary for an authorized law enforcement purpose; in order to respond to a breach; or to assist another agency as it responds to a breach. For additional information, see the system of record notice number GSA/TTS-1 that GSA’s Technology Transformation Service (TTS) published on [August 10, 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+        There may be circumstances where we are required to share certain data. For example: if the information is relevant and necessary for an authorized law enforcement purpose; in order to respond to a breach; or to assist another agency as it responds to a breach. For additional information, see the system of record notice number GSA/TTS-1 that GSA’s Technology Transformation Service (TTS) published on [August 10, 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records){:target="_blank"}.
 
         Even when we share the information with law enforcement, we cannot access PII because the information is encrypted in a manner that is unretrievable to the login.gov team.
 
@@ -1402,11 +1402,11 @@ policies:
 
         When you create an account or visit a new partner agency website after you have created your account, you will see the option to consent to share your information with the partner agency. You are required to give consent yearly for each agency.
 
-        Remember you can revoke consent at any time through [your account page](https://secure.login.gov/account) or delete your account entirely on the same page.
+        Remember you can revoke consent at any time through [your account page](https://secure.login.gov/account){:target="_blank"} or delete your account entirely on the same page.
 
         ### Records - Where can you find more information? ### {#records}
 
-        Please see the Login.gov system of records notice (GSA/TTS–1) at [www.gsa.gov/SORN](https://www.gsa.gov/SORN).
+        Please see the Login.gov system of records notice (GSA/TTS–1) at [www.gsa.gov/SORN](https://www.gsa.gov/SORN){:target="_blank"}.
 
         ### Website Analytics ### {#analytics}
 
@@ -1414,7 +1414,7 @@ policies:
 
         ### Privacy Impact Assessment ### {#impact}
 
-        View our privacy impact assessment at [www.gsa.gov/PIA](https://www.gsa.gov/PIA).
+        View our privacy impact assessment at [www.gsa.gov/PIA](https://www.gsa.gov/PIA){:target="_blank"}.
     - link:
         text: Our security practices
         url: "./../policy/our-security-practices"
@@ -1436,7 +1436,7 @@ policies:
 
         login.gov authorizes the outside security community to perform security research for the intent of reporting discovered security vulnerabilities in the login.gov platform.
 
-        View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/) for details on this policy and how to report discovered vulnerabilities.
+        View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} for details on this policy and how to report discovered vulnerabilities.
 
         ### For more information ### {#more-info}
 
@@ -1458,9 +1458,9 @@ policies:
         * login.gov provides an authentication service and will not use text or voice messaging for any other purpose.
         * Your carriers messaging and data rates may apply.
         * Messages will only be sent as part of setting up and signing into your login.gov account.
-        * You may [contact customer care here](https://login.gov/contact) or by email at [hello@login.gov](mailto:hello@login.gov).
+        * You may [contact customer care here](./../contact) or by email at [hello@login.gov](mailto:hello@login.gov).
         * To opt out of receiving text messages from login.gov reply with the message STOP to the unwanted text message.
-        * See [Our Privacy Practices](https://login.gov/policy/our-privacy-practices) for privacy policy information.
+        * See [Our Privacy Practices](./../policy/our-privacy-practices) for privacy policy information.
         * Carriers are not liable for delayed or undelivered messages.
 principles_page:
   heading_1: The principles of the identity playbook

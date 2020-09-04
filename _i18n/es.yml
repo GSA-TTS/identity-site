@@ -1234,9 +1234,9 @@ policies:
             * Por ejemplo; Si experimenta un error y conocemos el tipo y la versión de su navegador web, podemos identificar mejor cómo solucionar su problema.
         * La información almacenada se cifra en dos niveles. El cifrado traduce sus datos en un código al que solo puede acceder usted, el titular de la cuenta login.gov. Esto significa que es el único que puede ver y realizar cambios en la información de su cuenta.
             * Los operadores de login.gov (es decir, nuestro centro de ayuda de contacto) no pueden ver su información ni realizar cambios.
-            * La información se almacena y elimina de acuerdo con el [calendario de registros aprobado por la Administración Nacional de Archivos y Registros (NARA)](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records).
+            * La información se almacena y elimina de acuerdo con el [calendario de registros aprobado por la Administración Nacional de Archivos y Registros (NARA)](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"}.
 
-        La protection de vos informations est notre priorité. Vous pouvez lire ci-dessous pour une explication plus détaillée de nos pratiques de confidentialité et de sécurité.
+        Proteger su información es nuestra prioridad. Puede leer a continuación para obtener una explicación más detallada de nuestras prácticas de privacidad y seguridad.
 
         * [¿Como funciona?](./../policy/how-does-it-work)
         * [Nuestras practicas de privacidad](./../policy/privacy)
@@ -1251,7 +1251,7 @@ policies:
 
         Durante la prueba de identidad, también se comprueba la autenticidad de la identificación. Luego, la información personal se valida con la fuente emisora ​​(por ejemplo, DMV estatales) o fuentes autorizadas (por ejemplo, registros crediticios, financieros, telefónicos). Estos servicios externos no retienen ninguna información personal, solo se utilizan con fines de validación. Dados estos estrictos requisitos, login.gov actualmente admite identificaciones estatales y de empleados del gobierno federal. Con el tiempo, login.gov admitirá identificaciones adicionales.
 
-        Su dirección también se valida durante este proceso. Esto se puede hacer de forma remota utilizando un número de teléfono asociado a la dirección o mediante una carta con un código de inscripción enviada a la dirección del titular de la cuenta. Tenga en cuenta que el código de inscripción es válido por 30 días. (5 a 10 días para que se entregue la carta junto con 10 días para completar la validación de la dirección en [https://secure.login.gov](https://secure.login.gov)). Una vez validadas, las credenciales de identidad de login.gov se cifran con la contraseña del titular de la cuenta. El cifrado garantiza que solo usted, el titular de la cuenta, pueda acceder a su información con su contraseña.
+        Su dirección también se valida durante este proceso. Esto se puede hacer de forma remota utilizando un número de teléfono asociado a la dirección o mediante una carta con un código de inscripción enviada a la dirección del titular de la cuenta. Tenga en cuenta que el código de inscripción es válido por 30 días. (5 a 10 días para que se entregue la carta junto con 10 días para completar la validación de la dirección en [https://secure.login.gov](https://secure.login.gov){:target="_blank"}). Una vez validadas, las credenciales de identidad de login.gov se cifran con la contraseña del titular de la cuenta. El cifrado garantiza que solo usted, el titular de la cuenta, pueda acceder a su información con su contraseña.
 
         Proteger su privacidad a través del cifrado tiene un costo. Los operadores de Login.gov, como nuestro equipo de Contact Center, no pueden realizar cambios en su nombre, como desbloquear su cuenta, cambiar su contraseña o actualizar su dirección de correo electrónico o número de teléfono. Le recomendamos que proteja su método de autenticación por este motivo. Si bien esto significa que login.gov no puede brindar ese nivel de atención al cliente, si optamos por poner estas opciones a disposición de nuestro equipo de atención al cliente, nuestro sistema sería más vulnerable a la piratería y otros actores maliciosos.
 
@@ -1307,11 +1307,11 @@ policies:
 
         #### ¿Qué pasa con la información que compartes? ####
 
-        Todos los registros se almacenan electrónicamente en una base de datos en el entorno de Amazon Web Services (AWS) de GSA. Puede modificar o enmendar su dirección de correo electrónico o su número de teléfono en la [página de su cuenta](https://secure.login.gov/account).
+        Todos los registros se almacenan electrónicamente en una base de datos en el entorno de Amazon Web Services (AWS) de GSA. Puede modificar o enmendar su dirección de correo electrónico o su número de teléfono en la [página de su cuenta](https://secure.login.gov/account){:target="_blank"}.
 
         Su dirección de correo electrónico y número de teléfono se mantendrán durante al menos seis años de acuerdo con las pautas de la Administración Nacional de Archivos y Registros (NARA). Sin embargo, GSA está autorizada a mantener la información durante más tiempo si se requiere para uso comercial. Login.gov debe poder brindar a los usuarios acceso a información y servicios en agencias asociadas y, por lo tanto, puede tener una necesidad comercial de retener la información por más tiempo que el período de retención de seis años.
 
-        Puede haber circunstancias en las que se nos solicite compartir ciertos datos. Por ejemplo: si la información es relevante y necesaria para un propósito policial autorizado; para responder a una infracción; o para ayudar a otra agencia a responder a una infracción. Para obtener información adicional, consulte el sistema de notificación de registro número GSA / TTS-1 que el Servicio de Transformación de Tecnología (TTS) de GSA publicó el [10 de agosto de 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+        Puede haber circunstancias en las que se nos solicite compartir ciertos datos. Por ejemplo: si la información es relevante y necesaria para un propósito policial autorizado; para responder a una infracción; o para ayudar a otra agencia a responder a una infracción. Para obtener información adicional, consulte el sistema de notificación de registro número GSA / TTS-1 que el Servicio de Transformación de Tecnología (TTS) de GSA publicó el [10 de agosto de 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records){:target="_blank"}.
 
         Incluso cuando compartimos la información con las fuerzas del orden, no podemos acceder a la PII porque la información está encriptada de una manera que el equipo de login.gov no puede recuperar.
 
@@ -1325,11 +1325,11 @@ policies:
 
         Cuando crea una cuenta o visita el sitio web de una nueva agencia asociada después de haber creado su cuenta, verá la opción de dar su consentimiento para compartir su información con la agencia asociada. Debe dar su consentimiento anualmente para cada agencia.
 
-        Recuerde que puede revocar el consentimiento en cualquier momento a través de [la página de su cuenta](https://secure.login.gov/account) o eliminar su cuenta por completo en la misma página.
+        Recuerde que puede revocar el consentimiento en cualquier momento a través de [la página de su cuenta](https://secure.login.gov/account){:target="_blank"} o eliminar su cuenta por completo en la misma página.
 
         ### Registros - ¿Dónde puede encontrar más información? ### {#records}
 
-        Consulte el aviso del sistema de registros de Login.gov (GSA / TTS – 1) en [www.gsa.gov/SORN](https://www.gsa.gov/SORN).
+        Consulte el aviso del sistema de registros de Login.gov (GSA / TTS – 1) en [www.gsa.gov/SORN](https://www.gsa.gov/SORN){:target="_blank"}.
 
         ### Análisis de sitios web ### {#analytics}
 
@@ -1337,7 +1337,7 @@ policies:
 
         ### Evaluación del impacto en la privacidad ### {#impact}
 
-        Vea nuestra evaluación de impacto en la privacidad en [www.gsa.gov/PIA](https://www.gsa.gov/PIA).
+        Vea nuestra evaluación de impacto en la privacidad en [www.gsa.gov/PIA](https://www.gsa.gov/PIA){:target="_blank"}.
     - link:
         text: Nuestras prácticas de seguridad
         url: "./../policy/our-security-practices"
@@ -1359,7 +1359,7 @@ policies:
 
         login.gov autoriza a la comunidad de seguridad externa a realizar investigaciones de seguridad con la intención de informar las vulnerabilidades de seguridad descubiertas en la plataforma login.gov.
 
-        Consulte nuestra [Política de divulgación de vulnerabilidades](https://18f.gsa.gov/vulnerability-disclosure-policy/) para obtener detalles sobre esta política y cómo informar las vulnerabilidades descubiertas.
+        Consulte nuestra [Política de divulgación de vulnerabilidades](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} para obtener detalles sobre esta política y cómo informar las vulnerabilidades descubiertas.
 
         ### Para obtener más información ### {#more-info}
 
@@ -1381,9 +1381,9 @@ policies:
         * login.gov proporciona un servicio de autenticación y no utilizará mensajes de texto o de voz para ningún otro propósito.
         * Es posible que se apliquen tarifas de mensajería y datos de su proveedor.
         * Los mensajes solo se enviarán como parte de la configuración y el inicio de sesión en su cuenta de login.gov.
-        * Puede [contactar a atención al cliente aquí](https://login.gov/contact) o por correo electrónico a [hello@login.gov](mailto:hello@login.gov).
+        * Puede [contactar a atención al cliente aquí](./../contact) o por correo electrónico a [hello@login.gov](mailto:hello@login.gov).
         * Para optar por no recibir mensajes de texto de login.gov, responda con el mensaje DETENER al mensaje de texto no deseado.
-        * Consulte [Nuestras prácticas de privacidad](https://login.gov/policy/our-privacy-practices) para obtener información sobre la política de privacidad.
+        * Consulte [Nuestras prácticas de privacidad](./../policy/our-privacy-practices) para obtener información sobre la política de privacidad.
         * Los transportistas no son responsables por mensajes retrasados ​​o no entregados.
 principles_page:
   heading_1: Los principios del manual de identidad
