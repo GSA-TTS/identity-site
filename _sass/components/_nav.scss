@@ -36,6 +36,19 @@
       border-top: 1px solid darken($blue-lightest, 15%);
     }
   }
+
+  #pb-nav--side-cntnr.sm-show {
+    display: block !important;
+  }
+
+  #pb-nav--side {
+    background: #fff;
+  }
+
+  .affix {
+    position: relative !important;
+    top: 0 !important;
+  }
 }
 
 @media #{$breakpoint-menu} {
@@ -295,4 +308,8 @@
   a {
     color: $white;
   }
+}
+
+.anchor-to-top {
+  text-decoration: none;
 }

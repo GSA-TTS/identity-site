@@ -14,6 +14,7 @@ SITE_ROOT = Pathname.new(File.expand_path('../../_site', __FILE__))
 def file_at(path)
   escaped_path = CGI.unescape(path)
   full_path = SITE_ROOT.join(escaped_path.gsub(%r|^/|, ''))
+
   if full_path.file?
     File.new(full_path.to_s)
   elsif full_path.directory?
