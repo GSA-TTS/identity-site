@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-RSpec.describe 'index.md' do
+RSpec.describe '/policy/index.md' do
   let(:doc) { Nokogiri::HTML(file_at('/policy')) }
 
   it 'opens external links in a new window' do
