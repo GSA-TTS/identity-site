@@ -1,0 +1,22 @@
+---
+layout: main
+class: relative
+---
+<div class="bg-navy">
+  <div class="container cntnr-wide px2 py3 sm-py4">
+    <h1 class="m0 white" id="policy-page-title">
+      {% t meta.privacy_security_policy.intro.title %}
+    </h1>
+  </div>
+</div>
+<div class="bg-white">
+  <div class="container cntnr-wide px2 pt4 pb5">
+    <div class="clearfix">
+      {% include policy_nav.html %}
+      <div class="sm-col sm-col-8 sm-pr5 policy-page page-{{ page.index }}">
+        {{ content }}
+        <a href="#policy-page-title" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
+      </div>
+    </div>
+  </div>
+</div>

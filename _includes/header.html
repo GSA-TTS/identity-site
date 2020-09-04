@@ -14,7 +14,7 @@
       <button class="usa-nav__close"><img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close"></button>
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
-          <a class="usa-nav__link {% if page.url == '/' %}usa-current{% endif %}" href="{{ '/' | relative_url }}">
+          <a class="usa-nav__link {% if page.url == '/' %}usa-current{% endif %}" href="{{ '/' | prepend: site.baseurl }}">
             <span>{% t nav.home %}</span>
           </a>
         </li>
@@ -24,24 +24,24 @@
           </button>
           <ul id="unique-id-1" class="usa-nav__submenu" hidden>
             <li class="usa-nav__submenu-item">
-              <a href="{{ '/playbook/' | relative_url }}">
+              <a href="{{ '/playbook/' | prepend: site.baseurl }}">
                 <span>{% t nav.overview %}</span>
               </a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href="{{ '/playbook/principles/' | relative_url }}">
+              <a href="{{ '/playbook/principles/' | prepend: site.baseurl }}">
                 <span>{% t nav.principles %}</span>
               </a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href="{{ '/playbook/implementation/' | relative_url }}">
+              <a href="{{ '/playbook/implementation/' | prepend: site.baseurl }}">
                 <span>{% t nav.implementation %}</span>
               </a>
             </li>
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <a class="usa-nav__link {% if page.url == '/security/' %}usa-current{% endif %}" href="{{ '/security/' | relative_url }}">
+          <a class="usa-nav__link {% if page.url == '/security/' %}usa-current{% endif %}" href="{{ '/security/' | prepend: site.baseurl }}">
             <span>{% t nav.security %}</span>
           </a>
         </li>
@@ -51,17 +51,17 @@
           </button>
           <ul id="unique-id-2" class="usa-nav__submenu" hidden>
             <li class="usa-nav__submenu-item">
-              <a href="{{ '/partners/' | relative_url }}">
+              <a href="{{ '/partners/' | prepend: site.baseurl }}">
                 <span>{% t nav.overview %}</span>
               </a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href="{{ '/partners/our-agency-partners/' | relative_url }}">
+              <a href="{{ '/partners/our-agency-partners/' | prepend: site.baseurl }}">
                 <span>{% t nav.our-agency-partners %}</span>
               </a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href="{{ '/partners/why-login-gov/' | relative_url }}">
+              <a href="{{ '/partners/why-login-gov/' | prepend: site.baseurl }}">
                 <span>{% t nav.why-login-gov %}</span>
               </a>
             </li>
@@ -73,7 +73,7 @@
           </button>
           <ul id="unique-id-3" class="usa-nav__submenu" hidden>
             <li class="usa-nav__submenu-item">
-              <a href="{{ '/help/' | relative_url }}">
+              <a href="{{ '/help/' | prepend: site.baseurl }}">
                 <span>{% t nav.overview %}</span>
               </a>
             </li>
@@ -81,7 +81,7 @@
               {% assign subpage_slug = subpage | slugify %}
               {% assign subpage_link = site.help | where_exp: "item", "item.url contains subpage_slug" | where: 'order', 1 | first %}
               <li class="usa-nav__submenu-item">
-                <a href="{{ subpage_link.url | relative_url }}">
+                <a href="{{ subpage_link.url | prepend: site.baseurl }}">
                   <span>{{ site.translations[site.lang]["help_subpages"][subpage]}}</span>
                 </a>
               </li>
