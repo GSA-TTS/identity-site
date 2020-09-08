@@ -2,7 +2,11 @@
   <ul id="pb-nav--side" class="list-reset nav">
     {% assign section_index = 0 %}
     {% for section in site.translations[site.lang]["policies"]["sections"] %}
-      <li class="border-bottom nav-sidenav-item">
+      {% assign active_class = '' %}
+      {% if section_index == page.index %}
+        {% assign active_class = 'active' %}
+      {% endif %}
+      <li class="border-bottom nav-sidenav-item {{ active_class }}">
         <a href="{{ section.link.url | prepend: site.baseurl }}" class="p2 block h6">
           {{ section.link.text }}
         </a>

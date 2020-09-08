@@ -2,10 +2,9 @@ nav.policy {
   li {
     border-left: 0;
 
-    a {
-      &:hover {
-        box-shadow: inset 4px 0 0 $red;
-      }
+    &.active a,
+    a:hover {
+      box-shadow: inset 4px 0 0 $red;
     }
 
     ul {
