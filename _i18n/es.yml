@@ -1236,11 +1236,7 @@ policies:
             * Los operadores de login.gov (es decir, nuestro centro de ayuda de contacto) no pueden ver su información ni realizar cambios.
             * La información se almacena y elimina de acuerdo con el [calendario de registros aprobado por la Administración Nacional de Archivos y Registros (NARA)](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"}.
 
-        Proteger su información es nuestra prioridad. Puede leer a continuación para obtener una explicación más detallada de nuestras prácticas de privacidad y seguridad.
-
-        * [¿Como funciona?](site.baseurl/policy/how-does-it-work/)
-        * [Nuestras practicas de privacidad](site.baseurl/policy/our-privacy-practices/)
-        * [Nuestras practicas de seguridad](site.baseurl/policy/our-security-practices/)
+        Proteger su información es nuestra prioridad. Puede leer explicaciones más detalladas sobre [cómo funciona login.gov](site.baseurl/policy/how-does-it-work/), [nuestras prácticas de privacidad](site.baseurl/policy/our-privacy-practices/) y [nuestras prácticas de seguridad](site.baseurl/policy/our-security-practices/).
     - link:
         text: ¿Cómo funciona?
         url: "/policy/how-does-it-work/"
