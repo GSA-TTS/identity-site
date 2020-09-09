@@ -1343,11 +1343,7 @@ policies:
             * Les opérateurs login.gov (c'est-à-dire notre centre d'aide pour les contacts) ne peuvent pas afficher vos informations ni effectuer de modifications.
             * Les informations sont stockées et supprimées conformément au [calendrier des archives approuvé par la National Archives and Records Administration (NARA)](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"}.
 
-        La protection de vos informations est notre priorité. Vous pouvez lire ci-dessous pour une explication plus détaillée de nos pratiques de confidentialité et de sécurité.
-
-        * [Comment ça marche?](site.baseurl/policy/how-does-it-work/)
-        * [Nos pratiques de confidentialité](site.baseurl/policy/our-privacy-practices/)
-        * [Nos pratiques de sécurité](site.baseurl/policy/our-security-practices/)
+        La protection de vos informations est notre priorité. Vous pouvez lire des explications plus [détaillées sur le fonctionnement de login.gov](site.baseurl/policy/how-does-it-work/), [nos pratiques de confidentialité](site.baseurl/policy/our-privacy-practices/) et [nos pratiques de sécurité](site.baseurl/policy/our-security-practices/).
     - link:
         text: Comment ça marche?
         url: "/policy/how-does-it-work/"
