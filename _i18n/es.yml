@@ -1219,7 +1219,7 @@ policies:
       content: |-
         ## Login.gov está comprometido con su privacidad y seguridad ## {#intro}
 
-        Este aviso de privacidad describe cómo solicitamos, usamos, retenemos y protegemos su información personal. La protección de su información es nuestra prioridad en login.gov.
+        Este describe cómo solicitamos, usamos, retenemos y protegemos su información personal. La protección de su información es nuestra prioridad en login.gov.
 
         La información que envía se utiliza para crear o actualizar su cuenta login.gov y darle acceso a las agencias asociadas de login.gov. Cuando proporcione su dirección de correo electrónico u otra prueba de identidad, como una identificación estatal, podemos estar seguros de que realmente es usted y otorgarle acceso a la cuenta, y mantener alejados a los malos actores. Esta prueba, denominada credencial de garantía de identidad electrónica, es como poner una llave en una cerradura y abrir de forma segura la puerta a la aplicación o servicio de la agencia gubernamental.
 
@@ -1236,7 +1236,7 @@ policies:
             * Los operadores de login.gov (es decir, nuestro centro de ayuda de contacto) no pueden ver su información ni realizar cambios.
             * La información se almacena y elimina de acuerdo con el [calendario de registros aprobado por la Administración Nacional de Archivos y Registros (NARA)](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"}.
 
-        Proteger su información es nuestra prioridad. Puede leer explicaciones más detalladas sobre [cómo funciona login.gov](site.baseurl/policy/how-does-it-work/), [nuestras prácticas de privacidad](site.baseurl/policy/our-privacy-practices/) y [nuestras prácticas de seguridad](site.baseurl/policy/our-security-practices/).
+        Proteger su información es nuestra prioridad. Puede leer explicaciones más detalladas sobre [cómo funciona login.gov](site.baseurl/policy/how-does-it-work/), [nuestra declaración de la ley de privacidad](site.baseurl/policy/our-privacy-act-statement/) y [nuestras prácticas de seguridad](site.baseurl/policy/our-security-practices/).
     - link:
         text: ¿Cómo funciona?
         url: "/policy/how-does-it-work/"
@@ -1253,8 +1253,8 @@ policies:
 
         La información que proporcione a login.gov se compartirá con la agencia asociada correspondiente para brindar acceso a la información sobre usted en poder de esa agencia, como se describe en los sistemas asociados de avisos de registros. Tenga en cuenta que el sistema login.gov registrará cierta información a nivel de sesión sobre su uso del servicio, incluidos, entre otros, el tipo y la versión del navegador web y la duración de su sesión. Esta información permite que login.gov comprenda mejor cómo se usa el sitio y cómo puede ser más útil.
     - link:
-        text: Nuestras prácticas de privacidad
-        url: "/policy/our-privacy-practices/"
+        text: Nuestra declaración de la ley de privacidad
+        url: "/policy/our-privacy-act-statement/"
       sublinks:
         -
           text: La Autoridad - ¿Quién autoriza la recopilación de estos datos?
@@ -1278,7 +1278,7 @@ policies:
           text: Evaluación del impacto en la privacidad
           url: "#impact"
       content: |-
-        ## Nuestras prácticas de privacidad ## {#our-privacy-practices}
+        ## Nuestra declaración de la ley de privacidad ## {#our-privacy-act-statement}
 
         ### La Autoridad - ¿Quién autoriza la recopilación de estos datos? ### {#authority}
 
@@ -1379,7 +1379,7 @@ policies:
         * Los mensajes solo se enviarán como parte de la configuración y el inicio de sesión en su cuenta de login.gov.
         * Puede [contactar a atención al cliente aquí](site.baseurl/contact/) o por correo electrónico a [hello@login.gov](mailto:hello@login.gov).
         * Para optar por no recibir mensajes de texto de login.gov, responda con el mensaje DETENER al mensaje de texto no deseado.
-        * Consulte [Nuestras prácticas de privacidad](site.baseurl/policy/our-privacy-practices/) para obtener información sobre la política de privacidad.
+        * Consulte [Nuestra declaración de la ley de privacidad](site.baseurl/policy/our-privacy-act-statement/) para obtener información sobre la política de privacidad.
         * Los transportistas no son responsables por mensajes retrasados ​​o no entregados.
 principles_page:
   heading_1: Los principios del manual de identidad

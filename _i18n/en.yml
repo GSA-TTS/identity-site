@@ -1175,7 +1175,7 @@ meta:
       title: "Privacy & security: Messaging Terms and Conditions"
       description: Learn how we use text messaging for authentication.
     privacy:
-      title: "Privacy & security: Our Privacy Practices"
+      title: "Privacy & security: Our privacy act statement"
       description: Learn how we ask for, use, retain, and protect your personal information, as well as your obligation to disclose it.
     security:
       title: "Privacy & security: Our Security Practices"
@@ -1296,7 +1296,7 @@ policies:
       content: |-
         ## Login.gov is committed to your privacy and security ## {#intro}
 
-        This privacy notice describes how we ask for, use, retain, and protect your personal information. Protecting your information is our priority at login.gov.
+        This describes how we ask for, use, retain, and protect your personal information. Protecting your information is our priority at login.gov.
 
         The information that you submit is used to create or update your login.gov account and give you access to login.gov’s partner agencies. When you provide your email address or other proof of identity like a state ID, we can be sure it’s really you and grant you access to the account — and keep the bad actors away. This proof, called an electronic identity assurance credential, is like putting a key into a lock and securely opens the door to the government agency’s application or service.
 
@@ -1315,7 +1315,7 @@ policies:
 
         Protecting your information is our priority. You can read below for a more detailed explanation of our privacy and security practices.
 
-        You can read more detailed explanations about [how login.gov works](site.baseurl/policy/how-does-it-work/), [our privacy practices](site.baseurl/policy/our-privacy-practices/), and [our security practices](site.baseurl/policy/our-security-practices/).
+        You can read more detailed explanations about [how login.gov works](site.baseurl/policy/how-does-it-work/), [our privacy act statement](site.baseurl/policy/our-privacy-act-statement/), and [our security practices](site.baseurl/policy/our-security-practices/).
     - link:
         text: How does it work?
         url: "/policy/how-does-it-work/"
@@ -1332,8 +1332,8 @@ policies:
 
         The information you give login.gov will be shared with the applicable partner agency to provide access to information about you held by that agency as described in the associated systems of records notices. Please note that the login.gov system will record certain session-level information about your use of the service, including but not limited to, web browser type and version, and the length of your session. This information allows login.gov to better understand how the site is being used and how it can be made more helpful.
     - link:
-        text: Our privacy practices
-        url: "/policy/our-privacy-practices/"
+        text: Our privacy act statement
+        url: "/policy/our-privacy-act-statement/"
       sublinks:
         -
           text: The Authority - Who authorizes the collection of this data?
@@ -1357,7 +1357,7 @@ policies:
           text: Privacy Impact Assessment
           url: "#impact"
       content: |-
-        ## Our privacy practices ## {#our-privacy-practices}
+        ## Our privacy act statement ## {#our-privacy-act-statement}
 
         ### The Authority - Who authorizes the collection of this data?  ### {#authority}
 
@@ -1458,7 +1458,7 @@ policies:
         * Messages will only be sent as part of setting up and signing into your login.gov account.
         * You may [contact customer care here](site.baseurl/contact/) or by email at [hello@login.gov](mailto:hello@login.gov).
         * To opt out of receiving text messages from login.gov reply with the message STOP to the unwanted text message.
-        * See [Our Privacy Practices](site.baseurl/policy/our-privacy-practices/) for privacy policy information.
+        * See [Our privacy act statement](site.baseurl/policy/our-privacy-act-statement/) for privacy policy information.
         * Carriers are not liable for delayed or undelivered messages.
 principles_page:
   heading_1: The principles of the identity playbook
