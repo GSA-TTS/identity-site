@@ -1296,7 +1296,7 @@ policies:
       content: |-
         ## Login.gov is committed to your privacy and security ## {#intro}
 
-        This privacy notice describes how we ask for, use, retain, and protect your personal information. Protecting your information is our priority at login.gov.
+        This describes how we ask for, use, retain, and protect your personal information. Protecting your information is our priority at login.gov.
 
         The information that you submit is used to create or update your login.gov account and give you access to login.gov’s partner agencies. When you provide your email address or other proof of identity like a state ID, we can be sure it’s really you and grant you access to the account — and keep the bad actors away. This proof, called an electronic identity assurance credential, is like putting a key into a lock and securely opens the door to the government agency’s application or service.
 
