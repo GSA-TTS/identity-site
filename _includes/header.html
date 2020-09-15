@@ -17,13 +17,13 @@
 
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
-          <a class="usa-nav__link {% if page.url contains '/why-login/' %}usa-current{% endif %}" href="{{ '/' | relative_url }}">
-            <span>{% t nav.why-login-gov %}</span>
+          <a class="usa-nav__link {% if page.url contains '/what-is-login/' %}usa-current{% endif %}" href="{{ '/' | relative_url }}">
+            <span>{% t nav.what_is_login_gov %}</span>
           </a>
         </li>
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link {% if page.url contains '/who-uses-login/' %}usa-current{% endif %}" href="{{ '/' | relative_url }}">
-            <span>{% t nav.who-uses-login-gov %}</span>
+            <span>{% t nav.who_uses_login_gov %}</span>
           </a>
         </li>
         <li class="usa-nav__primary-item">
@@ -33,7 +33,7 @@
         </li>
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link {% if page.url contains '/help/' %}usa-current{% endif %}" href="{{ '/help' | relative_url }}">
-            <span>{% t nav.help %}</span>
+            <span>{% t nav.help_center %}</span>
           </a>
         </li>
       </ul>
@@ -42,7 +42,7 @@
         <input type="hidden" name="affiliate" id="affiliate" value="login.gov" />
         <div role="search">
           <input type="search" name="query" id="query" autocomplete="off" class="usa-input" />
-          <input type="submit" class="usa-button app-search" name="commit" value=" " data-disable-with="Search" />
+          <input type="submit" class="usa-button app-search" name="commit" value="{% t actions.search %}" data-disable-with="Search" />
         </div>
       </form>
     </div>

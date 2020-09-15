@@ -1,0 +1,28 @@
+<nav id="pb-nav--side-cntnr" class="sm-col-right sm-col-4 sm-show policy">
+  <ul id="pb-nav--side" class="list-reset nav">
+    {% assign section_index = 0 %}
+    {% for section in site.translations[site.lang]["policies"]["sections"] %}
+      {% assign active_class = '' %}
+      {% if section_index == page.index %}
+        {% assign active_class = 'active' %}
+      {% endif %}
+      <li class="border-bottom nav-sidenav-item {{ active_class }}">
+        <a href="{{ section.link.url | prepend: site.baseurl }}" class="p2 block h6">
+          {{ section.link.text }}
+        </a>
+        {% if section.sublinks and section.show_sublinks and section_index == page.index %}
+          <ul>
+            {% for sublink in section.sublinks %}
+              <li class="usa-sidenav__item">
+                <a href="{{ sublink.url }}" class="p2 block h6">
+                  {{ sublink.text }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+      {% assign section_index = section_index | plus: 1 %}
+    {% endfor %}
+  </ul>
+</nav>

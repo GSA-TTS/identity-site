@@ -26,10 +26,16 @@ section > .container {
   .usa-search {
     right: 0;
   }
+
+  .usa-search--small [type=submit],
+  .usa-search--small .usa-search__submit {
+    width: auto;
+    padding: 0 0.7rem;
+    background-image: none;
+  }
 }
 
 .footer-nav {
-  border-top: 1px solid darken($blue-lightest, 15%);
   background-image: none;
   padding: 2em 0;
 
@@ -70,7 +76,7 @@ section > .container {
     }
   }
 
-  #intro-header {
+  .hero {
     background-image: none;
 
     > .container {
@@ -78,6 +84,25 @@ section > .container {
       background-position: 100% 50%;
       background-repeat: no-repeat;
       background-size: 650px;
+    }
+  }
+
+
+  .usa-nav__primary {
+    > .usa-nav__primary-item {
+      > a,
+      > .usa-nav__link {
+        position: relative;
+        padding: 0;
+
+        &:hover {
+          box-shadow: inset 0 -4px 0 0 $red;
+
+          &::after {
+            display: none;
+          }
+        }
+      }
     }
   }
 }
@@ -107,5 +132,19 @@ section > .container {
       display: block;
       padding-top: 3rem;
     }
+  }
+
+  .usa-header .usa-nav {
+    width: 85vw;
+
+    .usa-nav__primary-item .usa-nav__link {
+      padding-left: 0;
+    }
+  }
+}
+
+.container {
+  .hdr {
+    padding: 0.5rem 0 0.5rem 2.75rem;
   }
 }
