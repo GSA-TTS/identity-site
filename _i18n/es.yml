@@ -7,7 +7,7 @@ actions:
   read_more: Lee mas
 banner:
   text:
-    official: Un sitio web oficial del gobierno de los Estados Unidos
+    official: Un sitio web oficial del gobierno de los Estados Unidos.
     how: Así es como sabes
     gov_heading: La .gov significa que es oficial.
     gov_description: Los sitios web del gobierno federal a menudo terminan en .gov o .mil. Antes de compartir información confidencial, asegúrese de estar en un sitio del gobierno federal.
@@ -1135,7 +1135,29 @@ index:
     content: Use una cuenta para tener acceso privado y seguro a las agencias gubernamentales
       participantes.
     heading: La única cuenta del gobierno para el público.
+  why:
+    developers: |-
+      #### Desarrolladores de agencias
+
+      Recursos para desarrolladores, soporte en tiempo real y herramientas modernas para ayudarlo a implementar e implementar su aplicación con login.gov
+
+      [Ver guía para desarrolladores](https://developers.login.gov){:class="why-more-info" :target="_blank"}
+    individuals: |-
+      #### Individuos
+
+      Use una cuenta para tener acceso privado y seguro a las agencias gubernamentales participantes.
+
+      [Más información sobre login.gov](site.baseurl/what-is-login-gov/){:class="why-more-info"}
+    partners: |-
+      #### Socios de agencias
+
+      Proteja la información de sus usuarios con los más altos estándares de seguridad digital y experiencia de usuario. Login.gov maneja el desarrollo de software, las operaciones de seguridad y la atención al cliente para que usted no tenga que hacerlo.
+
+      [Convertirse en un compañero](https://partners.login.gov){:class="why-more-info" :target="_blank"}
 meta:
+  about:
+    description: Más información sobre login.gov
+    title: Más información
   contact:
     title: Contacto
   contact_us:
@@ -1173,18 +1195,25 @@ meta:
     description: Descubra cómo login.gov mantiene la privacidad de la información
       personal.
     title: Seguridad
+  why-login-gov:
+    description: Las agencias gubernamentales de EE. UU. Pueden aprovechar la plataforma de autenticación y verificación de identidad de login.gov. Obtenga más información sobre las ofertas y oportunidades de login.gov.
+    title: Por qué login.gov
 nav:
+  accessiblity: Declaración de accesibilidad
   about_us: Sobre nosotros
   become_a_partner: Convertirse en un compañero
   contact: Contacto
+  contact_us: Contacta con nosotros
+  contact_usa_gov: Póngase en contacto con USA.gov
   create_an_account: Crea una cuenta
   developer_guide: Guía para desarrolladores
   developers: Desarrolladores
   groups:
-    agencies: Para Agencias
+    agencies: Para agencias
     learn: Aprender
     support: Apoyo
   help: Ayuda
+  help_center: Centro de ayuda
   home: Inicio
   implementation: Implementación
   menu: Menú
@@ -1196,8 +1225,8 @@ nav:
   sign_in: 'Inicia sesión a:'
   skip_nav: Salte al contenido principal
   system_status: Estado del sistema login.gov
-  who-uses-login-gov: ¿Quién usa login.gov?
-  why-login-gov: ¿Por qué login.gov?
+  what_is_login_gov: ¿Qué es login.gov?
+  who_uses_login_gov: ¿Quién usa login.gov?
 playbook_page:
   section_1:
     p_1: El manejo de identidades —o asegurarse de que sólo las personas apropiadas

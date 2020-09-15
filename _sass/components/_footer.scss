@@ -63,6 +63,12 @@ html {
   padding: 1em 8em;
   background-color: darken($navy, 7%);
   color: $white;
+
+  .contact-usa-gov {
+    margin-left: 1rem;
+    text-decoration: none;
+    padding: 0.75rem;
+  }
 }
 
 @media #{$breakpoint-menu} {
@@ -114,6 +120,8 @@ html {
   flex: 0;
   width: auto;
   margin: 1em 0;
+  padding: 0.75rem;
+  font-weight: normal;
 
   &:hover {
     background-color: transparent;
@@ -127,7 +135,7 @@ html {
     width: 0.7rem;
     height: 0.7rem;
     background: url(../img/angle-arrow-down-white.svg) center/contain no-repeat;
-    margin-top: 0.25rem;
+    margin-top: 0;
     margin-left: 0.5rem;
   }
 

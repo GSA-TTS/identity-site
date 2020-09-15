@@ -7,7 +7,7 @@ actions:
   read_more: Read more
 banner:
   text:
-    official: An official website of the United States government
+    official: An official website of the United States government.
     how: Here’s how you know
     gov_heading: The .gov means it’s official.
     gov_description: Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
@@ -1144,7 +1144,29 @@ index:
   intro:
     content: Use one account for secure, private access to participating government agencies.
     heading: The public’s one account for government.
+  why:
+    developers: |-
+      <h4 class="hdr developers">Agency developers</h4>
+
+      Developer resources, real-time support and modern tools to help you implement and deploy your application with login.gov
+
+      [See developer guide](https://developers.login.gov){:class="why-more-info" :target="_blank"}
+    individuals: |-
+      <h4 class="hdr individuals">Individuals</h4>
+
+      Use one account for secure, private access to participating government agencies.
+
+      [Learn about login.gov](site.baseurl/what-is-login-gov/){:class="why-more-info"}
+    partners: |-
+      <h4 class="hdr partners">Agency partners</h4>
+
+      Protect your users' information with the highest standards of digital security and user experience.  Login.gov handles software development, security operations, and customer support so you don't have to.
+
+      [Become a partner](https://partners.login.gov/){:class="why-more-info" :target="_blank"}
 meta:
+  about:
+    description: More information about login.gov
+    title: About
   contact:
     title: Contact
   contact_us:
@@ -1189,17 +1211,21 @@ meta:
     description: U.S. government agencies can take advantage of login.gov’s authentication and identity proofing platform. Find out more about login.gov’s offerings and opportunities.
     title: Why login.gov
 nav:
+  accessibility: Accessibility statement
   about_us: About us
   become_a_partner: Become a partner
   contact: Contact
+  contact_us: Contact USA.gov
+  contact_usa_gov: Contact USA.gov
   create_an_account: Create an account
   developer_guide: Developer guide
   developers: developers
   groups:
-    agencies: For Agencies
+    agencies: For agencies
     learn: Learn
     support: Support
   help: Help
+  help_center: Help center
   home: Home
   implementation: Implementation
   menu: Menu
@@ -1213,8 +1239,8 @@ nav:
   sign_in: 'Sign in to:'
   skip_nav: Skip to main content
   system_status: login.gov system status
-  who-uses-login-gov: Who uses login.gov?
-  why-login-gov: Why login.gov?
+  what_is_login_gov: What is login.gov?
+  who_uses_login_gov: Who uses login.gov?
 our-agency-partners_page:
   footer:
     heading: Contact us
