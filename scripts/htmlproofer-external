@@ -18,5 +18,5 @@ HTMLProofer.check_directory(directory, {
   },
   # treat absolute URLs to our domain as if they were local
   # helps for rel="canonical" tags that exist locally but are not deployed yet
-  url_swap: { %r|https://www.login.gov/| => '/' },
+  url_swap: { %r|https://(www.)?login.gov/| => '/' },
 }).run
