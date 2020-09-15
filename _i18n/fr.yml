@@ -6,6 +6,7 @@
   heading: La page que vous recherchez n'existe pas.
 actions:
   read_more: Lire la suite
+  search: Chercher
 banner:
   text:
     official: Un site officiel du gouvernement américain.

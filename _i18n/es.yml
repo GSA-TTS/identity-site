@@ -5,6 +5,7 @@
   heading: La página que buscaba no existe.
 actions:
   read_more: Lee mas
+  search: Buscar
 banner:
   text:
     official: Un sitio web oficial del gobierno de los Estados Unidos.
