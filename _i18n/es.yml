@@ -1148,7 +1148,7 @@ index:
 
       Use una cuenta para tener acceso privado y seguro a las agencias gubernamentales participantes.
 
-      [Más información sobre login.gov](site.baseurl/what-is-login-gov/){:class="why-more-info"}
+      [Más información sobre login.gov](site.baseurl/what-is-login/){:class="why-more-info"}
     partners: |-
       #### Socios de agencias
 
@@ -1212,6 +1212,9 @@ meta:
     description: Descubra cómo login.gov mantiene la privacidad de la información
       personal.
     title: Seguridad
+  what-is-login:
+    description: Un resumen de lo que login.gov es el servicio que brinda.
+    title: ¿Qué es login.gov?
   why-login-gov:
     description: Las agencias gubernamentales de EE. UU. Pueden aprovechar la plataforma de autenticación y verificación de identidad de login.gov. Obtenga más información sobre las ofertas y oportunidades de login.gov.
     title: Por qué login.gov
@@ -1595,3 +1598,30 @@ security_page:
       ayuda](site.baseurl/help) o [contáctenos](site.baseurl/contact). También puede
       visitar nuestro [repositorio de código abierto](https://github.com/18F/identity-idp){:target="_blank"}.
   heading: Cómo login.gov mantiene la información personal en privado
+what-is-login-page:
+  hero:
+    heading: ¿Qué es login.gov?
+    text: Acceder a las agencias gubernamentales debe ser simple y seguro.
+  one-account: |-
+    ## Una cuenta
+
+    Login.gov es un servicio compartido, utilizado por el público y en el que confían las agencias gubernamentales. Con una cuenta de login.gov, elimina la necesidad de recordar diferentes contraseñas para cada agencia y agiliza su proceso de inicio de sesión.
+
+    #### Login.gov cuenta con la confianza de
+
+    * Departamento de Defensa
+    * Administración de Pequeños Negocios
+    * Programas de viajero de confianza (Departamento de Seguridad Nacional)
+    * USAJOBS (Oficina de Gestión de Personal)
+    * Asuntos de los veteranos
+    * Y más...
+
+    Login.gov es su única cuenta para el gobierno. [Obtenga más información sobre cómo crear una cuenta](site.baseurl/create-an-account/).
+
+    ¿Ya tienes una cuenta? [Inicie sesión para administrar su cuenta y actualizar su información personal u opciones de seguridad](https://secure.login.gov){: target = "_blank"}.
+  secure-account: |-
+    ## Acceso seguro y privado para el público
+
+    Login.gov utiliza [los más altos estándares de seguridad](site.baseurl/security/) para mantener segura su información, incluida la verificación de identidad y [autenticación de dos factores](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/).
+
+    Login.gov es proporcionado por [Technology Transformation Services (TTS)](https://www.gsa.gov/tts){: target = '_ blank'}.

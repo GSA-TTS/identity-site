@@ -2,6 +2,7 @@ $desktop: '(min-width: 1024px)' !default;
 
 main {
   flex: 1 1 0;
+  background: white;
 }
 
 div > .container,
@@ -78,12 +79,29 @@ section > .container {
 
   .hero {
     background-image: none;
+    height: 20rem;
+
+    .sm-col {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 
     > .container {
+      height: 100%;
       background-image: url(../img/header@2x.png);
       background-position: 100% 50%;
       background-repeat: no-repeat;
       background-size: 650px;
+    }
+
+    &.what-is-login {
+      > .container {
+        background-image: url(../img/what-is-login/header/what-is-illo-header@2x.png);
+        background-position-y: 2rem;
+        background-size: 50%;
+      }
     }
   }
 
@@ -95,7 +113,8 @@ section > .container {
         position: relative;
         padding: 0;
 
-        &:hover {
+        &:hover,
+        &.usa-current {
           box-shadow: inset 0 -4px 0 0 $red;
 
           &::after {

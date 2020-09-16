@@ -1157,7 +1157,7 @@ index:
 
       Use one account for secure, private access to participating government agencies.
 
-      [Learn about login.gov](site.baseurl/what-is-login-gov/){:class="why-more-info"}
+      [Learn about login.gov](site.baseurl/what-is-login/){:class="why-more-info"}
     partners: |-
       <h4 class="hdr partners">Agency partners</h4>
 
@@ -1224,6 +1224,9 @@ meta:
   security:
     description: Learn how login.gov keeps personal information private.
     title: Security
+  what-is-login:
+    description: A summary of what login.gov is the service it provides.
+    title: What is login.gov?
   why-login-gov:
     description: U.S. government agencies can take advantage of login.gov’s authentication and identity proofing platform. Find out more about login.gov’s offerings and opportunities.
     title: Why login.gov
@@ -1636,6 +1639,33 @@ security_page:
     p_2: For more information, please visit [Help](site.baseurl/help) or [contact
       us](site.baseurl/contact). You can also visit our [open-source repository](https://github.com/18F/identity-idp){:target="_blank"}.
   heading: How login.gov keeps personal information private
+what-is-login-page:
+  hero:
+    heading: What is login.gov?
+    text: Accessing government agencies should be simple — and secure.
+  one-account: |-
+    ## One account
+
+    Login.gov is a shared service, used by the public, and trusted by government agencies.  With one login.gov account, you eliminate the need to remember different passwords for each agency and streamline your sign in process.
+
+    #### Login.gov is trusted by
+
+    * Department of Defense
+    * Small Business Administration
+    * Trusted Traveler Programs (Department of Homeland Security)
+    * USAJOBS (Office of Personnel Management)
+    * Veterans Affairs
+    * And more...
+
+    Login.gov is your one account for government. [Learn more about creating an account](site.baseurl/create-an-account/).
+
+    Already have an account? [Sign in to manage your account and update your personal information or security options](https://secure.login.gov){:target="_blank"}.
+  secure-account: |-
+    ## Secure and private access for the public
+
+    Login.gov uses [the highest standards of security](site.baseurl/security/) to keep your information safe including identity verification and [two-factor authentication](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/).
+
+    Login.gov is provided by [Technology Transformation Services (TTS)](https://www.gsa.gov/tts){:target='_blank'}.
 why-login-gov_page:
   heading: Why login.gov
   heading_1: Overview of login.gov
