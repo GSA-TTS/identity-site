@@ -126,6 +126,11 @@ section > .container {
   }
 }
 
+.looking-for-svc {
+  padding: .3rem 0 .3rem 2rem;
+  background: url(../img/speech-balloon/icon-speech-balloon.svg) center left no-repeat;
+}
+
 @media #{$breakpoint-menu} {
   div > .container,
   section > .container {
@@ -146,6 +151,10 @@ section > .container {
     padding-right: 1rem;
   }
 
+  .hero {
+    padding: 2rem 0;
+  }
+
   .footer {
     .navigation {
       display: block;
@@ -159,6 +168,10 @@ section > .container {
     .usa-nav__primary-item .usa-nav__link {
       padding-left: 0;
     }
+  }
+
+  .looking-for-svc {
+    font-size: 95%;
   }
 }
 

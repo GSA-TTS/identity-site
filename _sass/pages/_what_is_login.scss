@@ -7,6 +7,27 @@
   .secure-account {
     border-top: 1px solid darken($blue-lightest, 15%);
     background: url(../img/what-is-login/security/what-is-security.svg) right center no-repeat;
-    padding: 6rem 50% 6rem 0; 
+    padding: 6rem 50% 6rem 0;
+  }
+}
+
+@media #{$breakpoint-menu} {
+  .container.what-is-login {
+    .one-account {
+      padding: 0 0 1.2rem 0;
+      background-position: center 33%;
+      background-size: contain;
+
+      p:first-of-type {
+        padding-bottom: 25rem;
+      }
+    }
+
+    .secure-account {
+      background-size: 70%;
+      margin-bottom: 2rem;
+      padding: 0 0 15rem 0;
+      background-position: center 100%;
+    }
   }
 }

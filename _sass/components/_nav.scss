@@ -286,6 +286,16 @@
 }
 
 @media #{$breakpoint-menu} {
+  .usa-nav__primary-item {
+    + .usa-nav__primary-item {
+      margin-left: 0;
+    }
+
+    span {
+      padding: .2rem 0 .2rem 1rem;
+    }
+  }
+
   .footer-nav {
     display: block;
     background: none;
