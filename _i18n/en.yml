@@ -1225,7 +1225,7 @@ meta:
     description: Learn how login.gov keeps personal information private.
     title: Security
   what-is-login:
-    description: A summary of what login.gov is the service it provides.
+    description: A summary of what login.gov is and the service it provides.
     title: What is login.gov?
   why-login-gov:
     description: U.S. government agencies can take advantage of login.gov’s authentication and identity proofing platform. Find out more about login.gov’s offerings and opportunities.

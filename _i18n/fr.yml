@@ -1259,7 +1259,7 @@ meta:
       personnels.
     title: Sécurité
   what-is-login:
-    description: Un résumé de ce que login.gov est le service qu'il fournit.
+    description: Un résumé de ce qu'est login.gov et du service qu'il fournit.
     title: Qu'est-ce que login.gov?
   why-login-gov:
     description: Les agences gouvernementales américaines peuvent tirer parti de la plate-forme d'authentification et de vérification d'identité de login.gov. En savoir plus sur les offres et les opportunités de login.gov.
