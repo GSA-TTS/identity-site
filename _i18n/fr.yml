@@ -1623,6 +1623,8 @@ what-is-login-page:
 
     Login.gov est un service partagé, utilisé par le public et approuvé par les agences gouvernementales. Avec un compte login.gov, vous évitez de devoir mémoriser différents mots de passe pour chaque agence et rationalisez votre processus de connexion.
 
+    <div class="mobile one-account-img" aria-hidden="true"></div>
+
     #### Login.gov est approuvé par
 
     * Département de la Défense
@@ -1641,3 +1643,5 @@ what-is-login-page:
     Login.gov utilise [les normes de sécurité les plus élevées](site.baseurl/security/) pour protéger vos informations, y compris la vérification d'identité et [l'authentification à deux facteurs](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/).
 
     Login.gov est fourni par [Technology Transformation Services (TTS)](https://www.gsa.gov/tts){: target = '_ blank'}.
+
+    <div class="mobile secure-account-img" aria-hidden="true"></div>
