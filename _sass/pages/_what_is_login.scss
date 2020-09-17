@@ -1,0 +1,48 @@
+.container.what-is-login {
+  .one-account {
+    background: url(../img/what-is-login/one-account/what-is-one-account.svg) left center no-repeat;
+    padding: 3rem 0 3rem 50%;
+  }
+
+  .secure-account {
+    border-top: 1px solid darken($blue-lightest, 15%);
+    background: url(../img/what-is-login/security/what-is-security.svg) right center no-repeat;
+    padding: 6rem 50% 6rem 0;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media #{$breakpoint-menu} {
+  .container.what-is-login {
+    .one-account {
+      background: none;
+      margin-bottom: 2rem;
+      padding: 0;
+    }
+
+    .secure-account {
+      border-top: 1px solid darken($blue-lightest, 15%);
+      background: none;
+      margin-bottom: 2rem;
+      padding: 0;
+    }
+
+    .mobile {
+      display: block;
+
+      &.one-account-img {
+        background: url(../img/what-is-login/one-account/what-is-one-account.svg) center center/contain no-repeat;
+        height: 17rem;
+      }
+
+      &.secure-account-img {
+        background: url(../img/what-is-login/security/what-is-security.svg) center center/contain no-repeat;
+        height: 10rem;
+        margin-top: 2rem;
+      }
+    }
+  }
+}
