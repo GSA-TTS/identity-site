@@ -103,6 +103,16 @@ section > .container {
         background-size: 50%;
       }
     }
+
+    &.who-uses-login {
+      background-image: url(../img/who-uses-login/who-uses-illo-header/who-uses-illo-header@2x.png);
+      background-position: right center;
+      background-size: 45%;
+
+      > .container {
+        background-image: none;
+      }
+    }
   }
 
 

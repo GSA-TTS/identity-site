@@ -111,6 +111,23 @@ html {
   }
 }
 
+.product-mgmt-statement {
+  max-width: 37rem;
+  margin: 1em 0;
+  color: $white;
+  display: flex;
+
+  svg {
+    flex: none;
+    margin-right: 1em;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
 @media #{$breakpoint-menu} {
   .footer-gsa {
     padding: 1em;
@@ -141,21 +158,8 @@ html {
       margin: 1rem 0 0 0;
     }
   }
-}
 
-.product-mgmt-statement {
-  max-width: 37rem;
-  margin: 1em 0;
-  color: $white;
-  display: flex;
-
-  svg {
-    flex: none;
-    margin-right: 1em;
-  }
-
-  p {
-    margin: 0;
-    padding: 0;
+  .product-mgmt-statement {
+    margin-top: 0;
   }
 }

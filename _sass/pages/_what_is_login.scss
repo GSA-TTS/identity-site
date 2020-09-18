@@ -1,12 +1,12 @@
 .container.what-is-login {
   .one-account {
-    background: url(../img/what-is-login/one-account/what-is-one-account.svg) left center no-repeat;
+    background: url(../img/what-is-login/one-account/what-is-one-account@2x.png) left center no-repeat;
     padding: 3rem 0 3rem 50%;
   }
 
   .secure-account {
     border-top: 1px solid darken($blue-lightest, 15%);
-    background: url(../img/what-is-login/security/what-is-security.svg) right center no-repeat;
+    background: url(../img/what-is-login/security/what-is-security@2x.png) right center no-repeat;
     padding: 6rem 50% 6rem 0;
   }
 
@@ -34,12 +34,12 @@
       display: block;
 
       &.one-account-img {
-        background: url(../img/what-is-login/one-account/what-is-one-account.svg) center center/contain no-repeat;
+        background: url(../img/what-is-login/one-account/what-is-one-account@2x.png) center center/contain no-repeat;
         height: 17rem;
       }
 
       &.secure-account-img {
-        background: url(../img/what-is-login/security/what-is-security.svg) center center/contain no-repeat;
+        background: url(../img/what-is-login/security/what-is-security@2x.png) center center/contain no-repeat;
         height: 10rem;
         margin-top: 2rem;
       }

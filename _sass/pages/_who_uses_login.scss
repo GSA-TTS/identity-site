@@ -1,0 +1,92 @@
+.container.who-uses-login {
+  .partners {
+    background: url(../img/who-uses-login/who-uses-illo-partners/who-uses-illo-partners.png) left center no-repeat;
+    padding: 3rem 0 3rem 40%;
+  }
+
+  .security {
+    display: flex;
+    padding: 3rem 0;
+
+    > p {
+      flex-basis: 0;
+      flex-grow: 1;
+
+      &:first-child {
+        background: url(../img/who-uses-login/icon-shield/icon-shield.png) left top no-repeat;
+        padding: 0 0 0 3rem;
+      }
+
+      &:last-child {
+        background: url(../img/homepage/icon-partner/icon-partners.png) 0.4rem -.5rem no-repeat;
+        border-left: 1px solid darken($blue-lightest, 15%);
+        margin-left: 0.25rem;
+        padding: 0 0 0 4rem;
+      }
+    }
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+.who-uses-login ~ .one-account-for-govt {
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+
+@media #{$breakpoint-menu} {
+  .container.who-uses-login {
+    h2 {
+      margin-top: 0;
+      padding-top: 1em;
+    }
+
+    .partners {
+      background: none;
+      margin-bottom: 2rem;
+      padding: 0;
+    }
+
+    .security {
+      display: block;
+      padding: 2rem 0;
+
+      > p {
+        &:last-child {
+          border-left: none;
+          margin-left: 0;
+          padding-left: 3rem;
+          background-position-x: -0.4rem;
+        }
+      }
+    }
+
+    .mobile {
+      display: block;
+
+      &.partners-img {
+        background: url(../img/who-uses-login/who-uses-illo-partners/who-uses-illo-partners.png) center center/contain no-repeat;
+        height: 7rem;
+        margin-top: 2rem;
+      }
+
+      &.security-img {
+
+      }
+    }
+  }
+
+  .who-uses-login ~ .one-account-for-govt {
+    margin: 0 1rem 5rem;
+
+    .tagline {
+      font-size: 1.15rem;
+    }
+
+    .link {
+      font-size: 1rem;
+    }
+  }
+}
