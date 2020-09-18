@@ -64,16 +64,35 @@ section > .container {
 }
 
 @media #{$desktop} {
+  div > .container,
+  section > .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .usa-header--extended {
     .usa-navbar {
       padding-left: 0;
       padding-right: 0;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
     }
 
     .usa-nav__inner {
       // override package CSS rule
       padding-left: 0 !important;
       padding-right: 0;
+
+      &.container {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem;
+      }
+    }
+  }
+
+  .usa-header .usa-nav {
+    .usa-search {
+      right: 1.5rem;
     }
   }
 
@@ -132,6 +151,13 @@ section > .container {
           }
         }
       }
+    }
+  }
+
+  .one-account-for-govt {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
     }
   }
 }
