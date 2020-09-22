@@ -1126,7 +1126,7 @@ index:
       foia: Presentar una solicitud de la Ley de Libertad de Información (FOIA)
       no_fear_act: Ver datos de No FEAR Act
       report_fraud: Denuncie fraude, despilfarro o abuso a la Oficina del Inspector General
-    org: "[login.gov](/) es un producto de los [Servicios de Transformación Tecnológica](https://www.gsa.gov/tts){:target='blank'}
+    org: "[Login.gov](https://login.gov) es un producto de los [Servicios de Transformación Tecnológica](https://www.gsa.gov/tts){:target='blank'}
       de GSA y está administrado por la [Oficina de Soluciones](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions){:target='blank'}."
     p_1: "¿Tiene alguna pregunta o problema? [Contáctenos](site.baseurl/contact)."
     tts:
