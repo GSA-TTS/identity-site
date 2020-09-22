@@ -4,10 +4,6 @@ RSpec.describe '/playbook' do
   describe '/' do
     let(:doc) { Nokogiri::HTML(file_at('/playbook')) }
 
-    xit 'opens external links in a new window' do
-      expect(doc).to open_external_links_in_new_window
-    end
-
     it 'escapes html correctly' do
       expect(doc).to properly_escape_html
     end
@@ -28,10 +24,6 @@ RSpec.describe '/playbook' do
   describe '/implementation' do
     let(:doc) { Nokogiri::HTML(file_at('/playbook/implementation')) }
 
-    xit 'opens external links in a new window' do
-      expect(doc).to open_external_links_in_new_window
-    end
-
     it 'escapes html correctly' do
       expect(doc).to properly_escape_html
     end
@@ -51,10 +43,6 @@ RSpec.describe '/playbook' do
 
   describe '/principles' do
     let(:doc) { Nokogiri::HTML(file_at('/playbook/principles')) }
-
-    xit 'opens external links in a new window' do
-      expect(doc).to open_external_links_in_new_window
-    end
 
     it 'escapes html correctly' do
       expect(doc).to properly_escape_html
