@@ -34,6 +34,4 @@ image: /assets/img/login-gov-600x314.png
 {% capture banner_content %}
   <p><a class="learn-account-creation link" href="{{ site.baseurl }}/create-an-account">{% t banner.one-account-for-govt.learn %}</a></p>
 {% endcapture %}
-<div class="display-none tablet:display-block">
-  {% include one_account_banner.html content=banner_content %}
-</div>
+{% include one_account_banner.html content=banner_content %}

@@ -1,6 +1,10 @@
 .one-account-for-govt {
   margin: 1rem 0;
 
+  @include at-media-max('tablet') {
+    display: none;
+  }
+
   .tagline-content {
     display: flex;
     flex-direction: column;
