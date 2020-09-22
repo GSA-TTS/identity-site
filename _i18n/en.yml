@@ -154,7 +154,7 @@ developers_page:
     heading: For all government agencies
   column_2:
     content:
-      p_1: login.gov is a shared government service that includes development and customer support.
+      p_1: Login.gov is a shared government service that includes development and customer support.
     heading: Save time and money
   column_3:
     content:
@@ -1244,7 +1244,7 @@ nav:
   become_a_partner: Become a partner
   contact: Contact
   contact_us: Contact us
-  contact_usa_gov: Contact USA.gov
+  contact_login_gov: Contact Login.gov
   create_an_account: Create an account
   developer_guide: Developer guide
   developers: developers
