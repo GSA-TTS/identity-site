@@ -2,26 +2,6 @@
 
 require 'uri'
 
-RSpec::Matchers.define :open_external_links_in_new_window do
-  missing_target_blank = []
-
-  match do |actual|
-    doc = actual
-
-    doc.css('a[href^=http]').each do |a|
-      next unless a.ancestors('nav').empty?
-
-      missing_target_blank << a[:href] if a[:target] != '_blank'
-    end
-
-    expect(missing_target_blank).to be_empty
-  end
-
-  failure_message do |actual|
-    "expected that #{actual.url} would have target=_blank on links:\n#{missing_target_blank.join("\n")}"
-  end
-end
-
 RSpec::Matchers.define :link_to_valid_headers do
   missing_headers = []
 
