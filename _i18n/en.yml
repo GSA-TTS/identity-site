@@ -1226,17 +1226,20 @@ meta:
       title: "Privacy & security: Our Security Practices"
       description: Learn the various methods we use to protect this U.S. government service and your data, and to ensure the service remains available to all users.
   security:
-    description: Learn how login.gov keeps personal information private.
     title: Security
+    description: Learn how login.gov keeps personal information private.
   what-is-login:
-    description: A summary of what login.gov is and the service it provides.
     title: What is login.gov?
+    description: A summary of what login.gov is and the service it provides.
   who-uses-login:
-    description: A list of customers currently benefitting from login.gov's services
     title: Who uses login.gov?
+    description: A list of customers currently benefitting from login.gov's services
   why-login-gov:
-    description: U.S. government agencies can take advantage of login.gov’s authentication and identity proofing platform. Find out more about login.gov’s offerings and opportunities.
     title: Why login.gov
+    description: U.S. government agencies can take advantage of login.gov’s authentication and identity proofing platform. Find out more about login.gov’s offerings and opportunities.
+  create-an-account:
+    title: Create an account
+    description: Join the millions of people who trust login.gov for safe, secure access to government agencies.
 nav:
   accessibility: Accessibility statement
   anchor_to_top: Back to top
@@ -1736,3 +1739,7 @@ why-login-gov_page:
       li_4: The convenience of identity verification from home
       li_5: Simple tools to manage and update their account
       li_6: Descriptive help content, and a staffed contact center for user support
+create-an-account:
+  hero:
+    heading: Create an account
+    text: Join the millions of people who trust login.gov for safe, secure access to government agencies.

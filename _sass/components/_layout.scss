@@ -132,6 +132,14 @@ section > .container {
         background-image: none;
       }
     }
+
+    &.create-an-account {
+      > .container {
+      background-image: url(../img/create-an-account/header/create-account-illo-header@2x.png);
+      background-position-y: 2rem;
+      background-size: 55%;
+      }
+    }
   }
 
 
