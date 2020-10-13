@@ -1,6 +1,23 @@
 .container.create-an-account {
   > div {
     padding: 8rem;
-    text-align: center
+    text-align: center;
+  }
+}
+
+.create-an-account {
+  .step {
+    padding: 1rem 0 3rem 12rem;
+    background: url(../img/what-is-login/one-account/what-is-one-account.png)
+      left center no-repeat;
+  }
+  .step-1 {
+    background-image: url(../img/what-is-login/one-account/what-is-one-account.png);
+  }
+  .step-2 {
+    background-image: url(../img/what-is-login/one-account/what-is-one-account.png);
+  }
+  .step-3 {
+    background-image: url(../img/what-is-login/one-account/what-is-one-account.png);
   }
 }

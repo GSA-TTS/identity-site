@@ -1,0 +1,15 @@
+.box {
+  padding: 2rem 1rem 1rem 3rem;
+  background: $blue-light;
+
+  &::before {
+    content: "";
+    background: url(../img/alerts/info.svg) no-repeat;
+    background-size: 30px 30px;
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+    height: 2rem;
+    width: 2rem;
+  }
+}
