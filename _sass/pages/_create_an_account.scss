@@ -8,16 +8,16 @@
 .create-an-account {
   .step {
     padding: 1rem 0 3rem 12rem;
-    background: url(../img/what-is-login/one-account/what-is-one-account.png)
-      left center no-repeat;
+    background-position: left top;
+    background-repeat: no-repeat;
   }
   .step-1 {
-    background-image: url(../img/what-is-login/one-account/what-is-one-account.png);
+    background-image: url(../img/create-an-account/email/create-account-email.svg);
   }
   .step-2 {
-    background-image: url(../img/what-is-login/one-account/what-is-one-account.png);
+    background-image: url(../img/create-an-account/password/create-account-password.svg);
   }
   .step-3 {
-    background-image: url(../img/what-is-login/one-account/what-is-one-account.png);
+    background-image: url(../img/create-an-account/auth/create-account-auth.svg);
   }
 }

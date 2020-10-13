@@ -5,11 +5,11 @@
   &::before {
     content: "";
     background: url(../img/alerts/info.svg) no-repeat;
-    background-size: 30px 30px;
+    background-size: 26px;
     position: absolute;
     left: 1rem;
     top: 2rem;
-    height: 2rem;
+    height: 1rem;
     width: 2rem;
   }
 }
