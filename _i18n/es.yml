@@ -1671,7 +1671,7 @@ create-an-account:
 
       <div class="mobile step-2-img" aria-hidden="true"></div>
   step_3: |-
-    ## 3. Uno o más [métodos de autenticación](site.baseurl/es/help/authentication-methods/which-authentication-method-should-i-use/) como&#58;
+    ## 3. Uno o más [métodos de autenticación](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/) como&#58;
       * __Mas segura__
         * Clave de seguridad
         * Aplicación de autenticación
