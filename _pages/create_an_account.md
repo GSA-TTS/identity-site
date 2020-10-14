@@ -16,10 +16,10 @@ image: /assets/img/login-gov-600x314.png
 
 {% include hero.html class="create-an-account" heading=heading text=text col_class="sm-col-6" %}
 
-<div class="create-an-account bg-white grid-container padding-top-9">
+<div class="create-an-account bg-white grid-container padding-top-9 padding-x-0">
   <div class="grid-row">
   <div class="grid-col-7">
-    <div class="text border-bottom">{{ site.translations[site.lang]["create-an-account"]["intro"] | replace: 'site.baseurl', site.baseurl | markdownify }}
+    <div class="text border-bottom border-blue">{{ site.translations[site.lang]["create-an-account"]["intro"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
     <div class="step-1 step">
       {{ site.translations[site.lang]["create-an-account"]["step_1"] | replace: 'site.baseurl', site.baseurl | markdownify }}
