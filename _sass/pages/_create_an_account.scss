@@ -21,4 +21,33 @@
   .step-3 {
     background-image: url(../img/create-an-account/auth/create-account-auth.svg);
   }
+  .mobile {
+    display: none;
+  }
+}
+
+@media #{$breakpoint-menu} {
+  .create-an-account {
+    .step {
+      background: none;
+      padding: 0;
+    }
+
+    .mobile {
+      display: block;
+      height: 8rem;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      &.step-1-img {
+        background-image: url(../img/create-an-account/email/create-account-email.svg);
+      }
+      &.step-2-img {
+        background-image: url(../img/create-an-account/password/create-account-password.svg);
+      }
+      &.step-3-img {
+        background-image: url(../img/create-an-account/auth/create-account-auth.svg);
+      }
+    }
+  }
 }

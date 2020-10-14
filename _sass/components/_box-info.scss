@@ -1,9 +1,10 @@
 .box {
-  padding: 2rem 1rem 1rem 3rem;
   background: $blue-light;
   letter-spacing: -0.11px;
   line-height: 30px;
   min-width: 304px;
+  margin-bottom: 2rem;
+  padding: 2rem 1rem 1rem 3rem;
 
   &::before {
     content: "";

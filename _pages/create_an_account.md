@@ -16,9 +16,9 @@ image: /assets/img/login-gov-600x314.png
 
 {% include hero.html class="create-an-account" heading=heading text=text col_class="sm-col-6" %}
 
-<div class="create-an-account bg-white grid-container padding-top-9 padding-x-0">
+<div class="create-an-account bg-white grid-container padding-top-9 tablet:padding-x-0 padding-x-2">
   <div class="grid-row">
-  <div class="grid-col-7">
+  <div class="tablet:grid-col-7">
     <div class="text border-bottom border-blue">{{ site.translations[site.lang]["create-an-account"]["intro"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
     <div class="step-1 step">
@@ -31,7 +31,7 @@ image: /assets/img/login-gov-600x314.png
       {{ site.translations[site.lang]["create-an-account"]["step_3"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
   </div>
-  <div class="grid-col-3 grid-offset-2 sidebar">
+  <div class="tablet:grid-col-3 tablet:grid-offset-2 sidebar">
     <div class="box bg-blue-light">
       {{ site.translations[site.lang]["create-an-account"]["info"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
