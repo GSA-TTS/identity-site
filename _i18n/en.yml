@@ -1226,17 +1226,20 @@ meta:
       title: "Privacy & security: Our Security Practices"
       description: Learn the various methods we use to protect this U.S. government service and your data, and to ensure the service remains available to all users.
   security:
-    description: Learn how login.gov keeps personal information private.
     title: Security
+    description: Learn how login.gov keeps personal information private.
   what-is-login:
-    description: A summary of what login.gov is and the service it provides.
     title: What is login.gov?
+    description: A summary of what login.gov is and the service it provides.
   who-uses-login:
-    description: A list of customers currently benefitting from login.gov's services
     title: Who uses login.gov?
+    description: A list of customers currently benefitting from login.gov's services
   why-login-gov:
-    description: U.S. government agencies can take advantage of login.gov’s authentication and identity proofing platform. Find out more about login.gov’s offerings and opportunities.
     title: Why login.gov
+    description: U.S. government agencies can take advantage of login.gov’s authentication and identity proofing platform. Find out more about login.gov’s offerings and opportunities.
+  create-an-account:
+    title: Create an account
+    description: Join the millions of people who trust login.gov for safe, secure access to government agencies.
 nav:
   accessibility: Accessibility statement
   anchor_to_top: Back to top
@@ -1736,3 +1739,25 @@ why-login-gov_page:
       li_4: The convenience of identity verification from home
       li_5: Simple tools to manage and update their account
       li_6: Descriptive help content, and a staffed contact center for user support
+create-an-account:
+  hero:
+    heading: Create an account
+    text: Join the millions of people who trust login.gov for safe, secure access to government agencies.
+  intro: When you’re ready to create your secure login.gov account, you’ll need to provide a few pieces of information&#58;
+  step_1: |-
+    ## 1. Email address
+      * We recommend a personal email address that you’ll always be able to access rather than a work email address.
+      * If you already have an account with login.gov with that email address, we’ll send you an email to let you know how you can reset your password and access the account.
+  step_2: |-
+    ## 2. Secure password
+      * Passwords must be at least 12 characters, but otherwise there are no restrictions. You can even enter spaces in between words to get to 12 characters.
+  step_3: |-
+    ## 3. One or more [authentication methods](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/) such as:
+      * __More secure__
+        * Security Key
+        * Authentication application
+        * Federal government employee or military identification (PIV/CAC)
+      * __Less secure__
+        * SMS/Text messages
+        * Backup codes
+  info: Depending on the security needs of the agency, you may need to prove your identity using a social security number, address, and/or U.S. based state-issued identification.

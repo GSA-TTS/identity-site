@@ -4,6 +4,7 @@
 .bw4 { border-width: 4px; }
 
 .border-dashed { border-style: dashed; }
+.border-blue-accent { border-color: $blue-accent; }
 
 .rounded-md { border-radius: $border-radius-md; }
 .rounded-lg { border-radius: $border-radius-lg; }

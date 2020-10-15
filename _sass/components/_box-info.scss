@@ -1,0 +1,20 @@
+.box {
+  background: $blue-light;
+  border-radius: 8px;
+  letter-spacing: -0.11px;
+  line-height: 30px;
+  min-width: 304px;
+  margin-bottom: 2rem;
+  padding: 2rem 1rem 1rem 3rem;
+
+  &::before {
+    content: "";
+    background: url(../img/alerts/info.svg) no-repeat;
+    background-size: 26px;
+    position: absolute;
+    left: 1rem;
+    top: 2.5rem;
+    height: 1rem;
+    width: 2rem;
+  }
+}

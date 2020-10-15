@@ -1,3 +1,13 @@
+ul {
+  li {
+    line-height: 2.25rem;
+    ul {
+      list-style-type: "⁃";
+      margin-bottom: 0;
+    }
+  }
+}
+
 ul a {
   text-decoration: none;
 }
@@ -9,24 +19,24 @@ ul a {
 
     &::before {
       color: $teal;
-      content: '•';
+      content: "•";
       font-size: 2rem;
       line-height: 1.5rem;
-      padding-right: .5rem;
+      padding-right: 0.5rem;
       vertical-align: -3px;
     }
   }
 }
 
-.list-arrow{
+.list-arrow {
   a {
-    background: url('../img/ico-arrow.svg') no-repeat right 6px;
-    background-size: .75rem .75rem;
+    background: url("../img/ico-arrow.svg") no-repeat right 6px;
+    background-size: 0.75rem 0.75rem;
     padding-right: 1.25rem;
   }
 }
 
 .list-checked li {
-  background: url('../img/ico-checked.svg') no-repeat left 4px;
+  background: url("../img/ico-checked.svg") no-repeat left 4px;
   background-size: 1rem;
 }
