@@ -1748,13 +1748,9 @@ create-an-account:
     ## 1. Email address
       * We recommend a personal email address that you’ll always be able to access rather than a work email address.
       * If you already have an account with login.gov with that email address, we’ll send you an email to let you know how you can reset your password and access the account.
-
-      <div class="mobile step-1-img" aria-hidden="true"></div>
   step_2: |-
     ## 2. Secure password
       * Passwords must be at least 12 characters, but otherwise there are no restrictions. You can even enter spaces in between words to get to 12 characters.
-
-      <div class="mobile step-2-img" aria-hidden="true"></div>
   step_3: |-
     ## 3. One or more [authentication methods](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/) such as:
       * __More secure__
@@ -1764,6 +1760,4 @@ create-an-account:
       * __Less secure__
         * SMS/Text messages
         * Backup codes
-
-        <div class="mobile step-3-img" aria-hidden="true"></div>
   info: Depending on the security needs of the agency, you may need to prove your identity using a social security number, address, and/or U.S. based state-issued identification.

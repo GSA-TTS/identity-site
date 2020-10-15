@@ -2,8 +2,7 @@ ul {
   li {
     line-height: 2.25rem;
     ul {
-      list-style-type: none;
-      list-style-image: url("../img/list-bullet-nested.svg");
+      list-style-type: "⁃";
       margin-bottom: 0;
     }
   }

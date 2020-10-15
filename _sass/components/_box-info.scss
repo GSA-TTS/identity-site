@@ -1,5 +1,6 @@
 .box {
   background: $blue-light;
+  border-radius: 8px;
   letter-spacing: -0.11px;
   line-height: 30px;
   min-width: 304px;
@@ -12,7 +13,7 @@
     background-size: 26px;
     position: absolute;
     left: 1rem;
-    top: 2rem;
+    top: 2.5rem;
     height: 1rem;
     width: 2rem;
   }

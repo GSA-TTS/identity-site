@@ -1679,13 +1679,9 @@ create-an-account:
     ## 1. Adresse électronique
       * Nous vous recommandons une adresse e-mail personnelle à laquelle vous pourrez toujours accéder plutôt qu'une adresse e-mail professionnelle.
       * Si vous possédez déjà un compte avec login.gov avec cette adresse e-mail, nous vous enverrons un e-mail pour vous indiquer comment réinitialiser votre mot de passe et accéder au compte.
-
-      <div class="mobile step-1-img" aria-hidden="true"></div>
   step_2: |-
     ## 2. Mot de passe sécurisé
       * Les mots de passe doivent comporter au moins 12 caractères, mais sinon, il n'y a aucune restriction. Vous pouvez même saisir des espaces entre les mots pour atteindre 12 caractères.
-
-      <div class="mobile step-2-img" aria-hidden="true"></div>
   step_3: |-
     ## 3. Une ou plusieurs [méthodes d'authentification](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/) telles que&#58;
       * __Plus sécurisé__
@@ -1695,7 +1691,5 @@ create-an-account:
       * __Moins sécurisé__
         * SMS/messages texte
         * Codes de sauvegarde
-
-        <div class="mobile step-3-img" aria-hidden="true"></div>
   info: Selon les besoins de sécurité de l'agence, vous devrez peut-être prouver votre identité à l'aide d'un numéro de sécurité sociale, d'une adresse et / ou d'une pièce d'identité émise par l'État américain.
   
