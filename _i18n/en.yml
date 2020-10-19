@@ -1656,7 +1656,7 @@ what-is-login-page:
     heading: What is login.gov?
     text: Accessing government agencies should be simple — and secure.
   one-account: |-
-    ## One account, one password
+    ## One account and password
 
     Login.gov is a shared service, used by the public, and trusted by government agencies.  With one login.gov account, you eliminate the need to remember different passwords for each agency and streamline your sign in process.
 

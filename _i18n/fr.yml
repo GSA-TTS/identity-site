@@ -1627,7 +1627,7 @@ what-is-login-page:
     heading: Qu'est-ce que login.gov?
     text: L'accès aux agences gouvernementales doit être simple - et sécurisé.
   one-account: |-
-    ## Un compte, un mot de passe
+    ## Un compte et un mot de passe
 
     Login.gov est un service partagé, utilisé par le public et approuvé par les agences gouvernementales. Avec un compte login.gov, vous évitez de devoir mémoriser différents mots de passe pour chaque agence et rationalisez votre processus de connexion.
 
