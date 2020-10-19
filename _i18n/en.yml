@@ -1150,6 +1150,8 @@ index:
     content: Use one account and password for secure, private access to participating government agencies.
     heading: The public’s one account for government.
   why:
+    heading: |-
+      ## Login.gov is for you
     developers: |-
       <h4 class="hdr developers">Agency developers</h4>
 

@@ -1186,6 +1186,8 @@ index:
     content: Utilisez un compte et un mot de passe pour un accès sécurisé et privé aux agences gouvernementales participantes.
     heading: Le seul compte public pour le gouvernement.
   why:
+    heading: |-
+      ## Login.gov est fait pour vous
     developers: |-
       #### Développeurs d'agence
 
