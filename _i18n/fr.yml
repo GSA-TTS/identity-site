@@ -1183,8 +1183,7 @@ index:
       portfolio: TTS Solutions est un portefeuille de produits et de services qui aident les agences
         à améliorer la fourniture d'informations et de services au public.
   intro:
-    content: Utilisez un seul compte pour un accès sécurisé et privé aux agences gouvernementales
-      participantes.
+    content: Utilisez un compte et un mot de passe pour un accès sécurisé et privé aux agences gouvernementales participantes.
     heading: Le seul compte public pour le gouvernement.
   why:
     developers: |-
