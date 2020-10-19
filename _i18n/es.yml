@@ -1610,7 +1610,7 @@ what-is-login-page:
     heading: ¿Qué es login.gov?
     text: Acceder a las agencias gubernamentales debe ser simple y seguro.
   one-account: |-
-    ## Una cuenta
+    ## Una cuenta, una contraseña
 
     Login.gov es un servicio compartido, utilizado por el público y en el que confían las agencias gubernamentales. Con una cuenta de login.gov, elimina la necesidad de recordar diferentes contraseñas para cada agencia y agiliza su proceso de inicio de sesión.
 
