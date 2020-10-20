@@ -17,6 +17,8 @@ image: /assets/img/login-gov-600x314.png
 
 <div class="bg-white">
   <div class="container why-login-gov">
+    <div>{{ site.translations[site.lang]["index"]["why"]["heading"] | replace: 'site.baseurl', site.baseurl | markdownify }}</div>
+    <hr>
     <div class="grid-row">
       <div class="tablet:grid-col">
         {{ site.translations[site.lang]["index"]["why"]["individuals"] | replace: 'site.baseurl', site.baseurl | markdownify }}
@@ -30,3 +32,8 @@ image: /assets/img/login-gov-600x314.png
     </div>
   </div>
 </div>
+
+{% capture banner_content %}
+  <p><a class="learn-account-creation link" href="{{ site.baseurl }}/create-an-account">{% t banner.one-account-for-govt.learn %}</a></p>
+{% endcapture %}
+{% include one_account_banner.html content=banner_content %}

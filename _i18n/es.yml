@@ -1137,10 +1137,12 @@ index:
       portfolio: TTS Solutions es una cartera de productos y servicios que ayudan a las agencias a
         mejorar la entrega de información y servicios al público.
   intro:
-    content: Use una cuenta para tener acceso privado y seguro a las agencias gubernamentales
+    content: Use una cuenta y contraseña para tener acceso privado y seguro a las agencias gubernamentales participantes.
       participantes.
     heading: La única cuenta del gobierno para el público.
   why:
+    heading: |-
+      ## Login.gov es para ti
     developers: |-
       #### Desarrolladores de agencias
 
@@ -1250,7 +1252,7 @@ nav:
   principles: Principios
   privacy_&_security: Privacidad y seguridad
   security: Seguridad
-  sign_in: 'Inicia sesión a:'
+  sign_in: 'Inicie sesión con'
   skip_nav: Salte al contenido principal
   system_status: Estado del sistema login.gov
   what_is_login_gov: ¿Qué es login.gov?
@@ -1610,7 +1612,7 @@ what-is-login-page:
     heading: ¿Qué es login.gov?
     text: Acceder a las agencias gubernamentales debe ser simple y seguro.
   one-account: |-
-    ## Una cuenta
+    ## Una cuenta y contraseña
 
     Login.gov es un servicio compartido, utilizado por el público y en el que confían las agencias gubernamentales. Con una cuenta de login.gov, elimina la necesidad de recordar diferentes contraseñas para cada agencia y agiliza su proceso de inicio de sesión.
 
