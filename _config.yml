@@ -13,9 +13,6 @@ exclude_from_localizations: ["javascript", "images", "css"]
 
 # Pages
 collections:
-  help:
-    output: true
-    permalink: /:collection/:path/
   pages:
     output: true
     permalink: /:path/
@@ -67,35 +64,6 @@ plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-sitemap
 
-help_pages:
-- creating-an-account
-- authentication-methods
-- verifying-your-identity
-- signing-in
-- changing-settings
-- privacy-and-security
-- trusted-traveler-programs
-- usajobs
-- sam
-
-# Per-section configs
-playbook:
-  principles:
-   - anchor: users
-     img: graphic-users
-     text: Focus on user needs
-   - anchor: transparent
-     img: graphic-venn
-     text: Be transparent about how it works
-   - anchor: flexible
-     img: graphic-half-circle
-     text: Build a flexible product
-   - anchor: privacy
-     img: graphic-locks
-     text: Use modern privacy practices
-   - anchor: security
-     img: graphic-hex
-     text: Create responsive security systems
 baseurl:
 
 url: https://www.login.gov
