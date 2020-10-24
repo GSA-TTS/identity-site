@@ -2,6 +2,7 @@ version: 2.1
 
 orbs:
   slack: circleci/slack@3.4.2
+  prettier: cfra/prettier@0.1.1
 
 commands:
   install-dependencies:
@@ -76,6 +77,7 @@ workflows:
     jobs:
       - build
       - test-external-links
+      - prettier/check
   daily-external-link-checker:
     jobs:
       - test-external-links
