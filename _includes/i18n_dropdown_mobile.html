@@ -1,29 +1,54 @@
 {% if site.languages.size > 1 %}
-  <div class="sm-hide border-bottom border-blue">
-    <div class="container cntnr-wide py1 px2 lg-px0 h5">
-      <div id="i18n-mobile-toggle" class="center">
-        <a href="javascript:void(0)" class="block text-decoration-none white fs-13p" aria-expanded="false">
-          <img src="{{ site.baseurl }}/assets/img/globe-white.svg" width="12" height="12" class="mr1" alt="" aria-hidden="true">{% t global.language %}
-          <span class="caret inline-block ml-tiny" aria-hidden="true">&#9662;</span>
-        </a>
-      </div>
+<div class="sm-hide border-bottom border-blue">
+  <div class="container cntnr-wide py1 px2 lg-px0 h5">
+    <div id="i18n-mobile-toggle" class="center">
+      <a
+        href="javascript:void(0)"
+        class="block text-decoration-none white fs-13p"
+        aria-expanded="false"
+      >
+        <img
+          src="{{ site.baseurl }}/assets/img/globe-white.svg"
+          width="12"
+          height="12"
+          class="mr1"
+          alt=""
+          aria-hidden="true"
+        />{% t global.language %}
+        <span class="caret inline-block ml-tiny" aria-hidden="true"
+          >&#9662;</span
+        >
+      </a>
     </div>
   </div>
+</div>
 
-  <div id="i18n-mobile-dropdown" class="sm-hide">
-    <ul class="list-reset mb0 white center">
-      {% for locale in site.languages %}
-        {% capture name %}global.locales.{{ locale }}{% endcapture %}
-        <li class="border-bottom border-blue">
-          {% if locale == 'en' %}
-            <a href="{{ page.url | prepend: site.baseurl_root }}" class="block py-12p px2 text-decoration-none white fs-13p">{% t name %}</a>
-          {% elsif locale == site.lang %}
-            <a href="{{ page.url | relative_url  }}" class="block py-12p px2 text-decoration-none white fs-13p">{% t name %}</a>
-          {% else %}
-            <a href="{{ page.url | prepend: locale | prepend: '/' | prepend: site.baseurl_root }}" class="block py-12p px2 text-decoration-none white fs-13p">{% t name %}</a>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+<div id="i18n-mobile-dropdown" class="sm-hide">
+  <ul class="list-reset mb0 white center">
+    {% for locale in site.languages %} {% capture name %}global.locales.{{
+    locale }}{% endcapture %}
+    <li class="border-bottom border-blue">
+      {% if locale == 'en' %}
+      <a
+        href="{{ page.url | prepend: site.baseurl_root }}"
+        class="block py-12p px2 text-decoration-none white fs-13p"
+        >{% t name %}</a
+      >
+      {% elsif locale == site.lang %}
+      <a
+        href="{{ page.url | relative_url  }}"
+        class="block py-12p px2 text-decoration-none white fs-13p"
+        >{% t name %}</a
+      >
+      {% else %}
+      <a
+        href="{{ page.url | prepend: locale | prepend: '/' | prepend: site.baseurl_root }}"
+        class="block py-12p px2 text-decoration-none white fs-13p"
+        >{% t name %}</a
+      >
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 {% endif %}

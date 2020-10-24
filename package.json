@@ -28,6 +28,7 @@
   "keywords": [],
   "devDependencies": {
     "nodemon": "^1.15.1",
+    "prettier": "2.1.2",
     "sass": "^1.26.10"
   },
   "dependencies": {

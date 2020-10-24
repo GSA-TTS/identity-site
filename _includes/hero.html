@@ -1,8 +1,5 @@
-{% if include.col_class %}
-  {% assign col_class = include.col_class %}
-{% else %}
-  {% assign col_class = "sm-col-7" %}
-{% endif %}
+{% if include.col_class %} {% assign col_class = include.col_class %} {% else %}
+{% assign col_class = "sm-col-7" %} {% endif %}
 <div class="hero bg-navy {{ include.class }}">
   <div class="container xcntnr-wide xpx2 xpy3 xsm-py4 xclearfix">
     <div class="sm-col {{ col_class }}">

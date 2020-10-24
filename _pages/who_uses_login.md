@@ -7,11 +7,11 @@ image: /assets/img/login-gov-600x314.png
 ---
 
 {% capture heading %}
-  {% t who-uses-login-page.hero.heading %}
+{% t who-uses-login-page.hero.heading %}
 {% endcapture %}
 
 {% capture text %}
-  {% t who-uses-login-page.hero.text %}
+{% t who-uses-login-page.hero.text %}
 {% endcapture %}
 
 {% include hero.html class="who-uses-login" heading=heading text=text col_class="sm-col-6" %}
@@ -32,6 +32,7 @@ image: /assets/img/login-gov-600x314.png
 </div>
 
 {% capture banner_content %}
+
   <p><a class="learn-account-creation link" href="{{ site.baseurl }}/create-an-account">{% t banner.one-account-for-govt.learn %}</a></p>
 {% endcapture %}
 {% include one_account_banner.html content=banner_content %}

@@ -1,13 +1,14 @@
 .usa-alert {
-  font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto",
+    "Arial", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   background-color: #ebf3fa;
-  background-position: .75rem 1.25rem;
+  background-position: 0.75rem 1.25rem;
   background-repeat: no-repeat;
   background-size: 1.5rem;
   border-radius: 0.5rem;
-  padding: .75rem 1rem;
+  padding: 0.75rem 1rem;
   position: relative;
 }
 
@@ -16,8 +17,8 @@
   padding-top: 0;
 }
 .usa-alert__text:only-child {
-  margin-bottom: .5rem;
-  padding-top: .25rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.25rem;
 }
 .usa-alert__text {
   margin-bottom: 0;
@@ -25,26 +26,28 @@
 }
 
 .usa-alert__paragraph {
-    max-width: 66ch;
+  max-width: 66ch;
 }
 
 // alert-warning
 .usa-alert--warning {
-  background-image: url(../img/alerts/warning.svg),-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
-  background-image: url(../img/alerts/warning.svg),linear-gradient(transparent,transparent);
+  background-image: url(../img/alerts/warning.svg),
+    -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background-image: url(../img/alerts/warning.svg),
+    linear-gradient(transparent, transparent);
   background-color: #fffdd7;
 }
 
 // alert-info
 .usa-alert--info {
-  background-image: url(../img/alerts/info.svg),-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent));
-  background-image: url(../img/alerts/info.svg),linear-gradient(transparent,transparent);
+  background-image: url(../img/alerts/info.svg),
+    -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background-image: url(../img/alerts/info.svg),
+    linear-gradient(transparent, transparent);
   background-color: #ecfcff;
 }
 
-.usa-alert-warning 
-.usa-alert--info 
-.usa-alert__body {
+.usa-alert-warning .usa-alert--info .usa-alert__body {
   background-repeat: no-repeat;
   padding-left: 1.75rem;
 }

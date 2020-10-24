@@ -7,11 +7,11 @@ image: /assets/img/login-gov-600x314.png
 ---
 
 {% capture heading %}
-  {% t what-is-login-page.hero.heading %}
+{% t what-is-login-page.hero.heading %}
 {% endcapture %}
 
 {% capture text %}
-  {% t what-is-login-page.hero.text %}
+{% t what-is-login-page.hero.text %}
 {% endcapture %}
 
 {% include hero.html class="what-is-login" heading=heading text=text col_class="sm-col-6" %}

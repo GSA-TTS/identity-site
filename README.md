@@ -4,13 +4,13 @@ The static marketing site for login.gov
 
 ## Branches
 
-`master` branch is published at https://www.login.gov. 
+`master` branch is published at https://www.login.gov.
 
 Feature branches should be merged to `master` when they are ready through the normal code review process (have at least **one** person who is not the author Approve the PR).
 
 ## Publishing Workflow
 
-Branch off of `master` and make pull requests back to the `master` branch. Federalist will build a live preview for each branch  so we suggest using those builds as staging environments to run your proposed changes by the rest of the team.
+Branch off of `master` and make pull requests back to the `master` branch. Federalist will build a live preview for each branch so we suggest using those builds as staging environments to run your proposed changes by the rest of the team.
 
 To view the preview URL for your branch click the federalist link in your pull request or modify the following URL to include your branch name:
 
