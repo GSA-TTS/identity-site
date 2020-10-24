@@ -12,22 +12,6 @@ ul a {
   text-decoration: none;
 }
 
-.teal-dots {
-  li {
-    padding-left: 1rem;
-    text-indent: -1.3rem;
-
-    &::before {
-      color: $teal;
-      content: "•";
-      font-size: 2rem;
-      line-height: 1.5rem;
-      padding-right: 0.5rem;
-      vertical-align: -3px;
-    }
-  }
-}
-
 .list-arrow {
   a {
     background: url("../img/ico-arrow.svg") no-repeat right 6px;
