@@ -37,7 +37,8 @@ html {
     color: $white;
     margin-top: 1.5rem;
 
-    a, a:visited {
+    a,
+    a:visited {
       text-decoration: underline;
       color: $white;
     }
@@ -91,7 +92,7 @@ html {
   }
 
   &::after {
-    content: '';
+    content: "";
     display: inline-block;
     width: 0.7rem;
     height: 0.7rem;
@@ -100,7 +101,7 @@ html {
     margin-left: 0.5rem;
   }
 
-  &[aria-expanded=true] {
+  &[aria-expanded="true"] {
     &::after {
       background: url(../img/angle-arrow-up-white.svg) center/contain no-repeat;
     }
@@ -124,7 +125,7 @@ html {
   }
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .footer-gsa {
     padding: 1em;
     display: block;

@@ -1,5 +1,3 @@
-$desktop: '(min-width: 1024px)' !default;
-
 main {
   flex: 1 1 0;
   background: white;
@@ -28,7 +26,7 @@ section > .container {
     right: 0;
   }
 
-  .usa-search--small [type=submit],
+  .usa-search--small [type="submit"],
   .usa-search--small .usa-search__submit {
     width: auto;
     padding: 0 0.7rem;
@@ -63,7 +61,7 @@ section > .container {
   }
 }
 
-@media #{$desktop} {
+@include at-media("desktop") {
   div > .container,
   section > .container {
     padding-left: 1.5rem;
@@ -135,13 +133,12 @@ section > .container {
 
     &.create-an-account {
       > .container {
-      background-image: url(../img/create-an-account/header/create-account-illo-header@2x.png);
-      background-position-y: 2rem;
-      background-size: 55%;
+        background-image: url(../img/create-an-account/header/create-account-illo-header@2x.png);
+        background-position-y: 2rem;
+        background-size: 55%;
       }
     }
   }
-
 
   .usa-nav__primary {
     > .usa-nav__primary-item {
@@ -171,11 +168,12 @@ section > .container {
 }
 
 .looking-for-svc {
-  padding: .3rem 0 .3rem 2rem;
-  background: url(../img/speech-balloon/icon-speech-balloon.svg) center left no-repeat;
+  padding: 0.3rem 0 0.3rem 2rem;
+  background: url(../img/speech-balloon/icon-speech-balloon.svg) center left
+    no-repeat;
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   div > .container,
   section > .container {
     min-width: unset;

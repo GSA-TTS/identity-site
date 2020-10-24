@@ -36,7 +36,7 @@ header {
   margin: 0 0.7em;
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .covid {
     margin-top: 10px;
   }

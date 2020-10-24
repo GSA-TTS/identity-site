@@ -26,7 +26,7 @@
   }
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .create-an-account {
     .step {
       background: none;

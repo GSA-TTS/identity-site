@@ -13,11 +13,10 @@ $border-width: 1px !default;
 $border-color: #cedbec !default;
 $border-color-secondary: $blue-mid !default;
 
-$breakpoint-sm: "(min-width: 46em)" !default;
-$breakpoint-md: "(min-width: 52em)" !default;
-$breakpoint-lg: "(min-width: 64em)" !default;
-$breakpoint-lang: "(min-width: 736px) and (max-width: 775px)" !default;
-$breakpoint-menu: "(max-width: 1023px)" !default; //widths less than 1024px show the menu layover
+$breakpoint-sm: "(min-width: 480px)";
+$breakpoint-md: "(min-width: 800px)";
+$breakpoint-lg: "(min-width: 1024px)";
+$breakpoint-lang: "(min-width: 736px) and (max-width: 775px)";
 
 $icon-width: 0.8rem;
 

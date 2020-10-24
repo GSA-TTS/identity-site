@@ -51,7 +51,7 @@
   }
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .language-search {
     display: none;
   }
@@ -92,7 +92,7 @@
   }
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .sign-in-logo.usa-button.mobile {
     display: block;
     white-space: normal;
@@ -124,7 +124,7 @@
   }
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .usa-search {
     display: block;
     position: relative;
@@ -145,7 +145,7 @@
   }
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .mobile.language-list {
     display: block;
   }
@@ -215,7 +215,7 @@
   }
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .usa-nav__primary-item {
     + .usa-nav__primary-item {
       margin-left: 0;

@@ -1,6 +1,7 @@
 .container.who-uses-login {
   .partners {
-    background: url(../img/who-uses-login/who-uses-illo-partners/who-uses-illo-partners.svg) left center no-repeat;
+    background: url(../img/who-uses-login/who-uses-illo-partners/who-uses-illo-partners.svg)
+      left center no-repeat;
     padding: 3rem 0 3rem 40%;
   }
 
@@ -13,12 +14,14 @@
       flex-grow: 1;
 
       &:first-child {
-        background: url(../img/who-uses-login/icon-shield/icon-shield.svg) left top no-repeat;
+        background: url(../img/who-uses-login/icon-shield/icon-shield.svg) left
+          top no-repeat;
         padding: 0 0 0 3rem;
       }
 
       &:last-child {
-        background: url(../img/homepage/icon-partner/icon-partners.svg) 0.4rem -.5rem no-repeat;
+        background: url(../img/homepage/icon-partner/icon-partners.svg) 0.4rem -0.5rem
+          no-repeat;
         border-left: 1px solid darken($blue-lightest, 15%);
         margin-left: 0.25rem;
         padding: 0 0 0 4rem;
@@ -36,7 +39,7 @@
   margin-bottom: 5rem;
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .container.who-uses-login {
     h2 {
       margin-top: 0;
@@ -67,7 +70,8 @@
       display: block;
 
       &.partners-img {
-        background: url(../img/who-uses-login/who-uses-illo-partners/who-uses-illo-partners.png) center center/contain no-repeat;
+        background: url(../img/who-uses-login/who-uses-illo-partners/who-uses-illo-partners.png)
+          center center/contain no-repeat;
         height: 7rem;
         margin-top: 2rem;
       }
