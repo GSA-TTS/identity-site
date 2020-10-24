@@ -1,8 +1,5 @@
 import $ from "jquery";
 
-import "bootstrap/js/affix";
-import "bootstrap/js/scrollspy";
-
 require("identity-style-guide/dist/assets/js/main");
 
 var accordion = require("aria-accordion");
@@ -68,26 +65,6 @@ $(function () {
   $(".modal-bg").on("click touch", function (event) {
     $(".usa-menu-btn").click();
   });
-
-  // Affix
-
-  if ($("#pb-nav--side").length) {
-    $("#pb-nav--side").affix({
-      offset: {
-        top: $("#pb-nav--side").offset().top,
-      },
-    });
-
-    $(window).resize(function () {
-      $("#pb-nav--side")
-        .affix("checkPosition")
-        .width($("#pb-nav--side-cntnr").width());
-    });
-
-    $("#pb-nav--side").on("affixed.bs.affix", function () {
-      $("#pb-nav--side").width($("#pb-nav--side-cntnr").width());
-    });
-  }
 
   // Smooth scroll
 
