@@ -21,6 +21,8 @@ banner:
   covid:
     question: Does your agency have an urgent need related to COVID-19 response efforts?
     button: Contact login.gov partnerships
+  wip:
+    text: This site is for demo purposes only and is under continual development. Please visit our [offical site](site.baseurl) for current information.
 contact_page:
   content: |-
     ## Find help using login.gov
