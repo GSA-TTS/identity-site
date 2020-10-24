@@ -1,11 +1,11 @@
-$white: #fff !default;
-$gray: #5b616a !default;
-$black: #111 !default;
+$white: #fff;
+$gray: color("base");
+$black: color("base-darkest");
 
-$blue: $theme-color-primary; // #0071bb;
-$blue-light: #ebf3fa !default;
-$blue-lightest: #f2f9ff !default;
-$blue-mid: #1c5899;
-$navy: #112e51;
+$blue: color("primary");
+$blue-light: color("primary-lighter");
+$blue-lightest: color("primary-lightest");
+$blue-mid: color("primary-dark");
+$navy: color("primary-darker");
 
-$red: #e21c3d;
+$red: color("secondary");
