@@ -7,7 +7,7 @@ assets/js/build/bundle.js: assets/js/main.js
 	yarn run build-js
 
 jekyll: assets/stylesheets/main.css assets/js/build/bundle.js
-	bundle exec jekyll serve --watch
+	bundle exec jekyll serve --livereload
 
 npm-watch-js:
 	yarn run watch-js
