@@ -36,7 +36,6 @@
     "babel-loader": "^7.1.5",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-preset-es2015": "^6.14.0",
-    "bootstrap": "^3.4.0",
     "hint.css": "^2.5.0",
     "identity-style-guide": "^2.2.2",
     "jquery": "^3.5.1",
