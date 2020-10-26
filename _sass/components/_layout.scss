@@ -5,11 +5,7 @@ main {
 
 div > .container,
 section > .container {
-  min-width: 64rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0;
-  padding-right: 0;
+  @include grid-container($container-size);
 }
 
 .language-search .container {
@@ -64,8 +60,8 @@ section > .container {
 @include at-media("desktop") {
   div > .container,
   section > .container {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: $container-padding;
+    padding-right: $container-padding;
   }
 
   .usa-header--extended {
@@ -174,23 +170,9 @@ section > .container {
 }
 
 @include at-media-max("desktop") {
-  div > .container,
-  section > .container {
-    min-width: unset;
-    margin-left: unset;
-    margin-right: unset;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .usa-navbar.container {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .usa-banner__inner {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .hero {

@@ -26,7 +26,8 @@ header {
 }
 
 .covid-prompt {
-  margin: 0 0.7em;
+  margin: 0;
+  padding: 1rem $container-padding;
 }
 
 @include at-media-max("desktop") {
