@@ -1,6 +1,7 @@
 assets/js/build/bundle.js
 assets/stylesheets/build/main.css
 assets/stylesheets/main.css
+assets/stylesheets/main.css.map
 _site/
 .sass-cache/
 node_modules/
