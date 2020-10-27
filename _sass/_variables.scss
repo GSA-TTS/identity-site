@@ -24,4 +24,6 @@ $bold-font-weight: bold;
 $field-focus-color: $theme-color-disabled-dark;
 
 $container-size: "desktop-lg";
-$container-padding: 3.5rem;
+$max-width: units($container-size);
+$container-spacing: 3.5rem;
+$container-spacing-sm: 1.5rem;

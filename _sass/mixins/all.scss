@@ -11,3 +11,18 @@
   // Output standard non-prefixed declaration
   #{$property}: $value;
 }
+
+@mixin lg-grid($sm-padding: false) {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $max-width;
+  @if $sm-padding {
+    padding-left: $container-spacing-sm;
+    padding-right: $container-spacing-sm;
+  }
+
+  @include at-media("desktop-lg") {
+    padding-left: $container-spacing;
+    padding-right: $container-spacing;
+  }
+}
