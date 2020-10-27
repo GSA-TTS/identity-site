@@ -4,8 +4,9 @@ main {
 }
 
 div > .container,
-section > .container {
-  @include grid-container($container-size);
+section > .container,
+nav > .container {
+  @include lg-grid();
 }
 
 .language-search .container {
@@ -13,7 +14,17 @@ section > .container {
   justify-content: flex-end;
 }
 
+.usa-header--extended {
+  .usa-navbar {
+    @include lg-grid();
+  }
+}
+
 .usa-header .usa-nav {
+  .usa-nav__containter {
+    position: relative;
+  }
+
   .usa-nav__primary-item:first-child .usa-nav__link {
     padding-left: 0;
   }
@@ -58,35 +69,9 @@ section > .container {
 }
 
 @include at-media("desktop") {
-  div > .container,
-  section > .container {
-    padding-left: $container-padding;
-    padding-right: $container-padding;
-  }
-
-  .usa-header--extended {
-    .usa-navbar {
-      padding-left: 0;
-      padding-right: 0;
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
-    }
-
-    .usa-nav__inner {
-      // override package CSS rule
-      padding-left: 0 !important;
-      padding-right: 0;
-
-      &.container {
-        padding-left: 1.5rem !important;
-        padding-right: 1.5rem;
-      }
-    }
-  }
-
   .usa-header .usa-nav {
     .usa-search {
-      right: 1.5rem;
+      right: $container-spacing;
     }
   }
 
