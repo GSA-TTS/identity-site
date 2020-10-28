@@ -16,17 +16,18 @@ image: /assets/img/login-gov-600x314.png
 
 {% include hero.html class="who-uses-login" heading=heading text=text %}
 
-<div class="bg-lightest-blue">
+<div class="bg-primary-lightest">
   <div class="container who-uses-login">
-    <div class="partners bg-lightest-blue">
+    <div class="partners">
       {{ site.translations[site.lang]["who-uses-login-page"]["partners"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
   </div>
-  <div class="bg-white">
-    <div class="container who-uses-login">
-      <div class="security">
-        {{ site.translations[site.lang]["who-uses-login-page"]["security"] | replace: 'site.baseurl', site.baseurl | markdownify }}
-      </div>
+</div>
+
+<div class="bg-white">
+  <div class="container who-uses-login">
+    <div class="security">
+      {{ site.translations[site.lang]["who-uses-login-page"]["security"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
   </div>
 </div>

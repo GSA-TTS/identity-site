@@ -5,7 +5,9 @@ $sans-serif-font-family: "Public Sans", "Source Sans Pro", "Helvetica Neue",
 $monospace-font-family: "Public Sans", "Source Code Pro", Consolas, monospace !default;
 
 $base-font-size: 16px !default;
-$line-height: 1.875rem !default;
+$line-height: 1.875rem;
+$line-height-sm: 1.75rem;
+$base-letter-spacing: -0.11px;
 $base-font-color: $grey-darker;
 
 $link-text-decoration: underline !default;

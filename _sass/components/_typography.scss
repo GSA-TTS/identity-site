@@ -7,9 +7,7 @@ body {
 }
 
 article p {
-  line-height: $line-height;
-  color: $base-font-color;
-  letter-spacing: -0.11px;
+  @include para-style();
 }
 
 .monospace {

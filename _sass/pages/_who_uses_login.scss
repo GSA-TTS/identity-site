@@ -10,21 +10,22 @@
     padding: 3rem 0;
 
     > p {
+      @include para-style($size: "sm");
       flex-basis: 0;
       flex-grow: 1;
 
       &:first-child {
         background: url(../img/who-uses-login/icon-shield/icon-shield.svg) left
           top no-repeat;
-        padding: 0 0 0 3rem;
+        padding: 0 2rem 0 3rem;
       }
 
       &:last-child {
         background: url(../img/homepage/icon-partner/icon-partners.svg) 0.4rem -0.5rem
           no-repeat;
-        border-left: 1px solid darken($blue-lightest, 15%);
-        margin-left: 0.25rem;
-        padding: 0 0 0 4rem;
+        border-left: $border-style;
+        margin-left: -0.75rem;
+        padding: 0 2rem 0 4rem;
       }
     }
   }
@@ -49,12 +50,12 @@
     .partners {
       background: none;
       margin-bottom: 2rem;
-      padding: 0;
+      padding: 1rem;
     }
 
     .security {
       display: block;
-      padding: 2rem 0;
+      padding: 2rem 1rem;
 
       > p {
         &:last-child {
