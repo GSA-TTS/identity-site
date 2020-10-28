@@ -5,13 +5,15 @@ $sans-serif-font-family: "Public Sans", "Source Sans Pro", "Helvetica Neue",
 $monospace-font-family: "Public Sans", "Source Code Pro", Consolas, monospace !default;
 
 $base-font-size: 16px !default;
-$line-height: 1.5 !default;
+$line-height: 1.875rem !default;
+$base-font-color: $grey-darker;
 
 $link-text-decoration: underline !default;
 
 $border-width: 1px !default;
-$border-color: #cedbec !default;
+$border-color: $blue-light;
 $border-color-secondary: $blue-mid !default;
+$border-style: $border-width solid $border-color;
 
 $icon-width: 0.8rem;
 

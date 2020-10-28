@@ -6,7 +6,7 @@
   }
 
   .secure-account {
-    border-top: 1px solid darken($blue-lightest, 15%);
+    border-top: $border-style;
     background: url(../img/what-is-login/security/what-is-security.png) right
       center no-repeat;
     padding: 6rem 50% 6rem 0;
@@ -26,7 +26,7 @@
     }
 
     .secure-account {
-      border-top: 1px solid darken($blue-lightest, 15%);
+      border-top: $border-style;
       background: none;
       margin-bottom: 2rem;
       padding: 0;

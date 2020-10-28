@@ -9,6 +9,10 @@ nav > .container {
   @include lg-grid();
 }
 
+article.container {
+  @include lg-grid(true);
+}
+
 .language-search .container {
   display: flex;
   justify-content: flex-end;
@@ -54,6 +58,10 @@ nav > .container {
   a {
     color: $blue;
   }
+}
+
+.container > .intro {
+  border-bottom: $border-style;
 }
 
 .footer-gsa {
