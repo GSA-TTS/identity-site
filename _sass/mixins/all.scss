@@ -21,7 +21,7 @@
     padding-right: $container-spacing-sm;
   }
 
-  @include at-media("desktop-lg") {
+  @include at-media("desktop") {
     padding-left: $container-spacing;
     padding-right: $container-spacing;
   }
