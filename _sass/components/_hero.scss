@@ -47,18 +47,22 @@
     }
 
     &.who-uses-login {
+      background-image: url(../img/who-uses-login/who-uses-illo-header/who-uses-illo-header@2x.png);
+      background-position: right center;
+      background-size: 45%;
+      background-repeat: no-repeat;
       > .container {
-        background-image: url(../img/who-uses-login/who-uses-illo-header/who-uses-illo-header@2x.png);
-        background-position: right center;
-        background-size: 45%;
+        background-image: none;
       }
     }
 
     &.create-an-account {
+      background-image: url(../img/create-an-account/header/create-account-illo-header@2x.png);
+      background-position: 76% center;
+      background-size: 30%;
+      background-repeat: no-repeat;
       > .container {
-        background-image: url(../img/create-an-account/header/create-account-illo-header@2x.png);
-        background-position-y: 2rem;
-        background-size: 55%;
+        background-image: none;
       }
     }
   }
