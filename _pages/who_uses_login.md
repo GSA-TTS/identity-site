@@ -14,7 +14,7 @@ image: /assets/img/login-gov-600x314.png
 {% t who-uses-login-page.hero.text %}
 {% endcapture %}
 
-{% include hero.html class="who-uses-login" heading=heading text=text col_class="sm-col-6" %}
+{% include hero.html class="who-uses-login" heading=heading text=text %}
 
 <div class="bg-lightest-blue">
   <div class="container who-uses-login">

@@ -14,7 +14,7 @@ image: /assets/img/login-gov-600x314.png
 {% t create-an-account.hero.text %}
 {% endcapture %}
 
-{% include hero.html class="create-an-account" heading=heading text=text col_class="sm-col-6" %}
+{% include hero.html class="create-an-account" heading=heading text=text %}
 
 <div class="create-an-account bg-white grid-container-desktop-lg padding-top-9">
   <div class="grid-row">
