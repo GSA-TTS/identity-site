@@ -139,6 +139,13 @@ article.container {
   }
 }
 
+@include at-media("desktop-lg") {
+  .sidebar {
+    @include grid-col(3);
+    @include grid-offset(2);
+  }
+}
+
 .container {
   .hdr {
     padding: 0.5rem 0 0.5rem 2.75rem;

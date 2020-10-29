@@ -1,7 +1,8 @@
 .hero {
   background-color: $navy;
   color: $white;
-  padding: 1rem;
+  padding-top: $container-spacing-sm;
+  padding-bottom: $container-spacing-sm;
 
   @include at-media("desktop") {
     height: 20rem;
@@ -12,7 +13,7 @@
   .hero__title {
     font-size: 1.875rem; // 30px
     margin: 0;
-    padding-top: 1rem;
+    padding-top: $container-spacing-sm;
 
     @include at-media("desktop") {
       font-size: 2.5rem; // 40px

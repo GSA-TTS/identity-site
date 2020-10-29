@@ -1,5 +1,6 @@
 .create-an-account {
-  padding: $container-spacing 1rem;
+  padding-top: $container-spacing;
+  padding-bottom: $container-spacing;
 
   .step {
     background: none;
@@ -24,10 +25,8 @@
   }
 }
 
-@include at-media("desktop") {
+@include at-media("tablet") {
   .create-an-account {
-    padding: 2.25rem 1rem;
-
     .step {
       padding: 1rem 0 1rem 12rem;
       background-position: 2.5rem 3rem;
@@ -47,7 +46,4 @@
       display: none;
     }
   }
-}
-
-@include at-media-max("tablet") {
 }

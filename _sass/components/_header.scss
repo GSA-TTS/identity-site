@@ -2,6 +2,12 @@ header {
   .flex-auto {
     flex: 1 1 auto;
   }
+  &.intro {
+    border-bottom: $border-style;
+    > p {
+      margin-top: 0;
+    }
+  }
 }
 
 .covid-prompt {
