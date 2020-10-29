@@ -1,52 +1,53 @@
 .container.what-is-login {
   .one-account {
-    background: url(../img/what-is-login/one-account/what-is-one-account.png)
-      left center no-repeat;
-    padding: 3rem 0 3rem 50%;
+    background: none;
+    margin-bottom: 2rem;
+    padding: 0;
   }
 
   .secure-account {
     border-top: $border-style;
-    background: url(../img/what-is-login/security/what-is-security.png) right
-      center no-repeat;
-    padding: 6rem 50% 6rem 0;
+    background: none;
+    margin-bottom: 2rem;
+    padding: 0;
   }
 
   .mobile {
-    display: none;
+    display: block;
+
+    &.one-account-img {
+      background: url(../img/what-is-login/one-account/what-is-one-account.png)
+        center center/contain no-repeat;
+      height: 17rem;
+    }
+
+    &.secure-account-img {
+      background: url(../img/what-is-login/security/what-is-security.png) center
+        center/contain no-repeat;
+      height: 10rem;
+      margin-top: 2rem;
+    }
   }
 }
 
-@include at-media-max("desktop") {
+@include at-media("tablet") {
   .container.what-is-login {
     .one-account {
-      background: none;
-      margin-bottom: 2rem;
-      padding: 0;
+      background: url(../img/what-is-login/one-account/what-is-one-account.png)
+        left center no-repeat;
+      padding: 3rem 0 3rem 50%;
+      background-size: 45%;
     }
 
     .secure-account {
       border-top: $border-style;
-      background: none;
-      margin-bottom: 2rem;
-      padding: 0;
+      background: url(../img/what-is-login/security/what-is-security.png) right
+        center no-repeat;
+      padding: 6rem 50% 6rem 0;
     }
 
     .mobile {
-      display: block;
-
-      &.one-account-img {
-        background: url(../img/what-is-login/one-account/what-is-one-account.png)
-          center center/contain no-repeat;
-        height: 17rem;
-      }
-
-      &.secure-account-img {
-        background: url(../img/what-is-login/security/what-is-security.png)
-          center center/contain no-repeat;
-        height: 10rem;
-        margin-top: 2rem;
-      }
+      display: none;
     }
   }
 }
