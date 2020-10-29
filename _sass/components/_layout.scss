@@ -10,7 +10,7 @@ nav > .container {
 }
 
 article.container {
-  @include lg-grid(true);
+  @include lg-grid();
 }
 
 .language-search .container {
@@ -58,10 +58,6 @@ article.container {
   a {
     color: $blue;
   }
-}
-
-.container > .intro {
-  border-bottom: $border-style;
 }
 
 .footer-gsa {
