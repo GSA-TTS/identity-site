@@ -1,53 +1,53 @@
-.container.create-an-account {
-  > div {
-    padding: 8rem;
-    text-align: center;
-  }
-}
-
 .create-an-account {
+  padding: $container-spacing 1rem;
+
   .step {
-    padding: 1rem 0 1rem 12rem;
-    background-position: 2.5rem 3rem;
-    background-repeat: no-repeat;
+    background: none;
+    padding: 0;
   }
-  .step-1 {
-    background-image: url(../img/create-an-account/email/create-account-email.svg);
-  }
-  .step-2 {
-    background-image: url(../img/create-an-account/password/create-account-password.svg);
-    background-position: 0 2.5rem;
-  }
-  .step-3 {
-    background-image: url(../img/create-an-account/auth/create-account-auth.svg);
-  }
+
   .mobile {
-    display: none;
+    display: block;
+    height: 8rem;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &.step-1-img {
+      background-image: url(../img/create-an-account/email/create-account-email.svg);
+    }
+    &.step-2-img {
+      background-image: url(../img/create-an-account/password/create-account-password.svg);
+    }
+    &.step-3-img {
+      background-image: url(../img/create-an-account/auth/create-account-auth.svg);
+    }
   }
 }
 
-@include at-media-max("desktop") {
+@include at-media("desktop") {
   .create-an-account {
+    padding: 2.25rem 1rem;
+
     .step {
-      background: none;
-      padding: 0;
-    }
-
-    .mobile {
-      display: block;
-      height: 8rem;
-      background-position: center;
+      padding: 1rem 0 1rem 12rem;
+      background-position: 2.5rem 3rem;
       background-repeat: no-repeat;
-
-      &.step-1-img {
-        background-image: url(../img/create-an-account/email/create-account-email.svg);
-      }
-      &.step-2-img {
-        background-image: url(../img/create-an-account/password/create-account-password.svg);
-      }
-      &.step-3-img {
-        background-image: url(../img/create-an-account/auth/create-account-auth.svg);
-      }
+    }
+    .step-1 {
+      background-image: url(../img/create-an-account/email/create-account-email.svg);
+    }
+    .step-2 {
+      background-image: url(../img/create-an-account/password/create-account-password.svg);
+      background-position: 0 2.5rem;
+    }
+    .step-3 {
+      background-image: url(../img/create-an-account/auth/create-account-auth.svg);
+    }
+    .mobile {
+      display: none;
     }
   }
+}
+
+@include at-media-max("tablet") {
 }
