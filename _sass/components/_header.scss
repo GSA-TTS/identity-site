@@ -30,16 +30,6 @@ header {
   }
 }
 
-.covid-prompt {
-  margin: 0 0.7em;
-}
-
-@media #{$breakpoint-menu} {
-  .covid {
-    margin-top: 10px;
-  }
-}
-
 .create-account-btn-link {
   margin-top: 2em;
   display: none;
