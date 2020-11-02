@@ -66,5 +66,12 @@
         background-image: none;
       }
     }
+
+    &.bg-none {
+      height: 11.125rem;
+    }
+    > .container {
+      background-image: none;
+    }
   }
 }
