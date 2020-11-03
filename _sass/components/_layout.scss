@@ -45,33 +45,6 @@ article.container {
   }
 }
 
-.footer-nav {
-  background-image: none;
-  padding: 2em 0;
-
-  .navigation {
-    display: flex;
-    justify-content: flex-end;
-    background: url(../img/logo_sign_in.svg) top left no-repeat;
-  }
-
-  a {
-    color: $blue;
-  }
-}
-
-.footer-gsa {
-  padding: 2em 0;
-  display: block;
-
-  > .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
-
 @include at-media("desktop") {
   .usa-header .usa-nav {
     .usa-search {
@@ -116,13 +89,6 @@ article.container {
   .usa-navbar.container {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .footer {
-    .navigation {
-      display: block;
-      padding-top: 3rem;
-    }
   }
 
   .usa-header .usa-nav {

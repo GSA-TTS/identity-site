@@ -158,60 +158,6 @@
   padding: 0 0 1rem 0;
 }
 
-.footer-nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 2em 8em 2em 1em;
-  background: url(../img/logo_sign_in.svg) 8em 2em no-repeat;
-
-  .system-status {
-    display: flex;
-    align-items: center;
-    padding-top: 1em;
-
-    &::before {
-      content: "";
-      width: 1.75rem;
-      height: 1.75rem;
-      display: inline-block;
-      margin-right: 0.25rem;
-      color: $blue;
-      background: url(../img/system-status/icon-system-status.svg) left center
-        no-repeat;
-    }
-
-    a {
-      margin: 0;
-    }
-  }
-
-  .grid {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid $border-color;
-    flex-wrap: wrap;
-
-    h6 {
-      margin: 0 0 1em 0;
-    }
-
-    section {
-      margin-right: 3rem;
-
-      &:last-child {
-        margin-right: 0;
-      }
-    }
-  }
-
-  a {
-    text-decoration: none;
-    display: block;
-    margin: 0 0 1em 0;
-    white-space: nowrap;
-  }
-}
-
 @include at-media-max("desktop") {
   .usa-nav__primary-item {
     + .usa-nav__primary-item {
@@ -220,18 +166,6 @@
 
     span {
       padding: 0.2rem 0 0.2rem 1rem;
-    }
-  }
-
-  .footer-nav {
-    display: block;
-    background: none;
-    padding: 2em 1em;
-
-    .grid {
-      section {
-        margin-right: 1rem;
-      }
     }
   }
 }
