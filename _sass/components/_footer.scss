@@ -1,249 +1,218 @@
 .footer {
   a {
-    color: $white;
     text-decoration: underline;
   }
-}
-
-.footer-nav {
-  background-image: none;
-  padding: 2em 0;
-
-  .navigation {
-    display: flex;
-    justify-content: flex-end;
-    background: url(../img/logo_sign_in.svg) top left no-repeat;
-  }
-
-  a {
-    color: $blue;
-  }
-}
-
-.footer-gsa {
-  padding: 2em 0;
-  display: block;
-
-  > .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
-
-.footer-gsa {
-  padding: 2em 8em;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-
-  .learn-more-section-container {
-    display: none;
-  }
-
-  .learn-more-section {
-    display: flex;
-    justify-content: space-between;
-    color: $white;
-    margin-top: 1.5rem;
-
-    a,
-    a:visited {
-      text-decoration: underline;
-      color: $white;
-    }
-  }
-
-  .tts {
-    padding-right: 2rem;
-  }
-
-  .questions_addl_info {
-    padding: 1em;
-    background: $blue;
-    min-width: 23rem;
-
-    ul {
-      margin: 0;
-      padding-left: 1em;
-    }
-  }
-}
-
-.footer-usa-gov {
-  padding: 1em 0;
-  background-color: darken($navy, 7%);
-  color: $white;
-
-  .contact-usa-gov {
-    display: inline-block;
-    margin-left: 1rem;
-    text-decoration: none;
-    padding: 0.75rem;
-    width: unset;
-  }
-}
-
-.learn-more {
-  background-color: transparent;
-  color: $white;
-  box-shadow: inset 0 0 0 1px $white;
-  white-space: nowrap;
-  flex: 0;
-  width: auto;
-  margin: 1em 0;
-  padding: 0.75rem;
-  font-weight: normal;
-
-  &:hover {
-    background-color: transparent;
-    color: $white;
-    box-shadow: inset 0 0 0 1px $white;
-  }
-
-  &::after {
-    content: "";
-    display: inline-block;
-    width: 0.7rem;
-    height: 0.7rem;
-    background: url(../img/angle-arrow-down-white.svg) center/contain no-repeat;
-    margin-top: 0;
-    margin-left: 0.5rem;
-  }
-
-  &[aria-expanded="true"] {
-    &::after {
-      background: url(../img/angle-arrow-up-white.svg) center/contain no-repeat;
-    }
-  }
-}
-
-.product-mgmt-statement {
-  max-width: 37rem;
-  margin: 1em 0;
-  color: $white;
-  display: flex;
-
-  svg {
-    flex: none;
-    margin-right: 1em;
-  }
-
-  p {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@include at-media-max("desktop") {
-  .footer-gsa {
-    padding: 1em;
-    display: block;
-
-    .learn-more {
-      margin: 0 0 0 4rem;
-    }
-
-    .learn-more-section {
-      display: block;
-      margin-top: 1rem;
-
-      .tts {
-        padding-right: unset;
-      }
-
-      .questions_addl_info {
-        min-width: unset;
-      }
-    }
-  }
-
-  .footer-usa-gov {
-    padding: 1em;
-
-    .contact-usa-gov {
-      margin: 1rem 0 0 0;
-    }
-  }
-
-  .product-mgmt-statement {
-    margin-top: 0;
-  }
-}
-
-.footer-nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 2em 8em 2em 1em;
-  background: url(../img/logo_sign_in.svg) 8em 2em no-repeat;
-
-  .system-status {
-    display: flex;
-    align-items: center;
-    padding-top: 1em;
-
-    &::before {
-      content: "";
-      width: 1.75rem;
-      height: 1.75rem;
-      display: inline-block;
-      margin-right: 0.25rem;
-      color: $blue;
-      background: url(../img/system-status/icon-system-status.svg) left center
-        no-repeat;
-    }
+  .footer-nav {
+    background-color: $blue-lightest;
+    background-image: none;
+    padding: 2em 0;
 
     a {
-      margin: 0;
-    }
-  }
-
-  .grid {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid $border-color;
-    flex-wrap: wrap;
-
-    h6 {
+      text-decoration: none;
+      display: block;
       margin: 0 0 1em 0;
+      white-space: nowrap;
     }
 
-    section {
-      margin-right: 3rem;
-
-      &:last-child {
-        margin-right: 0;
-      }
-    }
-  }
-
-  a {
-    text-decoration: none;
-    display: block;
-    margin: 0 0 1em 0;
-    white-space: nowrap;
-  }
-}
-
-@include at-media-max("desktop") {
-  .footer {
     .navigation {
       display: block;
+      justify-content: flex-end;
       padding-top: 3rem;
-    }
-  }
+      background: url(../img/logo_sign_in.svg) top left no-repeat;
 
-  .footer-nav {
-    display: block;
-    background: none;
-    padding: 2em 1em;
+      @include at-media("desktop") {
+        display: flex;
+        background-position: 8rem 2rem;
+      }
+    }
 
     .grid {
-      section {
-        margin-right: 1rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid $border-color;
+      flex-wrap: wrap;
+    }
+
+    .grid section {
+      margin-right: 1rem;
+
+      @include at-media("desktop") {
+        margin-right: 3rem;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .grid section h6 {
+      margin: 0 0 1em 0;
+      font-size: $base-font-size;
+      color: $blue-mid;
+    }
+
+    .grid section a {
+      color: $blue;
+    }
+
+    .system-status {
+      display: flex;
+      align-items: center;
+      padding-top: 1em;
+
+      &::before {
+        content: "";
+        width: 1.75rem;
+        height: 1.75rem;
+        display: inline-block;
+        margin-right: 0.25rem;
+        color: $blue;
+        background: url(../img/system-status/icon-system-status.svg) left center
+          no-repeat;
+      }
+
+      .system-status a {
+        margin: 0;
       }
     }
   }
 }
+
+//   @include at-media("desktop") {
+//     .footer-nav {
+// .navigation{
+// display: flex;
+// justify-content: flex-end;
+// background: url(../img/logo_sign_in.svg) top left no-repeat;
+// }
+
+//       .grid {
+//         display: flex;
+//         justify-content: space-between;
+//         border-bottom: 1px solid $border-color;
+//         flex-wrap: wrap;
+
+//     }
+//   }
+// }
+
+// .footer-gsa {
+//   padding: 2em 0;
+//   display: block;
+
+//   > .container {
+//     display: flex;
+//     flex-wrap: wrap;
+//     align-items: center;
+//     justify-content: space-between;
+//   }
+
+//   .learn-more {
+//     background-color: transparent;
+//     color: $white;
+//     box-shadow: inset 0 0 0 1px $white;
+//     white-space: nowrap;
+//     flex: 0;
+//     width: auto;
+//     margin: 1em 0;
+//     padding: 0.75rem;
+//     font-weight: normal;
+
+//     &:hover {
+//       background-color: transparent;
+//       color: $white;
+//       box-shadow: inset 0 0 0 1px $white;
+//     }
+
+//     &::after {
+//       content: "";
+//       display: inline-block;
+//       width: 0.7rem;
+//       height: 0.7rem;
+//       background: url(../img/angle-arrow-down-white.svg) center/contain
+//         no-repeat;
+//       margin-top: 0;
+//       margin-left: 0.5rem;
+//     }
+
+//     &[aria-expanded="true"] {
+//       &::after {
+//         background: url(../img/angle-arrow-up-white.svg) center/contain
+//           no-repeat;
+//       }
+//     }
+//   }
+
+//   .product-mgmt-statement {
+//     max-width: 37rem;
+//     margin: 1em 0;
+//     color: $white;
+//     display: flex;
+
+//     svg {
+//       flex: none;
+//       margin-right: 1em;
+//     }
+
+//     p {
+//       margin: 0;
+//       padding: 0;
+//     }
+//   }
+
+//   @include at-media("desktop") {
+//     .footer-gsa {
+//       padding: 2em 8em;
+//       display: flex;
+//       flex-wrap: wrap;
+//       align-items: center;
+//       justify-content: space-between;
+
+//       .learn-more-section-container {
+//         display: none;
+//       }
+
+//       .learn-more-section {
+//         display: flex;
+//         justify-content: space-between;
+//         color: $white;
+//         margin-top: 1.5rem;
+
+//         a,
+//         a:visited {
+//           text-decoration: underline;
+//           color: $white;
+//         }
+//       }
+
+//       .tts {
+//         padding-right: 2rem;
+//       }
+
+//       .questions_addl_info {
+//         padding: 1em;
+//         background: $blue;
+//         min-width: 23rem;
+
+//         ul {
+//           margin: 0;
+//           padding-left: 1em;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// .footer-usa-gov {
+//   padding: 1em 0;
+//   background-color: darken($navy, 7%);
+//   color: $white;
+
+//   .contact-usa-gov {
+//     display: inline-block;
+//     margin-left: 1rem;
+//     text-decoration: none;
+//     padding: 0.75rem;
+//     width: unset;
+//   }
+// }
