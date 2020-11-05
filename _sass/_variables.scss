@@ -4,7 +4,8 @@ $sans-serif-font-family: "Public Sans", "Source Sans Pro", "Helvetica Neue",
   "Helvetica", "Roboto", "Arial", sans-serif !default;
 $monospace-font-family: "Public Sans", "Source Code Pro", Consolas, monospace !default;
 
-$base-font-size: 16px !default;
+$base-font-size: 16px;
+$base-font-sm: $base-font-size - 3;
 $line-height: 1.875rem;
 $line-height-sm: 1.75rem;
 $base-letter-spacing: -0.11px;

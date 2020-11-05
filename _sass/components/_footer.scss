@@ -15,14 +15,14 @@
     }
 
     .navigation {
+      background: url(../img/logo_sign_in.svg) top left no-repeat;
       display: block;
       justify-content: flex-end;
       padding-top: 3rem;
-      background: url(../img/logo_sign_in.svg) top left no-repeat;
 
-      @include at-media("desktop") {
+      @include at-media("tablet") {
         display: flex;
-        background-position: 8rem 2rem;
+        padding-top: 0;
       }
     }
 
@@ -36,7 +36,7 @@
     .grid section {
       margin-right: 1rem;
 
-      @include at-media("desktop") {
+      @include at-media("tablet") {
         margin-right: 3rem;
 
         &:last-child {
@@ -47,12 +47,13 @@
 
     .grid section h6 {
       margin: 0 0 1em 0;
-      font-size: $base-font-size;
+      font-size: $base-font-sm;
       color: $blue-mid;
     }
 
     .grid section a {
-      color: $blue;
+      color: $blue-mid;
+      font-size: $base-font-sm;
     }
 
     .system-status {
@@ -71,8 +72,10 @@
           no-repeat;
       }
 
-      .system-status a {
+      a {
         margin: 0;
+        font-size: $base-font-sm;
+        color: $blue-mid;
       }
     }
   }
