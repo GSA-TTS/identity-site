@@ -35,7 +35,7 @@ $(function () {
 
   languagePicker($(".btn-lang-toggle"), $(".btn-lang-toggle + .dropdown"));
   languagePicker(
-    $(".footer .learn-more"),
+    $(".footer .learn-more-button"),
     $(".footer .learn-more-section-container")
   );
 

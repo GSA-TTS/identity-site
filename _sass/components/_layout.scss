@@ -79,12 +79,6 @@ article.container {
   }
 }
 
-.looking-for-svc {
-  padding: 0.3rem 0 0.3rem 2rem;
-  background: url(../img/speech-balloon/icon-speech-balloon.svg) center left
-    no-repeat;
-}
-
 @include at-media-max("desktop") {
   .usa-navbar.container {
     padding-left: 0;

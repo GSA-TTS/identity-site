@@ -1,11 +1,25 @@
 .footer {
+  @include at-media("desktop") {
+    min-height: 17rem;
+  }
+
   a {
+    color: $white;
     text-decoration: underline;
   }
+
+  p {
+    $line-height: $line-height-md;
+  }
+
   .footer-nav {
     background-color: $blue-lightest;
     background-image: none;
     padding: 2em 0;
+
+    @include at-media("desktop") {
+      min-height: 17rem;
+    }
 
     a {
       text-decoration: none;
@@ -18,7 +32,7 @@
       background: url(../img/logo_sign_in.svg) top left no-repeat;
       display: block;
       justify-content: flex-end;
-      padding-top: 3rem;
+      padding-top: ($container-spacing-sm * 3);
 
       @include at-media("tablet") {
         display: flex;
@@ -59,7 +73,7 @@
     .system-status {
       display: flex;
       align-items: center;
-      padding-top: 1em;
+      padding-top: $container-spacing-sm;
 
       &::before {
         content: "";
@@ -79,143 +93,144 @@
       }
     }
   }
+
+  .footer-gsa {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 0;
+
+    @include at-media("tablet") {
+      display: block;
+      padding: 2em 8em;
+    }
+
+    > .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .learn-more-button {
+      background-color: transparent;
+      color: $white;
+      box-shadow: inset 0 0 0 1px $white;
+      white-space: nowrap;
+      flex: 0;
+      width: auto;
+      margin: 0 0 0 4rem;
+      padding: 0.75rem;
+      font-weight: normal;
+      outline: 0;
+
+      @include at-media("tablet") {
+        margin: 1em 0;
+      }
+
+      &:hover {
+        background-color: transparent;
+        color: $white;
+        box-shadow: inset 0 0 0 1px $white;
+      }
+
+      &::after {
+        content: "";
+        display: inline-block;
+        width: 0.7rem;
+        height: 0.7rem;
+        background: url(../img/angle-arrow-down-white.svg) center/contain
+          no-repeat;
+        margin-top: 0;
+        margin-left: 0.5rem;
+      }
+
+      &[aria-expanded="true"] {
+        &::after {
+          background: url(../img/angle-arrow-up-white.svg) center/contain
+            no-repeat;
+        }
+      }
+    }
+
+    .product-mgmt-statement {
+      max-width: 37rem;
+      margin: 1em 0;
+      color: $white;
+      display: flex;
+
+      svg {
+        flex: none;
+        margin-right: 1em;
+      }
+
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .learn-more-section-container {
+      display: none;
+
+      .learn-more-section {
+        display: block;
+        margin-top: 1rem;
+        color: $white;
+
+        @include at-media("tablet") {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 1.5rem;
+        }
+
+        a,
+        a:visited {
+          text-decoration: underline;
+          color: $white;
+        }
+      }
+
+      .tts {
+        @include at-media("tablet") {
+          padding-right: 2rem;
+        }
+      }
+
+      .questions_addl_info {
+        padding: $container-spacing-sm;
+        background: $blue;
+
+        @include at-media("tablet") {
+          min-width: $max-width-sm;
+        }
+
+        ul {
+          margin: 0;
+          padding-left: $container-spacing-sm;
+        }
+      }
+    }
+  }
+
+  .footer-usa-gov {
+    padding: 1em 0;
+    background-color: darken($navy, 7%);
+    color: $white;
+
+    .looking-for-svc {
+      padding: 0.3rem 0 0.3rem 2rem;
+      background: url(../img/speech-balloon/icon-speech-balloon.svg) center left
+        no-repeat;
+    }
+  }
+
+  .contact-usa-gov {
+    display: inline-block;
+    margin-left: 1rem;
+    text-decoration: none;
+    padding: 0.75rem;
+    width: unset;
+  }
 }
-
-//   @include at-media("desktop") {
-//     .footer-nav {
-// .navigation{
-// display: flex;
-// justify-content: flex-end;
-// background: url(../img/logo_sign_in.svg) top left no-repeat;
-// }
-
-//       .grid {
-//         display: flex;
-//         justify-content: space-between;
-//         border-bottom: 1px solid $border-color;
-//         flex-wrap: wrap;
-
-//     }
-//   }
-// }
-
-// .footer-gsa {
-//   padding: 2em 0;
-//   display: block;
-
-//   > .container {
-//     display: flex;
-//     flex-wrap: wrap;
-//     align-items: center;
-//     justify-content: space-between;
-//   }
-
-//   .learn-more {
-//     background-color: transparent;
-//     color: $white;
-//     box-shadow: inset 0 0 0 1px $white;
-//     white-space: nowrap;
-//     flex: 0;
-//     width: auto;
-//     margin: 1em 0;
-//     padding: 0.75rem;
-//     font-weight: normal;
-
-//     &:hover {
-//       background-color: transparent;
-//       color: $white;
-//       box-shadow: inset 0 0 0 1px $white;
-//     }
-
-//     &::after {
-//       content: "";
-//       display: inline-block;
-//       width: 0.7rem;
-//       height: 0.7rem;
-//       background: url(../img/angle-arrow-down-white.svg) center/contain
-//         no-repeat;
-//       margin-top: 0;
-//       margin-left: 0.5rem;
-//     }
-
-//     &[aria-expanded="true"] {
-//       &::after {
-//         background: url(../img/angle-arrow-up-white.svg) center/contain
-//           no-repeat;
-//       }
-//     }
-//   }
-
-//   .product-mgmt-statement {
-//     max-width: 37rem;
-//     margin: 1em 0;
-//     color: $white;
-//     display: flex;
-
-//     svg {
-//       flex: none;
-//       margin-right: 1em;
-//     }
-
-//     p {
-//       margin: 0;
-//       padding: 0;
-//     }
-//   }
-
-//   @include at-media("desktop") {
-//     .footer-gsa {
-//       padding: 2em 8em;
-//       display: flex;
-//       flex-wrap: wrap;
-//       align-items: center;
-//       justify-content: space-between;
-
-//       .learn-more-section-container {
-//         display: none;
-//       }
-
-//       .learn-more-section {
-//         display: flex;
-//         justify-content: space-between;
-//         color: $white;
-//         margin-top: 1.5rem;
-
-//         a,
-//         a:visited {
-//           text-decoration: underline;
-//           color: $white;
-//         }
-//       }
-
-//       .tts {
-//         padding-right: 2rem;
-//       }
-
-//       .questions_addl_info {
-//         padding: 1em;
-//         background: $blue;
-//         min-width: 23rem;
-
-//         ul {
-//           margin: 0;
-//           padding-left: 1em;
-//         }
-//       }
-//     }
-//   }
-// }
-
-// .footer-usa-gov {
-//   padding: 1em 0;
-//   background-color: darken($navy, 7%);
-//   color: $white;
-
-//   .contact-usa-gov {
-//     display: inline-block;
-//     margin-left: 1rem;
-//     text-decoration: none;
-//     padding: 0.75rem;
-//     width: unset;
-//   }
-// }

@@ -5,9 +5,10 @@ $sans-serif-font-family: "Public Sans", "Source Sans Pro", "Helvetica Neue",
 $monospace-font-family: "Public Sans", "Source Code Pro", Consolas, monospace !default;
 
 $base-font-size: 16px;
-$base-font-sm: $base-font-size - 3;
+$base-font-sm: ($base-font-size - 3);
 $line-height: 1.875rem;
 $line-height-sm: 1.75rem;
+$line-height-md: 1.375rem;
 $base-letter-spacing: -0.11px;
 $base-font-color: $grey-darker;
 
@@ -29,6 +30,7 @@ $field-focus-color: $theme-color-disabled-dark;
 
 $container-size: "desktop-lg";
 $max-width: units($container-size);
+$max-width-sm: 368px; // used in footer .questions_addl_info
 $max-width-custom: ($max-width - 7); // 1168px
 $container-spacing: 3.5rem;
 $container-spacing-sm: 1rem;
