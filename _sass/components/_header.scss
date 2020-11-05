@@ -10,17 +10,6 @@ header {
   }
 }
 
-.covid-prompt {
-  margin: 0;
-  padding: 1rem $container-spacing;
-}
-
-@include at-media-max("desktop") {
-  .covid {
-    margin-top: 10px;
-  }
-}
-
 .create-account-btn-link {
   margin-top: 2em;
   display: none;

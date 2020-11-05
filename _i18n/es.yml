@@ -18,9 +18,6 @@ banner:
     gov_description: Los sitios web del gobierno federal a menudo terminan en .gov o .mil. Antes de compartir información confidencial, asegúrese de estar en un sitio del gobierno federal.
     secure_heading: El sitio es seguro.
     secure_description: "El <strong>https://</strong> garantiza que se está conectando al sitio web oficial y que toda la información que proporciona está encriptada y transmitida de forma segura."
-  covid:
-    question: ¿Tiene su agencia una necesidad urgente relacionada con los esfuerzos de respuesta de COVID-19?
-    button: Contacto login.gov sociedades
 contact_page:
   content: |-
     Estamos experimentando un tráfico extremadamente alto debido al lanzamiento del programa Trusted Traveler hoy. Gracias por su paciencia mientras trabajamos para mejorar el rendimiento de nuestro sistema.
