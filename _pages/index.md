@@ -15,7 +15,7 @@ image: /assets/img/login-gov-600x314.png
 
 {% include hero.html heading=heading text=text %}
 
-<article class="container bg-white why-login-gov">
+<article class="container why-login-gov">
   <header class="intro">{{ site.translations[site.lang]["index"]["why"]["heading"] | replace: 'site.baseurl', site.baseurl | markdownify }}</header>
   <div class="grid-row">
     <div class="tablet:grid-col">

@@ -16,7 +16,7 @@ image: /assets/img/login-gov-600x314.png
 
 {% include hero.html class="what-is-login" heading=heading text=text %}
 
-  <article class="container bg-white what-is-login">
+  <article class="container what-is-login">
     <div class="one-account">
       {{ site.translations[site.lang]["what-is-login-page"]["one-account"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>

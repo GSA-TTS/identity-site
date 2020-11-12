@@ -16,7 +16,7 @@ image: /assets/img/login-gov-600x314.png
 
 {% include hero.html class="create-an-account" heading=heading text=text %}
 
-<div class="create-an-account bg-white">
+<div class="create-an-account">
   <div class="container">
     <div class="grid-row">
       <article class="desktop:grid-col-7">
