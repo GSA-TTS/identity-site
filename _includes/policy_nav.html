@@ -5,10 +5,7 @@
     active_class = '' %} {% if section_index == page.index %} {% assign
     active_class = 'active' %} {% endif %}
     <li class="border-bottom nav-sidenav-item {{ active_class }}">
-      <a
-        href="{{ section.link.url | prepend: site.baseurl }}"
-        class="p2 block h6"
-      >
+      <a href="{{ section.link.url | prepend: site.baseurl }}">
         {{ section.link.text }}
       </a>
       {% if section.sublinks and section.show_sublinks and section_index ==
@@ -16,9 +13,7 @@
       <ul>
         {% for sublink in section.sublinks %}
         <li class="usa-sidenav__item">
-          <a href="{{ sublink.url }}" class="p2 block h6">
-            {{ sublink.text }}
-          </a>
+          <a href="{{ sublink.url }}"> {{ sublink.text }} </a>
         </li>
         {% endfor %}
       </ul>

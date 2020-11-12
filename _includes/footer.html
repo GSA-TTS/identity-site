@@ -9,23 +9,29 @@
             <section>
               <!-- replace with uls -->
               <h6>{% t nav.groups.agencies %}</h6>
-              <a class="h6" target="_blank" href="https://partners.login.gov"
+              <a
+                class="font-xs"
+                target="_blank"
+                href="https://partners.login.gov"
                 >{% t nav.become_a_partner %}</a
               >
-              <a class="h6" target="_blank" href="https://developers.login.gov"
+              <a
+                class="font-xs"
+                target="_blank"
+                href="https://developers.login.gov"
                 >{% t nav.developer_guide %}</a
               >
             </section>
             <section>
               <h6>{% t nav.groups.learn %}</h6>
-              <a class="h6" href="{{ site.baseurl }}/about/"
+              <a class="font-xs" href="{{ site.baseurl }}/about/"
                 >{% t nav.about_us %}</a
               >
-              <a class="h6" href="{{ site.baseurl }}/policy/"
+              <a class="font-xs" href="{{ site.baseurl }}/policy/"
                 >{% t nav.privacy_&_security %}</a
               >
               <a
-                class="h6"
+                class="font-xs"
                 target="_blank"
                 href="https://design.login.gov/accessibility"
                 >{% t nav.accessibility %}</a
@@ -33,10 +39,10 @@
             </section>
             <section>
               <h6>{% t nav.groups.support %}</h6>
-              <a class="h6" href="{{ site.baseurl }}/help/"
+              <a class="font-xs" href="{{ site.baseurl }}/help/"
                 >{% t nav.help_center %}</a
               >
-              <a class="h6" href="{{ site.baseurl }}/contact/"
+              <a class="font-xs" href="{{ site.baseurl }}/contact/"
                 >{% t nav.contact_us %}</a
               >
             </section>
@@ -54,10 +60,9 @@
   <div class="footer-gsa">
     <div class="container">
       <div class="product-mgmt-statement">
-        {% include svg/gsa-logo.svg %}
-        {{ site.translations[site.lang]["index"]["footer"]["org"] 
-           | replace:'site.baseurl', site.baseurl
-           | markdownify }}
+        {% include svg/gsa-logo.svg %} {{
+        site.translations[site.lang]["index"]["footer"]["org"] |
+        replace:'site.baseurl', site.baseurl | markdownify }}
       </div>
       <button class="usa-button usa-button--outline learn-more-button">
         {% t index.footer.learn_more %}

@@ -24,7 +24,7 @@ image: /assets/img/login-gov-600x314.png
   </div>
 </div>
 
-<div class="bg-white">
+<div>
   <div class="container who-uses-login">
     <div class="security">
       {{ site.translations[site.lang]["who-uses-login-page"]["security"] | replace: 'site.baseurl', site.baseurl | markdownify }}
