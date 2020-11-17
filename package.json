@@ -41,7 +41,7 @@
     "jquery": "^3.5.1",
     "node-sass": "^4.13.1",
     "normalize.css": "^4.2.0",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^5.1.1",
+    "webpack-cli": "^4.0.0"
   }
 }
