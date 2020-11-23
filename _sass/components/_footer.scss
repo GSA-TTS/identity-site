@@ -1,68 +1,230 @@
-// 1. Avoid the IE 10-11 `min-height` bug.
-// 2. Set `flex-shrink` to `0` to prevent some browsers from
-//    letting these items shrink to smaller than their content's default
-//    minimum size. See http://bit.ly/1Mn35US for details.
-// 3. Use `%` instead of `vh` since `vh` is buggy in older mobile Safari.
-html {
-  height: 100%;
-}
-
-.site {
-  display: flex;
-  flex-direction: column;
-  height: 100%; // 1, 3
-}
-
 .footer {
+  @include at-media("desktop") {
+    min-height: 17rem;
+  }
+
   a {
     color: $white;
     text-decoration: underline;
   }
-}
 
-.footer-gsa {
-  padding: 2em 8em;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-
-  .learn-more-section-container {
-    display: none;
+  p {
+    $line-height: $line-height-md;
   }
 
-  .learn-more-section {
+  .footer-nav {
+    background-color: $blue-lightest;
+    background-image: none;
+    padding: 2em 0;
+
+    @include at-media("desktop") {
+      min-height: 17rem;
+    }
+
+    a {
+      text-decoration: none;
+      display: block;
+      margin: 0 0 1em 0;
+      white-space: nowrap;
+    }
+
+    .navigation {
+      background: url(../img/logo_sign_in.svg) top left no-repeat;
+      display: block;
+      justify-content: flex-end;
+      padding-top: ($container-spacing-sm * 3);
+
+      @include at-media("tablet") {
+        display: flex;
+        padding-top: 0;
+      }
+    }
+
+    .grid {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid $border-color;
+      flex-wrap: wrap;
+    }
+
+    .grid section {
+      margin-right: 1rem;
+
+      @include at-media("tablet") {
+        margin-right: 3rem;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .grid section h6 {
+      margin: 0 0 1em 0;
+      font-size: $base-font-sm;
+      color: $blue-mid;
+    }
+
+    .grid section a {
+      color: $blue-mid;
+      font-size: $base-font-sm;
+    }
+
+    .system-status {
+      display: flex;
+      align-items: center;
+      padding-top: $container-spacing-sm;
+
+      &::before {
+        content: "";
+        width: 1.75rem;
+        height: 1.75rem;
+        display: inline-block;
+        margin-right: 0.25rem;
+        color: $blue;
+        background: url(../img/system-status/icon-system-status.svg) left center
+          no-repeat;
+      }
+
+      a {
+        margin: 0;
+        font-size: $base-font-sm;
+        color: $blue-mid;
+      }
+    }
+  }
+
+  .footer-gsa {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
-    color: $white;
-    margin-top: 1.5rem;
+    padding: 2em 0;
 
-    a, a:visited {
-      text-decoration: underline;
+    @include at-media("tablet") {
+      display: block;
+      padding: 2em 8em;
+    }
+
+    > .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .learn-more-button {
+      background-color: transparent;
       color: $white;
+      box-shadow: inset 0 0 0 1px $white;
+      white-space: nowrap;
+      flex: 0;
+      width: auto;
+      margin: 0 0 0 4rem;
+      padding: 0.75rem;
+      font-weight: normal;
+      outline: 0;
+
+      @include at-media("tablet") {
+        margin: 1em 0;
+      }
+
+      &:hover {
+        background-color: transparent;
+        color: $white;
+        box-shadow: inset 0 0 0 1px $white;
+      }
+
+      &::after {
+        content: "";
+        display: inline-block;
+        width: 0.7rem;
+        height: 0.7rem;
+        background: url(../img/angle-arrow-down-white.svg) center/contain
+          no-repeat;
+        margin-top: 0;
+        margin-left: 0.5rem;
+      }
+
+      &[aria-expanded="true"] {
+        &::after {
+          background: url(../img/angle-arrow-up-white.svg) center/contain
+            no-repeat;
+        }
+      }
+    }
+
+    .product-mgmt-statement {
+      max-width: 37rem;
+      margin: 1em 0;
+      color: $white;
+      display: flex;
+
+      svg {
+        flex: none;
+        margin-right: 1em;
+      }
+
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .learn-more-section-container {
+      display: none;
+
+      .learn-more-section {
+        display: block;
+        margin-top: 1rem;
+        color: $white;
+
+        @include at-media("tablet") {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 1.5rem;
+        }
+
+        a,
+        a:visited {
+          text-decoration: underline;
+          color: $white;
+        }
+      }
+
+      .tts {
+        @include at-media("tablet") {
+          padding-right: 2rem;
+        }
+      }
+
+      .questions_addl_info {
+        padding: $container-spacing-sm;
+        background: $blue;
+
+        @include at-media("tablet") {
+          min-width: $max-width-sm;
+        }
+
+        ul {
+          margin: 0;
+          padding-left: $container-spacing-sm;
+        }
+      }
     }
   }
 
-  .tts {
-    padding-right: 2rem;
-  }
+  .footer-usa-gov {
+    padding: 1em 0;
+    background-color: darken($navy, 7%);
+    color: $white;
 
-  .questions_addl_info {
-    padding: 1em;
-    background: $blue;
-    min-width: 23rem;
-
-    ul {
-      margin: 0;
-      padding-left: 1em;
+    .looking-for-svc {
+      padding: 0.3rem 0 0.3rem 2rem;
+      background: url(../img/speech-balloon/icon-speech-balloon.svg) center left
+        no-repeat;
     }
   }
-}
-
-.footer-usa-gov {
-  padding: 1em 0;
-  background-color: darken($navy, 7%);
-  color: $white;
 
   .contact-usa-gov {
     display: inline-block;
@@ -70,92 +232,5 @@ html {
     text-decoration: none;
     padding: 0.75rem;
     width: unset;
-  }
-}
-
-.learn-more {
-  background-color: transparent;
-  color: $white;
-  box-shadow: inset 0 0 0 1px $white;
-  white-space: nowrap;
-  flex: 0;
-  width: auto;
-  margin: 1em 0;
-  padding: 0.75rem;
-  font-weight: normal;
-
-  &:hover {
-    background-color: transparent;
-    color: $white;
-    box-shadow: inset 0 0 0 1px $white;
-  }
-
-  &::after {
-    content: '';
-    display: inline-block;
-    width: 0.7rem;
-    height: 0.7rem;
-    background: url(../img/angle-arrow-down-white.svg) center/contain no-repeat;
-    margin-top: 0;
-    margin-left: 0.5rem;
-  }
-
-  &[aria-expanded=true] {
-    &::after {
-      background: url(../img/angle-arrow-up-white.svg) center/contain no-repeat;
-    }
-  }
-}
-
-.product-mgmt-statement {
-  max-width: 37rem;
-  margin: 1em 0;
-  color: $white;
-  display: flex;
-
-  svg {
-    flex: none;
-    margin-right: 1em;
-  }
-
-  p {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media #{$breakpoint-menu} {
-  .footer-gsa {
-    padding: 1em;
-    display: block;
-
-    .learn-more {
-      margin: 0 0 0 4rem;
-    }
-
-    .learn-more-section {
-      display: block;
-      margin-top: 1rem;
-
-      .tts {
-        padding-right: unset;
-      }
-
-      .questions_addl_info {
-        min-width: unset;
-      }
-    }
-  }
-
-  .footer-usa-gov {
-    padding: 1em;
-
-    .contact-usa-gov {
-      margin: 1rem 0 0 0;
-    }
-  }
-
-  .product-mgmt-statement {
-    margin-top: 0;
   }
 }

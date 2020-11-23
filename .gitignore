@@ -12,3 +12,4 @@ node_modules/
 .DS_Store
 .jekyll-cache
 .snyk
+assets/stylesheets/main.css.map

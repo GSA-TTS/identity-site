@@ -1,10 +1,11 @@
-.one-account-for-govt {
-  margin: 1rem 0;
+.tagline-content {
+  @include lg-grid(false, true);
+  background-color: $navy;
+  margin-bottom: ($container-spacing * 2);
+  display: none;
+}
 
-  @include at-media-max('tablet') {
-    display: none;
-  }
-
+@include at-media("tablet") {
   .tagline-content {
     display: flex;
     flex-direction: column;
@@ -21,7 +22,6 @@
       color: white;
       font-size: 1.35rem;
       font-weight: bold;
-      margin-bottom: 1.2rem;
     }
 
     .link {

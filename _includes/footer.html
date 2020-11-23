@@ -1,28 +1,57 @@
-<footer class="footer bg-navy">
-  <div class="footer-nav bg-lightest-blue">
+<footer class="footer">
+  <div class="footer-nav">
     <div class="container">
+      <!-- apply to .footer-nav -->
       <div class="navigation">
         <nav>
           <div class="grid">
+            <!-- apply to nav -->
             <section>
+              <!-- replace with uls -->
               <h6>{% t nav.groups.agencies %}</h6>
-              <a class="h6" target="_blank" href="https://partners.login.gov">{% t nav.become_a_partner %}</a>
-              <a class="h6" target="_blank" href="https://developers.login.gov">{% t nav.developer_guide %}</a>
+              <a
+                class="font-xs"
+                target="_blank"
+                href="https://partners.login.gov"
+                >{% t nav.become_a_partner %}</a
+              >
+              <a
+                class="font-xs"
+                target="_blank"
+                href="https://developers.login.gov"
+                >{% t nav.developer_guide %}</a
+              >
             </section>
             <section>
               <h6>{% t nav.groups.learn %}</h6>
-              <a class="h6" href="{{ site.baseurl }}/about/">{% t nav.about_us %}</a>
-              <a class="h6" href="{{ site.baseurl }}/policy/">{% t nav.privacy_&_security %}</a>
-              <a class="h6" target="_blank" href="https://design.login.gov/accessibility">{% t nav.accessibility %}</a>
+              <a class="font-xs" href="{{ site.baseurl }}/about/"
+                >{% t nav.about_us %}</a
+              >
+              <a class="font-xs" href="{{ site.baseurl }}/policy/"
+                >{% t nav.privacy_&_security %}</a
+              >
+              <a
+                class="font-xs"
+                target="_blank"
+                href="https://design.login.gov/accessibility"
+                >{% t nav.accessibility %}</a
+              >
             </section>
             <section>
               <h6>{% t nav.groups.support %}</h6>
-              <a class="h6" href="{{ site.baseurl }}/help/">{% t nav.help_center %}</a>
-              <a class="h6" href="{{ site.baseurl }}/contact/">{% t nav.contact_us %}</a>
+              <a class="font-xs" href="{{ site.baseurl }}/help/"
+                >{% t nav.help_center %}</a
+              >
+              <a class="font-xs" href="{{ site.baseurl }}/contact/"
+                >{% t nav.contact_us %}</a
+              >
             </section>
           </div>
           <div class="system-status">
-            <a class="small-text" target="_blank" href="https://logingov.statuspage.io">{% t nav.system_status %}</a>
+            <!-- replace with section footer -->
+            <a class="" target="_blank" href="https://logingov.statuspage.io"
+              >{% t nav.system_status %}</a
+            >
           </div>
         </nav>
       </div>
@@ -31,26 +60,74 @@
   <div class="footer-gsa">
     <div class="container">
       <div class="product-mgmt-statement">
-        {% include svg/gsa-logo.svg %}
-        {{ site.translations[site.lang]["index"]["footer"]["org"] | replace: 'site.baseurl', site.baseurl | markdownify }}
+        {% include svg/gsa-logo.svg %} {{
+        site.translations[site.lang]["index"]["footer"]["org"] |
+        replace:'site.baseurl', site.baseurl | markdownify }}
       </div>
-      <button class="usa-button usa-button--outline learn-more">{% t index.footer.learn_more %}</button>
+      <button class="usa-button usa-button--outline learn-more-button">
+        {% t index.footer.learn_more %}
+      </button>
       <div class="learn-more-section-container">
         <div class="learn-more-section">
           <section class="tts">
-            <p>{% t index.footer.tts.about %} <a target="_blank" href="https://www.gsa.gov/tts">{% t actions.read_more %}</a></p>
-            <p>{% t index.footer.tts.portfolio %} <a target="_blank" href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions">{% t actions.read_more %}</a></p>
+            <p>
+              {% t index.footer.tts.about %}
+              <a target="_blank" href="https://www.gsa.gov/tts"
+                >{% t actions.read_more %}</a
+              >
+            </p>
+            <p>
+              {% t index.footer.tts.portfolio %}
+              <a
+                target="_blank"
+                href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions"
+                >{% t actions.read_more %}</a
+              >
+            </p>
           </section>
           <section class="questions_addl_info">
             <p>{% t index.footer.for_questions %}</p>
-            <p>{% t index.footer.additional_info %} <a target="_blank" href="https://www.gsa.gov/about">https://www.gsa.gov/about</a></p>
+            <p>
+              {% t index.footer.additional_info %}
+              <a target="_blank" href="https://www.gsa.gov/about"
+                >https://www.gsa.gov/about</a
+              >
+            </p>
             <nav>
               <ul>
-                <li><a target="_blank" href="https://www.gsaig.gov/">{% t index.footer.links.report_fraud %}</a></li>
-                <li><a target="_blank" href="https://www.gsa.gov/reference/freedom-of-information-act-foia">{% t index.footer.links.foia %}</a></li>
-                <li><a target="_blank" href="https://www.gsa.gov/reference/reports/budget-performance">{% t index.footer.links.budget %}</a></li>
-                <li><a target="_blank" href="https://www.gsa.gov/website-information/accessibility-aids">{% t index.footer.links.accessibility %}</a></li>
-                <li><a target="_blank" href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002">{% t index.footer.links.no_fear_act %}</a></li>
+                <li>
+                  <a target="_blank" href="https://www.gsaig.gov/"
+                    >{% t index.footer.links.report_fraud %}</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.gsa.gov/reference/freedom-of-information-act-foia"
+                    >{% t index.footer.links.foia %}</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.gsa.gov/reference/reports/budget-performance"
+                    >{% t index.footer.links.budget %}</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.gsa.gov/website-information/accessibility-aids"
+                    >{% t index.footer.links.accessibility %}</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002"
+                    >{% t index.footer.links.no_fear_act %}</a
+                  >
+                </li>
               </ul>
             </nav>
           </section>
@@ -60,7 +137,15 @@
   </div>
   <div class="footer-usa-gov">
     <div class="container">
-      <span class="looking-for-svc">Looking for U.S. government and services?</span> <a class="contact-usa-gov usa-button" target="_blank" href="https://www.usa.gov/contact?ref=Digital.gov">{% t nav.contact_usa_gov %}</a>
+      <span class="looking-for-svc"
+        >Looking for U.S. government and services?</span
+      >
+      <a
+        class="contact-usa-gov usa-button"
+        target="_blank"
+        href="https://www.usa.gov/contact?ref=Digital.gov"
+        >{% t nav.contact_usa_gov %}</a
+      >
     </div>
   </div>
 </footer>

@@ -1,17 +1,16 @@
-$desktop: '(min-width: 1024px)' !default;
-
 main {
   flex: 1 1 0;
   background: white;
 }
 
 div > .container,
-section > .container {
-  min-width: 64rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0;
-  padding-right: 0;
+section > .container,
+nav > .container {
+  @include lg-grid();
+}
+
+article.container {
+  @include lg-grid();
 }
 
 .language-search .container {
@@ -19,7 +18,17 @@ section > .container {
   justify-content: flex-end;
 }
 
+.usa-header--extended {
+  .usa-navbar {
+    @include lg-grid();
+  }
+}
+
 .usa-header .usa-nav {
+  .usa-nav__containter {
+    position: relative;
+  }
+
   .usa-nav__primary-item:first-child .usa-nav__link {
     padding-left: 0;
   }
@@ -28,7 +37,7 @@ section > .container {
     right: 0;
   }
 
-  .usa-search--small [type=submit],
+  .usa-search--small [type="submit"],
   .usa-search--small .usa-search__submit {
     width: auto;
     padding: 0 0.7rem;
@@ -36,112 +45,12 @@ section > .container {
   }
 }
 
-.footer-nav {
-  background-image: none;
-  padding: 2em 0;
-
-  .navigation {
-    display: flex;
-    justify-content: flex-end;
-    background: url(../img/logo_sign_in.svg) top left no-repeat;
-  }
-
-  a {
-    color: $blue;
-  }
-}
-
-.footer-gsa {
-  padding: 2em 0;
-  display: block;
-
-  > .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
-
-@media #{$desktop} {
-  div > .container,
-  section > .container {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  .usa-header--extended {
-    .usa-navbar {
-      padding-left: 0;
-      padding-right: 0;
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
-    }
-
-    .usa-nav__inner {
-      // override package CSS rule
-      padding-left: 0 !important;
-      padding-right: 0;
-
-      &.container {
-        padding-left: 1.5rem !important;
-        padding-right: 1.5rem;
-      }
-    }
-  }
-
+@include at-media("desktop") {
   .usa-header .usa-nav {
     .usa-search {
-      right: 1.5rem;
+      right: $container-spacing;
     }
   }
-
-  .hero {
-    background-image: none;
-    height: 20rem;
-
-    .sm-col {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    > .container {
-      height: 100%;
-      background-image: url(../img/header@2x.png);
-      background-position: 100% 50%;
-      background-repeat: no-repeat;
-      background-size: 650px;
-    }
-
-    &.what-is-login {
-      > .container {
-        background-image: url(../img/what-is-login/header/what-is-illo-header@2x.png);
-        background-position-y: 2rem;
-        background-size: 50%;
-      }
-    }
-
-    &.who-uses-login {
-      background-image: url(../img/who-uses-login/who-uses-illo-header/who-uses-illo-header@2x.png);
-      background-position: right center;
-      background-size: 45%;
-
-      > .container {
-        background-image: none;
-      }
-    }
-
-    &.create-an-account {
-      > .container {
-      background-image: url(../img/create-an-account/header/create-account-illo-header@2x.png);
-      background-position-y: 2rem;
-      background-size: 55%;
-      }
-    }
-  }
-
 
   .usa-nav__primary {
     > .usa-nav__primary-item {
@@ -170,40 +79,10 @@ section > .container {
   }
 }
 
-.looking-for-svc {
-  padding: .3rem 0 .3rem 2rem;
-  background: url(../img/speech-balloon/icon-speech-balloon.svg) center left no-repeat;
-}
-
-@media #{$breakpoint-menu} {
-  div > .container,
-  section > .container {
-    min-width: unset;
-    margin-left: unset;
-    margin-right: unset;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
+@include at-media-max("desktop") {
   .usa-navbar.container {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .usa-banner__inner {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .hero {
-    padding: 2rem 0;
-  }
-
-  .footer {
-    .navigation {
-      display: block;
-      padding-top: 3rem;
-    }
   }
 
   .usa-header .usa-nav {
@@ -217,6 +96,13 @@ section > .container {
   .looking-for-svc {
     display: block;
     font-size: 95%;
+  }
+}
+
+@include at-media("desktop-lg") {
+  .sidebar {
+    @include grid-col(3);
+    @include grid-offset(2);
   }
 }
 

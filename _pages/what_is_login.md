@@ -7,22 +7,20 @@ image: /assets/img/login-gov-600x314.png
 ---
 
 {% capture heading %}
-  {% t what-is-login-page.hero.heading %}
+{% t what-is-login-page.hero.heading %}
 {% endcapture %}
 
 {% capture text %}
-  {% t what-is-login-page.hero.text %}
+{% t what-is-login-page.hero.text %}
 {% endcapture %}
 
-{% include hero.html class="what-is-login" heading=heading text=text col_class="sm-col-6" %}
+{% include hero.html class="what-is-login" heading=heading text=text %}
 
-<div class="bg-white">
-  <div class="container what-is-login">
+  <article class="container what-is-login">
     <div class="one-account">
       {{ site.translations[site.lang]["what-is-login-page"]["one-account"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
     <div class="secure-account">
       {{ site.translations[site.lang]["what-is-login-page"]["secure-account"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
-  </div>
-</div>
+  </article>

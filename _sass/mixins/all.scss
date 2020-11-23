@@ -11,3 +11,33 @@
   // Output standard non-prefixed declaration
   #{$property}: $value;
 }
+
+@mixin lg-grid($sm-padding: true, $custom: false) {
+  margin-left: auto;
+  margin-right: auto;
+  @if $custom == false {
+    max-width: $max-width;
+  } @else {
+    max-width: $max-width-custom;
+  }
+
+  @if $sm-padding {
+    padding-left: $container-spacing-sm;
+    padding-right: $container-spacing-sm;
+
+    @include at-media("desktop") {
+      padding-left: $container-spacing;
+      padding-right: $container-spacing;
+    }
+  }
+}
+
+@mixin para-style($size: "md") {
+  @if $size == "sm" {
+    line-height: $line-height-sm;
+  } @else {
+    line-height: $line-height;
+  }
+  color: $base-font-color;
+  letter-spacing: $base-letter-spacing;
+}

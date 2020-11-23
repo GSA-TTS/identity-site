@@ -1,13 +1,10 @@
-{% if include.col_class %}
-  {% assign col_class = include.col_class %}
-{% else %}
-  {% assign col_class = "sm-col-7" %}
-{% endif %}
-<div class="hero bg-navy {{ include.class }}">
-  <div class="container xcntnr-wide xpx2 xpy3 xsm-py4 xclearfix">
-    <div class="sm-col {{ col_class }}">
-      <h1 class="mt0 mb2 white">{{ include.heading }}</h1>
-      <p class="m0 white fs-20p">{{ include.text }}</p>
+<section class="hero {{ include.class }}">
+  <div class="container">
+    <div
+      class="display-flex flex-column flex-justify-center height-full tablet:grid-col-6"
+    >
+      <h1 class="hero__title">{{ include.heading }}</h1>
+      <p class="hero__desc">{{ include.text }}</p>
     </div>
   </div>
-</div>
+</section>

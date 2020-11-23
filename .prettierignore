@@ -1,0 +1,6 @@
+# Ignore all YAML files:
+*.yml
+
+# Ignore artifacts:
+build
+coverage

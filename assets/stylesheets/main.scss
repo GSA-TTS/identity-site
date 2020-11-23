@@ -1,18 +1,16 @@
 @charset "UTF-8";
 
-@import 'fonts';
-@import 'colors';
-@import 'variables';
-@import 'vendor';
+@import "identity-style-guide/dist/assets/scss/styles";
+@import "fonts";
+@import "colors";
+@import "variables";
 
-@import 'mixins/all';
-@import 'identity-style-guide/dist/assets/scss/styles';
-@import 'components/all';
+@import "mixins/all";
+@import "components/all";
 
-@import 'pages/home';
-@import 'pages/what_is_login';
-@import 'pages/who_uses_login';
-@import 'pages/create_an_account';
-@import 'pages/playbook';
-@import 'pages/not_found';
-@import 'pages/policy';
+@import "pages/home";
+@import "pages/what_is_login";
+@import "pages/who_uses_login";
+@import "pages/create_an_account";
+@import "pages/not_found";
+@import "pages/policy";

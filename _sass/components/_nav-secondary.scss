@@ -36,7 +36,9 @@
     &:active {
       text-decoration: none;
 
-      li { text-decoration: underline; }
+      li {
+        text-decoration: underline;
+      }
     }
   }
 }

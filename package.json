@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "login.gov static site",
   "scripts": {
-    "build-css": "npx sass --no-source-map --style=compressed --load-path node_modules --load-path _sass assets/stylesheets/main.scss assets/stylesheets/main.css",
+    "build-css": "npx sass --style=compressed --load-path node_modules --load-path _sass assets/stylesheets/main.scss assets/stylesheets/main.css",
     "build-js": "webpack --config webpack.config.js --progress --colors",
     "copy-main": "cp assets/stylesheets/main.css _site/assets/stylesheets",
     "federalist": "npm run build-css && npm run build-js",
@@ -20,7 +20,7 @@
     "url": "https://github.com/18F/identity-site/issues"
   },
   "engines": {
-    "node": "12.x.x",
+    "node": ">=12.x.x",
     "yarn": "1.x.x"
   },
   "homepage": "https://github.com/18F/identity-site#readme",
@@ -28,6 +28,7 @@
   "keywords": [],
   "devDependencies": {
     "nodemon": "^1.15.1",
+    "prettier": "2.1.2",
     "sass": "^1.26.10"
   },
   "dependencies": {
@@ -36,8 +37,6 @@
     "babel-loader": "^7.1.5",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-preset-es2015": "^6.14.0",
-    "basscss-sass": "^3.0.0",
-    "bootstrap": "^3.4.0",
     "hint.css": "^2.5.0",
     "identity-style-guide": "^2.2.2",
     "jquery": "^3.5.1",

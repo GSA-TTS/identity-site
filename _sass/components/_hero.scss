@@ -1,0 +1,74 @@
+.hero {
+  background-color: $navy;
+  color: $white;
+  padding-top: $container-spacing-sm;
+  padding-bottom: $container-spacing-sm;
+
+  @include at-media("desktop") {
+    height: 20rem;
+    padding: 0;
+  }
+
+  h1,
+  .hero__title {
+    font-size: 1.875rem; // 30px
+    margin: 0;
+    padding-top: $container-spacing-sm;
+
+    @include at-media("desktop") {
+      font-size: 2.5rem; // 40px
+    }
+  }
+
+  .hero__desc {
+    font-size: 1.125rem; // 18px
+
+    @include at-media("desktop") {
+      font-size: 1.25rem; // 20px
+    }
+  }
+}
+
+@include at-media("desktop") {
+  .hero {
+    > .container {
+      height: 100%;
+      background-image: url(../img/header@2x.png);
+      background-position: 100% 50%;
+      background-repeat: no-repeat;
+      background-size: 650px;
+    }
+
+    &.what-is-login {
+      > .container {
+        background-image: url(../img/what-is-login/header/what-is-illo-header@2x.png);
+        background-position-y: 2rem;
+        background-size: 50%;
+      }
+    }
+
+    &.who-uses-login {
+      background-image: url(../img/who-uses-login/who-uses-illo-header/who-uses-illo-header@2x.png);
+      background-position: right center;
+      background-size: 45%;
+      background-repeat: no-repeat;
+      > .container {
+        background-image: none;
+      }
+    }
+
+    &.create-an-account {
+      background-image: url(../img/create-an-account/header/create-account-illo-header@2x.png);
+      background-position: 76% center;
+      background-size: 30%;
+      background-repeat: no-repeat;
+      > .container {
+        background-image: none;
+      }
+    }
+
+    &.bg-none {
+      height: 11.125rem;
+    }
+  }
+}

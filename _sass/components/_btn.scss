@@ -1,96 +1,8 @@
-@media #{$breakpoint-sm} {
-  .btn { font-size: $button-font-size-sm; }
-}
-
-%btn-basic {
-  background: transparent;
-  border: 0;
-  box-shadow: none;
-  color: $blue;
-  font-size: $base-font-size;
-  font-weight: normal;
-  line-height: $line-height;
-  outline: none;
-  padding: 0;
-}
-
-.btn-primary {
-  border-radius: $border-radius-lg;
-}
-
-.btn-inverse {
-  background: $white;
-  color: $blue;
-}
-
-.btn-wide {
-  box-sizing: border-box;
-  min-width: 220px;
-  text-align: center;
-}
-
-.btn-transparent {
-  @include prefix(appearance, none, webkit ms);
-  background: transparent;
-  border: 0;
-  box-shadow: none;
-  cursor: pointer;
-  font-size: $base-font-size;
-  font-weight: normal;
-  line-height: $line-height;
-
-  &.border-bottom {
-    @extend .border-bottom;
-  }
-
-  &.border-top {
-    @extend .border-top;
-  }
-}
-
-.btn-link {
-  @extend %btn-basic;
-  text-decoration: underline;
-  vertical-align: baseline;
-
-  &:active,
-  &:focus,
-  &:hover {
-    border: 0;
-    box-shadow: none;
-    text-decoration: underline;
-  }
-}
-
-.btn-border {
-  border-color: $border-color;
-  border-radius: $border-radius-lg;
-  border-style: solid;
-  border-width: $border-width;
-  box-sizing: border-box;
-  display: inline-block;
-  padding: $space-1 $space-2;
-
-  &.is-focused {
-    border-color: $field-focus-color;
-    box-shadow: 0 0 0 2px rgba($field-focus-color, .5);
-    outline: none;
-  }
-}
-
-.btn-outline {
-  &:hover,
-  &:focus,
-  &:active {
-    box-shadow: 0 0 8px 0 $navy;
-  }
-}
-
 .btn-lang-toggle {
   display: flex;
   align-items: center;
   padding: 0.75em;
-  box-shadow: inset 0 0 0 1px darken($blue-lightest, 15%);
+  box-shadow: inset 0 0 0 1px $blue-light;
   width: 8.4rem;
   font-weight: normal;
 
@@ -105,17 +17,19 @@
   }
 
   &::after {
-    content: '';
+    content: "";
     display: inline-block;
     width: 0.7rem;
     height: 0.7rem;
-    background: url(../img/angle-arrow-down-primary.svg) center/contain no-repeat;
+    background: url(../img/angle-arrow-down-primary.svg) center/contain
+      no-repeat;
     margin-top: 0.25rem;
   }
 
-  &[aria-expanded=true] {
+  &[aria-expanded="true"] {
     &::after {
-      background: url(../img/angle-arrow-up-primary.svg) center/contain no-repeat;
+      background: url(../img/angle-arrow-up-primary.svg) center/contain
+        no-repeat;
     }
   }
 
@@ -130,7 +44,7 @@
   }
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .btn-lang-toggle.mobile {
     display: flex;
   }

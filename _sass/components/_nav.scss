@@ -1,10 +1,7 @@
 .language-search {
   background-color: $blue-lightest;
-  padding: .5rem 0;
-  border-bottom: 1px solid darken($blue-lightest, 15%);
-  display:flex;
-  align-items:center;
-  justify-content: flex-end;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid $border-color;
 
   .usa-button--outline {
     background-color: transparent;
@@ -16,7 +13,7 @@
 
   .dropdown {
     position: absolute;
-    border: 1px solid darken($blue-lightest, 15%);
+    border: 1px solid $border-color;
     border-radius: 0.25rem;
     width: 8.4rem;
     list-style-type: none;
@@ -33,7 +30,7 @@
     }
 
     li + li {
-      border-top: 1px solid darken($blue-lightest, 15%);
+      border-top: 1px solid $border-color;
     }
   }
 
@@ -51,7 +48,7 @@
   }
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .language-search {
     display: none;
   }
@@ -60,7 +57,7 @@
 .sign-in-logo.usa-button {
   color: $black;
   font-weight: bold;
-  margin: 0 0 0 .2rem;
+  margin: 0 0 0 0.2rem;
 
   &.mobile {
     margin: 1em 0 0 0;
@@ -76,7 +73,6 @@
   margin-left: 0.2rem;
   box-shadow: inset 0 0 0 1px #bbb;
 
-
   &:hover {
     background-color: $white;
   }
@@ -88,12 +84,12 @@
     display: inline-block;
     width: 6rem;
     position: relative;
-    top: .125rem;
-    margin-left: .25rem;
+    top: 0.125rem;
+    margin-left: 0.25rem;
   }
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .sign-in-logo.usa-button.mobile {
     display: block;
     white-space: normal;
@@ -118,14 +114,14 @@
   right: 1.75rem;
   bottom: 1rem;
 
-  [type=search] {
+  [type="search"] {
     height: 2rem;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .usa-search {
     display: block;
     position: relative;
@@ -146,79 +142,9 @@
   }
 }
 
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .mobile.language-list {
     display: block;
-  }
-}
-
-.logo {
-  line-height: 14px;
-
-  img { height: 14px; }
-}
-
-.lang-es {
-  header nav {
-    .lang-nav-item {
-      margin-right: $space-2;
-    }
-  }
-}
-
-.lang-fr {
-  header nav {
-    .lang-nav-item {
-      margin-right: $space-1;
-    }
-  }
-}
-
-@media #{$breakpoint-sm} {
-  .logo {
-    line-height: 17px;
-
-    img { height: 17px; }
-  }
-}
-
-@media #{$breakpoint-md} {
-  .lang-es {
-    header nav {
-      .lang-nav-item {
-        margin-right: $space-3;
-      }
-    }
-  }
-
-  .lang-fr {
-    header nav {
-      .lang-nav-item {
-        margin-right: $space-2;
-      }
-    }
-  }
-}
-
-@media #{$breakpoint-lg}{
-  .lang-fr {
-    header nav {
-      .lang-nav-item {
-        margin-right: $space-3;
-      }
-    }
-  }
-}
-
-@media #{$breakpoint-lang}{
-  header nav {
-    &.es-nav {
-      font-size: $sm-lang;
-    }
-
-    &.fr-nav {
-      font-size: $sm-lang;
-    }
   }
 }
 
@@ -232,79 +158,14 @@
   padding: 0 0 1rem 0;
 }
 
-.footer-nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 2em 8em 2em 1em;
-  background: url(../img/logo_sign_in.svg) 8em 2em no-repeat;
-
-  .system-status {
-    display: flex;
-    align-items: center;
-    padding-top: 1em;
-
-    &::before {
-      content: '';
-      width: 1.75rem;
-      height: 1.75rem;
-      display: inline-block;
-      margin-right: 0.25rem;
-      color: $blue;
-      background: url(../img/system-status/icon-system-status.svg) left center no-repeat;
-    }
-
-    a {
-      margin: 0;
-    }
-  }
-
-  .grid {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid darken($blue-lightest, 15%);
-    flex-wrap: wrap;
-
-    h6 {
-      margin: 0 0 1em 0;
-    }
-
-    section {
-      margin-right: 3rem;
-
-      &:last-child {
-        margin-right: 0;
-      }
-    }
-  }
-
-  a {
-    text-decoration: none;
-    display: block;
-    margin: 0 0 1em 0;
-    white-space: nowrap;
-  }
-}
-
-@media #{$breakpoint-menu} {
+@include at-media-max("desktop") {
   .usa-nav__primary-item {
     + .usa-nav__primary-item {
       margin-left: 0;
     }
 
     span {
-      padding: .2rem 0 .2rem 1rem;
-    }
-  }
-
-  .footer-nav {
-    display: block;
-    background: none;
-    padding: 2em 1em;
-
-    .grid {
-      section {
-        margin-right: 1rem;
-      }
+      padding: 0.2rem 0 0.2rem 1rem;
     }
   }
 }
@@ -312,7 +173,7 @@
 .temp-wip {
   padding: 2rem;
   text-align: center;
-  background-color: red;
+  background-color: $red;
   color: $white;
 
   a {
