@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
   <head>
-    {% include meta.html %} 
-    {% include styles.html %} 
-    {% include google_analytics.html %} 
+    {% include meta.html %}
+    {% include styles.html %}
+    {% include google_analytics.html %}
     {% include google_recaptcha.html %}
   </head>
-  <body
-    class="{{ layout.class }} {{ page.class }} site lang-{{ site.lang }}"
-    data-spy="scroll"
-    data-target="#pb-nav--side-cntnr"
-    data-offset="48"
-  >
+  <body class="{{ layout.class }} {{ page.class }} site lang-{{ site.lang }}" data-spy="scroll" data-target="#pb-nav--side-cntnr" data-offset="48">
     <header>
-      {% include skip_nav.html %} 
-      {% include banner.html %} 
-      {% include language_search.html %} 
+      <div class="temp-wip">This site is for demo purposes only and is under continual development. Please visit
+        <a href="https://www.login.gov" target="_blank">our official website</a>
+        for current information.
+      </div>
+      {% include skip_nav.html %}
+      {% include banner.html %}
+      {% include language_search.html %}
       {% include header.html %}
     </header>
     <main id="main-content">{{ content }}</main>
     {% include footer.html %}
   </body>
-  {% include dap.html %} 
+  {% include dap.html %}
   {% include scripts.html %}
 </html>
