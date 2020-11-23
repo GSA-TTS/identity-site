@@ -1,0 +1,20 @@
+<nav class="sm-col-right sm-col-4 sm-show">
+  <ul class="list-reset pt2">
+    {% for question in related_questions %}
+      {% if question.url == page.url %}
+        {% assign _index = forloop.index | modulo:7 %}
+        {% if _index == 0 %}
+          {% assign _index = 1 %}
+        {% endif %}
+      {% endif %}
+      <a class="block h6 nav-sidenav-item {% if question.url == page.url %}active{% endif %}" href="{{ question.url | prepend: site.baseurl }}">
+        <li class="p2 {% unless forloop.last %}border-bottom{% endunless %}">
+          {% assign url_size = question.url | size | minus: 1 %}
+          {% assign page_title = question.url | replace: "/", "." | slice: 1, url_size %}
+          {% capture page_title %}{% t page_title %}{% endcapture %}
+          {{ page_title | markdownify }}
+        </li>
+      </a>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,36 @@
+<div class="sm-hide bg-blue-lightest">
+  <nav class="bg-blue-lightest px0">
+    <ul class="js-accordion p0 m0 list-reset">
+    {% for subpage in site.help_pages %}
+      <li>
+        {% assign subpage_slug = subpage | slugify %}
+        {% assign related_questions = site.help | where_exp: "item", "item.url contains subpage_slug" | sort: 'order' %}
+        {% capture is_initially_expanded %}{% if page.url contains subpage_slug %}true{% else %}false{% endif %}{% endcapture %}
+        {% capture is_initially_hidden %}{% if page.url contains subpage_slug %}false{% else %}true{% endif %}{% endcapture %}
+        <button class="btn-transparent border-bottom {% if forloop.first %}border-top{% endif %} flex flex-center w-100pc left-align p2" aria-expanded="{{ is_initially_expanded }}">
+          <span class="w-100pc">{{ site["translations"][site.lang]["help_subpages"][subpage] }}</span>
+          <span class="svg-wrapper svg-gray">{% include svg/carat-down.svg %}</span>
+        </button>
+
+        <div aria-hidden="{{ is_initially_hidden }}" class="border-bottom">
+          <ul class="list-style-none py0 px2 my0">
+            {% for question in related_questions %}
+              {% if question.url == page.url %}
+                {% assign _index = forloop.index | modulo:7 %}
+              {% endif %}
+              <a class="h5 no-hover-decoration" href="{{ question.url | prepend: site.baseurl }}">
+                <li class="py1 px2 nav-sidenav-item{% if question.url == page.url %} active{% endif %}">
+                  {% assign url_size = question.url | size | minus: 1 %}
+                  {% assign page_title = question.url | replace: "/", "." | slice: 1, url_size %}
+                  {% capture page_title %}{% t page_title %}{% endcapture %}
+                  {{ page_title | markdownify }}
+                </li>
+              </a>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+    {% endfor %}
+    </ul>
+  </nav>
+</div>
