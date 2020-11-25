@@ -1150,19 +1150,19 @@ index:
     heading: |-
       ## Login.gov is for you
     developers: |-
-      <h4 class="hdr developers">Agency developers</h4>
+      <h3 class="hdr developers">Agency developers</h3>
 
       Developer resources, real-time support and modern tools to help you implement and deploy your application with login.gov
 
       [See developer guide](https://developers.login.gov){:class="why-more-info" :target="_blank"}
     individuals: |-
-      <h4 class="hdr individuals">Individuals</h4>
+      <h3 class="hdr individuals">Individuals</h3>
 
       Use one account for secure, private access to participating government agencies.
 
       [Learn about login.gov](site.baseurl/what-is-login/){:class="why-more-info"}
     partners: |-
-      <h4 class="hdr partners">Agency partners</h4>
+      <h3 class="hdr partners">Agency partners</h3>
 
       Protect your users' information with the highest standards of digital security and user experience.  Login.gov handles software development, security operations, and customer support so you don't have to.
 
