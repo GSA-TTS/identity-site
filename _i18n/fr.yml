@@ -1185,12 +1185,6 @@ index:
   why:
     heading: |-
       ## Login.gov est fait pour vous
-    developers: |-
-      ### Développeurs d'agence
-
-      Ressources de développement, support en temps réel et outils modernes pour vous aider à implémenter et déployer votre application avec login.gov
-
-      [Voir le guide du développeur](https://developers.login.gov){:class="why-more-info" :target="_blank"}
     individuals: |-
       ### Personnes
 
@@ -1203,6 +1197,12 @@ index:
       Protégez les informations de vos utilisateurs avec les plus hauts standards de sécurité numérique et d'expérience utilisateur. Login.gov gère le développement de logiciels, les opérations de sécurité et le support client pour que vous n'ayez pas à le faire.
 
       [Devenir un partenaire](https://partners.login.gov){:class="why-more-info" :target="_blank"}
+    developers: |-
+      ### Développeurs d'agence
+
+      Ressources de développement, support en temps réel et outils modernes pour vous aider à implémenter et déployer votre application avec login.gov
+
+      [Voir le guide du développeur](https://developers.login.gov){:class="why-more-info" :target="_blank"}
 meta:
   about:
     description: Plus d'informations sur login.gov
