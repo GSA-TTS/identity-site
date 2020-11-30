@@ -4,11 +4,6 @@
   padding-top: $container-spacing-sm;
   padding-bottom: $container-spacing-sm;
 
-  @include at-media("desktop") {
-    height: 20rem;
-    padding: 0;
-  }
-
   h1,
   .hero__title {
     font-size: 1.875rem; // 30px
@@ -29,8 +24,20 @@
   }
 }
 
+.hero--search {
+  height: 14rem;
+  
+  h1 {
+    padding-top: 0;
+    padding-bottom: ($container-spacing-sm * 2);
+  }
+}
+
 @include at-media("desktop") {
   .hero {
+    height: 20rem;
+    padding: 0;
+
     > .container {
       height: 100%;
       background-image: url(../img/header@2x.png);
@@ -69,6 +76,14 @@
 
     &.bg-none {
       height: 11.125rem;
+    }
+  }
+
+  .hero--search {
+    height: 17.625rem;
+    
+    > .container {
+      background-image: none;
     }
   }
 }

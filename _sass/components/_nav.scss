@@ -109,7 +109,7 @@
   }
 }
 
-.usa-search {
+nav .usa-search {
   position: absolute;
   right: 1.75rem;
   bottom: 1rem;
@@ -118,16 +118,6 @@
     height: 2rem;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-  }
-}
-
-@include at-media-max("desktop") {
-  .usa-search {
-    display: block;
-    position: relative;
-    right: unset;
-    bottom: unset;
-    margin-top: 1em;
   }
 }
 
@@ -148,18 +138,20 @@
   }
 }
 
-.usa-nav__primary-item + .usa-nav__primary-item {
-  margin-left: 1.5rem;
-}
+nav {
+  .usa-nav__primary-item + .usa-nav__primary-item {
+    margin-left: 1.5rem;
+  }
 
-.usa-nav__link span {
-  text-transform: none;
-  display: inline-block;
-  padding: 0 0 1rem 0;
+  .usa-nav__link span {
+    text-transform: none;
+    display: inline-block;
+    padding: 0 0 1rem 0;
+  }
 }
 
 @include at-media-max("desktop") {
-  .usa-nav__primary-item {
+  nav .usa-nav__primary-item {
     + .usa-nav__primary-item {
       margin-left: 0;
     }
