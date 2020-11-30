@@ -46,6 +46,41 @@
     position: relative !important;
     top: 0 !important;
   }
+
+  .contact-link {
+    font-size: 0.813rem;
+    font-weight: bold;
+    color: $blue-mid;
+    text-decoration: none;
+  }
+}
+
+.usa-logo {
+  .help-page & {
+    margin: 0;
+  }
+}
+
+.usa-logo a {
+  .help-page & {
+    vertical-align: middle;
+  }
+}
+
+.usa-logo span {
+  font-size: 1.313rem;
+}
+
+.usa-logo__help {
+  font-size: 0.813rem;
+  font-weight: bold;
+  color: $navy;
+}
+
+.usa-logo__img {
+  .help-page & {
+    height: 0.875rem;
+  }
 }
 
 @include at-media-max("desktop") {
