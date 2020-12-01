@@ -1140,24 +1140,24 @@ index:
   why:
     heading: |-
       ## Login.gov es para ti
-    developers: |-
-      #### Desarrolladores de agencias
-
-      Recursos para desarrolladores, soporte en tiempo real y herramientas modernas para ayudarlo a implementar e implementar su aplicación con login.gov
-
-      [Ver guía para desarrolladores](https://developers.login.gov){:class="why-more-info" :target="_blank"}
     individuals: |-
-      #### Individuos
+      ### Individuos
 
       Use una cuenta para tener acceso privado y seguro a las agencias gubernamentales participantes.
 
       [Más información sobre login.gov](site.baseurl/what-is-login/){:class="why-more-info"}
     partners: |-
-      #### Socios de agencias
+      ### Socios de agencias
 
       Proteja la información de sus usuarios con los más altos estándares de seguridad digital y experiencia de usuario. Login.gov maneja el desarrollo de software, las operaciones de seguridad y la atención al cliente para que usted no tenga que hacerlo.
 
       [Convertirse en un compañero](https://partners.login.gov){:class="why-more-info" :target="_blank"}
+    developers: |-
+      ### Desarrolladores de agencias
+
+      Recursos para desarrolladores, soporte en tiempo real y herramientas modernas para ayudarlo a implementar e implementar su aplicación con login.gov
+
+      [Ver guía para desarrolladores](https://developers.login.gov){:class="why-more-info" :target="_blank"}
 meta:
   about:
     description: Más información sobre login.gov
@@ -1615,7 +1615,7 @@ what-is-login-page:
 
     <div class="mobile one-account-img" aria-hidden="true"></div>
 
-    #### Login.gov cuenta con la confianza de
+    ### Login.gov cuenta con la confianza de
 
     * Departamento de Defensa
     * Administración de Pequeños Negocios
