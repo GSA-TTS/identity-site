@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
+  <head>
+    {% include meta.html %}
+    {% include styles.html %}
+    {% include google_analytics.html %}
+    {% include dap.html %}
+    {% include google_recaptcha.html %}
+  </head>
+  <body
+    class="{{ layout.class }} {{ page.class }} site lang-{{ site.lang }}"
+    {% if layout.body.spy %}data-spy="{{ layout.body.spy }}"{% endif %}
+    {% if layout.body.target %}data-target="{{ layout.body.target }}"{% endif %}
+    {% if layout.body.offset %}data-offset="{{ layout.body.offset }}"{% endif %}
+  >
+    {{ content }}
+    {% include scripts.html %}
+  </body>
+</html>
