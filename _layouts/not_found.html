@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
-  <head>
-    {% include meta.html %}
-    {% include styles.html %}
-    {% include google_analytics.html %}
-  </head>
-  <body class="not-found">
-    <div class="site-wrapper">{{ content }}</div>
-  </body>
-  {% include dap.html %}
-</html>
+---
+layout: base
+---
+<body class="not-found">
+  <div class="site-wrapper">{{ content }}</div>
+</body>
