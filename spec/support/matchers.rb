@@ -99,7 +99,7 @@ RSpec::Matchers.define :be_uniquely_titled do
   # Attempts to validate conformance to WCAG Success Criteria 2.4.2: Page Titled
   #
   # Visiting a page with the default app name title is considered a failure, and should be resolved
-  # by providing a distinct description for the page using the `:title` content block.
+  # by providing a distinct description for the page via the `title` YAML front-matter metadata.
   #
   # https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html
 
