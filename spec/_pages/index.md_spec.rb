@@ -18,4 +18,8 @@ RSpec.describe 'index.md' do
   xit 'contains specific copy that NewRelic checks for' do
     expect(doc.text).to include('secure access to government services')
   end
+
+  it 'has a title' do
+    expect(doc).to be_uniquely_titled
+  end
 end

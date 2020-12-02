@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-RSpec.describe 'partners.md' do
-  let(:doc) { Nokogiri::HTML(file_at('/partners')) }
+RSpec.describe 'what_is_login.md' do
+  let(:doc) { Nokogiri::HTML(file_at('/what-is-login')) }
 
   it 'escapes html correctly' do
     expect(doc).to properly_escape_html

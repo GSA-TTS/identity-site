@@ -18,4 +18,8 @@ RSpec.describe '/policy/index.md' do
   it 'has valid links' do
     expect(doc).to link_to_valid_urls
   end
+
+  it 'has a title' do
+    expect(doc).to be_uniquely_titled
+  end
 end
