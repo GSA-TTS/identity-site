@@ -94,3 +94,24 @@ RSpec::Matchers.define :link_to_valid_urls do
     "expected that #{actual.url} would link to valid URLs, but found:\n#{bad_urls.join("\n")}"
   end
 end
+
+RSpec::Matchers.define :be_uniquely_titled do
+  # Attempts to validate conformance to WCAG Success Criteria 2.4.2: Page Titled
+  #
+  # Visiting a page with the default app name title is considered a failure, and should be resolved
+  # by providing a distinct description for the page using the `:title` content block.
+  #
+  # https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html
+
+  title = nil
+
+  match do |doc|
+    title = doc.css('title').first.text.strip
+
+    !title.empty? && title.strip != 'login.gov |'
+  end
+
+  failure_message do |doc|
+    "Should have a unique and descriptive title. Found '#{title}'."
+  end
+end

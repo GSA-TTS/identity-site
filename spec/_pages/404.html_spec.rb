@@ -10,4 +10,8 @@ RSpec.describe '/404' do
   it 'includes DAP' do
     expect(doc.to_s).to include('https://dap.digitalgov.gov')
   end
+
+  it 'has a title' do
+    expect(doc).to be_uniquely_titled
+  end
 end
