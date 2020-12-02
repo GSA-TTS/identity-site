@@ -10,7 +10,7 @@
   <body
     class="{{ layout.class }} {{ page.class }} site lang-{{ site.lang }}"
     {% if layout.body.spy %}data-spy="{{ layout.body.spy }}"{% endif %}
-    {% if layout.body.target %}data-target="#{{ layout.body.target }}"{% endif %}
+    {% if layout.body.target %}data-target="{{ layout.body.target }}"{% endif %}
     {% if layout.body.offset %}data-offset="{{ layout.body.offset }}"{% endif %}
   >
     {{ content }}
