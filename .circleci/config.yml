@@ -10,12 +10,12 @@ commands:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "yarn.lock" }}
+            - v1-dependencies-{{ checksum "package-lock.json" }}
       - run:
           name: install dependencies
           command: |
             sudo npm install -g n && sudo n 12
-            yarn install
+            npm ci
             bundle install --jobs=4 --retry=3 --path vendor/bundle
       - save_cache:
           paths:
@@ -24,7 +24,7 @@ commands:
       - save_cache:
           paths:
             - ./node_modules
-          key: v1-dependencies-{{ checksum "yarn.lock" }}
+          key: v1-dependencies-{{ checksum "package-lock.json" }}
   build-site:
     steps:
       - run:

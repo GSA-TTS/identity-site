@@ -1,16 +1,16 @@
 run: jekyll npm-watch-js npm-watch-css
 
 assets/stylesheets/main.css: assets/stylesheets/*.scss
-	yarn run build-css
+	npm run build-css
 
 assets/js/build/bundle.js: assets/js/main.js
-	yarn run build-js
+	npm run build-js
 
 jekyll: assets/stylesheets/main.css assets/js/build/bundle.js
 	bundle exec jekyll serve --watch
 
 npm-watch-js:
-	yarn run watch-js
+	npm run watch-js
 
 npm-watch-css:
-	yarn run watch-css
+	npm run watch-css
