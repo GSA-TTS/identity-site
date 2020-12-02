@@ -108,7 +108,7 @@ RSpec::Matchers.define :be_uniquely_titled do
   match do |doc|
     title = doc.css('title').first.text.strip
 
-    !title.empty? && title.strip != 'login.gov |'
+    !title.empty? && title.strip != '| login.gov'
   end
 
   failure_message do |doc|

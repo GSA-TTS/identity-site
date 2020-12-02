@@ -19,14 +19,14 @@
 {% else %}
   {% capture title_rendered %}{% t meta.home.description %}{% endcapture %}
 {% endif %}
-<title>{{ site.title }} | {{ title_rendered | xml_escape }}</title>
+<title>{{ title_rendered | xml_escape }} | {{ site.title }}</title>
 <meta
   property="og:title"
-  content="{{ site.title | xml_escape }} | {{ title_rendered | xml_escape }}"
+  content="{{ title_rendered | xml_escape }} | {{ site.title | xml_escape }}"
 />
 <meta
   name="twitter:title"
-  content="{{ site.title | xml_escape }} | {{ title_rendered | xml_escape }}"
+  content="{{ title_rendered | xml_escape }} | {{ site.title | xml_escape }}"
 />
 
 <!-- Description -->
