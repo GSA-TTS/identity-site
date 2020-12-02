@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'uri'
+require 'yaml'
 
 RSpec::Matchers.define :link_to_valid_headers do
   missing_headers = []
@@ -95,6 +96,10 @@ RSpec::Matchers.define :link_to_valid_urls do
   end
 end
 
+
+site_config = YAML.safe_load(File.read(File.expand_path(File.join(__dir__, '../../_config.yml'))))
+site_title = site_config['title']
+
 RSpec::Matchers.define :be_uniquely_titled do
   # Attempts to validate conformance to WCAG Success Criteria 2.4.2: Page Titled
   #
@@ -108,7 +113,7 @@ RSpec::Matchers.define :be_uniquely_titled do
   match do |doc|
     title = doc.css('title').first.text.strip
 
-    !title.empty? && title.strip != '| login.gov'
+    !title.empty? && title.include?(site_title) && title.strip != "| #{site_title}"
   end
 
   failure_message do |doc|
