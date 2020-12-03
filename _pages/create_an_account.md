@@ -23,15 +23,15 @@ image: /assets/img/login-gov-600x314.png
         <header class="intro">
           {{ site.translations[site.lang]["create-an-account"]["intro"] | replace: 'site.baseurl', site.baseurl | markdownify }}
         </header>
-        <div class="step-1 step">
+        <div class="step-1 step list">
           {{ site.translations[site.lang]["create-an-account"]["step_1"] | replace: 'site.baseurl', site.baseurl | markdownify }}
           <div class="mobile step-1-img"></div>
         </div>
-        <div class="step-2 step">
+        <div class="step-2 step list">
           {{ site.translations[site.lang]["create-an-account"]["step_2"] | replace: 'site.baseurl', site.baseurl | markdownify }}
           <div class="mobile step-2-img"></div>
         </div>
-        <div class="step-3 step">
+        <div class="step-3 step list">
           {{ site.translations[site.lang]["create-an-account"]["step_3"] | replace: 'site.baseurl', site.baseurl | markdownify }}
           <div class="mobile step-3-img"></div>
         </div>

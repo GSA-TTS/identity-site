@@ -1,15 +1,17 @@
-ul {
-  li {
-    line-height: 2.25rem;
-    ul {
-      list-style-type: "⁃";
-      margin-bottom: 0;
+.list {
+  ul {
+    li {
+      line-height: 2.25rem;
+      ul {
+        list-style-type: "⁃";
+        margin-bottom: 0;
+      }
     }
   }
-}
-
-ul a {
-  text-decoration: none;
+  
+  a {
+    text-decoration: none;
+  }
 }
 
 .list-arrow {

@@ -18,7 +18,7 @@ image: /assets/img/login-gov-600x314.png
 
 <div class="bg-primary-lightest">
   <div class="container who-uses-login">
-    <div class="partners">
+    <div class="partners list">
       {{ site.translations[site.lang]["who-uses-login-page"]["partners"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
   </div>
