@@ -1,24 +1,17 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
-
-  <head>
-    {% include meta.html %}
-    {% include styles.html %}
-    {% include google_analytics.html %}
-    {% include google_recaptcha.html %}
-  </head>
-
-  <body class="help-page site lang-{{ site.lang }}" data-offset="48" data-spy="scroll" data-target="#pb-nav--side-cntnr">
-    <header>
-      {% include skip_nav.html %}
-      {% include banner.html %}
-      {% include language_search.html logo=true signin=false contact=true %}
-      {% include hero--search.html %}
-    </header>
-    <main id="main-content">{{ content }}</main>
-    {% include footer.html %}
-  </body>
-  {% include dap.html %}
-  {% include scripts.html %}
-
-</html>
+---
+layout: base
+body:
+  class: "help-page"
+  spy: "scroll"
+  target: "#pb-nav--side-cntnr"
+  offset: "48"
+---
+<header>
+  {% include wip.html %}
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include language_search.html logo=true signin=false contact=true %}
+  {% include hero--search.html %}
+</header>
+<main id="main-content">{{ content }}</main>
+{% include footer.html %}
