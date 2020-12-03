@@ -15,6 +15,5 @@ test-urls: build
 	bundle exec ./scripts/sitemap-check --directory _site --old-urls-file OLD_URLS.yml
 
 build:
-	npm run build-css
 	npm run build-js
 	bundle exec jekyll build
