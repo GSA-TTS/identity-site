@@ -11,7 +11,7 @@ title: meta.help.title
       <div class="grid-row flex-row tablet:flex-align-center">
         <div class="grid-col-2">
           <div class="usa-card__img">
-            <img alt=" " src="{{ site.baseurl }}/assets/img/help/get-started.svg">
+            <img alt="" src="{{ site.baseurl }}/assets/img/help/get-started.svg">
           </div>
         </div>
         <div class="grid-col-10 padding-left-1 tablet:padding-left-3">
@@ -26,7 +26,7 @@ title: meta.help.title
       <div class="grid-row flex-row tablet:flex-align-center">
         <div class="grid-col-2">
           <div class="usa-card__img">
-            <img alt=" " src="{{ site.baseurl }}/assets/img/help/verify-your-id.svg">
+            <img alt="" src="{{ site.baseurl }}/assets/img/help/verify-your-id.svg">
           </div>
         </div>
         <div class="grid-col-10 padding-left-1 tablet:padding-left-3">
@@ -41,7 +41,7 @@ title: meta.help.title
       <div class="grid-row flex-row tablet:flex-align-center">
         <div class="grid-col-2">
           <div class="usa-card__img">
-            <img alt=" " src="{{ site.baseurl }}/assets/img/help/trouble-signing-in.svg">
+            <img alt="" src="{{ site.baseurl }}/assets/img/help/trouble-signing-in.svg">
           </div>
         </div>
         <div class="grid-col-10 padding-left-1 tablet:padding-left-3">
@@ -56,7 +56,7 @@ title: meta.help.title
       <div class="grid-row flex-row tablet:flex-align-center">
         <div class="grid-col-2">
           <div class="usa-card__img">
-            <img alt=" " src="{{ site.baseurl }}/assets/img/help/help-specific-agencies.svg">
+            <img alt="" src="{{ site.baseurl }}/assets/img/help/help-specific-agencies.svg">
           </div>
         </div>
         <div class="grid-col-10 padding-left-1 tablet:padding-left-3">
@@ -71,7 +71,7 @@ title: meta.help.title
       <div class="grid-row flex-row tablet:flex-align-center">
         <div class="grid-col-2">
           <div class="usa-card__img">
-            <img alt=" " src="{{ site.baseurl }}/assets/img/help/manage-your-account.svg">
+            <img alt="" src="{{ site.baseurl }}/assets/img/help/manage-your-account.svg">
           </div>
         </div>
         <div class="grid-col-10 padding-left-1 tablet:padding-left-3">
