@@ -1,18 +1,16 @@
 ---
 layout: base
 body:
+  class: ""
   spy: "scroll"
   target: "#pb-nav--side-cntnr"
   offset: "48"
 ---
 <header>
-  <div class="temp-wip">This site is for demo purposes only and is under continual development. Please visit
-    <a href="https://www.login.gov" target="_blank">our official website</a>
-    for current information.
-  </div>
+  {% include wip.html %}
   {% include skip_nav.html %}
   {% include banner.html %}
-  {% include language_search.html %}
+  {% include language_search.html signin=true %}
   {% include header.html %}
 </header>
 <main id="main-content">{{ content }}</main>

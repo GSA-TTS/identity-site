@@ -1,15 +1,17 @@
 ---
-layout: main
+layout: base
+body:
+  class: "help-page"
+  spy: "scroll"
+  target: "#pb-nav--side-cntnr"
+  offset: "48"
 ---
-
-<div>
-  <div class="container">
-    <h1>{% t meta.help.title %}</h1>
-    <p>{% t help_page.p_1 %}</p>
-  </div>
-</div>
-<div class="bg-blue-mid flex">
-  <div class="container">
-    <div class="clearfix">{{ content }}</div>
-  </div>
-</div>
+<header>
+  {% include wip.html %}
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include language_search.html logo=true signin=false contact=true %}
+  {% include hero--search.html %}
+</header>
+<main id="main-content">{{ content }}</main>
+{% include footer.html %}
