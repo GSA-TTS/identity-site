@@ -217,6 +217,12 @@ help:
     cant-sign-in-or-reset-my-password-sam-account: Can't sign in or reset my password (SAM account)
     my-sam-information-is-not-there: My SAM information is not there
     why-sam-uses-logingov: Why SAM uses login.gov
+  security-keys:
+    how-do-i-protect-my-logingov-account-with-a-security-key: How do I protect my login.gov account with a security key?
+    related-articles: Related articles
+    do-i-need-to-set-up-a-security-key-to-use-logingov: Do I need to set up a security key to use login.gov?
+    do-i-need-a-mobile-phone-to-use-logingov: Do I need a mobile phone to use login.gov?
+    if-i-dont-have-my-phone-with-me-can-i-still-sign-in: If I don't have my phone with my can I still sign in?
   signing-in:
     forgot-my-password: Forgot my password
     phone-or-authentication-methods-not-available: Phone or authentication methods not available

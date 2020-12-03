@@ -28,7 +28,7 @@ class: relative
             </a>
           </li>
           <li class="border-bottom nav-sidenav-item">
-            <a class="p2 block h6" href="#offerings ">
+            <a class="p2 block h6" href="#offerings">
               {% t why-login-gov_page.heading_3 %}
             </a>
           </li>
@@ -48,12 +48,12 @@ class: relative
             </a>
           </li>
           <li class="border-bottom nav-sidenav-item">
-            <a class="p2 block h6" href="#benefits ">
+            <a class="p2 block h6" href="#benefits">
               {% t why-login-gov_page.heading_7 %}
             </a>
           </li>
                     <li class="border-bottom nav-sidenav-item">
-            <a class="p2 block h6" href="#mobile ">
+            <a class="p2 block h6" href="#mobile">
               {% t why-login-gov_page.heading_8 %}
             </a>
           </li>

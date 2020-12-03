@@ -23,7 +23,7 @@ class: relative
             </a>
           </li>
           <li class="border-bottom nav-sidenav-item">
-            <a class="p2 block h6" href="#benefits ">
+            <a class="p2 block h6" href="#benefits">
               {% t our-agency-partners_page.section_1.ul.li_4.a_1 %}
             </a>
           </li>
