@@ -51,8 +51,7 @@
 
     <ul class="mobile language-list">
       {% for locale in site.languages %}
-        {% capture name %}global.locales.{{locale }}
-        {% endcapture %}
+        {% capture name %}global.locales.{{ locale }}{% endcapture %}
         <li>
           {% if locale == 'en' %}
             <a href="{{ page.url | prepend: site.baseurl_root }}">{% t name %}</a>
