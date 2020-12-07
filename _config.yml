@@ -73,15 +73,8 @@ plugins:
   - jekyll-sitemap
 
 help_pages:
-- creating-an-account
-- authentication-methods
-- verifying-your-identity
-- signing-in
 - changing-settings
-- privacy-and-security
-- trusted-traveler-programs
-- usajobs
-- sam
+- trouble-signing-in
 
 # Per-section configs
 playbook:

@@ -1,0 +1,24 @@
+#common-troubleshooting-topics {
+  margin-top: 2rem;
+
+  & + ul {
+      list-style-type: none;
+      margin-left: 0;
+      padding-left: 0;
+
+      li:before {
+        content: "?";
+        background-color: $navy;
+        padding: 2px 8px;
+        border-radius: 50%;
+        color: $white;
+        line-height: 2.2;
+        margin-right: 0.75rem;
+        font-weight: bold;
+      }
+
+      a {
+        color: $blue-mid;
+      }
+  }
+}

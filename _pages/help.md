@@ -4,6 +4,7 @@ description: meta.help.description
 layout: help_landing
 permalink: /help/
 title: meta.help.title
+hero: true
 ---
 <article class="grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-9 padding-bottom-1">
   <ul class="usa-card-group grid-row tablet:flex-align-center usa-list usa-list--unstyled">
