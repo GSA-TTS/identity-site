@@ -212,5 +212,7 @@ nav {
 }
 
 .anchor-to-top {
-  text-decoration: none;
+  display: block;
+  margin-top: 2rem;
+  font-size: $base-font-sm;
 }
