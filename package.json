@@ -8,7 +8,8 @@
     "copy-main": "cp assets/stylesheets/main.css _site/assets/stylesheets",
     "federalist": "npm run build-css && npm run build-js",
     "watch-css": "nodemon -e scss -x \"npm run build-css && npm run copy-main\"",
-    "watch-js": "webpack -w --config webpack.config.js --progress --colors"
+    "watch-js": "webpack -w --config webpack.config.js --progress --colors",
+    "lint": "eslint webpack.config.js assets"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,8 @@
   "main": "webpack.config.js",
   "keywords": [],
   "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-plugin-prettier": "^3.2.0",
     "nodemon": "^1.15.1",
     "prettier": "2.1.2",
     "sass": "^1.26.10"
