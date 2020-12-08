@@ -9,7 +9,7 @@
     "federalist": "npm run build-css && npm run build-js",
     "watch-css": "nodemon -e scss -x \"npm run build-css && npm run copy-main\"",
     "watch-js": "webpack -w --config webpack.config.js --progress --colors",
-    "lint": "eslint ."
+    "lint": "eslint webpack.config.js assets"
   },
   "repository": {
     "type": "git",
