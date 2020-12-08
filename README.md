@@ -44,6 +44,10 @@ To run specs:
 make test
 ```
 
+This project uses [Prettier](https://prettier.io/) to format code. When running the lint command above, you may notice errors relating to unexpected code formatting. It's recommended that you install [an editor integration](https://prettier.io/docs/en/editors.html) to automatically format code on save, but you can also resolve these errors automatically from the command-line by running:
+
+npm run lint -- --fix
+
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
