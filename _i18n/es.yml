@@ -113,6 +113,7 @@ contact_page:
       signing_in: Iniciando sesión
 footer:
   gsa: Administración General de Servicios de EE. UU.
+  status: Estado del sistema
 global:
   language: Idioma
   locales:

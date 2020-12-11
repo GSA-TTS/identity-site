@@ -99,3 +99,4 @@ playbook:
 baseurl:
 
 url: https://www.login.gov
+status_url: https://logingov.statuspage.io/
