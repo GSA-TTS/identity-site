@@ -1,3 +1,8 @@
 {
-  "presets": [["@babel/preset-env", { "targets": { "ie": "11" } }]]
+  "presets": [["@babel/preset-env", { "targets": { "ie": "11" } }]],
+  "env": {
+    "test": {
+      "presets": [["@babel/preset-env", { "targets": { "node": "current" } }]]
+    }
+  }
 }
