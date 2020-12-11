@@ -162,6 +162,7 @@ developers_page:
     p_1:
 footer:
   gsa: U.S. General Services Administration
+  status: System Status
 global:
   language: Language
   locales:
