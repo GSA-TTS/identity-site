@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "login.gov static site",
   "scripts": {
-    "build-css": "npx sass --style=compressed --load-path node_modules --load-path _sass assets/stylesheets/main.scss assets/stylesheets/main.css",
     "build-js": "webpack --config webpack.config.js --progress --color",
-    "copy-main": "cp assets/stylesheets/main.css _site/assets/stylesheets",
-    "federalist": "npm run build-css && npm run build-js",
-    "watch-css": "nodemon -e scss -x \"npm run build-css && npm run copy-main\"",
+    "federalist": "npm run build-js",
     "watch-js": "webpack -w --config webpack.config.js --progress --color",
     "lint": "eslint webpack.config.js assets"
   },
@@ -29,9 +26,7 @@
   "devDependencies": {
     "eslint": "^7.15.0",
     "eslint-plugin-prettier": "^3.2.0",
-    "nodemon": "^1.15.1",
-    "prettier": "2.1.2",
-    "sass": "^1.26.10"
+    "prettier": "2.1.2"
   },
   "dependencies": {
     "@babel/core": "^7.12.9",

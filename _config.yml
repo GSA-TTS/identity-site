@@ -26,7 +26,13 @@ scripts:
 
 # Styles
 styles:
-  - /assets/stylesheets/main.css
+  - /assets/css/main.css
+
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+    - node_modules
 
 # Build settings
 kramdown:
@@ -48,7 +54,6 @@ include:
   - .well-known
 
 exclude:
-  - /assets/stylesheets/main.scss
   - Gemfile*
   - Makefile*
   - node_modules
@@ -61,7 +66,6 @@ exclude:
 
 keep_files:
   - /assets/js/build/*
-  - /assets/stylesheets/build/*
 
 plugins:
   - jekyll-redirect-from
