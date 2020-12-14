@@ -1,6 +1,4 @@
 assets/js/build
-assets/stylesheets/build/main.css
-assets/stylesheets/main.css
 _site/
 .sass-cache/
 node_modules/
