@@ -11,28 +11,24 @@
       {% if page.url contains subpage_slug %}true{% else %}false
       {% endif %}
       {% endcapture %}
-      {% capture is_initially_hidden %}
-      {% if !page.url contains subpage_slug %}hidden{% endif %}
-      {% endcapture %}
-      <li class="usa-accordion__button" aria-expanded="{{ is_initially_expanded }}" aria-controls="{{ subpage_slug }}">
-        <a>{{ site["translations"][site.lang]["help_subpages"][subpage] }}</a>
-        <div id="{{ subpage_slug }}" class="usa-accordion__container" {{ is_initially_hidden }}>
-          <ul class="usa-sidenav__sublist usa-accordion__content">
-            {% for question in related_questions %}
-            {% if question.url == page.url %}
-            {% assign _index = forloop.index | modulo:7 %}
-            {% endif %}
-            <li class="usa-sidenav__item{% if question.url == page.url %} active usa-current{% endif %}">
-              {% assign url_size = question.url | size | minus: 1 %}
-              {% assign page_title = question.url | replace: "/", "." | slice: 1, url_size %}
-              {% capture page_title %}
-              {% t page_title %}
-              {% endcapture %}
-              <a class="" href="{{ question.url | prepend: site.baseurl }}">{{ page_title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
+      <li class="usa-accordion__button usa-sidenav__item" aria-expanded={{ is_initially_expanded }}
+        aria-controls="{{ subpage }}">
+        <h2 class="usa-accordion__heading">{{ site["translations"][site.lang]["help_subpages"][subpage] }}</h2>
+        <ul id="{{ subpage }}" class="usa-sidenav__sublist usa-accordion__content">
+          {% for question in related_questions %}
+          {% if question.url == page.url %}
+          {% assign _index = forloop.index | modulo:7 %}
+          {% endif %}
+          <li class="usa-sidenav__item{% if question.url == page.url %} active usa-current{% endif %}">
+            {% assign url_size = question.url | size | minus: 1 %}
+            {% assign page_title = question.url | replace: "/", "." | slice: 1, url_size %}
+            {% capture page_title %}
+            {% t page_title %}
+            {% endcapture %}
+            <a class="" href="{{ question.url | prepend: site.baseurl }}">{{ page_title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
       </li>
       {% endfor %}
     </ul>
