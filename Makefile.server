@@ -1,9 +1,6 @@
 run: jekyll npm-watch-js
 
-assets/js/build/bundle.js: assets/js/main.js
-	npm run build-js
-
-jekyll: assets/js/build/bundle.js
+jekyll:
 	bundle exec jekyll serve --watch
 
 npm-watch-js:
