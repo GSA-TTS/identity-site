@@ -159,6 +159,12 @@ nav .usa-search {
   }
 }
 
+.usa-search--small [type=submit], 
+.usa-search--small .usa-search__submit {
+  background-image: none;
+  width: 5rem;
+}
+
 .mobile.language-list {
   display: none;
   list-style-type: none;
