@@ -1,1 +1,9 @@
-<svg width="24" height="21" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c6.628 0 12 4.364 12 9.75 0 2.325-1.003 4.453-2.672 6.127.586 2.362 2.545 4.467 2.569 4.49a.373.373 0 01.07.408.367.367 0 01-.342.225c-3.108 0-5.438-1.49-6.59-2.41A14.29 14.29 0 0112 19.5c-6.628 0-12-4.364-12-9.75S5.372 0 12 0z" fill="#FFF"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="21px" viewBox="0 0 24 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-speech-balloon</title>
+    <g id="icon-speech-balloon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="comment-solid" transform="translate(12.000000, 10.500000) scale(-1, 1) translate(-12.000000, -10.500000) " fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M12,0 C5.371875,0 0,4.3640625 0,9.75 C0,12.075 1.003125,14.203125 2.671875,15.8765625 C2.0859375,18.2390625 0.1265625,20.34375 0.103125,20.3671875 C0,20.475 -0.028125,20.634375 0.0328125,20.775 C0.09375,20.915625 0.225,21 0.375,21 C3.4828125,21 5.8125,19.509375 6.965625,18.590625 C8.4984375,19.1671875 10.2,19.5 12,19.5 C18.628125,19.5 24,15.1359375 24,9.75 C24,4.3640625 18.628125,0 12,0 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>
