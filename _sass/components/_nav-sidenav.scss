@@ -25,11 +25,22 @@
       padding: $container-spacing-sm;
     }
 
-    .active,
+    .active {
+      color: $blue-mid;
+      font-weight: bold;
+    }
+
     .usa-current {
       font-weight: bold;
       color: $blue-mid;
       background: none;
+      border-top: none;
+      border-bottom: none;
     }
+
+  }
+
+  [aria-hidden="true"] {
+    display: none;
   }
 }
