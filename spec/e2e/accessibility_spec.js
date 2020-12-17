@@ -1,13 +1,15 @@
 import { AxePuppeteer } from '@axe-core/puppeteer';
 import { toHaveNoViolations } from 'jest-axe';
-import { page, goto, getURL } from './support/browser';
-import crawl from './support/crawl';
+import { page, goto } from './support/browser';
 
 expect.extend(toHaveNoViolations);
 
+const TEST_TIMEOUT_MS = 10000;
+
 describe('accessibility', () => {
-  it('passes automated accessibility scan', async () => {
-    for await (const url of crawl(getURL('sitemap.xml'))) {
+  test.each(global.allURLs)(
+    '%s',
+    async (url) => {
       const path = new URL(url).pathname;
       await goto(path);
       const results = await new AxePuppeteer(page).analyze();
@@ -17,6 +19,7 @@ describe('accessibility', () => {
         error.message = `Path: ${path}\n\n` + error.message;
         throw error;
       }
-    }
-  });
+    },
+    TEST_TIMEOUT_MS,
+  );
 });

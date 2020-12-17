@@ -10,8 +10,8 @@ class PuppeteerEnvironment extends NodeEnvironment {
       }),
     ]);
 
-    this.global.rootURL = `http://localhost:${global.port}`;
     this.global.page = await browser.newPage();
+    Object.assign(this.global, global.specGlobals);
   }
 
   async teardown() {
