@@ -8,6 +8,15 @@ setup:
 	bundle check || bundle install
 	npm install
 
+lint-js:
+	npm run lint
+
+lint-assets:
+	@npm run optimize-assets > /dev/null
+	@[[ -z `git status assets/img -s` ]] || (echo "Error: Optimize SVG images using 'npm run optimize-assets'"; exit 1)
+
+lint: lint-js lint-assets
+
 test: build
 	bundle exec rspec spec
 
