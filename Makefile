@@ -12,8 +12,8 @@ lint-js:
 	npm run lint
 
 lint-assets:
-	@npm run optimize-assets > /dev/null
-	@[[ -z `git status assets/img -s` ]] || (echo "Error: Optimize SVG images using 'npm run optimize-assets'"; exit 1)
+	npm run optimize-assets > /dev/null
+	git status assets/img -s || (echo "Error: Optimize SVG images using 'npm run optimize-assets'"; exit 1)
 
 lint: lint-js lint-assets
 
