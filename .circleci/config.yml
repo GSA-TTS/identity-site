@@ -46,7 +46,10 @@ jobs:
           command: bundle exec rspec spec
       - run:
           name: run ESLint
-          command: npm run lint
+          command: make lint-js
+      - run:
+          name: check optimized images
+          command: make lint-assets
       - run:
           name: check old URLs
           command: bundle exec ./scripts/sitemap-check --directory _site --old-urls-file OLD_URLS.yml
