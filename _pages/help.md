@@ -47,7 +47,7 @@ hero: true
         </div>
         <div class="grid-col-10 padding-left-1 tablet:padding-left-3">
           <h2 class="margin-bottom-05">
-            <a href="{{ site.baseurl }}/help/trouble-signing-in">Trouble signing in?</a>
+            <a href="{{ site.baseurl }}/help/trouble-signing-in/overview">Trouble signing in?</a>
           </h2>
           <p class="margin-top-05">Forgot your password? Locked out of your account? We'll help you resolve access issues.</p>
         </div>
