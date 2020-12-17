@@ -1,5 +1,5 @@
 ---
-order: 8
+order: 7
 redirect_from: /help/signing-in/why-is-my-security-code-invalid/
 ---
 

@@ -1,5 +1,5 @@
 ---
-order: 7
+order: 5
 redirect_from:
 - /help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
 - /help/signing-in/i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me/

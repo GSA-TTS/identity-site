@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 2
 redirect_from:
 - /help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/
 - /help/signing-in/how-do-i-reset-my-password/
