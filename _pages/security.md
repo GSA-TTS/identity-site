@@ -1,5 +1,4 @@
 ---
-title: meta.security.title
 permalink: /security/
-description: meta.security.description
+redirect_to: /policy/our-security-practices/
 ---
