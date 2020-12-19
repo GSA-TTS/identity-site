@@ -1,6 +1,7 @@
 ---
 title: meta.partners.title
 permalink: /partners/learn/
+redirect_to: https://partners.login.gov/
 description: Learn about login.gov
 ---
 

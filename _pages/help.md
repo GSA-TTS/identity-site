@@ -4,6 +4,7 @@ description: meta.help.description
 layout: help_landing
 permalink: /help/
 title: meta.help.title
+hero: true
 ---
 <article class="grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-9 padding-bottom-1">
   <ul class="usa-card-group grid-row tablet:flex-align-center usa-list usa-list--unstyled">
@@ -46,7 +47,7 @@ title: meta.help.title
         </div>
         <div class="grid-col-10 padding-left-1 tablet:padding-left-3">
           <h2 class="margin-bottom-05">
-            <a href="#">Trouble signing in?</a>
+            <a href="{{ site.baseurl }}/help/trouble-signing-in/overview">Trouble signing in?</a>
           </h2>
           <p class="margin-top-05">Forgot your password? Locked out of your account? We'll help you resolve access issues.</p>
         </div>
