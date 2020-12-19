@@ -8,11 +8,8 @@ hero: false
 <article class="container">
   <div class="grid-row padding-top-8">
     <div class="grid-col grid-col-7">
-      <h1 id="{{ page.slug }}" class="margin-top-0">
-        {{ page.title }}
-      </h1>
       {{ page.content | replace: 'site.baseurl', site.baseurl | markdownify }}
-      <a href="#{{ page.slug }}" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
+      <a href="#main-content" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
     </div>
     {% include help/nav_sidenav.html %}
   </div>
