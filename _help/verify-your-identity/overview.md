@@ -10,4 +10,5 @@ redirect_from:
 - /help/identity-verification/i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them/
 - /help/identity-verification/related-articles/
 - /help/identity-verification/why-do-i-need-to-verify-my-identity/
+redirect_to: /help
 ---
