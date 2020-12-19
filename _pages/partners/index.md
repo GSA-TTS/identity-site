@@ -1,6 +1,7 @@
 ---
 title: meta.partners.title
 permalink: /partners/
+redirect_to: https://partners.login.gov/
 description: meta.partners.description
 ---
 
