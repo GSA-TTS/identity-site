@@ -73,7 +73,6 @@ plugins:
   - jekyll-sitemap
 
 help_pages:
-- get-started
 - trouble-signing-in
 
 # Per-section configs
