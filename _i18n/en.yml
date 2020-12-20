@@ -238,17 +238,19 @@ help_pages:
       [Authentication options](#)
       [Verify your identity](#)
     forgot-your-password: |-
-      login.gov requires users to set up two forms of two-factor authentication methods when creating an account. However, if you do not have access to a phone, authentication application, security key, or government employee ID (PIV/CAC card), you can set up your account with only backup codes.
-
-      Warning: Setting up your account with backup codes as your only authentication method is not recommended. If you ever lose your backup codes, you will not be able to sign in to your account.
-
-      When you are creating your account, you will reach the “Secure your account” page. This is where you must choose you primary authentication method. If you do not have access to any of the other options, select “Backup Codes” and click “Continue”.
-
-      Download, print, copy, or write down your back up codes and save them in a secure place. Then, click “Continue”. Note: you must click “Continue” to activate your backup codes. If you do not and you exit the page instead, you will not be able to use that set of backup codes to sign in later.
-
-      On the “Add another method” page, select “I don’t have any of the above” and click “Continue”
-
-      You will then be finished creating your account. Each time you sign in using login.gov, you will be asked to enter one of your backup codes. After you use the 10th code, you will be given a new set of backup codes to save and use.
+      # Forgot your password
+      Follow these steps to reset your password.
+      1. Go to [https://secure.login.gov](https://secure.login.gov).
+      1. Select the “Forgot your password?” link near the bottom of the page.
+      1. On the next screen, enter your email address.
+      1. Click the “Continue” button.
+      1. Check your email for a message from login.gov. 
+      1. Click the “Reset your password” button in the message. This will take you back to the login.gov website.
+      1. Enter your new password.
+          Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.  
+          
+          Your login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
+      1. Click the “Change password” button.
     locked-out-of-login: |-
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
 
