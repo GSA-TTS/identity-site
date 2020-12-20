@@ -128,13 +128,13 @@ help:
     overview: Visión general
   trouble-signing-in:
     overview: Visión general
-    how-to-sign-in: Cómo iniciar sesión en login.gov
-    forgot-your-password: Olvidaste tu contraseña
-    locked-out-of-login: Bloqueado de la cuenta login.gov
-    phone-or-authentication-methods-not-available: Los métodos de autenticación o teléfono no están disponibles
+    how-to-sign-in: Cómo acceder a login.gov
+    forgot-your-password: Olvidó su contraseña
+    locked-out-of-login: Bloqueada en la cuenta de login.gov
+    phone-or-authentication-methods-not-available: No hay teléfono ni métodos de autenticación disponibles
     forgot-your-email-address: Olvidó su dirección de correo electrónico
     security-code-issues: Problemas con el código de seguridad
-    password-reset-issues: Problemas de restablecimiento de contraseña
+    password-reset-issues: Problemas con el restablecimiento de la contraseña
 help_page:
   p_1: Explore los temas comunes
   title: ¿Cómo podemos ayudar?
@@ -158,15 +158,16 @@ help_pages:
       Verá un mensaje de alerta verde que confirma que se eliminó su dirección de correo electrónico.
   trouble-signing-in:
     overview: |-
+      # ¿Problemas al iniciar sesión?
       ¿Olvidaste tu contraseña? ¿Bloqueado tu cuenta? Lo ayudaremos a resolver problemas de acceso a la cuenta.
-      ## Temas comunes de solución de problemas 
-        * [Cómo iniciar sesión en login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
-        * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password)
-        * [Bloqueado de la cuenta login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login)
-        * [Los métodos de autenticación o teléfono no están disponibles](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available)
-        * [Olvidó su dirección de correo electrónico](site.baseurl/help/trouble-signing-in/forgot-your-email-address)
-        * [Problemas con el código de seguridad](site.baseurl/help/trouble-signing-in/security-code-issues)
-        * [Problemas de restablecimiento de contraseña](site.baseurl/help/trouble-signing-in/password-reset-issues)
+      ## Problemas comunes en la solución de problemas 
+        * [Cómo acceder a login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
+        * [Olvidó su contraseña](site.baseurl/help/trouble-signing-in/forgot-your-password)
+        * [Bloqueada en la cuenta de login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login)
+        * [Olvidó su dirección de correo electrónico](site.baseurl/help/trouble-signing-in/forgot-your-email-address/)
+        * [No hay teléfono ni métodos de autenticación disponibles](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
+        * [Problemas con el restablecimiento de la contraseña](site.baseurl/help/trouble-signing-in/password-reset-issues/)
+        * [Problemas con el código de seguridad](site.baseurl/help/trouble-signing-in/security-code-issues/)
     how-to-sign-in: |-
       Cada vez que inicie sesión en su cuenta, necesitará su dirección de correo electrónico, su contraseña y el acceso a uno de los métodos de autenticación de dos factores que configura. Después de ingresar su dirección de correo electrónico y contraseña para iniciar sesión, login.gov le solicitará que se autentique (ingrese un código de seguridad enviado a su teléfono por voz o texto, ingrese el código de seguridad de su aplicación de autenticación, ingrese un código de respaldo, use su clave de seguridad, o use su tarjeta gubernamental PIV/CAC).
     forgot-your-password: Si no conoce su contraseña, el enlace para restablecerla
@@ -215,8 +216,8 @@ help_pages:
       puede solicitar tres códigos de seguridad cada 15 minutos, pero por lo demás,
       puede solicitar tantos códigos como necesite.
 help_subpages:
-  get-started: Get started with login.gov 
-  trouble-signing-in: Iniciando sesión
+  get-started: Empiece con login.gov
+  trouble-signing-in: ¿Tiene problemas para iniciar sesión?
 implementation_page:
   heading: Implementando un sistema de gestión de la identidad
   section_1:
