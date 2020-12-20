@@ -257,6 +257,7 @@ help_pages:
       - If you mistyped your address, you can create a new account.
       - If you are certain you entered the correct address, choose “send again” to get a new confirmation email.
     phone-or-authentication-methods-not-available: |-
+      # Phone or authentication methods not available
       Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in](site.baseurl/help/signing-in/forgot-my-password).
 
       Please submit a [support ticket](site.baseurl/contact) if you are sure you did not create an account.
@@ -265,6 +266,7 @@ help_pages:
 
       [Why do I have to use login.gov?](site.baseurl/help/privacy-and-security/why-do-i-have-to-use-logingov/)
     forgot-your-email-address: |-
+      # Forgot your email address
       Your password should be at least 8 characters long. Try using multiple words and spaces to create a memorable phrase. Longer passwords with many words are stronger than short passwords with special characters.
 
       When creating a password, also try to avoid using slang terms and common misspellings and words spelled backward. Also, avoid using your company name or your spouse's or children's names - and even your pet - as well as other personal information such as your age or birth date.
@@ -273,6 +275,7 @@ help_pages:
 
       But, if you repeatedly enter an incorrect password, it is most likely due to a malicious person taking over your machine that you left unattended. In that case, for your security, we sign you out after three failed attempts.
     security-code-issues: |-
+      # Security code issues
       A personal key is a 16-character secret code that login.gov gives you after you verify their identity. It’s used to encrypt your data (think of it as a key to your secret information). You don’t need it every time you sign in, but you will need it if you reset your password.
 
       Remember, it’s the key to your personal information, so make sure you keep it in a safe place where it can’t be lost or stolen.
@@ -295,11 +298,10 @@ help_pages:
       [What is phishing?](site.baseurl/help/privacy-and-security/what-is-phishing/)
       [Why do I need to verify my identity?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
     password-reset-issues: |-
+      # Password reset issues
       login.gov uses two-factor authentication (2FA) to keep accounts secure. This means that, each time you sign in, you must use something you know and something you have. This makes your account safer by making it much harder for others to break into it.
 
       1. The ‘something you know’ is your password. We’ll ask you to create a strong password (at least 12 characters long) when you create your account.
-
-
       2. The ‘something you have’ is your two-factor authentication method. You’ll be able to choose between the following options when you create your account.
         - Phone: Get security codes by text message (SMS) or phone call
         - [Authentication app](site.baseurl/help/creating-an-account/authentication-application/): Get codes from an app on your phone, computer, or tablet

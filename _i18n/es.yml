@@ -203,11 +203,13 @@ help_pages:
           Su contraseña de login.gov debe ser diferente de las contraseñas que usa para otras cuentas, como su cuenta bancaria o correo electrónico. Utilizar la misma contraseña en múltiples cuentas facilita el robo de identidad.
       1. Haga clic en el botón "Modificar contraseña".
     locked-out-of-login: |-
+      # Bloqueada en la cuenta de login.gov
       Hay diversas maneras de bloquear temporalmente su acceso a login.gov.
         - No podrá iniciar sesión durante diez minutos si introduce incorrectamente su código de seguridad tres veces.
         - No podrá iniciar sesión durante diez minutos si solicita más de diez códigos de seguridad en un período de cinco minutos.
-    phone-or-authentication-methods-not-available: Cada
-      vez que inicie una sesión deberá ingresar un código de seguridad que se envía
+    phone-or-authentication-methods-not-available: |-
+      # No hay teléfono ni métodos de autenticación disponibles
+      Cada vez que inicie una sesión deberá ingresar un código de seguridad que se envía
       a su teléfono, ya sea por mensaje de texto o por llamada telefónica. El código
       de seguridad que recibe expira después de cinco minutos y sólo se puede utilizar
       una vez. Si no puede ingresar el código de seguridad dentro de los cinco minutos
@@ -216,28 +218,23 @@ help_pages:
       uno que haya utilizado. Limitamos las solicitudes a tres códigos cada 15 minutos,
       pero de lo contrario puede solicitar tantos códigos como necesite.
     forgot-your-email-address: |-
+      # Olvidó su dirección de correo electrónico
       Si no puede recordar el email que utilizó para crear su cuenta, puede utilizar la función para restablecer la contraseña y ver si su email está en el archivo.
 
       Intente iniciar una sesión como de costumbre y solicite restablecer su contraseña. Luego, ingrese el email que cree que utilizó para crear su cuenta. Si tenemos su email en nuestros registros, le enviaremos instrucciones para restablecer su contraseña. Revise su email en unos minutos para obtener estas instrucciones.
-    password-reset-issues: Si no ha recibido un
-      correo electrónico de reinicio, compruebe su filtro de correo no deseado. Si
-      añade "no-reply@login.gov" a su lista de contactos, su proveedor de correo electrónico
-      no lo enviará al correo no deseado. Asimismo, puede que accidentalmente haya
+    password-reset-issues: |-
+      # Problemas con el código de seguridad
+      Si no ha recibido un correo electrónico de reinicio, compruebe su filtro de correo no deseado. Si añade "no-reply@login.gov" a su lista de contactos, su proveedor de correo electrónico no lo enviará al correo no deseado. Asimismo, puede que accidentalmente haya
       escrito mal su dirección de correo electrónico. Si está seguro de haber introducido
       la dirección correcta, seleccione "Enviar de nuevo" para recibir un nuevo correo
       electrónico de restablecimiento de contraseña. Si sigue sin recibir los correos
       electrónicos, le recomendamos que se ponga en contacto con su proveedor de correo
       electrónico para informarle sobre el problema o que compruebe los ajustes de
       su cuenta en caso de que reenvíe su correo electrónico.
-    security-code-issues: Cada vez que inicie sesión, deberá introducir
-      un código de seguridad que se enviará a su teléfono mediante un mensaje de texto
-      o una llamada telefónica. El código de seguridad que reciba caducará después
-      de diez minutos y solo será válido para un uso. Si no introduce el código de
-      seguridad en un plazo de diez minutos o no ha cogido la llamada, puede solicitar
-      un nuevo código de seguridad. Cada código de seguridad solo es válido una vez,
-      así que asegúrese de estar utilizando el código de seguridad más reciente. Solo
-      puede solicitar tres códigos de seguridad cada 15 minutos, pero por lo demás,
-      puede solicitar tantos códigos como necesite.
+    security-code-issues: |-
+      # Problemas con el restablecimiento de la contraseña
+
+      Cada vez que inicie sesión, deberá introducir un código de seguridad que se enviará a su teléfono mediante un mensaje de texto o una llamada telefónica. El código de seguridad que reciba caducará después de diez minutos y solo será válido para un uso. Si no introduce el código de seguridad en un plazo de diez minutos o no ha cogido la llamada, puede solicitar un nuevo código de seguridad. Cada código de seguridad solo es válido una vez, así que asegúrese de estar utilizando el código de seguridad más reciente. Solo puede solicitar tres códigos de seguridad cada 15 minutos, pero por lo demás, puede solicitar tantos códigos como necesite.
 help_subpages:
   get-started: Empiece con login.gov
   trouble-signing-in: ¿Tiene problemas para iniciar sesión?
