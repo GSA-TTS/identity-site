@@ -138,6 +138,15 @@
   }
 }
 
+.usa-overlay {
+  // TODO: Reconcile / backport to Login Design System.
+  background: color("base-darker");
+
+  &.is-visible {
+    opacity: opacity(50);
+  }
+}
+
 nav .usa-search {
   position: absolute;
   right: 1.75rem;
