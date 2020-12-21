@@ -1,0 +1,9 @@
+# Use this file to override default site configuration during local development.
+
+languages:
+  - en
+  # - es
+  # - fr
+
+sass:
+  style: expanded

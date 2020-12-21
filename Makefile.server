@@ -1,7 +1,7 @@
 run: jekyll npm-watch-js
 
 jekyll:
-	bundle exec jekyll serve --watch
+	bundle exec jekyll serve --watch --config _config.yml,_config.dev.yml
 
 npm-watch-js:
 	npm run watch-js
