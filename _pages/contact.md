@@ -47,18 +47,18 @@ description: meta.contact_us.description
         <li><a href="{{ site.baseurl }}/help">Browse more help articles</a></li>
       </ul>
       <h2 id="do-you-need-more-help">Do you need more help? Contact login.gov customer support</h2>
-      <p>Please note, to protect your account security, our customer support agents can’t make changes to your login.gov account. <strong>Agents can’t change your password or access any part of your account.</strong> Agents can help you resolve issues with <a href="#TODO">signing in to login.gov</a> or <a href="#TODO">creating your login.gov account</a>.</p>
+      <p>Please note, to protect your account security, our customer support agents can’t make changes to your login.gov account. <strong>Agents can’t change your password or access any part of your account.</strong> Agents can help you resolve issues with <a href="{{ site.baseurl }}/help/trouble-signing-in/how-to-sign-in">signing in to login.gov</a> or <a href="{{ site.baseurl }}/help/creating-an-account">creating your login.gov account</a>.</p>
       <p>Agents are available to respond to messages Monday - Friday, 8:00 a.m. - 8:00 p.m. ET. Please note that it could take up to two days for our customer support agents to respond to your question. Thank you for your patience.</p>
       <div class="desktop:grid-col-9">
         {% include contact_form.html %}
       </div>
       <footer class="page-content__footer">
         <h2 id="partner-with-login-gov">Partner with login.gov</h2>
-        <p>If you're a federal government employee and your agency is interested in login.gov services, please visit our <a href="#TODO">partners page</a>.</p>
+        <p>If you're a federal government employee and your agency is interested in login.gov services, please visit our <a href="https://partners.login.gov/">partners page</a>.</p>
         <h2 id="report-a-security-issue">Report a security issue</h2>
-        <p>If you want to report a security vulnerability, please review our <a href="#TODO">vulnerability disclosure policy</a> and contact us using our <a href="#TODO">vulnerability disclosure form</a>.</p>
+        <p>If you want to report a security vulnerability, please review our <a href="https://18f.gsa.gov/vulnerability-disclosure-policy/">vulnerability disclosure policy</a> and contact us using our <a href="https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform">vulnerability disclosure form</a>.</p>
       </footer>
-      <a href="#TODO" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
+      <a href="#top" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
     </div>
     <aside class="display-none desktop:display-block grid-offset-1 grid-col-3">
       {{ sidenav }}
