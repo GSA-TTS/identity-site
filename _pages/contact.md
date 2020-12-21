@@ -47,7 +47,7 @@ description: meta.contact_us.description
         <li><a href="{{ site.baseurl }}/help">Browse more help articles</a></li>
       </ul>
       <h2 id="do-you-need-more-help">Do you need more help? Contact login.gov customer support</h2>
-      <p>Please note, to protect your account security, our customer support agents can’t make changes to your login.gov account. <strong>Agents can’t change your password or access any part of your account.</strong> Agents can help you resolve issues with <a href="{{ site.baseurl }}/help/trouble-signing-in/how-to-sign-in">signing in to login.gov</a> or <a href="{{ site.baseurl }}/help/creating-an-account">creating your login.gov account</a>.</p>
+      <p>Please note, to protect your account security, our customer support agents can’t make changes to your login.gov account. <strong>Agents can’t change your password or access any part of your account.</strong> Agents can help you resolve issues with <a href="{{ site.baseurl }}/help/trouble-signing-in/how-to-sign-in">signing in to login.gov</a> or <a href="{{ site.baseurl }}/help/creating-an-account/how-to-create-an-account">creating your login.gov account</a>.</p>
       <p>Agents are available to respond to messages Monday - Friday, 8:00 a.m. - 8:00 p.m. ET. Please note that it could take up to two days for our customer support agents to respond to your question. Thank you for your patience.</p>
       <div class="desktop:grid-col-9">
         {% include contact_form.html %}
