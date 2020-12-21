@@ -173,16 +173,6 @@ global:
     es: Español
     fr: Français
 help:
-  changing-settings:
-    get-a-new-personal-key: Get a new personal key
-    change-my-email-address: Change my email address
-    change-my-password: Change my password
-    change-my-phone-number: Change my phone number
-    add-or-remove-email-address: Add or remove email address
-    email-address-is-already-in-use: Email address is already in use
-    turn-off-two-factor-authentication: Turn off two-factor authentication
-    remove-saved-password-from-browser: Remove saved password from browser
-    delete-my-account: Delete my account
   trouble-signing-in:
     overview: Overview
     how-to-sign-in: How to sign in to login.gov
@@ -196,101 +186,11 @@ help_page:
   p_1: Browse common topics
   title: How can we help?
 help_pages:
-  changing-settings:
-    add-or-remove-email-address: |-
-      You can add or delete email addresses from your login.gov Your Account page.
-
-      <b>To add an email address</b> to your account, use the steps below:
-        1. Go to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"} and sign in to your account
-        2. Click on “Add email”
-        3. Enter the email address you want to add to your account and click Submit
-        4. You will receive an email in your inbox. Click on the link to confirm your email address.
-      The link will take you to the Your account page. You will see a green alert message confirming that your email address was added.
-
-      <b>To delete an email address</b> from your account, use the steps below:
-      Note: you can’t delete an email address if it’s the only one linked to your account.
-        1. Go to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"} and sign in to your account
-        2. Click on the “Delete” link that is next to the email address you want to delete
-        3. Make sure the next page shows the correct email address that you want to delete
-        4. Click on “Delete email address”
-      You will see a green alert message confirming that your email address was removed.
-    email-address-is-already-in-use: |-
-      If you try to add an email address that is connected to another login.gov account, you will get an error message that says, “You have confirmed your email address but it is associated with another login.gov account. You need to remove it from the other account before you can associate it with this one.”
-
-      You can’t add the same email address to two different login.gov accounts, but you can combine the two accounts. To combine accounts, use the steps below:
-        1. Delete one of the accounts
-        2. Sign in to the other account and add the email address that was linked to the account you just deleted
-        3. Relink the application profiles that were linked to your deleted account
-
-      [Read how to delete your account](site.baseurl/help/changing-settings/delete-my-account/)
-      [Read how to add or remove an email address](site.baseurl/help/changing-settings/add-or-remove-email-address/)
-      [Read how to reset your password](site.baseurl/help/signing-in/forgot-my-password/)
-    delete-my-account: |-
-      Deleting your account is the first step to resetting it or combining multiple accounts. If you do not have access to your two-factor authentication method, it will take at least 24 hours to delete your account.
-
-      After you delete your account, you will not be able to sign in to the government applications that you normally use this account for. You will not lose the information in those application profiles, but you will need to relink a new login.gov account to be able to sign in to them.
-
-      To delete your account, use the steps below:
-        1. Go to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
-        2. Sign in with your email, password, and authentication method
-        3. On the Your Account page, scroll to the bottom and click on “Delete”
-        4. Confirm that you are sure you want to delete your account by clicking on “Delete account”
-
-      If you don’t have access to your authentication methods, use the steps below:
-        1. Go to your government application sign in page or to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
-        2. Sign in with your email and password
-        3. On the authentication page (enter your security, app, or backup code; PIV/CAC card; or security key), click on “Choose another security option”
-        4. Scroll to the bottom and click on the “deleting your account” link
-        5. Read through all the information carefully to make sure deleting your account is your only option
-        6. Click on “Yes, continue deletion”
-        7. You will immediately receive an email confirming that we receive your request to delete your account. Your account is not deleted yet. As a security measure, you must wait 24 hours for a second email and click on the link.
-        8. 24 hours later, you will receive a second email. You must open the email and confirm that you want to delete your account by clicking on the link. (Note: The link will expire after 24 hours. Afterwards, you will have to start the account deletion process again.)
-
-      If you are deleting your account to combine it with another, you can now add this email address to your other account. Then, you can relink your application profiles.
-
-      If you are resetting your account, you can now relink your application profiles.
-
-      [Read how to add an email address](site.baseurl/help/changing-settings/add-or-remove-email-address/)
-      [Read how to relink your USAJOBS profile](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
-      [Read how to relink your Trusted Traveler profile](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
-      [Read how to relink your SAM profile](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
-    get-a-new-personal-key: |-
-      We are currently in the process of retiring personal keys. It is highly suggested you configure one or more additional second factor authentication methods. To do so sign in to your account page and request backup codes, configure a phone, register a security key, configure an authentication app, or, if you are a government employee, attach your PIV/CAC card to your account.
-
-      If you have a valid personal key you will still be able to use it in the case you have lost your other authentication mechanism. Once you use the personal key however you will no longer be generated a new one. Instead you will have to configure a different authentication mechanism. After entering your personal key you will be redirected to a screen that will prompt you to choose one or more additional authentication mechanisms.
-    change-my-email-address: To change the email address associated with your login.gov
-      account, go to [https://secure.login.gov/](https://secure.login.gov/) and
-      sign in to your login.gov account. Click on "Add email” and go through the process of adding your new email address.
-      Then, click on "Delete" next to the email address you are replacing and go through the process of deleting it.
-
-      [Read more on how to add or remove an email address](site.baseurl/help/changing-settings/add-or-remove-email-address/)
-    change-my-password: |-
-      To change your password, go to [https://www.login.gov/](https://www.login.gov/) and select “Sign In” to sign into your login.gov account. Select “Edit” next to password, enter the new password and submit your change. Passwords must be at least 12 characters but otherwise there are no restrictions. You can even use more than one word with spaces to get to 12 characters. Try making a long and complex password by using a phrase or a series of words that only you recognize. And please make it different than any other passwords you use to sign into other accounts such as your bank account or email. Using the same passwords for your email, financial and social media accounts makes identity theft easier.
-
-      [Read more on how to reset your password](site.baseurl/help/signing-in/forgot-my-password/)
-    change-my-phone-number: |-
-      To change the phone number where you get your security code, go to [https://www.login.gov/](https://www.login.gov/) and select “Sign In” to access your login.gov account. Once signed in, click on “Manage” next to the phone number. Enter the phone number and select “confirm change.” login.gov will immediately send your security code to confirm the new phone number.
-
-      If you cannot receive the security code because you don't have access to your phone, you will need to sign in using your [personal key](site.baseurl/help/creating-an-account/personal-key/), if you were assigned one and it's still valid, or using another [two-factor authentication method](site.baseurl/help/creating-an-account/two-factor-authentication/) you've set up.
-    turn-off-two-factor-authentication: |-
-      login.gov does not allow you to turn off two-factor authentication, but you can set up the "remember browser" feature. This will allow you to sign in without entering a security code for 30 days. Every 30 days you will be required to renew this feature by going through the normal two-factor authentication steps and selecting "remember browser." NOTE: If you use login.gov on multiple devices and browsers, you must set up “remember browser” on each one.
-
-        1. Enter email and password to begin sign in process.
-        2. Enter the security code and select “Remember this browser for 30 days”.
-        3. After setting up "remember browser," you will not be prompted to enter a security code for 30 days.
-    remove-saved-password-from-browser: |-
-      If you accidentally saved your login.gov password or other sign-in information in your browser, it's a good idea for you to delete it; this will help you keep your account more secure. From the following list, select the browser (the computer program you use to access the World Wide Web) you use to learn how to make it erase any saved information:
-
-      - [Chrome](https://support.google.com/chrome/answer/95606){:target="_blank"}
-      - [Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-change-passwords#w_viewing-and-deleting-passwords){:target="_blank"}
-      - [Internet Explorer](https://support.microsoft.com/en-us/help/17499/windows-internet-explorer-11-remember-passwords-fill-out-web-forms#ie=ie-11){:target="_blank"}
-      - [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank"}
-
-      Also, remember whenever you're online, check the address bar of any webpage you're visiting to make sure that you can trust them, especially any page that asks you to share a username and password. Be careful about sharing personal information such as your login credentials, financial information, or Social Security number over email.
   trouble-signing-in:
     overview: |-
+      # Trouble signing in?
       Forgot your password? Locked out of your account? We'll help you resolve account access issues.
-
+      
       ## Common troubleshooting topics 
         * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password)
@@ -300,89 +200,46 @@ help_pages:
         * [Security code issues](site.baseurl/help/trouble-signing-in/security-code-issues)
         * [Password reset issues](site.baseurl/help/trouble-signing-in/password-reset-issues)
     how-to-sign-in: |-
-      <img src="site.baseurl/assets/img/help/1-login-gov-welcome.png" class="mt3 mb3 block" alt="Login.gov create account page help image" />
-      To create a login.gov account you’ll need a valid email address and a working phone number. We’ll also ask you to create a password.
+      # How to sign in to login.gov
+      Every time you sign in to your login.gov account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up.
 
-      Please be prepared to configure another authentication method out of the list available. Using this secondary authentication method allows us to protect your account better.
-
-      ### Enter your email and confirm it
-      <img src="site.baseurl/assets/img/help/2-login-gov-enteremail.png" class="mt3 mb3 block" alt="Enter your email help image" />
-      Select [“create an account”](https://secure.login.gov/sign_up/enter_email) and enter your email address. Then check your email account for a message from us. Within the email is a link. Selecting the link will confirm your email address and send you back to login.gov.
-      This is what it looks like:
-      <img src="site.baseurl/assets/img/help/3-confirm-your-email.png" class="mt3 mb3 block" alt="Confirm your email help image" />
-
-      ### Create a password
-      Next, you will create a strong password. Use the password strength meter on the screen as a guide. Passwords must be at least 12 characters, but otherwise there are no restrictions. You can even enter spaces in between words to get to 12 characters.
-      <img src="site.baseurl/assets/img/help/4-choose-a-password.png" class="mt3 mb3 block" alt="Choose password help image" />
-
-      ### Configure a second layer of security
-      Next, you will configure a secondary authentication method. The second step keeps your account more secure than using only a password. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
-
-      Login.gov uses two-factor authentication (TFA), or multi-factor authentication (MFA), as an added layer of protection to secure your most sensitive information.
-
-      Two-factor authentication can be done in multiple ways and each has a different level of security. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
-
-      We encourage you to review the available options and select the most secure option for you.
-
-      [Learn more about each authentication method.](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/)
-
-      <img src="site.baseurl/assets/img/help/2nd_factor_options.png" class="mt3 mb3 block" alt="2nd factor options help image" />
-
-      #### Authentication application
-      Authentication apps are downloaded to your device and generate secure, 6-digit codes you can use to log in to your accounts. Unlike phone calls or text messaging/SMS, a hacker would need physical access to your cell phone in order to use the code.
-
-      While authentication apps are not protected if your device is lost or stolen, these apps offer more security than phone calls or text messaging/SMS against phishing, hacking or interception.
-
-      If you choose to use this secure option, you can download and install one of the supported applications and configure it to work with login.gov. Learn how to set up an authentication app.
-      [Read more on how to set up an authentication app.](site.baseurl/help/creating-an-account/authentication-application/)
-
-      <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
-
-      #### Security key
-      A security key is typically a physical device, like a USB, that you plug into your computer. The key is linked to your accounts and will only grant access to those accounts once the key is plugged in and activated. Since a security key does not rely on your cell phone, it has the highest level of protection against phishing and built in protections against hacking if it is lost or stolen.
-
-      Login.gov requires security keys that meet the FIDO standards. You can also add as many security keys as you want to secure your account.
-
-      To use this secure option for authentication, plug the key into a USB port and assign the key a name to identify it within your login.gov account. The next step will ask you to activate your key. This is generally done by pressing a button on the key itself.
-      <img src="site.baseurl/assets/img/help/security_key.png" class="mt3 mb3 block" alt="Security key help image" />
-
-      #### Text message/SMS or Phone call
-      Text message/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers and other attacks.
-
-      If you choose to use this less secure option, enter a phone number at which you can get phone calls or text messages. If you have a landline, you must receive your security code by phone call. login.gov cannot send security codes to extensions or voicemails.
-
-      We will send a unique security code to that phone number each time you sign into your account.
-      <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
-
-      Each security code expires after 10 minutes and can only be used once. If you don’t enter the security code within 10 minutes, just request a new code. Each code is only good once, so no one can steal one you’ve already used.
-      <img src="site.baseurl/assets/img/help/text-confirmation-code.png" class="mt3 mb3 block" alt="Phone text confirmation code help image" />
-
-      Type the security code into the field. That’s it! Every time you sign back into your login.gov account, you will receive a new security code that you need to enter. You’ll get the option each time you sign in to get a security code by a phone call or by SMS.
-      <img src="site.baseurl/assets/img/help/6-enter-one-time-security-code.png" class="mt3 mb3 block" alt="Enter security code help image" />
-
-      #### Backup codes
-      While backup codes are an accessible option for users who do not have phone access, these codes are the least secure option for two-factor authentication. Backup codes must be printed or written down which makes them more vulnerable to theft and phishing.
-
-      If you choose to select this less secure option, login.gov will generate a set of 10 codes. After you sign in with your username and password, you will be prompted for a code. Each code may only be used once, once the 10th code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of attention as you would your password.
-      <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
+      Follow these steps to sign in to login.gov.
+        1. Enter your email address at [https://secure.login.gov](https://secure.login.gov). 
+        1. Enter your password.
+        1. Click the “Sign in” button.
+        1. Authenticate using one of the methods you set up. Options include:
+            1. Entering a security code from your authentication application
+            1. Using your security key
+            1. Entering a security code that you receive by text or by phone call
+            1. Entering a backup code
+            1. Using your federal government employee or military ID (PIV or CAC)
+        1. You will then be taken to your login.gov account page.
+      
+      ## Related articles 
+      [Authentication options](#)
+      [Verify your identity](#)
     forgot-your-password: |-
-      login.gov requires users to set up two forms of two-factor authentication methods when creating an account. However, if you do not have access to a phone, authentication application, security key, or government employee ID (PIV/CAC card), you can set up your account with only backup codes.
-
-      Warning: Setting up your account with backup codes as your only authentication method is not recommended. If you ever lose your backup codes, you will not be able to sign in to your account.
-
-      When you are creating your account, you will reach the “Secure your account” page. This is where you must choose you primary authentication method. If you do not have access to any of the other options, select “Backup Codes” and click “Continue”.
-
-      Download, print, copy, or write down your back up codes and save them in a secure place. Then, click “Continue”. Note: you must click “Continue” to activate your backup codes. If you do not and you exit the page instead, you will not be able to use that set of backup codes to sign in later.
-
-      On the “Add another method” page, select “I don’t have any of the above” and click “Continue”
-
-      You will then be finished creating your account. Each time you sign in using login.gov, you will be asked to enter one of your backup codes. After you use the 10th code, you will be given a new set of backup codes to save and use.
+      # Forgot your password
+      Follow these steps to reset your password.
+      1. Go to [https://secure.login.gov](https://secure.login.gov).
+      1. Select the “Forgot your password?” link near the bottom of the page.
+      1. On the next screen, enter your email address.
+      1. Click the “Continue” button.
+      1. Check your email for a message from login.gov. 
+      1. Click the “Reset your password” button in the message. This will take you back to the login.gov website.
+      1. Enter your new password.
+          Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.  
+          
+          Your login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
+      1. Click the “Change password” button.
     locked-out-of-login: |-
+      # Locked out of login.gov account
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
 
       - If you mistyped your address, you can create a new account.
       - If you are certain you entered the correct address, choose “send again” to get a new confirmation email.
     phone-or-authentication-methods-not-available: |-
+      # Phone or authentication methods not available
       Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in](site.baseurl/help/signing-in/forgot-my-password).
 
       Please submit a [support ticket](site.baseurl/contact) if you are sure you did not create an account.
@@ -391,6 +248,7 @@ help_pages:
 
       [Why do I have to use login.gov?](site.baseurl/help/privacy-and-security/why-do-i-have-to-use-logingov/)
     forgot-your-email-address: |-
+      # Forgot your email address
       Your password should be at least 8 characters long. Try using multiple words and spaces to create a memorable phrase. Longer passwords with many words are stronger than short passwords with special characters.
 
       When creating a password, also try to avoid using slang terms and common misspellings and words spelled backward. Also, avoid using your company name or your spouse's or children's names - and even your pet - as well as other personal information such as your age or birth date.
@@ -399,6 +257,7 @@ help_pages:
 
       But, if you repeatedly enter an incorrect password, it is most likely due to a malicious person taking over your machine that you left unattended. In that case, for your security, we sign you out after three failed attempts.
     security-code-issues: |-
+      # Security code issues
       A personal key is a 16-character secret code that login.gov gives you after you verify their identity. It’s used to encrypt your data (think of it as a key to your secret information). You don’t need it every time you sign in, but you will need it if you reset your password.
 
       Remember, it’s the key to your personal information, so make sure you keep it in a safe place where it can’t be lost or stolen.
@@ -421,11 +280,10 @@ help_pages:
       [What is phishing?](site.baseurl/help/privacy-and-security/what-is-phishing/)
       [Why do I need to verify my identity?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
     password-reset-issues: |-
+      # Password reset issues
       login.gov uses two-factor authentication (2FA) to keep accounts secure. This means that, each time you sign in, you must use something you know and something you have. This makes your account safer by making it much harder for others to break into it.
 
       1. The ‘something you know’ is your password. We’ll ask you to create a strong password (at least 12 characters long) when you create your account.
-
-
       2. The ‘something you have’ is your two-factor authentication method. You’ll be able to choose between the following options when you create your account.
         - Phone: Get security codes by text message (SMS) or phone call
         - [Authentication app](site.baseurl/help/creating-an-account/authentication-application/): Get codes from an app on your phone, computer, or tablet
@@ -439,8 +297,7 @@ help_pages:
       [Phone didn’t get a security code](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
       [No phone or other authentication method](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
 help_subpages:
-  changing-settings: Changing settings
-  trouble-signing-in: Trouble Signing In?
+  trouble-signing-in: Trouble signing in?
 implementation_page:
   heading: Implementing an identity management system
   section_1:
