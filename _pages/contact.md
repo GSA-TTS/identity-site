@@ -58,7 +58,7 @@ description: meta.contact_us.description
         <h2 id="report-a-security-issue">Report a security issue</h2>
         <p>If you want to report a security vulnerability, please review our <a href="https://18f.gsa.gov/vulnerability-disclosure-policy/">vulnerability disclosure policy</a> and contact us using our <a href="https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform">vulnerability disclosure form</a>.</p>
       </footer>
-      <a href="#top" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
+      <a href="#" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
     </div>
     <aside class="display-none desktop:display-block grid-offset-1 grid-col-3">
       {{ sidenav }}
