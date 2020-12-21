@@ -3,6 +3,7 @@ main {
   background: white;
 }
 
+.container,
 div > .container,
 section > .container,
 nav > .container {
@@ -108,5 +109,27 @@ article.container {
 .container {
   .hdr {
     padding: 0.5rem 0 0.5rem 2.75rem;
+  }
+}
+
+.page-content {
+  @include u-padding-y(3);
+
+  @include at-media("desktop") {
+    @include u-padding-y(8);
+  }
+}
+
+.page-content__footer {
+  @include u-border-top(1px, "primary-light");
+  @include u-margin-top(8);
+  @include u-padding-top(4);
+}
+
+.display-none.desktop\:display-block {
+  // TODO: This can be removed after upgrading to identity-style-guide@3
+  // See: https://github.com/uswds/uswds/pull/3308
+  @include at-media("desktop") {
+    display: block;
   }
 }

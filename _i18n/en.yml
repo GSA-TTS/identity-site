@@ -3,6 +3,8 @@
   content:
     p_1: You might want to double-check your link and try again. (404)
   heading: The page you were looking for doesn’t exist.
+accessible_labels:
+  secondary_navigation: Secondary navigation
 actions:
   read_more: Read more
   search: Search
@@ -19,21 +21,6 @@ banner:
     secure_heading: The site is secure.
     secure_description: "The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely."
 contact_page:
-  content: |-
-    ## Find help using login.gov
-    **Web**: [Help](site.baseurl/help)
-
-
-    Check out answers to [common questions](site.baseurl/help). Still have a question or a problem?
-
-    ## Partner with login.gov
-    If you’re a U.S. federal government agency interested in partnering with login.gov, please [visit our partners page](site.baseurl/partners).
-
-    ## Report a security issue
-    If you’re a security researcher looking to report a vulnerability, please review our [vulnerability disclosure policy](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} and contact us using our [vulnerability disclosure form](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform){:target="_blank"}.
-
-    ## Note for Trusted Traveler Programs users
-    For questions about the Trusted Traveler Programs (Global Entry, GOES, Sentri, or Nexus), [please contact CBP](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}.
   support_request_form:
     agencies:
       cbp_jobs: Customs and Border Protection Jobs
@@ -49,24 +36,21 @@ contact_page:
       trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
       veterans_affairs: Veterans Affairs
-    instructions: Let us know a bit about the problem you’re experiencing and we’ll
-      get back to you soon
     form_helpers:
-      select_one: "--Select one--"
-      select_topic: "--Select a topic first--"
+      select: "- Select -"
     labels:
       agency_application: Agency application
       agency_application_all: All Applications
       agency_application_common: Common Applications
       agency_application_other: Other Applications
-      description: Issue description
+      description: Provide more detail about your question
       email: Email
       first_name: First name
       last_name: Last name
-      phone: Phone number (optional)
-      pii_warning: Please do not include sensitive or identifying information in this section such as your full name, birth date or social security number.
-      subtopic: Issue sub-topic
-      topic: Issue topic
+      pii_warning: Please do **not** include sensitive or identifying information in this section such as your full name, birth date or social security number.
+      subtopic: Issue
+      topic: Topic
+    reset: Clear form
     submit: Submit
     subtopics:
       account_locked: My account is locked for 24 hours
@@ -116,7 +100,6 @@ contact_page:
       wrong_account_update: Wrong account update
     alert_banner:
     alert_banner_link:
-    title: Contact the login.gov team
     topics:
       account_linking: Linking your login.gov account to your profile
       changing_settings: Changing your login.gov information
@@ -1058,6 +1041,9 @@ why-login-gov_page:
       li_4: The convenience of identity verification from home
       li_5: Simple tools to manage and update their account
       li_6: Descriptive help content, and a staffed contact center for user support
+contact:
+  hero:
+    heading: Contact us
 create-an-account:
   hero:
     heading: Create an account

@@ -10,6 +10,35 @@ article p {
   @include para-style();
 }
 
+.page-content__prose {
+  // TODO: Reconcile with above `article p` styles. These are more broad in applying links, list,
+  // heading styles, and are also associated with accompanying classes for page content (footer,
+  // layout styles).
+  @include usa-content-styles;
+
+  &,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    // TODO: Remove this once we assign `$theme-font-sans` design system variable to Public Sans.
+    font-family: $sans-serif-font-family;
+
+    // TODO: Remove this once we assign `$theme-body-line-height` design system variable.
+    line-height: $line-height;
+  }
+
+  p {
+    // TODO: Remove this once we assign `$theme-body-line-height` design system variable.
+    line-height: $line-height;
+
+    // TODO: Consider respecting or customizing `$theme-text-measure` design system variable.
+    max-width: none;
+  }
+}
+
 .monospace {
   font-family: $monospace-font-family;
 }

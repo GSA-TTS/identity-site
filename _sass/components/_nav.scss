@@ -221,7 +221,24 @@ nav {
 }
 
 .anchor-to-top {
-  display: block;
-  margin-top: 2rem;
+  @include u-display("inline-block");
+  @include u-margin-top(4);
   font-size: $base-font-sm;
+  text-decoration: none;
+}
+
+.usa-sidenav {
+  // TODO: Reconcile / backport to Login Design System.
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+
+  .usa-current {
+    background-color: transparent;
+  }
+}
+
+.usa-sidenav__sublist .usa-sidenav__item {
+  // TODO: Reconcile / backport to Login Design System.
+  border-top: 0;
 }
