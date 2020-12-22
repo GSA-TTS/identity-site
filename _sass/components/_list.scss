@@ -32,7 +32,9 @@
 }
 
 .help-article > h2:first-of-type + ul,
+.help-article > h2:first-of-type + ol,
 .help-question-list,
+.page-content__prose ol,
 .page-content__prose ul.help-question-list {
   list-style-type: none;
   margin-left: 0;
@@ -45,7 +47,6 @@
       background-color: color("primary-darker");
       border-radius: 50%;
       color: color("white");
-      content: "?";
       display: inline-block;
       font-weight: bold;
       height: 25px;
@@ -53,6 +54,28 @@
       margin-right: .75rem;
       text-align: center;
       width: 25px;
+    }
+  }
+}
+
+.help-article > h2:first-of-type + ul,
+.help-question-list,
+.page-content__prose ul.help-question-list {
+  li::before {
+    content: "?";
+  }
+}
+
+.help-article > h2:first-of-type + ol,
+.page-content__prose ol {
+  counter-reset: num;
+
+  li {
+    @include u-margin-y(2);
+    counter-increment: num;
+
+    &::before {
+      content: counter(num);
     }
   }
 }
