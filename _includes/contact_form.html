@@ -266,7 +266,7 @@
     let field = document.getElementById(topicID);
     field.options.length = 0;
     field.options[0] = new Option(
-      "{% t contact_page.support_request_form.form_helpers.select_one %}",
+      "{% t contact_page.support_request_form.form_helpers.select %}",
       "",
       false,
       true
@@ -282,7 +282,7 @@
 
     let sub = document.getElementById("sub-topic");
     sub.options[0] = new Option(
-      "{% t contact_page.support_request_form.form_helpers.select_topic %}",
+      "{% t contact_page.support_request_form.form_helpers.select %}",
       null,
       false,
       true
@@ -310,7 +310,7 @@
         console.log(topicMap[i]);
         options.push(
           new Option(
-            "{% t contact_page.support_request_form.form_helpers.select_one %}",
+            "{% t contact_page.support_request_form.form_helpers.select %}",
             "",
             false,
             true
@@ -351,140 +351,111 @@
   document.addEventListener("DOMContentLoaded", doNotAnswer);
 </script>
 
-<h2>{% t contact_page.support_request_form.title %}</h2>
-<p>{% t contact_page.support_request_form.instructions %}</p>
-
-<form id="contact-us-form" action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST"
-  onSubmit="return remapvalues(this); return true;">
+<form
+  id="contact-us-form"
+  action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
+  method="POST"
+  onSubmit="return remapvalues(this); return true;"
+  class="usa-form"
+>
   <input type="hidden" name="retURL" value="http://login.gov" />
   <input type="hidden" name="orgid" value="00DU0000000Leux" />
-  <div class="lg-col lg-col-12 select">
-    <label class="bold" for="00Nt0000000OYA2">{% t contact_page.support_request_form.labels.agency_application
-      %}</label>
-    <select class="block sm-col-6 field select required" id="00Nt0000000OYA2" name="00Nt0000000OYA2"
-      title="Agency Application" required>
-      <option value="" selected hidden>
-        {% t contact_page.support_request_form.form_helpers.select_one %}
-      </option>
-      <optgroup label="{% t contact_page.support_request_form.labels.agency_application_common %}">
-        <option value="USAJOBS">
-          {% t contact_page.support_request_form.agencies.usajobs %}
-        </option>
-        <option value="SBA DLAP">
-          {% t contact_page.support_request_form.agencies.sba_dlap %}
-        </option>
-        <option value="Trusted Traveler Programs (Global Entry/Nexus/Sentri)">
-          {% t
-          contact_page.support_request_form.agencies.trusted_traveler_program %}
-        </option>
-      </optgroup>
-      <optgroup label="{% t contact_page.support_request_form.labels.agency_application_all %}">
-        <option value="Customs and Border Protection Jobs">
-          {% t contact_page.support_request_form.agencies.cbp_jobs %}
-        </option>
-        <option value="Customs and Border Protection ROAM">
-          {% t contact_page.support_request_form.agencies.cbp_roam %}
-        </option>
-        <option value="DOD Moves.mil (Homes or Office)">
-          {% t contact_page.support_request_form.agencies.move_mil %}
-        </option>
-        <option value="DOT FMCSA (Motor Carrier Safety)">
-          {% t contact_page.support_request_form.agencies.dot_fmcsa %}
-        </option>
-        <option value="DOT National Registry of Certified Medical Examiners">
-          {% t contact_page.support_request_form.agencies.dot_nrcme %}
-        </option>
-        <option value="DS Logon">
-          {% t contact_page.support_request_form.agencies.ds_logon %}
-        </option>
-        <option value="GSA Sam.gov">
-          {% t contact_page.support_request_form.agencies.sam %}
-        </option>
-        <option value="Railroad Retirement Board">
-          {% t
-          contact_page.support_request_form.agencies.railroad_retirement_board
-          %}
-        </option>
-        <option value="SBA DLAP">
-          {% t contact_page.support_request_form.agencies.sba_dlap %}
-        </option>
-        <option value="Trusted Traveler Programs (Global Entry/Nexus/Sentri)">
-          {% t
-          contact_page.support_request_form.agencies.trusted_traveler_program %}
-        </option>
-        <option value="USAJOBS">
-          {% t contact_page.support_request_form.agencies.usajobs %}
-        </option>
-        <option value="Veterans Affairs">
-          {% t contact_page.support_request_form.agencies.veterans_affairs %}
-        </option>
-      </optgroup>
-      <optgroup label="{% t contact_page.support_request_form.labels.agency_application_other %}">
-        <option value="Other">
-          {% t contact_page.support_request_form.agencies.other %}
-        </option>
-      </optgroup>
-    </select>
-  </div>
-
-  <div>
-    <div class="form-group required-field">
-      <label class="bold" for="email">{% t contact_page.support_request_form.labels.email %}</label>
-      <input class="field string sm-col-12" id="email" maxlength="80" name="email" type="text"
-        placeholder="john.smith@example.com"
-        pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
-        title="Please enter an email address" required />
-    </div>
-  </div>
-
-  <div>
-    <div class="form-group">
-      <label class="bold" for="00NU0000004z90E">{% t contact_page.support_request_form.labels.phone %}</label>
-      <input class="field string sm-col-4 required" id="00NU0000004z90E" maxlength="40" name="00NU0000004z90E"
-        placeholder="5556667777" type="text" pattern="^\d{3}[-. (]*\d{3}[-. (]*\d{4}$"
-        title="Please enter a phone number in 5556667777 format" />
-    </div>
-  </div>
-
-  <div>
-    <div class="form-group required-field">
-      <label class="bold" for="00NU0000004z903">{% t contact_page.support_request_form.labels.topic %}</label>
-      <select class="block grid-col-8 field select" id="00NU0000004z903" name="00NU0000004z903" title="Issue Topic"
-        required onchange="dynamicdropdown(this.options[this.selectedIndex].value);"></select><br />
-    </div>
-  </div>
-
-  <div>
-    <div class="form-group">
-      <label class="bold" for="sub-topic">{% t contact_page.support_request_form.labels.subtopic %}</label>
-      <select class="block sm-col-10 field select" id="sub-topic" name="00NU0000004z905"
-        title="Issue Sub-Topic"></select><br />
-    </div>
-  </div>
-
-  <div>
-    <label class="bold" for="description">{% t contact_page.support_request_form.labels.description %}</label>
-    <em class="instructions margin-bottom-1">{% t contact_page.support_request_form.labels.pii_warning %}</em>
-    <textarea class="field text sm-col-12" id="description" name="description" required rows="5" cols="50"
-      maxlength="32000"></textarea>
-  </div>
-
-  <div>
-    <label class="bold" for="description">Additional Info:</label>
-    <textarea class="field text sm-col-12" id="information" name="00Nt0000000FsTK" required rows="1" cols="50"
-      maxlength="80"></textarea>
-  </div>
-
-  <div>
-    <div class="g-recaptcha" data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"></div>
-    <br />
-  </div>
-
-  <input type="hidden" name="captcha_settings"
-    value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"00DU0000000Leux","ts":""}' />
   <input type="hidden" name="status" id="status" value="New" />
   <input type="hidden" id="external" name="external" value="1" />
   <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu" />
-  <input class="btn btn-primary sm-col-3" type="submit" name="submit"
-    value="{% t contact_page.support_request_form.submit %}" />
+
+  <!-- START: Topic -->
+  <label class="usa-label" for="00NU0000004z903">{% t contact_page.support_request_form.labels.topic %}</label>
+  <select
+    id="00NU0000004z903"
+    name="00NU0000004z903"
+    required
+    onchange="dynamicdropdown(this.options[this.selectedIndex].value);"
+    class="usa-select"
+  ></select>
+  <!-- END: Topic -->
+
+  <!-- START: Subtopic -->
+  <label class="usa-label" for="sub-topic">{% t contact_page.support_request_form.labels.subtopic %}</label>
+  <select id="sub-topic" name="00NU0000004z905" class="usa-select"></select>
+  <!-- END: Subtopic -->
+
+  <!-- START: Agency Application -->
+  <label class="usa-label" for="00Nt0000000OYA2">
+    {% t contact_page.support_request_form.labels.agency_application %}
+  </label>
+  <select id="00Nt0000000OYA2" name="00Nt0000000OYA2" required class="usa-select">
+    <option value="" selected hidden>{% t contact_page.support_request_form.form_helpers.select %}</option>
+    <optgroup label="{% t contact_page.support_request_form.labels.agency_application_common %}">
+      <option value="USAJOBS">{% t contact_page.support_request_form.agencies.usajobs %}</option>
+      <option value="SBA DLAP">{% t contact_page.support_request_form.agencies.sba_dlap %}</option>
+      <option value="Trusted Traveler Programs (Global Entry/Nexus/Sentri)">{% t contact_page.support_request_form.agencies.trusted_traveler_program %}</option>
+    </optgroup>
+    <optgroup label="{% t contact_page.support_request_form.labels.agency_application_all %}">
+      <option value="Customs and Border Protection Jobs">{% t contact_page.support_request_form.agencies.cbp_jobs %}</option>
+      <option value="Customs and Border Protection ROAM">{% t contact_page.support_request_form.agencies.cbp_roam %}</option>
+      <option value="DOD Moves.mil (Homes or Office)">{% t contact_page.support_request_form.agencies.move_mil %}</option>
+      <option value="DOT FMCSA (Motor Carrier Safety)">{% t contact_page.support_request_form.agencies.dot_fmcsa %}</option>
+      <option value="DOT National Registry of Certified Medical Examiners">{% t contact_page.support_request_form.agencies.dot_nrcme %}</option>
+      <option value="DS Logon">{% t contact_page.support_request_form.agencies.ds_logon %}</option>
+      <option value="GSA Sam.gov">{% t contact_page.support_request_form.agencies.sam %}</option>
+      <option value="Railroad Retirement Board">{% t contact_page.support_request_form.agencies.railroad_retirement_board %}</option>
+      <option value="SBA DLAP">{% t contact_page.support_request_form.agencies.sba_dlap %}</option>
+      <option value="Trusted Traveler Programs (Global Entry/Nexus/Sentri)">{% t contact_page.support_request_form.agencies.trusted_traveler_program %}</option>
+      <option value="USAJOBS">{% t contact_page.support_request_form.agencies.usajobs %}</option>
+      <option value="Veterans Affairs">{% t contact_page.support_request_form.agencies.veterans_affairs %}</option>
+    </optgroup>
+    <optgroup label="{% t contact_page.support_request_form.labels.agency_application_other %}">
+      <option value="Other">{% t contact_page.support_request_form.agencies.other %}</option>
+    </optgroup>
+  </select>
+  <!-- END: Agency Application -->
+
+  <!-- START: Email -->
+  <label class="usa-label" for="email">{% t contact_page.support_request_form.labels.email %}</label>
+  <input
+    id="email"
+    maxlength="80"
+    name="email"
+    type="text"
+    placeholder="example@example.com"
+    pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
+    required
+    class="usa-input"
+  />
+  <!-- END: Email -->
+
+  <!-- START: Description -->
+  <label class="usa-label" for="description">{% t contact_page.support_request_form.labels.description %}</label>
+  <div class="usa-hint">{{ site.translations[site.lang].contact_page.support_request_form.labels.pii_warning | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+  <textarea
+    id="description"
+    name="description"
+    required
+    rows="5"
+    cols="50"
+    maxlength="32000"
+    class="usa-textarea"
+  ></textarea>
+  <!-- END: Description -->
+
+  <!-- START: reCAPTCHA -->
+  <div class="g-recaptcha margin-y-4" data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"></div>
+  <input
+    type="hidden"
+    name="captcha_settings"
+    value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"00DU0000000Leux","ts":""}'
+  />
+  <!-- END: reCAPTCHA -->
+
+  <!-- START: Form Actions -->
+  <div class="form-actions">
+    <button type="submit" class="usa-button usa-button--big">
+      {% t contact_page.support_request_form.submit %}
+    </button>
+    <button type="reset" class="usa-button usa-button--big usa-button--outline">
+      {% t contact_page.support_request_form.reset %}
+    </button>
+  </div>
+  <!-- END: Form Actions -->
 </form>

@@ -4,7 +4,9 @@
       class="display-flex flex-column flex-justify-center height-full tablet:grid-col-6"
     >
       <h1 class="hero__title">{{ include.heading }}</h1>
-      <p class="hero__desc">{{ include.text }}</p>
+      {% if include.text %}
+        <p class="hero__description">{{ include.text }}</p>
+      {% endif %}
     </div>
   </div>
 </section>

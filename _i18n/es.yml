@@ -3,6 +3,8 @@
   content:
     p_1: Es posible que desee comprobar su enlace e intentar nuevamente. (404)
   heading: La página que buscaba no existe.
+accessible_labels:
+  secondary_navigation: Navegación secundaria
 actions:
   read_more: Lee mas
   search: Buscar
@@ -19,16 +21,6 @@ banner:
     secure_heading: El sitio es seguro.
     secure_description: "El <strong>https://</strong> garantiza que se está conectando al sitio web oficial y que toda la información que proporciona está encriptada y transmitida de forma segura."
 contact_page:
-  content: |-
-    Estamos experimentando un tráfico extremadamente alto debido al lanzamiento del programa Trusted Traveler hoy. Gracias por su paciencia mientras trabajamos para mejorar el rendimiento de nuestro sistema.
-
-    **Nota para los usuarios del programa Trusted Traveler:** Para iniciar sesión en el sitio web del Programa Trusted Traveler, debe crear una nueva cuenta login.gov. login.gov no tiene acceso al antiguo nombre de usuario, ID de usuario ni contraseña de GOES y no reconocerá automáticamente su dirección de correo electrónico. Sólo el nombre de usuario y la contraseña de login.gov recién creados le permitirán iniciar sesión.
-
-    login.gov no gestiona ni afecta a ninguno de sus miembros, pagos, citas o estado de la aplicación y no podemos responder a ninguna pregunta sobre ellos.
-
-    Para preguntas sobre el Programa de viajeros de confianza (Global Entry, GOES, Sentri o Nexus), comuníquese con CBP en [https://help.cbp.gov/s/questions?language=es](https://help.cbp.gov/s/questions?language=es){:target="_blank"}
-
-    Para preguntas acerca de crear una cuenta o iniciar sesión con login.gov, busque respuestas a preguntas comunes. Para otras preguntas, por favor contáctenos: [hello@login.gov](mailto:hello@login.gov). Tenga en cuenta que estamos experimentando un gran volumen de solicitudes, por lo que puede tardar varios días en comunicarnos con usted.
   support_request_form:
     agencies:
       cbp_jobs: Customs and Border Protection Jobs
@@ -44,24 +36,21 @@ contact_page:
       trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
       veterans_affairs: Veterans Affairs
-    instructions: Cuéntanos un poco sobre el problema que estás experimentando y te
-      responderemos pronto
     form_helpers:
-      select_one: "--Elige un tema--"
-      select_topic: "--Elige un tema primero--"
+      select: "- Select -" # TODO: Translate
     labels:
       agency_application: Aplicación de agencia
       agency_application_all: Todas las aplicaciones
       agency_application_common: Aplicaciones comunes
       agency_application_other: Otras aplicaciones
-      description: Descripción del problema
+      description: Provide more detail about your question # TODO: Translate
       email: Correo electrónico
       first_name: Nombre
       last_name: Apellido
-      phone: Número de teléfono (opcional)
-      pii_warning: No incluya información sensible o de identificación en esta sección, como su nombre completo, fecha de nacimiento o número de seguro social.
-      subtopic: Subtema del asunto
-      topic: Tema del asunto
+      pii_warning: "**No** incluya información sensible o de identificación en esta sección, como su nombre completo, fecha de nacimiento o número de seguro social."
+      subtopic: Issue # TODO: Translate
+      topic: Topic # TODO: Translate
+    reset: Clear form # TODO: Translate
     submit: Enviar
     subtopics:
       add_family_member: ¿Cómo agrego un familiar a mi cuenta login.gov?
@@ -103,7 +92,6 @@ contact_page:
       wrong_account_update: Actualización de la cuenta errónea
     alert_banner:
     alert_banner_link:
-    title: Póngase en contacto con el equipo de login.gov
     topics:
       account_linking: Vinculación de cuenta
       changing_settings: Cambiando ajustes
@@ -927,6 +915,9 @@ who-uses-login-page:
     Login.gov se adhiere a los últimos [estándares de seguridad](site.baseurl/security) establecidos por las principales organizaciones de seguridad como el [Instituto Nacional de Estándares y Tecnología](https://www.nist.gov/){:target='blank'}, el [Plan de Acción Nacional de Ciberseguridad](https://www.hsdl.org/c/cybersecurity-national-action-plan/){:target='_blank'} y el [Servicio federal de adquisiciones](https://www.gsa.gov/about-us/organization/federal-acquisition-service){:target='_blank'}
 
     Las agencias eligen login.gov porque ofrecemos una solución segura y sencilla. [Lea más sobre nuestro programa de socios](https://partners.login.gov){:target='_blank'}.
+contact:
+  hero:
+    heading: Póngase en contacto con nosotros
 create-an-account:
   hero:
     heading: Crea una cuenta
@@ -945,7 +936,7 @@ create-an-account:
         * Clave de seguridad
         * Aplicación de autenticación
         * Identificación militar o de empleado del gobierno federal (PIV / CAC)
-      * __Menos segura__   
+      * __Menos segura__
         * SMS / mensajes de texto
         * Códigos de respaldo
   info: Dependiendo de las necesidades de seguridad de la agencia, es posible que deba probar su identidad mediante un número de seguro social, una dirección y / o una identificación emitida por Los Estados Unidos.

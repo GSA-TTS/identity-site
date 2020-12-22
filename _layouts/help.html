@@ -6,12 +6,11 @@ hero: false
 {% assign parent_url = page.url | replace: slug_permalink %}{% assign related_questions = site.help | where_exp: "item", "item.url contains parent_url" | sort: 'order' %}
 
 <article class="container">
-  <div class="grid-row padding-top-8">
-    <div class="grid-col grid-col-7 help-article">
+  <div class="page-content grid-row">
+    <div class="page-content__prose grid-col grid-col-7 help-article">
       {{ page.content | replace: 'site.baseurl', site.baseurl | markdownify }}
       <a href="#main-content" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
     </div>
     {% include help/nav_sidenav.html %}
-  </div>
   </div>
 </article>

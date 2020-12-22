@@ -8,7 +8,7 @@
       }
     }
   }
-  
+
   a {
     text-decoration: none;
   }
@@ -27,40 +27,68 @@
   background-size: 1rem;
 }
 
-.help-article > h2:first-of-type,
-.list-styled {
+.help-article > h2:first-of-type {
   margin-top: 2rem;
+}
 
-  & + ul, 
-  & + ol {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
+.help-article > h2:first-of-type + ul,
+.help-article > h2:first-of-type + ol,
+.help-question-list,
+.page-content__prose ol,
+.page-content__prose ul.help-question-list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
 
-    li:before {
-      content: "?";
+  li {
+    @include u-margin-y(1);
+    @include u-position("relative");
+    padding-left: 2.25rem;
+
+    &::before {
+      @include u-pin-top;
+      @include u-pin-left;
       background-color: $navy;
-      padding: 2px 8px;
       border-radius: 50%;
       color: $white;
-      line-height: 2.2;
-      margin-right: 0.75rem;
+      display: inline-block;
       font-weight: bold;
-    }
-
-    a {
-      color: $blue-mid;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+      width: 25px;
     }
   }
-  
-  & + ol {
-    counter-reset: num;
 
-    li {
-      counter-increment: num;
+  p {
+    // TODO: Remove once `$theme-body-line-height` is assigned as consistent with `$line-height`.
+    position: relative;
+    $line-height-offset: round(($line-height - line-height($theme-body-font-family, $theme-body-line-height)) * 100) / 100 / -2;
+    top: $line-height-offset;
+
+    &:last-of-type {
+      margin-bottom: $line-height-offset;
     }
+  }
+}
 
-    li:before {
+.help-article > h2:first-of-type + ul,
+.help-question-list,
+.page-content__prose ul.help-question-list {
+  li::before {
+    content: "?";
+  }
+}
+
+.help-article > h2:first-of-type + ol,
+.page-content__prose ol {
+  counter-reset: num;
+
+  li {
+    @include u-margin-y(2);
+    counter-increment: num;
+
+    &::before {
       content: counter(num);
     }
   }
