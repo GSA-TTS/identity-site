@@ -32,6 +32,11 @@ Then, to start serving the site locally in development:
 make run
 ```
 
+You can use the file `_config.dev.yml` to add configuration which should only apply for local development. By default, this includes:
+
+- Configuring SASS to not be minified while in development, to facilitate debugging.
+- Building only the English version of the site, to improve rebuild times. Since you will want to test the site in non-English locales, you can do so by un-commenting those locale slugs in your local configuration.
+
 To develop locally in conjunction with [`identity-style-guide`](https://github.com/18F/identity-style-guide/), run the following commands:
 
 1. In the `identity-style-guide` directory, run `npm link`. This will create a symlink that will make changes to this repo accessible in `identity-site`.
