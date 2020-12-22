@@ -136,14 +136,14 @@
       margin: 0;
     }
   }
+}
 
-  .usa-header .usa-nav.is-visible + .modal-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
+.usa-overlay {
+  // TODO: Reconcile / backport to Login Design System.
+  background: color("base-darker");
+
+  &.is-visible {
+    opacity: opacity(50);
   }
 }
 
@@ -159,7 +159,7 @@ nav .usa-search {
   }
 }
 
-.usa-search--small [type=submit], 
+.usa-search--small [type=submit],
 .usa-search--small .usa-search__submit {
   background-image: none;
   width: auto;

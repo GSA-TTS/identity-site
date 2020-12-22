@@ -53,10 +53,6 @@ $(function () {
     }
   });
 
-  $('.modal-bg').on('click touch', function (event) {
-    $('.usa-menu-btn').click();
-  });
-
   // Smooth scroll
 
   $('a[href^="#"]').on('click', function (event) {
