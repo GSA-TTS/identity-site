@@ -32,10 +32,7 @@ Then, to start serving the site locally in development:
 make run
 ```
 
-You can use the file `_config.dev.yml` to add configuration which should only apply for local development. By default, this includes:
-
-- Configuring SASS to not be minified while in development, to facilitate debugging.
-- Building only the English version of the site, to improve rebuild times. Since you will want to test the site in non-English locales, you can do so by un-commenting those locale slugs in your local configuration.
+Optionally, you can add a `_config.dev.yml` file to the root directory to list configuration which should only apply for local development. Any settings in this file will override an equivalent setting in the base Jekyll `_config.yml` configuration. For example, you may want to configure Sass `style` to `expanded` to debug the non-minified styles, or temporarily disable non-English locales to improve rebuild times.
 
 To develop locally in conjunction with [`identity-style-guide`](https://github.com/18F/identity-style-guide/), run the following commands:
 
