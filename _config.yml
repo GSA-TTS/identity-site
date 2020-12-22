@@ -74,6 +74,7 @@ plugins:
 
 help_pages:
 - trouble-signing-in
+- manage-your-account
 
 # Per-section configs
 playbook:

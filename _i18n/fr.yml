@@ -156,6 +156,13 @@ help:
     forgot-your-email-address: Adresse courriel oubliée
     security-code-issues: Problèmes de code de sécurité
     password-reset-issues: Problèmes de réinitialisation du mot de passe
+  manage-your-account:
+    overview: Aperçu
+    change-your-password: Changez votre mot de passe
+    change-your-phone-number: Modifiez le numéro de téléphone associé à votre compte
+    change-your-email-address: Modifiez l'adresse électronique associée à votre compte
+    delete-your-account: Supprimez votre compte login.gov
+    manage-multiple-accounts: Gérez plusieurs comptes login.gov
 help_page:
   p_1: Parcourir les sujets communs
   title: Comment pouvons nous aider?
@@ -290,9 +297,21 @@ help_pages:
       **Read more**
       [Phone didn’t get a security code](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
       [No phone or other authentication method](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
+  manage-your-account:
+    overview: |-
+      # Gérez votre compte
+      Gérez les paramètres de votre compte, notamment votre mot de passe, votre numéro de téléphone, votre adresse électronique, etc.
+      
+      ## Sujets de dépannage courants
+      * [Changez votre mot de passe](#)
+      * [Modifiez le numéro de téléphone associé à votre compte](#)
+      * [Modifiez l'adresse électronique associée à votre compte](#)
+      * [Supprimez votre compte login.gov](#)
+      * [Gérez plusieurs comptes login.gov](#)
 help_subpages:
   get-started: Commencez avec login.gov
   trouble-signing-in: Des problèmes pour vous connecter?
+  manage-your-account: Gérez votre compte
 implementation_page:
   heading: Mise en œuvre d'un système de gestion d'identité
   section_1:

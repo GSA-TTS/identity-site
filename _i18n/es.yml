@@ -125,6 +125,13 @@ help:
     forgot-your-email-address: Olvidó su dirección de correo electrónico
     security-code-issues: Problemas con el código de seguridad
     password-reset-issues: Problemas con el restablecimiento de la contraseña
+  manage-your-account: 
+    overview: Visión general
+    change-your-password: Cambiar su contraseña
+    change-your-phone-number: Cambiar el número de teléfono asociado a su cuenta
+    change-your-email-address: Cambiar la dirección de correo electrónico asociada a su cuenta
+    delete-your-account: Eliminar su cuenta de login.gov
+    manage-multiple-accounts: Administrar varias cuentas de login.gov
 help_page:
   p_1: Explore los temas comunes
   title: ¿Cómo podemos ayudar?
@@ -225,9 +232,21 @@ help_pages:
       # Problemas con el restablecimiento de la contraseña
 
       Cada vez que inicie sesión, deberá introducir un código de seguridad que se enviará a su teléfono mediante un mensaje de texto o una llamada telefónica. El código de seguridad que reciba caducará después de diez minutos y solo será válido para un uso. Si no introduce el código de seguridad en un plazo de diez minutos o no ha cogido la llamada, puede solicitar un nuevo código de seguridad. Cada código de seguridad solo es válido una vez, así que asegúrese de estar utilizando el código de seguridad más reciente. Solo puede solicitar tres códigos de seguridad cada 15 minutos, pero por lo demás, puede solicitar tantos códigos como necesite.
+  manage-your-account:
+    overview: |-
+      # Administrar su cuenta
+      Administrar los ajustes de su cuenta, incluidos su contraseña, número de teléfono, correo electrónico y más.
+
+      ## Temas comunes de solución de problemas
+      * [Cambiar su contraseña](#)
+      * [Cambiar el número de teléfono asociado a su cuenta](#)
+      * [Cambiar la dirección de correo electrónico asociada a su cuenta](#)
+      * [Eliminar su cuenta de login.gov](#)
+      * [Administrar varias cuentas de login.gov](#)
 help_subpages:
   get-started: Empiece con login.gov
   trouble-signing-in: ¿Tiene problemas para iniciar sesión?
+  manage-your-account: Administrar su cuenta
 implementation_page:
   heading: Implementando un sistema de gestión de la identidad
   section_1:

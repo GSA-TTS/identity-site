@@ -167,6 +167,13 @@ help:
     forgot-your-email-address: Forgot your email address
     security-code-issues: Security code issues
     password-reset-issues: Password reset issues
+  manage-your-account: 
+    overview: Overview
+    change-your-password: Change your password
+    change-your-phone-number: Change the phone number associated with your account
+    change-your-email-address: Change the email address associated with your account
+    delete-your-account: Delete your login.gov account
+    manage-multiple-accounts: Manage multiple login.gov accounts
 help_page:
   p_1: Browse common topics
   title: How can we help?
@@ -281,8 +288,20 @@ help_pages:
       **Read more**
       [Phone didn’t get a security code](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
       [No phone or other authentication method](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
+  manage-your-account:
+    overview: |-
+      # Manage your account
+      Manage your account settings including your password, phone number, email, and more.
+
+      ## Common troubleshooting topics
+      * [Change your password](#)
+      * [Change the phone number associated with your account](#)
+      * [Change the email address associated with your account](#)
+      * [Delete your login.gov account](#)
+      * [Manage multiple login.gov accounts](#)
 help_subpages:
   trouble-signing-in: Trouble signing in?
+  manage-your-account: Manage your account
 implementation_page:
   heading: Implementing an identity management system
   section_1:
