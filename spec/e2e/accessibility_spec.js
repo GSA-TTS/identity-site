@@ -16,12 +16,7 @@ describe('accessibility', () => {
       const path = new URL(url).pathname;
       await goto(path);
       const results = await new AxePuppeteer(page).analyze();
-      try {
-        expect(results).toHaveNoViolations();
-      } catch (error) {
-        error.message = `Path: ${path}\n\n` + error.message;
-        throw error;
-      }
+      expect(results).toHaveNoViolations();
     },
     TEST_TIMEOUT_MS,
   );
