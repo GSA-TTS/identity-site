@@ -1,4 +1,3 @@
-import { extname } from 'path';
 import { AxePuppeteer } from '@axe-core/puppeteer';
 import { toHaveNoViolations } from 'jest-axe';
 import { page, goto } from './support/browser';
@@ -8,12 +7,13 @@ expect.extend(toHaveNoViolations);
 const TEST_TIMEOUT_MS = 10000;
 
 describe('accessibility', () => {
-  const urls = global.allURLs.filter((url) => !extname(new URL(url).pathname));
+  const paths = global.allURLs
+    .map((url) => new URL(url).pathname)
+    .filter((path) => !path.endsWith('.pdf'));
 
-  test.each(urls)(
+  test.each(paths)(
     '%s',
-    async (url) => {
-      const path = new URL(url).pathname;
+    async (path) => {
       await goto(path);
       const results = await new AxePuppeteer(page).analyze();
       expect(results).toHaveNoViolations();
