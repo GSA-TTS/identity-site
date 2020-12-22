@@ -17,7 +17,7 @@
         {{ site["translations"][site.lang]["help_subpages"][subpage] }}
       </li>
 
-      <div aria-hidden={{ is_initially_hidden }}>
+      <div aria-hidden="{{ is_initially_hidden }}">
         <ul class="usa-sidenav__sublist">
           {% for question in related_questions %}
           {% if question.url == page.url %}
