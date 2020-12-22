@@ -140,7 +140,7 @@
 
 .usa-overlay {
   // TODO: Reconcile / backport to Login Design System.
-  background: color("base-darker");
+  background: $grey-darker;
 
   &.is-visible {
     opacity: opacity(50);

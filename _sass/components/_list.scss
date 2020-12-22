@@ -44,9 +44,9 @@
     @include u-margin-y(1);
 
     &::before {
-      background-color: color("primary-darker");
+      background-color: $navy;
       border-radius: 50%;
-      color: color("white");
+      color: $white;
       display: inline-block;
       font-weight: bold;
       height: 25px;
