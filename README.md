@@ -26,17 +26,20 @@ This is a Jekyll-built static site. To install dependencies:
 make setup
 ```
 
-To run locally in conjunction with [`identity-style-guide`](https://github.com/18F/identity-style-guide/), run the following commands:
-
-0. In the `identity-style-guide` directory, run `npm link`. This will create a symlink that will make changes to this repo accessible in `identity-site`
-
 Then, to start serving the site locally in development:
 
 ```
 make run
 ```
 
-This will start multiple processes that will watch for changes in your local `identity-style-guide` repository.
+Optionally, you can add a `_config.dev.yml` file to the root directory to list configuration which should only apply for local development. Any settings in this file will override an equivalent setting in the base Jekyll `_config.yml` configuration. For example, you may want to configure Sass `style` to `expanded` to debug the non-minified styles, or temporarily disable non-English locales to improve rebuild times.
+
+To develop locally in conjunction with [`identity-style-guide`](https://github.com/18F/identity-style-guide/), run the following commands:
+
+1. In the `identity-style-guide` directory, run `npm link`. This will create a symlink that will make changes to this repo accessible in `identity-site`.
+2. In the `identity-site` directory, run `npm link identity-style-guide`. This will use the copy from your local machine in place of the one downloaded from NPM.
+
+While developing, you may want to automatically rebuild changes made to the style guide by running `npm start` in the `identity-style-guide` directory. Changes made in your local `identity-style-guide` repository will automatically trigger the static site to build.
 
 To run specs:
 

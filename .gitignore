@@ -10,3 +10,4 @@ node_modules/
 .DS_Store
 .jekyll-cache
 .snyk
+_config.dev.yml
