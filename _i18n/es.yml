@@ -16,10 +16,10 @@ banner:
   text:
     official: Un sitio web oficial del gobierno de los Estados Unidos
     how: Así es como sabes
-    gov_heading: La .gov significa que es oficial.
-    gov_description: Los sitios web del gobierno federal a menudo terminan en .gov o .mil. Antes de compartir información confidencial, asegúrese de estar en un sitio del gobierno federal.
-    secure_heading: El sitio es seguro.
-    secure_description: "El <strong>https://</strong> garantiza que se está conectando al sitio web oficial y que toda la información que proporciona está encriptada y transmitida de forma segura."
+    gov_heading: Los sitios web oficiales usan .gov
+    gov_description: Un sitio web .gov pertenece a una organización oficial del Gobierno de Estados Unidos.
+    secure_heading: os sitios web seguros .gov usan HTTPS
+    secure_description: "Un <strong>candado</strong> o <strong>https://</strong> significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros."
 contact_page:
   support_request_form:
     agencies:
