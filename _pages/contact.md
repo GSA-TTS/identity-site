@@ -5,28 +5,28 @@ description: meta.contact_us.description
 ---
 
 {% capture heading %}
-{% t contact.hero.heading %}
+  {% t contact.hero.heading %}
 {% endcapture %}
 
 {% capture sidenav %}
-<nav aria-label="{% t accessible_labels.secondary_navigation %}">
-  <ul class="usa-sidenav">
-    <li class="usa-sidenav__item">
-      <a href="/contact/" class="usa-current">{% t meta.contact_us.title %}</a>
-      <ul class="usa-sidenav__sublist">
-        <li class="usa-sidenav__item">
-          <a href="#do-you-need-more-help">Do you need more help?</a>
-        </li>
-        <li class="usa-sidenav__item">
-          <a href="#partner-with-login-gov">Partner with login.gov</a>
-        </li>
-        <li class="usa-sidenav__item">
-          <a href="#report-a-security-issue">Report a security issue</a>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+  <nav aria-label="{% t accessible_labels.secondary_navigation %}">
+    <ul class="usa-sidenav">
+      <li class="usa-sidenav__item">
+        <a href="/contact/" class="usa-current">{% t meta.contact_us.title %}</a>
+        <ul class="usa-sidenav__sublist">
+          <li class="usa-sidenav__item">
+            <a href="#do-you-need-more-help">Do you need more help?</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="#partner-with-login-gov">Partner with login.gov</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="#report-a-security-issue">Report a security issue</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
 {% endcapture %}
 
 {% include hero.html heading=heading class="bg-none" %}
