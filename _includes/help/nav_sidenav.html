@@ -5,14 +5,13 @@
       {% for subpage in site.help_pages %}
       {% assign subpage_slug = subpage | slugify %}
       {% assign related_questions = site.help | where_exp: "item", "item.url contains subpage_slug" | sort: 'order' %}
-      {% capture is_initially_expanded %}
-      {% if page.url contains subpage_slug %}true{% else %}false
+      {% if page.url contains subpage_slug %}
+        {% assign is_initially_expanded = 'true' %}
+        {% assign is_initially_hidden = 'false' %}
+      {% else %}
+        {% assign is_initially_expanded = 'false' %}
+        {% assign is_initially_hidden = 'true' %}
       {% endif %}
-      {% endcapture %}
-      {% capture is_initially_hidden %}
-      {% if page.url contains subpage_slug %}false{% else %}true
-      {% endif %}
-      {% endcapture %}
       <li class="usa-sidenav__item usa-parent {% if page.url contains subpage_slug %}usa-current{% else %} {% endif %}"
         aria-expanded="{{ is_initially_expanded }}">
         {{ site["translations"][site.lang]["help_subpages"][subpage] }}
