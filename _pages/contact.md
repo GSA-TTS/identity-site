@@ -33,9 +33,9 @@ description: meta.contact_us.description
 
 <div class="container">
   <article class="page-content grid-row">
-    <aside class="desktop:display-none grid-col-12 margin-bottom-3">
+    <div class="desktop:display-none grid-col-12 margin-bottom-3">
       {{ sidenav }}
-    </aside>
+    </div>
     <div class="page-content__prose grid-col-12 desktop:grid-col-8">
       <p>Login.gov is here to help. If you need assistance with your login.gov account, check out these articles on common issues.</p>
       <ul class="help-question-list">
@@ -60,8 +60,8 @@ description: meta.contact_us.description
       </footer>
       <a href="#" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
     </div>
-    <aside class="display-none desktop:display-block grid-offset-1 grid-col-3">
+    <div class="display-none desktop:display-block grid-offset-1 grid-col-3">
       {{ sidenav }}
-    </aside>
+    </div>
   </article>
 </div>
