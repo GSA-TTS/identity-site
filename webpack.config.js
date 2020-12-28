@@ -4,13 +4,14 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
   mode: NODE_ENV,
 
   entry: {
-    site: './assets/js/main.js',
+    main: './assets/js/main.js',
+    contact: './assets/js/contact.js',
   },
 
   target: ['web', 'es5'],
 
   output: {
-    filename: 'bundle.js',
+    filename: '[name].js',
     path: __dirname + '/assets/js/build',
   },
 
