@@ -2,6 +2,8 @@
 title: meta.contact_us.title
 permalink: /contact/
 description: meta.contact_us.description
+scripts:
+  - /assets/js/build/contact.js
 ---
 
 {% capture heading %}

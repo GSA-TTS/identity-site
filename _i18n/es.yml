@@ -36,6 +36,8 @@ contact_page:
       trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
       veterans_affairs: Veterans Affairs
+    errors:
+      captcha_required: You must complete the spam prevention challenge. # TODO: Translate
     form_helpers:
       select: "- Select -" # TODO: Translate
     labels:

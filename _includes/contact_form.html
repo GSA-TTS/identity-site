@@ -288,11 +288,6 @@
       true
     );
     sub.options[0].hidden = true;
-
-    var recaptcha = document.querySelector("#g-recaptcha-response");
-    if (recaptcha) {
-      recaptcha.setAttribute("required", "required");
-    }
   }
 
   function dynamicdropdown(listindex) {
@@ -440,12 +435,22 @@
   <!-- END: Description -->
 
   <!-- START: reCAPTCHA -->
-  <div class="g-recaptcha margin-y-4" data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"></div>
+  <div
+    class="g-recaptcha margin-top-4"
+    data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"
+    data-callback="clearCaptchaError"
+  ></div>
   <input
     type="hidden"
     name="captcha_settings"
     value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"00DU0000000Leux","ts":""}'
   />
+  <div
+    id="captcha-error-message"
+    class="usa-error-message margin-bottom-4"
+    role="alert"
+    data-error="{% t contact_page.support_request_form.errors.captcha_required %}"
+  ></div>
   <!-- END: reCAPTCHA -->
 
   <!-- START: Form Actions -->
