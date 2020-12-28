@@ -344,6 +344,8 @@
     const noAnswer = document.querySelector("#contact-us-form #information");
     if (noAnswer) {
       noAnswer.removeAttribute("required");
+      noAnswer.tabIndex = -1;
+      noAnswer.parentElement.setAttribute('aria-hidden', 'true');
       noAnswer.parentElement.style.position = "absolute";
       noAnswer.parentElement.style.left = "-7000px";
     }
@@ -437,6 +439,21 @@
     maxlength="32000"
     class="usa-textarea"
   ></textarea>
+  <!-- END: Description -->
+
+  <!-- START: Description -->
+  <div>
+    <label class="usa-label" for="information">Additional Info:</label>
+    <textarea
+      id="information"
+      name="00Nt0000000FsTK"
+      required
+      rows="1"
+      cols="50"
+      maxlength="80"
+      class="usa-textarea"
+    ></textarea>
+  </div>
   <!-- END: Description -->
 
   <!-- START: reCAPTCHA -->
