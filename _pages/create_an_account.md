@@ -4,6 +4,7 @@ description: meta.create-an-account.description
 permalink: /create-an-account/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
+one_account_banner: true
 ---
 
 {% capture heading %}
@@ -44,10 +45,3 @@ image: /assets/img/login-gov-600x314.png
     </div>
   </div>
 </div>
-
-{% capture banner_content %}
-
-<p><a class="learn-account-creation usa-button usa-button--big"
-    href="https://secure.login.gov/sign_up/enter_email">{% t banner.one-account-for-govt.create %}</a></p>
-{% endcapture %}
-{% include one_account_banner.html content=banner_content %}

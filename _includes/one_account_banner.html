@@ -1,4 +1,21 @@
-<aside class="banner tagline-content">
-  <header class="tagline">{% t banner.one-account-for-govt.tagline %}</header>
-  {{ include.content }}
+{% if page.url == '/create-an-account/' %}
+  {% assign link_class = 'learn-account-creation usa-button usa-button--big' %}
+  {% assign link_url = 'https://secure.login.gov/sign_up/enter_email' %}
+  {% capture link_content %}{% t banner.one-account-for-govt.create %}{% endcapture %}
+{% else %}
+  {% assign link_class = 'learn-account-creation one-account-banner__link' %}
+  {% assign link_url = create_account_path %}
+  {% capture link_content %}{% t banner.one-account-for-govt.learn %}{% endcapture %}
+{% endif %}
+<aside class="one-account-banner">
+  <div class="one-account-banner__banner">
+    <header class="one-account-banner__tagline">
+      {% t banner.one-account-for-govt.tagline %}
+    </header>
+    <p>
+      <a class="{{ link_class }}" href="{{ link_url }}">
+        {{ link_content }}
+      </a>
+    </p>
+  </div>
 </aside>
