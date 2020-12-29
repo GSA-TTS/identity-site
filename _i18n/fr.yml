@@ -15,12 +15,12 @@ banner:
     learn: Apprendre à créer un compte
     tagline: Votre seul compte pour le gouvernement
   text:
-    official: Un site officiel du gouvernement américain.
+    official: Un site officiel du gouvernement américain
     how: Voici comment vous savez
-    gov_heading: Le .gov signifie que c'est officiel.
-    gov_description: Les sites Web du gouvernement fédéral se terminent souvent par .gov ou .mil. Avant de partager des informations sensibles, assurez-vous que vous êtes sur un site du gouvernement fédéral.
-    secure_heading: Le site est sécurisé.
-    secure_description: "Le <strong>https://</strong> garantit que vous vous connectez au site officiel et que toutes les informations que vous fournissez sont cryptées et transmises en toute sécurité."
+    gov_heading: Les sites Web officiels utilisent .gov
+    gov_description: Un site Web .gov appartient à une organisation gouvernementale officielle des États-Unis.
+    secure_heading: Les sites Web sécurisés .gov utilisent HTTPS
+    secure_description: "Un <strong>verrou</strong> ou <strong>https://</strong> signifie que vous êtes connecté en toute sécurité au site Web .gov. Partagez des informations sensibles uniquement sur des sites Web officiels et sécurisés."
 contact_page:
   support_request_form:
     agencies:

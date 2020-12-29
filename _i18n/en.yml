@@ -14,12 +14,12 @@ banner:
     learn: Learn how to create an account
     tagline: Your one account for government
   text:
-    official: An official website of the United States government.
+    official: An official website of the United States government
     how: Here’s how you know
-    gov_heading: The .gov means it’s official.
-    gov_description: Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
-    secure_heading: The site is secure.
-    secure_description: "The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely."
+    gov_heading: Official websites use .gov
+    gov_description: A <strong>.gov</strong> website belongs to an official government organization in the United States.
+    secure_heading: Secure .gov websites use HTTPS
+    secure_description: "A <strong>lock</strong> or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites."
 contact_page:
   support_request_form:
     agencies:
