@@ -11,6 +11,7 @@ const EXCLUDE_PATTERNS = [
   /\.pdf$/, // Puppeteer Chromium cannot preview PDF files
   /^\/about\/$/, // See: LG-3809 (TODO: Remove with implementation of LG-3809)
   /^\/404\.html$/, // See: LG-3455 (TODO: Remove with implementation of LG-3455)
+  /^\/policy\//, // See: LG-3982 (TODO: Remove with implementation of LG-3982)
 ];
 
 describe('accessibility', () => {
