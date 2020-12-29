@@ -6,10 +6,16 @@ expect.extend(toHaveNoViolations);
 
 const TEST_TIMEOUT_MS = 10000;
 
+/** @type {RegExp[]} */
+const EXCLUDE_PATTERNS = [
+  /\.pdf$/, // Puppeteer Chromium cannot preview PDF files
+  /^\/about\/$/, // See: LG-3809 (TODO: Remove with implementation of LG-3809)
+];
+
 describe('accessibility', () => {
   const paths = global.allURLs
     .map((url) => new URL(url).pathname)
-    .filter((path) => !path.endsWith('.pdf'));
+    .filter((path) => !EXCLUDE_PATTERNS.some((pattern) => pattern.test(path)));
 
   test.each(paths)(
     '%s',
