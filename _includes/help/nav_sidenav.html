@@ -12,13 +12,14 @@
         {% assign is_initially_expanded = 'false' %}
         {% assign is_initially_hidden = 'true' %}
       {% endif %}
-      <li class="usa-sidenav__item usa-parent {% if page.url contains subpage_slug %}usa-current{% else %} {% endif %}"
-        aria-expanded="{{ is_initially_expanded }}">
-        {{ site["translations"][site.lang]["help_subpages"][subpage] }}
-      </li>
-
-      <div aria-hidden="{{ is_initially_hidden }}">
-        <ul class="usa-sidenav__sublist">
+      <li class="usa-sidenav__item usa-parent" aria-expanded="{{ is_initially_expanded }}">
+        <a
+          href="{{ subpage | prepend: '/help/' | prepend: site.baseurl }}"
+          class="{% if page.url contains subpage_slug %}usa-current{% endif %}"
+        >
+          {{ site["translations"][site.lang]["help_subpages"][subpage] }}
+        </a>
+        <ul class="usa-sidenav__sublist" aria-hidden="{{ is_initially_hidden }}">
           {% for question in related_questions %}
           {% if question.url == page.url %}
           {% assign _index = forloop.index | modulo:7 %}
@@ -34,7 +35,7 @@
           </li>
           {% endfor %}
         </ul>
-      </div>
+      </li>
       {% endfor %}
     </ul>
   </nav>
