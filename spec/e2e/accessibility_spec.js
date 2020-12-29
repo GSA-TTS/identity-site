@@ -15,7 +15,9 @@ describe('accessibility', () => {
     '%s',
     async (path) => {
       await goto(path);
-      const results = await new AxePuppeteer(page).analyze();
+      const results = await new AxePuppeteer(page)
+        .exclude('.footer') // See: LG-3561 (TODO: Remove with implementation of LG-3561)
+        .analyze();
       expect(results).toHaveNoViolations();
     },
     TEST_TIMEOUT_MS,
