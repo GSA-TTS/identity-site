@@ -16,6 +16,8 @@ describe('accessibility', () => {
     async (path) => {
       await goto(path);
       const results = await new AxePuppeteer(page)
+        .disableRules('frame-tested')
+        .exclude('iframe')
         .exclude('.footer') // See: LG-3561 (TODO: Remove with implementation of LG-3561)
         .analyze();
       expect(results).toHaveNoViolations();
