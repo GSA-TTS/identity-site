@@ -175,8 +175,8 @@ help_pages:
     overview: |-
       # Trouble signing in?
       Forgot your password? Locked out of your account? We'll help you resolve account access issues.
-      
-      ## Common troubleshooting topics 
+
+      ## Common troubleshooting topics
         * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password)
         * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login)
@@ -189,7 +189,7 @@ help_pages:
       Every time you sign in to your login.gov account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up.
 
       Follow these steps to sign in to login.gov.
-        1. Enter your email address at [https://secure.login.gov](https://secure.login.gov). 
+        1. Enter your email address at [https://secure.login.gov](https://secure.login.gov).
         1. Enter your password.
         1. Click the “Sign in” button.
         1. Authenticate using one of the methods you set up. Options include:
@@ -199,8 +199,8 @@ help_pages:
             1. Entering a backup code
             1. Using your federal government employee or military ID (PIV or CAC)
         1. You will then be taken to your login.gov account page.
-      
-      ## Related articles 
+
+      ## Related articles
       [Authentication options](#)
       [Verify your identity](#)
     forgot-your-password: |-
@@ -210,11 +210,11 @@ help_pages:
       1. Select the “Forgot your password?” link near the bottom of the page.
       1. On the next screen, enter your email address.
       1. Click the “Continue” button.
-      1. Check your email for a message from login.gov. 
+      1. Check your email for a message from login.gov.
       1. Click the “Reset your password” button in the message. This will take you back to the login.gov website.
       1. Enter your new password.
-          Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.  
-          
+          Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.
+
           Your login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
       1. Click the “Change password” button.
     locked-out-of-login: |-
@@ -529,9 +529,6 @@ meta:
     security:
       title: "Privacy & security: Our Security Practices"
       description: Learn the various methods we use to protect this U.S. government service and your data, and to ensure the service remains available to all users.
-  security:
-    title: Security
-    description: Learn how login.gov keeps personal information private.
   what-is-login:
     title: What is login.gov?
     description: A summary of what login.gov is and the service it provides.

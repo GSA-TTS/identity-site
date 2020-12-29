@@ -150,7 +150,7 @@ help_pages:
     overview: |-
       # ¿Problemas al iniciar sesión?
       ¿Olvidaste tu contraseña? ¿Bloqueado tu cuenta? Lo ayudaremos a resolver problemas de acceso a la cuenta.
-      ## Problemas comunes en la solución de problemas 
+      ## Problemas comunes en la solución de problemas
         * [Cómo acceder a login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Olvidó su contraseña](site.baseurl/help/trouble-signing-in/forgot-your-password)
         * [Bloqueada en la cuenta de login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login)
@@ -161,9 +161,9 @@ help_pages:
     how-to-sign-in: |-
       # Cómo iniciar sesión en login.gov
       Cada vez que inicie sesión en su cuenta de login.gov, necesitará su dirección de correo electrónico, su contraseña y contar con alguno de los métodos de autenticación en dos pasos que haya configurado.
-      
+
       Siga estos pasos para iniciar sesión en login.gov:
-      
+
       1. Ingrese su dirección de correo electrónico en [https://secure.login.gov](https://secure.login.gov).
       1. Ingrese su contraseña.
       1. Haga clic en el botón "Iniciar sesión".
@@ -187,9 +187,9 @@ help_pages:
       1. Haga clic en el botón "Continuar".
       1. Busque el mensaje de login.gov en su correo electrónico.
       1. Haga clic en el botón "Restablecer su contraseña" en el mensaje, el cual lo redirigirá a la página web de login.gov.
-      1. Introduzca su nueva contraseña.   
+      1. Introduzca su nueva contraseña.
           Las contraseñas deben incluir al menos 12 caracteres. ¡Eso es todo! No hay restricciones adicionales. Incluso puede utilizar más de una palabra con espacios para completar los 12 caracteres. Intente usar una frase o una serie de palabras que solo usted pueda reconocer.
-          
+
           Su contraseña de login.gov debe ser diferente de las contraseñas que usa para otras cuentas, como su cuenta bancaria o correo electrónico. Utilizar la misma contraseña en múltiples cuentas facilita el robo de identidad.
       1. Haga clic en el botón "Modificar contraseña".
     locked-out-of-login: |-
@@ -475,10 +475,6 @@ meta:
     security:
       title: "Privacidad y seguridad: nuestras prácticas de seguridad"
       description: Conozca los diversos métodos que utilizamos para proteger este servicio del gobierno de EE. UU. Y sus datos, y para garantizar que el servicio permanezca disponible para todos los usuarios.
-  security:
-    description: Descubra cómo login.gov mantiene la privacidad de la información
-      personal.
-    title: Seguridad
   what-is-login:
     description: Un resumen de lo que es login.gov y el servicio que brinda.
     title: ¿Qué es login.gov
