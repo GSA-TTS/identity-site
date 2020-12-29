@@ -12,6 +12,7 @@ const EXCLUDE_PATTERNS = [
   /^\/about\/$/, // See: LG-3809 (TODO: Remove with implementation of LG-3809)
   /^\/404\.html$/, // See: LG-3455 (TODO: Remove with implementation of LG-3455)
   /^\/policy\//, // See: LG-3982 (TODO: Remove with implementation of LG-3982)
+  /^\/partners\//, // TODO: Remove with https://github.com/18F/identity-site/pull/483
 ];
 
 describe('accessibility', () => {
