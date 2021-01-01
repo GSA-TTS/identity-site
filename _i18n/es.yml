@@ -132,6 +132,7 @@ help:
 help_page:
   p_1: Explore los temas comunes
   title: ¿Cómo podemos ayudar?
+  subtitle: Temas comunes de solución de problemas
 help_pages:
   get-started:
     overview: |-
@@ -154,14 +155,6 @@ help_pages:
     overview: |-
       # ¿Problemas al iniciar sesión?
       ¿Olvidaste tu contraseña? ¿Bloqueado tu cuenta? Lo ayudaremos a resolver problemas de acceso a la cuenta.
-      ## Problemas comunes en la solución de problemas
-        * [Cómo acceder a login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
-        * [Olvidó su contraseña](site.baseurl/help/trouble-signing-in/forgot-your-password)
-        * [Bloqueada en la cuenta de login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login)
-        * [Olvidó su dirección de correo electrónico](site.baseurl/help/trouble-signing-in/forgot-your-email-address/)
-        * [No hay teléfono ni métodos de autenticación disponibles](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
-        * [Problemas con el restablecimiento de la contraseña](site.baseurl/help/trouble-signing-in/password-reset-issues/)
-        * [Problemas con el código de seguridad](site.baseurl/help/trouble-signing-in/security-code-issues/)
     how-to-sign-in: |-
       # Cómo iniciar sesión en login.gov
       Cada vez que inicie sesión en su cuenta de login.gov, necesitará su dirección de correo electrónico, su contraseña y contar con alguno de los métodos de autenticación en dos pasos que haya configurado.
@@ -233,13 +226,6 @@ help_pages:
     overview: |-
       # Administrar su cuenta
       Administrar los ajustes de su cuenta, incluidos su contraseña, número de teléfono, correo electrónico y más.
-
-      ## Temas comunes de solución de problemas
-      * [Cambiar su contraseña](#)
-      * [Cambiar el número de teléfono asociado a su cuenta](#)
-      * [Cambiar la dirección de correo electrónico asociada a su cuenta](#)
-      * [Eliminar su cuenta de login.gov](#)
-      * [Administrar varias cuentas de login.gov](#)
     change-your-password: |-
       # Cambie su contraseña
       Siga estos pasos para cambiar su contraseña en login.gov.

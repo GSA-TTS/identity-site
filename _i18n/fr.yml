@@ -163,6 +163,7 @@ help:
 help_page:
   p_1: Parcourir les sujets communs
   title: Comment pouvons nous aider?
+  subtitle: Sujets de dépannage courants
 help_pages:
   get-started:
     overview: |-
@@ -187,15 +188,6 @@ help_pages:
     overview: |-
       # Des problèmes de connexion?
       Vous avez oublié votre mot de passe? Verrouillé votre compte? Nous vous aiderons à résoudre les problèmes d’accès au compte.
-
-      ## Sujets de dépannage courants
-      * [Comment se connecter à login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
-      * [Mot de passe oublié](site.baseurl/help/trouble-signing-in/forgot-your-password)
-      * [Verrouillé du compte login.gov](site.baseurl/help/trouble-signing-in)
-      * [Téléphone ou méthodes d’authentification non disponibles](site.baseurl/help/trouble-signing-in)
-      * [Adresse courriel oubliée](site.baseurl/help/trouble-signing-in)
-      * [Problèmes de code de sécurité](site.baseurl/help/trouble-signing-in/security-code-issues)
-      * [Problèmes de réinitialisation du mot de passe](site.baseurl/help/trouble-signing-in/password-reset-issues)
     how-to-sign-in: |-
       # Comment se connecter à login.gov
       Chaque fois que vous vous connecterez à votre compte login.gov, vous aurez besoin de votre adresse électronique, de votre mot de passe et d'un accès à l'une des méthodes d'authentification à deux facteurs que vous aurez mises en place.
@@ -298,13 +290,6 @@ help_pages:
     overview: |-
       # Gérez votre compte
       Gérez les paramètres de votre compte, notamment votre mot de passe, votre numéro de téléphone, votre adresse électronique, etc.
-      
-      ## Sujets de dépannage courants
-      * [Changez votre mot de passe](#)
-      * [Modifiez le numéro de téléphone associé à votre compte](#)
-      * [Modifiez l'adresse électronique associée à votre compte](#)
-      * [Supprimez votre compte login.gov](#)
-      * [Gérez plusieurs comptes login.gov](#)
     change-your-password: |-
       # Changer votre mot de passe
       Suivez les étapes suivantes pour changer votre mot de passe login.gov.
