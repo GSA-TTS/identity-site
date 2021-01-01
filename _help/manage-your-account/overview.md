@@ -1,6 +1,7 @@
 ---
 order: 0
 title: Manage your account
+show_common_issues: true
 redirect_from:
 - /help/changing-settings/add-or-remove-email-address/
 - /help/changing-settings/change-my-email-address/
