@@ -9,6 +9,17 @@ hero: false
   <div class="page-content grid-row">
     <div class="page-content__prose grid-col grid-col-7 help-article">
       {{ page.content | replace: 'site.baseurl', site.baseurl | markdownify }}
+      {% if page.show_common_issues %}
+      <h2>{% t help_page.subtitle %}</h2>
+      <ul class="help-question-list">
+        {% for question in related_questions offset:1 %}
+        {% if page.url contains parent_url %}
+        <li><a href="{{ site.baseurl}}{{ question.url}}">{{ question.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+      {% endif %}
       <a href="#main-content" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
     </div>
     {% include help/nav_sidenav.html %}

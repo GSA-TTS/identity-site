@@ -175,20 +175,12 @@ help:
 help_page:
   p_1: Browse common topics
   title: How can we help?
+  subtitle: Common troubleshooting topics
 help_pages:
   trouble-signing-in:
     overview: |-
       # Trouble signing in?
       Forgot your password? Locked out of your account? We'll help you resolve account access issues.
-
-      ## Common troubleshooting topics
-        * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
-        * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password)
-        * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login)
-        * [Phone or authentication methods not available](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available)
-        * [Forgot your email address](site.baseurl/help/trouble-signing-in/forgot-your-email-address)
-        * [Security code issues](site.baseurl/help/trouble-signing-in/security-code-issues)
-        * [Password reset issues](site.baseurl/help/trouble-signing-in/password-reset-issues)
     how-to-sign-in: |-
       # How to sign in to login.gov
       Every time you sign in to your login.gov account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up.
@@ -290,13 +282,6 @@ help_pages:
     overview: |-
       # Manage your account
       Manage your account settings including your password, phone number, email, and more.
-
-      ## Common troubleshooting topics
-      * [Change your password](#)
-      * [Change the phone number associated with your account](#)
-      * [Change the email address associated with your account](#)
-      * [Delete your login.gov account](#)
-      * [Manage multiple login.gov accounts](#)
     change-your-password: |-
       # Change your password
       Follow these steps to change your login.gov password.
