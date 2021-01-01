@@ -19,9 +19,6 @@
         </a>
         <ul class="usa-sidenav__sublist" aria-hidden="{{ is_initially_hidden }}">
           {% for question in related_questions %}
-          {% if question.url == page.url %}
-          <!-- {% assign _index = forloop.index | modulo:7 %} -->
-          {% endif %}
           <li class="usa-sidenav__item">
             {% assign url_size = question.url | size | minus: 1 %}
             {% assign page_title = question.url | replace: "/", "." | slice: 1, url_size %}
