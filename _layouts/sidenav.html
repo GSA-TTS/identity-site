@@ -3,20 +3,20 @@ layout: main
 ---
 
 {% capture sidenav %}
-  <nav aria-label="{% t accessible_labels.secondary_navigation %}">
-    <ul class="usa-sidenav">
-      <li class="usa-sidenav__item">
-        <a href="/contact/" class="usa-current">{% t page.title %}</a>
-        <ul class="usa-sidenav__sublist">
-          {% for item in page.sidenav %}
-          <li class="usa-sidenav__item">
-            <a href="#{{ item.url }}">{{ item.name }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </li>
-    </ul>
-  </nav>
+<nav aria-label="{% t accessible_labels.secondary_navigation %}">
+  <ul class="usa-sidenav">
+    <li class="usa-sidenav__item">
+      <a href="{{page.url}}" class="usa-current">{% t page.title %}</a>
+      <ul class="usa-sidenav__sublist">
+        {% for item in page.sidenav %}
+        <li class="usa-sidenav__item">
+          <a href="#{% t item.url %}">{% t item.name %}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+  </ul>
+</nav>
 {% endcapture %}
 
 {% capture heading %}

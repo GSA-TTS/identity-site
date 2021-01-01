@@ -605,9 +605,8 @@ playbook_page:
 policies:
   title: Privacidad y seguridad
   sections:
-    - link:
-        text: Nuestro compromiso con su privacidad y seguridad
-        url: "/policy/"
+    - name: Nuestro compromiso con su privacidad y seguridad
+      url: "/policy/"
       sublinks:
         -
           text: Cómo trabajamos con nuestras agencias asociadas
@@ -633,9 +632,8 @@ policies:
             * La información se almacena y elimina de acuerdo con el [calendario de registros aprobado por la Administración Nacional de Archivos y Registros (NARA)](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"}.
 
         Proteger su información es nuestra prioridad. Puede leer explicaciones más detalladas sobre [cómo funciona login.gov](site.baseurl/policy/how-does-it-work/), [nuestra declaración de la ley de privacidad](site.baseurl/policy/our-privacy-act-statement/) y [nuestras prácticas de seguridad](site.baseurl/policy/our-security-practices/).
-    - link:
-        text: ¿Cómo funciona?
-        url: "/policy/how-does-it-work/"
+    - name: ¿Cómo funciona?
+      url: "/policy/how-does-it-work/"
       content: |-
         ## ¿Cómo funciona? ## {#how-does-it-work}
 
@@ -648,9 +646,8 @@ policies:
         Proteger su privacidad a través del cifrado tiene un costo. Los operadores de Login.gov, como nuestro equipo de Contact Center, no pueden realizar cambios en su nombre, como desbloquear su cuenta, cambiar su contraseña o actualizar su dirección de correo electrónico o número de teléfono. Le recomendamos que proteja su método de autenticación por este motivo. Si bien esto significa que login.gov no puede brindar ese nivel de atención al cliente, si optamos por poner estas opciones a disposición de nuestro equipo de atención al cliente, nuestro sistema sería más vulnerable a la piratería y otros actores maliciosos.
 
         La información que proporcione a login.gov se compartirá con la agencia asociada correspondiente para brindar acceso a la información sobre usted en poder de esa agencia, como se describe en los sistemas asociados de avisos de registros. Tenga en cuenta que el sistema login.gov registrará cierta información a nivel de sesión sobre su uso del servicio, incluidos, entre otros, el tipo y la versión del navegador web y la duración de su sesión. Esta información permite que login.gov comprenda mejor cómo se usa el sitio y cómo puede ser más útil.
-    - link:
-        text: Nuestra declaración de la ley de privacidad
-        url: "/policy/our-privacy-act-statement/"
+    - name: Nuestra declaración de la ley de privacidad
+      url: "/policy/our-privacy-act-statement/"
       sublinks:
         -
           text: La Autoridad - ¿Quién autoriza la recopilación de estos datos?
@@ -730,9 +727,8 @@ policies:
         ### Evaluación del impacto en la privacidad ### {#impact}
 
         Vea nuestra evaluación de impacto en la privacidad en [www.gsa.gov/PIA](https://www.gsa.gov/PIA){:target="_blank"}.
-    - link:
-        text: Nuestras prácticas de seguridad
-        url: "/policy/our-security-practices/"
+    - name: Nuestras prácticas de seguridad
+      url: "/policy/our-security-practices/"
       sublinks:
         -
           text: Política de divulgación de vulnerabilidades
@@ -756,9 +752,8 @@ policies:
         ### Para obtener más información ### {#more-info}
 
         Nos complace responder preguntas sobre nuestras prácticas de seguridad y privacidad. Para obtener más información, visite [ayuda](site.baseurl/help/) o [contáctenos](site.baseurl/contact/).
-    - link:
-        text: Términos y condiciones de mensajería
-        url: "/policy/messaging-terms-and-conditions/"
+    - name: Términos y condiciones de mensajería
+      url: "/policy/messaging-terms-and-conditions/"
       sublinks:
         -
           text: Términos y condiciones de SMS
