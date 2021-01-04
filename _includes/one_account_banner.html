@@ -4,7 +4,7 @@
   {% capture link_content %}{% t banner.one-account-for-govt.create %}{% endcapture %}
 {% else %}
   {% assign link_class = 'learn-account-creation one-account-banner__link' %}
-  {% assign link_url = create_account_path %}
+  {% assign link_url = '/create-an-account/' | prepend: site.baseurl %}
   {% capture link_content %}{% t banner.one-account-for-govt.learn %}{% endcapture %}
 {% endif %}
 <aside class="one-account-banner">
