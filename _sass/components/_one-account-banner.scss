@@ -1,32 +1,35 @@
-.tagline-content {
-  @include lg-grid(false, true);
-  background-color: $navy;
-  margin-bottom: ($container-spacing * 2);
+.one-account-banner {
+  background-color: $white;
   display: none;
+  padding-bottom: ($container-spacing * 2);
+
+  @include at-media("tablet") {
+    display: block;
+  }
 }
 
-@include at-media("tablet") {
-  .tagline-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../img/who-uses-login/who-uses-illo-header/who-uses-illo-header.png);
-    background-position: -21.5rem -6rem;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    border-radius: 1rem;
-    height: 11rem;
+.one-account-banner__banner {
+  @include lg-grid(false, true);
+  align-items: center;
+  background-color: $navy;
+  background-image: url(../img/who-uses-login/who-uses-illo-header/who-uses-illo-header.png);
+  background-position: -21.5rem -6rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 11rem;
+  justify-content: center;
+}
 
-    .tagline {
-      color: white;
-      font-size: 1.35rem;
-      font-weight: bold;
-    }
+.one-account-banner__tagline {
+  color: $white;
+  font-size: 1.35rem;
+  font-weight: bold;
+}
 
-    .link {
-      font-size: 1.2rem;
-      color: white;
-    }
-  }
+.one-account-banner__link {
+  font-size: 1.2rem;
+  color: $white;
 }

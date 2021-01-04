@@ -3,6 +3,7 @@ title: meta.home.title
 permalink: /
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
+one_account_banner: true
 ---
 
 {% capture heading %}
@@ -29,9 +30,3 @@ image: /assets/img/login-gov-600x314.png
     </div>
   </div>
 </article>
-
-{% capture banner_content %}
-
-  <p><a class="learn-account-creation link" href="{{ site.baseurl }}/create-an-account">{% t banner.one-account-for-govt.learn %}</a></p>
-{% endcapture %}
-{% include one_account_banner.html content=banner_content %}
