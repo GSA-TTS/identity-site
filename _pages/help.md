@@ -77,7 +77,7 @@ hero: true
         </div>
         <div class="grid-col-10 padding-left-1 tablet:padding-left-3">
           <h2 class="margin-bottom-05">
-            <a href="#">Manage your account</a>
+            <a href="{{ site.baseurl }}/help/manage-your-account/overview">Manage your account</a>
           </h2>
           <p class="margin-top-05">Change your account settings including your password, phone number, email, and more.</p>
         </div>

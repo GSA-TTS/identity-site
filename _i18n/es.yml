@@ -125,6 +125,10 @@ help:
     forgot-your-email-address: Olvidó su dirección de correo electrónico
     security-code-issues: Problemas con el código de seguridad
     password-reset-issues: Problemas con el restablecimiento de la contraseña
+  manage-your-account: 
+    overview: Visión general
+    change-your-password: Cambiar su contraseña
+    delete-your-account: Eliminar su cuenta
 help_page:
   p_1: Explore los temas comunes
   title: ¿Cómo podemos ayudar?
@@ -225,9 +229,70 @@ help_pages:
       # Problemas con el restablecimiento de la contraseña
 
       Cada vez que inicie sesión, deberá introducir un código de seguridad que se enviará a su teléfono mediante un mensaje de texto o una llamada telefónica. El código de seguridad que reciba caducará después de diez minutos y solo será válido para un uso. Si no introduce el código de seguridad en un plazo de diez minutos o no ha cogido la llamada, puede solicitar un nuevo código de seguridad. Cada código de seguridad solo es válido una vez, así que asegúrese de estar utilizando el código de seguridad más reciente. Solo puede solicitar tres códigos de seguridad cada 15 minutos, pero por lo demás, puede solicitar tantos códigos como necesite.
+  manage-your-account:
+    overview: |-
+      # Administrar su cuenta
+      Administrar los ajustes de su cuenta, incluidos su contraseña, número de teléfono, correo electrónico y más.
+
+      ## Temas comunes de solución de problemas
+      * [Cambiar su contraseña](#)
+      * [Cambiar el número de teléfono asociado a su cuenta](#)
+      * [Cambiar la dirección de correo electrónico asociada a su cuenta](#)
+      * [Eliminar su cuenta de login.gov](#)
+      * [Administrar varias cuentas de login.gov](#)
+    change-your-password: |-
+      # Cambie su contraseña
+      Siga estos pasos para cambiar su contraseña en login.gov.
+      
+      1. Ingrese su correo electrónico en https://secure.login.gov. 
+      1. Ingrese su contraseña.
+      1. Haga clic en el botón «Iniciar sesión». 
+      1. Autentíquese mediante uno de los métodos configurados. Será redirigido a la página de su cuenta. 
+      1. Seleccione «Editar» junto al campo de la contraseña.
+      1. Ingrese su nueva contraseña.
+          La contraseña debe tener al menos 12 caracteres. ¡Eso es todo! No hay otras restricciones. Incluso puede usar más de una palabra con espacios para alcanzar los 12 caracteres. Pruebe usar una frase o una serie de palabras que solo usted reconozca.  
+          
+          Su contraseña de login.gov debe ser diferente de las contraseñas que utiliza en otras cuentas, como su cuenta bancaria o correo electrónico. Usar la misma contraseña en muchas cuentas facilita el robo de identidad.
+      1. Haga clic en el botón «Cambiar contraseña».
+    delete-your-account: |-
+      # Eliminar su cuenta
+      __Quizá tenga que eliminar una cuenta por diferentes razones:__
+      * Advierte que tiene varias cuentas con diferentes direcciones de correo electrónico y quiere tener una sola cuenta  
+      * Se ha bloqueado su cuenta y ha perdido el acceso a sus métodos de autenticación 
+      * Ya no necesita una cuenta de login.gov
+
+      __Si elimina su cuenta:__
+      * Eliminaremos su dirección de correo electrónico, contraseña y número de teléfono
+      * Usted no podrá acceder de forma segura a las agencias asociadas que requieren una cuenta de login.gov
+
+      Después de que elimine su cuenta, no podrá acceder a las aplicaciones gubernamentales a las que suele acceder con su cuenta de login.gov. Sin embargo, no perderá su información en esas aplicaciones, pero necesitará una cuenta nueva de login.gov para poder iniciar sesión en esas aplicaciones.
+      
+      __Si tiene acceso a sus métodos de autenticación, realice los siguientes pasos para eliminar su cuenta:__
+      
+      1. Escriba su dirección de correo electrónico en [https://secure.login.gov](https://secure.login.gov).
+      1. Introduzca su contraseña.
+      1. Haga clic en el botón "Iniciar sesión".
+      1. Valide su información con alguno de los métodos que ha establecido.
+      1. En la página de su cuenta, seleccione "Eliminar cuenta" en el menú a la izquierda de la página  
+      1. Seleccione "Eliminar cuenta en el menú "Su cuenta".
+      1. Escriba su contraseña para confirmar que desea eliminar su cuenta.
+
+      __Si NO cuenta con los métodos de autenticación siga los siguientes pasos para eliminar la cuenta:__
+      Por motivos de seguridad, Login.gov requiere un procedimiento de dos pasos y de un período de espera de 24 horas en caso de que haya perdido el acceso a sus métodos de autenticación y tenga que eliminar su cuenta.
+      
+      1. Visite la página de inicio de sesión de su solicitud de gobierno o en [https://secure.login.gov/](https://secure.login.gov/)
+      1. Ingrese con su correo electrónico y contraseña
+      1. En la página de autenticación (escriba su código de seguridad, aplicación o copia de seguridad; tarjeta PIV/CAC; o clave de seguridad), haga clic en "Elegir otra opción de seguridad"
+      1. Vaya a la parte inferior y haga clic en el enlace "eliminar su cuenta".
+      1. Lea atentamente toda la información y asegúrese de que eliminar su cuenta es su única opción.
+      1. Haga clic en "Sí, continuar con la eliminación"
+      1. Usted recibirá dos correos electrónicos. 
+          1. El primer correo electrónico confirma que hemos recibido su solicitud. Su cuenta aún no ha sido eliminada. Es necesario tomar medidas adicionales. 
+          1. La segunda carta le será enviada 24 horas más tarde. Observa las instrucciones de ese correo electrónico para completar el proceso de eliminación. 
 help_subpages:
   get-started: Empiece con login.gov
   trouble-signing-in: ¿Tiene problemas para iniciar sesión?
+  manage-your-account: Administrar su cuenta
 implementation_page:
   heading: Implementando un sistema de gestión de la identidad
   section_1:
