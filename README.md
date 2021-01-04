@@ -47,6 +47,16 @@ To run specs:
 make test
 ```
 
+To run end-to-end browser tests:
+
+```
+npm test
+```
+
+End-to-end tests include:
+
+- Automated accessibility scan for each page
+
 To check for code formatting or potential syntax errors:
 
 ```

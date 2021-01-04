@@ -51,6 +51,18 @@ jobs:
           name: Run htmlproofer (no external links)
           command: bundle exec htmlproofer --disable-external --allow-hash-href --empty_alt_ignore `pwd`/_site
 
+  accessibility:
+    docker:
+      - image: circleci/ruby:2.6-node-browsers
+    steps:
+      - checkout
+      - install-dependencies
+      # It's not necessary to build the site prior to running end-to-end tests, as it's done as a
+      # pre-step of the npm test script.
+      - run:
+          name: run end-to-end tests
+          command: npm test
+
   eslint:
     docker:
       - image: circleci/ruby:2.6-node-browsers
@@ -96,6 +108,7 @@ workflows:
       - eslint
       - check-optimized-assets
       - test-external-links
+      - accessibility
   daily-external-link-checker:
     jobs:
       - test-external-links
