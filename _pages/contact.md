@@ -19,7 +19,7 @@ scripts:
           {% for section in site.translations[site.lang].contact_page.content %}
             {% if section.heading %}
               <li class="usa-sidenav__item">
-                <a href="#{{ section.heading | slugify }}">
+                <a href="#{{ section.heading | slugify: 'ascii' }}">
                   {{ section.heading }}
                 </a>
               </li>
@@ -41,7 +41,7 @@ scripts:
     <div class="page-content__prose grid-col-12 desktop:grid-col-8">
       {% for section in site.translations[site.lang].contact_page.content %}
         {% if section.heading %}
-          <h2 id="{{ section.heading | slugify }}">
+          <h2 id="{{ section.heading | slugify: 'ascii' }}">
             {{ section.heading }}
           </h2>
         {% endif %}
