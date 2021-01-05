@@ -30,7 +30,7 @@
             {% assign articles = site.translations[site.lang].help[subpage_slug] %}
             {% for article in articles %}
               {% assign article_slug = article[0] %}
-              {% assign article_url = subpage_url | append: article_slug | append: '/' | prepend: site.baseurl %}
+              {% assign article_url = subpage_url | append: article_slug | append: '/' %}
               {% if page.url == article_url %}
                 {% assign subpage_has_current = 'true' %}
               {% endif %}
@@ -47,7 +47,7 @@
                 {% for article in articles %}
                   {% assign article_slug = article[0] %}
                   {% assign article_title = article[1] %}
-                  {% assign article_url = subpage_url | append: article_slug | append: '/' | prepend: site.baseurl %}
+                  {% assign article_url = subpage_url | append: article_slug | append: '/' %}
                   {% assign path_split_article = page.path | split: article_url %}
                   <li class="usa-nav__submenu-item">
                     <a
