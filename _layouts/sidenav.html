@@ -1,27 +1,51 @@
 ---
 layout: main
 ---
+{% comment %}
+  TODO: Have a uniform way of maintaining translated sidenav lists. 
+  Use the i18n yaml `nav` object. 
+  Like a hashmap of locations:
+    nav_types = {
+      "policies" => site.translations[site.lang]["policies"]["sections"],
+      "contact" => site.translations[site.lang]["contact"]]["sections"]
+    }
+  ...and have one for loop: 
+    {% for item in nav_types[list] %}...{% endfor %}
+  ...where list = page.sidenav
+
+  Note: This does not apply to Help pages, which is far more complex.
+{% endcomment %}
+{% assign list = page.sidenav %}
 
 {% capture sidenav %}
-<nav aria-label="{% t accessible_labels.secondary_navigation %}">
-  <ul class="usa-sidenav">
-    <li class="usa-sidenav__item">
-      <a href="{{page.url}}" class="usa-current">{% t page.title %}</a>
-      <ul class="usa-sidenav__sublist">
-        {% for item in page.sidenav %}
-        <li class="usa-sidenav__item">
-          <a href="#{% t item.url %}">{% t item.name %}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </li>
-  </ul>
-</nav>
+  <nav aria-label="{% t accessible_labels.secondary_navigation %}">
+    <ul class="usa-sidenav">
+      <li class="usa-sidenav__item">
+        <a href="{{ page.url }}" class="usa-current">{% t page.title %}</a>
+        <ul class="usa-sidenav__sublist">
+        {% if list == "policies" %}
+          {% for item in site.translations[site.lang]["policies"]["sections"]%}
+          <li class="usa-sidenav__item">
+            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
+          </li>
+          {% endfor %}
+        {% else %}
+          {% for item in list%}
+          <li class="usa-sidenav__item">
+            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
+          </li>
+          {% endfor %}
+        {% endif %}
+        </ul>
+      </li>
+    </ul>
+  </nav>
 {% endcapture %}
 
 {% capture heading %}
   {% t page.title %}
 {% endcapture %}
+
 {% include hero.html heading=heading class="bg-none" %}
 
 <div class="container">
