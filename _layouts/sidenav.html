@@ -18,7 +18,7 @@ layout: main
 {% assign list = page.sidenav %}
 
 {% capture sidenav %}
-  <nav aria-label="{% t accessible_labels.secondary_navigation %}">
+  <nav aria-label="{% t accessible_labels.secondary_navigation %}" class="position-sticky pin-top">
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
         <a href="{{ page.url }}" class="usa-current">{% t page.title %}</a>
