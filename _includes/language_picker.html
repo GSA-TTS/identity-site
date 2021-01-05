@@ -1,0 +1,40 @@
+<div class="language-picker">
+  {% if include.dropdown == true %}
+    <button
+      aria-controls="language-picker-{{ include.id }}"
+      class="usa-button usa-button--outline btn-lang-toggle"
+    >
+      {% include svg/globe.svg %}
+      <span id="language-picker-{{ include.id }}-description" class="label">
+        {% t global.language %}
+      </span>
+    </button>
+  {% else %}
+    <div class="btn-lang-toggle">
+      {% include svg/globe.svg %}
+      <span id="language-picker-{{ include.id }}-description" class="label">
+        {% t global.language %}
+      </span>
+    </div>
+  {% endif %}
+
+  <ul
+    id="language-picker-{{ include.id }}"
+    aria-describedby="language-picker-{{ include.id }}-description"
+    class="{% if include.dropdown %}dropdown{% endif %} language-list"
+  >
+    {% for locale in site.languages %}
+      {% capture name %}global.locales.{{ locale }}{% endcapture %}
+      <li>
+        {% if locale == 'en' %}
+          {% assign locale_url = page.url | prepend: site.baseurl_root %}
+        {% elsif site.lang != 'en' and locale == site.lang %}
+          {% assign locale_url = page.url | prepend: site.baseurl %}
+        {% else %}
+          {% assign locale_url = page.url | prepend: locale | prepend: '/' | prepend: site.baseurl_root %}
+        {% endif %}
+        <a href="{{ locale_url }}" class="text-no-underline">{% t name %}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

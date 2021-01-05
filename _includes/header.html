@@ -1,27 +1,28 @@
 <div class="usa-header usa-header--extended">
-  <div class="usa-navbar container">
-    <div class="usa-logo" id="extended-logo">
-      <a href="{{ '/' | prepend: site.baseurl }}" title="Home" aria-label="Home">
-        <img
-          src="{{ site.baseurl }}/assets/img/logo.svg"
-          width="172"
-          height="23"
-          class="usa-logo__img"
-          alt="login.gov"
-          role="img"
-        />
-      </a>
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      <div class="usa-logo" id="extended-logo">
+        <a href="{{ '/' | prepend: site.baseurl }}" title="Home" aria-label="Home">
+          <img
+            src="{{ site.baseurl }}/assets/img/logo.svg"
+            width="172"
+            height="23"
+            class="usa-logo__img"
+            alt="login.gov"
+            role="img"
+          />
+        </a>
+      </div>
+
+      <button class="usa-menu-btn">Menu</button>
     </div>
 
-    <button class="usa-menu-btn">Menu</button>
-  </div>
-
-  <nav class="usa-nav" role="navigation">
-    <div class="usa-nav__containter container">
+    <nav class="usa-nav" role="navigation">
       <button class="usa-nav__close">
         <img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close"/>
       </button>
 
+      {% include search.html size="small" %}
       {% include sign_in.html mobile="mobile" %}
 
       <ul class="usa-nav__primary usa-accordion">
@@ -46,30 +47,11 @@
           </a>
         </li>
       </ul>
-      {% include search.html size="small" %}
-    </div>
 
-    <div class="mobile btn-lang-toggle">
-      {% include svg/globe.svg %}
-      <span class="label">
-        {% t global.language %}
-      </span>
-    </div>
-
-    <ul class="mobile language-list">
-      {% for locale in site.languages %}
-        {% capture name %}global.locales.{{ locale }}{% endcapture %}
-        <li>
-          {% if locale == 'en' %}
-            <a href="{{ page.url | prepend: site.baseurl_root }}">{% t name %}</a>
-          {% elsif site.lang != 'en' and locale == site.lang %}
-            <a href="{{ page.url | prepend: site.baseurl }}">{% t name %}</a>
-          {% else %}
-            <a href="{{ page.url | prepend: locale | prepend: '/' | prepend: site.baseurl_root }}">{% t name %}</a>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  </nav>
+      <div class="desktop:display-none">
+        {% include language_picker.html id="mobile-list" %}
+      </div>
+    </nav>
+  </div>
 </div>
 <div class="usa-overlay"></div>

@@ -30,7 +30,7 @@ $(function () {
     });
   }
 
-  languagePicker($('.btn-lang-toggle'), $('.btn-lang-toggle + .dropdown'));
+  languagePicker($('button.btn-lang-toggle'), $('button.btn-lang-toggle + .dropdown'));
 
   // Dropdown menu
 
