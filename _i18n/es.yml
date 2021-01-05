@@ -61,7 +61,7 @@ contact_page:
       usajobs: USAJOBS
       veterans_affairs: Veterans Affairs
     errors:
-      captcha_required: Debe completar el desafío de prevención de spam. # TODO: Translate
+      captcha_required: Debes superar el desafío de prevención de spam.
     form_helpers:
       select_topic: "- Seleccione un tema -"
       select_issue: "- Seleccione un problema específico -"
@@ -71,14 +71,14 @@ contact_page:
       agency_application_all: Todas las aplicaciones
       agency_application_common: Aplicaciones comunes
       agency_application_other: Otras aplicaciones
-      description: Proporcione más detalles sobre su pregunta # TODO: Translate
+      description: Proporciona más detalles acerca de tu pregunta
       email: Correo electrónico
       first_name: Nombre
       last_name: Apellido
       pii_warning: "**No** incluya información sensible o de identificación en esta sección, como su nombre completo, fecha de nacimiento o número de seguro social."
       subtopic: Problema
       topic: Tema
-    reset: Forma clara # TODO: Translate
+    reset: Limpiar formulario
     submit: Enviar
     subtopics:
       add_family_member: ¿Cómo agrego un familiar a mi cuenta login.gov?
