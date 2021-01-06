@@ -81,6 +81,7 @@ plugins:
 help_pages:
 - trouble-signing-in
 - manage-your-account
+- verify-your-identity
 
 # Per-section configs
 playbook:

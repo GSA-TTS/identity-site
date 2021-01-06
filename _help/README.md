@@ -2,8 +2,8 @@
 
 The Help section of login.gov a slightly different from others. Here are helpful hints for maintaining this section.
 
-## The _help files location
-For now, the help section is a direct subdirectory of the identity-site. They are located outside of the _pages directory. Our goal is to move this section to the _pages directory in a future pull request, where we can view the impact of such a move.
+## The `_help` files location
+For now, the help section is a direct subdirectory of the identity-site. They are located outside of the `_pages` directory. Our goal is to move this section to the `_pages` directory in a future pull request, where we can view the impact of such a move.
 
 ## The Help.html template
 tbd
@@ -15,6 +15,10 @@ tbd
 tbd
 
 ## Adding a new help category
+1. Create a `_help` subdirectory
+    ```bash
+    mkdir _help/new-category-slug
+    ```
 1. Navigate to config.yml.
 1. Add the new category to the `help_pages` collection:
     ```
@@ -31,15 +35,28 @@ tbd
       trouble-signing-in: Trouble signing in?
       new-category-slug: Title of new category
     ```
-    These values are used by [tbd] 
-    
+    These values are used by [tbd]
+
     Titles in login.gov use sentence case instead of title case. Make sure category titles have the first letter capitalized.
-    
+
     * @TODO: Combine help_pages collection in config.yml with help_subpages. DRY.
     * @TODO: Rename help_subpages to help_catogories to improve semantic meaning.
 1. Add the new category to the `help_subpages` variable in es.yml and fr.yml.
 
+
 ## Adding a new help page
+1. Create a `.md` file in the `_help` subdirectory.
+    - In the YAML frontmatter, make sure it's got a numeric `order:` key
+    - The content of the file should be the `help/translate_page.html` partial:
+
+    ```bash
+    cat > _help/new-category-slug/new-page-slug.md <<MD
+    ---
+    order: 0
+    ---
+    {% include help/translate_page.html url=page.url %}
+    MD
+    ```
 1. Navigate to en.yml.
     1. Find the `help` variable. Add the new page under an existing category:
         ```
@@ -78,7 +95,7 @@ __If you remove a Help directory, please follow the following steps:__
   1. Create an `index.md` page (if one doesn't already exist).
   1. As the front matter for the index.md page, add a `redirect_from` variable. List the pages to be removed under this variable.
       ```
-      redirect_from: 
+      redirect_from:
       - /help/directory/page-1
       - /help/directory/page-2
       ```
@@ -87,7 +104,7 @@ __If you remove a Help directory, please follow the following steps:__
   1. Run `make test-urls` locally. If this check passes, you will receive the confirmation `No missing urls!`
 
 __If you remove a Help page, please follow the following steps:__
-  1. Find the index.md in the page's section. 
+  1. Find the index.md in the page's section.
   1. Add this page to the `redirect_from` list of pages.
   1. Delete the page.
   1. Add this url to the `OLD_URLS.yml` file.

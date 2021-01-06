@@ -160,6 +160,12 @@ help:
     overview: Aperçu
     change-your-password: Changez votre mot de passe
     delete-your-account: Supprimer votre compte
+  verify-your-identity:
+    overview: Aperçu
+    how-to-verify-your-identity: Comment vérifier votre identité
+    verify-your-address-by-mail: Vérifiez votre adresse par courrier
+    dont-have-a-state-issued-id: Vous ne disposez pas d’une carte d’identité délivrée par l’État
+    personal-key-issues: Problèmes personnels majeurs
 help_page:
   p_1: Parcourir les sujets communs
   title: Comment pouvons nous aider?
@@ -354,10 +360,35 @@ help_pages:
       1. Vous recevrez deux courriels. 
           1. Le premier confirme que nous avons reçu votre demande. Votre compte n'est pas encore supprimé. Une action supplémentaire est nécessaire. 
           1. Le deuxième courriel vous est envoyé 24 heures après le premier. Suivez les instructions énoncées dans le courriel pour terminer la suppression. 
+  verify-your-identity:
+    overview: |-
+      # Vérifiez votre identité
+
+      Certaines agences qui participent au programme exigent que vous vous soumettiez à un processus de vérification d’identité. La vérification de l’identité est le processus par lequel vous prouvez que c’est bien vous — et une tierce personne qui se fait passer pour vous. 
+
+      La vérification de votre identité ne doit être effectuée qu’une seule fois pour votre compte « login.gov ». Une fois que votre identité a été vérifiée avec « login.gov » pour une application gouvernementale, vous n’avez pas besoin de le refaire pour les autres applications gouvernementales qui utilisent « login.gov » et qui nécessitent une vérification d’identité. 
+
+      Utilisez cette rubrique d’aide pour comprendre le processus et les exigences en matière de vérification d’identité.
+
+      ## Problèmes courants rencontrés
+       * [Comment vérifier votre identité](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
+       * [Vérifiez votre adresse par courrier](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
+       * [Vous ne disposez pas d’une carte d’identité délivrée par l’État](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
+       * [Problèmes personnels majeurs](site.baseurl/help/verify-your-identity/personal-key-issues/)
+
+    how-to-verify-your-identity: |-
+      # Comment vérifier votre identité
+    verify-your-address-by-mail: |-
+      # Vérifiez votre adresse par courrier
+    dont-have-a-state-issued-id: |-
+      # Vous ne disposez pas d’une carte d’identité délivrée par l’État
+    personal-key-issues: |-
+      # Problèmes personnels majeurs
 help_subpages:
   get-started: Commencez avec login.gov
   trouble-signing-in: Des problèmes pour vous connecter?
   manage-your-account: Gérez votre compte
+  verify-your-identity: Vérifiez votre identité
 implementation_page:
   heading: Mise en œuvre d'un système de gestion d'identité
   section_1:

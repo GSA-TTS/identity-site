@@ -129,6 +129,12 @@ help:
     overview: Visión general
     change-your-password: Cambiar su contraseña
     delete-your-account: Eliminar su cuenta
+  verify-your-identity:
+    overview: Visión general
+    how-to-verify-your-identity: Cómo verificar su identidad
+    verify-your-address-by-mail: Verificación de dirección por correo
+    dont-have-a-state-issued-id: ¿No tiene una identificación emitida por el estado?
+    personal-key-issues: Problemas con la clave personal
 help_page:
   p_1: Explore los temas comunes
   title: ¿Cómo podemos ayudar?
@@ -289,10 +295,35 @@ help_pages:
       1. Usted recibirá dos correos electrónicos. 
           1. El primer correo electrónico confirma que hemos recibido su solicitud. Su cuenta aún no ha sido eliminada. Es necesario tomar medidas adicionales. 
           1. La segunda carta le será enviada 24 horas más tarde. Observa las instrucciones de ese correo electrónico para completar el proceso de eliminación. 
+  verify-your-identity:
+    overview: |-
+      # Verificación de identidad
+
+      Algunos organismos participantes requieren que usted complete un proceso de verificación de identidad. La verificación de la identidad es un proceso en el que usted demuestra que es realmente usted y no alguien que pretende ser usted. 
+
+      Solo es necesario verificar su identidad una vez para su cuenta de login.gov. Después de verificar su identidad con login.gov para una solicitud gubernamental, no es necesario hacerlo nuevamente para otras solicitudes gubernamentales que utilicen login.gov y requieran verificación de identidad. 
+
+      Utilice esta sección de ayuda para conocer el proceso y los requisitos relacionados con la verificación de la identidad. 
+
+      ## Solución de problemas frecuentes
+       * [Cómo verificar su identidad](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
+       * [Verificación de dirección por correo](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
+       * [¿No tiene una identificación emitida por el estado?](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
+       * [Problemas con la clave personal](site.baseurl/help/verify-your-identity/personal-key-issues/)
+
+    how-to-verify-your-identity: |-
+      # Cómo verificar su identidad
+    verify-your-address-by-mail: |-
+      # Verificación de dirección por correo
+    dont-have-a-state-issued-id: |-
+      # ¿No tiene una identificación emitida por el estado?
+    personal-key-issues: |-
+      # Problemas con la clave personal
 help_subpages:
   get-started: Empiece con login.gov
   trouble-signing-in: ¿Tiene problemas para iniciar sesión?
   manage-your-account: Administrar su cuenta
+  verify-your-identity: Verificación de identidad
 implementation_page:
   heading: Implementando un sistema de gestión de la identidad
   section_1:
