@@ -645,6 +645,7 @@ nav:
   overview: Aperçu
   playbook: Guide de mise en œuvre
   policies:
+    title: Confidentialité et sécurité
     sections:
       - name: Notre engagement envers votre confidentialité et votre sécurité
         url:  /policy/

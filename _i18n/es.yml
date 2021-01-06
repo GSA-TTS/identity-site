@@ -572,6 +572,7 @@ nav:
   overview: Resumen
   playbook: Manual
   policies:
+    title: Privacidad y seguridad
     sections:
       - name: Nuestro compromiso con su privacidad y seguridad
         url: /policy/

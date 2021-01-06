@@ -653,6 +653,7 @@ nav:
   partners: Partners
   playbook: Playbook
   policies:
+    title: Privacy & security
     sections:
       - name: Our commitment to your privacy and security
         url:  /policy/
