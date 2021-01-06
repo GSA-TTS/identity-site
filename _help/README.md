@@ -37,7 +37,7 @@ tbd
 
         **DO NOT USE HTML.** Content should include markdown syntax only. This applies to headings, lists, images and links. If special styling is required for content _within_ the help article, consider using general CSS selectors. Do not use ids created by markdown, because these ids will be translated and will not apply to translated pages.
 
-        To make sure that any links within the content, use the ``{{ site.baseurl/ }}`` prefix. This code converts to `login.gov/es` and `login.gov/fr` respectively.
+        To make sure that any links within the content, use the ``{{ site.baseurl }}/`` prefix. This code converts to `login.gov/es` and `login.gov/fr` respectively.
 1. Repeat the above steps in es.yml. Use the same slug (untranslated) as the id.
 1. Repeat the above steps in fr.yml.
 
