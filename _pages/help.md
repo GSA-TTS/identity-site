@@ -32,7 +32,7 @@ hero: true
         </div>
         <div class="grid-col-10 padding-left-1 tablet:padding-left-3">
           <h2 class="margin-bottom-05">
-            <a href="#">Verify your identity</a>
+            <a href="{{ site.baseurl }}/help/verify-your-identity/overview">Verify your identity</a>
           </h2>
           <p class="margin-top-05">Learn about options for verifying your identity.</p>
         </div>

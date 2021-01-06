@@ -172,6 +172,12 @@ help:
     change-your-password: Change your password
     delete-your-account: Delete your account
     change-your-phone-number: Change the phone number associated with your account
+  verify-your-identity:
+    overview: Overview
+    how-to-verify-your-identity: How to verify your identity
+    verify-your-address-by-mail: Verify your address by mail
+    dont-have-a-state-issued-id: Don’t have a state-issued ID
+    personal-key-issues: Personal key issues
 help_page:
   p_1: Browse common topics
   title: How can we help?
@@ -364,9 +370,34 @@ help_pages:
       
       ## Related article 
       [Phone or authentication methods not available](#)
+  verify-your-identity:
+    overview: |-
+      # Verify your identity
+
+      Some participating agencies require you to complete an identity verification process. Identity verification is the process where you prove you are you - and not someone pretending to be you.
+
+      You only need to verify your identity once for your login.gov account. After you verify your identity with login.gov for one government application, you don’t need to do it again for other government applications that use login.gov and require identity verification.
+
+      Use this help section to understand the process and requirements for identity verification.
+
+      ## Common troubleshooting topics
+       * [How to verify your identity](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
+       * [Verify your address by mail](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
+       * [Don’t have a state-issued ID](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
+       * [Personal key issues](site.baseurl/help/verify-your-identity/personal-key-issues/)
+
+    how-to-verify-your-identity: |-
+      # How to verify your identity
+    verify-your-address-by-mail: |-
+      # Verify your address by mail
+    dont-have-a-state-issued-id: |-
+      # Don’t have a state-issued ID
+    personal-key-issues: |-
+      # Personal key issues
 help_subpages:
   trouble-signing-in: Trouble signing in?
   manage-your-account: Manage your account
+  verify-your-identity: Verify your identity
 implementation_page:
   heading: Implementing an identity management system
   section_1:
