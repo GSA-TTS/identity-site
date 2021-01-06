@@ -16,14 +16,16 @@ scripts:
       <li class="usa-sidenav__item">
         <a href="/contact/" class="usa-current">{% t meta.contact_us.title %}</a>
         <ul class="usa-sidenav__sublist">
-          {% for section in site.translations[site.lang].contact_page.content %}
-            {% if section.heading %}
-              <li class="usa-sidenav__item">
-                <a href="#{{ section.heading | slugify: 'ascii' }}">
-                  {{ section.heading }}
-                </a>
-              </li>
-            {% endif %}
+          {% for areas in site.translations[site.lang].contact_page.content %}
+            {% for section in areas[1] %}
+              {% if section.heading %}
+                <li class="usa-sidenav__item">
+                  <a href="#{{ section.heading | slugify: 'ascii' }}">
+                    {{ section.heading }}
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
           {% endfor %}
         </ul>
       </li>
@@ -39,7 +41,7 @@ scripts:
       {{ sidenav }}
     </div>
     <div class="page-content__prose grid-col-12 desktop:grid-col-8">
-      {% for section in site.translations[site.lang].contact_page.content %}
+      {% for section in site.translations[site.lang].contact_page.content.intro %}
         {% if section.heading %}
           <h2 id="{{ section.heading | slugify: 'ascii' }}">
             {{ section.heading }}
@@ -50,6 +52,14 @@ scripts:
       <div class="desktop:grid-col-9">
         {% include contact_form.html %}
       </div>
+      <footer class="page-content__footer">
+        {% for section in site.translations[site.lang].contact_page.content.footer %}
+          <h2 id="{{ section.heading | slugify: 'ascii' }}">
+            {{ section.heading }}
+          </h2>
+          {{ section.text | replace: 'site.baseurl', site.baseurl | markdownify }}
+        {% endfor %}
+      </footer>
       <a href="#" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
     </div>
     <div class="display-none desktop:display-block grid-offset-1 grid-col-3">
