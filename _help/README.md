@@ -1,8 +1,6 @@
 # Maintaining Help Section
 
-The Help section of login.gov a slightly different from others. It is the core of the site mobile navigation. 
-
-Here are helpful hints for maintaining this section.
+The Help section of login.gov a slightly different from others. Here are helpful hints for maintaining this section.
 
 ## The _help files location
 For now, the help section is a direct subdirectory of the identity-site. They are located outside of the _pages directory. Our goal is to move this section to the _pages directory in a future pull request, where we can view the impact of such a move.
@@ -15,6 +13,31 @@ tbd
 
 ## The nav__sidenav.html component
 tbd
+
+## Adding a new help category
+1. Navigate to config.yml.
+1. Add the new category to the `help_pages` collection:
+    ```
+    help_pages:
+    - get-started
+    - trouble-signing-in
+    - new-category-slug
+    ```
+1. Navigate to en.yml.
+1. Add the new category to the `help_subpages` variable:
+    ```
+    help_subpages:
+      get-started: Get started with login.gov
+      trouble-signing-in: Trouble signing in?
+      new-category-slug: Title of new category
+    ```
+    These values are used by [tbd] 
+    
+    Titles in login.gov use sentence case instead of title case. Make sure category titles have the first letter capitalized.
+    
+    * @TODO: Combine help_pages collection in config.yml with help_subpages. DRY.
+    * @TODO: Rename help_subpages to help_catogories to improve semantic meaning.
+1. Add the new category to the `help_subpages` variable in es.yml and fr.yml.
 
 ## Adding a new help page
 1. Navigate to en.yml.
@@ -40,31 +63,6 @@ tbd
         To make sure that any links within the content, use the ``{{ site.baseurl }}/`` prefix. This code converts to `login.gov/es` and `login.gov/fr` respectively.
 1. Repeat the above steps in es.yml. Use the same slug (untranslated) as the id.
 1. Repeat the above steps in fr.yml.
-
-## Adding a new help category
-1. Navigate to config.yml.
-1. Add the new category to the `help_pages` collection:
-    ```
-    help_pages:
-    - get-started
-    - trouble-signing-in
-    - new-category-slug
-    ```
-1. Navigate to en.yml.
-1. Add the new category to the `help_subpages` variable:
-    ```
-    help_subpages:
-      get-started: Get started with login.gov
-      trouble-signing-in: Trouble signing in?
-      new-category-slug: Title of new category
-    ```
-    These values are used by [...] 
-    
-    Titles in login.gov use sentence case instead of title case. Make sure category titles have the first letter capitalized.
-    
-    @TODO: Combine help_pages collection in config.yml with help_subpages. DRY.
-    @TODO: Rename help_subpages to help_catogories to improve semantic meaning.
-1. Add the new category to the `help_subpages` variable in es.yml and fr.yml.
 
 ## Translations
 tbd
