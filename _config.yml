@@ -79,6 +79,7 @@ plugins:
   - jekyll-autoprefixer
 
 help_pages:
+- get-started
 - trouble-signing-in
 - manage-your-account
 - specific-agencies

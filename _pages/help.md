@@ -17,7 +17,7 @@ hero: true
         </div>
         <div class="grid-col-10 padding-left-1 tablet:padding-left-3">
           <h2 class="margin-bottom-05">
-            <a href="#">Get started with login.gov</a>
+            <a href="{{ site.baseurl }}/help/get-started/overview">Get started with login.gov</a>
           </h2>
           <p class="margin-top-05">Create your account. Learn about authentication options and more account features.</p>
         </div>

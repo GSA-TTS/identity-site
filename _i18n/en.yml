@@ -185,6 +185,8 @@ global:
     es: Español
     fr: Français
 help:
+  get-started:
+    overview: Overview
   trouble-signing-in:
     overview: Overview
     how-to-sign-in: How to sign in to login.gov
@@ -214,6 +216,19 @@ help_page:
   p_1: Browse common topics
   title: How can we help?
 help_pages:
+  get-started:
+    overview: |-
+      # Get started with login.gov
+      Login.gov is the public's one account and password for government. Login.gov is a shared service and trusted by government agencies. With one login.gov account you can access applications from participating government partners.
+      
+      Create your login.gov account
+      * Learn about authentication options
+      * Why you are being asked to use login.gov
+      
+      ## Common troubleshooting topics
+      * Email address confirmation issues
+      * Security code not received on phone
+
   trouble-signing-in:
     overview: |-
       # Trouble signing in?
@@ -526,6 +541,7 @@ help_pages:
     personal-key-issues: |-
       # Personal key issues
 help_subpages:
+  get-started: Get started with login.gov
   trouble-signing-in: Trouble signing in?
   manage-your-account: Manage your account
   specific-agencies: Help with specific agencies
