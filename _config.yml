@@ -34,6 +34,11 @@ sass:
     - _sass
     - node_modules
 
+autoprefixer:
+  browsers:
+    - last 2 versions
+    - ie 11
+
 # Build settings
 kramdown:
   hard_wrap: true
@@ -71,6 +76,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
   - jekyll-sitemap
+  - jekyll-autoprefixer
 
 help_pages:
 - trouble-signing-in
