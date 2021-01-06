@@ -81,6 +81,8 @@ The lint task will check to see that SVG images are optimized. To optimize image
 npm run optimize-assets
 ```
 
+To build **Help Center** pages, follow the guidelines in the [Help README](_help/README.md).
+
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
