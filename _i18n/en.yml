@@ -22,31 +22,32 @@ banner:
     secure_description: "A <strong>lock</strong> or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites."
 contact_page:
   content:
-    intro:
-      - text: |-
-          Login.gov is here to help you create, sign in and manage your login.gov account.
+    intro: |-
+      Login.gov is here to help you create, sign in and manage your login.gov account.
 
-          As a security measure, we do not have access to delete your login.gov account or change your password on your behalf.
+      As a security measure, we do not have access to delete your login.gov account or change your password on your behalf.
 
-          Our operating hours are Monday - Friday, 8:00 a.m. - 8:00 p.m. ET. Please note that it could take up to two business days for our customer support agents to respond to your question. Thank you for your patience.
+      Our operating hours are Monday - Friday, 8:00 a.m. - 8:00 p.m. ET. Please note that it could take up to two business days for our customer support agents to respond to your question. Thank you for your patience.
 
-          If you need assistance with your login.gov account, check out our help center articles for help with common issues.
+      If you need assistance with your login.gov account, check out our help center articles for help with common issues.
 
-          - [I can’t sign in to my account](site.baseurl/help/trouble-signing-in/overview)
-          - [I need help verifying my identity](site.baseurl/help/verify-your-identity/overview)
-          - [I need to change my information or manage my account](site.baseurl/help/manage-your-account/overview)
-          - [Browse more help articles](site.baseurl/help)
-          {: .help-question-list}
-      - heading: Do you have a question about your agency account?
-        text: |-
-          Login.gov is a sign in service to access government agency websites. If you have questions about the agency website, which may include questions about your application status, membership, eligibility, benefits or other specific concerns related to your account with that government agency, please contact that agency.
-    footer:
-      - heading: Partner with login.gov
-        text: |-
-          Interested in using login.gov at your agency? Please [visit our partners website](https://partners.login.gov/) or contact us at [partnerships@login.gov](mailto:partnerships@loging.gov).
-      - heading: Report an issue
-        text: |-
-          If you want to report an issue, please review our [vulnerability disclosure policy](https://18f.gsa.gov/vulnerability-disclosure-policy/) and contact us using our [vulnerability disclosure form](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform).
+      - [I can’t sign in to my account](site.baseurl/help/trouble-signing-in/overview)
+      - [I need help verifying my identity](site.baseurl/help/verify-your-identity/overview)
+      - [I need to change my information or manage my account](site.baseurl/help/manage-your-account/overview)
+      - [Browse more help articles](site.baseurl/help)
+      {: .help-question-list}
+
+      ## Do you have a question about your agency account?
+
+      Login.gov is a sign in service to access government agency websites. If you have questions about the agency website, which may include questions about your application status, membership, eligibility, benefits or other specific concerns related to your account with that government agency, please contact that agency.
+    footer: |-
+      ## Partner with login.gov
+
+      Interested in using login.gov at your agency? Please [visit our partners website](https://partners.login.gov/) or contact us at [partnerships@login.gov](mailto:partnerships@loging.gov).
+
+      ## Report an issue
+
+      If you want to report an issue, please review our [vulnerability disclosure policy](https://18f.gsa.gov/vulnerability-disclosure-policy/) and contact us using our [vulnerability disclosure form](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform).
   support_request_form:
     agencies:
       cbp_jobs: Customs and Border Protection Jobs
@@ -700,8 +701,15 @@ nav:
   anchor_to_top: Back to top
   about_us: About us
   become_a_partner: Become a partner
-  contact: Contact
-  contact_us: Contact us
+  contact_us:
+    title: Contact us
+    sections:
+      - name: Do you have a question about your agency account?
+        url: /contact/#do-you-have-a-question-about-your-agency-account
+      - name: Partner with login.gov
+        url: /contact/#partner-with-logingov
+      - name: Report an issue
+        url: /contact/#report-an-issue
   contact_login_gov: Contact Login.gov
   create_an_account: Create an account
   developer_guide: Developer guide
@@ -1202,9 +1210,6 @@ why-login-gov_page:
       li_4: The convenience of identity verification from home
       li_5: Simple tools to manage and update their account
       li_6: Descriptive help content, and a staffed contact center for user support
-contact:
-  hero:
-    heading: Contact us
 create-an-account:
   hero:
     heading: Create an account
