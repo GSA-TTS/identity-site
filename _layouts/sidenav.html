@@ -2,43 +2,42 @@
 layout: main
 ---
 {% comment %}
-  TODO: Have a uniform way of maintaining translated sidenav lists. 
-  Use the i18n yaml `nav` object. 
-  Like a hashmap of locations:
-    nav_types = {
-      "policies" => site.translations[site.lang]["policies"]["sections"],
-      "contact" => site.translations[site.lang]["contact"]]["sections"]
-    }
-  ...and have one for loop: 
-    {% for item in nav_types[list] %}...{% endfor %}
-  ...where list = page.sidenav
+  This file implements a uniform way of maintaining translated sidenav lists. It will allow us to keep html out of markdown files. To add another page that uses side navigation, add the `sidenav` variable in the markdown file's front matter. Give it a unique value.
+    ---
+    sidenav: policies
+    ---
+
+  Add the new value to each i18n yaml file under the `nav` object. Define its sections with name/url pairs. The url value can be a relative url or hash anchor link (#).
+
+    policies:
+      sections:
+        - name: Our commitment to your privacy and security
+          url:  /policy/
+        - name: Another link
+          url: /policy/#another-policy-link
+  
+  The page.sidenav value will be passed to the sidenav for loop below.
 
   Note: This does not apply to Help pages, which is far more complex.
 {% endcomment %}
 
 {% capture sidenav %}
-  <nav aria-label="{% t accessible_labels.secondary_navigation %}" class="position-sticky pin-top">
-    <ul class="usa-sidenav">
-      <li class="usa-sidenav__item">
-        <a href="{{ page.url }}" class="usa-current">{% t page.title %}</a>
-        <ul class="usa-sidenav__sublist">
-        {% if page.sidenav == "policies" %}
-          {% for item in site.translations[site.lang]["nav"]["policies"]["sections"]%}
-          <li class="usa-sidenav__item">
-            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
-          </li>
-          {% endfor %}
-        {% else if page.sidenav%} <!-- If sidenav is a local hashmap in front matter -->
-          {% for item in page.sidenav%}
-          <li class="usa-sidenav__item">
-            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
-          </li>
-          {% endfor %}
-        {% endif %}
-        </ul>
-      </li>
-    </ul>
-  </nav>
+  {% if page.sidenav  %}
+    <nav aria-label="{% t accessible_labels.secondary_navigation %}" class="position-sticky pin-top">
+      <ul class="usa-sidenav">
+        <li class="usa-sidenav__item">
+          <a href="{{ page.url }}" class="usa-current">{% t page.title %}</a>
+          <ul class="usa-sidenav__sublist">
+            {% for item in site.translations[site.lang]["nav"][page.sidenav]["sections"]%}
+            <li class="usa-sidenav__item">
+              <a href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  {% endif %}
 {% endcapture %}
 
 {% capture heading %}
