@@ -623,7 +623,17 @@ meta:
     description: Les agences gouvernementales américaines peuvent tirer parti de la plate-forme d'authentification et de vérification d'identité de login.gov. En savoir plus sur les offres et les opportunités de login.gov.
     title: Pourquoi login.gov
 nav:
-  accessibility: Déclaration d'accessibilité
+  accessibility: 
+    title: Déclaration d'accessibilité
+    sections:
+      - name: Our Commitment
+        url: /accessibility#our-commitment
+      - name: Standards
+        url: /accessibility#standards
+      - name: Evaluation
+        url: /accessibility#evaluation
+      - name: Known limitations
+        url: /accessibility#known-limitations    
   about_us: À propos de nous
   anchor_to_top: Retour au sommet
   become_a_partner: Devenir un partenaire

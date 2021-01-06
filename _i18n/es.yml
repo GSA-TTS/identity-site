@@ -550,7 +550,17 @@ meta:
     description: Las agencias gubernamentales de EE. UU. Pueden aprovechar la plataforma de autenticación y verificación de identidad de login.gov. Obtenga más información sobre las ofertas y oportunidades de login.gov.
     title: Por qué login.gov
 nav:
-  accessiblity: Declaración de accesibilidad
+  accessibility: 
+    title: Declaración de accesibilidad
+    sections:
+      - name: Our Commitment
+        url: /accessibility#our-commitment
+      - name: Standards
+        url: /accessibility#standards
+      - name: Evaluation
+        url: /accessibility#evaluation
+      - name: Known limitations
+        url: /accessibility#known-limitations  
   about_us: Sobre nosotros
   anchor_to_top: Volver arriba
   become_a_partner: Convertirse en un compañero

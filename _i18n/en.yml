@@ -629,7 +629,17 @@ meta:
     title: Create an account
     description: Join the millions of people who trust login.gov for safe, secure access to government agencies.
 nav:
-  accessibility: Accessibility statement
+  accessibility:
+    title: Accessibility statement
+    sections:
+      - name: Our Commitment
+        url: /accessibility#our-commitment
+      - name: Standards
+        url: /accessibility#standards
+      - name: Evaluation
+        url: /accessibility#evaluation
+      - name: Known limitations
+        url: /accessibility#known-limitations
   anchor_to_top: Back to top
   about_us: About us
   become_a_partner: Become a partner

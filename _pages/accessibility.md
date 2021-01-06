@@ -4,15 +4,7 @@ redirect_from: https://design.login.gov/accessibility
 title: meta.accessibility.title
 description: meta.accessibility.description
 permalink: /accessibility/
-sidenav:
-  - name: Our Commitment
-    url: our-commitment
-  - name: Standards
-    url: standards
-  - name: Evaluation
-    url: evaluation
-  - name: Known limitations
-    url: known-limitations
+sidenav: accessibility
 ---
 
 ## Our commitment
