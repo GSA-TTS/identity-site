@@ -26,7 +26,7 @@ layout: main
     <nav aria-label="{% t accessible_labels.secondary_navigation %}" class="position-sticky pin-top">
       <ul class="usa-sidenav">
         <li class="usa-sidenav__item">
-          <a href="{{ page.url }}" class="usa-current">{% t page.title %}</a>
+          <a href="{{ page.url }}" class="usa-current">{{ site.translations[site.lang]["nav"][page.sidenav]["title"] }}</a>
           <ul class="usa-sidenav__sublist">
             {% for item in site.translations[site.lang]["nav"][page.sidenav]["sections"]%}
             <li class="usa-sidenav__item">
