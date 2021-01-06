@@ -48,7 +48,11 @@
         </li>
       </ul>
 
-      <div class="desktop:display-none margin-top-2">
+      <a class="usa-link desktop:display-none padding-y-1 margin-y-2 text-no-underline text-bold" href="{{ '/contact' | prepend: site.baseurl }}">
+        {% t meta.contact_us.title %}
+      </a>
+
+      <div class="desktop:display-none">
         {% include language_picker.html id="mobile-list" %}
       </div>
     </nav>
