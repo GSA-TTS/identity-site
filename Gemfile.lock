@@ -114,7 +114,7 @@ DEPENDENCIES
   jekyll-multiple-languages-plugin (>= 1.6.1)
   jekyll-redirect-from (>= 0.15.0)
   jekyll-sitemap (>= 1.4.0)
-  nokogiri (~> 1.11, >= 1.11.0)
+  nokogiri (>= 1.11.0)
   pry
   rb-readline
   rspec (~> 3.5.0)
