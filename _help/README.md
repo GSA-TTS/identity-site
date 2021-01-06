@@ -37,7 +37,7 @@ tbd
 
         **DO NOT USE HTML.** Content should include markdown syntax only. This applies to headings, lists, images and links. If special styling is required for content _within_ the help article, consider using general CSS selectors. Do not use ids created by markdown, because these ids will be translated and will not apply to translated pages.
 
-        To make sure that any links within the content, use the ``{{ site.baseurl/ }}`` prefix. This code converts to `login.gov/es` and `login.gov/fr` respectively.
+        To make sure that any links within the content, use the ``{{ site.baseurl }}/`` prefix. This code converts to `login.gov/es` and `login.gov/fr` respectively.
 1. Repeat the above steps in es.yml. Use the same slug (untranslated) as the id.
 1. Repeat the above steps in fr.yml.
 
@@ -74,6 +74,7 @@ You'll notice there are several directories that aren't used on the brochure sit
   * usajobs
   * trusted-traveler-programs
   * sam
+
 These pages were part of the former site, included in the navigation. Unfortunately, redirects on a Federalist site cannot be implemented on the server level. We have to create placeholders for these pages and specify where they should be redirected to.
 
 __If you remove a Help directory, please follow the following steps:__
