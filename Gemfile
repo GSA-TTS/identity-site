@@ -12,7 +12,7 @@ group :development do
   gem 'rb-readline'
 end
 group :test do
-  gem 'html-proofer'
+  gem 'html-proofer', '>= 3.15.3'
   gem 'rspec', '~> 3.5.0'
-  gem 'nokogiri', '~> 1.10'
+  gem 'nokogiri', '>= 1.11.0'
 end
