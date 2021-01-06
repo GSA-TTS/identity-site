@@ -49,7 +49,7 @@ jobs:
           command: bundle exec ./scripts/sitemap-check --directory _site --old-urls-file OLD_URLS.yml
       - run:
           name: Run htmlproofer (no external links)
-          command: bundle exec htmlproofer --disable-external --allow-hash-href --empty_alt_ignore `pwd`/_site
+          command: make htmlproofer_internal
 
   accessibility:
     docker:
@@ -94,7 +94,7 @@ jobs:
       - build-site
       - run:
           name: Run htmlproofer (external links only)
-          command: bundle exec scripts/htmlproofer-external `pwd`/_site
+          command: make htmlproofer_external
       - slack/status:
           fail_only: true
           failure_message: ":login-gov::red_circle: external link check failed"
