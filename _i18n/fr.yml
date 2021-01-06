@@ -644,6 +644,18 @@ nav:
   menu: Menu
   overview: Aperçu
   playbook: Guide de mise en œuvre
+  policies:
+    sections:
+      - name: Notre engagement envers votre confidentialité et votre sécurité
+        url:  /policy/
+      - name: Comment ça marche?
+        url:  /policy/how-does-it-work/
+      - name: Notre déclaration de confidentialité
+        url:  /policy/our-privacy-act-statement/
+      - name: Nos pratiques de sécurité
+        url:  /policy/our-security-practices/
+      - name: Termes et conditions de la messagerie
+        url:  /policy/messaging-terms-and-conditions/
   principles: Principes
   privacy_&_security: Confidentialité et sécurité
   security: Sécurité

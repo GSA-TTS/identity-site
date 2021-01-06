@@ -15,7 +15,6 @@ layout: main
 
   Note: This does not apply to Help pages, which is far more complex.
 {% endcomment %}
-{% assign list = page.sidenav %}
 
 {% capture sidenav %}
   <nav aria-label="{% t accessible_labels.secondary_navigation %}" class="position-sticky pin-top">
@@ -23,14 +22,14 @@ layout: main
       <li class="usa-sidenav__item">
         <a href="{{ page.url }}" class="usa-current">{% t page.title %}</a>
         <ul class="usa-sidenav__sublist">
-        {% if list == "policies" %}
-          {% for item in site.translations[site.lang]["policies"]["sections"]%}
+        {% if page.sidenav == "policies" %}
+          {% for item in site.translations[site.lang]["nav"]["policies"]["sections"]%}
           <li class="usa-sidenav__item">
             <a href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
           </li>
           {% endfor %}
-        {% else %}
-          {% for item in list%}
+        {% else if page.sidenav%} <!-- If sidenav is a local hashmap in front matter -->
+          {% for item in page.sidenav%}
           <li class="usa-sidenav__item">
             <a href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
           </li>

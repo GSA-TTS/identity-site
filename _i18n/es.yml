@@ -571,6 +571,18 @@ nav:
   menu: Menú
   overview: Resumen
   playbook: Manual
+  policies:
+    sections:
+      - name: Nuestro compromiso con su privacidad y seguridad
+        url: /policy/
+      - name: ¿Cómo funciona?
+        url: /policy/how-does-it-work/
+      - name: Nuestra declaración de la ley de privacidad
+        url: /policy/our-privacy-act-statement/
+      - name: Nuestras prácticas de seguridad
+        url: /policy/our-security-practices/
+      - name: Términos y condiciones de mensajería
+        url: /policy/messaging-terms-and-conditions/  
   principles: Principios
   privacy_&_security: Privacidad y seguridad
   security: Seguridad
