@@ -629,7 +629,17 @@ meta:
     title: Create an account
     description: Join the millions of people who trust login.gov for safe, secure access to government agencies.
 nav:
-  accessibility: Accessibility statement
+  accessibility:
+    title: Accessibility statement
+    sections:
+      - name: Our Commitment
+        url: /accessibility/#our-commitment
+      - name: Standards
+        url: /accessibility/#standards
+      - name: Evaluation
+        url: /accessibility/#evaluation
+      - name: Known limitations
+        url: /accessibility/#known-limitations
   anchor_to_top: Back to top
   about_us: About us
   become_a_partner: Become a partner
@@ -652,6 +662,19 @@ nav:
   our-agency-partners: Our agency partners
   partners: Partners
   playbook: Playbook
+  policies:
+    title: Privacy & security
+    sections:
+      - name: Our commitment to your privacy and security
+        url:  /policy/
+      - name: How does it work?
+        url:  /policy/how-does-it-work/
+      - name: Our privacy act statement
+        url:  /policy/our-privacy-act-statement/
+      - name: Our security practices
+        url:  /policy/our-security-practices/
+      - name: Messaging terms and conditions
+        url:  /policy/messaging-terms-and-conditions/
   principles: Principles
   privacy_&_security: Privacy & security
   security: Security
@@ -745,9 +768,8 @@ playbook_page:
 policies:
   title: Privacy & security
   sections:
-    - link:
-        text: Our commitment to your privacy and security
-        url: "/policy/"
+    - name: Our commitment to your privacy and security
+      url: "/policy/"
       sublinks:
         -
           text: How we work with our partner agencies
@@ -775,9 +797,8 @@ policies:
         Protecting your information is our priority. You can read below for a more detailed explanation of our privacy and security practices.
 
         You can read more detailed explanations about [how login.gov works](site.baseurl/policy/how-does-it-work/), [our privacy act statement](site.baseurl/policy/our-privacy-act-statement/), and [our security practices](site.baseurl/policy/our-security-practices/).
-    - link:
-        text: How does it work?
-        url: "/policy/how-does-it-work/"
+    - name: How does it work?
+      url: "/policy/how-does-it-work/"
       content: |-
         ## How does it work ## {#how-does-it-work}
 
@@ -790,9 +811,8 @@ policies:
         Protecting your privacy through encryption does come at a cost. Login.gov operators, such as our Contact Center team, cannot make changes on your behalf like unlocking your account, changing your password or updating your email address or phone number. We encourage you to safeguard your authentication method for this reason. While this means login.gov cannot provide that level of customer support, if we chose to make these options available to our customer support team, it would make our system more vulnerable to hacking and other bad actors.
 
         The information you give login.gov will be shared with the applicable partner agency to provide access to information about you held by that agency as described in the associated systems of records notices. Please note that the login.gov system will record certain session-level information about your use of the service, including but not limited to, web browser type and version, and the length of your session. This information allows login.gov to better understand how the site is being used and how it can be made more helpful.
-    - link:
-        text: Our privacy act statement
-        url: "/policy/our-privacy-act-statement/"
+    - name: Our privacy act statement
+      url: "/policy/our-privacy-act-statement/"
       sublinks:
         -
           text: The Authority - Who authorizes the collection of this data?
@@ -872,9 +892,8 @@ policies:
         ### Privacy Impact Assessment ### {#impact}
 
         View our privacy impact assessment at [www.gsa.gov/PIA](https://www.gsa.gov/PIA){:target="_blank"}.
-    - link:
-        text: Our security practices
-        url: "/policy/our-security-practices/"
+    - name: Our security practices
+      url: "/policy/our-security-practices/"
       sublinks:
         -
           text: Vulnerability disclosure policy
@@ -898,9 +917,8 @@ policies:
         ### For more information ### {#more-info}
 
         We are happy to answer questions about our security and privacy practices. For more information, please visit [help](site.baseurl/help/) or [contact us](site.baseurl/contact/).
-    - link:
-        text: Messaging terms and conditions
-        url: "/policy/messaging-terms-and-conditions/"
+    - name: Messaging terms and conditions
+      url: "/policy/messaging-terms-and-conditions/"
       sublinks:
         -
           text: SMS terms and conditions
@@ -1152,3 +1170,47 @@ create-an-account:
         * SMS/Text messages
         * Backup codes
   info: Depending on the security needs of the agency, you may need to prove your identity using a social security number, address, and/or U.S. based state-issued identification.
+accessibility:
+  content: |-
+    ## Our commitment
+    Login.gov is committed to be inclusive and accessible for all of our users. Our focus is to continuously improve how people of all abilities are able to use Login.gov to easily access government applications and services.
+
+    ## Standards
+    Login.gov aims to comply with the [W3C Web Content Accessibility Guidelines (WCAG) version 2.1 level AA](https://www.w3.org/TR/WCAG21/).
+
+    You should be able to do the following with Login.gov:
+
+    * Use a screen reader and read the content of the page by using the down arrow key.
+    * Be able to see and hear content including separating foreground from background.
+    * You can change font size easily using your browser. (Please refer to your browser’s Help menu to learn how to re- size text.)
+
+    ## Evaluation
+    Login.gov is regularly evaluated through a series of semi-automated evaluation tools and manual evaluation by expert reviewers. After each evaluation, we develop a plan to address any areas of improvement.
+
+    Our completed accessibility assessment reports can be found below:
+
+    [IAL 1 Account creation report](https://docs.google.com/document/d/1wqbVOvNg-7tFW1l4ZxMJrA_VR2gQqNpimlbzxPtvpXg/export?format=pdf)
+
+    ### Accessibility policies
+    In addition to completed accessibility reports, Login.gov has compiled a page regarding accessibility policies.
+
+    [Login.gov accessibility policies](https://design.login.gov/accessibility/policies/)
+
+    ## Known limitations
+    Below is a description of the types of accessibility limitations discovered in our evaluations.
+
+    ### Images
+    Images and graphics make content more pleasant and easier to understand for many people, and in particular for those
+    with cognitive and learning disabilities. There are still some images that may create barriers for:
+
+    * People using screen readers: The text alternative can be read aloud or rendered as Braille
+    * People using speech input software: Users can put the focus onto a button or linked image with a single voice command
+    * People browsing speech-enabled websites: The text alternative can be read aloud
+    * Mobile web users: Images can be turned off, especially for data-roaming
+    * Search engine optimization: images become indexable by search engines
+
+    ### Keyboard navigation
+    With keyboard navigation, users can access and move between links, buttons, forms, and other controls using the Tab key and other keystrokes.
+
+    ### Skip navigation
+    Allows users who use a keyboard to navigate a page the ability to activate the skip navigation link to skip over long lists and sublists of navigation and page header information.

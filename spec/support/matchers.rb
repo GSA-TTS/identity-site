@@ -70,33 +70,6 @@ RSpec::Matchers.define :properly_escape_html do
   end
 end
 
-RSpec::Matchers.define :link_to_valid_urls do
-  bad_urls = []
-
-  match do |actual|
-    doc = actual
-
-    doc.css('a').each do |a|
-      href = a[:href]
-
-      next if href == '#'
-
-      begin
-        URI(href)
-      rescue URI::InvalidURIError
-        bad_urls << href
-      end
-    end
-
-    expect(bad_urls).to be_empty
-  end
-
-  failure_message do |actual|
-    "expected that #{actual.url} would link to valid URLs, but found:\n#{bad_urls.join("\n")}"
-  end
-end
-
-
 site_config = YAML.safe_load(File.read(File.expand_path(File.join(__dir__, '../../_config.yml'))))
 site_title = site_config['title']
 
