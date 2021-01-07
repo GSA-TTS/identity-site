@@ -176,8 +176,6 @@ developers_page:
     a_1: Get started
     heading:
     p_1:
-footer:
-  gsa: U.S. General Services Administration
 global:
   language: Language
   locales:
@@ -568,28 +566,6 @@ index:
       Login.gov works with the private sector and nonprofits to identify and implement best practices and new standards.
 
       Login.gov builds on groundwork laid by the [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"}, the [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, and the [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
-  footer:
-    additional_info: Additional information about the U.S. General Services Administration (GSA)
-      can be found at
-    for_questions: For questions about this website, email email.gsa.gov.
-    heading: Contact us
-    learn_more: Learn more
-    links:
-      accessibility: View accessibility statement
-      budget: View budget and performance reports
-      foia: Submit a Freedom of Information Act (FOIA) request
-      no_fear_act: View No FEAR Act data
-      report_fraud: Report fraud, waste, or abuse to the Office of the Inspector General
-    org: "[Login.gov](site.baseurl) is a product of GSA's [Technology Transformation Services](https://www.gsa.gov/tts){:target='_blank'}
-      and managed by [Office of Solutions](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions){:target='_blank'}."
-    p_1: Have a question or problem? [Get in touch](site.baseurl/contact).
-    tts:
-      about: As part of GSA’s Technology Transformation Services (TTS), we apply modern methodologies
-        and technologies to improve the public’s experience with government. We help agencies make
-        their services more accessible, efficient, and effective with modern applications, platforms,
-        processes, personnel, and software solutions.
-      portfolio: TTS Solutions is a portfolio of products and services that help agencies improve
-        delivery of information and services to the public.
   intro:
     content: Use one account and password for secure, private access to participating government agencies.
     heading: The public’s one account for government.
@@ -1276,3 +1252,22 @@ accessibility:
 
     ### Skip navigation
     Allows users who use a keyboard to navigate a page the ability to activate the skip navigation link to skip over long lists and sublists of navigation and page header information.
+identifier:
+  accessible_labels:
+    description: Agency description
+    identifier: Agency identifier
+    links: Important links
+    logo: GSA logo
+    usa_gov: U.S. government information and services
+  disclaimer: An official website of the [General Services Administration](https://gsa.gov)
+  links:
+    about_agency: About GSA
+    accessibility: Accessibility support
+    foia: FOIA requests
+    ig: Office of the Inspector General
+    no_fear_act: No FEAR Act data
+    performance: Performance reports
+    privacy: Privacy policy
+  usa_gov:
+    text: Looking for U.S. government information and services?
+    link: Visit USA.gov

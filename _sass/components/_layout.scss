@@ -6,11 +6,9 @@ main {
 .container,
 div > .container,
 section > .container,
-nav > .container {
-  @include lg-grid();
-}
-
-article.container {
+nav > .container,
+article.container,
+.usa-identifier__container {
   @include lg-grid();
 }
 
