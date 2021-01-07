@@ -50,13 +50,6 @@
     position: relative !important;
     top: 0 !important;
   }
-
-  .contact-link {
-    @include typeset-link;
-    font-size: 0.813rem;
-    font-weight: bold;
-    text-decoration: none;
-  }
 }
 
 .usa-header--basic.top-navigation .usa-navbar {
