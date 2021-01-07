@@ -1,5 +1,6 @@
 ---
-redirect_from: 
+order: 3
+redirect_from:
 - /help/usajobs/gov-mil-edu-email-address/
 - /help/usajobs/how-do-I-relink-my-USAJOBS-profile-after-deleting-my-login-account/
 - /help/usajobs/im-trying-to-sign-in-but-it-doesnt-work/
@@ -15,5 +16,5 @@ redirect_from:
 - /help/usajobs/try-not-to-use-a-gov-mil-or-edu-email-address/
 - /help/usajobs/what-email-address-should-i-use/
 - /help/usajobs/what-will-happen-to-my-usajobs-profile/
-redirect_to: /help
 ---
+{% include help/translate_page.html url=page.url %}

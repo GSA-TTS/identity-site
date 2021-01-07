@@ -1,4 +1,5 @@
 ---
+order: 2
 redirect_from:
 - /help/sam/have-account-different-email/
 - /help/sam/no-longer-have-email/
@@ -19,5 +20,5 @@ redirect_from:
 - /help/sam/my-logingov-account-uses-a-different-email-address/
 - /help/sam/my-sam-information-is-not-there/
 - /help/sam/reset-or-relink-my-logingov-account-for-sam/
-redirect_to: /help
 ---
+{% include help/translate_page.html url=page.url %}

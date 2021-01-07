@@ -167,11 +167,16 @@ help:
     forgot-your-email-address: Forgot your email address
     security-code-issues: Security code issues
     password-reset-issues: Password reset issues
-  manage-your-account: 
+  manage-your-account:
     overview: Overview
     change-your-password: Change your password
     delete-your-account: Delete your account
     change-your-phone-number: Change the phone number associated with your account
+  specific-agencies:
+    overview: Overview
+    usajobs: USAJOBS
+    sam: SAM
+    trusted-traveler-programs: Trusted Traveler Programs
   verify-your-identity:
     overview: Overview
     how-to-verify-your-identity: How to verify your identity
@@ -370,6 +375,105 @@ help_pages:
       
       ## Related article 
       [Phone or authentication methods not available](#)
+  specific-agencies:
+    overview: |-
+      # Help with specific agencies
+
+      Login.gov is for account access and sign in only. This account does not affect or have any information related to the specific agency you are trying to access.
+
+      Our customer support team is here to help answer login.gov questions.
+
+      ## Contact login.gov to:
+      * Help you create a login.gov account
+      * Share information about authentication options
+      * Help you troubleshoot why you are unable to access your account
+      * Provide instructions to reset your password or delete your account
+
+      Login.gov cannot reset your password, delete your account, or change your account information.
+
+      ## Contact the agency partner to:
+      * Perform agency specific tasks, like uploading your resume, completing applications or scheduling an appointment with that agency
+      * Resolve technical issues with a partner agency website
+      * Access your personal agency specific information such as application status, services, eligibility or payments
+
+      We provide some specific help content for our larger agency partners. We encourage you to contact the agency with specific questions.
+
+      ## Common troubleshooting topics
+      * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in/)
+      * [Change your password](site.baseurl/help/manage-your-account/change-your-password/)
+      * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password/)
+      * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
+      * [Phone or authentication methods not available](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
+    sam: |-
+      # System for Award Capture (SAM)
+
+      Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your System for Award Capture (SAM) account, application, status, membership, or eligibility.
+
+      Please do not send login.gov sensitive data about yourself or SAM application.
+
+      Login.gov can only answer questions about the sign-in process and creating a login.gov account.
+
+      Please contact [SAM.gov](https://sam.gov/SAM/pages/public/index.jsf) directly if you have questions regarding:
+
+      * Application registration, eligibility, status or changes
+      * Scheduling appointments
+      * Entity registration status
+      * Or other related concerns
+
+      To make changes to your SAM.gov account profile, you will need to sign in at <https://www.sam.gov>.
+
+      Contact the Federal Service Desk at 866-606-8220 (toll fee) or 334-206-7828 (internationally) for assistance, or submit your request via web form at [www.fsd.gov](https://www.fsd.gov/).
+
+      ## Important notes for creating your login.gov account and accessing your SAM profile:
+      * If you already have a SAM account, use the same email you used for your SAM account to create your login.gov account
+          * If you use the same email to create your login.gov profile, you will keep all of your records, data access requests, and saved searches.
+          * If you use a new email address, nothing will happen to your SAM.gov profile, but you will be unable to access your SAM profile information.
+      * If you already have a login.gov account and want to add your SAM email, you can do so on the login.gov My Account page. Select the sign in button on the login.gov homepage to access that account page.
+
+    trusted-traveler-programs: |-
+      # Trusted Traveler Programs (TTP)
+
+      Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your [Trusted Traveler Programs](https://ttp.dhs.gov/) (TTP) application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
+
+      Login.gov can only answer questions about the sign-in process and creating a login.gov account.
+
+      Please contact the [Trusted Traveler Programs](https://help.cbp.gov/s/questions?language=en_US) directly if you have questions regarding:
+
+      * Application status or changes to your application
+      * Eligibility
+      * Scheduling or changing appointments
+      * Or other related concerns
+
+      Important notes:
+
+      * Your Known Traveler Number (KTN) will not change when you create a login.gov account
+      * You do not need to pay for TTP again when you create a login.gov account unless it is time to renew your membership
+
+      To access your Trusted Traveler Programs account information, visit <https://ttp.cbp.dhs.gov/>.
+
+      If you sign in directly from the login.gov homepage, you will only see your login.gov account information.
+
+    usajobs: |-
+      # USAJOBS
+
+      Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your [USAJOBS](https://www.usajobs.gov/) application, employment status, or eligibility. Please do not send login.gov sensitive data about yourself including your resume.
+
+      Although login.gov can answer questions about the sign-in process and creating a login.gov account, USAJOBS prefers that you contact them directly for all concerns.
+
+      Please contact the [USAJOBS](https://www.usajobs.gov/) directly if you have questions regarding:
+
+      * Application status or changes to your application
+      * Uploading or changing your resume
+      * Employment eligibility and status
+      * Job posting questions
+      * The sign in process and creating your login.gov account
+      * Linking your USAJOBS profile information to your login.gov
+      * Or other related concerns
+
+      To access your Trusted Traveler Programs account information, sign in directly from USAJOBS.gov.
+
+      If you sign in directly from the login.gov homepage, you will only see your login.gov account information on the “My Account” page.
+
   verify-your-identity:
     overview: |-
       # Verify your identity
@@ -397,6 +501,7 @@ help_pages:
 help_subpages:
   trouble-signing-in: Trouble signing in?
   manage-your-account: Manage your account
+  specific-agencies: Help with specific agencies
   verify-your-identity: Verify your identity
 implementation_page:
   heading: Implementing an identity management system
