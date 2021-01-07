@@ -3,5 +3,7 @@
   <input name="affiliate" type="hidden" value="login.gov"/>
   <label class="usa-sr-only" for="search-field-{{ include.id }}">{% t actions.search %}</label>
   <input class="usa-input" id="search-field-{{ include.id }}" name="query" type="search">
-  <button class="usa-button" type="submit">{% t actions.search %}</button>
+  <button class="usa-button" type="submit">
+    <span class="usa-search__submit-text">{% t actions.search %}</span>
+  </button>
 </form>
