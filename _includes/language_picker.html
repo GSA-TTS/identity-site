@@ -2,7 +2,7 @@
   {% if include.dropdown == true %}
     <button
       aria-controls="language-picker-{{ include.id }}"
-      class="usa-button usa-button--outline btn-lang-toggle"
+      class="usa-button usa-button--outline language-picker__label language-picker__label--button"
     >
       {% include svg/globe.svg %}
       <span id="language-picker-{{ include.id }}-description" class="label">
@@ -10,7 +10,7 @@
       </span>
     </button>
   {% else %}
-    <div class="btn-lang-toggle">
+    <div class="language-picker__label language-picker__label--text">
       {% include svg/globe.svg %}
       <span id="language-picker-{{ include.id }}-description" class="label">
         {% t global.language %}
