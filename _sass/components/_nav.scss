@@ -205,6 +205,41 @@
   @include usa-link-style;
 }
 
+@include at-media-max("desktop") {
+  .usa-nav__primary {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: auto;
+  }
+
+  .usa-nav__primary button:hover,
+  .usa-nav__primary a:hover {
+    // TODO: Reconcile / backport hover color difference with Login Design System.
+    background-color: $blue-lightest;
+  }
+
+  .usa-nav__primary-item {
+    border-top: 0;
+
+    &::before {
+      // TODO: Reconcile / backport border color difference with Login Design System.
+      background-color: $blue-light;
+      content: '';
+      display: block;
+      height: 1px;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+
+  .usa-nav__primary .usa-nav__primary-item .usa-accordion__button,
+  .usa-nav__primary .usa-nav__primary-item .usa-accordion__close-button,
+  .usa-nav__primary .usa-nav__submenu-item .usa-accordion__button,
+  .usa-nav__primary .usa-nav__submenu-item .usa-accordion__close-button {
+    background-position: right 1rem center;
+  }
+}
+
 @include at-media("desktop") {
   .usa-nav__primary-item + .usa-nav__primary-item {
     margin-left: 1.5rem;

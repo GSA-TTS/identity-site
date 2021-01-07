@@ -33,10 +33,6 @@ article.container,
 }
 
 .usa-header .usa-nav {
-  .usa-nav__primary-item .usa-nav__link:first-child {
-    padding-left: 0;
-  }
-
   .usa-search {
     right: 0;
   }
@@ -93,10 +89,6 @@ article.container,
 @include at-media-max("desktop") {
   .usa-header .usa-nav {
     width: 85vw;
-
-    .usa-nav__primary-item .usa-nav__link {
-      padding-left: 0;
-    }
   }
 
   .looking-for-svc {
