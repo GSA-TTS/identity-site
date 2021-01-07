@@ -26,6 +26,10 @@ article.container,
 
 .usa-nav__primary {
   order: 0;
+
+  @include at-media-max("desktop") {
+    margin-top: 0;
+  }
 }
 
 .usa-header .usa-nav {

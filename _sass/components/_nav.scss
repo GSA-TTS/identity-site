@@ -67,6 +67,12 @@
   }
 }
 
+.usa-header--basic .usa-search {
+  @include at-media("desktop") {
+    display: none;
+  }
+}
+
 .usa-logo {
   .help-page & {
     @include at-media('desktop') {
@@ -112,7 +118,7 @@
   margin: 0 0 0 0.2rem;
 
   &.mobile {
-    margin: 1em 0 0 0;
+    margin-bottom: 1rem;
     display: none;
   }
 

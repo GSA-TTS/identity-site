@@ -17,8 +17,6 @@
       </button>
 
       <div class="desktop:display-none">
-        {% include search.html size="small" id="header-nav" %}
-
         <ul class="usa-nav__primary usa-accordion">
           {% for subpage in site.translations[site.lang].help_subpages %}
             {% assign subpage_slug = subpage[0] %}
@@ -63,7 +61,7 @@
         </ul>
       </div>
 
-      <a class="usa-link desktop:display-none padding-y-1 margin-y-2 text-no-underline text-bold" href="{{ '/contact' | prepend: site.baseurl }}">
+      <a class="usa-link desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold" href="{{ '/contact' | prepend: site.baseurl }}">
         {% t meta.contact_us.title %}
       </a>
 
@@ -71,7 +69,9 @@
         {% include language_picker.html dropdown=true id="dropdown" %}
       </div>
 
-      <div class="desktop:display-none">
+      {% include search.html size="small" id="header-nav" %}
+
+      <div class="desktop:display-none margin-top-2">
         {% include language_picker.html id="mobile-list" %}
       </div>
 
