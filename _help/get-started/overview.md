@@ -1,7 +1,7 @@
 ---
 order: 0
 title: help_subpages.get-started
-redirect_from: 
+redirect_from:
 - /help/creating-an-account/authentication-application/
 - /help/creating-an-account/creating-a-strong-password/
 - /help/creating-an-account/email-address-confirmation-link-is-invalid/
@@ -28,8 +28,5 @@ redirect_from:
 - /help/creating-an-account/why-is-my-confirmation-link-invalid/
 ---
 
-<<<<<<< HEAD
 # {% t page.title %}
-=======
->>>>>>> d58b196... Add get-started help overview page.
 {% include help/translate_page.html url=page.url %}
