@@ -29,7 +29,7 @@ async function getLinks(page) {
  */
 function toNotHaveTargetBlank(a) {
   return {
-    pass: a.target != '_blank',
+    pass: a.target !== '_blank',
     message: () => `Link "${a.innerText}" to ${a.href} had target=_blank, but it should not have`,
   };
 }
