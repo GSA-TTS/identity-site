@@ -182,6 +182,10 @@ global:
     es: Español
     fr: Français
 help:
+  get-started:
+    overview: Overview
+    create-your-account: Create your login.gov account
+    authentication-options: Authentication options
   trouble-signing-in:
     overview: Overview
     how-to-sign-in: How to sign in to login.gov
@@ -211,12 +215,64 @@ help_page:
   p_1: Browse common topics
   title: How can we help?
 help_pages:
+  get-started:
+    overview: |-
+      Login.gov is the public's one account and password for government. Login.gov is a shared service and trusted by government agencies. With one login.gov account you can access applications from participating government partners.
+
+      Create your login.gov account
+      * Learn about authentication options
+      * Why you are being asked to use login.gov
+
+      ## Common troubleshooting topics {#help-question-list}
+      * Email address confirmation issues
+      * Security code not received on phone
+    create-your-account: |-
+      Follow these steps to create your login.gov account.
+
+      1. Enter your email address at [https://secure.login.gov/sign_up/enter_email](https://secure.login.gov/sign_up/enter_email) to begin.
+
+          Choose an email address that you’ll always be able to access. Once your account is created, you can add an additional email address, such as a work email or alternate personal address, to access your account.
+      1. Click the __“Submit”__ button.
+      1. Check your email for a message from login.gov.
+      1. Click the __“Confirm your email address”__ button in the message. This will take you back to the login.gov website.
+      1. Create your login.gov password.
+
+          Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.
+
+          Your login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
+      1. Set up a second layer of security.
+
+          As an added layer of protection, login.gov requires you set up a secondary authentication method to keep your account secure. This is referred to as two-factor authentication (2FA).
+
+          While we only require one secondary authentication method, we encourage you to add two methods to your account. That way you will have a backup if you lose access to your primary authentication method.
+
+          You can choose from several authentication options.
+
+          __More secure:__
+          * Authentication application
+          * Security key
+          * PIV or CAC card for federal government employees or military
+
+          __Less secure:__
+          * Text message
+          * Phone call
+          * Backup codes
+
+          [Learn more about each authentication option](site.baseurl/help/get-started/authentication-options) to choose the one that is right for you.
+
+      1. Success! Once you have authenticated, you have created your login.gov account.
+
+      You will be taken to your login.gov account page or the government agency you are trying to access. You can add additional authentication methods, email addresses or update your information on the login.gov account page.
+
+      ## Related articles
+      * [Authentication options](site.baseurl/help/get-started/authentication-options)
+      * [Manage your account](site.baseurl/help/manage-your-account/overview)
   trouble-signing-in:
     overview: |-
       # Trouble signing in?
       Forgot your password? Locked out of your account? We'll help you resolve account access issues.
 
-      ## Common troubleshooting topics
+      ## Common troubleshooting topics {#help-question-list}
         * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password)
         * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login)
@@ -326,7 +382,7 @@ help_pages:
       # Manage your account
       Manage your account settings including your password, phone number, email, and more.
 
-      ## Common troubleshooting topics
+      ## Common troubleshooting topics {#help-question-list}
       * [Change your password](#)
       * [Change the phone number associated with your account](#)
       * [Change the email address associated with your account](#)
@@ -497,7 +553,7 @@ help_pages:
 
       Use this help section to understand the process and requirements for identity verification.
 
-      ## Common troubleshooting topics
+      ## Common troubleshooting topics {#help-question-list}
        * [How to verify your identity](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
        * [Verify your address by mail](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
        * [Don’t have a state-issued ID](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
@@ -512,6 +568,8 @@ help_pages:
     personal-key-issues: |-
       # Personal key issues
 help_subpages:
+  get-started: Get started with login.gov
+  create-your-account: Create your login.gov account
   trouble-signing-in: Trouble signing in?
   manage-your-account: Manage your account
   specific-agencies: Help with specific agencies

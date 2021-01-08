@@ -1,4 +1,6 @@
 ---
+order: 2
+title: help.get-started.authentication-options
 redirect_from:
 - /help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
 - /help/security-keys/what-is-a-security-key/
@@ -8,5 +10,10 @@ redirect_from:
 - /help/security-keys/how-do-i-protect-my-logingov-account-with-a-security-key/
 - /help/security-keys/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
 - /help/security-keys/related-articles/
-redirect_to: /help
+- /help/security-keys/
+- /help/authentication-methods/which-authentication-method-should-i-use/
+- /help/authentication-methods/
 ---
+
+# {% t page.title %}
+{% include help/translate_page.html url=page.url %}

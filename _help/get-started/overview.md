@@ -1,5 +1,7 @@
 ---
-redirect_from: 
+order: 0
+title: help_subpages.get-started
+redirect_from:
 - /help/creating-an-account/authentication-application/
 - /help/creating-an-account/creating-a-strong-password/
 - /help/creating-an-account/email-address-confirmation-link-is-invalid/
@@ -24,5 +26,8 @@ redirect_from:
 - /help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/
 - /help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/
 - /help/creating-an-account/why-is-my-confirmation-link-invalid/
-redirect_to: /help
+- /help/get-started/
 ---
+
+# {% t page.title %}
+{% include help/translate_page.html url=page.url %}
