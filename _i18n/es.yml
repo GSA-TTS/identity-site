@@ -143,7 +143,7 @@ global:
 help:
   get-started:
     overview: Visión general
-    create-your-account: Cómo crear una cuenta
+    create-your-account: Crear una cuenta
   trouble-signing-in:
     overview: Visión general
     how-to-sign-in: Cómo acceder a login.gov
@@ -185,33 +185,33 @@ help_pages:
         4. Haga clic en "Eliminar dirección de correo electrónico".
       Verá un mensaje de alerta verde que confirma que se eliminó su dirección de correo electrónico.
     create-your-account: |-
-      Follow these steps to create your login.gov account. 
-      
-      1. Enter your email address at [https://secure.login.gov/sign_up/enter_email](https://secure.login.gov/sign_up/enter_email) to begin. 
-        
-          Choose an email address that you’ll always be able to access. Once your account is created, you can add an additional email address, such as a work email or alternate personal address, to access your account.  
+      Siga estos pasos para crear su cuenta de login.gov.
+
+      1. Enter your email address at [https://secure.login.gov/sign_up/enter_email](https://secure.login.gov/sign_up/enter_email) to begin.
+
+          Choose an email address that you’ll always be able to access. Once your account is created, you can add an additional email address, such as a work email or alternate personal address, to access your account.
       1. Click the __“Submit”__ button.
-      1. Check your email for a message from login.gov. 
+      1. Check your email for a message from login.gov.
       1. Click the __“Confirm your email address”__ button in the message. This will take you back to the login.gov website.
       1. Create your login.gov password.
-        
-          Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.  
-        
+
+          Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.
+
           Your login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
-      1. Set up a second layer of security. 
-        
+      1. Set up a second layer of security.
+
           As an added layer of protection, login.gov requires you set up a secondary authentication method to keep your account secure. This is referred to as two-factor authentication (2FA).
 
           While we only require one secondary authentication method, we encourage you to add two methods to your account. That way you will have a backup if you lose access to your primary authentication method.
 
           You can choose from several authentication options.
       1. Success! Once you have authenticated, you have created your login.gov account.
-      
+
       You will be taken to your login.gov account page or the government agency you are trying to access. You can add additional authentication methods, email addresses or update your information on the login.gov account page.
 
       ## Artigos relacionados {#related-articles}
       * [Authentication options](site.baseurl/help/get-started/authentication-options)
-      * [Manage your account](site.baseurl/help/manage-your-account/overview)   
+      * [Manage your account](site.baseurl/help/manage-your-account/overview)
   trouble-signing-in:
     overview: |-
       # ¿Problemas al iniciar sesión?
