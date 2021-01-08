@@ -266,7 +266,7 @@
     let field = document.getElementById(topicID);
     field.options.length = 0;
     field.options[0] = new Option(
-      "{% t contact_page.support_request_form.form_helpers.select %}",
+      "{% t contact_page.support_request_form.form_helpers.select_topic %}",
       "",
       false,
       true
@@ -282,7 +282,7 @@
 
     let sub = document.getElementById("sub-topic");
     sub.options[0] = new Option(
-      "{% t contact_page.support_request_form.form_helpers.select %}",
+      "{% t contact_page.support_request_form.form_helpers.select_issue %}",
       null,
       false,
       true
@@ -305,7 +305,7 @@
         console.log(topicMap[i]);
         options.push(
           new Option(
-            "{% t contact_page.support_request_form.form_helpers.select %}",
+            "{% t contact_page.support_request_form.form_helpers.select_issue %}",
             "",
             false,
             true
@@ -382,7 +382,7 @@
     {% t contact_page.support_request_form.labels.agency_application %}
   </label>
   <select id="00Nt0000000OYA2" name="00Nt0000000OYA2" required class="usa-select">
-    <option value="" selected hidden>{% t contact_page.support_request_form.form_helpers.select %}</option>
+    <option value="" selected hidden>{% t contact_page.support_request_form.form_helpers.select_agency %}</option>
     <optgroup label="{% t contact_page.support_request_form.labels.agency_application_common %}">
       <option value="USAJOBS">{% t contact_page.support_request_form.agencies.usajobs %}</option>
       <option value="SBA DLAP">{% t contact_page.support_request_form.agencies.sba_dlap %}</option>

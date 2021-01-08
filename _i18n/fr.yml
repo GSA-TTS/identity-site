@@ -22,6 +22,33 @@ banner:
     secure_heading: Les sites Web sécurisés .gov utilisent HTTPS
     secure_description: "Un <strong>verrou</strong> ou <strong>https://</strong> signifie que vous êtes connecté en toute sécurité au site Web .gov. Partagez des informations sensibles uniquement sur des sites Web officiels et sécurisés."
 contact_page:
+  content:
+    intro: |-
+      Login.gov est là pour vous aider à créer, à vous connecter et à gérer votre compte login.gov.
+
+      Par mesure de sécurité, nous n’avons pas la possibilité de supprimer votre compte login.gov ou de changer votre mot de passe en votre nom.
+
+      Nos heures d’ouverture sont du lundi au vendredi, de 8 h à 20 h (heure de l’Est). Veuillez noter que nos agents du service clientèle peuvent prendre jusqu’à deux jours ouvrables pour répondre à votre question. Nous vous remercions de votre patience.
+
+      Si vous avez besoin d’aide pour votre compte login.gov, consultez les articles de notre centre d’aide pour obtenir de l’aide sur des questions courantes.
+
+      - [Je ne peux pas me connecter à mon compte](site.baseurl/help/trouble-signing-in/overview)
+      - [J’ai besoin d’aide pour vérifier mon identité](site.baseurl/help/verify-your-identity/overview)
+      - [Je dois modifier mes informations ou gérer mon compte](site.baseurl/help/manage-your-account/overview)
+      - [Parcourir d’autres articles d’aide](site.baseurl/help)
+      {: .help-question-list}
+
+      ## Avez-vous une question concernant votre compte d’agence?
+
+      Login.gov est un service d’identification permettant d’accéder aux sites web des agences gouvernementales. Si vous avez des questions sur le site web de l’agence, qui peuvent porter sur le statut de votre demande, votre adhésion, votre éligibilité, vos avantages ou d’autres questions spécifiques liées à votre compte auprès de cette agence gouvernementale, veuillez contacter cette agence.
+    footer: |-
+      ## Partenaire avec login.gov
+
+      Souhaitez-vous utiliser login.gov dans votre agence? Veuillez [consulter le site web de nos partenaires](https://partners.login.gov/) ou nous contacter à l’adresse [partnerships@login.gov](mailto:partnerships@loging.gov).
+
+      ## Signaler un problème
+
+      Si vous souhaitez signaler un problème, veuillez consulter notre [politique de divulgation de la vulnérabilité](https://18f.gsa.gov/vulnerability-disclosure-policy/) et nous contacter en utilisant notre [formulaire de divulgation de la vulnérabilité](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform).
   support_request_form:
     agencies:
       cbp_jobs: Customs and Border Protection Jobs
@@ -38,22 +65,24 @@ contact_page:
       usajobs: USAJOBS
       veterans_affairs: Veterans Affairs
     errors:
-      captcha_required: You must complete the spam prevention challenge. # TODO: Translate
+      captcha_required: Vous devez relever le défi de la prévention du pourriel.
     form_helpers:
-      select: "- Select -" # TODO: Translate
+      select_topic: "- Sélectionnez un sujet -"
+      select_issue: "- Sélectionnez une question spécifique -"
+      select_agency: "- Sélectionnez une agence -"
     labels:
       agency_application: Demande à une agence
       agency_application_all: Toutes les applications
       agency_application_common: Applications courantes
       agency_application_other: Autres applications
-      description: Provide more detail about your question # TODO: Translate
+      description: Donnez plus de détails sur votre question
       email: E-mail
       first_name: Prénom
       last_name: Nom
       pii_warning: Veuillez **ne pas** inclure d'informations sensibles ou d'identification dans cette section telles que votre nom complet, votre date de naissance ou votre numéro de sécurité sociale.
-      subtopic: Issue # TODO: Translate
-      topic: Topic # TODO: Translate
-    reset: Clear form # TODO: Translate
+      subtopic: Problème
+      topic: Sujet
+    reset: Formulaire clair
     submit: Soumettre
     subtopics:
       add_family_member: Comment ajouter un membre de la famille à mon compte login.gov?
@@ -93,8 +122,6 @@ contact_page:
       site_navigation: Navigation du site
       unwanted_otp: Multiples OTP
       wrong_account_update: Mise à jour de compte erronée
-    alert_banner:
-    alert_banner_link:
     topics:
       account_linking: Lien vers le compte
       changing_settings: Modifier les paramètres
@@ -304,7 +331,7 @@ help_pages:
     overview: |-
       # Gérez votre compte
       Gérez les paramètres de votre compte, notamment votre mot de passe, votre numéro de téléphone, votre adresse électronique, etc.
-      
+
       ## Sujets de dépannage courants
       * [Changez votre mot de passe](#)
       * [Modifiez le numéro de téléphone associé à votre compte](#)
@@ -314,59 +341,59 @@ help_pages:
     change-your-password: |-
       # Changer votre mot de passe
       Suivez les étapes suivantes pour changer votre mot de passe login.gov.
-      
-      1. Saisissez votre adresse de courriel sur https://secure.login.gov. 
+
+      1. Saisissez votre adresse de courriel sur https://secure.login.gov.
       1. Saisissez votre mot de passe.
       1. Cliquez sur le bouton « Se connecter ».
-      1. Authentifiez-vous à l'aide d'une des méthodes que vous avez configurées. Vous serez ensuite dirigé vers la page de votre compte. 
+      1. Authentifiez-vous à l'aide d'une des méthodes que vous avez configurées. Vous serez ensuite dirigé vers la page de votre compte.
       1. Sélectionnez « Modifier » à côté du champ de mot de passe.
       1. Saisissez votre nouveau mot de passe.
-            Les mots de passe doivent comporter au moins 12 caractères. C'est tout! Il n'y a aucune autre restriction. Vous pouvez même utiliser plus d'un mot avec des espaces pour arriver à 12 caractères. Essayez d'utiliser une phrase ou une série de mots que vous êtes le seul à reconnaître.  
-      
+            Les mots de passe doivent comporter au moins 12 caractères. C'est tout! Il n'y a aucune autre restriction. Vous pouvez même utiliser plus d'un mot avec des espaces pour arriver à 12 caractères. Essayez d'utiliser une phrase ou une série de mots que vous êtes le seul à reconnaître.
+
             Votre mot de passe login.gov doit être différent des mots de passe que vous utilisez pour d'autres comptes tels que votre compte bancaire ou votre adresse de courriel. L'utilisation du même mot de passe pour plusieurs comptes facilite l'usurpation d'identité.
       1. Cliquez sur le bouton « Changer le mot de passe ».
     delete-your-account: |-
       #  Supprimer votre compte
       __Plusieurs raisons peuvent justifier le besoin de supprimer votre compte:__
-      * Vous réalisez que vous avez plusieurs comptes avec différentes adresses de courriel et vous souhaitez avoir un seul compte. 
-      * Vous ne pouvez plus accéder à votre compte et vous n'avez plus accès à vos méthodes d'authentification. 
-      * Vous n'avez plus besoin d'avoir un compte login.gov 
-      
+      * Vous réalisez que vous avez plusieurs comptes avec différentes adresses de courriel et vous souhaitez avoir un seul compte.
+      * Vous ne pouvez plus accéder à votre compte et vous n'avez plus accès à vos méthodes d'authentification.
+      * Vous n'avez plus besoin d'avoir un compte login.gov
+
       __Si vous supprimez votre compte:__
       * Nous supprimerons votre adresse courriel, votre mot de passe et votre numéro de téléphone.
-      * Vous ne pourrez plus accéder de manière sécurisée aux agences partenaires qui exigent un compte login.gov. 
-      
-      Après la suppression de votre compte, vous ne pourrez plus accéder aux applications gouvernementales auxquelles vous pouvez accéder 
+      * Vous ne pourrez plus accéder de manière sécurisée aux agences partenaires qui exigent un compte login.gov.
+
+      Après la suppression de votre compte, vous ne pourrez plus accéder aux applications gouvernementales auxquelles vous pouvez accéder
       normalement en utilisant votre compte login.gov. Vous ne perdrez pas vos informations dans ces applications, mais vous aurez besoin d'un * compte login.gov pour pouvoir vous connecter à ces applications.
 
       __Si vous avez accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:__
-      1. Saisissez votre adresse courriel sur [https://secure.login.gov](https://secure.login.gov). 
+      1. Saisissez votre adresse courriel sur [https://secure.login.gov](https://secure.login.gov).
       1. Saisissez votre mot de passe.
-      1. Cliquez sur le bouton « Connexion ». 
+      1. Cliquez sur le bouton « Connexion ».
       1. Authentifiez-vous en utilisant l'une des méthodes que vous avez configurées.
-      1. Sur la page de votre compte, sélectionnez « Supprimer le compte » à partir du menu à gauche de la page. 
+      1. Sur la page de votre compte, sélectionnez « Supprimer le compte » à partir du menu à gauche de la page.
       1. Sélectionnez « Supprimer le compte » à partir du menu « Votre compte ».
       1. Saisissez votre mot de passe pour confirmer votre souhait de supprimer le compte.
 
       __Si vous n'avez pas accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:__
-      Par mesure de sécurité, Login.gov impose un processus en 2 étapes et une période d'attente de 24 heures, si vous n'avez plus accès à vos méthodes d'authentification et avez besoin de supprimer votre compte.  
+      Par mesure de sécurité, Login.gov impose un processus en 2 étapes et une période d'attente de 24 heures, si vous n'avez plus accès à vos méthodes d'authentification et avez besoin de supprimer votre compte.
 
-      1. Accédez à la page de connexion de l'application de votre gouvernement ou allez à l'adresse [https://secure.login.gov/](https://secure.login.gov/). 
+      1. Accédez à la page de connexion de l'application de votre gouvernement ou allez à l'adresse [https://secure.login.gov/](https://secure.login.gov/).
       1. Connectez-vous en utilisant votre adresse courriel et votre mot de passe.
       1. Sur la page d'authentification (saisir votre code de sécurité, d'application ou de sauvegarde ; carte PIV/CAC ; ou clé de sécurité), cliquez sur « Choisir une autre option de sécurité ».
       1. Faites défiler jusqu'au bas et cliquez sur le lien de suppression de votre compte.
       1. Lisez toutes les informations attentivement pour vous assurer que la suppression de votre compte est la seule option qui s'offre à vous.
       1. Cliquez sur « Oui, continuer la suppression »
-      1. Vous recevrez deux courriels. 
-          1. Le premier confirme que nous avons reçu votre demande. Votre compte n'est pas encore supprimé. Une action supplémentaire est nécessaire. 
-          1. Le deuxième courriel vous est envoyé 24 heures après le premier. Suivez les instructions énoncées dans le courriel pour terminer la suppression. 
+      1. Vous recevrez deux courriels.
+          1. Le premier confirme que nous avons reçu votre demande. Votre compte n'est pas encore supprimé. Une action supplémentaire est nécessaire.
+          1. Le deuxième courriel vous est envoyé 24 heures après le premier. Suivez les instructions énoncées dans le courriel pour terminer la suppression.
   verify-your-identity:
     overview: |-
       # Vérifiez votre identité
 
-      Certaines agences qui participent au programme exigent que vous vous soumettiez à un processus de vérification d’identité. La vérification de l’identité est le processus par lequel vous prouvez que c’est bien vous — et une tierce personne qui se fait passer pour vous. 
+      Certaines agences qui participent au programme exigent que vous vous soumettiez à un processus de vérification d’identité. La vérification de l’identité est le processus par lequel vous prouvez que c’est bien vous — et une tierce personne qui se fait passer pour vous.
 
-      La vérification de votre identité ne doit être effectuée qu’une seule fois pour votre compte « login.gov ». Une fois que votre identité a été vérifiée avec « login.gov » pour une application gouvernementale, vous n’avez pas besoin de le refaire pour les autres applications gouvernementales qui utilisent « login.gov » et qui nécessitent une vérification d’identité. 
+      La vérification de votre identité ne doit être effectuée qu’une seule fois pour votre compte « login.gov ». Une fois que votre identité a été vérifiée avec « login.gov » pour une application gouvernementale, vous n’avez pas besoin de le refaire pour les autres applications gouvernementales qui utilisent « login.gov » et qui nécessitent une vérification d’identité.
 
       Utilisez cette rubrique d’aide pour comprendre le processus et les exigences en matière de vérification d’identité.
 
@@ -654,7 +681,7 @@ meta:
     description: Les agences gouvernementales américaines peuvent tirer parti de la plate-forme d'authentification et de vérification d'identité de login.gov. En savoir plus sur les offres et les opportunités de login.gov.
     title: Pourquoi login.gov
 nav:
-  accessibility: 
+  accessibility:
     title: Accessibilité
     sections:
       - name: Notre engagement
@@ -664,12 +691,19 @@ nav:
       - name: Évaluation
         url: /accessibility/#évaluation
       - name: Limites connues
-        url: /accessibility/#limites-connues    
+        url: /accessibility/#limites-connues
   about_us: À propos de nous
   anchor_to_top: Retour au sommet
   become_a_partner: Devenir un partenaire
-  contact: Contact
-  contact_us: Nous contacter
+  contact_us:
+    title: Nous contacter
+    sections:
+      - name: Avez-vous une question concernant votre compte d’agence?
+        url: /contact/#avez-vous-une-question-concernant-votre-compte-dagence
+      - name: Partenaire avec login.gov
+        url: /contact/#partenaire-avec-logingov
+      - name: Signaler un problème
+        url: /contact/#signaler-un-problème
   contact_login_gov: Contactez Login.gov
   create_an_account: Créer un compte
   developer_guide: Guide du développeur
@@ -1104,7 +1138,7 @@ accessibility:
   content: |-
     ## Notre engagement
     Login.gov s’engage à être inclusif et accessible à tous nos utilisateurs. Notre objectif consiste à améliorer continuellement la façon dont les personnes en situation de handicap ou non peuvent utiliser Login.gov pour accéder facilement aux applications et aux services du gouvernement.
-    
+
     ## Normes
      Login.gov entend se conformer aux [Directives du W3C sur l’accessibilité des contenus Web (WCAG) version 2.1 niveau AA](https://www.w3.org/TR/WCAG21/).
 

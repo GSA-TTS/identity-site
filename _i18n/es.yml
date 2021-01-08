@@ -21,6 +21,33 @@ banner:
     secure_heading: os sitios web seguros .gov usan HTTPS
     secure_description: "Un <strong>candado</strong> o <strong>https://</strong> significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros."
 contact_page:
+  content:
+    intro: |-
+      Login.gov está aquí para ayudarlo a crear y administrar su cuenta de login.gov e iniciar sesión en la misma.
+
+      Como medida de seguridad, no tenemos acceso para eliminar su cuenta de login.gov o cambiar su contraseña por usted.
+
+      Nuestro horario de atención es de lunes a viernes de 8:00 a. m. a 8:00 p. m. hora del este. Por favor, tenga en cuenta que nuestros agentes de atención al cliente pueden tardar hasta dos días hábiles en responder a su pregunta. Gracias por su paciencia.
+
+      Si necesita ayuda con su cuenta de login.gov, consulte los artículos de nuestro centro de ayuda para obtener asistencia sobre problemas comunes.
+
+      - [No puedo iniciar sesión en mi cuenta](site.baseurl/help/trouble-signing-in/overview)
+      - [Necesito ayuda para verificar mi identidad](site.baseurl/help/verify-your-identity/overview)
+      - [Necesito cambiar mi información o administrar mi cuenta](site.baseurl/help/manage-your-account/overview)
+      - [Explorar más artículos de ayuda](site.baseurl/help)
+      {: .help-question-list}
+
+      ## ¿Tiene alguna pregunta sobre la cuenta de su agencia?
+
+      Login.gov es un servicio de inicio de sesión que permite acceder a los sitios web de las agencias gubernamentales. Si tiene preguntas sobre el sitio web de la agencia, las cuales pueden incluir dudas sobre el estado de su solicitud, la membresía, la elegibilidad, los beneficios u otras cuestiones específicas relacionadas con la cuenta que tiene en dicha agencia gubernamental, comuníquese con esa agencia.
+    footer: |-
+      ## Asociarse con login.gov
+
+      ¿Está interesado en utilizar login.gov en su agencia? [Visite el sitio web para socios](https://partners.login.gov/) o contáctenos a través de [partnership@login.gov](mailto:partnerships@loging.gov).
+
+      ## Reportar un problema
+
+      Si desea reportar un problema, revise nuestra [política de divulgación de vulnerabilidades](https://18f.gsa.gov/vulnerability-disclosure-policy/) y contáctenos utilizando nuestro [formulario de divulgación de vulnerabilidades](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform).
   support_request_form:
     agencies:
       cbp_jobs: Customs and Border Protection Jobs
@@ -37,22 +64,24 @@ contact_page:
       usajobs: USAJOBS
       veterans_affairs: Veterans Affairs
     errors:
-      captcha_required: You must complete the spam prevention challenge. # TODO: Translate
+      captcha_required: Debes superar el desafío de prevención de spam.
     form_helpers:
-      select: "- Select -" # TODO: Translate
+      select_topic: "- Seleccione un tema -"
+      select_issue: "- Seleccione un problema específico -"
+      select_agency: "- Seleccione una solicitud de agencia -"
     labels:
       agency_application: Aplicación de agencia
       agency_application_all: Todas las aplicaciones
       agency_application_common: Aplicaciones comunes
       agency_application_other: Otras aplicaciones
-      description: Provide more detail about your question # TODO: Translate
+      description: Proporciona más detalles acerca de tu pregunta
       email: Correo electrónico
       first_name: Nombre
       last_name: Apellido
       pii_warning: "**No** incluya información sensible o de identificación en esta sección, como su nombre completo, fecha de nacimiento o número de seguro social."
-      subtopic: Issue # TODO: Translate
-      topic: Topic # TODO: Translate
-    reset: Clear form # TODO: Translate
+      subtopic: Problema
+      topic: Tema
+    reset: Limpiar formulario
     submit: Enviar
     subtopics:
       add_family_member: ¿Cómo agrego un familiar a mi cuenta login.gov?
@@ -92,8 +121,6 @@ contact_page:
       site_navigation: Navegación en la página web
       unwanted_otp: Múltiples pedidos de pago
       wrong_account_update: Actualización de la cuenta errónea
-    alert_banner:
-    alert_banner_link:
     topics:
       account_linking: Vinculación de cuenta
       changing_settings: Cambiando ajustes
@@ -125,7 +152,7 @@ help:
     forgot-your-email-address: Olvidó su dirección de correo electrónico
     security-code-issues: Problemas con el código de seguridad
     password-reset-issues: Problemas con el restablecimiento de la contraseña
-  manage-your-account: 
+  manage-your-account:
     overview: Visión general
     change-your-password: Cambiar su contraseña
     delete-your-account: Eliminar su cuenta
@@ -249,22 +276,22 @@ help_pages:
     change-your-password: |-
       # Cambie su contraseña
       Siga estos pasos para cambiar su contraseña en login.gov.
-      
-      1. Ingrese su correo electrónico en https://secure.login.gov. 
+
+      1. Ingrese su correo electrónico en https://secure.login.gov.
       1. Ingrese su contraseña.
-      1. Haga clic en el botón «Iniciar sesión». 
-      1. Autentíquese mediante uno de los métodos configurados. Será redirigido a la página de su cuenta. 
+      1. Haga clic en el botón «Iniciar sesión».
+      1. Autentíquese mediante uno de los métodos configurados. Será redirigido a la página de su cuenta.
       1. Seleccione «Editar» junto al campo de la contraseña.
       1. Ingrese su nueva contraseña.
-          La contraseña debe tener al menos 12 caracteres. ¡Eso es todo! No hay otras restricciones. Incluso puede usar más de una palabra con espacios para alcanzar los 12 caracteres. Pruebe usar una frase o una serie de palabras que solo usted reconozca.  
-          
+          La contraseña debe tener al menos 12 caracteres. ¡Eso es todo! No hay otras restricciones. Incluso puede usar más de una palabra con espacios para alcanzar los 12 caracteres. Pruebe usar una frase o una serie de palabras que solo usted reconozca.
+
           Su contraseña de login.gov debe ser diferente de las contraseñas que utiliza en otras cuentas, como su cuenta bancaria o correo electrónico. Usar la misma contraseña en muchas cuentas facilita el robo de identidad.
       1. Haga clic en el botón «Cambiar contraseña».
     delete-your-account: |-
       # Eliminar su cuenta
       __Quizá tenga que eliminar una cuenta por diferentes razones:__
-      * Advierte que tiene varias cuentas con diferentes direcciones de correo electrónico y quiere tener una sola cuenta  
-      * Se ha bloqueado su cuenta y ha perdido el acceso a sus métodos de autenticación 
+      * Advierte que tiene varias cuentas con diferentes direcciones de correo electrónico y quiere tener una sola cuenta
+      * Se ha bloqueado su cuenta y ha perdido el acceso a sus métodos de autenticación
       * Ya no necesita una cuenta de login.gov
 
       __Si elimina su cuenta:__
@@ -272,38 +299,38 @@ help_pages:
       * Usted no podrá acceder de forma segura a las agencias asociadas que requieren una cuenta de login.gov
 
       Después de que elimine su cuenta, no podrá acceder a las aplicaciones gubernamentales a las que suele acceder con su cuenta de login.gov. Sin embargo, no perderá su información en esas aplicaciones, pero necesitará una cuenta nueva de login.gov para poder iniciar sesión en esas aplicaciones.
-      
+
       __Si tiene acceso a sus métodos de autenticación, realice los siguientes pasos para eliminar su cuenta:__
-      
+
       1. Escriba su dirección de correo electrónico en [https://secure.login.gov](https://secure.login.gov).
       1. Introduzca su contraseña.
       1. Haga clic en el botón "Iniciar sesión".
       1. Valide su información con alguno de los métodos que ha establecido.
-      1. En la página de su cuenta, seleccione "Eliminar cuenta" en el menú a la izquierda de la página  
+      1. En la página de su cuenta, seleccione "Eliminar cuenta" en el menú a la izquierda de la página
       1. Seleccione "Eliminar cuenta en el menú "Su cuenta".
       1. Escriba su contraseña para confirmar que desea eliminar su cuenta.
 
       __Si NO cuenta con los métodos de autenticación siga los siguientes pasos para eliminar la cuenta:__
       Por motivos de seguridad, Login.gov requiere un procedimiento de dos pasos y de un período de espera de 24 horas en caso de que haya perdido el acceso a sus métodos de autenticación y tenga que eliminar su cuenta.
-      
+
       1. Visite la página de inicio de sesión de su solicitud de gobierno o en [https://secure.login.gov/](https://secure.login.gov/)
       1. Ingrese con su correo electrónico y contraseña
       1. En la página de autenticación (escriba su código de seguridad, aplicación o copia de seguridad; tarjeta PIV/CAC; o clave de seguridad), haga clic en "Elegir otra opción de seguridad"
       1. Vaya a la parte inferior y haga clic en el enlace "eliminar su cuenta".
       1. Lea atentamente toda la información y asegúrese de que eliminar su cuenta es su única opción.
       1. Haga clic en "Sí, continuar con la eliminación"
-      1. Usted recibirá dos correos electrónicos. 
-          1. El primer correo electrónico confirma que hemos recibido su solicitud. Su cuenta aún no ha sido eliminada. Es necesario tomar medidas adicionales. 
-          1. La segunda carta le será enviada 24 horas más tarde. Observa las instrucciones de ese correo electrónico para completar el proceso de eliminación. 
+      1. Usted recibirá dos correos electrónicos.
+          1. El primer correo electrónico confirma que hemos recibido su solicitud. Su cuenta aún no ha sido eliminada. Es necesario tomar medidas adicionales.
+          1. La segunda carta le será enviada 24 horas más tarde. Observa las instrucciones de ese correo electrónico para completar el proceso de eliminación.
   verify-your-identity:
     overview: |-
       # Verificación de identidad
 
-      Algunos organismos participantes requieren que usted complete un proceso de verificación de identidad. La verificación de la identidad es un proceso en el que usted demuestra que es realmente usted y no alguien que pretende ser usted. 
+      Algunos organismos participantes requieren que usted complete un proceso de verificación de identidad. La verificación de la identidad es un proceso en el que usted demuestra que es realmente usted y no alguien que pretende ser usted.
 
-      Solo es necesario verificar su identidad una vez para su cuenta de login.gov. Después de verificar su identidad con login.gov para una solicitud gubernamental, no es necesario hacerlo nuevamente para otras solicitudes gubernamentales que utilicen login.gov y requieran verificación de identidad. 
+      Solo es necesario verificar su identidad una vez para su cuenta de login.gov. Después de verificar su identidad con login.gov para una solicitud gubernamental, no es necesario hacerlo nuevamente para otras solicitudes gubernamentales que utilicen login.gov y requieran verificación de identidad.
 
-      Utilice esta sección de ayuda para conocer el proceso y los requisitos relacionados con la verificación de la identidad. 
+      Utilice esta sección de ayuda para conocer el proceso y los requisitos relacionados con la verificación de la identidad.
 
       ## Solución de problemas frecuentes
        * [Cómo verificar su identidad](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
@@ -581,7 +608,7 @@ meta:
     description: Las agencias gubernamentales de EE. UU. Pueden aprovechar la plataforma de autenticación y verificación de identidad de login.gov. Obtenga más información sobre las ofertas y oportunidades de login.gov.
     title: Por qué login.gov
 nav:
-  accessibility: 
+  accessibility:
     title: Accesibilidad
     sections:
       - name: Nuestro compromiso
@@ -591,12 +618,19 @@ nav:
       - name: Evaluación
         url: /accessibility/#evaluación
       - name: Limitaciones conocidas
-        url: /accessibility/#políticas-de-accesibilidad  
+        url: /accessibility/#políticas-de-accesibilidad
   about_us: Sobre nosotros
   anchor_to_top: Volver arriba
   become_a_partner: Convertirse en un compañero
-  contact: Contacto
-  contact_us: Contacta con nosotros
+  contact_us:
+    title: Contacta con nosotros
+    sections:
+      - name: ¿Tiene alguna pregunta sobre la cuenta de su agencia?
+        url: /contact/#tiene-alguna-pregunta-sobre-la-cuenta-de-su-agencia
+      - name: Asociarse con login.gov
+        url: /contact/#asociarse-con-logingov
+      - name: Reportar un problema
+        url: /contact/#reportar-un-problema
   contact_login_gov: Póngase en contacto con Login.gov
   create_an_account: Crea una cuenta
   developer_guide: Guía para desarrolladores
@@ -624,7 +658,7 @@ nav:
       - name: Nuestras prácticas de seguridad
         url: /policy/our-security-practices/
       - name: Términos y condiciones de mensajería
-        url: /policy/messaging-terms-and-conditions/  
+        url: /policy/messaging-terms-and-conditions/
   principles: Principios
   privacy_&_security: Privacidad y seguridad
   security: Seguridad
