@@ -3,25 +3,22 @@
  *
  * @prop {string} innerText
  * @prop {string} href
- * @prop {string} className
  * @prop {string} target
  */
 
 /**
- * @param {import('puppeteer').Page} page */
+ * @param {import('puppeteer').Page} page
  * @return {Promise<SimplifiedLink[]>}
  */
 async function getLinks(page) {
-  return await page.evaluate(() =>
-    Array.prototype.map.call(document.querySelectorAll('a'), (a) => {
-      // There's a weird serialization boundary here so we encode the links as a structure
-      return {
-        innerText: a.innerText.trim(),
-        href: a.href,
-        target: a.target,
-      };
-    }),
-  );
+  return await page.$$eval('a', (aTags) => aTags.map((a) => {
+    // Get the info we want across the Chrome DevTools Protocol
+    return {
+      innerText: a.innerText.trim(),
+      href: a.href,
+      target: a.target,
+    };
+  }));
 }
 
 /**
