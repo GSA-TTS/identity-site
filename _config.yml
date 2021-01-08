@@ -22,7 +22,7 @@ collections:
 
 # Scripts
 scripts:
-  - /assets/js/build/bundle.js
+  - /assets/js/build/main.js
 
 # Styles
 styles:
@@ -33,6 +33,11 @@ sass:
   load_paths:
     - _sass
     - node_modules
+
+autoprefixer:
+  browsers:
+    - last 2 versions
+    - ie 11
 
 # Build settings
 kramdown:
@@ -71,10 +76,14 @@ plugins:
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
   - jekyll-sitemap
+  - jekyll-autoprefixer
 
 help_pages:
-- changing-settings
+- get-started
 - trouble-signing-in
+- manage-your-account
+- specific-agencies
+- verify-your-identity
 
 baseurl:
 

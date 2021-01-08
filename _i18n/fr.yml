@@ -4,8 +4,9 @@
     p_1: Nous vous recommandons de revérifier votre lien et d'essayer de nouveau.
       (404)
   heading: La page que vous recherchez n'existe pas.
+accessible_labels:
+  secondary_navigation: Navigation secondaire
 actions:
-  read_more: Lire la suite
   search: Chercher
 banner:
   one-account-for-govt:
@@ -13,23 +14,40 @@ banner:
     learn: Apprendre à créer un compte
     tagline: Votre seul compte pour le gouvernement
   text:
-    official: Un site officiel du gouvernement américain.
+    official: Un site officiel du gouvernement américain
     how: Voici comment vous savez
-    gov_heading: Le .gov signifie que c'est officiel.
-    gov_description: Les sites Web du gouvernement fédéral se terminent souvent par .gov ou .mil. Avant de partager des informations sensibles, assurez-vous que vous êtes sur un site du gouvernement fédéral.
-    secure_heading: Le site est sécurisé.
-    secure_description: "Le <strong>https://</strong> garantit que vous vous connectez au site officiel et que toutes les informations que vous fournissez sont cryptées et transmises en toute sécurité."
+    gov_heading: Les sites Web officiels utilisent .gov
+    gov_description: Un site Web .gov appartient à une organisation gouvernementale officielle des États-Unis.
+    secure_heading: Les sites Web sécurisés .gov utilisent HTTPS
+    secure_description: "Un <strong>verrou</strong> ou <strong>https://</strong> signifie que vous êtes connecté en toute sécurité au site Web .gov. Partagez des informations sensibles uniquement sur des sites Web officiels et sécurisés."
 contact_page:
-  content: |-
-    Nous connaissons un trafic extrêmement élevé en raison du lancement du programme Trusted Traveler aujourd'hui. Nous vous remercions de votre patience car nous travaillons à améliorer les performances de notre système.
+  content:
+    intro: |-
+      Login.gov est là pour vous aider à créer, à vous connecter et à gérer votre compte login.gov.
 
-    **Note pour les utilisateurs du Trusted Traveler Program:** Pour vous connecter au site Web du Trusted Traveler Program, vous devez créer un nouveau compte login.gov. login.gov n'a pas accès à l'ancien nom d'utilisateur GOES, à l'ID utilisateur ou au mot de passe et ne reconnaîtra pas automatiquement votre adresse électronique. Seul votre nom d'utilisateur et mot de passe nouvellement créé login.gov vous permet de vous connecter.
+      Par mesure de sécurité, nous n’avons pas la possibilité de supprimer votre compte login.gov ou de changer votre mot de passe en votre nom.
 
-    login.gov ne gère ni n'affecte aucun de vos membres, paiements, rendez-vous ou statut d'application existants et nous ne sommes pas en mesure de répondre à vos questions.
+      Nos heures d’ouverture sont du lundi au vendredi, de 8 h à 20 h (heure de l’Est). Veuillez noter que nos agents du service clientèle peuvent prendre jusqu’à deux jours ouvrables pour répondre à votre question. Nous vous remercions de votre patience.
 
-    Pour des questions sur le programme Trusted Traveler (Global Entry, GOES, Sentri ou Nexus), veuillez contacter le CBP à l'adresse [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}
+      Si vous avez besoin d’aide pour votre compte login.gov, consultez les articles de notre centre d’aide pour obtenir de l’aide sur des questions courantes.
 
-    Pour des questions sur la création d'un compte ou sur la connexion avec login.gov, recherchez des réponses aux questions courantes. Pour d'autres questions, veuillez nous contacter [hello@login.gov](mailto:hello@login.gov). N'oubliez pas que nous avons beaucoup de demandes afin de prendre plusieurs jours pour vous rappeler.
+      - [Je ne peux pas me connecter à mon compte](site.baseurl/help/trouble-signing-in/overview)
+      - [J’ai besoin d’aide pour vérifier mon identité](site.baseurl/help/verify-your-identity/overview)
+      - [Je dois modifier mes informations ou gérer mon compte](site.baseurl/help/manage-your-account/overview)
+      - [Parcourir d’autres articles d’aide](site.baseurl/help)
+      {: .help-question-list}
+
+      ## Avez-vous une question concernant votre compte d’agence?
+
+      Login.gov est un service d’identification permettant d’accéder aux sites web des agences gouvernementales. Si vous avez des questions sur le site web de l’agence, qui peuvent porter sur le statut de votre demande, votre adhésion, votre éligibilité, vos avantages ou d’autres questions spécifiques liées à votre compte auprès de cette agence gouvernementale, veuillez contacter cette agence.
+    footer: |-
+      ## Partenaire avec login.gov
+
+      Souhaitez-vous utiliser login.gov dans votre agence? Veuillez [consulter le site web de nos partenaires](https://partners.login.gov/) ou nous contacter à l’adresse [partnerships@login.gov](mailto:partnerships@loging.gov).
+
+      ## Signaler un problème
+
+      Si vous souhaitez signaler un problème, veuillez consulter notre [politique de divulgation de la vulnérabilité](https://18f.gsa.gov/vulnerability-disclosure-policy/) et nous contacter en utilisant notre [formulaire de divulgation de la vulnérabilité](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform).
   support_request_form:
     agencies:
       cbp_jobs: Customs and Border Protection Jobs
@@ -45,24 +63,25 @@ contact_page:
       trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
       veterans_affairs: Veterans Affairs
-    instructions: Décrivez-nous le problème que vous rencontrez et nous vous répondrons
-      dans les plus brefs délais.
+    errors:
+      captcha_required: Vous devez relever le défi de la prévention du pourriel.
     form_helpers:
-      select_one: "--Choisir un sujet--"
-      select_topic: "--Choisissez un sujet en premier--"
+      select_topic: "- Sélectionnez un sujet -"
+      select_issue: "- Sélectionnez une question spécifique -"
+      select_agency: "- Sélectionnez une agence -"
     labels:
       agency_application: Demande à une agence
       agency_application_all: Toutes les applications
       agency_application_common: Applications courantes
       agency_application_other: Autres applications
-      description: Description du problème
+      description: Donnez plus de détails sur votre question
       email: E-mail
       first_name: Prénom
       last_name: Nom
-      phone: Numéro de téléphone (facultatif)
-      pii_warning: Veuillez ne pas inclure d'informations sensibles ou d'identification dans cette section telles que votre nom complet, votre date de naissance ou votre numéro de sécurité sociale.
-      subtopic: Sujet secondaire du problème
-      topic: Sujet du problème
+      pii_warning: Veuillez **ne pas** inclure d'informations sensibles ou d'identification dans cette section telles que votre nom complet, votre date de naissance ou votre numéro de sécurité sociale.
+      subtopic: Problème
+      topic: Sujet
+    reset: Formulaire clair
     submit: Soumettre
     subtopics:
       add_family_member: Comment ajouter un membre de la famille à mon compte login.gov?
@@ -102,9 +121,6 @@ contact_page:
       site_navigation: Navigation du site
       unwanted_otp: Multiples OTP
       wrong_account_update: Mise à jour de compte erronée
-    alert_banner:
-    alert_banner_link:
-    title: Contactez l'équipe login.gov
     topics:
       account_linking: Lien vers le compte
       changing_settings: Modifier les paramètres
@@ -118,29 +134,29 @@ contact_page:
 developers_page:
   column_1:
     content:
-      p_1: Choisissez entre [IAL1 and IAL2](https://developers.login.gov/attributes/){:target="_blank"}
-        pour [NIST 800-63-3](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf){:target="_blank"}.
-        Lorsque [policies](https://pages.nist.gov/800-63-3/){:target="_blank"} change,
+      p_1: Choisissez entre [IAL1 and IAL2](https://developers.login.gov/attributes/)
+        pour [NIST 800-63-3](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf).
+        Lorsque [policies](https://pages.nist.gov/800-63-3/) change,
         nous effectuons le travail pour assurer la conformité.
     heading: Se conformer à un auditoire changeant
   column_2:
     content:
       p_1: Tirez profit des bibliothèques de codes réutilisables. Nous prenons en
-        charge [OpenID Connect](https://developers.login.gov/openid-connect/){:target="_blank"}
-        et [SAML](https://developers.login.gov/saml/){:target="_blank"}. Démarrez
-        rapidement avec un code d'intégration exemple dans [Java](https://github.com/18F/identity-sp-java){:target="_blank"},
-        [Ruby](https://github.com/18F/identity-sp-sinatra){:target="_blank"}, [Python](https://github.com/18F/identity-sp-python){:target="_blank"}
-        et [iOS](https://github.com/18F/identity-openidconnect-ios-client){:target="_blank"}.
+        charge [OpenID Connect](https://developers.login.gov/openid-connect/)
+        et [SAML](https://developers.login.gov/saml/). Démarrez
+        rapidement avec un code d'intégration exemple dans [Java](https://github.com/18F/identity-sp-java),
+        [Ruby](https://github.com/18F/identity-sp-sinatra), [Python](https://github.com/18F/identity-sp-python)
+        et [iOS](https://github.com/18F/identity-openidconnect-ios-client).
     heading: Réduire les délais de lancement
   column_3:
     content:
       p_1: Suivez le développement continu des fonctionnalités, les améliorations
         apportées à l'expérience de l'utilisateur et les examens de la sécurité dans
-        notre [référentiel à code source ouvert](https://github.com/18F/identity-idp){:target="_blank"}.
+        notre [référentiel à code source ouvert](https://github.com/18F/identity-idp).
     heading: Consultez le <br class="sm-show">code
   footer:
     heading: Nous joindre
-    p_1: Si vous souhaitez en savoir plus sur la plate-forme, [veuillez remplir ce formulaire](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e){:target="_blank"}.
+    p_1: Si vous souhaitez en savoir plus sur la plate-forme, [veuillez remplir ce formulaire](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e).
   intro:
     a_1: Voir la documentation
     heading: Intégration facile et flexibilité
@@ -155,853 +171,301 @@ global:
     es: Español
     fr: Français
 help:
-  changing-settings:
-    remove-saved-password-from-browser: Supprimer le mot de passe enregistré du navigateur
-    turn-off-two-factor-authentication: Arrêter l'authentification à deux facteurs
-    get-a-new-personal-key: Obtenir une nouvelle clé personnelle
-    change-my-email-address: Changer mon adresse électronique
-    change-my-password: Changer mon mot de passe
-    how-do-i-change-the-phone-number-i-am-using-with-my-account: Comment changer le
-      numéro de téléphone que j'utilise avec mon compte?
-    change-my-phone-number: Changer mon numéro de téléphone
-    add-or-remove-email-address: Ajouter ou retirer une adresse électronique
-    email-address-is-already-in-use: L'adresse électronique est déjà en cours d'utilisation
-    delete-my-account: Supprimer mon compte
-  creating-an-account:
-    security-key: Clé de sécurité
-    authentication-application: Appli d'authentification
-    creating-a-strong-password: Créer un mot de passe à forte sécurité
-    how-to-create-an-account: Comment créer un compte
-    no-phone-or-other-authentication-method: Pas de téléphone ou autre méthode d'authentification
-    email-address-confirmation-not-received: Confirmation de l'adresse e-mail non reçue
-    email-address-is-already-in-use: Adresse électronique déjà utilisée
-    personal-key: Clé personnelle
-    what-are-backup-codes: Quelles sont les codes de sauvegarde
-    two-factor-authentication: Identification à deux facteurs
-    phone-didnt-get-a-security-code: Mon téléphone n'a pas reçu le code de sécurité
-    multiple-accounts-to-verifying-my-identity-for: Pourquoi dois-je
-      utiliser login.gov pour accéder aux services en ligne du gouvernement?
-    email-address-confirmation-link-is-invalid: Le lien de confirmation de l'adresse e-mail est invalide
-  authentication-methods:
-    which-authentication-method-should-i-use: Quelle méthode d'authentification dois-je utiliser?
-  verifying-your-identity:
-    phone-plan-is-not-in-my-name-or-address: Le forfait de téléphone n'est pas à mon nom ou adresse
-    why-do-i-need-to-verify-my-identity: Pourquoi est-il nécessaire de vérifier mon identité?
-    how-to-verify-my-identity: Comment vérifier mon identité
-    dont-have-a-state-issued-id: Je n'ai pas de carte nationale d'identité
-    multiple-accounts-to-verifying-my-identity-for:
-      Vérifier mon identité pour plusieurs comptes
-  privacy-and-security:
-    why-do-i-have-to-use-logingov: Pourquoi dois-je utiliser login.gov?
-    how-does-logingov-protect-my-information: Comment login.gov protège-t-il mes informations?
-    does-logingov-share-my-information: login.gov partage-t-il mes informations?
-    what-is-phishing: Qu'est-ce que le hameçonnage (phishing)?
-  sam:
-    change-account-settings: Modifier les paramètres de modification du compte
-    my-logingov-account-uses-a-different-email-address: Mon compte login.gov utilise une adresse électronique différente
-    my-email-address-used-for-sam-is-not-available: L'e-mail utilisé pour SAM n'est pas disponible
-    reset-or-relink-my-logingov-account-for-sam: Réinitialiser ou relier mon compte login.gov à SAM
-    cant-sign-in-or-reset-my-password-sam-account: Je ne peux pas m'authentifier ou réinitialiser mon mot de passe (compte SAM)
-    my-sam-information-is-not-there: Mes informations SAM ne sont pas là
-    why-sam-uses-logingov: Pourquoi SAM utilise-t-il login.gov?
-  security-keys:
-    how-do-i-protect-my-logingov-account-with-a-security-key: Comment protéger mon
-      compte login.gov avec une clé de sécurité?
-  signing-in:
-    forgot-my-password: J'ai oublié mon mot de passe
-    phone-or-authentication-methods-not-available: Téléphone ou modes d'authentification non disponibles
-    i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: Je
-      ne me rappelle pas de ma clé personnelle et je n'ai pas mon téléphone avec moi.
-    forgot-my-email-address: J'ai oublié mon adresse électronique
-    if-i-dont-have-my-phone-with-me-can-i-still-sign-in: Si je n'ai pas mon téléphone
-      avec moi, puis-je quand même me connecter?
-    reset-password-link-is-invalid: Le lien de réinitialisation du mot de passe est invalide
-    what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: Que dois-je faire si mon
-      mot de passe ne fonctionne pas ou si je l'ai oublié?
-    how-to-sign-in: Comment s'identifier
-    what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Que
-      se produit-il si je manque l'appel téléphonique ou le message texte contenant
-      mon code de sécurité à utilisation unique?
-    locked-out-of-account: Compte bloqué
-    reset-password-email-not-received: E-mail de réinitialisation de mot de passe non reçu
-    phone-didnt-get-a-security-code: Mon téléphone n'a pas reçu le code de sécurité
-    why-does-the-system-log-me-out: Pourquoi le système me déconnecte-t-il?
-    personal-key-not-working: Mon clé personnelle ne fonctionne pas
-    security-code-not-working: Le code de sécurité ne fonctionne pas
-  trusted-traveler-programs:
-    i-have-another-question: J'ai une autre question
-    ttp-application-status: État de la demande TTP
-    do-i-need-to-pay-again: Dois-je payer encore une fois?
-    whats-my-passid: Quel est mon PASSID?
-    family-member-accounts: Comptes des membres de la famille
-    will-my-ktn-known-traveler-number-change: Mon KTN (Known Traveler Number) changera-t-il?
-    my-ttp-information-is-not-there: Mes informations TTP ne sont pas là
-    reset-or-relink-my-logingov-account-for-ttp: Réinitialiser ou relier mon compte login.gov à TTP
-    scheduling-an-appointment: Agenda et rendez-vous
-    cant-sign-in-or-reset-my-password-goes-account: Je ne peux pas m'authentifier ou réinitialiser mon mot de passe (compte GOES)
-  usajobs:
-    try-not-to-use-a-gov-mil-or-edu-email-address: Essayer de ne pas utiliser une adresse électronique en .gov, .mil ou .edu
-    cant-sign-in-or-reset-my-password-usajobs-account: Je ne peux pas m'authentifier ou réinitialiser mon mot de passe (compte USAJOBS)
-    my-usajobs-information-is-not-there: Mes informations USAJOBS ne sont pas là
-    reset-or-relink-my-logingov-account-for-usajobs: Réinitialiser ou relier mon compte login.gov à USAJOBS
-    how-to-receive-the-security-code: Comment recevoir le code de sécurité
-    what-email-address-should-i-use: Quel adresse électronique dois-je utiliser?
-    what-will-happen-to-my-usajobs-profile: Que va devenir mon profil USAJOBS?
+  trouble-signing-in:
+    overview: Aperçu
+    how-to-sign-in: Comment se connecter à login.gov
+    forgot-your-password: Mot de passe oublié
+    locked-out-of-login: Verrouillé du compte login.gov
+    phone-or-authentication-methods-not-available: Téléphone ou méthodes d’authentification non disponibles
+    forgot-your-email-address: Adresse courriel oubliée
+    security-code-issues: Problèmes de code de sécurité
+    password-reset-issues: Problèmes de réinitialisation du mot de passe
+  manage-your-account:
+    overview: Aperçu
+    change-your-password: Changez votre mot de passe
+    delete-your-account: Supprimer votre compte
+  specific-agencies:
+    overview: Aperçu
+    sam: Système de saisie des prix (SAM) Aperçu du compte
+    trusted-traveler-programs: Programmes pour voyageurs fiables (TTP)
+  verify-your-identity:
+    overview: Aperçu
+    how-to-verify-your-identity: Comment vérifier votre identité
+    verify-your-address-by-mail: Vérifiez votre adresse par courrier
+    dont-have-a-state-issued-id: Vous ne disposez pas d’une carte d’identité délivrée par l’État
+    personal-key-issues: Problèmes personnels majeurs
 help_page:
   p_1: Parcourir les sujets communs
   title: Comment pouvons nous aider?
 help_pages:
-  changing-settings:
-    remove-saved-password-from-browser: |-
-      "Si vous avez accidentellement sauvegardé votre mot de passe ou toute autre information de connexion liée à login.gov dans votre navigateur, il est préférable de les supprimer. Ainsi, vous conserverez un compte plus sécurisé. Dans la liste suivante, sélectionnez le navigateur (le programme informatique que vous utilisez pour accéder au web) que vous utilisez pour apprendre comment supprimer toute information sauvegardée :"
-
-      - [Chrome](https://support.google.com/chrome/answer/95606){:target="_blank"}
-      - [Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-change-passwords#w_viewing-and-deleting-passwords){:target="_blank"}
-      - [Internet Explorer](https://support.microsoft.com/en-us/help/17499/windows-internet-explorer-11-remember-passwords-fill-out-web-forms#ie=ie-11){:target="_blank"}
-      - [Safari](https://help.apple.com/safari/mac/8.0/#/ibrw1103){:target="_blank"}
-
-      Aussi, lorsque vous êtes en ligne, vérifiez la barre d'adresse de toute page que vous visitez et assurez-vous qu'il s'agit de sites de confiance, particulièrement les pages qui vous demandent d'inscrire un nom d'utilisateur et un mot de passe. Soyez prudent(e) quand vous partagez de l'information personnelle par courriel, notamment vos authentifiants de connexion, votre information bancaire ou votre numéro de sécurité sociale.
-    turn-off-two-factor-authentication: |-
-      login.gov ne permet pas de désactiver l'authentification à deux facteurs, mais vous pouvez configurer la fonctionnalité « se souvenir du navigateur ». Cela vous permet de vous connecter sans entrer de code de sécurité pendant 30 jours. Tous les 30 jours, vous devrez renouveler cette fonctionnalité en passant les étapes normales d'authentification à deux facteurs et en sélectionnant « se souvenir du navigateur ». REMARQUE : Si vous utilisez login.gov sur plusieurs appareils et navigateurs, vous devez configurer la fonctionnalité « se souvenir du navigateur » sur chacun d'eux.
-
-        1. Saisissez l'adresse e-mail et le mot de passe pour commencer le processus de connexion.
-        2. Saisissez le code de sécurité et sélectionnez « Se souvenir du navigateur pendant 30 jours ».
-        3. Après avoir configuré la fonctionnalité « se souvenir du navigateur », vous n'aurez pas à soumettre de code de sécurité pendant 30 jours.
-    add-or-remove-email-address: |-
-      Vous pouvez ajouter ou supprimer des adresses électroniques à partir de votre page de connexion login.gov.
-
-      <b>Pour ajouter une adresse email</b> à votre compte, suivez les étapes ci-dessous:
-        1. Accédez à [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"} et connectez-vous à votre compte.
-        2. Cliquez sur "Ajouter un email"
-        3. Entrez l'adresse e-mail que vous souhaitez ajouter à votre compte et cliquez sur Envoyer.
-        4. Vous recevrez un email dans votre boîte de réception. Cliquez sur le lien pour confirmer votre adresse email.
-      Le lien vous mènera à la page de votre compte. Vous verrez un message d'alerte vert confirmant que votre adresse e-mail a été ajoutée.
-
-      <b>Pour supprimer une adresse email</b> de votre compte, suivez les étapes ci-dessous:
-      Remarque: vous ne pouvez pas supprimer une adresse e-mail si celle-ci est la seule associée à votre compte.
-        1. Accédez à [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"} et connectez-vous à votre compte.
-        2. Cliquez sur le lien "Supprimer" en regard de l'adresse e-mail que vous souhaitez supprimer.
-        3. Assurez-vous que la page suivante indique la bonne adresse email à supprimer.
-        4. Cliquez sur "Supprimer l'adresse e-mail"
-      Vous verrez un message d'alerte vert confirmant que votre adresse e-mail a été supprimée.
-    email-address-is-already-in-use: |-
-      Si vous essayez d'ajouter une adresse électronique connectée à un autre compte login.gov, vous recevrez un message d'erreur indiquant: "Vous avez confirmé votre adresse électronique, mais elle est associée à un autre compte login.gov. Vous devez le supprimer de l'autre compte avant de pouvoir l'associer à celui-ci."
-
-      Vous ne pouvez pas ajouter la même adresse électronique à deux comptes login.gov différents, mais vous pouvez combiner les deux comptes. Pour combiner des comptes, suivez les étapes ci-dessous:
-        1. Supprimer l'un des comptes
-        2. Connectez-vous à l'autre compte et ajoutez l'adresse e-mail liée au compte que vous venez de supprimer.
-        3. Rétablir le lien avec les applications liées à votre compte supprimé
-
-      [Lisez comment supprimer votre compte](site.baseurl/help/changing-settings/delete-my-account/)
-      [Lisez comment ajouter ou supprimer une adresse email](site.baseurl/help/changing-settings/add-or-remove-email-address/)
-      [Lisez comment réinitialiser votre mot de passe](site.baseurl/help/signing-in/forgot-my-password/)
-    delete-my-account: |-
-      La suppression de votre compte est la première étape de la réinitialisation ou de la fusion de plusieurs comptes. Si vous n'avez pas accès à votre méthode d'authentification à deux facteurs, la suppression de votre compte prendra au moins 24 heures.
-
-      Une fois votre compte supprimé, vous ne pourrez plus vous connecter aux applications gouvernementales pour lesquelles vous utilisez normalement ce compte. Vous ne perdrez pas les informations contenues dans ces profils d'application, mais vous devrez vous reconnecter à un nouveau compte login.gov pour pouvoir vous y connecter.
-
-      Pour supprimer votre compte, suivez les étapes ci-dessous:
-        1. Accédez à [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}.
-        2. Connectez-vous avec votre email, mot de passe et méthode d'authentification
-        3. Sur la page Votre compte, faites défiler vers le bas et cliquez sur "Supprimer".
-        4. Confirmez que vous êtes sûr de vouloir supprimer votre compte en cliquant sur "Supprimer le compte".
-
-      Si vous n'avez pas accès à vos méthodes d'authentification, suivez les étapes ci-dessous:
-        1. Accédez à la page de connexion de votre application gouvernementale ou à [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}.
-        2. Connectez-vous avec votre email et mot de passe
-        3. Sur la page d'authentification (entrez votre code de sécurité, votre application ou votre sauvegarde, votre carte PIV / CAC ou votre clé de sécurité), cliquez sur "Choisir une autre option de sécurité".
-        4. Faites défiler vers le bas et cliquez sur le lien "supprimer votre compte"
-        5. Lisez attentivement toutes les informations pour vous assurer que la suppression de votre compte est votre seule option.
-        6. Cliquez sur "Oui, continuez avec la suppression"
-        7. Vous recevrez immédiatement un e-mail confirmant que nous avons reçu votre demande de suppression de votre compte. Votre compte n'a pas encore été supprimé. Par mesure de sécurité, vous devez attendre 24 heures pour recevoir un deuxième courrier électronique et cliquer sur le lien.
-        8. 24 heures plus tard, vous recevrez un deuxième email. Vous devez ouvrir l'e-mail et confirmer que vous souhaitez supprimer votre compte en cliquant sur le lien. (Remarque: le lien expirera au bout de 24 heures. Vous devez alors recommencer le processus de suppression du compte).
-
-      Si vous supprimez votre compte pour le combiner avec un autre compte, vous pouvez maintenant ajouter cette adresse e-mail à votre autre compte. Ensuite, vous pouvez relier vos profils d'application.
-
-      Si vous redémarrez votre compte, vous pouvez maintenant associer vos profils d'applications.
-
-      [Lisez comment ajouter ou supprimer une adresse email](site.baseurl/help/changing-settings/add-or-remove-email-address/)
-      [Lisez comment vous relier à votre profil USAJOBS](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
-      [Lisez comment vous relier à votre profil Trusted Traveler](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
-      [Lisez comment vous relier à votre profil SAM](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
-    get-a-new-personal-key: |-
-      Pour soumettre une demande de nouvelle clé personnelle, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Se connecter » pour vous connecter à la page de votre compte login.gov. À côté de la clé personnelle, sélectionnez « Obtenir une nouvelle clé ». Suivez les instructions pour prendre en note ou imprimer la nouvelle clé personnelle et sélectionnez « continuer » pour terminer le processus. Rappelez-vous que vous pouvez faire la demande d'une nouvelle clé uniquement si vous êtes en mesure de vous connecter à votre compte login.gov.
-
-      Placez votre clé personnelle en lieu sûr, il s'agit de votre unique moyen de vous connecter si vous ne pouvez recevoir un code de sécurité. Certains moyens appropriés de stocker votre clé personnelle comprennent de la prendre en note, d'en faire une capture d'écran, de la coller dans un document sécurisé ou de l'imprimer. Vous pouvez utiliser chaque clé personnelle une fois seulement, nous vous en fournirons une autre ensuite.
-    change-my-email-address: Pour changer l'adresse e-mail associée à votre compte
-      login.gov, allez à [https://secure.login.gov/](https://secure.login.gov/) et connectez-vous à votre compte
-      login.gov. Cliquez sur "Ajouter un e-mail" et procédez au processus d'ajout de votre nouvelle
-      adresse e-mail. Cliquez ensuite sur "Supprimer" en regard de l'adresse e-mail que vous
-      remplacez et procédez au processus de suppression.
-
-      [En savoir plus sur la façon d'ajouter ou de supprimer une adresse électronique](site.baseurl/help/changing-settings/add-or-remove-email-address/)
-    change-my-password: |-
-      Pour changer votre mot de passe, connectez-vous à login.gov et allez à votre page de profil. Si vous souhaitez changer votre mot de passe, sélectionnez « Modifier » à côté de celui-ci, entrez le nouveau mot de passe et soumettez votre changement. Les mots de passe doivent contenir au moins 12 caractères, mais il n'y a aucune autre restriction. Vous pouvez même utiliser plus d'un mot avec des espaces pour obtenir 12 caractères.
-
-      Essayez de créer un mot de passe long et complexe en utilisant une phrase ou une série de mots que vous seul(e) pouvez reconnaître. Assurez-vous également qu'il soit différent de tout autre mot de passe que vous utilisez pour vous connecter à d'autres comptes, par exemple votre compte bancaire ou votre compte courriel. Utiliser le même mot de passe pour les courriels, les comptes bancaires et les médias sociaux facilite le vol d'identité.
-    how-do-i-change-the-phone-number-i-am-using-with-my-account: Pour changer le numéro
-      de téléphone où est envoyé votre code de sécurité, sélectionnez « Modifier »
-      à côté de celui-ci. Le site login.gov vous enverra immédiatement votre code
-      de sécurité pour confirmer le nouveau numéro de téléphone.
-    change-my-phone-number: |-
-      Pour changer le numéro de téléphone où vous recevez votre code de sécurité, allez à [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Se connecter » pour vous connecter à votre compte login.gov. Une fois connecté(e), sélectionnez « modifier » à côté du numéro de téléphone. Entrez le numéro de téléphone et sélectionnez « confirmer le changement ». login.gov vous enverra immédiatement votre code de sécurité pour confirmer le nouveau numéro de téléphone.
-
-      Si vous ne pouvez pas recevoir le code de sécurité parce que vous n'avez pas accès à votre téléphone, vous devrez vous connecter à l'aide de votre [clé personnelle](site.baseurl/help/creating-an-account/personal-key/), si une clé vous a été attribuée et qu'elle est toujours valide, ou à l'aide d'une autre [méthode d'authentification à deux facteurs](site.baseurl/help/creating-an-account/two-factor-authentication/) que vous avez déjà installer.
-  creating-an-account:
-    security-key: |-
-      Une clé de sécurité est un dispositif d'authentification qui renforce la sécurité du compte lorsqu'il est utilisé en plus d'un mot de passe lors de la connexion. L'utilisation d'une clé de sécurité est préférable à la réception de codes par appel téléphonique ou SMS, car ces codes peuvent être phishing ou interceptés. Lorsque vous utilisez une clé de sécurité pour vous connecter, cette clé vérifie que vous vous trouvez bien sur le site Web officiel login.gov.
-
-             Une clé de sécurité est généralement un élément de matériel physique, tel qu'une clé USB, que vous pouvez utiliser avec votre trousseau. Vous pouvez également utiliser un logiciel de support, tel qu'une extension de navigateur Web ou d'autres services. Lorsque vous choisissez une clé de sécurité, recherchez la compatibilité avec le [standard FIDO](https://fidoalliance.org/fido2/){:target="_blank"}.
-    authentication-application: |-
-      Si vous ne souhaitez pas recevoir de codes de sécurité par SMS ou par appel téléphonique, vous pouvez configurer une appli d'authentification sur votre appareil pour générer des codes de sécurité.
-        1. Choisissez un appareil comme un ordinateur ou un appareil mobile (téléphone ou tablette) sur lequel vous pouvez installer des applis.
-        2. Téléchargez et installez une appli d'authentification sur votre appareil. Certaines des options populaires sont :
-          - Options pour Android : [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
-          - Options pour iOS : [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8){:target="_blank"}, [Authy](https://authy.com){:target="_blank"}, [LastPass](https://lastpass.com){:target="_blank"}, [1Password](https://1password.com){:target="_blank"}
-          - Applications Windows : [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn){:target="_blank"}
-          - Applications Mac : [1Password](https://1password.com){:target="_blank"}, [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12){:target="_blank"}
-          - Extensions Chrome : [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en){:target="_blank"}
-        3. Lancez un nouveau navigateur et connectez-vous à votre compte login.gov à [https://secure.login.gov/](https://secure.login.gov/). *REMARQUE* : Si vous n'avez pas accès au téléphone que vous avez utilisé pour créer votre compte, vous devrez vous connecter en utilisant votre clé personnelle.
-        4. Sélectionnez « activer » à côté de l'appli d'authentification et suivez les instructions pour scanner ou saisir un code qui associe votre appli d'authentification à votre compte.
-
-      Vous serez maintenant en mesure d'utiliser les mots de passe à utilisation unique générés par l'application chaque fois où vous vous connectez au lieu de recevoir un SMS ou un appel téléphonique. Si vous éprouvez des difficultés à configurer votre appli d'authentification, vous devez contacter le développeur de l'application directement pour obtenir de l'assistance.
-    creating-a-strong-password: |-
-      Votre mot de passe doit compter un minimum de 12 caractères. Essayez avec plusieurs mots et espaces pour créer une phrase facile à mémoriser. Les mots de passe plus longs et contenant plusieurs mots sont plus forts que les mots de passe courts comportant des caractères spéciaux.
-
-      Au moment de créer un mot de passe, évitez également d'utiliser des termes du langage de la rue, les fautes d'orthographe communes et les mots épelés à l'envers. Évitez aussi d'utiliser le nom de votre entreprise, de votre conjoint(e) ou les noms de vos enfants ou de vos animaux de compagnie ainsi que de l'information personnelle comme votre âge ou votre date de naissance.
-
-      Si vous êtes déjà connecté(e) et que vous essayez de changer votre mot de passe, votre courriel ou votre numéro de téléphone, on vous demandera d'entrer votre mot de passe actuel avant de pouvoir effectuer les changements.
-
-      Cependant, si vous entrez un mot de passe erroné à répétition, il est probable qu'une personne mal intentionnée essaie de prendre le contrôle de votre machine que vous avez laissée sans surveillance. Dans une telle situation, vous serez déconnecté après trois échecs de connexion, et ce, pour assurer votre sécurité.
-    how-to-create-an-account: |-
-      Pour créer un compte login.gov, vous devrez fournir : une adresse courriel valide et un numéro de téléphone actif. Nous vous demanderons aussi de créer un mot de passe.
-
-      Veuillez vous préparer à configurer une autre méthode d’authentification parmi la liste des méthodes offertes. L’utilisation de cette méthode d’authentification secondaire nous permet de mieux protéger votre compte.
-
-      ### Entrez votre adresse courriel et confirmez-la
-      <img src="site.baseurl/assets/img/help/2-login-gov-enteremail.png" class="mt3 mb3 block" alt="Enter your email help image" />
-
-      Sélectionnez « ["Créer un compte”](https://secure.login.gov/sign_up/enter_email) » et entrez votre adresse courriel là où c'est indiqué. Consultez ensuite le message que nous vous avons envoyé dans votre boîte de courriels. Celui-ci contient un lien sur lequel vous devez cliquer. Vous serez alors redirigé vers login.gov.
-      <img src="site.baseurl/assets/img/help/3-confirm-your-email.png" class="mt3 mb3 block" alt="Confirm your email help image" />
-
-      ### Entrez votre mot de passe
-      <img src="site.baseurl/assets/img/help/4-choose-a-password.png" class="mt3 mb3 block" alt="Choose password help image" />
-      Vous devez ensuite créer un mot de passe fort. Servez-vous de l'indicateur de force à l'écran comme guide. Les mots de passe doivent contenir au moins 12 caractères, mais il n'y a aucune autre restriction. Vous pouvez même entrer des espaces entre les mots pour obtenir 12 caractères.
-
-      ### Configuration d’une deuxième étape de sécurité
-      Ensuite, vous configurerez un deuxième méthode d’authentification. La deuxième étape maintient une meilleure sécurité pour votre compte que la simple utilisation d’un mot de passe. Vous pouvez choisir entre des messages texte, des appels téléphoniques, une application d’authentification, une clé de sécurité ou des codes de sauvegarde. Les employés du gouvernement peuvent aussi utiliser leurs cartes PIV ou CAC.
-
-      Login.gov utilise l'authentification à deux facteurs (TFA) ou l'authentification à plusieurs facteurs (MFA), comme couche de protection supplémentaire pour sécuriser vos informations les plus sensibles.
-
-      L'authentification à deux facteurs peut être effectuée de plusieurs manières et chacune a un niveau de sécurité différent. Vous pouvez choisir entre des SMS, des appels téléphoniques, une application d'authentification, une clé de sécurité ou des codes de sauvegarde. Les employés du gouvernement peuvent également utiliser leurs cartes PIV ou CAC.
-
-      Nous vous encourageons à examiner les options disponibles et à sélectionner l'option la plus sécurisée pour vous.
-
-      [En savoir plus sur chaque méthode d'authentification.](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/)
-
-      <img src="site.baseurl/assets/img/help/2nd_factor_options.png" class="mt3 mb3 block" alt="2nd factor options help image" />
-
-      #### Application d’authentification
-      Les applications d'authentification sont téléchargées sur votre appareil et génèrent des codes sécurisés à 6 chiffres que vous pouvez utiliser pour vous connecter à vos comptes. Contrairement aux appels téléphoniques ou à la messagerie texte / SMS, un pirate aurait besoin d'un accès physique à votre téléphone portable pour utiliser le code.
-
-      Bien que les applications d'authentification ne soient pas protégées en cas de perte ou de vol de votre appareil, ces applications offrent plus de sécurité que les appels téléphoniques ou la messagerie texte / SMS contre le phishing, le piratage ou l'interception.
-
-      Si vous choisissez d'utiliser cette option sécurisée, vous pouvez télécharger et installer l'une des applications prises en charge et la configurer pour qu'elle fonctionne avec login.gov. Découvrez comment configurer une application d'authentification.
-      [En savoir plus sur la configuration d’une application d’authentification.](site.baseurl/help/creating-an-account/authentication-application/)
-
-      <img src="site.baseurl/assets/img/help/auth_app.png" class="mt3 mb3 block" alt="Enter security code help image" />
-
-      #### Clé de sécurité
-      Une clé de sécurité est généralement un périphérique physique, comme une clé USB, que vous branchez à votre ordinateur. La clé est liée à vos comptes et n'accordera l'accès à ces comptes qu'une fois la clé connectée et activée. Puisqu'une clé de sécurité ne dépend pas de votre téléphone portable, elle possède le plus haut niveau de protection contre le phishing et des protections intégrées contre le piratage en cas de perte ou de vol.
-
-      Login.gov nécessite des clés de sécurité conformes aux normes FIDO. Vous pouvez également ajouter autant de clés de sécurité que vous souhaitez pour sécuriser votre compte.
-
-      Pour utiliser cette option sécurisée pour l'authentification, branchez la clé dans un port USB et attribuez un nom à la clé pour l'identifier dans votre compte login.gov. L'étape suivante vous demandera d'activer votre clé. Cela se fait généralement en appuyant sur un bouton de la clé elle-même.
-      <img src="site.baseurl/assets/img/help/security_key.png" class="mt3 mb3 block" alt="Security key help image" />
-
-      #### Messages texte/SMS ou appels téléphoniques
-      Les SMS / SMS ou les appels téléphoniques sont pratiques mais sont extrêmement vulnérables au vol, aux pirates et autres attaques.
-
-      Si vous choisissez messages texte/SMS ou appels téléphoniques comme deuxième méthode d’authentification, entrez un numéro de téléphone auquel vous pouvez recevoir votre code de sécurité par appel téléphonique. Si vous avez une ligne fixe, vous devez recevoir le code de sécurité par appel téléphonique. login.gov ne peut envoyer de codes de sécurité à des numéros de poste.
-
-      Nous enverrons un code de sécurité unique à ce numéro de téléphone chaque fois où vous vous connectez à votre compte.
-      <img src="site.baseurl/assets/img/help/5-phonenumber.png" class="mt3 mb3 block" alt="Add a phone number help image" />
-
-      #### Codes de sauvegarde
-      Bien que les codes de sauvegarde soient une option accessible pour les utilisateurs qui n'ont pas accès au téléphone, ces codes sont l'option la moins sécurisée pour l'authentification à deux facteurs. Les codes de sauvegarde doivent être imprimés ou écrits, ce qui les rend plus vulnérables au vol et au phishing.
-
-      Si vous choisissez de sélectionner cette option moins sécurisée, login.gov générera un ensemble de 10 codes. Après vous être connecté avec votre nom d'utilisateur et votre mot de passe, un code vous sera demandé. Chaque code ne peut être utilisé qu'une seule fois, une fois le 10e code utilisé, vous serez invité à télécharger une nouvelle liste. Traitez vos codes de récupération avec le même niveau d'attention que votre mot de passe.
-      <img src="site.baseurl/assets/img/help/backup_codes.png" class="mt3 mb3 block" alt="Backup codes generated help image" />
-    no-phone-or-other-authentication-method: |-
-      login.gov exige que les utilisateurs configurent deux méthodes de méthodes d'authentification à deux facteurs lors de la création d'un compte. Toutefois, si vous n'avez pas accès à un téléphone, à une application d'authentification, à une clé de sécurité ou à un ID d'employé gouvernemental (carte PIV / CAC), vous pouvez configurer votre compte avec uniquement des codes de sauvegarde.
-
-      Avertissement: La configuration de votre compte avec des codes de sauvegarde comme seule méthode d’authentification n’est pas recommandée. Si vous perdez vos codes de sauvegarde, vous ne pourrez pas vous connecter à votre compte.
-
-      Lorsque vous créez votre compte, vous accédez à la page «Sécuriser votre compte». C'est ici que vous devez choisir votre méthode d'authentification principale. Si vous n'avez accès à aucune des autres options, sélectionnez «Codes de sauvegarde», puis cliquez sur «Continuer».
-
-      Téléchargez, imprimez, copiez ou notez vos codes de sauvegarde et enregistrez-les dans un endroit sûr. Ensuite, cliquez sur «Continuer». Remarque: vous devez cliquer sur «Continuer» pour activer vos codes de sauvegarde. Si vous ne le faites pas et que vous quittez la page, vous ne pourrez pas utiliser cet ensemble de codes de sauvegarde pour vous connecter ultérieurement.
-
-      Sur la page «Ajouter une autre méthode», sélectionnez «Je n’ai aucun de ces choix» et cliquez sur «Continuer».
-
-      Vous aurez alors fini de créer votre compte. Chaque fois que vous vous connecterez à l'aide de login.gov, il vous sera demandé de saisir l'un de vos codes de sauvegarde. Après avoir utilisé le 10ème code, vous recevrez un nouvel ensemble de codes de sauvegarde à enregistrer et à utiliser.
-    email-address-confirmation-not-received: |-
-      Si vous n'avez pas reçu de courriel de confirmation, regardez dans votre courrier indésirable. Autrement, vous pourriez avoir noté l'adresse courriel de façon erronée. Si c'est le cas, vous pouvez toujours créer un autre compte avec la bonne adresse courriel.
-
-      - Si vous avez mal écrit votre adresse, vous pouvez créer un nouveau compte.
-      - Si vous êtes certain(e) d'avoir entré la bonne adresse, choisissez « Envoyer de nouveau » pour recevoir un nouveau courriel de confirmation.
-    email-address-is-already-in-use: |-
-      La confirmation de l'accès à une adresse courriel est la première étape de création d'un compte login.gov. Si vous avez reçu un avis indiquant qu'un compte login.gov associé à votre adresse courriel a été créé, mais que vous ne vous souvenez pas l'avoir créé, utilisez votre adresse courriel pour vous connecter et effectuer le processus de réinitialisation du mot de passe.
-
-      Veuillez informer login.gov si vous êtes certain(e) de ne pas avoir créé de compte et si vous croyez que quelqu'un utilise votre adresse courriel.
-    what-are-backup-codes: Les codes de sauvegarde sont une autre méthode d’authentification. Lorsque vous choisissez d’utiliser les codes de sauvegarde comme deuxième facteur, login.gov génère un ensemble de 10 codes. Une fois connecté(e) avec votre nom d’utilisateur et votre mot de passe, on vous demandera un code. Chaque code peut être utilisé une fois, une fois le 10e code utilisé, on vous demandera de télécharger une nouvelle liste. Traitez vos codes de récupération avec le même niveau d’attention que vous auriez pour votre mot de passe.
-
-    personal-key: |-
-      Une clé personnelle est un code secret à 16 caractères que login.gov vous donne après vérification de votre identité. Elle est utilisée pour encoder vos données (pensez qu'il s'agit d'une clé pour vos informations secrètes). Vous n'en avez pas besoin à chaque fois que vous vous connectez, mais vous en aurez besoin si vous réinitialisez votre mot de passe.
-
-      Rappelez-vous qu'il s'agit de la clé de vos renseignements personnels, alors assurez-vous de la conserver dans un endroit sûr où elle ne peut être perdue ou volée.
-
-      Remarque: vous n'obtiendrez et n'aurez besoin d'une clé personnelle que si vous avez vérifié votre identité sur votre compte login.gov (seules certaines applications gouvernementales exigent une vérification d'identité).
-
-      **Vous aurez besoin de votre clé personnelle si vous réinitialisez votre mot de passe**
-      Pour protéger vos informations, votre mot de passe et votre clé personnelle sont les deux seules façons de déchiffrer vos données (les deux seules clés de vos informations secrètes).
-      - Si vous réinitialisez votre mot de passe, vous devrez entrer votre clé personnelle.
-      - Si vous perdez votre mot de passe et votre clé personnelle, vous devrez vérifier à nouveau votre identité.
-
-      **Les clés personnelles ne sont plus utilisées pour l'authentification à deux facteurs**
-      Dans le passé, nous donnions aux utilisateurs une clé personnelle à utiliser comme méthode d'authentification à deux facteurs. C'était une façon de vous connecter à votre compte si vous perdiez ou changiez de numéro de téléphone. Cependant, nous avons maintenant supprimé la possibilité d'utiliser les clés personnelles comme méthode d'authentification, car elles sont facilement perdues ou volées.
-
-      Si vous avez toujours la possibilité d'utiliser la clé personnelle pour l'authentification à deux facteurs, il vous sera demandé de configurer une méthode d'authentification différente lors de votre prochaine connexion. Vous pouvez choisir entre SMS par téléphone ou appel vocal, application d'authentification, clé de sécurité, code d'identification d'employé du gouvernement ou militaire (PIV/CAC) ou codes de sauvegarde. Après avoir configuré votre nouvelle méthode d'authentification, vous ne pourrez plus utiliser la clé personnelle comme méthode d'authentification.
-
-      **Lire plus**
-      [Identification à deux facteurs](site.baseurl/help/creating-an-account/two-factor-authentication/)
-      [Mon clé personnelle ne fonctionne pas](site.baseurl/help/signing-in/personal-key-not-working/)
-      [Qu’est-ce que le hameçonnage (phishing)?](site.baseurl/help/privacy-and-security/what-is-phishing/)
-      [Pourquoi est-il nécessaire de vérifier mon identité?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
-    two-factor-authentication: |-
-      login.gov utilise une authentification à deux facteurs (2FA) pour sécuriser les comptes. Cela signifie que chaque fois que vous vous connectez, vous devez utiliser quelque chose que vous connaissez et que vous possédez. Cela sécurise davantage votre compte en rendant beaucoup plus difficile l'accès des autres utilisateurs.
-
-      1. Le "quelque chose que vous savez" est votre mot de passe. Nous vous demanderons de créer un mot de passe fort (au moins 12 caractères) lors de la création de votre compte.
-
-      2. Le "quelque chose que vous avez" est votre méthode d'authentification à deux facteurs. Vous pouvez choisir parmi les options suivantes lors de la création de votre compte.
-        - Téléphone: Obtenez les codes de sécurité par SMS ou appel téléphonique
-        - [Application d'authentification](site.baseurl/help/creating-an-account/authentication-application/): Obtenez les codes d'une application sur votre téléphone, votre ordinateur ou votre tablette
-        - [Clé de sécurité](site.baseurl/help/creating-an-account/security-key/): Utilisez une clé de sécurité que vous avez. C'est un périphérique physique qui se connecte ou est intégré à votre ordinateur ou à votre téléphone (parfois, il ressemble à une clé USB).
-        - Identifiant d'employé gouvernemental: Insérez votre carte gouvernementale ou militaire PIV ou CAC et entrez votre NIP
-        - Codes de sauvegarde: Nous vous donnerons 10 codes à utiliser et à stocker dans un endroit sûr. Vous pouvez utiliser des codes de sauvegarde comme seule méthode d'authentification, si vous ne disposez d'aucune des autres options.
-
-      Nous vous demanderons de configurer au moins deux méthodes d'authentification de deux facteurs différents pour votre compte. Vous n'aurez pas à utiliser les deux à chaque fois que vous vous connecterez, mais cela vous aidera à ne pas perdre l'accès à votre compte (par exemple, si vous perdez votre téléphone et devez changer de numéro de téléphone).
-
-      **Lire plus**
-      [Mon téléphone n’a pas reçu le code de sécurité](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
-      [Pas de téléphone ou autre méthode d’authentification](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
-    phone-didnt-get-a-security-code: |-
-      Si vous n'avez pas reçu de code de sécurité, assurez-vous d'avoir inscrit votre numéro de téléphone correctement.
-
-      - Avez-vous entré un numéro de téléphone incorrect? Recherchez l'option qui vous permet de l'inscrire de nouveau.
-      - S'il s'agit du bon numéro, demandez le code de nouveau. Vous le recevrez par message texte ou par appel téléphonique sur une ligne fixe ou un téléphone cellulaire.
-    multiple-accounts-to-verifying-my-identity-for: |-
-      Les agences gouvernementales décident de façon indépendante comment interagir avec le public. Vous avez été redirigé(e) vers login.gov parce que le service ou le programme que vous souhaitez utiliser a choisi la plateforme partagée login.gov pour son efficacité et sa sécurité. Lorsque vous aurez terminé d'utiliser login.gov, vous serez redirigé(e) vers l'agence de départ.
-
-      Nous espérons que login.gov est une option pratique et sécuritaire pour vous. Cependant, si vous préférez ne pas utiliser login.gov, il demeure possible d'accéder aux services gouvernementaux. Vous trouverez plus d'information à ce sujet auprès de votre agence.
-    email-address-confirmation-link-is-invalid: |-
-      Le lien de confirmation envoyé par e-mail expire après 24 heures. Sélectionnez « envoyer de nouveau » pour obtenir un nouveau e-mail de confirmation ou pour recommencer le processus du début en sélectionnant « créer un compte » et en soumettant votre adresse e-mail.
-
-      Si vous avez demandé plus d'un e-mail de confirmation, vous devez utiliser l'e-mail le plus récent. Tous les liens envoyés dans les e-mails plus anciens ne seront plus valides.
-
-      Si le lien de confirmation ne fonctionne pas et que vous avez suivi les étapes indiquées ci-dessus, il est possible que votre fournisseur de messagerie ait brouillé le lien. Une façon de déterminer si cela s'est produit est de copier et de coller le lien de confirmation dans votre navigateur. S'il y a des symboles ou des mots inhabituels dans le lien, éliminez-les et appuyez sur la touche entrer.
-
-      Pour obtenir de l'assistance additionnelle, veuillez envoyer un e-mail à [hello@login.gov](mailto:hello@login.gov).
-  authentication-methods:
-    which-authentication-method-should-i-use: |-
-      Login.gov oblige les utilisateurs à utiliser l'authentification à deux facteurs (TFA) ou l'authentification multifacteur (MFA) comme couche de protection supplémentaire pour votre compte.
-
-      L'authentification à deux facteurs peut être effectuée de plusieurs manières. Vous pouvez choisir entre les messages texte, les appels téléphoniques, une application d'authentification, une clé de sécurité ou des codes de secours. Les employés du gouvernement peuvent également utiliser leurs cartes PIV/CAC. Nous vous encourageons à examiner les options disponibles et à sélectionner l'option la plus sûre pour vous.
-
-      Chaque utilisateur doit sélectionner au moins deux méthodes MFA. Si vous [perdez votre méthode MFA principale](/fr/help/signing-in/phone-or-authentication-methods-not-available), vous pouvez utiliser votre deuxième option pour accéder à votre compte. Si vous perdez toutes vos options MFA, vous devrez [supprimer votre compte](/fr/help/changing-settings/delete-my-account) et suivre le processus pour créer à nouveau votre compte et relier vos informations.
-
-      <div class="mt3">
-        <div class="usa-tag caps float-right bg-info-dark">PLUS SÉCURISÉ</div>
-        <h3>Clef de sécurité</h3>
-        <p class="bold mt1">Plus sûr contre le phishing et les hacks avec des protections intégrées contre le vol.</p>
-        <p>Une clé de sécurité est généralement un périphérique physique, comme une clé USB, que vous branchez à votre ordinateur. La clé est liée à vos comptes et n'accordera l'accès à ces comptes qu'une fois la clé connectée et activée. Puisqu'une clé de sécurité ne dépend pas de votre téléphone portable, elle possède le plus haut niveau de protection contre le phishing et des protections intégrées contre le piratage en cas de perte ou de vol.</p>
-      </div>
-
-      <div class="mt3">
-        <div class="usa-tag caps float-right bg-info-dark">PLUS SÉCURISÉ</div>
-        <h3>PIV/CAC pour les employés militaires et fédéraux</h3>
-        <p class="bold mt1">Plus sûr contre le phishing et les hacks avec des protections intégrées contre le vol.</p>
-        <p>Les cartes à puce physiques PIV et CAC sont des options sécurisées pour le personnel militaire et les employés fédéraux. Ces cartes, dotées d'une technologie de puce cryptée, résistent au phishing et sont difficiles à pirater en cas de vol.</p>
-      </div>
-
-      <div class="mt3">
-        <div class="usa-tag caps float-right bg-info-dark">PLUS SÉCURISÉ</div>
-        <h3>Application d'authentification</h3>
-        <p class="bold mt1">Plus sûr contre le phishing et les hacks mais avec moins de protection contre le vol.</p>
-        <p>Les applications d'authentification sont téléchargées sur votre appareil et génèrent des codes sécurisés à 6 chiffres que vous pouvez utiliser pour vous connecter à vos comptes. Contrairement aux appels téléphoniques ou à la messagerie texte / SMS, un pirate aurait besoin d'un accès physique à votre téléphone portable pour utiliser le code.</p>
-        <p>Bien que les applications d'authentification ne soient pas protégées en cas de perte ou de vol de votre appareil, ces applications offrent plus de sécurité que les appels téléphoniques ou la messagerie texte / SMS contre le phishing, le piratage ou l'interception.</p>
-      </div>
-
-      <div class="mt3">
-        <h3> Message texte/SMS ou appel téléphonique</h3>
-        <p class="bold mt1">Moins sécurisé contre le phishing, les hacks et le vol.</p>
-        <p>Les SMS / SMS ou les appels téléphoniques sont pratiques mais sont extrêmement vulnérables au vol, aux pirates et autres attaques.</p>
-      </div>
-
-      <div class="mt3">
-        <div class="usa-tag caps float-right bg-info-dark">MOINS SÉCURISÉ</div>
-        <h3> Codes de sauvegarde</h3>
-        <p class="bold mt1">Moins sécurisé contre le phishing, les hacks et plus subjectif au vol.</p>
-        <p>Bien que les codes de sauvegarde soient une option accessible pour les utilisateurs qui n'ont pas accès au téléphone, ces codes sont l'option la moins sécurisée pour l'authentification à deux facteurs. Les codes de sauvegarde doivent être imprimés ou écrits, ce qui les rend plus vulnérables au vol et au phishing.</p>
-
-  verifying-your-identity:
-    phone-plan-is-not-in-my-name-or-address: |-
-      Si nous ne pouvons pas vérifier automatiquement votre adresse, vous devez la vérifier par courrier. Cela signifie que nous vous enverrons une lettre avec un code de confirmation que vous devez utiliser pour terminer la configuration de votre compte.
-
-      Vous recevrez la lettre par le biais du service postal américain, trois à cinq jours ouvrables après la date à laquelle vous avez demandé le code. Le code de confirmation expirera 30 jours après la date à laquelle vous avez soumis votre demande.
-
-      Si vous ne recevez pas votre lettre ou si votre code de confirmation expire avant la fin du processus de vérification de l'identité, vous pouvez demander un nouveau code de confirmation. Pour ce faire, connectez-vous à l'application du gouvernement ou à [https://secure.login.gov](https://secure.login.gov){: target = "_blank"} et sélectionnez "Envoyez-moi un nouveau code de confirmation" lorsque vous y êtes invité. votre code.
-    why-do-i-need-to-verify-my-identity: |-
-      Certaines applications gouvernementales qui utilisent login.gov imposent aux utilisateurs de vérifier leur identité. Cela signifie que vous devez prouver que vous êtes ce que vous dites. Ce faisant, nous nous assurons que seules les personnes appropriées ont accès aux informations sensibles.
-
-      Vous ne serez invité à vérifier votre identité que la première fois que vous vous connecterez à certaines applications gouvernementales.
-
-      Il vous suffit de vérifier votre identité une seule fois pour votre compte login.gov (une fois que vous avez vérifié votre identité avec login.gov pour une application gouvernementale, vous n’avez plus besoin de la refaire pour d’autres applications gouvernementales).
-    how-to-verify-my-identity: |-
-      Si l'application gouvernementale que vous vous inscrivez requiert une vérification de l'identité, login.gov vous demandera de vérifier votre identité. Vous aurez besoin de votre pièce d'identité émise par l'État (comme votre permis de conduire) ou d'une photo à l'avant et à l'arrière de celle-ci. Utilisez les étapes suivantes pour vérifier votre identité sur login.gov:
-      1. Lorsque vous vous inscrivez ou créez un compte, vous verrez la page "Devons vérifier votre identité". Cliquez sur "Commencer".
-      <img src="site.baseurl/assets/img/verify-my-identity-1.png" class="mt3 mb3 block" />
-      2. Sur la page "Comment souhaitez-vous télécharger votre identifiant d'état?", Choisissez de télécharger des images de votre identifiant à partir de votre ordinateur ou de votre téléphone (prenez une photo avec l'appareil photo de votre téléphone ou téléchargez une image de la photothèque de votre téléphone).
-      <img src="site.baseurl/assets/img/verify-my-identity-2.png" class="mt3 mb3 block" />
-      <b>Utilisez votre ordinateur</b>
-      - Téléchargez une image du recto de votre ID délivré par l'État en cliquant sur "Choisir un fichier", en sélectionnant le fichier sur votre ordinateur et en cliquant sur "Continuer".
-        <img src="site.baseurl/assets/img/verify-my-identity-3.png" class="mt3 mb3 block" />
-      - Téléchargez une image au verso de votre identifiant émis par l'État en cliquant sur "Choisir un fichier", en sélectionnant le fichier sur votre ordinateur et en cliquant sur "Continuer".
-      <b style='margin-left: -40px;'>Utilisez votre téléphone</b>
-      - Entrez votre numéro de téléphone et cliquez sur "Continuer"
-        <img src="site.baseurl/assets/img/verify-my-identity-4.png" class="mt3 mb3 block" />
-      - Allez sur votre téléphone
-      - Vous recevrez un SMS avec un lien. Cliquez sur le lien
-        <img src="site.baseurl/assets/img/verify-my-identity-5.jpeg" class="mt3 mb3 block" />
-      - Téléchargez ou prenez une photo du recto de votre identifiant émis par l'État en cliquant sur "Choisir un fichier", en prenant une photo ou en téléchargeant une de votre photothèque, puis en cliquant sur "Continuer".
-        <img src="site.baseurl/assets/img/verify-my-identity-6.jpeg" class="mt3 mb3 block" />
-      - Téléchargez ou prenez une photo au verso de votre identifiant émis par l'État en cliquant sur "Choisir un fichier", en prenant une photo ou en téléchargeant une depuis votre photothèque, puis en cliquant sur "Continuer".
-      - Retournez sur votre ordinateur et cliquez sur "Continuer"
-
-      3. Entrez votre numéro de sécurité sociale et cliquez sur "Continuer"
-      4. Assurez-vous que vos informations sont correctes et cliquez sur "Continuer"
-      5. Entrez un numéro de téléphone pour vérifier votre identité. Si vous ne possédez pas de forfait téléphonique portant votre nom ni de numéro de téléphone américain, cliquez sur «Obtenir un code par mail à la place». Vous devrez attendre pour recevoir une lettre par la poste, puis suivez les instructions pour entrer le code.
-      6. Ressaisissez votre mot de passe login.gov
-
-      Si nous sommes en mesure de vérifier votre identité, vous verrez une page de confirmation et pourrez entrer dans l'application gouvernementale.
-    dont-have-a-state-issued-id: |-
-      Pour le moment, vous ne pouvez pas vérifier votre identité sur login.gov sans un ID délivré par un État. Nous travaillons actuellement à ajouter d'autres moyens de vérifier votre identité.
-
-      En attendant, veuillez contacter le centre d'aide de votre application gouvernementale pour savoir ce que vous pouvez faire.
-    multiple-accounts-to-verifying-my-identity-for: |-
-      Vous ne pouvez vérifier votre identité que pour un seul compte. Si vous avez plusieurs comptes login.gov, vous pouvez les combiner en supprimant un compte, puis en ajoutant cette adresse électronique à l'autre. Avant de faire cela, rappelez-vous que vous devrez relier toute application gouvernementale connectée au (x) compte (s) que vous supprimez. En outre, vous ne pouvez ajouter qu'un maximum de dix adresses électroniques à un seul compte login.gov.
-
-      Supprimer un compte
-        1. Allez à [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
-        2. Connectez-vous avec votre email, mot de passe et méthode d'authentification
-        3. Faites défiler jusqu'au bas de la page "Votre compte" jusqu'à la section "Gestion de compte", puis cliquez sur "Supprimer"
-        4. Suivez les étapes pour supprimer votre compte
-
-
-      Ajouter une adresse email à votre compte
-        1. Allez à [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"}
-        2. Connectez-vous avec votre email, mot de passe et méthode d'authentification
-        3. Sur la page "Votre compte", accédez à la section "Informations de connexion" et cliquez sur "Ajouter un email"
-        4. Suivez les étapes pour ajouter et confirmer votre adresse email
-
-      Articles liés
-
-      [Comment relier mon profil USAJOBS après la suppression de mon compte login.gov?](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
-
-      [Comment relier mon profil Trusted Traveler après la suppression de mon compte login.gov?](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
-
-      [Comment relier mon profil SAM après la suppression de mon compte login.gov?](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
-  privacy-and-security:
-    why-do-i-have-to-use-logingov: |-
-     Les agences gouvernementales décident de façon indépendante comment interagir avec le public. Vous avez été redirigé(e) vers login.gov parce que le service ou le programme que vous souhaitez utiliser a choisi la plateforme partagée login.gov pour son efficacité et sa sécurité. Lorsque vous aurez terminé d'utiliser login.gov, vous serez redirigé(e) vers l'agence de départ.
-
-      Nous espérons que login.gov est une option pratique et sécuritaire pour vous. Cependant, si vous préférez ne pas utiliser login.gov, il demeure possible d'accéder aux services gouvernementaux. Vous trouverez plus d'information à ce sujet auprès de votre agence.
-    what-is-phishing: Le phishing se produit lorsque quelqu'un tente de vous amener
-      à partager votre mot de passe ou d'autres informations personnelles en ligne.
-      Le phishing se fait généralement par courrier électronique, par des annonces
-      ou par des sites similaires aux sites que vous utilisez déjà. Par exemple, vous
-      pourriez recevoir un email ressemblant à celui de login.gov vous demandant de
-      confirmer votre email, votre mot de passe, votre code de sécurité ou votre clé
-      personnelle. Une clé de sécurité rend la tâche plus difficile car il n'y a pas
-      de codes que vous pouvez partager par erreur avec un attaquant. La clé de sécurité
-      vous permettra également de saisir les informations sur le site Web officiel
-      login.gov.
-    how-does-logingov-protect-my-information: |-
-      Le site login.gov respecte la confidentialité. Nous recueillons des données personnelles en ligne seulement pour répondre aux demandes que vous transmettez aux agences fédérales partenaires du site. Le site login.gov gère des parties spécifiques du site web de ces agences, ce qui nous permet de recueillir des données personnelles dans un environnement sécurisé et confidentiel lorsque vous accédez à certains services gouvernementaux. Nous sommes tenus de respecter notre politique de confidentialité. Le site login.gov ne loue, ne vend pas et ne publie aucune information personnelle à des fins marketing à des entreprises privées, des entrepreneurs ou des distributeurs.
-
-      Les hyperliens présents sur login.gov qui mènent vers des sites externes du gouvernement fédéral concernent des services fournis par ces agences. Ces sites sont tenus par leur propre politique de confidentialité qui se trouve normalement sur leur site avec les mentions légales.
-
-      Les comptes individuels font face à une sécurité à deux étapes. Nous exigeons une authentification à deux facteurs de même que des mots de passe forts qui répondent aux normes du [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"} relatives à la validation et à la vérification. Celles-ci incluent l'authentification à deux facteurs qui requiert que vous vous connectiez avec votre mot de passe et un code de sécurité reçu sur votre téléphone. L'authentification à deux facteurs peut aider à protéger votre compte et à empêcher que la sécurité de votre mot de passe soit compromise.
-
-      Votre information demeurera sécurisée. Pour plus d'information, consultez notre [politique de sécurité et de confidentialité](site.baseurl/policy/).
-    does-logingov-share-my-information: Le site login.gov ne peut partager de l'information
-      avec d'autres agences gouvernementales sans l'autorisation de l'utilisateur.
-      Même les administrateurs de login.gov ne peuvent déchiffrer ou accéder à l'information
-      personnelle sans le mot de passe de l'utilisateur.
-  sam:
-    change-account-settings: |-
-      Pour modifier et actualiser les informations liées à votre compte login.gov (e-mail, numéro de téléphone, clé personnelle, etc.), vous devez vous connecter à votre compte login.gov :
-
-        1. Visitez [https://www.login.gov/](https://www.login.gov/) et sélectionnez « Se connecter ».
-        2. Connectez-vous à l'aide de vos identifiants login.gov.
-
-      Une fois connecté, vous serez en mesure de modifier et d'actualiser vos informations login.gov.
-
-      Pour modifier votre compte SAM.gov, vous devrez vous connecter à [https://www.sam.gov](https://sam.gov){:target="_blank"}. Une fois connecté à votre compte SAM :
-
-        1. Sélectionnez « Paramètres de mon compte » à partir du sous-menu sur votre page My SAM.
-        2. Sélectionnez « Modifier les informations de l'utilisateur ».
-
-      Vous ne serez pas en mesure d'actualiser votre nom d'utilisateur ou votre adresse e-mail SAM. Pour actualiser l'adresse e-mail associée à votre compte SAM, veuillez actualiser votre compte login.gov.
-    my-logingov-account-uses-a-different-email-address: |-
-      Votre adresse e-mail login.gov doit être identique à votre adresse e-mail SAM.gov pour lier votre profil SAM à votre compte login.gov. Si vous avez déjà créé un compte login.gov avec une adresse différente de celle enregistrée sur SAM.gov, vous pouvez suivre les étapes suivantes :
-        1. **Actualisez votre adresse e-mail SAM.gov** : vous pouvez remplacer votre adresse e-mail SAM.gov par l'adresse utilisée pour créer votre compte login.gov avant le vendredi 29 juin à 18 h (heure de l'Est). Votre profil sera lié automatiquement lors de votre première connexion à SAM.gov à l'aide de login.gov.
-        2. **Modifiez votre adresse e-mail login.gov** : vous pouvez remplacer votre adresse e-mail login.gov par la même adresse utilisée sur votre compte SAM.gov. Vous devez modifier votre adresse login.gov avant de vous connecter à SAM à l'aide de login.gov. La modification de votre adresse e-mail n'affectera pas vos profils pour d'autres demandes gouvernementales. Une fois connecté à SAM.gov et après avoir lié votre profil, vous pourrez rétablir l'adresse e-mail d'origine sur votre compte login.gov. Pour modifier votre adresse e-mail login.gov, suivez les étapes ci-dessous :
-        3. **Créez un autre compte login.gov** : vous pouvez également créer un nouveau compte login.gov à l'aide de la même adresse e-mail enregistrée sur SAM.
-    my-email-address-used-for-sam-is-not-available: Si vous n'avez plus accès à l'adresse e-mail que vous avez
-      utilisée pour créer votre profil SAM.gov, vous devrez créer un nouveau profil
-      SAM.gov avec votre nouveau compte login.gov. Vous devez avoir accès à l'adresse
-      e-mail pour recevoir l'e-mail de confirmation de login.gov. Malheureusement,
-      SAM ne sera pas en mesure de relier votre profil et vos informations à votre
-      compte.
-    reset-or-relink-my-logingov-account-for-sam: |-
-      Si vous ne pouvez vous connecter à votre compte SAM parce que vous avez perdu l'accès à votre méthode de sécurité et à votre clé personnelle de façon permanente, vous pouvez réinitialiser votre compte en le supprimant.
-
-      La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles méthodes d'authentification. Toutefois, la suppression annulera le lien à votre profil SAM. Vous devez suivre les étapes ci-dessous pour rétablir le lien avec votre compte :
-
-      1. Pour supprimer votre compte, connectez-vous à [https://sam.gov/](https://sam.gov/). Lorsqu'on vous demande d'entrer votre code de sécurité, faites défiler vers le bas de la page jusqu'à la section « If you can't use any of these authentication methods above, you can reset your preferences by deleting your account » (Si vous ne pouvez utiliser aucune des méthodes d'authentification ci-dessus, vous pouvez réinitialiser vos préférences en supprimant votre compte) et suivez ce lien.
-      2. Lisez attentivement toute l'information pour vous assurer que la suppression de votre compte est la seule façon de réinitialiser les paramètres de votre compte. Sélectionnez « Yes, continue deletion » pour procéder à la suppression de votre compte.
-      3. Vous recevrez immédiatement une confirmation par e-mail vous informant que votre demande de suppression a bien été reçue. À titre de mesure de sécurité, vous recevrez un autre e-mail avec le lien servant à confirmer la suppression de votre compte 24 heures après avoir reçu la confirmation initiale.
-      4. Après avoir supprimé votre compte, allez à [https://sam.gov/](https://sam.gov/) pour créer un nouveau compte.
-      5. si vous avez utilisé la bonne adresse e-mail, votre profil SAM sera automatiquement lié une fois que vous vous êtes connecté.
-    cant-sign-in-or-reset-my-password-sam-account: |-
-      Vous devez posséder un compte login.gov pour vous connecter à SAM.gov. Si vous ne possédez pas de compte login.gov, vous devrez en créer un. **Vos anciens nom d'utilisateur et mot de passe SAM.gov ne fonctionneront plus.**
-
-      **Pour créer un compte login.gov :**
-
-        1. Commencez à partir du portail [sam.gov](https://www.sam.gov/){:target="_blank"} et sélectionnez le bouton « Connexion ».
-        2. Choisissez « Créer un compte » pour commencer à créer un compte login.gov.
-        3. Confirmez une adresse e-mail lors de la configuration du compte. Si vous utilisez déjà SAM.gov, vous devez utiliser l'adresse e-mail enregistrée sur SAM.gov pour lier les informations de votre profil à votre compte login.gov.
-        4. Créez un nouveau mot de passe.
-        5. Tenez-vous à proximité d'un téléphone fonctionnel (mobile ou fixe) : login.gov vous enverra un code de sécurité lors de chaque connexion.
-        6. Terminez la configuration de votre compte login.gov en notant votre clé personnelle.
-
-      Lorsque vous aurez terminé la configuration de votre compte login.gov, vous reviendrez sur SAM.gov où vous devriez voir votre profil. Vous devez utiliser votre adresse e-mail, votre mot de passe et votre code de sécurité login.gov lors de chaque connexion à SAM.gov.
-    my-sam-information-is-not-there: |-
-      Si vous êtes un utilisateur de SAM existant et que vous ne voyez pas votre profil SAM.gov une fois connecté, cela signifie que vous n'avez pas utilisé la même adresse e-mail avec laquelle vous vous êtes inscrit sur SAM.gov. Pour actualiser l'adresse e-mail afin qu'elle corresponde à votre adresse SAM.gov, vous devrez suivre les étapes suivantes :
-
-        1. Visitez [https://www.login.gov/](https://www.login.gov/) et
-        2. sélectionnez « Se connecter » pour vous connecter.
-        3. Sélectionnez « modifier » à côté de votre adresse e-mail.
-        4. Entrez l'adresse e-mail adéquate et sélectionnez « actualiser ».
-        5. Vous recevrez un e-mail de confirmation. Vous devez ouvrir et sélectionner le lien de confirmation pour terminer la mise à jour de votre adresse e-mail.
-
-        Si vous avez oublié l'adresse e-mail utilisée pour vous inscrire sur SAM.gov, vous pouvez contacter le bureau du service fédéral au numéro 866-606-8220 (appel gratuit) ou 334-206-7828 (depuis l'étranger) pour obtenir de l'aide. Vous pouvez également soumettre votre demande depuis le formulaire web à l'adresse [www.fsd.gov](https://www.fsd.gov/){:target="_blank"}.
-
-        Si vous n'avez plus accès à l'adresse e-mail utilisée pour créer votre profil SAM.gov, vous devrez créer un nouveau profil SAM.gov à l'aide de votre nouveau compte login.gov.
-    why-sam-uses-logingov: |-
-      login.gov utilise l'authentification à double facteur et des mots de passe plus sécurisés qui respectent les nouvelles exigences du [National Institute of Standards of Technology](https://www.nist.gov/){:target="_blank"} en matière de validation et de vérification sécurisées. En utilisant login.gov, vous bénéficierez d'une couche de sécurité supplémentaire qui aidera à protéger votre profil SAM.gov contre les vols de mot de passe.
-        - **Comment puis-je créer un compte login.gov pour me connecter à SAM ?**
-          Vous devez créer un nouveau compte avec login.gov. Il s'agit d'une étape unique. Les utilisateurs de SAM existants doivent utiliser leur adresse e-mail SAM.gov existante. Les nouveaux utilisateurs seront en mesure de créer un nouveau profil SAM après s'être authentifiés sur login.gov.
-        - **Que deviendra mon profil SAM ?**
-          Les informations enregistrées sur votre compte et votre profil SAM.gov resteront inchangées. Si vous utilisez la même adresse e-mail pour créer votre profil login.gov, vous conserverez tous vos dossiers, demandes d'accès aux données et recherches enregistrées. Si vous utilisez une nouvelle adresse e-mail, votre profil SAM.gov restera inchangé mais vous ne serez pas en mesure d'y accéder.
-        - **Quelle adresse e-mail dois-je utiliser pour créer un compte login.gov ?**
-          Si vous êtes un utilisateur de SAM existant, utilisez la même adresse e-mail que votre compte SAM.gov pour nous permettre de lier automatiquement votre profil SAM.gov à votre compte login.gov. Si vous utilisez une autre adresse e-mail, nous ne serons pas en mesure de lier votre profil automatiquement.
-  security-keys:
-    how-do-i-protect-my-logingov-account-with-a-security-key: |-
-      Pour configurer une clé de sécurité avec votre compte login.gov, vous devez d'abord disposer d'une clé de sécurité prenant en charge le [standard FIDO](https://fidoalliance.org/fido2/){:target="_blank"}. Si vous ne possédez pas encore de compte login.gov, vous aurez la possibilité de sécuriser votre compte à l’aide d’une clé de sécurité lors de la création du compte. Une fois que vous avez confirmé votre adresse e-mail et créé votre mot de passe, sélectionnez «Clé de sécurité», puis suivez les instructions pour donner un surnom à votre clé, puis connectez-la pour l’enregistrer.
-
-      Si vous avez déjà un compte login.gov, vous pouvez ajouter votre clé de sécurité en vous connectant à votre compte login.gov. Allez sur [https://login.gov/](https://login.gov/){:target="_blank"} et cliquez sur «Se connecter». Connectez-vous et sélectionnez «Ajouter une clé de sécurité matérielle». Vous serez invité à attribuer un surnom à votre clé de sécurité, à la connecter et à appuyer sur le bouton pour s'enregistrer.
-
-      Chaque fois que vous vous connecterez à login.gov, nous vous demanderons d'utiliser votre clé de sécurité. Si vous ne possédez pas votre clé de sécurité, vous pouvez également utiliser toute autre méthode d'authentification que vous avez activée. Nous vous recommandons d’activer plusieurs clés de sécurité et / ou d’autres méthodes à deux facteurs afin que votre compte ne soit pas verrouillé.
-  signing-in:
-    forgot-my-password: Si vous ne connaissez pas votre mot de passe, le lien
-      pour le réinitialiser se trouve à la page de connexion. Saisissez votre adresse
-      e-mail pour recevoir un lien pour réinitialiser votre mot de passe. Lorsque
-      vous suivez le lien, on vous demande de soumettre un nouveau mot de passe. Votre
-      mot de passe doit comporter 9 caractères et passer le test de l'indicateur de
-      force du mot de passe. Sélectionnez « afficher le mot de passe » pour vous assurer
-      de saisir correctement votre mot de passe. Vous serez renvoyé à la page de connexion
-      après avoir suivi ces étapes. Vous pouvez maintenant vous connecter en utilisant
-      votre nouveau mot de passe login.gov.
-    phone-or-authentication-methods-not-available: |-
-      Si vous n'avez pas ou ne pouvez pas utiliser votre méthode d'authentification (votre téléphone, vos codes de sauvegarde, votre application d'authentification ou votre mot de passe personnel), vous pouvez toujours vous connecter à votre compte.
-
-      Si vous avez perdu l'accès à votre méthode d'authentification par défaut, mais que vous avez toujours accès à l'une de vos méthodes d'authentification de sauvegarde, procédez comme suit:
-        1. Connectez-vous avec votre email et mot de passe
-        2. Cliquez sur "Choisir une autre option"
-        3. Sélectionnez l'option dont vous disposez
-        4. Cliquez sur "Continuer" et suivez les étapes pour vous connecter
-
-
-      Si vous avez définitivement perdu l'accès à toutes vos méthodes d'authentification, vous devrez réinitialiser votre compte. Suivez les étapes ci-dessous:
-        1. Supprimer votre compte
-        2. Si vous êtes un utilisateur d'USAJOBS, contactez USAJOBS pour dissocier votre ancien compte.
-        3. Créer un nouveau compte en utilisant la même adresse email
-        4. Lien vers vos applications
-
-      [Lisez comment supprimer votre compte](site.baseurl/help/changing-settings/delete-my-account/)
-      [Lisez comment vous relier à votre profil USAJOBS](site.baseurl/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs)
-      [Lisez comment vous relier à votre profil Trusted Traveler](site.baseurl/help/trusted-traveler-programs/reset-or-relink-my-logingov-account-for-ttp)
-      [Lisez comment vous relier à votre profil SAM](site.baseurl/help/sam/reset-or-relink-my-logingov-account-for-sam)
-    i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me: |-
-      Si n'avez pas votre téléphone ou votre clé personnelle, vous pourriez devoir créer un nouveau compte et vérifier votre information personnelle de nouveau. Pour créer un nouveau compte, vous devrez utiliser une adresse courriel différente de celle que vous avez utilisée lorsque vous avez créé votre premier compte. Pour les questions urgentes, par exemple pour vérifier le statut d'une application en cours, il est recommandé de communiquer directement avec l'agence gouvernementale.
-
-      Vous pouvez également vous connecter plus tard lorsque vous aurez votre téléphone avec vous.
-    forgot-my-email-address: |-
-      Si vous ne vous souvenez pas quelle adresse courriel vous avez utilisée pour créer votre compte, vous pouvez utiliser la fonction de réinitialisation de mot de passe pour vérifier si votre adresse courriel est inscrite au dossier.
-
-      Essayez de vous connecter comme d'habitude et demandez une réinitialisation de mot de passe. Ensuite, entrez l'adresse courriel que vous croyez avoir utilisée pour créer votre compte. Si votre adresse courriel est inscrite dans nos dossiers, nous vous enverrons des instructions pour réinitialiser votre mot de passe. Vérifiez vos courriels dans quelques minutes pour y trouver ces instructions.
-    if-i-dont-have-my-phone-with-me-can-i-still-sign-in: |-
-      Vous devez avoir votre téléphone afin d'obtenir la clé de sécurité pour vous connecter. Si vous n'avez pas votre téléphone avec vous, vous devrez utiliser la clé personnelle que vous avez reçue lorsque vous avez créé votre compte. Après avoir inscrit votre clé personnelle, cliquez sur « soumettre ». Une fois connecté(e), vous obtiendrez immédiatement une nouvelle clé personnelle. Veuillez conserver votre clé personnelle en lieu sûr, séparément de votre téléphone, car elle vous permet de vous connecter à votre compte quand vous n'avez pas votre téléphone avec vous.
-
-      Nous vous encourageons à conserver votre clé personnelle ailleurs que dans votre ordinateur ou appareil mobile. Ainsi, vous serez en mesure d'accéder à votre clé personnelle même si votre appareil est volé ou que votre compte en ligne est piraté.
-    reset-password-link-is-invalid: |-
-      Le lien de confirmation envoyé par e-mail expire après 6 heures. Si cela s'est produit, sélectionnez « Envoyer de nouveau » pour obtenir un nouvel e-mail contenant un lien de réinitialisation du mot de passe ou sélectionnez « mot de passe oublié » et saisissez votre adresse e-mail.
-
-      Si vous avez demandé plus d'un lien de réinitialisation, vous devez utiliser le plus récent e-mail. Tous les liens envoyés dans les e-mails plus anciens ne seront plus valides.
-
-      Si le lien de confirmation ne fonctionne pas et que vous avez suivi les étapes indiquées ci-dessus, il est possible que votre fournisseur de messagerie e-mail ait brouillé le lien. Une façon de déterminer si cela s'est produit est de copier et de coller le lien de confirmation dans votre navigateur. S'il y a des symboles ou des mots inhabituels dans le lien, éliminez-les et appuyez sur la touche entrer.
-
-      Pour obtenir de l'assistance additionnelle, contactez-nous à [hello@login.gov](mailto:hello@login.gov)
-    what-do-i-do-if-my-password-doesnt-work-or-i-forget-it: |-
-      Si vous ne connaissez pas votre mot de passe, le lien pour le réinitialiser se trouve sur la page de connexion. Entrez votre adresse courriel pour recevoir un lien de réinitialisation de mot de passe. Après avoir cliqué sur le lien, on vous demandera d'entrer un nouveau mot de passe. Confirmez de nouveau que vous avez votre téléphone (celui que vous utiliserez pour recevoir des codes d'accès à utilisation unique).
-
-
-      Lorsque vous serez connectés à login.gov après la réinitialisation de votre mot de passe, login.gov vous fournira une clé personnelle. La clé personnelle vous sera utile si vous oubliez votre mot de passe ou si vous n'avez pas votre téléphone avec vous. Assurez-vous de la prendre en note et de la conserver séparément de votre téléphone.
+  trouble-signing-in:
+    overview: |-
+      # Des problèmes de connexion?
+      Vous avez oublié votre mot de passe? Verrouillé votre compte? Nous vous aiderons à résoudre les problèmes d’accès au compte.
+
+      ## Sujets de dépannage courants
+      * [Comment se connecter à login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
+      * [Mot de passe oublié](site.baseurl/help/trouble-signing-in/forgot-your-password)
+      * [Verrouillé du compte login.gov](site.baseurl/help/trouble-signing-in)
+      * [Téléphone ou méthodes d’authentification non disponibles](site.baseurl/help/trouble-signing-in)
+      * [Adresse courriel oubliée](site.baseurl/help/trouble-signing-in)
+      * [Problèmes de code de sécurité](site.baseurl/help/trouble-signing-in/security-code-issues)
+      * [Problèmes de réinitialisation du mot de passe](site.baseurl/help/trouble-signing-in/password-reset-issues)
     how-to-sign-in: |-
-      Chaque fois que vous vous connecterez à votre compte, vous aurez besoin de votre adresse électronique, de votre mot de passe et de l'accès à l'une des méthodes d'authentification à deux facteurs que vous avez configurées. Après avoir entré votre adresse e-mail et votre mot de passe pour vous connecter, login.gov vous demandera de vous authentifier (entrez un code de sécurité envoyé à votre téléphone par voix ou texte, entrez le code de sécurité de votre application d'authentification, entrez un code de sauvegarde, utilisez votre clé de sécurité, ou utilisez votre carte gouvernementale PIV/CAC).
-    what-happens-if-i-miss-the-phone-call-or-the-text-message-with-my-one-time-security-code: Chaque
-      fois que vous vous connectez, vous devez entrer un code de sécurité qui est
-      envoyé à votre téléphone par message texte ou par appel téléphonique. Le code
-      de sécurité que vous recevez expire après 5 minutes et peut être utilisé une
-      fois seulement. Si vous n'entrez pas le code dans un délai de 5 minutes ou que
-      vous avez simplement manqué l'appel, vous n'avez qu'à demander un nouveau code
-      de sécurité. Chaque code de sécurité est valide une fois seulement, donc personne
-      ne peut voler un code que vous avez déjà utilisé. Nous limitons les demandes
-      à trois par 15 minutes, mais autrement, vous pouvez demander autant de code
-      que vous le souhaitez.
-    locked-out-of-account: |-
-      Il existe plusieurs raisons pour lesquelles vous pourriez ne pas avoir accès à login.gov temporairement.
-       – Vous ne pourrez vous connecter pendant 10 minutes si vous avez soumis votre code de sécurité 3 fois de façon erronée.
-       – Vous ne pourrez vous connecter pendant 10 minutes si vous demandez plus de 10 codes de sécurité dans une période de 5 minutes.
-    reset-password-email-not-received: Si vous n'avez pas reçu
-      d'e-mail de réinitialisation, vérifiez votre filtre anti-spam. Si vous ajoutez
-      « no-reply@login.gov » à votre liste de contacts, votre fournisseur de messagerie
-      e-mail ne l'enverra pas dans le dossier des indésirables. Vous pourriez aussi
-      avoir accidentellement fait une faute de frappe en saisissant votre adresse
-      e-mail. Si vous savez que vous avez soumis la bonne adresse, choisissez « Envoyer
-      de nouveau » pour obtenir un nouvel e-mail contenant un lien de réinitialisation
-      du mot de passe, nous vous recommandons de contacter votre fournisseur de messagerie
-      e-mail à ce sujet ou vérifiez les paramètres de votre compte si vous effectuez
-      une redirection de vos e-mails.
-    phone-didnt-get-a-security-code: |-
-      Si vous n'avez pas reçu de code de sécurité, vérifiez si vous avez saisi correctement le numéro de téléphone.
-       – Avez-vous soumis un numéro de téléphone erroné? Recherchez l'option pour l'entrer de nouveau. Si vous avez un numéro de l'extérieur des États-Unis, assurez-vous de sélectionner le bon code de pays.
-       – Si vous avez une ligne fixe, veuillez vous assurer de choisir l'option « Appel téléphonique » sous « Par quel moyen souhaitez-vous recevoir votre code de sécurité ? ». Nous ne pouvons envoyer de SMS à une ligne terrestre.
-       – Si vous avez un numéro de téléphone international, assurez-vous de recevoir le code de sécurité par SMS. login.gov ne prend pas en charge l'envoi de codes de sécurité par appel téléphonique à des numéros internationaux pour le moment.
-      – S'il s'agit du bon numéro, assurez-vous que votre service est fonctionnel et demandez le code de nouveau. Vous pouvez recevoir le code par SMS ou par appel téléphonique.
-    why-does-the-system-log-me-out: |-
-      Lorsqu'un utilisateur est déjà connecté et qu'il souhaite changer son adresse courriel, son mot de passe ou son numéro de téléphone, il doit d'abord entrer son mot de passe courant. Après trois essais ratés, l'utilisateur est déconnecté.
+      # Comment se connecter à login.gov
+      Chaque fois que vous vous connecterez à votre compte login.gov, vous aurez besoin de votre adresse électronique, de votre mot de passe et d'un accès à l'une des méthodes d'authentification à deux facteurs que vous aurez mises en place.
 
-      Le système vous déconnecte également si vous avez entré 3 fois de façon erronée le code de sécurité qui a été envoyé à votre téléphone. Les tentatives échouées sont limitées à 3 par session, suivies d'un verrouillage de l'accès de 5 minutes.
-    personal-key-not-working: |-
-      Une clé personnelle est un code secret à 16 caractères que login.gov vous donne après vérification de votre identité. Si vous avez vérifié votre identité sur votre compte et que vous avez ensuite dû réinitialiser votre mot de passe, on vous demandera votre clé personnelle.
+      Suivez ces étapes pour vous connecter à login.gov.
+      1. Saisissez votre adresse électronique à l'adresse [https://secure.login.gov](https://secure.login.gov).
+      1. Saisissez votre mot de passe.
+      1. Cliquez sur le bouton « Se connecter ».
+      1. Authentifiez-vous à l'aide d'une des méthodes que vous avez mises en place. Les options comprennent :
+          1. Saisie d'un code de sécurité à partir de votre demande d'authentification
+          1. Utilisation de votre clé de sécurité
+          1. Saisie d'un code de sécurité que vous recevez par SMS ou par appel téléphonique
+          1. Saisie d'un code de sauvegarde
+          1. Utilisation de votre carte d'employé du gouvernement fédéral ou de votre carte d'identité militaire (PIV ou CAC))
+      1. Vous serez ensuite dirigé vers la page de votre compte login.gov.
 
-      **Si votre clé personnelle ne fonctionne pas**
-      - Vérifiez deux fois pour vous assurer que vous l'avez entrée correctement. Ne vous inquiétez pas pour les caractères qui sont difficiles à distinguer (comme O et 0), ils ont la même valeur pour nous.
-      - Assurez-vous qu'il s'agit de votre clé personnelle la plus récente. Les clés personnelles ne peuvent être utilisées qu'une seule fois, donc si vous l'avez déjà utilisée une fois, nous vous en avons donné une nouvelle.
+      ## Articles connexes
+      [Options d'authentification](#)
+      [Vérifiez votre identité](#)
+    forgot-your-password: |-
+      # Mot de passe oublié
+      Suivez ces étapes pour réinitialiser votre mot de passe.
 
-      Si cela ne fonctionne toujours pas, cliquez sur le lien au bas de la page pour vérifier à nouveau votre identité.
+      1. Rendez-vous sur [https://secure.login.gov/](https://secure.login.gov/)
+      1. Sélectionnez le lien « Oublié votre mot de passe » en bas de la page.
+      1. Sur l’écran suivant, entrez votre adresse électronique.
+      1. Cliquez sur le bouton « Continuer ».
+      1. Vérifiez si votre adresse électronique comporte un message de login.gov.
+      1. Cliquez sur le bouton « Réinitialiser votre mot de passe » contenu dans le message. Cela vous ramènera au site internet login.gov.
+      1. Entrez votre nouveau mot de passe.
+          Les mots de passe doivent comporter au moins 12 caractères. C’est tout! Il n’y a pas d’autres restrictions. Vous pouvez même utiliser plus d’un mot avec des espaces afin d’arriver à obtenir 12 caractères. Essayez d’utiliser une phrase ou une série de mots que vous êtes le seul à reconnaître.
 
-      **La clé personnelle comme méthode d'authentification**
-      Dans le passé, nous donnions également aux utilisateurs une clé personnelle à utiliser comme méthode d'authentification à deux facteurs. C'était une façon de vous connecter à votre compte si vous perdiez ou changiez de numéro de téléphone. Cependant, nous avons maintenant supprimé la possibilité d'utiliser les clés personnelles comme méthode d'authentification, car elles sont facilement perdues ou volées.
+          Votre mot de passe login.gov doit être différent des mots de passe que vous utilisez pour d’autres comptes tels que votre compte bancaire ou votre courrier électronique. L’utilisation du même mot de passe pour de nombreux comptes facilite l’usurpation d’identité.
+      1. Cliquez sur le bouton « Changer le mot de passe ».
+    locked-out-of-login: |-
+      # Verrouillé du compte login.gov
+      If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
 
-      Si vous avez toujours la possibilité d'utiliser une clé personnelle, c'est parce que vous ne vous êtes pas connecté depuis que nous avons fait le changement. Après vous être connecté avec votre courriel, votre mot de passe et votre clé personnelle ou votre mot de passe unique envoyé à votre téléphone, vous devrez configurer une autre méthode d'authentification. Vous pouvez choisir entre SMS par téléphone ou appel vocal, application d'authentification, clé de sécurité, code d'identification d'employé du gouvernement ou militaire (PIV/CAC) ou codes de sauvegarde. Après avoir configuré votre nouvelle méthode d'authentification, vous ne pourrez plus utiliser votre clé personnelle comme méthode d'authentification.
+      - If you mistyped your address, you can create a new account.
+      - If you are certain you entered the correct address, choose “send again” to get a new confirmation email.
+    phone-or-authentication-methods-not-available: |-
+      # Téléphone ou méthodes d’authentification non disponibles
+      Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in](site.baseurl/help/signing-in/forgot-my-password).
 
-      Si vous n'avez pas l'une de vos méthodes d'authentification pour vous connecter, vous devrez [réinitialiser votre compte](site.baseurl/help/signing-in/phone-or-authentication-methods-not-available/).
+      Please submit a [support ticket](site.baseurl/contact) if you are sure you did not create an account.
 
-      **Lire plus**
-      [Identification à deux facteurs](site.baseurl/help/creating-an-account/two-factor-authentication/)
-      [Comment vérifier mon identité](site.baseurl/help/verifying-your-identity/how-to-verify-my-identity/)
-    security-code-not-working: Chaque fois où vous vous connectez, vous devez
-      soumettre un code de sécurité qui est envoyé à votre téléphone par SMS ou par
-      appel téléphonique. Le code sécurité que vous recevez expire après 10 minutes
-      et est valide pour une seule utilisation. Si vous n'entrez pas le code de sécurité
-      dans un délai de 10 minutes ou si vous manquez l'appel téléphonique, vous pouvez
-      demander un nouveau code de sécurité. Chaque code de sécurité est utilisable
-      une seule fois, vous devez donc vous assurer que vous utilisez le code de sécurité
-      le plus récent. Vous pouvez seulement demander 3 codes de sécurité par période
-      de 15 minutes, mais vous pouvez demander autant de codes que nécessaire.
-  trusted-traveler-programs:
-    i-have-another-question: Si vous avez une question ou si vous rencontrez un problème
-      qui n'est pas abordé sur cette page, veuillez nous contacter à l'adresse [hello@login.gov](mailto:hello@login.gov).
-    ttp-application-status: |-
-      Connectez-vous au [site Trusted Traveler Programs](https://ttp.cbp.dhs.gov/){:target="_blank"} pour consulter le statut de votre demande.
+      [What is two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
 
-      login.gov est uniquement destiné à l'accès et à la connexion au compte. Il n'affecte pas et ne contient aucune information concernant votre demande, votre adhésion ou votre éligibilité aux Trusted Traveler Programs. Merci de ne pas envoyer de données confidentielles vous concernant ou de numéros de membre personnels sur login.gov.
+      [Why do I have to use login.gov?](site.baseurl/help/privacy-and-security/why-do-i-have-to-use-logingov/)
+    forgot-your-email-address: |-
+      # Adresse courriel oubliée
+      Your password should be at least 8 characters long. Try using multiple words and spaces to create a memorable phrase. Longer passwords with many words are stronger than short passwords with special characters.
 
-      Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}.
-    do-i-need-to-pay-again: |-
-      Vous n'avez pas besoin de payer de nouveau, sauf s'il est temps de renouveler votre adhésion.
+      When creating a password, also try to avoid using slang terms and common misspellings and words spelled backward. Also, avoid using your company name or your spouse's or children's names - and even your pet - as well as other personal information such as your age or birth date.
 
-      login.gov est uniquement destiné à l'accès et à la connexion au compte. Il n'affecte pas et ne contient aucune information concernant votre demande, votre adhésion ou votre éligibilité aux Trusted Traveler Programs. Merci de ne pas envoyer de données confidentielles vous concernant ou de numéros de membre personnels sur login.gov.
+      If you're already signed in, and you're trying to change your password, email, or phone, you will be prompted to enter your current password before you can make the changes.
 
-      Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}.
-    whats-my-passid: |-
-      Après avoir créé un nom d'utilisateur et un mot de passe login.gov et vous être connecté au [site Trusted Traveler Programs](https://ttp.cbp.dhs.gov/){:target="_blank"}, il vous sera demandé d'entrer votre PASSID pour lier votre ancien profil GOES aux nouveaux identifiants login.gov. TTP vous demandera de répondre à des questions de sécurité et de fournir des informations supplémentaires si vous n'avez pas votre PASSID.
+      But, if you repeatedly enter an incorrect password, it is most likely due to a malicious person taking over your machine that you left unattended. In that case, for your security, we sign you out after three failed attempts.
+    security-code-issues: |-
+      # Problèmes de code de sécurité
+      A personal key is a 16-character secret code that login.gov gives you after you verify their identity. It’s used to encrypt your data (think of it as a key to your secret information). You don’t need it every time you sign in, but you will need it if you reset your password.
 
-      Si vous rencontrez des difficultés avec votre nom d'utilisateur et votre mot de passe PASSID ou GOES, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}. Merci de ne pas envoyer de données confidentielles vous concernant ou de numéros de membre personnels sur login.gov.
-    family-member-accounts: |-
-      Le [site Trusted Traveler Programs](https://ttp.cbp.dhs.gov/){:target="_blank"} ne prend en charge qu'un seul compte login.gov pour chaque demande. Chaque membre de la famille aura besoin d'une adresse e-mail unique pour créer un compte login.gov. Nous comprenons parfaitement votre choix de vouloir partager une adresse e-mail avec les membres de votre famille ou de ne pas créer de compte de messagerie pour vos enfants.
+      Remember, it’s the key to your personal information, so make sure you keep it in a safe place where it can’t be lost or stolen.
 
-      Certains fournisseurs de messagerie peuvent vous permettre de créer des alias e-mail (ou adresses de redirection). Si vous utilisez Gmail, vous pouvez rediriger plusieurs alias e-mail vers la même boîte de réception :
+      Note: You’ll only get and need a personal key if you verified your identity on your login.gov account (only some government applications require identity verification).
 
-      Si votre adresse e-mail est exemple@gmail.com, vous pouvez entrer exemple+john@gmail.com ou exemple+jane@gmail.com lors de la création d'un nouveau compte login.gov. login.gov reconnaîtra chacune de ces adresses e-mail comme unique et tous les e-mails de confirmation apparaîtront dans votre boîte de réception exemple@gmail.com.
+      **You need your personal key if you reset your password**
+      To keep your information safe, your password and your personal key are the only two ways to decrypt your data (the only two keys to your secret information).
+      - If you reset your password, you’ll have to enter your personal key.
+      - If you lose both your password and your personal key, you’ll have to verify your identity again.
 
-      Pour obtenir plus d'informations, visitez [https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html){:target="_blank"}.
-    will-my-ktn-known-traveler-number-change: |-
-      Votre KTN ne sera pas modifié.
+      **Personal keys are not used for 2FA anymore**
+      In the past, we gave users a personal key to use as a two-factor authentication method. It was a way to sign in to your account if you lost or changed your phone number. However, we’ve now removed the ability to use personal keys as an authentication method because they are easily lost or stolen.
 
-      login.gov est uniquement destiné à l'accès et à la connexion au compte. Il n'affecte pas et ne contient aucune information concernant votre demande, votre adhésion ou votre éligibilité aux Trusted Traveler Programs. Merci de ne pas envoyer de données confidentielles vous concernant ou de numéros de membre personnels sur login.gov.
+      If you still have the option to use personal key for two-factor authentication, you’ll be asked to set up a different authentication method the next time you sign in. You can choose from phone SMS or voice call, authenticator app, security key, government or military employee ID (PIV/CAC), or backup codes. After you set up your new authentication method, you won’t be able to use personal key as an authentication method anymore.
 
-      Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}.
-    my-ttp-information-is-not-there: |-
-      Si vous souhaitez accéder à votre compte Trusted Traveler Programs (TTP), commencez toujours à l'adresse [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/){:target="_blank"}. Après avoir suivi les [instructions de création de compte](site.baseurl/help/creating-an-account/how-to-create-an-account/), vous serez renvoyé vers les informations de votre adhésion à TTP.
+      **Read more**
+      [Two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
+      [Personal key not working](site.baseurl/help/signing-in/personal-key-not-working/)
+      [What is phishing?](site.baseurl/help/privacy-and-security/what-is-phishing/)
+      [Why do I need to verify my identity?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
+    password-reset-issues: |-
+      # Problèmes de réinitialisation du mot de passe
+      login.gov uses two-factor authentication (2FA) to keep accounts secure. This means that, each time you sign in, you must use something you know and something you have. This makes your account safer by making it much harder for others to break into it.
 
-      Si vous vous connectez directement depuis login.gov, vous verrez seulement les informations de votre compte login.gov et vous ne pourrez pas voir les informations de votre adhésion à TTP.
-    reset-or-relink-my-logingov-account-for-ttp: |-
-      Si vous ne pouvez vous connecter à votre compte Trusted Traveler parce que vous avez perdu l'accès à votre méthode de sécurité et à votre clé personnelle de façon permanente, vous pouvez réinitialiser votre compte en le supprimant.
+      1. The ‘something you know’ is your password. We’ll ask you to create a strong password (at least 12 characters long) when you create your account.
+      2. The ‘something you have’ is your two-factor authentication method. You’ll be able to choose between the following options when you create your account.
+        - Phone: Get security codes by text message (SMS) or phone call
+        - [Authentication app](site.baseurl/help/creating-an-account/authentication-application/): Get codes from an app on your phone, computer, or tablet
+        - [Security key](site.baseurl/help/creating-an-account/security-key/): Use a security key that you have. It’s a physical device that you plug in or that is built in to your computer or phone (it often looks like a USB flash drive).
+        - Government employee ID: Insert your government or military PIV or CAC card and enter your PIN
+        - Backup codes: We’ll give you 10 codes to use and keep in a safe place. You can use backup codes as your only authentication method, if you don’t have any of the other options.
 
-      La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles méthodes d'authentification. Toutefois, la suppression annulera le lien à votre profil Trusted Traveler. Vous devez suivre les étapes ci-dessous pour rétablir le lien avec votre compte :
+      We’ll ask you to set up at least two different two-factor authentication methods for your account. You won’t have to use both every time you sign in, but it helps make sure you don’t lose access to your account (for example, if you lose your phone and need to change your phone number).
 
-      1. Pour supprimer votre compte, connectez-vous à [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/). Lorsqu'on vous demande d'entrer votre code de sécurité, faites défiler vers le bas de la page jusqu'à la section « Si vous ne pouvez utiliser aucune des méthodes d'authentification ci-dessus, vous pouvez réinitialiser vos préférences en supprimant votre compte » et suivez ce lien.
-      2. Lisez attentivement toute l'information pour vous assurer que la suppression de votre compte est la seule façon de réinitialiser les paramètres de votre compte. Sélectionnez « Oui, continuer avec la suppression » pour procéder à la suppression de votre compte.
-      3. Vous recevrez immédiatement une confirmation par e-mail vous informant que votre demande de suppression a bien été reçue. À titre de mesure de sécurité, vous recevrez un autre e-mail avec le lien servant à confirmer la suppression de votre compte 24 heures après avoir reçu la confirmation initiale.
-      4. Après avoir supprimé votre compte, allez à [https://ttp.cbp.dhs.gov/](https://ttp.cbp.dhs.gov/) pour créer un nouveau compte.
-      5. Une fois que vous avez créé un nouveau compte, remplissez l'information à la page du profil du compte et au bas, vous verrez une section pour les applications précédentes. Sous « Avez-vous déjà soumis une demande pour l'obtention d'un accès Global Entry, NEXUS ou SENTRI ? », sélectionnez « Oui ».
-      6. Vous serez en mesure d'établir un lien entre ce nouveau compte et votre ancien compte GOES en fournissant votre PASSID. Si vous éprouvez des difficultés avec votre PASSID, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions).
-    scheduling-an-appointment: |-
-      La meilleure façon de prendre un rendez-vous est d'utiliser le site Trusted Traveler Programs.
+      **Read more**
+      [Phone didn’t get a security code](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
+      [No phone or other authentication method](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
+  manage-your-account:
+    overview: |-
+      # Gérez votre compte
+      Gérez les paramètres de votre compte, notamment votre mot de passe, votre numéro de téléphone, votre adresse électronique, etc.
 
-      login.gov est uniquement destiné à l'accès et à la connexion au compte. Il n'affecte pas et ne contient aucune information concernant votre demande, votre adhésion ou votre éligibilité à Trusted Traveler Programs. Merci de ne pas envoyer de données confidentielles vous concernant ou de numéros de membre personnels sur login.gov.
+      ## Sujets de dépannage courants
+      * [Changez votre mot de passe](#)
+      * [Modifiez le numéro de téléphone associé à votre compte](#)
+      * [Modifiez l'adresse électronique associée à votre compte](#)
+      * [Supprimez votre compte login.gov](#)
+      * [Gérez plusieurs comptes login.gov](#)
+    change-your-password: |-
+      # Changer votre mot de passe
+      Suivez les étapes suivantes pour changer votre mot de passe login.gov.
 
-      Si vous avez d'autres questions concernant Trusted Traveler, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions?language=en_US](https://help.cbp.gov/s/questions?language=en_US){:target="_blank"}.
-    cant-sign-in-or-reset-my-password-goes-account: |-
-      Vous ne serez plus en mesure d'utiliser votre identifiant d'utilisateur et votre mot de passe GOES pour vous connecter. Veuillez créer un nouveau compte login.gov. Vous serez en mesure de lier ce nouveau compte à votre ancien compte GOES en indiquant votre PASSID. Si vous rencontrez des difficultés avec votre PASSID, veuillez contacter CBP directement : [https://help.cbp.gov/s/questions](https://help.cbp.gov/s/questions){:target="_blank"}. Aucun numéro de carte de crédit ou paiement ne vous sera demandé.
+      1. Saisissez votre adresse de courriel sur https://secure.login.gov.
+      1. Saisissez votre mot de passe.
+      1. Cliquez sur le bouton « Se connecter ».
+      1. Authentifiez-vous à l'aide d'une des méthodes que vous avez configurées. Vous serez ensuite dirigé vers la page de votre compte.
+      1. Sélectionnez « Modifier » à côté du champ de mot de passe.
+      1. Saisissez votre nouveau mot de passe.
+            Les mots de passe doivent comporter au moins 12 caractères. C'est tout! Il n'y a aucune autre restriction. Vous pouvez même utiliser plus d'un mot avec des espaces pour arriver à 12 caractères. Essayez d'utiliser une phrase ou une série de mots que vous êtes le seul à reconnaître.
 
-      Pour créer un nouveau compte :
+            Votre mot de passe login.gov doit être différent des mots de passe que vous utilisez pour d'autres comptes tels que votre compte bancaire ou votre adresse de courriel. L'utilisation du même mot de passe pour plusieurs comptes facilite l'usurpation d'identité.
+      1. Cliquez sur le bouton « Changer le mot de passe ».
+    delete-your-account: |-
+      #  Supprimer votre compte
+      __Plusieurs raisons peuvent justifier le besoin de supprimer votre compte:__
+      * Vous réalisez que vous avez plusieurs comptes avec différentes adresses de courriel et vous souhaitez avoir un seul compte.
+      * Vous ne pouvez plus accéder à votre compte et vous n'avez plus accès à vos méthodes d'authentification.
+      * Vous n'avez plus besoin d'avoir un compte login.gov
 
-      1. Veuillez visiter [https://ttp.dhs.gov](https://ttp.dhs.gov){:target="_blank"}
-      2. Si vous êtes un nouvel utilisateur, sélectionnez « Commencer » au milieu de la page. Si vous êtes déjà inscrit, sélectionnez « CONNEXION » en haut à droite de la page.
-      3. Sélectionnez « Accepter et continuer ».
-      4. Sélectionnez « Créer un compte ».
-      5. Entrez votre adresse e-mail : il s'agit désormais de votre nouveau nom d'utilisateur.
-      6. Attendez de recevoir un e-mail de confirmation et suivez les instructions indiquées dans le message.
-      7. Continuez le processus de création de compte [comme indiqué ici](site.baseurl/help/creating-an-account/how-to-create-an-account/)
-      8. Vous devriez voir une page ressemblant à ceci :
-      <img src="site.baseurl/assets/img/created_acount.png" class="mt3 mb3 block" alt="Login.gov created account page" />
-      9. Sélectionnez « Continuer » pour revenir au site web Trusted Traveler Programs.
-      10. Vous devriez voir une page ressemblant à ceci :
-      <img src="site.baseurl/assets/img/trusted_traveler_program.png" class="mt3 mb3 block" alt="Trusted traveler account profile" />
-      11. Complétez vos informations sur cette page. Vous verrez une section en bas de la page pour les demandes précédentes. En-dessous de « Avez-vous déjà déposé une demande pour Global Entry, NEXUS ou SENTRI ? », sélectionnez « Oui ». Voici à quoi ressemble la page :
-      <img src="site.baseurl/assets/img/ttp_previous_applications.png" class="mt3 mb3 block" alt="Trusted travler link previous account page" />
-  usajobs:
-    try-not-to-use-a-gov-mil-or-edu-email-address: |-
-      Nous vous recommandons d'utiliser une adresse e-mail .gov, .mil ou .edu car si vous quittez votre poste au gouvernement, militaire ou dans un établissement d'enseignement, vous n'aurez plus accès à cette adresse e-mail. Sans accès à cette adresse e-mail, il sera beaucoup plus difficile de vérifier votre identité si vous devez réinitialiser votre mot de passe.
+      __Si vous supprimez votre compte:__
+      * Nous supprimerons votre adresse courriel, votre mot de passe et votre numéro de téléphone.
+      * Vous ne pourrez plus accéder de manière sécurisée aux agences partenaires qui exigent un compte login.gov.
 
-      Si votre adresse e-mail USAJOBS primaire ou secondaire est une adresse e-mail .gov, .mil ou .edu, vous pourriez envisager de la changer APRÈS avoir effectué le processus de configuration de votre compte login.gov et d'établissement du lien à votre profil USAJOBS.
-    cant-sign-in-or-reset-my-password-usajobs-account: |-
-      USAJOBS a récemment fait passer sont système de connexion à login.gov. Votre nom d'utilisateur et mot de passe de USAJOBS ne fonctionnent dorénavant plus. Vous devez créer un compte login.gov pour vous connecter.
+      Après la suppression de votre compte, vous ne pourrez plus accéder aux applications gouvernementales auxquelles vous pouvez accéder
+      normalement en utilisant votre compte login.gov. Vous ne perdrez pas vos informations dans ces applications, mais vous aurez besoin d'un * compte login.gov pour pouvoir vous connecter à ces applications.
 
-      Pour lier automatiquement votre profil USAJOBS à votre nouveau compte, vous devez utiliser votre adresse e-mail USAJOBS primaire ou secondaire. Si vous ne vous connectez pas avec une de ces adresses e-mail, vous ne pourrez pas lier votre compte automatiquement, mais vous pouvez utiliser votre adresse e-mail USAJOBS primaire ou secondaire pour tenter de récupérer votre profil une fois que vous êtes connecté(e).
+      __Si vous avez accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:__
+      1. Saisissez votre adresse courriel sur [https://secure.login.gov](https://secure.login.gov).
+      1. Saisissez votre mot de passe.
+      1. Cliquez sur le bouton « Connexion ».
+      1. Authentifiez-vous en utilisant l'une des méthodes que vous avez configurées.
+      1. Sur la page de votre compte, sélectionnez « Supprimer le compte » à partir du menu à gauche de la page.
+      1. Sélectionnez « Supprimer le compte » à partir du menu « Votre compte ».
+      1. Saisissez votre mot de passe pour confirmer votre souhait de supprimer le compte.
 
-      Pour inscrire un nouveau compte :
-        1. Allez à [https://www.usajobs.gov/](https://www.usajobs.gov/)
-        2. Sélectionnez « Sign in »
-        3. Sélectionnez « Continue »
-        4. Si vous n'avez pas créé de compte login.gov, sélectionnez « Create an account ». Si vous avez déjà un compte login.gov, sélectionnez « Sign in ».
-        5. Entrez votre adresse e-mail : il s'agit dorénavant de votre nom d'utilisateur
-        6. Attendez la confirmation par e-mail et suivez les instructions incluses dans l'e-mail
-        7. Continuez avec le processus de création de compte comme il est décrit ici : [https://login.gov/help/creating-an-account/how-to-create-an-account/](site.baseurl/help/creating-an-account/how-to-create-an-account/)
+      __Si vous n'avez pas accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:__
+      Par mesure de sécurité, Login.gov impose un processus en 2 étapes et une période d'attente de 24 heures, si vous n'avez plus accès à vos méthodes d'authentification et avez besoin de supprimer votre compte.
 
-      Si vous vous connectez et que vous ne voyez pas votre profil, vous pouvez essayer de récupérer votre compte en sélectionnant « Already have a USAJOBS profile » USAJOBS vous indiquera quelques étapes à suivre pour trouver votre profil.
+      1. Accédez à la page de connexion de l'application de votre gouvernement ou allez à l'adresse [https://secure.login.gov/](https://secure.login.gov/).
+      1. Connectez-vous en utilisant votre adresse courriel et votre mot de passe.
+      1. Sur la page d'authentification (saisir votre code de sécurité, d'application ou de sauvegarde ; carte PIV/CAC ; ou clé de sécurité), cliquez sur « Choisir une autre option de sécurité ».
+      1. Faites défiler jusqu'au bas et cliquez sur le lien de suppression de votre compte.
+      1. Lisez toutes les informations attentivement pour vous assurer que la suppression de votre compte est la seule option qui s'offre à vous.
+      1. Cliquez sur « Oui, continuer la suppression »
+      1. Vous recevrez deux courriels.
+          1. Le premier confirme que nous avons reçu votre demande. Votre compte n'est pas encore supprimé. Une action supplémentaire est nécessaire.
+          1. Le deuxième courriel vous est envoyé 24 heures après le premier. Suivez les instructions énoncées dans le courriel pour terminer la suppression.
+  specific-agencies:
+    overview: |-
+      Login.gov est réservé à l'accès au compte et à l'ouverture de session. Ce compte n'affecte pas et ne contient aucune information relative à l'agence spécifique à laquelle vous essayez d'accéder. 
 
-      Si vous éprouvez toujours des difficultés à lier votre profil, contactez le centre d'assistance de USAJOBS. [https://www.usajobs.gov/Help/how-to/account/#usajobs-contact-form](https://www.usajobs.gov/Help/how-to/account/#usajobs-contact-form)
+      Notre équipe d'assistance à la clientèle est là pour vous aider à répondre aux questions de login.gov.
 
-      Pour toute autre question concernant la création d'un compte login.gov, veuillez consulter notre FAQ relative à la création d'un compte :
-      [https://login.gov/help/creating-an-account/how-to-create-an-account/](site.baseurl/help/creating-an-account/how-to-create-an-account/)
-    my-usajobs-information-is-not-there: |-
-      Si USAJOBS ne trouve pas l'information de votre profil, vous serez connecté(e) en tant qu'Invité(e).
+      ## Contactez login.gov to:
+      * Vous aider à créer un compte login.gov
+      * Partager des informations sur les possibilités d'authentification
+      * Vous aider à résoudre les raisons pour lesquelles vous ne pouvez pas accéder à votre compte
+      * Vous fournir des instructions pour réinitialiser votre mot de passe ou supprimer votre compte
 
-       Pour trouver votre profil USAJOBS, suivez ces étapes :
+      Login.gov ne peut pas réinitialiser votre mot de passe, supprimer votre compte ou modifier les informations de votre compte.
 
-         1. Connectez-vous à USAJOBS
-         2. Sélectionnez le bouton « find existing profile » (trouver profil existant)
-         3. Saisissez votre adresse e-mail et sélectionnez « send email »
-         4. Consultez vos e-mails et suivez les instructions pour confirmer votre compte.
+      ## Contactez l'agence partenaire pour:
+      * Effectuer des tâches spécifiques à l'agence, comme télécharger votre CV, remplir des candidatures ou fixer un rendez-vous avec cette agence 
+      * Résoudre les problèmes techniques avec le site web d'une agence partenaire
+      * Accédez aux informations spécifiques à votre agence telles que le statut de la demande, les services, l'éligibilité ou les paiements 
 
-      Si vous recevez un e-mail qui indique que l'adresse e-mail n'est associée à aucun compte USAJOBS, essayez de lier votre profil en utilisant une adresse e-mail différente.
+      Nous fournissons un contenu d'aide spécifique pour nos agences partenaires les plus importantes. Nous vous encourageons à contacter l'agence pour toute question spécifique. 
 
-      Si vous n'êtes pas en mesure de lier votre profil ou que vous n'avez plus accès à l'adresse e-mail que vous avez utilisé pour créer votre profil USAJOBS, vous pouvez sélectionner « lost access to your email addresses » (accès à vos adresses e-mail perdu) pour contacter le centre d'assistance de USAJOBS pour obtenir de l'assistance additionnelle ou utilisez ce lien : [https://www.usajobs.gov/Help/faq/account/no-profile/](https://www.usajobs.gov/Help/faq/account/no-profile/)
-    reset-or-relink-my-logingov-account-for-usajobs: |-
-      Si vous ne pouvez pas vous connecter à votre profil USAJOBS parce que vous avez définitivement perdu l’accès à vos méthodes d’authentification, vous pouvez réinitialiser votre compte en le supprimant et en en reliant un nouveau.
+      ## Sujets de dépannage courants
+      * [Comment se connecter à login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in/)
+      * [Changer votre mot de passe](site.baseurl/help/manage-your-account/change-your-password/)
+      * [Mot de passe oublié](site.baseurl/help/trouble-signing-in/forgot-your-password/)
+      * [Verrouillage du compte login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
+      * [Téléphone ou méthodes d'authentification non disponibles](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
+    sam: |-
+      Login.gov est réservé à l'identification sécurisée. Votre compte login.gov n’affecte pas et ne contient aucune information sur votre compte, votre candidature, votre statut, votre adhésion ou votre éligibilité au Système de capture des prix (SAM).
 
-      La suppression de votre compte existant et la création d'un nouveau vous permettront d'utiliser la même adresse e-mail et de configurer de nouvelles méthodes d'authentification. Toutefois, si vous supprimez votre compte login.gov, vous ne pourrez pas vous connecter à USAJOBS (ni à aucune autre application gouvernementale liée à votre compte login.gov) tant que vous n'avez pas créé un nouveau compte et que vous ne l'avez pas lié de nouveau. Il faudra au moins 24 heures pour supprimer votre compte.
+      Veuillez ne pas envoyer de données sensibles de login.gov vous concernant ou concernant l’application SAM.
 
-      ### Supprimer et dissocier votre profil login.gov de USAJOBS
-      1. Commencez par vous connecter à l'adresse [https://www.login.gov/](https://www.login.gov/){:target="_blank"} avec votre nom d'utilisateur et votre mot de passe. Lorsque la méthode d’authentification vous est demandée, faites défiler vers le bas de la page et cliquez sur «Choisir une autre option de sécurité». Sur la page suivante, sélectionnez «Si vous ne pouvez utiliser aucune de ces méthodes d'authentification ci-dessus, vous pouvez réinitialiser votre système. préférences en supprimant votre compte. ”et cliquez sur le lien.
-      2. Lisez attentivement toutes les informations pour vous assurer que la suppression de votre compte est le seul moyen de réinitialiser les paramètres de votre compte, puis sélectionnez «Oui, poursuivre la suppression» pour continuer.
-      3. Vous recevrez immédiatement un email de confirmation de la réception de votre demande de suppression.
-      4. Par mesure de sécurité, vous recevrez un autre e-mail contenant le lien vous permettant de continuer à supprimer votre compte 24 heures après la confirmation initiale.
-      5. En attendant la deuxième notification par courrier électronique, vous devez contacter le service d'assistance d'USAJOBS pour dissocier votre profil. Allez au [centre d'aide USAJOBS sur login.gov](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"} et cliquez sur le bouton «Contactez-nous» situé au bas de la page. Ne créez pas de nouveau compte login.gov avant d'avoir reçu la confirmation que votre profil a été dissocié. Vous devrez fournir les informations suivantes concernant votre profil au service d'assistance d'USAJOBS:
-        * Adresse électronique
-        * Prénom, deuxième prénom et nom de famille (le cas échéant, inclure également le suffixe (Jr., Sr., III, etc.) et le nom de jeune fille)
-        * Adresse postale et domicile (incluez toutes les adresses passées ou présentes que vous avez répertoriées dans votre profil)
-        * Numéros de téléphone (incluez tous les numéros de téléphone passés ou présents que vous avez répertoriés dans votre profil)
-        * Réponses à vos questions de sécurité (Question secrète 1-3)
-      6. Le service d'assistance d'USAJOBS vous enverra un courrier électronique confirmant que votre profil n'a pas été lié. Cet e-mail vous guidera également pour retrouver l'accès à votre compte.
+      Login.gov peut uniquement répondre aux questions concernant le processus de connexion et la création d’un compte login.gov.
 
-      ### Créer un nouveau profil login.gov et le lier à USAJOBS
-      1. Allez sur [https://www.login.gov/](https://www.login.gov/){:target="_blank"}, cliquez sur «Connexion», cliquez sur «Créer un compte», puis suivez les étapes pour créer un nouveau compte login.gov. Assurez-vous d'utiliser la même adresse électronique que le compte que vous venez de supprimer (l'adresse électronique que vous utilisez pour votre compte USAJOB).
-      2. Si vous avez suivi ces étapes dans cet ordre et utilisé le bon email, votre profil sera automatiquement lié.
+      Veuillez contacter directement [SAM.gov](https://sam.gov/SAM/pages/public/index.jsf) si vous avez des questions à ce sujet :
+      * Enregistrement de la demande, éligibilité, statut ou changements
+      * Fixation des rendez-vous
+      * Statut d’enregistrement de l’entité
+      * Ou d’autres préoccupations connexes
 
-      REMARQUE: Ne créez pas de nouveau compte login.gov tant que votre profil n’a pas été dissocié. Vous devez d'abord dissocier votre compte avant d'en créer un nouveau. Si vous ne dissociez pas votre compte avant d'en créer un, nous ne pourrons pas lier vos comptes.
+      Pour apporter des modifications à votre profil de compte SAM.gov, vous devez vous connecter à <https://www.sam.gov>.
 
-      Si vous avez des questions sur l'association de votre compte, veuillez contacter le [service d'assistance d'USAJOBS](https://www.usajobs.gov/Help/faq/account/login-gov/){:target="_blank"}.
-    how-to-receive-the-security-code: |-
-      Vous pouvez choisir de recevoir le code de sécurité à utilisation unique par SMS ou par appel téléphonique si vous avez un téléphone portable des États-Unis. Les lignes terrestres peuvent seulement recevoir un appel téléphonique. Si vous êtes à l'extérieur des États-Unis, la plupart des numéros de téléphone peuvent seulement recevoir un SMS.
-    what-email-address-should-i-use: Pour conserver votre information de profil de USAJOBS,
-      vous devez utiliser votre adresse e-mail principale ou secondaire de USAJOBS
-      lorsque vous créez votre compte login.gov. Lorsque vous utilisez la même adresse
-      e-mail, USAJOBS lie automatiquement votre profil au compte login.gov. Si vous
-      utilisez une adresse e-mail différente lorsque vous vous inscrivez à login.gov,
-      USAJOBS ne pourra pas lier automatiquement votre profil. Mais vous pouvez utiliser
-      votre adresse e-mail primaire ou secondaire pour vous aider à rechercher votre
-      profil.
-    what-will-happen-to-my-usajobs-profile: |-
-      Vous ne perdrez pas l'information qui est stockée à votre profil USAJOBS. Vous garderez toutes vos applications, vos recherches sauvegardées et vos emplois sauvegardés.
+      Contactez le Federal Service Desk au 866-606-8220 (frais de péage) ou au 334-206-7828 (international) pour obtenir de l’aide, ou soumettez votre demande via le formulaire web à [www.fsd.gov](https://www.fsd.gov/).
 
-      Une fois que vous avez configuré un compte login.gov, nous le lierons à votre profil USAJOBS. L'unique différence est que vous utiliserez votre adresse e-mail, votre mot de passe et votre code de sécurité de login.gov pour vous connecter à USAJOBS.
+      ## Notes importantes pour la création de votre compte login.gov et l’accès à votre profil SAM :
+      * Si vous avez déjà un compte SAM, utilisez le même courriel que celui utilisé pour votre compte SAM pour créer votre compte login.gov
+          * Si vous utilisez le même courriel pour créer votre profil login.gov, vous conserverez tous vos dossiers, demandes d’accès aux données et recherches sauvegardées.
+          * Si vous utilisez une nouvelle adresse électronique, rien n’arrivera à votre profil SAM.gov, mais vous ne pourrez pas accéder aux informations de votre profil SAM.
+      * Si vous avez déjà un compte login.gov et que vous souhaitez ajouter votre courriel SAM, vous pouvez le faire sur la page « Mon compte » de login.gov. Sélectionnez le bouton d’identification sur la page d’accueil de login.gov pour accéder à cette page de compte.
+    trusted-traveler-programs: |-
+      Login.gov est réservé à l'identification sécurisée. Votre compte login.gov n'affecte pas et ne contient aucune information sur votre demande, votre adhésion ou votre éligibilité aux [Programmes pour voyageurs fiables](https://ttp.dhs.gov/) (TTP). Veuillez ne pas envoyer à login.gov de données sensibles vous concernant ou identifiant
+
+      Login.gov ne peut répondre qu'aux questions concernant le processus d'inscription et la création d'un Compte login.gov.
+
+      Veuillez contacter directement les [Programmes pour voyageurs fiables](https://help.cbp.gov/s/questions?language=en_US) si vous avez des questions concernant :
+
+      * Statut de la demande ou modifications apportées à votre demande
+      * Éligibilité
+      * Fixation ou modification des rendez-vous
+      * Ou d'autres préoccupations connexes
+
+      Notes importantes :
+      * Votre numéro de voyageur connu (KTN) ne change pas lorsque vous créez un compte login.gov
+      * Vous n'avez pas besoin de payer à nouveau pour le TTP lorsque vous créez un compte login.gov à moins que le moment ne soit venu de renouveler votre adhésion
+
+      Pour accéder aux informations relatives à votre compte dans le cadre des programmes pour voyageurs fiables, visitez <https://ttp.cbp.dhs.gov/>.
+
+      Si vous vous connectez directement à partir de la page d'accueil de login.gov, vous ne verrez que les informations de votre compte login.gov.
+  verify-your-identity:
+    overview: |-
+      # Vérifiez votre identité
+
+      Certaines agences qui participent au programme exigent que vous vous soumettiez à un processus de vérification d’identité. La vérification de l’identité est le processus par lequel vous prouvez que c’est bien vous — et une tierce personne qui se fait passer pour vous.
+
+      La vérification de votre identité ne doit être effectuée qu’une seule fois pour votre compte « login.gov ». Une fois que votre identité a été vérifiée avec « login.gov » pour une application gouvernementale, vous n’avez pas besoin de le refaire pour les autres applications gouvernementales qui utilisent « login.gov » et qui nécessitent une vérification d’identité.
+
+      Utilisez cette rubrique d’aide pour comprendre le processus et les exigences en matière de vérification d’identité.
+
+      ## Problèmes courants rencontrés
+       * [Comment vérifier votre identité](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
+       * [Vérifiez votre adresse par courrier](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
+       * [Vous ne disposez pas d’une carte d’identité délivrée par l’État](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
+       * [Problèmes personnels majeurs](site.baseurl/help/verify-your-identity/personal-key-issues/)
+
+    how-to-verify-your-identity: |-
+      # Comment vérifier votre identité
+    verify-your-address-by-mail: |-
+      # Vérifiez votre adresse par courrier
+    dont-have-a-state-issued-id: |-
+      # Vous ne disposez pas d’une carte d’identité délivrée par l’État
+    personal-key-issues: |-
+      # Problèmes personnels majeurs
 help_subpages:
-  changing-settings: Changer les paramètres
-  creating-an-account: Créer un compte
-  verifying-your-identity: Vérification de votre identité
-  privacy-and-security: Vie privée et sécurité
-  sam: SAM
-  security-keys: Clés de sécurité
-  signing-in: S'identifier
-  trusted-traveler-programs: Trusted Traveler Programs
-  usajobs: USAJOBS
+  trouble-signing-in: Des problèmes pour vous connecter?
+  manage-your-account: Gérez votre compte
+  specific-agencies: Aide aux agences spécifiques
+  verify-your-identity: Vérifiez votre identité
 implementation_page:
   heading: Mise en œuvre d'un système de gestion d'identité
   section_1:
@@ -1156,30 +620,7 @@ index:
     p_1: |-
       Login.gov travaille en collaboration avec le secteur privé, les organismes à but non lucratif afin d'identifier et mettre en œuvre les meilleures pratiques et les nouvelles normes en matière d'authentification sécurisée qui protège la confidentialité.
 
-        Dirigé par le [U.S. Digital Service](https://www.usds.gov){:target="_blank"} et [18F](https://18f.gsa.gov){:target="_blank"}, login.gov est bâti sur les bases établies par le [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"}, le [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"} et le [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
-  footer:
-    additional_info: Des informations supplémentaires sur la General Services Administration (GSA)
-      des États-Unis sont disponibles à l'adresse
-    for_questions: Pour toute question concernant ce site Web, envoyez un e-mail à% email.gsa.gov.
-    heading: Pour nous joindre
-    learn_more: Apprendre encore plus
-    links:
-      accessibility: Afficher la déclaration d'accessibilité
-      budget: Afficher les rapports sur le budget et les performances
-      foia: Soumettre une demande en vertu de la loi sur la liberté de l'information (FOIA)
-      no_fear_act: Afficher les données No FEAR Act
-      report_fraud: Signaler toute fraude, gaspillage ou abus au Bureau de l'inspecteur général
-    org: "[Login.gov](site.baseurl) est un produit des [Services de Transformation Technologique](https://www.gsa.gov/tts){:target='blank'}
-      de GSA et géré par le [Bureau des Solutions](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions){:target='blank'}."
-    p_1: Vous avez une question ou un problème? [Communiquez avec nous](site.baseurl/contact)
-    tts:
-      about: Dans le cadre des services de transformation technologique (TTS) de GSA, nous appliquons
-        des méthodologies et des technologies modernes pour améliorer l’expérience du public avec
-        le gouvernement. Nous aidons les agences à rendre leurs services plus accessibles, efficients
-        et efficaces grâce à des applications, des plates-formes, des processus, du personnel et des
-        solutions logicielles modernes.
-      portfolio: TTS Solutions est un portefeuille de produits et de services qui aident les agences
-        à améliorer la fourniture d'informations et de services au public.
+        Dirigé par le [U.S. Digital Service](https://www.usds.gov) et [18F](https://18f.gsa.gov), login.gov est bâti sur les bases établies par le [National Institute of Standards and Technology](https://www.nist.gov/), le [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan) et le [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080).
   intro:
     content: Utilisez un compte et un mot de passe pour un accès sécurisé et privé aux agences gouvernementales participantes.
     heading: Le seul compte public pour le gouvernement.
@@ -1197,13 +638,13 @@ index:
 
       Protégez les informations de vos utilisateurs avec les plus hauts standards de sécurité numérique et d'expérience utilisateur. Login.gov gère le développement de logiciels, les opérations de sécurité et le support client pour que vous n'ayez pas à le faire.
 
-      [Devenir un partenaire](https://partners.login.gov){:class="why-more-info" :target="_blank"}
+      [Devenir un partenaire](https://partners.login.gov){:class="why-more-info"}
     developers: |-
       ### Développeurs d'agence
 
       Ressources de développement, support en temps réel et outils modernes pour vous aider à implémenter et déployer votre application avec login.gov
 
-      [Voir le guide du développeur](https://developers.login.gov){:class="why-more-info" :target="_blank"}
+      [Voir le guide du développeur](https://developers.login.gov){:class="why-more-info"}
 meta:
   about:
     description: Plus d'informations sur login.gov
@@ -1257,10 +698,6 @@ meta:
     security:
       title: "Confidentialité et sécurité: nos pratiques de sécurité"
       description: Découvrez les différentes méthodes que nous utilisons pour protéger ce service du gouvernement américain et vos données, et pour garantir que le service reste disponible pour tous les utilisateurs.
-  security:
-    description: Découvrez comment login.gov protège la confidentialité des renseignements
-      personnels.
-    title: Sécurité
   what-is-login:
     description: Un résumé de ce qu'est login.gov et du service qu'il fournit.
     title: Qu'est-ce que login.gov?
@@ -1271,12 +708,29 @@ meta:
     description: Les agences gouvernementales américaines peuvent tirer parti de la plate-forme d'authentification et de vérification d'identité de login.gov. En savoir plus sur les offres et les opportunités de login.gov.
     title: Pourquoi login.gov
 nav:
-  accessibility: Déclaration d'accessibilité
+  accessibility:
+    title: Accessibilité
+    sections:
+      - name: Notre engagement
+        url: "#notre-engagement"
+      - name: Normes
+        url: "#normes"
+      - name: Évaluation
+        url: "#évaluation"
+      - name: Limites connues
+        url: "#limites-connues"
   about_us: À propos de nous
   anchor_to_top: Retour au sommet
   become_a_partner: Devenir un partenaire
-  contact: Contact
-  contact_us: Nous contacter
+  contact_us:
+    title: Nous contacter
+    sections:
+      - name: Avez-vous une question concernant votre compte d’agence?
+        url: "#avez-vous-une-question-concernant-votre-compte-dagence"
+      - name: Partenaire avec login.gov
+        url: "#partenaire-avec-logingov"
+      - name: Signaler un problème
+        url: "#signaler-un-problème"
   contact_login_gov: Contactez Login.gov
   create_an_account: Créer un compte
   developer_guide: Guide du développeur
@@ -1292,6 +746,19 @@ nav:
   menu: Menu
   overview: Aperçu
   playbook: Guide de mise en œuvre
+  policies:
+    title: Confidentialité et sécurité
+    sections:
+      - name: Notre engagement envers votre confidentialité et votre sécurité
+        url: /fr/policy/
+      - name: Comment ça marche?
+        url: /fr/policy/how-does-it-work/
+      - name: Notre déclaration de confidentialité
+        url: /fr/policy/our-privacy-act-statement/
+      - name: Nos pratiques de sécurité
+        url: /fr/policy/our-security-practices/
+      - name: Termes et conditions de la messagerie
+        url: /fr/policy/messaging-terms-and-conditions/
   principles: Principes
   privacy_&_security: Confidentialité et sécurité
   security: Sécurité
@@ -1351,7 +818,7 @@ policies:
             * Par exemple; Si vous rencontrez une erreur et que nous connaissons le type et la version de votre navigateur Web, nous pouvons mieux identifier comment résoudre votre problème.
         * Les informations stockées sont cryptées à deux niveaux. Le chiffrement traduit vos données en code qui n'est accessible que par vous, le titulaire du compte login.gov. Cela signifie que vous êtes le seul à pouvoir afficher et modifier les informations de votre compte.
             * Les opérateurs login.gov (c'est-à-dire notre centre d'aide pour les contacts) ne peuvent pas afficher vos informations ni effectuer de modifications.
-            * Les informations sont stockées et supprimées conformément au [calendrier des archives approuvé par la National Archives and Records Administration (NARA)](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"}.
+            * Les informations sont stockées et supprimées conformément au [calendrier des archives approuvé par la National Archives and Records Administration (NARA)](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records).
 
         La protection de vos informations est notre priorité. Vous pouvez lire des explications plus [détaillées sur le fonctionnement de login.gov](site.baseurl/policy/how-does-it-work/), [notre déclaration de confidentialité](site.baseurl/policy/our-privacy-act-statement/) et [nos pratiques de sécurité](site.baseurl/policy/our-security-practices/).
     - link:
@@ -1364,7 +831,7 @@ policies:
 
         Lors de la vérification d'identité, l'authenticité de l'ID est également vérifiée. Ensuite, les informations personnelles sont validées auprès de la source émettrice (ex: DMV étatiques) ou de sources faisant autorité (ex: relevés de crédit, financiers, téléphoniques). Ces services externes ne conservent aucune information personnelle, ils ne sont utilisés qu'à des fins de validation. Compte tenu de ces exigences strictes, login.gov prend actuellement en charge les identifiants d'État et les identifiants d'employés du gouvernement fédéral. Au fil du temps, login.gov prendra en charge des identifiants supplémentaires.
 
-        Votre adresse est également validée lors de ce processus. Cela peut être fait à distance en utilisant un numéro de téléphone associé à l'adresse ou par une lettre avec un code d'inscription envoyé à l'adresse du titulaire du compte. Veuillez noter que le code d'inscription est valable 30 jours. (5 à 10 jours pour la livraison de la lettre et 10 jours pour terminer la validation de l'adresse sur [https://secure.login.gov](https://secure.login.gov)){:target="_blank"}. Une fois validées, les informations d'identification login.gov sont cryptées avec le mot de passe du titulaire du compte. Le cryptage garantit que seul vous, le titulaire du compte, pouvez accéder à vos informations avec votre mot de passe.
+        Votre adresse est également validée lors de ce processus. Cela peut être fait à distance en utilisant un numéro de téléphone associé à l'adresse ou par une lettre avec un code d'inscription envoyé à l'adresse du titulaire du compte. Veuillez noter que le code d'inscription est valable 30 jours. (5 à 10 jours pour la livraison de la lettre et 10 jours pour terminer la validation de l'adresse sur [https://secure.login.gov](https://secure.login.gov)). Une fois validées, les informations d'identification login.gov sont cryptées avec le mot de passe du titulaire du compte. Le cryptage garantit que seul vous, le titulaire du compte, pouvez accéder à vos informations avec votre mot de passe.
 
         La protection de votre vie privée grâce au cryptage a un coût. Les opérateurs de Login.gov, tels que notre équipe du centre de contact, ne peuvent pas apporter de modifications en votre nom, telles que le déverrouillage de votre compte, la modification de votre mot de passe ou la mise à jour de votre adresse e-mail ou de votre numéro de téléphone. Nous vous encourageons à protéger votre méthode d'authentification pour cette raison. Bien que cela signifie que login.gov ne peut pas fournir ce niveau de support client, si nous choisissions de mettre ces options à la disposition de notre équipe de support client, cela rendrait notre système plus vulnérable au piratage et à d'autres mauvais acteurs.
 
@@ -1420,11 +887,11 @@ policies:
 
         #### Qu'advient-il des informations que vous partagez? ####
 
-        Tous les enregistrements sont stockés électroniquement dans une base de données dans l'environnement Amazon Web Services (AWS) de GSA. Vous pouvez modifier ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/account){:target="_blank"}.
+        Tous les enregistrements sont stockés électroniquement dans une base de données dans l'environnement Amazon Web Services (AWS) de GSA. Vous pouvez modifier ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/account).
 
         Votre adresse e-mail et votre numéro de téléphone seront conservés pendant au moins six ans conformément aux directives de la National Archives and Records Administration (NARA). Cependant, GSA est autorisée à conserver les informations plus longtemps si elles sont nécessaires à un usage professionnel. Login.gov doit être en mesure de fournir aux utilisateurs l'accès aux informations et aux services des agences partenaires et peut donc avoir un besoin professionnel de conserver les informations plus longtemps que la période de conservation de six ans.
 
-        Il peut y avoir des circonstances dans lesquelles nous sommes tenus de partager certaines données. Par exemple: si les informations sont pertinentes et nécessaires à des fins d'application de la loi autorisées; afin de répondre à une violation; ou pour aider une autre agence à réagir à une violation. Pour de plus amples informations, voir le système de notification numéro GSA / TTS-1 que le service de transformation technologique (TTS) de GSA a publié le [10 août 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records){:target="_blank"}.
+        Il peut y avoir des circonstances dans lesquelles nous sommes tenus de partager certaines données. Par exemple: si les informations sont pertinentes et nécessaires à des fins d'application de la loi autorisées; afin de répondre à une violation; ou pour aider une autre agence à réagir à une violation. Pour de plus amples informations, voir le système de notification numéro GSA / TTS-1 que le service de transformation technologique (TTS) de GSA a publié le [10 août 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
         Même lorsque nous partageons les informations avec les forces de l'ordre, nous ne pouvons pas accéder aux informations personnelles car les informations sont cryptées de manière à ne pas être récupérées par l'équipe login.gov.
 
@@ -1438,11 +905,11 @@ policies:
 
         Lorsque vous créez un compte ou visitez un nouveau site Web d'agence partenaire après avoir créé votre compte, vous verrez l'option de consentir à partager vos informations avec l'agence partenaire. Vous devez donner votre consentement chaque année pour chaque agence.
 
-        N'oubliez pas que vous pouvez révoquer votre consentement à tout moment via [votre page de compte](https://secure.login.gov/account){:target="_blank"} ou supprimer entièrement votre compte sur la même page.
+        N'oubliez pas que vous pouvez révoquer votre consentement à tout moment via [votre page de compte](https://secure.login.gov/account) ou supprimer entièrement votre compte sur la même page.
 
         ### Records - Où trouver plus d'informations? ### {#records}
 
-        Veuillez consulter la notice du système d'enregistrement Login.gov (GSA / TTS – 1) à l'adresse [www.gsa.gov/SORN](https://www.gsa.gov/SORN){:target="_blank"}.
+        Veuillez consulter la notice du système d'enregistrement Login.gov (GSA / TTS – 1) à l'adresse [www.gsa.gov/SORN](https://www.gsa.gov/SORN).
 
         ### Analyse du site Web ### {#analytics}
 
@@ -1450,7 +917,7 @@ policies:
 
         ### Évaluation des facteurs relatifs à la vie privée ### {#impact}
 
-        Consultez notre évaluation de l'impact sur la vie privée à l'adresse [www.gsa.gov/PIA](https://www.gsa.gov/PIA){:target="_blank"}.
+        Consultez notre évaluation de l'impact sur la vie privée à l'adresse [www.gsa.gov/PIA](https://www.gsa.gov/PIA).
     - link:
         text: Nos pratiques de sécurité
         url: "/policy/our-security-practices/"
@@ -1472,7 +939,7 @@ policies:
 
         login.gov autorise la communauté de sécurité extérieure à effectuer des recherches sur la sécurité dans le but de signaler les vulnérabilités de sécurité découvertes dans la plate-forme login.gov.
 
-        Consultez notre [Politique de divulgation des vulnérabilités](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} pour plus de détails sur cette politique et comment signaler les vulnérabilités découvertes.
+        Consultez notre [Politique de divulgation des vulnérabilités](https://18f.gsa.gov/vulnerability-disclosure-policy/) pour plus de détails sur cette politique et comment signaler les vulnérabilités découvertes.
 
         ### Pour plus d'informations ### {#more-info}
 
@@ -1514,9 +981,9 @@ principles_page:
 
     Enfin, vous devez constamment tester les designs et outils au moment où ils sont prêts à être partagés et ensuite ajuster votre projet en fonction de ce que vous avez appris. Dans certains cas, nous apprenons que les meilleures pratiques actuelles ne sont pas adéquates. Et dans ces cas, nous sommes poussés à essayer de nouvelles façons de donner aux utilisateurs la meilleure expérience possible. Ce processus implique plus de tests, l'éducation des utilisateurs et une volonté à itérer.
 
-    Il existe un nombre de méthodes de conception spécifiques que nous mettons en pratique pour demeurer axés sur l'utilisateur et vous pouvez lire au sujet de tous ces processus et les utiliser en passant en revue le [18F Design Methods](https://methods.18f.gov/){:target="_blank"}.
+    Il existe un nombre de méthodes de conception spécifiques que nous mettons en pratique pour demeurer axés sur l'utilisateur et vous pouvez lire au sujet de tous ces processus et les utiliser en passant en revue le [18F Design Methods](https://methods.18f.gov/).
   p_2: |-
-    [Travailler de façon transparente](https://playbook.cio.gov/#play13){:target="_blank"} et créer un système transparent devrait être la façon dont toute agence travaille pour bâtir ou mettre en œuvre un système de gestion d'identité. Pour exécuter ce principe avec login.gov, nous bâtissons la plate-méthode de manière à ce que les parties intéressées puisse nous conseiller sur les meilleures pratiques afin que nous demeurions responsables envers le public et envers nos partenaires de toutes les agences gouvernementales. De plus, cela signifie qu'un système qui indique aux utilisateurs ce qu'il fait de leur information dans le but de créer une responsabilisation et établir une confiance. Nous impliquons les utilisateurs et autres parties intéressées par le biais de notre [référentiel GitHub](https://github.com/18F/identity-idp){:target="_blank"} et travaillons à la création de forums publics où les utilisateurs peuvent discuter de notre travail.
+    [Travailler de façon transparente](https://playbook.cio.gov/#play13) et créer un système transparent devrait être la façon dont toute agence travaille pour bâtir ou mettre en œuvre un système de gestion d'identité. Pour exécuter ce principe avec login.gov, nous bâtissons la plate-méthode de manière à ce que les parties intéressées puisse nous conseiller sur les meilleures pratiques afin que nous demeurions responsables envers le public et envers nos partenaires de toutes les agences gouvernementales. De plus, cela signifie qu'un système qui indique aux utilisateurs ce qu'il fait de leur information dans le but de créer une responsabilisation et établir une confiance. Nous impliquons les utilisateurs et autres parties intéressées par le biais de notre [référentiel GitHub](https://github.com/18F/identity-idp) et travaillons à la création de forums publics où les utilisateurs peuvent discuter de notre travail.
 
     Afin de rendre un système de gestion d'identité transparent pour les utilisateurs finaux, le système doit inclure des fonctionnalités qui éduquent les gens sur la façon dont le système fonctionne, pourquoi il fonctionne de cette façon et de quelle manière ils peuvent contrôler ce qui advient de leurs données. Vous devriez aussi informer les utilisateurs de l'information qui est requise par une agence pour la connexion à un service. Il est aussi important d'informer les utilisateurs de quelle information vos systèmes stockeront et si toute donnée est partagée avec les autres agences. Si les gens qui utilisent le système ne sont pas à l'aise avec le partage d'information, ils ne doivent pas être obligés de participer.
 
@@ -1526,7 +993,7 @@ principles_page:
 
     Nous adhérons à ce principe pour chaque aspect des projets qui construisent login.gov.
 
-    [Lisez ce guide](https://pages.18f.gov/agile/index.html){:target="_blank"} des principes et pratiques agiles élaborés par l'équipe 18F pour en savoir plus sur ce que signifie de travailler de façon agile.
+    [Lisez ce guide](https://pages.18f.gov/agile/index.html) des principes et pratiques agiles élaborés par l'équipe 18F pour en savoir plus sur ce que signifie de travailler de façon agile.
   p_4: |-
     Les systèmes de gestion d'identité stockent l'information personnelle sur les utilisateurs afin que les gens n'aient pas à répéter sans cesse les processus de vérification et d'authentification. Toutefois, recueillir et stocker de l'information personnelle sou;ève des questions éthiques et légales que les concepteurs de systèmes et les développeurs doivent considérer. Souvent, ce qui vient d'abord à l'esprit sont les questions techniques sur la sécurité : la protection de l'information contre les usages non autorisés et illégaux. Toutefois, nous devons aussi nous préoccuper des usages autorisés et légaux de l'information personnelle qui violent les attentes des utilisateurs en matière de confidentialité. Les utilisateurs de login.gov doivent être assurés que nous gérons leur information personnelle de façon respectueuse et appropriée.
 
@@ -1542,7 +1009,7 @@ principles_page:
 
     Dans le cas de login.gov, par exemple, nous devons décider exactement quelles données nous stockons et pour combien de temps. Nous devons aussi décider quelles étapes les utilisateurs doivent suivre pour accéder à leur information. Toutes ces décisions nécessitent une délibération attentive afin de déterminer la meilleure option pour les utilisateurs autant que pour les agences et assurer une fonctionnalité maximale.
 
-    Pour la construction de login.gov, nous adhérons aux normes mises de l'avant par le [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/){:target="_blank"} (NIST 800-63-3). De plus, nous adhérons aux [meilleures pratiques du gouvernement](https://playbook.cio.gov/#play11){:target="_blank"} incluant FedRAMP, en bâtissant dans la transparence et en menant des évaluations de sécurité rigoureuses et routinières en plus d'assurer la conformité au Federal Information Security Management Act (FISMA).
+    Pour la construction de login.gov, nous adhérons aux normes mises de l'avant par le [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/) (NIST 800-63-3). De plus, nous adhérons aux [meilleures pratiques du gouvernement](https://playbook.cio.gov/#play11) incluant FedRAMP, en bâtissant dans la transparence et en menant des évaluations de sécurité rigoureuses et routinières en plus d'assurer la conformité au Federal Information Security Management Act (FISMA).
   ul_1:
     li_1: Identifier vos auditoires potentiels
     li_2: Comprendre les expériences de connexion et identifier les besoins de vos
@@ -1588,7 +1055,7 @@ security_page:
     heading: La chambre forte
     p_1: Il est difficile de s'introduire par effraction dans la « chambre forte »
       ou dans la base de données. login.gov met en œuvre les normes les plus récentes
-      du [National Institute of Standards and Technology (NIST)](https://www.nist.gov/){:target="_blank"}
+      du [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
       relatives aux authentifications et vérifications sécurisées. Notre plan d'action
       pour assurer une sécurité continue inclut des tests réguliers sur la pénétration
       et des examens réguliers de la sécurité externe.
@@ -1618,7 +1085,7 @@ security_page:
       La totalité de notre code est disponible pour inspection publique dans un référentiel à source ouverte. Notre objectif : s'assurer qu'à chaque étape, les utilisateurs sachent que leur confidentialité est protégée au niveau même de la conception.
     p_2: Pour obtenir plus d'information, veuillez visiter [Help](site.baseurl/help)
       ou [contact us](site.baseurl/contact). Vous pouvez aussi visiter notre [référentiel
-      à code source ouvert](https://github.com/18F/identity-idp){:target="_blank"}.
+      à code source ouvert](https://github.com/18F/identity-idp).
   heading: Comment login.gov garde confidentielle l'information privée
 what-is-login-page:
   hero:
@@ -1642,13 +1109,13 @@ what-is-login-page:
 
     Login.gov est votre seul compte pour le gouvernement. [En savoir plus sur la création d'un compte](site.baseurl/create-an-account/).
 
-    Vous avez déjà un compte? [Connectez-vous pour gérer votre compte et mettre à jour vos informations personnelles ou vos options de sécurité](https://secure.login.gov){: target = "_blank"}.
+    Vous avez déjà un compte? [Connectez-vous pour gérer votre compte et mettre à jour vos informations personnelles ou vos options de sécurité](https://secure.login.gov).
   secure-account: |-
     ## Accès sécurisé et privé pour le public
 
     Login.gov utilise [les normes de sécurité les plus élevées](site.baseurl/security/) pour protéger vos informations, y compris la vérification d'identité et [l'authentification à deux facteurs](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/).
 
-    Login.gov est fourni par [Technology Transformation Services (TTS)](https://www.gsa.gov/tts){: target = '_ blank'}.
+    Login.gov est fourni par [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
 
     <div class="mobile secure-account-img" aria-hidden="true"></div>
 who-uses-login-page:
@@ -1666,9 +1133,12 @@ who-uses-login-page:
 
     <div class="mobile partners-img" aria-hidden="true"></div>
   security: |-
-    Login.gov adhère aux dernières [normes de sécurité](site.baseurl/security) établies par des organisations de sécurité de premier plan telles que le [National Institute of Standards and Technology](https://www.nist.gov/){:target='_blank'}, le [Cybersecurity National Action Plan](https://www.hsdl.org/c/cybersecurity-national-action-plan/){:target='_blank'} et le [Service fédéral des acquisitions](https://www.gsa.gov/about-us/organization/federal-acquisition-service){:target='_blank'}
+    Login.gov adhère aux dernières [normes de sécurité](site.baseurl/security) établies par des organisations de sécurité de premier plan telles que le [National Institute of Standards and Technology](https://www.nist.gov/), le [Cybersecurity National Action Plan](https://www.hsdl.org/c/cybersecurity-national-action-plan/) et le [Service fédéral des acquisitions](https://www.gsa.gov/about-us/organization/federal-acquisition-service)
 
-    Les agences choisissent login.gov parce que nous fournissons une solution simple et sécurisée. [En savoir plus sur notre programme de partenariat](https://partners.login.gov){:target='_blank'}.
+    Les agences choisissent login.gov parce que nous fournissons une solution simple et sécurisée. [En savoir plus sur notre programme de partenariat](https://partners.login.gov).
+contact:
+  hero:
+    heading: Contactez-nous
 create-an-account:
   hero:
     heading: Créer un compte
@@ -1691,4 +1161,65 @@ create-an-account:
         * SMS/messages texte
         * Codes de sauvegarde
   info: Selon les besoins de sécurité de l'agence, vous devrez peut-être prouver votre identité à l'aide d'un numéro de sécurité sociale, d'une adresse et / ou d'une pièce d'identité émise par l'État américain.
-  
+accessibility:
+  content: |-
+    ## Notre engagement
+    Login.gov s’engage à être inclusif et accessible à tous nos utilisateurs. Notre objectif consiste à améliorer continuellement la façon dont les personnes en situation de handicap ou non peuvent utiliser Login.gov pour accéder facilement aux applications et aux services du gouvernement.
+
+    ## Normes
+     Login.gov entend se conformer aux [Directives du W3C sur l’accessibilité des contenus Web (WCAG) version 2.1 niveau AA](https://www.w3.org/TR/WCAG21/).
+
+    Vous devriez être en mesure de faire ce qui suit avec Login.gov :
+
+    * Utiliser un lecteur d’écran et lire le contenu de la page en utilisant la touche de déplacement vers le bas.
+    * Être en mesure de voir et d’entendre le contenu, notamment en séparant le premier plan de l’arrière-plan.
+    * Changer facilement la taille de la police à l’aide de votre navigateur. (Veuillez vous référer au menu d’aide de votre navigateur pour savoir comment redimensionner le texte.)
+
+    ## Évaluation
+    Login.gov est régulièrement apprécié grâce à une série d’outils d’évaluation semi-automatisés et par l’évaluation manuelle des experts. Après chaque évaluation, nous élaborons un plan pour traiter tout domaine nécessitant une amélioration.
+
+    Vous trouverez ci-dessous le lien d’accès à nos rapports d’évaluation de l’accessibilité dûment remplis :
+
+    [IAL 1 Rapport de création de compte](https://docs.google.com/document/d/1wqbVOvNg-7tFW1l4ZxMJrA_VR2gQqNpimlbzxPtvpXg/export?format=pdf)
+
+    ### Politiques d’accessibilité
+    En plus des rapports d’accessibilité dûment remplis, Login.gov a rassemblé des informations sur les politiques d’accessibilité.
+
+    [Politiques d’accessibilité de Login.gov](https://design.login.gov/accessibility/policies/)
+
+    ## Limites connues
+    Vous trouverez ci-dessous une description des types de limitations d’accessibilité découverts au cours de nos évaluations.
+
+    ### Images
+    Les images et les graphiques rendent le contenu plus agréable et plus facile à comprendre pour de nombreuses personnes, et en particulier pour celles ayant des troubles de la cognition et de l’apprentissage. Certaines images peuvent encore créer des obstacles:
+
+    * Chez les personnes utilisant des lecteurs d’écran : le texte alternatif peut être lu à haute voix ou traduit en Braille
+    * Chez les personnes utilisant un logiciel de saisie vocale : les utilisateurs peuvent mettre l’accent sur un bouton ou sur une image liée à l’aide d’une seule commande vocale
+    * Chez les personnes qui naviguent sur des sites Web à commande vocale : le texte alternatif peut être lu à haute voix
+    * Chez les utilisateurs du Web mobile : les images peuvent être désactivées, en particulier pour les données en itinérance
+    * Optimisation des moteurs de recherche : les images deviennent indexables par les moteurs de recherche
+
+    ### Navigation au clavier
+    Grâce à la navigation au clavier, les utilisateurs peuvent accéder et naviguer entre les liens, les boutons, les formulaires, et les autres outils de contrôles en utilisant la touche de tabulation et d’autres frappes.
+
+    ### Saut de navigation
+    Permet aux utilisateurs qui utilisent un clavier pour naviguer sur une page, d’activer le lien de saut de navigation pour passer par-dessus de longues listes et sous-listes d’informations de navigation et d’en-tête de page.
+identifier:
+  accessible_labels:
+    description: Agency description # TODO: Translate
+    identifier: Agency identifier # TODO: Translate
+    links: Important links # TODO: Translate
+    logo: GSA logo # TODO: Translate
+    usa_gov: U.S. government information and services # TODO: Translate
+  disclaimer: An official website of the [General Services Administration](https://gsa.gov) # TODO: Translate
+  links:
+    about_agency: About GSA # TODO: Translate
+    accessibility: Accessibility support # TODO: Translate
+    foia: FOIA requests # TODO: Translate
+    ig: Office of the Inspector General # TODO: Translate
+    no_fear_act: No FEAR Act data # TODO: Translate
+    performance: Performance reports # TODO: Translate
+    privacy: Privacy policy # TODO: Translate
+  usa_gov:
+    text: Looking for U.S. government information and services? # TODO: Translate
+    link: Visit USA.gov # TODO: Translate

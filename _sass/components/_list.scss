@@ -3,12 +3,12 @@
     li {
       line-height: 2.25rem;
       ul {
-        list-style-type: "⁃";
+        list-style-type: '⁃';
         margin-bottom: 0;
       }
     }
   }
-  
+
   a {
     text-decoration: none;
   }
@@ -16,51 +16,81 @@
 
 .list-arrow {
   a {
-    background: url("../img/ico-arrow.svg") no-repeat right 6px;
+    background: url('../img/ico-arrow.svg') no-repeat right 6px;
     background-size: 0.75rem 0.75rem;
     padding-right: 1.25rem;
   }
 }
 
 .list-checked li {
-  background: url("../img/ico-checked.svg") no-repeat left 4px;
+  background: url('../img/ico-checked.svg') no-repeat left 4px;
   background-size: 1rem;
 }
 
-#common-troubleshooting-topics,
-.list-styled {
+.help-article > h2:first-of-type {
   margin-top: 2rem;
+}
 
-  & + ul, 
-  & + ol {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
+#help-question-list + ul,
+.help-article > h2:first-of-type + ol,
+.help-question-list,
+.page-content__prose ol,
+.page-content__prose ul.help-question-list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
 
-    li:before {
-      content: "?";
+  > li {
+    @include u-margin-y(1);
+    @include u-position('relative');
+    padding-left: 2.25rem;
+
+    &::before {
+      @include u-pin-top;
+      @include u-pin-left;
       background-color: $navy;
-      padding: 2px 8px;
       border-radius: 50%;
       color: $white;
-      line-height: 2.2;
-      margin-right: 0.75rem;
+      display: inline-block;
       font-weight: bold;
-    }
-
-    a {
-      color: $blue-mid;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+      width: 25px;
     }
   }
-  
-  & + ol {
-    counter-reset: num;
 
-    li {
-      counter-increment: num;
+  p {
+    // TODO: Remove once `$theme-body-line-height` is assigned as consistent with `$line-height`.
+    position: relative;
+    $line-height-offset: round(
+        ($line-height - line-height($theme-body-font-family, $theme-body-line-height)) * 100
+      ) / 100 / -2;
+    top: $line-height-offset;
+
+    &:last-of-type {
+      margin-bottom: $line-height-offset;
     }
+  }
+}
 
-    li:before {
+#help-question-list + ul,
+.help-question-list,
+.page-content__prose ul.help-question-list {
+  li::before {
+    content: '?';
+  }
+}
+
+.help-article > ol:first-of-type,
+.page-content__prose > ol:first-of-type {
+  counter-reset: num;
+
+  > li {
+    @include u-margin-y(2);
+    counter-increment: num;
+
+    &::before {
       content: counter(num);
     }
   }

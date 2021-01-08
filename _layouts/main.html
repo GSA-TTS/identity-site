@@ -1,17 +1,14 @@
 ---
 layout: base
-body:
-  class: ""
-  spy: "scroll"
-  target: "#pb-nav--side-cntnr"
-  offset: "48"
 ---
 <header>
   {% include wip.html %}
   {% include skip_nav.html %}
   {% include banner.html %}
-  {% include language_search.html signin=true %}
   {% include header.html %}
 </header>
 <main id="main-content">{{ content }}</main>
+{% if page.one_account_banner == true %}
+  {% include one_account_banner.html %}
+{% endif %}
 {% include footer.html %}

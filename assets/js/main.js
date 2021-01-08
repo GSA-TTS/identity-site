@@ -30,8 +30,10 @@ $(function () {
     });
   }
 
-  languagePicker($('.btn-lang-toggle'), $('.btn-lang-toggle + .dropdown'));
-  languagePicker($('.footer .learn-more-button'), $('.footer .learn-more-section-container'));
+  languagePicker(
+    $('.language-picker__label--button'),
+    $('.language-picker__label--button + .dropdown'),
+  );
 
   // Dropdown menu
 
@@ -53,17 +55,13 @@ $(function () {
     }
   });
 
-  $('.modal-bg').on('click touch', function (event) {
-    $('.usa-menu-btn').click();
-  });
-
   // Smooth scroll
 
   $('a[href^="#"]').on('click', function (event) {
     if (this.hash !== '') {
       event.preventDefault();
 
-      var hash = this.hash;
+      var hash = this.getAttribute('href');
 
       $('html, body').animate(
         {

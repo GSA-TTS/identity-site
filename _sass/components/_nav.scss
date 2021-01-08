@@ -1,14 +1,22 @@
+.top-navigation,
 .language-search {
   background-color: $blue-lightest;
-  padding: 0.5rem 0;
   border-bottom: 1px solid $border-color;
+
+  @include at-media('desktop') {
+    padding: 0.75rem 0;
+  }
 
   .usa-button--outline {
     background-color: transparent;
   }
 
-  .language-container {
+  .language-picker {
     position: relative;
+  }
+
+  .language-picker__label--button.usa-button {
+    margin-right: units(2);
   }
 
   .dropdown {
@@ -46,24 +54,26 @@
     position: relative !important;
     top: 0 !important;
   }
+}
 
-  .contact-link {
-    font-size: 0.813rem;
-    font-weight: bold;
-    color: $blue-mid;
-    text-decoration: none;
+.usa-header--basic.top-navigation .usa-navbar {
+  border-bottom: none;
+
+  @include at-media('desktop') {
+    height: auto;
+  }
+}
+
+.usa-header--basic .usa-search {
+  @include at-media("desktop") {
+    display: none;
   }
 }
 
 .usa-logo {
   .help-page & {
-    margin: 0;
-  }
-}
-
-.usa-logo a {
-  .help-page & {
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -72,16 +82,17 @@
 }
 
 .usa-logo__help {
-  font-size: 0.813rem;
+  font-size: 0.8125rem;
   font-weight: bold;
   color: $navy;
   border-left: 1px solid $navy;
-  padding: 1px 0.813rem;
-  margin-left: 0.5rem;
+  margin-left: 0.75rem;
+  padding: 0.15625rem 0.75rem;
 }
 
 .usa-logo__img {
   .help-page & {
+    display: block;
     height: 0.875rem;
   }
 }
@@ -95,20 +106,18 @@
 .sign-in-logo.usa-button {
   color: $black;
   font-weight: bold;
-  margin: 0 0 0 0.2rem;
+  margin: 0;
 
   &.mobile {
-    margin: 1em 0 0 0;
+    margin-bottom: 1rem;
     display: none;
   }
 
   background-color: $white;
   display: inline-block;
-  flex: 0;
   white-space: nowrap;
   padding: 0.85rem;
   padding: 0.75rem;
-  margin-left: 0.2rem;
   box-shadow: inset 0 0 0 1px #bbb;
 
   &:hover {
@@ -136,55 +145,92 @@
       margin: 0;
     }
   }
+}
 
-  .usa-header .usa-nav.is-visible + .modal-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
+.usa-overlay {
+  // TODO: Reconcile / backport to Login Design System.
+  background: $grey-darker;
+
+  &.is-visible {
+    opacity: opacity(50);
   }
 }
 
-nav .usa-search {
-  position: absolute;
-  right: 1.75rem;
-  bottom: 1rem;
-
-  [type="search"] {
-    height: 2rem;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-}
-
-.usa-search--small [type=submit], 
+.usa-search--small [type=submit],
 .usa-search--small .usa-search__submit {
   background-image: none;
-  width: 5rem;
+  padding: 0 0.7rem;
+  width: auto;
   font-family: $sans-serif-font-family;
   font-size: ($base-font-size - 2);
 }
 
-.mobile.language-list {
+.usa-search--small .usa-search__submit-text {
+  position: static;
+}
+
+.language-picker__label--text .label {
+  color: color($theme-link-color);
+}
+
+.language-list:not(.dropdown) {
   display: none;
   list-style-type: none;
   margin: 0;
   padding: 0;
 
-  li {
-    padding: 0.75em 0 0.75em 2.25em;
+  @include at-media-max("desktop") {
+    display: block;
   }
+
+  a {
+    @include u-margin-y(1);
+    @include u-padding-y(1);
+    display: inline-block;
+    margin-left: 1.5rem;
+  }
+}
+
+.language-list {
+  @include usa-link-style;
 }
 
 @include at-media-max("desktop") {
-  .mobile.language-list {
-    display: block;
+  .usa-nav__primary {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: auto;
+  }
+
+  .usa-nav__primary button:hover,
+  .usa-nav__primary a:hover {
+    // TODO: Reconcile / backport hover color difference with Login Design System.
+    background-color: $blue-lightest;
+  }
+
+  .usa-nav__primary-item {
+    border-top: 0;
+
+    &::before {
+      // TODO: Reconcile / backport border color difference with Login Design System.
+      background-color: $blue-light;
+      content: '';
+      display: block;
+      height: 1px;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+
+  .usa-nav__primary .usa-nav__primary-item .usa-accordion__button,
+  .usa-nav__primary .usa-nav__primary-item .usa-accordion__close-button,
+  .usa-nav__primary .usa-nav__submenu-item .usa-accordion__button,
+  .usa-nav__primary .usa-nav__submenu-item .usa-accordion__close-button {
+    background-position: right 1rem center;
   }
 }
 
-nav {
+@include at-media("desktop") {
   .usa-nav__primary-item + .usa-nav__primary-item {
     margin-left: 1.5rem;
   }
@@ -196,15 +242,16 @@ nav {
   }
 }
 
-@include at-media-max("desktop") {
-  nav .usa-nav__primary-item {
-    + .usa-nav__primary-item {
-      margin-left: 0;
-    }
+.usa-nav__submenu-item {
+  border-top: none;
+}
 
-    span {
-      padding: 0.2rem 0 0.2rem 1rem;
-    }
+.usa-nav__primary button,
+.usa-nav__primary a {
+  @include at-media-max("desktop") {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    line-height: 1.5;
   }
 }
 
@@ -220,7 +267,35 @@ nav {
 }
 
 .anchor-to-top {
-  display: block;
-  margin-top: 2rem;
+  @include u-display("inline-block");
+  @include u-margin-top(4);
   font-size: $base-font-sm;
+  text-decoration: none;
+}
+
+.usa-sidenav {
+  // TODO: Reconcile / backport to Login Design System.
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+
+  .usa-current {
+    background-color: transparent;
+  }
+}
+
+.usa-nav__primary .usa-nav__submenu-item .usa-current {
+  @include at-media-max("desktop") {
+    background-color: transparent;
+    color: $blue-mid;
+
+    &::after {
+      content: none;
+    }
+  }
+}
+
+.usa-sidenav__sublist .usa-sidenav__item {
+  // TODO: Reconcile / backport to Login Design System.
+  border-top: 0;
 }

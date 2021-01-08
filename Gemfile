@@ -6,6 +6,7 @@ gem 'jekyll', '>= 4.0.0'
 gem 'jekyll-redirect-from', '>= 0.15.0'
 gem 'jekyll-multiple-languages-plugin', '>= 1.6.1'
 gem 'jekyll-sitemap', '>= 1.4.0'
+gem "jekyll-autoprefixer", "~> 1.0"
 
 group :development do
   gem 'pry'
@@ -13,7 +14,7 @@ group :development do
 end
 
 group :test do
-  gem 'html-proofer'
-  gem 'nokogiri', '~> 1.10'
+  gem 'html-proofer', '>= 3.15.3'
+  gem 'nokogiri', '>= 1.11.0'
   gem 'rspec', '~> 3.5.0'
 end

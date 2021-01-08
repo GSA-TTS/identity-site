@@ -1,5 +1,8 @@
 ---
+order: 0
+
 redirect_from:
+- /help/verify-your-identity/
 - /help/verifying-your-identity/dont-have-a-state-issued-id/
 - /help/verifying-your-identity/how-to-verify-my-identity/
 - /help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
@@ -10,5 +13,6 @@ redirect_from:
 - /help/identity-verification/i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them/
 - /help/identity-verification/related-articles/
 - /help/identity-verification/why-do-i-need-to-verify-my-identity/
-redirect_to: /help
 ---
+
+{% include help/translate_page.html url=page.url %}

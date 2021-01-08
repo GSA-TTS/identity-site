@@ -4,18 +4,22 @@
   padding-top: $container-spacing-sm;
   padding-bottom: $container-spacing-sm;
 
-  h1,
+  .hero__description,
+  .hero__title {
+    // This assumes there is no margin collapsing in a flex container (as opposed to block
+    // container), resulting in a total of 4 units of margin between title and description.
+    @include u-margin-y(2);
+  }
+
   .hero__title {
     font-size: 1.875rem; // 30px
-    margin: 0;
-    padding-top: $container-spacing-sm;
 
     @include at-media("desktop") {
       font-size: 2.5rem; // 40px
     }
   }
 
-  .hero__desc {
+  .hero__description {
     font-size: 1.125rem; // 18px
 
     @include at-media("desktop") {
@@ -26,11 +30,6 @@
 
 .hero--search {
   height: 14rem;
-  
-  h1 {
-    padding-top: 0;
-    padding-bottom: ($container-spacing-sm * 2);
-  }
 }
 
 @include at-media("desktop") {
@@ -76,12 +75,16 @@
 
     &.bg-none {
       height: 11.125rem;
+
+      > .container {
+        background: none;
+      }
     }
   }
 
   .hero--search {
     height: 17.625rem;
-    
+
     > .container {
       background-image: none;
     }

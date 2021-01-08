@@ -3,15 +3,6 @@
     min-height: 17rem;
   }
 
-  a {
-    color: $white;
-    text-decoration: underline;
-  }
-
-  p {
-    $line-height: $line-height-md;
-  }
-
   .footer-nav {
     background-color: $blue-lightest;
     background-image: none;
@@ -22,7 +13,7 @@
     }
 
     a {
-      text-decoration: none;
+      text-decoration: underline;
       display: block;
       margin: 0 0 1em 0;
       white-space: nowrap;
@@ -93,143 +84,9 @@
       }
     }
   }
+}
 
-  .footer-gsa {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2em 0;
-
-    @include at-media("tablet") {
-      display: block;
-    }
-
-    > .container {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .learn-more-button {
-      background-color: transparent;
-      color: $white;
-      box-shadow: inset 0 0 0 1px $white;
-      white-space: nowrap;
-      flex: 0;
-      width: auto;
-      margin: 0 0 0 4rem;
-      padding: 0.75rem;
-      font-weight: normal;
-      outline: 0;
-
-      @include at-media("tablet") {
-        margin: 1em 0;
-      }
-
-      &:hover {
-        background-color: transparent;
-        color: $white;
-        box-shadow: inset 0 0 0 1px $white;
-      }
-
-      &::after {
-        content: "";
-        display: inline-block;
-        width: 0.7rem;
-        height: 0.7rem;
-        background: url(../img/angle-arrow-down-white.svg) center/contain
-          no-repeat;
-        margin-top: 0;
-        margin-left: 0.5rem;
-      }
-
-      &[aria-expanded="true"] {
-        &::after {
-          background: url(../img/angle-arrow-up-white.svg) center/contain
-            no-repeat;
-        }
-      }
-    }
-
-    .product-mgmt-statement {
-      max-width: 37rem;
-      margin: 1em 0;
-      color: $white;
-      display: flex;
-
-      svg {
-        flex: none;
-        margin-right: 1em;
-      }
-
-      p {
-        margin: 0;
-        padding: 0;
-      }
-    }
-
-    .learn-more-section-container {
-      display: none;
-
-      .learn-more-section {
-        display: block;
-        margin-top: 1rem;
-        color: $white;
-
-        @include at-media("tablet") {
-          display: flex;
-          justify-content: space-between;
-          margin-top: 1.5rem;
-        }
-
-        a,
-        a:visited {
-          text-decoration: underline;
-          color: $white;
-        }
-      }
-
-      .tts {
-        @include at-media("tablet") {
-          padding-right: 2rem;
-        }
-      }
-
-      .questions_addl_info {
-        padding: $container-spacing-sm;
-        background: $blue;
-
-        @include at-media("tablet") {
-          min-width: $max-width-sm;
-        }
-
-        ul {
-          margin: 0;
-          padding-left: $container-spacing-sm;
-        }
-      }
-    }
-  }
-
-  .footer-usa-gov {
-    padding: 1em 0;
-    background-color: darken($navy, 7%);
-    color: $white;
-
-    .looking-for-svc {
-      padding: 0.3rem 0 0.3rem 2rem;
-      background: url(../img/speech-balloon/icon-speech-balloon.svg) center left
-        no-repeat;
-    }
-  }
-
-  .contact-usa-gov {
-    display: inline-block;
-    margin-left: 1rem;
-    text-decoration: none;
-    padding: 0.75rem;
-    width: unset;
-  }
+.usa-identifier {
+  // TODO: Remove this once we assign `$theme-font-sans` design system variable to Public Sans.
+  font-family: $sans-serif-font-family;
 }

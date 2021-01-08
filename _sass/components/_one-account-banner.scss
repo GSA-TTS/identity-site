@@ -1,32 +1,64 @@
-.tagline-content {
-  @include lg-grid(false, true);
-  background-color: $navy;
-  margin-bottom: ($container-spacing * 2);
-  display: none;
+.one-account-banner {
+  background-color: $white;
+  padding-bottom: ($container-spacing * 2);
+  padding-left: $container-spacing-sm;
+  padding-right: $container-spacing-sm;
 }
 
-@include at-media("tablet") {
-  .tagline-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../img/who-uses-login/who-uses-illo-header/who-uses-illo-header.png);
-    background-position: -21.5rem -6rem;
-    background-repeat: no-repeat;
-    background-size: 70%;
-    border-radius: 1rem;
-    height: 11rem;
+.one-account-banner__backdrop {
+  @include lg-grid(false, true);
+  align-items: center;
+  background-color: $navy;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 11rem;
+  justify-content: center;
+  overflow: hidden;
+  padding-left: $container-spacing-sm;
+  padding-right: $container-spacing-sm;
+  position: relative;
+  text-align: center;
 
-    .tagline {
-      color: white;
-      font-size: 1.35rem;
-      font-weight: bold;
+  &::before {
+    @include u-pin("all");
+    background-image: url(../img/who-uses-login/who-uses-illo-header/who-uses-illo-header.png);
+    background-position: -22rem -6rem;
+    background-repeat: no-repeat;
+    background-size: 160%;
+    opacity: 0.6;
+    content: '';
+
+    @include at-media("mobile-lg") {
+      background-size: 120%;
     }
 
-    .link {
-      font-size: 1.2rem;
-      color: white;
+    @include at-media("tablet") {
+      background-size: 90%;
+      opacity: 0.9;
+    }
+
+    @include at-media("desktop") {
+      background-size: 70%;
     }
   }
+}
+
+.one-account-banner__content {
+  position: relative;
+}
+
+.one-account-banner__tagline {
+  color: $white;
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+
+.one-account-banner__link {
+  font-size: 1.2rem;
+  color: $white;
+}
+
+.one-account-banner .usa-button--big {
+  width: auto;
 }
