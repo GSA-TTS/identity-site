@@ -199,8 +199,8 @@ help:
   specific-agencies:
     overview: Overview
     usajobs: USAJOBS
-    sam: SAM
-    trusted-traveler-programs: Trusted Traveler Programs
+    sam: System for Award Management (SAM)
+    trusted-traveler-programs: Trusted Traveler Programs (TTP)
   verify-your-identity:
     overview: Overview
     how-to-verify-your-identity: How to verify your identity
@@ -401,8 +401,6 @@ help_pages:
       [Phone or authentication methods not available](#)
   specific-agencies:
     overview: |-
-      # Help with specific agencies
-
       Login.gov is for account access and sign in only. This account does not affect or have any information related to the specific agency you are trying to access.
 
       Our customer support team is here to help answer login.gov questions.
@@ -429,9 +427,7 @@ help_pages:
       * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
       * [Phone or authentication methods not available](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
     sam: |-
-      # System for Award Capture (SAM)
-
-      Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your System for Award Capture (SAM) account, application, status, membership, or eligibility.
+      Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your System for Award Management (SAM) account, application, status, membership, or eligibility.
 
       Please do not send login.gov sensitive data about yourself or SAM application.
 
@@ -453,10 +449,7 @@ help_pages:
           * If you use the same email to create your login.gov profile, you will keep all of your records, data access requests, and saved searches.
           * If you use a new email address, nothing will happen to your SAM.gov profile, but you will be unable to access your SAM profile information.
       * If you already have a login.gov account and want to add your SAM email, you can do so on the login.gov My Account page. Select the sign in button on the login.gov homepage to access that account page.
-
     trusted-traveler-programs: |-
-      # Trusted Traveler Programs (TTP)
-
       Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your [Trusted Traveler Programs](https://ttp.dhs.gov/) (TTP) application, membership, or eligibility. Please do not send login.gov sensitive data about yourself or identifying membership numbers.
 
       Login.gov can only answer questions about the sign-in process and creating a login.gov account.
@@ -476,10 +469,7 @@ help_pages:
       To access your Trusted Traveler Programs account information, visit <https://ttp.cbp.dhs.gov/>.
 
       If you sign in directly from the login.gov homepage, you will only see your login.gov account information.
-
     usajobs: |-
-      # USAJOBS
-
       Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your [USAJOBS](https://www.usajobs.gov/) application, employment status, or eligibility. Please do not send login.gov sensitive data about yourself including your resume.
 
       Although login.gov can answer questions about the sign-in process and creating a login.gov account, USAJOBS prefers that you contact them directly for all concerns.
@@ -497,7 +487,6 @@ help_pages:
       To access your Trusted Traveler Programs account information, sign in directly from USAJOBS.gov.
 
       If you sign in directly from the login.gov homepage, you will only see your login.gov account information on the “My Account” page.
-
   verify-your-identity:
     overview: |-
       # Verify your identity

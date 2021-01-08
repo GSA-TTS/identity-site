@@ -1,4 +1,5 @@
 ---
+title: help.specific-agencies.trusted-traveler-programs
 order: 1
 redirect_from:
 - /help/trusted-traveler-programs/another-question/
@@ -24,4 +25,6 @@ redirect_from:
 - /help/trusted-traveler-programs/whats-my-passid/
 - /help/trusted-traveler-programs/will-my-ktn-known-traveler-number-change/
 ---
+# {% t page.title %}
+
 {% include help/translate_page.html url=page.url %}

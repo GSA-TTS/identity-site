@@ -184,6 +184,10 @@ help:
     overview: Aperçu
     change-your-password: Changez votre mot de passe
     delete-your-account: Supprimer votre compte
+  specific-agencies:
+    overview: Aperçu
+    sam: Système de saisie des prix (SAM) Aperçu du compte
+    trusted-traveler-programs: Programmes pour voyageurs fiables (TTP)
   verify-your-identity:
     overview: Aperçu
     how-to-verify-your-identity: Comment vérifier votre identité
@@ -365,6 +369,74 @@ help_pages:
       1. Vous recevrez deux courriels.
           1. Le premier confirme que nous avons reçu votre demande. Votre compte n'est pas encore supprimé. Une action supplémentaire est nécessaire.
           1. Le deuxième courriel vous est envoyé 24 heures après le premier. Suivez les instructions énoncées dans le courriel pour terminer la suppression.
+  specific-agencies:
+    overview: |-
+      Login.gov est réservé à l'accès au compte et à l'ouverture de session. Ce compte n'affecte pas et ne contient aucune information relative à l'agence spécifique à laquelle vous essayez d'accéder. 
+
+      Notre équipe d'assistance à la clientèle est là pour vous aider à répondre aux questions de login.gov.
+
+      ## Contactez login.gov to:
+      * Vous aider à créer un compte login.gov
+      * Partager des informations sur les possibilités d'authentification
+      * Vous aider à résoudre les raisons pour lesquelles vous ne pouvez pas accéder à votre compte
+      * Vous fournir des instructions pour réinitialiser votre mot de passe ou supprimer votre compte
+
+      Login.gov ne peut pas réinitialiser votre mot de passe, supprimer votre compte ou modifier les informations de votre compte.
+
+      ## Contactez l'agence partenaire pour:
+      * Effectuer des tâches spécifiques à l'agence, comme télécharger votre CV, remplir des candidatures ou fixer un rendez-vous avec cette agence 
+      * Résoudre les problèmes techniques avec le site web d'une agence partenaire
+      * Accédez aux informations spécifiques à votre agence telles que le statut de la demande, les services, l'éligibilité ou les paiements 
+
+      Nous fournissons un contenu d'aide spécifique pour nos agences partenaires les plus importantes. Nous vous encourageons à contacter l'agence pour toute question spécifique. 
+
+      ## Sujets de dépannage courants
+      * [Comment se connecter à login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in/)
+      * [Changer votre mot de passe](site.baseurl/help/manage-your-account/change-your-password/)
+      * [Mot de passe oublié](site.baseurl/help/trouble-signing-in/forgot-your-password/)
+      * [Verrouillage du compte login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
+      * [Téléphone ou méthodes d'authentification non disponibles](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
+    sam: |-
+      Login.gov est réservé à l'identification sécurisée. Votre compte login.gov n’affecte pas et ne contient aucune information sur votre compte, votre candidature, votre statut, votre adhésion ou votre éligibilité au Système de capture des prix (SAM).
+
+      Veuillez ne pas envoyer de données sensibles de login.gov vous concernant ou concernant l’application SAM.
+
+      Login.gov peut uniquement répondre aux questions concernant le processus de connexion et la création d’un compte login.gov.
+
+      Veuillez contacter directement [SAM.gov](https://sam.gov/SAM/pages/public/index.jsf) si vous avez des questions à ce sujet :
+      * Enregistrement de la demande, éligibilité, statut ou changements
+      * Fixation des rendez-vous
+      * Statut d’enregistrement de l’entité
+      * Ou d’autres préoccupations connexes
+
+      Pour apporter des modifications à votre profil de compte SAM.gov, vous devez vous connecter à <https://www.sam.gov>.
+
+      Contactez le Federal Service Desk au 866-606-8220 (frais de péage) ou au 334-206-7828 (international) pour obtenir de l’aide, ou soumettez votre demande via le formulaire web à [www.fsd.gov](https://www.fsd.gov/).
+
+      ## Notes importantes pour la création de votre compte login.gov et l’accès à votre profil SAM :
+      * Si vous avez déjà un compte SAM, utilisez le même courriel que celui utilisé pour votre compte SAM pour créer votre compte login.gov
+          * Si vous utilisez le même courriel pour créer votre profil login.gov, vous conserverez tous vos dossiers, demandes d’accès aux données et recherches sauvegardées.
+          * Si vous utilisez une nouvelle adresse électronique, rien n’arrivera à votre profil SAM.gov, mais vous ne pourrez pas accéder aux informations de votre profil SAM.
+      * Si vous avez déjà un compte login.gov et que vous souhaitez ajouter votre courriel SAM, vous pouvez le faire sur la page « Mon compte » de login.gov. Sélectionnez le bouton d’identification sur la page d’accueil de login.gov pour accéder à cette page de compte.
+    trusted-traveler-programs: |-
+      Login.gov est réservé à l'identification sécurisée. Votre compte login.gov n'affecte pas et ne contient aucune information sur votre demande, votre adhésion ou votre éligibilité aux [Programmes pour voyageurs fiables](https://ttp.dhs.gov/) (TTP). Veuillez ne pas envoyer à login.gov de données sensibles vous concernant ou identifiant
+
+      Login.gov ne peut répondre qu'aux questions concernant le processus d'inscription et la création d'un Compte login.gov.
+
+      Veuillez contacter directement les [Programmes pour voyageurs fiables](https://help.cbp.gov/s/questions?language=en_US) si vous avez des questions concernant :
+
+      * Statut de la demande ou modifications apportées à votre demande
+      * Éligibilité
+      * Fixation ou modification des rendez-vous
+      * Ou d'autres préoccupations connexes
+
+      Notes importantes :
+      * Votre numéro de voyageur connu (KTN) ne change pas lorsque vous créez un compte login.gov
+      * Vous n'avez pas besoin de payer à nouveau pour le TTP lorsque vous créez un compte login.gov à moins que le moment ne soit venu de renouveler votre adhésion
+
+      Pour accéder aux informations relatives à votre compte dans le cadre des programmes pour voyageurs fiables, visitez <https://ttp.cbp.dhs.gov/>.
+
+      Si vous vous connectez directement à partir de la page d'accueil de login.gov, vous ne verrez que les informations de votre compte login.gov.
   verify-your-identity:
     overview: |-
       # Vérifiez votre identité
@@ -392,7 +464,7 @@ help_pages:
 help_subpages:
   trouble-signing-in: Des problèmes pour vous connecter?
   manage-your-account: Gérez votre compte
-  specific-agencies: Aide avec des agences spécifiques
+  specific-agencies: Aide aux agences spécifiques
   verify-your-identity: Vérifiez votre identité
 implementation_page:
   heading: Mise en œuvre d'un système de gestion d'identité
