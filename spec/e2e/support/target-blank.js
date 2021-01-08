@@ -1,10 +1,10 @@
 /**
  * @typedef SimplifiedLink
  *
- * @prop {string=} innerText
- * @prop {string=} href
- * @prop {string=} className
- * @prop {string=} target
+ * @prop {string} innerText
+ * @prop {string} href
+ * @prop {string} className
+ * @prop {string} target
  */
 
 /**
