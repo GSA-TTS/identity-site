@@ -10,7 +10,9 @@ scripts:
 
 {{ site.translations[site.lang].contact_page.content.intro | replace: 'site.baseurl', site.baseurl | markdownify }}
 
-{% include contact_form.html %}
+<div class="desktop:grid-col-9">
+  {% include contact_form.html %}
+</div>
 
 <footer class="page-content__footer">
   {{ site.translations[site.lang].contact_page.content.footer | replace: 'site.baseurl', site.baseurl | markdownify }}
