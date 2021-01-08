@@ -3,15 +3,6 @@
     min-height: 17rem;
   }
 
-  a {
-    color: $white;
-    text-decoration: underline;
-  }
-
-  p {
-    $line-height: $line-height-md;
-  }
-
   .footer-nav {
     background-color: $blue-lightest;
     background-image: none;
@@ -22,7 +13,7 @@
     }
 
     a {
-      text-decoration: none;
+      text-decoration: underline;
       display: block;
       margin: 0 0 1em 0;
       white-space: nowrap;
