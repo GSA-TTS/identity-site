@@ -169,54 +169,51 @@ help_page:
 help_pages:
   get-started:
     overview: |-
-      Puede agregar o eliminar direcciones de correo electrónico desde su página de su cuenta login.gov.
-      __Para agregar una dirección de correo electrónico__ a su cuenta, siga los pasos a continuación:
-        1. Vaya a [https://secure.login.gov/](https://secure.login.gov/){:target="_blank "} e inicie sesión en su cuenta
-        2. Haga clic en "Agregar correo electrónico".
-        3. Ingrese la dirección de correo electrónico que desea agregar a su cuenta y haga clic en Enviar.
-        4. Recibirás un correo electrónico en tu bandeja de entrada. Haga clic en el enlace para confirmar su dirección de correo electrónico.
-      El enlace lo llevará a la página de su cuenta. Verá un mensaje de alerta verde que confirma que se agregó su dirección de correo electrónico.
-
-      __Para eliminar una dirección de correo electrónico__ de su cuenta, siga los pasos a continuación:
-      Nota: no puede eliminar una dirección de correo electrónico si es la única vinculada a su cuenta.
-        1. Vaya a [https://secure.login.gov/](https://secure.login.gov/){:target="_blank "} e inicie sesión en su cuenta
-        2. Haga clic en el enlace "Eliminar" que se encuentra junto a la dirección de correo electrónico que desea eliminar.
-        3. Asegúrese de que la página siguiente muestre la dirección de correo electrónico correcta que desea eliminar.
-        4. Haga clic en "Eliminar dirección de correo electrónico".
-      Verá un mensaje de alerta verde que confirma que se eliminó su dirección de correo electrónico.
     create-your-account: |-
       Siga estos pasos para crear su cuenta de login.gov.
 
-      1. Enter your email address at [https://secure.login.gov/sign_up/enter_email](https://secure.login.gov/sign_up/enter_email) to begin.
+      1. Primero, ingrese su correo electrónico en [https://secure.login.gov/sign_up/enter_email](https://secure.login.gov/sign_up/enter_email).
 
-          Choose an email address that you’ll always be able to access. Once your account is created, you can add an additional email address, such as a work email or alternate personal address, to access your account.
-      1. Click the __“Submit”__ button.
-      1. Check your email for a message from login.gov.
-      1. Click the __“Confirm your email address”__ button in the message. This will take you back to the login.gov website.
-      1. Create your login.gov password.
+          Elija una dirección de correo electrónico a la que siempre pueda tener acceso. Una vez que se cree su cuenta, puede agregar una dirección de correo electrónico adicional — como una dirección de correo electrónico laboral o una dirección personal alternativa— para tener acceso a ella.
+      1. Haga clic en el botón __“Enviar”__.
+      1. Revise su correo electrónico para ver si tiene un mensaje de login.gov.
+      1. Haga clic en el botón que dice __“Confirme su dirección de correo electrónico”__ que se encuentra en el mensaje. Esto lo llevará de vuelta al sitio web de login.gov.
+      1. Cree su contraseña de login.gov.
 
-          Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.
+          Las contraseñas deben tener al menos 12 caracteres. ¡Eso es todo! No hay ninguna otra restricción. Incluso puede usar más de una palabra con espacios para llegar a los 12 caracteres. Pruebe utilizar una frase o una serie de palabras que solo usted reconozca.
 
-          Your login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
-      1. Set up a second layer of security.
+          Su contraseña de login.gov debe ser diferente a las contraseñas que utilice para otras cuentas, como su cuenta bancaria o su correo electrónico. Utilizar la misma contraseña para varias cuentas facilita el robo de identidad.
+      1. Establezca una segunda capa de seguridad.
 
-          As an added layer of protection, login.gov requires you set up a secondary authentication method to keep your account secure. This is referred to as two-factor authentication (2FA).
+          Como una capa adicional de protección, login.gov requiere que establezca un segundo método de autenticación para mantener su cuenta segura. A esto se le denomina autenticación de dos factores (2FA).
 
-          While we only require one secondary authentication method, we encourage you to add two methods to your account. That way you will have a backup if you lose access to your primary authentication method.
+          Aunque solo requerimos un método secundario de autenticación, le animamos a que agregue dos métodos a su cuenta. De esa forma, tendrá un respaldo si pierde el acceso a su método de autenticación principal.
 
-          You can choose from several authentication options.
-      1. Success! Once you have authenticated, you have created your login.gov account.
+          Puede escoger entre varias opciones de autenticación.
 
-      You will be taken to your login.gov account page or the government agency you are trying to access. You can add additional authentication methods, email addresses or update your information on the login.gov account page.
+          __Más seguro:__
+          * Solicitud de autenticación
+          * Clave de seguridad
+          * Tarjeta PIV o CAC para empleados del gobierno federal o militares
 
-      ## Artigos relacionados {#related-articles}
-      * [Authentication options](site.baseurl/help/get-started/authentication-options)
-      * [Manage your account](site.baseurl/help/manage-your-account/overview)
+          __Menos seguro:__
+          * Mensaje de texto (menos seguro)
+          * Llamada telefónica (menos seguro)
+          * Códigos de respaldo (menos seguro)
+
+          [Conozca más sobre cada opción de autenticación](site.baseurl/help/get-started/authentication-options) para elegir la que sea apropiada para usted.
+      1. ¡El proceso fue exitoso! Una vez que haya autenticado, habrá creado su cuenta de login.gov.
+
+      Será dirigido a la página de su cuenta de login.gov o a la agencia gubernamental a la que esté intentando tener acceso. Puede agregar métodos de autenticación adicionales, direcciones de correo electrónico o actualizar su información en la página de su cuenta de login.gov.
+
+      ## Artículos relacionados
+      * [Opciones de autenticación](site.baseurl/help/get-started/authentication-options)
+      * [Gestione su cuenta](site.baseurl/help/manage-your-account/overview)
   trouble-signing-in:
     overview: |-
       # ¿Problemas al iniciar sesión?
       ¿Olvidaste tu contraseña? ¿Bloqueado tu cuenta? Lo ayudaremos a resolver problemas de acceso a la cuenta.
-      ## Problemas comunes en la solución de problemas
+      ## Problemas comunes en la solución de problemas {#help-question-list}
         * [Cómo acceder a login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Olvidó su contraseña](site.baseurl/help/trouble-signing-in/forgot-your-password)
         * [Bloqueada en la cuenta de login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login)
@@ -296,7 +293,7 @@ help_pages:
       # Administrar su cuenta
       Administrar los ajustes de su cuenta, incluidos su contraseña, número de teléfono, correo electrónico y más.
 
-      ## Temas comunes de solución de problemas
+      ## Temas comunes de solución de problemas {#help-question-list}
       * [Cambiar su contraseña](#)
       * [Cambiar el número de teléfono asociado a su cuenta](#)
       * [Cambiar la dirección de correo electrónico asociada a su cuenta](#)
@@ -361,7 +358,7 @@ help_pages:
 
       Utilice esta sección de ayuda para conocer el proceso y los requisitos relacionados con la verificación de la identidad.
 
-      ## Solución de problemas frecuentes
+      ## Solución de problemas frecuentes {#help-question-list}
        * [Cómo verificar su identidad](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
        * [Verificación de dirección por correo](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
        * [¿No tiene una identificación emitida por el estado?](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)

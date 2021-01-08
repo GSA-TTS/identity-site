@@ -226,7 +226,7 @@ help_pages:
       * Learn about authentication options
       * Why you are being asked to use login.gov
 
-      ## Common troubleshooting topics
+      ## Common troubleshooting topics {#help-question-list}
       * Email address confirmation issues
       * Security code not received on phone
     create-your-account: |-
@@ -250,20 +250,32 @@ help_pages:
           While we only require one secondary authentication method, we encourage you to add two methods to your account. That way you will have a backup if you lose access to your primary authentication method.
 
           You can choose from several authentication options.
+
+          __More secure:__
+          * Authentication application
+          * Security key
+          * PIV or CAC card for federal government employees or military
+
+          __Less secure:__
+          * Text message
+          * Phone call
+          * Backup codes
+
+          [Learn more about each authentication option](site.baseurl/help/get-started/authentication-options) to choose the one that is right for you.
+
       1. Success! Once you have authenticated, you have created your login.gov account.
 
       You will be taken to your login.gov account page or the government agency you are trying to access. You can add additional authentication methods, email addresses or update your information on the login.gov account page.
 
-      ## Related articles {#related-articles}
+      ## Related articles
       * [Authentication options](site.baseurl/help/get-started/authentication-options)
       * [Manage your account](site.baseurl/help/manage-your-account/overview)
-
   trouble-signing-in:
     overview: |-
       # Trouble signing in?
       Forgot your password? Locked out of your account? We'll help you resolve account access issues.
 
-      ## Common troubleshooting topics
+      ## Common troubleshooting topics {#help-question-list}
         * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password)
         * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login)
@@ -373,7 +385,7 @@ help_pages:
       # Manage your account
       Manage your account settings including your password, phone number, email, and more.
 
-      ## Common troubleshooting topics
+      ## Common troubleshooting topics {#help-question-list}
       * [Change your password](#)
       * [Change the phone number associated with your account](#)
       * [Change the email address associated with your account](#)
@@ -555,7 +567,7 @@ help_pages:
 
       Use this help section to understand the process and requirements for identity verification.
 
-      ## Common troubleshooting topics
+      ## Common troubleshooting topics {#help-question-list}
        * [How to verify your identity](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
        * [Verify your address by mail](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
        * [Don’t have a state-issued ID](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)

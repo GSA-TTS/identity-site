@@ -3,7 +3,7 @@
     li {
       line-height: 2.25rem;
       ul {
-        list-style-type: "⁃";
+        list-style-type: '⁃';
         margin-bottom: 0;
       }
     }
@@ -16,14 +16,14 @@
 
 .list-arrow {
   a {
-    background: url("../img/ico-arrow.svg") no-repeat right 6px;
+    background: url('../img/ico-arrow.svg') no-repeat right 6px;
     background-size: 0.75rem 0.75rem;
     padding-right: 1.25rem;
   }
 }
 
 .list-checked li {
-  background: url("../img/ico-checked.svg") no-repeat left 4px;
+  background: url('../img/ico-checked.svg') no-repeat left 4px;
   background-size: 1rem;
 }
 
@@ -31,7 +31,7 @@
   margin-top: 2rem;
 }
 
-.help-article > h2:first-of-type + ul,
+#help-question-list + ul,
 .help-article > h2:first-of-type + ol,
 .help-question-list,
 .page-content__prose ol,
@@ -40,9 +40,9 @@
   margin-left: 0;
   padding-left: 0;
 
-  li {
+  > li {
     @include u-margin-y(1);
-    @include u-position("relative");
+    @include u-position('relative');
     padding-left: 2.25rem;
 
     &::before {
@@ -63,7 +63,9 @@
   p {
     // TODO: Remove once `$theme-body-line-height` is assigned as consistent with `$line-height`.
     position: relative;
-    $line-height-offset: round(($line-height - line-height($theme-body-font-family, $theme-body-line-height)) * 100) / 100 / -2;
+    $line-height-offset: round(
+        ($line-height - line-height($theme-body-font-family, $theme-body-line-height)) * 100
+      ) / 100 / -2;
     top: $line-height-offset;
 
     &:last-of-type {
@@ -72,19 +74,19 @@
   }
 }
 
-.help-article > h2:first-of-type + ul,
+#help-question-list + ul,
 .help-question-list,
 .page-content__prose ul.help-question-list {
   li::before {
-    content: "?";
+    content: '?';
   }
 }
 
-.help-article > h2:first-of-type + ol,
-.page-content__prose ol {
+.help-article > ol:first-of-type,
+.page-content__prose > ol:first-of-type {
   counter-reset: num;
 
-  li {
+  > li {
     @include u-margin-y(2);
     counter-increment: num;
 
