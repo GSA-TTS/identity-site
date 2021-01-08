@@ -27,7 +27,7 @@ describe('accessibility', () => {
       const results = await new AxePuppeteer(page)
         .disableRules('frame-tested')
         .exclude('iframe')
-        .exclude('.footer') // See: LG-3561 (TODO: Remove with implementation of LG-3561)
+        .exclude('.footer-nav') // See: LG-4038 (TODO: Remove with implementation of LG-4038)
         .analyze();
       expect(results).toHaveNoViolations();
     },
