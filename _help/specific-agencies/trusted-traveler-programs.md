@@ -1,5 +1,6 @@
 ---
-redirect_from: 
+order: 1
+redirect_from:
 - /help/trusted-traveler-programs/another-question/
 - /help/trusted-traveler-programs/aol-verizon/
 - /help/trusted-traveler-programs/application-status/
@@ -22,5 +23,5 @@ redirect_from:
 - /help/trusted-traveler-programs/ttp-application-status/
 - /help/trusted-traveler-programs/whats-my-passid/
 - /help/trusted-traveler-programs/will-my-ktn-known-traveler-number-change/
-redirect_to: /help
 ---
+{% include help/translate_page.html url=page.url %}

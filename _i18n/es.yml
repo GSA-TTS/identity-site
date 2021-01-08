@@ -350,6 +350,7 @@ help_subpages:
   get-started: Empiece con login.gov
   trouble-signing-in: ¿Tiene problemas para iniciar sesión?
   manage-your-account: Administrar su cuenta
+  specific-agencies: Ayuda con agencias específicas
   verify-your-identity: Verificación de identidad
 implementation_page:
   heading: Implementando un sistema de gestión de la identidad
