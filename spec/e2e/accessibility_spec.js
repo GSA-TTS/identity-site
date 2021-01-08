@@ -17,8 +17,8 @@ import { page, goto } from './support/browser';
 function toNotHaveTargetBlank(a) {
   return {
     pass: a.target != '_blank',
-    message: () => `Link "${a.innerText}" to ${a.href} had target=_blank, but it should not have`
-  }
+    message: () => `Link "${a.innerText}" to ${a.href} had target=_blank, but it should not have`,
+  };
 }
 
 expect.extend(toHaveNoViolations);
@@ -52,7 +52,7 @@ describe('accessibility', () => {
 
       /** @type {SimplifiedLink[]} */
       let links = await page.evaluate(() =>
-        Array.prototype.map.call(document.querySelectorAll('a'), a => {
+        Array.prototype.map.call(document.querySelectorAll('a'), (a) => {
           // There's a weird serialization boundary here so we encode the links as a structure
           return {
             innerText: a.innerText.trim(),
@@ -60,11 +60,11 @@ describe('accessibility', () => {
             className: a.className,
             target: a.target,
           };
-        })
+        }),
       );
-      Array.from(links).forEach(a => {
+      Array.from(links).forEach((a) => {
         expect(a).toNotHaveTargetBlank();
-      })
+      });
     },
     TEST_TIMEOUT_MS,
   );
