@@ -171,8 +171,6 @@ global:
     es: Español
     fr: Français
 help:
-  get-started:
-    overview: Aperçu
   trouble-signing-in:
     overview: Aperçu
     how-to-sign-in: Comment se connecter à login.gov
@@ -411,7 +409,6 @@ help_pages:
     personal-key-issues: |-
       # Problèmes personnels majeurs
 help_subpages:
-  get-started: Commencez avec login.gov
   trouble-signing-in: Des problèmes pour vous connecter?
   manage-your-account: Gérez votre compte
   specific-agencies: Aide avec des agences spécifiques
