@@ -26,7 +26,7 @@
     background-position: -22rem -6rem;
     background-repeat: no-repeat;
     background-size: 160%;
-    opacity: 0.9;
+    opacity: 0.6;
     content: '';
 
     @include at-media("mobile-lg") {
@@ -35,6 +35,7 @@
 
     @include at-media("tablet") {
       background-size: 90%;
+      opacity: 0.9;
     }
 
     @include at-media("desktop") {
