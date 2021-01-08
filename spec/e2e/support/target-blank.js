@@ -1,9 +1,5 @@
 /**
- * @typedef SimplifiedLink
- *
- * @prop {string} innerText
- * @prop {string} href
- * @prop {string} target
+ * @typedef {Pick<HTMLAnchorElement, "innerText" | "href" | "target">} SimplifiedLink
  */
 
 /**
