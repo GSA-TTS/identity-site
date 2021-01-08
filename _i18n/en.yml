@@ -187,11 +187,14 @@ global:
 help:
   get-started:
     overview: Overview
-<<<<<<< HEAD
     create-your-account: Create your login.gov account
+<<<<<<< HEAD
     authentication-options: Authentication options
 =======
 >>>>>>> 21d02c7... Redirect all creating-an-account pages to get-started. Add config and content for overview.
+=======
+    authentication-options: Authentication options
+>>>>>>> 1df386a... Use markdown heading ID for Related articles. Not translated in Spanish text. Delete authentication-methods dir."
   trouble-signing-in:
     overview: Overview
     how-to-sign-in: How to sign in to login.gov
@@ -223,7 +226,6 @@ help_page:
 help_pages:
   get-started:
     overview: |-
-      # Get started with login.gov
       Login.gov is the public's one account and password for government. Login.gov is a shared service and trusted by government agencies. With one login.gov account you can access applications from participating government partners.
 
       Create your login.gov account
@@ -546,10 +548,12 @@ help_pages:
       # Personal key issues
 help_subpages:
   get-started: Get started with login.gov
-<<<<<<< HEAD
   create-your-account: Create your login.gov account
+<<<<<<< HEAD
 =======
 >>>>>>> 21d02c7... Redirect all creating-an-account pages to get-started. Add config and content for overview.
+=======
+>>>>>>> 1df386a... Use markdown heading ID for Related articles. Not translated in Spanish text. Delete authentication-methods dir."
   trouble-signing-in: Trouble signing in?
   manage-your-account: Manage your account
   specific-agencies: Help with specific agencies

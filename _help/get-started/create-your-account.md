@@ -1,6 +1,6 @@
 ---
 order: 1
-title: help_subpages.create-your-account
+title: help.get-started.create-your-account
 ---
 
 # {% t page.title %}

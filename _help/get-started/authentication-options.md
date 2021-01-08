@@ -1,6 +1,6 @@
 ---
 order: 2
-title: help_subpages.authentication-options
+title: help.get-started.authentication-options
 redirect_from:
 - /help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
 - /help/security-keys/what-is-a-security-key/
@@ -11,6 +11,8 @@ redirect_from:
 - /help/security-keys/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
 - /help/security-keys/related-articles/
 - /help/security-keys/
+- /help/authentication-methods/which-authentication-method-should-i-use/
+- /help/authentication-methods/
 ---
 
 # {% t page.title %}
