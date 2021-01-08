@@ -476,7 +476,7 @@ index:
     p_1: |-
       Login.gov trabaja con el sector privado y organizaciones sin fines de lucro para identificar e implementar las mejores prácticas y nuevos estándares.
 
-      Login.gov construye sobre las bases establecidas por el Instituto [Nacional de Estándares y Tecnología (en inglés)](https://www.nist.gov/){:target="_blank"}, el [Plan Nacional de Acción de Seguridad Cibernética (en inglés)](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, y el [Servicio Federal de Adquisición (en inglés)](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
+      Login.gov construye sobre las bases establecidas por el Instituto [Nacional de Estándares y Tecnología (en inglés)](https://www.nist.gov/), el [Plan Nacional de Acción de Seguridad Cibernética (en inglés)](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan), y el [Servicio Federal de Adquisición (en inglés)](https://www.gsa.gov/portal/content/105080).
   intro:
     content: Use una cuenta y contraseña para tener acceso privado y seguro a las agencias gubernamentales participantes.
       participantes.
@@ -495,13 +495,13 @@ index:
 
       Proteja la información de sus usuarios con los más altos estándares de seguridad digital y experiencia de usuario. Login.gov maneja el desarrollo de software, las operaciones de seguridad y la atención al cliente para que usted no tenga que hacerlo.
 
-      [Convertirse en un compañero](https://partners.login.gov){:class="why-more-info" :target="_blank"}
+      [Convertirse en un compañero](https://partners.login.gov){:class="why-more-info"}
     developers: |-
       ### Desarrolladores de agencias
 
       Recursos para desarrolladores, soporte en tiempo real y herramientas modernas para ayudarlo a implementar e implementar su aplicación con login.gov
 
-      [Ver guía para desarrolladores](https://developers.login.gov){:class="why-more-info" :target="_blank"}
+      [Ver guía para desarrolladores](https://developers.login.gov){:class="why-more-info"}
 meta:
   about:
     description: Más información sobre login.gov
@@ -674,7 +674,7 @@ policies:
             * Por ejemplo; Si experimenta un error y conocemos el tipo y la versión de su navegador web, podemos identificar mejor cómo solucionar su problema.
         * La información almacenada se cifra en dos niveles. El cifrado traduce sus datos en un código al que solo puede acceder usted, el titular de la cuenta login.gov. Esto significa que es el único que puede ver y realizar cambios en la información de su cuenta.
             * Los operadores de login.gov (es decir, nuestro centro de ayuda de contacto) no pueden ver su información ni realizar cambios.
-            * La información se almacena y elimina de acuerdo con el [calendario de registros aprobado por la Administración Nacional de Archivos y Registros (NARA)](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"}.
+            * La información se almacena y elimina de acuerdo con el [calendario de registros aprobado por la Administración Nacional de Archivos y Registros (NARA)](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records).
 
         Proteger su información es nuestra prioridad. Puede leer explicaciones más detalladas sobre [cómo funciona login.gov](site.baseurl/policy/how-does-it-work/), [nuestra declaración de la ley de privacidad](site.baseurl/policy/our-privacy-act-statement/) y [nuestras prácticas de seguridad](site.baseurl/policy/our-security-practices/).
     - name: ¿Cómo funciona?
@@ -686,7 +686,7 @@ policies:
 
         Durante la prueba de identidad, también se comprueba la autenticidad de la identificación. Luego, la información personal se valida con la fuente emisora ​​(por ejemplo, DMV estatales) o fuentes autorizadas (por ejemplo, registros crediticios, financieros, telefónicos). Estos servicios externos no retienen ninguna información personal, solo se utilizan con fines de validación. Dados estos estrictos requisitos, login.gov actualmente admite identificaciones estatales y de empleados del gobierno federal. Con el tiempo, login.gov admitirá identificaciones adicionales.
 
-        Su dirección también se valida durante este proceso. Esto se puede hacer de forma remota utilizando un número de teléfono asociado a la dirección o mediante una carta con un código de inscripción enviada a la dirección del titular de la cuenta. Tenga en cuenta que el código de inscripción es válido por 30 días. (5 a 10 días para que se entregue la carta junto con 10 días para completar la validación de la dirección en [https://secure.login.gov](https://secure.login.gov){:target="_blank"}). Una vez validadas, las credenciales de identidad de login.gov se cifran con la contraseña del titular de la cuenta. El cifrado garantiza que solo usted, el titular de la cuenta, pueda acceder a su información con su contraseña.
+        Su dirección también se valida durante este proceso. Esto se puede hacer de forma remota utilizando un número de teléfono asociado a la dirección o mediante una carta con un código de inscripción enviada a la dirección del titular de la cuenta. Tenga en cuenta que el código de inscripción es válido por 30 días. (5 a 10 días para que se entregue la carta junto con 10 días para completar la validación de la dirección en [https://secure.login.gov](https://secure.login.gov)). Una vez validadas, las credenciales de identidad de login.gov se cifran con la contraseña del titular de la cuenta. El cifrado garantiza que solo usted, el titular de la cuenta, pueda acceder a su información con su contraseña.
 
         Proteger su privacidad a través del cifrado tiene un costo. Los operadores de Login.gov, como nuestro equipo de Contact Center, no pueden realizar cambios en su nombre, como desbloquear su cuenta, cambiar su contraseña o actualizar su dirección de correo electrónico o número de teléfono. Le recomendamos que proteja su método de autenticación por este motivo. Si bien esto significa que login.gov no puede brindar ese nivel de atención al cliente, si optamos por poner estas opciones a disposición de nuestro equipo de atención al cliente, nuestro sistema sería más vulnerable a la piratería y otros actores maliciosos.
 
@@ -741,11 +741,11 @@ policies:
 
         #### ¿Qué pasa con la información que compartes? ####
 
-        Todos los registros se almacenan electrónicamente en una base de datos en el entorno de Amazon Web Services (AWS) de GSA. Puede modificar o enmendar su dirección de correo electrónico o su número de teléfono en la [página de su cuenta](https://secure.login.gov/account){:target="_blank"}.
+        Todos los registros se almacenan electrónicamente en una base de datos en el entorno de Amazon Web Services (AWS) de GSA. Puede modificar o enmendar su dirección de correo electrónico o su número de teléfono en la [página de su cuenta](https://secure.login.gov/account).
 
         Su dirección de correo electrónico y número de teléfono se mantendrán durante al menos seis años de acuerdo con las pautas de la Administración Nacional de Archivos y Registros (NARA). Sin embargo, GSA está autorizada a mantener la información durante más tiempo si se requiere para uso comercial. Login.gov debe poder brindar a los usuarios acceso a información y servicios en agencias asociadas y, por lo tanto, puede tener una necesidad comercial de retener la información por más tiempo que el período de retención de seis años.
 
-        Puede haber circunstancias en las que se nos solicite compartir ciertos datos. Por ejemplo: si la información es relevante y necesaria para un propósito policial autorizado; para responder a una infracción; o para ayudar a otra agencia a responder a una infracción. Para obtener información adicional, consulte el sistema de notificación de registro número GSA / TTS-1 que el Servicio de Transformación de Tecnología (TTS) de GSA publicó el [10 de agosto de 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records){:target="_blank"}.
+        Puede haber circunstancias en las que se nos solicite compartir ciertos datos. Por ejemplo: si la información es relevante y necesaria para un propósito policial autorizado; para responder a una infracción; o para ayudar a otra agencia a responder a una infracción. Para obtener información adicional, consulte el sistema de notificación de registro número GSA / TTS-1 que el Servicio de Transformación de Tecnología (TTS) de GSA publicó el [10 de agosto de 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
         Incluso cuando compartimos la información con las fuerzas del orden, no podemos acceder a la PII porque la información está encriptada de una manera que el equipo de login.gov no puede recuperar.
 
@@ -759,11 +759,11 @@ policies:
 
         Cuando crea una cuenta o visita el sitio web de una nueva agencia asociada después de haber creado su cuenta, verá la opción de dar su consentimiento para compartir su información con la agencia asociada. Debe dar su consentimiento anualmente para cada agencia.
 
-        Recuerde que puede revocar el consentimiento en cualquier momento a través de [la página de su cuenta](https://secure.login.gov/account){:target="_blank"} o eliminar su cuenta por completo en la misma página.
+        Recuerde que puede revocar el consentimiento en cualquier momento a través de [la página de su cuenta](https://secure.login.gov/account) o eliminar su cuenta por completo en la misma página.
 
         ### Registros - ¿Dónde puede encontrar más información? ### {#records}
 
-        Consulte el aviso del sistema de registros de Login.gov (GSA / TTS – 1) en [www.gsa.gov/SORN](https://www.gsa.gov/SORN){:target="_blank"}.
+        Consulte el aviso del sistema de registros de Login.gov (GSA / TTS – 1) en [www.gsa.gov/SORN](https://www.gsa.gov/SORN).
 
         ### Análisis de sitios web ### {#analytics}
 
@@ -771,7 +771,7 @@ policies:
 
         ### Evaluación del impacto en la privacidad ### {#impact}
 
-        Vea nuestra evaluación de impacto en la privacidad en [www.gsa.gov/PIA](https://www.gsa.gov/PIA){:target="_blank"}.
+        Vea nuestra evaluación de impacto en la privacidad en [www.gsa.gov/PIA](https://www.gsa.gov/PIA).
     - name: Nuestras prácticas de seguridad
       url: "/policy/our-security-practices/"
       sublinks:
@@ -792,7 +792,7 @@ policies:
 
         login.gov autoriza a la comunidad de seguridad externa a realizar investigaciones de seguridad con la intención de informar las vulnerabilidades de seguridad descubiertas en la plataforma login.gov.
 
-        Consulte nuestra [Política de divulgación de vulnerabilidades](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} para obtener detalles sobre esta política y cómo informar las vulnerabilidades descubiertas.
+        Consulte nuestra [Política de divulgación de vulnerabilidades](https://18f.gsa.gov/vulnerability-disclosure-policy/) para obtener detalles sobre esta política y cómo informar las vulnerabilidades descubiertas.
 
         ### Para obtener más información ### {#more-info}
 
@@ -833,9 +833,9 @@ principles_page:
 
     Por último, deben hacerse pruebas continuamente de los diseños y herramientas cuando estén listos para compartirse y luego ajustar su proyecto en función de lo que se aprenda. En algunos casos, aprendemos que las mejores prácticas actuales no son lo suficientemente buenas. Y en esos casos somos empujados a probar nuevas maneras de entregar a los usuarios la mejor experiencia posible. Ese proceso implica más pruebas, educar a los usuarios y una voluntad para repetir.
 
-    Hay una serie de métodos de diseño específicos que practicamos para permanecer centrados en el usuario y usted puede leer sobre todos ellos y usarlos revisando los [Métodos de Diseño de 18F (en inglés)](https://methods.18f.gov/){:target="_blank"}.
+    Hay una serie de métodos de diseño específicos que practicamos para permanecer centrados en el usuario y usted puede leer sobre todos ellos y usarlos revisando los [Métodos de Diseño de 18F (en inglés)](https://methods.18f.gov/).
   p_2: |-
-    [Trabajar con transparencia (en inglés)](https://playbook.cio.gov/#play13){:target="_blank"} y la creación de un sistema transparente debe ser la forma en que funciona cualquier agencia cuando se construye o implementa un sistema de gestión de la identidad. Para ejecutar este principio con login.gov, estamos construyendo la plataforma para que las partes interesadas puedan asesorarnos sobre las mejores prácticas y para que sigamos siendo responsables ante el público y nuestros socios en todo el Gobierno. Además, significa construir un sistema que informe a los usuarios sobre lo que se hace con su información para crear responsabilidad y generar confianza. Estamos involucrando a los usuarios y otras partes interesadas a través de nuestro [acuerdo de recompra de GitHub (en inglés)](https://github.com/18F/identity-idp){:target="_blank"} y trabajando en la creación de foros públicos donde la gente pueda conversar sobre nuestro trabajo.
+    [Trabajar con transparencia (en inglés)](https://playbook.cio.gov/#play13) y la creación de un sistema transparente debe ser la forma en que funciona cualquier agencia cuando se construye o implementa un sistema de gestión de la identidad. Para ejecutar este principio con login.gov, estamos construyendo la plataforma para que las partes interesadas puedan asesorarnos sobre las mejores prácticas y para que sigamos siendo responsables ante el público y nuestros socios en todo el Gobierno. Además, significa construir un sistema que informe a los usuarios sobre lo que se hace con su información para crear responsabilidad y generar confianza. Estamos involucrando a los usuarios y otras partes interesadas a través de nuestro [acuerdo de recompra de GitHub (en inglés)](https://github.com/18F/identity-idp) y trabajando en la creación de foros públicos donde la gente pueda conversar sobre nuestro trabajo.
 
     Para que un sistema de gestión de la identidad sea transparente para los usuarios finales, el sistema que usted cree incluirá funciones que informen a la gente sobre cómo funciona el sistema, por qué funciona de esa manera y cómo pueden controlar lo que ocurre con sus datos. También debe informar a los usuarios de la información que necesita una agencia al iniciar sesión en un servicio. También es importante informar a los usuarios qué información almacenarán sus sistemas y si se comparte algún dato con otras agencias. Si las personas que usan el sistema no se sienten cómodas con el intercambio de información, no deben verse obligadas a participar.
 
@@ -845,7 +845,7 @@ principles_page:
 
     Estamos adoptando este principio para cada aspecto del proyecto en la creación de login.gov.
 
-    [Lea esta guía (en inglés)](https://pages.18f.gov/agile/index.html){:target="_blank"} a los principios y prácticas ágiles elaborados por el equipo de 18F para aprender más sobre lo que significa trabajar de manera ágil.
+    [Lea esta guía (en inglés)](https://pages.18f.gov/agile/index.html) a los principios y prácticas ágiles elaborados por el equipo de 18F para aprender más sobre lo que significa trabajar de manera ágil.
   p_4: "Los sistemas de manejo de la identidad del consumidor almacenan información
     personal sobre los usuarios para que la gente no tenga que repetir los procesos
     de verificación y autenticación una y otra vez. Sin embargo, la recopilación y
@@ -890,9 +890,9 @@ principles_page:
     es la mejor opción tanto para los usuarios como para las agencias y para asegurar
     máxima funcionalidad. \n\nEn la construcción de login.gov, estamos cumpliendo
     con las normas presentadas por el [Instituto Nacional de Estándares y Tecnología
-    (en inglés)](https://pages.nist.gov/800-63-3/){:target=\"_blank\"} (NIST 800-63-3).
+    (en inglés)](https://pages.nist.gov/800-63-3/) (NIST 800-63-3).
     Además, seguimos las [mejores practicas de seguridad del Gobierno
-    (en inglés)](https://playbook.cio.gov/#play11){:target=\"_blank\"}
+    (en inglés)](https://playbook.cio.gov/#play11)
     incluyendo FedRAMP, operando en código abierto, realizando rigurosas evaluaciones
     rutinarias de seguridad, además del cumplimiento de la Ley Federal de Gestión
     de la Seguridad de la Información (FISMA, sigla en inglés)."
@@ -936,7 +936,7 @@ security_page:
     heading: La bóveda
     p_1: Es difícil entrar en la "bóveda" o en la base de datos. Login.gov implementa
       los estándares más recientes para la autenticación y la verificación seguras
-      del [Instituto Nacional de Estándares y Tecnología (NIST, sigla en inglés)](https://www.nist.gov/){:target="_blank"}.
+      del [Instituto Nacional de Estándares y Tecnología (NIST, sigla en inglés)](https://www.nist.gov/).
       Nuestros planes de seguridad continua incluyen pruebas de penetración regulares
       y revisiones de seguridad externas.
   column_2:
@@ -967,7 +967,7 @@ security_page:
       de la manera que diseñamos la plataforma.'
     p_2: Para obtener más información, visite el sitio web de login.gov [Centro de
       ayuda](site.baseurl/help) o [contáctenos](site.baseurl/contact). También puede
-      visitar nuestro [repositorio de código abierto](https://github.com/18F/identity-idp){:target="_blank"}.
+      visitar nuestro [repositorio de código abierto](https://github.com/18F/identity-idp).
   heading: Cómo login.gov mantiene la información personal en privado
 what-is-login-page:
   hero:
@@ -991,13 +991,13 @@ what-is-login-page:
 
     Login.gov es su única cuenta para el gobierno. [Obtenga más información sobre cómo crear una cuenta](site.baseurl/create-an-account/).
 
-    ¿Ya tienes una cuenta? [Inicie sesión para administrar su cuenta y actualizar su información personal u opciones de seguridad](https://secure.login.gov){: target = "_blank"}.
+    ¿Ya tienes una cuenta? [Inicie sesión para administrar su cuenta y actualizar su información personal u opciones de seguridad](https://secure.login.gov).
   secure-account: |-
     ## Acceso seguro y privado para el público
 
     Login.gov utiliza [los más altos estándares de seguridad](site.baseurl/security/) para mantener segura su información, incluida la verificación de identidad y [autenticación de dos factores](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/).
 
-    Login.gov es proporcionado por [Technology Transformation Services (TTS)](https://www.gsa.gov/tts){: target = '_ blank'}.
+    Login.gov es proporcionado por [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
 
     <div class="mobile secure-account-img" aria-hidden="true"></div>
 who-uses-login-page:
@@ -1015,9 +1015,9 @@ who-uses-login-page:
 
     <div class="mobile partners-img" aria-hidden="true"></div>
   security: |-
-    Login.gov se adhiere a los últimos [estándares de seguridad](site.baseurl/security) establecidos por las principales organizaciones de seguridad como el [Instituto Nacional de Estándares y Tecnología](https://www.nist.gov/){:target='blank'}, el [Plan de Acción Nacional de Ciberseguridad](https://www.hsdl.org/c/cybersecurity-national-action-plan/){:target='_blank'} y el [Servicio federal de adquisiciones](https://www.gsa.gov/about-us/organization/federal-acquisition-service){:target='_blank'}
+    Login.gov se adhiere a los últimos [estándares de seguridad](site.baseurl/security) establecidos por las principales organizaciones de seguridad como el [Instituto Nacional de Estándares y Tecnología](https://www.nist.gov/), el [Plan de Acción Nacional de Ciberseguridad](https://www.hsdl.org/c/cybersecurity-national-action-plan/) y el [Servicio federal de adquisiciones](https://www.gsa.gov/about-us/organization/federal-acquisition-service)
 
-    Las agencias eligen login.gov porque ofrecemos una solución segura y sencilla. [Lea más sobre nuestro programa de socios](https://partners.login.gov){:target='_blank'}.
+    Las agencias eligen login.gov porque ofrecemos una solución segura y sencilla. [Lea más sobre nuestro programa de socios](https://partners.login.gov).
 contact:
   hero:
     heading: Póngase en contacto con nosotros

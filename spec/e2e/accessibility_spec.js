@@ -1,8 +1,10 @@
 import { AxePuppeteer } from '@axe-core/puppeteer';
 import { toHaveNoViolations } from 'jest-axe';
 import { page, goto } from './support/browser';
+import { getLinks, toNotHaveTargetBlank } from './support/target-blank';
 
 expect.extend(toHaveNoViolations);
+expect.extend({ toNotHaveTargetBlank });
 
 const TEST_TIMEOUT_MS = 10000;
 
@@ -29,6 +31,11 @@ describe('accessibility', () => {
         .exclude('.footer-nav') // See: LG-4038 (TODO: Remove with implementation of LG-4038)
         .analyze();
       expect(results).toHaveNoViolations();
+
+      const links = await getLinks(page);
+      links.forEach((a) => {
+        expect(a).toNotHaveTargetBlank();
+      });
     },
     TEST_TIMEOUT_MS,
   );

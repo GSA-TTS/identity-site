@@ -182,7 +182,7 @@ class: relative
         <img alt="" class="mb2" src="{{ '/assets/img/hr-red-6.svg' | prepend: site.baseurl }}" height="6">
         <ul class="list-reset mb5 h3">
           <li class="mb2">
-            <a href="https://pages.18f.gov/identity-dev-docs/" target="_blank">
+            <a href="https://pages.18f.gov/identity-dev-docs/">
               {% t implementation_page.section_2.ul_5.li_1.a_1 %}
             </a>
           </li>
@@ -193,23 +193,23 @@ class: relative
         <img alt="" class="mb2" src="{{ '/assets/img/hr-red-7.svg' | prepend: site.baseurl }}" height="6">
         <ul class="list-reset mb3 h3">
           <li class="mb2">
-            <a href="https://pages.nist.gov/800-63-3/" target="_blank">
+            <a href="https://pages.nist.gov/800-63-3/">
               {% t implementation_page.section_2.ul_6.li_1.a_1 %}
             </a> 
             {% t implementation_page.section_2.ul_6.li_1.content %}
           </li>
           <li class="mb2">
-            <a href="https://playbook.cio.gov/#introduction" target="_blank">
+            <a href="https://playbook.cio.gov/#introduction">
               {% t implementation_page.section_2.ul_6.li_2.a_1 %}
             </a>
           </li>
           <li class="mb2">
-            <a href="https://github.com/18F/identity-idp" target="_blank">
+            <a href="https://github.com/18F/identity-idp">
               {% t implementation_page.section_2.ul_6.li_3.a_1 %}
             </a>
           </li>
           <li class="mb2">
-            <a href="https://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog" target="_blank">
+            <a href="https://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog">
               {% t implementation_page.section_2.ul_6.li_4.a_1 %}
             </a>
           </li>
