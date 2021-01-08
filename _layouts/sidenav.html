@@ -15,7 +15,7 @@ layout: main
           url:  /policy/
         - name: Another link
           url: /policy/#another-policy-link
-  
+
   The page.sidenav value will be passed to the sidenav for loop below.
 
   Note: This does not apply to Help pages, which is far more complex.
@@ -32,7 +32,7 @@ layout: main
             {% for item in site.translations[site.lang]["nav"][page.sidenav]["sections"]%}
             <li class="usa-sidenav__item">
             <!-- TODO: Add active item -->
-              <a href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
+              <a href="{{ item.url }}">{{ item.name }}</a>
             </li>
             {% endfor %}
           </ul>

@@ -30,8 +30,10 @@ $(function () {
     });
   }
 
-  languagePicker($('.btn-lang-toggle'), $('.btn-lang-toggle + .dropdown'));
-  languagePicker($('.footer .learn-more-button'), $('.footer .learn-more-section-container'));
+  languagePicker(
+    $('.language-picker__label--button'),
+    $('.language-picker__label--button + .dropdown'),
+  );
 
   // Dropdown menu
 
@@ -59,7 +61,7 @@ $(function () {
     if (this.hash !== '') {
       event.preventDefault();
 
-      var hash = this.hash;
+      var hash = this.getAttribute('href');
 
       $('html, body').animate(
         {

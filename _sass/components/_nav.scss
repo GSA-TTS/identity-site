@@ -1,14 +1,22 @@
+.top-navigation,
 .language-search {
   background-color: $blue-lightest;
-  padding: 0.5rem 0;
   border-bottom: 1px solid $border-color;
+
+  @include at-media('desktop') {
+    padding: 0.75rem 0;
+  }
 
   .usa-button--outline {
     background-color: transparent;
   }
 
-  .language-container {
+  .language-picker {
     position: relative;
+  }
+
+  .language-picker__label--button.usa-button {
+    margin-right: units(2);
   }
 
   .dropdown {
@@ -46,18 +54,27 @@
     position: relative !important;
     top: 0 !important;
   }
+}
 
-  .contact-link {
-    font-size: 0.813rem;
-    font-weight: bold;
-    color: $blue-mid;
-    text-decoration: none;
+.usa-header--basic.top-navigation .usa-navbar {
+  border-bottom: none;
+
+  @include at-media('desktop') {
+    height: auto;
+  }
+}
+
+.usa-header--basic .usa-search {
+  @include at-media("desktop") {
+    display: none;
   }
 }
 
 .usa-logo {
   .help-page & {
-    margin: 0;
+    @include at-media('desktop') {
+      margin: 0;
+    }
   }
 }
 
@@ -95,20 +112,18 @@
 .sign-in-logo.usa-button {
   color: $black;
   font-weight: bold;
-  margin: 0 0 0 0.2rem;
+  margin: 0;
 
   &.mobile {
-    margin: 1em 0 0 0;
+    margin-bottom: 1rem;
     display: none;
   }
 
   background-color: $white;
   display: inline-block;
-  flex: 0;
   white-space: nowrap;
   padding: 0.85rem;
   padding: 0.75rem;
-  margin-left: 0.2rem;
   box-shadow: inset 0 0 0 1px #bbb;
 
   &:hover {
@@ -147,44 +162,81 @@
   }
 }
 
-nav .usa-search {
-  position: absolute;
-  right: 1.75rem;
-  bottom: 1rem;
-
-  [type="search"] {
-    height: 2rem;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-}
-
 .usa-search--small [type=submit],
 .usa-search--small .usa-search__submit {
   background-image: none;
+  padding: 0 0.7rem;
   width: auto;
   font-family: $sans-serif-font-family;
   font-size: ($base-font-size - 2);
 }
 
-.mobile.language-list {
+.usa-search--small .usa-search__submit-text {
+  position: static;
+}
+
+.language-picker__label--text .label {
+  color: color($theme-link-color);
+}
+
+.language-list:not(.dropdown) {
   display: none;
   list-style-type: none;
   margin: 0;
   padding: 0;
 
-  li {
-    padding: 0.75em 0 0.75em 2.25em;
+  @include at-media-max("desktop") {
+    display: block;
   }
+
+  a {
+    @include u-margin-y(1);
+    @include u-padding-y(1);
+    display: inline-block;
+    margin-left: 1.5rem;
+  }
+}
+
+.language-list {
+  @include usa-link-style;
 }
 
 @include at-media-max("desktop") {
-  .mobile.language-list {
-    display: block;
+  .usa-nav__primary {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: auto;
+  }
+
+  .usa-nav__primary button:hover,
+  .usa-nav__primary a:hover {
+    // TODO: Reconcile / backport hover color difference with Login Design System.
+    background-color: $blue-lightest;
+  }
+
+  .usa-nav__primary-item {
+    border-top: 0;
+
+    &::before {
+      // TODO: Reconcile / backport border color difference with Login Design System.
+      background-color: $blue-light;
+      content: '';
+      display: block;
+      height: 1px;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+
+  .usa-nav__primary .usa-nav__primary-item .usa-accordion__button,
+  .usa-nav__primary .usa-nav__primary-item .usa-accordion__close-button,
+  .usa-nav__primary .usa-nav__submenu-item .usa-accordion__button,
+  .usa-nav__primary .usa-nav__submenu-item .usa-accordion__close-button {
+    background-position: right 1rem center;
   }
 }
 
-nav {
+@include at-media("desktop") {
   .usa-nav__primary-item + .usa-nav__primary-item {
     margin-left: 1.5rem;
   }
@@ -196,15 +248,16 @@ nav {
   }
 }
 
-@include at-media-max("desktop") {
-  nav .usa-nav__primary-item {
-    + .usa-nav__primary-item {
-      margin-left: 0;
-    }
+.usa-nav__submenu-item {
+  border-top: none;
+}
 
-    span {
-      padding: 0.2rem 0 0.2rem 1rem;
-    }
+.usa-nav__primary button,
+.usa-nav__primary a {
+  @include at-media-max("desktop") {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    line-height: 1.5;
   }
 }
 
@@ -234,6 +287,17 @@ nav {
 
   .usa-current {
     background-color: transparent;
+  }
+}
+
+.usa-nav__primary .usa-nav__submenu-item .usa-current {
+  @include at-media-max("desktop") {
+    background-color: transparent;
+    color: $blue-mid;
+
+    &::after {
+      content: none;
+    }
   }
 }
 

@@ -6,7 +6,6 @@
 accessible_labels:
   secondary_navigation: Navegación secundaria
 actions:
-  read_more: Lee mas
   search: Buscar
 banner:
   one-account-for-govt:
@@ -144,6 +143,7 @@ help:
   get-started:
     overview: Visión general
     create-your-account: Crear una cuenta
+    authentication-options: Authentication options
   trouble-signing-in:
     overview: Visión general
     how-to-sign-in: Cómo acceder a login.gov
@@ -169,6 +169,15 @@ help_page:
 help_pages:
   get-started:
     overview: |-
+      Login.gov es la única cuenta y contraseña pública para el gobierno. Login.gov es un servicio compartido y de confianza de las agencias gubernamentales. Con una sola cuenta de login.gov se puede acceder a las solicitudes de los socios gubernamentales que participan.
+    
+      * Cree su cuenta de login.gov
+      * Conozca las opciones de autenticación
+      * Por qué se le solicita que use login.gov
+
+      ## Temas más comunes de solución de problemas {#help-question-list}
+      * Problemas con la confirmación de la dirección de correo electrónico
+      * Código de seguridad no recibido en el teléfono
     create-your-account: |-
       Siga estos pasos para crear su cuenta de login.gov.
 
@@ -209,6 +218,7 @@ help_pages:
       ## Artículos relacionados
       * [Opciones de autenticación](site.baseurl/help/get-started/authentication-options)
       * [Gestione su cuenta](site.baseurl/help/manage-your-account/overview)
+
   trouble-signing-in:
     overview: |-
       # ¿Problemas al iniciar sesión?
@@ -373,7 +383,6 @@ help_pages:
     personal-key-issues: |-
       # Problemas con la clave personal
 help_subpages:
-  get-started: Empiece con login.gov
   trouble-signing-in: ¿Tiene problemas para iniciar sesión?
   manage-your-account: Administrar su cuenta
   specific-agencies: Ayuda con agencias específicas
@@ -524,29 +533,6 @@ index:
       Login.gov trabaja con el sector privado y organizaciones sin fines de lucro para identificar e implementar las mejores prácticas y nuevos estándares.
 
       Login.gov construye sobre las bases establecidas por el Instituto [Nacional de Estándares y Tecnología (en inglés)](https://www.nist.gov/){:target="_blank"}, el [Plan Nacional de Acción de Seguridad Cibernética (en inglés)](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, y el [Servicio Federal de Adquisición (en inglés)](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
-  footer:
-    additional_info: Puede encontrar información adicional sobre la Administración de
-      Servicios Generales de EE. UU. (GSA) en
-    for_questions: Si tiene preguntas sobre este sitio web, envíe un correo electrónico
-      a email.gsa.gov.
-    heading: Aprenda más
-    learn_more: Aprende más
-    links:
-      accessibility: Ver declaración de accesibilidad
-      budget: VVer informes de presupuesto y rendimiento
-      foia: Presentar una solicitud de la Ley de Libertad de Información (FOIA)
-      no_fear_act: Ver datos de No FEAR Act
-      report_fraud: Denuncie fraude, despilfarro o abuso a la Oficina del Inspector General
-    org: "[Login.gov](site.baseurl) es un producto de los [Servicios de Transformación Tecnológica](https://www.gsa.gov/tts){:target='blank'}
-      de GSA y está administrado por la [Oficina de Soluciones](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions){:target='blank'}."
-    p_1: "¿Tiene alguna pregunta o problema? [Contáctenos](site.baseurl/contact)."
-    tts:
-      about: Como parte de los Servicios de transformación tecnológica (TTS) de GSA, aplicamos
-        metodologías y tecnologías modernas para mejorar la experiencia del público con el gobierno.
-        Ayudamos a las agencias a hacer que sus servicios sean más accesibles, eficientes y efectivos
-        con aplicaciones, plataformas, procesos, personal y soluciones de software modernas.
-      portfolio: TTS Solutions es una cartera de productos y servicios que ayudan a las agencias a
-        mejorar la entrega de información y servicios al público.
   intro:
     content: Use una cuenta y contraseña para tener acceso privado y seguro a las agencias gubernamentales participantes.
       participantes.
@@ -639,13 +625,13 @@ nav:
     title: Accesibilidad
     sections:
       - name: Nuestro compromiso
-        url: /accessibility/#nuestro-compromiso
+        url: "#nuestro-compromiso"
       - name: Estándares
-        url: /accessibility/#estándares
+        url: "#estándares"
       - name: Evaluación
-        url: /accessibility/#evaluación
+        url: "#evaluación"
       - name: Limitaciones conocidas
-        url: /accessibility/#políticas-de-accesibilidad
+        url: "#políticas-de-accesibilidad"
   about_us: Sobre nosotros
   anchor_to_top: Volver arriba
   become_a_partner: Convertirse en un compañero
@@ -653,11 +639,11 @@ nav:
     title: Contacta con nosotros
     sections:
       - name: ¿Tiene alguna pregunta sobre la cuenta de su agencia?
-        url: /contact/#tiene-alguna-pregunta-sobre-la-cuenta-de-su-agencia
+        url: "#tiene-alguna-pregunta-sobre-la-cuenta-de-su-agencia"
       - name: Asociarse con login.gov
-        url: /contact/#asociarse-con-logingov
+        url: "#asociarse-con-logingov"
       - name: Reportar un problema
-        url: /contact/#reportar-un-problema
+        url: "#reportar-un-problema"
   contact_login_gov: Póngase en contacto con Login.gov
   create_an_account: Crea una cuenta
   developer_guide: Guía para desarrolladores
@@ -677,15 +663,15 @@ nav:
     title: Privacidad y seguridad
     sections:
       - name: Nuestro compromiso con su privacidad y seguridad
-        url: /policy/
+        url: /es/policy/
       - name: ¿Cómo funciona?
-        url: /policy/how-does-it-work/
+        url: /es/policy/how-does-it-work/
       - name: Nuestra declaración de la ley de privacidad
-        url: /policy/our-privacy-act-statement/
+        url: /es/policy/our-privacy-act-statement/
       - name: Nuestras prácticas de seguridad
-        url: /policy/our-security-practices/
+        url: /es/policy/our-security-practices/
       - name: Términos y condiciones de mensajería
-        url: /policy/messaging-terms-and-conditions/
+        url: /es/policy/messaging-terms-and-conditions/
   principles: Principios
   privacy_&_security: Privacidad y seguridad
   security: Seguridad
@@ -1156,3 +1142,22 @@ accessibility:
 
     ### Saltar navegación
     Permite a los usuarios que utilizan un teclado para navegar por una página la posibilidad de activar el enlace de “Saltar navegación” para pasar por alto largas listas y sublistas de navegación y la información del encabezado de página.
+identifier:
+  accessible_labels:
+    description: Descripción de la agencia
+    identifier: Identificador de la agencia
+    links: Enlaces importantes
+    logo: Logo de la GSA
+    usa_gov: Información y servicios del Gobierno de EE. UU.
+  disclaimer: Un sitio web oficial de [General Services Administration](https://gsa.gov)
+  links:
+    about_agency: Acerca de GSA
+    accessibility: Soporte de accesibilidad
+    foia: Solicitud a través de FOIA
+    ig: Oficina del Inspector General
+    no_fear_act: Datos de la ley No FEAR
+    performance: Informes de desempeño
+    privacy: Política de privacidad
+  usa_gov:
+    text: ¿Necesita información y servicios del Gobierno?
+    link: Visite USAGov en Español

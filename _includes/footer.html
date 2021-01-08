@@ -32,68 +32,107 @@
       </div>
     </div>
   </div>
-  <div class="footer-gsa">
-    <div class="container">
-      <div class="product-mgmt-statement">
-        {% include svg/gsa-logo.svg %} {{
-        site.translations[site.lang]["index"]["footer"]["org"] |
-        replace:'site.baseurl', site.baseurl | markdownify }}
-      </div>
-      <button class="usa-button usa-button--outline learn-more-button">
-        {% t index.footer.learn_more %}
-      </button>
-      <div class="learn-more-section-container">
-        <div class="learn-more-section">
-          <section class="tts">
-            <p>
-              {% t index.footer.tts.about %}
-              <a target="_blank" href="https://www.gsa.gov/tts">{% t actions.read_more %}</a>
-            </p>
-            <p>
-              {% t index.footer.tts.portfolio %}
-              <a target="_blank"
-                href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions">{% t actions.read_more %}</a>
-            </p>
-          </section>
-          <section class="questions_addl_info">
-            <p>{% t index.footer.for_questions %}</p>
-            <p>
-              {% t index.footer.additional_info %}
-              <a target="_blank" href="https://www.gsa.gov/about">https://www.gsa.gov/about</a>
-            </p>
-            <nav>
-              <ul>
-                <li>
-                  <a target="_blank" href="https://www.gsaig.gov/">{% t index.footer.links.report_fraud %}</a>
-                </li>
-                <li>
-                  <a target="_blank"
-                    href="https://www.gsa.gov/reference/freedom-of-information-act-foia">{% t index.footer.links.foia %}</a>
-                </li>
-                <li>
-                  <a target="_blank"
-                    href="https://www.gsa.gov/reference/reports/budget-performance">{% t index.footer.links.budget %}</a>
-                </li>
-                <li>
-                  <a target="_blank"
-                    href="https://www.gsa.gov/website-information/accessibility-aids">{% t index.footer.links.accessibility %}</a>
-                </li>
-                <li>
-                  <a target="_blank"
-                    href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002">{% t index.footer.links.no_fear_act %}</a>
-                </li>
-              </ul>
-            </nav>
-          </section>
+  <div class="usa-identifier">
+    <section
+      class="usa-identifier__section usa-identifier__section--masthead"
+      aria-label="{% t identifier.accessible_labels.identifier %}"
+    >
+      <div class="usa-identifier__container">
+        <div class="usa-identifier__logos">
+          <a href="https://gsa.gov" class="usa-identifier__logo">
+            <img
+              class="usa-identifier__logo-img"
+              src="{{ site.baseurl }}/assets/img/gsa-logo.svg"
+              alt="{% t identifier.accessible_labels.logo %}"
+              role="img"
+            />
+          </a>
+        </div>
+        <div
+          class="usa-identifier__identity"
+          aria-label="{% t identifier.accessible_labels.description %}"
+        >
+          <p class="usa-identifier__identity-domain">login.gov</p>
+          <p class="usa-identifier__identity-disclaimer">
+            {{ site.translations[site.lang].identifier.disclaimer | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+          </p>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="footer-usa-gov">
-    <div class="container">
-      <span class="looking-for-svc">Looking for U.S. government and services?</span>
-      <a class="contact-usa-gov usa-button" target="_blank"
-        href="https://www.usa.gov/contact?ref=Digital.gov">{% t nav.contact_usa_gov %}</a>
-    </div>
+    </section>
+    <nav
+      class="usa-identifier__section usa-identifier__section--required-links"
+      aria-label="{% t identifier.accessible_labels.links %}"
+    >
+      <div class="usa-identifier__container">
+        <ul class="usa-identifier__required-links-list">
+          <li class="usa-identifier__required-links-item">
+            <a href="https://gsa.gov" class="usa-identifier__required-link">
+              {% t identifier.links.about_agency %}
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a
+              href="https://www.gsa.gov/website-information/accessibility-aids"
+              class="usa-identifier__required-link"
+            >
+              {% t identifier.links.accessibility %}
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a
+              href="https://www.gsa.gov/reference/freedom-of-information-act-foia"
+              class="usa-identifier__required-link usa-link"
+            >
+              {% t identifier.links.foia %}
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a
+              href="https://www.gsa.gov/about-us/organization/office-of-civil-rights/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002"
+              class="usa-identifier__required-link usa-link"
+            >
+              {% t identifier.links.no_fear_act %}
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a
+              href="https://www.gsaig.gov/"
+              class="usa-identifier__required-link usa-link"
+            >
+              {% t identifier.links.ig %}
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a
+              href="https://www.gsa.gov/reference/reports/budget-performance"
+              class="usa-identifier__required-link usa-link"
+            >
+              {% t identifier.links.performance %}
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a
+              href="https://www.gsa.gov/website-information/website-policies"
+              class="usa-identifier__required-link usa-link"
+            >
+              {% t identifier.links.privacy %}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section
+      class="usa-identifier__section usa-identifier__section--usagov"
+      aria-label="{% t identifier.accessible_labels.usa_gov %}"
+    >
+      <div class="usa-identifier__container">
+        <div class="usa-identifier__usagov-description">
+          {% t identifier.usa_gov.text %}
+        </div>
+        <a href="https://www.usa.gov/" class="usa-link">
+          {% t identifier.usa_gov.link %}
+        </a>
+      </div>
+    </section>
   </div>
 </footer>

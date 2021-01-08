@@ -7,7 +7,6 @@
 accessible_labels:
   secondary_navigation: Navigation secondaire
 actions:
-  read_more: Lire la suite
   search: Chercher
 banner:
   one-account-for-govt:
@@ -172,8 +171,6 @@ global:
     es: Español
     fr: Français
 help:
-  get-started:
-    overview: Aperçu
   trouble-signing-in:
     overview: Aperçu
     how-to-sign-in: Comment se connecter à login.gov
@@ -197,25 +194,6 @@ help_page:
   p_1: Parcourir les sujets communs
   title: Comment pouvons nous aider?
 help_pages:
-  get-started:
-    overview: |-
-
-      You can add or delete email addresses from your login.gov Your Account page.
-
-      __To add an email address__ to your account, use the steps below:
-        1. Go to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"} and sign in to your account
-        2. Click on “Add email”
-        3. Enter the email address you want to add to your account and click Submit
-        4. You will receive an email in your inbox. Click on the link to confirm your email address.
-      The link will take you to the Your account page. You will see a green alert message confirming that your email address was added.
-
-      __To delete an email address__ from your account, use the steps below:
-      Note: you can’t delete an email address if it’s the only one linked to your account.
-        1. Go to [https://secure.login.gov/](https://secure.login.gov/){:target="_blank"} and sign in to your account
-        2. Click on the “Delete” link that is next to the email address you want to delete
-        3. Make sure the next page shows the correct email address that you want to delete
-        4. Click on “Delete email address”
-      You will see a green alert message confirming that your email address was removed.
   trouble-signing-in:
     overview: |-
       # Des problèmes de connexion?
@@ -412,7 +390,6 @@ help_pages:
     personal-key-issues: |-
       # Problèmes personnels majeurs
 help_subpages:
-  get-started: Commencez avec login.gov
   trouble-signing-in: Des problèmes pour vous connecter?
   manage-your-account: Gérez votre compte
   specific-agencies: Aide avec des agences spécifiques
@@ -572,29 +549,6 @@ index:
       Login.gov travaille en collaboration avec le secteur privé, les organismes à but non lucratif afin d'identifier et mettre en œuvre les meilleures pratiques et les nouvelles normes en matière d'authentification sécurisée qui protège la confidentialité.
 
         Dirigé par le [U.S. Digital Service](https://www.usds.gov){:target="_blank"} et [18F](https://18f.gsa.gov){:target="_blank"}, login.gov est bâti sur les bases établies par le [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"}, le [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"} et le [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
-  footer:
-    additional_info: Des informations supplémentaires sur la General Services Administration (GSA)
-      des États-Unis sont disponibles à l'adresse
-    for_questions: Pour toute question concernant ce site Web, envoyez un e-mail à% email.gsa.gov.
-    heading: Pour nous joindre
-    learn_more: Apprendre encore plus
-    links:
-      accessibility: Afficher la déclaration d'accessibilité
-      budget: Afficher les rapports sur le budget et les performances
-      foia: Soumettre une demande en vertu de la loi sur la liberté de l'information (FOIA)
-      no_fear_act: Afficher les données No FEAR Act
-      report_fraud: Signaler toute fraude, gaspillage ou abus au Bureau de l'inspecteur général
-    org: "[Login.gov](site.baseurl) est un produit des [Services de Transformation Technologique](https://www.gsa.gov/tts){:target='blank'}
-      de GSA et géré par le [Bureau des Solutions](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions){:target='blank'}."
-    p_1: Vous avez une question ou un problème? [Communiquez avec nous](site.baseurl/contact)
-    tts:
-      about: Dans le cadre des services de transformation technologique (TTS) de GSA, nous appliquons
-        des méthodologies et des technologies modernes pour améliorer l’expérience du public avec
-        le gouvernement. Nous aidons les agences à rendre leurs services plus accessibles, efficients
-        et efficaces grâce à des applications, des plates-formes, des processus, du personnel et des
-        solutions logicielles modernes.
-      portfolio: TTS Solutions est un portefeuille de produits et de services qui aident les agences
-        à améliorer la fourniture d'informations et de services au public.
   intro:
     content: Utilisez un compte et un mot de passe pour un accès sécurisé et privé aux agences gouvernementales participantes.
     heading: Le seul compte public pour le gouvernement.
@@ -686,13 +640,13 @@ nav:
     title: Accessibilité
     sections:
       - name: Notre engagement
-        url: /accessibility/#notre-engagement
+        url: "#notre-engagement"
       - name: Normes
-        url: /accessibility/#normes
+        url: "#normes"
       - name: Évaluation
-        url: /accessibility/#évaluation
+        url: "#évaluation"
       - name: Limites connues
-        url: /accessibility/#limites-connues
+        url: "#limites-connues"
   about_us: À propos de nous
   anchor_to_top: Retour au sommet
   become_a_partner: Devenir un partenaire
@@ -700,11 +654,11 @@ nav:
     title: Nous contacter
     sections:
       - name: Avez-vous une question concernant votre compte d’agence?
-        url: /contact/#avez-vous-une-question-concernant-votre-compte-dagence
+        url: "#avez-vous-une-question-concernant-votre-compte-dagence"
       - name: Partenaire avec login.gov
-        url: /contact/#partenaire-avec-logingov
+        url: "#partenaire-avec-logingov"
       - name: Signaler un problème
-        url: /contact/#signaler-un-problème
+        url: "#signaler-un-problème"
   contact_login_gov: Contactez Login.gov
   create_an_account: Créer un compte
   developer_guide: Guide du développeur
@@ -724,15 +678,15 @@ nav:
     title: Confidentialité et sécurité
     sections:
       - name: Notre engagement envers votre confidentialité et votre sécurité
-        url:  /policy/
+        url: /fr/policy/
       - name: Comment ça marche?
-        url:  /policy/how-does-it-work/
+        url: /fr/policy/how-does-it-work/
       - name: Notre déclaration de confidentialité
-        url:  /policy/our-privacy-act-statement/
+        url: /fr/policy/our-privacy-act-statement/
       - name: Nos pratiques de sécurité
-        url:  /policy/our-security-practices/
+        url: /fr/policy/our-security-practices/
       - name: Termes et conditions de la messagerie
-        url:  /policy/messaging-terms-and-conditions/
+        url: /fr/policy/messaging-terms-and-conditions/
   principles: Principes
   privacy_&_security: Confidentialité et sécurité
   security: Sécurité
@@ -1178,4 +1132,22 @@ accessibility:
 
     ### Saut de navigation
     Permet aux utilisateurs qui utilisent un clavier pour naviguer sur une page, d’activer le lien de saut de navigation pour passer par-dessus de longues listes et sous-listes d’informations de navigation et d’en-tête de page.
-
+identifier:
+  accessible_labels:
+    description: Agency description # TODO: Translate
+    identifier: Agency identifier # TODO: Translate
+    links: Important links # TODO: Translate
+    logo: GSA logo # TODO: Translate
+    usa_gov: U.S. government information and services # TODO: Translate
+  disclaimer: An official website of the [General Services Administration](https://gsa.gov) # TODO: Translate
+  links:
+    about_agency: About GSA # TODO: Translate
+    accessibility: Accessibility support # TODO: Translate
+    foia: FOIA requests # TODO: Translate
+    ig: Office of the Inspector General # TODO: Translate
+    no_fear_act: No FEAR Act data # TODO: Translate
+    performance: Performance reports # TODO: Translate
+    privacy: Privacy policy # TODO: Translate
+  usa_gov:
+    text: Looking for U.S. government information and services? # TODO: Translate
+    link: Visit USA.gov # TODO: Translate
