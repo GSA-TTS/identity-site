@@ -46,14 +46,17 @@ tbd
 
 ## Adding a new help page
 1. Create a `.md` file in the `_help` subdirectory.
-    - In the YAML frontmatter, make sure it's got a numeric `order:` key
+    - In the YAML frontmatter, make sure it's got a numeric `order:` key and a `title:` key
     - The content of the file should be the `help/translate_page.html` partial:
 
     ```bash
     cat > _help/new-category-slug/new-page-slug.md <<MD
     ---
     order: 0
+    title: help.new-category-slug.new-page-slug
     ---
+    # {% t page.title %}
+
     {% include help/translate_page.html url=page.url %}
     MD
     ```

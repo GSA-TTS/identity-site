@@ -1,4 +1,5 @@
 ---
+title: help.specific-agencies.sam
 order: 2
 redirect_from:
 - /help/sam/have-account-different-email/
@@ -21,4 +22,6 @@ redirect_from:
 - /help/sam/my-sam-information-is-not-there/
 - /help/sam/reset-or-relink-my-logingov-account-for-sam/
 ---
+# {% t page.title %}
+
 {% include help/translate_page.html url=page.url %}

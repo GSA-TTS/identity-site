@@ -155,6 +155,10 @@ help:
     overview: Visión general
     change-your-password: Cambiar su contraseña
     delete-your-account: Eliminar su cuenta
+  specific-agencies:
+    overview: Visión general
+    trusted-traveler-programs: Programas de Viajero de Confianza (TTP, por sus siglas en inglés)
+    sam: Resumen de la cuenta del Sistema para la Administración de Subvenciones (SAM)
   verify-your-identity:
     overview: Visión general
     how-to-verify-your-identity: Cómo verificar su identidad
@@ -321,6 +325,73 @@ help_pages:
       1. Usted recibirá dos correos electrónicos.
           1. El primer correo electrónico confirma que hemos recibido su solicitud. Su cuenta aún no ha sido eliminada. Es necesario tomar medidas adicionales.
           1. La segunda carta le será enviada 24 horas más tarde. Observa las instrucciones de ese correo electrónico para completar el proceso de eliminación.
+  specific-agencies:
+    overview: |-
+      Login.gov es únicamente para acceder a la cuenta e iniciar sesión. Esta misma cuenta no afecta ni tiene ninguna información relacionada con la organización específica a la que está tratando de acceder.
+
+      Nuestro equipo de atención al cliente está disponible para ayudarle a contestar las preguntas sobre login.gov.
+
+      ## Contacte con login.gov para:
+      * Ayudarle a crear una nueva cuenta en login.gov
+      * Compartir información sobre las modalidades de autenticación
+      * Ayudarle a resolver los inconvenientes por los que no puede acceder a su cuenta
+      * Proporcione indicaciones para restablecer su contraseña o eliminar su cuenta
+
+      Login.gov no puede restablecer su contraseña, eliminar su cuenta o modificar la información de su cuenta.
+
+      ## Contacte con el socio de la agencia para:
+      * Realizar tareas propias de una agencia, como subir su currículum, completar solicitudes o programar una cita con dicha agencia
+      * Resolver las dificultades técnicas con el sitio web de un organismo asociado
+      * Acceda a la información concreta de su agencia personal, como el estado de la solicitud, los servicios, los requisitos o los pagos
+
+      Proporcionamos algunos elementos de ayuda específicos para nuestros socios de la agencia más grande. Le recomendamos que se ponga en contacto con la agencia en caso de tener preguntas específicas.
+
+      ## Temas habituales para la solución de problemas
+      * [Cómo iniciar sesión en login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in/)
+      * [Cambie su contraseña](site.baseurl/help/manage-your-account/change-your-password/)
+      * [Ha olvidado su contraseña](site.baseurl/help/trouble-signing-in/forgot-your-password/)
+      * [Bloqueado de la cuenta de login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
+      * [No se dispone de teléfono ni de métodos de autentificación](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
+    sam: |-
+      Solo puedes iniciar sesión en login.gov de forma segura. Tu cuenta de login.gov no afecta tu cuenta, solicitud, estado, membresía o elegibilidad al Sistema para la Administración de Subvenciones (SAM) ni tiene información alguna al respecto.
+
+      Por favor, no envíes a login.gov datos sensibles sobre ti o sobre tu solicitud al SAM.
+
+      Login.gov solo puede responder preguntas sobre el proceso de inicio de sesión y sobre cómo crear una cuenta de login.gov.
+
+      Por favor, ponte en contacto directo con [SAM.gov](https://sam.gov/SAM/pages/public/index.jsf) si tienes alguna pregunta relacionada con:
+      * registro de solicitudes, elegibilidad, estado o cambios
+      * programación de citas
+      * estado del registro de entidades
+      * u otros asuntos relacionados
+
+      Para realizar cambios al perfil de tu cuenta de SAM.gov tendrás que iniciar sesión en <https://www.sam.gov>.
+
+      Ponte en contacto con el Federal Service Desk (Centro Federal de Atención al Usuario) al 866-606-8220 (llamada gratuita) o al 334-206-7828 (internacional) para recibir asistencia o envía tu solicitud a través de un formulario web en www.fsd.gov.
+
+      ## Notas importantes para crear tu cuenta de login.gov y tener acceso a tu perfil de SAM:
+      * Si ya tienes una cuenta de SAM, utiliza el mismo correo electrónico que utilizaste para tu cuenta de SAM para crear tu cuenta de login.gov.
+          * Si utilizas el mismo correo electrónico para crear tu perfil en login.gov, mantendrás todos tus registros, solicitudes de acceso a datos y búsquedas guardadas.
+          * Si utilizas una nueva dirección de correo electrónico, nada le ocurrirá a tu perfil de SAM.gov, pero no podrás tener acceso a la información de tu perfil de SAM.
+      * Si ya tienes una cuenta de login.gov y deseas añadir tu correo electrónico de SAM, puedes hacerlo en la página “Mi cuenta” de login.gov. Selecciona el botón “iniciar sesión” en la página principal de login.gov para tener acceso a esa página de cuenta.
+    trusted-traveler-programs: |-
+      Login.gov es sólo para acceder de forma segura. Su cuenta de login.gov no afecta ni tiene ninguna información sobre su solicitud, membresía o elegibilidad para los Programas de Viajeros de Confianza (TTP, por sus siglas en inglés). Por favor, no envíe datos confidenciales de login.gov sobre usted o números de identificación de miembros.
+
+      Login.gov sólo puede responder a preguntas sobre el proceso de inicio de sesión y la creación de una cuenta en Login.gov.
+
+      Por favor, contacte directamente con el [Programa de Viajeros de Confianza](https://help.cbp.gov/s/questions?language=es) si tiene preguntas al respecto:
+      * Estado o cambios en su solicitud
+      * Elegibilidad
+      * Planificar o cambiar las citas
+      * u otras inquietudes relacionadas
+
+      Información importante:
+      * Su número de viajero conocido (KTN, por sus siglas en inglés) no cambiará cuando cree una cuenta en login.gov.
+      * No es necesario pagar por TTP nuevamente cuando se crea una cuenta de login.gov, a menos que sea el momento de renovar su membresía.
+
+      Para acceder a la información de su cuenta de Programas de Viajeros de Confianza, visite <https://ttp.cbp.dhs.gov/>.
+
+      Si ingresa directamente desde la página de inicio de login.gov, sólo verá la información de su cuenta de login.gov.
   verify-your-identity:
     overview: |-
       # Verificación de identidad
