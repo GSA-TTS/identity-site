@@ -163,23 +163,6 @@ help_page:
   p_1: Explore los temas comunes
   title: ¿Cómo podemos ayudar?
 help_pages:
-  get-started:
-    overview: |-
-      Puede agregar o eliminar direcciones de correo electrónico desde su página de su cuenta login.gov.
-      __Para agregar una dirección de correo electrónico__ a su cuenta, siga los pasos a continuación:
-        1. Vaya a [https://secure.login.gov/](https://secure.login.gov/) e inicie sesión en su cuenta
-        2. Haga clic en "Agregar correo electrónico".
-        3. Ingrese la dirección de correo electrónico que desea agregar a su cuenta y haga clic en Enviar.
-        4. Recibirás un correo electrónico en tu bandeja de entrada. Haga clic en el enlace para confirmar su dirección de correo electrónico.
-      El enlace lo llevará a la página de su cuenta. Verá un mensaje de alerta verde que confirma que se agregó su dirección de correo electrónico.
-
-      __Para eliminar una dirección de correo electrónico__ de su cuenta, siga los pasos a continuación:
-      Nota: no puede eliminar una dirección de correo electrónico si es la única vinculada a su cuenta.
-        1. Vaya a [https://secure.login.gov/](https://secure.login.gov/) e inicie sesión en su cuenta
-        2. Haga clic en el enlace "Eliminar" que se encuentra junto a la dirección de correo electrónico que desea eliminar.
-        3. Asegúrese de que la página siguiente muestre la dirección de correo electrónico correcta que desea eliminar.
-        4. Haga clic en "Eliminar dirección de correo electrónico".
-      Verá un mensaje de alerta verde que confirma que se eliminó su dirección de correo electrónico.
   trouble-signing-in:
     overview: |-
       # ¿Problemas al iniciar sesión?

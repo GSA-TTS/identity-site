@@ -194,25 +194,6 @@ help_page:
   p_1: Parcourir les sujets communs
   title: Comment pouvons nous aider?
 help_pages:
-  get-started:
-    overview: |-
-
-      You can add or delete email addresses from your login.gov Your Account page.
-
-      __To add an email address__ to your account, use the steps below:
-        1. Go to [https://secure.login.gov/](https://secure.login.gov/) and sign in to your account
-        2. Click on “Add email”
-        3. Enter the email address you want to add to your account and click Submit
-        4. You will receive an email in your inbox. Click on the link to confirm your email address.
-      The link will take you to the Your account page. You will see a green alert message confirming that your email address was added.
-
-      __To delete an email address__ from your account, use the steps below:
-      Note: you can’t delete an email address if it’s the only one linked to your account.
-        1. Go to [https://secure.login.gov/](https://secure.login.gov/) and sign in to your account
-        2. Click on the “Delete” link that is next to the email address you want to delete
-        3. Make sure the next page shows the correct email address that you want to delete
-        4. Click on “Delete email address”
-      You will see a green alert message confirming that your email address was removed.
   trouble-signing-in:
     overview: |-
       # Des problèmes de connexion?
