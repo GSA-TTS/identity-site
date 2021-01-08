@@ -86,17 +86,6 @@ article.container,
   padding-right: 0;
 }
 
-@include at-media-max("desktop") {
-  .usa-header .usa-nav {
-    width: 85vw;
-  }
-
-  .looking-for-svc {
-    display: block;
-    font-size: 95%;
-  }
-}
-
 @include at-media("desktop-lg") {
   .sidebar {
     @include grid-col(3);
