@@ -685,13 +685,13 @@ nav:
     title: Accessibilité
     sections:
       - name: Notre engagement
-        url: /accessibility/#notre-engagement
+        url: "#notre-engagement"
       - name: Normes
-        url: /accessibility/#normes
+        url: "#normes"
       - name: Évaluation
-        url: /accessibility/#évaluation
+        url: "#évaluation"
       - name: Limites connues
-        url: /accessibility/#limites-connues
+        url: "#limites-connues"
   about_us: À propos de nous
   anchor_to_top: Retour au sommet
   become_a_partner: Devenir un partenaire
@@ -699,11 +699,11 @@ nav:
     title: Nous contacter
     sections:
       - name: Avez-vous une question concernant votre compte d’agence?
-        url: /contact/#avez-vous-une-question-concernant-votre-compte-dagence
+        url: "#avez-vous-une-question-concernant-votre-compte-dagence"
       - name: Partenaire avec login.gov
-        url: /contact/#partenaire-avec-logingov
+        url: "#partenaire-avec-logingov"
       - name: Signaler un problème
-        url: /contact/#signaler-un-problème
+        url: "#signaler-un-problème"
   contact_login_gov: Contactez Login.gov
   create_an_account: Créer un compte
   developer_guide: Guide du développeur
@@ -723,15 +723,15 @@ nav:
     title: Confidentialité et sécurité
     sections:
       - name: Notre engagement envers votre confidentialité et votre sécurité
-        url:  /policy/
+        url: /fr/policy/
       - name: Comment ça marche?
-        url:  /policy/how-does-it-work/
+        url: /fr/policy/how-does-it-work/
       - name: Notre déclaration de confidentialité
-        url:  /policy/our-privacy-act-statement/
+        url: /fr/policy/our-privacy-act-statement/
       - name: Nos pratiques de sécurité
-        url:  /policy/our-security-practices/
+        url: /fr/policy/our-security-practices/
       - name: Termes et conditions de la messagerie
-        url:  /policy/messaging-terms-and-conditions/
+        url: /fr/policy/messaging-terms-and-conditions/
   principles: Principes
   privacy_&_security: Confidentialité et sécurité
   security: Sécurité
