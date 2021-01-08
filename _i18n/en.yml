@@ -199,7 +199,7 @@ help:
   specific-agencies:
     overview: Overview
     usajobs: USAJOBS
-    sam: System for Award Capture (SAM)
+    sam: System for Award Management (SAM)
     trusted-traveler-programs: Trusted Traveler Programs (TTP)
   verify-your-identity:
     overview: Overview
@@ -429,7 +429,7 @@ help_pages:
       * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
       * [Phone or authentication methods not available](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
     sam: |-
-      Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your System for Award Capture (SAM) account, application, status, membership, or eligibility.
+      Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your System for Award Management (SAM) account, application, status, membership, or eligibility.
 
       Please do not send login.gov sensitive data about yourself or SAM application.
 
