@@ -5,7 +5,7 @@
 
 @import "identity-style-guide/dist/assets/scss/styles";
 
-// START: TODO: Remove and reconcile after upgrading to USWDS >= 2.9.0
+// START: TODO: Remove and reconcile with USWDS upgrade (LG-3763)
 $theme-identifier-font-family: "ui";
 $theme-identifier-background-color: "primary-darker";
 $theme-identifier-identity-domain-color: "primary-light";
@@ -37,7 +37,7 @@ $theme-link-reverse-color: "primary-light";
   background-color: color($bg-color);
 }
 @import "uswds/dist/scss/components/identifier";
-// END: TODO: Remove and reconcile after upgrading to USWDS >= 2.9.0
+// END: TODO: Remove and reconcile with USWDS upgrade (LG-3763)
 
 @import "fonts";
 @import "colors";
