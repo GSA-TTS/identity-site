@@ -30,7 +30,10 @@ $(function () {
     });
   }
 
-  languagePicker($('.btn-lang-toggle'), $('.btn-lang-toggle + .dropdown'));
+  languagePicker(
+    $('.language-picker__label--button'),
+    $('.language-picker__label--button + .dropdown'),
+  );
 
   // Dropdown menu
 

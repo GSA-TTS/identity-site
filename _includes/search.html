@@ -1,9 +1,9 @@
-<form accept-charset="UTF-8" action="https://search.usa.gov/search" class="usa-search usa-search--{{ include.size }} display-flex flex-justify-center" id="search_form" method="get" role="search">
+<form accept-charset="UTF-8" action="https://search.usa.gov/search" class="usa-search usa-search--{{ include.size }} display-flex flex-justify-center" method="get" role="search">
   <input name="utf8" type="hidden" value="&#x2713;"/>
-  <input id="affiliate" name="affiliate" type="hidden" value="login.gov"/>
-  <label class="usa-sr-only" for="search-field-{{ include.size }}">Search</label>
-  <input class="usa-input" id="search-field-{{ include.size }}" name="query" type="search">
-  <button class="usa-button app-search" type="submit">
+  <input name="affiliate" type="hidden" value="login.gov"/>
+  <label class="usa-sr-only" for="search-field-{{ include.id }}">{% t actions.search %}</label>
+  <input class="usa-input" id="search-field-{{ include.id }}" name="query" type="search">
+  <button class="usa-button" type="submit">
     <span class="usa-search__submit-text">{% t actions.search %}</span>
   </button>
 </form>
