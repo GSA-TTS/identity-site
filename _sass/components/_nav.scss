@@ -72,15 +72,14 @@
 
 .usa-logo {
   .help-page & {
-    @include at-media('desktop') {
-      margin: 0;
-    }
+    display: flex;
+    align-items: center;
   }
 }
 
 .usa-logo a {
   .help-page & {
-    vertical-align: middle;
+    display: block;
   }
 }
 
@@ -89,17 +88,26 @@
 }
 
 .usa-logo__help {
-  font-size: 0.813rem;
+  font-size: 0.8125rem;
   font-weight: bold;
   color: $navy;
   border-left: 1px solid $navy;
-  padding: 1px 0.813rem;
-  margin-left: 0.5rem;
+  margin-left: 0.75rem;
+  padding: 0.15625rem 0.75rem;
 }
 
 .usa-logo__img {
+  height: 1rem;
+  width: px-to-rem(172px) / px-to-rem(23px) * 1rem;
+
   .help-page & {
     height: 0.875rem;
+    width: px-to-rem(172px) / px-to-rem(23px) * 0.875rem;
+  }
+
+  @include at-media("desktop") {
+    height: 1.5rem;
+    width: px-to-rem(172px) / px-to-rem(23px) * 1.5rem;
   }
 }
 
