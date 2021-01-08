@@ -85,7 +85,7 @@ class: relative
           </li>
         </ul>
         <p>
-          <a href="{{ 'https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e' | relative_url }}" class="btn btn-primary btn-wide mb2" target="_blank">
+          <a href="{{ 'https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e' | relative_url }}" class="btn btn-primary btn-wide mb2">
             {% t partners_page.section_2.p_2.a_1 %}
           </a>
         </p>

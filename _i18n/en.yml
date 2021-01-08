@@ -170,7 +170,7 @@ developers_page:
     heading: Try out login.gov
   footer:
     heading: Contact us
-    p_1: If you’re interested in learning more about the platform, please [fill out this form](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e){:target="_blank"}.
+    p_1: If you’re interested in learning more about the platform, please [fill out this form](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e).
   intro:
     a_1: Get started
     heading:
@@ -669,7 +669,7 @@ index:
     p_1: |-
       Login.gov works with the private sector and nonprofits to identify and implement best practices and new standards.
 
-      Login.gov builds on groundwork laid by the [National Institute of Standards and Technology](https://www.nist.gov/){:target="_blank"}, the [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan){:target="_blank"}, and the [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080){:target="_blank"}.
+      Login.gov builds on groundwork laid by the [National Institute of Standards and Technology](https://www.nist.gov/), the [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan), and the [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080).
   intro:
     content: Use one account and password for secure, private access to participating government agencies.
     heading: The public’s one account for government.
@@ -687,13 +687,13 @@ index:
 
       Protect your users' information with the highest standards of digital security and user experience.  Login.gov handles software development, security operations, and customer support so you don't have to.
 
-      [Become a partner](https://partners.login.gov/){:class="why-more-info" :target="_blank"}
+      [Become a partner](https://partners.login.gov/){:class="why-more-info"}
     developers: |-
       <h3 class="hdr developers">Agency developers</h3>
 
       Developer resources, real-time support and modern tools to help you implement and deploy your application with login.gov
 
-      [See developer guide](https://developers.login.gov){:class="why-more-info" :target="_blank"}
+      [See developer guide](https://developers.login.gov){:class="why-more-info"}
 meta:
   about:
     description: More information about login.gov
@@ -885,11 +885,11 @@ partners_page:
     heading_4: Is login.gov's authentication platform accessible?
     p_1: We’ll help your agency by eliminating the burden and cost of creating and maintaining authentication and identity proofing systems, keeping up with evolving standards and technologies, and by lowering costs.
     p_2: login.gov is used by over 60 applications at 17 agencies including Cabinet level agencies such as the Department of Defense, Department of Homeland Security, Department of Energy, and the Executive Office of the President. Over 17 million people have signed up to use login.gov, across all applications.
-    p_3: To get started, reach out to our team using this [form](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e){:target="_blank"}. We’ll work with you to understand and capture your needs and requirements at a high level. We will then jointly decide whether login.gov makes sense for your particular business and use cases.
+    p_3: To get started, reach out to our team using this [form](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e). We’ll work with you to understand and capture your needs and requirements at a high level. We will then jointly decide whether login.gov makes sense for your particular business and use cases.
     p_4: We follow all accessibility standards and we comply with Section 508.
   footer:
     heading: Developer Resources
-    p_1: Check out our easy-to-use login.gov [developer guide](http://developers.login.gov){:target="_blank"}.
+    p_1: Check out our easy-to-use login.gov [developer guide](http://developers.login.gov).
 playbook_page:
   section_1:
     p_1: Identity management — or making sure that only the correct people get access
@@ -937,7 +937,7 @@ policies:
             * For example;  If you experience an error and we know your web browser type and version, we can better identify how to fix your issue.
         * Stored information is encrypted at two levels. Encryption translates your data into code that is only accessible by you, the login.gov account holder.  This means you are the only one who can view and make changes to your account information.
             * The login.gov operators (i.e. our contact help center) cannot view your information or make any changes.
-            * Information is stored and deleted according to the [National Archives and Records Administration (NARA) approved record schedule](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records){:target="_blank"}.
+            * Information is stored and deleted according to the [National Archives and Records Administration (NARA) approved record schedule](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records).
 
         Protecting your information is our priority. You can read below for a more detailed explanation of our privacy and security practices.
 
@@ -951,7 +951,7 @@ policies:
 
         During identity proofing, the ID is also checked for authenticity. Then, the personal information is validated with the issuing source (ex: state DMVs) or authoritative sources (ex: credit, financial, telephone records). These external services do not retain any personal information, they are only used for validation purposes. Given these stringent requirements, login.gov currently supports state IDs and federal government employee IDs. Over time, login.gov will support additional IDs.
 
-        Your address is also validated during this process. This can be done remotely using a telephone number associated with the address or through a letter with an enrollment code sent to the account holder's address. Please note, the enrollment code is valid for 30 days. (5-10 days for the letter to be delivered along with 10 days to complete address validation on [https://secure.login.gov](https://secure.login.gov){:target="_blank"}). Once validated, login.gov identity credentials are encrypted with the account holder's password. Encryption ensures that only you, the account holder, can access your information with your password.
+        Your address is also validated during this process. This can be done remotely using a telephone number associated with the address or through a letter with an enrollment code sent to the account holder's address. Please note, the enrollment code is valid for 30 days. (5-10 days for the letter to be delivered along with 10 days to complete address validation on [https://secure.login.gov](https://secure.login.gov)). Once validated, login.gov identity credentials are encrypted with the account holder's password. Encryption ensures that only you, the account holder, can access your information with your password.
 
         Protecting your privacy through encryption does come at a cost. Login.gov operators, such as our Contact Center team, cannot make changes on your behalf like unlocking your account, changing your password or updating your email address or phone number. We encourage you to safeguard your authentication method for this reason. While this means login.gov cannot provide that level of customer support, if we chose to make these options available to our customer support team, it would make our system more vulnerable to hacking and other bad actors.
 
@@ -1006,11 +1006,11 @@ policies:
 
         #### What happens to the information you share? ####
 
-        All records are stored electronically in a database in GSA’s Amazon Web Services (AWS) environment. You can modify, or amend, either your email address or phone number on [your account page](https://secure.login.gov/account){:target="_blank"}.
+        All records are stored electronically in a database in GSA’s Amazon Web Services (AWS) environment. You can modify, or amend, either your email address or phone number on [your account page](https://secure.login.gov/account).
 
         Your email address and phone number will be maintained for at least six years in accordance with National Archives and Records Administration (NARA) guidance. However, GSA is authorized to maintain the information for longer if it is required for business use. Login.gov must be able to provide users access to information and services at partner agencies and therefore may have a business need to retain the information longer than the six-year retention period.
 
-        There may be circumstances where we are required to share certain data. For example: if the information is relevant and necessary for an authorized law enforcement purpose; in order to respond to a breach; or to assist another agency as it responds to a breach. For additional information, see the system of record notice number GSA/TTS-1 that GSA’s Technology Transformation Service (TTS) published on [August 10, 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records){:target="_blank"}.
+        There may be circumstances where we are required to share certain data. For example: if the information is relevant and necessary for an authorized law enforcement purpose; in order to respond to a breach; or to assist another agency as it responds to a breach. For additional information, see the system of record notice number GSA/TTS-1 that GSA’s Technology Transformation Service (TTS) published on [August 10, 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
         Even when we share the information with law enforcement, we cannot access PII because the information is encrypted in a manner that is unretrievable to the login.gov team.
 
@@ -1024,11 +1024,11 @@ policies:
 
         When you create an account or visit a new partner agency website after you have created your account, you will see the option to consent to share your information with the partner agency. You are required to give consent yearly for each agency.
 
-        Remember you can revoke consent at any time through [your account page](https://secure.login.gov/account){:target="_blank"} or delete your account entirely on the same page.
+        Remember you can revoke consent at any time through [your account page](https://secure.login.gov/account) or delete your account entirely on the same page.
 
         ### Records - Where can you find more information? ### {#records}
 
-        Please see the Login.gov system of records notice (GSA/TTS–1) at [www.gsa.gov/SORN](https://www.gsa.gov/SORN){:target="_blank"}.
+        Please see the Login.gov system of records notice (GSA/TTS–1) at [www.gsa.gov/SORN](https://www.gsa.gov/SORN).
 
         ### Website Analytics ### {#analytics}
 
@@ -1036,7 +1036,7 @@ policies:
 
         ### Privacy Impact Assessment ### {#impact}
 
-        View our privacy impact assessment at [www.gsa.gov/PIA](https://www.gsa.gov/PIA){:target="_blank"}.
+        View our privacy impact assessment at [www.gsa.gov/PIA](https://www.gsa.gov/PIA).
     - name: Our security practices
       url: "/policy/our-security-practices/"
       sublinks:
@@ -1057,7 +1057,7 @@ policies:
 
         login.gov authorizes the outside security community to perform security research for the intent of reporting discovered security vulnerabilities in the login.gov platform.
 
-        View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/){:target="_blank"} for details on this policy and how to report discovered vulnerabilities.
+        View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/) for details on this policy and how to report discovered vulnerabilities.
 
         ### For more information ### {#more-info}
 
@@ -1098,9 +1098,9 @@ principles_page:
 
     Finally, you should continuously test designs and tools as they’re ready to share and then adjust your project based on what you learn. In some cases, we learn that the current best practices aren’t good enough. And in those cases we’re pushed to try out new ways to give the users the best experience possible. That process involves further testing, educating users, and a willingness to iterate.
 
-    There are a number of specific design methods we practice to remain user-centered, and you can read about all of them, and use them yourself, by reviewing the [18F Design Methods](https://methods.18f.gov/){:target="_blank"}.
+    There are a number of specific design methods we practice to remain user-centered, and you can read about all of them, and use them yourself, by reviewing the [18F Design Methods](https://methods.18f.gov/).
   p_2: |-
-    [Working transparently](https://playbook.cio.gov/#play13){:target="_blank"} and creating a transparent system should be the way any agency works when building or implementing an identity management system. To execute this principle with login.gov, we’re building the platform so that interested parties can advise us on best practices and so that we remain accountable to the public and to our partners across the government. Further, it means building a system that tells users what it does with their information to create accountability and build trust. We’re engaging users and other interested parties through our [GitHub repo](https://github.com/18F/identity-idp){:target="_blank"} and working on creating public forums where people can discuss our work.
+    [Working transparently](https://playbook.cio.gov/#play13) and creating a transparent system should be the way any agency works when building or implementing an identity management system. To execute this principle with login.gov, we’re building the platform so that interested parties can advise us on best practices and so that we remain accountable to the public and to our partners across the government. Further, it means building a system that tells users what it does with their information to create accountability and build trust. We’re engaging users and other interested parties through our [GitHub repo](https://github.com/18F/identity-idp) and working on creating public forums where people can discuss our work.
 
     To make an identity management system transparent for end users, the system you build should include features that educate people about how the system works, why it works that way, and how they can control what’s happening with their data. You should also let users know what information is needed by an agency when logging in to a service. It’s also important to tell users what information your systems will store and if any data is shared with other agencies. If people using the system aren’t comfortable with information sharing, they shouldn’t be forced to participate.
 
@@ -1110,7 +1110,7 @@ principles_page:
 
     We’re embracing this principle for every aspect of the project in building login.gov.
 
-    [Read this guide](https://pages.18f.gov/agile/index.html){:target="_blank"} to agile principles and practices put together by the 18F team to learn more about what it means to work in an agile way.
+    [Read this guide](https://pages.18f.gov/agile/index.html) to agile principles and practices put together by the 18F team to learn more about what it means to work in an agile way.
   p_4: |-
     Consumer identity management systems store personal information about users so that people don’t have to repeat the verification and authentication processes over and over again. However, collecting and storing personal information raises ethical and legal questions that system designers and developers need to consider. Often, what comes to mind first are technical questions about security: protecting information from unauthorized or illegal access and uses. However, we also need to worry about authorized, legal uses of personal information that violate users’ expectations of privacy. Users of login.gov need to be sure that we’re handling their personal information respectfully and appropriately.
 
@@ -1126,7 +1126,7 @@ principles_page:
 
     In login.gov’s case, for instance, we have to decide exactly what data we store and for how long. We also have to decide what steps users must take to access their information. All of these decisions take careful deliberation to determine what’s the best option for both users and agencies and to ensure maximum functionality.
 
-    In building login.gov, we’re adhering to standards put forward by the [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/){:target="_blank"} (NIST 800-63-3). Additionally we’re adhering to [government security best practices](https://playbook.cio.gov/#play11){:target="_blank"} including FedRAMP, building in the open, conducting rigorous and routine security evaluations in addition to compliance with the Federal Information Security Management Act (FISMA).
+    In building login.gov, we’re adhering to standards put forward by the [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/) (NIST 800-63-3). Additionally we’re adhering to [government security best practices](https://playbook.cio.gov/#play11) including FedRAMP, building in the open, conducting rigorous and routine security evaluations in addition to compliance with the Federal Information Security Management Act (FISMA).
   ul_1:
     li_1: Identify your potential audiences
     li_2: Understand the login experiences and identity needs of your audiences
@@ -1162,7 +1162,7 @@ security_page:
   column_1:
     heading: The vault
     p_1: It's hard to break into the “vault” or database. login.gov implements the
-      latest [National Institute of Standards and Technology (NIST)](https://www.nist.gov/){:target="_blank"}
+      latest [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
       standards for secure authentication and verification. Our plans for ongoing
       security include regular penetration testing and external security reviews.
   column_2:
@@ -1198,7 +1198,7 @@ security_page:
       repository. Our goal: make sure that at every step users know their
       privacy is being protected by design.
     p_2: For more information, please visit [Help](site.baseurl/help) or [contact
-      us](site.baseurl/contact). You can also visit our [open-source repository](https://github.com/18F/identity-idp){:target="_blank"}.
+      us](site.baseurl/contact). You can also visit our [open-source repository](https://github.com/18F/identity-idp).
   heading: How login.gov keeps personal information private
 what-is-login-page:
   hero:
@@ -1222,13 +1222,13 @@ what-is-login-page:
 
     Login.gov is your one account for government. [Learn more about creating an account](site.baseurl/create-an-account/).
 
-    Already have an account? [Sign in to manage your account and update your personal information or security options](https://secure.login.gov){:target="_blank"}.
+    Already have an account? [Sign in to manage your account and update your personal information or security options](https://secure.login.gov).
   secure-account: |-
     ## Secure and private access for the public
 
     Login.gov uses [the highest standards of security](site.baseurl/security/) to keep your information safe including identity verification and [two-factor authentication](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/).
 
-    Login.gov is provided by [Technology Transformation Services (TTS)](https://www.gsa.gov/tts){:target='_blank'}.
+    Login.gov is provided by [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
 
     <div class="mobile secure-account-img" aria-hidden="true"></div>
 who-uses-login-page:
@@ -1246,9 +1246,9 @@ who-uses-login-page:
 
     <div class="mobile partners-img" aria-hidden="true"></div>
   security: |-
-    Login.gov adheres to the latest [security standards](site.baseurl/security) established by top security organizations such as the [National Institute of Standards and Technology](https://www.nist.gov/){:target='_blank'}, the [Cybersecurity National Action Plan](https://www.hsdl.org/c/cybersecurity-national-action-plan/){:target='_blank'} and the [Federal Acquisition Service](https://www.gsa.gov/about-us/organization/federal-acquisition-service){:target='_blank'}
+    Login.gov adheres to the latest [security standards](site.baseurl/security) established by top security organizations such as the [National Institute of Standards and Technology](https://www.nist.gov/), the [Cybersecurity National Action Plan](https://www.hsdl.org/c/cybersecurity-national-action-plan/) and the [Federal Acquisition Service](https://www.gsa.gov/about-us/organization/federal-acquisition-service)
 
-    Agencies choose login.gov because we provide a secure — and simple — solution. [Read more about our partner program](https://partners.login.gov){:target='_blank'}.
+    Agencies choose login.gov because we provide a secure — and simple — solution. [Read more about our partner program](https://partners.login.gov).
 why-login-gov_page:
   heading: Why login.gov
   heading_1: Overview of login.gov
@@ -1260,7 +1260,7 @@ why-login-gov_page:
   heading_7: Primary benefits of using login.gov
   heading_8: Using login.gov with mobile apps
   p_1: |-
-    With one login.gov account, users can securely sign in to multiple government agencies online. login.gov is a FedRAMP approved authentication and identity proofing platform that makes online interactions with the U.S. government simple, efficient and intuitive. login.gov empowers people to feel safe signing into government websites and accessing federal services online with a single, privacy-protected account. We enable agencies managing federal benefits, services, and applications to make their offerings easier and more secure. We save agencies time and money by offering a shared solution for remote identity proofing that is secure and recommended by the [Government Accountability Office](https://www.gao.gov/products/GAO-19-288){:target="_blank"}.
+    With one login.gov account, users can securely sign in to multiple government agencies online. login.gov is a FedRAMP approved authentication and identity proofing platform that makes online interactions with the U.S. government simple, efficient and intuitive. login.gov empowers people to feel safe signing into government websites and accessing federal services online with a single, privacy-protected account. We enable agencies managing federal benefits, services, and applications to make their offerings easier and more secure. We save agencies time and money by offering a shared solution for remote identity proofing that is secure and recommended by the [Government Accountability Office](https://www.gao.gov/products/GAO-19-288).
   p_2: |-
     login.gov offers the public a single, secure, and private access to online federal services, eliminating the need to remember passwords for multiple systems.  It also reduces costs of developing or buying duplicative authentication and proofing solutions for agencies, so they can focus on their mission. The more agencies that adopt login.gov, the more taxpayers save. Through login.gov agencies can provide a more consistent customer experience by reducing duplicate accounts and encouraging a 21st Century IDEA compliant experience.
   p_3: |-
