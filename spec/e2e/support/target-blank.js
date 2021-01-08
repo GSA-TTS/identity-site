@@ -18,7 +18,6 @@ async function getLinks(page) {
       return {
         innerText: a.innerText.trim(),
         href: a.href,
-        className: a.className,
         target: a.target,
       };
     }),
