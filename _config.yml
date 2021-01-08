@@ -85,24 +85,6 @@ help_pages:
 - specific-agencies
 - verify-your-identity
 
-# Per-section configs
-playbook:
-  principles:
-   - anchor: users
-     img: graphic-users
-     text: Focus on user needs
-   - anchor: transparent
-     img: graphic-venn
-     text: Be transparent about how it works
-   - anchor: flexible
-     img: graphic-half-circle
-     text: Build a flexible product
-   - anchor: privacy
-     img: graphic-locks
-     text: Use modern privacy practices
-   - anchor: security
-     img: graphic-hex
-     text: Create responsive security systems
 baseurl:
 
 url: https://www.login.gov
