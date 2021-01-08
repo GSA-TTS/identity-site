@@ -11,14 +11,16 @@
  * @return {Promise<SimplifiedLink[]>}
  */
 async function getLinks(page) {
-  return await page.$$eval('a', (aTags) => aTags.map((a) => {
-    // Get the info we want across the Chrome DevTools Protocol
-    return {
-      innerText: a.innerText.trim(),
-      href: a.href,
-      target: a.target,
-    };
-  }));
+  return await page.$$eval('a', (aTags) =>
+    aTags.map((a) => {
+      // Get the info we want across the Chrome DevTools Protocol
+      return {
+        innerText: a.innerText.trim(),
+        href: a.href,
+        target: a.target,
+      };
+    }),
+  );
 }
 
 /**
