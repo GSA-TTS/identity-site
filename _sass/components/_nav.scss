@@ -77,12 +77,6 @@
   }
 }
 
-.usa-logo a {
-  .help-page & {
-    display: block;
-  }
-}
-
 .usa-logo span {
   font-size: 1.313rem;
 }
@@ -97,17 +91,9 @@
 }
 
 .usa-logo__img {
-  height: 1rem;
-  width: px-to-rem(172px) / px-to-rem(23px) * 1rem;
-
   .help-page & {
+    display: block;
     height: 0.875rem;
-    width: px-to-rem(172px) / px-to-rem(23px) * 0.875rem;
-  }
-
-  @include at-media("desktop") {
-    height: 1.5rem;
-    width: px-to-rem(172px) / px-to-rem(23px) * 1.5rem;
   }
 }
 
