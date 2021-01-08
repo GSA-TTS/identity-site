@@ -613,13 +613,13 @@ nav:
     title: Accesibilidad
     sections:
       - name: Nuestro compromiso
-        url: /accessibility/#nuestro-compromiso
+        url: "#nuestro-compromiso"
       - name: Estándares
-        url: /accessibility/#estándares
+        url: "#estándares"
       - name: Evaluación
-        url: /accessibility/#evaluación
+        url: "#evaluación"
       - name: Limitaciones conocidas
-        url: /accessibility/#políticas-de-accesibilidad
+        url: "#políticas-de-accesibilidad"
   about_us: Sobre nosotros
   anchor_to_top: Volver arriba
   become_a_partner: Convertirse en un compañero
@@ -627,11 +627,11 @@ nav:
     title: Contacta con nosotros
     sections:
       - name: ¿Tiene alguna pregunta sobre la cuenta de su agencia?
-        url: /contact/#tiene-alguna-pregunta-sobre-la-cuenta-de-su-agencia
+        url: "#tiene-alguna-pregunta-sobre-la-cuenta-de-su-agencia"
       - name: Asociarse con login.gov
-        url: /contact/#asociarse-con-logingov
+        url: "#asociarse-con-logingov"
       - name: Reportar un problema
-        url: /contact/#reportar-un-problema
+        url: "#reportar-un-problema"
   contact_login_gov: Póngase en contacto con Login.gov
   create_an_account: Crea una cuenta
   developer_guide: Guía para desarrolladores
@@ -651,15 +651,15 @@ nav:
     title: Privacidad y seguridad
     sections:
       - name: Nuestro compromiso con su privacidad y seguridad
-        url: /policy/
+        url: /es/policy/
       - name: ¿Cómo funciona?
-        url: /policy/how-does-it-work/
+        url: /es/policy/how-does-it-work/
       - name: Nuestra declaración de la ley de privacidad
-        url: /policy/our-privacy-act-statement/
+        url: /es/policy/our-privacy-act-statement/
       - name: Nuestras prácticas de seguridad
-        url: /policy/our-security-practices/
+        url: /es/policy/our-security-practices/
       - name: Términos y condiciones de mensajería
-        url: /policy/messaging-terms-and-conditions/
+        url: /es/policy/messaging-terms-and-conditions/
   principles: Principios
   privacy_&_security: Privacidad y seguridad
   security: Seguridad

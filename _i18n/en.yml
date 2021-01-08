@@ -796,13 +796,13 @@ nav:
     title: Accessibility statement
     sections:
       - name: Our Commitment
-        url: /accessibility/#our-commitment
+        url: "#our-commitment"
       - name: Standards
-        url: /accessibility/#standards
+        url: "#standards"
       - name: Evaluation
-        url: /accessibility/#evaluation
+        url: "#evaluation"
       - name: Known limitations
-        url: /accessibility/#known-limitations
+        url: "#known-limitations"
   anchor_to_top: Back to top
   about_us: About us
   become_a_partner: Become a partner
@@ -810,11 +810,11 @@ nav:
     title: Contact us
     sections:
       - name: Do you have a question about your agency account?
-        url: /contact/#do-you-have-a-question-about-your-agency-account
+        url: "#do-you-have-a-question-about-your-agency-account"
       - name: Partner with login.gov
-        url: /contact/#partner-with-logingov
+        url: "#partner-with-logingov"
       - name: Report an issue
-        url: /contact/#report-an-issue
+        url: "#report-an-issue"
   contact_login_gov: Contact Login.gov
   create_an_account: Create an account
   developer_guide: Developer guide

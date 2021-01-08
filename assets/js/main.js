@@ -59,7 +59,7 @@ $(function () {
     if (this.hash !== '') {
       event.preventDefault();
 
-      var hash = this.hash;
+      var hash = this.getAttribute('href');
 
       $('html, body').animate(
         {
