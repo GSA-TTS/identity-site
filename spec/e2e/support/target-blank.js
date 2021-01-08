@@ -7,8 +7,10 @@
  * @prop {string=} target
  */
 
-/** @type {import('puppeteer').Page} */
-/** @return {Promise<SimplifiedLink[]>} */
+/**
+ * @param {import('puppeteer').Page} page */
+ * @return {Promise<SimplifiedLink[]>}
+ */
 async function getLinks(page) {
   return await page.evaluate(() =>
     Array.prototype.map.call(document.querySelectorAll('a'), (a) => {
