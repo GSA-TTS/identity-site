@@ -26,6 +26,7 @@ redirect_from:
 - /help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/
 - /help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/
 - /help/creating-an-account/why-is-my-confirmation-link-invalid/
+- /help/get-started/
 ---
 
 # {% t page.title %}
