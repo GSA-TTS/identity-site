@@ -49,10 +49,11 @@
           </a>
         </div>
         <div
-          class="usa-identifier__identity text-base-lightest"
-          aria-label="{% t identifier.accessible_labels.description %}">
+          class="usa-identifier__identity"
+          aria-label="{% t identifier.accessible_labels.description %}"
+        >
           <p class="usa-identifier__identity-domain">login.gov</p>
-          <p class="usa-identifier__identity-disclaimer text-base-lightest">
+          <p class="usa-identifier__identity-disclaimer">
             {{ site.translations[site.lang].identifier.disclaimer | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
           </p>
         </div>
@@ -125,7 +126,7 @@
       aria-label="{% t identifier.accessible_labels.usa_gov %}"
     >
       <div class="usa-identifier__container">
-        <div class="usa-identifier__usagov-description text-base-lightest">
+        <div class="usa-identifier__usagov-description">
           {% t identifier.usa_gov.text %}
         </div>
         <a href="https://www.usa.gov/" class="usa-link">
