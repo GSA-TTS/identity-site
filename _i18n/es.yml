@@ -213,9 +213,9 @@ help_pages:
           * Tarjeta PIV o CAC para empleados del gobierno federal o militares
 
           __Menos seguro:__
-          * Mensaje de texto (menos seguro)
-          * Llamada telefónica (menos seguro)
-          * Códigos de respaldo (menos seguro)
+          * Mensaje de texto
+          * Llamada telefónica
+          * Códigos de respaldo
 
           [Conozca más sobre cada opción de autenticación](site.baseurl/help/get-started/authentication-options) para elegir la que sea apropiada para usted.
       1. ¡El proceso fue exitoso! Una vez que haya autenticado, habrá creado su cuenta de login.gov.
