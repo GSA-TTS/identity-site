@@ -398,19 +398,19 @@ help_pages:
       {: .number-list}
     delete-your-account: |-
       #  Supprimer votre compte
-      __Plusieurs raisons peuvent justifier le besoin de supprimer votre compte:__
+      ### Plusieurs raisons peuvent justifier le besoin de supprimer votre compte:
       * Vous réalisez que vous avez plusieurs comptes avec différentes adresses de courriel et vous souhaitez avoir un seul compte.
       * Vous ne pouvez plus accéder à votre compte et vous n'avez plus accès à vos méthodes d'authentification.
       * Vous n'avez plus besoin d'avoir un compte login.gov
 
-      __Si vous supprimez votre compte:__
+      ### Si vous supprimez votre compte:
       * Nous supprimerons votre adresse courriel, votre mot de passe et votre numéro de téléphone.
       * Vous ne pourrez plus accéder de manière sécurisée aux agences partenaires qui exigent un compte login.gov.
 
       Après la suppression de votre compte, vous ne pourrez plus accéder aux applications gouvernementales auxquelles vous pouvez accéder
       normalement en utilisant votre compte login.gov. Vous ne perdrez pas vos informations dans ces applications, mais vous aurez besoin d'un * compte login.gov pour pouvoir vous connecter à ces applications.
 
-      __Si vous avez accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:__
+      ### Si vous avez accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:
       1. Saisissez votre adresse courriel sur [https://secure.login.gov](https://secure.login.gov).
       1. Saisissez votre mot de passe.
       1. Cliquez sur le bouton « Connexion ».
@@ -420,7 +420,7 @@ help_pages:
       1. Saisissez votre mot de passe pour confirmer votre souhait de supprimer le compte.
       {: .number-list}
 
-      __Si vous n'avez pas accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:__
+      ### Si vous n'avez pas accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:
       Par mesure de sécurité, Login.gov impose un processus en 2 étapes et une période d'attente de 24 heures, si vous n'avez plus accès à vos méthodes d'authentification et avez besoin de supprimer votre compte.
 
       1. Accédez à la page de connexion de l'application de votre gouvernement ou allez à l'adresse [https://secure.login.gov/](https://secure.login.gov/).
@@ -430,8 +430,9 @@ help_pages:
       1. Lisez toutes les informations attentivement pour vous assurer que la suppression de votre compte est la seule option qui s'offre à vous.
       1. Cliquez sur « Oui, continuer la suppression »
       1. Vous recevrez deux courriels.
-          1. Le premier confirme que nous avons reçu votre demande. Votre compte n'est pas encore supprimé. Une action supplémentaire est nécessaire.
-          1. Le deuxième courriel vous est envoyé 24 heures après le premier. Suivez les instructions énoncées dans le courriel pour terminer la suppression.
+          * Le premier confirme que nous avons reçu votre demande. Votre compte n'est pas encore supprimé. Une action supplémentaire est nécessaire.
+          * Le deuxième courriel vous est envoyé 24 heures après le premier. Suivez les instructions énoncées dans le courriel pour terminer la suppression.
+      {: .number-list}
   specific-agencies:
     overview: |-
       Login.gov est réservé à l'accès au compte et à l'ouverture de session. Ce compte n'affecte pas et ne contient aucune information relative à l'agence spécifique à laquelle vous essayez d'accéder.

@@ -367,18 +367,18 @@ help_pages:
       {: .number-list}
     delete-your-account: |-
       # Eliminar su cuenta
-      __Quizá tenga que eliminar una cuenta por diferentes razones:__
+      ### Quizá tenga que eliminar una cuenta por diferentes razones:
       * Advierte que tiene varias cuentas con diferentes direcciones de correo electrónico y quiere tener una sola cuenta
       * Se ha bloqueado su cuenta y ha perdido el acceso a sus métodos de autenticación
       * Ya no necesita una cuenta de login.gov
 
-      __Si elimina su cuenta:__
+      ### Si elimina su cuenta:
       * Eliminaremos su dirección de correo electrónico, contraseña y número de teléfono
       * Usted no podrá acceder de forma segura a las agencias asociadas que requieren una cuenta de login.gov
 
       Después de que elimine su cuenta, no podrá acceder a las aplicaciones gubernamentales a las que suele acceder con su cuenta de login.gov. Sin embargo, no perderá su información en esas aplicaciones, pero necesitará una cuenta nueva de login.gov para poder iniciar sesión en esas aplicaciones.
 
-      __Si tiene acceso a sus métodos de autenticación, realice los siguientes pasos para eliminar su cuenta:__
+      ### Si tiene acceso a sus métodos de autenticación, realice los siguientes pasos para eliminar su cuenta:
 
       1. Escriba su dirección de correo electrónico en [https://secure.login.gov](https://secure.login.gov).
       1. Introduzca su contraseña.
@@ -389,7 +389,7 @@ help_pages:
       1. Escriba su contraseña para confirmar que desea eliminar su cuenta.
       {: .number-list}
 
-      __Si NO cuenta con los métodos de autenticación siga los siguientes pasos para eliminar la cuenta:__
+      ### Si NO cuenta con los métodos de autenticación siga los siguientes pasos para eliminar la cuenta:
       Por motivos de seguridad, Login.gov requiere un procedimiento de dos pasos y de un período de espera de 24 horas en caso de que haya perdido el acceso a sus métodos de autenticación y tenga que eliminar su cuenta.
 
       1. Visite la página de inicio de sesión de su solicitud de gobierno o en [https://secure.login.gov/](https://secure.login.gov/)
