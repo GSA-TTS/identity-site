@@ -365,11 +365,11 @@ help_pages:
 
       If you still have the option to use personal key for two-factor authentication, you’ll be asked to set up a different authentication method the next time you sign in. You can choose from phone SMS or voice call, authenticator app, security key, government or military employee ID (PIV/CAC), or backup codes. After you set up your new authentication method, you won’t be able to use personal key as an authentication method anymore.
 
-      **Read more**
-      [Two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
-      [Personal key not working](site.baseurl/help/signing-in/personal-key-not-working/)
-      [What is phishing?](site.baseurl/help/privacy-and-security/what-is-phishing/)
-      [Why do I need to verify my identity?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
+      ## Related articles
+      * [Two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
+      * [Personal key not working](site.baseurl/help/signing-in/personal-key-not-working/)
+      * [What is phishing?](site.baseurl/help/privacy-and-security/what-is-phishing/)
+      * [Why do I need to verify my identity?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
     password-reset-issues: |-
       # Password reset issues
       login.gov uses two-factor authentication (2FA) to keep accounts secure. This means that, each time you sign in, you must use something you know and something you have. This makes your account safer by making it much harder for others to break into it.
@@ -385,9 +385,9 @@ help_pages:
 
       We’ll ask you to set up at least two different two-factor authentication methods for your account. You won’t have to use both every time you sign in, but it helps make sure you don’t lose access to your account (for example, if you lose your phone and need to change your phone number).
 
-      **Read more**
-      [Phone didn’t get a security code](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
-      [No phone or other authentication method](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
+      ## Related articles
+      * [Phone didn’t get a security code](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
+      * [No phone or other authentication method](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
   manage-your-account:
     overview: |-
       # Manage your account
