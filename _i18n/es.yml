@@ -34,7 +34,7 @@ contact_page:
       - [Necesito ayuda para verificar mi identidad](site.baseurl/help/verify-your-identity/overview)
       - [Necesito cambiar mi información o administrar mi cuenta](site.baseurl/help/manage-your-account/overview)
       - [Explorar más artículos de ayuda](site.baseurl/help)
-      {: .help-question-list}
+
 
       ## ¿Tiene alguna pregunta sobre la cuenta de su agencia?
 
@@ -174,12 +174,15 @@ help_pages:
   get-started:
     overview: |-
       Login.gov es la única cuenta y contraseña pública para el gobierno. Login.gov es un servicio compartido y de confianza de las agencias gubernamentales. Con una sola cuenta de login.gov se puede acceder a las solicitudes de los socios gubernamentales que participan.
-    
+
+
       * Cree su cuenta de login.gov
       * Conozca las opciones de autenticación
       * Por qué se le solicita que use login.gov
 
-      ## Temas más comunes de solución de problemas {#help-question-list}
+      ## Temas más comunes de solución de problemas
+
+
       * Problemas con la confirmación de la dirección de correo electrónico
       * Código de seguridad no recibido en el teléfono
     create-your-account: |-
@@ -227,7 +230,10 @@ help_pages:
     overview: |-
       # ¿Problemas al iniciar sesión?
       ¿Olvidaste tu contraseña? ¿Bloqueado tu cuenta? Lo ayudaremos a resolver problemas de acceso a la cuenta.
-      ## Problemas comunes en la solución de problemas {#help-question-list}
+
+      ## Temas más comunes de solución de problemas
+
+
         * [Cómo acceder a login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Olvidó su contraseña](site.baseurl/help/trouble-signing-in/forgot-your-password)
         * [Bloqueada en la cuenta de login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login)
@@ -307,7 +313,9 @@ help_pages:
       # Administrar su cuenta
       Administrar los ajustes de su cuenta, incluidos su contraseña, número de teléfono, correo electrónico y más.
 
-      ## Temas comunes de solución de problemas {#help-question-list}
+      ## Temas más comunes de solución de problemas
+
+
       * [Cambiar su contraseña](#)
       * [Cambiar el número de teléfono asociado a su cuenta](#)
       * [Cambiar la dirección de correo electrónico asociada a su cuenta](#)
@@ -383,12 +391,14 @@ help_pages:
 
       Proporcionamos algunos elementos de ayuda específicos para nuestros socios de la agencia más grande. Le recomendamos que se ponga en contacto con la agencia en caso de tener preguntas específicas.
 
-      ## Temas habituales para la solución de problemas
+      ## Temas más comunes de solución de problemas
+
       * [Cómo iniciar sesión en login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in/)
       * [Cambie su contraseña](site.baseurl/help/manage-your-account/change-your-password/)
       * [Ha olvidado su contraseña](site.baseurl/help/trouble-signing-in/forgot-your-password/)
       * [Bloqueado de la cuenta de login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
       * [No se dispone de teléfono ni de métodos de autentificación](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
+
     sam: |-
       Solo puedes iniciar sesión en login.gov de forma segura. Tu cuenta de login.gov no afecta tu cuenta, solicitud, estado, membresía o elegibilidad al Sistema para la Administración de Subvenciones (SAM) ni tiene información alguna al respecto.
 
@@ -439,7 +449,9 @@ help_pages:
 
       Utilice esta sección de ayuda para conocer el proceso y los requisitos relacionados con la verificación de la identidad.
 
-      ## Solución de problemas frecuentes {#help-question-list}
+      ## Solución de problemas frecuentes
+
+
        * [Cómo verificar su identidad](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
        * [Verificación de dirección por correo](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
        * [¿No tiene una identificación emitida por el estado?](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)

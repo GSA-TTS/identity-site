@@ -34,7 +34,6 @@ contact_page:
       - [I need help verifying my identity](site.baseurl/help/verify-your-identity/overview)
       - [I need to change my information or manage my account](site.baseurl/help/manage-your-account/overview)
       - [Browse more help articles](site.baseurl/help)
-      {: .help-question-list}
 
       ## Do you have a question about your agency account?
 
@@ -220,10 +219,14 @@ help_pages:
       Login.gov is the public's one account and password for government. Login.gov is a shared service and trusted by government agencies. With one login.gov account you can access applications from participating government partners.
 
       Create your login.gov account
+
+      {:.help-question-list}
       * Learn about authentication options
       * Why you are being asked to use login.gov
 
-      ## Common troubleshooting topics {#help-question-list}
+      ## Common troubleshooting topics
+
+      {:.help-question-list}
       * Email address confirmation issues
       * Security code not received on phone
     create-your-account: |-
@@ -272,7 +275,8 @@ help_pages:
       # Trouble signing in?
       Forgot your password? Locked out of your account? We'll help you resolve account access issues.
 
-      ## Common troubleshooting topics {#help-question-list}
+      ## Common troubleshooting topics
+
         * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password)
         * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login)
@@ -382,7 +386,8 @@ help_pages:
       # Manage your account
       Manage your account settings including your password, phone number, email, and more.
 
-      ## Common troubleshooting topics {#help-question-list}
+      ## Common troubleshooting topics
+
       * [Change your password](#)
       * [Change the phone number associated with your account](#)
       * [Change the email address associated with your account](#)
@@ -477,6 +482,7 @@ help_pages:
       We provide some specific help content for our larger agency partners. We encourage you to contact the agency with specific questions.
 
       ## Common troubleshooting topics
+
       * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in/)
       * [Change your password](site.baseurl/help/manage-your-account/change-your-password/)
       * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password/)
@@ -553,7 +559,8 @@ help_pages:
 
       Use this help section to understand the process and requirements for identity verification.
 
-      ## Common troubleshooting topics {#help-question-list}
+      ## Common troubleshooting topics
+
        * [How to verify your identity](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
        * [Verify your address by mail](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
        * [Don’t have a state-issued ID](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
