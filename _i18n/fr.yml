@@ -222,16 +222,16 @@ help_pages:
       1. Saisissez votre mot de passe.
       1. Cliquez sur le bouton « Se connecter ».
       1. Authentifiez-vous à l'aide d'une des méthodes que vous avez mises en place. Les options comprennent :
-          1. Saisie d'un code de sécurité à partir de votre demande d'authentification
-          1. Utilisation de votre clé de sécurité
-          1. Saisie d'un code de sécurité que vous recevez par SMS ou par appel téléphonique
-          1. Saisie d'un code de sauvegarde
-          1. Utilisation de votre carte d'employé du gouvernement fédéral ou de votre carte d'identité militaire (PIV ou CAC))
+        * Saisie d'un code de sécurité à partir de votre demande d'authentification
+        * Utilisation de votre clé de sécurité
+        * Saisie d'un code de sécurité que vous recevez par SMS ou par appel téléphonique
+        * Saisie d'un code de sauvegarde
+        * Utilisation de votre carte d'employé du gouvernement fédéral ou de votre carte d'identité militaire (PIV ou CAC))
       1. Vous serez ensuite dirigé vers la page de votre compte login.gov.
 
       ## Articles connexes
-      [Options d'authentification](#)
-      [Vérifiez votre identité](#)
+      * [Options d'authentification](#)
+      * [Vérifiez votre identité](#)
     forgot-your-password: |-
       # Mot de passe oublié
       Suivez ces étapes pour réinitialiser votre mot de passe.

@@ -56,6 +56,10 @@ ul.help-question-list {
       text-align: center;
       width: 25px;
     }
+
+    > ul {
+      list-style-type: disc;
+    }
   }
 
   p {

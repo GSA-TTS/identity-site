@@ -295,16 +295,16 @@ help_pages:
         1. Enter your password.
         1. Click the “Sign in” button.
         1. Authenticate using one of the methods you set up. Options include:
-            1. Entering a security code from your authentication application
-            1. Using your security key
-            1. Entering a security code that you receive by text or by phone call
-            1. Entering a backup code
-            1. Using your federal government employee or military ID (PIV or CAC)
+            * Entering a security code from your authentication application
+            * Using your security key
+            * Entering a security code that you receive by text or by phone call
+            * Entering a backup code
+            * Using your federal government employee or military ID (PIV or CAC)
         1. You will then be taken to your login.gov account page.
 
       ## Related articles
-      [Authentication options](#)
-      [Verify your identity](#)
+      * [Authentication options](#)
+      * [Verify your identity](#)
     forgot-your-password: |-
       # Forgot your password
       Follow these steps to reset your password.

@@ -225,7 +225,6 @@ help_pages:
       ## Artículos relacionados
       * [Opciones de autenticación](site.baseurl/help/get-started/authentication-options)
       * [Gestione su cuenta](site.baseurl/help/manage-your-account/overview)
-
   trouble-signing-in:
     overview: |-
       # ¿Problemas al iniciar sesión?
@@ -251,16 +250,16 @@ help_pages:
       1. Ingrese su contraseña.
       1. Haga clic en el botón "Iniciar sesión".
       1. Realice la autenticación utilizando alguno de los métodos que haya configurado. Las opciones incluyen:
-          1. Ingresar un código de seguridad de su aplicación de autenticación.
-          1. Usar su llave de seguridad.
-          1. Ingresar un código de seguridad que recibirá por mensaje de texto o llamada telefónica.
-          1. Ingresar un código de verificación.
-          1. Utilizar su ID de empleado del Gobierno Federal o del ejército (PIV o CAC)
+        * Ingresar un código de seguridad de su aplicación de autenticación.
+        * Usar su llave de seguridad.
+        * Ingresar un código de seguridad que recibirá por mensaje de texto o llamada telefónica.
+        * Ingresar un código de verificación.
+        * Utilizar su ID de empleado del Gobierno Federal o del ejército (PIV o CAC)
       1. Entonces, será redirigido la página de su cuenta de login.gov.
 
       ## Artículos relacionados
-      [Opciones de autenticación](#)
-      [Verificar su identidad](#)
+      * [Opciones de autenticación](#)
+      * [Verificar su identidad](#)
     forgot-your-password: |-
       # Olvidó su contraseña
       Siga estos pasos para restablecer su contraseña.
