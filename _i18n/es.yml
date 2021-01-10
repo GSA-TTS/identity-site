@@ -337,17 +337,6 @@ help_pages:
           Su contraseña de login.gov debe ser diferente de las contraseñas que usa para otras cuentas, como su cuenta bancaria o correo electrónico. Utilizar la misma contraseña en múltiples cuentas facilita el robo de identidad.
       1. Haga clic en el botón "Modificar contraseña".
       {: .number-list}
-
-    locked-out-of-login: |-
-      tbd
-    phone-or-authentication-methods-not-available: |-
-      tbd
-    forgot-your-email-address: |-
-      tbd
-    password-reset-issues: |-
-      tbd
-    security-code-issues: |-
-      tbd
   manage-your-account:
     overview: |-
       # Administrar su cuenta

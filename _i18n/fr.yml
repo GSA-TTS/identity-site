@@ -368,16 +368,6 @@ help_pages:
           Votre mot de passe login.gov doit être différent des mots de passe que vous utilisez pour d’autres comptes tels que votre compte bancaire ou votre courrier électronique. L’utilisation du même mot de passe pour de nombreux comptes facilite l’usurpation d’identité.
       1. Cliquez sur le bouton « Changer le mot de passe ».
       {: .number-list}
-    locked-out-of-login: |-
-      tbd
-    phone-or-authentication-methods-not-available: |-
-      tbd
-    forgot-your-email-address: |-
-      tbd
-    security-code-issues: |-
-      tbd
-    password-reset-issues: |-
-      tbd
   manage-your-account:
     overview: |-
       # Gérez votre compte
