@@ -180,24 +180,24 @@ help:
     how-to-sign-in: Comment se connecter à login.gov
     forgot-your-password: Mot de passe oublié
     locked-out-of-login: Verrouillé du compte login.gov
-    phone-or-authentication-methods-not-available: Téléphone ou méthodes d’authentification non disponibles
     forgot-your-email-address: Adresse courriel oubliée
-    security-code-issues: Problèmes de code de sécurité
+    phone-or-authentication-methods-not-available: Téléphone ou méthodes d’authentification non disponibles
     password-reset-issues: Problèmes de réinitialisation du mot de passe
+    security-code-issues: Problèmes de code de sécurité
   manage-your-account:
     overview: Aperçu
     change-your-password: Changez votre mot de passe
     delete-your-account: Supprimer votre compte
-  specific-agencies:
-    overview: Aperçu
-    sam: Système de saisie des prix (SAM) Aperçu du compte
-    trusted-traveler-programs: Programmes pour voyageurs fiables (TTP)
   verify-your-identity:
     overview: Aperçu
     how-to-verify-your-identity: Comment vérifier votre identité
     verify-your-address-by-mail: Vérifiez votre adresse par courrier
     dont-have-a-state-issued-id: Vous ne disposez pas d’une carte d’identité délivrée par l’État
     personal-key-issues: Problèmes personnels majeurs
+  specific-agencies:
+      overview: Aperçu
+      trusted-traveler-programs: Programmes pour voyageurs fiables (TTP)
+      sam: Système de saisie des prix (SAM) Aperçu du compte
 help_page:
   p_1: Parcourir les sujets communs
   title: Comment pouvons nous aider?

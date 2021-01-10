@@ -149,24 +149,24 @@ help:
     how-to-sign-in: Cómo acceder a login.gov
     forgot-your-password: Olvidó su contraseña
     locked-out-of-login: Bloqueada en la cuenta de login.gov
-    phone-or-authentication-methods-not-available: No hay teléfono ni métodos de autenticación disponibles
     forgot-your-email-address: Olvidó su dirección de correo electrónico
-    security-code-issues: Problemas con el código de seguridad
+    phone-or-authentication-methods-not-available: No hay teléfono ni métodos de autenticación disponibles
     password-reset-issues: Problemas con el restablecimiento de la contraseña
+    security-code-issues: Problemas con el código de seguridad
   manage-your-account:
     overview: Visión general
     change-your-password: Cambiar su contraseña
     delete-your-account: Eliminar su cuenta
-  specific-agencies:
-    overview: Visión general
-    trusted-traveler-programs: Programas de Viajero de Confianza (TTP, por sus siglas en inglés)
-    sam: Resumen de la cuenta del Sistema para la Administración de Subvenciones (SAM)
   verify-your-identity:
     overview: Visión general
     how-to-verify-your-identity: Cómo verificar su identidad
     verify-your-address-by-mail: Verificación de dirección por correo
     dont-have-a-state-issued-id: ¿No tiene una identificación emitida por el estado?
     personal-key-issues: Problemas con la clave personal
+  specific-agencies:
+      overview: Visión general
+      trusted-traveler-programs: Programas de Viajero de Confianza (TTP, por sus siglas en inglés)
+      sam: Resumen de la cuenta del Sistema para la Administración de Subvenciones (SAM)
 help_page:
   p_1: Explore los temas comunes
   title: ¿Cómo podemos ayudar?

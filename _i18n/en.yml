@@ -191,26 +191,26 @@ help:
     how-to-sign-in: How to sign in to login.gov
     forgot-your-password: Forgot your password
     locked-out-of-login: Locked out of login.gov account
-    phone-or-authentication-methods-not-available: Phone or authentication methods not available
     forgot-your-email-address: Forgot your email address
-    security-code-issues: Security code issues
+    phone-or-authentication-methods-not-available: Phone or authentication methods not available
     password-reset-issues: Password reset issues
+    security-code-issues: Security code issues
   manage-your-account:
     overview: Overview
     change-your-password: Change your password
     delete-your-account: Delete your account
     change-your-phone-number: Change the phone number associated with your account
-  specific-agencies:
-    overview: Overview
-    usajobs: USAJOBS
-    sam: System for Award Management (SAM)
-    trusted-traveler-programs: Trusted Traveler Programs (TTP)
   verify-your-identity:
     overview: Overview
     how-to-verify-your-identity: How to verify your identity
     verify-your-address-by-mail: Verify your address by mail
     dont-have-a-state-issued-id: Don’t have a state-issued ID
     personal-key-issues: Personal key issues
+  specific-agencies:
+      overview: Overview
+      trusted-traveler-programs: Trusted Traveler Programs (TTP)
+      sam: System for Award Management (SAM)
+      usajobs: USAJOBS
 help_page:
   p_1: Browse common topics
   title: How can we help?
