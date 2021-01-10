@@ -7,11 +7,11 @@ hero: false
 
 <article class="container">
   <div class="page-content grid-row">
-    <div class="page-content__prose grid-col-12 desktop:grid-col-8 help-article">
+    <div class="page-content__prose grid-col-12 desktop:grid-col-7 help-article">
       {{ page.content | replace: 'site.baseurl', site.baseurl | markdownify }}
       <a href="#main-content" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
     </div>
-    <div class="display-none desktop:display-block grid-offset-1 grid-col-3">
+    <div class="page-content__side desktop:grid-col-4 display-none desktop:display-block">
       {% include help/nav_sidenav.html %}
     </div>
   </div>

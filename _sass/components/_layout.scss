@@ -113,6 +113,12 @@ article.container,
   @include u-padding-top(4);
 }
 
+.page-content__side {
+  // TODO: Need to revisit width of .grid-offset-1 per design.
+  margin-left: 13%;
+  max-width: 28.555%;
+}
+
 .display-none.desktop\:display-block {
   // TODO: This can be removed after upgrading to identity-style-guide@3
   // See: https://github.com/uswds/uswds/pull/3308
