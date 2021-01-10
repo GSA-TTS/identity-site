@@ -171,6 +171,10 @@ global:
     es: Español
     fr: Français
 help:
+  get-started:
+    overview: Aperçu
+    create-your-account: Créez votre compte
+    authentication-options: Authentication options
   trouble-signing-in:
     overview: Aperçu
     how-to-sign-in: Comment se connecter à login.gov
@@ -202,9 +206,9 @@ help_pages:
     overview: |-
       Login.gov est le seul compte et mot de passe du public pour le gouvernement. Login.gov est un service partagé et approuvé par les agences gouvernementales. Avec un compte login.gov, vous pouvez accéder aux applications des partenaires gouvernementaux participants.
 
-      * [Créez votre compte login.gov](#)
-      * [En savoir plus sur les options d'authentification](#)
-      * [Pourquoi on vous demande d'utiliser login.gov](#)
+      * [Créez votre compte login.gov](site.baseurl/help/get-started/create-your-account/)
+      * [En savoir plus sur les options d'authentification](site.baseurl/help/get-started/authentication-options/)
+      * [Pourquoi on vous demande d'utiliser login.gov](site.baseurl/what-is-login)
       {: .help-question-list}
 
       ## Sujets de dépannage courants
@@ -487,6 +491,7 @@ help_pages:
     personal-key-issues: |-
       # Problèmes personnels majeurs
 help_subpages:
+  get-started: Commencez avec login.gov
   trouble-signing-in: Des problèmes pour vous connecter?
   manage-your-account: Gérez votre compte
   specific-agencies: Aide aux agences spécifiques
