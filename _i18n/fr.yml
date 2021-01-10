@@ -35,6 +35,7 @@ contact_page:
       - [J’ai besoin d’aide pour vérifier mon identité](site.baseurl/help/verify-your-identity/overview)
       - [Je dois modifier mes informations ou gérer mon compte](site.baseurl/help/manage-your-account/overview)
       - [Parcourir d’autres articles d’aide](site.baseurl/help)
+      {: .help-question-list}
 
       ## Avez-vous une question concernant votre compte d’agence?
 

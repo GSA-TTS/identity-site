@@ -34,7 +34,7 @@ contact_page:
       - [Necesito ayuda para verificar mi identidad](site.baseurl/help/verify-your-identity/overview)
       - [Necesito cambiar mi información o administrar mi cuenta](site.baseurl/help/manage-your-account/overview)
       - [Explorar más artículos de ayuda](site.baseurl/help)
-
+      {: .help-question-list}
 
       ## ¿Tiene alguna pregunta sobre la cuenta de su agencia?
 
