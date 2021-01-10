@@ -220,15 +220,15 @@ help_pages:
 
       Create your login.gov account
 
-      {:.help-question-list}
       * Learn about authentication options
       * Why you are being asked to use login.gov
+      {: .help-question-list}
 
       ## Common troubleshooting topics
 
-      {:.help-question-list}
       * Email address confirmation issues
       * Security code not received on phone
+      {: .help-question-list}
     create-your-account: |-
       Follow these steps to create your login.gov account.
 
@@ -284,6 +284,7 @@ help_pages:
         * [Forgot your email address](site.baseurl/help/trouble-signing-in/forgot-your-email-address)
         * [Security code issues](site.baseurl/help/trouble-signing-in/security-code-issues)
         * [Password reset issues](site.baseurl/help/trouble-signing-in/password-reset-issues)
+        {: .help-question-list}
     how-to-sign-in: |-
       # How to sign in to login.gov
       Every time you sign in to your login.gov account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up.
@@ -393,6 +394,7 @@ help_pages:
       * [Change the email address associated with your account](#)
       * [Delete your login.gov account](#)
       * [Manage multiple login.gov accounts](#)
+      {: .help-question-list}
     change-your-password: |-
       # Change your password
       Follow these steps to change your login.gov password.
@@ -488,6 +490,7 @@ help_pages:
       * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password/)
       * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
       * [Phone or authentication methods not available](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
+      {: .help-question-list}
     sam: |-
       Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your System for Award Management (SAM) account, application, status, membership, or eligibility.
 
@@ -565,7 +568,7 @@ help_pages:
        * [Verify your address by mail](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
        * [Don’t have a state-issued ID](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
        * [Personal key issues](site.baseurl/help/verify-your-identity/personal-key-issues/)
-
+       {: .help-question-list}
     how-to-verify-your-identity: |-
       # How to verify your identity
     verify-your-address-by-mail: |-

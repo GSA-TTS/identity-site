@@ -31,11 +31,9 @@
   margin-top: 2rem;
 }
 
-#help-question-list + ul,
 .help-article > h2:first-of-type + ol,
-.help-question-list,
 .page-content__prose ol,
-.page-content__prose ul.help-question-list {
+ul.help-question-list {
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
@@ -74,15 +72,12 @@
   }
 }
 
-#help-question-list + ul,
-.help-question-list,
-.page-content__prose ul.help-question-list {
+ul.help-question-list {
   li::before {
     content: '?';
   }
 }
 
-.help-article > ol:first-of-type,
 .page-content__prose > ol:first-of-type {
   counter-reset: num;
 
