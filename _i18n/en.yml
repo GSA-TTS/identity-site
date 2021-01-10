@@ -648,7 +648,6 @@ help_pages:
       # Personal key issues
 help_subpages:
   get-started: Get started with login.gov
-  create-your-account: Create your login.gov account
   trouble-signing-in: Trouble signing in?
   manage-your-account: Manage your account
   specific-agencies: Help with specific agencies
