@@ -31,8 +31,7 @@
   margin-top: 2rem;
 }
 
-.help-article > h2:first-of-type + ol,
-.page-content__prose ol,
+ol.number-list,
 ul.help-question-list {
   list-style-type: none;
   margin-left: 0;
@@ -82,7 +81,7 @@ ul.help-question-list {
   }
 }
 
-.page-content__prose > ol:first-of-type {
+ol.number-list {
   counter-reset: num;
 
   > li {

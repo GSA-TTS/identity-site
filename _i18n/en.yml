@@ -265,6 +265,7 @@ help_pages:
           [Learn more about each authentication option](site.baseurl/help/get-started/authentication-options) to choose the one that is right for you.
 
       1. Success! Once you have authenticated, you have created your login.gov account.
+      {: .number-list}
 
       You will be taken to your login.gov account page or the government agency you are trying to access. You can add additional authentication methods, email addresses or update your information on the login.gov account page.
 
@@ -301,6 +302,7 @@ help_pages:
             * Entering a backup code
             * Using your federal government employee or military ID (PIV or CAC)
         1. You will then be taken to your login.gov account page.
+        {: .number-list}
 
       ## Related articles
       * [Authentication options](#)
@@ -315,10 +317,12 @@ help_pages:
       1. Check your email for a message from login.gov.
       1. Click the “Reset your password” button in the message. This will take you back to the login.gov website.
       1. Enter your new password.
+
           Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.
 
           Your login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
       1. Click the “Change password” button.
+      {: .number-list}
     locked-out-of-login: |-
       # Locked out of login.gov account
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
@@ -377,6 +381,7 @@ help_pages:
         - [Security key](site.baseurl/help/creating-an-account/security-key/): Use a security key that you have. It’s a physical device that you plug in or that is built in to your computer or phone (it often looks like a USB flash drive).
         - Government employee ID: Insert your government or military PIV or CAC card and enter your PIN
         - Backup codes: We’ll give you 10 codes to use and keep in a safe place. You can use backup codes as your only authentication method, if you don’t have any of the other options.
+      {: .number-list}
 
       We’ll ask you to set up at least two different two-factor authentication methods for your account. You won’t have to use both every time you sign in, but it helps make sure you don’t lose access to your account (for example, if you lose your phone and need to change your phone number).
 
@@ -406,10 +411,12 @@ help_pages:
       1. Authenticate using one of the methods you set up. You will then be taken to your account page.
       1. Select “Edit” next to the password field.
       1. Enter your new password.
+
           Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.
 
           Your login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
       1. Click the “Change password” button.
+      {: .number-list}
     delete-your-account: |-
       # Delete your account
 
@@ -434,6 +441,7 @@ help_pages:
       1. On your account page, select “Delete account” from the menu on the left side of the page
       1. Select “Delete account” from the “Your account” menu.
       1. Enter your password to confirm that you want to delete your account.
+      {: .number-list}
 
       __Follow these steps to delete your account if you do NOT have access to your authentication methods:__
 
@@ -446,8 +454,9 @@ help_pages:
       1. Read through all the information carefully to make sure deleting your account is your only option
       1. Click on “Yes, continue deletion”
       1. You will receive two emails.
-          1. The first email confirms we received your request. Your account is not yet deleted. Additional action is required.
-          1. The second email is sent to you 24 hours later. Follow the directions in that email to complete the deletion process.
+          * The first email confirms we received your request. Your account is not yet deleted. Additional action is required.
+          * The second email is sent to you 24 hours later. Follow the directions in that email to complete the deletion process.
+      {: .number-list}
     change-your-phone-number: |-
       # Change the phone number associated with your account
       Follow these steps to change the phone number associated with your account.
@@ -460,9 +469,10 @@ help_pages:
       1. Enter the new phone number.
       1. Check the “Default phone number” box if you want this number to be your default.
       1. Click “Continue” and follow the prompts to confirm your changes.
+      {: .number-list}
 
-      ## Related article
-      [Phone or authentication methods not available](#)
+      ## Related articles
+      * [Phone or authentication methods not available](#)
   specific-agencies:
     overview: |-
       Login.gov is for account access and sign in only. This account does not affect or have any information related to the specific agency you are trying to access.

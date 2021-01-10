@@ -219,6 +219,7 @@ help_pages:
 
           [Conozca más sobre cada opción de autenticación](site.baseurl/help/get-started/authentication-options) para elegir la que sea apropiada para usted.
       1. ¡El proceso fue exitoso! Una vez que haya autenticado, habrá creado su cuenta de login.gov.
+      {: .number-list}
 
       Será dirigido a la página de su cuenta de login.gov o a la agencia gubernamental a la que esté intentando tener acceso. Puede agregar métodos de autenticación adicionales, direcciones de correo electrónico o actualizar su información en la página de su cuenta de login.gov.
 
@@ -256,6 +257,7 @@ help_pages:
         * Ingresar un código de verificación.
         * Utilizar su ID de empleado del Gobierno Federal o del ejército (PIV o CAC)
       1. Entonces, será redirigido la página de su cuenta de login.gov.
+      {: .number-list}
 
       ## Artículos relacionados
       * [Opciones de autenticación](#)
@@ -274,6 +276,8 @@ help_pages:
 
           Su contraseña de login.gov debe ser diferente de las contraseñas que usa para otras cuentas, como su cuenta bancaria o correo electrónico. Utilizar la misma contraseña en múltiples cuentas facilita el robo de identidad.
       1. Haga clic en el botón "Modificar contraseña".
+      {: .number-list}
+
     locked-out-of-login: |-
       # Bloqueada en la cuenta de login.gov
       Hay diversas maneras de bloquear temporalmente su acceso a login.gov.
@@ -334,6 +338,7 @@ help_pages:
 
           Su contraseña de login.gov debe ser diferente de las contraseñas que utiliza en otras cuentas, como su cuenta bancaria o correo electrónico. Usar la misma contraseña en muchas cuentas facilita el robo de identidad.
       1. Haga clic en el botón «Cambiar contraseña».
+      {: .number-list}
     delete-your-account: |-
       # Eliminar su cuenta
       __Quizá tenga que eliminar una cuenta por diferentes razones:__
@@ -356,6 +361,7 @@ help_pages:
       1. En la página de su cuenta, seleccione "Eliminar cuenta" en el menú a la izquierda de la página
       1. Seleccione "Eliminar cuenta en el menú "Su cuenta".
       1. Escriba su contraseña para confirmar que desea eliminar su cuenta.
+      {: .number-list}
 
       __Si NO cuenta con los métodos de autenticación siga los siguientes pasos para eliminar la cuenta:__
       Por motivos de seguridad, Login.gov requiere un procedimiento de dos pasos y de un período de espera de 24 horas en caso de que haya perdido el acceso a sus métodos de autenticación y tenga que eliminar su cuenta.
@@ -367,8 +373,9 @@ help_pages:
       1. Lea atentamente toda la información y asegúrese de que eliminar su cuenta es su única opción.
       1. Haga clic en "Sí, continuar con la eliminación"
       1. Usted recibirá dos correos electrónicos.
-          1. El primer correo electrónico confirma que hemos recibido su solicitud. Su cuenta aún no ha sido eliminada. Es necesario tomar medidas adicionales.
-          1. La segunda carta le será enviada 24 horas más tarde. Observa las instrucciones de ese correo electrónico para completar el proceso de eliminación.
+          * El primer correo electrónico confirma que hemos recibido su solicitud. Su cuenta aún no ha sido eliminada. Es necesario tomar medidas adicionales.
+          * La segunda carta le será enviada 24 horas más tarde. Observa las instrucciones de ese correo electrónico para completar el proceso de eliminación.
+      {: .number-list}
   specific-agencies:
     overview: |-
       Login.gov es únicamente para acceder a la cuenta e iniciar sesión. Esta misma cuenta no afecta ni tiene ninguna información relacionada con la organización específica a la que está tratando de acceder.

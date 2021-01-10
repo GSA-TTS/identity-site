@@ -228,6 +228,7 @@ help_pages:
         * Saisie d'un code de sauvegarde
         * Utilisation de votre carte d'employé du gouvernement fédéral ou de votre carte d'identité militaire (PIV ou CAC))
       1. Vous serez ensuite dirigé vers la page de votre compte login.gov.
+      {: .number-list}
 
       ## Articles connexes
       * [Options d'authentification](#)
@@ -247,6 +248,7 @@ help_pages:
 
           Votre mot de passe login.gov doit être différent des mots de passe que vous utilisez pour d’autres comptes tels que votre compte bancaire ou votre courrier électronique. L’utilisation du même mot de passe pour de nombreux comptes facilite l’usurpation d’identité.
       1. Cliquez sur le bouton « Changer le mot de passe ».
+      {: .number-list}
     locked-out-of-login: |-
       # Verrouillé du compte login.gov
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
@@ -338,6 +340,7 @@ help_pages:
 
             Votre mot de passe login.gov doit être différent des mots de passe que vous utilisez pour d'autres comptes tels que votre compte bancaire ou votre adresse de courriel. L'utilisation du même mot de passe pour plusieurs comptes facilite l'usurpation d'identité.
       1. Cliquez sur le bouton « Changer le mot de passe ».
+      {: .number-list}
     delete-your-account: |-
       #  Supprimer votre compte
       __Plusieurs raisons peuvent justifier le besoin de supprimer votre compte:__
@@ -360,6 +363,7 @@ help_pages:
       1. Sur la page de votre compte, sélectionnez « Supprimer le compte » à partir du menu à gauche de la page.
       1. Sélectionnez « Supprimer le compte » à partir du menu « Votre compte ».
       1. Saisissez votre mot de passe pour confirmer votre souhait de supprimer le compte.
+      {: .number-list}
 
       __Si vous n'avez pas accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:__
       Par mesure de sécurité, Login.gov impose un processus en 2 étapes et une période d'attente de 24 heures, si vous n'avez plus accès à vos méthodes d'authentification et avez besoin de supprimer votre compte.
