@@ -530,6 +530,7 @@ help_pages:
     personal-key-issues: |-
       # Problemas con la clave personal
 help_subpages:
+  get-started: Empiece con login.gov
   trouble-signing-in: ¿Tiene problemas para iniciar sesión?
   manage-your-account: Administrar su cuenta
   specific-agencies: Ayuda con agencias específicas

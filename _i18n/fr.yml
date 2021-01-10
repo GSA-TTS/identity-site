@@ -326,10 +326,10 @@ help_pages:
       * [Comment se connecter à login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
       * [Mot de passe oublié](site.baseurl/help/trouble-signing-in/forgot-your-password)
       * [Verrouillé du compte login.gov](site.baseurl/help/trouble-signing-in)
-      * [Téléphone ou méthodes d’authentification non disponibles](site.baseurl/help/trouble-signing-in)
       * [Adresse courriel oubliée](site.baseurl/help/trouble-signing-in)
-      * [Problèmes de code de sécurité](site.baseurl/help/trouble-signing-in/security-code-issues)
+      * [Téléphone ou méthodes d’authentification non disponibles](site.baseurl/help/trouble-signing-in)
       * [Problèmes de réinitialisation du mot de passe](site.baseurl/help/trouble-signing-in/password-reset-issues)
+      * [Problèmes de code de sécurité](site.baseurl/help/trouble-signing-in/security-code-issues)
       {: .help-question-list}
     how-to-sign-in: |-
       # Comment se connecter à login.gov

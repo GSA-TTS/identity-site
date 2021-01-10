@@ -340,10 +340,10 @@ help_pages:
         * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password)
         * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login)
-        * [Phone or authentication methods not available](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available)
         * [Forgot your email address](site.baseurl/help/trouble-signing-in/forgot-your-email-address)
-        * [Security code issues](site.baseurl/help/trouble-signing-in/security-code-issues)
+        * [Phone or authentication methods not available](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available)
         * [Password reset issues](site.baseurl/help/trouble-signing-in/password-reset-issues)
+        * [Security code issues](site.baseurl/help/trouble-signing-in/security-code-issues)
         {: .help-question-list}
     how-to-sign-in: |-
       # How to sign in to login.gov
