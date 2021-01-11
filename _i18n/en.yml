@@ -220,12 +220,16 @@ help_pages:
       Login.gov is the public's one account and password for government. Login.gov is a shared service and trusted by government agencies. With one login.gov account you can access applications from participating government partners.
 
       Create your login.gov account
+
       * Learn about authentication options
       * Why you are being asked to use login.gov
+      {: .help-question-list}
 
-      ## Common troubleshooting topics {#help-question-list}
+      ## Common troubleshooting topics
+
       * Email address confirmation issues
       * Security code not received on phone
+      {: .help-question-list}
     create-your-account: |-
       Follow these steps to create your login.gov account.
 
@@ -261,6 +265,7 @@ help_pages:
           [Learn more about each authentication option](site.baseurl/help/get-started/authentication-options) to choose the one that is right for you.
 
       1. Success! Once you have authenticated, you have created your login.gov account.
+      {: .number-list}
 
       You will be taken to your login.gov account page or the government agency you are trying to access. You can add additional authentication methods, email addresses or update your information on the login.gov account page.
 
@@ -272,7 +277,8 @@ help_pages:
       # Trouble signing in?
       Forgot your password? Locked out of your account? We'll help you resolve account access issues.
 
-      ## Common troubleshooting topics {#help-question-list}
+      ## Common troubleshooting topics
+
         * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password)
         * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login)
@@ -280,6 +286,7 @@ help_pages:
         * [Forgot your email address](site.baseurl/help/trouble-signing-in/forgot-your-email-address)
         * [Security code issues](site.baseurl/help/trouble-signing-in/security-code-issues)
         * [Password reset issues](site.baseurl/help/trouble-signing-in/password-reset-issues)
+        {: .help-question-list}
     how-to-sign-in: |-
       # How to sign in to login.gov
       Every time you sign in to your login.gov account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up.
@@ -289,16 +296,17 @@ help_pages:
         1. Enter your password.
         1. Click the “Sign in” button.
         1. Authenticate using one of the methods you set up. Options include:
-            1. Entering a security code from your authentication application
-            1. Using your security key
-            1. Entering a security code that you receive by text or by phone call
-            1. Entering a backup code
-            1. Using your federal government employee or military ID (PIV or CAC)
+            * Entering a security code from your authentication application
+            * Using your security key
+            * Entering a security code that you receive by text or by phone call
+            * Entering a backup code
+            * Using your federal government employee or military ID (PIV or CAC)
         1. You will then be taken to your login.gov account page.
+        {: .number-list}
 
       ## Related articles
-      [Authentication options](#)
-      [Verify your identity](#)
+      * [Authentication options](#)
+      * [Verify your identity](#)
     forgot-your-password: |-
       # Forgot your password
       Follow these steps to reset your password.
@@ -309,10 +317,12 @@ help_pages:
       1. Check your email for a message from login.gov.
       1. Click the “Reset your password” button in the message. This will take you back to the login.gov website.
       1. Enter your new password.
+
           Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.
 
           Your login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
       1. Click the “Change password” button.
+      {: .number-list}
     locked-out-of-login: |-
       # Locked out of login.gov account
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
@@ -355,11 +365,11 @@ help_pages:
 
       If you still have the option to use personal key for two-factor authentication, you’ll be asked to set up a different authentication method the next time you sign in. You can choose from phone SMS or voice call, authenticator app, security key, government or military employee ID (PIV/CAC), or backup codes. After you set up your new authentication method, you won’t be able to use personal key as an authentication method anymore.
 
-      **Read more**
-      [Two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
-      [Personal key not working](site.baseurl/help/signing-in/personal-key-not-working/)
-      [What is phishing?](site.baseurl/help/privacy-and-security/what-is-phishing/)
-      [Why do I need to verify my identity?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
+      ## Related articles
+      * [Two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
+      * [Personal key not working](site.baseurl/help/signing-in/personal-key-not-working/)
+      * [What is phishing?](site.baseurl/help/privacy-and-security/what-is-phishing/)
+      * [Why do I need to verify my identity?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
     password-reset-issues: |-
       # Password reset issues
       login.gov uses two-factor authentication (2FA) to keep accounts secure. This means that, each time you sign in, you must use something you know and something you have. This makes your account safer by making it much harder for others to break into it.
@@ -371,23 +381,26 @@ help_pages:
         - [Security key](site.baseurl/help/creating-an-account/security-key/): Use a security key that you have. It’s a physical device that you plug in or that is built in to your computer or phone (it often looks like a USB flash drive).
         - Government employee ID: Insert your government or military PIV or CAC card and enter your PIN
         - Backup codes: We’ll give you 10 codes to use and keep in a safe place. You can use backup codes as your only authentication method, if you don’t have any of the other options.
+      {: .number-list}
 
       We’ll ask you to set up at least two different two-factor authentication methods for your account. You won’t have to use both every time you sign in, but it helps make sure you don’t lose access to your account (for example, if you lose your phone and need to change your phone number).
 
-      **Read more**
-      [Phone didn’t get a security code](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
-      [No phone or other authentication method](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
+      ## Related articles
+      * [Phone didn’t get a security code](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
+      * [No phone or other authentication method](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
   manage-your-account:
     overview: |-
       # Manage your account
       Manage your account settings including your password, phone number, email, and more.
 
-      ## Common troubleshooting topics {#help-question-list}
+      ## Common troubleshooting topics
+
       * [Change your password](#)
       * [Change the phone number associated with your account](#)
       * [Change the email address associated with your account](#)
       * [Delete your login.gov account](#)
       * [Manage multiple login.gov accounts](#)
+      {: .help-question-list}
     change-your-password: |-
       # Change your password
       Follow these steps to change your login.gov password.
@@ -398,10 +411,12 @@ help_pages:
       1. Authenticate using one of the methods you set up. You will then be taken to your account page.
       1. Select “Edit” next to the password field.
       1. Enter your new password.
+
           Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.
 
           Your login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
       1. Click the “Change password” button.
+      {: .number-list}
     delete-your-account: |-
       # Delete your account
 
@@ -426,6 +441,7 @@ help_pages:
       1. On your account page, select “Delete account” from the menu on the left side of the page
       1. Select “Delete account” from the “Your account” menu.
       1. Enter your password to confirm that you want to delete your account.
+      {: .number-list}
 
       __Follow these steps to delete your account if you do NOT have access to your authentication methods:__
 
@@ -438,8 +454,9 @@ help_pages:
       1. Read through all the information carefully to make sure deleting your account is your only option
       1. Click on “Yes, continue deletion”
       1. You will receive two emails.
-          1. The first email confirms we received your request. Your account is not yet deleted. Additional action is required.
-          1. The second email is sent to you 24 hours later. Follow the directions in that email to complete the deletion process.
+          * The first email confirms we received your request. Your account is not yet deleted. Additional action is required.
+          * The second email is sent to you 24 hours later. Follow the directions in that email to complete the deletion process.
+      {: .number-list}
     change-your-phone-number: |-
       # Change the phone number associated with your account
       Follow these steps to change the phone number associated with your account.
@@ -452,9 +469,10 @@ help_pages:
       1. Enter the new phone number.
       1. Check the “Default phone number” box if you want this number to be your default.
       1. Click “Continue” and follow the prompts to confirm your changes.
+      {: .number-list}
 
-      ## Related article
-      [Phone or authentication methods not available](#)
+      ## Related articles
+      * [Phone or authentication methods not available](#)
   specific-agencies:
     overview: |-
       Login.gov is for account access and sign in only. This account does not affect or have any information related to the specific agency you are trying to access.
@@ -477,11 +495,13 @@ help_pages:
       We provide some specific help content for our larger agency partners. We encourage you to contact the agency with specific questions.
 
       ## Common troubleshooting topics
+
       * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in/)
       * [Change your password](site.baseurl/help/manage-your-account/change-your-password/)
       * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password/)
       * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
       * [Phone or authentication methods not available](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
+      {: .help-question-list}
     sam: |-
       Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your System for Award Management (SAM) account, application, status, membership, or eligibility.
 
@@ -553,12 +573,13 @@ help_pages:
 
       Use this help section to understand the process and requirements for identity verification.
 
-      ## Common troubleshooting topics {#help-question-list}
+      ## Common troubleshooting topics
+
        * [How to verify your identity](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
        * [Verify your address by mail](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
        * [Don’t have a state-issued ID](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
        * [Personal key issues](site.baseurl/help/verify-your-identity/personal-key-issues/)
-
+       {: .help-question-list}
     how-to-verify-your-identity: |-
       # How to verify your identity
     verify-your-address-by-mail: |-

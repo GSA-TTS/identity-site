@@ -204,6 +204,7 @@ help_pages:
       Vous avez oublié votre mot de passe? Verrouillé votre compte? Nous vous aiderons à résoudre les problèmes d’accès au compte.
 
       ## Sujets de dépannage courants
+
       * [Comment se connecter à login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
       * [Mot de passe oublié](site.baseurl/help/trouble-signing-in/forgot-your-password)
       * [Verrouillé du compte login.gov](site.baseurl/help/trouble-signing-in)
@@ -211,6 +212,7 @@ help_pages:
       * [Adresse courriel oubliée](site.baseurl/help/trouble-signing-in)
       * [Problèmes de code de sécurité](site.baseurl/help/trouble-signing-in/security-code-issues)
       * [Problèmes de réinitialisation du mot de passe](site.baseurl/help/trouble-signing-in/password-reset-issues)
+      {: .help-question-list}
     how-to-sign-in: |-
       # Comment se connecter à login.gov
       Chaque fois que vous vous connecterez à votre compte login.gov, vous aurez besoin de votre adresse électronique, de votre mot de passe et d'un accès à l'une des méthodes d'authentification à deux facteurs que vous aurez mises en place.
@@ -220,16 +222,17 @@ help_pages:
       1. Saisissez votre mot de passe.
       1. Cliquez sur le bouton « Se connecter ».
       1. Authentifiez-vous à l'aide d'une des méthodes que vous avez mises en place. Les options comprennent :
-          1. Saisie d'un code de sécurité à partir de votre demande d'authentification
-          1. Utilisation de votre clé de sécurité
-          1. Saisie d'un code de sécurité que vous recevez par SMS ou par appel téléphonique
-          1. Saisie d'un code de sauvegarde
-          1. Utilisation de votre carte d'employé du gouvernement fédéral ou de votre carte d'identité militaire (PIV ou CAC))
+        * Saisie d'un code de sécurité à partir de votre demande d'authentification
+        * Utilisation de votre clé de sécurité
+        * Saisie d'un code de sécurité que vous recevez par SMS ou par appel téléphonique
+        * Saisie d'un code de sauvegarde
+        * Utilisation de votre carte d'employé du gouvernement fédéral ou de votre carte d'identité militaire (PIV ou CAC))
       1. Vous serez ensuite dirigé vers la page de votre compte login.gov.
+      {: .number-list}
 
       ## Articles connexes
-      [Options d'authentification](#)
-      [Vérifiez votre identité](#)
+      * [Options d'authentification](#)
+      * [Vérifiez votre identité](#)
     forgot-your-password: |-
       # Mot de passe oublié
       Suivez ces étapes pour réinitialiser votre mot de passe.
@@ -245,6 +248,7 @@ help_pages:
 
           Votre mot de passe login.gov doit être différent des mots de passe que vous utilisez pour d’autres comptes tels que votre compte bancaire ou votre courrier électronique. L’utilisation du même mot de passe pour de nombreux comptes facilite l’usurpation d’identité.
       1. Cliquez sur le bouton « Changer le mot de passe ».
+      {: .number-list}
     locked-out-of-login: |-
       # Verrouillé du compte login.gov
       If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
@@ -315,11 +319,13 @@ help_pages:
       Gérez les paramètres de votre compte, notamment votre mot de passe, votre numéro de téléphone, votre adresse électronique, etc.
 
       ## Sujets de dépannage courants
+
       * [Changez votre mot de passe](#)
       * [Modifiez le numéro de téléphone associé à votre compte](#)
       * [Modifiez l'adresse électronique associée à votre compte](#)
       * [Supprimez votre compte login.gov](#)
       * [Gérez plusieurs comptes login.gov](#)
+      {: .help-question-list}
     change-your-password: |-
       # Changer votre mot de passe
       Suivez les étapes suivantes pour changer votre mot de passe login.gov.
@@ -334,6 +340,7 @@ help_pages:
 
             Votre mot de passe login.gov doit être différent des mots de passe que vous utilisez pour d'autres comptes tels que votre compte bancaire ou votre adresse de courriel. L'utilisation du même mot de passe pour plusieurs comptes facilite l'usurpation d'identité.
       1. Cliquez sur le bouton « Changer le mot de passe ».
+      {: .number-list}
     delete-your-account: |-
       #  Supprimer votre compte
       __Plusieurs raisons peuvent justifier le besoin de supprimer votre compte:__
@@ -356,6 +363,7 @@ help_pages:
       1. Sur la page de votre compte, sélectionnez « Supprimer le compte » à partir du menu à gauche de la page.
       1. Sélectionnez « Supprimer le compte » à partir du menu « Votre compte ».
       1. Saisissez votre mot de passe pour confirmer votre souhait de supprimer le compte.
+      {: .number-list}
 
       __Si vous n'avez pas accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:__
       Par mesure de sécurité, Login.gov impose un processus en 2 étapes et une période d'attente de 24 heures, si vous n'avez plus accès à vos méthodes d'authentification et avez besoin de supprimer votre compte.
@@ -371,7 +379,7 @@ help_pages:
           1. Le deuxième courriel vous est envoyé 24 heures après le premier. Suivez les instructions énoncées dans le courriel pour terminer la suppression.
   specific-agencies:
     overview: |-
-      Login.gov est réservé à l'accès au compte et à l'ouverture de session. Ce compte n'affecte pas et ne contient aucune information relative à l'agence spécifique à laquelle vous essayez d'accéder. 
+      Login.gov est réservé à l'accès au compte et à l'ouverture de session. Ce compte n'affecte pas et ne contient aucune information relative à l'agence spécifique à laquelle vous essayez d'accéder.
 
       Notre équipe d'assistance à la clientèle est là pour vous aider à répondre aux questions de login.gov.
 
@@ -384,18 +392,20 @@ help_pages:
       Login.gov ne peut pas réinitialiser votre mot de passe, supprimer votre compte ou modifier les informations de votre compte.
 
       ## Contactez l'agence partenaire pour:
-      * Effectuer des tâches spécifiques à l'agence, comme télécharger votre CV, remplir des candidatures ou fixer un rendez-vous avec cette agence 
+      * Effectuer des tâches spécifiques à l'agence, comme télécharger votre CV, remplir des candidatures ou fixer un rendez-vous avec cette agence
       * Résoudre les problèmes techniques avec le site web d'une agence partenaire
-      * Accédez aux informations spécifiques à votre agence telles que le statut de la demande, les services, l'éligibilité ou les paiements 
+      * Accédez aux informations spécifiques à votre agence telles que le statut de la demande, les services, l'éligibilité ou les paiements
 
-      Nous fournissons un contenu d'aide spécifique pour nos agences partenaires les plus importantes. Nous vous encourageons à contacter l'agence pour toute question spécifique. 
+      Nous fournissons un contenu d'aide spécifique pour nos agences partenaires les plus importantes. Nous vous encourageons à contacter l'agence pour toute question spécifique.
 
       ## Sujets de dépannage courants
+
       * [Comment se connecter à login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in/)
       * [Changer votre mot de passe](site.baseurl/help/manage-your-account/change-your-password/)
       * [Mot de passe oublié](site.baseurl/help/trouble-signing-in/forgot-your-password/)
       * [Verrouillage du compte login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
       * [Téléphone ou méthodes d'authentification non disponibles](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
+      {: .help-question-list}
     sam: |-
       Login.gov est réservé à l'identification sécurisée. Votre compte login.gov n’affecte pas et ne contient aucune information sur votre compte, votre candidature, votre statut, votre adhésion ou votre éligibilité au Système de capture des prix (SAM).
 
@@ -447,12 +457,13 @@ help_pages:
 
       Utilisez cette rubrique d’aide pour comprendre le processus et les exigences en matière de vérification d’identité.
 
-      ## Problèmes courants rencontrés
+      ## Sujets de dépannage courants
+
        * [Comment vérifier votre identité](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
        * [Vérifiez votre adresse par courrier](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
        * [Vous ne disposez pas d’une carte d’identité délivrée par l’État](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
        * [Problèmes personnels majeurs](site.baseurl/help/verify-your-identity/personal-key-issues/)
-
+       {: .help-question-list}
     how-to-verify-your-identity: |-
       # Comment vérifier votre identité
     verify-your-address-by-mail: |-

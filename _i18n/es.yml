@@ -174,14 +174,17 @@ help_pages:
   get-started:
     overview: |-
       Login.gov es la única cuenta y contraseña pública para el gobierno. Login.gov es un servicio compartido y de confianza de las agencias gubernamentales. Con una sola cuenta de login.gov se puede acceder a las solicitudes de los socios gubernamentales que participan.
-    
+
       * Cree su cuenta de login.gov
       * Conozca las opciones de autenticación
       * Por qué se le solicita que use login.gov
+      {: .help-question-list}
 
-      ## Temas más comunes de solución de problemas {#help-question-list}
+      ## Temas más comunes de solución de problemas
+
       * Problemas con la confirmación de la dirección de correo electrónico
       * Código de seguridad no recibido en el teléfono
+      {: .help-question-list}
     create-your-account: |-
       Siga estos pasos para crear su cuenta de login.gov.
 
@@ -216,18 +219,20 @@ help_pages:
 
           [Conozca más sobre cada opción de autenticación](site.baseurl/help/get-started/authentication-options) para elegir la que sea apropiada para usted.
       1. ¡El proceso fue exitoso! Una vez que haya autenticado, habrá creado su cuenta de login.gov.
+      {: .number-list}
 
       Será dirigido a la página de su cuenta de login.gov o a la agencia gubernamental a la que esté intentando tener acceso. Puede agregar métodos de autenticación adicionales, direcciones de correo electrónico o actualizar su información en la página de su cuenta de login.gov.
 
       ## Artículos relacionados
       * [Opciones de autenticación](site.baseurl/help/get-started/authentication-options)
       * [Gestione su cuenta](site.baseurl/help/manage-your-account/overview)
-
   trouble-signing-in:
     overview: |-
       # ¿Problemas al iniciar sesión?
       ¿Olvidaste tu contraseña? ¿Bloqueado tu cuenta? Lo ayudaremos a resolver problemas de acceso a la cuenta.
-      ## Problemas comunes en la solución de problemas {#help-question-list}
+
+      ## Temas más comunes de solución de problemas
+
         * [Cómo acceder a login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Olvidó su contraseña](site.baseurl/help/trouble-signing-in/forgot-your-password)
         * [Bloqueada en la cuenta de login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login)
@@ -235,6 +240,7 @@ help_pages:
         * [No hay teléfono ni métodos de autenticación disponibles](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
         * [Problemas con el restablecimiento de la contraseña](site.baseurl/help/trouble-signing-in/password-reset-issues/)
         * [Problemas con el código de seguridad](site.baseurl/help/trouble-signing-in/security-code-issues/)
+        {: .help-question-list}
     how-to-sign-in: |-
       # Cómo iniciar sesión en login.gov
       Cada vez que inicie sesión en su cuenta de login.gov, necesitará su dirección de correo electrónico, su contraseña y contar con alguno de los métodos de autenticación en dos pasos que haya configurado.
@@ -245,16 +251,17 @@ help_pages:
       1. Ingrese su contraseña.
       1. Haga clic en el botón "Iniciar sesión".
       1. Realice la autenticación utilizando alguno de los métodos que haya configurado. Las opciones incluyen:
-          1. Ingresar un código de seguridad de su aplicación de autenticación.
-          1. Usar su llave de seguridad.
-          1. Ingresar un código de seguridad que recibirá por mensaje de texto o llamada telefónica.
-          1. Ingresar un código de verificación.
-          1. Utilizar su ID de empleado del Gobierno Federal o del ejército (PIV o CAC)
+        * Ingresar un código de seguridad de su aplicación de autenticación.
+        * Usar su llave de seguridad.
+        * Ingresar un código de seguridad que recibirá por mensaje de texto o llamada telefónica.
+        * Ingresar un código de verificación.
+        * Utilizar su ID de empleado del Gobierno Federal o del ejército (PIV o CAC)
       1. Entonces, será redirigido la página de su cuenta de login.gov.
+      {: .number-list}
 
       ## Artículos relacionados
-      [Opciones de autenticación](#)
-      [Verificar su identidad](#)
+      * [Opciones de autenticación](#)
+      * [Verificar su identidad](#)
     forgot-your-password: |-
       # Olvidó su contraseña
       Siga estos pasos para restablecer su contraseña.
@@ -269,6 +276,8 @@ help_pages:
 
           Su contraseña de login.gov debe ser diferente de las contraseñas que usa para otras cuentas, como su cuenta bancaria o correo electrónico. Utilizar la misma contraseña en múltiples cuentas facilita el robo de identidad.
       1. Haga clic en el botón "Modificar contraseña".
+      {: .number-list}
+
     locked-out-of-login: |-
       # Bloqueada en la cuenta de login.gov
       Hay diversas maneras de bloquear temporalmente su acceso a login.gov.
@@ -307,12 +316,14 @@ help_pages:
       # Administrar su cuenta
       Administrar los ajustes de su cuenta, incluidos su contraseña, número de teléfono, correo electrónico y más.
 
-      ## Temas comunes de solución de problemas {#help-question-list}
+      ## Temas más comunes de solución de problemas
+
       * [Cambiar su contraseña](#)
       * [Cambiar el número de teléfono asociado a su cuenta](#)
       * [Cambiar la dirección de correo electrónico asociada a su cuenta](#)
       * [Eliminar su cuenta de login.gov](#)
       * [Administrar varias cuentas de login.gov](#)
+      {: .help-question-list}
     change-your-password: |-
       # Cambie su contraseña
       Siga estos pasos para cambiar su contraseña en login.gov.
@@ -327,6 +338,7 @@ help_pages:
 
           Su contraseña de login.gov debe ser diferente de las contraseñas que utiliza en otras cuentas, como su cuenta bancaria o correo electrónico. Usar la misma contraseña en muchas cuentas facilita el robo de identidad.
       1. Haga clic en el botón «Cambiar contraseña».
+      {: .number-list}
     delete-your-account: |-
       # Eliminar su cuenta
       __Quizá tenga que eliminar una cuenta por diferentes razones:__
@@ -349,6 +361,7 @@ help_pages:
       1. En la página de su cuenta, seleccione "Eliminar cuenta" en el menú a la izquierda de la página
       1. Seleccione "Eliminar cuenta en el menú "Su cuenta".
       1. Escriba su contraseña para confirmar que desea eliminar su cuenta.
+      {: .number-list}
 
       __Si NO cuenta con los métodos de autenticación siga los siguientes pasos para eliminar la cuenta:__
       Por motivos de seguridad, Login.gov requiere un procedimiento de dos pasos y de un período de espera de 24 horas en caso de que haya perdido el acceso a sus métodos de autenticación y tenga que eliminar su cuenta.
@@ -360,8 +373,9 @@ help_pages:
       1. Lea atentamente toda la información y asegúrese de que eliminar su cuenta es su única opción.
       1. Haga clic en "Sí, continuar con la eliminación"
       1. Usted recibirá dos correos electrónicos.
-          1. El primer correo electrónico confirma que hemos recibido su solicitud. Su cuenta aún no ha sido eliminada. Es necesario tomar medidas adicionales.
-          1. La segunda carta le será enviada 24 horas más tarde. Observa las instrucciones de ese correo electrónico para completar el proceso de eliminación.
+          * El primer correo electrónico confirma que hemos recibido su solicitud. Su cuenta aún no ha sido eliminada. Es necesario tomar medidas adicionales.
+          * La segunda carta le será enviada 24 horas más tarde. Observa las instrucciones de ese correo electrónico para completar el proceso de eliminación.
+      {: .number-list}
   specific-agencies:
     overview: |-
       Login.gov es únicamente para acceder a la cuenta e iniciar sesión. Esta misma cuenta no afecta ni tiene ninguna información relacionada con la organización específica a la que está tratando de acceder.
@@ -383,12 +397,14 @@ help_pages:
 
       Proporcionamos algunos elementos de ayuda específicos para nuestros socios de la agencia más grande. Le recomendamos que se ponga en contacto con la agencia en caso de tener preguntas específicas.
 
-      ## Temas habituales para la solución de problemas
+      ## Temas más comunes de solución de problemas
+
       * [Cómo iniciar sesión en login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in/)
       * [Cambie su contraseña](site.baseurl/help/manage-your-account/change-your-password/)
       * [Ha olvidado su contraseña](site.baseurl/help/trouble-signing-in/forgot-your-password/)
       * [Bloqueado de la cuenta de login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
       * [No se dispone de teléfono ni de métodos de autentificación](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
+      {: .help-question-list}
     sam: |-
       Solo puedes iniciar sesión en login.gov de forma segura. Tu cuenta de login.gov no afecta tu cuenta, solicitud, estado, membresía o elegibilidad al Sistema para la Administración de Subvenciones (SAM) ni tiene información alguna al respecto.
 
@@ -439,12 +455,13 @@ help_pages:
 
       Utilice esta sección de ayuda para conocer el proceso y los requisitos relacionados con la verificación de la identidad.
 
-      ## Solución de problemas frecuentes {#help-question-list}
+      ## Temas más comunes de solución de problemas
+
        * [Cómo verificar su identidad](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
        * [Verificación de dirección por correo](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
        * [¿No tiene una identificación emitida por el estado?](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
        * [Problemas con la clave personal](site.baseurl/help/verify-your-identity/personal-key-issues/)
-
+      {: .help-question-list}
     how-to-verify-your-identity: |-
       # Cómo verificar su identidad
     verify-your-address-by-mail: |-
