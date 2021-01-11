@@ -191,26 +191,26 @@ help:
     how-to-sign-in: How to sign in to login.gov
     forgot-your-password: Forgot your password
     locked-out-of-login: Locked out of login.gov account
-    phone-or-authentication-methods-not-available: Phone or authentication methods not available
     forgot-your-email-address: Forgot your email address
-    security-code-issues: Security code issues
+    phone-or-authentication-methods-not-available: Phone or authentication methods not available
     password-reset-issues: Password reset issues
+    security-code-issues: Security code issues
   manage-your-account:
     overview: Overview
     change-your-password: Change your password
     delete-your-account: Delete your account
     change-your-phone-number: Change the phone number associated with your account
-  specific-agencies:
-    overview: Overview
-    usajobs: USAJOBS
-    sam: System for Award Management (SAM)
-    trusted-traveler-programs: Trusted Traveler Programs (TTP)
   verify-your-identity:
     overview: Overview
     how-to-verify-your-identity: How to verify your identity
     verify-your-address-by-mail: Verify your address by mail
     dont-have-a-state-issued-id: Don’t have a state-issued ID
     personal-key-issues: Personal key issues
+  specific-agencies:
+      overview: Overview
+      trusted-traveler-programs: Trusted Traveler Programs (TTP)
+      sam: System for Award Management (SAM)
+      usajobs: USAJOBS
 help_page:
   p_1: Browse common topics
   title: How can we help?
@@ -219,10 +219,9 @@ help_pages:
     overview: |-
       Login.gov is the public's one account and password for government. Login.gov is a shared service and trusted by government agencies. With one login.gov account you can access applications from participating government partners.
 
-      Create your login.gov account
-
-      * Learn about authentication options
-      * Why you are being asked to use login.gov
+      * [Create your login.gov account](site.baseurl/help/get-started/create-your-account/)
+      * [Learn about authentication options](site.baseurl/help/get-started/authentication-options/)
+      * [Why you are being asked to use login.gov](site.baseurl/what-is-login)
       {: .help-question-list}
 
       ## Common troubleshooting topics
@@ -272,6 +271,65 @@ help_pages:
       ## Related articles
       * [Authentication options](site.baseurl/help/get-started/authentication-options)
       * [Manage your account](site.baseurl/help/manage-your-account/overview)
+    authentication-options: |-
+      In addition to your password, login.gov requires that you set up at least one secondary authentication method to keep your account secure. This is two-factor authentication (2FA). We use 2FA as an added layer of protection to secure your information.
+
+      __Secondary authentication__
+      We encourage you to add two methods for authentication to your account. If you lose access to your primary authentication method (i.e. losing your phone), you’ll have a second option to use to get access to your account. Login.gov is unable to grant you access to your account if you get locked out and/or lose your authentication method.
+
+      __Security__
+      Although you can choose from several authentication options, some authentication methods such as Security Keys, PIV/CAC cards and authentication applications are more secure against phishing and theft.
+
+      ## Authentication application
+      Authentication applications are downloaded to your device and generate secure, six-digit codes you use to sign in to your accounts. While authentication applications are not protected if your device is lost or stolen, this method offers more security than phone calls or text messaging against phishing, hacking, or interception.
+
+      If you choose this secure option, follow these steps to download and install one of the supported applications and configure it to work with login.gov.
+
+      1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps.
+      1. Download and install an authentication app to your device. Some popular options include:
+        * Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
+        * iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://1password.com/), [1Password](https://1password.com/).
+        * Windows apps: [1Password](https://1password.com/), [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn).
+        * Mac apps: [1Password](https://1password.com/), [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
+        * Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
+      1. Open a new browser and sign in to your login.gov account at [https://secure.login.gov/](https://secure.login.gov/).
+      1. Select “Enable” next to “Authentication app” and follow the instructions to scan or enter a code associating your authentication app with your account.
+      {: .number-list}
+
+      You will now be able to use the one-time passcodes generated by the application each time you sign in to login.gov.
+
+      ## Security key
+      A security key is typically an external physical device, like a USB, that you plug into your computer. The key is linked to your accounts and will only grant access to those accounts once the key is plugged in and activated. Since a security key does not rely on your cell phone, it has the highest level of protection against phishing and built-in protections against hacking if it is lost or stolen.
+
+      Login.gov requires security keys that meet the [FIDO (Fast Identity Online) standards](https://fidoalliance.org/). You can add as many security keys as you want to secure your account.
+
+      To use this secure option for login.gov authentication, plug the key into a USB port and assign the key a name to identify it with your login.gov account. The next step will ask you to activate your key. This is generally done by pressing a button on the key itself.
+
+      ## PIV or CAC for federal government employees and military
+      Physical PIV (personal identity verification) cards or CACs (common access cards) are secure options for federal government employees and military personnel. These cards, with encrypted chip technology, are resistant to phishing and difficult to hack if stolen.
+
+      ## Text message / Phone call
+      Text messages/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers, and other attacks.
+
+      If you choose to use this less secure option, enter a phone number at which you can receive phone calls or text messages. If you only have a landline, you must receive your security code by phone call. Login.gov cannot send security codes to extensions or voicemails.
+
+      We will send a unique security code to that phone number each time you sign in to your login.gov account. Each security code expires after ten minutes and can only be used once. If you don’t enter the security code within ten minutes, request a new code.
+
+      After you receive the code, type it into the “one-time security code” field. Each time you sign in to login.gov you’ll have the option of getting a new security code by phone call or by text. You will receive a new security code each time you sign in to your login.gov account.
+
+      ## Backup codes (less secure)
+      Backup codes are an accessible option for users who do not have access to a phone. However, backup codes are the least secure option for two-factor authentication. Backup codes must be printed or written down which makes them more vulnerable to theft and phishing.
+
+      If you select this less secure option, login.gov will generate a set of ten codes. After you sign in with your username and password, you will be prompted for a code. Each code may be used only once. When the tenth code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of care as you would your password.
+
+      ## No phone or other authentication method
+      If you do not have access to a phone, authentication application, security key, or any other authentication option, you can set up your account with only backup codes.
+
+      __Warning:__ Setting up your account with backup codes as your only authentication method is not recommended. If you ever lose your backup codes, you will not be able to sign in to your account.
+
+      When you create your account, you will reach the “Secure your account” page. This is where you must choose your primary authentication method. If you do not have access to any of the other options, select “Backup codes” and click “Continue.”
+
+      On the “Add another method” page, select “I don’t have any of the above” and click “Continue.”
   trouble-signing-in:
     overview: |-
       # Trouble signing in?
@@ -282,10 +340,10 @@ help_pages:
         * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password)
         * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login)
-        * [Phone or authentication methods not available](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available)
         * [Forgot your email address](site.baseurl/help/trouble-signing-in/forgot-your-email-address)
-        * [Security code issues](site.baseurl/help/trouble-signing-in/security-code-issues)
+        * [Phone or authentication methods not available](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available)
         * [Password reset issues](site.baseurl/help/trouble-signing-in/password-reset-issues)
+        * [Security code issues](site.baseurl/help/trouble-signing-in/security-code-issues)
         {: .help-question-list}
     how-to-sign-in: |-
       # How to sign in to login.gov
@@ -340,7 +398,7 @@ help_pages:
       [Why do I have to use login.gov?](site.baseurl/help/privacy-and-security/why-do-i-have-to-use-logingov/)
     forgot-your-email-address: |-
       # Forgot your email address
-      Your password should be at least 8 characters long. Try using multiple words and spaces to create a memorable phrase. Longer passwords with many words are stronger than short passwords with special characters.
+      Your password should be at least 12 characters long. Try using multiple words and spaces to create a memorable phrase. Longer passwords with many words are stronger than short passwords with special characters.
 
       When creating a password, also try to avoid using slang terms and common misspellings and words spelled backward. Also, avoid using your company name or your spouse's or children's names - and even your pet - as well as other personal information such as your age or birth date.
 
@@ -550,7 +608,7 @@ help_pages:
 
       Although login.gov can answer questions about the sign-in process and creating a login.gov account, USAJOBS prefers that you contact them directly for all concerns.
 
-      Please contact the [USAJOBS](https://www.usajobs.gov/) directly if you have questions regarding:
+      Please contact the [USAJOBS](https://www.usajobs.gov/help) directly if you have questions regarding:
 
       * Application status or changes to your application
       * Uploading or changing your resume
@@ -560,7 +618,7 @@ help_pages:
       * Linking your USAJOBS profile information to your login.gov
       * Or other related concerns
 
-      To access your Trusted Traveler Programs account information, sign in directly from USAJOBS.gov.
+      To access your USAJOBS account information, sign in directly from USAJOBS.gov.
 
       If you sign in directly from the login.gov homepage, you will only see your login.gov account information on the “My Account” page.
   verify-your-identity:
@@ -590,7 +648,6 @@ help_pages:
       # Personal key issues
 help_subpages:
   get-started: Get started with login.gov
-  create-your-account: Create your login.gov account
   trouble-signing-in: Trouble signing in?
   manage-your-account: Manage your account
   specific-agencies: Help with specific agencies

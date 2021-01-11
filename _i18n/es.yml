@@ -143,30 +143,30 @@ help:
   get-started:
     overview: Visión general
     create-your-account: Crear una cuenta
-    authentication-options: Authentication options
+    authentication-options: Opciones de autenticacións
   trouble-signing-in:
     overview: Visión general
     how-to-sign-in: Cómo acceder a login.gov
     forgot-your-password: Olvidó su contraseña
     locked-out-of-login: Bloqueada en la cuenta de login.gov
-    phone-or-authentication-methods-not-available: No hay teléfono ni métodos de autenticación disponibles
     forgot-your-email-address: Olvidó su dirección de correo electrónico
-    security-code-issues: Problemas con el código de seguridad
+    phone-or-authentication-methods-not-available: No hay teléfono ni métodos de autenticación disponibles
     password-reset-issues: Problemas con el restablecimiento de la contraseña
+    security-code-issues: Problemas con el código de seguridad
   manage-your-account:
     overview: Visión general
     change-your-password: Cambiar su contraseña
     delete-your-account: Eliminar su cuenta
-  specific-agencies:
-    overview: Visión general
-    trusted-traveler-programs: Programas de Viajero de Confianza (TTP, por sus siglas en inglés)
-    sam: Resumen de la cuenta del Sistema para la Administración de Subvenciones (SAM)
   verify-your-identity:
     overview: Visión general
     how-to-verify-your-identity: Cómo verificar su identidad
     verify-your-address-by-mail: Verificación de dirección por correo
     dont-have-a-state-issued-id: ¿No tiene una identificación emitida por el estado?
     personal-key-issues: Problemas con la clave personal
+  specific-agencies:
+      overview: Visión general
+      trusted-traveler-programs: Programas de Viajero de Confianza (TTP, por sus siglas en inglés)
+      sam: Resumen de la cuenta del Sistema para la Administración de Subvenciones (SAM)
 help_page:
   p_1: Explore los temas comunes
   title: ¿Cómo podemos ayudar?
@@ -175,9 +175,9 @@ help_pages:
     overview: |-
       Login.gov es la única cuenta y contraseña pública para el gobierno. Login.gov es un servicio compartido y de confianza de las agencias gubernamentales. Con una sola cuenta de login.gov se puede acceder a las solicitudes de los socios gubernamentales que participan.
 
-      * Cree su cuenta de login.gov
-      * Conozca las opciones de autenticación
-      * Por qué se le solicita que use login.gov
+      * [Cree su cuenta de login.gov](site.baseurl/help/get-started/create-your-account/)
+      * [Conozca las opciones de autenticación](site.baseurl/help/get-started/authentication-options/)
+      * [Por qué se le solicita que use login.gov](site.baseurl/what-is-login)
       {: .help-question-list}
 
       ## Temas más comunes de solución de problemas
@@ -213,9 +213,9 @@ help_pages:
           * Tarjeta PIV o CAC para empleados del gobierno federal o militares
 
           __Menos seguro:__
-          * Mensaje de texto (menos seguro)
-          * Llamada telefónica (menos seguro)
-          * Códigos de respaldo (menos seguro)
+          * Mensaje de texto
+          * Llamada telefónica
+          * Códigos de respaldo
 
           [Conozca más sobre cada opción de autenticación](site.baseurl/help/get-started/authentication-options) para elegir la que sea apropiada para usted.
       1. ¡El proceso fue exitoso! Una vez que haya autenticado, habrá creado su cuenta de login.gov.
@@ -226,6 +226,65 @@ help_pages:
       ## Artículos relacionados
       * [Opciones de autenticación](site.baseurl/help/get-started/authentication-options)
       * [Gestione su cuenta](site.baseurl/help/manage-your-account/overview)
+    authentication-options: |-
+      Además de su contraseña, es necesario que usted configure por lo menos un método de autenticación secundario en login.gov con el fin de mantener su cuenta segura. Se trata de una autenticación en dos pasos (2FA, por sus siglas en inglés). Usamos la autenticación en dos pasos como un filtro de seguridad adicional para proteger su información.
+
+      __Autenticación secundaria__
+      Le recomendamos que agregue dos métodos de autenticación a su cuenta. Si no puede acceder a su método de autenticación principal (por ejemplo, si pierde su teléfono), tendrá una segunda opción para acceder a su cuenta. Si usted llega a ser bloqueado o pierde su método de autenticación, login.gov no podrá permitirle acceder a su cuenta.
+
+      __Seguridad__
+      Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como las llaves de seguridad, las tarjetas de Verificación de Identidad Personal (PIV), las Tarjetas de Acceso Común (CAC ) y las aplicaciones de autenticación, son más seguros contra el phishing y el robo.
+
+      ## Aplicaciones de autenticación
+      Las aplicaciones de autenticación se descargan en su dispositivo y generan códigos de seguridad de seis dígitos que a usted le sirven para iniciar sesión en sus cuentas. Aunque las aplicaciones de autenticación quedarán expuestas si usted llega a perder su dispositivo o alguien se lo roba, este método, en comparación con las llamadas telefónicas o los mensajes de texto, es más seguro contra el phishing, el jaqueo o la interceptación de datos.
+
+      Si usted elige esta opción de seguridad, siga estos pasos para descargar e instalar una aplicación compatible y configurarla para que funcione con login.gov.
+
+      1. Elija un dispositivo, como una computadora o un dispositivo móvil (teléfono o tableta) en el que pueda instalar aplicaciones.
+      1. Descargue e instale una aplicación de autenticación en su dispositivo. Algunas opciones populares son:
+        * Opciones para Android: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/) y [1Password](https://1password.com/).
+        * Opciones para iOS: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://1password.com/) y [1Password](https://1password.com/).
+        * Aplicaciones para Windows: [1Password](https://1password.com/) y [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn).
+        * Aplicaciones para Mac: [1Password](https://1password.com/) y [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
+        * Extensiones para Chrome: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
+      1. Abra un nuevo navegador e inicie sesión en su cuenta de login.gov a través de [https://secure.login.gov/](https://secure.login.gov/).
+      1. Seleccione “Activar” junto a “Aplicación de autenticación” y siga las instrucciones para escanear o ingresar un código y vincular así la aplicación de autenticación a su cuenta.
+      {: .number-list}
+
+      En adelante, cada vez que inicie sesión en login.gov, podrá utilizar los códigos de acceso de uso único generados por la aplicación.
+
+      ## Llave de seguridad
+      Por lo regular, una llave de seguridad es un dispositivo físico externo, como una memoria USB, que se conecta al equipo. La llave se vincula a sus cuentas y solo permitirá acceder a estas una vez que esté conectada y activada. Como la llave de seguridad no depende de su teléfono celular, cuenta con un mejor nivel de protección contra el phishing y elementos de seguridad integrados para prevenir el jaqueo en caso de que sea robada.
+
+      login.gov solo permite usar llaves que cumplan con los estándares de [FIDO (Fast Identity Online)](https://fidoalliance.org/). Usted puede agregar tantas llaves de seguridad como desee para proteger su cuenta.
+
+      Para utilizar esta opción de seguridad como método de autenticación en login.gov, conecte la llave a un puerto USB y asígnele un nombre para identificarla con su cuenta de login.gov. En el siguiente paso se le pedirá que active su llave. Esto normalmente se hace presionando un botón en la propia llave.
+
+      ## Tarjetas PIV o CAC  para empleados del Gobierno Federal y militares
+      Las tarjetas físicas de PIV (Verificación de Identidad Personal) y las CAC (Tarjetas de Acceso Común) son opciones seguras para empleados del Gobierno Federal y el personal militar. Estas tarjetas, con tecnología de chip encriptado, son muy seguras ante el phishing y resultan difíciles de jaquear en caso de que sean robadas.
+
+      ## Mensajes de texto y llamadas telefónicas
+      Los mensajes de texto y las llamadas telefónicas resultan prácticos, pero son extremadamente vulnerables ante robos, jaqueos y otros ataques.
+
+      Si usted elige utilizar esta opción menos segura, ingrese un número de teléfono en el que pueda recibir llamadas telefónicas o mensajes de texto. Si solo tiene un teléfono fijo, debe recibir su código de seguridad por llamada. Iogin.gov no puede enviar códigos de seguridad a extensiones telefónicas o buzones de voz.
+
+      Le enviaremos un código de seguridad único a ese número de teléfono cada vez que inicie sesión en su cuenta de login.gov. Cada código de seguridad caduca después de diez minutos y solo se puede usar una vez. Si usted no introduce el código de seguridad en un lapso de diez minutos, solicite uno nuevo.
+
+      Cuando haya recibido el código, escríbalo en el recuadro de "Código de seguridad único". Cada vez que inicie sesión en login.gov tendrá la opción de recibir un nuevo código de seguridad por llamada telefónica o mensaje de texto. Usted recibirá un nuevo código de seguridad cada vez que inicie sesión en su cuenta de login.gov.
+
+      ## Códigos de recuperación (menos seguros)
+      Los códigos de recuperación son una opción accesible para los usuarios que no cuentan con un teléfono; sin embargo, son la opción menos segura para la autenticación en dos pasos. Los códigos de recuperación deben imprimirse o escribirse, lo que los hace más vulnerables ante el robo y el phishing.
+
+      Si usted selecciona esta opción menos segura, login.gov generará un conjunto de diez códigos. Después de que inicie sesión con su nombre de usuario y contraseña, se le pedirá un código. Cada código solo se puede usar una vez. Cuando haya utilizado los diez códigos, se le pedirá que descargue una nueva lista. Proteja sus códigos de recuperación tanto como su contraseña.
+
+      ## Sin teléfono u otro método de autenticación
+      Si usted no cuenta con un teléfono, una aplicación de autenticación, una llave de seguridad o cualquier otra opción de autenticación, solo puede configurar su cuenta con códigos de recuperación.
+
+      __Advertencia:__ no se recomienda que configure su cuenta con los códigos de recuperación como único método de autenticación. Si llega a perder sus códigos de recuperación, no podrá iniciar sesión en su cuenta.
+
+      Al crear su cuenta, llegará a la página "Proteja su cuenta". Allí es donde debe elegir el método de autenticación principal. Si no cuenta con ninguna de las otras opciones, seleccione "Códigos de recuperación" y haga clic en "Continuar".
+
+      En la página "Añadir otro método", seleccione "No cuento con ninguno de los anteriores" y haga clic en "Continuar".
   trouble-signing-in:
     overview: |-
       # ¿Problemas al iniciar sesión?
@@ -272,45 +331,12 @@ help_pages:
       1. Busque el mensaje de login.gov en su correo electrónico.
       1. Haga clic en el botón "Restablecer su contraseña" en el mensaje, el cual lo redirigirá a la página web de login.gov.
       1. Introduzca su nueva contraseña.
+
           Las contraseñas deben incluir al menos 12 caracteres. ¡Eso es todo! No hay restricciones adicionales. Incluso puede utilizar más de una palabra con espacios para completar los 12 caracteres. Intente usar una frase o una serie de palabras que solo usted pueda reconocer.
 
           Su contraseña de login.gov debe ser diferente de las contraseñas que usa para otras cuentas, como su cuenta bancaria o correo electrónico. Utilizar la misma contraseña en múltiples cuentas facilita el robo de identidad.
       1. Haga clic en el botón "Modificar contraseña".
       {: .number-list}
-
-    locked-out-of-login: |-
-      # Bloqueada en la cuenta de login.gov
-      Hay diversas maneras de bloquear temporalmente su acceso a login.gov.
-        - No podrá iniciar sesión durante diez minutos si introduce incorrectamente su código de seguridad tres veces.
-        - No podrá iniciar sesión durante diez minutos si solicita más de diez códigos de seguridad en un período de cinco minutos.
-    phone-or-authentication-methods-not-available: |-
-      # No hay teléfono ni métodos de autenticación disponibles
-      Cada vez que inicie una sesión deberá ingresar un código de seguridad que se envía
-      a su teléfono, ya sea por mensaje de texto o por llamada telefónica. El código
-      de seguridad que recibe expira después de cinco minutos y sólo se puede utilizar
-      una vez. Si no puede ingresar el código de seguridad dentro de los cinco minutos
-      o no pudo contestar la llamada telefónica, solicite un nuevo código de seguridad.
-      Cada código de seguridad es válido sólo una vez, por lo que nadie puede robar
-      uno que haya utilizado. Limitamos las solicitudes a tres códigos cada 15 minutos,
-      pero de lo contrario puede solicitar tantos códigos como necesite.
-    forgot-your-email-address: |-
-      # Olvidó su dirección de correo electrónico
-      Si no puede recordar el email que utilizó para crear su cuenta, puede utilizar la función para restablecer la contraseña y ver si su email está en el archivo.
-
-      Intente iniciar una sesión como de costumbre y solicite restablecer su contraseña. Luego, ingrese el email que cree que utilizó para crear su cuenta. Si tenemos su email en nuestros registros, le enviaremos instrucciones para restablecer su contraseña. Revise su email en unos minutos para obtener estas instrucciones.
-    password-reset-issues: |-
-      # Problemas con el código de seguridad
-      Si no ha recibido un correo electrónico de reinicio, compruebe su filtro de correo no deseado. Si añade "no-reply@login.gov" a su lista de contactos, su proveedor de correo electrónico no lo enviará al correo no deseado. Asimismo, puede que accidentalmente haya
-      escrito mal su dirección de correo electrónico. Si está seguro de haber introducido
-      la dirección correcta, seleccione "Enviar de nuevo" para recibir un nuevo correo
-      electrónico de restablecimiento de contraseña. Si sigue sin recibir los correos
-      electrónicos, le recomendamos que se ponga en contacto con su proveedor de correo
-      electrónico para informarle sobre el problema o que compruebe los ajustes de
-      su cuenta en caso de que reenvíe su correo electrónico.
-    security-code-issues: |-
-      # Problemas con el restablecimiento de la contraseña
-
-      Cada vez que inicie sesión, deberá introducir un código de seguridad que se enviará a su teléfono mediante un mensaje de texto o una llamada telefónica. El código de seguridad que reciba caducará después de diez minutos y solo será válido para un uso. Si no introduce el código de seguridad en un plazo de diez minutos o no ha cogido la llamada, puede solicitar un nuevo código de seguridad. Cada código de seguridad solo es válido una vez, así que asegúrese de estar utilizando el código de seguridad más reciente. Solo puede solicitar tres códigos de seguridad cada 15 minutos, pero por lo demás, puede solicitar tantos códigos como necesite.
   manage-your-account:
     overview: |-
       # Administrar su cuenta
@@ -471,6 +497,7 @@ help_pages:
     personal-key-issues: |-
       # Problemas con la clave personal
 help_subpages:
+  get-started: Empiece con login.gov
   trouble-signing-in: ¿Tiene problemas para iniciar sesión?
   manage-your-account: Administrar su cuenta
   specific-agencies: Ayuda con agencias específicas
