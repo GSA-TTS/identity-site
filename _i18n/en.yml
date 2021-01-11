@@ -866,19 +866,19 @@ meta:
     title: Privacy policy
   privacy_security_policy:
     how:
-      title: "Privacy & security: How It Works"
+      title: "Privacy & security: How it works"
       description: Learn how we protect and secure your personal information.
     intro:
       title: Privacy & security
       description: Learn more about our security and privacy practices.
     messaging:
-      title: "Privacy & security: Messaging Terms and Conditions"
+      title: "Privacy & security: Messaging terms and conditions"
       description: Learn how we use text messaging for authentication.
     privacy:
       title: "Privacy & security: Our privacy act statement"
       description: Learn how we ask for, use, retain, and protect your personal information, as well as your obligation to disclose it.
     security:
-      title: "Privacy & security: Our Security Practices"
+      title: "Privacy & security: Our security practices"
       description: Learn the various methods we use to protect this U.S. government service and your data, and to ensure the service remains available to all users.
   what-is-login:
     title: What is login.gov?
