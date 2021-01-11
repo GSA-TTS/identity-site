@@ -180,11 +180,6 @@ help:
     overview: Aperçu
     how-to-sign-in: Comment se connecter à login.gov
     forgot-your-password: Mot de passe oublié
-    locked-out-of-login: Verrouillé du compte login.gov
-    forgot-your-email-address: Adresse courriel oubliée
-    phone-or-authentication-methods-not-available: Téléphone ou méthodes d’authentification non disponibles
-    password-reset-issues: Problèmes de réinitialisation du mot de passe
-    security-code-issues: Problèmes de code de sécurité
   manage-your-account:
     overview: Aperçu
     change-your-password: Changez votre mot de passe
