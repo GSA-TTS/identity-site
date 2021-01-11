@@ -1204,7 +1204,7 @@ create-an-account:
       * Si ya tiene una cuenta con login.gov con esa dirección de correo electrónico, le enviaremos un correo electrónico para informarle cómo puede restablecer su contraseña y acceder a la cuenta.
   step_2: |-
     ## 2. Contraseña segura
-      * Las contraseñas deben tener al menos 12 caracteres, pero de lo contrario no hay restricciones. Incluso puede ingresar espacios entre palabras para llegar a 12 caracteres.
+      * Las contraseñas deben tener al menos 12 caracteres y no deben incluir palabras o frases de uso común.
   step_3: |-
     ## 3. Uno o más [métodos de autenticación](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/) como&#58;
       * __Mas segura__

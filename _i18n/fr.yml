@@ -1219,7 +1219,7 @@ create-an-account:
       * Si vous possédez déjà un compte avec login.gov avec cette adresse e-mail, nous vous enverrons un e-mail pour vous indiquer comment réinitialiser votre mot de passe et accéder au compte.
   step_2: |-
     ## 2. Mot de passe sécurisé
-      * Les mots de passe doivent comporter au moins 12 caractères, mais sinon, il n'y a aucune restriction. Vous pouvez même saisir des espaces entre les mots pour atteindre 12 caractères.
+      * Les mots de passe doivent comporter au moins 12 caractères et ne doivent pas inclure de mots ou d'expressions couramment utilisés.
   step_3: |-
     ## 3. Une ou plusieurs [méthodes d'authentification](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/) telles que&#58;
       * __Plus sécurisé__
