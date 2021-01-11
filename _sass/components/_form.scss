@@ -6,6 +6,10 @@
   margin-top: units(4);
 }
 
+.usa-label.text-normal {
+  @include u-text("normal");
+}
+
 .usa-input,
 .usa-input--lg-password,
 .usa-textarea,
