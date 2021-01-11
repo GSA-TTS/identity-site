@@ -6,6 +6,7 @@
   }
 
   .security {
+    @include usa-link-style;
     display: flex;
     padding: 3rem 0;
 

@@ -17,10 +17,10 @@ image: /assets/img/login-gov-600x314.png
 {% include hero.html class="what-is-login" heading=heading text=text %}
 
   <article class="container what-is-login">
-    <div class="one-account">
+    <div class="one-account page-content__prose">
       {{ site.translations[site.lang]["what-is-login-page"]["one-account"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
-    <div class="secure-account">
+    <div class="secure-account page-content__prose">
       {{ site.translations[site.lang]["what-is-login-page"]["secure-account"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
   </article>
