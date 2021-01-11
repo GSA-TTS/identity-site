@@ -34,6 +34,7 @@ article.container,
 
 .usa-header .usa-nav {
   .usa-search {
+    flex-shrink: 0;
     right: 0;
   }
 }
