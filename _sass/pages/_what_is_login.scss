@@ -1,14 +1,11 @@
 .container.what-is-login {
-  .one-account {
-    background: none;
-    margin-bottom: 2rem;
-    padding: 0;
+  .one-account,
+  .secure-account {
+    padding: 2rem 0;
   }
 
   .secure-account {
     border-top: $border-style;
-    background: none;
-    padding-bottom: 2rem;
   }
 
   .mobile {

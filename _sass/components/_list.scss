@@ -1,4 +1,6 @@
 .list {
+  @include usa-link-style;
+
   ul {
     li {
       line-height: 2.25rem;
