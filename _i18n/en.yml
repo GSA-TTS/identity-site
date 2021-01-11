@@ -274,10 +274,10 @@ help_pages:
     authentication-options: |-
       In addition to your password, login.gov requires that you set up at least one secondary authentication method to keep your account secure. This is two-factor authentication (2FA). We use 2FA as an added layer of protection to secure your information.
 
-      ### Secondary authentication
+      __Secondary authentication__
       We encourage you to add two methods for authentication to your account. If you lose access to your primary authentication method (i.e. losing your phone), you’ll have a second option to use to get access to your account. Login.gov is unable to grant you access to your account if you get locked out and/or lose your authentication method.
 
-      ### Security
+      __Security__
       Although you can choose from several authentication options, some authentication methods such as Security Keys, PIV/CAC cards and authentication applications are more secure against phishing and theft.
 
       ## Authentication application
