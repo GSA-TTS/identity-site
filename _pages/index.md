@@ -3,6 +3,7 @@ title: meta.home.title
 permalink: /
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
+one_account_banner: true
 redirect_from:
 - /playbook/
 - /playbook/implementation/
