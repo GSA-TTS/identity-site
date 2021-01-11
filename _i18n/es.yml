@@ -80,6 +80,7 @@ contact_page:
       pii_warning: "**No** incluya información sensible o de identificación en esta sección, como su nombre completo, fecha de nacimiento o número de seguro social."
       subtopic: Problema
       topic: Tema
+      optional: opcional
     reset: Limpiar formulario
     submit: Enviar
     subtopics:

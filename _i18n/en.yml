@@ -80,6 +80,7 @@ contact_page:
       pii_warning: Please do **not** include sensitive or identifying information in this section such as your full name, birth date or social security number.
       subtopic: Issue
       topic: Topic
+      optional: optional
     reset: Clear form
     submit: Submit
     subtopics:

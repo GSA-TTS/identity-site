@@ -81,6 +81,7 @@ contact_page:
       pii_warning: Veuillez **ne pas** inclure d'informations sensibles ou d'identification dans cette section telles que votre nom complet, votre date de naissance ou votre numéro de sécurité sociale.
       subtopic: Problème
       topic: Sujet
+      optional: optionnel
     reset: Formulaire clair
     submit: Soumettre
     subtopics:
