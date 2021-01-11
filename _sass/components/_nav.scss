@@ -124,6 +124,10 @@
     background-color: $white;
   }
 
+  &:focus {
+    @include focus-outline;
+  }
+
   span {
     color: transparent;
     background: url(../img/logo_sign_in.svg) no-repeat;
