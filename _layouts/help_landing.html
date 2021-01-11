@@ -4,7 +4,9 @@ body:
   class: "help-page"
 ---
 <header>
-  {% include wip.html %}
+  {% if site.demo_banner %}
+    {% include wip.html %}
+  {% endif %}
   {% include skip_nav.html %}
   {% include banner.html %}
   {% include header--help.html %}
