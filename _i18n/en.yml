@@ -199,9 +199,6 @@ help:
   verify-your-identity:
     overview: Overview
     how-to-verify-your-identity: How to verify your identity
-    verify-your-address-by-mail: Verify your address by mail
-    dont-have-a-state-issued-id: Don’t have a state-issued ID
-    personal-key-issues: Personal key issues
   specific-agencies:
       overview: Overview
       trusted-traveler-programs: Trusted Traveler Programs (TTP)
