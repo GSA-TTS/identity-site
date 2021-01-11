@@ -156,9 +156,6 @@ help:
   verify-your-identity:
     overview: Visión general
     how-to-verify-your-identity: Cómo verificar su identidad
-    verify-your-address-by-mail: Verificación de dirección por correo
-    dont-have-a-state-issued-id: ¿No tiene una identificación emitida por el estado?
-    personal-key-issues: Problemas con la clave personal
   specific-agencies:
       overview: Visión general
       trusted-traveler-programs: Programas de Viajero de Confianza (TTP, por sus siglas en inglés)
@@ -473,18 +470,9 @@ help_pages:
       ## Temas más comunes de solución de problemas
 
        * [Cómo verificar su identidad](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
-       * [Verificación de dirección por correo](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
-       * [¿No tiene una identificación emitida por el estado?](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
-       * [Problemas con la clave personal](site.baseurl/help/verify-your-identity/personal-key-issues/)
       {: .help-question-list}
     how-to-verify-your-identity: |-
       # Cómo verificar su identidad
-    verify-your-address-by-mail: |-
-      # Verificación de dirección por correo
-    dont-have-a-state-issued-id: |-
-      # ¿No tiene una identificación emitida por el estado?
-    personal-key-issues: |-
-      # Problemas con la clave personal
 help_subpages:
   get-started: Empiece con login.gov
   trouble-signing-in: ¿Tiene problemas para iniciar sesión?

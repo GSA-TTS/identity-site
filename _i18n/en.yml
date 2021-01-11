@@ -558,18 +558,9 @@ help_pages:
       ## Common troubleshooting topics
 
        * [How to verify your identity](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
-       * [Verify your address by mail](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
-       * [Don’t have a state-issued ID](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
-       * [Personal key issues](site.baseurl/help/verify-your-identity/personal-key-issues/)
        {: .help-question-list}
     how-to-verify-your-identity: |-
       # How to verify your identity
-    verify-your-address-by-mail: |-
-      # Verify your address by mail
-    dont-have-a-state-issued-id: |-
-      # Don’t have a state-issued ID
-    personal-key-issues: |-
-      # Personal key issues
 help_subpages:
   get-started: Get started with login.gov
   trouble-signing-in: Trouble signing in?

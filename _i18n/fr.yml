@@ -187,9 +187,6 @@ help:
   verify-your-identity:
     overview: Aperçu
     how-to-verify-your-identity: Comment vérifier votre identité
-    verify-your-address-by-mail: Vérifiez votre adresse par courrier
-    dont-have-a-state-issued-id: Vous ne disposez pas d’une carte d’identité délivrée par l’État
-    personal-key-issues: Problèmes personnels majeurs
   specific-agencies:
       overview: Aperçu
       trusted-traveler-programs: Programmes pour voyageurs fiables (TTP)
@@ -505,18 +502,9 @@ help_pages:
       ## Sujets de dépannage courants
 
        * [Comment vérifier votre identité](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
-       * [Vérifiez votre adresse par courrier](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
-       * [Vous ne disposez pas d’une carte d’identité délivrée par l’État](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
-       * [Problèmes personnels majeurs](site.baseurl/help/verify-your-identity/personal-key-issues/)
        {: .help-question-list}
     how-to-verify-your-identity: |-
       # Comment vérifier votre identité
-    verify-your-address-by-mail: |-
-      # Vérifiez votre adresse par courrier
-    dont-have-a-state-issued-id: |-
-      # Vous ne disposez pas d’une carte d’identité délivrée par l’État
-    personal-key-issues: |-
-      # Problèmes personnels majeurs
 help_subpages:
   get-started: Commencez avec login.gov
   trouble-signing-in: Des problèmes pour vous connecter?
