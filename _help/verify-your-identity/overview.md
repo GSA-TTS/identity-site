@@ -1,6 +1,6 @@
 ---
 order: 0
-
+title: help_subpages.verify-your-identity
 redirect_from:
 - /help/verify-your-identity/
 - /help/verifying-your-identity/dont-have-a-state-issued-id/
@@ -14,5 +14,6 @@ redirect_from:
 - /help/identity-verification/related-articles/
 - /help/identity-verification/why-do-i-need-to-verify-my-identity/
 ---
+# {% t page.title %}
 
 {% include help/translate_page.html url=page.url %}
