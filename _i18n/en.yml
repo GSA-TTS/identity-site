@@ -370,7 +370,6 @@ help_pages:
       ## Common troubleshooting topics
 
       * [Change your password](site.baseurl/help/manage-your-account/change-your-password/)
-      * [Change the phone number associated with your account](site.baseurl/help/manage-your-account/change-your-phone-number/)
       * [Delete your login.gov account](site.baseurl/help/manage-your-account/delete-your-account/)
       {: .help-question-list}
     change-your-password: |-
