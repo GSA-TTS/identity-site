@@ -64,7 +64,7 @@ hero: true
           <h2 class="margin-bottom-05">
             <a href="{{ site.baseurl }}/help/specific-agencies/overview">Help with specific agencies</a>
           </h2>
-          <p class="margin-top-05">Get help with USAJOBS, Trusted Traveler Program (TTP), SAM.gov.</p>
+          <p class="margin-top-05">Get help with Trusted Traveler Program (TTP) and SAM.gov.</p>
         </div>
       </div>
     </li>
