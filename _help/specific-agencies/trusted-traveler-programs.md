@@ -24,6 +24,7 @@ redirect_from:
 - /help/trusted-traveler-programs/ttp-application-status/
 - /help/trusted-traveler-programs/whats-my-passid/
 - /help/trusted-traveler-programs/will-my-ktn-known-traveler-number-change/
+- /help/trusted-traveler-programs/
 ---
 # {% t page.title %}
 
