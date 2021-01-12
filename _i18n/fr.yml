@@ -337,8 +337,8 @@ help_pages:
       {: .number-list}
 
       ## Articles connexes
-      * [Options d'authentification](#)
-      * [Vérifiez votre identité](#)
+      * [Options d'authentification](site.baseurl/help/get-started/authentication-options/)
+      * [Vérifiez votre identité](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
     forgot-your-password: |-
       # Mot de passe oublié
       Suivez ces étapes pour réinitialiser votre mot de passe.

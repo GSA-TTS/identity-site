@@ -307,8 +307,8 @@ help_pages:
       {: .number-list}
 
       ## Artículos relacionados
-      * [Opciones de autenticación](#)
-      * [Verificar su identidad](#)
+      * [Opciones de autenticación](site.baseurl/help/get-started/authentication-options/)
+      * [Verificar su identidad](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
     forgot-your-password: |-
       # Olvidó su contraseña
       Siga estos pasos para restablecer su contraseña.
