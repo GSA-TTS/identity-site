@@ -453,7 +453,7 @@ help_pages:
       {: .number-list}
 
       ## Related articles
-      * [Phone or authentication methods not available](#)
+      * [Phone or authentication methods not available](site.baseurl/help/get-started/authentication-options/)
   specific-agencies:
     overview: |-
       Login.gov is for account access and sign in only. This account does not affect or have any information related to the specific agency you are trying to access.
