@@ -352,7 +352,7 @@ help_pages:
 
       ## Related articles
       * [Authentication options](site.baseurl/help/get-started/authentication-options/)
-      * [Verify your identity](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
+      * [Verify your identity](site.baseurl/help/verify-your-identity/)
     forgot-your-password: |-
       # Forgot your password
       Follow these steps to reset your password.

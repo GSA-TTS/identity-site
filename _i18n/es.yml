@@ -332,11 +332,9 @@ help_pages:
 
       ## Temas más comunes de solución de problemas
 
-      * [Cambiar su contraseña](#)
-      * [Cambiar el número de teléfono asociado a su cuenta](#)
-      * [Cambiar la dirección de correo electrónico asociada a su cuenta](#)
-      * [Eliminar su cuenta de login.gov](#)
-      * [Administrar varias cuentas de login.gov](#)
+      * [Cambiar su contraseña](site.baseurl/help/manage-your-account/change-your-password/)
+      * [Cambiar el número de teléfono asociado a su cuenta](site.baseurl/help/manage-your-account/change-your-phone-number/)
+      * [Eliminar su cuenta de login.gov](site.baseurl/help/manage-your-account/delete-your-account/)
       {: .help-question-list}
     change-your-password: |-
       # Cambie su contraseña
