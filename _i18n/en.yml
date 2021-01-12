@@ -499,24 +499,6 @@ help_pages:
       To access your Trusted Traveler Programs account information, visit <https://ttp.cbp.dhs.gov/>.
 
       If you sign in directly from the login.gov homepage, you will only see your login.gov account information.
-    usajobs: |-
-      Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your [USAJOBS](https://www.usajobs.gov/) application, employment status, or eligibility. Please do not send login.gov sensitive data about yourself including your resume.
-
-      Although login.gov can answer questions about the sign-in process and creating a login.gov account, USAJOBS prefers that you contact them directly for all concerns.
-
-      Please contact the [USAJOBS](https://www.usajobs.gov/help) directly if you have questions regarding:
-
-      * Application status or changes to your application
-      * Uploading or changing your resume
-      * Employment eligibility and status
-      * Job posting questions
-      * The sign in process and creating your login.gov account
-      * Linking your USAJOBS profile information to your login.gov
-      * Or other related concerns
-
-      To access your USAJOBS account information, sign in directly from USAJOBS.gov.
-
-      If you sign in directly from the login.gov homepage, you will only see your login.gov account information on the “My Account” page.
   verify-your-identity:
     overview: |-
       Some participating agencies require you to complete an identity verification process. Identity verification is the process where you prove you are you - and not someone pretending to be you.
