@@ -203,12 +203,6 @@ help_pages:
       * [En savoir plus sur les options d'authentification](site.baseurl/help/get-started/authentication-options/)
       * [Pourquoi on vous demande d'utiliser login.gov](site.baseurl/what-is-login)
       {: .help-question-list}
-
-      ## Sujets de dépannage courants
-
-      * Problèmes de confirmation de l'adresse de courriel
-      * Le code de sécurité n'a pas été reçu sur le téléphone
-      {: .help-question-list}
     create-your-account: |-
       Suivez les étapes suivantes pour créer votre compte login.gov.
 
@@ -363,11 +357,9 @@ help_pages:
 
       ## Sujets de dépannage courants
 
-      * [Changez votre mot de passe](#)
-      * [Modifiez le numéro de téléphone associé à votre compte](#)
-      * [Modifiez l'adresse électronique associée à votre compte](#)
-      * [Supprimez votre compte login.gov](#)
-      * [Gérez plusieurs comptes login.gov](#)
+      * [Changez votre mot de passe](site.baseurl/help/manage-your-account/change-your-password/)
+      * [Modifiez le numéro de téléphone associé à votre compte](site.baseurl/help/manage-your-account/change-your-phone-number/)
+      * [Supprimez votre compte login.gov](site.baseurl/help/manage-your-account/delete-your-account/)
       {: .help-question-list}
     change-your-password: |-
       # Changer votre mot de passe
