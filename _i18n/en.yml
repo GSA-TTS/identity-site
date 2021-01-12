@@ -765,9 +765,6 @@ index:
 
       [See developer guide](https://developers.login.gov){:class="why-more-info"}
 meta:
-  about:
-    description: More information about login.gov
-    title: About login.gov
   accessibility:
     description: Read our accessibility statement
     title: Accessibility
