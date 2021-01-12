@@ -3,6 +3,7 @@ title: help_subpages.specific-agencies
 order: 0
 redirect_from:
 - /help/specific-agencies/
+- /help/specific-agencies/usajobs/
 - /help/usajobs/gov-mil-edu-email-address/
 - /help/usajobs/how-do-I-relink-my-USAJOBS-profile-after-deleting-my-login-account/
 - /help/usajobs/im-trying-to-sign-in-but-it-doesnt-work/
