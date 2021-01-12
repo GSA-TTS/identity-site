@@ -611,6 +611,7 @@ help_pages:
           * If you do not have a phone plan with your name on it or a U.S. phone number, click on “Get a code via mail instead.” You will have to wait to receive a letter in the mail and then follow the instructions to enter the code.
       1.  Once your identity is verified, you need to encrypt your account. Re-enter your login.gov password. Click “Continue”
       1.  Take note of your personal key and keep it safe. You’ll need to enter your personal key immediately on the next page. Click “Continue”
+      {: .number-list}
 
       Once the process is complete, click “Agree and Continue” to be redirected back to your login.gov account page or the agency you are trying to access.
 help_subpages:
