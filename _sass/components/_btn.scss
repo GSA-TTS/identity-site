@@ -1,88 +1,60 @@
-@media #{$breakpoint-sm} {
-  .btn { font-size: $button-font-size-sm; }
-}
-
-%btn-basic {
-  background: transparent;
-  border: 0;
-  box-shadow: none;
-  color: $blue;
-  font-size: $base-font-size;
+.language-picker__label {
+  display: flex;
+  align-items: center;
+  padding: 0.75em;
+  box-shadow: inset 0 0 0 1px $blue-light;
+  width: 8.4rem;
   font-weight: normal;
-  line-height: $line-height;
-  outline: none;
-  padding: 0;
-}
 
-.btn-primary {
-  border-radius: $border-radius-lg;
-}
-
-.btn-inverse {
-  background: $white;
-  color: $blue;
-}
-
-.btn-wide {
-  box-sizing: border-box;
-  min-width: 220px;
-  text-align: center;
-}
-
-.btn-transparent {
-  @include prefix(appearance, none, webkit ms);
-  background: transparent;
-  border: 0;
-  box-shadow: none;
-  cursor: pointer;
-  font-size: $base-font-size;
-  font-weight: normal;
-  line-height: $line-height;
-
-  &.border-bottom {
-    @extend .border-bottom;
+  .globe {
+    fill: $blue;
+    height: 1em;
+    width: 1em;
   }
 
-  &.border-top {
-    @extend .border-top;
+  .label {
+    margin: 0 0.5em;
   }
-}
 
-.btn-link {
-  @extend %btn-basic;
-  text-decoration: underline;
-  vertical-align: baseline;
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+    background: url(../img/angle-arrow-down-primary.svg) center/contain
+      no-repeat;
+    margin-top: 0.25rem;
+  }
 
-  &:active,
-  &:focus,
-  &:hover, {
-    border: 0;
+  &[aria-expanded="true"] {
+    &::after {
+      background: url(../img/angle-arrow-up-primary.svg) center/contain
+        no-repeat;
+
+      // TODO: All of the following styles can be removed after upgrading to USWDS 2.7.0+, since
+      // they exist only to counteract an overly broad selector from USWDS that has since been
+      // improved.
+      //
+      // See: https://github.com/uswds/uswds/commit/3cc656f22e30749a4c47803f3210d909da21a21c
+      display: inline-block;
+      position: static;
+      height: 0.7rem;
+      left: auto;
+      right: auto;
+      bottom: auto;
+    }
+  }
+
+  &.language-picker__label--text {
     box-shadow: none;
-    text-decoration: underline;
-  }
-}
+    padding: 0;
 
-.btn-border {
-  border-color: $border-color;
-  border-radius: $border-radius-lg;
-  border-style: solid;
-  border-width: $border-width;
-  box-sizing: border-box;
-  display: inline-block;
-  padding: $space-1 $space-2;
+    .label {
+      @include u-padding-y(2);
+    }
 
-  &.is-focused {
-    border-color: $field-focus-color;
-    box-shadow: 0 0 0 2px rgba($field-focus-color, .5);
-    outline: none;
-  }
-}
-
-
-.btn-outline {
-  &:hover,
-  &:focus,
-  &:active {
-    box-shadow: 0 0 8px 0 $navy;
+    &::after {
+      background: none;
+    }
   }
 }

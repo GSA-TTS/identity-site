@@ -1,7 +1,7 @@
 ## This plugin copies the fonts and the images from the identity style guide
 ## to the appropriate path on the built site
 ##
-## The CSS and JS is already handled by the build-js and build-css npm scripts
+## The CSS and JS is already handled by Jekyll and the build-js npm script
 
 require 'fileutils'
 

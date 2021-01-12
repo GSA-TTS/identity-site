@@ -1,7 +1,11 @@
 .js-accordion {
-  svg { pointer-events: none; }
+  svg {
+    pointer-events: none;
+  }
 
-  button[aria-expanded=true] {
-    svg { display: none; }
+  button[aria-expanded="true"] {
+    svg {
+      display: none;
+    }
   }
 }

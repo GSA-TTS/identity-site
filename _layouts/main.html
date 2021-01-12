@@ -1,22 +1,16 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
-  <head>
-    {% include meta.html %}
-    {% include styles.html %}
-    {% include google_analytics.html %}
-    {% include google_recaptcha.html %}
-  </head>
-  <body class="{{ layout.class }} {{ page.class }} site lang-{{ site.lang }}" data-spy="scroll" data-target="#pb-nav--side-cntnr" data-offset="48">
-    <div class="site-wrap {{ page.bg_color | default: layout.bg_color | default:'' }}">
-      {% include skip_nav.html %}
-      {% include banner.html %}
-      {% include header.html %}
-      <main id="main-content">
-      {{ content }}
-      </main>
-    </div>
-    {% include footer.html %}
-  </body>
-  {% include dap.html %}
-  {% include scripts.html %}
-</html>
+---
+layout: base
+---
+<header>
+  {% if site.demo_banner %}
+    {% include wip.html %}
+  {% endif %}
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include header.html %}
+</header>
+<main id="main-content">{{ content }}</main>
+{% if page.one_account_banner == true %}
+  {% include one_account_banner.html %}
+{% endif %}
+{% include footer.html %}

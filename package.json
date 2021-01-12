@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "login.gov static site",
   "scripts": {
-    "build-css": "`npm bin`/node-sass --include-path node_modules --include-path _sass --output-style compressed assets/stylesheets/main.scss assets/stylesheets/main.css",
-    "build-js": "webpack --config webpack.config.js --progress --colors",
-    "federalist": "npm run build-css && npm run build-js",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "watch-js": "webpack -w --config webpack.config.js --progress --colors"
+    "build-js": "webpack --config webpack.config.js --progress --color",
+    "federalist": "npm run build-js",
+    "watch-js": "webpack -w --config webpack.config.js --progress --color",
+    "optimize-assets": "svgo --disable=removeViewBox -r -f assets/img",
+    "lint": "eslint spec webpack.config.js assets",
+    "pretest": "if [ -z $SKIP_BUILD ]; then make build; fi",
+    "test": "BABEL_ENV=test jest"
   },
   "repository": {
     "type": "git",
@@ -19,29 +21,34 @@
     "url": "https://github.com/18F/identity-site/issues"
   },
   "engines": {
-    "node": "12.x.x",
-    "yarn": "1.x.x"
+    "node": ">=12.x.x"
   },
   "homepage": "https://github.com/18F/identity-site#readme",
   "main": "webpack.config.js",
   "keywords": [],
   "devDependencies": {
-    "nodemon": "^2.0.0"
+    "@axe-core/puppeteer": "^4.1.0",
+    "eslint": "^7.15.0",
+    "eslint-plugin-prettier": "^3.2.0",
+    "get-port": "^5.1.1",
+    "jest": "^26.6.3",
+    "jest-axe": "^4.1.0",
+    "jest-environment-node": "^26.6.2",
+    "prettier": "2.1.2",
+    "puppeteer": "^5.5.0",
+    "saxophonist": "^2.0.0",
+    "serve-handler": "^6.1.3",
+    "svgo": "^1.3.2"
   },
   "dependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
     "aria-accordion": "^1.1.0",
-    "babel-core": "^6.14.0",
-    "babel-loader": "^7.1.5",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
-    "babel-preset-es2015": "^6.14.0",
-    "basscss-sass": "^3.0.0",
-    "bootstrap": "^3.4.0",
-    "hint.css": "^2.5.0",
+    "babel-loader": "^8.2.2",
     "identity-style-guide": "^2.2.2",
     "jquery": "^3.5.1",
-    "node-sass": "^4.13.1",
-    "normalize.css": "^4.2.0",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12"
+    "uswds": "^2.9.0",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
   }
 }

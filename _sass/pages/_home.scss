@@ -1,0 +1,58 @@
+.container.why-login-gov {
+  @include usa-link-style;
+  text-align: left;
+  padding-bottom: 4rem;
+  padding-top: 1.5rem;
+
+  .hdr {
+    &.individuals {
+      background: url(../img/homepage/icon-individuals/icon-individuals.svg) -0.4rem
+        center no-repeat;
+    }
+
+    &.partners {
+      background: url(../img/homepage/icon-partner/icon-partners.svg) -0.4rem center
+        no-repeat;
+    }
+
+    &.developers {
+      background: url(../img/homepage/icon-developers/icon-developers.svg) -0.4rem
+        center no-repeat;
+    }
+  }
+
+  .why-more-info {
+    display: inline-block;
+    position: relative;
+
+    &::after {
+      content: "";
+      display: inline-block;
+      background: url(../img/caret-right.svg) left center no-repeat;
+      font-size: 1.5rem;
+      height: 0.65rem;
+      width: 0.65rem;
+      position: relative;
+      top: 0.1rem;
+      left: 0.4rem;
+    }
+  }
+
+  .tablet\:grid-col + .tablet\:grid-col {
+    margin-left: 2rem;
+  }
+}
+
+@include at-media-max("desktop") {
+  .container.why-login-gov {
+    .tablet\:grid-col {
+      + .tablet\:grid-col {
+        margin-left: 0;
+      }
+
+      > h4 {
+        margin-top: 2rem;
+      }
+    }
+  }
+}

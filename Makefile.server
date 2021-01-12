@@ -1,16 +1,10 @@
-run: jekyll npm-watch-js npm-watch-css
+run: jekyll npm-watch-js
 
-assets/stylesheets/main.css: assets/stylesheets/*.scss
-	yarn run build-css
+_config.dev.yml:
+	touch _config.dev.yml
 
-assets/js/build/bundle.js: assets/js/main.js
-	yarn run build-js
-
-jekyll: assets/stylesheets/main.css assets/js/build/bundle.js
-	bundle exec jekyll serve --watch
+jekyll: _config.dev.yml
+	bundle exec jekyll serve --watch --incremental --config _config.yml,_config.dev.yml
 
 npm-watch-js:
-	yarn run watch-js
-
-npm-watch-css:
-	yarn run watch-css
+	NODE_ENV=development npm run watch-js

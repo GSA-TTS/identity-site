@@ -1,22 +1,44 @@
-.nav-sidenav-item {
-  border-left: 4px solid transparent;
-  color: $blue;
+.sidenav {
+  ul {
+    border: none;
+    font-family: $sans-serif-font-family;
 
-  &.active,
-  &:hover,
-  &:focus {
-    border-left-color: $red;
-    color: $navy;
-    text-decoration: none;
+    .usa-sidenav__item {
+      font-size: ($base-font-size - 2);
+      border-top: none;
+      border-bottom: none;
 
-    a {
-      color: $navy;
-      text-decoration: none;
+      a {
+        padding-top: $container-spacing-sm;
+        padding-bottom: $container-spacing-sm;
+      }
     }
+
+    .usa-parent {
+      font-size: $base-font-size;
+      border-top: 1px solid $blue-light;
+
+      &:last-child {
+        border-bottom: 1px solid $blue-light;
+      }
+    }
+
+    .active {
+      color: $blue-mid;
+      font-weight: bold;
+    }
+
+    .usa-current {
+      font-weight: bold;
+      color: $blue-mid;
+      background: none;
+      border-top: none;
+      border-bottom: none;
+    }
+
   }
 
-  &:hover,
-  &:focus {
-    background-color: $blue-lightest;
+  [aria-hidden="true"] {
+    display: none;
   }
 }

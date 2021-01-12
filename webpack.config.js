@@ -1,38 +1,27 @@
-var webpack = require('webpack');
-
 const { NODE_ENV = 'production' } = process.env;
 
-module.exports = {
-  entry: {
-    'site': './assets/js/main.js'
-  },
-  output: {
-    filename: 'bundle.js',
-    path: __dirname + '/assets/js/build'
-  },
-
-  devtool: '#cheap-module-eval-source-map',
-
+module.exports = /** @type {import('webpack').Configuration} */ ({
   mode: NODE_ENV,
+
+  entry: {
+    main: './assets/js/main.js',
+    contact: './assets/js/contact.js',
+  },
+
+  target: ['web', 'es5'],
+
+  output: {
+    filename: '[name].js',
+    path: __dirname + '/assets/js/build',
+  },
 
   module: {
     rules: [
       {
-        test: /\.(js)$/,
+        test: /\.js$/,
         exclude: /node_modules/,
-        use: ['babel-loader']
-      }
-    ]
+        use: ['babel-loader'],
+      },
+    ],
   },
-
-  plugins: [
-    new webpack.ProvidePlugin({
-        $: 'jquery',
-        jQuery: 'jquery'
-    })
-  ],
-
-  resolve: {
-    extensions: ['.js']
-  }
-};
+});

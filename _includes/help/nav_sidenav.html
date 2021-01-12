@@ -1,20 +1,40 @@
-<nav class="sm-col-right sm-col-4 sm-show">
-  <ul class="list-reset pt2">
-    {% for question in related_questions %}
-      {% if question.url == page.url %}
+{% include search.html size="small" id="sidenav" %}
+<nav class="margin-y-4 sidenav" aria-label="{% t accessible_labels.secondary_navigation %}">
+  <ul class="usa-accordion usa-sidenav">
+    {% for subpage in site.help_pages %}
+    {% assign subpage_slug = subpage | slugify %}
+    {% assign related_questions = site.help | where_exp: "item", "item.url contains subpage_slug" | sort: 'order' %}
+    {% if page.url contains subpage_slug %}
+      {% assign is_initially_expanded = 'true' %}
+      {% assign is_initially_hidden = 'false' %}
+    {% else %}
+      {% assign is_initially_expanded = 'false' %}
+      {% assign is_initially_hidden = 'true' %}
+    {% endif %}
+    <li class="usa-sidenav__item usa-parent" aria-expanded="{{ is_initially_expanded }}">
+      <a
+        href="{{ subpage | prepend: '/help/' | prepend: site.baseurl }}"
+        class="{% if page.url contains subpage_slug %}usa-current{% endif %}"
+      >
+        {{ site["translations"][site.lang]["help_subpages"][subpage] }}
+      </a>
+      <ul class="usa-sidenav__sublist" aria-hidden="{{ is_initially_hidden }}">
+        {% for question in related_questions %}
+        {% if question.url == page.url %}
         {% assign _index = forloop.index | modulo:7 %}
-        {% if _index == 0 %}
-          {% assign _index = 1 %}
         {% endif %}
-      {% endif %}
-      <a class="block h6 nav-sidenav-item {% if question.url == page.url %}active{% endif %}" href="{{ question.url | prepend: site.baseurl }}">
-        <li class="p2 {% unless forloop.last %}border-bottom{% endunless %}">
+        <li class="usa-sidenav__item">
           {% assign url_size = question.url | size | minus: 1 %}
           {% assign page_title = question.url | replace: "/", "." | slice: 1, url_size %}
-          {% capture page_title %}{% t page_title %}{% endcapture %}
-          {{ page_title | markdownify }}
+          {% capture page_title %}
+          {% t page_title %}
+          {% endcapture %}
+          <a class="{% if question.url == page.url %} active {% endif %}"
+            href="{{ question.url | prepend: site.baseurl }}">{{ page_title }}</a>
         </li>
-      </a>
+        {% endfor %}
+      </ul>
+    </li>
     {% endfor %}
   </ul>
 </nav>

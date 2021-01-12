@@ -1,26 +1,7 @@
 # frozen_string_literal: true
 
 require 'uri'
-
-RSpec::Matchers.define :open_external_links_in_new_window do
-  missing_target_blank = []
-
-  match do |actual|
-    doc = actual
-
-    doc.css('a[href^=http]').each do |a|
-      next unless a.ancestors('nav').empty?
-
-      missing_target_blank << a[:href] if a[:target] != '_blank'
-    end
-
-    expect(missing_target_blank).to be_empty
-  end
-
-  failure_message do |actual|
-    "expected that #{actual.url} would have target=_blank on links:\n#{missing_target_blank.join("\n")}"
-  end
-end
+require 'yaml'
 
 RSpec::Matchers.define :link_to_valid_headers do
   missing_headers = []
@@ -89,28 +70,26 @@ RSpec::Matchers.define :properly_escape_html do
   end
 end
 
-RSpec::Matchers.define :link_to_valid_urls do
-  bad_urls = []
+site_config = YAML.safe_load(File.read(File.expand_path(File.join(__dir__, '../../_config.yml'))))
+site_title = site_config['title']
 
-  match do |actual|
-    doc = actual
+RSpec::Matchers.define :be_uniquely_titled do
+  # Attempts to validate conformance to WCAG Success Criteria 2.4.2: Page Titled
+  #
+  # Visiting a page with the default app name title is considered a failure, and should be resolved
+  # by providing a distinct description for the page via the `title` YAML front-matter metadata.
+  #
+  # https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html
 
-    doc.css('a').each do |a|
-      href = a[:href]
+  title = nil
 
-      next if href == '#'
+  match do |doc|
+    title = doc.css('title').first.text.strip
 
-      begin
-        URI(href)
-      rescue URI::InvalidURIError
-        bad_urls << href
-      end
-    end
-
-    expect(bad_urls).to be_empty
+    !title.empty? && title.include?(site_title) && title.strip != "| #{site_title}"
   end
 
-  failure_message do |actual|
-    "expected that #{actual.url} would link to valid URLs, but found:\n#{bad_urls.join("\n")}"
+  failure_message do |doc|
+    "Should have a unique and descriptive title. Found '#{title}'."
   end
 end

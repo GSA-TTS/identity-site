@@ -1,0 +1,92 @@
+.hero {
+  background-color: $navy;
+  color: $white;
+  padding-top: $container-spacing-sm;
+  padding-bottom: $container-spacing-sm;
+
+  .hero__description,
+  .hero__title {
+    // This assumes there is no margin collapsing in a flex container (as opposed to block
+    // container), resulting in a total of 4 units of margin between title and description.
+    @include u-margin-y(2);
+  }
+
+  .hero__title {
+    font-size: 1.875rem; // 30px
+
+    @include at-media("desktop") {
+      font-size: 2.5rem; // 40px
+    }
+  }
+
+  .hero__description {
+    font-size: 1.125rem; // 18px
+
+    @include at-media("desktop") {
+      font-size: 1.25rem; // 20px
+    }
+  }
+}
+
+.hero--search {
+  height: 14rem;
+}
+
+@include at-media("desktop") {
+  .hero {
+    height: 20rem;
+    padding: 0;
+
+    > .container {
+      height: 100%;
+      background-image: url(../img/header@2x.png);
+      background-position: 100% 50%;
+      background-repeat: no-repeat;
+      background-size: 650px;
+    }
+
+    &.what-is-login {
+      > .container {
+        background-image: url(../img/what-is-login/header/what-is-illo-header@2x.png);
+        background-position-y: 2rem;
+        background-size: 45%;
+      }
+    }
+
+    &.who-uses-login {
+      background-image: url(../img/who-uses-login/who-uses-illo-header/who-uses-illo-header@2x.png);
+      background-position: right center;
+      background-size: 45%;
+      background-repeat: no-repeat;
+      > .container {
+        background-image: none;
+      }
+    }
+
+    &.create-an-account {
+      background-image: url(../img/create-an-account/header/create-account-illo-header@2x.png);
+      background-position: right bottom;
+      background-size: 45%;
+      background-repeat: no-repeat;
+      > .container {
+        background-image: none;
+      }
+    }
+
+    &.bg-none {
+      height: 11.125rem;
+
+      > .container {
+        background: none;
+      }
+    }
+  }
+
+  .hero--search {
+    height: 17.625rem;
+
+    > .container {
+      background-image: none;
+    }
+  }
+}

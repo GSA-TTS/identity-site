@@ -1,37 +1,63 @@
-label {
-  display: inline-block;
-  margin-bottom: $space-tiny;
+.usa-form {
+  max-width: none;
 }
 
-textarea {
-  resize: vertical;
+.usa-label {
+  margin-top: units(4);
 }
 
-.field {
-  background-color: #f2f9ff;
-  color: $gray;
-  display: block;
-  font-weight: $bold-font-weight;
+.usa-label.text-normal {
+  @include u-text("normal");
+}
 
-  &:focus,
-  &.is-focused {
-    border-color: $field-focus-color;
-    box-shadow: 0 0 0 2px rgba($field-focus-color, .5);
-    outline: none;
+.usa-input,
+.usa-input--lg-password,
+.usa-textarea,
+.usa-select,
+.usa-range {
+  margin-top: units(.5);
+}
+
+[type="search"],
+.usa-search__input {
+  margin-top: 0;
+}
+
+// TODO: Reconcile / backport to Login Design System.
+.usa-select {
+  background-color: $blue-lightest;
+  background-image: url("../img/arrow-both.svg");
+}
+
+.usa-hint {
+  @include typeset(
+    $theme-form-font-family,
+    $theme-body-font-size,
+    $theme-body-line-height
+  );
+  @include u-text("italic");
+  color: $grey-darker;
+  margin-bottom: units(2);
+  margin-top: units(.5);
+  max-width: units($theme-input-max-width);
+}
+
+.usa-button--big {
+  width: 100%;
+
+  @include at-media("desktop") {
+    min-width: 13.75rem;
+    width: auto;
+
+    + .usa-button--big {
+      margin-bottom: 0;
+      margin-left: units(2);
+    }
   }
+}
 
-  &:invalid,
-  &.is-error {
-    border-color: $border-color;
+.form-actions {
+  @include at-media("desktop") {
+    @include u-margin-y(8);
   }
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-label + .instructions {
-  display: block;
 }

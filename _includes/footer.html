@@ -1,20 +1,110 @@
-<footer class="footer bg-navy">
-  {% include i18n_dropdown_mobile.html %}
-  <div class="container cntnr-wide py1 px2 lg-px0{% if site.languages.size > 1 %} sm-py0{% endif %}">
-    <div class="flex flex-center">
-      <div class="flex flex-center">
-        {% include i18n_dropdown_desktop.html %}
-        <a href="{{ '/help/' | prepend: site.baseurl }}" class="caps h6 white text-decoration-none mr3 {% if page.url == '/help/' %}bold{% endif %}">{% t meta.help.title %}</a>
-        <a href="{{ '/contact/' | prepend: site.baseurl }}" class="caps h6 white text-decoration-none mr3 {% if page.url == '/contact/' %}bold{% endif %}">{% t meta.contact.title %}</a>
-        <a href="{{ '/policy/' | prepend: site.baseurl }}" class="caps h6 white text-decoration-none mr3 {% if page.url == '/policy/' %}bold{% endif %}">{% t meta.privacy_and_security.title %}</a>
-        <a href="{{ site.status_url }}" target="_blank" class="caps h6 white text-decoration-none">{% t footer.status %}</a>
-      </div>
-      <div class="flex flex-auto flex-first">
-        <a href="https://www.gsa.gov" class="flex text-decoration-none white h6" target="_blank">
-          <img src="{{ '/assets/img/square-gsa.svg' | relative_url }}" width="20" height="20" class="mr1 align-middle" alt="GSA hompage" />
-          <span class="sm-show">{% t footer.gsa %}</span>
-        </a>
+<footer class="footer">
+  <div class="footer-nav">
+    <div class="container">
+      <!-- apply to .footer-nav -->
+      <div class="navigation">
+        <nav>
+          <div class="grid">
+            <!-- apply to nav -->
+            <section>
+              <!-- replace with uls -->
+              <h6>{% t nav.groups.agencies %}</h6>
+              <a class="font-xs" href="https://partners.login.gov">{% t nav.become_a_partner %}</a>
+              <a class="font-xs" href="https://developers.login.gov">{% t nav.developer_guide %}</a>
+            </section>
+            <section>
+              <h6>{% t nav.groups.learn %}</h6>
+              <a class="font-xs" href="{{ site.baseurl }}/policy/">{% t nav.privacy_&_security %}</a>
+              <a class="font-xs" href="{{ site.baseurl }}/accessibility">{% t nav.accessibility.title %}</a>
+            </section>
+            <section>
+              <h6>{% t nav.groups.support %}</h6>
+              <a class="font-xs" href="{{ site.baseurl }}/help/">{% t nav.help_center %}</a>
+              <a class="font-xs" href="{{ site.baseurl }}/contact/">{% t nav.contact_us.title %}</a>
+            </section>
+          </div>
+          <div class="system-status">
+            <!-- replace with section footer -->
+            <a class="" href="https://logingov.statuspage.io">{% t nav.system_status %}</a>
+          </div>
+        </nav>
       </div>
     </div>
+  </div>
+  <div class="usa-identifier">
+    <section class="usa-identifier__section usa-identifier__section--masthead"
+      aria-label="{% t identifier.accessible_labels.identifier %}">
+      <div class="usa-identifier__container">
+        <div class="usa-identifier__logos">
+          <a href="https://gsa.gov" class="usa-identifier__logo">
+            <img class="usa-identifier__logo-img" src="{{ site.baseurl }}/assets/img/gsa-logo.svg"
+              alt="{% t identifier.accessible_labels.logo %}" role="img" />
+          </a>
+        </div>
+        <div class="usa-identifier__identity" aria-label="{% t identifier.accessible_labels.description %}">
+          <p class="usa-identifier__identity-domain">login.gov</p>
+          <p class="usa-identifier__identity-disclaimer">
+            {{ site.translations[site.lang].identifier.disclaimer | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+          </p>
+        </div>
+      </div>
+    </section>
+    <nav class="usa-identifier__section usa-identifier__section--required-links"
+      aria-label="{% t identifier.accessible_labels.links %}">
+      <div class="usa-identifier__container">
+        <ul class="usa-identifier__required-links-list">
+          <li class="usa-identifier__required-links-item">
+            <a href="https://gsa.gov" class="usa-identifier__required-link">
+              {% t identifier.links.about_agency %}
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/website-information/accessibility-aids" class="usa-identifier__required-link">
+              {% t identifier.links.accessibility %}
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia"
+              class="usa-identifier__required-link usa-link">
+              {% t identifier.links.foia %}
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/about-us/organization/office-of-civil-rights/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002"
+              class="usa-identifier__required-link usa-link">
+              {% t identifier.links.no_fear_act %}
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsaig.gov/" class="usa-identifier__required-link usa-link">
+              {% t identifier.links.ig %}
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/reference/reports/budget-performance"
+              class="usa-identifier__required-link usa-link">
+              {% t identifier.links.performance %}
+            </a>
+          </li>
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/website-information/website-policies"
+              class="usa-identifier__required-link usa-link">
+              {% t identifier.links.privacy %}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="usa-identifier__section usa-identifier__section--usagov"
+      aria-label="{% t identifier.accessible_labels.usa_gov %}">
+      <div class="usa-identifier__container">
+        <div class="usa-identifier__usagov-description">
+          {% t identifier.usa_gov.text %}
+        </div>
+        <a href="https://www.usa.gov/" class="usa-link">
+          {% t identifier.usa_gov.link %}
+        </a>
+      </div>
+    </section>
   </div>
 </footer>

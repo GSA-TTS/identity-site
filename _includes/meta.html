@@ -1,68 +1,93 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <!-- Twitter Card -->
 {% if page.twitter_card == "large" %}
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary_large_image" />
 {% else %}
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary" />
 {% endif %}
 
 <!-- Title -->
 {% if page.layout == 'help' %}
   {% assign url_size = page.url | size | minus: 1 %}
   {% assign help_page_title = page.url | replace: "/", "." | slice: 1, url_size %}
-  {% capture help_page_title_rendered %}{% t help_page_title %}{% endcapture %}
-  <title>{{ site.title }} | {{ help_page_title_rendered | xml_escape }}</title>
-  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ help_page_title_rendered | xml_escape }}" />
-  <meta name="twitter:title" content="{{ site.title | xml_escape }} | {{ help_page_title_rendered | xml_escape }}">
+  {% capture title_rendered %}{% t help_page_title %}{% endcapture %}
 {% elsif page.title %}
-  {% capture page_title_rendered %}{% t page.title %}{% endcapture %}
-  <title>{{ site.title }} | {{ page_title_rendered | xml_escape }}</title>
-  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ page_title_rendered | xml_escape }}" />
-  <meta name="twitter:title" content="{{ site.title | xml_escape }} | {{ page_title_rendered | xml_escape }}">
+  {% capture title_rendered %}{% t page.title %}{% endcapture %}
 {% else %}
-  {% capture site_title_rendered %}{% t meta.home.description %}{% endcapture %}
-  <title>{{ site.title }} | {{ site_title_rendered | xml_escape }}</title>
-  <meta property="og:title" content="{{ site.title | xml_escape }} | {{ site_title_rendered | xml_escape }}" />
-  <meta property="twitter:title" content="{{ site.title | xml_escape }} | {{ site_title_rendered | xml_escape }}" />
+  {% capture title_rendered %}{% t meta.home.description %}{% endcapture %}
 {% endif %}
+<title>{{ title_rendered | xml_escape }} | {{ site.title }}</title>
+<meta
+  property="og:title"
+  content="{{ title_rendered | xml_escape }} | {{ site.title | xml_escape }}"
+/>
+<meta
+  name="twitter:title"
+  content="{{ title_rendered | xml_escape }} | {{ site.title | xml_escape }}"
+/>
 
 <!-- Description -->
 {% if page.description %}
-  {% capture page_description_rendered %}{% t page.description %}{% endcapture %}
-  <meta name="description" content="{{ page_description_rendered | xml_escape }}">
-  <meta property="og:description" content="{{ page_description_rendered | xml_escape }}" />
-  <meta property="twitter:description" content="{{ page_description_rendered | xml_escape }}" />
+  {% capture description_rendered %}{% t page.description %}{% endcapture %}
 {% else %}
-  {% capture site_description_rendered %}{% t meta.home.description %}{% endcapture %}
-  <meta name="description" content="{{ site_description_rendered | xml_escape }}">
-  <meta property="og:description" content="{{ site_description_rendered | xml_escape }}" />
-  <meta property="twitter:description" content="{{ site_description_rendered | xml_escape }}" />
+  {% capture description_rendered %}{% t meta.home.description %}{% endcapture %}
 {% endif %}
+<meta
+  name="description"
+  content="{{ description_rendered | xml_escape }}"
+/>
+<meta
+  property="og:description"
+  content="{{ description_rendered | xml_escape }}"
+/>
+<meta
+  property="twitter:description"
+  content="{{ description_rendered | xml_escape }}"
+/>
 
 <!-- Image -->
 {% if page.image %}
-  <link rel="image_src" href="{{ page.image | absolute_url }}">
-  <meta name="image" content="{{ page.image | absolute_url }}">
-  <meta property="og:image" content="{{ page.image | absolute_url }}" />
-  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+  {% assign image = page.image %}
 {% else %}
-  <link rel="image_src" href="{{ site.image | absolute_url }}">
-  <meta name="image" content="{{ site.image | absolute_url }}">
-  <meta property="og:image" content="{{ site.image | absolute_url }}" />
-  <meta name="twitter:image" content="{{ site.image | absolute_url }}">
+  {% assign image = site.image %}
 {% endif %}
+<link rel="image_src" href="{{ image | absolute_url }}" />
+<meta name="image" content="{{ image | absolute_url }}" />
+<meta property="og:image" content="{{ image | absolute_url }}" />
+<meta name="twitter:image" content="{{ image | absolute_url }}" />
 
-<link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.canonical_domain | replace: '//', '/' | prepend: 'https://' }}">
+<link
+  rel="canonical"
+  href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.canonical_domain | replace: '//', '/' | prepend: 'https://' }}"
+/>
 
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
-<link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | relative_url }}" sizes="32x32">
-<link rel="icon" type="image/png" href="{{ '/favicon-16x16.png' | relative_url }}" sizes="16x16">
-<link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
-<link rel="mask-icon" href="{{ '/safari-pinned-tab.svg' | relative_url }}" color="#e21c3d">
-<meta name="theme-color" content="#ffffff">
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="{{ '/apple-touch-icon.png' | relative_url }}"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  href="{{ '/favicon-32x32.png' | relative_url }}"
+  sizes="32x32"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  href="{{ '/favicon-16x16.png' | relative_url }}"
+  sizes="16x16"
+/>
+<link rel="manifest" href="{{ '/manifest.json' | relative_url }}" />
+<link
+  rel="mask-icon"
+  href="{{ '/safari-pinned-tab.svg' | relative_url }}"
+  color="#e21c3d"
+/>
+<meta name="theme-color" content="#ffffff" />
 
 <!-- Monitoring Tag -->
 <meta sys-status="login.gov site up and running">

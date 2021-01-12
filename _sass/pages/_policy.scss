@@ -28,7 +28,7 @@ nav.policy {
 
   h2 {
     &::after {
-      content: '';
+      content: "";
       display: block;
       height: 1rem;
       width: 4rem;
@@ -73,7 +73,7 @@ nav.policy {
     list-style-type: none;
 
     li:before {
-      content: '';
+      content: "";
       display: inline-block;
       height: 2px;
       width: 5px;

@@ -22,11 +22,22 @@ collections:
 
 # Scripts
 scripts:
-  - /assets/js/build/bundle.js
+  - /assets/js/build/main.js
 
 # Styles
 styles:
-  - /assets/stylesheets/main.css
+  - /assets/css/main.css
+
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+    - node_modules
+
+autoprefixer:
+  browsers:
+    - last 2 versions
+    - ie 11
 
 # Build settings
 kramdown:
@@ -48,7 +59,6 @@ include:
   - .well-known
 
 exclude:
-  - /assets/stylesheets/main.scss
   - Gemfile*
   - Makefile*
   - node_modules
@@ -57,46 +67,24 @@ exclude:
   - spec
   - webpack.config.js
   - vendor
+  - /_pages/remove_content_from_these_redirects.todo
 
 keep_files:
   - /assets/js/build/*
-  - /assets/stylesheets/build/*
 
 plugins:
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
   - jekyll-sitemap
+  - jekyll-autoprefixer
 
 help_pages:
-- creating-an-account
-- authentication-methods
-- verifying-your-identity
-- signing-in
-- changing-settings
-- privacy-and-security
-- trusted-traveler-programs
-- usajobs
-- sam
+- get-started
+- trouble-signing-in
+- manage-your-account
+- specific-agencies
+- verify-your-identity
 
-# Per-section configs
-playbook:
-  principles:
-   - anchor: users
-     img: graphic-users
-     text: Focus on user needs
-   - anchor: transparent
-     img: graphic-venn
-     text: Be transparent about how it works
-   - anchor: flexible
-     img: graphic-half-circle
-     text: Build a flexible product
-   - anchor: privacy
-     img: graphic-locks
-     text: Use modern privacy practices
-   - anchor: security
-     img: graphic-hex
-     text: Create responsive security systems
 baseurl:
 
 url: https://www.login.gov
-status_url: https://logingov.statuspage.io/

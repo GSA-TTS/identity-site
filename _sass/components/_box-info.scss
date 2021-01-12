@@ -1,0 +1,27 @@
+.box {
+  background: $blue-lightest;
+  border-radius: $border-radius;
+  letter-spacing: $base-letter-spacing;
+  line-height: $line-height;
+  padding: $container-spacing-sm ($container-spacing/2) $container-spacing
+    $container-spacing;
+
+  @include at-media("desktop") {
+    margin: 0 0 ($container-spacing-sm * 2) ($container-spacing-sm * -2);
+  }
+
+  &::before {
+    content: "";
+    background: url(../img/alerts/info.svg) no-repeat;
+    background-size: 26px;
+    position: absolute;
+    left: $container-spacing-sm;
+    top: 2.5rem;
+    height: $container-spacing-sm;
+    width: 2rem;
+
+    @include at-media("desktop") {
+      left: -($container-spacing-sm/2);
+    }
+  }
+}

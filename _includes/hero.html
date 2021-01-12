@@ -1,0 +1,12 @@
+<section class="hero {{ include.class }}">
+  <div class="container">
+    <div
+      class="display-flex flex-column flex-justify-center height-full tablet:grid-col-6"
+    >
+      <h1 class="hero__title">{{ include.heading }}</h1>
+      {% if include.text %}
+        <p class="hero__description">{{ include.text }}</p>
+      {% endif %}
+    </div>
+  </div>
+</section>

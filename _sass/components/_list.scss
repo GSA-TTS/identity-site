@@ -1,27 +1,25 @@
-ul a {
-  text-decoration: none;
-}
+.list {
+  @include usa-link-style;
 
-.teal-dots {
-  li {
-    padding-left: 1rem;
-    text-indent: -1.3rem;
-
-    &::before {
-      color: $teal;
-      content: '•';
-      font-size: 2rem;
-      line-height: 1.5rem;
-      padding-right: .5rem;
-      vertical-align: -3px;
+  ul {
+    li {
+      line-height: 2.25rem;
+      ul {
+        list-style-type: '⁃  ';
+        margin-bottom: 0;
+      }
     }
+  }
+
+  a {
+    text-decoration: none;
   }
 }
 
-.list-arrow{
+.list-arrow {
   a {
     background: url('../img/ico-arrow.svg') no-repeat right 6px;
-    background-size: .75rem .75rem;
+    background-size: 0.75rem 0.75rem;
     padding-right: 1.25rem;
   }
 }
@@ -29,4 +27,71 @@ ul a {
 .list-checked li {
   background: url('../img/ico-checked.svg') no-repeat left 4px;
   background-size: 1rem;
+}
+
+.help-article > h2:first-of-type {
+  margin-top: 2rem;
+}
+
+ol.number-list,
+ul.help-question-list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+
+  > li {
+    @include u-margin-y(1);
+    @include u-position('relative');
+    padding-left: 2.25rem;
+
+    &::before {
+      @include u-pin-top;
+      @include u-pin-left;
+      background-color: $navy;
+      border-radius: 50%;
+      color: $white;
+      display: inline-block;
+      font-weight: bold;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+      width: 25px;
+    }
+
+    > ul {
+      list-style-type: disc;
+    }
+  }
+
+  p {
+    // TODO: Remove once `$theme-body-line-height` is assigned as consistent with `$line-height`.
+    position: relative;
+    $line-height-offset: round(
+        ($line-height - line-height($theme-body-font-family, $theme-body-line-height)) * 100
+      ) / 100 / -2;
+    top: $line-height-offset;
+
+    &:last-of-type {
+      margin-bottom: $line-height-offset;
+    }
+  }
+}
+
+ul.help-question-list {
+  li::before {
+    content: '?';
+  }
+}
+
+ol.number-list {
+  counter-reset: num;
+
+  > li {
+    @include u-margin-y(2);
+    counter-increment: num;
+
+    &::before {
+      content: counter(num);
+    }
+  }
 }

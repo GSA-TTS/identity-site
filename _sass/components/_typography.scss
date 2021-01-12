@@ -1,51 +1,54 @@
-html { font-size: $base-font-size; }
-body { -webkit-font-smoothing: antialiased; }
-
-.monospace { font-family: $monospace-font-family; }
-.sans-serif { font-family: $sans-serif-font-family; }
-.serif { font-family: $serif-font-family; }
-
-.lower { text-transform: lowercase; }
-
-.ls-0 { letter-spacing: 0; }
-.ls-05 { letter-spacing: .5px; }
-.ls-5 { letter-spacing: 5px; }
-
-.fs-12p { font-size: 12px; }
-.fs-13p { font-size: 13px; }
-.fs-20p { font-size: $base-font-size }
-
-// given how similar & coupled these are, single line preferred
-// scss-lint:disable SingleLinePerSelector
-h1, .h1 { font-size: $h1; }
-h2, .h2 { font-size: $h2; }
-h3, .h3 { font-size: $h3; }
-h4, .h4 { font-size: $h4; }
-h5, .h5 { font-size: $h5; }
-h6, .h6 { font-size: $h6; }
-
-@media #{$breakpoint-sm} {
-  h1, .h1 { font-size: $sm-h1; }
-  h2, .h2 { font-size: $sm-h2; }
-  h3, .h3 { font-size: $sm-h3; }
-  h4, .h4 { font-size: $sm-h4; }
-  h5, .h5 { font-size: $sm-h5; }
-  h6, .h6 { font-size: $sm-h6; }
-
-  .fs-20p { font-size: 20px; }
+html {
+  font-size: $base-font-size;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: $sans-serif-font-family;
 }
 
-@media #{$breakpoint-sm} and (max-width: #{$container-width}) {
-  h1, .h1 { font-size: $h1; }
-  h2, .h2 { font-size: $h2; }
-  h3, .h3 { font-size: $h3; }
-  h4, .h4 { font-size: $h4; }
-  h5, .h5 { font-size: $h5; }
-  h6, .h6 { font-size: $h6; }
-
-  .fs-20p { font-size: $base-font-size }
+article p {
+  @include para-style();
 }
 
-p + h4 {
-  margin-top: $space-2-5;
+.page-content__prose {
+  // TODO: Reconcile with above `article p` styles. These are more broad in applying links, list,
+  // heading styles, and are also associated with accompanying classes for page content (footer,
+  // layout styles).
+  @include usa-content-styles;
+
+  &,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    // TODO: Remove this once we assign `$theme-font-sans` design system variable to Public Sans.
+    font-family: $sans-serif-font-family;
+
+    // TODO: Remove this once we assign `$theme-body-line-height` design system variable.
+    line-height: $line-height;
+  }
+
+  p {
+    // TODO: Remove this once we assign `$theme-body-line-height` design system variable.
+    line-height: $line-height;
+
+    // TODO: Consider respecting or customizing `$theme-text-measure` design system variable.
+    max-width: none;
+  }
+}
+
+.monospace {
+  font-family: $monospace-font-family;
+}
+.sans-serif {
+  font-family: $sans-serif-font-family;
+}
+.serif {
+  font-family: $serif-font-family;
+}
+
+.font-xs {
+  font-size: $base-font-xs;
 }

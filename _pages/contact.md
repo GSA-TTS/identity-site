@@ -1,23 +1,19 @@
 ---
 title: meta.contact_us.title
+layout: sidenav
 permalink: /contact/
 description: meta.contact_us.description
+sidenav: contact_us
+scripts:
+  - /assets/js/build/contact.js
 ---
 
-<div class="bg-navy">
-  <div class="container cntnr-wide px2 py3 sm-py4">
-    <h1 class="m0 white">
-      {% t meta.contact_us.title %}
-    </h1>
-  </div>
+{{ site.translations[site.lang].contact_page.content.intro | replace: 'site.baseurl', site.baseurl | markdownify }}
+
+<div class="desktop:grid-col-9">
+  {% include contact_form.html %}
 </div>
 
-<div class="bg-white">
-  <div class="container cntnr-wide px2 pt4 pb5">
-    <div class="sm-col-8 mb2">	
-      {% include contact_form.html %}
-      {{ site.translations[site.lang]["contact_page"]["content"] | replace: 'site.baseurl', site.baseurl | markdownify }}
-    </div>
-  </div>
-</div>
-
+<footer class="page-content__footer">
+  {{ site.translations[site.lang].contact_page.content.footer | replace: 'site.baseurl', site.baseurl | markdownify }}
+</footer>

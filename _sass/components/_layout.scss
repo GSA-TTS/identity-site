@@ -1,0 +1,123 @@
+main {
+  background: white;
+}
+
+.container,
+div > .container,
+section > .container,
+nav > .container,
+article.container,
+.usa-identifier__container {
+  @include lg-grid();
+}
+
+.language-search .container {
+  display: flex;
+}
+
+.usa-header .usa-nav-container {
+  @include lg-grid();
+
+  @include at-media-max("desktop") {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.usa-nav__primary {
+  order: 0;
+
+  @include at-media-max("desktop") {
+    margin-top: 0;
+  }
+}
+
+.usa-header .usa-nav {
+  .usa-search {
+    flex-shrink: 0;
+    right: 0;
+  }
+}
+
+.usa-header .usa-search [type="search"] {
+  height: 2rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+@include at-media("desktop") {
+  .usa-header .usa-nav {
+    .usa-search {
+      position: absolute;
+      bottom: 1rem;
+    }
+  }
+
+  .usa-nav__primary {
+    > .usa-nav__primary-item {
+      > a,
+      > .usa-nav__link {
+        position: relative;
+        padding: 0;
+
+        &:hover,
+        &.usa-current {
+          box-shadow: inset 0 -4px 0 0 $red;
+
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .one-account-for-govt {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+}
+
+.usa-header .usa-navbar {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@include at-media("desktop-lg") {
+  .sidebar {
+    @include grid-col(3);
+    @include grid-offset(2);
+  }
+}
+
+.container {
+  .hdr {
+    padding: 0.5rem 0 0.5rem 2.75rem;
+  }
+}
+
+.page-content {
+  @include u-padding-y(3);
+
+  @include at-media("desktop") {
+    @include u-padding-y(8);
+  }
+}
+
+.page-content__footer {
+  @include u-border-top(1px, "primary-light");
+  @include u-margin-top(8);
+  @include u-padding-top(4);
+}
+
+.display-none.desktop\:display-block {
+  // TODO: This can be removed after upgrading to identity-style-guide@3
+  // See: https://github.com/uswds/uswds/pull/3308
+  @include at-media("desktop") {
+    display: block;
+  }
+}
