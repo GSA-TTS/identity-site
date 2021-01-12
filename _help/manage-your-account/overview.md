@@ -16,6 +16,9 @@ redirect_from:
 - /help/privacy-and-security/can-i-remove-a-saved-password-or-login-information-from-my-browser/
 - /help/changing-settings/how-do-I-set-up-an-authentication-app/
 - /help/manage-your-account/
+- /help/changing-settings/change-my-phone-number/
+- /help/changing-settings/how-do-i-change-the-phone-number-i-am-using-with-my-account/
+- /help/changing-settings/how-do-i-change-the-phone-number-i-use-to-sign-in/
 ---
 
 {% include help/translate_page.html url=page.url %}

@@ -14,7 +14,6 @@
             </section>
             <section>
               <h6>{% t nav.groups.learn %}</h6>
-              <a class="font-xs" href="{{ site.baseurl }}/about/">{% t nav.about_us %}</a>
               <a class="font-xs" href="{{ site.baseurl }}/policy/">{% t nav.privacy_&_security %}</a>
               <a class="font-xs" href="{{ site.baseurl }}/accessibility">{% t nav.accessibility.title %}</a>
             </section>
@@ -33,25 +32,16 @@
     </div>
   </div>
   <div class="usa-identifier">
-    <section
-      class="usa-identifier__section usa-identifier__section--masthead"
-      aria-label="{% t identifier.accessible_labels.identifier %}"
-    >
+    <section class="usa-identifier__section usa-identifier__section--masthead"
+      aria-label="{% t identifier.accessible_labels.identifier %}">
       <div class="usa-identifier__container">
         <div class="usa-identifier__logos">
           <a href="https://gsa.gov" class="usa-identifier__logo">
-            <img
-              class="usa-identifier__logo-img"
-              src="{{ site.baseurl }}/assets/img/gsa-logo.svg"
-              alt="{% t identifier.accessible_labels.logo %}"
-              role="img"
-            />
+            <img class="usa-identifier__logo-img" src="{{ site.baseurl }}/assets/img/gsa-logo.svg"
+              alt="{% t identifier.accessible_labels.logo %}" role="img" />
           </a>
         </div>
-        <div
-          class="usa-identifier__identity"
-          aria-label="{% t identifier.accessible_labels.description %}"
-        >
+        <div class="usa-identifier__identity" aria-label="{% t identifier.accessible_labels.description %}">
           <p class="usa-identifier__identity-domain">login.gov</p>
           <p class="usa-identifier__identity-disclaimer">
             {{ site.translations[site.lang].identifier.disclaimer | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
@@ -59,10 +49,8 @@
         </div>
       </div>
     </section>
-    <nav
-      class="usa-identifier__section usa-identifier__section--required-links"
-      aria-label="{% t identifier.accessible_labels.links %}"
-    >
+    <nav class="usa-identifier__section usa-identifier__section--required-links"
+      aria-label="{% t identifier.accessible_labels.links %}">
       <div class="usa-identifier__container">
         <ul class="usa-identifier__required-links-list">
           <li class="usa-identifier__required-links-item">
@@ -71,60 +59,44 @@
             </a>
           </li>
           <li class="usa-identifier__required-links-item">
-            <a
-              href="https://www.gsa.gov/website-information/accessibility-aids"
-              class="usa-identifier__required-link"
-            >
+            <a href="https://www.gsa.gov/website-information/accessibility-aids" class="usa-identifier__required-link">
               {% t identifier.links.accessibility %}
             </a>
           </li>
           <li class="usa-identifier__required-links-item">
-            <a
-              href="https://www.gsa.gov/reference/freedom-of-information-act-foia"
-              class="usa-identifier__required-link usa-link"
-            >
+            <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia"
+              class="usa-identifier__required-link usa-link">
               {% t identifier.links.foia %}
             </a>
           </li>
           <li class="usa-identifier__required-links-item">
-            <a
-              href="https://www.gsa.gov/about-us/organization/office-of-civil-rights/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002"
-              class="usa-identifier__required-link usa-link"
-            >
+            <a href="https://www.gsa.gov/about-us/organization/office-of-civil-rights/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002"
+              class="usa-identifier__required-link usa-link">
               {% t identifier.links.no_fear_act %}
             </a>
           </li>
           <li class="usa-identifier__required-links-item">
-            <a
-              href="https://www.gsaig.gov/"
-              class="usa-identifier__required-link usa-link"
-            >
+            <a href="https://www.gsaig.gov/" class="usa-identifier__required-link usa-link">
               {% t identifier.links.ig %}
             </a>
           </li>
           <li class="usa-identifier__required-links-item">
-            <a
-              href="https://www.gsa.gov/reference/reports/budget-performance"
-              class="usa-identifier__required-link usa-link"
-            >
+            <a href="https://www.gsa.gov/reference/reports/budget-performance"
+              class="usa-identifier__required-link usa-link">
               {% t identifier.links.performance %}
             </a>
           </li>
           <li class="usa-identifier__required-links-item">
-            <a
-              href="https://www.gsa.gov/website-information/website-policies"
-              class="usa-identifier__required-link usa-link"
-            >
+            <a href="https://www.gsa.gov/website-information/website-policies"
+              class="usa-identifier__required-link usa-link">
               {% t identifier.links.privacy %}
             </a>
           </li>
         </ul>
       </div>
     </nav>
-    <section
-      class="usa-identifier__section usa-identifier__section--usagov"
-      aria-label="{% t identifier.accessible_labels.usa_gov %}"
-    >
+    <section class="usa-identifier__section usa-identifier__section--usagov"
+      aria-label="{% t identifier.accessible_labels.usa_gov %}">
       <div class="usa-identifier__container">
         <div class="usa-identifier__usagov-description">
           {% t identifier.usa_gov.text %}

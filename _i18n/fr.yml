@@ -358,7 +358,6 @@ help_pages:
       ## Sujets de dépannage courants
 
       * [Changez votre mot de passe](site.baseurl/help/manage-your-account/change-your-password/)
-      * [Modifiez le numéro de téléphone associé à votre compte](site.baseurl/help/manage-your-account/change-your-phone-number/)
       * [Supprimez votre compte login.gov](site.baseurl/help/manage-your-account/delete-your-account/)
       {: .help-question-list}
     change-your-password: |-
