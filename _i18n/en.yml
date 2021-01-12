@@ -191,11 +191,6 @@ help:
     overview: Overview
     how-to-sign-in: How to sign in to login.gov
     forgot-your-password: Forgot your password
-    locked-out-of-login: Locked out of login.gov account
-    forgot-your-email-address: Forgot your email address
-    phone-or-authentication-methods-not-available: Phone or authentication methods not available
-    password-reset-issues: Password reset issues
-    security-code-issues: Security code issues
   manage-your-account:
     overview: Overview
     change-your-password: Change your password
@@ -204,9 +199,6 @@ help:
   verify-your-identity:
     overview: Overview
     how-to-verify-your-identity: How to verify your identity
-    verify-your-address-by-mail: Verify your address by mail
-    dont-have-a-state-issued-id: Don’t have a state-issued ID
-    personal-key-issues: Personal key issues
   specific-agencies:
       overview: Overview
       trusted-traveler-programs: Trusted Traveler Programs (TTP)
@@ -340,11 +332,6 @@ help_pages:
 
         * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
         * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password)
-        * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login)
-        * [Forgot your email address](site.baseurl/help/trouble-signing-in/forgot-your-email-address)
-        * [Phone or authentication methods not available](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available)
-        * [Password reset issues](site.baseurl/help/trouble-signing-in/password-reset-issues)
-        * [Security code issues](site.baseurl/help/trouble-signing-in/security-code-issues)
         {: .help-question-list}
     how-to-sign-in: |-
       # How to sign in to login.gov
@@ -382,71 +369,6 @@ help_pages:
           Your login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
       1. Click the “Change password” button.
       {: .number-list}
-    locked-out-of-login: |-
-      # Locked out of login.gov account
-      If you didn't receive a confirmation email, check your spam filter. Alternatively, you may have accidentally mistyped your email address. If so, you can always make another account with your correct email address.
-
-      - If you mistyped your address, you can create a new account.
-      - If you are certain you entered the correct address, choose “send again” to get a new confirmation email.
-    phone-or-authentication-methods-not-available: |-
-      # Phone or authentication methods not available
-      Confirming access to an email address is the first step in creating a login.gov account. If you received a notice that there is already a login.gov account associated with your email address, but you don't remember creating it, use your email address to go through the [password reset process and sign in](site.baseurl/help/signing-in/forgot-my-password).
-
-      Please submit a [support ticket](site.baseurl/contact) if you are sure you did not create an account.
-
-      [What is two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
-
-      [Why do I have to use login.gov?](site.baseurl/help/privacy-and-security/why-do-i-have-to-use-logingov/)
-    forgot-your-email-address: |-
-      # Forgot your email address
-      Your password should be at least 12 characters long. Try using multiple words and spaces to create a memorable phrase. Longer passwords with many words are stronger than short passwords with special characters.
-
-      When creating a password, also try to avoid using slang terms and common misspellings and words spelled backward. Also, avoid using your company name or your spouse's or children's names - and even your pet - as well as other personal information such as your age or birth date.
-
-      If you're already signed in, and you're trying to change your password, email, or phone, you will be prompted to enter your current password before you can make the changes.
-
-      But, if you repeatedly enter an incorrect password, it is most likely due to a malicious person taking over your machine that you left unattended. In that case, for your security, we sign you out after three failed attempts.
-    security-code-issues: |-
-      # Security code issues
-      A personal key is a 16-character secret code that login.gov gives you after you verify their identity. It’s used to encrypt your data (think of it as a key to your secret information). You don’t need it every time you sign in, but you will need it if you reset your password.
-
-      Remember, it’s the key to your personal information, so make sure you keep it in a safe place where it can’t be lost or stolen.
-
-      Note: You’ll only get and need a personal key if you verified your identity on your login.gov account (only some government applications require identity verification).
-
-      **You need your personal key if you reset your password**
-      To keep your information safe, your password and your personal key are the only two ways to decrypt your data (the only two keys to your secret information).
-      - If you reset your password, you’ll have to enter your personal key.
-      - If you lose both your password and your personal key, you’ll have to verify your identity again.
-
-      **Personal keys are not used for 2FA anymore**
-      In the past, we gave users a personal key to use as a two-factor authentication method. It was a way to sign in to your account if you lost or changed your phone number. However, we’ve now removed the ability to use personal keys as an authentication method because they are easily lost or stolen.
-
-      If you still have the option to use personal key for two-factor authentication, you’ll be asked to set up a different authentication method the next time you sign in. You can choose from phone SMS or voice call, authenticator app, security key, government or military employee ID (PIV/CAC), or backup codes. After you set up your new authentication method, you won’t be able to use personal key as an authentication method anymore.
-
-      ## Related articles
-      * [Two-factor authentication](site.baseurl/help/creating-an-account/two-factor-authentication/)
-      * [Personal key not working](site.baseurl/help/signing-in/personal-key-not-working/)
-      * [What is phishing?](site.baseurl/help/privacy-and-security/what-is-phishing/)
-      * [Why do I need to verify my identity?](site.baseurl/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/)
-    password-reset-issues: |-
-      # Password reset issues
-      login.gov uses two-factor authentication (2FA) to keep accounts secure. This means that, each time you sign in, you must use something you know and something you have. This makes your account safer by making it much harder for others to break into it.
-
-      1. The ‘something you know’ is your password. We’ll ask you to create a strong password (at least 12 characters long) when you create your account.
-      2. The ‘something you have’ is your two-factor authentication method. You’ll be able to choose between the following options when you create your account.
-        - Phone: Get security codes by text message (SMS) or phone call
-        - [Authentication app](site.baseurl/help/creating-an-account/authentication-application/): Get codes from an app on your phone, computer, or tablet
-        - [Security key](site.baseurl/help/creating-an-account/security-key/): Use a security key that you have. It’s a physical device that you plug in or that is built in to your computer or phone (it often looks like a USB flash drive).
-        - Government employee ID: Insert your government or military PIV or CAC card and enter your PIN
-        - Backup codes: We’ll give you 10 codes to use and keep in a safe place. You can use backup codes as your only authentication method, if you don’t have any of the other options.
-      {: .number-list}
-
-      We’ll ask you to set up at least two different two-factor authentication methods for your account. You won’t have to use both every time you sign in, but it helps make sure you don’t lose access to your account (for example, if you lose your phone and need to change your phone number).
-
-      ## Related articles
-      * [Phone didn’t get a security code](site.baseurl/help/creating-an-account/phone-didnt-get-a-security-code/)
-      * [No phone or other authentication method](site.baseurl/help/creating-an-account/no-phone-or-other-authentication-method/)
   manage-your-account:
     overview: |-
       # Manage your account
@@ -558,8 +480,6 @@ help_pages:
       * [How to sign in to login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in/)
       * [Change your password](site.baseurl/help/manage-your-account/change-your-password/)
       * [Forgot your password](site.baseurl/help/trouble-signing-in/forgot-your-password/)
-      * [Locked out of login.gov account](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
-      * [Phone or authentication methods not available](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
       {: .help-question-list}
     sam: |-
       Login.gov is for secure sign in only. Your login.gov account does not affect or have any information about your System for Award Management (SAM) account, application, status, membership, or eligibility.
@@ -635,18 +555,9 @@ help_pages:
       ## Common troubleshooting topics
 
        * [How to verify your identity](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
-       * [Verify your address by mail](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
-       * [Don’t have a state-issued ID](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
-       * [Personal key issues](site.baseurl/help/verify-your-identity/personal-key-issues/)
        {: .help-question-list}
     how-to-verify-your-identity: |-
       # How to verify your identity
-    verify-your-address-by-mail: |-
-      # Verify your address by mail
-    dont-have-a-state-issued-id: |-
-      # Don’t have a state-issued ID
-    personal-key-issues: |-
-      # Personal key issues
 help_subpages:
   get-started: Get started with login.gov
   trouble-signing-in: Trouble signing in?

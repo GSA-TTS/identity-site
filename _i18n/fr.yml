@@ -180,11 +180,6 @@ help:
     overview: Aperçu
     how-to-sign-in: Comment se connecter à login.gov
     forgot-your-password: Mot de passe oublié
-    locked-out-of-login: Verrouillé du compte login.gov
-    forgot-your-email-address: Adresse courriel oubliée
-    phone-or-authentication-methods-not-available: Téléphone ou méthodes d’authentification non disponibles
-    password-reset-issues: Problèmes de réinitialisation du mot de passe
-    security-code-issues: Problèmes de code de sécurité
   manage-your-account:
     overview: Aperçu
     change-your-password: Changez votre mot de passe
@@ -192,9 +187,6 @@ help:
   verify-your-identity:
     overview: Aperçu
     how-to-verify-your-identity: Comment vérifier votre identité
-    verify-your-address-by-mail: Vérifiez votre adresse par courrier
-    dont-have-a-state-issued-id: Vous ne disposez pas d’une carte d’identité délivrée par l’État
-    personal-key-issues: Problèmes personnels majeurs
   specific-agencies:
       overview: Aperçu
       trusted-traveler-programs: Programmes pour voyageurs fiables (TTP)
@@ -326,11 +318,6 @@ help_pages:
 
       * [Comment se connecter à login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
       * [Mot de passe oublié](site.baseurl/help/trouble-signing-in/forgot-your-password)
-      * [Verrouillé du compte login.gov](site.baseurl/help/trouble-signing-in)
-      * [Adresse courriel oubliée](site.baseurl/help/trouble-signing-in)
-      * [Téléphone ou méthodes d’authentification non disponibles](site.baseurl/help/trouble-signing-in)
-      * [Problèmes de réinitialisation du mot de passe](site.baseurl/help/trouble-signing-in/password-reset-issues)
-      * [Problèmes de code de sécurité](site.baseurl/help/trouble-signing-in/security-code-issues)
       {: .help-question-list}
     how-to-sign-in: |-
       # Comment se connecter à login.gov
@@ -460,8 +447,6 @@ help_pages:
       * [Comment se connecter à login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in/)
       * [Changer votre mot de passe](site.baseurl/help/manage-your-account/change-your-password/)
       * [Mot de passe oublié](site.baseurl/help/trouble-signing-in/forgot-your-password/)
-      * [Verrouillage du compte login.gov](site.baseurl/help/trouble-signing-in/locked-out-of-login/)
-      * [Téléphone ou méthodes d'authentification non disponibles](site.baseurl/help/trouble-signing-in/phone-or-authentication-methods-not-available/)
       {: .help-question-list}
     sam: |-
       Login.gov est réservé à l'identification sécurisée. Votre compte login.gov n’affecte pas et ne contient aucune information sur votre compte, votre candidature, votre statut, votre adhésion ou votre éligibilité au Système de capture des prix (SAM).
@@ -517,18 +502,9 @@ help_pages:
       ## Sujets de dépannage courants
 
        * [Comment vérifier votre identité](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
-       * [Vérifiez votre adresse par courrier](site.baseurl/help/verify-your-identity/verify-your-address-by-mail/)
-       * [Vous ne disposez pas d’une carte d’identité délivrée par l’État](site.baseurl/help/verify-your-identity/dont-have-a-state-issued-id/)
-       * [Problèmes personnels majeurs](site.baseurl/help/verify-your-identity/personal-key-issues/)
        {: .help-question-list}
     how-to-verify-your-identity: |-
       # Comment vérifier votre identité
-    verify-your-address-by-mail: |-
-      # Vérifiez votre adresse par courrier
-    dont-have-a-state-issued-id: |-
-      # Vous ne disposez pas d’une carte d’identité délivrée par l’État
-    personal-key-issues: |-
-      # Problèmes personnels majeurs
 help_subpages:
   get-started: Commencez avec login.gov
   trouble-signing-in: Des problèmes pour vous connecter?
