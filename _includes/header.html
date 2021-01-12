@@ -33,22 +33,22 @@
 
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
-          <a class="usa-nav__link {% if page.url contains '/what-is-login/' %}usa-current{% endif %}" href="{{ '/what-is-login' | relative_url }}">
+          <a class="usa-nav__link {% if page.url contains '/what-is-login/' %}usa-current{% endif %}" href="{{ '/what-is-login' | prepend: site.baseurl }}">
             <span>{% t nav.what_is_login_gov %}</span>
           </a>
         </li>
         <li class="usa-nav__primary-item">
-          <a class="usa-nav__link {% if page.url contains '/who-uses-login/' %}usa-current{% endif %}" href="{{ '/who-uses-login' | relative_url }}">
+          <a class="usa-nav__link {% if page.url contains '/who-uses-login/' %}usa-current{% endif %}" href="{{ '/who-uses-login' | prepend: site.baseurl }}">
             <span>{% t nav.who_uses_login_gov %}</span>
           </a>
         </li>
         <li class="usa-nav__primary-item">
-          <a class="usa-nav__link {% if page.url contains '/create-an-account/' %}usa-current{% endif %}" href="{{ '/create-an-account' | relative_url }}">
+          <a class="usa-nav__link {% if page.url contains '/create-an-account/' %}usa-current{% endif %}" href="{{ '/create-an-account' | prepend: site.baseurl }}">
             <span>{% t nav.create_an_account %}</span>
           </a>
         </li>
         <li class="usa-nav__primary-item">
-          <a class="usa-nav__link {% if page.url contains '/help/' %}usa-current{% endif %}" href="{{ '/help' | relative_url }}">
+          <a class="usa-nav__link {% if page.url contains '/help/' %}usa-current{% endif %}" href="{{ '/help' | prepend: site.baseurl }}">
             <span>{% t nav.help_center %}</span>
           </a>
         </li>
