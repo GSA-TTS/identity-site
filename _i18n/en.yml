@@ -220,7 +220,7 @@ help_page:
       url: /help/manage-your-account/overview
       image: /assets/img/help/manage-your-account.svg
     - title: Help with specific agencies
-      description: Get help with USAJOBS, Trusted Traveler Programs (TTP), SAM.gov.
+      description: Get help with Trusted Traveler Programs (TTP) and SAM.gov.
       url: /help/specific-agencies/overview
       image: /assets/img/help/help-specific-agencies.svg
     - title: Verify your identity
