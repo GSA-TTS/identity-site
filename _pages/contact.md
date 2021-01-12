@@ -8,6 +8,8 @@ scripts:
   - /assets/js/build/contact.js
 ---
 
+Having trouble accessing your account? Visit <a href="https://status.login.gov">our <img src="/assets/img/system-status/icon-system-status.png" height="18" class="text-middle padding-x-2px"> system status page</a> to check for outages.
+
 {{ site.translations[site.lang].contact_page.content.intro | replace: 'site.baseurl', site.baseurl | markdownify }}
 
 <div class="desktop:grid-col-9">
