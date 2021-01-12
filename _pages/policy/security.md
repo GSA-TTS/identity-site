@@ -5,6 +5,7 @@ description: meta.privacy_security_policy.security.description
 permalink: /policy/our-security-practices/
 redirect_from: /security/
 index: 3
+sidenav: policies
 redirect_from:
 - /security/
 ---
