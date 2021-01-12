@@ -216,12 +216,6 @@ help_pages:
       * [Learn about authentication options](site.baseurl/help/get-started/authentication-options/)
       * [Why you are being asked to use login.gov](site.baseurl/what-is-login)
       {: .help-question-list}
-
-      ## Common troubleshooting topics
-
-      * Email address confirmation issues
-      * Security code not received on phone
-      {: .help-question-list}
     create-your-account: |-
       Follow these steps to create your login.gov account.
 

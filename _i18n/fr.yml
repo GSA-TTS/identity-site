@@ -203,12 +203,6 @@ help_pages:
       * [En savoir plus sur les options d'authentification](site.baseurl/help/get-started/authentication-options/)
       * [Pourquoi on vous demande d'utiliser login.gov](site.baseurl/what-is-login)
       {: .help-question-list}
-
-      ## Sujets de dépannage courants
-
-      * Problèmes de confirmation de l'adresse de courriel
-      * Le code de sécurité n'a pas été reçu sur le téléphone
-      {: .help-question-list}
     create-your-account: |-
       Suivez les étapes suivantes pour créer votre compte login.gov.
 
