@@ -1,7 +1,11 @@
 # Netlify CMS Settings
 backend:
   name: git-gateway
+  repo: 18f/identity-site
   branch: ca-netlify-cms
+  base_url: https://federalistapp.18f.gov
+  auth_endpoint: external/auth/github
+  preview_context: federalist/build
 
   # optional
   use_graphql: true
