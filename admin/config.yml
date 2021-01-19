@@ -16,6 +16,34 @@ publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 collections:
+  - label: Help articles
+    name: help
+    folder: _pages/help/
+    create: true
+    slug: "{{fields.topic}}/{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'help'}
+      - {label: 'Language', name: 'language', widget: 'hidden', default: 'en'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Topic",
+          name: "topic",
+          widget: "select",
+          options: ["Get started", "Manage your account", "Verify your identity", "Trouble signing in?", "Help with specific agencies"]
+        }
+      - {label: "Order", name: "order", widget: "number"}
+      - {
+        label: "Publish Date",
+        name: "date",
+        widget: "datetime",
+        format: 'MMMM D, YYYY',
+        dateFormat: 'MMMM D, YYYY',
+        timeFormat: false
+      }
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Redirects", name: "redirects", widget: "list"}
   - label: Posts
     name: posts
     folder: _posts/
