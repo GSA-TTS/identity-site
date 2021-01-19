@@ -1,6 +1,6 @@
 # Netlify CMS Settings
 backend:
-  name: git-gateway
+  name: github
   repo: 18f/identity-site
   branch: ca-netlify-cms
   base_url: https://federalistapp.18f.gov
