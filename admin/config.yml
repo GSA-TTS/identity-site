@@ -1,39 +1,61 @@
 # Netlify CMS Settings
+## Comment out when doing local development
+# backend:
+#   name: github
+#   repo: 18f/identity-site
+#   branch: ca-LG-4064-netlifycms
+#   base_url: https://federalistapp.18f.gov
+#   auth_endpoint: external/auth/github
+#   preview_context: federalist/build
+#   use_graphql: true
+
+#
+# Uncomment when doing local development on Netlify CMS
+# Run `npx netlify-cms-proxy-server` to start working locally
+# In another terminal, start the app with `npm start`
+# See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+#
+
 backend:
-  name: github
-  repo: 18f/identity-site
-  branch: ca-netlify-cms
-  base_url: https://federalistapp.18f.gov
-  auth_endpoint: external/auth/github
-  preview_context: federalist/build
+  name: git-gateway
+local_backend: true
 
-  # optional
-  use_graphql: true
+#
+#
 
-media_folder: assets/uploads
-public_folder: /images/uploads
+media_folder: assets/img
+public_folder: /images/img
 publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 collections:
-  - label: Help articles
+  - label: Help article
     name: help
     folder: _pages/help/
     create: true
     slug: "{{fields.topic}}/{{slug}}"
     editor:
-      preview: false
+      preview: true
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'help'}
-      - {label: 'Language', name: 'language', widget: 'hidden', default: 'en'}
       - {label: "Title", name: "title", widget: "string"}
+      - {
+        label: 'Language',
+        name: 'language',
+        widget: 'select',
+        options: ["en", "sp", "fr"],
+        default: 'en'
+        }
       - {
           label: "Topic",
           name: "topic",
           widget: "select",
-          options: ["Get started", "Manage your account", "Verify your identity", "Trouble signing in?", "Help with specific agencies"]
+          options: ["Get started", "Manage your account", "Verify your identity", "Trouble signing in?", "Help with specific agencies"],
+          default: ["Get started"]
         }
       - {label: "Order", name: "order", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Redirects", name: "redirects", widget: "list"}
       - {
         label: "Publish Date",
         name: "date",
@@ -42,15 +64,13 @@ collections:
         dateFormat: 'MMMM D, YYYY',
         timeFormat: false
       }
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Redirects", name: "redirects", widget: "list"}
-  - label: Posts
+  - label: Post
     name: posts
     folder: _posts/
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-      preview: false
+      preview: true
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
       - {label: "Title", name: "title", widget: "string"}
