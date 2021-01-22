@@ -12,7 +12,7 @@
 #
 # Uncomment when doing local development on Netlify CMS
 # Run `npx netlify-cms-proxy-server` to start working locally
-# In another terminal, start the app with `npm start`
+# In another terminal, start the app with `make build && make run`
 # See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 #
 
@@ -51,7 +51,7 @@ collections:
           name: "topic",
           widget: "select",
           options: ["Get started", "Manage your account", "Verify your identity", "Trouble signing in?", "Help with specific agencies"],
-          default: ["Get started"]
+          default: "Get started"
         }
       - {label: "Order", name: "order", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
