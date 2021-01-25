@@ -59,13 +59,13 @@ collections:
           widget: 'select',
           options:
             [
-              { label: 'Get started', value: 'get-started' }
-              { label: 'Manage your account', value: 'trouble-signing-in' }
-              { label: 'Verify your identity', value: 'manage-your-account' }
-              { label: 'Trouble signing in?', value: 'verify-your-identity' }
-              { label: 'Help with specific agencies', value: 'specific-agencies' }
+              { label: 'Get started with login.gov', value: 'get-started' },
+              { label: 'Manage your account', value: 'trouble-signing-in' },
+              { label: 'Verify your identity', value: 'manage-your-account' },
+              { label: 'Trouble signing in?', value: 'verify-your-identity' },
+              { label: 'Help with specific agencies', value: 'specific-agencies' },
             ],
-          default: 'specific-agencies',
+          default: 'get-started',
         }
       - { label: 'Order', name: 'order', widget: 'number', default: '0' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
