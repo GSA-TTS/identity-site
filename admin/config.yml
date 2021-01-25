@@ -59,13 +59,13 @@ collections:
           widget: 'select',
           options:
             [
-              'Get started',
-              'Manage your account',
-              'Verify your identity',
-              'Trouble signing in?',
-              'Help with specific agencies',
+              { label: 'Get started', value: 'get-started' }
+              { label: 'Manage your account', value: 'trouble-signing-in' }
+              { label: 'Verify your identity', value: 'manage-your-account' }
+              { label: 'Trouble signing in?', value: 'verify-your-identity' }
+              { label: 'Help with specific agencies', value: 'specific-agencies' }
             ],
-          default: 'Get started',
+          default: 'specific-agencies',
         }
       - { label: 'Order', name: 'order', widget: 'number', default: '0' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
