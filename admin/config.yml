@@ -30,29 +30,36 @@ public_folder: /images/img
 publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
+i18n:
+  # Required and can be one of multiple_folders, multiple_files or single_file
+  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+  # single_file - persists a single file in `<folder>/<slug>.<extension>`
+  structure: multiple_folders
+
+  # Required - a list of locales to show in the editor UI
+  locales: [en, sp, fr]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  default_locale: en
+
 collections:
-  - label: Help article
+  - label: Help
+    label_singular: 'Help article'
     name: help
-    folder: _pages/help/
+    i18n: true
+    folder: _pages/help
     create: true
     slug: '{{fields.topic}}/{{slug}}'
     editor:
-      preview: true
+      preview: false
+    view_groups:
+      - label: Topic
+        field: topic
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'help' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - {
-          label: 'Language',
-          name: 'language',
-          widget: 'select',
-          options:
-            [
-              { label: 'English', value: 'en' },
-              { label: 'Spanish', value: 'sp' },
-              { label: 'French', value: 'fr' },
-            ],
-          default: 'en',
-        }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'help', i18n: duplicate }
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - {
           label: 'Topic',
           name: 'topic',
@@ -66,26 +73,29 @@ collections:
               { label: 'Help with specific agencies', value: 'specific-agencies' },
             ],
           default: 'get-started',
+          i18n: duplicate,
         }
-      - { label: 'Order', name: 'order', widget: 'number', default: '0' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Order', name: 'order', widget: 'number', default: '0', min: 0, i18n: duplicate }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
       - {
           label: 'Redirect from',
           name: 'redirect_from',
           widget: 'list',
           hint: 'Comma-separated list of urls.',
+          required: false,
         }
-      - { label: 'Redirect to', name: 'redirect_to', widget: 'string' }
-  - label: Blog post
+      - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false }
+  - label: Blog posts
+    label_singular: 'Blog post'
     name: posts
     folder: _posts/
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post', i18n: duplicate }
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
       - {
           label: 'Publish Date',
           name: 'date',
@@ -93,5 +103,6 @@ collections:
           format: 'MMMM D, YYYY',
           dateFormat: 'MMMM D, YYYY',
           timeFormat: false,
+          i18n: duplicate,
         }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
