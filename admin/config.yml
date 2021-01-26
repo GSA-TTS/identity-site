@@ -1,28 +1,26 @@
 # Netlify CMS Settings
 ## Comment out when doing local development
-# backend:
-#   name: github
-#   repo: 18f/identity-site
-#   branch: ca-LG-4064-netlifycms # Otherwise, defaults to master
-#   base_url: https://federalistapp.18f.gov
-#   auth_endpoint: external/auth/github
-#   preview_context: federalist/build
-#   use_graphql: true
-
+backend:
+  name: github
+  repo: 18f/identity-site
+  branch: ca-LG-4064-netlifycms # Otherwise, defaults to master
+  base_url: https://federalistapp.18f.gov
+  auth_endpoint: external/auth/github
+  preview_context: federalist/build
+  use_graphql: true
+#
 #
 # Uncomment when doing local development on Netlify CMS
 # Run `npx netlify-cms-proxy-server` to start working locally
 # In another terminal, start the app with `make build && make run`
 # See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 #
-
-backend:
-  name: git-gateway
-  branch: ca-LG-4064-netlifycms
-  proxy_url: http://localhost:8081/api/v1
-local_backend: true
-
 #
+# backend:
+#   name: git-gateway
+#   branch: ca-LG-4064-netlifycms
+#   proxy_url: http://localhost:8081/api/v1
+# local_backend: true
 #
 
 media_folder: assets/img
@@ -34,7 +32,7 @@ i18n:
   structure: multiple_folders
 
   # Required - a list of locales to show in the editor UI
-  locales: [en, sp, fr]
+  locales: [en, es, fr]
 
   # Optional, defaults to the first item in locales.
   # The locale to be used for fields validation and as a baseline for the entry.
