@@ -3,7 +3,7 @@
 # backend:
 #   name: github
 #   repo: 18f/identity-site
-#   branch: ca-LG-4064-netlifycms
+#   branch: ca-LG-4064-netlifycms # Otherwise, defaults to master
 #   base_url: https://federalistapp.18f.gov
 #   auth_endpoint: external/auth/github
 #   preview_context: federalist/build
@@ -31,10 +31,6 @@ publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 i18n:
-  # Required and can be one of multiple_folders, multiple_files or single_file
-  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
-  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
-  # single_file - persists a single file in `<folder>/<slug>.<extension>`
   structure: multiple_folders
 
   # Required - a list of locales to show in the editor UI
@@ -48,8 +44,8 @@ collections:
   - label: Help
     label_singular: 'Help article'
     name: help
-    i18n: true
     folder: _pages/help
+    i18n: true
     create: true
     slug: '{{fields.topic}}/{{slug}}'
     editor:
