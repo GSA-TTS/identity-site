@@ -1,18 +1,26 @@
 ---
-layout: help_landing
-hero: false
+layout: base
+body:
+  class: 'help-page'
 ---
-{% capture slug_permalink %}/{{ page.slug }}{% endcapture %}
-{% assign parent_url = page.url | replace: slug_permalink %}{% assign related_questions = site.help | where_exp: "item", "item.url contains parent_url" | sort: 'order' %}
 
-<article class="container">
-  <div class="page-content grid-row">
-    <div class="page-content__prose grid-col-12 desktop:grid-col-8 help-article">
-      {{ page.content | replace: 'site.baseurl', site.baseurl | markdownify }}
-      <a href="#main-content" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
+<header>
+  {% if site.demo_banner %} {% include wip.html %} {% endif %} {% include skip_nav.html %} {%
+  include banner.html %} {% include header--help.html %}
+</header>
+
+<main id="main-content">
+  <article class="container">
+    <div class="page-content grid-row">
+      <div class="page-content__prose grid-col-12 desktop:grid-col-8 help-article">
+        <h1>{% t page.title %}</h1>
+        {{ page.content | replace: 'site.baseurl', site.baseurl | markdownify }}
+        <a href="#main-content" class="anchor-to-top">{% t nav.anchor_to_top %}</a>
+      </div>
+      <div class="display-none desktop:display-block grid-offset-1 grid-col-3">
+        {% include help/nav_sidenav.html %}
+      </div>
     </div>
-    <div class="display-none desktop:display-block grid-offset-1 grid-col-3">
-      {% include help/nav_sidenav.html %}
-    </div>
-  </div>
-</article>
+  </article>
+</main>
+{% include footer.html %}
