@@ -10,12 +10,8 @@
 {% endif %}
 
 <!-- Title -->
-{% if page.layout == 'help' %}
-  {% assign url_size = page.url | size | minus: 1 %}
-  {% assign help_page_title = page.url | replace: "/", "." | slice: 1, url_size %}
-  {% capture title_rendered %}{% t help_page_title %}{% endcapture %}
-{% elsif page.title %}
-  {% capture title_rendered %}{% t page.title %}{% endcapture %}
+{% if page.title %}
+  {% capture title_rendered %}{{ page.title }}{% endcapture %}
 {% else %}
   {% capture title_rendered %}{% t meta.home.description %}{% endcapture %}
 {% endif %}
