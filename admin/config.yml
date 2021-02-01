@@ -42,10 +42,10 @@ collections:
   - label: Help
     label_singular: 'Help article'
     name: help
-    folder: _pages/help
+    folder: _pages/
     i18n: true
     create: true
-    slug: '{{fields.topic}}/{{slug}}'
+    slug: 'help/{{fields.topic}}/{{slug}}'
     editor:
       preview: false
     view_groups:
