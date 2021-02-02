@@ -195,6 +195,7 @@ help:
     overview: Overview
     change-your-password: Change your password
     delete-your-account: Delete your account
+    change-your-phone-number: Change the phone number associated with your account
   verify-your-identity:
     overview: Overview
     how-to-verify-your-identity: How to verify your identity
@@ -448,6 +449,22 @@ help_pages:
       1. You will receive two emails.
           * The first email confirms we received your request. Your account is not yet deleted. Additional action is required.
           * The second email is sent to you 24 hours later. Follow the directions in that email to complete the deletion process.
+      {: .number-list}
+    change-your-phone-number: |-
+      # Change the phone number associated with your account
+
+      Follow these steps to change the phone number associated with your account.
+
+      1. Enter your email address at [https://secure.login.gov](https://secure.login.gov).
+      1. Enter your password.
+      1. Click the “Sign in” button.
+      1. Enter your authentication method.
+      1. Select “Add phone number.”
+      1. Enter the new phone number.
+          * Please do not use a web-based (VOIP) phone number.
+      1. Check the “Default phone number” box if you want this number to be your default.
+          * The default phone number will be the primary phone number associated with your account. If you use SMS/text codes to authenticate and sign in, those codes will be sent to the default phone number.
+      1. Click “Continue” and follow the prompts to confirm your changes.
       {: .number-list}
   specific-agencies:
     overview: |-
