@@ -185,6 +185,7 @@ help:
     change-your-password: Changez votre mot de passe
     delete-your-account: Supprimer votre compte
     change-your-phone-number: Modifier le numéro de téléphone associé à votre compte
+    change-your-email-address: Modifier l'adresse de courriel associée à votre compte
   verify-your-identity:
     overview: Aperçu
     how-to-verify-your-identity: Comment vérifier votre identité
@@ -449,6 +450,34 @@ help_pages:
       1. Cochez la case « Numéro de téléphone par défaut » si vous souhaitez que ce numéro soit votre numéro par défaut.
         * Le numéro de téléphone par défaut sera le numéro de téléphone principal associé à votre compte. Si vous utilisez des codes SMS/texte pour vous authentifier et vous connecter, ces codes seront envoyés au numéro de téléphone par défaut.
       1. Cliquez sur « Continuer » et suivez les instructions pour confirmer vos modifications.
+      {: .number-list}
+    change-your-email-address: |-
+      # Modifier l'adresse de courriel associée à votre compte
+
+      Suivez ces étapes pour modifier l'adresse de courriel associée à votre compte.
+
+      ## Partie 1 : Ajouter une adresse de courriel
+      1. Connectez-vous à votre compte login.gov <https://secure.login.gov>.
+      1. Entrez votre mot de passe et cliquez sur Connexion.
+      1. Cliquez sur le bouton « Connexion ».
+      1. Entrez votre méthode d'authentification
+      1. Une fois que vous accédez la page du compte, sélectionnez « Ajouter une adresse de courriel » dans le menu d'options sous « Votre compte »
+      1. Saisissez la nouvelle adresse de courriel.
+      1. Cliquez sur le bouton « Envoyer ».
+      1. Nous enverrons un courriel à votre nouvelle adresse de courriel
+        * Suivez les invites pour confirmer votre adresse de courriel.
+        * Si vous ne confirmez pas votre adresse de courriel, vous ne pourrez pas l'utiliser avec votre compte login.gov.
+        * Ne supprimez pas l'ancienne adresse de courriel tant que vous n'avez pas confirmé votre nouvelle adresse de courriel.
+      {: .number-list}
+
+      ## Partie 2 : Supprimer l'adresse de courriel périmée
+      1. Entrez votre adresse de courriel sur <https://secure.login.gov>.
+      1. Entrez votre mot de passe.
+      1. Cliquez sur le bouton « Connexion ».
+      1. Entrez votre méthode d'authentification
+      1. Une fois que vous êtes sur la page du compte, sélectionnez « Supprimer » situé à côté de l'adresse de courriel que vous souhaitez supprimer.
+      1. Suivez les invites pour confirmer que vous supprimez la bonne adresse en saisissant à nouveau votre mot de passe et votre méthode d'authentification.
+      1. Cliquez sur le bouton « Supprimer l'adresse de courriel ».
       {: .number-list}
   specific-agencies:
     overview: |-

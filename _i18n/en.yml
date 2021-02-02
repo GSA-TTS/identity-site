@@ -196,6 +196,7 @@ help:
     change-your-password: Change your password
     delete-your-account: Delete your account
     change-your-phone-number: Change the phone number associated with your account
+    change-your-email-address: Change the email address associated with your account
   verify-your-identity:
     overview: Overview
     how-to-verify-your-identity: How to verify your identity
@@ -465,6 +466,34 @@ help_pages:
       1. Check the “Default phone number” box if you want this number to be your default.
           * The default phone number will be the primary phone number associated with your account. If you use SMS/text codes to authenticate and sign in, those codes will be sent to the default phone number.
       1. Click “Continue” and follow the prompts to confirm your changes.
+      {: .number-list}
+    change-your-email-address: |-
+      # Change the email address associated with your account
+
+      Follow these steps to change the email address associated with your account.
+
+      ## Part 1: Add email address
+      1. Sign in to your login.gov account <https://secure.login.gov>.
+      1. Enter your password and click sign in.
+      1. Click the “Sign in” button.
+      1. Enter your authentication method
+      1. Once you are on the account page, select “Add email address” from the menu of options under “Your Account”
+      1. Enter the new email address.
+      1. Click the “Submit” button.
+      1. We will send an email to your new email address.
+        * Follow the prompts to confirm your email address.
+        * If you do not confirm your email address, you will not be able to use it with your login.gov account.
+        * Do not remove the old email address until you have confirmed your new email address.
+      {: .number-list}
+
+      ## Part 2: Delete the outdated email address
+      1. Enter your email address at <https://secure.login.gov>.
+      1. Enter your password.
+      1. Click the “Sign in” button.
+      1. Enter your authentication method
+      1. Once you are on the account page, select “Delete” next to the email address you want to remove.
+      1. Follow the prompts to confirm that you are deleting the correct address by reentering your password and authentication method.
+      1. Click the “Delete email address” button.
       {: .number-list}
   specific-agencies:
     overview: |-
