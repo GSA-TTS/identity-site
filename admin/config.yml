@@ -1,14 +1,14 @@
 # Netlify CMS Settings
 ## Comment out when doing local development
-backend:
-  name: github
-  repo: 18f/identity-site
-  branch: ca-LG-4064-netlifycms # Otherwise, defaults to master
-  base_url: https://federalistapp.18f.gov
-  auth_endpoint: external/auth/github
-  preview_context: federalist/build
-  use_graphql: true
-#
+# backend:
+#   name: github
+#   repo: 18f/identity-site
+#   branch: ca-LG-4064-netlifycms # Otherwise, defaults to master
+#   base_url: https://federalistapp.18f.gov
+#   auth_endpoint: external/auth/github
+#   preview_context: federalist/build
+#   use_graphql: true
+# #
 #
 # Uncomment when doing local development on Netlify CMS
 # Run `npx netlify-cms-proxy-server` to start working locally
@@ -16,12 +16,11 @@ backend:
 # See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 #
 #
-# backend:
-#   name: git-gateway
-#   branch: ca-LG-4064-netlifycms
-#   proxy_url: http://localhost:8081/api/v1
-# local_backend: true
-#
+backend:
+  name: git-gateway
+  branch: ca-LG-4064-netlifycms
+  proxy_url: http://localhost:8081/api/v1
+local_backend: true
 
 media_folder: assets/img
 public_folder: /images/img
@@ -39,7 +38,61 @@ i18n:
   default_locale: en
 
 collections:
-  - label: Help
+  - label: Landing pages
+    label_singular: 'Landing page'
+    name: page
+    folder: _pages/
+    create: true
+    slug: '{{fields.hero.title}}'
+    i18n: true
+    identifier_field: slug
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'main', i18n: duplicate }
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Description', name: 'description', widget: 'string', i18n: true }
+      - {
+          label: 'Hero image',
+          name: 'hero_image',
+          widget: 'image',
+          default: 'header@2x.png',
+          i18n: duplicate,
+        }
+      - {
+          label: 'Side column',
+          name: 'sidenav',
+          widget: 'boolean',
+          default: false,
+          i18n: duplicate,
+        }
+      - {
+          label: 'Page components',
+          name: 'components',
+          widget: 'list',
+          i18n: true,
+          fields:
+            [
+              {
+                label: component,
+                name: 'option',
+                widget: select,
+                options:
+                  [
+                    'Banner with link',
+                    'Banner with button',
+                    'Login.gov is for you',
+                    'One account and password',
+                    'Secure and private access for the public',
+                    'Our partners',
+                    'Steps to create an account',
+                  ],
+                default: 'Banner with link',
+              },
+            ],
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false, i18n: true }
+  - label: Help articles
     label_singular: 'Help article'
     name: help
     folder: _pages/
