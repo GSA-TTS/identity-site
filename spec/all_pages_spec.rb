@@ -7,6 +7,13 @@ RSpec.describe 'all pages' do
 
     page = path.split(SITE_ROOT.to_s).last
 
+    netlify_admin_pages = %w[
+      /admin/index.html
+      /fr/admin/index.html
+      /es/admin/index.html
+    ]
+    next if netlify_admin_pages.include?(page)
+
     describe page do
       let(:doc) { Nokogiri::HTML(file_at(page)) }
 
