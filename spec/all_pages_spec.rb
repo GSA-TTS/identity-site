@@ -9,8 +9,8 @@ RSpec.describe 'all pages' do
 
     netlify_admin_pages = %w[
       /admin/index.html
-      /fr/admin/index.html
       /es/admin/index.html
+      /fr/admin/index.html
     ]
     next if netlify_admin_pages.include?(page)
 
