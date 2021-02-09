@@ -202,6 +202,11 @@
 }
 
 @include at-media-max("desktop") {
+  .usa-nav, .usa-nav__primary {
+    // TODO: Remove font-family once we assign `$theme-font-sans` design system variable to Public Sans.
+    font-family: $sans-serif-font-family;
+  }
+
   .usa-nav__primary {
     margin-left: -1rem;
     margin-right: -1rem;
