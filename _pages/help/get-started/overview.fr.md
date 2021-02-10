@@ -36,4 +36,4 @@ Login.gov est le seul compte et mot de passe du public pour le gouvernement. Log
 - [Créez votre compte login.gov](site.baseurl/help/get-started/create-your-account/)
 - [En savoir plus sur les options d'authentification](site.baseurl/help/get-started/authentication-options/)
 - [Pourquoi on vous demande d'utiliser login.gov](site.baseurl/what-is-login)
-  {: .help-question-list}
+{: .help-question-list}

@@ -1,8 +1,8 @@
 ---
 layout: help
 title: Vérifiez votre identité
-order: 0
 topic: verify-your-identity
+order: 0
 redirect_from:
   - /help/verify-your-identity/
   - /help/verifying-your-identity/dont-have-a-state-issued-id/

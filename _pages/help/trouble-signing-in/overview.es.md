@@ -3,7 +3,6 @@ layout: help
 title: ¿Problemas al iniciar sesión?
 topic: trouble-signing-in
 order: 0
-title: Trouble signing in?
 redirect_from:
   - /help/signing-in/
   - /help/signing-in/i-forgot-which-email-address-i-used-to-create-an-account/
