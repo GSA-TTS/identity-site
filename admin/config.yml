@@ -44,9 +44,9 @@ collections:
   - label: Landing pages
     label_singular: 'Landing page'
     name: page
-    folder: _pages/primary/
+    folder: _pages/landing/
     create: true
-    path: '{{slug}}/index'
+    path: '{{slug}}'
     media_folder: assets/img
     public_folder: '/img/uploads'
     i18n: true
@@ -87,10 +87,10 @@ collections:
               },
             ],
         }
-  - label: Secondary pages
-    label_singular: 'Secondary page'
-    name: secondary_page
-    folder: _pages/secondary/
+  - label: Policy pages
+    label_singular: 'Policy page'
+    name: policy
+    folder: _pages/policy/
     path: '{{slug}}'
     create: true
     i18n: true
@@ -103,18 +103,17 @@ collections:
     folder: _pages/help/
     i18n: true
     create: true
-    path: '{{fields.topic}}/{{slug}}'
+    path: '{{topic}}/{{slug}}'
+    sortable_fields: ['topic.label', 'order', 'title']
     view_groups:
       - label: Topic
         field: topic
-      - label: Order
-        field: order
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'help', i18n: duplicate }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - {
           label: 'Topic',
-          name: 'topic',
+          name: topic,
           widget: 'select',
           options:
             [
