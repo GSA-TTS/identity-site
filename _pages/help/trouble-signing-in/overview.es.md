@@ -1,4 +1,7 @@
 ---
+layout: help
+title: ¿Problemas al iniciar sesión?
+topic: trouble-signing-in
 order: 0
 title: Trouble signing in?
 redirect_from:
@@ -43,3 +46,11 @@ redirect_from:
   - /help/signing-in/why-is-my-personal-key-invalid/
   - /help/trouble-signing-in/
 ---
+
+¿Olvidaste tu contraseña? ¿Bloqueado tu cuenta? Lo ayudaremos a resolver problemas de acceso a la cuenta.
+
+## Temas más comunes de solución de problemas
+
+* [Cómo acceder a login.gov](site.baseurl/help/trouble-signing-in/how-to-sign-in)
+* [Olvidó su contraseña](site.baseurl/help/trouble-signing-in/forgot-your-password)
+{: .help-question-list}

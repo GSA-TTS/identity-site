@@ -1,8 +1,8 @@
 ---
 layout: help
+title: Empiece con login.gov
 topic: get-started
 order: 0
-title: Overview
 redirect_from:
   - /help/creating-an-account/authentication-application/
   - /help/creating-an-account/creating-a-strong-password/
@@ -30,10 +30,9 @@ redirect_from:
   - /help/creating-an-account/why-is-my-confirmation-link-invalid/
   - /help/get-started/
 ---
+Login.gov es la única cuenta y contraseña pública para el gobierno. Login.gov es un servicio compartido y de confianza de las agencias gubernamentales. Con una sola cuenta de login.gov se puede acceder a las solicitudes de los socios gubernamentales que participan.
 
-Login.gov is the public's one account and password for government. Login.gov is a shared service and trusted by government agencies. With one login.gov account you can access applications from participating government partners.
-
-- [Create your login.gov account](site.baseurl/help/get-started/create-your-account/)
-- [Learn about authentication options](site.baseurl/help/get-started/authentication-options/)
-- [Why you are being asked to use login.gov](site.baseurl/what-is-login)
-  {: .help-question-list}
+* [Cree su cuenta de login.gov](site.baseurl/help/get-started/create-your-account/)
+* [Conozca las opciones de autenticación](site.baseurl/help/get-started/authentication-options/)
+* [Por qué se le solicita que use login.gov](site.baseurl/what-is-login)
+{: .help-question-list}

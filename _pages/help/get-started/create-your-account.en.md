@@ -1,23 +1,18 @@
 ---
 layout: help
 topic: get-started
-order: 2
-title: Authentication options
-redirect_from:
-  - /help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
-  - /help/security-keys/what-is-a-security-key/
-  - /help/security-keys/what-is-phishing/
-  - /help/security-keys/do-i-need-a-mobile-phone-to-use-logingov/
-  - /help/security-keys/do-i-need-to-set-up-a-security-key-to-use-logingov/
-  - /help/security-keys/how-do-i-protect-my-logingov-account-with-a-security-key/
-  - /help/security-keys/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
-  - /help/security-keys/related-articles/
-  - /help/security-keys/
-  - /help/authentication-methods/which-authentication-method-should-i-use/
-  - /help/authentication-methods/
+order: 1
+title: Create your login.gov account
 ---
 
-Follow these steps to create your login.gov account.
+Login.gov is the public's one account and password for government. Login.gov is a shared service and trusted by government agencies. With one login.gov account you can access applications from participating government partners.
+
+- [Create your login.gov account](site.baseurl/help/get-started/create-your-account/)
+- [Learn about authentication options](site.baseurl/help/get-started/authentication-options/)
+- [Why you are being asked to use login.gov](site.baseurl/what-is-login)
+  {: .help-question-list}
+  create-your-account: |-
+  Follow these steps to create your login.gov account.
 
 1. Enter your email address at [https://secure.login.gov/sign_up/enter_email](https://secure.login.gov/sign_up/enter_email) to begin.
 
@@ -54,8 +49,7 @@ Follow these steps to create your login.gov account.
 
    [Learn more about each authentication option](site.baseurl/help/get-started/authentication-options) to choose the one that is right for you.
 
-1. Success! Once you have authenticated, you have created your login.gov account.
-   {: .number-list}
+1. Success! Once you have authenticated, you have created your login.gov account.{: .number-list}
 
 You will be taken to your login.gov account page or the government agency you are trying to access. You can add additional authentication methods, email addresses or update your information on the login.gov account page.
 

@@ -1,8 +1,8 @@
 ---
 layout: help
+title: Administrar su cuenta
 topic: manage-your-account
 order: 0
-title: Manage your account overview
 redirect_from:
   - /help/changing-settings/add-or-remove-email-address/
   - /help/changing-settings/change-my-email-address/
@@ -22,3 +22,10 @@ redirect_from:
   - /help/changing-settings/how-do-i-change-the-phone-number-i-am-using-with-my-account/
   - /help/changing-settings/how-do-i-change-the-phone-number-i-use-to-sign-in/
 ---
+Administrar los ajustes de su cuenta, incluidos su contraseña, número de teléfono, correo electrónico y más.
+
+## Temas más comunes de solución de problemas
+
+* [Cambiar su contraseña](site.baseurl/help/manage-your-account/change-your-password/)
+* [Eliminar su cuenta de login.gov](site.baseurl/help/manage-your-account/delete-your-account/)
+{: .help-question-list}
