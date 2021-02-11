@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Administrar su cuenta
+title: Manage your account
 topic: manage-your-account
 order: 0
 redirect_from:
@@ -22,10 +22,11 @@ redirect_from:
   - /help/changing-settings/how-do-i-change-the-phone-number-i-am-using-with-my-account/
   - /help/changing-settings/how-do-i-change-the-phone-number-i-use-to-sign-in/
 ---
-Administrar los ajustes de su cuenta, incluidos su contraseña, número de teléfono, correo electrónico y más.
 
-## Temas más comunes de solución de problemas
+Manage your account settings including your password, phone number, email, and more.
 
-* [Cambiar su contraseña](site.baseurl/help/manage-your-account/change-your-password/)
-* [Eliminar su cuenta de login.gov](site.baseurl/help/manage-your-account/delete-your-account/)
+## Common troubleshooting topics
+
+- [Change your password](site.baseurl/help/manage-your-account/change-your-password/)
+- [Delete your login.gov account](site.baseurl/help/manage-your-account/delete-your-account/)
 {: .help-question-list}

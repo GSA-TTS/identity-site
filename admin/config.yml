@@ -28,7 +28,7 @@ publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 i18n:
-  structure: multiple_files
+  structure: multiple_folders
 
   # Required - a list of locales to show in the editor UI
   locales: [en, es, fr]
@@ -44,9 +44,10 @@ collections:
   - label: Landing pages
     label_singular: 'Landing page'
     name: page
-    folder: _pages/landing/
+    folder: _pages/
     create: true
-    path: '{{slug}}'
+    path: 'landing/{{slug}}'
+    preview_path: landing/{{slug}}
     media_folder: assets/img
     public_folder: '/img/uploads'
     i18n: true
@@ -90,8 +91,9 @@ collections:
   - label: Policy pages
     label_singular: 'Policy page'
     name: policy
-    folder: _pages/policy/
-    path: '{{slug}}'
+    folder: _pages/
+    path: 'policy/{{slug}}'
+    preview_path: policy/{{slug}}
     create: true
     i18n: true
     fields:
@@ -100,10 +102,11 @@ collections:
   - label: Help articles
     label_singular: 'Help article'
     name: help
-    folder: _pages/help/
+    folder: _pages/
     i18n: true
     create: true
-    path: '{{topic}}/{{slug}}'
+    path: 'help/{{topic}}/{{slug}}'
+    preview_path: blog/{{slug}}
     sortable_fields: ['topic.label', 'order', 'title']
     view_groups:
       - label: Topic
