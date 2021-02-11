@@ -6,8 +6,6 @@ canonical_domain: www.login.gov
 # i18n
 languages:
   - en
-  - es
-  - fr
 
 exclude_from_localizations: ['javascript', 'images', 'css', 'admin/index.html']
 
@@ -49,10 +47,11 @@ defaults:
       path: ''
     values:
       layout: main
-  - scope:
-      path: '/help/*.es.md'
-    values:
-      permalink: /es/:path/
+  # - scope:
+  #     type: 'pages'
+  #     path: 'en'
+  #   values:
+  #     permalink: /:path
 
 include:
   # dotfiles are excluded by default
