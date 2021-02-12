@@ -44,7 +44,7 @@ collections:
   - label: Landing pages
     label_singular: 'Landing page'
     name: page
-    folder: _pages/
+    folder: _i18n/
     create: true
     path: 'landing/{{slug}}'
     preview_path: landing/{{slug}}
@@ -91,7 +91,7 @@ collections:
   - label: Policy pages
     label_singular: 'Policy page'
     name: policy
-    folder: _pages/
+    folder: _i18n/
     path: 'policy/{{slug}}'
     preview_path: policy/{{slug}}
     create: true
@@ -102,7 +102,7 @@ collections:
   - label: Help articles
     label_singular: 'Help article'
     name: help
-    folder: _pages/
+    folder: _i18n/
     i18n: true
     create: true
     path: 'help/{{topic}}/{{slug}}'
