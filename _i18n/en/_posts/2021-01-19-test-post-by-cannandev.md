@@ -2,6 +2,7 @@
 layout: post
 title: Test post by cannandev
 date: January 18, 2021
+permalink: /test-post-by-cannandev/
 ---
 Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit.
 

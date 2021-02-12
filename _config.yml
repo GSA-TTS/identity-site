@@ -19,6 +19,8 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  posts:
+    output: true
 
 # Scripts
 scripts:
