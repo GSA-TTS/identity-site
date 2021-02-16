@@ -16,8 +16,7 @@ redirect_from:
   - /help/identity-verification/related-articles/
   - /help/identity-verification/why-do-i-need-to-verify-my-identity/
 ---
-
-Some participating agencies require you to complete an identity verification process. Identity verification is the process where you prove you are you - and not someone pretending to be you.
+There are some participating agencies require you to complete an identity verification process. Identity verification is the process where you prove you are you - and not someone pretending to be you.
 
 You only need to verify your identity once for your login.gov account. After you verify your identity with login.gov for one government application, you don’t need to do it again for other government applications that use login.gov and require identity verification.
 
@@ -26,4 +25,4 @@ Use this help section to understand the process and requirements for identity ve
 ## Common troubleshooting topics
 
 * [How to verify your identity](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
-{: .help-question-list}
+  {: .help-question-list}
