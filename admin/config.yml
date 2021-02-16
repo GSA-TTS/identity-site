@@ -46,8 +46,7 @@ collections:
     name: page
     folder: _i18n/
     create: true
-    path: 'landing/{{slug}}'
-    preview_path: landing/{{slug}}
+    path: '_posts/{{year}}-{{month}}-{{day}}-{{slug}}'
     media_folder: assets/img
     public_folder: '/img/uploads'
     i18n: true
@@ -92,28 +91,36 @@ collections:
     label_singular: 'Policy page'
     name: policy
     folder: _i18n/
-    path: 'policy/{{slug}}'
-    preview_path: policy/{{slug}}
+    path: '_posts/policy/{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true
     i18n: true
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav', i18n: duplicate }
       - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
   - label: Help articles
     label_singular: 'Help article'
     name: help
     folder: _i18n/
     i18n: true
     create: true
-    path: 'help/{{topic}}/{{slug}}'
-    preview_path: blog/{{slug}}
-    sortable_fields: ['topic.label', 'order', 'title']
+    path: '_posts/help/{{topic}}/{{year}}-{{month}}-{{day}}-{{slug}}'
+    sortable_fields: [topic.label, 'order', 'title']
     view_groups:
       - label: Topic
         field: topic
+    summary: "{{title | upper}} - {{date | date('YYYY-MM-DD')}} - {{language}}"
+    permalink: /:collection/:title/
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'help', i18n: duplicate }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
+      - {
+          label: 'Permalink',
+          name: 'permalink',
+          widget: 'string',
+          default: '{{ title }}',
+          i18n: duplicate,
+        }
       - {
           label: 'Topic',
           name: topic,
@@ -149,9 +156,10 @@ collections:
   - label: Blog posts
     label_singular: 'Blog post'
     name: posts
-    folder: _posts/
+    folder: _i18n/
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    i18n: true
+    slug: '_posts/blog/{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post', i18n: duplicate }
       - { label: 'Title', name: 'title', widget: 'string', i18n: true }

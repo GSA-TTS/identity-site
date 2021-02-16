@@ -15,7 +15,7 @@ exclude_from_localizations: ['javascript', 'images', 'css', 'admin/index.html']
 collections:
   help:
     output: true
-    permalink: /:collection/:path/
+    # permalink: /:collection/:path/
   pages:
     output: true
     permalink: /:path/
@@ -51,11 +51,6 @@ defaults:
       path: ''
     values:
       layout: main
-  # - scope:
-  #     type: 'pages'
-  #     path: 'en'
-  #   values:
-  #     permalink: /:path
 
 include:
   # dotfiles are excluded by default
@@ -90,3 +85,5 @@ help_pages:
 baseurl:
 
 url: https://www.login.gov
+
+permalink: /:categories/:title/
