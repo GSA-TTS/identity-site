@@ -1,0 +1,167 @@
+# Netlify CMS Settings
+## Comment out when doing local development
+# backend:
+#   name: github
+#   repo: 18f/identity-site
+#   branch: ca-LG-4064-netlifycms # Otherwise, defaults to master
+#   base_url: https://federalistapp.18f.gov
+#   auth_endpoint: external/auth/github
+#   preview_context: federalist/build
+#   use_graphql: true
+# #
+#
+# Uncomment when doing local development on Netlify CMS
+# Run `npx netlify-cms-proxy-server` to start working locally
+# In another terminal, start the app with `make build && make run`
+# See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+#
+#
+backend:
+  name: git-gateway
+  branch: ca-LG-4064-netlifycms
+  proxy_url: http://localhost:8081/api/v1
+local_backend: true
+
+media_folder: assets/img
+public_folder: '/img/uploads'
+publish_mode: editorial_workflow
+logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
+
+i18n:
+  structure: multiple_folders
+
+  # Required - a list of locales to show in the editor UI
+  locales: [en, es, fr]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  default_locale: en
+
+editor:
+  preview: false
+
+collections:
+  - label: Landing pages
+    label_singular: 'Landing page'
+    name: page
+    folder: _i18n/
+    create: true
+    path: 'landing/{{slug}}'
+    preview_path: landing/{{slug}}
+    media_folder: assets/img
+    public_folder: '/img/uploads'
+    i18n: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'main', i18n: duplicate }
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Description', name: 'description', widget: 'string', i18n: true }
+      - {
+          label: 'Hero image',
+          name: 'hero_image',
+          widget: 'image',
+          default: '../assets/img/header@2x.png',
+          i18n: duplicate,
+        }
+      - {
+          label: 'Page components',
+          name: 'body',
+          widget: 'list',
+          i18n: true,
+          fields:
+            [
+              {
+                label: component,
+                name: 'component',
+                widget: select,
+                options:
+                  [
+                    'Banner with link',
+                    'Banner with button',
+                    'Login.gov is for you',
+                    'One account and password',
+                    'Secure and private access for the public',
+                    'Our partners',
+                    'Steps to create an account',
+                    'Help topics',
+                  ],
+                default: 'Banner with link',
+              },
+            ],
+        }
+  - label: Policy pages
+    label_singular: 'Policy page'
+    name: policy
+    folder: _i18n/
+    path: 'policy/{{slug}}'
+    preview_path: policy/{{slug}}
+    create: true
+    i18n: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav', i18n: duplicate }
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+  - label: Help articles
+    label_singular: 'Help article'
+    name: help
+    folder: _i18n/
+    i18n: true
+    create: true
+    path: 'help/{{topic}}/{{slug}}'
+    preview_path: blog/{{slug}}
+    sortable_fields: ['topic.label', 'order', 'title']
+    view_groups:
+      - label: Topic
+        field: topic
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'help', i18n: duplicate }
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
+      - {
+          label: 'Topic',
+          name: topic,
+          widget: 'select',
+          options:
+            [
+              { label: 'Get started with login.gov', value: 'get-started' },
+              { label: 'Manage your account', value: 'manage-your-account' },
+              { label: 'Trouble signing in?', value: 'trouble-signing-in' },
+              { label: 'Verify your identity', value: 'verify-your-identity' },
+              { label: 'Help with specific agencies', value: 'specific-agencies' },
+            ],
+          default: 'get-started',
+          i18n: duplicate,
+        }
+      - { label: 'Order', name: 'order', widget: 'number', default: 0, min: 0, i18n: duplicate }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+      - {
+          label: 'Redirect from',
+          name: 'redirect_from',
+          widget: 'list',
+          hint: 'Comma-separated list of urls.',
+          required: false,
+          i18n: true,
+        }
+      - {
+          label: 'Redirect to',
+          name: 'redirect_to',
+          widget: 'string',
+          required: false,
+          i18n: duplicate,
+        }
+  - label: Blog posts
+    label_singular: 'Blog post'
+    name: posts
+    folder: _posts/
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post', i18n: duplicate }
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - {
+          label: 'Publish Date',
+          name: 'date',
+          widget: 'datetime',
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false,
+          i18n: duplicate,
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
