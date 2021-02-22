@@ -3,7 +3,7 @@
 
   ul {
     li {
-      line-height: 1.875rem;
+      line-height: $line-height;
       ul {
         list-style-type: '⁃  ';
         margin-bottom: 0;

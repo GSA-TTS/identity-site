@@ -14,7 +14,7 @@
       @include para-style($size: "sm");
       flex-basis: 0;
       flex-grow: 1;
-      line-height: 1.875rem;
+      line-height: $line-height;
 
       &:first-child {
         background: url(../img/who-uses-login/icon-shield/icon-shield.svg) left
