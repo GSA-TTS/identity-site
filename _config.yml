@@ -9,16 +9,17 @@ languages:
   - es
   - fr
 
-exclude_from_localizations: ["javascript", "images", "css"]
+exclude_from_localizations: ['javascript', 'images', 'css', 'admin/index.html']
 
 # Pages
 collections:
-  help:
+  test:
     output: true
-    permalink: /:collection/:path/
   pages:
     output: true
     permalink: /:path/
+  posts:
+    output: true
 
 # Scripts
 scripts:
@@ -45,14 +46,10 @@ kramdown:
 
 # Defaults
 defaults:
-- scope:
-    path: "_help"
-  values:
-    layout: help
-- scope:
-    path: ""
-  values:
-    layout: main
+  - scope:
+      path: ''
+    values:
+      layout: main
 
 include:
   # dotfiles are excluded by default
@@ -67,7 +64,6 @@ exclude:
   - spec
   - webpack.config.js
   - vendor
-  - /_pages/remove_content_from_these_redirects.todo
 
 keep_files:
   - /assets/js/build/*
@@ -79,12 +75,14 @@ plugins:
   - jekyll-autoprefixer
 
 help_pages:
-- get-started
-- trouble-signing-in
-- manage-your-account
-- specific-agencies
-- verify-your-identity
+  - get-started
+  - trouble-signing-in
+  - manage-your-account
+  - specific-agencies
+  - verify-your-identity
 
 baseurl:
 
 url: https://www.login.gov
+
+permalink: /:categories/:title/
