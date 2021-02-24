@@ -203,6 +203,12 @@
   @include usa-link-style;
 }
 
+@include at-media("desktop") {
+  .usa-header--extended .usa-nav__primary {
+    margin-left: 0rem;
+  }
+}
+
 @include at-media-max("desktop") {
   .usa-nav, .usa-nav__primary {
     // TODO: Remove font-family once we assign `$theme-font-sans` design system variable to Public Sans.
