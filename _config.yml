@@ -13,7 +13,7 @@ exclude_from_localizations: ['javascript', 'images', 'css', 'admin/index.html']
 
 # Pages
 collections:
-  test:
+  help:
     output: true
   pages:
     output: true
