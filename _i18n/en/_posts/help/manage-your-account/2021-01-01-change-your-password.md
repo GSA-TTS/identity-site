@@ -1,7 +1,7 @@
 ---
 layout: help
 title: Change your password
-topic: manage-your-account
+categories: help manage-your-account
 order: 1
 redirect_from:
   - /help/changing-settings/change-my-password/

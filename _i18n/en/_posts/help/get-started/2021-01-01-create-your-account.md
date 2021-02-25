@@ -1,6 +1,6 @@
 ---
 layout: help
-topic: get-started
+categories: help get-started
 categories: help get-started
 order: 1
 title: Create your login.gov account

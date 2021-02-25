@@ -1,7 +1,7 @@
 ---
 layout: help
 title: How to sign in to login.gov
-topic: trouble-signing-in
+categories: help trouble-signing-in
 order: 1
 redirect_from:
   - /help/signing-in/

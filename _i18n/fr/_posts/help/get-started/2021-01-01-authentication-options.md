@@ -1,7 +1,7 @@
 ---
 layout: help
 title: Options d'authentification
-topic: get-started
+categories: help get-started
 order: 2
 redirect_from:
   - /help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/

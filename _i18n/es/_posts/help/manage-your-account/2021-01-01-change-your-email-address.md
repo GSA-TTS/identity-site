@@ -1,7 +1,7 @@
 ---
 layout: help
 title: Change the email address associated with your account
-topic: manage-your-account
+categories: help manage-your-account
 order: 4
 redirect_from:
   - help/changing-settings/add-or-remove-email-address

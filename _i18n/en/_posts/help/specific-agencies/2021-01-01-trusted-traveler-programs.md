@@ -1,7 +1,7 @@
 ---
 layout: help
 title: Trusted Traveler Programs (TTP)
-topic: specific-agencies
+categories: help specific-agencies
 order: 1
 redirect_from:
   - /help/trusted-traveler-programs/another-question/

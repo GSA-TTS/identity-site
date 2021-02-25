@@ -1,7 +1,7 @@
 ---
 layout: help
 title: Mot de passe oublié
-topic: trouble-signing-in
+categories: help trouble-signing-in
 order: 2
 redirect_from:
   - /help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/

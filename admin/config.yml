@@ -46,7 +46,7 @@ collections:
     name: page
     folder: _i18n/
     create: true
-    path: 'landing/{{slug}}'
+    path: '_posts/landing/2021-01-01-{{slug}}'
     preview_path: landing/{{slug}}
     media_folder: assets/img
     public_folder: '/img/uploads'
@@ -82,7 +82,7 @@ collections:
                     'Secure and private access for the public',
                     'Our partners',
                     'Steps to create an account',
-                    'Help topics',
+                    'Help categoriess',
                   ],
                 default: 'Banner with link',
               },
@@ -92,41 +92,43 @@ collections:
     label_singular: 'Policy page'
     name: policy
     folder: _i18n/
-    path: 'policy/{{slug}}'
+    path: '_posts/policy/2021-01-01-{{slug}}'
     preview_path: policy/{{slug}}
     create: true
     i18n: true
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav', i18n: duplicate }
+      - { label: 'Category', name: 'categories', widget: 'hidden', default: 'policy', i18n: duplicate }
       - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
   - label: Help articles
     label_singular: 'Help article'
     name: help
     folder: _i18n/
     i18n: true
     create: true
-    path: 'help/{{topic}}/{{slug}}'
+    path: '_posts/help/{{catgories}}/2021-01-01-{{slug}}'
     preview_path: blog/{{slug}}
-    sortable_fields: ['topic.label', 'order', 'title']
+    sortable_fields: ['categories', 'order', 'title']
     view_groups:
-      - label: Topic
-        field: topic
+      - label: Category
+        field: categories
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'help', i18n: duplicate }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - {
-          label: 'Topic',
-          name: topic,
+          label: 'Category',
+          name: categories,
           widget: 'select',
           options:
             [
-              { label: 'Get started with login.gov', value: 'get-started' },
-              { label: 'Manage your account', value: 'manage-your-account' },
-              { label: 'Trouble signing in?', value: 'trouble-signing-in' },
-              { label: 'Verify your identity', value: 'verify-your-identity' },
-              { label: 'Help with specific agencies', value: 'specific-agencies' },
+              { label: 'Get started with login.gov', value: 'help get-started' },
+              { label: 'Manage your account', value: 'help manage-your-account' },
+              { label: 'Trouble signing in?', value: 'help trouble-signing-in' },
+              { label: 'Verify your identity', value: 'help verify-your-identity' },
+              { label: 'Help with specific agencies', value: 'help specific-agencies' },
             ],
-          default: 'get-started',
+          default: 'help get-started',
           i18n: duplicate,
         }
       - { label: 'Order', name: 'order', widget: 'number', default: 0, min: 0, i18n: duplicate }
@@ -149,9 +151,9 @@ collections:
   - label: Blog posts
     label_singular: 'Blog post'
     name: posts
-    folder: _posts/
+    folder: _i18n/
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    path: '_posts/blog/{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post', i18n: duplicate }
       - { label: 'Title', name: 'title', widget: 'string', i18n: true }

@@ -1,7 +1,7 @@
 ---
 layout: help
 title: Modifier le numéro de téléphone associé à votre compte
-topic: manage-your-account
+categories: help manage-your-account
 order: 3
 ---
 

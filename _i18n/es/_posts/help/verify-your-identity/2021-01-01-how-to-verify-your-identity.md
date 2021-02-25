@@ -1,7 +1,7 @@
 ---
 layout: help
 title: Cómo verificar su identidad
-topic: verify-your-identity
+categories: help verify-your-identity
 order: 1
 ---
 

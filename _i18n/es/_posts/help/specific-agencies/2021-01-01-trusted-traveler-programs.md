@@ -1,7 +1,7 @@
 ---
 layout: help
 title: Programas de Viajero de Confianza (TTP, por sus siglas en inglés)
-topic: specific-agencies
+categories: help specific-agencies
 order: 1
 redirect_from:
   - /help/trusted-traveler-programs/another-question/

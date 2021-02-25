@@ -1,7 +1,7 @@
 ---
 layout: help
 title: Programmes pour voyageurs fiables (TTP)
-topic: specific-agencies
+categories: help specific-agencies
 order: 1
 redirect_from:
   - /help/trusted-traveler-programs/another-question/
