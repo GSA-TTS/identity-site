@@ -1,0 +1,93 @@
+# Netlify CMS Settings
+## Comment out when doing local development
+# backend:
+#   name: github
+#   repo: 18f/identity-site
+#   branch: ca-LG-4064-netlifycms # Otherwise, defaults to master
+#   base_url: https://federalistapp.18f.gov
+#   auth_endpoint: external/auth/github
+#   preview_context: federalist/build
+#   use_graphql: true
+# #
+#
+# Uncomment when doing local development on Netlify CMS
+# Run `npx netlify-cms-proxy-server` to start working locally
+# In another terminal, start the app with `make build && make run`
+# See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+#
+#
+backend:
+  name: git-gateway
+  branch: ca-LG-4064-netlifycms
+  proxy_url: http://localhost:8081/api/v1
+local_backend: true
+
+media_folder: assets/img
+public_folder: '/img/uploads'
+publish_mode: editorial_workflow
+logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
+
+i18n:
+  structure: multiple_folders
+
+  # Required - a list of locales to show in the editor UI
+  locales: [en, es, fr]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  default_locale: en
+
+editor:
+  preview: false
+
+collections:
+  - label: Help articles
+    label_singular: 'Help article'
+    name: help
+    folder: _pages/
+    i18n: true
+    create: true
+    nested:
+      depth: 3
+      summary: '{{title}}'
+    path: 'help/{{category}}/{{slug}}'
+    sortable_fields: ['category', 'order', 'title']
+    view_groups:
+      - label: Category
+        field: category
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'test', i18n: duplicate }
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
+      - {
+          label: 'Category',
+          name: category,
+          widget: 'select',
+          options:
+            [
+              { label: 'Get started with login.gov', value: 'get-started' },
+              { label: 'Manage your account', value: 'manage-your-account' },
+              { label: 'Trouble signing in?', value: 'trouble-signing-in' },
+              { label: 'Verify your identity', value: 'verify-your-identity' },
+              { label: 'Help with specific agencies', value: 'specific-agencies' },
+            ],
+          default: 'get-started',
+          i18n: duplicate,
+        }
+      - { label: 'Order', name: 'order', widget: 'number', default: 0, min: 0, i18n: duplicate }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+      - {
+          label: 'Redirect from',
+          name: 'redirect_from',
+          widget: 'list',
+          hint: 'Comma-separated list of urls.',
+          required: false,
+          i18n: true,
+        }
+      - {
+          label: 'Redirect to',
+          name: 'redirect_to',
+          widget: 'string',
+          required: false,
+          i18n: duplicate,
+        }
+    # meta: { path: { widget: string, label: 'Path', index_file: 'index', i18n: true } }
