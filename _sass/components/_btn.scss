@@ -32,18 +32,6 @@
     &::after {
       background: url(../img/angle-arrow-up-primary.svg) center/contain
         no-repeat;
-
-      // TODO: All of the following styles can be removed after upgrading to USWDS 2.7.0+, since
-      // they exist only to counteract an overly broad selector from USWDS that has since been
-      // improved.
-      //
-      // See: https://github.com/uswds/uswds/commit/3cc656f22e30749a4c47803f3210d909da21a21c
-      display: inline-block;
-      position: static;
-      height: 0.7rem;
-      left: auto;
-      right: auto;
-      bottom: auto;
     }
   }
 
