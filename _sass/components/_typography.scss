@@ -7,13 +7,10 @@ body {
 }
 
 article p {
-  @include para-style();
+  line-height: $line-height;
 }
 
 .page-content__prose {
-  // TODO: Reconcile with above `article p` styles. These are more broad in applying links, list,
-  // heading styles, and are also associated with accompanying classes for page content (footer,
-  // layout styles).
   @include usa-content-styles;
 
   &,

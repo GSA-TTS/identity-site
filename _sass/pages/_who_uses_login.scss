@@ -11,7 +11,6 @@
     padding: 3rem 0;
 
     > p {
-      @include para-style($size: "sm");
       flex-basis: 0;
       flex-grow: 1;
       line-height: $line-height;

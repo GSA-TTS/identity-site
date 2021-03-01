@@ -31,13 +31,3 @@
     }
   }
 }
-
-@mixin para-style($size: "md") {
-  @if $size == "sm" {
-    line-height: $line-height-sm;
-  } @else {
-    line-height: $line-height;
-  }
-  color: $base-font-color;
-  letter-spacing: $base-letter-spacing;
-}
