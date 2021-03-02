@@ -13,27 +13,14 @@ redirect_from:
 - /playbook/principles/
 ---
 
-{% capture heading %}
+{% capture title %}
 {{ page.title }}
 {% endcapture %}
 
-{% capture text %}
+{% capture description %}
 {{ page.description }}
 {% endcapture %}
 
-{% include hero.html heading=heading text=text %}
+{% include hero.html title=title description=description %}
 
-<article class="container why-login-gov">
-  <header class="intro">["index"]["why"]["heading"]</header>
-  <div class="grid-row">
-    <div class="tablet:grid-col">
-      ["index"]["why"]["individuals"]
-    </div>
-    <div class="tablet:grid-col">
-      ["index"]["why"]["partners"]
-    </div>
-    <div class="tablet:grid-col">
-      ["index"]["why"]["developers"]
-    </div>
-  </div>
-</article>
+{% include components/3-col.html %}
