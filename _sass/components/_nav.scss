@@ -2,6 +2,7 @@
 .language-search {
   background-color: $blue-lightest;
   border-bottom: 1px solid $border-color;
+  line-height: 1.5em;
 
   @include at-media('desktop') {
     padding: 0.75rem 0;

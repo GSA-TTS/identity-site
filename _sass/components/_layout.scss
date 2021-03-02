@@ -55,7 +55,10 @@ article.container,
 
   .usa-nav__primary {
     > .usa-nav__primary-item {
-      > a,
+      > a {
+        line-height: 1.5em;
+        font-size: .875rem;
+      }
       > .usa-nav__link {
         position: relative;
         padding: 0;
