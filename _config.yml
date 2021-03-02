@@ -74,7 +74,6 @@ keep_files:
 
 plugins:
   - jekyll-redirect-from
-  - jekyll-multiple-languages-plugin
   - jekyll-sitemap
   - jekyll-autoprefixer
 
