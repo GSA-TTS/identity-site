@@ -1,18 +1,18 @@
 ---
 layout: base
-title: Blah
-meta_title: Home | Login.gov
-description: blah blah blah
 permalink: /
-twitter_card: large
-image: /assets/img/login-gov-600x314.png
-one_account_banner: true
 redirect_from:
-- /playbook/
-- /playbook/implementation/
-- /playbook/principles/
+  - /playbook/
+  - /playbook/implementation/
+  - /playbook/principles/
+one_account_banner: true
+title: The public’s one account for government.
+description: Use one account and password for secure, private access to
+  participating government agencies.
+image: /assets/img/login-gov-600x314.png
+meta_title: Home
+twitter_card: large
 ---
-
 {% capture title %}
 {{ page.title }}
 {% endcapture %}

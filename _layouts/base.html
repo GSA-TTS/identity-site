@@ -1,5 +1,8 @@
+{% capture lang %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
+{% if lang == "" %}{% assign lang = site.languages.first %}{% endif %}
+
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
+<html lang="{{ page.lang | default: lang | default: 'en-US' }}">
 
   <head>
     {% include meta.html %}
@@ -9,7 +12,7 @@
     {% include google_recaptcha.html %}
   </head>
 
-  <body class="{{ layout.body.class }} {{ page.body.class }} lang-{{ site.lang }}">
+  <body class="{{ layout.body.class }} {{ page.body.class }} lang-{{ lang }}">
     {{ content }}
     {% include scripts.html %}
   </body>

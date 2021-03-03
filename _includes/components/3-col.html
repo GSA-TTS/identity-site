@@ -1,8 +1,8 @@
 <article class="container why-login-gov">
-  <header class="intro">["index"]["why"]["heading"]</header>
+  <header class="intro">{{ include.title }}</header>
   <div class="grid-row">
-    <div class="tablet:grid-col">["index"]["why"]["individuals"]</div>
-    <div class="tablet:grid-col">["index"]["why"]["partners"]</div>
-    <div class="tablet:grid-col">["index"]["why"]["developers"]</div>
+    <div class="tablet:grid-col">{{include.col1.content}}</div>
+    <div class="tablet:grid-col">{{include.col2.content}}</div>
+    <div class="tablet:grid-col">{{include.col3.content}}</div>
   </div>
 </article>

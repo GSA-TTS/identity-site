@@ -49,7 +49,7 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'main' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'base' }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - { label: 'Image', name: 'image', widget: 'image', required: false, i18n: duplicate }

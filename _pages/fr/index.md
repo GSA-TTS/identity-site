@@ -1,16 +1,17 @@
 ---
 layout: base
-title: Blah
-meta_title: Home | Login.gov
-description: blah blah blah
 permalink: /fr/
-twitter_card: large
-image: /assets/img/login-gov-600x314.png
-one_account_banner: true
 redirect_from:
-- /playbook/
-- /playbook/implementation/
-- /playbook/principles/
+  - /playbook/
+  - /playbook/implementation/
+  - /playbook/principles/
+one_account_banner: true
+title: Le seul compte public pour le gouvernement.
+description: Utilisez un compte et un mot de passe pour un accès sécurisé et
+  privé aux agences gouvernementales participantes.
+image: /assets/img/login-gov-600x314.png
+meta_title: Accueil
+twitter_card: large
 ---
 
 {% capture title %}
