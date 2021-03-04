@@ -49,10 +49,18 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'base' }
+      - {
+          label: 'Layout',
+          name: 'layout',
+          widget: select,
+          default: 'base',
+          i18n: duplicate,
+          options: [{ label: 'Base', value: 'base' }],
+        }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - { label: 'Image', name: 'image', widget: 'image', required: false, i18n: duplicate }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
       - {
           label: 'Meta title',
           name: 'meta_title',
