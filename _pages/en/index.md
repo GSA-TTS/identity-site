@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: main
 permalink: /
 redirect_from:
   - /playbook/
@@ -13,14 +13,4 @@ image: /assets/img/login-gov-600x314.png
 meta_title: Home
 twitter_card: large
 ---
-{% capture title %}
-{{ page.title }}
-{% endcapture %}
-
-{% capture description %}
-{{ page.description }}
-{% endcapture %}
-
-{% include hero.html title=title description=description %}
-
-{% include components/3-col.html %}
+three columns

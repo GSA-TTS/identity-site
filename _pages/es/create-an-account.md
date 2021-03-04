@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: main
 title: Crea una cuenta
 description: Únase a los millones de personas que confían en login.gov para
   tener acceso seguro a agencias gubernamentales.

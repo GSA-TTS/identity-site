@@ -28,7 +28,7 @@ publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 i18n:
-  structure: multiple_folders
+  structure: single_file
 
   # Required - a list of locales to show in the editor UI
   locales: [en, es, fr]
@@ -41,6 +41,17 @@ editor:
   preview: false
 
 collections:
+  - label: Meta
+    name: meta
+    i18n: true
+    files:
+      - label: 'Meta data'
+        name: 'meta'
+        file: '_i18n/meta.yml'
+        fields:
+          - { label: Title, name: title, widget: string, i18n: true }
+          - { label: Description, name: description, widget: string, i18n: true }
+          - { label: Skip Navigation, name: skip_nav, widget: string, i18n: true }
   - label: Landing pages
     label_singular: 'Landing pages'
     name: page
@@ -55,10 +66,15 @@ collections:
           widget: select,
           default: 'base',
           i18n: duplicate,
-          options: [{ label: 'Base', value: 'base' }],
+          options:
+            [
+              { label: 'Base', value: 'base' },
+              { label: 'Main', value: 'main' },
+              { label: 'Help', value: 'help' },
+            ],
         }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
-      - { label: 'Description', name: 'description', widget: 'string', i18n: true }
+      - { label: 'Description', name: 'description', widget: 'string', required: false, i18n: true }
       - { label: 'Image', name: 'image', widget: 'image', required: false, i18n: duplicate }
       - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
       - {
@@ -73,9 +89,9 @@ collections:
           label: 'Permalink',
           name: 'permalink',
           widget: 'string',
-          hint: 'Change the permanent url of this page.',
+          hint: 'Change the permanent url of this page. For Spanish or French pages, add the /en/ or /fr/ locale.',
           required: false,
-          i18n: duplicate,
+          i18n: true,
         }
       - {
           label: 'Twitter card',

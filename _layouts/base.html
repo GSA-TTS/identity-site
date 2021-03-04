@@ -1,5 +1,6 @@
-{% capture lang %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
-{% if lang == "" %}{% assign lang = site.languages.first %}{% endif %}
+{% capture lang %}
+  {{ page.url | truncate: 3, "" | remove: "/" | default: site.languages.first }}
+{% endcapture %}
 
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: lang | default: 'en-US' }}">
