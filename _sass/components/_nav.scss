@@ -2,6 +2,7 @@
 .language-search {
   background-color: $blue-lightest;
   border-bottom: 1px solid $border-color;
+  line-height: 1.5em;
 
   @include at-media('desktop') {
     padding: 0.75rem 0;
@@ -201,6 +202,12 @@
 
 .language-list {
   @include usa-link-style;
+}
+
+@include at-media("desktop") {
+  .usa-header--extended .usa-nav__primary {
+    margin-left: 0rem;
+  }
 }
 
 @include at-media-max("desktop") {

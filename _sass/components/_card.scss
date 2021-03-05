@@ -7,7 +7,9 @@
     padding-left: $container-spacing-sm;
   }
 
-  img {    
+  img { 
+    background-color: $white;
+    
     @include at-media("tablet-lg") {
       max-width: none;
    }

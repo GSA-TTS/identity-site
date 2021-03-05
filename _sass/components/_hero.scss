@@ -13,6 +13,7 @@
 
   .hero__title {
     font-size: 1.875rem; // 30px
+    line-height: 1.375em;  // 22px
 
     @include at-media("desktop") {
       font-size: 2.5rem; // 40px
@@ -21,10 +22,10 @@
 
   .hero__description {
     font-size: 1.125rem; // 18px
+    line-height: $line-height;
 
     @include at-media("desktop") {
       font-size: 1.25rem; // 20px
-      line-height: $line-height;
     }
   }
 }
@@ -48,6 +49,7 @@
 
     &.what-is-login {
       > .container {
+        line-height: 1.375em;
         background-image: url(../img/what-is-login/header/what-is-illo-header@2x.png);
         background-position-y: 2rem;
         background-size: 45%;

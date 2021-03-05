@@ -1,8 +1,13 @@
 import $ from 'jquery';
+import { accordion, accordionCloseButton, banner, navigation } from 'identity-style-guide';
+import domready from 'domready';
 
-require('identity-style-guide/dist/assets/js/main');
+window.LoginGov = window.LoginGov || {};
 
-var accordion = require('aria-accordion');
+const components = [accordion, accordionCloseButton, banner, navigation];
+domready(() => components.forEach((component) => component.on()));
+
+const ariaAccordion = require('aria-accordion');
 
 $(function () {
   // Mobile main nav toggle
@@ -89,6 +94,6 @@ $(function () {
   // Required element to turn into an accordion
   var elm = document.querySelector('.js-accordion');
   if (elm) {
-    new accordion.Accordion(elm, {}, { reflectStatic: true });
+    new ariaAccordion.Accordion(elm, {}, { reflectStatic: true });
   }
 });

@@ -12,6 +12,11 @@ header {
   font-family: $sans-serif-font-family;
 }
 
+.usa-banner__header-text, .usa-banner__button-text {
+  font-size: .75rem;
+  line-height: 1.5em
+}
+
 .create-account-btn-link {
   margin-top: 2em;
   display: none;

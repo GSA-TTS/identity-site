@@ -1,4 +1,10 @@
+#our-partners {
+  line-height: $line-height;
+}
+
 .container.who-uses-login {
+  line-height: 1.875rem; 
+
   .partners {
     background: url(../img/who-uses-login/who-uses-illo-partners/who-uses-illo-partners.svg)
       left center no-repeat;
@@ -11,7 +17,6 @@
     padding: 3rem 0;
 
     > p {
-      @include para-style($size: "sm");
       flex-basis: 0;
       flex-grow: 1;
       line-height: $line-height;

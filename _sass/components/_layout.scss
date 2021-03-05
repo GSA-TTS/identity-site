@@ -55,7 +55,10 @@ article.container,
 
   .usa-nav__primary {
     > .usa-nav__primary-item {
-      > a,
+      > a {
+        line-height: 1.5em;
+        font-size: .875rem;
+      }
       > .usa-nav__link {
         position: relative;
         padding: 0;
@@ -112,12 +115,4 @@ article.container,
   @include u-border-top(1px, "primary-light");
   @include u-margin-top(8);
   @include u-padding-top(4);
-}
-
-.display-none.desktop\:display-block {
-  // TODO: This can be removed after upgrading to identity-style-guide@3
-  // See: https://github.com/uswds/uswds/pull/3308
-  @include at-media("desktop") {
-    display: block;
-  }
 }
