@@ -41,36 +41,18 @@ editor:
   preview: false
 
 collections:
-  - label: English meta data
-    name: en
-    files:
-      - label: 'English'
-        name: 'en'
-        file: '_i18n/en.yml'
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Description, name: description, widget: string }
-          - { label: Skip Navigation, name: skip_nav, widget: string }
-  - label: Spanish meta data
-    name: es
-    files:
-      - label: 'Spanish'
-        name: 'es'
-        file: '_i18n/es.yml'
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Description, name: description, widget: string }
-          - { label: Skip Navigation, name: skip_nav, widget: string }
-  - label: French meta data
-    name: fr
-    files:
-      - label: 'French'
-        name: 'fr'
-        file: '_i18n/fr.yml'
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Description, name: description, widget: string }
-          - { label: Skip Navigation, name: skip_nav, widget: string }
+  - label: Language settings
+    name: language
+    folder: _i18n
+    format: yaml
+    i18n: true
+    nested:
+      summary: '{{title}} - {{filename}}'
+      depth: 2
+    fields:
+      - { label: Title, name: title, widget: string, i18n: true }
+      - { label: Description, name: description, widget: string, i18n: true }
+      - { label: Skip Navigation, name: skip_nav, widget: string, i18n: true }
   - label: Landing pages
     label_singular: 'Landing pages'
     name: page
