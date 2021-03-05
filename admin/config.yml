@@ -28,7 +28,7 @@ publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 i18n:
-  structure: single_file
+  structure: multiple_folders
 
   # Required - a list of locales to show in the editor UI
   locales: [en, es, fr]
@@ -42,17 +42,18 @@ editor:
 
 collections:
   - label: Language settings
-    name: language
+    name: settings
     folder: _i18n
     format: yaml
+    create: true
     i18n: true
-    nested:
-      summary: '{{title}} - {{filename}}'
-      depth: 2
+    summary: '{{filename}}.{{extension}}'
     fields:
-      - { label: Title, name: title, widget: string, i18n: true }
-      - { label: Description, name: description, widget: string, i18n: true }
-      - { label: Skip Navigation, name: skip_nav, widget: string, i18n: true }
+      - { label: Title, name: title, widget: hidden, default: 'settings' }
+      # Make a global site settings object!!!!!
+      - { label: Site title, name: site_title, widget: string, i18n: true }
+      - { label: Site Description, name: description, widget: string, i18n: true }
+      - { label: Skip navigation, name: skip_nav, widget: string, i18n: true }
   - label: Landing pages
     label_singular: 'Landing pages'
     name: page
