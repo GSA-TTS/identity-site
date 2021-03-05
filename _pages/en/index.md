@@ -14,3 +14,6 @@ meta_title: Home
 twitter_card: large
 ---
 three columns
+
+
+I AM THE PAGE LANG: ~{{ page.lang }}~
