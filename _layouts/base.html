@@ -1,7 +1,3 @@
-{% capture lang %}
-  {{ page.url | truncate: 3, "" | remove: "/" | default: site.languages.first }}
-{% endcapture %}
-
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: lang | default: 'en-US' }}">
 
@@ -13,7 +9,7 @@
     {% include google_recaptcha.html %}
   </head>
 
-  <body class="{{ layout.body.class }} {{ page.body.class }} lang-{{ lang }}">
+  <body class="{{ layout.body.class }} {{ page.body.class }} lang-{{ page.lang }}">
     {{ content }}
     {% include scripts.html %}
   </body>
