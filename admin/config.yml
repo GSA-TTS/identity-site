@@ -43,7 +43,7 @@ editor:
 collections:
   - label: Language settings
     name: settings
-    folder: _i18n
+    folder: _data
     format: yaml
     create: true
     i18n: true

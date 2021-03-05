@@ -3,12 +3,10 @@ title: login.gov
 image: /assets/img/login-gov-288x288.png
 canonical_domain: www.login.gov
 
-exclude_from_localizations: ["javascript", "images", "css"]
+exclude_from_localizations: ['javascript', 'images', 'css']
 
 # Pages
 collections:
-  test:
-    output: true
   help:
     output: true
     permalink: /:collection/:path/
@@ -41,14 +39,14 @@ kramdown:
 
 # Defaults
 defaults:
-- scope:
-    path: "_help"
-  values:
-    layout: help
-- scope:
-    path: ""
-  values:
-    layout: main
+  - scope:
+      path: '_help'
+    values:
+      layout: help
+  - scope:
+      path: ''
+    values:
+      layout: main
 
 include:
   # dotfiles are excluded by default
@@ -74,14 +72,12 @@ plugins:
   - jekyll-autoprefixer
 
 help_pages:
-- get-started
-- trouble-signing-in
-- manage-your-account
-- specific-agencies
-- verify-your-identity
+  - get-started
+  - trouble-signing-in
+  - manage-your-account
+  - specific-agencies
+  - verify-your-identity
 
 baseurl:
 
 url: https://www.login.gov
-
-# permalink: /:collection/:path/
