@@ -6,10 +6,11 @@ global:
 banner:
   official: Un site officiel du gouvernement américain
   how: Voici comment vous savez
-  gov_heading: Les sites Web officiels utilisent .gov
-  gov_description: Un site Web **.gov** appartient à une organisation
-    gouvernementale officielle des États-Unis.
-  secure_heading: Les sites Web sécurisés .gov utilisent HTTPS
-  secure_description: Un **verrou** ou **https://** signifie que vous êtes
-    connecté en toute sécurité au site Web .gov. Partagez des informations
-    sensibles uniquement sur des sites Web officiels et sécurisés.
+  gov_description: >-
+    **Les sites Web officiels utilisent .gov**
+
+    Un site Web **.gov** appartient à une organisation gouvernementale officielle des États-Unis.
+  secure_description: >-
+    **Les sites Web sécurisés .gov utilisent HTTPS**
+
+    Un **verrou** ou **https://** signifie que vous êtes connecté en toute sécurité au site Web .gov. Partagez des informations sensibles uniquement sur des sites Web officiels et sécurisés.

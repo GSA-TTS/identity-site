@@ -19,21 +19,13 @@
         <div class="usa-banner__guidance tablet:grid-col-6">
           <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/img/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
           <div class="usa-media-block__body">
-            <p>
-              <strong> {{ site.data.[page.lang].settings.banner.gov_heading }}</strong>
-              <br />
-               {{ site.data.[page.lang].settings.banner.gov_description | markdownify }}
-            </p>
+            {{ site.data.[page.lang].settings.banner.gov_description | markdownify }}
           </div>
         </div>
         <div class="usa-banner__guidance tablet:grid-col-6">
           <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/img/icon-https.svg" role="img" alt="" aria-hidden="true">
           <div class="usa-media-block__body">
-            <p>
-              <strong> {{ site.data.[page.lang].settings.banner.secure_heading }}</strong>
-              <br />
-               {{ site.data.[page.lang].settings.banner.secure_description | markdownify }}
-            </p>
+            {{ site.data.[page.lang].settings.banner.secure_description | markdownify }}
           </div>
         </div>
       </div>

@@ -4,12 +4,13 @@ global:
   description: Lorem ipsum dolor sit amet.
   skip_nav: Skip to main content
 banner:
-  gov_description: A **.gov** website belongs to an official government
-    organization in the United States.
+  gov_description: >-
+    **Secure .gov websites use HTTPS**
+
+    A **.gov** website belongs to an official government organization in the United States.
   official: An official website of the United States government
   how: Here’s how you know
-  gov_heading: Official websites use .gov
-  secure_heading: Here’s how you know
-  secure_description: A **lock** or **https://** means you’ve safely connected to
-    the .gov website. Share sensitive information only on official, secure
-    websites.
+  secure_description: >-
+    **Os sitios web seguros .gov usan HTTPS**
+
+    A **lock** or **https://** means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.

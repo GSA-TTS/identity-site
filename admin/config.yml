@@ -68,6 +68,8 @@ collections:
           i18n: true,
           fields:
             [
+              { label: official, name: official, widget: string, i18n: true },
+              { label: how, name: how, widget: string, i18n: true },
               {
                 label: gov_description,
                 name: gov_description,
@@ -76,9 +78,6 @@ collections:
                 buttons: [bold, italic],
                 i18n: true,
               },
-              { label: official, name: official, widget: string, i18n: true },
-              { label: how, name: how, widget: string, i18n: true },
-              { label: gov_heading, name: gov_heading, widget: string, i18n: true },
               {
                 label: secure_description,
                 name: secure_description,
@@ -87,7 +86,6 @@ collections:
                 buttons: [bold, italic],
                 i18n: true,
               },
-              { label: secure_heading, name: secure_heading, widget: string, i18n: true },
             ],
         }
   - label: Landing pages
