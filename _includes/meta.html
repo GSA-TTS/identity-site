@@ -29,7 +29,7 @@
 {% if page.description %}
   {% capture description_rendered %}{{ page.description }}{% endcapture %}
 {% else %}
-  {% capture description_rendered %}{{ site.data.[page.lang].settings.description }}{% endcapture %}
+  {% capture description_rendered %}{{ site.data.[page.lang].settings.global.description }}{% endcapture %}
 {% endif %}
 <meta
   name="description"

@@ -41,7 +41,7 @@ editor:
   preview: false
 
 collections:
-  - label: Language settings
+  - label: Settings
     name: settings
     folder: _data
     format: yaml
@@ -50,10 +50,46 @@ collections:
     summary: '{{filename}}.{{extension}}'
     fields:
       - { label: Title, name: title, widget: hidden, default: 'settings' }
-      # Make a global site settings object!!!!!
-      - { label: Site title, name: site_title, widget: string, i18n: true }
-      - { label: Site Description, name: description, widget: string, i18n: true }
-      - { label: Skip navigation, name: skip_nav, widget: string, i18n: true }
+      - {
+          label: 'Global',
+          name: 'global',
+          widget: 'object',
+          i18n: true,
+          fields:
+            [
+              { label: Site Description, name: description, widget: string, i18n: true },
+              { label: Skip navigation, name: skip_nav, widget: string, i18n: true },
+            ],
+        }
+      - {
+          label: 'Official government website banner',
+          name: banner,
+          widget: 'object',
+          i18n: true,
+          fields:
+            [
+              {
+                label: gov_description,
+                name: gov_description,
+                widget: markdown,
+                minimal: true,
+                buttons: [bold, italic],
+                i18n: true,
+              },
+              { label: official, name: official, widget: string, i18n: true },
+              { label: how, name: how, widget: string, i18n: true },
+              { label: gov_heading, name: gov_heading, widget: string, i18n: true },
+              {
+                label: secure_description,
+                name: secure_description,
+                widget: markdown,
+                minimal: true,
+                buttons: [bold, italic],
+                i18n: true,
+              },
+              { label: secure_heading, name: secure_heading, widget: string, i18n: true },
+            ],
+        }
   - label: Landing pages
     label_singular: 'Landing pages'
     name: page

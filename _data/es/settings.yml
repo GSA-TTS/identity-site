@@ -1,3 +1,12 @@
-site_title: login.gov
-description: Nulla porttitor accumsan tincidunt.
-skip_nav: Salte al contenido principal
+title: settings
+global:
+  title: login.gov
+  description: Nulla porttitor accumsan tincidunt.
+  skip_nav: Salte al contenido principal
+banner:
+  official: Un sitio web oficial del gobierno de los Estados Unidos
+  how: Así es como sabes
+  gov_heading: Los sitios web oficiales usan .gov
+  gov_description: Un sitio web .gov pertenece a una organización oficial del Gobierno de Estados Unidos.
+  secure_heading: os sitios web seguros .gov usan HTTPS
+  secure_description: 'Un <strong>candado</strong> o <strong>https://</strong> significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros.'

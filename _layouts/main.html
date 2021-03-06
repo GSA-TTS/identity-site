@@ -2,7 +2,8 @@
 layout: base
 ---
 <header>
-  {% include skip_nav.html text="Skip to main content" %}
+  {% include skip_nav.html %}
+  {% include banner.html %}
 </header>
 <main id="main-content">
 {% capture title %}
@@ -15,7 +16,7 @@ layout: base
 
 {% include hero.html title=title description=description %}
 
-{% include components/3-col.html %}
+{% include 3-col.html %}
 {{ content }}
 </main>
 
