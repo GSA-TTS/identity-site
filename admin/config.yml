@@ -41,15 +41,14 @@ editor:
   preview: false
 
 collections:
-  - label: Settings
+  - label: Global Settings
     name: settings
     folder: _data
     format: yaml
-    create: true
     i18n: true
     summary: '{{filename}}.{{extension}}'
+    identifier_field: name
     fields:
-      - { label: Title, name: title, widget: hidden, default: 'settings' }
       - {
           label: 'Global',
           name: 'global',
@@ -86,6 +85,27 @@ collections:
                 buttons: [bold, italic],
                 i18n: true,
               },
+            ],
+        }
+  - label: Navigation
+    name: nav
+    folder: _data
+    format: yaml
+    i18n: true
+    summary: '{{filename}}.{{extension}}'
+    identifier_field: name
+    fields:
+      - {
+          label: 'Main navigation',
+          name: main,
+          widget: object,
+          i18n: true,
+          fields:
+            [
+              { label: what_is_login_gov, name: what_is_login_gov, widget: string, i18n: true },
+              { label: who_uses_login_gov, name: who_uses_login_gov, widget: string, i18n: true },
+              { label: create_an_account, name: create_an_account, widget: string, i18n: true },
+              { label: help_center, name: help_center, widget: string, i18n: true },
             ],
         }
   - label: Landing pages

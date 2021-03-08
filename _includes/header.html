@@ -1,0 +1,64 @@
+<section class="language-search">
+  <div class="container">
+    <div class="grid-col display-flex flex-justify-end flex-align-center">
+    </div>
+  </div>
+</section>
+
+<div class="usa-header usa-header--extended">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      <div class="usa-logo" id="extended-logo">
+        <a href="{{ '/' | prepend: site.baseurl }}" title="Home" aria-label="Home">
+          <img
+            src="{{ site.baseurl }}/assets/img/logo.svg"
+            class="usa-logo__img"
+            alt="login.gov"
+            role="img"
+          />
+        </a>
+      </div>
+
+      <button class="usa-menu-btn">Menu</button>
+    </div>
+
+    <nav class="usa-nav" role="navigation">
+      <button class="usa-nav__close">
+        <img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close"/>
+      </button>
+
+
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link {% if page.url contains '/what-is-login/' %}usa-current{% endif %}" href="{{ '/what-is-login' | prepend: site.baseurl }}">
+            <span>{{ nav.main.what_is_login_gov }}</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link {% if page.url contains '/who-uses-login/' %}usa-current{% endif %}" href="{{ '/who-uses-login' | prepend: site.baseurl }}">
+            <span>{{ nav.main.who_uses_login_gov }}</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link {% if page.url contains '/create-an-account/' %}usa-current{% endif %}" href="{{ '/create-an-account' | prepend: site.baseurl }}">
+            <span>{{ nav.main.create_an_account }}</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link {% if page.url contains '/help/' %}usa-current{% endif %}" href="{{ '/help' | prepend: site.baseurl }}">
+            <span>{{ nav.main.help_center }}</span>
+          </a>
+        </li>
+      </ul>
+
+      <a class="usa-link desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold" href="{{ '/contact' | prepend: site.baseurl }}">
+        {{meta.contact_us.title}}
+      </a>
+
+\
+      <div class="desktop:display-none margin-top-2">
+      </div>
+    </nav>
+  </div>
+</div>
+<div class="usa-overlay"></div>
