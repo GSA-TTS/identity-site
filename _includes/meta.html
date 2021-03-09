@@ -4,21 +4,17 @@
 
 <!-- Twitter Card -->
 {% if page.twitter_card == "large" %}
-  <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:card" content="summary_large_image" />
 {% else %}
-  <meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary" />
 {% endif %}
 
 <!-- Title -->
-{% if page.layout == 'help' %}
-  {% assign url_size = page.url | size | minus: 1 %}
-  {% assign help_page_title = page.url | replace: "/", "." | slice: 1, url_size %}
-  {% capture title_rendered %}{% t help_page_title %}{% endcapture %}
-{% elsif page.title %}
-  {% capture title_rendered %}{% t page.title %}{% endcapture %}
-{% else %}
-  {% capture title_rendered %}{% t meta.home.description %}{% endcapture %}
-{% endif %}
+{% if page.layout == 'help' %} {% assign url_size = page.url | size | minus: 1 %} {% assign
+help_page_title = page.url | replace: "/", "." | slice: 1, url_size %} {% capture title_rendered
+%}{{ site.data.[page.lang].settings.help_page_title }}{% endcapture %} {% elsif page.title %} {%
+capture title_rendered %}{{ page.title }}{% endcapture %} {% else %} {% capture title_rendered %}{{
+site.data.[page.lang].settings.meta.home.description }}{% endcapture %} {% endif %}
 <title>{{ title_rendered | xml_escape }} | {{ site.title }}</title>
 <meta
   property="og:title"
@@ -30,30 +26,17 @@
 />
 
 <!-- Description -->
-{% if page.description %}
-  {% capture description_rendered %}{% t page.description %}{% endcapture %}
-{% else %}
-  {% capture description_rendered %}{% t meta.home.description %}{% endcapture %}
-{% endif %}
-<meta
-  name="description"
-  content="{{ description_rendered | xml_escape }}"
-/>
-<meta
-  property="og:description"
-  content="{{ description_rendered | xml_escape }}"
-/>
-<meta
-  property="twitter:description"
-  content="{{ description_rendered | xml_escape }}"
-/>
+{% if page.description %} {% capture description_rendered %}{{
+site.data.[page.lang].settings.page.description }}{% endcapture %} {% else %} {% capture
+description_rendered %}{{ site.data.[page.lang].settings.meta.home.description }}{% endcapture %} {%
+endif %}
+<meta name="description" content="{{ description_rendered | xml_escape }}" />
+<meta property="og:description" content="{{ description_rendered | xml_escape }}" />
+<meta property="twitter:description" content="{{ description_rendered | xml_escape }}" />
 
 <!-- Image -->
-{% if page.image %}
-  {% assign image = page.image %}
-{% else %}
-  {% assign image = site.image %}
-{% endif %}
+{% if page.image %} {% assign image = page.image %} {% else %} {% assign image = site.image %} {%
+endif %}
 <link rel="image_src" href="{{ image | absolute_url }}" />
 <meta name="image" content="{{ image | absolute_url }}" />
 <meta property="og:image" content="{{ image | absolute_url }}" />
@@ -64,30 +47,12 @@
   href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.canonical_domain | replace: '//', '/' | prepend: 'https://' }}"
 />
 
-<link
-  rel="apple-touch-icon"
-  sizes="180x180"
-  href="{{ '/apple-touch-icon.png' | relative_url }}"
-/>
-<link
-  rel="icon"
-  type="image/png"
-  href="{{ '/favicon-32x32.png' | relative_url }}"
-  sizes="32x32"
-/>
-<link
-  rel="icon"
-  type="image/png"
-  href="{{ '/favicon-16x16.png' | relative_url }}"
-  sizes="16x16"
-/>
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}" />
+<link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | relative_url }}" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ '/favicon-16x16.png' | relative_url }}" sizes="16x16" />
 <link rel="manifest" href="{{ '/manifest.json' | relative_url }}" />
-<link
-  rel="mask-icon"
-  href="{{ '/safari-pinned-tab.svg' | relative_url }}"
-  color="#e21c3d"
-/>
+<link rel="mask-icon" href="{{ '/safari-pinned-tab.svg' | relative_url }}" color="#e21c3d" />
 <meta name="theme-color" content="#ffffff" />
 
 <!-- Monitoring Tag -->
-<meta sys-status="login.gov site up and running">
+<meta sys-status="login.gov site up and running" />

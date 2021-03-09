@@ -29,5 +29,5 @@ redirect_from:
 - /help/get-started/
 ---
 
-# {% t page.title %}
+# {{ page.title }}
 {% include help/translate_page.html url=page.url %}

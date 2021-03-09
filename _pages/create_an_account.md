@@ -8,11 +8,11 @@ one_account_banner: true
 ---
 
 {% capture heading %}
-{% t create-an-account.hero.heading %}
+{{ site.data.[page.lang].settings.create-an-account.hero.heading }}
 {% endcapture %}
 
 {% capture text %}
-{% t create-an-account.hero.text %}
+{{ site.data.[page.lang].settings.create-an-account.hero.text }}
 {% endcapture %}
 
 {% include hero.html class="create-an-account" heading=heading text=text %}

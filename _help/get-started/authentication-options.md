@@ -15,5 +15,5 @@ redirect_from:
 - /help/authentication-methods/
 ---
 
-# {% t page.title %}
+# {{ page.title }}
 {% include help/translate_page.html url=page.url %}
