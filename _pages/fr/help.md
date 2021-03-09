@@ -2,7 +2,7 @@
 title: meta.help.title
 description: meta.help.description
 layout: help_landing
-permalink: /help/
+permalink: /fr/help/
 title: meta.help.title
 hero: true
 ---

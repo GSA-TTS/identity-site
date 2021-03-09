@@ -1,7 +1,7 @@
 ---
 title: meta.create-an-account.title
 description: meta.create-an-account.description
-permalink: /create-an-account/
+permalink: /es/create-an-account/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
 one_account_banner: true

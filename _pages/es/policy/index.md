@@ -2,7 +2,7 @@
 layout: sidenav
 title: meta.privacy_security_policy.intro.title
 description: meta.privacy_security_policy.intro.description
-permalink: /policy/
+permalink: /es/policy/
 index: 0
 sidenav:  policies
 redirect_from:

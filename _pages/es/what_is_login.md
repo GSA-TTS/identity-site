@@ -1,7 +1,7 @@
 ---
 title: meta.what-is-login.title
 description: meta.what-is-login.description
-permalink: /what-is-login/
+permalink: /es/what-is-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
 ---
