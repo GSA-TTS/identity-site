@@ -11,11 +11,11 @@ redirect_from:
 ---
 
 {% capture heading %}
-{% t index.intro.heading %}
+{{ site.data.[page.lang].settings.index.intro.heading }}
 {% endcapture %}
 
 {% capture text %}
-{% t index.intro.content %}
+{{ site.data.[page.lang].settings.index.intro.content }}
 {% endcapture %}
 
 {% include hero.html heading=heading text=text %}

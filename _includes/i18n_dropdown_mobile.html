@@ -9,10 +9,8 @@
           height="12"
           alt=""
           aria-hidden="true"
-        />{% t global.language %}
-        <span class="caret inline-block ml-tiny" aria-hidden="true"
-          >&#9662;</span
-        >
+        />{{ site.data.[page.lang].settings.global.language }}
+        <span class="caret inline-block ml-tiny" aria-hidden="true">&#9662;</span>
       </a>
     </div>
   </div>
@@ -20,17 +18,17 @@
 
 <div id="i18n-mobile-dropdown" class="sm-hide">
   <ul class="list-reset mb0 white center">
-    {% for locale in site.languages %} {% capture name %}global.locales.{{
-    locale }}{% endcapture %}
+    {% for locale in site.languages %} {% capture name %}global.locales.{{ locale }}{% endcapture %}
     <li class="border-bottom border-blue">
       {% if locale == 'en' %}
-      <a href="{{ page.url | prepend: site.baseurl_root }}">{% t name %}</a>
+      <a href="{{ page.url | prepend: site.baseurl_root }}"
+        >{{ site.data.[page.lang].settings.name }}</a
+      >
       {% elsif locale == site.lang %}
-      <a href="{{ page.url | relative_url  }}">{% t name %}</a>
+      <a href="{{ page.url | relative_url  }}">{{ site.data.[page.lang].settings.name }}</a>
       {% else %}
-      <a
-        href="{{ page.url | prepend: locale | prepend: '/' | prepend: site.baseurl_root }}"
-        >{% t name %}</a
+      <a href="{{ page.url | prepend: locale | prepend: '/' | prepend: site.baseurl_root }}"
+        >{{ site.data.[page.lang].settings.name }}</a
       >
       {% endif %}
     </li>

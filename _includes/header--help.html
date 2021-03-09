@@ -3,9 +3,15 @@
     <div class="usa-navbar">
       <div class="usa-logo">
         <a href="{{ '/' | prepend: site.baseurl }}" title="Home" aria-label="Home">
-          <img src="{{ site.baseurl }}/assets/img/logo.svg" class="usa-logo__img" alt="login.gov home" />
+          <img
+            src="{{ site.baseurl }}/assets/img/logo.svg"
+            class="usa-logo__img"
+            alt="login.gov home"
+          />
         </a>
-        <a href="{{ site.baseurl }}/help/" class="usa-logo__help">{% t nav.help_center %}</a>
+        <a href="{{ site.baseurl }}/help/" class="usa-logo__help"
+          >{{ site.data.[page.lang].settings.nav.help_center }}</a
+        >
       </div>
 
       <button class="usa-menu-btn">Menu</button>
@@ -13,56 +19,53 @@
 
     <nav class="usa-nav" role="navigation">
       <button class="usa-nav__close">
-        <img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close"/>
+        <img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close" />
       </button>
 
       <div class="desktop:display-none">
         <ul class="usa-nav__primary usa-accordion">
-          {% for subpage in site.translations[site.lang].help_subpages %}
-            {% assign subpage_slug = subpage[0] %}
-            {% assign subpage_title = subpage[1] %}
-            {% assign subpage_url = '/help/' | append: subpage_slug | append: '/' | prepend: site.baseurl %}
-            {% assign path_split_subpage = page.path | split: subpage_url %}
+          {% for subpage in site.translations[site.lang].help_subpages %} {% assign subpage_slug =
+          subpage[0] %} {% assign subpage_title = subpage[1] %} {% assign subpage_url = '/help/' |
+          append: subpage_slug | append: '/' | prepend: site.baseurl %} {% assign path_split_subpage
+          = page.path | split: subpage_url %} {% assign subpage_has_current = 'false' %} {% assign
+          articles = site.translations[site.lang].help[subpage_slug] %} {% for article in articles
+          %} {% assign article_slug = article[0] %} {% assign article_url = subpage_url | append:
+          article_slug | append: '/' %} {% if page.url == article_url %} {% assign
+          subpage_has_current = 'true' %} {% endif %} {% endfor %}
 
-            {% assign subpage_has_current = 'false' %}
-            {% assign articles = site.translations[site.lang].help[subpage_slug] %}
-            {% for article in articles %}
-              {% assign article_slug = article[0] %}
-              {% assign article_url = subpage_url | append: article_slug | append: '/' %}
-              {% if page.url == article_url %}
-                {% assign subpage_has_current = 'true' %}
-              {% endif %}
-            {% endfor %}
-
-            <li class="usa-nav__primary-item">
-              <button
-                class="usa-accordion__button usa-nav__link"
-                aria-expanded="{{ subpage_has_current }}"
-                aria-controls="help-header-nav-{{ subpage_slug }}">
-                <span>{{ subpage_title }}</span>
-              </button>
-              <ul id="help-header-nav-{{ subpage_slug }}" class="usa-nav__submenu">
-                {% for article in articles %}
-                  {% assign article_slug = article[0] %}
-                  {% assign article_title = article[1] %}
-                  {% assign article_url = subpage_url | append: article_slug | append: '/' %}
-                  {% assign path_split_article = page.path | split: article_url %}
-                  <li class="usa-nav__submenu-item">
-                    <a
-                      href="{{ article_url }}"
-                      class="{% if page.url == article_url %}usa-current{% endif %}">
-                      {{ article_title }}
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </li>
+          <li class="usa-nav__primary-item">
+            <button
+              class="usa-accordion__button usa-nav__link"
+              aria-expanded="{{ subpage_has_current }}"
+              aria-controls="help-header-nav-{{ subpage_slug }}"
+            >
+              <span>{{ subpage_title }}</span>
+            </button>
+            <ul id="help-header-nav-{{ subpage_slug }}" class="usa-nav__submenu">
+              {% for article in articles %} {% assign article_slug = article[0] %} {% assign
+              article_title = article[1] %} {% assign article_url = subpage_url | append:
+              article_slug | append: '/' %} {% assign path_split_article = page.path | split:
+              article_url %}
+              <li class="usa-nav__submenu-item">
+                <a
+                  href="{{ article_url }}"
+                  class="{% if page.url == article_url %}usa-current{% endif %}"
+                >
+                  {{ article_title }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
           {% endfor %}
         </ul>
       </div>
 
-      <a class="usa-link desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold" href="{{ '/contact' | prepend: site.baseurl }}">
-        {% t meta.contact_us.title %}
+      <a
+        class="usa-link desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold"
+        href="{{ '/contact' | prepend: site.baseurl }}"
+      >
+        {{ site.data.[page.lang].settings.meta.contact_us.title }}
       </a>
 
       <div class="display-none desktop:display-block">
@@ -75,8 +78,11 @@
         {% include language_picker.html id="mobile-list" %}
       </div>
 
-      <a class="usa-link display-none desktop:display-inline text-no-underline text-bold margin-left-1" href="{{ '/contact' | prepend: site.baseurl }}">
-        {% t meta.contact_us.title %}
+      <a
+        class="usa-link display-none desktop:display-inline text-no-underline text-bold margin-left-1"
+        href="{{ '/contact' | prepend: site.baseurl }}"
+      >
+        {{ site.data.[page.lang].settings.meta.contact_us.title }}
       </a>
     </nav>
   </div>

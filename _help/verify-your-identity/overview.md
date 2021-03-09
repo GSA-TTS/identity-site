@@ -14,6 +14,6 @@ redirect_from:
 - /help/identity-verification/related-articles/
 - /help/identity-verification/why-do-i-need-to-verify-my-identity/
 ---
-# {% t page.title %}
+# {{ page.title }}
 
 {% include help/translate_page.html url=page.url %}

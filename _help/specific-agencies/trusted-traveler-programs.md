@@ -26,6 +26,6 @@ redirect_from:
 - /help/trusted-traveler-programs/will-my-ktn-known-traveler-number-change/
 - /help/trusted-traveler-programs/
 ---
-# {% t page.title %}
+# {{ page.title }}
 
 {% include help/translate_page.html url=page.url %}

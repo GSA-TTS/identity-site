@@ -8,11 +8,11 @@ one_account_banner: true
 ---
 
 {% capture heading %}
-{% t who-uses-login-page.hero.heading %}
+{{ site.data.[page.lang].settings.who-uses-login-page.hero.heading }}
 {% endcapture %}
 
 {% capture text %}
-{% t who-uses-login-page.hero.text %}
+{{ site.data.[page.lang].settings.who-uses-login-page.hero.text }}
 {% endcapture %}
 
 {% include hero.html class="who-uses-login" heading=heading text=text %}

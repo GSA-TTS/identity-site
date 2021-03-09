@@ -22,6 +22,6 @@ redirect_from:
 - /help/sam/my-sam-information-is-not-there/
 - /help/sam/reset-or-relink-my-logingov-account-for-sam/
 ---
-# {% t page.title %}
+# {{ page.title }}
 
 {% include help/translate_page.html url=page.url %}
