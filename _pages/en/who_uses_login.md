@@ -8,11 +8,11 @@ one_account_banner: true
 ---
 
 {% capture heading %}
-{{ site.data.[page.lang].settings.who-uses-login-page.hero.heading }}
+{{ site.data[page.lang].settings.who-uses-login-page.hero.heading }}
 {% endcapture %}
 
 {% capture text %}
-{{ site.data.[page.lang].settings.who-uses-login-page.hero.text }}
+{{ site.data[page.lang].settings.who-uses-login-page.hero.text }}
 {% endcapture %}
 
 {% include hero.html class="who-uses-login" heading=heading text=text %}
@@ -20,7 +20,7 @@ one_account_banner: true
 <div class="bg-primary-lightest">
   <div class="container who-uses-login">
     <div class="partners list">
-      {{ site.translations[site.lang]["who-uses-login-page"]["partners"] | replace: 'site.baseurl', site.baseurl | markdownify }}
+      {{ site.data[page.lang].settings["who-uses-login-page"]["partners"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
   </div>
 </div>
@@ -28,7 +28,7 @@ one_account_banner: true
 <div>
   <div class="container who-uses-login">
     <div class="security">
-      {{ site.translations[site.lang]["who-uses-login-page"]["security"] | replace: 'site.baseurl', site.baseurl | markdownify }}
+      {{ site.data[page.lang].settings["who-uses-login-page"]["security"] | replace: 'site.baseurl', site.baseurl | markdownify }}
     </div>
   </div>
 </div>
