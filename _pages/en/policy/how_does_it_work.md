@@ -7,4 +7,4 @@ index: 1
 sidenav: policies
 ---
 
-{{ site.translations[site.lang]["policies"]["sections"][page.index]["content"] | replace: "site.baseurl", site.baseurl | markdownify }}
+{{ site.data[page.lang].settings["policies"]["sections"][page.index]["content"] | replace: "site.baseurl", site.baseurl | markdownify }}

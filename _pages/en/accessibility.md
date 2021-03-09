@@ -7,4 +7,4 @@ permalink: /accessibility/
 sidenav: accessibility
 ---
 
-{{ site.translations[site.lang]["accessibility"]["content"] | replace: "site.baseurl", site.baseurl | markdownify }}
+{{ site.data[page.lang].settings["accessibility"]["content"] | replace: "site.baseurl", site.baseurl | markdownify }}

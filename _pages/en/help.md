@@ -8,7 +8,7 @@ hero: true
 ---
 <article class="grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-9 padding-bottom-1">
   <ul class="usa-card-group grid-row tablet:flex-align-center usa-list usa-list--unstyled">
-    {% for item in site.translations[site.lang]["help_page"]["categories"] %}
+    {% for item in site.data[page.lang].settings["help_page"]["categories"] %}
     <li class="card">
       <div class="grid-row flex-row tablet:flex-align-center">
         <div class="grid-col-2">
