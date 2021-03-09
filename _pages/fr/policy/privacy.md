@@ -2,7 +2,7 @@
 layout: sidenav
 title: meta.privacy_security_policy.privacy.title
 description: meta.privacy_security_policy.privacy.description
-permalink: /policy/our-privacy-act-statement/
+permalink: /fr/policy/our-privacy-act-statement/
 redirect_from: /policy/our-privacy-practices/
 index: 2
 sidenav: policies

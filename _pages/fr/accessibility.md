@@ -3,7 +3,7 @@ layout: sidenav
 redirect_from: https://design.login.gov/accessibility
 title: meta.accessibility.title
 description: meta.accessibility.description
-permalink: /accessibility/
+permalink: /fr/accessibility/
 sidenav: accessibility
 ---
 

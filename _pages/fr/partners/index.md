@@ -1,5 +1,5 @@
 ---
-permalink: /partners/
+permalink: /fr/partners/
 redirect_from:
 - /partners/learn/
 - /partners/our-agency-partners/

@@ -1,7 +1,7 @@
 ---
 title: meta.who-uses-login.title
 description: meta.who-uses-login.description
-permalink: /who-uses-login/
+permalink: /fr/who-uses-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
 one_account_banner: true

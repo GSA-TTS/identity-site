@@ -1,7 +1,7 @@
 ---
 title: meta.contact_us.title
 layout: sidenav
-permalink: /contact/
+permalink: /fr/contact/
 description: meta.contact_us.description
 sidenav: contact_us
 scripts:
