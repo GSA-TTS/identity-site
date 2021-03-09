@@ -486,7 +486,7 @@
     }}</label
   >
   <div class="usa-hint">
-    {{ site.translations[site.lang].contact_page.support_request_form.labels.pii_warning |
+    {{ site.data[page.lang].settings.contact_page.support_request_form.labels.pii_warning |
     markdownify | remove: '
     <p>' | remove: '</p>
     ' }}

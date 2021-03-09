@@ -24,11 +24,11 @@
 
       <div class="desktop:display-none">
         <ul class="usa-nav__primary usa-accordion">
-          {% for subpage in site.translations[site.lang].help_subpages %} {% assign subpage_slug =
+          {% for subpage in site.data[page.lang].settings.help_subpages %} {% assign subpage_slug =
           subpage[0] %} {% assign subpage_title = subpage[1] %} {% assign subpage_url = '/help/' |
           append: subpage_slug | append: '/' | prepend: site.baseurl %} {% assign path_split_subpage
           = page.path | split: subpage_url %} {% assign subpage_has_current = 'false' %} {% assign
-          articles = site.translations[site.lang].help[subpage_slug] %} {% for article in articles
+          articles = site.data[page.lang].settings.help[subpage_slug] %} {% for article in articles
           %} {% assign article_slug = article[0] %} {% assign article_url = subpage_url | append:
           article_slug | append: '/' %} {% if page.url == article_url %} {% assign
           subpage_has_current = 'true' %} {% endif %} {% endfor %}
