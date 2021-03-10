@@ -4,25 +4,25 @@ title: Resumen de la cuenta del Sistema para la Administración de Subvenciones 
 category: specific-agencies
 order: 2
 redirect_from:
-  - /help/sam/have-account-different-email/
-  - /help/sam/no-longer-have-email/
-  - /help/sam/relink-my-profile/
-  - /help/sam/username-and-password-sign-in/
-  - /help/sam/where-is-my-profile-info/
-  - /help/sam/why-is-sam-using-login-gov/
-  - /help/sam/cant-sign-in-or-reset-my-password-sam-account/
-  - /help/sam/change-account-settings/
-  - /help/sam/my-email-address-used-for-sam-is-not-available/
-  - /help/sam/my-logingov-account-uses-a-different-email-address/
-  - /help/sam/my-sam-information-is-not-there/
-  - /help/sam/reset-or-relink-my-logingov-account-for-sam/
-  - /help/sam/why-sam-uses-logingov/
-  - /help/sam/cant-sign-in-or-reset-my-password-sam-account/
-  - /help/sam/change-account-settings/
-  - /help/sam/my-email-address-used-for-sam-is-not-available/
-  - /help/sam/my-logingov-account-uses-a-different-email-address/
-  - /help/sam/my-sam-information-is-not-there/
-  - /help/sam/reset-or-relink-my-logingov-account-for-sam/
+  - /es/help/sam/have-account-different-email/
+  - /es/help/sam/no-longer-have-email/
+  - /es/help/sam/relink-my-profile/
+  - /es/help/sam/username-and-password-sign-in/
+  - /es/help/sam/where-is-my-profile-info/
+  - /es/help/sam/why-is-sam-using-login-gov/
+  - /es/help/sam/cant-sign-in-or-reset-my-password-sam-account/
+  - /es/help/sam/change-account-settings/
+  - /es/help/sam/my-email-address-used-for-sam-is-not-available/
+  - /es/help/sam/my-logingov-account-uses-a-different-email-address/
+  - /es/help/sam/my-sam-information-is-not-there/
+  - /es/help/sam/reset-or-relink-my-logingov-account-for-sam/
+  - /es/help/sam/why-sam-uses-logingov/
+  - /es/help/sam/cant-sign-in-or-reset-my-password-sam-account/
+  - /es/help/sam/change-account-settings/
+  - /es/help/sam/my-email-address-used-for-sam-is-not-available/
+  - /es/help/sam/my-logingov-account-uses-a-different-email-address/
+  - /es/help/sam/my-sam-information-is-not-there/
+  - /es/help/sam/reset-or-relink-my-logingov-account-for-sam/
 ---
 
 Solo puedes iniciar sesión en login.gov de forma segura. Tu cuenta de login.gov no afecta tu cuenta, solicitud, estado, membresía o elegibilidad al Sistema para la Administración de Subvenciones (SAM) ni tiene información alguna al respecto.
