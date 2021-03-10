@@ -4,25 +4,25 @@ title: Système de saisie des prix (SAM) Aperçu du compte
 category: specific-agencies
 order: 2
 redirect_from:
-  - /help/sam/have-account-different-email/
-  - /help/sam/no-longer-have-email/
-  - /help/sam/relink-my-profile/
-  - /help/sam/username-and-password-sign-in/
-  - /help/sam/where-is-my-profile-info/
-  - /help/sam/why-is-sam-using-login-gov/
-  - /help/sam/cant-sign-in-or-reset-my-password-sam-account/
-  - /help/sam/change-account-settings/
-  - /help/sam/my-email-address-used-for-sam-is-not-available/
-  - /help/sam/my-logingov-account-uses-a-different-email-address/
-  - /help/sam/my-sam-information-is-not-there/
-  - /help/sam/reset-or-relink-my-logingov-account-for-sam/
-  - /help/sam/why-sam-uses-logingov/
-  - /help/sam/cant-sign-in-or-reset-my-password-sam-account/
-  - /help/sam/change-account-settings/
-  - /help/sam/my-email-address-used-for-sam-is-not-available/
-  - /help/sam/my-logingov-account-uses-a-different-email-address/
-  - /help/sam/my-sam-information-is-not-there/
-  - /help/sam/reset-or-relink-my-logingov-account-for-sam/
+  - /fr/help/sam/have-account-different-email/
+  - /fr/help/sam/no-longer-have-email/
+  - /fr/help/sam/relink-my-profile/
+  - /fr/help/sam/username-and-password-sign-in/
+  - /fr/help/sam/where-is-my-profile-info/
+  - /fr/help/sam/why-is-sam-using-login-gov/
+  - /fr/help/sam/cant-sign-in-or-reset-my-password-sam-account/
+  - /fr/help/sam/change-account-settings/
+  - /fr/help/sam/my-email-address-used-for-sam-is-not-available/
+  - /fr/help/sam/my-logingov-account-uses-a-different-email-address/
+  - /fr/help/sam/my-sam-information-is-not-there/
+  - /fr/help/sam/reset-or-relink-my-logingov-account-for-sam/
+  - /fr/help/sam/why-sam-uses-logingov/
+  - /fr/help/sam/cant-sign-in-or-reset-my-password-sam-account/
+  - /fr/help/sam/change-account-settings/
+  - /fr/help/sam/my-email-address-used-for-sam-is-not-available/
+  - /fr/help/sam/my-logingov-account-uses-a-different-email-address/
+  - /fr/help/sam/my-sam-information-is-not-there/
+  - /fr/help/sam/reset-or-relink-my-logingov-account-for-sam/
 ---
 
 Login.gov est réservé à l'identification sécurisée. Votre compte login.gov n’affecte pas et ne contient aucune information sur votre compte, votre candidature, votre statut, votre adhésion ou votre éligibilité au Système de capture des prix (SAM).

@@ -4,17 +4,17 @@ title: Opciones de autenticacións
 category: get-started
 order: 2
 redirect_from:
-  - /help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
-  - /help/security-keys/what-is-a-security-key/
-  - /help/security-keys/what-is-phishing/
-  - /help/security-keys/do-i-need-a-mobile-phone-to-use-logingov/
-  - /help/security-keys/do-i-need-to-set-up-a-security-key-to-use-logingov/
-  - /help/security-keys/how-do-i-protect-my-logingov-account-with-a-security-key/
-  - /help/security-keys/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
-  - /help/security-keys/related-articles/
-  - /help/security-keys/
-  - /help/authentication-methods/which-authentication-method-should-i-use/
-  - /help/authentication-methods/
+  - /es/help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
+  - /es/help/security-keys/what-is-a-security-key/
+  - /es/help/security-keys/what-is-phishing/
+  - /es/help/security-keys/do-i-need-a-mobile-phone-to-use-logingov/
+  - /es/help/security-keys/do-i-need-to-set-up-a-security-key-to-use-logingov/
+  - /es/help/security-keys/how-do-i-protect-my-logingov-account-with-a-security-key/
+  - /es/help/security-keys/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
+  - /es/help/security-keys/related-articles/
+  - /es/help/security-keys/
+  - /es/help/authentication-methods/which-authentication-method-should-i-use/
+  - /es/help/authentication-methods/
 ---
 Además de su contraseña, es necesario que usted configure por lo menos un método de autenticación secundario en login.gov con el fin de mantener su cuenta segura. Se trata de una autenticación en dos pasos (2FA, por sus siglas en inglés). Usamos la autenticación en dos pasos como un filtro de seguridad adicional para proteger su información.
 

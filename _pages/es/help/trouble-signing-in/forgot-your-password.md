@@ -4,10 +4,10 @@ title: Olvidó su contraseña
 category: trouble-signing-in
 order: 2
 redirect_from:
-  - /help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/
-  - /help/signing-in/how-do-i-reset-my-password/
-  - /help/signing-in/forgot-my-password/
-  - /help/signing-in/my-reset-password-link-is-invalid/
+  - /es/help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/
+  - /es/help/signing-in/how-do-i-reset-my-password/
+  - /es/help/signing-in/forgot-my-password/
+  - /es/help/signing-in/my-reset-password-link-is-invalid/
 ---
 
 Siga estos pasos para restablecer su contraseña.

@@ -4,8 +4,8 @@ title: Comment se connecter à login.gov
 category: trouble-signing-in
 order: 1
 redirect_from:
-  - /help/signing-in/
-  - /help/signing-in/how-to-sign-in/
+  - /fr/help/signing-in/
+  - /fr/help/signing-in/how-to-sign-in/
 ---
 
 Chaque fois que vous vous connecterez à votre compte login.gov, vous aurez besoin de votre adresse électronique, de votre mot de passe et d'un accès à l'une des méthodes d'authentification à deux facteurs que vous aurez mises en place.

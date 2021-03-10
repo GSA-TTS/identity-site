@@ -4,8 +4,8 @@ title: Cómo iniciar sesión en login.gov
 category: trouble-signing-in
 order: 1
 redirect_from:
-  - /help/signing-in/
-  - /help/signing-in/how-to-sign-in/
+  - /es/help/signing-in/
+  - /es/help/signing-in/how-to-sign-in/
 ---
 
 Cada vez que inicie sesión en su cuenta de login.gov, necesitará su dirección de correo electrónico, su contraseña y contar con alguno de los métodos de autenticación en dos pasos que haya configurado.

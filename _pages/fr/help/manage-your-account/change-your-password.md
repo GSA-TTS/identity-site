@@ -4,8 +4,8 @@ title: Changer votre mot de passe
 category: manage-your-account
 order: 1
 redirect_from:
-  - /help/changing-settings/change-my-password/
-  - /help/changing-settings/how-do-i-change-my-password/
+  - /fr/help/changing-settings/change-my-password/
+  - /fr/help/changing-settings/how-do-i-change-my-password/
 ---
 
 Suivez les étapes suivantes pour changer votre mot de passe login.gov.

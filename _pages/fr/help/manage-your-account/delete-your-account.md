@@ -4,8 +4,8 @@ title: Supprimer votre compte
 category: manage-your-account
 order: 1
 redirect_from:
-  - /help/changing-settings/delete-my-account/
-  - /help/changing-settings/how-do-i-delete-my-account/
+  - /fr/help/changing-settings/delete-my-account/
+  - /fr/help/changing-settings/how-do-i-delete-my-account/
 ---
 
 __Plusieurs raisons peuvent justifier le besoin de supprimer votre compte:__

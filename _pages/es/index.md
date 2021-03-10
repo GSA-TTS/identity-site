@@ -1,6 +1,6 @@
 ---
 title: meta.home.title
-permalink: /es/es/
+permalink: /es/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
 one_account_banner: true
