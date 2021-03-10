@@ -10,11 +10,17 @@
 {% endif %}
 
 <!-- Title -->
-{% if page.layout == 'help' %} {% assign url_size = page.url | size | minus: 1 %} {% assign
-help_page_title = page.url | replace: "/", "." | slice: 1, url_size %} {% capture title_rendered
-%}{{ site.data.[page.lang].settings.help_page_title }}{% endcapture %} {% elsif page.title %} {%
-capture title_rendered %}{{ page.title }}{% endcapture %} {% else %} {% capture title_rendered %}{{
-site.data.[page.lang].settings.meta.home.description }}{% endcapture %} {% endif %}
+
+{% if page.meta_title %}
+  {% capture title_rendered %}
+    {{ page.meta_title }}
+  {% endcapture %}
+{% else if page.title %}
+  {% capture title_rendered %}
+    {{ page.title }}
+  {% endcapture %}
+{% endif %}
+
 <title>{{ title_rendered | xml_escape }} | {{ site.title }}</title>
 <meta
   property="og:title"
@@ -26,10 +32,9 @@ site.data.[page.lang].settings.meta.home.description }}{% endcapture %} {% endif
 />
 
 <!-- Description -->
-{% if page.description %} {% capture description_rendered %}{{
-site.data.[page.lang].settings.page.description }}{% endcapture %} {% else %} {% capture
-description_rendered %}{{ site.data.[page.lang].settings.meta.home.description }}{% endcapture %} {%
-endif %}
+{% if page.description %} {% capture description_rendered %}{{ page.description }}{% endcapture %}
+{% else %} {% capture description_rendered %}{{ site.data.[page.lang].settings.global.description
+}}{% endcapture %} {% endif %}
 <meta name="description" content="{{ description_rendered | xml_escape }}" />
 <meta property="og:description" content="{{ description_rendered | xml_escape }}" />
 <meta property="twitter:description" content="{{ description_rendered | xml_escape }}" />
