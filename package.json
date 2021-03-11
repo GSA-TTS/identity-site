@@ -7,6 +7,7 @@
     "federalist": "npm run build-js",
     "watch-js": "webpack -w --config webpack.config.js --progress --color",
     "optimize-assets": "svgo --disable=removeViewBox -r -f assets/img",
+    "viewbox": "./node_modules/.bin/svglint 'assets/img/**/*.svg'",
     "lint": "eslint spec webpack.config.js assets",
     "pretest": "if [ -z $SKIP_BUILD ]; then make build; fi",
     "test": "BABEL_ENV=test jest"
