@@ -20,7 +20,7 @@ contact_form_orgid: "00DU0000000Leux"
 collections:
   help:
     output: true
-    permalink: /:collection/:path/
+    # permalink: /:collection/:path/
   pages:
     output: true
     permalink: /:path/
