@@ -15,7 +15,7 @@ exclude_from_localizations: ["javascript", "images", "css"]
 collections:
   help:
     output: true
-    permalink: /:collection/:path/
+    # permalink: /:collection/:path/
   pages:
     output: true
     permalink: /:path/
