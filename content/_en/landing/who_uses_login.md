@@ -1,4 +1,5 @@
 ---
+layout: main
 title: meta.who-uses-login.title
 description: meta.who-uses-login.description
 permalink: /who-uses-login/
