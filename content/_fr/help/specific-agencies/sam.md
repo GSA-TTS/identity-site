@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Système de saisie des prix (SAM) Aperçu du compte
 category: specific-agencies
 order: 2

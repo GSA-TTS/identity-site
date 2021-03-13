@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Empiece con login.gov
 category: get-started
 order: 0

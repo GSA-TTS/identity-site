@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Gérez votre compte
 category: manage-your-account
 order: 0

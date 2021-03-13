@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Cómo iniciar sesión en login.gov
 category: trouble-signing-in
 order: 1

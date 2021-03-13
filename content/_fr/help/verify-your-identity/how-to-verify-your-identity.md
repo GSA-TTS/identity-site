@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Comment vérifier votre identité
 category: verify-your-identity
 order: 1

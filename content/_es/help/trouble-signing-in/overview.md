@@ -1,5 +1,4 @@
 ---
-layout: help
 title: ¿Problemas al iniciar sesión?
 category: trouble-signing-in
 order: 0

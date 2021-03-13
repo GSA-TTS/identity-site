@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Aide aux agences spécifiques
 category: specific-agencies
 order: 0

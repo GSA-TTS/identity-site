@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Vérifiez votre identité
 category: verify-your-identity
 order: 0

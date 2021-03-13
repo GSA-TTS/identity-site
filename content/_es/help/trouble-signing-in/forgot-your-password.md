@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Olvidó su contraseña
 category: trouble-signing-in
 order: 2

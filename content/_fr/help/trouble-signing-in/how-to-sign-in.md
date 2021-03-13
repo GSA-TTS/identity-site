@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Comment se connecter à login.gov
 category: trouble-signing-in
 order: 1

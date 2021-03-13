@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Cambie su contraseña
 category: manage-your-account
 order: 1

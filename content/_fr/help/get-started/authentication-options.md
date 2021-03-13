@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Options d'authentification
 category: get-started
 order: 2

@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Cambiar la dirección de correo electrónico asociada a su cuenta
 category: manage-your-account
 order: 4

@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Programas de Viajero de Confianza (TTP, por sus siglas en inglés)
 category: specific-agencies
 order: 1

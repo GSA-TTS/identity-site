@@ -54,7 +54,7 @@ collections:
       - label: Help Topic
         field: category
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'help', i18n: duplicate }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'help' }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - {
           label: 'Category',

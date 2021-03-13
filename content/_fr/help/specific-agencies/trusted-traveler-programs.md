@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Programmes pour voyageurs fiables (TTP)
 category: specific-agencies
 order: 1
