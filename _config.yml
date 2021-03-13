@@ -53,7 +53,7 @@ kramdown:
 # Defaults
 defaults:
 - scope:
-    path: "_help"
+    path: "content/*/help"
   values:
     layout: help
 - scope:
