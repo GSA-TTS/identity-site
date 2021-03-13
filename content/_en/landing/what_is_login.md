@@ -1,4 +1,5 @@
 ---
+layout: main
 title: meta.what-is-login.title
 description: meta.what-is-login.description
 permalink: /what-is-login/

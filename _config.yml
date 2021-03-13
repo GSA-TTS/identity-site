@@ -12,13 +12,20 @@ languages:
 exclude_from_localizations: ["javascript", "images", "css"]
 
 # Pages
+collections_dir: content
 collections:
   help:
     output: true
     # permalink: /:collection/:path/
-  pages:
+  en:
     output: true
     permalink: /:path/
+  es:
+    output: true
+    permalink: /:collection/:path/
+  fr:
+    output: true
+    permalink: /:collection/:path/
 
 # Scripts
 scripts:
@@ -50,9 +57,21 @@ defaults:
   values:
     layout: help
 - scope:
-    path: ""
+    path: "content/*/landing"
   values:
     layout: main
+- scope:
+    path: "content/_en"
+  values:
+    lang: en
+- scope:
+    path: "content/_es"
+  values:
+    lang: es
+- scope:
+    path: "content/_fr"
+  values:
+    lang: fr
 
 include:
   # dotfiles are excluded by default

@@ -1,4 +1,5 @@
 ---
+layout: main
 title: meta.home.title
 permalink: /
 twitter_card: large

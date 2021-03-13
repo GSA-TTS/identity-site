@@ -1,4 +1,5 @@
 ---
+layout: main
 title: meta.create-an-account.title
 description: meta.create-an-account.description
 permalink: /create-an-account/

@@ -31,11 +31,11 @@ i18n:
   structure: multiple_folders
 
   # Required - a list of locales to show in the editor UI
-  locales: [en, es, fr]
+  locales: [_en, _es, _fr]
 
   # Optional, defaults to the first item in locales.
   # The locale to be used for fields validation and as a baseline for the entry.
-  default_locale: en
+  default_locale: _en
 
 editor:
   preview: false
@@ -44,12 +44,14 @@ collections:
   - label: Help articles
     label_singular: 'Help article'
     name: help
-    folder: _pages/
+    folder: content/
     i18n: true
     create: true
+    summary: '{{category}} → {{title}}'
     path: 'help/{{category}}/{{slug}}'
+    filter: {field: 'layout', value: 'help'}
     view_groups:
-      - label: Topic
+      - label: Help Topic
         field: category
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'help', i18n: duplicate }
@@ -90,10 +92,11 @@ collections:
   - label: Landing pages
     label_singular: 'Landing page'
     name: page
-    folder: _pages/
+    folder: content/
     i18n: true
     create: true
-    path: '{{slug}}'
+    path: 'landing/{{slug}}'
+    filter: {field: 'layout', value: 'main'}
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'main', i18n: duplicate }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
@@ -101,10 +104,11 @@ collections:
   - label: Policy pages
     label_singular: 'Policy page'
     name: policy
-    folder: _pages/
+    folder: content/
     i18n: true
     create: true
     path: 'policy/{{slug}}'
+    filter: {field: 'layout', value: 'sidenav'}
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav', i18n: duplicate }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
