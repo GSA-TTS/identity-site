@@ -3,8 +3,7 @@
   <ul class="usa-accordion usa-sidenav">
     {% for subpage in site.help_pages %}
       {% assign subpage_slug = subpage | slugify %}
-      {% assign related_questions = site.pages | where_exp: "item", "item.url contains subpage_slug and item.lang == page.lang" | sort:
-    'order' %}
+      {% assign related_questions = site.[page.lang] | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang" | sort:'order' %}
       {% if page.url contains subpage_slug %}
         {% assign is_initially_expanded = 'true' %}
         {% assign is_initially_hidden = 'false' %}
