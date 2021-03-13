@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Verificación de identidad
 category: verify-your-identity
 order: 0

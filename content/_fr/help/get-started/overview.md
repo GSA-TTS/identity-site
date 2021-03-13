@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Commencez avec login.gov
 category: get-started
 order: 0

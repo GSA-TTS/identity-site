@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Cambiar el número de teléfono asociado a su cuenta
 category: manage-your-account
 order: 3

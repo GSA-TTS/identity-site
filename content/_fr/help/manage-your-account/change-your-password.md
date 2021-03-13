@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Changer votre mot de passe
 category: manage-your-account
 order: 1

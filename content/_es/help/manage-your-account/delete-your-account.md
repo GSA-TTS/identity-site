@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Eliminar su cuenta
 category: manage-your-account
 order: 2

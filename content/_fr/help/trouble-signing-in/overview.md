@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Des problèmes de connexion?
 category: trouble-signing-in
 order: 0

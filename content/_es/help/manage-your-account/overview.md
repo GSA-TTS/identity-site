@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Administrar su cuenta
 category: manage-your-account
 order: 0

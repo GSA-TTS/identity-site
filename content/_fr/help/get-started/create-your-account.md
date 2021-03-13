@@ -1,5 +1,4 @@
 ---
-layout: help
 category: get-started
 order: 1
 title: Créez votre compte

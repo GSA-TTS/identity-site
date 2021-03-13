@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Resumen de la cuenta del Sistema para la Administración de Subvenciones (SAM)
 category: specific-agencies
 order: 2

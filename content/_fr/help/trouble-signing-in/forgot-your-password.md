@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Mot de passe oublié
 category: trouble-signing-in
 order: 2

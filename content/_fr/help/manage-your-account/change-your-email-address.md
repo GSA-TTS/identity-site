@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Modifier l'adresse de courriel associée à votre compte
 category: manage-your-account
 order: 4

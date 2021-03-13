@@ -1,5 +1,4 @@
 ---
-layout: help
 title: Supprimer votre compte
 category: manage-your-account
 order: 1
