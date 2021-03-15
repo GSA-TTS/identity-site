@@ -11,7 +11,7 @@ languages:
 
 exclude_from_localizations: ["javascript", "images", "css"]
 
-# Contact form production values (overridden in Federalist for demo)
+# Contact form production values (overridden in Federalist for preview branches)
 contact_form_captcha_enabled: true
 contact_form_action: "https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
 contact_form_orgid: "00DU0000000Leux"
