@@ -360,7 +360,7 @@
   <input type="hidden" name="status" id="status" value="New" />
   <input type="hidden" id="external" name="external" value="1" />
   <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu" />
-  {% if site.contact_form_captcha_enabled = false %}
+  {% if site.contact_form_captcha_enabled != true %}
     <input type="hidden" name="debug" value="1" />
   {% endif %}
 
