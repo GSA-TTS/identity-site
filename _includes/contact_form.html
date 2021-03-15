@@ -350,13 +350,14 @@
 
 <form
   id="contact-us-form"
-  action="https://gsa-peo--PEOdV4DVn.cs33.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
+  action="{{ site.contact_form_action }}"
   method="POST"
   onSubmit="return remapvalues(this); return true;"
   class="usa-form"
+  data-captcha-enabled="{{ site.contact_form_captcha_enabled }}"
 >
   <input type="hidden" name="retURL" value="http://login.gov" />
-  <input type="hidden" name="orgid" value="00D350000001BVt" />
+  <input type="hidden" name="orgid" value="{{ site.contact_form_orgid }}" />
   <input type="hidden" name="status" id="status" value="New" />
   <input type="hidden" id="external" name="external" value="1" />
   <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu" />
