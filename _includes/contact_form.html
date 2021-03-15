@@ -354,13 +354,15 @@
   method="POST"
   onSubmit="return remapvalues(this); return true;"
   class="usa-form"
-  data-captcha-enabled="{{ site.contact_form_captcha_enabled }}"
 >
   <input type="hidden" name="retURL" value="http://login.gov" />
   <input type="hidden" name="orgid" value="{{ site.contact_form_orgid }}" />
   <input type="hidden" name="status" id="status" value="New" />
   <input type="hidden" id="external" name="external" value="1" />
   <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu" />
+  {% if site.contact_form_captcha_enabled = false %}
+    <input type="hidden" name="debug" value="1" />
+  {% endif %}
 
   <!-- START: Topic -->
   <label class="usa-label" for="00NU0000004z903">{% t contact_page.support_request_form.labels.topic %}</label>
