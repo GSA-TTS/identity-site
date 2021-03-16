@@ -1,6 +1,7 @@
 ---
 title: Administrar su cuenta
 category: manage-your-account
+meta_title: Visión general
 order: 0
 redirect_from: /es/help/manage-your-account/
 ---

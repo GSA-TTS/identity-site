@@ -2,6 +2,7 @@
 layout: help
 title: Get started with login.gov
 category: get-started
+meta_title: Overview
 order: 0
 redirect_from:
   - /help/creating-an-account/authentication-application/

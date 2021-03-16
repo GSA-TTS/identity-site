@@ -18,7 +18,7 @@
 #
 backend:
   name: git-gateway
-  branch: ca-LG-4239-i18n-slugs-no-jekyll-plugin
+  branch: ca-LG-4182-help-pages-pass-tests
   proxy_url: http://localhost:8081/api/v1
 local_backend: true
 
@@ -47,7 +47,7 @@ collections:
     folder: content/
     i18n: true
     create: true
-    summary: '{{category}} → {{title}}'
+    summary: '{{category}} > {{title}} ({{filename}}.{{extension}})'
     path: 'help/{{category}}/{{slug}}'
     filter: {field: 'layout', value: 'help'}
     view_groups:
@@ -72,7 +72,7 @@ collections:
           i18n: duplicate,
         }
       - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
-      - { label: 'Permalink', name: 'permalink', widget: 'string', required: false, i18n: true }
+      - { label: 'Meta Title', name: 'meta_title', widget: 'string', required: false, i18n: true }
       - { label: 'Order', name: 'order', widget: 'number', default: 10, min: 0, i18n: duplicate }
       - {
           label: 'Redirect from',
