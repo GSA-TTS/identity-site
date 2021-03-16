@@ -1,7 +1,6 @@
 ---
 layout: help
 title: Delete your account
-categories: help manage-your-account
 category: manage-your-account
 order: 1
 redirect_from:

@@ -1,6 +1,7 @@
 ---
 title: Commencez avec login.gov
 category: get-started
+meta_title: Aperçu
 order: 0
 redirect_from:
   - /fr/help/creating-an-account/authentication-application/

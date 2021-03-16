@@ -2,6 +2,7 @@
 layout: help
 title: Manage your account
 category: manage-your-account
+meta_title: Overview
 order: 0
 redirect_from:
   - /help/changing-settings/add-or-remove-email-address/
