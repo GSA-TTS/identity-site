@@ -2,6 +2,7 @@
 title: Administrar su cuenta
 category: manage-your-account
 order: 0
+redirect_from: /es/help/manage-your-account/
 ---
 
 Administrar los ajustes de su cuenta, incluidos su contraseña, número de teléfono, correo electrónico y más.

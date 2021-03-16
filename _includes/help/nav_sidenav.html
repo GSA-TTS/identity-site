@@ -12,7 +12,12 @@
         {% assign is_initially_hidden = 'true' %}
       {% endif %}
       <li class="usa-sidenav__item usa-parent" aria-expanded="{{ is_initially_expanded }}">
-        <a href="{{ subpage | prepend: '/help/' | prepend: site.baseurl }}"
+      {% if page.lang != 'en' %}
+        {% assign page_lang = page.lang + '/' %}
+      {% else %}
+        {% assign page_lang = '/' %}
+      {% endif %}
+        <a href="{{ subpage_slug | prepend: '/help/' | prepend: page_lang | absolute_url }}"
           class="{% if page.url contains subpage_slug %}usa-current{% endif %}">
           {{ site.data[page.lang]["settings"]["help_subpages"][subpage] }}
         </a>
