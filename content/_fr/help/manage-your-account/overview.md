@@ -2,6 +2,7 @@
 title: Gérez votre compte
 category: manage-your-account
 order: 0
+redirect_from: /fr/help/manage-your-account/
 ---
 
 Gérez les paramètres de votre compte, notamment votre mot de passe, votre numéro de téléphone, votre adresse électronique, etc.
