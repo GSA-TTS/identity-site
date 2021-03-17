@@ -2,6 +2,7 @@
 layout: help
 title: Help with specific agencies
 category: specific-agencies
+permalink: /help/specific-agencies/overview
 order: 0
 redirect_from:
   - /help/specific-agencies/

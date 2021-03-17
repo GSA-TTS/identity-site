@@ -2,25 +2,26 @@
 layout: help
 title: Aide aux agences spécifiques
 category: specific-agencies
+permalink: /fr/help/specific-agencies/overview
 order: 0
 redirect_from:
-  - /help/specific-agencies/
-  - /help/specific-agencies/usajobs/
-  - /help/usajobs/gov-mil-edu-email-address/
-  - /help/usajobs/how-do-I-relink-my-USAJOBS-profile-after-deleting-my-login-account/
-  - /help/usajobs/im-trying-to-sign-in-but-it-doesnt-work/
-  - /help/usajobs/profile-information/
-  - /help/usajobs/relink-my-profile/
-  - /help/usajobs/security-code/
-  - /help/usajobs/what-email-address-do-i-use/
-  - /help/usajobs/what-happens-to-my-profile/
-  - /help/usajobs/cant-sign-in-or-reset-my-password-usajobs-account/
-  - /help/usajobs/how-to-receive-the-security-code/
-  - /help/usajobs/my-usajobs-information-is-not-there/
-  - /help/usajobs/reset-or-relink-my-logingov-account-for-usajobs/
-  - /help/usajobs/try-not-to-use-a-gov-mil-or-edu-email-address/
-  - /help/usajobs/what-email-address-should-i-use/
-  - /help/usajobs/what-will-happen-to-my-usajobs-profile/
+  - /fr/help/specific-agencies/
+  - /fr/help/specific-agencies/usajobs/
+  - /fr/help/usajobs/gov-mil-edu-email-address/
+  - /fr/help/usajobs/how-do-I-relink-my-USAJOBS-profile-after-deleting-my-login-account/
+  - /fr/help/usajobs/im-trying-to-sign-in-but-it-doesnt-work/
+  - /fr/help/usajobs/profile-information/
+  - /fr/help/usajobs/relink-my-profile/
+  - /fr/help/usajobs/security-code/
+  - /fr/help/usajobs/what-email-address-do-i-use/
+  - /fr/help/usajobs/what-happens-to-my-profile/
+  - /fr/help/usajobs/cant-sign-in-or-reset-my-password-usajobs-account/
+  - /fr/help/usajobs/how-to-receive-the-security-code/
+  - /fr/help/usajobs/my-usajobs-information-is-not-there/
+  - /fr/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs/
+  - /fr/help/usajobs/try-not-to-use-a-gov-mil-or-edu-email-address/
+  - /fr/help/usajobs/what-email-address-should-i-use/
+  - /fr/help/usajobs/what-will-happen-to-my-usajobs-profile/
 ---
 
 Login.gov est réservé à l'accès au compte et à l'ouverture de session. Ce compte n'affecte pas et ne contient aucune information relative à l'agence spécifique à laquelle vous essayez d'accéder.
