@@ -18,7 +18,7 @@
 #
 backend:
   name: git-gateway
-  branch: ca-LG-4182-help-pages-pass-tests
+  branch: ca-LG-4180-policy-pages
   proxy_url: http://localhost:8081/api/v1
 local_backend: true
 

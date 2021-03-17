@@ -1,6 +1,6 @@
 ---
-title: meta.contact_us.title
 layout: sidenav
+title: Contact us
 permalink: /contact/
 description: meta.contact_us.description
 sidenav: contact_us
