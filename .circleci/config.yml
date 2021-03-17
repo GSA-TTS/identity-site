@@ -83,6 +83,19 @@ jobs:
           name: check optimized images
           command: make lint-assets
 
+  check-javascript-syntax:
+    docker:
+      - image: circleci/ruby:2.6-node-browsers
+    steps:
+      - checkout
+      - install-dependencies
+      - run:
+          name: build javascript
+          command: npm run build-js
+      - run:
+          name: check es5 syntax
+          command: npm run es5-safe
+
   # Running external links as a separate job so we don't fail the build directly
   # but do get the feedback/info
   test-external-links:
@@ -107,6 +120,7 @@ workflows:
       - build
       - eslint
       - check-optimized-assets
+      - check-javascript-syntax
       - test-external-links
       - accessibility
   daily-external-link-checker:
