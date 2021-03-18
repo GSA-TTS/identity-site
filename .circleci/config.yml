@@ -145,6 +145,7 @@ workflows:
             - build
   daily-external-link-checker:
     jobs:
+      - build
       - test-external-links:
           requires:
             - build
