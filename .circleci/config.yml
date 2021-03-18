@@ -50,10 +50,10 @@ jobs:
     docker:
       - image: circleci/ruby:2.6-node-browsers
     steps:
-      - attach_workspace:
-          at: "."
       - checkout
       - install-dependencies
+      - attach_workspace:
+          at: "."
       - run:
           name: run tests
           command: bundle exec rspec spec
@@ -68,10 +68,10 @@ jobs:
     docker:
       - image: circleci/ruby:2.6-node-browsers
     steps:
-      - attach_workspace:
-          at: "."
       - checkout
       - install-dependencies
+      - attach_workspace:
+          at: "."
       - run:
           name: run end-to-end tests
           command: npm test
@@ -80,10 +80,10 @@ jobs:
     docker:
       - image: circleci/ruby:2.6-node-browsers
     steps:
-      - attach_workspace:
-          at: "."
       - checkout
       - install-dependencies
+      - attach_workspace:
+          at: "."
       - run:
           name: run ESLint
           command: make lint-js
@@ -92,10 +92,10 @@ jobs:
     docker:
       - image: circleci/ruby:2.6-node-browsers
     steps:
-      - attach_workspace:
-          at: "."
       - checkout
       - install-dependencies
+      - attach_workspace:
+          at: "."
       - run:
           name: check optimized images
           command: make lint-assets
@@ -104,10 +104,10 @@ jobs:
     docker:
       - image: circleci/ruby:2.6-node-browsers
     steps:
-      - attach_workspace:
-          at: "."
       - checkout
       - install-dependencies
+      - attach_workspace:
+          at: "."
       - run:
           name: check es5 syntax
           command: npm run es5-safe
@@ -118,10 +118,10 @@ jobs:
     docker:
       - image: circleci/ruby:2.6-node-browsers
     steps:
-      - attach_workspace:
-          at: "."
       - checkout
       - install-dependencies
+      - attach_workspace:
+          at: "."
       - run:
           name: Run htmlproofer (external links only)
           command: make htmlproofer_external
