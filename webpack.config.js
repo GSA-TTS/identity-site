@@ -19,7 +19,7 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
     rules: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
+        exclude: /node_modules\/(?!uswds|receptor)/,
         use: ['babel-loader'],
       },
     ],
