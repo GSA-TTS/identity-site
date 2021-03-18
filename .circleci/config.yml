@@ -124,6 +124,7 @@ workflows:
   version: 2
   release:
     jobs:
+      - build
       - test:
           requires:
             - build
