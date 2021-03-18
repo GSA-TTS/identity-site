@@ -51,7 +51,7 @@ jobs:
   test:
     docker:
       - image: circleci/ruby:2.6-node-browsers
-    stpes:
+    steps:
       - attach_workspace:
           at: "."
       - run:
