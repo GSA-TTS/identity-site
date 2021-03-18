@@ -41,6 +41,19 @@ jobs:
       - checkout
       - install-dependencies
       - build-site
+      - persist_to_workspace:
+          root: "."
+          paths:
+            - "_site"
+            - "node_modules"
+            - "vendor"
+
+  test:
+    docker:
+      - image: circleci/ruby:2.6-node-browsers
+    stpes:
+      - attach_workspace:
+          at: "."
       - run:
           name: run tests
           command: bundle exec rspec spec
@@ -55,10 +68,8 @@ jobs:
     docker:
       - image: circleci/ruby:2.6-node-browsers
     steps:
-      - checkout
-      - install-dependencies
-      # It's not necessary to build the site prior to running end-to-end tests, as it's done as a
-      # pre-step of the npm test script.
+      - attach_workspace:
+          at: "."
       - run:
           name: run end-to-end tests
           command: npm test
@@ -67,8 +78,8 @@ jobs:
     docker:
       - image: circleci/ruby:2.6-node-browsers
     steps:
-      - checkout
-      - install-dependencies
+      - attach_workspace:
+          at: "."
       - run:
           name: run ESLint
           command: make lint-js
@@ -77,8 +88,8 @@ jobs:
     docker:
       - image: circleci/ruby:2.6-node-browsers
     steps:
-      - checkout
-      - install-dependencies
+      - attach_workspace:
+          at: "."
       - run:
           name: check optimized images
           command: make lint-assets
@@ -87,11 +98,8 @@ jobs:
     docker:
       - image: circleci/ruby:2.6-node-browsers
     steps:
-      - checkout
-      - install-dependencies
-      - run:
-          name: build javascript
-          command: npm run build-js
+      - attach_workspace:
+          at: "."
       - run:
           name: check es5 syntax
           command: npm run es5-safe
@@ -102,9 +110,8 @@ jobs:
     docker:
       - image: circleci/ruby:2.6-node-browsers
     steps:
-      - checkout
-      - install-dependencies
-      - build-site
+      - attach_workspace:
+          at: "."
       - run:
           name: Run htmlproofer (external links only)
           command: make htmlproofer_external
@@ -117,15 +124,29 @@ workflows:
   version: 2
   release:
     jobs:
-      - build
-      - eslint
-      - check-optimized-assets
-      - check-javascript-syntax
-      - test-external-links
-      - accessibility
+      - test:
+          requires:
+            - build
+      - eslint:
+          requires:
+            - build
+      - check-optimized-assets:
+          requires:
+            - build
+      - check-javascript-syntax:
+          requires:
+            - build
+      - test-external-links:
+          requires:
+            - build
+      - accessibility:
+          requires:
+            - build
   daily-external-link-checker:
     jobs:
-      - test-external-links
+      - test-external-links:
+          requires:
+            - build
     triggers:
       - schedule:
           # Once a day at 12pm
