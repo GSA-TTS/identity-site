@@ -70,8 +70,8 @@ jobs:
     steps:
       - checkout
       - install-dependencies
-      - attach_workspace:
-          at: "."
+      # It's not necessary to build the site prior to running end-to-end tests, as it's done as a
+      # pre-step of the npm test script.
       - run:
           name: run end-to-end tests
           command: npm test
@@ -82,8 +82,6 @@ jobs:
     steps:
       - checkout
       - install-dependencies
-      - attach_workspace:
-          at: "."
       - run:
           name: run ESLint
           command: make lint-js
@@ -94,8 +92,6 @@ jobs:
     steps:
       - checkout
       - install-dependencies
-      - attach_workspace:
-          at: "."
       - run:
           name: check optimized images
           command: make lint-assets
@@ -135,22 +131,16 @@ workflows:
   release:
     jobs:
       - build
+      - eslint
+      - check-optimized-assets
+      - accessibility
       - test:
-          requires:
-            - build
-      - eslint:
-          requires:
-            - build
-      - check-optimized-assets:
           requires:
             - build
       - check-javascript-syntax:
           requires:
             - build
       - test-external-links:
-          requires:
-            - build
-      - accessibility:
           requires:
             - build
   daily-external-link-checker:
