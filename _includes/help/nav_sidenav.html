@@ -1,5 +1,5 @@
 {% include search.html size="small" id="sidenav" %}
-<nav class="margin-y-4 sidenav" aria-label="{% t accessible_labels.secondary_navigation %}">
+<nav class="margin-y-4 sidenav position-sticky pin-top" aria-label="{% t accessible_labels.secondary_navigation %}">
   <ul class="usa-accordion usa-sidenav">
     {% for subpage in site.help_pages %}
     {% assign subpage_slug = subpage | slugify %}
