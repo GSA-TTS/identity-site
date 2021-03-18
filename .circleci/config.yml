@@ -67,11 +67,13 @@ jobs:
   accessibility:
     docker:
       - image: circleci/ruby:2.6-node-browsers
+    environment:
+      SKIP_BUILD: true
     steps:
       - checkout
       - install-dependencies
-      # It's not necessary to build the site prior to running end-to-end tests, as it's done as a
-      # pre-step of the npm test script.
+      - attach_workspace:
+          at: "."
       - run:
           name: run end-to-end tests
           command: npm test
@@ -133,7 +135,6 @@ workflows:
       - build
       - eslint
       - check-optimized-assets
-      - accessibility
       - test:
           requires:
             - build
@@ -141,6 +142,9 @@ workflows:
           requires:
             - build
       - test-external-links:
+          requires:
+            - build
+      - accessibility:
           requires:
             - build
   daily-external-link-checker:
