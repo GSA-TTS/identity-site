@@ -45,8 +45,6 @@ jobs:
           root: "."
           paths:
             - "_site"
-            - "node_modules"
-            - "vendor"
 
   test:
     docker:
@@ -54,6 +52,8 @@ jobs:
     steps:
       - attach_workspace:
           at: "."
+      - checkout
+      - install-dependencies
       - run:
           name: run tests
           command: bundle exec rspec spec
@@ -70,6 +70,8 @@ jobs:
     steps:
       - attach_workspace:
           at: "."
+      - checkout
+      - install-dependencies
       - run:
           name: run end-to-end tests
           command: npm test
@@ -80,6 +82,8 @@ jobs:
     steps:
       - attach_workspace:
           at: "."
+      - checkout
+      - install-dependencies
       - run:
           name: run ESLint
           command: make lint-js
@@ -90,6 +94,8 @@ jobs:
     steps:
       - attach_workspace:
           at: "."
+      - checkout
+      - install-dependencies
       - run:
           name: check optimized images
           command: make lint-assets
@@ -100,6 +106,8 @@ jobs:
     steps:
       - attach_workspace:
           at: "."
+      - checkout
+      - install-dependencies
       - run:
           name: check es5 syntax
           command: npm run es5-safe
@@ -112,6 +120,8 @@ jobs:
     steps:
       - attach_workspace:
           at: "."
+      - checkout
+      - install-dependencies
       - run:
           name: Run htmlproofer (external links only)
           command: make htmlproofer_external
