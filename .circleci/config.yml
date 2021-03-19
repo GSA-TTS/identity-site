@@ -41,6 +41,19 @@ jobs:
       - checkout
       - install-dependencies
       - build-site
+      - persist_to_workspace:
+          root: "."
+          paths:
+            - "_site"
+
+  test:
+    docker:
+      - image: circleci/ruby:2.6-node-browsers
+    steps:
+      - checkout
+      - install-dependencies
+      - attach_workspace:
+          at: "."
       - run:
           name: run tests
           command: bundle exec rspec spec
@@ -54,11 +67,13 @@ jobs:
   accessibility:
     docker:
       - image: circleci/ruby:2.6-node-browsers
+    environment:
+      SKIP_BUILD: true
     steps:
       - checkout
       - install-dependencies
-      # It's not necessary to build the site prior to running end-to-end tests, as it's done as a
-      # pre-step of the npm test script.
+      - attach_workspace:
+          at: "."
       - run:
           name: run end-to-end tests
           command: npm test
@@ -83,6 +98,18 @@ jobs:
           name: check optimized images
           command: make lint-assets
 
+  check-javascript-syntax:
+    docker:
+      - image: circleci/ruby:2.6-node-browsers
+    steps:
+      - checkout
+      - install-dependencies
+      - attach_workspace:
+          at: "."
+      - run:
+          name: check es5 syntax
+          command: npm run es5-safe
+
   # Running external links as a separate job so we don't fail the build directly
   # but do get the feedback/info
   test-external-links:
@@ -91,7 +118,8 @@ jobs:
     steps:
       - checkout
       - install-dependencies
-      - build-site
+      - attach_workspace:
+          at: "."
       - run:
           name: Run htmlproofer (external links only)
           command: make htmlproofer_external
@@ -107,11 +135,24 @@ workflows:
       - build
       - eslint
       - check-optimized-assets
-      - test-external-links
-      - accessibility
+      - test:
+          requires:
+            - build
+      - check-javascript-syntax:
+          requires:
+            - build
+      - test-external-links:
+          requires:
+            - build
+      - accessibility:
+          requires:
+            - build
   daily-external-link-checker:
     jobs:
-      - test-external-links
+      - build
+      - test-external-links:
+          requires:
+            - build
     triggers:
       - schedule:
           # Once a day at 12pm
