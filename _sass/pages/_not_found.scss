@@ -22,17 +22,17 @@ body.not-found {
 
   .site-wrapper-inner {
     display: table-cell;
-    max-width: 600px;
     vertical-align: middle;
   }
 
   .cover-container {
     margin-left: auto;
     margin-right: auto;
+    max-width: 600px;
   }
 
   .inner {
-    padding: 30px;
+    padding: 0 30px;
   }
 
   .cover {
@@ -40,17 +40,21 @@ body.not-found {
   }
 
   .masthead-brand {
-    margin-bottom: 10px;
     margin-top: 10px;
   }
 
   ul {
     padding: 0;
   }
-  
+
   li {
     display: inline;
     margin: 20px;
+  }
+
+  h1 {
+    margin-top: 32px;
+    margin-bottom: 24px;
   }
 
   @media (min-width: 768px) {
@@ -64,9 +68,8 @@ body.not-found {
   }
 
   @media (min-width: 992px) {
-    .cover-container,
-    .masthead {
-      width: 720px;
+    .cover-container {
+      width: 720px;      
     }
   }
 }
