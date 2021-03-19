@@ -1,8 +1,13 @@
 ---
 404_page:
   content:
-    p_1: You might want to double-check your link and try again. (404)
-  heading: The page you were looking for doesn’t exist.
+    p_1: Here are some links that might be helpful
+  heading: This page is no longer available.
+  links:
+    - title: Home
+      url: /
+    - title: Help Center
+      url: /help/
 accessible_labels:
   secondary_navigation: Secondary navigation
 actions:

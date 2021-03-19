@@ -22,7 +22,8 @@ body.not-found {
 
   .site-wrapper-inner {
     display: table-cell;
-    vertical-align: top;
+    max-width: 600px;
+    vertical-align: middle;
   }
 
   .cover-container {
@@ -43,12 +44,16 @@ body.not-found {
     margin-top: 10px;
   }
 
-  @media (min-width: 768px) {
-    .masthead {
-      position: fixed;
-      top: 0;
-    }
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin: 20px;
+  }
 
+  @media (min-width: 768px) {
     .site-wrapper-inner {
       vertical-align: middle;
     }
