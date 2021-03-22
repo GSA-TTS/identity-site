@@ -1,7 +1,7 @@
 ---
 404_page:
   content:
-    p_1: Here are some links that might be helpful
+    p_1: 'Here are some links that might be helpful:'
   heading: This page is no longer available.
   links:
     - title: Home
