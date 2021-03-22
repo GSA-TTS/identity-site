@@ -18,7 +18,7 @@ body.not-found {
 
   .site-wrapper-inner {
     display: table-cell;
-    vertical-align: top;
+    vertical-align: middle;
   }
 
   .cover-container {
@@ -53,10 +53,6 @@ body.not-found {
   }
 
   @media (min-width: 768px) {
-    .site-wrapper-inner {
-      vertical-align: middle;
-    }
-
     .cover-container {
       width: 100%;
     }
