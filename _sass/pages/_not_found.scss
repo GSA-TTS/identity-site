@@ -15,15 +15,9 @@ body.not-found {
   }
 
   .site-wrapper {
-    display: table;
-    height: 100%;
-    min-height: 100%;
-    width: 100%;
-  }
-
-  .site-wrapper-inner {
-    display: table-cell;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
   }
 
   .cover-container {
