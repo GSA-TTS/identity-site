@@ -2,7 +2,8 @@ body.not-found {
   background-color: #112e51;
   color: #fff;
   text-align: center;
-  display: grid;
+  display: flex;
+  justify-content: center;
 
   a,
   a:focus,
