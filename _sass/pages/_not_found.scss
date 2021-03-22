@@ -2,8 +2,6 @@ body.not-found {
   background-color: #112e51;
   color: #fff;
   text-align: center;
-  display: flex;
-  justify-content: center;
 
   a,
   a:focus,
@@ -12,9 +10,15 @@ body.not-found {
   }
 
   .site-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: table;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+  }
+
+  .site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
   }
 
   .cover-container {
