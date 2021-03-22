@@ -1,8 +1,13 @@
 ---
 404_page:
   content:
-    p_1: Es posible que desee comprobar su enlace e intentar nuevamente. (404)
-  heading: La página que buscaba no existe.
+    p_1: 'En su lugar, aquí hay algunos enlaces que pueden ser útiles:'
+  heading: Esta página ya no está disponible
+  links:
+    - title: Inicio
+      url: /
+    - title: Centro de ayuda
+      url: /help/
 accessible_labels:
   secondary_navigation: Navegación secundaria
 actions:

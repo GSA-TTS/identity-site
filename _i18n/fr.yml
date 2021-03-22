@@ -1,9 +1,13 @@
 ---
 404_page:
   content:
-    p_1: Nous vous recommandons de revérifier votre lien et d'essayer de nouveau.
-      (404)
-  heading: La page que vous recherchez n'existe pas.
+    p_1: 'Voici plutôt quelques liens qui pourraient vous être utiles:'
+  heading: Cette page n'est plus disponible
+  links:
+    - title: Accueil
+      url: /
+    - title: Centre d'aide
+      url: /help/
 accessible_labels:
   secondary_navigation: Navigation secondaire
 actions:
