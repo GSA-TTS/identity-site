@@ -1,9 +1,8 @@
 ---
 layout: sidenav
-title: meta.privacy_security_policy.security.title
-description: meta.privacy_security_policy.security.description
+title: 'Privacy & security: Our security practices'
+description: 'Learn the various methods we use to protect this U.S. government service and your data, and to ensure the service remains available to all users.'
 permalink: /policy/our-security-practices/
-redirect_from: /security/
 index: 3
 sidenav: policies
 redirect_from:
@@ -20,4 +19,18 @@ redirect_from:
 - /security/
 ---
 
-{{ site.data[page.lang].settings["policies"]["sections"][page.index]["content"] | replace: "site.baseurl", site.baseurl | markdownify }}
+## Our security practices ## {#our-security-practices}
+
+login.gov uses a variety of authentication methods to protect this U.S. government service and your data, and to ensure the service remains available to all users. These methods include monitoring and recording network traffic (any data going in and out of login.gov) to identify unauthorized attempts to change information, or otherwise cause damage.
+
+Unauthorized access or use of login.gov (e.g. use for criminal purposes, or to cause damage, etc.) is against the law, and may subject you to criminal prosecution and penalties.
+
+### Vulnerability disclosure policy ### {#vdp}
+
+login.gov authorizes the outside security community to perform security research for the intent of reporting discovered security vulnerabilities in the login.gov platform.
+
+View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-disclosure-policy/) for details on this policy and how to report discovered vulnerabilities.
+
+### For more information ### {#more-info}
+
+We are happy to answer questions about our security and privacy practices. For more information, please visit [help](site.baseurl/help/) or [contact us](site.baseurl/contact/).
