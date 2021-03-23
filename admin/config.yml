@@ -49,7 +49,7 @@ collections:
     create: true
     summary: '{{category}} > {{title}} ({{filename}}.{{extension}})'
     path: 'help/{{category}}/{{slug}}'
-    filter: {field: 'layout', value: 'help'}
+    filter: { field: 'layout', value: 'help' }
     view_groups:
       - label: Help Topic
         field: category
@@ -96,9 +96,9 @@ collections:
     i18n: true
     create: true
     path: 'landing/{{slug}}'
-    filter: {field: 'layout', value: 'main'}
+    filter: { field: 'layout', value: 'main' }
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'main', i18n: duplicate }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'main' }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
   - label: Policy pages
@@ -108,8 +108,27 @@ collections:
     i18n: true
     create: true
     path: 'policy/{{slug}}'
-    filter: {field: 'layout', value: 'sidenav'}
+    summary: '{{title}} ({{filename}}.{{extension}})'
+    filter: { field: 'layout', value: 'sidenav' }
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav', i18n: duplicate }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav' }
+      - {
+          label: 'Page type',
+          name: 'sidenav',
+          widget: 'hidden',
+          default: 'policies',
+          i18n: duplicate,
+        }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
+      - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
+      - { label: 'Order', name: 'index', widget: 'number', i18n: duplicate }
+      - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false }
+      - {
+          label: 'Redirect to',
+          name: 'redirect_to',
+          widget: 'string',
+          required: false,
+          i18n: duplicate,
+        }
