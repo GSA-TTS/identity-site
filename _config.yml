@@ -9,7 +9,7 @@ languages:
   - es
   - fr
 
-exclude_from_localizations: ["javascript", "images", "css"]
+exclude_from_localizations: ['javascript', 'images', 'css']
 
 # Contact form production values (overridden in Federalist for preview branches)
 contact_form_captcha_enabled: true
@@ -57,26 +57,30 @@ kramdown:
 
 # Defaults
 defaults:
-- scope:
-    path: "content/*/help"
-  values:
-    layout: help
-- scope:
-    path: "content/*/landing"
-  values:
-    layout: main
-- scope:
-    path: "content/_en"
-  values:
-    lang: en
-- scope:
-    path: "content/_es"
-  values:
-    lang: es
-- scope:
-    path: "content/_fr"
-  values:
-    lang: fr
+  - scope:
+      path: 'content/*/help'
+    values:
+      layout: help
+  - scope:
+      path: 'content/*/landing'
+    values:
+      layout: main
+  - scope:
+      path: 'content/*/policy'
+    values:
+      layout: sidenav
+  - scope:
+      path: 'content/_en'
+    values:
+      lang: en
+  - scope:
+      path: 'content/_es'
+    values:
+      lang: es
+  - scope:
+      path: 'content/_fr'
+    values:
+      lang: fr
 
 include:
   # dotfiles are excluded by default
@@ -102,11 +106,11 @@ plugins:
   - jekyll-autoprefixer
 
 help_pages:
-- get-started
-- trouble-signing-in
-- manage-your-account
-- specific-agencies
-- verify-your-identity
+  - get-started
+  - trouble-signing-in
+  - manage-your-account
+  - specific-agencies
+  - verify-your-identity
 
 baseurl:
 
