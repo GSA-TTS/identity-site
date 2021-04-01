@@ -1060,7 +1060,7 @@ policies:
 
         Il peut y avoir des circonstances dans lesquelles nous sommes tenus de partager certaines données. Par exemple: si les informations sont pertinentes et nécessaires à des fins d'application de la loi autorisées; afin de répondre à une violation; ou pour aider une autre agence à réagir à une violation. Pour de plus amples informations, voir le système de notification numéro GSA / TTS-1 que le service de transformation technologique (TTS) de GSA a publié le [10 août 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
-        Même lorsque nous partageons les informations avec les forces de l'ordre, nous ne pouvons pas accéder aux informations personnelles car les informations sont cryptées de manière à ne pas être récupérées par l'équipe login.gov.
+        Même lorsque nous partageons les informations avec les forces de l'ordre, à l'exception des courriels, nous ne pouvons pas accéder aux informations personnelles car les informations sont cryptées de manière à ne pas être récupérées par l'équipe login.gov.
 
         ### Consentement - Comment contrôler quelles informations sont partagées? ### {#consent}
 

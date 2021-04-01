@@ -1014,7 +1014,7 @@ policies:
 
         Puede haber circunstancias en las que se nos solicite compartir ciertos datos. Por ejemplo: si la información es relevante y necesaria para un propósito policial autorizado; para responder a una infracción; o para ayudar a otra agencia a responder a una infracción. Para obtener información adicional, consulte el sistema de notificación de registro número GSA / TTS-1 que el Servicio de Transformación de Tecnología (TTS) de GSA publicó el [10 de agosto de 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
-        Incluso cuando compartimos la información con las fuerzas del orden, no podemos acceder a la PII porque la información está encriptada de una manera que el equipo de login.gov no puede recuperar.
+        Incluso cuando compartimos la información con las fuerzas del orden, a excepción del correo electrónico, no podemos acceder a la IIP porque dicha información está codificada de forma irrecuperable para el equipo de login.gov. 
 
         ### Consentimiento - ¿Cómo puedes controlar qué información se comparte? ### {#consent}
 
