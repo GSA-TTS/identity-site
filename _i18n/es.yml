@@ -1018,7 +1018,7 @@ policies:
 
         ### Consentimiento - ¿Cómo puedes controlar qué información se comparte? ### {#consent}
 
-        Tú decides qué información darnos y puedes revocar el consentimiento en cualquier momento. Compartir su información es voluntario.
+        Tú decides qué información darnos y puedes revocar el consentimiento en cualquier momento. Compartir su información es voluntario. Todos los registros se almacenan electrónicamente en una base de datos en el entorno de Amazon Web Services (AWS) de la GSA. Puede modificar o corregir su dirección de correo electrónico o su número de teléfono en la [cuenta de su página](https://secure.login.gov/account).
 
         Sin embargo, no proporcionar información completa y precisa puede retrasar el acceso a la agencia asociada. Login.gov no toma ninguna determinación de elegibilidad o idoneidad; eso es responsabilidad de los sitios web del gobierno que utilizan el servicio login.gov.
 
