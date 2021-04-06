@@ -3,8 +3,8 @@ layout: sidenav
 sidenav: contact_us
 ---
 
-{{ content }}
+{{ page.intro_content | markdownify }}
 
 <div class="desktop:grid-col-9">{% include contact_form.html %}</div>
 
-<footer class="page-content__footer">{{ page.post_form_content | markdownify }}</footer>
+<footer class="page-content__footer">{{ page.footer_content | markdownify }}</footer>
