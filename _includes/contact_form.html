@@ -458,24 +458,26 @@
   </div>
   <!-- END: Description -->
 
-  <!-- START: reCAPTCHA -->
-  <div
-    class="g-recaptcha margin-top-4"
-    data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"
-    data-callback="clearCaptchaError"
-  ></div>
-  <input
-    type="hidden"
-    name="captcha_settings"
-    value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"{{ site.contact_form_orgid }}","ts":""}'
-  />
-  <div
-    id="captcha-error-message"
-    class="usa-error-message margin-bottom-4"
-    role="alert"
-    data-error="{% t contact_page.support_request_form.errors.captcha_required %}"
-  ></div>
-  <!-- END: reCAPTCHA -->
+  {% if site.contact_form_captcha_enabled %}
+    <!-- START: reCAPTCHA -->
+    <div
+      class="g-recaptcha margin-top-4"
+      data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"
+      data-callback="clearCaptchaError"
+    ></div>
+    <input
+      type="hidden"
+      name="captcha_settings"
+      value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"{{ site.contact_form_orgid }}","ts":""}'
+    />
+    <div
+      id="captcha-error-message"
+      class="usa-error-message margin-bottom-4"
+      role="alert"
+      data-error="{% t contact_page.support_request_form.errors.captcha_required %}"
+    ></div>
+    <!-- END: reCAPTCHA -->
+  {% endif %}
 
   <!-- START: Form Actions -->
   <div class="form-actions">
