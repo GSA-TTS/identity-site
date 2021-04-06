@@ -18,11 +18,11 @@
 #
 backend:
   name: git-gateway
-  branch: ca-LG-4182-help-pages-pass-tests
+  branch: ca-LG-4180-policy-pages
   proxy_url: http://localhost:8081/api/v1
 local_backend: true
 
-media_folder: assets/img
+media_folder: assets/img/
 public_folder: '/img/uploads'
 publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
@@ -38,7 +38,9 @@ i18n:
   default_locale: _en
 
 editor:
-  preview: false
+  preview: true
+
+display_url: https://login.gov
 
 collections:
   - label: Help articles
@@ -47,12 +49,10 @@ collections:
     folder: content/
     i18n: true
     create: true
-    summary: '{{category}} > {{title}} ({{filename}}.{{extension}})'
     path: 'help/{{category}}/{{slug}}'
+    summary: '{{title}} ({{category}}/{{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'help' }
-    view_groups:
-      - label: Help Topic
-        field: category
+    sortable_fields: ['category', 'commit_date', 'title', 'commit_author']
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'help' }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
@@ -96,7 +96,9 @@ collections:
     i18n: true
     create: true
     path: 'landing/{{slug}}'
+    summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'main' }
+    sortable_fields: ['commit_date', 'title', 'commit_author']
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'main' }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
@@ -110,25 +112,53 @@ collections:
     path: 'policy/{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'sidenav' }
+    sortable_fields: ['commit_date', 'title', 'commit_author']
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav' }
       - {
           label: 'Page type',
           name: 'sidenav',
-          widget: 'hidden',
+          widget: 'select',
           default: 'policies',
+          options: ['policies', 'accessibility', 'contact_us'],
           i18n: duplicate,
         }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
       - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
+      - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
+      - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
       - { label: 'Order', name: 'index', widget: 'number', i18n: duplicate }
-      - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false }
+  - label: Contact us
+    name: contact
+    folder: content/
+    i18n: true
+    path: 'policy/{{slug}}'
+    summary: '{{title}} ({{filename}}.{{extension}})'
+    filter: { field: 'layout', value: 'contact_us' }
+    sortable_fields: ['commit_date', 'title', 'commit_author']
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav' }
       - {
-          label: 'Redirect to',
-          name: 'redirect_to',
-          widget: 'string',
-          required: false,
+          label: 'Page type',
+          name: 'sidenav',
+          widget: 'hidden',
+          default: 'contact_us',
           i18n: duplicate,
         }
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
+      - { label: 'Description', name: 'description', widget: 'string', i18n: true }
+      - { label: 'Intro', name: 'intro_content', widget: 'markdown', i18n: true }
+      - { label: 'Footer', name: 'footer_content', widget: 'markdown', i18n: true }
+      - {
+          label: 'Scripts',
+          name: 'scripts',
+          widget: 'file',
+          allow_multiple: true,
+          default: '/assets/js/build/contact.js',
+          i18n: duplicate,
+        }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
+      - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
+      - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
