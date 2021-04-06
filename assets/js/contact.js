@@ -1,4 +1,9 @@
 function bindCaptchaValidation() {
+  const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
+  if (debug && +debug.value) {
+    return;
+  }
+
   const form = document.getElementById('contact-us-form');
   const error = document.getElementById('captcha-error-message');
 
