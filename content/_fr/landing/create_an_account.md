@@ -1,5 +1,5 @@
 ---
-title: meta.create-an-account.title
+title: Créer un compte
 description: meta.create-an-account.description
 permalink: /fr/create-an-account/
 twitter_card: large

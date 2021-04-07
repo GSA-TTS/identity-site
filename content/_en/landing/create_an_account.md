@@ -1,6 +1,6 @@
 ---
 layout: main
-title: meta.create-an-account.title
+title: Create an account
 description: meta.create-an-account.description
 permalink: /create-an-account/
 twitter_card: large

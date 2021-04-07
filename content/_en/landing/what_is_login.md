@@ -1,6 +1,6 @@
 ---
 layout: main
-title: meta.what-is-login.title
+title: What is login.gov?
 description: meta.what-is-login.description
 permalink: /what-is-login/
 twitter_card: large

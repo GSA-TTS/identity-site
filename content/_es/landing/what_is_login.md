@@ -1,5 +1,5 @@
 ---
-title: meta.what-is-login.title
+title: ¿Qué es login.gov?
 description: meta.what-is-login.description
 permalink: /es/what-is-login/
 twitter_card: large
