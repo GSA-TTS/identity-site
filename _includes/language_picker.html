@@ -22,13 +22,24 @@
     class="{% if include.dropdown %}dropdown{% endif %} language-list">
   {% for locale in site.languages %}
     <li>
-    {% if locale == 'en' %}
-      {% assign locale_url = page.url | prepend: site.baseurl %}
-    {% elsif page.lang != 'en' and locale == page.lang %}
-      {% assign locale_url = page.url %}
+    {% if page.lang == 'en' %}
+      {% if locale == 'en' %}
+        {% assign locale_url = page.url %}
+      {% elsif locale == page.lang %}
+        {% assign locale_url = page.url %}
+      {% else %}
+        {% assign locale_url = page.url | prepend: locale | prepend: '/' %}
+      {% endif %}
     {% else %}
-      {% assign locale_url = locale | prepend: '/' | prepend: site.baseurl %}
+      {% if locale == 'en' %}
+        {% assign locale_url = page.url | remove_first: 'es/' | remove_first: 'fr/' %}
+      {% elsif locale == page.lang %}
+        {% assign locale_url = page.url %}
+      {% else %}
+        {% assign locale_url = page.url | replace_first: page.lang, locale %}
+      {% endif %}
     {% endif %}
+
       <a href="{{ locale_url }}" class="text-no-underline">{{ site.data.[locale].settings.global.locales[locale] }}</a>
     </li>
   {% endfor %}
