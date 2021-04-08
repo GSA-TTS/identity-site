@@ -31,8 +31,10 @@
         {% assign locale_url = page.url | prepend: locale | prepend: '/' %}
       {% endif %}
     {% else %}
-      {% if locale == 'en' %}
-        {% assign locale_url = page.url | remove_first: 'es/' | remove_first: 'fr/' %}
+      {% if locale == 'en' and page.lang == 'es' %}
+        {% assign locale_url = page.url | remove_first: 'es/' %}
+      {% elsif locale == 'en' and page.lang == 'fr' %}
+        {% assign locale_url = page.url | remove_first: 'fr/' %}
       {% elsif locale == page.lang %}
         {% assign locale_url = page.url %}
       {% else %}
