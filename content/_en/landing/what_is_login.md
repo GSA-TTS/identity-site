@@ -25,7 +25,7 @@ component:
     * And more…
 
 
-    Login.gov is your one account for government. [Learn more about creating an account](http://localhost:4000/what-is-login/site.baseurl/create-an-account/).
+    Login.gov is your one account for government. [Learn more about creating an account](https://login.gov/create-an-account/).
 
 
     Already have an account? [Sign in to manage your account and update your personal information or security options](https://secure.login.gov/).
@@ -33,7 +33,7 @@ component:
     ## Secure and private access for the public
 
 
-    Login.gov uses [the highest standards of security](http://localhost:4000/what-is-login/site.baseurl/security/) to keep your information safe including identity verification and [two-factor authentication](http://localhost:4000/what-is-login/site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/).
+    Login.gov uses [the highest standards of security](https://login.gov/security/) to keep your information safe including identity verification and [two-factor authentication](https://login.gov/help/authentication-methods/which-authentication-method-should-i-use/).
 
 
     Login.gov is provided by [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).

@@ -1,4 +1,8 @@
 <article class="container {{ include.class }} page-content__prose">
-  <div class="one-account page-content__prose">{{ include.col1 | markdownify }}</div>
-  <div class="secure-account page-content__prose">{{ include.col2 | markdownify }}</div>
+  <div class="one-account page-content__prose">
+    {{ include.col1 | prepend: site.baseurl | markdownify }}
+  </div>
+  <div class="secure-account page-content__prose">
+    {{ include.col2 | prepend: site.baseurl | markdownify }}
+  </div>
 </article>
