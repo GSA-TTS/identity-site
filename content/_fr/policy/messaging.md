@@ -14,8 +14,8 @@ login.gov utilise la messagerie texte SMS pour vous aider à vérifier votre ide
 * login.gov fournit un service d'authentification et n'utilisera pas la messagerie texte ou vocale à d'autres fins.
 * Les tarifs de messagerie et de données de votre opérateur peuvent s'appliquer.
 * Les messages ne seront envoyés que dans le cadre de la configuration et de la connexion à votre compte login.gov.
-* Vous pouvez [contacter le service client ici](site.baseurl/contact/) ou par e-mail à [hello@login.gov](mailto:hello@login.gov).
+* Vous pouvez [contacter le service client ici](/fr/contact/) ou par e-mail à [hello@login.gov](mailto:hello@login.gov).
 * Pour refuser de recevoir des messages texte de login.gov, répondez avec le message STOP au message texte indésirable.
-* Voir [Notre déclaration de confidentialité](site.baseurl/policy/our-privacy-act-statement/) pour obtenir des informations sur la politique de confidentialité.
+* Voir [Notre déclaration de confidentialité](/fr/policy/our-privacy-act-statement/) pour obtenir des informations sur la politique de confidentialité.
 * Les transporteurs ne sont pas responsables des messages retardés ou non livrés.
 principles_page:

@@ -7,9 +7,9 @@ title: Create your login.gov account
 
 Login.gov is the public's one account and password for government. Login.gov is a shared service and trusted by government agencies. With one login.gov account you can access applications from participating government partners.
 
-- [Create your login.gov account](site.baseurl/help/get-started/create-your-account/)
-- [Learn about authentication options](site.baseurl/help/get-started/authentication-options/)
-- [Why you are being asked to use login.gov](site.baseurl/what-is-login)
+- [Create your login.gov account](/help/get-started/create-your-account/)
+- [Learn about authentication options](/help/get-started/authentication-options/)
+- [Why you are being asked to use login.gov](/what-is-login)
   {: .help-question-list}
   create-your-account: |-
   Follow these steps to create your login.gov account.
@@ -47,7 +47,7 @@ Login.gov is the public's one account and password for government. Login.gov is 
    - Phone call
    - Backup codes
 
-   [Learn more about each authentication option](site.baseurl/help/get-started/authentication-options) to choose the one that is right for you.
+   [Learn more about each authentication option](/help/get-started/authentication-options) to choose the one that is right for you.
 
 1. Success! Once you have authenticated, you have created your login.gov account.{: .number-list}
 
@@ -55,5 +55,5 @@ You will be taken to your login.gov account page or the government agency you ar
 
 ## Related articles
 
-- [Authentication options](site.baseurl/help/get-started/authentication-options)
-- [Manage your account](site.baseurl/help/manage-your-account/overview)
+- [Authentication options](/help/get-started/authentication-options)
+- [Manage your account](/help/manage-your-account/overview)

@@ -24,5 +24,5 @@ Suivez ces étapes pour vous connecter à login.gov.
 {: .number-list}
 
 ## Articles connexes
-* [Options d'authentification](site.baseurl/help/get-started/authentication-options/)
-* [Vérifiez votre identité](site.baseurl/help/verify-your-identity/how-to-verify-your-identity/)
+* [Options d'authentification](/fr/help/get-started/authentication-options/)
+* [Vérifiez votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)

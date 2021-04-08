@@ -31,4 +31,4 @@ The information that you submit is used to create or update your login.gov accou
 
 Protecting your information is our priority. You can read below for a more detailed explanation of our privacy and security practices.
 
-You can read more detailed explanations about [how login.gov works](site.baseurl/policy/how-does-it-work/), [our privacy act statement](site.baseurl/policy/our-privacy-act-statement/), and [our security practices](site.baseurl/policy/our-security-practices/).
+You can read more detailed explanations about [how login.gov works](/policy/how-does-it-work/), [our privacy act statement](/policy/our-privacy-act-statement/), and [our security practices](/policy/our-security-practices/).

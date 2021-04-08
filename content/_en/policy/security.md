@@ -33,4 +33,4 @@ View our [Vulnerability Disclosure Policy](https://18f.gsa.gov/vulnerability-dis
 
 ### For more information ### {#more-info}
 
-We are happy to answer questions about our security and privacy practices. For more information, please visit [help](site.baseurl/help/) or [contact us](site.baseurl/contact/).
+We are happy to answer questions about our security and privacy practices. For more information, please visit [help](/help/) or [contact us](/contact/).

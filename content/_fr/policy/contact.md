@@ -14,10 +14,10 @@ intro_content: |-
 
   Si vous avez besoin d’aide pour votre compte login.gov, consultez les articles de notre centre d’aide pour obtenir de l’aide sur des questions courantes.
 
-  * [Je ne peux pas me connecter à mon compte](site.baseurl/help/trouble-signing-in/overview)
-  * [J’ai besoin d’aide pour vérifier mon identité](site.baseurl/help/verify-your-identity/overview)
-  * [Je dois modifier mes informations ou gérer mon compte](site.baseurl/help/manage-your-account/overview)
-  * [Parcourir d’autres articles d’aide](site.baseurl/help)
+  * [Je ne peux pas me connecter à mon compte](/fr/help/trouble-signing-in/overview)
+  * [J’ai besoin d’aide pour vérifier mon identité](/fr/help/verify-your-identity/overview)
+  * [Je dois modifier mes informations ou gérer mon compte](/fr/help/manage-your-account/overview)
+  * [Parcourir d’autres articles d’aide](/fr/help)
   {: .help-question-list}
 
   ## Avez-vous une question concernant votre compte d’agence?

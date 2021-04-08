@@ -28,6 +28,6 @@ Manage your account settings including your password, phone number, email, and m
 
 ## Common troubleshooting topics
 
-- [Change your password](site.baseurl/help/manage-your-account/change-your-password/)
-- [Delete your login.gov account](site.baseurl/help/manage-your-account/delete-your-account/)
+- [Change your password](/help/manage-your-account/change-your-password/)
+- [Delete your login.gov account](/help/manage-your-account/delete-your-account/)
 {: .help-question-list}

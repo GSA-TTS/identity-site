@@ -14,10 +14,10 @@ intro_content: |-
 
   Si necesita ayuda con su cuenta de login.gov, consulte los artículos de nuestro centro de ayuda para obtener asistencia sobre problemas comunes.
 
-  * [No puedo iniciar sesión en mi cuenta](site.baseurl/help/trouble-signing-in/overview)
-  * [Necesito ayuda para verificar mi identidad](site.baseurl/help/verify-your-identity/overview)
-  * [Necesito cambiar mi información o administrar mi cuenta](site.baseurl/help/manage-your-account/overview)
-  * [Explorar más artículos de ayuda](site.baseurl/help)
+  * [No puedo iniciar sesión en mi cuenta](/es/help/trouble-signing-in/overview)
+  * [Necesito ayuda para verificar mi identidad](/es/help/verify-your-identity/overview)
+  * [Necesito cambiar mi información o administrar mi cuenta](/es/help/manage-your-account/overview)
+  * [Explorar más artículos de ayuda](/es/help)
   {: .help-question-list}
 
   ## ¿Tiene alguna pregunta sobre la cuenta de su agencia?

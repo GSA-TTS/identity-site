@@ -15,7 +15,7 @@ login.gov uses SMS text messaging to help verify your identity when you create a
 * login.gov provides an authentication service and will not use text or voice messaging for any other purpose.
 * Your carriers messaging and data rates may apply.
 * Messages will only be sent as part of setting up and signing into your login.gov account.
-* You may [contact customer care here](site.baseurl/contact/) or by email at [hello@login.gov](mailto:hello@login.gov).
+* You may [contact customer care here](/contact/) or by email at [hello@login.gov](mailto:hello@login.gov).
 * To opt out of receiving text messages from login.gov reply with the message STOP to the unwanted text message.
-* See [Our privacy act statement](site.baseurl/policy/our-privacy-act-statement/) for privacy policy information.
+* See [Our privacy act statement](/policy/our-privacy-act-statement/) for privacy policy information.
 * Carriers are not liable for delayed or undelivered messages.

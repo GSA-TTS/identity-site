@@ -25,5 +25,5 @@ Follow these steps to sign in to login.gov.
 {: .number-list}
 
 ## Related articles
-* [Authentication options](site.baseurl/help/get-started/authentication-options/)
-* [Verify your identity](site.baseurl/help/verify-your-identity/)
+* [Authentication options](/help/get-started/authentication-options/)
+* [Verify your identity](/help/verify-your-identity/)

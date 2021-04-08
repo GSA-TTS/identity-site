@@ -22,4 +22,4 @@ Consulte nuestra [Política de divulgación de vulnerabilidades](https://18f.gsa
 
 ### Para obtener más información ### {#more-info}
 
-Nos complace responder preguntas sobre nuestras prácticas de seguridad y privacidad. Para obtener más información, visite [ayuda](site.baseurl/help/) o [contáctenos](site.baseurl/contact/).
+Nos complace responder preguntas sobre nuestras prácticas de seguridad y privacidad. Para obtener más información, visite [ayuda](/es/help/) o [contáctenos](/es/contact/).

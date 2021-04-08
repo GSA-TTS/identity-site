@@ -19,7 +19,7 @@ You will need to verify your identity and secure your account.
 If you are missing any of this information, please contact the government agency you are trying to access.
 
 ## Our privacy and security standards
-Login.gov is a secure, government website that adheres to the highest standards in data protection. Most of the data you submit is not stored. Learn how we verify your identity and the [privacy and security measures](site.baseurl/policy) we take to keep your information safe.
+Login.gov is a secure, government website that adheres to the highest standards in data protection. Most of the data you submit is not stored. Learn how we verify your identity and the [privacy and security measures](/policy) we take to keep your information safe.
 
 ## Steps for identity verification and securing your account
 1. On the “We need to verify your identity” page, read the requirements and, if you agree, check the box next to the login.gov consent statement.
