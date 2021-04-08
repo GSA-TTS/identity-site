@@ -3,14 +3,20 @@ layout: base
 ---
 <header>
   {% if site.demo_banner %}
-    {% include wip.html %}
+  {% include wip.html %}
   {% endif %}
   {% include skip_nav.html %}
   {% include banner.html %}
   {% include header.html %}
 </header>
-<main id="main-content">{{ content }}</main>
+<main id="main-content">
+  {% include hero.html class=page.component.class heading=page.title text=page.description %}
+
+  {% if page.component.class == 'what-is-login' %}
+  {% include components/2-col.html class=page.component.class col1=page.component.col1 col2=page.component.col2 %}
+  {% endif %}
+</main>
 {% if page.one_account_banner == true %}
-  {% include one_account_banner.html %}
+{% include one_account_banner.html %}
 {% endif %}
 {% include footer.html %}

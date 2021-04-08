@@ -1,27 +1,43 @@
 ---
 layout: main
 title: What is login.gov?
-description: meta.what-is-login.description
+description: Accessing government agencies should be simple — and secure.
+component:
+  class: what-is-login
+  col1: >-
+    ## One account and password
+
+
+    Login.gov is a shared service, used by the public, and trusted by government agencies. With one login.gov account, you eliminate the need to remember different passwords for each agency and streamline your sign in process.
+
+
+    ### Login.gov is trusted by
+
+
+    * Department of Defense
+
+    * Small Business Administration
+
+    * Trusted Traveler Programs (Department of Homeland Security)
+
+    * USAJOBS (Office of Personnel Management)
+
+    * And more…
+
+
+    Login.gov is your one account for government. [Learn more about creating an account](http://localhost:4000/what-is-login/site.baseurl/create-an-account/).
+
+
+    Already have an account? [Sign in to manage your account and update your personal information or security options](https://secure.login.gov/).
+  col2: >-
+    ## Secure and private access for the public
+
+
+    Login.gov uses [the highest standards of security](http://localhost:4000/what-is-login/site.baseurl/security/) to keep your information safe including identity verification and [two-factor authentication](http://localhost:4000/what-is-login/site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/).
+
+
+    Login.gov is provided by [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
 permalink: /what-is-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
 ---
-
-{% capture heading %}
-{{ site.data[page.lang].settings.what-is-login-page.hero.heading }}
-{% endcapture %}
-
-{% capture text %}
-{{ site.data[page.lang].settings.what-is-login-page.hero.text }}
-{% endcapture %}
-
-{% include hero.html class="what-is-login" heading=heading text=text %}
-
-  <article class="container what-is-login page-content__prose">
-    <div class="one-account page-content__prose">
-      {{ site.data[page.lang].settings["what-is-login-page"]["one-account"] | replace: 'site.baseurl', site.baseurl | markdownify }}
-    </div>
-    <div class="secure-account page-content__prose">
-      {{ site.data[page.lang].settings["what-is-login-page"]["secure-account"] | replace: 'site.baseurl', site.baseurl | markdownify }}
-    </div>
-  </article>
