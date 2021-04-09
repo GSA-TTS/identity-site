@@ -10,7 +10,7 @@ with name/url pairs. The url value can be a relative url or hash anchor link (#)
 sections: - name: Our commitment to your privacy and security url: /policy/ - name: Another link
 url: /policy/#another-policy-link The page.sidenav value will be passed to the sidenav for loop
 below. Note: This does not apply to Help pages, which is far more complex. {% endcomment %}
-{%capture sidenav %}
+{% capture sidenav %}
   {% if page.sidenav %}
   <nav aria-label="{{ site.data[page.lang].settings.accessible_labels.secondary_navigation }}" class="position-sticky pin-top">
     <ul class="usa-sidenav">
