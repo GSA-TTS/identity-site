@@ -1,7 +1,10 @@
 body.not-found {
-  background-color: #112e51;
   color: #fff;
   text-align: center;
+
+  main {
+    background-color: #112e51;
+  }
 
   a,
   a:focus,
@@ -60,7 +63,7 @@ body.not-found {
 
   @media (min-width: 992px) {
     .cover-container {
-      width: 720px;      
+      width: 720px;
     }
   }
 }

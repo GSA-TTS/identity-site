@@ -9,7 +9,7 @@ languages:
   - es
   - fr
 
-exclude_from_localizations: ["javascript", "images", "css"]
+exclude_from_localizations: ['javascript', 'images', 'css']
 
 # Contact form production values (overridden in Federalist for preview branches)
 contact_form_captcha_enabled: true
@@ -17,13 +17,20 @@ contact_form_action: "https://webto.salesforce.com/servlet/servlet.WebToCase?enc
 contact_form_orgid: "00DU0000000Leux"
 
 # Pages
+collections_dir: content
 collections:
   help:
     output: true
-    permalink: /:collection/:path/
-  pages:
+    # permalink: /:collection/:path/
+  en:
     output: true
     permalink: /:path/
+  es:
+    output: true
+    permalink: /:collection/:path/
+  fr:
+    output: true
+    permalink: /:collection/:path/
 
 # Scripts
 scripts:
@@ -50,14 +57,30 @@ kramdown:
 
 # Defaults
 defaults:
-- scope:
-    path: "_help"
-  values:
-    layout: help
-- scope:
-    path: ""
-  values:
-    layout: main
+  - scope:
+      path: 'content/*/help'
+    values:
+      layout: help
+  - scope:
+      path: 'content/*/landing'
+    values:
+      layout: landing
+  - scope:
+      path: 'content/*/policy'
+    values:
+      layout: sidenav
+  - scope:
+      path: 'content/_en'
+    values:
+      lang: en
+  - scope:
+      path: 'content/_es'
+    values:
+      lang: es
+  - scope:
+      path: 'content/_fr'
+    values:
+      lang: fr
 
 include:
   # dotfiles are excluded by default
@@ -79,16 +102,15 @@ keep_files:
 
 plugins:
   - jekyll-redirect-from
-  - jekyll-multiple-languages-plugin
   - jekyll-sitemap
   - jekyll-autoprefixer
 
 help_pages:
-- get-started
-- trouble-signing-in
-- manage-your-account
-- specific-agencies
-- verify-your-identity
+  - get-started
+  - trouble-signing-in
+  - manage-your-account
+  - specific-agencies
+  - verify-your-identity
 
 baseurl:
 

@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 RSpec.describe 'all pages' do
-  Dir["#{SITE_ROOT}/**/*.html"].sort.each do |path|
+  Dir["#{SITE_ROOT}/**(?admin)/*.html"].sort.each do |path|
     is_redirect_page = File.read(path).include?('<meta http-equiv="refresh"')
     next if is_redirect_page
 

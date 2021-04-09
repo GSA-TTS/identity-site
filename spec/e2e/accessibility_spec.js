@@ -11,7 +11,7 @@ const TEST_TIMEOUT_MS = 10000;
 /** @type {RegExp[]} */
 const EXCLUDE_PATTERNS = [
   /\.pdf$/, // Puppeteer Chromium cannot preview PDF files
-  /^\/404\.html$/, // See: LG-3455 (TODO: Remove with implementation of LG-3455)
+  /admin/,
 ];
 
 describe('accessibility', () => {

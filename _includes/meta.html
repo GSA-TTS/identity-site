@@ -1,52 +1,43 @@
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
 
 <!-- Twitter Card -->
 {% if page.twitter_card == "large" %}
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta content="summary_large_image" name="twitter:card" />
 {% else %}
-  <meta name="twitter:card" content="summary" />
+  <meta content="summary" name="twitter:card" />
 {% endif %}
 
 <!-- Title -->
-{% if page.layout == 'help' %}
-  {% assign url_size = page.url | size | minus: 1 %}
-  {% assign help_page_title = page.url | replace: "/", "." | slice: 1, url_size %}
-  {% capture title_rendered %}{% t help_page_title %}{% endcapture %}
-{% elsif page.title %}
-  {% capture title_rendered %}{% t page.title %}{% endcapture %}
-{% else %}
-  {% capture title_rendered %}{% t meta.home.description %}{% endcapture %}
+
+{% if page.meta_title %}
+  {% capture title_rendered %}
+    {{ page.meta_title }}
+  {% endcapture %}
+{% else if page.title %}
+  {% capture title_rendered %}
+    {{ page.title }}
+  {% endcapture %}
 {% endif %}
-<title>{{ title_rendered | xml_escape }} | {{ site.title }}</title>
-<meta
-  property="og:title"
-  content="{{ title_rendered | xml_escape }} | {{ site.title | xml_escape }}"
-/>
-<meta
-  name="twitter:title"
-  content="{{ title_rendered | xml_escape }} | {{ site.title | xml_escape }}"
-/>
+
+<title>{{ title_rendered | xml_escape }}|{{ site.title }}</title>
+<meta property="og:title" content="{{ title_rendered | xml_escape }} | {{ site.title | xml_escape }}" />
+<meta name="twitter:title" content="{{ title_rendered | xml_escape }} | {{ site.title | xml_escape }}" />
 
 <!-- Description -->
 {% if page.description %}
-  {% capture description_rendered %}{% t page.description %}{% endcapture %}
+  {% capture description_rendered %}
+    {{ page.description }}
+  {% endcapture %}
 {% else %}
-  {% capture description_rendered %}{% t meta.home.description %}{% endcapture %}
+  {% capture description_rendered %}
+    {{ site.data.[page.lang].settings.global.description }}
+  {% endcapture %}
 {% endif %}
-<meta
-  name="description"
-  content="{{ description_rendered | xml_escape }}"
-/>
-<meta
-  property="og:description"
-  content="{{ description_rendered | xml_escape }}"
-/>
-<meta
-  property="twitter:description"
-  content="{{ description_rendered | xml_escape }}"
-/>
+<meta name="description" content="{{ description_rendered | xml_escape }}" />
+<meta property="og:description" content="{{ description_rendered | xml_escape }}" />
+<meta property="twitter:description" content="{{ description_rendered | xml_escape }}" />
 
 <!-- Image -->
 {% if page.image %}
@@ -59,35 +50,14 @@
 <meta property="og:image" content="{{ image | absolute_url }}" />
 <meta name="twitter:image" content="{{ image | absolute_url }}" />
 
-<link
-  rel="canonical"
-  href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.canonical_domain | replace: '//', '/' | prepend: 'https://' }}"
-/>
+<link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.canonical_domain | replace: '//', '/' | prepend: 'https://' }}" />
 
-<link
-  rel="apple-touch-icon"
-  sizes="180x180"
-  href="{{ '/apple-touch-icon.png' | relative_url }}"
-/>
-<link
-  rel="icon"
-  type="image/png"
-  href="{{ '/favicon-32x32.png' | relative_url }}"
-  sizes="32x32"
-/>
-<link
-  rel="icon"
-  type="image/png"
-  href="{{ '/favicon-16x16.png' | relative_url }}"
-  sizes="16x16"
-/>
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}" />
+<link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | relative_url }}" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ '/favicon-16x16.png' | relative_url }}" sizes="16x16" />
 <link rel="manifest" href="{{ '/manifest.json' | relative_url }}" />
-<link
-  rel="mask-icon"
-  href="{{ '/safari-pinned-tab.svg' | relative_url }}"
-  color="#e21c3d"
-/>
-<meta name="theme-color" content="#ffffff" />
+<link rel="mask-icon" href="{{ '/safari-pinned-tab.svg' | relative_url }}" color="#e21c3d" />
+<meta content="#ffffff" name="theme-color" />
 
 <!-- Monitoring Tag -->
-<meta sys-status="login.gov site up and running">
+<meta sys-status="login.gov site up and running" />

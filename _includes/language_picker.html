@@ -1,40 +1,49 @@
 <div class="language-picker">
   {% if include.dropdown == true %}
-    <button
-      aria-controls="language-picker-{{ include.id }}"
-      class="usa-button usa-button--outline language-picker__label language-picker__label--button"
-    >
-      {% include svg/globe.svg %}
-      <span id="language-picker-{{ include.id }}-description" class="label">
-        {% t global.language %}
-      </span>
-    </button>
+  <button
+    aria-controls="language-picker-{{ include.id }}"
+    class="usa-button usa-button--outline language-picker__label language-picker__label--button"
+  >
+    {% include svg/globe.svg %}
+    <span id="language-picker-{{ include.id }}-description" class="label">
+      {{ site.data.[page.lang].settings.global.language }}
+    </span>
+  </button>
   {% else %}
-    <div class="language-picker__label language-picker__label--text">
-      {% include svg/globe.svg %}
-      <span id="language-picker-{{ include.id }}-description" class="label">
-        {% t global.language %}
-      </span>
-    </div>
+  <div class="language-picker__label language-picker__label--text">
+    {% include svg/globe.svg %}
+    <span id="language-picker-{{ include.id }}-description" class="label">
+      {{ site.data.[page.lang].settings.global.language }}
+    </span>
+  </div>
   {% endif %}
 
-  <ul
-    id="language-picker-{{ include.id }}"
-    aria-describedby="language-picker-{{ include.id }}-description"
-    class="{% if include.dropdown %}dropdown{% endif %} language-list"
-  >
-    {% for locale in site.languages %}
-      {% capture name %}global.locales.{{ locale }}{% endcapture %}
-      <li>
-        {% if locale == 'en' %}
-          {% assign locale_url = page.url | prepend: site.baseurl_root %}
-        {% elsif site.lang != 'en' and locale == site.lang %}
-          {% assign locale_url = page.url | prepend: site.baseurl %}
-        {% else %}
-          {% assign locale_url = page.url | prepend: locale | prepend: '/' | prepend: site.baseurl_root %}
-        {% endif %}
-        <a href="{{ locale_url }}" class="text-no-underline">{% t name %}</a>
-      </li>
-    {% endfor %}
+  <ul id="language-picker-{{ include.id }}" aria-describedby="language-picker-{{ include.id }}-description"
+    class="{% if include.dropdown %}dropdown{% endif %} language-list">
+  {% for locale in site.languages %}
+    <li>
+    {% if page.lang == 'en' %}
+      {% if locale == 'en' %}
+        {% assign locale_url = page.url %}
+      {% elsif locale == page.lang %}
+        {% assign locale_url = page.url %}
+      {% else %}
+        {% assign locale_url = page.url | prepend: locale | prepend: '/' %}
+      {% endif %}
+    {% else %}
+      {% if locale == 'en' and page.lang == 'es' %}
+        {% assign locale_url = page.url | remove_first: 'es/' %}
+      {% elsif locale == 'en' and page.lang == 'fr' %}
+        {% assign locale_url = page.url | remove_first: 'fr/' %}
+      {% elsif locale == page.lang %}
+        {% assign locale_url = page.url %}
+      {% else %}
+        {% assign locale_url = page.url | replace_first: page.lang, locale %}
+      {% endif %}
+    {% endif %}
+
+      <a href="{{ locale_url }}" class="text-no-underline">{{ site.data.[locale].settings.global.locales[locale] }}</a>
+    </li>
+  {% endfor %}
   </ul>
 </div>

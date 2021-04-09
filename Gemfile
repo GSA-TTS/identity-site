@@ -4,7 +4,6 @@ ruby '~> 2.6.5'
 
 gem 'jekyll', '>= 4.0.0'
 gem 'jekyll-redirect-from', '>= 0.15.0'
-gem 'jekyll-multiple-languages-plugin', '>= 1.6.1'
 gem 'jekyll-sitemap', '>= 1.4.0'
 gem "jekyll-autoprefixer", "~> 1.0"
 
