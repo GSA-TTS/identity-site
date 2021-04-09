@@ -719,38 +719,6 @@ nav:
   system_status: login.gov system status
   what_is_login_gov: What is login.gov?
   who_uses_login_gov: Who uses login.gov?
-our-agency-partners_page:
-  footer:
-    heading: Contact us
-    p_1: If you’re interested in learning more about the platform, please email [partners@login.gov](mailto:partners@login.gov).
-  heading: Our agency partners
-  section_1:
-    ul:
-      li_1:
-        a_1: Our federal team
-      li_2:
-        a_1: Our agency partners and users
-      li_3:
-        a_1: Support for state and local governments and tribes
-      li_4:
-        a_1: Primary benefits of using login.gov for Partners
-  section_2:
-    heading_1: Our federal team
-    heading_2: Our agency partners and users
-    heading_3: Support for state and local governments and tribes
-    heading_4: Primary benefits of using login.gov for Partners
-    p_1: login.gov is an offering of the General Services Administration, an agency of the U.S. federal government. The program is run by the Technology Transformation Services, a group that leads the digital transformation of federal government by helping agencies build, buy, and share technology that allows them to provide more accessible, efficient, and effective products and services for the American people.
-
-    p_2: login.gov is used by over 60 applications at 17 agencies including Cabinet level agencies such as the Department of Defense, Department of Homeland Security, Department of Energy, and the Department of Transportation. Over 17 million people have signed up to use login.gov, across all applications. Ask us for a complete list of applications using login.gov.
-    p_3: login.gov hopes to support state and local governments with their authentication and identity needs. At this time, we are working internally to align policies to permit these engagements.
-    p_4:
-    ul_1:
-      li_1: Reduced user support issues and troubleshooting
-      li_2: High availability and uptime
-      li_3: Secure two-factor authentication (2FA) backed by a FedRAMP Moderate ATO
-      li_4: Reduced costs through economies of scale across government
-      li_5: Enhanced fraud detection and monitoring
-      li_6: A platform that stays up to date with current authentication and identity policies, technologies, and standards, without additional effort required from your agency
 partners_page:
   section_1:
     p_1: We help government agencies manage, secure and optimize the login experience for their websites, services and applications.
