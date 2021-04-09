@@ -109,37 +109,6 @@ contact_page:
       other: Autre
       piv_cac: Problème de PIV/CAC
       signing_in: Connexion
-developers_page:
-  column_1:
-    content:
-      p_1: Choisissez entre [IAL1 and IAL2](https://developers.login.gov/attributes/)
-        pour [NIST 800-63-3](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf).
-        Lorsque [policies](https://pages.nist.gov/800-63-3/) change,
-        nous effectuons le travail pour assurer la conformité.
-    heading: Se conformer à un auditoire changeant
-  column_2:
-    content:
-      p_1: Tirez profit des bibliothèques de codes réutilisables. Nous prenons en
-        charge [OpenID Connect](https://developers.login.gov/openid-connect/)
-        et [SAML](https://developers.login.gov/saml/). Démarrez
-        rapidement avec un code d'intégration exemple dans [Java](https://github.com/18F/identity-sp-java),
-        [Ruby](https://github.com/18F/identity-sp-sinatra), [Python](https://github.com/18F/identity-sp-python)
-        et [iOS](https://github.com/18F/identity-openidconnect-ios-client).
-    heading: Réduire les délais de lancement
-  column_3:
-    content:
-      p_1: Suivez le développement continu des fonctionnalités, les améliorations
-        apportées à l'expérience de l'utilisateur et les examens de la sécurité dans
-        notre [référentiel à code source ouvert](https://github.com/18F/identity-idp).
-    heading: Consultez le <br class="sm-show">code
-  footer:
-    heading: Nous joindre
-    p_1: Si vous souhaitez en savoir plus sur la plate-forme, [veuillez remplir ce formulaire](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e).
-  intro:
-    a_1: Voir la documentation
-    heading: Intégration facile et flexibilité
-    p_1: Les protocoles standards, les bibliothèques réutilisables et les examens
-      ouverts accélèrent le développement et vous aident à demeurer conforme.
 footer:
   gsa: Administration des services généraux des États-Unis
 global:
