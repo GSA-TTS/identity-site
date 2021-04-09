@@ -758,36 +758,6 @@ policies:
       sublinks:
         - text: SMS terms and conditions
           url: '#terms'
-what-is-login-page:
-  hero:
-    heading: What is login.gov?
-    text: Accessing government agencies should be simple — and secure.
-  one-account: |-
-    ## One account and password
-
-    Login.gov is a shared service, used by the public, and trusted by government agencies.  With one login.gov account, you eliminate the need to remember different passwords for each agency and streamline your sign in process.
-
-    <div class="mobile one-account-img" aria-hidden="true"></div>
-
-    ### Login.gov is trusted by
-
-    * Department of Defense
-    * Small Business Administration
-    * Trusted Traveler Programs (Department of Homeland Security)
-    * USAJOBS (Office of Personnel Management)
-    * And more...
-
-    Login.gov is your one account for government. [Learn more about creating an account](site.baseurl/create-an-account/).
-
-    Already have an account? [Sign in to manage your account and update your personal information or security options](https://secure.login.gov).
-  secure-account: |-
-    ## Secure and private access for the public
-
-    Login.gov uses [the highest standards of security](site.baseurl/security/) to keep your information safe including identity verification and [two-factor authentication](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/).
-
-    Login.gov is provided by [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
-
-    <div class="mobile secure-account-img" aria-hidden="true"></div>
 who-uses-login-page:
   hero:
     heading: Who uses login.gov?
