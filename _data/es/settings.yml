@@ -118,28 +118,6 @@ global:
     en: English
     es: Español
     fr: Français
-help:
-  get-started:
-    overview: Visión general
-    create-your-account: Crear una cuenta
-    authentication-options: Opciones de autenticacións
-  trouble-signing-in:
-    overview: Visión general
-    how-to-sign-in: Cómo acceder a login.gov
-    forgot-your-password: Olvidó su contraseña
-  manage-your-account:
-    overview: Visión general
-    change-your-password: Cambiar su contraseña
-    delete-your-account: Eliminar su cuenta
-    change-your-phone-number: Cambiar el número de teléfono asociado a su cuenta
-    change-your-email-address: Cambiar la dirección de correo electrónico asociada a su cuenta
-  verify-your-identity:
-    overview: Visión general
-    how-to-verify-your-identity: Cómo verificar su identidad
-  specific-agencies:
-    overview: Visión general
-    trusted-traveler-programs: Programas de Viajero de Confianza (TTP, por sus siglas en inglés)
-    sam: Resumen de la cuenta del Sistema para la Administración de Subvenciones (SAM)
 help_page:
   p_1: Explore los temas comunes
   title: ¿Cómo podemos ayudar?

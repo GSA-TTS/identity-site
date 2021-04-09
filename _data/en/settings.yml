@@ -124,29 +124,6 @@ global:
     en: English
     es: Español
     fr: Français
-help:
-  get-started:
-    overview: Overview
-    create-your-account: Create your login.gov account
-    authentication-options: Authentication options
-  trouble-signing-in:
-    overview: Overview
-    how-to-sign-in: How to sign in to login.gov
-    forgot-your-password: Forgot your password
-  manage-your-account:
-    overview: Overview
-    change-your-password: Change your password
-    delete-your-account: Delete your account
-    change-your-phone-number: Change the phone number associated with your account
-    change-your-email-address: Change the email address associated with your account
-  verify-your-identity:
-    overview: Overview
-    how-to-verify-your-identity: How to verify your identity
-  specific-agencies:
-    overview: Overview
-    trusted-traveler-programs: Trusted Traveler Programs (TTP)
-    sam: System for Award Management (SAM)
-    usajobs: USAJOBS
 help_page:
   p_1: Browse common topics
   title: How can we help?
