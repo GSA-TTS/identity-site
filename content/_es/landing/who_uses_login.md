@@ -1,21 +1,13 @@
 ---
 title: ¿Quién usa login.gov?
-description: meta.who-uses-login.description
+description: Login.gov es un servicio de inicio de sesión de confianza emitido
+  por el gobierno. El público usa login.gov para tener acceso simple y seguro a
+  los servicios que brindan nuestros socios gubernamentales.
+one_account_banner: true
 permalink: /es/who-uses-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
-one_account_banner: true
 ---
-
-{% capture heading %}
-{{ site.data[page.lang].settings.who-uses-login-page.hero.heading }}
-{% endcapture %}
-
-{% capture text %}
-{{ site.data[page.lang].settings.who-uses-login-page.hero.text }}
-{% endcapture %}
-
-{% include hero.html class="who-uses-login" heading=heading text=text %}
 
 <div class="bg-primary-lightest">
   <div class="container who-uses-login">

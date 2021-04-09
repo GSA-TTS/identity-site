@@ -1,25 +1,20 @@
 ---
 title: La única cuenta del gobierno para el público.
+description: Use una cuenta y contraseña para tener acceso privado y seguro a
+  las agencias gubernamentales participantes. participantes.
+component:
+  class: " "
+three_col:
+  class: why-login-gov
+one_account_banner: true
 permalink: /es/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
-one_account_banner: true
 redirect_from:
-  - /playbook/
-  - /playbook/implementation/
-  - /playbook/principles/
+  - /es/playbook/
+  - /es/playbook/implementation/
+  - /es/playbook/principles/
 ---
-
-{% capture heading %}
-{{ site.data[page.lang].settings.index.intro.heading }}
-{% endcapture %}
-
-{% capture text %}
-{{ site.data[page.lang].settings.index.intro.content }}
-{% endcapture %}
-
-{% include hero.html heading=heading text=text %}
-
 <article class="container why-login-gov">
   <header class="intro">{{ site.data[page.lang].settings["index"]["why"]["heading"] | replace: 'site.baseurl', site.baseurl | markdownify }}</header>
   <div class="grid-row">

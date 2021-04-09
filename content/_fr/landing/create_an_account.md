@@ -1,21 +1,12 @@
 ---
 title: Créer un compte
-description: meta.create-an-account.description
+description: Rejoignez les millions de personnes qui font confiance à login.gov
+  pour un accès sûr et sécurisé aux agences gouvernementales.
+one_account_banner: true
 permalink: /fr/create-an-account/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
-one_account_banner: true
 ---
-
-{% capture heading %}
-{{ site.data[page.lang].settings.create-an-account.hero.heading }}
-{% endcapture %}
-
-{% capture text %}
-{{ site.data[page.lang].settings.create-an-account.hero.text }}
-{% endcapture %}
-
-{% include hero.html class="create-an-account" heading=heading text=text %}
 
 <div class="create-an-account">
   <div class="container">
