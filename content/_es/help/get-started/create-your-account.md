@@ -42,7 +42,7 @@ Siga estos pasos para crear su cuenta de login.gov.
    [Conozca más sobre cada opción de autenticación](/es/help/get-started/authentication-options) para elegir la que sea apropiada para usted.
 
 1. ¡El proceso fue exitoso! Una vez que haya autenticado, habrá creado su cuenta de login.gov.
-   {: .number-list}
+{: .number-list}
 
 Será dirigido a la página de su cuenta de login.gov o a la agencia gubernamental a la que esté intentando tener acceso. Puede agregar métodos de autenticación adicionales, direcciones de correo electrónico o actualizar su información en la página de su cuenta de login.gov.
 
