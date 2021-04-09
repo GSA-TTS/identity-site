@@ -694,29 +694,6 @@ nav:
   system_status: Estado del sistema login.gov
   what_is_login_gov: ¿Qué es login.gov?
   who_uses_login_gov: ¿Quién usa login.gov?
-playbook_page:
-  section_1:
-    p_1: El manejo de identidades —o asegurarse de que sólo las personas apropiadas
-      tengan acceso a los sistemas— es fundamental para la prestación de servicios
-      públicos en línea. Estamos compartiendo estos principios para ayudar a los desarrolladores
-      y tecnólogos en agencias gubernamentales a crear sistemas de manejo de identidad
-      que sean utilizables, seguros y protejan la privacidad del consumidor.
-  section_2:
-    heading_1: Los principios
-    heading_2: Implementación
-    p_1: La construcción de este sistema incluye tomar recomendaciones y mejores prácticas
-      de expertos en política, arquitectos de sistemas y personas enfocadas crear
-      una experiencia excepcional para el usuario. Hasta ahora nuestra investigación
-      y nuestro progreso nos ha llevado a identificar cinco principios fundamentales
-      que creemos que nos ayudarán a establecer el mejor sistema posible.
-    p_2:
-      a_1: Ver los principios
-    p_3: Antes de implementar login.gov o cualquier otro sistema de gestión de la
-      identidad del consumidor, debe determinar si su agencia u organización necesita
-      uno. A continuación se muestra una lista de preguntas que debe hacerse y cosas
-      que debe considerar para ayudarlo a determinar su necesidad.
-    p_4:
-      a_1: Conozca más información sobre la implementación
 policies:
   title: Privacidad y seguridad
   sections:
