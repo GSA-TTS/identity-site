@@ -11,6 +11,9 @@ sidenav: policies
 ---
 ## Our privacy act statement ## {#our-privacy-act-statement}
 
+The login.gov service is provided by the U.S. General Services Administration to offer the public secure and private online access to participating government programs. With one login.gov account, users can sign into multiple government agencies. Our goal is to make managing federal benefits, services, and applications easier and more secure.
+
+By accessing the login.gov service, you acknowledge and agree to this Privacy Policy and the login.gov Rules of Use. We will post any changes to these terms to this page. If the changes affect our handling of your personal information or are otherwise deemed significant, we will notify you by email. If we cannot reach you by email, we reserve the right to contact you by other means, including postal mail. If at any time you no longer agree to this Privacy Policy or any other relevant terms of the login.gov service, you may close your account.
 ### The Authority - Who authorizes the collection of this data?  ### {#authority}
 
 The information you provide is collected pursuant to 6 USC § 1523 (b)(1)(A)-(E), the E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), and 40 USC § 501.
