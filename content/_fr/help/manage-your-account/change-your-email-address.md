@@ -9,7 +9,7 @@ redirect_from:
 
   Suivez ces étapes pour modifier l'adresse de courriel associée à votre compte.
 
-  ## Partie 1 : Ajouter une adresse de courriel
+## Partie 1 : Ajouter une adresse de courriel
   1. Connectez-vous à votre compte login.gov <https://secure.login.gov>.
   1. Entrez votre mot de passe et cliquez sur Connexion.
   1. Cliquez sur le bouton « Connexion ».
@@ -23,7 +23,7 @@ redirect_from:
     * Ne supprimez pas l'ancienne adresse de courriel tant que vous n'avez pas confirmé votre nouvelle adresse de courriel.
   {: .number-list}
 
-  ## Partie 2 : Supprimer l'adresse de courriel périmée
+## Partie 2 : Supprimer l'adresse de courriel périmée
   1. Entrez votre adresse de courriel sur <https://secure.login.gov>.
   1. Entrez votre mot de passe.
   1. Cliquez sur le bouton « Connexion ».
