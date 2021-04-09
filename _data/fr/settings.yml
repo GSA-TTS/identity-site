@@ -698,29 +698,6 @@ nav:
   system_status: État du système login.gov
   what_is_login_gov: Qu'est-ce que login.gov?
   who_uses_login_gov: Qui utilise login.gov?
-playbook_page:
-  section_1:
-    p_1: La gestion d'identité, ou s'assurer que seules les bonnes personnes obtiennent
-      accès au système, est cruciale dans l'offre de services en ligne au public.
-      Nous partageons ces principes pour aider les développeurs et les technologues
-      des agences gouvernementales à bâtir des systèmes de gestion d'identité utilisables,
-      sécurisés et qui protègent la confidentialité des consommateurs.
-  section_2:
-    heading_1: Les principes
-    heading_2: Mise en œuvre
-    p_1: Bâtir ce système comprend de recevoir des recommandations et des conseils
-      sur les meilleures pratiques de la part des experts en politiques, des architectes
-      système et des gens qui se consacrent à créer une excellente expérience utilisateur.
-      Notre recherche et notre progrès jusqu'ici nous a menés à identifier cinq principes
-      majeurs qui, nous croyons, nous aideront à rendre le système le meilleur possible.
-    p_2:
-      a_1: Voir les principes
-    p_3: Avant la mise en œuvre de login.gov ou de tout autre système de gestion d'identité,
-      vous devez déterminer si votre agence ou organisation a besoin d'un tel système.
-      Ci-dessous se trouve une liste de questions à demander et des éléments à considérer
-      pour vous aider à déterminer cela.
-    p_4:
-      a_1: En savoir plus sur la mise en œuvre
 policies:
   title: Confidentialité et sécurité
   sections:

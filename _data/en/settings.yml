@@ -776,47 +776,6 @@ who-uses-login-page:
     Login.gov adheres to the latest [security standards](site.baseurl/security) established by top security organizations such as the [National Institute of Standards and Technology](https://www.nist.gov/), the [Cybersecurity National Action Plan](https://www.hsdl.org/c/cybersecurity-national-action-plan/) and the [Federal Acquisition Service](https://www.gsa.gov/about-us/organization/federal-acquisition-service)
 
     Agencies choose login.gov because we provide a secure — and simple — solution. [Read more about our partner program](https://partners.login.gov).
-why-login-gov_page:
-  heading: Why login.gov
-  heading_1: Overview of login.gov
-  heading_2: Why login.gov
-  heading_3: login.gov’s offerings
-  heading_4: login.gov’s opportunity
-  heading_5: Authentication
-  heading_6: Identity Proofing
-  heading_7: Primary benefits of using login.gov
-  heading_8: Using login.gov with mobile apps
-  p_1: |-
-    With one login.gov account, users can securely sign in to multiple government agencies online. login.gov is a FedRAMP approved authentication and identity proofing platform that makes online interactions with the U.S. government simple, efficient and intuitive. login.gov empowers people to feel safe signing into government websites and accessing federal services online with a single, privacy-protected account. We enable agencies managing federal benefits, services, and applications to make their offerings easier and more secure. We save agencies time and money by offering a shared solution for remote identity proofing that is secure and recommended by the [Government Accountability Office](https://www.gao.gov/products/GAO-19-288).
-  p_2: |-
-    login.gov offers the public a single, secure, and private access to online federal services, eliminating the need to remember passwords for multiple systems.  It also reduces costs of developing or buying duplicative authentication and proofing solutions for agencies, so they can focus on their mission. The more agencies that adopt login.gov, the more taxpayers save. Through login.gov agencies can provide a more consistent customer experience by reducing duplicate accounts and encouraging a 21st Century IDEA compliant experience.
-  p_3: |-
-    login.gov offers secure two-factor authentication with widely available as well as unphishable methods. This service provides users with secure access to digital services at over 17 different government agencies with a single set of credentials. For you, this means leveraging the best security defined by NIST 800-63 Identity Assurance Level 1 and Authentication Assurance Level 2, and FedRAMP Moderate while complying with 21st Century Idea Act in a easy-to-use experience.
-
-    login.gov identity verification builds on the security of our authentication service and provides a remote proofing experience using an individual’s state-issued ID rather than knowledge-based verification. Our remote proofing implementation complies with NIST’s IAL2. The login.gov verified accounts (IAL2/AAL2) allows applications to access verified attributes about a user such as a phone number and a social security number while maintaining user privacy by requiring the user’s consent and password to decrypt the data.
-  p_4: |-
-    Nobody likes managing dozens of accounts, along with remembering passwords, resetting passwords, reactivating their inactive accounts, and more. It’s frustrating and cumbersome, and insecure. Our vision is to create a single trusted account for the public to access all U.S. government digital services. For agencies, login.gov eliminates the burden and cost of creating and maintaining authentication and identity proofing systems, keeping up with evolving standards and technologies, and lowering costs.
-  p_5: |-
-    We want to offer secure and modern authentication to the entire US public. Federal agencies and the public benefit from login.gov because
-  p_6: |-
-    We are also keeping ahead of evolving security threats by leading industry in adopting emerging authentication security methods such as WebAuthn and building a product to encourage more secure methods.
-  p_7: |-
-    We provide an online remote identity proofing platform that allows agencies to verify that their users are who they say they are from the convenience of their own home. We have worked with some of the most recognizable brands in the Identity, Credential, and Access Management (ICAM) space to bring one solution to the federal government. login.gov meets NIST’s Identity Assurance Level 2 making it a great fit for applications that need to feel confident about their users.
-  p_8: |-
-    For the public:
-  p_9: |-
-    login.gov is a native web application that is mobile friendly and responsive that users can access from mobile devices and tablets. login.gov’s usability is regularly tested on mobile devices. login.gov can be integrated with native mobile applications as well.
-  ul_1:
-    li_1: it provides the highest security that meets both FedRAMP and NIST identity standards,
-    li_2: it saves taxpayer funds by centralizing login as a shared government service,
-    li_3: and provides a world-class customer experience for the public.
-  ul_2:
-    li_1: One account for every federal government service they interact with
-    li_2: A secure and private authentication experience with opt-in user consent
-    li_3: An intuitive, delightful, and well designed user experience
-    li_4: The convenience of identity verification from home
-    li_5: Simple tools to manage and update their account
-    li_6: Descriptive help content, and a staffed contact center for user support
 create-an-account:
   hero:
     heading: Create an account
