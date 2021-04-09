@@ -849,43 +849,6 @@ policies:
     li_5: Stocker seulement la quantité minimale nécessaire de données
     li_6: Aider les utilisateurs à comprendre les mesures de sécurité qu'ils doivent
       effectuer
-security_page:
-  column_1:
-    heading: La chambre forte
-    p_1: Il est difficile de s'introduire par effraction dans la « chambre forte »
-      ou dans la base de données. login.gov met en œuvre les normes les plus récentes
-      du [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
-      relatives aux authentifications et vérifications sécurisées. Notre plan d'action
-      pour assurer une sécurité continue inclut des tests réguliers sur la pénétration
-      et des examens réguliers de la sécurité externe.
-  column_2:
-    heading: Le coffre bancaire
-    p_1: Les comptes individuels obtiennent une double couche de sécurité. Nous exigeons
-      une authentification à deux facteurs de même que des mots de passe forts qui
-      répondent aux exigences du NIST. L'authentification à deux facteurs requiert
-      que vous vous connectiez avec votre mot de passe et un code que nous envoyons
-      à votre téléphone.
-    p_2: Nous évaluerons et mettrons en œuvre de nouvelles méthodes d'authentification
-      au fur et à mesure qu'elles deviendront disponibles à grande échelle afin d'assurer
-      que login.gov demeure accessible et sécurisé.
-  column_3:
-    heading: Votre clé personnelle
-    p_1: Le chiffrement des données personnelles signifie que login.gov ne peut partager
-      aucune information avec d'autres entités gouvernementales sans l'autorisation
-      de l'utilisateur. Même les administrateurs de bases de données ne peuvent déchiffrer
-      l'information personnelle d'un utilisateur sans le mot de passe de l'utilisateur.
-  content:
-    p_1: |-
-      login.gov chiffre séparément l'information personnelle de chaque utilisateur en utilisant une valeur unique générée à partir du mot de passe de chaque utilisateur. Notre méthode de chiffrement fonctionne comme un coffre bancaire dans la chambre forte d'une banque.
-      Seul l'utilisateur possède la clé. Seul l'utilisateur peut ouvrir le coffre pour révéler le contenu. Seul l'utilisateur connaît le mot de passe et seul l'utilisateur peut déchiffrer l'information.
-  footer:
-    p_1: |-
-      Nous accueillons favorablement tout examen externe de nos mesures de protection de la confidentialité.
-      La totalité de notre code est disponible pour inspection publique dans un référentiel à source ouverte. Notre objectif : s'assurer qu'à chaque étape, les utilisateurs sachent que leur confidentialité est protégée au niveau même de la conception.
-    p_2: Pour obtenir plus d'information, veuillez visiter [Help](site.baseurl/help)
-      ou [contact us](site.baseurl/contact). Vous pouvez aussi visiter notre [référentiel
-      à code source ouvert](https://github.com/18F/identity-idp).
-  heading: Comment login.gov garde confidentielle l'information privée
 what-is-login-page:
   hero:
     heading: Qu'est-ce que login.gov?

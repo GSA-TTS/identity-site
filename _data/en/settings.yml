@@ -758,48 +758,6 @@ policies:
       sublinks:
         - text: SMS terms and conditions
           url: '#terms'
-security_page:
-  column_1:
-    heading: The vault
-    p_1: It's hard to break into the “vault” or database. login.gov implements the
-      latest [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
-      standards for secure authentication and verification. Our plans for ongoing
-      security include regular penetration testing and external security reviews.
-  column_2:
-    heading: The safe deposit box
-    p_1: |-
-      Individual accounts get a double layer of security. We require
-      two-factor authentication as well as strong passwords that meet
-      new NIST requirements. two-factor authentication requires that
-      you login with your password and a code that we send to your phone.
-    p_2: |-
-      We will evaluate and implement new authentication methods as they
-      become widely available to make sure that login.gov remains
-      accessible and secure.
-  column_3:
-    heading: Your personal key
-    p_1: |-
-      Encrypting personal data separately means that login.gov cannot
-      share any sensitive information with other government entities without
-      users’ permission. Not even database administrators can decrypt
-      a user’s personal information without the user’s password.
-  content:
-    p_1: |-
-      login.gov encrypts the sensitive personal information of each user
-      separately using a unique value generated from each user’s password.
-      Our encryption method works like a safe deposit box in a bank vault.
-      Only the user has the key. Only the user can open the box to reveal
-      the contents. Only the user knows the password, and only the user can
-      decrypt their information.
-  footer:
-    p_1: |-
-      We welcome external review of our privacy-protection measures.
-      All of our code is available for public inspection in an open-source
-      repository. Our goal: make sure that at every step users know their
-      privacy is being protected by design.
-    p_2: For more information, please visit [Help](site.baseurl/help) or [contact
-      us](site.baseurl/contact). You can also visit our [open-source repository](https://github.com/18F/identity-idp).
-  heading: How login.gov keeps personal information private
 what-is-login-page:
   hero:
     heading: What is login.gov?
