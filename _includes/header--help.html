@@ -9,9 +9,8 @@
             alt="login.gov home"
           />
         </a>
-        <a href="{{ site.baseurl }}/help/" class="usa-logo__help"
-          >{{ site.data.[page.lang].settings.nav.help_center }}</a
-        >
+        <a href="{{ site.baseurl }}/help/" class="usa-logo__help">
+          {{ site.data.[page.lang].settings.nav.help_center }}</a>
       </div>
 
       <button class="usa-menu-btn">Menu</button>
@@ -24,14 +23,20 @@
 
       <div class="desktop:display-none">
         <ul class="usa-nav__primary usa-accordion">
-          {% for subpage in site.data[page.lang].settings.help_subpages %} {% assign subpage_slug =
-          subpage[0] %} {% assign subpage_title = subpage[1] %} {% assign subpage_url = '/help/' |
-          append: subpage_slug | append: '/' | prepend: site.baseurl %} {% assign path_split_subpage
-          = page.path | split: subpage_url %} {% assign subpage_has_current = 'false' %} {% assign
-          articles = site.data[page.lang].settings.help[subpage_slug] %} {% for article in articles
-          %} {% assign article_slug = article[0] %} {% assign article_url = subpage_url | append:
-          article_slug | append: '/' %} {% if page.url == article_url %} {% assign
-          subpage_has_current = 'true' %} {% endif %} {% endfor %}
+          {% for subpage in site.data[page.lang].settings.help_subpages %}
+            {% assign subpage_slug = subpage[0] %}
+            {% assign subpage_title = subpage[1] %}
+            {% assign subpage_url = '/help/' | append: subpage_slug | append: '/' | prepend: site.baseurl %}
+            {% assign path_split_subpage = page.path | split: subpage_url %}
+            {% assign subpage_has_current = 'false' %}
+            {% assign articles = site.data[page.lang].settings.help[subpage_slug] %}
+            {% for article in articles %}
+              {% assign article_slug = article[0] %}
+              {% assign article_url = subpage_url | append:article_slug | append: '/' %}
+              {% if page.url == article_url %}
+                {% assign subpage_has_current = 'true' %}
+              {% endif %}
+            {% endfor %}
 
           <li class="usa-nav__primary-item">
             <button
