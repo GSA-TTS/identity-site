@@ -849,36 +849,6 @@ policies:
     li_5: Stocker seulement la quantité minimale nécessaire de données
     li_6: Aider les utilisateurs à comprendre les mesures de sécurité qu'ils doivent
       effectuer
-what-is-login-page:
-  hero:
-    heading: Qu'est-ce que login.gov?
-    text: L'accès aux agences gouvernementales doit être simple - et sécurisé.
-  one-account: |-
-    ## Un compte et un mot de passe
-
-    Login.gov est un service partagé, utilisé par le public et approuvé par les agences gouvernementales. Avec un compte login.gov, vous évitez de devoir mémoriser différents mots de passe pour chaque agence et rationalisez votre processus de connexion.
-
-    <div class="mobile one-account-img" aria-hidden="true"></div>
-
-    ### Login.gov est approuvé par
-
-    * Département de la Défense
-    * Administration des petites entreprises
-    * Programmes de voyageurs fiables (Department of Homeland Security)
-    * USAJOBS (Bureau de la gestion du personnel)
-    * Et plus...
-
-    Login.gov est votre seul compte pour le gouvernement. [En savoir plus sur la création d'un compte](site.baseurl/create-an-account/).
-
-    Vous avez déjà un compte? [Connectez-vous pour gérer votre compte et mettre à jour vos informations personnelles ou vos options de sécurité](https://secure.login.gov).
-  secure-account: |-
-    ## Accès sécurisé et privé pour le public
-
-    Login.gov utilise [les normes de sécurité les plus élevées](site.baseurl/security/) pour protéger vos informations, y compris la vérification d'identité et [l'authentification à deux facteurs](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/).
-
-    Login.gov est fourni par [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
-
-    <div class="mobile secure-account-img" aria-hidden="true"></div>
 who-uses-login-page:
   hero:
     heading: Qui utilise login.gov?
