@@ -97,7 +97,7 @@ collections:
     create: true
     path: 'landing/{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
-    filter: { field: 'layout', value: 'main' }
+    filter: { field: 'layout', value: 'landing' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'main' }
@@ -109,21 +109,9 @@ collections:
         i18n: true
         collapsed: true
         fields:
-            - { label: 'Class', name: 'class', widget: 'string', required: false, i18n: duplicate }
-            - { label: 'Column 1', name: 'col1', widget: 'markdown', required: false, minimal: true, i18n: true }
-            - { label: 'Column 2', name: 'col2', widget: 'markdown', required: false, minimal: true, i18n: true }
-      - label: 'Three Column'
-        name: 'three_col'
-        widget: 'object'
-        i18n: true
-        collapsed: true
-        fields:
-            - { label: 'Class', name: 'class', widget: 'string', required: false, i18n: duplicate }
-            - { label: 'Heading', name: 'heading', widget: 'string', required: false, i18n: true }
-            - { label: 'Column 1', name: 'col1', widget: 'markdown', required: false, minimal: true, i18n: true }
-            - { label: 'Column 2', name: 'col2', widget: 'markdown', required: false, minimal: true, i18n: true }
-            - { label: 'Column 3', name: 'col3', widget: 'markdown', required: false, minimal: true, i18n: true }
-      - { label: 'Footer banner', name: 'one_account_banner', widget: 'boolean', default: false, i18n: duplicate }
+            - { label: 'Class', name: 'class', widget: 'string', i18n: duplicate }
+            - { label: 'Column 1', name: 'col1', widget: 'markdown', i18n: true }
+            - { label: 'Column 2', name: 'col2', widget: 'markdown', i18n: true }
       - { label: 'Permalink', name: 'permalink', widget: 'string', required: false, i18n: true }
       - { label: 'Twitter card', name: 'twitter_card', widget: 'select', default: 'large', i18n: duplicate, options: ['small', 'large'] }
       - { label: 'Image', name: 'image', widget: 'image', default: '/assets/img/login-gov-600x314.png', i18n: duplicate }
