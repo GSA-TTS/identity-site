@@ -64,7 +64,7 @@ defaults:
   - scope:
       path: 'content/*/landing'
     values:
-      layout: main
+      layout: landing
   - scope:
       path: 'content/*/policy'
     values:
