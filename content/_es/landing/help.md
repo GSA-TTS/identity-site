@@ -1,9 +1,8 @@
 ---
-title: meta.help.title
-description: meta.help.description
+title: Ayuda
+description: Obtenga respuestas a preguntas comunes sobre login.gov.
 layout: help_landing
 permalink: /es/help/
-title: meta.help.title
 hero: true
 ---
 <article class="grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-9 padding-bottom-1">
