@@ -756,44 +756,6 @@ policies:
       sublinks:
         - text: Términos y condiciones de SMS
           url: '#terms'
-security_page:
-  column_1:
-    heading: La bóveda
-    p_1: Es difícil entrar en la "bóveda" o en la base de datos. Login.gov implementa
-      los estándares más recientes para la autenticación y la verificación seguras
-      del [Instituto Nacional de Estándares y Tecnología (NIST, sigla en inglés)](https://www.nist.gov/).
-      Nuestros planes de seguridad continua incluyen pruebas de penetración regulares
-      y revisiones de seguridad externas.
-  column_2:
-    heading: La caja fuerte
-    p_1: Las cuentas individuales obtienen dos niveles de seguridad. Requerimos la
-      autenticación de dos factores, así como contraseñas seguras que cumplan con
-      los nuevos requisitos del NIST. La autenticación de dos factores requiere que
-      usted ingrese con su contraseña y un código que enviamos a su teléfono.
-    p_2: Evaluaremos e implementaremos nuevos métodos de autenticación a medida que
-      estén ampliamente disponibles para asegurar que login.gov permanezca accesible
-      y seguro.
-  column_3:
-    heading: Su clave personal
-    p_1: La encripción de la información personal por separado significa que login.gov
-      no puede compartir cualquier información con otras entidades gubernamentale
-      sin el permiso de los usuarios. Ni siquiera los administradores de las bases
-      de datos pueden descifrar la información personal de un usuario sin la contraseña
-      del usuario.
-  content:
-    p_1: |-
-      Login.gov encripta la información personal de cada usuario por separado, usando un valor único generado a partir de la contraseña de cada usuario. Nuestro método de encripción funciona como una caja de seguridad en una bóveda del banco.
-      Sólo el usuario tiene la clave. Sólo el usuario puede abrir la caja para revelar los contenidos. Sólo el usuario conoce la contraseña y sólo el usuario puede descifrar su información.
-  footer:
-    p_1: 'La revisión externa de nuestras medidas de protección de la privacidad es
-      bienvenida. Todo nuestro código está disponible para la inspección pública en
-      un repositorio de código abierto. Nuestra meta: asegurarnos de que en cada paso
-      los usuarios tengan conocimiento de que su privacidad está siendo protegida
-      de la manera que diseñamos la plataforma.'
-    p_2: Para obtener más información, visite el sitio web de login.gov [Centro de
-      ayuda](site.baseurl/help) o [contáctenos](site.baseurl/contact). También puede
-      visitar nuestro [repositorio de código abierto](https://github.com/18F/identity-idp).
-  heading: Cómo login.gov mantiene la información personal en privado
 what-is-login-page:
   hero:
     heading: ¿Qué es login.gov?
