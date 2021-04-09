@@ -1,13 +1,13 @@
 ---
-title: meta.home.title
+title: Le seul compte public pour le gouvernement.
 permalink: /fr/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
 one_account_banner: true
 redirect_from:
-- /playbook/
-- /playbook/implementation/
-- /playbook/principles/
+  - /playbook/
+  - /playbook/implementation/
+  - /playbook/principles/
 ---
 
 {% capture heading %}

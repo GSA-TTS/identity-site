@@ -1,6 +1,6 @@
 ---
 layout: main
-title: meta.who-uses-login.title
+title: Who uses login.gov?
 description: meta.who-uses-login.description
 permalink: /who-uses-login/
 twitter_card: large
