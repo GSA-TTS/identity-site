@@ -117,28 +117,6 @@ global:
     en: English
     es: Español
     fr: Français
-help:
-  get-started:
-    overview: Aperçu
-    create-your-account: Créez votre compte
-    authentication-options: Options d'authentification
-  trouble-signing-in:
-    overview: Aperçu
-    how-to-sign-in: Comment se connecter à login.gov
-    forgot-your-password: Mot de passe oublié
-  manage-your-account:
-    overview: Aperçu
-    change-your-password: Changez votre mot de passe
-    delete-your-account: Supprimer votre compte
-    change-your-phone-number: Modifier le numéro de téléphone associé à votre compte
-    change-your-email-address: Modifier l'adresse de courriel associée à votre compte
-  verify-your-identity:
-    overview: Aperçu
-    how-to-verify-your-identity: Comment vérifier votre identité
-  specific-agencies:
-    overview: Aperçu
-    trusted-traveler-programs: Programmes pour voyageurs fiables (TTP)
-    sam: Système de saisie des prix (SAM) Aperçu du compte
 help_page:
   p_1: Parcourir les sujets communs
   title: Comment pouvons nous aider?
