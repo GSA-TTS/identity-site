@@ -39,7 +39,7 @@ Si vous choisissez cette option de sécurité, suivez les étapes suivantes pour
    - Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
 1. Ouvrez un nouveau navigateur et connectez-vous à votre compte login.gov à l'adresse https://secure.login.gov/.
 1. Sélectionnez « Activer » à côté de « Application d'authentification » et suivez les instructions pour scanner ou saisir un code associant votre application d'authentification à votre compte.
-   {: .number-list}
+{: .number-list}
 
 Vous pourrez désormais utiliser les codes à usage unique générés par l'application chaque fois que vous vous connecterez à login.gov.
 
