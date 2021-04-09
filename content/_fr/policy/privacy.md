@@ -1,4 +1,5 @@
 ---
+sidenav: policies
 title: "Confidentialité et sécurité: nos pratiques de confidentialité"
 description: Découvrez comment nous demandons, utilisons, conservons et
   protégeons vos informations personnelles, ainsi que votre obligation de les
@@ -7,9 +8,12 @@ permalink: /fr/policy/our-privacy-act-statement/
 redirect_from:
   - /fr/policy/our-privacy-practices/
 index: 2
-sidenav: policies
 ---
 ## Notre déclaration de confidentialité ## {#our-privacy-act-statement}
+
+Le service login.gov est fourni par l’administration des services généraux des États-Unis pour offrir au public un accès en ligne sécurisé et privé aux programmes gouvernementaux participants. Avec un seul compte login.gov, les utilisateurs peuvent se connecter à plusieurs agences gouvernementales. Notre objectif est de faciliter et de sécuriser la gestion des prestations, services et demandes fédéraux.
+
+En accédant au service login.gov, vous reconnaissez et acceptez la présente politique de confidentialité et les règles d’utilisation de login.gov. Nous publierons toute modification de ces conditions sur cette page. Si les modifications affectent notre traitement de vos informations personnelles ou sont jugées importantes, nous vous en informerons par courriel. Si nous ne pouvons pas vous contacter par courriel, nous nous réservons le droit de vous contacter par d’autres moyens, y compris par courrier postal. Si, à tout moment, vous n’acceptez plus la présente politique de confidentialité ou toute autre condition pertinente du service login.gov, vous pouvez fermer votre compte.
 
 ### L'Autorité - Qui autorise la collecte de ces données? ### {#authority}
 
@@ -19,7 +23,7 @@ Les informations que vous fournissez sont collectées conformément à 6 USC § 
 
 Login.gov collabore avec des agences qui ont besoin d'un accès sécurisé et privé à leurs applications et services. Chaque agence peut demander différents niveaux de sécurité en fonction de ses besoins. Lorsque vous créez et vous connectez à un compte login.gov, vous recevez un justificatif d'identité électronique. Nous avons besoin de vos informations d'identification personnelle, ou PII, pour générer ces informations d'identification. Imaginez cette information comme une clé que vous seul pouvez utiliser. La clé ouvre en toute sécurité la porte au service ou à l'application d'une agence partenaire.
 
-#### De quelles informations avons-nous besoin? ####
+#### De quelles informations avons-nous besoin?
 
 * Pour l'authentification afin d'établir un compte sécurisé, nous avons besoin de votre nom, de votre adresse e-mail et d'une méthode d'authentification. Votre méthode d'authentification peut être un numéro de téléphone sur lequel nous partageons un code SMS, une clé de sécurité USB ou d'autres options.
 * La vérification d'identité nécessite des informations plus sensibles telles qu'un numéro de sécurité sociale, une adresse, un numéro de téléphone associé à votre adresse et un identifiant d'État ou un permis de conduire basé aux États-Unis.
@@ -32,7 +36,7 @@ Login.gov collabore avec des agences qui ont besoin d'un accès sécurisé et pr
 
 Cette liste n'est pas compréhensible. Veuillez consulter la notice du système d'enregistrement pour toutes les entités et individus.
 
-#### Qu'advient-il des informations que vous partagez? ####
+#### Qu'advient-il des informations que vous partagez?
 
 Tous les enregistrements sont stockés électroniquement dans une base de données dans l'environnement Amazon Web Services (AWS) de GSA. Vous pouvez modifier ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/account).
 
