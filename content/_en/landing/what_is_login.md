@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: landing
 title: What is login.gov?
 description: Accessing government agencies should be simple — and secure.
 component:

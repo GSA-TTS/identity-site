@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: landing
 title: Create an account
 description: Join the millions of people who trust login.gov for safe, secure
   access to government agencies.

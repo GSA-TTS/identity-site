@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: landing
 title: The public’s one account for government.
 description: Use one account and password for secure, private access to
   participating government agencies.
