@@ -719,36 +719,6 @@ nav:
   system_status: login.gov system status
   what_is_login_gov: What is login.gov?
   who_uses_login_gov: Who uses login.gov?
-partners_page:
-  section_1:
-    p_1: We help government agencies manage, secure and optimize the login experience for their websites, services and applications.
-  section_2:
-    heading_1: For federal agencies
-    heading_2: Save time and money
-    heading_3: Try out login.gov
-    p_1: Identity proofing and authentication for use by all government agencies, created by a federal agency.
-    p_2:
-      a_1: Become a partner
-    p_3: login.gov is a shared government service that includes development and customer support. Plus we do the work to ensure compliance.
-    p_4:
-      a_1: Learn more
-    p_5: Developers can create a test application in our sandbox and try out a future integration.
-    p_6:
-      a_1: Request sandbox access
-  section_3:
-    heading: Answers you may find helpful
-  section_4:
-    heading_1: Why should my agency use login.gov?
-    heading_2: Who else uses login.gov?
-    heading_3: How does my agency get started?
-    heading_4: Is login.gov's authentication platform accessible?
-    p_1: We’ll help your agency by eliminating the burden and cost of creating and maintaining authentication and identity proofing systems, keeping up with evolving standards and technologies, and by lowering costs.
-    p_2: login.gov is used by over 60 applications at 17 agencies including Cabinet level agencies such as the Department of Defense, Department of Homeland Security, Department of Energy, and the Executive Office of the President. Over 17 million people have signed up to use login.gov, across all applications.
-    p_3: To get started, reach out to our team using this [form](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e). We’ll work with you to understand and capture your needs and requirements at a high level. We will then jointly decide whether login.gov makes sense for your particular business and use cases.
-    p_4: We follow all accessibility standards and we comply with Section 508.
-  footer:
-    heading: Developer Resources
-    p_1: Check out our easy-to-use login.gov [developer guide](http://developers.login.gov).
 playbook_page:
   section_1:
     p_1: Identity management — or making sure that only the correct people get access
