@@ -203,23 +203,23 @@ help_page:
   categories:
     - title: Commencez avec login.gov
       description: Créez votre compte. Découvrez les options d'authentification et d'autres caractéristiques du compte.
-      url: /help/get-started/overview/
+      url: /fr/help/get-started/overview/
       image: /assets/img/help/get-started.svg
     - title: Des problèmes pour vous connecter?
       description: Vous avez oublié votre mot de passe ? Votre compte est bloqué ? Nous vous aiderons à résoudre vos problèmes d'accès.
-      url: /help/trouble-signing-in/overview/
+      url: /fr/help/trouble-signing-in/overview/
       image: /assets/img/help/trouble-signing-in.svg
     - title: Gérez votre compte
       description: Modifiez les paramètres de votre compte, notamment votre mot de passe, votre numéro de téléphone, votre adresse électronique, etc.
-      url: /help/manage-your-account/overview/
+      url: /fr/help/manage-your-account/overview/
       image: /assets/img/help/manage-your-account.svg
     - title: Assistance auprès des agences spécifiques
       description: Obtenez de l'aide avec Trusted Traveler Programs (TTP), SAM.gov.
-      url: /help/specific-agencies/overview/
+      url: /fr/help/specific-agencies/overview/
       image: /assets/img/help/help-specific-agencies.svg
     - title: Vérifiez votre identité
       description: Découvrez les différentes options de vérification de votre identité.
-      url: /help/verify-your-identity/overview/
+      url: /fr/help/verify-your-identity/overview/
       image: /assets/img/help/verify-your-id.svg
 help_pages:
   get-started:
