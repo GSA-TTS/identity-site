@@ -719,26 +719,6 @@ nav:
   system_status: login.gov system status
   what_is_login_gov: What is login.gov?
   who_uses_login_gov: Who uses login.gov?
-playbook_page:
-  section_1:
-    p_1: Identity management — or making sure that only the correct people get access
-      to systems — is central to delivering public services online. We are sharing
-      these principles to help developers and technologists in government agencies
-      build usable, secure, and privacy-protecting consumer identity management systems.
-  section_2:
-    heading_1: The principles
-    heading_2: Implementation
-    p_1: Building this system includes taking recommendations and best practices from
-      policy experts, system architects, and people focused on creating a great user
-      experience. Our research and our progress so far has led us to identify five
-      major principles that we believe will help us make the best system possible.
-    p_2:
-      a_1: See the principles
-    p_3: Before implementing login.gov or any other consumer identity management system,
-      you should determine whether your agency or organization needs one. Below is
-      a list of questions to ask and things to consider to help you figure that out.
-    p_4:
-      a_1: Learn about implementation
 policies:
   title: Privacy & security
   sections:
