@@ -118,42 +118,6 @@ contact_page:
       piv_cac: PIV/CAC issue
       signing_in: Signing into your login.gov account
       verifying_identity: Verifying your identity
-:
-  section_1:
-    p_1:
-  section_2:
-    heading_1: The principles
-    heading_2: Implementation
-    p_1: Building this system includes taking recommendations and best practices from
-      policy experts, system architects, and people focused on creating a great user
-      experience. Our research and our progress so far has led us to identify five
-      major principles that we believe will help us make the best system possible.
-    p_2:
-      a_1: See the principles
-    p_3: Before implementing login.gov or any other consumer identity management system,
-      you should determine whether your agency or organization needs one. Below is
-      a list of questions to ask and things to consider to help you figure that out.
-    p_4:
-      a_1: Learn about implementation
-  column_1:
-    content:
-      p_1: Identity proofing and authentication for use by all government agencies, created by a federal agency.
-    heading: For all government agencies
-  column_2:
-    content:
-      p_1: Login.gov is a shared government service that includes development and customer support.
-    heading: Save time and money
-  column_3:
-    content:
-      p_1: Create a test application in our sandbox.
-    heading: Try out login.gov
-  footer:
-    heading: Contact us
-    p_1: If you’re interested in learning more about the platform, please [fill out this form](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e).
-  intro:
-    a_1: Get started
-    heading:
-    p_1:
 global:
   language: Language
   locales:
