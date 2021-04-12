@@ -10,3 +10,4 @@ Try the following:
 
 1. Sign in using the previous email address you used to register with the partner agency. 
 2. Contact the partner agency and ask them to link your account to the new email address.
+{: .number-list}
