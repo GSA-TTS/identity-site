@@ -1,0 +1,15 @@
+<article class="container why-login-gov">
+    <header class="intro">{{ site.data[page.lang].settings["index"]["why"]["heading"] | replace: 'site.baseurl', site.baseurl | markdownify }}</header>
+    <div class="grid-row">
+      <div class="tablet:grid-col">
+        <h3 class="hdr individuals">{{ include.subheading1 }}</h3>
+        {{ include.col1 | prepend: site.baseurl | markdownify }}
+      </div>
+      <div class="tablet:grid-col">
+        {{ site.data[page.lang].settings["index"]["why"]["partners"] | replace: 'site.baseurl', site.baseurl | markdownify }}
+      </div>
+      <div class="tablet:grid-col">
+        {{ site.data[page.lang].settings["index"]["why"]["developers"] | replace: 'site.baseurl', site.baseurl | markdownify }}
+      </div>
+    </div>
+  </article>

@@ -11,6 +11,8 @@ layout: base
 
   {% if page.component.class == 'what-is-login' %}
     {% include components/2-col.html class=page.component.class col1=page.component.col1 col2=page.component.col2 %}
+  {% elsif page.three_col.class == 'why-login-gov' %}
+    {% include components/3-col.html class=page.three_col.class subheading1=page.three_col.subheading1 col1=page.three_col.col1 col2=page.three_col.col2 col3=page.three_col.col3 %}
   {% else %}
     {{ content }}
   {% endif %}
