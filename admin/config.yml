@@ -22,7 +22,7 @@ backend:
 #   proxy_url: http://localhost:8081/api/v1
 # local_backend: true
 
-media_folder: "assets/img/"
+media_folder: 'assets/img/'
 public_folder: '/img/uploads'
 publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
