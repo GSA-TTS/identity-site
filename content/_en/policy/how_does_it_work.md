@@ -3,7 +3,6 @@ layout: sidenav
 title: "Privacy & security: How it works"
 description: Learn how we protect and secure your personal information.
 permalink: /policy/how-does-it-work/
-index: 1
 sidenav: policies
 ---
 ## How does it work ## {#how-does-it-work}
