@@ -1,13 +1,13 @@
 # Netlify CMS Settings
 ## Comment out when doing local development
-# backend:
-   name: github
-   repo: 18f/identity-site
-   branch: main
-   base_url: https://federalistapp.18f.gov
-   auth_endpoint: external/auth/github
-   preview_context: federalist/build
-   use_graphql: true
+backend:
+  name: github
+  repo: 18f/identity-site
+  branch: main
+  base_url: https://federalistapp.18f.gov
+  auth_endpoint: external/auth/github
+  preview_context: federalist/build
+  use_graphql: true
 #
 #
 # Uncomment when doing local development on Netlify CMS
@@ -21,7 +21,6 @@
 #   branch: jd-three-column-layout
 #   proxy_url: http://localhost:8081/api/v1
 # local_backend: true
-
 
 media_folder: "assets/img/"
 public_folder: '/img/uploads'
@@ -151,15 +150,16 @@ collections:
           name: 'sidenav',
           widget: 'select',
           default: 'policies',
-          options: ['policies', 'accessibility', 'contact_us', 'none'],
+          options: ['policies', 'accessibility', 'contact_us'],
           i18n: duplicate,
         }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
-      - { label: 'Permalink', name: 'permalink', widget: 'string', required: false, i18n: true }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
       - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
       - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
+      - { label: 'Order', name: 'index', widget: 'number', i18n: duplicate }
   - label: Contact us
     name: contact
     folder: content/
