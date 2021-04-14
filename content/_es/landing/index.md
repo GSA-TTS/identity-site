@@ -12,6 +12,7 @@ component:
   class: " "
 three_col:
   class: why-login-gov
+  heading: Login.gov es para ti
   subheading1: Individuos
   col1: >-
     Use una cuenta para tener acceso privado y seguro a las agencias

@@ -13,6 +13,7 @@ component:
   class: " "
 three_col:
   class: why-login-gov
+  heading: Login.gov is for you
   subheading1: Individuals
   col1: >-
     Use one account for secure, private access to participating government
@@ -35,7 +36,6 @@ three_col:
 
 
     [See developer guide](https://developers.login.gov/){:class="why-more-info"}
-  heading: Login.gov is for you
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
 ---

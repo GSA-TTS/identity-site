@@ -12,6 +12,7 @@ component:
   class: " "
 three_col:
   class: why-login-gov
+  heading: Login.gov est fait pour vous
   subheading1: Personnes
   col1: >-
     Utilisez un seul compte pour un accès sécurisé et privé aux agences
@@ -35,7 +36,6 @@ three_col:
 
 
     [Voir le guide du développeur](https://developers.login.gov/){:class="why-more-info"}
-  heading: Login.gov est fait pour vous
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
 ---
