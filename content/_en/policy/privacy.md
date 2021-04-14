@@ -7,7 +7,6 @@ description: Learn how we ask for, use, retain, and protect your personal
 permalink: /policy/our-privacy-act-statement/
 redirect_from:
   - /policy/our-privacy-practices/
-index: 2
 ---
 ## Our privacy act statement ## {#our-privacy-act-statement}
 

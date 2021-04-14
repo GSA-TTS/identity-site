@@ -6,7 +6,6 @@ description: Conozca cómo solicitamos, usamos, retenemos y protegemos su
 permalink: /es/policy/our-privacy-act-statement/
 redirect_from:
   - /es/policy/our-privacy-practices/
-index: 2
 ---
 ## Nuestra declaración de la ley de privacidad ## {#our-privacy-act-statement}
 

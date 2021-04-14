@@ -3,7 +3,6 @@ layout: sidenav
 title: "Privacy & security: Messaging terms and conditions"
 description: Learn how we use text messaging for authentication.
 permalink: /policy/messaging-terms-and-conditions/
-index: 4
 sidenav: policies
 ---
 ## Messaging terms and conditions ## {#messaging-terms-and-conditions}

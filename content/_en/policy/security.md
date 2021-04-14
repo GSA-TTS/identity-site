@@ -3,7 +3,6 @@ layout: sidenav
 title: 'Privacy & security: Our security practices'
 description: 'Learn the various methods we use to protect this U.S. government service and your data, and to ensure the service remains available to all users.'
 permalink: /policy/our-security-practices/
-index: 3
 sidenav: policies
 redirect_from:
 - /help/privacy-and-security/how-do-i-make-my-password-strong/
