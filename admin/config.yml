@@ -1,13 +1,13 @@
 # Netlify CMS Settings
 ## Comment out when doing local development
-# backend:
-#   name: github
-#   repo: 18f/identity-site
-#   branch: main
-#   base_url: https://federalistapp.18f.gov
-#   auth_endpoint: external/auth/github
-#   preview_context: federalist/build
-#   use_graphql: true
+backend:
+  name: github
+  repo: 18f/identity-site
+  branch: main
+  base_url: https://federalistapp.18f.gov
+  auth_endpoint: external/auth/github
+  preview_context: federalist/build
+  use_graphql: true
 #
 #
 # Uncomment when doing local development on Netlify CMS
@@ -16,11 +16,11 @@
 # See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 #
 #
-backend:
-  name: git-gateway
-  branch: jd-three-column-layout
-  proxy_url: http://localhost:8081/api/v1
-local_backend: true
+# backend:
+#   name: git-gateway
+#   branch: jd-three-column-layout
+#   proxy_url: http://localhost:8081/api/v1
+# local_backend: true
 
 media_folder: "assets/img/"
 public_folder: '/img/uploads'
