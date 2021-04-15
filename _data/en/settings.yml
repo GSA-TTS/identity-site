@@ -154,48 +154,6 @@ help_subpages:
   manage-your-account: Manage your account
   specific-agencies: Help with specific agencies
   verify-your-identity: Verify your identity
-index:
-  column_1:
-    heading: Simple and secure for the public
-    p_1: Because login.gov is a shared service, users need fewer passwords and learn
-      fewer interfaces. Also, security experts protect one service instead of many.
-      Dedicated teams of design and security experts also will continuously improve
-      it.
-  column_2:
-    heading: Saving time and <br class="sm-show" />money
-    p_1: Login.gov handles software development, security operations, and customer
-      support. This frees up government departments to focus on their missions while
-      reducing costs and improving security.
-  column_3:
-    heading: Built <br class="sm-show"/>cooperatively
-    p_1: |-
-      Login.gov works with the private sector and nonprofits to identify and implement best practices and new standards.
-
-      Login.gov builds on groundwork laid by the [National Institute of Standards and Technology](https://www.nist.gov/), the [Cybersecurity National Action Plan](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan), and the [Federal Acquisition Service](https://www.gsa.gov/portal/content/105080).
-  intro:
-    content: Use one account and password for secure, private access to participating government agencies.
-    heading: The public’s one account for government.
-  why:
-    heading: |-
-      ## Login.gov is for you
-    individuals: |-
-      <h3 class="hdr individuals">Individuals</h3>
-
-      Use one account for secure, private access to participating government agencies.
-
-      [Learn about login.gov](site.baseurl/what-is-login/){:class="why-more-info"}
-    partners: |-
-      <h3 class="hdr partners">Agency partners</h3>
-
-      Protect your users' information with the highest standards of digital security and user experience.  Login.gov handles software development, security operations, and customer support so you don't have to.
-
-      [Become a partner](https://partners.login.gov/){:class="why-more-info"}
-    developers: |-
-      <h3 class="hdr developers">Agency developers</h3>
-
-      Developer resources, real-time support and modern tools to help you implement and deploy your application with login.gov
-
-      [See developer guide](https://developers.login.gov){:class="why-more-info"}
 meta:
   accessibility:
     description: Read our accessibility statement

@@ -148,49 +148,6 @@ help_subpages:
   manage-your-account: Administrar su cuenta
   specific-agencies: Ayuda con agencias específicas
   verify-your-identity: Verificación de identidad
-index:
-  column_1:
-    heading: Servicio compartido
-    p_1: Debido a que login.gov es un servicio compartido, los usuarios necesitan
-      menos contraseñas y menos interfaces que aprender. Además, los expertos en seguridad
-      protegen un solo servicio en lugar de muchos. Los equipos de expertos se dedican
-      a mejorar el diseño y la seguridad continuamente.
-  column_2:
-    heading: Conveniencia y eficacia
-    p_1: Esto permite ahorro de tiempo y dinero en el Gobierno, quitando una tarea
-      común que no distraiga la concentración de las agencias en sus funciones principales.
-  column_3:
-    heading: Mayor cooperación
-    p_1: |-
-      Login.gov trabaja con el sector privado y organizaciones sin fines de lucro para identificar e implementar las mejores prácticas y nuevos estándares.
-
-      Login.gov construye sobre las bases establecidas por el Instituto [Nacional de Estándares y Tecnología (en inglés)](https://www.nist.gov/), el [Plan Nacional de Acción de Seguridad Cibernética (en inglés)](https://www.whitehouse.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan), y el [Servicio Federal de Adquisición (en inglés)](https://www.gsa.gov/portal/content/105080).
-  intro:
-    content:
-      Use una cuenta y contraseña para tener acceso privado y seguro a las agencias gubernamentales participantes.
-      participantes.
-    heading: La única cuenta del gobierno para el público.
-  why:
-    heading: |-
-      ## Login.gov es para ti
-    individuals: |-
-      ### Individuos
-
-      Use una cuenta para tener acceso privado y seguro a las agencias gubernamentales participantes.
-
-      [Más información sobre login.gov](site.baseurl/what-is-login/){:class="why-more-info"}
-    partners: |-
-      ### Socios de agencias
-
-      Proteja la información de sus usuarios con los más altos estándares de seguridad digital y experiencia de usuario. Login.gov maneja el desarrollo de software, las operaciones de seguridad y la atención al cliente para que usted no tenga que hacerlo.
-
-      [Convertirse en un compañero](https://partners.login.gov){:class="why-more-info"}
-    developers: |-
-      ### Desarrolladores de agencias
-
-      Recursos para desarrolladores, soporte en tiempo real y herramientas modernas para ayudarlo a implementar e implementar su aplicación con login.gov
-
-      [Ver guía para desarrolladores](https://developers.login.gov){:class="why-more-info"}
 meta:
   contact:
     title: Contacto
