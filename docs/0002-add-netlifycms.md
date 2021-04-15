@@ -1,6 +1,6 @@
 # 2. Add NetlifyCMS
 
-Date: 2021-04-13
+Date: 2021-02-20
 
 ## Status
 
