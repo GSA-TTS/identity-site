@@ -17,4 +17,3 @@ login.gov utilise la messagerie texte SMS pour vous aider à vérifier votre ide
 * Pour refuser de recevoir des messages texte de login.gov, répondez avec le message STOP au message texte indésirable.
 * Voir [Notre déclaration de confidentialité](/fr/policy/our-privacy-act-statement/) pour obtenir des informations sur la politique de confidentialité.
 * Les transporteurs ne sont pas responsables des messages retardés ou non livrés.
-principles_page:
