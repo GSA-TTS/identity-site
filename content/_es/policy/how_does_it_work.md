@@ -2,7 +2,6 @@
 title: "Privacidad y seguridad: cómo funciona"
 description: Descubra cómo protegemos y aseguramos su información personal.
 permalink: /es/policy/how-does-it-work/
-index: 1
 sidenav: policies
 ---
 ## ¿Cómo funciona? ## {#how-does-it-work}

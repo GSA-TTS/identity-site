@@ -7,7 +7,6 @@ description: Découvrez comment nous demandons, utilisons, conservons et
 permalink: /fr/policy/our-privacy-act-statement/
 redirect_from:
   - /fr/policy/our-privacy-practices/
-index: 2
 ---
 ## Notre déclaration de confidentialité ## {#our-privacy-act-statement}
 

@@ -2,7 +2,6 @@
 title: 'Confidentialité et sécurité: nos pratiques de sécurité'
 description: 'Découvrez les différentes méthodes que nous utilisons pour protéger ce service du gouvernement américain et vos données, et pour garantir que le service reste disponible pour tous les utilisateurs.'
 permalink: /fr/policy/our-security-practices/
-index: 3
 sidenav: policies
 redirect_from:
 - /fr/security/
