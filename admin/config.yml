@@ -1,13 +1,13 @@
 # Netlify CMS Settings
 ## Comment out when doing local development
-# backend:
-#   name: github
-#   repo: 18f/identity-site
-#   branch: main
-#   base_url: https://federalistapp.18f.gov
-#   auth_endpoint: external/auth/github
-#   preview_context: federalist/build
-#   use_graphql: true
+backend:
+  name: github
+  repo: 18f/identity-site
+  branch: main
+  base_url: https://federalistapp.18f.gov
+  auth_endpoint: external/auth/github
+  preview_context: federalist/build
+  use_graphql: true
 #
 #
 # Uncomment when doing local development on Netlify CMS
@@ -16,11 +16,11 @@
 # See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 #
 #
-backend:
-  name: git-gateway
-  branch: jd-more-bug-fixes
-  proxy_url: http://localhost:8081/api/v1
-local_backend: true
+# backend:
+#   name: git-gateway
+#   branch: jd-more-bug-fixes
+#   proxy_url: http://localhost:8081/api/v1
+# local_backend: true
 
 media_folder: 'assets/img/'
 public_folder: '/img/uploads'
@@ -95,7 +95,7 @@ collections:
     folder: content/
     i18n: true
     create: true
-    path: '{{slug}}'
+    path: 'landing/{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'landing' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
@@ -128,7 +128,7 @@ collections:
             - { label: 'Column 2', name: 'col2', widget: 'markdown', required: false, i18n: true }
             - { label: 'Subheading 3', name: 'subheading3', widget: 'string', required: false, i18n: true}             
             - { label: 'Column 3', name: 'col3', widget: 'markdown', required: false, i18n: true }
-      - { label: 'Permalink', name: 'permalink', widget: 'string', required: false, i18n: true }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
       - { label: 'Twitter card', name: 'twitter_card', widget: 'select', default: 'large', i18n: duplicate, options: ['small', 'large'] }
       - { label: 'Image', name: 'image', widget: 'image', default: '/assets/img/login-gov-600x314.png', i18n: duplicate }
       - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
@@ -156,7 +156,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
-      - { label: 'Permalink', name: 'permalink', widget: 'string', required: false, i18n: true }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
       - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
       - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
   - label: Contact us
