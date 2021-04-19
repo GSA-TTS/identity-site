@@ -1,13 +1,13 @@
 # Netlify CMS Settings
 ## Comment out when doing local development
-backend:
-  name: github
-  repo: 18f/identity-site
-  branch: main
-  base_url: https://federalistapp.18f.gov
-  auth_endpoint: external/auth/github
-  preview_context: federalist/build
-  use_graphql: true
+# backend:
+#   name: github
+#   repo: 18f/identity-site
+#   branch: main
+#   base_url: https://federalistapp.18f.gov
+#   auth_endpoint: external/auth/github
+#   preview_context: federalist/build
+#   use_graphql: true
 #
 #
 # Uncomment when doing local development on Netlify CMS
@@ -16,11 +16,11 @@ backend:
 # See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 #
 #
-# backend:
-#   name: git-gateway
-#   branch: jd-three-column-layout
-#   proxy_url: http://localhost:8081/api/v1
-# local_backend: true
+backend:
+  name: git-gateway
+  branch: jd-more-bug-fixes
+  proxy_url: http://localhost:8081/api/v1
+local_backend: true
 
 media_folder: 'assets/img/'
 public_folder: '/img/uploads'
@@ -95,7 +95,7 @@ collections:
     folder: content/
     i18n: true
     create: true
-    path: 'landing/{{slug}}'
+    path: '{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'landing' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
@@ -110,7 +110,7 @@ collections:
         collapsed: true
         required: false
         fields:
-            - { label: 'Class', name: 'class', widget: 'string', i18n: duplicate }
+            - { label: 'Class', name: 'class', widget: 'string', required: false, i18n: duplicate }
             - { label: 'Column 1', name: 'col1', widget: 'markdown', required: false, i18n: true }
             - { label: 'Column 2', name: 'col2', widget: 'markdown', required: false, i18n: true }
       - label: 'Three Column'
@@ -120,14 +120,14 @@ collections:
         collapsed: true
         required: false
         fields:
-            - { label: 'Class', name: 'class', widget: 'string',  i18n: duplicate }
+            - { label: 'Class', name: 'class', required: false, widget: 'string',  i18n: duplicate }
             - { label: 'Heading', name: 'heading', widget: 'string', required: false, i18n: true}
             - { label: 'Subheading 1', name: 'subheading1', widget: 'string', required: false, i18n: true}            
             - { label: 'Column 1', name: 'col1', widget: 'markdown', required: false, i18n: true }
             - { label: 'Subheading 2', name: 'subheading2', widget: 'string', required: false, i18n: true}             
             - { label: 'Column 2', name: 'col2', widget: 'markdown', required: false, i18n: true }
             - { label: 'Subheading 3', name: 'subheading3', widget: 'string', required: false, i18n: true}             
-            - { label: 'Column 3', name: 'col3', widget: 'markdown', i18n: true }
+            - { label: 'Column 3', name: 'col3', widget: 'markdown', required: false, i18n: true }
       - { label: 'Permalink', name: 'permalink', widget: 'string', required: false, i18n: true }
       - { label: 'Twitter card', name: 'twitter_card', widget: 'select', default: 'large', i18n: duplicate, options: ['small', 'large'] }
       - { label: 'Image', name: 'image', widget: 'image', default: '/assets/img/login-gov-600x314.png', i18n: duplicate }
