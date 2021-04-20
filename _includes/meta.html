@@ -21,7 +21,7 @@
   {% endcapture %}
 {% endif %}
 
-<title>{{ title_rendered | xml_escape }}|{{ site.title }}</title>
+<title>{{ title_rendered | xml_escape }}| {{ site.title }}</title>
 <meta property="og:title" content="{{ title_rendered | xml_escape }} | {{ site.title | xml_escape }}" />
 <meta name="twitter:title" content="{{ title_rendered | xml_escape }} | {{ site.title | xml_escape }}" />
 

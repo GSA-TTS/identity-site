@@ -2,7 +2,6 @@
 title: "Confidentialité et sécurité: Conditions générales de messagerie"
 description: Découvrez comment nous utilisons la messagerie texte pour l'authentification.
 permalink: /fr/policy/messaging-terms-and-conditions/
-index: 4
 sidenav: policies
 ---
 ## Termes et conditions de la messagerie ## {#messaging-terms-and-conditions}
@@ -18,4 +17,3 @@ login.gov utilise la messagerie texte SMS pour vous aider à vérifier votre ide
 * Pour refuser de recevoir des messages texte de login.gov, répondez avec le message STOP au message texte indésirable.
 * Voir [Notre déclaration de confidentialité](/fr/policy/our-privacy-act-statement/) pour obtenir des informations sur la politique de confidentialité.
 * Les transporteurs ne sont pas responsables des messages retardés ou non livrés.
-principles_page:

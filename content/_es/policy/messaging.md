@@ -2,7 +2,6 @@
 title: "Privacidad y seguridad: términos y condiciones de mensajería"
 description: Descubra cómo usamos la mensajería de texto para la autenticación.
 permalink: /es/policy/messaging-terms-and-conditions/
-index: 4
 sidenav: policies
 ---
 ## Términos y condiciones de mensajería ## {#messaging-terms-and-conditions}

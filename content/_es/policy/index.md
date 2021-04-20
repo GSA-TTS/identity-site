@@ -2,7 +2,6 @@
 title: Privacidad y seguridad
 description: Obtenga más información sobre nuestras prácticas de seguridad y privacidad
 permalink: /es/policy/
-index: 0
 sidenav: policies
 ---
 ## Login.gov está comprometido con su privacidad y seguridad ## {#intro}

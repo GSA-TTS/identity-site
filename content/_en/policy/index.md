@@ -3,7 +3,6 @@ layout: sidenav
 title: Privacy & security
 description: Learn more about our security and privacy practices
 permalink: /policy/
-index: 0
 sidenav: policies
 redirect_from:
   - /docs/Logingov_PIA_August2019.pdf/
