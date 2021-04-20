@@ -1,6 +1,4 @@
 ---
-title: testing
-category: get-started
-order: 10
+title: test
 ---
-bonjour
+hello
