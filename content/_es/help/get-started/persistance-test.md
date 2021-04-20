@@ -1,6 +1,4 @@
 ---
-title: but will this stay
-category: get-started
-order: 7
+title: will this cause an error
 ---
-will this stay?
+error check 1-2-3
