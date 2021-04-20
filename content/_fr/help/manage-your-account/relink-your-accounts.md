@@ -1,4 +1,5 @@
 ---
+layout: help
 category: manage-your-account
 title: "Relier tes comptes"
 category: manage-your-account
@@ -8,7 +9,7 @@ Si tu rencontres des problèmes pour te connecter à un site Web partenaire de l
 
 Tu peux essayer les solutions suivantes : 
 
-1. Connecte-toi en utilisant l’adresse électronique que tu as utilisée précédemment pour t’inscrire auprès de l’agence partenaire. 
+1. Connecte-toi en utilisant l’adresse électronique que tu as utilisée précédemment pour t’inscrire auprès de l’agence partenaire. 
 
-2. Contacte l’agence partenaire et demande-lui de lier ton compte à la nouvelle adresse électronique.
+2. Contacte l’agence partenaire et demande-lui de lier ton compte à la nouvelle adresse électronique.
 {: .number-list}
