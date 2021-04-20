@@ -3,7 +3,7 @@ layout: help
 category: manage-your-account
 title: "Revincular tus cuentas"
 category: manage-your-account
-order: 10
+order: 5
 ---
 Si tienes problemas para iniciar sesión en un sitio web asociado a login.gov después de cambiar tu dirección de correo electrónico, es posible que dicho socio haya vinculado tu cuenta a una dirección de correo electrónico diferente. Puede que desees volver a vincular tu cuenta para acceder a tu información o perfil en el sitio web asociado. 
 
