@@ -1,4 +1,3 @@
 ---
-title: testing
+title: ""
 ---
-test
