@@ -159,6 +159,7 @@ collections:
       - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
       - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
       - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
+      - { label: 'Order', name: 'index', widget: 'number', i18n: duplicate }
   - label: Contact us
     name: contact
     folder: content/
