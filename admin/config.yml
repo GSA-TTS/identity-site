@@ -18,7 +18,7 @@ backend:
 #
 # backend:
 #   name: git-gateway
-#   branch: jd-more-bug-fixes
+#   branch: JD-lg-4499-english-landing-page
 #   proxy_url: http://localhost:8081/api/v1
 # local_backend: true
 
@@ -100,7 +100,7 @@ collections:
     filter: { field: 'layout', value: 'landing' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'main' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'landing' }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - label: 'Two Column'
