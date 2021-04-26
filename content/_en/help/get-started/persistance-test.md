@@ -1,7 +1,7 @@
 ---
 layout: help
 title: persistance test
-category: get-started
+category: manage-your-account
 order: 7
 ---
 I know this will stay
