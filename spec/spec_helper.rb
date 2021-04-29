@@ -9,6 +9,7 @@ RSpec.configure do |config|
   config.disable_monkey_patching!
 end
 
+REPO_ROOT = Pathname.new(File.expand_path('../..', __FILE__))
 SITE_ROOT = Pathname.new(File.expand_path('../../_site', __FILE__))
 
 def file_at(path)
