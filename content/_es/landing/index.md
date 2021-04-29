@@ -37,7 +37,6 @@ three_col:
 
 
     [Ver guía para desarrolladores](https://developers.login.gov){:class="why-more-info"}
-  heading: Login.gov es para ti
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
 ---

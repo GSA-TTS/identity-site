@@ -18,7 +18,7 @@ backend:
 #
 # backend:
 #   name: git-gateway
-#   branch: JD-lg-4499-english-landing-page
+#   branch: fix-translations-not-populating
 #   proxy_url: http://localhost:8081/api/v1
 # local_backend: true
 
