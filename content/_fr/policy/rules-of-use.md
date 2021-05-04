@@ -2,7 +2,7 @@
 layout: sidenav
 title: "Règles d&#39;utilisation"
 description: "Règles d&#39;utilisation."
-permalink: permalink: /fr/policy/rules-of-use/
+permalink: /fr/policy/rules-of-use/
 sidenav: policies
 ---
 # **Règles d&#39;utilisation**
