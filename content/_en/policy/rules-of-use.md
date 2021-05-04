@@ -154,4 +154,4 @@ GSA's failure to exercise or enforce any right or provision of this Agreement sh
 
 ## 4. Contacting Us
 
-If you have questions about these terms or any other aspect of the login.gov service, you can contact us at https://login.gov/contact/.
+If you have questions about these terms or any other aspect of the login.gov service, you can contact us at <https://login.gov/contact/>.
