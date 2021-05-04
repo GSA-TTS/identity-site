@@ -100,11 +100,11 @@ The login.gov service is operated within the United States, but is accessible gl
 
   The login.gov service operates with a high standard of service, both in service delivery and customer support.
 
-  ** 1. Availability and Uptime**
+  1. Availability and Uptime
 
   As an authentication system and gateway to federal applications, we strive for high availability and uptime. Our goal is to maintain a service uptime of 99.9% across all sites and systems. See our [status page](https://logingov.statuspage.io/) for live statistics, incident reports, and subscribe to updates.
 
-  ** 2. Customer Support**
+  2. Customer Support
 
 Customer support and help desk services are always available through [https://login.gov/contact/](https://login.gov/contact/). When you submit for customer support, we will use any information you provide to address your question or comment, and may use your feedback to improve our service or for other purposes as we see fit, such as for marketing. In doing so, we will never reveal your personal information outside of the login.gov service except as required by applicable law or as stated elsewhere in these terms.
 
