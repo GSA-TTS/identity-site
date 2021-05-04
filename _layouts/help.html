@@ -11,6 +11,8 @@ hero: false
     <div class="page-content__prose grid-col-12 desktop:grid-col-8 help-article">
       <h1>{{page.title}}</h1>
       {{ page.content | replace: 'site.baseurl', site.baseurl | markdownify }}
+      <div id="touchpoints_feedback"></div>
+      <script src="https://touchpoints.app.cloud.gov/touchpoints/58f51d4d.js" async></script>
       <a href="#main-content" class="anchor-to-top">{{ site.data[page.lang].settings.nav.anchor_to_top }}</a>
     </div>
     <div class="display-none desktop:display-block grid-offset-1 grid-col-3">
