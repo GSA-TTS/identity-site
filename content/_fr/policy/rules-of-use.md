@@ -5,7 +5,7 @@ description: "Règles d&#39;utilisation."
 permalink: /fr/policy/rules-of-use/
 sidenav: policies
 ---
-# **Règles d&#39;utilisation**
+# Règles d&#39;utilisation
 
 Le service login.gov est une plateforme de la U.S. General Services Administration qui permet au public d&#39;accéder en ligne, en toute sécurité et en toute confidentialité aux programmes gouvernementaux partenaires. Avec un seul compte login.gov, les utilisateurs peuvent se connecter à plusieurs agences gouvernementales. Notre objectif est de faciliter et de sécuriser la gestion des avantages, des services et des applications au niveau fédéral.
 

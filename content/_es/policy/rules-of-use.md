@@ -20,7 +20,7 @@ Estas condiciones de servicio proporcionan:
 
 El servicio login.gov ofrece al público un acceso en línea seguro y privado a los programas gubernamentales participantes. Con una sola cuenta de login.gov, puede acceder a los servicios ofrecidos por múltiples agencias gubernamentales. Nuestro objetivo es hacer que la gestión de las prestaciones, servicios y aplicaciones federales sea más fácil y segura.
 
-El servicio de login.gov se asocia con otras agencias federales (&quot;socios&quot;) para permitir a los usuarios acceder a esos servicios con una sola cuenta de login.gov, lo que elimina la necesidad de crear muchas cuentas independientes dentro del gobierno.
+El servicio de login.gov se asocia con otras agencias federales ("socios") para permitir a los usuarios acceder a esos servicios con una sola cuenta de login.gov, lo que elimina la necesidad de crear muchas cuentas independientes dentro del gobierno.
 
 El servicio de login.gov protege su cuenta aplicando fuertes medidas de seguridad y protege su privacidad recopilando la información mínimamente necesaria de usted y, a su vez, revelando a los socios solo la información necesaria para que estos ejecuten su servicio. Además, login.gov nunca comparte nada sobre usted con un socio sin su consentimiento explícito y usted puede revocar ese consentimiento en cualquier momento.
 
@@ -45,7 +45,7 @@ Además de los detalles sobre su consentimiento indicados en otras partes de est
 
 Asimismo, acepta que NO falseará su identidad ni la información que presente en el servicio login.gov, incluso a través de los canales de atención al cliente.
 
-También acepta que está obligado a cumplir estos términos y la[política de privacidad](https://login.gov/policy/),y otros términos relacionados con el servicio de login.gov.
+También acepta que está obligado a cumplir estos términos y la[política de privacidad] (https://login.gov/policy/),y otros términos relacionados con el servicio de login.gov.
 
 Publicaremos cualquier cambio en estos términos en esta página. Si los cambios afectan a nuestro control de su información personal o se consideran significativos, se lo notificaremos por correo electrónico. Si no podemos ponernos en contacto con usted por correo electrónico, nos reservamos el derecho de hacerlo por otros medios, incluido el correo postal. Si en cualquier momento deja de estar de acuerdo con estas condiciones o con cualquier otra condición relevante del servicio de login.gov, puede cerrar su cuenta.
 
@@ -65,7 +65,7 @@ Los autenticadores que actualmente tiene a su disposición en el servicio login.
   2. Código de respaldo;
   3. Códigos de acceso únicos a través de SMS (texto) o mensajes de voz, enviados a un dispositivo celular que controla;
   4. Códigos de acceso de una sola vez a través de aplicaciones de autentificación como Google Authenticator o Authy, descargadas en un dispositivo celular propio y registradas en login.gov;
-  5. Tarjetas PIV y CAC, solo para el personal federal y de las fuerzas armadas; dispositivos y software de seguridad webauthN, como tokens FIDO (&quot;Fast IDentity Online&quot;), Yubikeys y Titan Security Keys de Google, obtenidos por usted y registrados en login.gov;
+  5. Tarjetas PIV y CAC, solo para el personal federal y de las fuerzas armadas; dispositivos y software de seguridad webauthN, como tokens FIDO ("Fast IDentity Online"), Yubikeys y Titan Security Keys de Google, obtenidos por usted y registrados en login.gov;
 
 El servicio de login.gov no emite autenticadores físicos. Los autenticadores que no sean contraseñas o códigos de seguridad requieren hardware o software que proporciona usted mismo.
 
@@ -87,13 +87,13 @@ Del mismo modo, compararemos la información que nos proporcione con otros regis
 
 Una vez que hayamos validado las pruebas de identidad que nos proporcione, verificaremos que usted es esa persona. Para ello, le pedimos que se haga una foto (un autorretrato) para que podamos compararla con la licencia de conducir o el pasaporte que nos ha facilitado. Para proteger su identidad, esta foto debe tomarse en vivo para que sepamos que no es otra persona la que presenta una foto suya. Podemos utilizar servicios externos para que nos ayuden con esta validación de la foto.
 
-Ni nosotros ni ningún servicio externo guarda copias de ninguna foto que nos envíe, ya sea de una prueba de identidad o de usted mismo. Detallamos más cómo utilizamos su información en nuestra[política de privacidad](https://login.gov/policy/).
+Ni nosotros ni ningún servicio externo guarda copias de ninguna foto que nos envíe, ya sea de una prueba de identidad o de usted mismo. Detallamos más cómo utilizamos su información en nuestra[política de privacidad] (https://login.gov/policy/).
 
 # 5. Cancelación
 
 Puede cancelar su cuenta en cualquier momento a través de su perfil de cuenta. Además, en caso de fraude u otras violaciones de estas normas de uso, podemos revocar el acceso a su cuenta.
 
-Si esto ocurre, seguiremos protegiendo la información de su cuenta de acuerdo con nuestra [política de privacidad](https://login.gov/policy/) y nuestro aviso de sistema de registro [aquí](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) y[aquí](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+Si esto ocurre, seguiremos protegiendo la información de su cuenta de acuerdo con nuestra [política de privacidad] (https://login.gov/policy/) y nuestro aviso de sistema de registro [aquí](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) y[aquí](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
 En el improbable caso de que se interrumpa el servicio de login.gov, la información de la cuenta se conservará con arreglo a nuestro aviso sobre el sistema de registros, en su versión modificada, al que puede acceder [aquí](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records)y [aquí](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
@@ -133,7 +133,7 @@ No se cobran tarifas al usuario por registrarse o utilizar el servicio de login.
 
 Renuncia a las garantías
 
-Los servicios de Login.gov se proporcionan &quot;tal cual&quot; y en función de su disponibilidad. Por la presente, GSA renuncia a todas las garantías de cualquier tipo, expresas o implícitas, incluidas, sin limitación, las garantías de comerciabilidad, idoneidad para un fin determinado y no infracción.
+Los servicios de Login.gov se proporcionan "tal cual" y en función de su disponibilidad. Por la presente, GSA renuncia a todas las garantías de cualquier tipo, expresas o implícitas, incluidas, sin limitación, las garantías de comerciabilidad, idoneidad para un fin determinado y no infracción.
 
 GSA no garantiza que los servicios estén libres de errores o que el acceso a los mismos sea continuo o ininterrumpido.
 
