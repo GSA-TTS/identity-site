@@ -45,7 +45,7 @@ Además de los detalles sobre su consentimiento indicados en otras partes de est
 
 Asimismo, acepta que NO falseará su identidad ni la información que presente en el servicio login.gov, incluso a través de los canales de atención al cliente.
 
-También acepta que está obligado a cumplir estos términos y la[política de privacidad] (https://login.gov/policy/),y otros términos relacionados con el servicio de login.gov.
+También acepta que está obligado a cumplir estos términos y la [política de privacidad] (https://login.gov/policy/),y otros términos relacionados con el servicio de login.gov.
 
 Publicaremos cualquier cambio en estos términos en esta página. Si los cambios afectan a nuestro control de su información personal o se consideran significativos, se lo notificaremos por correo electrónico. Si no podemos ponernos en contacto con usted por correo electrónico, nos reservamos el derecho de hacerlo por otros medios, incluido el correo postal. Si en cualquier momento deja de estar de acuerdo con estas condiciones o con cualquier otra condición relevante del servicio de login.gov, puede cerrar su cuenta.
 
@@ -87,7 +87,7 @@ Del mismo modo, compararemos la información que nos proporcione con otros regis
 
 Una vez que hayamos validado las pruebas de identidad que nos proporcione, verificaremos que usted es esa persona. Para ello, le pedimos que se haga una foto (un autorretrato) para que podamos compararla con la licencia de conducir o el pasaporte que nos ha facilitado. Para proteger su identidad, esta foto debe tomarse en vivo para que sepamos que no es otra persona la que presenta una foto suya. Podemos utilizar servicios externos para que nos ayuden con esta validación de la foto.
 
-Ni nosotros ni ningún servicio externo guarda copias de ninguna foto que nos envíe, ya sea de una prueba de identidad o de usted mismo. Detallamos más cómo utilizamos su información en nuestra[política de privacidad] (https://login.gov/policy/).
+Ni nosotros ni ningún servicio externo guarda copias de ninguna foto que nos envíe, ya sea de una prueba de identidad o de usted mismo. Detallamos más cómo utilizamos su información en nuestra [política de privacidad] (https://login.gov/policy/).
 
 # 5. Cancelación
 
