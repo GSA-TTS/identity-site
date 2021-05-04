@@ -171,4 +171,4 @@ Le fait que la GSA n'exerce pas ou n'applique pas un droit ou une disposition du
 
 **4. Nous contacter**
 
-Si vous avez des questions concernant ces conditions ou tout autre aspect du service login.gov, vous pouvez nous contacter à l'adresse https://login.gov/contact/.
+Si vous avez des questions concernant ces conditions ou tout autre aspect du service login.gov, vous pouvez nous contacter à l'adresse <https://login.gov/contact/>.
