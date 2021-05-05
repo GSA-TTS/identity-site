@@ -1,6 +1,6 @@
 ---
 layout: sidenav
-title: "Rules of Use"
+title: Rules of Use
 description: Rules of use.
 permalink: /policy/rules-of-use/
 sidenav: policies
