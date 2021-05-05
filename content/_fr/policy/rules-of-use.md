@@ -11,9 +11,10 @@ Le service login.gov est une plateforme de la U.S. General Services Administrati
 
 Ces conditions d'utilisation incluent :
 
-● Les informations sur le mode de fonctionnement de la plateforme login.gov et ce à quoi s'attendre,
-
-● Les modalités selon lesquelles nous vous permettons d'accéder à la plateforme login.gov, ● La manière dont nous utilisons vos informations et vos droits sur ces informations, et ● Les modalités auxquelles vous vous engagez lorsque vous effectuez certaines actions sur la plateforme login.gov.
+- Les informations sur le mode de fonctionnement de la plateforme login.gov et ce à quoi s'attendre,
+- Les modalités selon lesquelles nous vous permettons d'accéder à la plateforme login.gov, 
+- La manière dont nous utilisons vos informations et vos droits sur ces informations, et
+- Les modalités auxquelles vous vous engagez lorsque vous effectuez certaines actions sur la plateforme login.gov.
 
 # 1. Définition du service général
 
