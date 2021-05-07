@@ -1,5 +1,7 @@
 ---
 title: Documentos de identidad estatales aceptados
+category: verify-your-identity
+order: 2
 ---
 Por el momento, solo se aceptan los siguientes documentos de identidad estatales:
 
