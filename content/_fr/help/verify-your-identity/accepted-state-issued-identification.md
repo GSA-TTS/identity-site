@@ -14,8 +14,6 @@ Nous travaillons actuellement à l'ajout de nouveaux moyens de vérifier votre i
 
 En attendant, veuillez contacter le centre d'assistance de l'agence partenaire pour savoir ce que vous pouvez faire.
 
- 
-
 ## Articles connexes
 
-Vérifiez votre identité
+[Vérifiez votre identité](https://login.gov/fr/help/verify-your-identity/overview/)
