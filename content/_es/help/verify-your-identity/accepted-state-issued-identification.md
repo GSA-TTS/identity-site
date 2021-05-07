@@ -14,8 +14,6 @@ Actualmente, estamos trabajando para agregar más formas de verificar tu identid
 
 Mientras tanto, ponte en contacto con el centro de ayuda de la agencia asociada para averiguar qué puedes hacer.
 
- 
-
 ## Artículos relacionados
 
-Verificación de identidad
+[Verificación de identidad](https://login.gov/es/help/verify-your-identity/overview/)
