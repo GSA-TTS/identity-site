@@ -15,8 +15,8 @@ You cannot verify your identity on login.gov without a state-issued ID. We’re 
 
 In the meantime, please contact the partner agency’s help center to find out what you can do.
 
- 
 
-Related articles 
+
+## Related articles 
 
 [Verify your identity](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/)
