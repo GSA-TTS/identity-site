@@ -7,7 +7,7 @@ backend:
   base_url: https://federalistapp.18f.gov
   auth_endpoint: external/auth/github
   preview_context: federalist/build
-  use_graphql: true
+  # use_graphql: true
 #
 #
 # Uncomment when doing local development on Netlify CMS
