@@ -243,6 +243,8 @@ nav:
         url: /es/policy/our-security-practices/
       - name: Términos y condiciones de mensajería
         url: /es/policy/messaging-terms-and-conditions/
+      - name: Reglas de uso
+        url: /es/policy/rules-of-use/
   principles: Principios
   privacy_&_security: Privacidad y seguridad
   security: Seguridad
@@ -290,6 +292,8 @@ policies:
       sublinks:
         - text: Términos y condiciones de SMS
           url: '#terms'
+    - name: Reglas de uso
+      url: '/policy/rules-of-use/'
 who-uses-login-page:
   hero:
     heading: ¿Quién usa login.gov?
