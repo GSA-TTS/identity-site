@@ -36,7 +36,7 @@ Prior to using the login.gov service, you are required to agree to these terms o
 
 In addition to details about your consent stated elsewhere in these terms, by accepting these terms and using the login.gov service, you agree that:
 
-1. Are not a child under 13 years of age,
+1. You are not a child under 13 years of age,
 2. Any information you provide to us is complete and accurate,
 3. If you verify your identity, the identity you claim when using the service is your own,
 4. You will comply with applicable local, state, and federal laws in your use of the service,
