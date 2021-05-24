@@ -8,7 +8,7 @@
   {% assign _src = _script.src | default: _script %}
 <script src="{{ _src | relative_url }}"></script>
 {% endfor %}{% endfor %}
-{% if page.layout == "help" and page.category != "verify-your-identity" %}
-  <script src="https://touchpoints.app.cloud.gov/touchpoints/58f51d4d.js"></script>
+{% if layout.include_touchpoints and page.category != "verify-your-identity" %}
   <script src="{{'/assets/js/touchpoints_translations.js' | relative_url}}"></script>
-{% endif %}  
+  <script src="https://touchpoints.app.cloud.gov/touchpoints/58f51d4d.js" async onload="translateTouchpoints()"></script>
+{% endif %}
