@@ -13,7 +13,8 @@ include_touchpoints: true
       <h1>{{page.title}}</h1>
       {{ page.content | replace: 'site.baseurl', site.baseurl | markdownify }}
       {% if page.category != "verify-your-identity" %}
-      <div id="touchpoints_feedback"></div>
+        <div id="touchpoints_feedback"></div>
+      {% endif %}
       <a href="#main-content" class="anchor-to-top">{{ site.data[page.lang].settings.nav.anchor_to_top }}</a>
     </div>
     <div class="display-none desktop:display-block grid-offset-1 grid-col-3">
