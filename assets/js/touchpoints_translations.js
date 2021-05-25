@@ -1,9 +1,11 @@
 const yesButton = document.querySelector('input[type=submit][value=yes]');
 const noButton = document.querySelector('input[type=submit][value=no]');
-const question = document.querySelectorAll('label')
 const touchpointsRoot = document.getElementById('touchpoints_feedback');
 if (touchpointsRoot) {
+  const label = touchpointsRoot.querySelector('label');
   yesButton.value = touchpointsRoot.dataset.yes;
   noButton.value = touchpointsRoot.dataset.no;
-  question[1].outerText = touchpointsRoot.dataset.question;
+  if(label) {
+    label.innerText = touchpointsRoot.dataset.question;
+  }
 }
