@@ -5,7 +5,7 @@ if (touchpointsRoot) {
   const label = touchpointsRoot.querySelector('label');
   yesButton.value = touchpointsRoot.dataset.yes;
   noButton.value = touchpointsRoot.dataset.no;
-  if(label) {
+  if (label) {
     label.innerText = touchpointsRoot.dataset.question;
   }
 }
