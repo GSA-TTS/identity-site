@@ -35,7 +35,6 @@ collections:
 # Scripts
 scripts:
   - /assets/js/build/main.js
-  - /assets/js/build/touchpoints_translations.js
 
 # Styles
 styles:
