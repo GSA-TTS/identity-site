@@ -109,6 +109,9 @@ contact_page:
       other: Autre
       piv_cac: Problème de PIV/CAC
       signing_in: Connexion
+feedback_form:
+  'yes': "Oui"
+  'no': "Non"
 footer:
   gsa: Administration des services généraux des États-Unis
 global:

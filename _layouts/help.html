@@ -1,6 +1,7 @@
 ---
 layout: help_landing
 hero: false
+includes_touchpoints: true
 ---
 {% capture slug_permalink %}/{{ page.slug }}{% endcapture %}
 {% assign parent_url = page.url | replace: slug_permalink %}
@@ -12,7 +13,12 @@ hero: false
       <h1>{{page.title}}</h1>
       {{ page.content | replace: 'site.baseurl', site.baseurl | markdownify }}
       {% if page.category != "verify-your-identity" %}
-        <div id="touchpoints_feedback"></div>
+        <div 
+          id="touchpoints_feedback"
+          data-yes="{{ site.data[page.lang].settings.feedback_form.yes }}"
+          data-no="{{ site.data[page.lang].settings.feedback_form.no }}"
+          >
+        </div>
       {% endif %}
       <a href="#main-content" class="anchor-to-top">{{ site.data[page.lang].settings.nav.anchor_to_top }}</a>
     </div>

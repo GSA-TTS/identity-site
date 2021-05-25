@@ -110,6 +110,9 @@ contact_page:
       piv_cac: Problema con CAC (tarjeta de acceso común) o PIV (verificación de identidad
         personal)
       signing_in: Iniciando sesión
+feedback_form:
+  'yes': "Si"
+  'no': "No"
 footer:
   gsa: Administración General de Servicios de EE. UU.
 global:
