@@ -15,6 +15,7 @@ includes_touchpoints: true
       {% if page.category != "verify-your-identity" %}
         <div 
           id="touchpoints_feedback"
+          data-question="{{ site.data[page.lang].settings.feedback_form.question }}"
           data-yes="{{ site.data[page.lang].settings.feedback_form.yes }}"
           data-no="{{ site.data[page.lang].settings.feedback_form.no }}"
           >

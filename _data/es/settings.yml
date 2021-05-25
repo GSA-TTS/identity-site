@@ -113,6 +113,7 @@ contact_page:
 feedback_form:
   'yes': "Si"
   'no': "No"
+  question: ¿Te resultó útil este artículo?
 footer:
   gsa: Administración General de Servicios de EE. UU.
 global:

@@ -112,6 +112,7 @@ contact_page:
 feedback_form:
   'yes': "Oui"
   'no': "Non"
+  question: Cet article vous a-t-il été utile?
 footer:
   gsa: Administration des services généraux des États-Unis
 global:

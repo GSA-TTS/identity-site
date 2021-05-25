@@ -121,6 +121,7 @@ contact_page:
 feedback_form:
   'yes': "Yes"
   'no': "No"
+  question: "Was this article helpful?"
 global:
   language: Language
   locales:
