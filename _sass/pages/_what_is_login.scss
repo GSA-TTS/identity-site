@@ -1,10 +1,12 @@
 .container.what-is-login {
   .one-account,
-  .secure-account {
+  .secure-account,
+  .how-it-works {
     padding: 2rem 0;
   }
 
-  .secure-account {
+  .secure-account,
+  .how-it-works {
     border-top: $border-style;
   }
 
@@ -24,6 +26,24 @@
       margin-top: 2rem;
     }
   }
+
+  .text-column {
+    display: block;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+
+  .participating-agencies {
+    background: url(../img/what-is-login/how-it-works/how-it-works1.png) top no-repeat;
+    padding-top: 8rem;
+    background-size: 90%;
+  }
+
+  .agencies-verify {
+    background: url(../img/what-is-login/how-it-works/how-it-works2.png) top no-repeat;
+    padding-top: 8rem;
+    background-size:90%;
+  }
 }
 
 @include at-media("tablet") {
@@ -40,6 +60,31 @@
       background: url(../img/what-is-login/security/what-is-security.png) right
         center no-repeat;
       padding: 6rem 50% 6rem 0;
+    }
+    
+    .participating-agencies {
+      background: url(../img/what-is-login/how-it-works/how-it-works1.png) top no-repeat;
+      padding-top: 8rem;
+      background-size: 90%;
+    }
+
+    .agencies-verify {
+      background: url(../img/what-is-login/how-it-works/how-it-works2.png) top no-repeat;
+      padding-top: 8rem;
+      background-size:90%;
+    }
+
+    .text-column {
+      display: inline-block;
+      width: 47%;
+    }
+
+    .first-column {
+      margin-right: 2rem;
+    }
+
+    .banner-text {
+      padding: 2rem 30% 2rem 0;
     }
 
     .mobile {
