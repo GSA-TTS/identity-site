@@ -126,7 +126,7 @@ jobs:
       - slack/status:
           fail_only: true
           failure_message: ":login-gov::red_circle: external link check failed"
-          only_for_branches: 'master' # don't notify Slack on a branch build
+          only_for_branches: 'main' # don't notify Slack on a branch build
 
 workflows:
   version: 2
@@ -160,4 +160,4 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
