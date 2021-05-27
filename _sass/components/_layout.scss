@@ -116,3 +116,19 @@ article.container,
   @include u-margin-top(8);
   @include u-padding-top(4);
 }
+
+#touchpoints_feedback {
+  margin-top: 2rem;
+}
+
+#fba-modal-title, .section-title-view {
+  display: none;
+}
+
+.usa-button.usa-button-group__item {
+  color: $blue;
+  background-color: $white;
+  border: 2px solid $blue;
+  border-radius: .5rem;
+  padding: .75rem 2.25rem;
+}

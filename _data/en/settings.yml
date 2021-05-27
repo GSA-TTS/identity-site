@@ -118,6 +118,10 @@ contact_page:
       piv_cac: PIV/CAC issue
       signing_in: Signing into your login.gov account
       verifying_identity: Verifying your identity
+feedback_form:
+  'yes': "Yes"
+  'no': "No"
+  question: "Was this article helpful?"
 global:
   language: Language
   locales:
