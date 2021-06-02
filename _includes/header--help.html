@@ -51,7 +51,11 @@
                     href="{{ article.url }}"
                     class="{% if page.url == article.url %}usa-current{% endif %}"
                   >
-                    {{ article.title }}
+                    {% if article.meta_title %}
+                      {{ article.meta_title }}
+                    {% else %}
+                      {{ article.title }}
+                    {% endif %}
                   </a>
                 </li>
               {% endfor %}
