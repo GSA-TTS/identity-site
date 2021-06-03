@@ -29,11 +29,9 @@
             {% assign subpage_url = '/help/' | append: subpage_slug | append: '/' | prepend: site.baseurl %}
             {% assign path_split_subpage = page.path | split: subpage_url %}
             {% assign subpage_has_current = 'false' %}
-            {% assign articles = site.data[page.lang].settings.help[subpage_slug] %}
+            {% assign articles = site[page.lang] | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang" | sort: 'order' %}
             {% for article in articles %}
-              {% assign article_slug = article[0] %}
-              {% assign article_url = subpage_url | append:article_slug | append: '/' %}
-              {% if page.url == article_url %}
+              {% if page.url == article.url %}
                 {% assign subpage_has_current = 'true' %}
               {% endif %}
             {% endfor %}
@@ -47,18 +45,19 @@
               <span>{{ subpage_title }}</span>
             </button>
             <ul id="help-header-nav-{{ subpage_slug }}" class="usa-nav__submenu">
-              {% for article in articles %} {% assign article_slug = article[0] %} {% assign
-              article_title = article[1] %} {% assign article_url = subpage_url | append:
-              article_slug | append: '/' %} {% assign path_split_article = page.path | split:
-              article_url %}
-              <li class="usa-nav__submenu-item">
-                <a
-                  href="{{ article_url }}"
-                  class="{% if page.url == article_url %}usa-current{% endif %}"
-                >
-                  {{ article_title }}
-                </a>
-              </li>
+              {% for article in articles %}
+                <li class="usa-nav__submenu-item">
+                  <a
+                    href="{{ article.url | prepend: site.baseurl }}"
+                    class="{% if page.url == article.url %}usa-current{% endif %}"
+                  >
+                    {% if article.meta_title %}
+                      {{ article.meta_title }}
+                    {% else %}
+                      {{ article.title }}
+                    {% endif %}
+                  </a>
+                </li>
               {% endfor %}
             </ul>
           </li>
