@@ -7,8 +7,6 @@ window.LoginGov = window.LoginGov || {};
 const components = [accordion, accordionCloseButton, banner, navigation];
 domready(() => components.forEach((component) => component.on()));
 
-const ariaAccordion = require('aria-accordion');
-
 $(function () {
   // Mobile main nav toggle
 
@@ -90,10 +88,4 @@ $(function () {
       );
     }
   });
-
-  // Required element to turn into an accordion
-  var elm = document.querySelector('.js-accordion');
-  if (elm) {
-    new ariaAccordion.Accordion(elm, {}, { reflectStatic: true });
-  }
 });
