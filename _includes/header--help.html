@@ -48,7 +48,7 @@
               {% for article in articles %}
                 <li class="usa-nav__submenu-item">
                   <a
-                    href="{{ article.url }}"
+                    href="{{ article.url | prepend: site.baseurl }}"
                     class="{% if page.url == article.url %}usa-current{% endif %}"
                   >
                     {% if article.meta_title %}
