@@ -1,13 +1,3 @@
-.learn-more {
-    padding-left: 0;
-    padding-right: 0;
-
-    @include at-media("tablet") {
-        padding-left: 1rem;
-        padding-right: 2rem;
-    }
-}
-
 .one-account-banner__backdrop {
     height: 22rem;
 
@@ -17,12 +7,10 @@
     }
 
     .one-account-banner__content {
-        margin: 0 auto;
-        padding-top: 1.5rem;
-
-        @include at-media("tablet") {
-            padding-top: 0;
-        }
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .one-account-banner__content:nth-child(2) {
@@ -34,10 +22,12 @@
             padding-top: 0;
         }
     }
+}
 
-    @include at-media("tablet") {
+@include at-media("tablet") {
+    .one-account-banner__backdrop {
         height: 11rem;
         flex-direction: row;
         justify-content: center;
     }
-} 
+}
