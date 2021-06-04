@@ -27,11 +27,6 @@
     }
   }
 
-  .text-container {
-    display: flex;
-    flex-direction: column;
-  }
-
   .text-column {
     display: block;
     margin-top: 2rem;
@@ -67,12 +62,8 @@
       padding: 6rem 50% 6rem 0;
     }
 
-    .text-container {
-      flex-direction: row;
-    }
-
     .participating-agencies {
-      margin-right: 2em;
+      padding-right: 2em;
     }
 
     .banner-text {
