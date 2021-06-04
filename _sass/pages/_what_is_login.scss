@@ -27,22 +27,27 @@
     }
   }
 
+  .text-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .text-column {
     display: block;
-    padding: 1rem 0;
     margin-top: 2rem;
+    padding: 1rem 0;
   }
 
   .participating-agencies {
-    background: url(../img/what-is-login/how-it-works/how-it-works1.png) top no-repeat;
-    padding-top: 8rem;
+    background: url(../img/what-is-login/how-it-works/how-it-works1.png) top left no-repeat;
     background-size: 90%;
+    padding-top: 10rem;
   }
 
   .agencies-verify {
-    background: url(../img/what-is-login/how-it-works/how-it-works2.png) top no-repeat;
-    padding-top: 8rem;
+    background: url(../img/what-is-login/how-it-works/how-it-works2.png) top left no-repeat;
     background-size:90%;
+    padding-top: 10rem;
   }
 }
 
@@ -51,40 +56,32 @@
     .one-account {
       background: url(../img/what-is-login/one-account/what-is-one-account.png)
         left center no-repeat;
-      padding: 3rem 0 3rem 50%;
       background-size: 45%;
+      padding: 3rem 0 3rem 50%;
     }
 
     .secure-account {
-      border-top: $border-style;
       background: url(../img/what-is-login/security/what-is-security.png) right
         center no-repeat;
+      border-top: $border-style;
       padding: 6rem 50% 6rem 0;
-    }
-    
-    .participating-agencies {
-      background: url(../img/what-is-login/how-it-works/how-it-works1.png) top no-repeat;
-      padding-top: 8rem;
-      background-size: 90%;
-    }
-
-    .agencies-verify {
-      background: url(../img/what-is-login/how-it-works/how-it-works2.png) top no-repeat;
-      padding-top: 8rem;
-      background-size:90%;
     }
 
     .text-column {
-      display: inline-block;
-      width: 47%;
+      display: inline-grid;
     }
 
-    .first-column {
-      margin-right: 2rem;
+    .text-container {
+      flex-direction: row;
+    }
+
+    .participating-agencies {
+      margin-right: 2em;
     }
 
     .banner-text {
-      padding: 2rem 30% 2rem 0;
+      padding-right: 30%;
+      padding-bottom: 2rem;
     }
 
     .mobile {

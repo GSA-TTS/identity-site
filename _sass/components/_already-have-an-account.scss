@@ -1,0 +1,43 @@
+.learn-more {
+    padding-left: 0;
+    padding-right: 0;
+
+    @include at-media("tablet") {
+        padding-left: 1rem;
+        padding-right: 2rem;
+    }
+}
+
+.one-account-banner__backdrop {
+    height: 22rem;
+
+    &::before {
+        background-image: none;
+        content: '';
+    }
+
+    .one-account-banner__content {
+        margin: 0 auto;
+        padding-top: 1.5rem;
+
+        @include at-media("tablet") {
+            padding-top: 0;
+        }
+    }
+
+    .one-account-banner__content:nth-child(2) {
+        border-top: 1px solid $white;
+
+        @include at-media("tablet") {
+            border-left: 1px solid $white;
+            border-top: none;
+            padding-top: 0;
+        }
+    }
+
+    @include at-media("tablet") {
+        height: 11rem;
+        flex-direction: row;
+        justify-content: center;
+    }
+} 
