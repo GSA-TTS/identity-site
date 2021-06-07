@@ -28,6 +28,9 @@ component:
 
 
     ¿Ya tienes una cuenta? [Inicie sesión para administrar su cuenta y actualizar su información personal u opciones de seguridad](https://secure.login.gov/).
+
+
+    change in spanish here
   col2: >-
     ## Acceso seguro y privado para el público
 
@@ -36,6 +39,9 @@ component:
 
 
     Login.gov es proporcionado por [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
+
+
+    change in spanish here
 permalink: /es/what-is-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
