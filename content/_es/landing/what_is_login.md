@@ -36,6 +36,33 @@ component:
 
 
     Login.gov es proporcionado por [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
+  bannerText: >-
+    ## **¿Cómo funciona?**
+
+
+    Las dependencias participantes usan login.gov para ayudar a proteger a sus usuarios. Cuando intente iniciar sesión en una dependencia participante, se le pedirá que inicie sesión o cree una cuenta con login.gov antes de poder acceder a su perfil en dicha dependencia.
+
+
+    Se lleva a cabo de la siguiente manera:
+  bannercol1: >-
+    ### Todas las dependencias participantes utilizan login.gov para iniciar
+    sesión de forma segura.
+
+
+    Usted proporciona dos datos para iniciar sesión de forma segura y proteger su información.
+
+
+    * Contraseña
+
+    * Método de autenticación (como un código de un solo uso enviado a su teléfono o una aplicación de autenticación)
+
+
+    El uso combinado de una contraseña y otro método dificulta el acceso de terceros a su información.
+  bannercol2: >-
+    ### Algunas dependencias requieren que compruebe su identidad.
+
+
+    Login.gov ayuda a la dependencia a verificar la misma. El envío de información de identificación personal (PII), como su identificación con fotografía, permite verificar que se trata de usted y no de alguien haciéndose pasar por usted. Nosotros nos limitamos a confirmar su identidad y no determinamos su elegibilidad para los servicios ofrecidos por la dependencia.
 permalink: /es/what-is-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png

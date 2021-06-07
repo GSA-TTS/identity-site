@@ -36,6 +36,32 @@ component:
 
 
     Login.gov est fourni par [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
+  bannerText: >
+    ## Comment ça marche?
+
+
+    Les organismes participants utilisent login.gov afin de mieux protéger leurs utilisateurs. Lorsque vous essayerez de vous connecter à un organisme participant, vous serez invité à vous connecter ou à créer un compte sur login.gov avant de pouvoir accéder à votre profil auprès de cet organisme. 
+     
+    Voilà comment: 
+  bannercol1: >-
+    ### Tous les organismes participants utilisent login.gov pour assurer une
+    connexion sécurisée.
+
+
+    Vous devez renseigner deux types d'informations pour vous connecter en toute sécurité et protéger vos informations. 
+
+
+    * le mot de passe 
+
+    * la méthode d'authentification (par exemple, un code à usage unique envoyé sur votre téléphone ou une application d'authentification).
+
+
+    l'utilisation d'un mot de passe et d'une autre méthode rend l'accès à vos informations par des tiers difficile.
+  bannercol2: >-
+    ### Certains organismes vous demanderont de vérifier votre identité.
+
+
+    Login.gov vérifiera votre identité pour l'organisme. En soumettant des renseignements permettant d'identifier une personne (PII), comme votre photo d'identité, vous confirmez qu'il s'agit bien de vous et non de quelqu'un qui se fait passer pour vous. Nous ne faisons que confirmer qu'il s'agit bien de vous et ne cherchons pas à déterminer votre éligibilité aux services de l'organisme.
 permalink: /fr/what-is-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png

@@ -38,7 +38,7 @@ component:
 
     Login.gov is provided by [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
   bannerText: >-
-    ## **How does it work?**
+    ## How does it work?
 
 
     Participating agencies use login.gov to help protect their users. When you try to sign in to a participating agency, you’ll be prompted to sign in or create an account with login.gov before you can access your profile with that agency.  
