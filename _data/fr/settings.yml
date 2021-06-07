@@ -12,6 +12,11 @@ accessible_labels:
 actions:
   search: Chercher
 banner:
+  already-have-an-account:
+    learn_more: En savoir plus concernant la création d'un compte
+    one_account: Login.gov est votre compte unique pour les services gouvernementaux
+    sign_in: Connectez-vous pour gérer votre compte et mettre à jour vos informations personnelles ou vos options de sécurité
+    text: Vous disposez déjà d'un compte?
   one-account-for-govt:
     create: Créer un compte
     learn: Apprendre à créer un compte
