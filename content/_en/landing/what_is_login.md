@@ -2,6 +2,7 @@
 layout: landing
 title: What is login.gov?
 description: Accessing government agencies should be simple — and secure.
+already_have_an_account_banner: true
 component:
   class: what-is-login
   col1: >-
@@ -37,7 +38,7 @@ component:
 
 
     Login.gov is provided by [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
-  bannerText: >-
+  bannertext: >-
     ## How does it work?
 
 

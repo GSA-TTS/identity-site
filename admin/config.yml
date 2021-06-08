@@ -112,7 +112,7 @@ collections:
         fields:
             - { label: 'Class', name: 'class', widget: 'string', required: false, i18n: duplicate }
             - { label: 'Column 1', name: 'col1', widget: 'markdown', required: false, i18n: true }
-            - { label: 'Banner Text', name: bannerText, widget: markdown, required: false, i18n: true}
+            - { label: 'Banner Text', name: bannertext, widget: markdown, required: false, i18n: true}
             - { label: 'Text Banner Column 1', name: bannercol1, widget: markdown, required: false, i18n: true }
             - { label: 'Text Banner Column 2', name: bannercol2, widget: markdown, required: false, i18n: true }
             - { label: 'Column 2', name: 'col2', widget: 'markdown', required: false, i18n: true }
