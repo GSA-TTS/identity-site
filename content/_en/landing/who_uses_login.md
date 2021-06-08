@@ -30,21 +30,4 @@ component:
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
 ---
-<aside class="who-uses-login">
-  <div class="bg-primary-lightest">
-    <div class="container who-uses-login">
-      <div class="partners list">
-        {{ site.data[page.lang].settings["who-uses-login-page"]["partners"] | replace: 'site.baseurl', site.baseurl | markdownify }}
-      </div>
-    </div>
-  </div>
-
-  <div>
-    <div class="container who-uses-login">
-      <div class="security">
-        {{ site.data[page.lang].settings["who-uses-login-page"]["security"] | replace: 'site.baseurl', site.baseurl | markdownify }}
-      </div>
-    </div>
-  </div>
-</aside>
 
