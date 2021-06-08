@@ -1,17 +1,15 @@
-<aside class="who-uses-login">
-    <div class="bg-primary-lightest">
-      <div class="container who-uses-login">
-        <div class="partners list">
-          {{ site.data[page.lang].settings["who-uses-login-page"]["partners"] | replace: 'site.baseurl', site.baseurl | markdownify }}
-        </div>
+  <div class="bg-primary-lightest">
+    <div class="container who-uses-login">
+      <div class="partners list">
+        {{ include.col1 | markdownify }}
       </div>
     </div>
+  </div>
   
-    <div>
-      <div class="container who-uses-login">
-        <div class="security">
-          {{ site.data[page.lang].settings["who-uses-login-page"]["security"] | replace: 'site.baseurl', site.baseurl | markdownify }}
-        </div>
+  <div>
+    <div class="container who-uses-login">
+      <div class="security">
+        {{ include.col2 | markdownify }}
       </div>
     </div>
-  </aside>
+  </div>
