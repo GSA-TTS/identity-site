@@ -241,7 +241,7 @@ nav:
       - name: Termes et conditions de la messagerie
         url: /fr/policy/messaging-terms-and-conditions/
       - name: Règles d'utilisation
-        url: /policy/rules-of-use/
+        url: /fr/policy/rules-of-use/
   principles: Principes
   privacy_&_security: Confidentialité et sécurité
   security: Sécurité
@@ -296,7 +296,7 @@ policies:
           url: '#terms'
     - link:
         text: Règles d'utilisation
-        url: '/policy/rules-of-use/'
+        url: '/fr/policy/rules-of-use/'
   heading_1: Les principes du guide de mise en œuvre de l'identité
   heading_2: Axé sur les besoins des utilisateurs
   heading_3: Être transparent sur le fonctionnement

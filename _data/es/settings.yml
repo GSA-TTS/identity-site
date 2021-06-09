@@ -288,7 +288,7 @@ policies:
         - text: Términos y condiciones de SMS
           url: '#terms'
     - name: Reglas de uso
-      url: '/policy/rules-of-use/'
+      url: '/es/policy/rules-of-use/'
 who-uses-login-page:
   hero:
     heading: ¿Quién usa login.gov?
