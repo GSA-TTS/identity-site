@@ -37,8 +37,7 @@ component:
 
 
     Les organismes participants utilisent login.gov afin de mieux protéger leurs utilisateurs. Lorsque vous essayerez de vous connecter à un organisme participant, vous serez invité à vous connecter ou à créer un compte sur login.gov avant de pouvoir accéder à votre profil auprès de cet organisme. 
-     
-    Voilà comment: 
+
   bannercol1: >-
     ### Tous les organismes participants utilisent login.gov pour assurer une
     connexion sécurisée.

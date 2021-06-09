@@ -38,8 +38,6 @@ component:
 
     Las dependencias participantes usan login.gov para ayudar a proteger a sus usuarios. Cuando intente iniciar sesión en una dependencia participante, se le pedirá que inicie sesión o cree una cuenta con login.gov antes de poder acceder a su perfil en dicha dependencia.
 
-
-    Se lleva a cabo de la siguiente manera:
   bannercol1: >-
     ### Todas las dependencias participantes utilizan login.gov para iniciar
     sesión de forma segura.
