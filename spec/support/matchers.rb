@@ -31,7 +31,7 @@ RSpec::Matchers.define :link_to_valid_headers do
 end
 
 RSpec::Matchers.define :link_to_locale_pages do |locale|
-  pages_with_broken_links = []
+  broken_links = []
 
   match do |actual|
     doc = actual
@@ -40,14 +40,14 @@ RSpec::Matchers.define :link_to_locale_pages do |locale|
       next if a[:lang]
       page = a[:href]
       link_path = URI::parse(page).path
-      pages_with_broken_links << a.to_html if !link_path.start_with? "/#{locale}/"
+      broken_links << a.to_html if !link_path.start_with? "/#{locale}/"
     end
 
-    expect(pages_with_broken_links).to be_empty
+    expect(broken_links).to be_empty
   end
 
   failure_message do |actual|
-    "expected that #{actual.url} would link to locale #{locale}:\n\n#{pages_with_broken_links.join("\n\n")}"
+    "expected that #{actual.url} would link to locale #{locale}:\n\n#{broken_links.join("\n\n")}"
   end
 end
 
