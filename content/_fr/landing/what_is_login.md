@@ -24,11 +24,6 @@ component:
 
     * Et plus…
 
-
-    Login.gov est votre seul compte pour le gouvernement. [En savoir plus sur la création d’un compte](https://login.gov/fr/create-an-account/).
-
-
-    Vous avez déjà un compte? [Connectez-vous pour gérer votre compte et mettre à jour vos informations personnelles ou vos options de sécurité](https://secure.login.gov/).
   col2: >-
     ## Accès sécurisé et privé pour le public
 

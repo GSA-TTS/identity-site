@@ -25,11 +25,6 @@ component:
 
     * And more…
 
-
-    Login.gov is your one account for government. [Learn more about creating an account](https://login.gov/create-an-account/).
-
-
-    Already have an account? [Sign in to manage your account and update your personal information or security options](https://secure.login.gov/).
   col2: >-
     ## Secure and private access for the public
 
