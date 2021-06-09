@@ -15,7 +15,13 @@
       </div>
     </div>
   </div>
-  <div class="secure-account page-content__prose">
-    {{ include.col2 | markdownify }}
+  <div class="secure-account-container">
+    <div class="page-content__prose tablet:grid-col-8">
+      {{ include.col2 | markdownify }}
+    </div>
+    <div class="image-container">
+      <img src="/assets/img/what-is-login/security/what-is-security.png" class="tablet:grid-col-6 lock-image" />
+    </div>
   </div>
+
 </article>

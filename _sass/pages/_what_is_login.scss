@@ -1,11 +1,11 @@
 .container.what-is-login {
   .one-account,
-  .secure-account,
+  .secure-account-container,
   .how-it-works {
     padding: 2rem 0;
   }
 
-  .secure-account,
+  .secure-account-container,
   .how-it-works {
     border-top: $border-style;
   }
@@ -44,6 +44,10 @@
     background-size:90%;
     padding-top: 10rem;
   }
+
+  .lock-image {
+    display: none;
+  }
 }
 
 @include at-media("tablet") {
@@ -55,11 +59,9 @@
       padding: 3rem 0 3rem 50%;
     }
 
-    .secure-account {
-      background: url(../img/what-is-login/security/what-is-security.png) right
-        center no-repeat;
-      border-top: $border-style;
-      padding: 6rem 50% 6rem 0;
+    .secure-account-container {
+      display: flex;
+      padding: 2rem 0;
     }
 
     .participating-agencies {
@@ -74,6 +76,13 @@
     .mobile {
       display: none;
     }
+
+    .lock-image {
+      display: block;
+      height: auto;
+      width: auto;
+    }
+
   }
 }
 
