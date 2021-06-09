@@ -11,6 +11,7 @@ end
 
 REPO_ROOT = Pathname.new(File.expand_path('../..', __FILE__))
 SITE_ROOT = Pathname.new(File.expand_path('../../_site', __FILE__))
+SITE_URL = YAML.load_file(File.join(REPO_ROOT, '_config.yml'))['url']
 
 def file_at(path)
   escaped_path = CGI.unescape(path)

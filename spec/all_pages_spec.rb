@@ -1,14 +1,24 @@
 require 'spec_helper'
 
+def admin_page?(path)
+  path.start_with?('admin/')
+end
+
+def redirect_page?(path)
+  File.read(file_at(path)).include?('<meta http-equiv="refresh"')
+end
+
+def get_locale(path)
+  match = %r{^(fr|es)/}.match(path)
+  match[1] if match
+end
+
 RSpec.describe 'all pages' do
-  Dir["#{SITE_ROOT}/**(?admin)/*.html"].sort.each do |path|
-    is_redirect_page = File.read(path).include?('<meta http-equiv="refresh"')
-    next if is_redirect_page
-
-    page = path.split(SITE_ROOT.to_s).last
-
-    describe page do
-      let(:doc) { Nokogiri::HTML(file_at(page)) }
+  files = Dir.glob('**/*.html', base: SITE_ROOT)
+  files.reject! { |path| admin_page?(path) || redirect_page?(path) }
+  files.sort.each do |path|
+    describe path do
+      let(:doc) { Nokogiri::HTML(file_at(path)) }
 
       it 'includes analytics tags' do
         expect(doc.to_s).to include('https://www.google-analytics.com/analytics.js')
@@ -29,6 +39,13 @@ RSpec.describe 'all pages' do
 
       xit 'links to valid internal pages' do
         expect(doc).to link_to_valid_internal_pages
+      end
+
+      locale = get_locale(path)
+      context 'localization', if: locale do
+        it 'maintains locale in links' do
+          expect(doc).to link_to_locale_pages(locale)
+        end
       end
     end
   end
