@@ -12,7 +12,7 @@ image: /assets/img/login-gov-600x314.png
 <div class="bg-primary-lightest">
   <div class="container who-uses-login">
     <div class="partners list">
-      {{ site.data[page.lang].settings["who-uses-login-page"]["partners"] | replace: 'site.baseurl', site.baseurl | markdownify }}
+      {{ site.data[page.lang].settings["who-uses-login-page"]["partners"] | replace: 'page.baseurl', page.baseurl | markdownify }}
     </div>
   </div>
 </div>
@@ -20,7 +20,7 @@ image: /assets/img/login-gov-600x314.png
 <div>
   <div class="container who-uses-login">
     <div class="security">
-      {{ site.data[page.lang].settings["who-uses-login-page"]["security"] | replace: 'site.baseurl', site.baseurl | markdownify }}
+      {{ site.data[page.lang].settings["who-uses-login-page"]["security"] | replace: 'page.baseurl', page.baseurl | markdownify }}
     </div>
   </div>
 </div>

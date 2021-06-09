@@ -1,12 +1,3 @@
-404_page:
-  content:
-    p_1: 'En su lugar, aquí hay algunos enlaces que pueden ser útiles:'
-  heading: Esta página ya no está disponible
-  links:
-    - title: Inicio
-      url: /
-    - title: Centro de ayuda
-      url: /help/
 accessible_labels:
   secondary_navigation: Navegación secundaria
 actions:
@@ -313,7 +304,7 @@ who-uses-login-page:
 
     <div class="mobile partners-img" aria-hidden="true"></div>
   security: |-
-    Login.gov se adhiere a los últimos [estándares de seguridad](site.baseurl/security) establecidos por las principales organizaciones de seguridad como el [Instituto Nacional de Estándares y Tecnología](https://www.nist.gov/), el [Plan de Acción Nacional de Ciberseguridad](https://www.hsdl.org/c/cybersecurity-national-action-plan/) y el [Servicio federal de adquisiciones](https://www.gsa.gov/about-us/organization/federal-acquisition-service)
+    Login.gov se adhiere a los últimos [estándares de seguridad](page.baseurl/security) establecidos por las principales organizaciones de seguridad como el [Instituto Nacional de Estándares y Tecnología](https://www.nist.gov/), el [Plan de Acción Nacional de Ciberseguridad](https://www.hsdl.org/c/cybersecurity-national-action-plan/) y el [Servicio federal de adquisiciones](https://www.gsa.gov/about-us/organization/federal-acquisition-service)
 
     Las agencias eligen login.gov porque ofrecemos una solución segura y sencilla. [Lea más sobre nuestro programa de socios](https://partners.login.gov).
 create-an-account:
@@ -329,7 +320,7 @@ create-an-account:
     ## 2. Contraseña segura
       * Las contraseñas deben tener al menos 12 caracteres y no deben incluir palabras o frases de uso común.
   step_3: |-
-    ## 3. Uno o más [métodos de autenticación](site.baseurl/help/authentication-methods/which-authentication-method-should-i-use/) como&#58;
+    ## 3. Uno o más [métodos de autenticación](page.baseurl/help/authentication-methods/which-authentication-method-should-i-use/) como&#58;
       * __Mas segura__
         * Clave de seguridad
         * Aplicación de autenticación

@@ -2,14 +2,14 @@
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo">
-        <a href="{{ '/' | prepend: site.baseurl }}" title="Home" aria-label="Home">
+        <a href="{{ '/' | prepend: page.baseurl }}" title="Home" aria-label="Home">
           <img
-            src="{{ site.baseurl }}/assets/img/logo.svg"
+            src="/assets/img/logo.svg"
             class="usa-logo__img"
             alt="login.gov home"
           />
         </a>
-        <a href="{{ site.baseurl }}/help/" class="usa-logo__help">
+        <a href="{{ page.baseurl }}/help/" class="usa-logo__help">
           {{ site.data.[page.lang].settings.nav.help_center }}</a>
       </div>
 
@@ -18,7 +18,7 @@
 
     <nav class="usa-nav" role="navigation">
       <button class="usa-nav__close">
-        <img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close" />
+        <img src="/assets/img/close.svg" alt="Close" />
       </button>
 
       <div class="desktop:display-none">
@@ -26,7 +26,7 @@
           {% for subpage in site.data[page.lang].settings.help_subpages %}
             {% assign subpage_slug = subpage[0] %}
             {% assign subpage_title = subpage[1] %}
-            {% assign subpage_url = '/help/' | append: subpage_slug | append: '/' | prepend: site.baseurl %}
+            {% assign subpage_url = '/help/' | append: subpage_slug | append: '/' | prepend: page.baseurl %}
             {% assign path_split_subpage = page.path | split: subpage_url %}
             {% assign subpage_has_current = 'false' %}
             {% assign articles = site[page.lang] | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang" | sort: 'order' %}
@@ -48,7 +48,7 @@
               {% for article in articles %}
                 <li class="usa-nav__submenu-item">
                   <a
-                    href="{{ article.url | prepend: site.baseurl }}"
+                    href="{{ article.url }}"
                     class="{% if page.url == article.url %}usa-current{% endif %}"
                   >
                     {% if article.meta_title %}
@@ -67,7 +67,7 @@
 
       <a
         class="usa-link desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold"
-        href="{{ '/contact' | prepend: site.baseurl }}"
+        href="{{ '/contact' | prepend: page.baseurl }}"
       >
         {{ site.data.[page.lang].settings.meta.contact_us.title }}
       </a>
@@ -84,7 +84,7 @@
 
       <a
         class="usa-link display-none desktop:display-inline text-no-underline text-bold margin-left-1"
-        href="{{ '/contact' | prepend: site.baseurl }}"
+        href="{{ '/contact' | prepend: page.baseurl }}"
       >
         {{ site.data.[page.lang].settings.meta.contact_us.title }}
       </a>

@@ -73,14 +73,17 @@ defaults:
       path: 'content/_en'
     values:
       lang: en
+      baseurl: ''
   - scope:
       path: 'content/_es'
     values:
       lang: es
+      baseurl: /es
   - scope:
       path: 'content/_fr'
     values:
       lang: fr
+      baseurl: /fr
 
 include:
   # dotfiles are excluded by default
@@ -111,7 +114,5 @@ help_pages:
   - manage-your-account
   - specific-agencies
   - verify-your-identity
-
-baseurl:
 
 url: https://www.login.gov
