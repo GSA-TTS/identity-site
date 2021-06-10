@@ -60,8 +60,7 @@
     }
 
     .secure-account-container {
-      display: flex;
-      padding: 2rem 0;
+      padding: 5rem 0;
     }
 
     .participating-agencies {
@@ -83,6 +82,10 @@
       width: auto;
     }
 
+    .secure-account-container {
+      background: url(../img/what-is-login/security/what-is-security.png) right 6em center no-repeat;
+      background-size: 25%;
+    }
   }
 }
 
