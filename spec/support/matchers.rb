@@ -40,7 +40,9 @@ RSpec::Matchers.define :link_to_locale_pages do |locale|
       next if a[:lang]
       page = a[:href]
       link_path = URI::parse(page).path
-      broken_links << a.to_html if !link_path.start_with? "/#{locale}/"
+      if !link_path.start_with?("/#{locale}/") && !File.exist?(File.join(REPO_ROOT, link_path))
+        broken_links << a.to_html
+      end
     end
 
     expect(broken_links).to be_empty
