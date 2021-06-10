@@ -25,7 +25,7 @@
         {% for question in related_questions %}
           <li class="usa-sidenav__item">
           <a class="{% if question.url == page.url %} active {% endif %}"
-              href="{{ question.url.baseurl }}">
+              href="{{ question.url | prepend: site.baseurl }}">
               {% if question.meta_title %}
                {{ question.meta_title }}
               {% else %}

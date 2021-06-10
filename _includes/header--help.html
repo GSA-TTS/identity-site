@@ -31,7 +31,7 @@
             {% assign subpage_has_current = 'false' %}
             {% assign articles = site[page.lang] | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang" | sort: 'order' %}
             {% for article in articles %}
-              {% if page.url == article.url %}
+              {% if page.url == article.url | prepend: site.baseurl %}
                 {% assign subpage_has_current = 'true' %}
               {% endif %}
             {% endfor %}

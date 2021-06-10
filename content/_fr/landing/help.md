@@ -17,7 +17,7 @@ hero: true
         </div>
         <div class="grid-col-10 padding-left-1 tablet:padding-left-3">
           <h2 class="margin-bottom-05">
-            <a href="{{ item.url }}">{{ item.title }}</a>
+            <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
           </h2>
           <p class="margin-top-05">{{ item.description }}</p>
         </div>
