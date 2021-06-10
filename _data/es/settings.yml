@@ -248,47 +248,6 @@ nav:
   system_status: Estado del sistema login.gov
   what_is_login_gov: ¿Qué es login.gov?
   who_uses_login_gov: ¿Quién usa login.gov?
-policies:
-  title: Privacidad y seguridad
-  sections:
-    - name: Nuestro compromiso con su privacidad y seguridad
-      url: '/policy/'
-      sublinks:
-        - text: Cómo trabajamos con nuestras agencias asociadas
-          url: '#how-we-work-with-our-partner-agencies'
-    - name: ¿Cómo funciona?
-      url: '/policy/how-does-it-work/'
-    - name: Nuestra declaración de la ley de privacidad
-      url: '/policy/our-privacy-act-statement/'
-      sublinks:
-        - text: La Autoridad - ¿Quién autoriza la recopilación de estos datos?
-          url: '#authority'
-        - text: El propósito - ¿Por qué necesitamos su información?
-          url: '#purpose'
-        - text: Usos de rutina - ¿Con quién se comparte habitualmente la información?
-          url: '#routine-uses'
-        - text: Consentimiento - ¿Cómo puede controlar qué información se comparte?
-          url: '#consent'
-        - text: Registros - ¿Dónde puede encontrar más información?
-          url: '#records'
-        - text: Análisis de sitios web
-          url: '#analytics'
-        - text: Evaluación del impacto en la privacidad
-          url: '#impact'
-    - name: Nuestras prácticas de seguridad
-      url: '/policy/our-security-practices/'
-      sublinks:
-        - text: Política de divulgación de vulnerabilidades
-          url: '#vdp'
-        - text: Para más información
-          url: '#more-info'
-    - name: Términos y condiciones de mensajería
-      url: '/policy/messaging-terms-and-conditions/'
-      sublinks:
-        - text: Términos y condiciones de SMS
-          url: '#terms'
-    - name: Reglas de uso
-      url: '/es/policy/rules-of-use/'
 who-uses-login-page:
   hero:
     heading: ¿Quién usa login.gov?
