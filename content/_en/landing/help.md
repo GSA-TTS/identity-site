@@ -12,7 +12,7 @@ hero: true
       <div class="grid-row flex-row tablet:flex-align-center">
         <div class="grid-col-2">
           <div class="usa-card__img">
-            <img alt="" src="{{ item.image }}">
+            <img alt="" src="{{ item.image | prepend: site.baseurl }}">
           </div>
         </div>
         <div class="grid-col-10 padding-left-1 tablet:padding-left-3">
