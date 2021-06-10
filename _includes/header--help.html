@@ -2,14 +2,14 @@
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo">
-        <a href="{{ '/' | locale_base_url }}" title="Home" aria-label="Home">
+        <a href="{{ '/' | locale_url }}" title="Home" aria-label="Home">
           <img
             src="{{ site.baseurl }}/assets/img/logo.svg"
             class="usa-logo__img"
             alt="login.gov home"
           />
         </a>
-        <a href="{{ '/help/' | locale_base_url }}" class="usa-logo__help">
+        <a href="{{ '/help/' | locale_url }}" class="usa-logo__help">
           {{ site.data.[page.lang].settings.nav.help_center }}</a>
       </div>
 
@@ -26,7 +26,7 @@
           {% for subpage in site.data[page.lang].settings.help_subpages %}
             {% assign subpage_slug = subpage[0] %}
             {% assign subpage_title = subpage[1] %}
-            {% assign subpage_url = '/help/' | append: subpage_slug | append: '/' | locale_base_url %}
+            {% assign subpage_url = '/help/' | append: subpage_slug | append: '/' | locale_url %}
             {% assign path_split_subpage = page.path | split: subpage_url %}
             {% assign subpage_has_current = 'false' %}
             {% assign articles = site[page.lang] | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang" | sort: 'order' %}
@@ -67,7 +67,7 @@
 
       <a
         class="usa-link desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold"
-        href="{{ '/contact' | locale_base_url }}"
+        href="{{ '/contact' | locale_url }}"
       >
         {{ site.data.[page.lang].settings.meta.contact_us.title }}
       </a>
@@ -84,7 +84,7 @@
 
       <a
         class="usa-link display-none desktop:display-inline text-no-underline text-bold margin-left-1"
-        href="{{ '/contact' | locale_base_url }}"
+        href="{{ '/contact' | locale_url }}"
       >
         {{ site.data.[page.lang].settings.meta.contact_us.title }}
       </a>
