@@ -31,7 +31,7 @@
             {% assign subpage_has_current = 'false' %}
             {% assign articles = site[page.lang] | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang" | sort: 'order' %}
             {% for article in articles %}
-              {% if page.url == article.url | prepend: site.baseurl %}
+              {% if page.url == article.url %}
                 {% assign subpage_has_current = 'true' %}
               {% endif %}
             {% endfor %}
@@ -48,7 +48,7 @@
               {% for article in articles %}
                 <li class="usa-nav__submenu-item">
                   <a
-                    href="{{ article.url }}"
+                    href="{{ article.url | prepend: site.baseurl }}"
                     class="{% if page.url == article.url %}usa-current{% endif %}"
                   >
                     {% if article.meta_title %}
