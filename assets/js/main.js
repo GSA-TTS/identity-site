@@ -23,7 +23,6 @@ $(function () {
       event.preventDefault();
       var eventType = event.type;
       if (eventType == 'click' || (eventType == 'keypress' && event.which == 13)) {
-        $(this).parent().toggleClass('focused');
         dropdown.toggle();
 
         $(this).attr('aria-expanded', function (i, attr) {
@@ -37,26 +36,6 @@ $(function () {
     $('.language-picker__label--button'),
     $('.language-picker__label--button + .dropdown'),
   );
-
-  // Dropdown menu
-
-  $('.dropdown')
-    .focusin(function () {
-      $(this).addClass('focused');
-    })
-    .focusout(function () {
-      $(this).removeClass('focused');
-    });
-
-  $(document).on('click touch', function (event) {
-    var $target = $(event.target);
-    var $dropdownSm = $('.dropdown-sm');
-    if (!$target.hasClass('dropdown-text') && !$target.hasClass('dropdown-sm')) {
-      $dropdownSm.removeClass('focused').blur();
-    } else {
-      $dropdownSm.toggleClass('focused');
-    }
-  });
 
   // Smooth scroll
 
