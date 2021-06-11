@@ -292,20 +292,20 @@ create-an-account:
   info: Selon les besoins de sécurité de l'agence, vous devrez peut-être prouver votre identité à l'aide d'un numéro de sécurité sociale, d'une adresse et / ou d'une pièce d'identité émise par l'État américain.
 identifier:
   accessible_labels:
-    description: Agency description # TODO: Translate
-    identifier: Agency identifier # TODO: Translate
-    links: Important links # TODO: Translate
-    logo: GSA logo # TODO: Translate
-    usa_gov: U.S. government information and services # TODO: Translate
-  disclaimer: An official website of the [General Services Administration](https://gsa.gov) # TODO: Translate
+    description: Descriptif de l'agence
+    identifier: Identifiant de l'agence
+    links: Liens importants
+    logo: Logo de GSA
+    usa_gov: Informations et services du gouvernement américain
+  disclaimer: Un site Web officiel de [General Services Administration](https://gsa.gov)
   links:
-    about_agency: About GSA # TODO: Translate
-    accessibility: Accessibility support # TODO: Translate
-    foia: FOIA requests # TODO: Translate
-    ig: Office of the Inspector General # TODO: Translate
-    no_fear_act: No FEAR Act data # TODO: Translate
-    performance: Performance reports # TODO: Translate
-    privacy: Privacy policy # TODO: Translate
+    about_agency: À propos de GSA
+    accessibility: Support de l'accessibilité
+    foia: Demandes FOIA
+    ig: Bureau de l'inspecteur général
+    no_fear_act: Données No FEAR Act
+    performance: Rapports de performances
+    privacy: Politique de confidentialité
   usa_gov:
-    text: Looking for U.S. government information and services? # TODO: Translate
-    link: Visit USA.gov # TODO: Translate
+    text: Vous recherchez des informations et des services du gouvernement américain?
+    link: Visitez USA.gov
