@@ -62,7 +62,6 @@ end
 def check_urls(urls:, directory:, source:)
   missing_urls = []
   urls.each do |url|
-    next if url.end_with? '404.html'
     if !File.exist?(File.join(directory, to_relative_path(url)))
       missing_urls << [url, source]
     end
