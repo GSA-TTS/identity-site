@@ -53,30 +53,6 @@ RSpec::Matchers.define :link_to_locale_pages do |locale|
   end
 end
 
-RSpec::Matchers.define :link_to_valid_internal_pages do
-  missing_pages = []
-
-  match do |actual|
-    doc = actual
-
-    doc.css('a[href^="/"]').each do |a|
-      page = a[:href]
-
-      begin
-        file_at(page)
-      rescue StandardError
-        missing_pages << page
-      end
-    end
-
-    expect(missing_pages).to be_empty
-  end
-
-  failure_message do |actual|
-    "expected that #{actual.url} would link to valid pages:\n#{missing_pages.join("\n")}"
-  end
-end
-
 RSpec::Matchers.define :properly_escape_html do
   escaped_html_tags = nil
 
