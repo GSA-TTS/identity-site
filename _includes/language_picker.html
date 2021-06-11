@@ -41,8 +41,11 @@
         {% assign locale_url = page.url | replace_first: page.lang, locale %}
       {% endif %}
     {% endif %}
-
-      <a href="{{ locale_url | prepend: site.baseurl }}" class="text-no-underline">
+      <a
+        href="{{ locale_url | prepend: site.baseurl }}"
+        class="text-no-underline"
+        lang="{{ locale }}"
+      >
         {{ site.data.[locale].settings.global.locales[locale] }}
       </a>
     </li>

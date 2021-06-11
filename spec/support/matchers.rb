@@ -30,6 +30,29 @@ RSpec::Matchers.define :link_to_valid_headers do
   end
 end
 
+RSpec::Matchers.define :link_to_locale_pages do |locale|
+  broken_links = []
+
+  match do |actual|
+    doc = actual
+
+    doc.css("a[href^='/'],a[href^='#{SITE_URL}']").each do |a|
+      next if a[:lang]
+      page = a[:href]
+      link_path = URI::parse(page).path
+      if !link_path.start_with?("/#{locale}/") && !File.exist?(File.join(REPO_ROOT, link_path))
+        broken_links << a.to_html
+      end
+    end
+
+    expect(broken_links).to be_empty
+  end
+
+  failure_message do |actual|
+    "expected that #{actual.url} would link to locale #{locale}:\n\n#{broken_links.join("\n\n")}"
+  end
+end
+
 RSpec::Matchers.define :link_to_valid_internal_pages do
   missing_pages = []
 
