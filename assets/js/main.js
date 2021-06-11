@@ -23,7 +23,6 @@ $(function () {
       event.preventDefault();
       var eventType = event.type;
       if (eventType == 'click' || (eventType == 'keypress' && event.which == 13)) {
-        $(this).parent().toggleClass('focused');
         dropdown.toggle();
 
         $(this).attr('aria-expanded', function (i, attr) {
