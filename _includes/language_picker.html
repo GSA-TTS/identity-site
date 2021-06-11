@@ -42,7 +42,9 @@
       {% endif %}
     {% endif %}
 
-      <a href="{{ locale_url }}" class="text-no-underline">{{ site.data.[locale].settings.global.locales[locale] }}</a>
+      <a href="{{ locale_url | prepend: site.baseurl }}" class="text-no-underline">
+        {{ site.data.[locale].settings.global.locales[locale] }}
+      </a>
     </li>
   {% endfor %}
   </ul>

@@ -6,7 +6,7 @@
   {% endcapture %}
 {% else %}
   {% assign link_class = 'one-account-banner__link' %}
-  {% assign link_url = '/create-an-account/' | prepend: site.baseurl %}
+  {% assign link_url = '/create-an-account/' | locale_url %}
   {% capture link_content %}
     {{ site.data.[page.lang].settings.banner.one-account-for-govt.learn }}
   {% endcapture %}
