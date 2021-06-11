@@ -37,10 +37,6 @@ RSpec.describe 'all pages' do
         expect(doc).to link_to_valid_headers
       end
 
-      xit 'links to valid internal pages' do
-        expect(doc).to link_to_valid_internal_pages
-      end
-
       locale = get_locale(path)
       context 'localization', if: locale do
         it 'maintains locale in links' do
