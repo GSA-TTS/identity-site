@@ -1,29 +1,29 @@
 ---
 title: ¿Qué es login.gov?
-description: Acceder a las agencias gubernamentales debe ser simple y seguro.
+description: Iniciar sesión en dependencias gubernamentales debería ser fácil y seguro.
 already_have_an_account_banner: true
 component:
   class: what-is-login
   col1: >-
-    ## Una cuenta y contraseña
+    ## **Una sola cuenta y contraseña**
 
 
-    Login.gov es un servicio compartido, utilizado por el público y en el que confían las agencias gubernamentales. Con una cuenta de login.gov, elimina la necesidad de recordar diferentes contraseñas para cada agencia y agiliza su proceso de inicio de sesión.
+    Login.gov es un servicio de inicio de sesión seguro que utiliza el público para iniciar sesión en las dependencias gubernamentales participantes. Las dependencias participantes le pedirán crear una cuenta en login.gov para acceder de forma segura a su información en su sitio web o aplicación.
 
 
-    ### Login.gov cuenta con la confianza de
+    Puede usar el mismo nombre de usuario y contraseña para acceder a cualquier dependencia que se asocie con login.gov, lo cual agiliza su trámite y evita tener que recordar varios nombres de usuario y contraseñas.
 
 
-    * Departamento de Defensa
+    ### Login.gov se utiliza para proteger su cuenta cuando solicite:
 
-    * Administración de Pequeños Negocios
 
-    * Programas de viajero de confianza (Departamento de Seguridad Nacional)
+    * Trabajos a nivel federal (USAJOBS, Oficina de Gestión de Personal)
 
-    * USAJOBS (Oficina de Gestión de Personal)
+    * TSA PreCheck y Global Entry (Programas para viajeros de confianza, Departamento de Seguridad Nacional)
+
+    * Préstamos para pequeñas empresas y ayuda en caso de desastres (Administración de Pequeñas Empresas)
 
     * Y más…
-
   col2: >-
     ## Acceso seguro y privado para el público
 
@@ -37,7 +37,6 @@ component:
 
 
     Las dependencias participantes usan login.gov para ayudar a proteger a sus usuarios. Cuando intente iniciar sesión en una dependencia participante, se le pedirá que inicie sesión o cree una cuenta con login.gov antes de poder acceder a su perfil en dicha dependencia.
-
   bannercol1: >-
     ### Todas las dependencias participantes utilizan login.gov para iniciar
     sesión de forma segura.

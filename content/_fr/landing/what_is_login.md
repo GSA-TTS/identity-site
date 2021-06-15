@@ -1,29 +1,29 @@
 ---
 title: Qu'est-ce que login.gov?
-description: L'accès aux agences gouvernementales doit être simple - et sécurisé.
+description: Se connecter aux organismes gouvernementaux devrait être simple et sécurisé.
 already_have_an_account_banner: true
 component:
   class: what-is-login
   col1: >-
-    ## Un compte et un mot de passe
+    ## Un seul compte et un seul mot de passe
 
 
-    Login.gov est un service partagé, utilisé par le public et approuvé par les agences gouvernementales. Avec un compte login.gov, vous évitez de devoir mémoriser différents mots de passe pour chaque agence et rationalisez votre processus de connexion.
+    Login.gov est un service de connexion sécurisé utilisé par les utilisateurs pour se connecter aux organismes gouvernementaux participants. Les organismes participants vous demanderont de créer un compte login.gov pour accéder en toute sécurité à vos informations sur leur site Internet ou leur application.
 
 
-    ### Login.gov est approuvé par
+    Vous pouvez utiliser le même nom d'utilisateur et le même mot de passe pour accéder à n'importe quel organisme partenaire de login.gov. Cela simplifie vos démarches et vous évite d'avoir à vous souvenir de plusieurs noms d'utilisateur et mots de passe.
 
 
-    * Département de la Défense
+    ### **Login.gov sert à sécuriser votre compte lorsque vous souhaitez accéder à :**
 
-    * Administration des petites entreprises
 
-    * Programmes de voyageurs fiables (Department of Homeland Security)
+    * des emplois fédéraux (USAJOBS, Office de l'administration du personnel)
 
-    * USAJOBS (Bureau de la gestion du personnel)
+    * PreCheck de la TSA et Global Entry (Programmes pour les voyageurs dignes de confiance, Département de la sécurité intérieure)
 
-    * Et plus…
+    * des prêts aux petites entreprises et aide en cas de sinistres (Small Business Administration)
 
+    * et plus encore…
   col2: >-
     ## Accès sécurisé et privé pour le public
 
@@ -37,7 +37,6 @@ component:
 
 
     Les organismes participants utilisent login.gov afin de mieux protéger leurs utilisateurs. Lorsque vous essayerez de vous connecter à un organisme participant, vous serez invité à vous connecter ou à créer un compte sur login.gov avant de pouvoir accéder à votre profil auprès de cet organisme. 
-
   bannercol1: >-
     ### Tous les organismes participants utilisent login.gov pour assurer une
     connexion sécurisée.

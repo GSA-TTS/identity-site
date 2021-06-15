@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: What is login.gov?
-description: Accessing government agencies should be simple — and secure.
+description: Signing in to government agencies should be simple — and secure.
 already_have_an_account_banner: true
 component:
   class: what-is-login
@@ -9,22 +9,22 @@ component:
     ## One account and password
 
 
-    Login.gov is a shared service, used by the public, and trusted by government agencies. With one login.gov account, you eliminate the need to remember different passwords for each agency and streamline your sign in process.
+    Login.gov is a secure sign in service used by the public to sign in to participating government agencies. Participating agencies will ask you to create a login.gov account to securely access your information on their website or application.
 
 
-    ### Login.gov is trusted by
+    You can use the same username and password to access any agency that partners with login.gov. This streamlines your process and eliminates the need to remember multiple usernames and passwords.
 
 
-    * Department of Defense
+    ### Login.gov is used to secure your account when you apply for
 
-    * Small Business Administration
 
-    * Trusted Traveler Programs (Department of Homeland Security)
+    * Federal jobs (USAJOBS  - Office of Personnel Management)
 
-    * USAJOBS (Office of Personnel Management)
+    * TSA PreCheck and Global Entry (Trusted Traveler Programs - Department of Homeland Security)
+
+    * Small business loans and disaster assistance (Small Business Administration)
 
     * And more…
-
   col2: >-
     ## Secure and private access for the public
 
@@ -38,7 +38,6 @@ component:
 
 
     Participating agencies use login.gov to help protect their users. When you try to sign in to a participating agency, you’ll be prompted to sign in or create an account with login.gov before you can access your profile with that agency.  
-
   bannercol1: >-
     ### All participating agencies use login.gov for secure sign in.
 
