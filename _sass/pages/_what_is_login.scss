@@ -29,6 +29,10 @@
   .lock-image {
     display: none;
   }
+
+  .how-it-works-image {
+    max-width: 90%;
+  }
 }
 
 @include at-media("tablet") {
