@@ -1,33 +1,29 @@
 ---
 title: ¿Qué es login.gov?
-description: Acceder a las agencias gubernamentales debe ser simple y seguro.
+description: Iniciar sesión en dependencias gubernamentales debería ser fácil y seguro.
+already_have_an_account_banner: true
 component:
   class: what-is-login
   col1: >-
-    ## Una cuenta y contraseña
+    ## **Una sola cuenta y contraseña**
 
 
-    Login.gov es un servicio compartido, utilizado por el público y en el que confían las agencias gubernamentales. Con una cuenta de login.gov, elimina la necesidad de recordar diferentes contraseñas para cada agencia y agiliza su proceso de inicio de sesión.
+    Login.gov es un servicio de inicio de sesión seguro que utiliza el público para iniciar sesión en las dependencias gubernamentales participantes. Las dependencias participantes le pedirán crear una cuenta en login.gov para acceder de forma segura a su información en su sitio web o aplicación.
 
 
-    ### Login.gov cuenta con la confianza de
+    Puede usar el mismo nombre de usuario y contraseña para acceder a cualquier dependencia que se asocie con login.gov, lo cual agiliza su trámite y evita tener que recordar varios nombres de usuario y contraseñas.
 
 
-    * Departamento de Defensa
+    ### Login.gov se utiliza para proteger su cuenta cuando solicite:
 
-    * Administración de Pequeños Negocios
 
-    * Programas de viajero de confianza (Departamento de Seguridad Nacional)
+    * Trabajos a nivel federal (USAJOBS, Oficina de Gestión de Personal)
 
-    * USAJOBS (Oficina de Gestión de Personal)
+    * TSA PreCheck y Global Entry (Programas para viajeros de confianza, Departamento de Seguridad Nacional)
+
+    * Préstamos para pequeñas empresas y ayuda en caso de desastres (Administración de Pequeñas Empresas)
 
     * Y más…
-
-
-    Login.gov es su única cuenta para el gobierno. [Obtenga más información sobre cómo crear una cuenta](https://login.gov/es/create-an-account/).
-
-
-    ¿Ya tienes una cuenta? [Inicie sesión para administrar su cuenta y actualizar su información personal u opciones de seguridad](https://secure.login.gov/).
   col2: >-
     ## Acceso seguro y privado para el público
 
@@ -36,6 +32,30 @@ component:
 
 
     Login.gov es proporcionado por [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
+  bannertext: >-
+    ## **¿Cómo funciona?**
+
+
+    Las dependencias participantes usan login.gov para ayudar a proteger a sus usuarios. Cuando intente iniciar sesión en una dependencia participante, se le pedirá que inicie sesión o cree una cuenta con login.gov antes de poder acceder a su perfil en dicha dependencia.
+  bannercol1: >-
+    ### Todas las dependencias participantes utilizan login.gov para iniciar
+    sesión de forma segura.
+
+
+    Usted proporciona dos datos para iniciar sesión de forma segura y proteger su información.
+
+
+    * Contraseña
+
+    * Método de autenticación (como un código de un solo uso enviado a su teléfono o una aplicación de autenticación)
+
+
+    El uso combinado de una contraseña y otro método dificulta el acceso de terceros a su información.
+  bannercol2: >-
+    ### Algunas dependencias requieren que compruebe su identidad.
+
+
+    Login.gov ayuda a la dependencia a verificar la misma. El envío de información de identificación personal (PII), como su identificación con fotografía, permite verificar que se trata de usted y no de alguien haciéndose pasar por usted. Nosotros nos limitamos a confirmar su identidad y no determinamos su elegibilidad para los servicios ofrecidos por la dependencia.
 permalink: /es/what-is-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png

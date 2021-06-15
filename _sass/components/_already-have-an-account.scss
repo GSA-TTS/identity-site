@@ -1,0 +1,33 @@
+.one-account-banner.already-have-an-account-banner .one-account-banner__backdrop {
+    height: 22rem;
+
+    &::before {
+        background-image: none;
+        content: '';
+    }
+
+    .one-account-banner__content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .one-account-banner__content:nth-child(2) {
+        border-top: 1px solid $white;
+
+        @include at-media("tablet") {
+            border-left: 1px solid $white;
+            border-top: none;
+            padding-top: 0;
+        }
+    }
+}
+
+@include at-media("tablet") {
+    .one-account-banner.already-have-an-account-banner .one-account-banner__backdrop {
+        height: 11rem;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

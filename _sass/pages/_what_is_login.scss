@@ -1,10 +1,12 @@
 .container.what-is-login {
   .one-account,
-  .secure-account {
+  .secure-account-container,
+  .how-it-works {
     padding: 2rem 0;
   }
 
-  .secure-account {
+  .secure-account-container,
+  .how-it-works {
     border-top: $border-style;
   }
 
@@ -16,34 +18,58 @@
         center center/contain no-repeat;
       height: 17rem;
     }
+  }
 
-    &.secure-account-img {
-      background: url(../img/what-is-login/security/what-is-security.png) center
-        center/contain no-repeat;
-      height: 10rem;
-      margin-top: 2rem;
-    }
+  .text-column {
+    display: block;
+    margin-top: 2rem;
+    padding: 1rem 0;
+  }
+
+  .lock-image {
+    display: none;
+  }
+
+  .how-it-works-image {
+    max-width: 90%;
   }
 }
 
 @include at-media("tablet") {
   .container.what-is-login {
-    .one-account {
-      background: url(../img/what-is-login/one-account/what-is-one-account.png)
-        left center no-repeat;
-      padding: 3rem 0 3rem 50%;
-      background-size: 45%;
+    .secure-account-container {
+      padding: 2rem 0;
     }
 
-    .secure-account {
-      border-top: $border-style;
-      background: url(../img/what-is-login/security/what-is-security.png) right
-        center no-repeat;
-      padding: 6rem 50% 6rem 0;
+    .one-account {
+      display: flex;
+    }
+
+    .participating-agencies {
+      padding-right: 2em;
+    }
+
+    .banner-text {
+      padding-right: 30%;
+      padding-bottom: 2rem;
     }
 
     .mobile {
       display: none;
+    }
+
+    .lock-image {
+      display: block;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pad-left-element {
+      padding-right: 2em;
     }
   }
 }

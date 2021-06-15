@@ -3,6 +3,11 @@ accessible_labels:
 actions:
   search: Buscar
 banner:
+  already-have-an-account:
+    learn_more: Obtenga más información sobre cómo crear una cuenta
+    one_account: Login.gov es su cuenta única para el gobierno
+    sign_in: Inicie sesión para administrar su cuenta y actualizar su información personal o las opciones de seguridad
+    text: ¿Ya tiene una cuenta?
   one-account-for-govt:
     create: Crea una cuenta
     learn: Aprender a crear una cuenta
