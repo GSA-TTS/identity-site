@@ -61,7 +61,7 @@ contact_page:
       account_locked: My account is locked for 24 hours
       add_family_member: How do I add a family member to my login.gov account?
       agency_app: Agency app issue
-      authentication_app: I have an authentication app but it's not working
+      authentication_app: How do I change my authentication method?
       authentication_app_setup: How do I set up an authentication app?
       backup_codes: How do I use my backup codes to sign in?
       bug_report: I'm seeing an error/blank screen when creating my account
@@ -72,14 +72,14 @@ contact_page:
       device_notification: I have received an alert about a new sign in on my login.gov account
       email_delivery_issue: I am not receiving the login.gov confirmation email
       forgot_password: I forgot my login.gov password and can't reset it
-      international_number: I have an international number and am not receiviing my security code.
+      international_number: I have an international number and am not receiving my security code.
       invalid_email: login.gov is not accepting my email address. It says it is invalid
-      invalid_otp: login.gov says my security code is invalid
+      invalid_otp: Login.gov says my security code is invalid
       letter_in_mail: I didn't get my letter by mail or it expired
       locked_out: I am locked out of my account
       lost_2fa_method: Lost two-factor authentication method
       multiple_otps: I am receiving many security codes when signing in
-      new_account: My email/username and password are not working.
+      new_account: My email/username and password are not working
       new_backup_codes: How do I get new backup codes?
       new_personal_key: How do I get a new personal key?
       no_otp_received: No OTP received
@@ -90,7 +90,7 @@ contact_page:
       personal_key: My personal key is not working
       personal_key_notification: I have received an alert about my personal key being used to sign in
       personal_key_setup: Personal key setup
-      phone_number_failure: I got an failure after entering my phone number
+      phone_number_failure: I got a failure after entering my phone number
       piv_cac: I am having trouble using my PIV/CAC to sign in
       privacy_and_security: Privacy and security
       recover_account: How do I sign into my account if I dont have my phone or personal key?
@@ -108,11 +108,11 @@ contact_page:
       changing_settings: Changing your login.gov information
       creating_account: Create a login.gov account
       login_system: Feedback for login.gov
-      mfa: login.gov security codes
+      mfa: Login.gov security codes
       not_login_gov: Not login.gov
       other: Other
       piv_cac: PIV/CAC issue
-      signing_in: Signing into your login.gov account
+      signing_in: Signing in to your login.gov account
       verifying_identity: Verifying your identity
 feedback_form:
   'yes': "Yes"
