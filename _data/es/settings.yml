@@ -52,37 +52,38 @@ contact_page:
       first_name: Nombre
       last_name: Apellido
       pii_warning: '**No** incluya información sensible o de identificación en esta sección, como su nombre completo, fecha de nacimiento o número de seguro social.'
-      subtopic: Problema
+      subtopic: Subtema del problema
       topic: Tema del problema
       optional: opcional
     reset: Limpiar formulario
     submit: Enviar
     subtopics:
-      add_family_member: ¿Cómo agrego un familiar a mi cuenta login.gov?
+      add_family_member: ¿Cómo añado un familiar a mi cuenta de login.gov?
       agency_app: Problema con la aplicación de la agencia
       authentication_app: Aplicación de autenticación
-      authentication_app_setup: Instalación de la aplicación de autenticación
+      authentication_app_setup: ¿Cómo configuro una aplicación de autenticación?
+      blank_screen: Estoy viendo un error/una pantalla en blanco al crear mi cuenta
       change_email: Cambiar correo electrónico
-      change_password: Cambiar contraseña
+      change_password: ¿Cómo actualizo mi contraseña de login.gov?
       change_phone_number: Cambiar número de teléfono
       delete_account: Eliminar cuenta
       device_notification: Recibí una alerta sobre un nuevo inicio de sesión en mi cuenta login.gov
-      email_delivery_issue: Problema con el envío de correos electrónicos
+      email_delivery_issue: No recibo el correo electrónico de confirmación de login.gov
       forgot_password: Olvidé la contraseña
       international_number: Número internacional
-      invalid_email: Número no válido
+      invalid_email: Login.gov no acepta mi dirección de correo electrónico. Dice que no es válido
       invalid_otp: Pedido de pago no válido
       locked_out: Bloqueado
       lost_2fa_method: Método autenticación de dos factores perdido
       multiple_otps: Múltiples pedidos de pago
-      new_account: Nueva cuenta
+      new_account: Mi correo electrónico/nombre de usuario y contraseña no funcionan
       new_personal_key: Nueva clave personal
       no_otp_received: No se ha recibido ningún pedido de pago
-      no_phone: No hay teléfono
+      no_phone: No puedo crear mi cuenta de login.gov porque no tengo un teléfono
       none: '--Ninguno--'
       other: Otro
       password_issue: Problema con la contraseña
-      personal_key: Clave personal
+      personal_key: Mi clave personal no funciona
       personal_key_setup: Configuración de la clave personal
       personal_key_notification: Recibí una alerta sobre el uso de mi clave personal para iniciar sesión
       piv_cac: Tengo problemas para usar mi PIV / CAC para iniciar sesión
@@ -92,7 +93,7 @@ contact_page:
       security_code: No recibo el código de seguridad
       security_key: Tengo problemas para usar mi clave de seguridad para iniciar sesión
       service_quality: Calidad del servicio
-      site_navigation: Navegación en la página web
+      site_navigation: No sé dónde ir para crear una cuenta
       unwanted_otp: Múltiples pedidos de pago
       wrong_account_update: Actualización de la cuenta errónea
     topics:

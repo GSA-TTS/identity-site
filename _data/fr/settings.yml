@@ -52,37 +52,38 @@ contact_page:
       first_name: Prénom
       last_name: Nom
       pii_warning: Veuillez **ne pas** inclure d'informations sensibles ou d'identification dans cette section telles que votre nom complet, votre date de naissance ou votre numéro de sécurité sociale.
-      subtopic: Problème
+      subtopic: Thème de la question
       topic: Thème de la question
       optional: optionnel
     reset: Formulaire clair
     submit: Soumettre
     subtopics:
-      add_family_member: Comment ajouter un membre de la famille à mon compte login.gov?
+      add_family_member: Comment puis-je ajouter un membre de ma famille à mon compte login.gov?
       agency_app: Problème avec l'appli de l'agence
       authentication_app: Appli d'authentification
-      authentication_app_setup: Configuration de l'appli d'authentification
+      authentication_app_setup: Comment configurer une application d'authentification?
+      blank_screen: Je vois une erreur/un écran vide lors de la création de mon compte
       change_email: Modifier l'adresse e-mail
-      change_password: Modifier le mot de passe
+      change_password: Comment puis-je mettre à jour mon mot de passe login.gov?
       change_phone_number: Modifier le numéro de téléphone
       delete_account: Supprimer le compte
       device_notification: J'ai reçu une alerte concernant une nouvelle connexion sur mon compte login.gov
-      email_delivery_issue: Problème de distribution des e-mails
+      email_delivery_issue: Je ne reçois pas le courriel de confirmation de login.gov
       forgot_password: Mot de passe oublié
       international_number: Numéro international
-      invalid_email: E-mail invalide
+      invalid_email: Login.gov n'accepte pas mon adresse courriel. Il est indiqué qu'elle n'est pas valide
       invalid_otp: OTP invalide
       locked_out: Verrouillé
       lost_2fa_method: Authentification à deux facteurs perdue
       multiple_otps: Multiples OTP
-      new_account: Nouveau compte
+      new_account: Mon courriel/nom d'utilisateur et mon mot de passe ne fonctionnent pas.
       new_personal_key: Nouvelle clé personnelle
       no_otp_received: Aucun OTP reçu
-      no_phone: Aucun numéro de téléphone
+      no_phone: Je ne peux pas créer mon compte login.gov parce que je n'ai pas de téléphone.
       none: '--Aucun--'
       other: Autre
       password_issue: Problème de mot de passe
-      personal_key: Clé personnelle
+      personal_key: Ma clé personnelle ne fonctionne pas
       personal_key_setup: Configuration de la clé personnelle
       personal_key_notification: J'ai reçu une alerte concernant l'utilisation de ma clé personnelle pour me connecter
       piv_cac: Je n'arrive pas à utiliser mon PIV / CAC pour me connecter
@@ -92,7 +93,7 @@ contact_page:
       security_code: Je ne reçois pas le code de sécurité
       security_key: Je ne parviens pas à utiliser ma clé de sécurité pour me connecter
       service_quality: Qualité du service
-      site_navigation: Navigation du site
+      site_navigation: Je ne sais pas où aller pour créer un compte
       unwanted_otp: Multiples OTP
       wrong_account_update: Mise à jour de compte erronée
     topics:
