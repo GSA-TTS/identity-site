@@ -53,7 +53,7 @@ contact_page:
       last_name: Nom
       pii_warning: Veuillez **ne pas** inclure d'informations sensibles ou d'identification dans cette section telles que votre nom complet, votre date de naissance ou votre numéro de sécurité sociale.
       subtopic: Problème
-      topic: Sujet
+      topic: Thème de la question
       optional: optionnel
     reset: Formulaire clair
     submit: Soumettre
@@ -96,15 +96,16 @@ contact_page:
       unwanted_otp: Multiples OTP
       wrong_account_update: Mise à jour de compte erronée
     topics:
-      account_linking: Lien vers le compte
-      changing_settings: Modifier les paramètres
-      creating_account: Créer des comptes
-      login_system: Système Login.gov
-      mfa: MFA (authentification multi-facteurs)
+      account_linking: Lier votre compte login.gov à votre profil
+      changing_settings: Changer vos informations de login.gov
+      creating_account: Créer un compte login.gov
+      feedback: Commentaires pour login.gov
       not_login_gov: Pas login.gov
       other: Autre
       piv_cac: Problème de PIV/CAC
-      signing_in: Connexion
+      security_codes: Codes de sécurité de login.gov
+      signing_in: Se connecter à votre compte login.gov
+      verifying_identity: Vérifier votre identité
 feedback_form:
   'yes': "Oui"
   'no': "Non"

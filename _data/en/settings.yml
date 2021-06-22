@@ -107,11 +107,11 @@ contact_page:
       account_linking: Linking your login.gov account to your profile
       changing_settings: Changing your login.gov information
       creating_account: Create a login.gov account
-      login_system: Feedback for login.gov
-      mfa: Login.gov security codes
+      feedback: Feedback for login.gov
       not_login_gov: Not login.gov
       other: Other
       piv_cac: PIV/CAC issue
+      security_codes: Login.gov security codes
       signing_in: Signing in to your login.gov account
       verifying_identity: Verifying your identity
 feedback_form:
