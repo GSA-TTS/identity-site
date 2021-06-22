@@ -6,10 +6,12 @@
     {% include styles.html %}
     {% include google_analytics.html %}
     {% include dap.html %}
+    {% include gtm_head.html %}
     {% include google_recaptcha.html %}
   </head>
 
   <body class="{{ layout.body.class }} {{ page.body.class }} lang-{{ page.lang }}">
+    {% include gtm_body.html %}
     {{ content }}
     {% include scripts.html %}
   </body>
