@@ -58,27 +58,30 @@ contact_page:
     reset: Formulaire clair
     submit: Soumettre
     subtopics:
+      account_locked: Mon compte est bloqué pendant 24 heures
       add_family_member: Comment puis-je ajouter un membre de ma famille à mon compte login.gov?
       agency_app: Problème avec l'appli de l'agence
       authentication_app: J'ai une application d'authentification mais elle ne fonctionne pas
       authentication_app_setup: Comment configurer une application d'authentification?
       backup_codes: Comment utiliser mes codes de sauvegarde pour me connecter?
       blank_screen: Je vois une erreur/un écran vide lors de la création de mon compte
-      change_email: Modifier l'adresse e-mail
+      change_email: Comment puis-je modifier mon adresse courriel?
       change_password: Comment puis-je mettre à jour mon mot de passe login.gov?
-      change_phone_number: Modifier le numéro de téléphone
-      delete_account: Supprimer le compte
+      change_phone_number: Comment modifier mon numéro de téléphone?
+      delete_account: Comment supprimer mon compte login.gov?
       device_notification: J'ai reçu une alerte concernant une nouvelle ouverture de session sur mon compte login.gov
       email_delivery_issue: Je ne reçois pas le courriel de confirmation de login.gov
       forgot_password: J'ai oublié mon mot de passe login.gov et je ne peux pas le réinitialiser
       international_number: J'ai un numéro international et je ne reçois pas mon code de sécurité
       invalid_email: Login.gov n'accepte pas mon adresse courriel. Il est indiqué qu'elle n'est pas valide
       invalid_otp: login.gov indique que mon code de sécurité n'est pas valide
+      letter_in_mail: Je n'ai pas reçu ma lettre par la poste ou elle a expiré
       locked_out: Je suis bloqué sur mon compte
       lost_2fa_method: Authentification à deux facteurs perdue
       multiple_otps: Je reçois de nombreux codes de sécurité lors de l'ouverture de session
       new_account: Mon courriel/nom d'utilisateur et mon mot de passe ne fonctionnent pas
-      new_personal_key: Nouvelle clé personnelle
+      new_backup_codes: Comment obtenir de nouveaux codes de sauvegarde?
+      new_personal_key: Comment obtenir une nouvelle clé personnelle?
       no_otp_received: Aucun OTP reçu
       no_phone: Je ne peux pas créer mon compte login.gov parce que je n'ai pas de téléphone.
       none: '--Aucun--'
@@ -87,6 +90,7 @@ contact_page:
       personal_key: Ma clé personnelle ne fonctionne pas
       personal_key_setup: Configuration de la clé personnelle
       personal_key_notification: J'ai reçu une alerte concernant l'utilisation de ma clé personnelle pour me connecter
+      phone_number_failure: J'ai reçu un message d'erreur après avoir entré mon numéro de téléphone
       piv_cac: J'ai des difficultés à utiliser mon PIV/CAC pour me connecter
       privacy_and_security: Confidentialité et sécurité
       recover_account: Comment puis-je me connecter à mon compte si je n'ai pas mon téléphone ou ma clé personnelle?
@@ -95,7 +99,9 @@ contact_page:
       security_key: J'ai des difficultés à utiliser ma clé de sécurité pour me connecter
       service_quality: Qualité du service
       site_navigation: Je ne sais pas où aller pour créer un compte
+      state_issued_id_error: J'ai eu une erreur après avoir téléchargé mon identifiant d'état
       unwanted_otp: Je reçois des codes de sécurité de login.gov que je n'ai pas demandés
+      verify_identity_error: J'ai reçu un message d'erreur en essayant de vérifier mon identité
       wrong_account_update: Mise à jour de compte erronée
     topics:
       account_linking: Lier votre compte login.gov à votre profil
