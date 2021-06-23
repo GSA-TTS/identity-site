@@ -22,20 +22,20 @@ banner:
 contact_page:
   support_request_form:
     agencies:
-      cbp_jobs: Customs and Border Protection Jobs
-      cbp_roam: Customs and Border Protection ROAM
-      dot_fmcsa: DOT FMCSA (Motor Carrier Safety)
-      dot_nrcme: DOT National Registry of Certified Medical Examiners
-      ds_logon: DS Logon
-      move_mil: DOD Move.mil (Homes or Office)
-      other: Other
-      railroad_retirement_board: Railroad Retirement Board
+      cbp_jobs: Trabajos en Aduanas y Protección de Fronteras
+      cbp_roam: ROAM en Aduanas y Protección de Fronteras  
+      dot_fmcsa: FMCSA del Departamento de Transporte (Seguridad de Autotransportes)  
+      dot_nrcme: Registro Nacional de Examinadores Médicos Certificados del Departamento de Transporte
+      ds_logon: Conexión DS
+      move_mil: DOD Move.mil (Hogares u oficinas) 
+      other: Otro
+      railroad_retirement_board: Junta de Jubilación del Ferrocarril
       sam: GSA SAM.gov
       sba_dlap: SBA DLAP
-      ssa: Social Security Administration (SSA)
-      trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
+      ssa: Administracion de la Seguridad Social (SSA)
+      trusted_traveler_program: Programas de Viajero de Confianza (Global Entry/Nexus/Sentri)      
       usajobs: USAJOBS
-      veterans_affairs: Veterans Affairs
+      veterans_affairs: Asuntos de Veteranos
     errors:
       captcha_required: Debes superar el desafío de prevención de spam.
     form_helpers:
