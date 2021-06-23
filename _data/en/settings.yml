@@ -64,7 +64,7 @@ contact_page:
       authentication_app: How do I change my authentication method?
       authentication_app_setup: How do I set up an authentication app?
       backup_codes: How do I use my backup codes to sign in?
-      bug_report: I'm seeing an error/blank screen when creating my account
+      blank_screen: I'm seeing an error/blank screen when creating my account
       change_email: How do I change my email?
       change_password: How do I update my login.gov password?
       change_phone_number: How do I change my phone number?
