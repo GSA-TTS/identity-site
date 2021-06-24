@@ -72,7 +72,7 @@ contact_page:
       device_notification: I have received an alert about a new sign in on my login.gov account
       email_delivery_issue: I am not receiving the login.gov confirmation email
       forgot_password: I forgot my login.gov password and can't reset it
-      international_number: I have an international number and am not receiving my security code.
+      international_number: I have an international number and am not receiving my security code
       invalid_email: login.gov is not accepting my email address. It says it is invalid
       invalid_otp: Login.gov says my security code is invalid
       letter_in_mail: I didn't get my letter by mail or it expired
@@ -83,7 +83,7 @@ contact_page:
       new_backup_codes: How do I get new backup codes?
       new_personal_key: How do I get a new personal key?
       no_otp_received: No OTP received
-      no_phone: I can't create my login.gov account because I don't have a phone.
+      no_phone: I can't create my login.gov account because I don't have a phone
       none: '--None--'
       other: Other
       password_issue: Password issue

@@ -64,7 +64,7 @@ contact_page:
       authentication_app: Tengo una aplicación de autenticación pero no funciona
       authentication_app_setup: ¿Cómo configuro una aplicación de autenticación?
       backup_codes: ¿Cómo utilizo mis códigos de copia de seguridad para iniciar sesión?
-      blank_screen: Veo un error/pantalla en blanco al crear mi cuenta.
+      blank_screen: Veo un error/pantalla en blanco al crear mi cuenta
       change_email: ¿Cómo cambio mi correo electrónico?
       change_password: ¿Cómo actualizo mi contraseña de login.gov?
       change_phone_number: ¿Cómo cambio mi número de teléfono?
