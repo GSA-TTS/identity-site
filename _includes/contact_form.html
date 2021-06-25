@@ -57,7 +57,7 @@
         ),
         new TopicEntry(
           'Bug',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.bug_report }}",
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.blank_screen }}",
         ),
         new TopicEntry(
           'Other',
@@ -91,7 +91,7 @@
         ),
         new TopicEntry(
           'Bug',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.bug_report }}",
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.blank_screen }}",
         ),
         new TopicEntry(
           'Site navigation',
@@ -113,7 +113,7 @@
     ),
     new TopicEntry(
       'MFA (Multi Factor Authentication)',
-      "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.mfa }}",
+      "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.security_codes }}",
       [
         new TopicEntry(
           'International number',
@@ -235,7 +235,7 @@
     ),
     new TopicEntry(
       'login.gov System',
-      "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.login_system }}",
+      "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.feedback }}",
     ),
     new TopicEntry(
       'Other',
@@ -352,7 +352,7 @@
   onSubmit="return remapvalues(this); return true;"
   class="usa-form"
 >
-  <input type="hidden" name="retURL" value="http://login.gov" />
+  <input type="hidden" name="retURL" value="https://login.gov{{ '/' | locale_url }}" />
   <input type="hidden" name="orgid" value="{{ site.contact_form_orgid }}" />
   <input type="hidden" name="status" id="status" value="New" />
   <input type="hidden" id="external" name="external" value="1" />

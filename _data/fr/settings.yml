@@ -22,20 +22,20 @@ banner:
 contact_page:
   support_request_form:
     agencies:
-      cbp_jobs: Customs and Border Protection Jobs
-      cbp_roam: Customs and Border Protection ROAM
-      dot_fmcsa: DOT FMCSA (Motor Carrier Safety)
-      dot_nrcme: DOT National Registry of Certified Medical Examiners
-      ds_logon: DS Logon
-      move_mil: DOD Move.mil (Homes or Office)
+      cbp_jobs: Emplois dans le domaine des douanes et de la protection des frontières
+      cbp_roam: ROAM des douanes et de la protection des frontières
+      dot_fmcsa: FMCSA du Département des transports (Sécurité des transporteurs routiers)
+      dot_nrcme: Registre national des médecins agréés du Département des transports
+      ds_logon: Connexion DS
+      move_mil: Move.mil de DOD (Résidences ou bureaux)
       other: Other
-      railroad_retirement_board: Railroad Retirement Board
+      railroad_retirement_board: Conseil des retraites des chemins de fer
       sam: GSA SAM.gov
       sba_dlap: SBA DLAP
-      ssa: Social Security Administration (SSA)
-      trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
+      ssa: Administration de la sécurité sociale (SSA)
+      trusted_traveler_program: Programmes pour voyageurs de confiance (Global Entry/Nexus/Sentri)
       usajobs: USAJOBS
-      veterans_affairs: Veterans Affairs
+      veterans_affairs: Affaires des vétérans
     errors:
       captcha_required: Vous devez relever le défi de la prévention du pourriel.
     form_helpers:
@@ -52,59 +52,68 @@ contact_page:
       first_name: Prénom
       last_name: Nom
       pii_warning: Veuillez **ne pas** inclure d'informations sensibles ou d'identification dans cette section telles que votre nom complet, votre date de naissance ou votre numéro de sécurité sociale.
-      subtopic: Problème
-      topic: Sujet
+      subtopic: Thème de la question
+      topic: Thème de la question
       optional: optionnel
     reset: Formulaire clair
     submit: Soumettre
     subtopics:
-      add_family_member: Comment ajouter un membre de la famille à mon compte login.gov?
+      account_locked: Mon compte est bloqué pendant 24 heures
+      add_family_member: Comment puis-je ajouter un membre de ma famille à mon compte login.gov?
       agency_app: Problème avec l'appli de l'agence
-      authentication_app: Appli d'authentification
-      authentication_app_setup: Configuration de l'appli d'authentification
-      change_email: Modifier l'adresse e-mail
-      change_password: Modifier le mot de passe
-      change_phone_number: Modifier le numéro de téléphone
-      delete_account: Supprimer le compte
-      device_notification: J'ai reçu une alerte concernant une nouvelle connexion sur mon compte login.gov
-      email_delivery_issue: Problème de distribution des e-mails
-      forgot_password: Mot de passe oublié
-      international_number: Numéro international
-      invalid_email: E-mail invalide
-      invalid_otp: OTP invalide
-      locked_out: Verrouillé
+      authentication_app: J'ai une application d'authentification mais elle ne fonctionne pas
+      authentication_app_setup: Comment configurer une application d'authentification?
+      backup_codes: Comment utiliser mes codes de sauvegarde pour me connecter?
+      blank_screen: Je vois une erreur/un écran vide lors de la création de mon compte
+      change_email: Comment puis-je modifier mon adresse courriel?
+      change_password: Comment puis-je mettre à jour mon mot de passe login.gov?
+      change_phone_number: Comment modifier mon numéro de téléphone?
+      delete_account: Comment supprimer mon compte login.gov?
+      device_notification: J'ai reçu une alerte concernant une nouvelle ouverture de session sur mon compte login.gov
+      email_delivery_issue: Je ne reçois pas le courriel de confirmation de login.gov
+      forgot_password: J'ai oublié mon mot de passe login.gov et je ne peux pas le réinitialiser
+      international_number: J'ai un numéro international et je ne reçois pas mon code de sécurité
+      invalid_email: Login.gov n'accepte pas mon adresse courriel. Il est indiqué qu'elle n'est pas valide
+      invalid_otp: login.gov indique que mon code de sécurité n'est pas valide
+      letter_in_mail: Je n'ai pas reçu ma lettre par la poste ou elle a expiré
+      locked_out: Je suis bloqué sur mon compte
       lost_2fa_method: Authentification à deux facteurs perdue
-      multiple_otps: Multiples OTP
-      new_account: Nouveau compte
-      new_personal_key: Nouvelle clé personnelle
+      multiple_otps: Je reçois de nombreux codes de sécurité lors de l'ouverture de session
+      new_account: Mon courriel/nom d'utilisateur et mon mot de passe ne fonctionnent pas
+      new_backup_codes: Comment obtenir de nouveaux codes de sauvegarde?
+      new_personal_key: Comment obtenir une nouvelle clé personnelle?
       no_otp_received: Aucun OTP reçu
-      no_phone: Aucun numéro de téléphone
+      no_phone: Je ne peux pas créer mon compte login.gov parce que je n'ai pas de téléphone.
       none: '--Aucun--'
       other: Autre
       password_issue: Problème de mot de passe
-      personal_key: Clé personnelle
+      personal_key: Ma clé personnelle ne fonctionne pas
       personal_key_setup: Configuration de la clé personnelle
       personal_key_notification: J'ai reçu une alerte concernant l'utilisation de ma clé personnelle pour me connecter
-      piv_cac: Je n'arrive pas à utiliser mon PIV / CAC pour me connecter
+      phone_number_failure: J'ai reçu un message d'erreur après avoir entré mon numéro de téléphone
+      piv_cac: J'ai des difficultés à utiliser mon PIV/CAC pour me connecter
       privacy_and_security: Confidentialité et sécurité
       recover_account: Comment puis-je me connecter à mon compte si je n'ai pas mon téléphone ou ma clé personnelle?
-      remember_device_issue: Problème pour se souvenir de l'appareil
+      remember_device_issue: Comment puis-je cesser de recevoir des codes de sécurité?
       security_code: Je ne reçois pas le code de sécurité
-      security_key: Je ne parviens pas à utiliser ma clé de sécurité pour me connecter
+      security_key: J'ai des difficultés à utiliser ma clé de sécurité pour me connecter
       service_quality: Qualité du service
-      site_navigation: Navigation du site
-      unwanted_otp: Multiples OTP
+      site_navigation: Je ne sais pas où aller pour créer un compte
+      state_issued_id_error: J'ai eu une erreur après avoir téléchargé mon identifiant d'état
+      unwanted_otp: Je reçois des codes de sécurité de login.gov que je n'ai pas demandés
+      verify_identity_error: J'ai reçu un message d'erreur en essayant de vérifier mon identité
       wrong_account_update: Mise à jour de compte erronée
     topics:
-      account_linking: Lien vers le compte
-      changing_settings: Modifier les paramètres
-      creating_account: Créer des comptes
-      login_system: Système Login.gov
-      mfa: MFA (authentification multi-facteurs)
+      account_linking: Lier votre compte login.gov à votre profil
+      changing_settings: Changer vos informations de login.gov
+      creating_account: Créer un compte login.gov
+      feedback: Commentaires pour login.gov
       not_login_gov: Pas login.gov
       other: Autre
       piv_cac: Problème de PIV/CAC
-      signing_in: Connexion
+      security_codes: Codes de sécurité de login.gov
+      signing_in: Se connecter à votre compte login.gov
+      verifying_identity: Vérifier votre identité
 feedback_form:
   'yes': "Oui"
   'no': "Non"
