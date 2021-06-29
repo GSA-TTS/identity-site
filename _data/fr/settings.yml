@@ -156,52 +156,6 @@ help_subpages:
   manage-your-account: Gérez votre compte
   specific-agencies: Aide aux agences spécifiques
   verify-your-identity: Vérifiez votre identité
-meta:
-  about:
-    description: Plus d'informations sur login.gov
-    title: Plus d'informations
-  contact:
-    title: Contact
-  contact_us:
-    description: Vous avez une question ou un problème concernant login.gov?
-    title: Nous joindre
-  developers:
-    title: Développeurs
-  help:
-    description: Trouvez des réponses aux questions fréquentes concernant login.gov.
-    title: Aide
-  home:
-    description: Utilisez un seul compte pour un accès sécurisé et privé aux prestations et services fédéraux.
-    title: Accueil
-  implementation:
-    description: Déterminez si votre agence ou votre organisme a besoin d'un système
-      de gestion de l'identité des utilisateurs.
-    title: Mise en œuvre
-  not_found:
-    title: '404'
-  playbook:
-    description: Aider les développeurs et les technologues des agences gouvernementales
-      à mettre en place des systèmes de gestion de l'identité des utilisateurs pratiques,
-      sécuritaires et respectueux de la vie privée.
-    title: Guide de mise en œuvre relatif à l'identité
-  principles:
-    description: Explorez les principes qui nous ont permis de concevoir le meilleur
-      système possible.
-    title: Principes
-  privacy_and_security:
-    description: Découvrez nos pratiques de sécurité et de confidentialité.
-    title: Confidentialité et sécurité
-  privacy_policy:
-    title: Politique de confidentialité
-  what-is-login:
-    description: Un résumé de ce qu'est login.gov et du service qu'il fournit.
-    title: Qu'est-ce que login.gov?
-  who-uses-login:
-    description: Une liste de clients bénéficiant actuellement des services login.gov
-    title: Qui utilise login.gov?
-  why-login-gov:
-    description: Les agences gouvernementales américaines peuvent tirer parti de la plate-forme d'authentification et de vérification d'identité de login.gov. En savoir plus sur les offres et les opportunités de login.gov.
-    title: Pourquoi login.gov
 nav:
   accessibility:
     title: Accessibilité

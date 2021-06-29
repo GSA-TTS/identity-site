@@ -154,59 +154,6 @@ help_subpages:
   manage-your-account: Manage your account
   specific-agencies: Help with specific agencies
   verify-your-identity: Verify your identity
-meta:
-  accessibility:
-    description: Read our accessibility statement
-    title: Accessibility
-  contact:
-    title: Contact
-  contact_us:
-    description: Have a question or a problem with login.gov?
-    title: Contact us
-  developers:
-    title: Partners
-  help:
-    description: Get answers to common questions about login.gov.
-    title: Help
-  home:
-    description: Use one account for secure, private access to Federal benefits and services.
-    title: Home
-  implementation:
-    description: Determine whether your agency or organization needs a consumer identity
-      management system.
-    title: Implementation
-  not_found:
-    title: '404'
-  our-agency-partners:
-    description: Join the dozens of U.S. government agencies using login.gov. Learn more about how login.gov can benefit your agency.
-    title: Our agency partners
-  partners:
-    description: We help government agencies manage, secure and optimize the login experience for their websites, services and applications.
-    title: Partner with login.gov
-  playbook:
-    description: Helping developers and technologists in government agencies build
-      usable, secure, and privacy-protecting consumer identity management systems.
-    title: Identity Playbook
-  principles:
-    description: Explore the principles that have helped us make the best system possible.
-    title: Principles
-  privacy_and_security:
-    description: Learn more about our security and privacy practices.
-    title: Privacy & security
-  privacy_policy:
-    title: Privacy policy
-  what-is-login:
-    title: What is login.gov?
-    description: A summary of what login.gov is and the service it provides.
-  who-uses-login:
-    title: Who uses login.gov?
-    description: A list of customers currently benefitting from login.gov's services
-  why-login-gov:
-    title: Why login.gov
-    description: U.S. government agencies can take advantage of login.gov’s authentication and identity proofing platform. Find out more about login.gov’s offerings and opportunities.
-  create-an-account:
-    title: Create an account
-    description: Join the millions of people who trust login.gov for safe, secure access to government agencies.
 nav:
   accessibility:
     title: Accessibility statement
@@ -245,8 +192,6 @@ nav:
   implementation: Implementation
   menu: Menu
   overview: Overview
-  our-agency-partners: Our agency partners
-  partners: Partners
   playbook: Playbook
   policies:
     title: Privacy & security

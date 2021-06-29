@@ -157,49 +157,6 @@ help_subpages:
   manage-your-account: Administrar su cuenta
   specific-agencies: Ayuda con agencias específicas
   verify-your-identity: Verificación de identidad
-meta:
-  contact:
-    title: Contacto
-  contact_us:
-    description: '¿Tiene alguna pregunta o problema con login.gov?'
-    title: Contáctenos
-  developers:
-    title: Desarrolladores
-  help:
-    description: Obtenga respuestas a preguntas comunes sobre login.gov.
-    title: Ayuda
-  home:
-    description: Use una cuenta para tener acceso privado y seguro a los beneficios y servicios federales.
-    title: Inicio
-  implementation:
-    description: Determine si su agencia u organización necesita un sistema de gestión
-      de la identidad del consumidor.
-    title: Implementación
-  not_found:
-    title: '404'
-  playbook:
-    description: Ayudar a los desarrolladores y tecnólogos de los organismos gubernamentales
-      a crear sistemas de administración de la identidad de los consumidores que sean
-      útiles, seguros y que garanticen la protección de la privacidad.
-    title: Manual de identidad
-  principles:
-    description: Explore los principios que nos han ayudado a hacer el mejor sistema
-      posible.
-    title: Principios
-  privacy_and_security:
-    description: Obtenga más información sobre nuestras prácticas de seguridad y privacidad.
-    title: Privacidad y seguridad
-  privacy_policy:
-    title: Política de privacidad
-  what-is-login:
-    description: Un resumen de lo que es login.gov y el servicio que brinda.
-    title: ¿Qué es login.gov
-  who-uses-login:
-    description: Una lista de clientes que se benefician actualmente de los servicios de login.gov
-    title: ¿Quién usa login.gov?
-  why-login-gov:
-    description: Las agencias gubernamentales de EE. UU. Pueden aprovechar la plataforma de autenticación y verificación de identidad de login.gov. Obtenga más información sobre las ofertas y oportunidades de login.gov.
-    title: Por qué login.gov
 nav:
   accessibility:
     title: Accesibilidad
