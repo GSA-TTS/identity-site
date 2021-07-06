@@ -9,7 +9,7 @@ Certaines applications gouvernementales nécessitent une vérification d'identit
 Vous devrez vérifier votre identité et sécuriser votre compte.
 
 ## Exigences relatives à la vérification de l'identité
-1. Votre carte d'identité délivrée par l'État. Vous pouvez charger une photo via un téléphone ou un ordinateur. Vous n'avez pas de carte d'identité délivrée par l'État?
+1. Votre carte d'identité délivrée par l'État. Vous pouvez charger une photo via un téléphone ou un ordinateur. [Vous n'avez pas de carte d'identité délivrée par l'État?](/fr/help/verify-your-identity/accepted-state-issued-identification)
 1. Vous pouvez à l'aide d'un téléphone ou d'un ordinateur équipé d'une caméra prendre une photo de vous (pas toujours nécessaire)
 1. Numéro de sécurité sociale
 1. Un numéro de téléphone sur un plan téléphonique qui est à votre nom.

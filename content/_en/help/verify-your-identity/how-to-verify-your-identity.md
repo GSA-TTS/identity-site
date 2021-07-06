@@ -10,7 +10,7 @@ Some government applications require identity verification. This additional laye
 You will need to verify your identity and secure your account.
 
 ## Requirements for identity verification
-1. Your State-Issued ID. You can upload a photo by phone or by computer. [Don’t have a state issued ID?](https://login.gov/help/verify-your-identity/accepted-state-issued-identification/)
+1. Your State-Issued ID. You can upload a photo by phone or by computer. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification)
 1. A phone or computer with a camera to take a photo of yourself (not always required)
 1. Social Security Number
 1. A phone number on a phone plan that is in your name.
