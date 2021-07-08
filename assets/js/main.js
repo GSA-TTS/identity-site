@@ -28,35 +28,4 @@ $(function () {
     $('.language-picker__label--button'),
     $('.language-picker__label--button + .dropdown'),
   );
-
-  // Smooth scroll
-
-  $('a[href^="#"]').on('click', function (event) {
-    if (this.hash !== '') {
-      event.preventDefault();
-
-      var hash = this.getAttribute('href');
-
-      $('html, body').animate(
-        {
-          scrollTop: $(hash).offset().top,
-        },
-        800,
-        function () {
-          $(hash)
-            .attr('tabindex', -1)
-            .on('blur focusout', function () {
-              $(this).removeAttr('tabindex');
-            })
-            .focus();
-
-          if (history.pushState) {
-            history.pushState(null, null, hash);
-          } else {
-            window.location.hash = hash;
-          }
-        },
-      );
-    }
-  });
 });
