@@ -1,0 +1,74 @@
+.language-picker {
+  position: relative;
+  width: auto;
+
+  .usa-accordion__content {
+    @include u-bg('primary-lightest');
+    @include u-border(1px, 'primary-light');
+    @include u-radius($theme-button-border-radius);
+    margin: .25rem 0 0 0;
+    overflow: visible;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+  }
+}
+
+.language-picker__label {
+  // TODO: Remove font-family once we assign `$theme-font-sans` design system variable to Public Sans.
+  font-family: $sans-serif-font-family;
+  display: flex;
+
+  span {
+    margin: 0 units(1);
+  }
+}
+
+.language-picker__label--text {
+  @include u-padding-y(2);
+  color: color($theme-link-color);
+}
+
+.language-picker__label--button {
+  @include typeset($theme-button-font-family, null, 1);
+  @include u-radius($theme-button-border-radius);
+  background-position: right units(1.5) center;
+  padding: units(1.5);
+  padding-right: units(3);
+
+  &.usa-accordion__button[aria-expanded="false"],
+  &.usa-accordion__button[aria-expanded="true"] {
+    background-size: .7rem;
+  }
+
+  &.usa-accordion__button[aria-expanded="false"] {
+    background-image: url(../img/angle-arrow-down-primary.svg);
+  }
+
+  &.usa-accordion__button[aria-expanded="true"] {
+    background-image: url(../img/angle-arrow-up-primary.svg);
+  }
+}
+
+.language-picker__list {
+  @include list-reset;
+
+  a {
+    @include typeset-link;
+    @include u-padding-y(1);
+    display: block;
+  }
+}
+
+.language-picker--dropdown .language-picker__list li {
+  + li {
+    border-top: 1px solid $border-color;
+  }
+}
+
+.language-picker:not(.language-picker--dropdown) .language-picker__list a {
+  @include u-margin-y(1);
+  margin-left: 1.5rem;
+}
