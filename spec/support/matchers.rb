@@ -12,8 +12,6 @@ RSpec::Matchers.define :link_to_valid_headers do
     doc.css('a[href^="#"]').each do |a|
       target = a[:href]
 
-      next if a[:id] == 'js-mobile-nav-toggle'
-
       if target == '#'
         missing_headers << a.to_s
       else
