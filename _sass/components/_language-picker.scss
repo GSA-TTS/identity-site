@@ -6,7 +6,7 @@
     @include u-bg('primary-lightest');
     @include u-border(1px, 'primary-light');
     @include u-radius($theme-button-border-radius);
-    margin: .25rem 0 0 0;
+    margin: .25rem 0 0;
     overflow: visible;
     padding: 0;
     position: absolute;
@@ -17,9 +17,10 @@
 }
 
 .language-picker__label {
+  align-items: center;
+  display: flex;
   // TODO: Remove font-family once we assign `$theme-font-sans` design system variable to Public Sans.
   font-family: $sans-serif-font-family;
-  display: flex;
 
   span {
     margin: 0 units(1);
@@ -27,7 +28,7 @@
 }
 
 .language-picker__label--text {
-  @include u-padding-y(2);
+  @include u-padding-y(1);
   color: color($theme-link-color);
 }
 
@@ -35,12 +36,13 @@
   @include typeset($theme-button-font-family, null, 1);
   @include u-radius($theme-button-border-radius);
   background-position: right units(1.5) center;
+  background-position-y: calc(50% + 2px);
   padding: units(1.5);
   padding-right: units(3);
 
   &.usa-accordion__button[aria-expanded="false"],
   &.usa-accordion__button[aria-expanded="true"] {
-    background-size: .7rem;
+    background-size: .8125rem;
   }
 
   &.usa-accordion__button[aria-expanded="false"] {
@@ -70,5 +72,5 @@
 
 .language-picker:not(.language-picker--dropdown) .language-picker__list a {
   @include u-margin-y(1);
-  margin-left: 1.5rem;
+  margin-left: units(2.5);
 }
