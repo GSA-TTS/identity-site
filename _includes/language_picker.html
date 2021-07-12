@@ -1,54 +1,52 @@
-<div class="language-picker">
+<div class="language-picker{% if include.dropdown == true %} language-picker--dropdown usa-accordion{% endif %}">
   {% if include.dropdown == true %}
   <button
     aria-controls="language-picker-{{ include.id }}"
-    class="usa-button usa-button--outline language-picker__label language-picker__label--button"
+    class="usa-accordion__button language-picker__label language-picker__label--button"
   >
-    {% include svg/globe.svg %}
-    <span id="language-picker-{{ include.id }}-description" class="label">
+    <img src="{{ site.baseurl }}/assets/img/globe-blue.svg" alt="" width="12" height="12">
+    <span id="language-picker-{{ include.id }}-description">
       {{ site.data.[page.lang].settings.global.language }}
     </span>
   </button>
   {% else %}
   <div class="language-picker__label language-picker__label--text">
-    {% include svg/globe.svg %}
-    <span id="language-picker-{{ include.id }}-description" class="label">
+    <img src="{{ site.baseurl }}/assets/img/globe-blue.svg" alt="" width="12" height="12">
+    <span id="language-picker-{{ include.id }}-description">
       {{ site.data.[page.lang].settings.global.language }}
     </span>
   </div>
   {% endif %}
-
-  <ul id="language-picker-{{ include.id }}" aria-describedby="language-picker-{{ include.id }}-description"
-    class="{% if include.dropdown %}dropdown{% endif %} language-list">
-  {% for locale in site.languages %}
-    <li>
-    {% if page.lang == 'en' %}
-      {% if locale == 'en' %}
-        {% assign locale_url = page.url %}
-      {% elsif locale == page.lang %}
-        {% assign locale_url = page.url %}
-      {% else %}
-        {% assign locale_url = page.url | prepend: locale | prepend: '/' %}
-      {% endif %}
-    {% else %}
-      {% if locale == 'en' and page.lang == 'es' %}
-        {% assign locale_url = page.url | remove_first: 'es/' %}
-      {% elsif locale == 'en' and page.lang == 'fr' %}
-        {% assign locale_url = page.url | remove_first: 'fr/' %}
-      {% elsif locale == page.lang %}
-        {% assign locale_url = page.url %}
-      {% else %}
-        {% assign locale_url = page.url | replace_first: page.lang, locale %}
-      {% endif %}
-    {% endif %}
-      <a
-        href="{{ locale_url | prepend: site.baseurl }}"
-        class="text-no-underline"
-        lang="{{ locale }}"
-      >
-        {{ site.data.[locale].settings.global.locales[locale] }}
-      </a>
-    </li>
-  {% endfor %}
+  <ul
+    id="language-picker-{{ include.id }}"
+    aria-describedby="language-picker-{{ include.id }}-description"
+    class="{% if include.dropdown %}usa-accordion__content{% endif %} language-picker__list"
+  >
+    {% for locale in site.languages %}
+      <li>
+        {% if page.lang == 'en' %}
+          {% if locale == 'en' %}
+            {% assign locale_url = page.url %}
+          {% elsif locale == page.lang %}
+            {% assign locale_url = page.url %}
+          {% else %}
+            {% assign locale_url = page.url | prepend: locale | prepend: '/' %}
+          {% endif %}
+        {% else %}
+          {% if locale == 'en' and page.lang == 'es' %}
+            {% assign locale_url = page.url | remove_first: 'es/' %}
+          {% elsif locale == 'en' and page.lang == 'fr' %}
+            {% assign locale_url = page.url | remove_first: 'fr/' %}
+          {% elsif locale == page.lang %}
+            {% assign locale_url = page.url %}
+          {% else %}
+            {% assign locale_url = page.url | replace_first: page.lang, locale %}
+          {% endif %}
+        {% endif %}
+        <a href="{{ locale_url | prepend: site.baseurl }}" lang="{{ locale }}">
+          {{ site.data.[locale].settings.global.locales[locale] }}
+        </a>
+      </li>
+    {% endfor %}
   </ul>
 </div>
