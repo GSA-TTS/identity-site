@@ -28,6 +28,33 @@ RSpec::Matchers.define :link_to_valid_headers do
   end
 end
 
+RSpec::Matchers.define :link_consistently do
+  invalid_links = []
+
+  match do |actual|
+    doc = actual
+
+    good_uri = URI.parse(SITE_URL)
+    http_uri = good_uri.clone.tap { |u| u.scheme = 'http' }
+    www_uri = good_uri.clone.tap { |u| u.host = "www.#{u.host}" }
+    http_www_uri = http_uri.clone.tap { |u| u.host = "www.#{u.host}" }
+
+    invalid_links = doc.css([
+      "a[href^='#{http_uri}']",
+      "a[href^='#{www_uri}']",
+      "a[href^='#{http_www_uri}']",
+      "a[href^='#{good_uri}']:not([href$='/'])",
+      "a[href^='/']:not([href$='/'])",
+    ].join(',')).map { |node| node.to_html }.to_a
+
+    expect(invalid_links).to be_empty
+  end
+
+  failure_message do
+    "expected all internal links are rendered consistently (https protocol, no-www, trailing slash):\n\n#{invalid_links.join("\n")}"
+  end
+end
+
 RSpec::Matchers.define :link_to_locale_pages do |locale|
   broken_links = []
 

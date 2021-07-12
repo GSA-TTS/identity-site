@@ -33,6 +33,10 @@ RSpec.describe 'all pages' do
         expect(doc).to properly_escape_html
       end
 
+      it 'links consistently' do
+        expect(doc).to link_consistently
+      end
+
       xit 'links to valid headings' do
         expect(doc).to link_to_valid_headers
       end
