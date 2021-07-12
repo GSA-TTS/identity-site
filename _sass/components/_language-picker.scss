@@ -59,7 +59,8 @@
 
   a {
     @include typeset-link;
-    @include u-padding-y(1);
+    @include typeset($theme-button-font-family, null, 1);
+    @include u-padding-y(1.5);
     display: block;
   }
 }
