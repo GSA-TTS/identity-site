@@ -34,7 +34,7 @@
         <li class="usa-nav__primary-item">
           <a
             class="usa-nav__link {% if page.url contains '/what-is-login/' %}usa-current{% endif %}"
-            href="{{ '/what-is-login' | locale_url }}"
+            href="{{ '/what-is-login/' | locale_url }}"
           >
             <span>{{ site.data.[page.lang].settings.nav.what_is_login_gov }}</span>
           </a>
@@ -42,7 +42,7 @@
         <li class="usa-nav__primary-item">
           <a
             class="usa-nav__link {% if page.url contains '/who-uses-login/' %}usa-current{% endif %}"
-            href="{{ '/who-uses-login' | locale_url }}"
+            href="{{ '/who-uses-login/' | locale_url }}"
           >
             <span>{{ site.data.[page.lang].settings.nav.who_uses_login_gov }}</span>
           </a>
@@ -50,7 +50,7 @@
         <li class="usa-nav__primary-item">
           <a
             class="usa-nav__link {% if page.url contains '/create-an-account/' %}usa-current{% endif %}"
-            href="{{ '/create-an-account' | locale_url }}"
+            href="{{ '/create-an-account/' | locale_url }}"
           >
             <span>{{ site.data.[page.lang].settings.nav.create_an_account }}</span>
           </a>
@@ -58,7 +58,7 @@
         <li class="usa-nav__primary-item">
           <a
             class="usa-nav__link {% if page.url contains '/help/' %}usa-current{% endif %}"
-            href="{{ '/help' | locale_url }}"
+            href="{{ '/help/' | locale_url }}"
           >
             <span>{{ site.data.[page.lang].settings.nav.help_center }}</span>
           </a>
@@ -67,7 +67,7 @@
 
       <a
         class="usa-link desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold"
-        href="{{ '/contact' | locale_url }}"
+        href="{{ '/contact/' | locale_url }}"
       >
         {{ site.data.[page.lang].settings.nav.contact_us.title }}
       </a>

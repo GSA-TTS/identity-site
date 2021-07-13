@@ -35,5 +35,5 @@ Login.gov is the public's one account and password for government. Login.gov is 
 
 * [Create your login.gov account](/help/get-started/create-your-account/)
 * [Learn about authentication options](/help/get-started/authentication-options/)
-* [Why you are being asked to use login.gov](/what-is-login)
+* [Why you are being asked to use login.gov](/what-is-login/)
 {: .help-question-list}

@@ -18,7 +18,7 @@ Vous devrez vérifier votre identité et sécuriser votre compte.
 S'il vous manque une de ces informations, veuillez contacter l'agence gouvernementale à laquelle vous essayez d'accéder.
 
 ## Nos normes de sécurité et de protection de la vie privée
-Login.gov est un site web gouvernemental sécurisé qui respecte les normes les plus strictes en matière de protection des données. La plupart des données que vous soumettez ne sont pas stockées. Découvrez comment nous vérifions votre identité et [les mesures de sécurité et de protection](https://login.gov/policy) de la vie privée que nous prenons pour assurer la sécurité de vos informations.
+Login.gov est un site web gouvernemental sécurisé qui respecte les normes les plus strictes en matière de protection des données. La plupart des données que vous soumettez ne sont pas stockées. Découvrez comment nous vérifions votre identité et [les mesures de sécurité et de protection](https://login.gov/policy/) de la vie privée que nous prenons pour assurer la sécurité de vos informations.
 
 ## Étapes de la vérification de l'identité et de la sécurisation de votre compte
 1. Sur la page « Nous devons vérifier votre identité », lisez les conditions et, si vous êtes d'accord, cochez la case située à côté de la déclaration de consentement de login.gov.

@@ -34,5 +34,5 @@ Login.gov es la única cuenta y contraseña pública para el gobierno. Login.gov
 
 * [Cree su cuenta de login.gov](/es/help/get-started/create-your-account/)
 * [Conozca las opciones de autenticación](/es/help/get-started/authentication-options/)
-* [Por qué se le solicita que use login.gov](/es/what-is-login)
+* [Por qué se le solicita que use login.gov](/es/what-is-login/)
 {: .help-question-list}

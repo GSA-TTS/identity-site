@@ -14,10 +14,10 @@ intro_content: |-
 
   If you need assistance with your login.gov account, check out our help center articles for help with common issues.
 
-  * [I can’t sign in to my account](/help/trouble-signing-in/overview)
-  * [I need help verifying my identity](/help/verify-your-identity/overview)
-  * [I need to change my information or manage my account](/help/manage-your-account/overview)
-  * [Browse more help articles](/help)
+  * [I can’t sign in to my account](/help/trouble-signing-in/overview/)
+  * [I need help verifying my identity](/help/verify-your-identity/overview/)
+  * [I need to change my information or manage my account](/help/manage-your-account/overview/)
+  * [Browse more help articles](/help/)
   {: .help-question-list}
 
   ## Do you have a question about your agency account?
