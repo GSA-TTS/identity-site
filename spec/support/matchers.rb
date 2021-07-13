@@ -43,8 +43,8 @@ RSpec::Matchers.define :link_consistently do
       "a[href^='#{http_uri}']",
       "a[href^='#{www_uri}']",
       "a[href^='#{http_www_uri}']",
-      "a[href^='#{good_uri}']:not([href$='/'])",
-      "a[href^='/']:not([href$='/'])",
+      "a[href^='#{good_uri}']:not([href$='/']):not([href$='.pdf'])",
+      "a[href^='/']:not([href$='/']):not([href$='.pdf'])",
     ].join(',')).map { |node| node.to_html }.to_a
 
     expect(invalid_links).to be_empty
