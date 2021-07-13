@@ -30,11 +30,8 @@ contact_page:
       move_mil: DOD Move.mil (Hogares u oficinas)
       other: Otro
       railroad_retirement_board: Junta de Jubilación del Ferrocarril
-      sam: GSA SAM.gov
-      sba_dlap: SBA DLAP
       ssa: Administración del Seguro Social (SSA, por su siglas en inglés)
       trusted_traveler_program: Programas de Viajero de Confianza (Global Entry/Nexus/Sentri)
-      usajobs: USAJOBS
       veterans_affairs: Asuntos de Veteranos
     errors:
       captcha_required: Debes superar el desafío de prevención de spam.

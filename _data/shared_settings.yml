@@ -1,0 +1,18 @@
+# These are the values sent in the form to the contact center
+# They should *not* be translated because they are keys for the backend
+contact_page:
+  agencies:
+    cbp_jobs: Customs and Border Protection Jobs
+    cbp_roam: Customs and Border Protection ROAM
+    dot_fmcsa: DOT FMCSA (Motor Carrier Safety)
+    dot_nrcme: DOT National Registry of Certified Medical Examiners
+    ds_logon: DS Logon
+    move_mil: DOD Moves.mil (Homes or Office)
+    other: Other
+    railroad_retirement_board: Railroad Retirement Board
+    sam: GSA Sam.gov
+    sba_dlap: SBA DLAP
+    ssa: Social Security Administration (SSA)
+    trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
+    usajobs: USAJOBS
+    veterans_affairs: Veterans Affairs

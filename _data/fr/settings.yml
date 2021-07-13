@@ -30,11 +30,8 @@ contact_page:
       move_mil: Move.mil de DOD (Résidences ou bureaux)
       other: Other
       railroad_retirement_board: Conseil des retraites des chemins de fer
-      sam: GSA SAM.gov
-      sba_dlap: SBA DLAP
       ssa: Administration de la sécurité sociale (SSA)
       trusted_traveler_program: Programmes pour voyageurs de confiance (Global Entry/Nexus/Sentri)
-      usajobs: USAJOBS
       veterans_affairs: Affaires des vétérans
     errors:
       captcha_required: Vous devez relever le défi de la prévention du pourriel.
