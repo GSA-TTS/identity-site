@@ -73,17 +73,14 @@ defaults:
       path: 'content/_en'
     values:
       lang: en
-      base_path: ''
   - scope:
       path: 'content/_es'
     values:
       lang: es
-      base_path: /es
   - scope:
       path: 'content/_fr'
     values:
       lang: fr
-      base_path: /fr
 
 include:
   # dotfiles are excluded by default
