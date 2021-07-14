@@ -1,10 +1,17 @@
 ---
 layout: sidenav
 sidenav: contact_us
+common_applications:
+ - USAJOBS
+ - SBA DLAP
+ - Social Security Administration (SSA)
+ - Trusted Traveler Programs (Global Entry/Nexus/Sentri)
 ---
-
 {{ page.intro_content | markdownify }}
 
-<div class="desktop:grid-col-9">{% include contact_form.html %}</div>
+<div class="desktop:grid-col-9">
+  {% include contact_form.html
+             common_applications=layout.common_applications %}
+</div>
 
 <footer class="page-content__footer">{{ page.footer_content | markdownify }}</footer>

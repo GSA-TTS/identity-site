@@ -21,21 +21,21 @@ banner:
     secure_description: 'Un <strong>candado</strong> o <strong>https://</strong> significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros.'
 contact_page:
   support_request_form:
+    other: Otro
     agencies:
-      cbp_jobs: Trabajos en Aduanas y Protección de Fronteras
-      cbp_roam: ROAM en Aduanas y Protección de Fronteras
-      dot_fmcsa: FMCSA del Departamento de Transporte (Seguridad de Autotransportes)
-      dot_nrcme: Registro Nacional de Examinadores Médicos Certificados del Departamento de Transporte
-      ds_logon: Conexión DS
-      move_mil: DOD Move.mil (Hogares u oficinas)
-      other: Otro
-      railroad_retirement_board: Junta de Jubilación del Ferrocarril
-      sam: GSA SAM.gov
-      sba_dlap: SBA DLAP
-      ssa: Administración del Seguro Social (SSA, por su siglas en inglés)
-      trusted_traveler_program: Programas de Viajero de Confianza (Global Entry/Nexus/Sentri)
-      usajobs: USAJOBS
-      veterans_affairs: Asuntos de Veteranos
+      "Customs and Border Protection Jobs": Trabajos en Aduanas y Protección de Fronteras
+      "Customs and Border Protection ROAM": ROAM en Aduanas y Protección de Fronteras
+      "DOT FMCSA (Motor Carrier Safety)": FMCSA del Departamento de Transporte (Seguridad de Autotransportes)
+      "DOT National Registry of Certified Medical Examiners": Registro Nacional de Examinadores Médicos Certificados del Departamento de Transporte
+      "DS Logon": Conexión DS
+      "DOD Moves.mil (Homes or Office)": DOD Move.mil (Hogares u oficinas)
+      "Railroad Retirement Board": Junta de Jubilación del Ferrocarril
+      "GSA Sam.gov": GSA SAM.gov
+      "SBA DLAP": SBA DLAP
+      "Social Security Administration (SSA)": Administración del Seguro Social (SSA, por su siglas en inglés)
+      "Trusted Traveler Programs (Global Entry/Nexus/Sentri)": Programas de Viajero de Confianza (Global Entry/Nexus/Sentri)
+      "USAJOBS": USAJOBS
+      "Veterans Affairs": Asuntos de Veteranos
     errors:
       captcha_required: Debes superar el desafío de prevención de spam.
     form_helpers:

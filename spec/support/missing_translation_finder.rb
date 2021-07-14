@@ -35,6 +35,7 @@ class MissingTranslationFinder
     load_translation_keys_from_hash(yaml)
   end
 
+  # @return [Array<Array<String>>] array of keys as path segments
   def load_translation_keys_from_hash(hash)
     results = []
     hash.each do |key, value|
@@ -42,16 +43,16 @@ class MissingTranslationFinder
         results.push(key)
       elsif value.is_a? Hash
         children = load_translation_keys_from_hash(value)
-        results += children.map { |child_key| "#{key}.#{child_key}" }
+        results += children.map { |child_key| [key, *child_key] }
       end
     end
     results
   end
 
+  # @param [Array<String>] key a translation key as a path of strings
   def find_translation(key:, locale:)
     filename = "_data/#{locale}/settings.yml"
     yaml = YAML.safe_load(File.read(filename))
-    path = key.split('.')
-    yaml.dig(*path)
+    yaml.dig(*key)
   end
 end

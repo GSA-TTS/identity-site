@@ -1,3 +1,9 @@
+{% comment %}
+
+include:
+- common_applications: array of strings (translation keys)
+
+{% endcomment %}
 <!--
   This is some slightly modified code provided by the contact center to interact
   with their support ticket intake system
@@ -399,75 +405,27 @@
     <optgroup
       label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_common }}"
     >
-      <option value="USAJOBS">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.usajobs }}
-      </option>
-      <option value="SBA DLAP">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.sba_dlap }}
-      </option>
-      <option value="Social Security Administration (SSA)">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.ssa }}
-      </option>
-      <option value="Trusted Traveler Programs (Global Entry/Nexus/Sentri)">
-        {{
-        site.data.[page.lang].settings.contact_page.support_request_form.agencies.trusted_traveler_program
-        }}
-      </option>
+      {% for common_application in include.common_applications %}
+        <option value="{{ common_application }}">
+          {{ site.data[page.lang].settings.contact_page.support_request_form.agencies[common_application] }}
+        </option>
+      {% endfor %}
     </optgroup>
     <optgroup
       label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_all }}"
     >
-      <option value="Customs and Border Protection Jobs">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.cbp_jobs }}
-      </option>
-      <option value="Customs and Border Protection ROAM">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.cbp_roam }}
-      </option>
-      <option value="DOD Moves.mil (Homes or Office)">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.move_mil }}
-      </option>
-      <option value="DOT FMCSA (Motor Carrier Safety)">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.dot_fmcsa }}
-      </option>
-      <option value="DOT National Registry of Certified Medical Examiners">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.dot_nrcme }}
-      </option>
-      <option value="DS Logon">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.ds_logon }}
-      </option>
-      <option value="GSA Sam.gov">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.sam }}
-      </option>
-      <option value="Railroad Retirement Board">
-        {{
-        site.data.[page.lang].settings.contact_page.support_request_form.agencies.railroad_retirement_board
-        }}
-      </option>
-      <option value="SBA DLAP">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.sba_dlap }}
-      </option>
-      <option value="Social Security Administration (SSA)">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.ssa }}
-      </option>
-      <option value="Trusted Traveler Programs (Global Entry/Nexus/Sentri)">
-        {{
-        site.data.[page.lang].settings.contact_page.support_request_form.agencies.trusted_traveler_program
-        }}
-      </option>
-      <option value="USAJOBS">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.usajobs }}
-      </option>
-      <option value="Veterans Affairs">
-        {{
-        site.data.[page.lang].settings.contact_page.support_request_form.agencies.veterans_affairs
-        }}
-      </option>
+      {% assign all_applications_sorted = site.data[page.lang].settings.contact_page.support_request_form.agencies | sort_by_values %}
+      {% for application in all_applications_sorted %}
+        <option value="{{ application.key }}">
+          {{ application.value }}
+        </option>
+      {% endfor %}
     </optgroup>
     <optgroup
       label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_other }}"
     >
       <option value="Other">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.agencies.other }}
+        {{ site.data.[page.lang].settings.contact_page.support_request_form.other }}
       </option>
     </optgroup>
   </select>
