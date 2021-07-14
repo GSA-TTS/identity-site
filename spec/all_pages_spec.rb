@@ -9,7 +9,7 @@ def redirect_page?(path)
 end
 
 def external_link?(uri)
-  uri.scheme && !/^(www\.)?#{URI(SITE_URL).host}$/.match(uri.host)
+  uri.scheme && !/^(www\.)?#{SITE_URI.host}$/.match(uri.host)
 end
 
 def get_locale(path)
