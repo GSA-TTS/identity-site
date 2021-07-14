@@ -21,21 +21,22 @@ banner:
     secure_description: 'A <strong>lock</strong> or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.'
 contact_page:
   support_request_form:
+    other: Other
     agencies:
-      cbp_jobs: Customs and Border Protection Jobs
-      cbp_roam: Customs and Border Protection ROAM
-      dot_fmcsa: DOT FMCSA (Motor Carrier Safety)
-      dot_nrcme: DOT National Registry of Certified Medical Examiners
-      ds_logon: DS Logon
-      move_mil: DOD Move.mil (Homes or Office)
-      other: Other
-      railroad_retirement_board: Railroad Retirement Board
-      sam: GSA SAM.gov
-      sba_dlap: SBA DLAP
-      ssa: Social Security Administration (SSA)
-      trusted_traveler_program: Trusted Traveler Programs (Global Entry/Nexus/Sentri)
-      usajobs: USAJOBS
-      veterans_affairs: Veterans Affairs
+      "Customs and Border Protection Jobs": Customs and Border Protection Jobs
+      "Customs and Border Protection ROAM": Customs and Border Protection ROAM
+      "DOD Moves.mil (Homes or Office)": DOD Move.mil (Homes or Office)
+      "DOT FMCSA (Motor Carrier Safety)": DOT FMCSA (Motor Carrier Safety)
+      "DOT National Registry of Certified Medical Examiners": DOT National Registry of Certified Medical Examiners
+      "DS Logon": DS Logon
+      "GSA Sam.gov": GSA SAM.gov
+      "PBGC - MyPBA": "PBGC - MyPBA"
+      "Railroad Retirement Board": Railroad Retirement Board
+      "SBA DLAP": SBA DLAP
+      "Social Security Administration (SSA)": Social Security Administration (SSA)
+      "Trusted Traveler Programs (Global Entry/Nexus/Sentri)": Trusted Traveler Programs (Global Entry/Nexus/Sentri)
+      "USAJOBS": USAJOBS
+      "Veterans Affairs": Veterans Affairs
     errors:
       captcha_required: You must complete the spam prevention challenge.
     form_helpers:
