@@ -8,6 +8,10 @@ def redirect_page?(path)
   File.read(file_at(path)).include?('<meta http-equiv="refresh"')
 end
 
+def external_link?(uri)
+  uri.scheme && !/^(www\.)?#{URI(SITE_URL).host}$/.match(uri.host)
+end
+
 def get_locale(path)
   match = %r{^(fr|es)/}.match(path)
   match[1] if match
@@ -37,7 +41,7 @@ RSpec.describe 'all pages' do
         doc.css('a').each do |a|
           next if a[:href].start_with?('#')
           uri = URI(a[:href])
-          next if uri.scheme && !/^(www\.)?#{URI(SITE_URL).host}$/.match(uri.host)
+          next if external_link?(uri)
           expect(uri).to be_https_scheme, "expected https, got:\n\n#{a.to_html}"
           expect(uri).to be_plain_host, "expected plain host, got:\n\n#{a.to_html}"
           expect(uri).to have_trailing_slash, "expected trailing slash, got:\n\n#{a.to_html}"
