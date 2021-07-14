@@ -415,10 +415,10 @@ include:
     <optgroup
       label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_all }}"
     >
-      {% assign all_applications_sorted = include.all_applications | sort_translated: 'settings.contact_page.support_request_form.agencies' %}
+      {% assign all_applications_sorted = (site.data[page.lang].settings.contact_page.support_request_form.agencies | sort: 1) %}
       {% for application in all_applications_sorted %}
-        <option value="{{ application }}">
-          {{ application | translate: 'settings.contact_page.support_request_form.agencies' }}
+        <option value="{{ application[0] }}">
+          {{ application[1] }}
         </option>
       {% endfor %}
     </optgroup>
