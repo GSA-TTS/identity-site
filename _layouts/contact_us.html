@@ -2,31 +2,16 @@
 layout: sidenav
 sidenav: contact_us
 common_applications:
- - usajobs
- - sba_dlap
- - ssa
- - trusted_traveler_program
-all_applications:
-- cbp_jobs
-- cbp_roam
-- move_mil
-- dot_fmcsa
-- dot_nrcme
-- ds_logon
-- sam
-- railroad_retirement_board
-- sba_dlap
-- ssa
-- trusted_traveler_program
-- usajobs
-- veterans_affairs
+ - USAJOBS
+ - SBA DLAP
+ - Social Security Administration (SSA)
+ - Trusted Traveler Programs (Global Entry/Nexus/Sentri)
 ---
 {{ page.intro_content | markdownify }}
 
 <div class="desktop:grid-col-9">
   {% include contact_form.html
-             common_applications=layout.common_applications
-             all_applications=layout.all_applications %}
+             common_applications=layout.common_applications %}
 </div>
 
 <footer class="page-content__footer">{{ page.footer_content | markdownify }}</footer>
