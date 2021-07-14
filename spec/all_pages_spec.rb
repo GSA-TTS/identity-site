@@ -38,13 +38,15 @@ RSpec.describe 'all pages' do
       end
 
       it 'links consistently' do
-        doc.css('a').each do |a|
-          next if a[:href].start_with?('#')
-          uri = URI(a[:href])
-          next if external_link?(uri)
-          expect(uri).to be_https_scheme, "expected https, got:\n\n#{a.to_html}"
-          expect(uri).to be_plain_host, "expected plain host, got:\n\n#{a.to_html}"
-          expect(uri).to have_trailing_slash, "expected trailing slash, got:\n\n#{a.to_html}"
+        aggregate_failures do
+          doc.css('a').each do |a|
+            next if a[:href].start_with?('#')
+            uri = URI(a[:href])
+            next if external_link?(uri)
+            expect(uri).to be_https_scheme, "expected https, got:\n\n#{a.to_html}"
+            expect(uri).to be_plain_host, "expected plain host, got:\n\n#{a.to_html}"
+            expect(uri).to have_trailing_slash, "expected trailing slash, got:\n\n#{a.to_html}"
+          end
         end
       end
 
