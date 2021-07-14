@@ -17,4 +17,4 @@ login.gov uses SMS text messaging to help verify your identity when you create a
 * To opt out of receiving text messages from login.gov reply with the message STOP to the unwanted text message.
 * See [Our privacy act statement](/policy/our-privacy-act-statement/) for privacy policy information.
 * Carriers are not liable for delayed or undelivered messages.
-* You may [contact customer care here](/contact/) if you have questions or concerns.
+* You may [contact customer care](/contact/) if you have questions or concerns.
