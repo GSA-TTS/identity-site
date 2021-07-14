@@ -406,7 +406,7 @@ include:
       label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_common }}"
     >
       {% for common_application in include.common_applications %}
-        <option value="{{ site.data.shared_settings.agencies[common_application] }}">
+        <option value="{{ common_application }}">
           {{ common_application | translate: 'settings.contact_page.support_request_form.agencies' }}
         </option>
       {% endfor %}
