@@ -407,7 +407,7 @@ include:
     >
       {% for common_application in include.common_applications %}
         <option value="{{ common_application }}">
-          {{ common_application | translate: 'settings.contact_page.support_request_form.agencies' }}
+          {{ site.data[page.lang].settings.contact_page.support_request_form.agencies[common_application] }}
         </option>
       {% endfor %}
     </optgroup>
