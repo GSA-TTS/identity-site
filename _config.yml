@@ -1,6 +1,7 @@
 # Site settings
 title: login.gov
 image: /assets/img/login-gov-288x288.png
+canonical_domain: www.login.gov
 
 # i18n
 languages:
@@ -111,4 +112,4 @@ help_pages:
   - specific-agencies
   - verify-your-identity
 
-url: https://login.gov
+url: https://www.login.gov

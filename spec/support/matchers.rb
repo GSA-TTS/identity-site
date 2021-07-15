@@ -32,10 +32,6 @@ RSpec::Matchers.define :be_https_scheme do
   match { |uri| expect(uri.scheme).to be_nil.or eq 'https' }
 end
 
-RSpec::Matchers.define :be_plain_host do
-  match { |uri| expect(uri.host).to_not start_with 'www.' }
-end
-
 RSpec::Matchers.define :have_trailing_slash do
   match do |uri|
     expect(uri.path).to end_with('/').
