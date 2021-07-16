@@ -24,13 +24,8 @@ test: build
 test-urls: build
 	bundle exec ./scripts/sitemap-check --directory _site --old-urls-file OLD_URLS.yml
 
-htmlproofer: htmlproofer_internal htmlproofer_external
-
-htmlproofer_internal:
-	bundle exec htmlproofer --disable-external --allow-hash-href --empty_alt_ignore `pwd`/_site
-
-htmlproofer_external:
-	bundle exec scripts/htmlproofer-external `pwd`/_site
+htmlproofer:
+	bundle exec scripts/htmlproofer
 
 build:
 	npm run build-js

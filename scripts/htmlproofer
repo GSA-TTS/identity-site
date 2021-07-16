@@ -1,0 +1,34 @@
+#!/usr/bin/env ruby
+# Run HTMLProofer via Ruby so we can do advanced things like ignore bad peer certificates which turn
+# up in external links.
+require 'html-proofer'
+require 'optparse'
+require 'jekyll'
+
+options = {}
+OptionParser.new do |opt|
+  opt.on('--internal') { options[:disable_external] = true }
+  opt.on('--external') { options[:external_only] = true }
+end.parse!
+
+site_config = Jekyll::Configuration.from(YAML.load_file('_config.yml'))
+
+options.merge!(
+  empty_alt_ignore: true,
+  typhoeus: {
+    ssl_verifypeer: false,
+    ssl_verifyhost: 0,
+    followlocation: false,
+  },
+  internal_domains: [
+    "localhost:#{site_config['port']}",
+    URI(site_config['url']).host,
+  ],
+)
+
+proofer = HTMLProofer.check_directory(site_config['destination'], options)
+# Counter-intuitively, followlocation is set as false in the configuration and always reverted to
+# true before a request. External URL requests should be allowed to follow redirects, but internal
+# link trailing slash check is based on the raw options object.
+proofer.before_request { |request| request.options[:followlocation] = true }
+proofer.run
