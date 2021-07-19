@@ -32,13 +32,6 @@ RSpec::Matchers.define :be_https_scheme do
   match { |uri| expect(uri.scheme).to be_nil.or eq 'https' }
 end
 
-RSpec::Matchers.define :have_trailing_slash do
-  match do |uri|
-    expect(uri.path).to end_with('/').
-      or satisfy('have file extension') { |path| !File.extname(path).empty? }
-  end
-end
-
 RSpec::Matchers.define :link_to_locale_pages do |locale|
   broken_links = []
 
