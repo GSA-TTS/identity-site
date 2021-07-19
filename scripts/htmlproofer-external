@@ -3,6 +3,8 @@
 # ignore bad peer certificates which turn up in external links
 require 'html-proofer'
 
+SITE_URL = YAML.load_file(File.expand_path('../../_config.yml', __FILE__))['url']
+
 directory = ARGV.first
 if directory.nil?
   abort <<~STR
@@ -18,5 +20,8 @@ HTMLProofer.check_directory(directory, {
   },
   # treat absolute URLs to our domain as if they were local
   # helps for rel="canonical" tags that exist locally but are not deployed yet
-  url_swap: { %r|https://www.login.gov/| => '/' },
+  url_swap: {
+    %r|#{SITE_URL}/?| => '/',
+    %r|/$| => '',
+  },
 }).run
