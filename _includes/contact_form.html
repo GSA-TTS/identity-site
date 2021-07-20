@@ -484,6 +484,7 @@ include:
   </div>
   <!-- END: Description -->
 
+  {% if site.contact_form_captcha_enabled %}
   <!-- START: reCAPTCHA -->
   <div
     class="g-recaptcha margin-top-4"
@@ -502,6 +503,7 @@ include:
     data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.captcha_required }}"
   ></div>
   <!-- END: reCAPTCHA -->
+  {% endif %}
 
   <!-- START: Form Actions -->
   <div class="form-actions">
