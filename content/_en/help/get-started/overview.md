@@ -1,6 +1,7 @@
 ---
 layout: help
-title: Get started with Login.gov category: get-started
+title: Get started with Login.gov
+category: get-started
 meta_title: Overview
 order: 0
 redirect_from:
