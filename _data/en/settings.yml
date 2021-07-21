@@ -126,7 +126,8 @@ help_page:
   p_1: Browse common topics
   title: How can we help?
   categories:
-    - title: Get started with Login.gov       description: Create your account. Learn about authentication options and more account features.
+    - title: Get started with Login.gov
+      description: Create your account. Learn about authentication options and more account features.
       url: /help/get-started/overview/
       image: /assets/img/help/get-started.svg
     - title: Trouble signing in?
