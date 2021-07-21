@@ -1,6 +1,6 @@
 ---
 layout: sidenav
-sidenav: accessibility
+sidenav: about_us
 title: About us
 permalink: /about-us/
 ---
