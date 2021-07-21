@@ -107,7 +107,9 @@ contact_page:
       account_linking: Linking your Login.gov account to your profile
       changing_settings: Changing your Login.gov information
       creating_account: Create a Login.gov account
-      feedback: Feedback for Login.gov       not_login_gov: Not Login.gov       other: Other
+      feedback: Feedback for Login.gov
+      not_login_gov: Not Login.gov
+      other: Other
       piv_cac: PIV/CAC issue
       security_codes: Login.gov security codes
       signing_in: Signing in to your Login.gov account
@@ -147,7 +149,8 @@ help_page:
       url: /help/verify-your-identity/overview/
       image: /assets/img/help/verify-your-id.svg
 help_subpages:
-  get-started: Get started with Login.gov   trouble-signing-in: Trouble signing in?
+  get-started: Get started with Login.gov
+  trouble-signing-in: Trouble signing in?
   manage-your-account: Manage your account
   specific-agencies: Help with specific agencies
   verify-your-identity: Verify your identity
@@ -171,7 +174,8 @@ nav:
     sections:
       - name: Do you have a question about your agency account?
         url: '#do-you-have-a-question-about-your-agency-account'
-      - name: Partner with Login.gov         url: '#partner-with-logingov'
+      - name: Partner with Login.gov
+      url: '#partner-with-logingov'
       - name: Report an issue
         url: '#report-an-issue'
   contact_login_gov: Contact Login.gov
