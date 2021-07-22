@@ -206,7 +206,8 @@ nav:
   security: Sécurité
   sign_in: 'Connectez-vous avec'
   skip_nav: Passer au contenu principal
-  system_status: État du système Login.gov   what_is_login_gov: Qu'est-ce que Login.gov?
+  system_status: État du système Login.gov
+  what_is_login_gov: Qu'est-ce que Login.gov?
   who_uses_login_gov: Qui utilise Login.gov?
 policies:
   title: Confidentialité et sécurité
