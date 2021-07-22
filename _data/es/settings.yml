@@ -69,7 +69,9 @@ contact_page:
       change_password: ¿Cómo actualizo mi contraseña de Login.gov?
       change_phone_number: ¿Cómo cambio mi número de teléfono?
       delete_account: ¿Cómo elimino mi cuenta de Login.gov?
-      device_notification: He recibido una alerta sobre un nuevo inicio de sesión en mi cuenta de Login.gov       email_delivery_issue: No recibo el correo electrónico de confirmación de Login.gov       forgot_password: Olvidé mi contraseña de Login.gov y no puedo restablecerla
+      device_notification: He recibido una alerta sobre un nuevo inicio de sesión en mi cuenta de Login.gov
+      email_delivery_issue: No recibo el correo electrónico de confirmación de Login.gov
+      forgot_password: Olvidé mi contraseña de Login.gov y no puedo restablecerla
       international_number: Tengo un número internacional y no recibo mi código de seguridad
       invalid_email: Login.gov no acepta mi dirección de correo electrónico. Dice que no es válido
       invalid_otp: Login.gov dice que mi código de seguridad no es válido
