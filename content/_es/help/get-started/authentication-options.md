@@ -46,7 +46,8 @@ En adelante, cada vez que inicie sesión en Login.gov, podrá utilizar los códi
 ## Llave de seguridad
 
 Por lo regular, una llave de seguridad es un dispositivo físico externo, como una memoria USB, que se conecta al equipo. La llave se vincula a sus cuentas y solo permitirá acceder a estas una vez que esté conectada y activada. Como la llave de seguridad no depende de su teléfono celular, cuenta con un mejor nivel de protección contra el phishing y elementos de seguridad integrados para prevenir el jaqueo en caso de que sea robada.
- Login.gov solo permite usar llaves que cumplan con los estándares de [FIDO (Fast Identity Online)](https://fidoalliance.org/). Usted puede agregar tantas llaves de seguridad como desee para proteger su cuenta.
+
+Login.gov solo permite usar llaves que cumplan con los estándares de [FIDO (Fast Identity Online)](https://fidoalliance.org/). Usted puede agregar tantas llaves de seguridad como desee para proteger su cuenta.
 
 Para utilizar esta opción de seguridad como método de autenticación en Login.gov, conecte la llave a un puerto USB y asígnele un nombre para identificarla con su cuenta de Login.gov. En el siguiente paso se le pedirá que active su llave. Esto normalmente se hace presionando un botón en la propia llave.
 
