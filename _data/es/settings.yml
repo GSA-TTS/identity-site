@@ -87,7 +87,8 @@ contact_page:
       password_issue: Problema con la contraseña
       personal_key: Mi clave personal no funciona
       personal_key_setup: Configuración de la clave personal
-      personal_key_notification: He recibido una alerta sobre un nuevo inicio de sesión en mi cuenta de Login.gov       phone_number_failure: He recibido un fallo después de introducir mi número de teléfono
+      personal_key_notification: He recibido una alerta sobre un nuevo inicio de sesión en mi cuenta de Login.gov
+      phone_number_failure: He recibido un fallo después de introducir mi número de teléfono
       piv_cac: Tengo problemas para usar mi PIV/CAC para iniciar sesión
       privacy_and_security: Privacidad y seguridad
       recover_account: ¿Cómo puedo entrar en mi cuenta si no tengo mi teléfono o mi clave personal?
