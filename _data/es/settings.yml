@@ -109,7 +109,9 @@ contact_page:
       other: Otro
       piv_cac: Problema con CAC (tarjeta de acceso común) o PIV (verificación de identidad
         personal)
-      security_codes: Códigos de seguridad de Login.gov       signing_in: Iniciar sesión en su cuenta de Login.gov       verifying_identity: Verificar su identidad
+      security_codes: Códigos de seguridad de Login.gov
+      signing_in: Iniciar sesión en su cuenta de Login.gov
+      verifying_identity: Verificar su identidad
 feedback_form:
   'yes': "Si"
   'no': "No"
