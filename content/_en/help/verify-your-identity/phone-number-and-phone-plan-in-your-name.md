@@ -23,7 +23,7 @@ You do not need a landline. You can use a cell phone number for this step. 
 **Can I use my work phone number?** 
 You can use a work phone number if it is your primary phone number. We will attempt to match the phone number to your other public records. 
 
-**What if I use a Google voice or similar VOIP (Voice Over Internet Protocol) number?**\
+**What if I use a Google voice or similar VOIP (Voice Over Internet Protocol) number?**
 You cannot use a VOIP number for identity verification at this time.
 
 ## Related articles
