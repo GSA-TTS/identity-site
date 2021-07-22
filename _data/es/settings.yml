@@ -102,7 +102,11 @@ contact_page:
       wrong_account_update: Actualización de la cuenta errónea
     topics:
       account_linking: Vincular su cuenta de Login.gov a su perfil
-      changing_settings: Cambiar su información de Login.gov       creating_account: Crear una cuenta de Login.gov       feedback: Comentarios para Login.gov       not_login_gov: No es Login.gov       other: Otro
+      changing_settings: Cambiar su información de Login.gov
+      creating_account: Crear una cuenta de Login.gov
+      feedback: Comentarios para Login.gov
+      not_login_gov: No es Login.gov
+      other: Otro
       piv_cac: Problema con CAC (tarjeta de acceso común) o PIV (verificación de identidad
         personal)
       security_codes: Códigos de seguridad de Login.gov       signing_in: Iniciar sesión en su cuenta de Login.gov       verifying_identity: Verificar su identidad
