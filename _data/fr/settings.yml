@@ -130,7 +130,8 @@ help_page:
   p_1: Parcourir les sujets communs
   title: Comment pouvons nous aider?
   categories:
-    - title: Commencez avec Login.gov       description: Créez votre compte. Découvrez les options d'authentification et d'autres caractéristiques du compte.
+    - title: Commencez avec Login.gov
+      description: Créez votre compte. Découvrez les options d'authentification et d'autres caractéristiques du compte.
       url: /fr/help/get-started/overview/
       image: /assets/img/help/get-started.svg
     - title: Des problèmes pour vous connecter?
