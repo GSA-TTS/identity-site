@@ -1,5 +1,6 @@
 ---
-title: Empiece con Login.gov category: get-started
+title: Empiece con Login.gov
+category: get-started
 meta_title: Visión general
 order: 0
 redirect_from:
