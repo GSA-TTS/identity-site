@@ -167,7 +167,8 @@ nav:
     sections:
       - name: Avez-vous une question concernant votre compte d’agence?
         url: '#avez-vous-une-question-concernant-votre-compte-dagence'
-      - name: Partenaire avec Login.gov         url: '#partenaire-avec-logingov'
+      - name: Partenaire avec Login.gov
+        url: '#partenaire-avec-logingov'
       - name: Signaler un problème
         url: '#signaler-un-problème'
   contact_login_gov: Contactez Login.gov
