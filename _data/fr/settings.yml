@@ -142,7 +142,8 @@ help_page:
       url: /fr/help/verify-your-identity/overview/
       image: /assets/img/help/verify-your-id.svg
 help_subpages:
-  get-started: Commencez avec Login.gov   trouble-signing-in: Des problèmes pour vous connecter?
+  get-started: Commencez avec Login.gov
+  trouble-signing-in: Des problèmes pour vous connecter?
   manage-your-account: Gérez votre compte
   specific-agencies: Aide aux agences spécifiques
   verify-your-identity: Vérifiez votre identité
