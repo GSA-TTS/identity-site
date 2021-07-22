@@ -128,7 +128,8 @@ help_page:
   p_1: Explore los temas comunes
   title: ¿Cómo podemos ayudar?
   categories:
-    - title: Empiece con Login.gov       description: Cree su cuenta. Conozca las opciones de autenticación y más características de la cuenta.
+    - title: Empiece con Login.gov
+      description: Cree su cuenta. Conozca las opciones de autenticación y más características de la cuenta.
       url: /es/help/get-started/overview/
       image: /assets/img/help/get-started.svg
     - title: ¿Tiene problemas para iniciar sesión?
