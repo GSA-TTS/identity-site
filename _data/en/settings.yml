@@ -175,7 +175,7 @@ nav:
       - name: Do you have a question about your agency account?
         url: '#do-you-have-a-question-about-your-agency-account'
       - name: Partner with Login.gov
-      url: '#partner-with-logingov'
+        url: '#partner-with-logingov'
       - name: Report an issue
         url: '#report-an-issue'
   contact_login_gov: Contact Login.gov
