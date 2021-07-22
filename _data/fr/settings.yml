@@ -111,7 +111,9 @@ contact_page:
       not_login_gov: Pas Login.gov
       other: Autre
       piv_cac: Problème de PIV/CAC
-      security_codes: Codes de sécurité de Login.gov       signing_in: Se connecter à votre compte Login.gov       verifying_identity: Vérifier votre identité
+      security_codes: Codes de sécurité de Login.gov
+      signing_in: Se connecter à votre compte Login.gov
+      verifying_identity: Vérifier votre identité
 feedback_form:
   'yes': "Oui"
   'no': "Non"
