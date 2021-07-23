@@ -5,7 +5,7 @@ permalink: /es/about-us/
 ---
 ## Nuestra misión
 
-La única cuenta del público para el gobierno
+La única cuenta del público para el gobierno.
 
 Login.gov proporciona una forma simple, segura y privada para que el público acceda a los sitios web del gobierno. Con una cuenta y una contraseña, los usuarios pueden iniciar sesión de forma segura en los sitios web del gobierno participantes y verificar su identidad de forma segura. 
 
@@ -46,6 +46,6 @@ Durante la administración Obama, se encargó a las agencias gubernamentales que
 
 Login.gov es el resultado de ese llamado a la acción.
 
-El equipo de login.gov se asoció con el [Servicio Digital de los Estados Unidos](https://www.usds.gov/) y [18F](https://18f.gsa.gov/) para aprovechar el exitoso código que ya existía en el sitio web [MyUSCIS](https://my.uscis.gov/), un sitio web que creaba una experiencia segura para los usuarios que necesitaban servicios de tarjeta verde. El equipo también investigó y aplicó lecciones de clientes y empleados de otros proyectos, como connect.gov, que no lograron satisfacer las necesidades de los usuarios. Después de mucha investigación y colaboración, en 2017 se lanzó login.gov como un servicio compartido de confianza para las agencias gubernamentales que se regían por los más altos estándares de seguridad, privacidad y experiencia del usuario. 
+El equipo de Login.gov se asoció con el [Servicio Digital de los Estados Unidos (USDS)](https://www.usds.gov/) y [18F](https://18f.gsa.gov/) para aprovechar el exitoso código que ya existía en el sitio web [MyUSCIS](https://my.uscis.gov/), un sitio web que creaba una experiencia segura para los usuarios que necesitaban servicios de tarjeta verde. El equipo también investigó y aplicó lecciones de clientes y empleados de otros proyectos, como connect.gov, que no lograron satisfacer las necesidades de los usuarios. Después de mucha investigación y colaboración, en 2017 se lanzó Login.gov como un servicio compartido de confianza para las agencias gubernamentales que se regían por los más altos estándares de seguridad, privacidad y experiencia del usuario. 
 
 Este servicio digital es posible gracias al mandato de los Requisitos Federales de Ciberseguridad ([6 USC § 1523 — Federal cybersecurity requirements, part (b)(1)(D)](https://uscode.house.gov/view.xhtml?req=6+USC+1523:+Federal+cybersecurity+requirements)).
