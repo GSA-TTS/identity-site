@@ -18,7 +18,7 @@ backend:
 #
 # backend:
 #   name: git-gateway
-#   branch: jd-LG-3456-about-us-page
+#   branch: jd-LG-4589-create-an-account-page
 #   proxy_url: http://localhost:8081/api/v1
 # local_backend: true
 
@@ -131,6 +131,19 @@ collections:
             - { label: 'Column 2', name: 'col2', widget: 'markdown', required: false, i18n: true }
             - { label: 'Subheading 3', name: 'subheading3', widget: 'string', required: false, i18n: true}
             - { label: 'Column 3', name: 'col3', widget: 'markdown', required: false, i18n: true }
+      - label: 'Steps Page'
+        name: 'steps'
+        widget: 'object'
+        i18n: true
+        collapsed: true
+        required: false
+        fields:
+            - { label: 'Class', name: 'class', widget: 'string', required: false, i18n: duplicate }
+            - { label: 'Intro', name: intro, widget: 'string', required: false, i18n: true }
+            - { label: 'Step 1', name: step1, widget: markdown, required: false, i18n: true }
+            - { label: 'Step 2', name: 'step2', widget: 'markdown', required: false, i18n: true }
+            - { label: 'Step 3', name: 'step3', widget: 'markdown', required: false, i18n: true }
+            - { label: 'Info text', name: 'info', widget: 'string', required: false, i18n: true }
       - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
       - { label: 'Twitter card', name: 'twitter_card', widget: 'select', default: 'large', i18n: duplicate, options: ['small', 'large'] }
       - { label: 'Image', name: 'image', widget: 'image', default: '/assets/img/login-gov-600x314.png', i18n: duplicate }
