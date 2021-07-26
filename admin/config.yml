@@ -139,11 +139,11 @@ collections:
         required: false
         fields:
             - { label: 'Class', name: 'class', widget: 'string', required: false, i18n: duplicate }
-            - { label: 'Intro', name: intro, widget: 'string', required: false, i18n: true }
+            - { label: 'Intro', name: intro, widget: 'markdown', required: false, i18n: true }
             - { label: 'Step 1', name: step1, widget: markdown, required: false, i18n: true }
             - { label: 'Step 2', name: 'step2', widget: 'markdown', required: false, i18n: true }
             - { label: 'Step 3', name: 'step3', widget: 'markdown', required: false, i18n: true }
-            - { label: 'Info text', name: 'info', widget: 'string', required: false, i18n: true }
+            - { label: 'Info text', name: 'info', widget: 'markdown', required: false, i18n: true }
       - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
       - { label: 'Twitter card', name: 'twitter_card', widget: 'select', default: 'large', i18n: duplicate, options: ['small', 'large'] }
       - { label: 'Image', name: 'image', widget: 'image', default: '/assets/img/login-gov-600x314.png', i18n: duplicate }
