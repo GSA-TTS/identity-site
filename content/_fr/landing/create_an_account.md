@@ -20,7 +20,7 @@ steps:
   step3: >
     ## 3. Une ou plusieurs [méthodes
     d'authentification](/help/authentication-methods/which-authentication-method-should-i-use/)
-    telles:
+    telles que:
 
     * __Plus sécurisé__
       * Clef de sécurité
