@@ -3,36 +3,36 @@ title: Créer un compte
 description: Rejoignez les millions de personnes qui font confiance à Login.gov
   pour un accès sûr et sécurisé aux agences gouvernementales.
 one_account_banner: true
+steps:
+  class: create-an-account
+  intro: "Lorsque vous serez prêt à créer votre compte login.gov sécurisé, vous
+    devrez fournir quelques informations:"
+  step1: >-
+    ## 1. Adresse électronique
+
+    * Nous vous recommandons une adresse e-mail personnelle à laquelle vous pourrez toujours accéder plutôt qu'une adresse e-mail professionnelle.
+
+    * Si vous possédez déjà un compte avec login.gov avec cette adresse e-mail, nous vous enverrons un e-mail pour vous indiquer comment réinitialiser votre mot de passe et accéder au compte.
+  step2: >-
+    ## 2. Mot de passe sécurisé
+
+    * Les mots de passe doivent comporter au moins 12 caractères et ne doivent pas inclure de mots ou d'expressions couramment utilisés.
+  step3: >
+    ## 3. Une ou plusieurs [méthodes
+    d'authentification](/help/authentication-methods/which-authentication-method-should-i-use/)
+    telles:
+
+    * __Plus sécurisé__
+      * Clef de sécurité
+      * Application d'authentification
+      * Employé du gouvernement fédéral ou identification militaire (PIV/CAC)
+    * __Moins sécurisé__
+      * SMS/messages texte
+      * Codes de sauvegarde
+  info: Selon les besoins de sécurité de l'agence, vous devrez peut-être prouver
+    votre identité à l'aide d'un numéro de sécurité sociale, d'une adresse et /
+    ou d'une pièce d'identité émise par l'État américain.
 permalink: /fr/create-an-account/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
 ---
-
-<div class="create-an-account">
-  <div class="container">
-    <div class="grid-row">
-      <article class="desktop:grid-col-7">
-        <header class="intro">
-          {{ site.data[page.lang].settings["create-an-account"]["intro"] | replace_locale_base_url | markdownify }}
-        </header>
-        <div class="step-1 step list">
-          {{ site.data[page.lang].settings["create-an-account"]["step_1"] | replace_locale_base_url | markdownify }}
-          <div class="mobile step-1-img"></div>
-        </div>
-        <div class="step-2 step list">
-          {{ site.data[page.lang].settings["create-an-account"]["step_2"] | replace_locale_base_url | markdownify }}
-          <div class="mobile step-2-img"></div>
-        </div>
-        <div class="step-3 step list">
-          {{ site.data[page.lang].settings["create-an-account"]["step_3"] | replace_locale_base_url | markdownify }}
-          <div class="mobile step-3-img"></div>
-        </div>
-      </article>
-      <div class="sidebar desktop:grid-col-4 desktop:grid-offset-1 desktop-lg:grid-col-3 desktop-lg:grid-offset-2">
-        <div class="box">
-          {{ site.data[page.lang].settings["create-an-account"]["info"] | replace_locale_base_url | markdownify }}
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
