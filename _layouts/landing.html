@@ -15,7 +15,7 @@ layout: base
     {% include components/3-col.html class=page.three_col.class heading=page.three_col.heading subheading1=page.three_col.subheading1 col1=page.three_col.col1 subheading2=page.three_col.subheading2 col2=page.three_col.col2 subheading3=page.three_col.subheading3 col3=page.three_col.col3 %}
   {% elsif page.component.class == 'who-uses-login' %}
     {% include components/who-uses-login.html class=page.component.class col1=page.component.col1 col2=page.component.col2%}
-  {% elsif page.component.class == 'create-an-account' %}
+  {% elsif page.steps.class == 'create-an-account' %}
     {% include components/create-an-account.html class=page.steps.class intro=page.steps.intro step1=page.steps.step1 step2=page.steps.step2 step3=page.steps.step3 info=page.steps.info %}
   {% else %}
     {{ content }}
