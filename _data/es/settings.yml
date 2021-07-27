@@ -270,28 +270,6 @@ policies:
           url: '#terms'
     - name: Reglas de uso
       url: '/policy/rules-of-use/'
-create-an-account:
-  hero:
-    heading: Crea una cuenta
-    text: Únase a los millones de personas que confían en Login.gov para tener acceso seguro a agencias gubernamentales.
-  intro: Cuando esté listo para crear su cuenta segura de Login.gov, deberá proporcionar algunos datos&#58;
-  step_1: |-
-    ## 1. Dirección de correo electrónico
-      * Recomendamos una dirección de correo electrónico personal a la que siempre podrá acceder en lugar de una dirección de correo electrónico del trabajo.
-      * Si ya tiene una cuenta con Login.gov con esa dirección de correo electrónico, le enviaremos un correo electrónico para informarle cómo puede restablecer su contraseña y acceder a la cuenta.
-  step_2: |-
-    ## 2. Contraseña segura
-      * Las contraseñas deben tener al menos 12 caracteres y no deben incluir palabras o frases de uso común.
-  step_3: |-
-    ## 3. Uno o más [métodos de autenticación](__LOCALE_BASE_URL__/help/authentication-methods/which-authentication-method-should-i-use/) como&#58;
-      * __Mas segura__
-        * Clave de seguridad
-        * Aplicación de autenticación
-        * Identificación militar o de empleado del gobierno federal (PIV / CAC)
-      * __Menos segura__
-        * SMS / mensajes de texto
-        * Códigos de respaldo
-  info: Dependiendo de las necesidades de seguridad de la agencia, es posible que deba probar su identidad mediante un número de seguro social, una dirección y / o una identificación emitida por Los Estados Unidos.
 identifier:
   accessible_labels:
     description: Descripción de la agencia
