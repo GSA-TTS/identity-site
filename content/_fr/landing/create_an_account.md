@@ -5,14 +5,14 @@ description: Rejoignez les millions de personnes qui font confiance à Login.gov
 one_account_banner: true
 steps:
   class: create-an-account
-  intro: "Lorsque vous serez prêt à créer votre compte login.gov sécurisé, vous
+  intro: "Lorsque vous serez prêt à créer votre compte Login.gov sécurisé, vous
     devrez fournir quelques informations:"
   step1: >-
     ## 1. Adresse électronique
 
     * Nous vous recommandons une adresse e-mail personnelle à laquelle vous pourrez toujours accéder plutôt qu'une adresse e-mail professionnelle.
 
-    * Si vous possédez déjà un compte avec login.gov avec cette adresse e-mail, nous vous enverrons un e-mail pour vous indiquer comment réinitialiser votre mot de passe et accéder au compte.
+    * Si vous possédez déjà un compte avec Login.gov avec cette adresse e-mail, nous vous enverrons un e-mail pour vous indiquer comment réinitialiser votre mot de passe et accéder au compte.
   step2: >-
     ## 2. Mot de passe sécurisé
 
