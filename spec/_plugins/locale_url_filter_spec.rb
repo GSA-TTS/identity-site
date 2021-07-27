@@ -249,30 +249,4 @@ RSpec.describe Jekyll::LocaleUrlFilter do
       end
     end
   end
-
-  describe '#replace_locale_base_url' do
-    let(:input) { "#{Jekyll::LocaleUrlFilter::LOCALE_STRING_CONSTANT}/help/" }
-    subject(:locale_url) { instance.replace_locale_base_url(input) }
-
-    context 'without site base url' do
-      let(:config) { { 'collections' => { 'en' => { 'permalink' => '/:path/' } } } }
-
-      it 'replaces using page data' do
-        expect(locale_url).to eq('/help/')
-      end
-    end
-
-    context 'with site base url' do
-      let(:config) do
-        {
-          'baseurl' => 'https://example.com',
-          'collections' => { 'en' => { 'permalink' => '/:path/' } },
-        }
-      end
-
-      it 'replaces using page data' do
-        expect(locale_url).to eq('https://example.com/help/')
-      end
-    end
-  end
 end
