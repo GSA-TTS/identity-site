@@ -10,7 +10,9 @@ steps:
   step1: >-
     ## 1. Email address 
 
-    * We recommend a personal email address that you’ll always be able to access rather than a work email address. * If you already have an account with login.gov with that email address, we’ll send you an email to let you know how you can reset your password and access the account.
+    * We recommend a personal email address that you’ll always be able to access rather than a work email address.  
+
+    * If you already have an account with login.gov with that email address, we’ll send you an email to let you know how you can reset your password and access the account.
   step2: >-
     ## 2. Secure password
 
