@@ -359,28 +359,6 @@ policies:
     li_5: Stocker seulement la quantité minimale nécessaire de données
     li_6: Aider les utilisateurs à comprendre les mesures de sécurité qu'ils doivent
       effectuer
-create-an-account:
-  hero:
-    heading: Créer un compte
-    text: Rejoignez les millions de personnes qui font confiance à Login.gov pour un accès sûr et sécurisé aux agences gouvernementales.
-  intro: Lorsque vous serez prêt à créer votre compte Login.gov sécurisé, vous devrez fournir quelques informations&#58;
-  step_1: |-
-    ## 1. Adresse électronique
-      * Nous vous recommandons une adresse e-mail personnelle à laquelle vous pourrez toujours accéder plutôt qu'une adresse e-mail professionnelle.
-      * Si vous possédez déjà un compte avec Login.gov avec cette adresse e-mail, nous vous enverrons un e-mail pour vous indiquer comment réinitialiser votre mot de passe et accéder au compte.
-  step_2: |-
-    ## 2. Mot de passe sécurisé
-      * Les mots de passe doivent comporter au moins 12 caractères et ne doivent pas inclure de mots ou d'expressions couramment utilisés.
-  step_3: |-
-    ## 3. Une ou plusieurs [méthodes d'authentification](__LOCALE_BASE_URL__/help/authentication-methods/which-authentication-method-should-i-use/) telles que&#58;
-      * __Plus sécurisé__
-        * Clef de sécurité
-        * Application d'authentification
-        * Employé du gouvernement fédéral ou identification militaire (PIV/CAC)
-      * __Moins sécurisé__
-        * SMS/messages texte
-        * Codes de sauvegarde
-  info: Selon les besoins de sécurité de l'agence, vous devrez peut-être prouver votre identité à l'aide d'un numéro de sécurité sociale, d'une adresse et / ou d'une pièce d'identité émise par l'État américain.
 identifier:
   accessible_labels:
     description: Descriptif de l'agence
