@@ -103,6 +103,7 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'landing' }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
+      - { label: 'Class', name: 'class', widget: 'string', required: false, i18n: duplicate }
       - label: 'Two Column'
         name: 'component'
         widget: 'object'
@@ -110,7 +111,6 @@ collections:
         collapsed: true
         required: false
         fields:
-            - { label: 'Class', name: 'class', widget: 'string', required: false, i18n: duplicate }
             - { label: 'Column 1', name: 'col1', widget: 'markdown', required: false, i18n: true }
             - { label: 'Banner Text', name: bannertext, widget: markdown, required: false, i18n: true}
             - { label: 'Text Banner Column 1', name: bannercol1, widget: markdown, required: false, i18n: true }
@@ -123,7 +123,6 @@ collections:
         collapsed: true
         required: false
         fields:
-            - { label: 'Class', name: 'class', required: false, widget: 'string',  i18n: duplicate }
             - { label: 'Heading', name: 'heading', widget: 'string', required: false, i18n: true}
             - { label: 'Subheading 1', name: 'subheading1', widget: 'string', required: false, i18n: true}
             - { label: 'Column 1', name: 'col1', widget: 'markdown', required: false, i18n: true }
@@ -132,13 +131,12 @@ collections:
             - { label: 'Subheading 3', name: 'subheading3', widget: 'string', required: false, i18n: true}
             - { label: 'Column 3', name: 'col3', widget: 'markdown', required: false, i18n: true }
       - label: 'Steps Page'
-        name: 'component'
+        name: 'steps'
         widget: 'object'
         i18n: true
         collapsed: true
         required: false
         fields:
-            - { label: 'Class', name: 'class', widget: 'string', required: false, i18n: duplicate }
             - { label: 'Intro', name: intro, widget: 'markdown', required: false, i18n: true }
             - { label: 'Step 1', name: step1, widget: markdown, required: false, i18n: true }
             - { label: 'Step 2', name: 'step2', widget: 'markdown', required: false, i18n: true }
