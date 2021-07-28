@@ -132,7 +132,7 @@ collections:
             - { label: 'Subheading 3', name: 'subheading3', widget: 'string', required: false, i18n: true}
             - { label: 'Column 3', name: 'col3', widget: 'markdown', required: false, i18n: true }
       - label: 'Steps Page'
-        name: 'steps'
+        name: 'component'
         widget: 'object'
         i18n: true
         collapsed: true

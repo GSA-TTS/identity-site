@@ -3,7 +3,7 @@ title: Crea una cuenta
 description: Únase a los millones de personas que confían en Login.gov para
   tener acceso seguro a agencias gubernamentales.
 one_account_banner: true
-steps:
+component:
   class: create-an-account
   intro: "Cuando esté listo para crear su cuenta segura de Login.gov, deberá
     proporcionar algunos datos:"
