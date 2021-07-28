@@ -3,8 +3,8 @@ layout: landing
 title: Create an account
 description: Join the millions of people who trust Login.gov for safe, secure
   access to government agencies.
-component:
-  class: create-an-account
+class: create-an-account  
+steps:
   intro: "When you’re ready to create your secure Login.gov account, you’ll need
     to provide a few pieces of information:"
   step1: >-
