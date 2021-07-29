@@ -16,7 +16,7 @@ steps:
   step2: >-
     ## 2. Mot de passe sécurisé
 
-    * Les mots de passe doivent comporter au moins 12 caractères et ne doivent pas inclure de mots ou d'expressions couramment utilisés.
+    * Les mots de passe doivent être composés d'au moins 12 caractères et ne doivent pas inclure des mots ou des phrases couramment utilisés.
   step3: >
     ## 3. Une ou plusieurs [méthodes
     d'authentification](/fr/help/authentication-methods/which-authentication-method-should-i-use/)
