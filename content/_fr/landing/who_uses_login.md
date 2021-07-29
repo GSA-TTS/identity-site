@@ -4,8 +4,8 @@ description: Login.gov est un service de connexion approuvé par le gouvernement
   Le public utilise Login.gov pour un accès simple et sécurisé aux services
   fournis par nos partenaires gouvernementaux.
 one_account_banner: true
+class: who-uses-login
 component:
-  class: who-uses-login
   col1: >-
     ## Nos partenaires
 
