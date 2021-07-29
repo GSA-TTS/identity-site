@@ -7,16 +7,16 @@ layout: base
   {% include header.html %}
 </header>
 <main id="main-content">
-  {% include hero.html class=page.component.class heading=page.title text=page.description %}
+  {% include hero.html class=page.class heading=page.title text=page.description %}
 
-  {% if page.component.class == 'what-is-login' %}
-    {% include components/2-col.html class=page.component.class col1=page.component.col1 bannertext=page.component.bannertext bannercol1=page.component.bannercol1 bannercol2=page.component.bannercol2 col2=page.component.col2 image=page.component.image %}
-  {% elsif page.three_col.class == 'why-login-gov' %}
-    {% include components/3-col.html class=page.three_col.class heading=page.three_col.heading subheading1=page.three_col.subheading1 col1=page.three_col.col1 subheading2=page.three_col.subheading2 col2=page.three_col.col2 subheading3=page.three_col.subheading3 col3=page.three_col.col3 %}
-  {% elsif page.component.class == 'who-uses-login' %}
-    {% include components/who-uses-login.html class=page.component.class col1=page.component.col1 col2=page.component.col2%}
-  {% elsif page.steps.class == 'create-an-account' %}
-    {% include components/create-an-account.html class=page.steps.class intro=page.steps.intro step1=page.steps.step1 step2=page.steps.step2 step3=page.steps.step3 info=page.steps.info %}
+  {% if page.class == 'what-is-login' %}
+    {% include components/2-col.html class=page.class col1=page.component.col1 bannertext=page.component.bannertext bannercol1=page.component.bannercol1 bannercol2=page.component.bannercol2 col2=page.component.col2 image=page.component.image %}
+  {% elsif page.class == 'why-login-gov' %}
+    {% include components/3-col.html class=page.class heading=page.three_col.heading subheading1=page.three_col.subheading1 col1=page.three_col.col1 subheading2=page.three_col.subheading2 col2=page.three_col.col2 subheading3=page.three_col.subheading3 col3=page.three_col.col3 %}
+  {% elsif page.class == 'who-uses-login' %}
+    {% include components/who-uses-login.html class=page.class col1=page.component.col1 col2=page.component.col2%}
+  {% elsif page.class == 'create-an-account' %}
+    {% include components/create-an-account.html class=page.class intro=page.steps.intro step1=page.steps.step1 step2=page.steps.step2 step3=page.steps.step3 info=page.steps.info %}
   {% else %}
     {{ content }}
   {% endif %}

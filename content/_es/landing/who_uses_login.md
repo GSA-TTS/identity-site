@@ -4,8 +4,8 @@ description: Login.gov es un servicio de inicio de sesión de confianza emitido
   por el gobierno. El público usa Login.gov para tener acceso simple y seguro a
   los servicios que brindan nuestros socios gubernamentales.
 one_account_banner: true
+class: who-uses-login
 component:
-  class: who-uses-login
   col1: >-
     ## Nuestros compañeros
 

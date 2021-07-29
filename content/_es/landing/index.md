@@ -8,10 +8,8 @@ one_account_banner: true
 title: La única cuenta del gobierno para el público.
 description: Use una cuenta y contraseña para tener acceso privado y seguro a
   las agencias gubernamentales participantes. participantes.
-component:
-  class: " "
+class: why-login-gov
 three_col:
-  class: why-login-gov
   heading: Login.gov es para ti
   subheading1: Individuos
   col1: >-

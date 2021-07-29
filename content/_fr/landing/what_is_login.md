@@ -2,8 +2,8 @@
 title: Qu'est-ce que Login.gov?
 description: Se connecter aux organismes gouvernementaux devrait être simple et sécurisé.
 already_have_an_account_banner: true
+class: what-is-login
 component:
-  class: what-is-login
   col1: >-
     ## Un seul compte et un seul mot de passe
 

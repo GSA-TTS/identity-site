@@ -2,8 +2,8 @@
 title: ¿Qué es Login.gov?
 description: Iniciar sesión en dependencias gubernamentales debería ser fácil y seguro.
 already_have_an_account_banner: true
+class: what-is-login
 component:
-  class: what-is-login
   col1: >-
     ## **Una sola cuenta y contraseña**
 

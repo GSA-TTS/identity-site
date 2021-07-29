@@ -9,10 +9,8 @@ one_account_banner: true
 title: The public’s one account for government.
 description: Use one account and password for secure, private access to
   participating government agencies.
-component:
-  class: " "
+class: why-login-gov  
 three_col:
-  class: why-login-gov
   heading: Login.gov is for you
   subheading1: Individuals
   col1: >-

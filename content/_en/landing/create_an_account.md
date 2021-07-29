@@ -3,8 +3,8 @@ layout: landing
 title: Create an account
 description: Join the millions of people who trust Login.gov for safe, secure
   access to government agencies.
+class: create-an-account  
 steps:
-  class: create-an-account
   intro: "When you’re ready to create your secure Login.gov account, you’ll need
     to provide a few pieces of information:"
   step1: >-
@@ -36,5 +36,5 @@ steps:
 permalink: /create-an-account/
 one_account_banner: true
 twitter_card: large
-image: /assets/img/login-gov-600x314.png
+image: /assets/img/create-an-account/header/create-account-illo-header.png
 ---
