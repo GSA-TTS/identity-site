@@ -35,7 +35,6 @@ contact_page:
       "Social Security Administration (SSA)": Social Security Administration (SSA)
       "Trusted Traveler Programs (Global Entry/Nexus/Sentri)": Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       "USAJOBS": USAJOBS
-      "Veterans Affairs": Veterans Affairs
     errors:
       captcha_required: You must complete the spam prevention challenge.
     form_helpers:

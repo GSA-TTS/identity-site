@@ -35,7 +35,6 @@ contact_page:
       "Social Security Administration (SSA)": Administration de la sécurité sociale (SSA)
       "Trusted Traveler Programs (Global Entry/Nexus/Sentri)": Programmes pour voyageurs de confiance (Global Entry/Nexus/Sentri)
       "USAJOBS": USAJOBS
-      "Veterans Affairs": Affaires des vétérans
     errors:
       captcha_required: Vous devez relever le défi de la prévention du pourriel.
     form_helpers:
@@ -164,9 +163,9 @@ nav:
         url: '#notre-mission'
       - name: Notre vision
         url: '#notre-vision'
-      - name: L’équipe 
+      - name: L’équipe
         url: '#léquipe'
-      - name: À propos de login.gov 
+      - name: À propos de login.gov
         url: '#à-propos-de-logingov'
   accessibility:
     title: Accessibilité
