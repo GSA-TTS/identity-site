@@ -35,7 +35,6 @@ contact_page:
       "Social Security Administration (SSA)": Administración del Seguro Social (SSA, por su siglas en inglés)
       "Trusted Traveler Programs (Global Entry/Nexus/Sentri)": Programas de Viajero de Confianza (Global Entry/Nexus/Sentri)
       "USAJOBS": USAJOBS
-      "Veterans Affairs": Asuntos de Veteranos
     errors:
       captcha_required: Debes superar el desafío de prevención de spam.
     form_helpers:
