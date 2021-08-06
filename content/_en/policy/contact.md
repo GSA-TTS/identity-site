@@ -29,6 +29,6 @@ footer_content: |-
 
   ## Report an issue
 
-  If you want to report an issue, please review our [vulnerability disclosure policy](https://18f.gsa.gov/vulnerability-disclosure-policy/) and contact us using our [vulnerability disclosure form](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform).
+  If you want to report an issue, please review our [vulnerability disclosure policy](https://18f.gsa.gov/vulnerability-disclosure-policy/) and report through our [TTS Bug Bounty program](https://hackerone.com/tts).
 permalink: /contact/
 ---
