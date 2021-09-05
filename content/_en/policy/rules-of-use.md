@@ -64,7 +64,7 @@ The authenticators currently available to you in the Login.gov service are:
 3. One-time passcodes through SMS (text) or voice messaging, sent to a mobile device you control;
 4. One-time passcodes through authenticators apps such as Google Authenticator or Authy, downloaded to a mobile device of your own and registered with Login.gov;
 5. PIV and CAC cards, for federal and armed forces personnel only;
-6. webauthN security devices and software, such as FIDO ("Fast IDentity Online") tokens, Yubikeys, and Google's Titan Security Keys, obtained by you and register with Login.gov;
+6. webauthN security devices and software, such as FIDO ("Fast IDentity Online") tokens, Yubikeys, and Google's Titan Security Keys, obtained by you and registered with Login.gov;
 
 The Login.gov service does not issue physical authenticators. Authenticators other than passphrases or backup codes require hardware or software that you provide yourself.
 
@@ -98,13 +98,13 @@ The Login.gov service is operated within the United States, but is accessible gl
 
 # 7. Service Operation and Customer Support
 
-  The Login.gov service operates with a high standard of service, both in service delivery and customer support.
+The Login.gov service operates with a high standard of service, both in service delivery and customer support.
 
-  1. Availability and Uptime
+## 1. Availability and Uptime
 
-  As an authentication system and gateway to federal applications, we strive for high availability and uptime. Our goal is to maintain a service uptime of 99.9% across all sites and systems. See our [status page](https://logingov.statuspage.io/) for live statistics, incident reports, and subscribe to updates.
+As an authentication system and gateway to federal applications, we strive for high availability and uptime. Our goal is to maintain a service uptime of 99.9% across all sites and systems. See our [status page](https://logingov.statuspage.io/) for live statistics, incident reports, and subscribe to updates.
 
-  2. Customer Support
+## 2. Customer Support
 
 Customer support and help desk services are always available through [https://login.gov/contact/]({% link _en/policy/contact.md %}). When you submit for customer support, we will use any information you provide to address your question or comment, and may use your feedback to improve our service or for other purposes as we see fit, such as for marketing. In doing so, we will never reveal your personal information outside of the Login.gov service except as required by applicable law or as stated elsewhere in these terms.
 
@@ -112,7 +112,7 @@ Customer support and help desk services are always available through [https://lo
 
 The Login.gov service connects the public to federal agencies more easily by allowing users to access multiple government programs with one Login.gov account.
 
-Partner agencies select the information they require from the list of attributes we support. If we don't already have it, we request that information from you; validate it, and ask for your consent to share it with the partner agency.Partners can request a variety of information such as name, address, birth date, and phone number. Partners are required to protect this information in compliance with federal law and policy.
+Partner agencies select the information they require from the list of attributes we support. If we don't already have it, we request that information from you; validate it, and ask for your consent to share it with the partner agency. Partners can request a variety of information such as name, address, birth date, and phone number. Partners are required to protect this information in compliance with federal law and policy.
 
 During the process of becoming a partner on the Login.gov service, we collect information from the agency about the type of access they are providing and, from that information, come to agreement with the partner on the risk of the application and the need for personal information. Based on this, we determine the level of information the partner may receive.
 
