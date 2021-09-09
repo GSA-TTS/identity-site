@@ -12,9 +12,9 @@ proofer_options = { url_ignore: [] }
 OptionParser.new do |opt|
   opt.on('--internal') { proofer_options[:disable_external] = true }
   opt.on('--external') { proofer_options[:external_only] = true }
-  opt.on('--retry-external RETRIES') { |retries_arg| retries = retries_arg.to_i }
-  opt.on('--retry-external-delay DELAY') { |retry_delay_arg| retry_delay = retry_delay_arg.to_i }
   opt.on('--url-ignore PATTERN') { |pattern| proofer_options[:url_ignore] << /#{Regexp.quote(pattern)}/ }
+  opt.on('--retry-external RETRIES', Integer) { |retries_arg| retries = retries_arg }
+  opt.on('--retry-external-delay DELAY', Integer) { |retry_delay_arg| retry_delay = retry_delay_arg }
 end.parse!
 
 site_config = Jekyll::Configuration.from(YAML.load_file('_config.yml'))
