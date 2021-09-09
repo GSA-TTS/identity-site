@@ -5,7 +5,7 @@ description: Reglas de uso.
 permalink: /es/policy/rules-of-use/
 sidenav: policies
 ---
-# Reglas de uso
+## Reglas de uso
 
 El servicio Login.gov lo proporciona la Administración de Servicios Generales de EE. UU. para ofrecer al público un acceso en línea seguro y privado a los programas gubernamentales participantes. Con una sola cuenta de Login.gov, los usuarios pueden acceder a varias agencias gubernamentales. Nuestro objetivo es hacer que la gestión de los beneficios, servicios y aplicaciones federales sea más fácil y segura.
 
@@ -16,7 +16,7 @@ Estas condiciones de servicio proporcionan:
 - El uso que hacemos de su información y sus derechos sobre la misma, y
 - Las condiciones que acepta cuando realiza determinadas acciones en el servicio Login.gov.
 
-# 1. Definición de servicios generales
+## 1. Definición de servicios generales
 
 El servicio Login.gov ofrece al público un acceso en línea seguro y privado a los programas gubernamentales participantes. Con una sola cuenta de Login.gov, puede acceder a los servicios ofrecidos por múltiples agencias gubernamentales. Nuestro objetivo es hacer que la gestión de las prestaciones, servicios y aplicaciones federales sea más fácil y segura.
 
@@ -32,7 +32,7 @@ El servicio de Login.gov emplea las mejores prácticas reconocidas de seguridad 
 
 Antes de utilizar el servicio de Login.gov, se le pide que acepte estas condiciones de servicio. Cuando el servicio de Login.gov cambie sus condiciones de servicio, se le dará la opción de aceptar o rechazar las condiciones de servicio actualizadas. Del mismo modo, al realizar ciertas actividades en el servicio de Login.gov, como proporcionar información personal por primera vez, el servicio de Login.gov puede solicitarle que vuelva a confirmar su comprensión de cómo utiliza su información.
 
-# 2. Su consentimiento
+## 2. Su consentimiento
 
 Además de los detalles sobre su consentimiento indicados en otras partes de estos términos, al aceptar estos términos y utilizar el servicio de Login.gov, usted acepta que:
 
@@ -49,7 +49,7 @@ También acepta que está obligado a cumplir estos términos y la [política de 
 
 Publicaremos cualquier cambio en estos términos en esta página. Si los cambios afectan a nuestro control de su información personal o se consideran significativos, se lo notificaremos por correo electrónico. Si no podemos ponernos en contacto con usted por correo electrónico, nos reservamos el derecho de hacerlo por otros medios, incluido el correo postal. Si en cualquier momento deja de estar de acuerdo con estas condiciones o con cualquier otra condición relevante del servicio de Login.gov, puede cerrar su cuenta.
 
-# 3. Autenticación
+## 3. Autenticación
 
 El acceso a una cuenta en el servicio Login.gov se denomina autenticación. La autenticación en el servicio Login.gov exige una autenticación multifactorial (o autenticación de dos factores) como medio de proporcionar una fuerte protección contra los intentos malintencionados de acceder a su cuenta e información.
 
@@ -75,7 +75,7 @@ Si olvida su contraseña, puede restablecerla si tiene acceso a su dirección de
 
 Si sospechamos que se ha producido un fraude en su cuenta, podemos bloquearla y ponernos en contacto con usted. Si tenemos razones para creer que su contraseña se ha visto comprometida, podemos exigirle que la restablezca.
 
-# 4. Comprobación y verificación de la identidad
+## 4. Comprobación y verificación de la identidad
 
 La primera vez que intente iniciar sesión mediante Login.gov en una aplicación asociada que requiera un alto grado de certeza de que usted es quien dice ser, iniciamos un proceso denominado prueba de identidad.
 
@@ -89,7 +89,7 @@ Una vez que hayamos validado las pruebas de identidad que nos proporcione, verif
 
 Ni nosotros ni ningún servicio externo guarda copias de ninguna foto que nos envíe, ya sea de una prueba de identidad o de usted mismo. Detallamos más cómo utilizamos su información en nuestra [política de privacidad]({% link _es/policy/index.md %}).
 
-# 5. Cancelación
+## 5. Cancelación
 
 Puede cancelar su cuenta en cualquier momento a través de su perfil de cuenta. Además, en caso de fraude u otras violaciones de estas normas de uso, podemos revocar el acceso a su cuenta.
 
@@ -97,23 +97,23 @@ Si esto ocurre, seguiremos protegiendo la información de su cuenta de acuerdo c
 
 En el improbable caso de que se interrumpa el servicio de Login.gov, la información de la cuenta se conservará con arreglo a nuestro aviso sobre el sistema de registros, en su versión modificada, al que puede acceder [aquí](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records)y [aquí](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
-# 6. Autoridades
+## 6. Autoridades
 
 El servicio de Login.gov funciona dentro de los Estados Unidos, pero se puede acceder a él en todo el mundo para su uso público. El servicio de Login.gov está explotado por la Administración de Servicios Generales en virtud de las autoridades y orientaciones que se encuentran en [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title6-section1523&amp;num=0&amp;edition=prelim), la [Ley de Gobierno Electrónico de 2002](https://www.congress.gov/107/plaws/publ347/PLAW-107publ347.pdf)([44 USC §](https://www.govinfo.gov/content/pkg/PLAW-104publ13/html/PLAW-104publ13.htm)[3501](https://www.govinfo.gov/content/pkg/PLAW-104publ13/html/PLAW-104publ13.htm)), [40 USC § 501](https://www.gsa.gov/cdnstatic/CNXII__Eligibility_to_Use_GSA.pdf) y [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
-# 7. Funcionamiento del servicio y asistencia al cliente
+## 7. Funcionamiento del servicio y asistencia al cliente
 
 El servicio de Login.gov funciona con un alto nivel de servicio, tanto en la prestación del servicio como en la atención al cliente.
 
-## 1. Disponibilidad y tiempo de funcionamiento
+### 1. Disponibilidad y tiempo de funcionamiento
 
 Como sistema de autenticación y puerta de entrada a las aplicaciones federales, nos esforzamos por lograr una alta disponibilidad y tiempo de actividad. Nuestro objetivo es mantener un tiempo de actividad del servicio del 99.9% en todos los sitios y sistemas. Consulte nuestra [página de estado](https://logingov.statuspage.io/)para ver las estadísticas en vivo, los informes de incidencias y suscribirse a las actualizaciones.
 
-## 2. Asistencia al cliente
+### 2. Asistencia al cliente
 
 La asistencia al cliente y los servicios de ayuda están siempre disponibles a través de [https://login.gov/contact/]({% link _es/policy/contact.md %}).Cuando se somete al servicio de atención al cliente, utilizaremos cualquier información que nos proporcione para responder a su pregunta o comentario, y podremos utilizar sus comentarios para mejorar nuestro servicio o para otros fines que consideremos oportunos, como por ejemplo para fines de comercialización. Al hacerlo, nunca revelaremos su información personal fuera del servicio de Login.gov, excepto cuando lo exija la legislación aplicable o se indique en otra parte de estas condiciones.
 
-# 8. Responsabilidades de nuestros socios
+## 8. Responsabilidades de nuestros socios
 
 El servicio de Login.gov conecta al público con las agencias federales más fácilmente permitiendo a los usuarios acceder a múltiples programas gubernamentales con una sola cuenta de Login.gov.
 
@@ -125,11 +125,11 @@ Nunca compartiremos información con un socio sin su consentimiento explícito. 
 
 Los posibles socios y otras partes interesadas pueden encontrar más información sobre el proceso de incorporación de socios [aquí](https://developers.login.gov/).
 
-# 9. Tarifas
+## 9. Tarifas
 
 No se cobran tarifas al usuario por registrarse o utilizar el servicio de Login.gov. No existe ninguna tarifa relacionada con la conexión con nuestros socios, aunque los propios socios pueden cobrar tarifas por algunos de sus servicios, como hacer una reserva, comprar un artículo o solicitar un servicio.
 
-# 10. Declaraciones, garantías y responsabilidades
+## 10. Declaraciones, garantías y responsabilidades
 
 Renuncia a las garantías
 
@@ -137,28 +137,28 @@ Los servicios de Login.gov se proporcionan "tal cual" y en función de su dispon
 
 GSA no garantiza que los servicios estén libres de errores o que el acceso a los mismos sea continuo o ininterrumpido.
 
-## 1. Declaraciones generales
+### 1. Declaraciones generales
 
 Por la presente, garantiza que (1) su uso del sitio web y de los servicios será estrictamente conforme al acuerdo y a todas las leyes y reglamentos aplicables, y (2) su uso del sitio web y de los servicios no infringirá ni se apropiará indebidamente de los derechos de propiedad intelectual de ningún tercero.
 
-## 2. Limitaciones de responsabilidad
+### 2. Limitaciones de responsabilidad
 
 En ningún caso GSA será responsable con respecto a cualquier asunto de este acuerdo en virtud de cualquier contrato, negligencia, responsabilidad estricta u otra teoría legal o equitativa por (1) cualquier daño especial, incidental o consecuente; (2) el costo de adquisición de productos o servicios sustitutos; o (3) por la interrupción del uso o la pérdida o deterioro de datos.
 
-# 11. Disposiciones generales
+## 11. Disposiciones generales
 
-## 1. Acuerdo completo
+### 1. Acuerdo completo
 
 Este acuerdo constituye el acuerdo completo entre GSA y usted en relación con el uso del sitio web y los servicios, y solo se puede modificar mediante la publicación de una versión revisada en esta página por parte de GSA.
 
-## 2. Disputas
+### 2. Disputas
 
 Cualquier disputa que surja de este acuerdo y del acceso o uso de los servicios se regirá por la ley federal.
 
-## 3. Ausencia de renuncia a los derechos
+### 3. Ausencia de renuncia a los derechos
 
 El hecho de que GSA no ejerza o haga cumplir cualquier derecho o disposición de este acuerdo no constituirá una renuncia a dicho derecho o disposición.
 
-## 4. Contacto
+### 4. Contacto
 
 Si tiene preguntas sobre estos términos o cualquier otro aspecto del servicio de Login.gov, puede ponerse en contacto con nosotros en [https://login.gov/contact/]({% link _es/policy/contact.md %}).
