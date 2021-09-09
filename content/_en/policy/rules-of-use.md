@@ -100,11 +100,11 @@ The Login.gov service is operated within the United States, but is accessible gl
 
 The Login.gov service operates with a high standard of service, both in service delivery and customer support.
 
-## 1. Availability and Uptime
+### 1. Availability and Uptime
 
 As an authentication system and gateway to federal applications, we strive for high availability and uptime. Our goal is to maintain a service uptime of 99.9% across all sites and systems. See our [status page](https://logingov.statuspage.io/) for live statistics, incident reports, and subscribe to updates.
 
-## 2. Customer Support
+### 2. Customer Support
 
 Customer support and help desk services are always available through [https://login.gov/contact/]({% link _en/policy/contact.md %}). When you submit for customer support, we will use any information you provide to address your question or comment, and may use your feedback to improve our service or for other purposes as we see fit, such as for marketing. In doing so, we will never reveal your personal information outside of the Login.gov service except as required by applicable law or as stated elsewhere in these terms.
 
@@ -130,28 +130,28 @@ Disclaimer of Warranties
 
 Login.gov services are provided "as is" and on an "as-available" basis. GSA hereby disclaims all warranties of any kind, express or implied, including without limitation the warranties of merchantability, fitness for a particular purpose, and non-infringement. GSA makes no warranty that the services will be error free or that access thereto will be continuous or uninterrupted.
 
-## 1. General Representations
+### 1. General Representations
 
 You hereby warrant that (1) your use of the website and services will be in strict accordance with the Agreement and all applicable laws and regulations, and (2) your use of the website and services will not infringe or misappropriate the intellectual property rights of any third party.
 
-## 2. Limitations on Liability
+### 2. Limitations on Liability
 
 In no event will GSA be liable with respect to any subject matter of this Agreement under any contract, negligence, strict liability or other legal or equitable theory for: (1) any special, incidental, or consequential damages; (2) the cost of procurement of substitute products or services; or (3) for interruption of use or loss or corruption of data.
 
 ## 11. General Provisions
 
-## 1. Entire Agreement
+### 1. Entire Agreement
 
 This Agreement constitutes the entire Agreement between GSA and you concerning the use of the website and services, and may only be modified by the posting of a revised version on this page by GSA.
 
-## 2. Disputes
+### 2. Disputes
 
 Any disputes arising out of this Agreement and access to or use of the services shall be governed by federal law.
 
-## 3. No Waiver of Rights
+### 3. No Waiver of Rights
 
 GSA's failure to exercise or enforce any right or provision of this Agreement shall not constitute waiver of such right or provision.
 
-## 4. Contacting Us
+### 4. Contacting Us
 
 If you have questions about these terms or any other aspect of the Login.gov service, you can contact us at [https://login.gov/contact/]({% link _en/policy/contact.md %}).
