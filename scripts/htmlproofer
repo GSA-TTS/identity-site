@@ -5,15 +5,21 @@ require 'html-proofer'
 require 'optparse'
 require 'jekyll'
 
-options = {}
+retries = 0
+retry_delay = 0
+
+proofer_options = { url_ignore: [] }
 OptionParser.new do |opt|
-  opt.on('--internal') { options[:disable_external] = true }
-  opt.on('--external') { options[:external_only] = true }
+  opt.on('--internal') { proofer_options[:disable_external] = true }
+  opt.on('--external') { proofer_options[:external_only] = true }
+  opt.on('--url-ignore PATTERN') { |pattern| proofer_options[:url_ignore] << /#{Regexp.quote(pattern)}/ }
+  opt.on('--retry-external RETRIES', Integer) { |retries_arg| retries = retries_arg }
+  opt.on('--retry-external-delay DELAY', Integer) { |retry_delay_arg| retry_delay = retry_delay_arg }
 end.parse!
 
 site_config = Jekyll::Configuration.from(YAML.load_file('_config.yml'))
 
-options.merge!(
+proofer_options.merge!(
   empty_alt_ignore: true,
   typhoeus: {
     ssl_verifypeer: false,
@@ -26,9 +32,25 @@ options.merge!(
   ],
 )
 
-proofer = HTMLProofer.check_directory(site_config['destination'], options)
-# Counter-intuitively, followlocation is set as false in the configuration and always reverted to
-# true before a request. External URL requests should be allowed to follow redirects, but internal
-# link trailing slash check is based on the raw options object.
-proofer.before_request { |request| request.options[:followlocation] = true }
-proofer.run
+def external_failure_urls(failures)
+  failures.map { |failure| failure.to_s[/External link (.+?) failed:/, 1] }.compact
+end
+
+while retries >= 0
+  proofer = HTMLProofer.check_directory(site_config['destination'], proofer_options)
+  # Counter-intuitively, followlocation is set as false in the configuration and always reverted to
+  # true before a request. External URL requests should be allowed to follow redirects, but internal
+  # link trailing slash check is based on the raw options object.
+  proofer.before_request { |request| request.options[:followlocation] = true }
+  proofer.check_files
+  failed_external_urls = external_failure_urls(proofer.failures)
+  break if failed_external_urls.empty?
+  all_external_urls = proofer.external_urls.keys
+  proofer_options[:url_ignore].concat(all_external_urls - failed_external_urls)
+  proofer_options[:external_only] = true
+  retries -= 1
+  sleep retry_delay if retry_delay > 0
+end
+
+# HTMLProofer::Runner#print_failed_tests also sets the exit code
+proofer.print_failed_tests if !proofer.failures.empty?
