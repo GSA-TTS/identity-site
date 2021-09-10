@@ -100,7 +100,7 @@ Le service Login.gov est doté de normes de service élevées, tant au niveau de
 
 ### 1. disponibilité et temps de fonctionnement
 
-Parce qu'il s'agit d'un système d'authentification et d'une passerelle vers les applications fédérales, nous faisons tout notre possible pour garantir une disponibilité et un temps de service élevés. Notre objectif est de garantir une disponibilité de 99,9 % sur l'ensemble des sites et des systèmes. Visitez notre page consacrée aux mises à jour pour obtenir des statistiques en temps réel, des rapports d'incidents et pour vous abonner aux mises à jour.
+Parce qu'il s'agit d'un système d'authentification et d'une passerelle vers les applications fédérales, nous faisons tout notre possible pour garantir une disponibilité et un temps de service élevés. Notre objectif est de garantir une disponibilité de 99,9 % sur l'ensemble des sites et des systèmes. Visitez notre [page consacrée aux mises à jour pour](https://logingov.statuspage.io/) obtenir des statistiques en temps réel, des rapports d'incidents et pour vous abonner aux mises à jour.
 
 ### 2. Soutien au client**
 
