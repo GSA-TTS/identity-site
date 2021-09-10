@@ -37,15 +37,10 @@ Prior to using the Login.gov service, you are required to agree to these terms o
 In addition to details about your consent stated elsewhere in these terms, by accepting these terms and using the Login.gov service, you agree that:
 
 1. You are not a child under 13 years of age,
-
 2. Any information you provide to us is complete and accurate,
-
 3. If you verify your identity, the identity you claim when using the service is your own,
-
 4. You will comply with applicable local, state, and federal laws in your use of the service,
-
 5. You will keep your personal and login information confidential, and
-
 6. You will maintain accurate information in your account at all times.
 
 You further agree that you will NOT misrepresent your identity or any information you present in the Login.gov service, including through customer support channels.
@@ -65,15 +60,10 @@ We encourage you to set up multiple additional authenticators. This way, if you 
 The authenticators currently available to you in the Login.gov service are:
 
 1. A passphrase;
-
 2. Backup codes;
-
 3. One-time passcodes through SMS (text) or voice messaging, sent to a mobile device you control;
-
 4. One-time passcodes through authenticators apps such as Google Authenticator or Authy, downloaded to a mobile device of your own and registered with Login.gov;
-
 5. PIV and CAC cards, for federal and armed forces personnel only;
-
 6. webauthN security devices and software, such as FIDO ("Fast IDentity Online") tokens, Yubikeys, and Google's Titan Security Keys, obtained by you and registered with Login.gov;
 
 The Login.gov service does not issue physical authenticators. Authenticators other than passphrases or backup codes require hardware or software that you provide yourself.

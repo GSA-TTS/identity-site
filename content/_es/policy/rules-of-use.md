@@ -37,15 +37,10 @@ Antes de utilizar el servicio de Login.gov, se le pide que acepte estas condicio
 Además de los detalles sobre su consentimiento indicados en otras partes de estos términos, al aceptar estos términos y utilizar el servicio de Login.gov, usted acepta que:
 
 1. No es un niño menor de 13 años,
-
 2. La información que nos proporciona es completa y precisa,
-
 3. Si verifica su identidad, la identidad que declara al utilizar el servicio es la suya,
-
 4. Cumplirá con las leyes locales, estatales y federales aplicables en su uso del servicio,
-
 5. Mantendrá la confidencialidad de su información personal y de inicio de sesión, y
-
 6. Mantendrá en todo momento información precisa en su cuenta.
 
 Asimismo, acepta que NO falseará su identidad ni la información que presente en el servicio Login.gov, incluso a través de los canales de atención al cliente.
@@ -67,13 +62,9 @@ Le animamos a que configure varios autenticadores adicionales. De este modo, si 
 Los autenticadores que actualmente tiene a su disposición en el servicio Login.gov son:
 
 1. Una contraseña;
-
 2. Código de respaldo;
-
 3. Códigos de acceso únicos a través de SMS (texto) o mensajes de voz, enviados a un dispositivo celular que controla;
-
 4. Códigos de acceso de una sola vez a través de aplicaciones de autentificación como Google Authenticator o Authy, descargadas en un dispositivo celular propio y registradas en Login.gov;
-
 5. Tarjetas PIV y CAC, solo para el personal federal y de las fuerzas armadas; dispositivos y software de seguridad webauthN, como tokens FIDO ("Fast IDentity Online"), Yubikeys y Titan Security Keys de Google, obtenidos por usted y registrados en Login.gov;
 
 El servicio de Login.gov no emite autenticadores físicos. Los autenticadores que no sean contraseñas o códigos de seguridad requieren hardware o software que proporciona usted mismo.

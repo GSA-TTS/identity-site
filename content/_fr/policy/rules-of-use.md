@@ -37,13 +37,9 @@ Avant de pouvoir utiliser le service Login.gov, vous devez accepter les présent
 Outre les détails concernant votre consentement énoncés ailleurs dans les présentes conditions, en acceptant ces conditions et en utilisant le service Login.gov, vous convenez de ce qui suit :
 
 1. Vous n'êtes pas un enfant de moins de 13 ans,
-
 2. Toute information que vous nous fournissez est complète et exacte,
-
 3. Si vous vérifiez votre identité, l'identité que vous revendiquez lorsque vous utilisez le service est la vôtre,
-
 4. Vous vous conformerez aux lois locales, nationales et fédérales en vigueur lors de l'utilisation du service
-
 5. Vous garderez en toute confidentialité vos informations personnelles et de connexion, et 6. Vous maintiendrez des informations exactes sur votre compte à tout moment.
 
 Vous vous engagez en outre à NE PAS déformer votre identité ou toute information que vous présentez dans le cadre du service Login.gov, y compris par le biais des canaux d'assistance à la clientèle.
@@ -63,13 +59,9 @@ Nous vous invitons à configurer plusieurs authentificateurs supplémentaires. A
 Les authentificateurs actuellement disponibles dans le service Login.gov sont les suivants :
 
 1. Une phrase de passe;
-
 2. Des codes de secours;
-
 3. Des codes à usage unique par SMS (texte) ou message vocal, envoyés vers un appareil mobile que vous contrôlez;
-
 4. Des codes d'accès à usage unique par le biais d'applications d'authentification telles que Google Authenticator ou Authy, téléchargées sur votre propre appareil mobile et enregistrées sur Login.gov;
-
 5. Les cartes PIV et CAC, pour le personnel fédéral et le personnel des forces armées uniquement; 6. Les dispositifs et logiciels de sécurité webauthN, tels que les clés FIDO (« Fast IDentity Online »), les Yubikeys, et les Titan Security Keys de Google, que vous avez obtenus et enregistrés auprès de Login.gov;
 
 Le service Login.gov ne fournit pas d'authentifiants physiques. Les authentificateurs autres que les phrases de passe ou les codes de secours nécessitent un matériel ou un logiciel que vous devez fournir vous-même.
@@ -115,6 +107,7 @@ Parce qu'il s'agit d'un système d'authentification et d'une passerelle vers les
 Le service de soutien à la clientèle et le service d'assistance sont toujours disponibles sur [https://login.gov/contact/]({% link _fr/policy/contact.md %}). Quand vous adressez une demande d'assistance à la clientèle, nous nous servons de toutes les informations que vous fournissez pour répondre à votre question ou à votre commentaire, et nous pouvons nous servir de vos commentaires pour améliorer notre service ou à d'autres fins que nous jugeons appropriées, par exemple pour le marketing. Dans ce cadre, nous ne divulguerons jamais vos informations personnelles en dehors du service Login.gov, sauf si la loi en vigueur l'exige ou si cela est indiqué ailleurs dans les présentes conditions.
 
 ## 8. les responsabilités de nos partenaires
+
 Le service Login.gov connecte le public aux agences fédérales plus facilement en permettant aux utilisateurs d'accéder à plusieurs programmes gouvernementaux avec un seul compte Login.gov.
 
 Les agences partenaires sélectionnent les informations dont elles ont besoin à partir de la liste des éléments que nous prenons en charge. Si nous ne les avons pas déjà, nous vous demandons ces informations, nous les validons puis nous vous demandons votre consentement pour les partager avec l'agence partenaire. Les partenaires peuvent demander diverses informations telles que le nom, l'adresse, la date de naissance et le numéro de téléphone. Les partenaires sont tenus de protéger ces informations conformément à la législation et à la politique fédérales.
