@@ -27,7 +27,7 @@ article p {
     line-height: $line-height;
   }
 
-  p, ul {
+  p, ol, ul {
     // TODO: Remove this once we assign `$theme-body-line-height` design system variable.
     line-height: $line-height;
 
