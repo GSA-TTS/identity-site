@@ -102,7 +102,7 @@ Le service Login.gov est doté de normes de service élevées, tant au niveau de
 
 Parce qu'il s'agit d'un système d'authentification et d'une passerelle vers les applications fédérales, nous faisons tout notre possible pour garantir une disponibilité et un temps de service élevés. Notre objectif est de garantir une disponibilité de 99,9 % sur l'ensemble des sites et des systèmes. Visitez notre [page consacrée aux mises à jour pour](https://logingov.statuspage.io/) obtenir des statistiques en temps réel, des rapports d'incidents et pour vous abonner aux mises à jour.
 
-### 2. Soutien au client**
+### 2. Soutien au client
 
 Le service de soutien à la clientèle et le service d'assistance sont toujours disponibles sur [https://login.gov/contact/]({% link _fr/policy/contact.md %}). Quand vous adressez une demande d'assistance à la clientèle, nous nous servons de toutes les informations que vous fournissez pour répondre à votre question ou à votre commentaire, et nous pouvons nous servir de vos commentaires pour améliorer notre service ou à d'autres fins que nous jugeons appropriées, par exemple pour le marketing. Dans ce cadre, nous ne divulguerons jamais vos informations personnelles en dehors du service Login.gov, sauf si la loi en vigueur l'exige ou si cela est indiqué ailleurs dans les présentes conditions.
 
@@ -132,7 +132,7 @@ Les services de Login.gov sont fournis « en l'état » et en fonction de leur �
 
 Vous garantissez par les présentes que (1) votre utilisation du site Web et des services sera strictement conforme au Contrat et à toutes les lois et réglementations en vigueur, et (2) que l'utilisation du site Web et des services ne violera ni ne détournera les droits de propriété intellectuelle d'un tiers.
 
-### 2. limitations de la responsabilité**
+### 2. limitations de la responsabilité
 
 En aucun cas, la GSA ne pourra être tenue responsable de tout ce qui fait l'objet du présent Accord, dans le cadre d'un contrat, d'une négligence, d'une responsabilité stricte ou de toute autre théorie légale ou impartiale pour : (1) tout dommage particulier, accessoire ou indirect; (2) le coût d'acquisition de produits ou services de substitution; ou (3) l'interruption d'utilisation ou la perte ou détérioration de données.
 
