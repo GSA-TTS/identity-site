@@ -107,11 +107,11 @@ El servicio de Login.gov funciona con un alto nivel de servicio, tanto en la pre
 
 ### 1. Disponibilidad y tiempo de funcionamiento
 
-Como sistema de autenticación y puerta de entrada a las aplicaciones federales, nos esforzamos por lograr una alta disponibilidad y tiempo de actividad. Nuestro objetivo es mantener un tiempo de actividad del servicio del 99.9% en todos los sitios y sistemas. Consulte nuestra [página de estado](https://logingov.statuspage.io/)para ver las estadísticas en vivo, los informes de incidencias y suscribirse a las actualizaciones.
+Como sistema de autenticación y puerta de entrada a las aplicaciones federales, nos esforzamos por lograr una alta disponibilidad y tiempo de actividad. Nuestro objetivo es mantener un tiempo de actividad del servicio del 99.9% en todos los sitios y sistemas. Consulte nuestra [página de estado](https://logingov.statuspage.io/) para ver las estadísticas en vivo, los informes de incidencias y suscribirse a las actualizaciones.
 
 ### 2. Asistencia al cliente
 
-La asistencia al cliente y los servicios de ayuda están siempre disponibles a través de [https://login.gov/contact/]({% link _es/policy/contact.md %}).Cuando se somete al servicio de atención al cliente, utilizaremos cualquier información que nos proporcione para responder a su pregunta o comentario, y podremos utilizar sus comentarios para mejorar nuestro servicio o para otros fines que consideremos oportunos, como por ejemplo para fines de comercialización. Al hacerlo, nunca revelaremos su información personal fuera del servicio de Login.gov, excepto cuando lo exija la legislación aplicable o se indique en otra parte de estas condiciones.
+La asistencia al cliente y los servicios de ayuda están siempre disponibles a través de [https://login.gov/contact/]({% link _es/policy/contact.md %}). Cuando se somete al servicio de atención al cliente, utilizaremos cualquier información que nos proporcione para responder a su pregunta o comentario, y podremos utilizar sus comentarios para mejorar nuestro servicio o para otros fines que consideremos oportunos, como por ejemplo para fines de comercialización. Al hacerlo, nunca revelaremos su información personal fuera del servicio de Login.gov, excepto cuando lo exija la legislación aplicable o se indique en otra parte de estas condiciones.
 
 ## 8. Responsabilidades de nuestros socios
 
