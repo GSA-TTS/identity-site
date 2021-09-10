@@ -5,7 +5,7 @@ description: Rules of use.
 permalink: /policy/rules-of-use/
 sidenav: policies
 ---
-# Rules of Use
+## Rules of Use
 
 The Login.gov service is provided by the U.S. General Services Administration to offer the public secure and private online access to participating government programs. With one Login.gov account, users can sign into multiple government agencies. Our goal is to make managing federal benefits, services, and applications easier and more secure.
 
@@ -16,7 +16,7 @@ These terms of service provide:
 - How we use your information and your rights to that information, and
 - The conditions you agree to when you take certain actions on the Login.gov service.
 
-# 1. General Service Definition
+## 1. General Service Definition
 
 The Login.gov service offers the public secure and private online access to participating government programs. With one Login.gov account, you can sign into services offered by multiple government agencies. Our goal is to make managing federal benefits, services, and applications easier and more secure.
 
@@ -32,7 +32,7 @@ The Login.gov service employs recognized security and privacy best practices.
 
 Prior to using the Login.gov service, you are required to agree to these terms of service. When the Login.gov service changes its terms of service, you will be given the option to agree or to decline the updated terms of service. Similarly, when conducting certain activities in the Login.gov service, such as providing personal information for the first time, the Login.gov service may require you to re-confirm your understanding of how it uses your information.
 
-# 2. Your Agreement
+## 2. Your Agreement
 
 In addition to details about your consent stated elsewhere in these terms, by accepting these terms and using the Login.gov service, you agree that:
 
@@ -49,7 +49,7 @@ You also agree that you are bound by these terms and the [Privacy Policy]({% lin
 
 We will post any changes to these terms to this page. If the changes affect our handling of your personal information or are otherwise deemed significant, we will notify you by email. If we cannot reach you by email, we reserve the right to contact you by other means, including postal mail. If at any time you no longer agree to these terms or any other relevant terms of the Login.gov service, you may close your account.
 
-# 3. Authentication
+## 3. Authentication
 
 Accessing an account on the Login.gov service is called authentication. Authentication to the Login.gov service requires multi-factor authentication (or two factor authentication) as a means of providing strong protection against malicious attempts to access your account and information.
 
@@ -64,7 +64,7 @@ The authenticators currently available to you in the Login.gov service are:
 3. One-time passcodes through SMS (text) or voice messaging, sent to a mobile device you control;
 4. One-time passcodes through authenticators apps such as Google Authenticator or Authy, downloaded to a mobile device of your own and registered with Login.gov;
 5. PIV and CAC cards, for federal and armed forces personnel only;
-6. webauthN security devices and software, such as FIDO ("Fast IDentity Online") tokens, Yubikeys, and Google's Titan Security Keys, obtained by you and register with Login.gov;
+6. webauthN security devices and software, such as FIDO ("Fast IDentity Online") tokens, Yubikeys, and Google's Titan Security Keys, obtained by you and registered with Login.gov;
 
 The Login.gov service does not issue physical authenticators. Authenticators other than passphrases or backup codes require hardware or software that you provide yourself.
 
@@ -74,7 +74,7 @@ If you forget your passphrase, you can reset it if you have access to your regis
 
 If we suspect fraud on your account, we may lock your account and contact you. If we have reason to believe your passphrase has been compromised, we may require that you reset it.
 
-# 4. Identity Proofing and Verification
+## 4. Identity Proofing and Verification
 
 The first time you try to log in using Login.gov at a partner application that requires a high degree of certainty that you are who you say you are, we initiate a process called identity proofing. Identity proofing takes information about you and attempts to verify that information and then validate that you, the user, are the individual you claim to be. We call this information identity evidence and it generally includes your name, date of birth, social security number, home address, a photo of yourself and a photo of identification, such as your driver's license or passport.
 
@@ -86,33 +86,33 @@ After we have validated the identity evidence you provide to us, we'll verify th
 
 Neither we nor any third party service keeps copies of any photo you send us, whether of a piece of identity evidence or of yourself. We further detail how we use your information in our [Privacy Policy]({% link _en/policy/index.md %}).
 
-# 5. Termination
+## 5. Termination
 
 You can terminate your account at any time through your account profile. Additionally, in the event of fraud or other violations of these Rules of Use, we may revoke access to your account. If this occurs, we will still protect your account information consistent with our [Privacy Policy]({% link _en/policy/index.md %}) and System of Record Notice [here](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) and [here](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
 In the unlikely event that the Login.gov service is discontinued, information on the account will be retained subject to our System of Records Notice, as amended, which you can access [here](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) and [here](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
-# 6. Authorities
+## 6. Authorities
 
 The Login.gov service is operated within the United States, but is accessible globally for public use. The Login.gov service is operated by the General Services Administration under authorities and guidance found in [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&amp;num=0&amp;edition=prelim), the [E-Government Act of 2002](https://www.congress.gov/107/plaws/publ347/PLAW-107publ347.pdf) ([44 USC § 3501](https://www.govinfo.gov/content/pkg/PLAW-104publ13/html/PLAW-104publ13.htm)), and [40 USC § 501](https://www.gsa.gov/cdnstatic/CNXII__Eligibility_to_Use_GSA.pdf), and [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
-# 7. Service Operation and Customer Support
+## 7. Service Operation and Customer Support
 
-  The Login.gov service operates with a high standard of service, both in service delivery and customer support.
+The Login.gov service operates with a high standard of service, both in service delivery and customer support.
 
-  1. Availability and Uptime
+### 1. Availability and Uptime
 
-  As an authentication system and gateway to federal applications, we strive for high availability and uptime. Our goal is to maintain a service uptime of 99.9% across all sites and systems. See our [status page](https://logingov.statuspage.io/) for live statistics, incident reports, and subscribe to updates.
+As an authentication system and gateway to federal applications, we strive for high availability and uptime. Our goal is to maintain a service uptime of 99.9% across all sites and systems. See our [status page](https://logingov.statuspage.io/) for live statistics, incident reports, and subscribe to updates.
 
-  2. Customer Support
+### 2. Customer Support
 
 Customer support and help desk services are always available through [https://login.gov/contact/]({% link _en/policy/contact.md %}). When you submit for customer support, we will use any information you provide to address your question or comment, and may use your feedback to improve our service or for other purposes as we see fit, such as for marketing. In doing so, we will never reveal your personal information outside of the Login.gov service except as required by applicable law or as stated elsewhere in these terms.
 
-# 8. Responsibilities of Our Partners
+## 8. Responsibilities of Our Partners
 
 The Login.gov service connects the public to federal agencies more easily by allowing users to access multiple government programs with one Login.gov account.
 
-Partner agencies select the information they require from the list of attributes we support. If we don't already have it, we request that information from you; validate it, and ask for your consent to share it with the partner agency.Partners can request a variety of information such as name, address, birth date, and phone number. Partners are required to protect this information in compliance with federal law and policy.
+Partner agencies select the information they require from the list of attributes we support. If we don't already have it, we request that information from you; validate it, and ask for your consent to share it with the partner agency. Partners can request a variety of information such as name, address, birth date, and phone number. Partners are required to protect this information in compliance with federal law and policy.
 
 During the process of becoming a partner on the Login.gov service, we collect information from the agency about the type of access they are providing and, from that information, come to agreement with the partner on the risk of the application and the need for personal information. Based on this, we determine the level of information the partner may receive.
 
@@ -120,38 +120,38 @@ We will never share information with a partner without your explicit consent. Yo
 
 Prospective partners and other interested parties can find more information about the partner onboarding process [here](https://developers.login.gov/).
 
-# 9. Fees
+## 9. Fees
 
 There are no fees charged to the user for registering or using the Login.gov service. There is no fee associated with connecting to our partners, though the partners themselves may charge fees for some of their services, such as making a reservation, purchasing an item, or applying for a service.
 
-# 10. Representations, Warranties and Liabilities
+## 10. Representations, Warranties and Liabilities
 
 Disclaimer of Warranties
 
 Login.gov services are provided "as is" and on an "as-available" basis. GSA hereby disclaims all warranties of any kind, express or implied, including without limitation the warranties of merchantability, fitness for a particular purpose, and non-infringement. GSA makes no warranty that the services will be error free or that access thereto will be continuous or uninterrupted.
 
-## 1. General Representations
+### 1. General Representations
 
 You hereby warrant that (1) your use of the website and services will be in strict accordance with the Agreement and all applicable laws and regulations, and (2) your use of the website and services will not infringe or misappropriate the intellectual property rights of any third party.
 
-## 2. Limitations on Liability
+### 2. Limitations on Liability
 
 In no event will GSA be liable with respect to any subject matter of this Agreement under any contract, negligence, strict liability or other legal or equitable theory for: (1) any special, incidental, or consequential damages; (2) the cost of procurement of substitute products or services; or (3) for interruption of use or loss or corruption of data.
 
-# 11. General Provisions
+## 11. General Provisions
 
-## 1. Entire Agreement
+### 1. Entire Agreement
 
 This Agreement constitutes the entire Agreement between GSA and you concerning the use of the website and services, and may only be modified by the posting of a revised version on this page by GSA.
 
-## 2. Disputes
+### 2. Disputes
 
 Any disputes arising out of this Agreement and access to or use of the services shall be governed by federal law.
 
-## 3. No Waiver of Rights
+### 3. No Waiver of Rights
 
 GSA's failure to exercise or enforce any right or provision of this Agreement shall not constitute waiver of such right or provision.
 
-## 4. Contacting Us
+### 4. Contacting Us
 
 If you have questions about these terms or any other aspect of the Login.gov service, you can contact us at [https://login.gov/contact/]({% link _en/policy/contact.md %}).
