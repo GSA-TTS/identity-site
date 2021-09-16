@@ -103,7 +103,6 @@ contact_page:
       verify_identity_error: I got a failure trying to verify my identity
       wrong_account_update: Wrong account update
     topics:
-      account_linking: Linking your Login.gov account to your profile
       changing_settings: Changing your Login.gov information
       creating_account: Create a Login.gov account
       feedback: Feedback for Login.gov
