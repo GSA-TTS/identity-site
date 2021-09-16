@@ -103,7 +103,6 @@ contact_page:
       verify_identity_error: J'ai reçu un message d'erreur en essayant de vérifier mon identité
       wrong_account_update: Mise à jour de compte erronée
     topics:
-      account_linking: Lier votre compte Login.gov à votre profil
       changing_settings: Changer vos informations de Login.gov
       creating_account: Créer un compte Login.gov
       feedback: Commentaires pour Login.gov
