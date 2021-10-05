@@ -28,4 +28,4 @@ Para completar el proceso de verificación de la identidad, se necesita una foto
 
 [Cómo verificar tu identidad ](https://login.gov/es/help/verify-your-identity/how-to-verify-your-identity/)
 [Identificación aceptada emitida por el estado](https://login.gov/es/help/verify-your-identity/accepted-state-issued-identification/)
-[Solución de problemas para subir el documento de identidad emitido por el Estado](https://login.gov/es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
+[Solución de problemas para subir el documento de identidad emitido por el Estado](/es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
