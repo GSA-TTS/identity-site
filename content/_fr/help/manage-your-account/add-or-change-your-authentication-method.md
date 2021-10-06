@@ -16,7 +16,7 @@ Si vous avez perdu votre méthode d’authentification et que vous n’avez pas 
 5. Sur la page de votre compte Login.gov, passez en revue les options du menu « Vos méthodes d’authentification » sur le côté gauche de la page.
 6. Sélectionnez un nouveau périphérique à ajouter. [En savoir plus sur les options d’authentification](https://login.gov/fr/help/get-started/authentication-options/).
 7. Suivez toutes les instructions pour confirmer vos modifications.
-   {: .number-list}
+{: .number-list}
 
 ## Articles connexes 
 
