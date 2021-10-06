@@ -8,10 +8,10 @@ commands:
     steps:
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+            - v2-dependencies-{{ checksum "Gemfile.lock" }}
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "package-lock.json" }}
+            - v2-dependencies-{{ checksum "package-lock.json" }}
       - run:
           name: install dependencies
           command: |
@@ -21,11 +21,11 @@ commands:
       - save_cache:
           paths:
             - ./vendor/bundle
-          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+          key: v2-dependencies-{{ checksum "Gemfile.lock" }}
       - save_cache:
           paths:
             - ./node_modules
-          key: v1-dependencies-{{ checksum "package-lock.json" }}
+          key: v2-dependencies-{{ checksum "package-lock.json" }}
   build-site:
     steps:
       - run:
