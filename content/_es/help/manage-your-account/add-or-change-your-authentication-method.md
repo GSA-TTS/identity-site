@@ -9,14 +9,14 @@ Si perdiste tu método de autenticación y no tienes una copia de seguridad cone
 
 ## Añade o cambia tu método de autenticación:
 
-1. Escribe tu dirección de correo electrónico en <https://secure.login.gov>.
+1. Escribe tu dirección de correo electrónico en [https://secure.login.gov/es/](https://secure.login.gov/es/).
 2. Escribe tu contraseña.
 3. Haz clic en el botón "Iniciar sesión".
 4. Introduce tu método de autenticación.
 5. En la página de tu cuenta de Login.gov, revisa las opciones que aparecen en el menú "Tus métodos de autenticación" en la parte izquierda de la página.
 6. Seleccione el nuevo dispositivo que deseas añadir. [Obtén más información sobre las opciones de autenticación](https://login.gov/es/help/get-started/authentication-options/).
 7. Sigue todas las indicaciones para la confirmación de los cambios.
-{: .number-list}
+   {: .number-list}
 
 ## Artículos relacionados
 
