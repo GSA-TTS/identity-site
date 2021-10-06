@@ -26,6 +26,7 @@ commands:
           paths:
             - ./node_modules
           key: v2-dependencies-{{ checksum "package-lock.json" }}
+      - browser-tools/install-browser-tools
   build-site:
     steps:
       - run:
@@ -71,7 +72,6 @@ jobs:
     environment:
       SKIP_BUILD: true
     steps:
-      - browser-tools/install-browser-tools
       - checkout
       - install-dependencies
       - attach_workspace:
