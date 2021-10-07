@@ -39,7 +39,9 @@ commands:
 jobs:
   build:
     docker:
-      - image: cimg/ruby:2.6-browsers
+      - image: cimg/ruby:2.7-browsers
+        environment:
+          BUNDLER_VERSION: 2.2.20
     steps:
       - checkout
       - install-dependencies
