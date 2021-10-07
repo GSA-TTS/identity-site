@@ -1,16 +1,17 @@
 version: 2.1
 
 orbs:
+  browser-tools: circleci/browser-tools@1.1
   slack: circleci/slack@3.4.2
 commands:
   install-dependencies:
     steps:
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+            - v2-dependencies-{{ checksum "Gemfile.lock" }}
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "package-lock.json" }}
+            - v2-dependencies-{{ checksum "package-lock.json" }}
       - run:
           name: install dependencies
           command: |
@@ -20,11 +21,12 @@ commands:
       - save_cache:
           paths:
             - ./vendor/bundle
-          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+          key: v2-dependencies-{{ checksum "Gemfile.lock" }}
       - save_cache:
           paths:
             - ./node_modules
-          key: v1-dependencies-{{ checksum "package-lock.json" }}
+          key: v2-dependencies-{{ checksum "package-lock.json" }}
+      - browser-tools/install-browser-tools
   build-site:
     steps:
       - run:
@@ -36,7 +38,9 @@ commands:
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.6-node-browsers
+      - image: cimg/ruby:2.7-browsers
+        environment:
+          BUNDLER_VERSION: 2.2.20
     steps:
       - checkout
       - install-dependencies
@@ -48,7 +52,7 @@ jobs:
 
   test:
     docker:
-      - image: circleci/ruby:2.6-node-browsers
+      - image: cimg/ruby:2.7-browsers
     steps:
       - checkout
       - install-dependencies
@@ -66,7 +70,7 @@ jobs:
 
   accessibility:
     docker:
-      - image: circleci/ruby:2.6-node-browsers
+      - image: cimg/ruby:2.7-browsers
     environment:
       SKIP_BUILD: true
     steps:
@@ -80,7 +84,7 @@ jobs:
 
   eslint:
     docker:
-      - image: circleci/ruby:2.6-node-browsers
+      - image: cimg/ruby:2.7-browsers
     steps:
       - checkout
       - install-dependencies
@@ -90,7 +94,7 @@ jobs:
 
   check-optimized-assets:
     docker:
-      - image: circleci/ruby:2.6-node-browsers
+      - image: cimg/ruby:2.7-browsers
     steps:
       - checkout
       - install-dependencies
@@ -100,7 +104,7 @@ jobs:
 
   check-javascript-syntax:
     docker:
-      - image: circleci/ruby:2.6-node-browsers
+      - image: cimg/ruby:2.7-browsers
     steps:
       - checkout
       - install-dependencies
@@ -114,7 +118,7 @@ jobs:
   # but do get the feedback/info
   test-external-links:
     docker:
-      - image: circleci/ruby:2.6-node-browsers
+      - image: cimg/ruby:2.7-browsers
     steps:
       - checkout
       - install-dependencies
