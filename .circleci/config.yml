@@ -17,7 +17,6 @@ commands:
           command: |
             sudo npm install -g n && sudo n 12
             npm ci
-            gem install bundler:1.17.3
             bundle check || bundle install --jobs=4 --retry=3 --path vendor/bundle
       - save_cache:
           paths:
@@ -53,7 +52,7 @@ jobs:
 
   test:
     docker:
-      - image: cimg/ruby:2.6-browsers
+      - image: cimg/ruby:2.7-browsers
     steps:
       - checkout
       - install-dependencies
@@ -71,7 +70,7 @@ jobs:
 
   accessibility:
     docker:
-      - image: cimg/ruby:2.6-browsers
+      - image: cimg/ruby:2.7-browsers
     environment:
       SKIP_BUILD: true
     steps:
@@ -85,7 +84,7 @@ jobs:
 
   eslint:
     docker:
-      - image: cimg/ruby:2.6-browsers
+      - image: cimg/ruby:2.7-browsers
     steps:
       - checkout
       - install-dependencies
@@ -95,7 +94,7 @@ jobs:
 
   check-optimized-assets:
     docker:
-      - image: cimg/ruby:2.6-browsers
+      - image: cimg/ruby:2.7-browsers
     steps:
       - checkout
       - install-dependencies
@@ -105,7 +104,7 @@ jobs:
 
   check-javascript-syntax:
     docker:
-      - image: cimg/ruby:2.6-browsers
+      - image: cimg/ruby:2.7-browsers
     steps:
       - checkout
       - install-dependencies
@@ -119,7 +118,7 @@ jobs:
   # but do get the feedback/info
   test-external-links:
     docker:
-      - image: cimg/ruby:2.6-browsers
+      - image: cimg/ruby:2.7-browsers
     steps:
       - checkout
       - install-dependencies
