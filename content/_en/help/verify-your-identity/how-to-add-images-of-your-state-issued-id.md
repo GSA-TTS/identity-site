@@ -20,7 +20,7 @@ A clear picture of your state-issued ID is required to complete the identity ver
 ## Tips for uploading or scanning your ID:
 
 * Follow the same tips for taking photo\s of your ID with a camera
-* Save each file as a JPG, PNG, TIFF, or BMP. You cannot use a PDF file. Look at the name of your file and it should have an abbreviation after the title (ex: JohnDoeID_Front.jpg) 
+* Save each file as a JPG or PNG. You cannot use a PDF file. Look at the name of your file and it should have an abbreviation after the title (ex: JohnDoeID_Front.jpg) 
 * Make sure your ID takes up about 80% of the images
 * Make sure your images are high-resolution (around 2025 x 1275 pixels is ideal)
 * Images should be in color (24-bit RGB)

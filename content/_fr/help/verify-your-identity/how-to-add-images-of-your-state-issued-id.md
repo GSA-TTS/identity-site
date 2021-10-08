@@ -19,7 +19,7 @@ Une photo claire de votre pièce d'identité délivrée par l'État est nécessa
 ## Conseils pour télécharger ou scanner votre pièce d'identité:
 
 * Suivez les mêmes conseils pour prendre des photos de votre pièce d'identité avec un appareil photo
-* Enregistrez chaque fichier au format JPG, PNG, TIFF ou BMP. Vous ne pouvez pas utiliser un fichier PDF. Regardez le nom de votre fichier et il devrait avoir une abréviation après le titre (ex : JohnDoeID_Front.jpg) 
+* Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser un fichier PDF. Regardez le nom de votre fichier et il devrait avoir une abréviation après le titre (ex : JohnDoeID_Front.jpg) 
 * Veillez à ce que votre identification occupe environ 80 % des images
 * Veillez à ce que vos images soient en haute résolution (environ 2025 x 1275 pixels)
 * Les images doivent être en couleur (RVB 24 bit)
