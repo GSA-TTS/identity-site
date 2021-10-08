@@ -13,10 +13,10 @@ Veuillez contacter l'agence à laquelle vous essayez d'accéder si les étapes c
 
 Un navigateur obsolète peut être à l'origine de votre erreur. Suivez les instructions ci-dessous pour mettre à jour votre navigateur : 
 
-* Google Chrome: <https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=fr-CA>
-* Internet Explorer: <https://support.microsoft.com/fr-fr/help/17621/internet-explorer-downloads>
-* Mozilla Firefox: <https://support.mozilla.org/fr/kb/mettre-jour-firefox-derniere-version?redirectslug=update-firefox-latest-version&redirectlocale=en-US>
-* Safari: <https://support.apple.com/fr-ca/HT204416>
+* [Google Chrome](https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=fr-CA)
+* [Internet Explorer](https://support.microsoft.com/fr-fr/help/17621/internet-explorer-downloads)
+* [Mozilla Firefox](https://support.mozilla.org/fr/kb/mettre-jour-firefox-derniere-version?redirectslug=update-firefox-latest-version)
+* [Safari](https://support.apple.com/fr-ca/HT204416)
 
 Veillez à redémarrer votre ordinateur et à essayer de vous connecter à nouveau.
 
@@ -24,10 +24,10 @@ Veillez à redémarrer votre ordinateur et à essayer de vous connecter à nouve
 
 Essayez de vider le cache et les cookies de votre navigateur, ou les données qu'il stocke, pour résoudre votre erreur. Suivez les instructions ci-dessous pour effacer le cache et les cookies de votre navigateur : 
 
-* Google Chrome: <https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=fr>
-* Internet Explorer: <https://support.microsoft.com/fr-fr/topic/comment-faire-pour-supprimer-des-fichiers-cookie-dans-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc>
-* Mozilla Firefox: <https://support.mozilla.org/fr/kb/comment-vider-le-cache-de-firefox>
-* Safari: <https://support.apple.com/fr-ca/HT201265>
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=fr)
+* [Internet Explorer](https://support.microsoft.com/fr-fr/topic/comment-faire-pour-supprimer-des-fichiers-cookie-dans-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc)
+* [Mozilla Firefox](https://support.mozilla.org/fr/kb/comment-vider-le-cache-de-firefox)
+* [Safari](https://support.apple.com/fr-ca/HT201265)
 
 Veillez à redémarrer votre ordinateur et essayez de vous connecter à nouveau.
 
