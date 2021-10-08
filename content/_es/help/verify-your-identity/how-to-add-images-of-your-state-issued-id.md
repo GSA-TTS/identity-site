@@ -19,7 +19,7 @@ Para completar el proceso de verificación de la identidad, se necesita una foto
 ## Consejos para subir o escanear tu documento de identidad:
 
 * Sigue los mismos consejos para hacer fotos de tu documento de identidad con una cámara 
-* Guarda cada archivo como JPG, PNG, TIFF o BMP. No puedes utilizar un archivo PDF. Fíjate en el nombre de tu archivo y debe tener una abreviatura después del título (por ejemplo: JohnDoeID_Front.jpg) 
+* Guarda cada archivo como JPG o PNG. No puedes utilizar un archivo PDF. Fíjate en el nombre de tu archivo y debe tener una abreviatura después del título (por ejemplo: JohnDoeID_Front.jpg) 
 * Asegúrate de que tu documento de identidad ocupa aproximadamente el 80% de las imágenes
 * Asegúrate de que tus imágenes son de alta resolución (lo ideal es en torno a 2025 x 1275 píxeles)
 * Las imágenes deben ser en color (RGB de 24 bits).
