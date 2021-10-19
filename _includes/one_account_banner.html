@@ -1,6 +1,6 @@
 {% if page.url == '/create-an-account/' %}
   {% assign link_class = 'usa-button usa-button--big' %}
-  {% assign link_url = 'https://secure.login.gov/sign_up/enter_email' %}
+  {% assign link_url = site.idp_base_url | append: '/sign_up/enter_email' %}
   {% capture link_content %}
     {{ site.data.[page.lang].settings.banner.one-account-for-govt.create }}
   {% endcapture %}
