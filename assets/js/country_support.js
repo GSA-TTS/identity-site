@@ -24,15 +24,18 @@ function loadCountrySupportTable(elem) {
         return;
       }
 
+      // TODO: translate
+      const yesText = 'Yes ✅';
+      const noText = 'No ❌';
+
       Object.values(countries)
         .sort(({ name: nameA }, { name: nameB }) => nameA - nameB)
         .forEach(({ name, supports_sms, supports_voice }) => {
           const row = templateRow.cloneNode(true);
 
           row.querySelector('[data-item=country]').innerText = name;
-          // TODO: translate
-          row.querySelector('[data-item=sms]').innerText = supports_sms ? 'Yes' : 'No';
-          row.querySelector('[data-item=voice]').innerText = supports_voice ? 'Yes' : 'No';
+          row.querySelector('[data-item=sms]').innerText = supports_sms ? yesText : noText;
+          row.querySelector('[data-item=voice]').innerText = supports_voice ? yesText : noText;
 
           tbody.appendChild(row);
         });
