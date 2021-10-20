@@ -1,27 +1,30 @@
-<div class="grid-container">
-  <div class="grid-row">
-    <div clas="grid-col-fill">
-      <table
-        class="js-country-support usa-table--borderless"
-        data-idp-base-url="{{ site.idp_base_url }}"
-        hidden
-        >
-        <thead>
-          <tr>
-            <!-- TODO: translate these -->
-            <th scope="col">Country</th>
-            <th scope="col">Supports SMS</th>
-            <th scope="col">Supports Voice</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr data-item="template-row">
-            <td data-item="country"></td>
-            <td data-item="sms"></td>
-            <td data-item="voice"></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
+{% comment %}
+Should include these translations as incldues
+- heading_country
+- heading_sms
+- heading_voice
+- option_yes
+- option_no
+{% endcomment %}
+<table
+  class="js-country-support usa-table--borderless"
+  data-idp-base-url="{{ site.idp_base_url }}"
+  data-translation-option-yes="{{ include.option_yes }}"
+  data-translation-option-no="{{ include.option_no }}"
+  hidden
+>
+  <thead>
+    <tr>
+      <th scope="col">{{ include.heading_country }}</th>
+      <th scope="col">{{ include.heading_sms }}</th>
+      <th scope="col">{{ include.heading_voice }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-item="template-row">
+      <td data-item="country"></td>
+      <td data-item="sms"></td>
+      <td data-item="voice"></td>
+    </tr>
+  </tbody>
+</table>

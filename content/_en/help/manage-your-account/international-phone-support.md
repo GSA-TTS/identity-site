@@ -14,4 +14,9 @@ a little more about this and stuff.
   We need Javascript in order to load the list of supported countries
 </noscript>
 
-{% include country_support_table.html %}
+{% include country_support_table.html
+           heading_country="Country"
+           heading_sms="Supports SMS"
+           heading_voice="Supports Voice"
+           option_yes="Yes"
+           option_no="No" %}

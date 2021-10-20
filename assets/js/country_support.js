@@ -14,8 +14,10 @@
  * @param {HTMLElement} elem
  */
 function loadCountrySupportTable(elem) {
+  const { idpBaseUrl, translationOptionYes, translationOptionNo } = elem.dataset;
+
   window
-    .fetch(`${elem.dataset.idpBaseUrl || ''}/api/country-support`)
+    .fetch(`${idpBaseUrl || ''}/api/country-support`)
     .then((response) => response.json())
     .then((/** @type CountrySupport */ { countries }) => {
       const tbody = elem.querySelector('tbody');
@@ -24,9 +26,8 @@ function loadCountrySupportTable(elem) {
         return;
       }
 
-      // TODO: translate
-      const yesText = 'Yes ✅';
-      const noText = 'No ❌';
+      const yesText = `${translationOptionYes} ✅`;
+      const noText = `${translationOptionNo} ❌`;
 
       Object.values(countries)
         .sort(({ name: nameA }, { name: nameB }) => nameA - nameB)
