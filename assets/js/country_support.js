@@ -14,18 +14,18 @@
  * @param {HTMLElement} elem
  */
 function loadCountrySupportTable(elem) {
+  const tbody = elem.querySelector('tbody');
+  const templateRow = elem.querySelector('[data-item=template-row]');
+  if (!tbody || !templateRow) {
+    return;
+  }
+
   const { idpBaseUrl, translationOptionYes, translationOptionNo } = elem.dataset;
 
   window
     .fetch(`${idpBaseUrl || ''}/api/country-support`)
     .then((response) => response.json())
     .then((/** @type CountrySupport */ { countries }) => {
-      const tbody = elem.querySelector('tbody');
-      const templateRow = elem.querySelector('[data-item=template-row]');
-      if (!tbody || !templateRow) {
-        return;
-      }
-
       const yesText = `${translationOptionYes} ✅`;
       const noText = `${translationOptionNo} ❌`;
 
