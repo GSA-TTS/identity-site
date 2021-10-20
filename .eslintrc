@@ -6,9 +6,6 @@
     "browser": true,
     "jest": true
   },
-  "globals": {
-    "expect": true
-  },
   "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module"
