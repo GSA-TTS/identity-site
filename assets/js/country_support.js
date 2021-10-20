@@ -27,7 +27,7 @@ function loadCountrySupportTable(elem) {
     .then((response) => response.json())
     .then((/** @type CountrySupport */ { countries }) => {
       Object.values(countries)
-        .sort(({ name: nameA }, { name: nameB }) => nameA - nameB)
+        .sort(({ name: nameA }, { name: nameB }) => nameA.localeCompare(b))
         .forEach(({ name, supports_sms, supports_voice }) => {
           const row = templateRow.cloneNode(true);
 
