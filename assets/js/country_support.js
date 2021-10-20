@@ -26,17 +26,20 @@ function loadCountrySupportTable(elem) {
     .fetch(`${idpBaseUrl || ''}/api/country-support`)
     .then((response) => response.json())
     .then((/** @type CountrySupport */ { countries }) => {
-      const yesText = `${translationOptionYes} ✅`;
-      const noText = `${translationOptionNo} ❌`;
-
       Object.values(countries)
         .sort(({ name: nameA }, { name: nameB }) => nameA - nameB)
         .forEach(({ name, supports_sms, supports_voice }) => {
           const row = templateRow.cloneNode(true);
 
           row.querySelector('[data-item=country]').innerText = name;
-          row.querySelector('[data-item=sms]').innerText = supports_sms ? yesText : noText;
-          row.querySelector('[data-item=voice]').innerText = supports_voice ? yesText : noText;
+          row.querySelector('[data-item=sms]').innerText = supports_sms
+            ? translationOptionYes
+            : translationOptionNo;
+          row.querySelector('[data-item=sms-icon]').innerText = supports_sms ? '✅' : '❌';
+          row.querySelector('[data-item=voice]').innerText = supports_voice
+            ? translationOptionYes
+            : translationOptionNo;
+          row.querySelector('[data-item=voice-icon]').innerText = supports_voice ? '✅' : '❌';
 
           tbody.appendChild(row);
         });

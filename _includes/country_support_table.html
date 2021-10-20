@@ -7,7 +7,7 @@ Should include these translations as includes:
 - option_no
 {% endcomment %}
 <table
-  class="js-country-support usa-table--borderless"
+  class="js-country-support usa-table--borderless usa-table--sticky-header"
   data-idp-base-url="{{ site.idp_base_url }}"
   data-translation-option-yes="{{ include.option_yes }}"
   data-translation-option-no="{{ include.option_no }}"
@@ -15,16 +15,22 @@ Should include these translations as includes:
 >
   <thead>
     <tr>
-      <th scope="col">{{ include.heading_country }}</th>
-      <th scope="col">{{ include.heading_sms }}</th>
-      <th scope="col">{{ include.heading_voice }}</th>
+      <th scope="col" class="usa-table--sticky-header--heading">{{ include.heading_country }}</th>
+      <th scope="col" class="usa-table--sticky-header--heading">{{ include.heading_sms }}</th>
+      <th scope="col" class="usa-table--sticky-header--heading">{{ include.heading_voice }}</th>
     </tr>
   </thead>
   <tbody>
     <tr data-item="template-row">
       <td data-item="country"></td>
-      <td data-item="sms"></td>
-      <td data-item="voice"></td>
+      <td>
+        <span data-item="sms"></span>
+        <span data-item="sms-icon" aria-hidden="true"></span>
+      </td>
+      <td>
+        <span data-item="voice"></span>
+        <span data-item="voice-icon" aria-hidden="true"></span>
+      </td>
     </tr>
   </tbody>
 </table>
