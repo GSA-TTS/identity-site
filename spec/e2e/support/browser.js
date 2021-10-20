@@ -1,13 +1,13 @@
-/** @type {import('puppeteer').Page} */
-export const page = global.page;
+/** @type {{page: import('puppeteer').Page}} */
+export const { page } = global;
 
-/** @type {string} */
-export const rootURL = global.rootURL;
+/** @type {{rootURL: string}} */
+export const { rootURL } = global;
 
 export function getURL(path) {
   return new URL(path, rootURL).toString();
 }
 
-export async function goto(path) {
+export function goto(path) {
   return page.goto(getURL(path));
 }
