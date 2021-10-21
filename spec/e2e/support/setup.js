@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import serve from './serve';
 import crawl from './crawl';
 
-export default async () =>
+export default () =>
   Promise.all([
     puppeteer
       .launch({
