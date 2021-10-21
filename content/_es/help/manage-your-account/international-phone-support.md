@@ -1,21 +1,19 @@
 ---
 layout: help
-title: International phone number support TODO TRANSLATE
+title: Soporte de número de teléfono internacional
 category: manage-your-account
 order: 4
 scripts:
   - /assets/js/build/country_support.js
 ---
 
-Los countries TODO TRANSLATE
-
 <noscript>
-  Los javascript TODO TRANSLATE
+  Necesitamos JavaScript para cargar la lista de países admitidos.
 </noscript>
 
 {% include country_support_table.html
-           heading_country="Pais TODO TRANSLATE"
-           heading_sms="puede SMS TODO TRANSLATE"
-           heading_voice="puede llamar TODO TRANSLATE"
-           option_yes="si"
-           option_no="no" %}
+           heading_country="País"
+           heading_sms="Compatible con SMS"
+           heading_voice="Admite marcación por voz"
+           option_yes="Sí"
+           option_no="No" %}

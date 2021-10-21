@@ -1,21 +1,19 @@
 ---
 layout: help
-title: International phone number support TODO TRANSLATE
+title: Prise en charge des numéros de téléphone internationaux
 category: manage-your-account
 order: 4
 scripts:
   - /assets/js/build/country_support.js
 ---
 
-Les countries
-
 <noscript>
-  les javascripts TODO TRANSLATE
+  We need JavaScript in order to load the list of supported countries.
 </noscript>
 
 {% include country_support_table.html
-           heading_country="le country TODO TRANSLATE"
-           heading_sms="le sms TODO TRANSLATE"
-           heading_voice="le voice TODO TRANSLATE"
-           option_yes="Si"
+           heading_country="Pays"
+           heading_sms="Prend en charge les SMS"
+           heading_voice="Prend en charge la numérotation vocale"
+           option_yes="Oui"
            option_no="Non" %}
