@@ -25,11 +25,6 @@ function loadCountrySupportTable(elem) {
   const { idpBaseUrl, translationOptionYes, translationOptionNo } = elem.dataset;
 
   /**
-   * @param {HTMLElement} container
-   * @param {boolean} enabled
-   */
-
-  /**
    * @param {HTMLElement} cell
    * @param {boolean} enabled
    */
