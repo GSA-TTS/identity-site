@@ -1,11 +1,13 @@
 {
   "root": true,
+  "extends": ["plugin:@18f/eslint-plugin-identity/recommended"],
+  "plugins": ["@18f/eslint-plugin-identity"],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
   "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module"
-  },
-  "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": "error"
   }
 }

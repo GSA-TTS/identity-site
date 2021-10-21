@@ -8,14 +8,14 @@
  */
 function getLinks(page) {
   return page.$$eval('a', (aTags) =>
-    aTags.map((a) => {
+    aTags.map((a) =>
       // Get the info we want across the Chrome DevTools Protocol
-      return {
+      ({
         innerText: a.innerText.trim(),
         href: a.href,
         target: a.target,
-      };
-    }),
+      }),
+    ),
   );
 }
 
