@@ -33,7 +33,7 @@ function loadCountrySupportTable(elem) {
    * @param {HTMLElement} cell
    * @param {boolean} enabled
    */
-  updateCell = (cell, enabled) => {
+  const updateCell = (cell, enabled) => {
     cell.querySelector('[data-item=text]').innerText = enabled
       ? translationOptionYes
       : translationOptionNo;
@@ -49,12 +49,12 @@ function loadCountrySupportTable(elem) {
     .then((/** @type CountrySupport */ { countries }) => {
       Object.values(countries)
         .sort(({ name: nameA }, { name: nameB }) => nameA.localeCompare(nameB))
-        .forEach(({ name, supports_sms, supports_voice }) => {
+        .forEach(({ name, supports_sms: supportsSms, supports_voice: supportsVoice }) => {
           const row = templateRow.cloneNode(true);
 
           row.querySelector('[data-item=country]').innerText = name;
-          updateCell(row.querySelector('[data-item=sms]'), supports_sms);
-          updateCell(row.querySelector('[data-item=voice]'), supports_voice);
+          updateCell(row.querySelector('[data-item=sms]'), supportsSms);
+          updateCell(row.querySelector('[data-item=voice]'), supportsVoice);
           tbody.appendChild(row);
         });
 
