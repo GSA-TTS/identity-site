@@ -1,5 +1,4 @@
-/** @type {{page: import('puppeteer').Page}} */
-export const { page } = global;
+import { goto, page } from './support/browser';
 
 describe('country support', () => {
   /** @type import('../../assets/js/country_support.js').CountrySupport */
@@ -18,7 +17,7 @@ describe('country support', () => {
     },
   };
 
-  it('renders a table of country codes', async () => {
+  test('renders a table of country codes', async () => {
     await page.setRequestInterception(true);
 
     page.on('request', (interceptedRequest) => {
@@ -31,7 +30,8 @@ describe('country support', () => {
         interceptedRequest.continue();
       }
     });
-    await page.goto('/help/manage-your-account/international-phone-support/');
+
+    await goto('/help/manage-your-account/international-phone-support/');
 
     const table = await page.$('table.js-country-support');
     expect((await table.$('tbody tr')).length).to.eq(2);
