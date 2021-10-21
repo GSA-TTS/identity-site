@@ -12,3 +12,19 @@
     fill: $grey;
   }
 }
+
+.svg-success {
+  svg,
+  g,
+  path {
+    fill: $success;
+  }
+}
+
+.svg-error {
+  svg,
+  g,
+  path {
+    fill: $error;
+  }
+}

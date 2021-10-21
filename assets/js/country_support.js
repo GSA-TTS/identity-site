@@ -16,11 +16,32 @@
 function loadCountrySupportTable(elem) {
   const tbody = elem.querySelector('tbody');
   const templateRow = elem.querySelector('[data-item=template-row]');
-  if (!tbody || !templateRow) {
+  const successIcon = elem.querySelector('[data-item=icon-success]');
+  const errorIcon = elem.querySelector('[data-item=icon-error]');
+  if (!tbody || !templateRow || !successIcon || !errorIcon) {
     return;
   }
 
   const { idpBaseUrl, translationOptionYes, translationOptionNo } = elem.dataset;
+
+  /**
+   * @param {HTMLElement} container
+   * @param {boolean} enabled
+   */
+
+  /**
+   * @param {HTMLElement} cell
+   * @param {boolean} enabled
+   */
+  updateCell = (cell, enabled) => {
+    cell.querySelector('[data-item=text]').innerText = enabled
+      ? translationOptionYes
+      : translationOptionNo;
+
+    const clonedIcon = (enabled ? successIcon : errorIcon).cloneNode(true);
+    clonedIcon.hidden = false;
+    cell.querySelector('[data-item=icon]').appendChild(clonedIcon);
+  };
 
   window
     .fetch(`${idpBaseUrl || ''}/api/country-support`)
@@ -32,15 +53,8 @@ function loadCountrySupportTable(elem) {
           const row = templateRow.cloneNode(true);
 
           row.querySelector('[data-item=country]').innerText = name;
-          row.querySelector('[data-item=sms]').innerText = supports_sms
-            ? translationOptionYes
-            : translationOptionNo;
-          row.querySelector('[data-item=sms-icon]').innerText = supports_sms ? '✅' : '❌';
-          row.querySelector('[data-item=voice]').innerText = supports_voice
-            ? translationOptionYes
-            : translationOptionNo;
-          row.querySelector('[data-item=voice-icon]').innerText = supports_voice ? '✅' : '❌';
-
+          updateCell(row.querySelector('[data-item=sms]'), supports_sms);
+          updateCell(row.querySelector('[data-item=voice]'), supports_voice);
           tbody.appendChild(row);
         });
 

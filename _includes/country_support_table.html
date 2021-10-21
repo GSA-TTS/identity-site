@@ -6,6 +6,7 @@ Should include these translations as includes:
 - option_yes
 - option_no
 {% endcomment %}
+
 <table
   class="js-country-support usa-table--borderless usa-table--sticky-header"
   data-idp-base-url="{{ site.idp_base_url }}"
@@ -13,6 +14,10 @@ Should include these translations as includes:
   data-translation-option-no="{{ include.option_no }}"
   hidden
 >
+  <caption>
+    <span hidden data-item="icon-success" class="svg-wrapper svg-success">{% include svg/font-awesome-check-circle-solid.svg %}</span>
+    <span hidden data-item="icon-error" class="svg-wrapper svg-error">{% include svg/font-awesome-times-circle-solid.svg %}</span>
+  </caption>
   <thead>
     <tr>
       <th scope="col" class="usa-table--sticky-header--heading">{{ include.heading_country }}</th>
@@ -23,22 +28,13 @@ Should include these translations as includes:
   <tbody>
     <tr data-item="template-row">
       <td data-item="country"></td>
-      <td>
-        <span data-item="sms"></span>
-        <span data-item="sms-icon-true" aria-hidden="true">
-          <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-            <use xlink:href="/assets/img/sprite.svg#check_circle"></use>
-          </svg>
-        </span>
-        <span data-item="sms-icon-false" aria-hidden="true">
-          <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-            <use xlink:href="/assets/img/sprite.svg#cancel"></use>
-          </svg>
-        </span>
+      <td data-item="sms">
+        <span data-item="text"></span>
+        <span data-item="icon" aria-hidden="true"></span>
       </td>
-      <td>
-        <span data-item="voice"></span>
-        <span data-item="voice-icon" aria-hidden="true"></span>
+      <td data-item="voice">
+        <span data-item="text"></span>
+        <span data-item="icon" aria-hidden="true"></span>
       </td>
     </tr>
   </tbody>
