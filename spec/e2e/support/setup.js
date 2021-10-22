@@ -14,14 +14,10 @@ export default () =>
       }),
     serve().then(async ({ server, port }) => {
       global.server = server;
-      global.port = port;
 
-      const rootURL = `http://localhost:${global.port}`;
-      const allURLs = await crawl(new URL('sitemap.xml', rootURL));
+      const rootURL = `http://localhost:${port}`;
 
-      global.specGlobals = {
-        rootURL,
-        allURLs,
-      };
+      process.env.ROOT_URL = rootURL;
+      process.env.ALL_URLS = JSON.stringify(await crawl(new URL('sitemap.xml', rootURL)));
     }),
   ]);

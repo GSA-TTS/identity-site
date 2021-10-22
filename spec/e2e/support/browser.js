@@ -2,7 +2,7 @@
 export const { page } = global;
 
 export function getURL(path) {
-  return new URL(path, global.rootURL).toString();
+  return new URL(path, process.env.ROOT_URL).toString();
 }
 
 export function goto(path) {
