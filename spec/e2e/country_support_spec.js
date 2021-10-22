@@ -1,17 +1,17 @@
 import { goto, page } from './support/browser';
 
 describe('country support', () => {
-  /** @type import('../../assets/js/country_support.js').CountrySupport */
+  /** @type {import('../../assets/js/country_support.js').CountrySupport} */
   const RESPONSE = {
     countries: {
       US: {
         name: 'United States',
-        support_sms: true,
+        supports_sms: true,
         supports_voice: true,
       },
       CA: {
         name: 'Canada',
-        support_sms: true,
+        supports_sms: true,
         supports_voice: false,
       },
     },
