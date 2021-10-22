@@ -1,6 +1,7 @@
 /**
  * @typedef Country
  * @property {string} name
+ * @property {string} country_code The international dialing code (ex "1" for the US)
  * @property {boolean} supports_sms
  * @property {boolean} supports_voice
  */
@@ -42,16 +43,28 @@ function loadCountrySupportTable(elem) {
     .fetch(`${idpBaseUrl || ''}/api/country-support`)
     .then((response) => response.json())
     .then((/** @type {CountrySupport} */ { countries }) => {
-      Object.values(countries)
-        .sort(({ name: nameA }, { name: nameB }) => nameA.localeCompare(nameB))
-        .forEach(({ name, supports_sms: supportsSms, supports_voice: supportsVoice }) => {
-          const row = templateRow.cloneNode(true);
+      Object.entries(countries)
+        .sort(([, { name: nameA }], [, { name: nameB }]) => nameA.localeCompare(nameB))
+        .forEach(
+          ([
+            countryCode,
+            {
+              name,
+              country_code: dialingCode,
+              supports_sms: supportsSms,
+              supports_voice: supportsVoice,
+            },
+          ]) => {
+            const row = templateRow.cloneNode(true);
 
-          row.querySelector('[data-item=country]').innerText = name;
-          updateCell(row.querySelector('[data-item=sms]'), supportsSms);
-          updateCell(row.querySelector('[data-item=voice]'), supportsVoice);
-          tbody.appendChild(row);
-        });
+            row.querySelector(
+              '[data-item=country]',
+            ).innerText = `${name} (${countryCode}) +${dialingCode}`;
+            updateCell(row.querySelector('[data-item=sms]'), supportsSms);
+            updateCell(row.querySelector('[data-item=voice]'), supportsVoice);
+            tbody.appendChild(row);
+          },
+        );
 
       tbody.removeChild(templateRow);
       elem.hidden = false;

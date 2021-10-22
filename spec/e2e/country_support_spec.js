@@ -6,11 +6,13 @@ describe('country support', () => {
     countries: {
       US: {
         name: 'United States',
+        country_code: '1',
         supports_sms: true,
         supports_voice: true,
       },
       CA: {
         name: 'Canada',
+        country_code: '1',
         supports_sms: true,
         supports_voice: false,
       },
