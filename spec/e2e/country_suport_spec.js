@@ -24,6 +24,9 @@ describe('country support', () => {
       if (interceptedRequest.url().endsWith('/country-support')) {
         interceptedRequest.respond({
           contentType: 'application/json',
+          headers: {
+            'Access-Control-Allow-Origin': '*',
+          },          
           body: JSON.stringify(RESPONSE),
         });
       } else {
