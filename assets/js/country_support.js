@@ -7,7 +7,7 @@
 
 /**
  * @typedef CountrySupport
- * @properties {Record<string,Country>} countries
+ * @property {Record<string,Country>} countries
  */
 
 /**
@@ -41,7 +41,7 @@ function loadCountrySupportTable(elem) {
   window
     .fetch(`${idpBaseUrl || ''}/api/country-support`)
     .then((response) => response.json())
-    .then((/** @type CountrySupport */ { countries }) => {
+    .then((/** @type {CountrySupport} */ { countries }) => {
       Object.values(countries)
         .sort(({ name: nameA }, { name: nameB }) => nameA.localeCompare(nameB))
         .forEach(({ name, supports_sms: supportsSms, supports_voice: supportsVoice }) => {
