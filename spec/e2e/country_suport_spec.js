@@ -37,7 +37,7 @@ describe('country support', () => {
     await goto('/help/manage-your-account/international-phone-support/');
 
     const table = await page.$('table.js-country-support');
-    expect((await table.$('tbody tr')).length).to.eq(2);
+    expect((await table.$('tbody tr')).length).toBe(2);
     expect(await table.$eval('tbody tr:nth-child(1) td:nth-child(1)', (el) => el.innerText)).toBe(
       'Canada',
     );
