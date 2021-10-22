@@ -12,6 +12,21 @@
  */
 
 /**
+ * @example
+ *   prettyDialingCode('1') => '+1'
+ *   prettyDialingCode('1234') => '+1-234'
+ *   prettyDialingCode('789') => '+789'
+ * @param {string} dialingCode
+ * @return {string}
+ */
+const prettyDialingcode = (dialingCode) => {
+  if (dialingCode.length > 1 && dialingCode.startsWith('1')) {
+    return `+1-${dialingCode.slice(1)}`
+  }
+  return `+${dialingCode}`;
+}
+
+/**
  * @param {HTMLElement} elem
  */
 function loadCountrySupportTable(elem) {
@@ -58,7 +73,7 @@ function loadCountrySupportTable(elem) {
             const row = templateRow.cloneNode(true);
 
             row.querySelector('[data-item=country]').innerText = `${name} (${countryCode})`;
-            row.querySelector('[data-item=dialing-code]').innerText = `+${dialingCode}`;
+            row.querySelector('[data-item=dialing-code]').innerText = prettyDialingcode(dialingCode);
             updateCell(row.querySelector('[data-item=sms]'), supportsSms);
             updateCell(row.querySelector('[data-item=voice]'), supportsVoice);
             tbody.appendChild(row);
