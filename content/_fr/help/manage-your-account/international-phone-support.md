@@ -8,7 +8,7 @@ scripts:
 ---
 
 <noscript>
-  We need JavaScript in order to load the list of supported countries.
+  Nous avons besoin de JavaScript pour charger la liste des pays pris en charge.
 </noscript>
 
 {% include country_support_table.html
