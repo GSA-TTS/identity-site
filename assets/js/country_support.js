@@ -62,19 +62,19 @@ function loadCountrySupportTable(elem) {
         .sort(([, { name: nameA }], [, { name: nameB }]) => nameA.localeCompare(nameB))
         .forEach(
           ([
-            countryCode,
+            isoCode,
             {
               name,
-              country_code: dialingCode,
+              country_code: countryCode,
               supports_sms: supportsSms,
               supports_voice: supportsVoice,
             },
           ]) => {
             const row = templateRow.cloneNode(true);
 
-            row.querySelector('[data-item=country]').innerText = `${name} (${countryCode})`;
+            row.querySelector('[data-item=country]').innerText = `${name} (${isoCode})`;
             row.querySelector('[data-item=dialing-code]').innerText = prettyDialingCode(
-              dialingCode,
+              countryCode,
             );
             updateCell(row.querySelector('[data-item=sms]'), supportsSms);
             updateCell(row.querySelector('[data-item=voice]'), supportsVoice);
