@@ -38,8 +38,10 @@ describe('country support', () => {
 
     const table = await page.$('table.js-country-support');
     expect((await table.$('tbody tr')).length).to.eq(2);
-    expect((await table.$('tbody tr:nth-child(0) td:nth-child(0)')).innerText).to.eq('Canada');
-    expect((await table.$('tbody tr:nth-child(1) td:nth-child(0)')).innerText).to.eq(
+    expect(await table.$eval('tbody tr:nth-child(1) td:nth-child(1)', (el) => el.innerText)).toBe(
+      'Canada',
+    );
+    expect(await table.$eval('tbody tr:nth-child(2) td:nth-child(1)', (el) => el.innerText)).toBe(
       'United States',
     );
   });
