@@ -6,11 +6,13 @@ describe('country support', () => {
     countries: {
       US: {
         name: 'United States',
+        country_code: '1',
         supports_sms: true,
         supports_voice: true,
       },
       CA: {
         name: 'Canada',
+        country_code: '1',
         supports_sms: true,
         supports_voice: false,
       },
@@ -39,10 +41,10 @@ describe('country support', () => {
     const table = await page.waitForSelector('table.js-country-support:not([hidden])');
     expect((await table.$$('tbody tr')).length).toBe(2);
     expect(await table.$eval('tbody tr:nth-child(1) td:nth-child(1)', (el) => el.innerText)).toBe(
-      'Canada',
+      'Canada (CA)',
     );
     expect(await table.$eval('tbody tr:nth-child(2) td:nth-child(1)', (el) => el.innerText)).toBe(
-      'United States',
+      'United States (US)',
     );
   });
 });

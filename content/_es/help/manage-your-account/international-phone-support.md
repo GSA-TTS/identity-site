@@ -13,6 +13,7 @@ scripts:
 
 {% include country_support_table.html
            heading_country="País"
+           heading_dialing_code="Codigo para marcar"
            heading_sms="Compatible con SMS"
            heading_voice="Admite marcación por voz"
            option_yes="Sí"

@@ -13,6 +13,7 @@ scripts:
 
 {% include country_support_table.html
            heading_country="Country"
+           heading_dialing_code="Dialing Code"
            heading_sms="Supports SMS"
            heading_voice="Supports Voice"
            option_yes="Yes"

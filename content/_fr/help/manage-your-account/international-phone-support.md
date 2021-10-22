@@ -13,6 +13,7 @@ scripts:
 
 {% include country_support_table.html
            heading_country="Pays"
+           heading_dialing_code="Indicatif"
            heading_sms="Prend en charge les SMS"
            heading_voice="Prend en charge la numérotation vocale"
            option_yes="Oui"
