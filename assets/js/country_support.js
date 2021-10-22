@@ -59,7 +59,7 @@ function loadCountrySupportTable(elem) {
     .then((response) => response.json())
     .then((/** @type {CountrySupport} */ { countries }) => {
       Object.entries(countries)
-        .sort(([, { name: nameA }], [, { name: nameB }]) => nameA.localeCompare(nameB))
+        .sort(([_isoCodeA, { name: a }], [_isoCodeB, { name: b }]) => a.localeCompare(b))
         .forEach(
           ([
             isoCode,
