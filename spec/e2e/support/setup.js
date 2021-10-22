@@ -10,7 +10,7 @@ export default () =>
       })
       .then((browser) => {
         global.browser = browser;
-        global.wsEndpoint = browser.wsEndpoint();
+        process.env.PUPPETEER_WS_ENDPOINT = browser.wsEndpoint();
       }),
     serve().then(async ({ server, port }) => {
       global.server = server;
