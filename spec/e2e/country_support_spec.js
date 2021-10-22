@@ -26,7 +26,7 @@ describe('country support', () => {
           contentType: 'application/json',
           headers: {
             'Access-Control-Allow-Origin': '*',
-          },          
+          },
           body: JSON.stringify(RESPONSE),
         });
       } else {
