@@ -69,6 +69,8 @@ jobs:
   accessibility:
     docker:
       - image: cimg/ruby:2.7-node
+        environment:
+          NODE_ENV: development
     environment:
       SKIP_BUILD: true
     steps:
