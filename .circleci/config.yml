@@ -36,7 +36,7 @@ commands:
 jobs:
   build:
     docker:
-      - image: cimg/ruby:2.7
+      - image: cimg/ruby:2.7-node
         environment:
           BUNDLER_VERSION: 2.2.20
     steps:
@@ -50,7 +50,7 @@ jobs:
 
   test:
     docker:
-      - image: cimg/ruby:2.7
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
       - install-dependencies
@@ -68,7 +68,7 @@ jobs:
 
   accessibility:
     docker:
-      - image: cimg/ruby:2.7
+      - image: cimg/ruby:2.7-node
     environment:
       SKIP_BUILD: true
     steps:
