@@ -148,7 +148,7 @@ workflows:
       - test-external-links:
           requires:
             - build
-      - accessibility:
+      - e2e:
           requires:
             - build
   daily-external-link-checker:
