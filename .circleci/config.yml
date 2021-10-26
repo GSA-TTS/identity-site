@@ -1,7 +1,6 @@
 version: 2.1
 
 orbs:
-  browser-tools: circleci/browser-tools@1.1
   slack: circleci/slack@3.4.2
 commands:
   install-dependencies:
@@ -26,7 +25,6 @@ commands:
           paths:
             - ./node_modules
           key: v2-dependencies-{{ checksum "package-lock.json" }}
-      - browser-tools/install-browser-tools
   build-site:
     steps:
       - run:
@@ -38,7 +36,7 @@ commands:
 jobs:
   build:
     docker:
-      - image: cimg/ruby:2.7-browsers
+      - image: cimg/ruby:2.7
         environment:
           BUNDLER_VERSION: 2.2.20
     steps:
@@ -52,7 +50,7 @@ jobs:
 
   test:
     docker:
-      - image: cimg/ruby:2.7-browsers
+      - image: cimg/ruby:2.7
     steps:
       - checkout
       - install-dependencies
@@ -70,7 +68,7 @@ jobs:
 
   accessibility:
     docker:
-      - image: cimg/ruby:2.7-browsers
+      - image: cimg/ruby:2.7
     environment:
       SKIP_BUILD: true
     steps:
@@ -84,7 +82,7 @@ jobs:
 
   eslint:
     docker:
-      - image: cimg/ruby:2.7-browsers
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
       - install-dependencies
@@ -94,7 +92,7 @@ jobs:
 
   check-optimized-assets:
     docker:
-      - image: cimg/ruby:2.7-browsers
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
       - install-dependencies
@@ -104,7 +102,7 @@ jobs:
 
   check-javascript-syntax:
     docker:
-      - image: cimg/ruby:2.7-browsers
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
       - install-dependencies
@@ -118,7 +116,7 @@ jobs:
   # but do get the feedback/info
   test-external-links:
     docker:
-      - image: cimg/ruby:2.7-browsers
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
       - install-dependencies
