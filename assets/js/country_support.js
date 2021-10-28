@@ -93,9 +93,9 @@ function loadCountrySupportTable(elem, fetch) {
 
 /** @type {Promise<Fetch>} */
 const fetchPromise =
-  'fetch' in window && false
+  'fetch' in window
     ? new Promise((resolve) => resolve(window.fetch))
-    : import('whatwg-fetch').then(({ fetch }) => fetch);
+    : import(/* webpackChunkName: "whatwg-fetch" */ 'whatwg-fetch').then(({ fetch }) => fetch);
 
 fetchPromise.then((fetch) => {
   Array.from(document.querySelectorAll('.js-country-support')).forEach((elem) =>
