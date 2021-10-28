@@ -14,11 +14,7 @@
 }
 
 .svg-success {
-  svg,
-  g,
-  path {
-    fill: $success;
-  }
+  color: $success;
 }
 
 .svg-error {
