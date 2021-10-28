@@ -2,7 +2,7 @@
 layout: help
 title: Prise en charge des numéros de téléphone internationaux
 category: manage-your-account
-order: 4
+order: 5
 scripts:
   - /assets/js/build/country_support.js
 ---

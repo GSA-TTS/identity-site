@@ -2,7 +2,7 @@
 layout: help
 title: International phone number support
 category: manage-your-account
-order: 4
+order: 5
 scripts:
   - /assets/js/build/country_support.js
 ---
