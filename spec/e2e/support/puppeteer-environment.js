@@ -6,16 +6,18 @@ class PuppeteerEnvironment extends NodeEnvironment {
     const [, browser] = await Promise.all([
       super.setup(),
       puppeteer.connect({
-        browserWSEndpoint: global.wsEndpoint,
+        browserWSEndpoint: process.env.PUPPETEER_WS_ENDPOINT,
       }),
     ]);
 
     this.global.page = await browser.newPage();
-    Object.assign(this.global, global.specGlobals);
   }
 
   async teardown() {
-    await Promise.all([super.teardown(), this.global.page.close()]);
+    await super.teardown();
+    if (this.global.page) {
+      await this.global.page.close();
+    }
   }
 }
 

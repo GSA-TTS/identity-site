@@ -15,7 +15,7 @@ const EXCLUDE_PATTERNS = [
 ];
 
 describe('accessibility', () => {
-  const paths = global.allURLs
+  const paths = JSON.parse(process.env.ALL_URLS)
     .map((url) => new URL(url).pathname)
     .filter((path) => !EXCLUDE_PATTERNS.some((pattern) => pattern.test(path)));
 

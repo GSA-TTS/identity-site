@@ -1,0 +1,44 @@
+{% comment %}
+Should include these translations as includes:
+- heading_country
+- heading_dialing_code
+- heading_sms
+- heading_voice
+- option_yes
+- option_no
+{% endcomment %}
+
+<div
+  class="js-country-support"
+  data-idp-base-url="{{ site.idp_base_url }}"
+  data-translation-option-yes="{{ include.option_yes }}"
+  data-translation-option-no="{{ include.option_no }}"
+  hidden
+>
+  <span hidden data-item="icon-success" class="svg-wrapper svg-success">{% include svg/font-awesome-check-circle-solid.svg %}</span>
+  <span hidden data-item="icon-error" class="svg-wrapper svg-error">{% include svg/font-awesome-times-circle-solid.svg %}</span>
+  <table class="usa-table--borderless usa-table--sticky-header">
+    <thead>
+      <tr>
+        <th scope="col" class="usa-table--sticky-header--heading">{{ include.heading_country }}</th>
+        <th scope="col" class="usa-table--sticky-header--heading">{{ include.heading_dialing_code }}</th>
+        <th scope="col" class="usa-table--sticky-header--heading">{{ include.heading_sms }}</th>
+        <th scope="col" class="usa-table--sticky-header--heading">{{ include.heading_voice }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr data-item="template-row">
+        <td data-item="country"></td>
+        <td data-item="dialing-code"></td>
+        <td data-item="sms">
+          <span class="margin-right-05" data-item="icon" aria-hidden="true"></span>
+          <span data-item="text"></span>
+        </td>
+        <td data-item="voice">
+          <span class="margin-right-05" data-item="icon" aria-hidden="true"></span>
+          <span data-item="text"></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

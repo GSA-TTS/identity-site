@@ -66,7 +66,7 @@ jobs:
           name: Run htmlproofer (no external links)
           command: bundle exec scripts/htmlproofer --internal
 
-  accessibility:
+  e2e:
     docker:
       - image: cimg/ruby:2.7-browsers
     environment:
@@ -146,7 +146,7 @@ workflows:
       - test-external-links:
           requires:
             - build
-      - accessibility:
+      - e2e:
           requires:
             - build
   daily-external-link-checker:

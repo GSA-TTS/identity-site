@@ -33,6 +33,7 @@
     "@axe-core/puppeteer": "^4.1.0",
     "@babel/eslint-plugin": "^7.14.5",
     "acorn": "^8.5.0",
+    "core-js": "^3.19.0",
     "eslint": "^7.32.0",
     "eslint-plugin-prettier": "^4.0.0",
     "get-port": "^5.1.1",
@@ -53,6 +54,7 @@
     "identity-style-guide": "^4.0.0",
     "uswds": "^2.9.0",
     "webpack": "^5.10.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.2.0",
+    "whatwg-fetch": "^3.6.2"
   }
 }

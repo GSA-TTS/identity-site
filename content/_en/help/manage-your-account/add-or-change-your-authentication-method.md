@@ -2,7 +2,7 @@
 layout: help
 title: Add or change your authentication method
 category: manage-your-account
-order: 6
+order: 7
 ---
 [An authentication method](https://login.gov/help/get-started/authentication-options/) is an additional layer of security for your account. We recommend having at least two authentication methods for your account in case you lose one method.
 

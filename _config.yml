@@ -16,6 +16,11 @@ contact_form_captcha_enabled: true
 contact_form_action: "https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
 contact_form_orgid: "00DU0000000Leux"
 
+# Used to load country code support
+idp_base_url: https://secure.login.gov
+# for local development:
+# idp_base_url: http://localhost:3000
+
 # Pages
 collections_dir: content
 collections:
