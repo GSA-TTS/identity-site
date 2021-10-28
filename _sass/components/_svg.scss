@@ -18,9 +18,5 @@
 }
 
 .svg-error {
-  svg,
-  g,
-  path {
-    fill: $error;
-  }
+  color: $error;
 }
