@@ -20,7 +20,7 @@
  * @return {string}
  */
 const prettyDialingCode = (dialingCode) => {
-  if (dialingCode.length > 1 && dialingCode.startsWith('1')) {
+  if (dialingCode.length > 1 && dialingCode.indexOf('1') === 0) {
     return `+1-${dialingCode.slice(1)}`;
   }
   return `+${dialingCode}`;
