@@ -185,8 +185,8 @@ nav:
         url: '#do-you-have-a-question-about-your-agency-account'
       - name: Partner with Login.gov
         url: '#partner-with-logingov'
-      - name: Report an issue
-        url: '#report-an-issue'
+      - name: Report a Security or Privacy Issue 
+        url: '#report-a-security-or-privacy-issue'
   contact_login_gov: Contact Login.gov
   create_an_account: Create an account
   developer_guide: Developer guide
