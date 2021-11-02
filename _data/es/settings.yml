@@ -188,8 +188,8 @@ nav:
         url: '#tiene-alguna-pregunta-sobre-la-cuenta-de-su-agencia'
       - name: Asociarse con Login.gov
         url: '#asociarse-con-logingov'
-      - name: Reportar un problema
-        url: '#reportar-un-problema'
+      - name: Informar acerca de un problema de seguridad o privacidad
+        url: '#informar-acerca-de-un-problema-de-seguridad-o-privacidad'
   contact_login_gov: Póngase en contacto con Login.gov
   create_an_account: Crea una cuenta
   developer_guide: Guía para desarrolladores
