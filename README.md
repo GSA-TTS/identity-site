@@ -32,6 +32,8 @@ Then, to start serving the site locally in development:
 make run
 ```
 
+You can then view the site in your browser at http://localhost:4000 .
+
 Optionally, you can add a `_config.dev.yml` file to the root directory to list configuration which should only apply for local development. Any settings in this file will override an equivalent setting in the base Jekyll `_config.yml` configuration. For example, you may want to configure Sass `style` to `expanded` to debug the non-minified styles, or temporarily disable non-English locales to improve rebuild times.
 
 To develop locally in conjunction with [`identity-style-guide`](https://github.com/18F/identity-style-guide/), run the following commands:
