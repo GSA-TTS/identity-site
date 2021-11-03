@@ -110,7 +110,7 @@ jobs:
       - install-dependencies
       - run:
           name: check lockfile differences
-          command: make lint-assets
+          command: make validate-lockfiles
 
   check-javascript-syntax:
     docker:
