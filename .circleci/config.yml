@@ -15,7 +15,7 @@ commands:
           name: install dependencies
           command: |
             sudo npm install -g n && sudo n 12
-            npm ci
+            npm install
             bundle check || bundle install --jobs=4 --retry=3 --path vendor/bundle
       - save_cache:
           paths:
@@ -100,6 +100,18 @@ jobs:
           name: check optimized images
           command: make lint-assets
 
+  check-lockfiles:
+    docker:
+      - image: cimg/ruby:2.7-node
+    environment:
+      SKIP_INSTALL: true
+    steps:
+      - checkout
+      - install-dependencies
+      - run:
+          name: check lockfile differences
+          command: make validate-lockfiles
+
   check-javascript-syntax:
     docker:
       - image: cimg/ruby:2.7-node
@@ -137,6 +149,7 @@ workflows:
       - build
       - eslint
       - check-optimized-assets
+      - check-lockfiles
       - test:
           requires:
             - build
