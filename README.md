@@ -84,25 +84,7 @@ npm run optimize-assets
 ```
 
 ### NetlifyCMS
-[NetlifyCMS](https://www.netlifycms.org/) is an open source content management system that we use to edit content on the brochure site. To develop and make changes to the CMS, or to edit content locally, first comment out the following lines in `admin/config.yml`
-
-```
-backend:
-  repo: 18f/identity-site
-  branch: main
-  base_url: https://federalistapp.18f.gov
-  auth_endpoint: external/auth/github
-  preview_context: federalist/build
-  use_graphql: true
-```
-and uncomment the following lines, making sure that you change the name of your branch
-```
-backend:
-  name: git-gateway
-  branch: YOUR-BRANCH-NAME-HERE
-  proxy_url: http://localhost:8081/api/v1
-local_backend: true
-```
+[NetlifyCMS](https://www.netlifycms.org/) is an open source content management system that we use to edit content on the brochure site. To develop and make changes to the CMS, or to edit content locally, first comment out the first `backend` block and then uncomment the second `backend` block that contains `proxy_url`. Then, change the branch name to the name of the branch that you are developing on.
 
 After the changes in `admin/config.yml` are saved *and* the site is served locally, run
 ```
