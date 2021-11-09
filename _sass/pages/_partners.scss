@@ -1,0 +1,37 @@
+.login-developers-links {
+  & span {
+    padding-bottom: 0;
+  }
+  & .links-separator {
+    color: $blue;
+    margin: 0 0.5rem;
+  }
+}
+
+.partners-logo {
+  align-items: center;
+  display: flex;
+  a {
+    display: inline-block;
+    img {
+      vertical-align: middle;
+    }
+  }
+  span {
+    color: $red;
+    font-size: 1.67em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 3px;
+    text-transform: uppercase;
+  }
+}
+
+.partners-actions {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  & a:last-child {
+    margin: 0;
+  }
+}
