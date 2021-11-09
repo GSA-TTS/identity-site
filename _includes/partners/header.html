@@ -1,0 +1,124 @@
+<section class="login-developers-links">
+  <div class="container">
+    <div class="grid-col display-flex flex-justify-end flex-align-center">
+      <a
+        class="{{include.mobile}} usa-nav__link"
+        href="/"
+        title="Login.gov"
+        aria-label="Login.gov"
+        tabindex="0"
+      >
+        <span>Login.gov</span>
+      </a>
+      <span class="links-separator">&#124;</span>
+      <a
+        class="{{include.mobile}} usa-nav__link"
+        href="https://developers.login.gov"
+        title="Get started"
+        aria-label="Get started"
+        tabindex="0"
+      >
+        <span>Developers.login.gov</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="usa-header usa-header--extended">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      <div class="usa-logo partners-logo" id="extended-logo">
+        <a href="{{ '/' | locale_url }}" title="Home" aria-label="Home">
+          <img
+            src="{{ site.baseurl }}/assets/img/logo.svg"
+            class="usa-logo__img"
+            alt="login.gov"
+            role="img"
+          />
+        </a>
+        <span>Partners</span>
+      </div>
+
+      <button class="usa-menu-btn">Menu</button>
+    </div>
+
+    <nav class="usa-nav" role="navigation">
+      <button class="usa-nav__close">
+        <img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close" />
+      </button>
+
+      {% include sign_in.html mobile="mobile" %}
+
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item">
+          <a
+            class="usa-nav__link {% if page.url contains '/our-services/' %}usa-current{% endif %}"
+            href="{{ '/our-services/' | locale_url }}"
+          >
+            <span>{{ site.data.[page.lang].settings.nav.services }}</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a
+            class="usa-nav__link {% if page.url contains '/case-studies/' %}usa-current{% endif %}"
+            href="{{ '/case-studies/' | locale_url }}"
+          >
+            <span>{{ site.data.[page.lang].settings.nav.case_studies }}</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a
+            class="usa-nav__link {% if page.url contains '/pricing/' %}usa-current{% endif %}"
+            href="{{ '/pricing/' | locale_url }}"
+          >
+            <span>{{ site.data.[page.lang].settings.nav.pricing }}</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a
+            class="usa-nav__link {% if page.url contains '/security-experience/' %}usa-current{% endif %}"
+            href="{{ '/security-experience/' | locale_url }}"
+          >
+            <span>{{ site.data.[page.lang].settings.nav.security_experience }}</span>
+          </a>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a
+            class="usa-nav__link {% if page.url contains '/faq/' %}usa-current{% endif %}"
+            href="{{ '/faq/' | locale_url }}"
+          >
+            <span>{{ site.data.[page.lang].settings.nav.faq}}</span>
+          </a>
+        </li>
+      </ul>
+
+      <a
+        class="usa-link desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold"
+        href="{{ '/contact/' | locale_url }}"
+      >
+        {{ site.data.[page.lang].settings.nav.contact_us.title }}
+      </a>
+
+      <div class="partners-actions">
+        <a
+          class="{{include.mobile}} usa-button usa-button--outline"
+          href="{{ site.idp_base_url }}/{% if page.lang!= 'en' %}{{page.lang}}{% endif %}"
+          title="State and Local"
+          aria-label="State and Local"
+          tabindex="0"
+        >{{ site.data.[page.lang].settings.nav.state_and_local }}
+        </a>
+        <a
+          class="{{include.mobile}} usa-button"
+          href="{{ site.idp_base_url }}/{% if page.lang!= 'en' %}{{page.lang}}{% endif %}"
+          title="Get started"
+          aria-label="Get started"
+          tabindex="0"
+        >{{ site.data.[page.lang].settings.nav.get_started }}
+        </a>
+      </div>
+
+    </nav>
+  </div>
+</div>
+<div class="usa-overlay"></div>
