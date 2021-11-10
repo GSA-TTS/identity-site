@@ -9,4 +9,7 @@ layout: base
 <main id="main-content">
 
 </main>
+{% if page.partners_banner == true %}
+  {% include partners/partners-banner.html %}
+{% endif %}
 {% include footer.html %}
