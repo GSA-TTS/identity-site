@@ -8,30 +8,46 @@
   }
 }
 
-.partners-logo {
+.partners-logo a {
   align-items: center;
   display: flex;
-  a {
-    display: inline-block;
-    img {
-      vertical-align: middle;
-    }
-  }
-  span {
+  & span {
     color: $red;
-    font-size: 1.67em;
     font-weight: 600;
     letter-spacing: 2px;
     margin-left: 3px;
     text-transform: uppercase;
+    @include at-media("card") {
+      font-size: 1.15rem;
+    }
+    @include at-media("desktop") {
+      font-size: 1.67rem;
+    }
   }
 }
 
 .partners-actions {
-  position: absolute;
-  bottom: 1rem;
-  right: 0;
-  & a:last-child {
-    margin: 0;
+  display: block;
+  @include at-media("card") {
+    & a {
+      width: 100%;
+      &:first-child {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+  @include at-media("desktop") {
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    & a {
+      width: auto;
+      &:first-child {
+        margin-bottom: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 }
