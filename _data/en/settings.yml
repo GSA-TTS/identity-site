@@ -12,6 +12,9 @@ banner:
     create: Create an account
     learn: Learn how to create an account
     tagline: Your one account for government
+  partners:
+    questions: Still have questions?
+    faqs: Visit our FAQs
   text:
     official: An official website of the United States government
     how: Here’s how you know
