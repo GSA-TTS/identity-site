@@ -2,7 +2,7 @@
   <div class="container">
     <div class="grid-col display-flex flex-justify-end flex-align-center">
       <a
-        class="{{include.mobile}} usa-nav__link"
+        class="usa-nav__link"
         href="/"
         title="Login.gov"
         aria-label="Login.gov"
@@ -12,7 +12,7 @@
       </a>
       <span class="links-separator">&#124;</span>
       <a
-        class="{{include.mobile}} usa-nav__link"
+        class="usa-nav__link"
         href="https://developers.login.gov"
         title="Get started"
         aria-label="Get started"
@@ -35,8 +35,8 @@
             alt="login.gov"
             role="img"
           />
+          <span>Partners</span>
         </a>
-        <span>Partners</span>
       </div>
 
       <button class="usa-menu-btn">Menu</button>
@@ -46,8 +46,6 @@
       <button class="usa-nav__close">
         <img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close" />
       </button>
-
-      {% include sign_in.html mobile="mobile" %}
 
       <ul class="usa-nav__primary usa-accordion">
         <li class="usa-nav__primary-item">
@@ -92,13 +90,6 @@
         </li>
       </ul>
 
-      <a
-        class="usa-link desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold"
-        href="{{ '/contact/' | locale_url }}"
-      >
-        {{ site.data.[page.lang].settings.nav.contact_us.title }}
-      </a>
-
       <div class="partners-actions">
         <a
           class="{{include.mobile}} usa-button usa-button--outline"
@@ -117,6 +108,13 @@
         >{{ site.data.[page.lang].settings.nav.get_started }}
         </a>
       </div>
+
+      <a
+        class="usa-link desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold"
+        href="{{ '/contact/' | locale_url }}"
+      >
+        {{ site.data.[page.lang].settings.nav.contact_us.title }}
+      </a>
 
     </nav>
   </div>
