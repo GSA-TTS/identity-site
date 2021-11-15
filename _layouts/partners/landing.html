@@ -7,9 +7,8 @@ layout: base
   {% include partners/header.html %}
 </header>
 <main id="main-content">
+  {% include hero.html class=page.class heading=page.title text=page.description img=page.img %}
 
 </main>
-{% if page.partners_banner == true %}
-  {% include partners/partners-banner.html %}
-{% endif %}
+{% include partners/partners-banner.html %}
 {% include footer.html %}

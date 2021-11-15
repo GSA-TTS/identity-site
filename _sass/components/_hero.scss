@@ -76,6 +76,19 @@
       }
     }
 
+    &.partners {
+      background-color: $white;
+      height: 100%;
+      color: $base-font-color;
+      > .container {
+        align-items: center;
+        background: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+
     &.bg-none {
       height: 11.125rem;
 
