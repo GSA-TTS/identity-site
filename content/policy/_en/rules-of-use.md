@@ -26,7 +26,7 @@ The Login.gov service protects your account by implementing strong security meas
 
 Some government applications that use Login.gov require users to verify their identities. This means that you must prove that you are who you say you are. That proof helps ensure that only the right people get access to sensitive information.
 
-You will only be asked to verify your identity the first time you sign into certain government applications. You only need to verify your identity once for your Login.gov account. After you verify your identity with Login.gov for one government application, you don't need to do it again for other government applications. By providing the Login.gov service with the information needed to verify your account, you authorize it to use that information to conduct activities necessary to ensure your identity, including sharing information with certain third parties, namely identity proofing services. The Login.gov service requires those parties to hold your information confidentially and not to use it for other purposes, as detailed in our [privacy policy]({% link _en/policy/privacy.md %}).
+You will only be asked to verify your identity the first time you sign into certain government applications. You only need to verify your identity once for your Login.gov account. After you verify your identity with Login.gov for one government application, you don't need to do it again for other government applications. By providing the Login.gov service with the information needed to verify your account, you authorize it to use that information to conduct activities necessary to ensure your identity, including sharing information with certain third parties, namely identity proofing services. The Login.gov service requires those parties to hold your information confidentially and not to use it for other purposes, as detailed in our [privacy policy]({% link policy/_en/privacy.md %}).
 
 The Login.gov service employs recognized security and privacy best practices.
 
@@ -45,7 +45,7 @@ In addition to details about your consent stated elsewhere in these terms, by ac
 
 You further agree that you will NOT misrepresent your identity or any information you present in the Login.gov service, including through customer support channels.
 
-You also agree that you are bound by these terms and the [Privacy Policy]({% link _en/policy/index.md %}), and other terms related to the Login.gov service.
+You also agree that you are bound by these terms and the [Privacy Policy]({% link policy/_en/index.md %}), and other terms related to the Login.gov service.
 
 We will post any changes to these terms to this page. If the changes affect our handling of your personal information or are otherwise deemed significant, we will notify you by email. If we cannot reach you by email, we reserve the right to contact you by other means, including postal mail. If at any time you no longer agree to these terms or any other relevant terms of the Login.gov service, you may close your account.
 
@@ -84,11 +84,11 @@ Similarly, we'll compare the information you give us to other records for added 
 
 After we have validated the identity evidence you provide to us, we'll verify that you are that person. We do this by asking you to take a photo of yourself (a selfie) so that we can compare it to the photo identification, like driver's license or passport, that you provided. To protect your identity, this photo must be taken live so we know it's not someone else presenting a picture of you. We may use third party services to assist us with this photo validation or any related process.
 
-Neither we nor any third party service keeps copies of any photo you send us, whether of a piece of identity evidence or of yourself. We further detail how we use your information in our [Privacy Policy]({% link _en/policy/index.md %}).
+Neither we nor any third party service keeps copies of any photo you send us, whether of a piece of identity evidence or of yourself. We further detail how we use your information in our [Privacy Policy]({% link policy/_en/index.md %}).
 
 ## 5. Termination
 
-You can terminate your account at any time through your account profile. Additionally, in the event of fraud or other violations of these Rules of Use, we may revoke access to your account. If this occurs, we will still protect your account information consistent with our [Privacy Policy]({% link _en/policy/index.md %}) and System of Record Notice [here](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) and [here](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+You can terminate your account at any time through your account profile. Additionally, in the event of fraud or other violations of these Rules of Use, we may revoke access to your account. If this occurs, we will still protect your account information consistent with our [Privacy Policy]({% link policy/_en/index.md %}) and System of Record Notice [here](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) and [here](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
 In the unlikely event that the Login.gov service is discontinued, information on the account will be retained subject to our System of Records Notice, as amended, which you can access [here](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) and [here](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
@@ -106,7 +106,7 @@ As an authentication system and gateway to federal applications, we strive for h
 
 ### 2. Customer Support
 
-Customer support and help desk services are always available through [https://login.gov/contact/]({% link _en/policy/contact.md %}). When you submit for customer support, we will use any information you provide to address your question or comment, and may use your feedback to improve our service or for other purposes as we see fit, such as for marketing. In doing so, we will never reveal your personal information outside of the Login.gov service except as required by applicable law or as stated elsewhere in these terms.
+Customer support and help desk services are always available through [https://login.gov/contact/]({% link policy/_en/contact.md %}). When you submit for customer support, we will use any information you provide to address your question or comment, and may use your feedback to improve our service or for other purposes as we see fit, such as for marketing. In doing so, we will never reveal your personal information outside of the Login.gov service except as required by applicable law or as stated elsewhere in these terms.
 
 ## 8. Responsibilities of Our Partners
 
@@ -154,4 +154,4 @@ GSA's failure to exercise or enforce any right or provision of this Agreement sh
 
 ### 4. Contacting Us
 
-If you have questions about these terms or any other aspect of the Login.gov service, you can contact us at [https://login.gov/contact/]({% link _en/policy/contact.md %}).
+If you have questions about these terms or any other aspect of the Login.gov service, you can contact us at [https://login.gov/contact/]({% link policy/_en/contact.md %}).

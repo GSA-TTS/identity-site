@@ -104,7 +104,7 @@ Parce qu'il s'agit d'un système d'authentification et d'une passerelle vers les
 
 ### 2. Soutien au client
 
-Le service de soutien à la clientèle et le service d'assistance sont toujours disponibles sur [https://login.gov/contact/]({% link _fr/policy/contact.md %}). Quand vous adressez une demande d'assistance à la clientèle, nous nous servons de toutes les informations que vous fournissez pour répondre à votre question ou à votre commentaire, et nous pouvons nous servir de vos commentaires pour améliorer notre service ou à d'autres fins que nous jugeons appropriées, par exemple pour le marketing. Dans ce cadre, nous ne divulguerons jamais vos informations personnelles en dehors du service Login.gov, sauf si la loi en vigueur l'exige ou si cela est indiqué ailleurs dans les présentes conditions.
+Le service de soutien à la clientèle et le service d'assistance sont toujours disponibles sur [https://login.gov/contact/]({% link policy/_fr/contact.md %}). Quand vous adressez une demande d'assistance à la clientèle, nous nous servons de toutes les informations que vous fournissez pour répondre à votre question ou à votre commentaire, et nous pouvons nous servir de vos commentaires pour améliorer notre service ou à d'autres fins que nous jugeons appropriées, par exemple pour le marketing. Dans ce cadre, nous ne divulguerons jamais vos informations personnelles en dehors du service Login.gov, sauf si la loi en vigueur l'exige ou si cela est indiqué ailleurs dans les présentes conditions.
 
 ## 8. les responsabilités de nos partenaires
 
@@ -152,4 +152,4 @@ Le fait que la GSA n'exerce pas ou n'applique pas un droit ou une disposition du
 
 ### 4. Nous contacter
 
-Si vous avez des questions concernant ces conditions ou tout autre aspect du service Login.gov, vous pouvez nous contacter à l'adresse [https://login.gov/contact/]({% link _fr/policy/contact.md %}).
+Si vous avez des questions concernant ces conditions ou tout autre aspect du service Login.gov, vous pouvez nous contacter à l'adresse [https://login.gov/contact/]({% link policy/_fr/contact.md %}).

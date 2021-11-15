@@ -46,10 +46,10 @@ collections:
   - label: Help articles
     label_singular: 'Help article'
     name: help
-    folder: content/
+    folder: content/help
     i18n: true
     create: true
-    path: 'help/{{category}}/{{slug}}'
+    path: '{{category}}/{{slug}}'
     summary: '{{title}} ({{category}}/{{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'help' }
     sortable_fields: ['category', 'commit_date', 'title', 'commit_author']
@@ -92,10 +92,10 @@ collections:
   - label: Landing pages
     label_singular: 'Landing page'
     name: page
-    folder: content/
+    folder: content/landing/
     i18n: true
     create: true
-    path: 'landing/{{slug}}'
+    path: '{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'landing' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
@@ -150,10 +150,10 @@ collections:
   - label: Policy pages
     label_singular: 'Policy page'
     name: policy
-    folder: content/
+    folder: content/policy
     i18n: true
     create: true
-    path: 'policy/{{slug}}'
+    path: '{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'sidenav' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
@@ -176,9 +176,9 @@ collections:
       - { label: 'Order', name: 'index', widget: 'number', i18n: duplicate, required: false }
   - label: Contact us
     name: contact
-    folder: content/
+    folder: content/policy
     i18n: true
-    path: 'policy/{{slug}}'
+    path: '{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'contact_us' }
     sortable_fields: ['commit_date', 'title', 'commit_author']

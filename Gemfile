@@ -9,6 +9,7 @@ gem "jekyll-autoprefixer", "~> 1.0"
 
 group :development do
   gem 'pry'
+  gem 'pry-byebug'
   gem 'rb-readline'
 end
 
