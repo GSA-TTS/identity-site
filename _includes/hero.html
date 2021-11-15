@@ -8,5 +8,10 @@
         <p class="hero__description">{{ include.text }}</p>
       {% endif %}
     </div>
+    {% if include.img %}
+      <div>
+        <img class="hero__image" src="{{ site.baseurl }}/{{ include.img }}" />
+      </div>
+    {% endif %}
   </div>
 </section>

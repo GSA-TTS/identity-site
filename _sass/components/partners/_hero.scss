@@ -1,0 +1,35 @@
+.partners-hero {
+  padding-top: $container-spacing-sm;
+  padding-bottom: $container-spacing-sm;
+  .container {
+    justify-content: space-between;
+  }
+  .hero__description,
+  .hero__title {
+    @include u-margin-y(2);
+  }
+  .hero__title {
+    font-size: 1.875rem;
+    line-height: 1.375em;
+    @include at-media("desktop") {
+      font-size: 2.5rem;
+    }
+  }
+  .hero__description {
+    font-size: 1.125rem;
+    line-height: $line-height;
+    @include at-media("desktop") {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+@include at-media("desktop") {
+  .partners-hero {
+    height: 20rem;
+    padding: 0;
+    > .container {
+      height: 100%;
+    }
+  }
+}
