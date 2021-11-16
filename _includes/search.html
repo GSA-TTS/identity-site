@@ -12,6 +12,6 @@
   >
   <input class="usa-input" id="search-field-{{ include.id }}" name="query" type="search" />
   <button class="usa-button" type="submit">
-    <span class="usa-search__submit-text">{{ site.data.[page.lang].settings.actions.search }}</span>
+    <span class="usa-search__submit-text">{{ binding.pry site.data.[page.lang].settings.actions.search }}</span>
   </button>
 </form>
