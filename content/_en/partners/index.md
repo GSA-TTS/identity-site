@@ -10,5 +10,4 @@ description: Learn how Login.gov can better provide identity proofing for your a
 title: Simple, secure online access for the public
 description: Login.gov adds the public’s one account for government to your agency.
 class: partners
-img: assets/img/partners/heroes/partners-hero.svg
 ---

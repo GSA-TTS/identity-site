@@ -78,14 +78,13 @@
 
     &.partners {
       background-color: $white;
-      height: 100%;
+      background-image: url(../img/partners/heroes/partners-hero.svg);
+      background-position: right 20% center;
+      background-size: 22%;
+      background-repeat: no-repeat;
       color: $base-font-color;
       > .container {
-        align-items: center;
         background: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
       }
     }
 
