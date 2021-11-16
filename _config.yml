@@ -63,29 +63,29 @@ kramdown:
 # Defaults
 defaults:
   - scope:
-      path: 'content/*/help'
+      path: 'content/help/get-started/*._en.md'
     values:
       layout: help
+#  - scope:
+#      path: 'content/*/landing'
+#    values:
+#      layout: landing
+#  - scope:
+#      path: 'content/*/policy'
+#    values:
+#      layout: sidenav
   - scope:
-      path: 'content/*/landing'
-    values:
-      layout: landing
-  - scope:
-      path: 'content/*/policy'
-    values:
-      layout: sidenav
-  - scope:
-      path: 'content/_en'
+      path: 'content/help/get-started/*._en.md'
     values:
       lang: en
   - scope:
-      path: 'content/_es'
+      path: 'content/help/get-started/*._es.md'
     values:
       lang: es
-  - scope:
-      path: 'content/_fr'
-    values:
-      lang: fr
+#  - scope:
+#      path: 'content/help/get-started/*._fr.md'
+#    values:
+#      lang: fr
 
 include:
   # dotfiles are excluded by default
