@@ -39,8 +39,6 @@
 }
 
 .usa-logo__help {
-  // TODO: Remove this once we assign `$theme-font-sans` design system variable to Public Sans.
-  font-family: $sans-serif-font-family;
   font-size: 0.8125rem;
   font-weight: bold;
   color: $navy;
@@ -63,8 +61,6 @@
 }
 
 .sign-in-logo.usa-button {
-  // TODO: Remove this once we assign `$theme-font-sans` design system variable to Public Sans.
-  font-family: $sans-serif-font-family;
   color: $black;
   font-weight: bold;
   margin: 0;
@@ -112,101 +108,6 @@
   }
 }
 
-.usa-overlay {
-  // TODO: Reconcile / backport to Login Design System.
-  background: $grey-darker;
-
-  &.is-visible {
-    opacity: opacity(50);
-  }
-}
-
-.usa-search--small [type=submit],
-.usa-search--small .usa-search__submit {
-  background-image: none;
-  padding: 0 0.7rem;
-  width: auto;
-  font-family: $sans-serif-font-family;
-  font-size: ($base-font-size - 2);
-}
-
-.usa-search--small .usa-search__submit-text {
-  position: static;
-}
-
-@include at-media("desktop") {
-  .usa-header--extended .usa-nav__primary {
-    margin-left: 0rem;
-  }
-}
-
-@include at-media-max("desktop") {
-  .usa-nav, .usa-nav__primary {
-    // TODO: Remove font-family once we assign `$theme-font-sans` design system variable to Public Sans.
-    font-family: $sans-serif-font-family;
-  }
-
-  .usa-nav__primary {
-    margin-left: -1rem;
-    margin-right: -1rem;
-    width: auto;
-  }
-
-  .usa-nav__primary button:hover,
-  .usa-nav__primary a:hover {
-    // TODO: Reconcile / backport hover color difference with Login Design System.
-    background-color: $blue-lightest;
-  }
-
-  .usa-nav__primary-item {
-    border-top: 0;
-
-    &::before {
-      // TODO: Reconcile / backport border color difference with Login Design System.
-      background-color: $blue-light;
-      content: '';
-      display: block;
-      height: 1px;
-      margin-left: 1rem;
-      margin-right: 1rem;
-    }
-  }
-
-  .usa-nav__primary .usa-nav__primary-item .usa-accordion__button,
-  .usa-nav__primary .usa-nav__primary-item .usa-accordion__close-button,
-  .usa-nav__primary .usa-nav__submenu-item .usa-accordion__button,
-  .usa-nav__primary .usa-nav__submenu-item .usa-accordion__close-button {
-    background-position: right 1rem center;
-  }
-}
-
-@include at-media("desktop") {
-  .usa-nav__primary-item + .usa-nav__primary-item {
-    margin-left: 1.5rem;
-  }
-
-  .usa-nav__link span {
-    // TODO: Remove font-family once we assign `$theme-font-sans` design system variable to Public Sans.
-    font-family: $sans-serif-font-family;
-    text-transform: none;
-    display: inline-block;
-    padding: 0 0 1rem 0;
-  }
-}
-
-.usa-nav__submenu-item {
-  border-top: none;
-}
-
-.usa-nav__primary button,
-.usa-nav__primary a {
-  @include at-media-max("desktop") {
-    padding-top: 0.9rem;
-    padding-bottom: 0.9rem;
-    line-height: 1.5;
-  }
-}
-
 .temp-wip {
   padding: 2rem;
   text-align: center;
@@ -223,31 +124,4 @@
   @include u-margin-top(4);
   font-size: $base-font-sm;
   text-decoration: none;
-}
-
-.usa-sidenav {
-  // TODO: Reconcile / backport to Login Design System.
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
-
-  .usa-current {
-    background-color: transparent;
-  }
-}
-
-.usa-nav__primary .usa-nav__submenu-item .usa-current {
-  @include at-media-max("desktop") {
-    background-color: transparent;
-    color: $blue-mid;
-
-    &::after {
-      content: none;
-    }
-  }
-}
-
-.usa-sidenav__sublist .usa-sidenav__item {
-  // TODO: Reconcile / backport to Login Design System.
-  border-top: 0;
 }

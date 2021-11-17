@@ -39,39 +39,11 @@ article.container,
   }
 }
 
-.usa-header .usa-search [type="search"] {
-  height: 2rem;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
 @include at-media("desktop") {
   .usa-header .usa-nav {
     .usa-search {
       position: absolute;
       bottom: 1rem;
-    }
-  }
-
-  .usa-nav__primary {
-    > .usa-nav__primary-item {
-      > a {
-        line-height: 1.5em;
-        font-size: .875rem;
-      }
-      > .usa-nav__link {
-        position: relative;
-        padding: 0;
-
-        &:hover,
-        &.usa-current {
-          box-shadow: inset 0 -4px 0 0 $red;
-
-          &::after {
-            display: none;
-          }
-        }
-      }
     }
   }
 

@@ -85,10 +85,3 @@
     }
   }
 }
-
-div.usa-identifier {
-  // TODO: Remove this once we assign `$theme-font-sans` design system variable to Public Sans.
-  font-family: $sans-serif-font-family;
-  font-size: 1rem;
-  line-height: 1.5rem
-}

@@ -3,7 +3,6 @@ html {
 }
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: $sans-serif-font-family;
 }
 
 article p {
@@ -20,9 +19,6 @@ article p {
   h4,
   h5,
   h6 {
-    // TODO: Remove this once we assign `$theme-font-sans` design system variable to Public Sans.
-    font-family: $sans-serif-font-family;
-
     // TODO: Remove this once we assign `$theme-body-line-height` design system variable.
     line-height: $line-height;
   }
@@ -41,16 +37,6 @@ article p {
       }
     }
   }
-}
-
-.monospace {
-  font-family: $monospace-font-family;
-}
-.sans-serif {
-  font-family: $sans-serif-font-family;
-}
-.serif {
-  font-family: $serif-font-family;
 }
 
 .font-xs {
