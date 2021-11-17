@@ -63,7 +63,7 @@ kramdown:
 # Defaults
 defaults:
   - scope:
-      path: 'content/_help/get-started/*._en.md'
+      path: 'content/_help/**/*._en.md'
     values:
       layout: _help
 #  - scope:
@@ -75,15 +75,15 @@ defaults:
 #    values:
 #      layout: sidenav
   - scope:
-      path: 'content/_help/get-started/*._en.md'
+      path: 'content/_help/*/*._en.md'
     values:
       lang: en
   - scope:
-      path: 'content/_help/get-started/*._es.md'
+      path: 'content/_help/*/*._es.md'
     values:
       lang: es
 #  - scope:
-#      path: 'content/_help/get-started/*._fr.md'
+#      path: 'content/_help/*/*._fr.md'
 #    values:
 #      lang: fr
 
