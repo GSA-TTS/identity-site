@@ -1,5 +1,6 @@
 ---
 title: Opciones de autenticacións
+permalink: /es/help/get-started/authentication-options/
 category: get-started
 order: 2
 redirect_from:

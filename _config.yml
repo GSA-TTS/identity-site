@@ -24,18 +24,18 @@ idp_base_url: https://secure.login.gov
 # Pages
 collections_dir: content
 collections:
-  _help:
+  help:
     output: true
-    # permalink: /:collection/:path/
+    permalink: /:collection/:title/
   en:
     output: true
-    permalink: /:path/
+    permalink: /:title/
   es:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title/
   fr:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title/
 
 # Scripts
 scripts:
