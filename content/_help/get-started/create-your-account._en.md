@@ -1,5 +1,5 @@
 ---
-layout: help
+layout: _help
 category: get-started
 order: 1
 title: Create your Login.gov account

@@ -1,5 +1,5 @@
 ---
-layout: help
+layout: _help
 title: Get started with Login.gov
 category: get-started
 meta_title: Overview

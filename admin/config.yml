@@ -18,9 +18,9 @@
 #
 backend:
   name: git-gateway
-  branch: netlify-help-folder
+  branch: netlify-_help-folder
   proxy_url: http://localhost:8081/api/v1
-  local_backend: true
+local_backend: true
 
 media_folder: 'assets/img/'
 public_folder: '/img/uploads'
@@ -45,16 +45,16 @@ display_url: https://login.gov
 collections:
   - label: Help articles
     label_singular: 'Help article'
-    name: help
-    folder: content/
+    name: _help
+    folder: content/_help/
     i18n: true
     create: true
-    path: 'help/{{category}}/{{slug}}'
+    path: '_help/{{category}}/{{slug}}'
     summary: '{{title}} ({{category}}/{{filename}}.{{extension}})'
-    filter: { field: 'layout', value: 'help' }
+    filter: { field: 'layout', value: '_help' }
     sortable_fields: ['category', 'commit_date', 'title', 'commit_author']
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'help' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: '_help' }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - {
           label: 'Category',

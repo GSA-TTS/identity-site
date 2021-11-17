@@ -1,7 +1,8 @@
 ---
-layout: help
+layout: _help
 title: Authentication options
 category: get-started
+permalink: /authentication-options/
 order: 2
 redirect_from:
   - /help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
