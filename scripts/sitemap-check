@@ -30,7 +30,7 @@ parser = OptionParser.new do |parser|
     sitemap_url = url
   end
 
-  parser.on("--help", "print this help message") do
+  parser.on("--_help", "print this _help message") do
     puts parser
   end
 end
