@@ -1,5 +1,5 @@
 ---
-layout: _help
+layout: help
 title: "Relink your accounts "
 category: manage-your-account
 permalink: /help/manage-your-account/relink-your-accounts/

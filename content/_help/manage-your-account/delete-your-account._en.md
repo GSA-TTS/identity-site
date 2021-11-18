@@ -1,5 +1,5 @@
 ---
-layout: _help
+layout: help
 title: Delete your account
 category: manage-your-account
 permalink: /help/manage-your-account/delete-your-account/

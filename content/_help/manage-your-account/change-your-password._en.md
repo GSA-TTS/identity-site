@@ -1,5 +1,5 @@
 ---
-layout: _help
+layout: help
 title: Change your password
 category: manage-your-account
 order: 1

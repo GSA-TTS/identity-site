@@ -1,5 +1,5 @@
 ---
-layout: _help
+layout: help
 title: Authentication options
 category: get-started
 permalink: /help/get-started/authentication-options/

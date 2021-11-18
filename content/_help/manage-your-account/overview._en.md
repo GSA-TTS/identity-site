@@ -1,5 +1,5 @@
 ---
-layout: _help
+layout: help
 title: Manage your account
 category: manage-your-account
 meta_title: Overview

@@ -1,5 +1,5 @@
 ---
-layout: _help
+layout: help
 title: International phone number support
 category: manage-your-account
 permalink: /help/manage-your-account/international-phone-support/
