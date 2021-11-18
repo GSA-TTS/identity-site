@@ -1,5 +1,5 @@
 ---
-layout: _help
+layout: help
 title: Add or change your authentication method
 category: manage-your-account
 permalink: /help/manage-your-account/add-or-change-your-authentication-method/

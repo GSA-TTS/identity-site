@@ -1,5 +1,5 @@
 ---
-layout: _help
+layout: help
 title: Change the email address associated with your account
 category: manage-your-account
 permalink: /help/manage-your-account/change-your-email-address/
