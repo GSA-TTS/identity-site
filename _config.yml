@@ -65,7 +65,15 @@ defaults:
   - scope:
       path: 'content/_help/**/*._en.md'
     values:
-      layout: _help
+      layout: help
+  - scope:
+      path: 'content/_help/**/*._es.md'
+    values:
+      layout: help
+  - scope:
+      path: 'content/_help/**/*._fr.md'
+    values:
+      layout: help
 #  - scope:
 #      path: 'content/*/landing'
 #    values:
@@ -82,10 +90,10 @@ defaults:
       path: 'content/_help/*/*._es.md'
     values:
       lang: es
-#  - scope:
-#      path: 'content/_help/*/*._fr.md'
-#    values:
-#      lang: fr
+  - scope:
+      path: 'content/_help/*/*._fr.md'
+    values:
+      lang: fr
 
 include:
   # dotfiles are excluded by default
