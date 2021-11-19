@@ -1,6 +1,7 @@
 ---
 title: Commencez avec Login.gov
 category: get-started
+permalink: /fr/help/get-started/overview/
 meta_title: Aperçu
 order: 0
 redirect_from:

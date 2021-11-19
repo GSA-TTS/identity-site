@@ -2,6 +2,7 @@
 title: Empiece con Login.gov
 category: get-started
 meta_title: Visión general
+permalink: /es/help/get-started/overview/
 order: 0
 redirect_from:
   - /es/help/creating-an-account/authentication-application/

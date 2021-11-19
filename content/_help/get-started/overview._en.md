@@ -2,6 +2,7 @@
 layout: help
 title: Get started with Login.gov
 category: get-started
+permalink: /help/get-started/overview/
 meta_title: Overview
 order: 0
 redirect_from:
