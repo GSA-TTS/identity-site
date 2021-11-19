@@ -26,16 +26,16 @@ collections_dir: content
 collections:
   help:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:path/
   en:
     output: true
-    permalink: /:title/
+    permalink: /:path/
   es:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:path/
   fr:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:path/
 
 # Scripts
 scripts:
