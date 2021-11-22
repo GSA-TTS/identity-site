@@ -1,7 +1,6 @@
 {% include search.html size="small" id="sidenav" %}
 <nav class="margin-y-4 sidenav position-sticky pin-top" aria-label="{{ site.data.[page.lang].settings.accessible_labels.secondary_navigation }}">
   <ul class="usa-accordion usa-sidenav">
-
     {% for subpage in site.help_pages %}
       {% assign subpage_slug = subpage | slugify %}
       {% assign related_questions = site.[page.lang] | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang" | sort:'order' %}
