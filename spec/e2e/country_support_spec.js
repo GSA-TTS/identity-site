@@ -36,7 +36,7 @@ describe('country support', () => {
       }
     });
 
-    await goto('/_help/manage-your-account/international-phone-support/');
+    await goto('/help/manage-your-account/international-phone-support/');
 
     const table = await page.waitForSelector('.js-country-support:not([hidden]) table');
     expect((await table.$$('tbody tr')).length).toBe(2);
