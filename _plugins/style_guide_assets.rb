@@ -23,9 +23,17 @@ Jekyll::Hooks.register :site, :post_write do |site|
   destination_fonts_dir = File.join(site.config['destination'], 'assets/fonts')
   destination_img_dir = File.join(site.config['destination'], 'assets/img')
 
-  uswds_assets_root = File.join(Dir.pwd, 'node_modules/identity-style-guide/dist/assets/')
+  # TEMPORARY: Copy both design system assets from src
+
+  uswds_assets_root = File.join(Dir.pwd, 'node_modules/uswds/src/')
   origin_fonts_dir = File.join(uswds_assets_root, 'fonts')
   origin_img_dir = File.join(uswds_assets_root, 'img')
+
+  copy_assets(origin_fonts_dir, destination_fonts_dir)
+  copy_assets(origin_img_dir, destination_img_dir)
+
+  lgds_assets_root = File.join(Dir.pwd, 'node_modules/identity-style-guide/src/')
+  origin_img_dir = File.join(lgds_assets_root, 'img')
 
   copy_assets(origin_fonts_dir, destination_fonts_dir)
   copy_assets(origin_img_dir, destination_img_dir)
