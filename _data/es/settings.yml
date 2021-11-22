@@ -133,24 +133,24 @@ help_page:
   categories:
     - title: Empiece con Login.gov
       description: Cree su cuenta. Conozca las opciones de autenticación y más características de la cuenta.
-      url: /es/_help/get-started/overview/
-      image: /assets/img/_help/get-started.svg
+      url: /es/help/get-started/overview/
+      image: /assets/img/help/get-started.svg
     - title: ¿Tiene problemas para iniciar sesión?
       description: ¿Olvidó su contraseña? ¿Se bloqueó su cuenta? Le ayudaremos a solucionar los problemas de acceso.
       url: /es/_help/trouble-signing-in/overview/
-      image: /assets/img/_help/trouble-signing-in.svg
+      image: /assets/img/help/trouble-signing-in.svg
     - title: Administrar su cuenta
       description: Cambia la configuración de la cuenta, incluida la contraseña, el teléfono, el correo electrónico y más.
-      url: /es/_help/manage-your-account/overview/
-      image: /assets/img/_help/manage-your-account.svg
+      url: /es/help/manage-your-account/overview/
+      image: /assets/img/help/manage-your-account.svg
     - title: Asistencia de agencias específicas
       description: Obtenga ayuda con Trusted Traveler Programs (TTP), SAM.gov.
-      url: /es/_help/specific-agencies/overview/
-      image: /assets/img/_help/_help-specific-agencies.svg
+      url: /es/help/specific-agencies/overview/
+      image: /assets/img/help/help-specific-agencies.svg
     - title: Verifique su identidad
       description: Aprenda sobre las opciones para verificar su identidad.
-      url: /es/_help/verify-your-identity/overview/
-      image: /assets/img/_help/verify-your-id.svg
+      url: /es/help/verify-your-identity/overview/
+      image: /assets/img/help/verify-your-id.svg
 help_subpages:
   get-started: Empiece con Login.gov
   trouble-signing-in: ¿Tiene problemas para iniciar sesión?
