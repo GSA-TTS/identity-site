@@ -137,7 +137,7 @@ help_page:
       image: /assets/img/help/get-started.svg
     - title: ¿Tiene problemas para iniciar sesión?
       description: ¿Olvidó su contraseña? ¿Se bloqueó su cuenta? Le ayudaremos a solucionar los problemas de acceso.
-      url: /es/_help/trouble-signing-in/overview/
+      url: /es/help/trouble-signing-in/overview/
       image: /assets/img/help/trouble-signing-in.svg
     - title: Administrar su cuenta
       description: Cambia la configuración de la cuenta, incluida la contraseña, el teléfono, el correo electrónico y más.
