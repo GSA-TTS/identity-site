@@ -125,28 +125,28 @@ global:
     fr: Français
 help_page:
   p_1: Browse common topics
-  title: How can we _help?
+  title: How can we help?
   categories:
     - title: Get started with Login.gov
       description: Create your account. Learn about authentication options and more account features.
-      url: /_help/get-started/overview/
-      image: /assets/img/_help/get-started.svg
+      url: /help/get-started/overview/
+      image: /assets/img/help/get-started.svg
     - title: Trouble signing in?
-      description: Forgot your password? Locked out of your account? We'll _help you resolve access issues.
-      url: /_help/trouble-signing-in/overview/
-      image: /assets/img/_help/trouble-signing-in.svg
+      description: Forgot your password? Locked out of your account? We'll help you resolve access issues.
+      url: /help/trouble-signing-in/overview/
+      image: /assets/img/help/trouble-signing-in.svg
     - title: Manage your account
       description: Change your account settings including your password, phone number, email, and more.
-      url: /_help/manage-your-account/overview/
-      image: /assets/img/_help/manage-your-account.svg
+      url: /help/manage-your-account/overview/
+      image: /assets/img/help/manage-your-account.svg
     - title: Help with specific agencies
-      description: Get _help with Trusted Traveler Programs (TTP) and SAM.gov.
-      url: /_help/specific-agencies/overview/
-      image: /assets/img/_help/_help-specific-agencies.svg
+      description: Get help with Trusted Traveler Programs (TTP) and SAM.gov.
+      url: /help/specific-agencies/overview/
+      image: /assets/img/help/help-specific-agencies.svg
     - title: Verify your identity
       description: Learn about options for verifying your identity.
-      url: /_help/verify-your-identity/overview/
-      image: /assets/img/_help/verify-your-id.svg
+      url: /help/verify-your-identity/overview/
+      image: /assets/img/help/verify-your-id.svg
 help_subpages:
   get-started: Get started with Login.gov
   trouble-signing-in: Trouble signing in?
