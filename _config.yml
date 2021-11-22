@@ -83,15 +83,15 @@ defaults:
 #    values:
 #      layout: sidenav
   - scope:
-      path: 'content/_help/*/*._en.md'
+      path: 'content/**/*/*._en.md'
     values:
       lang: en
   - scope:
-      path: 'content/_help/*/*._es.md'
+      path: 'content/**/*/*._es.md'
     values:
       lang: es
   - scope:
-      path: 'content/_help/*/*._fr.md'
+      path: 'content/**/*/*._fr.md'
     values:
       lang: fr
 
