@@ -25,6 +25,7 @@ contact_page:
     agencies:
       "Customs and Border Protection Jobs": Customs and Border Protection Jobs
       "Customs and Border Protection ROAM": Customs and Border Protection ROAM
+      "Department of Veterans Affairs": Department of Veterans Affairs
       "DOD Moves.mil (Homes or Office)": DOD Move.mil (Homes or Office)
       "DOT FMCSA (Motor Carrier Safety)": DOT FMCSA (Motor Carrier Safety)
       "DOT National Registry of Certified Medical Examiners": DOT National Registry of Certified Medical Examiners
@@ -185,7 +186,7 @@ nav:
         url: '#do-you-have-a-question-about-your-agency-account'
       - name: Partner with Login.gov
         url: '#partner-with-logingov'
-      - name: Report a Security or Privacy Issue 
+      - name: Report a Security or Privacy Issue
         url: '#report-a-security-or-privacy-issue'
   contact_login_gov: Contact Login.gov
   create_an_account: Create an account
