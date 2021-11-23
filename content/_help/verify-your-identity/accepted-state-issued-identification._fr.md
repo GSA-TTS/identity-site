@@ -1,6 +1,7 @@
 ---
 title: Pièce d'identité délivrée par l'État acceptée
 category: verify-your-identity
+permalink: /fr/help/verify-your-identity/accepted-state-issued-identification/
 order: 3
 ---
 Pour l'instant, seules les pièces d'identité suivantes, délivrées par l'État, sont acceptées:

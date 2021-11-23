@@ -2,6 +2,7 @@
 title: Verificación de identidad
 category: verify-your-identity
 meta_title: Visión general
+permalink: /es/help/verify-your-identity/overview/
 order: 0
 redirect_from:
   - /es/help/verify-your-identity/

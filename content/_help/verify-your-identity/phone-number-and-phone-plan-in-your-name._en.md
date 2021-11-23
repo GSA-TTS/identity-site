@@ -2,6 +2,7 @@
 layout: help
 title: "Phone number and phone plan in your name "
 category: verify-your-identity
+permalink: /help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 order: 4
 ---
 You need to provide a U.S. based phone number with your name on the phone plan to successfully complete identity verification. 

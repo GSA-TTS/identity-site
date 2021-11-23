@@ -2,6 +2,7 @@
 layout: help
 title: Verify your identity
 category: verify-your-identity
+permalink: /help/verify-your-identity/overview/
 meta_title: Overview
 order: 0
 redirect_from:

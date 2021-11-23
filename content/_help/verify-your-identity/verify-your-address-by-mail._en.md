@@ -2,6 +2,7 @@
 layout: help
 title: Verify your address by mail
 category: verify-your-identity
+permalink: /help/verify-your-identity/verify-your-address-by-mail/
 order: 1
 ---
 

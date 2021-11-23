@@ -1,6 +1,7 @@
 ---
 title: "Numéro de téléphone et forfait téléphonique à votre nom "
 category: verify-your-identity
+permalink: /fr/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 order: 4
 ---
 Vous devez fournir un numéro de téléphone basé aux États-Unis avec votre nom sur le plan téléphonique pour réussir la vérification d'identité. 

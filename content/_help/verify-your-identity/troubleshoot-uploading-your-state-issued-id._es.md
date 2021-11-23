@@ -1,6 +1,7 @@
 ---
 title: Solucionar problema al subir el documento de identidad emitido por el estado
 category: verify-your-identity
+permalink: /es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 order: 6
 ---
 [Para la verificación de identidad](https://login.gov/es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/) se requiere una foto nítida de tu documento de identidad emitido por el estado. Si tomaste una foto que cumple con los requisitos, intenta los siguientes pasos si todavía recibes un error al subir tu identificación emitida por el estado.

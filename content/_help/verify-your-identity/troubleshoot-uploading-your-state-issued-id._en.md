@@ -2,6 +2,7 @@
 layout: help
 title: Troubleshoot uploading your state-issued ID
 category: verify-your-identity
+permalink: /help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 order: 6
 ---
 A [clear photo of your state-issued ID](https://login.gov/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/) is required for identity verification. If you’ve taken a photo that meets the requirements, try the steps below if you’re still getting an error while uploading your state-issued identification.

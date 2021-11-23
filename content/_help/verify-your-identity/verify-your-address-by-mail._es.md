@@ -1,6 +1,7 @@
 ---
 title: Verifica tu domicilio a través del correo postal
 category: verify-your-identity
+permalink: /es/help/verify-your-identity/verify-your-address-by-mail/
 order: 1
 ---
 La verificación de la identidad es el proceso en el que acreditas que eres tú realmente y no alguien que se hace pasar por ti. Uno de los pasos de este proceso requiere que dispongas de un número de teléfono con un plan telefónico a tu nombre para verificar tu domicilio de forma rápida. 

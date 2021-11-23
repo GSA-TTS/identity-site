@@ -1,6 +1,7 @@
 ---
 title: Résolution des problèmes de téléchargement de votre carte d'identité nationale
 category: verify-your-identity
+permalink: /fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 order: 6
 ---
 [Une photo nette de votre pièce d'identité](https://login.gov/fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/) délivrée par l'État est nécessaire pour la vérification de votre identité. Si vous avez pris une photo qui répond aux exigences, essayez les étapes ci-dessous si vous obtenez toujours une erreur lors du téléchargement de votre pièce d'identité délivrée par l'État.

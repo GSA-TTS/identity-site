@@ -1,6 +1,7 @@
 ---
 title: "Número de teléfono y plan telefónico a su nombre "
 category: verify-your-identity
+permalink: /es/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 order: 4
 ---
 Para completar con éxito la verificación de la identidad, debe proporcionar un número de teléfono con domicilio en EE.UU. a su nombre en el plan telefónico. 
