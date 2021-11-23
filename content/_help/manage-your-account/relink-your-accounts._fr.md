@@ -1,6 +1,7 @@
 ---
 layout: help
 category: manage-your-account
+permalink: /fr/help/manage-your-account/relink-your-accounts/
 title: "Relier tes comptes"
 order: 6
 ---

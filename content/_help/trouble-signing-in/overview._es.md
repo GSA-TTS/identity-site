@@ -2,6 +2,7 @@
 title: ¿Problemas al iniciar sesión?
 category: trouble-signing-in
 meta_title: Visión general
+permalink: /es/help/trouble-signing-in/overview/
 order: 0
 redirect_from:
   - /es/help/signing-in/

@@ -1,6 +1,7 @@
 ---
 title: Comment se connecter à Login.gov
 category: trouble-signing-in
+permalink: /fr/help/trouble-signing-in/how-to-sign-in/
 order: 1
 redirect_from:
   - /fr/help/signing-in/

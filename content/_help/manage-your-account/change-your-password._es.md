@@ -1,6 +1,7 @@
 ---
 title: Cambie su contraseña
 category: manage-your-account
+permalink: /es/help/manage-your-account/change-your-password/
 order: 1
 ---
 

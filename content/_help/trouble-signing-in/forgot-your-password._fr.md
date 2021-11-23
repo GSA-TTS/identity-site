@@ -1,6 +1,7 @@
 ---
 title: Mot de passe oublié
 category: trouble-signing-in
+permalink: /fr/help/trouble-signing-in/forgot-your-password/
 order: 2
 redirect_from:
   - /fr/help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/

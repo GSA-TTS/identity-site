@@ -2,6 +2,7 @@
 layout: help
 title: System for Award Management (SAM)
 category: specific-agencies
+permalink: /help/specific-agencies/sam/
 order: 2
 redirect_from:
   - /help/sam/have-account-different-email/

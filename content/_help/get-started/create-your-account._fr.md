@@ -1,6 +1,7 @@
 ---
 category: get-started
 order: 1
+permalink: /fr/help/get-started/create-your-account/
 title: Créez votre compte
 ---
 

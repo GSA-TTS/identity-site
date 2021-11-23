@@ -2,6 +2,7 @@
 title: Gérez votre compte
 category: manage-your-account
 meta_title: Aperçu
+permalink: /fr/help/manage-your-account/overview/
 order: 0
 redirect_from: /fr/help/manage-your-account/
 ---

@@ -1,6 +1,7 @@
 ---
 title: Options d'authentification
 category: get-started
+permalink: /fr/help/get-started/authentication-options/
 order: 2
 redirect_from:
   - /fr/help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/

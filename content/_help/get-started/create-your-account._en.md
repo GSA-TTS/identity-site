@@ -1,6 +1,7 @@
 ---
 layout: help
 category: get-started
+permalink: /help/get-started/create-your-account/
 order: 1
 title: Create your Login.gov account
 ---

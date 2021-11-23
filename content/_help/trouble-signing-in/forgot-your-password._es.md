@@ -1,6 +1,7 @@
 ---
 title: Olvidó su contraseña
 category: trouble-signing-in
+permalink: /es/help/trouble-signing-in/forgot-your-password/
 order: 2
 redirect_from:
   - /es/help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/

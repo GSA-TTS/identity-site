@@ -2,6 +2,7 @@
 layout: help
 title: How to sign in to Login.gov
 category: trouble-signing-in
+permalink: /help/trouble-signing-in/how-to-sign-in/
 order: 1
 redirect_from:
   - /help/signing-in/

@@ -1,6 +1,7 @@
 ---
 layout: help
 title: Trouble signing in?
+permalink: /help/trouble-signing-in/overview/
 category: trouble-signing-in
 meta_title: Overview
 order: 0

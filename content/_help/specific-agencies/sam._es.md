@@ -1,8 +1,8 @@
 ---
 title: Resumen de la cuenta del Sistema para la Administración de Subvenciones (SAM)
 category: specific-agencies
-permalink: /es/help/specific-agencies/sam/
 order: 2
+permalink: /es/help/specific-agencies/overview/
 redirect_from:
   - /es/help/sam/have-account-different-email/
   - /es/help/sam/no-longer-have-email/

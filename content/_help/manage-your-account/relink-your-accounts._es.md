@@ -1,6 +1,7 @@
 ---
 layout: help
 category: manage-your-account
+permalink: /es/help/manage-your-account/relink-your-accounts/
 title: "Revincular tus cuentas"
 order: 6
 ---

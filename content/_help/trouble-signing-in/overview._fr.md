@@ -2,6 +2,7 @@
 title: Des problèmes de connexion?
 category: trouble-signing-in
 meta_title: Aperçu
+permalink: /fr/help/trouble-signing-in/overview/
 order: 0
 redirect_from:
   - /fr/help/signing-in/

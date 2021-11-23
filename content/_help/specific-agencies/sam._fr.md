@@ -1,7 +1,7 @@
 ---
 title: Système de saisie des prix (SAM) Aperçu du compte
 category: specific-agencies
-permalink: /fr/help/specific-agencies/sam/
+permalink: /fr/help/specific-agencies/overview/
 order: 2
 redirect_from:
   - /fr/help/sam/have-account-different-email/

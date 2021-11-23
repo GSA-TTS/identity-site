@@ -2,6 +2,7 @@
 title: Cómo iniciar sesión en Login.gov
 category: trouble-signing-in
 order: 1
+permalink: /es/help/trouble-signing-in/how-to-sign-in/
 redirect_from:
   - /es/help/signing-in/
   - /es/help/signing-in/how-to-sign-in/

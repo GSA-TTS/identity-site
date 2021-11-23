@@ -2,6 +2,8 @@
 layout: help
 title: Soporte de número de teléfono internacional
 category: manage-your-account
+permalink: /es/help/manage-your-account/international-phone-support/
+
 order: 5
 scripts:
   - /assets/js/build/country_support.js
