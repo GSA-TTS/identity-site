@@ -26,7 +26,7 @@ collections_dir: content
 collections:
   help:
     output: true
-    # permalink: /:collection/:path/
+    permalink: /:collection/:path/
   en:
     output: true
     permalink: /:path/
@@ -63,27 +63,35 @@ kramdown:
 # Defaults
 defaults:
   - scope:
-      path: 'content/*/help'
+      path: 'content/_help/**/*._en.md'
     values:
       layout: help
   - scope:
-      path: 'content/*/landing'
+      path: 'content/_help/**/*._es.md'
     values:
-      layout: landing
+      layout: help
   - scope:
-      path: 'content/*/policy'
+      path: 'content/_help/**/*._fr.md'
     values:
-      layout: sidenav
+      layout: help
+#  - scope:
+#      path: 'content/*/landing'
+#    values:
+#      layout: landing
+#  - scope:
+#      path: 'content/*/policy'
+#    values:
+#      layout: sidenav
   - scope:
-      path: 'content/_en'
+      path: 'content/**/*/*._en.md'
     values:
       lang: en
   - scope:
-      path: 'content/_es'
+      path: 'content/**/*/*._es.md'
     values:
       lang: es
   - scope:
-      path: 'content/_fr'
+      path: 'content/**/*/*._fr.md'
     values:
       lang: fr
 
