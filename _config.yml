@@ -28,8 +28,8 @@ collections:
     output: true
     permalink: /:collection/:path/
   developers: 
-  output: true
-  permalink: /:collection/:path/
+    output: true
+    permalink: /:path/
   partners:
     output: true
     permalink: /:collection/:path/
