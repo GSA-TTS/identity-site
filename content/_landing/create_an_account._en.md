@@ -34,7 +34,6 @@ steps:
   info: Depending on the security needs of the agency, you may need to prove your
     identity using a social security number, address, and/or U.S. based
     state-issued identification.
-permalink: /create-an-account/
 one_account_banner: true
 twitter_card: large
 image: /assets/img/create-an-account/header/create-account-illo-header.png

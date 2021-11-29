@@ -84,7 +84,7 @@ defaults:
   - scope:
       path: 'content/_landing/*._es.md'
     values:
-      layout: help
+      layout: landing
   - scope:
       path: 'content/_landing/*._fr.md'
     values:

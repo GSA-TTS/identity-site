@@ -18,7 +18,7 @@
 #
 backend:
   name: git-gateway
-  branch: netlify-help-folder
+  branch: LG-5406-refactor-landing-folder
   proxy_url: http://localhost:8081/api/v1
 local_backend: true
 
@@ -100,7 +100,7 @@ collections:
     filter: { field: 'layout', value: 'landing' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'landing' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: '_landing' }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - { label: 'Class', name: 'class', widget: 'string', required: false, i18n: duplicate }
