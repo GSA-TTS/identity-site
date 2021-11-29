@@ -54,7 +54,7 @@ collections:
     filter: { field: 'layout', value: 'help' }
     sortable_fields: ['category', 'commit_date', 'title', 'commit_author']
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: '_help' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'help' }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - {
           label: 'Category',
@@ -100,7 +100,7 @@ collections:
     filter: { field: 'layout', value: 'landing' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: '_landing' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'landing' }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
       - { label: 'Description', name: 'description', widget: 'string', i18n: true }
       - { label: 'Class', name: 'class', widget: 'string', required: false, i18n: duplicate }
