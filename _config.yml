@@ -29,7 +29,10 @@ collections:
     permalink: /:collection/:path/
   partners:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:path/
+  policy: 
+    output: true
+    permalink: /:path/
   en:
     output: true
     permalink: /:path/
@@ -77,14 +80,18 @@ defaults:
       path: 'content/_help/**/*._fr.md'
     values:
       layout: help
-#  - scope:
-#      path: 'content/*/landing'
-#    values:
-#      layout: landing
-#  - scope:
-#      path: 'content/*/policy'
-#    values:
-#      layout: sidenav
+  - scope:
+      path: 'content/_policy/*._en.md'
+    values:
+      layout: sidenav
+  - scope:
+      path: 'content/_policy/*._es.md'
+    values:
+      layout: sidenav
+  - scope:
+      path: 'content/_policy/*._fr.md'
+    values:
+      layout: sidenav
   - scope:
       path: 'content/**/*/*._en.md'
     values:
