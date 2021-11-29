@@ -29,7 +29,10 @@ collections:
     permalink: /:collection/:path/
   landing:
     output: true
-    permalink: /:path
+    permalink: /:path/
+  partners:
+    output: true
+    permalink: /:path/
   en:
     output: true
     permalink: /:path/
