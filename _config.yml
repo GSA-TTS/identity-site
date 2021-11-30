@@ -27,12 +27,15 @@ collections:
   help:
     output: true
     permalink: /:collection/:path/
+  landing:
+    output: true
+    permalink: /:path/
   developers: 
     output: true
     permalink: /:path/
   partners:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:path/
   en:
     output: true
     permalink: /:path/
@@ -80,10 +83,18 @@ defaults:
       path: 'content/_help/**/*._fr.md'
     values:
       layout: help
-#  - scope:
-#      path: 'content/*/landing'
-#    values:
-#      layout: landing
+  - scope:
+      path: 'content/_landing/*._en.md'
+    values:
+      layout: landing
+  - scope:
+      path: 'content/_landing/*._es.md'
+    values:
+      layout: landing
+  - scope:
+      path: 'content/_landing/*._fr.md'
+    values:
+      layout: landing
 #  - scope:
 #      path: 'content/*/policy'
 #    values:

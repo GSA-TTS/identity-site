@@ -1,7 +1,7 @@
 ---
 title: Comment vérifier votre identité
 category: verify-your-identity
-permalink: /help/verify-your-identity/how-to-verify-your-identity/
+permalink: /fr/help/verify-your-identity/how-to-verify-your-identity/
 order: 2
 ---
 
