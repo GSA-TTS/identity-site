@@ -26,7 +26,7 @@ La plateforme Login.gov garantit la sécurité de votre compte en déployant des
 
 Certaines applications gouvernementales ayant recours à Login.gov requièrent une vérification de l'identité des utilisateurs. Ce qui revient à dire que vous devez apporter la preuve que vous êtes bien la personne que vous prétendez être. Cette vérification permet de s'assurer que seules les personnes habilitées ont accès aux informations sensibles.
 
-La vérification de votre identité ne sera requise que la première fois que vous vous connecterez à certaines applications gouvernementales. Pour votre compte Login.gov, il ne sera nécessaire de vérifier votre identité qu'une seule fois. Une fois que vous avez vérifié votre identité avec Login.gov pour une application gouvernementale, vous n'avez pas besoin de le faire à nouveau pour d'autres applications gouvernementales. En transmettant au service Login.gov les informations nécessaires à la vérification de votre compte, vous l'autorisez à exploiter ces informations pour procéder aux activités indispensables à la vérification de votre identité, y compris le partage des informations avec certains tiers, à savoir les services de vérification d'identité. Le service Login.gov exige de ces tiers qu'ils gèrent vos informations de manière confidentielle et qu'ils ne les utilisent pas à d'autres fins, comme indiqué dans notre [politique de confidentialité]({% link _fr/policy/privacy.md %}).
+La vérification de votre identité ne sera requise que la première fois que vous vous connecterez à certaines applications gouvernementales. Pour votre compte Login.gov, il ne sera nécessaire de vérifier votre identité qu'une seule fois. Une fois que vous avez vérifié votre identité avec Login.gov pour une application gouvernementale, vous n'avez pas besoin de le faire à nouveau pour d'autres applications gouvernementales. En transmettant au service Login.gov les informations nécessaires à la vérification de votre compte, vous l'autorisez à exploiter ces informations pour procéder aux activités indispensables à la vérification de votre identité, y compris le partage des informations avec certains tiers, à savoir les services de vérification d'identité. Le service Login.gov exige de ces tiers qu'ils gèrent vos informations de manière confidentielle et qu'ils ne les utilisent pas à d'autres fins, comme indiqué dans notre [politique de confidentialité]({% link _policy/privacy._fr.md %}).
 
 Le service Login.gov se conforme aux meilleures pratiques en termes de sécurité et de confidentialité.
 
@@ -44,7 +44,7 @@ Outre les détails concernant votre consentement énoncés ailleurs dans les pr�
 
 Vous vous engagez en outre à NE PAS déformer votre identité ou toute information que vous présentez dans le cadre du service Login.gov, y compris par le biais des canaux d'assistance à la clientèle.
 
-Vous consentez également à être lié par ces conditions et par la [politique de confidentialité]({% link _fr/policy/index.md %}), ainsi que par d'autres conditions en lien avec le service Login.gov.
+Vous consentez également à être lié par ces conditions et par la [politique de confidentialité]({% link _policy/index._fr.md %}), ainsi que par d'autres conditions en lien avec le service Login.gov.
 
 Nous publierons toute modification de ces conditions sur cette page. Si les modifications affectent la manière dont nous traitons vos informations personnelles ou si elles sont jugées importantes, nous vous en informerons par courrier électronique. Si nous ne pouvons pas vous joindre par courrier électronique, nous nous réservons le droit de vous contacter par d'autres moyens, notamment par courrier postal. À tout moment, si vous ne souhaitez plus vous conformer aux présentes conditions ou à toute autre condition pertinente du service Login.gov, vous pouvez fermer votre compte.
 
@@ -82,11 +82,11 @@ Par ailleurs, nous comparerons les informations que vous nous fournissez à d'au
 
 Après avoir validé les preuves d'identité que vous nous fournissez, nous vérifierons que vous êtes bien cette personne. Pour ce faire, nous vous demandons de prendre une photo de vous (un selfie) afin de pouvoir la comparer au permis de conduire ou au passeport que vous avez fourni. Pour protéger votre identité, cette photo doit être prise en direct afin que nous sachions que ce n'est pas quelqu'un d'autre qui présente une photo de vous. Il est possible que nous fassions appel à des services tiers pour nous aider à valider cette photo.
 
-Ni nous ni aucun service tiers ne conservons de copie des photos que vous nous envoyez, qu'il s'agisse d'une pièce d'identité ou de vous-même. Nous détaillons davantage la manière dont nous utilisons vos informations dans notre [politique de confidentialité]({% link _fr/policy/index.md %}).
+Ni nous ni aucun service tiers ne conservons de copie des photos que vous nous envoyez, qu'il s'agisse d'une pièce d'identité ou de vous-même. Nous détaillons davantage la manière dont nous utilisons vos informations dans notre [politique de confidentialité]({% link _policy/index._fr.md %}).
 
 ## 5. résiliation
 
-Vous pouvez fermer votre compte à tout moment à partir du profil de votre compte. En outre, en cas de fraude ou d'autres violations des présentes règles d'utilisation, nous pouvons révoquer l'accès à votre compte. Dans ce cas, nous continuerons à protéger les informations de votre compte conformément à notre [politique de confidentialité]({% link _fr/policy/index.md %}) et à notre avis sur le système d'enregistrement [ici](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) et [ici](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+Vous pouvez fermer votre compte à tout moment à partir du profil de votre compte. En outre, en cas de fraude ou d'autres violations des présentes règles d'utilisation, nous pouvons révoquer l'accès à votre compte. Dans ce cas, nous continuerons à protéger les informations de votre compte conformément à notre [politique de confidentialité]({% link _policy/index._fr.md %}) et à notre avis sur le système d'enregistrement [ici](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) et [ici](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
 Dans le cas improbable où le service Login.gov serait interrompu, les informations sur le compte seront conservées conformément à notre avis sur le système d'enregistrement, tel que modifié, auquel vous pouvez accéder [ici](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) et [ici](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
@@ -104,7 +104,7 @@ Parce qu'il s'agit d'un système d'authentification et d'une passerelle vers les
 
 ### 2. Soutien au client
 
-Le service de soutien à la clientèle et le service d'assistance sont toujours disponibles sur [https://login.gov/contact/]({% link _fr/policy/contact.md %}). Quand vous adressez une demande d'assistance à la clientèle, nous nous servons de toutes les informations que vous fournissez pour répondre à votre question ou à votre commentaire, et nous pouvons nous servir de vos commentaires pour améliorer notre service ou à d'autres fins que nous jugeons appropriées, par exemple pour le marketing. Dans ce cadre, nous ne divulguerons jamais vos informations personnelles en dehors du service Login.gov, sauf si la loi en vigueur l'exige ou si cela est indiqué ailleurs dans les présentes conditions.
+Le service de soutien à la clientèle et le service d'assistance sont toujours disponibles sur [https://login.gov/contact/]({% link _policy/contact._fr.md %}). Quand vous adressez une demande d'assistance à la clientèle, nous nous servons de toutes les informations que vous fournissez pour répondre à votre question ou à votre commentaire, et nous pouvons nous servir de vos commentaires pour améliorer notre service ou à d'autres fins que nous jugeons appropriées, par exemple pour le marketing. Dans ce cadre, nous ne divulguerons jamais vos informations personnelles en dehors du service Login.gov, sauf si la loi en vigueur l'exige ou si cela est indiqué ailleurs dans les présentes conditions.
 
 ## 8. les responsabilités de nos partenaires
 
@@ -152,4 +152,4 @@ Le fait que la GSA n'exerce pas ou n'applique pas un droit ou une disposition du
 
 ### 4. Nous contacter
 
-Si vous avez des questions concernant ces conditions ou tout autre aspect du service Login.gov, vous pouvez nous contacter à l'adresse [https://login.gov/contact/]({% link _fr/policy/contact.md %}).
+Si vous avez des questions concernant ces conditions ou tout autre aspect du service Login.gov, vous pouvez nous contacter à l'adresse [https://login.gov/contact/]({% link _policy/contact._fr.md %}).

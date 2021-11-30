@@ -16,7 +16,8 @@
 # See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 #
 #
-backend:
+
+backend: 
   name: git-gateway
   branch: release-netlify-cms
   proxy_url: http://localhost:8081/api/v1
@@ -147,33 +148,33 @@ collections:
       - { label: 'Image', name: 'image', widget: 'image', default: '/assets/img/login-gov-600x314.png', i18n: duplicate }
       - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
       - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
-#  - label: Policy pages
-#    label_singular: 'Policy page'
-#    name: policy
-#    folder: content/
-#    i18n: true
-#    create: true
-#    path: 'policy/{{slug}}'
-#    summary: '{{title}} ({{filename}}.{{extension}})'
-#    filter: { field: 'layout', value: 'sidenav' }
-#    sortable_fields: ['commit_date', 'title', 'commit_author']
-#    fields:
-#      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav' }
-#      - {
-#          label: 'Page type',
-#          name: 'sidenav',
-#          widget: 'select',
-#          default: 'policies',
-#          options: ['policies', 'accessibility', 'contact_us', about_us, 'none'],
-#          i18n: duplicate,
-#        }
-#      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
-#      - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
-#      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
-#      - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
-#      - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
-#      - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
-#      - { label: 'Order', name: 'index', widget: 'number', i18n: duplicate, required: false }
+  - label: Policy pages
+    label_singular: 'Policy page'
+    name: policy
+    folder: content/_policy
+    i18n: true
+    create: true
+    path: '_policy/{{slug}}'
+    summary: '{{title}} ({{filename}}.{{extension}})'
+    filter: { field: 'layout', value: 'sidenav' }
+    sortable_fields: ['commit_date', 'title', 'commit_author']
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav' }
+      - {
+          label: 'Page type',
+          name: 'sidenav',
+          widget: 'select',
+          default: 'policies',
+          options: ['policies', 'accessibility', 'contact_us', about_us, 'none'],
+          i18n: duplicate,
+        }
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
+      - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
+      - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
+      - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
+      - { label: 'Order', name: 'index', widget: 'number', i18n: duplicate, required: false }
 #  - label: Contact us
 #    name: contact
 #    folder: content/
