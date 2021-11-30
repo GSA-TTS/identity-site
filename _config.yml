@@ -30,6 +30,9 @@ collections:
   landing:
     output: true
     permalink: /:path/
+  developers: 
+    output: true
+    permalink: /:path/
   partners:
     output: true
     permalink: /:path/
