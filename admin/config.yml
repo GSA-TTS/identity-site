@@ -18,7 +18,7 @@
 #
 backend:
   name: git-gateway
-  branch: LG-5406-refactor-landing-folder
+  branch: release-netlify-cms
   proxy_url: http://localhost:8081/api/v1
 local_backend: true
 
