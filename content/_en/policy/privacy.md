@@ -25,7 +25,7 @@ Login.gov partners with agencies that need secure and private access to their ap
 #### What information do we need?
 
 * For authentication to establish a secure account, we need your name, email address, and an authentication method. Your authentication method could be a phone number where we share a SMS code, USB Security Key or other options.
-* Identity proofing requires more sensitive information such as a social security number, address, phone number connected to your address, and U.S. based state ID or driver’s license.
+* Identity proofing requires more sensitive information such as a social security number, address, phone number connected to your address, and U.S. based state ID or driver’s license. Your wireless operator (any branded wireless operator) may disclose your mobile number, name, address, email, network status, customer type, customer role, billing type, mobile device identifiers (IMSI and IMEI) and other subscriber status and device details, if available, to our third party service provider, solely to verify your identity for the duration of the business relationship.
 
 ### Routine Uses - With whom is the information routinely shared? ### {#routine-uses}
 
@@ -39,7 +39,7 @@ This list is not comprehensive. Please see the system of records notice for all 
 
 All records are stored electronically in a database in GSA’s Amazon Web Services (AWS) environment. You can modify, or amend, either your email address or phone number on [your account page](https://secure.login.gov/account).
 
-Your email address and phone number will be maintained for at least six years in accordance with National Archives and Records Administration (NARA) guidance. However, GSA is authorized to maintain the information for longer if it is required for business use. Login.gov must be able to provide users access to information and services at partner agencies and therefore may have a business need to retain the information longer than the six-year retention period.
+Your personal information will be maintained for at least six years following the altering of a password or deletion of your account, in accordance with National Archives and Records Administration (NARA) guidance. However, GSA is authorized to maintain the information for longer if it is required for business use. Login.gov must be able to provide users access to information and services at partner agencies and therefore may have a business need to retain the information longer than the six-year retention period.
 
 There may be circumstances where we are required to share certain data. For example: if the information is relevant and necessary for an authorized law enforcement purpose; in order to respond to a breach; or to assist another agency as it responds to a breach. For additional information, see the [system of record notice](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records) number GSA/TTS-1 that GSA’s Technology Transformation Service (TTS) published on [August 10, 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
