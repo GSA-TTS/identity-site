@@ -175,35 +175,35 @@ collections:
       - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
       - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
       - { label: 'Order', name: 'index', widget: 'number', i18n: duplicate, required: false }
-#  - label: Contact us
-#    name: contact
-#    folder: content/
-#    i18n: true
-#    path: 'policy/{{slug}}'
-#    summary: '{{title}} ({{filename}}.{{extension}})'
-#    filter: { field: 'layout', value: 'contact_us' }
-#    sortable_fields: ['commit_date', 'title', 'commit_author']
-#    fields:
-#      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav' }
-#      - {
-#          label: 'Page type',
-#          name: 'sidenav',
-#          widget: 'hidden',
-#          default: 'contact_us',
-#          i18n: duplicate,
-#        }
-#      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
-#      - { label: 'Description', name: 'description', widget: 'string', i18n: true }
-#      - { label: 'Intro', name: 'intro_content', widget: 'markdown', i18n: true }
-#      - { label: 'Footer', name: 'footer_content', widget: 'markdown', i18n: true }
-#      - {
-#          label: 'Scripts',
-#          name: 'scripts',
-#          widget: 'file',
-#          allow_multiple: true,
-#          default: '/assets/js/build/contact.js',
-#          i18n: duplicate,
-#        }
-#      - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
-#      - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
-#      - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
+  - label: Contact us
+    name: contact
+    folder: content/_policy
+    i18n: true
+    path: '_policy/{{slug}}'
+    summary: '{{title}} ({{filename}}.{{extension}})'
+    filter: { field: 'layout', value: 'contact_us' }
+    sortable_fields: ['commit_date', 'title', 'commit_author']
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav' }
+      - {
+          label: 'Page type',
+          name: 'sidenav',
+          widget: 'hidden',
+          default: 'contact_us',
+          i18n: duplicate,
+        }
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
+      - { label: 'Description', name: 'description', widget: 'string', i18n: true }
+      - { label: 'Intro', name: 'intro_content', widget: 'markdown', i18n: true }
+      - { label: 'Footer', name: 'footer_content', widget: 'markdown', i18n: true }
+      - {
+          label: 'Scripts',
+          name: 'scripts',
+          widget: 'file',
+          allow_multiple: true,
+          default: '/assets/js/build/contact.js',
+          i18n: duplicate,
+        }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
+      - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
+      - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
