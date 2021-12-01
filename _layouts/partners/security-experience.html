@@ -7,11 +7,11 @@ layout: base
   {% include partners/header.html %}
 </header>
 <main id="main-content">
-    <section class="">
-        <div class="container">
+    <section>
+        <div class="container" id="security-experience-container">
             <div class="grid-row">
                 <div class="display-flex flex-column flex-justify-center height-full tablet:grid-col-8">
-                    <div class="security-experience tablet:grid-col-6">
+                    <div id="security-experience-title" class="tablet:grid-col-6">
                         <div>{{ page.title | markdownify }}</div>
                     </div>
                     <div>{{ page.subtitle | markdownify}}</div>
@@ -26,15 +26,14 @@ layout: base
             </div>
             <div class="grid-row">
                 <div class="display-flex flex-column flex-justify-center height-full tablet:grid-col-12">
-                    <div>{{ page.considerations1_body | markdownify }}</div>
+                    <div class="security-list">{{ page.considerations1_body | markdownify }}</div>
                     <div>{{ page.control_body | markdownify }}</div>
-                    <div>{{ page.considerations2_body | markdownify }}</div>
+                    <div class="security-list">{{ page.considerations2_body | markdownify }}</div>
                     <div>{{ page.simple_body | markdownify }}</div>
-                    <div>{{ page.considerations3_body | markdownify }}</div>
+                    <div class="security-list">{{ page.considerations3_body | markdownify }}</div>
                 </div>
             </div>
         </section>
-
 </main>
 {% include partners/partners-banner.html %}
 {% include footer.html %}

@@ -1,9 +1,16 @@
-.security-experience {
-    // border-bottom: $border-style;
-    border-bottom: 1px solid $border-color;
-  }
+#security-experience-title {
+  border-bottom: 1px solid $border-color;
+}
+
+#security-experience-container {
+  padding-bottom: 4rem;
+}
 
 #security-subsection {
-  font-size: 1.875rem;
-  line-height: 1.375em;
+  font-size: 1.25rem;
+}
+
+.security-list {
+  font-size: 1rem;
+  line-height: 1.5em;;
 }
