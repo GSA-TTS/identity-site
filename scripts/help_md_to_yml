@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 ## Small script to get a yaml structured correctly
-## from current i18n _help translations
+## from current i18n help translations
 
 require 'yaml'
 

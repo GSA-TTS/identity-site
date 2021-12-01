@@ -3,7 +3,6 @@ layout: help
 title: Prise en charge des numéros de téléphone internationaux
 category: manage-your-account
 permalink: /fr/help/manage-your-account/international-phone-support/
-
 order: 5
 scripts:
   - /assets/js/build/country_support.js

@@ -2,7 +2,6 @@
 title: Eliminar su cuenta
 category: manage-your-account
 permalink: /es/help/manage-your-account/delete-your-account/
-
 order: 2
 ---
 
