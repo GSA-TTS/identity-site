@@ -35,7 +35,6 @@ redirect_from:
 Test draft 
 
 
-
 Login.gov is the public's one account and password for government. Login.gov is a shared service and trusted by government agencies. With one Login.gov account you can access applications from participating government partners.
 
 * [Create your Login.gov account](/help/get-started/create-your-account/)
