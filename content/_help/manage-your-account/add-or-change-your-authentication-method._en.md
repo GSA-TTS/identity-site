@@ -5,6 +5,8 @@ category: manage-your-account
 permalink: /help/manage-your-account/add-or-change-your-authentication-method/
 order: 7
 ---
+We now allow Fingerprint scanning on mobile. 
+
 [An authentication method](https://login.gov/help/get-started/authentication-options/) is an additional layer of security for your account. We recommend having at least two authentication methods for your account in case you lose one method.
 
 If you lost your authentication method and do not have a backup connected to your account, you will need to [delete your current login.gov account](https://login.gov/help/manage-your-account/delete-your-account/) and create a new one.
