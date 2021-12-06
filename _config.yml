@@ -75,39 +75,15 @@ kramdown:
 # Defaults
 defaults:
   - scope:
-      path: 'content/_help/**/*._en.md'
+      path: 'content/_help/**/*'
     values:
       layout: help
   - scope:
-      path: 'content/_help/**/*._es.md'
-    values:
-      layout: help
-  - scope:
-      path: 'content/_help/**/*._fr.md'
-    values:
-      layout: help
-  - scope:
-      path: 'content/_policy/*._en.md'
-    values:
-      layout: sidenav
-  - scope:
-      path: 'content/_policy/*._es.md'
-    values:
-      layout: sidenav
-  - scope:
-      path: 'content/_policy/*._fr.md'
+      path: 'content/_policy/*'
     values:
       layout: sidenav
   - scope: 
-      path: 'content/_landing/*._en.md'
-    values:
-      layout: landing
-  - scope:
-      path: 'content/_landing/*._es.md'
-    values:
-      layout: landing
-  - scope:
-      path: 'content/_landing/*._fr.md'
+      path: 'content/_landing/*'
     values:
       layout: landing
   - scope:
