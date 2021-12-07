@@ -39,15 +39,6 @@ collections:
   policy: 
     output: true
     permalink: /:path/
-  en:
-    output: true
-    permalink: /:path/
-  es:
-    output: true
-    permalink: /:collection/:path/
-  fr:
-    output: true
-    permalink: /:collection/:path/
 
 # Scripts
 scripts:
