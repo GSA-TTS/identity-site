@@ -29,7 +29,7 @@
             {% assign subpage_url = '/help/' | append: subpage_slug | append: '/' | locale_url %}
             {% assign path_split_subpage = page.path | split: subpage_url %}
             {% assign subpage_has_current = 'false' %}
-            {% assign articles = site[page.lang] | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang" | sort: 'order' %}
+            {% assign articles = site[page.collection] | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang" | sort: 'order' %}
             {% for article in articles %}
               {% if page.url == article.url %}
                 {% assign subpage_has_current = 'true' %}
