@@ -29,16 +29,16 @@ collections:
     permalink: /:collection/:path/
   landing:
     output: true
-    permalink: /:path/
+    permalink: /:collection/:path/
   developers: 
     output: true
-    permalink: /:path/
+    permalink: /:collection/:path/
   partners:
     output: true
-    permalink: /:path/
+    permalink: /:collection/:path/
   policy: 
     output: true
-    permalink: /:path/
+    permalink: /:collection/:path/
 
 # Scripts
 scripts:
