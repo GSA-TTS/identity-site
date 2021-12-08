@@ -4,6 +4,8 @@ title: "Privacy & security: Messaging terms and conditions"
 description: Learn how we use text messaging for authentication.
 permalink: /policy/messaging-terms-and-conditions/
 sidenav: policies
+redirect_from:
+    - /en/policy/messaging-terms-and-conditions/
 ---
 ## Messaging terms and conditions ## {#messaging-terms-and-conditions}
  Login.gov uses SMS text messaging to help verify your identity when you create a new account. SMS text messages, or automated voice calls, may also be used if you choose your telephone number as one of your authentication methods.

@@ -36,4 +36,6 @@ three_col:
     [See developer guide](https://developers.login.gov/){:class="why-more-info"}
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
+redirect_from:
+  - /en/
 ---

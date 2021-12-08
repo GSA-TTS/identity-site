@@ -5,6 +5,7 @@ description: 'Learn the various methods we use to protect this U.S. government s
 permalink: /policy/our-security-practices/
 sidenav: policies
 redirect_from:
+- /en/policy/our-security-practices/
 - /help/privacy-and-security/how-do-i-make-my-password-strong/
 - /help/privacy-and-security/how-does-logingov-protect-my-data/
 - /help/privacy-and-security/will-logingov-share-my-information/

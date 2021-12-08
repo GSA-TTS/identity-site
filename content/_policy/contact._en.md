@@ -46,4 +46,6 @@ footer_content: >-
 scripts:
   - /assets/js/build/contact.js
 permalink: /contact/
+redirect_from:
+  - /en/contact/
 ---
