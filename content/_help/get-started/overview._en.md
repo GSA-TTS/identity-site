@@ -6,6 +6,7 @@ permalink: /help/get-started/overview/
 meta_title: Overview
 order: 0
 redirect_from:
+  - /en/help/get-started/overview/
   - /help/creating-an-account/authentication-application/
   - /help/creating-an-account/creating-a-strong-password/
   - /help/creating-an-account/email-address-confirmation-link-is-invalid/

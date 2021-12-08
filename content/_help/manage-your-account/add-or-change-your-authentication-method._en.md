@@ -4,6 +4,8 @@ title: Add or change your authentication method
 category: manage-your-account
 permalink: /help/manage-your-account/add-or-change-your-authentication-method/
 order: 7
+redirect_from:
+    - /en/help/manage-your-account/add-or-change-your-authentication-method/
 ---
 [An authentication method](https://login.gov/help/get-started/authentication-options/) is an additional layer of security for your account. We recommend having at least two authentication methods for your account in case you lose one method.
 

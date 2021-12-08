@@ -6,6 +6,7 @@ meta_title: Overview
 permalink: /help/manage-your-account/overview/
 order: 0
 redirect_from:
+  - /en/help/manage-your-account/overview/
   - /help/changing-settings/add-or-remove-email-address/
   - /help/changing-settings/change-my-email-address/
   - /help/changing-settings/email-address-is-already-in-use/

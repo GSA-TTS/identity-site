@@ -6,6 +6,7 @@ meta_title: Overview
 permalink: /help/specific-agencies/overview/
 order: 0
 redirect_from:
+  - /en/help/specific-agencies/overview/
   - /help/specific-agencies/
   - /help/specific-agencies/usajobs/
   - /help/usajobs/gov-mil-edu-email-address/

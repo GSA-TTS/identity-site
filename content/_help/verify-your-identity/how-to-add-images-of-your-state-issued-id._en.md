@@ -4,6 +4,8 @@ title: How to add images of your state-issued ID
 category: verify-your-identity
 permalink: /help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 5
+redirect_from:
+    - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 ---
 A clear picture of your state-issued ID is required to complete the identity verification process. For best results, we recommend using a phone to automatically take a photo of the front and back of your ID. If you are verifying your identity on a computer, you will be able to switch to a phone for this part of the process.
 

@@ -5,6 +5,7 @@ category: specific-agencies
 permalink: /help/specific-agencies/trusted-traveler-programs/
 order: 1
 redirect_from:
+  - /en/help/specific-agencies/trusted-traveler-programs/
   - /help/trusted-traveler-programs/another-question/
   - /help/trusted-traveler-programs/aol-verizon/
   - /help/trusted-traveler-programs/application-status/

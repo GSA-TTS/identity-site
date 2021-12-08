@@ -5,6 +5,7 @@ category: specific-agencies
 permalink: /help/specific-agencies/sam/
 order: 2
 redirect_from:
+  - /en/help/specific-agencies/sam/
   - /help/sam/have-account-different-email/
   - /help/sam/no-longer-have-email/
   - /help/sam/relink-my-profile/

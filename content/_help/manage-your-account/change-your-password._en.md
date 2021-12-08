@@ -5,6 +5,7 @@ category: manage-your-account
 order: 1
 permalink: /help/manage-your-account/change-your-password/
 redirect_from:
+  - /en/help/manage-your-account/change-your-password/
   - /help/changing-settings/change-my-password/
   - /help/changing-settings/how-do-i-change-my-password/
 ---

@@ -4,6 +4,8 @@ title: "Relink your accounts "
 category: manage-your-account
 permalink: /help/manage-your-account/relink-your-accounts/
 order: 6
+redirect_from:
+    - /en/help/manage-your-account/relink-your-accounts/
 ---
 If you have problems signing in to a Login.gov partner website after changing your email address, then it is possible the partner linked your account to a different email address. You may want to relink your account to access your information or profile on the partner website. 
 

@@ -5,6 +5,7 @@ category: get-started
 permalink: /help/get-started/authentication-options/
 order: 2
 redirect_from:
+  - /en/help/get-started/authentication-options/
   - /help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
   - /help/security-keys/what-is-a-security-key/
   - /help/security-keys/what-is-phishing/
