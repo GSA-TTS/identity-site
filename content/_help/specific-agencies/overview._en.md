@@ -6,7 +6,6 @@ meta_title: Overview
 permalink: /help/specific-agencies/overview/
 order: 0
 redirect_from:
-  - /en/help/specific-agencies/overview/
   - /help/specific-agencies/
   - /help/specific-agencies/usajobs/
   - /help/usajobs/gov-mil-edu-email-address/
@@ -24,6 +23,8 @@ redirect_from:
   - /help/usajobs/try-not-to-use-a-gov-mil-or-edu-email-address/
   - /help/usajobs/what-email-address-should-i-use/
   - /help/usajobs/what-will-happen-to-my-usajobs-profile/
+  - /en/help/specific-agencies/overview/
+  - /en/help/specific-agencies/
 ---
 
 Login.gov is for account access and sign in only. This account does not affect or have any information related to the specific agency you are trying to access.

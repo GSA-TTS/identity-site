@@ -6,6 +6,7 @@ permalink: /help/verify-your-identity/overview/
 meta_title: Overview
 order: 0
 redirect_from:
+  - /en/help/verify-your-identity/
   - /en/help/verify-your-identity/overview/
   - /help/verify-your-identity/
   - /help/verifying-your-identity/dont-have-a-state-issued-id/

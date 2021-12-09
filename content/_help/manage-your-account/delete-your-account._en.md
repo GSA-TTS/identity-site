@@ -5,9 +5,9 @@ category: manage-your-account
 permalink: /help/manage-your-account/delete-your-account/
 order: 1
 redirect_from:
-  - /en/help/manage-your-account/delete-your-account/
   - /help/changing-settings/delete-my-account/
   - /help/changing-settings/how-do-i-delete-my-account/
+  - /en/help/manage-your-account/delete-your-account/
 ---
 
  __There might be different reasons why you need to delete an account:__

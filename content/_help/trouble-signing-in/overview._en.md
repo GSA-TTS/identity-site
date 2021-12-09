@@ -7,6 +7,7 @@ meta_title: Overview
 order: 0
 redirect_from:
   - /en/help/trouble-signing-in/overview/
+  - /en/help/trouble-signing-in/
   - /help/signing-in/
   - /help/signing-in/i-forgot-which-email-address-i-used-to-create-an-account/
   - /help/signing-in/forgot-my-email-address/

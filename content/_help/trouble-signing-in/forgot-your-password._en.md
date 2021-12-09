@@ -5,11 +5,11 @@ category: trouble-signing-in
 permalink: /help/trouble-signing-in/forgot-your-password/
 order: 2
 redirect_from:
-  - /en/help/trouble-signing-in/forgot-your-password/
   - /help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/
   - /help/signing-in/how-do-i-reset-my-password/
   - /help/signing-in/forgot-my-password/
   - /help/signing-in/my-reset-password-link-is-invalid/
+  - /en/help/trouble-signing-in/forgot-your-password/
 ---
 
 Follow these steps to reset your password.

@@ -5,9 +5,9 @@ category: manage-your-account
 permalink: /help/manage-your-account/change-your-email-address/
 order: 4
 redirect_from:
-  - /en/help/manage-your-account/change-your-email-address/
   - help/changing-settings/add-or-remove-email-address
   - help/changing-settings/change-my-email-address/
+  - /en/help/manage-your-account/change-your-email-address/
 ---
 
 Follow these steps to change the email address associated with your account.

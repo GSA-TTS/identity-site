@@ -5,9 +5,9 @@ category: trouble-signing-in
 permalink: /help/trouble-signing-in/how-to-sign-in/
 order: 1
 redirect_from:
-  - /en/help/trouble-signing-in/how-to-sign-in/
   - /help/signing-in/
   - /help/signing-in/how-to-sign-in/
+  - /en/help/trouble-signing-in/how-to-sign-in/
 ---
 
 Every time you sign in to your Login.gov account, you will need your email address, your password, and access to one of the two-factor authentication methods you set up.

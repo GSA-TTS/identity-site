@@ -5,7 +5,6 @@ category: get-started
 permalink: /help/get-started/authentication-options/
 order: 2
 redirect_from:
-  - /en/help/get-started/authentication-options/
   - /help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
   - /help/security-keys/what-is-a-security-key/
   - /help/security-keys/what-is-phishing/
@@ -17,6 +16,7 @@ redirect_from:
   - /help/security-keys/
   - /help/authentication-methods/which-authentication-method-should-i-use/
   - /help/authentication-methods/
+  - /en/help/get-started/authentication-options/
 ---
 
 In addition to your password, Login.gov requires that you set up at least one secondary authentication method to keep your account secure. This is two-factor authentication (2FA). We use 2FA as an added layer of protection to secure your information.

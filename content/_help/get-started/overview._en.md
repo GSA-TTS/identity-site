@@ -6,7 +6,6 @@ permalink: /help/get-started/overview/
 meta_title: Overview
 order: 0
 redirect_from:
-  - /en/help/get-started/overview/
   - /help/creating-an-account/authentication-application/
   - /help/creating-an-account/creating-a-strong-password/
   - /help/creating-an-account/email-address-confirmation-link-is-invalid/
@@ -32,6 +31,8 @@ redirect_from:
   - /help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/
   - /help/creating-an-account/why-is-my-confirmation-link-invalid/
   - /help/get-started/
+  - /en/help/get-started/overview/
+  - /en/help/get-started/
 ---
 Login.gov is the public's one account and password for government. Login.gov is a shared service and trusted by government agencies. With one Login.gov account you can access applications from participating government partners.
 

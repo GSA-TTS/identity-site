@@ -6,7 +6,6 @@ meta_title: Overview
 permalink: /help/manage-your-account/overview/
 order: 0
 redirect_from:
-  - /en/help/manage-your-account/overview/
   - /help/changing-settings/add-or-remove-email-address/
   - /help/changing-settings/change-my-email-address/
   - /help/changing-settings/email-address-is-already-in-use/
@@ -24,6 +23,8 @@ redirect_from:
   - /help/changing-settings/change-my-phone-number/
   - /help/changing-settings/how-do-i-change-the-phone-number-i-am-using-with-my-account/
   - /help/changing-settings/how-do-i-change-the-phone-number-i-use-to-sign-in/
+  - /en/help/manage-your-account/
+  - /en/help/manage-your-account/overview/
 ---
 
 Manage your account settings including your password, phone number, email, and more.
