@@ -29,7 +29,7 @@ Responsable ingénierie
 Julia Elman
 Responsable expérience utilisateur
 
-Michael Antiporta
+Tiffany Andrews
 Responsable produit
 
 Paul Hirsch
