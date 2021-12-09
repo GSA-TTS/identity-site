@@ -37,4 +37,6 @@ steps:
 one_account_banner: true
 twitter_card: large
 image: /assets/img/create-an-account/header/create-account-illo-header.png
+redirect_from:
+  - /en/create-an-account/
 ---

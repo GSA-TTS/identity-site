@@ -4,6 +4,8 @@ title: How to verify your identity
 category: verify-your-identity
 permalink: /help/verify-your-identity/how-to-verify-your-identity/
 order: 2
+redirect_from:
+    - /en/help/verify-your-identity/how-to-verify-your-identity/
 ---
 
 Some government applications require identity verification. This additional layer of security requires you to prove you are you - and not someone pretending to be you.

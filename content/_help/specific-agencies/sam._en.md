@@ -24,6 +24,7 @@ redirect_from:
   - /help/sam/my-logingov-account-uses-a-different-email-address/
   - /help/sam/my-sam-information-is-not-there/
   - /help/sam/reset-or-relink-my-logingov-account-for-sam/
+  - /en/help/specific-agencies/sam/
 ---
 
 Login.gov is for secure sign in only. Your Login.gov account does not affect or have any information about your System for Award Management (SAM) account, application, status, membership, or eligibility.

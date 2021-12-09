@@ -4,6 +4,8 @@ title: Accessibility
 description: Read our accessibility statement
 permalink: /accessibility/
 sidenav: accessibility
+redirect_from:
+    - /en/accessibility/
 ---
 
 ## Our commitment

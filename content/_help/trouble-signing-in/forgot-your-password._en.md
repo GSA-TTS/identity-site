@@ -9,6 +9,7 @@ redirect_from:
   - /help/signing-in/how-do-i-reset-my-password/
   - /help/signing-in/forgot-my-password/
   - /help/signing-in/my-reset-password-link-is-invalid/
+  - /en/help/trouble-signing-in/forgot-your-password/
 ---
 
 Follow these steps to reset your password.

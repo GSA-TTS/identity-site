@@ -2,6 +2,7 @@
 layout: landing
 permalink: /
 redirect_from:
+  - /en/
   - /playbook/
   - /playbook/implementation/
   - /playbook/principles/

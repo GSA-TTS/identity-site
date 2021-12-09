@@ -4,6 +4,8 @@ title: Verify your address by mail
 category: verify-your-identity
 permalink: /help/verify-your-identity/verify-your-address-by-mail/
 order: 1
+redirect_from:
+    - /en/help/verify-your-identity/verify-your-address-by-mail/
 ---
 
 Identity verification is the process where you prove you are you - and not someone pretending to be you. One step in this process requires you to have a phone number with your name on the phone plan to automatically verify your address. 

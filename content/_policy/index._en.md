@@ -5,6 +5,7 @@ description: Learn more about our security and privacy practices
 permalink: /policy/
 sidenav: policies
 redirect_from:
+  - /en/policy/
   - /docs/Logingov_PIA_August2019.pdf/
   - /docs/Privacy-Impact-Assessment 9-18.pdf/
   - /docs/privacy-impact-assessment.pdf/

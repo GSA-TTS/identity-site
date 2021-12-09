@@ -29,4 +29,6 @@ component:
     Agencies choose Login.gov because we provide a secure — and simple — solution. [Read more about our partner program](https://partners.login.gov).
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
+redirect_from:
+  - /en/who-uses-login/
 ---

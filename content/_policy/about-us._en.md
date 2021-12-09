@@ -3,6 +3,8 @@ layout: sidenav
 sidenav: about_us
 title: About us
 permalink: /about-us/
+redirect_from:
+    - /en/about-us/
 ---
 ## Our mission
 

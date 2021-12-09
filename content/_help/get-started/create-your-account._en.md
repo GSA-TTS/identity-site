@@ -4,6 +4,8 @@ category: get-started
 permalink: /help/get-started/create-your-account/
 order: 1
 title: Create your Login.gov account
+redirect_from:
+   - /en/help/get-started/create-your-account/
 ---
 
 Follow these steps to create your Login.gov account.

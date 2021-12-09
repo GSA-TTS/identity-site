@@ -4,6 +4,8 @@ title: Rules of Use
 description: Rules of use.
 permalink: /policy/rules-of-use/
 sidenav: policies
+redirect_from:
+    - /en/policy/rules-of-use/
 ---
 ## Rules of Use
 
