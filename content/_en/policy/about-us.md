@@ -8,7 +8,7 @@ permalink: /about-us/
 
 The public’s one account for government.
 
-Login.gov provides a simple, secure and private way for the public to access government websites. With one account and password, users can securely sign in to participating government websites and securely verify their identity. 
+Login.gov provides a simple, secure and private way for the public to access government websites. With one account and password, users can securely sign in to participating government websites and securely verify their identity.
 
 When it comes to logging in to government websites, agencies trust login.gov to help protect their users’ information and the public trusts login.gov to streamline their sign in process. Using login.gov eliminates the need to remember multiple passwords and usernames each time you access participating government websites.
 
@@ -30,7 +30,7 @@ Engineering Lead
 Julia Elman
 Security Experience Lead
 
-Michael Antiporta
+Tiffany Andrews
 Product Lead
 
 Paul Hirsch
