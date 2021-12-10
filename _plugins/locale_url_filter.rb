@@ -5,7 +5,7 @@ module Jekyll
       locale ||= @context.registers[:page]['lang']
       default_locale = @context.registers[:site].config["default_locale"]
       if locale == default_locale
-        return path
+        return site_base_url.to_s + path
       end
       collection = @context.registers[:page]['collection']
       permalink = @context.registers[:site].collections[collection].metadata['permalink']
