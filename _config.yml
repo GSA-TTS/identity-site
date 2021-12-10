@@ -113,6 +113,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-autoprefixer
 
+default_locale: en
+
 help_pages:
   - get-started
   - trouble-signing-in
