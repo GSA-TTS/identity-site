@@ -1,6 +1,6 @@
 ---
 layout: partners/security-experience
-permalink: /partners/security-experience
+permalink: /partners/security-experience/
 title: >- 
     # Security experience
 subtitle: >-
