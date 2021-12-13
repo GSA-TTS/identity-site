@@ -1,4 +1,4 @@
-#security-experience-title {
+#security-experience-border {
   border-bottom: 1px solid $border-color;
 }
 
@@ -12,5 +12,14 @@
 
 .security-list {
   font-size: 1rem;
-  line-height: 1.5em;;
+  line-height: 1.5em;
+}
+
+.body {
+  line-height: 1.5em;
+  // padding-bottom: 1.25rem;
+}
+
+.section {
+  padding-top: 1.25em;
 }

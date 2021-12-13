@@ -7,17 +7,17 @@ subtitle: >-
     ## Understanding our security experience principles
 subsection: >-
     Login.gov is a human-centered design product and service with a specific focus on creating an optimal security experience for the public.
-body1: >-
+body: >-
     Our team leverages the following principles to guide us to create the best security product for the public.
 
 
     We also leverage the U.S. Web Design System’s design principles to guide our work. <a target="blank" href="https://designsystem.digital.gov/design-principles/">You can read more about those on their website. <img alt="" aria-hidden="true" class="lock-image" role="img" src="{{ site.baseurl }}/assets/img/partners/external-link.svg"></a>
-job_body: >-
-    ### Security experience is everyone’s job
+job: >-
+    <h3>Security experience is everyone’s job</h3>
 
-    <b>Creating a secure, usable experience is a priority for everyone at Login.gov.</b> We are all responsible for maintaining the integrity of our products and services. We prioritize protecting the public’s data in sync with our practice of continuously improving our product. As users use Login.gov, we should ensure their security awareness is raised. We want to affect users to keep their entire digital presence secure, not just their Login.gov presence. <a target="blank" href="https://login.gov/policy/our-security-practices/">You can read more about Login.gov’s security and privacy best practices here. <img alt="" aria-hidden="true" class="lock-image" role="img" src="{{ site.baseurl }}/assets/img/partners/external-link.svg"></a>
-considerations1_body: >-
-    ### Key considerations
+    <b>Creating a secure, usable experience is a priority for everyone at Login.gov.</b> We are all responsible for maintaining the integrity of our products and services. We prioritize protecting the public’s data in sync with our practice of continuously improving our product. As users use Login.gov, we should ensure their security awareness is raised. We want to affect users to keep their entire digital presence secure, not just their Login.gov presence. <a target="blank" href="https://login.gov/policy/our-security-practices/">You can read more about Login.gov’s security and privacy best practices here.</a><img alt="" aria-hidden="true" class="lock-image" role="img" src="{{ site.baseurl }}/assets/img/partners/external-link.svg">
+considerations1: >-
+    #### Key considerations
 
     * Will a change to the visual design or content of our product impact the users’ understanding of the security of the product?
 
@@ -32,24 +32,24 @@ considerations1_body: >-
     * Does this change share new data not previously shared? Or share that data with a new audience?
 
     * Will error states or displayed messages reveal too much information and create a security risk?
-control_body: >-
+control: >-
     ### The public controls their data, not us.
     
     <b>Users are in control of their data. We prioritize user privacy and do not profit from sharing user data.</b> Personally Identifiable Information (PII) is only shared as needed and all sensitive data is encrypted. Our encryption methods are like putting data in a safety deposit box and only users have the key. Users have the ability to share or hide sensitive information, give or revoke consent to share that data or delete that data at any time.
-considerations2_body: >-
-    ### Key considerations
+considerations2: >-
+    #### Key considerations
 
     * Are users aware of what data they are sharing, who they are sharing it with and how it is used?
 
     * Is language around consent for sharing their data written in <a target="blank" href="https://www.plainlanguage.gov/">plain language <img alt="" aria-hidden="true" class="lock-image" role="img" src="{{ site.baseurl }}/assets/img/partners/external-link.svg"></a> and <a target="blank" href="https://login.gov/accessibility/">accessible <img alt="" aria-hidden="true" class="lock-image" role="img" src="{{ site.baseurl }}/assets/img/partners/external-link.svg"></a>?
 
     * Does the public understand that they have the right to revoke consent of the sharing of their data?
-simple_body: >-
+simple: >-
     ### Simple, secure login for everyone.
 
     <b>Using our product is simple and secure.</b> Whether users interact with our product once or multiple times a day, their experience with Login.gov will be seamless. Design and content facilitates ease of use and allows users to focus on the task they are trying to complete with our partner agencies.
-considerations3_body: >-
-    ### Key considerations
+considerations3: >-
+    #### Key considerations
 
     * Is our design and content helping or hindering users from completing the task at hand?
 
