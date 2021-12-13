@@ -13,9 +13,9 @@ body: >-
 
     We also leverage the U.S. Web Design System’s design principles to guide our work. <a target="blank" href="https://designsystem.digital.gov/design-principles/">You can read more about those on their website. <img alt="" aria-hidden="true" class="lock-image" role="img" src="{{ site.baseurl }}/assets/img/partners/external-link.svg"></a>
 job: >-
-    <h3>Security experience is everyone’s job</h3>
+    ### Security experience is everyone’s job
 
-    <b>Creating a secure, usable experience is a priority for everyone at Login.gov.</b> We are all responsible for maintaining the integrity of our products and services. We prioritize protecting the public’s data in sync with our practice of continuously improving our product. As users use Login.gov, we should ensure their security awareness is raised. We want to affect users to keep their entire digital presence secure, not just their Login.gov presence. <a target="blank" href="https://login.gov/policy/our-security-practices/">You can read more about Login.gov’s security and privacy best practices here.</a><img alt="" aria-hidden="true" class="lock-image" role="img" src="{{ site.baseurl }}/assets/img/partners/external-link.svg">
+    **Creating a secure, usable experience is a priority for everyone at Login.gov.** We are all responsible for maintaining the integrity of our products and services. We prioritize protecting the public’s data in sync with our practice of continuously improving our product. As users use Login.gov, we should ensure their security awareness is raised. We want to affect users to keep their entire digital presence secure, not just their Login.gov presence. <a target="blank" href="https://login.gov/policy/our-security-practices/">You can read more about Login.gov’s security and privacy best practices here.</a><img alt="" aria-hidden="true" class="lock-image" role="img" src="{{ site.baseurl }}/assets/img/partners/external-link.svg">
 considerations1: >-
     #### Key considerations
 
@@ -35,7 +35,7 @@ considerations1: >-
 control: >-
     ### The public controls their data, not us.
     
-    <b>Users are in control of their data. We prioritize user privacy and do not profit from sharing user data.</b> Personally Identifiable Information (PII) is only shared as needed and all sensitive data is encrypted. Our encryption methods are like putting data in a safety deposit box and only users have the key. Users have the ability to share or hide sensitive information, give or revoke consent to share that data or delete that data at any time.
+    **Users are in control of their data. We prioritize user privacy and do not profit from sharing user data.** Personally Identifiable Information (PII) is only shared as needed and all sensitive data is encrypted. Our encryption methods are like putting data in a safety deposit box and only users have the key. Users have the ability to share or hide sensitive information, give or revoke consent to share that data or delete that data at any time.
 considerations2: >-
     #### Key considerations
 
@@ -47,7 +47,7 @@ considerations2: >-
 simple: >-
     ### Simple, secure login for everyone.
 
-    <b>Using our product is simple and secure.</b> Whether users interact with our product once or multiple times a day, their experience with Login.gov will be seamless. Design and content facilitates ease of use and allows users to focus on the task they are trying to complete with our partner agencies.
+    **Using our product is simple and secure.** Whether users interact with our product once or multiple times a day, their experience with Login.gov will be seamless. Design and content facilitates ease of use and allows users to focus on the task they are trying to complete with our partner agencies.
 considerations3: >-
     #### Key considerations
 
