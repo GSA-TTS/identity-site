@@ -17,9 +17,13 @@
 
 .body {
   line-height: 1.5em;
-  // padding-bottom: 1.25rem;
 }
 
 .section {
   padding-top: 1.25em;
+}
+
+.external-link {
+  background: url(../../../assets/img/partners/external-link.svg) no-repeat center right;
+  padding-right: 10px;
 }

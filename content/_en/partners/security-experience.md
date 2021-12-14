@@ -11,11 +11,11 @@ body: >-
     Our team leverages the following principles to guide us to create the best security product for the public.
 
 
-    We also leverage the U.S. Web Design System’s design principles to guide our work. <a target="blank" href="https://designsystem.digital.gov/design-principles/">You can read more about those on their website. <img alt="" aria-hidden="true" class="lock-image" role="img" src="/assets/img/partners/external-link.svg"></a>
+    We also leverage the U.S. Web Design System’s design principles to guide our work. <a class="external-link" target="blank" href="https://designsystem.digital.gov/design-principles/">You can read more about those on their website.</a>
 job: >-
     ### Security experience is everyone’s job
 
-    **Creating a secure, usable experience is a priority for everyone at Login.gov.** We are all responsible for maintaining the integrity of our products and services. We prioritize protecting the public’s data in sync with our practice of continuously improving our product. As users use Login.gov, we should ensure their security awareness is raised. We want to affect users to keep their entire digital presence secure, not just their Login.gov presence. <a target="blank" href="https://login.gov/policy/our-security-practices/">You can read more about Login.gov’s security and privacy best practices here.</a><img alt="" aria-hidden="true" class="lock-image" role="img" src="/assets/img/partners/external-link.svg">
+    **Creating a secure, usable experience is a priority for everyone at Login.gov.** We are all responsible for maintaining the integrity of our products and services. We prioritize protecting the public’s data in sync with our practice of continuously improving our product. As users use Login.gov, we should ensure their security awareness is raised. We want to affect users to keep their entire digital presence secure, not just their Login.gov presence. <a class="external-link" target="blank" href="https://login.gov/policy/our-security-practices/">You can read more about Login.gov’s security and privacy best practices here.</a>
 considerations1: >-
     #### Key considerations
 
@@ -41,7 +41,7 @@ considerations2: >-
 
     * Are users aware of what data they are sharing, who they are sharing it with and how it is used?
 
-    * Is language around consent for sharing their data written in <a target="blank" href="https://www.plainlanguage.gov/">plain language <img alt="" aria-hidden="true" class="lock-image" role="img" src="/assets/img/partners/external-link.svg"></a> and <a target="blank" href="https://login.gov/accessibility/">accessible <img alt="" aria-hidden="true" class="lock-image" role="img" src="/assets/img/partners/external-link.svg"></a>?
+    * Is language around consent for sharing their data written in <a class="external-link" target="blank" href="https://www.plainlanguage.gov/">plain language</a> and <a class="external-link" target="blank" href="https://login.gov/accessibility/">accessible</a>?
 
     * Does the public understand that they have the right to revoke consent of the sharing of their data?
 simple: >-
