@@ -30,5 +30,13 @@ three_col:
   col3: >-
     Comprehensive, multilingual support for your end-users Monday-Friday, 8 a.m.-8 p.m. ET.
 
-    [Learn about user support ](https://developers.login.gov/partners){:class="partners-multilingual"}
+    [Learn about user support](https://developers.login.gov/partners){:class="partners-multilingual"}
+right_for_you:
+  heading: Is Login.gov Right for you?
+  items:
+    - text: You are part of a federal agency or a state/local government
+    - text: You want to securely authenticate users to your application(s) and/or verify their identity
+    - text: You want to protect your users’ accounts with strong multi-factor authentication (MFA)
+    - text: Your application(s) can integrate with the SAML or OpenID Connect (OIDC) web-based identity protocols
+    - text: You are looking for a highly secure (FedRAMP Moderate) and standards compliant (NIST 800-63) identity solution
 ---
