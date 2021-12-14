@@ -6,7 +6,7 @@ description: Join the millions of people who trust Login.gov for safe, secure
 class: create-an-account
 steps:
   intro: "When you’re ready to create your secure Login.gov account, you’ll need
-    to provide a few pieces of information:"
+    to provide a few pieces of information: run"
   step1: >-
     ## 1. Email address 
 
