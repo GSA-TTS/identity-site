@@ -3,7 +3,7 @@
 backend:
   name: github
   repo: 18f/identity-site
-  branch: main
+  branch: release-netlify-cms
   base_url: https://federalistapp.18f.gov
   auth_endpoint: external/auth/github
   preview_context: federalist/build
@@ -48,7 +48,7 @@ collections:
     folder: content/_help/
     i18n: true
     create: true
-    path: '_help/{{category}}/{{slug}}'
+    path: '{{category}}/{{slug}}'
     summary: '{{title}} ({{category}}/{{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'help' }
     sortable_fields: ['category', 'commit_date', 'title', 'commit_author']
@@ -94,7 +94,7 @@ collections:
     folder: content/_landing
     i18n: true
     create: true
-    path: '_landing/{{slug}}'
+    path: '{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'landing' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
@@ -152,7 +152,7 @@ collections:
     folder: content/_policy
     i18n: true
     create: true
-    path: '_policy/{{slug}}'
+    path: '{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'sidenav' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
@@ -177,7 +177,7 @@ collections:
     name: contact
     folder: content/_policy
     i18n: true
-    path: '_policy/{{slug}}'
+    path: '{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'contact_us' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
