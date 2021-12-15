@@ -10,20 +10,19 @@ layout: base
     <section>
         <div class="container" id="security-experience-container">
             <div class="grid-row">
-                <div class="body display-flex flex-column flex-justify-center height-full tablet:grid-col-8">
-                    <div>{{ page.title | markdownify }}</div>
-                    <div class="tablet:grid-col-5" id="security-experience-border"></div>
+                <div class="body tablet:grid-col-8">
+                    <div id="security-experience-title">{{ page.title | markdownify }}</div>
+                    <div id="security-experience-border"></div>
                     <div>{{ page.subtitle | markdownify}}</div>
                     <div id="security-subsection">{{ page.subsection | markdownify }}</div>
-                    <div>{{ page.body | markdownify }}</div>
-                    <div class="section">{{ page.job | markdownify }}</div>
-                </div>
-                <div class="tablet:grid-col-4">
-                    <img alt="" aria-hidden="true" class="lock-image" role="img" src="{{ site.baseurl }}/assets/img/partners/security-experience.svg">
+                    <div class="tablet:grid-col-9">
+                        <div>{{ page.body | markdownify }}</div>
+                        <div class="section">{{ page.job | markdownify }}</div>
+                    </div>
                 </div>
             </div>
             <div class="grid-row">
-                <div class="body display-flex flex-column flex-justify-center height-full tablet:grid-col-12">
+                <div class="body tablet:grid-col-12">
                     <div class="security-list">{{ page.considerations1 | markdownify }}</div>
                     <div class="section">{{ page.control | markdownify }}</div>
                     <div class="security-list">{{ page.considerations2 | markdownify }}</div>

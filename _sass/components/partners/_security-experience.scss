@@ -1,9 +1,18 @@
+#security-experience-title {
+  font-size: 1.25em;
+}
+
 #security-experience-border {
   border-bottom: 1px solid $border-color;
 }
 
 #security-experience-container {
   padding-bottom: 4rem;
+  padding-top: 2rem;
+  @include at-media("desktop") {
+    background: url(../img/partners/security-experience.svg) no-repeat top 8% right 8%;
+    background-size: 35%;
+  }
 }
 
 #security-subsection {
