@@ -38,7 +38,7 @@ Director de infraestructura
 Mossedeq Zia
 Director de seguridad
 
-## Acerca de login.gov
+## Acerca de Login.gov
 
 Login.gov fue un proyecto de innovación de la Administración de Servicios Generales 18F en asociación con el Servicio Digital de los Estados Unidos (USDS). Este servicio compartido, que se hizo posible gracias a una subvención del Grupo de Identidades de Confianza (Estrategia Nacional para Identidades de Confianza en el Ciberespacio), es el resultado de la colaboración entre agencias que buscaban desarrollar formas seguras y fáciles de usar para que el público accediera a los sitios web del gobierno. ([Fuente](https://fcw.com/articles/2017/01/19/login-dot-gov-mazmanian.aspx))
 
