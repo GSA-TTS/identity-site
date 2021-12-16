@@ -26,14 +26,17 @@ collections_dir: content
 collections:
   help:
     output: true
-    # permalink: /:collection/:path/
-  en:
-    output: true
-    permalink: /:path/
-  es:
+    permalink: /:collection/:path/
+  landing:
     output: true
     permalink: /:collection/:path/
-  fr:
+  developers: 
+    output: true
+    permalink: /:collection/:path/
+  partners:
+    output: true
+    permalink: /:collection/:path/
+  policy: 
     output: true
     permalink: /:collection/:path/
 
@@ -63,27 +66,27 @@ kramdown:
 # Defaults
 defaults:
   - scope:
-      path: 'content/*/help'
+      path: 'content/_help/**/*'
     values:
       layout: help
   - scope:
-      path: 'content/*/landing'
+      path: 'content/_policy/*'
+    values:
+      layout: sidenav
+  - scope: 
+      path: 'content/_landing/*'
     values:
       layout: landing
   - scope:
-      path: 'content/*/policy'
-    values:
-      layout: sidenav
-  - scope:
-      path: 'content/_en'
+      path: 'content/**/*/*._en.md'
     values:
       lang: en
   - scope:
-      path: 'content/_es'
+      path: 'content/**/*/*._es.md'
     values:
       lang: es
   - scope:
-      path: 'content/_fr'
+      path: 'content/**/*/*._fr.md'
     values:
       lang: fr
 
@@ -109,6 +112,8 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-autoprefixer
+
+default_locale: en
 
 help_pages:
   - get-started
