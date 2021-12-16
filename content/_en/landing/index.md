@@ -13,6 +13,7 @@ class: why-login-gov
 three_col:
   heading: Login.gov is for you
   subheading1: Individuals
+  col_class1: individuals
   col1: >-
     Use one account for secure, private access to participating government
     agencies.
@@ -20,6 +21,7 @@ three_col:
 
     [Learn about Login.gov](https://login.gov/what-is-login/){:class="why-more-info"}
   subheading2: Agency partners
+  col_class2: partners
   col2: >-
     Protect your users’ information with the highest standards of digital
     security and user experience. Login.gov handles software development,
@@ -28,6 +30,7 @@ three_col:
 
     [Become a partner](https://partners.login.gov/){:class="why-more-info"}
   subheading3: Agency developers
+  col_class3: developers
   col3: >-
     Developer resources, real-time support and modern tools to help you
     implement and deploy your application with Login.gov
