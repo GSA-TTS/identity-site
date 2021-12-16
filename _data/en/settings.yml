@@ -164,7 +164,7 @@ nav:
         url: '#our-vision'
       - name: Team
         url: '#team'
-      - name: About login.gov
+      - name: About Login.gov
         url: '#about-logingov'
   accessibility:
     title: Accessibility statement
