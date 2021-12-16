@@ -14,7 +14,7 @@ end
 
 RSpec.describe Jekyll::LocaleUrlFilter do
   let(:config) { {} }
-  let(:page_data) { { 'lang' => 'en' } }
+  let(:page_data) { { 'lang' => 'en', 'collection' => 'landing' } }
   let(:instance) { JekyllFilter.new(config, page_data) }
 
   describe '#locale_url' do
@@ -26,6 +26,7 @@ RSpec.describe Jekyll::LocaleUrlFilter do
       let(:config) do
         {
           'collections' => {
+            'landing' => { 'permalink' => '/:path/' },
             'en' => { 'permalink' => '/:path/' },
             'es' => { 'permalink' => '/:path/' },
           },
@@ -71,6 +72,7 @@ RSpec.describe Jekyll::LocaleUrlFilter do
       let(:config) do
         {
           'collections' => {
+            'landing' => { 'permalink' => '/:collection/:path/' },
             'en' => { 'permalink' => '/:collection/:path/' },
             'es' => { 'permalink' => '/:collection/:path/' },
           },
@@ -118,6 +120,7 @@ RSpec.describe Jekyll::LocaleUrlFilter do
           {
             'baseurl' => 'https://example.com',
             'collections' => {
+              'landing' => { 'permalink' => '/:path/' },
               'en' => { 'permalink' => '/:path/' },
               'es' => { 'permalink' => '/:path/' },
             },
@@ -164,6 +167,7 @@ RSpec.describe Jekyll::LocaleUrlFilter do
           {
             'baseurl' => 'https://example.com',
             'collections' => {
+              'landing' => { 'permalink' => '/:collection/:path/' },
               'en' => { 'permalink' => '/:collection/:path/' },
               'es' => { 'permalink' => '/:collection/:path/' },
             },
@@ -210,7 +214,7 @@ RSpec.describe Jekyll::LocaleUrlFilter do
   describe '#delocalize_url' do
     let(:path) { '' }
     let(:locale) { nil }
-    let(:page_data) { { 'lang' => 'es' } }
+    let(:page_data) { { 'lang' => 'es', 'collection' => 'landing' }  }
     subject(:delocalized_url) { instance.delocalize_url(path, locale) }
 
     context 'path not including locale' do

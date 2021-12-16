@@ -9,7 +9,6 @@ backend:
   preview_context: federalist/build
   use_graphql: true
 #
-#
 # Uncomment when doing local development on Netlify CMS
 # Run `npx netlify-cms-proxy-server` to start working locally
 # In another terminal, start the app with `make build && make run`
@@ -18,7 +17,7 @@ backend:
 #
 # backend:
 #   name: git-gateway
-#   branch: jd-LG-4589-create-an-account-page
+#   branch: release-netlify-cms
 #   proxy_url: http://localhost:8081/api/v1
 # local_backend: true
 
@@ -28,7 +27,7 @@ publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 i18n:
-  structure: multiple_folders
+  structure: multiple_files
 
   # Required - a list of locales to show in the editor UI
   locales: [_en, _es, _fr]
@@ -46,10 +45,10 @@ collections:
   - label: Help articles
     label_singular: 'Help article'
     name: help
-    folder: content/
+    folder: content/_help/
     i18n: true
     create: true
-    path: 'help/{{category}}/{{slug}}'
+    path: '{{category}}/{{slug}}'
     summary: '{{title}} ({{category}}/{{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'help' }
     sortable_fields: ['category', 'commit_date', 'title', 'commit_author']
@@ -92,10 +91,10 @@ collections:
   - label: Landing pages
     label_singular: 'Landing page'
     name: page
-    folder: content/
+    folder: content/_landing
     i18n: true
     create: true
-    path: 'landing/{{slug}}'
+    path: '{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'landing' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
@@ -150,10 +149,10 @@ collections:
   - label: Policy pages
     label_singular: 'Policy page'
     name: policy
-    folder: content/
+    folder: content/_policy
     i18n: true
     create: true
-    path: 'policy/{{slug}}'
+    path: '{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'sidenav' }
     sortable_fields: ['commit_date', 'title', 'commit_author']
@@ -176,9 +175,9 @@ collections:
       - { label: 'Order', name: 'index', widget: 'number', i18n: duplicate, required: false }
   - label: Contact us
     name: contact
-    folder: content/
+    folder: content/_policy
     i18n: true
-    path: 'policy/{{slug}}'
+    path: '{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
     filter: { field: 'layout', value: 'contact_us' }
     sortable_fields: ['commit_date', 'title', 'commit_author']

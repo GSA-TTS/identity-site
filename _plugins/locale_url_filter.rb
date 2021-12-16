@@ -3,7 +3,12 @@ module Jekyll
     def locale_url(path = '', locale = nil)
       site_base_url = @context.registers[:site].baseurl
       locale ||= @context.registers[:page]['lang']
-      permalink = @context.registers[:site].collections[locale].metadata['permalink']
+      default_locale = @context.registers[:site].config["default_locale"]
+      if locale == default_locale
+        return site_base_url.to_s + path
+      end
+      collection = @context.registers[:page]['collection']
+      permalink = @context.registers[:site].collections[collection].metadata['permalink']
       site_base_url.to_s + Jekyll::URL.new(
         template: permalink,
         placeholders: { collection: locale, path: path },
