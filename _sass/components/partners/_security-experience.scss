@@ -1,11 +1,3 @@
-#security-experience-title {
-  font-size: 1.25em;
-}
-
-#security-experience-border {
-  border-bottom: 1px solid $border-color;
-}
-
 #security-experience-container {
   padding-bottom: 4rem;
   padding-top: 2rem;
@@ -15,24 +7,11 @@
   }
 }
 
-#security-subsection {
-  font-size: 1.25rem;
-}
-
 .security-list {
   font-size: 1rem;
   line-height: 1.5em;
 }
 
-.body {
-  line-height: 1.5em;
-}
-
 .section {
   padding-top: 1.25em;
-}
-
-.external-link {
-  background: url(../img/partners/external-link.svg) no-repeat center right;
-  padding-right: 10px;
 }

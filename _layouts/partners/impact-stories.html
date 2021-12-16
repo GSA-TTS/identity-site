@@ -8,31 +8,31 @@ layout: base
 </header>
 <main id="main-content">
     <section>
-        <div class="container">
+        <div class="container partners-container">
             <div class="grid-row">
-                <div class="body">{{ page.title | markdownify }}</div>
-                <div id="security-experience-border" class="body tablet:grid-col-12"></div>
-                <div class="body tablet:grid-col-12">
+                <div class="partners-body partners-title">{{ page.title | markdownify }}</div>
+                <div class="partners-body tablet:grid-col-12 partners-border"></div>
+                <div class="partners-body tablet:grid-col-12">
                     <div>{{ page.subtitle | markdownify}}</div>
-                    <div>{{ page.body | markdownify}}</div>
+                    <div class="partners-subtitle partners-body">{{ page.body | markdownify}}</div>
                 </div>
             </div>
-        <div class="grid-row">
+        <div class="grid-row partners-section">
             <div class="tablet:grid-col-2">
                 <img src="{{ site.baseurl }}/assets/img/partners/sba_logo.svg">
             </div>
             <div class="tablet:grid-col-10">
-                <a href="" ><b>Small Business Administration (SBA)</b></a>
-                <div>{{ page.sba_body }}</div>
+                <a href="" ><b>Small Business Administration (SBA)</b></a><img src="{{ site.baseurl }}/assets/img/partners/caret.svg">
+                <div class="partners-body">{{ page.sba_body }}</div>
             </div>
         </div>
-        <div class="grid-row">
+        <div class="grid-row partners-section">
             <div class="tablet:grid-col-2">
                 <img src="{{ site.baseurl }}/assets/img/partners/rrb_logo.svg">
             </div>
             <div class="tablet:grid-col-10">
-                <a href="" ><b>Railroad Retirement Board (RRB)</b></a>
-                <div>{{ page.rrb_body }}</div>
+                <a href="" ><b>Railroad Retirement Board (RRB)</b></a><img src="{{ site.baseurl }}/assets/img/partners/caret.svg">
+                <div class="partners-body">{{ page.rrb_body }}</div>
             </div>
         </div>
         </section>

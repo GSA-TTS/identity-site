@@ -1,0 +1,32 @@
+// Shared styles that are unique to the Partner site redesign
+
+.partners-container {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+.partners-title {
+    font-size: 1.25em;
+}
+
+.partners-border {
+    border-bottom: 1px solid $border-color;
+}
+
+.partners-body {
+    line-height: 1.5em;
+}
+
+.external-link {
+    background: url(../img/partners/external-link.svg) no-repeat center right;
+    padding-right: 10px;
+}
+
+.partners-subtitle {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+}
+
+.partners-section {
+    padding-top: 1.25em;
+}
