@@ -51,3 +51,46 @@
     }
   }
 }
+
+.container.partners {
+  @include usa-link-style;
+  text-align: left;
+  padding-bottom: 4rem;
+  padding-top: 1.5rem;
+
+  .hdr {
+    padding: 0.75rem 0 0.75rem 2.75rem;
+    &.authentication {
+      background: url(../img/partners/partners-authentication.svg) -0.2rem
+      center no-repeat;
+    }
+
+    &.identity {
+      background: url(../img/partners/partners-identity.svg) -0.2rem center
+      no-repeat;
+    }
+
+    &.multilingual {
+      background: url(../img/partners/partners-multilingual.svg) -0.2rem
+      center no-repeat;
+    }
+  }
+
+  .tablet\:grid-col + .tablet\:grid-col {
+    margin-left: 2rem;
+  }
+}
+
+@include at-media-max("desktop") {
+  .container.partners {
+    .tablet\:grid-col {
+      + .tablet\:grid-col {
+        margin-left: 0;
+      }
+
+      > h4 {
+        margin-top: 2rem;
+      }
+    }
+  }
+}
