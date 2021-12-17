@@ -11,8 +11,4 @@ sba_body: >-
     U.S. Small Business Administration (SBA) partnered with GSA’s Federal Acquisition Service Technology Transformation Services (TTS) to centralize their identity management platform.
 rrb_body: >-
     The U.S. Railroad Retirement Board (RRB) partnered with GSA’s Federal Acquisition Strategy’s Technology Transformation Services (TTS) to leverage the latest innovations in digital security to protect their customers.
-sba_link: >-
-    <a href="{{ '/partners/sba-impact-story/' | locale_url }}" class="text-middle partners-subtitle caret"><b>Small Business Administration (SBA)</b></a>
-rrb_link: >-
-    <a href="{{ '/partners/rrb-impact-story/' | locale_url }}" class="text-middle partners-subtitle caret" ><b>Railroad Retirement Board (RRB)</b></a>
 ---

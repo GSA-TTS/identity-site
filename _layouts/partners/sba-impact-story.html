@@ -1,0 +1,28 @@
+---
+layout: base
+---
+<header>
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include partners/header.html %}
+</header>
+<main id="main-content">
+    <section>
+        <div class="container partners-container">
+            <div class="grid-row">
+                <div class="tablet:grid-col-12 partners-body">
+                    <div class="partners-title">{{ page.title | markdownify }}</div>
+                    <div class="partners-border"></div>
+                    <div>{{ page.subtitle | markdownify }}</div>
+                    <div class="partners-subtitle">{{ page.body | markdownify }}</div>
+                    <div class="partners-subtitle padding-top-2">{{ page.challenge | markdownify }}</div>
+                    <div class="partners-subtitle padding-top-2">{{ page.solution | markdownify }}</div>
+                    <div class="partners-subtitle padding-top-2">{{ page.impact | markdownify }}</div>
+                    <div class="partners-subtitle padding-top-2">{{ page.key_shifts | markdownify }}</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% include partners/partners-banner.html %}
+{% include footer.html %}
