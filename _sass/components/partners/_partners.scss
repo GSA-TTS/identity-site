@@ -27,6 +27,21 @@
     line-height: 1.5em;
 }
 
-.partners-section {
-    padding-top: 1.25em;
+.caret {
+    background: url(../img/partners/caret.svg) no-repeat center right;
+    padding-right: 15px;
 }
+
+#security-experience-container {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    @include at-media("desktop") {
+      background: url(../img/partners/security-experience.svg) no-repeat top 11% right 7%;
+      background-size: 35%;
+    }
+  }
+  
+  .security-list {
+    font-size: 1rem;
+    line-height: 1.5em;
+  }
