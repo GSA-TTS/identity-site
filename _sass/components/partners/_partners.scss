@@ -1,0 +1,49 @@
+// Shared styles that are unique to the Partner site redesign
+
+.partners-container {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+.partners-title {
+    font-size: 1.25em;
+}
+
+.partners-border {
+    border-bottom: 1px solid $border-color;
+}
+
+.partners-body {
+    line-height: 1.5em;
+}
+
+.external-link {
+    background: url(../img/partners/external-link.svg) no-repeat center right;
+    padding-right: 10px;
+    color:  #0071BB;
+}
+
+.partners-subtitle {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+}
+
+.caret {
+    background: url(../img/partners/caret.svg) no-repeat center right;
+    padding-right: 15px;
+    color:  #0071BB;
+}
+
+#security-experience-container {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    @include at-media("desktop") {
+      background: url(../img/partners/security-experience.svg) no-repeat top 11% right 7%;
+      background-size: 35%;
+    }
+  }
+  
+  .security-list {
+    font-size: 1rem;
+    line-height: 1.5em;
+  }
