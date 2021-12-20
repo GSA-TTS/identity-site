@@ -18,24 +18,53 @@ layout: base
                 </div>
             </div>
             <div class="grid-row padding-top-2">
-                <div class="tablet:grid-col-6 tablet:grid-offset-6 partners-body">
-                    {{ page.authentication_vs_authorization | markdownify }}
+                <div class="tablet:grid-col-6">
+                    <img src="{{ site.baseurl }}/assets/img/partners/mfa.svg">
+                </div>
+                <div class="tablet:grid-col-6 partners-body">
+                    {{ page.self_identity_auth | markdownify }}
                 </div>
             </div>
             <div class="grid-row padding-top-2">
-                <div class="tablet:grid-col-12 partners-body">
-                    {{ page.ial1_ial2 | markdownify }}
+                <div class="tablet:grid-col-6">
+                    <img src="{{ site.baseurl }}/assets/img/partners/ial2.svg">
                 </div>
-                <div class="tablet:grid-col-12 padding-top-2">
-                    <img src="{{ site.baseurl }}/assets/img/partners/ial1-vs-ial2.svg">
+                <div class="tablet:grid-col-6 partners-body">
+                    {{ page.verified_identity_auth | markdownify }}
+                </div>
+            </div>
+            <div class="grid-row padding-top-2">
+                <div class="tablet:grid-col-12">
+                    {{ page.benefits | markdownify }}
+                </div>
+                <div class="tablet:grid-col-6">
+                    <div>{{ page.benefit1 }}</div>
+                    <div>{{ page.benefit2 }}</div>
+                </div>
+                <div class="tablet:grid-col-6">
+                    <div>{{ page.benefit3 }}</div>
+                    <div>{{ page.benefit4 }}</div>
+                </div>
+            </div>
+            <div class="grid-row">
+                <div class="tablet:grid-col-12">
+                    {{ page.resources }}
                 </div>
             </div>
             <div class="grid-row padding-top-2">
                 <div class="tablet:grid-col-6">
                     <img src="{{ site.baseurl }}/assets/img/partners/customer-support.svg">
                 </div>
-                <div class="tablet:grid-col-6 partners-body padding-left-3">
+                <div class="tablet:grid-col-6 partners-body">
                     {{ page.multilingual_support | markdownify }}
+                </div>
+            </div>
+            <div class="grid-row padding-top-2">
+                <div class="tablet:grid-col-6">
+                    <img src="{{ site.baseurl }}/assets/img/partners/tech.svg">
+                </div>
+                <div class="tablet:grid-col-6 partners-body">
+                    {{ page.technical_support | markdownify }}
                 </div>
             </div>
         </div>

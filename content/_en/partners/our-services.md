@@ -45,11 +45,13 @@ technical_support: >-
 benefits: >-
     ## Benefits of partnering with Login.gov
 benefit1: >-
-    Identity services are compliant with <a target="_blank" href="https://pages.nist.gov/800-63-3/" class="external-link">NIST SP 800-63<a/>
+    Identity services are compliant with <a target="_blank" href="https://pages.nist.gov/800-63-3/" class="external-link">NIST SP 800-63</a>
 benefit2: >-
-    Secure two-factor authentication (2FA) backed by a <a target="_blank" href="https://www.fedramp.gov/" class="external-link">FedRAMP Moderate ATO
+    Secure two-factor authentication (2FA) backed by a <a target="_blank" href="https://www.fedramp.gov/" class="external-link">FedRAMP Moderate ATO</a>
 benefit3: >-
     Enhanced fraud detection and monitoring
 benefit4: >-
     Transform your customer experience and reduce costs while providing a modern, frictionless, and compliant foundation to build digital government services 
+resources: >-
+    Resources included with our services
 ---
