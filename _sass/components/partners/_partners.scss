@@ -26,8 +26,14 @@
     color:  #0071BB;
 }
 
+.thumbs-up {
+    padding-left: 10%;
+    background: url(../img/partners/thumbs-up.svg) no-repeat top 12px left;
+}
+
 .partners-subtitle {
     line-height: 1.5em;
+    font-size: 1.125em;
 }
 
 .caret {
@@ -38,19 +44,12 @@
 
 #security-experience-container {
     @include at-media("desktop") {
-      background: url(../img/partners/security-experience.svg) no-repeat top 11% right 7%;
-      background-size: 35%;
-    }
-  }
-
-#our-services-container {
-    @include at-media("desktop") {
-        background: url(../img/partners/authorization-vs-authentication.svg) no-repeat top 15% left 7%;
+        background: url(../img/partners/security-experience.svg) no-repeat top 11% right 7%;
         background-size: 35%;
-      }
+    }
 }
   
-  .security-list {
+.security-list {
     font-size: 1rem;
     line-height: 1.5em;
-  }
+}

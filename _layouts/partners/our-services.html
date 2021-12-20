@@ -8,7 +8,7 @@ layout: base
 </header>
 <main id="main-content">
     <section>
-        <div class="container partners-container" id="our-services-container">
+        <div class="container partners-container">
             <div class="grid-row">
                 <div class="partners-body partners-title">{{ page.title | markdownify }}</div>
                 <div class="tablet:grid-col-12 partners-border"></div>
@@ -19,7 +19,7 @@ layout: base
             </div>
             <div class="grid-row padding-top-2">
                 <div class="tablet:grid-col-6">
-                    <img src="{{ site.baseurl }}/assets/img/partners/mfa.svg">
+                    <img class="padding-top-7" src="{{ site.baseurl }}/assets/img/partners/mfa.svg">
                 </div>
                 <div class="tablet:grid-col-6 partners-body">
                     {{ page.self_identity_auth | markdownify }}
@@ -27,31 +27,37 @@ layout: base
             </div>
             <div class="grid-row padding-top-2">
                 <div class="tablet:grid-col-6">
-                    <img src="{{ site.baseurl }}/assets/img/partners/ial2.svg">
+                    <img class="padding-top-7" src="{{ site.baseurl }}/assets/img/partners/ial2.svg">
                 </div>
                 <div class="tablet:grid-col-6 partners-body">
                     {{ page.verified_identity_auth | markdownify }}
                 </div>
             </div>
-            <div class="grid-row padding-top-2">
+        </div>
+        <div class="padding-top-2 bg-primary-lightest">
+            <div class="container">
                 <div class="tablet:grid-col-12">
                     {{ page.benefits | markdownify }}
                 </div>
-                <div class="tablet:grid-col-6">
-                    <div>{{ page.benefit1 }}</div>
-                    <div>{{ page.benefit2 }}</div>
+                <div class="grid-row">
+                    <div class="tablet:grid-col-5 partners-body">
+                        <div class="thumbs-up padding-top-1 padding-bottom-1">{{ page.benefit1 | markdownify }}</div>
+                        <div class="thumbs-up padding-top-1 padding-bottom-1">{{ page.benefit2 | markdownify }}</div>
+                    </div>
+                    <div class="tablet:grid-col-5 partners-body tablet:grid-offset-1">
+                        <div class="thumbs-up padding-top-1 padding-bottom-1">{{ page.benefit3 | markdownify }}</div>
+                        <div class="thumbs-up padding-top-1 padding-bottom-1">{{ page.benefit4 | markdownify }}</div>
+                    </div>
                 </div>
-                <div class="tablet:grid-col-6">
-                    <div>{{ page.benefit3 }}</div>
-                    <div>{{ page.benefit4 }}</div>
+            </div>
+        </div>
+        <div class="container partners-container">
+            <div class="grid-row">
+                <div class="tablet:grid-col-12">
+                    {{ page.resources | markdownify }}
                 </div>
             </div>
             <div class="grid-row">
-                <div class="tablet:grid-col-12">
-                    {{ page.resources }}
-                </div>
-            </div>
-            <div class="grid-row padding-top-2">
                 <div class="tablet:grid-col-6">
                     <img src="{{ site.baseurl }}/assets/img/partners/customer-support.svg">
                 </div>

@@ -53,5 +53,5 @@ benefit3: >-
 benefit4: >-
     Transform your customer experience and reduce costs while providing a modern, frictionless, and compliant foundation to build digital government services 
 resources: >-
-    Resources included with our services
+    ## Resources included with our services
 ---
