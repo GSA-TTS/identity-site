@@ -107,7 +107,7 @@ El servicio de Login.gov funciona con un alto nivel de servicio, tanto en la pre
 
 ### 1. Disponibilidad y tiempo de funcionamiento
 
-Como sistema de autenticación y puerta de entrada a las aplicaciones federales, nos esforzamos por lograr una alta disponibilidad y tiempo de actividad. Nuestro objetivo es mantener un tiempo de actividad del servicio del 99.9% en todos los sitios y sistemas. Consulte nuestra [página de estado](https://logingov.statuspage.io/) para ver las estadísticas en vivo, los informes de incidencias y suscribirse a las actualizaciones.
+Como sistema de autenticación y puerta de entrada a las aplicaciones federales, nos esforzamos por lograr una alta disponibilidad y tiempo de actividad. Nuestro objetivo es mantener un tiempo de actividad del servicio del 99.9% en todos los sitios y sistemas. Consulte nuestra [página de estado](https://status.login.gov/) para ver las estadísticas en vivo, los informes de incidencias y suscribirse a las actualizaciones.
 
 ### 2. Asistencia al cliente
 

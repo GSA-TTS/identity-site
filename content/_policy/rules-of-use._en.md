@@ -104,7 +104,7 @@ The Login.gov service operates with a high standard of service, both in service 
 
 ### 1. Availability and Uptime
 
-As an authentication system and gateway to federal applications, we strive for high availability and uptime. Our goal is to maintain a service uptime of 99.9% across all sites and systems. See our [status page](https://logingov.statuspage.io/) for live statistics, incident reports, and subscribe to updates.
+As an authentication system and gateway to federal applications, we strive for high availability and uptime. Our goal is to maintain a service uptime of 99.9% across all sites and systems. See our [status page](https://status.login.gov/) for live statistics, incident reports, and subscribe to updates.
 
 ### 2. Customer Support
 
