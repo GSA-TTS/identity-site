@@ -41,7 +41,7 @@ technical_support: >-
     Login.gov provides technical support for successful deployment of your integration. Our integration engineers can answer technical questions about our product, provide guidance on best practices for implementation, and facilitate the launch of your integration to production in weeks, not months.
 
 
-    We also have a dedicated Slack channel for questions in real time. Additionally, we provide all partners with our step-by-step developer documents at <a target="_blank" href="https://developers.login.gov/" class="external-link">developers.login.gov.</a> 
+    We also have a dedicated Slack channel for questions in real time. Additionally, we provide all partners with our step-by-step developer documents at <a target="_blank" href="https://developers.login.gov/" class="external-link">developers.login.gov</a> 
 benefits: >-
     ## Benefits of partnering with Login.gov
 benefit1: >-
