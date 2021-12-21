@@ -2,7 +2,7 @@
 layout: partners/impact-stories
 permalink: /partners/impact-stories/
 title: >-
-    # Impact stories
+    Impact stories
 subtitle: >-
     ## For government, by government
 body: >-

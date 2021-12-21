@@ -2,7 +2,7 @@
 layout: partners/our-services
 permalink: /partners/our-services/
 title: >- 
-    # Our services
+    Our services
 subtitle: >-
     ## Understanding our service levels
 subsection: >-
