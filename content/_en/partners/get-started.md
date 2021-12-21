@@ -20,7 +20,7 @@ iaa_tips: >-
     * Secure a federal Authority To Operate (ATO)
 
     * Have approved funding access based on the cost estimator
-      
+
     * Ensure your technical team has capacity for integration or plan to hire a team
 
 
@@ -38,7 +38,7 @@ partnership_steps_body2: >-
 partnership_steps_header3: >-
     Establish an Interagency Agreement (IAA)
 partnership_steps_body3: >-
-    Login.gov is a cost-recoverable federal service, which means we must, by law, charge other agencies for our work. Our partnership and financial engagement will be governed by an Interagency Agreement (IAA). An IAA is a contract between government agencies. For Login.gov, these are contracts we have with other agencies that let them use Login.gov as partners/clients. An IAA may take at least six to eight weeks to complete, which can occur in parallel with the technical integration of your application. <a target="_blank" href="" class="caret">Learn more about the IAA process</a>
+    Login.gov is a cost-recoverable federal service, which means we must, by law, charge other agencies for our work. Our partnership and financial engagement will be governed by an Interagency Agreement (IAA). An IAA is a contract between government agencies. For Login.gov, these are contracts we have with other agencies that let them use Login.gov as partners/clients. An IAA may take at least six to eight weeks to complete, which can occur in parallel with the technical integration of your application. <a target="_blank" href="" class="caret">Learn more about the IAA process below</a>
 partnership_steps_header4: >-
     Launch integration
 partnership_steps_body4: >-
