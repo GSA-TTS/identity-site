@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<header>
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include partners/header.html %}
+</header>
+<main id="main-content">
+    <section>
+        <div class="container partners-container">
+            <div class="grid-row">
+                <div class="partners-body partners-title">{{ page.title | markdownify }}</div>
+                <div class="tablet:grid-col-12 partners-border"></div>
+            </div>
+        </div>
+    </section>
+</main>
+{% include partners/partners-banner.html %}
+{% include footer.html %}
