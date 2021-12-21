@@ -1,25 +1,32 @@
 ---
-layout: partners/our-services
-permalink: /partners/our-services/
+layout: partners/get-started
+permalink: /partners/get-started/
 title: >- 
-    # Our services
+    # Get started
 body: >-
     Below are the steps to becoming a partner with Login.gov and an overview of the Interagency Agreement (IAA) process. During the process, we provide a free sandbox environment to create test integrations between Login.gov and your applications. Anybody with an email address ending in .gov or .mil can create an account in the sandbox environment. If you are a government contractor, ask your agency partner to help you gain access. 
-ssq_quote: >-
+ssa_quote: >-
     “The SSA UXG team appreciates the willingness of the Login.gov team to listen to our goals, concerns, and questions, then work with us to identify a path forward that will benefit the customers (end users) of SSA and other federal agencies. The team’s flexibility and willingness to hear our suggestions is very much appreciated. We enjoy brainstorming together and sharing research findings as we try to help each other move forward.”
 
+
     Elizabeth Hanst
+
     Technology Lead User Experience Specialist
+
     Social Security Administration
 iaa_tips: >-
     Tips for completing the IAA process:
 
     * Secure a federal Authority To Operate (ATO)
-    * Have approved funding access based on the cost estimator  
+
+    * Have approved funding access based on the cost estimator
+      
     * Ensure your technical team has capacity for integration or plan to hire a team
 
 
     The above suggestions may help keep your agency on track for creating the IAA and receiving proper approvals within the anticipated six to eight week timeline, and launching your integration with Login.gov. 
+partnership_steps_title: >-
+    ## Steps to partnership
 partnership_steps_header1: >-
     Introductions and determine compatibility
 partnership_steps_body1: >-
@@ -36,6 +43,8 @@ partnership_steps_header4: >-
     Launch integration
 partnership_steps_body4: >-
      Once testing is complete and the IAA has been executed, Login.gov will launch your integration within two weeks.
+iaa_steps_title: >-
+    ## Interagency Agreement (IAA) process
 iaa_steps_header1: >-
     IAA request form
 iaa_steps_body1: >-
@@ -52,3 +61,4 @@ iaa_steps_header4: >-
     GSA approval
 iaa_steps_body4: >-
     GSA approves and finalizes the IAA and returns to partner agency.
+---
