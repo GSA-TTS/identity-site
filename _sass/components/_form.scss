@@ -42,20 +42,6 @@
   max-width: units($theme-input-max-width);
 }
 
-.usa-button--big {
-  width: 100%;
-
-  @include at-media("desktop") {
-    min-width: 13.75rem;
-    width: auto;
-
-    + .usa-button--big {
-      margin-bottom: 0;
-      margin-left: units(2);
-    }
-  }
-}
-
 .form-actions {
   @include at-media("desktop") {
     @include u-margin-y(8);

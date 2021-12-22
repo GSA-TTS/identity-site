@@ -39,8 +39,6 @@
 }
 
 .usa-logo__help {
-  // TODO: Remove this once we assign `$theme-font-sans` design system variable to Public Sans.
-  font-family: $sans-serif-font-family;
   font-size: 0.8125rem;
   font-weight: bold;
   color: $navy;
@@ -63,8 +61,6 @@
 }
 
 .sign-in-logo.usa-button {
-  // TODO: Remove this once we assign `$theme-font-sans` design system variable to Public Sans.
-  font-family: $sans-serif-font-family;
   color: $black;
   font-weight: bold;
   margin: 0;
@@ -126,7 +122,6 @@
   background-image: none;
   padding: 0 0.7rem;
   width: auto;
-  font-family: $sans-serif-font-family;
   font-size: ($base-font-size - 2);
 }
 
@@ -141,11 +136,6 @@
 }
 
 @include at-media-max("desktop") {
-  .usa-nav, .usa-nav__primary {
-    // TODO: Remove font-family once we assign `$theme-font-sans` design system variable to Public Sans.
-    font-family: $sans-serif-font-family;
-  }
-
   .usa-nav__primary {
     margin-left: -1rem;
     margin-right: -1rem;
@@ -186,8 +176,6 @@
   }
 
   .usa-nav__link span {
-    // TODO: Remove font-family once we assign `$theme-font-sans` design system variable to Public Sans.
-    font-family: $sans-serif-font-family;
     text-transform: none;
     display: inline-block;
     padding: 0 0 1rem 0;
@@ -207,35 +195,6 @@
   }
 }
 
-.temp-wip {
-  padding: 2rem;
-  text-align: center;
-  background-color: $red;
-  color: $white;
-
-  a {
-    color: $white;
-  }
-}
-
-.anchor-to-top {
-  @include u-display("inline-block");
-  @include u-margin-top(4);
-  font-size: $base-font-sm;
-  text-decoration: none;
-}
-
-.usa-sidenav {
-  // TODO: Reconcile / backport to Login Design System.
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
-
-  .usa-current {
-    background-color: transparent;
-  }
-}
-
 .usa-nav__primary .usa-nav__submenu-item .usa-current {
   @include at-media-max("desktop") {
     background-color: transparent;
@@ -247,7 +206,9 @@
   }
 }
 
-.usa-sidenav__sublist .usa-sidenav__item {
-  // TODO: Reconcile / backport to Login Design System.
-  border-top: 0;
+.anchor-to-top {
+  @include u-display("inline-block");
+  @include u-margin-top(4);
+  font-size: $base-font-sm;
+  text-decoration: none;
 }
