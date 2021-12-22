@@ -7,5 +7,112 @@ layout: base
   {% include partners/header.html %}
 </header>
 <main id="main-content">
-    <p>This is working.  Maybe.</p>
+    <section>
+        <div class="container partners-container">
+            <div class="grid-row">
+                <div class="tablet:grid-col-9">
+                    <div class="partners-body partners-title">{{ page.title | markdownify }}</div>
+                    <div class="partners-border"></div>
+
+
+                    <div>{{ page.general_section_title | markdownify}}</div>
+                    <div class="usa-accordion usa-accordion--bordered">
+                        {% for item in page.general_accordion %}
+                            <h4 class="usa-accordion__heading">
+                                <button
+                                class="usa-accordion__button"
+                                aria-expanded="false"
+                                aria-controls={{ item.id }}
+                                >
+                                {{ item.title }}
+                                </button>
+                            </h4>
+                            <div id={{ item.id }} class="usa-accordion__content usa-prose">
+                            {{ item.content | markdownify}}
+                            </div>
+                        {% endfor %}
+                    </div>
+
+                    <div>{{ page.logistics_section_title | markdownify}}</div>
+                    <div class="usa-accordion usa-accordion--bordered">
+                        {% for item in page.logistics_accordion %}
+                            <h4 class="usa-accordion__heading">
+                                <button
+                                class="usa-accordion__button"
+                                aria-expanded="false"
+                                aria-controls={{ item.id }}
+                                >
+                                {{ item.title }}
+                                </button>
+                            </h4>
+                            <div id={{ item.id }} class="usa-accordion__content usa-prose">
+                            {{ item.content | markdownify}}
+                            </div>
+                        {% endfor %}
+                    </div>
+
+                    <div>{{ page.development_section_title | markdownify}}</div>
+                    <div class="usa-accordion usa-accordion--bordered">
+                        {% for item in page.development_accordion %}
+                            <h4 class="usa-accordion__heading">
+                                <button
+                                class="usa-accordion__button"
+                                aria-expanded="false"
+                                aria-controls={{ item.id }}
+                                >
+                                {{ item.title }}
+                                </button>
+                            </h4>
+                            <div id={{ item.id }} class="usa-accordion__content usa-prose">
+                            {{ item.content | markdownify}}
+                            </div>
+                        {% endfor %}
+                    </div>
+
+
+                </div>
+                <div class="tablet:grid-col-3">
+                    <section aria-label="Default search component">
+                        <form class="usa-search" role="search">
+                          <label class="usa-sr-only" for="search-field-search-field"> Search </label>
+                          <input
+                            class="usa-input"
+                            id="search-field-search-field"
+                            type="search"
+                            name="search"
+                          />
+                          <button class="usa-button" type="submit">
+                            <span class="usa-search__submit-text">Search</span>
+                          </button>
+                        </form>
+                    </section>
+                    <section>
+                        <nav class="margin-left-5 margin-top-5" aria-label="Secondary navigation,">
+                            <ul class="usa-sidenav">
+                              <li class="usa-sidenav__item">
+                                <a href="javascript:void(0);" class="usa-current">FAQs</a>
+                                <ul class="usa-sidenav__sublist">
+                                    <li class="usa-sidenav__item">
+                                      <a href="javascript:void(0);">General</a>
+                                    </li>
+                                    <li class="usa-sidenav__item">
+                                      <a href="javascript:void(0);">Logistics</a>
+                                    </li>
+                                    <li class="usa-sidenav__item">
+                                      <a href="javascript:void(0);">Development</a>
+                                    </li>
+                                  </ul>
+                              </li>
+                              <li class="usa-sidenav__item">
+                                <a href="javascript:void(0);">Contact Us</a>
+                              </li>
+                            </ul>
+                          </nav>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
+{% include partners/partners-banner.html %}
+{% include footer.html %}
