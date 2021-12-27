@@ -70,44 +70,32 @@ layout: base
 
                 </div>
                 <div class="tablet:grid-col-3">
-                    <section aria-label="Default search component">
-                        <form class="usa-search" role="search">
-                          <label class="usa-sr-only" for="search-field-search-field"> Search </label>
-                          <input
-                            class="usa-input"
-                            id="search-field-search-field"
-                            type="search"
-                            name="search"
-                          />
-                          <button class="usa-button" type="submit">
-                            <span class="usa-search__submit-text">Search</span>
-                          </button>
-                        </form>
-                    </section>
-                    <section>
-                        <nav class="margin-left-5 margin-top-5" aria-label="Secondary navigation,">
-                            <ul class="usa-sidenav">
-                              <li class="usa-sidenav__item">
-                                <a href="#main-content" class="usa-current">FAQs</a>
-                                <ul class="usa-sidenav__sublist">
-                                    <li class="usa-sidenav__item">
-                                      <a href="#general-section">General</a>
-                                    </li>
-                                    <li class="usa-sidenav__item">
-                                      <a href="#logistics-section">Logistics</a>
-                                    </li>
-                                    <li class="usa-sidenav__item">
-                                      <a href="#development-section">Development</a>
-                                    </li>
-                                  </ul>
-                              </li>
-                              <li class="usa-sidenav__item">
-                                <a href="javascript:void(0);">Contact Us</a>
-                              </li>
-                            </ul>
-                          </nav>
-                    </section>
+                  {% include search.html size="small" id="header-nav" %}
+                  <section>
+                      <nav class="margin-left-5 margin-top-5" aria-label="Secondary navigation,">
+                          <ul class="usa-sidenav">
+                            <li class="usa-sidenav__item">
+                              <a href="#main-content" class="usa-current">FAQs</a>
+                              <ul class="usa-sidenav__sublist">
+                                  <li class="usa-sidenav__item">
+                                    <a href="#general-section">General</a>
+                                  </li>
+                                  <li class="usa-sidenav__item">
+                                    <a href="#logistics-section">Logistics</a>
+                                  </li>
+                                  <li class="usa-sidenav__item">
+                                    <a href="#development-section">Development</a>
+                                  </li>
+                                </ul>
+                            </li>
+                            <li class="usa-sidenav__item">
+                              <a href="javascript:void(0);">Contact Us</a>
+                            </li>
+                          </ul>
+                        </nav>
+                  </section>
                 </div>
+                <a href="#main-content" class="usa-current margin-top-5">Back to Top</a>
             </div>
         </div>
     </section>
