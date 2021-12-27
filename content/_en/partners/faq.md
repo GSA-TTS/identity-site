@@ -36,7 +36,9 @@ general_accordion:
 
             - One account to access all their websites and applications - eliminating the need to remember multiple passwords and usernames
 
-            - A secure and private authentication experience An intuitive and well designed user experience
+            - A secure and private authentication experience
+
+            - An intuitive and well designed user experience
 
             - Simple account management Online help center and robust customer support team
     -
@@ -58,12 +60,12 @@ general_accordion:
         id: a-5
         title: Does Login.gov partner with state and local governments?
         content: >-
-            Yes, Login.gov partners with state and local governments. State and local governments need simple and secure solutions to help the public access federally funded services and resources. With this partnership, those agencies can leverage Login.gov to create a seamless and secure sign in experience for the public to access these resources. Learn more about the path to partnership.
+            Yes, Login.gov partners with state and local governments. State and local governments need simple and secure solutions to help the public access federally funded services and resources. With this partnership, those agencies can leverage Login.gov to create a seamless and secure sign in experience for the public to access these resources. <a target="_blank" href="https://www.login.gov/partners/state-and-local" class="external-link">Learn more about the path to partnership</a>.
     -
         id: a-6
         title: How do we partner with Login.gov?
         content: >-
-            To get started, reach out to our team using this form   . We’ll work with you to understand and capture your needs and requirements at a high level. Together, we’ll decide whether Login.gov makes sense for your particular business and use cases. If we decide to move forward, the next step is to sign an Interagency Agreement (IAA). This signals a mutual commitment which allows us to commit further resources to technical discovery and integration and migration planning.
+            <a target="_blank" href="https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e" class="external-link">To get started, reach out to our team using this form</a>. We’ll work with you to understand and capture your needs and requirements at a high level. Together, we’ll decide whether Login.gov makes sense for your particular business and use cases. If we decide to move forward, the next step is to sign an Interagency Agreement (IAA). This signals a mutual commitment which allows us to commit further resources to technical discovery and integration and migration planning.
 logistics_accordion:
     -
         id: b-1
@@ -106,7 +108,7 @@ logistics_accordion:
         id: b-8
         title: Can Login.gov authenticate or proof non-U.S. citizens or non-U.S. immigrants (not a U.S. citizen, U.S. national, lawful permanent resident, or traveling to the United States on an immigrant visa)?
         content: >-
-            Click here for a complete list of international phone numbers that Login.gov supports for authenticating end-users   . In addition to a phone number, at this time Login.gov requires users to proof with a state-issued ID card and social security number.
+            <a target="_blank" href="https://login.gov/help/manage-your-account/international-phone-support/" class="external-link">Click here for a complete list of international phone numbers that Login.gov supports for authenticating end-users <a/>. In addition to a phone number, at this time Login.gov requires users to proof with a state-issued ID card and social security number.
     -
         id: b-9
         title: What forms of identification can Login.gov accept for identity proofing?
@@ -118,7 +120,7 @@ logistics_accordion:
             - A non-driver’s license state-issued ID card
                 – This is an identity document issued by the state/US territory that asserts identity but does not give driving privileges.
 
-            Users cannot verify their identity on Login.gov without a state-issued ID. We’re currently working to add more ways to verify identity. Learn more about the requirements for verifying identity
+            Users cannot verify their identity on Login.gov without a state-issued ID. We’re currently working to add more ways to verify identity. <a target="_blank" href="https://login.gov/help/verify-your-identity/how-to-verify-your-identity/" class="external-link">Learn more about the requirements for verifying identity</a>
     -
         id: b-10
         title: How is Login.gov going to improve proofing coverage?
@@ -129,7 +131,7 @@ development_accordion:
         id: c-1
         title: Can we have a sandbox?
         content: >-
-            Login.gov provides an open sandbox environment to create and test integrations between Login.gov and your applications. In the sandbox environment, we provide a Dashboard where you can manage your test applications. Click here to get started with our sandbox
+            Login.gov provides an open sandbox environment to create and test integrations between Login.gov and your applications. In the sandbox environment, we provide a Dashboard where you can manage your test applications. <a target="_blank" href="https://developers.login.gov/testing/#how-to-get-started" class="external-link">Click here to get started with our sandbox</a>
     -
         id: c-2
         title: What counts as an authentication?
@@ -139,29 +141,32 @@ development_accordion:
         id: c-3
         title: How do we get our application to production?
         content: >-
-            See our production deployment page here   . We deploy changes to our production configuration weekly on Thursdays between 11am – 2pm EST. 
+            <a target="_blank" href="https://developers.login.gov/production/" class="external-link">See our production deployment page here</a>. We deploy changes to our production configuration weekly on Thursdays between 11am – 2pm EST. 
     -
         id: c-4
         title: What do you support-SAML vs. OAuth vs. OpenID?
         content: >-
             SAML vs. OAuth vs. OpenID
 
-            - We do not support the OpenID Connect “implicit flow” with client_secret because it is not recommended by the OAuth group    for security reasons. We do support OpenID Connect private_key_jwt and PKCE
+            - We do not support the OpenID Connect “implicit flow” with client_secret because it is <a target="_blank" href="https://oauth.net/2/grant-types/implicit/" class="external-link">not recommended by the OAuth group</a> for security reasons. We do support OpenID Connect private_key_jwt and PKCE
+
 
             For more info see:
-            - https://developers.login.gov/saml/
 
-            - https://developers.login.gov/oidc/
+            - <a target="_blank" href="https://developers.login.gov/saml/" class="external-link">https://developers.login.gov/saml/</a>
+
+            - <a target="_blank" href="https://developers.login.gov/oidc/" class="external-link">https://developers.login.gov/oidc/</a>
     -
         id: c-5
         title: Do we need an approved IAA before we can launch our integration with Login.gov?
         content: >-
-            In order to launch your integration with Login.gov, your agency must first complete an IAA. You can test your application during the IAA process.  Once testing is complete and the IAA has been executed, Login.gov will launch your integration within two weeks. Learn more about an IAA here
+            In order to launch your integration with Login.gov, your agency must first complete an IAA. You can test your application during the IAA process.  Once testing is complete and the IAA has been executed, Login.gov will launch your integration within two weeks. <a target="_blank" href="https://developers.login.gov/oidc/" class="external-link">Learn more about an IAA here</a>
     -
         id: c-6
         title: Do you integrate with Commercial Off-The-Shelf (COTS) solutions?
         content: >-
             Login.gov supports any platform that uses either the SAML or OpenID Connect (OIDC) protocol. Some COTS solutions that have been integrated with Login.gov include:
+            
             - Okta
 
             - Ping Identity

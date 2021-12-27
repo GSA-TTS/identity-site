@@ -14,8 +14,7 @@ layout: base
                     <div class="partners-body partners-title">{{ page.title | markdownify }}</div>
                     <div class="partners-border"></div>
 
-
-                    <div>{{ page.general_section_title | markdownify}}</div>
+                    <div id="general-section">{{ page.general_section_title | markdownify}}</div>
                     <div class="usa-accordion usa-accordion--bordered">
                         {% for item in page.general_accordion %}
                             <h4 class="usa-accordion__heading">
@@ -33,7 +32,7 @@ layout: base
                         {% endfor %}
                     </div>
 
-                    <div>{{ page.logistics_section_title | markdownify}}</div>
+                    <div id="logistics-section">{{ page.logistics_section_title | markdownify}}</div>
                     <div class="usa-accordion usa-accordion--bordered">
                         {% for item in page.logistics_accordion %}
                             <h4 class="usa-accordion__heading">
@@ -51,7 +50,7 @@ layout: base
                         {% endfor %}
                     </div>
 
-                    <div>{{ page.development_section_title | markdownify}}</div>
+                    <div id="development-section">{{ page.development_section_title | markdownify}}</div>
                     <div class="usa-accordion usa-accordion--bordered">
                         {% for item in page.development_accordion %}
                             <h4 class="usa-accordion__heading">
@@ -68,7 +67,6 @@ layout: base
                             </div>
                         {% endfor %}
                     </div>
-
 
                 </div>
                 <div class="tablet:grid-col-3">
@@ -90,16 +88,16 @@ layout: base
                         <nav class="margin-left-5 margin-top-5" aria-label="Secondary navigation,">
                             <ul class="usa-sidenav">
                               <li class="usa-sidenav__item">
-                                <a href="javascript:void(0);" class="usa-current">FAQs</a>
+                                <a href="#main-content" class="usa-current">FAQs</a>
                                 <ul class="usa-sidenav__sublist">
                                     <li class="usa-sidenav__item">
-                                      <a href="javascript:void(0);">General</a>
+                                      <a href="#general-section">General</a>
                                     </li>
                                     <li class="usa-sidenav__item">
-                                      <a href="javascript:void(0);">Logistics</a>
+                                      <a href="#logistics-section">Logistics</a>
                                     </li>
                                     <li class="usa-sidenav__item">
-                                      <a href="javascript:void(0);">Development</a>
+                                      <a href="#development-section">Development</a>
                                     </li>
                                   </ul>
                               </li>
