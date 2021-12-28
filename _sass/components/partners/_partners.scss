@@ -97,3 +97,13 @@
     background-color: #0071BB !important;
     border-color: #0071BB !important;
 }
+
+.usa-accordion__heading h4{
+    font-family: $monospace-font-family;
+    font-size: $base-font-size;
+}
+
+.usa-accordion__content h4 p{
+    font-family: $monospace-font-family;
+    font-size: $base-font-size;
+}
