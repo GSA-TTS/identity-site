@@ -6,7 +6,7 @@
 }
 
 .partners-title {
-    font-size: 1.25em;
+    font-size: 2.5em;
 }
 
 .partners-border {
@@ -76,4 +76,9 @@
 .usa-process-list__item::before {
     background-color: #0071BB !important;
     border-color: #0071BB !important;
+}
+
+.partners-current {
+    color: #112e51;
+    box-shadow: #112e51 !important;
 }
