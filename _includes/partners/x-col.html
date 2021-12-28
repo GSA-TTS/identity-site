@@ -1,0 +1,20 @@
+<article class="container {{ include.class }}">
+  <header class="intro"><h2>{{ include.heading }}</h2></header>
+  <div class='grid-container'>
+    <div class="grid-row grid-gap-lg">
+      {% for item in include.items %}
+        <div class="item tablet:grid-col">
+          <img
+            alt=""
+            aria-hidden="true"
+            class="{{ item.class }}"
+            role="img"
+            src="{{ site.baseurl }}/assets/img/{{ item.image }}"
+          />
+          {{ item.text | markdownify }}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  {{ include.link | markdownify}}
+</article>

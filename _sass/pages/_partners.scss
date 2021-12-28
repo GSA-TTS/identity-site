@@ -81,6 +81,35 @@
   }
 }
 
+.container.nist-fedramp {
+  padding-top: 1.5rem;
+  padding-bottom: 4rem;
+  text-align: left;
+  .grid-container {
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+  }
+  .item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 1rem 0;
+    span {
+      display: block;
+      font-weight: bold;
+    }
+    p {
+      margin: 0;
+      width: 100%;
+    }
+    img {
+      max-height: 74px;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
 @include at-media-max("desktop") {
   .container.partners {
     .tablet\:grid-col {
