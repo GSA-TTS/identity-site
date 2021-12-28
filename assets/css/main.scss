@@ -1,43 +1,12 @@
 ---
 ---
 
+$theme-process-list-counter-text-color: "white";
+$theme-process-list-connector-color: "gray-10";
+
 @charset "UTF-8";
 
 @import "identity-style-guide/dist/assets/scss/styles";
-
-// START: TODO: Remove and reconcile with USWDS upgrade (LG-3763)
-$theme-identifier-font-family: "ui";
-$theme-identifier-background-color: "primary-darker";
-$theme-identifier-identity-domain-color: "primary-light";
-$theme-identifier-max-width: "desktop";
-$theme-identifier-secondary-link-color: "primary-light";
-$theme-link-reverse-color: "primary-light";
-@mixin set-link-from-bg($bg-color, $preferred-link-color: "white") {
-  color: color($preferred-link-color);
-  &:visited {
-    color: color($preferred-link-color);
-  }
-  &:hover,
-  &:active {
-    color: color($preferred-link-color);
-  }
-}
-@mixin set-text-from-bg($bg-color, $preferred-text-color: "white") {
-  color: color($preferred-text-color);
-  &:visited {
-    color: color($preferred-text-color);
-  }
-  &:hover,
-  &:active {
-    color: color($preferred-text-color);
-  }
-}
-@mixin set-text-and-bg($bg-color) {
-  @include set-text-from-bg($bg-color);
-  background-color: color($bg-color);
-}
-@import "uswds/dist/scss/components/identifier";
-// END: TODO: Remove and reconcile with USWDS upgrade (LG-3763)
 
 @import "fonts";
 @import "colors";

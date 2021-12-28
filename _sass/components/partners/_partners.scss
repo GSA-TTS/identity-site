@@ -33,7 +33,7 @@
 
 .partners-subtitle {
     line-height: 1.5em;
-    font-size: 1.125em;
+    font-size: 1.25em;
 }
 
 .caret {
@@ -52,4 +52,28 @@
 .security-list {
     font-size: 1rem;
     line-height: 1.5em;
+}
+
+.partners-blue-box {
+    border-radius: 25px;
+    background: #205493;
+    color: white;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.usa-process-list {
+    padding-top: 0px;
+}
+
+.usa-process-list > .usa-process-list__item {
+    max-width: 100% !important; // Hate this, but USWDS sets a max-width of 72px
+}
+
+.usa-process-list__item::before {
+    background-color: #0071BB !important;
+    border-color: #0071BB !important;
 }
