@@ -98,12 +98,20 @@
     border-color: #0071BB !important;
 }
 
-.usa-accordion__heading h4{
+.usa-accordion__heading h4 {
     font-family: $monospace-font-family;
     font-size: $base-font-size;
 }
 
-.usa-accordion__content h4 p{
+.usa-accordion__content h4 p {
     font-family: $monospace-font-family;
     font-size: $base-font-size;
+}
+
+.usa-accordion__content {
+    border-bottom: $border-style !important;
+    border-right: $border-style !important;
+    border-left: $border-style !important;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
 }

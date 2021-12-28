@@ -1,8 +1,7 @@
 ---
 layout: partners/faq
 permalink: /partners/faq/
-title: >- 
-    # Frequently Asked Questions (FAQ)
+title: Frequently Asked Questions (FAQ)
 general_section_title: >-
     ### General
 logistics_section_title: >-
