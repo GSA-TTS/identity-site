@@ -6,16 +6,32 @@ layout: base
   {% include banner.html %}
   {% include partners/header.html %}
 </header>
+<script>
+  function closeAllAccordions(){
+    // changes accordion button look through aria controls
+    let accordionButtons = document.getElementsByClassName('usa-accordion__button');
+    Array.from(accordionButtons).forEach(el => {
+      el.setAttribute("aria-expanded", "false");
+    });
+    // hides accordion content panels
+    let accordionContentPanels = document.getElementsByClassName('usa-accordion__content');
+    Array.from(accordionContentPanels).forEach(el => {
+      el.hidden = true;
+    })
+  };
+</script>
 <main id="main-content">
     <section>
         <div class="container partners-container">
             <div class="grid-row">
-                <div class="tablet:grid-col-9">
+                <div class="tablet:grid-col-9 accordion-container">
                   <div class="partners-body partners-title">{{ page.title | markdownify }}</div>
                   <div class="partners-border"></div>
-
-                  <div id="general-section">{{ page.general_section_title | markdownify}}</div>
-                  <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
+                  <div class="section-title-row">
+                    <div id="general-section" class="section-title-left">{{ page.general_section_title | markdownify}}</div>
+                    <a class="section-title-right" href="javascript:closeAllAccordions()">Collapse all</a>
+                  </div>
+                  <div class="usa-accordion usa-accordion--bordered margin-bottom-5" aria-multiselectable="true">
                       {% for item in page.general_accordion %}
                           <h4 class="usa-accordion__heading">
                               <button
@@ -32,8 +48,11 @@ layout: base
                       {% endfor %}
                   </div>
                   <a href="#main-content" class="usa-current">Back to Top</a>
-                  <div id="logistics-section" class="margin-top-5">{{ page.logistics_section_title | markdownify}}</div>
-                  <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
+                  <div class="section-title-row margin-top-5">
+                    <div id="logistics-section" class="section-title-left">{{ page.logistics_section_title | markdownify}}</div>
+                    <a class="section-title-right" href="javascript:closeAllAccordions()">Collapse all</a>
+                  </div>
+                  <div class="usa-accordion usa-accordion--bordered margin-bottom-5" aria-multiselectable="true">
                       {% for item in page.logistics_accordion %}
                           <h4 class="usa-accordion__heading">
                               <button
@@ -50,8 +69,11 @@ layout: base
                       {% endfor %}
                   </div>
                   <a href="#main-content" class="usa-current">Back to Top</a>
-                  <div id="development-section" class="margin-top-5">{{ page.development_section_title | markdownify}}</div>
-                  <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
+                  <div class="section-title-row margin-top-5">
+                    <div id="development-section" class="section-title-left">{{ page.development_section_title | markdownify}}</div>
+                    <a class="section-title-right" href="javascript:closeAllAccordions()">Collapse all</a>
+                  </div>
+                  <div class="usa-accordion usa-accordion--bordered margin-bottom-5" aria-multiselectable="true">
                       {% for item in page.development_accordion %}
                           <h4 class="usa-accordion__heading">
                               <button
@@ -69,8 +91,10 @@ layout: base
                   </div>
                   <a href="#main-content" class="usa-current">Back to Top</a>
                 </div>
-                <div class="tablet:grid-col-3">
-                  {% include search.html size="small" id="header-nav" %}
+                <div class="tablet:grid-col-3 search-container">
+                  <div>
+                    {% include search.html size="small" id="header-nav" %}
+                  </div>
                   <section>
                       <nav class="margin-left-5 margin-top-5" aria-label="Secondary navigation,">
                           <ul class="usa-sidenav">
