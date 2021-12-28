@@ -12,7 +12,7 @@ development_section_title: >-
 general_accordion:
     -
         id: a-1
-        title: What is the benefit of partnering with Loging.gov?
+        title: What is the benefit of partnering with Login.gov?
         content: >-
             #### For your agency:
 
