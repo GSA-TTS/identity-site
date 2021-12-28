@@ -2,7 +2,7 @@
 layout: partners/rrb-impact-story
 permalink: /partners/rrb-impact-story/
 title: >-
-    Impact story
+    # Impact story
 subtitle: >-
     ## Railroad Retirement Board’s (RRB) story
 body: >-
