@@ -81,7 +81,8 @@
   }
 }
 
-.container.nist-fedramp {
+.container.nist-fedramp,
+.container.pricing {
   padding-top: 1.5rem;
   padding-bottom: 4rem;
   text-align: left;
@@ -91,7 +92,6 @@
     padding: 0;
   }
   .item {
-    align-items: center;
     display: flex;
     flex-direction: column;
     margin: 2rem 0 1rem 0;
@@ -103,10 +103,25 @@
       margin: 0;
       width: 100%;
     }
-    img {
-      max-height: 74px;
-      margin-bottom: 1.5rem;
-    }
+  }
+}
+
+.container.nist-fedramp {
+  .item {
+    align-items: center;
+  }
+  img {
+    max-height: 74px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.container.pricing {
+  ul {
+    padding-left: 1rem;
+  }
+  li {
+    padding: 0.5rem 0;
   }
 }
 
