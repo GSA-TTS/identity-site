@@ -2,7 +2,7 @@
 layout: partners/security-experience
 permalink: /partners/security-experience/
 title: >- 
-    Security experience
+    # Security experience
 subtitle: >-
     ## Understanding our security experience principles
 subsection: >-
