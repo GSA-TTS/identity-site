@@ -38,6 +38,12 @@ right_for_you:
     - text: You want to protect your users’ accounts with strong multi-factor authentication (MFA)
     - text: Your application(s) can integrate with the SAML or OpenID Connect (OIDC) web-based identity protocols
     - text: You are looking for a highly secure (FedRAMP Moderate) and standards compliant (NIST 800-63) identity solution
+who_we_work_with:
+  heading: Who we work with
+  class: who_we_work_with
+  items:
+    - img:
+  link: <a class="usa-nav__link caret" href="https://www.login.gov/partners/impact-stories">Read our impact stories</a>
 pricing:
   heading: Pricing
   class: pricing

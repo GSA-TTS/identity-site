@@ -125,6 +125,11 @@
   }
 }
 
+.full-width-color {
+  background-color: #ebf3fa;
+  padding: 1rem 0;
+}
+
 @include at-media-max("desktop") {
   .container.partners {
     .tablet\:grid-col {
