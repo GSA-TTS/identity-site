@@ -1,10 +1,14 @@
 ---
 ---
 
+$theme-process-list-counter-text-color: "white";
+$theme-process-list-connector-color: "gray-10";
+
 @charset "UTF-8";
 
 @import "identity-style-guide/dist/assets/scss/styles";
 
+@import "fonts";
 @import "colors";
 @import "variables";
 
