@@ -104,6 +104,11 @@
     font-size: $base-font-size;
 }
 
+.accordion-list-headings {
+    font-family: $monospace-font-family !important;
+    font-size: $base-font-size; 
+}
+
 .usa-accordion__content h4 p {
     font-family: $monospace-font-family;
     font-size: $base-font-size;

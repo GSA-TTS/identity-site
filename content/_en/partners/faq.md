@@ -12,8 +12,8 @@ general_accordion:
     -
         id: a-1
         title: What is the benefit of partnering with Login.gov?
-        content: >-
-            #### For your agency:
+        content: >
+            <h4 class="accordion-list-headings">For your agency:</h4>
 
             - Implementation support for your team from integration to launch
 
@@ -31,7 +31,7 @@ general_accordion:
 
             - A platform that stays up to date with current authentication and identity policies, technologies, and standards, without additional effort required from your agency
 
-            #### For your end-users:
+            <h4 class="accordion-list-headings">For your end-users:</h4>
 
             - One account to access all their websites and applications - eliminating the need to remember multiple passwords and usernames
 
@@ -184,5 +184,5 @@ development_accordion:
 
             - Keycloak
 
-            - Shibboleth.
+            - Shibboleth
 ---
