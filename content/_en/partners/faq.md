@@ -59,7 +59,7 @@ general_accordion:
         id: a-5
         title: Does Login.gov partner with state and local governments?
         content: >-
-            Yes, Login.gov partners with state and local governments. State and local governments need simple and secure solutions to help the public access federally funded services and resources. With this partnership, those agencies can leverage Login.gov to create a seamless and secure sign in experience for the public to access these resources. <a href="{{ '/partners/state-and-local/' | locale_url }}" class="caret">Learn more about the path to partnership</a>
+            Yes, Login.gov partners with state and local governments. State and local governments need simple and secure solutions to help the public access federally funded services and resources. With this partnership, those agencies can leverage Login.gov to create a seamless and secure sign in experience for the public to access these resources.  [Learn more about the path to partnership](/partners/state-and-local){:class="usa-nav_link caret"}
     -
         id: a-6
         title: How do we partner with Login.gov?
@@ -159,7 +159,7 @@ development_accordion:
         id: c-5
         title: Do we need an approved IAA before we can launch our integration with Login.gov?
         content: >-
-            In order to launch your integration with Login.gov, your agency must first complete an IAA. You can test your application during the IAA process.  Once testing is complete and the IAA has been executed, Login.gov will launch your integration within two weeks.  <a href="{{ '/partners/getting-started/' | locale_url }}" class="caret">Learn more about an IAA here</a>
+            In order to launch your integration with Login.gov, your agency must first complete an IAA. You can test your application during the IAA process.  Once testing is complete and the IAA has been executed, Login.gov will launch your integration within two weeks.  [Learn more about an IAA here](/partners/getting-started){:class="usa-nav_link caret"}
     -
         id: c-6
         title: Do you integrate with Commercial Off-The-Shelf (COTS) solutions?
