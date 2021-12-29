@@ -10,6 +10,7 @@ description: Learn how Login.gov can better provide identity proofing for your a
 title: Simple, secure online access for the public
 description: Login.gov adds the public’s one account for government to your agency.
 class: partners
+
 three_col:
   heading: Our services
   subheading1: Authentication
@@ -17,19 +18,20 @@ three_col:
   col1: >-
     Users create one account to access all your digital services with multi-factor authentication.
 
-    [Learn about authentication](https://login.gov/partners){:class="partners-authentication caret"}
+    [Learn about authentication](/partners){:class="partners-authentication caret"}
   subheading2: Identity verification
   col_class2: identity
   col2: >-
     Verify the right person has access to the right information with NIST 800-63 compliant, secure identity verification.
 
-    [Learn about identity verification](https://partners.login.gov/partners){:class="partners-identity caret"}
+    [Learn about identity verification](/partners){:class="partners-identity caret"}
   subheading3: Multilingual user support
   col_class3: multilingual
   col3: >-
     Comprehensive, multilingual support for your end-users Monday-Friday, 8 a.m.-8 p.m. ET.
 
-    [Learn about user support](https://developers.login.gov/partners){:class="partners-multilingual caret"}
+    [Learn about user support](/partners){:class="partners-multilingual caret"}
+
 right_for_you:
   heading: Is Login.gov right for you?
   items:
@@ -38,12 +40,15 @@ right_for_you:
     - text: You want to protect your users’ accounts with strong multi-factor authentication (MFA)
     - text: Your application(s) can integrate with the SAML or OpenID Connect (OIDC) web-based identity protocols
     - text: You are looking for a highly secure (FedRAMP Moderate) and standards compliant (NIST 800-63) identity solution
+
 who_we_work_with:
   heading: Who we work with
   class: who_we_work_with
   items:
     - img:
-  link: <a class="usa-nav__link caret" href="https://www.login.gov/partners/impact-stories">Read our impact stories</a>
+  link: >
+    [Read our impact stories](/partners/impact-stories){:class="usa-nav_link caret"}
+
 pricing:
   heading: Pricing
   class: pricing
@@ -58,7 +63,9 @@ pricing:
         + No per-application fees
     - 
       image: partners/pricing.svg
-  link: <a class="usa-nav__link caret" href="https://www.login.gov/partners/pricing">Learn more about our pricing</a>
+  link: >
+    [Learn more about our pricing](/partners/pricing){:class="usa-nav_link caret"}
+
 nist_fedramp:
   heading: Security and compliance
   class: nist-fedramp
@@ -66,10 +73,11 @@ nist_fedramp:
     - 
       class: nist
       image: partners/nist.svg
-      text:  Login.gov is working closely with <a class="external-link" target="_blank" href="https://www.nist.gov/">NIST</a> to stay current on the latest guidelines, recommendations, and best practices. Our goal is to remove the agency burden of compliance with these standards, so you can focus on your specific mission and those you serve.
+      text:  Login.gov is working closely with [NIST](https://www.nist.gov/){:class="external-link"}{:target="_blank"} to stay current on the latest guidelines, recommendations, and best practices. Our goal is to remove the agency burden of compliance with these standards, so you can focus on your specific mission and those you serve.
     - 
       class: fedramp
       image: partners/fedramp.png
-      text:  <span>Our FedRAMP Moderate Authority to Operate (ATO)</span> Login.gov has a <a class="external-link" target="_blank" href="https://www.fedramp.gov/">FedRAMP</a> Moderate ATO issued by the U.S. General Services Administration. Our SSP/Control Implementation Survey/Customer Responsibility Matrix is available through the FedRAMP marketplace.
-  link: <a class="usa-nav__link caret" href="https://www.login.gov/partners/security-experience">Learn more about our security experience</a>
+      text:  <span>Our FedRAMP Moderate Authority to Operate (ATO)</span> Login.gov has a [FedRAMP](https://www.fedramp.gov/){:class="external-link"}{:target="_blank"} Moderate ATO issued by the U.S. General Services Administration. Our SSP/Control Implementation Survey/Customer Responsibility Matrix is available through the FedRAMP marketplace.
+  link: >
+    [Learn more about our security experience](/partners/security-experience){:class="usa-nav_link caret"}
 ---
