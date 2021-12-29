@@ -43,7 +43,14 @@ who_we_work_with:
   heading: Who we work with
   class: who_we_work_with
   items:
-    - img:
+    - image: partners/logos/sba.png
+    - image: partners/logos/army.png
+    - image: partners/logos/nasa.png
+    - image: partners/logos/doa.png
+    - image: partners/logos/doe.png
+    - image: partners/logos/dhs.png
+    - image: partners/logos/doi.png
+    - image: partners/logos/va.png
   link: >
     [Read our impact stories](/partners/impact-stories){:class="usa-nav_link caret"}
 

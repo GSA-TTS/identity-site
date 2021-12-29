@@ -4,23 +4,23 @@
     <div class="grid-row grid-gap-lg">
       {% for item in include.items %}
         <div class="item tablet:grid-col">
-          {% if item.img != '' %}
+          {% if item.image and item.image != '' %}
             <img
               alt=""
               aria-hidden="true"
-              class="{% if item.class != '' %}{{ item.class }}{% endif %}"
+              class="{% if item.class and item.class != '' %}{{ item.class }}{% endif %}"
               role="img"
               src="{{ site.baseurl }}/assets/img/{{ item.image }}"
             />
           {% endif %}
-          {% if item.text != '' %}
+          {% if item.text and item.text != '' %}
             {{ item.text | markdownify }}
           {% endif %}
         </div>
       {% endfor %}
     </div>
   </div>
-  {% if include.link != '' %}
+  {% if include.link and include.link != '' %}
     {{ include.link | markdownify }}
   {% endif %}
 </article>

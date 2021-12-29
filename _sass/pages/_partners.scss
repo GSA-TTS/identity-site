@@ -82,7 +82,8 @@
 }
 
 .container.nist-fedramp,
-.container.pricing {
+.container.pricing,
+.container.who_we_work_with {
   padding-top: 1.5rem;
   padding-bottom: 4rem;
   text-align: left;
@@ -122,6 +123,13 @@
   }
   li {
     padding: 0.5rem 0;
+  }
+}
+
+.container.who_we_work_with {
+  .item {
+    align-items: center;
+    justify-content: center;
   }
 }
 
