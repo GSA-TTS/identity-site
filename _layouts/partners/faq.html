@@ -1,0 +1,129 @@
+---
+layout: base
+---
+<header>
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include partners/header.html %}
+</header>
+<script>
+  function closeAllAccordions(){
+    // changes accordion button look through aria controls
+    let accordionButtons = document.getElementsByClassName('usa-accordion__button');
+    Array.from(accordionButtons).forEach(el => {
+      el.setAttribute("aria-expanded", "false");
+    });
+    // hides accordion content panels
+    let accordionContentPanels = document.getElementsByClassName('usa-accordion__content');
+    Array.from(accordionContentPanels).forEach(el => {
+      el.hidden = true;
+    })
+  };
+</script>
+<main id="main-content">
+    <section>
+        <div class="container partners-container">
+            <div class="grid-row">
+                <div class="tablet:grid-col-9 accordion-container">
+                  <div class="partners-title">
+                    <h1>{{ page.title | markdownify }}</h1>
+                  </div>
+                  <div class="partners-border"></div>
+                  <div class="section-title-row">
+                    <div id="general-section" class="section-title-left">{{ page.general_section_title | markdownify}}</div>
+                    <a class="section-title-right" href="javascript:closeAllAccordions()">Collapse all</a>
+                  </div>
+                  <div class="usa-accordion usa-accordion--bordered margin-bottom-5" aria-multiselectable="true">
+                      {% for item in page.general_accordion %}
+                          <h4 class="usa-accordion__heading">
+                              <button
+                              class="usa-accordion__button"
+                              aria-expanded="false"
+                              aria-controls={{ item.id }}
+                              >
+                              {{ item.title }}
+                              </button>
+                          </h4>
+                          <div id={{ item.id }} class="usa-accordion__content usa-prose">
+                          {{ item.content | markdownify}}
+                          </div>
+                      {% endfor %}
+                  </div>
+                  <a href="#main-content" class="usa-current">Back to Top</a>
+                  <div class="section-title-row margin-top-5">
+                    <div id="logistics-section" class="section-title-left">{{ page.logistics_section_title | markdownify}}</div>
+                    <a class="section-title-right" href="javascript:closeAllAccordions()">Collapse all</a>
+                  </div>
+                  <div class="usa-accordion usa-accordion--bordered margin-bottom-5" aria-multiselectable="true">
+                      {% for item in page.logistics_accordion %}
+                          <h4 class="usa-accordion__heading">
+                              <button
+                              class="usa-accordion__button"
+                              aria-expanded="false"
+                              aria-controls={{ item.id }}
+                              >
+                              {{ item.title }}
+                              </button>
+                          </h4>
+                          <div id={{ item.id }} class="usa-accordion__content usa-prose">
+                          {{ item.content | markdownify}}
+                          </div>
+                      {% endfor %}
+                  </div>
+                  <a href="#main-content" class="usa-current">Back to Top</a>
+                  <div class="section-title-row margin-top-5">
+                    <div id="development-section" class="section-title-left">{{ page.development_section_title | markdownify}}</div>
+                    <a class="section-title-right" href="javascript:closeAllAccordions()">Collapse all</a>
+                  </div>
+                  <div class="usa-accordion usa-accordion--bordered margin-bottom-5" aria-multiselectable="true">
+                      {% for item in page.development_accordion %}
+                          <h4 class="usa-accordion__heading">
+                              <button
+                              class="usa-accordion__button"
+                              aria-expanded="false"
+                              aria-controls={{ item.id }}
+                              >
+                              {{ item.title }}
+                              </button>
+                          </h4>
+                          <div id={{ item.id }} class="usa-accordion__content usa-prose">
+                          {{ item.content | markdownify}}
+                          </div>
+                      {% endfor %}
+                  </div>
+                  <a href="#main-content" class="usa-current">Back to Top</a>
+                </div>
+                <div class="tablet:grid-col-3 search-container">
+                  <div>
+                    {% include search.html size="small" id="header-nav" %}
+                  </div>
+                  <section>
+                      <nav class="margin-left-5 margin-top-5" aria-label="Secondary navigation,">
+                          <ul class="usa-sidenav">
+                            <li class="usa-sidenav__item">
+                              <a href="#main-content" class="usa-current">FAQs</a>
+                              <ul class="usa-sidenav__sublist">
+                                  <li class="usa-sidenav__item">
+                                    <a href="#general-section">General</a>
+                                  </li>
+                                  <li class="usa-sidenav__item">
+                                    <a href="#logistics-section">Logistics</a>
+                                  </li>
+                                  <li class="usa-sidenav__item">
+                                    <a href="#development-section">Development</a>
+                                  </li>
+                                </ul>
+                            </li>
+                            <li class="usa-sidenav__item">
+                              <a href="{{ '/partners/contact-us/' | locale_url }}">Contact Us</a>
+                            </li>
+                          </ul>
+                        </nav>
+                  </section>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% include partners/partners-banner.html %}
+{% include footer.html %}
