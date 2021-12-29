@@ -8,8 +8,13 @@ layout: base
 </header>
 <main id="main-content">
   {% include hero.html class=page.class heading=page.title text=page.description %}
-  {% include components/3-col.html class=page.class heading=page.three_col.heading subheading1=page.three_col.subheading1 col_class1=page.three_col.col_class1 col1=page.three_col.col1 subheading2=page.three_col.subheading2 col_class2=page.three_col.col_class2 col2=page.three_col.col2 subheading3=page.three_col.subheading3 col_class3=page.three_col.col_class3 col3=page.three_col.col3 %}
+  {% include components/3-col.html class=page.class heading=page.services.heading subheading1=page.services.subheading1 col_class1=page.services.col_class1 col1=page.services.col1 subheading2=page.services.subheading2 col_class2=page.services.col_class2 col2=page.services.col2 subheading3=page.services.subheading3 col_class3=page.services.col_class3 col3=page.services.col3 %}
   {% include partners/checklist.html heading=page.right_for_you.heading items=page.right_for_you.items %}
+  <div class="full-width-color">
+    {% include partners/x-col.html class=page.who_we_work_with.class heading=page.who_we_work_with.heading items=page.who_we_work_with.items link=page.who_we_work_with.link %}
+  </div>
+  {% include partners/x-col.html class=page.pricing.class heading=page.pricing.heading items=page.pricing.items link=page.pricing.link %}
+  {% include partners/x-col.html class=page.nist_fedramp.class heading=page.nist_fedramp.heading items=page.nist_fedramp.items link=page.nist_fedramp.link %}
 </main>
 {% include partners/partners-banner.html %}
 {% include footer.html %}
