@@ -9,7 +9,7 @@ title: Simple, secure online access for the public
 description: Login.gov adds the public’s one account for government to your agency.
 class: partners
 
-three_col:
+services:
   heading: Our services
   subheading1: Authentication
   col_class1: authentication
