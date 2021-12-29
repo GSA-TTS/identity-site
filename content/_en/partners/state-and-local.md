@@ -2,7 +2,7 @@
 layout: partners/state-and-local
 permalink: /partners/state-and-local/
 title: >- 
-    # State, local, tribal governments and territories
+    State, local, tribal governments and territories
 body: >-
     Crises, like the COVID-19 global pandemic and ongoing natural disasters, make it more urgent than ever for the public to gain fast and easy access to their benefits and services. GSA’s Technology Transformation Services (TTS) realizes the burden this has put on state and local governments. Our team, with deep expertise in security, product, engineering, and user experience, is looking for state and local government partners looking to take advantage of all that Login.gov has to offer for their federally funded programs.
 ssa_quote: >-

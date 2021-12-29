@@ -2,7 +2,7 @@
 layout: partners/get-started
 permalink: /partners/get-started/
 title: >- 
-    # Get started
+    Get started
 body: >-
     Below are the steps to becoming a partner with Login.gov and an overview of the Interagency Agreement (IAA) process. During the process, we provide a free sandbox environment to create test integrations between Login.gov and your applications. Anybody with an email address ending in .gov or .mil can create an account in the sandbox environment. If you are a government contractor, ask your agency partner to help you gain access. 
 ssa_quote: >-
