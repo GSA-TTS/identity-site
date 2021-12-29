@@ -16,19 +16,19 @@ services:
   col1: >-
     Users create one account to access all your digital services with multi-factor authentication.
 
-    [Learn about authentication](/partners){:class="partners-authentication caret"}
+    [Learn about authentication](/partners/our-services){:class="partners-authentication caret"}
   subheading2: Identity verification
   col_class2: identity
   col2: >-
     Verify the right person has access to the right information with NIST 800-63 compliant, secure identity verification.
 
-    [Learn about identity verification](/partners){:class="partners-identity caret"}
+    [Learn about identity verification](/partners/our-services){:class="partners-identity caret"}
   subheading3: Multilingual user support
   col_class3: multilingual
   col3: >-
     Comprehensive, multilingual support for your end-users Monday-Friday, 8 a.m.-8 p.m. ET.
 
-    [Learn about user support](/partners){:class="partners-multilingual caret"}
+    [Learn about user support](/partners/our-services){:class="partners-multilingual caret"}
 
 right_for_you:
   heading: Is Login.gov right for you?
