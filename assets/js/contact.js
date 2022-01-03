@@ -12,6 +12,7 @@ function bindCaptchaValidation() {
     if (!captcha || !captcha.value) {
       event.preventDefault();
       error.textContent = error.dataset.error;
+      error.classList.remove('display-none');
     }
   });
 }
@@ -21,5 +22,6 @@ window.clearCaptchaError = () => {
   const error = document.getElementById('captcha-error-message');
   if (error.textContent) {
     error.textContent = '';
+    error.classList.add('display-none');
   }
 };
