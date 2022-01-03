@@ -1,4 +1,4 @@
-import { accordion, accordionCloseButton, banner, navigation } from 'identity-style-guide';
+import { accordion, banner, navigation } from 'identity-style-guide';
 
-const components = [accordion, accordionCloseButton, banner, navigation];
+const components = [accordion, banner, navigation];
 components.forEach((component) => component.on());

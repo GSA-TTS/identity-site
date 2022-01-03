@@ -1,4 +1,5 @@
 {
+  "sourceType": "unambiguous",
   "presets": [
     [
       "@babel/preset-env",
@@ -13,11 +14,5 @@
     "test": {
       "presets": [["@babel/preset-env", { "targets": { "node": "current" } }]]
     }
-  },
-  "overrides": [
-    {
-      "test": "node_modules",
-      "sourceType": "unambiguous"
-    }
-  ]
+  }
 }
