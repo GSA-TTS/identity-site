@@ -9,6 +9,11 @@ scripts:
 redirect_from:
   - /en/help/manage-your-account/international-phone-support/
 ---
+Use the information below to determine if your international phone number can be used as a two-factor authentication method to receive SMS (text messaging) and/or phone calls. 
+
+Due to spam issues, or changes made by our SMS and voice providers, this list can change and your number may no longer be supported. Sometimes new phone numbers are also not supported for voice or SMS (text messaging). 
+
+We encourage you to set up more than one authentication method to avoid getting locked out of your account if your phone number is no longer supported. 
 
 <noscript>
   We need JavaScript in order to load the list of supported countries.
