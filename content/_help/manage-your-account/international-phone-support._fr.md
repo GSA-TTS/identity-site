@@ -11,8 +11,8 @@ Utilisez les informations ci-dessous pour déterminer si votre numéro de télé
 
 En raison de problèmes de messages indésirables ou de modifications apportées par nos fournisseurs de services SMS et vocaux, cette liste peut changer et votre numéro peut ne plus être pris en charge. Parfois, les nouveaux numéros de téléphone ne sont pas non plus pris en charge pour la voix ou les SMS (messages texte).
 
-Nous vous encourageons à configurer plus d'une méthode d'authentification pour éviter le blocage de votre compte si votre numéro de téléphone n'est plus pris en charge.\
-\
+Nous vous encourageons à configurer plus d'une méthode d'authentification pour éviter le blocage de votre compte si votre numéro de téléphone n'est plus pris en charge.
+
 <noscript>
   Nous avons besoin de JavaScript pour charger la liste des pays pris en charge.
 </noscript>
