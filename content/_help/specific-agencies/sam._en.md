@@ -26,7 +26,6 @@ redirect_from:
   - /help/sam/reset-or-relink-my-logingov-account-for-sam/
   - /en/help/specific-agencies/sam/
 ---
-
 Login.gov is for secure sign in only. Your Login.gov account does not affect or have any information about your System for Award Management (SAM) account, application, status, membership, or eligibility.
 
 Please do not send Login.gov sensitive data about yourself or SAM application.
@@ -42,10 +41,12 @@ Please contact [SAM.gov](https://sam.gov/SAM/pages/public/index.jsf) directly if
 
 To make changes to your SAM.gov account profile, you will need to sign in at <https://www.sam.gov>.
 
-Contact the Federal Service Desk at 866-606-8220 (toll fee) or 334-206-7828 (internationally) for assistance, or submit your request via web form at [www.fsd.gov](https://www.fsd.gov/).
+Contact the Federal Service Desk at 866-606-8220 (toll-free) or 334-206-7828 (internationally) for assistance, or submit your request via web form at [www.fsd.gov](https://www.fsd.gov/).
 
 ## Important notes for creating your Login.gov account and accessing your SAM profile:
+
 * If you already have a SAM account, use the same email you used for your SAM account to create your Login.gov account
-    * If you use the same email to create your Login.gov profile, you will keep all of your records, data access requests, and saved searches.
-    * If you use a new email address, nothing will happen to your SAM.gov profile, but you will be unable to access your SAM profile information.
+
+  * If you use the same email to create your Login.gov profile, you will keep all of your records, data access requests, and saved searches.
+  * If you use a new email address, nothing will happen to your SAM.gov profile, but you will be unable to access your SAM profile information.
 * If you already have a Login.gov account and want to add your SAM email, you can do so on the Login.gov My Account page. Select the sign in button on the Login.gov homepage to access that account page.

@@ -6,10 +6,9 @@ order: 3
 ---
 Por el momento, solo se aceptan los siguientes documentos de identidad estatales:
 
-Licencia de conducir de los 50 estados y otros territorios de Estados Unidos (Guam, Islas Vírgenes de los Estados Unidos, Islas Marianas y Puerto Rico)
-
+Licencia de conducir válida en los 50 estados, el Distrito de Columbia (DC) y otros territorios de Estados Unidos (Guam, Islas Vírgenes de Estados Unidos, Islas Marianas y Puerto Rico)
 * Una tarjeta de identificación estatal para no conductores
-* Se trata de un documento de identidad emitido por un estado o territorio de los Estados Unidos que acredita la identidad, pero no otorga derechos de conducción.
+* Este es un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o el territorio de EE. UU. que hace valer la identidad pero no otorga privilegios de conducción.
 
   * No puedes verificar tu identidad en Login.gov sin un documento de identidad estatal.
 

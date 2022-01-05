@@ -39,12 +39,6 @@ article.container,
   }
 }
 
-.usa-header .usa-search [type="search"] {
-  height: 2rem;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
 @include at-media("desktop") {
   .usa-header .usa-nav {
     .usa-search {

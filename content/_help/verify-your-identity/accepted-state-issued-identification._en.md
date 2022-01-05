@@ -9,10 +9,10 @@ redirect_from:
 ---
 At this time, only the following state-issued identification is accepted: 
 
-* Driver’s license from all 50 states and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
+* Driver’s license from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
 * A non-driver’s license state-issued ID card
 
-  * This is an identity document issued by the state/US territory that asserts identity but does not give driving privileges.
+  * This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
 
 You cannot verify your identity on Login.gov without a state-issued ID. We’re currently working to add more ways to verify your identity.
 

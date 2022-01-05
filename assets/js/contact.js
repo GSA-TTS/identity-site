@@ -14,6 +14,7 @@ function verifyCanSubmitEntry() {
     if (!captcha || !captcha.value) {
       event.preventDefault();
       error.textContent = error.dataset.error;
+      error.classList.remove('display-none');
     } else if(descriptionInput.value.match(/\d{4,}/) && counter < 1 ) {
       counter = counter + 1 
       event.preventDefault();
@@ -35,5 +36,6 @@ window.clearCaptchaError = () => {
   const error = document.getElementById('captcha-error-message');
   if (error.textContent) {
     error.textContent = '';
+    error.classList.add('display-none');
   }
 };

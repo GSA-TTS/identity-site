@@ -7,11 +7,6 @@ header {
   }
 }
 
-.usa-banner__header, .usa-banner__content, .usa-menu-btn, .usa-link {
-  // TODO: Remove this once we assign `$theme-font-sans` design system variable to Public Sans.
-  font-family: $sans-serif-font-family;
-}
-
 .usa-banner__header-text, .usa-banner__button-text {
   font-size: .75rem;
   line-height: 1.5em

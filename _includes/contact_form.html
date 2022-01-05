@@ -504,7 +504,7 @@ include:
   />
   <div
     id="captcha-error-message"
-    class="usa-error-message margin-bottom-4"
+    class="usa-error-message display-none margin-bottom-4"
     role="alert"
     data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.captcha_required }}"
   ></div>
@@ -513,10 +513,10 @@ include:
 
   <!-- START: Form Actions -->
   <div class="form-actions">
-    <button type="submit" class="usa-button usa-button--big">
+    <button type="submit" class="usa-button usa-button--big usa-button--wide">
       {{ site.data.[page.lang].settings.contact_page.support_request_form.submit }}
     </button>
-    <button type="reset" class="usa-button usa-button--big usa-button--outline">
+    <button type="reset" class="usa-button usa-button--big usa-button--wide usa-button--outline">
       {{ site.data.[page.lang].settings.contact_page.support_request_form.reset }}
     </button>
   </div>

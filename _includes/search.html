@@ -1,7 +1,7 @@
 <form
   accept-charset="UTF-8"
   action="https://search.usa.gov/search"
-  class="usa-search usa-search--{{ include.size }} display-flex flex-justify-center"
+  class="usa-search{% if include.size %} usa-search--{{ include.size }}{% endif %} display-flex flex-justify-center"
   method="get"
   role="search"
 >

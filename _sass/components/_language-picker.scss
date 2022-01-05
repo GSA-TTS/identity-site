@@ -19,8 +19,6 @@
 .language-picker__label {
   align-items: center;
   display: flex;
-  // TODO: Remove font-family once we assign `$theme-font-sans` design system variable to Public Sans.
-  font-family: $sans-serif-font-family;
 
   span {
     margin: 0 units(1);

@@ -168,7 +168,7 @@ nav:
         url: '#nuestra-visión'
       - name: Equipo
         url: '#equipo'
-      - name: Acerca de login.gov
+      - name: Acerca de Login.gov
         url: '#acerca-de-logingov'
   accessibility:
     title: Accesibilidad

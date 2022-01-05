@@ -86,9 +86,13 @@
   }
 }
 
-div.usa-identifier {
-  // TODO: Remove this once we assign `$theme-font-sans` design system variable to Public Sans.
-  font-family: $sans-serif-font-family;
-  font-size: 1rem;
-  line-height: 1.5rem
+// TODO: Remove with identity-style-guide@6.3.0
+.usa-identifier {
+  @include u-line-height($theme-identifier-font-family, 5);
+  @include u-padding-top('205');
+}
+
+// TODO: Remove with identity-style-guide@6.3.0
+.usa-identifier__section--usagov {
+  @include u-margin-top('105');
 }
