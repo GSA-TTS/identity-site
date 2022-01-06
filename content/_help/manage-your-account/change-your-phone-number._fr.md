@@ -16,4 +16,4 @@ Suivez ces étapes pour modifier le numéro de téléphone associé à votre com
 1. Cochez la case « Numéro de téléphone par défaut » si vous souhaitez que ce numéro soit votre numéro par défaut.
    * Le numéro de téléphone par défaut sera le numéro de téléphone principal associé à votre compte. Si vous utilisez des codes SMS/texte pour vous authentifier et vous connecter, ces codes seront envoyés au numéro de téléphone par défaut.
 1. Cliquez sur « Continuer » et suivez les instructions pour confirmer vos modifications.
-   {: .number-list}
+{: .number-list}
