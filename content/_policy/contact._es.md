@@ -4,34 +4,30 @@ sidenav: contact_us
 title: Contáctenos
 description: ¿Tiene alguna pregunta o problema con Login.gov?
 intro_content: >-
-  Login.gov está aquí para ayudarlo a crear y administrar su cuenta de Login.gov
-  e iniciar sesión en la misma.
+  ## Get in touch
+
+  * Contact the government agency to help you with your application status, membership, eligibility, benefits or other concerns related to your account with that government agency. You can find the contact information on the agency’s website. 
 
 
-  Como medida de seguridad, no tenemos acceso para eliminar su cuenta de Login.gov o cambiar su contraseña por usted.
+  * Login.gov can only resolve issues related to signing-in.
 
 
-  Nuestro horario de atención es de lunes a viernes de 8:00 a. m. a 8:00 p. m. hora del este. Por favor, tenga en cuenta que nuestros agentes de atención al cliente pueden tardar hasta dos días hábiles en responder a su pregunta. Gracias por su paciencia.
+  * Login.gov cannot sign in, create, delete or manage your account on your behalf. 
 
 
-  Si necesita ayuda con su cuenta de Login.gov, consulte los artículos de nuestro centro de ayuda para obtener asistencia sobre problemas comunes.
 
+  ## Find answers to your questions in our Help Center 
+  
+  * [I can’t sign in to my account](/help/trouble-signing-in/overview/)
 
-  * [No puedo iniciar sesión en mi cuenta](/es/help/trouble-signing-in/overview/)
+  * [I need help verifying my identity](/help/verify-your-identity/overview/)
 
-  * [Necesito ayuda para verificar mi identidad](/es/help/verify-your-identity/overview/)
+  * [I need to change my information or manage my account](/help/manage-your-account/overview/)
 
-  * [Necesito cambiar mi información o administrar mi cuenta](/es/help/manage-your-account/overview/)
-
-  * [Explorar más artículos de ayuda](/es/help/)
+  * [Browse more help articles](/help/)
 
   {: .help-question-list}
 
-
-  ## ¿Tiene alguna pregunta sobre la cuenta de su agencia?
-
-
-  Login.gov es un servicio de inicio de sesión que permite acceder a los sitios web de las agencias gubernamentales. Si tiene preguntas sobre el sitio web de la agencia, las cuales pueden incluir dudas sobre el estado de su solicitud, la membresía, la elegibilidad, los beneficios u otras cuestiones específicas relacionadas con la cuenta que tiene en dicha agencia gubernamental, comuníquese con esa agencia.
 footer_content: >-
   ## Asociarse con Login.gov
 

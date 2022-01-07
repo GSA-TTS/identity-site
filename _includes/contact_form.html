@@ -363,6 +363,10 @@ include:
   <input type="hidden" name="debug" value="1" />
   {% endif %}
 
+  <p>
+    {{ site.data.[page.lang].settings.contact_page.support_request_form.help_text }} 
+  </p>
+
   <!-- START: Topic -->
   <label class="usa-label" for="00NU0000004z903"
     >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.topic }}</label
@@ -381,12 +385,8 @@ include:
     <span class="text-bold"
       >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.subtopic }}</span
     >
-    <span class="usa-hint"
-      >({{ site.data.[page.lang].settings.contact_page.support_request_form.labels.optional
-      }})</span
-    >
   </label>
-  <select id="sub-topic" name="00NU0000004z905" class="usa-select"></select>
+  <select id="sub-topic" name="00NU0000004z905" required class="usa-select"></select>
   <!-- END: Subtopic -->
 
   <!-- START: Agency Application -->
