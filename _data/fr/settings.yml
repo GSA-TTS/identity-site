@@ -185,12 +185,14 @@ nav:
   contact_us:
     title: Nous contacter
     sections:
-      - name: Avez-vous une question concernant votre compte d’agence?
-        url: '#avez-vous-une-question-concernant-votre-compte-dagence'
+      - name: Contactez-nous
+        url: '#contactez-nous'
+      - name: Trouvez les réponses à vos questions à notre centre d'aide
+        url: "#trouvez-les-réponses-à-vos-questions-à-notre-centre-daide"
       - name: Partenaire avec Login.gov
         url: '#partenaire-avec-logingov'
-      - name: Signaler un problème de sécurité ou de confidentialité
-        url: '#signaler-un-problème-de-sécurité-ou-de-confidentialité'
+      - name: Signaler un problème
+        url: '#signaler-un-problème'
   contact_login_gov: Contactez Login.gov
   create_an_account: Créer un compte
   developer_guide: Guide du développeur

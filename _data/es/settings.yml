@@ -186,12 +186,15 @@ nav:
   contact_us:
     title: Contacta con nosotros
     sections:
-      - name: ¿Tiene alguna pregunta sobre la cuenta de su agencia?
-        url: '#tiene-alguna-pregunta-sobre-la-cuenta-de-su-agencia'
+      - name: Ponte en contacto
+        url: '#ponte-en-contacto'
+      - name: Visita nuestro Centro de Ayuda para encontrar respuestas a sus preguntas
+        url: '#visita-nuestro-centro-de-ayuda-para-encontrar-respuestas-a-sus-preguntas'
       - name: Asociarse con Login.gov
         url: '#asociarse-con-logingov'
-      - name: Informar acerca de un problema de seguridad o privacidad
-        url: '#informar-acerca-de-un-problema-de-seguridad-o-privacidad'
+      - name: Reportar un problema
+        url: '#reportar-un-problema'
+
   contact_login_gov: Póngase en contacto con Login.gov
   create_an_account: Crea una cuenta
   developer_guide: Guía para desarrolladores

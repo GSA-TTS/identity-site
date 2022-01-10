@@ -29,7 +29,7 @@ intro_content: >-
   {: .help-question-list}
 
 footer_content: >-
-  ## Partner with login.gov
+  ## Asociarse con Login.gov
 
   ¿Está interesado en utilizar Login.gov en su agencia? [Visite el sitio web de nuestros socios](https://partners.login.gov/) o póngase en contacto con nosotros en partnerships@login.gov
 
