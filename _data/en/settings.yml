@@ -53,7 +53,7 @@ contact_page:
       email: Email
       first_name: First name
       last_name: Last name
-      pii_warning:  Do not include phone numbers, membership numbers, full name, birthday, address, social security numbers or other identifying information.
+      pii_warning: Do not include phone numbers, membership numbers, full name, birthday, address, social security numbers or other identifying information.
       subtopic: Issue
       topic: Topic
     reset: Clear form
