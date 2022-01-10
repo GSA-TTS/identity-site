@@ -4,41 +4,40 @@ sidenav: contact_us
 title: Contáctenos
 description: ¿Tiene alguna pregunta o problema con Login.gov?
 intro_content: >-
-  ## Get in touch
+  ## Ponte en contacto
 
-  * Contact the government agency to help you with your application status, membership, eligibility, benefits or other concerns related to your account with that government agency. You can find the contact information on the agency’s website. 
-
-
-  * Login.gov can only resolve issues related to signing-in.
+  * Póngase en contacto con la agencia gubernamental para que le ayude con el estado de su solicitud, la afiliación, la elegibilidad, los beneficios u otras preocupaciones relacionadas con su cuenta en esa agencia gubernamental. Puede encontrar la información de contacto en el sitio web de la agencia.
 
 
-  * Login.gov cannot sign in, create, delete or manage your account on your behalf. 
+  * Login.gov solo puede solucionar problemas relacionados con el ingreso.
+
+
+  * Login.gov no puede iniciar sesión, crear, eliminar o gestionar su cuenta en su nombre.
 
 
 
-  ## Find answers to your questions in our Help Center 
+  ## Visita nuestro Centro de Ayuda para encontrar respuestas a sus preguntas
   
-  * [I can’t sign in to my account](/help/trouble-signing-in/overview/)
+  * [No puedo iniciar sesión en mi cuenta](/es/help/trouble-signing-in/overview/)
 
-  * [I need help verifying my identity](/help/verify-your-identity/overview/)
+  * [Necesito ayuda para verificar mi identidad](/es/help/verify-your-identity/overview/)
 
-  * [I need to change my information or manage my account](/help/manage-your-account/overview/)
+  * [Necesito cambiar mi información o administrar mi cuenta](/es/help/manage-your-account/overview/)
 
-  * [Browse more help articles](/help/)
+  * [Explorar más artículos de ayuda](/es/help/)
 
   {: .help-question-list}
 
 footer_content: >-
-  ## Asociarse con Login.gov
+  ## Partner with login.gov
+
+  ¿Está interesado en utilizar Login.gov en su agencia? [Visite el sitio web de nuestros socios](https://partners.login.gov/) o póngase en contacto con nosotros en partnerships@login.gov
+
+  ## Reportar un problema
 
 
-  ¿Está interesado en utilizar Login.gov en su agencia? [Visite el sitio web para socios](https://partners.login.gov/).
+  Si deseas reportar un problema, consulta nuestra [política de divulgación de vulnerabilidades](https://18f.gsa.gov/vulnerability-disclosure-policy/ "Follow link") y contáctanos mediante nuestro [formulario de divulgación de vulnerabilidades](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Follow link").
 
-
-  ## Informar acerca de un problema de seguridad o privacidad
-
-
-  Si desea informar acerca de un problema de seguridad o privacidad, revise nuestra [política de divulgación de vulnerabilidades](https://18f.gsa.gov/vulnerability-disclosure-policy/) y no dude en ponerse en contacto con nosotros a través de [nuestro formulario de divulgación de vulnerabilidades](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform).
 scripts:
   - /assets/js/build/contact.js
 permalink: /es/contact/
