@@ -8,11 +8,23 @@ require 'jekyll'
 retries = 0
 retry_delay = 0
 
+
+
 proofer_options = { url_ignore: [] }
+
+def parse_urls(patterns)
+  urls_to_ignore = patterns.split(',')
+  url_ignore = []
+  urls_to_ignore.each do |url|
+    url_ignore << /#{Regexp.quote(url)}/
+  end
+  return url_ignore
+end
+
 OptionParser.new do |opt|
   opt.on('--internal') { proofer_options[:disable_external] = true }
   opt.on('--external') { proofer_options[:external_only] = true }
-  opt.on('--url-ignore PATTERN') { |pattern| proofer_options[:url_ignore] << /#{Regexp.quote(pattern)}/ }
+  opt.on('--url-ignore PATTERN') { |pattern| proofer_options[:url_ignore]+= parse_urls(pattern) }
   opt.on('--retry-external RETRIES', Integer) { |retries_arg| retries = retries_arg }
   opt.on('--retry-external-delay DELAY', Integer) { |retry_delay_arg| retry_delay = retry_delay_arg }
 end.parse!
@@ -35,6 +47,8 @@ proofer_options.merge!(
 def external_failure_urls(failures)
   failures.map { |failure| failure.to_s[/External link (.+?) failed:/, 1] }.compact
 end
+
+
 
 while retries >= 0
   proofer = HTMLProofer.check_directory(site_config['destination'], proofer_options)
