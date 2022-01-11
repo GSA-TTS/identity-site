@@ -53,7 +53,7 @@ contact_page:
       email: E-mail
       first_name: Prénom
       last_name: Nom
-      pii_warning: N'incluez pas les numéros de téléphone, les numéros de membre, le nom complet, la date d'anniversaire, l'adresse, les numéros de sécurité sociale ou d'autres informations d'identification.
+      pii_warning: N’incluez pas les numéros de téléphone, les numéros de membre, les noms complets, les anniversaires, les adresses, les numéros de sécurité sociale ou toute autre information permettant d’identifier les personnes.
       subtopic: Thème de la question
       topic: Thème de la question
       optional: optionnel

@@ -53,7 +53,7 @@ contact_page:
       email: Correo electrónico
       first_name: Nombre
       last_name: Apellido
-      pii_warning: 'No incluya números de teléfono, números de socio, nombre completo, fecha de nacimiento, dirección, números de la seguridad social u otros datos de identificación.'
+      pii_warning: 'No incluya números de teléfono, números de socio, nombres completos, cumpleaños, direcciones, números de la seguridad social u otros datos identificativos.'
       subtopic: Subtema del problema
       topic: Tema del problema
       optional: opcional
