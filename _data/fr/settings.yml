@@ -22,6 +22,7 @@ banner:
 contact_page:
   support_request_form:
     other: Other
+    help_text: Les heures d'ouverture sont du lundi au vendredi de 8 h à 20 h (heure de l'Est). Veuillez prévoir 2 jours ouvrables pour recevoir une réponse. Nous vous remercions de votre patience.
     agencies:
       "Customs and Border Protection Jobs": Emplois dans le domaine des douanes et de la protection des frontières
       "Customs and Border Protection ROAM": ROAM des douanes et de la protection des frontières
@@ -42,17 +43,17 @@ contact_page:
     form_helpers:
       select_topic: '- Sélectionnez un sujet -'
       select_issue: '- Sélectionnez une question spécifique -'
-      select_agency: '- Sélectionnez une agence -'
+      select_agency: "- Sélectionnez Agence à laquelle vous essayez d'accéder -"
     labels:
       agency_application: Demande à une agence
       agency_application_all: Toutes les applications
       agency_application_common: Applications courantes
       agency_application_other: Autres applications
-      description: Donnez plus de détails sur votre question
+      description: Fournissez plus de détails. Si vous avez besoin d'aide, veuillez décrire les mesures que vous avez suivies et les problèmes que vous avez rencontrés.
       email: E-mail
       first_name: Prénom
       last_name: Nom
-      pii_warning: Veuillez **ne pas** inclure d'informations sensibles ou d'identification dans cette section telles que votre nom complet, votre date de naissance ou votre numéro de sécurité sociale.
+      pii_warning: N’incluez pas les numéros de téléphone, les numéros de membre, les noms complets, les anniversaires, les adresses, les numéros de sécurité sociale ou toute autre information permettant d’identifier les personnes.
       subtopic: Thème de la question
       topic: Thème de la question
       optional: optionnel
@@ -184,12 +185,14 @@ nav:
   contact_us:
     title: Nous contacter
     sections:
-      - name: Avez-vous une question concernant votre compte d’agence?
-        url: '#avez-vous-une-question-concernant-votre-compte-dagence'
+      - name: Contactez-nous
+        url: '#contactez-nous'
+      - name: Trouvez les réponses à vos questions à notre centre d'aide
+        url: "#trouvez-les-réponses-à-vos-questions-à-notre-centre-daide"
       - name: Partenaire avec Login.gov
         url: '#partenaire-avec-logingov'
-      - name: Signaler un problème de sécurité ou de confidentialité
-        url: '#signaler-un-problème-de-sécurité-ou-de-confidentialité'
+      - name: Signaler un problème
+        url: '#signaler-un-problème'
   contact_login_gov: Contactez Login.gov
   create_an_account: Créer un compte
   developer_guide: Guide du développeur

@@ -22,6 +22,7 @@ banner:
 contact_page:
   support_request_form:
     other: Otro
+    help_text: El horario operativo es de lunes a viernes de 8:00 am a 8:00 pm hora del este. Le pedimos que espere 2 días hábiles para recibir una respuesta. Gracias por su paciencia.
     agencies:
       "Customs and Border Protection Jobs": Trabajos en Aduanas y Protección de Fronteras
       "Customs and Border Protection ROAM": ROAM en Aduanas y Protección de Fronteras
@@ -42,17 +43,17 @@ contact_page:
     form_helpers:
       select_topic: '- Seleccione un tema -'
       select_issue: '- Seleccione un problema específico -'
-      select_agency: '- Seleccione una solicitud de agencia -'
+      select_agency: '- Seleccione Agencia a la que intenta acceder-'
     labels:
       agency_application: Aplicación de agencia
       agency_application_all: Todas las aplicaciones
       agency_application_common: Aplicaciones comunes
       agency_application_other: Otras aplicaciones
-      description: Proporciona más detalles acerca de tu pregunta
+      description: Proporcione más detalles. Si necesita ayuda, por favor describa los pasos que dio y los problemas que encontró.
       email: Correo electrónico
       first_name: Nombre
       last_name: Apellido
-      pii_warning: '**No** incluya información sensible o de identificación en esta sección, como su nombre completo, fecha de nacimiento o número de seguro social.'
+      pii_warning: 'No incluya números de teléfono, números de socio, nombres completos, cumpleaños, direcciones, números de la seguridad social u otros datos identificativos.'
       subtopic: Subtema del problema
       topic: Tema del problema
       optional: opcional
@@ -185,12 +186,15 @@ nav:
   contact_us:
     title: Contacta con nosotros
     sections:
-      - name: ¿Tiene alguna pregunta sobre la cuenta de su agencia?
-        url: '#tiene-alguna-pregunta-sobre-la-cuenta-de-su-agencia'
+      - name: Ponte en contacto
+        url: '#ponte-en-contacto'
+      - name: Visita nuestro Centro de Ayuda para encontrar respuestas a sus preguntas
+        url: '#visita-nuestro-centro-de-ayuda-para-encontrar-respuestas-a-sus-preguntas'
       - name: Asociarse con Login.gov
         url: '#asociarse-con-logingov'
-      - name: Informar acerca de un problema de seguridad o privacidad
-        url: '#informar-acerca-de-un-problema-de-seguridad-o-privacidad'
+      - name: Reportar un problema
+        url: '#reportar-un-problema'
+
   contact_login_gov: Póngase en contacto con Login.gov
   create_an_account: Crea una cuenta
   developer_guide: Guía para desarrolladores
