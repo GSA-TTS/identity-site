@@ -22,6 +22,7 @@ banner:
 contact_page:
   support_request_form:
     other: Other
+    help_text: Operating hours are Monday-Friday 8:00 am to 8:00 pm ET. Please allow 2 business days for a response. Thank you for your patience.
     agencies:
       "Customs and Border Protection Jobs": Customs and Border Protection Jobs
       "Customs and Border Protection ROAM": Customs and Border Protection ROAM
@@ -43,20 +44,19 @@ contact_page:
     form_helpers:
       select_topic: '- Select a topic -'
       select_issue: '- Select a specific issue -'
-      select_agency: '- Select an agency application -'
+      select_agency: '- Agency you’re trying to access -'
     labels:
-      agency_application: Agency application
+      agency_application: Partner Agency
       agency_application_all: All Applications
       agency_application_common: Common Applications
       agency_application_other: Other Applications
-      description: Provide more detail about your question
+      description: Provide more detail. If you need support, please describe the steps you took and the issues you encountered.
       email: Email
       first_name: First name
       last_name: Last name
-      pii_warning: Please do **not** include sensitive or identifying information in this section such as your full name, birth date or social security number.
+      pii_warning: Do not include phone numbers, membership numbers, full names, birthdays, addresses, social security numbers, or other identifying information.
       subtopic: Issue
       topic: Topic
-      optional: optional
     reset: Clear form
     submit: Submit
     subtopics:
@@ -183,12 +183,14 @@ nav:
   contact_us:
     title: Contact us
     sections:
-      - name: Do you have a question about your agency account?
-        url: '#do-you-have-a-question-about-your-agency-account'
+      - name: Get in Touch
+        url: '#get-in-touch'
+      - name: Find answers to your questions in our Help Center
+        url: '#find-answers-to-your-questions-in-our-help-center'
       - name: Partner with Login.gov
         url: '#partner-with-logingov'
-      - name: Report a Security or Privacy Issue
-        url: '#report-a-security-or-privacy-issue'
+      - name: Report an issue
+        url: '#report-an-issue'
   contact_login_gov: Contact Login.gov
   create_an_account: Create an account
   developer_guide: Developer guide
