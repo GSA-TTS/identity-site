@@ -455,12 +455,16 @@ include:
     ' }}
   </div>
 
-  <div
-    id="pii-warning-message"
-    class="usa-error-message margin-bottom-4"
-    role="alert"
-    data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.pii_found }}"
-  ></div>
+  <div class="usa-alert usa-alert--warning display-none margin-bottom-4"
+       id="pii-warning">
+    <div class="usa-alert__body">
+      <p class="usa-alert__text"
+          id="pii-warning-message"
+          role="alert"
+          data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.pii_found }}"
+        ></p>
+    </div>
+  </div>
 
   <textarea
     id="description"
