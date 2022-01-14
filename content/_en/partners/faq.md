@@ -96,7 +96,8 @@ logistics_accordion:
         title: How does Login.gov meet the NIST 800-63 standards for Identity Assurance Levels (IAL) and Authenticator Assurance Levels (AAL)?
         content: >-
             We offer two levels of identity assurance within our platform. For our Login.gov basic authentication accounts (IAL1), we rely on the user having access to an email address, and a secure multi-factor authentication method (AAL2 or higher) such as a phone, authentication app or PIV/CAC where they can receive a secure code to use to sign in to their account. 
-
+            <br/>
+            <br/>
             For identity verification (IAL2), in addition to meeting the above requirements for IAL1/AAL2, we ask users to upload a photograph of their state-issued ID and share their address, phone number and other personal information which is then verified against authoritative sources according to the NIST standards.
     -
         id: b-7
