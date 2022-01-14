@@ -9,15 +9,15 @@ function verifyCanSubmitEntry() {
   const piiError = document.getElementById('pii-warning');
   const piiErrorText = document.getElementById('pii-warning-message');
   const descriptionInput = document.getElementById('description');
-  let counter = 0;
+  let alreadyAttemptedSubmission = false;
   form.addEventListener('submit', (event) => {
     const captcha = document.getElementById('g-recaptcha-response');
     if (!captcha || !captcha.value) {
       event.preventDefault();
       error.textContent = error.dataset.error;
       error.classList.remove('display-none');
-    } else if (descriptionInput.value.match(/\d{4,}/) && counter < 1) {
-      counter += 1;
+    } else if (descriptionInput.value.match(/\d{4,}/) && !alreadyAttemptedSubmission) {
+      alreadyAttemptedSubmission = true;
       event.preventDefault();
       piiError.classList.remove('display-none');
       piiErrorText.textContent = piiErrorText.dataset.error;
@@ -25,7 +25,7 @@ function verifyCanSubmitEntry() {
   });
 
   descriptionInput.addEventListener('change', (_) => {
-    counter = 0;
+    alreadyAttemptedSubmission = false;
     if (piiErrorText.textContent) {
       piiError.classList.add('display-none');
       piiErrorText.textContent = '';
