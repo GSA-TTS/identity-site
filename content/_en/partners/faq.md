@@ -85,7 +85,7 @@ logistics_accordion:
         id: b-4
         title: What is the cost/pricing structure?
         content: >-
-            All costs are assessed at the Interagency Agreement ( IAA) level. For more information on our pricing, visit this page.
+            All costs are assessed at the Interagency Agreement ( IAA) level. [For more information on our pricing, visit this page](/partners/pricing){:class="usa-nav_link caret"}
     -
         id: b-5
         title: Does Login.gov provide authorization?
