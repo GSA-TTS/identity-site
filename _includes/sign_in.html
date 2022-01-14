@@ -2,7 +2,7 @@
   class="{{include.mobile}} usa-button sign-in-logo"
   href="{{ site.idp_base_url }}/{% if page.lang!= 'en' %}{{page.lang}}{% endif %}"
   title="Login.gov"
-  aria-label="Sign in with Login.gov"
+  aria-label="{{ site.data.[page.lang].settings.nav.sign_in }} Login.gov"
   tabindex="0"
   >{{ site.data.[page.lang].settings.nav.sign_in }}
   <span>Login.gov</span>
