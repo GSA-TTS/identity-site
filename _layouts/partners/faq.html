@@ -7,16 +7,68 @@ layout: base
   {% include partners/header.html %}
 </header>
 <script>
-  function closeAllAccordions(){
-    // changes accordion button look through aria controls
-    let accordionButtons = document.getElementsByClassName('usa-accordion__button');
+  let openAccordionCount = {
+    general: 0,
+    logistics: 0,
+    development: 0,
+  }
+
+  function updateSingleAccordion(el, section){
+    setTimeout(function(){
+      if(el.getAttribute("aria-expanded") == 'true'){
+        openAccordionCount[section]++;
+      }else{
+        openAccordionCount[section]--;
+      }
+      toggleExpandAllCollapseAllBtn(section) //needs help
+    }, 10);
+  }
+
+  function toggleExpandAllCollapseAllBtn(section){
+    let btns = document.getElementsByClassName('collapse-expand-btn-' + section);
+
+    Array.from(btns).forEach(btn => {
+      btn.innerHTML = (openAccordionCount[section] > 0) ? 'Collapse all' : 'Expand all';
+    })
+  }
+
+  function updateAllAccordions(section){
+    if(openAccordionCount[section] > 0){
+      closeAllAccordions(section);
+    }else{
+      openAllAccordions(section);
+    }
+    toggleExpandAllCollapseAllBtn(section);
+  }
+
+  function closeAllAccordions(section){
+    let accordionButtons = document.getElementsByClassName('login-accordion-btn-' + section)
+    
     Array.from(accordionButtons).forEach(el => {
       el.setAttribute("aria-expanded", "false");
     });
-    // hides accordion content panels
-    let accordionContentPanels = document.getElementsByClassName('usa-accordion__content');
+
+    let accordionContentPanels = document.getElementsByClassName('login-accordion-content-' + section);
+    
     Array.from(accordionContentPanels).forEach(el => {
       el.hidden = true;
+    })
+
+    openAccordionCount[section] = 0;
+  };
+  
+  function openAllAccordions(section){
+    let accordionButtons = document.getElementsByClassName('login-accordion-btn-' + section)
+    openAccordionCount[section] = 0;
+
+    Array.from(accordionButtons).forEach(el => {
+      el.setAttribute("aria-expanded", "true");
+      openAccordionCount[section] ++;
+    });
+    
+    let accordionContentPanels = document.getElementsByClassName('login-accordion-content-' + section);
+    Array.from(accordionContentPanels).forEach(el => {
+      el.hidden = false;
     })
   };
 </script>
@@ -24,27 +76,30 @@ layout: base
     <section>
         <div class="container partners-container">
             <div class="grid-row">
+                <h1 class="partners-title">{{ page.title }}</h1>
                 <div class="tablet:grid-col-9 accordion-container">
-                  <div class="partners-title">
-                    <h1>{{ page.title | markdownify }}</h1>
-                  </div>
                   <div class="partners-border"></div>
                   <div class="section-title-row">
                     <div id="general-section" class="section-title-left">{{ page.general_section_title | markdownify}}</div>
-                    <a class="section-title-right" href="javascript:closeAllAccordions()">Collapse all</a>
+                    <a 
+                      class="section-title-right collapse-expand-btn-general" 
+                      href="javascript:updateAllAccordions('general')">
+                      Expand all
+                    </a>
                   </div>
                   <div class="usa-accordion usa-accordion--bordered margin-bottom-5" aria-multiselectable="true">
                       {% for item in page.general_accordion %}
                           <h4 class="usa-accordion__heading">
                               <button
-                              class="usa-accordion__button"
-                              aria-expanded="false"
-                              aria-controls={{ item.id }}
-                              >
-                              {{ item.title }}
+                                onclick="updateSingleAccordion(this, 'general')"
+                                class="usa-accordion__button login-accordion-btn-general"
+                                aria-expanded="false"
+                                aria-controls={{ item.id }}
+                                >
+                                {{ item.title }}
                               </button>
                           </h4>
-                          <div id={{ item.id }} class="usa-accordion__content usa-prose">
+                          <div id={{ item.id }} class="usa-accordion__content login-accordion-content-general">
                           {{ item.content | markdownify}}
                           </div>
                       {% endfor %}
@@ -52,20 +107,25 @@ layout: base
                   <a href="#main-content" class="usa-current">Back to Top</a>
                   <div class="section-title-row margin-top-5">
                     <div id="logistics-section" class="section-title-left">{{ page.logistics_section_title | markdownify}}</div>
-                    <a class="section-title-right" href="javascript:closeAllAccordions()">Collapse all</a>
+                    <a 
+                      class="section-title-right collapse-expand-btn-logistics"
+                      href="javascript:updateAllAccordions('logistics')">
+                      Expand all
+                    </a>
                   </div>
                   <div class="usa-accordion usa-accordion--bordered margin-bottom-5" aria-multiselectable="true">
                       {% for item in page.logistics_accordion %}
                           <h4 class="usa-accordion__heading">
                               <button
-                              class="usa-accordion__button"
-                              aria-expanded="false"
-                              aria-controls={{ item.id }}
-                              >
-                              {{ item.title }}
+                                onclick="updateSingleAccordion(this, 'logistics')"
+                                class="usa-accordion__button login-accordion-btn-logistics"
+                                aria-expanded="false"
+                                aria-controls={{ item.id }}
+                                >
+                                {{ item.title }}
                               </button>
                           </h4>
-                          <div id={{ item.id }} class="usa-accordion__content usa-prose">
+                          <div id={{ item.id }} class="usa-accordion__content login-accordion-content-logistics">
                           {{ item.content | markdownify}}
                           </div>
                       {% endfor %}
@@ -73,20 +133,25 @@ layout: base
                   <a href="#main-content" class="usa-current">Back to Top</a>
                   <div class="section-title-row margin-top-5">
                     <div id="development-section" class="section-title-left">{{ page.development_section_title | markdownify}}</div>
-                    <a class="section-title-right" href="javascript:closeAllAccordions()">Collapse all</a>
+                    <a 
+                      class="section-title-right collapse-expand-btn-development"
+                      href="javascript:updateAllAccordions('development')">
+                      Expand all
+                    </a>
                   </div>
                   <div class="usa-accordion usa-accordion--bordered margin-bottom-5" aria-multiselectable="true">
                       {% for item in page.development_accordion %}
                           <h4 class="usa-accordion__heading">
                               <button
-                              class="usa-accordion__button"
-                              aria-expanded="false"
-                              aria-controls={{ item.id }}
-                              >
-                              {{ item.title }}
+                                onclick="updateSingleAccordion(this, 'development')"
+                                class="usa-accordion__button login-accordion-btn-development"
+                                aria-expanded="false"
+                                aria-controls={{ item.id }}
+                                >
+                                {{ item.title }}
                               </button>
                           </h4>
-                          <div id={{ item.id }} class="usa-accordion__content usa-prose">
+                          <div id={{ item.id }} class="usa-accordion__content login-accordion-content-development">
                           {{ item.content | markdownify}}
                           </div>
                       {% endfor %}

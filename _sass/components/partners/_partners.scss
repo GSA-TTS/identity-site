@@ -63,7 +63,7 @@
 }
 
 .search-container {
-    padding-top: 90px;
+    padding-top: 15px;
 }
 
 .section-title-right {
@@ -126,4 +126,8 @@
     color: #112e51 !important;
     background-color:rgba(0, 0, 0, 0) !important;
     box-shadow: inset 0 0 0 1px #112e51 !important;
+}
+
+.usa-identifier {
+    background-color: $navy !important; // heavy handed overwrite of footer background
 }
