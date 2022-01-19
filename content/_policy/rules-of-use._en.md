@@ -32,7 +32,7 @@ You will only be asked to verify your identity the first time you sign into cert
 
 The Login.gov service employs recognized security and privacy best practices.
 
-Prior to using the Login.gov service, you are required to agree to these terms of service. When the Login.gov service changes its terms of service, you will be given the option to agree or to decline the updated terms of service. Similarly, when conducting certain activities in the Login.gov service, such as providing personal information for the first time, the Login.gov service may require you to re-confirm your understanding of how it uses your information.
+Prior to using the Login.gov service, you are required to agree to these terms of service. In the event Login.gov service changes its terms of service, you will be given the option to agree or to decline the updated terms of service the next time you login. Similarly, when conducting certain activities in the Login.gov service, such as providing personal information for the first time, the Login.gov service may require you to re-confirm your understanding of how it uses your information.
 
 ## 2. Your Agreement
 
@@ -68,7 +68,7 @@ The authenticators currently available to you in the Login.gov service are:
 5. PIV and CAC cards, for federal and armed forces personnel only;
 6. webauthN security devices and software, such as FIDO ("Fast IDentity Online") tokens, Yubikeys, and Google's Titan Security Keys, obtained by you and registered with Login.gov;
 
-The Login.gov service does not issue physical authenticators. Authenticators other than passphrases or backup codes require hardware or software that you provide yourself.
+Login.gov does not renew, reissue, or expire authenticators, but you can revoke an authenticator associated with your account at any time and, if desired, re-add it later. The Login.gov service does not issue physical authenticators. Authenticators other than passphrases or backup codes require hardware or software that you provide yourself.
 
 When you register an authenticator with the Login.gov service, you agree to allow us to use it as an authenticator to access your account. If you register for SMS or voice messaging, you authorize us to send text messages and make phone calls to your phone number.
 
@@ -92,8 +92,7 @@ Neither we nor any third party service keeps copies of any photo you send us, wh
 
 You can terminate your account at any time through your account profile. Additionally, in the event of fraud or other violations of these Rules of Use, we may revoke access to your account. If this occurs, we will still protect your account information consistent with our [Privacy Policy]({% link _policy/index._en.md %}) and System of Record Notice [here](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) and [here](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
-In the unlikely event that the Login.gov service is discontinued, information on the account will be retained subject to our System of Records Notice, as amended, which you can access [here](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) and [here](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
-
+In the unlikely event that the Login.gov service is discontinued, information on the account will be retained subject to our System of Records Notice, as amended, which you can access [here](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) and [here](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).  Specifically, user information, including profiles, log-in files, password files, audit trail files and extracts, system usage files, and cost-back files used to assess charges for system use are destroyed 6 years after password is altered or user account is terminated, unless longer retention is required for business use, such as for law enforcement matters or other legal actions.
 ## 6. Authorities
 
 The Login.gov service is operated within the United States, but is accessible globally for public use. The Login.gov service is operated by the General Services Administration under authorities and guidance found in [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&amp;num=0&amp;edition=prelim), the [E-Government Act of 2002](https://www.congress.gov/107/plaws/publ347/PLAW-107publ347.pdf) ([44 USC § 3501](https://www.govinfo.gov/content/pkg/PLAW-104publ13/html/PLAW-104publ13.htm)), and [40 USC § 501](https://www.gsa.gov/cdnstatic/CNXII__Eligibility_to_Use_GSA.pdf), and [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
@@ -114,7 +113,7 @@ Customer support and help desk services are always available through [https://lo
 
 The Login.gov service connects the public to federal agencies more easily by allowing users to access multiple government programs with one Login.gov account.
 
-Partner agencies select the information they require from the list of attributes we support. If we don't already have it, we request that information from you; validate it, and ask for your consent to share it with the partner agency. Partners can request a variety of information such as name, address, birth date, and phone number. Partners are required to protect this information in compliance with federal law and policy.
+Partner agencies select the information they require from the list of attributes we support. If we don't already have it, we request that information from you; validate it, and ask for your consent to share it with the partner agency. Partners can request a variety of information such as name, address, birth date, phone number and email address. Partners are required to protect this information in compliance with federal law and policy.
 
 During the process of becoming a partner on the Login.gov service, we collect information from the agency about the type of access they are providing and, from that information, come to agreement with the partner on the risk of the application and the need for personal information. Based on this, we determine the level of information the partner may receive.
 
