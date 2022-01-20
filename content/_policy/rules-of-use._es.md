@@ -30,7 +30,7 @@ Solo se le pedirá que verifique su identidad la primera vez que inicie sesión 
 
 El servicio de Login.gov emplea las mejores prácticas reconocidas de seguridad y privacidad.
 
-Antes de utilizar el servicio de Login.gov, se le pide que acepte estas condiciones de servicio. Cuando el servicio de Login.gov cambie sus condiciones de servicio, se le dará la opción de aceptar o rechazar las condiciones de servicio actualizadas. Del mismo modo, al realizar ciertas actividades en el servicio de Login.gov, como proporcionar información personal por primera vez, el servicio de Login.gov puede solicitarle que vuelva a confirmar su comprensión de cómo utiliza su información.
+Antes de utilizar el servicio de Login.gov, se le pide que acepte estas condiciones de servicio. En el caso de que el servicio de Login.gov cambie sus términos de servicio, se le dará la opción de aceptar o rechazar los términos de servicio actualizados la próxima vez que inicie sesión. Del mismo modo, al realizar ciertas actividades en el servicio de Login.gov, como proporcionar información personal por primera vez, el servicio de Login.gov puede solicitarle que vuelva a confirmar su comprensión de cómo utiliza su información.
 
 ## 2. Su consentimiento
 
@@ -67,7 +67,7 @@ Los autenticadores que actualmente tiene a su disposición en el servicio Login.
 4. Códigos de acceso de una sola vez a través de aplicaciones de autentificación como Google Authenticator o Authy, descargadas en un dispositivo celular propio y registradas en Login.gov;
 5. Tarjetas PIV y CAC, solo para el personal federal y de las fuerzas armadas; dispositivos y software de seguridad webauthN, como tokens FIDO ("Fast IDentity Online"), Yubikeys y Titan Security Keys de Google, obtenidos por usted y registrados en Login.gov;
 
-El servicio de Login.gov no emite autenticadores físicos. Los autenticadores que no sean contraseñas o códigos de seguridad requieren hardware o software que proporciona usted mismo.
+Login.gov no renueva, reemite ni caduca los autentificadores, pero puede revocar un autentificador asociado a su cuenta en cualquier momento y, si lo desea, volver a añadirlo más tarde. El servicio de Login.gov no emite autenticadores físicos. Los autenticadores que no sean contraseñas o códigos de seguridad requieren hardware o software que proporciona usted mismo.
 
 Cuando registra un autenticador en el servicio de Login.gov, acepta que lo utilicemos como autenticador para acceder a su cuenta. Si se registra para recibir mensajes de voz o SMS, autoriza el uso de su número de teléfono para enviar mensajes de texto y realizar llamadas telefónicas.
 
@@ -95,7 +95,7 @@ Puede cancelar su cuenta en cualquier momento a través de su perfil de cuenta. 
 
 Si esto ocurre, seguiremos protegiendo la información de su cuenta de acuerdo con nuestra [política de privacidad]({% link _policy/index._es.md %}) y nuestro aviso de sistema de registro [aquí](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) y [aquí](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
-En el improbable caso de que se interrumpa el servicio de Login.gov, la información de la cuenta se conservará con arreglo a nuestro aviso sobre el sistema de registros, en su versión modificada, al que puede acceder [aquí](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records)y [aquí](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+En el improbable caso de que se interrumpa el servicio de Login.gov, la información de la cuenta se conservará con arreglo a nuestro aviso sobre el sistema de registros, en su versión modificada, al que puede acceder [aquí](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records)y [aquí](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records). Concretamente, la información de los usuarios, incluidos los perfiles, los archivos de inicio de sesión, los archivos de contraseñas, los archivos y extractos de registros de auditoría, los archivos de uso del sistema y los archivos de costos utilizados para evaluar los cargos por el uso del sistema, se destruyen 6 años después de la alteración de la contraseña o de la cancelación de la cuenta de usuario, a menos que se requiera una retención más prolongada para uso empresarial, como por ejemplo para asuntos de aplicación de la ley u otras acciones legales.
 
 ## 6. Autoridades
 
@@ -117,7 +117,7 @@ La asistencia al cliente y los servicios de ayuda están siempre disponibles a t
 
 El servicio de Login.gov conecta al público con las agencias federales más fácilmente permitiendo a los usuarios acceder a múltiples programas gubernamentales con una sola cuenta de Login.gov.
 
-Las agencias asociadas seleccionan la información que necesitan de la lista de atributos que admitimos. Si aún no la tenemos, le solicitamos esa información, la validamos y le pedimos su consentimiento para compartirla con la agencia asociada. Los socios pueden solicitar una serie de datos como el nombre, la dirección, la fecha de nacimiento y el número de teléfono. Los socios están obligados a proteger esta información de acuerdo con la ley y la política federal.
+Las agencias asociadas seleccionan la información que necesitan de la lista de atributos que admitimos. Si aún no la tenemos, le solicitamos esa información, la validamos y le pedimos su consentimiento para compartirla con la agencia asociada. Los socios pueden solicitar una serie de datos como el nombre, la dirección, la fecha de nacimiento, el número de teléfono y la dirección de correo electrónico. Los socios están obligados a proteger esta información de acuerdo con la ley y la política federal.
 
 Durante el proceso de conversión en socio del servicio de Login.gov, recopilamos información de la agencia sobre el tipo de acceso que están proporcionando y, a partir de esa información, llegamos a un acuerdo con el socio sobre el riesgo de la solicitud y la necesidad de información personal. En base a esto, determinamos el nivel de información que puede recibir el socio.
 

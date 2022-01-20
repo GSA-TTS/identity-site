@@ -30,7 +30,7 @@ La vérification de votre identité ne sera requise que la première fois que vo
 
 Le service Login.gov se conforme aux meilleures pratiques en termes de sécurité et de confidentialité.
 
-Avant de pouvoir utiliser le service Login.gov, vous devez accepter les présentes conditions d'utilisation. Lorsque les conditions d'utilisation du service Login.gov sont modifiées, vous avez la possibilité d'accepter ou de refuser les nouvelles conditions d'utilisation. De même, lorsque vous faites certaines actions sur la plateforme Login.gov, comme fournir des informations personnelles pour la première fois, la plateforme Login.gov peut vous demander de confirmer à nouveau que vous avez compris les conditions d'utilisation de vos informations.
+Avant de pouvoir utiliser le service Login.gov, vous devez accepter les présentes conditions d'utilisation. Si le service Login.gov modifie ses conditions de service, vous aurez la possibilité d’accepter ou de refuser les conditions de service mises à jour lors de votre prochaine connexion. De même, lorsque vous faites certaines actions sur la plateforme Login.gov, comme fournir des informations personnelles pour la première fois, la plateforme Login.gov peut vous demander de confirmer à nouveau que vous avez compris les conditions d'utilisation de vos informations.
 
 ## 2. Votre consentement
 
@@ -64,7 +64,7 @@ Les authentificateurs actuellement disponibles dans le service Login.gov sont le
 4. Des codes d'accès à usage unique par le biais d'applications d'authentification telles que Google Authenticator ou Authy, téléchargées sur votre propre appareil mobile et enregistrées sur Login.gov;
 5. Les cartes PIV et CAC, pour le personnel fédéral et le personnel des forces armées uniquement; 6. Les dispositifs et logiciels de sécurité webauthN, tels que les clés FIDO (« Fast IDentity Online »), les Yubikeys, et les Titan Security Keys de Google, que vous avez obtenus et enregistrés auprès de Login.gov;
 
-Le service Login.gov ne fournit pas d'authentifiants physiques. Les authentificateurs autres que les phrases de passe ou les codes de secours nécessitent un matériel ou un logiciel que vous devez fournir vous-même.
+Login.gov ne renouvelle pas, ne réédite pas ou n’expire pas les authentificateurs, mais vous pouvez révoquer un authentificateur associé à votre compte à tout moment et, si vous le souhaitez, le réinscrire ultérieurement. Le service Login.gov ne fournit pas d'authentifiants physiques. Les authentificateurs autres que les phrases de passe ou les codes de secours nécessitent un matériel ou un logiciel que vous devez fournir vous-même.
 
 Lorsque vous enregistrez un authentifiant avec le service Login.gov, vous consentez à ce que nous l'utilisions comme authentifiant pour accéder à votre compte. Si vous vous inscrivez pour recevoir des SMS ou des messages vocaux, vous autorisez l'utilisation de votre numéro de téléphone pour envoyer des messages texte et passer des appels téléphoniques.
 
@@ -88,7 +88,7 @@ Ni nous ni aucun service tiers ne conservons de copie des photos que vous nous e
 
 Vous pouvez fermer votre compte à tout moment à partir du profil de votre compte. En outre, en cas de fraude ou d'autres violations des présentes règles d'utilisation, nous pouvons révoquer l'accès à votre compte. Dans ce cas, nous continuerons à protéger les informations de votre compte conformément à notre [politique de confidentialité]({% link _policy/index._fr.md %}) et à notre avis sur le système d'enregistrement [ici](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) et [ici](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
-Dans le cas improbable où le service Login.gov serait interrompu, les informations sur le compte seront conservées conformément à notre avis sur le système d'enregistrement, tel que modifié, auquel vous pouvez accéder [ici](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) et [ici](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+Dans le cas improbable où le service Login.gov serait interrompu, les informations sur le compte seront conservées conformément à notre avis sur le système d'enregistrement, tel que modifié, auquel vous pouvez accéder [ici](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) et [ici](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records). Plus précisément, les informations relatives aux utilisateurs, y compris les profils, les fichiers de connexion, les fichiers de mots de passe, les fichiers et extraits de pistes d'audit, les fichiers d'utilisation du système et les fichiers d'analyse des coûts utilisés pour évaluer les frais d'utilisation du système, sont détruits six ans après la modification du mot de passe ou la résiliation du compte de l'utilisateur, à moins qu'une conservation plus longue ne soit nécessaire pour des raisons professionnelles, par exemple pour des questions d'application de la loi ou d'autres actions en justice.
 
 ## 6. Autorités
 
@@ -110,7 +110,7 @@ Le service de soutien à la clientèle et le service d'assistance sont toujours 
 
 Le service Login.gov connecte le public aux agences fédérales plus facilement en permettant aux utilisateurs d'accéder à plusieurs programmes gouvernementaux avec un seul compte Login.gov.
 
-Les agences partenaires sélectionnent les informations dont elles ont besoin à partir de la liste des éléments que nous prenons en charge. Si nous ne les avons pas déjà, nous vous demandons ces informations, nous les validons puis nous vous demandons votre consentement pour les partager avec l'agence partenaire. Les partenaires peuvent demander diverses informations telles que le nom, l'adresse, la date de naissance et le numéro de téléphone. Les partenaires sont tenus de protéger ces informations conformément à la législation et à la politique fédérales.
+Les agences partenaires sélectionnent les informations dont elles ont besoin à partir de la liste des éléments que nous prenons en charge. Si nous ne les avons pas déjà, nous vous demandons ces informations, nous les validons puis nous vous demandons votre consentement pour les partager avec l'agence partenaire. Les partenaires peuvent demander diverses informations telles que le nom, l'adresse, la date de naissance, numéro de téléphone et courriel. Les partenaires sont tenus de protéger ces informations conformément à la législation et à la politique fédérales.
 
 Tout au long de la procédure pour devenir un partenaire du service Login.gov, nous recueillons des informations auprès de l'agence sur le type d'accès qu'elle fournit et, à partir de ces informations, nous nous mettons d'accord avec le partenaire sur le degré de risque de l'application et le besoin d'informations personnelles. Sur cette base, nous déterminons le niveau d'information que le partenaire peut recevoir.
 
