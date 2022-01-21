@@ -17,7 +17,7 @@ backend:
 #
 # backend:
 #   name: git-gateway
-#   branch: release-netlify-cms
+#   branch: main
 #   proxy_url: http://localhost:8081/api/v1
 # local_backend: true
 

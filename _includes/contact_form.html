@@ -335,6 +335,8 @@ include:
   window.onload = populatetopics;
 
   function doNotAnswer() {
+    // this will hide the display of the honeypot Field
+    // more information found here. https://help.salesforce.com/articleView?id=pardot_forms_add_honeypot.htm 
     const noAnswer = document.querySelector('#contact-us-form #information');
     if (noAnswer) {
       noAnswer.removeAttribute('required');
@@ -452,6 +454,18 @@ include:
     <p>' | remove: '</p>
     ' }}
   </div>
+
+  <div class="usa-alert usa-alert--warning display-none margin-bottom-4"
+       id="pii-warning">
+    <div class="usa-alert__body">
+      <p class="usa-alert__text"
+          id="pii-warning-message"
+          role="alert"
+          data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.pii_found }}"
+        ></p>
+    </div>
+  </div>
+
   <textarea
     id="description"
     name="description"

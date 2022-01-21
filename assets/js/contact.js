@@ -1,4 +1,4 @@
-function bindCaptchaValidation() {
+function verifyCanSubmitEntry() {
   const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
   if (debug && +debug.value) {
     return;
@@ -6,17 +6,33 @@ function bindCaptchaValidation() {
 
   const form = document.getElementById('contact-us-form');
   const error = document.getElementById('captcha-error-message');
-
+  const piiError = document.getElementById('pii-warning');
+  const piiErrorText = document.getElementById('pii-warning-message');
+  const descriptionInput = document.getElementById('description');
+  let alreadyAttemptedSubmission = false;
   form.addEventListener('submit', (event) => {
     const captcha = document.getElementById('g-recaptcha-response');
     if (!captcha || !captcha.value) {
       event.preventDefault();
       error.textContent = error.dataset.error;
       error.classList.remove('display-none');
+    } else if (descriptionInput.value.match(/\d{4,}/) && !alreadyAttemptedSubmission) {
+      alreadyAttemptedSubmission = true;
+      event.preventDefault();
+      piiError.classList.remove('display-none');
+      piiErrorText.textContent = piiErrorText.dataset.error;
+    }
+  });
+
+  descriptionInput.addEventListener('change', (_) => {
+    alreadyAttemptedSubmission = false;
+    if (piiErrorText.textContent) {
+      piiError.classList.add('display-none');
+      piiErrorText.textContent = '';
     }
   });
 }
-document.addEventListener('DOMContentLoaded', bindCaptchaValidation);
+document.addEventListener('DOMContentLoaded', verifyCanSubmitEntry);
 
 window.clearCaptchaError = () => {
   const error = document.getElementById('captcha-error-message');

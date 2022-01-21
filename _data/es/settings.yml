@@ -39,6 +39,7 @@ contact_page:
       "Trusted Traveler Programs (Global Entry/Nexus/Sentri)": Programas de Viajero de Confianza (Global Entry/Nexus/Sentri)
       "USAJOBS": USAJOBS
     errors:
+      pii_found: Por su privacidad, no envíe información confidencial en este formulario. Nuestros agentes de atención al cliente pueden atenderle igualmente sin esta información.
       captcha_required: Debes superar el desafío de prevención de spam.
     form_helpers:
       select_topic: '- Seleccione un tema -'
