@@ -3,12 +3,12 @@
     <div class="container partners-container">
       <div class="grid-row">
         <div class="tablet:grid-col-9 accordion-container">
-          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-          <script>
+          <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
+          <script type="text/javascript">
             hbspt.forms.create({
               region: "na1",
-              portalId: "5531666",
-              formId: "e83228a3-efab-4d4d-b16c-d5b531286406"
+              portalId: "{{ site.partnership_contact_portal_id }}",
+              formId: "{{ site.partnership_contact_form_id }}"
             });
           </script>
         </div>
