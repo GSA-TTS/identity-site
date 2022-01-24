@@ -16,9 +16,9 @@ At this time, only the following state-issued identification is accepted: 
 
 You cannot verify your identity on Login.gov without a state-issued ID. We’re currently working to add more ways to verify your identity.
 
+what else is thre to do .      
+
 In the meantime, please contact the partner agency’s help center to find out what you can do.
-
-
 
 ## Related articles 
 
