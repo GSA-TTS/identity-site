@@ -5,7 +5,7 @@ category: manage-your-account
 permalink: /help/manage-your-account/add-or-change-your-authentication-method/
 order: 7
 redirect_from:
-    - /en/help/manage-your-account/add-or-change-your-authentication-method/
+  - /en/help/manage-your-account/add-or-change-your-authentication-method/
 ---
 [An authentication method](https://login.gov/help/get-started/authentication-options/) is an additional layer of security for your account. We recommend having at least two authentication methods for your account in case you lose one method.
 
@@ -13,7 +13,7 @@ If you lost your authentication method and do not have a backup connected to you
 
 ## Add or change your authentication method:
 
-1. Enter your email address at [https://secure.login.gov](https://secure.login.gov/).
+1. Enter your email address at [https://secure.login.gov](https://secure.login.gov/). test
 2. Enter your password.
 3. Click the “Sign in” button.
 4. Enter your authentication method.
