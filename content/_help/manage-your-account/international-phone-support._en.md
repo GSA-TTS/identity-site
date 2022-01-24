@@ -9,7 +9,7 @@ scripts:
 redirect_from:
   - /en/help/manage-your-account/international-phone-support/
 ---
-The content currently reads: Add another layer of security by using one of the options below to receive or generate a secure code. You’ll enter this code after your password the next time you sign in.
+**The content currently reads: Add another layer of security by using one of the options below to receive or generate a secure code. You’ll enter this code after your password the next time you sign in.**
 
 <noscript>
   We need JavaScript in order to load the list of supported countries.
