@@ -3,7 +3,7 @@ layout: help
 title: Add or change your authentication method
 category: manage-your-account
 permalink: /help/manage-your-account/add-or-change-your-authentication-method/
-order: 7
+order: 3
 redirect_from:
     - /en/help/manage-your-account/add-or-change-your-authentication-method/
 ---

@@ -2,7 +2,7 @@
 title: Cambie su contraseña
 category: manage-your-account
 permalink: /es/help/manage-your-account/change-your-password/
-order: 1
+order: 2
 ---
 
 Siga estos pasos para cambiar su contraseña en Login.gov.

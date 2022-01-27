@@ -3,7 +3,7 @@ layout: help
 title: Change the phone number associated with your account
 category: manage-your-account
 permalink: /help/manage-your-account/change-your-phone-number/
-order: 3
+order: 5
 redirect_from:
   - /en/help/manage-your-account/change-your-phone-number/
 ---

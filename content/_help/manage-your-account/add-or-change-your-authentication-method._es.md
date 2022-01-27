@@ -2,7 +2,7 @@
 title: Añadir o cambiar el método de autenticación
 category: manage-your-account
 permalink: /es/help/manage-your-account/add-or-change-your-authentication-method/
-order: 7
+order: 3
 ---
 [Un método de autenticación](https://login.gov/es/help/get-started/authentication-options/) es una medida adicional de seguridad para tu cuenta. Te aconsejamos que tengas al menos dos métodos de autenticación para tu cuenta en caso de que pierdas uno de ellos.
 
