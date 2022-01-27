@@ -3,7 +3,7 @@ layout: help
 title: "Phone number and phone plan in your name "
 category: verify-your-identity
 permalink: /help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
-order: 4
+order: 5
 redirect_from:
     - /en/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 ---

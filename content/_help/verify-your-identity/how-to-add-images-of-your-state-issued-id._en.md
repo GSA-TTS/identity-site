@@ -3,7 +3,7 @@ layout: help
 title: How to add images of your state-issued ID
 category: verify-your-identity
 permalink: /help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
-order: 5
+order: 3
 redirect_from:
     - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 ---

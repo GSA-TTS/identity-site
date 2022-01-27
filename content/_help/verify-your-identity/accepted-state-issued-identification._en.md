@@ -3,7 +3,7 @@ layout: help
 title: "Accepted State-Issued Identification "
 category: verify-your-identity
 permalink: /help/verify-your-identity/accepted-state-issued-identification/
-order: 3
+order: 2
 redirect_from:
   - /en/help/verify-your-identity/accepted-state-issued-identification/
 ---
