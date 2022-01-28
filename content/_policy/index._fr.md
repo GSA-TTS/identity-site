@@ -1,8 +1,8 @@
 ---
+sidenav: policies
 title: Confidentialité et sécurité
 description: En savoir plus sur nos pratiques en matière de sécurité et de confidentialité
 permalink: /fr/policy/
-sidenav: policies
 ---
 ## Login.gov s'engage à respecter votre confidentialité et votre sécurité ## {#intro}
 

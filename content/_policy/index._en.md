@@ -1,9 +1,9 @@
 ---
 layout: sidenav
+sidenav: policies
 title: Privacy & security
 description: Learn more about our security and privacy practices
 permalink: /policy/
-sidenav: policies
 redirect_from:
   - /en/policy/
   - /docs/Logingov_PIA_August2019.pdf/
@@ -28,5 +28,7 @@ The information that you submit is used to create or update your Login.gov accou
 * Stored information is encrypted at two levels. Encryption translates your data into code that is only accessible by you, the Login.gov account holder.  This means you are the only one who can view and make changes to your account information.
 * The Login.gov operators (i.e. our contact help center) cannot view your information or make any changes.
 * Information is stored and deleted according to the [National Archives and Records Administration (NARA) approved record schedule](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records).
+
+test preview 
 
 Protecting your information is our priority. You can read more detailed explanations about [how Login.gov works](/policy/how-does-it-work/), [our privacy act statement](/policy/our-privacy-act-statement/), and [our security practices](/policy/our-security-practices/).
