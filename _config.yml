@@ -30,13 +30,13 @@ collections:
   landing:
     output: true
     permalink: /:collection/:path/
-  developers: 
+  developers:
     output: true
     permalink: /:collection/:path/
   partners:
     output: true
     permalink: /:collection/:path/
-  policy: 
+  policy:
     output: true
     permalink: /:collection/:path/
 
@@ -73,7 +73,7 @@ defaults:
       path: 'content/_policy/*'
     values:
       layout: sidenav
-  - scope: 
+  - scope:
       path: 'content/_landing/*'
     values:
       layout: landing
@@ -119,7 +119,7 @@ help_pages:
   - get-started
   - trouble-signing-in
   - manage-your-account
-  - specific-agencies
   - verify-your-identity
+  - specific-agencies
 
 url: https://www.login.gov

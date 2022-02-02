@@ -2,7 +2,7 @@
 layout: help
 title: Change your password
 category: manage-your-account
-order: 1
+order: 2
 permalink: /help/manage-your-account/change-your-password/
 redirect_from:
   - /help/changing-settings/change-my-password/

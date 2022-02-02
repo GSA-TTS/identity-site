@@ -2,11 +2,11 @@
 title: Solucionar problema al subir el documento de identidad emitido por el estado
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
-order: 6
+order: 4
 ---
 [Para la verificación de identidad](https://login.gov/es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/) se requiere una foto nítida de tu documento de identidad emitido por el estado. Si tomaste una foto que cumple con los requisitos, intenta los siguientes pasos si todavía recibes un error al subir tu identificación emitida por el estado.
 
-Tienes 10 intentos para subir tu documento. Una vez que realices los 10 intentos, el sistema te bloqueará durante seis horas como medida de seguridad. 
+Tienes 10 intentos para subir tu documento. Una vez que realices los 10 intentos, el sistema te bloqueará durante seis horas como medida de seguridad.
 
 Si los siguientes pasos no funcionan y no puedes completar el proceso de verificación de identidad, ponte en contacto con la agencia a la que intentas acceder.
 

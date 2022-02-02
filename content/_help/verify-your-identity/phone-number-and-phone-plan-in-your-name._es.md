@@ -2,7 +2,7 @@
 title: "Número de teléfono y plan telefónico a su nombre "
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
-order: 4
+order: 5
 ---
 Para completar con éxito la verificación de la identidad, debe proporcionar un número de teléfono con domicilio en EE.UU. a su nombre en el plan telefónico. 
 
@@ -26,6 +26,6 @@ Puede utilizar un número de teléfono del trabajo si es su número de teléfono
 **¿Qué ocurre si utilizo un número de Google Voice o un número VOIP (Voice Over Internet Protocol) similar?** 
 En este momento no puede utilizar un número VOIP para la verificación de su identidad.
 
-## Artículos relacionados 
+## Artículos relacionados
 - [Verifique su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
 - [Verificar por correo](/es/help/verify-your-identity/verify-your-address-by-mail/)

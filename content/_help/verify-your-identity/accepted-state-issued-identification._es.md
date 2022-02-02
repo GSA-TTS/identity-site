@@ -2,7 +2,7 @@
 title: Documentos de identidad estatales aceptados
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/accepted-state-issued-identification/
-order: 3
+order: 2
 ---
 Por el momento, solo se aceptan los siguientes documentos de identidad estatales:
 

@@ -2,7 +2,7 @@
 title: Comment ajouter des images de votre carte d'identité délivrée par l'État
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
-order: 5
+order: 3
 ---
 Une photo claire de votre pièce d'identité délivrée par l'État est nécessaire pour compléter le processus de vérification de l'identité. Pour de meilleurs résultats, nous vous recommandons d'utiliser un téléphone pour prendre automatiquement une photo du recto et du verso de votre pièce d'identité. Si vous vérifiez votre identité sur un ordinateur, vous pourrez passer au téléphone pour cette partie du processus.
 

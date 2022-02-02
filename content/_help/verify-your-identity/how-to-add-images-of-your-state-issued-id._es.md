@@ -2,7 +2,7 @@
 title: Cómo añadir imágenes de tu documento de identidad emitido por el estado
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
-order: 5
+order: 3
 ---
 Para completar el proceso de verificación de la identidad, se necesita una foto clara de tu documento de identidad emitido por el Estado. Para obtener los mejores resultados, te recomendamos que utilices un teléfono para hacer automáticamente una foto del anverso y el reverso de tu documento de identidad. Si estás verificando tu identidad en una computadora, podrás cambiar a un teléfono en esta parte del proceso.
 
