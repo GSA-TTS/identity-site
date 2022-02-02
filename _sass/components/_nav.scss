@@ -117,18 +117,6 @@
   }
 }
 
-.usa-search--small [type=submit],
-.usa-search--small .usa-search__submit {
-  background-image: none;
-  padding: 0 0.7rem;
-  width: auto;
-  font-size: ($base-font-size - 2);
-}
-
-.usa-search--small .usa-search__submit-text {
-  position: static;
-}
-
 @include at-media("desktop") {
   .usa-header--extended .usa-nav__primary {
     margin-left: 0rem;
