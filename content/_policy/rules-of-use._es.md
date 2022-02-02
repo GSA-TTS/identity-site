@@ -85,7 +85,7 @@ Después de que nos proporcione estas pruebas de identidad, intentamos validarla
 
 Del mismo modo, compararemos la información que nos proporcione con otros registros para aumentar la confianza en su identidad. Por ejemplo, podemos asegurarnos de que su nombre, fecha de nacimiento, dirección y número de la seguridad social coinciden en los registros de una oficina de crédito. Aunque no comprobaremos su crédito, nos aseguraremos de que esa persona existe para protegerle de un fraude de identidad. También podemos comprobar con otras fuentes, como los operadores de redes celulares, para confirmar la información que nos proporciona. Si no podemos validar su dirección por otras vías, podemos confirmar que vive en ella enviándole una carta con un código que se introduce en el servicio de Login.gov.
 
-Luego de revisar el comprobante de identidad que nos proporciones, verificaremos que eres dicha persona. Para ello podríamos pedirte que te tomes una foto (selfi) para que podamos compararla con la identificación con fotografía, como licencia de conducir o pasaporte, que proporcionaste.
+Luego de revisar el comprobante de identidad que nos proporciones, verificaremos que eres dicha persona. Para ello podríamos pedirte que te tomes una foto (selfi) para que podamos compararla con la identificación con fotografía, como licencia de conducir o pasaporte, que proporcionaste (Cette fonction n'est pas actuellement activée ou requise).
 
 Ni nosotros ni ningún servicio externo guarda copias de ninguna foto que nos envíe, ya sea de una prueba de identidad o de usted mismo. Detallamos más cómo utilizamos su información en nuestra [política de privacidad]({% link _policy/index._es.md %}).
 
