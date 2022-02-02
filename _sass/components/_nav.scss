@@ -108,15 +108,6 @@
   }
 }
 
-.usa-overlay {
-  // TODO: Reconcile / backport to Login Design System.
-  background: $grey-darker;
-
-  &.is-visible {
-    opacity: opacity(50);
-  }
-}
-
 @include at-media("desktop") {
   .usa-header--extended .usa-nav__primary {
     margin-left: 0rem;
