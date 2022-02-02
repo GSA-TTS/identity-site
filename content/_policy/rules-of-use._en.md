@@ -84,7 +84,7 @@ After you provide us with this identity evidence, we attempt to validate it agai
 
 Similarly, we'll compare the information you give us to other records for added confidence in your identity. We may, for instance, verify that your name, date of birth, address, and social security number all match in records with a credit bureau. While we won't check your credit, we will ensure that such a person exists to protect you from identity fraud. We may also check with other sources, such as mobile network operators, to confirm the information you provide us. If we can't validate your address in other ways, we may confirm you live there by sending you a letter with a code that you enter into the Login.gov service.
 
-After we have validated the identity evidence you provide to us, we'll verify that you are that person. We do this by asking you to take a photo of yourself (a selfie) so that we can compare it to the photo identification, like driver's license or passport, that you provided. To protect your identity, this photo must be taken live so we know it's not someone else presenting a picture of you. We may use third party services to assist us with this photo validation or any related process.
+After we have validated the identity evidence you provide to us, we verify that you are that person. We may do this by asking you to take a photo of yourself (a selfie) so that we can compare it to the photo identification, like driver’s license or passport, that you provided.
 
 Neither we nor any third party service keeps copies of any photo you send us, whether of a piece of identity evidence or of yourself. We further detail how we use your information in our [Privacy Policy]({% link _policy/index._en.md %}).
 
