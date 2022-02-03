@@ -23,12 +23,6 @@
   margin-top: 0;
 }
 
-// TODO: Reconcile / backport to Login Design System.
-.usa-select {
-  background-color: $blue-lightest;
-  background-image: url("../img/arrow-both.svg");
-}
-
 .usa-hint {
   @include typeset(
     $theme-form-font-family,
