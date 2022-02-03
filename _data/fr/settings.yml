@@ -321,8 +321,6 @@ policies:
     Être délibéré à propos de la sécurité signifie de concentrer notre attention sur ce qui doit être protégé. Cela signifie de réfléchir attentivement aux moyens possibles pour équilibrer protection et accessibilité. Y parvenir avec succès comprend d'éduquer les utilisateurs sur les moyens qu'ils peuvent utiliser pour se protéger ou mitiger les effets du crime.
 
     Dans le cas de Login.gov, par exemple, nous devons décider exactement quelles données nous stockons et pour combien de temps. Nous devons aussi décider quelles étapes les utilisateurs doivent suivre pour accéder à leur information. Toutes ces décisions nécessitent une délibération attentive afin de déterminer la meilleure option pour les utilisateurs autant que pour les agences et assurer une fonctionnalité maximale.
-
-    Pour la construction de Login.gov, nous adhérons aux normes mises de l'avant par le [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/) (NIST 800-63-3). De plus, nous adhérons aux [meilleures pratiques du gouvernement](https://playbook.cio.gov/#play11) incluant FedRAMP, en bâtissant dans la transparence et en menant des évaluations de sécurité rigoureuses et routinières en plus d'assurer la conformité au Federal Information Security Management Act (FISMA).
   ul_1:
     li_1: Identifier vos auditoires potentiels
     li_2: Comprendre les expériences de connexion et identifier les besoins de vos

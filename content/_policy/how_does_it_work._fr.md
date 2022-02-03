@@ -6,7 +6,7 @@ sidenav: policies
 ---
 ## Comment ça marche ## {#how-does-it-work}
 
-Login.gov crypte vos informations personnelles en transit et au repos et vous demande avant de partager vos données avec une agence partenaire. Afin de réutiliser les informations d'identification d'assurance sur les sites Web gouvernementaux, Login.gov est conforme à la spécification NIST 800-63-3A.
+Afin de réutiliser les informations d'identification d'assurance d'identité sur les sites Web gouvernementaux, Login.gov se conforme aujourd'hui en grande partie à la spécification NIST 800-63-3A, tandis que nous nous efforçons d'obtenir une conformité et une certification complètes pour 800-63A et 800-63B.
 
 Lors de la vérification d'identité, l'authenticité de l'ID est également vérifiée. Ensuite, les informations personnelles sont validées auprès de la source émettrice (ex: DMV étatiques) ou de sources faisant autorité (ex: relevés de crédit, financiers, téléphoniques). Ces services externes ne conservent aucune information personnelle, ils ne sont utilisés qu'à des fins de validation. Compte tenu de ces exigences strictes, Login.gov prend actuellement en charge les identifiants d'État et les identifiants d'employés du gouvernement fédéral. Au fil du temps, Login.gov prendra en charge des identifiants supplémentaires.
 

@@ -6,7 +6,7 @@ sidenav: policies
 ---
 ## ¿Cómo funciona? ## {#how-does-it-work}
 
-Login.gov cifra su información personal en tránsito y en reposo y le pregunta antes de compartir sus datos con una agencia asociada. Para reutilizar las credenciales de garantía de identidad en los sitios web gubernamentales, Login.gov cumple con la especificación NIST 800-63-3A.
+Con el fin de reutilizar las credenciales de garantía de identidad en los sitios web gubernamentales, Login.gov se ajusta sustancialmente a la especificación NIST 800-63-3A hoy, mientras trabajamos para lograr la conformidad y certificación completas para 800-63A y 800-63B.
 
 Durante la prueba de identidad, también se comprueba la autenticidad de la identificación. Luego, la información personal se valida con la fuente emisora ​​(por ejemplo, DMV estatales) o fuentes autorizadas (por ejemplo, registros crediticios, financieros, telefónicos). Estos servicios externos no retienen ninguna información personal, solo se utilizan con fines de validación. Dados estos estrictos requisitos, Login.gov actualmente admite identificaciones estatales y de empleados del gobierno federal. Con el tiempo, Login.gov admitirá identificaciones adicionales.
 
