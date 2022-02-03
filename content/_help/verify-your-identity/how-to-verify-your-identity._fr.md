@@ -11,7 +11,7 @@ Vous devrez vérifier votre identité et sécuriser votre compte.
 
 ## Exigences relatives à la vérification de l'identité
 1. Votre carte d'identité délivrée par l'État. Vous pouvez charger une photo via un téléphone ou un ordinateur. [Vous n'avez pas de carte d'identité délivrée par l'État?](/fr/help/verify-your-identity/accepted-state-issued-identification/)
-1. Vous pouvez à l'aide d'un téléphone ou d'un ordinateur équipé d'une caméra prendre une photo de vous (pas toujours nécessaire)
+1. Vous pouvez à l'aide d'un téléphone ou d'un ordinateur équipé d'une caméra prendre une photo de vous (Cette fonction n'est pas actuellement activée ou requise.)
 1. Numéro de sécurité sociale
 1. Un numéro de téléphone sur un plan téléphonique qui est à votre nom.
     * Si vous n'avez pas d'abonnement téléphonique à votre nom, nous pouvons vous envoyer le code de vérification par courrier, ce qui prend environ 3 à 5 jours.
@@ -51,7 +51,7 @@ Login.gov est un site web gouvernemental sécurisé qui respecte les normes les 
         * Chargez une image de la face AVANT de votre carte d'identité à partir de la galerie de photos de votre téléphone ou prenez une image de la face avant de votre carte d'identité
         * Chargez une image du DOS de votre carte d'identité à partir de la galerie de photos de votre téléphone ou prenez une image du dos de votre carte d'identité
     * Cliquez sur « Continuer ».
-1. Pour certaines demandes, il peut vous être demandé de prendre une photo de vous-même. Si l'écran « Prenez une photo de vous » s'affiche, suivez les instructions pour prendre une photo de vous en utilisant soit votre ordinateur, soit en passant de votre ordinateur à votre téléphone, soit en utilisant uniquement votre téléphone.
+1. (Cette fonction n'est pas actuellement activée ou requise.) Pour certaines demandes, il peut vous être demandé de prendre une photo de vous-même. Si l'écran « Prenez une photo de vous » s'affiche, suivez les instructions pour prendre une photo de vous en utilisant soit votre ordinateur, soit en passant de votre ordinateur à votre téléphone, soit en utilisant uniquement votre téléphone.
     * Une fois que vous avez trouvé une photo acceptable, cliquez sur « Envoyer ».
     * Vos images seront traitées et si elles sont acceptées, un message d'acceptation s'affichera et vous pourrez poursuivre le processus.
     * En cas de refus, veuillez examiner le message d'erreur et envoyer à nouveau votre photo.

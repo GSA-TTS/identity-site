@@ -12,7 +12,7 @@ Necesitarás verificar tu identidad y asegurar tu cuenta.
 ## Requisitos para la verificación de identidad
 
 1. Tu identificación emitida por el estado. Puedes subir una foto por teléfono o por computadora. [¿No cuentas con una identificación emitida por el estado?](/es/help/verify-your-identity/accepted-state-issued-identification/)
-1. Un teléfono o computadora con cámara para que te tomes una foto (no siempre se requiere)
+1. Un teléfono o computadora con cámara para que te tomes una foto (Esta característica está desactivada o no es requerida actualmente.)
 1. Número de seguridad social
 1. Un número telefónico o un plan telefónico que tengas a tu nombre
     * Si no cuentas con un plan telefónico que esté a tu nombre, podemos enviarte el código de verificación por correo, lo cual toma aproximadamente de 3 a 5 días.
@@ -51,7 +51,7 @@ Login.gov es un sitio web gubernamental seguro que se apega a los estándares m�
         * Sube una imagen de la parte FRONTAL de tu identificación desde la galería de fotos de tu teléfono o toma una imagen de la parte frontal de tu identificación.
         * Sube una imagen de la parte REVERSA de tu identificación desde la galería de fotos de tu teléfono o toma una imagen de la parte revesa de tu identificación.
     * Haz clic en "Continuar".
-1. Es posible que en algunas aplicaciones se te solicite que te tomes una foto. Si aparece la pantalla que dice "Tómate una foto", sigue las pautas para tomarte una foto utilizando ya sea tu computadora, cambiando de tu computadora a tu teléfono, o utilizando únicamente tu teléfono.
+1. (Esta característica está desactivada o no es requerida actualmente.) Es posible que en algunas aplicaciones se te solicite que te tomes una foto. Si aparece la pantalla que dice "Tómate una foto", sigue las pautas para tomarte una foto utilizando ya sea tu computadora, cambiando de tu computadora a tu teléfono, o utilizando únicamente tu teléfono.
     * Una vez que tengas una foto aceptable, haz clic en "Enviar".
     * Tus imágenes se procesarán y, si se aceptan, aparecerá un mensaje de aceptación y podrás continuar con el proceso.
     * Si son rechazadas, por favor revisa el mensaje de error y vuelve a enviar tu foto.
