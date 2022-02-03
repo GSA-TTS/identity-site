@@ -30,7 +30,7 @@ intro_content: >-
 footer_content: >-
   ## Partenaire avec Login.gov
 
-  Souhaitez-vous utiliser Login.gov dans votre agence? Veuillez [visiter le site web de nos partenaires](https://partners.login.gov/) ou nous contacter à partnerships@login.gov.
+  Souhaitez-vous utiliser Login.gov dans votre agence? Veuillez [visiter le site web de nos partenaires](https://partners.login.gov/) ou [nous contacter](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e).
 
 
   ## Signaler un problème

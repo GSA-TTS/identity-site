@@ -31,7 +31,7 @@ intro_content: >-
 footer_content: >-
   ## Partner with login.gov
 
-  Interested in using Login.gov at your agency? Please [visit our partners website](https://partners.login.gov/) or contact us at partnerships@login.gov.
+  Interested in using Login.gov at your agency? Please [visit our partners website](https://partners.login.gov/) or [contact us](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e).
 
   ## Report an issue
 

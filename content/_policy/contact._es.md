@@ -31,7 +31,7 @@ intro_content: >-
 footer_content: >-
   ## Asociarse con Login.gov
 
-  ¿Está interesado en utilizar Login.gov en su agencia? [Visite el sitio web de nuestros socios](https://partners.login.gov/) o póngase en contacto con nosotros en partnerships@login.gov
+  ¿Está interesado en utilizar Login.gov en su agencia? [Visite el sitio web de nuestros socios](https://partners.login.gov/) o [póngase en contacto con nosotros](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e).
 
   ## Reportar un problema
 
