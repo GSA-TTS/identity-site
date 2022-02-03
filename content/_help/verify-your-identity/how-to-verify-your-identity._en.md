@@ -14,7 +14,7 @@ You will need to verify your identity and secure your account.
 
 ## Requirements for identity verification
 1. Your State-Issued ID. You can upload a photo by phone or by computer. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification/)
-1. A phone or computer with a camera to take a photo of yourself (not always required)
+1. A phone or computer with a camera to take a photo of yourself (This feature is not currently enabled or required.)
 1. Social Security Number
 1. A phone number on a phone plan that is in your name.
     * If you do not have a phone plan that is in your name, we can send you the verification code by mail which takes approximately 3-5 days.
@@ -54,7 +54,7 @@ Login.gov is a secure, government website that adheres to the highest standards 
         * Upload an image of the FRONT of your ID from your phone’s photo gallery or take an image of the front of your ID
         * Upload an image of the BACK of your ID from your phone’s photo gallery or take an image of the back of your ID
     * Click “Continue”
-1.  For some applications, you may be asked to take a photo of yourself. If the “Take a Photo of Yourself” screen appears, follow the guidelines to take a photo of yourself using either your computer, switching from your computer to phone, or only using your phone.
+1.  (This feature is not currently enabled or required.) For some applications, you may be asked to take a photo of yourself. If the “Take a Photo of Yourself” screen appears, follow the guidelines to take a photo of yourself using either your computer, switching from your computer to phone, or only using your phone.
     * Once you have an acceptable photo, Click “Submit”
     * Your images will process and if accepted, an acceptance message will appear and you can continue the process.
     * If rejected, please review the error message and resubmit your photo.
