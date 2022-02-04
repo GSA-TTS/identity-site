@@ -238,10 +238,22 @@ include:
     new TopicEntry(
       'login.gov System',
       "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.feedback }}",
+      [
+        new TopicEntry(
+          'Other',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+        ),
+      ],
     ),
     new TopicEntry(
       'Other',
       "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.other }}",
+      [
+        new TopicEntry(
+          'Other',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+        ),
+      ],
     ),
   ];
 
