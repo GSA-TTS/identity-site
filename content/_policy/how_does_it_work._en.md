@@ -9,7 +9,7 @@ redirect_from:
 ---
 ## How does it work ## {#how-does-it-work}
 
-Login.gov encrypts your personal information in transit and at rest and asks you before sharing your data with a partner agency. In order to reuse identity assurance credentials across government websites Login.gov conforms to the NIST 800-63-3A specification.
+Login.gov encrypts your personal information in transit and at rest and asks you before sharing your data with a partner agency. In order to reuse identity assurance credentials across government websites Login.gov continues to work toward achieving certification of compliance with NIST's IAL2 standard from a third-party assessment organization.
 
 During identity proofing, the ID is also checked for authenticity. Then, the personal information is validated with the issuing source (ex: state DMVs) or authoritative sources (ex: credit, financial, telephone records). These external services do not retain any personal information, they are only used for validation purposes. Given these stringent requirements, Login.gov currently supports state IDs and federal government employee IDs. Over time, Login.gov will support additional IDs.
 
