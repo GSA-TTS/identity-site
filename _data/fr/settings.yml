@@ -315,14 +315,6 @@ policies:
     La prochaine étape est de donner aux utilisateurs autant de contrôle que possible sur l'information qui est partagée. Nous croyons fermement que les gens possèdent leurs propres données, pas nous, et nous agirons toujours en conséquence. Si les utilisateurs ne sont pas à l'aise avec les demandes de données pour l'utilisation du système, ils doivent savoir qu'ils n'ont pas à s'inscrire et qu'il existe d'autres moyens d'atteindre leurs objectifs.
 
     Au fur et à mesure que nous faisons la conception de Login.gov, nous travaillons également à éduquer les utilisateurs pour les aider à sécuriser leurs propres données. Nous souhaitons que les gens comprennent pourquoi nous devons demander certains types d'information, comme les numéros de sécurité sociale, et comment nous les utilisons.
-  p_5: |-
-    Comprendre qui essaie d'accéder à l'information personnelle et s'assurer que seuls utilisateurs autorisés obtiennent l'accès à cette information sont les clés de la gestion d'identité du consommateur. Les systèmes comme ceci existent pour sécuriser l'identité de l'utilisateur contre ceux qui cherchent à commettre du vol ou de la fraude.
-
-    Être délibéré à propos de la sécurité signifie de concentrer notre attention sur ce qui doit être protégé. Cela signifie de réfléchir attentivement aux moyens possibles pour équilibrer protection et accessibilité. Y parvenir avec succès comprend d'éduquer les utilisateurs sur les moyens qu'ils peuvent utiliser pour se protéger ou mitiger les effets du crime.
-
-    Dans le cas de Login.gov, par exemple, nous devons décider exactement quelles données nous stockons et pour combien de temps. Nous devons aussi décider quelles étapes les utilisateurs doivent suivre pour accéder à leur information. Toutes ces décisions nécessitent une délibération attentive afin de déterminer la meilleure option pour les utilisateurs autant que pour les agences et assurer une fonctionnalité maximale.
-
-    Pour la construction de Login.gov, nous adhérons aux normes mises de l'avant par le [National Institute of Standards and Technology](https://pages.nist.gov/800-63-3/) (NIST 800-63-3). De plus, nous adhérons aux [meilleures pratiques du gouvernement](https://playbook.cio.gov/#play11) incluant FedRAMP, en bâtissant dans la transparence et en menant des évaluations de sécurité rigoureuses et routinières en plus d'assurer la conformité au Federal Information Security Management Act (FISMA).
   ul_1:
     li_1: Identifier vos auditoires potentiels
     li_2: Comprendre les expériences de connexion et identifier les besoins de vos
