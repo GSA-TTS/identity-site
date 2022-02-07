@@ -16,6 +16,7 @@ Siga estos pasos para iniciar sesión en Login.gov:
 3. Haga clic en el botón "Iniciar sesión".
 4. Realice la autenticación utilizando alguno de los métodos que haya configurado. Las opciones incluyen:
 
+* Utilisation du déverrouillage facial ou tactile
 * Usar el desbloqueo facial o táctil
 * Ingresar un código de seguridad de su aplicación de autenticación.
 * Usar su llave de seguridad.
