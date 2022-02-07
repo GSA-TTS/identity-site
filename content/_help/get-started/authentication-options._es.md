@@ -24,6 +24,16 @@ Le recomendamos que agregue dos métodos de autenticación a su cuenta. Si no pu
 **Seguridad**
 Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como las llaves de seguridad, las tarjetas de Verificación de Identidad Personal (PIV), las Tarjetas de Acceso Común (CAC ) y las aplicaciones de autenticación, son más seguros contra el phishing y el robo.
 
+## Desbloqueo facial o táctil
+
+El desbloqueo facial o táctil emplea reconocimiento facial o huellas dactilares para iniciar sesión en su cuenta de Login.gov. Esta opción es a prueba de suplantación de identidad ("phishing"). 
+
+Solo puede usar el desbloqueo facial o táctil en un dispositivo compatible con esta función. No verá esta opción en la lista de opciones de autentificación si su dispositivo no tiene esta función. No almacenamos sus huellas dactilares o imágenes. 
+
+Dado que el desbloqueo facial o táctil es inherente al dispositivo y al navegador, tendrá que usar el mismo dispositivo y navegador en futuras ocasiones para iniciar sesión con este método de autentificación. Debe darle un nombre a su dispositivo para que recuerde qué dispositivo ha utilizado. 
+
+Le recomendamos mucho configurar un segundo método de autentificación por si cambia o pierde su dispositivo. Si pierde o cambia su dispositivo y no tiene activado un método de autentificación alternativo, tendrá que eliminar su cuenta y empezar de cero.
+
 ## Aplicaciones de autenticación
 
 Las aplicaciones de autenticación se descargan en su dispositivo y generan códigos de seguridad de seis dígitos que a usted le sirven para iniciar sesión en sus cuentas. Aunque las aplicaciones de autenticación quedarán expuestas si usted llega a perder su dispositivo o alguien se lo roba, este método, en comparación con las llamadas telefónicas o los mensajes de texto, es más seguro contra el phishing, el jaqueo o la interceptación de datos.
@@ -40,7 +50,7 @@ Si usted elige esta opción de seguridad, siga estos pasos para descargar e inst
    * Extensiones para Chrome: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
 3. Abra un nuevo navegador e inicie sesión en su cuenta de Login.gov a través de <https://secure.login.gov/>.
 4. Seleccione “Activar” junto a “Aplicación de autenticación” y siga las instrucciones para escanear o ingresar un código y vincular así la aplicación de autenticación a su cuenta.\
-{: .number-list}
+   {: .number-list}
 
 En adelante, cada vez que inicie sesión en Login.gov, podrá utilizar los códigos de acceso de uso único generados por la aplicación.
 
