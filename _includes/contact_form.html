@@ -242,7 +242,7 @@ include:
         new TopicEntry(
           'Other',
           "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
-        ),
+        ),        
       ],
     ),
     new TopicEntry(
@@ -252,7 +252,7 @@ include:
         new TopicEntry(
           'Other',
           "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
-        ),
+        ),        
       ],
     ),
   ];
@@ -302,18 +302,25 @@ include:
   }
 
   function dynamicdropdown(listindex) {
-    console.log(listindex);
     let sub = document.getElementById('sub-topic');
 
     let oldvalue = sub.value;
     let options = [];
 
     let selectedIndex = 0;
-
     for (let i = 0; i < topicMap.length; i++) {
-      console.log(topicMap[i].key);
       if (topicMap[i].key === listindex) {
-        console.log(topicMap[i]);
+        if (topicMap[i].subtopics.length === 1) {
+        console.log('here')
+          options.push(
+            new Option(
+              "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+              "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+              true,
+              true,
+            ),
+          );
+        }
         options.push(
           new Option(
             "{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue }}",
@@ -321,7 +328,7 @@ include:
             false,
             true,
           ),
-        );
+        ); 
         for (let j = 0; j < topicMap[i].subtopics.length; j++) {
           let subtopic = topicMap[i].subtopics[j];
           options.push(new Option(subtopic.label, subtopic.key));
