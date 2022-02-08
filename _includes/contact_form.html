@@ -310,16 +310,6 @@ include:
     let selectedIndex = 0;
     for (let i = 0; i < topicMap.length; i++) {
       if (topicMap[i].key === listindex) {
-        if (topicMap[i].subtopics.length === 1) {
-          options.push(
-            new Option(
-              "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
-              "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
-              true,
-              true,
-            ),
-          );
-        }
         options.push(
           new Option(
             "{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue }}",
@@ -344,7 +334,12 @@ include:
       sub.options[sub.options.length] = options[i];
     }
 
-    // sub.options = options;
+    // If we make it this far, and there's only one option (aside from "Select an option"), set it
+    // as selected by default.
+    if (sub.options.length === 2) {
+      selectedIndex = 1;
+    }
+
     sub.selectedIndex = selectedIndex;
 
     return true;
