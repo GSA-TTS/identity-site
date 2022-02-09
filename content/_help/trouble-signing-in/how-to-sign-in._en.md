@@ -25,7 +25,7 @@ Follow these steps to sign in to Login.gov.
    * Entering a backup code
    * Using your federal government employee or military ID (PIV or CAC)
 5. You will then be taken to your Login.gov account page.
-   {: .number-list}
+{: .number-list}
 
 ## Related articles
 

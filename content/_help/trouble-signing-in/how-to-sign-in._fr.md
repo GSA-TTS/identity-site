@@ -24,7 +24,7 @@ Suivez ces étapes pour vous connecter à Login.gov.
 * Utilisation de votre carte d'employé du gouvernement fédéral ou de votre carte d'identité militaire (PIV ou CAC))
 
 1. Vous serez ensuite dirigé vers la page de votre compte Login.gov.
-   {: .number-list}
+{: .number-list}
 
 ## Articles connexes
 

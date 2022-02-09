@@ -24,7 +24,7 @@ Siga estos pasos para iniciar sesión en Login.gov:
 * Utilizar su ID de empleado del Gobierno Federal o del ejército (PIV o CAC)
 
 1. Entonces, será redirigido la página de su cuenta de Login.gov.
-   {: .number-list}
+{: .number-list}
 
 ## Artículos relacionados
 
