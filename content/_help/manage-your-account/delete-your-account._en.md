@@ -31,7 +31,7 @@ After you delete your account, you will not be able to sign in to the government
 5. On your account page, select “Delete account” from the menu on the left side of the page
 6. Select “Delete account” from the “Your account” menu.
 7. Enter your password to confirm that you want to delete your account.
-   {: .number-list}
+{: .number-list}
 
 **Follow these steps to delete your account if you do NOT have access to your authentication methods:**
 
@@ -46,4 +46,4 @@ As a security measure, Login.gov requires a two-step process and 24 hour waiting
 7. You will receive two emails.
         *The first email confirms we received your request. Your account is not yet deleted. Additional action is required.*
         The second email is sent to you 24 hours later. Follow the directions in that email to complete the deletion process.
-   {: .number-list}
+{: .number-list}

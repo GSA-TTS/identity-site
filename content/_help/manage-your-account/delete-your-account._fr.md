@@ -28,7 +28,7 @@ normalement en utilisant votre compte Login.gov. Vous ne perdrez pas vos informa
 5. Sur la page de votre compte, sélectionnez « Supprimer le compte » à partir du menu à gauche de la page.
 6. Sélectionnez « Supprimer le compte » à partir du menu « Votre compte ».
 7. Saisissez votre mot de passe pour confirmer votre souhait de supprimer le compte.
-   {: .number-list}
+{: .number-list}
 
 **Si vous n'avez pas accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:**
 Par mesure de sécurité, Login.gov impose un processus en 2 étapes et une période d'attente de 24 heures, si vous n'avez plus accès à vos méthodes d'authentification et avez besoin de supprimer votre compte.
@@ -42,4 +42,4 @@ Par mesure de sécurité, Login.gov impose un processus en 2 étapes et une pér
 7. Vous recevrez deux courriels.
         *Le premier confirme que nous avons reçu votre demande. Votre compte n'est pas encore supprimé. Une action supplémentaire est nécessaire.*
         Le deuxième courriel vous est envoyé 24 heures après le premier. Suivez les instructions énoncées dans le courriel pour terminer la suppression.
-   {: .number-list}
+{: .number-list}

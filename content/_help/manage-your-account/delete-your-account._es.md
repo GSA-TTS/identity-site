@@ -23,7 +23,7 @@ order: 2
 5. En la página de su cuenta, seleccione "Eliminar cuenta" en el menú a la izquierda de la página
 6. Seleccione "Eliminar cuenta en el menú "Su cuenta".
 7. Escriba su contraseña para confirmar que desea eliminar su cuenta.
-   {: .number-list}
+{: .number-list}
 
 **Si NO cuenta con los métodos de autenticación siga los siguientes pasos para eliminar la cuenta:**
 Por motivos de seguridad, Login.gov requiere un procedimiento de dos pasos y de un período de espera de 24 horas en caso de que haya perdido el acceso a sus métodos de autenticación y tenga que eliminar su cuenta.
@@ -37,4 +37,4 @@ Por motivos de seguridad, Login.gov requiere un procedimiento de dos pasos y de 
 7. Usted recibirá dos correos electrónicos.
         *El primer correo electrónico confirma que hemos recibido su solicitud. Su cuenta aún no ha sido eliminada. Es necesario tomar medidas adicionales.*
         La segunda carta le será enviada 24 horas más tarde. Observa las instrucciones de ese correo electrónico para completar el proceso de eliminación.
-   {: .number-list}
+{: .number-list}
