@@ -238,10 +238,22 @@ include:
     new TopicEntry(
       'login.gov System',
       "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.feedback }}",
+      [
+        new TopicEntry(
+          'Other',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+        ),
+      ],
     ),
     new TopicEntry(
       'Other',
       "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.other }}",
+      [
+        new TopicEntry(
+          'Other',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+        ),
+      ],
     ),
   ];
 
@@ -290,18 +302,14 @@ include:
   }
 
   function dynamicdropdown(listindex) {
-    console.log(listindex);
     let sub = document.getElementById('sub-topic');
 
     let oldvalue = sub.value;
     let options = [];
 
     let selectedIndex = 0;
-
     for (let i = 0; i < topicMap.length; i++) {
-      console.log(topicMap[i].key);
       if (topicMap[i].key === listindex) {
-        console.log(topicMap[i]);
         options.push(
           new Option(
             "{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue }}",
@@ -326,7 +334,12 @@ include:
       sub.options[sub.options.length] = options[i];
     }
 
-    // sub.options = options;
+    // If we make it this far, and there's only one option (aside from "Select an option"), set it
+    // as selected by default.
+    if (sub.options.length === 2) {
+      selectedIndex = 1;
+    }
+
     sub.selectedIndex = selectedIndex;
 
     return true;
@@ -336,7 +349,7 @@ include:
 
   function doNotAnswer() {
     // this will hide the display of the honeypot Field
-    // more information found here. https://help.salesforce.com/articleView?id=pardot_forms_add_honeypot.htm 
+    // more information found here. https://help.salesforce.com/articleView?id=pardot_forms_add_honeypot.htm
     const noAnswer = document.querySelector('#contact-us-form #information');
     if (noAnswer) {
       noAnswer.removeAttribute('required');
@@ -366,7 +379,7 @@ include:
   {% endif %}
 
   <p>
-    {{ site.data.[page.lang].settings.contact_page.support_request_form.help_text }} 
+    {{ site.data.[page.lang].settings.contact_page.support_request_form.help_text }}
   </p>
 
   <!-- START: Topic -->
