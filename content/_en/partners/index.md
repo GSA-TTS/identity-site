@@ -68,8 +68,6 @@ pricing:
         + No per-application fees
     - 
       image: partners/pricing.svg
-  link: >
-    [Learn more about our pricing](/partners/pricing){:class="usa-nav_link caret"}
 
 nist_fedramp:
   heading: Security and compliance
