@@ -85,12 +85,12 @@
 .container.pricing,
 .container.who_we_work_with {
   padding-top: 1.5rem;
-  padding-bottom: 4rem;
+  padding-bottom: 1.5rem;
   text-align: left;
   .grid-container {
     margin: 0;
     max-width: 100%;
-    padding: 0;
+    padding: 1rem 0 1rem 0;
   }
   .item {
     display: flex;
