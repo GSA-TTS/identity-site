@@ -16,7 +16,6 @@ redirect_from:
   - /fr/help/authentication-methods/which-authentication-method-should-i-use/
   - /fr/help/authentication-methods/
 ---
-
 En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d'authentification secondaire pour assurer la sécurité de votre compte. Il s'agit d'une authentification à deux facteurs (A2F). Nous utilisons l'A2F comme un niveau de protection supplémentaire pour sécuriser vos informations.
 
 **Authentification secondaire**
@@ -25,6 +24,16 @@ Nous vous conseillons d'ajouter deux méthodes d'authentification à votre compt
 **Sécurité**
 Bien que vous avez le choix entre plusieurs options d'authentification, certaines méthodes d'authentification telles que les clés de sécurité, les cartes à puce PIV/CAC et les applications d'authentification sont plus efficaces contre les tentatives d'hameçonnage et le vol.
 
+## Déverrouillage facial ou tactile 
+
+Le déverrouillage facial ou tactile utilise la reconnaissance faciale ou les empreintes digitales pour vous connecter à votre compte Login.gov. Cette option est protégée contre le hameçonnage. 
+
+Vous pouvez uniquement utiliser le déverrouillage facial ou tactile sur un appareil qui prend en charge cette fonctionnalité. Cette option ne sera pas disponible dans la liste des méthodes d'authentification si votre appareil ne dispose pas de cette fonction. Nous ne conservons pas vos empreintes digitales ni vos images. 
+
+Le déverrouillage facial ou tactile étant spécifique à l'appareil et au navigateur, vous devrez utiliser le même appareil et le même navigateur à l'avenir pour vous connecter en utilisant cette méthode d'authentification. Vous devrez donner un nom à votre appareil pour vous aider à vous souvenir de l'appareil utilisé. 
+
+Nous vous recommandons vivement de configurer une deuxième méthode d'authentification au cas où vous changeriez ou perdriez votre appareil. Si vous perdez ou changez votre appareil et que vous n'avez pas sélectionné de méthode d'authentification alternative, vous devrez supprimer votre compte et en créer un nouveau.
+
 ## Applications d'authentification
 
 Les applications d'authentification se téléchargent sur votre appareil et génèrent des codes de sécurité à six chiffres vous permettant de vous connecter à vos comptes. Bien que les applications d'authentification ne soient pas protégées en cas de perte ou de vol de votre appareil, cette méthode offre plus de sécurité que les appels téléphoniques ou les messages texte contre les tentatives d'hameçonnage, de piratage ou d'interception.
@@ -32,14 +41,15 @@ Les applications d'authentification se téléchargent sur votre appareil et gén
 Si vous choisissez cette option de sécurité, suivez les étapes suivantes pour télécharger et installer l'une des applications prises en charge et la configurer pour qu'elle fonctionne avec Login.gov.
 
 1. Choisissez un appareil, tel qu'un ordinateur ou un appareil mobile (téléphone ou tablette), sur lequel vous pouvez installer des applications.
-1. Téléchargez et installez une application d'authentification sur votre appareil. Voici quelques options populaires :
-   - Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
-   - iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
-   - Windows apps: [1Password](https://1password.com/), [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn).
-   - Mac apps: [1Password](https://1password.com/), [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
-   - Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
-1. Ouvrez un nouveau navigateur et connectez-vous à votre compte Login.gov à l'adresse https://secure.login.gov/.
-1. Sélectionnez « Activer » à côté de « Application d'authentification » et suivez les instructions pour scanner ou saisir un code associant votre application d'authentification à votre compte.
+2. Téléchargez et installez une application d'authentification sur votre appareil. Voici quelques options populaires :
+
+   * Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
+   * iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
+   * Windows apps: [1Password](https://1password.com/), [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn).
+   * Mac apps: [1Password](https://1password.com/), [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
+   * Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
+3. Ouvrez un nouveau navigateur et connectez-vous à votre compte Login.gov à l'adresse https://secure.login.gov/.
+4. Sélectionnez « Activer » à côté de « Application d'authentification » et suivez les instructions pour scanner ou saisir un code associant votre application d'authentification à votre compte.
 {: .number-list}
 
 Vous pourrez désormais utiliser les codes à usage unique générés par l'application chaque fois que vous vous connecterez à Login.gov.
