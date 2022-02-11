@@ -83,16 +83,11 @@ logistics_accordion:
             Six to eight weeks. 
     -
         id: b-4
-        title: What is the cost/pricing structure?
-        content: >-
-            All costs are assessed at the Interagency Agreement ( IAA) level.
-    -
-        id: b-5
         title: Does Login.gov provide authorization?
         content: >-
             Login.gov does not provide authorization. At this time, Login.gov supports authentication and identity proofing capabilities. We encourage agencies to take the lead on determining the best strategy for their role management and authorization. Our industry partners can help develop or provide existing solutions that can address your authorization needs.
     -
-        id: b-6
+        id: b-5
         title: How does Login.gov meet the NIST 800-63 standards for Identity Assurance Levels (IAL) and Authenticator Assurance Levels (AAL)?
         content: >-
             We offer two levels of identity assurance within our platform. For our Login.gov basic authentication accounts (IAL1), we rely on the user having access to an email address, and a secure multi-factor authentication method (AAL2 or higher) such as a phone, authentication app or PIV/CAC where they can receive a secure code to use to sign in to their account. 
@@ -100,22 +95,22 @@ logistics_accordion:
             <br/>
             For identity verification (IAL2), in addition to meeting the above requirements for IAL1/AAL2, we ask users to upload a photograph of their state-issued ID and share their address, phone number and other personal information which is then verified against authoritative sources according to the NIST standards.
     -
-        id: b-7
+        id: b-6
         title: What is identity proofing?
         content: >-
             “Identity proofing is the process by which a [credentialing service provider] collects, validates, and verifies information about a person.” (NIST) This is the process Login.gov uses to verify that a user is who they say they are. While many agencies can validate an individual’s identity through an in-person proofing experience, we developed an online application that allows individuals to have their identities verified from their smartphone or computer.
     -
-        id: b-8
+        id: b-7
         title: What is the proofing rate?
         content: >-
             The proofing rates will vary by population and we work with the partner to find a solution for users who are not able to proof online. The goal is to provide a high level of assurance. Since the launch of IAL2 we have seen 65%-70% of users who attempt to upload an ID will proof for IAL2. This includes transactions classified as high risk and likely (or potentially) fraudulent.
     -
-        id: b-9
+        id: b-8
         title: Can Login.gov authenticate or proof non-U.S. citizens or non-U.S. immigrants (not a U.S. citizen, U.S. national, lawful permanent resident, or traveling to the United States on an immigrant visa)?
         content: >-
             <a target="_blank" href="https://login.gov/help/manage-your-account/international-phone-support/" class="external-link">Click here for a complete list of international phone numbers that Login.gov supports for authenticating end-users </a>. In addition to a phone number, at this time Login.gov requires users to proof with a state-issued ID card and social security number.
     -
-        id: b-10
+        id: b-9
         title: What forms of identification can Login.gov accept for identity proofing?
         content: >-
             At this time, only the following state-issued identification is accepted: 
@@ -127,7 +122,7 @@ logistics_accordion:
 
             Users cannot verify their identity on Login.gov without a state-issued ID. We’re currently working to add more ways to verify identity. <a target="_blank" href="https://login.gov/help/verify-your-identity/how-to-verify-your-identity/" class="external-link">Learn more about the requirements for verifying identity</a>
     -
-        id: b-11
+        id: b-10
         title: How is Login.gov going to improve proofing coverage?
         content: >-
             To improve proofing coverage, we plan on expanding our use of data sources to include government data sources not available through traditional commercial data sources as we are a trusted federal entity. Likewise, we plan on integrating with in-person proofing services offered by the USPS and other agencies.
