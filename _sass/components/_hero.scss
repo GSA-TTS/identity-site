@@ -77,11 +77,10 @@
     }
 
     &.partners {
+      height: 28rem;
       background-color: $white;
-      background-image: url(../img/partners/heroes/partners-hero.svg);
-      background-position: right 20% center;
-      background-size: 22%;
-      background-repeat: no-repeat;
+      background: no-repeat url(../img/partners/heroes/partners-hero.svg) 80% / 100% ;
+      background-size: 30%;
       color: $base-font-color;
       > .container {
         background: none;

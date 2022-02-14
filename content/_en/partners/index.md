@@ -54,23 +54,6 @@ who_we_work_with:
   link: >
     [Read our impact stories](/partners/impact-stories){:class="usa-nav_link caret"}
 
-pricing:
-  heading: Pricing
-  class: pricing
-  items:
-    - 
-      text: |
-        Login.gov is committed to transparent and fair pricing.
-        + Pay only what you use
-        + Monthly invoicing
-        + Includes user support
-        + Includes onboarding support
-        + No per-application fees
-    - 
-      image: partners/pricing.svg
-  link: >
-    [Learn more about our pricing](/partners/pricing){:class="usa-nav_link caret"}
-
 nist_fedramp:
   heading: Security and compliance
   class: nist-fedramp
