@@ -28,7 +28,7 @@
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo partners-logo" id="extended-logo">
-        <a href="{{ '/' | locale_url }}" title="Home" aria-label="Home">
+        <a href="{{ '/partners/' | locale_url }}" title="Home" aria-label="Home">
           <img
             src="{{ site.baseurl }}/assets/img/logo.svg"
             class="usa-logo__img"
@@ -62,14 +62,6 @@
             href="{{ '/partners/impact-stories/' | locale_url }}"
           >
             <span>Impact Stories</span>
-          </a>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a
-            class="usa-nav__link {% if page.url contains '/pricing' %}usa-current{% endif %}"
-            href="{{ '/partners/pricing/' | locale_url }}"
-          >
-            <span>Pricing</span>
           </a>
         </li>
         <li class="usa-nav__primary-item">

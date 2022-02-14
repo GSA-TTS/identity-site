@@ -1,22 +1,25 @@
 <aside class="partners-banner">
   <div class="partners-banner__backdrop">
     <div class="partners-banner__content">
-      <header class="partners-banner__tagline">
-        {% if page.url == "/partners/" %}
+      {% if page.url == "/partners/" or page.url == "/partners/contact/" %}
+        <header class="partners-banner__tagline">
           Still have questions?
-        {% else %}
-          Ready to partner with Login.gov?
-        {% endif %}
-      </header>
-      <p class="margin-bottom-0">
-        <a class="partners-banner__link" href="{{ '/faq/' | locale_url }}">
-          {% if page.url == "/partners/" %}
+        </header>
+        <p class="margin-bottom-0">
+          <a class="partners-banner__link" href="{{ '/partners/faq/' | locale_url }}">
             Visit our FAQs
-          {% else %}
+          </a>
+        </p>
+      {% else %}
+        <header class="partners-banner__tagline">
+          Ready to partner with Login.gov?
+        </header>
+        <p class="margin-bottom-0">
+          <a class="partners-banner__link" href="{{ '/partners/contact/' | locale_url }}">
             Contact us
-          {% endif %}
-        </a>
-      </p>
+          </a>
+        </p>
+      {% endif %}
     </div>
   </div>
 </aside>
