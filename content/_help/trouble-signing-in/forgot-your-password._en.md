@@ -14,6 +14,7 @@ redirect_from:
 
 Follow these steps to reset your password.
 
+{: .number-list}
 1. Go to [https://secure.login.gov](https://secure.login.gov).
 1. Select the “Forgot your password?” link near the bottom of the page.
 1. On the next screen, enter your email address.
@@ -26,4 +27,3 @@ Follow these steps to reset your password.
 
     Your Login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
 1. Click the “Change password” button.
-{: .number-list}

@@ -6,18 +6,19 @@ description: Have a question or a problem with Login.gov?
 intro_content: >-
   ## Get in touch
 
-  * Contact the government agency to help you with your application status, membership, eligibility, benefits or other concerns related to your account with that government agency. You can find the contact information on the agency’s website. 
+  * Contact the government agency to help you with your application status, membership, eligibility, benefits or other concerns related to your account with that government agency. You can find the contact information on the agency’s website.
 
 
   * Login.gov can only resolve issues related to signing-in.
 
 
-  * Login.gov cannot sign in, create, delete or manage your account on your behalf. 
+  * Login.gov cannot sign in, create, delete or manage your account on your behalf.
 
 
 
-  ## Find answers to your questions in our Help Center 
-  
+  ## Find answers to your questions in our Help Center
+
+    {: .help-question-list}
   * [I can’t sign in to my account](/help/trouble-signing-in/overview/)
 
   * [I need help verifying my identity](/help/verify-your-identity/overview/)
@@ -25,8 +26,6 @@ intro_content: >-
   * [I need to change my information or manage my account](/help/manage-your-account/overview/)
 
   * [Browse more help articles](/help/)
-
-  {: .help-question-list}
 
 footer_content: >-
   ## Partner with login.gov

@@ -13,6 +13,8 @@ redirect_from:
 Follow these steps to change the email address associated with your account.
 
 ## Part 1: Add email address
+
+{: .number-list}
 1. Sign in to your Login.gov account <https://secure.login.gov>.
 1. Enter your password and click sign in.
 1. Click the “Sign in” button.
@@ -24,9 +26,10 @@ Follow these steps to change the email address associated with your account.
   * Follow the prompts to confirm your email address.
   * If you do not confirm your email address, you will not be able to use it with your Login.gov account.
   * Do not remove the old email address until you have confirmed your new email address.
-{: .number-list}
 
 ## Part 2: Delete the outdated email address
+
+{: .number-list}
 1. Enter your email address at <https://secure.login.gov>.
 1. Enter your password.
 1. Click the “Sign in” button.
@@ -34,4 +37,4 @@ Follow these steps to change the email address associated with your account.
 1. Once you are on the account page, select “Delete” next to the email address you want to remove.
 1. Follow the prompts to confirm that you are deleting the correct address by reentering your password and authentication method.
 1. Click the “Delete email address” button.
-{: .number-list}
+

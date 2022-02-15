@@ -11,6 +11,7 @@ Cada vez que inicie sesión en su cuenta de Login.gov, necesitará su dirección
 
 Siga estos pasos para iniciar sesión en Login.gov:
 
+{: .number-list}
 1. Ingrese su dirección de correo electrónico en <https://secure.login.gov>.
 2. Ingrese su contraseña.
 3. Haga clic en el botón "Iniciar sesión".
@@ -23,7 +24,6 @@ Siga estos pasos para iniciar sesión en Login.gov:
    * Ingresar un código de verificación.
    * Utilizar su ID de empleado del Gobierno Federal o del ejército (PIV o CAC)
 5. Entonces, será redirigido la página de su cuenta de Login.gov.
-{: .number-list}
 
 ## Artículos relacionados
 

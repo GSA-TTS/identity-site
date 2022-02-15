@@ -17,7 +17,8 @@ intro_content: >-
 
 
   ## Visita nuestro Centro de Ayuda para encontrar respuestas a sus preguntas
-  
+
+    {: .help-question-list}
   * [No puedo iniciar sesión en mi cuenta](/es/help/trouble-signing-in/overview/)
 
   * [Necesito ayuda para verificar mi identidad](/es/help/verify-your-identity/overview/)
@@ -26,7 +27,6 @@ intro_content: >-
 
   * [Explorar más artículos de ayuda](/es/help/)
 
-  {: .help-question-list}
 
 footer_content: >-
   ## Asociarse con Login.gov

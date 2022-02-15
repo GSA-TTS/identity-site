@@ -12,6 +12,7 @@ redirect_from:
 
 Siga estos pasos para restablecer su contraseña.
 
+{: .number-list}
 1. Diríjase a [https://secure.login.gov](https://secure.login.gov).
 1. Seleccione el enlace "¿Olvidó su contraseña?" cercano a la parte inferior de la página.
 1. Introduzca su dirección de correo electrónico en la siguiente pantalla.
@@ -24,4 +25,3 @@ Siga estos pasos para restablecer su contraseña.
 
     Su contraseña de Login.gov debe ser diferente de las contraseñas que usa para otras cuentas, como su cuenta bancaria o correo electrónico. Utilizar la misma contraseña en múltiples cuentas facilita el robo de identidad.
 1. Haga clic en el botón "Modificar contraseña".
-{: .number-list}

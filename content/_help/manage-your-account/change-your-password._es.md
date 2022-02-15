@@ -7,6 +7,7 @@ order: 2
 
 Siga estos pasos para cambiar su contraseña en Login.gov.
 
+{: .number-list}
 1. Ingrese su correo electrónico en https://secure.login.gov.
 1. Ingrese su contraseña.
 1. Haga clic en el botón «Iniciar sesión».
@@ -17,4 +18,3 @@ Siga estos pasos para cambiar su contraseña en Login.gov.
 
     Su contraseña de Login.gov debe ser diferente de las contraseñas que utiliza en otras cuentas, como su cuenta bancaria o correo electrónico. Usar la misma contraseña en muchas cuentas facilita el robo de identidad.
 1. Haga clic en el botón «Cambiar contraseña».
-{: .number-list}
