@@ -34,6 +34,29 @@ below. Note: This does not apply to Help pages, which is far more complex. {% en
     </ul>
   </nav>
   {% endif %}
+  {% if page.sidenav == "policy" %}
+  <nav aria-label="{{ site.data[page.lang].settings.accessible_labels.secondary_navigation }}" class="position-sticky pin-top">
+    <ul class="usa-sidenav">
+      <li class="usa-sidenav__item">
+        <!-- TODO: Parent item should not be clickable -->
+        <a href="{{ page.url | prepend: site.baseurl }}" class="usa-current"
+          >{{ site.data[page.lang].settings["nav"][page.sidenav]["title"] }}</a
+        >
+        <ul class="usa-sidenav__sublist">
+          {% for item in site.data[page.lang].settings["nav"][page.sidenav]["sections"]%}
+          <li class="usa-sidenav__item">
+            <a href="{{ item.url }}"
+               class="{% if item.url == page.permalink %}usa-current{% endif %}"
+            >
+              {{ item.name }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  {% endif %}
 {% endcapture %}
 
 {% capture heading %}
