@@ -11,30 +11,31 @@ sections: - name: Our commitment to your privacy and security url: /policy/ - na
 url: /policy/#another-policy-link The page.sidenav value will be passed to the sidenav for loop
 below. Note: This does not apply to Help pages, which is far more complex. {% endcomment %}
 {% capture sidenav %}
+{% if page.sidenav == "policies" %}
+<nav aria-label="{{ site.data[page.lang].settings.accessible_labels.secondary_navigation }}" class="position-sticky pin-top">
+  <ul class="usa-sidenav">
+    <li class="usa-sidenav__item">
+      <!-- Policy page sidenav -->
+      <a href="{{ '/policy' || locale_url }}" class="usa-current"
+        >{{ site.data[page.lang].settings["nav"][page.sidenav]["title"].url }}</a
+      >
+      <ul class="usa-sidenav__sublist">
+        {% for item in site.data[page.lang].settings["nav"][page.sidenav]["sections"]%}
+        <li class="usa-sidenav__item">
+          <a href="{{ item.url }}"
+             class="{% if item.url == page.permalink %}usa-current{% endif %}"
+          >
+            {{ item.name }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+  </ul>
+</nav>
+{% endif %}
+
   {% if page.sidenav != "none" %}
-  <nav aria-label="{{ site.data[page.lang].settings.accessible_labels.secondary_navigation }}" class="position-sticky pin-top">
-    <ul class="usa-sidenav">
-      <li class="usa-sidenav__item">
-        <!-- TODO: Parent item should not be clickable -->
-        <a href="{{ page.url | prepend: site.baseurl }}" class="usa-current"
-          >{{ site.data[page.lang].settings["nav"][page.sidenav]["title"] }}</a
-        >
-        <ul class="usa-sidenav__sublist">
-          {% for item in site.data[page.lang].settings["nav"][page.sidenav]["sections"]%}
-          <li class="usa-sidenav__item">
-            <a href="{{ item.url }}"
-               class="{% if item.url == page.permalink %}usa-current{% endif %}"
-            >
-              {{ item.name }}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </li>
-    </ul>
-  </nav>
-  {% endif %}
-  {% if page.sidenav == "policy" %}
   <nav aria-label="{{ site.data[page.lang].settings.accessible_labels.secondary_navigation }}" class="position-sticky pin-top">
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
