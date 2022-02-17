@@ -14,9 +14,9 @@ Si vous ne recevez pas votre lettre ou si votre code de confirmation expire avan
 
 ## Pour demander un nouveau code
 
+{: .number-list}
 1. Accédez à [https://secure.login.gov](https://secure.login.gov).
 2. Sélectionnez « Envoyez-moi un nouveau code de confirmation » lorsque vous êtes invité à entrer votre code.
-{: .number-list}
 
 ## Articles Liés
 - [Vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)

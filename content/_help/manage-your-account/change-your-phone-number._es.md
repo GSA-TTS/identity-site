@@ -6,6 +6,7 @@ permalink: /es/help/manage-your-account/change-your-phone-number/
 ---
 Siga estos pasos para cambiar el número de teléfono asociado a su cuenta.
 
+{: .number-list}
 1. Ingrese su dirección de correo electrónico en <https://secure.login.gov>.
 2. Ingrese su contraseña.
 3. Haga clic en el botón "Siguiente".
@@ -16,4 +17,3 @@ Siga estos pasos para cambiar el número de teléfono asociado a su cuenta.
 7. Marque la casilla "Número de teléfono predeterminado" si desea que se utilice este número por defecto.
    * El número de teléfono predeterminado será el número de teléfono principal asociado a su cuenta. Si utiliza códigos SMS para autenticarse e iniciar sesión, dichos códigos se enviarán al número de teléfono predeterminado.
 8. Haga clic en "Continuar" y siga las instrucciones para confirmar los cambios.
-{: .number-list}

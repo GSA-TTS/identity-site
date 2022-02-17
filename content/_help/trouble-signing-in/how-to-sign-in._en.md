@@ -13,6 +13,7 @@ Every time you sign in to your Login.gov account, you will need your email addre
 
 Follow these steps to sign in to Login.gov.
 
+{: .number-list}
 1. Enter your email address at <https://secure.login.gov>.
 2. Enter your password.
 3. Click the “Sign in” button.
@@ -25,7 +26,6 @@ Follow these steps to sign in to Login.gov.
    * Entering a backup code
    * Using your federal government employee or military ID (PIV or CAC)
 5. You will then be taken to your Login.gov account page.
-{: .number-list}
 
 ## Related articles
 

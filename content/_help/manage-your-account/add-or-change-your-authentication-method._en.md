@@ -13,6 +13,7 @@ If you lost your authentication method and do not have a backup connected to you
 
 ## Add or change your authentication method:
 
+{: .number-list}
 1. Enter your email address at [https://secure.login.gov](https://secure.login.gov/).
 2. Enter your password.
 3. Click the “Sign in” button.
@@ -20,7 +21,6 @@ If you lost your authentication method and do not have a backup connected to you
 5. On your Login.gov account page, review the “Your authentication methods” menu options on the left side of the page.
 6. Select a new device to add. [Learn more about authentication options](https://login.gov/help/get-started/authentication-options/)
 7. Follow all prompts to confirm your changes.
-{: .number-list}
 
 ## Related articles 
 [Authentication options](https://login.gov/help/get-started/authentication-options/)

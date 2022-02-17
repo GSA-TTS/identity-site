@@ -12,6 +12,7 @@ redirect_from:
 
 Suivez ces étapes pour réinitialiser votre mot de passe.
 
+{: .number-list}
 1. Rendez-vous sur [https://secure.login.gov/](https://secure.login.gov/)
 1. Sélectionnez le lien « Oublié votre mot de passe » en bas de la page.
 1. Sur l’écran suivant, entrez votre adresse électronique.
@@ -24,4 +25,3 @@ Suivez ces étapes pour réinitialiser votre mot de passe.
 
     Votre mot de passe Login.gov doit être différent des mots de passe que vous utilisez pour d’autres comptes tels que votre compte bancaire ou votre courrier électronique. L’utilisation du même mot de passe pour de nombreux comptes facilite l’usurpation d’identité.
 1. Cliquez sur le bouton « Changer le mot de passe ».
-{: .number-list}

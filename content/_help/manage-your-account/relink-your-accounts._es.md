@@ -9,7 +9,7 @@ Si tienes problemas para iniciar sesión en un sitio web asociado a Login.gov de
 
 Prueba lo siguiente:
 
+{: .number-list}
 1. Inicia sesión con la dirección de correo electrónico anterior que utilizaste para registrarte en la agencia asociada.
 
 2. Ponte en contacto con la agencia asociada y solicítale que vincule tu cuenta a la nueva dirección de correo electrónico.
-{: .number-list}

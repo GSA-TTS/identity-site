@@ -10,6 +10,7 @@ redirect_from:
 
 Suivez les étapes suivantes pour changer votre mot de passe Login.gov.
 
+{: .number-list}
 1. Saisissez votre adresse de courriel sur https://secure.login.gov.
 1. Saisissez votre mot de passe.
 1. Cliquez sur le bouton « Se connecter ».
@@ -21,4 +22,3 @@ Suivez les étapes suivantes pour changer votre mot de passe Login.gov.
    Votre mot de passe Login.gov doit être différent des mots de passe que vous utilisez pour d'autres comptes tels que votre compte bancaire ou votre adresse de courriel. L'utilisation du même mot de passe pour plusieurs comptes facilite l'usurpation d'identité.
 
 1. Cliquez sur le bouton « Changer le mot de passe ».
-{: .number-list}

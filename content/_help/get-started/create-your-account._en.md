@@ -9,6 +9,7 @@ redirect_from:
 ---
 Follow these steps to create your Login.gov account.
 
+{: .number-list}
 1. Enter your email address at <https://secure.login.gov/sign_up/enter_email> to begin.
 
    Choose an email address that you’ll always be able to access. Once your account is created, you can add an additional email address, such as a work email or alternate personal address, to access your account.
@@ -43,7 +44,6 @@ Follow these steps to create your Login.gov account.
 
    [Learn more about each authentication option](/help/get-started/authentication-options/) to choose the one that is right for you.
 7. Success! Once you have authenticated, you have created your Login.gov account.
-{: .number-list}
 
 You will be taken to your Login.gov account page or the government agency you are trying to access. You can add additional authentication methods, email addresses or update your information on the Login.gov account page.
 

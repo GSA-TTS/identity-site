@@ -26,5 +26,5 @@ Utilice esta sección de ayuda para conocer el proceso y los requisitos relacion
 
 ## Temas más comunes de solución de problemas
 
-* [Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
 {: .help-question-list}
+* [Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)

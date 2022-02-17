@@ -10,6 +10,7 @@ Si vous avez perdu votre méthode d’authentification et que vous n’avez pas 
 
 ## Ajouter ou modifier votre méthode d’authentification : 
 
+{: .number-list}
 1. Saisissez votre courriel à [https://secure.login.gov/fr/](https://secure.login.gov/fr/).
 2. Saisissez votre mot de passe.
 3. Cliquez sur le bouton « Se connecter ».
@@ -17,7 +18,6 @@ Si vous avez perdu votre méthode d’authentification et que vous n’avez pas 
 5. Sur la page de votre compte Login.gov, passez en revue les options du menu « Vos méthodes d’authentification » sur le côté gauche de la page.
 6. Sélectionnez un nouveau périphérique à ajouter. [En savoir plus sur les options d’authentification](https://login.gov/fr/help/get-started/authentication-options/).
 7. Suivez toutes les instructions pour confirmer vos modifications.
-{: .number-list}
 
 ## Articles connexes 
 
