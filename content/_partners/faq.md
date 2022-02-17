@@ -88,12 +88,12 @@ logistics_accordion:
             Login.gov does not provide authorization. At this time, Login.gov supports authentication and identity proofing capabilities. We encourage agencies to take the lead on determining the best strategy for their role management and authorization. Our industry partners can help develop or provide existing solutions that can address your authorization needs.
     -
         id: b-5
-        title: How does Login.gov meet the NIST 800-63 standards for Identity Assurance Levels (IAL) and Authenticator Assurance Levels (AAL)?
+        title: Does Login.gov meet the NIST 800-63 standards for Identity Assurance Levels (IAL) and Authenticator Assurance Levels (AAL)?
         content: >-
-            We offer two levels of identity assurance within our platform. For our Login.gov basic authentication accounts (IAL1), we rely on the user having access to an email address, and a secure multi-factor authentication method (AAL2 or higher) such as a phone, authentication app or PIV/CAC where they can receive a secure code to use to sign in to their account. 
+            For our Login.gov basic authentication accounts (IAL1), we rely on the user having access to an email address, password, and a secure multi-factor authentication method (AAL2 or higher) such as a phone, authentication app or PIV/CAC where they can receive a secure code to use to sign in to their account.
             <br/>
             <br/>
-            For identity verification (IAL2), in addition to meeting the above requirements for IAL1/AAL2, we ask users to upload a photograph of their state-issued ID and share their address, phone number and other personal information which is then verified against authoritative sources according to the NIST standards.
+            For identity proofing, in addition to meeting the above requirements for IAL1/AAL2, we ask users to upload a photograph of their state-issued ID and share their address, phone number and other personal information which is then verified against authoritative sources. Login.gov’s proofing process is based on the IAL2 specifications but does not fully conform to the requirements—specifically biometrics and liveness check.
     -
         id: b-6
         title: What is identity proofing?
@@ -103,7 +103,7 @@ logistics_accordion:
         id: b-7
         title: What is the proofing rate?
         content: >-
-            The proofing rates will vary by population and we work with the partner to find a solution for users who are not able to proof online. The goal is to provide a high level of assurance. Since the launch of IAL2 we have seen 65%-70% of users who attempt to upload an ID will proof for IAL2. This includes transactions classified as high risk and likely (or potentially) fraudulent.
+            The proofing rates will vary by population and we work with the partner to find a solution for users who are not able to proof online. The goal is to provide a high level of assurance. Since launch, we have seen 65%-70% of users who attempt to upload an ID will proof their identity. This includes transactions classified as high risk and likely (or potentially) fraudulent.
     -
         id: b-8
         title: Can Login.gov authenticate or proof non-U.S. citizens or non-U.S. immigrants (not a U.S. citizen, U.S. national, lawful permanent resident, or traveling to the United States on an immigrant visa)?

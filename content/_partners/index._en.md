@@ -21,7 +21,7 @@ services:
   subheading2: Identity verification
   col_class2: identity
   col2: >-
-    Verify the right person has access to the right information with NIST 800-63 compliant, secure identity verification.
+    Verify the right person has access to the right information with secure identity verification.
 
     [Learn about identity verification](/partners/our-services){:class="partners-identity caret"}
   subheading3: Multilingual user support
@@ -38,7 +38,7 @@ right_for_you:
     - text: You want to securely authenticate users to your application(s) and/or verify their identity
     - text: You want to protect your users’ accounts with strong multi-factor authentication (MFA)
     - text: Your application(s) can integrate with the SAML or OpenID Connect (OIDC) web-based identity protocols
-    - text: You are looking for a highly secure (FedRAMP Moderate) and standards compliant (NIST 800-63) identity solution
+    - text: You are looking for a highly secure (FedRAMP Moderate) identity solution
 
 who_we_work_with:
   heading: Who we work with
