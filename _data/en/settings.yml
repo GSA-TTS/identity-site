@@ -208,6 +208,7 @@ nav:
   playbook: Playbook
   policies:
     title: Privacy & security
+    url: /policy/
     sections:
       - name: Our commitment to your privacy and security
         url: /policy/

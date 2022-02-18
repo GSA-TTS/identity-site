@@ -211,6 +211,7 @@ nav:
   playbook: Guide de mise en œuvre
   policies:
     title: Confidentialité et sécurité
+    url: /fr/policy/
     sections:
       - name: Notre engagement envers votre confidentialité et votre sécurité
         url: /fr/policy/
