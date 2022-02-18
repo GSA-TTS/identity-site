@@ -213,6 +213,7 @@ nav:
   playbook: Manual
   policies:
     title: Privacidad y seguridad
+    url: /es/policy/
     sections:
       - name: Nuestro compromiso con su privacidad y seguridad
         url: /es/policy/
