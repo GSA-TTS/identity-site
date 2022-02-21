@@ -5,7 +5,7 @@ category: verify-your-identity
 permalink: /help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 order: 5
 redirect_from:
-    - /en/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
+  - /en/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 ---
 You need to provide a U.S. based phone number with your name on the phone plan to successfully complete identity verification. 
 
@@ -29,6 +29,12 @@ You can use a work phone number if it is your primary phone number. We will atte
 **What if I use a Google voice or similar VOIP (Voice Over Internet Protocol) number?**
 You cannot use a VOIP number for identity verification at this time.
 
+**Can I use a premium rate or toll number?**\
+You cannot use a premium rate (toll) number.
+
+
+
 ## Related articles
-- [Verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
-- [Verify by mail](/help/verify-your-identity/verify-your-address-by-mail/)
+
+* [Verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
+* [Verify by mail](/help/verify-your-identity/verify-your-address-by-mail/)
