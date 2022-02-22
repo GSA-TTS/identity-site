@@ -29,7 +29,7 @@ You can use a work phone number if it is your primary phone number. We will atte
 **What if I use a Google voice or similar VOIP (Voice Over Internet Protocol) number?**
 You cannot use a VOIP number for identity verification at this time.
 
-**Can I use a premium rate or toll number?**\
+**Can I use a premium rate or toll number?**
 You cannot use a premium rate (toll) number.
 
 

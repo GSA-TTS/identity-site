@@ -26,7 +26,7 @@ Vous pouvez utiliser un numéro de téléphone professionnel s'il s'agit de votr
 **Que se passe-t-il si j'utilise un numéro Google voice ou un numéro VOIP (Voice Over Internet Protocol) similaire?**
 Pour l'instant, vous ne pouvez pas utiliser un numéro VOIP pour la vérification d'identité.
 
-**Puis-je utiliser un numéro surtaxé ou un numéro payant?** \
+**Puis-je utiliser un numéro surtaxé ou un numéro payant?**
 Vous ne pouvez pas utiliser un numéro surtaxé (appel payant).
 
 ## Articles connexes 
