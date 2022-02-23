@@ -35,7 +35,7 @@ footer_content: >-
 
   ## Signaler un problème
 
-  Si vous souhaitez signaler un problème, veuillez consulter [notre politique en matière de divulgation des vulnérabilités](https://18f.gsa.gov/vulnerability-disclosure-policy/) et nous contacter en utilisant [notre formulaire de divulgation des vulnérabilités](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform).
+  Si vous souhaitez signaler un problème, veuillez consulter [notre politique en matière de divulgation des vulnérabilités](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/) et nous contacter en utilisant [notre formulaire de divulgation des vulnérabilités](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform).
 
 scripts:
   - /assets/js/build/contact.js
