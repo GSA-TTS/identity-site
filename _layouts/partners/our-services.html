@@ -1,0 +1,80 @@
+---
+layout: base
+---
+<header>
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include partners/header.html %}
+</header>
+<main id="main-content">
+    <section>
+        <div class="container partners-container">
+            <div class="grid-row">
+                <h1 class="partners-title">{{ page.title }}</h1>
+                <div class="tablet:grid-col-12 partners-border"></div>
+                <div class="partners-body tablet:grid-col-12">
+                    <div>{{ page.subtitle | markdownify}}</div>
+                    <div class="partners-subtitle">{{ page.subsection | markdownify}}</div>
+                </div>
+            </div>
+            <div class="grid-row padding-top-2">
+                <div class="tablet:grid-col-6">
+                    <img class="padding-top-7" src="{{ site.baseurl }}/assets/img/partners/mfa.svg" alt='Multi-factor authentication'>
+                </div>
+                <div class="tablet:grid-col-6 partners-body">
+                    {{ page.self_identity_auth | markdownify }}
+                </div>
+            </div>
+            <div class="grid-row padding-top-2">
+                <div class="tablet:grid-col-6">
+                    <img class="padding-top-7" src="{{ site.baseurl }}/assets/img/partners/ial2.svg" alt='Identity Assurance'>
+                </div>
+                <div class="tablet:grid-col-6 partners-body">
+                    {{ page.verified_identity_auth | markdownify }}
+                </div>
+            </div>
+        </div>
+        <div class="padding-top-2 bg-primary-lightest">
+            <div class="container">
+                <div class="tablet:grid-col-12">
+                    {{ page.benefits | markdownify }}
+                </div>
+                <div class="grid-row">
+                    <div class="tablet:grid-col-5 partners-body">
+                        <div class="thumbs-up padding-top-1 padding-bottom-1">{{ page.benefit1 | markdownify }}</div>
+                        <div class="thumbs-up padding-top-1 padding-bottom-1">{{ page.benefit2 | markdownify }}</div>
+                    </div>
+                    <div class="tablet:grid-col-5 partners-body tablet:grid-offset-1">
+                        <div class="thumbs-up padding-top-1 padding-bottom-1">{{ page.benefit3 | markdownify }}</div>
+                        <div class="thumbs-up padding-top-1 padding-bottom-1">{{ page.benefit4 | markdownify }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container partners-container">
+            <div class="grid-row">
+                <div class="tablet:grid-col-12">
+                    {{ page.resources | markdownify }}
+                </div>
+            </div>
+            <div class="grid-row">
+                <div class="tablet:grid-col-6">
+                    <img class="padding-top-6" src="{{ site.baseurl }}/assets/img/partners/customer-support.svg" alt='Customer support'>
+                </div>
+                <div class="tablet:grid-col-6 partners-body">
+                    {{ page.multilingual_support | markdownify }}
+                </div>
+            </div>
+            <div class="grid-row padding-top-2">
+                <div class="tablet:grid-col-6">
+                    <img class="padding-top-6" src="{{ site.baseurl }}/assets/img/partners/tech.svg" alt='Technical support'>
+                </div>
+                <div class="tablet:grid-col-6 partners-body">
+                    {{ page.technical_support | markdownify }}
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% include partners/partners-banner.html %}
+{% include footer.html %}

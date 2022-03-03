@@ -1,0 +1,103 @@
+---
+layout: base
+---
+<header>
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include partners/header.html %}
+</header>
+<main id="main-content">
+    <section>
+        <div class="container partners-container">
+            <div class="grid-row">
+                <h1 class="partners-title">{{ page.title }}</h1>
+                <div class="tablet:grid-col-12 partners-border"></div>
+                <div class="tablet:grid-col-12 partners-subtitle"> {{ page.body | markdownify }}</div>
+            </div>
+            <div class="grid-row">
+                <div class="tablet:grid-col-12">{{ page.partnership_steps_title | markdownify }}</div>
+            </div>
+            <div class="grid-row">
+                <div class="tablet:grid-col-12 partners-body">
+                    <ol class="usa-process-list">
+                        <li class="usa-process-list__item">
+                            <h4 class="usa-process-list__heading">{{ page.partnership_steps_header1 | markdownify }}</h4>
+                            <p class="margin-top-05">
+                                {{ page.partnership_steps_body1 }}
+                                <a href="{{ site.baseurl }}/partners/contact/" class="caret">Contact an account manager to get started</a>
+                            </p>
+                        </li>
+                        <li class="usa-process-list__item">
+                            <h4 class="usa-process-list__heading">{{ page.partnership_steps_header2 | markdownify }}</h4>
+                            <p>
+                                {{ page.partnership_steps_body2 | markdownify }}
+                            </p>
+                        </li>
+                        <li class="usa-process-list__item">
+                            <h4 class="usa-process-list__heading">{{ page.partnership_steps_header3 | markdownify }}</h4>
+                            <p>
+                                {{ page.partnership_steps_body3 | markdownify }}
+                            </p>
+                        </li>
+                        <li class="usa-process-list__item">
+                            <h4 class="usa-process-list__heading">{{ page.partnership_steps_header4 | markdownify }}</h4>
+                            <p>
+                                {{ page.partnership_steps_body4 | markdownify }}
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="padding-top-8 padding-bottom-8 bg-primary-lightest">
+            <div class="container">
+                <div class="grid-row">
+                    <div class="tablet:grid-col-2 padding-top-4">
+                        <img src="{{ site.baseurl }}/assets/img/partners/ssa-logo.svg" alt='Social Security Administration'>
+                    </div>
+                    <div class="tablet:grid-col-10 padding-left-6 partners-body">
+                        {{ page.ssa_quote | markdownify }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container partners-container">
+            <div class="grid-row grid-gap-6">
+                <div id = "iaa-anchor" class="tablet:grid-col-12">{{ page.iaa_steps_title | markdownify }}</div>
+                <div class="tablet:grid-col-6 partners-subtitle partners-blue-box">
+                    <div>{{ page.iaa_tips | markdownify }}</div>
+                </div>
+                <div class="tablet:grid-col-6 partners-body">
+                    <ol class="usa-process-list">
+                        <li class="usa-process-list__item">
+                            <h4 class="usa-process-list__heading">{{ page.iaa_steps_header1 | markdownify }}</h4>
+                            <p class="margin-top-05">
+                                {{ page.iaa_steps_body1 | markdownify }}
+                            </p>
+                        </li>
+                        <li class="usa-process-list__item">
+                            <h4 class="usa-process-list__heading">{{ page.iaa_steps_header2 | markdownify }}</h4>
+                            <p>
+                                {{ page.iaa_steps_body2 | markdownify }}
+                            </p>
+                        </li>
+                        <li class="usa-process-list__item">
+                            <h4 class="usa-process-list__heading">{{ page.iaa_steps_header3 | markdownify }}</h4>
+                            <p>
+                                {{ page.iaa_steps_body3 | markdownify }}
+                            </p>
+                        </li>
+                        <li class="usa-process-list__item">
+                            <h4 class="usa-process-list__heading">{{ page.iaa_steps_header4 | markdownify }}</h4>
+                            <p>
+                                {{ page.iaa_steps_body4 | markdownify }}
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% include partners/partners-banner.html %}
+{% include footer.html %}

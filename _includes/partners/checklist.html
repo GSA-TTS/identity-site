@@ -1,0 +1,12 @@
+<article class="container is-login-for-you">
+  <header class="intro"><h2>{{ include.heading }}</h2></header>
+  <section>
+    <p>Use our checklist to see if partnership is right for you:</p>
+    <ul>
+      {% for item in include.items %}
+        <li>{{ item.text }}</li>
+      {% endfor %}
+    </ul>
+    <a class="usa-nav__link caret" href="{{ site.baseurl }}/partners/contact">Contact us to learn more</a>
+  </section>
+</article>
