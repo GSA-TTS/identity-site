@@ -15,7 +15,7 @@ L'accès ou l'utilisation non autorisés de Login.gov (par exemple, l'utilisatio
 ### Politique de divulgation des vulnérabilités ### {#vdp}
  Login.gov autorise la communauté de sécurité extérieure à effectuer des recherches sur la sécurité dans le but de signaler les vulnérabilités de sécurité découvertes dans la plate-forme Login.gov.
 
-Consultez notre [Politique de divulgation des vulnérabilités](https://18f.gsa.gov/vulnerability-disclosure-policy/) pour plus de détails sur cette politique et comment signaler les vulnérabilités découvertes.
+Consultez notre [Politique de divulgation des vulnérabilités](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/) pour plus de détails sur cette politique et comment signaler les vulnérabilités découvertes.
 
 ### Pour plus d'informations ### {#more-info}
 

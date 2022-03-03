@@ -13,6 +13,8 @@ Some government applications require identity verification. This additional laye
 You will need to verify your identity and secure your account.
 
 ## Requirements for identity verification
+
+{: .number-list}
 1. Your State-Issued ID. You can upload a photo by phone or by computer. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification/)
 1. A phone or computer with a camera to take a photo of yourself (This feature is not currently enabled or required.)
 1. Social Security Number
@@ -25,6 +27,8 @@ If you are missing any of this information, please contact the government agency
 Login.gov is a secure, government website that adheres to the highest standards in data protection. Most of the data you submit is not stored. Learn how we verify your identity and the [privacy and security measures](/policy/) we take to keep your information safe.
 
 ## Steps for identity verification and securing your account
+
+{: .number-list}
 1. On the “We need to verify your identity” page, read the requirements and, if you agree, check the box next to the Login.gov consent statement.
     * Click “Continue”
 1. Next, upload your State-Issued ID.
@@ -64,6 +68,5 @@ Login.gov is a secure, government website that adheres to the highest standards 
     * If you do not have a phone plan with your name on it or a U.S. phone number, click on “Get a code via mail instead.” You will have to wait to receive a letter in the mail and then follow the instructions to enter the code.
 1.  Once your identity is verified, you need to encrypt your account. Re-enter your Login.gov password. Click “Continue”
 1.  Take note of your personal key and keep it safe. You’ll need to enter your personal key immediately on the next page. Click “Continue”
-{: .number-list}
 
 Once the process is complete, click “Agree and Continue” to be redirected back to your Login.gov account page or the agency you are trying to access.

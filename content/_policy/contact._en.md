@@ -6,18 +6,19 @@ description: Have a question or a problem with Login.gov?
 intro_content: >-
   ## Get in touch
 
-  * Contact the government agency to help you with your application status, membership, eligibility, benefits or other concerns related to your account with that government agency. You can find the contact information on the agency’s website. 
+  * Contact the government agency to help you with your application status, membership, eligibility, benefits or other concerns related to your account with that government agency. You can find the contact information on the agency’s website.
 
 
   * Login.gov can only resolve issues related to signing-in.
 
 
-  * Login.gov cannot sign in, create, delete or manage your account on your behalf. 
+  * Login.gov cannot sign in, create, delete or manage your account on your behalf.
 
 
 
-  ## Find answers to your questions in our Help Center 
-  
+  ## Find answers to your questions in our Help Center
+
+    {: .help-question-list}
   * [I can’t sign in to my account](/help/trouble-signing-in/overview/)
 
   * [I need help verifying my identity](/help/verify-your-identity/overview/)
@@ -26,8 +27,6 @@ intro_content: >-
 
   * [Browse more help articles](/help/)
 
-  {: .help-question-list}
-
 footer_content: >-
   ## Partner with login.gov
 
@@ -35,7 +34,7 @@ footer_content: >-
 
   ## Report an issue
 
-  If you want to report an issue, please review our vulnerability disclosure policy [vulnerability disclosure policy](https://18f.gsa.gov/vulnerability-disclosure-policy/ "Follow link") and contact us using our [vulnerability disclosure form](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Follow link").
+  If you want to report an issue, please review our vulnerability disclosure policy [vulnerability disclosure policy](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/ "Follow link") and contact us using our [vulnerability disclosure form](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Follow link").
 scripts:
   - /assets/js/build/contact.js
 permalink: /contact/

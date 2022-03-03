@@ -12,6 +12,7 @@ redirect_from:
 
 Follow these steps to change your Login.gov password.
 
+{: .number-list}
 1. Enter your email address at [https://secure.login.gov](https://secure.login.gov).
 1. Enter your password.
 1. Click the “Sign in” button.
@@ -24,4 +25,3 @@ Follow these steps to change your Login.gov password.
    Your Login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
 
 1. Click the “Change password” button.
-{: .number-list}

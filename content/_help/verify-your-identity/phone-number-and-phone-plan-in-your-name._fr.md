@@ -23,10 +23,13 @@ Vous n'avez pas besoin d'une ligne fixe. Vous pouvez utiliser un numéro de tél
 **Puis-je utiliser mon numéro de téléphone au travail?**
 Vous pouvez utiliser un numéro de téléphone professionnel s'il s'agit de votre numéro de téléphone principal. Nous tenterons de faire correspondre ce numéro de téléphone à vos autres dossiers publics.
 
-
 **Que se passe-t-il si j'utilise un numéro Google voice ou un numéro VOIP (Voice Over Internet Protocol) similaire?**
 Pour l'instant, vous ne pouvez pas utiliser un numéro VOIP pour la vérification d'identité.
 
+**Puis-je utiliser un numéro surtaxé ou un numéro payant?**
+Vous ne pouvez pas utiliser un numéro surtaxé (appel payant).
+
 ## Articles connexes 
-- [Vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
-- [Vérification par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)
+
+* [Vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
+* [Vérification par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)

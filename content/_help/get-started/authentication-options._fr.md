@@ -24,13 +24,13 @@ Nous vous conseillons d'ajouter deux méthodes d'authentification à votre compt
 **Sécurité**
 Bien que vous avez le choix entre plusieurs options d'authentification, certaines méthodes d'authentification telles que les clés de sécurité, les cartes à puce PIV/CAC et les applications d'authentification sont plus efficaces contre les tentatives d'hameçonnage et le vol.
 
-## Déverrouillage facial ou tactile 
+## Déverrouillage facial ou tactile
 
-Le déverrouillage facial ou tactile utilise la reconnaissance faciale ou les empreintes digitales pour vous connecter à votre compte Login.gov. Cette option est protégée contre le hameçonnage. 
+Le déverrouillage facial ou tactile utilise la reconnaissance faciale ou les empreintes digitales pour vous connecter à votre compte Login.gov. Cette option est protégée contre le hameçonnage.
 
-Vous pouvez uniquement utiliser le déverrouillage facial ou tactile sur un appareil qui prend en charge cette fonctionnalité. Cette option ne sera pas disponible dans la liste des méthodes d'authentification si votre appareil ne dispose pas de cette fonction. Nous ne conservons pas vos empreintes digitales ni vos images. 
+Vous pouvez uniquement utiliser le déverrouillage facial ou tactile sur un appareil qui prend en charge cette fonctionnalité. Cette option ne sera pas disponible dans la liste des méthodes d'authentification si votre appareil ne dispose pas de cette fonction. Nous ne conservons pas vos empreintes digitales ni vos images.
 
-Le déverrouillage facial ou tactile étant spécifique à l'appareil et au navigateur, vous devrez utiliser le même appareil et le même navigateur à l'avenir pour vous connecter en utilisant cette méthode d'authentification. Vous devrez donner un nom à votre appareil pour vous aider à vous souvenir de l'appareil utilisé. 
+Le déverrouillage facial ou tactile étant spécifique à l'appareil et au navigateur, vous devrez utiliser le même appareil et le même navigateur à l'avenir pour vous connecter en utilisant cette méthode d'authentification. Vous devrez donner un nom à votre appareil pour vous aider à vous souvenir de l'appareil utilisé.
 
 Nous vous recommandons vivement de configurer une deuxième méthode d'authentification au cas où vous changeriez ou perdriez votre appareil. Si vous perdez ou changez votre appareil et que vous n'avez pas sélectionné de méthode d'authentification alternative, vous devrez supprimer votre compte et en créer un nouveau.
 
@@ -40,6 +40,7 @@ Les applications d'authentification se téléchargent sur votre appareil et gén
 
 Si vous choisissez cette option de sécurité, suivez les étapes suivantes pour télécharger et installer l'une des applications prises en charge et la configurer pour qu'elle fonctionne avec Login.gov.
 
+{: .number-list}
 1. Choisissez un appareil, tel qu'un ordinateur ou un appareil mobile (téléphone ou tablette), sur lequel vous pouvez installer des applications.
 2. Téléchargez et installez une application d'authentification sur votre appareil. Voici quelques options populaires :
 
@@ -50,7 +51,6 @@ Si vous choisissez cette option de sécurité, suivez les étapes suivantes pour
    * Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
 3. Ouvrez un nouveau navigateur et connectez-vous à votre compte Login.gov à l'adresse https://secure.login.gov/.
 4. Sélectionnez « Activer » à côté de « Application d'authentification » et suivez les instructions pour scanner ou saisir un code associant votre application d'authentification à votre compte.
-{: .number-list}
 
 Vous pourrez désormais utiliser les codes à usage unique générés par l'application chaque fois que vous vous connecterez à Login.gov.
 

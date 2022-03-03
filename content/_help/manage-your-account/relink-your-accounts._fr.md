@@ -9,7 +9,7 @@ Si tu rencontres des problèmes pour te connecter à un site Web partenaire de L
 
 Tu peux essayer les solutions suivantes :
 
+{: .number-list}
 1. Connecte-toi en utilisant l’adresse électronique que tu as utilisée précédemment pour t’inscrire auprès de l’agence partenaire.
 
 2. Contacte l’agence partenaire et demande-lui de lier ton compte à la nouvelle adresse électronique.
-{: .number-list}

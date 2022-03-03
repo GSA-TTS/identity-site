@@ -9,6 +9,8 @@ redirect_from:
 ---
 
 ## Parte 1: agregar una dirección de correo electrónico
+
+{: .number-list}
 1. Inicie sesión en su cuenta de Login.gov a través de <https://secure.login.gov>.
 1. Ingrese su contraseña y haga clic en iniciar sesión.
 1. Haga clic en el botón “Iniciar sesión”.
@@ -20,9 +22,10 @@ redirect_from:
   * Siga las instrucciones para confirmar su dirección de correo electrónico.
   * Si usted no confirma su dirección de correo electrónico, no podrá utilizarla con su cuenta de Login.gov.
   * No elimine la dirección de correo electrónico anterior hasta que haya confirmado la nueva.
-{: .number-list}
 
 ## Parte 2: eliminar la antigua dirección de correo electrónico
+
+{: .number-list}
 1. Ingrese su dirección de correo electrónico en <https://secure.login.gov>.
 1. Ingrese su contraseña.
 1. Haga clic en el botón “Iniciar sesión”.
@@ -30,4 +33,3 @@ redirect_from:
 1. Una vez que esté en la página de su cuenta, seleccione la opción “Eliminar” que aparece junto a la dirección de correo electrónico que desea eliminar.
 1. Siga las instrucciones e ingrese de nuevo su contraseña y método de autenticación para confirmar que está eliminando la dirección correcta.
 1. Haga clic en el botón “Eliminar dirección de correo electrónico”.
-{: .number-list}

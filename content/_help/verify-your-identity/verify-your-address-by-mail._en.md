@@ -18,9 +18,9 @@ If you do not receive your letter, or your confirmation code expires before you 
 
 ## To request a new code
 
+{: .number-list}
 1. Go to [https://secure.login.gov](https://secure.login.gov/).  
 2. Select “Send me a new confirmation code” when asked to enter your code.
-{: .number-list}
 
 ## Related articles
 - [Verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)

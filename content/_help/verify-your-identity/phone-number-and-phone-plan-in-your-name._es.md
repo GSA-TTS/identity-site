@@ -20,12 +20,16 @@ Los teléfonos prepago pueden utilizarse para la verificación de su identidad. 
 **¿Necesito un teléfono fijo?** 
 No necesita un teléfono fijo. Para este paso puede utilizar un número de teléfono móvil. 
 
-**¿Puedo usar mi número de teléfono del trabajo?**\
+**¿Puedo usar mi número de teléfono del trabajo?**
 Puede utilizar un número de teléfono del trabajo si es su número de teléfono principal. Intentaremos encontrar coincidencias entre el número de teléfono y sus otros registros públicos.
 
 **¿Qué ocurre si utilizo un número de Google Voice o un número VOIP (Voice Over Internet Protocol) similar?** 
 En este momento no puede utilizar un número VOIP para la verificación de su identidad.
 
+**¿Puedo usar un número de tarifa especial o por cobrar?**
+Usted no puede usar un número de tarifa especial (por cobrar).
+
 ## Artículos relacionados
-- [Verifique su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
-- [Verificar por correo](/es/help/verify-your-identity/verify-your-address-by-mail/)
+
+* [Verifique su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
+* [Verificar por correo](/es/help/verify-your-identity/verify-your-address-by-mail/)
