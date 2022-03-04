@@ -160,7 +160,7 @@ development_accordion:
         id: c-5
         title: Do we need an approved IAA before we can launch our integration with Login.gov?
         content: >-
-            In order to launch your integration with Login.gov, your agency must first complete an IAA. You can test your application during the IAA process.  Once testing is complete and the IAA has been executed, Login.gov will launch your integration within two weeks.  [Learn more about an IAA here](/partners/get-started/#iaa-anchor/){:class="usa-nav_link caret"}
+            In order to launch your integration with Login.gov, your agency must first complete an IAA. You can test your application during the IAA process.  Once testing is complete and the IAA has been executed, Login.gov will launch your integration within two weeks.  [Learn more about an IAA here](/partners/get-started/#iaa-anchor){:class="usa-nav_link caret"}
     -
         id: c-6
         title: Do you integrate with Commercial Off-The-Shelf (COTS) solutions?
