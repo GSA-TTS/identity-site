@@ -1,4 +1,7 @@
 <main id="main-content">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
   <section>
     <div class="container partners-container">
       <div class="grid-row">
@@ -8,7 +11,11 @@
             hbspt.forms.create({
               region: "na1",
               portalId: "{{ site.partnership_contact_portal_id }}",
-              formId: "{{ site.partnership_contact_form_id }}"
+              formId: "{{ site.partnership_contact_form_id }}",
+              onFormReady: function($form) {
+                const iFrame = document.getElementById('hs-form-iframe-0');
+                iFrame.setAttribute('title', 'Login dot gov contact us form');
+              },
             });
           </script>
         </div>
