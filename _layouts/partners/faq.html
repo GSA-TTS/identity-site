@@ -89,7 +89,7 @@ layout: base
                   </div>
                   <div class="usa-accordion usa-accordion--bordered margin-bottom-5" aria-multiselectable="true">
                       {% for item in page.general_accordion %}
-                          <h4 class="usa-accordion__heading">
+                          <div class="usa-accordion__heading">
                               <button
                                 onclick="updateSingleAccordion(this, 'general')"
                                 class="usa-accordion__button login-accordion-btn-general"
@@ -98,7 +98,7 @@ layout: base
                                 >
                                 {{ item.title }}
                               </button>
-                          </h4>
+                          </div>
                           <div id={{ item.id }} class="usa-accordion__content login-accordion-content-general">
                           {{ item.content | markdownify}}
                           </div>
