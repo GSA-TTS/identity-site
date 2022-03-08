@@ -3,11 +3,11 @@ layout: partners/faq
 permalink: /partners/faq/
 title: Frequently Asked Questions (FAQ)
 general_section_title: >-
-    ### General
+    ## General
 logistics_section_title: >-
-    ### Logistics
+    ## Logistics
 development_section_title: >-
-    ### Development
+    ## Development
 general_accordion:
     -
         id: a-1
