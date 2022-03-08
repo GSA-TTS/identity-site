@@ -68,6 +68,8 @@ Login.gov ne renouvelle pas, ne réédite pas ou n’expire pas les authentifica
 
 Lorsque vous enregistrez un authentifiant avec le service Login.gov, vous consentez à ce que nous l'utilisions comme authentifiant pour accéder à votre compte. Si vous vous inscrivez pour recevoir des SMS ou des messages vocaux, vous autorisez l'utilisation de votre numéro de téléphone pour envoyer des messages texte et passer des appels téléphoniques.
 
+Pour les authentificateurs physiques tels que les codes de sauvegarde imprimés, un jeton matériel ou un téléphone, protégez-les en les gardant dans un endroit sûr ou sur vous. Ne les laissez pas s’abîmer. S’ils sont perdus, cassés ou endommagés, vous risquez de perdre l’accès à votre compte.
+
 Au cas où vous oublieriez votre mot de passe, vous pouvez le réinitialiser si vous avez accès à votre adresse électronique. Si vous ne disposez d'aucun de vos autres authentifiants, vous pouvez toujours accéder à votre compte, mais nous supprimerons toutes les informations qu'il contient. Vous pouvez modifier votre phrase de passe à tout moment à partir du profil de votre compte. Si vous perdez un autre authentifiant ou ne souhaitez plus l'utiliser, vous pouvez le désactiver à tout moment dans le profil de votre compte.
 
 Si nous soupçonnons une fraude sur votre compte, nous pouvons verrouiller votre compte et vous contacter. Si nous avons des raisons de croire que votre mot de passe a été compromis, nous sommes en droit de vous demander de le réinitialiser.
