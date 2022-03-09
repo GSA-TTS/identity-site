@@ -6,7 +6,7 @@ title: >-
 subtitle: >-
     ## Understanding our service levels
 subsection: >-
-    Login.gov provides two service levels for partners: authentication and identity verification. Login.gov leverages the <a target="_blank" href="https://pages.nist.gov/800-63-3/" class="external-link">NIST 800-63-3 Digital Identity Guidelines</a> for Identity Assurance Level (IAL) and Authenticator Assurance Level (AAL). Login.gov allows you to configure your IAL and AAL depending on the needs of your application.
+    Login.gov provides two service levels for partners: authentication and identity verification. Login.gov leverages the <a href="https://pages.nist.gov/800-63-3/" class="external-link">NIST 800-63-3 Digital Identity Guidelines</a> for Identity Assurance Level (IAL) and Authenticator Assurance Level (AAL). Login.gov allows you to configure your IAL and AAL depending on the needs of your application.
 self_identity_auth: >-
     ### Self-asserted identity and authentication (IAL1/AAL2)
 
@@ -41,13 +41,13 @@ technical_support: >-
     Login.gov provides technical support for successful deployment of your integration. Our integration engineers can answer technical questions about our product, provide guidance on best practices for implementation, and facilitate the launch of your integration to production in weeks, not months.
 
 
-    We also have a dedicated Slack channel for questions in real time. Additionally, we provide all partners with our step-by-step developer documents at <a target="_blank" href="https://developers.login.gov/" class="external-link">developers.login.gov</a> 
+    We also have a dedicated Slack channel for questions in real time. Additionally, we provide all partners with our step-by-step developer documents at <a href="https://developers.login.gov/" class="external-link">developers.login.gov</a> 
 benefits: >-
     ## Benefits of partnering with Login.gov
 benefit1: >-
     We are committed to user privacy and security
 benefit2: >-
-    Secure two-factor authentication (2FA) backed by a <a target="_blank" href="https://www.fedramp.gov/" class="external-link">FedRAMP Moderate ATO</a>
+    Secure two-factor authentication (2FA) backed by a <a href="https://www.fedramp.gov/" class="external-link">FedRAMP Moderate ATO</a>
 benefit3: >-
     Enhanced fraud detection and monitoring
 benefit4: >-

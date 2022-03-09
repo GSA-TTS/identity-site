@@ -64,7 +64,7 @@ general_accordion:
         id: a-6
         title: How do we partner with Login.gov?
         content: >-
-            <a target="_blank" href="https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e" class="external-link">To get started, reach out to our team using this form</a>. We’ll work with you to understand and capture your needs and requirements at a high level. Together, we’ll decide whether Login.gov makes sense for your particular business and use cases. If we decide to move forward, the next step is to sign an Interagency Agreement (IAA). This signals a mutual commitment which allows us to commit further resources to technical discovery and integration and migration planning.
+            <a href="https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e" class="external-link">To get started, reach out to our team using this form</a>. We’ll work with you to understand and capture your needs and requirements at a high level. Together, we’ll decide whether Login.gov makes sense for your particular business and use cases. If we decide to move forward, the next step is to sign an Interagency Agreement (IAA). This signals a mutual commitment which allows us to commit further resources to technical discovery and integration and migration planning.
 logistics_accordion:
     -
         id: b-1
@@ -108,7 +108,7 @@ logistics_accordion:
         id: b-8
         title: Can Login.gov authenticate or proof non-U.S. citizens or non-U.S. immigrants (not a U.S. citizen, U.S. national, lawful permanent resident, or traveling to the United States on an immigrant visa)?
         content: >-
-            <a target="_blank" href="https://login.gov/help/manage-your-account/international-phone-support/" class="external-link">Click here for a complete list of international phone numbers that Login.gov supports for authenticating end-users </a>. In addition to a phone number, at this time Login.gov requires users to proof with a state-issued ID card and social security number.
+            <a href="https://login.gov/help/manage-your-account/international-phone-support/" class="external-link">Click here for a complete list of international phone numbers that Login.gov supports for authenticating end-users </a>. In addition to a phone number, at this time Login.gov requires users to proof with a state-issued ID card and social security number.
     -
         id: b-9
         title: What forms of identification can Login.gov accept for identity proofing?
@@ -120,7 +120,7 @@ logistics_accordion:
             - A non-driver’s license state-issued ID card
                 – This is an identity document issued by the state/US territory that asserts identity but does not give driving privileges.
 
-            Users cannot verify their identity on Login.gov without a state-issued ID. We’re currently working to add more ways to verify identity. <a target="_blank" href="https://login.gov/help/verify-your-identity/how-to-verify-your-identity/" class="external-link">Learn more about the requirements for verifying identity</a>
+            Users cannot verify their identity on Login.gov without a state-issued ID. We’re currently working to add more ways to verify identity. <a href="https://login.gov/help/verify-your-identity/how-to-verify-your-identity/" class="external-link">Learn more about the requirements for verifying identity</a>
     -
         id: b-10
         title: How is Login.gov going to improve proofing coverage?
@@ -131,7 +131,7 @@ development_accordion:
         id: c-1
         title: Can we have a sandbox?
         content: >-
-            Login.gov provides an open sandbox environment to create and test integrations between Login.gov and your applications. In the sandbox environment, we provide a Dashboard where you can manage your test applications. <a target="_blank" href="https://developers.login.gov/testing/#how-to-get-started" class="external-link">Click here to get started with our sandbox</a>
+            Login.gov provides an open sandbox environment to create and test integrations between Login.gov and your applications. In the sandbox environment, we provide a Dashboard where you can manage your test applications. <a href="https://developers.login.gov/testing/#how-to-get-started" class="external-link">Click here to get started with our sandbox</a>
     -
         id: c-2
         title: What counts as an authentication?
@@ -141,21 +141,21 @@ development_accordion:
         id: c-3
         title: How do we get our application to production?
         content: >-
-            <a target="_blank" href="https://developers.login.gov/production/" class="external-link">See our production deployment page here</a>. We deploy changes to our production configuration weekly on Thursdays between 11am – 2pm EST. 
+            <a href="https://developers.login.gov/production/" class="external-link">See our production deployment page here</a>. We deploy changes to our production configuration weekly on Thursdays between 11am – 2pm EST. 
     -
         id: c-4
         title: What do you support-SAML vs. OAuth vs. OpenID?
         content: >-
             SAML vs. OAuth vs. OpenID
 
-            - We do not support the OpenID Connect “implicit flow” with client_secret because it is <a target="_blank" href="https://oauth.net/2/grant-types/implicit/" class="external-link">not recommended by the OAuth group</a> for security reasons. We do support OpenID Connect private_key_jwt and PKCE
+            - We do not support the OpenID Connect “implicit flow” with client_secret because it is <a href="https://oauth.net/2/grant-types/implicit/" class="external-link">not recommended by the OAuth group</a> for security reasons. We do support OpenID Connect private_key_jwt and PKCE
 
 
             For more info see:
 
-            - <a target="_blank" href="https://developers.login.gov/saml/" class="external-link">https://developers.login.gov/saml/</a>
+            - <a href="https://developers.login.gov/saml/" class="external-link">https://developers.login.gov/saml/</a>
 
-            - <a target="_blank" href="https://developers.login.gov/oidc/" class="external-link">https://developers.login.gov/oidc/</a>
+            - <a href="https://developers.login.gov/oidc/" class="external-link">https://developers.login.gov/oidc/</a>
     -
         id: c-5
         title: Do we need an approved IAA before we can launch our integration with Login.gov?

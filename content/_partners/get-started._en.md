@@ -34,7 +34,7 @@ partnership_steps_body1: >-
 partnership_steps_header2: >-
     Estimate usage and test integrations
 partnership_steps_body2: >-
-    During onboarding, an account manager will work with your agency to estimate usage and provide a cost estimator. Once you’ve created your application and implemented an identity protocol, you can register it in the test environment dashboard and start testing. We advise at least two to three weeks for your team to test and integrate with Login.gov. <a target="_blank" href="https://developers.login.gov/testing/#how-to-get-started" class="external-link">Learn more about the sandbox environment</a>
+    During onboarding, an account manager will work with your agency to estimate usage and provide a cost estimator. Once you’ve created your application and implemented an identity protocol, you can register it in the test environment dashboard and start testing. We advise at least two to three weeks for your team to test and integrate with Login.gov. <a href="https://developers.login.gov/testing/#how-to-get-started" class="external-link">Learn more about the sandbox environment</a>
 partnership_steps_header3: >-
     Establish an Interagency Agreement (IAA)
 partnership_steps_body3: >-
@@ -48,7 +48,7 @@ iaa_steps_title: >-
 iaa_steps_header1: >-
     IAA request form
 iaa_steps_body1: >-
-    Partner agency provides Login.gov funding and other relevant information through the <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSewf-GlKoHwnF5S_HAYAqMwLigFIZ5tha9D92l6wD38WhYdrw/viewform" class="external-link">IAA form</a>.
+    Partner agency provides Login.gov funding and other relevant information through the <a href="https://docs.google.com/forms/d/e/1FAIpQLSewf-GlKoHwnF5S_HAYAqMwLigFIZ5tha9D92l6wD38WhYdrw/viewform" class="external-link">IAA form</a>.
 iaa_steps_header2: >-
     IAA creation
 iaa_steps_body2: >-
