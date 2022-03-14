@@ -17,7 +17,7 @@ three_col:
     gubernamentales participantes.
 
 
-    [Más información sobre Login.gov](https://login.gov/es/what-is-login/){:class="why-more-info"}
+    [Más información sobre Login.gov](/es/what-is-login/){:class="why-more-info"}
   subheading2: Socios de agencias
   col2: >-
     Proteja la información de sus usuarios con los más altos estándares de
