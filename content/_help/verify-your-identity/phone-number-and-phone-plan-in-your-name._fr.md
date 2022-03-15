@@ -31,5 +31,5 @@ Vous ne pouvez pas utiliser un numéro surtaxé (appel payant).
 
 ## Articles connexes 
 
-* [Vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
-* [Vérification par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)
+* [Vérifier votre identité]({{ site.baseurl }}/fr/help/verify-your-identity/how-to-verify-your-identity/)
+* [Vérification par courrier]({{ site.baseurl }}/fr/help/verify-your-identity/verify-your-address-by-mail/)

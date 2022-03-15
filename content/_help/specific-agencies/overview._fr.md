@@ -45,6 +45,6 @@ Nous fournissons un contenu d'aide spécifique pour nos agences partenaires les 
 ## Sujets de dépannage courants
 
 {: .help-question-list}
-* [Comment se connecter à Login.gov](/fr/help/trouble-signing-in/how-to-sign-in/)
-* [Changer votre mot de passe](/fr/help/manage-your-account/change-your-password/)
-* [Mot de passe oublié](/fr/help/trouble-signing-in/forgot-your-password/)
+* [Comment se connecter à Login.gov]({{ site.baseurl }}/fr/help/trouble-signing-in/how-to-sign-in/)
+* [Changer votre mot de passe]({{ site.baseurl }}/fr/help/manage-your-account/change-your-password/)
+* [Mot de passe oublié]({{ site.baseurl }}/fr/help/trouble-signing-in/forgot-your-password/)

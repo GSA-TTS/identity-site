@@ -17,7 +17,7 @@ three_col:
     gouvernementales participantes.
 
 
-    [En savoir plus sur Login.gov](/fr/what-is-login/){:class="why-more-info"}
+    [En savoir plus sur Login.gov]({{ site.baseurl }}/fr/what-is-login/){:class="why-more-info"}
   subheading2: Partenaires de l’agence
   col2: >-
     Protégez les informations de vos utilisateurs avec les plus hauts standards

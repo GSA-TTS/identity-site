@@ -19,13 +19,13 @@ intro_content: >-
   ## Find answers to your questions in our Help Center
 
     {: .help-question-list}
-  * [I can’t sign in to my account](/help/trouble-signing-in/overview/)
+  * [I can’t sign in to my account]({{ site.baseurl }}/help/trouble-signing-in/overview/)
 
-  * [I need help verifying my identity](/help/verify-your-identity/overview/)
+  * [I need help verifying my identity]({{ site.baseurl }}/help/verify-your-identity/overview/)
 
-  * [I need to change my information or manage my account](/help/manage-your-account/overview/)
+  * [I need to change my information or manage my account]({{ site.baseurl }}/help/manage-your-account/overview/)
 
-  * [Browse more help articles](/help/)
+  * [Browse more help articles]({{ site.baseurl }}/help/)
 
 footer_content: >-
   ## Partner with login.gov

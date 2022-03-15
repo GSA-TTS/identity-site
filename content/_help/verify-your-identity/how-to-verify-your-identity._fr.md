@@ -12,7 +12,7 @@ Vous devrez vérifier votre identité et sécuriser votre compte.
 ## Exigences relatives à la vérification de l'identité
 
 {: .number-list}
-1. Votre carte d'identité délivrée par l'État. Vous pouvez charger une photo via un téléphone ou un ordinateur. [Vous n'avez pas de carte d'identité délivrée par l'État?](/fr/help/verify-your-identity/accepted-state-issued-identification/)
+1. Votre carte d'identité délivrée par l'État. Vous pouvez charger une photo via un téléphone ou un ordinateur. [Vous n'avez pas de carte d'identité délivrée par l'État?]({{ site.baseurl }}/fr/help/verify-your-identity/accepted-state-issued-identification/)
 1. Vous pouvez à l'aide d'un téléphone ou d'un ordinateur équipé d'une caméra prendre une photo de vous (Cette fonction n'est pas actuellement activée ou requise.)
 1. Numéro de sécurité sociale
 1. Un numéro de téléphone sur un plan téléphonique qui est à votre nom.
@@ -21,7 +21,7 @@ Vous devrez vérifier votre identité et sécuriser votre compte.
 S'il vous manque une de ces informations, veuillez contacter l'agence gouvernementale à laquelle vous essayez d'accéder.
 
 ## Nos normes de sécurité et de protection de la vie privée
-Login.gov est un site web gouvernemental sécurisé qui respecte les normes les plus strictes en matière de protection des données. La plupart des données que vous soumettez ne sont pas stockées. Découvrez comment nous vérifions votre identité et [les mesures de sécurité et de protection](/fr/policy/) de la vie privée que nous prenons pour assurer la sécurité de vos informations.
+Login.gov est un site web gouvernemental sécurisé qui respecte les normes les plus strictes en matière de protection des données. La plupart des données que vous soumettez ne sont pas stockées. Découvrez comment nous vérifions votre identité et [les mesures de sécurité et de protection]({{ site.baseurl }}/fr/policy/) de la vie privée que nous prenons pour assurer la sécurité de vos informations.
 
 ## Étapes de la vérification de l'identité et de la sécurisation de votre compte
 

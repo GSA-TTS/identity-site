@@ -20,7 +20,7 @@ component:
     * Programa de solicitudes de préstamos por desastre (Administración de pequeñas empresas)
   col2: >-
     Login.gov se adhiere a los últimos [estándares de
-    seguridad](/es/security/) establecidos por las principales
+    seguridad]({{ site.baseurl }}/es/security/) establecidos por las principales
     organizaciones de seguridad como el [Instituto Nacional de Estándares y
     Tecnología](https://www.nist.gov/), el [Plan de Acción Nacional de
     Ciberseguridad](https://www.hsdl.org/c/cybersecurity-national-action-plan/)

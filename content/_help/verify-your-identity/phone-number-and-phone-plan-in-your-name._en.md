@@ -36,5 +36,5 @@ You cannot use a premium rate (toll) number.
 
 ## Related articles
 
-* [Verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
-* [Verify by mail](/help/verify-your-identity/verify-your-address-by-mail/)
+* [Verify your identity]({{ site.baseurl }}/help/verify-your-identity/how-to-verify-your-identity/)
+* [Verify by mail]({{ site.baseurl }}/help/verify-your-identity/verify-your-address-by-mail/)

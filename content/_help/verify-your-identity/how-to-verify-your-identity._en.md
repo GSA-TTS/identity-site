@@ -15,7 +15,7 @@ You will need to verify your identity and secure your account.
 ## Requirements for identity verification
 
 {: .number-list}
-1. Your State-Issued ID. You can upload a photo by phone or by computer. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification/)
+1. Your State-Issued ID. You can upload a photo by phone or by computer. [Don’t have a state issued ID?]({{ site.baseurl }}/help/verify-your-identity/accepted-state-issued-identification/)
 1. A phone or computer with a camera to take a photo of yourself (This feature is not currently enabled or required.)
 1. Social Security Number
 1. A phone number on a phone plan that is in your name.
@@ -24,7 +24,7 @@ You will need to verify your identity and secure your account.
 If you are missing any of this information, please contact the government agency you are trying to access.
 
 ## Our privacy and security standards
-Login.gov is a secure, government website that adheres to the highest standards in data protection. Most of the data you submit is not stored. Learn how we verify your identity and the [privacy and security measures](/policy/) we take to keep your information safe.
+Login.gov is a secure, government website that adheres to the highest standards in data protection. Most of the data you submit is not stored. Learn how we verify your identity and the [privacy and security measures]({{ site.baseurl }}/policy/) we take to keep your information safe.
 
 ## Steps for identity verification and securing your account
 

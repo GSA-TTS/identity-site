@@ -23,4 +23,4 @@ If you do not receive your letter, or your confirmation code expires before you 
 2. Select “Send me a new confirmation code” when asked to enter your code.
 
 ## Related articles
-- [Verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
+- [Verify your identity]({{ site.baseurl }}/help/verify-your-identity/how-to-verify-your-identity/)

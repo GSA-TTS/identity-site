@@ -12,7 +12,7 @@ Necesitarás verificar tu identidad y asegurar tu cuenta.
 ## Requisitos para la verificación de identidad
 
 {: .number-list}
-1. Tu identificación emitida por el estado. Puedes subir una foto por teléfono o por computadora. [¿No cuentas con una identificación emitida por el estado?](/es/help/verify-your-identity/accepted-state-issued-identification/)
+1. Tu identificación emitida por el estado. Puedes subir una foto por teléfono o por computadora. [¿No cuentas con una identificación emitida por el estado?]({{ site.baseurl }}/es/help/verify-your-identity/accepted-state-issued-identification/)
 1. Un teléfono o computadora con cámara para que te tomes una foto (Esta característica está desactivada o no es requerida actualmente.)
 1. Número de seguridad social
 1. Un número telefónico o un plan telefónico que tengas a tu nombre
@@ -21,7 +21,7 @@ Necesitarás verificar tu identidad y asegurar tu cuenta.
 Si te falta alguna información de este tipo, por favor ponte en contacto con la agencia gubernamental a la que estás tratando de tener acceso.
 
 ## Nuestros estándares de privacidad y seguridad
-Login.gov es un sitio web gubernamental seguro que se apega a los estándares más altos en lo que se refiere a la protección de datos. La mayor parte de los datos que envías no se almacenan. Conoce cómo verificamos tu identidad y las [medidas de privacidad y seguridad](/es/policy/) que adoptamos para mantener tu información segura.
+Login.gov es un sitio web gubernamental seguro que se apega a los estándares más altos en lo que se refiere a la protección de datos. La mayor parte de los datos que envías no se almacenan. Conoce cómo verificamos tu identidad y las [medidas de privacidad y seguridad]({{ site.baseurl }}/es/policy/) que adoptamos para mantener tu información segura.
 
 ## Pasos para la verificación de identidad y para asegurar tu cuenta
 

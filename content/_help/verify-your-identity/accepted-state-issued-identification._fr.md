@@ -18,4 +18,4 @@ En attendant, veuillez contacter le centre d'assistance de l'agence partenaire p
 
 ## Articles connexes
 
-[Vérifiez votre identité](/fr/help/verify-your-identity/overview/)
+[Vérifiez votre identité]({{ site.baseurl }}/fr/help/verify-your-identity/overview/)

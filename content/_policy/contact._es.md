@@ -19,13 +19,13 @@ intro_content: >-
   ## Visita nuestro Centro de Ayuda para encontrar respuestas a sus preguntas
 
     {: .help-question-list}
-  * [No puedo iniciar sesión en mi cuenta](/es/help/trouble-signing-in/overview/)
+  * [No puedo iniciar sesión en mi cuenta]({{ site.baseurl }}/es/help/trouble-signing-in/overview/)
 
-  * [Necesito ayuda para verificar mi identidad](/es/help/verify-your-identity/overview/)
+  * [Necesito ayuda para verificar mi identidad]({{ site.baseurl }}/es/help/verify-your-identity/overview/)
 
-  * [Necesito cambiar mi información o administrar mi cuenta](/es/help/manage-your-account/overview/)
+  * [Necesito cambiar mi información o administrar mi cuenta]({{ site.baseurl }}/es/help/manage-your-account/overview/)
 
-  * [Explorar más artículos de ayuda](/es/help/)
+  * [Explorar más artículos de ayuda]({{ site.baseurl }}/es/help/)
 
 
 footer_content: >-

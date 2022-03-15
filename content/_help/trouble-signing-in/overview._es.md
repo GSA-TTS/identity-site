@@ -52,5 +52,5 @@ redirect_from:
 ## Temas más comunes de solución de problemas
 
 {: .help-question-list}
-* [Cómo acceder a Login.gov](/es/help/trouble-signing-in/how-to-sign-in/)
-* [Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
+* [Cómo acceder a Login.gov]({{ site.baseurl }}/es/help/trouble-signing-in/how-to-sign-in/)
+* [Olvidó su contraseña]({{ site.baseurl }}/es/help/trouble-signing-in/forgot-your-password/)

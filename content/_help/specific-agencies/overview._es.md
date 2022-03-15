@@ -45,6 +45,6 @@ Proporcionamos algunos elementos de ayuda específicos para nuestros socios de l
 ## Temas más comunes de solución de problemas
 
 {: .help-question-list}
-* [Cómo iniciar sesión en Login.gov](/es/help/trouble-signing-in/how-to-sign-in/)
-* [Cambie su contraseña](/es/help/manage-your-account/change-your-password/)
-* [Ha olvidado su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
+* [Cómo iniciar sesión en Login.gov]({{ site.baseurl }}/es/help/trouble-signing-in/how-to-sign-in/)
+* [Cambie su contraseña]({{ site.baseurl }}/es/help/manage-your-account/change-your-password/)
+* [Ha olvidado su contraseña]({{ site.baseurl }}/es/help/trouble-signing-in/forgot-your-password/)

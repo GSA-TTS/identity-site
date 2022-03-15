@@ -27,4 +27,4 @@ Utilisez cette rubrique d’aide pour comprendre le processus et les exigences e
 ## Sujets de dépannage courants
 
 {: .help-question-list}
-* [Comment vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
+* [Comment vérifier votre identité]({{ site.baseurl }}/fr/help/verify-your-identity/how-to-verify-your-identity/)

@@ -20,4 +20,4 @@ Ten en mente que si no recibes la carta o si el código de confirmación caduca 
 
 ## Artículos relacionados 
 
-- [Verifica tu identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
+- [Verifica tu identidad]({{ site.baseurl }}/es/help/verify-your-identity/how-to-verify-your-identity/)

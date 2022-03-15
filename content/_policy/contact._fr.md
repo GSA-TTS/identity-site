@@ -18,13 +18,13 @@ intro_content: >-
   ## Trouvez les réponses à vos questions à notre centre d'aide
 
     {: .help-question-list}
-  * [Je ne peux pas me connecter à mon compte](/fr/help/trouble-signing-in/overview/)
+  * [Je ne peux pas me connecter à mon compte]({{ site.baseurl }}/fr/help/trouble-signing-in/overview/)
 
-  * [J’ai besoin d’aide pour vérifier mon identité](/fr/help/verify-your-identity/overview/)
+  * [J’ai besoin d’aide pour vérifier mon identité]({{ site.baseurl }}/fr/help/verify-your-identity/overview/)
 
-  * [Je dois modifier mes informations ou gérer mon compte](/fr/help/manage-your-account/overview/)
+  * [Je dois modifier mes informations ou gérer mon compte]({{ site.baseurl }}/fr/help/manage-your-account/overview/)
 
-  * [Parcourir d’autres articles d’aide](/fr/help/)
+  * [Parcourir d’autres articles d’aide]({{ site.baseurl }}/fr/help/)
 
 
 footer_content: >-

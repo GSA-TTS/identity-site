@@ -31,5 +31,5 @@ Usted no puede usar un número de tarifa especial (por cobrar).
 
 ## Artículos relacionados
 
-* [Verifique su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
-* [Verificar por correo](/es/help/verify-your-identity/verify-your-address-by-mail/)
+* [Verifique su identidad]({{ site.baseurl }}/es/help/verify-your-identity/how-to-verify-your-identity/)
+* [Verificar por correo]({{ site.baseurl }}/es/help/verify-your-identity/verify-your-address-by-mail/)
