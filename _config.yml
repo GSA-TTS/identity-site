@@ -112,7 +112,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-autoprefixer
-  - jekyll-liquify
 
 default_locale: en
 
