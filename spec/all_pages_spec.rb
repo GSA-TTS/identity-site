@@ -41,7 +41,7 @@ RSpec.describe 'all pages' do
         aggregate_failures do
           doc.css('a').each do |a|
             next if a[:href].start_with?('#')
-            uri = URI(a[:href])
+            uri = URI(a[:href].delete("{{ site.baseurl }}"))
             next if external_link?(uri)
             expect(uri).to be_https_scheme, "expected https, got:\n\n#{a.to_html}"
           end
