@@ -449,7 +449,7 @@ include:
     }}</label
   >
   <div class="usa-hint">
-    {{ site.data[page.lang].settings.contact_page.support_request_form.labels.pii_warning | liquify | markdownify | remove: '
+    {{ site.data[page.lang].settings.contact_page.support_request_form.labels.pii_warning | markdownify | remove: '
     <p>' | remove: '</p>
     ' }}
   </div>

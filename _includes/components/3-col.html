@@ -3,15 +3,15 @@
     <div class="grid-row">
       <div class="tablet:grid-col">
         <h3 class="hdr individuals">{{ include.subheading1 }}</h3>
-        {{ include.col1 | liquify | markdownify }}
+        {{ include.col1 | markdownify }}
       </div>
       <div class="tablet:grid-col">
         <h3 class="hdr partners">{{ include.subheading2 }}</h3>
-        {{ include.col2 | liquify | markdownify }}
+        {{ include.col2 | markdownify }}
       </div>
       <div class="tablet:grid-col">
         <h3 class="hdr developers">{{ include.subheading3 }}</h3>
-        {{ include.col3 | liquify | markdownify }}
+        {{ include.col3 | markdownify }}
       </div>
     </div>
   </article>

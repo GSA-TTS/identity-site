@@ -6,7 +6,6 @@ gem 'jekyll', '>= 4.0.0'
 gem 'jekyll-redirect-from', '>= 0.15.0'
 gem 'jekyll-sitemap', '>= 1.4.0'
 gem "jekyll-autoprefixer", "~> 1.0"
-gem "jekyll-liquify"
 
 group :development do
   gem 'pry'

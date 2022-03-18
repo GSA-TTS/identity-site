@@ -10,12 +10,12 @@
       />
     </div>
     <div class="tablet:grid-col-6">
-      {{ include.col1 | liquify | markdownify }}
+      {{ include.col1 | markdownify }}
     </div>
   </div>
   <div class="how-it-works page-content__prose">
     <div class="banner-text">
-      {{ include.bannertext | liquify | markdownify }}
+      {{ include.bannertext | markdownify }}
     </div>
     <div class="text-container grid-row">
       <div class="text-column tablet:grid-col-6 pad-left-element">
@@ -26,7 +26,7 @@
             role="img"
             src="{{ site.baseurl }}/assets/img/how-it-works1@2x.png"
           />
-        {{ include.bannercol1 | liquify | markdownify }}
+        {{ include.bannercol1 | markdownify }}
       </div>
       <div class="text-column tablet:grid-col-6">
         <img
@@ -36,13 +36,13 @@
           role="img"
           src="{{ site.baseurl }}/assets/img/how-it-works2@2x.png"
         />
-        {{ include.bannercol2 | liquify | markdownify }}
+        {{ include.bannercol2 | markdownify }}
       </div>
     </div>
   </div>
   <div class="secure-account-container grid-row">
     <div class="page-content__prose tablet:grid-col-6">
-      {{ include.col2 | liquify | markdownify }}
+      {{ include.col2 | markdownify }}
     </div>
     <div class="image-container tablet:grid-col-6">
       <img
