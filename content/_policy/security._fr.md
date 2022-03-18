@@ -19,4 +19,4 @@ Consultez notre [Politique de divulgation des vulnérabilités](https://handbook
 
 ### Pour plus d'informations ### {#more-info}
 
-Nous sommes heureux de répondre aux questions sur nos pratiques de sécurité et de confidentialité. Pour plus d'informations, veuillez visiter [help]({{ site.baseurl }}/fr/help/) ou [contactez-nous]({{ site.baseurl }}/fr/contact/).
+Nous sommes heureux de répondre aux questions sur nos pratiques de sécurité et de confidentialité. Pour plus d'informations, veuillez visiter [help](/fr/help/) ou [contactez-nous](/fr/contact/).

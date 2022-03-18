@@ -32,5 +32,5 @@ Manage your account settings including your password, phone number, email, and m
 ## Common troubleshooting topics
 
 {: .help-question-list}
-- [Change your password]({{ site.baseurl }}/help/manage-your-account/change-your-password/)
-- [Delete your Login.gov account]({{ site.baseurl }}/help/manage-your-account/delete-your-account/)
+- [Change your password](/help/manage-your-account/change-your-password/)
+- [Delete your Login.gov account](/help/manage-your-account/delete-your-account/)

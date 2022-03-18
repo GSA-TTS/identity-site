@@ -19,7 +19,7 @@ three_col:
     agencies.
 
 
-    [Learn about Login.gov]({{ site.baseurl }}/what-is-login/){:class="why-more-info"}
+    [Learn about Login.gov](/what-is-login/){:class="why-more-info"}
   subheading2: Agency partners
   col2: >-
     Protect your users’ information with the highest standards of digital

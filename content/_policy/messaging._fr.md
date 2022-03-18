@@ -13,6 +13,6 @@ sidenav: policies
 * Les tarifs de messagerie et de données de votre opérateur peuvent s'appliquer.
 * Les messages ne seront envoyés que dans le cadre de la configuration et de la connexion à votre compte Login.gov.
 * Pour refuser de recevoir des messages texte de Login.gov, répondez avec le message STOP au message texte indésirable.
-* Voir [Notre déclaration de confidentialité]({{ site.baseurl }}/fr/policy/our-privacy-act-statement/) pour obtenir des informations sur la politique de confidentialité.
+* Voir [Notre déclaration de confidentialité](/fr/policy/our-privacy-act-statement/) pour obtenir des informations sur la politique de confidentialité.
 * Les transporteurs ne sont pas responsables des messages retardés ou non livrés.
-* Vous pouvez [contacter le service clientèle]({{ site.baseurl }}/fr/contact/) si vous avez des questions ou des préoccupations.
+* Vous pouvez [contacter le service clientèle](/fr/contact/) si vous avez des questions ou des préoccupations.

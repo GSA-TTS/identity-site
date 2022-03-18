@@ -7,7 +7,7 @@ order: 4
 redirect_from:
     - /en/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 ---
-You are not required to upload a picture of yourself, or take a selfie, for identity verification. However, a [clear photo of your state-issued ID]({{ site.baseurl }}/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/) is required for identity verification. If you’ve taken a photo that meets the requirements, try the steps below if you’re still getting an error while uploading your state-issued identification.
+You are not required to upload a picture of yourself, or take a selfie, for identity verification. However, a [clear photo of your state-issued ID](/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/) is required for identity verification. If you’ve taken a photo that meets the requirements, try the steps below if you’re still getting an error while uploading your state-issued identification.
 
 You can make 10 attempts to upload your document. Once you’ve made 10 attempts, the system will lock you out for six hours as a security precaution.
 
@@ -37,6 +37,6 @@ Be sure to restart your computer and try signing in again.
 
 ## Related articles
 
-[How to take a photo of your State-Issued ID]({{ site.baseurl }}/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
-[How to verify your identity]({{ site.baseurl }}/help/verify-your-identity/how-to-verify-your-identity/)
-[Accepted state-issued identification]({{ site.baseurl }}/help/verify-your-identity/accepted-state-issued-identification/)
+[How to take a photo of your State-Issued ID](/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
+[How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
+[Accepted state-issued identification](/help/verify-your-identity/accepted-state-issued-identification/)

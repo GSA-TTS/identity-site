@@ -4,7 +4,7 @@ category: verify-your-identity
 permalink: /fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 order: 4
 ---
-Vous n'êtes pas tenu de téléverser une photo de vous-même ou de prendre une autophoto pour vérifier votre identité. Toutefois, [une photo nette de votre pièce d'identité]({{ site.baseurl }}/fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/) délivrée par l'État est nécessaire pour la vérification de votre identité. Si vous avez pris une photo qui répond aux exigences, essayez les étapes ci-dessous si vous obtenez toujours une erreur lors du téléchargement de votre pièce d'identité délivrée par l'État.
+Vous n'êtes pas tenu de téléverser une photo de vous-même ou de prendre une autophoto pour vérifier votre identité. Toutefois, [une photo nette de votre pièce d'identité](/fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/) délivrée par l'État est nécessaire pour la vérification de votre identité. Si vous avez pris une photo qui répond aux exigences, essayez les étapes ci-dessous si vous obtenez toujours une erreur lors du téléchargement de votre pièce d'identité délivrée par l'État.
 
 Vous pouvez faire 10 tentatives pour télécharger votre document. Après ces 10 tentatives, le système vous bloquera pendant six heures par mesure de sécurité.
 
@@ -34,6 +34,6 @@ Veillez à redémarrer votre ordinateur et essayez de vous connecter à nouveau.
 
 ## Articles connexes
 
-[Comment prendre une photo de votre carte d'identité délivrée par l'État]({{ site.baseurl }}/fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
-[Comment vérifier votre identité]({{ site.baseurl }}/fr/help/verify-your-identity/how-to-verify-your-identity/)
-[Pièces d'identité acceptées délivrées par l'État]({{ site.baseurl }}/fr/help/verify-your-identity/accepted-state-issued-identification/)
+[Comment prendre une photo de votre carte d'identité délivrée par l'État](/fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
+[Comment vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
+[Pièces d'identité acceptées délivrées par l'État](/fr/help/verify-your-identity/accepted-state-issued-identification/)

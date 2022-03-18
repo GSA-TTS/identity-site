@@ -19,4 +19,4 @@ Consulte nuestra [Política de divulgación de vulnerabilidades](https://handboo
 
 ### Para obtener más información ### {#more-info}
 
-Nos complace responder preguntas sobre nuestras prácticas de seguridad y privacidad. Para obtener más información, visite [ayuda]({{ site.baseurl }}/es/help/) o [contáctenos]({{ site.baseurl }}/es/contact/).
+Nos complace responder preguntas sobre nuestras prácticas de seguridad y privacidad. Para obtener más información, visite [ayuda](/es/help/) o [contáctenos](/es/contact/).

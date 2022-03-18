@@ -18,4 +18,4 @@ Mientras tanto, ponte en contacto con el centro de ayuda de la agencia asociada 
 
 ## Artículos relacionados
 
-[Verificación de identidad]({{ site.baseurl }}/es/help/verify-your-identity/overview/)
+[Verificación de identidad](/es/help/verify-your-identity/overview/)

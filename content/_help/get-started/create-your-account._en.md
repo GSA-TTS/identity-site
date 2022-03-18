@@ -42,12 +42,12 @@ Follow these steps to create your Login.gov account.
    * Phone call
    * Backup codes
 
-   [Learn more about each authentication option]({{ site.baseurl }}/help/get-started/authentication-options/) to choose the one that is right for you.
+   [Learn more about each authentication option](/help/get-started/authentication-options/) to choose the one that is right for you.
 7. Success! Once you have authenticated, you have created your Login.gov account.
 
 You will be taken to your Login.gov account page or the government agency you are trying to access. You can add additional authentication methods, email addresses or update your information on the Login.gov account page.
 
 ## Related articles
 
-* [Authentication options]({{ site.baseurl }}/help/get-started/authentication-options/)
-* [Manage your account]({{ site.baseurl }}/help/manage-your-account/overview/)
+* [Authentication options](/help/get-started/authentication-options/)
+* [Manage your account](/help/manage-your-account/overview/)

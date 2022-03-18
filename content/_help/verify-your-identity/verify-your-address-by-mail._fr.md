@@ -19,4 +19,4 @@ Si vous ne recevez pas votre lettre ou si votre code de confirmation expire avan
 2. Sélectionnez « Envoyez-moi un nouveau code de confirmation » lorsque vous êtes invité à entrer votre code.
 
 ## Articles Liés
-- [Vérifier votre identité]({{ site.baseurl }}/fr/help/verify-your-identity/how-to-verify-your-identity/)
+- [Vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)

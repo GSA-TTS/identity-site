@@ -27,6 +27,6 @@ Une photo claire de votre pièce d'identité délivrée par l'État est nécessa
 
 ## Articles connexes 
 
-[Comment vérifier votre identité ]({{ site.baseurl }}/fr/help/verify-your-identity/how-to-verify-your-identity/)
-[Pièce d'identité délivrée par l'État acceptée]({{ site.baseurl }}/fr/help/verify-your-identity/accepted-state-issued-identification/)
-[Dépannage pour le téléchargement d'une pièce d'identité délivrée par l'État]({{ site.baseurl }}/fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
+[Comment vérifier votre identité ](/fr/help/verify-your-identity/how-to-verify-your-identity/)
+[Pièce d'identité délivrée par l'État acceptée](/fr/help/verify-your-identity/accepted-state-issued-identification/)
+[Dépannage pour le téléchargement d'une pièce d'identité délivrée par l'État](/fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)

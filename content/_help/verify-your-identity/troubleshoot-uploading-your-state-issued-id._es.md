@@ -4,7 +4,7 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 order: 4
 ---
-No es necesario que suba una foto suya o se haga un selfie para verificar su identidad. Sin embargo, se requiere [una foto clara de su documento de identidad emitido por el estado]({{ site.baseurl }}/es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/). Si tomaste una foto que cumple con los requisitos, intenta los siguientes pasos si todavía recibes un error al subir tu identificación emitida por el estado.
+No es necesario que suba una foto suya o se haga un selfie para verificar su identidad. Sin embargo, se requiere [una foto clara de su documento de identidad emitido por el estado](/es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/). Si tomaste una foto que cumple con los requisitos, intenta los siguientes pasos si todavía recibes un error al subir tu identificación emitida por el estado.
 
 Tienes 10 intentos para subir tu documento. Una vez que realices los 10 intentos, el sistema te bloqueará durante seis horas como medida de seguridad.
 
@@ -34,6 +34,6 @@ Asegúrate de reiniciar tu ordenador e intenta iniciar sesión de nuevo.
 
 ## Artículos relacionados
 
-[Cómo hacer una foto de tu documento de identidad emitido por el estado]({{ site.baseurl }}/es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
-[Cómo verificar tu identidad]({{ site.baseurl }}/es/help/verify-your-identity/how-to-verify-your-identity/)
-[Documentos de identidad estatales aceptados]({{ site.baseurl }}/es/help/verify-your-identity/accepted-state-issued-identification/)
+[Cómo hacer una foto de tu documento de identidad emitido por el estado](/es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
+[Cómo verificar tu identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
+[Documentos de identidad estatales aceptados](/es/help/verify-your-identity/accepted-state-issued-identification/)

@@ -55,5 +55,5 @@ Forgot your password? Locked out of your account? We'll help you resolve account
 ## Common troubleshooting topics
 
 {: .help-question-list}
-* [How to sign in to Login.gov]({{ site.baseurl }}/help/trouble-signing-in/how-to-sign-in/)
-* [Forgot your password]({{ site.baseurl }}/help/trouble-signing-in/forgot-your-password/)
+* [How to sign in to Login.gov](/help/trouble-signing-in/how-to-sign-in/)
+* [Forgot your password](/help/trouble-signing-in/forgot-your-password/)

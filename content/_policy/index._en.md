@@ -29,4 +29,4 @@ The information that you submit is used to create or update your Login.gov accou
 * The Login.gov operators (i.e. our contact help center) cannot view your information or make any changes.
 * Information is stored and deleted according to the [National Archives and Records Administration (NARA) approved record schedule](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records).
 
-Protecting your information is our priority. You can read more detailed explanations about [how Login.gov works]({{ site.baseurl }}/policy/how-does-it-work/), [our privacy act statement]({{ site.baseurl }}/policy/our-privacy-act-statement/), and [our security practices]({{ site.baseurl }}/policy/our-security-practices/).
+Protecting your information is our priority. You can read more detailed explanations about [how Login.gov works](/policy/how-does-it-work/), [our privacy act statement](/policy/our-privacy-act-statement/), and [our security practices](/policy/our-security-practices/).

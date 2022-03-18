@@ -27,5 +27,5 @@ Siga estos pasos para iniciar sesión en Login.gov:
 
 ## Artículos relacionados
 
-* [Opciones de autenticación]({{ site.baseurl }}/es/help/get-started/authentication-options/)
-* [Verificar su identidad]({{ site.baseurl }}/es/help/verify-your-identity/how-to-verify-your-identity/)
+* [Opciones de autenticación](/es/help/get-started/authentication-options/)
+* [Verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)

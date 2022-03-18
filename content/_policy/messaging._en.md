@@ -16,6 +16,6 @@ redirect_from:
 * Your carriers messaging and data rates may apply.
 * Messages will only be sent as part of setting up and signing into your Login.gov account.
 * To opt out of receiving text messages from Login.gov reply with the message STOP to the unwanted text message.
-* See [Our privacy act statement]({{ site.baseurl }}/policy/our-privacy-act-statement/) for privacy policy information.
+* See [Our privacy act statement](/policy/our-privacy-act-statement/) for privacy policy information.
 * Carriers are not liable for delayed or undelivered messages.
-* You may [contact customer care]({{ site.baseurl }}/contact/) if you have questions or concerns.
+* You may [contact customer care](/contact/) if you have questions or concerns.

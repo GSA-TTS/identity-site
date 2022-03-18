@@ -23,4 +23,4 @@ La información que envía se utiliza para crear o actualizar su cuenta Login.go
 * Los operadores de Login.gov (es decir, nuestro centro de ayuda de contacto) no pueden ver su información ni realizar cambios.
 * La información se almacena y elimina de acuerdo con el [calendario de registros aprobado por la Administración Nacional de Archivos y Registros (NARA)](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records).
 
-Proteger su información es nuestra prioridad. Puede leer explicaciones más detalladas sobre [cómo funciona Login.gov]({{ site.baseurl }}/es/policy/how-does-it-work/), [nuestra declaración de la ley de privacidad]({{ site.baseurl }}/es/policy/our-privacy-act-statement/) y [nuestras prácticas de seguridad]({{ site.baseurl }}/es/policy/our-security-practices/).
+Proteger su información es nuestra prioridad. Puede leer explicaciones más detalladas sobre [cómo funciona Login.gov](/es/policy/how-does-it-work/), [nuestra declaración de la ley de privacidad](/es/policy/our-privacy-act-statement/) y [nuestras prácticas de seguridad](/es/policy/our-security-practices/).

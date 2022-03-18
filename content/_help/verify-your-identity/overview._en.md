@@ -30,4 +30,4 @@ Use this help section to understand the process and requirements for identity ve
 ## Common troubleshooting topics
 
 {: .help-question-list}
-* [How to verify your identity]({{ site.baseurl }}/help/verify-your-identity/how-to-verify-your-identity/)
+* [How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)

@@ -49,6 +49,6 @@ We provide some specific help content for our larger agency partners. We encoura
 ## Common troubleshooting topics
 
 {: .help-question-list}
-* [How to sign in to Login.gov]({{ site.baseurl }}/help/trouble-signing-in/how-to-sign-in/)
-* [Change your password]({{ site.baseurl }}/help/manage-your-account/change-your-password/)
-* [Forgot your password]({{ site.baseurl }}/help/trouble-signing-in/forgot-your-password/)
+* [How to sign in to Login.gov](/help/trouble-signing-in/how-to-sign-in/)
+* [Change your password](/help/manage-your-account/change-your-password/)
+* [Forgot your password](/help/trouble-signing-in/forgot-your-password/)
