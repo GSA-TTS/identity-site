@@ -8,11 +8,11 @@ common_applications:
  - Social Security Administration (SSA)
  - Trusted Traveler Programs (Global Entry/Nexus/Sentri)
 ---
-{{ page.intro_content | markdownify }}
+{{ page.intro_content | liquify | markdownify }}
 
 <div class="desktop:grid-col-9">
   {% include contact_form.html
              common_applications=layout.common_applications %}
 </div>
 
-<footer class="page-content__footer">{{ page.footer_content | markdownify }}</footer>
+<footer class="page-content__footer">{{ page.footer_content | liquify | markdownify }}</footer>

@@ -3,27 +3,26 @@
       <div class="grid-row">
         <article class="desktop:grid-col-7">
           <header class="intro">
-            {{include.intro | markdownify }}
+            {{include.intro | liquify | markdownify }}
           </header>
           <div class="step-1 step list">
-            {{ include.step1 | markdownify }}
+            {{ include.step1 | liquify | markdownify }}
             <div class="mobile step-1-img"></div>
           </div>
           <div class="step-2 step list">
-            {{ include.step2 | markdownify }}
+            {{ include.step2 | liquify | markdownify }}
             <div class="mobile step-2-img"></div>
           </div>
           <div class="step-3 step list">
-            {{ include.step3 | markdownify }}
+            {{ include.step3 | liquify | markdownify }}
             <div class="mobile step-3-img"></div>
           </div>
         </article>
         <div class="sidebar desktop:grid-col-4 desktop:grid-offset-1 desktop-lg:grid-col-3 desktop-lg:grid-offset-2">
           <div class="box">
-            {{ include.info | markdownify }}
+            {{ include.info | liquify | markdownify }}
           </div>
         </div>
       </div>
     </div>
   </div>
-  

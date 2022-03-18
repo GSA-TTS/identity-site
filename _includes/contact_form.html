@@ -336,7 +336,7 @@ include:
 
   function doNotAnswer() {
     // this will hide the display of the honeypot Field
-    // more information found here. https://help.salesforce.com/articleView?id=pardot_forms_add_honeypot.htm 
+    // more information found here. https://help.salesforce.com/articleView?id=pardot_forms_add_honeypot.htm
     const noAnswer = document.querySelector('#contact-us-form #information');
     if (noAnswer) {
       noAnswer.removeAttribute('required');
@@ -366,7 +366,7 @@ include:
   {% endif %}
 
   <p>
-    {{ site.data.[page.lang].settings.contact_page.support_request_form.help_text }} 
+    {{ site.data.[page.lang].settings.contact_page.support_request_form.help_text }}
   </p>
 
   <!-- START: Topic -->
@@ -449,8 +449,7 @@ include:
     }}</label
   >
   <div class="usa-hint">
-    {{ site.data[page.lang].settings.contact_page.support_request_form.labels.pii_warning |
-    markdownify | remove: '
+    {{ site.data[page.lang].settings.contact_page.support_request_form.labels.pii_warning | liquify | markdownify | remove: '
     <p>' | remove: '</p>
     ' }}
   </div>
