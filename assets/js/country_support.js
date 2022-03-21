@@ -43,7 +43,7 @@ function loadCountrySupportTable(elem, fetch) {
     return;
   }
 
-  const { idpBaseUrl, translationOptionYes, translationOptionNo } = elem.dataset;
+  const { idpBaseUrl, translationOptionYes, translationOptionNo, locale } = elem.dataset;
 
   /**
    * @param {HTMLElement} cell
@@ -69,14 +69,18 @@ function loadCountrySupportTable(elem, fetch) {
             isoCode,
             {
               name,
+              translated_names: translatedNames,
               country_code: countryCode,
               supports_sms: supportsSms,
               supports_voice: supportsVoice,
             },
           ]) => {
             const row = templateRow.cloneNode(true);
-
-            row.querySelector('[data-item=country]').innerText = `${name} (${isoCode})`;
+            let translatedName = name
+            if (translatedNames) {
+              translatedName = translatedNames[locale] || name
+            }
+            row.querySelector('[data-item=country]').innerText = `${translatedName} (${isoCode})`;
             row.querySelector('[data-item=dialing-code]').innerText = prettyDialingCode(
               countryCode,
             );
