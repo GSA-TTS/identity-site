@@ -76,9 +76,9 @@ function loadCountrySupportTable(elem, fetch) {
             },
           ]) => {
             const row = templateRow.cloneNode(true);
-            let translatedName = name
+            let translatedName = name;
             if (translatedNames) {
-              translatedName = translatedNames[locale] || name
+              translatedName = translatedNames[locale] || name;
             }
             row.querySelector('[data-item=country]').innerText = `${translatedName} (${isoCode})`;
             row.querySelector('[data-item=dialing-code]').innerText = prettyDialingCode(
