@@ -59,7 +59,7 @@ function loadCountrySupportTable(elem, fetch) {
     cell.querySelector('[data-item=icon]').appendChild(clonedIcon);
   };
 
-  fetch(`${idpBaseUrl || ''}/api/country-support`)
+  fetch(`${idpBaseUrl || ''}/${locale}/api/country-support`)
     .then((response) => response.json())
     .then((/** @type {CountrySupport} */ { countries }) => {
       Object.entries(countries)
@@ -69,18 +69,13 @@ function loadCountrySupportTable(elem, fetch) {
             isoCode,
             {
               name,
-              translated_names: translatedNames,
               country_code: countryCode,
               supports_sms: supportsSms,
               supports_voice: supportsVoice,
             },
           ]) => {
             const row = templateRow.cloneNode(true);
-            let translatedName = name;
-            if (translatedNames) {
-              translatedName = translatedNames[locale] || name;
-            }
-            row.querySelector('[data-item=country]').innerText = `${translatedName} (${isoCode})`;
+            row.querySelector('[data-item=country]').innerText = `${name} (${isoCode})`;
             row.querySelector('[data-item=dialing-code]').innerText = prettyDialingCode(
               countryCode,
             );
