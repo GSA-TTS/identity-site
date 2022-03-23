@@ -22,7 +22,7 @@ below. Note: This does not apply to Help pages, which is far more complex. {% en
         <ul class="usa-sidenav__sublist">
           {% for item in site.data[page.lang].settings["nav"][page.sidenav]["sections"]%}
           <li class="usa-sidenav__item">
-            <a href="{{ item.url }}"
+            <a href="{{ item.url | prepend: site.baseurl }}"
                class="{% if item.url == page.permalink %}usa-current{% endif %}"
             >
               {{ item.name }}
