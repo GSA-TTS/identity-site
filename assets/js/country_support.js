@@ -59,7 +59,7 @@ function loadCountrySupportTable(elem, fetch) {
     cell.querySelector('[data-item=icon]').appendChild(clonedIcon);
   };
 
-  fetch(`${idpBaseUrl || ''}/${locale}/api/country-support`)
+  fetch(`${idpBaseUrl || ''}/api/country-support?locale=${locale}`)
     .then((response) => response.json())
     .then((/** @type {CountrySupport} */ { countries }) => {
       Object.entries(countries)
