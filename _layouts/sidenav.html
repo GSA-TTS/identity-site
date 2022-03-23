@@ -15,7 +15,7 @@ below. Note: This does not apply to Help pages, which is far more complex. {% en
   <nav aria-label="{{ site.data[page.lang].settings.accessible_labels.secondary_navigation }}" class="position-sticky pin-top">
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
-        {% assign section_url = site.data[page.lang].settings.nav[page.sidenav].url %}
+        {% assign section_url = site.data[page.lang].settings.nav[page.sidenav].url | default: page.url %}
         <a href="{{ section_url | prepend: site.baseurl}}" class="usa-current"
           >{{ site.data[page.lang].settings["nav"][page.sidenav]["title"] }}</a
         >
