@@ -86,45 +86,16 @@
     padding-bottom: 30px;
 }
 
-.usa-process-list {
-    padding-top: 0px;
-}
-
 .usa-process-list > .usa-process-list__item {
     max-width: 100% !important; // Hate this, but USWDS sets a max-width of 72px
-}
-
-.usa-process-list__item::before {
-    background-color: #0071BB !important;
-    border-color: #0071BB !important;
 }
 
 .usa-accordion__heading h4 {
     font-size: $base-font-size;
 }
 
-.accordion-list-headings {
-    font-size: $base-font-size;
-}
-
-.usa-accordion__content h4 p {
-    font-size: $base-font-size;
-}
-
-.usa-accordion__content {
-    border-bottom: $border-style !important;
-    border-right: $border-style !important;
-    border-left: $border-style !important;
-    border-bottom-left-radius: $border-radius;
-    border-bottom-right-radius: $border-radius;
-}
-
 .partners-usa-button--active {
     color: #112e51 !important;
     background-color:rgba(0, 0, 0, 0) !important;
     box-shadow: inset 0 0 0 1px #112e51 !important;
-}
-
-.usa-identifier {
-    background-color: $navy !important; // heavy handed overwrite of footer background
 }
