@@ -43,6 +43,7 @@ describe('accessibility', () => {
         '%s',
         async (path) => {
           await goto(path);
+          await page.waitForSelector('h1');
           const results = await new AxePuppeteer(page)
             .disableRules('frame-tested')
             .disableFrame('*')
