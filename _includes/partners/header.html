@@ -4,7 +4,6 @@
       <a
         class="usa-nav__link usa-link"
         href="/"
-        title="Login.gov"
       >
         Login.gov
       </a>
@@ -12,7 +11,6 @@
       <a
         class="usa-nav__link usa-link"
         href="https://developers.login.gov"
-        title="developers.login.gov"
       >
         Developers.login.gov
       </a>
@@ -24,7 +22,7 @@
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo partners-logo" id="extended-logo">
-        <a href="{{ '/partners/' | locale_url }}" title="Home">
+        <a href="{{ '/partners/' | locale_url }}" aria-label="Home">
           <img
             src="{{ site.baseurl }}/assets/img/logo.svg"
             class="usa-logo__img"
@@ -81,12 +79,10 @@
         <a
           class="{{include.mobile}} usa-button usa-button--outline {% if page.url contains '/state-and-local' %}partners-usa-button--active{% endif %}"
           href="{{ site.baseurl }}/partners/state-and-local/"
-          title="State and Local"
         >State and Local</a>
         <a
           class="{{include.mobile}} usa-button {% if page.url contains '/get-started' %}usa-button--active{% endif %}"
           href="{{ site.baseurl }}/partners/get-started/"
-          title="Get started"
         >Get Started</a>
       </div>
 

@@ -49,19 +49,19 @@ layout: base
                   </div>
                   <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
                       {% for item in page.logistics_accordion %}
-                          <div class="usa-accordion__heading">
-                              <button
-                                onclick="updateSingleAccordion(this, 'logistics')"
-                                class="usa-accordion__button login-accordion-btn-logistics"
-                                aria-expanded="false"
-                                aria-controls={{ item.id }}
-                                >
-                                {{ item.title }}
-                              </button>
-                            </div>
-                          <div id={{ item.id }} class="usa-accordion__content login-accordion-content-logistics">
-                          {{ item.content | markdownify}}
-                          </div>
+                        <h3 class="usa-accordion__heading">
+                          <button
+                            onclick="updateSingleAccordion(this, 'logistics')"
+                            class="usa-accordion__button login-accordion-btn-logistics"
+                            aria-expanded="false"
+                            aria-controls={{ item.id }}
+                            >
+                            {{ item.title }}
+                          </button>
+                        </h3>
+                        <div id={{ item.id }} class="usa-accordion__content login-accordion-content-logistics">
+                        {{ item.content | markdownify}}
+                        </div>
                       {% endfor %}
                   </div>
                   <a href="#main-content">Back to Top</a>
@@ -75,19 +75,19 @@ layout: base
                   </div>
                   <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
                       {% for item in page.development_accordion %}
-                          <div class="usa-accordion__heading">
-                              <button
-                                onclick="updateSingleAccordion(this, 'development')"
-                                class="usa-accordion__button login-accordion-btn-development"
-                                aria-expanded="false"
-                                aria-controls={{ item.id }}
-                                >
-                                {{ item.title }}
-                              </button>
-                            </div>
-                          <div id={{ item.id }} class="usa-accordion__content login-accordion-content-development">
-                          {{ item.content | markdownify}}
-                          </div>
+                        <h3 class="usa-accordion__heading">
+                          <button
+                            onclick="updateSingleAccordion(this, 'development')"
+                            class="usa-accordion__button login-accordion-btn-development"
+                            aria-expanded="false"
+                            aria-controls={{ item.id }}
+                            >
+                            {{ item.title }}
+                          </button>
+                        </h3>
+                        <div id={{ item.id }} class="usa-accordion__content login-accordion-content-development">
+                        {{ item.content | markdownify}}
+                        </div>
                       {% endfor %}
                   </div>
                   <a href="#main-content">Back to Top</a>
