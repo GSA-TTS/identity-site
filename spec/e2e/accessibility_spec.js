@@ -43,11 +43,20 @@ describe('accessibility', () => {
         '%s',
         async (path) => {
           await goto(path);
-          const results = await new AxePuppeteer(page)
+          const runner = new AxePuppeteer(page)
             .disableRules('frame-tested')
             .disableFrame('*')
-            .exclude('.footer-nav') // See: LG-4038 (TODO: Remove with implementation of LG-4038)
-            .analyze();
+            .exclude('.footer-nav'); // See: LG-4038 (TODO: Remove with implementation of LG-4038)
+
+          if (path === '/partners/contact/') {
+            // This specific page embeds its content using an iframe, which includes the top-level
+            // heading, but Axe is unable to inject its script into the frame since it's hosted on
+            // an external domain. A more durable solution would be to pull as much content out of
+            // the frame and into the page as possible.
+            runner.disableRules('page-has-heading-one');
+          }
+
+          const results = await runner.analyze();
           expect(results).toHaveNoViolations();
 
           const links = await getLinks(page);

@@ -24,18 +24,18 @@ layout: base
                   <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
                       {% for item in page.general_accordion %}
                         <h3 class="usa-accordion__heading">
-                            <button
-                              onclick="updateSingleAccordion(this, 'general')"
-                              class="usa-accordion__button login-accordion-btn-general"
-                              aria-expanded="false"
-                              aria-controls={{ item.id }}
-                              >
-                              {{ item.title }}
-                            </button>
-                          </h3>
-                          <div id={{ item.id }} class="usa-accordion__content login-accordion-content-general">
-                          {{ item.content | markdownify}}
-                          </div>
+                          <button
+                            onclick="updateSingleAccordion(this, 'general')"
+                            class="usa-accordion__button login-accordion-btn-general"
+                            aria-expanded="false"
+                            aria-controls={{ item.id }}
+                            >
+                            {{ item.title }}
+                          </button>
+                        </h3>
+                        <div id={{ item.id }} class="usa-accordion__content login-accordion-content-general">
+                        {{ item.content | markdownify}}
+                        </div>
                       {% endfor %}
                   </div>
                   <a href="#main-content">Back to Top</a>
@@ -100,7 +100,7 @@ layout: base
                       <nav class="margin-top-5" aria-label="Secondary navigation,">
                           <ul class="usa-sidenav">
                             <li class="usa-sidenav__item">
-                              <a href="#main-content"class="usa-current">FAQs</a>
+                              <a href="#main-content" class="usa-current">FAQs</a>
                               <ul class="usa-sidenav__sublist">
                                   <li class="usa-sidenav__item">
                                     <a href="#general-section">General</a>
