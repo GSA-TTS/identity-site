@@ -1,11 +1,9 @@
 <main id="main-content">
-  <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  </head>
   <section>
     <div class="container partners-container">
       <div class="grid-row">
         <div class="tablet:grid-col-9 accordion-container">
+          <script charset="utf-8" type="text/javascript" src='{{ "/assets/js/jquery/3.5.1/jquery.min.js" | relative_url }}'></script>
           <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
           <script type="text/javascript">
             hbspt.forms.create({
@@ -24,7 +22,7 @@
             {% include search.html id="header-nav" %}
           </div>
           <section>
-            <nav class="margin-left-5 margin-top-5" aria-label="Secondary navigation,">
+            <nav class="margin-top-5" aria-label="Secondary navigation,">
               <ul class="usa-sidenav">
                 <li class="usa-sidenav__item">
                   <a href="{{ '/partners/faq/' | locale_url }}">FAQs</a>
