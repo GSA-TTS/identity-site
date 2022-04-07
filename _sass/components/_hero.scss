@@ -30,8 +30,8 @@
   }
 
   &.partners {
-    background-color: $white;
-    color: $base-font-color;
+    background-color: color('white');
+    color: color('ink');
   }
 }
 
