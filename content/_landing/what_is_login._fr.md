@@ -28,7 +28,7 @@ component:
     ## Accès sécurisé et privé pour le public
 
 
-    Login.gov utilise [les normes de sécurité les plus élevées](https://login.gov/fr/security/) pour protéger vos informations, y compris la vérification d’identité et [l’authentification à deux facteurs](https://login.gov/fr/help/authentication-methods/which-authentication-method-should-i-use/).
+    Login.gov utilise [les normes de sécurité les plus élevées](/fr/security/) pour protéger vos informations, y compris la vérification d’identité et [l’authentification à deux facteurs](/fr/help/authentication-methods/which-authentication-method-should-i-use/).
 
 
     Login.gov est fourni par [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
