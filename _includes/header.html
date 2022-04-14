@@ -35,7 +35,7 @@
             class="usa-nav__link {% if page.url contains '/what-is-login/' %}usa-current{% endif %}"
             href="{{ '/what-is-login/' | locale_url }}"
           >
-            <span>{{ site.data.[page.lang].settings.nav.what_is_login_gov }}</span>
+            <span class="usa-nav__link__inner">{{ site.data.[page.lang].settings.nav.what_is_login_gov }}</span>
           </a>
         </li>
         <li class="usa-nav__primary-item">
@@ -43,7 +43,7 @@
             class="usa-nav__link {% if page.url contains '/who-uses-login/' %}usa-current{% endif %}"
             href="{{ '/who-uses-login/' | locale_url }}"
           >
-            <span>{{ site.data.[page.lang].settings.nav.who_uses_login_gov }}</span>
+            <span class="usa-nav__link__inner">{{ site.data.[page.lang].settings.nav.who_uses_login_gov }}</span>
           </a>
         </li>
         <li class="usa-nav__primary-item">
@@ -59,7 +59,7 @@
             class="usa-nav__link {% if page.url contains '/help/' %}usa-current{% endif %}"
             href="{{ '/help/' | locale_url }}"
           >
-            <span>{{ site.data.[page.lang].settings.nav.help_center }}</span>
+            <span class="usa-nav__link__inner">{{ site.data.[page.lang].settings.nav.help_center }}</span>
           </a>
         </li>
       </ul>
