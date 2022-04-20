@@ -200,6 +200,8 @@ nav:
   create_an_account: Crea una cuenta
   developer_guide: Guía para desarrolladores
   developers: Desarrolladores
+  faq: FAQ
+  get_started: Get started # partners site does not require translations
   groups:
     agencies: Para agencias
     learn: Aprender
@@ -230,6 +232,7 @@ nav:
   principles: Principios
   privacy_&_security: Privacidad y seguridad
   security: Seguridad
+  security_experience: Security experience # partners site does not require translations
   sign_in: 'Inicie sesión con'
   skip_nav: Salte al contenido principal
   system_status: Estado del sistema Login.gov
