@@ -17,7 +17,7 @@ Le public est en mesure d’accéder simplement, en toute sécurité et en tout 
 
 ## L’équipe 
 
-J. Amos Stone
+Ashley Mahan
 Directeur (par intérim)
 
 Caitlin Humphrey
