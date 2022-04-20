@@ -170,6 +170,7 @@ nav:
         url: '#léquipe'
       - name: À propos de Login.gov
         url: '#à-propos-de-logingov'
+  about_login_gov: About Login.gov # partners site does not require translations
   accessibility:
     title: Accessibilité
     sections:
