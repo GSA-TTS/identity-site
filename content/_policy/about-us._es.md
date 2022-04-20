@@ -17,7 +17,7 @@ El público puede acceder de forma sencilla, segura y privada a los sitios web y
 
 ## Equipo 
 
-J. Amos Stone
+Ashley Mahan
 Director (en funciones)
 
 Caitlin Humphrey

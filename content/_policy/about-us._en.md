@@ -20,7 +20,7 @@ The public is able to simply, securely and privately log in to participating gov
 
 ## Team
 
-J. Amos Stone
+Ashley Mahan
 (Acting) Director
 
 Caitlin Humphrey
