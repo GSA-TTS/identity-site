@@ -203,6 +203,7 @@ nav:
   get_started: Get started # parters site does not require translations
   groups:
     agencies: Pour les agences
+    partners: For partners # partners site does not require translations
     learn: Apprendre
     support: Soutien
   help: Aide

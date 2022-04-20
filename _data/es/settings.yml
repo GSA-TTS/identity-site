@@ -205,6 +205,7 @@ nav:
   get_started: Get started # partners site does not require translations
   groups:
     agencies: Para agencias
+    partners: For partners # partners site does not require translations
     learn: Aprender
     support: Apoyo
   help: Ayuda
