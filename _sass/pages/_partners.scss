@@ -8,22 +8,8 @@
   }
 }
 
-.partners-logo a {
-  align-items: center;
-  display: flex;
-  & span {
-    color: $red;
-    font-weight: 600;
-    letter-spacing: 2px;
-    margin-left: 3px;
-    text-transform: uppercase;
-    @include at-media("card") {
-      font-size: 1.15rem;
-    }
-    @include at-media("desktop") {
-      font-size: 1.67rem;
-    }
-  }
+.partners-logo__img {
+  height: 1.7rem;
 }
 
 .partners-footer-logo {
