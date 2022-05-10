@@ -8,11 +8,28 @@ layout: base
 </header>
 <main id="main-content">
     <section>
-        <div class="container partners-container">
+        <div class="container">
             <div class="grid-row">
                 <div class="tablet:grid-col-12">
                     <h1 class="partners-title">{{ page.title }}</h1>
-                    <div class="partners-border"></div>
+                </div>
+            </div>
+        </div>
+        <div class="full-width-color">
+            <div class="container">
+                <div class="grid-row grid-gap-6">
+                    <div class="tablet:grid-col-2 padding-top-2">
+                        <img src="{{ site.baseurl }}/assets/img/partners/rrb_logo.svg" alt='Railroad Retirement Board'>
+                    </div>
+                    <div class="tablet:grid-col-9">
+                        {{ page.quote | markdownify }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container partners-container">
+            <div class="grid-row">
+                <div class="tablet:grid-col-12">
                     <div>{{ page.subtitle | markdownify }}</div>
                     <div class="partners-body">{{ page.body | markdownify }}</div>
                     <div class="partners-body padding-top-2">{{ page.challenge | markdownify }}</div>
