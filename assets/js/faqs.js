@@ -44,7 +44,7 @@ function openAllAccordions(section) {
   );
 
   Array.from(accordionContentPanels).forEach((el) => {
-    el.hidden = true;
+    el.hidden = false;
   });
 }
 
