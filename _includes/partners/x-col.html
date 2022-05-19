@@ -20,6 +20,6 @@
     </div>
   </div>
   {% if include.link and include.link != '' %}
-    {{ include.link | markdownify }}
+    {{ include.link | replace: 'site.baseurl', site.baseurl | markdownify }}
   {% endif %}
 </article>
