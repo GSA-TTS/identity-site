@@ -17,19 +17,19 @@ services:
   col1: >-
     Users create one account to access all your digital services with multi-factor authentication.
 
-    [Learn about authentication](/partners/our-services/){:class="partners-authentication caret"}
+    [Learn about authentication](site.baseurl/partners/our-services/){:class="partners-authentication caret"}
   subheading2: Identity verification
   col_class2: identity
   col2: >-
     Verify the right person has access to the right information with secure identity verification.
 
-    [Learn about identity verification](/partners/our-services/){:class="partners-identity caret"}
+    [Learn about identity verification](site.baseurl/partners/our-services/){:class="partners-identity caret"}
   subheading3: Multilingual user support
   col_class3: multilingual
   col3: >-
     Comprehensive, multilingual support for your end-users Monday-Friday, 8 a.m.-8 p.m. ET.
 
-    [Learn about user support](/partners/our-services/){:class="partners-multilingual caret"}
+    [Learn about user support](site.baseurl/partners/our-services/){:class="partners-multilingual caret"}
 
 right_for_you:
   heading: Is Login.gov right for you?
@@ -53,7 +53,7 @@ who_we_work_with:
     - image: partners/logos/doi.png
     - image: partners/logos/va.png
   link: >
-    [Read our impact stories](/partners/impact-stories/){:class="usa-nav_link caret"}
+    [Read our impact stories](site.baseurl/partners/impact-stories/){:class="usa-nav_link caret"}
 
 nist_fedramp:
   heading: Security and compliance
@@ -68,5 +68,5 @@ nist_fedramp:
       image: partners/fedramp.png
       text:  <span>Our FedRAMP Moderate Authority to Operate (ATO)</span> Login.gov has a [FedRAMP](https://www.fedramp.gov/){:class="external-link"} Moderate ATO issued by the U.S. General Services Administration. Our SSP/Control Implementation Survey/Customer Responsibility Matrix is available through the FedRAMP marketplace.
   link: >
-    [Learn more about our security experience](/partners/security-experience/){:class="usa-nav_link caret"}
+    [Learn more about our security experience](site.baseurl/partners/security-experience/){:class="usa-nav_link caret"}
 ---
