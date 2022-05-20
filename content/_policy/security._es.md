@@ -1,10 +1,12 @@
 ---
-title: 'Privacidad y seguridad: nuestras prácticas de seguridad'
-description: 'Conozca los diversos métodos que utilizamos para proteger este servicio del gobierno de EE. UU. Y sus datos, y para garantizar que el servicio permanezca disponible para todos los usuarios.'
-permalink: /es/policy/our-security-practices/
 sidenav: policies
+title: "Privacidad y seguridad: nuestras prácticas de seguridad"
+description: Conozca los diversos métodos que utilizamos para proteger este
+  servicio del gobierno de EE. UU. Y sus datos, y para garantizar que el
+  servicio permanezca disponible para todos los usuarios.
+permalink: /es/policy/our-security-practices/
 redirect_from:
-- /es/security/
+  - /es/security/
 ---
 
 ## Nuestras prácticas de seguridad ## {#our-security-practices}

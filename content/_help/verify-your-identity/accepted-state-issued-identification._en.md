@@ -22,4 +22,4 @@ In the meantime, please contact the partner agency’s help center to find out w
 
 ## Related articles 
 
-[Verify your identity](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/)
+[Verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)

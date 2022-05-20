@@ -9,7 +9,7 @@ Le seul compte public du gouvernement.
 
 Login.gov fournit un moyen simple, sûr et anonyme pour le public d’accéder aux sites web du gouvernement. Avec un seul compte et un seul mot de passe, les utilisateurs peuvent se connecter en toute sécurité aux sites web gouvernementaux concernés et vérifier leur identité en toute sécurité. 
 
-Lorsqu’il s’agit de se connecter à des sites web gouvernementaux, les agences font confiance à login.gov pour protéger les informations de leurs utilisateurs et le public fait confiance à login.gov pour rationaliser leur processus de connexion. Grâce à login.gov, plus besoin de se remémorer plusieurs mots de passe et noms d’utilisateur chaque fois que l’on se connecte aux sites web gouvernementaux impliqués.
+Lorsqu’il s’agit de se connecter à des sites web gouvernementaux, les agences font confiance à Login.gov pour protéger les informations de leurs utilisateurs et le public fait confiance à Login.gov pour rationaliser leur processus de connexion. Grâce à Login.gov, plus besoin de se remémorer plusieurs mots de passe et noms d’utilisateur chaque fois que l’on se connecte aux sites web gouvernementaux impliqués.
 
 ## Notre vision
 
@@ -17,7 +17,7 @@ Le public est en mesure d’accéder simplement, en toute sécurité et en tout 
 
 ## L’équipe 
 
-J. Amos Stone
+Ashley Mahan
 Directeur (par intérim)
 
 Caitlin Humphrey

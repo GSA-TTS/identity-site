@@ -71,6 +71,8 @@ Login.gov no renueva, reemite ni caduca los autentificadores, pero puede revocar
 
 Cuando registra un autenticador en el servicio de Login.gov, acepta que lo utilicemos como autenticador para acceder a su cuenta. Si se registra para recibir mensajes de voz o SMS, autoriza el uso de su número de teléfono para enviar mensajes de texto y realizar llamadas telefónicas.
 
+En el caso de los autenticadores físicos, como los códigos de copia de seguridad impresos, un token de hardware o un teléfono, protéjalos guardándolos en un lugar seguro o con usted. No permita que se dañen. Si se pierden, se rompen o se dañan, puede perder el acceso a su cuenta.
+
 Si olvida su contraseña, puede restablecerla si tiene acceso a su dirección de correo electrónico. Si no dispone de ninguno de sus otros autenticadores, podrá seguir accediendo a su cuenta, pero borraremos cualquier información que contenga. Puede cambiar su contraseña en cualquier momento desde el perfil de su cuenta. Si pierde otro autenticador o ya no desea utilizarlo, puede desactivarlo en el perfil de su cuenta en cualquier momento.
 
 Si sospechamos que se ha producido un fraude en su cuenta, podemos bloquearla y ponernos en contacto con usted. Si tenemos razones para creer que su contraseña se ha visto comprometida, podemos exigirle que la restablezca.

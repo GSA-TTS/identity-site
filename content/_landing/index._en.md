@@ -10,7 +10,7 @@ one_account_banner: true
 title: The public’s one account for government.
 description: Use one account and password for secure, private access to
   participating government agencies.
-class: why-login-gov  
+class: why-login-gov
 three_col:
   heading: Login.gov is for you
   subheading1: Individuals
@@ -20,7 +20,7 @@ three_col:
     agencies.
 
 
-    [Learn about Login.gov](https://login.gov/what-is-login/){:class="why-more-info"}
+    [Learn about Login.gov](/what-is-login/){:class="why-more-info"}
   subheading2: Agency partners
   col_class2: partners
   col2: >-

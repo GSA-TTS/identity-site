@@ -4,7 +4,7 @@ sidenav: about_us
 title: About us
 permalink: /about-us/
 redirect_from:
-    - /en/about-us/
+  - /en/about-us/
 ---
 ## Our mission
 
@@ -12,7 +12,7 @@ The public’s one account for government.
 
 Login.gov provides a simple, secure and private way for the public to access government websites. With one account and password, users can securely sign in to participating government websites and securely verify their identity.
 
-When it comes to logging in to government websites, agencies trust login.gov to help protect their users’ information and the public trusts login.gov to streamline their sign in process. Using login.gov eliminates the need to remember multiple passwords and usernames each time you access participating government websites.
+When it comes to logging in to government websites, agencies trust Login.gov to help protect their users’ information and the public trusts Login.gov to streamline their sign in process. Using Login.gov eliminates the need to remember multiple passwords and usernames each time you access participating government websites.
 
 ## Our vision
 
@@ -20,7 +20,7 @@ The public is able to simply, securely and privately log in to participating gov
 
 ## Team
 
-J. Amos Stone
+Ashley Mahan
 (Acting) Director
 
 Caitlin Humphrey
