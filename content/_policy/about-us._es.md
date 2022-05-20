@@ -9,7 +9,7 @@ La única cuenta del público para el gobierno.
 
 Login.gov proporciona una forma simple, segura y privada para que el público acceda a los sitios web del gobierno. Con una cuenta y una contraseña, los usuarios pueden iniciar sesión de forma segura en los sitios web del gobierno participantes y verificar su identidad de forma segura. 
 
-Cuando se trata de acceder a los sitios web del gobierno, las agencias confían en login.gov para ayudar a proteger la información de sus usuarios y el público confía en login.gov para agilizar su proceso de inicio de sesión. El uso de login.gov elimina la necesidad de recordar diferentes contraseñas y nombres de usuario cada vez que se accede a los sitios web gubernamentales participantes.
+Cuando se trata de acceder a los sitios web del gobierno, las agencias confían en Login.gov para ayudar a proteger la información de sus usuarios y el público confía en Login.gov para agilizar su proceso de inicio de sesión. El uso de Login.gov elimina la necesidad de recordar diferentes contraseñas y nombres de usuario cada vez que se accede a los sitios web gubernamentales participantes.
 
 ## Nuestra visión
 
@@ -17,7 +17,7 @@ El público puede acceder de forma sencilla, segura y privada a los sitios web y
 
 ## Equipo 
 
-J. Amos Stone
+Ashley Mahan
 Director (en funciones)
 
 Caitlin Humphrey

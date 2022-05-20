@@ -1,10 +1,12 @@
 ---
-title: 'Confidentialité et sécurité: nos pratiques de sécurité'
-description: 'Découvrez les différentes méthodes que nous utilisons pour protéger ce service du gouvernement américain et vos données, et pour garantir que le service reste disponible pour tous les utilisateurs.'
-permalink: /fr/policy/our-security-practices/
 sidenav: policies
+title: "Confidentialité et sécurité: nos pratiques de sécurité"
+description: Découvrez les différentes méthodes que nous utilisons pour protéger
+  ce service du gouvernement américain et vos données, et pour garantir que le
+  service reste disponible pour tous les utilisateurs.
+permalink: /fr/policy/our-security-practices/
 redirect_from:
-- /fr/security/
+  - /fr/security/
 ---
 
 ## Nos pratiques de sécurité ## {#our-security-practices}
@@ -19,4 +21,4 @@ Consultez notre [Politique de divulgation des vulnérabilités](https://handbook
 
 ### Pour plus d'informations ### {#more-info}
 
-Nous sommes heureux de répondre aux questions sur nos pratiques de sécurité et de confidentialité. Pour plus d'informations, veuillez visiter [help](/fr/help/) ou [contactez-nous](/fr/contact/).
+Nous sommes heureux de répondre aux questions sur nos pratiques de sécurité et de confidentialité. Pour plus d'informations, veuillez visiter [aide](/fr/help/) ou [contactez-nous](/fr/contact/).

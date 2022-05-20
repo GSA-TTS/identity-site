@@ -23,7 +23,7 @@ describe('country support', () => {
     await page.setRequestInterception(true);
 
     page.on('request', (interceptedRequest) => {
-      if (interceptedRequest.url().endsWith('/country-support')) {
+      if (interceptedRequest.url().endsWith('/country-support?locale=en')) {
         interceptedRequest.respond({
           contentType: 'application/json',
           headers: {

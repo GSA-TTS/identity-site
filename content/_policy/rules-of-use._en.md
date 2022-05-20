@@ -72,6 +72,8 @@ Login.gov does not renew, reissue, or expire authenticators, but you can revoke 
 
 When you register an authenticator with the Login.gov service, you agree to allow us to use it as an authenticator to access your account. If you register for SMS or voice messaging, you authorize us to send text messages and make phone calls to your phone number.
 
+For physical authenticators such as printed out backup codes, a hardware token, or a phone, protect them by keeping them in a safe place or with you. Don’t let them get damaged. If they get lost, broken, or damaged, you may lose access to your account.
+
 If you forget your passphrase, you can reset it if you have access to your registered email address. If you don't have any of your other authenticators available, you can still access your account, but we will delete any information contained in it. You can change your passphrase at any time from your account profile. If you lose another authenticator or no longer wish to use it, you can deactivate it in your account profile at any time.
 
 If we suspect fraud on your account, we may lock your account and contact you. If we have reason to believe your passphrase has been compromised, we may require that you reset it.

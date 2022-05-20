@@ -30,6 +30,6 @@ A clear picture of your state-issued ID is required to complete the identity ver
 
 ## Related articles
 
-[How to verify your identity](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/)
-[Accepted state-issued identification](https://login.gov/help/verify-your-identity/accepted-state-issued-identification/)
+[How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
+[Accepted state-issued identification](/help/verify-your-identity/accepted-state-issued-identification/)
 [Troubleshoot uploading state-issued ID](/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
