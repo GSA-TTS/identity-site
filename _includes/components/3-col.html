@@ -3,15 +3,15 @@
     <div class="grid-row">
       <div class="tablet:grid-col">
         <h3 class="hdr {{ include.col_class1}}">{{ include.subheading1 }}</h3>
-        {{ include.col1 | replace: 'site.baseurl', site.baseurl | markdownify }}
+        {{ include.col1 | markdownify }}
       </div>
       <div class="tablet:grid-col">
         <h3 class="hdr {{ include.col_class2}}">{{ include.subheading2 }}</h3>
-        {{ include.col2 | replace: 'site.baseurl', site.baseurl | markdownify }}
+        {{ include.col2 | markdownify }}
       </div>
       <div class="tablet:grid-col">
         <h3 class="hdr {{ include.col_class3}}">{{ include.subheading3 }}</h3>
-        {{ include.col3 | replace: 'site.baseurl', site.baseurl | markdownify }}
+        {{ include.col3 | markdownify }}
       </div>
     </div>
   </article>
