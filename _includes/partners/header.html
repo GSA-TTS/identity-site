@@ -1,10 +1,12 @@
 <section class="login-developers-links">
   <div class="container">
     <div class="grid-col display-flex flex-justify-end flex-align-center">
-      {%- capture home_link -%}
-        [Login.gov](/){:class="usa-nav__link usa-link"}
-      {%- endcapture -%}
-      {{ home_link | markdownify }}
+      <a
+        class="usa-nav__link usa-link"
+        href="/"
+      >
+        Login.gov
+      </a>
       <span class="links-separator">&#124;</span>
       <a
         class="usa-nav__link usa-link"
