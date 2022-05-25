@@ -24,7 +24,7 @@
       justify-content: flex-end;
       padding-top: ($container-spacing-sm * 3);
 
-      @include at-media("tablet") {
+      @include at-media("desktop") {
         display: flex;
         padding-top: 0;
       }
