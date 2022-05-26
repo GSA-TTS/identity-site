@@ -45,7 +45,7 @@ technical_support: >-
 benefits: >-
     ## Benefits of partnering with Login.gov
 benefit1: >-
-    We are committed to [user privacy and security](/policy){:class="external-link"}
+    We are committed to [user privacy and security](/policy/){:class="external-link"}
 benefit2: >-
     Secure two-factor authentication (2FA) backed by a [FedRAMP](https://www.fedramp.gov/){:class="external-link"} Moderate ATO
 benefit3: >-
