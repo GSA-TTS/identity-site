@@ -2,7 +2,7 @@
 layout: partners/sba-impact-story
 permalink: /partners/sba-impact-story/
 title: >-
-    Impact story
+    Impact story: SBA
 subtitle: >-
     ## Small Business Administration’s (SBA) story
 body: >-
