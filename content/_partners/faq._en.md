@@ -64,7 +64,7 @@ general_accordion:
         id: a-6
         title: How do we partner with Login.gov?
         content: >-
-            <a href="https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e" class="external-link">To get started, reach out to our team using this form</a>. We’ll work with you to understand and capture your needs and requirements at a high level. Together, we’ll decide whether Login.gov makes sense for your particular business and use cases. If we decide to move forward, the next step is to sign an Interagency Agreement (IAA). This signals a mutual commitment which allows us to commit further resources to technical discovery and integration and migration planning.
+            <a href="https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e" class="external-link">Contact an account manager to get started.</a> We’ll work with you to understand and capture your needs and requirements at a high level. Together, we’ll decide whether Login.gov makes sense for your particular business and use cases. If we decide to move forward, the next step is to sign an Interagency Agreement (IAA). This signals a mutual commitment which allows us to commit further resources to technical discovery and integration and migration planning.
 logistics_accordion:
     -
         id: b-1
@@ -108,7 +108,7 @@ logistics_accordion:
         id: b-8
         title: Can Login.gov authenticate or proof non-U.S. citizens or non-U.S. immigrants (not a U.S. citizen, U.S. national, lawful permanent resident, or traveling to the United States on an immigrant visa)?
         content: >-
-            <a href="https://login.gov/help/manage-your-account/international-phone-support/" class="external-link">Click here for a complete list of international phone numbers that Login.gov supports for authenticating end-users </a>. In addition to a phone number, at this time Login.gov requires users to proof with a state-issued ID card and social security number.
+            Check <a href="https://login.gov/help/manage-your-account/international-phone-support/" class="external-link">International phone number support</a> for a complete list that Login.gov supports for authenticating end-users. In addition to a phone number, at this time Login.gov requires users to proof with a state-issued ID card and social security number.
     -
         id: b-9
         title: What forms of identification can Login.gov accept for identity proofing?
@@ -131,7 +131,7 @@ development_accordion:
         id: c-1
         title: Can we have a sandbox?
         content: >-
-            Login.gov provides an open sandbox environment to create and test integrations between Login.gov and your applications. In the sandbox environment, we provide a Dashboard where you can manage your test applications. <a href="https://developers.login.gov/testing/#how-to-get-started" class="external-link">Click here to get started with our sandbox</a>
+            Login.gov provides an open sandbox environment to create and test integrations between Login.gov and your applications. In the sandbox environment, we provide a Dashboard where you can manage your test applications. <a href="https://developers.login.gov/testing/#how-to-get-started" class="external-link">Visit the Developer guide to get started with our sandbox.</a>
     -
         id: c-2
         title: What counts as an authentication?
@@ -141,7 +141,7 @@ development_accordion:
         id: c-3
         title: How do we get our application to production?
         content: >-
-            <a href="https://developers.login.gov/production/" class="external-link">See our production deployment page here</a>. We deploy changes to our production configuration weekly on Thursdays between 11am – 2pm EST. 
+            <a href="https://developers.login.gov/production/" class="external-link">Check Production deployment for more details.</a> We deploy changes to our production configuration weekly on Thursdays between 11am – 2pm EST. 
     -
         id: c-4
         title: What do you support-SAML vs. OAuth vs. OpenID?
@@ -153,14 +153,14 @@ development_accordion:
 
             For more info see:
 
-            - <a href="https://developers.login.gov/saml/" class="external-link">https://developers.login.gov/saml/</a>
+            - <a href="https://developers.login.gov/saml/" class="external-link">SAML developer guide</a>
 
-            - <a href="https://developers.login.gov/oidc/" class="external-link">https://developers.login.gov/oidc/</a>
+            - <a href="https://developers.login.gov/oidc/" class="external-link">OpenID Connect developer guide</a>
     -
         id: c-5
         title: Do we need an approved IAA before we can launch our integration with Login.gov?
         content: >-
-            In order to launch your integration with Login.gov, your agency must first complete an IAA. You can test your application during the IAA process.  Once testing is complete and the IAA has been executed, Login.gov will launch your integration within two weeks.  [Learn more about an IAA here](/partners/get-started/#iaa-anchor){:class="usa-nav_link caret"}
+            In order to launch your integration with Login.gov, your agency must first complete an IAA. You can test your application during the IAA process.  Once testing is complete and the IAA has been executed, Login.gov will launch your integration within two weeks.  [Learn more about our IAA process](/partners/get-started/#iaa-anchor){:class="usa-nav_link caret"}
     -
         id: c-6
         title: Do you integrate with Commercial Off-The-Shelf (COTS) solutions?
