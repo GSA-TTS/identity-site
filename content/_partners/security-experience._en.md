@@ -15,7 +15,7 @@ body: >-
 job: >-
     ### Security experience is everyone’s job
 
-    **Creating a secure, usable experience is a priority for everyone at Login.gov.** We are all responsible for maintaining the integrity of our products and services. We prioritize protecting the public’s data in sync with our practice of continuously improving our product. As users use Login.gov, we should ensure their security awareness is raised. We want to affect users to keep their entire digital presence secure, not just their Login.gov presence. <a class="external-link" href="https://login.gov/policy/our-security-practices/">You can read more about our security and privacy practices.</a>
+    **Creating a secure, usable experience is a priority for everyone at Login.gov.** We are all responsible for maintaining the integrity of our products and services. We prioritize protecting the public’s data in sync with our practice of continuously improving our product. As users use Login.gov, we should ensure their security awareness is raised. We want to affect users to keep their entire digital presence secure, not just their Login.gov presence. <a class="external-link" href="https://login.gov/policy/our-security-practices/">You can read more about our security and privacy practices</a>.
 considerations1: >-
     #### Key considerations {#key-considerations-1}
 
