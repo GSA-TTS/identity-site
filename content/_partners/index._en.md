@@ -63,10 +63,12 @@ nist_fedramp:
       class: nist
       image: partners/nist.svg
       text:  Login.gov is working closely with [NIST](https://www.nist.gov/){:class="external-link"} to stay current on the latest guidelines, recommendations, and best practices. Our goal is to remove the agency burden of compliance with these standards, so you can focus on your specific mission and those you serve.
+      alt: National Institute of Standards and Technology (NIST)
     - 
       class: fedramp
       image: partners/fedramp.png
       text:  <span>Our FedRAMP Moderate Authority to Operate (ATO)</span> Login.gov has a [FedRAMP](https://www.fedramp.gov/){:class="external-link"} Moderate ATO issued by the U.S. General Services Administration. Our SSP/Control Implementation Survey/Customer Responsibility Matrix is available through the FedRAMP marketplace.
+      alt: Federal Risk and Authorization Management Program (FedRAMP)
   link: >
     [Learn more about our security experience](/partners/security-experience/){:class="usa-nav_link caret"}
 ---
