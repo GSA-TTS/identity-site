@@ -1,18 +1,17 @@
 ---
 layout: partners/get-started
 permalink: /partners/get-started/
-title: >- 
+title: >-
     Get started
 body: >-
-    Below are the steps to becoming a partner with Login.gov and an overview of the Interagency Agreement (IAA) process. During the process, we provide a free sandbox environment to create test integrations between Login.gov and your applications. Anybody with an email address ending in .gov or .mil can create an account in the sandbox environment. If you are a government contractor, ask your agency partner to help you gain access. 
-ssa_quote: >-
-    “The SSA UXG team appreciates the willingness of the Login.gov team to listen to our goals, concerns, and questions, then work with us to identify a path forward that will benefit the customers (end users) of SSA and other federal agencies. The team’s flexibility and willingness to hear our suggestions is very much appreciated. We enjoy brainstorming together and sharing research findings as we try to help each other move forward.”
+    Below are the steps to becoming a partner with Login.gov and an overview of the Interagency Agreement (IAA) process. During the process, we provide a free sandbox environment to create test integrations between Login.gov and your applications. Anybody with an email address ending in .gov or .mil can create an account in the sandbox environment. If you are a government contractor, ask your agency partner to help you gain access.
+ssa_quote: |-
+    > “The SSA UXG team appreciates the willingness of the Login.gov team to listen to our goals, concerns, and questions, then work with us to identify a path forward that will benefit the customers (end users) of SSA and other federal agencies. The team’s flexibility and willingness to hear our suggestions is very much appreciated. We enjoy brainstorming together and sharing research findings as we try to help each other move forward.”
+    {:class="margin-0"}
 
 
     Elizabeth Hanst
-
     Technology Lead User Experience Specialist
-
     Social Security Administration
 iaa_tips: >-
     Tips for completing the IAA process:
@@ -24,7 +23,7 @@ iaa_tips: >-
     * Ensure your technical team has capacity for integration or plan to hire a team
 
 
-    The above suggestions may help keep your agency on track for creating the IAA and receiving proper approvals within the anticipated six to eight week timeline, and launching your integration with Login.gov. 
+    The above suggestions may help keep your agency on track for creating the IAA and receiving proper approvals within the anticipated six to eight week timeline, and launching your integration with Login.gov.
 partnership_steps_title: >-
     ## Steps to partnership
 partnership_steps_header1: >-
