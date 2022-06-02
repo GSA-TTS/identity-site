@@ -64,7 +64,7 @@ general_accordion:
         id: a-6
         title: How do we partner with Login.gov?
         content: >-
-            <a href="https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e" class="external-link">Contact an account manager to get started</a>. We’ll work with you to understand and capture your needs and requirements at a high level. Together, we’ll decide whether Login.gov makes sense for your particular business and use cases. If we decide to move forward, the next step is to sign an Interagency Agreement (IAA). This signals a mutual commitment which allows us to commit further resources to technical discovery and integration and migration planning.
+            [Contact an account manager to get started](/partners/contact/){:class="external-link"}. We’ll work with you to understand and capture your needs and requirements at a high level. Together, we’ll decide whether Login.gov makes sense for your particular business and use cases. If we decide to move forward, the next step is to sign an Interagency Agreement (IAA). This signals a mutual commitment which allows us to commit further resources to technical discovery and integration and migration planning.
 logistics_accordion:
     -
         id: b-1
