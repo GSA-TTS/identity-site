@@ -3,12 +3,11 @@ layout: partners/rrb-impact-story
 permalink: /partners/rrb-impact-story/
 title: >-
     Impact story: RRB
-quote: >-
-    “Partnering with Login.gov allows our agency to scale on demand and offer helpdesk services at a significant savings compared to maintaining the architecture and staff ourselves. We immediately saw the benefits during the COVID-19 pandemic. Not to mention the added savings from outsourcing the continuous improvement process and keeping up with digital identity guidelines. We’ve been able to reallocate those resources to developing more online services for our claimants.”
-
+quote: |-
+    > ”Partnering with Login.gov allows our agency to scale on demand and offer helpdesk services at a significant savings compared to maintaining the architecture and staff ourselves. We immediately saw the benefits during the COVID-19 pandemic. Not to mention the added savings from outsourcing the continuous improvement process and keeping up with digital identity guidelines. We’ve been able to reallocate those resources to developing more online services for our claimants.”
+    {:class="margin-0"}
 
     Adrian Lustica
-
     Railroad Retirement Board
 subtitle: >-
     ## Railroad Retirement Board’s (RRB) story

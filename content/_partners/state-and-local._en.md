@@ -5,14 +5,12 @@ title: >-
     State, local, tribal governments and territories
 body: >-
     Crises, like the COVID-19 global pandemic and ongoing natural disasters, make it more urgent than ever for the public to gain fast and easy access to their benefits and services. GSA’s Technology Transformation Services (TTS) realizes the burden this has put on state and local governments. Our team, with deep expertise in security, product, engineering, and user experience, is looking for state and local government partners looking to take advantage of all that Login.gov has to offer for their federally funded programs.
-ssa_quote: >-
-    “The SSA UXG team appreciates the willingness of the Login.gov team to listen to our goals, concerns, and questions, then work with us to identify a path forward that will benefit the customers (end users) of SSA and other federal agencies. The team’s flexibility and willingness to hear our suggestions is very much appreciated. We enjoy brainstorming together and sharing research findings as we try to help each other move forward.”
-
+ssa_quote: |-
+    > “The SSA UXG team appreciates the willingness of the Login.gov team to listen to our goals, concerns, and questions, then work with us to identify a path forward that will benefit the customers (end users) of SSA and other federal agencies. The team’s flexibility and willingness to hear our suggestions is very much appreciated. We enjoy brainstorming together and sharing research findings as we try to help each other move forward.”
+    {:class="margin-0"}
 
     Elizabeth Hanst
-
     Technology Lead User Experience Specialist
-
     Social Security Administration
 partnership_steps_title: >-
     ## Steps to partnership
