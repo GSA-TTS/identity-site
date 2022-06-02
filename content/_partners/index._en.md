@@ -43,15 +43,24 @@ right_for_you:
 who_we_work_with:
   heading: Who we work with
   class: who_we_work_with
+  label: Grid of logos for eight partner agencies.
   items:
     - image: partners/logos/sba.png
+      alt: U.S Small Business Administration (SBA)
     - image: partners/logos/army.png
+      alt: U.S Army
     - image: partners/logos/nasa.png
+      alt: National Aeronautics and Space Administration (NASA)
     - image: partners/logos/doa.png
+      alt: U.S Department of Agriculture (USDA)
     - image: partners/logos/doe.png
+      alt: U.S Department of Education
     - image: partners/logos/dhs.png
+      alt: U.S Department of Homeland Security (DHS)
     - image: partners/logos/doi.png
+      alt: U.S Department of the Interior (DOI)
     - image: partners/logos/va.png
+      alt: U.S Department of Veterans Affairs (VA)
   link: >
     [Read our impact stories](/partners/impact-stories/){:class="usa-nav_link caret"}
 
@@ -59,12 +68,12 @@ nist_fedramp:
   heading: Security and compliance
   class: nist-fedramp
   items:
-    - 
+    -
       class: nist
       image: partners/nist.svg
       text:  Login.gov is working closely with [NIST](https://www.nist.gov/){:class="external-link"} to stay current on the latest guidelines, recommendations, and best practices. Our goal is to remove the agency burden of compliance with these standards, so you can focus on your specific mission and those you serve.
       alt: National Institute of Standards and Technology (NIST)
-    - 
+    -
       class: fedramp
       image: partners/fedramp.png
       text:  <span>Our FedRAMP Moderate Authority to Operate (ATO)</span> Login.gov has a [FedRAMP](https://www.fedramp.gov/){:class="external-link"} Moderate ATO issued by the U.S. General Services Administration. Our SSP/Control Implementation Survey/Customer Responsibility Matrix is available through the FedRAMP marketplace.
