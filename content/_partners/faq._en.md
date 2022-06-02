@@ -141,7 +141,7 @@ development_accordion:
         id: c-3
         title: How do we get our application to production?
         content: >-
-            <a href="https://developers.login.gov/production/" class="external-link">Check Production deployment for more details.</a> We deploy changes to our production configuration weekly on Thursdays between 11am – 2pm EST. 
+            <a href="https://developers.login.gov/production/" class="external-link">Check Production deployment for more details</a>/ We deploy changes to our production configuration weekly on Thursdays between 11am – 2pm EST. 
     -
         id: c-4
         title: What do you support-SAML vs. OAuth vs. OpenID?
