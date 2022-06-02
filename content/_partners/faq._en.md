@@ -131,7 +131,7 @@ development_accordion:
         id: c-1
         title: Can we have a sandbox?
         content: >-
-            Login.gov provides an open sandbox environment to create and test integrations between Login.gov and your applications. In the sandbox environment, we provide a Dashboard where you can manage your test applications. <a href="https://developers.login.gov/testing/#how-to-get-started" class="external-link">Visit the Developer guide to get started with our sandbox.</a>
+            Login.gov provides an open sandbox environment to create and test integrations between Login.gov and your applications. In the sandbox environment, we provide a Dashboard where you can manage your test applications. <a href="https://developers.login.gov/testing/#how-to-get-started" class="external-link">Visit the Developer guide to get started with our sandbox</a>.
     -
         id: c-2
         title: What counts as an authentication?
