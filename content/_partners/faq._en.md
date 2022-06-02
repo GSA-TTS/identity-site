@@ -148,7 +148,7 @@ development_accordion:
         content: >-
             SAML vs. OAuth vs. OpenID
 
-            - We do not support the OpenID Connect “implicit flow” with <code class="highlighter-rouge">client_secret</code> because it is <a href="https://oauth.net/2/grant-types/implicit/" class="external-link">not recommended by the OAuth group</a> for security reasons. We do support OpenID Connect <code class="highlighter-rouge">private_key_jwt</code> and PKCE
+            - We do not support the OpenID Connect “implicit flow” with `client_secret` because it is [not recommended by the OAuth group](https://oauth.net/2/grant-types/implicit/){:class="external-link"} for security reasons. We do support OpenID Connect `private_key_jwt` and PKCE
 
 
             For more info see:
