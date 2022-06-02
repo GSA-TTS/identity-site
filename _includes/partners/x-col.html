@@ -6,7 +6,7 @@
         <div class="item tablet:grid-col">
           {% if item.image and item.image != '' %}
             <img
-              alt=""
+              alt="{% if item.alt and item.alt != ''%}{{ item.alt }}{% endif %}"
               aria-hidden="true"
               class="{% if item.class and item.class != '' %}{{ item.class }}{% endif %}"
               src="{{ site.baseurl }}/assets/img/{{ item.image }}"
