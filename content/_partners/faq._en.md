@@ -108,7 +108,7 @@ logistics_accordion:
         id: b-8
         title: Can Login.gov authenticate or proof non-U.S. citizens or non-U.S. immigrants (not a U.S. citizen, U.S. national, lawful permanent resident, or traveling to the United States on an immigrant visa)?
         content: >-
-            Check <a href="https://login.gov/help/manage-your-account/international-phone-support/" class="external-link">International phone number support</a> for a complete list that Login.gov supports for authenticating end-users. In addition to a phone number, at this time Login.gov requires users to proof with a state-issued ID card and social security number.
+            Check [International phone number support](/help/manage-your-account/international-phone-support/){:class="external-link"} for a complete list that Login.gov supports for authenticating end-users. In addition to a phone number, at this time Login.gov requires users to proof with a state-issued ID card and social security number.
     -
         id: b-9
         title: What forms of identification can Login.gov accept for identity proofing?
