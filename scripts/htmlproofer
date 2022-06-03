@@ -12,7 +12,7 @@ proofer_options = { url_ignore: [] }
 OptionParser.new do |opt|
   opt.on('--internal') { proofer_options[:disable_external] = true }
   opt.on('--external') { proofer_options[:external_only] = true }
-  opt.on('--url-ignore PATTERN') { |pattern| proofer_options[:url_ignore] << /#{Regexp.quote(pattern)}/ }
+  opt.on('--url-ignore PATTERN') { |pattern| proofer_options[:url_ignore] << Regexp.quote(pattern) }
   opt.on('--retry-external RETRIES', Integer) { |retries_arg| retries = retries_arg }
   opt.on('--retry-external-delay DELAY', Integer) { |retry_delay_arg| retry_delay = retry_delay_arg }
 end.parse!
