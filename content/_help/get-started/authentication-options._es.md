@@ -41,6 +41,7 @@ Las aplicaciones de autenticación se descargan en su dispositivo y generan cód
 Si usted elige esta opción de seguridad, siga estos pasos para descargar e instalar una aplicación compatible y configurarla para que funcione con Login.gov.
 
 {: .number-list}
+
 1. Elija un dispositivo, como una computadora o un dispositivo móvil (teléfono o tableta) en el que pueda instalar aplicaciones.
 2. Descargue e instale una aplicación de autenticación en su dispositivo. Algunas opciones populares son:
 
@@ -68,7 +69,7 @@ Las tarjetas físicas de PIV (Verificación de Identidad Personal) y las CAC (Ta
 
 ## Mensajes de texto y llamadas telefónicas
 
-Los mensajes de texto y las llamadas telefónicas resultan prácticos, pero son extremadamente vulnerables ante robos, jaqueos y otros ataques.
+Los mensajes de texto y las llamadas telefónicas resultan prácticos, pero son extremadamente vulnerables ante robos, jaqueos y otros ataques. Debe seleccionar más de un método de autenticación, si elige mensaje de texto o de voz.
 
 Si usted elige utilizar esta opción menos segura, ingrese un número de teléfono en el que pueda recibir llamadas telefónicas o mensajes de texto. Si solo tiene un teléfono fijo, debe recibir su código de seguridad por llamada. Iogin.gov no puede enviar códigos de seguridad a extensiones telefónicas o buzones de voz.
 

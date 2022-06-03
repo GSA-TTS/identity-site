@@ -43,6 +43,7 @@ Authentication applications are downloaded to your device and generate secure, s
 If you choose this secure option, follow these steps to download and install one of the supported applications and configure it to work with Login.gov.
 
 {: .number-list}
+
 1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps.
 2. Download and install an authentication app to your device. Some popular options include:
 
@@ -70,7 +71,7 @@ Physical PIV (personal identity verification) cards or CACs (common access cards
 
 ## Text message / Phone call
 
-Text messages/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers, and other attacks.
+Text messages/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers, and other attacks. You are required to select more than one authentication method if you choose text or voice message.
 
 If you choose to use this less secure option, enter a phone number at which you can receive phone calls or text messages. If you only have a landline, you must receive your security code by phone call. Login.gov cannot send security codes to extensions or voicemails.
 
