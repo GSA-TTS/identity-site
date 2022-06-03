@@ -4,10 +4,14 @@
 @import "header";
 @import "language-picker";
 @import "list";
-@import "one-account-banner";
+@import "banner";
 @import "already-have-an-account";
 @import "nav";
 @import "hero";
+
+@import "partners/hero";
+@import "partners/checklist";
+@import "partners/partners";
 
 @import "typography";
 @import "svg";

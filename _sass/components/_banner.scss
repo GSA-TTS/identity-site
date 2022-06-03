@@ -1,0 +1,95 @@
+.one-account-banner,
+.partners-banner {
+  background-color: $white;
+  padding-bottom: ($container-spacing * 2);
+  padding-left: $container-spacing-sm;
+  padding-right: $container-spacing-sm;
+}
+
+.one-account-banner__backdrop,
+.partners-banner__backdrop {
+  @include lg-grid(false, true);
+  align-items: center;
+  background-color: $navy;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 11rem;
+  justify-content: center;
+  overflow: hidden;
+  padding-left: $container-spacing-sm;
+  padding-right: $container-spacing-sm;
+  position: relative;
+  text-align: center;
+}
+
+.one-account-banner__backdrop::before,
+.partners-banner__backdrop::before {
+  @include u-pin("all");
+  opacity: 0.6;
+  content: '';
+}
+
+.one-account-banner__backdrop::before {
+  background-image: url(../img/who-uses-login/who-uses-illo-header/who-uses-illo-header.png);
+  background-position: -22rem -6rem;
+  background-repeat: no-repeat;
+  background-size: 160%;
+  @include at-media("mobile-lg") {
+    background-size: 120%;
+  }
+
+  @include at-media("tablet") {
+    background-size: 90%;
+    opacity: 0.9;
+  }
+
+  @include at-media("desktop") {
+    background-size: 70%;
+  }
+}
+
+.partners-banner__backdrop::before {
+  background-image: url(../img/partners/banners/partners-login.svg);
+  background-repeat: no-repeat;
+  background-position: -6rem -6rem;
+  @include at-media("card") {
+    background-size: 70%;
+  }
+
+  @include at-media("tablet") {
+    background-size: 40%;
+    opacity: 0.9;
+  }
+
+  @include at-media("desktop") {
+    background-size: 30%;
+  }
+}
+
+.one-account-banner__content,
+.partners-banner__content {
+  position: relative;
+}
+
+.one-account-banner__tagline,
+.partners-banner__tagline {
+  color: $white;
+  font-size: 1.375rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+.one-account-banner__link,
+.partners-banner__link {
+  font-size: 1.2rem;
+  color: $white;
+  background: url(../img/partners/white-caret.svg) no-repeat center right;
+  padding-right: 15px;
+}
+
+.one-account-banner .usa-button--big,
+.partners-banner .usa-button--big {
+  width: auto;
+}

@@ -16,6 +16,10 @@ contact_form_captcha_enabled: true
 contact_form_action: "https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
 contact_form_orgid: "00DU0000000Leux"
 
+# Partnership contact form production values
+partnership_contact_portal_id: "5531666"
+partnership_contact_form_id: "1a04d623-bccf-46e4-a6f3-bee3cac8c165"
+
 # Used to load country code support
 idp_base_url: https://secure.login.gov
 # for local development:
@@ -34,7 +38,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   partners:
-    output: true
+    output: false # overridden for preview branch
     permalink: /:collection/:path/
   policy:
     output: true
@@ -89,6 +93,10 @@ defaults:
       path: 'content/**/*/*._fr.md'
     values:
       lang: fr
+  - scope: # temporarily hide /partners content from sitemap.xml while under development
+      path: 'content/_partners/**/*'
+    values:
+      sitemap: false
 
 include:
   # dotfiles are excluded by default

@@ -170,6 +170,7 @@ nav:
         url: '#léquipe'
       - name: À propos de Login.gov
         url: '#à-propos-de-logingov'
+  about_login_gov: About Login.gov # partners site does not require translations
   accessibility:
     title: Accessibilité
     sections:
@@ -198,8 +199,11 @@ nav:
   create_an_account: Créer un compte
   developer_guide: Guide du développeur
   developers: Développeurs
+  faq: FAQ
+  get_started: Get started # parters site does not require translations
   groups:
     agencies: Pour les agences
+    partners: For partners # partners site does not require translations
     learn: Apprendre
     support: Soutien
   help: Aide
@@ -228,6 +232,7 @@ nav:
   principles: Principes
   privacy_&_security: Confidentialité et sécurité
   security: Sécurité
+  security_experience: Security experience # partners site does not require translations
   sign_in: 'Connectez-vous avec'
   skip_nav: Passer au contenu principal
   system_status: État du système Login.gov

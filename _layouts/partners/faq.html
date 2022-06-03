@@ -1,0 +1,129 @@
+---
+layout: base
+---
+<header>
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include partners/header.html %}
+</header>
+<main id="main-content">
+    <section>
+        <div class="container partners-container">
+            <div class="grid-row">
+                <h1 class="partners-title">{{ page.title }}</h1>
+                <div class="tablet:grid-col-9 accordion-container">
+                  <div class="partners-border"></div>
+                  <div class="section-title-row">
+                    <div id="general-section" class="section-title-left">{{ page.general_section_title | markdownify}}</div>
+                    <button
+                      class="section-title-right collapse-expand-btn-general usa-button usa-button--unstyled"
+                      onclick="javascript:updateAllAccordions('general')">
+                      Expand all
+                    </button>
+                  </div>
+                  <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
+                      {% for item in page.general_accordion %}
+                        <h3 class="usa-accordion__heading">
+                          <button
+                            onclick="updateSingleAccordion(this, 'general')"
+                            class="usa-accordion__button login-accordion-btn-general"
+                            aria-expanded="false"
+                            aria-controls={{ item.id }}
+                            >
+                            {{ item.title }}
+                          </button>
+                        </h3>
+                        <div id={{ item.id }} class="usa-accordion__content login-accordion-content-general">
+                        {{ item.content | markdownify}}
+                        </div>
+                      {% endfor %}
+                  </div>
+                  <a href="#main-content">Back to Top</a>
+                  <div class="section-title-row margin-top-5">
+                    <div id="logistics-section" class="section-title-left">{{ page.logistics_section_title | markdownify}}</div>
+                    <button
+                      class="section-title-right collapse-expand-btn-logistics usa-button usa-button--unstyled"
+                      onclick="javascript:updateAllAccordions('logistics')">
+                      Expand all
+                    </button>
+                  </div>
+                  <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
+                      {% for item in page.logistics_accordion %}
+                        <h3 class="usa-accordion__heading">
+                          <button
+                            onclick="updateSingleAccordion(this, 'logistics')"
+                            class="usa-accordion__button login-accordion-btn-logistics"
+                            aria-expanded="false"
+                            aria-controls={{ item.id }}
+                            >
+                            {{ item.title }}
+                          </button>
+                        </h3>
+                        <div id={{ item.id }} class="usa-accordion__content login-accordion-content-logistics">
+                        {{ item.content | markdownify}}
+                        </div>
+                      {% endfor %}
+                  </div>
+                  <a href="#main-content">Back to Top</a>
+                  <div class="section-title-row margin-top-5">
+                    <div id="development-section" class="section-title-left">{{ page.development_section_title | markdownify}}</div>
+                    <button
+                      class="section-title-right collapse-expand-btn-development usa-button usa-button--unstyled"
+                      onclick="javascript:updateAllAccordions('development')">
+                      Expand all
+                    </button>
+                  </div>
+                  <div class="usa-accordion usa-accordion--bordered margin-bottom-5">
+                      {% for item in page.development_accordion %}
+                        <h3 class="usa-accordion__heading">
+                          <button
+                            onclick="updateSingleAccordion(this, 'development')"
+                            class="usa-accordion__button login-accordion-btn-development"
+                            aria-expanded="false"
+                            aria-controls={{ item.id }}
+                            >
+                            {{ item.title }}
+                          </button>
+                        </h3>
+                        <div id={{ item.id }} class="usa-accordion__content login-accordion-content-development">
+                        {{ item.content | markdownify}}
+                        </div>
+                      {% endfor %}
+                  </div>
+                  <a href="#main-content">Back to Top</a>
+                </div>
+                <div class="tablet:grid-col-3 search-container">
+                  <div>
+                    {% include search.html id="header-nav" %}
+                  </div>
+                  <section>
+                      <nav class="margin-top-5" aria-label="Secondary navigation,">
+                          <ul class="usa-sidenav">
+                            <li class="usa-sidenav__item">
+                              <a href="#main-content" class="usa-current">FAQs</a>
+                              <ul class="usa-sidenav__sublist">
+                                  <li class="usa-sidenav__item">
+                                    <a href="#general-section">General</a>
+                                  </li>
+                                  <li class="usa-sidenav__item">
+                                    <a href="#logistics-section">Logistics</a>
+                                  </li>
+                                  <li class="usa-sidenav__item">
+                                    <a href="#development-section">Development</a>
+                                  </li>
+                                </ul>
+                            </li>
+                            <li class="usa-sidenav__item">
+                              <a href="{{ '/partners/contact/' | locale_url }}">Contact Us</a>
+                            </li>
+                          </ul>
+                        </nav>
+                  </section>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% include partners/partners-banner.html %}
+{% include partners/footer.html %}
+<script charset="utf-8" type="text/javascript" src='{{ "/assets/js/faqs.js" | relative_url }}'></script>

@@ -156,6 +156,7 @@ help_subpages:
   specific-agencies: Help with specific agencies
   verify-your-identity: Verify your identity
 nav:
+  about_login_gov: About Login.gov
   about_us:
     title: About us
     sections:
@@ -195,8 +196,11 @@ nav:
   create_an_account: Create an account
   developer_guide: Developer guide
   developers: developers
+  faq: FAQ
+  get_started: Get started
   groups:
     agencies: For agencies
+    partners: For partners
     learn: Learn
     support: Support
   help: Help
@@ -225,6 +229,7 @@ nav:
   principles: Principles
   privacy_&_security: Privacy & security
   security: Security
+  security_experience: Security experience
   sign_in: 'Sign in with'
   skip_nav: Skip to main content
   system_status: Login.gov system status

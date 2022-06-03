@@ -20,15 +20,18 @@
     }
 
     .navigation {
-      background: url(../img/logo_sign_in.svg) top left no-repeat;
       display: block;
       justify-content: flex-end;
       padding-top: ($container-spacing-sm * 3);
 
-      @include at-media("tablet") {
+      @include at-media("tablet-lg") {
         display: flex;
         padding-top: 0;
       }
+    }
+
+    .navigation-footer-logo {
+      background: url(../img/logo_sign_in.svg) top left no-repeat;
     }
 
     .grid {

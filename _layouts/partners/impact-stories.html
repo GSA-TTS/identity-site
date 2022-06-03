@@ -1,0 +1,42 @@
+---
+layout: base
+---
+<header>
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include partners/header.html %}
+</header>
+<main id="main-content">
+    <section>
+        <div class="container partners-container">
+            <div class="grid-row">
+                <h1 class="partners-title">{{ page.title }}</h1>
+                <div class="tablet:grid-col-12 partners-border"></div>
+                <div class="partners-body tablet:grid-col-12">
+                    <div>{{ page.subtitle | markdownify}}</div>
+                    <div class="partners-subtitle">{{ page.body | markdownify}}</div>
+                </div>
+            </div>
+            <div class="grid-row grid-gap-6 padding-top-4">
+                <div class="tablet:grid-col-2">
+                    <img src="{{ site.baseurl }}/assets/img/partners/sba_logo.svg" alt='Small Business Administration'>
+                </div>
+                <div class="tablet:grid-col-9 margin-top-3">
+                    <a href="{{ '/partners/sba-impact-story/' | locale_url }}" class="text-middle partners-subtitle caret"><b>Small Business Administration (SBA)</b></a>
+                    <div class="partners-body text-middle padding-top-2">{{ page.sba_body }}</div>
+                </div>
+            </div>
+            <div class="grid-row grid-gap-6 padding-top-4">
+                <div class="tablet:grid-col-2">
+                    <img src="{{ site.baseurl }}/assets/img/partners/rrb_logo.svg" alt='Railroad Retirement Board'>
+                </div>
+                <div class="tablet:grid-col-9 margin-top-3">
+                    <a href="{{ '/partners/rrb-impact-story/' | locale_url }}" class="text-middle partners-subtitle caret" ><b>Railroad Retirement Board (RRB)</b></a>
+                    <div class="partners-body text-middle padding-top-2">{{ page.rrb_body }}</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% include partners/partners-banner.html %}
+{% include partners/footer.html %}

@@ -1,0 +1,40 @@
+<main id="main-content">
+  <section>
+    <div class="container partners-container">
+      <div class="grid-row">
+        <div class="tablet:grid-col-9 accordion-container">
+          <script charset="utf-8" type="text/javascript" src='{{ "/assets/js/jquery/3.5.1/jquery.min.js" | relative_url }}'></script>
+          <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
+          <script type="text/javascript">
+            hbspt.forms.create({
+              region: "na1",
+              portalId: "{{ site.partnership_contact_portal_id }}",
+              formId: "{{ site.partnership_contact_form_id }}",
+              onFormReady: function($form) {
+                const iFrame = document.getElementById('hs-form-iframe-0');
+                iFrame.setAttribute('title', 'Login dot gov contact us form');
+              },
+            });
+          </script>
+        </div>
+        <div class="tablet:grid-col-3 search-container">
+          <div>
+            {% include search.html id="header-nav" %}
+          </div>
+          <section>
+            <nav class="margin-top-5" aria-label="Secondary navigation,">
+              <ul class="usa-sidenav">
+                <li class="usa-sidenav__item">
+                  <a href="{{ '/partners/faq/' | locale_url }}">FAQs</a>
+                </li>
+                <li class="usa-sidenav__item">
+                  <a href="#main-content" class="usa-current">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

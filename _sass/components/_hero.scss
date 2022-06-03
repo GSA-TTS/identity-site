@@ -28,6 +28,11 @@
       font-size: 1.25rem; // 20px
     }
   }
+
+  &.partners {
+    background-color: color('white');
+    color: color('ink');
+  }
 }
 
 .hero--search {
@@ -73,6 +78,15 @@
       background-repeat: no-repeat;
       > .container {
         background-image: none;
+      }
+    }
+
+    &.partners {
+      height: 28rem;
+      background: no-repeat url(../img/partners/heroes/partners-hero.svg) 80% / 100% ;
+      background-size: 30%;
+      > .container {
+        background: none;
       }
     }
 

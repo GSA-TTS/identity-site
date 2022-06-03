@@ -1,0 +1,146 @@
+.login-developers-links {
+  & span {
+    padding-bottom: 0;
+  }
+  & .links-separator {
+    color: $blue;
+    margin: 0 0.5rem;
+  }
+}
+
+.partners-logo__img {
+  height: 1.7rem;
+}
+
+.partners-footer-logo {
+  background: url(../img/partners/partners_logo.svg) top left no-repeat;
+}
+
+.partners-actions {
+  display: block;
+  @include at-media("card") {
+    & a {
+      width: 100%;
+      &:first-child {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+  @include at-media("desktop") {
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    & a {
+      width: auto;
+      &:first-child {
+        margin-bottom: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.container.partners {
+  @include usa-link-style;
+  text-align: left;
+  padding-bottom: 4rem;
+  padding-top: 1.5rem;
+
+  .hdr {
+    padding: 0.75rem 0 0.75rem 2.75rem;
+    &.authentication {
+      background: url(../img/partners/partners-authentication.svg) -0.2rem
+      center no-repeat;
+    }
+
+    &.identity {
+      background: url(../img/partners/partners-identity.svg) -0.2rem center
+      no-repeat;
+    }
+
+    &.multilingual {
+      background: url(../img/partners/partners-multilingual.svg) -0.2rem
+      center no-repeat;
+    }
+  }
+
+  .tablet\:grid-col + .tablet\:grid-col {
+    margin-left: 2rem;
+  }
+}
+
+.container.nist-fedramp,
+.container.pricing,
+.container.who_we_work_with {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: left;
+  .grid-container {
+    margin: 0;
+    max-width: 100%;
+    padding: 1rem 0 1rem 0;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 1rem 0;
+    span {
+      display: block;
+      font-weight: bold;
+    }
+    p {
+      margin: 0;
+      width: 100%;
+    }
+  }
+}
+
+.container.nist-fedramp {
+  .item {
+    align-items: center;
+  }
+  img {
+    max-height: 74px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.container.pricing {
+  ul {
+    padding-left: 1rem;
+  }
+  li {
+    padding: 0.5rem 0;
+  }
+}
+
+.container.who_we_work_with {
+  .item {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.full-width-color {
+  background-color: #ebf3fa;
+  padding: 1rem 0;
+  .intro {
+    border-bottom-color: #e21c3d;
+  }
+}
+
+@include at-media-max("desktop") {
+  .container.partners {
+    .tablet\:grid-col {
+      + .tablet\:grid-col {
+        margin-left: 0;
+      }
+
+      > h4 {
+        margin-top: 2rem;
+      }
+    }
+  }
+}

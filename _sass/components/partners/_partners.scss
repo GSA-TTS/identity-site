@@ -1,0 +1,101 @@
+// Shared styles that are unique to the Partner site redesign
+
+.partners-container {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+.partners-title {
+    font-size: 2.5em;
+}
+
+.partners-border {
+    border-bottom: 1px solid $border-color;
+}
+
+.partners-body {
+    line-height: 1.5em;
+    h4 {
+        font-size: 1.125em;
+    }
+}
+
+.external-link {
+    background: url(../img/partners/external-link.svg) no-repeat center right;
+    padding-right: 10px;
+    color:  #0071BB;
+}
+
+.thumbs-up {
+    padding-left: 2.75rem;
+    background: url(../img/partners/thumbs-up.svg) no-repeat top 12px left;
+}
+
+.partners-subtitle {
+    line-height: 1.5em;
+    font-size: 1.25em;
+}
+
+.caret {
+    background: url(../img/partners/caret.svg) no-repeat center right;
+    padding-right: 15px;
+    color:  #0071BB;
+}
+
+#security-experience-container {
+    @include at-media("desktop") {
+        background: url(../img/partners/security-experience.svg) no-repeat top 14% right 7%;
+        background-size: 35%;
+    }
+}
+
+.security-list {
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+
+.usa-accordion__heading p {
+    margin: 0px;
+}
+
+.accordion-container {
+    padding-right: 5%;
+}
+
+.search-container {
+    padding-top: 15px;
+}
+
+.section-title-right {
+    float: right;
+    margin-top: 20px;
+}
+
+.section-title-left {
+    float: left;
+}
+
+.partners-blue-box {
+    border-radius: 25px;
+    background: #205493;
+    color: white;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.usa-process-list > .usa-process-list__item {
+    max-width: 100% !important; // Hate this, but USWDS sets a max-width of 72px
+}
+
+.usa-accordion__heading h4 {
+    font-size: $base-font-size;
+}
+
+.partners-usa-button--active {
+    color: #112e51 !important;
+    background-color:rgba(0, 0, 0, 0) !important;
+    box-shadow: inset 0 0 0 1px #112e51 !important;
+}
