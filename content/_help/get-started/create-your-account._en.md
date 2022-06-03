@@ -10,6 +10,7 @@ redirect_from:
 Follow these steps to create your Login.gov account.
 
 {: .number-list}
+
 1. Enter your email address at <https://secure.login.gov/sign_up/enter_email> to begin.
 
    Choose an email address that you’ll always be able to access. Once your account is created, you can add an additional email address, such as a work email or alternate personal address, to access your account.
@@ -25,9 +26,7 @@ Follow these steps to create your Login.gov account.
 
    As an added layer of protection, Login.gov requires you set up a secondary authentication method to keep your account secure. This is referred to as two-factor authentication (2FA).
 
-   While we only require one secondary authentication method, we encourage you to add two methods to your account. That way you will have a backup if you lose access to your primary authentication method.
-
-   You can choose from several authentication options.
+   We encourage you to have more than one authentication method on your account. You can choose from several authentication options. If you select text or voice message as an authentication method, you are required to also add another authentication method.
 
    **More secure:**
 
