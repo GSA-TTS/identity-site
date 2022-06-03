@@ -1,13 +1,12 @@
 <article class="container {{ include.class }}">
   <header class="intro"><h2>{{ include.heading }}</h2></header>
   <div class='grid-container'>
-    <div class="grid-row grid-gap-lg">
+    <div class="grid-row grid-gap-lg" aria-label="{{ include.label }}">
       {% for item in include.items %}
         <div class="item tablet:grid-col">
           {% if item.image and item.image != '' %}
             <img
               alt="{% if item.alt != '' %}{{ item.alt }}{% endif %}"
-              aria-hidden="true"
               class="{% if item.class and item.class != '' %}{{ item.class }}{% endif %}"
               src="{{ site.baseurl }}/assets/img/{{ item.image }}"
             />
