@@ -19,7 +19,11 @@ redirect_from:
 En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d'authentification secondaire pour assurer la sécurité de votre compte. Il s'agit d'une authentification à deux facteurs (A2F). Nous utilisons l'A2F comme un niveau de protection supplémentaire pour sécuriser vos informations.
 
 **Authentification secondaire**
-Nous vous conseillons d'ajouter deux méthodes d'authentification à votre compte. Si vous perdez l'accès à votre principale méthode d'authentification (c'est-à-dire si vous perdez votre téléphone), vous pourrez utiliser une deuxième option pour accéder à votre compte. Login.gov ne peut pas vous accorder l'accès à votre compte si vous vous faites bloquer et/ou si vous perdez votre méthode d'authentification.
+Nous vous conseillons d'ajouter deux méthodes d'authentification à votre compte. Si vous perdez l'accès à votre principale méthode d'authentification (c'est-à-dire si vous perdez votre téléphone), vous pourrez utiliser une deuxième option pour accéder à votre compte. 
+
+Si vous choisissez le texte ou le message vocal, vous devez sélectionner une méthode d'authentification supplémentaire. Login.gov n'est pas en mesure de vous donner accès à votre compte si vous êtes bloqué et/ou si vous perdez votre méthode d'authentification. 
+
+Si vous êtes bloqué, vous devrez supprimer votre compte et en créer un nouveau.
 
 **Sécurité**
 Bien que vous avez le choix entre plusieurs options d'authentification, certaines méthodes d'authentification telles que les clés de sécurité, les cartes à puce PIV/CAC et les applications d'authentification sont plus efficaces contre les tentatives d'hameçonnage et le vol.
@@ -41,6 +45,7 @@ Les applications d'authentification se téléchargent sur votre appareil et gén
 Si vous choisissez cette option de sécurité, suivez les étapes suivantes pour télécharger et installer l'une des applications prises en charge et la configurer pour qu'elle fonctionne avec Login.gov.
 
 {: .number-list}
+
 1. Choisissez un appareil, tel qu'un ordinateur ou un appareil mobile (téléphone ou tablette), sur lequel vous pouvez installer des applications.
 2. Téléchargez et installez une application d'authentification sur votre appareil. Voici quelques options populaires :
 
@@ -68,7 +73,7 @@ Les cartes physiques PIV (vérification d'identité personnelle) ou CAC (cartes 
 
 ## Messages texte/appels téléphoniques
 
-Les messages texte/SMS ou les appels téléphoniques sont pratiques, mais sont extrêmement vulnérables face au vol, au piratage et à d'autres attaques.
+Les messages texte/SMS ou les appels téléphoniques sont pratiques, mais sont extrêmement vulnérables face au vol, au piratage et à d'autres attaques. Vous devez sélectionner plus d'une méthode d'authentification si vous choisissez le texte ou le message vocal.
 
 Si vous choisissez d'utiliser cette option moins sécurisée, saisissez un numéro de téléphone sur lequel vous pouvez recevoir des appels téléphoniques ou des messages texte. Si vous ne disposez que d'une ligne fixe, vous recevrez votre code de sécurité par appel téléphonique. Login.gov ne peut pas envoyer de codes de sécurité aux extensions ou aux messageries vocales.
 
