@@ -21,7 +21,11 @@ redirect_from:
 In addition to your password, Login.gov requires that you set up at least one secondary authentication method to keep your account secure. This is two-factor authentication (2FA). We use 2FA as an added layer of protection to secure your information.
 
 **Secondary authentication**
-We encourage you to add two methods for authentication to your account. If you lose access to your primary authentication method (i.e. losing your phone), you’ll have a second option to use to get access to your account. Login.gov is unable to grant you access to your account if you get locked out and/or lose your authentication method.
+We encourage you to add two methods for authentication to your account. If you lose access to your primary authentication method (i.e. losing your phone), you’ll have a second option to use to get access to your account. 
+
+If you select text or voice message, you are required to select an additional authentication method. Login.gov is unable to grant you access to your account if you get locked out and/or lose your authentication method. 
+
+If you get locked out, you’ll have to delete your account and create a new one.
 
 **Security**
 Although you can choose from several authentication options, some authentication methods such as Security Keys, PIV/CAC cards and authentication applications are more secure against phishing and theft.
@@ -43,6 +47,7 @@ Authentication applications are downloaded to your device and generate secure, s
 If you choose this secure option, follow these steps to download and install one of the supported applications and configure it to work with Login.gov.
 
 {: .number-list}
+
 1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps.
 2. Download and install an authentication app to your device. Some popular options include:
 
