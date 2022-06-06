@@ -380,7 +380,10 @@ include:
     onchange="dynamicdropdown(this.options[this.selectedIndex].value);"
     class="usa-select"
   >
-    <option value="">Other</option><!-- Default value so that HTML validation passes -->
+    <!-- Default value so that HTML validation passes -->
+    <option value="">
+      {{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_topic }}
+    </option>
   </select>
   <!-- END: Topic -->
 
@@ -389,7 +392,11 @@ include:
     {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.subtopic }}
   </label>
   <select id="sub-topic" name="00NU0000004z905" required class="usa-select">
-    <option value="">Other</option><!-- Default value so that HTML validation passes -->
+    <!-- Default value so that HTML validation passes -->
+    <option value="">
+      {{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue }}
+    </option>
+    select_issue
   </select>
   <!-- END: Subtopic -->
 
