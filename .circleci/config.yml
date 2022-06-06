@@ -126,8 +126,7 @@ jobs:
 
   nu:
     docker:
-      - image: cimg/ruby:2.7-node
-      - image: cimg/openjdk:17.0.3
+      - image: cimg/openjdk:17.0.3-node
     steps:
       - checkout
       - install-dependencies
