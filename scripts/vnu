@@ -1,0 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+
+vnu_jar_path=$(node -e 'console.log(require("vnu-jar"))')
+
+exec java -jar "$vnu_jar_path" "$@"

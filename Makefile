@@ -31,6 +31,11 @@ build:
 	npm run build-js
 	bundle exec jekyll build
 
+nu:
+	grep --files-without-match --recursive "Click here if you are not redirected" -- _site | \
+		grep --invert-match admin/index.html | \
+		xargs ./scripts/vnu --skip-non-html --errors-only 2>&1
+
 validate-gemfile-lock: Gemfile Gemfile.lock
 	@echo "Validating Gemfile.lock..."
 	@bundle check
