@@ -38,7 +38,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   partners:
-    output: false # overridden for preview branch
+    output: true
     permalink: /:collection/:path/
   policy:
     output: true
