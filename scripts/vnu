@@ -1,6 +1,11 @@
 #!/bin/bash
 set -euo pipefail
 
+# This script is a wrapper for the Nu HTML Checker (v.Nu)
+# https://github.com/validator/validator
+
+# The checker is distributed as a .jar, that we install as an npm package (vnu-jar),
+# so this script gets the path to the .jar
 vnu_jar_path=$(node -e 'console.log(require("vnu-jar"))')
 
 exec java -jar "$vnu_jar_path" "$@"
