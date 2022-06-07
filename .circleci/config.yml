@@ -124,6 +124,21 @@ jobs:
           name: check es5 syntax
           command: npm run es5-safe
 
+  nu:
+    docker:
+      - image: cimg/ruby:2.7-node
+    steps:
+      - checkout
+      - install-dependencies
+      - attach_workspace:
+          at: "."
+      - run:
+          name: Install Java
+          command: sudo apt-get update && sudo apt-get install openjdk-11-jdk
+      - run:
+          name: check nu HTML validator
+          command: make nu
+
   # Running external links as a separate job so we don't fail the build directly
   # but do get the feedback/info
   test-external-links:
@@ -160,6 +175,9 @@ workflows:
           requires:
             - build
       - e2e:
+          requires:
+            - build
+      - nu:
           requires:
             - build
   daily-external-link-checker:
