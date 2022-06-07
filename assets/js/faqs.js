@@ -8,7 +8,10 @@ function toggleExpandAllCollapseAllBtn(section) {
   const btns = document.getElementsByClassName(`collapse-expand-btn-${section}`);
 
   Array.from(btns).forEach((btn) => {
-    btn.innerHTML = openAccordionCount[section] > 0 ? 'Collapse all' : 'Expand all';
+    btn.textContent = btn.textContent.replace(
+      /Collapse|Expand/,
+      openAccordionCount[section] > 0 ? 'Collapse' : 'Expand',
+    );
   });
 }
 
