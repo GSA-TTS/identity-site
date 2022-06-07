@@ -23,9 +23,7 @@ Suivez les étapes suivantes pour créer votre compte Login.gov.
 
    Comme couche de protection supplémentaire, Login.gov exige que vous mettiez en place une méthode d'authentification secondaire pour assurer la sécurité de votre compte. Cette méthode est appelée authentification à deux facteurs (2FA).
 
-   Bien que nous n'ayons besoin que d'une seule méthode d'authentification secondaire, nous vous encourageons à ajouter deux méthodes à votre compte. De cette façon, vous disposerez d'une sauvegarde si vous perdez l'accès à votre méthode d'authentification principale.
-
-   Vous pouvez choisir parmi plusieurs options d'authentification.
+   Nous vous encourageons à avoir plus d'une méthode d'authentification sur votre compte. Vous pouvez choisir parmi plusieurs options d'authentification. Si vous sélectionnez le texte ou le message vocal comme méthode d'authentification, vous devez également ajouter une autre méthode d'authentification.
 
    **Les plus sûres:**
 
@@ -43,7 +41,7 @@ Suivez les étapes suivantes pour créer votre compte Login.gov.
    [Renseignez-vous davantage sur chaque option d'authentification](/fr/help/get-started/authentication-options/) pour choisir celle qui vous convient le mieux.
 7. Succès! Une fois que vous vous êtes authentifié, vous avez créé votre compte Login.gov.
 
-Vous serez dirigé vers la page de votre compte Login.gov ou vers l'agence gouvernementale à laquelle vous essayez d'accéder. Vous pouvez ajouter des méthodes d'authentification supplémentaires, des adresses courriel ou mettre à jour vos informations sur la page du compte Login.gov.
+   Vous serez dirigé vers la page de votre compte Login.gov ou vers l'agence gouvernementale à laquelle vous essayez d'accéder. Vous pouvez ajouter des méthodes d'authentification supplémentaires, des adresses courriel ou mettre à jour vos informations sur la page du compte Login.gov.
 
 ## Articles connexes
 

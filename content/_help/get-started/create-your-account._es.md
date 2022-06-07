@@ -7,6 +7,7 @@ title: Crear una cuenta
 Siga estos pasos para crear su cuenta de Login.gov.
 
 {: .number-list}
+
 1. Primero, ingrese su correo electrónico en <https://secure.login.gov/sign_up/enter_email>.
 
    Elija una dirección de correo electrónico a la que siempre pueda tener acceso. Una vez que se cree su cuenta, puede agregar una dirección de correo electrónico adicional — como una dirección de correo electrónico laboral o una dirección personal alternativa— para tener acceso a ella.
@@ -22,9 +23,7 @@ Siga estos pasos para crear su cuenta de Login.gov.
 
    Como una capa adicional de protección, Login.gov requiere que establezca un segundo método de autenticación para mantener su cuenta segura. A esto se le denomina autenticación de dos factores (2FA).
 
-   Aunque solo requerimos un método secundario de autenticación, le animamos a que agregue dos métodos a su cuenta. De esa forma, tendrá un respaldo si pierde el acceso a su método de autenticación principal.
-
-   Puede escoger entre varias opciones de autenticación.
+   Le recomendamos que tenga más de un método de autentificación en su cuenta. Puede elegir entre varias opciones de autentificación. Si selecciona un mensaje de texto o de voz como método de autentificación, tendrá que añadir también otro método de autentificación.
 
    **Más seguro:**
 
@@ -42,7 +41,7 @@ Siga estos pasos para crear su cuenta de Login.gov.
    [Conozca más sobre cada opción de autenticación](/es/help/get-started/authentication-options/) para elegir la que sea apropiada para usted.
 7. ¡El proceso fue exitoso! Una vez que haya autenticado, habrá creado su cuenta de Login.gov.
 
-Será dirigido a la página de su cuenta de Login.gov o a la agencia gubernamental a la que esté intentando tener acceso. Puede agregar métodos de autenticación adicionales, direcciones de correo electrónico o actualizar su información en la página de su cuenta de Login.gov.
+   Será dirigido a la página de su cuenta de Login.gov o a la agencia gubernamental a la que esté intentando tener acceso. Puede agregar métodos de autenticación adicionales, direcciones de correo electrónico o actualizar su información en la página de su cuenta de Login.gov.
 
 ## Artículos relacionados
 
