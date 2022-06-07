@@ -126,12 +126,15 @@ jobs:
 
   nu:
     docker:
-      - image: cimg/openjdk:17.0.3-node
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
       - install-dependencies
       - attach_workspace:
           at: "."
+      - run:
+          name: Install Java
+          command: sudo apt-get update && sudo apt-get install openjdk-11-jdk
       - run:
           name: check nu HTML validator
           command: make nu
