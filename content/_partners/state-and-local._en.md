@@ -62,5 +62,5 @@ igca_steps_body4: >-
 igca_steps_header5: >-
     GSA approval
 igca_steps_body5: >-
-    GSA approves and finalizes the IGCA and returns to partner entity.
+    GSA approves and finalizes the IGCA and returns to partner agency.
 ---
