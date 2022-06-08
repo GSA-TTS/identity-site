@@ -45,7 +45,7 @@
 }
 
 #security-experience-container {
-    @include at-media("desktop") {
+    @include at-media("tablet") {
         background: url(../img/partners/security-experience.svg) no-repeat top 14% right 7%;
         background-size: 35%;
     }
