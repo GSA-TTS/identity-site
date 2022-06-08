@@ -167,8 +167,6 @@ nav:
         url: '#nuestra-misión'
       - name: Nuestra visión
         url: '#nuestra-visión'
-      - name: Equipo
-        url: '#equipo'
       - name: Acerca de Login.gov
         url: '#acerca-de-logingov'
   about_login_gov: About Login.gov # partners site does not require translations
