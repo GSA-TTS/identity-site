@@ -40,6 +40,9 @@ collections:
   partners:
     output: true
     permalink: /:collection/:path/
+  partners_impact_stories:
+    output: true
+    permalink: /:collection/:path/
   policy:
     output: true
     permalink: /:collection/:path/

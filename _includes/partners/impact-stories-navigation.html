@@ -1,0 +1,19 @@
+<nav class="position-sticky pin-top" aria-label="{{ site.data.[page.lang].settings.accessible_labels.secondary_navigation }}">
+  <ul class="usa-sidenav margin-left-1">
+    <li class="usa-sidenav__item">
+      <a href="{{ "/partners/impact-stories/" | locale_url }}" class="usa-current">
+        Impact Stories
+      </a>
+
+      <ul class="usa-sidenav__sublist">
+        {% for impact_story in site.partners_impact_stories %}
+          <li class="usa-sidenav__item">
+            <a href="{{ impact_story.url }}" class="{% if page.url == impact_story.url %}usa-current{% endif %}">
+              {{ impact_story.agency }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+  </ul>
+</nav>
