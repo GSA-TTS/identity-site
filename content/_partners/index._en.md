@@ -46,21 +46,21 @@ who_we_work_with:
   label: Grid of logos for eight partner agencies.
   items:
     - image: partners/logos/sba.png
-      alt: U.S Small Business Administration (SBA)
+      alt: U.S. Small Business Administration (SBA)
     - image: partners/logos/army.png
-      alt: U.S Army
+      alt: U.S. Army
     - image: partners/logos/nasa.png
       alt: National Aeronautics and Space Administration (NASA)
     - image: partners/logos/doa.png
-      alt: U.S Department of Agriculture (USDA)
+      alt: U.S. Department of Agriculture (USDA)
     - image: partners/logos/doe.png
-      alt: U.S Department of Education
+      alt: U.S. Department of Education
     - image: partners/logos/dhs.png
-      alt: U.S Department of Homeland Security (DHS)
+      alt: U.S. Department of Homeland Security (DHS)
     - image: partners/logos/doi.png
-      alt: U.S Department of the Interior (DOI)
+      alt: U.S. Department of the Interior (DOI)
     - image: partners/logos/va.png
-      alt: U.S Department of Veterans Affairs (VA)
+      alt: U.S. Department of Veterans Affairs (VA)
   link: >
     [Read our impact stories](/partners/impact-stories/){:class="usa-nav_link caret"}
 
