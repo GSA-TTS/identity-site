@@ -1,7 +1,10 @@
 ---
 layout: partners/rrb-impact-story
-permalink: /partners/rrb-impact-story/
+permalink: /partners/impact-stories/rrb
 agency: Railroad Retirement Board (RRB)
+summary: >-
+    The U.S. Railroad Retirement Board (RRB) partnered with GSA’s Federal Acquisition Strategy’s Technology Transformation Services (TTS) to leverage the latest innovations in digital security to protect their customers.
+logo: assets/img/partners/rrb_logo.svg
 title: >-
     Impact story: RRB
 quote: |-

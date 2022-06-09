@@ -1,7 +1,10 @@
 ---
 layout: partners/sba-impact-story
-permalink: /partners/sba-impact-story/
+permalink: /partners/impact-stories/sba
 agency: Small Business Administration (SBA)
+summary: >-
+    U.S. Small Business Administration (SBA) partnered with GSA’s Federal Acquisition Service Technology Transformation Services (TTS) to centralize their identity management platform.
+logo: assets/img/partners/sba_logo.svg
 title: >-
     Impact story: SBA
 subtitle: >-
