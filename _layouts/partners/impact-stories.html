@@ -23,7 +23,7 @@ layout: base
                         <img src="{{ site.baseurl }}/{{ impact_story.logo }}" alt='{{ impact_story.agency }}'>
                     </div>
                     <div class="tablet:grid-col-9 margin-top-3">
-                        <a href="{{ impact_story.url | locale_url | prepend: site.baseurl }}" class="text-middle partners-subtitle caret">
+                        <a href="{{ impact_story.url | locale_url }}" class="text-middle partners-subtitle caret">
                             <b>{{ impact_story.agency }}</b>
                         </a>
                         <div class="partners-body text-middle padding-top-2">{{ impact_story.summary }}</div>
