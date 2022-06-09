@@ -29,7 +29,7 @@ layout: base
         </div>
         <div class="container partners-container">
             <div class="grid-row">
-                <div class="tablet:grid-col-12">
+                <div class="tablet:grid-col-8">
                     <div>{{ page.subtitle | markdownify }}</div>
                     <div class="partners-body">{{ page.body | markdownify }}</div>
                     <div class="partners-body padding-top-2">{{ page.challenge | markdownify }}</div>
@@ -37,6 +37,9 @@ layout: base
                     <div class="partners-body padding-top-2">{{ page.impact | markdownify }}</div>
                     <div class="partners-body padding-top-2 padding-bottom-2">{{ page.key_shifts | markdownify }}</div>
                     <a href="{{ '/partners/impact-stories/' | locale_url }}" class="partners-body caret">Read more impact stories</a>
+                </div>
+                <div class="tablet:grid-col-4 padding-left-1">
+                    {% include partners/impact-stories-navigation.html %}
                 </div>
             </div>
         </div>
