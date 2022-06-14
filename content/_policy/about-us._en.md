@@ -18,29 +18,6 @@ When it comes to logging in to government websites, agencies trust Login.gov to 
 
 The public is able to simply, securely and privately log in to participating government websites and applications.
 
-## Team
-
-Ashley Mahan
-(Acting) Director
-
-Caitlin Humphrey
-Financial Operations Lead
-
-Jonathan Hooper
-Engineering Lead
-
-Julia Elman
-Security Experience Lead
-
-Tiffany Andrews
-Product Lead
-
-Paul Hirsch
-Infrastructure Lead
-
-Mossedeq Zia
-Security Lead
-
 ## About Login.gov 
 
 Login.gov was a General Services Administration 18F innovation project in partnership with the United States Digital Services (USDS). This shared-service, made possible through a Trusted Identities Group (National Strategy for Trusted Identities in Cyberspace) grant, is a result of cross-agency collaboration that sought to develop secure, user-friendly ways for the public to access government websites. ([Source](https://fcw.com/articles/2017/01/19/login-dot-gov-mazmanian.aspx))
