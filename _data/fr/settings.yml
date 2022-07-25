@@ -70,6 +70,7 @@ contact_page:
       authentication_app_setup: Comment configurer une application d'authentification?
       backup_codes: Comment utiliser mes codes de sauvegarde pour me connecter?
       blank_screen: Je vois une erreur/un écran vide lors de la création de mon compte
+      cant_proof_in_person: I could not verify my identity in person at the Post Office
       change_email: Comment puis-je modifier mon adresse courriel?
       change_password: Comment puis-je mettre à jour mon mot de passe Login.gov?
       change_phone_number: Comment modifier mon numéro de téléphone?
