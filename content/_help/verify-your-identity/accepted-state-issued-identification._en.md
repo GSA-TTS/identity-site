@@ -14,9 +14,16 @@ At this time, only the following state-issued identification is accepted: 
 
   * This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
 
-You cannot verify your identity on Login.gov without a state-issued ID. We’re currently working to add more ways to verify your identity.
+**Are paper or temporary IDs accepted?**\
+No, you cannot use a paper or temporary ID. 
 
-In the meantime, please contact the partner agency’s help center to find out what you can do.
+**What if my ID is too worn or damaged?**\
+You cannot pass identity verification if your ID is too worn or damaged. 
+
+**What if my current address is different from the address on my ID?**\
+You can change your address on the ‘verify’ step after you enter your Social Security number. The address will need to match an address on record for you. 
+
+If you do not have state-issued identification or cannot complete this step, please contact the partner agency’s help center to find out what you can do.
 
 
 
