@@ -11,7 +11,7 @@ ssa_quote: |-
 
 
     Elizabeth Hanst
-    Technology Lead User Experience Specialist
+    Former Technology Lead User Experience Specialist
     Social Security Administration
 iaa_tips: >-
     Tips for completing the IAA process:
@@ -23,7 +23,7 @@ iaa_tips: >-
     * Ensure your technical team has capacity for integration or plan to hire a team
 
 
-    The above suggestions may help keep your agency on track for creating the IAA and receiving proper approvals within the anticipated six to eight week timeline, and launching your integration with Login.gov.
+    The above suggestions may help keep your agency on track for creating the IAA and receiving proper approvals, and launching your integration with Login.gov.
 partnership_steps_title: >-
     ## Steps to partnership
 partnership_steps_header1: >-
@@ -37,11 +37,12 @@ partnership_steps_body2: >-
 partnership_steps_header3: >-
     Establish an Interagency Agreement (IAA)
 partnership_steps_body3: >-
-    Login.gov is a cost-recoverable federal service, which means we must, by law, charge other agencies for our work. Our partnership and financial engagement will be governed by an Interagency Agreement (IAA). An IAA is a contract between government agencies. For Login.gov, these are contracts we have with other agencies that let them use Login.gov as partners/clients. An IAA may take at least six to eight weeks to complete, which can occur in parallel with the technical integration of your application. <a href="#interagency-agreement-iaa-process" class="caret">Learn more about the IAA process below</a>
+    Login.gov is a cost-recoverable federal service, which means we must, by law, charge other agencies for our work. Our partnership and financial engagement will be governed by an Interagency Agreement (IAA). An IAA is a contract between government agencies. For Login.gov, these are contracts we have with other agencies that let them use Login.gov as partners. <a href="#interagency-agreement-iaa-process" class="caret">Learn more about the IAA process below</a>
 partnership_steps_header4: >-
     Launch integration
 partnership_steps_body4: >-
-     Once testing is complete and the IAA has been executed, Login.gov will launch your integration within two weeks.
+     Once testing is complete and the IAA has been executed, Login.gov aims to launch your integration within two weeks.
+
 iaa_steps_title: >-
     ## Interagency Agreement (IAA) process
 iaa_steps_header1: >-
@@ -51,7 +52,7 @@ iaa_steps_body1: >-
 iaa_steps_header2: >-
     IAA creation
 iaa_steps_body2: >-
-    TTS creates the IAA, performs a review with GSA counsel, and returns the IAA to the partner agency ready for signatures.
+    The Technology Transformation Services (TTS) creates the IAA, performs a review with the General Services Administration (GSA) counsel, and returns the IAA to the partner agency ready for signatures.
 iaa_steps_header3: >-
     Partner approval
 iaa_steps_body3: >-
