@@ -17,7 +17,7 @@ partnership_steps_title: >-
 partnership_steps_header1: >-
   Introductions and determine compatibility
 partnership_steps_body1: >-
-  <p style="display: inline">During the introduction call, an account manager will walk through Login.gov services and answer any questions that you have. This step will determine if Login.gov is a good fit for your agency. [Contact our Partnerships Team to get started](/partners/contact/){:class="external-link"}.</p>
+  During the introduction call, an account manager will walk through Login.gov services and answer any questions that you have. This step will determine if Login.gov is a good fit for your agency. [Contact our Partnerships Team to get started](/partners/contact/){:class="external-link"}.
 partnership_steps_header2: >-
   Estimate usage and test integrations
 partnership_steps_body2: >-
@@ -25,7 +25,7 @@ partnership_steps_body2: >-
 partnership_steps_header3: >-
   Establish an Intergovernmental Cooperation Act (IGCA) agreement
 partnership_steps_body3: >-
-  Login.gov is a cost-recoverable federal service, which means we must, by law, charge for our work. Our partnership and financial engagement will be governed by an Intergovernmental Cooperation Act (IGCA) agreement. An IGCA agreement is a contract between a federal agency and a non-federal entity, like a state or local government. For Login.gov, these are the contracts we have with state, local, and territory governments that let them use Login.gov as partners/clients. [Learn more about the IGCA process below](/partners/state-and-local/#intergovernmental-cooperation-act-igca-process){:class="external-link"}.
+  Login.gov is a cost-recoverable federal service, which means we must, by law, charge for our work. Our partnership and financial engagement will be governed by an Intergovernmental Cooperation Act (IGCA) agreement. An IGCA agreement is a contract between a federal agency and a non-federal entity, like a state or local government. For Login.gov, these are the contracts we have with state, local, and territory governments that let them use Login.gov as partners/clients. [Learn more about the IGCA process below](/partners/state-and-local/#intergovernmental-cooperation-act-igca-process).
 partnership_steps_header4: >-
   Launch integration
 partnership_steps_body4: >-

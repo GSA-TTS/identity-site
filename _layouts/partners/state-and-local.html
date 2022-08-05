@@ -20,13 +20,10 @@ layout: base
         <div class="tablet:grid-col-12 partners-body">
           <ol class="usa-process-list usa-process-list--big usa-process-list--connected">
             <li class="usa-process-list__item">
-              <h3 class="usa-process-list__heading">{{ page.partnership_steps_header1 }}</h3>
-              <div class="margin-top-05">
-                {{ page.partnership_steps_body1 }}
-                <a href="{{ site.baseurl }}/partners/contact/" class="caret"
-                  >Contact an account manager to get started</a
-                >
-              </div>
+              <h3 class="usa-process-list__heading margin-top-05">
+                {{ page.partnership_steps_header1 }}
+              </h3>
+              {{ page.partnership_steps_body1 | markdownify }}
             </li>
             <li class="usa-process-list__item">
               <h3 class="usa-process-list__heading">{{ page.partnership_steps_header2 }}</h3>
