@@ -17,7 +17,7 @@ general_accordion:
 
             - Implementation support for your team from integration to launch
 
-            - Troubleshooting after launch and user support
+            - Technical Troubleshooting after launch and user support
 
             - High availability and uptime
 
@@ -60,7 +60,7 @@ general_accordion:
         id: a-6
         title: How do we partner with Login.gov?
         content: >-
-            [Contact an account manager to get started](/partners/contact/){:class="external-link"}. We’ll work with you to understand and capture your needs and requirements at a high level. Together, we’ll decide whether Login.gov makes sense for your particular agency and use case. If we decide to move forward, the next step is to sign an [Interagency Agreement (IAA)](/partners/get-started/#interagency-agreement-iaa-process). This signals a mutual commitment which allows us to commit further resources to technical discovery and integration and migration planning.
+            [Contact our Partnerships Team to get started](/partners/contact/){:class="external-link"}. We’ll work with you to understand and capture your needs and requirements at a high level. Together, we’ll decide whether Login.gov makes sense for your particular agency and use case. If we decide to move forward, the next step is to sign an [Interagency Agreement (IAA)](/partners/get-started/#interagency-agreement-iaa-process). This signals a mutual commitment which allows us to commit further resources to technical discovery and integration and migration planning.
 logistics_accordion:
     -
         id: b-1
@@ -74,14 +74,16 @@ logistics_accordion:
             Login.gov does not provide authorization. At this time, Login.gov supports authentication and identity verification capabilities. We encourage agencies to take the lead on determining the best strategy for their role management and authorization. 
     -
         id: b-3
-        title: What is identity verification?
+        title: What is identity verification (identity proofing)?
         content: >-
-            “Identity proofing is the process by which a CSP (credentialing service provider) collects, validates, and verifies information about a person.” NIST SP 800-63-3, Digital Identity Guidelines This is the process Login.gov uses to verify that a user is who they say they are. While many agencies can validate an individual’s identity through an in-person proofing experience, we developed an online application that allows individuals to have their identities verified from their smartphone or computer.
+            “Identity proofing is the process by which a CSP (credentialing service provider) collects, validates, and verifies information about a person.” <em> - NIST SP 800-63-3, Digital Identity Guidelines</em>
+
+            <p>This is the process Login.gov uses to verify that a user is who they say they are. While many agencies can validate an individual’s identity through an in-person proofing experience, we developed an online application that allows individuals to have their identities verified from their smartphone or computer.</p>
     -
         id: b-4
         title: Can Login.gov authenticate or verify the identity of non-U.S. citizens or non-U.S. immigrants (not a U.S. citizen, U.S. national, lawful permanent resident, or traveling to the United States on an immigrant visa)?
         content: >-
-            <p>Non-U.S. citizens and non-U.S. immigrants can authenticate with Login.gov, though select features (e.g., SMS / voice OTP for MFA) may be restricted in certain countries. Check our [International phone number support](/help/manage-your-account/international-phone-support/){:class="external-link"} for a complete list that Login.gov supports for authenticating end-users.</p>
+            Non-U.S. citizens and non-U.S. immigrants can authenticate with Login.gov, though select features (e.g., SMS / voice OTP for MFA) may be restricted in certain countries. Check our [International phone number support](/help/manage-your-account/international-phone-support/){:class="external-link"} for a complete list that Login.gov supports for authenticating end-users.
             
             <p>Non-U.S. citizens and non-U.S. immigrants can verify their identity (i.e. “proof”) with Login.gov as long as they have a valid U.S. state-issued ID, social security number (SSN), and U.S. address.</p>
     -
@@ -93,7 +95,7 @@ logistics_accordion:
             - Driver’s license from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
 
             - A non-driver’s license state-issued ID card
-                – This is an identity document issued by the state/US territory that asserts identity but does not give driving privileges.
+              - This is an identity document issued by the state/US territory that asserts identity but does not give driving privileges.
 
             Users cannot verify their identity on Login.gov without a state-issued ID. We’re currently working to add more ways to verify identity. <a href="https://login.gov/help/verify-your-identity/how-to-verify-your-identity/" class="external-link">Learn more about the requirements for verifying identity</a>
 development_accordion:
