@@ -73,8 +73,6 @@ nist_fedramp:
       class: nist
       image: partners/nist.svg
       text:  Login.gov works closely with [NIST](https://www.nist.gov/){:class="external-link"} to stay current on the latest guidelines, recommendations, and best practices. Our goal is to remove the agency burden of compliance with these standards, so you can focus on your specific mission and those you serve.
-
-
       alt: National Institute of Standards and Technology (NIST)
     -
       class: fedramp
