@@ -34,9 +34,10 @@ services:
 right_for_you:
   heading: Is Login.gov right for you?
   items:
-    - text: You are part of a federal agency or a state/local government
+    - text: You are part of a federal agency or a state, local, or territory government
     - text: You want to securely authenticate users to your application(s) and/or verify their identity
     - text: You want to protect your users’ accounts with strong multi-factor authentication (MFA)
+    - text: You want to protect your users' privacy through encryption
     - text: Your application(s) can integrate with the SAML or OpenID Connect (OIDC) web-based identity protocols
     - text: You are looking for a highly secure (FedRAMP Moderate) identity solution
 
@@ -71,7 +72,7 @@ nist_fedramp:
     -
       class: nist
       image: partners/nist.svg
-      text:  Login.gov is working closely with [NIST](https://www.nist.gov/){:class="external-link"} to stay current on the latest guidelines, recommendations, and best practices. Our goal is to remove the agency burden of compliance with these standards, so you can focus on your specific mission and those you serve.
+      text:  Login.gov works closely with [NIST](https://www.nist.gov/){:class="external-link"} to stay current on the latest guidelines, recommendations, and best practices. Our goal is to remove the agency burden of compliance with these standards, so you can focus on your specific mission and those you serve.
       alt: National Institute of Standards and Technology (NIST)
     -
       class: fedramp
