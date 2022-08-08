@@ -49,7 +49,7 @@ Si usted elige esta opción de seguridad, siga estos pasos para descargar e inst
 2. Descargue e instale una aplicación de autenticación en su dispositivo. Algunas opciones populares son:
 
    * Opciones para Android: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/) y [1Password](https://1password.com/).
-   * Opciones para iOS: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://lastpass.com/) y [1Password](https://1password.com/).
+   * Opciones para iOS: [Google Authenticator](https://apps.apple.com/us/app/google-authenticator/id388497605), [Authy](https://authy.com/), [LastPass](https://lastpass.com/) y [1Password](https://1password.com/).
    * Aplicaciones para Windows: [1Password](https://1password.com/) y [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn).
    * Aplicaciones para Mac: [1Password](https://1password.com/) y [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
    * Extensiones para Chrome: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
