@@ -17,7 +17,7 @@ general_accordion:
 
             - Implementation support for your team from integration to launch
 
-            - Technical Troubleshooting after launch and user support
+            - Technical troubleshooting after launch and user support
 
             - High availability and uptime
 
@@ -40,7 +40,7 @@ general_accordion:
         id: a-2
         title: Who has Login.gov partnered with?
         content: >-
-            Login.gov has over 30 agency partners. Our product is integrated with over 200 live applications and services including 12 Cabinet level agencies such as the Department of Defense, Department of Homeland Security, and the Department of Energy. 
+            Login.gov has over 30 agency partners. Our product is integrated with over 300 live applications and services including 12 Cabinet level agencies such as the Department of Defense, Department of Homeland Security, and the Department of Energy. 
     -
         id: a-3
         title: How many people have signed up to use Login.gov?
@@ -53,7 +53,7 @@ general_accordion:
             Login.gov is not a standalone federal agency. We are a program of the [General Services Administration](https://www.gsa.gov/) (GSA), an agency of the U.S. federal government. The program is run by the [Technology Transformation Services](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services) (TTS), a group that leads the digital transformation of the federal government by helping agencies build, buy, and share technology that allows them to provide more accessible, efficient, and effective products and services for the American people.
     -
         id: a-5
-        title: Does Login.gov partner with state and local governments?
+        title: Does Login.gov partner with state, local, and territory governments?
         content: >-
             Yes, Login.gov partners with state, local, and territory governments. These government entities need simple and secure solutions to help the public access services and resources, and with this partnership, they can leverage Login.gov to create a seamless and secure sign-in experience for the public to access these services and resources. [Learn more about the path to partnership](/partners/state-and-local/){:class="usa-nav_link caret"}
     -
@@ -85,17 +85,17 @@ logistics_accordion:
         content: >-
             Non-U.S. citizens and non-U.S. immigrants can authenticate with Login.gov, though select features (e.g., SMS / voice OTP for MFA) may be restricted in certain countries. Check our [International phone number support](/help/manage-your-account/international-phone-support/){:class="external-link"} for a complete list that Login.gov supports for authenticating end-users.
             
-            <p>Non-U.S. citizens and non-U.S. immigrants can verify their identity (i.e. “proof”) with Login.gov as long as they have a valid U.S. state-issued ID, social security number (SSN), and U.S. address.</p>
+            <p>Non-U.S. citizens and non-U.S. immigrants can verify their identity (i.e. “proof”) with Login.gov as long as they have a valid U.S. state-issued ID, Social Security number (SSN), and U.S. address.</p>
     -
         id: b-6
         title: What forms of identification can Login.gov accept for identity proofing?
         content: >-
             At this time, only the following state-issued identification is accepted: 
     
-            - Driver’s license from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
+            - Driver’s license from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, Mariana Islands and Puerto Rico)
 
             - A non-driver’s license state-issued ID card
-              - This is an identity document issued by the state/US territory that asserts identity but does not give driving privileges.
+              - This is an identity document issued by the state/U.S. territory that asserts identity but does not give driving privileges.
 
             Users cannot verify their identity on Login.gov without a state-issued ID. We’re currently working to add more ways to verify identity. <a href="https://login.gov/help/verify-your-identity/how-to-verify-your-identity/" class="external-link">Learn more about the requirements for verifying identity</a>
 development_accordion:
@@ -113,12 +113,12 @@ development_accordion:
         id: c-3
         title: How do we get our application to production?
         content: >-
-            <a href="https://developers.login.gov/production/" class="external-link">Check Production deployment for more details</a>. We deploy changes to our production configuration weekly on Thursdays between 11am – 2pm EST. 
+            <a href="https://developers.login.gov/production/" class="external-link">Check Production deployment for more details</a>. We deploy changes to our production configuration weekly on Thursdays between 11:00 am – 2:00 pm EST. 
     -
         id: c-4
-        title: What do you support? SAML vs. OAuth vs. OpenID?
+        title: What do you support-SAML vs. OAuth vs. OpenID?
         content: >-
-            We do not support the OpenID Connect “implicit flow” with `client_secret` because it is [not recommended by the OAuth group](https://oauth.net/2/grant-types/implicit/){:class="external-link"} for security reasons. We do support OpenID Connect `private_key_jwt` and PKCE
+            We do not support the OpenID Connect “implicit flow” with `client_secret` because it is [not recommended by the OAuth group](https://oauth.net/2/grant-types/implicit/){:class="external-link"} for security reasons. We do support OpenID Connect `private_key_jwt` and PKCE.
 
 
             For more info see:
