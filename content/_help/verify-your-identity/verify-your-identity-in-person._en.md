@@ -77,7 +77,7 @@ You can visit any of the following Post Office locations. You do not need to vis
 
 ### You can speak with any retail associate to verify your identity
 
-* ## Wait in line at the Post Office. The retail clerk will scan your barcode and review your documents.
+* Wait in line at the Post Office. The retail clerk will scan your barcode and review your documents.
 * After the retail clerk has reviewed your documents, you’re done at the Post Office. The retail clerk will not receive your results.
 
 ### We’ll email you with next steps
