@@ -5,7 +5,6 @@ permalink: /help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
 
-
 If you are unable to successfully upload your ID on Login.gov, you may be able to verify in person with our partners at the United States Postal Service (USPS). At this time, we’re only offering this option at [select USPS locations in the Washington D.C. area](#available-locations-in-the-washington-dc-area) and for certain partner agencies.
 
 ## Start this process on Login.gov before going to the Post Office 
@@ -16,8 +15,6 @@ Please have the following information ready to enter on Login.gov:
 2. Social Security Number
 3. A phone number on a phone plan that is in your name
 4. 1. If you do not have a phone plan that is in your name, we can send you the verification code by mail which takes approximately 3-5 days.
-
-
 
 If you’re unable to complete any of these steps, please contact the partner agency’s help center for support.   
 
@@ -50,15 +47,11 @@ If your current address does not match the address on your ID, you will need to 
 
 You can bring a physical copy or show a digital copy of the document. You cannot show a photo or screenshot of the document. 
 
-
-
 ## Complete the process at the Post Office before your deadline
 
 ### Available locations in the Washington D.C. area 
 
 You can visit any of the following Post Office locations. You do not need to visit the location you selected on Login.gov. 
-
- 
 
 1. BALTIMORE — Post Office™\
    900 E FAYETTE ST RM 118\
@@ -100,8 +93,6 @@ If you do not receive an email from us, there are a few steps you can take:
 
 * Check your email’s spam or junk folder for an email from [no-reply@login.gov](mailto:no-reply@login.gov).
 * If you haven’t heard from us after 24 hours from your visit to the Post Office, please contact Login.gov customer support at login.gov/contact.
-
-
 
 ### Related Articles
 
