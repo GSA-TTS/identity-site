@@ -1,4 +1,5 @@
 ---
 category: verify-your-identity
-order: 10
+permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/
+order: 7
 ---

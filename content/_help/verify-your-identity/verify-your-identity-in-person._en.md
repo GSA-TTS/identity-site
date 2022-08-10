@@ -1,8 +1,8 @@
 ---
-layout: help
 title: Verify your identity in person
 category: verify-your-identity
-order: 10
+permalink: /help/verify-your-identity/verify-your-identity-in-person/
+order: 7
 ---
 
 
