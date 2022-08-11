@@ -1,40 +1,415 @@
-<main id="main-content">
-  <section>
-    <div class="container partners-container">
-      <div class="grid-row">
-        <div class="tablet:grid-col-9 accordion-container">
-          <script charset="utf-8" type="text/javascript" src='{{ "/assets/js/jquery/3.5.1/jquery.min.js" | relative_url }}'></script>
-          <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
-          <script type="text/javascript">
-            hbspt.forms.create({
-              region: "na1",
-              portalId: "{{ site.partnership_contact_portal_id }}",
-              formId: "{{ site.partnership_contact_form_id }}",
-              onFormReady: function($form) {
-                const iFrame = document.getElementById('hs-form-iframe-0');
-                iFrame.setAttribute('title', 'Login dot gov contact us form');
-              },
-            });
-          </script>
-        </div>
-        <div class="tablet:grid-col-3 search-container">
-          <div>
-            {% include search.html id="header-nav" %}
-          </div>
-          <section>
-            <nav class="margin-top-5" aria-label="Secondary navigation,">
-              <ul class="usa-sidenav">
-                <li class="usa-sidenav__item">
-                  <a href="{{ '/partners/faq/' | locale_url }}">FAQs</a>
-                </li>
-                <li class="usa-sidenav__item">
-                  <a href="#main-content" class="usa-current">Contact Us</a>
-                </li>
-              </ul>
-            </nav>
-          </section>
-        </div>
+
+<script language="javascript" type="text/javascript">
+
+  function doNotAnswer() {
+      // this will hide the display of the honeypot Field
+      // more information found here. https://help.salesforce.com/articleView?id=pardot_forms_add_honeypot.htm
+      const noAnswer = document.querySelector('#contact-us-form #information');
+      if (noAnswer) {
+          noAnswer.removeAttribute('required');
+          noAnswer.tabIndex = -1;
+          noAnswer.parentElement.setAttribute('aria-hidden', 'true');
+          noAnswer.parentElement.style.position = 'absolute';
+          noAnswer.parentElement.style.left = '-7000px';
+        }
+    }
+    document.addEventListener('DOMContentLoaded', doNotAnswer);
+</script>
+
+<form
+    id="contact-us-form"
+    method="POST"
+    class="usa-form"
+    >
+    {% if site.contact_form_captcha_enabled != true %}
+    <input type="hidden" name="debug" value="1" />
+    {% endif %}
+
+    <p class="partners-subtitle">
+      Login.gov provides authentication and identity verification services to federal
+      agencies and states/local governments. We have a simple on-boarding and integration
+      process which starts with the information provided here.
+    </p>
+    <p>
+    Required fields are marked with an asterisk (<abbr title="required" class="usa-hint usa-hint--required">*</abbr>).
+    </p>
+    <label class="usa-label" for="first_name">First name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+    <input
+        id="first_name"
+        name="first_name"
+        type="text"
+        required
+        class="usa-input"
+        />
+
+    <label class="usa-label" for="last_name">Last name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+    <input
+        id="last_name"
+        name="last_name"
+        type="text"
+        required
+        class="usa-input"
+        />
+
+    <label class="usa-label" for="job_title">Position title <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+    <input
+        id="job_title"
+        name="job_title"
+        type="text"
+        class="usa-input"
+        />
+
+    <label class="usa-label" for="email">Email <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+    <div id="email-hint" class="usa-hint">Please provide your government email address, if applicable.</div>
+    <input
+        id="email"
+        maxlength="80"
+        name="email"
+        type="text"
+        placeholder="example@example.gov"
+        pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
+        required
+        class="usa-input"
+        />
+
+    <label class="usa-label" for="agency">Agency name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+    <div id="agency-hint" class="usa-hint">
+      Login.gov is partnering with federal agencies and state, local, and territorial governments. If you are with a state, local, or territorial government, please select the appropriate state or territory, or "Other local government" if applicable, from the drop down.
+      <br />
+      <br />
+      If you're with a private company, you must officially be under contract with a federal agency or a state/local/territorial government.
+    </div>
+
+    <div class="usa-combo-box">
+      <select class="usa-select" name="agency" id="agency" required>
+        <option value>Select an agency</option>
+        <option value="abilityone_commission">AbilityOne Commission</option>
+        <option value="access_board">Access Board</option>
+        <option value="administrative_conference_of_the_united_states">Administrative Conference of the United States</option>
+        <option value="advisory_council_on_historic_preservation">Advisory Council on Historic Preservation</option>
+        <option value="african_development_foundation">African Development Foundation</option>
+        <option value="american_battle_monuments_commission">American Battle Monuments Commission</option>
+        <option value="appalachian_regional_commission">Appalachian Regional Commission</option>
+        <option value="armed_forces_retirement_home">Armed Forces Retirement Home</option>
+        <option value="barry_goldwater_scholarship_and_excellence_in_education_foundation">Barry Goldwater Scholarship and Excellence in Education Foundation</option>
+        <option value="central_intelligence_agency">Central Intelligence Agency</option>
+        <option value="chemical_safety_board">Chemical Safety Board</option>
+        <option value="christopher_columbus_fellowship_foundation">Christopher Columbus Fellowship Foundation</option>
+        <option value="commission_for_the_preservation_of_america_s_heritage_abroad">Commission for the Preservation of America's Heritage Abroad</option>
+        <option value="commission_of_fine_arts">Commission of Fine Arts</option>
+        <option value="commission_on_civil_rights">Commission on Civil Rights</option>
+        <option value="commodity_futures_trading_commission">Commodity Futures Trading Commission</option>
+        <option value="consumer_financial_protection_bureau">Consumer Financial Protection Bureau</option>
+        <option value="consumer_product_safety_commission">Consumer Product Safety Commission</option>
+        <option value="corporation_for_national___community_service">Corporation for National &amp; Community Service</option>
+        <option value="corporation_for_public_broadcasting">Corporation for Public Broadcasting</option>
+        <option value="council_of_inspectors_general_on_integrity_and_efficiency">Council of Inspectors General on Integrity and Efficiency</option>
+        <option value="court_services_and_offender_supervision">Court Services and Offender Supervision</option>
+        <option value="defense_nuclear_facilities_safety_board">Defense Nuclear Facilities Safety Board</option>
+        <option value="delta_regional_authority">Delta Regional Authority</option>
+        <option value="denali_commission">Denali Commission</option>
+        <option value="department_of_agriculture">Department of Agriculture</option>
+        <option value="department_of_commerce">Department of Commerce</option>
+        <option value="department_of_defense">Department of Defense</option>
+        <option value="department_of_education">Department of Education</option>
+        <option value="department_of_energy">Department of Energy</option>
+        <option value="department_of_health_and_human_services">Department of Health and Human Services</option>
+        <option value="department_of_homeland_security">Department of Homeland Security</option>
+        <option value="department_of_housing_and_urban_development">Department of Housing and Urban Development</option>
+        <option value="department_of_justice">Department of Justice</option>
+        <option value="department_of_labor">Department of Labor</option>
+        <option value="department_of_state">Department of State</option>
+        <option value="department_of_the_interior">Department of the Interior</option>
+        <option value="department_of_the_treasury">Department of the Treasury</option>
+        <option value="department_of_transportation">Department of Transportation</option>
+        <option value="department_of_veterans_affairs">Department of Veterans Affairs</option>
+        <option value="director_of_national_intelligence">Director of National Intelligence</option>
+        <option value="district_of_columbia_courts">District of Columbia Courts</option>
+        <option value="dwight_d._eisenhower_memorial_commission">Dwight D. Eisenhower Memorial Commission</option>
+        <option value="election_assistance_commission">Election Assistance Commission</option>
+        <option value="environmental_protection_agency">Environmental Protection Agency</option>
+        <option value="equal_employment_opportunity_commission">Equal Employment Opportunity Commission</option>
+        <option value="executive_office_of_the_president">Executive Office of the President</option>
+        <option value="export/import_bank_of_the_u.s.">Export/Import Bank of the U.S.</option>
+        <option value="farm_credit_administration">Farm Credit Administration</option>
+        <option value="farm_credit_system_insurance_corporation">Farm Credit System Insurance Corporation</option>
+        <option value="federal_communications_commission">Federal Communications Commission</option>
+        <option value="federal_deposit_insurance_corporation">Federal Deposit Insurance Corporation</option>
+        <option value="federal_election_commission">Federal Election Commission</option>
+        <option value="federal_energy_regulatory_commission">Federal Energy Regulatory Commission</option>
+        <option value="federal_financial_institutions_examination_council">Federal Financial Institutions Examination Council</option>
+        <option value="federal_home_loan_bank_system">Federal Home Loan Bank System</option>
+        <option value="federal_home_loan_mortgage_corporation">Federal Home Loan Mortgage Corporation</option>
+        <option value="federal_housing_finance_agency">Federal Housing Finance Agency</option>
+        <option value="federal_labor_relations_authority">Federal Labor Relations Authority</option>
+        <option value="federal_maritime_commission">Federal Maritime Commission</option>
+        <option value="federal_mediation_and_conciliation_service">Federal Mediation and Conciliation Service</option>
+        <option value="federal_mine_safety_and_health_review_commission">Federal Mine Safety and Health Review Commission</option>
+        <option value="federal_national_mortgage_association">Federal National Mortgage Association</option>
+        <option value="federal_reserve_board_of_governors">Federal Reserve Board of Governors</option>
+        <option value="federal_retirement_thrift_investment_board">Federal Retirement Thrift Investment Board</option>
+        <option value="federal_trade_commission">Federal Trade Commission</option>
+        <option value="general_services_admin">General Services Administration</option>
+        <option value="government_accountability_office">Government Accountability Office</option>
+        <option value="government_of_the_district_of_columbia">Government of the District of Columbia (DC)</option>
+        <option value="gulf_coast_ecosystem_restoration_council">Gulf Coast Ecosystem Restoration Council</option>
+        <option value="harry_s._truman_scholarship_foundation">Harry S. Truman Scholarship Foundation</option>
+        <option value="institute_of_american_indian_and_alaska_native_culture_and_arts_development">Institute of American Indian and Alaska Native Culture and Arts Development</option>
+        <option value="institute_of_museum_and_library_services">Institute of Museum and Library Services</option>
+        <option value="inter-american_foundation">Inter-American Foundation</option>
+        <option value="international_development_finance_corporation">International Development Finance Corporation</option>
+        <option value="international_trade_commission">International Trade Commission</option>
+        <option value="james_madison_memorial_fellowship_foundation">James Madison Memorial Fellowship Foundation</option>
+        <option value="japan-united_states_friendship_commission">Japan-United States Friendship Commission</option>
+        <option value="john_f._kennedy_center_for_the_performing_arts">John F. Kennedy Center for the Performing Arts</option>
+        <option value="judicial_branch">Judicial Branch</option>
+        <option value="legal_services_corporation">Legal Services Corporation</option>
+        <option value="library_of_congress">Library of Congress</option>
+        <option value="marine_mammal_commission">Marine Mammal Commission</option>
+        <option value="merit_systems_protection_board">Merit Systems Protection Board</option>
+        <option value="millennium_challenge_corporation">Millennium Challenge Corporation</option>
+        <option value="morris_k._udall_and_stewart_l._udall_foundation">Morris K. Udall and Stewart L. Udall Foundation</option>
+        <option value="national_aeronautics_and_space_administration">National Aeronautics and Space Administration</option>
+        <option value="national_archives_and_records_administration">National Archives and Records Administration</option>
+        <option value="national_capital_planning_commission">National Capital Planning Commission</option>
+        <option value="national_council_on_disability">National Council on Disability</option>
+        <option value="national_credit_union_administration">National Credit Union Administration</option>
+        <option value="national_endowment_for_the_arts">National Endowment for the Arts</option>
+        <option value="national_endowment_for_the_humanities">National Endowment for the Humanities</option>
+        <option value="national_gallery_of_art">National Gallery of Art</option>
+        <option value="national_geospatial-intelligence_agency">National Geospatial-Intelligence Agency</option>
+        <option value="national_labor_relations_board">National Labor Relations Board</option>
+        <option value="national_mediation_board">National Mediation Board</option>
+        <option value="national_nanotechnology_coordination_office">National Nanotechnology Coordination Office</option>
+        <option value="national_nuclear_security_administration">National Nuclear Security Administration</option>
+        <option value="national_science_foundation">National Science Foundation</option>
+        <option value="national_security_agency">National Security Agency</option>
+        <option value="national_security_commission_on_artificial_intelligence">National Security Commission on Artificial Intelligence</option>
+        <option value="national_transportation_safety_board">National Transportation Safety Board</option>
+        <option value="networking_information_technology_research_and_development">Networking Information Technology Research and Development</option>
+        <option value="northern_border_regional_commission">Northern Border Regional Commission</option>
+        <option value="nuclear_regulatory_commission">Nuclear Regulatory Commission</option>
+        <option value="nuclear_waste_technical_review_board">Nuclear Waste Technical Review Board</option>
+        <option value="occupational_safety___health_review_commission">Occupational Safety &amp; Health Review Commission</option>
+        <option value="office_of_government_ethics">Office of Government Ethics</option>
+        <option value="office_of_navajo_and_hopi_indian_relocation">Office of Navajo and Hopi Indian Relocation</option>
+        <option value="office_of_personnel_management">Office of Personnel Management</option>
+        <option value="office_of_special_counsel">Office of Special Counsel</option>
+        <option value="office_of_the_federal_coordinator_for_alaska_natural_gas_transportation_projects">Office of the Federal Coordinator for Alaska Natural Gas Transportation Projects</option>
+        <option value="other_local_or_tribal_government">Other local government</option>
+        <option value="patient-centered_outcomes_research_trust_fund">Patient-Centered Outcomes Research Trust Fund</option>
+        <option value="peace_corps">Peace Corps</option>
+        <option value="pension_benefit_guaranty_corporation">Pension Benefit Guaranty Corporation</option>
+        <option value="postal_regulatory_commission">Postal Regulatory Commission</option>
+        <option value="postal_service">Postal Service</option>
+        <option value="presidio_trust">Presidio Trust</option>
+        <option value="privacy_and_civil_liberties_oversight_board">Privacy and Civil Liberties Oversight Board</option>
+        <option value="public_buildings_reform_board">Public Buildings Reform Board</option>
+        <option value="public_company_accounting_oversight_board">Public Company Accounting Oversight Board</option>
+        <option value="public_defender_service_for_the_district_of_columbia">Public Defender Service for the District of Columbia</option>
+        <option value="railroad_retirement_board">Railroad Retirement Board</option>
+        <option value="securities_and_exchange_commission">Securities and Exchange Commission</option>
+        <option value="securities_investor_protection_corporation">Securities Investor Protection Corporation</option>
+        <option value="selective_service_system">Selective Service System</option>
+        <option value="small_business_administration">Small Business Administration</option>
+        <option value="smithsonian_institution">Smithsonian Institution</option>
+        <option value="social_security_admin">Social Security Administration</option>
+        <option value="social_security_advisory_board">Social Security Advisory Board</option>
+        <option value="state_justice_institute">State Justice Institute</option>
+        <option value="state_of_alabama">State of Alabama (AL)</option>
+        <option value="state_of_alaska">State of Alaska (AK)</option>
+        <option value="state_of_arizona">State of Arizona (AZ)</option>
+        <option value="state_of_arkansas">State of Arkansas (AR)</option>
+        <option value="state_of_california">State of California (CA)</option>
+        <option value="state_of_colorado">State of Colorado (CO)</option>
+        <option value="state_of_connecticut">State of Connecticut (CT)</option>
+        <option value="state_of_delaware">State of Delaware (DE)</option>
+        <option value="state_of_florida">State of Florida (FL)</option>
+        <option value="state_of_georgia">State of Georgia (GA)</option>
+        <option value="state_of_hawaii">State of Hawaii (HI)</option>
+        <option value="state_of_idaho">State of Idaho (ID)</option>
+        <option value="state_of_illinois">State of Illinois (IL)</option>
+        <option value="state_of_indiana">State of Indiana (IN)</option>
+        <option value="state_of_iowa">State of Iowa (IA)</option>
+        <option value="state_of_kansas">State of Kansas (KS)</option>
+        <option value="state_of_kentucky">State of Kentucky (KY)</option>
+        <option value="state_of_louisiana">State of Louisiana (LA)</option>
+        <option value="state_of_maine">State of Maine (ME)</option>
+        <option value="state_of_maryland">State of Maryland (MD)</option>
+        <option value="state_of_massachusetts">State of Massachusetts (MA)</option>
+        <option value="state_of_michigan">State of Michigan (MI)</option>
+        <option value="state_of_minnesota">State of Minnesota (MN)</option>
+        <option value="state_of_mississippi">State of Mississippi (MS)</option>
+        <option value="state_of_missouri">State of Missouri (MO)</option>
+        <option value="state_of_montana">State of Montana (MT)</option>
+        <option value="state_of_nebraska">State of Nebraska (NE)</option>
+        <option value="state_of_nevada">State of Nevada (NV)</option>
+        <option value="state_of_new_hampshire">State of New Hampshire (NH)</option>
+        <option value="state_of_new_jersey">State of New Jersey (NJ)</option>
+        <option value="state_of_new_mexico">State of New Mexico (NM)</option>
+        <option value="state_of_new_york">State of New York (NY)</option>
+        <option value="state_of_north_carolina">State of North Carolina (NC)</option>
+        <option value="state_of_north_dakota">State of North Dakota (ND)</option>
+        <option value="state_of_ohio">State of Ohio (OH)</option>
+        <option value="state_of_oklahoma">State of Oklahoma (OK)</option>
+        <option value="state_of_oregon">State of Oregon (OR)</option>
+        <option value="state_of_pennsylvania">State of Pennsylvania (PA)</option>
+        <option value="state_of_rhode_island">State of Rhode Island (RI)</option>
+        <option value="state_of_south_carolina">State of South Carolina (SC)</option>
+        <option value="state_of_south_dakota">State of South Dakota (SD)</option>
+        <option value="state_of_tennessee">State of Tennessee (TN)</option>
+        <option value="state_of_texas">State of Texas (TX)</option>
+        <option value="state_of_utah">State of Utah (UT)</option>
+        <option value="state_of_vermont">State of Vermont (VT)</option>
+        <option value="state_of_virginia">State of Virginia (VA)</option>
+        <option value="state_of_washington">State of Washington (WA)</option>
+        <option value="state_of_west_virginia">State of West Virginia (WV)</option>
+        <option value="state_of_wisconsin">State of Wisconsin (WI)</option>
+        <option value="state_of_wyoming">State of Wyoming (WY)</option>
+        <option value="surface_transportation_board">Surface Transportation Board</option>
+        <option value="tennessee_valley_authority">Tennessee Valley Authority</option>
+        <option value="territory_of_american_samoa">Territory of American Samoa (AS)</option>
+        <option value="territory_of_guam">Territory of Guam (GU)</option>
+        <option value="territory_of_northern_mariana_islands">Territory of Northern Mariana Islands (MP)</option>
+        <option value="territory_of_puerto_rico">Territory of Puerto Rico (PR)</option>
+        <option value="territory_of_u.s._virgin_islands">Territory of U.S. Virgin Islands (VI)</option>
+        <option value="trade_and_development_agency">Trade and Development Agency</option>
+        <option value="u.s._agency_for_global_media">U.S. Agency for Global Media</option>
+        <option value="u.s._agency_for_international_development">U.S. Agency for International Development</option>
+        <option value="united_mine_workers_of_america_benefit_funds">United Mine Workers of America Benefit Funds</option>
+        <option value="united_states_court_of_appeals_for_veterans_claims">United States Court of Appeals for Veterans Claims</option>
+        <option value="united_states_holocaust_memorial_museum">United States Holocaust Memorial Museum</option>
+        <option value="united_states_institute_of_peace">United States Institute of Peace</option>
+        <option value="united_states_interagency_council_on_homelessness">United States Interagency Council on Homelessness</option>
+        <option value="united_states_secret_service">United States Secret Service</option>
+        <option value="vietnam_education_foundation">Vietnam Education Foundation</option>
+      </select>
+    </div>
+
+    <label class="usa-label" for="program">Program name <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+    <div id="program-hint" class="usa-hint">Help us identify your program within your agency/organization.</div>
+    <input
+        id="program"
+        name="program"
+        type="text"
+        required
+        class="usa-input"
+        />
+
+    <div id="state_local_attestation-group" class="display-none">
+      <label class="usa-label" for="state_local_attestation">Is this program federally funded or linked to a federal program such as the United States Digital Services (USDS)? <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
+      <div id="state_local_attestation-hint" class="usa-hint">TTS must limit engagements with state and local entities to work that is linked to federal programs in which TTS is uniquely positioned to provide assistance.</div>
+      <select id="state_local_attestation" name="state_local_attestation" class="usa-select">
+        <option value>-</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+
+    <div class="usa-form-group">
+      <label class="usa-label" for="launch_date"
+        id="launch_date-label">Estimated first launch date (optional)</label>
+      <div class="usa-hint" id="launch_date-hint">The earliest date you're looking to have a Login.gov integration available to your users. Example: 01/25/2023</div>
+      <div class="usa-date-picker">
+        <input
+            class="usa-input"
+            id="launch_date"
+            name="launch_date"
+            aria-labelledby="launch_date-label"
+            aria-describedby="launch_date-label"
+            />
       </div>
     </div>
-  </section>
-</main>
+
+    <label class="usa-label" for="estimated_users">How many total users does your application(s) serve? (optional)</label>
+    <div id="estimated_users-hint" class="usa-hint">If unsure, provide an estimated or projected total number of users. Please only enter numbers.</div>
+    <input
+        id="estimated_users"
+        name="estimated_users"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        type="text"
+        class="usa-input"
+        />
+
+    <label class="usa-label" for="estimated_auths">How many logins does your application(s) have per year? (optional)</label>
+    <div id="estimated_auths-hint" class="usa-hint">We'll use this to estimate the number of authentications using Login.gov per year. Please only enter numbers.</div>
+    <input
+        id="estimated_auths"
+        name="estimated_auths"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        type="text"
+        class="usa-input"
+        />
+
+    <label class="usa-label" for="proofing">Identity verification (optional)</label>
+    <div id="proofing-hint" class="usa-hint">Does your application(s) require <a href="https://developers.login.gov/attributes" target="_blank">verified attributes</a> of its users?</div>
+    <select id="proofing" name="proofing" class="usa-select">
+      <option value>-</option>
+      <option value="authencation_only">Authentication only</option>
+      <option value="authentication_and_identity_proofing">Authentication and identity verification</option>
+    </select>
+
+    <label class="usa-label" for="estimated_idv_users">How many users will need their identities verified per year, if applicable? (optional)</label>
+    <div id="estimated_idv_users-hint" class="usa-hint">We'll use this to estimate how many identity verification events you rapplication(s) will need per year from Login.gov. Please only enter numbers.</div>
+    <input
+        id="estimated_idv_users"
+        name="estimated_idv_users"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        type="text"
+        class="usa-input"
+        />
+
+    <label class="usa-label" for="description">Comments (optional)</label>
+    <div id="description-hint" class="usa-hint">Anything else we should know?</div>
+    <textarea
+        id="description"
+        name="description"
+        class="usa-textarea"
+        ></textarea>
+
+    <div>
+      <label class="usa-label" for="information">Additional Info:</label>
+      <textarea
+          id="information"
+          name="information"
+          required
+          rows="1"
+          cols="50"
+          maxlength="80"
+          class="usa-textarea"
+          ></textarea>
+    </div>
+
+    {% if site.contact_form_captcha_enabled %}
+    <!-- START: reCAPTCHA -->
+    <div
+        class="g-recaptcha margin-top-4"
+        data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"
+        data-callback="clearCaptchaError"
+        ></div>
+    <input
+        type="hidden"
+        name="captcha_settings"
+        value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"00DU0000000Leux","ts":""}'
+        />
+    <div
+        id="captcha-error-message"
+        class="usa-error-message display-none margin-bottom-4"
+        role="alert"
+        data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.captcha_required }}"
+        ></div>
+    <!-- END: reCAPTCHA -->
+    {% endif %}
+
+    <input type="submit" class="usa-button usa-button--big usa-button--wide" value="Submit" />
+    <button type="reset" class="usa-button usa-button--big usa-button--wide usa-button--outline">Clear form</button>
+    <div id="form-error-message" class="usa-error-message display-none margin-top-4" role="alert">
+      We were unable to submit your request at this time. Please visit our <a href="https://zendesk.login.gov/hc" target="_blank">Partner Support Portal</a> and submit a request for a "New Login.gov Partnership".
+    </div>
+</form>
+<div class="partners-subtitle display-none margin-top-4" id="form-success-message">
+  Thanks for submitting your information, someone will follow up with you soon. Please check your email for a confirmation of your request. Thanks!
+</div>

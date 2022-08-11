@@ -6,6 +6,36 @@ layout: base
   {% include banner.html %}
   {% include partners/header.html %}
 </header>
-{% include partners/contact.html %}
+<main id="main-content">
+  <section>
+    <div class="container partners-container">
+      <div class="grid-row">
+        <div class="tablet:grid-col-12">
+          <h1 class="partners-title">{{ page.title }}</h1>
+        </div>
+        <div class="tablet:grid-col-9 accordion-container">
+          <div class="partners-border"></div>
+          <div class="tablet:grid-col-9">
+            {% include partners/contact.html %}
+          </div>
+        </div>
+        <div class="tablet:grid-col-3 search-container">
+          <section>
+            <nav aria-label="Secondary navigation,">
+              <ul class="usa-sidenav">
+                <li class="usa-sidenav__item">
+                  <a href="{{ '/partners/faq/' | locale_url }}">FAQ</a>
+                </li>
+                <li class="usa-sidenav__item">
+                  <a href="#main-content" class="usa-current">Contact us</a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
 {% include partners/partners-banner.html %}
 {% include partners/footer.html %}
