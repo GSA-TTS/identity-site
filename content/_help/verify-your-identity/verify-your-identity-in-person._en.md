@@ -45,7 +45,7 @@ If your current address does not match the address on your ID, you will need to 
 * Vehicle Registration Card
 * Home or Vehicle Insurance Policy
 
-You can bring a physical copy or show a digital copy of the document. You cannot show a photo or screenshot of the document. 
+You must bring a physical copy of the document. You cannot show a photo or screenshot of the document.
 
 ## Complete the process at the Post Office before your deadline
 
