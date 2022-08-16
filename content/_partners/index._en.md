@@ -23,7 +23,7 @@ services:
   col2: >-
     Verify the right person has access to the right information with secure identity verification.
 
-    [Learn about identity verification](/partners/our-services/#verified-identity-and-authentication-aal2){:class="partners-identity caret"}
+    [Learn about identity verification](/partners/our-services/#verified-identity-and-authentication){:class="partners-identity caret"}
   subheading3: Multilingual user support
   col_class3: multilingual
   col3: >-
