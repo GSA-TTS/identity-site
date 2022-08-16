@@ -112,6 +112,10 @@ include:
           "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.backup_codes }}",
         ),
         new TopicEntry(
+          'Remember device issue',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.remember_browser }}",
+        ),
+        new TopicEntry(
           'Other',
           "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
         ),
@@ -160,6 +164,14 @@ include:
         new TopicEntry(
           'Personal Key Notification',
           "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.personal_key_notification }}",
+        ),
+        new TopicEntry(
+          'Lost MFA Method',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.lost_access }}",
+        ),
+        new TopicEntry(
+          'Face or Touch Unlock',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.issues_with_face_touch_unlock }}",
         ),
         new TopicEntry(
           'Other',
@@ -234,6 +246,14 @@ include:
           "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.cant_proof_in_person }}",
         ),
         new TopicEntry(
+          'Creating an Account in IAL2',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_create_with_verification }}",
+        ),
+        new TopicEntry(
+          'How/Why do I verify my identity?',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_verify }}",
+        ),
+        new TopicEntry(
           'Other',
           "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
         ),
@@ -242,6 +262,40 @@ include:
     new TopicEntry(
       'login.gov System',
       "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.feedback }}",
+      [
+        new TopicEntry(
+          'Spam',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.concerned_login_email }}",
+        ),
+        new TopicEntry(
+          'Privacy and Security',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.security_question }}",
+        ),
+        new TopicEntry(
+          'Potential Business',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.interest_in_partnership }}",
+        ),
+        new TopicEntry(
+          'Account Linking',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_link }}",
+        ),
+        new TopicEntry(
+          'Service Quality',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.feedback }}",
+        ),
+        new TopicEntry(
+          'Bug',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.seeing_errors }}",
+        ),
+        new TopicEntry(
+          'Agency Website Error',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.issue_with_partner_agency }}",
+        ),
+        new TopicEntry(
+          'Other',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+        ),
+      ],
     ),
     new TopicEntry(
       'Other',
