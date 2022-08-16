@@ -45,7 +45,7 @@ Si votre adresse actuelle ne correspond pas à l'adresse figurant sur votre piè
 * Carte d'immatriculation d’un véhicule
 * Police d'assurance habitation ou véhicule
 
-Vous devez apporter une copie physique du document. Vous ne pouvez pas utiliser une photo ou une capture d'écran du document.
+Vous pouvez apporter une copie physique ou montrer une copie numérique du document. Vous ne pouvez pas montrer une photo ou une capture d'écran du document.
 
 ## Effectuez le processus au bureau de poste avant la date limite
 

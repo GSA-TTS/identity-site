@@ -45,7 +45,7 @@ Si su dirección actual no coincide con la que figura en su documento de identid
 * Tarjeta de registro del vehículo.
 * Póliza de seguro de hogar o de vehículo.
 
-Debe traer una copia en físico del documento original. Está prohibido mostrar una foto o una captura de pantalla del documento.
+Puede traer una copia física o mostrar una copia digital del documento. No puede mostrar una foto o una captura de pantalla del documento.
 
 ## Complete el proceso en la oficina de correos antes la fecha límite
 
