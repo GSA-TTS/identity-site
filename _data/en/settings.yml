@@ -99,7 +99,6 @@ contact_page:
       new_device_notification: I've received a new device notification email 
       no_otp_received: No OTP received
       no_phone: I can't create my Login.gov account because I don't have a phone
-      not_login: I'm having an issue with this partner agency 
       none: '--None--'
       other: Other
       password_issue: Password issue
