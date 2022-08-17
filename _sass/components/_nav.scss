@@ -15,6 +15,13 @@
   }
 }
 
+@include at-media('desktop') {
+  .usa-header--extended .usa-navbar {
+    max-width: 100%;
+    justify-content: space-between;
+  }
+}
+
 .usa-header--basic.top-navigation .usa-navbar {
   border-bottom: none;
 
@@ -24,7 +31,7 @@
 }
 
 .usa-header--basic .usa-search {
-  @include at-media("desktop") {
+  @include at-media('desktop') {
     display: none;
   }
 }
@@ -56,7 +63,7 @@
   }
 }
 
-@include at-media-max("desktop") {
+@include at-media-max('desktop') {
   .language-search {
     display: none;
   }
@@ -99,7 +106,7 @@
   }
 }
 
-@include at-media-max("desktop") {
+@include at-media-max('desktop') {
   .sign-in-logo.usa-button.mobile {
     display: block;
     white-space: normal;
@@ -110,13 +117,13 @@
   }
 }
 
-@include at-media("desktop") {
+@include at-media('desktop') {
   .usa-header--extended .usa-nav__primary {
     margin-left: 0rem;
   }
 }
 
-@include at-media-max("desktop") {
+@include at-media-max('desktop') {
   .usa-nav__primary {
     margin-left: -1rem;
     margin-right: -1rem;
@@ -151,7 +158,7 @@
   }
 }
 
-@include at-media("desktop") {
+@include at-media('desktop') {
   .usa-nav__primary-item + .usa-nav__primary-item {
     margin-left: 1.5rem;
   }
@@ -169,7 +176,7 @@
 
 .usa-nav__primary button,
 .usa-nav__primary a {
-  @include at-media-max("desktop") {
+  @include at-media-max('desktop') {
     padding-top: 0.9rem;
     padding-bottom: 0.9rem;
     line-height: 1.5;
@@ -177,7 +184,7 @@
 }
 
 .usa-nav__primary .usa-nav__submenu-item .usa-current {
-  @include at-media-max("desktop") {
+  @include at-media-max('desktop') {
     background-color: transparent;
     color: $blue-mid;
 
@@ -188,7 +195,7 @@
 }
 
 .anchor-to-top {
-  @include u-display("inline-block");
+  @include u-display('inline-block');
   @include u-margin-top(4);
   font-size: $base-font-sm;
   text-decoration: none;
