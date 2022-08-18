@@ -15,13 +15,6 @@
   }
 }
 
-@include at-media('desktop') {
-  .usa-header--extended .usa-navbar {
-    max-width: 100%;
-    justify-content: space-between;
-  }
-}
-
 .usa-header--basic.top-navigation .usa-navbar {
   border-bottom: none;
 
@@ -191,6 +184,12 @@
     &::after {
       content: none;
     }
+  }
+}
+
+@include at-media('desktop') {
+  .desktop-maxw-full {
+    max-width: 100% !important; // overwriting USWDS nav max-width for desktop only
   }
 }
 
