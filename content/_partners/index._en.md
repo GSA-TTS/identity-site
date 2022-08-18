@@ -17,7 +17,7 @@ services:
   col1: >-
     Users create one account to access all your digital services with multi-factor authentication.
 
-    [Learn about authentication](/partners/our-services/#self-asserted-identity-and-authentication-ial1aal2){:class="partners-authentication caret"}
+    [Learn about authentication](/partners/our-services/#self-asserted-identity-and-authentication){:class="partners-authentication caret"}
   subheading2: Identity verification
   col_class2: identity
   col2: >-
