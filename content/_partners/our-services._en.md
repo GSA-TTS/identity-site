@@ -6,31 +6,31 @@ title: >-
 subtitle: >-
     ## Understanding our service levels
 subsection: >-
-    Login.gov provides two service levels for partners: authentication and identity verification. Login.gov leverages the <a href="https://pages.nist.gov/800-63-3/" class="external-link">NIST 800-63-3 Digital Identity Guidelines</a> for Identity Assurance Level (IAL) and Authenticator Assurance Level (AAL). Login.gov allows you to configure your IAL and AAL depending on the needs of your application.
+    Login.gov provides two service levels for partners: authentication and identity verification. Login.gov leverages the <a href="https://pages.nist.gov/800-63-3/" class="external-link">NIST 800-63-3 Digital Identity Guidelines</a> for Identity Assurance Level (IAL) and Authenticator Assurance Level (AAL). Login.gov allows you to configure your service depending on the needs of your application.
 self_identity_auth: >-
-    ### Self-asserted identity and authentication (IAL1/AAL2)
+    ### Self-asserted identity and authentication
 
 
-    Basic authentication accounts (IAL1) requires users to create a secure account using an email address and a password.
+    Basic authentication accounts (IAL1) require users to create a secure account using an email address and a password.
 
 
-    Login.gov also requires multi-factor authentication (MFA) as an additional security measure, such as an SMS/Text code, authentication app, physical security key, PIV/CAC card or backup code, which corresponds to NIST’s AAL2 or higher.
+    Login.gov also requires multi-factor authentication (MFA) as an additional security measure, such as face or touch unlock, PIV/CAC card, physical security key, authentication application, text or voice message, or backup codes. You can configure Login.gov MFA settings for your application to correspond with either NIST’s AAL1 or AAL2 level depending on your preferences.
 verified_identity_auth: >-
-    ### Verified identity and authentication (AAL2)
+    ### Verified identity and authentication
 
 
     For this service level, users create an IAL1 account (email, password and MFA) and then go a step further to prove their identity.
 
-
-    Login.gov asks the user to provide the following PII: their state-issued identification card (ID), Social Security Number (SSN), current address, and optionally a phone number to confirm home address. Login.gov’s proofing process is based on the IAL2 specifications but does not fully conform to the requirements—specifically biometrics and liveness check.
+    
+    Login.gov asks the user to provide the following: their state-issued identification card (ID), Social Security number (SSN), current address, and optionally a phone number to confirm home address. Login.gov’s identity verification process does not currently conform to the IAL2 specification because it does not include biometric verification.
 multilingual_support: >-
     ### Multilingual support for your end-users
 
 
-    Login.gov provides customer support through our contact center services in English, Spanish and French from 8am-8pm Monday through Friday, excluding federal holidays. Most inquiries are received from the Login.gov contact form and answered by email within 2 business days.
+    Login.gov provides customer support through our contact center services in English, Spanish, and French (through a translation service) from 8:00 am to 8:00 pm ET Monday through Friday, excluding federal holidays. Most inquiries are received from the Login.gov contact form and answered by email within 2 business days.
 
 
-    For more complex issues, our agents are available to answer telephone calls as well.  Any needed services outside these hours are addressed on a case by case basis depending on partner needs.
+    For more complex issues, our agents are available to answer telephone calls as well. Any needed services outside these hours are addressed on a case by case basis depending on partner needs.
 
 
     We also provide information to partner agency help desks and support teams to help end-users who may contact the agency with questions.
@@ -47,9 +47,9 @@ benefits: >-
 benefit1: >-
     We are committed to [user privacy and security](/policy/){:class="external-link"}
 benefit2: >-
-    Secure two-factor authentication (2FA) backed by a [FedRAMP](https://www.fedramp.gov/){:class="external-link"} Moderate ATO
-benefit3: >-
     Enhanced fraud detection and monitoring
+benefit3: >-
+    Secure two-factor authentication (2FA) backed by a [FedRAMP](https://www.fedramp.gov/){:class="external-link"} Moderate ATO
 benefit4: >-
     Transform your customer experience and reduce costs while providing a modern, frictionless, and compliant foundation to build digital government services
 resources: >-
