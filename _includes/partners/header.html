@@ -23,7 +23,7 @@
         </a>
       </div>
 
-      <div class="display-none desktop:display-block">{% include search.html %}</div>
+      <div class="display-none desktop:display-block">{% include search.html id="desktop" %}</div>
 
       <button class="usa-menu-btn">Menu</button>
     </div>
@@ -88,7 +88,7 @@
         {{ site.data.[page.lang].settings.nav.contact_us.title }}
       </a>
 
-      <div class="desktop:display-none">{% include search.html %}</div>
+      <div class="desktop:display-none">{% include search.html id="mobile" %}</div>
     </nav>
   </div>
 </div>
