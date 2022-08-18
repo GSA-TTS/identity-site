@@ -8,7 +8,7 @@ subtitle: >-
 subsection: >-
     Login.gov provides two service levels for partners: authentication and identity verification. Login.gov leverages the <a href="https://pages.nist.gov/800-63-3/" class="external-link">NIST 800-63-3 Digital Identity Guidelines</a> for Identity Assurance Level (IAL) and Authenticator Assurance Level (AAL). Login.gov allows you to configure your service depending on the needs of your application.
 self_identity_auth: >-
-    ### Self-asserted identity and authentication (IAL1/AAL2)
+    ### Self-asserted identity and authentication
 
 
     Basic authentication accounts (IAL1) require users to create a secure account using an email address and a password.
@@ -22,7 +22,7 @@ verified_identity_auth: >-
     For this service level, users create an IAL1 account (email, password and MFA) and then go a step further to prove their identity.
 
     
-    Login.gov asks the user to provide the following: their state-issued identification card (ID), Social Security Number (SSN), current address, and optionally a phone number to confirm home address. Login.gov’s identity verification process does not currently conform to the IAL2 specification because it does not include biometric verification.
+    Login.gov asks the user to provide the following: their state-issued identification card (ID), Social Security number (SSN), current address, and optionally a phone number to confirm home address. Login.gov’s identity verification process does not currently conform to the IAL2 specification because it does not include biometric verification.
 multilingual_support: >-
     ### Multilingual support for your end-users
 
