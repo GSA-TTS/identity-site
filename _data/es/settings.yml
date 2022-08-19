@@ -20,26 +20,30 @@ banner:
     secure_heading: os sitios web seguros .gov usan HTTPS
     secure_description: 'Un <strong>candado</strong> o <strong>https://</strong> significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros.'
 contact_page:
+  operating_hours: El horario operativo es de lunes a viernes de 8:00 am a 8:00 pm hora del este.
+  call_us:
+    title: FIXME - Call us
+    phone_number: XXX-XXX-XXXX
   support_request_form:
     other: Otro
-    help_text: El horario operativo es de lunes a viernes de 8:00 am a 8:00 pm hora del este. Le pedimos que espere 2 días hábiles para recibir una respuesta. Gracias por su paciencia.
+    help_text: Le pedimos que espere 2 días hábiles para recibir una respuesta. Gracias por su paciencia.
     agencies:
-      "Customs and Border Protection Jobs": Trabajos en Aduanas y Protección de Fronteras
-      "Customs and Border Protection ROAM": ROAM en Aduanas y Protección de Fronteras
-      "Department of Veterans Affairs": Departamento de Asuntos de los Veteranos
-      "DOD Moves.mil (Homes or Office)": DOD Move.mil (Hogares u oficinas)
-      "DOT FMCSA (Motor Carrier Safety)": FMCSA del Departamento de Transporte (Seguridad de Autotransportes)
-      "DOT National Registry of Certified Medical Examiners": Registro Nacional de Examinadores Médicos Certificados del Departamento de Transporte
-      "FDIC Resolution Request Management Portal": Portal de administración de resoluciones de solicitudes de la Corporación Federal de Seguro de Depósitos (FDIC)
-      "GSA Sam.gov": GSA SAM.gov
-      "OPM Employee Express": OPM Empleado Express
-      "OPM Services Online": "Servicios en línea de OPM"
-      "PBGC-MyPBA": "PBGC - MyPBA"
-      "Railroad Retirement Board": Junta de Jubilación del Ferrocarril
-      "SBA DLAP": SBA DLAP
-      "Social Security Administration (SSA)": Administración del Seguro Social (SSA, por su siglas en inglés)
-      "Trusted Traveler Programs (Global Entry/Nexus/Sentri)": Programas de Viajero de Confianza (Global Entry/Nexus/Sentri)
-      "USAJOBS": USAJOBS
+      'Customs and Border Protection Jobs': Trabajos en Aduanas y Protección de Fronteras
+      'Customs and Border Protection ROAM': ROAM en Aduanas y Protección de Fronteras
+      'Department of Veterans Affairs': Departamento de Asuntos de los Veteranos
+      'DOD Moves.mil (Homes or Office)': DOD Move.mil (Hogares u oficinas)
+      'DOT FMCSA (Motor Carrier Safety)': FMCSA del Departamento de Transporte (Seguridad de Autotransportes)
+      'DOT National Registry of Certified Medical Examiners': Registro Nacional de Examinadores Médicos Certificados del Departamento de Transporte
+      'FDIC Resolution Request Management Portal': Portal de administración de resoluciones de solicitudes de la Corporación Federal de Seguro de Depósitos (FDIC)
+      'GSA Sam.gov': GSA SAM.gov
+      'OPM Employee Express': OPM Empleado Express
+      'OPM Services Online': 'Servicios en línea de OPM'
+      'PBGC-MyPBA': 'PBGC - MyPBA'
+      'Railroad Retirement Board': Junta de Jubilación del Ferrocarril
+      'SBA DLAP': SBA DLAP
+      'Social Security Administration (SSA)': Administración del Seguro Social (SSA, por su siglas en inglés)
+      'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programas de Viajero de Confianza (Global Entry/Nexus/Sentri)
+      'USAJOBS': USAJOBS
     errors:
       pii_found: Por su privacidad, no envíe información confidencial en este formulario. Nuestros agentes de atención al cliente pueden atenderle igualmente sin esta información.
       captcha_required: Debes superar el desafío de prevención de spam.
@@ -121,8 +125,8 @@ contact_page:
       signing_in: Iniciar sesión en su cuenta de Login.gov
       verifying_identity: Verificar su identidad
 feedback_form:
-  'yes': "Si"
-  'no': "No"
+  'yes': 'Si'
+  'no': 'No'
   question: ¿Te resultó útil este artículo?
 footer:
   gsa: Administración General de Servicios de EE. UU.

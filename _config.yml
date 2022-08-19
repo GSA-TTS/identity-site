@@ -13,12 +13,15 @@ exclude_from_localizations: ['javascript', 'images', 'css']
 
 # Contact form production values (overridden in Federalist for preview branches)
 contact_form_captcha_enabled: true
-contact_form_action: "https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
-contact_form_orgid: "00DU0000000Leux"
+contact_form_action: 'https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8'
+contact_form_orgid: '00DU0000000Leux'
+
+# Contact page phone number enabled
+contact_form_phone_number_enabled: true
 
 # Partnership contact form production values
-partnership_contact_portal_id: "5531666"
-partnership_contact_form_id: "1a04d623-bccf-46e4-a6f3-bee3cac8c165"
+partnership_contact_portal_id: '5531666'
+partnership_contact_form_id: '1a04d623-bccf-46e4-a6f3-bee3cac8c165'
 
 # Used to load country code support
 idp_base_url: https://secure.login.gov
