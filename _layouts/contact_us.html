@@ -15,7 +15,7 @@ common_applications:
   {% include contact_form.html common_applications=layout.common_applications %}
 </div>
 
-{% if site.contact_form_phone_number_enabled %}
+{% if site.contact_form_phone_number_enabled and site.contact_form_phone_number %}
 <div class="page-content__section">
   {% include contact_phone.html common_applications=layout.common_applications %}
 </div>

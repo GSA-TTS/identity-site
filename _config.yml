@@ -18,6 +18,7 @@ contact_form_orgid: '00DU0000000Leux'
 
 # Contact page phone number enabled
 contact_form_phone_number_enabled: false
+contact_form_phone_number: ''
 
 # Partnership contact form production values
 partnership_contact_portal_id: '5531666'
