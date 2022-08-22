@@ -348,192 +348,199 @@
   document.addEventListener('DOMContentLoaded', doNotAnswer);
 </script>
 
-<form
-  id="contact-us-form"
-  action="{{ site.contact_form_action }}"
-  method="POST"
-  onSubmit="return remapvalues(this); return true;"
-  class="usa-form"
->
-  <input type="hidden" name="retURL" value="https://login.gov{{ '/' | locale_url }}" />
-  <input type="hidden" name="orgid" value="{{ site.contact_form_orgid }}" />
-  <input type="hidden" name="status" id="status" value="New" />
-  <input type="hidden" id="external" name="external" value="1" />
-  <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu" />
-  {% if site.contact_form_captcha_enabled != true %}
-  <input type="hidden" name="debug" value="1" />
-  {% endif %}
-
-  <p>
-    {{ site.data.[page.lang].settings.contact_page.operating_hours }} 
-    {{ site.data.[page.lang].settings.contact_page.support_request_form.help_text }}
-  </p>
-
-  <!-- START: Topic -->
-  <label class="usa-label" for="00NU0000004z903"
-    >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.topic }}</label
+<div class="page-content__section">
+  <h3>{{ site.data.[page.lang].settings.contact_page.support_request_form.title }}</h3>
+  <form
+    id="contact-us-form"
+    action="{{ site.contact_form_action }}"
+    method="POST"
+    onSubmit="return remapvalues(this); return true;"
+    class="usa-form"
   >
-  <select
-    id="00NU0000004z903"
-    name="00NU0000004z903"
-    required
-    onchange="dynamicdropdown(this.options[this.selectedIndex].value);"
-    class="usa-select"
-  >
-    <!-- Default value so that HTML validation passes -->
-    <option value="">
-      {{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_topic
-      }}
-    </option>
-  </select>
-  <!-- END: Topic -->
+    <input type="hidden" name="retURL" value="https://login.gov{{ '/' | locale_url }}" />
+    <input type="hidden" name="orgid" value="{{ site.contact_form_orgid }}" />
+    <input type="hidden" name="status" id="status" value="New" />
+    <input type="hidden" id="external" name="external" value="1" />
+    <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu" />
+    {% if site.contact_form_captcha_enabled != true %}
+    <input type="hidden" name="debug" value="1" />
+    {% endif %}
 
-  <!-- START: Subtopic -->
-  <label class="usa-label" for="sub-topic">
-    {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.subtopic }}
-  </label>
-  <select id="sub-topic" name="00NU0000004z905" required class="usa-select">
-    <!-- Default value so that HTML validation passes -->
-    <option value="">
-      {{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue
-      }}
-    </option>
-  </select>
-  <!-- END: Subtopic -->
+    <p>
+      {{ site.data.[page.lang].settings.contact_page.operating_hours }} {{
+      site.data.[page.lang].settings.contact_page.support_request_form.help_text }}
+    </p>
 
-  <!-- START: Agency Application -->
-  <label class="usa-label" for="00Nt0000000OYA2">
-    {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application }}
-  </label>
-  <select id="00Nt0000000OYA2" name="00Nt0000000OYA2" required class="usa-select">
-    <option value="" selected hidden>
-      {{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_agency
-      }}
-    </option>
-    <optgroup
-      label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_common }}"
+    <!-- START: Topic -->
+    <label class="usa-label" for="00NU0000004z903"
+      >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.topic }}</label
     >
-      {% for common_application in include.common_applications %}
-      <option value="{{ common_application }}">
+    <select
+      id="00NU0000004z903"
+      name="00NU0000004z903"
+      required
+      onchange="dynamicdropdown(this.options[this.selectedIndex].value);"
+      class="usa-select"
+    >
+      <!-- Default value so that HTML validation passes -->
+      <option value="">
         {{
-        site.data[page.lang].settings.contact_page.support_request_form.agencies[common_application]
+        site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_topic
         }}
       </option>
-      {% endfor %}
-    </optgroup>
-    <optgroup
-      label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_all }}"
-    >
-      {% assign all_applications_sorted =
-      site.data[page.lang].settings.contact_page.support_request_form.agencies | sort_by_values %}
-      {% for application in all_applications_sorted %}
-      <option value="{{ application.key }}">{{ application.value }}</option>
-      {% endfor %}
-    </optgroup>
-    <optgroup
-      label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_other }}"
-    >
-      <option value="Other">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.other }}
+    </select>
+    <!-- END: Topic -->
+
+    <!-- START: Subtopic -->
+    <label class="usa-label" for="sub-topic">
+      {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.subtopic }}
+    </label>
+    <select id="sub-topic" name="00NU0000004z905" required class="usa-select">
+      <!-- Default value so that HTML validation passes -->
+      <option value="">
+        {{
+        site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue
+        }}
       </option>
-    </optgroup>
-  </select>
-  <!-- END: Agency Application -->
+    </select>
+    <!-- END: Subtopic -->
 
-  <!-- START: Email -->
-  <label class="usa-label" for="email"
-    >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.email }}</label
-  >
-  <input
-    id="email"
-    maxlength="80"
-    name="email"
-    type="text"
-    placeholder="example@example.com"
-    pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
-    required
-    class="usa-input"
-  />
-  <!-- END: Email -->
+    <!-- START: Agency Application -->
+    <label class="usa-label" for="00Nt0000000OYA2">
+      {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application
+      }}
+    </label>
+    <select id="00Nt0000000OYA2" name="00Nt0000000OYA2" required class="usa-select">
+      <option value="" selected hidden>
+        {{
+        site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_agency
+        }}
+      </option>
+      <optgroup
+        label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_common }}"
+      >
+        {% for common_application in include.common_applications %}
+        <option value="{{ common_application }}">
+          {{
+          site.data[page.lang].settings.contact_page.support_request_form.agencies[common_application]
+          }}
+        </option>
+        {% endfor %}
+      </optgroup>
+      <optgroup
+        label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_all }}"
+      >
+        {% assign all_applications_sorted =
+        site.data[page.lang].settings.contact_page.support_request_form.agencies | sort_by_values %}
+        {% for application in all_applications_sorted %}
+        <option value="{{ application.key }}">{{ application.value }}</option>
+        {% endfor %}
+      </optgroup>
+      <optgroup
+        label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_other }}"
+      >
+        <option value="Other">
+          {{ site.data.[page.lang].settings.contact_page.support_request_form.other }}
+        </option>
+      </optgroup>
+    </select>
+    <!-- END: Agency Application -->
 
-  <!-- START: Description -->
-  <label class="usa-label" for="description"
-    >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.description
-    }}</label
-  >
-  <div class="usa-hint">
-    {{ site.data[page.lang].settings.contact_page.support_request_form.labels.pii_warning |
-    markdownify | remove: '
-    <p>' | remove: '</p>
-    ' }}
-  </div>
-
-  <div class="usa-alert usa-alert--warning display-none margin-bottom-4" id="pii-warning">
-    <div class="usa-alert__body">
-      <p
-        class="usa-alert__text"
-        id="pii-warning-message"
-        role="alert"
-        data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.pii_found }}"
-      ></p>
-    </div>
-  </div>
-
-  <textarea
-    id="description"
-    name="description"
-    required
-    rows="5"
-    cols="50"
-    maxlength="32000"
-    class="usa-textarea"
-  ></textarea>
-  <!-- END: Description -->
-
-  <!-- START: Description -->
-  <div>
-    <label class="usa-label" for="information">Additional Info:</label>
-    <textarea
-      id="information"
-      name="00Nt0000000FsTK"
-      required
-      rows="1"
-      cols="50"
+    <!-- START: Email -->
+    <label class="usa-label" for="email"
+      >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.email }}</label
+    >
+    <input
+      id="email"
       maxlength="80"
+      name="email"
+      type="text"
+      placeholder="example@example.com"
+      pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
+      required
+      class="usa-input"
+    />
+    <!-- END: Email -->
+
+    <!-- START: Description -->
+    <label class="usa-label" for="description"
+      >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.description
+      }}</label
+    >
+    <div class="usa-hint">
+      {{ site.data[page.lang].settings.contact_page.support_request_form.labels.pii_warning |
+      markdownify | remove: '
+      <p>' | remove: '</p>
+      ' }}
+    </div>
+
+    <div class="usa-alert usa-alert--warning display-none margin-bottom-4" id="pii-warning">
+      <div class="usa-alert__body">
+        <p
+          class="usa-alert__text"
+          id="pii-warning-message"
+          role="alert"
+          data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.pii_found }}"
+        ></p>
+      </div>
+    </div>
+
+    <textarea
+      id="description"
+      name="description"
+      required
+      rows="5"
+      cols="50"
+      maxlength="32000"
       class="usa-textarea"
     ></textarea>
-  </div>
-  <!-- END: Description -->
+    <!-- END: Description -->
 
-  {% if site.contact_form_captcha_enabled %}
-  <!-- START: reCAPTCHA -->
-  <div
-    class="g-recaptcha margin-top-4"
-    data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"
-    data-callback="clearCaptchaError"
-  ></div>
-  <input
-    type="hidden"
-    name="captcha_settings"
-    value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"00DU0000000Leux","ts":""}'
-  />
-  <div
-    id="captcha-error-message"
-    class="usa-error-message display-none margin-bottom-4"
-    role="alert"
-    data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.captcha_required }}"
-  ></div>
-  <!-- END: reCAPTCHA -->
-  {% endif %}
+    <!-- START: Description -->
+    <div>
+      <label class="usa-label" for="information">Additional Info:</label>
+      <textarea
+        id="information"
+        name="00Nt0000000FsTK"
+        required
+        rows="1"
+        cols="50"
+        maxlength="80"
+        class="usa-textarea"
+      ></textarea>
+    </div>
+    <!-- END: Description -->
 
-  <!-- START: Form Actions -->
-  <div class="form-actions">
-    <button type="submit" class="usa-button usa-button--big usa-button--wide">
-      {{ site.data.[page.lang].settings.contact_page.support_request_form.submit }}
-    </button>
-    <button type="reset" class="usa-button usa-button--big usa-button--wide usa-button--outline">
-      {{ site.data.[page.lang].settings.contact_page.support_request_form.reset }}
-    </button>
-  </div>
-  <!-- END: Form Actions -->
-</form>
+    {% if site.contact_form_captcha_enabled %}
+    <!-- START: reCAPTCHA -->
+    <div
+      class="g-recaptcha margin-top-4"
+      data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"
+      data-callback="clearCaptchaError"
+    ></div>
+    <input
+      type="hidden"
+      name="captcha_settings"
+      value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"00DU0000000Leux","ts":""}'
+    />
+    <div
+      id="captcha-error-message"
+      class="usa-error-message display-none margin-bottom-4"
+      role="alert"
+      data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.captcha_required }}"
+    ></div>
+    <!-- END: reCAPTCHA -->
+    {% endif %}
+
+    <!-- START: Form Actions -->
+    <div class="form-actions">
+      <button type="submit" class="usa-button usa-button--big usa-button--wide">
+        {{ site.data.[page.lang].settings.contact_page.support_request_form.submit }}
+      </button>
+      <button type="reset" class="usa-button usa-button--big usa-button--wide usa-button--outline">
+        {{ site.data.[page.lang].settings.contact_page.support_request_form.reset }}
+      </button>
+    </div>
+    <!-- END: Form Actions -->
+  </form>
+</div>

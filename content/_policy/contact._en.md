@@ -14,8 +14,7 @@ intro_content: >-
 
   * Login.gov cannot sign in, create, delete or manage your account on your behalf.
 
-
-
+help_center: >-
   ## Find answers to your questions in our Help Center
 
     {: .help-question-list}
@@ -28,7 +27,7 @@ intro_content: >-
   * [Browse more help articles](/help/)
 
 footer_content: >-
-  ## Partner with login.gov
+  ## Partner with Login.gov
 
   Interested in using Login.gov at your agency? Please [visit our partners website](https://partners.login.gov/) or [contact us](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e).
 

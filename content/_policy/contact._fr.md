@@ -13,8 +13,7 @@ intro_content: >-
 
   * Login.gov ne peut pas se connecter, créer, supprimer ou gérer votre compte en votre nom.
 
-
-
+help_center: >-
   ## Trouvez les réponses à vos questions à notre centre d'aide
 
     {: .help-question-list}
@@ -25,7 +24,6 @@ intro_content: >-
   * [Je dois modifier mes informations ou gérer mon compte](/fr/help/manage-your-account/overview/)
 
   * [Parcourir d’autres articles d’aide](/fr/help/)
-
 
 footer_content: >-
   ## Partenaire avec Login.gov
