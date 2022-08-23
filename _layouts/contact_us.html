@@ -9,18 +9,20 @@ common_applications:
   - Trusted Traveler Programs (Global Entry/Nexus/Sentri)
 ---
 
-{{ page.intro_content | markdownify }}
+{{ page.help_center_content | markdownify }} 
 
-<div class="desktop:grid-col-9">
-  {% include contact_form.html common_applications=layout.common_applications %}
-</div>
-
-{% if site.contact_phone_number_enabled and site.contact_phone_number %}
 <div class="page-content__section">
-  {% include contact_phone.html common_applications=layout.common_applications %}
+  
+  {{ page.intro_content | markdownify }} 
+  
+  <div class="desktop:grid-col-9">
+    {% include contact_form.html common_applications=layout.common_applications %}
+  </div>
+
+  {% if site.contact_phone_number_enabled and site.contact_phone_number %} 
+    {% include contact_phone.html common_applications=layout.common_applications %} 
+  {% endif %}
 </div>
-{% endif %}
 
-<footer class="page-content__section">{{ page.help_center | markdownify }}</footer>
-
-<footer class="page-content__footer">{{ page.footer_content | markdownify }}</footer>
+<div class="page-content__section">{{ page.partner_content | markdownify }}</div>
+<div class="page-content__section">{{ page.report_issue_content | markdownify }}</div>

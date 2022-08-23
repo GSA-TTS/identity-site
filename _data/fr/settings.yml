@@ -22,9 +22,9 @@ banner:
 contact_page:
   operating_hours: Les heures d'ouverture sont du lundi au vendredi de 8 h à 20 h (heure de l'Est).
   call_us:
-    title: FIXME - Call us
+    title: Appelez-nous
   support_request_form:
-    title: FIXME – Email us
+    title: Soumettre un ticket d'assistance
     other: Other
     help_text: Veuillez prévoir 2 jours ouvrables pour recevoir une réponse. Nous vous remercions de votre patience.
     agencies:
@@ -192,10 +192,10 @@ nav:
   contact_us:
     title: Nous contacter
     sections:
+      - name: Trouver des réponses aux questions les plus fréquemment posées
+        url: '#trouver-des-réponses-aux-questions-les-plus-fréquemment-posées'
       - name: Contactez-nous
         url: '#contactez-nous'
-      - name: Trouvez les réponses à vos questions à notre centre d'aide
-        url: '#trouvez-les-réponses-à-vos-questions-à-notre-centre-daide'
       - name: Partenaire avec Login.gov
         url: '#partenaire-avec-logingov'
       - name: Signaler un problème

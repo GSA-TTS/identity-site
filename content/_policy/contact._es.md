@@ -14,8 +14,8 @@ intro_content: >-
 
   * Login.gov no puede iniciar sesión, crear, eliminar o gestionar su cuenta en su nombre.
 
-help_center: >-
-  ## Visita nuestro Centro de Ayuda para encontrar respuestas a sus preguntas
+help_center_content: >-
+  ## Encuentra las respuestas a las preguntas más frecuentes
 
     {: .help-question-list}
   * [No puedo iniciar sesión en mi cuenta](/es/help/trouble-signing-in/overview/)
@@ -26,13 +26,13 @@ help_center: >-
 
   * [Explorar más artículos de ayuda](/es/help/)
 
-footer_content: >-
+partner_content: >-
   ## Asociarse con Login.gov
 
   ¿Está interesado en utilizar Login.gov en su agencia? [Visite el sitio web de nuestros socios](https://partners.login.gov/) o [póngase en contacto con nosotros](https://share.hsforms.com/16DIoo--rTU2xbNW1MShkBg3ak9e).
 
+report_issue_content: >-
   ## Reportar un problema
-
 
   Si deseas reportar un problema, consulta nuestra [política de divulgación de vulnerabilidades](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/ "Follow link") y contáctanos mediante nuestro [formulario de divulgación de vulnerabilidades](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Follow link").
 
