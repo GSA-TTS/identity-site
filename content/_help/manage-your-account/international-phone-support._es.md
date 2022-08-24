@@ -23,4 +23,6 @@ Le recomendamos que configure más de un método de autenticación para evitar q
            heading_sms="Compatible con SMS"
            heading_voice="Admite marcación por voz"
            option_yes="Sí"
-           option_no="No" %}
+           option_no="No"
+           error_heading="No se han podido cargar los datos"
+           error_body="Lo sentimos, hubo un error al cargar la lista de países admitidos. Por favor, inténtelo de nuevo más tarde." %}

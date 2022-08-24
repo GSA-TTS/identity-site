@@ -23,4 +23,6 @@ Nous vous encourageons à configurer plus d'une méthode d'authentification pour
            heading_sms="Prend en charge les SMS"
            heading_voice="Prend en charge la numérotation vocale"
            option_yes="Oui"
-           option_no="Non" %}
+           option_no="Non"
+           error_heading="Erreur lors du chargement des données"
+           error_body="Désolé, une erreur s'est produite lors du chargement de la liste des pays pris en charge. Veuillez réessayer plus tard." %}
