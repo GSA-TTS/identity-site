@@ -39,7 +39,8 @@ function loadCountrySupportTable(elem, fetch) {
   const templateRow = elem.querySelector('[data-item=template-row]');
   const successIcon = elem.querySelector('[data-item=icon-success]');
   const errorIcon = elem.querySelector('[data-item=icon-error]');
-  if (!tbody || !templateRow || !successIcon || !errorIcon) {
+  const errorAlert = elem.querySelector('[role=alert]');
+  if (!tbody || !templateRow || !successIcon || !errorIcon || !errorAlert) {
     return;
   }
 
@@ -64,7 +65,6 @@ function loadCountrySupportTable(elem, fetch) {
       if (response.ok) {
         return response.json();
       }
-
       throw new Error();
     })
     .then((/** @type {CountrySupport} */ { countries }) => {
@@ -92,6 +92,11 @@ function loadCountrySupportTable(elem, fetch) {
         );
 
       tbody.removeChild(templateRow);
+      tbody.parentElement.hidden = false;
+      elem.hidden = false;
+    })
+    .catch((_error) => {
+      errorAlert.hidden = false;
       elem.hidden = false;
     })
     .catch(() => {});
