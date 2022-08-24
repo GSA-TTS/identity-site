@@ -60,7 +60,13 @@ function loadCountrySupportTable(elem, fetch) {
   };
 
   fetch(`${idpBaseUrl || ''}/api/country-support?locale=${locale}`)
-    .then((response) => response.json())
+    .then((response) => {
+      if (response.ok) {
+        return response.json();
+      }
+
+      throw new Error();
+    })
     .then((/** @type {CountrySupport} */ { countries }) => {
       Object.entries(countries)
         .sort(([_isoCodeA, { name: a }], [_isoCodeB, { name: b }]) => a.localeCompare(b))
@@ -87,7 +93,8 @@ function loadCountrySupportTable(elem, fetch) {
 
       tbody.removeChild(templateRow);
       elem.hidden = false;
-    });
+    })
+    .catch(() => {});
 }
 
 /** @type {Promise<Fetch>} */
