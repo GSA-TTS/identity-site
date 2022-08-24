@@ -20,26 +20,30 @@ banner:
     secure_heading: Les sites Web sécurisés .gov utilisent HTTPS
     secure_description: 'Un <strong>verrou</strong> ou <strong>https://</strong> signifie que vous êtes connecté en toute sécurité au site Web .gov. Partagez des informations sensibles uniquement sur des sites Web officiels et sécurisés.'
 contact_page:
+  operating_hours: Les heures d'ouverture sont du lundi au vendredi de 8 h à 20 h (heure de l'Est).
+  call_us:
+    title: Appelez-nous
   support_request_form:
+    title: Soumettre un ticket d'assistance
     other: Other
-    help_text: Les heures d'ouverture sont du lundi au vendredi de 8 h à 20 h (heure de l'Est). Veuillez prévoir 2 jours ouvrables pour recevoir une réponse. Nous vous remercions de votre patience.
+    help_text: Veuillez prévoir 2 jours ouvrables pour recevoir une réponse. Nous vous remercions de votre patience.
     agencies:
-      "Customs and Border Protection Jobs": Emplois dans le domaine des douanes et de la protection des frontières
-      "Customs and Border Protection ROAM": ROAM des douanes et de la protection des frontières
-      "Department of Veterans Affairs": Ministère des Anciens Combattants
-      "DOD Moves.mil (Homes or Office)": Move.mil de DOD (Résidences ou bureaux)
-      "DOT FMCSA (Motor Carrier Safety)": FMCSA du Département des transports (Sécurité des transporteurs routiers)
-      "DOT National Registry of Certified Medical Examiners": Registre national des médecins agréés du Département des transports
-      "FDIC Resolution Request Management Portal": FDIC demande un portail de gestion des résolutions
-      "GSA Sam.gov": GSA SAM.gov
-      "OPM Employee Express": OPM Employé Express
-      "OPM Services Online": "Services OPM en ligne"
-      "PBGC-MyPBA": "PBGC - MyPBA"
-      "Railroad Retirement Board": Conseil des retraites des chemins de fer
-      "SBA DLAP": SBA DLAP
-      "Social Security Administration (SSA)": Administration de la sécurité sociale (SSA)
-      "Trusted Traveler Programs (Global Entry/Nexus/Sentri)": Programmes pour voyageurs de confiance (Global Entry/Nexus/Sentri)
-      "USAJOBS": USAJOBS
+      'Customs and Border Protection Jobs': Emplois dans le domaine des douanes et de la protection des frontières
+      'Customs and Border Protection ROAM': ROAM des douanes et de la protection des frontières
+      'Department of Veterans Affairs': Ministère des Anciens Combattants
+      'DOD Moves.mil (Homes or Office)': Move.mil de DOD (Résidences ou bureaux)
+      'DOT FMCSA (Motor Carrier Safety)': FMCSA du Département des transports (Sécurité des transporteurs routiers)
+      'DOT National Registry of Certified Medical Examiners': Registre national des médecins agréés du Département des transports
+      'FDIC Resolution Request Management Portal': FDIC demande un portail de gestion des résolutions
+      'GSA Sam.gov': GSA SAM.gov
+      'OPM Employee Express': OPM Employé Express
+      'OPM Services Online': 'Services OPM en ligne'
+      'PBGC-MyPBA': 'PBGC - MyPBA'
+      'Railroad Retirement Board': Conseil des retraites des chemins de fer
+      'SBA DLAP': SBA DLAP
+      'Social Security Administration (SSA)': Administration de la sécurité sociale (SSA)
+      'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programmes pour voyageurs de confiance (Global Entry/Nexus/Sentri)
+      'USAJOBS': USAJOBS
     errors:
       pii_found: Pour le respect de votre vie privée, ne soumettez pas d'informations sensibles dans ce formulaire. Nos agents du service clientèle peuvent toujours vous aider sans ces informations.
       captcha_required: Vous devez relever le défi de la prévention du pourriel.
@@ -120,8 +124,8 @@ contact_page:
       signing_in: Se connecter à votre compte Login.gov
       verifying_identity: Vérifier votre identité
 feedback_form:
-  'yes': "Oui"
-  'no': "Non"
+  'yes': 'Oui'
+  'no': 'Non'
   question: Cet article vous a-t-il été utile?
 footer:
   gsa: Administration des services généraux des États-Unis
@@ -188,10 +192,10 @@ nav:
   contact_us:
     title: Nous contacter
     sections:
+      - name: Trouver des réponses aux questions les plus fréquemment posées
+        url: '#trouver-des-réponses-aux-questions-les-plus-fréquemment-posées'
       - name: Contactez-nous
         url: '#contactez-nous'
-      - name: Trouvez les réponses à vos questions à notre centre d'aide
-        url: "#trouvez-les-réponses-à-vos-questions-à-notre-centre-daide"
       - name: Partenaire avec Login.gov
         url: '#partenaire-avec-logingov'
       - name: Signaler un problème

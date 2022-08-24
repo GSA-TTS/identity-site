@@ -18,7 +18,7 @@ article.container,
 .usa-header .usa-nav-container {
   @include lg-grid();
 
-  @include at-media-max("desktop") {
+  @include at-media-max('desktop') {
     padding-left: 0;
     padding-right: 0;
   }
@@ -27,7 +27,7 @@ article.container,
 .usa-nav__primary {
   order: 0;
 
-  @include at-media-max("desktop") {
+  @include at-media-max('desktop') {
     margin-top: 0;
   }
 }
@@ -39,7 +39,7 @@ article.container,
   }
 }
 
-@include at-media("desktop") {
+@include at-media('desktop') {
   .usa-header .usa-nav {
     .usa-search {
       position: absolute;
@@ -51,7 +51,7 @@ article.container,
     > .usa-nav__primary-item {
       > a {
         line-height: 1.5em;
-        font-size: .875rem;
+        font-size: 0.875rem;
       }
       > .usa-nav__link {
         position: relative;
@@ -84,7 +84,7 @@ article.container,
   padding-right: 0;
 }
 
-@include at-media("desktop-lg") {
+@include at-media('desktop-lg') {
   .sidebar {
     @include grid-col(3);
     @include grid-offset(2);
@@ -100,14 +100,20 @@ article.container,
 .page-content {
   @include u-padding-y(3);
 
-  @include at-media("desktop") {
+  @include at-media('desktop') {
     @include u-padding-y(8);
   }
 }
 
+.page-content__section {
+  @include u-border-top(1px, 'primary-light');
+  @include u-margin-top(4);
+  @include u-padding-top(4);
+}
+
 .page-content__footer {
-  @include u-border-top(1px, "primary-light");
-  @include u-margin-top(8);
+  @include u-border-top(1px, 'primary-light');
+  @include u-margin-top(4);
   @include u-padding-top(4);
 }
 
@@ -115,7 +121,8 @@ article.container,
   margin-top: 2rem;
 }
 
-#fba-modal-title, .section-title-view {
+#fba-modal-title,
+.section-title-view {
   display: none;
 }
 
@@ -123,6 +130,6 @@ article.container,
   color: $blue;
   background-color: $white;
   border: 2px solid $blue;
-  border-radius: .5rem;
-  padding: .75rem 2.25rem;
+  border-radius: 0.5rem;
+  padding: 0.75rem 2.25rem;
 }
