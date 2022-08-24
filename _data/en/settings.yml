@@ -72,7 +72,7 @@ contact_page:
       authentication_app: How do I change my authentication method?
       authentication_app_setup: How do I set up an authentication app?
       backup_codes: How do I use my backup codes to sign in?
-      blank_screen: I\'m seeing an error/blank screen when creating my account
+      blank_screen: I'm seeing an error/blank screen when creating my account
       cant_proof_in_person: I could not verify my identity in person at the Post Office
       change_email: How do I change my email?
       change_password: How do I update my Login.gov password?
@@ -80,11 +80,11 @@ contact_page:
       delete_account: How do I delete my Login.gov account?
       device_notification: I have received an alert about a new sign in on my Login.gov account
       email_delivery_issue: I am not receiving the Login.gov confirmation email
-      forgot_password: I forgot my Login.gov password and can\'t reset it
+      forgot_password: I forgot my Login.gov password and can't reset it
       international_number: I have an international number and am not receiving my security code
       invalid_email: Login.gov is not accepting my email address. It says it is invalid
       invalid_otp: Login.gov says my security code is invalid
-      letter_in_mail: I didn\'t get my letter by mail or it expired
+      letter_in_mail: I didn't get my letter by mail or it expired
       locked_out: I am locked out of my account
       lost_2fa_method: Lost two-factor authentication method
       multiple_otps: I am receiving many security codes when signing in
@@ -92,7 +92,7 @@ contact_page:
       new_backup_codes: How do I get new backup codes?
       new_personal_key: How do I get a new personal key?
       no_otp_received: No OTP received
-      no_phone: I can\'t create my Login.gov account because I don\'t have a phone
+      no_phone: I can't create my Login.gov account because I don't have a phone
       none: '--None--'
       other: Other
       password_issue: Password issue
@@ -107,9 +107,9 @@ contact_page:
       security_code: I am not receiving the security code
       security_key: I am having trouble using my security key to sign in
       service_quality: Service quality
-      site_navigation: I don\'t know where to go to create an account
+      site_navigation: I don't know where to go to create an account
       state_issued_id_error: I got an error after uploading my state-issued ID
-      unwanted_otp: I am receiving security codes from Login.gov that I didn\'t request
+      unwanted_otp: I am receiving security codes from Login.gov that I didn't request
       verify_identity_error: I got a failure trying to verify my identity
       wrong_account_update: Wrong account update
     topics:
