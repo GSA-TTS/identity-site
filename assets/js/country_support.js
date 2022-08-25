@@ -95,11 +95,10 @@ function loadCountrySupportTable(elem, fetch) {
       tbody.parentElement.hidden = false;
       elem.hidden = false;
     })
-    .catch((_error) => {
+    .catch(() => {
       errorAlert.hidden = false;
       elem.hidden = false;
-    })
-    .catch(() => {});
+    });
 }
 
 /** @type {Promise<Fetch>} */
