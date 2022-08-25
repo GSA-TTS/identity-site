@@ -39,7 +39,8 @@ function loadCountrySupportTable(elem, fetch) {
   const templateRow = elem.querySelector('[data-item=template-row]');
   const successIcon = elem.querySelector('[data-item=icon-success]');
   const errorIcon = elem.querySelector('[data-item=icon-error]');
-  if (!tbody || !templateRow || !successIcon || !errorIcon) {
+  const errorAlert = elem.querySelector('[role=alert]');
+  if (!tbody || !templateRow || !successIcon || !errorIcon || !errorAlert) {
     return;
   }
 
@@ -60,7 +61,12 @@ function loadCountrySupportTable(elem, fetch) {
   };
 
   fetch(`${idpBaseUrl || ''}/api/country-support?locale=${locale}`)
-    .then((response) => response.json())
+    .then((response) => {
+      if (response.ok) {
+        return response.json();
+      }
+      throw new Error();
+    })
     .then((/** @type {CountrySupport} */ { countries }) => {
       Object.entries(countries)
         .sort(([_isoCodeA, { name: a }], [_isoCodeB, { name: b }]) => a.localeCompare(b))
@@ -86,6 +92,11 @@ function loadCountrySupportTable(elem, fetch) {
         );
 
       tbody.removeChild(templateRow);
+      tbody.parentElement.hidden = false;
+      elem.hidden = false;
+    })
+    .catch(() => {
+      errorAlert.hidden = false;
       elem.hidden = false;
     });
 }
