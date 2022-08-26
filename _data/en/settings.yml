@@ -77,20 +77,30 @@ contact_page:
       change_email: How do I change my email?
       change_password: How do I update my Login.gov password?
       change_phone_number: How do I change my phone number?
+      concerned_login_email: I'm concerned about the Login.gov email I received
       delete_account: How do I delete my Login.gov account?
       device_notification: I have received an alert about a new sign in on my Login.gov account
       email_delivery_issue: I am not receiving the Login.gov confirmation email
+      feedback: I have feedback about Login.gov 
       forgot_password: I forgot my Login.gov password and can't reset it
+      how_to_link: How do I link my partner agency account with Login.gov?
+      how_to_create_with_verification: How do I create a Login.gov account with identity verification? 
+      how_to_verify: How/why do I verify my identify? 
       international_number: I have an international number and am not receiving my security code
+      interest_in_partnership: I'm interested in using Login.gov for my government agency
       invalid_email: Login.gov is not accepting my email address. It says it is invalid
       invalid_otp: Login.gov says my security code is invalid
+      issue_with_partner_agency: I'm having an issue with this partner agency
+      issues_with_face_touch_unlock: I'm having issue with using face or touch unlock
       letter_in_mail: I didn't get my letter by mail or it expired
       locked_out: I am locked out of my account
+      lost_access: I've lost access to my phone or email address 
       lost_2fa_method: Lost two-factor authentication method
       multiple_otps: I am receiving many security codes when signing in
       new_account: My email/username and password are not working
       new_backup_codes: How do I get new backup codes?
       new_personal_key: How do I get a new personal key?
+      new_device_notification: I've received a new device notification email 
       no_otp_received: No OTP received
       no_phone: I can't create my Login.gov account because I don't have a phone
       none: '--None--'
@@ -104,8 +114,11 @@ contact_page:
       privacy_and_security: Privacy and security
       recover_account: How do I sign into my account if I dont have my phone or personal key?
       remember_device_issue: How do I stop receiving security codes?
+      remember_browser: I set up remember browser but I'm still receiving security codes
+      security_question: How do you/How does Login.gov protect my privacy and security?
       security_code: I am not receiving the security code
       security_key: I am having trouble using my security key to sign in
+      seeing_errors: I'm seeing an error/blank screen when accessing Login.gov
       service_quality: Service quality
       site_navigation: I don't know where to go to create an account
       state_issued_id_error: I got an error after uploading my state-issued ID

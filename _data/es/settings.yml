@@ -78,19 +78,29 @@ contact_page:
       change_email: ¿Cómo cambio mi correo electrónico?
       change_password: ¿Cómo actualizo mi contraseña de Login.gov?
       change_phone_number: ¿Cómo cambio mi número de teléfono?
+      concerned_login_email: Estoy preocupado por el correo electrónico de Login.gov que he recibido
       delete_account: ¿Cómo elimino mi cuenta de Login.gov?
       device_notification: He recibido una alerta sobre un nuevo inicio de sesión en mi cuenta de Login.gov
+      feedback: Tengo comentarios sobre Login.gov 
       email_delivery_issue: No recibo el correo electrónico de confirmación de Login.gov
       forgot_password: Olvidé mi contraseña de Login.gov y no puedo restablecerla
+      how_to_link: ¿Cómo puedo vincular la cuenta de mi agencia asociada con Login.gov?
+      how_to_create_with_verification: ¿Cómo puedo crear una cuenta en Login.gov con verificación de identidad? 
+      how_to_verify: ¿Cómo/por qué verifico mi identidad?
+      interest_in_partnership: Estoy interesado en utilizar Login.gov para mi agencia gubernamental
       international_number: Tengo un número internacional y no recibo mi código de seguridad
       invalid_email: Login.gov no acepta mi dirección de correo electrónico. Dice que no es válido
       invalid_otp: Login.gov dice que mi código de seguridad no es válido
+      issue_with_partner_agency: Tengo un problema con esta agencia asociada
+      issues_with_face_touch_unlock: Tengo problemas con el uso del desbloqueo facial o táctil
       letter_in_mail: No he recibido mi carta por correo o ha caducado
       locked_out: Estoy bloqueado en mi cuenta
+      lost_access: He perdido el acceso a mi teléfono o dirección de correo electrónico  
       lost_2fa_method: Método autenticación de dos factores perdido
       multiple_otps: Recibo códigos de seguridad de Login.gov que no he solicitado
       new_account: Mi correo electrónico/nombre de usuario y contraseña no funcionan
       new_backup_codes: ¿Cómo consigo nuevos códigos de copia de seguridad?
+      new_device_notification: He recibido un correo electrónico de notificación de nuevo dispositivo 
       new_personal_key: ¿Cómo puedo obtener una nueva clave personal?
       no_otp_received: No se ha recibido ningún pedido de pago
       no_phone: No puedo crear mi cuenta de Login.gov porque no tengo un teléfono
@@ -105,8 +115,11 @@ contact_page:
       privacy_and_security: Privacidad y seguridad
       recover_account: ¿Cómo puedo entrar en mi cuenta si no tengo mi teléfono o mi clave personal?
       remember_device_issue: ¿Cómo puedo dejar de recibir los códigos de seguridad?
+      remember_browser: He configurado el navegador para recordar, pero sigo recibiendo códigos de seguridad
+      security_question: ¿Cómo protege Login.gov mi privacidad y seguridad?
       security_code: No recibo el código de seguridad
       security_key: Tengo problemas para usar mi clave de seguridad para iniciar sesión
+      seeing_errors: Veo una pantalla de error/en blanco cuando accedo a Login.gov
       service_quality: Calidad del servicio
       site_navigation: No sé dónde ir para crear una cuenta
       state_issued_id_error: Tengo un error después de subir mi documento de identidad emitido por el estado

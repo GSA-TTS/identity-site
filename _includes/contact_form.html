@@ -106,6 +106,10 @@
           'Backup codes',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.backup_codes | escape_quotes }}',
         ),
+        // new TopicEntry(
+        //   'Remember device issue',
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.remember_browser }}",
+        // ),
         new TopicEntry(
           'Other',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other | escape_quotes }}',
@@ -155,6 +159,14 @@
         new TopicEntry(
           'Personal Key Notification',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.personal_key_notification | escape_quotes }}',
+        ),
+        // new TopicEntry(
+        //   'Lost MFA Method',
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.lost_access }}",
+        // ),
+        new TopicEntry(
+          'Face or Touch Unlock',
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.issues_with_face_touch_unlock | escape_quotes }}',
         ),
         new TopicEntry(
           'Other',
@@ -228,6 +240,14 @@
           'In-Person Proofing',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.cant_proof_in_person | escape_quotes }}',
         ),
+        // new TopicEntry(
+        //   'Creating an Account in IAL2',
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_create_with_verification | escape_quotes}}",
+        // ),
+        // new TopicEntry(
+        //   'How/Why do I verify my identity?',
+        //   '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_verify | escape_quotes }}',
+        // ),
         new TopicEntry(
           'Other',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other | escape_quotes }}',
@@ -237,6 +257,40 @@
     new TopicEntry(
       'login.gov System',
       '{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.feedback | escape_quotes }}',
+      [
+        // new TopicEntry(
+        //   'Spam',
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.concerned_login_email | escape_quotes }}",
+        // ),
+        // new TopicEntry(
+        //   'Privacy and Security',
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.security_question | escape_quotes }}",
+        // ),
+        // new TopicEntry(
+        //   'Potential Business',
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.interest_in_partnership | escape_quotes }}",
+        // ),
+        new TopicEntry(
+          'Account Linking',
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_link | escape_quotes }}',
+        ),
+        // new TopicEntry(
+        //   'Service Quality',
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.feedback | escape_quotes }}",
+        // ),
+        // new TopicEntry(
+        //   'Bug',
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.seeing_errors | escape_quotes }}",
+        // ),
+        // new TopicEntry(
+        //   'Agency Website Error',
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.issue_with_partner_agency | escape_quotes  }}",
+        // ),
+        new TopicEntry(
+          'Other',
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other  | escape_quotes }}',
+        ),
+      ],
     ),
     new TopicEntry(
       'Other',
