@@ -20,26 +20,30 @@ banner:
     secure_heading: Secure .gov websites use HTTPS
     secure_description: 'A <strong>lock</strong> or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.'
 contact_page:
+  operating_hours: Operating hours are Monday-Friday 8:00 am to 8:00 pm ET.
+  call_us:
+    title: Call us
   support_request_form:
+    title: Submit a help ticket
     other: Other
-    help_text: Operating hours are Monday-Friday 8:00 am to 8:00 pm ET. Please allow 2 business days for a response. Thank you for your patience.
+    help_text: Please allow 2 business days for a response. Thank you for your patience.
     agencies:
-      "Customs and Border Protection Jobs": Customs and Border Protection Jobs
-      "Customs and Border Protection ROAM": Customs and Border Protection ROAM
-      "Department of Veterans Affairs": Department of Veterans Affairs
-      "DOD Moves.mil (Homes or Office)": DOD Move.mil (Homes or Office)
-      "DOT FMCSA (Motor Carrier Safety)": DOT FMCSA (Motor Carrier Safety)
-      "DOT National Registry of Certified Medical Examiners": DOT National Registry of Certified Medical Examiners
-      "FDIC Resolution Request Management Portal": FDIC Resolution Request Management Portal
-      "GSA Sam.gov": GSA SAM.gov
-      "OPM Employee Express": OPM Employee Express
-      "OPM Services Online": "OPM Services Online"
-      "PBGC-MyPBA": "PBGC - MyPBA"
-      "Railroad Retirement Board": Railroad Retirement Board
-      "SBA DLAP": SBA DLAP
-      "Social Security Administration (SSA)": Social Security Administration (SSA)
-      "Trusted Traveler Programs (Global Entry/Nexus/Sentri)": Trusted Traveler Programs (Global Entry/Nexus/Sentri)
-      "USAJOBS": USAJOBS
+      'Customs and Border Protection Jobs': Customs and Border Protection Jobs
+      'Customs and Border Protection ROAM': Customs and Border Protection ROAM
+      'Department of Veterans Affairs': Department of Veterans Affairs
+      'DOD Moves.mil (Homes or Office)': DOD Move.mil (Homes or Office)
+      'DOT FMCSA (Motor Carrier Safety)': DOT FMCSA (Motor Carrier Safety)
+      'DOT National Registry of Certified Medical Examiners': DOT National Registry of Certified Medical Examiners
+      'FDIC Resolution Request Management Portal': FDIC Resolution Request Management Portal
+      'GSA Sam.gov': GSA SAM.gov
+      'OPM Employee Express': OPM Employee Express
+      'OPM Services Online': 'OPM Services Online'
+      'PBGC-MyPBA': 'PBGC - MyPBA'
+      'Railroad Retirement Board': Railroad Retirement Board
+      'SBA DLAP': SBA DLAP
+      'Social Security Administration (SSA)': Social Security Administration (SSA)
+      'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Trusted Traveler Programs (Global Entry/Nexus/Sentri)
+      'USAJOBS': USAJOBS
     errors:
       pii_found: For your privacy, do not submit sensitive information to this form. Our customer support agents can still assist you without this information.
       captcha_required: You must complete the spam prevention challenge.
@@ -132,9 +136,9 @@ contact_page:
       signing_in: Signing in to your Login.gov account
       verifying_identity: Verifying your identity
 feedback_form:
-  'yes': "Yes"
-  'no': "No"
-  question: "Was this article helpful?"
+  'yes': 'Yes'
+  'no': 'No'
+  question: 'Was this article helpful?'
 global:
   language: Language
   locales:
@@ -198,10 +202,10 @@ nav:
   contact_us:
     title: Contact us
     sections:
-      - name: Get in Touch
+      - name: Find answers to commonly asked questions
+        url: '#find-answers-to-commonly-asked-questions'
+      - name: Get in touch
         url: '#get-in-touch'
-      - name: Find answers to your questions in our Help Center
-        url: '#find-answers-to-your-questions-in-our-help-center'
       - name: Partner with Login.gov
         url: '#partner-with-logingov'
       - name: Report an issue

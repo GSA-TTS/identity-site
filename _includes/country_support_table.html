@@ -6,6 +6,8 @@ Should include these translations as includes:
 - heading_voice
 - option_yes
 - option_no
+- error_heading
+- error_body
 {% endcomment %}
 
 <div
@@ -18,7 +20,7 @@ Should include these translations as includes:
 >
   <span hidden data-item="icon-success" class="svg-wrapper svg-success">{% include svg/font-awesome-check-circle-solid.svg %}</span>
   <span hidden data-item="icon-error" class="svg-wrapper svg-error">{% include svg/font-awesome-times-circle-solid.svg %}</span>
-  <table class="usa-table--borderless usa-table--sticky-header">
+  <table hidden class="usa-table--borderless usa-table--sticky-header">
     <thead>
       <tr>
         <th scope="col" class="usa-table--sticky-header--heading">{{ include.heading_country }}</th>
@@ -42,4 +44,12 @@ Should include these translations as includes:
       </tr>
     </tbody>
   </table>
+  <div hidden class="usa-alert usa-alert--error" role="alert">
+    <div class="usa-alert__body">
+      <h2 class="usa-alert__heading">{{ include.error_heading }}</h2>
+      <p class="usa-alert__text">
+        {{ include.error_body }}
+      </p>
+    </div>
+  </div>
 </div>

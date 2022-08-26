@@ -1,17 +1,9 @@
 <section class="login-developers-links">
   <div class="container">
     <div class="grid-col display-flex flex-justify-end flex-align-center">
-      <a
-        class="usa-nav__link usa-link"
-        href="{{site.baseurl}}/"
-      >
-        Login.gov
-      </a>
+      <a class="usa-nav__link usa-link" href="{{site.baseurl}}/"> Login.gov </a>
       <span class="links-separator">&#124;</span>
-      <a
-        class="usa-nav__link usa-link"
-        href="https://developers.login.gov"
-      >
+      <a class="usa-nav__link usa-link" href="https://developers.login.gov">
         Developers.login.gov
       </a>
     </div>
@@ -20,7 +12,7 @@
 
 <div class="usa-header usa-header--extended">
   <div class="usa-nav-container">
-    <div class="usa-navbar">
+    <div class="usa-navbar desktop:flex-justify partners-navbar margin-bottom-4">
       <div class="usa-logo partners-logo" id="extended-logo">
         <a href="{{ '/partners/' | locale_url }}" aria-label="Home">
           <img
@@ -30,6 +22,8 @@
           />
         </a>
       </div>
+
+      <div class="display-none desktop:display-block">{% include search.html id="desktop" %}</div>
 
       <button class="usa-menu-btn">Menu</button>
     </div>
@@ -53,7 +47,7 @@
             class="usa-nav__link {% if page.url contains '/impact-stories' %}usa-current{% endif %}"
             href="{{ '/partners/impact-stories/' | locale_url }}"
           >
-          <span class="usa-nav__link__inner">Impact stories</span>
+            <span class="usa-nav__link__inner">Impact stories</span>
           </a>
         </li>
         <li class="usa-nav__primary-item">
@@ -78,11 +72,13 @@
         <a
           class="{{include.mobile}} usa-button usa-button--outline {% if page.url contains '/state-and-local' %}partners-usa-button--active{% endif %}"
           href="{{ site.baseurl }}/partners/state-and-local/"
-        >State and local</a>
+          >State and local</a
+        >
         <a
           class="{{include.mobile}} usa-button {% if page.url contains '/get-started' %}usa-button--active{% endif %}"
           href="{{ site.baseurl }}/partners/get-started/"
-        >Get started</a>
+          >Get started</a
+        >
       </div>
 
       <a
@@ -92,6 +88,7 @@
         {{ site.data.[page.lang].settings.nav.contact_us.title }}
       </a>
 
+      <div class="desktop:display-none">{% include search.html id="mobile" %}</div>
     </nav>
   </div>
 </div>

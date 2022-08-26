@@ -1,9 +1,4 @@
-{% comment %}
-
-include:
-- common_applications: array of strings (translation keys)
-
-{% endcomment %}
+{% comment %} include: - common_applications: array of strings (translation keys) {% endcomment %}
 <!--
   This is some slightly modified code provided by the contact center to interact
   with their support ticket intake system
@@ -23,93 +18,93 @@ include:
   let topicMap = [
     new TopicEntry(
       'Create Account',
-      "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.creating_account }}",
+      '{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.creating_account | escape_quotes }}',
       [
         new TopicEntry(
           'Email delivery issue',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.email_delivery_issue }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.email_delivery_issue | escape_quotes }}',
         ),
         new TopicEntry(
           'Invalid email',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.invalid_email }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.invalid_email | escape_quotes }}',
         ),
         new TopicEntry(
           'Password issue',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.change_password }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.change_password | escape_quotes }}',
         ),
         new TopicEntry(
           'No phone',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.no_phone }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.no_phone | escape_quotes }}',
         ),
         new TopicEntry(
           'New account',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.new_account }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.new_account | escape_quotes }}',
         ),
         new TopicEntry(
           'Authentication app setup',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.authentication_app_setup }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.authentication_app_setup | escape_quotes }}',
         ),
         new TopicEntry(
           'Invalid Personal key',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.personal_key }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.personal_key | escape_quotes }}',
         ),
         new TopicEntry(
           'Site navigation',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.site_navigation }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.site_navigation | escape_quotes }}',
         ),
         new TopicEntry(
           'Login.gov account for a family member',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.add_family_member }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.add_family_member | escape_quotes }}',
         ),
         new TopicEntry(
           'Bug',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.blank_screen }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.blank_screen | escape_quotes }}',
         ),
         new TopicEntry(
           'Other',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other | escape_quotes }}',
         ),
       ],
     ),
     new TopicEntry(
       'Signing In',
-      "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.signing_in }}",
+      '{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.signing_in | escape_quotes }}',
       [
         new TopicEntry(
           'Forgot password',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.forgot_password }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.forgot_password | escape_quotes }}',
         ),
         new TopicEntry(
           'Invalid personal key',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.personal_key }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.personal_key | escape_quotes }}',
         ),
         new TopicEntry(
           'Locked out',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.locked_out }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.locked_out | escape_quotes }}',
         ),
         new TopicEntry(
           'Remember device issue',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.remember_device_issue }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.remember_device_issue | escape_quotes }}',
         ),
         new TopicEntry(
           'Recover account',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.recover_account }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.recover_account | escape_quotes }}',
         ),
         new TopicEntry(
           'Bug',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.blank_screen }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.blank_screen | escape_quotes }}',
         ),
         new TopicEntry(
           'Site navigation',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.site_navigation }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.site_navigation | escape_quotes }}',
         ),
         new TopicEntry(
           'New Account',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.new_account }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.new_account | escape_quotes }}',
         ),
         new TopicEntry(
           'Backup codes',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.backup_codes }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.backup_codes | escape_quotes }}',
         ),
         // new TopicEntry(
         //   'Remember device issue',
@@ -117,53 +112,53 @@ include:
         // ),
         new TopicEntry(
           'Other',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other | escape_quotes }}',
         ),
       ],
     ),
     new TopicEntry(
       'MFA (Multi Factor Authentication)',
-      "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.security_codes }}",
+      '{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.security_codes | escape_quotes }}',
       [
         new TopicEntry(
           'International number',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.international_number }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.international_number | escape_quotes }}',
         ),
         new TopicEntry(
           'No OTP received',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.security_code }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.security_code | escape_quotes }}',
         ),
         new TopicEntry(
           'Invalid OTP',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.invalid_otp }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.invalid_otp | escape_quotes }}',
         ),
         new TopicEntry(
           'Unwanted OTP sent',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.unwanted_otp }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.unwanted_otp | escape_quotes }}',
         ),
         new TopicEntry(
           'Multiple OTPs sent',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.multiple_otps }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.multiple_otps | escape_quotes }}',
         ),
         new TopicEntry(
           'Authentication app',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.authentication_app }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.authentication_app | escape_quotes }}',
         ),
         new TopicEntry(
           'PIV/CAC',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.piv_cac }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.piv_cac | escape_quotes }}',
         ),
         new TopicEntry(
           'Security Key',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.security_key }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.security_key | escape_quotes }}',
         ),
         new TopicEntry(
           'New Device Notification',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.device_notification }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.device_notification | escape_quotes }}',
         ),
         new TopicEntry(
           'Personal Key Notification',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.personal_key_notification }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.personal_key_notification | escape_quotes }}',
         ),
         // new TopicEntry(
         //   'Lost MFA Method',
@@ -171,135 +166,135 @@ include:
         // ),
         new TopicEntry(
           'Face or Touch Unlock',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.issues_with_face_touch_unlock }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.issues_with_face_touch_unlock | escape_quotes }}',
         ),
         new TopicEntry(
           'Other',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other | escape_quotes }}',
         ),
       ],
     ),
     new TopicEntry(
       'Changing Settings',
-      "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.changing_settings }}",
+      '{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.changing_settings | escape_quotes }}',
       [
         new TopicEntry(
           'Change password',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.change_password }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.change_password | escape_quotes }}',
         ),
         new TopicEntry(
           'Change email',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.change_email }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.change_email | escape_quotes }}',
         ),
         new TopicEntry(
           'Change phone number',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.change_phone_number }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.change_phone_number | escape_quotes }}',
         ),
         new TopicEntry(
           'Delete account',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.delete_account }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.delete_account | escape_quotes }}',
         ),
         new TopicEntry(
           'Authentication app',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.authentication_app }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.authentication_app | escape_quotes }}',
         ),
         new TopicEntry(
           'New personal key',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.new_personal_key }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.new_personal_key | escape_quotes }}',
         ),
         new TopicEntry(
           'New backup codes',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.new_backup_codes }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.new_backup_codes | escape_quotes }}',
         ),
         new TopicEntry(
           'Other',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other | escape_quotes }}',
         ),
       ],
     ),
     new TopicEntry(
       'Verifying your identity',
-      "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.verifying_identity }}",
+      '{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.verifying_identity | escape_quotes }}',
       [
         new TopicEntry(
           'State-issued ID error',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.state_issued_id_error }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.state_issued_id_error | escape_quotes }}',
         ),
         new TopicEntry(
           'Failure trying to verify my identity',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.verify_identity_error }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.verify_identity_error | escape_quotes }}',
         ),
         new TopicEntry(
           'Failure after entering phone number',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.phone_number_failure }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.phone_number_failure | escape_quotes }}',
         ),
         new TopicEntry(
           "Didn't receive letter in mail",
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.letter_in_mail }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.letter_in_mail | escape_quotes }}',
         ),
         new TopicEntry(
           'Account locked for 24 hours',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.account_locked }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.account_locked | escape_quotes }}',
         ),
         new TopicEntry(
           'In-Person Proofing',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.cant_proof_in_person }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.cant_proof_in_person | escape_quotes }}',
         ),
         // new TopicEntry(
         //   'Creating an Account in IAL2',
-        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_create_with_verification }}",
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_create_with_verification | escape_quotes}}",
         // ),
         // new TopicEntry(
         //   'How/Why do I verify my identity?',
-        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_verify }}",
+        //   '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_verify | escape_quotes }}',
         // ),
         new TopicEntry(
           'Other',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other | escape_quotes }}',
         ),
       ],
     ),
     new TopicEntry(
       'login.gov System',
-      "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.feedback }}",
+      '{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.feedback | escape_quotes }}',
       [
         // new TopicEntry(
         //   'Spam',
-        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.concerned_login_email }}",
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.concerned_login_email | escape_quotes }}",
         // ),
         // new TopicEntry(
         //   'Privacy and Security',
-        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.security_question }}",
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.security_question | escape_quotes }}",
         // ),
         // new TopicEntry(
         //   'Potential Business',
-        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.interest_in_partnership }}",
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.interest_in_partnership | escape_quotes }}",
         // ),
         new TopicEntry(
           'Account Linking',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_link }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_link | escape_quotes }}',
         ),
         // new TopicEntry(
         //   'Service Quality',
-        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.feedback }}",
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.feedback | escape_quotes }}",
         // ),
         // new TopicEntry(
         //   'Bug',
-        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.seeing_errors }}",
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.seeing_errors | escape_quotes }}",
         // ),
         // new TopicEntry(
         //   'Agency Website Error',
-        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.issue_with_partner_agency }}",
+        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.issue_with_partner_agency | escape_quotes  }}",
         // ),
         new TopicEntry(
           'Other',
-          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other }}",
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other  | escape_quotes }}',
         ),
       ],
     ),
     new TopicEntry(
       'Other',
-      "{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.other }}",
+      '{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.other | escape_quotes }}',
     ),
   ];
 
@@ -326,7 +321,7 @@ include:
     let field = document.getElementById(topicID);
     field.options.length = 0;
     field.options[0] = new Option(
-      "{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_topic }}",
+      '{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_topic }}',
       '',
       false,
       true,
@@ -339,7 +334,7 @@ include:
 
     let sub = document.getElementById('sub-topic');
     sub.options[0] = new Option(
-      "{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue }}",
+      '{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue }}',
       null,
       false,
       true,
@@ -362,7 +357,7 @@ include:
         console.log(topicMap[i]);
         options.push(
           new Option(
-            "{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue }}",
+            '{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue }}',
             '',
             false,
             true,
@@ -407,187 +402,199 @@ include:
   document.addEventListener('DOMContentLoaded', doNotAnswer);
 </script>
 
-<form
-  id="contact-us-form"
-  action="{{ site.contact_form_action }}"
-  method="POST"
-  onSubmit="return remapvalues(this); return true;"
-  class="usa-form"
->
-  <input type="hidden" name="retURL" value="https://login.gov{{ '/' | locale_url }}" />
-  <input type="hidden" name="orgid" value="{{ site.contact_form_orgid }}" />
-  <input type="hidden" name="status" id="status" value="New" />
-  <input type="hidden" id="external" name="external" value="1" />
-  <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu" />
-  {% if site.contact_form_captcha_enabled != true %}
-  <input type="hidden" name="debug" value="1" />
-  {% endif %}
-
-  <p>
-    {{ site.data.[page.lang].settings.contact_page.support_request_form.help_text }}
-  </p>
-
-  <!-- START: Topic -->
-  <label class="usa-label" for="00NU0000004z903"
-    >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.topic }}</label
+<div>
+  <h3>{{ site.data.[page.lang].settings.contact_page.support_request_form.title }}</h3>
+  <form
+    id="contact-us-form"
+    action="{{ site.contact_form_action }}"
+    method="POST"
+    onSubmit="return remapvalues(this); return true;"
+    class="usa-form"
   >
-  <select
-    id="00NU0000004z903"
-    name="00NU0000004z903"
-    required
-    onchange="dynamicdropdown(this.options[this.selectedIndex].value);"
-    class="usa-select"
-  >
-    <!-- Default value so that HTML validation passes -->
-    <option value="">
-      {{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_topic }}
-    </option>
-  </select>
-  <!-- END: Topic -->
+    <input type="hidden" name="retURL" value="https://login.gov{{ '/' | locale_url }}" />
+    <input type="hidden" name="orgid" value="{{ site.contact_form_orgid }}" />
+    <input type="hidden" name="status" id="status" value="New" />
+    <input type="hidden" id="external" name="external" value="1" />
+    <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu" />
+    {% if site.contact_form_captcha_enabled != true %}
+    <input type="hidden" name="debug" value="1" />
+    {% endif %}
 
-  <!-- START: Subtopic -->
-  <label class="usa-label" for="sub-topic">
-    {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.subtopic }}
-  </label>
-  <select id="sub-topic" name="00NU0000004z905" required class="usa-select">
-    <!-- Default value so that HTML validation passes -->
-    <option value="">
-      {{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue }}
-    </option>
-  </select>
-  <!-- END: Subtopic -->
+    <p>
+      {{ site.data.[page.lang].settings.contact_page.operating_hours }} {{
+      site.data.[page.lang].settings.contact_page.support_request_form.help_text }}
+    </p>
 
-  <!-- START: Agency Application -->
-  <label class="usa-label" for="00Nt0000000OYA2">
-    {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application }}
-  </label>
-  <select id="00Nt0000000OYA2" name="00Nt0000000OYA2" required class="usa-select">
-    <option value="" selected hidden>
-      {{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_agency
-      }}
-    </option>
-    <optgroup
-      label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_common }}"
+    <!-- START: Topic -->
+    <label class="usa-label" for="00NU0000004z903"
+      >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.topic }}</label
     >
-      {% for common_application in include.common_applications %}
-        <option value="{{ common_application }}">
-          {{ site.data[page.lang].settings.contact_page.support_request_form.agencies[common_application] }}
-        </option>
-      {% endfor %}
-    </optgroup>
-    <optgroup
-      label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_all }}"
+    <select
+      id="00NU0000004z903"
+      name="00NU0000004z903"
+      required
+      onchange="dynamicdropdown(this.options[this.selectedIndex].value);"
+      class="usa-select"
     >
-      {% assign all_applications_sorted = site.data[page.lang].settings.contact_page.support_request_form.agencies | sort_by_values %}
-      {% for application in all_applications_sorted %}
-        <option value="{{ application.key }}">
-          {{ application.value }}
-        </option>
-      {% endfor %}
-    </optgroup>
-    <optgroup
-      label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_other }}"
-    >
-      <option value="Other">
-        {{ site.data.[page.lang].settings.contact_page.support_request_form.other }}
+      <!-- Default value so that HTML validation passes -->
+      <option value="">
+        {{
+        site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_topic
+        }}
       </option>
-    </optgroup>
-  </select>
-  <!-- END: Agency Application -->
+    </select>
+    <!-- END: Topic -->
 
-  <!-- START: Email -->
-  <label class="usa-label" for="email"
-    >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.email }}</label
-  >
-  <input
-    id="email"
-    maxlength="80"
-    name="email"
-    type="text"
-    placeholder="example@example.com"
-    pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
-    required
-    class="usa-input"
-  />
-  <!-- END: Email -->
+    <!-- START: Subtopic -->
+    <label class="usa-label" for="sub-topic">
+      {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.subtopic }}
+    </label>
+    <select id="sub-topic" name="00NU0000004z905" required class="usa-select">
+      <!-- Default value so that HTML validation passes -->
+      <option value="">
+        {{
+        site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue
+        }}
+      </option>
+    </select>
+    <!-- END: Subtopic -->
 
-  <!-- START: Description -->
-  <label class="usa-label" for="description"
-    >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.description
-    }}</label
-  >
-  <div class="usa-hint">
-    {{ site.data[page.lang].settings.contact_page.support_request_form.labels.pii_warning | markdownify | remove: '
-    <p>' | remove: '</p>
-    ' }}
-  </div>
+    <!-- START: Agency Application -->
+    <label class="usa-label" for="00Nt0000000OYA2">
+      {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application
+      }}
+    </label>
+    <select id="00Nt0000000OYA2" name="00Nt0000000OYA2" required class="usa-select">
+      <option value="" selected hidden>
+        {{
+        site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_agency
+        }}
+      </option>
+      <optgroup
+        label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_common }}"
+      >
+        {% for common_application in include.common_applications %}
+        <option value="{{ common_application }}">
+          {{
+          site.data[page.lang].settings.contact_page.support_request_form.agencies[common_application]
+          }}
+        </option>
+        {% endfor %}
+      </optgroup>
+      <optgroup
+        label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_all }}"
+      >
+        {% assign all_applications_sorted =
+        site.data[page.lang].settings.contact_page.support_request_form.agencies | sort_by_values %}
+        {% for application in all_applications_sorted %}
+        <option value="{{ application.key }}">{{ application.value }}</option>
+        {% endfor %}
+      </optgroup>
+      <optgroup
+        label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_other }}"
+      >
+        <option value="Other">
+          {{ site.data.[page.lang].settings.contact_page.support_request_form.other }}
+        </option>
+      </optgroup>
+    </select>
+    <!-- END: Agency Application -->
 
-  <div class="usa-alert usa-alert--warning display-none margin-bottom-4"
-       id="pii-warning">
-    <div class="usa-alert__body">
-      <p class="usa-alert__text"
+    <!-- START: Email -->
+    <label class="usa-label" for="email"
+      >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.email }}</label
+    >
+    <input
+      id="email"
+      maxlength="80"
+      name="email"
+      type="text"
+      placeholder="example@example.com"
+      pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
+      required
+      class="usa-input"
+    />
+    <!-- END: Email -->
+
+    <!-- START: Description -->
+    <label class="usa-label" for="description"
+      >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.description
+      }}</label
+    >
+    <div class="usa-hint">
+      {{ site.data[page.lang].settings.contact_page.support_request_form.labels.pii_warning |
+      markdownify | remove: '
+      <p>' | remove: '</p>
+      ' }}
+    </div>
+
+    <div class="usa-alert usa-alert--warning display-none margin-bottom-4" id="pii-warning">
+      <div class="usa-alert__body">
+        <p
+          class="usa-alert__text"
           id="pii-warning-message"
           role="alert"
           data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.pii_found }}"
         ></p>
+      </div>
     </div>
-  </div>
 
-  <textarea
-    id="description"
-    name="description"
-    required
-    rows="5"
-    cols="50"
-    maxlength="32000"
-    class="usa-textarea"
-  ></textarea>
-  <!-- END: Description -->
-
-  <!-- START: Description -->
-  <div>
-    <label class="usa-label" for="information">Additional Info:</label>
     <textarea
-      id="information"
-      name="00Nt0000000FsTK"
+      id="description"
+      name="description"
       required
-      rows="1"
+      rows="5"
       cols="50"
-      maxlength="80"
+      maxlength="32000"
       class="usa-textarea"
     ></textarea>
-  </div>
-  <!-- END: Description -->
+    <!-- END: Description -->
 
-  {% if site.contact_form_captcha_enabled %}
-  <!-- START: reCAPTCHA -->
-  <div
-    class="g-recaptcha margin-top-4"
-    data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"
-    data-callback="clearCaptchaError"
-  ></div>
-  <input
-    type="hidden"
-    name="captcha_settings"
-    value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"00DU0000000Leux","ts":""}'
-  />
-  <div
-    id="captcha-error-message"
-    class="usa-error-message display-none margin-bottom-4"
-    role="alert"
-    data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.captcha_required }}"
-  ></div>
-  <!-- END: reCAPTCHA -->
-  {% endif %}
+    <!-- START: Description -->
+    <div>
+      <label class="usa-label" for="information">Additional Info:</label>
+      <textarea
+        id="information"
+        name="00Nt0000000FsTK"
+        required
+        rows="1"
+        cols="50"
+        maxlength="80"
+        class="usa-textarea"
+      ></textarea>
+    </div>
+    <!-- END: Description -->
 
-  <!-- START: Form Actions -->
-  <div class="form-actions">
-    <button type="submit" class="usa-button usa-button--big usa-button--wide">
-      {{ site.data.[page.lang].settings.contact_page.support_request_form.submit }}
-    </button>
-    <button type="reset" class="usa-button usa-button--big usa-button--wide usa-button--outline">
-      {{ site.data.[page.lang].settings.contact_page.support_request_form.reset }}
-    </button>
-  </div>
-  <!-- END: Form Actions -->
-</form>
+    {% if site.contact_form_captcha_enabled %}
+    <!-- START: reCAPTCHA -->
+    <div
+      class="g-recaptcha margin-top-4"
+      data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"
+      data-callback="clearCaptchaError"
+    ></div>
+    <input
+      type="hidden"
+      name="captcha_settings"
+      value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"00DU0000000Leux","ts":""}'
+    />
+    <div
+      id="captcha-error-message"
+      class="usa-error-message display-none margin-bottom-4"
+      role="alert"
+      data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.captcha_required }}"
+    ></div>
+    <!-- END: reCAPTCHA -->
+    {% endif %}
+
+    <!-- START: Form Actions -->
+    <div class="form-actions">
+      <button type="submit" class="usa-button usa-button--big usa-button--wide">
+        {{ site.data.[page.lang].settings.contact_page.support_request_form.submit }}
+      </button>
+      <button type="reset" class="usa-button usa-button--big usa-button--wide usa-button--outline">
+        {{ site.data.[page.lang].settings.contact_page.support_request_form.reset }}
+      </button>
+    </div>
+    <!-- END: Form Actions -->
+  </form>
+</div>
