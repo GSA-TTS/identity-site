@@ -3,7 +3,7 @@ title: No pude verificar mi identidad en persona
 category: verify-your-identity
 order: 10
 ---
-Si no puedes verificar tu identidad en persona, puedes intentarlo otra vez en línea, o puedes comunicarte con la agencia a la que intentas acceder para obtener ayuda con preguntas específicas sobre la verificación de tu identidad.
+Si no puedes verificar tu identidad en persona, [puedes intentarlo otra vez en línea](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/), o puedes comunicarte con la agencia a la que intentas acceder [para obtener ayuda con preguntas específicas sobre](https://login.gov/help/specific-agencies/overview/) la verificación de tu identidad.
 
 ### Consejos para verificar tu identidad en persona:
 
