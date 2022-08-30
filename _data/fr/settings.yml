@@ -28,21 +28,44 @@ contact_page:
     other: Other
     help_text: Veuillez prévoir 2 jours ouvrables pour recevoir une réponse. Nous vous remercions de votre patience.
     agencies:
+      'Central Intelligence Agency'
       'Customs and Border Protection Jobs': Emplois dans le domaine des douanes et de la protection des frontières
       'Customs and Border Protection ROAM': ROAM des douanes et de la protection des frontières
+      'Department of Commerce': Département du Commerce
+      'Department of Defense': Département de la Défense
+      'Department of Energy': Département de l'Energie
+      'Department of Labor': Département du Travail
+      'Department of the Interior': Département du Trésor
+      'Department of Transportation': Département des Transports
       'Department of Veterans Affairs': Ministère des Anciens Combattants
       'DOD Moves.mil (Homes or Office)': Move.mil de DOD (Résidences ou bureaux)
+      'DOI ePermits': DOI ePermits
+      'DOL Foregin Labor Application Gateway (FLAG)': DOL Foreign Labor Application Gateway (FLAG)
       'DOT FMCSA (Motor Carrier Safety)': FMCSA du Département des transports (Sécurité des transporteurs routiers)
+      'DOT Delphi eInvoicing': DOT Delphi eInvoicing
       'DOT National Registry of Certified Medical Examiners': Registre national des médecins agréés du Département des transports
+      'Environmental Protection Agency': Agence de protection de l'environnement 
       'FDIC Resolution Request Management Portal': FDIC demande un portail de gestion des résolutions
+      'General Services Administration': Administration des services généraux
       'GSA Sam.gov': GSA SAM.gov
+      'Health and Human Services': Santé et services sociaux
+      'HHS Grants.gov': HHS Grants.gov
+      'HHS National Institutes of Health (NIH)': HHS Institut national de la santé (NIH)
+      'Housing and Urban Development': Logement et développement urbain
+      'Library of Congress': Bibliothèque du Congrès
+      'National Aeronaoutics ans Space Administration': Administration Nationale de l'Espace et de l'Aéronautique
       'OPM Employee Express': OPM Employé Express
       'OPM Services Online': 'Services OPM en ligne'
       'PBGC-MyPBA': 'PBGC - MyPBA'
+      'Peace Corps': Peace Corps
       'Railroad Retirement Board': Conseil des retraites des chemins de fer
       'SBA DLAP': SBA DLAP
+      'Security and Exchange Commission': Commission des valeurs mobilières des États-Unis
       'Social Security Administration (SSA)': Administration de la sécurité sociale (SSA)
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programmes pour voyageurs de confiance (Global Entry/Nexus/Sentri)
+      'U.S Agency for International Development': Agence américaine pour le développement international
+      'U.S Department of Agriculture': Département de l'agriculture des États-Unis
+      'United States Forest Service': United States Forest Service
       'USAJOBS': USAJOBS
     errors:
       pii_found: Pour le respect de votre vie privée, ne soumettez pas d'informations sensibles dans ce formulaire. Nos agents du service clientèle peuvent toujours vous aider sans ces informations.
