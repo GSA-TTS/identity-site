@@ -28,7 +28,7 @@ contact_page:
     other: Other
     help_text: Veuillez prévoir 2 jours ouvrables pour recevoir une réponse. Nous vous remercions de votre patience.
     agencies:
-      'Central Intelligence Agency'
+      'Central Intelligence Agency': Agence centrale de renseignement
       'Customs and Border Protection Jobs': Emplois dans le domaine des douanes et de la protection des frontières
       'Customs and Border Protection ROAM': ROAM des douanes et de la protection des frontières
       'Department of Commerce': Département du Commerce
@@ -57,7 +57,7 @@ contact_page:
       'OPM Employee Express': OPM Employé Express
       'OPM Services Online': 'Services OPM en ligne'
       'PBGC-MyPBA': 'PBGC - MyPBA'
-      'Peace Corps': Peace Corps
+      'Peace Corps': Corps de la Paix
       'Railroad Retirement Board': Conseil des retraites des chemins de fer
       'SBA DLAP': SBA DLAP
       'Security and Exchange Commission': Commission des valeurs mobilières des États-Unis
@@ -65,7 +65,7 @@ contact_page:
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programmes pour voyageurs de confiance (Global Entry/Nexus/Sentri)
       'U.S Agency for International Development': Agence américaine pour le développement international
       'U.S Department of Agriculture': Département de l'agriculture des États-Unis
-      'United States Forest Service': United States Forest Service
+      'United States Forest Service': Service forestier des États-Unis
       'USAJOBS': USAJOBS
     errors:
       pii_found: Pour le respect de votre vie privée, ne soumettez pas d'informations sensibles dans ce formulaire. Nos agents du service clientèle peuvent toujours vous aider sans ces informations.
