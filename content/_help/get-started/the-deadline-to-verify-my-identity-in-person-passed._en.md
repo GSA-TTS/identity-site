@@ -2,6 +2,7 @@
 layout: help
 title: The deadline to verify my identity in person passed
 category: get-started
+permalink: /help/get-started/the-deadline-to-verify-my-identity-in-person-passed/
 order: 10
 ---
 If you received an email informing you that the deadline to verify your identity passed, try [verifying your identity online again](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/). 

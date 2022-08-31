@@ -1,6 +1,7 @@
 ---
 title: Le délai pour vérifier mon identité en personne est expiré
 category: get-started
+permalink: /fr/help/get-started/the-deadline-to-verify-my-identity-in-person-passed/
 order: 10
 ---
 Si vous avez reçu un courriel vous informant que le délai de vérification de votre identité est expiré, [essayez à nouveau de vérifier votre identité en ligne](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/). 
