@@ -7,7 +7,7 @@ order: 10
 ---
 If you are unable to successfully verify your identity in person, you can try to [verify your identity online](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/) again, or you can contact the agency you are trying to access for [help with specific questions](https://login.gov/help/specific-agencies/overview/) about verifying your identity.
 
-Tips for verifying your identity in person: 
+## Tips for verifying your identity in person: 
 
 * Your state-issued ID or driver’s license must not be expired. We do not currently accept any other forms of identification.
 * Bring a valid proof of address if your current address is different from the address displayed on your ID. To verify your current address you can bring your:
