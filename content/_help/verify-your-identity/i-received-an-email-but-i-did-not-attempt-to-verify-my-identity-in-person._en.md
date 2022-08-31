@@ -2,6 +2,7 @@
 layout: help
 title: I received an email, but I did not attempt to verify my identity in person
 category: verify-your-identity
+permalink: /help/verify-your-identity/i-received-an-email-but-i-did-not-attempt-to-verify-my-identity-in-person/
 order: 10
 ---
 If you received an email informing you that you are ready to verify your identity or your identity could not be verified in person, and you did not attempt this action: 
