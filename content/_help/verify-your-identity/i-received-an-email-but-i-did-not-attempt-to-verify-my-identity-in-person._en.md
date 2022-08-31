@@ -9,7 +9,7 @@ If you received an email informing you that you are ready to verify your identit
 
 [Sign in](https://secure.login.gov/) and change your password immediately. If you’d like, you can also [delete your account](https://login.gov/help/manage-your-account/delete-your-account/). 
 
-### Related Articles
+## Related Articles
 
 [Change your password](https://login.gov/help/manage-your-account/change-your-password/)
 
