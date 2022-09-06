@@ -144,3 +144,11 @@
     }
   }
 }
+
+.usa-combo-box__input,
+.usa-combo-box__list {
+  @include u-border-color('primary-light');
+  font-weight: font-weight('bold');
+  background-color: color('primary-lightest');
+  border-radius: radius('md');
+}
