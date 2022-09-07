@@ -1,3 +1,3 @@
 ---
-redirect_to: '/partners/state-and-local'
+redirect_to: '/partners/state-and-local/'
 ---
