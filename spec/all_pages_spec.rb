@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'pry'
 
 def admin_page?(path)
   path.start_with?('admin/')

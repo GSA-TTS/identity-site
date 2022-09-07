@@ -29,7 +29,7 @@ three_col:
     security operations, and customer support so you don’t have to.
 
 
-    [Become a partner](https://partners.login.gov/){:class="why-more-info"}
+    [Become a partner](/partners/){:class="why-more-info"}
   subheading3: Agency developers
   col_class3: developers
   col3: >-

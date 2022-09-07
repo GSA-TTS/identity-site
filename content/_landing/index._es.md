@@ -26,7 +26,7 @@ three_col:
     usted no tenga que hacerlo.
 
 
-    [Convertirse en un compañero](https://partners.login.gov){:class="why-more-info"}
+    [Convertirse en un compañero](/partners/){:class="why-more-info"}
   subheading3: Desarrolladores de agencias
   col3: >-
     Recursos para desarrolladores, soporte en tiempo real y herramientas
