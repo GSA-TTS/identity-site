@@ -26,7 +26,7 @@ three_col:
     pour que vous n’ayez pas à le faire.
 
 
-    [Devenir un partenaire](https://partners.login.gov/){:class="why-more-info"}
+    [Devenir un partenaire](/partners/){:class="why-more-info"}
   subheading3: Développeurs d’agence
   col3: >-
     Ressources de développement, support en temps réel et outils modernes pour
