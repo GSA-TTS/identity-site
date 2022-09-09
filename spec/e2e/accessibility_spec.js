@@ -1,7 +1,7 @@
 import { AxePuppeteer } from '@axe-core/puppeteer';
 import { toHaveNoViolations } from 'jest-axe';
 import { page, goto } from './support/browser';
-import { getLinks, toNotHaveTargetBlank } from './support/target-blank';
+import { getCandidateLinks, toNotHaveTargetBlank } from './support/target-blank';
 
 expect.extend(toHaveNoViolations);
 expect.extend({ toNotHaveTargetBlank });
@@ -51,10 +51,8 @@ describe('accessibility', () => {
           const results = await runner.analyze();
           expect(results).toHaveNoViolations();
 
-          const links = await getLinks(page);
-          links.forEach((a) => {
-            expect(a).toNotHaveTargetBlank();
-          });
+          const links = await getCandidateLinks(page);
+          links.forEach((a) => expect(a).toNotHaveTargetBlank());
         },
         TEST_TIMEOUT_MS,
       );
