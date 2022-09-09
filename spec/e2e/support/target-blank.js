@@ -3,36 +3,15 @@
  */
 
 /**
- * Returns true if the element is inside a form, or false otherwise.
- *
- * @param {Element} element
- *
- * @return {boolean}
- */
-const isInForm = (element) => !!element.closest('form');
-
-/**
- * Returns true if the given link should be considered an exception to enforcement of links opening
- * in the same tab.
- *
- * Refer to WCAG guidance on qualifying situations.
- *
- * @see https://www.w3.org/TR/WCAG20-TECHS/G200.html
- *
- * @param {HTMLAnchorElement} link
- *
- * @return {boolean}
- */
-const isNewTabLinkException = (link) => isInForm(link);
-
-/**
  * @param {import('puppeteer').Page} page
  * @return {Promise<SimplifiedLink[]>}
  */
 function getCandidateLinks(page) {
   return page.$$eval('a', (aTags) =>
     aTags
-      .filter((a) => !isNewTabLinkException(a))
+      // Exclude form links from new tab enforcement.
+      // See: https://www.w3.org/TR/WCAG20-TECHS/G200.html
+      .filter((a) => !a.closest('form'))
       .map((a) =>
         // Get the info we want across the Chrome DevTools Protocol
         ({
