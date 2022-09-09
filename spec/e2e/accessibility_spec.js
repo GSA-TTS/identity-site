@@ -14,6 +14,29 @@ const EXCLUDE_PATTERNS = [
   /admin/,
 ];
 
+/**
+ * Returns true if the element is inside a form, or false otherwise.
+ *
+ * @param {Element} element
+ *
+ * @return {boolean}
+ */
+const isInForm = (element) => !!element.closest('form');
+
+/**
+ * Returns true if the given link should be considered an exception to enforcement of links opening
+ * in the same tab.
+ *
+ * Refer to WCAG guidance on qualifying situations.
+ *
+ * @see https://www.w3.org/TR/WCAG20-TECHS/G200.html
+ *
+ * @param {HTMLAnchorElement} link
+ *
+ * @return {boolean}
+ */
+const isNewTabLinkException = (link) => isInForm(link);
+
 describe('accessibility', () => {
   const paths = JSON.parse(process.env.ALL_URLS)
     .map((url) => new URL(url).pathname)
@@ -52,9 +75,9 @@ describe('accessibility', () => {
           expect(results).toHaveNoViolations();
 
           const links = await getLinks(page);
-          links.forEach((a) => {
-            expect(a).toNotHaveTargetBlank();
-          });
+          links
+            .filter((link) => !isNewTabLinkException(link))
+            .forEach((a) => expect(a).toNotHaveTargetBlank());
         },
         TEST_TIMEOUT_MS,
       );
