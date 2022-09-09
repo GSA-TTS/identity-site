@@ -1,7 +1,7 @@
 import { AxePuppeteer } from '@axe-core/puppeteer';
 import { toHaveNoViolations } from 'jest-axe';
 import { page, goto } from './support/browser';
-import { getLinks, toNotHaveTargetBlank } from './support/target-blank';
+import { getCandidateLinks, toNotHaveTargetBlank } from './support/target-blank';
 
 expect.extend(toHaveNoViolations);
 expect.extend({ toNotHaveTargetBlank });
@@ -13,29 +13,6 @@ const EXCLUDE_PATTERNS = [
   /\.pdf$/, // Puppeteer Chromium cannot preview PDF files
   /admin/,
 ];
-
-/**
- * Returns true if the element is inside a form, or false otherwise.
- *
- * @param {Element} element
- *
- * @return {boolean}
- */
-const isInForm = (element) => !!element.closest('form');
-
-/**
- * Returns true if the given link should be considered an exception to enforcement of links opening
- * in the same tab.
- *
- * Refer to WCAG guidance on qualifying situations.
- *
- * @see https://www.w3.org/TR/WCAG20-TECHS/G200.html
- *
- * @param {HTMLAnchorElement} link
- *
- * @return {boolean}
- */
-const isNewTabLinkException = (link) => isInForm(link);
 
 describe('accessibility', () => {
   const paths = JSON.parse(process.env.ALL_URLS)
@@ -74,10 +51,8 @@ describe('accessibility', () => {
           const results = await runner.analyze();
           expect(results).toHaveNoViolations();
 
-          const links = await getLinks(page);
-          links
-            .filter((link) => !isNewTabLinkException(link))
-            .forEach((a) => expect(a).toNotHaveTargetBlank());
+          const links = await getCandidateLinks(page);
+          links.forEach((a) => expect(a).toNotHaveTargetBlank());
         },
         TEST_TIMEOUT_MS,
       );
