@@ -63,12 +63,12 @@ contact_page:
       'Peace Corps': Peace Corps
       'Railroad Retirement Board': Railroad Retirement Board
       'SBA DLAP': SBA DLAP
-      'Securites and Exchange Commission': Securites and Exchange Commission
+      'Securities and Exchange Commission': Securities and Exchange Commission
       'Social Security Administration (SSA)': Social Security Administration (SSA)
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       'United States Forest Service': United States Forest Services
-      'U.S. Agency for Internationl Development': U.S Agency for International Development
-      'U.S Department of Agriculture': U.S Department of Agriculture
+      'U.S. Agency for International Development': U.S. Agency for International Development
+      'U.S. Department of Agriculture': U.S. Department of Agriculture
       'USAJOBS': USAJOBS
     errors:
       pii_found: For your privacy, do not submit sensitive information to this form. Our customer support agents can still assist you without this information.
