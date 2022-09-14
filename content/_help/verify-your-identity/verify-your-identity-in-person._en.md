@@ -3,7 +3,7 @@ layout: help
 title: Verify your identity in person
 category: verify-your-identity
 permalink: /help/verify-your-identity/verify-your-identity-in-person
-order: 10
+order: 7
 ---
 # Verify your identity in person
 

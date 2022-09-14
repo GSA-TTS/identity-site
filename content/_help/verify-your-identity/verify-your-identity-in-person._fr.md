@@ -2,7 +2,7 @@
 title: Vérifier votre identité en personne
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person
-order: 10
+order: 7
 ---
 Si vous ne parvenez pas à télécharger avec succès votre identifiant sur Login.gov, vous pourrez peut-être le vérifier en personne auprès de nos partenaires du Service postal des États-Unis (USPS). Pour le moment, nous n'offrons cette option que dans certains [bureaux USPS de la région de Washington (District de Columbia)](https://docs.google.com/document/d/1vX2VAskfRxzhEttJDiCJwi88czZpfSYa/edit#heading=h.1t3h5sf) et pour certaines agences partenaires.
 
