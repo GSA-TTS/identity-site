@@ -16,7 +16,7 @@ Please have the following information ready to enter on Login.gov:
 1. Your State-Issued ID. [Don’t have a state issued ID?](https://login.gov/help/verify-your-identity/accepted-state-issued-identification/)
 2. Social Security Number
 3. A phone number on a phone plan that is in your name
-    a.  If you do not have a phone plan that is in your name, we can send you the verification code by mail which takes approximately 3-5 days.
+   a.  If you do not have a phone plan that is in your name, we can send you the verification code by mail which takes approximately 3-5 days.
 
 If you’re unable to complete any of these steps, please contact the partner agency’s help center for support.   
 
@@ -32,6 +32,7 @@ Bring the same ID you used on Login.gov. Your ID must not be expired. At this ti
 
 * Driver’s license from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
 * A non-driver’s license state-issued ID card
+
   * This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
 
 We do not currently accept any other forms of identification, such as passports and military IDs. You cannot verify your identity at the Post Office without a state-issued ID. We’re currently working to add more ways to verify your identity.
@@ -114,6 +115,7 @@ Tips for verifying your identity in person: 
 
 * Your state-issued ID or driver’s license must not be expired. We do not currently accept any other forms of identification.
 * Bring a valid proof of address if your current address is different from the address displayed on your ID. To verify your current address you can bring your:
+
   * Lease, mortgage, or deed of trust
   * Voter registration
   * Vehicle registration card

@@ -15,7 +15,7 @@ Tenga preparada la siguiente información para ingresarla en Login.gov:
 1. Su documento de identidad emitido por su estado. [¿No tiene un documento de identidad estatal?](https://login.gov/es/help/verify-your-identity/accepted-state-issued-identification/)
 2. Número de Seguridad Social.
 3. Un número de teléfono con un plan de telefonía que esté a su nombre.
-   a. Si no tiene un plan de telefonía que esté a su nombre, podemos enviarle el código de verificación por correo, lo cual tarda aproximadamente de 3 a 5 días.
+   a.  Si no tiene un plan de telefonía que esté a su nombre, podemos enviarle el código de verificación por correo, lo cual tarda aproximadamente de 3 a 5 días.
 
 Si no puede completar alguno de estos pasos, póngase en contacto con el centro de ayuda de la agencia asociada para obtener ayuda.
 
@@ -31,6 +31,7 @@ Lleve el mismo documento de identidad que utilizó en Login.gov. Su identificaci
 
 * Licencia de conducir de los 50 estados, del Distrito de Columbia (DC) y de otros territorios de Estados Unidos (Guam, Islas Vírgenes de Estados Unidos, Islas Marianas y Puerto Rico)
 * Una identificación emitida por el estado que no sea una licencia de conducir
+
   * Se trata de un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de EE.UU. que confirme la identidad, pero no otorga privilegios de conducción.
 
 Actualmente no aceptamos otras formas de identificación, como pasaportes o carnés militares. No podrá verificar su identidad en la oficina de correos sin un documento de identidad emitido por el estado. Actualmente estamos trabajando para añadir más formas de verificar su identidad.
@@ -103,16 +104,17 @@ Si se ha encontrado con un problema al intentar verificar su identidad de manera
 
 Si recibió un correo electrónico en el que se le informa de que está listo para verificar su identidad o que su identidad no pudo ser verificada en persona, y no intentó esta acción: 
 
-Inicie sesión y cambie su contraseña inmediatamente. Si lo desea, también puede eliminar su cuenta.
+[Inicie sesión](https://secure.login.gov/) y [cambie su contraseña inmediatamente](https://login.gov/help/manage-your-account/change-your-password/). Si lo desea, también puede [eliminar su cuenta](https://login.gov/help/manage-your-account/delete-your-account/).
 
 ## Qué hacer si no ha podido verificar su identidad de manera presencial
 
-Si no puedes verificar tu identidad en persona, puedes intentarlo otra vez en línea, o puedes comunicarte con la agencia a la que intentas acceder para obtener ayuda con preguntas específicas sobre la verificación de tu identidad.
+Si no puedes verificar tu identidad en persona, puedes [intentarlo otra vez en línea](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/), o puedes comunicarte con la agencia a la que intentas acceder para [obtener ayuda con preguntas específicas](https://login.gov/help/specific-agencies/overview/) sobre la verificación de tu identidad.
 
 Consejos para verificar tu identidad en persona:
 
 * Tu identificación oficial o licencia de conducir emitida por el gobierno estatal no debe estar vencida. Actualmente no aceptamos ningún otro tipo de identificación.
 * Trae un comprobante de domicilio válido si tu dirección actual no es la que aparece en tu identificación. Para verificar tu dirección actual puedes traer tu:
+
   * Contrato de arrendamiento, hipoteca o escritura de fideicomiso.
   * Registro electoral.
   * Tarjeta de registro vehicular.
@@ -120,7 +122,7 @@ Consejos para verificar tu identidad en persona:
 
 ## Qué hacer si ha pasado el plazo para verificar su identidad de manera presencial
 
-Si recibió un correo electrónico en el que se le informa de que el plazo para verificar su identidad expiró, intente verificar su identidad en línea de nuevo.
+Si recibió un correo electrónico en el que se le informa de que el plazo para verificar su identidad expiró, intente [verificar su identidad en línea de nuevo](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/).
 
 Cancelamos automáticamente las solicitudes al cabo de 30 días para proteger los datos personales de los solicitantes. Cuando vuelva a iniciar el proceso para verificar su identidad presencialmente, obtendrá un nuevo plazo.
 
