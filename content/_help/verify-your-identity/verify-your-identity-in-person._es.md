@@ -31,7 +31,7 @@ Lleve el mismo documento de identidad que utilizó en Login.gov. Su identificaci
 
 * Licencia de conducir de los 50 estados, del Distrito de Columbia (DC) y de otros territorios de Estados Unidos (Guam, Islas Vírgenes de Estados Unidos, Islas Marianas y Puerto Rico)
 * Una identificación emitida por el estado que no sea una licencia de conducir
-* * Se trata de un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de EE.UU. que confirme la identidad, pero no otorga privilegios de conducción.
+  * Se trata de un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de EE.UU. que confirme la identidad, pero no otorga privilegios de conducción.
 
 Actualmente no aceptamos otras formas de identificación, como pasaportes o carnés militares. No podrá verificar su identidad en la oficina de correos sin un documento de identidad emitido por el estado. Actualmente estamos trabajando para añadir más formas de verificar su identidad.
 

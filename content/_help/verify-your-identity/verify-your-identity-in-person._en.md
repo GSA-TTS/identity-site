@@ -32,7 +32,7 @@ Bring the same ID you used on Login.gov. Your ID must not be expired. At this ti
 
 * Driver’s license from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
 * A non-driver’s license state-issued ID card
-* * This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
+  * This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
 
 We do not currently accept any other forms of identification, such as passports and military IDs. You cannot verify your identity at the Post Office without a state-issued ID. We’re currently working to add more ways to verify your identity.
 
