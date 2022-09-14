@@ -1,7 +1,7 @@
 ---
 title: Verificación de identidad en persona
 category: verify-your-identity
-permalink: /es/help/verify-your-identity/verify-your-identity-in-person
+permalink: /es/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
 # Verificación de identidad en persona
