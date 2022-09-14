@@ -101,12 +101,11 @@ Si vous avez rencontré un problème en essayant de vérifier votre identité en
 
 Si vous avez reçu un courriel vous informant que vous êtes prêt à vérifier votre identité ou que votre identité n’a pas pu être vérifiée en personne, et que vous n’avez pas tenté cette action: 
 
-
-Connectez-vous et changez votre mot de passe immédiatement. Si vous le souhaitez, vous pouvez également supprimer votre compte.
+[Connectez-vous](https://secure.login.gov/) et [changez votre mot de passe immédiatement](https://login.gov/help/manage-your-account/change-your-password/). Si vous le souhaitez, vous pouvez également [supprimer votre compte](https://login.gov/help/manage-your-account/delete-your-account/).
 
 ## Ce qu’il faut faire si vous n’avez pas pu vérifier votre identité en personne
 
-Si vous ne parvenez pas à vérifier votre identité en personne, vous pouvez réessayer de vérifier votre identité en ligne ou contacter l’agence à laquelle vous essayez d’accéder pour obtenir de l’aide sur des questions spécifiques relatives la vérification de votre identité.
+Si vous ne parvenez pas à vérifier votre identité en personne, vous pouvez réessayer de [vérifier votre identité en ligne](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/) ou contacter l’agence à laquelle vous essayez d’accéder [pour obtenir de l’aide sur des questions spécifiques](https://login.gov/help/specific-agencies/overview/) relatives la vérification de votre identité.
 
 ### Conseils pour vérifier votre identité en personne: 
 
@@ -121,7 +120,7 @@ Apportez un justificatif de domicile valide si votre adresse actuelle est diffé
 
 ## Ce qu’il faut faire si le délai pour vérifier votre identité en personne est passé
 
-Si vous avez reçu un courriel vous informant que le délai de vérification de votre identité est expiré, essayez à nouveau de vérifier votre identité en ligne. 
+Si vous avez reçu un courriel vous informant que le délai de vérification de votre identité est expiré, essayez [à nouveau de vérifier votre identité en ligne](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/). 
 
 Nous annulons automatiquement les demandes après 30 jours afin de protéger les données personnelles des demandeurs. Lorsque vous relancerez le processus de vérification de votre identité en personne, vous recevrez une nouvelle date limite.
 
