@@ -52,12 +52,9 @@ Vous pouvez apporter une copie physique ou montrer une copie numérique du docum
 
 Vous pouvez vous rendre dans l'un des bureaux de poste suivants. Vous n'avez pas besoin de vous rendre à l'emplacement que vous avez sélectionné sur Login.gov. 
 
-1. BALTIMORE — Post Office™
-
-900 E FAYETTE ST RM 118
-
-BALTIMORE, MD 21233-9715
-
+1. BALTIMORE — Post Office™\
+   900 E FAYETTE ST RM 118\
+   BALTIMORE, MD 21233-9715
 2. BETHESDA — Post Office™\
    6900 WISCONSIN AVE STE 100\
    CHEVY CHASE, MD 20815-9996
@@ -72,11 +69,10 @@ BALTIMORE, MD 21233-9715
    ARLINGTON, VA 22201-9998
 6. ASHBURN — Post Office™\
    44715 PRENTICE DR\
-   DULLES, VA 20101-9996
-
-**MERRIFIELD — Post Office™\
-8409 LEE HWY\
-MERRIFIELD, VA 22116-9998**
+   DULLES, VA 20101-9996\*\*
+7. MERRIFIELD — Post Office™\
+   8409 LEE HWY\
+   MERRIFIELD, VA 22116-9998\*\*
 
 ### Vous pouvez parler à n'importe quel associé du magasin pour vérifier votre identité
 
@@ -95,60 +91,4 @@ Si la vérification de votre identité n'a pas abouti, vous pouvez :
 Si vous ne recevez pas de courriel de notre part, il y a quelques étapes que vous pouvez suivre :
 
 * Vérifiez dans le dossier de pourriels ou de courriers indésirables de votre courriel s'il y a un courriel de [no-reply@login.gov](mailto:no-reply@login.gov).
-* Si vous n'avez pas eu de nouvelles après 24 heures de votre visite au bureau de poste, veuillez contacter le service clientèle de Login.gov sur le site login.gov/contact. 
-
-### Articles connexes
-
-[Pièces d'identité délivrées par l'État acceptées](https://login.gov/help/verify-your-identity/accepted-state-issued-identification/)
-
-[Problèmes de téléchargement de votre pièce d'identité délivrée par l'État](https://login.gov/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
-
-[Vérifier votre identité en ligne](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/)
-
-- - -
-
-## J’ai reçu un courriel, mais je n’ai pas essayé de vérifier mon identité en personne
-
-Si vous avez reçu un courriel vous informant que vous êtes prêt à vérifier votre identité ou que votre identité n’a pas pu être vérifiée en personne, et que vous n’avez pas tenté cette action: 
-
-\
-Connectez-vous et changez votre mot de passe immédiatement. Si vous le souhaitez, vous pouvez également supprimer votre compte.
-
-### Articles connexes
-
-[Changez votre mot de passe](https://login.gov/help/manage-your-account/change-your-password/)
-
-[Supprimer votre compte](https://login.gov/help/manage-your-account/delete-your-account/)
-
-[Pratiques de confidentialité et sécurité](https://www.login.gov/policy/)
-
-
-
-- - -
-
-## Je n’ai pas réussi à vérifier mon identité en personne
-
-Si vous ne parvenez pas à vérifier votre identité en personne, vous pouvez réessayer de vérifier votre identité en ligne ou contacter l’agence à laquelle vous essayez d’accéder pour obtenir de l’aide sur des questions spécifiques relatives la vérification de votre identité.
-
-### Conseils pour vérifier votre identité en personne: 
-
-Votre pièce d’identité ou votre permis de conduire délivré par l’État doit être en cours de validité. Nous n’acceptons actuellement aucune autre forme d’identification.
-
-Apportez un justificatif de domicile valide si votre adresse actuelle est différente de celle qui figure sur votre pièce d’identité. Pour vérifier votre adresse actuelle, vous pouvez apporter votre:
-
-* Bail, hypothèque ou acte de fiducie
-*  Inscription sur les listes électorales
-*  Carte d’immatriculation de véhicule
-*  Police d’assurance habitation ou automobile
-
-### Artículos relacionados
-
-[Aide pour des agences spécifiques](https://login.gov/help/specific-agencies/overview/)[Pièces d’identité acceptées, délivrées par l’État](https://login.gov/help/verify-your-identity/accepted-state-issued-identification/)[Problèmes lors du téléversement de votre pièce d’identité délivrée par l’État](https://login.gov/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)[Vérifier votre identité en ligne](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/)
-
-- - -
-
-## Le délai pour vérifier mon identité en personne est expiré
-
-Si vous avez reçu un courriel vous informant que le délai de vérification de votre identité est expiré, essayez à nouveau de vérifier votre identité en ligne. 
-
-Nous annulons automatiquement les demandes après 30 jours afin de protéger les données personnelles des demandeurs. Lorsque vous relancerez le processus de vérification de votre identité en personne, vous recevrez une nouvelle date limite.
+* Si vous n'avez pas eu de nouvelles après 24 heures de votre visite au bureau de poste, veuillez contacter le service clientèle de Login.gov sur le site login.gov/contact.
