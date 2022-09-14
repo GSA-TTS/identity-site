@@ -69,10 +69,10 @@ Vous pouvez vous rendre dans l'un des bureaux de poste suivants. Vous n'avez pas
    ARLINGTON, VA 22201-9998
 6. ASHBURN — Post Office™\
    44715 PRENTICE DR\
-   DULLES, VA 20101-9996\*\*
+   DULLES, VA 20101-9996
 7. MERRIFIELD — Post Office™\
    8409 LEE HWY\
-   MERRIFIELD, VA 22116-9998\*\*
+   MERRIFIELD, VA 22116-9998
 
 ### Vous pouvez parler à n'importe quel associé du magasin pour vérifier votre identité
 

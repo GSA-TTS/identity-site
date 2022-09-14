@@ -14,7 +14,7 @@ Please have the following information ready to enter on Login.gov:
 1. Your State-Issued ID. [Don’t have a state issued ID?](https://login.gov/help/verify-your-identity/accepted-state-issued-identification/)
 2. Social Security Number
 3. A phone number on a phone plan that is in your name
-   a.  If you do not have a phone plan that is in your name, we can send you the verification code by mail which takes approximately 3-5 days.
+   a. If you do not have a phone plan that is in your name, we can send you the verification code by mail which takes approximately 3-5 days.
 
 If you’re unable to complete any of these steps, please contact the partner agency’s help center for support.   
 
@@ -54,26 +54,26 @@ You can bring a physical copy or show a digital copy of the document. You cannot
 
 You can visit any of the following Post Office locations. You do not need to visit the location you selected on Login.gov. 
 
-1. BALTIMORE — Post Office™\
-   900 E FAYETTE ST RM 118\
+1. BALTIMORE — Post Office™
+   900 E FAYETTE ST RM 118
    BALTIMORE, MD 21233-9715
-2. BETHESDA — Post Office™\
-   6900 WISCONSIN AVE STE 100\
+2. BETHESDA — Post Office™
+   6900 WISCONSIN AVE STE 100
    CHEVY CHASE, MD 20815-9996
-3. FRIENDSHIP — Post Office™\
-   4005 WISCONSIN AVE NW\
+3. FRIENDSHIP — Post Office™
+   4005 WISCONSIN AVE NW
    WASHINGTON, DC 20016-9997
-4. WASHINGTON — Post Office™\
-   900 BRENTWOOD RD NE\
+4. WASHINGTON — Post Office™
+   900 BRENTWOOD RD NE
    WASHINGTON, DC 20018-9997
-5. ARLINGTON — Post Office™\
-   3118 WASHINGTON BLVD\
+5. ARLINGTON — Post Office™
+   3118 WASHINGTON BLVD
    ARLINGTON, VA 22201-9998
-6. ASHBURN — Post Office™\
-   44715 PRENTICE DR\
+6. ASHBURN — Post Office™
+   44715 PRENTICE DR
    DULLES, VA 20101-9996
-7. MERRIFIELD — Post Office™\
-   8409 LEE HWY\
+7. MERRIFIELD — Post Office™
+   8409 LEE HWY
    MERRIFIELD, VA 22116-9998
 
 ### You can speak with any retail associate to verify your identity
