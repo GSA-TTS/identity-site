@@ -28,21 +28,47 @@ contact_page:
     other: Other
     help_text: Please allow 2 business days for a response. Thank you for your patience.
     agencies:
+      'Central Intelligence Agency': Central Intelligence Agency
+      'Consumer Financial Protection Bureau': Consumer Financial Protection Bureau
       'Customs and Border Protection Jobs': Customs and Border Protection Jobs
       'Customs and Border Protection ROAM': Customs and Border Protection ROAM
+      'Department of Commerce': Department of Commerce
+      'Department of Defense': Department of Defense
+      'Department of Energy': Department of Energy
+      'Department of the Interior': Department of the Interior
+      'Department of Labor': Department of Labor
+      'Department of Transportation': Department of Transportation
+      'Department of the Treasury': Department of the Treasury 
       'Department of Veterans Affairs': Department of Veterans Affairs
+      'DOI ePermits': DOI ePermits
       'DOD Moves.mil (Homes or Office)': DOD Move.mil (Homes or Office)
+      'DOL Foreign Labor Application Gateway (FLAG)': DOL Foreign Labor Application Gateway (FLAG)
+      'DOT Delphi eInvoicing': DOT Delphi eInvoicing
       'DOT FMCSA (Motor Carrier Safety)': DOT FMCSA (Motor Carrier Safety)
       'DOT National Registry of Certified Medical Examiners': DOT National Registry of Certified Medical Examiners
+      'Environmental Protection Agency': Environmental Protection Agency
       'FDIC Resolution Request Management Portal': FDIC Resolution Request Management Portal
+      'General Services Administration': General Services Administration
       'GSA Sam.gov': GSA SAM.gov
+      'Health and Human Services': Health and Human Services
+      'HHS Grants.gov': HHS Grants.gov
+      'HHS National Institutes of Health (NIH)': HHS National Institues of Health (NIH)
+      'Housing and Urban Development': Housing and Urban Development 
+      'Library of Congress': Library of Congress
+      'National Aeronautics and Space Administration': National Aeronautics and Space Administration
+      'National Labor Relations Board': National Labor Relations Board
       'OPM Employee Express': OPM Employee Express
       'OPM Services Online': 'OPM Services Online'
       'PBGC-MyPBA': 'PBGC - MyPBA'
+      'Peace Corps': Peace Corps
       'Railroad Retirement Board': Railroad Retirement Board
       'SBA DLAP': SBA DLAP
+      'Securities and Exchange Commission': Securities and Exchange Commission
       'Social Security Administration (SSA)': Social Security Administration (SSA)
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Trusted Traveler Programs (Global Entry/Nexus/Sentri)
+      'United States Forest Service': United States Forest Services
+      'U.S. Agency for International Development': U.S. Agency for International Development
+      'U.S. Department of Agriculture': U.S. Department of Agriculture
       'USAJOBS': USAJOBS
     errors:
       pii_found: For your privacy, do not submit sensitive information to this form. Our customer support agents can still assist you without this information.
