@@ -107,7 +107,7 @@ If you received an email informing you that you are ready to verify your identit
 
 ## What to do if you were unable to successfully verify your identity in person
 
-If you are unable to successfully verify your identity in person, you can try to [verify your identity online](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/) again, or you can contact the agency you are trying to access for [help with specific questions](https://login.gov/help/specific-agencies/overview/) about verifying your identity.
+If you are unable to successfully verify your identity in person, you can try to [verify your identity online](/help/verify-your-identity/how-to-verify-your-identity/) again, or you can contact the agency you are trying to access for [help with specific questions](/help/specific-agencies/overview/) about verifying your identity.
 
 Tips for verifying your identity in person: 
 
