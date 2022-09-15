@@ -101,7 +101,7 @@ Si vous avez rencontré un problème en essayant de vérifier votre identité en
 
 Si vous avez reçu un courriel vous informant que vous êtes prêt à vérifier votre identité ou que votre identité n’a pas pu être vérifiée en personne, et que vous n’avez pas tenté cette action: 
 
-[Connectez-vous](https://secure.login.gov/) et [changez votre mot de passe immédiatement](https://login.gov/help/manage-your-account/change-your-password/). Si vous le souhaitez, vous pouvez également [supprimer votre compte](https://login.gov/help/manage-your-account/delete-your-account/).
+[Connectez-vous](https://secure.login.gov/fr/) et [changez votre mot de passe immédiatement](/fr/help/manage-your-account/change-your-password/). Si vous le souhaitez, vous pouvez également [supprimer votre compte](/fr/help/manage-your-account/delete-your-account/).
 
 ## Ce qu’il faut faire si vous n’avez pas pu vérifier votre identité en personne
 
