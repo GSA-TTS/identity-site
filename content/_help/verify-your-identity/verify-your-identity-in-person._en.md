@@ -5,7 +5,7 @@ category: verify-your-identity
 permalink: /help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-If you are unable to successfully upload your ID on Login.gov, you may be able to verify in person with our partners at the United States Postal Service (USPS). At this time, we’re only offering this option at [select USPS locations in the Washington D.C. area](https://docs.google.com/document/d/1B0f3rTeFghm1RDu4oy7RUItlTJZABg38IxjWLGaQ35g/edit#heading=h.82q7b95pjgex) and for certain partner agencies.
+If you are unable to successfully upload your ID on Login.gov, you may be able to verify in person with our partners at the United States Postal Service (USPS). At this time, we’re only offering this option at [select USPS locations in the Washington D.C. area](#available-locations-in-the-washington-dc-area) and for certain partner agencies.
 
 ## Start this process on Login.gov before going to the Post Office 
 
