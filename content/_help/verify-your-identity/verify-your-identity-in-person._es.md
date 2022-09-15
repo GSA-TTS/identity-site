@@ -10,7 +10,7 @@ Si no puede cargar su identificación correctamente en Login.gov es posible que 
 
 Tenga preparada la siguiente información para ingresarla en Login.gov:
 
-1. Su documento de identidad emitido por su estado. [¿No tiene un documento de identidad estatal?](https://login.gov/es/help/verify-your-identity/accepted-state-issued-identification/)
+1. Su documento de identidad emitido por su estado. [¿No tiene un documento de identidad estatal?](/es/help/verify-your-identity/accepted-state-issued-identification/)
 2. Número de Seguridad Social.
 3. Un número de teléfono con un plan de telefonía que esté a su nombre.
    a.  Si no tiene un plan de telefonía que esté a su nombre, podemos enviarle el código de verificación por correo, lo cual tarda aproximadamente de 3 a 5 días.
