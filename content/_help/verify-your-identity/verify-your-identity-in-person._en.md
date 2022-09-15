@@ -125,7 +125,7 @@ If you received an email informing you that the deadline to verify your identity
 
 We automatically cancel requests after 30 days in order to protect applicants’ personal data. When you restart the process to verify your identity in person, you will receive a new deadline. 
 
-### Related Articles
+## Related Articles
 
 [Help with specific agencies](/help/specific-agencies/overview/)
 

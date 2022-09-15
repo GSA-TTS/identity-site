@@ -124,7 +124,7 @@ Si recibió un correo electrónico en el que se le informa de que el plazo para 
 
 Cancelamos automáticamente las solicitudes al cabo de 30 días para proteger los datos personales de los solicitantes. Cuando vuelva a iniciar el proceso para verificar su identidad presencialmente, obtendrá un nuevo plazo.
 
-### Artículos relacionados
+## Artículos relacionados
 
 [Ayuda con agencias específicas](/es/help/specific-agencies/overview/)
 
