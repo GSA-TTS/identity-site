@@ -126,10 +126,10 @@ Cancelamos automáticamente las solicitudes al cabo de 30 días para proteger lo
 
 ### Artículos relacionados
 
-[Ayuda con agencias específicas](https://login.gov/help/specific-agencies/overview/)
+[Ayuda con agencias específicas](/es/help/specific-agencies/overview/)
 
-[Identificación aceptada emitida por el gobierno estatal](https://login.gov/help/verify-your-identity/accepted-state-issued-identification/)
+[Identificación aceptada emitida por el gobierno estatal](/es/help/verify-your-identity/accepted-state-issued-identification/)
 
-[Solución de problemas al cargar tu identificación emitida por el gobierno estatal](https://login.gov/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
+[Solución de problemas al cargar tu identificación emitida por el gobierno estatal](/es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
 
-[Verifica tu identidad en línea](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/)
+[Verifica tu identidad en línea](/es/help/verify-your-identity/how-to-verify-your-identity/)
