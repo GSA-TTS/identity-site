@@ -4,7 +4,7 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-Si no puede cargar su identificación correctamente en Login.gov es posible que pueda verificarla en persona con nuestros socios del Servicio Postal de los Estados Unidos (USPS). Por el momento, solo ofrecemos esta opción en [algunas oficinas del USPS en el área de Washington D.C.](https://docs.google.com/document/d/1iSL2XGACZnLzz58kUzN_iOrJJZKZhXJt/edit#heading=h.1t3h5sf) y para ciertas agencias asociadas.
+Si no puede cargar su identificación correctamente en Login.gov es posible que pueda verificarla en persona con nuestros socios del Servicio Postal de los Estados Unidos (USPS). Por el momento, solo ofrecemos esta opción en [algunas oficinas del USPS en el área de Washington D.C.](#ubicaciones-disponibles-en-el-área-de-washington-dc) y para ciertas agencias asociadas.
 
 ## Inicie este proceso en Login.gov antes de ir a la oficina de correos 
 
