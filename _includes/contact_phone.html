@@ -1,6 +1,83 @@
-<h3 id="call-us">{{ site.data.[page.lang].settings.contact_page.call_us.title }}</h3>
-<p>
-  {{ site.contact_phone_number }}
-  <br />
-  {{ site.data.[page.lang].settings.contact_page.operating_hours }}
-</p>
+<script>
+  {% comment %}
+    Here, we're rolling the dice to determine if we show a user the phone
+    number. This gives us the ability to release the phone number slowly
+    to a limited set of people over a longer experiment. If a user has
+    seen the phone number, this code saves that into local storage,
+    and shows that user the phone number throughout the duration of their
+    visit to the site – and in subsequent visits (if the phone number
+    is turned on). That keeps each user's experience as consistent as possible.
+
+    It also means that the percent of users who see the phone number may
+    be higher than the show_to_percent (because of repeat visitors having
+    a higher chance of seeing the phone number over time). Therefore, to
+    capture accurate metrics we're logging how many people actually see the
+    phone number as a virtual pageview in google analytics.
+  {% endcomment %}
+  /**
+   *
+   *  We are rolling the customer support phone number out slowly – and to
+   *  a limited set of users – in order to ease our call center into handling
+   *  a larger volume of calls, and to ensure our processes and procedures
+   *  create the best possible experience for you. Thank you for your patience.
+   *
+   */
+
+  function getRandomBetween(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+
+  function shouldShowPhoneNumberRandomly() {
+
+    const showToPercent = {{ site.contact_phone_show_to_percent }};
+    const random = getRandomBetween(1, 100);
+
+    return (random <= showToPercent);
+  }
+
+  function showPhoneNumberWhenAppropriate() {
+
+    const phoneKey = 'has_shown_phone_number';
+
+    try {
+
+      const storage = localStorage;
+
+      const shouldShowPhoneNumber = shouldShowPhoneNumberRandomly();
+      const hasShownPhoneNumber = storage.getItem(phoneKey) === 'true';
+      const phoneNumber = '{{ site.contact_phone_number }}'
+
+      if (shouldShowPhoneNumber || hasShownPhoneNumber) {
+
+        storage.setItem(phoneKey, 'true');
+        ga('send', 'pageview', '/contact/phone-number/');
+
+      } else {
+
+        document.getElementById("call-us").remove();
+      }
+
+    } catch (error) { // don't show phone number if we encounter an issue (e.g. local storage is disabled)
+
+      document.getElementById("call-us").remove();
+    }
+  }
+
+  if (document.readyState === 'loading') {
+
+    document.addEventListener('DOMContentLoaded', showPhoneNumberWhenAppropriate);
+
+  } else {
+
+    showPhoneNumberWhenAppropriate();
+  }
+</script>
+
+<div id="call-us" class="page-content__subsection">
+  <h3>{{ site.data.[page.lang].settings.contact_page.call_us.title }}</h3>
+  <p>
+    {{ site.contact_phone_number }}
+    <br />
+    {{ site.data.[page.lang].settings.contact_page.operating_hours }}
+  </p>
+</div>

@@ -16,9 +16,13 @@ contact_form_captcha_enabled: true
 contact_form_action: 'https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8'
 contact_form_orgid: '00DU0000000Leux'
 
-# Contact page phone number enabled
+# Contact page phone number enabled (overridden in Federalist)
+# To turn the phone number on, set enabled to true and show_to_percent to
+# a value greater than 0. The phone number will be shown to that percent
+# of contact page visitors.
 contact_phone_number_enabled: false
 contact_phone_number: ''
+contact_phone_show_to_percent: 0
 
 # Partnership contact form production values
 partnership_contact_portal_id: '5531666'
