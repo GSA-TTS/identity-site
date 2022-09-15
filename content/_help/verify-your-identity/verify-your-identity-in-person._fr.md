@@ -105,7 +105,7 @@ Si vous avez reçu un courriel vous informant que vous êtes prêt à vérifier 
 
 ## Ce qu’il faut faire si vous n’avez pas pu vérifier votre identité en personne
 
-Si vous ne parvenez pas à vérifier votre identité en personne, vous pouvez réessayer de [vérifier votre identité en ligne](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/) ou contacter l’agence à laquelle vous essayez d’accéder [pour obtenir de l’aide sur des questions spécifiques](https://login.gov/help/specific-agencies/overview/) relatives la vérification de votre identité.
+Si vous ne parvenez pas à vérifier votre identité en personne, vous pouvez réessayer de [vérifier votre identité en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/) ou contacter l’agence à laquelle vous essayez d’accéder [pour obtenir de l’aide sur des questions spécifiques](/fr/help/specific-agencies/overview/) relatives la vérification de votre identité.
 
 ### Conseils pour vérifier votre identité en personne: 
 
