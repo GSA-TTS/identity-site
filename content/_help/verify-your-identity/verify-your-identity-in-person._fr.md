@@ -52,26 +52,26 @@ Vous pouvez apporter une copie physique ou montrer une copie numérique du docum
 
 Vous pouvez vous rendre dans l'un des bureaux de poste suivants. Vous n'avez pas besoin de vous rendre à l'emplacement que vous avez sélectionné sur Login.gov. 
 
-1. BALTIMORE — Post Office™\
-   900 E FAYETTE ST RM 118\
+1. **BALTIMORE — Post Office™**
+   900 E FAYETTE ST RM 118
    BALTIMORE, MD 21233-9715
-2. BETHESDA — Post Office™\
-   6900 WISCONSIN AVE STE 100\
+2. **BETHESDA — Post Office™**
+   6900 WISCONSIN AVE STE 100
    CHEVY CHASE, MD 20815-9996
-3. FRIENDSHIP — Post Office™\
-   4005 WISCONSIN AVE NW\
+3. **FRIENDSHIP — Post Office™**
+   4005 WISCONSIN AVE NW
    WASHINGTON, D. C. 20016-9997
-4. WASHINGTON — Post Office™\
-   900 BRENTWOOD RD NE\
+4. **WASHINGTON — Post Office™**
+   900 BRENTWOOD RD NE
    WASHINGTON, D. C. 20018-9997
-5. ARLINGTON — Post Office™\
-   3118 WASHINGTON BLVD\
+5. **ARLINGTON — Post Office™**
+   3118 WASHINGTON BLVD
    ARLINGTON, VA 22201-9998
-6. ASHBURN — Post Office™\
-   44715 PRENTICE DR\
+6. **ASHBURN — Post Office™**
+   44715 PRENTICE DR
    DULLES, VA 20101-9996
-7. MERRIFIELD — Post Office™\
-   8409 LEE HWY\
+7. **MERRIFIELD — Post Office™**
+   8409 LEE HWY
    MERRIFIELD, VA 22116-9998
 
 ### Vous pouvez parler à n'importe quel associé du magasin pour vérifier votre identité
