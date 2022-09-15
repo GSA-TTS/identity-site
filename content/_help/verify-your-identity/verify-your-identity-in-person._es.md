@@ -102,7 +102,7 @@ Si se ha encontrado con un problema al intentar verificar su identidad de manera
 
 Si recibió un correo electrónico en el que se le informa de que está listo para verificar su identidad o que su identidad no pudo ser verificada en persona, y no intentó esta acción: 
 
-[Inicie sesión](https://secure.login.gov/) y [cambie su contraseña inmediatamente](https://login.gov/help/manage-your-account/change-your-password/). Si lo desea, también puede [eliminar su cuenta](https://login.gov/help/manage-your-account/delete-your-account/).
+[Inicie sesión](https://secure.login.gov/es/) y [cambie su contraseña inmediatamente](/es/help/manage-your-account/change-your-password/). Si lo desea, también puede [eliminar su cuenta](/es/help/manage-your-account/delete-your-account/).
 
 ## Qué hacer si no ha podido verificar su identidad de manera presencial
 
