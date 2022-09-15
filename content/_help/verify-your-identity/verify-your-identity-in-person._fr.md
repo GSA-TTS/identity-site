@@ -93,32 +93,31 @@ Si vous ne recevez pas de courriel de notre part, il y a quelques étapes que vo
 * Vérifiez dans le dossier de pourriels ou de courriers indésirables de votre courriel s'il y a un courriel de [no-reply@login.gov](mailto:no-reply@login.gov).
 * Si vous n'avez pas eu de nouvelles après 24 heures de votre visite au bureau de poste, veuillez contacter le service clientèle de Login.gov sur le site login.gov/contact.
 
-# Résolution des problèmes liés à la vérification de votre identité en personne
+## Résolution des problèmes liés à la vérification de votre identité en personne
 
 Si vous avez rencontré un problème en essayant de vérifier votre identité en personne, nous aimerions vous aider à le résoudre. Voici quelques conseils pour résoudre le problème. 
 
-## Ce qu’il faut faire si vous avez reçu un courriel, mais que vous n’avez pas essayé de vérifier votre identité en personne
+### Ce qu’il faut faire si vous avez reçu un courriel, mais que vous n’avez pas essayé de vérifier votre identité en personne
 
 Si vous avez reçu un courriel vous informant que vous êtes prêt à vérifier votre identité ou que votre identité n’a pas pu être vérifiée en personne, et que vous n’avez pas tenté cette action: 
 
 [Connectez-vous](https://secure.login.gov/fr/) et [changez votre mot de passe immédiatement](/fr/help/manage-your-account/change-your-password/). Si vous le souhaitez, vous pouvez également [supprimer votre compte](/fr/help/manage-your-account/delete-your-account/).
 
-## Ce qu’il faut faire si vous n’avez pas pu vérifier votre identité en personne
+### Ce qu’il faut faire si vous n’avez pas pu vérifier votre identité en personne
 
 Si vous ne parvenez pas à vérifier votre identité en personne, vous pouvez réessayer de [vérifier votre identité en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/) ou contacter l’agence à laquelle vous essayez d’accéder [pour obtenir de l’aide sur des questions spécifiques](/fr/help/specific-agencies/overview/) relatives la vérification de votre identité.
 
-### Conseils pour vérifier votre identité en personne: 
+Conseils pour vérifier votre identité en personne: 
 
-Votre pièce d’identité ou votre permis de conduire délivré par l’État doit être en cours de validité. Nous n’acceptons actuellement aucune autre forme d’identification.
+* Votre pièce d’identité ou votre permis de conduire délivré par l’État doit être en cours de validité. Nous n’acceptons actuellement aucune autre forme d’identification.
+* Apportez un justificatif de domicile valide si votre adresse actuelle est différente de celle qui figure sur votre pièce d’identité. Pour vérifier votre adresse actuelle, vous pouvez apporter votre:
 
-Apportez un justificatif de domicile valide si votre adresse actuelle est différente de celle qui figure sur votre pièce d’identité. Pour vérifier votre adresse actuelle, vous pouvez apporter votre:
+  * Bail, hypothèque ou acte de fiducie
+  * Inscription sur les listes électorales
+  * Carte d’immatriculation de véhicule
+  * Police d’assurance habitation ou automobile
 
-* Bail, hypothèque ou acte de fiducie
-* Inscription sur les listes électorales
-* Carte d’immatriculation de véhicule
-* Police d’assurance habitation ou automobile
-
-## Ce qu’il faut faire si le délai pour vérifier votre identité en personne est passé
+### Ce qu’il faut faire si le délai pour vérifier votre identité en personne est passé
 
 Si vous avez reçu un courriel vous informant que le délai de vérification de votre identité est expiré, essayez [à nouveau de vérifier votre identité en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/). 
 

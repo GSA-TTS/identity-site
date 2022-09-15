@@ -94,17 +94,17 @@ Si no recibe un correo electrónico de nuestra parte, hay algunos pasos que pued
 * Busque en la carpeta de correo no deseado o basura un mensaje de [no-reply@login.gov](mailto:no-reply@login.gov).
 * Si no recibe ningún mensaje de nuestra parte transcurridas 24 horas desde su visita a la oficina de correos, póngase en contacto con el servicio de atención al cliente de Login.gov en login.gov/contact.
 
-# Solucionar problemas para verificar su identidad en persona
+## Solucionar problemas para verificar su identidad en persona
 
 Si se ha encontrado con un problema al intentar verificar su identidad de manera presencial, nos gustaría ayudarle a resolverlo. Aquí encontrará algunos consejos para solucionar el proceso.
 
-## Qué hacer si ha recibido un correo electrónico, pero no ha intentado verificar su identidad de manera presencial
+### Qué hacer si ha recibido un correo electrónico, pero no ha intentado verificar su identidad de manera presencial
 
 Si recibió un correo electrónico en el que se le informa de que está listo para verificar su identidad o que su identidad no pudo ser verificada en persona, y no intentó esta acción: 
 
 [Inicie sesión](https://secure.login.gov/es/) y [cambie su contraseña inmediatamente](/es/help/manage-your-account/change-your-password/). Si lo desea, también puede [eliminar su cuenta](/es/help/manage-your-account/delete-your-account/).
 
-## Qué hacer si no ha podido verificar su identidad de manera presencial
+### Qué hacer si no ha podido verificar su identidad de manera presencial
 
 Si no puedes verificar tu identidad en persona, puedes [intentarlo otra vez en línea](/es/help/verify-your-identity/how-to-verify-your-identity/), o puedes comunicarte con la agencia a la que intentas acceder para [obtener ayuda con preguntas específicas](/es/help/specific-agencies/overview/) sobre la verificación de tu identidad.
 
@@ -118,7 +118,7 @@ Consejos para verificar tu identidad en persona:
   * Tarjeta de registro vehicular.
   * Póliza de seguro de casa o automóvil.
 
-## Qué hacer si ha pasado el plazo para verificar su identidad de manera presencial
+### Qué hacer si ha pasado el plazo para verificar su identidad de manera presencial
 
 Si recibió un correo electrónico en el que se le informa de que el plazo para verificar su identidad expiró, intente [verificar su identidad en línea de nuevo](/es/help/verify-your-identity/how-to-verify-your-identity/).
 
