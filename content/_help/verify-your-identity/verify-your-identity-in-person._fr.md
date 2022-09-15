@@ -120,7 +120,7 @@ Apportez un justificatif de domicile valide si votre adresse actuelle est diffé
 
 ## Ce qu’il faut faire si le délai pour vérifier votre identité en personne est passé
 
-Si vous avez reçu un courriel vous informant que le délai de vérification de votre identité est expiré, essayez [à nouveau de vérifier votre identité en ligne](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/). 
+Si vous avez reçu un courriel vous informant que le délai de vérification de votre identité est expiré, essayez [à nouveau de vérifier votre identité en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/). 
 
 Nous annulons automatiquement les demandes après 30 jours afin de protéger les données personnelles des demandeurs. Lorsque vous relancerez le processus de vérification de votre identité en personne, vous recevrez une nouvelle date limite.
 
