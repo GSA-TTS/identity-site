@@ -103,7 +103,7 @@ If you’ve encountered an issue while trying to verify your identity in person 
 
 If you received an email informing you that you are ready to verify your identity or your identity could not be verified in person, and you did not attempt this action: 
 
-[Sign in](https://secure.login.gov/) and [change your password immediately](https://login.gov/help/manage-your-account/change-your-password/). If you’d like, you can also [delete your account](https://login.gov/help/manage-your-account/delete-your-account/). 
+[Sign in](https://secure.login.gov/) and [change your password immediately](/help/manage-your-account/change-your-password/). If you’d like, you can also [delete your account](/help/manage-your-account/delete-your-account/). 
 
 ## What to do if you were unable to successfully verify your identity in person
 
