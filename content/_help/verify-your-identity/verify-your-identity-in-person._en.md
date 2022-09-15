@@ -127,10 +127,10 @@ We automatically cancel requests after 30 days in order to protect applicants’
 
 ### Related Articles
 
-[Help with specific agencies](https://login.gov/help/specific-agencies/overview/)
+[Help with specific agencies](/help/specific-agencies/overview/)
 
-[Accepted State-Issued Identification](https://login.gov/help/verify-your-identity/accepted-state-issued-identification/)
+[Accepted State-Issued Identification](/help/verify-your-identity/accepted-state-issued-identification/)
 
-[Troubleshoot uploading your state-issued ID](https://login.gov/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
+[Troubleshoot uploading your state-issued ID](/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
 
-[Verify your identity online](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/)
+[Verify your identity online](/help/verify-your-identity/how-to-verify-your-identity/)
