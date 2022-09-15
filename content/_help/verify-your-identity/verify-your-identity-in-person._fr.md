@@ -123,7 +123,7 @@ Si vous avez reçu un courriel vous informant que le délai de vérification de 
 
 Nous annulons automatiquement les demandes après 30 jours afin de protéger les données personnelles des demandeurs. Lorsque vous relancerez le processus de vérification de votre identité en personne, vous recevrez une nouvelle date limite.
 
-### Artículos relacionados
+## Artículos relacionados
 
 [Aide pour des agences spécifiques](/fr/help/specific-agencies/overview/)
 
