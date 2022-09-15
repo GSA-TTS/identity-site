@@ -106,7 +106,7 @@ Si recibió un correo electrónico en el que se le informa de que está listo pa
 
 ## Qué hacer si no ha podido verificar su identidad de manera presencial
 
-Si no puedes verificar tu identidad en persona, puedes [intentarlo otra vez en línea](https://login.gov/help/verify-your-identity/how-to-verify-your-identity/), o puedes comunicarte con la agencia a la que intentas acceder para [obtener ayuda con preguntas específicas](https://login.gov/help/specific-agencies/overview/) sobre la verificación de tu identidad.
+Si no puedes verificar tu identidad en persona, puedes [intentarlo otra vez en línea](/es/help/verify-your-identity/how-to-verify-your-identity/), o puedes comunicarte con la agencia a la que intentas acceder para [obtener ayuda con preguntas específicas](/es/help/specific-agencies/overview/) sobre la verificación de tu identidad.
 
 Consejos para verificar tu identidad en persona:
 
