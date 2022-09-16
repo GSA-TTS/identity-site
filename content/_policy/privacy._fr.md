@@ -58,7 +58,7 @@ Lorsque vous créez un compte ou visitez un nouveau site Web d'agence partenaire
 
 N'oubliez pas que vous pouvez révoquer votre consentement à tout moment via [votre page de compte](https://secure.login.gov/account) ou supprimer entièrement votre compte sur la même page.
 
-### Atténuation de la fraude - comment arrêter les acteurs malveillants? ### {#fraud}**
+### Atténuation de la fraude - comment arrêter les acteurs malveillants? ### {#fraud}
 
 La fraude consiste en une personne se faisant passer pour vous et tentant d'accéder à une agence partenaire en utilisant vos informations Login.gov. Login.gov protège vos données des acteurs malveillants. Notre produit fonctionne avec des fournisseurs tiers de confiance pour s'assurer que c'est bien vous, et non quelqu'un se faisant passer pour vous, qui accédez à votre compte. Ces fournisseurs recherchent les changements et les risques dans le comportement des utilisateurs qui pourraient indiquer une tentative de fraude.
 

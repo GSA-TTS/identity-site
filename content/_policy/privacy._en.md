@@ -59,7 +59,7 @@ When you create an account or visit a new partner agency website after you have 
 
 Remember you can update your personal information, revoke consent, or delete your account entirely at any time through [your account page](https://secure.login.gov/account).
 
-### **Fraud mitigation - How do we stop bad actors? ### {#fraud}**
+### Fraud mitigation - How do we stop bad actors? ### {#fraud}
 
 Fraud is someone pretending to be you and attempting to access a partner agency using your Login.gov information. Login.gov protects your data from bad actors. Our product works with trusted third-party vendors to make sure it is you - and not someone pretending to be you - accessing your account. These vendors look for changes and risks in user behavior that might indicate a fraud attempt.
 
