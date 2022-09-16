@@ -79,9 +79,7 @@ Si sospechamos que se ha producido un fraude en su cuenta, podemos bloquearla y 
 
 ## 4. Comprobación y verificación de la identidad
 
-La primera vez que intente iniciar sesión mediante Login.gov en una aplicación asociada que requiera un alto grado de certeza de que usted es quien dice ser, iniciamos un proceso denominado prueba de identidad.
-
-La prueba de identidad toma información sobre usted e intenta verificar esa información y luego validar que usted, el usuario, es la persona que dice ser. Llamamos a esta información prueba de identidad y generalmente incluye su nombre, su fecha de nacimiento, su número de la seguridad social, su domicilio, una foto suya y una foto de su licencia de conducir o de su pasaporte.
+La primera vez que intente iniciar sesión mediante Login.gov en una aplicación asociada que requiera un alto grado de certeza de que usted es quien dice ser, iniciamos un proceso denominado prueba de identidad. La prueba de identidad toma información sobre usted e intenta verificar esa información y luego validar que usted, el usuario, es la persona que dice ser. Llamamos a esta información prueba de identidad y generalmente incluye su nombre, su fecha de nacimiento, su número de la seguridad social, su domicilio, una foto suya y una foto de su licencia de conducir o de su pasaporte. Usted acepta que los datos que proporciona son suyos, no los de otra persona, y que son veraces.
 
 Después de que nos proporcione estas pruebas de identidad, intentamos validarlas con varias fuentes autorizadas. Utilizamos servicios de comprobación de identidad externos para que nos ayuden en esta validación. Por ejemplo, si nos envía una foto de su licencia de conducir de su estado de residencia, compararemos la información que aparece en ella con los datos autorizados del Departamento de Vehículos Motorizados (DMV) de su estado, la Administración de Vehículos Motorizados (MVA) o la agencia estatal equivalente para asegurarnos de que usted existe en esos registros. También utilizaremos la tecnología para buscar ciertas características de seguridad en la licencia de conducir para asegurarnos de que no es falso.
 
@@ -123,7 +121,9 @@ Las agencias asociadas seleccionan la información que necesitan de la lista de 
 
 Durante el proceso de conversión en socio del servicio de Login.gov, recopilamos información de la agencia sobre el tipo de acceso que están proporcionando y, a partir de esa información, llegamos a un acuerdo con el socio sobre el riesgo de la solicitud y la necesidad de información personal. En base a esto, determinamos el nivel de información que puede recibir el socio.
 
-Nunca compartiremos información con un socio sin su consentimiento explícito. Puede revocar este consentimiento en cualquier momento, y nosotros revocaremos el acceso del socio a la información. El socio podrá retenerla de acuerdo con sus políticas de retención de datos. El servicio de Login.gov no recopila ninguna información que usted proporcione directamente al socio.
+El Servicio de Impuestos Internos (IRS) requiere el envío de información relativa a los intentos al acceder a una cuenta o verificar la identidad. Cuando se visita el IRS, y solo cuando se visita el IRS, esta información se envía al IRS de manera que solo este pueda acceder a ella. Login.gov no conserva estos datos de identificación personal no validados más allá de 72 horas.
+
+Nunca compartiremos datos de identificación personal validados con una entidad asociada sin su consentimiento explícito. Puede revocar este consentimiento en cualquier momento, y nosotros revocaremos el acceso del socio a la información. El socio podrá retenerla de acuerdo con sus políticas de retención de datos. El servicio de Login.gov no recopila ninguna información que usted proporcione directamente al socio.
 
 Los posibles socios y otras partes interesadas pueden encontrar más información sobre el proceso de incorporación de socios [aquí](https://developers.login.gov/).
 
