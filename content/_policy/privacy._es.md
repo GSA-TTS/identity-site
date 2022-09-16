@@ -25,7 +25,7 @@ Login.gov se asocia con agencias que necesitan acceso seguro y privado a sus apl
 
 * Para que la autenticación establezca una cuenta segura, necesitamos su nombre, dirección de correo electrónico y un método de autenticación. Su método de autenticación podría ser un número de teléfono donde compartimos un código SMS, una llave de seguridad USB u otras opciones.
 * Para comprobar la identidad se requiere información de carácter confidencial, como el número de seguridad social, su dirección, el número de teléfono asociado a su dirección y el documento de identidad estatal o el carné de conducir estadounidense. El operador de telefonía móvil (cualquier operador de telefonía móvil de la marca) puede revelar su número de móvil, nombre, dirección, correo electrónico, estado de la red, tipo de cliente, rol de cliente, tipo de facturación, identificadores del dispositivo móvil (IMSI e IMEI) y otros detalles del estado del suscriptor y del dispositivo, si están disponibles, a nuestro proveedor de servicios externo, con el único fin de verificar su identidad mientras dure la relación comercial.
-*﻿ Para mitigar el fraude, también analizamos el dispositivo utilizado para acceder a Login.gov, la identidad y el comportamiento, por ejemplo, cómo interactúa con los formularios de la página.
+* Para mitigar el fraude, también analizamos el dispositivo utilizado para acceder a Login.gov, la identidad y el comportamiento, por ejemplo, cómo interactúa con los formularios de la página.
 
 ### Usos de rutina: ¿con quién se comparte habitualmente la información? ### {#routine-uses}
 
@@ -57,7 +57,7 @@ Cuando crea una cuenta o visita el sitio web de una nueva agencia asociada despu
 
 Recuerde que puede actualizar su información personal, revocar su consentimiento o eliminar su cuenta por completo en cualquier momento a través de [la página de su cuenta](https://secure.login.gov/account).
 
-#﻿## **Mitigación del fraude: ¿cómo detenemos a los malhechores? ### {#fraud}**
+### **Mitigación del fraude: ¿cómo detenemos a los malhechores? ### {#fraud}**
 
 El fraude consiste en que alguien se haga pasar por usted e intente acceder a un organismo asociado utilizando su información de Login.gov. Login.gov protege sus datos de estos delincuentes. Nuestro servicio trabaja con proveedores externos de confianza para asegurarse de que es usted, y no alguien que se hace pasar por usted, quien accede a su cuenta. Estos proveedores buscan cambios y riesgos en el comportamiento del usuario que puedan indicar un intento de fraude.
 
