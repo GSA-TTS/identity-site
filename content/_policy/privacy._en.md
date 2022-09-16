@@ -43,7 +43,7 @@ All records are stored electronically in a database in GSA’s Amazon Web Servic
 
 Your personal information, including profiles, log-in files, password files, audit trail files and extracts, system usage files, and cost-back files used to assess charges for system use, will be maintained for at least six years following the altering of a password or deletion of your account, unless longer retention is required for business use, such as for law enforcement matters or other legal actions in accordance with National Archives and Records Administration (NARA) guidance. Login.gov must be able to provide users access to information and services at partner agencies and therefore may have a business need to retain the information longer than the six-year retention period.
 
-There may be circumstances where we are required to share certain data. For example: if the information is relevant and necessary for an authorized law enforcement purpose; in order to respond to a breach; or to assist another agency as it responds to a breach. For additional information, see the [system of record notice](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records) number GSA/TTS-1 that GSA’s Technology Transformation Service (TTS) published on [August 10, 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+There may be circumstances where we are required to share certain data. Please refer to the routine uses above for more information on those circumstances.
 
 Even when we share the information with law enforcement, with the exception of email, we cannot access PII because the information is encrypted in a manner that is unretrievable to the Login.gov team.
 
