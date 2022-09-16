@@ -1,9 +1,9 @@
 ---
 layout: sidenav
-title: "Reglas de uso"
+sidenav: policies
+title: Reglas de uso
 description: Reglas de uso.
 permalink: /es/policy/rules-of-use/
-sidenav: policies
 ---
 ## Reglas de uso
 

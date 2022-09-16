@@ -1,9 +1,9 @@
 ---
 layout: sidenav
-title: "Règles d'utilisation"
-description: "Règles d'utilisation."
-permalink: /fr/policy/rules-of-use/
 sidenav: policies
+title: Règles d'utilisation
+description: Règles d'utilisation.
+permalink: /fr/policy/rules-of-use/
 ---
 ## Règles d'utilisation
 
