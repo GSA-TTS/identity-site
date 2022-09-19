@@ -21,7 +21,7 @@ The information you provide is collected pursuant to 6 USC § 1523 (b)(1)(A)-(E)
 
 ### The Purpose - Why do we need your information? ### {#purpose}
 
-Login.gov partners with agencies that need secure and private access to their applications and services. Each agency may request different levels of security depending on their needs. When you create and sign in to a Login.gov account, you’re provided with an electronic identity assurance credential. We need your personally identifying information, or PII, to generate that credential. Imagine this credential like a key that only you can use. The key securely opens the door to a partner agency’s service or application.We also need information to ensure that your identity information is accurate - and not someone else’s.
+Login.gov partners with agencies that need secure and private access to their applications and services. Each agency may request different levels of security depending on their needs. When you create and sign in to a Login.gov account, you’re provided with an electronic identity assurance credential. We need your personally identifying information, or PII, to generate that credential. Imagine this credential like a key that only you can use. The key securely opens the door to a partner agency’s service or application. We also need information to ensure that your identity information is accurate - and not someone else’s.
 
 #### What information do we need?
 
