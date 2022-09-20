@@ -19,12 +19,13 @@ La información que proporciona se recopila de conformidad con 6 USC § 1523 (b)
 
 ### El propósito - ¿Por qué necesitamos su información? ### {#purpose}
 
-Login.gov se asocia con agencias que necesitan acceso seguro y privado a sus aplicaciones y servicios. Cada agencia puede solicitar diferentes niveles de seguridad en función de sus necesidades. Cuando crea e inicia sesión en una cuenta de Login.gov, se le proporciona una credencial de garantía de identidad electrónica. Necesitamos su información de identificación personal, o PII, para generar esa credencial. Imagine esta credencial como una clave que solo usted puede usar. La llave abre de forma segura la puerta al servicio o la aplicación de una agencia asociada.
+Login.gov se asocia con agencias que necesitan acceso seguro y privado a sus aplicaciones y servicios. Cada agencia puede solicitar diferentes niveles de seguridad en función de sus necesidades. Cuando crea e inicia sesión en una cuenta de Login.gov, se le proporciona una credencial de garantía de identidad electrónica. Necesitamos su información de identificación personal, o PII, para generar esa credencial. Imagine esta credencial como una clave que solo usted puede usar. La llave abre de forma segura la puerta al servicio o la aplicación de una agencia asociada. También necesitamos información para asegurarnos de que sus datos de identidad son veraces y no los de otra persona.
 
 #### ¿Qué información necesitamos?
 
 * Para que la autenticación establezca una cuenta segura, necesitamos su nombre, dirección de correo electrónico y un método de autenticación. Su método de autenticación podría ser un número de teléfono donde compartimos un código SMS, una llave de seguridad USB u otras opciones.
 * Para comprobar la identidad se requiere información de carácter confidencial, como el número de seguridad social, su dirección, el número de teléfono asociado a su dirección y el documento de identidad estatal o el carné de conducir estadounidense. El operador de telefonía móvil (cualquier operador de telefonía móvil de la marca) puede revelar su número de móvil, nombre, dirección, correo electrónico, estado de la red, tipo de cliente, rol de cliente, tipo de facturación, identificadores del dispositivo móvil (IMSI e IMEI) y otros detalles del estado del suscriptor y del dispositivo, si están disponibles, a nuestro proveedor de servicios externo, con el único fin de verificar su identidad mientras dure la relación comercial.
+* Para mitigar el fraude, también analizamos el dispositivo utilizado para acceder a Login.gov, la identidad y el comportamiento, por ejemplo, cómo interactúa con los formularios de la página.
 
 ### Usos de rutina: ¿con quién se comparte habitualmente la información? ### {#routine-uses}
 
@@ -40,7 +41,7 @@ Todos los registros se almacenan electrónicamente en una base de datos en el en
 
 Su información personal, incluidos los perfiles, los archivos de inicio de sesión, los archivos de contraseñas, los archivos y extractos de registros de auditoría, los archivos de uso del sistema y los archivos de gastos utilizados para evaluar los cargos por el uso del sistema, se conservarán durante al menos seis años después de la alteración de una contraseña o la eliminación de su cuenta, a menos que se requiera una retención más prolongada para el uso comercial, como por ejemplo para asuntos de aplicación de la ley u otras acciones legales de acuerdo con las directrices de los Archivos Nacionales y Administración de Documentos (NARA, por sus siglas en inglés). Login.gov debe ser capaz de proporcionar a los usuarios acceso a la información y los servicios de las instituciones asociadas, por lo que puede haber requisitos comerciales para retener la información durante más de seis años de mantenimiento.
 
-Puede haber circunstancias en las que se nos solicite compartir ciertos datos. Por ejemplo: si la información es relevante y necesaria para un propósito policial autorizado; para responder a una infracción; o para ayudar a otra agencia a responder a una infracción. Para obtener información adicional, consulte el [sistema de notificación de registro](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records) número GSA / TTS-1 que el Servicio de Transformación de Tecnología (TTS) de GSA publicó el [10 de agosto de 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+Puede haber circunstancias en las que estemos obligados a compartir ciertos datos. Consulte los usos rutinarios anteriores para obtener más información sobre dichas circunstancias.
 
 Incluso cuando compartimos la información con las fuerzas del orden, no podemos acceder a la PII porque la información está encriptada de una manera que el equipo de Login.gov no puede recuperar.
 
@@ -50,11 +51,15 @@ Tú decides qué información darnos y puedes revocar el consentimiento en cualq
 
 Sin embargo, no proporcionar información completa y precisa puede retrasar el acceso a la agencia asociada. Login.gov no toma ninguna determinación de elegibilidad o idoneidad; eso es responsabilidad de los sitios web del gobierno que utilizan el servicio Login.gov.
 
-Aparte de lo especificado en esta Política de Privacidad y en nuestras Normas de Uso, nunca compartiremos su información sin su consentimiento. Sus datos están encriptados y la única forma de compartirlos con una agencia asociada es si usted, el usuario autorizado, ingresa su contraseña y otorga explícitamente su consentimiento para compartir la información.
+Aparte de lo especificado en esta Política de privacidad y en nuestras Normas de uso, nunca compartiremos su información sin su consentimiento. Sus datos personales validados están cifrados y la única manera de compartirlos con un organismo asociado es si usted, el usuario autorizado, ingresa su contraseña y otorga explícitamente su consentimiento para compartir dicha información. Al acceder a los sistemas de la IRS, usted consiente en compartir los datos de cada intento que haga para afirmar su identidad, así como cualquier actividad futura de la cuenta que afecte a la seguridad. Estos datos se cifran de manera que solo el IRS pueda verlos.
 
 Cuando crea una cuenta o visita el sitio web de una nueva agencia asociada después de haber creado su cuenta, verá la opción de dar su consentimiento para compartir su información con la agencia asociada. Debe dar su consentimiento anualmente para cada agencia.
 
 Recuerde que puede actualizar su información personal, revocar su consentimiento o eliminar su cuenta por completo en cualquier momento a través de [la página de su cuenta](https://secure.login.gov/account).
+
+### Mitigación del fraude: ¿cómo detenemos a los malhechores? ### {#fraud}
+
+El fraude consiste en que alguien se haga pasar por usted e intente acceder a un organismo asociado utilizando su información de Login.gov. Login.gov protege sus datos de estos delincuentes. Nuestro servicio trabaja con proveedores externos de confianza para asegurarse de que es usted, y no alguien que se hace pasar por usted, quien accede a su cuenta. Estos proveedores buscan cambios y riesgos en el comportamiento del usuario que puedan indicar un intento de fraude.
 
 ### Registros - ¿Dónde puede encontrar más información? ### {#records}
 
