@@ -1,3 +1,13 @@
+const BLOCKED_DOMAINS = [
+  'gmail.com',
+  'hotmail.com',
+  'icloud.com',
+  'live.com',
+  'outlook.com',
+  'sbcglobal.net',
+  'yahoo.com',
+];
+
 window.clearCaptchaError = () => {
   const error = document.getElementById('captcha-error-message');
   if (error.textContent) {
@@ -19,7 +29,8 @@ async function submitPartnerContact(event) {
 
   const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
   const form = document.getElementById('contact-us-form');
-  const formError = document.getElementById('form-error-message');
+  const formSubmitError = document.getElementById('form-submit-error-message');
+  const formEmailError = document.getElementById('form-email-error-message');
   const formSuccess = document.getElementById('form-success-message');
   const captchaError = document.getElementById('captcha-error-message');
   const captcha = document.getElementById('g-recaptcha-response');
@@ -43,6 +54,14 @@ async function submitPartnerContact(event) {
   const lastName = fetchTextInput('last_name');
   const jobTitle = fetchTextInput('job_title');
   const email = fetchTextInput('email').toLowerCase();
+  const emailDomain = email.includes('@') && email.split('@').pop();
+  const isBlockedEmail = BLOCKED_DOMAINS.includes(emailDomain);
+
+  if (isBlockedEmail) {
+    formEmailError.classList.remove('display-none');
+    return false;
+  }
+
   const agency = fetchSelectInput('agency');
   const program = fetchTextInput('program');
   const stateLocalAttestation = fetchSelectInput('state_local_attestation');
@@ -101,7 +120,7 @@ async function submitPartnerContact(event) {
     form.reset();
     formSuccess.classList.remove('display-none');
   } else {
-    formError.classList.remove('display-none');
+    formSubmitError.classList.remove('display-none');
   }
 
   return false;
