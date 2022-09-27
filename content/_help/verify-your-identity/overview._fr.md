@@ -1,8 +1,8 @@
 ---
 title: Vérifiez votre identité
 category: verify-your-identity
-meta_title: Aperçu
 permalink: /fr/help/verify-your-identity/overview/
+meta_title: Aperçu
 order: 0
 redirect_from:
   - /fr/help/verify-your-identity/
