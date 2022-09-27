@@ -12,7 +12,7 @@ Necesitarás verificar tu identidad y asegurar tu cuenta.
 ## Requisitos para la verificación de identidad
 
 {: .number-list}
-1. Tu identificación emitida por el estado. Puedes subir una foto por teléfono o por computadora. [¿No cuentas con una identificación emitida por el estado?](/es/help/verify-your-identity/accepted-state-issued-identification/)
+1. Tu identificación oficial emitida por el estado. Puedes subir una foto de tu identificación oficial utilizando un celular o una computadora. [¿No tienes una identificación oficial emitida por el estado?](/es/help/verify-your-identity/accepted-state-issued-identification/)
 1. Un teléfono o computadora con cámara para que te tomes una foto (Esta característica está desactivada o no es requerida actualmente.)
 1. Número de seguridad social
 1. Un número telefónico o un plan telefónico que tengas a tu nombre
