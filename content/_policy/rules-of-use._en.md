@@ -118,7 +118,7 @@ Partner agencies select the information they require from the list of attributes
 
 During the process of becoming a partner on the Login.gov service, we collect information from the agency about the type of access they are providing and, from that information, come to agreement with the partner on the risk of the application and the need for personal information. Based on this, we determine the level of information the partner may receive.
 
-The Internal Revenue Service (IRS) has required sending information surrounding attempts when accessing an account or verifying identity. When visiting the IRS, (and only when visiting the IRS) this information is sent to the IRS in a manner only the IRS can access it. Login.gov does not retain this unvalidated personal identifiable information beyond 72 hours.
+In anticipation of possible integrations with the Internal Revenue Service (IRS): only when accessing IRS systems via Login.gov, the IRS requires information surrounding attempts to access an account or verify identity. This information will be sent to the IRS in a manner only the IRS can access it. Login.gov will not retain this unvalidated personal identifiable information beyond 72 hours.
 
 We will never share validated personal identifiable information with a partner without your explicit consent. You may revoke this consent at any time, and we will revoke the partner's access to the information. The partner may retain it subject to their data retention policies. The Login.gov service does not collect any information you provide directly to the partner.
 
