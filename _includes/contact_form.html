@@ -426,9 +426,9 @@
     </p>
 
     <!-- START: Topic -->
-    <label class="usa-label" for="00NU0000004z903"
-      >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.topic }}</label
-    >
+    <label class="usa-label" for="00NU0000004z903">
+      {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.topic }} ({{ site.data[page.lang].settings.contact_page.required }})
+    </label>
     <select
       id="00NU0000004z903"
       name="00NU0000004z903"
@@ -462,7 +462,7 @@
     <!-- START: Agency Application -->
     <label class="usa-label" for="00Nt0000000OYA2">
       {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application
-      }}
+      }} ({{ site.data[page.lang].settings.contact_page.required }})
     </label>
     <select id="00Nt0000000OYA2" name="00Nt0000000OYA2" required class="usa-select">
       <option value="" selected hidden>
@@ -501,9 +501,9 @@
     <!-- END: Agency Application -->
 
     <!-- START: Email -->
-    <label class="usa-label" for="email"
-      >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.email }}</label
-    >
+    <label class="usa-label" for="email">
+      {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.email }} ({{ site.data[page.lang].settings.contact_page.required }})
+    </label>
     <input
       id="email"
       maxlength="80"
@@ -517,10 +517,9 @@
     <!-- END: Email -->
 
     <!-- START: Description -->
-    <label class="usa-label" for="description"
-      >{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.description
-      }}</label
-    >
+    <label class="usa-label" for="description">
+      {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.description }}
+    </label>
     <div class="usa-hint">
       {{ site.data[page.lang].settings.contact_page.support_request_form.labels.pii_warning |
       markdownify | remove: '

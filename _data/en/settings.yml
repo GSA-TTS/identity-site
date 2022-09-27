@@ -21,6 +21,7 @@ banner:
     secure_description: 'A <strong>lock</strong> or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.'
 contact_page:
   operating_hours: Operating hours are Monday-Friday 8:00 am to 8:00 pm ET.
+  required: required
   call_us:
     title: Call us
   support_request_form:
