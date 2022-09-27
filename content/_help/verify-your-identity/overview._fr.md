@@ -20,7 +20,7 @@ redirect_from:
 
 Certaines agences qui participent au programme exigent que vous vous soumettiez à un processus de vérification d’identité. La vérification de l’identité est le processus par lequel vous prouvez que c’est bien vous — et une tierce personne qui se fait passer pour vous.
 
-La vérification de votre identité ne doit être effectuée qu’une seule fois pour votre compte « Login.gov ». Une fois que votre identité a été vérifiée avec « Login.gov » pour une application gouvernementale, vous n’avez pas besoin de le refaire pour les autres applications gouvernementales qui utilisent « Login.gov » et qui nécessitent une vérification d’identité. Vous n'êtes pas tenu de téléverser une photo de vous-même ou de prendre une autophoto pour vérifier votre identité.
+Vous ne devez vérifier votre identité qu'une seule fois pour votre compte « Login.gov ». Une fois votre identité vérifiée avec Login.gov pour une application gouvernementale, vous n'avez pas à le faire à nouveau pour d'autres applications gouvernementales qui utilisent « Login.gov » et exigent la vérification de l'identité. Vous n'êtes actuellement pas obligé de téléverser une photo de vous ou de prendre une autophoto pour vérifier votre identité. Cependant, vous pouvez être amené à prendre une photo de votre pièce d'identité.
 
 Utilisez cette rubrique d’aide pour comprendre le processus et les exigences en matière de vérification d’identité.
 
