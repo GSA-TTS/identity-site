@@ -33,7 +33,7 @@ Login.gov se asocia con agencias que necesitan acceso seguro y privado a sus apl
 * A un experto, consultor o contratista de GSA en el desempeño de un deber federal para el cual la información es relevante.
 * A la Oficina de Publicaciones del Gobierno (GPO), cuando Login.gov necesita enviar a un usuario un formulario de confirmación de dirección o si un usuario solicita notificaciones enviadas por correo de cambios de cuenta o de intentos de revisión.
 
-Esta lista no es exhaustiva. Por favor, consulte el aviso del [sistema de registros GSA/TTS-1](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records) para todas las entidades y personas.
+Esta lista no es exhaustiva. Por favor, consulte [el aviso del sistema de registros GSA/TTS-1](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records) para todas las entidades y personas.
 
 #### ¿Qué pasa con la información que compartes?
 
