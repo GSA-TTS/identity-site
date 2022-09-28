@@ -29,11 +29,11 @@ Login.gov se asocia con agencias que necesitan acceso seguro y privado a sus apl
 
 ### Usos de rutina: ¿con quién se comparte habitualmente la información? ### {#routine-uses}
 
-* A los servicios de prueba de identidad de terceros, según sea necesario para probar la identidad de una persona para acceder a un servicio con el nivel de garantía requerido.
+* A los servicios de comprobación de identidad de terceros, según sea necesario para comprobar la identidad de un individuo para el acceso a un servicio.
 * A un experto, consultor o contratista de GSA en el desempeño de un deber federal para el cual la información es relevante.
 * A la Oficina de Publicaciones del Gobierno (GPO), cuando Login.gov necesita enviar a un usuario un formulario de confirmación de dirección o si un usuario solicita notificaciones enviadas por correo de cambios de cuenta o de intentos de revisión.
 
-Esta lista no es exhaustiva. Consulte el aviso del sistema de registros para todas las entidades y personas.
+Esta lista no es exhaustiva. Por favor, consulte el aviso del [sistema de registros GSA/TTS-1](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records) para todas las entidades y personas.
 
 #### ¿Qué pasa con la información que compartes?
 
@@ -47,7 +47,7 @@ Incluso cuando compartimos la información con las fuerzas del orden, no podemos
 
 ### Consentimiento - ¿Cómo puedes controlar qué información se comparte? ### {#consent}
 
-Tú decides qué información darnos y puedes revocar el consentimiento en cualquier momento. Compartir su información es voluntario. Todos los registros se almacenan electrónicamente en una base de datos en el entorno de Amazon Web Services (AWS) de la GSA. Puede modificar o corregir su dirección de correo electrónico o su número de teléfono en la [cuenta de su página](https://secure.login.gov/account).
+La agencia asociada solicita cierta información personal para permitirle a usted acceder a su cuenta. Usted decide si quiere compartir dicha información y puede revocar su consentimiento en cualquier momento. La decisión de compartir su información es voluntaria. Todos los registros se almacenan electrónicamente en una base de datos en el entorno de Amazon Web Services (AWS) de GSA. Usted puede modificar o corregir su dirección de correo electrónico o número de teléfono en [la página de su cuenta](https://secure.login.gov/account).
 
 Sin embargo, no proporcionar información completa y precisa puede retrasar el acceso a la agencia asociada. Login.gov no toma ninguna determinación de elegibilidad o idoneidad; eso es responsabilidad de los sitios web del gobierno que utilizan el servicio Login.gov.
 
