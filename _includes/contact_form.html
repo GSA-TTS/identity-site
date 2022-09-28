@@ -518,7 +518,9 @@
 
     <!-- START: Description -->
     <label class="usa-label" for="description">
-      {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.description }}
+      {{ 
+        site.data.[page.lang].settings.contact_page.support_request_form.labels.description 
+      }} ({{ site.data[page.lang].settings.contact_page.required }})
     </label>
     <div class="usa-hint">
       {{ site.data[page.lang].settings.contact_page.support_request_form.labels.pii_warning |

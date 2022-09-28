@@ -21,6 +21,7 @@ banner:
     secure_description: 'Un <strong>candado</strong> o <strong>https://</strong> significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros.'
 contact_page:
   operating_hours: El horario operativo es de lunes a viernes de 8:00 am a 8:00 pm hora del este.
+  required: Requerido
   call_us:
     title: Llámenos
   support_request_form:

@@ -21,6 +21,7 @@ banner:
     secure_description: 'Un <strong>verrou</strong> ou <strong>https://</strong> signifie que vous êtes connecté en toute sécurité au site Web .gov. Partagez des informations sensibles uniquement sur des sites Web officiels et sécurisés.'
 contact_page:
   operating_hours: Les heures d'ouverture sont du lundi au vendredi de 8 h à 20 h (heure de l'Est).
+  required: Obligatoire
   call_us:
     title: Appelez-nous
   support_request_form:
