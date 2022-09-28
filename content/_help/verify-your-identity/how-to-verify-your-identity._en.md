@@ -5,7 +5,7 @@ category: verify-your-identity
 permalink: /help/verify-your-identity/how-to-verify-your-identity/
 order: 1
 redirect_from:
-    - /en/help/verify-your-identity/how-to-verify-your-identity/
+  - /en/help/verify-your-identity/how-to-verify-your-identity/
 ---
 
 Some government applications require identity verification. This additional layer of security requires you to prove you are you - and not someone pretending to be you.
@@ -15,7 +15,7 @@ You will need to verify your identity and secure your account.
 ## Requirements for identity verification
 
 {: .number-list}
-1. Your State-Issued ID. You can upload a photo by phone or by computer. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification/)
+1. Your State-Issued ID. You can upload a photo of your ID by phone or by computer.[Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification/) 
 1. A phone or computer with a camera to take a photo of yourself (This feature is not currently enabled or required.)
 1. Social Security Number
 1. A phone number on a phone plan that is in your name.

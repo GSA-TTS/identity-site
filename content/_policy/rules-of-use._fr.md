@@ -1,9 +1,9 @@
 ---
 layout: sidenav
-title: "Règles d'utilisation"
-description: "Règles d'utilisation."
-permalink: /fr/policy/rules-of-use/
 sidenav: policies
+title: Règles d'utilisation
+description: Règles d'utilisation.
+permalink: /fr/policy/rules-of-use/
 ---
 ## Règles d'utilisation
 
@@ -76,7 +76,7 @@ Si nous soupçonnons une fraude sur votre compte, nous pouvons verrouiller votre
 
 ## 4. Preuve et vérification de l'identité
 
-La première fois que vous essayez de vous connecter à une application partenaire par l'intermédiaire de Login.gov, qui requiert un degré élevé de certitude quant à votre identité, nous initialisons un processus appelé vérification de l'identité. La vérification de l'identité repose sur des informations à votre sujet et tente de vérifier ces informations, puis de valider que vous, l'utilisateur, êtes bien la personne que vous prétendez être. Nous appelons ces informations « preuves d'identité » et elles comprennent généralement votre nom, votre date de naissance, votre numéro de sécurité sociale, votre adresse personnelle, une photo de vous-même et une photo de votre permis de conduire ou de votre passeport.
+La première fois que vous essayez de vous connecter à une application partenaire par l'intermédiaire de Login.gov, qui requiert un degré élevé de certitude quant à votre identité, nous initialisons un processus appelé vérification de l'identité. La vérification de l'identité repose sur des informations à votre sujet et tente de vérifier ces informations, puis de valider que vous, l'utilisateur, êtes bien la personne que vous prétendez être. Nous appelons ces informations « preuves d'identité » et elles comprennent généralement votre nom, votre date de naissance, votre numéro de sécurité sociale, votre adresse personnelle, une photo de vous-même et une photo de votre permis de conduire ou de votre passeport. Vous convenez que les informations que vous fournissez sont les vôtres, et non celles de quelqu'un d'autre, et qu'elles sont exactes.
 
 Une fois que vous nous avez fourni ces preuves d'identité, nous essayons de les valider en les comparant à diverses sources officielles. Nous faisons appel à des services de vérification d'identité tiers pour nous aider dans cette validation. Par exemple, si vous nous envoyez une photo de votre permis de conduire de l'État où vous résidez, nous comparons les informations qui y figurent avec les données officielles du Department of Motor Vehicles (DMV), Motor Vehicle Administration (MVA), ou une instance équivalente de votre État, pour vérifier que vous figurez bien dans ces registres. Nous nous servirons également de la technologie pour rechercher certains éléments de sécurité sur le permis de conduire afin de nous assurer qu'il n'est pas faux.
 
@@ -116,7 +116,9 @@ Les agences partenaires sélectionnent les informations dont elles ont besoin à
 
 Tout au long de la procédure pour devenir un partenaire du service Login.gov, nous recueillons des informations auprès de l'agence sur le type d'accès qu'elle fournit et, à partir de ces informations, nous nous mettons d'accord avec le partenaire sur le degré de risque de l'application et le besoin d'informations personnelles. Sur cette base, nous déterminons le niveau d'information que le partenaire peut recevoir.
 
-Nous ne partagerons jamais d'informations avec un partenaire sans votre consentement explicite. Vous pouvez révoquer ce consentement à tout moment, et nous révoquerons l'accès du partenaire à ces informations. Le partenaire peut les conserver conformément à sa politique de conservation des données. Le service Login.gov ne recueille pas les informations que vous fournissez directement au partenaire.
+L'Internal Revenue Service (IRS) a exigé l'envoi d'informations entourant les tentatives d'accès à un compte ou de vérification d'identité. Lors de la visite de l'IRS, (et seulement lors de la visite de l'IRS) ces informations sont envoyées à l'IRS de manière à ce que seul l'IRS puisse y accéder. Login.gov ne conserve pas ces informations personnelles identifiables non validées plus de 72 heures.
+
+Nous ne partagerons jamais les informations personnelles identifiables validées avec un partenaire sans votre consentement explicite. Vous pouvez révoquer ce consentement à tout moment, et nous révoquerons l'accès du partenaire à ces informations. Le partenaire peut les conserver conformément à sa politique de conservation des données. Le service Login.gov ne recueille pas les informations que vous fournissez directement au partenaire.
 
 Les éventuels partenaires et autres parties intéressées peuvent trouver plus d'informations sur le processus d'intégration des partenaires [ici](https://developers.login.gov/).
 

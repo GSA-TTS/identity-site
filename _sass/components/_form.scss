@@ -14,6 +14,7 @@
 .usa-input--lg-password,
 .usa-textarea,
 .usa-select,
+.usa-combo-box__input,
 .usa-range {
   margin-top: units(.5);
 }
@@ -29,8 +30,7 @@
     $theme-body-font-size,
     $theme-body-line-height
   );
-  @include u-text("italic");
-  color: $grey-darker;
+  color: $grey;
   margin-bottom: units(2);
   margin-top: units(.5);
   max-width: units($theme-input-max-width);

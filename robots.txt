@@ -1,6 +1,3 @@
 User-agent: *
 Sitemap: /sitemap.xml
 Allow: /
-
-User-agent: *
-Disallow: /partners/

@@ -16,6 +16,7 @@ redirect_from:
   - /es/help/authentication-methods/which-authentication-method-should-i-use/
   - /es/help/authentication-methods/
 ---
+
 Además de su contraseña, es necesario que usted configure por lo menos un método de autenticación secundario en Login.gov con el fin de mantener su cuenta segura. Se trata de una autenticación en dos pasos (2FA, por sus siglas en inglés). Usamos la autenticación en dos pasos como un filtro de seguridad adicional para proteger su información.
 
 **Autenticación secundaria**
@@ -54,7 +55,7 @@ Si usted elige esta opción de seguridad, siga estos pasos para descargar e inst
    * Aplicaciones para Mac: [1Password](https://1password.com/) y [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
    * Extensiones para Chrome: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
 3. Abra un nuevo navegador e inicie sesión en su cuenta de Login.gov a través de <https://secure.login.gov/>.
-4. Seleccione “Activar” junto a “Aplicación de autenticación” y siga las instrucciones para escanear o ingresar un código y vincular así la aplicación de autenticación a su cuenta.\
+4. Seleccione “Activar” junto a “Aplicación de autenticación” y siga las instrucciones para escanear o ingresar un código y vincular así la aplicación de autenticación a su cuenta.
 
 En adelante, cada vez que inicie sesión en Login.gov, podrá utilizar los códigos de acceso de uso único generados por la aplicación.
 

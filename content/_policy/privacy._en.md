@@ -21,12 +21,13 @@ The information you provide is collected pursuant to 6 USC § 1523 (b)(1)(A)-(E)
 
 ### The Purpose - Why do we need your information? ### {#purpose}
 
-Login.gov partners with agencies that need secure and private access to their applications and services. Each agency may request different levels of security depending on their needs. When you create and sign in to a Login.gov account, you’re provided with an electronic identity assurance credential. We need your personally identifying information, or PII, to generate that credential. Imagine this credential like a key that only you can use. The key securely opens the door to a partner agency’s service or application.
+Login.gov partners with agencies that need secure and private access to their applications and services. Each agency may request different levels of security depending on their needs. When you create and sign in to a Login.gov account, you’re provided with an electronic identity assurance credential. We need your personally identifying information, or PII, to generate that credential. Imagine this credential like a key that only you can use. The key securely opens the door to a partner agency’s service or application. We also need information to ensure that your identity information is accurate - and not someone else’s.
 
 #### What information do we need?
 
 * For authentication to establish a secure account, we need your name, email address, and an authentication method. Your authentication method could be a phone number where we share a SMS code, USB Security Key or other options.
 * Identity proofing requires more sensitive information such as a social security number, address, phone number connected to your address, and U.S. based state ID or driver’s license. Your wireless operator (any branded wireless operator) may disclose your mobile number, name, address, email, network status, customer type, customer role, billing type, mobile device identifiers (IMSI and IMEI) and other subscriber status and device details, if available, to our third party service provider, solely to verify your identity for the duration of the business relationship.
+* To mitigate fraud, we also analyze the device used to access Login.gov, identity, and behavior such as how you interact with forms on the page.
 
 ### Routine Uses - With whom is the information routinely shared? ### {#routine-uses}
 
@@ -42,7 +43,7 @@ All records are stored electronically in a database in GSA’s Amazon Web Servic
 
 Your personal information, including profiles, log-in files, password files, audit trail files and extracts, system usage files, and cost-back files used to assess charges for system use, will be maintained for at least six years following the altering of a password or deletion of your account, unless longer retention is required for business use, such as for law enforcement matters or other legal actions in accordance with National Archives and Records Administration (NARA) guidance. Login.gov must be able to provide users access to information and services at partner agencies and therefore may have a business need to retain the information longer than the six-year retention period.
 
-There may be circumstances where we are required to share certain data. For example: if the information is relevant and necessary for an authorized law enforcement purpose; in order to respond to a breach; or to assist another agency as it responds to a breach. For additional information, see the [system of record notice](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records) number GSA/TTS-1 that GSA’s Technology Transformation Service (TTS) published on [August 10, 2017](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+There may be circumstances where we are required to share certain data. Please refer to the routine uses above for more information on those circumstances.
 
 Even when we share the information with law enforcement, with the exception of email, we cannot access PII because the information is encrypted in a manner that is unretrievable to the Login.gov team.
 
@@ -52,11 +53,15 @@ You decide what information to give us and can revoke consent at any time. Shari
 
 However, failure to provide complete and accurate information may delay access to the partner agency. Login.gov does not make any eligibility or suitability determinations; that is the responsibility of the government websites that use the Login.gov service.
 
-Other than as specified in this Privacy Policy and our Rules of Use, we will never share your information without your consent. Your data is encrypted and the only way to share it with a partner agency is if you, the authorized user, enter your password and explicitly grant consent to share the information.
+Other than as specified in this Privacy Policy and our Rules of Use, we will never share your information without your consent. Your validated personal data is encrypted and the only way to share it with a partner agency is if you, the authorized user, enter your password and explicitly grant consent to share the information. When accessing systems at the IRS, you consent to share data from each attempt you make to assert your identity as well as any future security impacting account activities. This data is encrypted in a manner only the IRS can see.
 
 When you create an account or visit a new partner agency website after you have created your account, you will see the option to consent to share your information with the partner agency. You are required to give consent yearly for each agency.
 
 Remember you can update your personal information, revoke consent, or delete your account entirely at any time through [your account page](https://secure.login.gov/account).
+
+### Fraud mitigation - How do we stop bad actors? ### {#fraud}
+
+Fraud is someone pretending to be you and attempting to access a partner agency using your Login.gov information. Login.gov protects your data from bad actors. Our product works with trusted third-party vendors to make sure it is you - and not someone pretending to be you - accessing your account. These vendors look for changes and risks in user behavior that might indicate a fraud attempt.
 
 ### Records - Where can you find more information? ### {#records}
 

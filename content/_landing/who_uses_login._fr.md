@@ -28,7 +28,7 @@ component:
     acquisitions](https://www.gsa.gov/about-us/organization/federal-acquisition-service)
 
 
-    Les agences choisissent Login.gov parce que nous fournissons une solution simple et sécurisée. [En savoir plus sur notre programme de partenariat](https://partners.login.gov).
+    Les agences choisissent Login.gov parce que nous fournissons une solution simple et sécurisée. [En savoir plus sur notre programme de partenariat](/partners/).
 permalink: /fr/who-uses-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
