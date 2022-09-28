@@ -34,7 +34,7 @@ Login.gov collabore avec des agences qui ont besoin d'un accès sécurisé et pr
 * À un expert, consultant ou sous-traitant de la GSA dans l'exercice d'une obligation fédérale pour laquelle l'information est pertinente.
 * Au Government Publishing Office (GPO), lorsque Login.gov doit envoyer un formulaire de confirmation d'adresse à un utilisateur ou si un utilisateur demande des notifications par courrier des changements de compte ou des tentatives de vérification.
 
-Cette liste n'est pas exhaustive. Veuillez consulter l'avis de [système d'enregistrement GSA/TTS-1](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records) pour toutes les entités et individus.
+Cette liste n'est pas exhaustive. Veuillez consulter [l'avis de système d'enregistrement GSA/TTS-1](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records) pour toutes les entités et individus.
 
 #### Qu'advient-il des informations que vous partagez?
 
