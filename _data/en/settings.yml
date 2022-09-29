@@ -21,13 +21,13 @@ banner:
     secure_description: 'A <strong>lock</strong> or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.'
 contact_page:
   operating_hours: Operating hours are Monday-Friday 8:00 am to 8:00 pm ET.
-  required: required
   call_us:
     title: Call us
   support_request_form:
     title: Submit a help ticket
     other: Other
-    help_text: Please allow 2 business days for a response. Thank you for your patience.
+    help_text: Please allow 2 business days for a response. Thank you for your patience. 
+    required_text: Required fields are marked with an asterisk 
     agencies:
       'Central Intelligence Agency': Central Intelligence Agency
       'Consumer Financial Protection Bureau': Consumer Financial Protection Bureau
