@@ -4,9 +4,9 @@ backend:
   name: github
   repo: 18f/identity-site
   branch: main
-  base_url: https://federalistapp.18f.gov
+  base_url: https://pages.cloud.gov
   auth_endpoint: external/auth/github
-  preview_context: federalist/build
+  preview_context: pages/build
   use_graphql: true
 #
 # Uncomment when doing local development on Netlify CMS
@@ -24,7 +24,6 @@ backend:
 media_folder: 'assets/img/'
 public_folder: '/img/uploads'
 publish_mode: editorial_workflow
-logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 i18n:
   structure: multiple_files
