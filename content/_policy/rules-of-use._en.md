@@ -24,7 +24,7 @@ The Login.gov service offers the public secure and private online access to part
 
 The Login.gov service partners with other federal agencies ("partners") to allow users to access those services with just one Login.gov account, eliminating the need to create many separate accounts across government.
 
-The Login.gov service protects your account by implementing strong security measures and protects your privacy by collecting the minimally necessary information from you and, in turn, revealing to partners only the information necessary for those partners to execute their service. And Login.gov never shares anything about you with a partner without your explicit consent and you can revoke that consent at any time.
+The Login.gov service protects your account by implementing strong security measures and protects your privacy by collecting the minimally necessary information from you and, in turn, revealing to partners only the information necessary for those partners to execute their service. And Login.gov never shares validated personal information with a partner without your explicit consent (which you can revoke that at any time) or if required by law.
 
 Some government applications that use Login.gov require users to verify their identities. This means that you must prove that you are who you say you are. That proof helps ensure that only the right people get access to sensitive information.
 
@@ -80,15 +80,13 @@ If we suspect fraud on your account, we may lock your account and contact you. I
 
 ## 4. Identity Proofing and Verification
 
-The first time you try to log in using Login.gov at a partner application that requires a high degree of certainty that you are who you say you are, we initiate a process called identity proofing. Identity proofing takes information about you and attempts to verify that information and then validate that you, the user, are the individual you claim to be. We call this information identity evidence and it generally includes your name, date of birth, social security number, home address, a photo of yourself and a photo of identification, such as your driver's license or passport. You agree the information that you provide is your information - not someone else’s - and accurate.
+The first time you try to log in using Login.gov at a partner application that requires a high degree of certainty that you are who you say you are, we initiate a process called identity proofing. Identity proofing takes information about you and attempts to validate that information and then verify that you, the user, are the individual you claim to be. We call this information identity evidence and it generally includes your name, date of birth, social security number, home address, a photo of yourself and a photo of identification, such as your driver's license or passport. You agree the information that you provide is your information - not someone else’s - and accurate.
 
 After you provide us with this identity evidence, we attempt to validate it against various authoritative sources. We use third party identity proofing services to assist us with this validation. For instance, if you submit a photo of your driver's license from your state of residence, we'll compare the information on it to the authoritative data from your state Department of Motor Vehicles (DMV), Motor Vehicle Administration (MVA), or equivalent state agency to ensure that you exist in those records. We'll also use technology to look for certain security features on the driver's license to ensure that it's not fake.
 
 Similarly, we'll compare the information you give us to other records for added confidence in your identity. We may, for instance, verify that your name, date of birth, address, and social security number all match in records with a credit bureau. While we won't check your credit, we will ensure that such a person exists to protect you from identity fraud. We may also check with other sources, such as mobile network operators, to confirm the information you provide us. If we can't validate your address in other ways, we may confirm you live there by sending you a letter with a code that you enter into the Login.gov service.
 
-After we have validated the identity evidence you provide to us, we verify that you are that person. We may do this by asking you to take a photo of yourself (a selfie) so that we can compare it to the photo identification, like driver’s license or passport, that you provided (This feature is not currently enabled or required).
-
-Neither we nor any third party service keeps copies of any photo you send us, whether of a piece of identity evidence or of yourself. We further detail how we use your information in our [Privacy Policy]({% link _policy/index._en.md %}).
+In addition to validating the identity evidence you provide to us, we verify that you are that person. We assess the device being used to access Login.gov, the identity being proofed, and the user’s behavior during identity proofing. We collect information from the device to perform this assessment. That information is stored in a manner which precludes Login.gov from reading it. However, Login.gov can still perform the assessment. Neither Login.gov nor any third party service keeps copies of any photo you send us. We further detail how we use your information in our [Privacy Policy]({% link _policy/index._en.md %}).
 
 ## 5. Termination
 
@@ -120,7 +118,7 @@ Partner agencies select the information they require from the list of attributes
 
 During the process of becoming a partner on the Login.gov service, we collect information from the agency about the type of access they are providing and, from that information, come to agreement with the partner on the risk of the application and the need for personal information. Based on this, we determine the level of information the partner may receive.
 
-The Internal Revenue Service (IRS) has required sending information surrounding attempts when accessing an account or verifying identity. When visiting the IRS, (and only when visiting the IRS) this information is sent to the IRS in a manner only the IRS can access it. Login.gov does not retain this unvalidated personal identifiable information beyond 72 hours.
+In anticipation of possible integrations with the Internal Revenue Service (IRS): only when accessing IRS systems via Login.gov, the IRS requires information surrounding attempts to access an account or verify identity. This information will be sent to the IRS in a manner only the IRS can access it. Login.gov will not retain this unvalidated personal identifiable information beyond 72 hours.
 
 We will never share validated personal identifiable information with a partner without your explicit consent. You may revoke this consent at any time, and we will revoke the partner's access to the information. The partner may retain it subject to their data retention policies. The Login.gov service does not collect any information you provide directly to the partner.
 
