@@ -4,7 +4,7 @@
   "description": "login.gov static site",
   "scripts": {
     "build-js": "webpack --config webpack.config.js --progress --color",
-    "federalist": "npm run build-js",
+    "pages": "npm run build-js",
     "watch-js": "webpack -w --config webpack.config.js --progress --color",
     "optimize-assets": "svgo --multipass --disable=removeViewBox -r -f assets/img",
     "es5-safe": "find _site/assets/js/build -name '*.js' -exec cat {} \\; | acorn --ecma5 --silent",
