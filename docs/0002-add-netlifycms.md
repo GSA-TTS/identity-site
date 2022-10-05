@@ -18,4 +18,4 @@ We will add Netlify CMS (Content Management System) to the architecture of the L
 
 Content editing can now fall on a designated content editor, whether it may be a content writer, product manager, designer, or any other member of Team Katherine. With Netlify CMS added to the architecture, content editors will be able to add, edit, or delete content without relying on an engineer. Adding Netlify CMS will require content editors to have a GitHub account because an account with Federalist permissions is required in order to access the CMS.
 
-All published content changes will result in a GitHub pull request. Pull requests on the `identity-site` repository requires at least one approval in order for content to be added to the website. This will mean that an engineer may still be involved in the content editing process, although not required. 
+All published content changes will result in a GitHub pull request. Pull requests on the `identity-site` repository requires at least one approval in order for content to be added to the website. This will mean that an engineer may still be involved in the content editing process, although not required.

@@ -10,13 +10,9 @@ Feature branches should be merged to `main` when they are ready through the norm
 
 ## Publishing Workflow
 
-Branch off of `main` and make pull requests back to the `main` branch. Federalist will build a live preview for each branch so we suggest using those builds as staging environments to run your proposed changes by the rest of the team.
+Branch off of `main` and make pull requests back to the `main` branch. Cloud.gov Pages will build a live preview for each branch so we suggest using those builds as staging environments to run your proposed changes by the rest of the team.
 
-To view the preview URL for your branch click the federalist link in your pull request or modify the following URL to include your branch name:
-
-```
-https://federalist-proxy.app.cloud.gov/preview/18f/identity-site/{BRANCH}/
-```
+To view the preview URL for your branch, click the Cloud.gov Pages "Details" link in your pull request's checks.
 
 ## Development
 
