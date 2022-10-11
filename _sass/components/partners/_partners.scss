@@ -21,8 +21,7 @@
     }
 }
 
-.partners-body-wide {
-    @extend .partners-body;
+.partners-body--wide {
     max-width: 880px;
 }
 
