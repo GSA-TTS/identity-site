@@ -12,6 +12,9 @@ layout: base
         <h1 class="partners-title">{{ page.title }}</h1>
         <div class="tablet:grid-col-12 partners-border"></div>
         <div class="tablet:grid-col-12 partners-subtitle">{{ page.body | markdownify }}</div>
+        <div class="tablet:grid-col-12 partners-body-wide">
+          <div>{{ page.disclaimer | markdownify }}</div>
+        </div>
       </div>
       <div class="grid-row">
         <div class="tablet:grid-col-12">{{ page.partnership_steps_title | markdownify }}</div>

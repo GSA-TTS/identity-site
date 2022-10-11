@@ -21,6 +21,11 @@
     }
 }
 
+.partners-body-wide {
+    @extend .partners-body;
+    max-width: 880px;
+}
+
 .external-link {
     background: url(../img/partners/external-link.svg) no-repeat center right;
     padding-right: 10px;
