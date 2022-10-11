@@ -16,9 +16,10 @@ contact_form_captcha_enabled: true
 contact_form_action: 'https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8'
 contact_form_orgid: '00DU0000000Leux'
 
-# Contact page phone number enabled
+# Contact page phone number enabled (overridden in Cloud.gov Pages)
 contact_phone_number_enabled: false
 contact_phone_number: ''
+contact_phone_number_location: 'bottom' # acceptable values are 'top' and 'bottom'
 
 # Used to load country code support
 idp_base_url: https://secure.login.gov
