@@ -17,7 +17,7 @@ common_applications:
   
   {% if site.contact_phone_number_enabled and site.contact_phone_number and 
      site.contact_phone_number_location == 'top' %} 
-    {% include contact_phone.html common_applications=layout.common_applications %} 
+    {% include contact_phone.html %} 
   {% endif %}
 
   <div class="desktop:grid-col-9">
@@ -26,7 +26,7 @@ common_applications:
 
   {% if site.contact_phone_number_enabled and site.contact_phone_number and
      site.contact_phone_number_location == 'bottom' %} 
-    {% include contact_phone.html common_applications=layout.common_applications %} 
+    {% include contact_phone.html %} 
   {% endif %}
 </div>
 
