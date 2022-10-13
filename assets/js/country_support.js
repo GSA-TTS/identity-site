@@ -3,7 +3,9 @@
  * @property {string} name
  * @property {string} country_code The international dialing code (ex "1" for the US)
  * @property {boolean} supports_sms
+ * @property {boolean?} supports_sms_unconfirmed
  * @property {boolean} supports_voice
+ * @property {boolean?} supports_voice_unconfirmed
  */
 
 /**
@@ -77,7 +79,9 @@ function loadCountrySupportTable(elem, fetch) {
               name,
               country_code: countryCode,
               supports_sms: supportsSms,
+              supports_sms_unconfirmed: supportsSmsUnconfirmed,
               supports_voice: supportsVoice,
+              supports_voice_unconfirmed: supportsVoiceUnconfirmed,
             },
           ]) => {
             const row = templateRow.cloneNode(true);
@@ -85,8 +89,11 @@ function loadCountrySupportTable(elem, fetch) {
             row.querySelector('[data-item=dialing-code]').innerText = prettyDialingCode(
               countryCode,
             );
-            updateCell(row.querySelector('[data-item=sms]'), supportsSms);
-            updateCell(row.querySelector('[data-item=voice]'), supportsVoice);
+            updateCell(row.querySelector('[data-item=sms]'), supportsSmsUnconfirmed ?? supportsSms);
+            updateCell(
+              row.querySelector('[data-item=voice]'),
+              supportsVoiceUnconfirmed ?? supportsVoice,
+            );
             tbody.appendChild(row);
           },
         );
