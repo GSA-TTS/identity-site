@@ -29,7 +29,7 @@ help_center_content: >-
 partner_content: >-
   ## Partner with Login.gov
 
-  Interested in using Login.gov at your agency? Please [visit our partners website](/partners/) or [contact us](/partners/contact/).
+  Interested in using Login.gov at your agency? Please [visit our partners website](/partners/) or [contact us](/partners/business_inqueries/).
 
 report_issue_content: >-
   ## Report an issue

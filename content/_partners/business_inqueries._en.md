@@ -1,9 +1,8 @@
 ---
 layout: partners/contact
-permalink: /partners/contact/
+permalink: /partners/business_inqueries/
 title: >-
-    Contact us
+    Business Inqueries
 scripts:
   - /assets/js/build/partners_contact.js
-redirect_to: partners/business_inqueries/
 ---
