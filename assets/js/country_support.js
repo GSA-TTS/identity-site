@@ -3,9 +3,9 @@
  * @property {string} name
  * @property {string} country_code The international dialing code (ex "1" for the US)
  * @property {boolean} supports_sms
- * @property {boolean?} supports_sms_unconfirmed
+ * @property {boolean=} supports_sms_unconfirmed
  * @property {boolean} supports_voice
- * @property {boolean?} supports_voice_unconfirmed
+ * @property {boolean=} supports_voice_unconfirmed
  */
 
 /**
