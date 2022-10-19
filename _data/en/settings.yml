@@ -228,7 +228,7 @@ nav:
   anchor_to_top: Back to top
   become_a_partner: Become a partner
   contact_us:
-    title: Business Inqueries
+    title: Business inquiries
     sections:
       - name: Find answers to commonly asked questions
         url: '#find-answers-to-commonly-asked-questions'
