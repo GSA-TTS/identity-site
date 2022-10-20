@@ -54,10 +54,6 @@ Login.gov es un sitio web gubernamental seguro que se apega a los estándares m�
         * Sube una imagen de la parte FRONTAL de tu identificación desde la galería de fotos de tu teléfono o toma una imagen de la parte frontal de tu identificación.
         * Sube una imagen de la parte REVERSA de tu identificación desde la galería de fotos de tu teléfono o toma una imagen de la parte revesa de tu identificación.
     * Haz clic en "Continuar".
-1. (Esta característica está desactivada o no es requerida actualmente.) Es posible que en algunas aplicaciones se te solicite que te tomes una foto. Si aparece la pantalla que dice "Tómate una foto", sigue las pautas para tomarte una foto utilizando ya sea tu computadora, cambiando de tu computadora a tu teléfono, o utilizando únicamente tu teléfono.
-    * Una vez que tengas una foto aceptable, haz clic en "Enviar".
-    * Tus imágenes se procesarán y, si se aceptan, aparecerá un mensaje de aceptación y podrás continuar con el proceso.
-    * Si son rechazadas, por favor revisa el mensaje de error y vuelve a enviar tu foto.
 1. Ingresa tu número de seguridad social y haz clic en "Continuar".
 1. Verifica que la información que has enviado hasta ahora es correcta y haz clic en "Continuar".
 1. Ingresa un número telefónico que tenga un plan a tu nombre. Este es el último paso para la verificación de identidad.
