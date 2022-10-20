@@ -58,10 +58,6 @@ Login.gov is a secure, government website that adheres to the highest standards 
         * Upload an image of the FRONT of your ID from your phone’s photo gallery or take an image of the front of your ID
         * Upload an image of the BACK of your ID from your phone’s photo gallery or take an image of the back of your ID
     * Click “Continue”
-1.  (This feature is not currently enabled or required.) For some applications, you may be asked to take a photo of yourself. If the “Take a Photo of Yourself” screen appears, follow the guidelines to take a photo of yourself using either your computer, switching from your computer to phone, or only using your phone.
-    * Once you have an acceptable photo, Click “Submit”
-    * Your images will process and if accepted, an acceptance message will appear and you can continue the process.
-    * If rejected, please review the error message and resubmit your photo.
 1.  Enter your social security number and click “Continue”
 1.  Verify the information you have submitted so far is correct and click “Continue”
 1.  Enter a phone number with your name on the plan. This is the last step for identity verification.
