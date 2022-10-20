@@ -55,10 +55,6 @@ Login.gov est un site web gouvernemental sécurisé qui respecte les normes les 
         * Chargez une image de la face AVANT de votre carte d'identité à partir de la galerie de photos de votre téléphone ou prenez une image de la face avant de votre carte d'identité
         * Chargez une image du DOS de votre carte d'identité à partir de la galerie de photos de votre téléphone ou prenez une image du dos de votre carte d'identité
     * Cliquez sur « Continuer ».
-1. (Cette fonction n'est pas actuellement activée ou requise.) Pour certaines demandes, il peut vous être demandé de prendre une photo de vous-même. Si l'écran « Prenez une photo de vous » s'affiche, suivez les instructions pour prendre une photo de vous en utilisant soit votre ordinateur, soit en passant de votre ordinateur à votre téléphone, soit en utilisant uniquement votre téléphone.
-    * Une fois que vous avez trouvé une photo acceptable, cliquez sur « Envoyer ».
-    * Vos images seront traitées et si elles sont acceptées, un message d'acceptation s'affichera et vous pourrez poursuivre le processus.
-    * En cas de refus, veuillez examiner le message d'erreur et envoyer à nouveau votre photo.
 1. Entrez votre numéro de sécurité sociale et cliquez sur « Continuer ».
 1. Vérifiez que les informations que vous avez fournies jusqu'à présent sont correctes et cliquez sur « Continuer ».
 1. Saisissez un numéro de téléphone avec votre nom sur le plan. C'est la dernière étape de la vérification de l'identité.
