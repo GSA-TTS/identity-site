@@ -1,6 +1,6 @@
 ---
 layout: partners/contact
-permalink: /partners/business_inquiries/
+permalink: /partners/business-inquiries/
 title: >-
     Business inquiries
 scripts:
