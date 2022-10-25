@@ -232,6 +232,8 @@ nav:
         url: '#políticas-de-accesibilidad'
   anchor_to_top: Volver arriba
   become_a_partner: Convertirse en un compañero
+  business_inquiries:
+    title: Business inquiries
   contact_us:
     title: Contacta con nosotros
     sections:

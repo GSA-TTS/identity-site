@@ -230,6 +230,8 @@ nav:
         url: '#limites-connues'
   anchor_to_top: Retour au sommet
   become_a_partner: Devenir un partenaire
+  business_inquiries:
+    title: Business inquiries
   contact_us:
     title: Nous contacter
     sections:
