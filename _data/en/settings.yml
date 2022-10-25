@@ -227,6 +227,8 @@ nav:
         url: '#known-limitations'
   anchor_to_top: Back to top
   become_a_partner: Become a partner
+  business_inquiries:
+    title: Business inquiries
   contact_us:
     title: Contact us
     sections:

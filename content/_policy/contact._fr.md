@@ -28,7 +28,7 @@ help_center_content: >-
 partner_content: >-
   ## Partenaire avec Login.gov
 
-  Souhaitez-vous utiliser Login.gov dans votre agence? Veuillez [visiter le site web de nos partenaires](/partners/) ou [nous contacter](/partners/contact/).
+  Souhaitez-vous utiliser Login.gov dans votre agence? Veuillez [visiter le site web de nos partenaires](/partners/) ou [nous contacter](/partners/business-inquiries/).
 
 report_issue_content: >-
   ## Signaler un problème
