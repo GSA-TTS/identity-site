@@ -19,7 +19,7 @@ partnership_steps_title: >-
 partnership_steps_header1: >-
   Introductions and determine compatibility
 partnership_steps_body1: >-
-  During the introduction call, an account manager will walk through Login.gov services and answer any questions that you have. This step will determine if Login.gov is a good fit for your agency. [Contact our Partnerships Team to get started](/partners/business-inquiries/){:class="external-link"}.
+  During the introduction call, an account manager will walk through Login.gov services and answer any questions that you have. This step will determine if Login.gov is a good fit for your agency. [Contact our Partnerships Team to get started](/partners/contact/){:class="external-link"}.
 partnership_steps_header2: >-
   Estimate usage and test integrations
 partnership_steps_body2: >-
