@@ -227,8 +227,10 @@ nav:
         url: '#known-limitations'
   anchor_to_top: Back to top
   become_a_partner: Become a partner
-  contact_us:
+  business_inquiries:
     title: Business inquiries
+  contact_us:
+    title: Contact us
     sections:
       - name: Find answers to commonly asked questions
         url: '#find-answers-to-commonly-asked-questions'
