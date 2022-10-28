@@ -20,7 +20,7 @@ banner:
     secure_heading: os sitios web seguros .gov usan HTTPS
     secure_description: 'Un <strong>candado</strong> o <strong>https://</strong> significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros.'
 contact_page:
-  operating_hours: El horario operativo es de lunes a viernes de 8:00 am a 8:00 pm hora del este.
+  operating_hours: El horario operativo es de lunes a viernes de 8:00 am a 8:00 pm hora del este. Cerramos con motivo de los festivos federales.
   required: requerido
   call_us:
     title: Llámenos
@@ -232,6 +232,8 @@ nav:
         url: '#políticas-de-accesibilidad'
   anchor_to_top: Volver arriba
   become_a_partner: Convertirse en un compañero
+  business_inquiries:
+    title: Business inquiries
   contact_us:
     title: Contacta con nosotros
     sections:
