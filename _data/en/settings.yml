@@ -20,7 +20,7 @@ banner:
     secure_heading: Secure .gov websites use HTTPS
     secure_description: 'A <strong>lock</strong> or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.'
 contact_page:
-  operating_hours: Operating hours are Monday-Friday 8:00 am to 8:00 pm ET.
+  operating_hours: Operating hours are Monday-Friday 8:00 am to 8:00 pm ET. We are closed for federal holidays.
   required: required
   call_us:
     title: Call us
