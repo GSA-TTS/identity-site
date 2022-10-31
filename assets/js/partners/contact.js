@@ -3,6 +3,7 @@ const BLOCKED_DOMAINS = [
   'hotmail.com',
   'icloud.com',
   'live.com',
+  'me.com',
   'outlook.com',
   'sbcglobal.net',
   'yahoo.com',
