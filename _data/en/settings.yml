@@ -24,6 +24,7 @@ contact_page:
   required: required
   call_us:
     title: Call us
+    operating_hours: Operating hours are Monday-Friday 11:00 am to 8:00 pm ET.
   support_request_form:
     title: Submit a help ticket
     other: Other
