@@ -9,9 +9,9 @@ layout: base
 <main id="main-content">
     <section>
         <div class="container partners-container">
+            <h1 class="partners-title">{{ page.title }}</h1>
             <div class="grid-row">
                 <div class="tablet:grid-col-8 partners-body">
-                    <h1 class="partners-title">{{ page.title }}</h1>
                     <div class="partners-border"></div>
                     <div>{{ page.subtitle | markdownify }}</div>
                     <div class="partners-body">{{ page.body | markdownify }}</div>
@@ -21,7 +21,7 @@ layout: base
                     <div class="partners-body padding-top-2 padding-bottom-2">{{ page.key_shifts | markdownify }}</div>
                     <a href="{{ '/partners/impact-stories/' | locale_url }}" class="partners-body caret">Read more impact stories</a>
                 </div>
-                <div class="tablet:grid-col-4 padding-left-1">
+                <div class="tablet:grid-col-4 padding-left-2">
                     {% include partners/impact-stories-navigation.html %}
                 </div>
             </div>
