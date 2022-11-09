@@ -15,8 +15,8 @@ Necesitarás verificar tu identidad y asegurar tu cuenta.
 1. Tu identificación oficial emitida por el estado. Puedes subir una foto de tu identificación oficial utilizando un celular o una computadora. [¿No tienes una identificación oficial emitida por el estado?](/es/help/verify-your-identity/accepted-state-issued-identification/)
 1. Un teléfono o computadora con cámara para que te tomes una foto (Esta característica está desactivada o no es requerida actualmente.)
 1. Número de seguridad social
-1. Un número telefónico o un plan telefónico que tengas a tu nombre
-    * Si no cuentas con un plan telefónico que esté a tu nombre, podemos enviarte el código de verificación por correo, lo cual toma aproximadamente de 3 a 5 días.
+1. Su número de teléfono
+    * Si no podemos verificar su número de teléfono, puede hacerlo por correo, lo que demora aproximadamente de 3 a 5 días.
 
 Si te falta alguna información de este tipo, por favor ponte en contacto con la agencia gubernamental a la que estás tratando de tener acceso.
 
