@@ -12,8 +12,8 @@ Veuillez préparer les informations suivantes pour les saisir sur Login.gov :
 
 1. Votre carte d'identité délivrée par l'État. [Vous n'avez pas de carte d'identité délivrée par l'État?](/fr/help/verify-your-identity/accepted-state-issued-identification/)
 2. Votre numéro de sécurité sociale
-3. Un numéro de téléphone sur un forfait téléphonique qui est à votre nom
-   a. Si vous n'avez pas de forfait téléphonique à votre nom, nous pouvons vous envoyer le code de vérification par courrier, ce qui prend environ trois à cinq jours.
+3. Votre numéro de téléphone
+   a. Si vous ne pouvez pas effectuer cette étape, nous pouvons vous envoyer un code à usage unique par courrier, ce qui prend environ 3 à 5 jours.
 
 Si vous ne parvenez pas à effectuer l'une de ces étapes, veuillez contacter le centre d'assistance de l'agence partenaire pour obtenir de l'aide.   
 
