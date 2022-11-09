@@ -1,21 +1,15 @@
 ---
 layout: help
-title: "Phone number and phone plan in your name "
+title: Verify your phone number
 category: verify-your-identity
-permalink: /help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
+permalink: /help/verify-your-identity/phone-number/
 order: 5
 redirect_from:
   - /en/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 ---
-You need to provide a U.S. based phone number with your name on the phone plan to successfully complete identity verification. 
+You need to provide a U.S. based phone number to successfully complete identity verification. This phone number should be your primary number or the number that you use most often. We will attempt to match the phone number with records. 
 
 If you cannot complete this step, click on “Verify your address by mail instead.” You will have to wait to receive a letter in the mail and then follow the instructions to enter the code. 
-
-**What if I’m on a family plan?**
-You can use a phone number from a family plan if it is your primary phone number. We will attempt to match the phone number to your other public records. 
-
-**What if my phone plan doesn’t have my current address on it, or has the primary account holder’s address?**
-You can use a phone number and phone plan that has a different address. We will attempt to match the phone number to your other public records.
 
 **What if I have a prepaid account and cell phone?**
 Prepaid phones can be used for identity verification. However, some prepaid phone numbers contain risk factors that might cause you to fail identity verification.

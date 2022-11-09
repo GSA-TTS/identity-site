@@ -1,18 +1,12 @@
 ---
-title: "Número de teléfono y plan telefónico a su nombre "
+title: Verifique su número de teléfono
 category: verify-your-identity
-permalink: /es/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
+permalink: /es/help/verify-your-identity/phone-number/
 order: 5
 ---
 Para completar con éxito la verificación de la identidad, debe proporcionar un número de teléfono con domicilio en EE.UU. a su nombre en el plan telefónico. 
 
 En caso de que no pueda realizar este paso, haga clic en "Verificar su dirección por correo". Tendrá que esperar a recibir una carta por correo y luego deberá seguir las instrucciones para introducir el código. 
-
-**¿Qué pasa si tengo un plan familiar?** 
-Puede utilizar un número de teléfono de un plan familiar si es tu número de teléfono principal. Intentaremos comparar el número de teléfono con tus otros registros públicos. 
-
-**¿Qué pasa si mi plan telefónico no tiene mi dirección actual o tiene la dirección del titular de la cuenta principal?** 
-Puede utilizar un número de teléfono y un plan telefónico que tenga una dirección diferente. Intentaremos comparar el número de teléfono con sus otros registros públicos. 
 
 **¿Qué pasa si tengo una cuenta de prepago y un teléfono móvil?** 
 Los teléfonos prepago pueden utilizarse para la verificación de su identidad. Sin embargo, algunos números de teléfono prepago contienen factores de riesgo que pueden dificultar la verificación de su identidad.

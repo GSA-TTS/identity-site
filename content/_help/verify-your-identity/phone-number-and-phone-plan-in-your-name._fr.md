@@ -1,10 +1,10 @@
 ---
-title: "Numéro de téléphone et forfait téléphonique à votre nom "
+title: Vérifiez votre numéro de téléphone
 category: verify-your-identity
-permalink: /fr/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
+permalink: /fr/help/verify-your-identity/phone-number/
 order: 5
 ---
-Vous devez fournir un numéro de téléphone basé aux États-Unis avec votre nom sur le plan téléphonique pour réussir la vérification d'identité.
+Vous devez fournir un numéro de téléphone basé aux États-Unis pour réussir la vérification d'identité. Ce numéro de téléphone doit être votre numéro principal ou le numéro que vous utilisez le plus souvent. Nous tenterons de faire correspondre ce numéro de téléphone avec les enregistrements.
 
 Si vous ne pouvez pas effectuer cette étape, cliquez sur “Vérifiez plutôt votre adresse par courrier”. Vous devrez attendre de recevoir une lettre par la poste, puis suivre les instructions pour saisir le code.
 
