@@ -4,13 +4,13 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/verify-your-address-by-mail/
 order: 6
 ---
-La verificación de la identidad es el proceso en el que acreditas que eres tú realmente y no alguien que se hace pasar por ti. Uno de los pasos de este proceso requiere que dispongas de un número de teléfono con un plan telefónico a tu nombre para verificar tu domicilio de forma rápida. 
+La verificación de la identidad es el proceso en el que acreditas que eres tú realmente y no alguien que se hace pasar por ti. Uno de los pasos de este proceso requiere que proporcione su número de teléfono principal para verificar su identidad.
 
-No obstante, si no cuentas con un plan telefónico a tu nombre, también ofrecemos la posibilidad de enviarte por correo postal una carta con un código de confirmación. Este código te permitirá terminar de verificar tu identidad y configurar la cuenta.
+Si no puede verificarla por teléfono, le enviaremos una carta con un código único. Este código te permitirá terminar de verificar tu identidad y configurar la cuenta.
 
-La carta se envía a través del Servicio Postal de EE. UU. entre tres y siete días hábiles a partir del momento en que la solicitas. Tendrás 30 días (desde el momento de la solicitud) para ingresar el código de confirmación.
+La carta se envía a través del Servicio Postal de EE. UU. entre tres y siete días hábiles a partir del momento en que la solicitas. El código único caducará 30 días después de la fecha en que envíe su solicitud.
 
-Ten en mente que si no recibes la carta o si el código de confirmación caduca antes de completar el proceso de verificación de identidad, lo que deberás hacer es solicitar un código de confirmación nuevo.
+Ten en mente que si no recibes la carta o si el código único caduca antes de completar el proceso de verificación de identidad, lo que deberás hacer es solicitar un código nuevo.
 
 ## Para solicitar un código nuevo
 
