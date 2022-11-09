@@ -1,23 +1,24 @@
 ---
-title: Verifica tu domicilio a través del correo postal
+title: Validez votre adresse par courrier
 category: verify-your-identity
-permalink: /es/help/verify-your-identity/verify-your-address-by-mail/
+permalink: /fr/help/verify-your-identity/verify-your-address-by-mail/
+meta_title: null
 order: 6
+redirect_from: null
 ---
-La verificación de la identidad es el proceso en el que acreditas que eres tú realmente y no alguien que se hace pasar por ti. Uno de los pasos de este proceso requiere que dispongas de un número de teléfono con un plan telefónico a tu nombre para verificar tu domicilio de forma rápida. 
+La vérification d'identité est le processus par lequel vous prouvez que vous êtes vous-même - et non quelqu'un qui prétend être vous. L'une des étapes de ce processus exige que vous fournissiez votre numéro de téléphone principal pour vérifier votre identité.
 
-No obstante, si no cuentas con un plan telefónico a tu nombre, también ofrecemos la posibilidad de enviarte por correo postal una carta con un código de confirmación. Este código te permitirá terminar de verificar tu identidad y configurar la cuenta.
+Si vous ne pouvez pas effectuer la vérification par téléphone, nous vous enverrons une lettre contenant un code à usage unique. Vous utiliserez ce code pour terminer la vérification de votre identité et la configuration de votre compte.
 
-La carta se envía a través del Servicio Postal de EE. UU. entre tres y siete días hábiles a partir del momento en que la solicitas. Tendrás 30 días (desde el momento de la solicitud) para ingresar el código de confirmación.
+La lettre est envoyée via le service postal américain trois à sept jours ouvrables après que vous ayez demandé le code. Le code à usage unique expirera 30 jours après la date à laquelle vous avez envoyé votre demande.
 
-Ten en mente que si no recibes la carta o si el código de confirmación caduca antes de completar el proceso de verificación de identidad, lo que deberás hacer es solicitar un código de confirmación nuevo.
+Si vous ne recevez pas votre lettre ou si votre code à usage unique expire avant la fin du processus de vérification d'identité, vous pouvez demander un nouveau code à usage unique.
 
-## Para solicitar un código nuevo
+## Pour demander un nouveau code
 
 {: .number-list}
-1. Ve a [https://secure.login.gov](https://secure.login.gov).
-2. Selecciona "Deseo obtener un código nuevo de confirmación" cuando se te pida que ingreses el código.
+1. Accédez à [https://secure.login.gov](https://secure.login.gov).
+2. Sélectionnez « Envoyez-moi un nouveau code à usage unique » lorsque vous êtes invité à entrer votre code.
 
-## Artículos relacionados 
-
-- [Verifica tu identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
+## Articles Liés
+- [Vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
