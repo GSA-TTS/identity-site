@@ -2,6 +2,8 @@
 title: Verifique su número de teléfono
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/phone-number/
+redirect_from:
+  - /es/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 order: 5
 ---
 Para completar con éxito la verificación de la identidad, debe proporcionar un número de teléfono con domicilio en EE.UU. a su nombre en el plan telefónico. 
