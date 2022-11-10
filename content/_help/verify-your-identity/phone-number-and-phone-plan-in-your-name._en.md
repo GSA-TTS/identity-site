@@ -5,6 +5,8 @@ category: verify-your-identity
 permalink: /help/verify-your-identity/phone-number/
 order: 5
 redirect_from:
+  - /help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
+  - /en/help/verify-your-identity/phone-number/
   - /en/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 ---
 You need to provide a U.S. based phone number to successfully complete identity verification. This phone number should be your primary number or the number that you use most often. We will attempt to match the phone number with records. 
