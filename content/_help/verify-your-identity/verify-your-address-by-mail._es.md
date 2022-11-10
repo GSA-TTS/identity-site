@@ -16,7 +16,7 @@ Ten en mente que si no recibes la carta o si el código único caduca antes de c
 
 {: .number-list}
 1. Ve a [https://secure.login.gov](https://secure.login.gov).
-2. Selecciona "Deseo obtener un código nuevo" cuando se te pida que ingreses el código.
+2. Cuando se le pida que introduzca su código, seleccione "Envíeme un nuevo código único". 
 
 ## Artículos relacionados 
 
