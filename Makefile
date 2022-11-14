@@ -43,7 +43,7 @@ validate-gemfile-lock: Gemfile Gemfile.lock
 
 validate-package-lock: package.json package-lock.json
 	@echo "Validating package-lock.json..."
-	test -z "$$SKIP_INSTALL" && npm install --ignore-scripts
+	@test -z "$$SKIP_INSTALL" && npm install --ignore-scripts || exit 0
 	@(! git diff --name-only | grep package-lock.json) || (echo "Error: There are uncommitted changes after running 'npm install'"; exit 1)
 
 validate-lockfiles: validate-gemfile-lock validate-package-lock
