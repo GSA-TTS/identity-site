@@ -57,8 +57,8 @@ Login.gov est un site web gouvernemental sécurisé qui respecte les normes les 
     * Cliquez sur « Continuer ».
 1. Entrez votre numéro de sécurité sociale et cliquez sur « Continuer ».
 1. Vérifiez que les informations que vous avez fournies jusqu'à présent sont correctes et cliquez sur « Continuer ».
-1. Saisissez un numéro de téléphone avec votre nom sur le plan. C'est la dernière étape de la vérification de l'identité.
-    * Si vous n'avez pas d'abonnement téléphonique avec votre nom ou un numéro de téléphone américain, cliquez sur « Recevoir un code par courrier ». Vous allez devoir attendre de recevoir un courrier par la poste, puis suivre les instructions pour saisir le code.
+1. Saisissez votre numéro de téléphone principal. Il s'agit de la dernière étape de la vérification d'identité.
+    * Si vous n'avez pas de numéro de téléphone américain ou si vous ne pouvez pas vérifier par téléphone, cliquez sur « Vérifiez plutôt votre adresse par courrier ». Vous devrez attendre de recevoir une lettre par la poste, puis suivre les instructions pour saisir le code.
 1. Une fois votre identité vérifiée, vous devez crypter votre compte. Saisissez à nouveau votre mot de passe Login.gov. Cliquez sur « Continuer ».
 1. Prenez note de votre clé personnelle et conservez-la en lieu sûr. Vous devrez entrer votre clé personnelle immédiatement à la page suivante. Cliquez sur « Continuer ».
 
