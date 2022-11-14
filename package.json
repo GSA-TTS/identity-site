@@ -23,7 +23,7 @@
     "url": "https://github.com/18F/identity-site/issues"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "homepage": "https://github.com/18F/identity-site#readme",
   "main": "webpack.config.js",
