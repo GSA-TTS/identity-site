@@ -73,11 +73,11 @@ Physical PIV (personal identity verification) cards or CACs (common access cards
 
 Text messages/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers, and other attacks. You are required to select more than one authentication method if you choose text or voice message.
 
-If you choose to use this less secure option, enter a phone number at which you can receive phone calls or text messages. If you only have a landline, you must receive your security code by phone call. Login.gov cannot send security codes to extensions or voicemails.
+If you choose to use this less secure option, enter a phone number at which you can receive phone calls or text messages. If you only have a landline, you must receive your one-time code by phone call. Login.gov cannot send one-time codes to extensions or voicemails.
 
-We will send a unique security code to that phone number each time you sign in to your Login.gov account. Each security code expires after ten minutes and can only be used once. If you don’t enter the security code within ten minutes, request a new code.
+We will send a unique one-time code to that phone number each time you sign in to your Login.gov account. Each one-time code expires after ten minutes and can only be used once. If you don’t enter the one-time code within ten minutes, request a new code.
 
-After you receive the code, type it into the “one-time security code” field. Each time you sign in to Login.gov you’ll have the option of getting a new security code by phone call or by text. You will receive a new security code each time you sign in to your Login.gov account.
+After you receive the code, type it into the “one-time one-time code” field. Each time you sign in to Login.gov you’ll have the option of getting a new one-time code by phone call or by text. You will receive a new one-time code each time you sign in to your Login.gov account.
 
 ## Backup codes (less secure)
 
