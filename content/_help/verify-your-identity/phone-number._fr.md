@@ -1,18 +1,14 @@
 ---
-title: "Numéro de téléphone et forfait téléphonique à votre nom "
+title: Vérifiez votre numéro de téléphone
 category: verify-your-identity
-permalink: /fr/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
+permalink: /fr/help/verify-your-identity/phone-number/
 order: 5
+redirect_from:
+  - /fr/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 ---
-Vous devez fournir un numéro de téléphone basé aux États-Unis avec votre nom sur le plan téléphonique pour réussir la vérification d'identité.
+Vous devez fournir un numéro de téléphone basé aux États-Unis pour procéder à la vérification de votre identité. Ce numéro de téléphone doit être votre numéro principal ou le numéro que vous utilisez le plus souvent. Nous tenterons de faire correspondre ce numéro de téléphone avec les enregistrements.
 
 Si vous ne pouvez pas effectuer cette étape, cliquez sur “Vérifiez plutôt votre adresse par courrier”. Vous devrez attendre de recevoir une lettre par la poste, puis suivre les instructions pour saisir le code.
-
-**Que se passe-t-il si je suis dans un plan familial?**
-Vous pouvez utiliser un numéro de téléphone d'un plan familial s'il s'agit de votre numéro de téléphone principal. Nous tenterons de faire correspondre le numéro de téléphone à vos autres dossiers publics.
-
-**Que se passe-t-il si mon adresse actuelle ne figure pas sur mon abonnement téléphonique ou si l'adresse du titulaire principal du compte y figure?**
-Vous pouvez utiliser un numéro de téléphone et un abonnement téléphonique avec une adresse différente. Nous tenterons de faire correspondre le numéro de téléphone à vos autres dossiers publics.
 
 **Que se passe-t-il si j'ai un compte et un téléphone portable prépayés?**
 Les téléphones prépayés peuvent être utilisés pour la vérification de l'identité. Cependant, certains numéros de téléphone prépayés contiennent des facteurs de risque qui peuvent faire échouer la vérification d'identité.
