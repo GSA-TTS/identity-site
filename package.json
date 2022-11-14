@@ -23,14 +23,14 @@
     "url": "https://github.com/18F/identity-site/issues"
   },
   "engines": {
-    "node": ">=12.x.x"
+    "node": ">=16"
   },
   "homepage": "https://github.com/18F/identity-site#readme",
   "main": "webpack.config.js",
   "keywords": [],
   "devDependencies": {
     "@18f/eslint-plugin-identity": "^1.0.0",
-    "@axe-core/puppeteer": "^4.1.0",
+    "@axe-core/puppeteer": "^4.5.1",
     "@babel/eslint-plugin": "^7.14.5",
     "acorn": "^8.5.0",
     "core-js": "^3.19.0",
