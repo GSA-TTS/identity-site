@@ -5,7 +5,6 @@ permalink: /fr/help/verify-your-identity/phone-number/
 order: 5
 redirect_from:
   - /fr/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
-  - /fr/help/verify-your-identity/phone-number/
 ---
 Vous devez fournir un numéro de téléphone basé aux États-Unis pour procéder à la vérification de votre identité. Ce numéro de téléphone doit être votre numéro principal ou le numéro que vous utilisez le plus souvent. Nous tenterons de faire correspondre ce numéro de téléphone avec les enregistrements.
 
