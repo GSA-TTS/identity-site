@@ -19,9 +19,9 @@ redirect_from:
 En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d'authentification secondaire pour assurer la sécurité de votre compte. Il s'agit d'une authentification à deux facteurs (A2F). Nous utilisons l'A2F comme un niveau de protection supplémentaire pour sécuriser vos informations.
 
 **Authentification secondaire**
-Nous vous conseillons d'ajouter deux méthodes d'authentification à votre compte. Si vous perdez l'accès à votre principale méthode d'authentification (c'est-à-dire si vous perdez votre téléphone), vous pourrez utiliser une deuxième option pour accéder à votre compte. 
+Nous vous conseillons d'ajouter deux méthodes d'authentification à votre compte. Si vous perdez l'accès à votre principale méthode d'authentification (c'est-à-dire si vous perdez votre téléphone), vous pourrez utiliser une deuxième option pour accéder à votre compte.
 
-Si vous choisissez le texte ou le message vocal, vous devez sélectionner une méthode d'authentification supplémentaire. Login.gov n'est pas en mesure de vous donner accès à votre compte si vous êtes bloqué et/ou si vous perdez votre méthode d'authentification. 
+Si vous choisissez le texte ou le message vocal, vous devez sélectionner une méthode d'authentification supplémentaire. Login.gov n'est pas en mesure de vous donner accès à votre compte si vous êtes bloqué et/ou si vous perdez votre méthode d'authentification.
 
 Si vous êtes bloqué, vous devrez supprimer votre compte et en créer un nouveau.
 
@@ -75,11 +75,11 @@ Les cartes physiques PIV (vérification d'identité personnelle) ou CAC (cartes 
 
 Les messages texte/SMS ou les appels téléphoniques sont pratiques, mais sont extrêmement vulnérables face au vol, au piratage et à d'autres attaques. Vous devez sélectionner plus d'une méthode d'authentification si vous choisissez le texte ou le message vocal.
 
-Si vous choisissez d'utiliser cette option moins sécurisée, saisissez un numéro de téléphone sur lequel vous pouvez recevoir des appels téléphoniques ou des messages texte. Si vous ne disposez que d'une ligne fixe, vous recevrez votre code de sécurité par appel téléphonique. Login.gov ne peut pas envoyer de codes de sécurité aux extensions ou aux messageries vocales.
+Si vous choisissez d'utiliser cette option moins sécurisée, saisissez un numéro de téléphone sur lequel vous pouvez recevoir des appels téléphoniques ou des messages texte. Si vous avez seulement une ligne fixe, vous devez recevoir votre code à usage unique par appel téléphonique. Login.gov ne peut pas envoyer de codes unique à des extensions ou des messages vocaux.
 
-Nous enverrons un code de sécurité unique à ce numéro de téléphone chaque fois que vous vous connecterez à votre compte Login.gov. Chaque code de sécurité expire au bout de dix minutes et ne peut être utilisé qu'une seule fois. Si vous n'avez pas saisi le code de sécurité au bout de dix minutes, demandez un nouveau code.
+Nous enverrons un code unique à ce numéro de téléphone chaque fois que vous vous connecterez à votre compte login.gov. Chaque code à usage unique expire après dix minutes et ne peut être utilisé qu'une seule fois. Si vous ne saisissez pas le code unique dans les dix minutes, demandez un nouveau code.
 
-Après avoir reçu le code, saisissez-le dans le champ « code de sécurité unique ». Chaque fois que vous vous connecterez sur Login.gov, vous aurez le choix entre obtenir le nouveau code de sécurité par téléphone ou par message texte. Vous recevrez un nouveau code de sécurité chaque fois que vous vous connecterez à votre compte Login.gov.
+Après avoir reçu le code, tapez-le dans le champ « Code à usage unique ». Chaque fois que vous vous connecterez à login.gov, vous aurez la possibilité d'obtenir un nouveau code à usage unique par appel téléphonique ou par SMS. Vous recevrez un nouveau code à usage unique chaque fois que vous vous connecterez à votre compte login.gov.
 
 ## Codes de secours (moins sécurisés)
 

@@ -22,7 +22,7 @@ Además de su contraseña, es necesario que usted configure por lo menos un mét
 **Autenticación secundaria**
 Le recomendamos que agregue dos métodos de autenticación a su cuenta. Si no puede acceder a su método de autenticación principal (por ejemplo, si pierde su teléfono), tendrá una segunda opción para acceder a su cuenta. Si usted llega a ser bloqueado o pierde su método de autenticación, Login.gov no podrá permitirle acceder a su cuenta.
 
-Si selecciona mensaje de texto o de voz, debe seleccionar un método de autenticación adicional. Login.gov no puede concederle acceso a su cuenta si se bloquea y/o pierde su método de autenticación. 
+Si selecciona mensaje de texto o de voz, debe seleccionar un método de autenticación adicional. Login.gov no puede concederle acceso a su cuenta si se bloquea y/o pierde su método de autenticación.
 Si tiene un bloqueo, tendrá que borrar su cuenta y crear una nueva.
 
 **Seguridad**
@@ -75,11 +75,11 @@ Las tarjetas físicas de PIV (Verificación de Identidad Personal) y las CAC (Ta
 
 Los mensajes de texto y las llamadas telefónicas resultan prácticos, pero son extremadamente vulnerables ante robos, jaqueos y otros ataques. Debe seleccionar más de un método de autenticación, si elige mensaje de texto o de voz.
 
-Si usted elige utilizar esta opción menos segura, ingrese un número de teléfono en el que pueda recibir llamadas telefónicas o mensajes de texto. Si solo tiene un teléfono fijo, debe recibir su código de seguridad por llamada. Iogin.gov no puede enviar códigos de seguridad a extensiones telefónicas o buzones de voz.
+Si usted elige utilizar esta opción menos segura, ingrese un número de teléfono en el que pueda recibir llamadas telefónicas o mensajes de texto. Si sólo tiene un teléfono fijo, debe recibir su código de un solo uso por llamada telefónica. Login.gov no permite enviar códigos de un solo uso a las extensiones o a los buzones de voz.
 
-Le enviaremos un código de seguridad único a ese número de teléfono cada vez que inicie sesión en su cuenta de Login.gov. Cada código de seguridad caduca después de diez minutos y solo se puede usar una vez. Si usted no introduce el código de seguridad en un lapso de diez minutos, solicite uno nuevo.
+Le enviaremos un código de un solo uso a ese número de teléfono cada vez que acceda a su cuenta de login.gov. Cada código único caduca a los diez minutos y sólo puede utilizarse una vez. Si no introduce el código único en los diez primeros minutos, solicite un nuevo código.
 
-Cuando haya recibido el código, escríbalo en el recuadro de "Código de seguridad único". Cada vez que inicie sesión en Login.gov tendrá la opción de recibir un nuevo código de seguridad por llamada telefónica o mensaje de texto. Usted recibirá un nuevo código de seguridad cada vez que inicie sesión en su cuenta de Login.gov.
+Después de haber recibido el código, introdúzcalo en el campo "Código único". Cada vez que acceda a login.gov tendrá la opción de obtener un nuevo código de un solo uso mediante una llamada telefónica o un mensaje de texto. Recibirá un nuevo código de un solo uso cada vez que acceda a su cuenta de login.gov.
 
 ## Códigos de recuperación (menos seguros)
 
