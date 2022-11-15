@@ -77,7 +77,7 @@ If you choose to use this less secure option, enter a phone number at which you 
 
 We will send a unique one-time code to that phone number each time you sign in to your Login.gov account. Each one-time code expires after ten minutes and can only be used once. If you don’t enter the one-time code within ten minutes, request a new code.
 
-After you receive the code, type it into the “one-time one-time code” field. Each time you sign in to Login.gov you’ll have the option of getting a new one-time code by phone call or by text. You will receive a new one-time code each time you sign in to your Login.gov account.
+After you receive the code, type it into the “One-time code” field. Each time you sign in to Login.gov you’ll have the option of getting a new one-time code by phone call or by text. You will receive a new one-time code each time you sign in to your Login.gov account.
 
 ## Backup codes (less secure)
 
