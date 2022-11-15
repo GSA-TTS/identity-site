@@ -20,7 +20,7 @@ Siga estos pasos para iniciar sesión en Login.gov:
    * Usar el desbloqueo facial o táctil
    * Ingresar un código de seguridad de su aplicación de autenticación.
    * Usar su llave de seguridad.
-   * Ingresar un código de seguridad que recibirá por mensaje de texto o llamada telefónica.
+   * Ingrese un código de un solo uso que recibirá mediante un mensaje de texto o una llamada telefónica
    * Ingresar un código de verificación.
    * Utilizar su ID de empleado del Gobierno Federal o del ejército (PIV o CAC)
 5. Entonces, será redirigido la página de su cuenta de Login.gov.
