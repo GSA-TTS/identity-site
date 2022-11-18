@@ -35,6 +35,8 @@ report_issue_content: >-
   ## Report an issue
 
   If you want to report an issue, please review our vulnerability disclosure policy [vulnerability disclosure policy](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/ "Follow link") and contact us using our [vulnerability disclosure form](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Follow link").
+
+outage_content: Login.gov’s Contact Center is currently undergoing maintenance from <strong>November 18th, 2022 9 P.M. EDT - November 19th, 2022 1 A.M. EDT.</strong> Please visit our FAQs below for assistance.
 scripts:
   - /assets/js/build/contact.js
 permalink: /contact/

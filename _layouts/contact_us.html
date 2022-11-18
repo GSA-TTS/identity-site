@@ -8,27 +8,35 @@ common_applications:
   - Social Security Administration (SSA)
   - Trusted Traveler Programs (Global Entry/Nexus/Sentri)
 ---
+<div class="usa-alert usa-alert--warning">
+  <div class="usa-alert__body">
+    <p class="usa-alert__text">{{ page.outage_content }} </p>
+  </div>
+</div>
 
 {{ page.help_center_content | markdownify }} 
+{% if false %}
+  <div class="page-content__section">
+    
+    {{ page.intro_content | markdownify }} 
+    
+    {% if site.contact_phone_number_enabled and site.contact_phone_number and 
+      site.contact_phone_number_location == 'top' %} 
+      {% include contact_phone.html %} 
+    {% endif %}
 
-<div class="page-content__section">
-  
-  {{ page.intro_content | markdownify }} 
-  
-  {% if site.contact_phone_number_enabled and site.contact_phone_number and 
-     site.contact_phone_number_location == 'top' %} 
-    {% include contact_phone.html %} 
-  {% endif %}
+    <div class="desktop:grid-col-9">
+      
+        {% include contact_form.html common_applications=layout.common_applications %}
+      
+    </div>
 
-  <div class="desktop:grid-col-9">
-    {% include contact_form.html common_applications=layout.common_applications %}
+    {% if site.contact_phone_number_enabled and site.contact_phone_number and
+      site.contact_phone_number_location == 'bottom' %} 
+      {% include contact_phone.html %} 
+    {% endif %}
   </div>
-
-  {% if site.contact_phone_number_enabled and site.contact_phone_number and
-     site.contact_phone_number_location == 'bottom' %} 
-    {% include contact_phone.html %} 
-  {% endif %}
-</div>
+{% endif %}
 
 <div class="page-content__section">{{ page.partner_content | markdownify }}</div>
 <div class="page-content__section">{{ page.report_issue_content | markdownify }}</div>

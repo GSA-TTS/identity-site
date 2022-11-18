@@ -36,6 +36,9 @@ report_issue_content: >-
 
   Si deseas reportar un problema, consulta nuestra [política de divulgación de vulnerabilidades](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/ "Follow link") y contáctanos mediante nuestro [formulario de divulgación de vulnerabilidades](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Follow link").
 
+outage_content: El centro de atención de Login.gov estará en mantenimiento desde las 9 p. m. del 18 de noviembre de 2022 y hasta la 1 a. m. del 19 de noviembre de 2022, hora del este (EDT). Por favor, consulte a continuación nuestra sección de preguntas frecuentes para obtener ayuda.
+
+
 scripts:
   - /assets/js/build/contact.js
 permalink: /es/contact/
