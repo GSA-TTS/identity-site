@@ -1,4 +1,4 @@
-run: jekyll npm-watch-js
+run: jekyll npm-watch-js npm-watch-css
 
 _config.dev.yml:
 	touch _config.dev.yml
@@ -8,3 +8,6 @@ jekyll: _config.dev.yml
 
 npm-watch-js:
 	NODE_ENV=development npm run watch-js
+
+npm-watch-css:
+	npm run watch-css

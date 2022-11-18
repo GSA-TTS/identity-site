@@ -27,8 +27,10 @@ test-urls: build
 htmlproofer:
 	bundle exec scripts/htmlproofer
 
+build: export NODE_ENV := production
 build:
 	npm run build-js
+	npm run build-css
 	bundle exec jekyll build
 
 nu:

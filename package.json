@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "login.gov static site",
   "scripts": {
+    "prebuild-css": "mkdir -p _site/assets/css",
+    "build-css": "build-sass assets/scss/*.scss --out-dir=_site/assets/css",
+    "watch-css": "npm run build-css -- --watch",
     "build-js": "webpack --config webpack.config.js --progress --color",
     "pages": "npm run build-js",
     "watch-js": "webpack -w --config webpack.config.js --progress --color",
@@ -49,6 +52,7 @@
     "vnu-jar": "^21.10.12"
   },
   "dependencies": {
+    "@18f/identity-build-sass": "^1.0.0",
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
     "babel-loader": "^8.2.4",
