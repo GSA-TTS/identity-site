@@ -7,7 +7,9 @@ require 'fileutils'
 
 def copy_assets(origin, destination)
   origin_glob = File.join(origin, '**/*')
-  origin_files = Dir.glob(origin_glob).reject { |f| File.directory?(f) }
+  origin_files = Dir.glob(origin_glob).
+    reject { |f| File.directory?(f) }.
+    reject { |f| f.include?('/favicons/') }
 
   origin_files.each do |origin_file|
     filename = origin_file.gsub(origin, '').gsub(%r{^/}, '')
