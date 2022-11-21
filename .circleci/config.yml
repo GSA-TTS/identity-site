@@ -36,9 +36,7 @@ commands:
     steps:
       - run:
           name: build the site
-          command: |
-            npm run build-js
-            bundle exec jekyll build
+          command: make build
 
 jobs:
   build:
