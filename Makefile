@@ -29,8 +29,7 @@ htmlproofer:
 
 build: export NODE_ENV := production
 build:
-	npm run build-js
-	npm run build-css
+	npm run build
 	bundle exec jekyll build
 
 nu:
