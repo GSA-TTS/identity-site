@@ -6,6 +6,7 @@ RSpec.describe '_site' do
       .css
       .gif
       .html
+      .ico
       .jpeg
       .jpg
       .js
@@ -22,14 +23,14 @@ RSpec.describe '_site' do
       admin/config.yml
       assets/css/main.css.map
       browserconfig.xml
-      favicon.ico
       manifest.json
       robots.txt
     ].to_set.freeze
 
     files = Dir.glob('**/*', base: SITE_ROOT).
       reject { |file| File.directory?(File.join(SITE_ROOT, file)) }.
-      reject { |file| allowlisted_files.include?(file) }
+      reject { |file| allowlisted_files.include?(file) }.
+      reject { |file| allowlisted_files.include?(File.basename(file)) }
 
     expect(files).to all(
       satisfy do |file|
