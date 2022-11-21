@@ -101,18 +101,28 @@ defaults:
 include:
   # dotfiles are excluded by default
   - .well-known
+  - docs/accessibility-assessment-ial1-account-creation.pdf
+  - docs/accessibility-assessment-ial2-identity-verification-process.pdf
 
 exclude:
+  - assets/js/build/main.js.LICENSE.txt
+  - babel.config.json
+  - CONTRIBUTING.md
+  - docs
   - Gemfile*
+  - jest.config.js
+  - LICENSE.md
   - Makefile*
   - node_modules
+  - OLD_URLS.yml
+  - package-lock.json
   - package.json
+  - README.md
   - scripts
   - spec
-  - webpack.config.js
+  - svgo.config.js
   - vendor
-  - /_pages/remove_content_from_these_redirects.todo
-
+  - webpack.config.js
 keep_files:
   - /assets/js/build/*
 
@@ -122,6 +132,9 @@ plugins:
   - jekyll-autoprefixer
 
 default_locale: en
+
+redirect_from:
+  json: false
 
 help_pages:
   - get-started
