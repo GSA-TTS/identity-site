@@ -56,17 +56,6 @@ scripts:
 styles:
   - /assets/css/main.css
 
-sass:
-  style: compressed
-  load_paths:
-    - _sass
-    - node_modules
-
-autoprefixer:
-  browsers:
-    - last 2 versions
-    - ie 11
-
 # Build settings
 kramdown:
   hard_wrap: true
@@ -113,6 +102,7 @@ exclude:
   - jest.config.js
   - LICENSE.md
   - Makefile*
+  - assets/scss
   - node_modules
   - OLD_URLS.yml
   - package-lock.json
@@ -124,12 +114,11 @@ exclude:
   - vendor
   - webpack.config.js
 keep_files:
-  - /assets/js/build/*
+  - assets/css
 
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
-  - jekyll-autoprefixer
 
 default_locale: en
 
