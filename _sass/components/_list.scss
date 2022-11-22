@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 .list {
   @include usa-link-style;
 
@@ -45,8 +47,8 @@ ul.help-question-list {
     padding-left: 2.25rem;
 
     &::before {
-      @include u-pin-top;
       @include u-pin-left;
+      top: math.div(rem-to-px($line-height) - 25px, 2);
       background-color: $navy;
       border-radius: 50%;
       color: $white;
@@ -60,19 +62,6 @@ ul.help-question-list {
 
     > ul {
       list-style-type: disc;
-    }
-  }
-
-  p {
-    // TODO: Remove once `$theme-body-line-height` is assigned as consistent with `$line-height`.
-    position: relative;
-    $line-height-offset: -0.02 * round(
-      ($line-height - line-height($theme-body-font-family, $theme-body-line-height)) * 100
-    );
-    top: $line-height-offset;
-
-    &:last-of-type {
-      margin-bottom: $line-height-offset;
     }
   }
 }
