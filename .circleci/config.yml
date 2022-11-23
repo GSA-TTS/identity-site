@@ -7,6 +7,9 @@ commands:
     steps:
       - restore_cache:
           keys:
+            - v2-dependencies-{{ checksum "Gemfile.lock" }}
+      - restore_cache:
+          keys:
             - v2-dependencies-{{ checksum "package-lock.json" }}
       - run:
           name: Switch Node.js version
