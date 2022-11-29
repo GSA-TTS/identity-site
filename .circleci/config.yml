@@ -7,7 +7,7 @@ commands:
     steps:
       - restore_cache:
           keys:
-            - v2-dependencies-{{ checksum "Gemfile.lock" }}
+            - v3-dependencies-{{ checksum "Gemfile.lock" }}
       - restore_cache:
           keys:
             - v2-dependencies-{{ checksum "package-lock.json" }}
@@ -28,7 +28,7 @@ commands:
       - save_cache:
           paths:
             - ./vendor/bundle
-          key: v2-dependencies-{{ checksum "Gemfile.lock" }}
+          key: v3-dependencies-{{ checksum "Gemfile.lock" }}
       - save_cache:
           paths:
             - ./node_modules
