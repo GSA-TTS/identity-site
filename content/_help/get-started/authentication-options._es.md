@@ -1,7 +1,7 @@
 ---
 title: Opciones de autenticacións
-permalink: /es/help/get-started/authentication-options/
 category: get-started
+permalink: /es/help/get-started/authentication-options/
 order: 2
 redirect_from:
   - /es/help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
@@ -16,7 +16,6 @@ redirect_from:
   - /es/help/authentication-methods/which-authentication-method-should-i-use/
   - /es/help/authentication-methods/
 ---
-
 Además de su contraseña, es necesario que usted configure por lo menos un método de autenticación secundario en Login.gov con el fin de mantener su cuenta segura. Se trata de una autenticación en dos pasos (2FA, por sus siglas en inglés). Usamos la autenticación en dos pasos como un filtro de seguridad adicional para proteger su información.
 
 **Autenticación secundaria**
@@ -29,6 +28,7 @@ Si tiene un bloqueo, tendrá que borrar su cuenta y crear una nueva.
 Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como las llaves de seguridad, las tarjetas de Verificación de Identidad Personal (PIV), las Tarjetas de Acceso Común (CAC ) y las aplicaciones de autenticación, son más seguros contra el phishing y el robo.
 
 ## Desbloqueo facial o táctil
+<sub>(﻿La opción de agregar este método de autenticación no está disponible por el momento)</sub>
 
 El desbloqueo facial o táctil emplea reconocimiento facial o huellas dactilares para iniciar sesión en su cuenta de Login.gov. Esta opción es a prueba de suplantación de identidad ("phishing").
 
