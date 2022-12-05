@@ -28,7 +28,7 @@ Si tiene un bloqueo, tendrá que borrar su cuenta y crear una nueva.
 Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como las llaves de seguridad, las tarjetas de Verificación de Identidad Personal (PIV), las Tarjetas de Acceso Común (CAC ) y las aplicaciones de autenticación, son más seguros contra el phishing y el robo.
 
 ## Desbloqueo facial o táctil
-<sub>(﻿La opción de agregar este método de autenticación no está disponible por el momento)</sub>
+<small>(﻿La opción de agregar este método de autenticación no está disponible por el momento)</small>
 
 El desbloqueo facial o táctil emplea reconocimiento facial o huellas dactilares para iniciar sesión en su cuenta de Login.gov. Esta opción es a prueba de suplantación de identidad ("phishing").
 

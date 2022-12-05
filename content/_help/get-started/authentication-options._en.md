@@ -27,7 +27,7 @@ We encourage you to add two methods for authentication to your account. If you l
 Although you can choose from several authentication options, some authentication methods such as Security Keys, PIV/CAC cards and authentication applications are more secure against phishing and theft.
 
 ## Face or touch unlock 
-<sub>(﻿The option to add this authentication method is temporarily unavailable)</sub>
+<small>(﻿The option to add this authentication method is temporarily unavailable)</small>
 
 Face or touch unlock uses either facial recognition or fingerprints to sign in to your Login.gov account. This option is resistant to phishing. 
 
