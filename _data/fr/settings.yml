@@ -24,7 +24,7 @@ contact_page:
   required: obligatoire
   call_us:
     title: Appelez-nous
-    operating_hours: Les heures d'ouverture sont du lundi au vendredi de 11 h à 20 h (heure de l'Est).
+    operating_hours: Les heures d'ouverture sont du lundi au vendredi de 8 h à 20 h (heure de l'Est).
   support_request_form:
     title: Soumettre un ticket d'assistance
     other: Other
