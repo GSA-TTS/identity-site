@@ -29,7 +29,7 @@ Si vous êtes bloqué, vous devrez supprimer votre compte et en créer un nouvea
 Bien que vous avez le choix entre plusieurs options d'authentification, certaines méthodes d'authentification telles que les clés de sécurité, les cartes à puce PIV/CAC et les applications d'authentification sont plus efficaces contre les tentatives d'hameçonnage et le vol.
 
 ## Déverrouillage facial ou tactile
-<small>(L'option permettant d'ajouter cette méthode d'authentification est temporairement indisponible)</small>
+<small class="display-block margin-top-neg-2"><em>(L'option permettant d'ajouter cette méthode d'authentification est temporairement indisponible)</em></small>
 
 Le déverrouillage facial ou tactile utilise la reconnaissance faciale ou les empreintes digitales pour vous connecter à votre compte Login.gov. Cette option est protégée contre le hameçonnage.
 
