@@ -24,7 +24,7 @@ contact_page:
   required: requerido
   call_us:
     title: Llámenos
-    operating_hours: El horario operativo es de lunes a viernes de 11:00 am a 8:00 pm hora del este.
+    operating_hours: El horario operativo es de lunes a viernes de 8:00 am a 8:00 pm hora del este.
   support_request_form:
     title: Enviar un tíquet de ayuda
     other: Otro
