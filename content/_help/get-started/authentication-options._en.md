@@ -21,7 +21,7 @@ redirect_from:
 In addition to your password, Login.gov requires that you set up at least one secondary authentication method to keep your account secure. This is two-factor authentication (2FA). We use 2FA as an added layer of protection to secure your information.
 
 **Secondary authentication**
-We encourage you to add two methods for authentication to your account. If you lose access to your primary authentication method (i.e. losing your phone), you’ll have a second option to use to get access to your account. If you select text or voice message, you are required to select an additional authentication method. Login.gov is unable to grant you access to your account if you get locked out and/or lose your authentication method. If you get locked out, you’ll have to delete your account and create a new one.
+We encourage you to add two methods for authentication to your account. If you lose access to your primary authentication method (i.e. losing your phone), you’ll have a second option to use to get access to your account. Login.gov is unable to grant you access to your account if you get locked out and/or lose your authentication method. If you get locked out, you’ll have to delete your account and create a new one.
 
 **Security**
 Although you can choose from several authentication options, some authentication methods such as Security Keys, PIV/CAC cards and authentication applications are more secure against phishing and theft.
@@ -72,7 +72,7 @@ Physical PIV (personal identity verification) cards or CACs (common access cards
 
 ## Text message / Phone call
 
-Text messages/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers, and other attacks. You are required to select more than one authentication method if you choose text or voice message.
+Text messages/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers, and other attacks. 
 
 If you choose to use this less secure option, enter a phone number at which you can receive phone calls or text messages. If you only have a landline, you must receive your one-time code by phone call. Login.gov cannot send one-time codes to extensions or voicemails.
 

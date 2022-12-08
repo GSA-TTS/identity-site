@@ -19,11 +19,7 @@ redirect_from:
 En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d'authentification secondaire pour assurer la sécurité de votre compte. Il s'agit d'une authentification à deux facteurs (A2F). Nous utilisons l'A2F comme un niveau de protection supplémentaire pour sécuriser vos informations.
 
 **Authentification secondaire**
-Nous vous conseillons d'ajouter deux méthodes d'authentification à votre compte. Si vous perdez l'accès à votre principale méthode d'authentification (c'est-à-dire si vous perdez votre téléphone), vous pourrez utiliser une deuxième option pour accéder à votre compte.
-
-Si vous choisissez le texte ou le message vocal, vous devez sélectionner une méthode d'authentification supplémentaire. Login.gov n'est pas en mesure de vous donner accès à votre compte si vous êtes bloqué et/ou si vous perdez votre méthode d'authentification.
-
-Si vous êtes bloqué, vous devrez supprimer votre compte et en créer un nouveau.
+Nous vous recommandons fortement d'ajouter deux méthodes d'authentification à votre compte. Si vous perdez l'accès à votre première méthode d'authentification (par exemple, si vous perdez votre téléphone), vous aurez la possibilité d'utiliser la seconde méthode pour accéder à votre compte. Login.gov n'est pas en mesure de vous donner accès à votre compte si vous êtes bloqué et/ou si vous oubliez votre méthode d'authentification. Si vous êtes bloqué, vous devrez supprimer votre compte et en créer un nouveau.
 
 **Sécurité**
 Bien que vous avez le choix entre plusieurs options d'authentification, certaines méthodes d'authentification telles que les clés de sécurité, les cartes à puce PIV/CAC et les applications d'authentification sont plus efficaces contre les tentatives d'hameçonnage et le vol.
@@ -74,7 +70,7 @@ Les cartes physiques PIV (vérification d'identité personnelle) ou CAC (cartes 
 
 ## Messages texte/appels téléphoniques
 
-Les messages texte/SMS ou les appels téléphoniques sont pratiques, mais sont extrêmement vulnérables face au vol, au piratage et à d'autres attaques. Vous devez sélectionner plus d'une méthode d'authentification si vous choisissez le texte ou le message vocal.
+Les messages texte/SMS ou les appels téléphoniques sont pratiques, mais sont extrêmement vulnérables face au vol, au piratage et à d'autres attaques.
 
 Si vous choisissez d'utiliser cette option moins sécurisée, saisissez un numéro de téléphone sur lequel vous pouvez recevoir des appels téléphoniques ou des messages texte. Si vous avez seulement une ligne fixe, vous devez recevoir votre code à usage unique par appel téléphonique. Login.gov ne peut pas envoyer de codes unique à des extensions ou des messages vocaux.
 

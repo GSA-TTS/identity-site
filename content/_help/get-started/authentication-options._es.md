@@ -19,10 +19,7 @@ redirect_from:
 Además de su contraseña, es necesario que usted configure por lo menos un método de autenticación secundario en Login.gov con el fin de mantener su cuenta segura. Se trata de una autenticación en dos pasos (2FA, por sus siglas en inglés). Usamos la autenticación en dos pasos como un filtro de seguridad adicional para proteger su información.
 
 **Autenticación secundaria**
-Le recomendamos que agregue dos métodos de autenticación a su cuenta. Si no puede acceder a su método de autenticación principal (por ejemplo, si pierde su teléfono), tendrá una segunda opción para acceder a su cuenta. Si usted llega a ser bloqueado o pierde su método de autenticación, Login.gov no podrá permitirle acceder a su cuenta.
-
-Si selecciona mensaje de texto o de voz, debe seleccionar un método de autenticación adicional. Login.gov no puede concederle acceso a su cuenta si se bloquea y/o pierde su método de autenticación.
-Si tiene un bloqueo, tendrá que borrar su cuenta y crear una nueva.
+Le recomendamos que añada dos métodos de autenticación a su cuenta. Si pierde el acceso a su método de autenticación principal (por ejemplo, si pierde su teléfono), tendrá una segunda opción para acceder a su cuenta. Login.gov no podrá concederle acceso a su cuenta si se bloquea y/o pierde su método de autenticación. Si se bloquea, tendrá que eliminar su cuenta y crear una nueva.
 
 **Seguridad**
 Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como las llaves de seguridad, las tarjetas de Verificación de Identidad Personal (PIV), las Tarjetas de Acceso Común (CAC ) y las aplicaciones de autenticación, son más seguros contra el phishing y el robo.
@@ -73,7 +70,7 @@ Las tarjetas físicas de PIV (Verificación de Identidad Personal) y las CAC (Ta
 
 ## Mensajes de texto y llamadas telefónicas
 
-Los mensajes de texto y las llamadas telefónicas resultan prácticos, pero son extremadamente vulnerables ante robos, jaqueos y otros ataques. Debe seleccionar más de un método de autenticación, si elige mensaje de texto o de voz.
+Los mensajes de texto y las llamadas telefónicas resultan prácticos, pero son extremadamente vulnerables ante robos, jaqueos y otros ataques.
 
 Si usted elige utilizar esta opción menos segura, ingrese un número de teléfono en el que pueda recibir llamadas telefónicas o mensajes de texto. Si sólo tiene un teléfono fijo, debe recibir su código de un solo uso por llamada telefónica. Login.gov no permite enviar códigos de un solo uso a las extensiones o a los buzones de voz.
 
