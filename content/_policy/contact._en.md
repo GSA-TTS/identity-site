@@ -36,7 +36,7 @@ report_issue_content: >-
 
   If you want to report an issue, please review our vulnerability disclosure policy [vulnerability disclosure policy](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/ "Follow link") and contact us using our [vulnerability disclosure form](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Follow link").
 scripts:
-  - /assets/js/build/contact.js
+  - /assets/js/contact.js
 permalink: /contact/
 redirect_from:
   - /en/contact/

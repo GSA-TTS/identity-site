@@ -199,7 +199,7 @@ collections:
           name: 'scripts',
           widget: 'file',
           allow_multiple: true,
-          default: '/assets/js/build/contact.js',
+          default: '/assets/js/contact.js',
           i18n: duplicate,
         }
       - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }

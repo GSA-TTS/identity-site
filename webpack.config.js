@@ -15,7 +15,7 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
 
   output: {
     filename: '[name].js',
-    path: `${__dirname}/assets/js/build`,
+    path: `${__dirname}/_site/assets/js`,
   },
 
   module: {

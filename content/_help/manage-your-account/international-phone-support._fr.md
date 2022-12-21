@@ -5,7 +5,7 @@ category: manage-your-account
 permalink: /fr/help/manage-your-account/international-phone-support/
 order: 6
 scripts:
-  - /assets/js/build/country_support.js
+  - /assets/js/country_support.js
 ---
 Utilisez les informations ci-dessous pour déterminer si votre numéro de téléphone international peut être utilisé comme méthode d'authentification à deux facteurs pour recevoir des SMS (messages texte) et/ou des appels téléphoniques. 
 

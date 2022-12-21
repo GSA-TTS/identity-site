@@ -37,6 +37,6 @@ report_issue_content: >-
   Si deseas reportar un problema, consulta nuestra [política de divulgación de vulnerabilidades](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/ "Follow link") y contáctanos mediante nuestro [formulario de divulgación de vulnerabilidades](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Follow link").
 
 scripts:
-  - /assets/js/build/contact.js
+  - /assets/js/contact.js
 permalink: /es/contact/
 ---
