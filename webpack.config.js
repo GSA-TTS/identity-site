@@ -6,6 +6,7 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
   entry: {
     main: './assets/js/main.js',
     contact: './assets/js/contact.js',
+    faqs: './assets/js/faqs.js',
     partners_contact: './assets/js/partners/contact.js',
     touchpoints_translations: './assets/js/touchpoints_translations.js',
     country_support: './assets/js/country_support.js',
