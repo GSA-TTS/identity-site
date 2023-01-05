@@ -26,7 +26,7 @@ El servicio de Login.gov protege su cuenta aplicando fuertes medidas de segurida
 
 Algunas aplicaciones gubernamentales que utilizan Login.gov exigen que los usuarios verifiquen su identidad. Esto significa que debe demostrar que es usted quien dice ser. Esa prueba ayuda a garantizar que solo las personas adecuadas tengan acceso a la información sensible.
 
-Solo se le pedirá que verifique su identidad la primera vez que inicie sesión en determinadas aplicaciones gubernamentales. Solo tiene que verificar su identidad una vez para su cuenta de Login.gov. Después de verificar su identidad con Login.gov para una aplicación gubernamental, no necesita hacerlo de nuevo para otras aplicaciones gubernamentales. Al proporcionar al servicio de Login.gov la información necesaria para verificar su cuenta, le autoriza a utilizar esa información para llevar a cabo las actividades necesarias para garantizar su identidad, incluido el intercambio de información con determinados terceros, en concreto con los servicios de comprobación de identidad. El servicio de Login.gov exige a esas partes que mantengan su información de forma confidencial y que no la utilicen para otros fines, como se detalla en nuestra \[política de privacidad.]({% link _policy/privacy._es.md %})
+Solo se le pedirá que verifique su identidad la primera vez que inicie sesión en determinadas aplicaciones gubernamentales. Solo tiene que verificar su identidad una vez para su cuenta de Login.gov. Después de verificar su identidad con Login.gov para una aplicación gubernamental, no necesita hacerlo de nuevo para otras aplicaciones gubernamentales. Al proporcionar al servicio de Login.gov la información necesaria para verificar su cuenta, le autoriza a utilizar esa información para llevar a cabo las actividades necesarias para garantizar su identidad, incluido el intercambio de información con determinados terceros, en concreto con los servicios de comprobación de identidad. El servicio de Login.gov exige a esas partes que mantengan su información de forma confidencial y que no la utilicen para otros fines, como se detalla en nuestra [política de privacidad.]({% link _policy/privacy._es.md %})
 
 El servicio de Login.gov emplea las mejores prácticas reconocidas de seguridad y privacidad.
 
@@ -45,7 +45,7 @@ Además de los detalles sobre su consentimiento indicados en otras partes de est
 
 Asimismo, acepta que NO falseará su identidad ni la información que presente en el servicio Login.gov, incluso a través de los canales de atención al cliente.
 
-También acepta que está obligado a cumplir estos términos y la \[política de privacidad]({% link _policy/index._es.md %}),y otros términos relacionados con el servicio de Login.gov.
+También acepta que está obligado a cumplir estos términos y la [política de privacidad]({% link _policy/index._es.md %}),y otros términos relacionados con el servicio de Login.gov.
 
 Publicaremos cualquier cambio en estos términos en esta página. Si los cambios afectan a nuestro control de su información personal o se consideran significativos, se lo notificaremos por correo electrónico. Si no podemos ponernos en contacto con usted por correo electrónico, nos reservamos el derecho de hacerlo por otros medios, incluido el correo postal. Si en cualquier momento deja de estar de acuerdo con estas condiciones o con cualquier otra condición relevante del servicio de Login.gov, puede cerrar su cuenta.
 
@@ -85,13 +85,13 @@ Después de que nos proporcione estas pruebas de identidad, intentamos validarla
 
 Del mismo modo, compararemos la información que nos proporcione con otros registros para aumentar la confianza en su identidad. Por ejemplo, podemos asegurarnos de que su nombre, fecha de nacimiento, dirección y número de la seguridad social coinciden en los registros de una oficina de crédito. Aunque no comprobaremos su crédito, nos aseguraremos de que esa persona existe para protegerle de un fraude de identidad. También podemos comprobar con otras fuentes, como los operadores de redes celulares, para confirmar la información que nos proporciona. Si no podemos validar su dirección por otras vías, podemos confirmar que vive en ella enviándole una carta con un código que se introduce en el servicio de Login.gov.
 
-Además de comprobar las pruebas de identidad que nos proporciona, verificamos que usted sea esa persona. Para ello, analizamos el dispositivo que se utiliza para ingresar a Login.gov, la identidad que se comprueba y el comportamiento del usuario durante la verificación de la identidad. Recogemos información del dispositivo para realizar esta evaluación. Esta información se almacena de manera que Login.gov no pueda leerla. Pero que Login.gov pueda realizar la evaluación. Ni Login.gov ni ningún otro servicio de terceros guarda copias de las fotos que nos envíe. En nuestra \[política de privacidad]({% link _policy/index._es.md %}) detallamos cómo utilizamos su información.
+Además de comprobar las pruebas de identidad que nos proporciona, verificamos que usted sea esa persona. Para ello, analizamos el dispositivo que se utiliza para ingresar a Login.gov, la identidad que se comprueba y el comportamiento del usuario durante la verificación de la identidad. Recogemos información del dispositivo para realizar esta evaluación. Esta información se almacena de manera que Login.gov no pueda leerla. Pero que Login.gov pueda realizar la evaluación. Ni Login.gov ni ningún otro servicio de terceros guarda copias de las fotos que nos envíe. En nuestra [política de privacidad]({% link _policy/index._es.md %}) detallamos cómo utilizamos su información.
 
 ## 5. Cancelación
 
 Puede cancelar su cuenta en cualquier momento a través de su perfil de cuenta. Además, en caso de fraude u otras violaciones de estas normas de uso, podemos revocar el acceso a su cuenta.
 
-Si esto ocurre, seguiremos protegiendo la información de su cuenta de acuerdo con nuestra \[política de privacidad]({% link _policy/index._es.md %}) y nuestro aviso de sistema de registro [aquí](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) y [aquí](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+Si esto ocurre, seguiremos protegiendo la información de su cuenta de acuerdo con nuestra [política de privacidad]({% link _policy/index._es.md %}) y nuestro aviso de sistema de registro [aquí](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) y [aquí](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
 
 En el improbable caso de que se interrumpa el servicio de Login.gov, la información de la cuenta se conservará con arreglo a nuestro aviso sobre el sistema de registros, en su versión modificada, al que puede acceder [aquí](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records)y [aquí](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records). Concretamente, la información de los usuarios, incluidos los perfiles, los archivos de inicio de sesión, los archivos de contraseñas, los archivos y extractos de registros de auditoría, los archivos de uso del sistema y los archivos de costos utilizados para evaluar los cargos por el uso del sistema, se destruyen 6 años después de la alteración de la contraseña o de la cancelación de la cuenta de usuario, a menos que se requiera una retención más prolongada para uso empresarial, como por ejemplo para asuntos de aplicación de la ley u otras acciones legales.
 
@@ -109,7 +109,7 @@ Como sistema de autenticación y puerta de entrada a las aplicaciones federales,
 
 ### 2. Asistencia al cliente
 
-La asistencia al cliente y los servicios de ayuda están siempre disponibles a través de \[https://login.gov/contact/]({% link _policy/contact._es.md %}). Cuando se somete al servicio de atención al cliente, utilizaremos cualquier información que nos proporcione para responder a su pregunta o comentario, y podremos utilizar sus comentarios para mejorar nuestro servicio o para otros fines que consideremos oportunos, como por ejemplo para fines de comercialización. Al hacerlo, nunca revelaremos su información personal fuera del servicio de Login.gov, excepto cuando lo exija la legislación aplicable o se indique en otra parte de estas condiciones.
+La asistencia al cliente y los servicios de ayuda están siempre disponibles a través de [https://login.gov/contact/]({% link _policy/contact._es.md %}). Cuando se somete al servicio de atención al cliente, utilizaremos cualquier información que nos proporcione para responder a su pregunta o comentario, y podremos utilizar sus comentarios para mejorar nuestro servicio o para otros fines que consideremos oportunos, como por ejemplo para fines de comercialización. Al hacerlo, nunca revelaremos su información personal fuera del servicio de Login.gov, excepto cuando lo exija la legislación aplicable o se indique en otra parte de estas condiciones.
 
 ## 8. Responsabilidades de nuestros socios
 
@@ -161,4 +161,4 @@ El hecho de que GSA no ejerza o haga cumplir cualquier derecho o disposición de
 
 ### 4. Contacto
 
-Si tiene preguntas sobre estos términos o cualquier otro aspecto del servicio de Login.gov, puede ponerse en contacto con nosotros en \[https://login.gov/contact/]({% link _policy/contact._es.md %}).
+Si tiene preguntas sobre estos términos o cualquier otro aspecto del servicio de Login.gov, puede ponerse en contacto con nosotros en [https://login.gov/contact/]({% link _policy/contact._es.md %}).
