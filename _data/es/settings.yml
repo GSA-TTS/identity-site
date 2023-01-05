@@ -20,15 +20,14 @@ banner:
     secure_heading: os sitios web seguros .gov usan HTTPS
     secure_description: 'Un <strong>candado</strong> o <strong>https://</strong> significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros.'
 contact_page:
-  operating_hours: El horario operativo es de lunes a viernes de 8:00 am a 8:00 pm hora del este. Cerramos con motivo de los festivos federales.
+  operating_hours: 'El horario de servicio es el siguiente: las 24 horas del día, los siete días de la semana.'
   required: requerido
   call_us:
     title: Llámenos
-    operating_hours: El horario operativo es de lunes a viernes de 8:00 am a 8:00 pm hora del este.
+    operating_hours: 'El horario de servicio es el siguiente: las 24 horas del día, los siete días de la semana.'
   support_request_form:
     title: Enviar un tíquet de ayuda
     other: Otro
-    help_text: Le pedimos que espere 2 días hábiles para recibir una respuesta. Gracias por su paciencia.
     required_text: Los campos obligatorios están marcados con un asterisco
     agencies:
       'Central Intelligence Agency': Agence centrale de renseignement
