@@ -20,15 +20,14 @@ banner:
     secure_heading: Les sites Web sécurisés .gov utilisent HTTPS
     secure_description: 'Un <strong>verrou</strong> ou <strong>https://</strong> signifie que vous êtes connecté en toute sécurité au site Web .gov. Partagez des informations sensibles uniquement sur des sites Web officiels et sécurisés.'
 contact_page:
-  operating_hours: Les heures d'ouverture sont du lundi au vendredi de 8 h à 20 h (heure de l'Est). Nous sommes fermés les jours fériés fédéraux.
+  operating_hours: Les heures d'ouverture sont de 24 heures par jour, sept jours par semaine.
   required: obligatoire
   call_us:
     title: Appelez-nous
-    operating_hours: Les heures d'ouverture sont du lundi au vendredi de 8 h à 20 h (heure de l'Est).
+    operating_hours: Les heures d'ouverture sont de 24 heures par jour, sept jours par semaine.
   support_request_form:
     title: Soumettre un ticket d'assistance
     other: Other
-    help_text: Veuillez prévoir 2 jours ouvrables pour recevoir une réponse. Nous vous remercions de votre patience.
     required_text: Les champs obligatoires sont marqués d'un astérisque
     agencies:
       'Central Intelligence Agency': Agence centrale de renseignement
