@@ -11,10 +11,10 @@ El servicio Login.gov lo proporciona la Administración de Servicios Generales d
 
 Estas condiciones de servicio proporcionan:
 
-- Información sobre cómo funciona el servicio Login.gov y qué puede esperar de él,
-- Los términos bajo los cuales le proporcionamos el servicio de Login.gov,
-- El uso que hacemos de su información y sus derechos sobre la misma, y
-- Las condiciones que acepta cuando realiza determinadas acciones en el servicio Login.gov.
+* Información sobre cómo funciona el servicio Login.gov y qué puede esperar de él,
+* Los términos bajo los cuales le proporcionamos el servicio de Login.gov,
+* El uso que hacemos de su información y sus derechos sobre la misma, y
+* Las condiciones que acepta cuando realiza determinadas acciones en el servicio Login.gov.
 
 ## 1. Definición de servicios generales
 
@@ -79,7 +79,7 @@ Si sospechamos que se ha producido un fraude en su cuenta, podemos bloquearla y 
 
 ## 4. Comprobación y verificación de la identidad
 
-La primera vez que intente iniciar sesión mediante Login.gov en una aplicación asociada que requiera un alto grado de certeza de que usted es quien dice ser, iniciamos un proceso denominado prueba de identidad. La prueba de identidad toma información sobre usted e intenta validar esa información y luego verificar que usted, el usuario, es el individuo que dice ser. Llamamos a esta información prueba de identidad y generalmente incluye su nombre, su fecha de nacimiento, su número de la seguridad social, su domicilio, una foto suya y una foto de su licencia de conducir o de su pasaporte. Usted acepta que los datos que proporciona son suyos, no los de otra persona, y que son veraces.
+La primera vez que intente iniciar sesión mediante Login.gov en una aplicación asociada que requiera un alto grado de certeza de que usted es quien dice ser, iniciamos un proceso denominado prueba de identidad. La prueba de identidad toma información sobre usted e intenta validar esa información y luego verificar que usted, el usuario, es el individuo que dice ser. Llamamos a esta información prueba de identidad y generalmente incluye su nombre, su fecha de nacimiento, su número de la seguridad social, su domicilio, y una foto de su licencia de conducir o de su pasaporte. Usted acepta que los datos que proporciona son suyos, no los de otra persona, y que son veraces.
 
 Después de que nos proporcione estas pruebas de identidad, intentamos validarlas con varias fuentes autorizadas. Utilizamos servicios de comprobación de identidad externos para que nos ayuden en esta validación. Por ejemplo, si nos envía una foto de su licencia de conducir de su estado de residencia, compararemos la información que aparece en ella con los datos autorizados del Departamento de Vehículos Motorizados (DMV) de su estado, la Administración de Vehículos Motorizados (MVA) o la agencia estatal equivalente para asegurarnos de que usted existe en esos registros. También utilizaremos la tecnología para buscar ciertas características de seguridad en la licencia de conducir para asegurarnos de que no es falso.
 
@@ -97,7 +97,7 @@ En el improbable caso de que se interrumpa el servicio de Login.gov, la informac
 
 ## 6. Autoridades
 
-El servicio de Login.gov funciona dentro de los Estados Unidos, pero se puede acceder a él en todo el mundo para su uso público. El servicio de Login.gov está explotado por la Administración de Servicios Generales en virtud de las autoridades y orientaciones que se encuentran en [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title6-section1523&amp;num=0&amp;edition=prelim), la [Ley de Gobierno Electrónico de 2002](https://www.congress.gov/107/plaws/publ347/PLAW-107publ347.pdf)([44 USC §](https://www.govinfo.gov/content/pkg/PLAW-104publ13/html/PLAW-104publ13.htm)[3501](https://www.govinfo.gov/content/pkg/PLAW-104publ13/html/PLAW-104publ13.htm)), [40 USC § 501](https://www.gsa.gov/cdnstatic/CNXII__Eligibility_to_Use_GSA.pdf) y [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
+El servicio de Login.gov funciona dentro de los Estados Unidos, pero se puede acceder a él en todo el mundo para su uso público. El servicio de Login.gov está explotado por la Administración de Servicios Generales en virtud de las autoridades y orientaciones que se encuentran en [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title6-section1523&num=0&edition=prelim), la [Ley de Gobierno Electrónico de 2002](https://www.congress.gov/107/plaws/publ347/PLAW-107publ347.pdf)([44 USC §](https://www.govinfo.gov/content/pkg/PLAW-104publ13/html/PLAW-104publ13.htm)[3501](https://www.govinfo.gov/content/pkg/PLAW-104publ13/html/PLAW-104publ13.htm)), [40 USC § 501](https://www.gsa.gov/cdnstatic/CNXII__Eligibility_to_Use_GSA.pdf) y [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
 ## 7. Funcionamiento del servicio y asistencia al cliente
 

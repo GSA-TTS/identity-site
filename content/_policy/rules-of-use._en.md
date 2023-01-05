@@ -24,7 +24,7 @@ The Login.gov service offers the public secure and private online access to part
 
 The Login.gov service partners with other federal agencies ("partners") to allow users to access those services with just one Login.gov account, eliminating the need to create many separate accounts across government.
 
-The Login.gov service protects your account by implementing strong security measures and protects your privacy by collecting the minimally necessary information from you and, in turn, revealing to partners only the information necessary for those partners to execute their service. And Login.gov never shares validated personal information with a partner without your explicit consent (which you can revoke that at any time) or if required by law.
+The Login.gov service protects your account by implementing strong security measures and protects your privacy by collecting the minimally necessary information from you and, in turn, revealing to partners only the information necessary for those partners to execute their service. And Login.gov never shares validated personal information with a partner without your explicit consent (which you can revoke at any time) or if required by law.
 
 Some government applications that use Login.gov require users to verify their identities. This means that you must prove that you are who you say you are. That proof helps ensure that only the right people get access to sensitive information.
 
@@ -80,7 +80,7 @@ If we suspect fraud on your account, we may lock your account and contact you. I
 
 ## 4. Identity Proofing and Verification
 
-The first time you try to log in using Login.gov at a partner application that requires a high degree of certainty that you are who you say you are, we initiate a process called identity proofing. Identity proofing takes information about you and attempts to validate that information and then verify that you, the user, are the individual you claim to be. We call this information identity evidence and it generally includes your name, date of birth, social security number, home address, a photo of yourself and a photo of identification, such as your driver's license or passport. You agree the information that you provide is your information - not someone else’s - and accurate.
+The first time you try to log in using Login.gov at a partner application that requires a high degree of certainty that you are who you say you are, we initiate a process called identity proofing. Identity proofing takes information about you and attempts to validate that information and then verify that you, the user, are the individual you claim to be. We call this information identity evidence and it generally includes your name, date of birth, social security number, home address, and a photo of identification, such as your driver's license or passport. You agree the information that you provide is your information - not someone else’s - and accurate.
 
 After you provide us with this identity evidence, we attempt to validate it against various authoritative sources. We use third party identity proofing services to assist us with this validation. For instance, if you submit a photo of your driver's license from your state of residence, we'll compare the information on it to the authoritative data from your state Department of Motor Vehicles (DMV), Motor Vehicle Administration (MVA), or equivalent state agency to ensure that you exist in those records. We'll also use technology to look for certain security features on the driver's license to ensure that it's not fake.
 
