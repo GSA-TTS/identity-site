@@ -24,7 +24,7 @@ The Login.gov service offers the public secure and private online access to part
 
 The Login.gov service partners with other federal agencies ("partners") to allow users to access those services with just one Login.gov account, eliminating the need to create many separate accounts across government.
 
-The Login.gov service protects your account by implementing strong security measures and protects your privacy by collecting the minimally necessary information from you and, in turn, revealing to partners only the information necessary for those partners to execute their service. And Login.gov never shares validated personal information with a partner without your explicit consent (which you can revoke that at any time) or if required by law.
+The Login.gov service protects your account by implementing strong security measures and protects your privacy by collecting the minimally necessary information from you and, in turn, revealing to partners only the information necessary for those partners to execute their service. And Login.gov never shares validated personal information with a partner without your explicit consent (which you can revoke at any time) or if required by law.
 
 Some government applications that use Login.gov require users to verify their identities. This means that you must prove that you are who you say you are. That proof helps ensure that only the right people get access to sensitive information.
 
