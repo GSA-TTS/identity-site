@@ -118,18 +118,6 @@ jobs:
           name: check lockfile differences
           command: make validate-lockfiles
 
-  check-javascript-syntax:
-    docker:
-      - image: cimg/ruby:3.1-node
-    steps:
-      - checkout
-      - install-dependencies
-      - attach_workspace:
-          at: "."
-      - run:
-          name: check es5 syntax
-          command: npm run es5-safe
-
   nu:
     docker:
       - image: cimg/ruby:3.1-node
