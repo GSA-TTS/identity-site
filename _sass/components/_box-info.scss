@@ -3,7 +3,7 @@
   border-radius: $border-radius;
   letter-spacing: $base-letter-spacing;
   line-height: $line-height;
-  padding: $container-spacing-sm ($container-spacing/2) $container-spacing
+  padding: $container-spacing-sm ($container-spacing * 0.5) $container-spacing
     $container-spacing;
 
   @include at-media("desktop") {
@@ -21,7 +21,7 @@
     width: 2rem;
 
     @include at-media("desktop") {
-      left: -($container-spacing-sm/2);
+      left: $container-spacing-sm * -0.5;
     }
   }
 }

@@ -20,15 +20,14 @@ banner:
     secure_heading: os sitios web seguros .gov usan HTTPS
     secure_description: 'Un <strong>candado</strong> o <strong>https://</strong> significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros.'
 contact_page:
-  operating_hours: El horario operativo es de lunes a viernes de 8:00 am a 8:00 pm hora del este. Cerramos con motivo de los festivos federales.
+  operating_hours: 'El horario de servicio es el siguiente: las 24 horas del día, los siete días de la semana.'
   required: requerido
   call_us:
     title: Llámenos
-    operating_hours: El horario operativo es de lunes a viernes de 11:00 am a 8:00 pm hora del este.
+    operating_hours: 'El horario de servicio es el siguiente: las 24 horas del día, los siete días de la semana.'
   support_request_form:
     title: Enviar un tíquet de ayuda
     other: Otro
-    help_text: Le pedimos que espere 2 días hábiles para recibir una respuesta. Gracias por su paciencia.
     required_text: Los campos obligatorios están marcados con un asterisco
     agencies:
       'Central Intelligence Agency': Agence centrale de renseignement
@@ -48,7 +47,7 @@ contact_page:
       'DOL Foreign Labor Application Gateway (FLAG)': Portal de solicitud de mano de obra extranjera (FLAG) del Departamento del Trabajo (DOL)
       'DOT Delphi eInvoicing': Facturación electrónica en Delphi del Departamento de Transporte (DOT)
       'DOT FMCSA (Motor Carrier Safety)': FMCSA del Departamento de Transporte (Seguridad de Autotransportes)
-      'DOT National Registry of Certified Medical Examiners': Registro Nacional de Examinadores Médicos Certificados del Departamento de Transporte      
+      'DOT National Registry of Certified Medical Examiners': Registro Nacional de Examinadores Médicos Certificados del Departamento de Transporte
       'Environmental Protection Agency': Agencia de Protección Ambiental
       'FDIC Resolution Request Management Portal': Portal de administración de resoluciones de solicitudes de la Corporación Federal de Seguro de Depósitos (FDIC)
       'General Services Administration': Administración de Servicios Generales
@@ -57,6 +56,7 @@ contact_page:
       'HHS Grants.gov': Grants.gov del HHS
       'HHS National Institutes of Health (NIH)': Institutos Nacionales de la Salud
       'Housing and Urban Development': Departamento de Vivienda y Desarrollo Urbano de EE. UU.
+      'Internal Revenue Service (IRS)': Servicio de Impuestos Internos (IRS)
       'Library of Congress': Biblioteca del Congreso
       'National Aeronautics and Space Administration': Administración Nacional de Aeronáutica y el Espacio
       'National Labor Relations Board': Junta Nacional de Relaciones Laborales
@@ -111,11 +111,11 @@ contact_page:
       concerned_login_email: Estoy preocupado por el correo electrónico de Login.gov que he recibido
       delete_account: ¿Cómo elimino mi cuenta de Login.gov?
       device_notification: He recibido una alerta sobre un nuevo inicio de sesión en mi cuenta de Login.gov
-      feedback: Tengo comentarios sobre Login.gov 
+      feedback: Tengo comentarios sobre Login.gov
       email_delivery_issue: No recibo el correo electrónico de confirmación de Login.gov
       forgot_password: Olvidé mi contraseña de Login.gov y no puedo restablecerla
       how_to_link: ¿Cómo puedo vincular la cuenta de mi agencia asociada con Login.gov?
-      how_to_create_with_verification: ¿Cómo puedo crear una cuenta en Login.gov con verificación de identidad? 
+      how_to_create_with_verification: ¿Cómo puedo crear una cuenta en Login.gov con verificación de identidad?
       how_to_verify: ¿Cómo/por qué verifico mi identidad?
       interest_in_partnership: Estoy interesado en utilizar Login.gov para mi agencia gubernamental
       international_number: Tengo un número internacional y no recibo mi código de seguridad
@@ -125,12 +125,12 @@ contact_page:
       issues_with_face_touch_unlock: Tengo problemas con el uso del desbloqueo facial o táctil
       letter_in_mail: No he recibido mi carta por correo o ha caducado
       locked_out: Estoy bloqueado en mi cuenta
-      lost_access: He perdido el acceso a mi teléfono o dirección de correo electrónico  
+      lost_access: He perdido el acceso a mi teléfono o dirección de correo electrónico
       lost_2fa_method: Método autenticación de dos factores perdido
       multiple_otps: Recibo códigos de seguridad de Login.gov que no he solicitado
       new_account: Mi correo electrónico/nombre de usuario y contraseña no funcionan
       new_backup_codes: ¿Cómo consigo nuevos códigos de copia de seguridad?
-      new_device_notification: He recibido un correo electrónico de notificación de nuevo dispositivo 
+      new_device_notification: He recibido un correo electrónico de notificación de nuevo dispositivo
       new_personal_key: ¿Cómo puedo obtener una nueva clave personal?
       no_otp_received: No se ha recibido ningún pedido de pago
       no_phone: No puedo crear mi cuenta de Login.gov porque no tengo un teléfono
@@ -338,7 +338,7 @@ identifier:
     links: Enlaces importantes
     logo: Logo de la GSA
     usa_gov: Información y servicios del Gobierno de EE. UU.
-  disclaimer: Un sitio web oficial de [General Services Administration](https://gsa.gov)
+  disclaimer: Un sitio web oficial de [General Services Administration](https://www.gsa.gov)
   links:
     about_agency: Acerca de GSA
     accessibility: Soporte de accesibilidad

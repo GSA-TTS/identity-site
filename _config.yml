@@ -56,17 +56,6 @@ scripts:
 styles:
   - /assets/css/main.css
 
-sass:
-  style: compressed
-  load_paths:
-    - _sass
-    - node_modules
-
-autoprefixer:
-  browsers:
-    - last 2 versions
-    - ie 11
-
 # Build settings
 kramdown:
   hard_wrap: true
@@ -101,27 +90,40 @@ defaults:
 include:
   # dotfiles are excluded by default
   - .well-known
+  - docs/accessibility-assessment-ial1-account-creation.pdf
+  - docs/accessibility-assessment-ial2-identity-verification-process.pdf
 
 exclude:
+  - assets/js/build/main.js.LICENSE.txt
+  - babel.config.json
+  - CONTRIBUTING.md
+  - docs
   - Gemfile*
+  - jest.config.js
+  - LICENSE.md
   - Makefile*
+  - assets/scss
   - node_modules
+  - OLD_URLS.yml
+  - package-lock.json
   - package.json
+  - README.md
   - scripts
   - spec
-  - webpack.config.js
+  - svgo.config.js
   - vendor
-  - /_pages/remove_content_from_these_redirects.todo
-
+  - webpack.config.js
 keep_files:
-  - /assets/js/build/*
+  - assets/css
 
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
-  - jekyll-autoprefixer
 
 default_locale: en
+
+redirect_from:
+  json: false
 
 help_pages:
   - get-started

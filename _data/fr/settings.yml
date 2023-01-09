@@ -20,15 +20,14 @@ banner:
     secure_heading: Les sites Web sécurisés .gov utilisent HTTPS
     secure_description: 'Un <strong>verrou</strong> ou <strong>https://</strong> signifie que vous êtes connecté en toute sécurité au site Web .gov. Partagez des informations sensibles uniquement sur des sites Web officiels et sécurisés.'
 contact_page:
-  operating_hours: Les heures d'ouverture sont du lundi au vendredi de 8 h à 20 h (heure de l'Est). Nous sommes fermés les jours fériés fédéraux.
+  operating_hours: Les heures d'ouverture sont de 24 heures par jour, sept jours par semaine.
   required: obligatoire
   call_us:
     title: Appelez-nous
-    operating_hours: Les heures d'ouverture sont du lundi au vendredi de 11 h à 20 h (heure de l'Est).
+    operating_hours: Les heures d'ouverture sont de 24 heures par jour, sept jours par semaine.
   support_request_form:
     title: Soumettre un ticket d'assistance
     other: Other
-    help_text: Veuillez prévoir 2 jours ouvrables pour recevoir une réponse. Nous vous remercions de votre patience.
     required_text: Les champs obligatoires sont marqués d'un astérisque
     agencies:
       'Central Intelligence Agency': Agence centrale de renseignement
@@ -49,7 +48,7 @@ contact_page:
       'DOT FMCSA (Motor Carrier Safety)': FMCSA du Département des transports (Sécurité des transporteurs routiers)
       'DOT Delphi eInvoicing': DOT Delphi eInvoicing
       'DOT National Registry of Certified Medical Examiners': Registre national des médecins agréés du Département des transports
-      'Environmental Protection Agency': Agence de protection de l'environnement 
+      'Environmental Protection Agency': Agence de protection de l'environnement
       'FDIC Resolution Request Management Portal': FDIC demande un portail de gestion des résolutions
       'General Services Administration': Administration des services généraux
       'GSA Sam.gov': GSA SAM.gov
@@ -57,6 +56,7 @@ contact_page:
       'HHS Grants.gov': HHS Grants.gov
       'HHS National Institutes of Health (NIH)': HHS Institut national de la santé (NIH)
       'Housing and Urban Development': Logement et développement urbain
+      'Internal Revenue Service (IRS)': L'Internal Revenue Service (IRS)
       'Library of Congress': Bibliothèque du Congrès
       'National Aeronautics and Space Administration': Administration Nationale de l'Espace et de l'Aéronautique
       'National Labor Relations Board': Commission nationale des relations de travail
@@ -111,7 +111,7 @@ contact_page:
       delete_account: Comment supprimer mon compte Login.gov?
       device_notification: J'ai reçu une alerte concernant une nouvelle ouverture de session sur mon compte Login.gov
       email_delivery_issue: Je ne reçois pas le courriel de confirmation de Login.gov
-      feedback: J'ai des commentaires à propos de Login.gov 
+      feedback: J'ai des commentaires à propos de Login.gov
       forgot_password: J'ai oublié mon mot de passe Login.gov et je ne peux pas le réinitialiser
       how_to_link: Comment puis-je lier le compte de mon agence partenaire avec Login.gov?
       how_to_create_with_verification: Comment puis-je créer un compte Login.gov avec vérification d'identité?
@@ -120,17 +120,17 @@ contact_page:
       interest_in_partnership: Je suis intéressé par l'utilisation de Login.gov pour mon agence gouvernementale
       invalid_email: Login.gov n'accepte pas mon adresse courriel. Il est indiqué qu'elle n'est pas valide
       invalid_otp: Login.gov indique que mon code de sécurité n'est pas valide
-      issue_with_partner_agency: J'ai un problème avec cette agence partenaire 
+      issue_with_partner_agency: J'ai un problème avec cette agence partenaire
       issues_with_face_touch_unlock: J'ai un problème avec le déverrouillage facial ou tactile
       letter_in_mail: Je n'ai pas reçu ma lettre par la poste ou elle a expiré
       locked_out: Je suis bloqué sur mon compte
-      lost_access: J'ai perdu l'accès à mon téléphone ou à mon adresse électronique 
+      lost_access: J'ai perdu l'accès à mon téléphone ou à mon adresse électronique
       lost_2fa_method: Authentification à deux facteurs perdue
       multiple_otps: Je reçois de nombreux codes de sécurité lors de l'ouverture de session
       new_account: Mon courriel/nom d'utilisateur et mon mot de passe ne fonctionnent pas
       new_backup_codes: Comment obtenir de nouveaux codes de sauvegarde?
       new_personal_key: Comment obtenir une nouvelle clé personnelle?
-      new_device_notification: J'ai reçu une notification par adresse électronique d'un nouvel appareil 
+      new_device_notification: J'ai reçu une notification par adresse électronique d'un nouvel appareil
       no_otp_received: Aucun OTP reçu
       no_phone: Je ne peux pas créer mon compte Login.gov parce que je n'ai pas de téléphone.
       none: '--Aucun--'
@@ -417,7 +417,7 @@ identifier:
     links: Liens importants
     logo: Logo de GSA
     usa_gov: Informations et services du gouvernement américain
-  disclaimer: Un site Web officiel de [General Services Administration](https://gsa.gov)
+  disclaimer: Un site Web officiel de [General Services Administration](https://www.gsa.gov)
   links:
     about_agency: À propos de GSA
     accessibility: Support de l'accessibilité

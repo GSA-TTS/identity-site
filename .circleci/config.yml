@@ -7,7 +7,7 @@ commands:
     steps:
       - restore_cache:
           keys:
-            - v2-dependencies-{{ checksum "Gemfile.lock" }}
+            - v3-dependencies-{{ checksum "Gemfile.lock" }}
       - restore_cache:
           keys:
             - v2-dependencies-{{ checksum "package-lock.json" }}
@@ -23,11 +23,12 @@ commands:
           name: install dependencies
           command: |
             npm install
-            bundle check || bundle install --jobs=4 --retry=3 --path vendor/bundle
+            bundle config set --local path 'vendor/bundle'
+            bundle install --jobs=4 --retry=3
       - save_cache:
           paths:
             - ./vendor/bundle
-          key: v2-dependencies-{{ checksum "Gemfile.lock" }}
+          key: v3-dependencies-{{ checksum "Gemfile.lock" }}
       - save_cache:
           paths:
             - ./node_modules
@@ -36,14 +37,12 @@ commands:
     steps:
       - run:
           name: build the site
-          command: |
-            npm run build-js
-            bundle exec jekyll build
+          command: make build
 
 jobs:
   build:
     docker:
-      - image: cimg/ruby:2.7-node
+      - image: cimg/ruby:3.1-node
         environment:
           BUNDLER_VERSION: 2.2.20
     steps:
@@ -57,7 +56,7 @@ jobs:
 
   test:
     docker:
-      - image: cimg/ruby:2.7-node
+      - image: cimg/ruby:3.1-node
     steps:
       - checkout
       - install-dependencies
@@ -75,7 +74,7 @@ jobs:
 
   e2e:
     docker:
-      - image: cimg/ruby:2.7-browsers
+      - image: cimg/ruby:3.1-browsers
     environment:
       SKIP_BUILD: true
     steps:
@@ -89,7 +88,7 @@ jobs:
 
   eslint:
     docker:
-      - image: cimg/ruby:2.7-node
+      - image: cimg/ruby:3.1-node
     steps:
       - checkout
       - install-dependencies
@@ -99,7 +98,7 @@ jobs:
 
   check-optimized-assets:
     docker:
-      - image: cimg/ruby:2.7-node
+      - image: cimg/ruby:3.1-node
     steps:
       - checkout
       - install-dependencies
@@ -109,7 +108,7 @@ jobs:
 
   check-lockfiles:
     docker:
-      - image: cimg/ruby:2.7-node
+      - image: cimg/ruby:3.1-node
     environment:
       SKIP_INSTALL: true
     steps:
@@ -121,7 +120,7 @@ jobs:
 
   check-javascript-syntax:
     docker:
-      - image: cimg/ruby:2.7-node
+      - image: cimg/ruby:3.1-node
     steps:
       - checkout
       - install-dependencies
@@ -133,7 +132,7 @@ jobs:
 
   nu:
     docker:
-      - image: cimg/ruby:2.7-node
+      - image: cimg/ruby:3.1-node
     steps:
       - checkout
       - install-dependencies
@@ -150,7 +149,7 @@ jobs:
   # but do get the feedback/info
   test-external-links:
     docker:
-      - image: cimg/ruby:2.7-node
+      - image: cimg/ruby:3.1-node
     steps:
       - checkout
       - install-dependencies

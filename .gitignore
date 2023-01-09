@@ -2,6 +2,7 @@ assets/js/build
 _site/
 .sass-cache/
 node_modules/
+/vendor/bundle
 .jekyll-metadata
 .python-version
 *.log
