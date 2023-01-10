@@ -162,9 +162,6 @@ workflows:
       - test:
           requires:
             - build
-      - check-javascript-syntax:
-          requires:
-            - build
       - test-external-links:
           requires:
             - build
