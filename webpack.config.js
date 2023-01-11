@@ -11,7 +11,7 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
     country_support: './assets/js/country_support.js',
   },
 
-  target: ['web', 'es5'],
+  target: ['web'],
 
   output: {
     filename: '[name].js',
@@ -22,7 +22,7 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
     rules: [
       {
         test: /\.js$/,
-        exclude: /node_modules\/(?!uswds|receptor)/,
+        exclude: /node_modules/,
         use: ['babel-loader'],
       },
     ],
