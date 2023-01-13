@@ -1,38 +1,5 @@
 <footer class="footer">
-  <div class="footer-nav">
-    <div class="container">
-      <!-- apply to .footer-nav -->
-      <div class="navigation partners-footer-logo">
-        <nav>
-          <div class="grid">
-            <!-- apply to nav -->
-            <section>
-              <!-- replace with uls -->
-              <h6>{{ site.data.[page.lang].settings.nav.groups.partners }}</h6>
-              <a class="font-xs" href="{{ '/partners/get-started/' | locale_url }}">{{ site.data.[page.lang].settings.nav.get_started }}</a>
-              <a class="font-xs" href="https://developers.login.gov">{{ site.data.[page.lang].settings.nav.developer_guide }}</a>
-              <a class="font-xs" href="{{ '/partners/security-experience/' | locale_url }}">{{ site.data.[page.lang].settings.nav.security_experience }}</a>
-            </section>
-            <section>
-              <h6>{{ site.data.[page.lang].settings.nav.about_login_gov }}</h6>
-              <a class="font-xs" href="{{ '/about-us/' | locale_url }}">{{ site.data.[page.lang].settings.nav.what_is_login_gov }}</a>
-              <a class="font-xs" href="{{ '/policy/' | locale_url }}">{{ site.data.[page.lang].settings.nav.policies.title }}</a>
-              <a class="font-xs" href="{{ '/accessibility/' | locale_url }}">{{ site.data.[page.lang].settings.nav.accessibility.title }}</a>
-            </section>
-            <section>
-              <h6>{{ site.data.[page.lang].settings.nav.groups.support }}</h6>
-              <a class="font-xs" href="{{ '/partners/faq/' | locale_url }}">{{ site.data.[page.lang].settings.nav.faq }}</a>
-              <a class="font-xs" href="{{ '/partners/business-inquiries/' | locale_url }}">{{ site.data.[page.lang].settings.nav.business_inquiries.title }}</a>
-            </section>
-          </div>
-          <div class="system-status">
-            <!-- replace with section footer -->
-            <a class="" href="https://status.login.gov">{{ site.data.[page.lang].settings.nav.system_status }}</a>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </div>
+  {% include components/footer-navigation.html nav="partners" logo="partners/partners_logo.svg" logo_width="309" logo_height="26" logo_alt="login.gov partners" %}
   <div class="usa-identifier">
     <section class="usa-identifier__section usa-identifier__section--masthead"
       aria-label="{{ site.data.[page.lang].settings.identifier.accessible_labels.identifier }}">

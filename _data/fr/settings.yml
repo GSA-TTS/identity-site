@@ -1,4 +1,6 @@
 accessible_labels:
+  footer_navigation: Navigation en bas de page
+  primary_navigation: Navigation principale
   secondary_navigation: Navigation secondaire
 actions:
   search: Chercher

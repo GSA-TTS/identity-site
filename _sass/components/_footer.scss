@@ -1,90 +1,44 @@
 .footer {
-  @include at-media("desktop") {
-    min-height: 17rem;
+  background-color: color('primary-lightest');
+}
+
+.footer-navigation {
+  @include u-padding-top(2);
+  @include u-padding-bottom(5);
+
+  ul {
+    @include unstyled-list;
   }
 
-  .footer-nav {
-    background-color: $blue-lightest;
-    background-image: none;
-    padding: 2em 0;
+  h1,
+  a {
+    font-size: $base-font-sm;
+    color: color('primary-dark');
+  }
+}
 
-    @include at-media("desktop") {
-      min-height: 17rem;
-    }
+.footer-navigation__section h1 {
+  margin: 0;
+}
 
-    a {
-      text-decoration: underline;
-      display: block;
-      margin: 0 0 1em 0;
-      white-space: nowrap;
-    }
+.footer-navigation__section a {
+  @include u-margin-top(2);
+  display: block;
+}
 
-    .navigation {
-      display: block;
-      justify-content: flex-end;
-      padding-top: ($container-spacing-sm * 3);
+.system-status {
+  @include u-border-top(1px, 'primary-light');
+  @include u-padding-top(2);
+  @include u-margin-top(1);
+  display: flex;
+  align-items: center;
 
-      @include at-media("tablet-lg") {
-        display: flex;
-        padding-top: 0;
-      }
-    }
-
-    .navigation-footer-logo {
-      background: url(../img/logo_sign_in.svg) top left no-repeat;
-    }
-
-    .grid {
-      display: flex;
-      justify-content: space-between;
-      border-bottom: 1px solid $border-color;
-      flex-wrap: wrap;
-    }
-
-    .grid section {
-      margin-right: 1rem;
-
-      @include at-media("tablet") {
-        margin-right: 3rem;
-
-        &:last-child {
-          margin-right: 0;
-        }
-      }
-    }
-
-    .grid section h6 {
-      margin: 0 0 1em 0;
-      font-size: $base-font-sm;
-      color: $blue-mid;
-    }
-
-    .grid section a {
-      color: $blue-mid;
-      font-size: $base-font-sm;
-    }
-
-    .system-status {
-      display: flex;
-      align-items: center;
-      padding-top: $container-spacing-sm;
-
-      &::before {
-        content: "";
-        width: 1.75rem;
-        height: 1.75rem;
-        display: inline-block;
-        margin-right: 0.25rem;
-        color: $blue;
-        background: url(../img/system-status/icon-system-status.svg) left center
-          no-repeat;
-      }
-
-      a {
-        margin: 0;
-        font-size: $base-font-sm;
-        color: $blue-mid;
-      }
-    }
+  &::before {
+    content: '';
+    width: 1.75rem;
+    height: 1.75rem;
+    display: inline-block;
+    margin-right: 0.25rem;
+    background: url(../img/system-status/icon-system-status.svg) left center no-repeat;
   }
 }

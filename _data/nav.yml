@@ -1,0 +1,26 @@
+default:
+  footer:
+    agencies:
+      become_a_partner: 'base_url/partners/'
+      developer_guide: 'https://developers.login.gov'
+    learn:
+      about_us: 'locale_base_url/about-us/'
+      policies: 'locale_base_url/policy/'
+      accessibility: 'locale_base_url/accessibility/'
+    support:
+      help_center: 'locale_base_url/help/'
+      contact_us: 'locale_base_url/contact/'
+partners:
+  footer:
+    partners:
+      get_started: 'base_url/partners/get-started/'
+      developer_guide: 'https://developers.login.gov'
+      security_experience: 'base_url/partners/security-experience/'
+    learn:
+      about_us: 'base_url/about-us/'
+      policies: 'base_url/policy/'
+      accessibility: 'base_url/accessibility/'
+    support:
+      faq: 'base_url/partners/faq/'
+      business_inquiries: 'base_url/partners/business-inquiries/'
+

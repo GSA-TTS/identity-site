@@ -1,0 +1,47 @@
+{% assign logo = include.logo | default: 'logo.svg' %}
+{% assign logo_width = include.logo_width | default: 191 %}
+{% assign logo_height = include.logo_height | default: 27 %}
+{% assign logo_alt = include.logo_alt | default: 'login.gov' %}
+{% assign nav = include.nav | default: 'default' %}
+<div class="footer-navigation container grid-row">
+  <div class="grid-col-12 margin-y-2 tablet:grid-col-auto">
+    <img
+      src="{{ site.baseurl }}/assets/img/{{ logo }}"
+      alt="{{ logo_alt }}"
+      width="{{ logo_width }}"
+      height="{{ logo_height }}"
+    />
+  </div>
+  <div class="grid-col-fill"></div>
+  <div class="grid-col-12 tablet:grid-col-auto">
+    <nav
+      aria-label="{{ site.data.[page.lang].settings.accessible_labels.footer_navigation }}"
+      class="grid-row grid-gap-2 tablet:grid-gap-6"
+    >
+      {% for section in site.data.nav[nav].footer %}
+        {% assign section_key = section[0] %}
+        {% assign section_value = section[1] %}
+        <section class="grid-col-6 tablet:grid-col-auto margin-y-2 footer-navigation__section">
+          <h1>{{ site.data.[page.lang].settings.nav.groups[section_key] }}</h1>
+          <ul>
+            {% for section_link in section_value %}
+              {% assign section_link_key = section_link[0] %}
+              {% assign locale_base_url = '' %}
+              {% if page.lang != 'en' %}
+                {% assign locale_base_url = page.lang | prepend: '/' %}
+              {% endif %}
+              <li>
+                <a href="{{ section_link[1] | replace: 'locale_base_url', locale_base_url | replace: 'base_url', site.baseurl }}">
+                  {{ site.data.[page.lang].settings.nav[section_link_key].title | default: site.data.[page.lang].settings.nav[section_link_key] }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endfor %}
+    </nav>
+    <div class="system-status">
+      <a class="" href="https://status.login.gov">{{ site.data.[page.lang].settings.nav.system_status }}</a>
+    </div>
+  </div>
+</div>
