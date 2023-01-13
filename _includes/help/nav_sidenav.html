@@ -11,7 +11,7 @@
         {% assign is_initially_expanded = 'false' %}
         {% assign is_initially_hidden = 'true' %}
       {% endif %}
-      <li class="usa-sidenav__item usa-parent" aria-expanded="{{ is_initially_expanded }}">
+      <li class="usa-sidenav__item usa-parent">
       {% if page.lang != 'en' %}
         {% assign page_lang = page.lang + '/' %}
       {% else %}
