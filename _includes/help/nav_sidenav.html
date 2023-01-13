@@ -5,10 +5,8 @@
       {% assign subpage_slug = subpage | slugify %}
       {% assign related_questions = site.help | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang" | sort:'order' %}
       {% if page.url contains subpage_slug %}
-        {% assign is_initially_expanded = 'true' %}
         {% assign is_initially_hidden = 'false' %}
       {% else %}
-        {% assign is_initially_expanded = 'false' %}
         {% assign is_initially_hidden = 'true' %}
       {% endif %}
       <li class="usa-sidenav__item usa-parent">
