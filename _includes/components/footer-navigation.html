@@ -31,7 +31,7 @@
                 {% assign locale_base_url = page.lang | prepend: '/' %}
               {% endif %}
               <li>
-                <a href="{{ section_link[1] | replace: 'locale_base_url', locale_base_url | replace: 'base_url', site.baseurl }}">
+                <a href="{{ section_link[1] | replace: '$LOCALE_BASE_URL', locale_base_url | replace: '$BASE_URL', site.baseurl }}">
                   {{ site.data.[page.lang].settings.nav[section_link_key].title | default: site.data.[page.lang].settings.nav[section_link_key] }}
                 </a>
               </li>
