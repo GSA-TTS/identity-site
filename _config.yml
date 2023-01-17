@@ -50,7 +50,7 @@ collections:
 
 # Scripts
 scripts:
-  - /assets/js/build/main.js
+  - /assets/js/main.js
 
 # Styles
 styles:
@@ -94,7 +94,6 @@ include:
   - docs/accessibility-assessment-ial2-identity-verification-process.pdf
 
 exclude:
-  - assets/js/build/main.js.LICENSE.txt
   - babel.config.json
   - CONTRIBUTING.md
   - docs
@@ -103,6 +102,7 @@ exclude:
   - LICENSE.md
   - Makefile*
   - assets/scss
+  - assets/js
   - node_modules
   - OLD_URLS.yml
   - package-lock.json
@@ -115,6 +115,7 @@ exclude:
   - webpack.config.js
 keep_files:
   - assets/css
+  - assets/js
 
 plugins:
   - jekyll-redirect-from

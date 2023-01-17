@@ -5,7 +5,7 @@ category: manage-your-account
 permalink: /help/manage-your-account/international-phone-support/
 order: 6
 scripts:
-  - /assets/js/build/country_support.js
+  - /assets/js/country_support.js
 redirect_from:
   - /en/help/manage-your-account/international-phone-support/
 ---
