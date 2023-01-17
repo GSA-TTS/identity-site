@@ -219,7 +219,6 @@ nav:
         url: '#notre-vision'
       - name: À propos de Login.gov
         url: '#à-propos-de-logingov'
-  about_login_gov: About Login.gov # partners site does not require translations
   accessibility:
     title: Accessibilité
     sections:
@@ -253,6 +252,7 @@ nav:
   faq: FAQ
   get_started: Get started # parters site does not require translations
   groups:
+    about_login_gov: About Login.gov # partners site does not require translations
     agencies: Pour les agences
     partners: For partners # partners site does not require translations
     learn: Apprendre

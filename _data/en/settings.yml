@@ -207,7 +207,6 @@ help_subpages:
   specific-agencies: Help with specific agencies
   verify-your-identity: Verify your identity
 nav:
-  about_login_gov: About Login.gov
   about_us:
     title: About us
     sections:
@@ -250,6 +249,7 @@ nav:
   faq: FAQ
   get_started: Get started
   groups:
+    about_login_gov: About Login.gov
     agencies: For agencies
     partners: For partners
     learn: Learn

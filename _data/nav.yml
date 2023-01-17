@@ -16,8 +16,8 @@ partners:
       get_started: '$BASE_URL/partners/get-started/'
       developer_guide: 'https://developers.login.gov'
       security_experience: '$BASE_URL/partners/security-experience/'
-    learn:
-      about_us: '$BASE_URL/about-us/'
+    about_login_gov:
+      what_is_login_gov: '$BASE_URL/about-us/'
       policies: '$BASE_URL/policy/'
       accessibility: '$BASE_URL/accessibility/'
     support:
