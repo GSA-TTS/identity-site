@@ -1,37 +1,5 @@
 <footer class="footer">
-  <div class="footer-nav">
-    <div class="container">
-      <!-- apply to .footer-nav -->
-      <div class="navigation navigation-footer-logo">
-        <nav>
-          <div class="grid">
-            <!-- apply to nav -->
-            <section>
-              <!-- replace with uls -->
-              <h6>{{ site.data.[page.lang].settings.nav.groups.agencies }}</h6>
-              <a class="font-xs" href="{{ '/partners/' | prepend: site.baseurl }}">{{ site.data.[page.lang].settings.nav.become_a_partner }}</a>
-              <a class="font-xs" href="https://developers.login.gov">{{ site.data.[page.lang].settings.nav.developer_guide }}</a>
-            </section>
-            <section>
-              <h6>{{ site.data.[page.lang].settings.nav.groups.learn }}</h6>
-              <a class="font-xs" href="{{ '/about-us/' | locale_url }}">{{ site.data.[page.lang].settings.nav.about_us.title }}</a>
-              <a class="font-xs" href="{{ '/policy/' | locale_url }}">{{ site.data.[page.lang].settings.nav.policies.title }}</a>
-              <a class="font-xs" href="{{ '/accessibility/' | locale_url }}">{{ site.data.[page.lang].settings.nav.accessibility.title }}</a>
-            </section>
-            <section>
-              <h6>{{ site.data.[page.lang].settings.nav.groups.support }}</h6>
-              <a class="font-xs" href="{{ '/help/' | locale_url }}">{{ site.data.[page.lang].settings.nav.help_center }}</a>
-              <a class="font-xs" href="{{ '/contact/' | locale_url }}">{{ site.data.[page.lang].settings.nav.contact_us.title }}</a>
-            </section>
-          </div>
-          <div class="system-status">
-            <!-- replace with section footer -->
-            <a class="" href="https://status.login.gov">{{ site.data.[page.lang].settings.nav.system_status }}</a>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </div>
+  {% include components/footer-navigation.html %}
   <div class="usa-identifier">
     <section class="usa-identifier__section usa-identifier__section--masthead"
       aria-label="{{ site.data.[page.lang].settings.identifier.accessible_labels.identifier }}">

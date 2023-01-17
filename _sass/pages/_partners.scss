@@ -12,10 +12,6 @@
   height: 1.7rem;
 }
 
-.partners-footer-logo {
-  background: url(../img/partners/partners_logo.svg) top left no-repeat;
-}
-
 .partners-actions {
   display: block;
   @include at-media("card") {

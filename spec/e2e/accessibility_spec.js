@@ -43,10 +43,7 @@ describe('accessibility', () => {
         '%s',
         async (path) => {
           await goto(path);
-          const runner = new AxePuppeteer(page)
-            .disableRules('frame-tested')
-            .disableFrame('*')
-            .exclude('.footer-nav'); // See: LG-4038 (TODO: Remove with implementation of LG-4038)
+          const runner = new AxePuppeteer(page).disableRules('frame-tested').disableFrame('*');
 
           const results = await runner.analyze();
           expect(results).toHaveNoViolations();
