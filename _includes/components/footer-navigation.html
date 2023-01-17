@@ -26,9 +26,9 @@
           <ul>
             {% for section_link in section_value %}
               {% assign section_link_key = section_link[0] %}
-              {% assign locale_base_url = '' %}
+              {% assign locale_base_url = site.baseurl %}
               {% if page.lang != 'en' %}
-                {% assign locale_base_url = page.lang | prepend: '/' %}
+                {% assign locale_base_url = page.lang | prepend: '/' | prepend: site.baseurl %}
               {% endif %}
               <li>
                 <a href="{{ section_link[1] | replace: '$LOCALE_BASE_URL', locale_base_url | replace: '$BASE_URL', site.baseurl }}">
