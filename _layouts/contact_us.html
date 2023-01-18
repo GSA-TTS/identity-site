@@ -10,15 +10,27 @@ common_applications:
   - Trusted Traveler Programs (Global Entry/Nexus/Sentri)
 ---
 
-{{ page.help_center_content | markdownify }} 
+{% if site.contact_maintenance_start_time and site.contact_maintenance_end_time %}
+  <div id="contact-us-maintenance-alert" class="usa-alert usa-alert--warning" hidden>
+    <div class="usa-alert__body">
+      <p class="usa-alert__text">{{ page.maintenance_window_content }}</p>
+    </div>
+  </div>
+{% endif %}
 
-<div class="page-content__section">
-  
-  {{ page.intro_content | markdownify }} 
-  
-  {% if site.contact_phone_number_enabled and site.contact_phone_number and 
-     site.contact_phone_number_location == 'top' %} 
-    {% include contact_phone.html %} 
+{{ page.help_center_content | markdownify }}
+
+<contact-us-form
+  maintenance-alert-id="contact-us-maintenance-alert"
+  maintenance-start-time="{{ site.contact_maintenance_start_time }}"
+  maintenance-end-time="{{ site.contact_maintenance_end_time }}"
+  class="page-content__section"
+>
+  {{ page.intro_content | markdownify }}
+
+  {% if site.contact_phone_number_enabled and site.contact_phone_number and
+     site.contact_phone_number_location == 'top' %}
+    {% include contact_phone.html %}
   {% endif %}
 
   <div class="desktop:grid-col-9">
@@ -26,10 +38,14 @@ common_applications:
   </div>
 
   {% if site.contact_phone_number_enabled and site.contact_phone_number and
-     site.contact_phone_number_location == 'bottom' %} 
-    {% include contact_phone.html %} 
+     site.contact_phone_number_location == 'bottom' %}
+    {% include contact_phone.html %}
   {% endif %}
-</div>
+</contact-us-form>
 
 <div class="page-content__section">{{ page.partner_content | markdownify }}</div>
 <div class="page-content__section">{{ page.report_issue_content | markdownify }}</div>
+
+{% if site.contact_maintenance_start_time and site.contact_maintenance_end_time %}
+  <script src="{{ '/assets/js/contact_us_form_element.js' | relative_url }}"></script>
+{% endif %}

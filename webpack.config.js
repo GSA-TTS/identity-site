@@ -6,6 +6,7 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
   entry: {
     main: './assets/js/main.js',
     contact: './assets/js/contact.js',
+    contact_us_form_element: './assets/js/contact_us_form_element.ts',
     faqs: './assets/js/faqs.js',
     partners_contact: './assets/js/partners/contact.js',
     touchpoints_translations: './assets/js/touchpoints_translations.js',
@@ -22,7 +23,7 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.[jt]s$/,
         exclude: /node_modules/,
         use: ['babel-loader'],
       },

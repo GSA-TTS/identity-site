@@ -21,6 +21,10 @@ contact_phone_number_enabled: false
 contact_phone_number: ''
 contact_phone_number_location: 'bottom' # acceptable values are 'top' and 'bottom'
 
+# Contact page maintenance window
+contact_maintenance_start_time: null
+contact_maintenance_end_time: null
+
 # Used to load country code support
 idp_base_url: https://secure.login.gov
 # for local development:

@@ -1,7 +1,7 @@
 module.exports = {
-  rootDir: 'spec/e2e',
-  testMatch: ['**/*_spec.js'],
-  globalSetup: '<rootDir>/support/setup.js',
-  globalTeardown: '<rootDir>/support/teardown.js',
-  testEnvironment: '<rootDir>/support/puppeteer-environment.js',
+  rootDir: 'spec',
+  testMatch: ['**/*_spec.[jt]s'],
+  globalSetup: '<rootDir>/e2e/support/setup.js',
+  globalTeardown: '<rootDir>/e2e/support/teardown.js',
+  testEnvironment: '<rootDir>/e2e/support/puppeteer-environment.js',
 };
