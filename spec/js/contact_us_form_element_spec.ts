@@ -88,7 +88,7 @@ describe('ContactUsFormElement', () => {
         const alertContainer = document.getElementById('alert-container')!;
 
         expect(alertContainer.textContent?.trim()).toMatch(
-          /Outage from January \d+, 2023 at \d+ [AP]M [A-Z]+ to January \d+, 2023 at \d+ [AP]M [A-Z]+/,
+          /Outage from January \d+, 2023 at \d+\s[AP]M\s[A-Z]+ to January \d+, 2023 at \d+\s[AP]M\s[A-Z]+/,
         );
       });
     });
