@@ -63,7 +63,13 @@ describe('ContactUsFormElement', () => {
     describe('when an associated alert exists', () => {
       beforeEach(() => {
         document.body.innerHTML = `
-          <div id="alert-container" hidden></div>
+          <div id="alert-container" class="usa-alert usa-alert--warning" hidden>
+            <div class="usa-alert__body">
+              <p class="usa-alert__text">
+                Outage from <strong>%{start_time}</strong> to <strong>%{end_time}</strong>
+              </p>
+            </div>
+          </div>
           <contact-us-form
             maintenance-alert-id="alert-container"
             maintenance-start-time="2023-01-20T00:00:00Z"
@@ -73,9 +79,17 @@ describe('ContactUsFormElement', () => {
       });
 
       test('it unhides the alert', () => {
-        const form = document.getElementById('alert-container')!;
+        const alertContainer = document.getElementById('alert-container')!;
 
-        expect(form.hasAttribute('hidden')).toStrictEqual(false);
+        expect(alertContainer.hasAttribute('hidden')).toStrictEqual(false);
+      });
+
+      test('it formats time strings in the alert text', () => {
+        const alertContainer = document.getElementById('alert-container')!;
+
+        expect(alertContainer.textContent?.trim()).toStrictEqual(
+          'Outage from January 19, 2023 at 7:00 PM EST to January 20, 2023 at 5:00 AM EST',
+        );
       });
     });
   });

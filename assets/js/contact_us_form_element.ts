@@ -1,6 +1,42 @@
+/**
+ * Formats the given date instance with a standard date format.
+ *
+ * @param date Date to format.
+ *
+ * @return Formatted string.
+ */
+function formatDate(date: Date): string {
+  return new Intl.DateTimeFormat(document.documentElement.lang || 'en', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: 'numeric',
+    timeZoneName: 'short',
+  }).format(date);
+}
+
+/**
+ * Replaces a text string anywhere it occurs within an element's children, without resorting to
+ * dangerous innerHTML.
+ *
+ * @param element Element to search.
+ * @param needle Search term.
+ * @param replacement Replacement text.
+ */
+function deepReplace(element: Element, needle: string, replacement: string) {
+  for (const childNode of element.childNodes) {
+    if (childNode.nodeType === Node.TEXT_NODE && childNode.nodeValue) {
+      childNode.nodeValue = childNode.nodeValue.replace(needle, replacement);
+    } else if (childNode.nodeType === Node.ELEMENT_NODE) {
+      deepReplace(childNode as Element, needle, replacement);
+    }
+  }
+}
+
 class ContactUsFormElement extends HTMLElement {
   connectedCallback() {
     if (this.isInMaintenanceWindow) {
+      this.showAlert();
       this.hide();
     }
   }
@@ -34,8 +70,22 @@ class ContactUsFormElement extends HTMLElement {
     );
   }
 
+  setAlertDateTexts() {
+    this.setAlertDateTexts();
+  }
+
+  showAlert() {
+    if (!this.maintenanceAlert) {
+      return;
+    }
+
+    this.maintenanceAlert.removeAttribute('hidden');
+
+    deepReplace(this.maintenanceAlert, '%{start_time}', formatDate(this.maintenanceStartTime!));
+    deepReplace(this.maintenanceAlert, '%{end_time}', formatDate(this.maintenanceEndTime!));
+  }
+
   hide() {
-    this.maintenanceAlert?.removeAttribute('hidden');
     this.setAttribute('hidden', '');
   }
 }
