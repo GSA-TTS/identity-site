@@ -60,6 +60,7 @@ contact_page:
       'Housing and Urban Development': Departamento de Vivienda y Desarrollo Urbano de EE. UU.
       'Internal Revenue Service (IRS)': Servicio de Impuestos Internos (IRS)
       'Library of Congress': Biblioteca del Congreso
+      'National Archives and Records Administration (NARA)': Archivos Nacionales y Administracion de Documentos (NARA)
       'National Aeronautics and Space Administration': Administración Nacional de Aeronáutica y el Espacio
       'National Labor Relations Board': Junta Nacional de Relaciones Laborales
       'OPM Employee Express': OPM Empleado Express
@@ -75,6 +76,7 @@ contact_page:
       'U.S. Agency for International Development': Agencia de los Estados Unidos para el Desarrollo Internacional
       'U.S. Department of Agriculture': Departamento de Agricultura de los Estados Unidos
       'United States Forest Service': Servicio Forestal de los Estados Unidos
+      'U.S. International Trade Commission': Comisión Internacional de Comercio de los Estados Unidos
       'USAJOBS': USAJOBS
     errors:
       pii_found: Por su privacidad, no envíe información confidencial en este formulario. Nuestros agentes de atención al cliente pueden atenderle igualmente sin esta información.
