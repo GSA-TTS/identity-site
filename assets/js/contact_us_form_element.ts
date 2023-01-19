@@ -5,7 +5,7 @@ class ContactUsFormElement extends HTMLElement {
     }
   }
 
-  get alert(): HTMLElement | null {
+  get maintenanceAlert(): HTMLElement | null {
     return document.getElementById(this.getAttribute('maintenance-alert-id')!);
   }
 
@@ -35,7 +35,7 @@ class ContactUsFormElement extends HTMLElement {
   }
 
   hide() {
-    this.alert?.removeAttribute('hidden');
+    this.maintenanceAlert?.removeAttribute('hidden');
     this.setAttribute('hidden', '');
   }
 }
