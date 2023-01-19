@@ -24,7 +24,7 @@ help_center_content: >-
   * [Je dois modifier mes informations ou gérer mon compte](/fr/help/manage-your-account/overview/)
 
   * [Parcourir d’autres articles d’aide](/fr/help/)
-maintenance_window_content: Le centre de contact de Login.gov est actuellement en cours de maintenance <strong>du 20 janvier 2023 à 21 heures EDT au 21 janvier 2023 à 1 heure EDT</strong>. Veuillez consulter notre FAQ ci-dessous pour obtenir de l’aide.
+maintenance_window_content: Le centre de contact de Login.gov est actuellement en cours de maintenance <strong>du 20 janvier 2023 à 21 heures EDT au 21 janvier 2023 à 1 heure EDT</strong>. Consultez les sujets courants ci-dessous pour obtenir de l'aide.
 partner_content: >-
   ## Partenaire avec Login.gov
 
