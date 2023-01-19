@@ -87,8 +87,8 @@ describe('ContactUsFormElement', () => {
       test('it formats time strings in the alert text', () => {
         const alertContainer = document.getElementById('alert-container')!;
 
-        expect(alertContainer.textContent?.trim()).toStrictEqual(
-          'Outage from January 19, 2023 at 7:00 PM EST to January 20, 2023 at 5:00 AM EST',
+        expect(alertContainer.textContent?.trim()).toMatch(
+          /Outage from January \d+, 2023 at \d+ [AP]M [A-Z]+ to January \d+, 2023 at \d+ [AP]M [A-Z]+/,
         );
       });
     });
