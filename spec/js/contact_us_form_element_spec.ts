@@ -63,7 +63,7 @@ describe('ContactUsFormElement', () => {
     describe('when an associated alert exists', () => {
       beforeEach(() => {
         document.body.innerHTML = `
-          <div id="alert-container" hidden"></div>
+          <div id="alert-container" hidden></div>
           <contact-us-form
             maintenance-alert-id="alert-container"
             maintenance-start-time="2023-01-20T00:00:00Z"
