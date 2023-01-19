@@ -11,6 +11,7 @@ function formatDate(date: Date): string {
     month: 'long',
     day: 'numeric',
     hour: 'numeric',
+    minute: 'numeric',
     timeZoneName: 'short',
   }).format(date);
 }
