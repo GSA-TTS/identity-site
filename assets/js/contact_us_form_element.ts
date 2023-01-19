@@ -70,19 +70,14 @@ class ContactUsFormElement extends HTMLElement {
     );
   }
 
-  setAlertDateTexts() {
-    this.setAlertDateTexts();
-  }
-
   showAlert() {
     if (!this.maintenanceAlert) {
       return;
     }
 
-    this.maintenanceAlert.removeAttribute('hidden');
-
     deepReplace(this.maintenanceAlert, '%{start_time}', formatDate(this.maintenanceStartTime!));
     deepReplace(this.maintenanceAlert, '%{end_time}', formatDate(this.maintenanceEndTime!));
+    this.maintenanceAlert.removeAttribute('hidden');
   }
 
   hide() {
