@@ -115,6 +115,7 @@ exclude:
   - scripts
   - spec
   - svgo.config.js
+  - tsconfig.json
   - vendor
   - webpack.config.js
 keep_files:
