@@ -106,6 +106,7 @@ article.container,
 }
 
 .page-content__section {
+  @include u-display('block');
   @include u-border-top(1px, 'primary-light');
   @include u-margin-top(4);
   @include u-padding-top(4);
