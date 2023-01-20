@@ -14,6 +14,7 @@
     "optimize-assets": "svgo -r -f assets/img",
     "viewbox": "./node_modules/.bin/svglint 'assets/img/**/*.svg'",
     "lint": "eslint .",
+    "typecheck": "tsc",
     "pretest": "if [ -z $SKIP_BUILD ]; then make build; fi",
     "test": "BABEL_ENV=test jest"
   },
@@ -36,6 +37,7 @@
     "@18f/eslint-plugin-identity": "^2.0.0",
     "@axe-core/puppeteer": "^4.5.1",
     "@babel/eslint-plugin": "^7.14.5",
+    "@types/jest": "^29.2.6",
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
     "core-js": "^3.19.0",
@@ -52,6 +54,7 @@
     "serve-handler": "^6.1.5",
     "svglint": "^2.1.1",
     "svgo": "^2.8.0",
+    "typescript": "^4.9.4",
     "vnu-jar": "^21.10.12"
   },
   "dependencies": {
