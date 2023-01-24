@@ -25,7 +25,7 @@ help_center_content: >-
   * [Necesito cambiar mi información o administrar mi cuenta](/es/help/manage-your-account/overview/)
 
   * [Explorar más artículos de ayuda](/es/help/)
-maintenance_window_content: El centro de atención de Login.gov estará en mantenimiento desde <strong>%{start_time} y hasta %{end_time}</strong>. Consulte los temas comunes que aparecen a continuación para obtener ayuda.
+maintenance_window_content: Debido a una interrupción inesperada, no podemos revisar las solicitudes de soporte en línea en este momento. Todavía puede llamar a nuestro centro de soporte, que siempre está abierto.
 partner_content: >-
   ## Asociarse con Login.gov
 
