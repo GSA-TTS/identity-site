@@ -24,7 +24,7 @@ help_center_content: >-
   * [Je dois modifier mes informations ou gérer mon compte](/fr/help/manage-your-account/overview/)
 
   * [Parcourir d’autres articles d’aide](/fr/help/)
-maintenance_window_content: En raison d'une panne inattendue, nous ne pouvons pas examiner les demandes d'assistance en ligne pour le moment. Vous pouvez toujours appeler notre centre d'assistance, qui est toujours ouvert.
+maintenance_window_content: Le centre de contact de Login.gov est actuellement en cours de maintenance <strong>%{start_time} au %{end_time}</strong>. Consultez les sujets courants ci-dessous pour obtenir de l'aide.
 partner_content: >-
   ## Partenaire avec Login.gov
 
