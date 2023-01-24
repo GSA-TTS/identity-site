@@ -25,7 +25,7 @@ help_center_content: >-
   * [I need to change my information or manage my account](/help/manage-your-account/overview/)
 
   * [Browse more help articles](/help/)
-maintenance_window_content: Login.gov’s Contact Center is currently undergoing maintenance from <strong>%{start_time} - %{end_time}.</strong> Visit some common topics below for assistance.
+maintenance_window_content: Due to an unexpected outage, we can't review online support requests right now. You can still call our support center, which is always open.
 partner_content: >-
   ## Partner with Login.gov
 
