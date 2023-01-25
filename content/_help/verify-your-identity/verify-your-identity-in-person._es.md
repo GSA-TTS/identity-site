@@ -4,7 +4,7 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-Si no puede cargar su identificación correctamente en Login.gov es posible que pueda verificarla en persona con nuestros socios del Servicio Postal de los Estados Unidos (USPS). Por el momento, solo ofrecemos esta opción en [algunas oficinas del USPS](#ubicaciones-disponibles-en-el-área-de-washington-dc) en Washington D.C., Maryland, y el Norte de Virginia, y para ciertas agencias asociadas.
+Si no puede subir correctamente su documento de identidad estatal a Login.gov, tal vez pueda verificar su identidad en persona en una oficina adherida del Servicio Postal de Estados Unidos (USPS).
 
 ## Inicie este proceso en Login.gov antes de ir a la oficina de correos 
 
@@ -47,33 +47,12 @@ Si su dirección actual no coincide con la que figura en su documento de identid
 
 Puede traer una copia física o mostrar una copia digital del documento. No puede mostrar una foto o una captura de pantalla del documento. 
 
-## Complete el proceso en la oficina de correos antes la fecha límite
+## Complete el proceso en una oficina de correos adherida antes de la fecha límite
 
-### Ubicaciones disponibles en el área de Washington D.C. 
+### La verificación de identidad en persona está disponible en las oficinas adheridas de Estados Unidos y algunos de sus territorios*. 
 
-Puede visitar cualquiera de las siguientes oficinas de correos. No es obligatorio visitar la ubicación que seleccionó en Login.gov.
-
-1. **BALTIMORE — Post Office™**
-   900 E FAYETTE ST RM 118
-   BALTIMORE, MD 21233-9715
-2. **BETHESDA — Post Office™**
-   6900 WISCONSIN AVE STE 100
-   CHEVY CHASE, MD 20815-9996
-3. **FRIENDSHIP — Post Office™**
-   4005 WISCONSIN AVE NW
-   WASHINGTON, DC 20016-9997
-4. **WASHINGTON — Post Office™**
-   900 BRENTWOOD RD NE
-   WASHINGTON, DC 20018-9997
-5. **ARLINGTON — Post Office™**
-   3118 WASHINGTON BLVD
-   ARLINGTON, VA 22201-9998
-6. **ASHBURN — Post Office™**
-   44715 PRENTICE DR
-   DULLES, VA 20101-9996
-7. **MERRIFIELD — Post Office™**
-   8409 LEE HWY
-   MERRIFIELD, VA 22116-9998
+Puede buscar una oficina de correos adherida al iniciar el proceso en Login.gov. Una vez que esté listo para verificar su identidad, podrá ir a cualquier oficina de correos donde esté disponible la verificación en persona.
+**\* Territorios de Estados Unidos disponibles:** Islas Vírgenes de Estados Unidos, Samoa Americana, Guam, Puerto Rico y las Islas Marianas del Norte.
 
 ### Puede hablar con cualquier empleado de la oficina para verificar su identidad
 

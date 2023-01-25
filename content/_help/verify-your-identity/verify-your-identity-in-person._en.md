@@ -5,7 +5,7 @@ category: verify-your-identity
 permalink: /help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-If you are unable to successfully upload your ID on Login.gov, you may be able to verify in person with our partners at the United States Postal Service (USPS). At this time, we’re only offering this option at [select USPS locations](#available-locations-in-the-washington-dc-area) in Washington D.C., Maryland, and Northern Virginia, and for certain partner agencies.
+If you are unable to successfully upload your state-issued ID on Login.gov, you may be able to verify in person at a participating United States Postal Service (USPS) location.
 
 ## Start this process on Login.gov before going to the Post Office 
 
@@ -48,33 +48,13 @@ If your current address does not match the address on your ID, you will need to 
 
 You can bring a physical copy or show a digital copy of the document. You cannot show a photo or screenshot of the document. 
 
-## Complete the process at the Post Office before your deadline
+## Complete the process at a participating Post Office before your deadline
 
-### Available locations in the Washington D.C. area 
+### In-Person Proofing is available at participating locations across the U.S. and some U.S. territories.*
 
-You can visit any of the following Post Office locations. You do not need to visit the location you selected on Login.gov. 
+You can search for a participating Post Office when you start the process on Login.gov. Once you’re ready to verify, you can go to any Post Office where In-Person Proofing is available.
 
-1. **BALTIMORE — Post Office™**
-   900 E FAYETTE ST RM 118
-   BALTIMORE, MD 21233-9715
-2. **BETHESDA — Post Office™**
-   6900 WISCONSIN AVE STE 100
-   CHEVY CHASE, MD 20815-9996
-3. **FRIENDSHIP — Post Office™**
-   4005 WISCONSIN AVE NW
-   WASHINGTON, DC 20016-9997
-4. **WASHINGTON — Post Office™**
-   900 BRENTWOOD RD NE
-   WASHINGTON, DC 20018-9997
-5. **ARLINGTON — Post Office™**
-   3118 WASHINGTON BLVD
-   ARLINGTON, VA 22201-9998
-6. **ASHBURN — Post Office™**
-   44715 PRENTICE DR
-   DULLES, VA 20101-9996
-7. **MERRIFIELD — Post Office™**
-   8409 LEE HWY
-   MERRIFIELD, VA 22116-9998
+**\* Available U.S. Territories:** U.S. Virgin Islands, American Samoa, Guam, Puerto Rico and the Northern Mariana Islands.
 
 ### You can speak with any retail associate to verify your identity
 
