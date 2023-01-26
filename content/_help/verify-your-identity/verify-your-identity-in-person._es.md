@@ -52,6 +52,7 @@ Puede traer una copia física o mostrar una copia digital del documento. No pued
 ### La verificación de identidad en persona está disponible en las oficinas adheridas de Estados Unidos y algunos de sus territorios*. 
 
 Puede buscar una oficina de correos adherida al iniciar el proceso en Login.gov. Una vez que esté listo para verificar su identidad, podrá ir a cualquier oficina de correos donde esté disponible la verificación en persona.
+
 **\* Territorios de Estados Unidos disponibles:** Islas Vírgenes de Estados Unidos, Samoa Americana, Guam, Puerto Rico y las Islas Marianas del Norte.
 
 ### Puede hablar con cualquier empleado de la oficina para verificar su identidad
