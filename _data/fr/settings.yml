@@ -61,6 +61,7 @@ contact_page:
       'Internal Revenue Service (IRS)': L'Internal Revenue Service (IRS)
       'Library of Congress': Bibliothèque du Congrès
       'National Aeronautics and Space Administration': Administration Nationale de l'Espace et de l'Aéronautique
+      'National Archives and Records Administration (NARA)': Archives nationales et administration des documents (NARA)
       'National Labor Relations Board': Commission nationale des relations de travail
       'OPM Employee Express': OPM Employé Express
       'OPM Services Online': 'Services OPM en ligne'
@@ -74,6 +75,7 @@ contact_page:
       'U.S. Agency for International Development': Agence américaine pour le développement international
       'U.S. Department of Agriculture': Département de l'agriculture des États-Unis
       'United States Forest Service': Service forestier des États-Unis
+      'U.S. International Trade Commission': Commission du commerce international des États-Unis
       'USAJOBS': USAJOBS
     errors:
       pii_found: Pour le respect de votre vie privée, ne soumettez pas d'informations sensibles dans ce formulaire. Nos agents du service clientèle peuvent toujours vous aider sans ces informations.
