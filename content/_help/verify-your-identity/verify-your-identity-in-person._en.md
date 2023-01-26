@@ -48,7 +48,7 @@ If your current address does not match the address on your ID, you will need to 
 
 You can bring a physical copy or show a digital copy of the document. You cannot show a photo or screenshot of the document. 
 
-## Complete the process at a participating Post Office before your deadline
+## Complete the process at a participating Post Office before your&nbsp;deadline
 
 ### In-Person Proofing is available at participating locations across the U.S. and some U.S. territories.*
 
