@@ -4,7 +4,7 @@ category: verify-your-identity
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-Si vous ne parvenez pas à télécharger avec succès votre identifiant sur Login.gov, vous pourrez peut-être le vérifier en personne auprès de nos partenaires du Service postal des États-Unis (USPS). Pour le moment, nous n'offrons cette option que dans [certains bureaux USPS](#sites-disponibles-dans-la-région-de-washington-d-c) de Washington (District de Columbia), Maryland, et la Virginie Septentrionale, et pour certaines agences partenaires.
+Si vous ne parvenez pas à télécharger votre pièce d'identité sur Login.gov, vous pourriez faire une vérification en personne à un bureau de poste participant.
 
 ## Commencez cette procédure sur Login.gov avant de vous rendre au bureau de poste 
 
@@ -46,33 +46,14 @@ Si votre adresse actuelle ne correspond pas à l'adresse figurant sur votre piè
 
 Vous pouvez apporter une copie physique ou montrer une copie numérique du document. Vous ne pouvez pas montrer une photo ou une capture d'écran du document. 
 
-## Effectuez le processus au bureau de poste avant la date limite
+## Terminez la procédure dans un bureau de poste participant avant la date limite.
 
-### Sites disponibles dans la région de Washington D. C. 
+### La vérification en personne est disponible dans les établissements participants aux États-Unis et dans certains territoires américains.* 
 
-Vous pouvez vous rendre dans l'un des bureaux de poste suivants. Vous n'avez pas besoin de vous rendre à l'emplacement que vous avez sélectionné sur Login.gov. 
+Vous pouvez rechercher un bureau de poste participant lorsque vous lancez la procédure sur Login.gov. Dès que vous êtes prêt à la vérification, vous pouvez vous rendre dans n'importe quel bureau de poste où la vérification en personne est disponible.
 
-1. **BALTIMORE — Post Office™**
-   900 E FAYETTE ST RM 118
-   BALTIMORE, MD 21233-9715
-2. **BETHESDA — Post Office™**
-   6900 WISCONSIN AVE STE 100
-   CHEVY CHASE, MD 20815-9996
-3. **FRIENDSHIP — Post Office™**
-   4005 WISCONSIN AVE NW
-   WASHINGTON, D. C. 20016-9997
-4. **WASHINGTON — Post Office™**
-   900 BRENTWOOD RD NE
-   WASHINGTON, D. C. 20018-9997
-5. **ARLINGTON — Post Office™**
-   3118 WASHINGTON BLVD
-   ARLINGTON, VA 22201-9998
-6. **ASHBURN — Post Office™**
-   44715 PRENTICE DR
-   DULLES, VA 20101-9996
-7. **MERRIFIELD — Post Office™**
-   8409 LEE HWY
-   MERRIFIELD, VA 22116-9998
+**\*Territoires américains disponibles:** Îles Vierges américaines, Samoa américaines, Guam, Porto Rico et Îles Mariannes du Nord.
+
 
 ### Vous pouvez parler à n'importe quel associé du magasin pour vérifier votre identité
 
