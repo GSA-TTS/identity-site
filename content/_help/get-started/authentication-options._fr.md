@@ -78,7 +78,7 @@ Nous enverrons un code unique à ce numéro de téléphone chaque fois que vous 
 
 Après avoir reçu le code, tapez-le dans le champ « Code à usage unique ». Chaque fois que vous vous connecterez à login.gov, vous aurez la possibilité d'obtenir un nouveau code à usage unique par appel téléphonique ou par SMS. Vous recevrez un nouveau code à usage unique chaque fois que vous vous connecterez à votre compte login.gov.
 
-Vous n'avez pas reçu votre code à usage unique? 
+<div id="didn-t-receive-your-one-time-code"> Vous n'avez pas reçu votre code à usage unique? </div>
 
 * Vérifiez que votre appareil est allumé 
 * Désactivez le mode avion  

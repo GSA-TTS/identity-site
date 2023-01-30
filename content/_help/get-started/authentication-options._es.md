@@ -78,7 +78,7 @@ Le enviaremos un código de un solo uso a ese número de teléfono cada vez que 
 
 Después de haber recibido el código, introdúzcalo en el campo "Código único". Cada vez que acceda a login.gov tendrá la opción de obtener un nuevo código de un solo uso mediante una llamada telefónica o un mensaje de texto. Recibirá un nuevo código de un solo uso cada vez que acceda a su cuenta de login.gov.
 
-¿No recibió su código de un solo uso?
+<div id="didn-t-receive-your-one-time-code">¿No recibió su código de un solo uso?</div>
  
 * Compruebe que el dispositivo está encendido
 * Desactive el modo avión
