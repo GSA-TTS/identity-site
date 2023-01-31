@@ -18,13 +18,21 @@ common_applications:
   </div>
 {% endif %}
 
+{% if site.contact_unplanned_outage %}
+  <div id="contact-us-unplanned-outage" class="usa-alert usa-alert--warning" hidden>
+    <div class="usa-alert__body">
+      <p class="usa-alert__text">{{ page.unplanned_outage_content}}</p>
+    </div>
+  </div>
+{% endif %}
+
 {{ page.help_center_content | markdownify }}
 
 <contact-us-form
   maintenance-alert-id="contact-us-maintenance-alert"
   maintenance-start-time="{{ site.contact_maintenance_start_time }}"
   maintenance-end-time="{{ site.contact_maintenance_end_time }}"
-  unplanned-outage="{{ site.contact_unplanned_outage }}"
+  unplanned-outage-status="{{ site.contact_unplanned_outage }}"
   class="page-content__section"
 >
   {{ page.intro_content | markdownify }}
