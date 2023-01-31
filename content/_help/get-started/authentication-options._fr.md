@@ -78,6 +78,15 @@ Nous enverrons un code unique à ce numéro de téléphone chaque fois que vous 
 
 Après avoir reçu le code, tapez-le dans le champ « Code à usage unique ». Chaque fois que vous vous connecterez à login.gov, vous aurez la possibilité d'obtenir un nouveau code à usage unique par appel téléphonique ou par SMS. Vous recevrez un nouveau code à usage unique chaque fois que vous vous connecterez à votre compte login.gov.
 
+<div id="didn-t-receive-your-one-time-code"> Vous n'avez pas reçu votre code à usage unique? </div>
+
+* Vérifiez que votre appareil est allumé 
+* Désactivez le mode avion  
+
+N'oubliez pas que vous devez disposer d'un appareil mobile pour recevoir un code à usage unique par message texte. Si vous disposez d'une ligne fixe, choisissez de recevoir le code à usage unique par appel téléphonique. 
+
+Vous pouvez renvoyer un code à usage unique en sélectionnant le bouton « Renvoyer le code ».
+
 ## Codes de secours (moins sécurisés)
 
 Les codes de secours sont une option accessible aux utilisateurs ne disposant pas d'un téléphone. Cependant, les codes de secours sont l'option la moins sécurisée pour une authentification à deux facteurs. Les codes de secours doivent être imprimés ou écrits, ce qui les rend plus vulnérables au vol et aux tentatives d'hameçonnage.

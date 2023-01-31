@@ -27,6 +27,7 @@ We encourage you to add two methods for authentication to your account. If you l
 Although you can choose from several authentication options, some authentication methods such as Security Keys, PIV/CAC cards and authentication applications are more secure against phishing and theft.
 
 ## Face or touch unlock 
+
 <small class="display-block margin-top-neg-2"><em>(The option to add this authentication method is temporarily unavailable)</em></small>
 
 Face or touch unlock uses either facial recognition or fingerprints to sign in to your Login.gov account. This option is resistant to phishing. 
@@ -79,6 +80,15 @@ If you choose to use this less secure option, enter a phone number at which you 
 We will send a unique one-time code to that phone number each time you sign in to your Login.gov account. Each one-time code expires after ten minutes and can only be used once. If you don’t enter the one-time code within ten minutes, request a new code.
 
 After you receive the code, type it into the “One-time code” field. Each time you sign in to Login.gov you’ll have the option of getting a new one-time code by phone call or by text. You will receive a new one-time code each time you sign in to your Login.gov account.
+
+<div id="didn-t-receive-your-one-time-code"> Didn’t receive your one time code?</div>
+ 
+* Check that your device is turned on
+* Turn airplane mode off 
+
+Remember you need a mobile device to receive a one-time code by text message. If you have a landline, select to receive the one-time code by phone call instead. 
+
+You can resend a one-time code by selecting using the "resend code" button
 
 ## Backup codes (less secure)
 
