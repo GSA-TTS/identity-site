@@ -12,6 +12,7 @@ class: why-login-gov
 three_col:
   heading: Login.gov es para ti
   subheading1: Individuos
+  col_class1: individuals
   col1: >-
     Use una cuenta para tener acceso privado y seguro a las agencias
     gubernamentales participantes.
@@ -19,6 +20,7 @@ three_col:
 
     [Más información sobre Login.gov](/es/what-is-login/){:class="why-more-info"}
   subheading2: Socios de agencias
+  col_class2: partners
   col2: >-
     Proteja la información de sus usuarios con los más altos estándares de
     seguridad digital y experiencia de usuario. Login.gov maneja el desarrollo
@@ -28,6 +30,7 @@ three_col:
 
     [Convertirse en un compañero](/partners/){:class="why-more-info"}
   subheading3: Desarrolladores de agencias
+  col_class3: developers
   col3: >-
     Recursos para desarrolladores, soporte en tiempo real y herramientas
     modernas para ayudarlo a implementar e implementar su aplicación con
