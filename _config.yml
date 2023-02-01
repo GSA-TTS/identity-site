@@ -26,7 +26,7 @@ contact_maintenance_start_time: null
 contact_maintenance_end_time: null
 
 # Unplanned outage configuration
-contact_unplanned_outage: ''
+contact_unplanned_outage: null
 
 # Used to load country code support
 idp_base_url: https://secure.login.gov
