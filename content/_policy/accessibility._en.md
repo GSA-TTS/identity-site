@@ -1,11 +1,11 @@
 ---
 layout: sidenav
+sidenav: accessibility
 title: Accessibility
 description: Read our accessibility statement
 permalink: /accessibility/
-sidenav: accessibility
 redirect_from:
-    - /en/accessibility/
+  - /en/accessibility/
 ---
 
 ## Our commitment
@@ -26,7 +26,7 @@ Login.gov is regularly evaluated through a series of semi-automated evaluation t
 Our completed accessibility assessment reports can be found below:
 
 [IAL 1 Account creation report](/docs/accessibility-assessment-ial1-account-creation.pdf)
-[IAL 2 Identity verification report](/docs/accessibility-assessment-ial2-identity-verification-process.pdf)
+[Identity verification report](/docs/accessibility-assessment-ial2-identity-verification-process.pdf)
 
 ### Accessibility policies
 In addition to completed accessibility reports, Login.gov has compiled a page regarding accessibility policies.
