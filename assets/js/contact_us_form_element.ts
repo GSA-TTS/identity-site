@@ -41,7 +41,7 @@ class ContactUsFormElement extends HTMLElement {
       this.hide();
     }
 
-    if(this.isThereAnOutage) {
+    if (this.unplannedOutage) {
       this.showOutageAlert();
       this.hide();
     }
@@ -52,7 +52,7 @@ class ContactUsFormElement extends HTMLElement {
   }
 
   get unplannedOutageAlert(): HTMLElement | null {
-    return document.getElementById(this.getAttribute('unplanned-outage-alert-id')!);
+    return document.getElementById(this.getAttribute('unplanned-outage-alert-id')!)
   }
 
   get now(): Date {
@@ -71,8 +71,8 @@ class ContactUsFormElement extends HTMLElement {
       : null;
   }
 
-  get unplannedOutageStatus(): string | null {
-    return this.getAttribute('unplanned-outage-status')
+  get unplannedOutage(): boolean {
+    return this.hasAttribute('unplanned-outage');
   }
 
   get isInMaintenanceWindow(): boolean {
@@ -82,10 +82,6 @@ class ContactUsFormElement extends HTMLElement {
       this.now > this.maintenanceStartTime &&
       this.now < this.maintenanceEndTime
     );
-  }
-
-  get isThereAnOutage(): boolean {
-    return !!(this.unplannedOutageStatus);
   }
 
   showAlert() {
@@ -99,11 +95,11 @@ class ContactUsFormElement extends HTMLElement {
   }
 
   showOutageAlert() {
-    if(!this.isThereAnOutage) {
+    if (!this.unplannedOutageAlert) {
       return;
     }
 
-    this.unplannedOutageAlert?.removeAttribute('hidden');
+    this.unplannedOutageAlert.removeAttribute('hidden')
   }
 
   hide() {
