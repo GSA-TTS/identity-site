@@ -43,7 +43,7 @@ class ContactUsFormElement extends HTMLElement {
 
     if (this.unplannedOutage) {
       this.showOutageAlert();
-      this.hide()
+      this.hide();
     }
   }
 
@@ -52,7 +52,7 @@ class ContactUsFormElement extends HTMLElement {
   }
 
   get unplannedOutageAlert(): HTMLElement | null {
-    return document.getElementById(this.getAttribute('unplanned-outage-alert-id')!)
+    return document.getElementById(this.getAttribute('unplanned-outage-alert-id')!);
   }
 
   get now(): Date {
@@ -99,7 +99,7 @@ class ContactUsFormElement extends HTMLElement {
       return;
     }
 
-    this.unplannedOutageAlert.removeAttribute('hidden')
+    this.unplannedOutageAlert.removeAttribute('hidden');
   }
 
   hide() {
