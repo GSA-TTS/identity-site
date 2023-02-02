@@ -52,7 +52,7 @@ class ContactUsFormElement extends HTMLElement {
   }
 
   get unplannedOutageAlert(): HTMLElement | null {
-    return document.getElementById(this.getAttribute('unplanned-outage-alert-id')!);
+    return document.getElementById(this.getAttribute('unplanned-outage-alert')!);
   }
 
   get now(): Date {
