@@ -43,7 +43,7 @@ class ContactUsFormElement extends HTMLElement {
 
     if (this.unplannedOutage) {
       this.showOutageAlert();
-      this.hide();
+      this.hide()
     }
   }
 
