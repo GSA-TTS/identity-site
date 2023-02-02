@@ -94,10 +94,7 @@ describe('ContactUsFormElement', () => {
     });
   });
 
-  describe('when there is not an unplanned outage', () => {
-    // Writing this test to show that even if other attributes are defined,
-    // it willl still appear
-
+  describe('when there is no outage', () => {
     beforeEach(() => {
       document.body.innerHTML = `
         <contact-us-form
@@ -107,9 +104,35 @@ describe('ContactUsFormElement', () => {
       `;
     });
 
+    // Writing this test to assert that it only appears when the
+    // attribute is present. Other attributes can have a value.
     test('shows the form', () => {
       const form = document.querySelector('contact-us-form')!;
       expect(form.hasAttribute('hidden')).toStrictEqual(false);
+    });
+
+    describe('banner', () => {
+      beforeEach(() => {
+        document.body.innerHTML = `
+          <div id="alert-banner" class="usa-alert usa-alert--warning" hidden>
+            <div class="usa-alert__body">
+              <p class="usa-alert__text">
+                There is an outage</strong>
+              </p>
+            </div>
+          </div>
+          <contact-us-form
+            unplanned-outage-alert="alert-banner"
+            unplanned-outage
+          ></contact-us-form>
+        `;
+      });
+
+      test('hides the banner', () => {
+        const banner = document.getElementById('alert-banner')!;
+
+        expect(banner.hasAttribute('hidden')).toStrictEqual(false)
+      });
     });
   });
 
@@ -127,4 +150,22 @@ describe('ContactUsFormElement', () => {
       expect(form.hasAttribute('hidden')).toStrictEqual(true);
     });
   });
+
+  describe('associated banner', () => {
+    beforeEach(() => {
+      document.body.innerHTML = `
+        <div id="alert-banner" class="usa-alert usa-alert--warning" hidden>
+          <div class="usa-alert__body">
+            <p class="usa-alert__text">
+              There is an outage</strong>
+            </p>
+          </div>
+        </div>
+        <contact-us-form
+          unplanned-outage-alert="alert-banner"
+          unplanned-outage
+        ></contact-us-form>
+      `;
+    });
+  })
 });
