@@ -93,4 +93,38 @@ describe('ContactUsFormElement', () => {
       });
     });
   });
+
+  describe('when there is not an unplanned outage', () => {
+    // Writing this test to show that even if other attributes are defined,
+    // it willl still appear
+
+    beforeEach(() => {
+      document.body.innerHTML = `
+        <contact-us-form
+          maintenance-start-time="2023-02-02T00:00:00Z"
+          maintenance-end-time="2023-02-03T10:00:00Z"
+        ></contact-us-form>
+      `;
+    });
+
+    test('shows the form', () => {
+      const form = document.querySelector('contact-us-form')!;
+      expect(form.hasAttribute('hidden')).toStrictEqual(false);
+    });
+  });
+
+  describe('when there is an unplanned outage', () => {
+    beforeEach(() => {
+      document.body.innerHTML = `
+        <contact-us-form
+          unplanned-outage
+        ></contact-us-form>
+      `;
+    });
+
+    test('hides the form', () => {
+      const form = document.querySelector('contact-us-form')!;
+      expect(form.hasAttribute('hidden')).toStrictEqual(true);
+    });
+  });
 });
