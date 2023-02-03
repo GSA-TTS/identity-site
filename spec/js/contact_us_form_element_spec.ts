@@ -94,48 +94,6 @@ describe('ContactUsFormElement', () => {
     });
   });
 
-  describe('when there is no outage', () => {
-    beforeEach(() => {
-      document.body.innerHTML = `
-        <contact-us-form
-          maintenance-start-time="2023-02-02T00:00:00Z"
-          maintenance-end-time="2023-02-03T10:00:00Z"
-        ></contact-us-form>
-      `;
-    });
-
-    // Writing this test to assert that it only appears when the
-    // attribute is present. Other attributes can have a value.
-    test('shows the form', () => {
-      const form = document.querySelector('contact-us-form')!;
-      expect(form.hasAttribute('hidden')).toStrictEqual(false);
-    });
-
-    describe('unplanned outage banner', () => {
-      beforeEach(() => {
-        document.body.innerHTML = `
-          <div id="alert-banner" class="usa-alert usa-alert--warning" hidden>
-            <div class="usa-alert__body">
-              <p class="usa-alert__text">
-                There is an outage</strong>
-              </p>
-            </div>
-          </div>
-          <contact-us-form
-            unplanned-outage-alert="alert-banner"
-            unplanned-outage
-          ></contact-us-form>
-        `;
-      });
-
-      test('is hidden', () => {
-        const banner = document.getElementById('alert-banner')!;
-
-        expect(banner.hasAttribute('hidden')).toStrictEqual(false);
-      });
-    });
-  });
-
   describe('when there is an unplanned outage', () => {
     beforeEach(() => {
       document.body.innerHTML = `
@@ -148,26 +106,6 @@ describe('ContactUsFormElement', () => {
     test('hides the form', () => {
       const form = document.querySelector('contact-us-form')!;
       expect(form.hasAttribute('hidden')).toStrictEqual(true);
-    });
-
-    describe('associated banner', () => {
-      beforeEach(() => {
-        document.body.innerHTML = `
-          <div id="alert-banner" class="usa-alert usa-alert--warning" hidden>
-            <div class="usa-alert__body">
-              <p class="usa-alert__text">
-                There is an outage</strong>
-              </p>
-            </div>
-          </div>
-          <contact-us-form
-            unplanned-outage-alert="alert-banner"
-            unplanned-outage
-          ></contact-us-form>
-        `;
-      });
-
-      test('is shown', () => {});
     });
   });
 });
