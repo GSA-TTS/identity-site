@@ -40,10 +40,6 @@ class ContactUsFormElement extends HTMLElement {
       this.showAlert();
       this.hide();
     }
-
-    if (this.isUnplannedOutage) {
-      this.hide();
-    }
   }
 
   get maintenanceAlert(): HTMLElement | null {

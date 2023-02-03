@@ -33,7 +33,7 @@ common_applications:
   unplanned-outage-alert="contact-us-unplanned-outage-alert"
   maintenance-start-time="{{ site.contact_maintenance_start_time }}"
   maintenance-end-time="{{ site.contact_maintenance_end_time }}"
-  {% if site.contact_unplanned_outage %} unplanned-outage {% endif %}
+  {% if site.contact_unplanned_outage %} unplanned-outage hidden {% endif %}
   class="page-content__section"
 >
   {{ page.intro_content | markdownify }}
