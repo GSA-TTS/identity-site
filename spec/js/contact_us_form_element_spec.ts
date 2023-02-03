@@ -111,7 +111,7 @@ describe('ContactUsFormElement', () => {
       expect(form.hasAttribute('hidden')).toStrictEqual(false);
     });
 
-    describe('banner', () => {
+    describe('unplanned outage banner', () => {
       beforeEach(() => {
         document.body.innerHTML = `
           <div id="alert-banner" class="usa-alert usa-alert--warning" hidden>
@@ -128,10 +128,10 @@ describe('ContactUsFormElement', () => {
         `;
       });
 
-      test('hides the banner', () => {
+      test('is hidden', () => {
         const banner = document.getElementById('alert-banner')!;
 
-        expect(banner.hasAttribute('hidden')).toStrictEqual(false)
+        expect(banner.hasAttribute('hidden')).toStrictEqual(false);
       });
     });
   });
@@ -149,23 +149,25 @@ describe('ContactUsFormElement', () => {
       const form = document.querySelector('contact-us-form')!;
       expect(form.hasAttribute('hidden')).toStrictEqual(true);
     });
-  });
 
-  describe('associated banner', () => {
-    beforeEach(() => {
-      document.body.innerHTML = `
-        <div id="alert-banner" class="usa-alert usa-alert--warning" hidden>
-          <div class="usa-alert__body">
-            <p class="usa-alert__text">
-              There is an outage</strong>
-            </p>
+    describe('associated banner', () => {
+      beforeEach(() => {
+        document.body.innerHTML = `
+          <div id="alert-banner" class="usa-alert usa-alert--warning" hidden>
+            <div class="usa-alert__body">
+              <p class="usa-alert__text">
+                There is an outage</strong>
+              </p>
+            </div>
           </div>
-        </div>
-        <contact-us-form
-          unplanned-outage-alert="alert-banner"
-          unplanned-outage
-        ></contact-us-form>
-      `;
+          <contact-us-form
+            unplanned-outage-alert="alert-banner"
+            unplanned-outage
+          ></contact-us-form>
+        `;
+      });
+
+      test('is shown', () => {});
     });
-  })
+  });
 });
