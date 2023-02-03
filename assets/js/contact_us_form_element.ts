@@ -41,8 +41,7 @@ class ContactUsFormElement extends HTMLElement {
       this.hide();
     }
 
-    if (this.unplannedOutage) {
-      this.showOutageAlert();
+    if (this.isUnplannedOutage) {
       this.hide();
     }
   }
@@ -71,7 +70,7 @@ class ContactUsFormElement extends HTMLElement {
       : null;
   }
 
-  get unplannedOutage(): boolean {
+  get isUnplannedOutage(): boolean {
     return this.hasAttribute('unplanned-outage');
   }
 
@@ -92,14 +91,6 @@ class ContactUsFormElement extends HTMLElement {
     deepReplace(this.maintenanceAlert, '%{start_time}', formatDate(this.maintenanceStartTime!));
     deepReplace(this.maintenanceAlert, '%{end_time}', formatDate(this.maintenanceEndTime!));
     this.maintenanceAlert.removeAttribute('hidden');
-  }
-
-  showOutageAlert() {
-    if (!this.unplannedOutageAlert) {
-      return;
-    }
-
-    this.unplannedOutageAlert.removeAttribute('hidden');
   }
 
   hide() {
