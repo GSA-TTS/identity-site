@@ -93,34 +93,4 @@ describe('ContactUsFormElement', () => {
       });
     });
   });
-
-  describe('when there is no outage', () => {
-    beforeEach(() => {
-      document.body.innerHTML = `
-        <contact-us-form
-          unplanned-outage
-        ></contact-us-form>
-      `;
-    });
-    
-    test('shows the form', () => {
-      const form = document.querySelector('contact-us-form')!;
-      // expect(form.hasAttribute('hidden')).toStrictEqual(true);
-    });
-  });
-
-  describe('when there is an unplanned outage', () => {
-    beforeEach(() => {
-      document.body.innerHTML = `
-        <contact-us-form
-          unplanned-outage
-        ></contact-us-form>
-      `;
-    });
-
-    test('hides the form', () => {
-      const form = document.querySelector('contact-us-form')!;
-      expect(form.hasAttribute('hidden')).toStrictEqual(true);
-    });
-  });
 });

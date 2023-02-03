@@ -46,10 +46,6 @@ class ContactUsFormElement extends HTMLElement {
     return document.getElementById(this.getAttribute('maintenance-alert-id')!);
   }
 
-  get unplannedOutageAlert(): HTMLElement | null {
-    return document.getElementById(this.getAttribute('unplanned-outage-alert')!);
-  }
-
   get now(): Date {
     return new Date();
   }
@@ -64,10 +60,6 @@ class ContactUsFormElement extends HTMLElement {
     return this.getAttribute('maintenance-end-time')
       ? new Date(this.getAttribute('maintenance-end-time')!)
       : null;
-  }
-
-  get isUnplannedOutage(): boolean {
-    return this.hasAttribute('unplanned-outage');
   }
 
   get isInMaintenanceWindow(): boolean {

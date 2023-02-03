@@ -19,7 +19,7 @@ common_applications:
 {% endif %}
 
 {% if site.contact_unplanned_outage %}
-  <div id="contact-us-unplanned-outage-alert" class="usa-alert usa-alert--warning">
+  <div class="usa-alert usa-alert--warning">
     <div class="usa-alert__body">
       <p class="usa-alert__text">{{ page.unplanned_outage_content}}</p>
     </div>
@@ -30,7 +30,6 @@ common_applications:
 
 <contact-us-form
   maintenance-alert-id="contact-us-maintenance-alert"
-  unplanned-outage-alert="contact-us-unplanned-outage-alert"
   maintenance-start-time="{{ site.contact_maintenance_start_time }}"
   maintenance-end-time="{{ site.contact_maintenance_end_time }}"
   {% if site.contact_unplanned_outage %} unplanned-outage hidden {% endif %}
