@@ -28,10 +28,10 @@ common_applications:
 
 {{ page.help_center_content | markdownify }}
 
-{% if site.contact_unplanned_outage%}
   <contact-us-form
     maintenance-alert-id="contact-us-maintenance-alert"
     maintenance-start-time="{{ site.contact_maintenance_start_time }}"
+    {% if site.contact_unplanned_outage %} hidden {% endif %}
     maintenance-end-time="{{ site.contact_maintenance_end_time }}"
     class="page-content__section"
   >
@@ -51,7 +51,6 @@ common_applications:
       {% include contact_phone.html %}
     {% endif %}
   </contact-us-form>
-{% endif %}
 
 <div class="page-content__section">{{ page.partner_content | markdownify }}</div>
 <div class="page-content__section">{{ page.report_issue_content | markdownify }}</div>
