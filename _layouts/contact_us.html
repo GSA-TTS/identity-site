@@ -28,29 +28,29 @@ common_applications:
 
 {{ page.help_center_content | markdownify }}
 
-  <contact-us-form
-    maintenance-alert-id="contact-us-maintenance-alert"
-    maintenance-start-time="{{ site.contact_maintenance_start_time }}"
-    {% if site.contact_unplanned_outage %} hidden {% endif %}
-    maintenance-end-time="{{ site.contact_maintenance_end_time }}"
-    class="page-content__section"
-  >
-    {{ page.intro_content | markdownify }}
+<contact-us-form
+  maintenance-alert-id="contact-us-maintenance-alert"
+  maintenance-start-time="{{ site.contact_maintenance_start_time }}"
+  {% if site.contact_unplanned_outage %} hidden {% endif %}
+  maintenance-end-time="{{ site.contact_maintenance_end_time }}"
+  class="page-content__section"
+>
+  {{ page.intro_content | markdownify }}
 
-    {% if site.contact_phone_number_enabled and site.contact_phone_number and
-      site.contact_phone_number_location == 'top' %}
-      {% include contact_phone.html %}
-    {% endif %}
+  {% if site.contact_phone_number_enabled and site.contact_phone_number and
+    site.contact_phone_number_location == 'top' %}
+    {% include contact_phone.html %}
+  {% endif %}
 
-    <div class="desktop:grid-col-9">
-      {% include contact_form.html common_applications=layout.common_applications %}
-    </div>
+  <div class="desktop:grid-col-9">
+    {% include contact_form.html common_applications=layout.common_applications %}
+  </div>
 
-    {% if site.contact_phone_number_enabled and site.contact_phone_number and
-      site.contact_phone_number_location == 'bottom' %}
-      {% include contact_phone.html %}
-    {% endif %}
-  </contact-us-form>
+  {% if site.contact_phone_number_enabled and site.contact_phone_number and
+    site.contact_phone_number_location == 'bottom' %}
+    {% include contact_phone.html %}
+  {% endif %}
+</contact-us-form>
 
 <div class="page-content__section">{{ page.partner_content | markdownify }}</div>
 <div class="page-content__section">{{ page.report_issue_content | markdownify }}</div>
