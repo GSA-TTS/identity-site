@@ -7,4 +7,4 @@
 | ----------- | ----------- |
 |  |  |
 
-**Additional information**
+🏁 **Additional information**
