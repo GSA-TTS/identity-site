@@ -25,6 +25,9 @@ contact_phone_number_location: 'bottom' # acceptable values are 'top' and 'botto
 contact_maintenance_start_time: null
 contact_maintenance_end_time: null
 
+# Unplanned outage configuration
+contact_unplanned_outage: false
+
 # Used to load country code support
 idp_base_url: https://secure.login.gov
 # for local development:

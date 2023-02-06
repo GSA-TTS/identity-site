@@ -18,18 +18,27 @@ common_applications:
   </div>
 {% endif %}
 
+{% if site.contact_unplanned_outage %}
+  <div class="usa-alert usa-alert--warning">
+    <div class="usa-alert__body">
+      <p class="usa-alert__text">{{ page.unplanned_outage_content}}</p>
+    </div>
+  </div>
+{% endif %}
+
 {{ page.help_center_content | markdownify }}
 
 <contact-us-form
   maintenance-alert-id="contact-us-maintenance-alert"
   maintenance-start-time="{{ site.contact_maintenance_start_time }}"
+  {% if site.contact_unplanned_outage %} hidden {% endif %}
   maintenance-end-time="{{ site.contact_maintenance_end_time }}"
   class="page-content__section"
 >
   {{ page.intro_content | markdownify }}
 
   {% if site.contact_phone_number_enabled and site.contact_phone_number and
-     site.contact_phone_number_location == 'top' %}
+    site.contact_phone_number_location == 'top' %}
     {% include contact_phone.html %}
   {% endif %}
 
@@ -38,7 +47,7 @@ common_applications:
   </div>
 
   {% if site.contact_phone_number_enabled and site.contact_phone_number and
-     site.contact_phone_number_location == 'bottom' %}
+    site.contact_phone_number_location == 'bottom' %}
     {% include contact_phone.html %}
   {% endif %}
 </contact-us-form>
