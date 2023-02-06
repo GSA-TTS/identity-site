@@ -13,7 +13,6 @@ Vous devrez vérifier votre identité et sécuriser votre compte.
 
 {: .number-list}
 1. Votre carte d'identité émise par l'État. Vous pouvez télécharger une photo de votre pièce d'identité par téléphone ou par ordinateur. [Vous n'avez pas de carte d'identité émise par l'État?](/fr/help/verify-your-identity/accepted-state-issued-identification/)
-1. Vous pouvez à l'aide d'un téléphone ou d'un ordinateur équipé d'une caméra prendre une photo de vous (Cette fonction n'est pas actuellement activée ou requise.)
 1. Numéro de sécurité sociale
 1. Votre numéro de téléphone
     * Si nous ne pouvons pas vérifier votre numéro de téléphone, vous pouvez le faire par courrier, ce qui prend environ 3 à 5 jours.
