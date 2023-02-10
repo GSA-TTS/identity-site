@@ -22,7 +22,7 @@ Provide a checklist of steps to confirm the changes.
 - [ ] Step 3
 -->
 
-<!-- 📸 **Screenshots of actual behavior and expected behavior (if applicable)**
+<!-- 📸 **Screenshots of actual behavior and expected behavior**
 | Before | After |
 | ----------- | ----------- |
 |  |  | -->
