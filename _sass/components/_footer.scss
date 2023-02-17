@@ -10,14 +10,14 @@
     @include unstyled-list;
   }
 
-  h1,
+  h2,
   a {
     font-size: $base-font-sm;
     color: color('primary-dark');
   }
 }
 
-.footer-navigation__section h1 {
+.footer-navigation__section h2 {
   margin: 0;
 }
 
