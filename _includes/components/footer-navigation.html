@@ -22,7 +22,7 @@
         {% assign section_key = section[0] %}
         {% assign section_value = section[1] %}
         <section class="grid-col-6 tablet:grid-col-auto margin-y-2 footer-navigation__section">
-          <h1>{{ site.data.[page.lang].settings.nav.groups[section_key] }}</h1>
+          <h2>{{ site.data.[page.lang].settings.nav.groups[section_key] }}</h2>
           <ul>
             {% for section_link in section_value %}
               {% assign section_link_key = section_link[0] %}
