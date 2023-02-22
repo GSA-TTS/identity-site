@@ -27,7 +27,7 @@ Une fois que vous aurez complété les étapes sur Login.gov, nous vous enverron
 
 Apportez la même carte d'identité que vous avez utilisée sur Login.gov. Votre pièce d'identité ne doit pas être périmée. Pour l'instant, seules les pièces d'identité suivantes, délivrées par l'État, sont acceptées : 
 
-* Un permis de conduire des 50 États, du district de Columbia (D. C.) et des autres territoires américains (Guam, îles Vierges américaines, îles Mariannes et Porto Rico).
+* Un permis de conduire des 50 États, du district de Columbia (D. C.) et des autres territoires américains (Guam, îles Vierges américaines, Samoa américaines, îles Mariannes et Porto Rico).
 * Une carte d'identité sans permis de conduire délivrée par l'État.
 * * Il s'agit d'un document d'identité délivré par l'État, le district de Columbia (D. C.) ou le territoire américain, qui atteste de l'identité mais ne donne pas le droit de conduire.
 
