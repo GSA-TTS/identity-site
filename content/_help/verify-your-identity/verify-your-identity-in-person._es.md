@@ -27,7 +27,7 @@ Una vez que haya completado los pasos en Login.gov, le enviaremos por correo ele
 
 Lleve el mismo documento de identidad que utilizó en Login.gov. Su identificación no debe estar vencida. En este momento, solo se aceptan las siguientes identificaciones emitidas por el estado: 
 
-* Licencia de conducir de los 50 estados, del Distrito de Columbia (DC) y de otros territorios de Estados Unidos (Guam, Islas Vírgenes de Estados Unidos, Islas Marianas y Puerto Rico)
+* Licencia de conducir de los 50 estados, del Distrito de Columbia (DC) y de otros territorios de Estados Unidos (Guam, Islas Vírgenes de Estados Unidos, Samoa Americana, Islas Marianas y Puerto Rico)
 * Una identificación emitida por el estado que no sea una licencia de conducir
 
   * Se trata de un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de EE.UU. que confirme la identidad, pero no otorga privilegios de conducción.
