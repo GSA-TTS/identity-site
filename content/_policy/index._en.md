@@ -9,6 +9,7 @@ redirect_from:
   - /docs/Logingov_PIA_August2019.pdf/
   - /docs/Privacy-Impact-Assessment 9-18.pdf/
   - /docs/privacy-impact-assessment.pdf/
+  - /docs/accessibility-assessment-ial2-identity-verification-process.pdf/  
 ---
 ## Login.gov is committed to your privacy and security ## {#intro}
 

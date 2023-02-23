@@ -5,7 +5,7 @@ title: Accessibility
 description: Read our accessibility statement
 permalink: /accessibility/
 redirect_from:
-  - /en/accessibility/
+  - /en/accessibility/  
 ---
 
 ## Our commitment
