@@ -1,0 +1,1 @@
+redirect_to: /docs/accessibility-assessment-identity-verification-process.pdf
