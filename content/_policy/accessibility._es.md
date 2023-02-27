@@ -23,7 +23,7 @@ Login.gov es evaluado periódicamente mediante una serie de herramientas de eval
 En el siguiente enlace se pueden consultar nuestros informes de evaluación de accesibilidad realizados:
 
 [Informe de creación de Cuenta IAL 1](/docs/accessibility-assessment-ial1-account-creation.pdf)
-[Informe de verificación de Cuenta](/docs/accessibility-assessment-ial2-identity-verification-process.pdf)
+[Informe de verificación de Cuenta](/docs/accessibility-assessment-identity-verification-process.pdf)
 
 ### Políticas de accesibilidad
 Además de los informes de accesibilidad realizados, Login.gov ha elaborado una página sobre las políticas de accesibilidad.
