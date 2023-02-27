@@ -59,6 +59,7 @@
   },
   "dependencies": {
     "@18f/identity-build-sass": "^1.0.0",
+    "@18f/identity-document-capture": "file:./../identity-idp/app/javascript/packages/document-capture",
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-typescript": "^7.18.6",
@@ -67,6 +68,8 @@
     "identity-style-guide": "^6.5.0",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
-    "whatwg-fetch": "^3.6.2"
+    "whatwg-fetch": "^3.6.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

@@ -20,6 +20,13 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
     path: `${__dirname}/_site/assets/js`,
   },
 
+  resolve: {
+    alias: {
+      'react/jsx-dev-runtime': 'react/jsx-dev-runtime.js',
+      'react/jsx-runtime': 'react/jsx-runtime.js',
+    },
+  },
+
   module: {
     rules: [
       {
@@ -29,4 +36,6 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
       },
     ],
   },
+
+  devtool: false,
 });

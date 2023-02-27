@@ -1,4 +1,14 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { AddressSearch, InPersonLocations } from '@18f/identity-document-capture';
+
 function verifyCanSubmitEntry() {
+  ReactDOM.render(React.createElement(AddressSearch), document.getElementById('search-component'));
+  ReactDOM.render(
+    React.createElement(InPersonLocations, { locations: [{ isPilot: true, streetAddress: 'hi' }] }),
+    document.getElementById('in-person-locations'),
+  );
+
   const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
   if (debug && +debug.value) {
     return;

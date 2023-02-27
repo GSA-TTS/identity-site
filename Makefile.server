@@ -8,4 +8,4 @@ jekyll: _config.dev.yml
 
 npm-watch: export NODE_ENV := development
 npm-watch:
-	npm run watch
+	yarn run watch
