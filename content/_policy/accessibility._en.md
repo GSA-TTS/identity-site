@@ -28,11 +28,6 @@ Our completed accessibility assessment reports can be found below:
 [IAL 1 Account creation report](/docs/accessibility-assessment-ial1-account-creation.pdf)
 [Identity verification report](/docs/accessibility-assessment-identity-verification-process.pdf)
 
-### Accessibility policies
-In addition to completed accessibility reports, Login.gov has compiled a page regarding accessibility policies.
-
-[Login.gov accessibility policies](https://design.login.gov/accessibility/policies/)
-
 ## Known limitations
 Below is a description of the types of accessibility limitations discovered in our evaluations.
 
