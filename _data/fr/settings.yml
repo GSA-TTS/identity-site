@@ -38,6 +38,7 @@ contact_page:
       'Customs and Border Protection ROAM': ROAM des douanes et de la protection des frontières
       'Department of Commerce': Département du Commerce
       'Department of Defense': Département de la Défense
+      'Department of Education': Département de l'Éducation
       'Department of Energy': Département de l'Energie
       'Department of Labor': Département du Travail
       'Department of the Interior': Département de l'Intérieur
@@ -52,6 +53,7 @@ contact_page:
       'DOT National Registry of Certified Medical Examiners': Registre national des médecins agréés du Département des transports
       'Environmental Protection Agency': Agence de protection de l'environnement
       'FDIC Resolution Request Management Portal': FDIC demande un portail de gestion des résolutions
+      'FEMA Disaster Assistance': Assistance FEMA en cas de catastrophe
       'General Services Administration': Administration des services généraux
       'GSA Sam.gov': GSA SAM.gov
       'Health and Human Services': Santé et services sociaux
@@ -60,11 +62,13 @@ contact_page:
       'Housing and Urban Development': Logement et développement urbain
       'Internal Revenue Service (IRS)': L'Internal Revenue Service (IRS)
       'Library of Congress': Bibliothèque du Congrès
+      'myTreasury': myTreasury
       'National Aeronautics and Space Administration': Administration Nationale de l'Espace et de l'Aéronautique
       'National Archives and Records Administration (NARA)': Archives nationales et administration des documents (NARA)
       'National Labor Relations Board': Commission nationale des relations de travail
       'OPM Employee Express': OPM Employé Express
       'OPM Services Online': 'Services OPM en ligne'
+      'Pay.gov': Pay.gov
       'PBGC-MyPBA': 'PBGC - MyPBA'
       'Peace Corps': Corps de la Paix
       'Railroad Retirement Board': Conseil des retraites des chemins de fer
