@@ -18,7 +18,6 @@ These terms of service provide:
 * How we use your information and your rights to that information, and
 * The conditions you agree to when you take certain actions on the Login.gov service.
 
-
 ## 1. General Service Definition
 
 The Login.gov service offers the public secure and private online access to participating government programs. With one Login.gov account, you can sign into services offered by multiple government agencies. Our goal is to make managing federal benefits, services, and applications easier and more secure.
