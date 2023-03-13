@@ -237,7 +237,7 @@ nav:
       - name: Evaluación
         url: '#evaluación'
       - name: Limitaciones conocidas
-        url: '#políticas-de-accesibilidad'
+        url: '#limitaciones-conocidas'
   anchor_to_top: Volver arriba
   become_a_partner: Convertirse en un compañero
   business_inquiries:

@@ -25,11 +25,6 @@ En el siguiente enlace se pueden consultar nuestros informes de evaluación de a
 [Informe de creación de Cuenta IAL 1](/docs/accessibility-assessment-ial1-account-creation.pdf)
 [Informe de verificación de Cuenta](/docs/accessibility-assessment-identity-verification-process.pdf)
 
-### Políticas de accesibilidad
-Además de los informes de accesibilidad realizados, Login.gov ha elaborado una página sobre las políticas de accesibilidad.
-
-[Políticas de accesibilidad de Login.gov](https://design.login.gov/accessibility/policies/)
-
 ## Limitaciones conocidas
 A continuación, se describen los tipos de limitaciones de accesibilidad descubiertas en nuestras evaluaciones.
 
