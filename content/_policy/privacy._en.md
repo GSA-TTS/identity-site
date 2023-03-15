@@ -68,7 +68,7 @@ Fraud is someone pretending to be you and attempting to access a partner agency 
 
 ### Records - Where can you find more information? ### {#records}
 
-Please see the Login.gov system of records notice [GSA/TTS–1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records).
+Please see the Login.gov system of records notice ([GSA/TTS–1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records)).
 
 ### Website Analytics – Other data we collect ### {#analytics}
 
