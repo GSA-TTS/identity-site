@@ -48,6 +48,7 @@ En plus des détails concernant votre consentement mentionnés ailleurs dans ces
 6. Vous conserverez en permanence des informations exactes sur votre compte.
 
 Vous acceptez en outre de NE PAS déformer votre identité ou les informations que vous présentez dans le cadre du service Login.gov, y compris par l'intermédiaire des canaux d'assistance à la clientèle.
+
 Vous acceptez également d'être lié par ces conditions et par la [politique de confidentialité]({% link _policy/index._fr.md %}), ainsi que par d'autres conditions liées au service Login.gov.
 
 Nous publierons toute modification de ces conditions sur cette page. Si les modifications affectent notre traitement de vos informations personnelles ou sont jugées significatives, nous vous en informerons par courriel. Si nous ne pouvons pas vous joindre par courriel, nous nous réservons le droit de vous contacter par d'autres moyens, y compris par courrier postal. Si, à tout moment, vous n'acceptez plus ces conditions ou toute autre condition pertinente du service Login.gov, vous pouvez fermer votre compte.
