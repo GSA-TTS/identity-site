@@ -35,7 +35,7 @@ Login.gov travaille en partenariat avec des agences qui ont besoin d'un accès s
 * Au bureau de publication du gouvernement (GPO), lorsque Login.gov doit vous envoyer un formulaire de confirmation d'adresse ou si vous demandez à être informé par courrier des modifications apportées à votre compte ou des tentatives d'authentification.
 * À d'autres agences fédérales et à des services tiers de prévention des fraudes, dans la mesure où cela est nécessaire pour détecter et enquêter sur des fraudes présumées, y compris pour vous offrir des voies de recours.
 
-Cette liste n'est pas exhaustive. Veuillez consulter [l'avis de système d'enregistrement GSA/TTS-1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records)) pour toutes les entités et personnes.
+Cette liste n'est pas exhaustive. Veuillez consulter [l'avis de système d'enregistrement GSA/TTS-1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records) pour toutes les entités et personnes.
 
 #### Qu'advient-il des informations que vous partagez?
 
