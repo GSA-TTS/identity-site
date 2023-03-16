@@ -7,151 +7,155 @@ permalink: /fr/policy/rules-of-use/
 ---
 ## Règles d'utilisation
 
-Le service Login.gov est une plateforme de la U.S. General Services Administration qui permet au public d'accéder en ligne, en toute sécurité et en toute confidentialité aux programmes gouvernementaux partenaires. Avec un seul compte Login.gov, les utilisateurs peuvent se connecter à plusieurs agences gouvernementales. Notre objectif est de faciliter et de sécuriser la gestion des avantages, des services et des applications au niveau fédéral.
+Le service Login.gov est fourni par l'Administration des services généraux des États-Unis pour offrir au public un accès en ligne sécurisé et privé aux programmes gouvernementaux participants. Avec un seul compte Login.gov, les utilisateurs peuvent se connecter à plusieurs agences gouvernementales. Notre objectif est de faciliter et de sécuriser la gestion des prestations, des services et des applications fédérales.
 
-Ces conditions d'utilisation incluent :
+Les présentes conditions de service prévoient :
 
-* Les informations sur le mode de fonctionnement de la plateforme Login.gov et ce à quoi s'attendre,
-* Les modalités selon lesquelles nous vous permettons d'accéder à la plateforme Login.gov,
+* Les informations sur le fonctionnement du service Login.gov et sur ce que vous pouvez en attendre,
+* Les conditions dans lesquelles nous vous fournissons le service Login.gov,
 * La manière dont nous utilisons vos informations et vos droits sur ces informations, et
-* Les modalités auxquelles vous vous engagez lorsque vous effectuez certaines actions sur la plateforme Login.gov.
+* Les conditions que vous acceptez lorsque vous effectuez certaines actions sur le service Login.gov.
 
-## 1. Définition du service général
+## 1. Définition des services généraux
 
-La plateforme Login.gov permet au public d'accéder en ligne, de façon sécurisée et en toute confidentialité aux programmes gouvernementaux partenaires. Avec un seul compte Login.gov, vous pouvez accéder aux services offerts par plusieurs agences gouvernementales. Notre objectif est de faciliter et de sécuriser davantage la gestion des prestations, des services et des applications au niveau fédéral.
+Le service Login.gov offre au public un accès en ligne sécurisé et privé aux programmes gouvernementaux participants. Avec un seul compte Login.gov, vous pouvez vous connecter aux services offerts par plusieurs agences gouvernementales. Notre objectif est de faciliter et de sécuriser la gestion des prestations, des services et des applications fédérales.
 
-La plateforme Login.gov fonctionne en partenariat avec d'autres agences fédérales (« partenaires ») pour permettre aux utilisateurs d'accéder à ces services avec un seul compte Login.gov, ce qui leur évite d'avoir à créer de nombreux comptes distincts auprès du gouvernement.
+Le service Login.gov s'associe à d'autres agences fédérales (« partenaires ») pour vous permettre d'accéder à ces services avec un seul compte Login.gov, éliminant ainsi la nécessité de créer plusieurs comptes distincts au sein de l'administration.
 
-La plateforme Login.gov garantit la sécurité de votre compte en déployant des dispositifs de sécurité stricts et respecte votre vie privée en ne recueillant que les informations strictement nécessaires et en ne transmettant aux partenaires que les informations indispensables à la réalisation de leur prestation. De plus, Login.gov ne partage jamais les informations personnelles validées avec un partenaire sans votre consentement explicite (que vous pouvez révoquer à tout moment) ou si la loi l'exige.
+Le service Login.gov protège votre compte en mettant en œuvre des mesures de sécurité strictes et protège votre vie privée en recueillant auprès de vous les informations minimales nécessaires et en ne révélant aux partenaires que les informations nécessaires à l'exécution de leur service. Login.gov ne partage jamais d'informations personnelles validées avec un partenaire fédéral, sauf si:
 
-Certaines applications gouvernementales ayant recours à Login.gov requièrent une vérification de l'identité des utilisateurs. Ce qui revient à dire que vous devez apporter la preuve que vous êtes bien la personne que vous prétendez être. Cette vérification permet de s'assurer que seules les personnes habilitées ont accès aux informations sensibles.
+1. Vous avez donné votre consentement explicite (que vous pouvez révoquer à tout moment);
+2. La divulgation est requise par la loi; ou
+3. La divulgation est nécessaire pour enquêter sur une fraude liée à votre compte.
 
-La vérification de votre identité ne sera requise que la première fois que vous vous connecterez à certaines applications gouvernementales. Pour votre compte Login.gov, il ne sera nécessaire de vérifier votre identité qu'une seule fois. Une fois que vous avez vérifié votre identité avec Login.gov pour une application gouvernementale, vous n'avez pas besoin de le faire à nouveau pour d'autres applications gouvernementales. En transmettant au service Login.gov les informations nécessaires à la vérification de votre compte, vous l'autorisez à exploiter ces informations pour procéder aux activités indispensables à la vérification de votre identité, y compris le partage des informations avec certains tiers, à savoir les services de vérification d'identité. Le service Login.gov exige de ces tiers qu'ils gèrent vos informations de manière confidentielle et qu'ils ne les utilisent pas à d'autres fins, comme indiqué dans notre [politique de confidentialité]({% link _policy/privacy._fr.md %}).
+Certaines applications gouvernementales qui utilisent Login.gov exigent que vous vérifiiez votre identité. Ainsi, vous devez prouver que vous êtes bien la personne que vous prétendez être. Cette preuve permet de s'assurer que seules les bonnes personnes ont accès aux informations sensibles.
 
-Le service Login.gov se conforme aux meilleures pratiques en termes de sécurité et de confidentialité.
+Il ne vous sera demandé de vérifier votre identité que la première fois que vous vous connecterez à certaines applications gouvernementales. Une fois que vous avez vérifié votre identité avec Login.gov pour une application gouvernementale, vous n'avez généralement pas besoin de le faire à nouveau pour d'autres applications gouvernementales. Cependant, lorsque vous vous connectez à IRS.gov pour la première fois, vous devez toujours vérifier votre identité, même si vous l'avez déjà fait pour une autre application. En fournissant au service Login.gov les informations nécessaires à la vérification de votre compte, vous l'autorisez à utiliser ces informations pour mener les activités nécessaires à la vérification de votre identité, y compris le partage d'informations avec certains tiers, à savoir les services de vérification d'identité. Le service Login.gov exige de ces parties qu'elles conservent vos informations de manière confidentielle et qu'elles ne les utilisent pas à d'autres fins, comme indiqué dans notre [politique de confidentialité]({% link _policy/privacy._fr.md %}).
 
-Avant de pouvoir utiliser le service Login.gov, vous devez accepter les présentes conditions d'utilisation. Si le service Login.gov modifie ses conditions de service, vous aurez la possibilité d’accepter ou de refuser les conditions de service mises à jour lors de votre prochaine connexion. De même, lorsque vous faites certaines actions sur la plateforme Login.gov, comme fournir des informations personnelles pour la première fois, la plateforme Login.gov peut vous demander de confirmer à nouveau que vous avez compris les conditions d'utilisation de vos informations.
+Le service Login.gov utilise les meilleures pratiques reconnues en matière de sécurité et de protection de la vie privée.
 
-## 2. Votre consentement
+Avant d'utiliser le service Login.gov, vous devez accepter ces conditions de service. Si le service Login.gov modifie ses conditions d'utilisation, vous aurez la possibilité d'accepter ou de refuser les conditions d'utilisation mises à jour lors de votre prochaine connexion. De même, lorsque vous effectuez certaines activités dans le service Login.gov, telles que la fourniture d'informations personnelles pour la première fois, le service Login.gov peut vous demander de confirmer à nouveau votre compréhension de la manière dont il utilise vos informations.
 
-Outre les détails concernant votre consentement énoncés ailleurs dans les présentes conditions, en acceptant ces conditions et en utilisant le service Login.gov, vous convenez de ce qui suit :
+## 2. Votre accord
+
+En plus des détails concernant votre consentement mentionnés ailleurs dans ces conditions, en acceptant ces conditions et en utilisant le service Login.gov, vous acceptez que :
 
 1. Vous n'êtes pas un enfant de moins de 13 ans,
-2. Toute information que vous nous fournissez est complète et exacte,
-3. Si vous vérifiez votre identité, l'identité que vous revendiquez lorsque vous utilisez le service est la vôtre,
-4. Vous vous conformerez aux lois locales, nationales et fédérales en vigueur lors de l'utilisation du service
-5. Vous garderez en toute confidentialité vos informations personnelles et de connexion, et 6. Vous maintiendrez des informations exactes sur votre compte à tout moment.
+2. Toutes les informations que vous nous fournissez sont complètes et exactes,
+3. Si vous vérifiez votre identité, l'identité que vous déclarez lors de l'utilisation du service est la vôtre,
+4. Vous vous conformerez aux lois locales, nationales et fédérales applicables lors de l'utilisation du service,
+5. Vous préserverez la confidentialité de vos données personnelles et de vos informations de connexion, et
+6. Vous conserverez en permanence des informations exactes sur votre compte.
 
-Vous vous engagez en outre à NE PAS déformer votre identité ou toute information que vous présentez dans le cadre du service Login.gov, y compris par le biais des canaux d'assistance à la clientèle.
+Vous acceptez en outre de NE PAS déformer votre identité ou les informations que vous présentez dans le cadre du service Login.gov, y compris par l'intermédiaire des canaux d'assistance à la clientèle.
+Vous acceptez également d'être lié par ces conditions et par la [politique de confidentialité]({% link _policy/index._fr.md %}), ainsi que par d'autres conditions liées au service Login.gov.
 
-Vous consentez également à être lié par ces conditions et par la [politique de confidentialité]({% link _policy/index._fr.md %}), ainsi que par d'autres conditions en lien avec le service Login.gov.
+Nous publierons toute modification de ces conditions sur cette page. Si les modifications affectent notre traitement de vos informations personnelles ou sont jugées significatives, nous vous en informerons par courriel. Si nous ne pouvons pas vous joindre par courriel, nous nous réservons le droit de vous contacter par d'autres moyens, y compris par courrier postal. Si, à tout moment, vous n'acceptez plus ces conditions ou toute autre condition pertinente du service Login.gov, vous pouvez fermer votre compte.
 
-Nous publierons toute modification de ces conditions sur cette page. Si les modifications affectent la manière dont nous traitons vos informations personnelles ou si elles sont jugées importantes, nous vous en informerons par courrier électronique. Si nous ne pouvons pas vous joindre par courrier électronique, nous nous réservons le droit de vous contacter par d'autres moyens, notamment par courrier postal. À tout moment, si vous ne souhaitez plus vous conformer aux présentes conditions ou à toute autre condition pertinente du service Login.gov, vous pouvez fermer votre compte.
+## 3. Authentification
 
-## 3. authentification
+L'accès à un compte sur le service Login.gov est appelé authentification. L'authentification au service Login.gov nécessite une authentification à plusieurs facteurs (ou authentification à deux facteurs) afin de fournir une protection solide contre les tentatives malveillantes d'accès à votre compte et à vos informations.
 
-L'accès à un compte sur le service Login.gov est désigné par le terme « authentification ». L'authentification sur la plate-forme Login.gov requiert une authentification multifactorielle (ou authentification à deux facteurs) pour assurer une protection efficace contre les tentatives malveillantes d'accès à votre compte et à vos informations.
+Nous proposons plusieurs moyens d'établir une authentification à plusieurs facteurs, appelés authentifiants. Vous devrez toujours créer une phrase secrète comme l'un de vos authentifiants et utiliser cette phrase secrète pour vous authentifier sur votre compte (sauf pour l'utilisation de PIV/CAC, qui ne s'applique qu'au personnel fédéral). Les phrases de passe sont semblables aux mots de passe, mais elles vous offrent plus de souplesse, par exemple en utilisant des mots et des espaces, et ne sont généralement pas soumises à des règles de composition telles que l'obligation d'utiliser des chiffres ou des caractères spéciaux.
 
-Il existe plusieurs moyens de mettre en place une authentification multifactorielle, connus sous le nom d'authentificateurs. On vous demandera toujours de créer une phrase de passe comme l'un de vos authentifiants et d'utiliser cette phrase de passe pour vous connecter à votre compte (sauf pour l'utilisation de PIV/CAC, en vigueur uniquement pour le personnel fédéral). Les phrases de passe sont comme des mots de passe, mais elles vous laissent plus de flexibilité, par exemple en utilisant des mots et des espaces, et n'ont généralement pas de règles de composition telles que l'obligation d'utiliser des chiffres ou des caractères spéciaux.
+Nous vous encourageons à configurer plusieurs authentifiants supplémentaires. Ainsi, si vous égarez l'un d'entre eux, vous pourrez toujours accéder à votre compte et ne perdrez aucune information.
 
-Nous vous invitons à configurer plusieurs authentificateurs supplémentaires. Ainsi, si vous égarez un authentifiant, vous pourrez toujours accéder à votre compte et vous ne perdrez aucune information.
+Les authentifiants actuellement disponibles dans le service Login.gov sont les suivants :
 
-Les authentificateurs actuellement disponibles dans le service Login.gov sont les suivants :
+1. Une phrase secrète;
+2. Des codes de sauvegarde;
+3. Des codes de passe à usage unique par SMS (texte) ou messagerie vocale, envoyés à un appareil mobile que vous contrôlez;
+4. Des codes de passe à usage unique par le biais d'applications d'authentification telles que Google Authenticator ou Authy, téléchargées sur votre propre appareil mobile et enregistrées sur Login.gov;
+5. Des cartes PIV et CAC, pour le personnel fédéral et les forces armées uniquement;
+6. Les dispositifs et logiciels de sécurité WebauthN, tels que les jetons FIDO (« Fast IDentity Online »), les Yubikeys et les Titan Security Keys de Google, que vous avez obtenus et enregistrés auprès de Login.gov;
 
-1. Une phrase de passe;
-2. Des codes de secours;
-3. Des codes à usage unique par SMS (texte) ou message vocal, envoyés vers un appareil mobile que vous contrôlez;
-4. Des codes d'accès à usage unique par le biais d'applications d'authentification telles que Google Authenticator ou Authy, téléchargées sur votre propre appareil mobile et enregistrées sur Login.gov;
-5. Les cartes PIV et CAC, pour le personnel fédéral et le personnel des forces armées uniquement; 6. Les dispositifs et logiciels de sécurité webauthN, tels que les clés FIDO (« Fast IDentity Online »), les Yubikeys, et les Titan Security Keys de Google, que vous avez obtenus et enregistrés auprès de Login.gov;
+Login.gov ne renouvelle pas, ne réédite pas et ne fait pas expirer les authentifiants, mais vous pouvez révoquer un authentifiant associé à votre compte à tout moment et, si vous le souhaitez, le réintroduire plus tard. Le service Login.gov n'émet pas d'authentifiants physiques. Les authentifiants autres que les phrases de passe ou les codes de sauvegarde nécessitent du matériel ou des logiciels que vous fournissez vous-même.
 
-Login.gov ne renouvelle pas, ne réédite pas ou n’expire pas les authentificateurs, mais vous pouvez révoquer un authentificateur associé à votre compte à tout moment et, si vous le souhaitez, le réinscrire ultérieurement. Le service Login.gov ne fournit pas d'authentifiants physiques. Les authentificateurs autres que les phrases de passe ou les codes de secours nécessitent un matériel ou un logiciel que vous devez fournir vous-même.
+Lorsque vous enregistrez un authentifiant auprès du service Login.gov, vous nous autorisez à l'utiliser comme authentifiant pour accéder à votre compte. Si vous vous inscrivez pour recevoir des SMS ou des messages vocaux, vous nous autorisez à envoyer des SMS et à passer des appels téléphoniques à votre numéro de téléphone.
 
-Lorsque vous enregistrez un authentifiant avec le service Login.gov, vous consentez à ce que nous l'utilisions comme authentifiant pour accéder à votre compte. Si vous vous inscrivez pour recevoir des SMS ou des messages vocaux, vous autorisez l'utilisation de votre numéro de téléphone pour envoyer des messages texte et passer des appels téléphoniques.
+Pour les authentifiants physiques tels que les codes de sauvegarde imprimés, un jeton matériel ou un téléphone, protégez-les en les conservant dans un endroit sûr ou avec vous. Ne les laissez pas s'abîmer. S'ils sont perdus, cassés ou endommagés, vous risquez de perdre l'accès à votre compte.
 
-Pour les authentificateurs physiques tels que les codes de sauvegarde imprimés, un jeton matériel ou un téléphone, protégez-les en les gardant dans un endroit sûr ou sur vous. Ne les laissez pas s’abîmer. S’ils sont perdus, cassés ou endommagés, vous risquez de perdre l’accès à votre compte.
+Si vous oubliez votre phrase secrète, vous pouvez la réinitialiser si vous avez accès à l'adresse courriel que vous avez enregistrée. Si vous ne disposez d'aucun de vos autres authentificateurs, vous pouvez toujours accéder à votre compte, mais nous supprimerons toutes les informations qu'il contient. Vous pouvez modifier votre phrase secrète à tout moment à partir du profil de votre compte. Si vous perdez un autre authentifiant ou si vous ne souhaitez plus l'utiliser, vous pouvez le désactiver à tout moment dans le profil de votre compte.
 
-Au cas où vous oublieriez votre mot de passe, vous pouvez le réinitialiser si vous avez accès à votre adresse électronique. Si vous ne disposez d'aucun de vos autres authentifiants, vous pouvez toujours accéder à votre compte, mais nous supprimerons toutes les informations qu'il contient. Vous pouvez modifier votre phrase de passe à tout moment à partir du profil de votre compte. Si vous perdez un autre authentifiant ou ne souhaitez plus l'utiliser, vous pouvez le désactiver à tout moment dans le profil de votre compte.
-
-Si nous soupçonnons une fraude sur votre compte, nous pouvons verrouiller votre compte et vous contacter. Si nous avons des raisons de croire que votre mot de passe a été compromis, nous sommes en droit de vous demander de le réinitialiser.
+Si nous soupçonnons une fraude sur votre compte, nous pouvons verrouiller votre compte et vous contacter. Si nous avons des raisons de penser que votre phrase secrète a été compromise, nous pouvons vous demander de la réinitialiser.
 
 ## 4. Preuve et vérification de l'identité
 
-La première fois que vous essayez de vous connecter à une application partenaire par l'intermédiaire de Login.gov, qui requiert un degré élevé de certitude quant à votre identité, nous initialisons un processus appelé vérification de l'identité. La vérification de l'identité prend des informations sur vous et tente de valider ces informations, puis de vérifier que vous, l'utilisateur, êtes bien la personne que vous prétendez être. Nous appelons ces informations « preuves d'identité » et elles comprennent généralement votre nom, votre date de naissance, votre numéro de sécurité sociale, votre adresse personnelle, et une photo de votre permis de conduire ou de votre passeport. Vous convenez que les informations que vous fournissez sont les vôtres, et non celles de quelqu'un d'autre, et qu'elles sont exactes.
+La première fois que vous essayez de vous connecter à l'aide de Login.gov à une application partenaire qui exige un degré élevé de certitude quant à votre identité, nous lançons un processus appelé vérification d'identité. La vérification de l'identité prend des informations sur vous et tente de les valider, puis de vérifier que vous, l'utilisateur, êtes bien la personne que vous prétendez être. Nous appelons ces informations des preuves d'identité et elles comprennent généralement votre nom, votre date de naissance, votre numéro de sécurité sociale, l'adresse de votre domicile et une image de votre pièce d'identité, telle que votre permis de conduire. Vous reconnaissez que les informations que vous fournissez sont les vôtres — et non celles de quelqu'un d'autre — et qu'elles sont exactes.
+Une fois que vous nous avez fourni ces preuves d'identité, nous tentons de les valider à l'aide de diverses sources faisant autorité. Nous faisons appel à des services de vérification d'identité tiers pour nous aider dans cette validation. Par exemple, si vous nous soumettez une image de votre permis de conduire de votre État de résidence, nous comparerons les informations qu'il contient aux données faisant autorité du Département des véhicules à moteur (DMV), de l'Administration des véhicules à moteur (MVA) ou d'une agence équivalente de votre État, afin de nous assurer que vous existez bien dans ces dossiers. Nous utiliserons également la technologie pour rechercher certaines caractéristiques de sécurité sur le permis de conduire afin de nous assurer qu'il ne s'agit pas d'un faux.
+De même, nous comparons les informations que vous nous fournissez à d'autres dossiers pour mieux nous assurer de votre identité. Nous pouvons, par exemple, vérifier que votre nom, votre date de naissance, votre adresse et votre numéro de sécurité sociale correspondent à ceux d'un bureau de crédit. Nous ne vérifierons pas votre solvabilité, mais nous nous assurerons de l'existence d'une telle personne afin de vous protéger contre l'usurpation d'identité. Nous pouvons également vérifier auprès d'autres sources pour confirmer les informations que vous nous fournissez. Si nous ne pouvons pas valider votre adresse par d'autres moyens, nous pouvons confirmer que vous y habitez en vous envoyant une lettre contenant un code que vous saisirez dans le service Login.gov.
+Outre la validation des preuves d'identité que vous nous fournissez, nous vérifions que vous êtes bien cette personne. Nous évaluons l'appareil utilisé pour accéder à Login.gov, l'identité vérifiée et votre comportement pendant la vérification de l'identité. Nous collectons des informations à partir de l'appareil pour effectuer cette évaluation. Vos informations personnelles sont stockées d'une manière qui empêche Login.gov de les lire. Cependant, Login.gov peut toujours évaluer les informations concernant votre appareil. Nous expliquons plus en détail comment nous utilisons vos informations dans notre [politique de confidentialité]({% link _policy/index._fr.md %}).
 
-Une fois que vous nous avez fourni ces preuves d'identité, nous essayons de les valider en les comparant à diverses sources officielles. Nous faisons appel à des services de vérification d'identité tiers pour nous aider dans cette validation. Par exemple, si vous nous envoyez une photo de votre permis de conduire de l'État où vous résidez, nous comparons les informations qui y figurent avec les données officielles du Department of Motor Vehicles (DMV), Motor Vehicle Administration (MVA), ou une instance équivalente de votre État, pour vérifier que vous figurez bien dans ces registres. Nous nous servirons également de la technologie pour rechercher certains éléments de sécurité sur le permis de conduire afin de nous assurer qu'il n'est pas faux.
+## 5. Résiliation
 
-Par ailleurs, nous comparerons les informations que vous nous fournissez à d'autres dossiers pour renforcer la confiance dans votre identité. Nous pouvons, par exemple, nous assurer que votre nom, votre date de naissance, votre adresse et votre numéro de sécurité sociale correspondent tous à ceux figurant dans les dossiers d'une agence d'évaluation du crédit. Bien que nous ne vérifiions pas votre crédit, nous nous assurons de l'existence d'une telle personne afin de vous protéger contre l'usurpation d'identité. Nous pouvons également vérifier auprès d'autres sources, telles que les opérateurs de réseaux mobiles, pour confirmer les informations que vous nous fournissez. Si nous ne pouvons pas valider votre adresse par d'autres moyens, nous pouvons confirmer que vous y habitez en vous envoyant une lettre contenant un code que vous entrerez par le biais du service Login.gov.
+Vous pouvez résilier votre compte à tout moment par l'intermédiaire de votre profil de compte. En outre, en cas de fraude ou d'autres violations des présentes règles d'utilisation, nous pouvons révoquer l'accès à votre compte. Dans ce cas, nous continuerons à protéger les informations de votre compte conformément à notre [politique de confidentialité]({% link _policy/index._fr.md %}) et à notre avis sur le système d'archivage [ici](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records).
 
-En plus de valider la preuve d'identité que vous nous fournissez, nous vérifions que vous êtes cette personne. Nous évaluons l'appareil utilisé pour accéder à Login.gov, l'identité vérifiée et le comportement de l'utilisateur lors de la vérification de l'identité. Nous recueillons des informations à partir de l'appareil pour effectuer cette évaluation. Ces informations sont stockées d'une manière qui empêche Login.gov de les lire. Cependant, Login.gov peut toujours effectuer l'évaluation. Ni Login.gov ni aucun service tiers ne conserve de copie des photos que vous nous envoyez. Nous fournissons plus de détail sur la manière dont nous utilisons vos informations dans notre [politique de confidentialité]({% link _policy/index._fr.md %}).
-
-## 5. résiliation
-
-Vous pouvez fermer votre compte à tout moment à partir du profil de votre compte. En outre, en cas de fraude ou d'autres violations des présentes règles d'utilisation, nous pouvons révoquer l'accès à votre compte. Dans ce cas, nous continuerons à protéger les informations de votre compte conformément à notre [politique de confidentialité]({% link _policy/index._fr.md %}) et à notre avis sur le système d'enregistrement [ici](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) et [ici](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
-
-Dans le cas improbable où le service Login.gov serait interrompu, les informations sur le compte seront conservées conformément à notre avis sur le système d'enregistrement, tel que modifié, auquel vous pouvez accéder [ici](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) et [ici](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records). Plus précisément, les informations relatives aux utilisateurs, y compris les profils, les fichiers de connexion, les fichiers de mots de passe, les fichiers et extraits de pistes d'audit, les fichiers d'utilisation du système et les fichiers d'analyse des coûts utilisés pour évaluer les frais d'utilisation du système, sont détruits six ans après la modification du mot de passe ou la résiliation du compte de l'utilisateur, à moins qu'une conservation plus longue ne soit nécessaire pour des raisons professionnelles, par exemple pour des questions d'application de la loi ou d'autres actions en justice.
+IDans le cas peu probable où le service Login.gov serait interrompu, les informations relatives au compte seront conservées conformément à notre Avis sur le système d'archivage, tel qu'amendé, que vous pouvez consulter [ici](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records). Slus précisément, les informations relatives aux utilisateurs, y compris les profils, les fichiers de connexion, les fichiers de mots de passe, les fichiers d'audit et les extraits, les fichiers d'utilisation du système et les fichiers de rétablissement des coûts utilisés pour évaluer les frais d'utilisation du système sont conservés conformément au calendrier de conservation des documents de la GSA, GRS 03.2.
 
 ## 6. Autorités
 
-Le service Login.gov est basé aux États-Unis, mais il est accessible dans le monde entier pour un usage public. Le service Login.gov est sous le contrôle de l'Administration des services généraux en vertu des pouvoirs et des directives énoncés dans [6 USC § 1523 (b) (1) (A) — (E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), la loi sur [le gouvernement électronique de 2002](https://www.congress.gov/107/plaws/publ347/PLAW-107publ347.pdf) ([44 USC § 3501](https://www.govinfo.gov/content/pkg/PLAW-104publ13/html/PLAW-104publ13.htm)), et [40 USC § 501](https://www.gsa.gov/cdnstatic/CNXII__Eligibility_to_Use_GSA.pdf), et [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
+Le service Login.gov est exploité aux États-Unis, mais il est accessible au public dans le monde entier. Le service Login.gov est géré par l'Administration des services généraux en vertu des pouvoirs et des directives énoncés dans [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), la loi sur le gouvernement électronique de 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://www.gsa.gov/cdnstatic/CNXII__Eligibility_to_Use_GSA.pdf), et [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
-## 7. Exploitation du service et assistance à la clientèle
+## 7. Exploitation des services et assistance à la clientèle
 
-Le service Login.gov est doté de normes de service élevées, tant au niveau de la qualité du service que du soutien au client.
+Le service Login.gov fonctionne avec un niveau de service élevé, tant au niveau de la prestation des services que de l'assistance à la clientèle.
 
-### 1. disponibilité et temps de fonctionnement
+### 1.  Disponibilité et temps de fonctionnement
 
-Parce qu'il s'agit d'un système d'authentification et d'une passerelle vers les applications fédérales, nous faisons tout notre possible pour garantir une disponibilité et un temps de service élevés. Notre objectif est de garantir une disponibilité de 99,9 % sur l'ensemble des sites et des systèmes. Visitez notre [page consacrée aux mises à jour pour](https://status.login.gov/) obtenir des statistiques en temps réel, des rapports d'incidents et pour vous abonner aux mises à jour.
+En tant que système d'authentification et passerelle vers les applications fédérales, nous nous efforçons d'assurer une disponibilité et un temps de fonctionnement élevés. Notre objectif est de maintenir une disponibilité de 99,9 % sur l'ensemble des sites et des systèmes. Consultez notre [page d'état](https://status.login.gov/) pour obtenir des statistiques en direct, des rapports d'incidents et vous abonner aux mises à jour.
 
-### 2. Soutien au client
+### 2. Assistance à la clientèle
 
-Le service de soutien à la clientèle et le service d'assistance sont toujours disponibles sur [https://login.gov/contact/]({% link _policy/contact._fr.md %}). Quand vous adressez une demande d'assistance à la clientèle, nous nous servons de toutes les informations que vous fournissez pour répondre à votre question ou à votre commentaire, et nous pouvons nous servir de vos commentaires pour améliorer notre service ou à d'autres fins que nous jugeons appropriées, par exemple pour le marketing. Dans ce cadre, nous ne divulguerons jamais vos informations personnelles en dehors du service Login.gov, sauf si la loi en vigueur l'exige ou si cela est indiqué ailleurs dans les présentes conditions.
+L'assistance à la clientèle et les services d'assistance sont toujours disponibles par l'intermédiaire de [https://login.gov/contact/]({% link _policy/contact._fr.md %}). Lorsque vous demandez une assistance à la clientèle, nous utiliserons toutes les informations que vous fournissez pour répondre à votre question ou à votre commentaire, et nous pourrons utiliser vos commentaires pour améliorer notre service ou à d'autres fins si nous le jugeons nécessaire, par exemple à des fins de marketing. Ce faisant, nous ne divulguerons jamais vos informations personnelles en dehors du service Login.gov, sauf si la loi applicable l'exige ou si cela est indiqué dans d'autres dispositions des présentes conditions.
 
-## 8. les responsabilités de nos partenaires
+## 8. Responsabilités de nos partenaires
 
-Le service Login.gov connecte le public aux agences fédérales plus facilement en permettant aux utilisateurs d'accéder à plusieurs programmes gouvernementaux avec un seul compte Login.gov.
+Le service Login.gov relie plus facilement le public aux agences fédérales en permettant aux utilisateurs d'accéder à plusieurs programmes gouvernementaux avec un seul compte Login.gov.
 
-Les agences partenaires sélectionnent les informations dont elles ont besoin à partir de la liste des éléments que nous prenons en charge. Si nous ne les avons pas déjà, nous vous demandons ces informations, nous les validons puis nous vous demandons votre consentement pour les partager avec l'agence partenaire. Les partenaires peuvent demander diverses informations telles que le nom, l'adresse, la date de naissance, numéro de téléphone et courriel. Les partenaires sont tenus de protéger ces informations conformément à la législation et à la politique fédérales.
+Les agences partenaires sélectionnent les informations dont elles ont besoin dans la liste des attributs que nous prenons en charge. Si nous ne les possédons pas déjà, nous vous demandons ces informations, nous les validons et nous vous demandons votre accord pour les partager avec l'agence partenaire. Les partenaires peuvent demander diverses informations telles que le nom, l'adresse, la date de naissance, le numéro de téléphone et l'adresse courriel. Les partenaires sont tenus de protéger ces informations conformément à la législation et à la politique fédérales.
 
-Tout au long de la procédure pour devenir un partenaire du service Login.gov, nous recueillons des informations auprès de l'agence sur le type d'accès qu'elle fournit et, à partir de ces informations, nous nous mettons d'accord avec le partenaire sur le degré de risque de l'application et le besoin d'informations personnelles. Sur cette base, nous déterminons le niveau d'information que le partenaire peut recevoir.
+Au cours du processus de partenariat avec le service Login.gov, nous recueillons des informations auprès de l'agence sur le type d'accès qu'elle fournit et, à partir de ces informations, nous nous mettons d'accord avec le partenaire sur le risque de l'application et la nécessité de disposer d'informations personnelles. Nous déterminons ainsi le niveau d'information que le partenaire peut recevoir.
 
-En prévision d'éventuelles intégrations avec l'Internal Revenue Service (IRS) : uniquement lors de l'accès aux systèmes de l'IRS via Login.gov, l'IRS exige des informations relatives aux tentatives d'accès à un compte ou de vérification d'identité. Ces informations seront envoyées à l'IRS de manière à ce que seul l'IRS puisse y accéder. Login.gov ne conservera pas ces informations personnelles identifiables non validées au-delà de 72 heures.
+Les images de votre carte d'identité ou de votre permis de conduire américain sont conservées dans un format chiffré. Ces images ne sont récupérées et décryptées que sur décision mutuelle de Login.gov et de l'agence partenaire, à des fins d'application de la loi, en cas de suspicion de fraude.
 
-Nous ne partagerons jamais les informations personnelles identifiables validées avec un partenaire sans votre consentement explicite. Vous pouvez révoquer ce consentement à tout moment, et nous révoquerons l'accès du partenaire à ces informations. Le partenaire peut les conserver conformément à sa politique de conservation des données. Le service Login.gov ne recueille pas les informations que vous fournissez directement au partenaire.
+L'IRS a besoin d'informations sur les tentatives d'accès à un compte ou de vérification de l'identité. Lorsque vous accédez aux systèmes de l'IRS via Login.gov, ces informations sont envoyées à l'IRS de manière à ce que seul l'IRS puisse y accéder. Login.gov ne conservera pas ces informations personnelles identifiables non validées au-delà de sept jours.
 
-Les éventuels partenaires et autres parties intéressées peuvent trouver plus d'informations sur le processus d'intégration des partenaires [ici](https://developers.login.gov/).
+Nous ne partagerons jamais des informations personnelles identifiables validées avec un partenaire sans votre consentement explicite, comme l'exige la loi ou comme indiqué dans les présentes règles d'utilisation. Vous pouvez révoquer ce consentement à tout moment, et nous révoquerons l'accès du partenaire aux informations. Le partenaire peut toutefois conserver ces informations conformément à sa politique de conservation des données. Le service Login.gov ne recueille pas les informations que vous fournissez directement au partenaire.
 
-## 9. Tarifs
+Les partenaires potentiels et les autres parties intéressées peuvent trouver plus d'informations sur le processus d'intégration des partenaires [ici](https://developers.login.gov/).
 
-Aucun frais n'est imputé à l'utilisateur pour son inscription ou l'utilisation du service Login.gov. Il n'y a pas de frais associés à la mise en relation avec nos partenaires, mais les partenaires eux-mêmes peuvent facturer des frais pour certains de leurs services, tels que la réservation, l'achat d'un article ou la souscription à un service.
+## 9. Frais
+
+L'inscription ou l'utilisation du service Login.gov est gratuite. La connexion à nos partenaires est gratuite, mais les partenaires eux-mêmes peuvent facturer des frais pour certains de leurs services, tels que la réservation, l'achat d'un article ou la demande d'un service.
 
 ## 10. Déclarations, garanties et responsabilités
 
-Exclusion des garanties
+Exclusion de garantie
 
-Les services de Login.gov sont fournis « en l'état » et en fonction de leur « disponibilité ». GSA décline par la présente toute garantie de quelque nature que ce soit, expresse ou implicite, y compris, sans limitation, les garanties de qualité marchande, d'adéquation à un usage particulier et d'absence de contrefaçon. La GSA ne garantit pas que les services seront exempts d'erreurs ou que l'accès à ceux-ci sera continu ou ininterrompu.
+Les services de Login.gov sont fournis « en l'état » et selon leur disponibilité. La GSA décline par la présente toute garantie de quelque nature que ce soit, expresse ou implicite, y compris, mais sans s'y limiter, les garanties de qualité marchande, d'adéquation à un usage particulier et d'absence de contrefaçon. La GSA ne garantit pas que les services seront exempts d'erreurs ou que l'accès à ceux-ci sera continu ou ininterrompu.
 
-### 1. représentations générales
+### 1. Déclarations générales
 
-Vous garantissez par les présentes que (1) votre utilisation du site Web et des services sera strictement conforme au Contrat et à toutes les lois et réglementations en vigueur, et (2) que l'utilisation du site Web et des services ne violera ni ne détournera les droits de propriété intellectuelle d'un tiers.
+Vous garantissez par la présente que (1) votre utilisation du site Web et des services sera strictement conforme à l'accord et à toutes les lois et réglementations applicables, et que (2) votre utilisation du site Web et des services n'enfreindra ni ne détournera les droits de propriété intellectuelle d'aucune tierce partie.
 
-### 2. limitations de la responsabilité
+### 2. Limites de responsabilité
 
-En aucun cas, la GSA ne pourra être tenue responsable de tout ce qui fait l'objet du présent Accord, dans le cadre d'un contrat, d'une négligence, d'une responsabilité stricte ou de toute autre théorie légale ou impartiale pour : (1) tout dommage particulier, accessoire ou indirect; (2) le coût d'acquisition de produits ou services de substitution; ou (3) l'interruption d'utilisation ou la perte ou détérioration de données.
+En aucun cas la GSA ne pourra être tenue responsable de l'objet du présent contrat en vertu d'un contrat, d'une négligence, d'une responsabilité stricte ou d'une autre théorie juridique ou équitable pour : (1) tout dommage spécial, accessoire ou consécutif; (2) le coût d'acquisition de produits ou services de substitution; ou (3) l'interruption de l'utilisation ou la perte ou la corruption de données.
 
 ## 11. Dispositions générales
 
 ### 1. Intégralité de l'accord
 
-Le présent Accord constitue l'intégralité de l'Accord entre GSA et vous concernant l'utilisation du site Web et des services, et ne peut être modifié que par la publication d'une version révisée sur cette page par GSA.
+Le présent accord constitue l'intégralité de l'accord entre la GSA et vous concernant l'utilisation du site Web et des services, et ne peut être modifié que par la publication d'une version révisée sur cette page par la GSA.
 
-### 2. les litiges
+### 2. Litiges
 
-Tout litige découlant du présent Accord et de l'accès aux services ou de leur utilisation sera régi par le droit fédéral.
+Tout litige découlant du présent accord et de l'accès ou de l'utilisation des services est régi par le droit fédéral.
 
-### 3. Non-Renonciation aux droits
+### 3. Absence de renonciation aux droits
 
-Le fait que la GSA n'exerce pas ou n'applique pas un droit ou une disposition du présent Accord ne constitue pas une renonciation à ce droit ou à cette disposition.
+Le fait que la GSA n'exerce pas ou n'applique pas un droit ou une disposition de la présente convention ne constitue pas une renonciation à ce droit ou à cette disposition.
 
 ### 4. Nous contacter
 
-Si vous avez des questions concernant ces conditions ou tout autre aspect du service Login.gov, vous pouvez nous contacter à l'adresse [https://login.gov/contact/]({% link _policy/contact._fr.md %}).
+Si vous avez des questions concernant ces conditions ou tout autre aspect du service Login.gov, vous pouvez nous contacter sur le site [https://login.gov/contact/]({% link _policy/contact._fr.md %}).
