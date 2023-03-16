@@ -46,7 +46,7 @@ Puede haber circunstancias en las que estemos obligados a compartir ciertos dato
 
 Incluso cuando compartimos la información con las fuerzas de seguridad, no podemos acceder a la IIP que usted envía porque la información está codificada de manera que es irrecuperable para el equipo de Login.gov.
 
-Las imágenes de las cédulas de identidad estatales, sin embargo, son recuperables. Login.gov conserva la imagen de su cédula de identidad estatal o licencia de conducir con sede en los EE. UU. en un formato cifrado. La imagen sólo se recupera y descifra por determinación mutua de Login.gov y la agencia asociada con fines policiales por sospecha de fraude.\
+Las imágenes de las cédulas de identidad estatales, sin embargo, son recuperables. Login.gov conserva la imagen de su cédula de identidad estatal o licencia de conducir con sede en los EE. UU. en un formato cifrado. La imagen sólo se recupera y descifra por determinación mutua de Login.gov y la agencia asociada con fines policiales por sospecha de fraude.
 
 ### Consentimiento: ¿Cómo puede controlar la información que se comparte? ### {#consent}
 
