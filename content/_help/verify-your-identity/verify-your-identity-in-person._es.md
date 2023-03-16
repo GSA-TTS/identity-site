@@ -36,17 +36,6 @@ Actualmente no aceptamos otras formas de identificación, como pasaportes o carn
 
 Hasta entonces, póngase en contacto con el centro de ayuda de la agencia asociada para saber qué puede hacer.
 
-### Comprobante de domicilio actual
-
-Si su dirección actual no coincide con la que figura en su documento de identidad, tendrá que llevar un comprobante de su dirección actual a la oficina de correos. Los comprobantes de domicilio aceptados son:
-
-* Contrato de arrendamiento, hipoteca o escritura de fideicomiso.
-* Registro de votación.
-* Tarjeta de registro del vehículo.
-* Póliza de seguro de hogar o de vehículo.
-
-Puede traer una copia física o mostrar una copia digital del documento. No puede mostrar una foto o una captura de pantalla del documento. 
-
 ## Complete el proceso en una oficina de correos adherida antes de la fecha límite
 
 ### La verificación de identidad en persona está disponible en las oficinas adheridas de Estados Unidos y algunos de sus territorios*. 
@@ -91,12 +80,6 @@ Si no puedes verificar tu identidad en persona, puedes [intentarlo otra vez en l
 Consejos para verificar tu identidad en persona:
 
 * Tu identificación oficial o licencia de conducir emitida por el gobierno estatal no debe estar vencida. Actualmente no aceptamos ningún otro tipo de identificación.
-* Trae un comprobante de domicilio válido si tu dirección actual no es la que aparece en tu identificación. Para verificar tu dirección actual puedes traer tu:
-
-  * Contrato de arrendamiento, hipoteca o escritura de fideicomiso.
-  * Registro electoral.
-  * Tarjeta de registro vehicular.
-  * Póliza de seguro de casa o automóvil.
 
 ### Qué hacer si ha pasado el plazo para verificar su identidad de manera presencial
 
