@@ -27,7 +27,7 @@ multilingual_support: >-
     ### Multilingual support for your end-users
 
 
-    Login.gov provides customer support through our contact center services in English, Spanish, and French (through a translation service) from 8:00 am to 8:00 pm ET Monday through Friday, excluding federal holidays. Most inquiries are received from the Login.gov contact form and answered by email within 2 business days.
+    Login.gov provides customer support through our contact center services in English, Spanish, and French (through a translation service) 24 hours a day, seven days a week, excluding federal holidays. Most inquiries are received from the Login.gov contact form and answered by email within 2 business days.
 
 
     For more complex issues, our agents are available to answer telephone calls as well. Any needed services outside these hours are addressed on a case by case basis depending on partner needs.
