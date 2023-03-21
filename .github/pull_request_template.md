@@ -22,10 +22,13 @@ Provide a checklist of steps to confirm the changes.
 - [ ] Step 3
 -->
 
-<!-- 📸 **Screenshots of actual behavior and expected behavior**
+<!--
+## 📸 Screenshots
+
+If relevant, include a screenshot or screen capture of the changes.
+
 | Before | After |
 | ----------- | ----------- |
-|  |  | -->
-
-<!-- 🏁 **Additional information** -->
+|  |  |
+-->
 
