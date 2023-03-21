@@ -27,7 +27,7 @@ Our completed accessibility assessment reports can be found below:
 
 * [IAL 1 Account creation report](/docs/accessibility-assessment-ial1-account-creation.pdf)
 * Download the [Identity verification report [DOCX, 363KB]](/docs/accessibility-assessment-identity-verification-process.docx) 
-* [Identity verification report [PDF, 150KB]](/docs/accessibility-assessment-identity-verification-process.pdf)
+* [Identity verification report [PDF, 150KB]](/docs/identity-verification-process-accessibility-assessment.pdf)
 
 ## Known limitations
 Below is a description of the types of accessibility limitations discovered in our evaluations.
