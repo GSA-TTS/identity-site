@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Accepted State-Issued Identification
+title: Accepted state-issued identification
 category: verify-your-identity
 permalink: /help/verify-your-identity/accepted-state-issued-identification/
 order: 2
@@ -10,7 +10,7 @@ redirect_from:
 
 At this time, only the following state-issued identification is accepted: 
 
-* Driver’s license from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
+* Driver’s license from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, American Samoa, Mariana Islands and Puerto Rico)
 * A non-driver’s license state-issued ID card
 
   * This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.

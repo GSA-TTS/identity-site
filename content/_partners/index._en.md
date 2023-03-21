@@ -27,7 +27,7 @@ services:
   subheading3: Multilingual user support
   col_class3: multilingual
   col3: >-
-    Comprehensive, multilingual support for your end-users Monday-Friday, 8 a.m.-8 p.m. ET.
+    Comprehensive, multilingual support for your end-users 24 hours a day, seven days a week.
 
     [Learn about user support](/partners/our-services/#multilingual-support-for-your-end-users){:class="partners-multilingual caret"}
 

@@ -25,6 +25,8 @@ help_center_content: >-
 
   * [Parcourir d’autres articles d’aide](/fr/help/)
 maintenance_window_content: Le centre de contact de Login.gov est actuellement en cours de maintenance <strong>%{start_time} au %{end_time}</strong>. Consultez les sujets courants ci-dessous pour obtenir de l'aide.
+unplanned_outage_content: En raison d'une panne, nous ne pouvons pas traiter les demandes d'assistance en ligne. Vous pouvez appeler notre centre d'assistance à tout moment au (844) 875-6446
+unplanned_outage_both_form_and_phone: En raison d'une panne, nous ne pouvons pas traiter les demandes d'assistance en ligne.
 partner_content: >-
   ## Partenaire avec Login.gov
 
