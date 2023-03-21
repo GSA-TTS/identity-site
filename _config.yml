@@ -98,6 +98,7 @@ include:
   # dotfiles are excluded by default
   - .well-known
   - docs/accessibility-assessment-ial1-account-creation.pdf
+  - docs/accessibility-assessment-identity-verification-process.docx
   - docs/accessibility-assessment-identity-verification-process.pdf
 
 exclude:
