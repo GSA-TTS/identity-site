@@ -4,6 +4,7 @@ RSpec.describe '_site' do
   it 'only outputs HTML pages and their corresponding assets' do
     allowed_extensions = %w[
       .css
+      .docx
       .gif
       .html
       .ico

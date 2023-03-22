@@ -22,8 +22,9 @@ Login.gov est régulièrement apprécié grâce à une série d’outils d’év
 
 Vous trouverez ci-dessous le lien d’accès à nos rapports d’évaluation de l’accessibilité dûment remplis :
 
-[IAL 1 Rapport de création de compte](/docs/accessibility-assessment-ial1-account-creation.pdf)
-[Rapport de vérification de compte](/docs/accessibility-assessment-identity-verification-process.pdf)
+* [IAL 1 Rapport de création de compte](/docs/accessibility-assessment-ial1-account-creation.pdf)
+* Télécharger le [Informe de verificación de identidad [DOCX, 363KB]](/docs/identity-verification-report.docx)
+* [Informe de verificación de identidad [PDF, 150KB]](/docs/identity-verification-report.pdf)
 
 ## Limites connues
 Vous trouverez ci-dessous une description des types de limitations d’accessibilité découverts au cours de nos évaluations.
