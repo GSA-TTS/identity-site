@@ -98,8 +98,8 @@ include:
   # dotfiles are excluded by default
   - .well-known
   - docs/accessibility-assessment-ial1-account-creation.pdf
-  - docs/identity-verification-report.pdf.docx
-  - docs/identity-verification-report.pdf.pdf
+  - docs/identity-verification-report.docx
+  - docs/identity-verification-report.pdf
 
 exclude:
   - babel.config.json
