@@ -478,7 +478,8 @@
         label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_common }}"
       >
         {% for application in all_applications_sorted %}
-          {% if include.common_applications contains application.key %}
+          {% assign common_application = include.common_applications | find_exp: 'item', 'item == application.key' %}
+          {% if common_application %}
             <option value="{{ application.key }}">{{ application.value }}</option>
           {% endif %}
         {% endfor %}
