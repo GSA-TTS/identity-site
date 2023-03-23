@@ -19,7 +19,7 @@ component:
 
     * des emplois fédéraux (USAJOBS, Office de l'administration du personnel)
 
-    * PreCheck de la TSA et Global Entry (Programmes pour les voyageurs dignes de confiance, Département de la sécurité intérieure)
+    * Global Entry (Programmes pour les voyageurs dignes de confiance, Département de la sécurité intérieure)
 
     * des prêts aux petites entreprises et aide en cas de sinistres (Small Business Administration)
 

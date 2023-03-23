@@ -19,7 +19,7 @@ component:
 
     * Trabajos a nivel federal (USAJOBS, Oficina de Gestión de Personal)
 
-    * TSA PreCheck y Global Entry (Programas para viajeros de confianza, Departamento de Seguridad Nacional)
+    * Global Entry (Programas para viajeros de confianza, Departamento de Seguridad Nacional)
 
     * Préstamos para pequeñas empresas y ayuda en caso de desastres (Administración de Pequeñas Empresas)
 

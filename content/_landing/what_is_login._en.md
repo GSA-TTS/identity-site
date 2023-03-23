@@ -1,9 +1,7 @@
 ---
 layout: landing
-permalink: /what-is-login/
 title: What is Login.gov?
 description: Signing in to government agencies should be simple — and secure.
-already_have_an_account_banner: true
 class: what-is-login
 component:
   col1: >-
@@ -21,7 +19,7 @@ component:
 
     * Federal jobs (USAJOBS  - Office of Personnel Management)
 
-    * TSA PreCheck and Global Entry (Trusted Traveler Programs - Department of Homeland Security)
+    * Global Entry (Trusted Traveler Programs - Department of Homeland Security)
 
     * Small business loans and disaster assistance (Small Business Administration)
 
@@ -57,6 +55,7 @@ component:
 
 
     Login.gov verifies your identity for the agency. By submitting personal identifiable information (PII), such as your photo ID, you can verify that you are you and not someone pretending to be you. We only confirm that you are you and do not make any determination on eligibility for agency services.
+permalink: /what-is-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
 redirect_from:
