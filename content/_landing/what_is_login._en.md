@@ -1,5 +1,4 @@
 ---
-already_have_an_account_banner: true
 layout: landing
 title: What is Login.gov?
 description: Signing in to government agencies should be simple — and secure.
