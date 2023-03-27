@@ -1,8 +1,9 @@
-async function sha256(message) {
-  const data = new TextEncoder().encode(message);
-  const buffer = await crypto.subtle.digest('SHA-256', data);
-  const array = Array.from(new Uint8Array(buffer));
-  return array.map((b) => b.toString(16).padStart(2, '0')).join('');
+import { sha256 } from 'js-sha256';
+
+function sha256Hex(message) {
+  const hash = sha256.create();
+  hash.update(message);
+  return hash.hex();
 }
 
 function verifyCanSubmitEntry() {
@@ -21,7 +22,7 @@ function verifyCanSubmitEntry() {
 
   let alreadyAttemptedSubmission = false;
   form.addEventListener('submit', (event) => {
-    if (spamEmailDigests.includes(await sha256(emailInput.value))) {
+    if (spamEmailDigests.includes(sha256Hex(emailInput.value))) {
       event.preventDefault();
       return;
     }
