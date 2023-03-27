@@ -25,7 +25,7 @@ function verifyCanSubmitEntry() {
 
   let alreadyAttemptedSubmission = false;
   form.addEventListener('submit', (event) => {
-    if (emailIsSpam(emailInput.value, spamEmailDigests)) {
+    if (spamEmailDigests.includes(await sha256(emailInput.value))) {
       event.preventDefault();
       return;
     }
