@@ -24,6 +24,7 @@ function verifyCanSubmitEntry() {
   form.addEventListener('submit', (event) => {
     if (spamEmailDigests.includes(sha256Hex(emailInput.value))) {
       event.preventDefault();
+      window.location = '/';
       return;
     }
 
