@@ -410,6 +410,7 @@
     method="POST"
     onSubmit="return remapvalues(this); return true;"
     class="usa-form"
+    data-spam-email-addresses="{{ site.contact_spam_email_addresses | join: ',' }}"
   >
     <input type="hidden" name="retURL" value="https://login.gov{{ '/' | locale_url }}" />
     <input type="hidden" name="orgid" value="{{ site.contact_form_orgid }}" />
