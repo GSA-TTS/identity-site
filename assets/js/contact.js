@@ -21,7 +21,7 @@ function verifyCanSubmitEntry() {
   const piiErrorText = document.getElementById('pii-warning-message');
   const descriptionInput = document.getElementById('description');
   const emailInput = document.getElementById('email');
-  const spamEmailDigests = (form.dataset.spamEmailAddresses || '').split(',');
+  const spamEmailDigests = (form.dataset.spamEmailAddresses || '').split(',').filter(Boolean);
 
   let alreadyAttemptedSubmission = false;
   form.addEventListener('submit', (event) => {
