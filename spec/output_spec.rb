@@ -23,6 +23,7 @@ RSpec.describe '_site' do
     allowlisted_files = %w[
       admin/config.yml
       assets/css/main.css.map
+      assets/js/contact.js.LICENSE.txt
       assets/js/main.js.LICENSE.txt
       browserconfig.xml
       manifest.json
