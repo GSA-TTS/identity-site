@@ -1,10 +1,8 @@
 async function sha256(message) {
   const data = new TextEncoder().encode(message);
-  const buffer = await crypto.subtle.digest("SHA-256", data);
+  const buffer = await crypto.subtle.digest('SHA-256', data);
   const array = Array.from(new Uint8Array(buffer));
-  return array
-    .map((b) => b.toString(16).padStart(2, "0"))
-    .join("");
+  return array.map((b) => b.toString(16).padStart(2, '0')).join('');
 }
 
 function emailIsSpam(email, spamEmails) {
