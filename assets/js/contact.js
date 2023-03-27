@@ -1,3 +1,5 @@
+import { sha256 } from 'js-sha256';
+
 function verifyCanSubmitEntry() {
   const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
   if (debug && +debug.value) {
@@ -9,8 +11,17 @@ function verifyCanSubmitEntry() {
   const piiError = document.getElementById('pii-warning');
   const piiErrorText = document.getElementById('pii-warning-message');
   const descriptionInput = document.getElementById('description');
+  const emailInput = document.getElementById('email');
+  const spamEmailDigests = (form.dataset.spamEmailAddresses || '').split(',').filter(Boolean);
+
   let alreadyAttemptedSubmission = false;
   form.addEventListener('submit', (event) => {
+    if (spamEmailDigests.includes(sha256(emailInput.value))) {
+      event.preventDefault();
+      window.location = '/';
+      return;
+    }
+
     const captcha = document.getElementById('g-recaptcha-response');
     if (!captcha || !captcha.value) {
       event.preventDefault();

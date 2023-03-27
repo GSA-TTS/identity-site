@@ -28,6 +28,10 @@ contact_maintenance_end_time: null
 # Unplanned outage configuration
 contact_unplanned_outage: false
 
+# hex-digested SHA256 of email addresses
+contact_spam_email_addresses:
+- 4de348ef053db5f71a4c72f4c894d49161bf7d30ea81d1903d43eb6f143871d9
+
 # Used to load country code support
 idp_base_url: https://secure.login.gov
 # for local development:
