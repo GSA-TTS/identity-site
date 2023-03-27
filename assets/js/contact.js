@@ -5,10 +5,6 @@ async function sha256(message) {
   return array.map((b) => b.toString(16).padStart(2, '0')).join('');
 }
 
-function emailIsSpam(email, spamEmails) {
-  return spamEmails.includes(sha256(email));
-}
-
 function verifyCanSubmitEntry() {
   const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
   if (debug && +debug.value) {
