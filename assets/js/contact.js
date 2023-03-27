@@ -1,11 +1,5 @@
 import { sha256 } from 'js-sha256';
 
-function sha256Hex(message) {
-  const hash = sha256.create();
-  hash.update(message);
-  return hash.hex();
-}
-
 function verifyCanSubmitEntry() {
   const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
   if (debug && +debug.value) {
