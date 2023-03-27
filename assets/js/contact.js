@@ -22,7 +22,7 @@ function verifyCanSubmitEntry() {
 
   let alreadyAttemptedSubmission = false;
   form.addEventListener('submit', (event) => {
-    if (spamEmailDigests.includes(sha256Hex(emailInput.value))) {
+    if (spamEmailDigests.includes(sha256(emailInput.value))) {
       event.preventDefault();
       window.location = '/';
       return;
