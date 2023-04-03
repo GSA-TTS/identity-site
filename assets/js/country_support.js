@@ -29,14 +29,9 @@ const prettyDialingCode = (dialingCode) => {
 };
 
 /**
- * @typedef {(input: RequestInfo, init?: RequestInit) => Promise<Response>} Fetch
- */
-
-/**
  * @param {HTMLElement} elem
- * @param {Fetch} fetch
  */
-function loadCountrySupportTable(elem, fetch) {
+function loadCountrySupportTable(elem) {
   const tbody = elem.querySelector('tbody');
   const templateRow = elem.querySelector('[data-item=template-row]');
   const successIcon = elem.querySelector('[data-item=icon-success]');
@@ -62,7 +57,8 @@ function loadCountrySupportTable(elem, fetch) {
     cell.querySelector('[data-item=icon]').appendChild(clonedIcon);
   };
 
-  fetch(`${idpBaseUrl || ''}/api/country-support?locale=${locale}`)
+  window
+    .fetch(`${idpBaseUrl || ''}/api/country-support?locale=${locale}`)
     .then((response) => {
       if (response.ok) {
         return response.json();
@@ -108,14 +104,4 @@ function loadCountrySupportTable(elem, fetch) {
     });
 }
 
-/** @type {Promise<Fetch>} */
-const fetchPromise =
-  'fetch' in window
-    ? new Promise((resolve) => resolve(window.fetch))
-    : import(/* webpackChunkName: "whatwg-fetch" */ 'whatwg-fetch').then(({ fetch }) => fetch);
-
-fetchPromise.then((fetch) => {
-  Array.from(document.querySelectorAll('.js-country-support')).forEach((elem) =>
-    loadCountrySupportTable(elem, fetch),
-  );
-});
+loadCountrySupportTable(document.querySelector('.js-country-support'));
