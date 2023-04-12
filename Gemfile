@@ -5,7 +5,6 @@ ruby '~> 2.7.4'
 gem 'jekyll', '>= 4.3.0'
 gem 'jekyll-redirect-from', '>= 0.15.0'
 gem 'jekyll-sitemap', '>= 1.4.0'
-gem 'jekyll-sass-converter', '>= 3.0.0'
 
 group :development do
   gem 'pry'
