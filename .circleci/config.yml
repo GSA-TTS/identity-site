@@ -42,7 +42,7 @@ commands:
 jobs:
   build:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:2.7-node
         environment:
           BUNDLER_VERSION: 2.2.20
     steps:
@@ -50,18 +50,18 @@ jobs:
       - install-dependencies
       - build-site
       - persist_to_workspace:
-          root: "."
+          root: '.'
           paths:
-            - "_site"
+            - '_site'
 
   test:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
       - install-dependencies
       - attach_workspace:
-          at: "."
+          at: '.'
       - run:
           name: run tests
           command: bundle exec rspec spec
@@ -74,21 +74,21 @@ jobs:
 
   e2e:
     docker:
-      - image: cimg/ruby:3.1-browsers
+      - image: cimg/ruby:2.7-browsers
     environment:
       SKIP_BUILD: true
     steps:
       - checkout
       - install-dependencies
       - attach_workspace:
-          at: "."
+          at: '.'
       - run:
           name: run end-to-end tests
           command: npm test
 
   lint-js:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
       - install-dependencies
@@ -98,7 +98,7 @@ jobs:
 
   typecheck-js:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
       - install-dependencies
@@ -108,7 +108,7 @@ jobs:
 
   check-optimized-assets:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
       - install-dependencies
@@ -118,7 +118,7 @@ jobs:
 
   check-lockfiles:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:2.7-node
     environment:
       SKIP_INSTALL: true
     steps:
@@ -130,12 +130,12 @@ jobs:
 
   nu:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
       - install-dependencies
       - attach_workspace:
-          at: "."
+          at: '.'
       - run:
           name: Install Java
           command: sudo apt-get update && sudo apt-get install openjdk-11-jdk
@@ -147,18 +147,18 @@ jobs:
   # but do get the feedback/info
   test-external-links:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:2.7-node
     steps:
       - checkout
       - install-dependencies
       - attach_workspace:
-          at: "."
+          at: '.'
       - run:
           name: Run htmlproofer (external links only)
           command: bundle exec scripts/htmlproofer --external --retry-external 3 --retry-external-delay 8 --url-ignore congress.gov --url-ignore lastpass.com --url-ignore zendesk.login.gov
       - slack/status:
           fail_only: true
-          failure_message: ":login-gov::red_circle: external link check failed"
+          failure_message: ':login-gov::red_circle: external link check failed'
           only_for_branches: 'main' # don't notify Slack on a branch build
 
 workflows:
@@ -191,7 +191,7 @@ workflows:
     triggers:
       - schedule:
           # Once a day at 12pm
-          cron: "0 12 * * *"
+          cron: '0 12 * * *'
           filters:
             branches:
               only:
