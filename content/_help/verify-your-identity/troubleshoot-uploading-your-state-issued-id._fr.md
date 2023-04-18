@@ -6,7 +6,7 @@ order: 4
 ---
 Vous n'êtes pas tenu de téléverser une photo de vous-même ou de prendre une autophoto pour vérifier votre identité. Toutefois, [une photo nette de votre pièce d'identité](/fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/) délivrée par l'État est nécessaire pour la vérification de votre identité. Si vous avez pris une photo qui répond aux exigences, essayez les étapes ci-dessous si vous obtenez toujours une erreur lors du téléchargement de votre pièce d'identité délivrée par l'État.
 
-Vous pouvez faire 10 tentatives pour télécharger votre document. Après ces 10 tentatives, le système vous bloquera pendant six heures par mesure de sécurité.
+Vous pouvez faire 5 tentatives pour télécharger votre document. Après ces 5 tentatives, le système vous bloquera pendant six heures par mesure de sécurité.
 
 Veuillez contacter l'agence à laquelle vous essayez d'accéder si les étapes ci-dessous ne fonctionnent pas et si vous ne parvenez pas à terminer le processus de vérification de l'identité.
 
