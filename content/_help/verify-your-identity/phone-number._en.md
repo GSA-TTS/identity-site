@@ -17,7 +17,7 @@ We are most likely to successfully verify your identity if you enter your primar
 - Home number
 - Work number
 - Cell or mobile number
-- Landline Number
+- Landline number
 
 You can use a prepaid cell phone to verify your identity. However, some prepaid phone numbers contain risk factors that might cause you to fail identity verification.
 
