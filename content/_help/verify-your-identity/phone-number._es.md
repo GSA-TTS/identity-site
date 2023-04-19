@@ -6,24 +6,26 @@ order: 5
 redirect_from:
   - /es/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 ---
-Para completar con éxito su verificación de identidad, debe proporcionar un número de teléfono con domicilio en Estados Unidos. Este número de teléfono debe ser su número principal o el que utilice con más frecuencia. Intentaremos cotejar el número de teléfono con los registros. 
+Comparamos su número de teléfono con los registros para verificar su identidad. El número de teléfono que utilice para verificar su identidad debe tener su sede en Estados Unidos, lo que incluye los números de teléfono de todos los territorios de EE. UU.
 
-En caso de que no pueda realizar este paso, haga clic en "Verificar su dirección por correo". Tendrá que esperar a recibir una carta por correo y luego deberá seguir las instrucciones para introducir el código. 
+Si escribe su número principal (el que utiliza más a menudo), es más probable que podamos verificar su identidad.
 
-**¿Qué pasa si tengo una cuenta de prepago y un teléfono móvil?** 
-Los teléfonos prepago pueden utilizarse para la verificación de su identidad. Sin embargo, algunos números de teléfono prepago contienen factores de riesgo que pueden dificultar la verificación de su identidad.
+## Puede verificar su identidad con su:
+- Número de casa
+- Número del trabajo
+- Número de teléfono móvil
+- Número de teléfono fijo
 
-**¿Necesito un teléfono fijo?** 
-No necesita un teléfono fijo. Para este paso puede utilizar un número de teléfono móvil. 
+Puede utilizar un teléfono móvil de prepago para verificar su identidad. Sin embargo, algunos números de teléfono de prepago contienen factores de riesgo que pueden hacer que no se verifique su identidad.
 
-**¿Puedo usar mi número de teléfono del trabajo?**
-Puede utilizar un número de teléfono del trabajo si es su número de teléfono principal. Intentaremos encontrar coincidencias entre el número de teléfono y sus otros registros públicos.
+## No puede verificar su identidad con
+- Números internacionales
+- Google Voice o números VOIP (Voice Over Internet Protocol) similares
+- Números de tarificación especial
 
-**¿Qué ocurre si utilizo un número de Google Voice o un número VOIP (Voice Over Internet Protocol) similar?** 
-En este momento no puede utilizar un número VOIP para la verificación de su identidad.
+## En caso de que no pueda realizar este paso
 
-**¿Puedo usar un número de tarifa especial o por cobrar?**
-Usted no puede usar un número de tarifa especial (por cobrar).
+Haga clic en "Verificar su dirección por correo". Tendrá que esperar a recibir una carta por correo y luego deberá seguir las instrucciones para introducir el código.
 
 ## Artículos relacionados
 
