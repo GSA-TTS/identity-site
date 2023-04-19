@@ -9,26 +9,25 @@ redirect_from:
   - /en/help/verify-your-identity/phone-number/
   - /en/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 ---
-You need to provide a U.S. based phone number to successfully complete identity verification. This phone number should be your primary number or the number that you use most often. We will attempt to match the phone number with records. 
+We match your phone number with records to verify your identity. The phone number that you use to verify your identity must be based in the United States, which includes phone numbers in all U.S. territories.
 
-If you cannot complete this step, click on “Verify your address by mail instead.” You will have to wait to receive a letter in the mail and then follow the instructions to enter the code. 
+We are most likely to successfully verify your identity if you enter your primary number (the number that you use most often).
 
-**What if I have a prepaid account and cell phone?**
-Prepaid phones can be used for identity verification. However, some prepaid phone numbers contain risk factors that might cause you to fail identity verification.
+## You can verify your identity with your:
+- Home number
+- Work number
+- Cell or mobile number
+- Landline number
 
-**Do I need a landline?**
-You do not need a landline. You can use a cell phone number for this step. 
+You can use a prepaid cell phone to verify your identity. However, some prepaid phone numbers contain risk factors that might cause you to fail identity verification.
 
-**Can I use my work phone number?** 
-You can use a work phone number if it is your primary phone number. We will attempt to match the phone number to your other public records. 
+## You cannot verify your identity with:
+- International numbers
+- Google voice or similar VOIP (Voice Over Internet Protocol) numbers
+- Premium rate (toll) numbers
 
-**What if I use a Google voice or similar VOIP (Voice Over Internet Protocol) number?**
-You cannot use a VOIP number for identity verification at this time.
-
-**Can I use a premium rate or toll number?**
-You cannot use a premium rate (toll) number.
-
-
+## If you cannot complete this step
+Select “Verify your address by mail instead.” You will have to wait to receive a letter in the mail and then follow the instructions to enter the code. 
 
 ## Related articles
 
