@@ -5,7 +5,7 @@ layout: help_landing
 permalink: /es/help/
 hero: true
 ---
-<article class="grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-9 padding-bottom-1">
+<div class="grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-9 padding-bottom-1">
   <ul class="usa-card-group grid-row tablet:flex-align-center usa-list usa-list--unstyled">
     {% for item in site.data[page.lang].settings["help_page"]["categories"] %}
     <li class="card">
@@ -25,4 +25,4 @@ hero: true
     </li>
     {% endfor %}
   </ul>
-</article>
+</div>

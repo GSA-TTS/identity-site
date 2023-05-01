@@ -7,7 +7,7 @@ hero: true
 redirect_from:
   - /en/help/
 ---
-<article class="grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-9 padding-bottom-1">
+<div class="grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-9 padding-bottom-1">
   <ul class="usa-card-group grid-row tablet:flex-align-center usa-list usa-list--unstyled">
     {% for item in site.data[page.lang].settings["help_page"]["categories"] %}
     <li class="card">
@@ -27,4 +27,4 @@ redirect_from:
     </li>
     {% endfor %}
   </ul>
-</article>
+</div>
