@@ -1,4 +1,7 @@
+@use 'uswds-core' as *;
 @use 'sass:math';
+@use '../colors' as *;
+@use '../variables' as *;
 
 .list {
   @include usa-link-style;

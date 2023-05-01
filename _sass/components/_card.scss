@@ -1,31 +1,35 @@
+@use 'uswds-core' as *;
+@use '../colors' as *;
+@use '../variables' as *;
+
 .card {
   width: 100%;
   padding-bottom: ($container-spacing-sm * 2);
 
-  @include at-media("tablet-lg") {
+  @include at-media('tablet-lg') {
     width: 50%;
     padding-left: $container-spacing-sm;
   }
 
-  img { 
+  img {
     background-color: $white;
-    
-    @include at-media("tablet-lg") {
+
+    @include at-media('tablet-lg') {
       max-width: none;
-   }
+    }
   }
 
   h2 {
     margin-top: 0;
     font-size: 1.125rem;
     line-height: 24px;
-    
-    @include at-media("tablet-lg") {
+
+    @include at-media('tablet-lg') {
       font-size: 1.375rem;
       line-height: $line-height;
     }
   }
-  
+
   a {
     text-decoration: underline;
     text-underline-position: under;

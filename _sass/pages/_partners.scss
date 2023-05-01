@@ -1,3 +1,6 @@
+@use 'uswds-core' as *;
+@use '../colors' as *;
+
 .login-developers-links {
   & span {
     padding-bottom: 0;
@@ -14,7 +17,7 @@
 
 .partners-actions {
   display: block;
-  @include at-media("card") {
+  @include at-media('card') {
     & a {
       width: 100%;
       &:first-child {
@@ -22,7 +25,7 @@
       }
     }
   }
-  @include at-media("desktop") {
+  @include at-media('desktop') {
     position: absolute;
     bottom: 1rem;
     right: 0;
@@ -47,18 +50,15 @@
   .hdr {
     padding: 0.75rem 0 0.75rem 2.75rem;
     &.authentication {
-      background: url(../img/partners/partners-authentication.svg) -0.2rem
-      center no-repeat;
+      background: url(../img/partners/partners-authentication.svg) -0.2rem center no-repeat;
     }
 
     &.identity {
-      background: url(../img/partners/partners-identity.svg) -0.2rem center
-      no-repeat;
+      background: url(../img/partners/partners-identity.svg) -0.2rem center no-repeat;
     }
 
     &.multilingual {
-      background: url(../img/partners/partners-multilingual.svg) -0.2rem
-      center no-repeat;
+      background: url(../img/partners/partners-multilingual.svg) -0.2rem center no-repeat;
     }
   }
 
@@ -127,7 +127,7 @@
   }
 }
 
-@include at-media-max("desktop") {
+@include at-media-max('desktop') {
   .container.partners {
     .tablet\:grid-col {
       + .tablet\:grid-col {

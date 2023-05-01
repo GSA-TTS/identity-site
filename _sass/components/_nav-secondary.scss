@@ -1,3 +1,6 @@
+@use '../colors' as *;
+@use '../variables' as *;
+
 .nav-secondary {
   color: red;
 
@@ -21,7 +24,7 @@
         border-left: $triangle-size solid transparent;
         border-right: $triangle-size solid transparent;
         bottom: 0;
-        content: "";
+        content: '';
         left: 50%;
         margin-left: -$triangle-size;
         padding-top: 0.4rem;

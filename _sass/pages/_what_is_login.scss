@@ -1,3 +1,6 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+
 .container.what-is-login {
   .one-account,
   .secure-account-container,
@@ -14,8 +17,8 @@
     display: block;
 
     &.one-account-img {
-      background: url(../img/what-is-login/one-account/what-is-one-account.png)
-        center center/contain no-repeat;
+      background: url(../img/what-is-login/one-account/what-is-one-account.png) center
+        center/contain no-repeat;
       height: 17rem;
     }
   }
@@ -35,7 +38,7 @@
   }
 }
 
-@include at-media("tablet") {
+@include at-media('tablet') {
   .container.what-is-login {
     .secure-account-container {
       padding: 2rem 0;

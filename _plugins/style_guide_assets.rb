@@ -23,7 +23,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
   destination_fonts_dir = File.join(site.config['destination'], 'assets/fonts')
   destination_img_dir = File.join(site.config['destination'], 'assets/img')
 
-  uswds_assets_root = File.join(Dir.pwd, 'node_modules/identity-style-guide/dist/assets/')
+  uswds_assets_root = File.join(Dir.pwd, 'node_modules/@18f/identity-design-system/dist/assets/')
   origin_fonts_dir = File.join(uswds_assets_root, 'fonts')
   origin_img_dir = File.join(uswds_assets_root, 'img')
 
