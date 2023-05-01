@@ -7,7 +7,7 @@ includes_touchpoints: true
 {% assign parent_url = page.url | replace: slug_permalink %}
 {% assign related_questions = site.help | where_exp: "item", "item.url contains parent_url" | sort: 'order' %}
 
-<div class="container">
+<article class="container">
   <div class="page-content grid-row">
     <div class="page-content__prose grid-col-12 desktop:grid-col-8 help-article">
       <h1>{{page.title}}</h1>
@@ -24,4 +24,4 @@ includes_touchpoints: true
       {% include help/nav_sidenav.html %}
     </div>
   </div>
-</div>
+</article>

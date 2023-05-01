@@ -1,4 +1,4 @@
-<div class="container {{ include.class }}">
+<article class="container {{ include.class }}">
   <header class="intro"><h2>{{ include.heading }}</h2></header>
   <div class='grid-container'>
     <div class="grid-row grid-gap-lg" aria-label="{{ include.label }}">
@@ -21,4 +21,4 @@
   {% if include.link and include.link != '' %}
     {{ include.link | markdownify }}
   {% endif %}
-</div>
+</article>
