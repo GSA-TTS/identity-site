@@ -33,10 +33,12 @@
   }
 }
 
-.usa-logo {
-  .help-page & {
-    display: flex;
-    align-items: center;
+.top-navigation .usa-logo {
+  display: flex;
+  align-items: center;
+
+  @include at-media('desktop') {
+    margin-top: units(2);
   }
 }
 
@@ -110,87 +112,6 @@
 
     span {
       margin: 0;
-    }
-  }
-}
-
-@include at-media('desktop') {
-  .usa-header--extended .usa-nav__primary {
-    margin-left: 0rem;
-  }
-}
-
-@include at-media-max('desktop') {
-  .usa-nav__primary {
-    margin-left: -1rem;
-    margin-right: -1rem;
-    width: auto;
-  }
-
-  .usa-nav__primary button:hover,
-  .usa-nav__primary a:hover {
-    // TODO: Reconcile / backport hover color difference with Login Design System.
-    background-color: $blue-lightest;
-  }
-
-  .usa-nav__primary-item {
-    border-top: 0;
-
-    &::before {
-      // TODO: Reconcile / backport border color difference with Login Design System.
-      background-color: $blue-light;
-      content: '';
-      display: block;
-      height: 1px;
-      margin-left: 1rem;
-      margin-right: 1rem;
-    }
-  }
-
-  .usa-nav__primary .usa-nav__primary-item .usa-accordion__button,
-  .usa-nav__primary .usa-nav__primary-item .usa-accordion__close-button,
-  .usa-nav__primary .usa-nav__submenu-item .usa-accordion__button,
-  .usa-nav__primary .usa-nav__submenu-item .usa-accordion__close-button {
-    background-position: right 1rem center;
-  }
-}
-
-@include at-media('desktop') {
-  .usa-header--extended .usa-navbar.partners-navbar {
-    max-width: 100%;
-  }
-
-  .usa-nav__primary-item + .usa-nav__primary-item {
-    margin-left: 1.5rem;
-  }
-
-  .usa-nav__link__inner {
-    text-transform: none;
-    display: inline-block;
-    padding: 0 0 1rem 0;
-  }
-}
-
-.usa-nav__submenu-item {
-  border-top: none;
-}
-
-.usa-nav__primary button,
-.usa-nav__primary a {
-  @include at-media-max('desktop') {
-    padding-top: 0.9rem;
-    padding-bottom: 0.9rem;
-    line-height: 1.5;
-  }
-}
-
-.usa-nav__primary .usa-nav__submenu-item .usa-current {
-  @include at-media-max('desktop') {
-    background-color: transparent;
-    color: $blue-mid;
-
-    &::after {
-      content: none;
     }
   }
 }

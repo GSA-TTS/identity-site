@@ -23,58 +23,60 @@
     </div>
 
     <nav class="usa-nav" aria-label="{{ site.data.[page.lang].settings.accessible_labels.primary_navigation }}">
-      <button class="usa-nav__close">
-        <img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close" />
-      </button>
+      <div class="usa-nav__inner">
+        <button class="usa-nav__close">
+          <img src="{{ site.baseurl }}/assets/img/close.svg" alt="Close" />
+        </button>
 
-      {% include sign_in.html mobile="mobile" %}
+        {% include sign_in.html mobile="mobile" %}
 
-      <ul class="usa-nav__primary usa-accordion">
-        <li class="usa-nav__primary-item">
-          <a
-            class="usa-nav__link {% if page.url contains '/what-is-login/' %}usa-current{% endif %}"
-            href="{{ '/what-is-login/' | locale_url }}"
-          >
-            <span class="usa-nav__link__inner">{{ site.data.[page.lang].settings.nav.what_is_login_gov }}</span>
-          </a>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a
-            class="usa-nav__link {% if page.url contains '/who-uses-login/' %}usa-current{% endif %}"
-            href="{{ '/who-uses-login/' | locale_url }}"
-          >
-            <span class="usa-nav__link__inner">{{ site.data.[page.lang].settings.nav.who_uses_login_gov }}</span>
-          </a>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a
-            class="usa-nav__link {% if page.url contains '/create-an-account/' %}usa-current{% endif %}"
-            href="{{ '/create-an-account/' | locale_url }}"
-          >
-            <span class="usa-nav__link__inner">{{ site.data.[page.lang].settings.nav.create_an_account }}</span>
-          </a>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a
-            class="usa-nav__link {% if page.url contains '/help/' %}usa-current{% endif %}"
-            href="{{ '/help/' | locale_url }}"
-          >
-            <span class="usa-nav__link__inner">{{ site.data.[page.lang].settings.nav.help_center }}</span>
-          </a>
-        </li>
-      </ul>
+        <ul class="usa-nav__primary usa-accordion">
+          <li class="usa-nav__primary-item">
+            <a
+              class="usa-nav__link {% if page.url contains '/what-is-login/' %}usa-current{% endif %}"
+              href="{{ '/what-is-login/' | locale_url }}"
+            >
+              {{ site.data.[page.lang].settings.nav.what_is_login_gov }}
+            </a>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a
+              class="usa-nav__link {% if page.url contains '/who-uses-login/' %}usa-current{% endif %}"
+              href="{{ '/who-uses-login/' | locale_url }}"
+            >
+              {{ site.data.[page.lang].settings.nav.who_uses_login_gov }}
+            </a>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a
+              class="usa-nav__link {% if page.url contains '/create-an-account/' %}usa-current{% endif %}"
+              href="{{ '/create-an-account/' | locale_url }}"
+            >
+              {{ site.data.[page.lang].settings.nav.create_an_account }}
+            </a>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a
+              class="usa-nav__link {% if page.url contains '/help/' %}usa-current{% endif %}"
+              href="{{ '/help/' | locale_url }}"
+            >
+              {{ site.data.[page.lang].settings.nav.help_center }}
+            </a>
+          </li>
+        </ul>
 
-      <a
-        class="usa-link desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold"
-        href="{{ '/contact/' | locale_url }}"
-      >
-        {{ site.data.[page.lang].settings.nav.contact_us.title }}
-      </a>
+        <a
+          class="usa-link display-block desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold"
+          href="{{ '/contact/' | locale_url }}"
+        >
+          {{ site.data.[page.lang].settings.nav.contact_us.title }}
+        </a>
 
-      {% include search.html id="header-nav" %}
+        {% include search.html id="header-nav" %}
 
-      <div class="desktop:display-none margin-top-3">
-        {% include language_picker.html id="mobile-list" %}
+        <div class="desktop:display-none margin-top-3">
+          {% include language_picker.html id="mobile-list" %}
+        </div>
       </div>
     </nav>
   </div>
