@@ -3,8 +3,6 @@
 @use '../variables' as *;
 
 .hero {
-  background-color: $navy;
-  color: $white;
   padding-top: $container-spacing-sm;
   padding-bottom: $container-spacing-sm;
 
@@ -31,11 +29,6 @@
     @include at-media('desktop') {
       font-size: 1.25rem; // 20px
     }
-  }
-
-  &.partners {
-    background-color: color('white');
-    color: color('ink');
   }
 }
 
