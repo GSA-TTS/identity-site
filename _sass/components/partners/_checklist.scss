@@ -1,3 +1,5 @@
+@use 'uswds-core' as *;
+
 .container.is-login-for-you {
   @include usa-link-style;
   text-align: left;

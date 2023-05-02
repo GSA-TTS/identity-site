@@ -1,3 +1,6 @@
+@use 'uswds-core' as *;
+@use 'colors' as *;
+
 $base-font-size: 16px;
 $base-font-sm: ($base-font-size - 3);
 $base-font-xs: ($base-font-size * 0.75);
@@ -9,10 +12,9 @@ $base-font-color: $grey-darker;
 
 $link-text-decoration: underline !default;
 
-$border-width: 1px !default;
 $border-color: $blue-light;
 $border-color-secondary: $blue-mid !default;
-$border-style: $border-width solid $border-color;
+$border-style: 1px solid $border-color;
 $border-radius: 8px;
 
 $icon-width: 0.8rem;
@@ -22,7 +24,7 @@ $space-1: 0.5rem !default;
 
 $bold-font-weight: bold;
 
-$container-size: "desktop-lg";
+$container-size: 'desktop-lg';
 $max-width: units($container-size);
 $max-width-sm: 368px; // used in footer .questions_addl_info
 $max-width-custom: ($max-width - 7); // 1168px

@@ -1,26 +1,27 @@
-@import "site";
-@import "footer";
-@import "form";
-@import "header";
-@import "language-picker";
-@import "list";
-@import "banner";
-@import "already-have-an-account";
-@import "nav";
-@import "hero";
+@forward 'alert';
+@forward 'site';
+@forward 'footer';
+@forward 'form';
+@forward 'header';
+@forward 'language-picker';
+@forward 'list';
+@forward 'banner';
+@forward 'already-have-an-account';
+@forward 'nav';
+@forward 'hero';
 
-@import "partners/hero";
-@import "partners/checklist";
-@import "partners/partners";
+@forward 'partners/hero';
+@forward 'partners/checklist';
+@forward 'partners/partners';
 
-@import "typography";
-@import "svg";
+@forward 'typography';
+@forward 'svg';
 
-@import "nav-secondary";
-@import "nav-sidenav";
-@import "skip-nav";
-@import "layout";
-@import "box-info";
-@import "card";
+@forward 'nav-secondary';
+@forward 'nav-sidenav';
+@forward 'skip-nav';
+@forward 'layout';
+@forward 'box-info';
+@forward 'card';
 
-@import "sticky-table";
+@forward 'sticky-table';

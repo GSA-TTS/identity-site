@@ -1,3 +1,6 @@
+@use 'uswds-core' as *;
+@use '../colors' as *;
+
 .usa-form {
   max-width: none;
 }
@@ -7,7 +10,7 @@
 }
 
 .usa-label.text-normal {
-  @include u-text("normal");
+  @include u-text('normal');
 }
 
 .usa-input,
@@ -16,28 +19,24 @@
 .usa-select,
 .usa-combo-box__input,
 .usa-range {
-  margin-top: units(.5);
+  margin-top: units(0.5);
 }
 
-[type="search"],
+[type='search'],
 .usa-search__input {
   margin-top: 0;
 }
 
 .usa-hint {
-  @include typeset(
-    $theme-form-font-family,
-    $theme-body-font-size,
-    $theme-body-line-height
-  );
+  @include typeset($theme-form-font-family, $theme-body-font-size, $theme-body-line-height);
   color: $grey;
   margin-bottom: units(2);
-  margin-top: units(.5);
+  margin-top: units(0.5);
   max-width: units($theme-input-max-width);
 }
 
 .form-actions {
-  @include at-media("desktop") {
+  @include at-media('desktop') {
     @include u-margin-y(8);
   }
 }

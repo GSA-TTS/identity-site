@@ -1,13 +1,13 @@
-@import "colors";
-@import "variables";
+@forward 'colors';
+@forward 'variables';
 
-@import "mixins/all";
-@import "components/all";
+@forward 'mixins/all';
+@forward 'components/all';
 
-@import "pages/home";
-@import "pages/what_is_login";
-@import "pages/who_uses_login";
-@import "pages/create_an_account";
-@import "pages/not_found";
-@import "pages/policy";
-@import "pages/partners";
+@forward 'pages/home';
+@forward 'pages/what_is_login';
+@forward 'pages/who_uses_login';
+@forward 'pages/create_an_account';
+@forward 'pages/not_found';
+@forward 'pages/policy';
+@forward 'pages/partners';

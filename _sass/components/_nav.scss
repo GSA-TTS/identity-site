@@ -1,3 +1,7 @@
+@use 'uswds-core' as *;
+@use '../colors' as *;
+@use '../variables' as *;
+
 .top-navigation,
 .language-search,
 .login-developers-links {
@@ -155,7 +159,7 @@
   .usa-header--extended .usa-navbar.partners-navbar {
     max-width: 100%;
   }
-  
+
   .usa-nav__primary-item + .usa-nav__primary-item {
     margin-left: 1.5rem;
   }

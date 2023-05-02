@@ -1,3 +1,6 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+
 html {
   font-size: $base-font-size;
 }
@@ -23,14 +26,16 @@ article p {
     line-height: $line-height;
   }
 
-  p, ol, ul {
+  p,
+  ol,
+  ul {
     // TODO: Remove this once we assign `$theme-body-line-height` design system variable.
     line-height: $line-height;
 
     // TODO: Consider respecting or customizing `$theme-text-measure` design system variable.
     max-width: none;
 
-    li  {
+    li {
       ul {
         list-style-type: '⁃  ';
         margin-top: 0.25rem;
