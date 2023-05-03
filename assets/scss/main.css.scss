@@ -1,2 +1,8 @@
-@import "identity-style-guide/dist/assets/scss/styles";
-@import "../../_sass"
+@use 'uswds-core' with (
+  $theme-utility-breakpoints: (
+    'tablet': true,
+    'desktop': true
+  )
+);
+@forward 'uswds';
+@forward '../../_sass';

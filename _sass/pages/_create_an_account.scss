@@ -1,3 +1,6 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+
 .create-an-account {
   padding-top: $container-spacing;
   padding-bottom: $container-spacing;
@@ -25,7 +28,7 @@
   }
 }
 
-@include at-media("tablet") {
+@include at-media('tablet') {
   .create-an-account {
     line-height: 1.875rem;
     .step {

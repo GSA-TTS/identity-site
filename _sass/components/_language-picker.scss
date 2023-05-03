@@ -1,3 +1,6 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+
 .language-picker {
   position: relative;
   width: auto;
@@ -6,7 +9,7 @@
     @include u-bg('primary-lightest');
     @include u-border(1px, 'primary-light');
     @include u-radius($theme-button-border-radius);
-    margin: .25rem 0 0;
+    margin: 0.25rem 0 0;
     overflow: visible;
     padding: 0;
     position: absolute;
@@ -38,17 +41,17 @@
   padding: units(1.5);
   padding-right: units(3);
 
-  &.usa-accordion__button[aria-expanded="false"],
-  &.usa-accordion__button[aria-expanded="true"] {
-    background-size: .8125rem;
+  &.usa-accordion__button[aria-expanded='false'],
+  &.usa-accordion__button[aria-expanded='true'] {
+    background-size: 0.8125rem;
   }
 
-  &.usa-accordion__button[aria-expanded="false"] {
-    background-image: url(../img/angle-arrow-down-primary.svg);
+  &.usa-accordion__button[aria-expanded='false'] {
+    background-image: url(../img/angle-arrow-down.svg);
   }
 
-  &.usa-accordion__button[aria-expanded="true"] {
-    background-image: url(../img/angle-arrow-up-primary.svg);
+  &.usa-accordion__button[aria-expanded='true'] {
+    background-image: url(../img/angle-arrow-up.svg);
   }
 }
 

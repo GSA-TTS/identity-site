@@ -1,13 +1,16 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+
 #our-partners {
   line-height: $line-height;
 }
 
 .container.who-uses-login {
-  line-height: 1.875rem; 
+  line-height: 1.875rem;
 
   .partners {
-    background: url(../img/who-uses-login/who-uses-illo-partners/who-uses-illo-partners.svg)
-      left center no-repeat;
+    background: url(../img/who-uses-login/who-uses-illo-partners/who-uses-illo-partners.svg) left
+      center no-repeat;
     padding: 3rem 0 3rem 40%;
   }
 
@@ -22,14 +25,12 @@
       line-height: $line-height;
 
       &:first-child {
-        background: url(../img/who-uses-login/icon-shield/icon-shield.svg) left
-          top no-repeat;
+        background: url(../img/who-uses-login/icon-shield/icon-shield.svg) left top no-repeat;
         padding: 0 2rem 0 3rem;
       }
 
       &:last-child {
-        background: url(../img/homepage/icon-partner/icon-partners.svg) 0.4rem -0.5rem
-          no-repeat;
+        background: url(../img/homepage/icon-partner/icon-partners.svg) 0.4rem -0.5rem no-repeat;
         border-left: $border-style;
         margin-left: -0.75rem;
         padding: 0 2rem 0 4rem;
@@ -47,7 +48,7 @@
   margin-bottom: 5rem;
 }
 
-@include at-media-max("desktop") {
+@include at-media-max('desktop') {
   .container.who-uses-login {
     h2 {
       margin-top: 0;

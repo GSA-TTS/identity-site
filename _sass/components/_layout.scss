@@ -1,3 +1,7 @@
+@use 'uswds-core' as *;
+@use '../colors' as *;
+@use '../mixins/all' as *;
+
 main {
   background: white;
 }

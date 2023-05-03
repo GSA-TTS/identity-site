@@ -15,6 +15,7 @@ RSpec.describe '_site' do
       .png
       .svg
       .ttf
+      .webp
       .woff
       .woff2
       .xml
