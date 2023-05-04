@@ -11,7 +11,7 @@ de primer nivel para igualar.
 
 Somos un primer equipo remoto con oficinas en DC, y tenemos compañeros de equipo que trabajan en todo el país.
 
-Si tiene alguna pregunta, comuníquese con nuestro equipo de talentos en [jointts@gsa.gov](jointts@gsa.gov).
+Si tiene alguna pregunta, comuníquese con nuestro equipo de talentos en [jointts@gsa.gov](mailto:jointts@gsa.gov).
 
 ## Posiciones abiertas
 
