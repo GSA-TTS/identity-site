@@ -23,7 +23,7 @@ Siga estos pasos para crear su cuenta de Login.gov.
 
    Como una capa adicional de protección, Login.gov requiere que establezca un método de autenticación para mantener su cuenta segura. A esto se le denomina autenticación de varios factores.
 
-   Le recomendamos que tenga más de un método de autentificación en su cuenta. Puede elegir entre varias opciones de autentificación.
+   Le recomendamos que tenga más de un método de autenticación en su cuenta. Puede elegir entre varias opciones de autenticación.
 
    **Más seguro:**
 
