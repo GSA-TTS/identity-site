@@ -264,6 +264,13 @@ nav:
   help_center: Help center
   home: Home
   implementation: Implementation
+  join_us:
+    title: Join us
+    sections:
+      - name: Open positions
+        url: '#open-positions'
+      - name: How to apply
+        url: '#how-to-apply'
   menu: Menu
   overview: Overview
   playbook: Playbook

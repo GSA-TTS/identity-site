@@ -267,6 +267,13 @@ nav:
   help_center: Centre d'aide
   home: Accueil
   implementation: Mise en œuvre
+  join_us:
+    title: Rejoignez nous
+    sections:
+      - name: Postes ouverts
+        url: '#postes-ouverts'
+      - name: Comment s'inscrire
+        url: '#comment-sinscrire'
   menu: Menu
   overview: Aperçu
   playbook: Guide de mise en œuvre

@@ -270,6 +270,13 @@ nav:
   help_center: Centro de ayuda
   home: Inicio
   implementation: Implementación
+  join_us:
+    title: Únete a nuestro equipo
+    sections:
+      - name: Posiciones abiertas
+        url: '#posiciones-abiertas'
+      - name: Cómo aplicar
+        url: '#cómo-aplicar'
   menu: Menú
   overview: Resumen
   playbook: Manual
