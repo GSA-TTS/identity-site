@@ -8,7 +8,7 @@ Siga estos pasos para crear su cuenta de Login.gov.
 
 {: .number-list}
 
-1. Primero, ingrese su correo electrónico en <https://secure.login.gov/sign_up/enter_email>.
+1. Primero, ingrese su correo electrónico en <https://secure.login.gov/es/sign_up/enter_email>.
 
    Elija una dirección de correo electrónico a la que siempre pueda tener acceso. Una vez que se cree su cuenta, puede agregar una dirección de correo electrónico adicional — como una dirección de correo electrónico laboral o una dirección personal alternativa— para tener acceso a ella.
 2. Haga clic en el botón **“Enviar”**.
