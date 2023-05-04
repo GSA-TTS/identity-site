@@ -1,8 +1,8 @@
 ---
-category: get-started
-order: 1
-permalink: /fr/help/get-started/create-your-account/
 title: Créez votre compte
+category: get-started
+permalink: /fr/help/get-started/create-your-account/
+order: 1
 ---
 Suivez les étapes suivantes pour créer votre compte Login.gov.
 
