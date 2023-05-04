@@ -18,25 +18,13 @@ redirect_from:
   - /help/authentication-methods/
   - /en/help/get-started/authentication-options/
 ---
-In addition to your password, Login.gov requires that you set up at least one secondary authentication method to keep your account secure. This is two-factor authentication (2FA). We use 2FA as an added layer of protection to secure your information.
+In addition to your password, Login.gov requires that you set up at least one authentication method to keep your account secure. This is multifactor authentication (MFA). We use MFA as an added layer of protection to secure your information.
 
-**Secondary authentication**
-We encourage you to add two methods for authentication to your account. If you lose access to your primary authentication method (i.e. losing your phone), you’ll have a second option to use to get access to your account. Login.gov is unable to grant you access to your account if you get locked out and/or lose your authentication method. If you get locked out, you’ll have to delete your account and create a new one.
+**Authentication methods**
+We encourage you to add two authentication methods to your account. If you lose access to your primary authentication method (e.g. losing your phone), you’ll have a second option to use to get access to your account. Login.gov is unable to grant you access to your account if you get locked out and/or lose your authentication method. If you get locked out, you’ll have to delete your account and create a new one.
 
 **Security**
 Although you can choose from several authentication options, some authentication methods such as Security Keys, PIV/CAC cards and authentication applications are more secure against phishing and theft.
-
-## Face or touch unlock 
-
-<small class="display-block margin-top-neg-2"><em>(The option to add this authentication method is temporarily unavailable)</em></small>
-
-Face or touch unlock uses either facial recognition or fingerprints to sign in to your Login.gov account. This option is resistant to phishing. 
-
-You can only use face or touch unlock on a device that supports this feature. You will not see this option in the list of authentication options if your device does not have this capability. We do not store your fingerprints or images. 
-
-Since face or touch unlock is specific to the device and browser, you’ll need to use the same device and browser in the future to sign in using this authentication method. You are required to give your device a nickname to help you remember which device was used. 
-
-We strongly recommend setting up a second authentication method in case you ever change or lose your device. If you lose or change your device and do not have an alternate authentication method selected, you’ll have to delete your account and start over.
 
 ## Authentication application
 
@@ -105,3 +93,15 @@ If you do not have access to a phone, authentication application, security key, 
 When you create your account, you will reach the “Secure your account” page. This is where you must choose your primary authentication method. If you do not have access to any of the other options, select “Backup codes” and click “Continue.”
 
 On the “Add another method” page, select “I don’t have any of the above” and click “Continue.”
+
+## Face or touch unlock 
+
+<small class="display-block margin-top-neg-2"><em>(The option to add this authentication method is temporarily unavailable)</em></small>
+
+Face or touch unlock uses either facial recognition or fingerprints to sign in to your Login.gov account. This option is resistant to phishing. 
+
+You can only use face or touch unlock on a device that supports this feature. You will not see this option in the list of authentication options if your device does not have this capability. We do not store your fingerprints or images. 
+
+Since face or touch unlock is specific to the device and browser, you’ll need to use the same device and browser in the future to sign in using this authentication method. You are required to give your device a nickname to help you remember which device was used. 
+
+We strongly recommend setting up a second authentication method in case you ever change or lose your device. If you lose or change your device and do not have an alternate authentication method selected, you’ll have to delete your account and start over.
