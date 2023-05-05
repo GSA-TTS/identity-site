@@ -55,10 +55,6 @@ Login.gov requires security keys that meet the [FIDO (Fast Identity Online) stan
 
 To use this secure option for Login.gov authentication, plug the key into a USB port and assign the key a name to identify it with your Login.gov account. The next step will ask you to activate your key. This is generally done by pressing a button on the key itself.
 
-## PIV or CAC for federal government employees and military
-
-Physical PIV (personal identity verification) cards or CACs (common access cards) are secure options for federal government employees and military personnel. These cards, with encrypted chip technology, are resistant to phishing and difficult to hack if stolen.
-
 ## Text message / Phone call
 
 Text messages/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers, and other attacks. 
@@ -83,6 +79,10 @@ You can resend a one-time code by selecting using the "resend code" button
 Backup codes are an accessible option for users who do not have access to a phone. However, backup codes are the least secure option for two-factor authentication. Backup codes must be printed or written down which makes them more vulnerable to theft and phishing.
 
 If you select this less secure option, Login.gov will generate a set of ten codes. After you sign in with your username and password, you will be prompted for a code. Each code may be used only once. When the tenth code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of care as you would your password.
+
+## PIV or CAC for federal government employees and military
+
+Physical PIV (personal identity verification) cards or CACs (common access cards) are secure options for federal government employees and military personnel. These cards, with encrypted chip technology, are resistant to phishing and difficult to hack if stolen.
 
 ## No phone or other authentication method
 

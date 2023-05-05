@@ -16,7 +16,7 @@ redirect_from:
   - /es/help/authentication-methods/which-authentication-method-should-i-use/
   - /es/help/authentication-methods/
 ---
-Además de su contraseña, es necesario que usted configure por lo menos un método de autenticación en Login.gov con el fin de mantener su cuenta segura. Se trata de una autenticación de varios factores. Usamos la autenticación de varios factores como un filtro de seguridad adicional para proteger su información.
+Además de su contraseña, es necesario que usted configure por lo menos un método de autenticación en Login.gov con el fin de mantener su cuenta segura. Se trata de autenticación multifactor (MFA). Usamos la autenticación multifactor como un filtro de seguridad adicional para proteger su información.
 
 **Métodos de autenticación**
 Le recomendamos que añada dos métodos de autenticación a su cuenta. Si pierde el acceso a su método de autenticación principal (por ejemplo, si pierde su teléfono), tendrá una segunda opción para acceder a su cuenta. Login.gov no podrá concederle acceso a su cuenta si se bloquea y/o pierde su método de autenticación. Si se bloquea, tendrá que eliminar su cuenta y crear una nueva.
@@ -53,10 +53,6 @@ Login.gov solo permite usar llaves que cumplan con los estándares de [FIDO (Fas
 
 Para utilizar esta opción de seguridad como método de autenticación en Login.gov, conecte la llave a un puerto USB y asígnele un nombre para identificarla con su cuenta de Login.gov. En el siguiente paso se le pedirá que active su llave. Esto normalmente se hace presionando un botón en la propia llave.
 
-## Tarjetas PIV o CAC para empleados del Gobierno Federal y militares
-
-Las tarjetas físicas de PIV (Verificación de Identidad Personal) y las CAC (Tarjetas de Acceso Común) son opciones seguras para empleados del Gobierno Federal y el personal militar. Estas tarjetas, con tecnología de chip encriptado, son muy seguras ante el phishing y resultan difíciles de jaquear en caso de que sean robadas.
-
 ## Mensajes de texto y llamadas telefónicas
 
 Los mensajes de texto y las llamadas telefónicas resultan prácticos, pero son extremadamente vulnerables ante robos, jaqueos y otros ataques.
@@ -81,6 +77,10 @@ Puede volver a enviar un código de un solo uso seleccionando mediante el botón
 Los códigos de recuperación son una opción accesible para los usuarios que no cuentan con un teléfono; sin embargo, son la opción menos segura para la autenticación en dos pasos. Los códigos de recuperación deben imprimirse o escribirse, lo que los hace más vulnerables ante el robo y el phishing.
 
 Si usted selecciona esta opción menos segura, Login.gov generará un conjunto de diez códigos. Después de que inicie sesión con su nombre de usuario y contraseña, se le pedirá un código. Cada código solo se puede usar una vez. Cuando haya utilizado los diez códigos, se le pedirá que descargue una nueva lista. Proteja sus códigos de recuperación tanto como su contraseña.
+
+## Tarjetas PIV o CAC para empleados del Gobierno Federal y militares
+
+Las tarjetas físicas de PIV (Verificación de Identidad Personal) y las CAC (Tarjetas de Acceso Común) son opciones seguras para empleados del Gobierno Federal y el personal militar. Estas tarjetas, con tecnología de chip encriptado, son muy seguras ante el phishing y resultan difíciles de jaquear en caso de que sean robadas.
 
 ## Sin teléfono u otro método de autenticación
 
