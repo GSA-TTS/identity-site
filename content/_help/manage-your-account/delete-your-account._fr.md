@@ -15,9 +15,8 @@ redirect_from:
   **Si vous supprimez votre compte:**
 * Nous supprimerons votre adresse courriel, votre mot de passe et votre numéro de téléphone.
 * Vous ne pourrez plus accéder de manière sécurisée aux agences partenaires qui exigent un compte Login.gov.
-
-Après la suppression de votre compte, vous ne pourrez plus accéder aux applications gouvernementales auxquelles vous pouvez accéder
-normalement en utilisant votre compte Login.gov. Vous ne perdrez pas vos informations dans ces applications, mais vous aurez besoin d'un * compte Login.gov pour pouvoir vous connecter à ces applications.
+* Vous ne pourrez plus accéder aux applications gouvernementales auxquelles vous pouvez accéder normalement en utilisant votre compte Login.gov
+* Vous ne perdrez pas vos informations dans ces applications, mais vous aurez besoin d'un compte Login.gov pour pouvoir vous connecter à ces applications
 
 **Si vous avez accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:**
 
@@ -31,6 +30,7 @@ normalement en utilisant votre compte Login.gov. Vous ne perdrez pas vos informa
 7. Saisissez votre mot de passe pour confirmer votre souhait de supprimer le compte.
 
 **Si vous n'avez pas accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:**
+
 Par mesure de sécurité, Login.gov impose un processus en 2 étapes et une période d'attente de 24 heures, si vous n'avez plus accès à vos méthodes d'authentification et avez besoin de supprimer votre compte.
 
 {: .number-list}

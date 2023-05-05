@@ -12,7 +12,8 @@ order: 2
   **Si elimina su cuenta:**
 * Eliminaremos su dirección de correo electrónico, contraseña y número de teléfono
 * Usted no podrá acceder de forma segura a las agencias asociadas que requieren una cuenta de Login.gov
-  Después de que elimine su cuenta, no podrá acceder a las aplicaciones gubernamentales a las que suele acceder con su cuenta de Login.gov. Sin embargo, no perderá su información en esas aplicaciones, pero necesitará una cuenta nueva de Login.gov para poder iniciar sesión en esas aplicaciones.
+* Usted no podrá acceder a las aplicaciones gubernamentales a las que suele acceder con su cuenta de Login.gov 
+* Usted no perderá su información en esas aplicaciones, pero necesitará una cuenta nueva de Login.gov para poder iniciar sesión en esas aplicaciones
 
 **Si tiene acceso a sus métodos de autenticación, realice los siguientes pasos para eliminar su cuenta:**
 

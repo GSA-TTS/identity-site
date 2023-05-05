@@ -19,8 +19,8 @@ redirect_from:
 
 * We'll delete your email address, password, and phone number
 * You won't be able to securely access partner agencies who require a Login.gov account
-
-After you delete your account, you will not be able to sign in to the government applications that you normally use your Login.gov account to access. You will not lose your information in those applications, but you will need a new Login.gov account to be able to sign in to those applications.
+*﻿ You will not be able to sign in to the government applications that you normally use your Login.gov account to access
+*﻿ You will not lose your information in those applications, but you will need a new Login.gov account to be able to sign in to those applications
 
 **If you do have access to your authentication methods, follow these steps to delete your account:**
 
