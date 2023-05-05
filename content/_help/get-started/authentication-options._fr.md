@@ -24,17 +24,6 @@ Nous vous recommandons fortement d'ajouter deux méthodes d'authentification à 
 **Sécurité**
 Bien que vous avez le choix entre plusieurs options d'authentification, certaines méthodes d'authentification telles que les clés de sécurité, les cartes à puce PIV/CAC et les applications d'authentification sont plus efficaces contre les tentatives d'hameçonnage et le vol.
 
-## Déverrouillage facial ou tactile
-<small class="display-block margin-top-neg-2"><em>(L'option permettant d'ajouter cette méthode d'authentification est temporairement indisponible)</em></small>
-
-Le déverrouillage facial ou tactile utilise la reconnaissance faciale ou les empreintes digitales pour vous connecter à votre compte Login.gov. Cette option est protégée contre le hameçonnage.
-
-Vous pouvez uniquement utiliser le déverrouillage facial ou tactile sur un appareil qui prend en charge cette fonctionnalité. Cette option ne sera pas disponible dans la liste des méthodes d'authentification si votre appareil ne dispose pas de cette fonction. Nous ne conservons pas vos empreintes digitales ni vos images.
-
-Le déverrouillage facial ou tactile étant spécifique à l'appareil et au navigateur, vous devrez utiliser le même appareil et le même navigateur à l'avenir pour vous connecter en utilisant cette méthode d'authentification. Vous devrez donner un nom à votre appareil pour vous aider à vous souvenir de l'appareil utilisé.
-
-Nous vous recommandons vivement de configurer une deuxième méthode d'authentification au cas où vous changeriez ou perdriez votre appareil. Si vous perdez ou changez votre appareil et que vous n'avez pas sélectionné de méthode d'authentification alternative, vous devrez supprimer votre compte et en créer un nouveau.
-
 ## Applications d'authentification
 
 Les applications d'authentification se téléchargent sur votre appareil et génèrent des codes de sécurité à six chiffres vous permettant de vous connecter à vos comptes. Bien que les applications d'authentification ne soient pas protégées en cas de perte ou de vol de votre appareil, cette méthode offre plus de sécurité que les appels téléphoniques ou les messages texte contre les tentatives d'hameçonnage, de piratage ou d'interception.
@@ -102,3 +91,14 @@ Si vous ne pouvez pas utiliser de téléphone, d'application d'authentification,
 Lors de la création de votre compte, vous accéderez à la page « Sécuriser votre compte ». C'est à cet endroit que vous devez choisir votre principale méthode d'authentification. Si vous ne pouvez utiliser aucune des autres options, sélectionnez « Codes de secours » et cliquez sur « Continuer ».
 
 Sur la page « Ajouter une autre méthode », sélectionnez « Je ne dispose d'aucune des options ci-dessus » et cliquez sur « Continuer ».
+
+## Déverrouillage facial ou tactile
+<small class="display-block margin-top-neg-2"><em>(L'option permettant d'ajouter cette méthode d'authentification est temporairement indisponible)</em></small>
+
+Le déverrouillage facial ou tactile utilise la reconnaissance faciale ou les empreintes digitales pour vous connecter à votre compte Login.gov. Cette option est protégée contre le hameçonnage.
+
+Vous pouvez uniquement utiliser le déverrouillage facial ou tactile sur un appareil qui prend en charge cette fonctionnalité. Cette option ne sera pas disponible dans la liste des méthodes d'authentification si votre appareil ne dispose pas de cette fonction. Nous ne conservons pas vos empreintes digitales ni vos images.
+
+Le déverrouillage facial ou tactile étant spécifique à l'appareil et au navigateur, vous devrez utiliser le même appareil et le même navigateur à l'avenir pour vous connecter en utilisant cette méthode d'authentification. Vous devrez donner un nom à votre appareil pour vous aider à vous souvenir de l'appareil utilisé.
+
+Nous vous recommandons vivement de configurer une deuxième méthode d'authentification au cas où vous changeriez ou perdriez votre appareil. Si vous perdez ou changez votre appareil et que vous n'avez pas sélectionné de méthode d'authentification alternative, vous devrez supprimer votre compte et en créer un nouveau.
