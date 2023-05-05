@@ -18,7 +18,7 @@ redirect_from:
 ---
 En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d'authentification pour assurer la sécurité de votre compte. Il s'agit d'une authentification multifactorielle (AMF). Nous utilisons l'AMF comme un niveau de protection supplémentaire pour sécuriser vos informations.
 
-**Authentification secondaire**
+**Méthodes d'authentification**
 Nous vous recommandons fortement d'ajouter deux méthodes d'authentification à votre compte. Si vous perdez l'accès à votre première méthode d'authentification (par exemple, si vous perdez votre téléphone), vous aurez la possibilité d'utiliser la seconde méthode pour accéder à votre compte. Login.gov n'est pas en mesure de vous donner accès à votre compte si vous êtes bloqué et/ou si vous oubliez votre méthode d'authentification. Si vous êtes bloqué, vous devrez supprimer votre compte et en créer un nouveau.
 
 **Sécurité**
