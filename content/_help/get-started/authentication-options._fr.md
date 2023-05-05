@@ -53,10 +53,6 @@ Login.gov exige des clés de sécurité répondant aux normes de la [FIDO (« 
 
 Pour utiliser cette option sécurisée pour vous authentifier sur Login.gov, connectez la clé à un port USB et attribuez-lui un nom pour pouvoir l'identifier avec votre compte Login.gov. L'étape suivante vous invitera à activer votre clé. Cela se fait généralement en appuyant sur un bouton présent sur la clé.
 
-## Cartes PIV ou CAC pour les employés du gouvernement et les militaires
-
-Les cartes physiques PIV (vérification d'identité personnelle) ou CAC (cartes d'accès communes) sont des options sécurisées pour les employés du gouvernement et le personnel militaire. Ces cartes, dotées de puces cryptées, résistent aux tentatives d'hameçonnage et sont difficiles à pirater en cas de vol.
-
 ## Messages texte/appels téléphoniques
 
 Les messages texte/SMS ou les appels téléphoniques sont pratiques, mais sont extrêmement vulnérables face au vol, au piratage et à d'autres attaques.
@@ -81,6 +77,10 @@ Vous pouvez renvoyer un code à usage unique en sélectionnant le bouton « Renv
 Les codes de secours sont une option accessible aux utilisateurs ne disposant pas d'un téléphone. Cependant, les codes de secours sont l'option la moins sécurisée pour une authentification à deux facteurs. Les codes de secours doivent être imprimés ou écrits, ce qui les rend plus vulnérables au vol et aux tentatives d'hameçonnage.
 
 Si vous sélectionnez cette option moins sécurisée, Login.gov générera un ensemble de dix codes. Après vous être connecté avec votre nom d'utilisateur et votre mot de passe, un code vous sera demandé. Chaque code ne peut être utilisé qu'une seule fois. Lorsque le dixième code aura été utilisé, vous serez invité à télécharger une nouvelle liste. Traitez vos codes de secours avec les mêmes précautions que pour votre mot de passe.
+
+## Cartes PIV ou CAC pour les employés du gouvernement et les militaires
+
+Les cartes physiques PIV (vérification d'identité personnelle) ou CAC (cartes d'accès communes) sont des options sécurisées pour les employés du gouvernement et le personnel militaire. Ces cartes, dotées de puces cryptées, résistent aux tentatives d'hameçonnage et sont difficiles à pirater en cas de vol.
 
 ## Pas de téléphone ni d’autre méthode d'authentification
 
