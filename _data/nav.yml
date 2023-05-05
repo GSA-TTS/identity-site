@@ -5,6 +5,7 @@ default:
       developer_guide: 'https://developers.login.gov'
     learn:
       about_us: '$LOCALE_BASE_URL/about-us/'
+      join_us: "$LOCALE_BASE_URL/join/"
       policies: '$LOCALE_BASE_URL/policy/'
       accessibility: '$LOCALE_BASE_URL/accessibility/'
     support:
