@@ -16,24 +16,13 @@ redirect_from:
   - /es/help/authentication-methods/which-authentication-method-should-i-use/
   - /es/help/authentication-methods/
 ---
-Además de su contraseña, es necesario que usted configure por lo menos un método de autenticación secundario en Login.gov con el fin de mantener su cuenta segura. Se trata de una autenticación en dos pasos (2FA, por sus siglas en inglés). Usamos la autenticación en dos pasos como un filtro de seguridad adicional para proteger su información.
+Además de su contraseña, es necesario que usted configure por lo menos un método de autenticación en Login.gov con el fin de mantener su cuenta segura. Se trata de autenticación multifactor (MFA). Usamos la autenticación multifactor como un filtro de seguridad adicional para proteger su información.
 
-**Autenticación secundaria**
+**Métodos de autenticación**
 Le recomendamos que añada dos métodos de autenticación a su cuenta. Si pierde el acceso a su método de autenticación principal (por ejemplo, si pierde su teléfono), tendrá una segunda opción para acceder a su cuenta. Login.gov no podrá concederle acceso a su cuenta si se bloquea y/o pierde su método de autenticación. Si se bloquea, tendrá que eliminar su cuenta y crear una nueva.
 
 **Seguridad**
-Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como las llaves de seguridad, las tarjetas de Verificación de Identidad Personal (PIV), las Tarjetas de Acceso Común (CAC ) y las aplicaciones de autenticación, son más seguros contra el phishing y el robo.
-
-## Desbloqueo facial o táctil
-<small class="display-block margin-top-neg-2"><em>(La opción de agregar este método de autenticación no está disponible por el momento)</em></small>
-
-El desbloqueo facial o táctil emplea reconocimiento facial o huellas dactilares para iniciar sesión en su cuenta de Login.gov. Esta opción es a prueba de suplantación de identidad ("phishing").
-
-Solo puede usar el desbloqueo facial o táctil en un dispositivo compatible con esta función. No verá esta opción en la lista de opciones de autentificación si su dispositivo no tiene esta función. No almacenamos sus huellas dactilares o imágenes.
-
-Dado que el desbloqueo facial o táctil es inherente al dispositivo y al navegador, tendrá que usar el mismo dispositivo y navegador en futuras ocasiones para iniciar sesión con este método de autentificación. Debe darle un nombre a su dispositivo para que recuerde qué dispositivo ha utilizado.
-
-Le recomendamos mucho configurar un segundo método de autentificación por si cambia o pierde su dispositivo. Si pierde o cambia su dispositivo y no tiene activado un método de autentificación alternativo, tendrá que eliminar su cuenta y empezar de cero.
+Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como las llaves de seguridad, las tarjetas de Verificación de Identidad Personal (PIV), las Tarjetas de Acceso Común (CAC) y las aplicaciones de autenticación, son más seguros contra el phishing y el robo.
 
 ## Aplicaciones de autenticación
 
@@ -64,10 +53,6 @@ Login.gov solo permite usar llaves que cumplan con los estándares de [FIDO (Fas
 
 Para utilizar esta opción de seguridad como método de autenticación en Login.gov, conecte la llave a un puerto USB y asígnele un nombre para identificarla con su cuenta de Login.gov. En el siguiente paso se le pedirá que active su llave. Esto normalmente se hace presionando un botón en la propia llave.
 
-## Tarjetas PIV o CAC para empleados del Gobierno Federal y militares
-
-Las tarjetas físicas de PIV (Verificación de Identidad Personal) y las CAC (Tarjetas de Acceso Común) son opciones seguras para empleados del Gobierno Federal y el personal militar. Estas tarjetas, con tecnología de chip encriptado, son muy seguras ante el phishing y resultan difíciles de jaquear en caso de que sean robadas.
-
 ## Mensajes de texto y llamadas telefónicas
 
 Los mensajes de texto y las llamadas telefónicas resultan prácticos, pero son extremadamente vulnerables ante robos, jaqueos y otros ataques.
@@ -93,6 +78,10 @@ Los códigos de recuperación son una opción accesible para los usuarios que no
 
 Si usted selecciona esta opción menos segura, Login.gov generará un conjunto de diez códigos. Después de que inicie sesión con su nombre de usuario y contraseña, se le pedirá un código. Cada código solo se puede usar una vez. Cuando haya utilizado los diez códigos, se le pedirá que descargue una nueva lista. Proteja sus códigos de recuperación tanto como su contraseña.
 
+## Tarjetas PIV o CAC para empleados del Gobierno Federal y militares
+
+Las tarjetas físicas de PIV (Verificación de Identidad Personal) y las CAC (Tarjetas de Acceso Común) son opciones seguras para empleados del Gobierno Federal y el personal militar. Estas tarjetas, con tecnología de chip encriptado, son muy seguras ante el phishing y resultan difíciles de jaquear en caso de que sean robadas.
+
 ## Sin teléfono u otro método de autenticación
 
 Si usted no cuenta con un teléfono, una aplicación de autenticación, una llave de seguridad o cualquier otra opción de autenticación, solo puede configurar su cuenta con códigos de recuperación.
@@ -102,3 +91,14 @@ Si usted no cuenta con un teléfono, una aplicación de autenticación, una llav
 Al crear su cuenta, llegará a la página "Proteja su cuenta". Allí es donde debe elegir el método de autenticación principal. Si no cuenta con ninguna de las otras opciones, seleccione "Códigos de recuperación" y haga clic en "Continuar".
 
 En la página "Añadir otro método", seleccione "No cuento con ninguno de los anteriores" y haga clic en "Continuar".
+
+## Desbloqueo facial o táctil
+<small class="display-block margin-top-neg-2"><em>(La opción de agregar este método de autenticación no está disponible por el momento)</em></small>
+
+El desbloqueo facial o táctil emplea reconocimiento facial o huellas dactilares para iniciar sesión en su cuenta de Login.gov. Esta opción es a prueba de suplantación de identidad ("phishing").
+
+Solo puede usar el desbloqueo facial o táctil en un dispositivo compatible con esta función. No verá esta opción en la lista de opciones de autentificación si su dispositivo no tiene esta función. No almacenamos sus huellas dactilares o imágenes.
+
+Dado que el desbloqueo facial o táctil es inherente al dispositivo y al navegador, tendrá que usar el mismo dispositivo y navegador en futuras ocasiones para iniciar sesión con este método de autentificación. Debe darle un nombre a su dispositivo para que recuerde qué dispositivo ha utilizado.
+
+Le recomendamos mucho configurar un segundo método de autentificación por si cambia o pierde su dispositivo. Si pierde o cambia su dispositivo y no tiene activado un método de autentificación alternativo, tendrá que eliminar su cuenta y empezar de cero.
