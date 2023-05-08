@@ -1,7 +1,7 @@
 @use 'uswds-core' with (
   $theme-utility-breakpoints: (
     'tablet': true,
-    'desktop': true
+    'desktop': true,
   )
 );
 @forward 'uswds';

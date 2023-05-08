@@ -146,6 +146,16 @@ jobs:
           name: Typecheck JavaScript
           command: make typecheck-js
 
+  lint-css:
+    docker:
+      - image: cimg/ruby:2.7-node
+    steps:
+      - checkout
+      - install-dependencies
+      - run:
+          name: Lint stylesheets
+          command: make lint-css
+
   check-optimized-assets:
     docker:
       - image: cimg/ruby:3.1-node
