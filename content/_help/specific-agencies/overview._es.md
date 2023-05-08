@@ -29,7 +29,8 @@ Login.gov es únicamente para acceder a la cuenta e iniciar sesión. Esta misma 
 Nuestro equipo de atención al cliente está disponible para ayudarle a contestar las preguntas sobre Login.gov.
 
 ## Contacte con Login.gov para:
-* Ayudarle a crear una nueva cuenta en Login.gov * Compartir información sobre las modalidades de autenticación
+* Ayudarle a crear una nueva cuenta en Login.gov 
+* Compartir información sobre las modalidades de autenticación
 * Ayudarle a resolver los inconvenientes por los que no puede acceder a su cuenta
 * Proporcione indicaciones para restablecer su contraseña o eliminar su cuenta
 
