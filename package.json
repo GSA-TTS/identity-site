@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@18f/identity-build-sass": "^1.1.0",
-    "@18f/identity-design-system": "^7.0.0",
+    "@18f/identity-design-system": "^7.0.1",
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-typescript": "^7.18.6",
