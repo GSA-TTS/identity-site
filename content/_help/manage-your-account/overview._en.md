@@ -2,8 +2,8 @@
 layout: help
 title: Manage your account
 category: manage-your-account
-meta_title: Overview
 permalink: /help/manage-your-account/overview/
+meta_title: Manage your account
 order: 0
 redirect_from:
   - /help/changing-settings/add-or-remove-email-address/
