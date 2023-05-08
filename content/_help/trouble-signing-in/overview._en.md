@@ -3,7 +3,7 @@ layout: help
 title: Trouble signing in?
 category: trouble-signing-in
 permalink: /help/trouble-signing-in/overview/
-meta_title: Trouble signing in
+meta_title: Trouble signing in?
 order: 0
 redirect_from:
   - /en/help/trouble-signing-in/overview/
