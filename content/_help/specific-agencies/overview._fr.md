@@ -29,7 +29,8 @@ Login.gov est réservé à l'accès au compte et à l'ouverture de session. Ce c
 Notre équipe d'assistance à la clientèle est là pour vous aider à répondre aux questions de Login.gov.
 
 ## Contactez Login.gov to:
-* Vous aider à créer un compte Login.gov * Partager des informations sur les possibilités d'authentification
+* Vous aider à créer un compte Login.gov
+* Partager des informations sur les possibilités d'authentification
 * Vous aider à résoudre les raisons pour lesquelles vous ne pouvez pas accéder à votre compte
 * Vous fournir des instructions pour réinitialiser votre mot de passe ou supprimer votre compte
 
