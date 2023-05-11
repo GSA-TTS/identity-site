@@ -51,7 +51,7 @@ In addition to details about your consent stated elsewhere in these terms, by ac
 
 You further agree that you will NOT misrepresent your identity or any information you present in the Login.gov service, including through customer support channels.
 
-You also agree that you are bound by these terms and the \[Privacy Policy]({% link _policy/index._en.md %}), and other terms related to the Login.gov service.
+You also agree that you are bound by these terms and the \[Privacy Policy]({% link policy/index._en.md %}), and other terms related to the Login.gov service.
 
 We will post any changes to these terms to this page. If the changes affect our handling of your personal information or are otherwise deemed significant, we will notify you by email. If we cannot reach you by email, we reserve the right to contact you by other means, including postal mail. If at any time you no longer agree to these terms or any other relevant terms of the Login.gov service, you may close your account.
 
