@@ -90,9 +90,9 @@ Además de validar las pruebas de identidad que nos proporciona, verificamos que
 
 ## 5. Rescisión
 
-Puede cancelar su cuenta en cualquier momento a través de su perfil de cuenta. Además, en caso de fraude u otras vulneraciones de estas Normas de uso, podemos revocar el acceso a su cuenta. Si esto ocurre, seguiremos protegiendo la información de su cuenta de acuerdo con nuestra [Política de privacidad](/es/policy/) y el Aviso sobre el Sistema de Registro [aquí](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records).
+Puede cancelar su cuenta en cualquier momento a través de su perfil de cuenta. Además, en caso de fraude u otras vulneraciones de estas Normas de uso, podemos revocar el acceso a su cuenta. Si esto ocurre, seguiremos protegiendo la información de su cuenta de acuerdo con nuestra [Política de privacidad](/es/policy/) y el Aviso sobre el [Sistema de Registros](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records).
 
-En el improbable caso que se interrumpa el servicio Login.gov, la información de la cuenta se conservará sujeta a nuestra Notificación sobre el sistema de registros, en su versión modificada, a la que puede acceder [aquí](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records). De forma específica, la información de los usuarios, incluidos los perfiles, los archivos de acceso, los archivos de contraseñas, los archivos y extractos de registros de auditoría, los archivos de uso del sistema y los archivos de devolución de costos utilizados para evaluar los cargos por el uso del sistema se conservan de acuerdo con el Programa de Retención de Registros de la GSA, GRS 03.2.
+En el improbable caso de que el servicio de Login.gov sea interrumpido, la información de la cuenta se conservará sujeta a nuestra Notificación sobre el [Sistema de Registros](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records), en su versión modificada. De forma específica, la información de los usuarios, incluidos los perfiles, los archivos de acceso, los archivos de contraseñas, los archivos y extractos de registros de auditoría, los archivos de uso del sistema y los archivos de devolución de costos utilizados para evaluar los cargos por el uso del sistema se conservan de acuerdo con el Programa de Retención de Registros de la GSA, GRS 03.2.
 
 ## 6. Autoridades
 
@@ -108,7 +108,7 @@ Como sistema de autenticación y puerta de acceso a las aplicaciones federales, 
 
 ### 2. Atención al cliente
 
-La atención al cliente y los servicios de asistencia están siempre disponibles a través de [https://login.gov/es/contact/](https://login.gov/es/contact/). Cuando solicite asistencia al cliente, utilizaremos cualquier información que nos proporcione para responder a su pregunta o comentario, y podremos utilizar sus comentarios para mejorar nuestro servicio o para otros fines que consideremos oportunos, como por ejemplo para marketing. Al hacerlo, nunca revelaremos su información personal fuera del servicio Login.gov, excepto cuando lo exija la legislación aplicable o se indique en otra parte de estas condiciones.
+La atención al cliente y los servicios de asistencia están siempre disponibles a través de <https://login.gov/es/contact/>. Cuando solicite asistencia al cliente, utilizaremos cualquier información que nos proporcione para responder a su pregunta o comentario, y podremos utilizar sus comentarios para mejorar nuestro servicio o para otros fines que consideremos oportunos, como por ejemplo para marketing. Al hacerlo, nunca revelaremos su información personal fuera del servicio Login.gov, excepto cuando lo exija la legislación aplicable o se indique en otra parte de estas condiciones.
 
 ## 8. Responsabilidades de nuestros socios
 
@@ -124,7 +124,7 @@ El IRS requiere información en torno a los intentos de acceder a una cuenta o v
 
 Nunca compartiremos información personal identificable validada con un socio sin su consentimiento explícito, según lo exija la ley o según se indique de otro modo en estas Normas de uso. Usted puede revocar este consentimiento en cualquier momento, y nosotros revocaremos el acceso del socio a la información. No obstante, el socio podrá conservar esta información con sujeción a sus políticas de conservación de datos. El servicio Login.gov no recopila ninguna información que usted proporcione directamente al socio.
 
-Los posibles socios y otras partes interesadas pueden encontrar más información sobre el proceso de incorporación de socios [aquí](https://developers.login.gov/).
+Los posibles socios y otras partes interesadas pueden encontrar más información sobre el proceso de incorporación de socios en la [guía para desarrolladores](https://developers.login.gov/) de Login.gov.
 
 ## 9. Tarifas
 
@@ -160,4 +160,4 @@ El hecho que GSA no ejerza o haga valer cualquier derecho o disposición del pre
 
 ### 4. Ponerse en contacto con nosotros
 
-Si tiene alguna pregunta sobre estos términos o cualquier otro aspecto del servicio Login.gov, puede ponerse en contacto con nosotros en [https://login.gov/es/contact/](https://login.gov/es/contact/).
+Si tiene alguna pregunta sobre estos términos o cualquier otro aspecto del servicio Login.gov, puede ponerse en contacto con nosotros en <https://login.gov/es/contact/>.

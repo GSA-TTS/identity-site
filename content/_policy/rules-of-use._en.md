@@ -32,7 +32,7 @@ The Login.gov service protects your account by implementing strong security meas
 
 Some government applications that use Login.gov require you to verify your identity. This means that you must prove that you are who you say you are. That proof helps ensure that only the right people get access to sensitive information.
 
-You will only be asked to verify your identity the first time you sign into certain government applications. After you verify your identity with Login.gov for one government application, you usually don’t need to do it again for other government applications. When you sign into IRS.gov for the first time, however, you will always need to verify your identity even if you have already done so for another application. By providing the Login.gov service with the information needed to verify your account, you authorize it to use that information to conduct activities necessary to ensure your identity, including sharing information with certain third parties, namely identity proofing services. The Login.gov service requires those parties to hold your information confidentially and not to use it for other purposes, as detailed in our [privacy policy](/policy/).
+You will only be asked to verify your identity the first time you sign into certain government applications. After you verify your identity with Login.gov for one government application, you usually don’t need to do it again for other government applications. When you sign into IRS.gov for the first time, however, you will always need to verify your identity even if you have already done so for another application. By providing the Login.gov service with the information needed to verify your account, you authorize it to use that information to conduct activities necessary to ensure your identity, including sharing information with certain third parties, namely identity proofing services. The Login.gov service requires those parties to hold your information confidentially and not to use it for other purposes, as detailed in our [Privacy Policy](/policy/).
 
 The Login.gov service employs recognized security and privacy best practices.
 
@@ -96,7 +96,7 @@ In addition to validating the identity evidence you provide to us, we verify tha
 
 You can terminate your account at any time through your account profile. Additionally, in the event of fraud or other violations of these Rules of Use, we may revoke access to your account. If this occurs, we will still protect your account information consistent with our [Privacy Policy](/policy/) and [System of Records Notice](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records).
 
-In the unlikely event that the Login.gov service is discontinued, information on the account will be retained subject to our System of Records Notice, as amended, which you can access [here](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records). Specifically, user information, including profiles, log-in files, password files, audit trail files and extracts, system usage files, and cost-back files used to assess charges for system use are maintained in accordance with GSA’s Records Retention Schedule, GRS 03.2.
+In the unlikely event that the Login.gov service is discontinued, information on the account will be retained subject to our [System of Records Notice](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records), as amended. Specifically, user information, including profiles, log-in files, password files, audit trail files and extracts, system usage files, and cost-back files used to assess charges for system use are maintained in accordance with GSA’s Records Retention Schedule, GRS 03.2.
 
 ## 6. Authorities
 
@@ -112,7 +112,7 @@ As an authentication system and gateway to federal applications, we strive for h
 
 ### 2. Customer Support
 
-Customer support and help desk services are always available through [https://login.gov/contact/](https://login.gov/contact/). When you submit for customer support, we will use any information you provide to address your question or comment, and may use your feedback to improve our service or for other purposes as we see fit, such as for marketing. In doing so, we will never reveal your personal information outside of the Login.gov service except as required by applicable law or as stated elsewhere in these terms.
+Customer support and help desk services are always available through <https://login.gov/contact/>. When you submit for customer support, we will use any information you provide to address your question or comment, and may use your feedback to improve our service or for other purposes as we see fit, such as for marketing. In doing so, we will never reveal your personal information outside of the Login.gov service except as required by applicable law or as stated elsewhere in these terms.
 
 ## 8. Responsibilities of Our Partners
 
@@ -128,7 +128,7 @@ The IRS requires information surrounding attempts to access an account or verify
 
 We will never share validated personal identifiable information with a partner without your explicit consent, as required by law, or as otherwise stated in these Rules of Use. You may revoke this consent at any time, and we will revoke the partner’s access to the information. The partner may, however, retain this information subject to their data retention policies. The Login.gov service does not collect any information you provide directly to the partner.
 
-Prospective partners and other interested parties can find more information about the partner onboarding process [here](https://developers.login.gov/).
+Prospective partners and other interested parties can find more information about the partner onboarding process from the Login.gov [developer guide](https://developers.login.gov/).
 
 ## 9. Fees
 
