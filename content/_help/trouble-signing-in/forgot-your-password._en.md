@@ -24,13 +24,13 @@ Follow these steps to reset your password.
 7. Enter your new password.
 
    * To help prevent identity theft, consider strengthening your password by using: 
-   * Unique phrases that only you recognize 
-   * Multiple words with spaces to get to 12 characters 
-   * Numbers and special characters 
+     * Unique phrases that only you recognize 
+     * Multiple words with spaces to get to 12 characters 
+     * Numbers and special characters 
 
 
    * Your password must have 12 or more characters and avoid combinations such as:
-   * Common phrases or repeated characters, like abc or 111
-   * Parts of your email address or personal dates, like your birthday
-   * The same password, or parts of it, that you use for other accounts, such as your bank account or email
+     * Common phrases or repeated characters, like abc or 111
+     * Parts of your email address or personal dates, like your birthday
+     * The same password, or parts of it, that you use for other accounts, such as your bank account or email
 8. Click the “Change password” button.
