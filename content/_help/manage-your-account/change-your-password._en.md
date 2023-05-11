@@ -24,6 +24,8 @@ Follow these steps to change your Login.gov password.
    * Unique phrases that only you recognize 
    * Multiple words with spaces to get to 12 characters 
    * Numbers and special characters 
+
+
    * Your password must have 12 or more characters and avoid combinations such as:
    * Common phrases or repeated characters, like abc or 111
    * Parts of your email address or personal dates, like your birthday
