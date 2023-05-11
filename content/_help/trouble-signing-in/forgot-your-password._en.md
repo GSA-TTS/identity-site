@@ -11,19 +11,26 @@ redirect_from:
   - /help/signing-in/my-reset-password-link-is-invalid/
   - /en/help/trouble-signing-in/forgot-your-password/
 ---
-
 Follow these steps to reset your password.
 
 {: .number-list}
-1. Go to [https://secure.login.gov](https://secure.login.gov).
-1. Select the “Forgot your password?” link near the bottom of the page.
-1. On the next screen, enter your email address.
-1. Click the “Continue” button.
-1. Check your email for a message from Login.gov.
-1. Click the “Reset your password” button in the message. This will take you back to the Login.gov website.
-1. Enter your new password.
 
-    Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.
+1. Go to <https://secure.login.gov>.
+2. Select the “Forgot your password?” link near the bottom of the page.
+3. On the next screen, enter your email address.
+4. Click the “Continue” button.
+5. Check your email for a message from Login.gov.
+6. Click the “Reset your password” button in the message. This will take you back to the Login.gov website.
+7. Enter your new password.
 
-    Your Login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
-1. Click the “Change password” button.
+   * To help prevent identity theft, consider strengthening your password by using: 
+   * Unique phrases that only you recognize 
+   * Multiple words with spaces to get to 12 characters 
+   * Numbers and special characters 
+
+
+   * Your password must have 12 or more characters and avoid combinations such as:
+   * Common phrases or repeated characters, like abc or 111
+   * Parts of your email address or personal dates, like your birthday
+   * The same password, or parts of it, that you use for other accounts, such as your bank account or email
+8. Click the “Change password” button.
