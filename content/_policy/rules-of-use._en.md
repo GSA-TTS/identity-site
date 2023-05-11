@@ -32,7 +32,7 @@ The Login.gov service protects your account by implementing strong security meas
 
 Some government applications that use Login.gov require you to verify your identity. This means that you must prove that you are who you say you are. That proof helps ensure that only the right people get access to sensitive information.
 
-You will only be asked to verify your identity the first time you sign into certain government applications. After you verify your identity with Login.gov for one government application, you usually don’t need to do it again for other government applications. When you sign into IRS.gov for the first time, however, you will always need to verify your identity even if you have already done so for another application. By providing the Login.gov service with the information needed to verify your account, you authorize it to use that information to conduct activities necessary to ensure your identity, including sharing information with certain third parties, namely identity proofing services. The Login.gov service requires those parties to hold your information confidentially and not to use it for other purposes, as detailed in our [privacy policy]({% link _policy/privacy._en.md %}). 
+You will only be asked to verify your identity the first time you sign into certain government applications. After you verify your identity with Login.gov for one government application, you usually don’t need to do it again for other government applications. When you sign into IRS.gov for the first time, however, you will always need to verify your identity even if you have already done so for another application. By providing the Login.gov service with the information needed to verify your account, you authorize it to use that information to conduct activities necessary to ensure your identity, including sharing information with certain third parties, namely identity proofing services. The Login.gov service requires those parties to hold your information confidentially and not to use it for other purposes, as detailed in our [privacy policy](/policy). 
 
 The Login.gov service employs recognized security and privacy best practices.
 
@@ -51,7 +51,7 @@ In addition to details about your consent stated elsewhere in these terms, by ac
 
 You further agree that you will NOT misrepresent your identity or any information you present in the Login.gov service, including through customer support channels.
 
-You also agree that you are bound by these terms and the \[Privacy Policy]({% link /policy/index._en.md %}), and other terms related to the Login.gov service.
+You also agree that you are bound by these terms and the [Privacy Policy]({% link /policy/index._en.md %}), and other terms related to the Login.gov service.
 
 We will post any changes to these terms to this page. If the changes affect our handling of your personal information or are otherwise deemed significant, we will notify you by email. If we cannot reach you by email, we reserve the right to contact you by other means, including postal mail. If at any time you no longer agree to these terms or any other relevant terms of the Login.gov service, you may close your account.
 
