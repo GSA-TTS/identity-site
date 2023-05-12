@@ -12,7 +12,8 @@ redirect_from:
 * Vous réalisez que vous avez plusieurs comptes avec différentes adresses de courriel et vous souhaitez avoir un seul compte.
 * Vous ne pouvez plus accéder à votre compte et vous n'avez plus accès à vos méthodes d'authentification.
 * Vous n'avez plus besoin d'avoir un compte Login.gov.
-  **Si vous supprimez votre compte:**
+
+**Si vous supprimez votre compte:**
 * Nous supprimerons votre adresse courriel, votre mot de passe et votre numéro de téléphone.
 * Vous ne pourrez pas vous connecter aux agences partenaires qui requièrent un compte Login.gov.
 * Vous ne perdrez pas vos informations enregistrées auprès des agences partenaires, mais vous devrez créer un nouveau compte Login.gov.
@@ -40,5 +41,5 @@ Par mesure de sécurité, Login.gov impose un processus en 2 étapes et une pér
 5. Lisez toutes les informations attentivement pour vous assurer que la suppression de votre compte est la seule option qui s'offre à vous.
 6. Cliquez sur « Oui, continuer la suppression »
 7. Vous recevrez deux courriels.
-        *Le premier confirme que nous avons reçu votre demande. Votre compte n'est pas encore supprimé. Une action supplémentaire est nécessaire.*
-        Le deuxième courriel vous est envoyé 24 heures après le premier. Suivez les instructions énoncées dans le courriel pour terminer la suppression.
+* Le premier confirme que nous avons reçu votre demande. Votre compte n'est pas encore supprimé. Une action supplémentaire est nécessaire.
+* Le deuxième courriel vous est envoyé 24 heures après le premier. Suivez les instructions énoncées dans le courriel pour terminer la suppression.
