@@ -9,11 +9,11 @@ order: 2
 * Advierte que tiene varias cuentas con diferentes direcciones de correo electrónico y quiere tener una sola cuenta
 * Se ha bloqueado su cuenta y ha perdido el acceso a sus métodos de autenticación
 * Ya no necesita una cuenta de Login.gov
-  **Si elimina su cuenta:**
+
+**Si elimina su cuenta:**
 * Eliminaremos su dirección de correo electrónico, contraseña y número de teléfono
-* Usted no podrá acceder de forma segura a las agencias asociadas que requieren una cuenta de Login.gov
-* Usted no podrá acceder a las aplicaciones gubernamentales a las que suele acceder con su cuenta de Login.gov 
-* Usted no perderá su información en esas aplicaciones, pero necesitará una cuenta nueva de Login.gov para poder iniciar sesión en esas aplicaciones
+* No podrá iniciar sesión en organismos asociados que requieran una cuenta de Login.gov
+* No perderá la información que haya guardado con los organismos asociados, pero deberá crear una nueva cuenta de Login.gov
 
 **Si tiene acceso a sus métodos de autenticación, realice los siguientes pasos para eliminar su cuenta:**
 
@@ -37,5 +37,5 @@ Por motivos de seguridad, Login.gov requiere un procedimiento de dos pasos y de 
 5. Lea atentamente toda la información y asegúrese de que eliminar su cuenta es su única opción.
 6. Haga clic en "Sí, continuar con la eliminación"
 7. Usted recibirá dos correos electrónicos.
-        *El primer correo electrónico confirma que hemos recibido su solicitud. Su cuenta aún no ha sido eliminada. Es necesario tomar medidas adicionales.*
-        La segunda carta le será enviada 24 horas más tarde. Observa las instrucciones de ese correo electrónico para completar el proceso de eliminación.
+* El primer correo electrónico confirma que hemos recibido su solicitud. Su cuenta aún no ha sido eliminada. Es necesario tomar medidas adicionales.
+* La segunda carta le será enviada 24 horas más tarde. Observa las instrucciones de ese correo electrónico para completar el proceso de eliminación.
