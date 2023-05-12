@@ -9,19 +9,26 @@ redirect_from:
   - /es/help/signing-in/forgot-my-password/
   - /es/help/signing-in/my-reset-password-link-is-invalid/
 ---
-
 Siga estos pasos para restablecer su contraseña.
 
 {: .number-list}
-1. Diríjase a [https://secure.login.gov](https://secure.login.gov).
-1. Seleccione el enlace "¿Olvidó su contraseña?" cercano a la parte inferior de la página.
-1. Introduzca su dirección de correo electrónico en la siguiente pantalla.
-1. Haga clic en el botón "Continuar".
-1. Busque el mensaje de Login.gov en su correo electrónico.
-1. Haga clic en el botón "Restablecer su contraseña" en el mensaje, el cual lo redirigirá a la página web de Login.gov.
-1. Introduzca su nueva contraseña.
 
-    Las contraseñas deben incluir al menos 12 caracteres. ¡Eso es todo! No hay restricciones adicionales. Incluso puede utilizar más de una palabra con espacios para completar los 12 caracteres. Intente usar una frase o una serie de palabras que solo usted pueda reconocer.
+1. Diríjase a <https://secure.login.gov>.
+2. Seleccione el enlace "¿Olvidó su contraseña?" cercano a la parte inferior de la página.
+3. Introduzca su dirección de correo electrónico en la siguiente pantalla.
+4. Haga clic en el botón "Continuar".
+5. Busque el mensaje de Login.gov en su correo electrónico.
+6. Haga clic en el botón "Restablecer su contraseña" en el mensaje, el cual lo redirigirá a la página web de Login.gov.
+7. Introduzca su nueva contraseña.
 
-    Su contraseña de Login.gov debe ser diferente de las contraseñas que usa para otras cuentas, como su cuenta bancaria o correo electrónico. Utilizar la misma contraseña en múltiples cuentas facilita el robo de identidad.
-1. Haga clic en el botón "Modificar contraseña".
+   * Para ayudar a prevenir el robo de identidad, te recomendamos reforzar tu contraseña utilizando:
+
+     * Frases únicas que solo tú conozcas
+     * Múltiples palabras con espacios para llegar a los 12 caracteres
+     * Números y caracteres especiales
+   * Tu contraseña debe tener 12 o más caracteres y evitar combinaciones como:
+
+     * Frases comunes o caracteres repetidos, como abc o 111
+     * Partes de tu dirección de correo electrónico o fechas personales, como tu cumpleaños.
+     * La misma contraseña, o partes de ella, que usas para otras cuentas, como tu cuenta bancaria o correo electrónico
+8. Haga clic en el botón "Modificar contraseña".
