@@ -11,12 +11,11 @@ redirect_from:
 
 * Vous réalisez que vous avez plusieurs comptes avec différentes adresses de courriel et vous souhaitez avoir un seul compte.
 * Vous ne pouvez plus accéder à votre compte et vous n'avez plus accès à vos méthodes d'authentification.
-* Vous n'avez plus besoin d'avoir un compte Login.gov
+* Vous n'avez plus besoin d'avoir un compte Login.gov.
   **Si vous supprimez votre compte:**
 * Nous supprimerons votre adresse courriel, votre mot de passe et votre numéro de téléphone.
-* Vous ne pourrez plus accéder de manière sécurisée aux agences partenaires qui exigent un compte Login.gov.
-* Vous ne pourrez plus accéder aux applications gouvernementales auxquelles vous pouvez accéder normalement en utilisant votre compte Login.gov
-* Vous ne perdrez pas vos informations dans ces applications, mais vous aurez besoin d'un compte Login.gov pour pouvoir vous connecter à ces applications
+* Vous ne pourrez pas vous connecter aux agences partenaires qui requièrent un compte Login.gov.
+* Vous ne perdrez pas vos informations enregistrées auprès des agences partenaires, mais vous devrez créer un nouveau compte Login.gov.
 
 **Si vous avez accès à vos méthodes d'authentification, suivez les étapes suivantes pour supprimer votre compte:**
 
