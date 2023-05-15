@@ -430,8 +430,9 @@ identifier:
     description: Descriptif de l'agence
     identifier: Identifiant de l'agence
     links: Liens importants
-    login_logo:  Página de inicio de Login.gov
-    gsa_logo: Página de inicio de GSA
+    login_logo:  Page d'accueil de Login.gov
+    gsa_logo: Page d'accueil de GSA
+    partners_logo: Page d'accueil de Login.gov Partners
     usa_gov: Informations et services du gouvernement américain
   disclaimer: Un site Web officiel de [General Services Administration](https://www.gsa.gov)
   links:
