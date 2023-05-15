@@ -57,7 +57,7 @@ describe('accessibility', () => {
   }
 
   describe('"Back to top" link', () => {
-    it('resets keyboard tabbing to the beginning of content', async () => {
+    it('resets focus to the beginning of content', async () => {
       await goto('/about-us/');
       const backToTopLinkHandle = await page.$('.page-content__prose .anchor-to-top');
       await page.click(backToTopLinkHandle);
