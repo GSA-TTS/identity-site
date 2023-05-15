@@ -60,7 +60,7 @@ describe('accessibility', () => {
     it('resets focus to the beginning of content', async () => {
       await goto('/about-us/');
       const backToTopLinkHandle = await page.$('.page-content__prose .anchor-to-top');
-      await page.click(backToTopLinkHandle);
+      await backToTopLinkHandle.click();
       await page.keyboard.press('Tab');
       const isFocusBeforeBackToTop = await page.evaluate(
         (backToTopLink) =>
