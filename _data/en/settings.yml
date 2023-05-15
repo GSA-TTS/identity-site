@@ -345,7 +345,8 @@ identifier:
     description: Agency description
     identifier: Agency identifier
     links: Important links
-    logo: GSA logo
+    login_logo: Login.gov Homepage
+    gsa_logo: GSA homepage
     usa_gov: U.S. government information and services
   disclaimer: An official website of the [General Services Administration](https://www.gsa.gov)
   links:
