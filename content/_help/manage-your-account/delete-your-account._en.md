@@ -18,9 +18,8 @@ redirect_from:
 **If you delete your account:**
 
 * We'll delete your email address, password, and phone number
-* You won't be able to securely access partner agencies who require a Login.gov account
-
-After you delete your account, you will not be able to sign in to the government applications that you normally use your Login.gov account to access. You will not lose your information in those applications, but you will need a new Login.gov account to be able to sign in to those applications.
+* You won't be able to sign into partner agencies that require a Login.gov account
+* You won't lose your information saved with partner agencies, but you will need to create a new Login.gov account
 
 **If you do have access to your authentication methods, follow these steps to delete your account:**
 
@@ -45,5 +44,5 @@ As a security measure, Login.gov requires a two-step process and 24 hour waiting
 5. Read through all the information carefully to make sure deleting your account is your only option
 6. Click on “Yes, continue deletion”
 7. You will receive two emails.
-        *The first email confirms we received your request. Your account is not yet deleted. Additional action is required.*
-        The second email is sent to you 24 hours later. Follow the directions in that email to complete the deletion process.
+* The first email confirms we received your request. Your account is not yet deleted. Additional action is required.
+* The second email is sent to you 24 hours later. Follow the directions in that email to complete the deletion process.
