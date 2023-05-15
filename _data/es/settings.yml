@@ -351,6 +351,7 @@ identifier:
     description: Descripción de la agencia
     identifier: Identificador de la agencia
     links: Enlaces importantes
+    login_gov_logo: Logo de la Login.gov
     logo: Logo de la GSA
     usa_gov: Información y servicios del Gobierno de EE. UU.
   disclaimer: Un sitio web oficial de [General Services Administration](https://www.gsa.gov)
