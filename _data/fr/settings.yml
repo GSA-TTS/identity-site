@@ -1,4 +1,6 @@
 accessible_labels:
+  login_link_logo:  Page d'accueil de Login.gov
+  partners_link_logo: Page d'accueil de Login.gov Partners
   footer_navigation: Navigation en bas de page
   primary_navigation: Navigation principale
   secondary_navigation: Navigation secondaire
@@ -430,7 +432,7 @@ identifier:
     description: Descriptif de l'agence
     identifier: Identifiant de l'agence
     links: Liens importants
-    logo: Logo de GSA
+    gsa_link_logo: Page d'accueil de GSA
     usa_gov: Informations et services du gouvernement américain
   disclaimer: Un site Web officiel de [General Services Administration](https://www.gsa.gov)
   links:
