@@ -1,4 +1,6 @@
 accessible_labels:
+  login_link_logo: Login.gov Homepage
+  partners_link_logo: Login.gov Partners Homepage
   footer_navigation: Footer navigation
   primary_navigation: Primary navigation
   secondary_navigation: Secondary navigation
@@ -346,7 +348,7 @@ identifier:
     identifier: Agency identifier
     links: Important links
     login_gov_logo: Login.gov logo
-    logo: GSA logo
+    gsa_link_logo: GSA homepage
     usa_gov: U.S. government information and services
   disclaimer: An official website of the [General Services Administration](https://www.gsa.gov)
   links:

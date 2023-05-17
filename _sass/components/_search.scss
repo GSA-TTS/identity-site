@@ -1,0 +1,6 @@
+// Upstream: Remove after at least one of the following is fixed:
+// - https://github.com/uswds/uswds/issues/5277
+// - https://bugs.chromium.org/p/chromium/issues/detail?id=1147314
+.usa-search [type='search']::-webkit-search-cancel-button {
+  display: none;
+}

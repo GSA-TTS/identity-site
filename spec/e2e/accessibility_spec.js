@@ -55,4 +55,21 @@ describe('accessibility', () => {
       );
     });
   }
+
+  describe('"Back to top" link', () => {
+    it('resets focus to the beginning of content', async () => {
+      await goto('/about-us/');
+      const backToTopLinkHandle = await page.$('.page-content__prose .anchor-to-top');
+      await backToTopLinkHandle.click();
+      await page.keyboard.press('Tab');
+      const isFocusBeforeBackToTop = await page.evaluate(
+        (backToTopLink) =>
+          backToTopLink.compareDocumentPosition(document.activeElement) ===
+          Node.DOCUMENT_POSITION_PRECEDING,
+        backToTopLinkHandle,
+      );
+
+      expect(isFocusBeforeBackToTop).toEqual(true);
+    });
+  });
 });
