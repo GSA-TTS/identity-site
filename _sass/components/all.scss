@@ -1,27 +1,24 @@
 @forward 'alert';
-@forward 'site';
+@forward 'already-have-an-account';
+@forward 'banner';
+@forward 'box-info';
+@forward 'card';
 @forward 'footer';
 @forward 'form';
 @forward 'header';
-@forward 'language-picker';
-@forward 'list';
-@forward 'banner';
-@forward 'already-have-an-account';
-@forward 'nav';
 @forward 'hero';
-
-@forward 'partners/hero';
-@forward 'partners/checklist';
-@forward 'partners/partners';
-
-@forward 'typography';
-@forward 'svg';
-
+@forward 'language-picker';
+@forward 'layout';
+@forward 'list';
+@forward 'nav';
 @forward 'nav-secondary';
 @forward 'nav-sidenav';
+@forward 'partners/checklist';
+@forward 'partners/hero';
+@forward 'partners/partners';
+@forward 'search';
+@forward 'site';
 @forward 'skip-nav';
-@forward 'layout';
-@forward 'box-info';
-@forward 'card';
-
 @forward 'sticky-table';
+@forward 'svg';
+@forward 'typography';
