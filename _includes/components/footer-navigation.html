@@ -2,11 +2,12 @@
 {% assign logo_width = include.logo_width | default: 191 %}
 {% assign logo_height = include.logo_height | default: 27 %}
 {% assign nav = include.nav | default: 'default' %}
+{% assign logo_alt = include.logo_alt | default: site.data.[page.lang].settings.identifier.accessible_labels.login_gov_logo %}
 <div class="footer-navigation container grid-row">
   <div class="grid-col-12 margin-y-2 tablet:grid-col-auto">
     <img
       src="{{ site.baseurl }}/assets/img/{{ logo }}"
-      alt="{{ site.data.[page.lang].settings.identifier.accessible_labels.login_gov_logo }}"
+      alt="{{ logo_alt }}"
       width="{{ logo_width }}"
       height="{{ logo_height }}"
     />
