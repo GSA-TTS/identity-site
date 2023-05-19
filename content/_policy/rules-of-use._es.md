@@ -160,4 +160,4 @@ El hecho que GSA no ejerza o haga valer cualquier derecho o disposición del pre
 
 ### 4. Ponerse en contacto con nosotros
 
-Si tiene alguna pregunta sobre estos términos o cualquier otro aspecto del servicio Login.gov, puede ponerse en contacto con nosotros en <https://login.gov/es/contact/>.
+Si tiene alguna pregunta sobre estos términos o cualquier otro aspecto del servicio Login.gov, puede ponerse en contacto con nosotros en [https://login.gov/es/contact/]({% link _policy/contact._es.md %}.
