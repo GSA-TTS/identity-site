@@ -159,4 +159,4 @@ Le fait que la GSA n'exerce pas ou n'applique pas un droit ou une disposition de
 
 ### 4. Nous contacter
 
-Si vous avez des questions concernant ces conditions ou tout autre aspect du service Login.gov, vous pouvez nous contacter sur le site [https://login.gov/contact/]({% link _policy/contact._fr.md %}
+Si vous avez des questions concernant ces conditions ou tout autre aspect du service Login.gov, vous pouvez nous contacter sur le site [https://login.gov/contact/]({% link _policy/contact._fr.md %}.
