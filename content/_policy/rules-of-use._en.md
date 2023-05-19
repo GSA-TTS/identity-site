@@ -112,7 +112,7 @@ As an authentication system and gateway to federal applications, we strive for h
 
 ### 2. Customer Support
 
-Customer support and help desk services are always available through <https://login.gov/contact/>. When you submit for customer support, we will use any information you provide to address your question or comment, and may use your feedback to improve our service or for other purposes as we see fit, such as for marketing. In doing so, we will never reveal your personal information outside of the Login.gov service except as required by applicable law or as stated elsewhere in these terms.
+Customer support and help desk services are always available through [https://login.gov/contact/]({% link _policy/contact._en.md %}). When you submit for customer support, we will use any information you provide to address your question or comment, and may use your feedback to improve our service or for other purposes as we see fit, such as for marketing. In doing so, we will never reveal your personal information outside of the Login.gov service except as required by applicable law or as stated elsewhere in these terms.
 
 ## 8. Responsibilities of Our Partners
 

@@ -47,7 +47,7 @@ Además de los detalles sobre su consentimiento indicados en otras partes de est
 
 Asimismo, acepta que NO falseará su identidad ni la información que presente en el servicio Login.gov, incluso a través de los canales de atención al cliente.
 
-También acepta que está obligado por estos términos y la [Política de Privacidad](/es/policy/), y otros términos relacionados con el servicio Login.gov.
+También acepta que está obligado por estos términos y la [Política de Privacidad]({% link _policy/index._es.md %}), y otros términos relacionados con el servicio Login.gov.
 
 Publicaremos cualquier cambio en estos términos en esta página. Si los cambios afectan a nuestro tratamiento de su información personal o se consideran significativos por algún otro motivo, se lo notificaremos por correo electrónico. Si no podemos ponernos en contacto con usted por correo electrónico, nos reservamos el derecho de hacerlo por otros medios, incluido el correo postal. Si en cualquier momento deja de estar de acuerdo con estas condiciones o con cualquier otra condición relevante del servicio Login.gov, puede cerrar su cuenta.
 
