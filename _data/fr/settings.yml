@@ -2,8 +2,8 @@ accessible_labels:
   login_link_logo:  Page d'accueil de Login.gov
   partners_link_logo: Page d'accueil de Login.gov Partners
   footer_navigation: Navigation en bas de page
-  primary_navigation: Navigation par liens primaires
-  secondary_navigation: Navigation par liens secondaires 
+  primary_navigation: Liens primaires
+  secondary_navigation: Liens secondaires 
 actions:
   search: Chercher
 banner:
