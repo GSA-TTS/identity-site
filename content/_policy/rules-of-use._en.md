@@ -94,7 +94,7 @@ In addition to validating the identity evidence you provide to us, we verify tha
 
 ## 5. Termination
 
-You can terminate your account at any time through your account profile. Additionally, in the event of fraud or other violations of these Rules of Use, we may revoke access to your account. If this occurs, we will still protect your account information consistent with our [Privacy Policy](/policy/) and [System of Records Notice](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records).
+You can terminate your account at any time through your account profile. Additionally, in the event of fraud or other violations of these Rules of Use, we may revoke access to your account. If this occurs, we will still protect your account information consistent with our [Privacy Policy]({% link _policy/index._en.md %}) and [System of Records Notice](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records).
 
 In the unlikely event that the Login.gov service is discontinued, information on the account will be retained subject to our [System of Records Notice](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records), as amended. Specifically, user information, including profiles, log-in files, password files, audit trail files and extracts, system usage files, and cost-back files used to assess charges for system use are maintained in accordance with GSA’s Records Retention Schedule, GRS 03.2.
 
