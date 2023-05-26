@@ -8,6 +8,17 @@ module Kramdown
           el
         end
 
+        def add_link(el, *args)
+          add_css_class!(el, 'usa-link') if el.type == :a
+          super(el, *args)
+        end
+
+        def parse_autolink
+          *children, el = super
+          add_css_class!(el, 'usa-link')
+          [*children, el]
+        end
+
         def add_css_class!(el, css_class)
           el.attr['class'] = [*el.attr['class'], css_class].join(' ')
         end
