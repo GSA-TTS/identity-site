@@ -34,13 +34,6 @@ body {
 
     // TODO: Consider respecting or customizing `$theme-text-measure` design system variable.
     max-width: none;
-
-    li {
-      ul {
-        list-style-type: '⁃  ';
-        margin-top: 0.25rem;
-      }
-    }
   }
 }
 
