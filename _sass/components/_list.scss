@@ -3,37 +3,6 @@
 @use '../colors' as *;
 @use '../variables' as *;
 
-.list {
-  @include usa-link-style;
-
-  ul {
-    li {
-      line-height: $line-height;
-      ul {
-        list-style-type: '⁃  ';
-        margin-bottom: 0;
-      }
-    }
-  }
-
-  a {
-    text-decoration: none;
-  }
-}
-
-.list-arrow {
-  a {
-    background: url('../img/ico-arrow.svg') no-repeat right 6px;
-    background-size: 0.75rem 0.75rem;
-    padding-right: 1.25rem;
-  }
-}
-
-.list-checked li {
-  background: url('../img/ico-checked.svg') no-repeat left 4px;
-  background-size: 1rem;
-}
-
 .help-article > h2:first-of-type {
   margin-top: 2rem;
 }
