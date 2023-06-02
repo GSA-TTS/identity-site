@@ -1,12 +1,23 @@
-@use '../colors' as *;
+@use 'uswds-core' as *;
 
-.usa-table--sticky-header {
+.usa-table--sticky-header,
+.page-content__prose .usa-table--sticky-header {
   position: relative;
 
-  .usa-table--sticky-header--heading,
-  thead th.usa-table--sticky-header--heading {
-    background-color: $white;
+  .usa-table__header--sticky,
+  thead th.usa-table__header--sticky {
+    background-color: color('white');
     position: sticky;
     top: 0;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background: color($theme-table-border-color);
+    }
   }
 }
