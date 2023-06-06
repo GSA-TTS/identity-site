@@ -84,10 +84,12 @@ You can then view the CMS in your browser at http://localhost:4000/admin.
 
 ### Adding nested pages and subdirectories
 Currrently the site is organized hierarchically by topic, with each topic constituting a folder and markdown files within that folder constituting the individual web pages about that topic. You might want to add more pages nested under another page already contained within a topic level folder. To do this, do the following:
-    - Add a folder to contain those new pages
-    - Add your markdown files to that folder
-    - Make sure to set the permalink field in the front matter of the page to the correct final relative URL that you want your pages to exist at
-The name of the folder the new pages are contained in does not need to match the URL in the permalink fields, however it is good practice to match them to make the pages easier to find later on.
+    - Create the child page at the same level as the parent page. This is so Netlify CMS will pick up on the new page.
+    - Add the following front matter fields to the child page: layout, title, category, child and permalink.
+    - 'Child' is to be a boolean value, and for pages that are children of other pages, this should be true.
+    - Permalink should be set to the desired url. Since this is to be a child page, you'll want it to follow this pattern: /section/category/parent/child/
+    - In the parent page, add a new field to the front matter titled 'children'
+    - The children field is an array of the titles of pages that are children to this page
 
 For example: to create a new page at the URL /help/verify-your-identity/verify-your-identity-in-person/test
     - Create the verify-your-identity-in-person folder
