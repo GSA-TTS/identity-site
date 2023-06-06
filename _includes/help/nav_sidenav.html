@@ -3,7 +3,8 @@
   <ul class="usa-accordion usa-sidenav">
     {% for subpage in site.help_pages %}
       {% assign subpage_slug = subpage | slugify %}
-      {% assign related_questions = site.help | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang" | sort:'order' %}
+      {% assign related_questions = site.help | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang and item.child == nil or item.child == false" | sort:'order' %}
+      {% assign children = site.help | where: "child", "true" | sort:'order' %}
       {% if page.url contains subpage_slug %}
         {% assign is_initially_hidden = 'false' %}
       {% else %}
@@ -21,7 +22,7 @@
         </a>
         <ul class="usa-sidenav__sublist" aria-hidden="{{ is_initially_hidden }}">
         {% for question in related_questions %}
-          <li class="usa-sidenav__item">
+        <li class="usa-sidenav__item">
           <a class="{% if question.url == page.url %}usa-current{% endif %}"
               href="{{ question.url | prepend: site.baseurl }}">
               {% if question.meta_title %}
@@ -30,6 +31,24 @@
                 {{ question.title }}
               {% endif %}
           </a>
+          {% if question.children.size > 0 %}
+          <ul class="usa-sidenav__sublist">
+              {% for child in children %}
+                {% if question.children contains child.title and question.lang == child.lang %}
+                <li class="usa-sidenav__item">
+                  <a class="{% if child.url == page.url %}usa-current{% endif %}"
+                      href="{{ child.url | prepend: site.baseurl }}">
+                      {% if child.meta_title %}
+                        {{ child.meta_title }}
+                      {% else %}
+                        {{ child.title }}
+                      {% endif %}
+                  </a>
+                </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
           </li>
         {% endfor %}
         </ul>
