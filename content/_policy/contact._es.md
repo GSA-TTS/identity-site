@@ -26,7 +26,7 @@ help_center_content: >-
 
   * [Explorar más artículos de ayuda](/es/help/)
 maintenance_window_content: El centro de atención de Login.gov estará en mantenimiento desde <strong>%{start_time} y hasta %{end_time}</strong>. Consulte los temas comunes que aparecen a continuación para obtener ayuda.
-unplanned_outage_phone_available_content: Debido a un problema técnico, no podemos revisar las solicitudes de asistencia en línea. Puede llamar a nuestro centro de asistencia en cualquier momento al (844) 875-6446.
+phone_available_content: Puede llamar a nuestro centro de asistencia en cualquier momento al (844) 875-6446.
 unplanned_outage_content: Debido a un problema técnico, no podemos revisar las solicitudes de asistencia en línea.
 partner_content: >-
   ## Asociarse con Login.gov
