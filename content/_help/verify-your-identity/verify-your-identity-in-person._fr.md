@@ -35,17 +35,6 @@ Nous n'acceptons actuellement aucune autre forme d'identification, comme les pas
 
 En attendant, veuillez contacter le centre d'assistance de l'agence partenaire pour savoir ce que vous pouvez faire.
 
-### Preuve de votre adresse actuelle
-
-Si votre adresse actuelle ne correspond pas à l'adresse figurant sur votre pièce d'identité, vous devrez apporter une preuve de votre adresse actuelle au bureau de poste. Les formes acceptables de preuve d'adresse sont :
-
-* Bail, hypothèque ou acte de fiducie
-* Inscription sur les listes électorales
-* Carte d'immatriculation d’un véhicule
-* Police d'assurance habitation ou véhicule
-
-Vous pouvez apporter une copie physique ou montrer une copie numérique du document. Vous ne pouvez pas montrer une photo ou une capture d'écran du document. 
-
 ## Terminez la procédure dans un bureau de poste participant avant la date limite.
 
 ### La vérification en personne est disponible dans les établissements participants aux États-Unis et dans certains territoires américains.* 
@@ -91,12 +80,6 @@ Si vous ne parvenez pas à vérifier votre identité en personne, vous pouvez r�
 Conseils pour vérifier votre identité en personne: 
 
 * Votre pièce d’identité ou votre permis de conduire délivré par l’État doit être en cours de validité. Nous n’acceptons actuellement aucune autre forme d’identification.
-* Apportez un justificatif de domicile valide si votre adresse actuelle est différente de celle qui figure sur votre pièce d’identité. Pour vérifier votre adresse actuelle, vous pouvez apporter votre:
-
-  * Bail, hypothèque ou acte de fiducie
-  * Inscription sur les listes électorales
-  * Carte d’immatriculation de véhicule
-  * Police d’assurance habitation ou automobile
 
 ### Ce qu’il faut faire si le délai pour vérifier votre identité en personne est passé
 
