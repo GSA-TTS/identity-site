@@ -2,17 +2,12 @@
 
 The static marketing site for Login.gov
 
-## Branches
+## Guides for Common Workflows
 
-`main` branch is published at https://www.login.gov.
-
-Feature branches should be merged to `main` when they are ready through the normal code review process (have at least **one** person who is not the author Approve the PR).
-
-## Publishing Workflow
-
-Branch off of `main` and make pull requests back to the `main` branch. Cloud.gov Pages will build a live preview for each branch so we suggest using those builds as staging environments to run your proposed changes by the rest of the team.
-
-To view the preview URL for your branch, click the Cloud.gov Pages "Details" link in your pull request's checks.
+- [Contact Form Outages](./docs/development-workflows/contact-form-outages.md)
+- [Branching and Publishing Workflow](./docs/development-workflows/branching-and-publishing-workflow.md)
+- [Netlify CMS](./docs/development-workflows/netlify-cms.md)
+- [Nested Help Articles](./docs/development-workflows/nested-help-articles.md)
 
 ## Development
 
@@ -71,16 +66,6 @@ The lint task will check to see that SVG images are optimized. To optimize image
 ```
 npm run optimize-assets
 ```
-
-### NetlifyCMS
-[NetlifyCMS](https://www.netlifycms.org/) is an open source content management system that we use to edit content on the brochure site. To develop and make changes to the CMS, or to edit content locally, first comment out the first `backend` block and then uncomment the second `backend` block that contains `proxy_url`. Then, change the branch name to the name of the branch that you are developing on.
-
-After the changes in `admin/config.yml` are saved *and* the site is served locally, run
-```
-npx netlify-cms-proxy-server
-```
-
-You can then view the CMS in your browser at http://localhost:4000/admin.
 
 ## Contributing
 
