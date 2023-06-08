@@ -102,7 +102,7 @@ include:
   - docs/accessibility-assessment-ial1-account-creation.pdf
   - docs/identity-verification-report.docx
   - docs/identity-verification-report.pdf
-  - docs/login_roadmap_may_2023.pdf
+  - docs/login-gov-roadmap-may-2023.pdf
 
 exclude:
   - babel.config.json
