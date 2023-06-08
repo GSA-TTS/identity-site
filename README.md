@@ -111,7 +111,8 @@ Parent page front matter fields:
 layout: help
 title: Verify your identity in person
 category: verify-your-identity
-children: ['/help/verify-your-identity/verify-your-identity-in-person/test']
+children: 
+  - /help/verify-your-identity/verify-your-identity-in-person/test
 permalink: /help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
