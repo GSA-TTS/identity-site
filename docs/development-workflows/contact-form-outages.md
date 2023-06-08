@@ -10,11 +10,11 @@ For each outcome, you will need to [sign in to Cloud.gov Pages](https://pages.cl
   - Is the phone line still available for support?
     - If **YES**, use the following configuration:
 
-          contact_unplanned_outage: false
+          contact_unplanned_outage: true
           contact_unplanned_outage_phone_available: true
     - If **NO**, use the following configuration:
 
-          contact_unplanned_outage: false
+          contact_unplanned_outage: true
           contact_unplanned_outage_phone_available: false
 - If **NO**, the contact form will be undergoing a planned maintenance in the future:
   - Will the phone line be available during the planned maintenance?
