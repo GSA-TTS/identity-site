@@ -4,6 +4,7 @@ The static marketing site for Login.gov
 
 ## Guides for Common Workflows
 
+- [Contact Form Outages](./docs/development-workflows/contact-form-outages.md)
 - [Branching and Publishing Workflow](./docs/development-workflows/branching-and-publishing-workflow.md)
 - [Netlify CMS](./docs/development-workflows/netlify-cms.md)
 - [Nested Help Articles](./docs/development-workflows/nested-help-articles.md)
