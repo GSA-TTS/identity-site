@@ -18,7 +18,7 @@ Once you have access to Cloud.gov Pages:
 2. After signing in, click the link for "identity-site" in the list of sites
 3. Click "Site settings" in the sidebar
 4. Expand "Advanced settings"
-5. Enter the configuration overrides under "Live site" or "Preview site", depending on where you want your configuration to apply
+5. Add or edit the settings under "Live site" or "Preview site", depending on where you want your configuration to apply
 6. Click "Save advanced settings"
 
 Saving the settings will automatically trigger a rebuild of the `main` branch. If you also need to rebuild an in-progress branch, you can either push an empty commit to your branch, or find the branch on the "Build history" page and click the "Rebuild" button.
