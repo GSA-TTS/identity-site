@@ -22,7 +22,7 @@ El servicio Login.gov ofrece al público un acceso en Internet seguro y privado 
 
 El servicio Login.gov se asocia con otras agencias federales ("socios") para permitirle acceder a esos servicios con una sola cuenta Login.gov, lo que elimina la necesidad de crear muchas cuentas separadas en todo el gobierno.
 
-El servicio Login.gov protege su cuenta mediante la aplicación de fuertes medidas de seguridad y protege su privacidad mediante la recopilación de la información mínimamente necesaria de usted y, a su vez, revelando a los socios sólo la información necesaria para que esos socios puedan ejecutar su servicio. Y Login.gov nunca comparte información personal validada con un socio federal a menos que: 
+El servicio Login.gov protege su cuenta mediante la aplicación de fuertes medidas de seguridad y protege su privacidad mediante la recopilación de la información mínimamente necesaria de usted y, a su vez, revelando a los socios sólo la información necesaria para que esos socios puedan ejecutar su servicio. Y Login.gov nunca comparte información personal validada con un socio federal a menos que:
 
 1. Usted haya dado su consentimiento explícito (que puede revocar en cualquier momento);
 2. La divulgación sea exigida por ley; o
@@ -70,7 +70,7 @@ Los autenticadores de los que dispone actualmente en el servicio Login.gov son:
 
 Login.gov no renueva, reemite ni caduca autenticadores, pero puede revocar un autenticador asociado a su cuenta en cualquier momento y, si lo desea, volver a añadirlo más adelante. El servicio Login.gov no emite autenticadores físicos. Los autenticadores que no sean frases de contraseña o códigos de seguridad requieren hardware o software que usted mismo proporciona.
 
-Cuando registra un autenticador en el servicio Login.gov, acepta que lo utilicemos como autenticador para acceder a su cuenta. Si se registra para mensajes SMS o de voz, nos autoriza a enviar mensajes de texto y a realizar llamadas telefónicas a su número de teléfono. 
+Cuando registra un autenticador en el servicio Login.gov, acepta que lo utilicemos como autenticador para acceder a su cuenta. Si se registra para mensajes SMS o de voz, nos autoriza a enviar mensajes de texto y a realizar llamadas telefónicas a su número de teléfono.
 
 En el caso de los autenticadores físicos, como códigos de seguridad impresos, un token de hardware o un teléfono, protéjalos guardándolos en un lugar seguro o con usted. No permita que se dañen. Si se pierden, rompen o dañan, puede perder el acceso a su cuenta.
 
@@ -96,7 +96,7 @@ En el improbable caso de que el servicio de Login.gov sea interrumpido, la infor
 
 ## 6. Autoridades
 
-El servicio Login.gov es operado dentro de los Estados Unidos, pero es accesible globalmente para uso público. El servicio Login.gov es operado por la Administración de Servicios Generales bajo las autoridades y directrices que se encuentran en [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), la Ley de Gobierno Electrónico de 2002 (Pub. L. 107-347, 44 U.S.C. 3501 nota), [40 USC § 501](https://www.gsa.gov/cdnstatic/CNXII__Eligibility_to_Use_GSA.pdf), y [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
+El servicio Login.gov es operado dentro de los Estados Unidos, pero es accesible globalmente para uso público. El servicio Login.gov es operado por la Administración de Servicios Generales bajo las autoridades y directrices que se encuentran en [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), la Ley de Gobierno Electrónico de 2002 (Pub. L. 107-347, 44 U.S.C. 3501 nota), [40 USC § 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim), y [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
 ## 7. Funcionamiento del servicio y atención al cliente
 
