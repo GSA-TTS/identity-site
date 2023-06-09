@@ -2,7 +2,7 @@
 
 This guide is written in a "Choose your own adventure" style to quickly guide you to relevant information, in case of an active outage.
 
-For each outcome, you will need to [sign in to Cloud.gov Pages](https://pages.cloud.gov/) and [modify site settings](https://pages.cloud.gov/sites/85/settings). Configuration can be edited under "Advanced settings" ► "Live site" ► "Site configuration", either at the end of the configuration textarea, or replacing existing configuration values for the relevant setting names.
+For each outcome, you should modify site settings by following the instructions found in the [_Configuring Site Settings_ guide](./configuring-site-settings.md#live-site).
 
 **Is the contact form currently experiencing an unexpected outage?**
 
