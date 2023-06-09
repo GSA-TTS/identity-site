@@ -24,7 +24,7 @@ The Login.gov service offers the public secure and private online access to part
 
 The Login.gov service partners with other federal agencies (“partners”) to allow you to access those services with just one Login.gov account, eliminating the need to create many separate accounts across government.
 
-The Login.gov service protects your account by implementing strong security measures and protects your privacy by collecting the minimally necessary information from you and, in turn, revealing to partners only the information necessary for those partners to execute their service. And Login.gov never shares validated personal information with a federal partner unless: 
+The Login.gov service protects your account by implementing strong security measures and protects your privacy by collecting the minimally necessary information from you and, in turn, revealing to partners only the information necessary for those partners to execute their service. And Login.gov never shares validated personal information with a federal partner unless:
 
 1. You provided explicit consent (which you can revoke that at any time);
 2. Disclosure is required by law; or
@@ -100,7 +100,7 @@ In the unlikely event that the Login.gov service is discontinued, information on
 
 ## 6. Authorities
 
-The Login.gov service is operated within the United States, but is accessible globally for public use. The Login.gov service is operated by the General Services Administration under authorities and guidance found in [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), the E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), and [40 USC § 501](https://www.gsa.gov/cdnstatic/CNXII__Eligibility_to_Use_GSA.pdf), and [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
+The Login.gov service is operated within the United States, but is accessible globally for public use. The Login.gov service is operated by the General Services Administration under authorities and guidance found in [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), the E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), and [40 USC § 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim), and [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
 ## 7. Service Operation and Customer Support
 
