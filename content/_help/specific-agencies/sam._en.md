@@ -32,14 +32,14 @@ Please do not send Login.gov sensitive data about yourself or SAM application.
 
 Login.gov can only answer questions about the sign-in process and creating a Login.gov account.
 
-Please contact [SAM.gov](https://sam.gov/SAM/pages/public/index.jsf) directly if you have questions regarding:
+Please contact [SAM.gov](https://sam.gov/) directly if you have questions regarding:
 
 * Application registration, eligibility, status or changes
 * Scheduling appointments
 * Entity registration status
 * Or other related concerns
 
-To make changes to your SAM.gov account profile, you will need to sign in at <https://www.sam.gov>.
+To make changes to your SAM.gov account profile, you will need to sign in at <https://sam.gov>.
 
 Contact the Federal Service Desk at 866-606-8220 (toll-free) or 334-206-7828 (internationally) for assistance, or submit your request via web form at [www.fsd.gov](https://www.fsd.gov/).
 

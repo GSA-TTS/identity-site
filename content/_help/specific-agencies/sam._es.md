@@ -31,13 +31,13 @@ Por favor, no envíes a Login.gov datos sensibles sobre ti o sobre tu solicitud 
 
 Login.gov solo puede responder preguntas sobre el proceso de inicio de sesión y sobre cómo crear una cuenta de Login.gov.
 
-Por favor, ponte en contacto directo con [SAM.gov](https://sam.gov/SAM/pages/public/index.jsf) si tienes alguna pregunta relacionada con:
+Por favor, ponte en contacto directo con [SAM.gov](https://sam.gov/) si tienes alguna pregunta relacionada con:
 * registro de solicitudes, elegibilidad, estado o cambios
 * programación de citas
 * estado del registro de entidades
 * u otros asuntos relacionados
 
-Para realizar cambios al perfil de tu cuenta de SAM.gov tendrás que iniciar sesión en <https://www.sam.gov>.
+Para realizar cambios al perfil de tu cuenta de SAM.gov tendrás que iniciar sesión en <https://sam.gov>.
 
 Ponte en contacto con el Federal Service Desk (Centro Federal de Atención al Usuario) al 866-606-8220 (llamada gratuita) o al 334-206-7828 (internacional) para recibir asistencia o envía tu solicitud a través de un formulario web en www.fsd.gov.
 
