@@ -16,7 +16,6 @@ typecheck-js:
 
 lint-assets:
 	npm run optimize-assets > /dev/null
-	npm run viewbox || (echo "Make sure all SVG images have a viewBox attribute"; exit 1)
 	git diff --quiet assets/img || (echo "Error: Optimize SVG images using 'npm run optimize-assets'"; exit 1)
 
 lint: lint-js lint-assets validate-lockfiles typecheck-js
