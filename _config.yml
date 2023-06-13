@@ -24,6 +24,7 @@ contact_phone_number_location: 'bottom' # acceptable values are 'top' and 'botto
 # Contact page maintenance window
 contact_maintenance_start_time: null
 contact_maintenance_end_time: null
+contact_maintenance_phone_available: true
 
 # Unplanned outage configuration
 contact_unplanned_outage: false
@@ -101,6 +102,7 @@ include:
   - docs/accessibility-assessment-ial1-account-creation.pdf
   - docs/identity-verification-report.docx
   - docs/identity-verification-report.pdf
+  - docs/login-gov-roadmap-may-2023.pdf
 
 exclude:
   - babel.config.json
