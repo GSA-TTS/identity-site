@@ -13,7 +13,7 @@ Suivez ces étapes pour réinitialiser votre mot de passe.
 
 {: .number-list}
 
-1. Rendez-vous sur <https://secure.login.gov/>
+1. Rendez-vous sur <https://secure.login.gov/fr>.
 2. Sélectionnez le lien « Oublié votre mot de passe » en bas de la page.
 3. Sur l’écran suivant, entrez votre adresse électronique.
 4. Cliquez sur le bouton « Continuer ».
