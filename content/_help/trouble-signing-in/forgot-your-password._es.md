@@ -13,7 +13,7 @@ Siga estos pasos para restablecer su contraseña.
 
 {: .number-list}
 
-1. Diríjase a <https://secure.login.gov>.
+1. Diríjase a <https://secure.login.gov/es>.
 2. Seleccione el enlace "¿Olvidó su contraseña?" cercano a la parte inferior de la página.
 3. Introduzca su dirección de correo electrónico en la siguiente pantalla.
 4. Haga clic en el botón "Continuar".
