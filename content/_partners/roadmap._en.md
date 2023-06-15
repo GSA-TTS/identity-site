@@ -11,11 +11,11 @@ body: >-
   Given Login.gov’s values around agility and transparency, we will be using ongoing user research as well as feedback from agency partners to adapt these plans over time. We intend to update and reshare this artifact quarterly.
   
 
-  [View the Login.gov Program Roadmap](https://www.login.gov/docs/login-gov-roadmap-may-2023.pdf){:class="caret"}
+  [View the Login.gov Program Roadmap](/docs/login-gov-roadmap-may-2023.pdf){:class="caret"}
   
 
   Interested in a conversation for your application needs? [Please reach out](https://login.gov/partners/business-inquiries){:class="caret"}
 
 roadmap-url: >-
-  https://www.login.gov/docs/login-gov-roadmap-may-2023.pdf
+  /docs/login-gov-roadmap-may-2023.pdf
 ---
