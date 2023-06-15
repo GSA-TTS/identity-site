@@ -13,11 +13,11 @@ layout: base
         <h1 class="tablet:grid-col-6 partners-title">{{ page.title }}</h1>
         <div class="tablet:grid-col-12 partners-border"></div>
         <div class="roadmap-body grid-row">
-          <div class="text tablet:grid-col-7 grid-col-12">
+          <div class="tablet:grid-col-6 grid-col-12 display-inline-block">
             <div>{{ page.subtitle | markdownify}}</div>
             <div class="partners-subtitle">{{ page.subsection | markdownify }}</div>
           </div>
-          <div class="image tablet:grid-col-5 grid-col-12">
+          <div class="tablet:grid-col-5 tablet:grid-offset-1 grid-col-12 display-inline-block float-right">
             <a aria-label="Program Roadmap" href="{{ site.baseurl }}{{ page.roadmap-url }}"><img class="section-title-right" alt="Program Roadmap" src="{{ site.baseurl }}/assets/img/partners/roadmap.png"/></a>
           </div>
         </div>
