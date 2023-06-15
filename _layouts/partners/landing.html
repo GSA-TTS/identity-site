@@ -9,6 +9,11 @@ layout: base
 <main id="main-content">
   {% include hero.html class=page.class heading=page.title text=page.description %}
   {% include components/3-col.html class=page.class heading=page.services.heading subheading1=page.services.subheading1 col_class1=page.services.col_class1 col1=page.services.col1 subheading2=page.services.subheading2 col_class2=page.services.col_class2 col2=page.services.col2 subheading3=page.services.subheading3 col_class3=page.services.col_class3 col3=page.services.col3 %}
+  <div class="container">
+    <h2>{{page.roadmap.title}}</h2>
+    <div class="tablet:grid-col-12 partners-border"></div>
+    {{page.roadmap.body | markdownify}}
+  </div>
   {% include partners/checklist.html heading=page.right_for_you.heading items=page.right_for_you.items %}
   <div class="full-width-color">
     {% include partners/x-col.html class=page.who_we_work_with.class heading=page.who_we_work_with.heading label=page.who_we_work_with.label items=page.who_we_work_with.items link=page.who_we_work_with.link %}
