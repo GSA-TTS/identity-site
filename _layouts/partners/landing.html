@@ -12,7 +12,7 @@ layout: base
   <div class="container">
     <h2>{{page.roadmap.title}}</h2>
     <div class="tablet:grid-col-12 partners-border"></div>
-    <p>{{page.roadmap.body | markdownify}}</p>
+    {{page.roadmap.body | markdownify}}
   </div>
   {% include partners/checklist.html heading=page.right_for_you.heading items=page.right_for_you.items %}
   <div class="full-width-color">
