@@ -45,6 +45,14 @@
           </li>
           <li class="usa-nav__primary-item">
             <a
+              class="usa-nav__link {% if page.url contains '/roadmap' %}usa-current{% endif %}"
+              href="{{ '/partners/roadmap/' | locale_url }}"
+            >
+              Roadmap
+            </a>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a
               class="usa-nav__link {% if page.url contains '/impact-stories' %}usa-current{% endif %}"
               href="{{ '/partners/impact-stories/' | locale_url }}"
             >

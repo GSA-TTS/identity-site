@@ -147,3 +147,16 @@
   background-color: color('primary-lightest');
   border-radius: radius('md');
 }
+
+.roadmap-body {
+  .text, .image {
+    display: inline-block;
+  }
+  .text {
+    padding-right: 50px;
+  }
+  .image {
+    float: right;
+    padding-bottom: 25px;
+  }
+}

@@ -31,6 +31,12 @@ services:
 
     [Learn about user support](/partners/our-services/#multilingual-support-for-your-end-users){:class="partners-multilingual caret"}
 
+roadmap: 
+  title:
+    Roadmap
+  body:
+    Learn more about our services and the planned direction of the program via the [Login.gov Program Roadmap](/partners/roadmap){:class="caret"}
+
 right_for_you:
   heading: Is Login.gov right for you?
   items:
