@@ -35,7 +35,7 @@ roadmap:
   title:
     Roadmap
   body:
-    Learn more about our services and the planned direction of the program via the [Login.gov Program Roadmap](/partners/roadmap){:class="caret"}
+    Learn more about our services and the planned direction of the program via the [Login.gov Program Roadmap](/partners/roadmap/){:class="caret"}
 
 right_for_you:
   heading: Is Login.gov right for you?

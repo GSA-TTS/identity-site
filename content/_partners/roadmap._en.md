@@ -14,7 +14,7 @@ body: >-
   [View the Login.gov Program Roadmap](/docs/login-gov-roadmap-may-2023.pdf){:class="caret"}
   
 
-  Interested in a conversation for your application needs? [Please reach out](/partners/business-inquiries){:class="caret"}
+  Interested in a conversation for your application needs? [Please reach out](/partners/business-inquiries/){:class="caret"}
 
 roadmap-url: >-
   /docs/login-gov-roadmap-may-2023.pdf
