@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "login.gov static site",
   "scripts": {
-    "prebuild:css": "mkdir -p _site/assets/css",
-    "build:css": "build-sass assets/scss/*.scss --load-path=node_modules/@18f/identity-design-system/packages --out-dir=_site/assets/css",
+    "build:css": "build-sass assets/scss/*.scss --out-dir=_site/assets/css",
     "watch:css": "npm run build:css -- --watch",
     "build:js": "webpack --config webpack.config.js",
     "watch:js": "webpack -w --config webpack.config.js",
@@ -55,7 +54,7 @@
     "vnu-jar": "^21.10.12"
   },
   "dependencies": {
-    "@18f/identity-build-sass": "^1.1.0",
+    "@18f/identity-build-sass": "^1.3.0",
     "@18f/identity-design-system": "^7.0.1",
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
