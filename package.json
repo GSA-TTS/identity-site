@@ -10,6 +10,7 @@
     "build": "concurrently \"npm:build:*\"",
     "watch": "concurrently \"npm:watch:*\"",
     "pages": "npm run build",
+    "normalize-yaml": "find _data -name '*.yml' | xargs npm exec normalize-yaml",
     "optimize-assets": "svgo -r -f assets/img",
     "lint": "eslint .",
     "typecheck": "tsc",
