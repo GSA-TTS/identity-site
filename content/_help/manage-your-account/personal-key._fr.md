@@ -44,7 +44,7 @@ Si vous réinitialisez votre mot de passe sans votre clé personnelle, vous devr
 
 ## Related articles
 
-[Forgot your password](/help/trouble-signing-in/forgot-your-password/)
-[Change your password](/help/manage-your-account/change-your-password/)
-[How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
+[Forgot your password](/fr/help/trouble-signing-in/forgot-your-password/)
+[Change your password](/fr/help/manage-your-account/change-your-password/)
+[How to verify your identity](/fr/help/verify-your-identity/how-to-verify-your-identity/)
 

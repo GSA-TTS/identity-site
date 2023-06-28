@@ -43,7 +43,7 @@ Si restableces tu contraseña y no tienes tu clave personal, tendrás que verifi
 
 ## Related articles
 
-[Forgot your password](/help/trouble-signing-in/forgot-your-password/)
-[Change your password](/help/manage-your-account/change-your-password/)
-[How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
+[Forgot your password](/es/help/trouble-signing-in/forgot-your-password/)
+[Change your password](/es/help/manage-your-account/change-your-password/)
+[How to verify your identity](/es/help/verify-your-identity/how-to-verify-your-identity/)
 
