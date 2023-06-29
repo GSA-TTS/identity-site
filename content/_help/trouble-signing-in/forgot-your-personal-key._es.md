@@ -41,9 +41,8 @@ Si restableces tu contraseña y no tienes tu clave personal, tendrás que verifi
 4. Selecciona "No tengo mi clave".
 5. Selecciona "Continuar" para comenzar de nuevo el proceso de verificación de identidad.
 
-## Related articles
+## Artículos relacionados
 
-[Forgot your password](/es/help/trouble-signing-in/forgot-your-password/)
-[Change your password](/es/help/manage-your-account/change-your-password/)
-[How to verify your identity](/es/help/verify-your-identity/how-to-verify-your-identity/)
-
+[Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
+[Cambie su contraseña](/es/help/manage-your-account/change-your-password/)
+[Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)

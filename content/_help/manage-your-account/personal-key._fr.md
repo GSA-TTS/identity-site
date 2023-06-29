@@ -42,9 +42,8 @@ Si vous réinitialisez votre mot de passe sans votre clé personnelle, vous devr
 4. Sélectionnez « Je n'ai pas ma clé ». 
 5. Sélectionnez « Continuer » pour relancer la procédure de vérification de l'identité.
 
-## Related articles
+## Articles connexes 
 
-[Forgot your password](/fr/help/trouble-signing-in/forgot-your-password/)
-[Change your password](/fr/help/manage-your-account/change-your-password/)
-[How to verify your identity](/fr/help/verify-your-identity/how-to-verify-your-identity/)
-
+[Mot de passe oublié](/fr/help/trouble-signing-in/forgot-your-password/)
+[Changer votre mot de passe](/fr/help/manage-your-account/change-your-password/)
+[Comment vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
