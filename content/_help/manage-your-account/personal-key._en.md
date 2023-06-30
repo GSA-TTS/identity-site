@@ -3,7 +3,7 @@ layout: help
 title: Personal key
 category: manage-your-account
 permalink: /help/manage-your-account/personal-key/
-order: 3 
+order: 4 
 redirect_from:
   - /en/help/manage-your-account/personal-key/
 ---

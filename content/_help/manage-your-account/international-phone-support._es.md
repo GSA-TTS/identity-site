@@ -3,7 +3,7 @@ layout: help
 title: Soporte de número de teléfono internacional
 category: manage-your-account
 permalink: /es/help/manage-your-account/international-phone-support/
-order: 6
+order: 7 
 scripts:
   - /assets/js/country_support.js
 ---

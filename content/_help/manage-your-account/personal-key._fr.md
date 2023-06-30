@@ -1,9 +1,9 @@
 ---
 layout: help
 title: Clé personnelle 
-category: trouble-signing-in
+category: manage-your-account
 permalink: /fr/help/manage-your-account/personal-key/
-order: 3 
+order: 4 
 redirect_from:
   - /fr/help/manage-your-account/personal-key/
 ---

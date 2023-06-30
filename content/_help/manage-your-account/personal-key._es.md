@@ -1,9 +1,9 @@
 ---
 layout: help
 title: Clave personal 
-category: trouble-signing-in
+category: manage-your-account
 permalink: /es/help/manage-your-account/personal-key/
-order: 3 
+order: 4 
 redirect_from:
   - /es/help/manage-your-account/personal-key/
 ---
