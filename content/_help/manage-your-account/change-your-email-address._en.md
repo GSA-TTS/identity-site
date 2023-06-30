@@ -3,7 +3,7 @@ layout: help
 title: Change the email address associated with your account
 category: manage-your-account
 permalink: /help/manage-your-account/change-your-email-address/
-order: 4
+order: 5 
 redirect_from:
   - help/changing-settings/add-or-remove-email-address
   - help/changing-settings/change-my-email-address/

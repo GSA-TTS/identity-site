@@ -3,7 +3,7 @@ layout: help
 title: "Relink your accounts "
 category: manage-your-account
 permalink: /help/manage-your-account/relink-your-accounts/
-order: 7
+order: 8 
 redirect_from:
     - /en/help/manage-your-account/relink-your-accounts/
 ---
