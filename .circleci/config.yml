@@ -96,6 +96,16 @@ jobs:
           name: Lint JavaScript
           command: make lint-js
 
+  lint-yaml:
+    docker:
+      - image: cimg/ruby:2.7-node
+    steps:
+      - checkout
+      - install-dependencies
+      - run:
+          name: Lint YAML
+          command: make lint-yaml
+
   typecheck-js:
     docker:
       - image: cimg/ruby:2.7-node
