@@ -5,23 +5,22 @@ default:
       developer_guide: 'https://developers.login.gov'
     learn:
       about_us: '$LOCALE_BASE_URL/about-us/'
-      join_us: "$LOCALE_BASE_URL/join/"
-      policies: '$LOCALE_BASE_URL/policy/'
       accessibility: '$LOCALE_BASE_URL/accessibility/'
+      join_us: '$LOCALE_BASE_URL/join/'
+      policies: '$LOCALE_BASE_URL/policy/'
     support:
-      help_center: '$LOCALE_BASE_URL/help/'
       contact_us: '$LOCALE_BASE_URL/contact/'
+      help_center: '$LOCALE_BASE_URL/help/'
 partners:
   footer:
-    partners:
-      get_started: '$BASE_URL/partners/get-started/'
-      developer_guide: 'https://developers.login.gov'
-      security_experience: '$BASE_URL/partners/security-experience/'
     about_login_gov:
-      what_is_login_gov: '$BASE_URL/about-us/'
-      policies: '$BASE_URL/policy/'
       accessibility: '$BASE_URL/accessibility/'
+      policies: '$BASE_URL/policy/'
+      what_is_login_gov: '$BASE_URL/about-us/'
+    partners:
+      developer_guide: 'https://developers.login.gov'
+      get_started: '$BASE_URL/partners/get-started/'
+      security_experience: '$BASE_URL/partners/security-experience/'
     support:
-      faq: '$BASE_URL/partners/faq/'
       business_inquiries: '$BASE_URL/partners/business-inquiries/'
-
+      faq: '$BASE_URL/partners/faq/'

@@ -10,6 +10,7 @@
     "build": "concurrently \"npm:build:*\"",
     "watch": "concurrently \"npm:watch:*\"",
     "pages": "npm run build",
+    "normalize-yaml": "find _data -name '*.yml' | xargs npm exec normalize-yaml",
     "optimize-assets": "svgo -r -f assets/img",
     "lint": "eslint .",
     "typecheck": "tsc",
@@ -33,6 +34,7 @@
   "keywords": [],
   "devDependencies": {
     "@18f/eslint-plugin-identity": "^2.0.0",
+    "@18f/identity-normalize-yaml": "^1.0.0",
     "@axe-core/puppeteer": "^4.5.1",
     "@babel/eslint-plugin": "^7.14.5",
     "@types/jest": "^29.2.6",
