@@ -3,7 +3,7 @@ layout: help
 title: Clé personnelle 
 category: manage-your-account
 permalink: /fr/help/manage-your-account/personal-key/
-order: 4 
+order: 3 
 redirect_from:
   - /fr/help/manage-your-account/personal-key/
 ---

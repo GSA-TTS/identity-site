@@ -3,7 +3,7 @@ layout: help
 title: Clave personal 
 category: manage-your-account
 permalink: /es/help/manage-your-account/personal-key/
-order: 4 
+order: 3 
 redirect_from:
   - /es/help/manage-your-account/personal-key/
 ---
