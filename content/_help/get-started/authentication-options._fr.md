@@ -23,9 +23,10 @@ Nous vous recommandons fortement d'ajouter deux méthodes d'authentification à 
 
 **Sécurité**
 Bien que vous avez le choix entre plusieurs options d'authentification, certaines méthodes d'authentification telles que les clés de sécurité, les cartes à puce PIV/CAC et les applications d'authentification sont plus efficaces contre les tentatives d'hameçonnage et le vol.
+
 ## Déverrouillage facial ou tactile
 
-<div class="usa-alert usa-alert--info usa-alert--slim">
+<div class="usa-alert usa-alert--info margin-bottom-4" role="status">
   <div class="usa-alert__body">
     <p class="usa-alert__text">
       Vous ne verrez cette option que si vous utilisez un ordinateur compatible. Il se peut que vous deviez vous connecter à chaque fois avec le même appareil si votre ordinateur ne permet pas d'enregistrer vos informations d'identification dans le nuage.

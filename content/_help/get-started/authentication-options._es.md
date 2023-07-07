@@ -26,11 +26,9 @@ Aunque puede elegir entre varias opciones de autenticación, algunos métodos de
 
 ## Desbloqueo facial o táctil
 
-<div class="usa-alert usa-alert--info usa-alert--slim">
+<div class="usa-alert usa-alert--info margin-bottom-4" role="status">
   <div class="usa-alert__body">
-    <p class="usa-alert__text">
-Solo verá esta opción si utiliza una computadora compatible. Es posible que tenga que acceder utilizando el mismo dispositivo cada vez si su computadora no admite guardar sus credenciales en la nube.
-    </p>
+    <p class="usa-alert__text">Solo verá esta opción si utiliza una computadora compatible. Es posible que tenga que acceder utilizando el mismo dispositivo cada vez si su computadora no admite guardar sus credenciales en la nube.</p>
   </div>
 </div>
 
