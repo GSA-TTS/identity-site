@@ -26,6 +26,24 @@ We encourage you to add two authentication methods to your account. If you lose 
 **Security**
 Although you can choose from several authentication options, some authentication methods such as Security Keys, PIV/CAC cards and authentication applications are more secure against phishing and theft.
 
+## Face or touch unlock 
+
+<div class="usa-alert usa-alert--info usa-alert--slim">
+  <div class="usa-alert__body">
+    <p class="usa-alert__text">
+      You will only see this option if you are using a compatible computer. You may need to sign in using the same device each time if your computer does not support saving your credentials to the cloud.
+    </p>
+  </div>
+</div>
+
+Face or touch unlock lets you sign in by using a scan of your face or fingerprint. This allows you to authenticate without using a one-time code. 
+
+When you choose to set up face or touch unlock, you’ll start by setting up a face- or fingerprint-based credential. This credential will be saved to your device, or to the cloud if you’re using a compatible browser and device.
+
+Assuming your credential is only saved to your device, you must always use the same device and browser to sign in with Login.gov with face or touch unlock. 
+
+We strongly recommend you add a second authentication method in case you change or lose your device. If you lose access to your only authentication method, you will need to [delete your account and create a new one.](/help/manage-your-account/delete-your-account/)
+
 ## Authentication application
 
 Authentication applications are downloaded to your device and generate secure, six-digit codes you use to sign in to your accounts. While authentication applications are not protected if your device is lost or stolen, this method offers more security than phone calls or text messaging against phishing, hacking, or interception.
@@ -93,15 +111,3 @@ If you do not have access to a phone, authentication application, security key, 
 When you create your account, you will reach the “Secure your account” page. This is where you must choose your primary authentication method. If you do not have access to any of the other options, select “Backup codes” and click “Continue.”
 
 On the “Add another method” page, select “I don’t have any of the above” and click “Continue.”
-
-## Face or touch unlock 
-
-<small class="display-block margin-top-neg-2"><em>(The option to add this authentication method is temporarily unavailable)</em></small>
-
-Face or touch unlock uses either facial recognition or fingerprints to sign in to your Login.gov account. This option is resistant to phishing. 
-
-You can only use face or touch unlock on a device that supports this feature. You will not see this option in the list of authentication options if your device does not have this capability. We do not store your fingerprints or images. 
-
-Since face or touch unlock is specific to the device and browser, you’ll need to use the same device and browser in the future to sign in using this authentication method. You are required to give your device a nickname to help you remember which device was used. 
-
-We strongly recommend setting up a second authentication method in case you ever change or lose your device. If you lose or change your device and do not have an alternate authentication method selected, you’ll have to delete your account and start over.

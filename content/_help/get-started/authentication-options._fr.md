@@ -23,6 +23,23 @@ Nous vous recommandons fortement d'ajouter deux méthodes d'authentification à 
 
 **Sécurité**
 Bien que vous avez le choix entre plusieurs options d'authentification, certaines méthodes d'authentification telles que les clés de sécurité, les cartes à puce PIV/CAC et les applications d'authentification sont plus efficaces contre les tentatives d'hameçonnage et le vol.
+## Déverrouillage facial ou tactile
+
+<div class="usa-alert usa-alert--info usa-alert--slim">
+  <div class="usa-alert__body">
+    <p class="usa-alert__text">
+      Vous ne verrez cette option que si vous utilisez un ordinateur compatible. Il se peut que vous deviez vous connecter à chaque fois avec le même appareil si votre ordinateur ne permet pas d'enregistrer vos informations d'identification dans le nuage.
+    </p>
+  </div>
+</div>
+
+Le déverrouillage facial ou tactile vous permet de vous connecter à l'aide d'un numériseur de votre visage ou de votre empreinte digitale. Vous pouvez ainsi vous authentifier sans utiliser de code à usage unique.
+
+Lorsque vous choisissez de configurer le déverrouillage facial ou tactile, vous commencez par définir un identifiant basé sur le visage ou l'empreinte digitale. Cet identifiant sera enregistré sur votre appareil ou dans le nuage si vous utilisez un navigateur et un appareil compatibles.
+
+En supposant que votre identifiant ne soit enregistré que sur votre appareil, vous devez toujours utiliser le même appareil et le même navigateur pour vous connecter à Login.gov avec le déverrouillage par empreinte faciale ou digitale. 
+
+Nous vous recommandons vivement d'ajouter une deuxième méthode d'authentification au cas où vous changeriez ou perdriez votre appareil. Si vous perdez l'accès à votre seule méthode d'authentification, [vous devrez supprimer votre compte et en créer un nouveau.](/fr/help/manage-your-account/delete-your-account/)
 
 ## Applications d'authentification
 
@@ -91,14 +108,3 @@ Si vous ne pouvez pas utiliser de téléphone, d'application d'authentification,
 Lors de la création de votre compte, vous accéderez à la page « Sécuriser votre compte ». C'est à cet endroit que vous devez choisir votre principale méthode d'authentification. Si vous ne pouvez utiliser aucune des autres options, sélectionnez « Codes de secours » et cliquez sur « Continuer ».
 
 Sur la page « Ajouter une autre méthode », sélectionnez « Je ne dispose d'aucune des options ci-dessus » et cliquez sur « Continuer ».
-
-## Déverrouillage facial ou tactile
-<small class="display-block margin-top-neg-2"><em>(L'option permettant d'ajouter cette méthode d'authentification est temporairement indisponible)</em></small>
-
-Le déverrouillage facial ou tactile utilise la reconnaissance faciale ou les empreintes digitales pour vous connecter à votre compte Login.gov. Cette option est protégée contre le hameçonnage.
-
-Vous pouvez uniquement utiliser le déverrouillage facial ou tactile sur un appareil qui prend en charge cette fonctionnalité. Cette option ne sera pas disponible dans la liste des méthodes d'authentification si votre appareil ne dispose pas de cette fonction. Nous ne conservons pas vos empreintes digitales ni vos images.
-
-Le déverrouillage facial ou tactile étant spécifique à l'appareil et au navigateur, vous devrez utiliser le même appareil et le même navigateur à l'avenir pour vous connecter en utilisant cette méthode d'authentification. Vous devrez donner un nom à votre appareil pour vous aider à vous souvenir de l'appareil utilisé.
-
-Nous vous recommandons vivement de configurer une deuxième méthode d'authentification au cas où vous changeriez ou perdriez votre appareil. Si vous perdez ou changez votre appareil et que vous n'avez pas sélectionné de méthode d'authentification alternative, vous devrez supprimer votre compte et en créer un nouveau.
