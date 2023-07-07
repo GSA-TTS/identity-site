@@ -16,7 +16,7 @@ Depending on the authentication methods you’ve set up, you may still be able t
 
 ## Face or touch unlock isn't working
 
-Unless your device and browser supports cloud sync, face or touch unlock only works on the same device and browser where you set it up. You can only use face or touch unlock on multiple devices if they support cloud sync.
+If your device and browser supports cloud sync, you can use face or touch unlock on multiple devices. Otherwise, face or touch unlock only works on the same device and browser where you set it up.
 
 * If you set up face or touch unlock on a device that doesn’t support cloud sync, try using the same device and browser to unlock your account. If you no longer have access to them, you will need to use another authentication method.
 * If you set up face or touch unlock on a device that was signed into a cloud service such as iCloud or your Google Account, you may be able to sign in on any other device as long as it’s also signed into that cloud service.
