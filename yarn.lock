@@ -10,6 +10,12 @@
     eslint-config-airbnb "^19.0.4"
     eslint-config-airbnb-base "^15.0.0"
 
+"@18f/identity-address-search@file:../identity-idp/app/javascript/packages/address-search":
+  version "1.0.4"
+  dependencies:
+    focus-trap "^6.7.1"
+    swr "^2.0.0"
+
 "@18f/identity-build-sass@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@18f/identity-build-sass/-/identity-build-sass-1.0.0.tgz#c91d3650d60828e6566e960d5516a8fc66608cc2"
@@ -19,14 +25,6 @@
     chokidar "^3.5.3"
     lightningcss "^1.16.1"
     sass-embedded "^1.56.1"
-
-"@18f/identity-document-capture@file:../identity-idp/app/javascript/packages/document-capture":
-  version "1.0.0"
-  dependencies:
-    focus-trap "^6.7.1"
-    react "^17.0.1"
-    react-dom "^17.0.1"
-    swr "^2.0.0"
 
 "@ampproject/remapping@^2.2.0":
   version "2.2.0"
@@ -5702,7 +5700,7 @@ range-parser@1.2.0:
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
   integrity sha512-kA5WQoNVo4t9lNx2kQNFCxKeBl5IbbSNBl1M/tLkw9WCn+hxNBAW5Qh8gdhs63CJnhjJ2zQWFoqPJP2sK1AV5A==
 
-react-dom@^17.0.1, react-dom@^17.0.2:
+react-dom@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
   integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
@@ -5721,7 +5719,7 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
-react@^17.0.1, react@^17.0.2:
+react@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==

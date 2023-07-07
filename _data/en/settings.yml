@@ -348,3 +348,7 @@ identifier:
   usa_gov:
     text: Looking for U.S. government information and services?
     link: Visit USA.gov
+po_search:
+  in_person_proofing.body.location.distance:
+    one: '%{count} mile'
+    other: '%{count} miles'
