@@ -1,3 +1,4 @@
+
 function verifyCanSubmitEntry() {
   const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
   if (debug && +debug.value) {

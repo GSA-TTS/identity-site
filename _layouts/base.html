@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'en-US' }}">
-
+  <script language="javascript" type="text/javascript">
+    window._locale_data = {{site.data[page.lang].settings.po_search | jsonify}}
+  </script>
   <head>
     {% include meta.html %}
     {% include styles.html %}

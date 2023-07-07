@@ -375,3 +375,7 @@ policies:
     - name: Rules of use
       url: '/policy/rules-of-use/'
   title: Privacy & security
+po_search:
+  in_person_proofing.body.location.distance:
+    one: '%{count} mile'
+    other: '%{count} miles'
