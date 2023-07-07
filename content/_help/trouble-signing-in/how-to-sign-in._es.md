@@ -7,7 +7,7 @@ redirect_from:
   - /es/help/signing-in/
   - /es/help/signing-in/how-to-sign-in/
 ---
-Cada vez que inicie sesión en su cuenta de Login.gov, necesitará su dirección de correo electrónico, su contraseña y contar con alguno de los métodos de autenticación en dos pasos que haya configurado.
+Cada vez que inicie sesión en su cuenta de Login.gov, necesitará su dirección de correo electrónico, su contraseña y contar con alguno de [las opciones de autenticación](/es/help/get-started/authentication-options/) que haya configurado.
 
 Siga estos pasos para iniciar sesión en Login.gov:
 
@@ -15,9 +15,9 @@ Siga estos pasos para iniciar sesión en Login.gov:
 1. Ingrese su dirección de correo electrónico en <https://secure.login.gov>.
 2. Ingrese su contraseña.
 3. Haga clic en el botón "Iniciar sesión".
-4. Realice la autenticación utilizando alguno de los métodos que haya configurado. Las opciones incluyen:
+4. Realice la autenticación utilizando alguno de las opciones que haya configurado. Las opciones incluyen:
 
-   * Usar el desbloqueo facial o táctil
+   * Escanear su cara o huella dactilar
    * Ingresar un código de seguridad de su aplicación de autenticación.
    * Usar su llave de seguridad.
    * Ingrese un código de un solo uso que recibirá mediante un mensaje de texto o una llamada telefónica
