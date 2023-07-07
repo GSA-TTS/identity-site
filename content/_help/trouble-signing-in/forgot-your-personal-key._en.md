@@ -3,7 +3,7 @@ layout: help
 title: Forgot your personal key
 category: trouble-signing-in
 permalink: /help/trouble-signing-in/forgot-your-personal-key/
-order: 3 
+order: 4
 redirect_from:
   - /en/help/trouble-signing-in/forgot-your-personal-key/
 ---
