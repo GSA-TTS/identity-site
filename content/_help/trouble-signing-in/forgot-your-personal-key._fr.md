@@ -3,7 +3,7 @@ layout: help
 title: Vous avez oublié votre clé personnelle?
 category: trouble-signing-in
 permalink: /fr/help/trouble-signing-in/forgot-your-personal-key/
-order: 3 
+order: 4
 redirect_from:
   - /fr/help/trouble-signing-in/forgot-your-personal-key/
 ---
