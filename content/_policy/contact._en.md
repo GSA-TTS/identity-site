@@ -26,7 +26,8 @@ help_center_content: >-
 
   * [Browse more help articles](/help/)
 maintenance_window_content: Login.gov’s Contact Center is currently undergoing maintenance from <strong>%{start_time} - %{end_time}.</strong> Visit some common topics below for assistance.
-unplanned_outage_content: Due to an outage, we can't review online support requests. You can call our support center anytime at (844) 875-6446.
+phone_available_content: You can call our support center anytime at (844) 875-6446.
+unplanned_outage_content: Due to an outage, we can't review online support requests.
 partner_content: >-
   ## Partner with Login.gov
 

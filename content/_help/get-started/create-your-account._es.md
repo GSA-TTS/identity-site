@@ -1,14 +1,14 @@
 ---
-category: get-started
-order: 1
-permalink: /es/help/get-started/create-your-account/
 title: Crear una cuenta
+category: get-started
+permalink: /es/help/get-started/create-your-account/
+order: 1
 ---
 Siga estos pasos para crear su cuenta de Login.gov.
 
 {: .number-list}
 
-1. Primero, ingrese su correo electrónico en <https://secure.login.gov/sign_up/enter_email>.
+1. Primero, ingrese su correo electrónico en <https://secure.login.gov/es/sign_up/enter_email>.
 
    Elija una dirección de correo electrónico a la que siempre pueda tener acceso. Una vez que se cree su cuenta, puede agregar una dirección de correo electrónico adicional — como una dirección de correo electrónico laboral o una dirección personal alternativa— para tener acceso a ella.
 2. Haga clic en el botón **“Enviar”**.
@@ -16,21 +16,27 @@ Siga estos pasos para crear su cuenta de Login.gov.
 4. Haga clic en el botón que dice **“Confirme su dirección de correo electrónico”** que se encuentra en el mensaje. Esto lo llevará de vuelta al sitio web de Login.gov.
 5. Cree su contraseña de Login.gov.
 
-   Las contraseñas deben tener al menos 12 caracteres. ¡Eso es todo! No hay ninguna otra restricción. Incluso puede usar más de una palabra con espacios para llegar a los 12 caracteres. Pruebe utilizar una frase o una serie de palabras que solo usted reconozca.
+   * Para ayudar a prevenir el robo de identidad, te recomendamos reforzar tu contraseña utilizando:
 
-   Su contraseña de Login.gov debe ser diferente a las contraseñas que utilice para otras cuentas, como su cuenta bancaria o su correo electrónico. Utilizar la misma contraseña para varias cuentas facilita el robo de identidad.
+     * Frases únicas que solo tú conozcas
+     * Múltiples palabras con espacios para llegar a los 12 caracteres
+     * Números y caracteres especiales
+   * Tu contraseña debe tener 12 o más caracteres y evitar combinaciones como:
+
+     * Frases comunes o caracteres repetidos, como abc o 111
+     * Partes de tu dirección de correo electrónico o fechas personales, como tu cumpleaños.
+     * La misma contraseña, o partes de ella, que usas para otras cuentas, como tu cuenta bancaria o correo electrónico
 6. Establezca una segunda capa de seguridad.
 
-   Como una capa adicional de protección, Login.gov requiere que establezca un segundo método de autenticación para mantener su cuenta segura. A esto se le denomina autenticación de dos factores (2FA).
+   Como una capa adicional de protección, Login.gov requiere que establezca un método de autenticación para mantener su cuenta segura. A esto se le denomina autenticación de varios factores.
 
-   Le recomendamos que tenga más de un método de autentificación en su cuenta. Puede elegir entre varias opciones de autentificación. Si selecciona un mensaje de texto o de voz como método de autentificación, tendrá que añadir también otro método de autentificación.
+   Le recomendamos que tenga más de un método de autenticación en su cuenta. Puede elegir entre varias opciones de autenticación.
 
    **Más seguro:**
 
    * Solicitud de autenticación
    * Clave de seguridad
    * Tarjeta PIV o CAC para empleados del gobierno federal o militares
-   * Desbloqueo facial o táctil
 
    **Menos seguro:**
 

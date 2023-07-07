@@ -27,24 +27,13 @@ Une fois que vous aurez complété les étapes sur Login.gov, nous vous enverron
 
 Apportez la même carte d'identité que vous avez utilisée sur Login.gov. Votre pièce d'identité ne doit pas être périmée. Pour l'instant, seules les pièces d'identité suivantes, délivrées par l'État, sont acceptées : 
 
-* Un permis de conduire des 50 États, du district de Columbia (D. C.) et des autres territoires américains (Guam, îles Vierges américaines, îles Mariannes et Porto Rico).
+* Un permis de conduire des 50 États, du district de Columbia (D. C.) et des autres territoires américains (Guam, îles Vierges américaines, Samoa américaines, îles Mariannes et Porto Rico).
 * Une carte d'identité sans permis de conduire délivrée par l'État.
 * * Il s'agit d'un document d'identité délivré par l'État, le district de Columbia (D. C.) ou le territoire américain, qui atteste de l'identité mais ne donne pas le droit de conduire.
 
 Nous n'acceptons actuellement aucune autre forme d'identification, comme les passeports et les cartes d'identité militaires. Vous ne pouvez pas vérifier votre identité au bureau de poste sans un document d'identité délivré par l'État. Nous travaillons actuellement à l'ajout d'autres moyens de vérifier votre identité.
 
 En attendant, veuillez contacter le centre d'assistance de l'agence partenaire pour savoir ce que vous pouvez faire.
-
-### Preuve de votre adresse actuelle
-
-Si votre adresse actuelle ne correspond pas à l'adresse figurant sur votre pièce d'identité, vous devrez apporter une preuve de votre adresse actuelle au bureau de poste. Les formes acceptables de preuve d'adresse sont :
-
-* Bail, hypothèque ou acte de fiducie
-* Inscription sur les listes électorales
-* Carte d'immatriculation d’un véhicule
-* Police d'assurance habitation ou véhicule
-
-Vous pouvez apporter une copie physique ou montrer une copie numérique du document. Vous ne pouvez pas montrer une photo ou une capture d'écran du document. 
 
 ## Terminez la procédure dans un bureau de poste participant avant la date limite.
 
@@ -91,12 +80,6 @@ Si vous ne parvenez pas à vérifier votre identité en personne, vous pouvez r�
 Conseils pour vérifier votre identité en personne: 
 
 * Votre pièce d’identité ou votre permis de conduire délivré par l’État doit être en cours de validité. Nous n’acceptons actuellement aucune autre forme d’identification.
-* Apportez un justificatif de domicile valide si votre adresse actuelle est différente de celle qui figure sur votre pièce d’identité. Pour vérifier votre adresse actuelle, vous pouvez apporter votre:
-
-  * Bail, hypothèque ou acte de fiducie
-  * Inscription sur les listes électorales
-  * Carte d’immatriculation de véhicule
-  * Police d’assurance habitation ou automobile
 
 ### Ce qu’il faut faire si le délai pour vérifier votre identité en personne est passé
 

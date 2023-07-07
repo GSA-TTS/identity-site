@@ -1,3 +1,6 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+
 /// Mixin to prefix a property
 /// @author Hugo Giraudel
 /// @param {String} $property - Property name
@@ -25,7 +28,7 @@
     padding-left: $container-spacing-sm;
     padding-right: $container-spacing-sm;
 
-    @include at-media("desktop") {
+    @include at-media('desktop') {
       padding-left: $container-spacing;
       padding-right: $container-spacing;
     }

@@ -26,34 +26,37 @@ Login.gov partners with agencies that need secure and private access to their ap
 #### What information do we need?
 
 * For authentication to establish a secure account, we need your name, email address, and an authentication method. Your authentication method could be a phone number where we share a SMS code, USB Security Key or other options.
-* Identity proofing requires more sensitive information such as a social security number, address, phone number connected to your address, and U.S. based state ID or driver’s license. Your mobile or telephony carrier (any branded carrier) may disclose your mobile number, name, address, email, network status, customer type, customer role, billing type, mobile device identifiers (IMSI and IMEI) and other subscriber status and device details, if available, to our third party service provider, solely to verify your identity for the duration of the business relationship.
+* Identity proofing requires more sensitive information such as a social security number, address, phone number, and U.S. based state ID or driver’s license. Your phone carrier may disclose your mobile number, name, address, email, network status, customer type, customer role, billing type, mobile device identifiers (IMSI and IMEI) and other subscriber status and device details, if available, to our third party service provider, solely to verify your identity for the duration of the business relationship.
 * To mitigate fraud, we also analyze the device used to access Login.gov, identity, and behavior such as how you interact with forms on the page.
 
 ### Routine Uses - With whom is the information routinely shared? ### {#routine-uses}
 
-* To third party identity proofing services, as necessary to identity proof an individual for access to a service.
+* To third parties providing remote or in-person authentication and identity proofing services, including other federal agencies providing such services, as necessary to authenticate or identity proof you for access to a participating government website or application.
 * To an expert, consultant, or contractor of GSA in the performance of a Federal duty to which the information is relevant.
-* To the Government Publishing Office (GPO), when Login.gov needs to mail a user an address confirmation form or if a user requests mailed notifications of account changes or of proofing attempts.
+* To the Government Publishing Office (GPO), when Login.gov needs to mail you an address confirmation form or if you request mailed notifications of account changes or of proofing attempts.
+* To other federal agencies and third-party fraud prevention services as necessary to detect and investigate suspected fraud, including providing you with redress.
 
-This list is not comprehensive. Please see [system of records notice GSA/TTS-1](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records) for all entities and individuals.
+This list is not comprehensive. Please see [system of records notice GSA/TTS-1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records) for all entities and individuals.
 
 #### What happens to the information you share?
 
 All records are stored electronically in a database in GSA’s Amazon Web Services (AWS) environment. You can modify, or amend, either your email address or phone number on [your account page](https://secure.login.gov/account).
 
-Your personal information, including profiles, log-in files, password files, audit trail files and extracts, system usage records, and agency billing data used to assess charges for system use, will be maintained for at least six years following the altering of a password or deletion of your account, unless longer retention is required for business use, such as for law enforcement matters or other legal actions in accordance with National Archives and Records Administration (NARA) guidance. Login.gov must be able to provide users access to information and services at partner agencies and therefore may have a business need to retain the information longer than the six-year retention period.
+Your personal information, including profiles, log-in files, password files, audit trail files and extracts, system usage records, and agency billing data used to assess charges for system use, will be maintained for as long as you have an active account, unless longer retention is required for business use, such as for law enforcement matters or other legal actions in accordance with National Archives and Records Administration (NARA) guidance. This personal information is necessary to provide users access to information and services at partner agencies.
 
-There may be circumstances where we are required to share certain data. Please refer to the routine uses above for more information on those circumstances.
+There may be circumstances where we are required to share certain data. Please refer to the “routine uses” section of the system of records notice linked above for more information on those circumstances.
 
-Even when we share the information with law enforcement, with the exception of email, we cannot access PII because the information is encrypted in a manner that is unretrievable to the Login.gov team.
+Even when we share the information with law enforcement, we cannot access the PII you submit because the information is encrypted in a manner that is unretrievable to the Login.gov team.
+
+Images of State IDs, however, are retrievable. Login.gov retains the image of your U.S. based State ID or driver’s license in an encrypted format. The image is only retrieved and decrypted upon the mutual determination of Login.gov and the partner agency for law enforcement purposes due to suspected fraud. 
 
 ### Consent - How can you control what information is shared? ### {#consent}
 
-The partner agency requests specific, personal information to grant you access to your account. You decide if you want to share that information and you can revoke consent at any time. Sharing your information is voluntary. All records are stored electronically in a database in GSA’s Amazon Web Services (AWS) environment. You can modify, or amend, either your email address or phone number on [your account page](https://secure.login.gov/account).
+You decide if you want to share personal information with any agency and you can revoke consent at any time. You can modify, or amend, either your email address or phone number on [your account page](https://secure.login.gov/account).
 
 However, failure to provide complete and accurate information may delay access to the partner agency. Login.gov does not make any eligibility or suitability determinations; that is the responsibility of the government websites that use the Login.gov service.
 
-Other than as specified in this Privacy Policy and our Rules of Use, we will never share your information without your consent. Your validated personal data is encrypted and the only way to share it with a partner agency is if you, the authorized user, enter your password and explicitly grant consent to share the information. When accessing systems at the IRS, you consent to share data from each attempt you make to assert your identity as well as any future security impacting account activities. This data is encrypted in a manner only the IRS can see.
+Other than as specified in this Privacy Policy and our Rules of Use, we will never share your information without your consent. Your validated personal data is encrypted and the only way to share it with a partner agency is if you, the authorized user, enter your password and explicitly grant consent to share the information. Your document images are encrypted and stored in a manner that can only be accessed if both Login and the agency agree to decrypt them. When accessing systems at the IRS, you consent to share data from each attempt you make to assert your identity as well as any future security-impacting account activities. This data is encrypted in a manner only the IRS can see.
 
 When you create an account or visit a new partner agency website after you have created your account, you will see the option to consent to share your information with the partner agency. You are required to give consent yearly for each agency.
 
@@ -65,14 +68,14 @@ Fraud is someone pretending to be you and attempting to access a partner agency 
 
 ### Records - Where can you find more information? ### {#records}
 
-Please see the Login.gov system of records notice (GSA/TTS–1) at [www.gsa.gov/SORN](https://www.gsa.gov/SORN).
+Please see the Login.gov system of records notice ([GSA/TTS–1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records)).
 
 ### Website Analytics – Other data we collect ### {#analytics}
 
 Other data, like the pages you visit and the length of your session, are aggregated into reports to help us better understand how the site is being used and how we can make it more helpful. The data is anonymized. No personally identifying user information is tied to this data and it is only shared anonymously with the Login.gov team.
 
-We collect device information and behavioral analytics to assess for risk of misuse. This information is stored in an obfuscated manner. Login.gov is able to assess device and behavioral risk from this obscured data store, but neither Login.gov nor its providers can read the information. 
+We collect device information and behavioral analytics to assess for risk of misuse. This information is stored in an obfuscated manner. Login.gov is able to assess device and behavioral risk from this obscured data store, but neither Login.gov nor its providers can read the information.
 
 ### Privacy Impact Assessment ### {#impact}
 
-View our privacy impact assessment at [www.gsa.gov/PIA](https://www.gsa.gov/PIA).
+View our privacy impact assessment at [www.gsa.gov/PIA](https://www.gsa.gov/PIA) for further details on how Login.gov collects, uses, secures, and destroys information in ways that protect privacy.

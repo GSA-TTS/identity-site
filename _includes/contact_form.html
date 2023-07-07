@@ -476,24 +476,22 @@
         site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_agency
         }}
       </option>
+      {% assign all_applications_sorted = site.data[page.lang].settings.contact_page.support_request_form.agencies | sort_by_values %}
       <optgroup
         label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_common }}"
       >
-        {% for common_application in include.common_applications %}
-        <option value="{{ common_application }}">
-          {{
-          site.data[page.lang].settings.contact_page.support_request_form.agencies[common_application]
-          }}
-        </option>
+        {% for application in all_applications_sorted %}
+          {% assign common_application = include.common_applications | find_exp: 'item', 'item == application.key' %}
+          {% if common_application %}
+            <option value="{{ application.key }}">{{ application.value }}</option>
+          {% endif %}
         {% endfor %}
       </optgroup>
       <optgroup
         label="{{ site.data.[page.lang].settings.contact_page.support_request_form.labels.agency_application_all }}"
       >
-        {% assign all_applications_sorted =
-        site.data[page.lang].settings.contact_page.support_request_form.agencies | sort_by_values %}
         {% for application in all_applications_sorted %}
-        <option value="{{ application.key }}">{{ application.value }}</option>
+          <option value="{{ application.key }}">{{ application.value }}</option>
         {% endfor %}
       </optgroup>
       <optgroup
@@ -524,8 +522,8 @@
 
     <!-- START: Description -->
     <label class="usa-label" for="description">
-      {{ 
-        site.data.[page.lang].settings.contact_page.support_request_form.labels.description 
+      {{
+        site.data.[page.lang].settings.contact_page.support_request_form.labels.description
       }}<abbr title="{{ site.data.[page.lang].settings.contact_page.required }}" class="usa-hint usa-hint--required">*</abbr>
     </label>
     <div class="usa-hint">

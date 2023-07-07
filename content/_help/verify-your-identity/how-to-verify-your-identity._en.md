@@ -18,7 +18,7 @@ You will need to verify your identity and secure your account.
 1. Your State-Issued ID. You can upload a photo of your ID by phone or by computer. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification/) 
 1. Social Security number
 1. Your phone number 
-    * If we can't verify your phone number, you can verify by mail instead which takes approximately 3-5 days. 
+    * If we can't verify your phone number, you can verify by mail instead which takes approximately 3-7 business days. 
 
 If you are missing any of this information, please contact the government agency you are trying to access.
 

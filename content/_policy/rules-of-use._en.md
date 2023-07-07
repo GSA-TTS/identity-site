@@ -22,13 +22,17 @@ These terms of service provide:
 
 The Login.gov service offers the public secure and private online access to participating government programs. With one Login.gov account, you can sign into services offered by multiple government agencies. Our goal is to make managing federal benefits, services, and applications easier and more secure.
 
-The Login.gov service partners with other federal agencies ("partners") to allow users to access those services with just one Login.gov account, eliminating the need to create many separate accounts across government.
+The Login.gov service partners with other federal agencies (“partners”) to allow you to access those services with just one Login.gov account, eliminating the need to create many separate accounts across government.
 
-The Login.gov service protects your account by implementing strong security measures and protects your privacy by collecting the minimally necessary information from you and, in turn, revealing to partners only the information necessary for those partners to execute their service. And Login.gov never shares validated personal information with a partner without your explicit consent (which you can revoke at any time) or if required by law.
+The Login.gov service protects your account by implementing strong security measures and protects your privacy by collecting the minimally necessary information from you and, in turn, revealing to partners only the information necessary for those partners to execute their service. And Login.gov never shares validated personal information with a federal partner unless:
 
-Some government applications that use Login.gov require users to verify their identities. This means that you must prove that you are who you say you are. That proof helps ensure that only the right people get access to sensitive information.
+1. You provided explicit consent (which you can revoke that at any time);
+2. Disclosure is required by law; or
+3. Disclosure is necessary to investigate fraud related to your account.
 
-You will only be asked to verify your identity the first time you sign into certain government applications. You only need to verify your identity once for your Login.gov account. After you verify your identity with Login.gov for one government application, you don't need to do it again for other government applications. By providing the Login.gov service with the information needed to verify your account, you authorize it to use that information to conduct activities necessary to ensure your identity, including sharing information with certain third parties, namely identity proofing services. The Login.gov service requires those parties to hold your information confidentially and not to use it for other purposes, as detailed in our [privacy policy]({% link _policy/privacy._en.md %}).
+Some government applications that use Login.gov require you to verify your identity. This means that you must prove that you are who you say you are. That proof helps ensure that only the right people get access to sensitive information.
+
+You will only be asked to verify your identity the first time you sign into certain government applications. After you verify your identity with Login.gov for one government application, you usually don’t need to do it again for other government applications. When you sign into IRS.gov for the first time, however, you will always need to verify your identity even if you have already done so for another application. By providing the Login.gov service with the information needed to verify your account, you authorize it to use that information to conduct activities necessary to ensure your identity, including sharing information with certain third parties, namely identity proofing services. The Login.gov service requires those parties to hold your information confidentially and not to use it for other purposes, as detailed in our [Privacy Policy]({% link _policy/privacy._en.md %}).
 
 The Login.gov service employs recognized security and privacy best practices.
 
@@ -55,9 +59,9 @@ We will post any changes to these terms to this page. If the changes affect our 
 
 Accessing an account on the Login.gov service is called authentication. Authentication to the Login.gov service requires multi-factor authentication (or two factor authentication) as a means of providing strong protection against malicious attempts to access your account and information.
 
-We provide several ways to establish multi-factor authentication, called authenticators. You will always be required to create a passphrase as one of your authenticators and to use that passphrase to authenticate to your account (except for PIV/CAC use, which is applicable to federal personnel only). Passphrases are like passwords, but they allow you more flexibility, such as by using words and spaces, and generally don't have composition rules such as requiring the use of numbers or special characters.
+We provide several ways to establish multi-factor authentication, called authenticators. You will always be required to create a passphrase as one of your authenticators and to use that passphrase to authenticate to your account (except for PIV/CAC use, which is applicable to federal personnel only). Passphrases are like passwords, but they allow you more flexibility, such as by using words and spaces, and generally don’t have composition rules such as requiring the use of numbers or special characters.
 
-We encourage you to set up multiple additional authenticators. This way, if you misplace one authenticator, you can still get into your account and won't lose any information.
+We encourage you to set up multiple additional authenticators. This way, if you misplace one authenticator, you can still get into your account and won’t lose any information.
 
 The authenticators currently available to you in the Login.gov service are:
 
@@ -66,7 +70,7 @@ The authenticators currently available to you in the Login.gov service are:
 3. One-time passcodes through SMS (text) or voice messaging, sent to a mobile device you control;
 4. One-time passcodes through authenticators apps such as Google Authenticator or Authy, downloaded to a mobile device of your own and registered with Login.gov;
 5. PIV and CAC cards, for federal and armed forces personnel only;
-6. webauthN security devices and software, such as FIDO ("Fast IDentity Online") tokens, Yubikeys, and Google's Titan Security Keys, obtained by you and registered with Login.gov;
+6. WebauthN security devices and software, such as FIDO (“Fast IDentity Online”) tokens, Yubikeys, and Google’s Titan Security Keys, obtained by you and registered with Login.gov;
 
 Login.gov does not renew, reissue, or expire authenticators, but you can revoke an authenticator associated with your account at any time and, if desired, re-add it later. The Login.gov service does not issue physical authenticators. Authenticators other than passphrases or backup codes require hardware or software that you provide yourself.
 
@@ -74,29 +78,29 @@ When you register an authenticator with the Login.gov service, you agree to allo
 
 For physical authenticators such as printed out backup codes, a hardware token, or a phone, protect them by keeping them in a safe place or with you. Don’t let them get damaged. If they get lost, broken, or damaged, you may lose access to your account.
 
-If you forget your passphrase, you can reset it if you have access to your registered email address. If you don't have any of your other authenticators available, you can still access your account, but we will delete any information contained in it. You can change your passphrase at any time from your account profile. If you lose another authenticator or no longer wish to use it, you can deactivate it in your account profile at any time.
+If you forget your passphrase, you can reset it if you have access to your registered email address. If you don’t have any of your other authenticators available, you can still access your account, but we will delete any information contained in it. You can change your passphrase at any time from your account profile. If you lose another authenticator or no longer wish to use it, you can deactivate it in your account profile at any time.
 
 If we suspect fraud on your account, we may lock your account and contact you. If we have reason to believe your passphrase has been compromised, we may require that you reset it.
 
 ## 4. Identity Proofing and Verification
 
-The first time you try to log in using Login.gov at a partner application that requires a high degree of certainty that you are who you say you are, we initiate a process called identity proofing. Identity proofing takes information about you and attempts to validate that information and then verify that you, the user, are the individual you claim to be. We call this information identity evidence and it generally includes your name, date of birth, social security number, home address, and a photo of identification, such as your driver's license or passport. You agree the information that you provide is your information - not someone else’s - and accurate.
+The first time you try to log in using Login.gov at a partner application that requires a high degree of certainty that you are who you say you are, we initiate a process called identity proofing. Identity proofing takes information about you and attempts to validate that information and then verify that you, the user, are the individual you claim to be. We call this information identity evidence and it generally includes your name, date of birth, social security number, home address, and an image of identification, such as your driver’s license. You agree the information that you provide is your information - not someone else’s - and accurate.
 
-After you provide us with this identity evidence, we attempt to validate it against various authoritative sources. We use third party identity proofing services to assist us with this validation. For instance, if you submit a photo of your driver's license from your state of residence, we'll compare the information on it to the authoritative data from your state Department of Motor Vehicles (DMV), Motor Vehicle Administration (MVA), or equivalent state agency to ensure that you exist in those records. We'll also use technology to look for certain security features on the driver's license to ensure that it's not fake.
+After you provide us with this identity evidence, we attempt to validate it against various authoritative sources. We use third party identity proofing services to assist us with this validation. For instance, if you submit an image of your driver’s license from your state of residence, we’ll compare the information on it to the authoritative data from your state Department of Motor Vehicles (DMV), Motor Vehicle Administration (MVA), or equivalent state agency to ensure that you exist in those records. We’ll also use technology to look for certain security features on the driver’s license to ensure that it’s not fake.
 
-Similarly, we'll compare the information you give us to other records for added confidence in your identity. We may, for instance, verify that your name, date of birth, address, and social security number all match in records with a credit bureau. While we won't check your credit, we will ensure that such a person exists to protect you from identity fraud. We may also check with other sources, such as mobile network operators, to confirm the information you provide us. If we can't validate your address in other ways, we may confirm you live there by sending you a letter with a code that you enter into the Login.gov service.
+Similarly, we’ll compare the information you give us to other records for added confidence in your identity. We may, for instance, verify that your name, date of birth, address, and social security number all match in records with a credit bureau. While we won’t check your credit, we will ensure that such a person exists to protect you from identity fraud. We may also check with other sources to confirm the information you provide us. If we can’t validate your address in other ways, we may confirm you live there by sending you a letter with a code that you enter into the Login.gov service.
 
-In addition to validating the identity evidence you provide to us, we verify that you are that person. We assess the device being used to access Login.gov, the identity being proofed, and the user’s behavior during identity proofing. We collect information from the device to perform this assessment. That information is stored in a manner which precludes Login.gov from reading it. However, Login.gov can still perform the assessment. Neither Login.gov nor any third party service keeps copies of any photo you send us. We further detail how we use your information in our [Privacy Policy]({% link _policy/index._en.md %}).
+In addition to validating the identity evidence you provide to us, we verify that you are that person. We assess the device being used to access Login.gov, the identity being proofed, and your behavior during identity proofing. We collect information from the device to perform this assessment. Your personal information is stored in a manner which precludes Login.gov from reading it. However, Login.gov can still assess information about your device. We further detail how we use your information in our [Privacy Policy]({% link _policy/index._en.md %})
 
 ## 5. Termination
 
-You can terminate your account at any time through your account profile. Additionally, in the event of fraud or other violations of these Rules of Use, we may revoke access to your account. If this occurs, we will still protect your account information consistent with our [Privacy Policy]({% link _policy/index._en.md %}) and System of Record Notice [here](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) and [here](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records).
+You can terminate your account at any time through your account profile. Additionally, in the event of fraud or other violations of these Rules of Use, we may revoke access to your account. If this occurs, we will still protect your account information consistent with our [Privacy Policy]({% link _policy/index._en.md %}) and [System of Records Notice](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records).
 
-In the unlikely event that the Login.gov service is discontinued, information on the account will be retained subject to our System of Records Notice, as amended, which you can access [here](https://www.federalregister.gov/documents/2017/01/19/2017-01174/privacy-act-of-1974-notice-of-a-new-system-of-records) and [here](https://www.federalregister.gov/documents/2017/08/10/2017-16852/privacy-act-of-1974-system-of-records). Specifically, user information, including profiles, log-in files, password files, audit trail files and extracts, system usage files, and cost-back files used to assess charges for system use are destroyed 6 years after password is altered or user account is terminated, unless longer retention is required for business use, such as for law enforcement matters or other legal actions.
+In the unlikely event that the Login.gov service is discontinued, information on the account will be retained subject to our [System of Records Notice](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records), as amended. Specifically, user information, including profiles, log-in files, password files, audit trail files and extracts, system usage files, and cost-back files used to assess charges for system use are maintained in accordance with GSA’s Records Retention Schedule, GRS 03.2.
 
 ## 6. Authorities
 
-The Login.gov service is operated within the United States, but is accessible globally for public use. The Login.gov service is operated by the General Services Administration under authorities and guidance found in [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), the [E-Government Act of 2002](https://www.congress.gov/107/plaws/publ347/PLAW-107publ347.pdf) ([44 USC § 3501](https://www.govinfo.gov/content/pkg/PLAW-104publ13/html/PLAW-104publ13.htm)), and [40 USC § 501](https://www.gsa.gov/cdnstatic/CNXII__Eligibility_to_Use_GSA.pdf), and [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
+The Login.gov service is operated within the United States, but is accessible globally for public use. The Login.gov service is operated by the General Services Administration under authorities and guidance found in [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), the E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), and [40 USC § 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim), and [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
 ## 7. Service Operation and Customer Support
 
@@ -114,25 +118,27 @@ Customer support and help desk services are always available through [https://lo
 
 The Login.gov service connects the public to federal agencies more easily by allowing users to access multiple government programs with one Login.gov account.
 
-Partner agencies select the information they require from the list of attributes we support. If we don't already have it, we request that information from you; validate it, and ask for your consent to share it with the partner agency. Partners can request a variety of information such as name, address, birth date, phone number and email address. Partners are required to protect this information in compliance with federal law and policy.
+Partner agencies select the information they require from the list of attributes we support. If we don’t already have it, we request that information from you; validate it, and ask for your consent to share it with the partner agency. Partners can request a variety of information such as name, address, birth date, phone number and email address. Partners are required to protect this information in compliance with federal law and policy.
 
 During the process of becoming a partner on the Login.gov service, we collect information from the agency about the type of access they are providing and, from that information, come to agreement with the partner on the risk of the application and the need for personal information. Based on this, we determine the level of information the partner may receive.
 
-In anticipation of possible integrations with the Internal Revenue Service (IRS): only when accessing IRS systems via Login.gov, the IRS requires information surrounding attempts to access an account or verify identity. This information will be sent to the IRS in a manner only the IRS can access it. Login.gov will not retain this unvalidated personal identifiable information beyond 72 hours.
+Images of your U.S. based state ID or driver’s licenses are retained in an encrypted format. These images are only retrieved and decrypted upon the mutual determination of Login.gov and the partner agency for law enforcement purposes due to suspected fraud.
 
-We will never share validated personal identifiable information with a partner without your explicit consent. You may revoke this consent at any time, and we will revoke the partner's access to the information. The partner may retain it subject to their data retention policies. The Login.gov service does not collect any information you provide directly to the partner.
+The IRS requires information surrounding attempts to access an account or verify identity. When accessing IRS systems via Login.gov, this information is sent to the IRS in a way that only the IRS can access it. Login.gov will not retain this unvalidated personal identifiable information beyond 7 days.
 
-Prospective partners and other interested parties can find more information about the partner onboarding process [here](https://developers.login.gov/).
+We will never share validated personal identifiable information with a partner without your explicit consent, as required by law, or as otherwise stated in these Rules of Use. You may revoke this consent at any time, and we will revoke the partner’s access to the information. The partner may, however, retain this information subject to their data retention policies. The Login.gov service does not collect any information you provide directly to the partner.
+
+Prospective partners and other interested parties can find more information about the partner onboarding process from the Login.gov [developer guide](https://developers.login.gov/).
 
 ## 9. Fees
 
-There are no fees charged to the user for registering or using the Login.gov service. There is no fee associated with connecting to our partners, though the partners themselves may charge fees for some of their services, such as making a reservation, purchasing an item, or applying for a service.
+There are no fees charged to you for registering or using the Login.gov service. There is no fee associated with connecting to our partners, though the partners themselves may charge fees for some of their services, such as making a reservation, purchasing an item, or applying for a service.
 
 ## 10. Representations, Warranties and Liabilities
 
 Disclaimer of Warranties
 
-Login.gov services are provided "as is" and on an "as-available" basis. GSA hereby disclaims all warranties of any kind, express or implied, including without limitation the warranties of merchantability, fitness for a particular purpose, and non-infringement. GSA makes no warranty that the services will be error free or that access thereto will be continuous or uninterrupted.
+Login.gov services are provided “as is” and on an “as-available” basis. GSA hereby disclaims all warranties of any kind, express or implied, including without limitation the warranties of merchantability, fitness for a particular purpose, and non-infringement. GSA makes no warranty that the services will be error free or that access thereto will be continuous or uninterrupted.
 
 ### 1. General Representations
 
@@ -154,8 +160,8 @@ Any disputes arising out of this Agreement and access to or use of the services 
 
 ### 3. No Waiver of Rights
 
-GSA's failure to exercise or enforce any right or provision of this Agreement shall not constitute waiver of such right or provision.
+GSA’s failure to exercise or enforce any right or provision of this Agreement shall not constitute waiver of such right or provision.
 
 ### 4. Contacting Us
 
-If you have questions about these terms or any other aspect of the Login.gov service, you can contact us at [https://login.gov/contact/]({% link _policy/contact._en.md %}).
+If you have questions about these terms or any other aspect of the Login.gov service, you can contact us at <https://login.gov/contact>.

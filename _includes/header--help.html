@@ -6,7 +6,7 @@
           <img
             src="{{ site.baseurl }}/assets/img/logo.svg"
             class="usa-logo__img"
-            alt="login.gov home"
+            alt="{{ site.data.[page.lang].settings.accessible_labels.login_link_logo }}"
           />
         </a>
         <a href="{{ '/help/' | locale_url }}" class="usa-logo__help">
@@ -29,7 +29,7 @@
             {% assign subpage_url = '/help/' | append: subpage_slug | append: '/' | locale_url %}
             {% assign path_split_subpage = page.path | split: subpage_url %}
             {% assign subpage_has_current = 'false' %}
-            {% assign articles = site.help | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang" | sort: 'order' %}
+            {% assign articles = site.help | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang and item.child == nil or item.child == false" | sort: 'order' %}
             {% for article in articles %}
               {% if page.url == article.url %}
                 {% assign subpage_has_current = 'true' %}
@@ -46,18 +46,35 @@
             </button>
             <ul id="help-header-nav-{{ subpage_slug }}" class="usa-nav__submenu">
               {% for article in articles %}
-                <li class="usa-nav__submenu-item">
-                  <a
-                    href="{{ article.url | prepend: site.baseurl }}"
-                    class="{% if page.url == article.url %}usa-current{% endif %}"
-                  >
-                    {% if article.meta_title %}
-                      {{ article.meta_title }}
-                    {% else %}
-                      {{ article.title }}
-                    {% endif %}
-                  </a>
-                </li>
+              <li class="usa-nav__submenu-item">
+                <a
+                  href="{{ article.url | prepend: site.baseurl }}"
+                  class="{% if page.url == article.url %}usa-current{% endif %}"
+                >
+                  {% if article.meta_title %}
+                    {{ article.meta_title }}
+                  {% else %}
+                    {{ article.title }}
+                  {% endif %}
+                </a>
+              </li>
+                {% if article.children.size > 0 %}
+                  {% assign children = site.help | where_exp: 'item', 'item.lang == page.lang and article.children contains item.url' | sort: 'order' %}
+                <ul class="usa-nav__submenu">
+                  {% for child in children %}
+                  <li class="usa-nav__submenu-item border-0">
+                    <a class="{% if child.url == page.url %}usa-current{% endif %}"
+                        href="{{ child.url | prepend: site.baseurl }}">
+                        {% if child.meta_title %}
+                          {{ child.meta_title }}
+                        {% else %}
+                          {{ child.title }}
+                        {% endif %}
+                    </a>
+                  </li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
               {% endfor %}
             </ul>
           </li>
@@ -66,7 +83,7 @@
       </div>
 
       <a
-        class="usa-link desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold"
+        class="usa-link display-block desktop:display-none padding-y-1 margin-y-3 text-no-underline text-bold"
         href="{{ '/contact/' | locale_url }}"
       >
         {{ site.data.[page.lang].settings.nav.contact_us.title }}

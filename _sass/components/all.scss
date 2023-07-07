@@ -1,26 +1,24 @@
-@import "site";
-@import "footer";
-@import "form";
-@import "header";
-@import "language-picker";
-@import "list";
-@import "banner";
-@import "already-have-an-account";
-@import "nav";
-@import "hero";
-
-@import "partners/hero";
-@import "partners/checklist";
-@import "partners/partners";
-
-@import "typography";
-@import "svg";
-
-@import "nav-secondary";
-@import "nav-sidenav";
-@import "skip-nav";
-@import "layout";
-@import "box-info";
-@import "card";
-
-@import "sticky-table";
+@forward 'alert';
+@forward 'already-have-an-account';
+@forward 'banner';
+@forward 'box-info';
+@forward 'card';
+@forward 'footer';
+@forward 'form';
+@forward 'header';
+@forward 'hero';
+@forward 'language-picker';
+@forward 'layout';
+@forward 'list';
+@forward 'nav';
+@forward 'nav-secondary';
+@forward 'nav-sidenav';
+@forward 'partners/checklist';
+@forward 'partners/hero';
+@forward 'partners/partners';
+@forward 'search';
+@forward 'site';
+@forward 'skip-nav';
+@forward 'sticky-table';
+@forward 'svg';
+@forward 'typography';

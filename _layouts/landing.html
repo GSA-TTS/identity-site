@@ -7,7 +7,8 @@ layout: base
   {% include header.html %}
 </header>
 <main id="main-content">
-  {% include hero.html class=page.class heading=page.title text=page.description %}
+  {% assign hero_class = page.class | default: '' | append: ' usa-section--dark' %}
+  {% include hero.html class=hero_class heading=page.title text=page.description %}
 
   {% if page.class == 'what-is-login' %}
     {% include components/2-col.html class=page.class col1=page.component.col1 bannertext=page.component.bannertext bannercol1=page.component.bannercol1 bannercol2=page.component.bannercol2 col2=page.component.col2 image=page.component.image %}

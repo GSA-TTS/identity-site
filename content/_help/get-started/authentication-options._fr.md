@@ -16,24 +16,13 @@ redirect_from:
   - /fr/help/authentication-methods/which-authentication-method-should-i-use/
   - /fr/help/authentication-methods/
 ---
-En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d'authentification secondaire pour assurer la sécurité de votre compte. Il s'agit d'une authentification à deux facteurs (A2F). Nous utilisons l'A2F comme un niveau de protection supplémentaire pour sécuriser vos informations.
+En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d'authentification pour assurer la sécurité de votre compte. Il s'agit d'une authentification multifactorielle (AMF). Nous utilisons l'AMF comme un niveau de protection supplémentaire pour sécuriser vos informations.
 
-**Authentification secondaire**
+**Méthodes d'authentification**
 Nous vous recommandons fortement d'ajouter deux méthodes d'authentification à votre compte. Si vous perdez l'accès à votre première méthode d'authentification (par exemple, si vous perdez votre téléphone), vous aurez la possibilité d'utiliser la seconde méthode pour accéder à votre compte. Login.gov n'est pas en mesure de vous donner accès à votre compte si vous êtes bloqué et/ou si vous oubliez votre méthode d'authentification. Si vous êtes bloqué, vous devrez supprimer votre compte et en créer un nouveau.
 
 **Sécurité**
 Bien que vous avez le choix entre plusieurs options d'authentification, certaines méthodes d'authentification telles que les clés de sécurité, les cartes à puce PIV/CAC et les applications d'authentification sont plus efficaces contre les tentatives d'hameçonnage et le vol.
-
-## Déverrouillage facial ou tactile
-<small class="display-block margin-top-neg-2"><em>(L'option permettant d'ajouter cette méthode d'authentification est temporairement indisponible)</em></small>
-
-Le déverrouillage facial ou tactile utilise la reconnaissance faciale ou les empreintes digitales pour vous connecter à votre compte Login.gov. Cette option est protégée contre le hameçonnage.
-
-Vous pouvez uniquement utiliser le déverrouillage facial ou tactile sur un appareil qui prend en charge cette fonctionnalité. Cette option ne sera pas disponible dans la liste des méthodes d'authentification si votre appareil ne dispose pas de cette fonction. Nous ne conservons pas vos empreintes digitales ni vos images.
-
-Le déverrouillage facial ou tactile étant spécifique à l'appareil et au navigateur, vous devrez utiliser le même appareil et le même navigateur à l'avenir pour vous connecter en utilisant cette méthode d'authentification. Vous devrez donner un nom à votre appareil pour vous aider à vous souvenir de l'appareil utilisé.
-
-Nous vous recommandons vivement de configurer une deuxième méthode d'authentification au cas où vous changeriez ou perdriez votre appareil. Si vous perdez ou changez votre appareil et que vous n'avez pas sélectionné de méthode d'authentification alternative, vous devrez supprimer votre compte et en créer un nouveau.
 
 ## Applications d'authentification
 
@@ -64,10 +53,6 @@ Login.gov exige des clés de sécurité répondant aux normes de la [FIDO (« 
 
 Pour utiliser cette option sécurisée pour vous authentifier sur Login.gov, connectez la clé à un port USB et attribuez-lui un nom pour pouvoir l'identifier avec votre compte Login.gov. L'étape suivante vous invitera à activer votre clé. Cela se fait généralement en appuyant sur un bouton présent sur la clé.
 
-## Cartes PIV ou CAC pour les employés du gouvernement et les militaires
-
-Les cartes physiques PIV (vérification d'identité personnelle) ou CAC (cartes d'accès communes) sont des options sécurisées pour les employés du gouvernement et le personnel militaire. Ces cartes, dotées de puces cryptées, résistent aux tentatives d'hameçonnage et sont difficiles à pirater en cas de vol.
-
 ## Messages texte/appels téléphoniques
 
 Les messages texte/SMS ou les appels téléphoniques sont pratiques, mais sont extrêmement vulnérables face au vol, au piratage et à d'autres attaques.
@@ -93,6 +78,10 @@ Les codes de secours sont une option accessible aux utilisateurs ne disposant pa
 
 Si vous sélectionnez cette option moins sécurisée, Login.gov générera un ensemble de dix codes. Après vous être connecté avec votre nom d'utilisateur et votre mot de passe, un code vous sera demandé. Chaque code ne peut être utilisé qu'une seule fois. Lorsque le dixième code aura été utilisé, vous serez invité à télécharger une nouvelle liste. Traitez vos codes de secours avec les mêmes précautions que pour votre mot de passe.
 
+## Cartes PIV ou CAC pour les employés du gouvernement et les militaires
+
+Les cartes physiques PIV (vérification d'identité personnelle) ou CAC (cartes d'accès communes) sont des options sécurisées pour les employés du gouvernement et le personnel militaire. Ces cartes, dotées de puces cryptées, résistent aux tentatives d'hameçonnage et sont difficiles à pirater en cas de vol.
+
 ## Pas de téléphone ni d’autre méthode d'authentification
 
 Si vous ne pouvez pas utiliser de téléphone, d'application d'authentification, de clé de sécurité ou d’autres options d'authentification, vous pouvez configurer votre compte en utilisant uniquement des codes de secours.
@@ -102,3 +91,14 @@ Si vous ne pouvez pas utiliser de téléphone, d'application d'authentification,
 Lors de la création de votre compte, vous accéderez à la page « Sécuriser votre compte ». C'est à cet endroit que vous devez choisir votre principale méthode d'authentification. Si vous ne pouvez utiliser aucune des autres options, sélectionnez « Codes de secours » et cliquez sur « Continuer ».
 
 Sur la page « Ajouter une autre méthode », sélectionnez « Je ne dispose d'aucune des options ci-dessus » et cliquez sur « Continuer ».
+
+## Déverrouillage facial ou tactile
+<small class="display-block margin-top-neg-2"><em>(L'option permettant d'ajouter cette méthode d'authentification est temporairement indisponible)</em></small>
+
+Le déverrouillage facial ou tactile utilise la reconnaissance faciale ou les empreintes digitales pour vous connecter à votre compte Login.gov. Cette option est protégée contre le hameçonnage.
+
+Vous pouvez uniquement utiliser le déverrouillage facial ou tactile sur un appareil qui prend en charge cette fonctionnalité. Cette option ne sera pas disponible dans la liste des méthodes d'authentification si votre appareil ne dispose pas de cette fonction. Nous ne conservons pas vos empreintes digitales ni vos images.
+
+Le déverrouillage facial ou tactile étant spécifique à l'appareil et au navigateur, vous devrez utiliser le même appareil et le même navigateur à l'avenir pour vous connecter en utilisant cette méthode d'authentification. Vous devrez donner un nom à votre appareil pour vous aider à vous souvenir de l'appareil utilisé.
+
+Nous vous recommandons vivement de configurer une deuxième méthode d'authentification au cas où vous changeriez ou perdriez votre appareil. Si vous perdez ou changez votre appareil et que vous n'avez pas sélectionné de méthode d'authentification alternative, vous devrez supprimer votre compte et en créer un nouveau.

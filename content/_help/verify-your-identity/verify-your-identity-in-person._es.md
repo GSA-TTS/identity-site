@@ -27,7 +27,7 @@ Una vez que haya completado los pasos en Login.gov, le enviaremos por correo ele
 
 Lleve el mismo documento de identidad que utilizó en Login.gov. Su identificación no debe estar vencida. En este momento, solo se aceptan las siguientes identificaciones emitidas por el estado: 
 
-* Licencia de conducir de los 50 estados, del Distrito de Columbia (DC) y de otros territorios de Estados Unidos (Guam, Islas Vírgenes de Estados Unidos, Islas Marianas y Puerto Rico)
+* Licencia de conducir de los 50 estados, del Distrito de Columbia (DC) y de otros territorios de Estados Unidos (Guam, Islas Vírgenes de Estados Unidos, Samoa Americana, Islas Marianas y Puerto Rico)
 * Una identificación emitida por el estado que no sea una licencia de conducir
 
   * Se trata de un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de EE.UU. que confirme la identidad, pero no otorga privilegios de conducción.
@@ -35,17 +35,6 @@ Lleve el mismo documento de identidad que utilizó en Login.gov. Su identificaci
 Actualmente no aceptamos otras formas de identificación, como pasaportes o carnés militares. No podrá verificar su identidad en la oficina de correos sin un documento de identidad emitido por el estado. Actualmente estamos trabajando para añadir más formas de verificar su identidad.
 
 Hasta entonces, póngase en contacto con el centro de ayuda de la agencia asociada para saber qué puede hacer.
-
-### Comprobante de domicilio actual
-
-Si su dirección actual no coincide con la que figura en su documento de identidad, tendrá que llevar un comprobante de su dirección actual a la oficina de correos. Los comprobantes de domicilio aceptados son:
-
-* Contrato de arrendamiento, hipoteca o escritura de fideicomiso.
-* Registro de votación.
-* Tarjeta de registro del vehículo.
-* Póliza de seguro de hogar o de vehículo.
-
-Puede traer una copia física o mostrar una copia digital del documento. No puede mostrar una foto o una captura de pantalla del documento. 
 
 ## Complete el proceso en una oficina de correos adherida antes de la fecha límite
 
@@ -91,12 +80,6 @@ Si no puedes verificar tu identidad en persona, puedes [intentarlo otra vez en l
 Consejos para verificar tu identidad en persona:
 
 * Tu identificación oficial o licencia de conducir emitida por el gobierno estatal no debe estar vencida. Actualmente no aceptamos ningún otro tipo de identificación.
-* Trae un comprobante de domicilio válido si tu dirección actual no es la que aparece en tu identificación. Para verificar tu dirección actual puedes traer tu:
-
-  * Contrato de arrendamiento, hipoteca o escritura de fideicomiso.
-  * Registro electoral.
-  * Tarjeta de registro vehicular.
-  * Póliza de seguro de casa o automóvil.
 
 ### Qué hacer si ha pasado el plazo para verificar su identidad de manera presencial
 

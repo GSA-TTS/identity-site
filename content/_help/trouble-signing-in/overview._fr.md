@@ -1,8 +1,8 @@
 ---
 title: Des problèmes de connexion?
 category: trouble-signing-in
-meta_title: Aperçu
 permalink: /fr/help/trouble-signing-in/overview/
+meta_title: Des problèmes de connexion?
 order: 0
 redirect_from:
   - /fr/help/signing-in/

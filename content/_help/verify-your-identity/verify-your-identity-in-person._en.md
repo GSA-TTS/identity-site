@@ -28,7 +28,7 @@ Once you complete the steps on Login.gov, we’ll email you a barcode and a dead
 
 Bring the same ID you used on Login.gov. Your ID must not be expired. At this time, only the following state-issued identification is accepted: 
 
-* Driver’s license from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, Mariana Islands and Puerto Rico)
+* Driver’s license from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, American Samoa, Mariana Islands and Puerto Rico)
 * A non-driver’s license state-issued ID card
 
   * This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
@@ -36,17 +36,6 @@ Bring the same ID you used on Login.gov. Your ID must not be expired. At this ti
 We do not currently accept any other forms of identification, such as passports and military IDs. You cannot verify your identity at the Post Office without a state-issued ID. We’re currently working to add more ways to verify your identity.
 
 In the meantime, please contact the partner agency’s help center to find out what you can do.
-
-### Proof of your current address
-
-If your current address does not match the address on your ID, you will need to bring proof of your current address to the Post Office. Acceptable forms of proof of address are:
-
-* Lease, Mortgage, or Deed of Trust
-* Voter Registration
-* Vehicle Registration Card
-* Home or Vehicle Insurance Policy
-
-You can bring a physical copy or show a digital copy of the document. You cannot show a photo or screenshot of the document. 
 
 ## Complete the process at a participating Post Office before your&nbsp;deadline
 
@@ -92,12 +81,6 @@ If you are unable to successfully verify your identity in person, you can try to
 Tips for verifying your identity in person: 
 
 * Your state-issued ID or driver’s license must not be expired. We do not currently accept any other forms of identification.
-* Bring a valid proof of address if your current address is different from the address displayed on your ID. To verify your current address you can bring your:
-
-  * Lease, mortgage, or deed of trust
-  * Voter registration
-  * Vehicle registration card
-  * Home or vehicle insurance policy
 
 ### What to do if the deadline to verify your identity in person passed
 

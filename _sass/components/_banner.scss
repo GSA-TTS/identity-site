@@ -1,3 +1,8 @@
+@use 'uswds-core' as *;
+@use '../colors' as *;
+@use '../mixins/all' as *;
+@use '../variables' as *;
+
 .one-account-banner,
 .partners-banner {
   background-color: $white;
@@ -25,7 +30,7 @@
 
 .one-account-banner__backdrop::before,
 .partners-banner__backdrop::before {
-  @include u-pin("all");
+  @include u-pin('all');
   opacity: 0.6;
   content: '';
 }
@@ -35,16 +40,16 @@
   background-position: -22rem -6rem;
   background-repeat: no-repeat;
   background-size: 160%;
-  @include at-media("mobile-lg") {
+  @include at-media('mobile-lg') {
     background-size: 120%;
   }
 
-  @include at-media("tablet") {
+  @include at-media('tablet') {
     background-size: 90%;
     opacity: 0.9;
   }
 
-  @include at-media("desktop") {
+  @include at-media('desktop') {
     background-size: 70%;
   }
 }
@@ -53,16 +58,16 @@
   background-image: url(../img/partners/banners/partners-login.svg);
   background-repeat: no-repeat;
   background-position: -6rem -6rem;
-  @include at-media("card") {
+  @include at-media('card') {
     background-size: 70%;
   }
 
-  @include at-media("tablet") {
+  @include at-media('tablet') {
     background-size: 40%;
     opacity: 0.9;
   }
 
-  @include at-media("desktop") {
+  @include at-media('desktop') {
     background-size: 30%;
   }
 }

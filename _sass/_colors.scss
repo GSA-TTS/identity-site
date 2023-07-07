@@ -1,17 +1,19 @@
+@use 'uswds-core' as *;
+
 $white: #fff;
-$grey-lightest: color("base-lightest");
-$grey: color("base");
-$grey-darker: color("base-darker");
-$black: color("base-darkest");
+$grey-lightest: color('base-lightest');
+$grey: color('base');
+$grey-darker: color('base-darker');
+$black: color('base-darkest');
 
-$blue: color("primary");
-$blue-light: color("primary-light");
-$blue-lighter: color("primary-lighter");
-$blue-lightest: color("primary-lightest");
-$blue-mid: color("primary-dark");
-$navy: color("primary-darker");
+$blue: color('primary');
+$blue-light: color('primary-light');
+$blue-lighter: color('primary-lighter');
+$blue-lightest: color('primary-lightest');
+$blue-mid: color('primary-dark');
+$navy: color('primary-darker');
 
-$red: color("secondary");
+$red: color('secondary');
 
-$error: color("error");
-$success: color("success");
+$error: color('error');
+$success: color('success');

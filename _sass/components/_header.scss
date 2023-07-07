@@ -1,3 +1,5 @@
+@use '../variables' as *;
+
 header {
   &.intro {
     border-bottom: $border-style;
@@ -7,9 +9,10 @@ header {
   }
 }
 
-.usa-banner__header-text, .usa-banner__button-text {
-  font-size: .75rem;
-  line-height: 1.5em
+.usa-banner__header-text,
+.usa-banner__button-text {
+  font-size: 0.75rem;
+  line-height: 1.5em;
 }
 
 .create-account-btn-link {

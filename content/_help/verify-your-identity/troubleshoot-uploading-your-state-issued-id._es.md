@@ -6,7 +6,7 @@ order: 4
 ---
 No es necesario que suba una foto suya o se haga un selfie para verificar su identidad. Sin embargo, se requiere [una foto clara de su documento de identidad emitido por el estado](/es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/). Si tomaste una foto que cumple con los requisitos, intenta los siguientes pasos si todavía recibes un error al subir tu identificación emitida por el estado.
 
-Tienes 10 intentos para subir tu documento. Una vez que realices los 10 intentos, el sistema te bloqueará durante seis horas como medida de seguridad.
+Tienes 5 intentos para subir tu documento. Una vez que realices los 5 intentos, el sistema te bloqueará durante seis horas como medida de seguridad.
 
 Si los siguientes pasos no funcionan y no puedes completar el proceso de verificación de identidad, ponte en contacto con la agencia a la que intentas acceder.
 

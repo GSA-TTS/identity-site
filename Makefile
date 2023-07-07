@@ -16,10 +16,13 @@ typecheck-js:
 
 lint-assets:
 	npm run optimize-assets > /dev/null
-	npm run viewbox || (echo "Make sure all SVG images have a viewBox attribute"; exit 1)
 	git diff --quiet assets/img || (echo "Error: Optimize SVG images using 'npm run optimize-assets'"; exit 1)
 
-lint: lint-js lint-assets validate-lockfiles typecheck-js
+lint-yaml:
+	npm run normalize-yaml
+	(! git diff --name-only | grep ".*\.yml$$") || (echo "Error: Run 'make normalize_yaml' to normalize YAML"; exit 1)
+
+lint: lint-js lint-assets lint-yaml validate-lockfiles typecheck-js
 
 test: build
 	bundle exec rspec spec

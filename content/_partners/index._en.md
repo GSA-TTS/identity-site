@@ -27,9 +27,15 @@ services:
   subheading3: Multilingual user support
   col_class3: multilingual
   col3: >-
-    Comprehensive, multilingual support for your end-users Monday-Friday, 8 a.m.-8 p.m. ET.
+    Comprehensive, multilingual support for your end-users 24 hours a day, seven days a week.
 
     [Learn about user support](/partners/our-services/#multilingual-support-for-your-end-users){:class="partners-multilingual caret"}
+
+roadmap: 
+  title:
+    Roadmap
+  body:
+    Learn more about our services and the planned direction of the program via the [Login.gov Program Roadmap](/partners/roadmap/){:class="caret"}
 
 right_for_you:
   heading: Is Login.gov right for you?

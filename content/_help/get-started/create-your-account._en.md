@@ -1,8 +1,8 @@
 ---
 layout: help
+title: Create your Login.gov account
 category: get-started
 permalink: /help/get-started/create-your-account/
-title: Create your Login.gov account
 order: 1
 redirect_from:
   - /en/help/get-started/create-your-account/
@@ -19,21 +19,27 @@ Follow these steps to create your Login.gov account.
 4. Click the **“Confirm your email address”** button in the message. This will take you back to the Login.gov website.
 5. Create your Login.gov password.
 
-   Passwords must be at least 12 characters. That's it! There are no other restrictions. You can even use more than one word with spaces to get to 12 characters. Try using a phrase or a series of words that only you recognize.
+   * To help prevent identity theft, consider strengthening your password by using: 
+     * Unique phrases that only you recognize 
+     * Multiple words with spaces to get to 12 characters 
+     * Numbers and special characters 
 
-   Your Login.gov password should be different from passwords you use for other accounts such as your bank account or email. Using the same password for many accounts makes identity theft easier.
+
+   * Your password must have 12 or more characters and avoid combinations such as:
+     * Common phrases or repeated characters, like abc or 111
+     * Parts of your email address or personal dates, like your birthday
+     * The same password, or parts of it, that you use for other accounts, such as your bank account or email
 6. Set up a second layer of security.
 
-   As an added layer of protection, Login.gov requires you set up a secondary authentication method to keep your account secure. This is referred to as two-factor authentication (2FA).
+   As an added layer of protection, Login.gov requires you set up an authentication method to keep your account secure. This is referred to as multi-factor authentication (MFA).
 
-   We encourage you to have more than one authentication method on your account. You can choose from several authentication options. If you select text or voice message as an authentication method, you are required to also add another authentication method.
+   We encourage you to have more than one authentication method on your account. You can choose from several authentication options.
 
    **More secure:**
 
    * Authentication application
    * Security key
    * PIV or CAC card for federal government employees or military
-   * Face or touch unlock
 
    **Less secure:**
 

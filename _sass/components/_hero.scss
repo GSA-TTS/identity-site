@@ -1,6 +1,8 @@
+@use 'uswds-core' as *;
+@use '../colors' as *;
+@use '../variables' as *;
+
 .hero {
-  background-color: $navy;
-  color: $white;
   padding-top: $container-spacing-sm;
   padding-bottom: $container-spacing-sm;
 
@@ -13,9 +15,9 @@
 
   .hero__title {
     font-size: 1.875rem; // 30px
-    line-height: 1.375em;  // 22px
+    line-height: 1.375em; // 22px
 
-    @include at-media("desktop") {
+    @include at-media('desktop') {
       font-size: 2.5rem; // 40px
     }
   }
@@ -24,14 +26,9 @@
     font-size: 1.125rem; // 18px
     line-height: $line-height;
 
-    @include at-media("desktop") {
+    @include at-media('desktop') {
       font-size: 1.25rem; // 20px
     }
-  }
-
-  &.partners {
-    background-color: color('white');
-    color: color('ink');
   }
 }
 
@@ -41,38 +38,38 @@
 
 .hero {
   padding: 0;
-  @include at-media("tablet") {
+  @include at-media('tablet') {
     height: 16rem;
   }
-  @include at-media("desktop") {
+  @include at-media('desktop') {
     height: 20rem;
   }
-  
+
   > .container {
     height: 100%;
     background-repeat: no-repeat;
-    @include at-media("desktop") {
+    @include at-media('desktop') {
       background-image: url(../img/header@2x.png);
       background-position: 100% 50%;
       background-size: 650px;
     }
   }
-  
+
   &.partners {
-    @include at-media("tablet") {
-    background: no-repeat url(../img/partners/heroes/partners-hero.svg) 80% / 100% ;
-    background-size: 30%;
+    @include at-media('tablet') {
+      background: no-repeat url(../img/partners/heroes/partners-hero.svg) 80% / 100%;
+      background-size: 30%;
       > .container {
         background: none;
       }
     }
-    
-    @include at-media("desktop") {
-    height: 28rem;
+
+    @include at-media('desktop') {
+      height: 28rem;
     }
   }
 
-  @include at-media("desktop") {
+  @include at-media('desktop') {
     &.what-is-login {
       > .container {
         line-height: 1.375em;
@@ -81,7 +78,7 @@
         background-size: 45%;
       }
     }
-    
+
     &.who-uses-login {
       background-image: url(../img/who-uses-login/who-uses-illo-header/who-uses-illo-header@2x.png);
       background-position: right center;

@@ -24,9 +24,11 @@ contact_phone_number_location: 'bottom' # acceptable values are 'top' and 'botto
 # Contact page maintenance window
 contact_maintenance_start_time: null
 contact_maintenance_end_time: null
+contact_maintenance_phone_available: true
 
 # Unplanned outage configuration
 contact_unplanned_outage: false
+contact_unplanned_outage_phone_available: false
 
 # Used to load country code support
 idp_base_url: https://secure.login.gov
@@ -98,7 +100,9 @@ include:
   # dotfiles are excluded by default
   - .well-known
   - docs/accessibility-assessment-ial1-account-creation.pdf
-  - docs/accessibility-assessment-ial2-identity-verification-process.pdf
+  - docs/identity-verification-report.docx
+  - docs/identity-verification-report.pdf
+  - docs/login-gov-roadmap-may-2023.pdf
 
 exclude:
   - babel.config.json
