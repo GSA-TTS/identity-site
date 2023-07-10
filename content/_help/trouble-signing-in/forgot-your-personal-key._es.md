@@ -3,7 +3,7 @@ layout: help
 title: Olvidaste tu clave personal 
 category: trouble-signing-in
 permalink: /es/help/trouble-signing-in/forgot-your-personal-key/
-order: 3 
+order: 4
 redirect_from:
   - /es/help/trouble-signing-in/forgot-your-personal-key/
 ---

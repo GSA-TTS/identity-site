@@ -7,7 +7,7 @@ redirect_from:
   - /fr/help/signing-in/
   - /fr/help/signing-in/how-to-sign-in/
 ---
-Chaque fois que vous vous connecterez à votre compte Login.gov, vous aurez besoin de votre adresse électronique, de votre mot de passe et d'un accès à l'une des méthodes d'authentification à deux facteurs que vous aurez mises en place.
+Chaque fois que vous vous connecterez à votre compte Login.gov, vous aurez besoin de votre adresse électronique, de votre mot de passe et d'un accès à l'une des [méthodes d'authentification](/fr/help/get-started/authentication-options/) à deux facteurs que vous aurez mises en place.
 
 Suivez ces étapes pour vous connecter à Login.gov.
 
@@ -17,7 +17,7 @@ Suivez ces étapes pour vous connecter à Login.gov.
 3. Cliquez sur le bouton « Se connecter ».
 4. Authentifiez-vous à l'aide d'une des méthodes que vous avez mises en place. Les options comprennent
 
-   * Utilisation du déverrouillage facial ou tactile
+   * Numérisation de votre visage ou de votre empreinte digitale
    * Saisie d'un code de sécurité à partir de votre demande d'authentification
    * Utilisation de votre clé de sécurité
    * En saisissant un code à usage unique que vous recevez par SMS ou par appel téléphonique
