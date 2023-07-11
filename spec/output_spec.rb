@@ -11,6 +11,7 @@ RSpec.describe '_site' do
       .jpeg
       .jpg
       .js
+      .map
       .pdf
       .png
       .svg
@@ -25,6 +26,7 @@ RSpec.describe '_site' do
       admin/config.yml
       assets/css/main.css.map
       assets/js/main.js.LICENSE.txt
+      assets/js/contact.js.LICENSE.txt
       browserconfig.xml
       manifest.json
       robots.txt
