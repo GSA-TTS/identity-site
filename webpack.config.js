@@ -19,13 +19,6 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
     filename: '[name].js',
     path: `${__dirname}/_site/assets/js`,
   },
-  // Fix "Can't resolve 'react/jsx-runtime'" error -- this will be fixed in React 18 and this resolve block can be removed
-  resolve: {
-    alias: {
-      'react/jsx-dev-runtime': 'react/jsx-dev-runtime.js',
-      'react/jsx-runtime': 'react/jsx-runtime.js',
-    },
-  },
   module: {
     rules: [
       {
