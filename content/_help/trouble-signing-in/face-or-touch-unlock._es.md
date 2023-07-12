@@ -52,7 +52,6 @@ Para evitar tener que eliminar su cuenta en el futuro, le recomendamos encarecid
 Vaya a [secure.login.gov](https://secure.login.gov/es) y haga clic en "Crear una cuenta".
 
 {: .number-list}
-
 1. Introduzca su dirección de correo electrónico y pulse enviar.
 2. Recibirá un correo electrónico. Haga clic en el enlace del correo electrónico para conﬁrmar su dirección de correo electrónico.
 3. Cree una contraseña. Debe tener al menos 12 caracteres.

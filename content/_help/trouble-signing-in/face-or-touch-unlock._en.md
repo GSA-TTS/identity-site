@@ -51,8 +51,8 @@ To prevent having to delete your account in the future, we strongly recommend se
 ### How do I set up face or touch unlock 
 
 Go to [secure.login.gov](https://secure.login.gov/) and click on "Create an account".
-{: .number-list}
 
+{: .number-list}
 1. Enter your email address and click submit.
 2. You will receive an email. Click on the link in the email to confirm your email address.
 3. Create a password. It must be at least 12 characters long.

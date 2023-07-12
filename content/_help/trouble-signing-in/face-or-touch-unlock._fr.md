@@ -50,8 +50,8 @@ Pour éviter de devoir supprimer votre compte à l'avenir, nous vous recommandon
 ### Comment configurer le déverrouillage facial ou tactile 
 
 Rendez-vous sur le site [secure.login.gov](https://secure.login.gov/) et cliquez sur « Créer un compte ».
-{: .number-list}
 
+{: .number-list}
 1. Saisissez votre adresse courriel et cliquez sur soumettre.
 2. Vous recevrez un courriel. Cliquez sur le lien contenu dans le courriel pour confirmer votre adresse courriel.
 3. Créez un mot de passe. Il doit comporter au moins 12 caractères.
