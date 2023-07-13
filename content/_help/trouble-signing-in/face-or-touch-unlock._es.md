@@ -42,7 +42,7 @@ Si sigue teniendo problemas, es posible que tenga que [eliminar su cuenta](/es/h
 
 ### He perdido mi teléfono o tengo uno nuevo, y ahora no puedo usar el desbloqueo facial o táctil para acceder.
 
-El desbloqueo facial o táctil sólo funcionará en el dispositivo original con el que lo configuró, a menos que configure el desbloqueo facial o táctil en un dispositivo y un navegador más recientes que admitan [claves de acceso](https://fidoalliance.org/passkeys/){:target="_blank"}, y que tengan activado el bluetooth o la sincronización en la nube entre sus cuentas.
+El desbloqueo facial o táctil sólo funcionará en el dispositivo original con el que lo configuró, a menos que configure el desbloqueo facial o táctil en un dispositivo y un navegador más recientes que admitan [claves de acceso](https://fidoalliance.org/passkeys/){:target="_blank" class="usa-link--external"}, y que tengan activado el bluetooth o la sincronización en la nube entre sus cuentas.
 
 Si el desbloqueo facial o táctil está vinculado a su dispositivo y ya no tiene acceso a él, es posible que tenga que [eliminar su cuenta](/es/help/manage-your-account/delete-your-account/) y crear una nueva. [Póngase en contacto con nosotros](/es/contact/) si necesita ayuda.
 
@@ -50,7 +50,7 @@ Para evitar tener que eliminar su cuenta en el futuro, le recomendamos encarecid
 
 ### Cómo configuro el desbloqueo facial o táctil 
 
-Vaya a [secure.login.gov](https://secure.login.gov/es) y haga clic en "Crear una cuenta".
+Vaya a [secure.login.gov](https://secure.login.gov/es){:target="_blank" class="usa-link--external"} y haga clic en "Crear una cuenta".
 
 {: .number-list}
 1. Introduzca su dirección de correo electrónico y pulse enviar.

@@ -43,7 +43,7 @@ If you are still having trouble, you may need to [delete your account](/en/help/
 
 ### I lost my phone or got a new phone, and now I can’t use face or touch unlock to sign in.
 
-Face or touch unlock will only work on the original device you set it up with unless you set up face or touch unlock on a newer device and browser that supports [passkeys](https://fidoalliance.org/passkeys/){:target="_blank"}, and has bluetooth and/or cloud-sync between your accounts enabled.
+Face or touch unlock will only work on the original device you set it up with unless you set up face or touch unlock on a newer device and browser that supports [passkeys](https://fidoalliance.org/passkeys/){:target="_blank" class="usa-link--external"}, and has bluetooth and/or cloud-sync between your accounts enabled.
 
 If face or touch unlock is tied to your device and you don’t have access to it any longer, you may need to [delete your account](/en/help/manage-your-account/delete-your-account/) and create a new one. Please [contact us](/en/contact/) if you need assistance.
 
@@ -51,7 +51,7 @@ To prevent having to delete your account in the future, we strongly recommend se
 
 ### How do I set up face or touch unlock 
 
-Go to [secure.login.gov](https://secure.login.gov/){:target="_blank"} and click on "Create an account".
+Go to [secure.login.gov](https://secure.login.gov/){:target="_blank" class="usa-link--external"} and click on "Create an account".
 
 {: .number-list}
 1. Enter your email address and click submit.
