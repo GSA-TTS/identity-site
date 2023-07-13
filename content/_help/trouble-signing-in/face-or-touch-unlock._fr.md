@@ -1,7 +1,7 @@
 ---
 layout: help
-title: Déverrouillage facial ou tactile
-meta_title: Problèmes avec déverrouillage facial ou tactile
+title: Déverrouillage Facial ou tactile
+meta_title: Problèmes avec déverrouillage Facial ou tactile
 category: trouble-signing-in
 permalink: /fr/help/trouble-signing-in/face-or-touch-unlock/
 order: 5
@@ -42,7 +42,7 @@ Si vous rencontrez toujours des difficultés, il se peut que vous deviez [suppri
 
 ### J'ai perdu mon téléphone ou j'en ai changé, et maintenant je ne peux plus utiliser le déverrouillage facial ou tactile pour me connecter.
 
-Le déverrouillage facial ou tactile ne fonctionnera que sur l'appareil d'origine avec lequel vous l'avez configuré, à moins que vous ne configuriez le déverrouillage facial ou tactile sur un appareil et un navigateur plus récents qui prennent en charge les [clés d'accès](https://fidoalliance.org/passkeys/){:target="_blank" class="usa-link--external"}, et que le Bluetooth ou la synchronisation en nuage entre vos comptes ne soient activés.
+Le déverrouillage facial ou tactile ne fonctionnera que sur l'appareil d'origine avec lequel vous l'avez configuré, à moins que vous ne configuriez le déverrouillage facial ou tactile sur un appareil et un navigateur plus récents qui prennent en charge les [clés d'accès](https://fidoalliance.org/passkeys/), et que le Bluetooth ou la synchronisation en nuage entre vos comptes ne soient activés.
 
 Si le déverrouillage facial ou tactile est lié à votre appareil et que vous n'y avez plus accès, il se peut que vous deviez [supprimer votre compte](/fr/help/manage-your-account/delete-your-account/) et en créer un nouveau. Veuillez [nous contacter](/fr/contact/) si vous avez besoin d'aide.
 
@@ -50,7 +50,7 @@ Pour éviter de devoir supprimer votre compte à l'avenir, nous vous recommandon
 
 ### Comment configurer le déverrouillage facial ou tactile 
 
-Rendez-vous sur le site [secure.login.gov](https://secure.login.gov/){:target="_blank" class="usa-link--external"} et cliquez sur « Créer un compte ».
+Rendez-vous sur le site [secure.login.gov](https://secure.login.gov/) et cliquez sur « Créer un compte ».
 
 {: .number-list}
 1. Saisissez votre adresse courriel et cliquez sur soumettre.
