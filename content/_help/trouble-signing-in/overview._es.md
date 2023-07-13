@@ -54,3 +54,4 @@ redirect_from:
 {: .help-question-list}
 * [Cómo acceder a Login.gov](/es/help/trouble-signing-in/how-to-sign-in/)
 * [Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
+* [Desbloqueo facial o táctil](/es/help/trouble-signing-in/face-or-touch-unlock/)
