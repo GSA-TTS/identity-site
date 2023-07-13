@@ -1,6 +1,7 @@
 ---
 layout: help
 title: Déverrouillage facial ou tactile
+meta_title: Problèmes avec déverrouillage facial ou tactile
 category: trouble-signing-in
 permalink: /fr/help/trouble-signing-in/face-or-touch-unlock/
 order: 5
@@ -41,7 +42,7 @@ Si vous rencontrez toujours des difficultés, il se peut que vous deviez [suppri
 
 ### J'ai perdu mon téléphone ou j'en ai changé, et maintenant je ne peux plus utiliser le déverrouillage facial ou tactile pour me connecter.
 
-Le déverrouillage facial ou tactile ne fonctionnera que sur l'appareil d'origine avec lequel vous l'avez configuré, à moins que vous ne configuriez le déverrouillage facial ou tactile sur un appareil et un navigateur plus récents qui prennent en charge les [clés d'accès](https://fidoalliance.org/passkeys/), et que le Bluetooth ou la synchronisation en nuage entre vos comptes ne soient activés.
+Le déverrouillage facial ou tactile ne fonctionnera que sur l'appareil d'origine avec lequel vous l'avez configuré, à moins que vous ne configuriez le déverrouillage facial ou tactile sur un appareil et un navigateur plus récents qui prennent en charge les [clés d'accès](https://fidoalliance.org/passkeys/){:target="_blank"}, et que le Bluetooth ou la synchronisation en nuage entre vos comptes ne soient activés.
 
 Si le déverrouillage facial ou tactile est lié à votre appareil et que vous n'y avez plus accès, il se peut que vous deviez [supprimer votre compte](/fr/help/manage-your-account/delete-your-account/) et en créer un nouveau. Veuillez [nous contacter](/fr/contact/) si vous avez besoin d'aide.
 

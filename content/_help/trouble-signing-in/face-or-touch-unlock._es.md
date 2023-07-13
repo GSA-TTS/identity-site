@@ -1,6 +1,7 @@
 ---
 layout: help
 title: Desbloqueo facial o táctil
+meta_title: Problemas con el desbloqueo facial o táctil
 category: trouble-signing-in
 permalink: /es/help/trouble-signing-in/face-or-touch-unlock/
 order: 5
@@ -41,7 +42,7 @@ Si sigue teniendo problemas, es posible que tenga que [eliminar su cuenta](/es/h
 
 ### He perdido mi teléfono o tengo uno nuevo, y ahora no puedo usar el desbloqueo facial o táctil para acceder.
 
-El desbloqueo facial o táctil sólo funcionará en el dispositivo original con el que lo configuró, a menos que configure el desbloqueo facial o táctil en un dispositivo y un navegador más recientes que admitan [claves de acceso](https://fidoalliance.org/passkeys/), y que tengan activado el bluetooth o la sincronización en la nube entre sus cuentas.
+El desbloqueo facial o táctil sólo funcionará en el dispositivo original con el que lo configuró, a menos que configure el desbloqueo facial o táctil en un dispositivo y un navegador más recientes que admitan [claves de acceso](https://fidoalliance.org/passkeys/){:target="_blank"}, y que tengan activado el bluetooth o la sincronización en la nube entre sus cuentas.
 
 Si el desbloqueo facial o táctil está vinculado a su dispositivo y ya no tiene acceso a él, es posible que tenga que [eliminar su cuenta](/es/help/manage-your-account/delete-your-account/) y crear una nueva. [Póngase en contacto con nosotros](/es/contact/) si necesita ayuda.
 
