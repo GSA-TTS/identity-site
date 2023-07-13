@@ -1,7 +1,7 @@
 ---
 layout: help
-title: Déverrouillage Facial ou tactile
-meta_title: Problèmes avec déverrouillage Facial ou tactile
+title: Déverrouillage facial ou tactile
+meta_title: Problèmes avec déverrouillage facial ou tactile
 category: trouble-signing-in
 permalink: /fr/help/trouble-signing-in/face-or-touch-unlock/
 order: 5
