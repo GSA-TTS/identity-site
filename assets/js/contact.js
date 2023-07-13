@@ -1,4 +1,11 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import AddressSearch from '@18f/identity-address-search';
+
 function verifyCanSubmitEntry() {
+  const root = createRoot(document.getElementById('search-component'));
+  root.render(React.createElement(AddressSearch, {}));
+
   const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
   if (debug && +debug.value) {
     return;
