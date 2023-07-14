@@ -44,12 +44,11 @@ Should include these translations as includes:
       </tr>
     </tbody>
   </table>
-  <div hidden class="usa-alert usa-alert--error" role="alert">
-    <div class="usa-alert__body">
-      <h2 class="usa-alert__heading">{{ include.error_heading }}</h2>
-      <p class="usa-alert__text">
-        {{ include.error_body }}
-      </p>
-    </div>
-  </div>
+
+  {% include alert.html
+     type="error"
+     role="alert"
+     hidden="true"
+     heading=include.error_heading
+     content=include.error_body %}
 </div>

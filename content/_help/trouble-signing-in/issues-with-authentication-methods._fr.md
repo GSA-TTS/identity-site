@@ -5,13 +5,12 @@ permalink: /fr/help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
 ---
 
-En fonction des méthodes d’authentification que vous avez configurées, vous pourrez peut-être encore accéder à votre compte Login.gov. Une fois que vous avez pu vous connecter, assurez-vous d’avoir configuré plusieurs méthodes d’authentification pour éviter de perdre l’accès à votre compte. 
+En fonction des méthodes d’authentification que vous avez configurées, vous pourrez peut-être encore accéder à votre compte Login.gov. Une fois que vous avez pu vous connecter, assurez-vous d’avoir configuré plusieurs méthodes d’authentification pour éviter de perdre l’accès à votre compte.
 
-<div class="usa-alert usa-alert--warning margin-bottom-4" role="status">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">Si vous ne pouvez pas vous connecter avec votre seule méthode d’authentification, vous devrez supprimer votre compte et en créer un nouveau. Login.gov ne peut pas déverrouiller votre compte pour vous ou vous connecter en votre nom.</p>
-  </div>
-</div>
+{% capture delete_account_alert_content %}
+Si vous ne pouvez pas vous connecter avec votre seule méthode d’authentification, vous devrez supprimer votre compte et en créer un nouveau. Login.gov ne peut pas déverrouiller votre compte pour vous ou vous connecter en votre nom.
+{% endcapture %}
+{% include alert.html type="warning" class="margin-bottom-4" content=delete_account_alert_content %}
 
 ## Le déverrouillage facial ou tactile ne fonctionne pas
 
@@ -30,11 +29,10 @@ Nous vous recommandons de configurer d'autres méthodes d'authentification au ca
 * Il se peut que votre code ne vous parvienne pas immédiatement. Attendez jusqu’à 10 minutes ou essayez le bouton « Renvoyer le code » pour envoyer à nouveau votre code.
 * Assurez-vous que vous n’utilisez pas un numéro de téléphone avec une extension, car Login.gov ne peut pas envoyer de codes à usage unique à des extensions.
 
-<div class="usa-alert usa-alert--info margin-bottom-4" role="status">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">Seul le code unique le plus récent que vous recevrez fonctionnera. Si vous demandez et recevez plusieurs messages en même temps, il se peut que vous deviez essayer plusieurs codes jusqu’à ce que l’un d’entre eux fonctionne.</p>
-  </div>
-</div>
+{% capture newest_otp_alert_content %}
+Seul le code unique le plus récent que vous recevrez fonctionnera. Si vous demandez et recevez plusieurs messages en même temps, il se peut que vous deviez essayer plusieurs codes jusqu’à ce que l’un d’entre eux fonctionne.
+{% endcapture %}
+{% include alert.html class="margin-bottom-4" content=newest_otp_alert_content %}
 
 ## Mon application d'authentification ne fonctionne pas
 
