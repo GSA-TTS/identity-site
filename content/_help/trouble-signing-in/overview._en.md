@@ -57,3 +57,4 @@ Forgot your password? Locked out of your account? We'll help you resolve account
 {: .help-question-list}
 * [How to sign in to Login.gov](/help/trouble-signing-in/how-to-sign-in/)
 * [Forgot your password](/help/trouble-signing-in/forgot-your-password/)
+* [Issues with face or touch unlock](/help/trouble-signing-in/face-or-touch-unlock/)
