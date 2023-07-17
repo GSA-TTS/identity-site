@@ -19,7 +19,6 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
     filename: '[name].js',
     path: `${__dirname}/_site/assets/js`,
   },
-
   module: {
     rules: [
       {
@@ -29,4 +28,5 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
       },
     ],
   },
+  devtool: 'source-map',
 });

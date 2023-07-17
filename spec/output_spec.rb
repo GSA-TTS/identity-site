@@ -11,6 +11,7 @@ RSpec.describe '_site' do
       .jpeg
       .jpg
       .js
+      .map
       .pdf
       .png
       .svg
