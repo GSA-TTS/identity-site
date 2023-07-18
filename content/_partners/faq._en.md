@@ -113,7 +113,7 @@ development_accordion:
         id: c-3
         title: How do we get our application to production?
         content: >-
-            <a href="https://developers.login.gov/production/" class="external-link">Check Production deployment for more details</a>. We deploy changes to our production configuration weekly on Thursdays between 11:00 am to 2:00 pm ET. 
+            <a href="https://developers.login.gov/production/" class="external-link">Check Production deployment for more details</a>. We deploy changes to our production configuration on Monday and Thursday by the close of the business day. If regular deployment is scheduled for a holiday then it will be completed on at alternate day. 
     -
         id: c-4
         title: What do you support-SAML vs. OAuth vs. OpenID?
@@ -130,7 +130,7 @@ development_accordion:
         id: c-5
         title: Do we need an approved IAA before we can launch our integration with Login.gov?
         content: >-
-            In order to launch your integration with Login.gov, your agency must first complete an IAA. You can test your application during the IAA process. Once testing is complete and the IAA has been executed, Login.gov aims to launch your integration within two weeks.  [Learn more about our IAA process](/partners/get-started/#iaa-anchor){:class="usa-nav_link caret"}
+            In order to launch your integration with Login.gov, your agency must first complete an IAA. You can test your application during the IAA process. Once testing is complete and the IAA has been executed, Login.gov aims to launch your integration within two weeks. We recommend a grace period between deployment and implementation on your site.  [Learn more about our IAA process](/partners/get-started/#iaa-anchor){:class="usa-nav_link caret"}
     -
         id: c-6
         title: Do you integrate with Commercial Off-The-Shelf (COTS) solutions?
