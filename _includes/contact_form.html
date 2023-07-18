@@ -530,16 +530,14 @@
       ' }}
     </div>
 
-    <div class="usa-alert usa-alert--warning display-none margin-bottom-4" id="pii-warning">
-      <div class="usa-alert__body">
-        <p
-          class="usa-alert__text"
-          id="pii-warning-message"
-          role="alert"
-          data-error="{{ site.data.[page.lang].settings.contact_page.support_request_form.errors.pii_found }}"
-        ></p>
-      </div>
-    </div>
+    {% assign pii_alert_content = site.data.[page.lang].settings.contact_page.support_request_form.errors.pii_found %}
+    {% include alert.html
+       content=pii_alert_content
+       type="warning"
+       id="pii-warning"
+       role="alert"
+       class="margin-bottom-4"
+       hidden="true" %}
 
     <textarea
       id="description"

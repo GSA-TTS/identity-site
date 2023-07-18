@@ -1,10 +1,23 @@
 {% comment %}
 include
 - content
-- type (optional)
+- heading (optional)
+- type (optional, default "info")
+- role (optional)
+- id (optional)
+- class (optional)
+- hidden (optional)
 {% endcomment %}
-<div class="usa-alert usa-alert--{{ include.type | default: 'info' }}">
+<div
+  class="usa-alert usa-alert--{{ include.type | default: 'info' }} {{ include.class }}"
+  {% if include.id %}id="{{ include.id }}"{% endif %}
+  {% if include.role %}role="{{ include.role }}"{% endif %}
+  {% if include.hidden %}hidden{% endif %}
+>
   <div class="usa-alert__body">
+    {% if include.heading %}
+      <h2 class="usa-alert__heading">{{ include.heading }}</h2>
+    {% endif %}
     <p class="usa-alert__text">
       {{ include.content }}
     </p>

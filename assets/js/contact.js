@@ -7,7 +7,6 @@ function verifyCanSubmitEntry() {
   const form = document.getElementById('contact-us-form');
   const error = document.getElementById('captcha-error-message');
   const piiError = document.getElementById('pii-warning');
-  const piiErrorText = document.getElementById('pii-warning-message');
   const descriptionInput = document.getElementById('description');
   let alreadyAttemptedSubmission = false;
   form.addEventListener('submit', (event) => {
@@ -19,17 +18,13 @@ function verifyCanSubmitEntry() {
     } else if (descriptionInput.value.match(/\d{4,}/) && !alreadyAttemptedSubmission) {
       alreadyAttemptedSubmission = true;
       event.preventDefault();
-      piiError.classList.remove('display-none');
-      piiErrorText.textContent = piiErrorText.dataset.error;
+      piiError.hidden = false;
     }
   });
 
   descriptionInput.addEventListener('change', (_) => {
     alreadyAttemptedSubmission = false;
-    if (piiErrorText.textContent) {
-      piiError.classList.add('display-none');
-      piiErrorText.textContent = '';
-    }
+    piiError.hidden = true;
   });
 }
 document.addEventListener('DOMContentLoaded', verifyCanSubmitEntry);

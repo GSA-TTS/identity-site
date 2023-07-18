@@ -7,11 +7,10 @@ order: 3
 
 Dependiendo de los métodos de autenticación que haya configurado, es posible que aún pueda acceder a su cuenta de Login.gov. Una vez que pueda iniciar sesión, asegúrese de haber configurado más de un método de autenticación para evitar perder el acceso a su cuenta.
 
-<div class="usa-alert usa-alert--warning margin-bottom-4" role="status">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">Si no puede iniciar sesión con su único método de autenticación, tendrá que eliminar su cuenta y crear una nueva. Login.gov no puede desbloquear su cuenta ni iniciar sesión en su nombre.</p>
-  </div>
-</div>
+{% capture delete_account_alert_content %}
+Si no puede iniciar sesión con su único método de autenticación, tendrá que eliminar su cuenta y crear una nueva. Login.gov no puede desbloquear su cuenta ni iniciar sesión en su nombre.
+{% endcapture %}
+{% include alert.html type="warning" class="margin-bottom-4" content=delete_account_alert_content %}
 
 ## El desbloqueo facial o táctil no funciona
 
@@ -30,11 +29,10 @@ Le recomendamos que configure métodos de autenticación adicionales por si pier
 * Es posible que su código no llegue inmediatamente. Espere hasta 10 minutos, o pruebe el botón "Reenviar código" para enviar su código de nuevo.
 * Asegúrese de que no está utilizando un número de teléfono con extensión, ya que Login.gov no puede enviar códigos de un solo uso a extensiones.
 
-<div class="usa-alert usa-alert--info margin-bottom-4" role="status">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">Solo funcionará el código de un solo uso más reciente que reciba. Si solicita y recibe varios mensajes al mismo tiempo, es posible que tenga que probar más de un código hasta que uno funcione.</p>
-  </div>
-</div>
+{% capture newest_otp_alert_content %}
+Solo funcionará el código de un solo uso más reciente que reciba. Si solicita y recibe varios mensajes al mismo tiempo, es posible que tenga que probar más de un código hasta que uno funcione.
+{% endcapture %}
+{% include alert.html class="margin-bottom-4" content=newest_otp_alert_content %}
 
 ## Mi aplicación de autenticación no funciona
 
