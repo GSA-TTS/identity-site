@@ -5,7 +5,7 @@ permalink: /fr/help/verify-your-identity/accepted-state-issued-identification/
 order: 2
 ---
 
-Pour l'instant, seules les pièces d'identité suivantes, délivrées par l'État, sont acceptées:
+Pour l'instant, seules les pièces d'identité délivrée par l'État valides suivantes sont acceptées:
 
 Permis de conduire des 50 États, du district fédéral de Columbia (DC) et des autres territoires américains (Guam, îles Vierges américaines, Samoa américaines, îles Mariannes et Porto Rico).
 
@@ -13,6 +13,9 @@ Permis de conduire des 50 États, du district fédéral de Columbia (DC) et des 
 * Il s'agit d'un document d'identité délivré par l'État, le district de Columbia (DC) ou le territoire américain, qui atteste de l'identité mais n'accorde pas le droit de conduire.
 
   * Vous ne pouvez pas vérifier votre identité sur Login.gov sans une pièce d'identité délivrée par l'État.
+
+**Que se passe-t-il si mon permis de conduire ou ma carte d'identité délivrée par l'État est expiré?**
+Vous ne pouvez pas passer la vérification d'identité si votre pièce d'identité est expirée. Les documents de prolongation ne peuvent pas être utilisés à la place d'une pièce d'identité actuelle et non expirée.
 
 **Les cartes d'identité en format papier ou temporaire sont-elles acceptées?**
 Non, vous ne pouvez pas utiliser de carte d'identité en format papier ou temporaire.
