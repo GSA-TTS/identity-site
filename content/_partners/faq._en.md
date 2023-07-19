@@ -113,7 +113,7 @@ development_accordion:
         id: c-3
         title: How do we get our application to production?
         content: >-
-            <a href="https://developers.login.gov/production/" class="external-link">Check Production deployment for more details</a>. We deploy changes to our production configuration on Monday and Thursday by the close of the business day. If regular deployment is scheduled for a holiday then it will be completed on at alternate day. 
+            <a href="https://developers.login.gov/production/" class="external-link">Check Production deployment for more details</a>. We deploy changes to our production configuration on Tuesday and Thursday by the close of the business day. If regular deployment is scheduled for a holiday then it will be completed on at alternate day. 
     -
         id: c-4
         title: What do you support-SAML vs. OAuth vs. OpenID?
