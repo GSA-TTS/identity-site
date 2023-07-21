@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import AddressSearch from '@18f/identity-address-search';
 
-ReactDOM.render(React.createElement(AddressSearch), document.getElementById('search'));
+const root = createRoot(document.getElementById('search'));
+root.render(React.createElement(AddressSearch));
