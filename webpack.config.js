@@ -11,6 +11,7 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
     partners_contact: './assets/js/partners/contact.js',
     touchpoints_translations: './assets/js/touchpoints_translations.js',
     country_support: './assets/js/country_support.js',
+    post_office_search: './assets/js/post_office_search.js',
   },
 
   target: ['web'],

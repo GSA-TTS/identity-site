@@ -56,19 +56,19 @@
     "vnu-jar": "^21.10.12"
   },
   "dependencies": {
+    "@18f/identity-address-search": "1.0.5-beta",
     "@18f/identity-build-sass": "^1.3.0",
     "@18f/identity-design-system": "^7.0.1",
-    "@18f/identity-address-search": "file:./../identity-idp/app/javascript/packages/address-search",
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-typescript": "^7.18.6",
     "babel-loader": "^8.2.4",
     "concurrently": "^7.6.0",
     "core-js": "^3.29.1",
-    "webpack": "^5.76.1",
+    "focus-trap": "^6.7.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "focus-trap": "^6.7.1",
+    "webpack": "^5.76.1",
     "webpack-cli": "^5.0.1"
   }
 }

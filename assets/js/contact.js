@@ -1,12 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import AddressSearch, { InPersonLocations } from '@18f/identity-address-search';
-
 function verifyCanSubmitEntry() {
-  ReactDOM.render(
-    React.createElement(AddressSearch),
-    document.getElementById('search-component'),
-  );
   const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
   if (debug && +debug.value) {
     return;
