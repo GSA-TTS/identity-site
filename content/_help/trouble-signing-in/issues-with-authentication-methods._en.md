@@ -6,13 +6,12 @@ permalink: /help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
 ---
 
-Depending on the authentication methods you’ve set up, you may still be able to access your Login.gov account. After you’re able to sign in, make sure you’ve set up more than one authentication method to avoid losing access to your account. 
+Depending on the authentication methods you’ve set up, you may still be able to access your Login.gov account. After you’re able to sign in, make sure you’ve set up more than one authentication method to avoid losing access to your account.
 
-<div class="usa-alert usa-alert--warning margin-bottom-4" role="status">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">If you cannot sign in with your only authentication method, you will have to delete your account and create a new account. Login.gov cannot unlock your account for you or sign in on your behalf.</p>
-  </div>
-</div>
+{% capture delete_account_alert_content %}
+If you cannot sign in with your only authentication method, you will have to delete your account and create a new account. Login.gov cannot unlock your account for you or sign in on your behalf.
+{% endcapture %}
+{% include alert.html type="warning" class="margin-bottom-4" content=delete_account_alert_content %}
 
 ## Face or touch unlock isn't working
 
@@ -31,11 +30,10 @@ We recommend you set up additional authentication methods in case you lose acces
 * Your code may not arrive immediately. Wait up to 10 minutes, or try the “Resend code” button to send your code again.
 * Make sure you’re not using a phone number with an extension, as Login.gov cannot send one-time codes to extensions.
 
-<div class="usa-alert usa-alert--info margin-bottom-4" role="status">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">Only the newest one-time code you receive will work. If you request and receive multiple messages at the same time, you may need to try more than one code until one works.</p>
-  </div>
-</div>
+{% capture newest_otp_alert_content %}
+Only the newest one-time code you receive will work. If you request and receive multiple messages at the same time, you may need to try more than one code until one works.
+{% endcapture %}
+{% include alert.html class="margin-bottom-4" content=newest_otp_alert_content %}
 
 ## My authenticator app isn’t working
 

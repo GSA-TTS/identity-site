@@ -8,12 +8,15 @@ redirect_from:
   - /en/help/verify-your-identity/accepted-state-issued-identification/
 ---
 
-At this time, only the following state-issued identification is accepted: 
+At this time, only the following valid state-issued identification is accepted: 
 
 * Driver’s license from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, American Samoa, Mariana Islands and Puerto Rico)
 * A non-driver’s license state-issued ID card
 
   * This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges.
+
+**What if my driver’s license or state-issued ID card is expired?**
+You cannot pass identity verification if your ID is expired. Extension documents cannot be used in place of a current, unexpired ID.
 
 **Are paper or temporary IDs accepted?**
 No, you cannot use a paper or temporary ID. 

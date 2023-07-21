@@ -20,16 +20,6 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
     filename: '[name].js',
     path: `${__dirname}/_site/assets/js`,
   },
-
-  resolve: {
-    alias: {
-      'react/jsx-dev-runtime': 'react/jsx-dev-runtime.js',
-      'react/jsx-runtime': 'react/jsx-runtime.js',
-      'core-js/modules/web.url': 'core-js/modules/web.url.js',
-      'core-js/modules/web.immediate': 'core-js/modules/web.immediate.js'
-    },
-  },
-
   module: {
     rules: [
       {
@@ -39,6 +29,5 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
       },
     ],
   },
-
-  devtool: false,
+  devtool: 'source-map',
 });

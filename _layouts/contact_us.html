@@ -11,29 +11,27 @@ common_applications:
 ---
 
 {% if site.contact_maintenance_start_time and site.contact_maintenance_end_time %}
-  <div id="contact-us-maintenance-alert" class="usa-alert usa-alert--warning" hidden>
-    <div class="usa-alert__body">
-      <p class="usa-alert__text">
-        {{ page.maintenance_window_content }}
-        {% if site.contact_maintenance_phone_available %}
-          {{ page.phone_available_content }}
-        {% endif %}
-      </p>
-    </div>
-  </div>
+  {% capture maintenance_alert_content %}
+    {{ page.maintenance_window_content }}
+    {% if site.contact_maintenance_phone_available %}
+      {{ page.phone_available_content }}
+    {% endif %}
+  {% endcapture %}
+  {% include alert.html
+     type="warning"
+     id="contact-us-maintenance-alert"
+     hidden="true"
+     content=maintenance_alert_content %}
 {% endif %}
 
 {% if site.contact_unplanned_outage %}
-  <div class="usa-alert usa-alert--warning">
-    <div class="usa-alert__body">
-      <p class="usa-alert__text">
-        {{ page.unplanned_outage_content }}
-        {% if site.contact_unplanned_outage_phone_available %}
-          {{ page.phone_available_content }}
-        {% endif %}
-      </p>
-    </div>
-  </div>
+  {% capture outage_alert_content %}
+    {{ page.unplanned_outage_content }}
+    {% if site.contact_unplanned_outage_phone_available %}
+      {{ page.phone_available_content }}
+    {% endif %}
+  {% endcapture %}
+  {% include alert.html type="warning" content=outage_alert_content %}
 {% endif %}
 
 {{ page.help_center_content | markdownify }}

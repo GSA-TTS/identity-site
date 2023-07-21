@@ -41,7 +41,7 @@ partnership_steps_body3: >-
 partnership_steps_header4: >-
     Launch integration
 partnership_steps_body4: >-
-     Once testing is complete and the IAA has been executed, Login.gov aims to launch your integration within two weeks.
+     Once testing is complete and the IAA has been executed, Login.gov aims to launch your integration within two weeks. We recommend a grace period between deployment and implementation on your site.
 
 iaa_steps_title: >-
     ## Interagency Agreement (IAA) process
