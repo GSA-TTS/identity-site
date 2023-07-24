@@ -9,5 +9,8 @@
   "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module"
+  },
+  "rules": {
+    "import/no-unresolved": ["error", { "ignore": ["@18f/identity-address-search"] }]
   }
 }
