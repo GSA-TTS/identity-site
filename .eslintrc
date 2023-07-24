@@ -11,6 +11,9 @@
     "sourceType": "module"
   },
   "rules": {
+    // ESLint currently unable to resolve this without resolver plugins
+    // that break other imports
+    // See: https://github.com/import-js/eslint-plugin-import/issues/1810
     "import/no-unresolved": ["error", { "ignore": ["@18f/identity-address-search"] }]
   }
 }
