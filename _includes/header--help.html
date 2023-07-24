@@ -58,22 +58,24 @@
                   {% endif %}
                 </a>
               </li>
-                {% if article.children.size > 0 %}
-                  {% assign children = site.help | where_exp: 'item', 'item.lang == page.lang and article.children contains item.url' | sort: 'order' %}
-                <ul class="usa-nav__submenu">
-                  {% for child in children %}
-                  <li class="usa-nav__submenu-item border-0">
-                    <a class="{% if child.url == page.url %}usa-current{% endif %}"
-                        href="{{ child.url | prepend: site.baseurl }}">
-                        {% if child.meta_title %}
-                          {{ child.meta_title }}
-                        {% else %}
-                          {{ child.title }}
-                        {% endif %}
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
+                {% assign children = site.help | where_exp: 'item', 'item.lang == page.lang and
+                  question.children contains item.url and
+                  item.exclude != true' | sort: 'order' %}
+                {% if children.size > 0 %}
+                  <ul class="usa-nav__submenu">
+                    {% for child in children %}
+                    <li class="usa-nav__submenu-item border-0">
+                      <a class="{% if child.url == page.url %}usa-current{% endif %}"
+                          href="{{ child.url | prepend: site.baseurl }}">
+                          {% if child.meta_title %}
+                            {{ child.meta_title }}
+                          {% else %}
+                            {{ child.title }}
+                          {% endif %}
+                      </a>
+                    </li>
+                    {% endfor %}
+                  </ul>
                 {% endif %}
               {% endfor %}
             </ul>
