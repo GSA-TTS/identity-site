@@ -58,9 +58,11 @@
                   {% endif %}
                 </a>
               </li>
-                {% assign children = site.help | where_exp: 'item', 'item.lang == page.lang and
-                  question.children contains item.url and
-                  item.exclude != true' | sort: 'order' %}
+                {% assign children = site.help
+                   | where_exp: 'item', 'item.lang == page.lang
+                     and question.children contains item.url
+                     and item.exclude != true'
+                   | sort: 'order' %}
                 {% if children.size > 0 %}
                   <ul class="usa-nav__submenu">
                     {% for child in children %}

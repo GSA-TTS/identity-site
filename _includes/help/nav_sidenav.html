@@ -30,9 +30,11 @@
               {{ question.title }}
             {% endif %}
         </a>
-        {% assign children = site.help | where_exp: 'item', 'item.lang == page.lang and
-          question.children contains item.url and
-          item.exclude != true' | sort: 'order' %}
+        {% assign children = site.help
+          | where_exp: 'item', 'item.lang == page.lang
+            and question.children contains item.url
+            and item.exclude != true'
+          | sort: 'order' %}
         {% if children.size > 0 %}
           <ul class="usa-sidenav__sublist">
             {% for child in children %}
