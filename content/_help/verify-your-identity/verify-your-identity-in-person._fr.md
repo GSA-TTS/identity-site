@@ -2,7 +2,7 @@
 title: Vérifier votre identité en personne
 category: verify-your-identity
 children: 
-  - /fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office
+  - /fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---

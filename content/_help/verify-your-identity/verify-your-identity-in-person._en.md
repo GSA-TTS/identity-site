@@ -3,7 +3,7 @@ layout: help
 title: Verify your identity in person
 category: verify-your-identity
 children: 
-  - /help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office
+  - /help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
 permalink: /help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
