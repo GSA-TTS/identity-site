@@ -37,8 +37,9 @@ Follow these steps to create your Login.gov account.
 
    **More secure:**
 
-   * Authentication application
    * Security key
+   * Face or touch unlock
+   * Authentication application
    * PIV or CAC card for federal government employees or military
 
    **Less secure:**

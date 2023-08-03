@@ -34,8 +34,9 @@ Suivez les étapes suivantes pour créer votre compte Login.gov.
 
    **Les plus sûres:**
 
-   * Application d'authentification
    * Clé de sécurité
+   * Déverrouillage facial ou tactile
+   * Application d'authentification
    * Carte PIV ou CAC pour les employés du gouvernement fédéral ou les militaires.
 
    **Les moins sûres:**

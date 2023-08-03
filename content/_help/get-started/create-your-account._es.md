@@ -34,8 +34,9 @@ Siga estos pasos para crear su cuenta de Login.gov.
 
    **Más seguro:**
 
-   * Solicitud de autenticación
    * Clave de seguridad
+   * Desbloqueo facial o táctil
+   * Solicitud de autenticación
    * Tarjeta PIV o CAC para empleados del gobierno federal o militares
 
    **Menos seguro:**
