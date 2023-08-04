@@ -18,6 +18,8 @@ def get_locale(path)
 end
 
 RSpec.describe 'all pages' do
+  let(:old_paths) { YAML.load_file('OLD_URLS.yml').map { |url| URI(url).path } }
+
   files = Dir.glob('**/*.html', base: SITE_ROOT)
   files.reject! { |path| admin_page?(path) || redirect_page?(path) }
   files.sort.each do |path|
@@ -37,13 +39,14 @@ RSpec.describe 'all pages' do
         expect(doc).to properly_escape_html
       end
 
-      it 'links consistently' do
+      it 'links as HTTPS to valid page' do
         aggregate_failures do
           doc.css('a').each do |a|
             next if a[:href].start_with?('#')
             uri = URI(a[:href])
             next if external_link?(uri)
             expect(uri).to be_https_scheme, "expected https, got:\n\n#{a.to_html}"
+            expect(old_paths).not_to include(uri.path)
           end
         end
       end

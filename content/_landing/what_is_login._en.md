@@ -29,7 +29,7 @@ component:
     ## Secure and private access for the public
 
 
-    Login.gov uses [the highest standards of security](/security/) to keep your information safe including identity verification and [two-factor authentication](/help/authentication-methods/which-authentication-method-should-i-use/).
+    Login.gov uses [the highest standards of security](/policy/our-security-practices/) to keep your information safe including identity verification and [two-factor authentication](/help/get-started/authentication-options/).
 
 
     Login.gov is provided by [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
