@@ -1,4 +1,8 @@
 {% if site.show_po_search == true %}
-  <div id="post-office-search"></div>
+  <div
+    id="post-office-search"
+    data-address-search-url="{{ site.po_search_address_search_url }}"
+    data-locations-search-url="{{ site.po_search_locations_search_url }}"
+  ></div>
   <script src="{{'/assets/js/post_office_search.js' | relative_url}}"></script>
 {% endif %}
