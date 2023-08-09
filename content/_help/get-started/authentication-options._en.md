@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Authentication options
+title: Authentication methods
 category: get-started
 permalink: /help/get-started/authentication-options/
 order: 2
