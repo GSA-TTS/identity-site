@@ -1,5 +1,5 @@
 ---
-title: Options d'authentification
+title: Méthodes d’authentification
 category: get-started
 permalink: /fr/help/get-started/authentication-options/
 order: 2
