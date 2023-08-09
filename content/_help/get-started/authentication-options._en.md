@@ -2,7 +2,7 @@
 layout: help
 title: Authentication methods
 category: get-started
-permalink: /help/get-started/authentication-options/
+permalink: /help/get-started/authentication-methods/
 order: 2
 redirect_from:
   - /help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
@@ -16,6 +16,7 @@ redirect_from:
   - /help/security-keys/
   - /help/authentication-methods/which-authentication-method-should-i-use/
   - /help/authentication-methods/
+  - /help/get-started/authentication-options/
   - /en/help/get-started/authentication-options/
 ---
 In addition to your password, Login.gov requires that you set up at least one authentication method to keep your account secure. This is multifactor authentication (MFA). We use MFA as an added layer of protection to secure your information.

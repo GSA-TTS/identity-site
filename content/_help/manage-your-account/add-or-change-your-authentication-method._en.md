@@ -19,10 +19,10 @@ If you lost your authentication method and do not have a backup connected to you
 3. Click the “Sign in” button.
 4. Enter your authentication method.
 5. On your Login.gov account page, review the “Your authentication methods” menu options on the left side of the page.
-6. Select a new device to add. [Learn more about authentication options](/help/get-started/authentication-options/)
+6. Select a new device to add. [Learn more about authentication methods](/help/get-started/authentication-methods/)
 7. Follow all prompts to confirm your changes.
 
 ## Related articles 
-[Authentication options](/help/get-started/authentication-options/)
+[Authentication methods](/help/get-started/authentication-methods/)
 [Forgot your password](/help/trouble-signing-in/forgot-your-password/)
 [Delete your account](/help/manage-your-account/delete-your-account/)
