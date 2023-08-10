@@ -27,5 +27,5 @@ Suivez ces étapes pour vous connecter à Login.gov.
 
 ## Articles connexes
 
-* [Options d'authentification](/fr/help/get-started/authentication-methods/)
+* [Méthodes d’authentification](/fr/help/get-started/authentication-methods/)
 * [Vérifiez votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
