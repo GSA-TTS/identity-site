@@ -9,7 +9,7 @@ redirect_from:
   - /help/signing-in/how-to-sign-in/
   - /en/help/trouble-signing-in/how-to-sign-in/
 ---
-Every time you sign in to your Login.gov account, you will need your email address, your password, and access to one of the [authentication options](/help/get-started/authentication-options/) you set up.
+Every time you sign in to your Login.gov account, you will need your email address, your password, and access to one of the [authentication options](/help/get-started/authentication-methods/) you set up.
 
 Follow these steps to sign in to Login.gov.
 
@@ -29,5 +29,5 @@ Follow these steps to sign in to Login.gov.
 
 ## Related articles
 
-* [Authentication options](/help/get-started/authentication-options/)
+* [Authentication options](/help/get-started/authentication-methods/)
 * [Verify your identity](/help/verify-your-identity/)

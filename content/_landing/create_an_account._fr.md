@@ -19,7 +19,7 @@ steps:
     * Les mots de passe doivent être composés d'au moins 12 caractères et ne doivent pas inclure des mots ou des phrases couramment utilisés.
   step3: >
     ## 3. Une ou plusieurs [méthodes
-    d'authentification](/fr/help/get-started/authentication-options/)
+    d'authentification](/fr/help/get-started/authentication-methods/)
     telles que:
 
     * __Plus sécurisé__

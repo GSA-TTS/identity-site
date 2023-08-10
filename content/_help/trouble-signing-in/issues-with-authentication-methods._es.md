@@ -54,4 +54,4 @@ Solo funcionará el código de un solo uso más reciente que reciba. Si solicita
 
 ## Artículos relacionados
 
-* [Opciones de autenticacións](/es/help/get-started/authentication-options/)
+* [Opciones de autenticacións](/es/help/get-started/authentication-methods/)

@@ -7,7 +7,7 @@ order: 4
 redirect_from:
     - /en/help/manage-your-account/add-or-change-your-authentication-method/
 ---
-[An authentication method](/help/get-started/authentication-options/) is an additional layer of security for your account. We recommend having at least two authentication methods for your account in case you lose one method.
+[An authentication method](/help/get-started/authentication-methods/) is an additional layer of security for your account. We recommend having at least two authentication methods for your account in case you lose one method.
 
 If you lost your authentication method and do not have a backup connected to your account, you will need to [delete your current login.gov account](/help/manage-your-account/delete-your-account/) and create a new one.
 

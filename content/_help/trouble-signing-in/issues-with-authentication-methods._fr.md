@@ -54,4 +54,4 @@ Seul le code unique le plus récent que vous recevrez fonctionnera. Si vous dema
 
 ## Articles connexes
 
-* [Authentication options](/fr/help/get-started/authentication-options/)
+* [Authentication options](/fr/help/get-started/authentication-methods/)

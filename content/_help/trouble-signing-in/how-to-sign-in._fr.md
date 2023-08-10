@@ -7,7 +7,7 @@ redirect_from:
   - /fr/help/signing-in/
   - /fr/help/signing-in/how-to-sign-in/
 ---
-Chaque fois que vous vous connecterez à votre compte Login.gov, vous aurez besoin de votre adresse électronique, de votre mot de passe et d'un accès à l'une des [méthodes d'authentification](/fr/help/get-started/authentication-options/) à deux facteurs que vous aurez mises en place.
+Chaque fois que vous vous connecterez à votre compte Login.gov, vous aurez besoin de votre adresse électronique, de votre mot de passe et d'un accès à l'une des [méthodes d'authentification](/fr/help/get-started/authentication-methods/) à deux facteurs que vous aurez mises en place.
 
 Suivez ces étapes pour vous connecter à Login.gov.
 
@@ -27,5 +27,5 @@ Suivez ces étapes pour vous connecter à Login.gov.
 
 ## Articles connexes
 
-* [Options d'authentification](/fr/help/get-started/authentication-options/)
+* [Options d'authentification](/fr/help/get-started/authentication-methods/)
 * [Vérifiez votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)

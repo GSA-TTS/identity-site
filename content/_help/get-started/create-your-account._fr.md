@@ -45,12 +45,12 @@ Suivez les étapes suivantes pour créer votre compte Login.gov.
    * Appel téléphonique
    * Codes de sauvegarde
 
-   [Renseignez-vous davantage sur chaque option d'authentification](/fr/help/get-started/authentication-options/) pour choisir celle qui vous convient le mieux.
+   [Renseignez-vous davantage sur chaque option d'authentification](/fr/help/get-started/authentication-methods/) pour choisir celle qui vous convient le mieux.
 7. Succès! Une fois que vous vous êtes authentifié, vous avez créé votre compte Login.gov.
 
    Vous serez dirigé vers la page de votre compte Login.gov ou vers l'agence gouvernementale à laquelle vous essayez d'accéder. Vous pouvez ajouter des méthodes d'authentification supplémentaires, des adresses courriel ou mettre à jour vos informations sur la page du compte Login.gov.
 
 ## Articles connexes
 
-* [Options d'authentification](/fr/help/get-started/authentication-options/)
+* [Options d'authentification](/fr/help/get-started/authentication-methods/)
 * [Gérer votre compte](/fr/help/manage-your-account/overview/)
