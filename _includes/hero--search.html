@@ -1,6 +1,6 @@
 <section class="usa-section--dark hero hero--search">
   <div class="container display-flex flex-column flex-justify-center text-center">
     <h1 class="hero__title">{{ site.data.[page.lang].settings.help_page.title }}</h1>
-    <div class="hero__description">{% include search.html size="big" id="help-hero" %}</div>
+    <div class="hero__description">{% include search.html collection=include.collection size="big" id="help-hero" %}</div>
   </div>
 </section>

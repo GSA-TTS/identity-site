@@ -1,12 +1,20 @@
+{% if include.collection %}
+  {% assign action = "https://search.usa.gov/search/docs" %}
+{% else %}
+  {% assign action = "https://search.usa.gov/search" %}
+{% endif %}
 <form
   accept-charset="UTF-8"
-  action="https://search.usa.gov/search"
+  action="{{ action }}"
   class="usa-search{% if include.size %} usa-search--{{ include.size }}{% endif %} display-flex flex-justify-center"
   method="get"
   role="search"
 >
   <input name="utf8" type="hidden" value="&#x2713;" />
   <input name="affiliate" type="hidden" value="login.gov" />
+  {% if include.collection %}
+    <input name="dc" type="hidden" value="{{ include.collection }}" />
+  {% endif %}
   <label class="usa-sr-only" for="search-field-{{ include.id }}"
     >{{ site.data.[page.lang].settings.actions.search }}</label
   >
