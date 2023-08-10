@@ -55,5 +55,5 @@ Follow these steps to create your Login.gov account.
 
 ## Related articles
 
-* [Authentication options](/help/get-started/authentication-methods/)
+* [Authentication methods](/help/get-started/authentication-methods/)
 * [Manage your account](/help/manage-your-account/overview/)
