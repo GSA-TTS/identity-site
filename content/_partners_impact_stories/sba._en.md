@@ -28,7 +28,7 @@ solution: >-
 impact: >-
     ### The impact
 
-    In approximately five months, SBA’s PPP program has been able to support 5,461 lenders and approve 5,158,938 loans helping small businesses keep their workforce employed during COVID-19. SBA’s rapid implementation of login.gov and how they leveraged this government-wide cloud-based identity shared service allowed them to avoid unnecessary burden in their rollout and helped their technology teams focus on their mission and reduce processing times.
+    In approximately five months, SBA’s PPP program has been able to support 5,461 lenders and approve 5,158,938 loans helping small businesses keep their workforce employed during COVID-19. SBA’s rapid implementation of Login.gov and how they leveraged this government-wide cloud-based identity shared service allowed them to avoid unnecessary burden in their rollout and helped their technology teams focus on their mission and reduce processing times.
 
 
     By outsourcing this capability to Login.gov, SBA was able to leverage the years of investment GSA has made in developing this market-leading, strong authentication service. Since the beginning of April, there have been over 180,000 users that have gone through Login.gov at SBA.
