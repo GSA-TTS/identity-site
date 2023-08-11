@@ -76,9 +76,9 @@ Les messages texte/SMS ou les appels téléphoniques sont pratiques, mais sont e
 
 Si vous choisissez d'utiliser cette option moins sécurisée, saisissez un numéro de téléphone sur lequel vous pouvez recevoir des appels téléphoniques ou des messages texte. Si vous avez seulement une ligne fixe, vous devez recevoir votre code à usage unique par appel téléphonique. Login.gov ne peut pas envoyer de codes unique à des extensions ou des messages vocaux.
 
-Nous enverrons un code unique à ce numéro de téléphone chaque fois que vous vous connecterez à votre compte login.gov. Chaque code à usage unique expire après dix minutes et ne peut être utilisé qu'une seule fois. Si vous ne saisissez pas le code unique dans les dix minutes, demandez un nouveau code.
+Nous enverrons un code unique à ce numéro de téléphone chaque fois que vous vous connecterez à votre compte Login.gov. Chaque code à usage unique expire après dix minutes et ne peut être utilisé qu'une seule fois. Si vous ne saisissez pas le code unique dans les dix minutes, demandez un nouveau code.
 
-Après avoir reçu le code, tapez-le dans le champ « Code à usage unique ». Chaque fois que vous vous connecterez à login.gov, vous aurez la possibilité d'obtenir un nouveau code à usage unique par appel téléphonique ou par SMS. Vous recevrez un nouveau code à usage unique chaque fois que vous vous connecterez à votre compte login.gov.
+Après avoir reçu le code, tapez-le dans le champ « Code à usage unique ». Chaque fois que vous vous connecterez à Login.gov, vous aurez la possibilité d'obtenir un nouveau code à usage unique par appel téléphonique ou par SMS. Vous recevrez un nouveau code à usage unique chaque fois que vous vous connecterez à votre compte Login.gov.
 
 <div id="didn-t-receive-your-one-time-code"> Vous n'avez pas reçu votre code à usage unique? </div>
 
