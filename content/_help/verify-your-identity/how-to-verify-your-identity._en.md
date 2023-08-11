@@ -10,7 +10,7 @@ redirect_from:
 
 Some government applications require identity verification. This additional layer of security requires you to prove you are you - and not someone pretending to be you.
 
-You will need to verify your identity and secure your account.
+If you are under 18 years of age, you may not be able to verify your identity for a Login.gov account. If you have trouble verifying your identity, please contact the partner agency to find out what you can do.
 
 ## Requirements for identity verification
 

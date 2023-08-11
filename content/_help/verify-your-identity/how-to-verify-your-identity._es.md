@@ -7,7 +7,7 @@ order: 1
 
 Algunas aplicaciones gubernamentales requieren verificación de identidad. Esta capa adicional de seguridad requiere que pruebes que eres tú y no alguien que finge ser tú.
 
-Necesitarás verificar tu identidad y asegurar tu cuenta.
+Si es menor de 18 años, es posible que no pueda verificar su identidad en su cuenta de Login.gov. Si tiene problemas para verificar su identidad, póngase en contacto con el organismo asociado para saber qué puede hacer.
 
 ## Requisitos para la verificación de identidad
 
