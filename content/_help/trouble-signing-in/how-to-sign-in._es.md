@@ -7,7 +7,7 @@ redirect_from:
   - /es/help/signing-in/
   - /es/help/signing-in/how-to-sign-in/
 ---
-Cada vez que inicie sesión en su cuenta de Login.gov, necesitará su dirección de correo electrónico, su contraseña y contar con alguno de [las opciones de autenticación](/es/help/get-started/authentication-options/) que haya configurado.
+Cada vez que inicie sesión en su cuenta de Login.gov, necesitará su dirección de correo electrónico, su contraseña y contar con alguno de [las opciones de autenticación](/es/help/get-started/authentication-methods/) que haya configurado.
 
 Siga estos pasos para iniciar sesión en Login.gov:
 
@@ -27,5 +27,5 @@ Siga estos pasos para iniciar sesión en Login.gov:
 
 ## Artículos relacionados
 
-* [Opciones de autenticación](/es/help/get-started/authentication-options/)
+* [Métodos de autenticación](/es/help/get-started/authentication-methods/)
 * [Verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)

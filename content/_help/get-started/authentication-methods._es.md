@@ -1,7 +1,7 @@
 ---
-title: Opciones de autenticacións
+title: Métodos de autenticación
 category: get-started
-permalink: /es/help/get-started/authentication-options/
+permalink: /es/help/get-started/authentication-methods/
 order: 2
 redirect_from:
   - /es/help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
@@ -15,6 +15,7 @@ redirect_from:
   - /es/help/security-keys/
   - /es/help/authentication-methods/which-authentication-method-should-i-use/
   - /es/help/authentication-methods/
+  - /es/help/get-started/authentication-options/
 ---
 Además de su contraseña, es necesario que usted configure por lo menos un método de autenticación en Login.gov con el fin de mantener su cuenta segura. Se trata de autenticación multifactor (MFA). Usamos la autenticación multifactor como un filtro de seguridad adicional para proteger su información.
 

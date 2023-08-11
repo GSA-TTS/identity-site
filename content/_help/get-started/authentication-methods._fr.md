@@ -1,7 +1,7 @@
 ---
-title: Options d'authentification
+title: Méthodes d’authentification
 category: get-started
-permalink: /fr/help/get-started/authentication-options/
+permalink: /fr/help/get-started/authentication-methods/
 order: 2
 redirect_from:
   - /fr/help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
@@ -15,6 +15,7 @@ redirect_from:
   - /fr/help/security-keys/
   - /fr/help/authentication-methods/which-authentication-method-should-i-use/
   - /fr/help/authentication-methods/
+  - /fr/help/get-started/authentication-options/
 ---
 En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d'authentification pour assurer la sécurité de votre compte. Il s'agit d'une authentification multifactorielle (AMF). Nous utilisons l'AMF comme un niveau de protection supplémentaire pour sécuriser vos informations.
 

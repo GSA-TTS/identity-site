@@ -55,4 +55,4 @@ Only the newest one-time code you receive will work. If you request and receive 
 
 ## Related articles
 
-* [Authentication options](/help/get-started/authentication-options/)
+* [Authentication methods](/help/get-started/authentication-methods/)

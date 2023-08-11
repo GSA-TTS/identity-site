@@ -7,7 +7,7 @@ order: 4
 redirect_from:
     - /en/help/manage-your-account/add-or-change-your-authentication-method/
 ---
-[An authentication method](/help/get-started/authentication-options/) is an additional layer of security for your account. We recommend having at least two authentication methods for your account in case you lose one method.
+[An authentication method](/help/get-started/authentication-methods/) is an additional layer of security for your account. We recommend having at least two authentication methods for your account in case you lose one method.
 
 If you lost your authentication method and do not have a backup connected to your account, you will need to [delete your current login.gov account](/help/manage-your-account/delete-your-account/) and create a new one.
 
@@ -19,10 +19,10 @@ If you lost your authentication method and do not have a backup connected to you
 3. Click the “Sign in” button.
 4. Enter your authentication method.
 5. On your Login.gov account page, review the “Your authentication methods” menu options on the left side of the page.
-6. Select a new device to add. [Learn more about authentication options](/help/get-started/authentication-options/)
+6. Select a new device to add. [Learn more about authentication methods](/help/get-started/authentication-methods/)
 7. Follow all prompts to confirm your changes.
 
 ## Related articles 
-[Authentication options](/help/get-started/authentication-options/)
+[Authentication methods](/help/get-started/authentication-methods/)
 [Forgot your password](/help/trouble-signing-in/forgot-your-password/)
 [Delete your account](/help/manage-your-account/delete-your-account/)
