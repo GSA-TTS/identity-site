@@ -48,8 +48,9 @@
     {{ site.data.[page.lang].settings.global.keywords }}
   {% endcapture %}
 {% endif %}
+{% if page.keywords %}
 <meta name="keywords" content="{{ keywords_rendered | xml_escape }}" />
-
+{% endif %}
 <!-- Image -->
 {% if page.image %}
   {% assign image = page.image %}
