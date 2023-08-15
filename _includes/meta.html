@@ -43,13 +43,12 @@
   {% capture keywords_rendered %}
     {{ page.keywords }}
   {% endcapture %}
-  <meta name="keywords" content="{{ keywords_rendered | xml_escape }}" />
 {% else %}
   {% capture keywords_rendered %}
     {{ site.data.[page.lang].settings.global.keywords }}
   {% endcapture %}
 {% endif %}
-
+<meta name="keywords" content="{{ keywords_rendered | xml_escape }}" />
 
 <!-- Image -->
 {% if page.image %}
