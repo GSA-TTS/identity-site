@@ -63,7 +63,7 @@ Si la vérification de votre identité n'a pas abouti, vous pouvez :
 Si vous ne recevez pas de courriel de notre part, il y a quelques étapes que vous pouvez suivre :
 
 * Vérifiez dans le dossier de pourriels ou de courriers indésirables de votre courriel s'il y a un courriel de [no-reply@login.gov](mailto:no-reply@login.gov).
-* Si vous n'avez pas eu de nouvelles après 24 heures de votre visite au bureau de poste, veuillez contacter le service clientèle de Login.gov sur le site login.gov/contact.
+* Si vous n'avez pas eu de nouvelles après 24 heures de votre visite au bureau de poste, veuillez contacter le service clientèle de Login.gov sur le site [login.gov/contact](https://login.gov/contact).
 
 ## Résolution des problèmes liés à la vérification de votre identité en personne
 

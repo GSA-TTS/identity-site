@@ -76,9 +76,9 @@ Los mensajes de texto y las llamadas telefónicas resultan prácticos, pero son 
 
 Si usted elige utilizar esta opción menos segura, ingrese un número de teléfono en el que pueda recibir llamadas telefónicas o mensajes de texto. Si sólo tiene un teléfono fijo, debe recibir su código de un solo uso por llamada telefónica. Login.gov no permite enviar códigos de un solo uso a las extensiones o a los buzones de voz.
 
-Le enviaremos un código de un solo uso a ese número de teléfono cada vez que acceda a su cuenta de login.gov. Cada código único caduca a los diez minutos y sólo puede utilizarse una vez. Si no introduce el código único en los diez primeros minutos, solicite un nuevo código.
+Le enviaremos un código de un solo uso a ese número de teléfono cada vez que acceda a su cuenta de Login.gov. Cada código único caduca a los diez minutos y sólo puede utilizarse una vez. Si no introduce el código único en los diez primeros minutos, solicite un nuevo código.
 
-Después de haber recibido el código, introdúzcalo en el campo "Código único". Cada vez que acceda a login.gov tendrá la opción de obtener un nuevo código de un solo uso mediante una llamada telefónica o un mensaje de texto. Recibirá un nuevo código de un solo uso cada vez que acceda a su cuenta de login.gov.
+Después de haber recibido el código, introdúzcalo en el campo "Código único". Cada vez que acceda a Login.gov tendrá la opción de obtener un nuevo código de un solo uso mediante una llamada telefónica o un mensaje de texto. Recibirá un nuevo código de un solo uso cada vez que acceda a su cuenta de Login.gov.
 
 <div id="didn-t-receive-your-one-time-code">¿No recibió su código de un solo uso?</div>
  

@@ -6,7 +6,7 @@ order: 4
 ---
 [Une méthode d’authentification](/fr/help/get-started/authentication-methods/) est une couche supplémentaire de sécurité pour votre compte. Nous vous recommandons d’avoir au moins deux méthodes d’authentification pour votre compte au cas où vous en perdriez une. 
 
-Si vous avez perdu votre méthode d’authentification et que vous n’avez pas de sauvegarde connectée à votre compte, vous devrez [supprimer votre compte login.gov actuel](/fr/help/manage-your-account/delete-your-account/) et en créer un nouveau.
+Si vous avez perdu votre méthode d’authentification et que vous n’avez pas de sauvegarde connectée à votre compte, vous devrez [supprimer votre compte Login.gov actuel](/fr/help/manage-your-account/delete-your-account/) et en créer un nouveau.
 
 ## Ajouter ou modifier votre méthode d’authentification : 
 

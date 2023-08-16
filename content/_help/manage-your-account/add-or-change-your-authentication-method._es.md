@@ -6,7 +6,7 @@ order: 4
 ---
 [Un método de autenticación](/es/help/get-started/authentication-methods/) es una medida adicional de seguridad para tu cuenta. Te aconsejamos que tengas al menos dos métodos de autenticación para tu cuenta en caso de que pierdas uno de ellos.
 
-Si perdiste tu método de autenticación y no tienes una copia de seguridad conectada a la cuenta, [deberás eliminar la cuenta actual de login.gov](/es/help/manage-your-account/delete-your-account/) y crear una nueva.
+Si perdiste tu método de autenticación y no tienes una copia de seguridad conectada a la cuenta, [deberás eliminar la cuenta actual de Login.gov](/es/help/manage-your-account/delete-your-account/) y crear una nueva.
 
 ## Añade o cambia tu método de autenticación:
 

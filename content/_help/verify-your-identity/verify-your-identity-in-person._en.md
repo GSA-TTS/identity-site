@@ -64,7 +64,7 @@ If your identity verification was unsuccessful, you can:
 If you do not receive an email from us, there are a few steps you can take:
 
 * Check your email’s spam or junk folder for an email from [no-reply@login.gov](mailto:no-reply@login.gov).
-* If you haven’t heard from us after 24 hours from your visit to the Post Office, please contact Login.gov customer support at login.gov/contact. 
+* If you haven’t heard from us after 24 hours from your visit to the Post Office, please contact Login.gov customer support at [login.gov/contact](https://login.gov/contact). 
 
 ## Troubleshoot verifying your identity in person
 
