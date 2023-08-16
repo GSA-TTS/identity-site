@@ -40,17 +40,9 @@
 
 <!-- Keywords -->
 {% if page.keywords %}
-  {% capture keywords_rendered %}
-    {{ page.keywords }}
-  {% endcapture %}
-{% else %}
-  {% capture keywords_rendered %}
-    {{ site.data.[page.lang].settings.global.keywords }}
-  {% endcapture %}
+  <meta name="keywords" content="{{ page.keywords | xml_escape }}" />
 {% endif %}
-{% if page.keywords %}
-<meta name="keywords" content="{{ keywords_rendered | xml_escape }}" />
-{% endif %}
+
 <!-- Image -->
 {% if page.image %}
   {% assign image = page.image %}
