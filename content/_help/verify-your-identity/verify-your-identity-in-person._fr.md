@@ -95,6 +95,4 @@ Nous annulons automatiquement les demandes après 30 jours afin de protéger les
 
 [Pièces d’identité acceptées, délivrées par l’État](/fr/help/verify-your-identity/accepted-state-issued-identification/)
 
-[Problèmes lors du téléversement de votre pièce d’identité délivrée par l’État](/fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
-
 [Vérifier votre identité en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/)

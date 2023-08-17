@@ -34,4 +34,3 @@ A clear picture of your state-issued ID is required to complete the identity ver
 
 [How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
 [Accepted state-issued identification](/help/verify-your-identity/accepted-state-issued-identification/)
-[Troubleshoot uploading state-issued ID](/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
