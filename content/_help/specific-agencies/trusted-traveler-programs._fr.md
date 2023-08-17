@@ -2,6 +2,7 @@
 title: Programmes pour voyageurs fiables (TTP)
 category: specific-agencies
 permalink: /fr/help/specific-agencies/trusted-traveler-programs/
+keywords: global entry, demande d'global entry, renouveler l'global entry, nexus, tsa, sentri, voyageurs fiables, ttp, renouvellement d'global entry
 order: 1
 redirect_from:
   - /fr/help/trusted-traveler-programs/another-question/

@@ -38,6 +38,11 @@
 <meta property="og:description" content="{{ description_rendered | xml_escape }}" />
 <meta property="twitter:description" content="{{ description_rendered | xml_escape }}" />
 
+<!-- Keywords -->
+{% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords | xml_escape }}" />
+{% endif %}
+
 <!-- Image -->
 {% if page.image %}
   {% assign image = page.image %}

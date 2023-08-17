@@ -2,6 +2,7 @@
 title: Programas de Viajero de Confianza (TTP, por sus siglas en inglés)
 category: specific-agencies
 permalink: /es/help/specific-agencies/trusted-traveler-programs/
+keywords: global entry, solicitud de global entry, renovar global entry, nexus, tsa, sentri, viajero de confianza, ttp, renovación de global entry
 order: 1
 redirect_from:
   - /es/help/trusted-traveler-programs/another-question/
