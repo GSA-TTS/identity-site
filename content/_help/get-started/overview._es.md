@@ -8,6 +8,7 @@ redirect_from:
   - /es/help/creating-an-account/email-address-confirmation-not-received/
   - /es/help/creating-an-account/i-didnt-receive-a-confirmation-email-from-logingov/
   - /es/help/creating-an-account/why-is-my-confirmation-link-invalid/
+  - /help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/
   - /es/help/get-started/
 ---
 Login.gov es la única cuenta y contraseña pública para el gobierno. Login.gov es un servicio compartido y de confianza de las agencias gubernamentales. Con una sola cuenta de Login.gov se puede acceder a las solicitudes de los socios gubernamentales que participan.
