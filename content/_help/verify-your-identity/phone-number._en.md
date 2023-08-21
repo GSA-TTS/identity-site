@@ -6,6 +6,7 @@ permalink: /help/verify-your-identity/phone-number/
 order: 5
 redirect_from:
   - /help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
+  - /help/verifying-your-identity/phone-plan-is-not-in-my-name-or-address/
   - /en/help/verify-your-identity/phone-number/
   - /en/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 ---

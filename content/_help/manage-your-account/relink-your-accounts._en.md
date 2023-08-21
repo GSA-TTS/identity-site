@@ -5,7 +5,11 @@ category: manage-your-account
 permalink: /help/manage-your-account/relink-your-accounts/
 order: 8 
 redirect_from:
-    - /en/help/manage-your-account/relink-your-accounts/
+  - /en/help/manage-your-account/relink-your-accounts/
+  - /help/usajobs/reset-or-relink-my-logingov-account-for-usajobs/
+  - /help/usajobs/how-do-I-relink-my-USAJOBS-profile-after-deleting-my-login-account/
+  - /help/usajobs/relink-my-profile/
+  - /help/creating-an-account/email-address-confirmation-link-is-invalid/
 ---
 If you have problems signing in to a Login.gov partner website after changing your email address, then it is possible the partner linked your account to a different email address. You may want to relink your account to access your information or profile on the partner website. 
 

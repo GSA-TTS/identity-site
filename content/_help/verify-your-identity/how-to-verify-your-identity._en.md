@@ -6,6 +6,9 @@ permalink: /help/verify-your-identity/how-to-verify-your-identity/
 order: 1
 redirect_from:
   - /en/help/verify-your-identity/how-to-verify-your-identity/
+  - /help/verify-your-identity/
+  - /help/verifying-your-identity/how-to-verify-my-identity/
+  - /help/identity-verification/how-do-i-verify-my-identity-on-logingov/
 ---
 
 Some government applications require identity verification. This additional layer of security requires you to prove you are you - and not someone pretending to be you.

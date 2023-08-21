@@ -61,4 +61,5 @@ twitter_card: large
 image: /assets/img/login-gov-600x314.png
 redirect_from:
   - /en/what-is-login/
+  - /help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/
 ---

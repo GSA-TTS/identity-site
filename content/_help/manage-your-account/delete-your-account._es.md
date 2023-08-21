@@ -3,6 +3,13 @@ title: Eliminar su cuenta
 category: manage-your-account
 permalink: /es/help/manage-your-account/delete-your-account/
 order: 2
+redirect_from:
+  - /es/help/changing-settings/delete-my-account/
+  - /es/help/changing-settings/how-do-i-delete-my-account/
+  - /es/help/creating-an-account/email-address-is-already-in-use/
+  - /es/help/changing-settings/email-address-is-already-in-use/
+  - /es/help/creating-an-account/what-do-i-do-if-an-account-already-exists-under-my-email-address/
+  - /es/help/signing-in/locked-out-of-account/
 ---
 **Quizá tenga que eliminar una cuenta por diferentes razones:**
 

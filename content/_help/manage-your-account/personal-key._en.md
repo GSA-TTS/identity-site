@@ -5,6 +5,8 @@ category: manage-your-account
 permalink: /help/manage-your-account/personal-key/
 order: 3 
 redirect_from:
+  - /help/changing-settings/get-a-new-personal-key/
+  - /help/changing-settings/how-do-I-get-a-new-personal-key/
   - /en/help/manage-your-account/personal-key/
 ---
 A personal key is a 16-character code that encrypts your personal information with your account. Your personal key is the only way to access your information if you lose or forget your password.

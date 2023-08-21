@@ -4,6 +4,11 @@ category: manage-your-account
 permalink: /es/help/manage-your-account/relink-your-accounts/
 title: "Revincular tus cuentas"
 order: 8 
+redirect_from:
+  - /es/help/usajobs/reset-or-relink-my-logingov-account-for-usajobs/
+  - /es/help/usajobs/how-do-I-relink-my-USAJOBS-profile-after-deleting-my-login-account/
+  - /es/help/usajobs/relink-my-profile/
+  - /es/help/creating-an-account/email-address-confirmation-link-is-invalid/
 ---
 Si tienes problemas para iniciar sesión en un sitio web asociado a Login.gov después de cambiar tu dirección de correo electrónico, es posible que dicho socio haya vinculado tu cuenta a una dirección de correo electrónico diferente. Puede que desees volver a vincular tu cuenta para acceder a tu información o perfil en el sitio web asociado.
 

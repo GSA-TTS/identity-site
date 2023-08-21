@@ -5,7 +5,8 @@ category: manage-your-account
 permalink: /es/help/manage-your-account/personal-key/
 order: 3 
 redirect_from:
-  - /es/help/manage-your-account/personal-key/
+  - /es/help/changing-settings/get-a-new-personal-key/
+  - /es/help/changing-settings/how-do-I-get-a-new-personal-key/
 ---
 Una clave personal es un código de 16 caracteres que encripta tu información personal con tu cuenta. Tu clave personal es la única forma de acceder a tu información si pierdes u olvidas tu contraseña.
 

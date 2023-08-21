@@ -59,4 +59,6 @@ component:
 permalink: /es/what-is-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
+redirect_from:
+  - /es/help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/
 ---
