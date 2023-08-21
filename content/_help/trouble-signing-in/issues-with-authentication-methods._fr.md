@@ -25,7 +25,7 @@ redirect_from:
 	- /fr/help/signing-in/why-didnt-i-receive-a-security-code/
 	- /fr/help/signing-in/why-is-my-personal-key-invalid/
 	- /fr/help/signing-in/why-is-my-personal-key-invalid/
-	- /fr/help/signing-in/why-is-my-security-code-invalid/ 
+	- /fr/help/signing-in/why-is-my-security-code-invalid/
 ---
 
 En fonction des méthodes d’authentification que vous avez configurées, vous pourrez peut-être encore accéder à votre compte Login.gov. Une fois que vous avez pu vous connecter, assurez-vous d’avoir configuré plusieurs méthodes d’authentification pour éviter de perdre l’accès à votre compte.
