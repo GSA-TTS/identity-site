@@ -4,30 +4,29 @@ category: get-started
 permalink: /es/help/get-started/authentication-methods/
 order: 2
 redirect_from:
-  - /es/help/creating-an-account/authentication-application/
+  - /es/help/authentication-methods/
+  - /es/help/authentication-methods/which-authentication-method-should-i-use/
   - /es/help/changing-settings/how-do-I-set-up-an-authentication-app/
-  - /es/help/creating-an-account/two-factor-authentication/
+  - /es/help/creating-an-account/authentication-application/
   - /es/help/creating-an-account/do-i-need-a-mobile-phone-to-use-logingov/
-  - /es/help/creating-an-account/what-is-two-factor-authentication/
-  - /es/help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
-  - /es/help/security-keys/what-is-a-security-key/
-  - /es/help/creating-an-account/personal-key/
-  - /es/help/creating-an-account/what-is-my-personal-key/
+  - /es/help/creating-an-account/how-do-i-create-an-account-with-only-one-two-factor-authenticator/
   - /es/help/creating-an-account/security-key/
-  - /es/help/security-keys/what-is-phishing/
+  - /es/help/creating-an-account/two-factor-authentication/
+  - /es/help/creating-an-account/what-is-my-personal-key/
+  - /es/help/creating-an-account/what-is-two-factor-authentication/
+  - /es/help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/
+  - /es/help/get-started/authentication-options/
+  - /es/help/security-keys/
   - /es/help/security-keys/do-i-need-a-mobile-phone-to-use-logingov/
   - /es/help/security-keys/do-i-need-to-set-up-a-security-key-to-use-logingov/
+  - /es/help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
   - /es/help/security-keys/how-do-i-protect-my-logingov-account-with-a-security-key/
   - /es/help/security-keys/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
-  - /es/help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/
-  - /es/help/creating-an-account/how-do-i-create-an-account-with-only-one-two-factor-authenticator/
   - /es/help/security-keys/related-articles/
-  - /es/help/security-keys/
-  - /es/help/authentication-methods/which-authentication-method-should-i-use/
-  - /es/help/authentication-methods/
+  - /es/help/security-keys/what-is-a-security-key/
+  - /es/help/security-keys/what-is-phishing/
   - /es/help/signing-in/what-is-an-authentication-app/
   - /es/help/signing-in/what-is-an-authenticator-app/
-  - /es/help/get-started/authentication-options/
 ---
 Además de su contraseña, es necesario que usted configure por lo menos un método de autenticación en Login.gov con el fin de mantener su cuenta segura. Se trata de autenticación multifactor (MFA). Usamos la autenticación multifactor como un filtro de seguridad adicional para proteger su información.
 

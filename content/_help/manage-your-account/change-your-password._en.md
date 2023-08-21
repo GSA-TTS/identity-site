@@ -5,9 +5,9 @@ category: manage-your-account
 permalink: /help/manage-your-account/change-your-password/
 order: 2
 redirect_from:
+  - /en/help/manage-your-account/change-your-password/
   - /help/changing-settings/change-my-password/
   - /help/changing-settings/how-do-i-change-my-password/
-  - /en/help/manage-your-account/change-your-password/
 ---
 Follow these steps to change your Login.gov password.
 

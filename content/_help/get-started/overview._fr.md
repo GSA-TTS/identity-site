@@ -8,8 +8,8 @@ redirect_from:
   - /fr/help/creating-an-account/email-address-confirmation-not-received/
   - /fr/help/creating-an-account/i-didnt-receive-a-confirmation-email-from-logingov/
   - /fr/help/creating-an-account/why-is-my-confirmation-link-invalid/
-  - /help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/
   - /fr/help/get-started/
+  - /help/creating-an-account/why-do-i-need-to-use-logingov-to-access-government-services-online/
 ---
 Login.gov est le seul compte et mot de passe du public pour le gouvernement. Login.gov est un service partagé et approuvé par les agences gouvernementales. Avec un compte Login.gov, vous pouvez accéder aux applications des partenaires gouvernementaux participants.
 

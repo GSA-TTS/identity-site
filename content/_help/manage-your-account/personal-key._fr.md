@@ -7,6 +7,7 @@ order: 3
 redirect_from:
   - /fr/help/changing-settings/get-a-new-personal-key/
   - /fr/help/changing-settings/how-do-I-get-a-new-personal-key/
+  - /fr/help/creating-an-account/personal-key/
 ---
 Une clé personnelle est un code de 16 caractères qui chiffre vos informations personnelles avec votre compte. Votre clé personnelle est le seul moyen d'accéder à vos informations si vous perdez ou oubliez votre mot de passe.
 

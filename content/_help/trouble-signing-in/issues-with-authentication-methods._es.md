@@ -4,28 +4,28 @@ category: trouble-signing-in
 permalink: /es/help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
 redirect_from: 
-    - /es/help/creating-an-account/no-phone-or-other-authentication-method/
-    - /es/help/creating-an-account/phone-didnt-get-a-security-code/
-    - /es/help/signing-in/phone-didnt-get-a-security-code/
-    - /es/help/signing-in/personal-key-not-working/
-    - /es/help/signing-in/phone-or-authentication-methods-not-available/
-    - /es/help/signing-in/security-code-not-working/
-    - /es/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods/
-    - /es/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-personal-key/
-    - /es/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed/
-    - /es/help/signing-in/why-didnt-I-receive-a-reset-password-email-from-logingov/
-    - /es/help/signing-in/why-didnt-i-receive-a-security-code/
-    - /es/help/creating-an-account/why-didnt-i-receive-a-security-code-to-confirm-my-phone/
-    - /es/help/signing-in/i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me/
-    - /es/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
-    - /es/help/signing-in/why-is-my-personal-key-invalid/
-    - /es/help/signing-in/personal-key-not-working/
-    - /es/help/signing-in/why-is-my-security-code-invalid/
-    - /es/help/signing-in/security-code-not-working/
-    - /es/help/signing-in/phone-didnt-get-a-security-code/
-    - /es/help/signing-in/phone-or-authentication-methods-not-available/
-    - /es/help/signing-in/why-didnt-i-receive-a-security-code/
-    - /es/help/signing-in/why-is-my-personal-key-invalid/
+	- /es/help/creating-an-account/no-phone-or-other-authentication-method/
+	- /es/help/creating-an-account/phone-didnt-get-a-security-code/
+	- /es/help/creating-an-account/why-didnt-i-receive-a-security-code-to-confirm-my-phone/
+	- /es/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods/
+	- /es/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-personal-key/
+	- /es/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed/
+	- /es/help/signing-in/i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me/
+	- /es/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
+	- /es/help/signing-in/personal-key-not-working/
+	- /es/help/signing-in/personal-key-not-working/
+	- /es/help/signing-in/phone-didnt-get-a-security-code/
+	- /es/help/signing-in/phone-didnt-get-a-security-code/
+	- /es/help/signing-in/phone-or-authentication-methods-not-available/
+	- /es/help/signing-in/phone-or-authentication-methods-not-available/
+	- /es/help/signing-in/security-code-not-working/
+	- /es/help/signing-in/security-code-not-working/
+	- /es/help/signing-in/why-didnt-I-receive-a-reset-password-email-from-logingov/
+	- /es/help/signing-in/why-didnt-i-receive-a-security-code/
+	- /es/help/signing-in/why-didnt-i-receive-a-security-code/
+	- /es/help/signing-in/why-is-my-personal-key-invalid/
+	- /es/help/signing-in/why-is-my-personal-key-invalid/
+	- /es/help/signing-in/why-is-my-security-code-invalid/
 ---
 
 Dependiendo de los métodos de autenticación que haya configurado, es posible que aún pueda acceder a su cuenta de Login.gov. Una vez que pueda iniciar sesión, asegúrese de haber configurado más de un método de autenticación para evitar perder el acceso a su cuenta.

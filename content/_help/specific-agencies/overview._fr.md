@@ -7,16 +7,16 @@ order: 0
 redirect_from:
   - /fr/help/specific-agencies/
   - /fr/help/specific-agencies/usajobs/
-  - /fr/help/usajobs/gov-mil-edu-email-address/
-  - /fr/help/usajobs/profile-information/
-  - /fr/help/usajobs/security-code/
-  - /fr/help/usajobs/what-email-address-do-i-use/
-  - /fr/help/usajobs/what-happens-to-my-profile/
   - /fr/help/usajobs/cant-sign-in-or-reset-my-password-usajobs-account/
+  - /fr/help/usajobs/gov-mil-edu-email-address/
   - /fr/help/usajobs/how-to-receive-the-security-code/
   - /fr/help/usajobs/my-usajobs-information-is-not-there/
+  - /fr/help/usajobs/profile-information/
+  - /fr/help/usajobs/security-code/
   - /fr/help/usajobs/try-not-to-use-a-gov-mil-or-edu-email-address/
+  - /fr/help/usajobs/what-email-address-do-i-use/
   - /fr/help/usajobs/what-email-address-should-i-use/
+  - /fr/help/usajobs/what-happens-to-my-profile/
   - /fr/help/usajobs/what-will-happen-to-my-usajobs-profile/
 ---
 

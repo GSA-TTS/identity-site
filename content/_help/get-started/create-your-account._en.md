@@ -7,8 +7,8 @@ order: 1
 redirect_from:
   - /en/help/get-started/create-your-account/
   - /help/creating-an-account/creating-a-strong-password/
-  - /help/creating-an-account/how-to-create-an-account/
   - /help/creating-an-account/how-do-i-create-an-account-with-logingov/
+  - /help/creating-an-account/how-to-create-an-account/
 ---
 Follow these steps to create your Login.gov account.
 

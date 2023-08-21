@@ -6,22 +6,22 @@ permalink: /help/trouble-signing-in/overview/
 meta_title: Trouble signing in?
 order: 0
 redirect_from:
-  - /en/help/trouble-signing-in/overview/
   - /en/help/trouble-signing-in/
+  - /en/help/trouble-signing-in/overview/
   - /help/signing-in/
-  - /help/signing-in/i-forgot-which-email-address-i-used-to-create-an-account/
   - /help/signing-in/forgot-my-email-address/
   - /help/signing-in/forgot-my-email-address/
-  - /help/signing-in/reset-password-email-not-received/
-  - /help/signing-in/reset-password-link-is-invalid/
+  - /help/signing-in/forgot-my-email-address/
+  - /help/signing-in/how-do-i-turn-off-two-factor-authentication/
   - /help/signing-in/how-do-i-turn-off-two-factor-authentication/
   - /help/signing-in/i-forgot-which-email-address-i-used-to-create-an-account/
+  - /help/signing-in/i-forgot-which-email-address-i-used-to-create-an-account/
+  - /help/signing-in/reset-password-email-not-received/
+  - /help/signing-in/reset-password-email-not-received/
+  - /help/signing-in/reset-password-link-is-invalid/
+  - /help/signing-in/reset-password-link-is-invalid/
   - /help/signing-in/why-am-i-locked-out-of-logingov/
   - /help/signing-in/why-does-the-system-log-me-out/
-  - /help/signing-in/forgot-my-email-address/
-  - /help/signing-in/reset-password-email-not-received/
-  - /help/signing-in/reset-password-link-is-invalid/
-  - /help/signing-in/how-do-i-turn-off-two-factor-authentication/
   - /help/trouble-signing-in/
   - /help/usajobs/im-trying-to-sign-in-but-it-doesnt-work/
 ---

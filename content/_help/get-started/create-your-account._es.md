@@ -5,8 +5,8 @@ permalink: /es/help/get-started/create-your-account/
 order: 1
 redirect_from:
   - /es/help/creating-an-account/creating-a-strong-password/
-  - /es/help/creating-an-account/how-to-create-an-account/
   - /es/help/creating-an-account/how-do-i-create-an-account-with-logingov/
+  - /es/help/creating-an-account/how-to-create-an-account/
 ---
 Siga estos pasos para crear su cuenta de Login.gov.
 

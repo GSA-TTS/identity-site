@@ -4,8 +4,8 @@ category: verify-your-identity
 permalink: /fr/help/verify-your-identity/phone-number/
 order: 5
 redirect_from:
-  - /fr/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
   - /fr/help/verifying-your-identity/phone-plan-is-not-in-my-name-or-address/
+  - /fr/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 ---
 Nous comparons votre numéro de téléphone aux données enregistrées pour vérifier votre identité. Le numéro de téléphone que vous utilisez pour vérifier votre identité doit être basé aux États-Unis, y compris les numéros de téléphone de tous les territoires américains.
 

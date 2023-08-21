@@ -5,11 +5,11 @@ permalink: /es/help/verify-your-identity/overview/
 meta_title: Visión general
 order: 0
 redirect_from:
-  - /es/help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
-  - /es/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
   - /es/help/identity-verification/i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them/
   - /es/help/identity-verification/related-articles/
   - /es/help/identity-verification/why-do-i-need-to-verify-my-identity/
+  - /es/help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
+  - /es/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 ---
 
 Algunos organismos participantes requieren que usted complete un proceso de verificación de identidad. La verificación de la identidad es un proceso en el que usted demuestra que es realmente usted y no alguien que pretende ser usted.

@@ -4,9 +4,9 @@ category: verify-your-identity
 permalink: /fr/help/verify-your-identity/how-to-verify-your-identity/
 order: 1
 redirect_from:
+  - /fr/help/identity-verification/how-do-i-verify-my-identity-on-logingov/
   - /fr/help/verify-your-identity/
   - /fr/help/verifying-your-identity/how-to-verify-my-identity/
-  - /fr/help/identity-verification/how-do-i-verify-my-identity-on-logingov/
 ---
 
 Certaines applications gouvernementales nécessitent une vérification d'identité. Ce niveau de sécurité supplémentaire exige que vous prouviez que vous êtes vous-même – et non quelqu'un qui se fait passer pour vous.

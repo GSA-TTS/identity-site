@@ -6,9 +6,9 @@ permalink: /help/manage-your-account/change-your-phone-number/
 order: 6 
 redirect_from:
   - /en/help/manage-your-account/change-your-phone-number/
+  - /help/changing-settings/change-my-phone-number/
   - /help/changing-settings/how-do-i-change-the-phone-number-i-am-using-with-my-account/
   - /help/changing-settings/how-do-i-change-the-phone-number-i-use-to-sign-in/
-  - /help/changing-settings/change-my-phone-number/
 ---
 Follow these steps to change the phone number associated with your account.
 

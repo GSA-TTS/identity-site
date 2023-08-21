@@ -8,11 +8,11 @@ order: 0
 redirect_from:
   - /en/help/verify-your-identity/
   - /en/help/verify-your-identity/overview/
-  - /help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
-  - /help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
   - /help/identity-verification/i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them/
   - /help/identity-verification/related-articles/
   - /help/identity-verification/why-do-i-need-to-verify-my-identity/
+  - /help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
+  - /help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 ---
 
 Some participating agencies require you to complete an identity verification process. Identity verification is the process where you prove you are you - and not someone pretending to be you.
