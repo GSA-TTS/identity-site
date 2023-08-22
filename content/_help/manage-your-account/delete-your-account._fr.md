@@ -9,7 +9,7 @@ redirect_from:
   - /fr/help/changing-settings/how-do-i-delete-my-account/
   - /fr/help/creating-an-account/email-address-is-already-in-use/
   - /fr/help/creating-an-account/what-do-i-do-if-an-account-already-exists-under-my-email-address/
-  - /help/signing-in/locked-out-of-account/
+  - /fr/help/signing-in/locked-out-of-account/
 ---
 **Plusieurs raisons peuvent justifier le besoin de supprimer votre compte:**
 

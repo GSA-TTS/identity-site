@@ -5,7 +5,6 @@ permalink: /fr/help/trouble-signing-in/overview/
 meta_title: Des problèmes de connexion?
 order: 0
 redirect_from:
-  - /fr/help/signing-in/
   - /fr/help/signing-in/forgot-my-email-address/
   - /fr/help/signing-in/forgot-my-email-address/
   - /fr/help/signing-in/forgot-my-email-address/
@@ -13,7 +12,6 @@ redirect_from:
   - /fr/help/signing-in/how-do-i-turn-off-two-factor-authentication/
   - /fr/help/signing-in/i-forgot-which-email-address-i-used-to-create-an-account/
   - /fr/help/signing-in/i-forgot-which-email-address-i-used-to-create-an-account/
-  - /fr/help/signing-in/locked-out-of-account/
   - /fr/help/signing-in/reset-password-email-not-received/
   - /fr/help/signing-in/reset-password-email-not-received/
   - /fr/help/signing-in/reset-password-link-is-invalid/

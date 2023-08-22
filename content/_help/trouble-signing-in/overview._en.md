@@ -8,7 +8,6 @@ order: 0
 redirect_from:
   - /en/help/trouble-signing-in/
   - /en/help/trouble-signing-in/overview/
-  - /help/signing-in/
   - /help/signing-in/forgot-my-email-address/
   - /help/signing-in/forgot-my-email-address/
   - /help/signing-in/forgot-my-email-address/
