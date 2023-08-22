@@ -7,22 +7,37 @@ RSpec.describe '.md files' do
     page = path.split(REPO_ROOT.to_s).last
 
     describe page do
-      it 'does not include duplicate keys in YAML frontmatter' do
-        _, frontmatter, _content = File.read(path).split('---', 3)
+      let(:frontmatter) { File.read(path).split('---', 3)[1] }
 
+      it 'does not include duplicate keys in YAML frontmatter' do
         expect(YAMLHelper.duplicate_keys(frontmatter)).to be_empty
       end
 
-      it 'includes globally unique redirects' do
-        _, frontmatter, _content = File.read(path).split('---', 3)
-        data = YAML.load(frontmatter)
-        redirects = Array(data['redirect_from'])
+      describe 'redirects' do
+        let(:redirects) { Array(YAML.load(frontmatter)['redirect_from']) }
 
-        redirects.each do |redirect|
-          expect(global_redirects).not_to include(redirect), "Redirect already set:\n\n#{redirect}"
+        it 'includes globally unique redirects' do
+          redirects.each do |redirect|
+            expect(global_redirects).not_to include(redirect), "Redirect already set:\n\n#{redirect}"
+          end
+
+          global_redirects += redirects
         end
 
-        global_redirects += redirects
+        it 'defines redirects in consistent format' do
+          redirects.each { |redirect| expect(redirect).to match(/^\/.+\/$/) }
+        end
+
+        it 'redirects from pages in the same locale', if: path.match?(/\._([a-z]{2})\.md$/) do
+          locale = path.match(/\._([a-z]{2})\.md$/)[1]
+          if locale == 'en'
+            prefix = '/'
+          else
+            prefix = "/#{locale}"
+          end
+
+          redirects.each { |redirect| expect(redirect).to start_with(prefix) }
+        end
       end
     end
   end
