@@ -5,5 +5,5 @@ title: >-
     Business inquiries
 scripts:
   - /assets/js/partners_contact.js
-redirect_from: partners/contact/
+redirect_from: /partners/contact/
 ---

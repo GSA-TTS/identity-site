@@ -8,7 +8,6 @@ order: 0
 redirect_from:
   - /en/help/manage-your-account/
   - /en/help/manage-your-account/overview/
-  - /help/changing-settings/add-or-remove-email-address/
   - /help/changing-settings/how-do-i-change-my-email-address/
   - /help/changing-settings/i-got-an-error-message-when-i-added-an-email/
   - /help/changing-settings/remove-saved-password-from-browser/
