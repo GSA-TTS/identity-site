@@ -3,72 +3,27 @@ title: Documentos de identificación aceptados
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/accepted-state-issued-identification/
 order: 2
+do_list:
+  - "**Licencia de conducir** válida en los 50 estados, el Distrito de Columbia (DC) y otros territorios de Estados Unidos (Guam, Islas Vírgenes de Estados Unidos, Samoa Americana, Islas Marianas y Puerto Rico)"
+  - "**Una tarjeta de identificación estatal para no conductores.** Este es un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o el territorio de EE. UU. que hace valer la identidad pero no otorga privilegios de conducción."
+alert: "**Si no cuenta con una licencia de conducir válida o con un documento de identidad estatal, no puede utilizar Login.gov para verificar su identidad.** Por favor, comuníquese con el centro de ayuda de la entidad asociada para saber qué puede hacer como alternativa."
+dont_list:
+  - No podrá pasar la verificación de identidad si su documento de identidad está caducado.
+  - Los documentos de prórroga no pueden utilizarse en lugar de un documento de identidad vigente y no caducado.
+  - No, no puede usar un documento de identidad temporal o de papel.
 ---
-<ul class="usa-icon-list usa-icon-list--size-md">
-  <li class="usa-icon-list__item">
-    <div class="usa-icon-list__icon text-green">
-      <svg class="usa-icon" aria-hidden="true" role="img">
-        <use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use>
-      </svg>
-    </div>
-    <div class="usa-icon-list__content">
-      <strong>Licencia de conducir</strong> válida en los 50 estados, el Distrito de Columbia (DC) y otros territorios de Estados Unidos (Guam, Islas Vírgenes de Estados Unidos, Samoa Americana, Islas Marianas y Puerto Rico)
-    </div>
-  </li>
-    <li class="usa-icon-list__item">
-    <div class="usa-icon-list__icon text-green">
-      <svg class="usa-icon" aria-hidden="true" role="img">
-        <use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle"></use>
-      </svg>
-    </div>
-    <div class="usa-icon-list__content">
-      <strong>Una tarjeta de identificación estatal para no conductores.</strong> Este es un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o el territorio de EE. UU. que hace valer la identidad pero no otorga privilegios de conducción.
-    </div>
-  </li>
-</ul>
 
-**No aceptamos cartillas militares, pasaportes estadounidenses ni otros documentos de identificación.**
+{% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'  style_fix='padding-left: 0 !important;' %}
 
-<div class="usa-alert usa-alert--error" role="alert">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">
-    <strong>Si no cuenta con una licencia de conducir válida o con un documento de identidad estatal, no puede utilizar Login.gov para verificar su identidad.</strong> Por favor, comuníquese con el centro de ayuda de la entidad asociada para saber qué puede hacer como alternativa.
-    </p>
-  </div>
-</div>
+### No aceptamos cartillas militares, pasaportes estadounidenses ni otros documentos de identificación.
 
-<ul class="usa-icon-list usa-icon-list--size-md">
-  <li class="usa-icon-list__item">
-    <div class="usa-icon-list__icon text-red">
-      <svg class="usa-icon" aria-hidden="true" role="img">
-        <use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#cancel"></use>
-      </svg>
-    </div>
-    <div class="usa-icon-list__content">
-        No podrá pasar la verificación de identidad si su documento de identidad está caducado. 
-    </div>
-  </li>
-  <li class="usa-icon-list__item">
-    <div class="usa-icon-list__icon text-red">
-      <svg class="usa-icon" aria-hidden="true" role="img">
-        <use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#cancel"></use>
-      </svg>
-    </div>
-    <div class="usa-icon-list__content">
-      Los documentos de prórroga no pueden utilizarse en lugar de un documento de identidad vigente y no caducado.
-    </div>
-  </li>
-  <li class="usa-icon-list__item">
-    <div class="usa-icon-list__icon text-red">
-      <svg class="usa-icon" aria-hidden="true" role="img">
-        <use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#cancel"></use>
-      </svg>
-    </div>
-    <div class="usa-icon-list__content">
-      No, no puede usar un documento de identidad temporal o de papel.
-    </div>
-  </li>
-</ul>
+{% include components/alert.html text=page.alert role='alert' variant='error' %}
+
+{% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' style_fix='padding-left: 0 !important;'%}
+
+## Related articles 
+
+[Verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
 
 ## Artículos relacionados
 
