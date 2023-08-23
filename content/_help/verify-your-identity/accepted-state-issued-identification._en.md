@@ -11,7 +11,7 @@ do_list:
   - "**Non-driver’s license state-issued ID card.** This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges."
 dont_list:
   - You cannot pass identity verification if your ID is expired.
-  - You cannot use extension documents in place of an unexpired&#160;ID.
+  - You cannot use extension documents in place of an unexpired&nbsp;ID.
   - You cannot use a paper or temporary ID.
 alert: <strong>If you do not have a valid drivers' license or state ID card, you cannot use Login.gov for identity verification.</strong> Please contact the partner agency’s help center to find out what you can do instead."
 ---

@@ -10,7 +10,7 @@ alert: <strong>Si no cuenta con una licencia de conducir válida o con un docume
 dont_list:
   - No podrá pasar la verificación de identidad si su documento de identidad está caducado.
   - Los documentos de prórroga no pueden utilizarse en lugar de un documento de identidad vigente y no caducado.
-  - No, no puede usar un documento de identidad temporal o de papel.
+  - No, no puede usar un documento de identidad temporal o&nbsp;de&nbsp;papel.
 ---
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'  %}
