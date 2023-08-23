@@ -6,7 +6,7 @@ order: 2
 do_list:
   - "**Licencia de conducir** válida en los 50 estados, el Distrito de Columbia (DC) y otros territorios de Estados Unidos (Guam, Islas Vírgenes de Estados Unidos, Samoa Americana, Islas Marianas y Puerto Rico)"
   - "**Una tarjeta de identificación estatal para no conductores.** Este es un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o el territorio de EE. UU. que hace valer la identidad pero no otorga privilegios de conducción."
-alert: "**Si no cuenta con una licencia de conducir válida o con un documento de identidad estatal, no puede utilizar Login.gov para verificar su identidad.** Por favor, comuníquese con el centro de ayuda de la entidad asociada para saber qué puede hacer como alternativa."
+alert: <strong>Si no cuenta con una licencia de conducir válida o con un documento de identidad estatal, no puede utilizar Login.gov para verificar su identidad.</strong> Por favor, comuníquese con el centro de ayuda de la entidad asociada para saber qué puede hacer como alternativa.
 dont_list:
   - No podrá pasar la verificación de identidad si su documento de identidad está caducado.
   - Los documentos de prórroga no pueden utilizarse en lugar de un documento de identidad vigente y no caducado.
@@ -15,15 +15,13 @@ dont_list:
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'  style_fix='padding-left: 0 !important;' %}
 
-### No aceptamos cartillas militares, pasaportes estadounidenses ni otros documentos de identificación.
+<p class="font-heading-md text-bold">
+No aceptamos cartillas militares, pasaportes estadounidenses ni otros documentos de identificación.
+</p>
 
-{% include components/alert.html text=page.alert role='alert' variant='error' %}
+{% include alert.html content=page.alert type='error' role='alert' %}
 
 {% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' style_fix='padding-left: 0 !important;'%}
-
-## Related articles 
-
-[Verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
 
 ## Artículos relacionados
 

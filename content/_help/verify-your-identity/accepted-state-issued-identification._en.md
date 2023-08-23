@@ -13,14 +13,17 @@ dont_list:
   - You cannot pass identity verification if your ID is expired.
   - You cannot use extension documents in place of an unexpired&#160;ID.
   - You cannot use a paper or temporary ID.
-alert: "**If you do not have a valid drivers' license or state ID card, you cannot use Login.gov for identity verification.** Please contact the partner agency’s help center to find out what you can do instead."
+alert: <strong>If you do not have a valid drivers' license or state ID card, you cannot use Login.gov for identity verification.</strong> Please contact the partner agency’s help center to find out what you can do instead."
 ---
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'  style_fix='padding-left: 0 !important;' %}
 
-### We do not accept military IDs, U.S. Passports, or other identification documents.
+<p class="font-heading-md text-bold">
+We do not accept military IDs, U.S. Passports, or other identification documents.
+</p>
 
-{% include components/alert.html text=page.alert role='alert' variant='error' %}
+{% include alert.html content=page.alert type='error' role='alert' %}
+
 
 {% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' style_fix='padding-left: 0 !important;'%}
 

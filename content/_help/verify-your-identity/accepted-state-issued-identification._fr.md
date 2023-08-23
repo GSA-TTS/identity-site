@@ -6,7 +6,7 @@ order: 2
 do_list:
   - "**Permis de conduire** des 50 États, du district fédéral de Columbia (DC) et des autres territoires américains (Guam, îles Vierges américaines, Samoa américaines, îles Mariannes et Porto Rico)."
   - "**Une carte d'identité délivrée par l'État autre que le permis de conduire.** Il s'agit d'un document d'identité délivré par l'État, le district de Columbia (DC) ou le territoire américain, qui atteste de l'identité mais n'accorde pas le droit de conduire."
-alert: "**Si vous n'avez pas de permis de conduire valide ou de carte d'identité d'État, vous ne pouvez pas utiliser Login.gov pour vérifier votre identité.** Veuillez contacter le centre d'assistance de l'agence partenaire pour savoir ce que vous pouvez faire à la place."
+alert: <strong>Si vous n'avez pas de permis de conduire valide ou de carte d'identité d'État, vous ne pouvez pas utiliser Login.gov pour vérifier votre identité.</strong> Veuillez contacter le centre d'assistance de l'agence partenaire pour savoir ce que vous pouvez faire à la place.
 dont_list:
   - Vous ne pouvez pas passer la vérification d'identité si votre pièce d'identité est expirée.
   - Les documents de prolongation ne peuvent pas être utilisés à la place d'une pièce d'identité actuelle et non expirée.
@@ -15,17 +15,14 @@ dont_list:
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'  style_fix='padding-left: 0 !important;' %}
 
-### Nous n’acceptons pas les cartes d’identité militaires, les passeports américains ou autres documents d’identification.
+<p class="font-heading-md text-bold">
+Nous n’acceptons pas les cartes d’identité militaires, les passeports américains ou autres documents d’identification.
+</p>
 
-{% include components/alert.html text=page.alert role='alert' variant='error' %}
+{% include alert.html content=page.alert type='error' role='alert' %}
 
 {% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' style_fix='padding-left: 0 !important;'%}
 
-## Related articles 
-
-[Verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
-
-## Artículos relacionados
 
 ## Articles connexes
 
