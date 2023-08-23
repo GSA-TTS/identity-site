@@ -15,9 +15,7 @@ dont_list:
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle' %}
 
-<p class="font-heading-md text-bold">
-Nous n’acceptons pas les cartes d’identité militaires, les passeports américains ou autres documents d’identification.
-</p>
+## Nous n’acceptons pas les cartes d’identité militaires, les passeports américains ou autres documents d’identification.
 
 {% include alert.html content=page.alert type='error' role='alert' %}
 

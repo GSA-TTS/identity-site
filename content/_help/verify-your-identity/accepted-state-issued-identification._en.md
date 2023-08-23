@@ -18,9 +18,7 @@ alert: <strong>If you do not have a valid drivers' license or state ID card, you
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'%}
 
-<p class="font-heading-md text-bold">
-We do not accept military IDs, U.S. Passports, or other identification documents.
-</p>
+## We do not accept military IDs, U.S. Passports, or other identification documents.
 
 {% include alert.html content=page.alert type='error' role='alert' %}
 

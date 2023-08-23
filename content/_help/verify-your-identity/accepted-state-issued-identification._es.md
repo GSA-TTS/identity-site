@@ -15,9 +15,8 @@ dont_list:
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'  %}
 
-<p class="font-heading-md text-bold">
-No aceptamos cartillas militares, pasaportes estadounidenses ni otros documentos de identificación.
-</p>
+## No aceptamos cartillas militares, pasaportes estadounidenses ni otros documentos de identificación.
+
 
 {% include alert.html content=page.alert type='error' role='alert' %}
 
