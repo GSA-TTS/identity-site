@@ -1,8 +1,10 @@
 ---
 title: Documentos de identificación aceptados
 category: verify-your-identity
-permalink: /es/help/verify-your-identity/accepted-state-issued-identification/
+permalink: /es/help/verify-your-identity/accepted-identification-documents/
 order: 2
+redirect_from:
+  - /es/help/verify-your-identity/accepted-state-issued-identification/
 do_list:
   - "**Licencia de conducir** válida en los 50 estados, el Distrito de Columbia (DC) y otros territorios de Estados Unidos (Guam, Islas Vírgenes de Estados Unidos, Samoa Americana, Islas Marianas y Puerto Rico)"
   - "**Una tarjeta de identificación estatal para no conductores.** Este es un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o el territorio de EE. UU. que hace valer la identidad pero no otorga privilegios de conducción."

@@ -1,8 +1,10 @@
 ---
 title: Documents d’identification acceptés
 category: verify-your-identity
-permalink: /fr/help/verify-your-identity/accepted-state-issued-identification/
+permalink: /fr/help/verify-your-identity/accepted-identification-documents/
 order: 2
+redirect_from:
+  - /fr/help/verify-your-identity/accepted-state-issued-identification/
 do_list:
   - "**Permis de conduire** des 50 États, du district fédéral de Columbia (DC) et des autres territoires américains (Guam, îles Vierges américaines, Samoa américaines, îles Mariannes et Porto Rico)."
   - "**Une carte d'identité délivrée par l'État autre que le permis de conduire.** Il s'agit d'un document d'identité délivré par l'État, le district de Columbia (DC) ou le territoire américain, qui atteste de l'identité mais n'accorde pas le droit de conduire."
