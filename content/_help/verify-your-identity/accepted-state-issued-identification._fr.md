@@ -13,7 +13,7 @@ dont_list:
   - Non, vous ne pouvez pas utiliser de carte d'identité en format papier ou temporaire.
 ---
 
-{% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'  style_fix='padding-left: 0 !important;' %}
+{% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle' %}
 
 <p class="font-heading-md text-bold">
 Nous n’acceptons pas les cartes d’identité militaires, les passeports américains ou autres documents d’identification.
