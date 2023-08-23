@@ -1,3 +1,9 @@
+{% comment %}
+include
+- size
+- items
+- icon_color
+{% endcomment %}
 <ul class="usa-icon-list usa-icon-list--size-{{ include.size }}">
     {% for item in include.items %}
     <li class="usa-icon-list__item">
