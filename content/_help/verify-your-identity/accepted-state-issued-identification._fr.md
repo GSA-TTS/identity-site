@@ -21,7 +21,7 @@ Nous n’acceptons pas les cartes d’identité militaires, les passeports amér
 
 {% include alert.html content=page.alert type='error' role='alert' %}
 
-{% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' style_fix='padding-left: 0 !important;'%}
+{% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' %}
 
 
 ## Articles connexes

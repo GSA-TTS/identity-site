@@ -21,7 +21,7 @@ No aceptamos cartillas militares, pasaportes estadounidenses ni otros documentos
 
 {% include alert.html content=page.alert type='error' role='alert' %}
 
-{% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' style_fix='padding-left: 0 !important;'%}
+{% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' %}
 
 ## Artículos relacionados
 
