@@ -9,7 +9,7 @@ redirect_from:
   - /help/verify-your-identity/accepted-state-issued-identification/
   - /en/help/verify-your-identity/accepted-identification-documents/
 do_list: 
-  -  "**Driver’s license** from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, American Samoa, Mariana Islands and Puerto Rico)."
+  - "**Driver’s license** from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, American Samoa, Mariana Islands and Puerto Rico)."
   - "**Non-driver’s license state-issued ID card.** This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges."
 dont_list:
   - You cannot pass identity verification if your ID is expired.
