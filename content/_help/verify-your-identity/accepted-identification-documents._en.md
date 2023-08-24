@@ -15,7 +15,7 @@ dont_list:
   - You cannot pass identity verification if your ID is expired.
   - You cannot use extension documents in place of an unexpired&nbsp;ID.
   - You cannot use a paper or temporary ID.
-alert: <strong>If you do not have a valid drivers' license or state ID card, you cannot use Login.gov for identity verification.</strong> Please contact the partner agency’s help center to find out what you can do instead."
+alert: <strong>If you do not have a valid driver's license or state ID card, you cannot use Login.gov for identity verification.</strong> Please contact the partner agency’s help center to find out what you can do instead.
 ---
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'%}
