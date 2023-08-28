@@ -5,14 +5,14 @@ include
 - icon_color
 {% endcomment %}
 <ul class="usa-icon-list usa-icon-list--size-{{ include.size }}">
-    {% for item in include.items %}
+  {% for item in include.items %}
     <li class="usa-icon-list__item">
-        <div class="usa-icon-list__icon text-{{ include.icon_color }}">
-            {% include components/icon.html shape=include.icon_shape %}
-        </div>
-        <div class="usa-icon-list__content">
-            {{ item |markdownify | remove: '<p>' | remove: '</p>' }}
-        </div>
+      <div class="usa-icon-list__icon text-{{ include.icon_color }}">
+        {% include components/icon.html shape=include.icon_shape %}
+      </div>
+      <div class="usa-icon-list__content">
+        {{ item |markdownify | remove: '<p>' | remove: '</p>' }}
+      </div>
     </li>
-    {% endfor %}
+  {% endfor %}
 </ul>
