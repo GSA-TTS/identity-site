@@ -7,6 +7,7 @@ order: 5
 redirect_from:
   - /help/changing-settings/add-or-remove-email-address/
   - /help/changing-settings/change-my-email-address/
+  - /help/changing-settings/how-do-i-change-my-email-address/
   - /en/help/manage-your-account/change-your-email-address/
 ---
 
