@@ -7,31 +7,59 @@ order: 3
 redirect_from:
   - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 do_list: 
-  - "**Driver’s license** from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, American Samoa, Mariana Islands and Puerto Rico)."
-  - "**Non-driver’s license state-issued ID card.** This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges."
-dont_list:
-  - You cannot pass identity verification if your ID is expired.
-  - You cannot use extension documents in place of an unexpired&nbsp;ID.
-  - You cannot use a paper or temporary ID.
+  - Do use a high resolution camera like a smartphone or tablet camera. Your computer webcam may not take clear photos.
+  - Do use a solid, dark background
+  - Do take your photos in a well-lit area with indirect light
+  - Do check that ID barcodes are not damaged or dirty
+  - Do try to hold your phone still while taking the photos. It may help to prop your arms on the table to steady yourself.
+  
 alert: <strong>If you do not have a valid drivers' license or state ID card, you cannot use Login.gov for identity verification.</strong> Please contact the partner agency’s help center to find out what you can do instead."
 ---
-
-# Heading
-
-## Heading 2
+# How to add images of your driver’s license or state ID card
 
 {% include alert.html content=page.alert type='error' role='alert' %}
 
 <span class="usa-tag usa-tag--informative">Recommended</span>
+## Use a phone to take photos of the front and back of your ID
 
+If you are using a computer to verify your identity, you will be able to switch to a phone to take photos of your ID.
+
+### Tips for taking clear photos with a phone
+
+<img alt="correct example, use dark background" src="/assets/img/help/id-dos-and-donts/id-do-front.png" />
+<img alt="correct example, use dark background" src="/assets/img/help/id-dos-and-donts/id-do-back.png" />
 {% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'%}
 
-{% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' %}
+### Common issues with taking photos of an ID
+{% include components/image-example-incorrect.html text='Use a white background' image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png' %}
 
-{% include components/image-example-correct.html image='/assets/img/help/id-dos-and-donts/id-do-back.png' %}
+{% include components/image-example-incorrect.html text='Use textured, patterned backgrounds' image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png' %}
 
-## Related articles
+{% include components/image-example-incorrect.html text='Crop out the edges of your ID' image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png' %}
 
-[How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
-[Accepted state-issued identification](/help/verify-your-identity/accepted-state-issued-identification/)
-[Troubleshoot uploading state-issued ID](/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
+{% include components/image-example-incorrect.html text='Use a picture with glare or shadow' image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png' %}
+
+## If you don’t have access to a phone with a camera, you can upload a file or use a scanner
+- Follow the same tips for taking photos with a phone
+- Save each file as a JPG or PNG. You cannot use a PDF file. Look at the name of your file and it should have an abbreviation after the title (ex: JohnDoeID_Front.jpg)
+- Make sure your images are high-resolution (around 2025 x 1275 pixels is ideal)
+- Images should be in color
+
+## Troubleshooting
+
+### An outdated browser might be the cause of your error
+
+Follow the instructions below to update your browser:
+- Google Chrome
+- Mozilla Firefox
+- Safari
+
+Be sure to restart your computer and try signing in again.
+
+### Clear your browser cache and cookies, or the data your browser stores
+Follow the instructions below to clear your browser cache and cookies:
+- Google Chrome
+- Mozilla Firefox
+- Safari
+
+Be sure to restart your computer and try signing in again.
