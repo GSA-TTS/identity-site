@@ -1,0 +1,24 @@
+{% comment %}
+include
+- image 
+- text
+{% endcomment %}
+<div class="usa-image-example usa-image-example--incorrect">
+  <figure class="usa-image-example__figure">
+    <img alt="incorrect example, dont use light colored background" class="usa-image-example__image" src="{{ include.image | prepend: site.baseurl}}" />
+    <figcaption class="usa-image-example__figcaption">
+      <ul class="usa-icon-list usa-icon-list--size-md">
+        <li class="usa-icon-list__item">
+          <div class="usa-icon-list__icon">
+            <svg class="usa-icon" aria-hidden="true" role="img">
+              <use xlink:href="/assets/img/sprite.svg#cancel"></use>
+            </svg>
+          </div>
+          <div class="usa-icon-list__content">
+            <span class="image-example__do-dont">DON'T: </span>{{ include.text }}
+          </div>
+        </li>
+      </ul>
+    </figcaption>
+  </figure>
+</div>

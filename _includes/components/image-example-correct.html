@@ -1,10 +1,11 @@
 {% comment %}
 include
-- image 
+- image
+- text
 {% endcomment %}
 <div class="usa-image-example--correct">
     <figure class="usa-image-example__figure">
-      <img class="usa-image-example__image" alt="correct example, use dark background" src="{{ include.image }}" />
+      <img class="usa-image-example__image" alt="correct example, use dark background" src="{{ include.image | prepend: site.baseurl}}" />
       <figcaption class="usa-image-example__figcaption">
         <ul class="usa-icon-list usa-icon-list--size-md">
           <li class="usa-icon-list__item">
@@ -14,7 +15,7 @@ include
               </svg>
             </div>
             <div class="usa-icon-list__content">
-              <span class="image-example__do-dont">DO: </span>Use a solid, dark background, but make the text longer for testing the way the word wrap behaves.
+              <span class="image-example__do-dont">DO: </span>{{ include.text }}
             </div>
           </li>
         </ul>
