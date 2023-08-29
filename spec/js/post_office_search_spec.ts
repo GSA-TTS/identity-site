@@ -5,11 +5,14 @@
 import { getByLabelText } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 import { act } from '@testing-library/react';
+import { promisify } from 'util';
+
+const wait = promisify(setImmediate);
 
 describe('Post Office Search', () => {
   let container: HTMLDivElement;
-  beforeEach(() => {
-    act(() => {
+  beforeEach(async () => {
+    await act(async () => {
       container = document.createElement('div');
       container.id = 'post-office-search';
       document.body.appendChild(container);
@@ -17,6 +20,7 @@ describe('Post Office Search', () => {
         // eslint-disable-next-line global-require
         require('../../assets/js/post_office_search');
       });
+      await wait();
     });
   });
 
@@ -35,19 +39,21 @@ describe('Post Office Search', () => {
     );
   };
 
-  it('renders a post office search component', () => {
-    act(() => {
+  it('renders a post office search component', async () => {
+    await act(async () => {
       const field = getField();
       expect(field).toBeEnabled();
       expect(field).toBeVisible();
+      await wait();
     });
   });
 
-  it('allows a text search', () => {
-    act(() => {
+  it('allows a text search', async () => {
+    await act(async () => {
       const field = getField();
       expect(field).toBeEnabled();
       expect(field).toBeVisible();
+      await wait();
     });
   });
 });
