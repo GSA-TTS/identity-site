@@ -14,19 +14,12 @@ redirect_from:
   - /help/signing-in/i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me/
   - /help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
   - /help/signing-in/personal-key-not-working/
-  - /help/signing-in/personal-key-not-working/
-  - /help/signing-in/phone-didnt-get-a-security-code/
   - /help/signing-in/phone-didnt-get-a-security-code/
   - /help/signing-in/phone-or-authentication-methods-not-available/
-  - /help/signing-in/phone-or-authentication-methods-not-available/
-  - /help/signing-in/security-code-not-working/
   - /help/signing-in/security-code-not-working/
   - /help/signing-in/why-didnt-I-receive-a-reset-password-email-from-logingov/
   - /help/signing-in/why-didnt-i-receive-a-security-code/
-  - /help/signing-in/why-didnt-i-receive-a-security-code/
   - /help/signing-in/why-is-my-personal-key-invalid/
-  - /help/signing-in/why-is-my-personal-key-invalid/
-  - /help/signing-in/why-is-my-security-code-invalid/
 ---
 
 Depending on the authentication methods you’ve set up, you may still be able to access your Login.gov account. After you’re able to sign in, make sure you’ve set up more than one authentication method to avoid losing access to your account.

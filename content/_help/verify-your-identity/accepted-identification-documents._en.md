@@ -5,10 +5,9 @@ category: verify-your-identity
 permalink: /help/verify-your-identity/accepted-identification-documents/
 order: 2
 redirect_from:
-  - /en/help/verify-your-identity/accepted-identification-documents/
-  - /en/help/verify-your-identity/accepted-state-issued-identification/
   - /help/identity-verification/i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity/
   - /help/verifying-your-identity/dont-have-a-state-issued-id/
+  - /en/help/verify-your-identity/accepted-identification-documents/
   - /help/verify-your-identity/accepted-state-issued-identification/
   - /en/help/verify-your-identity/accepted-state-issued-identification/
 do_list: 

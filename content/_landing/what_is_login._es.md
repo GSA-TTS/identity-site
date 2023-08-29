@@ -59,5 +59,4 @@ component:
 permalink: /es/what-is-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
-redirect_from:
 ---
