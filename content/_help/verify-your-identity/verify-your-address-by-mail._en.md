@@ -6,6 +6,8 @@ permalink: /help/verify-your-identity/verify-your-address-by-mail/
 order: 6
 redirect_from:
   - /en/help/verify-your-identity/verify-your-address-by-mail/
+  - /help/creating-an-account/how-do-i-verify-my-address-by-mail/
+  - /help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 ---
 
 Identity verification is the process where you prove you are you - and not someone pretending to be you. One step in this process requires you to provide your primary phone number to verify your identity.

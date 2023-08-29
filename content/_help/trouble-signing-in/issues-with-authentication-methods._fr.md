@@ -3,6 +3,23 @@ title: Problèmes liés aux méthodes d’authentification
 category: trouble-signing-in
 permalink: /fr/help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
+redirect_from: 
+  - /fr/help/creating-an-account/no-phone-or-other-authentication-method/
+  - /fr/help/creating-an-account/phone-didnt-get-a-security-code/
+  - /fr/help/creating-an-account/why-didnt-i-receive-a-security-code-to-confirm-my-phone/
+  - /fr/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods/
+  - /fr/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-personal-key/
+  - /fr/help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed/
+  - /fr/help/signing-in/i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me/
+  - /fr/help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
+  - /fr/help/signing-in/personal-key-not-working/
+  - /fr/help/signing-in/phone-didnt-get-a-security-code/
+  - /fr/help/signing-in/phone-or-authentication-methods-not-available/
+  - /fr/help/signing-in/security-code-not-working/
+  - /fr/help/signing-in/why-didnt-I-receive-a-reset-password-email-from-logingov/
+  - /fr/help/signing-in/why-didnt-i-receive-a-security-code/
+  - /fr/help/signing-in/why-is-my-personal-key-invalid/
+  - /fr/help/signing-in/why-is-my-security-code-invalid/
 ---
 
 En fonction des méthodes d’authentification que vous avez configurées, vous pourrez peut-être encore accéder à votre compte Login.gov. Une fois que vous avez pu vous connecter, assurez-vous d’avoir configuré plusieurs méthodes d’authentification pour éviter de perdre l’accès à votre compte.
