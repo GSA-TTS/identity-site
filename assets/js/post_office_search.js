@@ -10,5 +10,6 @@ root.render(
   React.createElement(AddressSearch, {
     addressSearchURL: addressSearchUrl,
     locationsURL: locationsSearchUrl,
+    onFoundLocations: () => {},
   }),
 );
