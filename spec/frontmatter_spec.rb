@@ -19,9 +19,8 @@ RSpec.describe '.md files' do
         it 'includes globally unique redirects' do
           redirects.each do |redirect|
             expect(global_redirects).not_to include(redirect), "Redirect already set:\n\n#{redirect}"
+            global_redirects << redirect
           end
-
-          global_redirects += redirects
         end
 
         it 'defines redirects in consistent format' do
