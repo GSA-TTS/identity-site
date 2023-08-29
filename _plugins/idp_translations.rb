@@ -18,6 +18,7 @@ def copy_translations(origin_uris, destination)
     next if File.exist?(dest_filename)
 
     download = URI.open("#{DOMAIN}#{uri}")
+    FileUtils.mkdir_p(File.dirname("#{destination}#{uri}"))
     IO.copy_stream(download, "#{destination}#{uri}")
   end
 end
