@@ -1,0 +1,23 @@
+{% comment %}
+include
+- image 
+{% endcomment %}
+<div class="usa-image-example--correct">
+    <figure class="usa-image-example__figure">
+      <img class="usa-image-example__image" alt="correct example, use dark background" src="{{ include.image }}" />
+      <figcaption class="usa-image-example__figcaption">
+        <ul class="usa-icon-list usa-icon-list--size-md">
+          <li class="usa-icon-list__item">
+            <div class="usa-icon-list__icon">
+              <svg class="usa-icon" aria-hidden="true" role="img">
+                <use xlink:href="/assets/img/sprite.svg#check_circle"></use>
+              </svg>
+            </div>
+            <div class="usa-icon-list__content">
+              <span class="image-example__do-dont">DO: </span>Use a solid, dark background, but make the text longer for testing the way the word wrap behaves.
+            </div>
+          </li>
+        </ul>
+      </figcaption>
+    </figure>
+  </div>
