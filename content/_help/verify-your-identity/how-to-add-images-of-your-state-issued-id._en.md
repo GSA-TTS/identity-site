@@ -6,28 +6,29 @@ permalink: /help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
 redirect_from:
   - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
+do_list: 
+  - "**Driver’s license** from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, American Samoa, Mariana Islands and Puerto Rico)."
+  - "**Non-driver’s license state-issued ID card.** This is an identity document issued by the state, the District of Columbia (DC), or US territory that asserts identity but does not give driving privileges."
+dont_list:
+  - You cannot pass identity verification if your ID is expired.
+  - You cannot use extension documents in place of an unexpired&nbsp;ID.
+  - You cannot use a paper or temporary ID.
+alert: <strong>If you do not have a valid drivers' license or state ID card, you cannot use Login.gov for identity verification.</strong> Please contact the partner agency’s help center to find out what you can do instead."
 ---
 
-A clear picture of your state-issued ID is required to complete the identity verification process. For best results, we recommend using a phone to automatically take a photo of the front and back of your ID. If you are verifying your identity on a computer, you will be able to switch to a phone for this part of the process. You are not required to upload a picture of yourself or take a selfie for identity verification.
+# Heading
 
-## Tips for taking photos of your ID with a camera
+## Heading 2
 
-* Do use a high resolution camera (8 megapixel or higher). Most phone or tablet cameras will work, your computer webcam may not. We recommend you use your mobile device.
-* Do use a solid, dark background.
-* Do show the edges of the ID in the photo.
-* Do take a clear photo without shadows, glares, reflections or blur.
-* Do check that barcodes are not damaged or dirty.
-* Do take the photo in a well lit area with indirect light.
-* Don’t use your flash.
-* Don’t crop the background.
+{% include alert.html content=page.alert type='error' role='alert' %}
 
-## Tips for uploading or scanning your ID:
+<span class="usa-tag usa-tag--informative">Recommended</span>
 
-* Follow the same tips for taking photos of your ID with a camera
-* Save each file as a JPG or PNG. You cannot use a PDF file. Look at the name of your file and it should have an abbreviation after the title (ex: JohnDoeID_Front.jpg)
-* Make sure your ID takes up about 80% of the images
-* Make sure your images are high-resolution (around 2025 x 1275 pixels is ideal)
-* Images should be in color (24-bit RGB)
+{% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'%}
+
+{% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' %}
+
+{% include components/image-example-correct.html image='/assets/img/help/id-dos-and-donts/id-do-back.png' %}
 
 ## Related articles
 
