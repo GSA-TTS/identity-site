@@ -1,6 +1,6 @@
 ---
 layout: help
-title: How to add images of your state-issued ID
+title: How to add images of your driver’s license or state ID card
 category: verify-your-identity
 permalink: /help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
@@ -15,8 +15,6 @@ do_list:
   
 alert: <strong>If you do not have a valid drivers' license or state ID card, you cannot use Login.gov for identity verification.</strong> Please contact the partner agency’s help center to find out what you can do instead."
 ---
-# How to add images of your driver’s license or state ID card
-
 {% include alert.html content=page.alert type='error' role='alert' %}
 
 <span class="usa-tag usa-tag--informative">Recommended</span>
@@ -26,18 +24,36 @@ If you are using a computer to verify your identity, you will be able to switch 
 
 ### Tips for taking clear photos with a phone
 
-<img alt="correct example, use dark background" src="/assets/img/help/id-dos-and-donts/id-do-front.png" />
-<img alt="correct example, use dark background" src="/assets/img/help/id-dos-and-donts/id-do-back.png" />
+
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    <img alt="correct example, use dark background" src="/assets/img/help/id-dos-and-donts/id-do-front.png" />
+  </div>
+  <div class="tablet:grid-col">
+    <img alt="correct example, use dark background" src="/assets/img/help/id-dos-and-donts/id-do-back.png" />
+  </div>
+</div>
+
 {% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'%}
 
 ### Common issues with taking photos of an ID
-{% include components/image-example-incorrect.html text='Use a white background' image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png' %}
 
-{% include components/image-example-incorrect.html text='Use textured, patterned backgrounds' image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png' %}
-
-{% include components/image-example-incorrect.html text='Crop out the edges of your ID' image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png' %}
-
-{% include components/image-example-incorrect.html text='Use a picture with glare or shadow' image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png' %}
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    {% include components/image-example-incorrect.html text='Use a white background' image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png' %}
+  </div>
+  <div class="tablet:grid-col">
+    {% include components/image-example-incorrect.html text='Use textured, patterned backgrounds' image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png' %}
+  </div>
+</div>
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    {% include components/image-example-incorrect.html text='Crop out the edges of your ID' image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png' %}
+  </div>
+  <div class="tablet:grid-col">
+    {% include components/image-example-incorrect.html text='Use a picture with glare or shadow' image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png' %}
+  </div>
+</div>
 
 ## If you don’t have access to a phone with a camera, you can upload a file or use a scanner
 - Follow the same tips for taking photos with a phone
