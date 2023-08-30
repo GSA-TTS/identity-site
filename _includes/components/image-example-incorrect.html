@@ -1,10 +1,11 @@
 {% comment %}
 include
 - image 
+- red-text
 - text
 - fully-bordered-class
 {% endcomment %}
-<div class="usa-image-example usa-image-example--incorrect">
+<div class="usa-image-example usa-image-example--incorrect margin-bottom-2">
   <figure class="usa-image-example__figure">
     <img alt="incorrect example, dont use light colored background" class="usa-image-example__image {{ include.fully-bordered-class }}" src="{{ include.image | prepend: site.baseurl}}" />
     <figcaption class="usa-image-example__figcaption">
@@ -16,7 +17,7 @@ include
             </svg>
           </div>
           <div class="usa-icon-list__content">
-            <span class="image-example__do-dont">DON'T: </span>{{ include.text }}
+            <span class="image-example__do-dont">{{ include.red-text }}: </span>{{ include.text }}
           </div>
         </li>
       </ul>

@@ -42,6 +42,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
+      red-text="DON'T"
       text='Use a white background'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       fully-bordered-class='usa-image-example__image--bordered'
@@ -50,6 +51,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
+      red-text="DON'T"
       text='Use textured, patterned backgrounds'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       fully-bordered-class='usa-image-example__image--bordered'
@@ -60,6 +62,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
+      red-text="DON'T"
       text='Crop out the edges of your ID'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       fully-bordered-class='usa-image-example__image--bordered'
@@ -68,7 +71,8 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      text='Use a picture with glare or shadow'
+      red-text="AVOID"
+      text='Glares and shadows'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
     %}
   </div>
