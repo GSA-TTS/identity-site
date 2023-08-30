@@ -27,10 +27,10 @@ If you are using a computer to verify your identity, you will be able to switch 
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
-    <img alt="correct example, use dark background" src="/assets/img/help/id-dos-and-donts/id-do-front.png" />
+    <img alt="correct example, use dark background" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
   </div>
   <div class="tablet:grid-col">
-    <img alt="correct example, use dark background" src="/assets/img/help/id-dos-and-donts/id-do-back.png" />
+    <img alt="correct example, use dark background" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
   </div>
 </div>
 
