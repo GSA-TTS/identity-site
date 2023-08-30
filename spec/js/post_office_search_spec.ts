@@ -28,9 +28,13 @@ describe('Post Office Search', () => {
       global.fetch = jest.fn();
     }
     (global.fetch as jest.Mock).mockImplementation(() => ({
-      ok: jest.fn(() => true),
+      get ok() {
+        return true;
+      },
       json: jest.fn(() => []),
-      headers: jest.fn(() => new Headers()),
+      get headers() {
+        return new Headers();
+      },
     }));
   });
 
@@ -89,12 +93,9 @@ describe('Post Office Search', () => {
         await user.type(field, testAddress);
       });
 
-      await waitFor(
-        () => {
-          expect(field).toHaveValue(testAddress);
-        },
-        { timeout: 3000, interval: 50 },
-      );
+      await waitFor(() => {
+        expect(field).toHaveValue(testAddress);
+      });
     });
 
     describe('submitting', () => {
@@ -124,7 +125,6 @@ describe('Post Office Search', () => {
             await user.clear(field);
             await user.type(field, testAddress);
             await user.click(button);
-            await wait(4000);
           });
         });
 
