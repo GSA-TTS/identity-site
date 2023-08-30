@@ -13,7 +13,7 @@ do_list:
   - Do check that ID barcodes are not damaged or dirty
   - Do try to hold your phone still while taking the photos. It may help to prop your arms on the table to steady yourself.
   
-alert: <strong>If you do not have a valid drivers' license or state ID card, you cannot use Login.gov for identity verification.</strong> Please contact the partner agency’s help center to find out what you can do instead."
+alert: <strong>If you do not have a <a href="/help/verify-your-identity/accepted-state-issued-identification/">valid drivers' license or state ID card</a>, you cannot use Login.gov for identity verification.</strong> Please contact the partner agency’s help center to find out what you can do instead."
 ---
 {% include alert.html content=page.alert type='error' role='alert' %}
 
@@ -75,26 +75,27 @@ If you are using a computer to verify your identity, you will be able to switch 
 </div>
 
 ## If you don’t have access to a phone with a camera, you can upload a file or use a scanner
-- Follow the same tips for taking photos with a phone
-- Save each file as a JPG or PNG. You cannot use a PDF file. Look at the name of your file and it should have an abbreviation after the title (ex: JohnDoeID_Front.jpg)
-- Make sure your images are high-resolution (around 2025 x 1275 pixels is ideal)
-- Images should be in color
+* Follow the same [tips for taking photos with a phone](#use-a-phone-to-take-photos-of-the-front-and-back-of-your-id)
+* Save each file as a JPG or PNG. You cannot use a PDF file. Look at the name of your file and it should have an abbreviation after the title (ex: JohnDoeID_Front.jpg)
+* Make sure your images are high-resolution (around 2025 x 1275 pixels is ideal)
+* Images should be in color
 
 ## Troubleshooting
 
-### An outdated browser might be the cause of your error
+An outdated browser might be the cause of your error. Follow the instructions below to update your browser:
 
-Follow the instructions below to update your browser:
-- Google Chrome
-- Mozilla Firefox
-- Safari
+* [Google Chrome](https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=en-US)
+* [Mozilla Firefox](https://support.mozilla.org/en-US/kb/update-firefox-latest-version)
+* [Safari](https://support.apple.com/en-us/HT204416)
 
 Be sure to restart your computer and try signing in again.
 
-### Clear your browser cache and cookies, or the data your browser stores
-Follow the instructions below to clear your browser cache and cookies:
-- Google Chrome
-- Mozilla Firefox
-- Safari
+## Clear your browser cache and cookies
+
+Try clearing your browser cache and cookies, or the data your browser stores, to resolve your error. Follow the instructions below to clear your browser cache and cookies:
+
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=en)
+* [Mozilla Firefox](https://support.mozilla.org/en-US/kb/how-clear-firefox-cache)
+* [Safari](https://support.apple.com/en-us/HT201265)
 
 Be sure to restart your computer and try signing in again.
