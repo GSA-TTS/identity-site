@@ -13,7 +13,7 @@ For each outcome, you should modify site settings by following the instructions 
           contact_unplanned_outage: true
           contact_unplanned_outage_phone_available: true
     - If **NO**, the phone line is not available:
-      - **Is the contact form still available for support?**
+      - **Is the web-based contact form still available for support?**
         - If **YES**, use the following configuration to remove the phone number and keep the form:
 
               contact_phone_number_enabled: false
