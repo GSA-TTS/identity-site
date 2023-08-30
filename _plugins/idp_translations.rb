@@ -17,7 +17,6 @@ def download_files(origin_uris, destination)
   origin_uris.each do |uri|
     filename = uri.gsub(DOMAIN, '').gsub(%r{^/}, '')
     dest_filename = File.join(destination, filename)
-    next if File.exist?(dest_filename)
 
     FileUtils.mkdir_p(File.dirname("#{destination}#{uri}"))
     download = URI.open("#{DOMAIN}#{uri}")
