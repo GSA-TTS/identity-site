@@ -6,20 +6,43 @@ import { getByLabelText, getByRole, waitFor } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 import { act } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { promisify } from 'util';
 
-const wait = promisify(setImmediate);
+const wait = (ms: number = 0) =>
+  new Promise<void>((res) => {
+    setTimeout(() => {
+      res();
+    }, ms);
+  });
 
 describe('Post Office Search', () => {
+  // This is simulated since the test env doesn't support fetch
+  const testServerPort = 9835;
+  const addressSearchUrl = `http://127.0.0.1:${testServerPort}/api/address_search`;
+  const locationsSearchUrl = `http://127.0.0.1:${testServerPort}/api/usps_locations`;
+
+  beforeEach(() => {
+    if ('fetch' in global) {
+      jest.spyOn(global, 'fetch');
+    } else {
+      // @ts-ignore
+      global.fetch = jest.fn();
+    }
+    (global.fetch as jest.Mock).mockImplementation(() => ({
+      ok: jest.fn(() => true),
+      json: jest.fn(() => []),
+      headers: jest.fn(() => new Headers()),
+    }));
+  });
+
   let container: HTMLDivElement;
-  let user: UserEvent;
+  let user: ReturnType<typeof userEvent['setup']>;
   beforeEach(async () => {
     user = userEvent.setup();
     await act(async () => {
       container = document.createElement('div');
       container.id = 'post-office-search';
-      container.dataset.addressSearchUrl = 'http://localhost:4000/api/address_search';
-      container.dataset.locationsSearchUrl = 'http://localhost:4000/api/usps_locations';
+      container.dataset.addressSearchUrl = addressSearchUrl;
+      container.dataset.locationsSearchUrl = locationsSearchUrl;
       document.body.appendChild(container);
       jest.isolateModules(() => {
         // eslint-disable-next-line global-require
@@ -50,13 +73,10 @@ describe('Post Office Search', () => {
     });
   };
 
-  it('renders a post office search component', async () => {
-    await act(async () => {
-      const field = getField();
-      expect(field).toBeEnabled();
-      expect(field).toBeVisible();
-      await wait();
-    });
+  it('renders a post office search component', () => {
+    const field = getField();
+    expect(field).toBeEnabled();
+    expect(field).toBeVisible();
   });
 
   describe('when searching', () => {
@@ -65,9 +85,8 @@ describe('Post Office Search', () => {
     it('allows search field input', async () => {
       const field = getField();
       await act(async () => {
-        user.clear(field);
-        user.type(field, testAddress);
-        await wait();
+        await user.clear(field);
+        await user.type(field, testAddress);
       });
 
       await waitFor(
@@ -78,15 +97,40 @@ describe('Post Office Search', () => {
       );
     });
 
-    describe('invalid input', () => {
-      it('shows an error', async () => {
-        const button = getButton();
-        const errorMessage = 'in_person_proofing.body.location.inline_error';
-        await act(async () => {
-          user.click(button);
-          await wait();
+    describe('submitting', () => {
+      describe('invalid input', () => {
+        beforeEach(async () => {
+          const button = getButton();
+          await act(async () => {
+            await user.click(button);
+          });
         });
-        expect(container).toHaveTextContent(errorMessage);
+
+        it('shows an error', () => {
+          const errorMessage = 'in_person_proofing.body.location.inline_error';
+          expect(container).toHaveTextContent(errorMessage);
+        });
+
+        it('does not result in any fetch requests', () => {
+          expect(global.fetch).not.toHaveBeenCalled();
+        });
+      });
+
+      describe('valid input with no results', () => {
+        beforeEach(async () => {
+          const field = getField();
+          const button = getButton();
+          await act(async () => {
+            await user.clear(field);
+            await user.type(field, testAddress);
+            await user.click(button);
+            await wait(4000);
+          });
+        });
+
+        it('sends at least one fetch request', () => {
+          expect(global.fetch).toHaveBeenCalled();
+        });
       });
     });
   });
