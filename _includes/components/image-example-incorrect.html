@@ -1,5 +1,6 @@
 {% comment %}
 include
+- image-alt-text
 - image 
 - red-text
 - text
@@ -8,7 +9,7 @@ include
 <div class="usa-image-example usa-image-example--incorrect margin-bottom-2">
   <figure class="usa-image-example__figure">
     <img
-      alt="incorrect example, dont use light colored background"
+      alt="{{ include.image-alt-text }}"
       class="usa-image-example__image {{ include.fully-bordered-class }}"
       src="{{ site.baseurl }}{{ include.image }}"
     />

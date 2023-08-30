@@ -31,10 +31,10 @@ If you are using a computer to verify your identity, you will be able to switch 
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
-    <img alt="correct example, use dark background" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
+    <img alt="id front with dark background" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
   </div>
   <div class="tablet:grid-col">
-    <img alt="correct example, use dark background" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
+    <img alt="id back with dark background" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
   </div>
 </div>
 
@@ -55,6 +55,7 @@ If you are using a computer to verify your identity, you will be able to switch 
       red-text="DON'T"
       text='Use a white background'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
+      image-alt-text='id on white background'
       fully-bordered-class='usa-image-example__image--bordered'
     %}
   </div>
@@ -64,6 +65,7 @@ If you are using a computer to verify your identity, you will be able to switch 
       red-text="DON'T"
       text='Use textured, patterned backgrounds'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
+      image-alt-text='id on textured background'
       fully-bordered-class='usa-image-example__image--bordered'
     %}
   </div>
@@ -75,6 +77,7 @@ If you are using a computer to verify your identity, you will be able to switch 
       red-text="DON'T"
       text='Crop out the edges of your ID'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
+      image-alt-text='id with incorrect cropping'
       fully-bordered-class='usa-image-example__image--bordered'
     %}
   </div>
@@ -84,6 +87,7 @@ If you are using a computer to verify your identity, you will be able to switch 
       red-text="AVOID"
       text='Glares and shadows'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
+      image-alt-text='id with glare and shadow'
     %}
   </div>
 </div>
