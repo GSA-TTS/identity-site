@@ -15,7 +15,12 @@ do_list:
   
 alert: <strong>If you do not have a <a href="/help/verify-your-identity/accepted-state-issued-identification/">valid drivers' license or state ID card</a>, you cannot use Login.gov for identity verification.</strong> Please contact the partner agency’s help center to find out what you can do instead."
 ---
-{% include alert.html content=page.alert type='error' role='alert' %}
+{%
+  include alert.html
+  content=page.alert
+  type='error'
+  role='alert'
+%}
 
 <span class="usa-tag usa-tag--informative">Recommended</span>
 ## Use a phone to take photos of the front and back of your ID
@@ -23,7 +28,6 @@ alert: <strong>If you do not have a <a href="/help/verify-your-identity/accepted
 If you are using a computer to verify your identity, you will be able to switch to a phone to take photos of your ID.
 
 ### Tips for taking clear photos with a phone
-
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
@@ -34,7 +38,13 @@ If you are using a computer to verify your identity, you will be able to switch 
   </div>
 </div>
 
-{% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'%}
+{%
+  include components/icon-list.html
+  items=page.do_list
+  size='md'
+  icon_color='green'
+  icon_shape='check_circle'
+%}
 
 ### Common issues with taking photos of an ID
 
