@@ -9,9 +9,11 @@ require 'net/http'
 require 'json'
 require 'open-uri'
 
-DOMAIN = 'https://secure.login.gov'
+DOMAIN = Jekyll.configuration({})['idp_base_url']
+LANGUAGES = Jekyll.configuration({})['languages']
+MANIFEST_FILE = "/packs/manifest.json"
 
-def copy_translations(origin_uris, destination)
+def download_files(origin_uris, destination)
   origin_uris.each do |uri|
     filename = uri.gsub(DOMAIN, '').gsub(%r{^/}, '')
     dest_filename = File.join(destination, filename)
@@ -25,10 +27,16 @@ end
 
 Jekyll::Hooks.register :site, :post_write do |site|
   destination_translations_dir = File.join(site.config['destination'], 'assets/translations')
-  origin_manifest_uri = URI("#{DOMAIN}/packs/manifest.json")
+  origin_manifest_uri = URI("#{DOMAIN}#{MANIFEST_FILE}")
   manifest_response_body = Net::HTTP.get_response(origin_manifest_uri).body
   manifest_hash = JSON.parse(manifest_response_body)
-  document_capture_translations = manifest_hash["entrypoints"]["document-capture"]["assets"]["js"]
+  document_capture_assets = manifest_hash.dig('entrypoints', 'document-capture', 'assets', 'js')
 
-  copy_translations(document_capture_translations, destination_translations_dir)
+  raise 'langauge files not found' unless document_capture_assets
+
+  # only download the translation assets
+  document_capture_translations = document_capture_assets
+    .grep(/#{LANGUAGES.map {|str| "#{str}.js" }.join('|')}/)
+
+  download_files([MANIFEST_FILE, *document_capture_translations], destination_translations_dir)
 end
