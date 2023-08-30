@@ -40,18 +40,37 @@ If you are using a computer to verify your identity, you will be able to switch 
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
-    {% include components/image-example-incorrect.html text='Use a white background' image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png' %}
+    {%
+      include components/image-example-incorrect.html
+      text='Use a white background'
+      image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
+      fully-bordered-class='usa-image-example__image--bordered'
+    %}
   </div>
   <div class="tablet:grid-col">
-    {% include components/image-example-incorrect.html text='Use textured, patterned backgrounds' image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png' %}
+    {%
+      include components/image-example-incorrect.html
+      text='Use textured, patterned backgrounds'
+      image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
+      fully-bordered-class='usa-image-example__image--bordered'
+    %}
   </div>
 </div>
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
-    {% include components/image-example-incorrect.html text='Crop out the edges of your ID' image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png' %}
+    {%
+      include components/image-example-incorrect.html
+      text='Crop out the edges of your ID'
+      image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
+      fully-bordered-class='usa-image-example__image--bordered'
+    %}
   </div>
   <div class="tablet:grid-col">
-    {% include components/image-example-incorrect.html text='Use a picture with glare or shadow' image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png' %}
+    {%
+      include components/image-example-incorrect.html
+      text='Use a picture with glare or shadow'
+      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
+    %}
   </div>
 </div>
 

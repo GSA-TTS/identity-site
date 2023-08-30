@@ -2,10 +2,11 @@
 include
 - image 
 - text
+- fully-bordered-class
 {% endcomment %}
 <div class="usa-image-example usa-image-example--incorrect">
   <figure class="usa-image-example__figure">
-    <img alt="incorrect example, dont use light colored background" class="usa-image-example__image" src="{{ include.image | prepend: site.baseurl}}" />
+    <img alt="incorrect example, dont use light colored background" class="usa-image-example__image {{ include.fully-bordered-class }}" src="{{ include.image | prepend: site.baseurl}}" />
     <figcaption class="usa-image-example__figcaption">
       <ul class="usa-icon-list usa-icon-list--size-md">
         <li class="usa-icon-list__item">
