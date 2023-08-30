@@ -1,4 +1,6 @@
 assets/js/jquery/3.5.1/jquery.min.js
+assets/translations/*
 _site
 node_modules
 vendor
+
