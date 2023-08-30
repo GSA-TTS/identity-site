@@ -19,8 +19,8 @@ def download_files(origin_uris, destination)
     dest_filename = File.join(destination, filename)
     next if File.exist?(dest_filename)
 
-    download = URI.open("#{DOMAIN}#{uri}")
     FileUtils.mkdir_p(File.dirname("#{destination}#{uri}"))
+    download = URI.open("#{DOMAIN}#{uri}")
     IO.copy_stream(download, "#{destination}#{uri}")
   end
 end
