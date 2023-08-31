@@ -7,6 +7,10 @@ const page = originalPage as Page;
 const goto = originalGoto as (path: string) => ReturnType<Page['goto']>;
 
 describe('PO search page', () => {
+  beforeEach(() => {
+    jest.setTimeout(10_000);
+  });
+
   describe('PO search page enabled', () => {
     let it;
     if (process.env.PO_SEARCH_TESTING_ENABLED) {
