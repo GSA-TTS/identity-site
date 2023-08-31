@@ -4,18 +4,29 @@ category: get-started
 permalink: /fr/help/get-started/authentication-methods/
 order: 2
 redirect_from:
-  - /fr/help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
-  - /fr/help/security-keys/what-is-a-security-key/
-  - /fr/help/security-keys/what-is-phishing/
+  - /fr/help/authentication-methods/
+  - /fr/help/authentication-methods/which-authentication-method-should-i-use/
+  - /fr/help/changing-settings/how-do-I-set-up-an-authentication-app/
+  - /fr/help/creating-an-account/authentication-application/
+  - /fr/help/creating-an-account/do-i-need-a-mobile-phone-to-use-logingov/
+  - /fr/help/creating-an-account/how-do-i-create-an-account-with-only-one-two-factor-authenticator/
+  - /fr/help/creating-an-account/security-key/
+  - /fr/help/creating-an-account/two-factor-authentication/
+  - /fr/help/creating-an-account/what-is-my-personal-key/
+  - /fr/help/creating-an-account/what-is-two-factor-authentication/
+  - /fr/help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/
+  - /fr/help/get-started/authentication-options/
+  - /fr/help/security-keys/
   - /fr/help/security-keys/do-i-need-a-mobile-phone-to-use-logingov/
   - /fr/help/security-keys/do-i-need-to-set-up-a-security-key-to-use-logingov/
+  - /fr/help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
   - /fr/help/security-keys/how-do-i-protect-my-logingov-account-with-a-security-key/
   - /fr/help/security-keys/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
   - /fr/help/security-keys/related-articles/
-  - /fr/help/security-keys/
-  - /fr/help/authentication-methods/which-authentication-method-should-i-use/
-  - /fr/help/authentication-methods/
-  - /fr/help/get-started/authentication-options/
+  - /fr/help/security-keys/what-is-a-security-key/
+  - /fr/help/security-keys/what-is-phishing/
+  - /fr/help/signing-in/what-is-an-authentication-app/
+  - /fr/help/signing-in/what-is-an-authenticator-app/
 ---
 En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d'authentification pour assurer la sécurité de votre compte. Il s'agit d'une authentification multifactorielle (AMF). Nous utilisons l'AMF comme un niveau de protection supplémentaire pour sécuriser vos informations.
 

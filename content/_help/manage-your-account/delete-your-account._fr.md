@@ -5,7 +5,11 @@ permalink: /fr/help/manage-your-account/delete-your-account/
 order: 1
 redirect_from:
   - /fr/help/changing-settings/delete-my-account/
+  - /fr/help/changing-settings/email-address-is-already-in-use/
   - /fr/help/changing-settings/how-do-i-delete-my-account/
+  - /fr/help/creating-an-account/email-address-is-already-in-use/
+  - /fr/help/creating-an-account/what-do-i-do-if-an-account-already-exists-under-my-email-address/
+  - /fr/help/signing-in/locked-out-of-account/
 ---
 **Plusieurs raisons peuvent justifier le besoin de supprimer votre compte:**
 

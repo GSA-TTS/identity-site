@@ -4,6 +4,8 @@ category: verify-your-identity
 permalink: /fr/help/verify-your-identity/accepted-identification-documents/
 order: 2
 redirect_from:
+  - /fr/help/identity-verification/i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity/
+  - /fr/help/verifying-your-identity/dont-have-a-state-issued-id/
   - /fr/help/verify-your-identity/accepted-state-issued-identification/
 do_list:
   - "**Permis de conduire** des 50 États, du district fédéral de Columbia (DC) et des autres territoires américains (Guam, îles Vierges américaines, Samoa américaines, îles Mariannes et Porto Rico)."

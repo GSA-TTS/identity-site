@@ -4,6 +4,8 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/accepted-identification-documents/
 order: 2
 redirect_from:
+  - /es/help/identity-verification/i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity/
+  - /es/help/verifying-your-identity/dont-have-a-state-issued-id/
   - /es/help/verify-your-identity/accepted-state-issued-identification/
 do_list:
   - "**Licencia de conducir** válida en los 50 estados, el Distrito de Columbia (DC) y otros territorios de Estados Unidos (Guam, Islas Vírgenes de Estados Unidos, Samoa Americana, Islas Marianas y Puerto Rico)"

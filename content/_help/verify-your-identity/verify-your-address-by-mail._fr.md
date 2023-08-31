@@ -3,6 +3,9 @@ title: Validez votre adresse par courrier
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/verify-your-address-by-mail/
 order: 6
+redirect_from:
+  - /fr/help/creating-an-account/how-do-i-verify-my-address-by-mail/
+  - /fr/help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 ---
 La vérification d'identité est le processus par lequel vous prouvez que vous êtes vous-même - et non quelqu'un qui prétend être vous. L'une des étapes de ce processus exige que vous fournissiez votre numéro de téléphone principal pour vérifier votre identité.
 
