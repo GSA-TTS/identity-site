@@ -263,6 +263,10 @@ identifier:
   usa_gov:
     link: Visitez USA.gov
     text: Vous recherchez des informations et des services du gouvernement américain?
+in_person_proofing:
+  po_search:
+    none_found: Désolé, il n’y a pas de bureaux de poste participants dans un rayon de 50 miles de la ville %{address}
+    none_found_tip: Vous pouvez effectuer une recherche en utilisant une autre adresse, ou ajouter des photos de votre pièce d’identité pour essayer de vérifier à nouveau votre identité en ligne.
 nav:
   about_us:
     sections:
