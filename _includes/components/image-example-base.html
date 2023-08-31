@@ -8,11 +8,18 @@ include
 - bordered_image
 - text
 {% endcomment %}
+
+{% if include.bordered_image == true %}
+  {% assign bordered_image_class = 'usa-image-example__image--bordered' %}
+{% else %}
+  {% assign bordered_image_class = '' %}
+{% endif %}
+
 <div class="usa-image-example {{ include.do_dont_class }}">
   <figure class="usa-image-example__figure">
     <img
       alt="{{ include.image_alt_text }}"
-      class="usa-image-example__image {{ include.bordered_image }}"
+      class="usa-image-example__image {{ bordered_image_class }}"
       src="{{ site.baseurl }}{{ include.image }}"
     />
     <figcaption class="usa-image-example__figcaption">

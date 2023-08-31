@@ -64,7 +64,7 @@ If you are using a computer to verify your identity, you will be able to switch 
       include components/image-example-incorrect.html
       image-alt-text='id on white background'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
-      bordered_image='usa-image-example__image--bordered'
+      bordered_image=true
       do_dont_text="DON'T"
       text='Use a white background'
     %}
@@ -74,7 +74,7 @@ If you are using a computer to verify your identity, you will be able to switch 
       include components/image-example-incorrect.html
       image-alt-text='id on textured background'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
-      bordered_image='usa-image-example__image--bordered'
+      bordered_image=true
       do_dont_text="DON'T"
       text='Use textured, patterned backgrounds'
     %}
@@ -86,7 +86,7 @@ If you are using a computer to verify your identity, you will be able to switch 
       include components/image-example-incorrect.html
       image-alt-text='id with incorrect cropping'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
-      bordered_image='usa-image-example__image--bordered'
+      bordered_image=true
       do_dont_text="DON'T"
       text='Crop out the edges of your ID'
     %}
