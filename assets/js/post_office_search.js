@@ -11,7 +11,7 @@ root.render(
   <AddressSearch
     addressSearchURL={addressSearchUrl}
     locationsURL={locationsSearchUrl}
-    onFoundLocations={()=> {}}
+    onFoundLocations={() => {}}
     PostOfficeNoResultsMessage={PostOfficeNoResults}
-  />
+  />,
 );
