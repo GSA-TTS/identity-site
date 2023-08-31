@@ -12,12 +12,22 @@ do_list:
   - Do take your photos in a well-lit area with indirect light
   - Do check that ID barcodes are not damaged or dirty
   - Do try to hold your phone still while taking the photos. It may help to prop your arms on the table to steady yourself.
-  
-alert: <strong>If you do not have a <a href="/help/verify-your-identity/accepted-state-issued-identification/">valid drivers' license or state ID card</a>, you cannot use Login.gov for identity verification.</strong> Please contact the partner agency’s help center to find out what you can do instead."
 ---
+
+{% capture alert_link %}
+  <a href="/help/verify-your-identity/accepted-state-issued-identification/">valid drivers' license or state ID card</a>
+{% endcapture %}
+
+{% capture alert_content %}
+  <strong>
+    If you do not have a {{ alert_link }} you cannot use Login.gov for identity verification.
+  </strong>
+  Please contact the partner agency’s help center to find out what you can do instead.
+{% endcapture %}
+
 {%
   include alert.html
-  content=page.alert
+  content=alert_content
   type='error'
   role='alert'
 %}
