@@ -205,6 +205,9 @@ workflows:
       - e2e:
           requires:
             - build
+      - e2e_po_search:
+          requires:
+            - build
       - nu:
           requires:
             - build
