@@ -52,21 +52,21 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      red-text="DON'T"
-      text='Use a white background'
-      image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       image-alt-text='id on white background'
+      image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       fully-bordered-class='usa-image-example__image--bordered'
+      do_dont_text="DON'T"
+      text='Use a white background'
     %}
   </div>
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      red-text="DON'T"
-      text='Use textured, patterned backgrounds'
-      image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       image-alt-text='id on textured background'
+      image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       fully-bordered-class='usa-image-example__image--bordered'
+      do_dont_text="DON'T"
+      text='Use textured, patterned backgrounds'
     %}
   </div>
 </div>
@@ -74,20 +74,20 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      red-text="DON'T"
-      text='Crop out the edges of your ID'
-      image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       image-alt-text='id with incorrect cropping'
+      image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       fully-bordered-class='usa-image-example__image--bordered'
+      do_dont_text="DON'T"
+      text='Crop out the edges of your ID'
     %}
   </div>
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      red-text="AVOID"
-      text='Glares and shadows'
-      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
       image-alt-text='id with glare and shadow'
+      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
+      do_dont_text="AVOID"
+      text='Glares and shadows'
     %}
   </div>
 </div>

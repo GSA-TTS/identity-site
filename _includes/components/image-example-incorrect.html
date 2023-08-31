@@ -1,31 +1,19 @@
 {% comment %}
 include
-- image-alt-text
+- image_alt_text
 - image 
-- red-text
+- do_dont_text
 - text
-- fully-bordered-class
+- fully_bordered
 {% endcomment %}
-<div class="usa-image-example usa-image-example--incorrect margin-bottom-2">
-  <figure class="usa-image-example__figure">
-    <img
-      alt="{{ include.image-alt-text }}"
-      class="usa-image-example__image {{ include.fully-bordered-class }}"
-      src="{{ site.baseurl }}{{ include.image }}"
-    />
-    <figcaption class="usa-image-example__figcaption">
-      <ul class="usa-icon-list usa-icon-list--size-md">
-        <li class="usa-icon-list__item">
-          <div class="usa-icon-list__icon">
-            <svg class="usa-icon" aria-hidden="true" role="img">
-              <use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#cancel"></use>
-            </svg>
-          </div>
-          <div class="usa-icon-list__content">
-            <span class="image-example__do-dont">{{ include.red-text }}: </span>{{ include.text }}
-          </div>
-        </li>
-      </ul>
-    </figcaption>
-  </figure>
-</div>
+
+{%
+  include components/image-example-base.html
+  do_dont_class='usa-image-example--incorrect'
+  do_dont_icon='/assets/img/sprite.svg#cancel'
+  do_dont_text=include.do_dont_text
+  image_alt_text=include.image_alt_text
+  image=include.image
+  fully_bordered=include.fully_bordered
+  text=include.text
+%}
