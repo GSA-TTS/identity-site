@@ -1,13 +1,106 @@
 ---
-title: Comment ajouter des images de votre carte d'identité délivrée par l'État
+layout: help
+title: Comment ajouter des images de votre permis de conduire ou de votre carte d'identité de l’État
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
+redirect_from:
+  - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
+do_list: 
+  - Utilisez une caméra à haute résolution telle qu'une caméra de téléphone intelligent ou de tablette. La webcaméra de votre ordinateur risque de ne pas prendre de photos claires.
+  - Prenez vos photos dans un endroit bien éclairé avec une lumière indirecte
+  - Essayez de maintenir votre téléphone immobile pendant que vous prenez les photos. Il peut être utile de poser vos bras sur la table pour vous stabiliser.
 ---
-Une photo claire de votre pièce d'identité délivrée par l'État est nécessaire pour compléter le processus de vérification de l'identité. Pour de meilleurs résultats, nous vous recommandons d'utiliser un téléphone pour prendre automatiquement une photo du recto et du verso de votre pièce d'identité. Si vous vérifiez votre identité sur un ordinateur, vous pourrez passer au téléphone pour cette partie du processus. Vous n'êtes pas tenu de téléverser une photo de vous-même ou de prendre une autophoto pour vérifier votre identité.
 
-## Conseils pour prendre des photos de votre carte d'identité avec un appareil photo:
+{% capture alert_link %}
+  <a href="/help/verify-your-identity/accepted-state-issued-identification/">valid drivers' license or state ID card</a>
+{% endcapture %}
 
+{% capture alert_content %}
+  <strong>
+    If you do not have a {{ alert_link }} you cannot use Login.gov for identity verification.
+  </strong>
+  Please contact the partner agency’s help center to find out what you can do instead.
+{% endcapture %}
+
+{%
+  include alert.html
+  content=alert_content
+  type='error'
+  role='alert'
+%}
+
+<span class="usa-tag usa-tag--informative">Recommended</span>
+## Utilisez un téléphone pour prendre des photos du recto et du verso de votre pièce d’identité
+
+Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez passer à un téléphone pour prendre des photos de votre pièce d'identité.
+
+### Conseils pour prendre des photos claires avec un téléphone
+
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    <img alt="" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
+  </div>
+  <div class="tablet:grid-col">
+    <img alt="" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
+  </div>
+</div>
+
+{%
+  include components/icon-list.html
+  items=page.do_list
+  size='md'
+  icon_color='green'
+  icon_shape='check_circle'
+%}
+
+### Problèmes courants liés à la prise de photos d'une pièce d'identité
+
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image-alt-text=''
+      image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
+      bordered_image=true
+      do_dont_text="À NE PAS FAIRE"
+      text='utiliser un fond blanc'
+    %}
+  </div>
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image-alt-text=''
+      image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
+      bordered_image=true
+      do_dont_text="À NE PAS FAIRE"
+      text='utiliser des arrière-plans texturés à motifs'
+    %}
+  </div>
+</div>
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image-alt-text=''
+      image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
+      bordered_image=true
+      do_dont_text="À NE PAS FAIRE"
+      text="recadrer les bords de votre pièce d'identité"
+    %}
+  </div>
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image-alt-text=''
+      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
+      do_dont_text="À ÉVITER"
+      text='les reflets et les ombres'
+    %}
+  </div>
+</div>
+
+## Si vous n'avez pas accès à un téléphone équipé d'une caméra, vous pouvez téléverser un fichier ou utiliser un scanner
 * Utilisez un appareil photo haute résolution (8 mégapixels ou plus).  La plupart des appareils photo des téléphones ou des tablettes fonctionneront, mais pas forcément la webcam de votre ordinateur. Nous vous recommandons d'utiliser votre appareil mobile.
 * Utilisez un fond solide et sombre.
 * Montrez les bords de la carte d'identité sur la photo.
@@ -17,16 +110,22 @@ Une photo claire de votre pièce d'identité délivrée par l'État est nécessa
 * N'utilisez pas votre flash.
 * Ne pas recadrer l'arrière-plan.
 
-## Conseils pour télécharger ou scanner votre pièce d'identité:
+## Mettez votre navigateur à jour
 
-* Suivez les mêmes conseils pour prendre des photos de votre pièce d'identité avec un appareil photo
-* Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser un fichier PDF. Regardez le nom de votre fichier et il devrait avoir une abréviation après le titre (ex : JohnDoeID_Front.jpg) 
-* Veillez à ce que votre identification occupe environ 80 % des images
-* Veillez à ce que vos images soient en haute résolution (environ 2025 x 1275 pixels)
-* Les images doivent être en couleur (RVB 24 bit)
+Un navigateur obsolète peut être à l'origine de votre erreur. Suivez les instructions ci-dessous pour mettre à jour votre navigateur :
 
-## Articles connexes 
+* [Google Chrome](https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=fr-CA)
+* [Mozilla Firefox](https://support.mozilla.org/fr/kb/mettre-jour-firefox-derniere-version?redirectslug=update-firefox-latest-version)
+* [Safari](https://support.apple.com/fr-ca/HT204416)
 
-[Comment vérifier votre identité ](/fr/help/verify-your-identity/how-to-verify-your-identity/)
-[Pièce d'identité délivrée par l'État acceptée](/fr/help/verify-your-identity/accepted-state-issued-identification/)
-[Dépannage pour le téléchargement d'une pièce d'identité délivrée par l'État](/fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
+Veillez à redémarrer votre ordinateur et à essayer de vous connecter à nouveau.
+
+## Effacez le cache et les cookies de votre navigateur
+
+Essayez de vider le cache et les cookies de votre navigateur, ou les données qu'il stocke, pour résoudre votre erreur. Suivez les instructions ci-dessous pour effacer le cache et les cookies de votre navigateur :
+
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=fr)
+* [Mozilla Firefox](https://support.mozilla.org/fr/kb/comment-vider-le-cache-de-firefox)
+* [Safari](https://support.apple.com/fr-ca/HT201265)
+
+Veillez à redémarrer votre ordinateur et essayez de vous connecter à nouveau.
