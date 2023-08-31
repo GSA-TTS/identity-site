@@ -15,14 +15,15 @@ MANIFEST_FILE = "/packs/manifest.json"
 
 def download_files(origin_uris, destination)
   origin_uris.each do |uri|
-    FileUtils.mkdir_p(File.dirname("#{destination}#{uri}"))
+    stripped_name = uri.split('.').last(2).join('.')
+    FileUtils.mkdir_p(File.dirname("#{destination}/#{stripped_name}"))
     download = URI.open("#{DOMAIN}#{uri}")
-    IO.copy_stream(download, "#{destination}#{uri}")
+    IO.copy_stream(download, "#{destination}/#{stripped_name}")
   end
 end
 
 Jekyll::Hooks.register :site, :post_write do |site|
-  destination_translations_dir = File.join(site.config['destination'], 'assets/translations')
+  destination_translations_dir = File.join(site.config['destination'], 'assets/idp_translations')
   origin_manifest_uri = URI("#{DOMAIN}#{MANIFEST_FILE}")
   manifest_response_body = Net::HTTP.get_response(origin_manifest_uri).body
   manifest_hash = JSON.parse(manifest_response_body)
@@ -34,5 +35,5 @@ Jekyll::Hooks.register :site, :post_write do |site|
   document_capture_translations = document_capture_assets
     .grep(/#{LANGUAGES.map {|str| "#{str}.js" }.join('|')}/)
 
-  download_files([MANIFEST_FILE, *document_capture_translations], destination_translations_dir)
+  download_files(document_capture_translations, destination_translations_dir)
 end
