@@ -86,6 +86,21 @@ jobs:
           name: run end-to-end tests
           command: npm test
 
+  e2e_po_search:
+    docker:
+      - image: cimg/ruby:3.1-browsers
+    environment:
+      SKIP_BUILD: false
+      JEKYLL_CONFIG_FILES: _config.yml,_config.e2e_po_search_enabled.yml
+    steps:
+      - checkout
+      - install-dependencies
+      - attach_workspace:
+          at: '.'
+      - run:
+          name: run end-to-end tests
+          command: npm test
+
   lint-js:
     docker:
       - image: cimg/ruby:3.1-node
