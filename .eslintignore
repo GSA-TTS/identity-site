@@ -1,6 +1,4 @@
-assets/js/jquery/3.5.1/jquery.min.js
 assets/idp_translations/*
 _site
 node_modules
 vendor
-
