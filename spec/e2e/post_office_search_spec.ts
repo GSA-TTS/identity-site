@@ -1,4 +1,4 @@
-import type { Page, HTTPRequest } from 'puppeteer';
+import type { Page } from 'puppeteer';
 
 // @ts-ignore
 import { page as originalPage, goto as originalGoto } from './support/browser';
@@ -8,6 +8,13 @@ const goto = originalGoto as (path: string) => ReturnType<Page['goto']>;
 
 describe('PO search page', () => {
   describe('PO search page enabled', () => {
+    let it;
+    if (process.env.PO_SEARCH_TESTING_ENABLED) {
+      it = global.it;
+    } else {
+      it = global.it.skip;
+    }
+
     it('is accessible from the side menu', async () => {
       await goto('/help/verify-your-identity/overview/');
 

@@ -92,6 +92,7 @@ jobs:
     environment:
       SKIP_BUILD: false
       JEKYLL_CONFIG_FILES: _config.yml,_config.e2e_po_search_enabled.yml
+      PO_SEARCH_TESTING_ENABLED: true
     steps:
       - checkout
       - install-dependencies
