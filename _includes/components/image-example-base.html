@@ -5,14 +5,14 @@ include
 - do_dont_text
 - image_alt_text
 - image 
-- fully_bordered
+- bordered_image
 - text
 {% endcomment %}
 <div class="usa-image-example {{ include.do_dont_class }}">
   <figure class="usa-image-example__figure">
     <img
       alt="{{ include.image_alt_text }}"
-      class="usa-image-example__image {{ include.fully_bordered }}"
+      class="usa-image-example__image {{ include.bordered_image }}"
       src="{{ site.baseurl }}{{ include.image }}"
     />
     <figcaption class="usa-image-example__figcaption">
