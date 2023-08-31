@@ -29,7 +29,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
   manifest_hash = JSON.parse(manifest_response_body)
   document_capture_assets = manifest_hash.dig('entrypoints', 'document-capture', 'assets', 'js')
 
-  raise 'Langauge files not found in IDP manifest' unless document_capture_assets
+  raise 'Language files not found in IDP manifest' unless document_capture_assets
 
   # only download the translation assets
   document_capture_translations = document_capture_assets
