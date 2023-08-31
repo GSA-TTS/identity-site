@@ -5,7 +5,7 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
 redirect_from:
-  - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
+  - /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 do_list: 
   - Es recomendable utilizar una cámara de alta resolución, como la de un smartphone o una tableta. Es probable que la cámara web de tu computadora no pueda obtener fotografías nítidas.
   - Procura realizar las fotografías en una zona bien iluminada y con luz indirecta.
@@ -13,14 +13,14 @@ do_list:
 ---
 
 {% capture alert_link %}
-  <a href="/help/verify-your-identity/accepted-state-issued-identification/">valid drivers' license or state ID card</a>
+  <a href="/es/help/verify-your-identity/accepted-state-issued-identification/">licencia de conducir válida o con un documento de identidad estatal</a>
 {% endcapture %}
 
 {% capture alert_content %}
   <strong>
-    If you do not have a {{ alert_link }} you cannot use Login.gov for identity verification.
+    Si no cuenta {{ alert_link }} no puede utilizar Login.gov para verificar su identidad.
   </strong>
-  Please contact the partner agency’s help center to find out what you can do instead.
+  Por favor, comuníquese con el centro de ayuda de la entidad asociada para saber qué puede hacer como alternativa.
 {% endcapture %}
 
 {%
@@ -30,7 +30,8 @@ do_list:
   role='alert'
 %}
 
-<span class="usa-tag usa-tag--informative">Recommended</span>
+<span class="usa-tag usa-tag--informative">Recomendado</span>
+
 ## Con un teléfono, realice fotografías del anverso y reverso de su documento de identidad
 
 Si está utilizando una computadora para verificar su identidad, puede cambiar a un teléfono para realizar fotografías de su documento de identidad.

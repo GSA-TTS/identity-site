@@ -5,7 +5,7 @@ category: verify-your-identity
 permalink: /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
 redirect_from:
-  - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
+  - /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 do_list: 
   - Utilisez une caméra à haute résolution telle qu'une caméra de téléphone intelligent ou de tablette. La webcaméra de votre ordinateur risque de ne pas prendre de photos claires.
   - Prenez vos photos dans un endroit bien éclairé avec une lumière indirecte
@@ -13,14 +13,14 @@ do_list:
 ---
 
 {% capture alert_link %}
-  <a href="/help/verify-your-identity/accepted-state-issued-identification/">valid drivers' license or state ID card</a>
+  <a href="/fr/help/verify-your-identity/accepted-state-issued-identification/">permis de conduire valide ou de carte d'identité d'État</a>
 {% endcapture %}
 
 {% capture alert_content %}
   <strong>
-    If you do not have a {{ alert_link }} you cannot use Login.gov for identity verification.
+    Si vous n'avez pas de {{ alert_link }} vous ne pouvez pas utiliser Login.gov pour vérifier votre identité.
   </strong>
-  Please contact the partner agency’s help center to find out what you can do instead.
+  Veuillez contacter le centre d'assistance de l'agence partenaire pour savoir ce que vous pouvez faire à la place.
 {% endcapture %}
 
 {%
@@ -30,7 +30,8 @@ do_list:
   role='alert'
 %}
 
-<span class="usa-tag usa-tag--informative">Recommended</span>
+<span class="usa-tag usa-tag--informative">Recommandation</span>
+
 ## Utilisez un téléphone pour prendre des photos du recto et du verso de votre pièce d’identité
 
 Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez passer à un téléphone pour prendre des photos de votre pièce d'identité.
