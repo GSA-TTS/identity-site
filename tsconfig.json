@@ -3,8 +3,7 @@
     "target": "ES2022",
     "strict": true,
     "moduleResolution": "node",
-    "noEmit": true,
-    "esModuleInterop": true,
+    "noEmit": true
   },
   "include": ["./spec", "./assets/js"]
 }
