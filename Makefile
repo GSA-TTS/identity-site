@@ -34,7 +34,6 @@ htmlproofer:
 	bundle exec scripts/htmlproofer
 
 build: export NODE_ENV := production
-build: export JEKYLL_ENV := production
 build:
 	npm run build
 	bundle exec jekyll build
