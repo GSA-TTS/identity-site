@@ -52,14 +52,8 @@ RSpec.describe 'all pages' do
       end
 
       it 'has correctly configured system-status meta tag' do
-        doc.css('meta').each do |meta|
-          if meta[:name] == 'system-status'
-            puts(meta[:name])
-            puts('ok')
-            puts(meta[:content])
-            expect(meta[:content]).to eq('Login.gov site up and running')
-          end
-        end
+        meta = doc.at_css('meta[name="system-status"]')
+        expect(meta[:content]).to eq('Login.gov site up and running')
       end
 
       xit 'links to valid headings' do
