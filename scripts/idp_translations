@@ -1,0 +1,36 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+require 'uri'
+require 'net/http'
+require 'json'
+require 'open-uri'
+require 'yaml'
+
+JEKYLL_CONFIG = YAML.load_file('_config.yml')
+DOMAIN = JEKYLL_CONFIG['idp_base_url']
+LANGUAGES = JEKYLL_CONFIG['languages']
+MANIFEST_FILE = "/packs/manifest.json"
+
+def download_files(origin_uris, destination)
+  origin_uris.each do |uri|
+    stripped_name = uri.split('.').last(2).join('.')
+    FileUtils.mkdir_p(File.dirname("#{destination}/#{stripped_name}"))
+    download = URI.open("#{DOMAIN}#{uri}")
+    IO.copy_stream(download, "#{destination}/#{stripped_name}")
+  end
+end
+
+destination_translations_dir = File.join('assets/idp_translations')
+origin_manifest_uri = URI("#{DOMAIN}#{MANIFEST_FILE}")
+manifest_response_body = Net::HTTP.get_response(origin_manifest_uri).body
+manifest_hash = JSON.parse(manifest_response_body)
+document_capture_assets = manifest_hash.dig('entrypoints', 'document-capture', 'assets', 'js')
+
+raise 'Language files not found in IDP manifest' unless document_capture_assets
+
+# only download the translation assets
+document_capture_translations = document_capture_assets
+  .grep(/#{LANGUAGES.map {|str| "#{str}.js" }.join('|')}/)
+
+download_files(document_capture_translations, destination_translations_dir)
