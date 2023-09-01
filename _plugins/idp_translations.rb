@@ -23,17 +23,23 @@ def download_files(origin_uris, destination)
 end
 
 Jekyll::Hooks.register :site, :post_write do |site|
-  destination_translations_dir = File.join(site.config['destination'], 'assets/idp_translations')
-  origin_manifest_uri = URI("#{DOMAIN}#{MANIFEST_FILE}")
-  manifest_response_body = Net::HTTP.get_response(origin_manifest_uri).body
-  manifest_hash = JSON.parse(manifest_response_body)
-  document_capture_assets = manifest_hash.dig('entrypoints', 'document-capture', 'assets', 'js')
-
-  raise 'Language files not found in IDP manifest' unless document_capture_assets
-
-  # only download the translation assets
-  document_capture_translations = document_capture_assets
-    .grep(/#{LANGUAGES.map {|str| "#{str}.js" }.join('|')}/)
-
-  download_files(document_capture_translations, destination_translations_dir)
+  if Jekyll.env == 'production'
+    begin
+      destination_translations_dir = File.join(site.config['destination'], 'assets/idp_translations')
+      origin_manifest_uri = URI("#{DOMAIN}#{MANIFEST_FILE}")
+      manifest_response_body = Net::HTTP.get_response(origin_manifest_uri).body
+      manifest_hash = JSON.parse(manifest_response_body)
+      document_capture_assets = manifest_hash.dig('entrypoints', 'document-capture', 'assets', 'js')
+    
+      raise 'Language files not found in IDP manifest' unless document_capture_assets
+    
+      # only download the translation assets
+      document_capture_translations = document_capture_assets
+        .grep(/#{LANGUAGES.map {|str| "#{str}.js" }.join('|')}/)
+    
+      download_files(document_capture_translations, destination_translations_dir)
+    rescue => exception
+      puts exception
+    end
+  end
 end
