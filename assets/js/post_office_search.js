@@ -7,9 +7,9 @@ const root = createRoot(elem);
 const { addressSearchUrl, locationsSearchUrl } = elem.dataset;
 
 root.render(
-  React.createElement(AddressSearch, {
-    addressSearchURL: addressSearchUrl,
-    locationsURL: locationsSearchUrl,
-    onFoundLocations: () => {},
-  }),
+  <AddressSearch
+    addressSearchURL={addressSearchUrl}
+    locationsURL={locationsSearchUrl}
+    onFoundLocations={() => {}}
+  />,
 );
