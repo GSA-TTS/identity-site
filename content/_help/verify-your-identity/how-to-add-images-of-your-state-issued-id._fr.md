@@ -35,7 +35,9 @@ do_list:
 </div>
 
 <div class="margin-top-2">
-  <h2>Utilisez un téléphone pour prendre des photos du recto et du verso de votre pièce d’identité</h2>
+  <h2 id="use-a-phone-to-take-photos-of-the-front-and-back-of-your-id" class="margin-0">
+    Utilisez un téléphone pour prendre des photos du recto et du verso de votre pièce d’identité
+  </h2>
 </div>
 
 Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez passer à un téléphone pour prendre des photos de votre pièce d'identité.

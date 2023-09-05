@@ -37,7 +37,9 @@ do_list:
 </div>
 
 <div class="margin-top-2">
-  <h2 class="margin-0">Use a phone to take photos of the front and back of your ID</h2>
+  <h2 id="use-a-phone-to-take-photos-of-the-front-and-back-of-your-id" class="margin-0">
+    Use a phone to take photos of the front and back of your ID
+  </h2>
 </div>
 
 If you are using a computer to verify your identity, you will be able to switch to a phone to take photos of your ID.

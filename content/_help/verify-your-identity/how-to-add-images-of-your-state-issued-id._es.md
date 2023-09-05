@@ -35,7 +35,9 @@ do_list:
 </div>
 
 <div class="margin-top-2">
-  <h2>Con un teléfono, realice fotografías del anverso y reverso de su documento de identidad</h2>
+  <h2 id="use-a-phone-to-take-photos-of-the-front-and-back-of-your-id" class="margin-0">
+    Con un teléfono, realice fotografías del anverso y reverso de su documento de identidad
+  </h2>
 </div>
 
 Si está utilizando una computadora para verificar su identidad, puede cambiar a un teléfono para realizar fotografías de su documento de identidad.
