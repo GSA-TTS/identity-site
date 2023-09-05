@@ -107,6 +107,7 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
   </div>
 </div>
 
+<div class="page-content__horizontal-rule"></div>
 ## Si no tienes acceso a un teléfono con cámara, puedes subir un archivo o utilizar un escáner.
 * Sigue los mismos consejos para hacer fotos de tu documento de identidad con una cámara
 * Guarda cada archivo como JPG o PNG. No puedes utilizar un archivo PDF. Fíjate en el nombre de tu archivo y debe tener una abreviatura después del título (por ejemplo: JohnDoeID_Front.jpg)
@@ -114,6 +115,7 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
 * Asegúrate de que tus imágenes son de alta resolución (lo ideal es en torno a 2025 x 1275 píxeles)
 * Las imágenes deben ser en color (RGB de 24 bits).
 
+<div class="page-content__horizontal-rule"></div>
 ## Actualiza tu navegador
 
 La causa del error podría ser un navegador obsoleto. Sigue las siguientes instrucciones para actualizar tu navegador:

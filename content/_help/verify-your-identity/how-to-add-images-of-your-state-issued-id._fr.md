@@ -107,6 +107,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
   </div>
 </div>
 
+<div class="page-content__horizontal-rule"></div>
 ## Si vous n'avez pas accès à un téléphone équipé d'une caméra, vous pouvez téléverser un fichier ou utiliser un scanner
 * Utilisez un appareil photo haute résolution (8 mégapixels ou plus).  La plupart des appareils photo des téléphones ou des tablettes fonctionneront, mais pas forcément la webcam de votre ordinateur. Nous vous recommandons d'utiliser votre appareil mobile.
 * Utilisez un fond solide et sombre.
@@ -117,6 +118,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
 * N'utilisez pas votre flash.
 * Ne pas recadrer l'arrière-plan.
 
+<div class="page-content__horizontal-rule"></div>
 ## Mettez votre navigateur à jour
 
 Un navigateur obsolète peut être à l'origine de votre erreur. Suivez les instructions ci-dessous pour mettre à jour votre navigateur :
