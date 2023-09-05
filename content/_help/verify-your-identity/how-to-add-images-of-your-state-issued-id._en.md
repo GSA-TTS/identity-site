@@ -15,7 +15,7 @@ do_list:
 ---
 
 {% capture alert_link %}
-  <a href="/help/verify-your-identity/accepted-state-issued-identification/">valid drivers' license or state ID card</a>
+  <a href="/help/verify-your-identity/accepted-state-issued-identification/">valid driver's license or state ID card</a>
 {% endcapture %}
 
 {% capture alert_content %}
@@ -32,8 +32,13 @@ do_list:
   role='alert'
 %}
 
-<span class="usa-tag usa-tag--informative">Recommended</span>
-## Use a phone to take photos of the front and back of your ID
+<div class="margin-top-5">
+  <span class="usa-tag usa-tag--informative">Recommended</span>
+</div>
+
+<div class="margin-top-2">
+  <h2 class="margin-0">Use a phone to take photos of the front and back of your ID</h2>
+</div>
 
 If you are using a computer to verify your identity, you will be able to switch to a phone to take photos of your ID.
 
@@ -58,7 +63,7 @@ If you are using a computer to verify your identity, you will be able to switch 
 
 ### Common issues with taking photos of an ID
 
-<div class="grid-row grid-gap">
+<div class="grid-row grid-gap margin-bottom-6">
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html

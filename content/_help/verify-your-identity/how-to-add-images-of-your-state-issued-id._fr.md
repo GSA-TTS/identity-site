@@ -30,9 +30,13 @@ do_list:
   role='alert'
 %}
 
-<span class="usa-tag usa-tag--informative">Recommandation</span>
+<div class="margin-top-5">
+  <span class="usa-tag usa-tag--informative">Recommandation</span>
+</div>
 
-## Utilisez un téléphone pour prendre des photos du recto et du verso de votre pièce d’identité
+<div class="margin-top-2">
+  <h2>Utilisez un téléphone pour prendre des photos du recto et du verso de votre pièce d’identité</h2>
+</div>
 
 Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez passer à un téléphone pour prendre des photos de votre pièce d'identité.
 
@@ -57,7 +61,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
 
 ### Problèmes courants liés à la prise de photos d'une pièce d'identité
 
-<div class="grid-row grid-gap">
+<div class="grid-row grid-gap margin-bottom-6">
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html

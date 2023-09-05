@@ -30,9 +30,13 @@ do_list:
   role='alert'
 %}
 
-<span class="usa-tag usa-tag--informative">Recomendado</span>
+<div class="margin-top-5">
+  <span class="usa-tag usa-tag--informative">Recomendado</span>
+</div>
 
-## Con un teléfono, realice fotografías del anverso y reverso de su documento de identidad
+<div class="margin-top-2">
+  <h2>Con un teléfono, realice fotografías del anverso y reverso de su documento de identidad</h2>
+</div>
 
 Si está utilizando una computadora para verificar su identidad, puede cambiar a un teléfono para realizar fotografías de su documento de identidad.
 
@@ -57,7 +61,7 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
 
 ### Aspectos habituales al realizar fotografías de un documento de identidad
 
-<div class="grid-row grid-gap">
+<div class="grid-row grid-gap margin-bottom-6">
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
