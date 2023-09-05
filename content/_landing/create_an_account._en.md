@@ -25,12 +25,13 @@ steps:
 
 
     * **More secure**
-       * Security Key
-        * Authentication application
-        * Federal government employee or military identification (PIV/CAC)
+      * Security key
+      * Authentication application
+      * Federal government employee or military identification (PIV/CAC)
+      * Face or touch unlock
     * **Less secure**
-        * SMS/Text messages
-        * Backup codes
+      * Text/voice message
+      * Backup codes
   info: Depending on the security needs of the agency, you may need to prove your
     identity using a social security number, address, and/or U.S. based
     state-issued identification.
