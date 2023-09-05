@@ -23,10 +23,10 @@ steps:
     telles que:
 
     * __Plus sécurisé__
+      * Déverrouillage facial ou tactile
       * Clef de sécurité
       * Application d'authentification
       * Employé du gouvernement fédéral ou identification militaire (PIV/CAC)
-      * Déverrouillage facial ou tactile
     * __Moins sécurisé__
       * Messages texte/voix
       * Codes de sauvegarde

@@ -25,10 +25,10 @@ steps:
 
 
     * **More secure**
+      * Face or touch unlock
       * Security key
       * Authentication application
       * Federal government employee or military identification (PIV/CAC)
-      * Face or touch unlock
     * **Less secure**
       * Text/voice message
       * Backup codes

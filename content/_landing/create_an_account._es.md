@@ -24,10 +24,10 @@ steps:
 
 
     * **Mas segura**
+      * Desbloqueo facial o táctil
       * Clave de seguridad
       * Aplicación de autenticación
       * Identificación militar o de empleado del gobierno federal (PIV/CAC)
-      * Desbloqueo facial o táctil
 
     * **Menos segura**
       * Mensajes de texto/voz
