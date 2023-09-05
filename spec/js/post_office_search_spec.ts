@@ -6,13 +6,7 @@ import { getByLabelText, getByRole, waitFor } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 import { act } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-
-const wait = (ms: number = 0) =>
-  new Promise<void>((res) => {
-    setTimeout(() => {
-      res();
-    }, ms);
-  });
+import { setImmediate } from 'timers/promises';
 
 describe('Post Office Search', () => {
   // This is simulated since the test env doesn't support fetch
@@ -52,7 +46,9 @@ describe('Post Office Search', () => {
         // eslint-disable-next-line global-require
         require('../../assets/js/post_office_search');
       });
-      await wait();
+
+      // Wait for React to finish any asynchronous work
+      await setImmediate();
     });
   });
 
