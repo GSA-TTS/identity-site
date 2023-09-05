@@ -37,7 +37,7 @@ do_list:
 </div>
 
 <div class="margin-top-2">
-  <h2 id="use-a-phone-to-take-photos-of-the-front-and-back-of-your-id" class="margin-0">
+  <h2 id="phone-tips" class="margin-0">
     Use a phone to take photos of the front and back of your ID
   </h2>
 </div>
@@ -111,7 +111,7 @@ If you are using a computer to verify your identity, you will be able to switch 
 
 <div class="page-content__horizontal-rule"></div>
 ## If you don’t have access to a phone with a camera, you can upload a file or use a scanner
-* Follow the same [tips for taking photos with a phone](#use-a-phone-to-take-photos-of-the-front-and-back-of-your-id)
+* Follow the same [tips for taking photos with a phone](#phone-tips)
 * Save each file as a JPG or PNG. You cannot use a PDF file. Look at the name of your file and it should have an abbreviation after the title (ex: JohnDoeID_Front.jpg)
 * Make sure your images are high-resolution (around 2025 x 1275 pixels is ideal)
 * Images should be in color

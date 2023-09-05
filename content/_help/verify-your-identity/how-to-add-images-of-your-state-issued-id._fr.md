@@ -35,8 +35,8 @@ do_list:
 </div>
 
 <div class="margin-top-2">
-  <h2 id="use-a-phone-to-take-photos-of-the-front-and-back-of-your-id" class="margin-0">
-    Utilisez un téléphone pour prendre des photos du recto et du verso de votre pièce d’identité
+  <h2 id="phone-tips" class="margin-0">
+      Utilisez un téléphone pour prendre des photos du recto et du verso de votre pièce d’identité
   </h2>
 </div>
 
@@ -109,7 +109,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
 
 <div class="page-content__horizontal-rule"></div>
 ## Si vous n'avez pas accès à un téléphone équipé d'une caméra, vous pouvez téléverser un fichier ou utiliser un scanner
-* Utilisez un appareil photo haute résolution (8 mégapixels ou plus).  La plupart des appareils photo des téléphones ou des tablettes fonctionneront, mais pas forcément la webcam de votre ordinateur. Nous vous recommandons d'utiliser votre appareil mobile.
+* Utilisez un appareil photo haute résolution (8 mégapixels ou plus).  La plupart des appareils photo des téléphones ou des tablettes fonctionneront, mais pas forcément la webcam de votre ordinateur. [Nous vous recommandons d'utiliser votre appareil mobile](#phone-tips).
 * Utilisez un fond solide et sombre.
 * Montrez les bords de la carte d'identité sur la photo.
 * Prenez une photo claire, sans ombres, reflets ou flous.

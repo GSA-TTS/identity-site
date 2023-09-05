@@ -35,8 +35,8 @@ do_list:
 </div>
 
 <div class="margin-top-2">
-  <h2 id="use-a-phone-to-take-photos-of-the-front-and-back-of-your-id" class="margin-0">
-    Con un teléfono, realice fotografías del anverso y reverso de su documento de identidad
+  <h2 id="phone-tips" class="margin-0">
+      Con un teléfono, realice fotografías del anverso y reverso de su documento de identidad
   </h2>
 </div>
 
@@ -109,7 +109,7 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
 
 <div class="page-content__horizontal-rule"></div>
 ## Si no tienes acceso a un teléfono con cámara, puedes subir un archivo o utilizar un escáner.
-* Sigue los mismos consejos para hacer fotos de tu documento de identidad con una cámara
+* Sigue los [mismos consejos para hacer fotos](#phone-tips) de tu documento de identidad con una cámara
 * Guarda cada archivo como JPG o PNG. No puedes utilizar un archivo PDF. Fíjate en el nombre de tu archivo y debe tener una abreviatura después del título (por ejemplo: JohnDoeID_Front.jpg)
 * Asegúrate de que tu documento de identidad ocupa aproximadamente el 80% de las imágenes
 * Asegúrate de que tus imágenes son de alta resolución (lo ideal es en torno a 2025 x 1275 píxeles)
