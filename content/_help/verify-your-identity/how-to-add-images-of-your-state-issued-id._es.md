@@ -40,10 +40,10 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
-    <img alt="" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
+    <img alt="El frente del documento de identidad está en el centro del marco de la cámara y sobre un fondo de tono oscuro." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
   </div>
   <div class="tablet:grid-col">
-    <img alt="" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
+    <img alt="La parte posterior del documento de identidad está en el centro del marco de la cámara y sobre un fondo de tono oscuro." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
   </div>
 </div>
 
@@ -61,7 +61,7 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text=''
+      image-alt-text='El documento de identidad se coloca sobre un fondo de color blanco.'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
       do_dont_text="NO"
@@ -71,7 +71,7 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text=''
+      image-alt-text='El documento de identidad se coloca sobre un fondo texturizado.'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
       do_dont_text="NO"
@@ -83,7 +83,7 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text=''
+      image-alt-text='Los bordes del documento de identidad se encuentran recortados.'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
       do_dont_text="NO"
@@ -93,7 +93,7 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text=''
+      image-alt-text='El documento de identidad presenta reflejos y sombras.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
       do_dont_text="EVITE"
       text='Brillos y sombras'

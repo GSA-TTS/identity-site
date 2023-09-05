@@ -41,10 +41,10 @@ If you are using a computer to verify your identity, you will be able to switch 
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
-    <img alt="id front with dark background" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
+    <img alt="ID front is centered in the camera frame and placed on a dark background." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
   </div>
   <div class="tablet:grid-col">
-    <img alt="id back with dark background" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
+    <img alt="ID back is centered in the camera frame and placed on a dark background." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
   </div>
 </div>
 
@@ -62,7 +62,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='id on white background'
+      image-alt-text='ID is placed on a white background.'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
       do_dont_text="DON'T"
@@ -72,7 +72,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='id on textured background'
+      image-alt-text='ID is placed on a textured background.'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
       do_dont_text="DON'T"
@@ -84,7 +84,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='id with incorrect cropping'
+      image-alt-text='ID edges are cropped out.'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
       do_dont_text="DON'T"
@@ -94,7 +94,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='id with glare and shadow'
+      image-alt-text='ID has a glare and shadows cast over it.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
       do_dont_text="AVOID"
       text='Glares and shadows'
