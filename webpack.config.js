@@ -17,6 +17,10 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
     filename: '[name].js',
     path: `${__dirname}/_site/assets/js`,
   },
+  resolve: {
+    extensions: ['.js', '.ts', '.tsx'],
+    conditionNames: ['source', 'import', 'require', 'node'],
+  },
   module: {
     rules: [
       {
