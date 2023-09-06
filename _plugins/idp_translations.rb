@@ -18,7 +18,7 @@ module IDP
     def update!
       destination_translations_dir = File.join(@destination, 'assets/idp_translations')
       origin_manifest_uri = URI("#{@domain}#{@manifest_file}")
-      manifest_response_body = Net::HTTP.get_response(origin_manifest_uri).body
+      manifest_response_body = get_response_body(origin_manifest_uri)
       manifest_hash = JSON.parse(manifest_response_body)
       document_capture_assets = manifest_hash.dig('entrypoints', 'document-capture', 'assets', 'js')
   
@@ -36,10 +36,26 @@ module IDP
     def download_files(origin_uris, destination)
       origin_uris.each do |uri|
         stripped_name = uri.split('.').last(2).join('.')
-        FileUtils.mkdir_p(File.dirname("#{destination}/#{stripped_name}"))
-        download = URI.open("#{@domain}#{uri}")
-        IO.copy_stream(download, "#{destination}/#{stripped_name}")
+        make_directory("#{destination}/#{stripped_name}")
+        download = uri_open("#{@domain}#{uri}")
+        copy_stream(download, "#{destination}/#{stripped_name}")
       end
+    end
+
+    def get_response_body(*args)
+      Net::HTTP.get_response(*args).body
+    end
+
+    def make_directory(*args)
+      File.dirname(FileUtils.mkdir_p(*args))
+    end
+
+    def copy_stream(*args)
+      IO.copy_stream(*args)
+    end
+
+    def uri_open(*args)
+      URI.open(*args)
     end
   end
 end
