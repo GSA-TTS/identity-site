@@ -33,10 +33,11 @@ test-urls: build
 htmlproofer:
 	bundle exec scripts/htmlproofer
 
+JEKYLL_CONFIG_FILES ?= _config.yml
 build: export NODE_ENV := production
 build:
 	npm run build
-	bundle exec jekyll build
+	bundle exec jekyll build --config $(JEKYLL_CONFIG_FILES)
 
 nu:
 	grep --files-without-match --recursive "Click here if you are not redirected" -- _site | \

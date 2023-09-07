@@ -2,7 +2,6 @@ const { NODE_ENV = 'production' } = process.env;
 
 module.exports = /** @type {import('webpack').Configuration} */ ({
   mode: NODE_ENV,
-
   entry: {
     main: './assets/js/main.js',
     contact: './assets/js/contact.js',
@@ -11,11 +10,9 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
     partners_contact: './assets/js/partners/contact.js',
     touchpoints_translations: './assets/js/touchpoints_translations.js',
     country_support: './assets/js/country_support.js',
-    post_office_search: './assets/js/post_office_search.js',
+    post_office_search: './assets/js/post_office_search.tsx',
   },
-
   target: ['web'],
-
   output: {
     filename: '[name].js',
     path: `${__dirname}/_site/assets/js`,
@@ -23,7 +20,7 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
   module: {
     rules: [
       {
-        test: /\.[jt]s$/,
+        test: /\.[jt]sx?$/,
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
