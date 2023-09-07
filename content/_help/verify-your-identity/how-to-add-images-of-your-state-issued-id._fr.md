@@ -7,9 +7,9 @@ order: 3
 redirect_from:
   - /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 do_list: 
-  - Utilisez une caméra à haute résolution telle qu'une caméra de téléphone intelligent ou de tablette. La webcaméra de votre ordinateur risque de ne pas prendre de photos claires.
-  - Prenez vos photos dans un endroit bien éclairé avec une lumière indirecte
-  - Essayez de maintenir votre téléphone immobile pendant que vous prenez les photos. Il peut être utile de poser vos bras sur la table pour vous stabiliser.
+  - 'Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser un fichier PDF. Regardez le nom de votre fichier et il devrait avoir une abréviation après le titre (ex : JohnDoeID_Front.jpg)'
+  - Veillez à ce que vos images soient en haute résolution (environ 2025 x 1275 pixels)
+  - Les images doivent être en couleur
 ---
 
 {% capture alert_link %}
@@ -109,7 +109,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
 
 <div class="page-content__horizontal-rule"></div>
 ## Si vous n'avez pas accès à un téléphone équipé d'une caméra, vous pouvez téléverser un fichier ou utiliser un scanner
-* Utilisez un appareil photo haute résolution (8 mégapixels ou plus).  La plupart des appareils photo des téléphones ou des tablettes fonctionneront, mais pas forcément la webcam de votre ordinateur. [Nous vous recommandons d'utiliser votre appareil mobile](#phone-tips).
+* Suivez les mêmes [conseils pour prendre des photos avec un téléphone](#phone-tips).
 * Utilisez un fond solide et sombre.
 * Montrez les bords de la carte d'identité sur la photo.
 * Prenez une photo claire, sans ombres, reflets ou flous.
