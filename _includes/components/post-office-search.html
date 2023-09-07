@@ -6,7 +6,7 @@
   ></div>
 
   {% assign timestamp = site.time | date: '%s' %}
-  {% assign uncached_translations_path = page.po_search_translations._idp_translations_file | append: '?ts=' | append: timestamp %}
+  {% assign uncached_translations_path = page.idp_translations_file | append: '?ts=' | append: timestamp %}
 
   <script src="{{uncached_translations_path | relative_url}}"></script>
   <script src="{{'/assets/js/post_office_search.js' | relative_url}}"></script>
