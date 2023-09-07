@@ -20,7 +20,7 @@ The public is able to simply, securely and privately log in to participating gov
 
 ## About Login.gov 
 
-Login.gov was a General Services Administration 18F innovation project in partnership with the United States Digital Services (USDS). This shared-service, made possible through a Trusted Identities Group (National Strategy for Trusted Identities in Cyberspace) grant, is a result of cross-agency collaboration that sought to develop secure, user-friendly ways for the public to access government websites. ([Source](https://fcw.com/digital-government/2017/01/logingov-moving-ahead/228515/))
+Login.gov was a General Services Administration 18F innovation project in partnership with the United States Digital Services (USDS). This shared-service, made possible through a Trusted Identities Group (National Strategy for Trusted Identities in Cyberspace) grant, is a result of cross-agency collaboration that sought to develop secure, user-friendly ways for the public to access government websites. ([Source](https://www.nextgov.com/digital-government/2017/01/logingov-moving-ahead/228515/))
 
 Under the Obama administration, government agencies were tasked to find user friendly, secure and efficient digital solutions. In May 2016, the administration issued an executive memo to government agencies encouraging the use of shared services. This order meant more agencies would use the same tools and technology for administrative services - such as secure sign-in (authentication). Shared technology leads to more consistent security practices across all agencies and eases the burden on users by reducing the number of accounts and passwords users’ need to access government websites. 
 
