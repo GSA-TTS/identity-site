@@ -65,7 +65,7 @@ If you are using a computer to verify your identity, you will be able to switch 
 
 ### Common issues with taking photos of an ID
 
-<div class="grid-row grid-gap margin-bottom-6">
+<div class="grid-row grid-gap tablet:margin-bottom-6">
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
