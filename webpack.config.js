@@ -19,7 +19,6 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
   },
   resolve: {
     extensions: ['.js', '.ts', '.tsx'],
-    conditionNames: ['source', 'import', 'require', 'node'],
   },
   module: {
     rules: [
