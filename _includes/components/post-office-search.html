@@ -8,9 +8,9 @@
   {% assign timestamp = site.time | date: '%s' %}
   {% assign uncached_translations_path = page.idp_translations_file | append: '?ts=' | append: timestamp %}
 
-  <script src="{{uncached_translations_path | relative_url}}"></script>
+  <script src="{{ uncached_translations_path | relative_url }}"></script>
   <script type="text/javascript">
-    Object.assign(window._locale_data, {{page.translations | jsonify}})
+    Object.assign(window._locale_data, {{ page.translations | jsonify }})
   </script>
-  <script src="{{'/assets/js/post_office_search.js' | relative_url}}"></script>
+  <script src="{{ '/assets/js/post_office_search.js' | relative_url }}"></script>
 {% endif %}
