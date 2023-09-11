@@ -65,7 +65,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
 
 ### Problèmes courants liés à la prise de photos d'une pièce d'identité
 
-<div class="grid-row grid-gap margin-bottom-6">
+<div class="grid-row grid-gap">
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html

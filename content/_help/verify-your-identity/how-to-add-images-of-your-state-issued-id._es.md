@@ -65,7 +65,7 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
 
 ### Aspectos habituales al realizar fotografías de un documento de identidad
 
-<div class="grid-row grid-gap margin-bottom-6">
+<div class="grid-row grid-gap">
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
