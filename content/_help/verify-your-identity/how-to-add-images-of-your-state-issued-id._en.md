@@ -109,14 +109,16 @@ If you are using a computer to verify your identity, you will be able to switch 
   </div>
 </div>
 
-<div class="page-content__horizontal-rule"></div>
+--- 
+
 ## If you don’t have access to a phone with a camera, you can upload a file or use a scanner
 * Follow the same [tips for taking photos with a phone](#phone-tips)
 * Save each file as a JPG or PNG. You cannot use a PDF file. Look at the name of your file and it should have an abbreviation after the title (ex: JohnDoeID_Front.jpg)
 * Make sure your images are high-resolution (around 2025 x 1275 pixels is ideal)
 * Images should be in color
 
-<div class="page-content__horizontal-rule"></div>
+---
+
 ## Troubleshooting
 
 An outdated browser might be the cause of your error. Follow the instructions below to update your browser:

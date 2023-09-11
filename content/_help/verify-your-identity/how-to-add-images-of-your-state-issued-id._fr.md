@@ -109,7 +109,8 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
   </div>
 </div>
 
-<div class="page-content__horizontal-rule"></div>
+---
+
 ## Si vous n'avez pas accès à un téléphone équipé d'une caméra, vous pouvez téléverser un fichier ou utiliser un scanner
 
 * Suivez les mêmes conseils pour prendre des photos avec un téléphone.
@@ -117,7 +118,8 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
 * Veillez à ce que vos images soient en haute résolution (environ 2025 x 1275 pixels).
 * Les images doivent être en couleur.
 
-<div class="page-content__horizontal-rule"></div>
+---
+
 ## Mettez votre navigateur à jour
 
 Un navigateur obsolète peut être à l'origine de votre erreur. Suivez les instructions ci-dessous pour mettre à jour votre navigateur :
