@@ -112,8 +112,8 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
 ---
 
 ## Si no tienes acceso a un teléfono con cámara, puedes subir un archivo o utilizar un escáner.
-* Sigue los mismos [consejos para tomar fotografías con un teléfono](#phone-tips)
-* Guarda cada archivo como JPG o PNG. No puedes utilizar un archivo PDF. Fíjate en el nombre de tu archivo y debe tener una abreviatura después del título (por ejemplo: JohnDoeID_Front.jpg)
+* Sigue los mismos [consejos para tomar fotografías con un teléfono](#phone-tips).
+* Guarda cada archivo como JPG o PNG. No puedes utilizar un archivo PDF. Fíjate en el nombre de tu archivo y debe tener una abreviatura después del título (por ejemplo: JohnDoeID_Front.jpg).
 * Asegúrate de que tus imágenes son de alta resolución (lo ideal es en torno a 2025 x 1275 píxeles)
 * Las imágenes deben ser en color.
 

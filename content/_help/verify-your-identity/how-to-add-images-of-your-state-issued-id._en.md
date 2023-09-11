@@ -8,9 +8,9 @@ redirect_from:
   - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 do_list: 
   - Do use a high resolution camera like a smartphone or tablet camera. Your computer webcam may not take clear photos.
-  - Do use a solid, dark background
-  - Do take your photos in a well-lit area with indirect light
-  - Do check that ID barcodes are not damaged or dirty
+  - Do use a solid, dark background.
+  - Do take your photos in a well-lit area with indirect light.
+  - Do check that ID barcodes are not damaged or dirty.
   - Do try to hold your phone still while taking the photos. It may help to prop your arms on the table to steady yourself.
 ---
 
@@ -112,10 +112,10 @@ If you are using a computer to verify your identity, you will be able to switch 
 --- 
 
 ## If you don’t have access to a phone with a camera, you can upload a file or use a scanner
-* Follow the same [tips for taking photos with a phone](#phone-tips)
-* Save each file as a JPG or PNG. You cannot use a PDF file. Look at the name of your file and it should have an abbreviation after the title (ex: JohnDoeID_Front.jpg)
-* Make sure your images are high-resolution (around 2025 x 1275 pixels is ideal)
-* Images should be in color
+* Follow the same [tips for taking photos with a phone](#phone-tips).
+* Save each file as a JPG or PNG. You cannot use a PDF file. Look at the name of your file and it should have an abbreviation after the title (ex: JohnDoeID_Front.jpg).
+* Make sure your images are high-resolution (around 2025 x 1275 pixels is ideal).
+* Images should be in color.
 
 ---
 

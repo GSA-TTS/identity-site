@@ -9,7 +9,7 @@ redirect_from:
 do_list: 
   - Utilisez une caméra à haute résolution telle qu'une caméra de téléphone intelligent ou de tablette. La webcaméra de votre ordinateur risque de ne pas prendre de photos claires.
   - Utilisez un fond solide et sombre.
-  - Prenez vos photos dans un endroit bien éclairé avec une lumière indirecte
+  - Prenez vos photos dans un endroit bien éclairé avec une lumière indirecte.
   - Vérifiez que les codes-barres ne sont pas endommagés ou sales.
   - Essayez de maintenir votre téléphone immobile pendant que vous prenez les photos. Il peut être utile de poser vos bras sur la table pour vous stabiliser.
 ---
@@ -73,7 +73,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
       do_dont_text="À NE PAS FAIRE"
-      text='utiliser un fond blanc'
+      text='Utiliser un fond blanc'
     %}
   </div>
   <div class="tablet:grid-col">
@@ -83,7 +83,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
       do_dont_text="À NE PAS FAIRE"
-      text='utiliser des arrière-plans texturés à motifs'
+      text='Utiliser des arrière-plans texturés à motifs'
     %}
   </div>
 </div>
@@ -95,7 +95,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
       do_dont_text="À NE PAS FAIRE"
-      text="recadrer les bords de votre pièce d'identité"
+      text="Recadrer les bords de votre pièce d'identité"
     %}
   </div>
   <div class="tablet:grid-col">
@@ -104,7 +104,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
       image-alt-text="Il y a des reflets et des ombres projetées sur la pièce d'identité."
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
       do_dont_text="À ÉVITER"
-      text='les reflets et les ombres'
+      text='Les reflets et les ombres'
     %}
   </div>
 </div>
@@ -113,7 +113,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
 
 ## Si vous n'avez pas accès à un téléphone équipé d'une caméra, vous pouvez téléverser un fichier ou utiliser un scanner
 
-* Suivez les mêmes conseils pour prendre des photos avec un téléphone.
+* Suivez les [mêmes conseils pour prendre des photos avec un téléphone](#phone-tips).
 * Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser un fichier PDF. Regardez le nom de votre fichier et il devrait avoir une abréviation après le titre (ex : JohnDoeID_Front.jpg).
 * Veillez à ce que vos images soient en haute résolution (environ 2025 x 1275 pixels).
 * Les images doivent être en couleur.
