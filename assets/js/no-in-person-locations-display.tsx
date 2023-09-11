@@ -7,7 +7,7 @@ interface NoInPersonLocationsDisplayProps {
 function NoInPersonLocationsDisplay({ address }: NoInPersonLocationsDisplayProps) {
   return (
     <h2 role="status">
-      site.data.[page.lang].settings.in_person_proofing.po_search.none_found {address}
+      in_person_proofing.body.location.po_search.none_found {address}
     </h2>
   );
 }
