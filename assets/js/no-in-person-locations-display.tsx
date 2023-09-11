@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface NoInPersonLocationsDisplayProps {
   address: string;
 }
