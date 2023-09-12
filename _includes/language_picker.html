@@ -1,21 +1,21 @@
 <div class="language-picker{% if include.dropdown == true %} language-picker--dropdown usa-accordion{% endif %}">
   {% if include.dropdown == true %}
-  <button
-    aria-controls="language-picker-{{ include.id }}"
-    class="usa-accordion__button language-picker__label language-picker__label--button"
-  >
-    <img src="{{ site.baseurl }}/assets/img/globe-blue.svg" alt="" width="12" height="12">
-    <span id="language-picker-{{ include.id }}-description">
-      {{ site.data.[page.lang].settings.global.language }}
-    </span>
-  </button>
+    <button
+      aria-controls="language-picker-{{ include.id }}"
+      class="usa-accordion__button language-picker__label language-picker__label--button"
+    >
+      <img src="{{ site.baseurl }}/assets/img/globe-blue.svg" alt="" width="12" height="12">
+      <span id="language-picker-{{ include.id }}-description">
+        {{ site.data.[page.lang].settings.global.language }}
+      </span>
+    </button>
   {% else %}
-  <div class="language-picker__label language-picker__label--text">
-    <img src="{{ site.baseurl }}/assets/img/globe-blue.svg" alt="" width="12" height="12">
-    <span id="language-picker-{{ include.id }}-description">
-      {{ site.data.[page.lang].settings.global.language }}
-    </span>
-  </div>
+    <div class="language-picker__label language-picker__label--text">
+      <img src="{{ site.baseurl }}/assets/img/globe-blue.svg" alt="" width="12" height="12">
+      <span id="language-picker-{{ include.id }}-description">
+        {{ site.data.[page.lang].settings.global.language }}
+      </span>
+    </div>
   {% endif %}
   <ul
     id="language-picker-{{ include.id }}"

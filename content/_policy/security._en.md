@@ -8,9 +8,6 @@ description: Learn the various methods we use to protect this U.S. government
 permalink: /policy/our-security-practices/
 redirect_from:
   - /en/policy/our-security-practices/
-  - /help/privacy-and-security/how-do-i-make-my-password-strong/
-  - /help/privacy-and-security/how-does-logingov-protect-my-data/
-  - /help/privacy-and-security/will-logingov-share-my-information/
   - /help/privacy-and-security/does-logingov-share-my-information/
   - /help/privacy-and-security/how-does-logingov-protect-my-information/
   - /help/privacy-and-security/what-is-phishing/

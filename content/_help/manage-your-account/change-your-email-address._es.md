@@ -4,8 +4,8 @@ category: manage-your-account
 permalink: /es/help/manage-your-account/change-your-email-address/
 order: 5 
 redirect_from:
-  - help/changing-settings/add-or-remove-email-address
-  - help/changing-settings/change-my-email-address/
+  - /es/help/changing-settings/add-or-remove-email-address/
+  - /es/help/changing-settings/change-my-email-address/
 ---
 
 ## Parte 1: agregar una dirección de correo electrónico
