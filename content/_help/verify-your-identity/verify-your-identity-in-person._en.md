@@ -96,6 +96,4 @@ We automatically cancel requests after 30 days in order to protect applicants’
 
 [Accepted State-Issued Identification](/help/verify-your-identity/accepted-state-issued-identification/)
 
-[Troubleshoot uploading your state-issued ID](/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
-
 [Verify your identity online](/help/verify-your-identity/how-to-verify-your-identity/)
