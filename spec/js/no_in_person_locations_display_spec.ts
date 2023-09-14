@@ -11,7 +11,7 @@ describe('NoInPersonLocationsDisplay', () => {
     `;
   });
 
-  it('renders h2 status text', async () => {
+  it('renders h2 status text', () => {
     const noInPersonLocationsDisplay = document.querySelector('no-in-person-locations-display')!;
 
     expect(noInPersonLocationsDisplay.hasAttribute('status'));
