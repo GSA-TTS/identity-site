@@ -13,6 +13,6 @@
   "rules": {
     // ESLint is currently unable to resolve packages with the exports directive
     // See: https://github.com/import-js/eslint-plugin-import/issues/1810
-    "import/no-unresolved": ["error", { "ignore": ["@18f/identity-address-search"] }]
+    "import/no-unresolved": ["error", { "ignore": ["@18f/identity-address-search", "@18f/identity-i18n"] }]
   }
 }
