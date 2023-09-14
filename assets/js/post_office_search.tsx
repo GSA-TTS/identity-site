@@ -1,7 +1,10 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 // @ts-ignore
-import AddressSearch, { Alert } from '@18f/identity-address-search';
+import AddressSearch from '@18f/identity-address-search';
+
+// @ts-ignore
+import { Alert } from '@18f/identity-components';
 
 // @ts-ignore
 import { t } from '@18f/identity-i18n';
