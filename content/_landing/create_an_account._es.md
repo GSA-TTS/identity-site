@@ -24,12 +24,13 @@ steps:
 
 
     * **Mas segura**
+      * Desbloqueo facial o táctil
       * Clave de seguridad
       * Aplicación de autenticación
       * Identificación militar o de empleado del gobierno federal (PIV/CAC)
 
     * **Menos segura**
-      * SMS/mensajes de texto
+      * Mensajes de texto/voz
       * Códigos de respaldo
   info: Dependiendo de las necesidades de seguridad de la agencia, es posible que
     deba probar su identidad mediante un número de seguro social, una dirección

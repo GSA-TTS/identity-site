@@ -23,11 +23,12 @@ steps:
     telles que:
 
     * __Plus sécurisé__
+      * Déverrouillage facial ou tactile
       * Clef de sécurité
       * Application d'authentification
       * Employé du gouvernement fédéral ou identification militaire (PIV/CAC)
     * __Moins sécurisé__
-      * SMS/messages texte
+      * Messages texte/voix
       * Codes de sauvegarde
   info: Selon les besoins de sécurité de l'agence, vous devrez peut-être prouver
     votre identité à l'aide d'un numéro de sécurité sociale, d'une adresse et /
