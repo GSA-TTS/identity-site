@@ -26,7 +26,7 @@ Vous pouvez utiliser un téléphone portable prépayé pour vérifier votre iden
 
 ## Si vous ne pouvez pas effectuer cette étape
 
-Cliquez sur “Vérifiez plutôt votre adresse par courrier”. Vous devrez attendre de recevoir une lettre par la poste, puis suivre les instructions pour saisir le code.
+Cliquez sur “Vérifiez plutôt votre adresse par courrier”. Vous devrez attendre de recevoir une lettre par la poste, puis suivre les instructions pour saisir le code de vérification.
 
 ## Articles connexes
 
