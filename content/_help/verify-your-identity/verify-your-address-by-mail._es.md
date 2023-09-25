@@ -15,7 +15,7 @@ La carta se envía a través del Servicio Postal de EE. UU. entre tres y siete d
 
 Ten en mente que si no recibes la carta o si el código de verificación caduca antes de completar el proceso de verificación de identidad, lo que deberás hacer es solicitar un código nuevo.
 
-## Para solicitar un código nuevo
+## Para solicitar un nuevo código de verificación
 
 {: .number-list}
 1. Ve a [https://secure.login.gov](https://secure.login.gov).

@@ -18,7 +18,7 @@ The letter is sent via the U.S. Postal Service three to seven business days afte
 
 If you do not receive your letter, or your verification code expires before you finish the identity verification process, you can request a new verification code.
 
-## To request a new code
+## To request a new verification code
 
 {: .number-list}
 1. Go to [https://secure.login.gov](https://secure.login.gov/).  

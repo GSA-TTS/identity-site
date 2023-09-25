@@ -16,7 +16,7 @@ La lettre est envoyée via le service postal américain trois à sept jours ouvr
 
 Si vous ne recevez pas votre lettre ou si votre code de vérification expire avant la fin du processus de vérification d'identité, vous pouvez demander un nouveau code de vérification.
 
-## Pour demander un nouveau code
+## Pour demander un nouveau code de vérification
 
 {: .number-list}
 1. Accédez à [https://secure.login.gov](https://secure.login.gov).
