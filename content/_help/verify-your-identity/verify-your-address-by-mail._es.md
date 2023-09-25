@@ -9,17 +9,17 @@ redirect_from:
 ---
 La verificación de la identidad es el proceso en el que acreditas que eres tú realmente y no alguien que se hace pasar por ti. Uno de los pasos de este proceso requiere que proporcione su número de teléfono principal para verificar su identidad.
 
-Si no puede verificarla por teléfono, le enviaremos una carta con un código único. Este código te permitirá terminar de verificar tu identidad y configurar la cuenta.
+Si no puede verificarla por teléfono, le enviaremos una carta con un código de verificación. Este código te permitirá terminar de verificar tu identidad y configurar la cuenta.
 
-La carta se envía a través del Servicio Postal de EE. UU. entre tres y siete días hábiles a partir del momento en que la solicitas. El código único caducará 30 días después de la fecha en que envíe su solicitud.
+La carta se envía a través del Servicio Postal de EE. UU. entre tres y siete días hábiles a partir del momento en que la solicitas. El código de verificación caducará 30 días después de la fecha en que envíe su solicitud.
 
-Ten en mente que si no recibes la carta o si el código único caduca antes de completar el proceso de verificación de identidad, lo que deberás hacer es solicitar un código nuevo.
+Ten en mente que si no recibes la carta o si el código de verificación caduca antes de completar el proceso de verificación de identidad, lo que deberás hacer es solicitar un código nuevo.
 
 ## Para solicitar un código nuevo
 
 {: .number-list}
 1. Ve a [https://secure.login.gov](https://secure.login.gov).
-2. Cuando se le pida que introduzca su código, seleccione "Envíeme un nuevo código único". 
+2. Cuando se le pida que introduzca su código, seleccione "Envíeme otra carta". 
 
 ## Artículos relacionados 
 
