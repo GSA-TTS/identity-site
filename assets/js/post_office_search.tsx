@@ -1,7 +1,8 @@
 import { createRoot } from 'react-dom/client';
 // @ts-ignore
-import AddressSearch from '@18f/identity-address-search';
-
+import { FullAddressSearch } from '@18f/identity-address-search';
+import NoInPersonLocationsDisplay from './no_in_person_locations_display';
+import { UsStatesTerritories } from './form_helper';
 // @ts-ignore
 import { Alert } from '@18f/identity-components';
 
@@ -10,13 +11,16 @@ import { t } from '@18f/identity-i18n';
 
 const elem = document.getElementById('post-office-search')!;
 const root = createRoot(elem);
-const { addressSearchUrl, locationsSearchUrl } = elem.dataset;
+const { locationsSearchUrl } = elem.dataset;
 
 root.render(
-  <AddressSearch
-    addressSearchURL={addressSearchUrl}
+  <FullAddressSearch
+    disabled={false}
+    handleLocationSelect={null}
     locationsURL={locationsSearchUrl}
-    onFoundLocations={() => {}}
+    noInPersonLocationsDisplay={NoInPersonLocationsDisplay}
+    onFoundLocations={() => {}}  
+    registerField={() => {}}
     resultsHeaderComponent={() => (
       <Alert type="info" className="margin-bottom-4">
         <strong>
@@ -29,5 +33,6 @@ root.render(
         </a>
       </Alert>
     )}
-  />,
+    usStatesTerritories={UsStatesTerritories}
+  />
 );
