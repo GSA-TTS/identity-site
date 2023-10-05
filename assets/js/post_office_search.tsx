@@ -1,13 +1,12 @@
 import { createRoot } from 'react-dom/client';
 // @ts-ignore
 import { FullAddressSearch } from '@18f/identity-address-search';
-import NoInPersonLocationsDisplay from './no_in_person_locations_display';
-import { UsStatesTerritories } from './form_helper';
 // @ts-ignore
 import { Alert } from '@18f/identity-components';
-
 // @ts-ignore
 import { t } from '@18f/identity-i18n';
+import NoInPersonLocationsDisplay from './no_in_person_locations_display';
+import { UsStatesTerritories } from './form_helper';
 
 const elem = document.getElementById('post-office-search')!;
 const root = createRoot(elem);
@@ -19,7 +18,7 @@ root.render(
     handleLocationSelect={null}
     locationsURL={locationsSearchUrl}
     noInPersonLocationsDisplay={NoInPersonLocationsDisplay}
-    onFoundLocations={() => {}}  
+    onFoundLocations={() => {}}
     registerField={() => {}}
     resultsHeaderComponent={() => (
       <Alert type="info" className="margin-bottom-4">
@@ -34,5 +33,5 @@ root.render(
       </Alert>
     )}
     usStatesTerritories={UsStatesTerritories}
-  />
+  />,
 );

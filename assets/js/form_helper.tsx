@@ -1,5 +1,4 @@
-export const UsStatesTerritories:[string, string][] =
-[
+export const UsStatesTerritories: [string, string][] = [
   ['Alabama', 'AL'],
   ['Alaska', 'AK'],
   ['American Samoa', 'AS'],
