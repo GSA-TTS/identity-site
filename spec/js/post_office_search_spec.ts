@@ -11,7 +11,6 @@ import { setImmediate } from 'timers/promises';
 describe('Post Office Search', () => {
   // This is simulated since the test env doesn't support fetch
   const testServerPort = 9835;
-  const addressSearchUrl = `http://127.0.0.1:${testServerPort}/api/address_search`;
   const locationsSearchUrl = `http://127.0.0.1:${testServerPort}/api/usps_locations`;
 
   beforeEach(() => {
@@ -68,17 +67,11 @@ describe('Post Office Search', () => {
   };
 
   const getCityField = function () {
-    return getByLabelText(
-      document.body,
-      'in_person_proofing.body.location.po_search.city_label',
-    );
+    return getByLabelText(document.body, 'in_person_proofing.body.location.po_search.city_label');
   };
 
   const getStateField = function () {
-    return getByLabelText(
-      document.body,
-      'in_person_proofing.body.location.po_search.state_label',
-    );
+    return getByLabelText(document.body, 'in_person_proofing.body.location.po_search.state_label');
   };
 
   const getZipcodeField = function () {
@@ -95,19 +88,19 @@ describe('Post Office Search', () => {
   };
 
   const testData = {
-    address:'1600 W Pennsylvania Ave',
+    address: '1600 W Pennsylvania Ave',
     city: 'Washington',
     state: 'DC',
-    zipcode: '20500'
+    zipcode: '20500',
   };
 
   function getFormElements() {
     const addressField = getAddressField();
     const cityField = getCityField();
     const stateField = getStateField();
-    const zipcodeField = getZipcodeField(); 
+    const zipcodeField = getZipcodeField();
     const searchButton = getSearchButton();
-    return { addressField, cityField, stateField, zipcodeField, searchButton }
+    return { addressField, cityField, stateField, zipcodeField, searchButton };
   }
 
   it('renders post office search form fields that are enabled', () => {
@@ -157,7 +150,7 @@ describe('Post Office Search', () => {
           });
         });
 
-        it('shows an error', async () => {
+        it('shows an error', () => {
           const errorMessage = 'simple_form.required.text';
           const requiredErrorMessages = getAllByText(document.body, 'simple_form.required.text');
           expect(container).toHaveTextContent(errorMessage);
@@ -178,7 +171,7 @@ describe('Post Office Search', () => {
             await user.clear(addressField);
             await user.clear(cityField);
             await user.clear(zipcodeField);
-    
+
             await user.type(addressField, testData.address);
             await user.type(cityField, testData.city);
             await user.selectOptions(stateField, testData.state);
