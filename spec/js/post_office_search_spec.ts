@@ -59,26 +59,8 @@ describe('Post Office Search', () => {
     }
   });
 
-  const getAddressField = function () {
-    return getByLabelText(
-      document.body,
-      'in_person_proofing.body.location.po_search.address_label',
-    );
-  };
-
-  const getCityField = function () {
-    return getByLabelText(document.body, 'in_person_proofing.body.location.po_search.city_label');
-  };
-
-  const getStateField = function () {
-    return getByLabelText(document.body, 'in_person_proofing.body.location.po_search.state_label');
-  };
-
-  const getZipcodeField = function () {
-    return getByLabelText(
-      document.body,
-      'in_person_proofing.body.location.po_search.zipcode_label',
-    );
+  const getField = function (labelName: string) {
+    return getByLabelText(document.body, `in_person_proofing.body.location.po_search.${labelName}`);
   };
 
   const getSearchButton = function () {
@@ -95,10 +77,10 @@ describe('Post Office Search', () => {
   };
 
   function getFormElements() {
-    const addressField = getAddressField();
-    const cityField = getCityField();
-    const stateField = getStateField();
-    const zipcodeField = getZipcodeField();
+    const addressField = getField('address_label');
+    const cityField = getField('city_label');
+    const stateField = getField('state_label');
+    const zipcodeField = getField('zipcode_label');
     const searchButton = getSearchButton();
     return { addressField, cityField, stateField, zipcodeField, searchButton };
   }
