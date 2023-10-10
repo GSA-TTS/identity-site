@@ -26,7 +26,7 @@ Puede utilizar un teléfono móvil de prepago para verificar su identidad. Sin e
 
 ## En caso de que no pueda realizar este paso
 
-Haga clic en "Verificar su dirección por correo". Tendrá que esperar a recibir una carta por correo y luego deberá seguir las instrucciones para introducir el código.
+Haga clic en "Verificar su dirección por correo". Tendrá que esperar a recibir una carta por correo y luego deberá seguir las instrucciones para introducir el código de verificación.
 
 ## Artículos relacionados
 

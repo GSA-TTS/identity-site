@@ -16,7 +16,7 @@ Please have the following information ready to enter on Login.gov:
 1. Your State-Issued ID. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification/)
 2. Social Security Number
 3. Your phone number
-   a. If you cannot complete this step, we can send you a one-time code by mail which takes approximately 3-5 days.
+   a. If you cannot complete this step, we can send you a verification code by mail which takes approximately 3-5 days.
 
 If you’re unable to complete any of these steps, please contact the partner agency’s help center for support.   
 
