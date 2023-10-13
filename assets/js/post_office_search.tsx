@@ -34,6 +34,7 @@ root.render(
         </Alert>
       )}
       usStatesTerritories={UsStatesTerritories}
-    />,
-  </form>
+    />
+    ,
+  </form>,
 );
