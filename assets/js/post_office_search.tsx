@@ -15,6 +15,7 @@ const { locationsSearchUrl } = elem.dataset;
 root.render(
   <form>
     <FullAddressSearch
+      noValidate
       disabled={false}
       handleLocationSelect={null}
       locationsURL={locationsSearchUrl}
