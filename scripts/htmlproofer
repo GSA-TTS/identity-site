@@ -38,10 +38,16 @@ end
 
 while retries >= 0
   proofer = HTMLProofer.check_directory(site_config['destination'], proofer_options)
-  # Counter-intuitively, followlocation is set as false in the configuration and always reverted to
-  # true before a request. External URL requests should be allowed to follow redirects, but internal
-  # link trailing slash check is based on the raw options object.
-  proofer.before_request { |request| request.options[:followlocation] = true }
+  proofer.before_request do |request|
+    # Counter-intuitively, followlocation is set as false in the configuration and always reverted
+    # to true before a request. External URL requests should be allowed to follow redirects, but
+    # internal link trailing slash check is based on the raw options object.
+    request.options[:followlocation] = true
+
+    # Some URLs behave differently if `accept-language`` header is not included. Remove this in the
+    # future if it's no longer needed.
+    request.options[:headers]['Accept-Language'] = '*'
+  end
   proofer.check_files
   failed_external_urls = external_failure_urls(proofer.failures)
   break if failed_external_urls.empty?
