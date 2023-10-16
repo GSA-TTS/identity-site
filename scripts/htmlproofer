@@ -44,7 +44,7 @@ while retries >= 0
     # internal link trailing slash check is based on the raw options object.
     request.options[:followlocation] = true
 
-    # Some URLs behave differently if `accept-language`` header is not included. Remove this in the
+    # Some URLs behave differently if `accept-language` header is not included. Remove this in the
     # future if it's no longer needed.
     request.options[:headers]['Accept-Language'] = '*'
   end
