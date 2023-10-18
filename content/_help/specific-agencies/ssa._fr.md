@@ -28,4 +28,4 @@ Veuillez contacter [SSA.gov](https://www.ssa.gov/) directement si vous avez des 
 
 Appelez le 1-800-772-1213 entre 8 h et 19 h, du lundi au vendredi. Numéro TTY : 1-800-325-0778. Ou envoyez votre demande via le formulaire en ligne accessible à l'adresse [https://secure.ssa.gov/emailus/](https://secure.ssa.gov/emailus/).
 
-Si vous vivez à l'étranger, les coordonnées sont fournies par pays ici: [https://www.ssa.gov/foreign/foreign.html](https://www.ssa.gov/foreign/foreign.html)
+Si vous vivez à l'étranger, les coordonnées sont fournies par pays ici: [https://www.ssa.gov/foreign/](https://www.ssa.gov/foreign/)

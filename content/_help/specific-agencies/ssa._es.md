@@ -28,4 +28,4 @@ Comuníquese directamente con [SSA.gov](https://www.ssa.gov/) si tiene alguna pr
 
 Comuníquese al 1-800-772-1213 entre las 8:00 a. m. y las 7:00 pm. m. de lunes a viernes, mediante teléfono de texto al 1-800-325-0778 o envíe su solicitud a través del formato en línea en [https://secure.ssa.gov/emailus/](https://secure.ssa.gov/emailus/).
 
-Si vive en el extranjero, aquí podrá consultar la información de contacto por país: [https://www.ssa.gov/foreign/foreign.html](https://www.ssa.gov/foreign/foreign.html)
+Si vive en el extranjero, aquí podrá consultar la información de contacto por país: [https://www.ssa.gov/foreign/](https://www.ssa.gov/foreign/)
