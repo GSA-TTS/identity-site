@@ -47,7 +47,6 @@ contact_page:
       'Department of Labor': Département du Travail
       'Department of State': Département d’État
       'Department of the Interior': Département de l’Intérieur
-      'MyTravelGov': Département d’État MyTravelGov
       'Department of the Treasury': Département du Trésor
       'Department of Transportation': Département des Transports
       'Department of Veterans Affairs': Ministère des Anciens Combattants
@@ -68,6 +67,7 @@ contact_page:
       'Housing and Urban Development': Logement et développement urbain
       'Internal Revenue Service (IRS)': L’Internal Revenue Service (IRS)
       'Library of Congress': Bibliothèque du Congrès
+      'MyTravelGov': Département d’État MyTravelGov
       'myTreasury': myTreasury
       'National Aeronautics and Space Administration': Administration Nationale de l’Espace et de l’Aéronautique
       'National Archives and Records Administration (NARA)': Archives nationales et administration des documents (NARA)
@@ -81,7 +81,7 @@ contact_page:
       'SBA DLAP': SBA DLAP
       'Securities and Exchange Commission': Commission des valeurs mobilières des États-Unis
       'Social Security Administration (SSA)': Administration de la sécurité sociale (SSA)
-      'State of Arkansas': État de l'Arkansas
+      'State of Arkansas': État de l’Arkansas
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programmes pour voyageurs de confiance (Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': Agence américaine pour le développement international
       'U.S. Department of Agriculture': Département de l’agriculture des États-Unis
