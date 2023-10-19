@@ -45,7 +45,6 @@ contact_page:
       'Department of Labor': Department of Labor
       'Department of State': Department of State
       'Department of the Interior': Department of the Interior
-      'MyTravelGov': Department of State MyTravelGov
       'Department of the Treasury': Department of the Treasury
       'Department of Transportation': Department of Transportation
       'Department of Veterans Affairs': Department of Veterans Affairs
@@ -66,6 +65,7 @@ contact_page:
       'Housing and Urban Development': Housing and Urban Development
       'Internal Revenue Service (IRS)': Internal Revenue Service (IRS)
       'Library of Congress': Library of Congress
+      'MyTravelGov': Department of State MyTravelGov
       'myTreasury': myTreasury
       'National Aeronautics and Space Administration': National Aeronautics and Space Administration
       'National Archives and Records Administration (NARA)': National Archives and Records Administration (NARA)
