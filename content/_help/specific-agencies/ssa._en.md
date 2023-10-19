@@ -6,6 +6,7 @@ permalink: /help/specific-agencies/ssa/
 keywords: social security, social security benefits, replacement social security card, social security card, ssa, social security card replacement, social security statement, replace social security card, new social security card, new card, replacement card, ss statement, social security account, social security administration, ssa.gov, i need a new social security card
 order: 3
 redirect_from:
+  - /en/help/specific-agencies/ssa/
 ---
 Login.gov can only answer questions about the sign-in process and creating a Login.gov account. Your Login.gov account does not affect or have any information about your [Social Security](https://www.ssa.gov/) card, number, or benefits. 
 
@@ -27,6 +28,6 @@ Please contact [SSA.gov](https://www.ssa.gov/) directly if you have questions re
   * [Supplemental Security Income (SSI)](https://www.ssa.gov/ssi)
   * [Medicare](https://www.ssa.gov/medicare)
 
-Contact the 1-800-772-1213 between 8:00 a.m. – 7:00 p.m. Monday through Friday. TTY number at 1-800-325-0778. or submit your request via web form at [https://secure.ssa.gov/emailus/](https://secure.ssa.gov/emailus/).
+Call 1-800-772-1213 between 8:00 a.m. – 7:00 p.m. Monday through Friday, or the TTY number at 1-800-325-0778. Or, [submit your request via web form](https://secure.ssa.gov/emailus/).
 
-If you live abroad, contact information is provided by country here:  [https://www.ssa.gov/foreign/](https://www.ssa.gov/foreign/)
+If you live abroad, [SSA.gov provides contact information by country](https://www.ssa.gov/foreign/)
