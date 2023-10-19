@@ -30,4 +30,4 @@ Please contact [SSA.gov](https://www.ssa.gov/) directly if you have questions re
 
 Call 1-800-772-1213 between 8:00 a.m. – 7:00 p.m. Monday through Friday, or the TTY number at 1-800-325-0778. Or, [submit your request via web form](https://secure.ssa.gov/emailus/).
 
-If you live abroad, [SSA.gov provides contact information by country](https://www.ssa.gov/foreign/)
+If you live abroad, [SSA.gov provides contact information by country](https://www.ssa.gov/foreign/).

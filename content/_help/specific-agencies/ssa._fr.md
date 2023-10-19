@@ -27,4 +27,4 @@ Veuillez contacter [SSA.gov](https://www.ssa.gov/) directement si vous avez des 
 
 Appelez le 1-800-772-1213 entre 8 h et 19 h du lundi au vendredi ou appelez le numéro de l'ATME au 1-800-325-0778. Ou soumettez votre [demande via le formulaire Web](https://secure.ssa.gov/emailus/).
 
-Si vous vivez à l'étranger, SSA.gov fournit [les coordonnées par pays](https://www.ssa.gov/foreign/)
+Si vous vivez à l'étranger, SSA.gov fournit [les coordonnées par pays](https://www.ssa.gov/foreign/).
