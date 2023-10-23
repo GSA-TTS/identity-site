@@ -1,6 +1,6 @@
 ---
 layout: help
-title: SSA.gov
+title: Administración del Seguro Social (SSA)
 category: specific-agencies
 permalink: /es/help/specific-agencies/ssa/
 order: 3
