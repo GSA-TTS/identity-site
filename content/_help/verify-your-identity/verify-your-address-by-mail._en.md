@@ -14,7 +14,7 @@ Identity verification is the process where you prove you are you - and not someo
 
 If you cannot verify by phone, we will mail you a letter with a verification code. You will use this code to finish verifying your identity and setting up your account.
 
-The letter is sent via the U.S. Postal Service three to seven business days after you request the verification code. The verification code will expire 30 days after the date when you submit your request.
+The letter is sent via US First-Class mail the next business day after you request the verification code, and takes 5 to 10 days to arrive. The verification code will expire 30 days after the date when you submit your request.
 
 If you do not receive your letter, or your verification code expires before you finish the identity verification process, you can request a new verification code.
 
