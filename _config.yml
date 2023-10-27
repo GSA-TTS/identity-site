@@ -151,7 +151,6 @@ help_pages:
 
 url: https://www.login.gov
 
-show_po_search: false
 po_search_address_search_url: https://idp.dev.identitysandbox.gov/api/address_search
 po_search_locations_search_url: https://idp.dev.identitysandbox.gov/api/usps_locations
 skip_idp_translations: true
