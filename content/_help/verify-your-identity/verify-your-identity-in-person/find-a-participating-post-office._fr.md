@@ -1,5 +1,6 @@
 ---
-title: Find a Participating Post Office to finish identity verification
+title: Trouver un bureau de poste participant pour terminer la vérification de l’identité
+meta_title: Trouver un bureau de poste participant
 child: true
 order: 1
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/

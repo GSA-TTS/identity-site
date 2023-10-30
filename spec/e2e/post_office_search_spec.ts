@@ -23,7 +23,7 @@ describe('PO search page', () => {
       await goto('/help/verify-your-identity/overview/');
 
       const link = await page.waitForXPath(
-        '//a[contains(text(),"Find a Participating Post Office to finish identity verification")]',
+        '//a[contains(text(),"Find a Participating Post Office")]',
         { timeout: 1000 },
       );
 
