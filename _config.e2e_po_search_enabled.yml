@@ -24,6 +24,3 @@ defaults:
       path: 'content/**/*/*._fr.md'
     values:
       lang: fr
-  - scope:
-      path: 'content/_help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office.*.md'
-    values:
