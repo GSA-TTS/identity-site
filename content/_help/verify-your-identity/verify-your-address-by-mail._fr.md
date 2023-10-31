@@ -12,7 +12,7 @@ La vérification d'identité est le processus par lequel vous prouvez que vous �
 
 Si vous ne pouvez pas effectuer la vérification par téléphone, nous vous enverrons une lettre contenant un code de vérification. Vous utiliserez ce code pour terminer la vérification de votre identité et la configuration de votre compte.
 
-La lettre est envoyée via le service postal américain trois à sept jours ouvrables après que vous ayez demandé le code.  Le code de vérification expirera 30 jours après la date à laquelle vous avez envoyé votre demande.
+Les lettres sont envoyées le jour ouvrable suivant par le courrier de première classe d'USPS et arrivent dans un délai de 5 à 10 jours.  Le code de vérification expirera 30 jours après la date à laquelle vous avez envoyé votre demande.
 
 Si vous ne recevez pas votre lettre ou si votre code de vérification expire avant la fin du processus de vérification d'identité, vous pouvez demander un nouveau code de vérification.
 
