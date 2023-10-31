@@ -7,15 +7,11 @@ const page = originalPage as Page;
 const goto = originalGoto as (path: string) => ReturnType<Page['goto']>;
 
 describe('PO search page', () => {
-  beforeEach(() => {
-    jest.setTimeout(10_000);
-  });
-
   it('is accessible from the side menu', async () => {
     await goto('/help/verify-your-identity/overview/');
 
     const link = await page.waitForXPath(
-      '//a[contains(text(),"Find a Participating Post Office to finish identity verification")]',
+      '//a[contains(text(),"Find a Participating Post Office")]',
       { timeout: 1000 },
     );
 
