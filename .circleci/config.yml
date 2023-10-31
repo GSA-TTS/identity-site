@@ -59,7 +59,7 @@ jobs:
       - image: cimg/ruby:3.1-node
         environment:
           BUNDLER_VERSION: 2.2.20
-          JEKYLL_CONFIG_FILES: _config.yml,_config.e2e_po_search_enabled.yml
+          JEKYLL_CONFIG_FILES: _config.yml
     steps:
       - checkout
       - install-dependencies
