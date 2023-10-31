@@ -21,7 +21,7 @@ If you are under 18 years of age, you may not be able to verify your identity fo
 1. Your State-Issued ID. You can upload a photo of your ID by phone or by computer. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification/) 
 1. Social Security number
 1. Your phone number 
-    * If we can't verify your phone number, you can [Verify by mail](/help/verify-your-identity/verify-your-address-by-mail/) instead which takes 5 to 10 days.
+    * If we can't verify your phone number, you can [Verify by mail](/help/verify-your-identity/verify-your-address-by-mail/) instead. This takes 5 to 10 days.
 
 If you are missing any of this information, please contact the government agency you are trying to access.
 
@@ -63,7 +63,7 @@ Login.gov is a secure, government website that adheres to the highest standards 
 1.  Enter your social security number and click “Continue”
 1.  Verify the information you have submitted so far is correct and click “Continue”
 1.  Enter your primary phone number. This is the last step for identity verification.
-    * If you do not have a U.S. phone number or cannot verify by phone, click on “Verify your address by mail instead”. You will have to wait 5 to 10 days to receive a letter in the mail and then follow the instructions to enter the code.
+    * If you do not have a U.S. phone number or cannot verify by phone, click on “Verify your address by mail instead”. You will have to wait 5 to 10 days to receive a letter in the mail and then follow the instructions to enter a verification code.
 1.  Once your identity is verified, you need to encrypt your account. Re-enter your Login.gov password. Click “Continue”
 1.  Take note of your personal key and keep it safe. You’ll need to enter your personal key immediately on the next page. Click “Continue”
 

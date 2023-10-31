@@ -19,7 +19,7 @@ Si vous avez moins de 18 ans, il se peut que vous ne puissiez pas vérifier votr
 1. Votre carte d'identité émise par l'État. Vous pouvez télécharger une photo de votre pièce d'identité par téléphone ou par ordinateur. [Vous n'avez pas de carte d'identité émise par l'État?](/fr/help/verify-your-identity/accepted-state-issued-identification/)
 1. Numéro de sécurité sociale
 1. Votre numéro de téléphone
-    * Si nous ne pouvons pas vérifier votre numéro de téléphone, vous pouvez le faire par courrier, ce qui prend environ 3 à 7 jours ouvrables.
+    * Si nous ne pouvons pas vérifier votre identité à l'aide de votre numéro de téléphone, [vous pouvez le faire par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/). Cela prend 5 à 10 jours.
 
 S'il vous manque une de ces informations, veuillez contacter l'agence gouvernementale à laquelle vous essayez d'accéder.
 
@@ -61,7 +61,7 @@ Login.gov est un site web gouvernemental sécurisé qui respecte les normes les 
 1. Entrez votre numéro de sécurité sociale et cliquez sur « Continuer ».
 1. Vérifiez que les informations que vous avez fournies jusqu'à présent sont correctes et cliquez sur « Continuer ».
 1. Saisissez votre numéro de téléphone principal. Il s'agit de la dernière étape de la vérification d'identité.
-    * Si vous n'avez pas de numéro de téléphone américain ou si vous ne pouvez pas vérifier par téléphone, cliquez sur « Vérifiez plutôt votre adresse par courrier ». Vous devrez attendre de recevoir une lettre par la poste, puis suivre les instructions pour saisir le code.
+    * Si vous n'avez pas de numéro de téléphone américain ou si vous ne pouvez pas vérifier par téléphone, cliquez sur « Vérifiez plutôt votre adresse par courrier ».  Vous devrez attendre de 5 à 10 jours pour recevoir une lettre par la poste, puis suivre les instructions pour entrer un code de vérification.
 1. Une fois votre identité vérifiée, vous devez crypter votre compte. Saisissez à nouveau votre mot de passe Login.gov. Cliquez sur « Continuer ».
 1. Prenez note de votre clé personnelle et conservez-la en lieu sûr. Vous devrez entrer votre clé personnelle immédiatement à la page suivante. Cliquez sur « Continuer ».
 
