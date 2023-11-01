@@ -21,7 +21,7 @@ If you are under 18 years of age, you may not be able to verify your identity fo
 1. Your State-Issued ID. You can upload a photo of your ID by phone or by computer. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification/) 
 1. Social Security number
 1. Your phone number 
-    * If we can't verify your phone number, you can [Verify by mail](/help/verify-your-identity/verify-your-address-by-mail/) instead. This takes 5 to 10 days.
+    * If we can't verify your phone number, you can [verify by mail](/help/verify-your-identity/verify-your-address-by-mail/) instead. This takes 5 to 10 days.
 
 If you are missing any of this information, please contact the government agency you are trying to access.
 
