@@ -191,7 +191,6 @@ workflows:
   release:
     jobs:
       - build
-      - build-po-search
       - lint-js
       - lint-yaml
       - typecheck-js
@@ -206,9 +205,6 @@ workflows:
       - e2e:
           requires:
             - build
-      - e2e-po-search:
-          requires:
-            - build-po-search
       - nu:
           requires:
             - build
