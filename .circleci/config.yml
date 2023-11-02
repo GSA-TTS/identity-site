@@ -86,21 +86,6 @@ jobs:
           name: run end-to-end tests
           command: npm test
 
-  e2e-po-search:
-    docker:
-      - image: cimg/ruby:3.1-browsers
-    environment:
-      SKIP_BUILD: true
-      PO_SEARCH_TESTING_ENABLED: true
-    steps:
-      - checkout
-      - install-dependencies
-      - attach_workspace:
-          at: '.'
-      - run:
-          name: run end-to-end tests with PO search enabled
-          command: npm test
-
   lint-js:
     docker:
       - image: cimg/ruby:3.1-node
