@@ -33,3 +33,4 @@ For each outcome, you should modify site settings by following the instructions 
           contact_maintenance_start_time: 1970-01-01T00:00:00Z
           contact_maintenance_end_time: 1970-01-01T01:00:00Z
           contact_maintenance_phone_available: false
+    - Use this [Timestamp Converter](https://www.timestamp-converter.com/) to calculate the correct start and end times in ISO-8601 format
