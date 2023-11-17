@@ -148,7 +148,7 @@ jobs:
 
   lint-css:
     docker:
-      - image: cimg/ruby:2.7-node
+      - image: cimg/ruby:3.1-node
     steps:
       - checkout
       - install-dependencies
