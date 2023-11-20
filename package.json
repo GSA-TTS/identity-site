@@ -27,7 +27,7 @@
     "url": "https://github.com/18F/identity-site/issues"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "homepage": "https://github.com/18F/identity-site#readme",
   "main": "webpack.config.js",
