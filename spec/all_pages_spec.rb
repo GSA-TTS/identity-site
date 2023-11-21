@@ -51,7 +51,7 @@ RSpec.describe 'all pages' do
         end
       end
 
-      xit 'links to valid headings' do
+      it 'links to valid headings' do
         expect(doc).to link_to_valid_headers
       end
 
