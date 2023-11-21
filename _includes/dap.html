@@ -1,10 +1,8 @@
-{% if site.dap_measurement_id %}
-  <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.dap_measurement_id }}"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', '{{ site.dap_measurement_id }}');
-  </script>
-{% endif %}
+<!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.dap_measurement_id }}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+gtag('js', new Date());
+gtag('config', '{{ site.dap_measurement_id }}');
+</script>
