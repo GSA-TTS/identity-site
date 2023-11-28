@@ -37,6 +37,7 @@ contact_page:
   required: requerido
   support_request_form:
     agencies:
+      '.gov Registrar': Registrador .gov
       'Central Intelligence Agency': Agence centrale de renseignement
       'Consumer Financial Protection Bureau': Oficina para la Protección Financiera del Consumidor
       'Customs and Border Protection Jobs': Trabajos en Aduanas y Protección de Fronteras
@@ -45,6 +46,8 @@ contact_page:
       'Department of Defense': Departamento de Defensa
       'Department of Education': Departamento de Educación
       'Department of Energy': Departamento de Energía
+      'Department of Homeland Security (DHS)': Departamento de Seguridad Nacional (DHS)
+      'Department of Justice (DOJ)': Departamento de Justicia (DOJ)
       'Department of Labor': Departamento del Trabajo
       'Department of State': Departamento de Estado
       'Department of the Interior': Departamento del Interior
@@ -75,7 +78,9 @@ contact_page:
       'myTreasury': myTreasury
       'National Aeronautics and Space Administration': Administración Nacional de Aeronáutica y el Espacio
       'National Archives and Records Administration (NARA)': Archivos Nacionales y Administracion de Documentos (NARA)
+      'National Endowment for the Humanities (NEH)': Fondo Nacional para las Humanidades (NEH, siglas en inglés)
       'National Labor Relations Board': Junta Nacional de Relaciones Laborales
+      'Office of Personnel Management': Oficina de Administración de Personal (OPM)
       'OPM Employee Express': OPM Empleado Express
       'OPM Services Online': 'Servicios en línea de OPM'
       'Pay.gov': Pay.gov
@@ -87,6 +92,7 @@ contact_page:
       'Securities and Exchange Commission': Comisión de Bolsa y Valores
       'Social Security Administration (SSA)': Administración del Seguro Social (SSA, por su siglas en inglés)
       'State of Arkansas': Estado de Arkansas
+      'State of Colorado': Estado de Colorado
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programas de Viajero de Confianza (Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': Agencia de los Estados Unidos para el Desarrollo Internacional
       'U.S. Department of Agriculture': Departamento de Agricultura de los Estados Unidos
