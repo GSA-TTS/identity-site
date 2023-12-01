@@ -19,7 +19,6 @@ contact_form_orgid: '00DU0000000Leux'
 # Contact page phone number enabled (overridden in Cloud.gov Pages)
 contact_phone_number_enabled: false
 contact_phone_number: ''
-contact_phone_number_location: 'bottom' # acceptable values are 'top' and 'bottom'
 
 # Contact page maintenance window
 contact_maintenance_start_time: null
