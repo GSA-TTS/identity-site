@@ -30,8 +30,8 @@ contact_maintenance_phone_available: true
 contact_unplanned_outage: false
 contact_unplanned_outage_phone_available: false
 
-# Digital Analytics Program (DAP)
-dap_measurement_id: null
+# GSA Office of Strategic Communication (OSC) Google Analytics
+osc_analytics_ga_measurement_id: null
 
 # Used to load country code support
 idp_base_url: https://secure.login.gov
