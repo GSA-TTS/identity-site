@@ -11,7 +11,7 @@ La verificación de la identidad es el proceso en el que acreditas que eres tú 
 
 Si no puede verificarla por teléfono, le enviaremos una carta con un código de verificación. Este código te permitirá terminar de verificar tu identidad y configurar la cuenta.
 
-La carta se envía a través del Servicio Postal de EE. UU. entre tres y siete días hábiles a partir del momento en que la solicitas. El código de verificación caducará 30 días después de la fecha en que envíe su solicitud.
+Las cartas se envían al siguiente día hábil por USPS First-Class Mail y tardan entre 5 y 10 días en llegar. El código de verificación caducará 30 días después de la fecha en que envíe su solicitud.
 
 Ten en mente que si no recibes la carta o si el código de verificación caduca antes de completar el proceso de verificación de identidad, lo que deberás hacer es solicitar un código nuevo.
 

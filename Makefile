@@ -9,7 +9,7 @@ setup:
 	npm install
 
 lint-js:
-	npm run lint
+	npm run lint:js
 
 typecheck-js:
 	npm run typecheck
@@ -22,7 +22,10 @@ lint-yaml:
 	npm run normalize-yaml
 	(! git diff --name-only | grep ".*\.yml$$") || (echo "Error: Run 'make normalize_yaml' to normalize YAML"; exit 1)
 
-lint: lint-js lint-assets lint-yaml validate-lockfiles typecheck-js
+lint-css:
+	npm run lint:css
+
+lint: lint-js lint-assets lint-yaml lint-css validate-lockfiles typecheck-js
 
 test: build
 	bundle exec rspec spec

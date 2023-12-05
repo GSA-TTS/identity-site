@@ -82,9 +82,8 @@ function loadCountrySupportTable(elem) {
           ]) => {
             const row = templateRow.cloneNode(true);
             row.querySelector('[data-item=country]').innerText = `${name} (${isoCode})`;
-            row.querySelector('[data-item=dialing-code]').innerText = prettyDialingCode(
-              countryCode,
-            );
+            row.querySelector('[data-item=dialing-code]').innerText =
+              prettyDialingCode(countryCode);
             updateCell(row.querySelector('[data-item=sms]'), supportsSmsUnconfirmed ?? supportsSms);
             updateCell(
               row.querySelector('[data-item=voice]'),

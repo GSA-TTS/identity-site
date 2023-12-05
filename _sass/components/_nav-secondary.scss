@@ -6,6 +6,16 @@
 
   a {
     color: $white;
+
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+
+      li {
+        text-decoration: underline;
+      }
+    }
   }
 
   li {
@@ -29,18 +39,6 @@
         margin-left: -$triangle-size;
         padding-top: 0.4rem;
         position: absolute;
-      }
-    }
-  }
-
-  a {
-    &:hover,
-    &:focus,
-    &:active {
-      text-decoration: none;
-
-      li {
-        text-decoration: underline;
       }
     }
   }

@@ -15,7 +15,7 @@ Tenga preparada la siguiente información para ingresarla en Login.gov:
 1. Su documento de identidad emitido por su estado. [¿No tiene un documento de identidad estatal?](/es/help/verify-your-identity/accepted-state-issued-identification/)
 2. Número de Seguridad Social.
 3. Su número de teléfono
-   a. Cuando no pueda hacer este paso, le enviaremos un código de verificación por correo, el cual puede demorar aproximadamente de 3 a 5 días.
+   a. Cuando no pueda hacer este paso, [le enviaremos un código de verificación por correo](/es/help/verify-your-identity/verify-your-address-by-mail/), lo que tarda entre 5 y 10 días.
 
 Si no puede completar alguno de estos pasos, póngase en contacto con el centro de ayuda de la agencia asociada para obtener ayuda.
 

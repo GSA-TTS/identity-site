@@ -125,7 +125,7 @@ development_accordion:
 
             - <a href="https://developers.login.gov/saml/" class="external-link">SAML developer guide</a>
 
-            - <a href="https://developers.login.gov/oidc/" class="external-link">OpenID Connect developer guide</a>
+            - <a href="https://developers.login.gov/oidc/getting-started" class="external-link">OpenID Connect developer guide</a>
     -
         id: c-5
         title: Do we need an approved IAA before we can launch our integration with Login.gov?
