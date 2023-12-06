@@ -41,7 +41,9 @@ En attendant, veuillez contacter le centre d'assistance de l'agence partenaire p
 
 ### La vérification en personne est disponible dans les établissements participants aux États-Unis et dans certains territoires américains.* 
 
-Vous pouvez rechercher un bureau de poste participant lorsque vous lancez la procédure sur Login.gov. Dès que vous êtes prêt à la vérification, vous pouvez vous rendre dans n'importe quel bureau de poste où la vérification en personne est disponible.
+Lorsque vous lancez la procédure sur [Login.gov](https://secure.login.gov/fr), nous vous aidons à trouver une liste des bureaux de poste participants près de chez vous. Vous pouvez également [rechercher un bureau de poste voisin de votre domicile dans notre Centre d’aide](/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/).
+
+Une fois que vous avez reçu un code-barres en ligne, vous pouvez vous rendre dans n’importe quel bureau de poste où la vérification en personne est possible.
 
 **\*Territoires américains disponibles:** Îles Vierges américaines, Samoa américaines, Guam, Porto Rico et Îles Mariannes du Nord.
 

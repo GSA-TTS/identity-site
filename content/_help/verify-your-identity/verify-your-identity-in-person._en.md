@@ -43,7 +43,9 @@ In the meantime, please contact the partner agency’s help center to find out w
 
 ### In-Person Proofing is available at participating locations across the U.S. and some U.S. territories.*
 
-You can search for a participating Post Office when you start the process on Login.gov. Once you’re ready to verify, you can go to any Post Office where In-Person Proofing is available.
+When you start the process on [Login.gov](https://secure.login.gov/), we’ll help you find a list of participating Post Offices near you. You can also [search for a Post Office near you in our Help Center](/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/).
+
+Once you’ve received a barcode online, you can go to any Post Office where In-Person Proofing is available.
 
 **\* Available U.S. Territories:** U.S. Virgin Islands, American Samoa, Guam, Puerto Rico and the Northern Mariana Islands.
 
