@@ -32,7 +32,7 @@ describe('Post Office Search', () => {
   });
 
   let container: HTMLDivElement;
-  let user: ReturnType<(typeof userEvent)['setup']>;
+  let user: ReturnType<typeof userEvent['setup']>;
 
   beforeEach(async () => {
     user = userEvent.setup();
