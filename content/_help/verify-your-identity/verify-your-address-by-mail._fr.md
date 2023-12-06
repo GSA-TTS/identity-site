@@ -7,7 +7,7 @@ redirect_from:
   - /fr/help/creating-an-account/how-do-i-verify-my-address-by-mail/
   - /fr/help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 ---
-La vérification d'identité est le processus par lequel vous prouvez que vous êtes vous-même - et non quelqu'un qui prétend être vous. Si vous ne pouvez pas [vérifier votre numéro de téléphone](/fr/help/verify-your-identity/phone-number), vous pouvez utiliser votre adresse pour vérifier votre identité par courrier. Vous recevrez par voie postale une lettre contenant un code de vérification, lequel vous permettra de terminer la vérification de votre identité.
+La vérification d'identité est le processus par lequel vous prouvez que vous êtes vous-même - et non quelqu'un qui prétend être vous. Si vous ne pouvez pas [vérifier votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/), vous pouvez utiliser votre adresse pour vérifier votre identité par courrier. Vous recevrez par voie postale une lettre contenant un code de vérification, lequel vous permettra de terminer la vérification de votre identité.
 
 Nous envoyons le courrier à une adresse que nous avons vérifiée et associée à vous. Si vous devez changer d’adresse, vous devrez recommencer la procédure et vérifier à nouveau votre identité à l'aide de la nouvelle adresse.
 

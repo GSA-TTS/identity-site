@@ -7,7 +7,7 @@ redirect_from:
   - /es/help/creating-an-account/how-do-i-verify-my-address-by-mail/
   - /es/help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 ---
-La verificación de la identidad es el proceso en el que acreditas que eres tú realmente y no alguien que se hace pasar por ti. Si no puede [verificar su número de teléfono](/es/help/verify-your-identity/phone-number), en su lugar puede utilizar su dirección para verificar por correo. Le enviaremos por correo una carta con un código de verificación para completar el proceso de identificación.
+La verificación de la identidad es el proceso en el que acreditas que eres tú realmente y no alguien que se hace pasar por ti. Si no puede [verificar su número de teléfono](/es/help/verify-your-identity/phone-number/), en su lugar puede utilizar su dirección para verificar por correo. Le enviaremos por correo una carta con un código de verificación para completar el proceso de identificación.
 
 Enviaremos la carta a una dirección que previamente verificaremos y asociaremos con usted. En caso de necesitar cambiar esta dirección, le solicitamos que reinicie el proceso de verificación con la nueva dirección.
 
