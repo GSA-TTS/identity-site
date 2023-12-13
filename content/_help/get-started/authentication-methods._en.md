@@ -36,7 +36,7 @@ In addition to your password, Login.gov requires that you set up at least one au
 We encourage you to add two authentication methods to your account. If you lose access to your primary authentication method (e.g. losing your phone), you’ll have a second option to use to get access to your account. Login.gov is unable to grant you access to your account if you get locked out and/or lose your authentication method. If you get locked out, you’ll have to delete your account and create a new one.
 
 **Security**
-Although you can choose from several authentication options, some authentication methods such as Security Keys, PIV/CAC cards and authentication applications are more secure against phishing and theft.
+Although you can choose from several authentication options, some authentication methods such as face or touch unlock, security keys, and PIV/CAC cards are more secure against phishing and theft.
 
 ## Face or touch unlock 
 
@@ -46,13 +46,14 @@ Although you can choose from several authentication options, some authentication
   </div>
 </div>
 
-Face or touch unlock lets you sign in by using a scan of your face or fingerprint. This allows you to authenticate without using a one-time code. 
+Face or touch unlock lets you sign in by using a scan of your face or fingerprint, entering your PIN or pattern, or scanning a QR code. This allows you to authenticate without using a one-time code.
+
 
 When you choose to set up face or touch unlock, you’ll start by setting up a face- or fingerprint-based credential. This credential will be saved to your device, or to the cloud if you’re using a compatible browser and device.
 
-Assuming your credential is only saved to your device, you must always use the same device and browser to sign in with Login.gov with face or touch unlock. 
+Assuming your credential is only saved to your device, you must always use the same device and browser to authenticate with Login.gov using face or touch unlock. If your credential is saved to the cloud, you will be able to authenticate using face or touch unlock across multiple devices.
 
-We strongly recommend you add a second authentication method in case you change or lose your device. If you lose access to your only authentication method, you will need to [delete your account and create a new one.](/help/manage-your-account/delete-your-account/)
+We strongly recommend you add a second authentication method in case you change or lose your device. If you lose access to your only authentication method, you will need to [delete your account and create a new one.](/help/manage-your-account/delete-your-account/).
 
 ## Authentication application
 

@@ -69,6 +69,18 @@ Go to [secure.login.gov](https://secure.login.gov/) and click on "Create an acco
 4. On the “Secure your account” page, select face or touch unlock.
 5. On the face or touch unlock set up page, click on the “continue” button. You will then be prompted to authenticate using face or touch unlock.
     **Important**: Depending on your device, you may be prompted for additional information such as a PIN, pattern, or QR code. Follow the directions on your screen to finish setting up face or touch unlock. The following are screenshots of possible prompts you may encounter:
+
+    <div class="grid-row grid-gap">
+        <div class="tablet:grid-col">
+            <img alt="Screen for Face or touch unlock on Android device" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/android-screen-lock.png" />
+        </div>
+        <div class="tablet:grid-col">
+            <img alt="Screen for Face or touch unlock on an iOS device." src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/iphone-screen-lock.png" />
+        </div>
+        <div class="tablet:grid-col">
+            <img alt="Screen for passkey prompt" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/passkey-screen-shot.png" />
+        </div>
+    </div>
 6. Follow the steps to set up another authentication method.
 
  
