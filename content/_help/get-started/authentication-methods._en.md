@@ -42,7 +42,7 @@ Although you can choose from several authentication options, some authentication
 
 <div class="usa-alert usa-alert--info margin-bottom-4" role="status">
   <div class="usa-alert__body">
-    <p class="usa-alert__text">You will only see this option if you are using a compatible computer. You may need to sign in using the same device each time if your computer does not support saving your credentials to the cloud.</p>
+    <p class="usa-alert__text">You may need to enable cloud sync on your device if you want to use face or touch unlock to sign in to Login.gov across multiple devices.</p>
   </div>
 </div>
 
