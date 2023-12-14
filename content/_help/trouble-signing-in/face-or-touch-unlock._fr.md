@@ -67,13 +67,13 @@ Rendez-vous sur le site [secure.login.gov](https://secure.login.gov/) et cliquez
 
     <div class="grid-row grid-gap">
         <div class="tablet:grid-col">
-            <img alt="Screen for Face or touch unlock on Android device" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/android-screen-lock.png" />
+            <img alt="Exemple de requête pouvant être rencontrée lors de la configuration ou de l'utilisation du déverrouillage facial ou tactile: Capture d'écran d'un message PIN de verrouillage de l'écran" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/android-screen-lock.png" />
         </div>
         <div class="tablet:grid-col">
-            <img alt="Screen for Face or touch unlock on an iOS device." src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/iphone-screen-lock.png" />
+            <img alt="Exemple de requête pouvant être rencontrée lors de la configuration ou de l'utilisation du déverrouillage facial ou tactile: Capture d'écran avec clé d'accès permettant à l'utilisateur de choisir entre un trousseau iCloud, un téléphone ou une tablette" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/iphone-screen-lock.png" />
         </div>
         <div class="tablet:grid-col">
-            <img alt="Screen for passkey prompt" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/passkey-screen-shot.png" />
+            <img alt="Exemple de requête pouvant être rencontrée lors de la configuration ou de l'utilisation du déverrouillage facial ou tactile: Capture d'écran du code-barres bidimensionnel" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/passkey-screen-shot.png" />
         </div>
     </div>
 

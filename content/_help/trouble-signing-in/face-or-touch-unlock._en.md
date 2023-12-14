@@ -72,13 +72,13 @@ Go to [secure.login.gov](https://secure.login.gov/) and click on "Create an acco
 
     <div class="grid-row grid-gap">
         <div class="tablet:grid-col">
-            <img alt="Screen for Face or touch unlock on Android device" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/android-screen-lock.png" />
+            <img alt="Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot of a screen lock PIN prompt" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/android-screen-lock.png" />
         </div>
         <div class="tablet:grid-col">
-            <img alt="Screen for Face or touch unlock on an iOS device." src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/iphone-screen-lock.png" />
+            <img alt="Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot with a passkey message that allows users to choose between using iCloud keychain or or a phone or tablet" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/iphone-screen-lock.png" />
         </div>
         <div class="tablet:grid-col">
-            <img alt="Screen for passkey prompt" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/passkey-screen-shot.png" />
+            <img alt="Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot of a QR code" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/passkey-screen-shot.png" />
         </div>
     </div>
 6. Follow the steps to set up another authentication method.

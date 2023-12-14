@@ -67,13 +67,13 @@ Vaya a [secure.login.gov](https://secure.login.gov/es) y haga clic en "Crear una
 
     <div class="grid-row grid-gap">
         <div class="tablet:grid-col">
-            <img alt="Screen for Face or touch unlock on Android device" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/android-screen-lock.png" />
+            <img alt="Ejemplo de un aviso que puede aparecer al configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla de una solicitud de NIP de bloqueo de pantalla" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/android-screen-lock.png" />
         </div>
         <div class="tablet:grid-col">
-            <img alt="Screen for Face or touch unlock on an iOS device." src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/iphone-screen-lock.png" />
+            <img alt="Ejemplo de un aviso que puede aparecer al configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla con un mensaje de clave de acceso que permite a los usuarios elegir entre usar el llavero de iCloud o un celular o tablet" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/iphone-screen-lock.png" />
         </div>
         <div class="tablet:grid-col">
-            <img alt="Screen for passkey prompt" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/passkey-screen-shot.png" />
+            <img alt="Ejemplo de un aviso que puede aparecer al configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla de un código QR" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/passkey-screen-shot.png" />
         </div>
     </div>
 6. Al pulsar el botón "continuar", se le pedirá que se autentique mediante el desbloqueo facial o táctil.
