@@ -28,29 +28,27 @@ redirect_from:
   - /fr/help/signing-in/what-is-an-authentication-app/
   - /fr/help/signing-in/what-is-an-authenticator-app/
 ---
-En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d'authentification pour assurer la sécurité de votre compte. Il s'agit d'une authentification multifactorielle (AMF). Nous utilisons l'AMF comme un niveau de protection supplémentaire pour sécuriser vos informations.
+En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d’authentification pour assurer la sécurité de votre compte. Il s’agit d’une authentification multifactorielle (AMF). Nous utilisons l’AMF comme un niveau de protection supplémentaire pour sécuriser vos informations.
 
-**Méthodes d'authentification**
-Nous vous recommandons fortement d'ajouter deux méthodes d'authentification à votre compte. Si vous perdez l'accès à votre première méthode d'authentification (par exemple, si vous perdez votre téléphone), vous aurez la possibilité d'utiliser la seconde méthode pour accéder à votre compte. Login.gov n'est pas en mesure de vous donner accès à votre compte si vous êtes bloqué et/ou si vous oubliez votre méthode d'authentification. Si vous êtes bloqué, vous devrez supprimer votre compte et en créer un nouveau.
+**Méthodes d’authentification**
+Nous vous recommandons fortement d’ajouter deux méthodes d’authentification à votre compte. Si vous perdez l’accès à votre première méthode d’authentification (par exemple, si vous perdez votre téléphone), vous aurez la possibilité d’utiliser la seconde méthode pour accéder à votre compte. Login.gov n’est pas en mesure de vous donner accès à votre compte si vous êtes bloqué et/ou si vous oubliez votre méthode d’authentification. Si vous êtes bloqué, vous devrez supprimer votre compte et en créer un nouveau.
 
 **Sécurité**
-Bien que vous avez le choix entre plusieurs options d'authentification, certaines méthodes d'authentification telles que les clés de sécurité, les cartes à puce PIV/CAC et les applications d'authentification sont plus efficaces contre les tentatives d'hameçonnage et le vol.
+Bien que vous avez le choix entre plusieurs options d’authentification, certaines méthodes d’authentification telles que déverrouillage facial ou tactile, les clés de sécurité, et les cartes à puce PIV/CAC sont plus efficaces contre les tentatives d’hameçonnage et le vol.
 
 ## Déverrouillage facial ou tactile
 
 <div class="usa-alert usa-alert--info margin-bottom-4" role="status">
   <div class="usa-alert__body">
-    <p class="usa-alert__text">Vous ne verrez cette option que si vous utilisez un ordinateur compatible. Il se peut que vous deviez vous connecter à chaque fois avec le même appareil si votre ordinateur ne permet pas d'enregistrer vos informations d'identification dans le nuage.</p>
+    <p class="usa-alert__text">Il se peut que vous deviez activer la synchronisation en nuage sur votre appareil si vous souhaitez utiliser le déverrouillage facial ou tactile pour vous connecter à Login.gov sur plusieurs appareils.</p>
   </div>
 </div>
 
-Le déverrouillage facial ou tactile vous permet de vous connecter à l'aide d'un numériseur de votre visage ou de votre empreinte digitale. Vous pouvez ainsi vous authentifier sans utiliser de code à usage unique.
+Le déverrouillage facial ou tactile vous permet de vous connecter en balayant votre visage ou votre empreinte digitale, en saisissant votre NIP ou votre schéma, ou en balayant un code QR. Cela vous permet de vous authentifier sans utiliser de code à usage unique.
 
-Lorsque vous choisissez de configurer le déverrouillage facial ou tactile, vous commencez par définir un identifiant basé sur le visage ou l'empreinte digitale. Cet identifiant sera enregistré sur votre appareil ou dans le nuage si vous utilisez un navigateur et un appareil compatibles.
+Lorsque vous choisissez de configurer le déverrouillage facial ou tactile, vous commencez par définir un identifiant basé sur le visage ou l'empreinte digitale. Cet identifiant sera enregistré sur votre appareil, ou sur le nuage si vous utilisez un navigateur et un appareil compatibles.
 
-En supposant que votre identifiant ne soit enregistré que sur votre appareil, vous devez toujours utiliser le même appareil et le même navigateur pour vous connecter à Login.gov avec le déverrouillage par empreinte faciale ou digitale. 
-
-Nous vous recommandons vivement d'ajouter une deuxième méthode d'authentification au cas où vous changeriez ou perdriez votre appareil. Si vous perdez l'accès à votre seule méthode d'authentification, [vous devrez supprimer votre compte et en créer un nouveau.](/fr/help/manage-your-account/delete-your-account/)
+Si votre identifiant est enregistré sur le nuage, vous pourrez vous authentifier à l'aide du déverrouillage facial ou tactile sur plusieurs appareils.
 
 ## Applications d'authentification
 
