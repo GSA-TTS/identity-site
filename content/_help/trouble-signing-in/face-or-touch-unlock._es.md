@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Desbloqueo facial o táctil
+title: Problemas con el desbloqueo facial o táctil
 meta_title: Problemas con el desbloqueo facial o táctil
 category: trouble-signing-in
 permalink: /es/help/trouble-signing-in/face-or-touch-unlock/

@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Face or touch unlock
+title: Issues with face or touch unlock
 meta_title: Issues with face or touch unlock
 category: trouble-signing-in
 permalink: /help/trouble-signing-in/face-or-touch-unlock/
