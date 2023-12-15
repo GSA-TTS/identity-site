@@ -48,7 +48,9 @@ El desbloqueo facial o táctil le permite acceder escaneando su cara o huella da
  
 Cuando elija configurar el desbloqueo facial o táctil, empezará configurando una credencial basada en el rostro o la huella dactilar. Esta credencial se guardará en su dispositivo, o en la nube si utiliza un navegador y un dispositivo compatibles.
 
-Si su credencial se guarda en la nube, podrá autenticarse utilizando el desbloqueo facial o táctil en varios dispositivos.
+Suponiendo que su credencial solo se guarde en su dispositivo, deberá utilizar siempre el mismo dispositivo y navegador para acceder a Login.gov con desbloqueo facial o táctil. Si su credencial se guarda en la nube, podrá autenticarse utilizando el desbloqueo facial o táctil en varios dispositivos.
+
+Le recomendamos vivamente que añada un segundo método de autenticación por si cambia o pierde su dispositivo. Si pierde el acceso a su único método de autenticación, [deberá eliminar su cuenta y crear una nueva](/es/help/manage-your-account/delete-your-account/).
 
 ## Aplicaciones de autenticación
 

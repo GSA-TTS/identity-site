@@ -48,7 +48,9 @@ Le déverrouillage facial ou tactile vous permet de vous connecter en balayant v
 
 Lorsque vous choisissez de configurer le déverrouillage facial ou tactile, vous commencez par définir un identifiant basé sur le visage ou l'empreinte digitale. Cet identifiant sera enregistré sur votre appareil, ou sur le nuage si vous utilisez un navigateur et un appareil compatibles.
 
-Si votre identifiant est enregistré sur le nuage, vous pourrez vous authentifier à l'aide du déverrouillage facial ou tactile sur plusieurs appareils.
+En supposant que votre identifiant ne soit enregistré que sur votre appareil, vous devez toujours utiliser le même appareil et le même navigateur pour vous connecter à Login.gov avec le déverrouillage par empreinte faciale ou digitale. Si votre identifiant est enregistré sur le nuage, vous pourrez vous authentifier à l'aide du déverrouillage facial ou tactile sur plusieurs appareils.
+
+Nous vous recommandons vivement d’ajouter une deuxième méthode d’authentification au cas où vous changeriez ou perdriez votre appareil. Si vous perdez l’accès à votre seule méthode d’authentification, [vous devrez supprimer votre compte et en créer un nouveau](/fr/help/manage-your-account/delete-your-account/).
 
 ## Applications d'authentification
 
