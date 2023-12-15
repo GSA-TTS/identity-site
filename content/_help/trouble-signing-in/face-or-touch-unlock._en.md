@@ -71,13 +71,13 @@ Go to [secure.login.gov](https://secure.login.gov/) and click on "Create an acco
     **Important**: Depending on your device, you may be prompted for additional information such as a PIN, pattern, or QR code. Follow the directions on your screen to finish setting up face or touch unlock. The following are screenshots of possible prompts you may encounter:
 
     <div class="grid-row grid-gap">
-        <div class="tablet:grid-col">
+        <div class="grid-row">
             <img alt="Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot of a screen lock PIN prompt" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/android-screen-lock.png" />
         </div>
-        <div class="tablet:grid-col">
+        <div class="grid-row margin-y-5">
             <img alt="Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot with a passkey message that allows users to choose between using iCloud keychain or or a phone or tablet" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/iphone-screen-lock.png" />
         </div>
-        <div class="tablet:grid-col">
+        <div class="grid-row">
             <img alt="Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot of a QR code" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/passkey-screen-shot.png" />
         </div>
     </div>
