@@ -53,7 +53,7 @@ When you choose to set up face or touch unlock, you’ll start by setting up a f
 
 Assuming your credential is only saved to your device, you must always use the same device and browser to authenticate with Login.gov using face or touch unlock. If your credential is saved to the cloud, you will be able to authenticate using face or touch unlock across multiple devices.
 
-We strongly recommend you add a second authentication method in case you change or lose your device. If you lose access to your only authentication method, you will need to [delete your account and create a new one.](/help/manage-your-account/delete-your-account/).
+We strongly recommend you add a second authentication method in case you change or lose your device. If you lose access to your only authentication method, you will need to [delete your account and create a new one](/help/manage-your-account/delete-your-account/).
 
 ## Authentication application
 
