@@ -65,16 +65,8 @@ Rendez-vous sur le site [secure.login.gov](https://secure.login.gov/) et cliquez
 5. Sur la page de configuration du déverrouillage facial ou tactile, cliquez sur le bouton continuer. Vous serez alors invité à vous authentifier à l'aide du déverrouillage facial ou tactile.
     **Important:** En fonction de votre appareil, vous pouvez être invité à fournir des informations supplémentaires, telles qu'un NIP, un schéma ou un code QR. Suivez les instructions qui s'affichent à l'écran pour terminer la configuration du déverrouillage facial ou tactile. Voici des captures d'écran des invites que vous pouvez rencontrer:
 
-    <div class="grid-row grid-gap">
-        <div class="tablet:grid-col">
-            <img alt="Exemple de requête pouvant être rencontrée lors de la configuration ou de l'utilisation du déverrouillage facial ou tactile: Capture d'écran d'un message PIN de verrouillage de l'écran" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/android-screen-lock.png" />
-        </div>
-        <div class="tablet:grid-col">
-            <img alt="Exemple de requête pouvant être rencontrée lors de la configuration ou de l'utilisation du déverrouillage facial ou tactile: Capture d'écran avec clé d'accès permettant à l'utilisateur de choisir entre un trousseau iCloud, un téléphone ou une tablette" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/iphone-screen-lock.png" />
-        </div>
-        <div class="tablet:grid-col">
-            <img alt="Exemple de requête pouvant être rencontrée lors de la configuration ou de l'utilisation du déverrouillage facial ou tactile: Capture d'écran du code-barres bidimensionnel" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/passkey-screen-shot.png" />
-        </div>
-    </div>
+    ![Exemple de requête pouvant être rencontrée lors de la configuration ou de l'utilisation du déverrouillage facial ou tactile: Capture d'écran d'un message PIN de verrouillage de l'écran](/assets/img/help/face-touch-unlock/android-screen-lock.png)
+    ![Exemple de requête pouvant être rencontrée lors de la configuration ou de l'utilisation du déverrouillage facial ou tactile: Capture d'écran avec clé d'accès permettant à l'utilisateur de choisir entre un trousseau iCloud, un téléphone ou une tablette](/assets/img/help/face-touch-unlock/iphone-screen-lock.png)
+    ![Exemple de requête pouvant être rencontrée lors de la configuration ou de l'utilisation du déverrouillage facial ou tactile: Capture d'écran du code-barres bidimensionnel](/assets/img/help/face-touch-unlock/passkey-screen-shot.png)
 
 6. Suivez les étapes pour configurer une autre méthode d’authentification.

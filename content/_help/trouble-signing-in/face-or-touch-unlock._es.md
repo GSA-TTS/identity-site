@@ -64,16 +64,8 @@ Vaya a [secure.login.gov](https://secure.login.gov/es) y haga clic en "Crear una
 4. En la página "Proteja su cuenta", seleccione desbloqueo facial o táctil.
 5. Introduzca un apodo del dispositivo para el desbloqueo facial o táctil.
     **Importante**: Dependiendo de su dispositivo, es posible que se le solicite información adicional como un PIN, un patrón o un código QR. Siga las indicaciones de la pantalla para ﬁnalizar la configuración del desbloqueo facial o táctil. A continuación se muestran capturas de pantalla de posibles avisos que puede encontrar.
+    ![Ejemplo de un aviso que puede aparecer al configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla de una solicitud de NIP de bloqueo de pantalla](/assets/img/help/face-touch-unlock/android-screen-lock.png){: .display-block}
+    ![Ejemplo de un aviso que puede aparecer al configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla con un mensaje de clave de acceso que permite a los usuarios elegir entre usar el llavero de iCloud o un celular o tablet](/assets/img/help/face-touch-unlock/iphone-screen-lock.png){: .display-block margin-top-5}
+    ![Ejemplo de un aviso que puede aparecer al configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla de un código QR](/assets/img/help/face-touch-unlock/passkey-screen-shot.png){: .display-block margin-top-5}
 
-    <div class="grid-row grid-gap">
-        <div class="tablet:grid-col">
-            <img alt="Ejemplo de un aviso que puede aparecer al configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla de una solicitud de NIP de bloqueo de pantalla" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/android-screen-lock.png" />
-        </div>
-        <div class="tablet:grid-col">
-            <img alt="Ejemplo de un aviso que puede aparecer al configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla con un mensaje de clave de acceso que permite a los usuarios elegir entre usar el llavero de iCloud o un celular o tablet" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/iphone-screen-lock.png" />
-        </div>
-        <div class="tablet:grid-col">
-            <img alt="Ejemplo de un aviso que puede aparecer al configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla de un código QR" src="{{ site.baseurl }}/assets/img/help/face-touch-unlock/passkey-screen-shot.png" />
-        </div>
-    </div>
 6. Al pulsar el botón "continuar", se le pedirá que se autentique mediante el desbloqueo facial o táctil.
