@@ -70,9 +70,9 @@ Go to [secure.login.gov](https://secure.login.gov/) and click on "Create an acco
 5. On the face or touch unlock set up page, click on the “continue” button. You will then be prompted to authenticate using face or touch unlock.
     **Important**: Depending on your device, you may be prompted for additional information such as a PIN, pattern, or QR code. Follow the directions on your screen to finish setting up face or touch unlock. The following are screenshots of possible prompts you may encounter:
 
-    ![Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot of a screen lock PIN prompt]({{ site.baseurl }}/assets/img/help/face-touch-unlock/android-screen-lock.png){: .display-block}
-    ![Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot with a passkey message that allows users to choose between using iCloud keychain or or a phone or tablet]({{ site.baseurl }}/assets/img/help/face-touch-unlock/iphone-screen-lock.png){: .display-block margin-top-5}
-    ![Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot of a QR code]({{ site.baseurl }}/assets/img/help/face-touch-unlock/passkey-screen-shot.png){: .display-block margin-top-5}
+    ![Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot of a screen lock PIN prompt](/assets/img/help/face-touch-unlock/android-screen-lock.png){: .display-block}
+    ![Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot with a passkey message that allows users to choose between using iCloud keychain or or a phone or tablet](/assets/img/help/face-touch-unlock/iphone-screen-lock.png){: .display-block margin-top-5}
+    ![Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot of a QR code](/assets/img/help/face-touch-unlock/passkey-screen-shot.png){: .display-block margin-top-5}
 6. Follow the steps to set up another authentication method.
 
  
