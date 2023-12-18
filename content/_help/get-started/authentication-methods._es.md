@@ -34,23 +34,23 @@ Además de su contraseña, es necesario que usted configure por lo menos un mét
 Le recomendamos que añada dos métodos de autenticación a su cuenta. Si pierde el acceso a su método de autenticación principal (por ejemplo, si pierde su teléfono), tendrá una segunda opción para acceder a su cuenta. Login.gov no podrá concederle acceso a su cuenta si se bloquea y/o pierde su método de autenticación. Si se bloquea, tendrá que eliminar su cuenta y crear una nueva.
 
 **Seguridad**
-Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como las llaves de seguridad, las tarjetas de Verificación de Identidad Personal (PIV), las Tarjetas de Acceso Común (CAC) y las aplicaciones de autenticación, son más seguros contra el phishing y el robo.
+Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como desbloqueo facial o táctil, las llaves de seguridad, y las tarjetas de Verificación de Identidad Personal (PIV), las Tarjetas de Acceso Común (CAC) son más seguros contra el phishing y el robo.
 
 ## Desbloqueo facial o táctil
 
 <div class="usa-alert usa-alert--info margin-bottom-4" role="status">
   <div class="usa-alert__body">
-    <p class="usa-alert__text">Solo verá esta opción si utiliza una computadora compatible. Es posible que tenga que acceder utilizando el mismo dispositivo cada vez si su computadora no admite guardar sus credenciales en la nube.</p>
+    <p class="usa-alert__text">Es posible que tenga que activar la sincronización con la nube en su dispositivo si desea utilizar el desbloqueo facial o táctil para acceder a Login.gov a través de varios dispositivos.</p>
   </div>
 </div>
 
-El desbloqueo facial o táctil le permite acceder mediante el escaneado de su cara o huella dactilar. Esto le permite autenticarse sin utilizar un código de un solo uso.
+El desbloqueo facial o táctil le permite acceder escaneando su cara o huella dactilar, ingresando su PIN o patrón, o escaneando un código QR. Esto le permite autenticarse sin utilizar un código de un solo uso.
  
-Cuando decida configurar el desbloqueo facial o táctil, empezará por configurar una credencial basada en su rostro o huella dactilar. Esta credencial se guardará en su dispositivo, o en la nube si utiliza un navegador y un dispositivo compatibles.
+Cuando elija configurar el desbloqueo facial o táctil, empezará configurando una credencial basada en el rostro o la huella dactilar. Esta credencial se guardará en su dispositivo, o en la nube si utiliza un navegador y un dispositivo compatibles.
 
-Suponiendo que su credencial solo se guarde en su dispositivo, deberá utilizar siempre el mismo dispositivo y navegador para acceder a Login.gov con desbloqueo facial o táctil. 
+Suponiendo que su credencial solo se guarde en su dispositivo, deberá utilizar siempre el mismo dispositivo y navegador para acceder a Login.gov con desbloqueo facial o táctil. Si su credencial se guarda en la nube, podrá autenticarse utilizando el desbloqueo facial o táctil en varios dispositivos.
 
-Le recomendamos vivamente que añada un segundo método de autenticación por si cambia o pierde su dispositivo. Si pierde el acceso a su único método de autenticación, [deberá eliminar su cuenta y crear una nueva.](/es/help/manage-your-account/delete-your-account/)
+Le recomendamos vivamente que añada un segundo método de autenticación por si cambia o pierde su dispositivo. Si pierde el acceso a su único método de autenticación, [deberá eliminar su cuenta y crear una nueva](/es/help/manage-your-account/delete-your-account/).
 
 ## Aplicaciones de autenticación
 
