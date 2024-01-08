@@ -26,6 +26,35 @@ make run
 
 You can then view the site in your browser at http://localhost:4000 .
 
+To get mock data for Post Office Search:
+
+Update identity-idp config/application.yml with:
+
+```
+in_person_public_address_search_enabled: true
+```
+
+Then, start identity-idp server locally:
+
+```
+make run
+```
+
+Next update identity-site _config.yml with:
+
+```
+po_search_locations_search_url: http://xxx.x.x.x:3000/api/usps_locations
+where xxx.x.x.x is the remote IP address in identity-idp
+```
+
+Then, start identity-site server locally:
+
+``
+make run
+```
+
+You can then view the site in your browser at http://localhost:4000/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/.
+
 To run specs:
 
 ```

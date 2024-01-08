@@ -1,0 +1,35 @@
+@use '../variables' as *;
+
+.find-a-participating-post-office {
+    .usa-collection {
+        list-style: none;
+        font-size: 1rem;
+        padding-left: 0rem;
+    }
+
+    .usa-collection li {
+        border-bottom: $border-style;
+    }
+
+    .usa-collection__body {
+        margin: 24px 0px;
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .usa-collection__heading {
+        line-height: 1.68rem;
+        font-size: 1.125rem;
+    }
+
+    .usa-collection__body h4 {
+        margin-top: 0.5rem;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .usa-collection__body h4 ~ div {
+        margin-top: 0rem;
+    }
+}
