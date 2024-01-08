@@ -52,6 +52,7 @@ Then, start identity-site server locally:
 ``
 make run
 ```
+
 You can then view the site in your browser at http://localhost:4000/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/.
 
 To run specs:
