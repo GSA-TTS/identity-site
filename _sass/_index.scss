@@ -4,10 +4,11 @@
 @forward 'mixins/all';
 @forward 'components/all';
 
+@forward 'pages/create_an_account';
+@forward 'pages/find_a_participating_post_office';
 @forward 'pages/home';
+@forward 'pages/not_found';
+@forward 'pages/partners';
+@forward 'pages/policy';
 @forward 'pages/what_is_login';
 @forward 'pages/who_uses_login';
-@forward 'pages/create_an_account';
-@forward 'pages/not_found';
-@forward 'pages/policy';
-@forward 'pages/partners';
