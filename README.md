@@ -49,7 +49,7 @@ where xxx.x.x.x is the remote IP address in identity-idp
 
 Then, start identity-site server locally:
 
-``
+```
 make run
 ```
 
