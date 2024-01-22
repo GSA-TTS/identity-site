@@ -28,7 +28,7 @@ You can use a prepaid cell phone to verify your identity. However, some prepaid 
 - Premium rate (toll) numbers
 
 ## If you cannot complete this step
-Select “Verify your address by mail instead.” You will have to wait to receive a letter in the mail and then follow the instructions to enter the code. 
+Select “Verify your address by mail instead.” You will have to wait 5 to 10 days to receive a letter in the mail and then follow the instructions to enter the verification code.
 
 ## Related articles
 

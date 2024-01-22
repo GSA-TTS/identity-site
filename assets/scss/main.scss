@@ -1,8 +1,8 @@
 @use 'uswds-core' with (
   $theme-utility-breakpoints: (
     'tablet': true,
-    'desktop': true
+    'desktop': true,
   )
 );
 @forward 'uswds';
-@forward '../../_sass';
+@forward '../../_sass/index';

@@ -49,7 +49,7 @@ right_for_you:
 
 who_we_work_with:
   heading: Who we work with
-  class: who_we_work_with
+  class: who-we-work-with
   label: Grid of logos for eight partner agencies.
   items:
     - image: partners/logos/sba.png

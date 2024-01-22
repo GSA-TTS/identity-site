@@ -36,6 +36,7 @@ contact_page:
   required: obligatoire
   support_request_form:
     agencies:
+      '.gov Registrar': Registre .gov
       'Central Intelligence Agency': Agence centrale de renseignement
       'Consumer Financial Protection Bureau': Bureau financier de la protection des consommateurs
       'Customs and Border Protection Jobs': Emplois dans le domaine des douanes et de la protection des frontières
@@ -44,13 +45,14 @@ contact_page:
       'Department of Defense': Département de la Défense
       'Department of Education': Département de l’Éducation
       'Department of Energy': Département de l’Energie
+      'Department of Homeland Security (DHS)': Département de la sécurité intérieure (DHS)
+      'Department of Justice (DOJ)': Département de la justice (DOJ)
       'Department of Labor': Département du Travail
       'Department of State': Département d’État
       'Department of the Interior': Département de l’Intérieur
       'Department of the Treasury': Département du Trésor
       'Department of Transportation': Département des Transports
       'Department of Veterans Affairs': Ministère des Anciens Combattants
-      'DOD Moves.mil (Homes or Office)': Move.mil de DOD (Résidences ou bureaux)
       'DOI ePermits': DOI ePermits
       'DOL Foreign Labor Application Gateway (FLAG)': DOL Foreign Labor Application Gateway (FLAG)
       'DOT Delphi eInvoicing': DOT Delphi eInvoicing
@@ -67,11 +69,14 @@ contact_page:
       'Housing and Urban Development': Logement et développement urbain
       'Internal Revenue Service (IRS)': L’Internal Revenue Service (IRS)
       'Library of Congress': Bibliothèque du Congrès
+      'MyTravelGov': Département d’État MyTravelGov
       'myTreasury': myTreasury
       'National Aeronautics and Space Administration': Administration Nationale de l’Espace et de l’Aéronautique
       'National Archives and Records Administration (NARA)': Archives nationales et administration des documents (NARA)
       'National Credit Union Administration (NCUA)': Administration nationale des coopératives de crédit (NCUA)
+      'National Endowment for the Humanities (NEH)': Fondation nationale pour les sciences humaines (NEH)
       'National Labor Relations Board': Commission nationale des relations de travail
+      'Office of Personnel Management': Bureau de la gestion du personnel (OPM)
       'OPM Employee Express': OPM Employé Express
       'OPM Services Online': 'Services OPM en ligne'
       'Pay.gov': Pay.gov
@@ -81,7 +86,8 @@ contact_page:
       'SBA DLAP': SBA DLAP
       'Securities and Exchange Commission': Commission des valeurs mobilières des États-Unis
       'Social Security Administration (SSA)': Administration de la sécurité sociale (SSA)
-      'State of Arkansas': État de l'Arkansas
+      'State of Arkansas': État de l’Arkansas
+      'State of Colorado': État de Colorado
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programmes pour voyageurs de confiance (Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': Agence américaine pour le développement international
       'U.S. Department of Agriculture': Département de l’agriculture des États-Unis

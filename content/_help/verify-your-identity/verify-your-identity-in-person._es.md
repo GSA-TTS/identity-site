@@ -15,7 +15,7 @@ Tenga preparada la siguiente información para ingresarla en Login.gov:
 1. Su documento de identidad emitido por su estado. [¿No tiene un documento de identidad estatal?](/es/help/verify-your-identity/accepted-state-issued-identification/)
 2. Número de Seguridad Social.
 3. Su número de teléfono
-   a. Cuando no pueda hacer este paso, le enviaremos un código único por correo, el cual puede demorar aproximadamente de 3 a 5 días. 
+   a. Cuando no pueda hacer este paso, [le enviaremos un código de verificación por correo](/es/help/verify-your-identity/verify-your-address-by-mail/), lo que tarda entre 5 y 10 días.
 
 Si no puede completar alguno de estos pasos, póngase en contacto con el centro de ayuda de la agencia asociada para obtener ayuda.
 
@@ -42,7 +42,9 @@ Hasta entonces, póngase en contacto con el centro de ayuda de la agencia asocia
 
 ### La verificación de identidad en persona está disponible en las oficinas adheridas de Estados Unidos y algunos de sus territorios*. 
 
-Puede buscar una oficina de correos adherida al iniciar el proceso en Login.gov. Una vez que esté listo para verificar su identidad, podrá ir a cualquier oficina de correos donde esté disponible la verificación en persona.
+Cuando comience el proceso en [Login.gov](https://secure.login.gov/es/), le ayudaremos a encontrar una lista de las oficinas de correos participantes cercanas a su domicilio. También puede [buscar una oficina de correos cercana en nuestro centro de ayuda](/es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/).
+
+Una vez que haya recibido un código de barras en línea, podrá acudir a cualquier oficina de correos donde esté disponible la verificación en persona.
 
 **\* Territorios de Estados Unidos disponibles:** Islas Vírgenes de Estados Unidos, Samoa Americana, Guam, Puerto Rico y las Islas Marianas del Norte.
 

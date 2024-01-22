@@ -29,6 +29,7 @@ RSpec.describe 'all pages' do
       it 'includes analytics tags' do
         expect(doc.to_s).to include('https://www.google-analytics.com/analytics.js')
         expect(doc.to_s).to include('https://dap.digitalgov.gov')
+        expect(doc.to_s).to include('https://www.googletagmanager.com/gtag/js')
       end
 
       it 'has a title' do
@@ -51,7 +52,7 @@ RSpec.describe 'all pages' do
         end
       end
 
-      xit 'links to valid headings' do
+      it 'links to valid headings' do
         expect(doc).to link_to_valid_headers
       end
 

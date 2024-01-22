@@ -16,7 +16,7 @@ Please have the following information ready to enter on Login.gov:
 1. Your State-Issued ID. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification/)
 2. Social Security Number
 3. Your phone number
-   a. If you cannot complete this step, we can send you a one-time code by mail which takes approximately 3-5 days.
+   a. If you cannot complete this step, we can [send you a verification code by mail](/help/verify-your-identity/verify-your-address-by-mail/) which takes 5 to 10 days to arrive.
 
 If you’re unable to complete any of these steps, please contact the partner agency’s help center for support.   
 
@@ -43,7 +43,9 @@ In the meantime, please contact the partner agency’s help center to find out w
 
 ### In-Person Proofing is available at participating locations across the U.S. and some U.S. territories.*
 
-You can search for a participating Post Office when you start the process on Login.gov. Once you’re ready to verify, you can go to any Post Office where In-Person Proofing is available.
+When you start the process on [Login.gov](https://secure.login.gov/), we’ll help you find a list of participating Post Offices near you. You can also [search for a Post Office near you in our Help Center](/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/).
+
+Once you’ve received a barcode online, you can go to any Post Office where In-Person Proofing is available.
 
 **\* Available U.S. Territories:** U.S. Virgin Islands, American Samoa, Guam, Puerto Rico and the Northern Mariana Islands.
 

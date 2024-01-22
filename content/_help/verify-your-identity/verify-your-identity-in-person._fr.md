@@ -15,7 +15,7 @@ Veuillez préparer les informations suivantes pour les saisir sur Login.gov :
 1. Votre carte d'identité délivrée par l'État. [Vous n'avez pas de carte d'identité délivrée par l'État?](/fr/help/verify-your-identity/accepted-state-issued-identification/)
 2. Votre numéro de sécurité sociale
 3. Votre numéro de téléphone
-   a. Si vous ne pouvez pas effectuer cette étape, nous pouvons vous envoyer un code à usage unique par courrier, ce qui prend environ 3 à 5 jours.
+   a. Si vous ne pouvez pas effectuer cette étape, nous pouvons [vous envoyer un code de vérification par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/), ce qui prend 5 à 10 jours.
 
 Si vous ne parvenez pas à effectuer l'une de ces étapes, veuillez contacter le centre d'assistance de l'agence partenaire pour obtenir de l'aide.   
 
@@ -41,7 +41,9 @@ En attendant, veuillez contacter le centre d'assistance de l'agence partenaire p
 
 ### La vérification en personne est disponible dans les établissements participants aux États-Unis et dans certains territoires américains.* 
 
-Vous pouvez rechercher un bureau de poste participant lorsque vous lancez la procédure sur Login.gov. Dès que vous êtes prêt à la vérification, vous pouvez vous rendre dans n'importe quel bureau de poste où la vérification en personne est disponible.
+Lorsque vous lancez la procédure sur [Login.gov](https://secure.login.gov/fr), nous vous aidons à trouver une liste des bureaux de poste participants près de chez vous. Vous pouvez également [rechercher un bureau de poste voisin de votre domicile dans notre Centre d’aide](/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/).
+
+Une fois que vous avez reçu un code-barres en ligne, vous pouvez vous rendre dans n’importe quel bureau de poste où la vérification en personne est possible.
 
 **\*Territoires américains disponibles:** Îles Vierges américaines, Samoa américaines, Guam, Porto Rico et Îles Mariannes du Nord.
 

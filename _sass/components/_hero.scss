@@ -3,8 +3,13 @@
 @use '../variables' as *;
 
 .hero {
-  padding-top: $container-spacing-sm;
-  padding-bottom: $container-spacing-sm;
+  @include at-media('tablet') {
+    height: 16rem;
+  }
+
+  @include at-media('desktop') {
+    height: 20rem;
+  }
 
   .hero__description,
   .hero__title {
@@ -29,20 +34,6 @@
     @include at-media('desktop') {
       font-size: 1.25rem; // 20px
     }
-  }
-}
-
-.hero--search {
-  height: 14rem;
-}
-
-.hero {
-  padding: 0;
-  @include at-media('tablet') {
-    height: 16rem;
-  }
-  @include at-media('desktop') {
-    height: 20rem;
   }
 
   > .container {

@@ -19,7 +19,6 @@ contact_form_orgid: '00DU0000000Leux'
 # Contact page phone number enabled (overridden in Cloud.gov Pages)
 contact_phone_number_enabled: false
 contact_phone_number: ''
-contact_phone_number_location: 'bottom' # acceptable values are 'top' and 'bottom'
 
 # Contact page maintenance window
 contact_maintenance_start_time: null
@@ -29,6 +28,9 @@ contact_maintenance_phone_available: true
 # Unplanned outage configuration
 contact_unplanned_outage: false
 contact_unplanned_outage_phone_available: false
+
+# GSA Office of Strategic Communication (OSC) Google Analytics
+osc_analytics_ga_measurement_id: null
 
 # Used to load country code support
 idp_base_url: https://secure.login.gov
@@ -95,10 +97,6 @@ defaults:
       path: 'content/**/*/*._fr.md'
     values:
       lang: fr
-  - scope:
-      path: 'content/_help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office.*.md'
-    values:
-      exclude: true
 
 include:
   # dotfiles are excluded by default
@@ -106,7 +104,7 @@ include:
   - docs/accessibility-assessment-ial1-account-creation.pdf
   - docs/identity-verification-report.docx
   - docs/identity-verification-report.pdf
-  - docs/login-gov-roadmap-may-2023.pdf
+  - docs/login-gov-roadmap-november-2023.pdf
 
 exclude:
   - babel.config.json
@@ -151,7 +149,6 @@ help_pages:
 
 url: https://www.login.gov
 
-show_po_search: false
 po_search_address_search_url: https://idp.dev.identitysandbox.gov/api/address_search
 po_search_locations_search_url: https://idp.dev.identitysandbox.gov/api/usps_locations
 skip_idp_translations: true

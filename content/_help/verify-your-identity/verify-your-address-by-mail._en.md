@@ -10,19 +10,21 @@ redirect_from:
   - /help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 ---
 
-Identity verification is the process where you prove you are you - and not someone pretending to be you. One step in this process requires you to provide your primary phone number to verify your identity.
+Identity verification is the process where you prove you are you - and not someone pretending to be you.  If you cannot [verify your phone number](/help/verify-your-identity/phone-number/), you can use your address to verify by mail instead. You will get a letter in the mail with a verification code to finish verifying your identity.
 
-If you cannot verify by phone, we will mail you a letter with a one-time code. You will use this code to finish verifying your identity and setting up your account.
+We send the letter to an address that we have verified and associated with you. If you need to change this address, you will need to start over and verify your identity again with the new address.
 
-The letter is sent via the U.S. Postal Service three to seven business days after you request the code. The one-time code will expire 30 days after the date when you submit your request.
+Letters are sent the next business day via USPS First-Class Mail. The verification code will expire 30 days after the date when you submit your request.
 
-If you do not receive your letter, or your one-time code expires before you finish the identity verification process, you can request a new one-time code.
+## Request a new verification code if:
 
-## To request a new code
+ * You don't get your letter within 5 to 10 days
+ * Your verification code has expired
 
+To request a new verification code:
 {: .number-list}
 1. Go to [https://secure.login.gov](https://secure.login.gov/).  
-2. Select “Send me a new one-time code” when asked to enter your code.
+2. Select “Send me another letter” when asked to enter your code.
 
 ## Related articles
 - [Verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
