@@ -5,7 +5,7 @@ category: specific-agencies
 permalink: /fr/help/specific-agencies/ssa/
 order: 3
 ---
-Login.gov ne peut répondre qu'aux questions liées au processus de connexion et à la création d'un compte sur Login.gov. Votre compte Login.gov n'a aucune incidence et ne contient aucune information sur [votre carte/numéro de sécurité sociale](https://www.ssa.gov/) ou vos prestations sociales.
+Login.gov est réservé à l’identification sécurisée. Votre compte Login.gov n'a aucune incidence et ne contient aucune information sur [votre carte/numéro de sécurité sociale](https://www.ssa.gov/) ou vos prestations sociales.
 
 Veuillez ne pas envoyer à Login.gov de données sensibles vous concernant ou de numéros d'identification.
 
