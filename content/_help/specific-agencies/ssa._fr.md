@@ -6,7 +6,7 @@ permalink: /fr/help/specific-agencies/ssa/
 keywords: sécurité sociale, prestations liées à la sécurité sociale, carte de sécurité sociale de remplacement, carte de sécurité sociale, SSA, remplacement de carte de sécurité sociale, relevé de sécurité sociale, remplacer une carte de sécurité sociale, nouvelle carte de sécurité sociale, nouvelle carte, carte de remplacement, relevé de sécurité sociale, compte de sécurité sociale, administration de la sécurité sociale, ssa.gov, j’ai besoin d’une nouvelle carte de sécurité sociale
 order: 3
 ---
-Login.gov ne peut répondre qu'aux questions concernant la création d'un compte Login.gov et le processus de connexion. Votre compte Login.gov n'a aucune incidence et ne contient aucune information sur votre carte ou numéro de [sécurité sociale](https://www.ssa.gov/) ou sur les prestations sociales qui y sont liées.
+Login.gov est réservé à l’identification sécurisée. Votre compte Login.gov n'a aucune incidence et ne contient aucune information sur [votre carte/numéro de sécurité sociale](https://www.ssa.gov/) ou vos prestations sociales.
 
 Veuillez ne pas envoyer à Login.gov de données sensibles vous concernant ou de numéros d'identification.
 
