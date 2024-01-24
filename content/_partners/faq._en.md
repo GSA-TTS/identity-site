@@ -92,7 +92,7 @@ logistics_accordion:
         content: >-
             At this time, only the following state-issued identification is accepted: 
     
-            - Driver’s license from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, Mariana Islands and Puerto Rico)
+            - Driver’s license from all 50 states, the District of Columbia (DC), and other U.S. territories (American Samoa, Guam, U.S. Virgin Islands, Mariana Islands and Puerto Rico)
 
             - A non-driver’s license state-issued ID card
               - This is an identity document issued by the state/U.S. territory that asserts identity but does not give driving privileges.
