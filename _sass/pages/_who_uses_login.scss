@@ -2,7 +2,7 @@
 @use '../variables' as *;
 
 #our-partners {
-  line-height: $line-height;
+  line-height: line-height($theme-body-font-family, $theme-body-line-height);
 }
 
 .container.who-uses-login {
@@ -21,7 +21,7 @@
     > p {
       flex-basis: 0;
       flex-grow: 1;
-      line-height: $line-height;
+      line-height: line-height($theme-body-font-family, $theme-body-line-height);
 
       &:first-child {
         background: url(../img/who-uses-login/icon-shield/icon-shield.svg) left top no-repeat;

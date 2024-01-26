@@ -1,7 +1,7 @@
 @use 'uswds-core' as *;
 
 .usa-table--sticky-header,
-.page-content__prose .usa-table--sticky-header {
+.usa-prose .usa-table--sticky-header {
   position: relative;
 
   .usa-table__header--sticky,

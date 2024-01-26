@@ -13,7 +13,7 @@ ul.help-question-list {
   margin-left: 0;
 
   &,
-  .page-content__prose & {
+  .usa-prose & {
     padding-left: 0;
   }
 
@@ -24,7 +24,10 @@ ul.help-question-list {
 
     &::before {
       @include u-pin-left;
-      top: math.div(rem-to-px($line-height) - 25px, 2);
+      top: math.div(
+        ($base-font-size * line-height($theme-body-font-family, $theme-body-line-height)) - 25px,
+        2
+      );
       background-color: $navy;
       border-radius: 50%;
       color: $white;
