@@ -37,7 +37,6 @@ contact_page:
   required: requerido
   support_request_form:
     agencies:
-      '.gov Registrar': Registrador .gov
       'Central Intelligence Agency': Agence centrale de renseignement
       'Consumer Financial Protection Bureau': Oficina para la Protección Financiera del Consumidor
       'Customs and Border Protection Jobs': Trabajos en Aduanas y Protección de Fronteras
@@ -66,6 +65,7 @@ contact_page:
         resoluciones de solicitudes de la Corporación Federal de Seguro de
         Depósitos (FDIC)
       'FEMA Disaster Assistance': Asistencia de FEMA en caso de catástrofe
+      'Get .gov': Get .gov
       'General Services Administration': Administración de Servicios Generales
       'GSA Sam.gov': GSA SAM.gov
       'Health and Human Services': Departamento de Salud y Servicios Humanos
