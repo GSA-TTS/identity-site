@@ -34,7 +34,6 @@ contact_page:
   required: required
   support_request_form:
     agencies:
-      '.gov Registrar': .gov Registrar
       'Central Intelligence Agency': Central Intelligence Agency
       'Consumer Financial Protection Bureau': Consumer Financial Protection Bureau
       'Customs and Border Protection Jobs': Customs and Border Protection Jobs
@@ -60,6 +59,7 @@ contact_page:
       'FDIC Resolution Request Management Portal': FDIC Resolution Request Management Portal
       'FEMA Disaster Assistance': FEMA Disaster Assistance
       'General Services Administration': General Services Administration
+      'Get .gov': Get .gov
       'GSA Sam.gov': GSA SAM.gov
       'Health and Human Services': Health and Human Services
       'HHS Grants.gov': HHS Grants.gov
