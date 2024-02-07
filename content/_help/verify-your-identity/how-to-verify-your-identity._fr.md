@@ -5,7 +5,6 @@ permalink: /fr/help/verify-your-identity/how-to-verify-your-identity/
 order: 1
 redirect_from:
   - /fr/help/identity-verification/how-do-i-verify-my-identity-on-logingov/
-  - /fr/help/verify-your-identity/
   - /fr/help/verifying-your-identity/how-to-verify-my-identity/
 ---
 

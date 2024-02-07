@@ -5,6 +5,7 @@ permalink: /es/help/verify-your-identity/overview/
 meta_title: Información general
 order: 0
 redirect_from:
+  - /es/help/verify-your-identity/
   - /es/help/identity-verification/i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them/
   - /es/help/identity-verification/related-articles/
   - /es/help/identity-verification/why-do-i-need-to-verify-my-identity/
