@@ -10,6 +10,7 @@ class PuppeteerEnvironment extends NodeEnvironment {
       }),
     ]);
 
+    this.global.browser = browser;
     this.global.page = await browser.newPage();
   }
 

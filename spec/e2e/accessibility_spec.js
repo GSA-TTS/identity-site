@@ -1,6 +1,6 @@
 import { AxePuppeteer } from '@axe-core/puppeteer';
 import { toHaveNoViolations } from 'jest-axe';
-import { page, goto } from './support/browser';
+import { page as globalPage, goto } from './support/browser';
 import { getCandidateLinks, toNotHaveTargetBlank } from './support/target-blank';
 
 expect.extend(toHaveNoViolations);
@@ -27,22 +27,12 @@ describe('accessibility', () => {
 
   for (const [label, viewport] of Object.entries(viewports)) {
     describe(`${label} viewport`, () => {
-      /** @type {import('puppeteer').Viewport} */
-      let originalViewport;
-
-      beforeAll(async () => {
-        originalViewport = page.viewport();
-        await page.setViewport(viewport);
-      });
-
-      afterAll(async () => {
-        await page.setViewport(originalViewport);
-      });
-
-      test.each(paths)(
+      test.concurrent.each(paths)(
         '%s',
         async (path) => {
-          await goto(path);
+          const page = await global.browser.newPage();
+          await page.setViewport(viewport);
+          await page.goto(new URL(path, process.env.ROOT_URL).toString());
           const runner = new AxePuppeteer(page).disableRules('frame-tested').disableFrame('*');
 
           const results = await runner.analyze();
@@ -50,6 +40,7 @@ describe('accessibility', () => {
 
           const links = await getCandidateLinks(page);
           links.forEach((a) => expect(a).toNotHaveTargetBlank());
+          await page.close();
         },
         TEST_TIMEOUT_MS,
       );
@@ -59,10 +50,10 @@ describe('accessibility', () => {
   describe('"Back to top" link', () => {
     it('resets focus to the beginning of content', async () => {
       await goto('/about-us/');
-      const backToTopLinkHandle = await page.$('.page-content__prose .anchor-to-top');
+      const backToTopLinkHandle = await globalPage.$('.page-content__prose .anchor-to-top');
       await backToTopLinkHandle.click();
-      await page.keyboard.press('Tab');
-      const isFocusBeforeBackToTop = await page.evaluate(
+      await globalPage.keyboard.press('Tab');
+      const isFocusBeforeBackToTop = await globalPage.evaluate(
         (backToTopLink) =>
           backToTopLink.compareDocumentPosition(document.activeElement) ===
           Node.DOCUMENT_POSITION_PRECEDING,
