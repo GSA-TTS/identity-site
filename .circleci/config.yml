@@ -76,7 +76,7 @@ jobs:
           at: '.'
       - run:
           name: run end-to-end tests
-          command: npm run test:e2e
+          command: npm run test:jest
 
   accessibility:
     docker:
