@@ -87,6 +87,7 @@ jobs:
   accessibility:
     docker:
       - image: cimg/ruby:3.1-browsers
+    parallelism: 4
     steps:
       - checkout
       - install-dependencies
@@ -94,7 +95,7 @@ jobs:
           at: '.'
       - run:
           name: run accessibility tests
-          command: npm run test:accessibility
+          command: SHARD="$((${CIRCLE_NODE_INDEX}+1))" npm run test:accessibility -- --test-shard=${SHARD}/${CIRCLE_NODE_TOTAL}
 
   lint-js:
     docker:
