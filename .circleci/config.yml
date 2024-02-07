@@ -82,7 +82,7 @@ jobs:
           at: '.'
       - run:
           name: run end-to-end tests
-          command: npm run test:js
+          command: npm run test:e2e
 
   accessibility:
     docker:
