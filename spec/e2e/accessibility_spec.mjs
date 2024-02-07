@@ -44,7 +44,7 @@ describe('accessibility', () => {
   };
 
   for (const [label, viewport] of Object.entries(viewports)) {
-    describe(`${label} viewport`, { concurrency: 8 }, () => {
+    describe(`${label} viewport`, { concurrency: 6 }, () => {
       /** @type {import('puppeteer').Browser} */
       let browser;
 
