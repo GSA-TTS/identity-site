@@ -75,8 +75,6 @@ jobs:
   e2e:
     docker:
       - image: cimg/ruby:3.1-browsers
-    environment:
-      SKIP_BUILD: true
     steps:
       - checkout
       - install-dependencies
@@ -84,7 +82,19 @@ jobs:
           at: '.'
       - run:
           name: run end-to-end tests
-          command: npm test
+          command: npm run test:js
+
+  accessibility:
+    docker:
+      - image: cimg/ruby:3.1-browsers
+    steps:
+      - checkout
+      - install-dependencies
+      - attach_workspace:
+          at: '.'
+      - run:
+          name: run accessibility tests
+          command: npm run test:accessibility
 
   lint-js:
     docker:
@@ -198,6 +208,9 @@ workflows:
           requires:
             - build
       - e2e:
+          requires:
+            - build
+      - accessibility:
           requires:
             - build
       - nu:

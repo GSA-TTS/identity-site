@@ -1,6 +1,6 @@
 import puppeteer from 'puppeteer';
-import serve from './serve';
-import crawl from './crawl';
+import serve from './serve.cjs';
+import crawl from './crawl.cjs';
 
 export default () =>
   Promise.all([
@@ -18,6 +18,6 @@ export default () =>
       const rootURL = `http://localhost:${port}`;
 
       process.env.ROOT_URL = rootURL;
-      process.env.ALL_URLS = JSON.stringify(await crawl(new URL('sitemap.xml', rootURL)));
+      process.env.ALL_URLS = JSON.stringify(await crawl('_site/sitemap.xml'));
     }),
   ]);

@@ -15,8 +15,10 @@
     "lint:js": "eslint .",
     "lint:css": "stylelint '_sass/**/*.scss' 'assets/scss/**/*.scss'",
     "typecheck": "tsc",
-    "pretest": "if [ -z $SKIP_BUILD ]; then make build; fi",
-    "test": "BABEL_ENV=test jest"
+    "test:jest": "BABEL_ENV=test jest",
+    "test:accessibility": "node --test spec/e2e/accessibility_spec.mjs",
+    "pretest": "make build",
+    "test": "concurrently \"npm:test:*\""
   },
   "repository": {
     "type": "git",
