@@ -40,6 +40,7 @@ describe('accessibility', () => {
 
           const links = await getCandidateLinks(page);
           links.forEach((a) => expect(a).toNotHaveTargetBlank());
+          await page.close();
         },
         TEST_TIMEOUT_MS,
       );
