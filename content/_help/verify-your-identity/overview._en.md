@@ -6,6 +6,7 @@ permalink: /help/verify-your-identity/overview/
 meta_title: Overview
 order: 0
 redirect_from:
+  - /help/verify-your-identity/
   - /en/help/verify-your-identity/
   - /en/help/verify-your-identity/overview/
   - /help/identity-verification/i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them/

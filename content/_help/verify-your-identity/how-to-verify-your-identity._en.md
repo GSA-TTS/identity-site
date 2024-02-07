@@ -7,7 +7,6 @@ order: 1
 redirect_from:
   - /en/help/verify-your-identity/how-to-verify-your-identity/
   - /help/identity-verification/how-do-i-verify-my-identity-on-logingov/
-  - /help/verify-your-identity/
   - /help/verifying-your-identity/how-to-verify-my-identity/
 ---
 
