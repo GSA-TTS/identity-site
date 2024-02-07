@@ -7,10 +7,7 @@ commands:
     steps:
       - restore_cache:
           keys:
-            - v3-dependencies-{{ checksum "Gemfile.lock" }}
-      - restore_cache:
-          keys:
-            - v2-dependencies-{{ checksum "package-lock.json" }}
+            - dependencies-{{ checksum "package-lock.json" }}-{{ checksum "Gemfile.lock" }}
       - run:
           name: Switch Node.js version
           command: |
@@ -27,12 +24,9 @@ commands:
             bundle install --jobs=4 --retry=3
       - save_cache:
           paths:
+            - ~/.npm
             - ./vendor/bundle
-          key: v3-dependencies-{{ checksum "Gemfile.lock" }}
-      - save_cache:
-          paths:
-            - ./node_modules
-          key: v2-dependencies-{{ checksum "package-lock.json" }}
+          key: dependencies-{{ checksum "package-lock.json" }}-{{ checksum "Gemfile.lock" }}
   build-site:
     steps:
       - run:
