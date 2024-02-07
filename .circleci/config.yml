@@ -95,7 +95,7 @@ jobs:
           at: '.'
       - run:
           name: run accessibility tests
-          command: SHARD="$((${CIRCLE_NODE_INDEX}+1))"; npm run test:accessibility -- --test-shard=${SHARD}/${CIRCLE_NODE_TOTAL}
+          command: SHARD="$((${CIRCLE_NODE_INDEX}+1))"; node --test --test-shard=${SHARD}/${CIRCLE_NODE_TOTAL} spec/e2e/accessibility_spec.mjs
 
   lint-js:
     docker:
