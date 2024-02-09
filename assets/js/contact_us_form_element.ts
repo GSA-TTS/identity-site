@@ -39,6 +39,8 @@ class ContactUsFormElement extends HTMLElement {
     if (this.isInMaintenanceWindow) {
       this.showAlert();
       this.hide();
+    } else {
+      this.removeAlert();
     }
   }
 
@@ -79,6 +81,10 @@ class ContactUsFormElement extends HTMLElement {
     deepReplace(this.maintenanceAlert, '%{start_time}', formatDate(this.maintenanceStartTime!));
     deepReplace(this.maintenanceAlert, '%{end_time}', formatDate(this.maintenanceEndTime!));
     this.maintenanceAlert.removeAttribute('hidden');
+  }
+
+  removeAlert() {
+    this.maintenanceAlert?.remove();
   }
 
   hide() {
