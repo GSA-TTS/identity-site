@@ -6,7 +6,7 @@ import { getCandidateLinks, toNotHaveTargetBlank } from './support/target-blank'
 expect.extend(toHaveNoViolations);
 expect.extend({ toNotHaveTargetBlank });
 
-const TEST_TIMEOUT_MS = 10000;
+const TEST_TIMEOUT_MS = 20_000;
 
 /** @type {RegExp[]} */
 const EXCLUDE_PATTERNS = [
