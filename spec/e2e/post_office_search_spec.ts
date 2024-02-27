@@ -11,7 +11,7 @@ describe('PO search page', () => {
     await goto('/help/verify-your-identity/overview/');
 
     const link = await page.waitForSelector(
-      'a[href="/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/"]'
+      'xpath///a[contains(text(),"Find a Participating Post Office")]',
     );
 
     expect(link).not.toBeUndefined();
