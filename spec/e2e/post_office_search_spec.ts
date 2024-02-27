@@ -10,9 +10,8 @@ describe('PO search page', () => {
   it('is accessible from the side menu', async () => {
     await goto('/help/verify-your-identity/overview/');
 
-    const link = await page.waitForXPath(
-      '//a[contains(text(),"Find a Participating Post Office")]',
-      { timeout: 1000 },
+    const link = await page.waitForSelector(
+      'xpath///a[contains(text(),"Find a Participating Post Office")]',
     );
 
     expect(link).not.toBeUndefined();
