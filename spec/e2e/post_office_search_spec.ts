@@ -10,9 +10,8 @@ describe('PO search page', () => {
   it('is accessible from the side menu', async () => {
     await goto('/help/verify-your-identity/overview/');
 
-    const link = await page.waitForXPath(
-      '//a[contains(text(),"Find a Participating Post Office")]',
-      { timeout: 1000 },
+    const link = await page.waitForSelector(
+      'a[href="/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/"]'
     );
 
     expect(link).not.toBeUndefined();
