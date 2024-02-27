@@ -1,7 +1,7 @@
 module Jekyll
   module EscapeQuotes
     def escape_quotes(input = '')
-      input.gsub(/'/){ "\\'" }
+      input.gsub(/'/, "\\\\'")
     end
   end
 end
