@@ -6,8 +6,6 @@ import { getCandidateLinks, toNotHaveTargetBlank } from './support/target-blank'
 expect.extend(toHaveNoViolations);
 expect.extend({ toNotHaveTargetBlank });
 
-const TEST_TIMEOUT_MS = 10000;
-
 /** @type {RegExp[]} */
 const EXCLUDE_PATTERNS = [
   /\.pdf$/, // Puppeteer Chromium cannot preview PDF files
@@ -27,23 +25,19 @@ describe('accessibility', () => {
 
   for (const [label, viewport] of Object.entries(viewports)) {
     describe(`${label} viewport`, () => {
-      test.concurrent.each(paths)(
-        '%s',
-        async (path) => {
-          const page = await global.browser.newPage();
-          await page.setViewport(viewport);
-          await page.goto(new URL(path, process.env.ROOT_URL).toString());
-          const runner = new AxePuppeteer(page).disableRules('frame-tested').disableFrame('*');
+      test.concurrent.each(paths)('%s', async (path) => {
+        const page = await global.browser.newPage();
+        await page.setViewport(viewport);
+        await page.goto(new URL(path, process.env.ROOT_URL).toString());
+        const runner = new AxePuppeteer(page).disableRules('frame-tested').disableFrame('*');
 
-          const results = await runner.analyze();
-          expect(results).toHaveNoViolations();
+        const results = await runner.analyze();
+        expect(results).toHaveNoViolations();
 
-          const links = await getCandidateLinks(page);
-          links.forEach((a) => expect(a).toNotHaveTargetBlank());
-          await page.close();
-        },
-        TEST_TIMEOUT_MS,
-      );
+        const links = await getCandidateLinks(page);
+        links.forEach((a) => expect(a).toNotHaveTargetBlank());
+        await page.close();
+      });
     });
   }
 
