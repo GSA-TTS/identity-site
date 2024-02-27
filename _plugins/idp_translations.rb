@@ -54,8 +54,8 @@ module IDP
       IO.copy_stream(*args)
     end
 
-    def uri_open(*args)
-      URI.open(*args)
+    def uri_open(uri)
+      URI(uri).open
     end
   end
 end
