@@ -10,6 +10,7 @@ translations:
   in_person_proofing.body.location.po_search.you_must_start.link_text: 'Learn more about verifying your identity in person.'
   in_person_proofing.body.location.po_search.you_must_start.link: /help/verify-your-identity/verify-your-identity-in-person/
   in_person_proofing.body.location.po_search.you_must_start.message: 'You must start this process on %{app_name} before going to the Post Office.'
+  in_person_proofing.body.location.po_search.you_must_start.tag: 'Important message'
 ---
 
 {% include components/post-office-search.html %}
