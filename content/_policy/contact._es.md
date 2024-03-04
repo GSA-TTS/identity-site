@@ -1,44 +1,42 @@
 ---
-layout: contact_us
-sidenav: contact_us
-title: Contáctenos
-description: ¿Tiene alguna pregunta o problema con Login.gov?
+layout: contact_us 
+sidenav: contact_us 
+title: Contáctenos 
+description: ¿Tiene una pregunta o un problema con Login.gov? 
 intro_content: >-
-  ## Ponte en contacto
+  ## Póngase en contacto
 
-  * Póngase en contacto con la agencia gubernamental para que le ayude con el estado de su solicitud, la afiliación, la elegibilidad, los beneficios u otras preocupaciones relacionadas con su cuenta en esa agencia gubernamental. Puede encontrar la información de contacto en el sitio web de la agencia.
+* Contacte con la agencia gubernamental para que le ayude con el estado de su solicitud, membresía, cumplimiento de requisitos, beneficios u otros asuntos relacionados con su cuenta en esa agencia. La información de contacto se encuentra en el sitio web de la agencia.
 
+* Login.gov solo puede solucionar problemas relacionados con el inicio de sesión.
 
-  * Login.gov solo puede solucionar problemas relacionados con el ingreso.
-
-
-  * Login.gov no puede iniciar sesión, crear, eliminar o gestionar su cuenta en su nombre.
+* Login.gov no puede crear, eliminar o administrar su cuenta por usted, ni iniciar sesión en esa cuenta.
 
 help_center_content: >-
-  ## Encuentra las respuestas a las preguntas más frecuentes
+  ## Busque respuesta a las preguntas más frecuentes
 
     {: .help-question-list}
-  * [No puedo iniciar sesión en mi cuenta](/es/help/trouble-signing-in/overview/)
 
-  * [Necesito ayuda para verificar mi identidad](/es/help/verify-your-identity/overview/)
+  * [No puedo iniciar sesión en mi cuenta](/help/trouble-signing-in/overview/)
 
-  * [Necesito cambiar mi información o administrar mi cuenta](/es/help/manage-your-account/overview/)
+  * [Necesito ayuda para verificar mi identidad](/help/verify-your-identity/overview/)
 
-  * [Explorar más artículos de ayuda](/es/help/)
-maintenance_window_content: El centro de atención de Login.gov estará en mantenimiento desde <strong>%{start_time} y hasta %{end_time}</strong>. Consulte los temas comunes que aparecen a continuación para obtener ayuda.
-phone_available_content: Puede llamar a nuestro centro de asistencia en cualquier momento al (844) 875-6446.
-unplanned_outage_content: Debido a un problema técnico, no podemos revisar las solicitudes de asistencia en línea.
+  * [Necesito cambiar mi información o administrar mi cuenta](/help/manage-your-account/overview/)
+
+  * [Ver más artículos de ayuda](/help/) 
+maintenance_window_content: El centro de ayuda de Login.gov estará en mantenimiento de <strong>%{start_time} a %{end_time}</strong>. Consulte los temas comunes siguientes para obtener ayuda. phone_available_content: Puede llamar a nuestro centro de ayuda en cualquier momento al (844)&nbsp;875-6446. unplanned_outage_content: Debido a un problema técnico, no podemos revisar las solicitudes de ayuda en línea.
 partner_content: >-
-  ## Asociarse con Login.gov
+  ## Asóciese con Login.gov
 
-  ¿Está interesado en utilizar Login.gov en su agencia? [Visite el sitio web de nuestros socios](/partners/) o [póngase en contacto con nosotros](/partners/business-inquiries/).
+¿Está interesado en usar Login.gov en su agencia? [Visite el sitio web de nuestros asociados](/partners/) o [contacte con nosotros](/partners/business-inquiries/).
 
 report_issue_content: >-
-  ## Reportar un problema
+  ## Informe de un problema
 
-  Si deseas reportar un problema, consulta nuestra [política de divulgación de vulnerabilidades](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/ "Follow link") y contáctanos mediante nuestro [formulario de divulgación de vulnerabilidades](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Follow link").
-
+  Si desea informar de un problema, consulte nuestra [política de divulgación de vulnerabilidades](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/ "Vínculo de seguimiento") y contáctenos usando nuestro [formulario de divulgación de vulnerabilidades](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Vínculo de seguimiento"). 
 scripts:
   - /assets/js/contact.js
-permalink: /es/contact/
+permalink: /contact/
+redirect_from:
+  - /en/contact/
 ---

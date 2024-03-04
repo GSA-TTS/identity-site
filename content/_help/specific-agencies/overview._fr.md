@@ -1,47 +1,50 @@
 ---
-title: Aide aux agences spécifiques
-category: specific-agencies
-permalink: /fr/help/specific-agencies/overview/
-meta_title: Aide aux agences spécifiques
+layout: help 
+title: Aide concernant des organismes spécifiques 
+category: specific-agencies 
+permalink: /fr/help/specific-agencies/overview/ 
+meta_title: Aide concernant des organismes spécifiques 
 order: 0
 redirect_from:
-  - /fr/help/specific-agencies/
-  - /fr/help/specific-agencies/usajobs/
-  - /fr/help/usajobs/cant-sign-in-or-reset-my-password-usajobs-account/
-  - /fr/help/usajobs/gov-mil-edu-email-address/
-  - /fr/help/usajobs/how-to-receive-the-security-code/
-  - /fr/help/usajobs/my-usajobs-information-is-not-there/
-  - /fr/help/usajobs/profile-information/
-  - /fr/help/usajobs/security-code/
-  - /fr/help/usajobs/try-not-to-use-a-gov-mil-or-edu-email-address/
-  - /fr/help/usajobs/what-email-address-do-i-use/
-  - /fr/help/usajobs/what-email-address-should-i-use/
-  - /fr/help/usajobs/what-happens-to-my-profile/
-  - /fr/help/usajobs/what-will-happen-to-my-usajobs-profile/
+  - /en/help/specific-agencies/
+  - /en/help/specific-agencies/overview/
+  - /help/specific-agencies/
+  - /help/specific-agencies/usajobs/
+  - /help/usajobs/cant-sign-in-or-reset-my-password-usajobs-account/
+  - /help/usajobs/gov-mil-edu-email-address/
+  - /help/usajobs/how-to-receive-the-security-code/
+  - /help/usajobs/my-usajobs-information-is-not-there/
+  - /help/usajobs/profile-information/
+  - /help/usajobs/security-code/
+  - /help/usajobs/try-not-to-use-a-gov-mil-or-edu-email-address/
+  - /help/usajobs/what-email-address-do-i-use/
+  - /help/usajobs/what-email-address-should-i-use/
+  - /help/usajobs/what-happens-to-my-profile/
+  - /help/usajobs/what-will-happen-to-my-usajobs-profile/
 ---
 
-Login.gov est réservé à l'accès au compte et à l'ouverture de session. Ce compte n'affecte pas et ne contient aucune information relative à l'agence spécifique à laquelle vous essayez d'accéder.
+Login.gov est réservé à l'accès à votre compte et à l'ouverture d’une session. Ce compte n'affecte pas l'organisme spécifique auquel vous essayez d'accéder et ne contient aucune information sur celui-ci.
 
-Notre équipe d'assistance à la clientèle est là pour vous aider à répondre aux questions de Login.gov.
+Notre équipe de service client est disponible pour vous aider à répondre aux questions relatives à Login.gov.
 
-## Contactez Login.gov to:
+## Contactez Login.gov pour :
 * Vous aider à créer un compte Login.gov
-* Partager des informations sur les possibilités d'authentification
-* Vous aider à résoudre les raisons pour lesquelles vous ne pouvez pas accéder à votre compte
-* Vous fournir des instructions pour réinitialiser votre mot de passe ou supprimer votre compte
+* Vous fournir des informations sur les options qui s’offrent à vous en matière d'authentification
+* Vous aider à résoudre les problèmes vous empêchant d’accéder à votre compte
+* Vous donner des instructions afin de réinitialiser votre mot de passe ou supprimer votre compte
 
 Login.gov ne peut pas réinitialiser votre mot de passe, supprimer votre compte ou modifier les informations de votre compte.
 
-## Contactez l'agence partenaire pour:
-* Effectuer des tâches spécifiques à l'agence, comme télécharger votre CV, remplir des candidatures ou fixer un rendez-vous avec cette agence
-* Résoudre les problèmes techniques avec le site web d'une agence partenaire
-* Accédez aux informations spécifiques à votre agence telles que le statut de la demande, les services, l'éligibilité ou les paiements
+## Contactez l'organisme partenaire pour :
+* Effectuer des tâches spécifiques à l'organisme en question, comme téléverser votre CV, remplir des dossiers de candidature ou prendre un rendez-vous avec cet organisme
+* Résoudre les problèmes techniques relatifs au site Web de l’organisme partenaire
+* Accéder aux informations personnelles spécifiques à l’organisme en question (statut d’une candidature, services, admissibilité, paiements, etc.)
 
-Nous fournissons un contenu d'aide spécifique pour nos agences partenaires les plus importantes. Nous vous encourageons à contacter l'agence pour toute question spécifique.
+Nous fournissons un contenu d'aide spécifique pour nos organismes partenaires les plus importants. Pour toute question spécifique, nous vous encourageons à contacter l'organisme concerné.
 
 ## Sujets de dépannage courants
 
 {: .help-question-list}
-* [Comment se connecter à Login.gov](/fr/help/trouble-signing-in/how-to-sign-in/)
-* [Changer votre mot de passe](/fr/help/manage-your-account/change-your-password/)
-* [Mot de passe oublié](/fr/help/trouble-signing-in/forgot-your-password/)
+* [Comment se connecter à Login.gov](/help/trouble-signing-in/how-to-sign-in/)
+* [Modifier votre mot de passe](/help/manage-your-account/change-your-password/)
+* [Mot de passe oublié](/help/trouble-signing-in/forgot-your-password/)

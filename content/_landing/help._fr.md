@@ -1,9 +1,11 @@
 ---
-title: Aide
-description: Trouvez des réponses aux questions fréquentes concernant Login.gov.
+title: Aide 
+description: Trouvez des réponses aux questions fréquemment posées sur Login.gov. 
 layout: help_landing
-permalink: /fr/help/
+permalink: /help/
 hero: true
+redirect_from:
+  - /fr/help/
 ---
 <div class="container--mod grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-9 padding-bottom-1">
   <ul class="usa-card-group grid-row tablet:flex-align-center usa-list usa-list--unstyled">
