@@ -1,9 +1,9 @@
 ---
-layout: help 
-title: Prise en charge des numéros de téléphone étrangers 
+layout: help
+title: Prise en charge des numéros de téléphone étrangers
 category: manage-your-account
 permalink: /help/manage-your-account/international-phone-support/
-order: 7 
+order: 7
 scripts:
   - /assets/js/country_support.js
 redirect_from:
@@ -19,11 +19,11 @@ Nous vous encourageons à configurer plus d'une méthode d'authentification pour
   JavaScript est nécessaire pour charger la liste des pays pris en charge.
 </noscript>
 
-{% include country_support_table.html 
-           heading_country="Pays" 
-           heading_dialing\_code="Indicatif" 
-           heading_sms="Prise en charge par SMS" 
-           heading_voice="Prise en charge vocale" 
-           option_yes="Oui" 
-           option_no="Non" error\_heading="Erreur lors du chargement des données" 
+{% include country_support_table.html
+           heading_country="Pays"
+           heading_dialing_code="Indicatif"
+           heading_sms="Prise en charge par SMS"
+           heading_voice="Prise en charge vocale"
+           option_yes="Oui"
+           option_no="Non" error_heading="Erreur lors du chargement des données"
            error_body="Désolé, une erreur s'est produite lors du chargement de la liste des pays pris en charge. Veuillez réessayer ultérieurement." %}

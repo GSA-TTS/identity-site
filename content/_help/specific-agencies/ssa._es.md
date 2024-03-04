@@ -1,9 +1,10 @@
 ---
-layout: help 
-title: Administración del Seguro Social (SSA) 
-category: specific-agencies 
-permalink: /help/specific-agencies/ssa/ 
-keywords: social security, social security benefits, replacement social security card, social security card, ssa, social security card replacement, social security statement, replace social security card, new social security card, new card, replacement card, ss statement, social security account, social security administration, ssa.gov, i need a new social security card order: 3 
+layout: help
+title: Administración del Seguro Social (SSA)
+category: specific-agencies
+permalink: /help/specific-agencies/ssa/
+keywords: social security, social security benefits, replacement social security card, social security card, ssa, social security card replacement, social security statement, replace social security card, new social security card, new card, replacement card, ss statement, social security account, social security administration, ssa.gov, i need a new social security card
+order: 3
 redirect_from:
   - /en/help/specific-agencies/ssa/
 ---

@@ -1,9 +1,9 @@
 ---
-layout: help 
-title: Vérifier votre identité 
-category: verify-your-identity 
-permalink: /fr/help/verify-your-identity/overview/ 
-meta\_title: Aperçu 
+layout: help
+title: Vérifier votre identité
+category: verify-your-identity
+permalink: /fr/help/verify-your-identity/overview/
+meta_title: Aperçu
 order: 0
 redirect_from:
   - /en/help/verify-your-identity/

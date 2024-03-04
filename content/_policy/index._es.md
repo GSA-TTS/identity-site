@@ -1,8 +1,9 @@
 ---
-layout: sidenav 
-sidenav: policies 
-title: Privacidad y seguridad 
-description: Obtenga más información sobre nuestras prácticas de seguridad y privacidad permalink: /policy/
+layout: sidenav
+sidenav: policies
+title: Privacidad y seguridad
+description: Obtenga más información sobre nuestras prácticas de seguridad y privacidad
+permalink: /policy/
 redirect_from:
   - /en/policy/
   - /docs/Logingov_PIA_August2019.pdf/

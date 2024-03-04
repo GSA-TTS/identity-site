@@ -1,10 +1,10 @@
 ---
-layout: help  
-title: Ajouter ou modifier votre méthode d’authentification  
-category: manage-your-account  
-permalink: /fr/help/manage-your-account/add-or-change-your-authentication-method/  
-order: 4  
-redirect\_from:
+layout: help
+title: Ajouter ou modifier votre méthode d’authentification
+category: manage-your-account
+permalink: /fr/help/manage-your-account/add-or-change-your-authentication-method/
+order: 4
+redirect_from:
     - /en/help/manage-your-account/add-or-change-your-authentication-method/
 ---
 [Une méthode d’authentification](/help/get-started/authentication-methods/) est une couche supplémentaire de sécurité pour votre compte. Nous vous recommandons d’avoir au moins deux méthodes d’authentification pour votre compte au cas où vous en perdriez une.
@@ -23,6 +23,6 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
 7. Suivez toutes les instructions pour confirmer vos modifications.
 
 ## Articles connexes 
-[Méthodes d’authentification](/help/get-started/authentication-methods/) 
-[Mot de passe oublié](/help/trouble-signing-in/forgot-your-password/) 
+[Méthodes d’authentification](/help/get-started/authentication-methods/)
+[Mot de passe oublié](/help/trouble-signing-in/forgot-your-password/)
 [Supprimer votre compte](/help/manage-your-account/delete-your-account/)

@@ -1,10 +1,10 @@
 ---
-layout: help 
-title: Problèmes avec les méthodes d’authentification 
-category: trouble-signing-in 
-permalink: /fr/help/trouble-signing-in/issues-with-authentication-methods/ 
+layout: help
+title: Problèmes avec les méthodes d’authentification
+category: trouble-signing-in
+permalink: /fr/help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
-redirect_from: 
+redirect_from:
   - /help/creating-an-account/no-phone-or-other-authentication-method/
   - /help/creating-an-account/phone-didnt-get-a-security-code/
   - /help/creating-an-account/why-didnt-i-receive-a-security-code-to-confirm-my-phone/
@@ -25,10 +25,10 @@ redirect_from:
 
 En fonction des méthodes d’authentification que vous avez configurées, vous pourrez peut-être encore accéder à votre compte Login.gov. Une fois que vous avez pu vous connecter, assurez-vous d’avoir configuré plusieurs méthodes d’authentification pour éviter de perdre l’accès à votre compte.
 
-{% capture delete\_account\_alert\_content %} 
-Si vous ne pouvez pas vous connecter avec votre seule méthode d’authentification, vous devrez supprimer votre compte et en créer un nouveau. Login.gov ne peut pas déverrouiller votre compte ou se connecter pour vous. 
-{% endcapture %} 
-{% include alert.html type="warning" class="margin-bottom-4" content=delete\_account\_alert\_content %}
+{% capture delete_account_alert_content %}
+Si vous ne pouvez pas vous connecter avec votre seule méthode d’authentification, vous devrez supprimer votre compte et en créer un nouveau. Login.gov ne peut pas déverrouiller votre compte ou se connecter pour vous.
+{% endcapture %}
+{% include alert.html type="warning" class="margin-bottom-4" content=delete_account_alert_content %}
 
 ## Le déverrouillage facial ou tactile ne fonctionne pas
 
@@ -47,15 +47,15 @@ Nous vous recommandons de configurer d'autres méthodes d'authentification au ca
 * Il se peut que votre code ne vous parvienne pas immédiatement. Attendez jusqu’à 10 minutes ou essayez le bouton « Renvoyer le code » pour envoyer à nouveau votre code.
 * Assurez-vous de ne pas utiliser un numéro de téléphone avec un poste, car Login.gov ne peut pas envoyer de codes à usage unique à des postes.
 
-{% capture newest\_otp\_alert\_content %} 
-Seul le dernier code à usage unique que vous recevrez fonctionnera. Si vous demandez et recevez plusieurs messages en même temps, il se peut que vous deviez essayer plusieurs codes jusqu’à ce que l’un d’entre eux fonctionne. 
-{% endcapture %} 
-{% include alert.html class="margin-bottom-4" content=newest\_otp\_alert\_content %}
+{% capture newest_otp_alert_content %}
+Seul le dernier code à usage unique que vous recevrez fonctionnera. Si vous demandez et recevez plusieurs messages en même temps, il se peut que vous deviez essayer plusieurs codes jusqu’à ce que l’un d’entre eux fonctionne.
+{% endcapture %}
+{% include alert.html class="margin-bottom-4" content=newest_otp_alert_content %}
 
 ## Mon application d'authentification ne fonctionne pas
 
 * Il se peut que l’heure ne soit pas correctement synchronisée entre votre appareil et votre appli d’authentification. Assurez-vous que l’heure de votre appareil est correcte en utilisant une page comme [time.gov](https://www.time.gov/).
-  
+
   * Si vous utilisez Google Authenticator, il vous faudra peut-être synchroniser l’heure manuellement. [Suivez les [instructions de Google pour synchroniser votre heure.](https://support.google.com/accounts/answer/185834?hl=en)](https://support.google.com/accounts/answer/185834?hl=en)
 
 ## Mon code de sauvegarde ne fonctionne pas

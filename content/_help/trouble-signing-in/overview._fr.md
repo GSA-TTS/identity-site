@@ -1,8 +1,10 @@
 ---
-layout: help 
-title: Difficultés de connexion ? 
-category: trouble-signing-in 
-permalink: /fr/help/trouble-signing-in/overview/ meta\_title: Difficultés de connexion ? order: 0
+layout: help
+title: Difficultés de connexion ?
+category: trouble-signing-in
+permalink: /fr/help/trouble-signing-in/overview/
+meta_title: Difficultés de connexion ?
+order: 0
 redirect_from:
   - /en/help/trouble-signing-in/
   - /en/help/trouble-signing-in/overview/
