@@ -2,12 +2,10 @@
 layout: help
 title: Prise en charge des numéros de téléphone étrangers
 category: manage-your-account
-permalink: /help/manage-your-account/international-phone-support/
+permalink: /fr/help/manage-your-account/international-phone-support/
 order: 7
 scripts:
   - /assets/js/country_support.js
-redirect_from:
-  - /en/help/manage-your-account/international-phone-support/
 ---
 Les informations ci-dessous vous serviront à déterminer si votre numéro de téléphone étranger peut être utilisé comme méthode d'authentification à deux facteurs pour recevoir des SMS ou des appels téléphoniques.
 

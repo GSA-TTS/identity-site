@@ -2,13 +2,12 @@
 layout: help
 title: Cambie el número de teléfono asociado con su cuenta
 category: manage-your-account
-permalink: /help/manage-your-account/change-your-phone-number/
+permalink: /es/help/manage-your-account/change-your-phone-number/
 order: 6
 redirect_from:
-  - /en/help/manage-your-account/change-your-phone-number/
-  - /help/changing-settings/change-my-phone-number/
-  - /help/changing-settings/how-do-i-change-the-phone-number-i-am-using-with-my-account/
-  - /help/changing-settings/how-do-i-change-the-phone-number-i-use-to-sign-in/
+  - /es/help/changing-settings/change-my-phone-number/
+  - /es/help/changing-settings/how-do-i-change-the-phone-number-i-am-using-with-my-account/
+  - /es/help/changing-settings/how-do-i-change-the-phone-number-i-use-to-sign-in/
 ---
 Siga estos pasos para cambiar el número de teléfono asociado con su cuenta.
 

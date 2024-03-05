@@ -2,16 +2,15 @@
 layout: help
 title: Elimine su cuenta
 category: manage-your-account
-permalink: /help/manage-your-account/delete-your-account/
-order: 1
+permalink: /es/help/manage-your-account/delete-your-account/
+order: 2
 redirect_from:
-  - /en/help/manage-your-account/delete-your-account/
-  - /help/changing-settings/delete-my-account/
-  - /help/changing-settings/email-address-is-already-in-use/
-  - /help/changing-settings/how-do-i-delete-my-account/
-  - /help/creating-an-account/email-address-is-already-in-use/
-  - /help/creating-an-account/what-do-i-do-if-an-account-already-exists-under-my-email-address/
-  - /help/signing-in/locked-out-of-account/
+  - /es/help/changing-settings/delete-my-account/
+  - /es/help/changing-settings/email-address-is-already-in-use/
+  - /es/help/changing-settings/how-do-i-delete-my-account/
+  - /es/help/creating-an-account/email-address-is-already-in-use/
+  - /es/help/creating-an-account/what-do-i-do-if-an-account-already-exists-under-my-email-address/
+  - /es/help/signing-in/locked-out-of-account/
 ---
 **Es posible que tenga que eliminar una cuenta por diferentes razones:**
 

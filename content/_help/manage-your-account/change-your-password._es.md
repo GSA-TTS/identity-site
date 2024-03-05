@@ -2,12 +2,11 @@
 layout: help
 title: Cambie su contraseña
 category: manage-your-account
-permalink: /help/manage-your-account/change-your-password/
+permalink: /es/help/manage-your-account/change-your-password/
 order: 2
 redirect_from:
-  - /en/help/manage-your-account/change-your-password/
-  - /help/changing-settings/change-my-password/
-  - /help/changing-settings/how-do-i-change-my-password/
+  - /es/help/changing-settings/change-my-password/
+  - /es/help/changing-settings/how-do-i-change-my-password/
 ---
 Siga estos pasos para cambiar su contraseña de Login.gov.
 

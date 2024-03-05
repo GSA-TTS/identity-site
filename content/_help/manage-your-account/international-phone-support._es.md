@@ -2,12 +2,10 @@
 layout: help
 title: Ayuda con un número de teléfono internacional
 category: manage-your-account
-permalink: /help/manage-your-account/international-phone-support/
+permalink: /es/help/manage-your-account/international-phone-support/
 order: 7
 scripts:
   - /assets/js/country_support.js
-redirect_from:
-  - /en/help/manage-your-account/international-phone-support/
 ---
 Use esta información para determinar si puede utilizar su número de teléfono internacional como método de autenticación de dos factores para recibir SMS (mensajes de texto) o llamadas telefónicas.
 

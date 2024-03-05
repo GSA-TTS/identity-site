@@ -1,6 +1,6 @@
 ---
 layout: landing
-permalink: /
+permalink: /fr/
 redirect_from:
   - /fr/
   - /playbook/
