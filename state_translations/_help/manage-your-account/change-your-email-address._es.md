@@ -1,9 +1,9 @@
 ---
-layout: help 
-title: Cambie la dirección de correo electrónico asociada con su cuenta 
-category: manage-your-account 
-permalink: /help/manage-your-account/change-your-email-address/ 
-order: 5 
+layout: help
+title: Cambie la dirección de correo electrónico asociada con su cuenta
+category: manage-your-account
+permalink: /help/manage-your-account/change-your-email-address/
+order: 5
 redirect_from:
   - /help/changing-settings/add-or-remove-email-address/
   - /help/changing-settings/change-my-email-address/

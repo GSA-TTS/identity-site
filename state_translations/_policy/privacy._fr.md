@@ -1,8 +1,8 @@
 ---
-layout: sidenav 
-sidenav: policies 
-title: « "Confidentialité et sécurité : notre déclaration relative à la loi sur la confidentialité » 
-description: En savoir plus sur la manière dont nous sollicitions, utilisons, conservons et protégeons vos informations personnelles, ainsi que vos obligations par rapport à la divulgation de celles-ci. 
+layout: sidenav
+sidenav: policies
+title: « "Confidentialité et sécurité : notre déclaration relative à la loi sur la confidentialité »
+description: En savoir plus sur la manière dont nous sollicitions, utilisons, conservons et protégeons vos informations personnelles, ainsi que vos obligations par rapport à la divulgation de celles-ci.
 permalink: /policy/our-privacy-act-statement/
 redirect_from:
   - /fr/policy/our-privacy-act-statement/

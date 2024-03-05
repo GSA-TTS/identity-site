@@ -1,11 +1,11 @@
 ---
-layout: help 
-title: Commencer sur Login.gov 
-category: get-started 
-permalink: /fr/help/get-started/overview/ 
-meta\_title: Aperçu 
-order: 0 
-redirect_from:  
+layout: help
+title: Commencer sur Login.gov
+category: get-started
+permalink: /fr/help/get-started/overview/
+meta\_title: Aperçu
+order: 0
+redirect_from:
   - /en/help/get-started/
   - /en/help/get-started/overview/
   - /help/creating-an-account/email-address-confirmation-not-received/

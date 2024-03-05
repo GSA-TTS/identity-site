@@ -1,8 +1,8 @@
 ---
-layout: help 
-title: Comment se connecter à Login.gov 
-category: trouble-signing-in 
-permalink: /fr/help/trouble-signing-in/how-to-sign-in/ 
+layout: help
+title: Comment se connecter à Login.gov
+category: trouble-signing-in
+permalink: /fr/help/trouble-signing-in/how-to-sign-in/
 order: 1
 redirect_from:
   - /help/signing-in/
@@ -18,7 +18,7 @@ Suivez les étapes suivantes pour vous connecter à Login.gov.
 2. Saisissez votre mot de passe.
 3. Cliquez sur le bouton « Connexion ».
 4. Authentifiez-vous à l'aide de l'une des méthodes que vous avez configurées, par exemple :
-   
+
    * Le balayage de votre visage ou de votre empreinte digitale
    * La saisie d'un code de sécurité à usage unique à partir de votre application d'authentification
    * Utilisation de votre clé de sécurité

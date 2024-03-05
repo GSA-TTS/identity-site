@@ -1,8 +1,8 @@
 ---
-layout: help 
-title: Comment vérifier votre identité 
-category: verify-your-identity 
-permalink: /help/verify-your-identity/how-to-verify-your-identity/ 
+layout: help
+title: Comment vérifier votre identité
+category: verify-your-identity
+permalink: /help/verify-your-identity/how-to-verify-your-identity/
 order: 1
 redirect_from:
   - /en/help/verify-your-identity/how-to-verify-your-identity/
@@ -31,21 +31,21 @@ Login.gov est un site web gouvernemental sécurisé qui respecte les normes les 
 ## Étapes de la vérification d'identité et de la sécurisation de votre compte
 
 {: .number-list}
-1. Sur la page « Nous devons vérifier votre identité », lisez les conditions et, si vous êtes d'accord, cochez la case située à côté de la déclaration de consentement de Login.gov.  
+1. Sur la page « Nous devons vérifier votre identité », lisez les conditions et, si vous êtes d'accord, cochez la case située à côté de la déclaration de consentement de Login.gov.
    * Cliquez sur « Suite ».
 2. Ensuite, téléchargez votre carte d'identité délivrée par l'État.
    * Remarque : Si vous avez commencé le processus de vérification de votre identité sur votre ordinateur, il vous est toujours possible de passer à votre téléphone pour télécharger des images.
-   
+
    **Continuer sur un ordinateur et télécharger des images**
-   
+
    * Téléchargez une image du RECTO de votre carte d'identité délivrée par l'État en cliquant sur « Choisir un fichier ».
      * Sélectionnez le fichier sur votre ordinateur.
    * Téléchargez une image du VERSO de votre carte d'identité délivrée par l'État en cliquant sur « Choisir un fichier ».
      * Sélectionnez le fichier sur votre ordinateur.
      * Cliquez sur « Suite ».
-   
+
    **Passer de l'ordinateur au téléphone pour télécharger des images**
-   
+
    * Saisissez votre numéro de téléphone.
      * Choisissez un numéro de téléphone où vous pouvez recevoir des SMS/messages textuels, puis cliquez sur « Suite ».
    * Cliquez sur le lien envoyé à votre téléphone.
@@ -53,16 +53,16 @@ Login.gov est un site web gouvernemental sécurisé qui respecte les normes les 
      * Téléchargez une photo du RECTO de votre pièce d'identité à partir de la galerie de photos de votre téléphone ou prenez une photo du recto de votre pièce d'identité.
      * Téléchargez une image du VERSO de votre pièce d'identité à partir de la galerie de photos de votre téléphone ou prenez une image du verso de votre carte d'identité.
    * Retournez à l'ordinateur pour achever le processus.
-   
+
    **Continuer par téléphone et télécharger des images**
-   
+
    * Vous verrez un écran avec de grands carrés « recto » et « verso » ainsi qu’une option permettant de soit « prendre une photo », soit « télécharger une photo ».
      * Téléchargez une photo du RECTO de votre pièce d'identité à partir de la galerie de photos de votre téléphone ou prenez une photo du recto de votre pièce d'identité.
      * Téléchargez une image du VERSO de votre pièce d'identité à partir de la galerie de photos de votre téléphone ou prenez une image du verso de votre carte d'identité.
    * Cliquez sur « Suite ».
 3. Saisissez votre numéro de sécurité sociale, puis cliquez sur « Suite ».
 4. Vérifiez que les informations que vous avez fournies jusqu'à présent sont correctes, puis cliquez sur « Suite ».
-5. Saisissez votre numéro de téléphone principal. Il s'agit de la dernière étape de la vérification d'identité.  
+5. Saisissez votre numéro de téléphone principal. Il s'agit de la dernière étape de la vérification d'identité.
    * Si vous n'avez pas de numéro de téléphone américain ou ne pouvez pas vérifier par téléphone, cliquez sur « Vérifiez plutôt votre adresse par courrier  ». Vous devrez attendre de 5 à 10 jours pour recevoir un courrier par la poste, puis suivre les instructions pour saisir un code de vérification.
 6. Une fois votre identité vérifiée, vous devez crypter votre compte. Saisissez à nouveau votre mot de passe Login.gov. Cliquez sur « Suite ».
 7. Prenez note de votre clé personnelle et conservez-la en lieu sûr. Vous devrez saisir votre clé personnelle immédiatement à la page suivante. Cliquez sur « Suite ».

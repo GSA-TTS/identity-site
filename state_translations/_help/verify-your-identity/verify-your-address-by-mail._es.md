@@ -1,6 +1,6 @@
 ---
-layout: help 
-title: Verifique su dirección por correo 
+layout: help
+title: Verifique su dirección por correo
 category: verify-your-identity
 permalink: /help/verify-your-identity/verify-your-address-by-mail/
 order: 6
@@ -21,9 +21,9 @@ Las cartas se envían el día hábil siguiente por First-Class Mail del Servicio
 * No recibe su carta en un plazo de 5 a 10 días.
 * Su código de verificación ya venció.
 
-Para solicitar un nuevo código de verificación: 
+Para solicitar un nuevo código de verificación:
 {: .number-list}
-1. Vaya a [https://secure.login.gov](https://secure.login.gov/).  
+1. Vaya a [https://secure.login.gov](https://secure.login.gov/).
 2. Cuando se le pida que introduzca su código, seleccione la opción “Enviarme otra carta”.
 
 ## Otros artículos

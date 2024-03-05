@@ -1,10 +1,10 @@
 ---
-layout: help 
-title: Administre su cuenta 
-category: manage-your-account 
-permalink: /help/manage-your-account/overview/ 
-meta_title: Administre su cuenta 
-order: 0 
+layout: help
+title: Administre su cuenta
+category: manage-your-account
+permalink: /help/manage-your-account/overview/
+meta_title: Administre su cuenta
+order: 0
 redirect_from:
   - /en/help/manage-your-account/
   - /en/help/manage-your-account/overview/

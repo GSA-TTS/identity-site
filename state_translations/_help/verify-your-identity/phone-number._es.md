@@ -1,6 +1,6 @@
 ---
-layout: help 
-title: Verifique su número de teléfono 
+layout: help
+title: Verifique su número de teléfono
 category: verify-your-identity
 permalink: /help/verify-your-identity/phone-number/
 order: 5

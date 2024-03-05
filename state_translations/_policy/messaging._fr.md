@@ -1,7 +1,7 @@
 ---
-layout: sidenav  
-title: « "Confidentialité et sécurité : "conditions générales de la messagerie »  
-description: En savoir plus sur l’usage de la messagerie textuelle à des fins d’authentification.  
+layout: sidenav
+title: « "Confidentialité et sécurité : "conditions générales de la messagerie »
+description: En savoir plus sur l’usage de la messagerie textuelle à des fins d’authentification.
 permalink: /policy/messaging-terms-and-conditions/
 sidenav: policies
 redirect_from:

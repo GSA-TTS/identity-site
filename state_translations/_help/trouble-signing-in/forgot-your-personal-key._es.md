@@ -1,9 +1,9 @@
 ---
-layout: help 
-title: Olvidó su clave personal 
-category: trouble-signing-in 
-permalink: /help/trouble-signing-in/forgot-your-personal-key/ 
-order: 4 
+layout: help
+title: Olvidó su clave personal
+category: trouble-signing-in
+permalink: /help/trouble-signing-in/forgot-your-personal-key/
+order: 4
 redirect_from:
   - /en/help/trouble-signing-in/forgot-your-personal-key/
 ---
@@ -43,6 +43,6 @@ Si restablece su contraseña y no tiene su clave personal, tendrá que verificar
 
 ## Otros artículos
 
-[Olvidó su contraseña](/help/trouble-signing-in/forgot-your-password/) 
-[Cambie su contraseña](/help/manage-your-account/change-your-password/) 
+[Olvidó su contraseña](/help/trouble-signing-in/forgot-your-password/)
+[Cambie su contraseña](/help/manage-your-account/change-your-password/)
 [Cómo verificar su identidad](/help/verify-your-identity/how-to-verify-your-identity/)

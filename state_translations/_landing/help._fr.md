@@ -1,6 +1,6 @@
 ---
-title: Aide 
-description: Trouvez des réponses aux questions fréquemment posées sur Login.gov. 
+title: Aide
+description: Trouvez des réponses aux questions fréquemment posées sur Login.gov.
 layout: help_landing
 permalink: /help/
 hero: true

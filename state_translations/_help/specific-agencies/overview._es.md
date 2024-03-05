@@ -1,10 +1,10 @@
 ---
-layout: help 
-title: Ayuda con agencias específicas 
-category: specific-agencies 
-permalink: /help/specific-agencies/overview/ 
-meta_title: Ayuda con agencias específicas 
-order: 0 
+layout: help
+title: Ayuda con agencias específicas
+category: specific-agencies
+permalink: /help/specific-agencies/overview/
+meta_title: Ayuda con agencias específicas
+order: 0
 redirect_from:
   - /en/help/specific-agencies/
   - /en/help/specific-agencies/overview/

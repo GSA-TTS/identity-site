@@ -1,8 +1,8 @@
 ---
-layout: help  
-title: Problèmes avec le déverrouillage facial ou tactile  
-meta_title: Problèmes avec le déverrouillage facial ou tactile  
-category: trouble-signing-in  
+layout: help
+title: Problèmes avec le déverrouillage facial ou tactile
+meta_title: Problèmes avec le déverrouillage facial ou tactile
+category: trouble-signing-in
 permalink: /help/trouble-signing-in/face-or-touch-unlock/
 order: 5
 ---
@@ -67,7 +67,7 @@ Rendez-vous sur le site [secure.login.gov](https://secure.login.gov/) et cliquez
 4. Sur la page « Sécuriser votre compte », sélectionnez le déverrouillage facial ou tactile.
 5. Sur la page de configuration du déverrouillage facial ou tactile, cliquez sur le bouton « Suite ». Vous serez alors invité à vous authentifier à l'aide du déverrouillage facial ou tactile.
     **Important**: En fonction de votre appareil, vous pourrez être invité à fournir des informations supplémentaires, telles qu'un NIP, un schéma ou un code QR. Suivez les instructions qui s'affichent à l'écran pour terminer la configuration du déverrouillage facial ou tactile. Voici des captures d'écran des indications que vous pourriez rencontrer :
-   
+
    ![Exemple d’indication éventuelle lors de la configuration ou de l’utilisation du déverrouillage facial ou tactile : Capture d’écran d’une indication relative au NIP pour le déverrouillage de l'écran](/assets/img/help/face-touch-unlock/android-screen-lock.png){: .display-block}
     ![Exemple d’indication éventuelle lors de la configuration ou de l’utilisation du déverrouillage facial ou tactile : Capture d’écran d’un message relatif à une clé d’accès permettant à l’utilisateur de choisir entre le trousseau iCloud ou un téléphone ou une tablette](/assets/img/help/face-touch-unlock/iphone-screen-lock.png){: .display-block margin-top-5}
     ![Exemple d’indication éventuelle lors de la configuration ou de l’utilisation du déverrouillage facial ou tactile : Capture d’écran d’un QR code](/assets/img/help/face-touch-unlock/passkey-screen-shot.png){: .display-block margin-top-5}

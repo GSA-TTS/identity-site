@@ -1,12 +1,12 @@
 ---
-layout: help 
-title: Comment ajouter des images de votre permis de conduire ou de votre carte d’identité category: verify-your-identity 
-permalink: /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/ 
+layout: help
+title: Comment ajouter des images de votre permis de conduire ou de votre carte d’identité category: verify-your-identity
+permalink: /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
 redirect_from:
   - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
-do_list: 
+do_list:
   - Assurez-vous d’utiliser une caméra à haute résolution, comme celle d’un smartphone ou d’une tablette. La webcam de votre ordinateur risque en effet de ne pas prendre de photos bien nettes.
   - Utilisez un arrière-plan sombre et uni.
   - Prenez vos photos dans un endroit bien éclairé, avec une lumière indirecte.
@@ -16,13 +16,13 @@ do_list:
 
 
 {% capture alert\_link %}
-  <a href="/help/verify-your-identity/accepted-state-issued-identification/">permis de conduire ou carte d'identité en cours de validité</a> 
+  <a href="/help/verify-your-identity/accepted-state-issued-identification/">permis de conduire ou carte d'identité en cours de validité</a>
 {% endcapture %}
 
 {% capture alert\_content %}
-  <strong> Si vous n’avez pas de {{ alert\_link }}, vous ne pouvez pas utiliser Login.gov à des fins de vérification d’identité. 
+  <strong> Si vous n’avez pas de {{ alert\_link }}, vous ne pouvez pas utiliser Login.gov à des fins de vérification d’identité.
   </strong>
-  Veuillez contacter le centre d'assistance de l'organisme partenaire pour découvrir les autres options qui s’offrent à vous. 
+  Veuillez contacter le centre d'assistance de l'organisme partenaire pour découvrir les autres options qui s’offrent à vous.
 {% endcapture %}
 
 

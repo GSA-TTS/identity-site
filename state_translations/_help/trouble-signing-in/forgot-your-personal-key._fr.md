@@ -1,8 +1,8 @@
 ---
-layout: help 
-title: Clé personnelle oubliée 
-category: trouble-signing-in 
-permalink: /fr/help/trouble-signing-in/forgot-your-personal-key/ 
+layout: help
+title: Clé personnelle oubliée
+category: trouble-signing-in
+permalink: /fr/help/trouble-signing-in/forgot-your-personal-key/
 order: 4
 redirect_from:
   - /en/help/trouble-signing-in/forgot-your-personal-key/
@@ -43,6 +43,6 @@ Si vous réinitialisez votre mot de passe sans votre clé personnelle, vous devr
 
 ## Articles connexes
 
-[Mot de passe oublié](/help/trouble-signing-in/forgot-your-password/) 
-[Modifier votre mot de passe](/help/manage-your-account/change-your-password/) 
+[Mot de passe oublié](/help/trouble-signing-in/forgot-your-password/)
+[Modifier votre mot de passe](/help/manage-your-account/change-your-password/)
 [Comment vérifier votre identité](/help/verify-your-identity/how-to-verify-your-identity/)

@@ -1,7 +1,7 @@
 ---
-layout: help 
-title: Difficultés de connexion ? 
-category: trouble-signing-in 
+layout: help
+title: Difficultés de connexion ?
+category: trouble-signing-in
 permalink: /fr/help/trouble-signing-in/overview/ meta\_title: Difficultés de connexion ? order: 0
 redirect_from:
   - /en/help/trouble-signing-in/

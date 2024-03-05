@@ -1,9 +1,9 @@
 ---
-layout: help 
-title: Ayuda con un número de teléfono internacional 
-category: manage-your-account 
-permalink: /help/manage-your-account/international-phone-support/ 
-order: 7 
+layout: help
+title: Ayuda con un número de teléfono internacional
+category: manage-your-account
+permalink: /help/manage-your-account/international-phone-support/
+order: 7
 scripts:
   - /assets/js/country_support.js
 redirect_from:
@@ -19,11 +19,11 @@ Le recomendamos que configure más de un método de autenticación para evitar q
 </noscript>
 
 {% include country_support_table.html
-           heading_country="País" 
-           heading_dialing_code="Código de marcado" 
-           heading_sms="Compatible con SMS" 
-           heading_voice="Compatible con mensajes de voz" 
-           option_yes="Sí" 
-           option_no="No" 
-           error_heading="Error al cargar los datos" 
+           heading_country="País"
+           heading_dialing_code="Código de marcado"
+           heading_sms="Compatible con SMS"
+           heading_voice="Compatible con mensajes de voz"
+           option_yes="Sí"
+           option_no="No"
+           error_heading="Error al cargar los datos"
            error_body="Hubo un error al cargar la lista de países admitidos. Inténtelo de nuevo más tarde." %}

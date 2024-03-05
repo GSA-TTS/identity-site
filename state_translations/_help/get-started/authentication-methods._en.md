@@ -1,8 +1,8 @@
 ---
-layout: help 
-title: Méthodes d’authentification 
-category: get-started 
-permalink: /fr/help/get-started/authentication-methods/ 
+layout: help
+title: Méthodes d’authentification
+category: get-started
+permalink: /fr/help/get-started/authentication-methods/
 order: 2
 redirect_from:
   - /en/help/get-started/authentication-options/
@@ -32,13 +32,13 @@ redirect_from:
 ---
 En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d’authentification pour assurer la sécurité de votre compte. Il s’agit d’une authentification multi-facteurs (AMF). Nous utilisons l’AMF comme un niveau de protection supplémentaire pour sécuriser vos informations.
 
-**Méthodes d’authentification** 
+**Méthodes d’authentification**
 Nous vous recommandons fortement d’ajouter deux méthodes d’authentification à votre compte. Si vous perdez l’accès à votre principale méthode d’authentification (par exemple, si vous perdez votre téléphone), vous aurez la possibilité d’utiliser la seconde pour accéder à votre compte. Login.gov ne peut pas vous laisser accéder à votre compte si vous vous faites bloquer ou si vous oubliez votre méthode d’authentification. Si vous vous faites bloquer, vous devrez supprimer votre compte et en créer un nouveau.
 
-**Sécurité** 
+**Sécurité**
 Bien que vous ayez le choix entre plusieurs options d’authentification, certaines méthodes d’authentification telles que déverrouillage facial ou tactile, les clés de sécurité, et les cartes PIV/CAC sont plus efficaces contre les tentatives d’hameçonnage et le vol.
 
-## Déverrouillage facial ou tactile 
+## Déverrouillage facial ou tactile
 
 <div class="usa-alert usa-alert--info margin-bottom-4" role="status">
   <div class="usa-alert__body">
@@ -64,7 +64,7 @@ Si vous choisissez cette option de sécurité, suivez les étapes suivantes pour
 
 1. Choisissez un appareil, tel qu'un ordinateur ou un appareil mobile (téléphone ou tablette), sur lequel vous pouvez installer des applications.
 2. Téléchargez et installez une application d'authentification sur votre appareil. Voici quelques options courantes :
-   
+
    * Options pour Android : [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
    * Options pour iOS : [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
    * Applis Windows : [1Password](https://1password.com/), [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn).
@@ -94,9 +94,9 @@ Un code unique sera envoyé à ce numéro de téléphone chaque fois que vous vo
 Après avoir reçu le code, saisissez-le dans le champ « Code à usage unique ». Chaque fois que vous vous connecterez à Login.gov, vous aurez la possibilité d'obtenir un nouveau code à usage unique par appel téléphonique ou par SMS. Vous recevrez un nouveau code à usage unique chaque fois que vous vous connecterez à votre compte Login.gov.
 
 <div id="didn-t-receive-your-one-time-code"> Vous n’avez pas reçu votre code à usage unique ?</div>
- 
+
 * Vérifiez que votre appareil est allumé.
-* Désactivez le mode avion. 
+* Désactivez le mode avion.
 
 N'oubliez pas que vous devez disposer d'un appareil mobile pour recevoir un code à usage unique par SMS. Si vous disposez d'une ligne fixe, choisissez de recevoir le code à usage unique par appel téléphonique.
 

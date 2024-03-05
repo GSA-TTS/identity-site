@@ -1,10 +1,10 @@
 ---
-layout: help 
-title: Verifique su identidad 
-category: verify-your-identity 
-permalink: /help/verify-your-identity/overview/ 
-meta_title: Información general 
-order: 0 
+layout: help
+title: Verifique su identidad
+category: verify-your-identity
+permalink: /help/verify-your-identity/overview/
+meta_title: Información general
+order: 0
 redirect_from:
   - /en/help/verify-your-identity/
   - /en/help/verify-your-identity/overview/

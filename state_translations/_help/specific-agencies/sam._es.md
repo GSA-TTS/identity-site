@@ -1,9 +1,9 @@
 ---
-layout: help 
-title: Sistema para la Administración de Subvenciones (SAM) 
-category: specific-agencies 
-permalink: /help/specific-agencies/sam/ 
-order: 2 
+layout: help
+title: Sistema para la Administración de Subvenciones (SAM)
+category: specific-agencies
+permalink: /help/specific-agencies/sam/
+order: 2
 redirect_from:
   - /help/sam/have-account-different-email/
   - /help/sam/no-longer-have-email/
@@ -41,7 +41,7 @@ Contacte con el Servicio Federal de Atención al Cliente al 866-606-8220 (llamad
 ## Notas importantes para crear su cuenta de Login.gov y acceder a su perfil de SAM:
 
 * Si ya tiene una cuenta de SAM, use el mismo correo electrónico que configuró en su cuenta de SAM para crear su cuenta de Login.gov.
-  
+
   * Si usa el mismo correo electrónico para crear su perfil en Login.gov, conservará todos sus registros, solicitudes de acceso a datos y búsquedas guardadas.
   * Si usa una nueva dirección de correo electrónico, su perfil de SAM.gov no se verá afectado, pero no podrá acceder a la información que tenga en este.
 * Si ya tiene una cuenta de Login.gov y desea añadir su correo electrónico de SAM, puede hacerlo en la página “Mi cuenta” de Login.gov. Seleccione el botón “Iniciar sesión” en la página principal de Login.gov para acceder a la página de esa cuenta.

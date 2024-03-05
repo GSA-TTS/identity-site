@@ -1,9 +1,9 @@
 ---
-layout: help 
-title: “Vuelva a vincular sus cuentas” 
-category: manage-your-account 
-permalink: /help/manage-your-account/relink-your-accounts/ 
-order: 8 
+layout: help
+title: “Vuelva a vincular sus cuentas”
+category: manage-your-account
+permalink: /help/manage-your-account/relink-your-accounts/
+order: 8
 redirect_from:
   - /en/help/manage-your-account/relink-your-accounts/
   - /help/creating-an-account/email-address-confirmation-link-is-invalid/

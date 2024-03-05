@@ -1,8 +1,8 @@
 ---
-layout: sidenav 
-sidenav: policies 
-title: Règles d’utilisation 
-description: Règles d’utilisation. 
+layout: sidenav
+sidenav: policies
+title: Règles d’utilisation
+description: Règles d’utilisation.
 permalink: /policy/rules-of-use/
 redirect_from:
   - /fr/policy/rules-of-use/

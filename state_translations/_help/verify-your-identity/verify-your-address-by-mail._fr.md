@@ -1,8 +1,8 @@
 ---
-layout: help 
-title: Vérifier votre adresse par courrier by mail 
-category: verify-your-identity 
-permalink: /fr/help/verify-your-identity/verify-your-address-by-mail/ 
+layout: help
+title: Vérifier votre adresse par courrier by mail
+category: verify-your-identity
+permalink: /fr/help/verify-your-identity/verify-your-address-by-mail/
 order: 6
 redirect_from:
   - /en/help/verify-your-identity/verify-your-address-by-mail/
@@ -21,9 +21,9 @@ Les lettres sont envoyées le jour ouvrable suivant par courrier prioritaire via
 * Vous ne recevez pas votre courrier dans un délai de 5 à 10 jours
 * Votre code de vérification a expiré
 
-Pour demander un nouveau code de vérification : 
+Pour demander un nouveau code de vérification :
 {: .number-list}
-1. Rendez-vous sur [https://secure.login.gov](https://secure.login.gov/).  
+1. Rendez-vous sur [https://secure.login.gov](https://secure.login.gov/).
 2. Sélectionnez « Envoyez-moi un autre courrier » lorsque vous êtes invité à saisir votre code.
 
 ## Articles connexes

@@ -1,8 +1,8 @@
 ---
-layout: help 
-title: Documents d’identification acceptés 
-category: verify-your-identity 
-permalink: /fr/help/verify-your-identity/accepted-identification-documents/ 
+layout: help
+title: Documents d’identification acceptés
+category: verify-your-identity
+permalink: /fr/help/verify-your-identity/accepted-identification-documents/
 order: 2
 redirect_from:
   - /help/identity-verification/i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity/
@@ -10,7 +10,7 @@ redirect_from:
   - /en/help/verify-your-identity/accepted-identification-documents/
   - /help/verify-your-identity/accepted-state-issued-identification/
   - /en/help/verify-your-identity/accepted-state-issued-identification/
-do_list: 
+do_list:
   - « **Permis de conduire** des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, Îles Vierges des États-Unis, Samoa américaines, Îles Mariannes et Porto Rico). »
   - « **Pièce d’identité délivrée par l’État, à l’exception d’un permis de conduire.** Il s'agit d'une pièce d'identité délivrée par un État, le district de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais ne donne pas le droit de conduire. » dont_list:
   - Vous ne pouvez pas passer la vérification d’identité si votre pièce d’identité a expiré.
@@ -29,6 +29,6 @@ do_list:
 
 {% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' %}
 
-## Articles connexes 
+## Articles connexes
 
 [Vérifier votre identité](/help/verify-your-identity/how-to-verify-your-identity/)

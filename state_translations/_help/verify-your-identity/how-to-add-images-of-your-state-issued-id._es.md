@@ -1,13 +1,13 @@
 ---
-layout: help 
+layout: help
 title: Cómo añadir imágenes de su licencia de conducir o tarjeta de identificación estatal
-category: verify-your-identity 
-permalink: /help/verify-your-identity/how-to-add-images-of-your-state-issued-id/ 
-order: 3  
+category: verify-your-identity
+permalink: /help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
+order: 3
 redirect_from:
   - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
-do_list: 
+do_list:
   - Use una cámara de alta resolución, como la de un smartphone o de una tableta. Es posible que la cámara web de su computadora no tome fotografías nítidas.
   - Use un fondo de un solo color oscuro.
   - Tome sus fotografías en un lugar bien iluminado con luz indirecta.
@@ -16,13 +16,13 @@ do_list:
 ---
 
 {% capture alert_link %}
- <a href="/help/verify-your-identity/accepted-state-issued-identification/">licencia de conducir válida o tarjeta de identificación estatal</a> 
+ <a href="/help/verify-your-identity/accepted-state-issued-identification/">licencia de conducir válida o tarjeta de identificación estatal</a>
 {% endcapture %}
 
 {% capture alert_content %}
   <strong>
     Si no tiene un {{ alert_link }} no puede usar Login.gov para verificar su identidad.   </strong>
- Comuníquese con el centro de ayuda de la agencia asociada para saber lo que puede hacer en ese caso. 
+ Comuníquese con el centro de ayuda de la agencia asociada para saber lo que puede hacer en ese caso.
 {% endcapture %}
 
 {%

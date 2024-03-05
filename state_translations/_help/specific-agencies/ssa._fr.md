@@ -1,9 +1,9 @@
 ---
-layout: help 
-title: Administration de la sécurité sociale (SSA) 
-category: specific-agencies 
-permalink: /fr/help/specific-agencies/ssa/ 
-keywords: sécurité sociale, prestations liées à la sécurité sociale, carte de sécurité sociale de remplacement, carte de sécurité sociale, SSA, remplacement de carte de sécurité sociale, relevé de sécurité sociale, remplacer une carte de sécurité sociale, nouvelle carte de sécurité sociale, nouvelle carte, carte de remplacement, relevé de sécurité sociale, compte de sécurité sociale, administration de la sécurité sociale, ssa.gov, j’ai besoin d’une nouvelle carte de sécurité sociale 
+layout: help
+title: Administration de la sécurité sociale (SSA)
+category: specific-agencies
+permalink: /fr/help/specific-agencies/ssa/
+keywords: sécurité sociale, prestations liées à la sécurité sociale, carte de sécurité sociale de remplacement, carte de sécurité sociale, SSA, remplacement de carte de sécurité sociale, relevé de sécurité sociale, remplacer une carte de sécurité sociale, nouvelle carte de sécurité sociale, nouvelle carte, carte de remplacement, relevé de sécurité sociale, compte de sécurité sociale, administration de la sécurité sociale, ssa.gov, j’ai besoin d’une nouvelle carte de sécurité sociale
 order: 3
 redirect_from:
   - /en/help/specific-agencies/ssa/

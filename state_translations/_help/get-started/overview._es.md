@@ -1,11 +1,11 @@
 ---
 
-layout: help 
-title: Introducción a Login.gov 
-category: get-started 
-permalink: /help/get-started/overview/ 
-meta_title: Información general 
-order: 0 
+layout: help
+title: Introducción a Login.gov
+category: get-started
+permalink: /help/get-started/overview/
+meta_title: Información general
+order: 0
 redirect_from:
 - /en/help/get-started/
 - /en/help/get-started/overview/

@@ -1,6 +1,6 @@
 ---
-layout: help 
-title: ¿Tiene problema para iniciar sesión? 
+layout: help
+title: ¿Tiene problema para iniciar sesión?
 category: trouble-signing-in
 permalink: /help/trouble-signing-in/overview/
 meta_title: Trouble signing in?

@@ -1,8 +1,8 @@
 ---
-layout: help 
-title: Cómo iniciar sesión en Login.gov 
-category: trouble-signing-in 
-permalink: /help/trouble-signing-in/how-to-sign-in/ 
+layout: help
+title: Cómo iniciar sesión en Login.gov
+category: trouble-signing-in
+permalink: /help/trouble-signing-in/how-to-sign-in/
 order: 1
 redirect_from:
   - /help/signing-in/
@@ -18,7 +18,7 @@ Siga estos pasos para iniciar sesión en Login.gov:
 2. Ingrese su contraseña.
 3. Haga clic en el botón “Iniciar sesión”.
 4. Use una de las opciones que configuró para autenticarse, por ejemplo:
-   
+
    * Escanear su rostro o huella dactilar
    * Ingresar un código de un solo uso de su aplicación de autenticación
    * Usar su clave de seguridad

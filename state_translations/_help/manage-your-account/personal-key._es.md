@@ -1,9 +1,9 @@
 ---
-layout: help 
-title: Clave personal 
-category: manage-your-account 
-permalink: /help/manage-your-account/personal-key/ 
-order: 3 
+layout: help
+title: Clave personal
+category: manage-your-account
+permalink: /help/manage-your-account/personal-key/
+order: 3
 redirect_from:
   - /en/help/manage-your-account/personal-key/
   - /help/changing-settings/get-a-new-personal-key/
@@ -47,6 +47,6 @@ Si restablece su contraseña y no tiene su clave personal, tendrá que verificar
 
 ## Otros artículos
 
-[Olvidó su contraseña](/help/trouble-signing-in/forgot-your-password/) 
-[Cambie su contraseña](/help/manage-your-account/change-your-password/) 
+[Olvidó su contraseña](/help/trouble-signing-in/forgot-your-password/)
+[Cambie su contraseña](/help/manage-your-account/change-your-password/)
 [Cómo verificar su identidad](/help/verify-your-identity/how-to-verify-your-identity/)

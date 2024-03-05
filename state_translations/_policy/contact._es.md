@@ -1,8 +1,8 @@
 ---
-layout: contact_us 
-sidenav: contact_us 
-title: Contáctenos 
-description: ¿Tiene una pregunta o un problema con Login.gov? 
+layout: contact_us
+sidenav: contact_us
+title: Contáctenos
+description: ¿Tiene una pregunta o un problema con Login.gov?
 intro_content: >-
   ## Póngase en contacto
 
@@ -23,7 +23,7 @@ help_center_content: >-
 
   * [Necesito cambiar mi información o administrar mi cuenta](/help/manage-your-account/overview/)
 
-  * [Ver más artículos de ayuda](/help/) 
+  * [Ver más artículos de ayuda](/help/)
 maintenance_window_content: El centro de ayuda de Login.gov estará en mantenimiento de <strong>%{start_time} a %{end_time}</strong>. Consulte los temas comunes siguientes para obtener ayuda. phone_available_content: Puede llamar a nuestro centro de ayuda en cualquier momento al (844)&nbsp;875-6446. unplanned_outage_content: Debido a un problema técnico, no podemos revisar las solicitudes de ayuda en línea.
 partner_content: >-
   ## Asóciese con Login.gov
@@ -33,7 +33,7 @@ partner_content: >-
 report_issue_content: >-
   ## Informe de un problema
 
-  Si desea informar de un problema, consulte nuestra [política de divulgación de vulnerabilidades](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/ "Vínculo de seguimiento") y contáctenos usando nuestro [formulario de divulgación de vulnerabilidades](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Vínculo de seguimiento"). 
+  Si desea informar de un problema, consulte nuestra [política de divulgación de vulnerabilidades](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/ "Vínculo de seguimiento") y contáctenos usando nuestro [formulario de divulgación de vulnerabilidades](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Vínculo de seguimiento").
 scripts:
   - /assets/js/contact.js
 permalink: /contact/

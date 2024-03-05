@@ -1,9 +1,9 @@
 ---
-layout: help  
-title: Añada o cambie su método de autenticación  
-category: manage-your-account  
-permalink: /help/manage-your-account/add-or-change-your-authentication-method/  
-order: 4  
+layout: help
+title: Añada o cambie su método de autenticación
+category: manage-your-account
+permalink: /help/manage-your-account/add-or-change-your-authentication-method/
+order: 4
 redirect_from:
     - /en/help/manage-your-account/add-or-change-your-authentication-method/
 ---

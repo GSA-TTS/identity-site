@@ -10,7 +10,7 @@ redirect_from:
   - /en/help/verify-your-identity/accepted-identification-documents/
   - /help/verify-your-identity/accepted-state-issued-identification/
   - /en/help/verify-your-identity/accepted-state-issued-identification/
-do_list: 
+do_list:
   - "**Licencia de conducir** de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico)."
   - "**Tarjeta de identificación emitida por el estado que no sea una licencia de conducir.** Es un documento de identificación emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no otorga privilegios para conducir."
 dont_list:
@@ -29,6 +29,6 @@ alert: <strong>Si no cuenta con una licencia de conducir válida o una tarjeta d
 
 {% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' %}
 
-## Otros artículos 
+## Otros artículos
 
 [Verifique su identidad](/help/verify-your-identity/how-to-verify-your-identity/)

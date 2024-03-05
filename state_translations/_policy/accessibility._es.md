@@ -1,8 +1,8 @@
 ---
-layout: sidenav 
-sidenav: accessibility 
-title: Accesibilidad 
-description: Soporte de accesibilidad 
+layout: sidenav
+sidenav: accessibility
+title: Accesibilidad
+description: Soporte de accesibilidad
 permalink: /accessibility/
 redirect_from:
   - /en/accessibility/

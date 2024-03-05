@@ -1,9 +1,9 @@
 ---
-layout: sidenav 
-sidenav: policies 
-title: Reglas de Uso 
-description: Reglas de uso. 
-permalink: /policy/rules-of-use/ 
+layout: sidenav
+sidenav: policies
+title: Reglas de Uso
+description: Reglas de uso.
+permalink: /policy/rules-of-use/
 redirect_from:
   - /en/policy/rules-of-use/
 ---

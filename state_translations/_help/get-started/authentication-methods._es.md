@@ -1,10 +1,10 @@
 ---
 
-layout: help 
-title: Métodos de autenticación 
-category: get-started 
-permalink: /help/get-started/authentication-methods/ 
-order: 2 
+layout: help
+title: Métodos de autenticación
+category: get-started
+permalink: /help/get-started/authentication-methods/
+order: 2
 redirect_from:
 - /en/help/get-started/authentication-options/
 - /help/authentication-methods/
@@ -65,7 +65,7 @@ Si elige esta opción de seguridad, siga estos pasos para descargar e instalar u
 1. Elija un dispositivo, como una computadora o un dispositivo móvil (teléfono o tableta), en el que pueda instalar aplicaciones.
 
 2. Descargue e instale una aplicación de autenticación en su dispositivo. Algunas de las opciones preferidas son:
-   
+
    * Opciones para Android: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/) y [1Password](https://1password.com/)
    * Opciones para iOS: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://lastpass.com/) y [1Password](https://1password.com/)
    * Aplicaciones para Windows: [1Password](https://1password.com/), [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn)
@@ -95,7 +95,7 @@ Le enviaremos un código de un solo uso a ese número de teléfono cada vez que 
 Después de haber recibido el código, escríbalo en el campo “Código de un solo uso”. Cada vez que inicie sesión en Login.gov tendrá la opción de obtener un nuevo código de un solo uso por medio de una llamada telefónica o un mensaje de texto. Recibirá un nuevo código de un solo uso cada vez que inicie sesión en su cuenta de Login.gov.
 
 <div id="didn-t-receive-your-one-time-code">¿No recibió su código de un solo uso?</div>
- 
+
 * Compruebe que el dispositivo está encendido
 * Desactive el modo avión
 Recuerde que necesita un dispositivo móvil para recibir un código de un solo uso por mensaje de texto. Si tiene un teléfono fijo, seleccione recibir el código de un solo uso por llamada telefónica.

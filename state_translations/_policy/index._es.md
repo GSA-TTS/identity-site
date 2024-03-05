@@ -1,7 +1,7 @@
 ---
-layout: sidenav 
-sidenav: policies 
-title: Privacidad y seguridad 
+layout: sidenav
+sidenav: policies
+title: Privacidad y seguridad
 description: Obtenga más información sobre nuestras prácticas de seguridad y privacidad permalink: /policy/
 redirect_from:
   - /en/policy/

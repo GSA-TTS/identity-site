@@ -1,9 +1,9 @@
 ---
-layout: help 
-title: Elimine su cuenta 
-category: manage-your-account 
-permalink: /help/manage-your-account/delete-your-account/ 
-order: 1 
+layout: help
+title: Elimine su cuenta
+category: manage-your-account
+permalink: /help/manage-your-account/delete-your-account/
+order: 1
 redirect_from:
   - /en/help/manage-your-account/delete-your-account/
   - /help/changing-settings/delete-my-account/

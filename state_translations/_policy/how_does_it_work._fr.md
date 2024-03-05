@@ -1,7 +1,7 @@
 ---
-layout: sidenav  
-title: « Confidentialité et sécurité : comment ça marche »  
-description: Découvrez comment nous protégeons et sécurisons vos informations personnelles.  
+layout: sidenav
+title: « Confidentialité et sécurité : comment ça marche »
+description: Découvrez comment nous protégeons et sécurisons vos informations personnelles.
 permalink: /policy/how-does-it-work/
 sidenav: policies
 redirect_from:

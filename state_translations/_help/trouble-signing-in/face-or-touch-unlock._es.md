@@ -1,9 +1,9 @@
 ---
-layout: help  
-title: Problemas con el desbloqueo facial o táctil  
-meta_title: Problemas con el desbloqueo facial o táctil  
-category: trouble-signing-in  
-permalink: /help/trouble-signing-in/face-or-touch-unlock/  
+layout: help
+title: Problemas con el desbloqueo facial o táctil
+meta_title: Problemas con el desbloqueo facial o táctil
+category: trouble-signing-in
+permalink: /help/trouble-signing-in/face-or-touch-unlock/
 order: 5
 ---
 
@@ -19,12 +19,12 @@ Cualquier dispositivo móvil que funcione con iOS&nbsp;16 o Android&nbsp;9, o ve
 
 El desbloqueo facial o táctil funciona mejor en los siguientes dispositivos y navegadores, especialmente con combinaciones de dispositivo y navegador que coincidan. Si está usando Firefox y no puede autenticarse con el desbloqueo facial o táctil, cambie a Safari si está en un dispositivo Apple, o a Chrome si está en un dispositivo Windows o Android.
 
-* Dispositivos  
+* Dispositivos
   * Computadoras portátiles o de escritorio que funcionen con Windows 10, macOS 13, Chrome OS 109 o versiones más recientes.
   * Dispositivos móviles que funcionen con iOS 16, Android 9 o versiones más recientes.
   * Su dispositivo debe tener activado el desbloqueo de pantalla.
 
-* Navegadores  
+* Navegadores
   * Chrome 109 o una versión más reciente
   * Safari 16 o una versión más reciente
   * Edge 109 o una versión más reciente
@@ -67,7 +67,7 @@ Vaya a [secure.login.gov](https://secure.login.gov/) y haga clic en “Crear una
 4. En la página “Proteja su cuenta”, seleccione el desbloqueo facial o táctil.
 5. En la página de configuración del desbloqueo facial o táctil, haga clic en el botón “Continuar”. Se le pedirá que se autentique con el desbloqueo facial o táctil.
     **Importante:** Según su dispositivo, es posible que se le pida más información, como un PIN, patrón o código QR. Siga las indicaciones de la pantalla para terminar de configurar el desbloqueo facial o táctil. Estas capturas de pantalla muestran los posibles avisos que puede encontrar.
-   
+
    ![Ejemplo de un aviso que puede aparecer después de configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla de un aviso de PIN de bloqueo de pantalla](/assets/img/help/face-touch-unlock/android-screen-lock.png){: .display-block}
     ![Ejemplo de un aviso que puede aparecer después de configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla con un mensaje de clave de paso que permite a los usuarios elegir entre usar el llavero de iCloud o un celular o tableta](/assets/img/help/face-touch-unlock/iphone-screen-lock.png){: .display-block margin-top-5}
     ![Ejemplo de un aviso que puede aparecer después de configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla de un código QR](/assets/img/help/face-touch-unlock/passkey-screen-shot.png){: .display-block margin-top-5}

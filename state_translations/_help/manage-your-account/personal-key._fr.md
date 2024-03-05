@@ -1,9 +1,9 @@
 ---
-layout: help 
-title: Clé personnelle 
-category: manage-your-account 
-permalink: /fr/help/manage-your-account/personal-key/ 
-order: 3 
+layout: help
+title: Clé personnelle
+category: manage-your-account
+permalink: /fr/help/manage-your-account/personal-key/
+order: 3
 redirect_from:
   - /en/help/manage-your-account/personal-key/
   - /help/changing-settings/get-a-new-personal-key/
@@ -46,6 +46,6 @@ Si vous réinitialisez votre mot de passe sans votre clé personnelle, vous devr
 
 ## Articles connexes
 
-[Mot de passe oublié](/help/trouble-signing-in/forgot-your-password/) 
-[Modifier votre mot de passe](/help/manage-your-account/change-your-password/) 
+[Mot de passe oublié](/help/trouble-signing-in/forgot-your-password/)
+[Modifier votre mot de passe](/help/manage-your-account/change-your-password/)
 [Comment vérifier votre identité](/help/verify-your-identity/how-to-verify-your-identity/)

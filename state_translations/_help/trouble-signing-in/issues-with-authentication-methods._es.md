@@ -1,10 +1,10 @@
 ---
-layout: help 
-title: Problemas con los métodos de autenticación 
+layout: help
+title: Problemas con los métodos de autenticación
 category: trouble-signing-in
 permalink: /help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
-redirect_from: 
+redirect_from:
   - /help/creating-an-account/no-phone-or-other-authentication-method/
   - /help/creating-an-account/phone-didnt-get-a-security-code/
   - /help/creating-an-account/why-didnt-i-receive-a-security-code-to-confirm-my-phone/
@@ -25,9 +25,9 @@ redirect_from:
 
 Según los métodos de autenticación que haya configurado, es posible que todavía pueda acceder a su cuenta de Login.gov. Una vez que pueda iniciar sesión, cerciórese de haber configurado más de un método de autenticación para evitar perder el acceso a su cuenta.
 
-{% capture delete_account_alert_content %} 
-Si no puede iniciar sesión con su único método de autenticación, tendrá que eliminar su cuenta y crear una nueva. Login.gov no puede desbloquear su cuenta ni iniciar sesión por usted. 
-{% endcapture %} 
+{% capture delete_account_alert_content %}
+Si no puede iniciar sesión con su único método de autenticación, tendrá que eliminar su cuenta y crear una nueva. Login.gov no puede desbloquear su cuenta ni iniciar sesión por usted.
+{% endcapture %}
 {% include alert.html type="warning" class="margin-bottom-4" content=delete_account_alert_content %}
 
 ## El desbloqueo facial o táctil no funciona
@@ -47,15 +47,15 @@ Le recomendamos que configure otros métodos de autenticación en caso de que pi
 * Es posible que su código no llegue inmediatamente. Espere hasta 10 minutos, o pruebe el botón “Reenviar código” para volver a enviar su código.
 * Cerciórese de que no está usando un número de teléfono con extensión, ya que Login.gov no puede enviar códigos de un solo uso a extensiones.
 
-{% capture newest_otp_alert_content %} 
-Solo funcionará el código de un solo uso más reciente que reciba. Si solicita y recibe varios mensajes al mismo tiempo, es posible que tenga que probar más de un código hasta que uno funcione. 
-{% endcapture %} 
+{% capture newest_otp_alert_content %}
+Solo funcionará el código de un solo uso más reciente que reciba. Si solicita y recibe varios mensajes al mismo tiempo, es posible que tenga que probar más de un código hasta que uno funcione.
+{% endcapture %}
 {% include alert.html class="margin-bottom-4" content=newest_otp_alert_content %}
 
 ## Mi aplicación de autenticación no funciona
 
 * Puede ser que la hora no esté correctamente sincronizada entre su dispositivo y su aplicación de autenticación. Confirme que la hora de su dispositivo sea la correcta utilizando una página como [time.gov](https://www.time.gov/).
-  
+
   * Si usa Google Authenticator, es posible que tenga que sincronizar la hora manualmente. [Siga las instrucciones de Google para sincronizar la hora](https://support.google.com/accounts/answer/185834?hl=en).
 
 ## Mi código de recuperación no funciona

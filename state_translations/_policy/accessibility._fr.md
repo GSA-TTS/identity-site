@@ -1,8 +1,8 @@
 ---
-layout: sidenav 
-sidenav: accessibility 
-title: Accessibilité 
-description: Lisez notre déclaration concernant l’accessibilité 
+layout: sidenav
+sidenav: accessibility
+title: Accessibilité
+description: Lisez notre déclaration concernant l’accessibilité
 permalink: /accessibility/
 redirect_from:
   - /fr/accessibility/

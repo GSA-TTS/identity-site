@@ -1,8 +1,8 @@
 ---
-layout: help 
-title: Supprimer votre compte 
-category: manage-your-account 
-permalink: /fr/help/manage-your-account/delete-your-account/ 
+layout: help
+title: Supprimer votre compte
+category: manage-your-account
+permalink: /fr/help/manage-your-account/delete-your-account/
 order: 1
 redirect_from:
   - /en/help/manage-your-account/delete-your-account/

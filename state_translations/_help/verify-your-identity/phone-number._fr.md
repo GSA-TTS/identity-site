@@ -1,8 +1,8 @@
 ---
-layout: help 
-title: Vérifier votre numéro de téléphone 
-category: verify-your-identity 
-permalink: /fr/help/verify-your-identity/phone-number/ 
+layout: help
+title: Vérifier votre numéro de téléphone
+category: verify-your-identity
+permalink: /fr/help/verify-your-identity/phone-number/
 order: 5
 redirect_from:
   - /en/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/

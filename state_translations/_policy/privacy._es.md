@@ -1,8 +1,8 @@
 ---
-layout: sidenav 
-sidenav: policies 
-title: “Privacidad y seguridad: nuestra declaración de privacidad” 
-description: Conozca cómo solicitamos, usamos, conservamos y protegemos su información personal, así como su obligación de divulgarla. 
+layout: sidenav
+sidenav: policies
+title: “Privacidad y seguridad: nuestra declaración de privacidad”
+description: Conozca cómo solicitamos, usamos, conservamos y protegemos su información personal, así como su obligación de divulgarla.
 permalink: /policy/our-privacy-act-statement/
 redirect_from:
   - /en/policy/our-privacy-act-statement/

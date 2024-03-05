@@ -1,5 +1,5 @@
 ---
-title: Ayuda 
+title: Ayuda
 description: Obtenga respuestas a preguntas comunes sobre Login.gov.
 layout: help_landing
 permalink: /help/

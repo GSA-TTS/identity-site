@@ -1,16 +1,16 @@
 ---
-layout: landing 
+layout: landing
 permalink: /who-uses-login/
 one_account_banner: true
-title: Qui utilise Login.gov ? 
-description: Login.gov est un service de connexion fiable proposé par les autorités américaines. Le public peut utiliser Login.gov pour obtenir un accès simple et sécurisé aux services dispensés par nos organismes gouvernementaux partenaires. 
-class: who-uses-login 
+title: Qui utilise Login.gov ?
+description: Login.gov est un service de connexion fiable proposé par les autorités américaines. Le public peut utiliser Login.gov pour obtenir un accès simple et sécurisé aux services dispensés par nos organismes gouvernementaux partenaires.
+class: who-uses-login
 component:
   col1: |-
     ## Nos partenaires
 
     Les organismes fédéraux partenaires proposent toute une gamme de services tels que :
-    
+
     * USAJOBS (Bureau de la gestion du personnel)
     * Programme de protection des salaires (Administration des petites entreprises)
     * Programme de demandes de prêts en cas de catastrophe (Administration des petites entreprises)

@@ -1,9 +1,9 @@
 ---
-layout: help  
-title: Ajouter ou modifier votre méthode d’authentification  
-category: manage-your-account  
-permalink: /fr/help/manage-your-account/add-or-change-your-authentication-method/  
-order: 4  
+layout: help
+title: Ajouter ou modifier votre méthode d’authentification
+category: manage-your-account
+permalink: /fr/help/manage-your-account/add-or-change-your-authentication-method/
+order: 4
 redirect\_from:
     - /en/help/manage-your-account/add-or-change-your-authentication-method/
 ---
@@ -22,7 +22,7 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
 6. Sélectionnez un nouvel appareil à ajouter.[En savoir plus sur les méthodes d’authentification](/help/get-started/authentication-methods/)
 7. Suivez toutes les instructions pour confirmer vos modifications.
 
-## Articles connexes 
-[Méthodes d’authentification](/help/get-started/authentication-methods/) 
-[Mot de passe oublié](/help/trouble-signing-in/forgot-your-password/) 
+## Articles connexes
+[Méthodes d’authentification](/help/get-started/authentication-methods/)
+[Mot de passe oublié](/help/trouble-signing-in/forgot-your-password/)
 [Supprimer votre compte](/help/manage-your-account/delete-your-account/)

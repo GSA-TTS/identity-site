@@ -1,8 +1,8 @@
 ---
-layout: help 
-title: Gérer votre compte 
-category: manage-your-account 
-permalink: /fr/help/manage-your-account/overview/ 
+layout: help
+title: Gérer votre compte
+category: manage-your-account
+permalink: /fr/help/manage-your-account/overview/
 meta_title: Gérer votre compte
 order: 0
 redirect_from:
