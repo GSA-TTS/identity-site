@@ -1,4 +1,5 @@
 ---
-permalink: /fr/developers/
-redirect_to: https://developers.login.gov
----
+
+
+## permalink: /fr/developers/
+redirect\_to: https://developers.login.gov

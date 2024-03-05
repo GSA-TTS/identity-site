@@ -1,26 +1,26 @@
 ---
-title: Añadir o cambiar el método de autenticación
+layout: help
+title: Añada o cambie su método de autenticación
 category: manage-your-account
 permalink: /es/help/manage-your-account/add-or-change-your-authentication-method/
-order: 4 
+order: 4
 ---
-[Un método de autenticación](/es/help/get-started/authentication-methods/) es una medida adicional de seguridad para tu cuenta. Te aconsejamos que tengas al menos dos métodos de autenticación para tu cuenta en caso de que pierdas uno de ellos.
+[Un método de autenticación](/help/get-started/authentication-methods/) es nivel adicional de seguridad para su cuenta. Le recomendamos que tenga al menos dos métodos de autenticación para su cuenta en caso de que pierda uno de ellos.
 
-Si perdiste tu método de autenticación y no tienes una copia de seguridad conectada a la cuenta, [deberás eliminar la cuenta actual de Login.gov](/es/help/manage-your-account/delete-your-account/) y crear una nueva.
+Si perdió su método de autenticación y no tiene una copia de seguridad conectada a su cuenta, debe [eliminar su cuenta actual de Login.gov](/help/manage-your-account/delete-your-account/) y crear una nueva.
 
-## Añade o cambia tu método de autenticación:
+## Añada o cambie su método de autenticación:
 
 {: .number-list}
-1. Escribe tu dirección de correo electrónico en [https://secure.login.gov/es/](https://secure.login.gov/es/).
-2. Escribe tu contraseña.
-3. Haz clic en el botón "Iniciar sesión".
-4. Introduce tu método de autenticación.
-5. En la página de tu cuenta de Login.gov, revisa las opciones que aparecen en el menú "Tus métodos de autenticación" en la parte izquierda de la página.
-6. Seleccione el nuevo dispositivo que deseas añadir. [Obtén más información sobre los métodos de autenticación](/es/help/get-started/authentication-methods/).
-7. Sigue todas las indicaciones para la confirmación de los cambios.
+1. Ingrese su dirección de correo electrónico en [https://secure.login.gov](https://secure.login.gov/).
+2. Ingrese su contraseña.
+3. Haga clic en el botón “Iniciar sesión”.
+4. Ingrese su método de autenticación.
+5. En la página de su cuenta de Login.gov, revise las opciones del menú “Sus métodos de autenticación” en el lado izquierdo de la página.
+6. Seleccione el nuevo dispositivo que desea añadir.[Obtenga más información sobre los métodos de autenticación.](/help/get-started/authentication-methods/)
+7. Siga todas las indicaciones para confirmar sus cambios.
 
-## Artículos relacionados
-
-[Métodos de autenticación](/es/help/get-started/authentication-methods/)
-[Olvidé mi contraseña](/es/help/trouble-signing-in/forgot-your-password/)
-[Eliminar tu cuenta](/es/help/manage-your-account/delete-your-account/)
+## Otros artículos&nbsp;
+[Métodos de autenticación](/help/get-started/authentication-methods/)
+[Olvidó su contraseña](/help/trouble-signing-in/forgot-your-password/)
+[Elimine su cuenta](/help/manage-your-account/delete-your-account/)

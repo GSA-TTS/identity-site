@@ -1,45 +1,47 @@
 ---
+layout: sidenav
 sidenav: accessibility
 title: Accessibilité
-description: Accessibilité
+description: Lisez notre déclaration concernant l’accessibilité
 permalink: /fr/accessibility/
 ---
 
 ## Notre engagement
-Login.gov s’engage à être inclusif et accessible à tous nos utilisateurs. Notre objectif consiste à améliorer continuellement la façon dont les personnes en situation de handicap ou non peuvent utiliser Login.gov pour accéder facilement aux applications et aux services du gouvernement.
+
+Login.gov s’engage à être inclusif et accessible à tous ses utilisateurs. Nous mettons l’accent sur l’amélioration constante de la manière dont chacun peut utiliser Login.gov, quelle que soit ses capacités, pour accéder facilement aux applications et services publics.
 
 ## Normes
-  Login.gov entend se conformer aux [Directives du W3C sur l’accessibilité des contenus Web (WCAG) version 2.1 niveau AA](https://www.w3.org/TR/WCAG21/).
+Login.gov entend respecter les [Règles pour l'accessibilité des contenus Web (WCAG) version 2.1, niveau AA](https://www.w3.org/TR/WCAG21/).
 
-Vous devriez être en mesure de faire ce qui suit avec Login.gov :
+Avec Login.gov, vous devriez pouvoir faire les choses suivantes :
 
-* Utiliser un lecteur d’écran et lire le contenu de la page en utilisant la touche de déplacement vers le bas.
-* Être en mesure de voir et d’entendre le contenu, notamment en séparant le premier plan de l’arrière-plan.
-* Changer facilement la taille de la police à l’aide de votre navigateur. (Veuillez vous référer au menu d’aide de votre navigateur pour savoir comment redimensionner le texte.)
+* Utiliser un lecteur d’écran et lire le contenu de la page à l’aide de la flèche du bas.
+* Voir et entendre le contenu, notamment en séparant l’avant-plan de l’arrière-plan.
+* Changer facilement la taille de la police à l’aide de votre navigateur. (Veuillez vous référer au menu d’aide de votre navigateur pour apprendre comment redimensionner le texte.)
 
 ## Évaluation
-Login.gov est régulièrement apprécié grâce à une série d’outils d’évaluation semi-automatisés et par l’évaluation manuelle des experts. Après chaque évaluation, nous élaborons un plan pour traiter tout domaine nécessitant une amélioration.
+Login.gov fait régulièrement l’objet d’évaluations grâce à toute une série d’outils d’évaluation semi-automatiques ainsi que par des experts réviseurs qui travaillent manuellement. À l’issue de chaque évaluation, nous élaborons un plan visant à traiter les points à améliorer.
 
-Vous trouverez ci-dessous le lien d’accès à nos rapports d’évaluation de l’accessibilité dûment remplis :
+Nos rapports d’évaluation de l’accessibilité passés sont disponibles ci-dessous :
 
-* [IAL 1 Rapport de création de compte](/docs/accessibility-assessment-ial1-account-creation.pdf)
-* Télécharger le [Informe de verificación de identidad [DOCX, 363KB]](/docs/identity-verification-report.docx)
-* [Informe de verificación de identidad [PDF, 150KB]](/docs/identity-verification-report.pdf)
+* [Rapport sur la création d’un compte IAL 1](/docs/accessibility-assessment-ial1-account-creation.pdf)
+* Télécharger le [Rapport sur la vérification d'identité \[DOCX, 363KB]](/docs/identity-verification-report.docx)
+* [Rapport sur la vérification d'identité \[PDF, 150KB]](/docs/identity-verification-report.pdf)
 
 ## Limites connues
-Vous trouverez ci-dessous une description des types de limitations d’accessibilité découverts au cours de nos évaluations.
+Vous trouverez ci-dessous une description des types de limites en matière d’accessibilité que nos évaluations ont permis de mettre en lumière.
 
 ### Images
-Les images et les graphiques rendent le contenu plus agréable et plus facile à comprendre pour de nombreuses personnes, et en particulier pour celles ayant des troubles de la cognition et de l’apprentissage. Certaines images peuvent encore créer des obstacles:
+Les images et illustrations rendent le contenu plus agréable et plus facile à comprendre pour de nombreuses personnes, surtout celles qui présentent des difficultés cognitives et d’apprentissage. Cependant, certaines images peuvent encore créer des obstacles :
 
-* Chez les personnes utilisant des lecteurs d’écran : le texte alternatif peut être lu à haute voix ou traduit en Braille
-* Chez les personnes utilisant un logiciel de saisie vocale : les utilisateurs peuvent mettre l’accent sur un bouton ou sur une image liée à l’aide d’une seule commande vocale
-* Chez les personnes qui naviguent sur des sites Web à commande vocale : le texte alternatif peut être lu à haute voix
-* Chez les utilisateurs du Web mobile : les images peuvent être désactivées, en particulier pour les données en itinérance
-* Optimisation des moteurs de recherche : les images deviennent indexables par les moteurs de recherche
+* Chez les personnes qui utilisent des lecteurs d’écran : l’alternative au texte peut être lue à voix haute ou transcrite en braille
+* Chez les personnes qui utilisent un logiciel de saisie vocale : les utilisateurs peuvent se centrer sur un bouton ou une image liée à l’aide d’une seule commande vocale
+* Chez les personnes qui naviguent sur des sites à commande vocale : l’alternative au texte peut être lue à voix haute
+* Chez les internautes mobiles : il est possible de désactiver les images, surtout pour les données en itinérance
+* Pour l’optimisation pour moteur de recherche : les images deviennent indexables par les moteurs de recherche
 
 ### Navigation au clavier
-Grâce à la navigation au clavier, les utilisateurs peuvent accéder et naviguer entre les liens, les boutons, les formulaires, et les autres outils de contrôles en utilisant la touche de tabulation et d’autres frappes.
+Grâce à la navigation au clavier, les utilisateurs peuvent accéder aux liens, boutons, formulaires et autres commandes et passer de l’un à l’autre à l’aide de différentes touches, notamment la touche de tabulation.
 
 ### Saut de navigation
-Permet aux utilisateurs qui utilisent un clavier pour naviguer sur une page, d’activer le lien de saut de navigation pour passer par-dessus de longues listes et sous-listes d’informations de navigation et d’en-tête de page.
+Permet aux utilisateurs qui se servent de la navigation au clavier d’activer le lien de saut de navigation afin de passer les longues listes et les sous-listes de navigation et les en-têtes de page.

@@ -1,8 +1,9 @@
 ---
-title: ¿Problemas al iniciar sesión?
+layout: help
+title: ¿Tiene problema para iniciar sesión?
 category: trouble-signing-in
 permalink: /es/help/trouble-signing-in/overview/
-meta_title: ¿Problemas al iniciar sesión?
+meta_title: Trouble signing in?
 order: 0
 redirect_from:
   - /es/help/signing-in/forgot-my-email-address/
@@ -16,11 +17,11 @@ redirect_from:
   - /es/help/usajobs/im-trying-to-sign-in-but-it-doesnt-work/
 ---
 
-¿Olvidaste tu contraseña? ¿Bloqueado tu cuenta? Lo ayudaremos a resolver problemas de acceso a la cuenta.
+¿Olvidó su contraseña? ¿Está bloqueado el acceso a su cuenta? Le ayudaremos a resolver los problemas de acceso a la cuenta.
 
-## Temas más comunes de solución de problemas
+## Temas comunes para la solución de problemas
 
 {: .help-question-list}
-* [Cómo acceder a Login.gov](/es/help/trouble-signing-in/how-to-sign-in/)
-* [Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
-* [Problemas con el desbloqueo facial o táctil](/es/help/trouble-signing-in/face-or-touch-unlock/)
+* [Cómo iniciar sesión en Login.gov](/help/trouble-signing-in/how-to-sign-in/)
+* [Olvidó su contraseña](/help/trouble-signing-in/forgot-your-password/)
+* [Problemas con el desbloqueo facial o táctil](/help/trouble-signing-in/face-or-touch-unlock/)

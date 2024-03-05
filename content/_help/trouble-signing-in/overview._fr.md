@@ -1,7 +1,8 @@
 ---
-title: Des problèmes de connexion?
+layout: help
+title: Difficultés de connexion ?
 category: trouble-signing-in
-permalink: /fr/help/trouble-signing-in/overview/
+permalink: /fr/help/trouble-signing-in/overview/ meta\_title: Difficultés de connexion ? order: 0
 meta_title: Des problèmes de connexion?
 order: 0
 redirect_from:
@@ -16,11 +17,11 @@ redirect_from:
   - /fr/help/usajobs/im-trying-to-sign-in-but-it-doesnt-work/
 ---
 
-Vous avez oublié votre mot de passe? Verrouillé votre compte? Nous vous aiderons à résoudre les problèmes d’accès au compte.
+Mot de passe oublié ? Compte verrouillé ? Nous vous aiderons à résoudre les problèmes d’accès à votre compte.
 
 ## Sujets de dépannage courants
 
 {: .help-question-list}
-* [Comment se connecter à Login.gov](/fr/help/trouble-signing-in/how-to-sign-in/)
-* [Mot de passe oublié](/fr/help/trouble-signing-in/forgot-your-password/)
-* [Problèmes avec déverrouillage facial ou tactile](/fr/help/trouble-signing-in/face-or-touch-unlock/)
+* [Comment se connecter à Login.gov](/help/trouble-signing-in/how-to-sign-in/)
+* [Mot de passe oublié](/help/trouble-signing-in/forgot-your-password/)
+* [Problèmes avec le déverrouillage facial ou tactile](/help/trouble-signing-in/face-or-touch-unlock/)

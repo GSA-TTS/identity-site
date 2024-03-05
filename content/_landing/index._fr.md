@@ -1,42 +1,35 @@
 ---
-permalink: /fr/
+layout: landing
+permalink: /
 redirect_from:
-  - /fr/playbook/
-  - /fr/playbook/implementation/
-  - /fr/playbook/principles/
+  - /fr/
+  - /playbook/
+  - /playbook/implementation/
+  - /playbook/principles/
 one_account_banner: true
-title: Le seul compte public pour le gouvernement.
-description: Utilisez un compte et un mot de passe pour un accès sécurisé et
-  privé aux agences gouvernementales participantes.
+title: Le seul compte du public pour l’accès aux autorités.
+description: Utilisez un seul et même compte et mot de passe pour obtenir un accès privé sécurisé aux organismes gouvernementaux participants.
 class: why-login-gov
 three_col:
   heading: Login.gov est fait pour vous
-  subheading1: Personnes
+  subheading1: Particuliers
   col_class1: individuals
-  col1: >-
-    Utilisez un seul compte pour un accès sécurisé et privé aux agences
-    gouvernementales participantes.
+  col1: \>-
+    Utilisez un seul et même compte pour un accès privé sécurisé aux organismes gouvernementaux participants.
 
 
-    [En savoir plus sur Login.gov](/fr/what-is-login/){:class="why-more-info"}
-  subheading2: Partenaires de l’agence
+  [En savoir plus sur Login.gov](/what-is-login/){:class="why-more-info"}
+  subheading2: Organismes partenaires
   col_class2: partners
   col2: >-
-    Protégez les informations de vos utilisateurs avec les plus hauts standards
-    de sécurité numérique et d’expérience utilisateur. Login.gov gère le
-    développement de logiciels, les opérations de sécurité et le support client
-    pour que vous n’ayez pas à le faire.
+    Protéger les informations de vos utilisateurs à l’aide des plus hauts standards de sécurité numérique et d’expérience utilisateur. Login.gov gère la mise au point des logiciels, les opérations de sécurité et le service client pour que vous n’ayez pas à vous en occuper.
 
-
-    [Devenir un partenaire](/partners/){:class="why-more-info"}
-  subheading3: Développeurs d’agence
+    [Devenir partenaire](/partners/){:class="why-more-info"}
+  subheading3: Développeurs des organismes
   col_class3: developers
   col3: >-
-    Ressources de développement, support en temps réel et outils modernes pour
-    vous aider à implémenter et déployer votre application avec Login.gov
+    Des ressources pour les développeurs, un soutien en temps réel et des outils modernes pour vous aider à mettre en œuvre et déployer votre application avec Login.gov
 
-
-    [Voir le guide du développeur](https://developers.login.gov/){:class="why-more-info"}
-twitter_card: large
+    [Voir le guide du développeur](https://developers.login.gov/){:class="why-more-info"} twitter_card: large
 image: /assets/img/login-gov-600x314.png
 ---

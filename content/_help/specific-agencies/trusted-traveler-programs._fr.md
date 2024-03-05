@@ -1,8 +1,9 @@
 ---
-title: Programmes pour voyageurs fiables (TTP)
+layout: help
+title: Programme pour les voyageurs dignes de confiance (TTP)
 category: specific-agencies
 permalink: /fr/help/specific-agencies/trusted-traveler-programs/
-keywords: global entry, demande d'global entry, renouveler l'global entry, nexus, tsa, sentri, voyageurs fiables, ttp, renouvellement d'global entry
+keywords: global entry, demande de global entry, renouveler global entry, nexus, TSA, Sentri, voyageurs dignes de confiance, TTP, renouvellement global entry
 order: 1
 redirect_from:
   - /fr/help/trusted-traveler-programs/another-question/
@@ -29,20 +30,22 @@ redirect_from:
   - /fr/help/trusted-traveler-programs/will-my-ktn-known-traveler-number-change/
 ---
 
-Login.gov est réservé à l'identification sécurisée. Votre compte Login.gov n'affecte pas et ne contient aucune information sur votre demande, votre adhésion ou votre éligibilité aux [Programmes pour voyageurs fiables](https://ttp.dhs.gov/) (TTP). Veuillez ne pas envoyer à Login.gov de données sensibles vous concernant ou identifiant
+Login.gov est réservé à l'identification sécurisée. Votre compte Login.gov n’a pas d’incidence et ne contient aucune information sur votre demande d’adhésion au [Programme pour les voyageurs dignes de confiance ](https://ttp.dhs.gov/)(TTP) ou votre adhésion ou admissibilité à ces programmes. Veuillez ne pas envoyer à Login.gov de données sensibles vous concernant ou de numéros d’adhérent permettant de vous identifier.
 
-Login.gov ne peut répondre qu'aux questions concernant le processus d'inscription et la création d'un Compte Login.gov.
+Login.gov ne peut répondre qu'aux questions concernant la création d'un compte Login.gov et le processus de connexion.
 
-Veuillez contacter directement les [Programmes pour voyageurs fiables](https://help.cbp.gov/s/questions?language=en_US) si vous avez des questions concernant :
+Veuillez contacter directement les [Programme pour les voyageurs dignes de confiance](https://ttp.dhs.gov/) si vous avez des questions concernant :
 
-* Statut de la demande ou modifications apportées à votre demande
-* Éligibilité
-* Fixation ou modification des rendez-vous
-* Ou d'autres préoccupations connexes
+* Le statut de votre demande d’adhésion ou des modifications de votre demande
+* Votre admissibilité
+* La prise ou la modification de rendez-vous
+* Ou d’autres préoccupations connexes
 
 Notes importantes :
-* Votre numéro de voyageur connu (KTN) ne change pas lorsque vous créez un compte Login.gov * Vous n'avez pas besoin de payer à nouveau pour le TTP lorsque vous créez un compte Login.gov à moins que le moment ne soit venu de renouveler votre adhésion
 
-Pour accéder aux informations relatives à votre compte dans le cadre des programmes pour voyageurs fiables, visitez <https://ttp.cbp.dhs.gov/>.
+* Votre numéro de voyageur connu (KTN) ne change pas lorsque vous créez un compte Login.gov.
+* Vous n'avez pas besoin de payer à nouveau l’adhésion au TTP lorsque vous créez un compte Login.gov, à moins que le moment ne soit venu de renouveler votre adhésion.
 
-Si vous vous connectez directement à partir de la page d'accueil de Login.gov, vous ne verrez que les informations de votre compte Login.gov.
+Pour accéder aux informations relatives à votre compte du Programme pour les voyageurs dignes de confiance, rendez-vous sur <https://ttp.cbp.dhs.gov/>.
+
+En cas de connexion directe depuis la page d'accueil de Login.gov, seules les informations de votre compte Login.gov s’afficheront.

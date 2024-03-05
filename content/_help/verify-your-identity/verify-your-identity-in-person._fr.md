@@ -1,4 +1,5 @@
 ---
+layout: help
 title: Vérifier votre identité en personne
 category: verify-your-identity
 children: 
@@ -6,95 +7,95 @@ children:
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-Si vous ne parvenez pas à télécharger votre pièce d'identité sur Login.gov, vous pourriez faire une vérification en personne à un bureau de poste participant.
+Si vous ne parvenez pas à télécharger votre pièce d'identité sur Login.gov, il vous est possible de procéder à une vérification en personne à un bureau de poste des États-Unis (USPS) participant.
 
-## Commencez cette procédure sur Login.gov avant de vous rendre au bureau de poste 
+## Commencez cette procédure sur Login.gov avant de vous rendre au bureau de poste
 
 Veuillez préparer les informations suivantes pour les saisir sur Login.gov :
 
-1. Votre carte d'identité délivrée par l'État. [Vous n'avez pas de carte d'identité délivrée par l'État?](/fr/help/verify-your-identity/accepted-state-issued-identification/)
+1. Votre pièce d'identité délivrée par l'État. [Vous n'avez pas de pièce d'identité délivrée par l'État ?](/help/verify-your-identity/accepted-state-issued-identification/)
 2. Votre numéro de sécurité sociale
 3. Votre numéro de téléphone
-   a. Si vous ne pouvez pas effectuer cette étape, nous pouvons [vous envoyer un code de vérification par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/), ce qui prend 5 à 10 jours.
+   a. Si vous ne pouvez pas effectuer cette étape, nous pouvons [vous envoyer un code de vérification par courrier](/help/verify-your-identity/verify-your-address-by-mail/), qui prendra 5 à 10 jours pour vous parvenir.
 
-Si vous ne parvenez pas à effectuer l'une de ces étapes, veuillez contacter le centre d'assistance de l'agence partenaire pour obtenir de l'aide.   
+Si vous ne parvenez pas à effectuer l'une de ces étapes, veuillez contacter le centre d'assistance de l'organisme partenaire pour obtenir de l'aide.
 
 ## Apportez les articles suivants au bureau de poste
 
-### Une copie de votre code-barres envoyé par courriel
+### Une copie de votre code-barres reçu par e-mail
 
-Une fois que vous aurez complété les étapes sur Login.gov, nous vous enverrons par courriel un code-barres et une date limite pour vous rendre au bureau de poste. Vous pouvez imprimer le courriel, ou le montrer depuis votre cellulaire. Si vous vous rendez au bureau de poste après la date limite, vos informations ne seront pas sauvegardées et vous devrez recommencer le processus.  
+Une fois que vous aurez terminé les différentes étapes sur Login.gov, nous vous enverrons par e-mail un code-barres et une date limite pour vous rendre au bureau de poste. Vous pouvez imprimer l’e-mail ou le montrer depuis votre téléphone portable. Si vous vous rendez au bureau de poste après la date limite, vos informations ne seront pas sauvegardées et vous devrez recommencer le processus.
 
 ### Votre carte d'identité délivrée par l'État
 
-Apportez la même carte d'identité que vous avez utilisée sur Login.gov. Votre pièce d'identité ne doit pas être périmée. Pour l'instant, seules les pièces d'identité suivantes, délivrées par l'État, sont acceptées : 
+Apportez la même pièce d’identité que vous avez utilisée sur Login.gov. Votre pièce d’identité ne doit pas être périmée. Pour l’instant, seules les pièces d’identité suivantes, délivrées par l’État, sont acceptées :
 
-* Un permis de conduire des 50 États, du district de Columbia (D. C.) et des autres territoires américains (Guam, îles Vierges américaines, Samoa américaines, îles Mariannes et Porto Rico).
-* Une carte d'identité sans permis de conduire délivrée par l'État.
-* * Il s'agit d'un document d'identité délivré par l'État, le district de Columbia (D. C.) ou le territoire américain, qui atteste de l'identité mais ne donne pas le droit de conduire.
+* Permis de conduire des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, Îles Vierges des États-Unis, Samoa américaines, Îles Mariannes et Porto Rico)
+* Pièce d’identité délivrée par l’État, à l’exception d’un permis de conduire
 
-Nous n'acceptons actuellement aucune autre forme d'identification, comme les passeports et les cartes d'identité militaires. Vous ne pouvez pas vérifier votre identité au bureau de poste sans un document d'identité délivré par l'État. Nous travaillons actuellement à l'ajout d'autres moyens de vérifier votre identité.
+  * Il s'agit d'une pièce d'identité délivrée par un État, le district de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais ne donne pas le droit de conduire.
 
-En attendant, veuillez contacter le centre d'assistance de l'agence partenaire pour savoir ce que vous pouvez faire.
+Nous n’acceptons actuellement aucune autre forme d’identification, comme les passeports et les cartes d’identité militaires. Vous ne pouvez pas vérifier votre identité à un bureau de poste sans une pièce d’identité délivrée par l’État. Nous travaillons actuellement à l’ajout d’autres moyens de vérifier votre identité.
 
-## Terminez la procédure dans un bureau de poste participant avant la date limite.
+En attendant, veuillez contacter le centre d’assistance de l’organisme partenaire pour découvrir les autres options qui s’offrent à vous.
 
-### La vérification en personne est disponible dans les établissements participants aux États-Unis et dans certains territoires américains.* 
+## Achevez le processus à un bureau de poste participant avant la date limite
 
-Lorsque vous lancez la procédure sur [Login.gov](https://secure.login.gov/fr), nous vous aidons à trouver une liste des bureaux de poste participants près de chez vous. Vous pouvez également [rechercher un bureau de poste voisin de votre domicile dans notre Centre d’aide](/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/).
+### La vérification en personne est disponible dans les établissements participants aux États-Unis et dans certains territoires américains.\*
 
-Une fois que vous avez reçu un code-barres en ligne, vous pouvez vous rendre dans n’importe quel bureau de poste où la vérification en personne est possible.
+Lorsque vous commencerez la procédure sur [Login.gov](https://secure.login.gov/), nous vous aiderons à trouver une liste des bureaux de poste participants près de chez vous. Vous pouvez également [rechercher un bureau de poste près de chez vous dans notre Centre d’aide](/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/).
 
-**\*Territoires américains disponibles:** Îles Vierges américaines, Samoa américaines, Guam, Porto Rico et Îles Mariannes du Nord.
+Une fois que vous avez reçu un code-barres en ligne, vous pouvez vous rendre dans n’importe quel bureau de poste où il est possible de procéder à la vérification en personne.
 
+**\* Territoires américains disponibles :** Îles Vierges américaines, Samoa américaines, Guam, Porto Rico et Îles Mariannes du Nord.
 
-### Vous pouvez parler à n'importe quel associé du magasin pour vérifier votre identité
+### Vous pouvez vous adresser à n'importe quel préposé pour vérifier votre identité
 
-* Faites la queue au bureau de poste. L'employé scannera votre code-barres et examinera vos documents.
-* Une fois que l'employé aura examiné vos documents, vous avez terminé au bureau de poste. Cet employé ne recevra pas vos résultats.
+* Faites la queue au bureau de poste. Le préposé scannera votre code-barres et examinera vos documents.
+* Une fois qu’il aura examiné vos documents, la procédure au bureau de poste est terminée. Le préposé ne recevra pas vos résultats.
 
-### Nous vous enverrons un courriel avec les prochaines étapes
+### Nous vous enverrons un e-mail avec les prochaines étapes
 
-Nous vous enverrons un courriel pour vous informer de la réussite ou de l'échec de la vérification de votre identité dans les 24 heures suivant votre visite au bureau de poste. 
+Nous vous enverrons un e-mail pour vous informer de la réussite ou de l'échec de la vérification de votre identité dans les 24 heures suivant votre visite au bureau de poste.
 
-Si la vérification de votre identité n'a pas abouti, vous pouvez :
+En cas d’échec de la vérification de votre identité, vous pouvez :
 
-* Essayer à nouveau de vérifier votre identité en ligne.
-* Contacter le centre d'assistance de l'agence partenaire pour obtenir de l'aide.
+* Réessayer de vérifier votre identité en ligne
+* Contacter le centre d’assistance de l’organisme partenaire pour obtenir de l’aide
 
-Si vous ne recevez pas de courriel de notre part, il y a quelques étapes que vous pouvez suivre :
+Si vous ne recevez pas d’e-mail de notre part, il y a certaines mesures que vous pouvez prendre :
 
-* Vérifiez dans le dossier de pourriels ou de courriers indésirables de votre courriel s'il y a un courriel de [no-reply@login.gov](mailto:no-reply@login.gov).
-* Si vous n'avez pas eu de nouvelles après 24 heures de votre visite au bureau de poste, veuillez contacter le service clientèle de Login.gov sur le site [login.gov/contact](https://login.gov/contact).
+* Vérifiez dans votre dossier de pourriels ou de courriers indésirables s'il contient un e-mail de [no-reply@login.gov](mailto:no-reply@login.gov).
+* Si vous n'avez pas eu de nos nouvelles après 24 heures de votre visite au bureau de poste, veuillez contacter le service clientèle de Login.gov sur [login.gov/contact](https://login.gov/contact).
 
 ## Résolution des problèmes liés à la vérification de votre identité en personne
 
-Si vous avez rencontré un problème en essayant de vérifier votre identité en personne, nous aimerions vous aider à le résoudre. Voici quelques conseils pour résoudre le problème. 
+Si vous avez rencontré un problème en essayant de vérifier votre identité en personne, nous aimerions vous aider à le résoudre. Voici quelques conseils pour résoudre le problème.
 
-### Ce qu’il faut faire si vous avez reçu un courriel, mais que vous n’avez pas essayé de vérifier votre identité en personne
+### Ce qu’il faut faire si vous avez reçu un e-mail, mais n’avez pas essayé de vérifier votre identité en personne
 
-Si vous avez reçu un courriel vous informant que vous êtes prêt à vérifier votre identité ou que votre identité n’a pas pu être vérifiée en personne, et que vous n’avez pas tenté cette action: 
+Si vous avez reçu un e-mail vous informant que vous êtes prêt à vérifier votre identité ou que votre identité n’a pas pu être vérifiée en personne alors que vous n’avez pas essayé de le faire :
 
-[Connectez-vous](https://secure.login.gov/fr/) et [changez votre mot de passe immédiatement](/fr/help/manage-your-account/change-your-password/). Si vous le souhaitez, vous pouvez également [supprimer votre compte](/fr/help/manage-your-account/delete-your-account/).
+[Connectez-vous](https://secure.login.gov/) et [modifiez immédiatement votre mot de passe](/help/manage-your-account/change-your-password/). Le cas échéant, vous pouvez également choisir de [supprimer votre compte](/help/manage-your-account/delete-your-account/).
 
 ### Ce qu’il faut faire si vous n’avez pas pu vérifier votre identité en personne
 
-Si vous ne parvenez pas à vérifier votre identité en personne, vous pouvez réessayer de [vérifier votre identité en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/) ou contacter l’agence à laquelle vous essayez d’accéder [pour obtenir de l’aide sur des questions spécifiques](/fr/help/specific-agencies/overview/) relatives la vérification de votre identité.
+Si vous ne parvenez pas à vérifier votre identité en personne, vous pouvez réessayer de [vérifier votre identité en ligne](/help/verify-your-identity/how-to-verify-your-identity/) ou contacter l’organisme auquel vous essayez d’accéder pour [obtenir de l’aide sur des questions spécifiques](/help/specific-agencies/overview/) relatives à la vérification de votre identité.
 
-Conseils pour vérifier votre identité en personne: 
+Conseils pour vérifier votre identité en personne :
 
-* Votre pièce d’identité ou votre permis de conduire délivré par l’État doit être en cours de validité. Nous n’acceptons actuellement aucune autre forme d’identification.
+* Votre carte d’identité délivrée par l’État ou votre permis de conduire ne doit pas être périmé. Nous n’acceptons actuellement aucune autre forme d’identification.
 
 ### Ce qu’il faut faire si le délai pour vérifier votre identité en personne est passé
 
-Si vous avez reçu un courriel vous informant que le délai de vérification de votre identité est expiré, essayez [à nouveau de vérifier votre identité en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/). 
+Si vous avez reçu un e-mail vous informant que le délai de vérification de votre identité est passé, réessayez de [vérifier votre identité en ligne](/help/verify-your-identity/how-to-verify-your-identity/).
 
-Nous annulons automatiquement les demandes après 30 jours afin de protéger les données personnelles des demandeurs. Lorsque vous relancerez le processus de vérification de votre identité en personne, vous recevrez une nouvelle date limite.
+Nous annulons automatiquement les demandes après 30 jours afin de protéger les données personnelles des demandeurs. Lorsque vous recommencerez le processus de vérification de votre identité en personne, vous recevrez une nouvelle date limite.
 
-## Artículos relacionados
+## Articles connexes
 
-[Aide pour des agences spécifiques](/fr/help/specific-agencies/overview/)
+[Aide concernant des organismes spécifiques](/help/verify-your-identity/accepted-state-issued-identification/)
 
-[Pièces d’identité acceptées, délivrées par l’État](/fr/help/verify-your-identity/accepted-state-issued-identification/)
+[Pièces d’identité acceptées, délivrées par l’État](/help/verify-your-identity/how-to-verify-your-identity/)
 
-[Vérifier votre identité en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/)
+[Vérifier votre identité en ligne](/help/verify-your-identity/how-to-verify-your-identity/)

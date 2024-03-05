@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Comment ajouter des images de votre permis de conduire ou de votre carte d'identité de l’État
+title: Comment ajouter des images de votre permis de conduire ou de votre carte d’identité category: verify-your-identity
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
@@ -8,23 +8,24 @@ redirect_from:
   - /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 do_list:
-  - Utilisez une caméra à haute résolution telle qu'une caméra de téléphone intelligent ou de tablette. La webcaméra de votre ordinateur risque de ne pas prendre de photos claires.
-  - Utilisez un fond solide et sombre.
-  - Prenez vos photos dans un endroit bien éclairé avec une lumière indirecte.
-  - Vérifiez que les codes-barres ne sont pas endommagés ou sales.
-  - Essayez de maintenir votre téléphone immobile pendant que vous prenez les photos. Il peut être utile de poser vos bras sur la table pour vous stabiliser.
+  - Assurez-vous d’utiliser une caméra à haute résolution, comme celle d’un smartphone ou d’une tablette. La webcam de votre ordinateur risque en effet de ne pas prendre de photos bien nettes.
+  - Utilisez un arrière-plan sombre et uni.
+  - Prenez vos photos dans un endroit bien éclairé, avec une lumière indirecte.
+  - Vérifiez que les codes-barres des pièces d’identité ne soient ni endommagés, ni sales.
+  - Essayez de ne pas bouger votre téléphone pendant la prise des photos. Il peut être utile de poser vos bras sur une table pour rester stable.
 ---
 
-{% capture alert_link %}
-  <a href="/fr/help/verify-your-identity/accepted-state-issued-identification/">permis de conduire valide ou de carte d'identité d'État</a>
+
+{% capture alert\_link %}
+  <a href="/help/verify-your-identity/accepted-state-issued-identification/">permis de conduire ou carte d'identité en cours de validité</a>
 {% endcapture %}
 
-{% capture alert_content %}
-  <strong>
-    Si vous n'avez pas de {{ alert_link }} vous ne pouvez pas utiliser Login.gov pour vérifier votre identité.
+{% capture alert\_content %}
+  <strong> Si vous n’avez pas de {{ alert\_link }}, vous ne pouvez pas utiliser Login.gov à des fins de vérification d’identité.
   </strong>
-  Veuillez contacter le centre d'assistance de l'agence partenaire pour savoir ce que vous pouvez faire à la place.
+  Veuillez contacter le centre d'assistance de l'organisme partenaire pour découvrir les autres options qui s’offrent à vous.
 {% endcapture %}
+
 
 {%
   include alert.html
@@ -36,23 +37,22 @@ do_list:
 <div class="margin-top-5">
   <span class="usa-tag usa-tag--informative">Recommandation</span>
 </div>
-
 <div class="margin-top-2">
   <h2 id="phone-tips" class="margin-0">
-      Utilisez un téléphone pour prendre des photos du recto et du verso de votre pièce d’identité
+    Utiliser un téléphone pour photographier le recto et le verso de votre pièce d’identité
   </h2>
 </div>
 
 Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez passer à un téléphone pour prendre des photos de votre pièce d'identité.
 
-### Conseils pour prendre des photos claires avec un téléphone
+### Conseils pour prendre des photos nettes avec un téléphone
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
-    <img alt="La face de la pièce d'identité est centrée dans le cadre de la caméra et placée sur un fond sombre." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
+    <img alt="Le recto de la pièce d’identité doit être cadré au centre sur un arrière plan foncé." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
   </div>
   <div class="tablet:grid-col">
-    <img alt="Le dos de pièce d'identité est centré dans le cadre de la caméra et placé sur un fond sombre." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
+    <img alt="Le verso de la pièce d’identité doit être cadré au centre sur un arrière plan foncé." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
   </div>
 </div>
 
@@ -70,21 +70,21 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text="La pièce d'identité est placée sur un fond blanc."
+      image-alt-text='La pièce d’identité est placée sur un fond blanc.'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
-      do_dont_text="À NE PAS FAIRE"
-      text='Utiliser un fond blanc'
+      do_dont_text="NE PAS"
+      text='Utiliser de fond blanc'
     %}
   </div>
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text="La pièce d'identité est placée sur un fond texturé."
+      image-alt-text='La pièce d’identité est placée sur un fond texturé.'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
-      do_dont_text="À NE PAS FAIRE"
-      text='Utiliser des arrière-plans texturés à motifs'
+      do_dont_text="NE PAS"
+      text='Utiliser de fond texturé ou à motif'
     %}
   </div>
 </div>
@@ -92,51 +92,50 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text="Les bords de la pièce d'identité sont tronqués."
+      image-alt-text='Les bordures de votre pièce d’identité sont recadrés.'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
-      do_dont_text="À NE PAS FAIRE"
-      text="Recadrer les bords de votre pièce d'identité"
+      do_dont_text="NE PAS"
+      text='Recadrer les bords de votre pièce d’identité'
     %}
   </div>
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text="Il y a des reflets et des ombres projetées sur la pièce d'identité."
+      image-alt-text='Il y a des reflets et des ombres sur l’image de la pièce d’identité.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      do_dont_text="À ÉVITER"
+      do_dont_text="ÉVITER"
       text='Les reflets et les ombres'
     %}
   </div>
 </div>
-
 ---
 
-## Si vous n'avez pas accès à un téléphone équipé d'une caméra, vous pouvez téléverser un fichier ou utiliser un scanner
+## Si vous n'avez pas accès à un téléphone équipé d'une caméra, vous pouvez télécharger un fichier ou utiliser un scanner
 
-* Suivez les [mêmes conseils pour prendre des photos avec un téléphone](#phone-tips).
-* Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser un fichier PDF. Regardez le nom de votre fichier et il devrait avoir une abréviation après le titre (ex : JohnDoeID_Front.jpg).
-* Veillez à ce que vos images soient en haute résolution (environ 2025 x 1275 pixels).
+* Suivez les mêmes [conseils pour prendre des photos avec un téléphone](#phone-tips).
+* Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser de fichier PDF. Regardez le nom de votre fichier : il devrait contenir une abréviation après le titre (p. ex. PhotoJeanDupont\_recto.jpg).
+* Veillez à ce que vos images soient en haute résolution (environ 2 025 x 1 275 pixels).
 * Les images doivent être en couleur.
 
 ---
 
-## Mettez votre navigateur à jour
+## Dépannage
 
-Un navigateur obsolète peut être à l'origine de votre erreur. Suivez les instructions ci-dessous pour mettre à jour votre navigateur :
+Un navigateur obsolète peut être à l'origine de l’erreur. Suivez les instructions ci-dessous pour mettre à jour votre navigateur :
 
-* [Google Chrome](https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=fr-CA)
-* [Mozilla Firefox](https://support.mozilla.org/fr/kb/mettre-jour-firefox-derniere-version?redirectslug=update-firefox-latest-version)
-* [Safari](https://support.apple.com/fr-ca/HT204416)
+* [Google Chrome](https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=en-US)
+* [Mozilla Firefox](https://support.mozilla.org/en-US/kb/update-firefox-latest-version)
+* [Safari](https://support.apple.com/en-us/HT204416)
 
-Veillez à redémarrer votre ordinateur et à essayer de vous connecter à nouveau.
+Veillez à redémarrer votre ordinateur, puis essayez de vous reconnecter.
 
-## Effacez le cache et les cookies de votre navigateur
+## Effacez la mémoire cache et les cookies de votre navigateur
 
-Essayez de vider le cache et les cookies de votre navigateur, ou les données qu'il stocke, pour résoudre votre erreur. Suivez les instructions ci-dessous pour effacer le cache et les cookies de votre navigateur :
+Essayez d’effacer la mémoire cache et les cookies de votre navigateur ou les données qu'il stocke pour résoudre l’erreur. Suivez les instructions ci-dessous pour effacer le cache et les cookies de votre navigateur :
 
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=fr)
-* [Mozilla Firefox](https://support.mozilla.org/fr/kb/comment-vider-le-cache-de-firefox)
-* [Safari](https://support.apple.com/fr-ca/HT201265)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=en)
+* [Mozilla Firefox](https://support.mozilla.org/en-US/kb/how-clear-firefox-cache)
+* [Safari](https://support.apple.com/en-us/HT201265)
 
-Veillez à redémarrer votre ordinateur et essayez de vous connecter à nouveau.
+Veillez à redémarrer votre ordinateur, puis essayez de vous reconnecter.
