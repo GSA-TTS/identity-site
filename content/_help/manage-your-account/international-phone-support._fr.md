@@ -21,9 +21,9 @@ Nous vous encourageons à configurer plus d'une méthode d'authentification pour
 
 {% include country_support_table.html
            heading_country="Pays"
-           heading_dialing\_code="Indicatif"
+           heading_dialing_code="Indicatif"
            heading_sms="Prise en charge par SMS"
            heading_voice="Prise en charge vocale"
            option_yes="Oui"
-           option_no="Non" error\_heading="Erreur lors du chargement des données"
+           option_no="Non" error_heading="Erreur lors du chargement des données"
            error_body="Désolé, une erreur s'est produite lors du chargement de la liste des pays pris en charge. Veuillez réessayer ultérieurement." %}

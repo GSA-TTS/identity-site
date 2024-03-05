@@ -1,7 +1,8 @@
 ---
 layout: landing
 title: Qu’est-ce que Login.gov ?
-description: La connexion aux organismes gouvernementaux doit être simple — et sécurisée. already_have_an_account_banner: true
+description: La connexion aux organismes gouvernementaux doit être simple — et sécurisée.
+already_have_an_account_banner: true
 class: what-is-login
 component:
   col1: >-

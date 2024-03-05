@@ -1,7 +1,7 @@
 ---
 layout: help
 title: SAM (System for Award Management)
-category: specific-agencies permalink: /fr/help/specific-agencies/sam/
+category: specific-agencies
 permalink: /fr/help/specific-agencies/sam/
 order: 2
 redirect_from:

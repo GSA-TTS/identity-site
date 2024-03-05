@@ -2,7 +2,7 @@
 layout: sidenav
 sidenav: policies
 permalink: /es/policy/our-privacy-act-statement/
-title: “Privacidad y seguridad: nuestra declaración de privacidad”
+title: "Privacidad y seguridad: nuestra declaración de privacidad"
 description: Conozca cómo solicitamos, usamos, conservamos y protegemos su información personal, así como su obligación de divulgarla.
 redirect_from:
   - /es/policy/our-privacy-practices/

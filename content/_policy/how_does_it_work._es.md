@@ -1,6 +1,6 @@
 ---
 layout: sidenav
-title: “Privacidad y seguridad: cómo funciona”
+title: "Privacidad y seguridad: cómo funciona"
 description: Conozca cómo protegemos y aseguramos su información personal.
 permalink: /es/policy/how-does-it-work/
 sidenav: policies

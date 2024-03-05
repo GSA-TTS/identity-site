@@ -3,7 +3,7 @@ layout: help
 title: Vérifier votre identité
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/overview/
-meta\_title: Aperçu
+meta_title: Aperçu
 order: 0
 redirect_from:
   - /fr/help/verify-your-identity/

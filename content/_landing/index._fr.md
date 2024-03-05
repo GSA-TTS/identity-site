@@ -18,7 +18,7 @@ three_col:
     Utilisez un seul et même compte pour un accès privé sécurisé aux organismes gouvernementaux participants.
 
 
-  [En savoir plus sur Login.gov](/what-is-login/){:class="why-more-info"}
+    [En savoir plus sur Login.gov](/what-is-login/){:class="why-more-info"}
   subheading2: Organismes partenaires
   col_class2: partners
   col2: >-

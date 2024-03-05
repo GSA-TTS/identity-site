@@ -1,7 +1,7 @@
 ---
 layout: help
 title: Mot de passe oublié
-category: trouble-signing-in permalink: /fr/help/trouble-signing-in/forgot-your-password/ order: 2
+category: trouble-signing-in
 permalink: /fr/help/trouble-signing-in/forgot-your-password/
 order: 2
 redirect_from:

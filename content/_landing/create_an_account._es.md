@@ -4,7 +4,7 @@ title: Cree una cuenta
 description: Únase a los millones de personas que confían en Login.gov para acceder de forma segura a agencias gubernamentales.
 class: create-an-account
 steps:
- intro: "Cuando esté listo para crear su cuenta segura de Login.gov, deberá proporcionar algunos datos:"
+  intro: "Cuando esté listo para crear su cuenta segura de Login.gov, deberá proporcionar algunos datos:"
   step1: >-
     ## 1. Dirección de correo electrónico
 

@@ -3,7 +3,7 @@ layout: help
 title: Commencer sur Login.gov
 category: get-started
 permalink: /fr/help/get-started/overview/
-meta\_title: Aperçu
+meta_title: Aperçu
 order: 0
 redirect_from:
   - /fr/help/creating-an-account/email-address-confirmation-not-received/

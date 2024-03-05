@@ -4,7 +4,7 @@ title: Administración del Seguro Social (SSA)
 category: specific-agencies
 permalink: /es/help/specific-agencies/ssa/
 order: 3
-keywords: social security, social security benefits, replacement social security card, social security card, ssa, social security card replacement, social security statement, replace social security card, new social security card, new card, replacement card, ss statement, social security account, social security administration, ssa.gov, i need a new social security card order: 3
+keywords: social security, social security benefits, replacement social security card, social security card, ssa, social security card replacement, social security statement, replace social security card, new social security card, new card, replacement card, ss statement, social security account, social security administration, ssa.gov, i need a new social security card
 ---
 
 Login.gov solo puede responder las preguntas sobre el proceso de inicio de sesión y la creación de una cuenta de Login.gov. Su cuenta de Login.gov no afecta su tarjeta, número o beneficios del [Seguro Social](https://www.ssa.gov/) ni tiene información alguna al respecto.

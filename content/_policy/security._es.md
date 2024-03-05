@@ -1,7 +1,7 @@
 ---
 layout: sidenav
 sidenav: policies
-title: “Privacidad y seguridad: nuestras prácticas de seguridad”
+title: "Privacidad y seguridad: nuestras prácticas de seguridad"
 description: Conozca la variedad de métodos que utilizamos para proteger este servicio del gobierno de los EE. UU. y los datos sobre usted, y para garantizar que el servicio se mantenga disponible para todos los usuarios.
 permalink: /es/policy/our-security-practices/
 redirect_from:

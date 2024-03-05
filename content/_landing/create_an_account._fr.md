@@ -26,8 +26,8 @@ steps:
     * **Moins sûrs**
       * SMS ou message vocal
       * Codes de sauvegarde
-permalink: /fr/create-an-account/
   info: En fonction des besoins de l’organisme en matière de sécurité, vous devrez peut-être prouver votre identité au moyen d’un numéro de sécurité sociale, d’une adresse et/ou d’une pièce d’identité délivrée par un État des États-Unis.
+permalink: /fr/create-an-account/
 one_account_banner: true
 twitter_card: large
 image: /assets/img/create-an-account/header/create-account-illo-header.png

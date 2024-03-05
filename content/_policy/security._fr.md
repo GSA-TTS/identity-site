@@ -2,7 +2,7 @@
 layout: sidenav
 sidenav: policies
 permalink: /fr/policy/our-security-practices/
-title: « onfidentialité et sécurité » : nos pratiques de sécurité"
+title: "onfidentialité et sécurité » : nos pratiques de sécurité"
 description: Pour en savoir plus sur les différentes méthodes que nous utilisons afin de protéger ce service gouvernemental américain et vos données et veiller à ce que le service reste disponible à l’ensemble des utilisateurs.
 redirect_from:
   - /fr/security/

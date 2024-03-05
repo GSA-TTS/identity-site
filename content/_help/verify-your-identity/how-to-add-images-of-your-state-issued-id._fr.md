@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Comment ajouter des images de votre permis de conduire ou de votre carte d’identité category: verify-your-identity
+title: Comment ajouter des images de votre permis de conduire ou de votre carte d’identité
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
@@ -16,12 +16,12 @@ do_list:
 ---
 
 
-{% capture alert\_link %}
+{% capture alert_link %}
   <a href="/help/verify-your-identity/accepted-state-issued-identification/">permis de conduire ou carte d'identité en cours de validité</a>
 {% endcapture %}
 
-{% capture alert\_content %}
-  <strong> Si vous n’avez pas de {{ alert\_link }}, vous ne pouvez pas utiliser Login.gov à des fins de vérification d’identité.
+{% capture alert_content %}
+  <strong> Si vous n’avez pas de {{ alert_link }}, vous ne pouvez pas utiliser Login.gov à des fins de vérification d’identité.
   </strong>
   Veuillez contacter le centre d'assistance de l'organisme partenaire pour découvrir les autres options qui s’offrent à vous.
 {% endcapture %}
@@ -114,7 +114,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
 ## Si vous n'avez pas accès à un téléphone équipé d'une caméra, vous pouvez télécharger un fichier ou utiliser un scanner
 
 * Suivez les mêmes [conseils pour prendre des photos avec un téléphone](#phone-tips).
-* Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser de fichier PDF. Regardez le nom de votre fichier : il devrait contenir une abréviation après le titre (p. ex. PhotoJeanDupont\_recto.jpg).
+* Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser de fichier PDF. Regardez le nom de votre fichier : il devrait contenir une abréviation après le titre (p. ex. PhotoJeanDupont_recto.jpg).
 * Veillez à ce que vos images soient en haute résolution (environ 2 025 x 1 275 pixels).
 * Les images doivent être en couleur.
 
