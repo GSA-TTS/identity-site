@@ -4,10 +4,11 @@
       aria-controls="language-picker-{{ include.id }}"
       class="usa-accordion__button language-picker__label language-picker__label--button"
     >
-      <img src="{{ site.baseurl }}/assets/img/globe-blue.svg" alt="" width="12" height="12">
-      <span id="language-picker-{{ include.id }}-description">
+      {% include components/icon.html icon='language' %}
+      <span id="language-picker-{{ include.id }}-description" class="language-picker__label-text">
         {{ site.data.[page.lang].settings.global.language }}
       </span>
+      {% include components/icon.html icon='expand_more' size=3 class='language-picker__expander' %}
     </button>
   {% else %}
     <div class="language-picker__label language-picker__label--text">

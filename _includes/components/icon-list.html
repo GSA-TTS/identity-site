@@ -8,7 +8,7 @@ include
   {% for item in include.items %}
     <li class="usa-icon-list__item">
       <div class="usa-icon-list__icon text-{{ include.icon_color }}">
-        {% include components/icon.html shape=include.icon_shape %}
+        {% include components/icon.html icon=include.icon_shape %}
       </div>
       <div class="usa-icon-list__content">
         {{ item |markdownify | remove: '<p>' | remove: '</p>' }}
