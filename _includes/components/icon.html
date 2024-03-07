@@ -1,3 +1,17 @@
-<svg class="usa-icon" aria-hidden="true" role="img">
-  <use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#{{ include.shape }}"></use>
+{% comment %}
+include
+- icon
+- size
+{% endcomment %}
+
+{% assign class = 'usa-icon' %}
+{% if include.size > 1 %}
+  {% assign class = class | append: ' usa-icon--size-' | append: include.size %}
+{% endif %}
+{% if include.class %}
+  {% assign class = class | append: ' ' | append: include.class %}
+{% endif %}
+
+<svg class="{{ class }}" aria-hidden="true" role="img">
+  <use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#{{ include.icon }}"></use>
 </svg>
