@@ -22,7 +22,7 @@ dont_list:
 ## No aceptamos cartillas militares, pasaportes estadounidenses ni otros documentos de identificación.
 
 
-{% include alert.html content=page.alert type='error' role='alert' %}
+{% include alert.html content=page.alert type='error' role='alert' class='margin-bottom-2' %}
 
 {% include components/icon-list.html items=page.dont_list size='md' icon_color='error' icon_shape='cancel' %}
 
