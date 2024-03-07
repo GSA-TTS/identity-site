@@ -20,17 +20,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/18F/identity-site.git"
+    "url": "git+https://github.com/GSA-TTS/identity-site.git"
   },
   "author": "",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/18F/identity-site/issues"
+    "url": "https://github.com/GSA-TTS/identity-site/issues"
   },
   "engines": {
     "node": ">=20"
   },
-  "homepage": "https://github.com/18F/identity-site#readme",
+  "homepage": "https://github.com/GSA-TTS/identity-site#readme",
   "main": "webpack.config.js",
   "keywords": [],
   "devDependencies": {
