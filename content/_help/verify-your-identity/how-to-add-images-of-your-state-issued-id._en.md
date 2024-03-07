@@ -7,7 +7,7 @@ order: 3
 redirect_from:
   - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
-do_list: 
+do_list:
   - Do use a high resolution camera like a smartphone or tablet camera. Your computer webcam may not take clear photos.
   - Do use a solid, dark background.
   - Do take your photos in a well-lit area with indirect light.
@@ -60,7 +60,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   include components/icon-list.html
   items=page.do_list
   size='md'
-  icon_color='green'
+  icon_color='success'
   icon_shape='check_circle'
 %}
 
@@ -110,7 +110,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   </div>
 </div>
 
---- 
+---
 
 ## If you don’t have access to a phone with a camera, you can upload a file or use a scanner
 * Follow the same [tips for taking photos with a phone](#phone-tips).

@@ -7,7 +7,7 @@ order: 3
 redirect_from:
   - /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
-do_list: 
+do_list:
   - Utilisez une caméra à haute résolution telle qu'une caméra de téléphone intelligent ou de tablette. La webcaméra de votre ordinateur risque de ne pas prendre de photos claires.
   - Utilisez un fond solide et sombre.
   - Prenez vos photos dans un endroit bien éclairé avec une lumière indirecte.
@@ -60,7 +60,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
   include components/icon-list.html
   items=page.do_list
   size='md'
-  icon_color='green'
+  icon_color='success'
   icon_shape='check_circle'
 %}
 

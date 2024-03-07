@@ -10,7 +10,7 @@ redirect_from:
   - /en/help/verify-your-identity/accepted-identification-documents/
   - /help/verify-your-identity/accepted-state-issued-identification/
   - /en/help/verify-your-identity/accepted-state-issued-identification/
-do_list: 
+do_list:
   - "**Driver’s license** from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico)."
   - "**Non-driver’s license state-issued ID card.** This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges."
 dont_list:
@@ -20,14 +20,14 @@ dont_list:
 alert: <strong>If you do not have a valid driver's license or state ID card, you cannot use Login.gov for identity verification.</strong> Please contact the partner agency’s help center to find out what you can do instead.
 ---
 
-{% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'%}
+{% include components/icon-list.html items=page.do_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 ## We do not accept military IDs, U.S. Passports, or other identification documents.
 
 {% include alert.html content=page.alert type='error' role='alert' %}
 
 
-{% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' %}
+{% include components/icon-list.html items=page.dont_list size='md' icon_color='error' icon_shape='cancel' %}
 
 ## Related articles 
 

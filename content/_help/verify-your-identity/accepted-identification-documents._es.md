@@ -17,14 +17,14 @@ dont_list:
   - No, no puede usar un documento de identidad temporal o&nbsp;de&nbsp;papel.
 ---
 
-{% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'  %}
+{% include components/icon-list.html items=page.do_list size='md' icon_color='success' icon_shape='check_circle'  %}
 
 ## No aceptamos cartillas militares, pasaportes estadounidenses ni otros documentos de identificación.
 
 
 {% include alert.html content=page.alert type='error' role='alert' %}
 
-{% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' %}
+{% include components/icon-list.html items=page.dont_list size='md' icon_color='error' icon_shape='cancel' %}
 
 ## Artículos relacionados
 
