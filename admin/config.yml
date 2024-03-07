@@ -2,7 +2,7 @@
 ## Comment out when doing local development
 backend:
   name: github
-  repo: 18f/identity-site
+  repo: GSA-TTS/identity-site
   branch: main
   base_url: https://pages.cloud.gov
   auth_endpoint: external/auth/github
@@ -110,11 +110,29 @@ collections:
         collapsed: true
         required: false
         fields:
-            - { label: 'Column 1', name: 'col1', widget: 'markdown', required: false, i18n: true }
-            - { label: 'Banner Text', name: bannertext, widget: markdown, required: false, i18n: true}
-            - { label: 'Text Banner Column 1', name: bannercol1, widget: markdown, required: false, i18n: true }
-            - { label: 'Text Banner Column 2', name: bannercol2, widget: markdown, required: false, i18n: true }
-            - { label: 'Column 2', name: 'col2', widget: 'markdown', required: false, i18n: true }
+          - { label: 'Column 1', name: 'col1', widget: 'markdown', required: false, i18n: true }
+          - {
+              label: 'Banner Text',
+              name: bannertext,
+              widget: markdown,
+              required: false,
+              i18n: true,
+            }
+          - {
+              label: 'Text Banner Column 1',
+              name: bannercol1,
+              widget: markdown,
+              required: false,
+              i18n: true,
+            }
+          - {
+              label: 'Text Banner Column 2',
+              name: bannercol2,
+              widget: markdown,
+              required: false,
+              i18n: true,
+            }
+          - { label: 'Column 2', name: 'col2', widget: 'markdown', required: false, i18n: true }
       - label: 'Three Column'
         name: 'three_col'
         widget: 'object'
@@ -122,13 +140,31 @@ collections:
         collapsed: true
         required: false
         fields:
-            - { label: 'Heading', name: 'heading', widget: 'string', required: false, i18n: true}
-            - { label: 'Subheading 1', name: 'subheading1', widget: 'string', required: false, i18n: true}
-            - { label: 'Column 1', name: 'col1', widget: 'markdown', required: false, i18n: true }
-            - { label: 'Subheading 2', name: 'subheading2', widget: 'string', required: false, i18n: true}
-            - { label: 'Column 2', name: 'col2', widget: 'markdown', required: false, i18n: true }
-            - { label: 'Subheading 3', name: 'subheading3', widget: 'string', required: false, i18n: true}
-            - { label: 'Column 3', name: 'col3', widget: 'markdown', required: false, i18n: true }
+          - { label: 'Heading', name: 'heading', widget: 'string', required: false, i18n: true }
+          - {
+              label: 'Subheading 1',
+              name: 'subheading1',
+              widget: 'string',
+              required: false,
+              i18n: true,
+            }
+          - { label: 'Column 1', name: 'col1', widget: 'markdown', required: false, i18n: true }
+          - {
+              label: 'Subheading 2',
+              name: 'subheading2',
+              widget: 'string',
+              required: false,
+              i18n: true,
+            }
+          - { label: 'Column 2', name: 'col2', widget: 'markdown', required: false, i18n: true }
+          - {
+              label: 'Subheading 3',
+              name: 'subheading3',
+              widget: 'string',
+              required: false,
+              i18n: true,
+            }
+          - { label: 'Column 3', name: 'col3', widget: 'markdown', required: false, i18n: true }
       - label: 'Steps Page'
         name: 'steps'
         widget: 'object'
@@ -136,14 +172,27 @@ collections:
         collapsed: true
         required: false
         fields:
-            - { label: 'Intro', name: intro, widget: 'markdown', required: false, i18n: true }
-            - { label: 'Step 1', name: step1, widget: markdown, required: false, i18n: true }
-            - { label: 'Step 2', name: 'step2', widget: 'markdown', required: false, i18n: true }
-            - { label: 'Step 3', name: 'step3', widget: 'markdown', required: false, i18n: true }
-            - { label: 'Info text', name: 'info', widget: 'markdown', required: false, i18n: true }
+          - { label: 'Intro', name: intro, widget: 'markdown', required: false, i18n: true }
+          - { label: 'Step 1', name: step1, widget: markdown, required: false, i18n: true }
+          - { label: 'Step 2', name: 'step2', widget: 'markdown', required: false, i18n: true }
+          - { label: 'Step 3', name: 'step3', widget: 'markdown', required: false, i18n: true }
+          - { label: 'Info text', name: 'info', widget: 'markdown', required: false, i18n: true }
       - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
-      - { label: 'Twitter card', name: 'twitter_card', widget: 'select', default: 'large', i18n: duplicate, options: ['small', 'large'] }
-      - { label: 'Image', name: 'image', widget: 'image', default: '/assets/img/login-gov-600x314.png', i18n: duplicate }
+      - {
+          label: 'Twitter card',
+          name: 'twitter_card',
+          widget: 'select',
+          default: 'large',
+          i18n: duplicate,
+          options: ['small', 'large'],
+        }
+      - {
+          label: 'Image',
+          name: 'image',
+          widget: 'image',
+          default: '/assets/img/login-gov-600x314.png',
+          i18n: duplicate,
+        }
       - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
       - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
   - label: Policy pages
