@@ -17,13 +17,13 @@ dont_list:
   - Il n’est pas possible d’utiliser une pièce d’identité temporaire ou au format papier.
 ---
 
-{% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle' %}
+{% include components/icon-list.html items=page.do_list size='md' icon_color='success' icon_shape='check_circle' %}
 
 ## Nous n’acceptons pas les cartes d’identité militaires, les passeports américains ou d’autres documents d’identification.
 
 {% include alert.html content=page.alert type='error' role='alert' %}
 
-{% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' %}
+{% include components/icon-list.html items=page.dont_list size='md' icon_color='error' icon_shape='cancel' %}
 
 
 ## Articles connexes 

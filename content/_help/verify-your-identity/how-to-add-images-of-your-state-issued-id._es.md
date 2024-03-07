@@ -60,7 +60,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
   include components/icon-list.html
   items=page.do_list
   size='md'
-  icon_color='green'
+  icon_color='success'
   icon_shape='check_circle'
 %}
 

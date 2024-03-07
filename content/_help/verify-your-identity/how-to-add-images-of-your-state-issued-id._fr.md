@@ -60,7 +60,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
   include components/icon-list.html
   items=page.do_list
   size='md'
-  icon_color='green'
+  icon_color='success'
   icon_shape='check_circle'
 %}
 
