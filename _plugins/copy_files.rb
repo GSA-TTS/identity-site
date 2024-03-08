@@ -2,7 +2,10 @@
 ## directory to the built site output
 
 Jekyll::Hooks.register :site, :post_write do |site|
-  site.config['copy_files'].to_a.each do |config|
+  configurations = site.config['copy_files']
+  next if configurations.nil?
+  configurations = [configurations] unless configurations.is_a?(Array)
+  configurations.each do |config|
     from_entries = [*config['from']]
     to_folder = File.join(site.config['destination'], config['to'])
     FileUtils.mkdir_p(to_folder)
