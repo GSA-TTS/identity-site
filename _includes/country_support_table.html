@@ -18,8 +18,12 @@ Should include these translations as includes:
   data-locale="{{ page.lang }}"
   hidden
 >
-  <span hidden data-item="icon-success" class="svg-wrapper svg-success">{% include svg/font-awesome-check-circle-solid.svg %}</span>
-  <span hidden data-item="icon-error" class="svg-wrapper svg-error">{% include svg/font-awesome-times-circle-solid.svg %}</span>
+  <span hidden data-item="icon-success" class="text-success">
+    {% include components/icon.html icon="check_circle" class="top-2px" %}
+  </span>
+  <span hidden data-item="icon-error" class="text-error">
+    {% include components/icon.html icon="cancel" class="top-2px" %}
+  </span>
   <table hidden class="usa-table--borderless usa-table--sticky-header">
     <thead>
       <tr>
@@ -34,11 +38,11 @@ Should include these translations as includes:
         <td data-item="country"></td>
         <td data-item="dialing-code"></td>
         <td data-item="sms">
-          <span class="margin-right-05" data-item="icon" aria-hidden="true"></span>
+          <span class="margin-right-05" data-item="icon"></span>
           <span data-item="text"></span>
         </td>
         <td data-item="voice">
-          <span class="margin-right-05" data-item="icon" aria-hidden="true"></span>
+          <span class="margin-right-05" data-item="icon"></span>
           <span data-item="text"></span>
         </td>
       </tr>

@@ -1,12 +1,12 @@
 {% comment %}
 include
 - icon
-- size
+- icon_size
 {% endcomment %}
 
 {% assign class = 'usa-icon' %}
-{% if include.size > 1 %}
-  {% assign class = class | append: ' usa-icon--size-' | append: include.size %}
+{% if include.icon_size %}
+  {% assign class = class | append: ' usa-icon--size-' | append: include.icon_size %}
 {% endif %}
 {% if include.class %}
   {% assign class = class | append: ' ' | append: include.class %}
