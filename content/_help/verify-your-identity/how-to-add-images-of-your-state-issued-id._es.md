@@ -16,7 +16,7 @@ do_list:
 ---
 
 {% capture alert_link %}
-  <a href="/es/help/verify-your-identity/accepted-state-issued-identification/">licencia de conducir válida o con un documento de identidad estatal</a>
+  <a href="/es/help/verify-your-identity/accepted-state-issued-identification/" class="usa-link">licencia de conducir válida o con un documento de identidad estatal</a>
 {% endcapture %}
 
 {% capture alert_content %}
