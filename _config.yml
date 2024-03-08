@@ -140,6 +140,15 @@ exclude:
   - tsconfig.json
   - vendor
   - webpack.config.js
+
+copy_files:
+  - from:
+      - node_modules/@18f/identity-design-system/dist/assets/css
+      - node_modules/@18f/identity-design-system/dist/assets/fonts
+    to: assets
+  - from: node_modules/@18f/identity-design-system/dist/assets/js/init.js
+    to: assets/js
+
 keep_files:
   - assets/css
   - assets/js
