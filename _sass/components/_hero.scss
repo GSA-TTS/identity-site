@@ -29,7 +29,7 @@
 
   .hero__description {
     font-size: 1.125rem; // 18px
-    line-height: $line-height;
+    line-height: line-height($theme-body-font-family, $theme-body-line-height);
 
     @include at-media('desktop') {
       font-size: 1.25rem; // 20px

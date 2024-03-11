@@ -42,6 +42,23 @@ describe('ContactUsFormElement', () => {
 
       expect(form.hasAttribute('hidden')).toStrictEqual(false);
     });
+
+    describe('with alert element present', () => {
+      beforeEach(() => {
+        document.body.innerHTML = `
+          <div id="alert-container" hidden></div>
+          <contact-us-form
+            maintenance-alert-id="alert-container"
+            maintenance-start-time="2023-01-21T00:00:00Z"
+            maintenance-end-time="2023-01-21T10:00:00Z"
+          ></contact-us-form>
+        `;
+      });
+
+      test('it removes alert element', () => {
+        expect(document.getElementById('alert-container')).toBeFalsy();
+      });
+    });
   });
 
   describe('when inside the specified maintenance window', () => {

@@ -1,5 +1,14 @@
-<div class="container container--mod {{ include.class }} page-content__prose">
-  <div class="one-account page-content__prose tablet:grid-row">
+{% comment %}
+includes
+- class
+- col1
+- bannertext
+- bannercol1
+- bannercol2
+- col2
+{% endcomment %}
+<div class="container container--mod {{ include.class }}">
+  <div class="one-account tablet:grid-row">
     <div class="tablet:grid-col-6 pad-left-element">
       <img
         alt=""
@@ -8,25 +17,25 @@
         src="{{ site.baseurl }}/assets/img/what-is-one-account@2x.png"
       />
     </div>
-    <div class="tablet:grid-col-6">
+    <div class="tablet:grid-col-6 usa-prose">
       {{ include.col1 | markdownify }}
     </div>
   </div>
-  <div class="how-it-works page-content__prose">
-    <div class="banner-text">
+  <div class="how-it-works">
+    <div class="banner-text usa-prose">
       {{ include.bannertext | markdownify }}
     </div>
     <div class="text-container grid-row">
-      <div class="text-column tablet:grid-col-6 pad-left-element">
-          <img
-            alt=""
-            aria-hidden="true"
-            class="how-it-works-image"
-            src="{{ site.baseurl }}/assets/img/how-it-works1@2x.png"
-          />
+      <div class="text-column tablet:grid-col-6 pad-left-element usa-prose">
+        <img
+          alt=""
+          aria-hidden="true"
+          class="how-it-works-image"
+          src="{{ site.baseurl }}/assets/img/how-it-works1@2x.png"
+        />
         {{ include.bannercol1 | markdownify }}
       </div>
-      <div class="text-column tablet:grid-col-6">
+      <div class="text-column tablet:grid-col-6 usa-prose">
         <img
           alt=""
           aria-hidden="true"
@@ -38,7 +47,7 @@
     </div>
   </div>
   <div class="secure-account-container grid-row">
-    <div class="page-content__prose tablet:grid-col-6">
+    <div class="usa-prose tablet:grid-col-6">
       {{ include.col2 | markdownify }}
     </div>
     <div class="image-container tablet:grid-col-6">
@@ -50,5 +59,4 @@
       />
     </div>
   </div>
-
 </div>

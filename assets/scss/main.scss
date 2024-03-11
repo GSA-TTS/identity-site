@@ -2,7 +2,9 @@
   $theme-utility-breakpoints: (
     'tablet': true,
     'desktop': true,
-  )
+  ),
+  $theme-body-line-height: 6,
+  $theme-heading-line-height: 6
 );
 @forward 'uswds';
 @forward '../../_sass/index';

@@ -9,7 +9,7 @@ includes_touchpoints: true
 
 <div class="container container--mod">
   <div class="page-content grid-row">
-    <div class="page-content__prose grid-col-12 desktop:grid-col-8 help-article">
+    <div class="usa-prose grid-col-12 desktop:grid-col-8 help-article">
       <h1>{{page.title}}</h1>
       {{ page.content | markdownify }}
       <div
@@ -18,7 +18,7 @@ includes_touchpoints: true
         data-yes="{{ site.data[page.lang].settings.feedback_form.yes }}"
         data-no="{{ site.data[page.lang].settings.feedback_form.no }}"
       ></div>
-      <a href="#main-content" class="anchor-to-top">{{ site.data[page.lang].settings.nav.anchor_to_top }}</a>
+      <a href="#main-content" class="usa-link anchor-to-top">{{ site.data[page.lang].settings.nav.anchor_to_top }}</a>
     </div>
     <div class="display-none desktop:display-block grid-offset-1 grid-col-3">
       {% include help/nav_sidenav.html %}

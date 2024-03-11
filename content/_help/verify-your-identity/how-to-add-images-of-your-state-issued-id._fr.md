@@ -16,7 +16,7 @@ do_list:
 ---
 
 {% capture alert_link %}
-  <a href="/fr/help/verify-your-identity/accepted-state-issued-identification/">permis de conduire valide ou de carte d'identité d'État</a>
+  <a href="/fr/help/verify-your-identity/accepted-state-issued-identification/" class="usa-link">permis de conduire valide ou de carte d'identité d'État</a>
 {% endcapture %}
 
 {% capture alert_content %}
