@@ -41,6 +41,9 @@ tts_ga_ua_id: null
 # Google reCAPTCHA
 recaptcha_site_key: null
 
+# Google Tag Manager
+gtm_id: null
+
 # Used to load country code support
 idp_base_url: https://secure.login.gov
 # for local development:
