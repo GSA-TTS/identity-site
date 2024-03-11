@@ -41,7 +41,7 @@ common_applications:
   maintenance-start-time="{{ site.contact_maintenance_start_time }}"
   {% if site.contact_unplanned_outage %} hidden {% endif %}
   maintenance-end-time="{{ site.contact_maintenance_end_time }}"
-  class="page-content__section"
+  class="page-content__section usa-prose"
 >
   {{ page.intro_content | markdownify }}
 
@@ -54,8 +54,8 @@ common_applications:
   </div>
 </contact-us-form>
 
-<div class="page-content__section">{{ page.partner_content | markdownify }}</div>
-<div class="page-content__section">{{ page.report_issue_content | markdownify }}</div>
+<div class="page-content__section usa-prose">{{ page.partner_content | markdownify }}</div>
+<div class="page-content__section usa-prose">{{ page.report_issue_content | markdownify }}</div>
 
 {% if site.contact_maintenance_start_time and site.contact_maintenance_end_time %}
   <script src="{{ '/assets/js/contact_us_form_element.js' | relative_url }}"></script>

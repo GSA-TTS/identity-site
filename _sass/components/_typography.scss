@@ -9,32 +9,7 @@ body {
 }
 
 .container--mod p {
-  line-height: $line-height;
-}
-
-.page-content__prose {
-  @include usa-content-styles;
-
-  &,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    // TODO: Remove this once we assign `$theme-body-line-height` design system variable.
-    line-height: $line-height;
-  }
-
-  p,
-  ol,
-  ul {
-    // TODO: Remove this once we assign `$theme-body-line-height` design system variable.
-    line-height: $line-height;
-
-    // TODO: Consider respecting or customizing `$theme-text-measure` design system variable.
-    max-width: none;
-  }
+  line-height: line-height($theme-body-font-family, $theme-body-line-height);
 }
 
 .font-xs {

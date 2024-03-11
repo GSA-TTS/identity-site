@@ -1,6 +1,0 @@
-@use 'uswds-core' as *;
-
-// Upstream fix: https://github.com/uswds/uswds/pull/5187
-.usa-alert .usa-alert__body::before {
-  height: units(2);
-}

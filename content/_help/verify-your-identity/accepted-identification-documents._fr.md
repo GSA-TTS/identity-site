@@ -21,7 +21,7 @@ dont_list:
 
 ## Nous n’acceptons pas les cartes d’identité militaires, les passeports américains ou d’autres documents d’identification.
 
-{% include alert.html content=page.alert type='error' role='alert' %}
+{% include alert.html content=page.alert type='error' role='alert' class='margin-bottom-2' %}
 
 {% include components/icon-list.html items=page.dont_list size='md' icon_color='error' icon_shape='cancel' %}
 

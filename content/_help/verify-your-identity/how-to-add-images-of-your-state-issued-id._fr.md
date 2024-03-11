@@ -16,7 +16,7 @@ do_list:
 ---
 
 {% capture alert_link %}
-  <a href="/fr/help/verify-your-identity/accepted-state-issued-identification/">permis de conduire ou carte d'identité en cours de validité</a>
+  <a href="/fr/help/verify-your-identity/accepted-state-issued-identification/" class="usa-link">permis de conduire ou carte d'identité en cours de validité</a>
 {% endcapture %}
 
 {% capture alert_content %}

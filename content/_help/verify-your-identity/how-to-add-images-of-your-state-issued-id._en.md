@@ -16,7 +16,7 @@ do_list:
 ---
 
 {% capture alert_link %}
-  <a href="/help/verify-your-identity/accepted-state-issued-identification/">valid driver's license or state ID card</a>
+  <a href="/help/verify-your-identity/accepted-state-issued-identification/" class="usa-link">valid driver's license or state ID card</a>
 {% endcapture %}
 
 {% capture alert_content %}
