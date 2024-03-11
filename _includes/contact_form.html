@@ -412,9 +412,9 @@
     <input type="hidden" name="status" id="status" value="New" />
     <input type="hidden" id="external" name="external" value="1" />
     <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu" />
-    {% if site.contact_form_captcha_enabled != true %}
+    {% unless site.recaptcha_site_key %}
     <input type="hidden" name="debug" value="1" />
-    {% endif %}
+    {% endunless %}
 
     <p>
       {{ site.data.[page.lang].settings.contact_page.operating_hours }}
@@ -561,17 +561,17 @@
     </div>
     <!-- END: Description -->
 
-    {% if site.contact_form_captcha_enabled %}
+    {% if site.recaptcha_site_key %}
     <!-- START: reCAPTCHA -->
     <div
       class="g-recaptcha margin-top-4"
-      data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"
+      data-sitekey="{{ site.recaptcha_site_key }}"
       data-callback="clearCaptchaError"
     ></div>
     <input
       type="hidden"
       name="captcha_settings"
-      value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"00DU0000000Leux","ts":""}'
+      value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"{{ site.contact_form_orgid }}","ts":""}'
     />
     <div
       id="captcha-error-message"

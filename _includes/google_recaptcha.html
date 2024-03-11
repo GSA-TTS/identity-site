@@ -1,3 +1,4 @@
+{% if site.recaptcha_site_key and site.recaptcha_org_id %}
 <script src="https://www.google.com/recaptcha/api.js"></script>
 <script>
   function timestamp() {
@@ -14,3 +15,4 @@
   }
   setInterval(timestamp, 500);
 </script>
+{% endif %}

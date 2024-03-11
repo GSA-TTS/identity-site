@@ -12,7 +12,6 @@ languages:
 exclude_from_localizations: ['javascript', 'images', 'css']
 
 # Contact form production values (overridden in Cloud.gov Pages for preview branches)
-contact_form_captcha_enabled: true
 contact_form_action: 'https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8'
 contact_form_orgid: '00DU0000000Leux'
 
@@ -29,8 +28,18 @@ contact_maintenance_phone_available: true
 contact_unplanned_outage: false
 contact_unplanned_outage_phone_available: false
 
+# Digital Analytics Program
+dap_agency: null
+dap_subagency: null
+
 # GSA Office of Strategic Communication (OSC) Google Analytics
 osc_analytics_ga_measurement_id: null
+
+# TTS Google Analytics
+tts_ga_ua_id: null
+
+# Google reCAPTCHA
+recaptcha_site_key: null
 
 # Used to load country code support
 idp_base_url: https://secure.login.gov
