@@ -1,3 +1,4 @@
+{% if site.osc_analytics_ga_measurement_id %}
 <!-- Analytics for GSA's Office of Strategic Communication (OSC) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.osc_analytics_ga_measurement_id }}"></script>
 <script>
@@ -6,3 +7,4 @@ function gtag() { dataLayer.push(arguments); }
 gtag('js', new Date());
 gtag('config', '{{ site.osc_analytics_ga_measurement_id }}');
 </script>
+{% endif %}
