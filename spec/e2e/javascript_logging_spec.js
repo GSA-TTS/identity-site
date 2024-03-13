@@ -11,9 +11,14 @@ const EXCLUDE_PATTERNS = [/\.pdf$/, /admin/];
 /**
  * @param {PuppeteerConsoleMessage} message
  */
-const isCORSErrorOnPermittedURLs = (message) =>
-  /blocked by CORS policy|Failed to load resource/.test(message.text()) &&
-  message.location().url.endsWith('/international-phone-support/');
+function isCORSErrorOnPermittedURLs(message) {
+  const text = message.text();
+  const { pathname } = new URL(message.location().url);
+  return (
+    (text.includes('CORS policy') && pathname.endsWith('/international-phone-support/')) ||
+    (text.includes('Failed to load resource') && pathname === '/api/country-support')
+  );
+}
 
 /**
  * @param {PuppeteerConsoleMessage} message
