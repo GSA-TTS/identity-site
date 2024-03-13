@@ -145,6 +145,7 @@ copy_files:
   - from:
       - node_modules/@18f/identity-design-system/dist/assets/css
       - node_modules/@18f/identity-design-system/dist/assets/fonts
+      - node_modules/@18f/identity-design-system/dist/assets/img
     to: assets
   - from: node_modules/@18f/identity-design-system/dist/assets/js/init.js
     to: assets/js
