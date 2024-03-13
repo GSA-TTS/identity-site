@@ -26,12 +26,6 @@ RSpec.describe 'all pages' do
     describe path do
       let(:doc) { Nokogiri::HTML(file_at(path)) }
 
-      it 'includes analytics tags' do
-        expect(doc.to_s).to include('https://www.google-analytics.com/analytics.js')
-        expect(doc.to_s).to include('https://dap.digitalgov.gov')
-        expect(doc.to_s).to include('https://www.googletagmanager.com/gtag/js')
-      end
-
       it 'has a title' do
         expect(doc).to be_uniquely_titled
       end

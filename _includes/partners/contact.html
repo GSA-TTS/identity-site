@@ -21,9 +21,9 @@
     method="POST"
     class="usa-form"
     >
-    {% if site.contact_form_captcha_enabled != true %}
+    {% unless site.recaptcha_site_key %}
     <input type="hidden" name="debug" value="1" />
-    {% endif %}
+    {% endunless %}
 
     <p class="partners-subtitle">
       Login.gov provides authentication and identity verification services to federal
@@ -383,17 +383,17 @@
           ></textarea>
     </div>
 
-    {% if site.contact_form_captcha_enabled %}
+    {% if site.recaptcha_site_key %}
     <!-- START: reCAPTCHA -->
     <div
         class="g-recaptcha margin-top-4"
-        data-sitekey="6LfeV8YUAAAAAObO6JWt4FUMJUmzbjkufn09mgtl"
+        data-sitekey="{{ site.recaptcha_site_key }}"
         data-callback="clearCaptchaError"
         ></div>
     <input
         type="hidden"
         name="captcha_settings"
-        value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"00DU0000000Leux","ts":""}'
+        value='{"keyname":"ReCAPTCHA_Login","fallback":"true","orgId":"{{ site.contact_form_orgid }}","ts":""}'
         />
     <div
         id="captcha-error-message"
