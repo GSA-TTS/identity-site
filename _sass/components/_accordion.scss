@@ -1,0 +1,11 @@
+@use 'uswds-core' as *;
+
+// Upstream: https://github.com/uswds/uswds/pull/5826
+.usa-js-loading {
+  .usa-accordion {
+    &:has([aria-expanded='false']) + .usa-accordion__content,
+    [aria-expanded='false'] + .usa-accordion__content {
+      @include add-sr-only;
+    }
+  }
+}

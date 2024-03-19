@@ -2,6 +2,7 @@
   {% if include.dropdown == true %}
     <button
       aria-controls="language-picker-{{ include.id }}"
+      aria-expanded="false"
       class="usa-accordion__button language-picker__label language-picker__label--button"
     >
       {% include components/icon.html icon='language' %}
