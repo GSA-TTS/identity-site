@@ -1,0 +1,30 @@
+---
+layout: help
+title: 通过普通邮件验证你的身份
+category: verify-your-identity
+permalink: /zh/help/verify-your-identity/verify-your-address-by-mail/
+order: 6
+redirect_from:
+  - /en/help/verify-your-identity/verify-your-address-by-mail/
+  - /help/creating-an-account/how-do-i-verify-my-address-by-mail/
+  - /help/creating-an-account/how-do-i-verify-my-identity-by-mail/
+---
+
+身份验证是你证明你是你，而不是有人假装是你的流程。  如果你无法[验证自己的电话号码，](/help/verify-your-identity/phone-number/)则可以使用你的地址通过普通邮件来验证。你会收到一封含有验证码的信件来完成验证你的身份。
+
+我们会把信寄到我们验证过的并与你相关的一个地址。如果你需要更改这一地址，则需要从头开始，用新地址来验证你的身份。
+
+信件下个工作日通过美国邮寄普通邮件寄出。该一次性代码会在你提交要求 30 天后作废。
+
+## 如果出现以下情况，请要求一个新验证码:
+
+ * 你 5 到 10 天内没有收到信
+ * 你的验证码已过期
+
+要求一个新代码:
+{: .number-list}
+1. 到 [https://secure.login.gov](https://secure.login.gov/)。
+2. 当系统让你输入代码时，选择“给我再发一封信”。
+
+## 相关文章
+- [验证你的身份](/help/verify-your-identity/how-to-verify-your-identity/)
