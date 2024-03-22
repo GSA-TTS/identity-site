@@ -1,0 +1,51 @@
+---
+layout: help
+title: 个人密钥
+category: manage-your-account
+permalink: /zh/help/manage-your-account/personal-key/
+order: 3 
+redirect_from:
+  - /en/help/manage-your-account/personal-key/
+  - /help/changing-settings/get-a-new-personal-key/
+  - /help/changing-settings/how-do-I-get-a-new-personal-key/
+  - /help/creating-an-account/what-is-my-personal-key/
+---
+个人密钥是一个 16 字符的代码，对你账户的个人信息进行加密。如果你丢失或忘记了密码，个人密钥是唯一访问你信息的方法。
+
+请记住：
+
+- 如果你在没有个人密钥情况下重设你的密码，将需要再次验证你的身份。
+- 个人密钥只能使用一次。如果你以前曾用过个人密钥重设自己的密码，你就会有一个新的个人密钥。
+- 你可以在自己账户页面找到当前的个人密钥。
+
+你验证身份时会得到个人密钥。请将个人密钥存放在一个安全的地方。你可以复制、下载或打印个人密钥。
+
+## 更改或重设你的密码
+
+### 如果你有个人密钥
+
+你重设密码时，需要个人密钥来访问自己的信息。
+
+1. 重设密码后，请用新密码登录。
+2. 你会在你的账户页面看到一条消息，警告你账户最近因为密码重设而被停用。
+3. 选择“现在重新激活你的用户资料”。
+4. 选择“我有密钥”。
+5. 输入你最新的个人密钥。如果你以前曾重设过自己的密码，你可能会有一个新的个人密钥。
+6. 重新输入你的密码。
+7. 重设密码后务必保存你的新个人密钥。
+
+### 如果你没有个人密钥
+
+如果你在没有个人密钥情况下重设你的密码，将需要再次验证你的身份。
+
+1. 重设密码后，请用新密码登录。
+2. 你会在你的账户页面看到一条消息，警告你账户最近因为密码重设而被停用。
+3. 选择“现在重新激活你的用户资料”。
+4. 选择“我没有密钥”。
+5. 选择“继续”来再次开始身份验证流程。
+
+## 相关文章
+
+[忘了密码](/help/trouble-signing-in/forgot-your-password/) 
+[更改密码](/help/manage-your-account/change-your-password/)
+[如何验证你的身份](/help/verify-your-identity/how-to-verify-your-identity/)
