@@ -16,7 +16,7 @@ Keep in mind:
 
 - You’ll need to verify your identity again if you reset your password without your personal key. 
 - Personal keys can only be used one time. If you’ve used a personal key to reset your password before, you have a new personal key. 
-- You can find your current personal key on your account page.
+- You can get a new personal key on your account page.
 
 You get your personal key when you verify your identity. Save and keep your personal key in a safe place. You can copy, download, or print it.
 
