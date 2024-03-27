@@ -1,6 +1,5 @@
 require 'yaml'
 require 'spec_helper'
-require 'pry'
 
 RSpec.describe 'data' do
   it 'has the same keys across all locales' do
