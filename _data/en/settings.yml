@@ -325,8 +325,6 @@ nav:
         url: /policy/how-does-it-work/
       - name: Our privacy act statement
         url: /policy/our-privacy-act-statement/
-      - name: Our security practices
-        url: /policy/our-security-practices/
       - name: Messaging terms and conditions
         url: /policy/messaging-terms-and-conditions/
       - name: Rules of use
@@ -368,13 +366,6 @@ policies:
         - text: Privacy Impact Assessment
           url: '#impact'
       url: '/policy/our-privacy-act-statement/'
-    - name: Our security practices
-      sublinks:
-        - text: Vulnerability disclosure policy
-          url: '#vdp'
-        - text: For more information
-          url: '#more-info'
-      url: '/policy/our-security-practices/'
     - name: Messaging terms and conditions
       sublinks:
         - text: SMS terms and conditions

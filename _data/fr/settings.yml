@@ -340,8 +340,6 @@ nav:
         url: /fr/policy/how-does-it-work/
       - name: Notre déclaration de confidentialité
         url: /fr/policy/our-privacy-act-statement/
-      - name: Nos pratiques de sécurité
-        url: /fr/policy/our-security-practices/
       - name: Termes et conditions de la messagerie
         url: /fr/policy/messaging-terms-and-conditions/
       - name: Règles d’utilisation
@@ -424,14 +422,6 @@ policies:
           url: '#analytics'
         - text: Évaluation des facteurs relatifs à la vie privée
           url: '#impact'
-    - link:
-        text: Nos pratiques de sécurité
-        url: '/policy/our-security-practices/'
-      sublinks:
-        - text: Politique de divulgation des vulnérabilités
-          url: '#vdp'
-        - text: Pour plus d’informations
-          url: '#more-info'
     - link:
         text: Termes et conditions de la messagerie
         url: '/policy/messaging-terms-and-conditions/'

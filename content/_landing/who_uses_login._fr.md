@@ -19,7 +19,7 @@ component:
 
     * Programme de demandes de prêts en cas de catastrophe (Small Business Administration)
   col2: >-
-    Login.gov adhère aux dernières [normes de sécurité](/fr/policy/our-security-practices/)
+    Login.gov adhère aux dernières [normes de sécurité](/fr/policy/)
     établies par des organisations de sécurité de premier plan telles que le
     [National Institute of Standards and Technology](https://www.nist.gov/), le
     [Cybersecurity National Action
