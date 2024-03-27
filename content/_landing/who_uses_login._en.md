@@ -17,7 +17,7 @@ component:
     * Paycheck Protection Program (Small Business Administration)
     * Disaster Loan Applications Program (Small Business Administration)
   col2: >-
-    Login.gov adheres to the latest [security standards](/policy/our-security-practices/)
+    Login.gov adheres to the latest [security standards](/policy/)
     established by top security organizations such as the [National Institute of
     Standards and Technology](https://www.nist.gov/), the [Cybersecurity
     National Action

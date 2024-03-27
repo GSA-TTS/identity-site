@@ -19,7 +19,7 @@ component:
 
     * Programa de solicitudes de préstamos por desastre (Agencia Federal de Pequeños Negocios)
   col2: >-
-    Login.gov cumple las [normas de seguridad](/es/policy/our-security-practices/) más recientes
+    Login.gov cumple las [normas de seguridad](/es/policy/) más recientes
     establecidas por las principales organizaciones de seguridad, como el
     [Instituto Nacional de Estándares y Tecnología](https://www.nist.gov/), el
     [Plan de Acción Nacional de

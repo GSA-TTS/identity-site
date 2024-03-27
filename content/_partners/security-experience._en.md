@@ -1,7 +1,7 @@
 ---
 layout: partners/security-experience
 permalink: /partners/security-experience/
-title: >- 
+title: >-
     Security experience
 subtitle: >-
     ## Understanding our security experience principles
@@ -15,7 +15,7 @@ body: >-
 job: >-
     ### Security experience is everyone’s job
 
-    **Creating a secure, usable experience is a priority for everyone at Login.gov.** We are all responsible for maintaining the integrity of our products and services. We prioritize protecting the public’s data in sync with our practice of continuously improving our product. As users use Login.gov, we should ensure their security awareness is raised. We want to affect users to keep their entire digital presence secure, not just their Login.gov presence. <a class="external-link" href="https://login.gov/policy/our-security-practices/">You can read more about our security and privacy practices</a>.
+    **Creating a secure, usable experience is a priority for everyone at Login.gov.** We are all responsible for maintaining the integrity of our products and services. We prioritize protecting the public’s data in sync with our practice of continuously improving our product. As users use Login.gov, we should ensure their security awareness is raised. We want to affect users to keep their entire digital presence secure, not just their Login.gov presence. <a class="external-link" href="https://login.gov/policy/">You can read more about our security and privacy practices</a>.
 considerations1: >-
     #### Key considerations {#key-considerations-1}
 
@@ -34,7 +34,7 @@ considerations1: >-
     * Will error states or displayed messages reveal too much information and create a security risk?
 control: >-
     ### The public controls their data, not us.
-    
+
     **Users are in control of their data. We prioritize user privacy and do not profit from sharing user data.** Personally Identifiable Information (PII) is only shared as needed and all sensitive data is encrypted. Our encryption methods are like putting data in a safety deposit box and only users have the key. Users have the ability to share or hide sensitive information, give or revoke consent to share that data or delete that data at any time.
 considerations2: >-
     #### Key considerations {#key-considerations-2}
@@ -54,7 +54,7 @@ considerations3: >-
     * Is our design and content helping or hindering users from completing the task at hand?
 
     * Are we consistently testing our designs and content with the public?
-    
+
     * Are we looking for things to remove or streamline to help users quickly get on their way to the partner site?
 
     * Are we guiding users with low security awareness towards the most secure options?

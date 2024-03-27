@@ -3,6 +3,9 @@ sidenav: policies
 title: Privacidad y seguridad
 description: Obtenga más información sobre nuestras prácticas de seguridad y privacidad
 permalink: /es/policy/
+redirect_from:
+  - /es/policy/our-security-practices/
+  - /es/security/
 ---
 ## El compromiso de Login.gov es proteger la privacidad y seguridad de usted ## {#intro}
 
@@ -26,4 +29,4 @@ La información que usted envía se usa para crear o actualizar su cuenta de Log
 * La información se conserva de acuerdo con el Programa de conservación de registros de la GSA, GRS 03.2.
 * **Servicios del IRS exclusivamente.** Cuando usted accede a los servicios del IRS, Login.gov envía información sobre los intentos logrados y fallidos durante la autenticación y la comprobación de identidad, así como sobre las actividades que se considere que pueden afectar la seguridad de su cuenta. En cambio, Login.gov solo envía los intentos logrados a otras agencias asociadas. Cada uno de estos intentos se da a conocer de una manera a la que solo el IRS puede acceder. Login.gov conserva estos intentos por un máximo de 168 horas y elimina esta información después de comunicarla al IRS. Para obtener más información sobre cómo el IRS utiliza los datos sobre estos intentos, consulte la Evaluación del impacto en la privacidad y las libertades civiles del Almacén de datos de ciberseguridad del IRS, [CSDW PCLIA](https://www.irs.gov/pub/irs-pia/csdw-pia.pdf).
 
-Proteger su información es nuestra prioridad. En estos vínculos, puede leer explicaciones más detalladas sobre [el funcionamiento de Login.gov](/es/policy/how-does-it-work/), [nuestra declaración de privacidad](/es/policy/our-privacy-act-statement/) y [nuestras prácticas de seguridad](/es/policy/our-security-practices/).
+Proteger su información es nuestra prioridad. En estos vínculos, puede leer explicaciones más detalladas sobre [el funcionamiento de Login.gov](/es/policy/how-does-it-work/) y [nuestra declaración de privacidad](/es/policy/our-privacy-act-statement/).

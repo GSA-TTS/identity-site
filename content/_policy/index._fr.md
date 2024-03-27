@@ -3,6 +3,9 @@ sidenav: policies
 title: Confidentialité et sécurité
 description: En savoir plus sur nos pratiques en matière de sécurité et confidentialité
 permalink: /fr/policy/
+redirect_from:
+  - /fr/policy/our-security-practices/
+  - /fr/security/
 ---
 ## Login.gov s’engage pour votre sécurité et votre confidentialité ## {#intro}
 
@@ -26,4 +29,4 @@ Les informations que vous nous envoyez servent à créer ou mettre à jour votre
 * Les informations sont conservées conformément au calendrier de conservation des documents de l’Administration des services généraux, GRS 03.2.
 * **Services du fisc américain uniquement.** Lorsque vous accédez aux services du Service des recettes internes (IRS, fisc américain), Login.gov envoie des informations sur les tentatives, réussies ou non, d’authentification et de vérification de l’identité, ainsi que sur toute activité susceptible d’avoir une incidence sur la sécurité de votre compte. En revanche, Login.gov n’envoie que les tentatives réussies aux autres organismes partenaires.  Chacun de ces événements est partagé d’une manière à laquelle seul l’IRS peut accéder. Login.gov conserve ces événements pendant 168 heures au maximum et supprime les informations relatives à l’événement une fois qu’elles ont été partagées avec l’IRS.  Pour plus d’informations sur l’utilisation de ces informations par l’IRS, veuillez consulter l’évaluation des incidences sur la vie privée et les libertés civiles de l’entrepôt de données de cybersécurité de l’IRS, [CSDW PCLIA](https://www.irs.gov/pub/irs-pia/csdw-pia.pdf).
 
-La protection de vos informations constitue notre priorité. Vous pouvez obtenir des explications plus détaillées sur [le fonctionnement de Login.gov](/fr/policy/how-does-it-work/), [notre déclaration sur la protection de la vie privée](/fr/policy/our-privacy-act-statement/) et [nos pratiques en matière de sécurité](/fr/policy/our-security-practices/).
+La protection de vos informations constitue notre priorité. Vous pouvez obtenir des explications plus détaillées sur [le fonctionnement de Login.gov](/fr/policy/how-does-it-work/) et [notre déclaration sur la protection de la vie privée](/fr/policy/our-privacy-act-statement/).
