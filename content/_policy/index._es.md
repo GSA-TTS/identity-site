@@ -5,6 +5,7 @@ description: Obtenga más información sobre nuestras prácticas de seguridad y 
 permalink: /es/policy/
 redirect_from:
   - /es/policy/our-security-practices/
+  - /es/security/
 ---
 ## Login.gov se compromete con su privacidad y seguridad ## {#intro}
 

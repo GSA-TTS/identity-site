@@ -5,6 +5,7 @@ description: En savoir plus sur nos pratiques en matière de sécurité et de co
 permalink: /fr/policy/
 redirect_from:
   - /fr/policy/our-security-practices/
+  - /fr/security/
 ---
 ## Login.gov s'engage à respecter votre vie privée et votre sécurité ## {#intro}
 
