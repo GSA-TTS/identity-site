@@ -344,8 +344,6 @@ nav:
         url: /es/policy/how-does-it-work/
       - name: Nuestra declaración de la ley de privacidad
         url: /es/policy/our-privacy-act-statement/
-      - name: Nuestras prácticas de seguridad
-        url: /es/policy/our-security-practices/
       - name: Términos y condiciones de mensajería
         url: /es/policy/messaging-terms-and-conditions/
       - name: Reglas de uso
@@ -387,13 +385,6 @@ policies:
         - text: Evaluación del impacto en la privacidad
           url: '#impact'
       url: '/policy/our-privacy-act-statement/'
-    - name: Nuestras prácticas de seguridad
-      sublinks:
-        - text: Política de divulgación de vulnerabilidades
-          url: '#vdp'
-        - text: Para más información
-          url: '#more-info'
-      url: '/policy/our-security-practices/'
     - name: Términos y condiciones de mensajería
       sublinks:
         - text: Términos y condiciones de SMS

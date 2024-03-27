@@ -5,10 +5,20 @@ title: Privacy & security
 description: Learn more about our security and privacy practices
 permalink: /policy/
 redirect_from:
+  - /policy/our-security-practices/
+  - /en/policy/our-security-practices/
   - /en/policy/
   - /docs/Logingov_PIA_August2019.pdf/
   - /docs/Privacy-Impact-Assessment 9-18.pdf/
   - /docs/privacy-impact-assessment.pdf/
+  - /help/privacy-and-security/does-logingov-share-my-information/
+  - /help/privacy-and-security/how-does-logingov-protect-my-information/
+  - /help/privacy-and-security/what-is-phishing/
+  - /help/privacy-and-security/why-do-i-have-to-use-logingov/
+  - /help/privacy-and-security/how-do-i-make-my-password-strong/
+  - /help/privacy-and-security/how-does-logingov-protect-my-data/
+  - /help/privacy-and-security/will-logingov-share-my-information/
+  - /security/
 ---
 ## Login.gov is committed to your privacy and security ## {#intro}
 
@@ -32,4 +42,4 @@ The information that you submit is used to create or update your Login.gov accou
 * Information is maintained in accordance with GSA’s Records Retention Schedule, GRS 03.2.
 * **IRS Services Only.** When you access IRS services, Login.gov sends information about both successful and unsuccessful attempts during authentication and identity proofing, as well as any activities deemed to impact the security of your account. In contrast, Login.gov only sends successful attempts to other partner agencies. Each of these events is shared in a manner that only the IRS can access. Login.gov retains these events for no more than 168 hours and deletes event information once shared with the IRS. For further information as to how this attempts information is used by the IRS, please refer to the IRS’ Cybersecurity Data Warehouse Privacy and Civil Liberties Impact Assessment, [CSDW PCLIA](https://www.irs.gov/pub/irs-pia/csdw-pia.pdf).
 
-Protecting your information is our priority. You can read more detailed explanations about [how Login.gov works](/policy/how-does-it-work/), [our privacy act statement](/policy/our-privacy-act-statement/), and [our security practices](/policy/our-security-practices/).
+Protecting your information is our priority. You can read more detailed explanations about [how Login.gov works](/policy/how-does-it-work/) and [our privacy act statement](/policy/our-privacy-act-statement/).
