@@ -89,7 +89,6 @@ contact_page:
       'Peace Corps': Cuerpo de Paz
       'Railroad Retirement Board': Junta de Jubilación del Ferrocarril
       'SBA DLAP': SBA DLAP
-      'Securities and Exchange Commision': Comisión de Bolsa y Valores
       'Securities and Exchange Commission': Comisión de Bolsa y Valores
       'Social Security Administration (SSA)': Administración del Seguro Social (SSA, por su siglas en inglés)
       'State of Arkansas': Estado de Arkansas
@@ -119,7 +118,6 @@ contact_page:
       email: Correo electrónico
       first_name: Nombre
       last_name: Apellido
-      optional: opcional
       pii_warning: 'No incluya números de teléfono, números de socio, nombres
         completos, cumpleaños, direcciones, números de la seguridad social u
         otros datos identificativos.'
@@ -211,8 +209,6 @@ feedback_form:
   'no': 'No'
   question: ¿Te resultó útil este artículo?
   'yes': 'Si'
-footer:
-  gsa: Administración General de Servicios de EE. UU.
 global:
   language: Idioma
   locales:
@@ -359,37 +355,3 @@ nav:
   system_status: Estado del sistema Login.gov
   what_is_login_gov: ¿Qué es Login.gov?
   who_uses_login_gov: ¿Quién usa Login.gov?
-policies:
-  sections:
-    - name: Nuestro compromiso con su privacidad y seguridad
-      sublinks:
-        - text: Cómo trabajamos con nuestras agencias asociadas
-          url: '#how-we-work-with-our-partner-agencies'
-      url: '/policy/'
-    - name: ¿Cómo funciona?
-      url: '/policy/how-does-it-work/'
-    - name: Nuestra declaración de la ley de privacidad
-      sublinks:
-        - text: La Autoridad - ¿Quién autoriza la recopilación de estos datos?
-          url: '#authority'
-        - text: El propósito - ¿Por qué necesitamos su información?
-          url: '#purpose'
-        - text: Usos de rutina - ¿Con quién se comparte habitualmente la información?
-          url: '#routine-uses'
-        - text: Consentimiento - ¿Cómo puede controlar qué información se comparte?
-          url: '#consent'
-        - text: Registros - ¿Dónde puede encontrar más información?
-          url: '#records'
-        - text: Análisis de sitios web
-          url: '#analytics'
-        - text: Evaluación del impacto en la privacidad
-          url: '#impact'
-      url: '/policy/our-privacy-act-statement/'
-    - name: Términos y condiciones de mensajería
-      sublinks:
-        - text: Términos y condiciones de SMS
-          url: '#terms'
-      url: '/policy/messaging-terms-and-conditions/'
-    - name: Reglas de uso
-      url: '/policy/rules-of-use/'
-  title: Privacidad y seguridad
