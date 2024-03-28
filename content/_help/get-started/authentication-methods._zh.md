@@ -2,7 +2,7 @@
 layout: help
 title: 身份证实方法
 category: get-started
-permalink: /help/get-started/authentication-methods/
+permalink: /zh/help/get-started/authentication-methods/
 order: 2
 redirect_from:
   - /en/help/get-started/authentication-options/
