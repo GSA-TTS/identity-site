@@ -340,37 +340,3 @@ nav:
   system_status: Login.gov system status
   what_is_login_gov: What is Login.gov?
   who_uses_login_gov: Who uses Login.gov?
-policies:
-  sections:
-    - name: Our commitment to your privacy and security
-      sublinks:
-        - text: How we work with our partner agencies
-          url: '#how-we-work-with-our-partner-agencies'
-      url: '/policy/'
-    - name: How does it work?
-      url: '/policy/how-does-it-work/'
-    - name: Our privacy act statement
-      sublinks:
-        - text: The Authority - Who authorizes the collection of this data?
-          url: '#authority'
-        - text: The Purpose - Why do we need your information?
-          url: '#purpose'
-        - text: Routine Uses - With whom is the information routinely shared?
-          url: '#routine-uses'
-        - text: Consent - How can you control what information is shared?
-          url: '#consent'
-        - text: Records - Where can you find more information?
-          url: '#records'
-        - text: Website Analytics
-          url: '#analytics'
-        - text: Privacy Impact Assessment
-          url: '#impact'
-      url: '/policy/our-privacy-act-statement/'
-    - name: Messaging terms and conditions
-      sublinks:
-        - text: SMS terms and conditions
-          url: '#terms'
-      url: '/policy/messaging-terms-and-conditions/'
-    - name: Rules of use
-      url: '/policy/rules-of-use/'
-  title: Privacy & security
