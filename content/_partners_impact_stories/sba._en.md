@@ -1,5 +1,5 @@
 ---
-layout: partners/sba-impact-story
+layout: partners/impact-story
 permalink: /partners/impact-stories/sba/
 agency: Small Business Administration (SBA)
 summary: >-
@@ -41,4 +41,5 @@ key_shifts: >-
     * 5 - 5 - 5: Over 5k lenders supporting over 5M loans totaling over $500B in 5 months
 
     * Login.gov is the public’s one account for government.
+
 ---
