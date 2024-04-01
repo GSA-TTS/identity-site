@@ -6,7 +6,7 @@ summary: >-
     The U.S. Railroad Retirement Board (RRB) and GSA’s Technology Transformation Services partnered to better protect their customers using the latest identity verification technology.
 logo: assets/img/partners/rrb_logo.svg
 title: >-
-    Impact story: RBR
+    Impact story: RRB
 subtitle: >-
     ## Railroad Retirement Board's (RRB) story
 body: >-
