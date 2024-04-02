@@ -15,7 +15,7 @@ Recuerde:
 
 - Tendrá que verificar de nuevo su identidad si restablece su contraseña sin su clave personal.
 - Las claves personales se pueden usar una sola vez. Si usó anteriormente una clave personal para restablecer su contraseña, ya tiene una nueva clave personal.
-- Puede revisar su clave personal vigente en la página de su cuenta.
+- Puede conseguir una nueva clave personal en la página de su cuenta.
 
 La clave personal se obtiene cuando verifica su identidad. Guarde y conserve su clave personal en un lugar seguro. Puede copiarla, descargarla o imprimirla.
 
