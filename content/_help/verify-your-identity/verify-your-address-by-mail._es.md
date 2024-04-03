@@ -1,5 +1,5 @@
 ---
-title: Verifique su dirección por correo
+title: Verifique su domicilio a través del correo postal
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/verify-your-address-by-mail/
 order: 6

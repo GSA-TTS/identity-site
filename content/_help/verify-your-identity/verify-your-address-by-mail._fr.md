@@ -24,5 +24,5 @@ Pour demander un nouveau code de vérification :
 1. Rendez-vous sur [https://secure.login.gov](https://secure.login.gov/fr/).  
 2. Sélectionnez « Envoyez-moi un autre courrier » lorsque vous êtes invité à saisir votre code.
 
-## Articles connexes
+## Articles Liés
 - [Vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)

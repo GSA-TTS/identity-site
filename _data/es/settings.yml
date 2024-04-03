@@ -209,7 +209,7 @@ contact_page:
       verifying_identity: Verificar su identidad
 feedback_form:
   'no': 'No'
-  question: ¿Te resultó útil este artículo?
+  question: ¿Le resultó útil este artículo?
   'yes': 'Si'
 global:
   language: Idioma
@@ -309,7 +309,7 @@ nav:
         url: '#asóciese-con-logingov'
       - name: Informe de un problema
         url: '#informe-de-un-problema'
-    title: Contacta con nosotros
+    title: Contacte con nosotros
   create_an_account: Crea una cuenta
   developer_guide: Guía para desarrolladores
   developers: Desarrolladores
