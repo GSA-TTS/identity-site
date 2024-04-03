@@ -1,6 +1,6 @@
 ---
 layout: help
-title: "Comment ajouter des images de votre permis de conduire ou de votre carte d’identité"
+title: Comment ajouter des photos de votre permis de conduire ou carte d’identité d’un État
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
@@ -32,21 +32,23 @@ do_list:
   role='alert'
 %}
 
-<div class="margin-top-5">
-  <span class="usa-tag usa-tag--informative">Recommandation</span>
-</div>
+## Vue d’ensemble
 
-<div class="margin-top-2">
-  <h2 id="phone-tips" class="margin-0">
-    Utiliser un téléphone pour photographier le recto et le verso de votre pièce d’identité
-  </h2>
-</div>
+Vous devez prendre une photo de votre permis de conduire officiel ou carte d’identité d’un État et saisir vos renseignements personnels afin de confirmer votre identité en ligne.
 
-Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez passer à un téléphone pour prendre des photos de votre pièce d'identité.
+Il est possible que vous deviez prendre une photo de vous-même avec un téléphone afin de confirmer votre identité en ligne. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité. Si vous n'avez pas de téléphone équipé d'une caméra, vous pouvez confirmer votre identité en personne.
 
-### Conseils pour prendre des photos nettes avec un téléphone
+Cet article décrit les différentes façons de transmettre des images ou photos pour confirmer votre identité.
 
-<div class="grid-row grid-gap">
+---
+
+## Comment prendre des photos de votre permis de conduire ou carte d’identité d’un État
+
+Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez passer à un téléphone pour prendre des photos de votre pièce d'identité.
+
+### À l’aide de votre téléphone
+
+<div class="grid-row grid-gap margin-bottom-2">
   <div class="tablet:grid-col">
     <img alt="Le recto de la pièce d’identité doit être cadré au centre sur un arrière plan foncé." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
   </div>
@@ -63,8 +65,6 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
   icon_shape='check_circle'
 %}
 
-### Problèmes courants liés à la prise de photos d'une pièce d'identité
-
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
     {%
@@ -72,8 +72,8 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
       image-alt-text='La pièce d’identité est placée sur un fond blanc.'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
-      do_dont_text="NE PAS"
-      text='Utiliser de fond blanc'
+      do_dont_text="À NE PAS FAIRE"
+      text='NE PAS Utiliser un fond blanc'
     %}
   </div>
   <div class="tablet:grid-col">
@@ -82,8 +82,8 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
       image-alt-text='La pièce d’identité est placée sur un fond texturé.'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
-      do_dont_text="NE PAS"
-      text='Utiliser de fond texturé ou à motif'
+      do_dont_text="À NE PAS FAIRE"
+      text='NE PAS Utiliser un fond texturé ou à motif'
     %}
   </div>
 </div>
@@ -94,8 +94,8 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
       image-alt-text='Les bordures de votre pièce d’identité sont recadrés.'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
-      do_dont_text="NE PAS"
-      text='Recadrer les bords de votre pièce d’identité'
+      do_dont_text="À NE PAS FAIRE"
+      text="NE PAS Rogner les bords de votre pièce d’identité"
     %}
   </div>
   <div class="tablet:grid-col">
@@ -103,20 +103,45 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
       include components/image-example-incorrect.html
       image-alt-text='Il y a des reflets et des ombres sur l’image de la pièce d’identité.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      do_dont_text="ÉVITER"
-      text='Les reflets et les ombres'
+      do_dont_text="À ÉVITER"
+      text='ÉVITER Les reflets et les ombres'
     %}
   </div>
 </div>
 
+### Comment téléverser des photos si vous n'avez pas accès à un téléphone équipé d'un appareil photo
+
+Si vous n'avez pas accès à un téléphone équipé d'un appareil photo, vous avez peut-être la possibilité de téléverser une photo scannée de votre permis de conduire ou carte d’identité d’un État.
+
+* Suivez les [mêmes conseils pour prendre des photos avec un téléphone](#à-laide-de-votre-téléphone).
+* Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser de fichier PDF. Regardez le nom de votre fichier : il devrait contenir une abréviation après le titre (ex : PhotoJeanDupont_recto.jpg).
+* Veillez à ce que vos images soient en haute résolution (environ 2 025 x 1 275 pixels).
+* Téléversez uniquement des photos en couleur.
+
 ---
 
-## Si vous n'avez pas accès à un téléphone équipé d'une caméra, vous pouvez télécharger un fichier ou utiliser un scanner
+## Comment ajouter une photo de votre visage pour permettra la vérification de votre identité.
 
-* Suivez les mêmes [conseils pour prendre des photos avec un téléphone](#phone-tips).
-* Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser de fichier PDF. Regardez le nom de votre fichier : il devrait contenir une abréviation après le titre (p. ex. PhotoJeanDupont\_recto.jpg).
-* Veillez à ce que vos images soient en haute résolution (environ 2 025 x 1 275 pixels).
-* Les images doivent être en couleur.
+Il est possible qu’on vous demande de prendre des photos de votre permis de conduire ou carte d’identité d’un État, ainsi qu’une photo de votre visage. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité.
+
+Vous devez utiliser votre téléphone pour prendre des photos de votre visage et de votre pièce d’identité d’un État à l’aide de l’outil de photographie de Login.gov.
+
+### Type d’appareil requis
+
+* Pour effectuer cette étape, vous avez besoin d’un téléphone équipé d’un appareil photo.
+* Si vous n’en avez pas, vous pouvez peut-être [confirmer votre identité en personne]({{ '/help/verify-your-identity/verify-your-identity-in-person/' | locale_url }}) dans un bureau du service des postes des États-Unis près de chez vous.
+
+### Avant de vous prendre en photo
+
+* Retirez tous articles ou accessoires vestimentaires susceptibles de cacher votre visage. Nous vous conseillons de retirer vos lunettes ou votre couvre-chef.
+* Prenez votre photo dans un endroit bien éclairé.
+* Gardez une expression neutre (ne souriez pas).
+
+### Comment utiliser l’outil de photographie
+
+* Placez votre visage à l’intérieur du cercle vert. Veillez à ce que l’ensemble de votre visage soit visible, du menton au sommet de la tête.
+* Ne bougez pas pendant que l'outil de photographie prend automatiquement votre photo.
+* Cochez la case pour accepter la photo.
 
 ---
 
