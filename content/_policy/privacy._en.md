@@ -11,13 +11,13 @@ redirect_from:
 ---
 ## Our privacy act statement ## {#our-privacy-act-statement}
 
-The Login.gov service is provided by the U.S. General Services Administration to offer the public secure and private online access to participating government programs. With one Login.gov account, users can sign into multiple government agencies. Our goal is to make managing federal benefits, services, and applications easier and more secure.
+The Login.gov service is provided by the U.S. General Services Administration to offer the public secure and private online access to participating government programs. Using only one Login.gov account, users can sign into multiple government agency sites. Our goal is to make managing federal benefits, services, and applications faster, easier, and more secure
 
 By accessing the Login.gov service, you acknowledge and agree to this Privacy Policy and the Login.gov Rules of Use. We will post any changes to these terms to this page. If the changes affect our handling of your personal information or are otherwise deemed significant, we will notify you by email. If we cannot reach you by email, we reserve the right to contact you by other means, including postal mail. If at any time you no longer agree to this Privacy Policy or any other relevant terms of the Login.gov service, you may delete your account.
 
 ### The Authority - Who authorizes the collection of this data?  ### {#authority}
 
-The information you provide is collected pursuant to 6 USC § 1523 (b)(1)(A)-(E), the E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), and 40 USC § 501.
+The information you provide is collected pursuant to 6 USC § 1523 (b)(1)(A)-(E), the E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), 40 USC § 501, 40 USC § 502, and OMB M-19-17.
 
 ### The Purpose - Why do we need your information? ### {#purpose}
 
@@ -25,12 +25,12 @@ Login.gov partners with agencies that need secure and private access to their ap
 
 #### What information do we need?
 
-* For authentication to establish a secure account, we need your name, email address, and an authentication method. Your authentication method could be a phone number where we share a SMS code, USB Security Key or other options.
-* Identity proofing requires more sensitive information such as a social security number, address, phone number, and U.S. based state ID or driver’s license. Your phone carrier may disclose your mobile number, name, address, email, network status, customer type, customer role, billing type, mobile device identifiers (IMSI and IMEI) and other subscriber status and device details, if available, to our third party service provider, solely to verify your identity for the duration of the business relationship.
-* To mitigate fraud, we also analyze the device used to access Login.gov, identity, and behavior such as how you interact with forms on the page.
+* For authentication to establish a secure account, we need your name, email address, and an authentication method. Your authentication method could be a phone number where we share a SMS code, USB Security Key, or another option.
+* Identity proofing requires more sensitive information such as a social security number, address, phone number, and U.S. based state ID or driver’s license. A self-photograph may be needed to validate the state ID or driver’s license as further proof of your identity by comparing it to the portrait on your government-issued ID.
+* During identity proofing, your phone carrier may disclose your mobile number, name, address, email, network status, customer type, customer role, billing type, mobile device identifiers (IMSI and IMEI) and other subscriber status and device details, if available, to our third party service provider, solely to verify your identity for the duration of the business relationship.
+* To mitigate fraud, we also analyze the device used to access Login.gov, metadata associated with your login.gov session, and behavior such as how you interact with forms on the page.
 
 ### Routine Uses - With whom is the information routinely shared? ### {#routine-uses}
-
 * To third parties providing remote or in-person authentication and identity proofing services, including other federal agencies providing such services, as necessary to authenticate or identity proof you for access to a participating government website or application.
 * To an expert, consultant, or contractor of GSA in the performance of a Federal duty to which the information is relevant.
 * To the Government Publishing Office (GPO), when Login.gov needs to mail you an address confirmation form or if you request mailed notifications of account changes or of proofing attempts.
