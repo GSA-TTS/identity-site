@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Comment ajouter des images de votre permis de conduire ou de votre carte d'identité de l’État
+title: Comment ajouter des photos de votre permis de conduire ou carte d’identité d’un État
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
@@ -8,11 +8,11 @@ redirect_from:
   - /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 do_list:
-  - Utilisez une caméra à haute résolution telle qu'une caméra de téléphone intelligent ou de tablette. La webcaméra de votre ordinateur risque de ne pas prendre de photos claires.
-  - Utilisez un fond solide et sombre.
-  - Prenez vos photos dans un endroit bien éclairé avec une lumière indirecte.
-  - Vérifiez que les codes-barres ne sont pas endommagés ou sales.
-  - Essayez de maintenir votre téléphone immobile pendant que vous prenez les photos. Il peut être utile de poser vos bras sur la table pour vous stabiliser.
+  - Assurez-vous d’utiliser une caméra à haute résolution, comme celle d’un smartphone ou d’une tablette. La webcam de votre ordinateur risque en effet de ne pas prendre de photos bien nettes.
+  - Utilisez un arrière-plan sombre et uni.
+  - Prenez vos photos dans un endroit bien éclairé, avec une lumière indirecte.
+  - Vérifiez que les codes-barres des pièces d’identité ne soient ni endommagés, ni sales.
+  - Essayez de ne pas bouger votre téléphone pendant la prise des photos. Il peut être utile de poser vos bras sur une table pour rester stable.
 ---
 
 {% capture alert_link %}
@@ -33,21 +33,23 @@ do_list:
   role='alert'
 %}
 
-<div class="margin-top-5">
-  <span class="usa-tag usa-tag--informative">Recommandation</span>
-</div>
+## Vue d’ensemble
 
-<div class="margin-top-2">
-  <h2 id="phone-tips" class="margin-0">
-      Utilisez un téléphone pour prendre des photos du recto et du verso de votre pièce d’identité
-  </h2>
-</div>
+Vous devez prendre une photo de votre permis de conduire officiel ou carte d’identité d’un État et saisir vos renseignements personnels afin de confirmer votre identité en ligne.
 
-Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez passer à un téléphone pour prendre des photos de votre pièce d'identité.
+Il est possible que vous deviez prendre une photo de vous-même avec un téléphone afin de confirmer votre identité en ligne. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité. Si vous n'avez pas de téléphone équipé d'une caméra, vous pouvez confirmer votre identité en personne.
 
-### Conseils pour prendre des photos claires avec un téléphone
+Cet article décrit les différentes façons de transmettre des images ou photos pour confirmer votre identité.
 
-<div class="grid-row grid-gap">
+---
+
+## Comment prendre des photos de votre permis de conduire ou carte d’identité d’un État
+
+Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez passer à un téléphone pour prendre des photos de votre pièce d'identité.
+
+### À l’aide de votre téléphone
+
+<div class="grid-row grid-gap margin-bottom-2">
   <div class="tablet:grid-col">
     <img alt="La face de la pièce d'identité est centrée dans le cadre de la caméra et placée sur un fond sombre." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
   </div>
@@ -64,8 +66,6 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
   icon_shape='check_circle'
 %}
 
-### Problèmes courants liés à la prise de photos d'une pièce d'identité
-
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
     {%
@@ -74,7 +74,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
       do_dont_text="À NE PAS FAIRE"
-      text='Utiliser un fond blanc'
+      text='NE PAS Utiliser un fond blanc'
     %}
   </div>
   <div class="tablet:grid-col">
@@ -84,7 +84,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
       do_dont_text="À NE PAS FAIRE"
-      text='Utiliser des arrière-plans texturés à motifs'
+      text='NE PAS Utiliser un fond texturé ou à motif'
     %}
   </div>
 </div>
@@ -96,7 +96,7 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
       do_dont_text="À NE PAS FAIRE"
-      text="Recadrer les bords de votre pièce d'identité"
+      text="NE PAS Rogner les bords de votre pièce d’identité"
     %}
   </div>
   <div class="tablet:grid-col">
@@ -105,38 +105,63 @@ Si vous utilisez un ordinateur pour vérifier votre identité, vous pourrez pass
       image-alt-text="Il y a des reflets et des ombres projetées sur la pièce d'identité."
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
       do_dont_text="À ÉVITER"
-      text='Les reflets et les ombres'
+      text='ÉVITER Les reflets et les ombres'
     %}
   </div>
 </div>
 
+### Comment téléverser des photos si vous n'avez pas accès à un téléphone équipé d'un appareil photo
+
+Si vous n'avez pas accès à un téléphone équipé d'un appareil photo, vous avez peut-être la possibilité de téléverser une photo scannée de votre permis de conduire ou carte d’identité d’un État.
+
+* Suivez les [mêmes conseils pour prendre des photos avec un téléphone](#à-laide-de-votre-téléphone).
+* Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser de fichier PDF. Regardez le nom de votre fichier : il devrait contenir une abréviation après le titre (ex : PhotoJeanDupont_recto.jpg).
+* Veillez à ce que vos images soient en haute résolution (environ 2 025 x 1 275 pixels).
+* Téléversez uniquement des photos en couleur.
+
 ---
 
-## Si vous n'avez pas accès à un téléphone équipé d'une caméra, vous pouvez téléverser un fichier ou utiliser un scanner
+## Comment ajouter une photo de votre visage pour permettra la vérification de votre identité.
 
-* Suivez les [mêmes conseils pour prendre des photos avec un téléphone](#phone-tips).
-* Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser un fichier PDF. Regardez le nom de votre fichier et il devrait avoir une abréviation après le titre (ex : JohnDoeID_Front.jpg).
-* Veillez à ce que vos images soient en haute résolution (environ 2025 x 1275 pixels).
-* Les images doivent être en couleur.
+Il est possible qu’on vous demande de prendre des photos de votre permis de conduire ou carte d’identité d’un État, ainsi qu’une photo de votre visage. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité.
+
+Vous devez utiliser votre téléphone pour prendre des photos de votre visage et de votre pièce d’identité d’un État à l’aide de l’outil de photographie de Login.gov.
+
+### Type d’appareil requis
+
+* Pour effectuer cette étape, vous avez besoin d’un téléphone équipé d’un appareil photo.
+* Si vous n’en avez pas, vous pouvez peut-être [confirmer votre identité en personne]({{ '/help/verify-your-identity/verify-your-identity-in-person/' | locale_url }}) dans un bureau du service des postes des États-Unis près de chez vous.
+
+### Avant de vous prendre en photo
+
+* Retirez tous articles ou accessoires vestimentaires susceptibles de cacher votre visage. Nous vous conseillons de retirer vos lunettes ou votre couvre-chef.
+* Prenez votre photo dans un endroit bien éclairé.
+* Gardez une expression neutre (ne souriez pas).
+
+### Comment utiliser l’outil de photographie
+
+* Placez votre visage à l’intérieur du cercle vert. Veillez à ce que l’ensemble de votre visage soit visible, du menton au sommet de la tête.
+* Ne bougez pas pendant que l'outil de photographie prend automatiquement votre photo.
+* Cochez la case pour accepter la photo.
 
 ---
 
-## Mettez votre navigateur à jour
+## Dépannage
 
-Un navigateur obsolète peut être à l'origine de votre erreur. Suivez les instructions ci-dessous pour mettre à jour votre navigateur :
+Un navigateur obsolète peut être à l'origine de l’erreur. Suivez les instructions ci-dessous pour mettre à jour votre navigateur :
 
 * [Google Chrome](https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=fr-CA)
 * [Mozilla Firefox](https://support.mozilla.org/fr/kb/mettre-jour-firefox-derniere-version?redirectslug=update-firefox-latest-version)
 * [Safari](https://support.apple.com/fr-ca/HT204416)
 
-Veillez à redémarrer votre ordinateur et à essayer de vous connecter à nouveau.
+Veillez à redémarrer votre ordinateur, puis essayez de vous reconnecter.
 
-## Effacez le cache et les cookies de votre navigateur
+## Effacez la mémoire cache et les cookies de votre navigateur
 
-Essayez de vider le cache et les cookies de votre navigateur, ou les données qu'il stocke, pour résoudre votre erreur. Suivez les instructions ci-dessous pour effacer le cache et les cookies de votre navigateur :
+Essayez d’effacer la mémoire cache et les cookies de votre navigateur ou les données qu'il stocke pour résoudre l’erreur. Suivez les instructions ci-dessous pour effacer le cache et les cookies de votre navigateur :
 
 * [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=fr)
 * [Mozilla Firefox](https://support.mozilla.org/fr/kb/comment-vider-le-cache-de-firefox)
 * [Safari](https://support.apple.com/fr-ca/HT201265)
 
-Veillez à redémarrer votre ordinateur et essayez de vous connecter à nouveau.
+Veillez à redémarrer votre ordinateur, puis essayez de vous reconnecter.

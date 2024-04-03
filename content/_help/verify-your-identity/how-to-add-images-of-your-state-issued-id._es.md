@@ -8,11 +8,11 @@ redirect_from:
   - /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 do_list:
-  - Es recomendable utilizar una cámara de alta resolución, como la de un smartphone o una tableta. Es probable que la cámara web de tu computadora no pueda obtener fotografías nítidas.
-  - Utiliza un fondo sólido y oscuro.
-  - Procura realizar las fotografías en una zona bien iluminada y con luz indirecta.
-  - Comprueba que los códigos de barras no estén dañados o sucios.
-  - Intenta mantener el teléfono firme mientras realizas las fotografías. Puede ser útil apoyar los brazos sobre una mesa para mantener la estabilidad.
+  - Use una cámara de alta resolución, como la de un smartphone o de una tableta. Es posible que la cámara web de su computadora no tome fotografías nítidas.
+  - Use un fondo de un solo color oscuro.
+  - Tome sus fotografías en un lugar bien iluminado con luz indirecta.
+  - Compruebe que los códigos de barras de la identificación no estén dañados ni sucios.
+  - Trate de mantener el teléfono fijo mientras toma las fotografías. Para mantener la estabilidad, puede apoyar los brazos en una mesa.
 ---
 
 {% capture alert_link %}
@@ -33,21 +33,23 @@ do_list:
   role='alert'
 %}
 
-<div class="margin-top-5">
-  <span class="usa-tag usa-tag--informative">Recomendado</span>
-</div>
+## Información general
 
-<div class="margin-top-2">
-  <h2 id="phone-tips" class="margin-0">
-      Con un teléfono, realice fotografías del anverso y reverso de su documento de identidad
-  </h2>
-</div>
+Debe tomar una fotografía de su licencia de conducir o tarjeta de identificación estatal, e ingresar su información personal para verificar su identidad en línea.
 
-Si está utilizando una computadora para verificar su identidad, puede cambiar a un teléfono para realizar fotografías de su documento de identidad.
+Es posible que necesite tomarse una fotografía con un teléfono para verificar su identidad en línea. Esto se hace para revisar que usted sea la persona que figura en su identificación. Si no tiene un teléfono con cámara, puede [verificar su identidad en persona]({{ '/help/verify-your-identity/verify-your-identity-in-person/' | locale_url }}).
 
-### Consejos para obtener fotografías nítidas con un teléfono
+Este artículo describe las distintas maneras de enviar imágenes para verificar su identidad.
 
-<div class="grid-row grid-gap">
+---
+
+## Cómo tomar fotografías de su licencia de conducir o tarjeta de identificación estatal
+
+Si está usando una computadora para verificar su identidad, podrá cambiar a un teléfono para tomar fotografías de su identificación.
+
+### Uso del teléfono
+
+<div class="grid-row grid-gap margin-bottom-2">
   <div class="tablet:grid-col">
     <img alt="El frente del documento de identidad está en el centro del marco de la cámara y sobre un fondo de tono oscuro." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
   </div>
@@ -64,8 +66,6 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
   icon_shape='check_circle'
 %}
 
-### Aspectos habituales al realizar fotografías de un documento de identidad
-
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
     {%
@@ -74,7 +74,7 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
       do_dont_text="NO"
-      text='Utilizar un fondo blanco'
+      text='NO use un fondo de color blanco.'
     %}
   </div>
   <div class="tablet:grid-col">
@@ -84,7 +84,7 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
       do_dont_text="NO"
-      text='Utilizar fondos con texturas o dibujos'
+      text='NO use un fondo con textura o con dibujos.'
     %}
   </div>
 </div>
@@ -96,7 +96,7 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
       do_dont_text="NO"
-      text='Recortar los bordes de la identificación'
+      text='NO recorte los bordes de su identificación.'
     %}
   </div>
   <div class="tablet:grid-col">
@@ -105,37 +105,63 @@ Si está utilizando una computadora para verificar su identidad, puede cambiar a
       image-alt-text='El documento de identidad presenta reflejos y sombras.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
       do_dont_text="EVITE"
-      text='Brillos y sombras'
+      text='EVITE que se vean reflejos y sombras.'
     %}
   </div>
 </div>
 
+### Cómo cargar imágenes si no tiene acceso a un teléfono con cámara
+
+Si no tiene acceso a un teléfono con cámara, puede cargar una fotografía escaneada de su licencia de conducir o tarjeta de identificación estatal.
+
+* Siga los mismos [consejos para tomar fotografías con un teléfono](#uso-del-teléfono).
+* Guarde cada archivo como JPG o PNG. No puede utilizar un archivo PDF. El nombre de su archivo debe tener una abreviatura después del título (por ejemplo: JohnDoeID_Front.jpg).
+* Revise que sus imágenes sean de alta resolución (lo ideal es alrededor de 2025 x 1275 píxeles).
+* Cargue solo imágenes en color.
+
 ---
 
-## Si no tienes acceso a un teléfono con cámara, puedes subir un archivo o utilizar un escáner.
-* Sigue los mismos [consejos para tomar fotografías con un teléfono](#phone-tips).
-* Guarda cada archivo como JPG o PNG. No puedes utilizar un archivo PDF. Fíjate en el nombre de tu archivo y debe tener una abreviatura después del título (por ejemplo: JohnDoeID_Front.jpg).
-* Asegúrate de que tus imágenes son de alta resolución (lo ideal es en torno a 2025 x 1275 píxeles)
-* Las imágenes deben ser en color.
+## Cómo agregar una fotografía de su cara para verificar su identidad
+
+Es posible que se le pida que tome fotografías de su licencia de conducir o tarjeta de identificación estatal __y__ una foto de su cara. Esto se hace para revisar que usted sea la persona que figura en su identificación.
+
+Debe usar su teléfono para tomar las fotografías de su cara y de su identificación estatal con la herramienta de la cámara.
+
+### Requisitos del dispositivo
+
+* Para efectuar este paso, necesita un teléfono con cámara.
+* Si no tiene un teléfono con cámara, puede [verificar su identidad en persona]({{ '/help/verify-your-identity/verify-your-identity-in-person/' | locale_url }}) en una oficina cercana del Servicio Postal de los Estados Unidos.
+
+### Preparación para tomarse su foto
+
+* Quite cualquier prenda o accesorio que pueda cubrirle la cara. Sugerimos que se quite los anteojos o el sombrero.
+* Tómese la foto en un lugar bien iluminado.
+* Mantenga una expresión neutral (evite sonreír).
+
+### Cómo usar la herramienta de la cámara
+
+* Alinee su cara con el círculo verde. Revise que se vea su rostro completo, desde la barbilla hasta la parte superior de la cabeza.
+* Evite moverse mientras la herramienta de la cámara toma su foto automáticamente.
+* Toque la marca de verificación para aceptar la fotografía.
 
 ---
 
-## Actualiza tu navegador
+## Solución de problemas
 
-La causa del error podría ser un navegador obsoleto. Sigue las siguientes instrucciones para actualizar tu navegador:
+La causa de su error podría ser un navegador desactualizado. Siga estas instrucciones para actualizar su navegador:
 
 * [Google Chrome](https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=es)
 * [Mozilla Firefox](https://support.mozilla.org/es/kb/actualizar-firefox-la-ultima-version?redirectslug=update-firefox-latest-version)
 * [Safari](https://support.apple.com/es-mx/HT204416)
 
-Asegúrate de reiniciar tu ordenador e intenta iniciar sesión de nuevo.
+No olvide reiniciar su computadora e intente iniciar sesión de nuevo.
 
-## Borrar la caché y las cookies del navegador
+## Borre la memoria caché y las cookies de su navegador
 
-Para solucionar el error, intenta borrar la caché y las cookies del navegador, o los datos que este almacena. Sigue las siguientes instrucciones para borrar la caché y las cookies del navegador:
+Para solucionar el error, intente borrar la memoria caché y las cookies de su navegador, o los datos que este almacena. Siga estas instrucciones para borrar la memoria caché y las cookies de su navegador:
 
 * [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=es-419)
 * [Mozilla Firefox](https://support.mozilla.org/es/kb/limpia-la-cache-y-elimina-los-archivos-temporales-)
 * [Safari](https://support.apple.com/es-mx/HT201265)
 
-Asegúrate de reiniciar tu ordenador e intenta iniciar sesión de nuevo.
+No olvide reiniciar su computadora e intente iniciar sesión de nuevo.
