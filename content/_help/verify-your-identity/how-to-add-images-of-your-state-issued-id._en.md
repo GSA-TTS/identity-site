@@ -33,21 +33,23 @@ do_list:
   role='alert'
 %}
 
-<div class="margin-top-5">
-  <span class="usa-tag usa-tag--informative">Recommended</span>
-</div>
+## Overview
 
-<div class="margin-top-2">
-  <h2 id="phone-tips" class="margin-0">
-    Use a phone to take photos of the front and back of your ID
-  </h2>
-</div>
+You must take a photo of your accepted driver’s license or state ID card and enter your personal information to verify your identity online.
+
+You may need to take a photo of yourself with a phone to verify your identity online. This is to check that you are the person on your ID. If you don’t have a phone with a camera, you can [verify your identity in person]({{ '/help/verify-your-identity/verify-your-identity-in-person/' | locale_url }}).
+
+This article will cover the different ways you can submit images to verify your identity.
+
+---
+
+## How to take photos of your driver’s license or state ID card
 
 If you are using a computer to verify your identity, you will be able to switch to a phone to take photos of your ID.
 
-### Tips for taking clear photos with a phone
+### Using your phone
 
-<div class="grid-row grid-gap">
+<div class="grid-row grid-gap margin-bottom-2">
   <div class="tablet:grid-col">
     <img alt="ID front is centered in the camera frame and placed on a dark background." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
   </div>
@@ -63,8 +65,6 @@ If you are using a computer to verify your identity, you will be able to switch 
   icon_color='success'
   icon_shape='check_circle'
 %}
-
-### Common issues with taking photos of an ID
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
@@ -110,13 +110,39 @@ If you are using a computer to verify your identity, you will be able to switch 
   </div>
 </div>
 
----
+### How to upload images if you don’t have access to a phone with a camera
 
-## If you don’t have access to a phone with a camera, you can upload a file or use a scanner
-* Follow the same [tips for taking photos with a phone](#phone-tips).
+If you don’t have access to a phone with a camera, you may have the option to upload a scanned photo of your driver’s license or state ID card.
+
+* Follow the same [tips for taking photos with a phone](#using-your-phone).
 * Save each file as a JPG or PNG. You cannot use a PDF file. Look at the name of your file and it should have an abbreviation after the title (ex: JohnDoeID_Front.jpg).
 * Make sure your images are high-resolution (around 2025 x 1275 pixels is ideal).
-* Images should be in color.
+* Upload color images only.
+
+---
+
+## How to add a photo of your face to help verify your ID
+
+You may be asked to take photos of your driver’s license or state ID card __and__ a photo of your face. This is to check that you are the person on your ID.
+
+You must use your phone to take pictures of both your face and your state ID using Login.gov’s camera tool.
+
+### Device requirements
+
+* To complete this step you need a phone with a camera.
+* If you don’t have a phone with a camera, you may be able to [verify your identity in person]({{ '/help/verify-your-identity/verify-your-identity-in-person/' | locale_url }}) at a United States Postal Service location near you.
+
+### Prepare for your photo
+
+* Remove any clothing items or accessories that might cover your face. We suggest removing your glasses or hat.
+* Take your photo in a well-lit place.
+* Keep your expression neutral (avoid smiling).
+
+### How to use the camera tool
+
+* Line up your face with the green circle. Make sure your entire face is visible, starting from your chin to the top of your head.
+* Keep still as the camera tool automatically takes your photo.
+* Tap the check mark to accept the photo.
 
 ---
 
