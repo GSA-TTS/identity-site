@@ -26,4 +26,4 @@ La información que usted envía se usa para crear o actualizar su cuenta de Log
 * La información almacenada de su cuenta está cifrada en dos niveles. El cifrado traduce sus datos en un código al que solo usted puede acceder, como titular de la cuenta de Login.gov. Esto significa que solo usted puede ver y hacer cambios en la información de su cuenta.
 * Los operadores de Login.gov (es decir, nuestro centro de ayuda de contacto) no pueden ver su información ni hacer cambios.
 
-Proteger su información es nuestra prioridad. En estos vínculos, puede leer explicaciones más detalladas sobre [el funcionamiento de Login.gov](/es/policy/how-does-it-work/), [nuestra declaración de privacidad](/es/policy/our-privacy-act-statement/) y [nuestras prácticas de seguridad](/es/policy/).
+Proteger su información es nuestra prioridad. En estos vínculos, puede leer explicaciones más detalladas sobre [el funcionamiento de Login.gov](/es/policy/how-does-it-work/), [nuestra declaración de privacidad](/es/policy/our-privacy-act-statement/) y [nuestras prácticas de seguridad](/es/policy/our-security-practices/).
