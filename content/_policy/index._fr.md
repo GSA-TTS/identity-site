@@ -26,4 +26,4 @@ Les informations que vous nous envoyez servent à créer ou mettre à jour votre
 * Les informations stockées sur votre compte sont chiffrées à deux niveaux. Le chiffrement traduit vos données en un code qui n’est accessible qu’à vous, le titulaire du compte Login.gov. En d’autres termes, vous êtes le seul à pouvoir consulter et modifier les informations de votre compte.
 * Les opérateurs de Login.gov (c’est-à-dire notre centre d’assistance) ne peuvent pas consulter vos informations ni les modifier.
 
-La protection de vos informations constitue notre priorité. Vous pouvez obtenir des explications plus détaillées sur [le fonctionnement de Login.gov](/fr/policy/how-does-it-work/), [notre déclaration sur la protection de la vie privée](/fr/policy/our-privacy-act-statement/) et [nos pratiques en matière de sécurité](/fr/policy/our-security-practices).
+La protection de vos informations constitue notre priorité. Vous pouvez obtenir des explications plus détaillées sur [le fonctionnement de Login.gov](/fr/policy/how-does-it-work/) et [notre déclaration sur la protection de la vie privée](/fr/policy/our-privacy-act-statement/).

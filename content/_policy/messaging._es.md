@@ -12,7 +12,7 @@ Login.gov utiliza mensajería de texto SMS para ayudar a verificar su identidad 
 
 * Login.gov proporciona un servicio de autenticación y no utilizará mensajes de texto o de voz con ningún otro fin.
 * Es posible que se apliquen las tarifas de mensajería y datos de sus proveedores.
-*Los mensajes solo se enviarán como parte de la configuración y del inicio de sesión en su cuenta de Login.gov.
+* Los mensajes solo se enviarán como parte de la configuración y del inicio de sesión en su cuenta de Login.gov.
 * Para optar por no recibir mensajes de texto de Login.gov, responda con el mensaje “STOP” (Detener) al mensaje de texto no deseado.
 * Consulte nuestra declaración de privacidad para obtener información sobre la política de privacidad.
 * Los proveedores no son responsables de los mensajes retrasados ​​o no entregados.

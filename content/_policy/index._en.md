@@ -28,7 +28,7 @@ The information that you submit is used to create or update your Login.gov accou
 
 ### How we work with our partner agencies: ### {#how-we-work-with-our-partner-agencies}
 
-*Login.gov partners with government agencies to provide secure access to their website, application, or service. The partner agency (for example, the United States Office of Personnel Management) selects the type of information we request from you.
+* Login.gov partners with government agencies to provide secure access to their website, application, or service. The partner agency (for example, the United States Office of Personnel Management) selects the type of information we request from you.
 * We ask primarily for information to authenticate your account and/or prove your identity.
 * When you create a Login.gov account, you consent to share personally identifiable information (PII). The information that you need to share depends on the request of the partner agency.
 * For authentication to establish a secure account, we need your name, email address, and an authentication method. Your authentication method could be a phone number where we share an SMS code, USB Security Key, or other options.
@@ -38,4 +38,4 @@ The information that you submit is used to create or update your Login.gov accou
 * Your stored account information is encrypted at two levels. Encryption translates your data into code that is only accessible by you, the Login.gov account holder. This means you are the only one who can view and make changes to your account information.
 * The Login.gov operators (that is, our contact help center) cannot view your information or make any changes.
 
-Protecting your information is our priority. You can read more detailed explanations about [how Login.gov works](/policy/how-does-it-work/), [our privacy act statement](/policy/our-privacy-act-statement/), and [our security practices](/policy/our-security-practices/).
+Protecting your information is our priority. You can read more detailed explanations about [how Login.gov works](/policy/how-does-it-work/), and [our privacy act statement](/policy/our-privacy-act-statement/).
