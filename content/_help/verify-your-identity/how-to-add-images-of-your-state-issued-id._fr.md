@@ -72,8 +72,8 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
       image-alt-text='La pièce d’identité est placée sur un fond blanc.'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
-      do_dont_text="À NE PAS FAIRE"
-      text='NE PAS Utiliser un fond blanc'
+      do_dont_text="NE PAS"
+      text='Utiliser un fond blanc'
     %}
   </div>
   <div class="tablet:grid-col">
@@ -82,8 +82,8 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
       image-alt-text='La pièce d’identité est placée sur un fond texturé.'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
-      do_dont_text="À NE PAS FAIRE"
-      text='NE PAS Utiliser un fond texturé ou à motif'
+      do_dont_text="NE PAS"
+      text='Utiliser un fond texturé ou à motif'
     %}
   </div>
 </div>
@@ -94,8 +94,8 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
       image-alt-text='Les bordures de votre pièce d’identité sont recadrés.'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
-      do_dont_text="À NE PAS FAIRE"
-      text="NE PAS Rogner les bords de votre pièce d’identité"
+      do_dont_text="NE PAS"
+      text="Rogner les bords de votre pièce d’identité"
     %}
   </div>
   <div class="tablet:grid-col">
@@ -103,8 +103,8 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
       include components/image-example-incorrect.html
       image-alt-text='Il y a des reflets et des ombres sur l’image de la pièce d’identité.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      do_dont_text="À ÉVITER"
-      text='ÉVITER Les reflets et les ombres'
+      do_dont_text="ÉVITER"
+      text='Les reflets et les ombres'
     %}
   </div>
 </div>
