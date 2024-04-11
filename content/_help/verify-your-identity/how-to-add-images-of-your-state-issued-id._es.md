@@ -74,7 +74,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
       do_dont_text="NO"
-      text='NO use un fondo de color blanco.'
+      text='use un fondo de color blanco.'
     %}
   </div>
   <div class="tablet:grid-col">
@@ -84,7 +84,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
       do_dont_text="NO"
-      text='NO use un fondo con textura o con dibujos.'
+      text='use un fondo con textura o con dibujos.'
     %}
   </div>
 </div>
@@ -96,7 +96,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
       do_dont_text="NO"
-      text='NO recorte los bordes de su identificación.'
+      text='recorte los bordes de su identificación.'
     %}
   </div>
   <div class="tablet:grid-col">
@@ -105,7 +105,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
       image-alt-text='El documento de identidad presenta reflejos y sombras.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
       do_dont_text="EVITE"
-      text='EVITE que se vean reflejos y sombras.'
+      text='que se vean reflejos y sombras.'
     %}
   </div>
 </div>
