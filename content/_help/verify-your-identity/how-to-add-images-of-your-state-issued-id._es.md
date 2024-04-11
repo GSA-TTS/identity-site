@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Cómo insertar imágenes de su licencia de conducir o identificación estatal
+title: Cómo agregar imágenes de su licencia de conducir o tarjeta de identificación estatal
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
