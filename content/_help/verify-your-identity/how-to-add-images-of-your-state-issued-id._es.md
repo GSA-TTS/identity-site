@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Cómo añadir imágenes de su licencia de conducir o tarjeta de identificación estatal
+title: Cómo agregar imágenes de su licencia de conducir o tarjeta de identificación estatal
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
@@ -15,14 +15,14 @@ do_list:
 ---
 
 {% capture alert_link %}
-  <a href="/es/help/verify-your-identity/accepted-identification-documents/" class="usa-link">licencia de conducir válida o tarjeta de identificación estatal</a>
+  <a href="/es/help/verify-your-identity/accepted-identification-documents/" class="usa-link">licencia de conducir válida o con un documento de identidad estatal</a>
 {% endcapture %}
 
 {% capture alert_content %}
   <strong>
-    Si no tiene un {{ alert_link }} no puede usar Login.gov para verificar su identidad.
+    Si no cuenta {{ alert_link }} no puede utilizar Login.gov para verificar su identidad.
   </strong>
-  Comuníquese con el centro de ayuda de la agencia asociada para saber lo que puede hacer en ese caso.
+  Por favor, comuníquese con el centro de ayuda de la entidad asociada para saber qué puede hacer como alternativa.
 {% endcapture %}
 
 {%
