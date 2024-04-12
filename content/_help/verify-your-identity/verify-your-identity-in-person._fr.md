@@ -16,6 +16,7 @@ Vous pouvez également vérifier votre identité en personne si vous avez tenté
 Avant de commencer la procédure de vérification de l’identité, vous aurez le choix entre la vérification en ligne et la vérification en personne. Si vous souhaitez vérifier votre identité en personne, sélectionnez « Vérifier votre identité dans un bureau de poste ».
 
 Veuillez noter que vous avez également la possibilité de procéder à une vérification en personne si vous avez du mal à le faire en ligne.
+
 Veuillez préparer les informations suivantes pour les saisir sur Login.gov :
 
 1. Votre carte d'identité délivrée par l'État. [Vous n'avez pas de carte d'identité délivrée par l'État?](/fr/help/verify-your-identity/accepted-state-issued-identification/)
