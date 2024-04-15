@@ -6,9 +6,16 @@ children:
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-Si vous ne parvenez pas à télécharger votre pièce d'identité sur Login.gov, vous pourriez faire une vérification en personne à un bureau de poste participant.
+Login.gov vous propose de vérifier votre identité en personne dans un bureau de poste des États-Unis (USPS) près de chez vous, comme solution de rechange à la vérification de votre identité en ligne.
+
+Vous pouvez également vérifier votre identité en personne si vous avez tenté de le faire en ligne, mais que vous n’avez pas réussi à téléverser votre permis de conduire ou votre carte d’identité délivrée par l'État sur Login.gov.
+
 
 ## Commencez cette procédure sur Login.gov avant de vous rendre au bureau de poste 
+
+Avant de commencer la procédure de vérification de l’identité, vous aurez le choix entre la vérification en ligne et la vérification en personne. Si vous souhaitez vérifier votre identité en personne, sélectionnez « Vérifier votre identité dans un bureau de poste ».
+
+Veuillez noter que vous avez également la possibilité de procéder à une vérification en personne si vous avez du mal à le faire en ligne.
 
 Veuillez préparer les informations suivantes pour les saisir sur Login.gov :
 
@@ -25,19 +32,21 @@ Si vous ne parvenez pas à effectuer l'une de ces étapes, veuillez contacter le
 
 Une fois que vous aurez complété les étapes sur Login.gov, nous vous enverrons par courriel un code-barres et une date limite pour vous rendre au bureau de poste. Vous pouvez imprimer le courriel, ou le montrer depuis votre cellulaire. Si vous vous rendez au bureau de poste après la date limite, vos informations ne seront pas sauvegardées et vous devrez recommencer le processus.  
 
-### Votre carte d'identité délivrée par l'État
+### Votre permis de conduire ou votre carte d’identité délivrée par l'État
 
-Apportez la même carte d'identité que vous avez utilisée sur Login.gov. Votre pièce d'identité ne doit pas être périmée. Pour l'instant, seules les pièces d'identité suivantes, délivrées par l'État, sont acceptées : 
+Apportez la même pièce d’identité que celle que vous avez utilisée pour saisir vos informations sur Login.gov. Pour l'instant, seules les pièces d'identité suivantes, délivrées par l'État, sont acceptées : 
 
 * Un permis de conduire des 50 États, du district de Columbia (D. C.) et des autres territoires américains (Guam, îles Vierges américaines, Samoa américaines, îles Mariannes et Porto Rico).
 * Une carte d'identité sans permis de conduire délivrée par l'État.
-* * Il s'agit d'un document d'identité délivré par l'État, le district de Columbia (D. C.) ou le territoire américain, qui atteste de l'identité mais ne donne pas le droit de conduire.
+  * Il s'agit d'un document d'identité délivré par l'État, le district de Columbia (D. C.) ou le territoire américain, qui atteste de l'identité mais ne donne pas le droit de conduire.
 
 Nous n'acceptons actuellement aucune autre forme d'identification, comme les passeports et les cartes d'identité militaires. Vous ne pouvez pas vérifier votre identité au bureau de poste sans un document d'identité délivré par l'État. Nous travaillons actuellement à l'ajout d'autres moyens de vérifier votre identité.
 
 En attendant, veuillez contacter le centre d'assistance de l'agence partenaire pour savoir ce que vous pouvez faire.
 
-## Terminez la procédure dans un bureau de poste participant avant la date limite.
+Vous pouvez apporter une copie physique ou montrer une copie numérique du document. Vous ne pouvez pas montrer une photo ou une capture d'écran du document.
+
+## Terminez la procédure dans un bureau de poste participant avant la date limite
 
 ### La vérification en personne est disponible dans les établissements participants aux États-Unis et dans certains territoires américains.* 
 
@@ -55,7 +64,7 @@ Une fois que vous avez reçu un code-barres en ligne, vous pouvez vous rendre da
 
 ### Nous vous enverrons un courriel avec les prochaines étapes
 
-Nous vous enverrons un courriel pour vous informer de la réussite ou de l'échec de la vérification de votre identité dans les 24 heures suivant votre visite au bureau de poste. 
+Vous recevrez un courriel vous informant du succès ou de l’échec de la vérification de votre identité dans les 24 heures suivant votre visite au bureau de poste. 
 
 Si la vérification de votre identité n'a pas abouti, vous pouvez :
 
@@ -93,8 +102,8 @@ Nous annulons automatiquement les demandes après 30 jours afin de protéger les
 
 ## Artículos relacionados
 
-[Aide pour des agences spécifiques](/fr/help/specific-agencies/overview/)
+[Pièces d'identité délivrées par l'État acceptées](/fr/help/verify-your-identity/accepted-state-issued-identification/)
 
-[Pièces d’identité acceptées, délivrées par l’État](/fr/help/verify-your-identity/accepted-state-issued-identification/)
+[Problèmes de téléchargement de votre pièce d'identité délivrée par l'État](/fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
 
 [Vérifier votre identité en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/)
