@@ -6,9 +6,16 @@ children:
 permalink: /es/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-Si no logra cargar en Login.gov su identificación emitida por el estado, puede verificar su identidad en persona en una oficina del Servicio Postal de los Estados Unidos (USPS) participante.
+Login.gov te brinda la posibilidad de verificar tu identidad de manera presencial en una oficina del servicio postal de los Estados Unidos (USPS) cerca de tu ubicación, como una alternativa a la verificación en línea de tu identidad.
+
+Si has tenido dificultades para cargar correctamente tu licencia de conducir o documento de identificación estatal en Login.gov, también puedes tener la opción de verificar tu identidad de manera presencial.
+
 
 ## Inicie este proceso en Login.gov antes de acudir a la oficina de correos&nbsp;
+
+Antes de comenzar el proceso de verificación de identidad, tendrás que elegir entre verificar en línea o de manera presencial. Si optas por la presencial, selecciona la opción "Verificar la identidad en una oficina postal".
+
+Ten en cuenta que también tienes la opción de verificar de manera presencial si intentas hacerlo en línea pero no puedes.
 
 Tenga preparada la siguiente información para ingresarla en Login.gov:
 
@@ -25,9 +32,9 @@ Si no puede completar alguno de estos pasos, póngase en contacto con el centro 
 
 Una vez que haya completado los pasos en Login.gov, le enviaremos por correo electrónico un código de barras y una fecha límite para ir a la oficina de correos. Puede imprimir el correo electrónico o mostrarlo en su dispositivo móvil. Si va a la oficina de correos después de la fecha límite, su información ya no estará guardada y tendrá que iniciar de nuevo el proceso.
 
-### Identificación emitida por el estado
+### Tu licencia de conducir o tu tarjeta de identificación estatal
 
-Lleve la misma identificación que usó en Login.gov. Su identificación no debe estar vencida. Por ahora, solo se aceptan las siguientes identificaciones emitidas por el estado:
+Lleva contigo el mismo documento de identidad que utilizaste para ingresar tu información en Login.gov. Su identificación no debe estar vencida. En este momento, solo se aceptan las siguientes identificaciones emitidas por el estado: 
 
 * Licencia de conducir de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico)
 * Tarjeta de identificación emitida por el estado que no sea una licencia de conducir
@@ -55,7 +62,7 @@ Una vez que haya recibido un código de barras en línea, podrá acudir a cualqu
 
 ### Le enviaremos un correo electrónico con los siguientes pasos
 
-En las 24 horas siguientes a su visita a la oficina de correos, recibirá un correo electrónico para informarle si se logró o no la verificación de su identidad.
+Recibirás un correo electrónico para informarte si tu verificación de identidad se realizó correctamente o no dentro de las 24 horas posteriores a tu visita a la oficina postal.
 
 Si no se logró la verificación de su identidad, usted puede:
 
@@ -93,8 +100,8 @@ Cancelamos automáticamente las solicitudes al cabo de 30 días para proteger lo
 
 ## Otros artículos
 
-[Ayuda con agencias específicas](/es/help/specific-agencies/overview/)
+[Documentos de identidad estatales aceptados](/es/help/verify-your-identity/accepted-state-issued-identification/)
 
-[Identificación emitida por el estado aceptada](/es/help/verify-your-identity/accepted-state-issued-identification/)
+[Solucionar problemas al subir el documento de identidad emitido por el estado](/es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
 
-[Verifique su identidad en línea](/es/help/verify-your-identity/how-to-verify-your-identity/)
+[Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
