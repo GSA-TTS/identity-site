@@ -130,7 +130,7 @@ Vous devez utiliser votre téléphone pour prendre des photos de votre visage et
 ### Type d’appareil requis
 
 * Pour effectuer cette étape, vous avez besoin d’un téléphone équipé d’un appareil photo.
-* Si vous n’en avez pas, vous pouvez peut-être [confirmer votre identité en personne]({{ '/help/verify-your-identity/verify-your-identity-in-person/' | locale_url }}) dans un bureau du service des postes des États-Unis près de chez vous.
+* Si vous n’en avez pas, vous pouvez peut-être [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau du service des postes des États-Unis près de chez vous.
 
 ### Avant de vous prendre en photo
 
