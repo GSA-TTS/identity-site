@@ -6,16 +6,15 @@ children:
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-Login.gov vous propose de vérifier votre identité en personne dans un bureau de poste des États-Unis (USPS) près de chez vous, comme solution de rechange à la vérification de votre identité en ligne.
+Login.gov offre des services de vérification d’identité en personne, plutôt qu’en ligne, dans un bureau du service des postes des États-Unis (USPS) participant près de chez vous.
 
-Vous pouvez également vérifier votre identité en personne si vous avez tenté de le faire en ligne, mais que vous n’avez pas réussi à téléverser votre permis de conduire ou votre carte d’identité délivrée par l'État sur Login.gov.
-
+Il est également possible de confirmer votre identité en personne si vous avez essayé de le faire en ligne mais n’avez pas réussi à téléverser votre permis de conduire ou votre carte d’identité d’un État sur Login.gov.
 
 ## Commencez cette procédure sur Login.gov avant de vous rendre au bureau de poste 
 
-Avant de commencer la procédure de vérification de l’identité, vous aurez le choix entre la vérification en ligne et la vérification en personne. Si vous souhaitez vérifier votre identité en personne, sélectionnez « Vérifier votre identité dans un bureau de poste ».
+Avant de commencer la procédure de vérification d’identité, vous devrez choisir entre faire cette démarche en ligne ou en personne. Si vous voulez confirmer votre identité en personne, sélectionnez « Confirmer votre identité dans un bureau de poste ».
 
-Veuillez noter que vous avez également la possibilité de procéder à une vérification en personne si vous avez du mal à le faire en ligne.
+Veuillez noter que vous avez aussi la possibilité de confirmer votre identité en personne si vous tentez de le faire en ligne mais n’y parvenez pas.
 
 Veuillez préparer les informations suivantes pour les saisir sur Login.gov :
 
@@ -32,9 +31,9 @@ Si vous ne parvenez pas à effectuer l'une de ces étapes, veuillez contacter le
 
 Une fois que vous aurez terminé les différentes étapes sur Login.gov, nous vous enverrons par e-mail un code-barres et une date limite pour vous rendre au bureau de poste. Vous pouvez imprimer l’e-mail ou le montrer depuis votre téléphone portable. Si vous vous rendez au bureau de poste après la date limite, vos informations ne seront pas sauvegardées et vous devrez recommencer le processus.  
 
-### Votre permis de conduire ou votre carte d’identité délivrée par l'État
+### Votre permis de conduire ou carte d’identité d’un État
 
-Apportez la même pièce d’identité que celle que vous avez utilisée pour saisir vos informations sur Login.gov. Pour l'instant, seules les pièces d'identité suivantes, délivrées par l'État, sont acceptées : 
+Munissez-vous de la même pièce d'identité que celle que vous avez utilisée pour saisir les renseignements vous concernant sur Login.gov. Pour l'instant, seules les pièces d'identité suivantes, délivrées par l'État, sont acceptées : 
 
 * Permis de conduire des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, Îles Vierges des États-Unis, Samoa américaines, Îles Mariannes et Porto Rico)
 * Pièce d’identité délivrée par l’État, à l’exception d’un permis de conduire
@@ -63,7 +62,7 @@ Une fois que vous avez reçu un code-barres en ligne, vous pouvez vous rendre da
 
 ### Nous vous enverrons un e-mail avec les prochaines étapes
 
-Vous recevrez un courriel vous informant du succès ou de l’échec de la vérification de votre identité dans les 24 heures suivant votre visite au bureau de poste. 
+Nous vous enverrons un e-mail vous informant si la vérification d’identité a abouti ou non dans les 24 heures suivant votre passage au bureau de poste.
 
 En cas d’échec de la vérification de votre identité, vous pouvez :
 
