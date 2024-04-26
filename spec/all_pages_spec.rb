@@ -20,10 +20,10 @@ end
 RSpec.describe 'all pages' do
   let(:old_paths) { YAML.load_file('OLD_URLS.yml').map { |url| URI(url).path } }
   let(:redirect_froms) do
-    Dir["#{REPO_ROOT}/content/**/*.md"].map do |path|
+    Dir["#{REPO_ROOT}/content/**/*.md"].flat_map do |path|
       frontmatter = File.read(path).split('---', 3)[1]
       Array(YAML.load(frontmatter)['redirect_from'])
-    end.flatten
+    end
   end
 
   files = Dir.glob('**/*.html', base: SITE_ROOT)
