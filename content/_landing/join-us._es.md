@@ -1,7 +1,7 @@
 ---
 layout: sidenav
 sidenav: join_us
-title: Únete a nuestro equipo
+title: Únase a nuestro equipo
 permalink: /es/join/
 redirect_from:
   - /es/join-us/

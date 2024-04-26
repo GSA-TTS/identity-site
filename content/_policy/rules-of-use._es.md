@@ -78,7 +78,7 @@ Es necesario que proteja los autenticadores físicos (como códigos de recuperac
 
 Si olvida su frase de contraseña, puede restablecerla si tiene acceso a su dirección de correo electrónico registrada. Si no dispone de ninguno de sus otros autenticadores, podrá seguir accediendo a su cuenta, pero eliminaremos toda la información que esta contenga. Puede cambiar su frase de contraseña en cualquier momento en el perfil de su cuenta. Si pierde otro autenticador o ya no desea utilizarlo, puede desactivarlo en el perfil de su cuenta en cualquier momento.
 
-Si sospechamos que hubo fraude en su cuenta, podemos bloquearla y ponernos en contacto con usted. Si tenemos motivos para creer que su frase de contraseña se ha visto comprometida, es posible que le pidamos que la restablezca. Si su cuenta se ha visto comprometida de alguna manera, informe de inmediato a Login.gov en https://login.gov/es/contact/.
+Si sospechamos que hubo fraude en su cuenta, podemos bloquearla y ponernos en contacto con usted. Si tenemos motivos para creer que su frase de contraseña se ha visto comprometida, es posible que le pidamos que la restablezca. Si su cuenta se ha visto comprometida de alguna manera, informe de inmediato a Login.gov en <https://login.gov/es/contact/>.
 
 ## 4. Comprobación y verificación de la identidad
 

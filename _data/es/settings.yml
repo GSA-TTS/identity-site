@@ -291,7 +291,7 @@ nav:
         url: '#limitaciones-conocidas'
     title: Accesibilidad
   anchor_to_top: Volver arriba
-  become_a_partner: Convertirse en un compañero
+  become_a_partner: Convertirse en un asociado
   business_inquiries:
     title: Business inquiries
 
@@ -306,7 +306,7 @@ nav:
         url: '#asociarse-con-logingov'
       - name: Reportar un problema
         url: '#reportar-un-problema'
-    title: Contacta con nosotros
+    title: Contacte con nosotros
   create_an_account: Crea una cuenta
   developer_guide: Guía para desarrolladores
   developers: Desarrolladores
@@ -317,7 +317,7 @@ nav:
     agencies: Para agencias
     learn: Aprender
     partners: For partners # partners site does not require translations
-    support: Apoyo
+    support: Ayuda
   help: Ayuda
   help_center: Centro de ayuda
   home: Inicio
@@ -328,7 +328,7 @@ nav:
         url: '#posiciones-abiertas'
       - name: Cómo aplicar
         url: '#cómo-aplicar'
-    title: Únete a nuestro equipo
+    title: Únase a nuestro equipo
   menu: Menú
   overview: Resumen
   playbook: Manual

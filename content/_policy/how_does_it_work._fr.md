@@ -4,7 +4,7 @@ description: Découvrez comment nous protégeons et sécurisons vos informations
 permalink: /fr/policy/how-does-it-work/
 sidenav: policies
 ---
-## Comment est-ce que ça marchea ## {#how-does-it-work}
+## Comment ça marche ## {#how-does-it-work}
 
 Login.gov chiffre vos informations personnelles en transit et archivées et vous demande votre autorisation avant de partager vos données avec un organisme partenaire. De nombreux organismes de l’administration peuvent réutiliser les identifiants garantissant l’identité sur leurs différents sites Web et Login.gov continue de développer ses services pour répondre aux besoins divers de ces organismes partenaires.
 
