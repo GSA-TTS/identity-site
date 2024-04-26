@@ -5,7 +5,6 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
 redirect_from:
-  - /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 do_list:
   - Use una cámara de alta resolución, como la de un smartphone o de una tableta. Es posible que la cámara web de su computadora no tome fotografías nítidas.
@@ -16,7 +15,7 @@ do_list:
 ---
 
 {% capture alert_link %}
-  <a href="/es/help/verify-your-identity/accepted-state-issued-identification/" class="usa-link">licencia de conducir válida o tarjeta de identificación estatal</a>
+  <a href="/es/help/verify-your-identity/accepted-identification-documents/" class="usa-link">licencia de conducir válida o tarjeta de identificación estatal</a>
 {% endcapture %}
 
 {% capture alert_content %}
