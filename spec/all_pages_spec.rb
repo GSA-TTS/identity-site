@@ -19,6 +19,13 @@ end
 
 RSpec.describe 'all pages' do
   let(:old_paths) { YAML.load_file('OLD_URLS.yml').map { |url| URI(url).path } }
+  let(:redirect_froms) do
+    Dir["#{REPO_ROOT}/content/**/*.md"].map do |path|
+      page = path.split(REPO_ROOT.to_s).last
+      frontmatter = File.read(path).split('---', 3)[1]
+      Array(YAML.load(frontmatter)['redirect_from'])
+    end.flatten
+  end
 
   files = Dir.glob('**/*.html', base: SITE_ROOT)
   files.reject! { |path| admin_page?(path) || redirect_page?(path) }
@@ -32,6 +39,14 @@ RSpec.describe 'all pages' do
 
       it 'escapes html correctly' do
         expect(doc).to properly_escape_html
+      end
+
+      it 'does not link to redirect_from' do
+        aggregate_failures do
+          doc.css('a').each do |a|
+            expect(redirect_froms).not_to include(a[:href])
+          end
+        end
       end
 
       it 'links as HTTPS to valid page' do
