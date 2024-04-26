@@ -30,4 +30,4 @@ Follow these steps to sign in to Login.gov.
 ## Related articles
 
 * [Authentication methods](/help/get-started/authentication-methods/)
-* [Verify your identity](/help/verify-your-identity/)
+* [Verify your identity](/help/verify-your-identity/overview/)

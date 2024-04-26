@@ -4,8 +4,6 @@ title: Vous avez oublié votre clé personnelle?
 category: trouble-signing-in
 permalink: /fr/help/trouble-signing-in/forgot-your-personal-key/
 order: 4
-redirect_from:
-  - /fr/help/trouble-signing-in/forgot-your-personal-key/
 ---
 Une clé personnelle est un code de 16 caractères qui chiffre vos informations personnelles avec votre compte. Votre clé personnelle est le seul moyen d'accéder à vos informations si vous perdez ou oubliez votre mot de passe.
 
