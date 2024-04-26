@@ -15,7 +15,7 @@ Si vous avez moins de 18 ans, il se peut que vous ne puissiez pas vérifier votr
 ## Exigences relatives à la vérification de l'identité
 
 {: .number-list}
-1. Votre carte d'identité émise par l'État. Vous pouvez télécharger une photo de votre pièce d'identité par téléphone ou par ordinateur. [Vous n'avez pas de carte d'identité émise par l'État?](/fr/help/verify-your-identity/accepted-state-issued-identification/)
+1. Votre carte d'identité émise par l'État. Vous pouvez télécharger une photo de votre pièce d'identité par téléphone ou par ordinateur. [Vous n'avez pas de carte d'identité émise par l'État?](/fr/help/verify-your-identity/accepted-identification-documents/)
 1. Numéro de sécurité sociale
 1. Votre numéro de téléphone
     * Si nous ne pouvons pas vérifier votre identité à l'aide de votre numéro de téléphone, [vous pouvez le faire par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/). Cela prend 5 à 10 jours.

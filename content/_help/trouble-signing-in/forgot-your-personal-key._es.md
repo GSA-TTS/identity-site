@@ -4,8 +4,6 @@ title: Olvidaste tu clave personal
 category: trouble-signing-in
 permalink: /es/help/trouble-signing-in/forgot-your-personal-key/
 order: 4
-redirect_from:
-  - /es/help/trouble-signing-in/forgot-your-personal-key/
 ---
 Una clave personal es un código de 16 caracteres que encripta tu información personal con tu cuenta. Tu clave personal es la única forma de acceder a tu información si pierdes u olvidas tu contraseña.
 

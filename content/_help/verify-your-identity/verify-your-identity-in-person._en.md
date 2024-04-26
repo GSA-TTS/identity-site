@@ -19,7 +19,7 @@ Please note, you may also have the option to verify in person if you attempt to 
 
 Please have the following information ready to enter on Login.gov:
 
-1. Your State-Issued ID. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification/)
+1. Your State-Issued ID. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-identification-documents/)
 2. Social Security Number
 3. Your phone number
    a. If you cannot complete this step, we can [send you a verification code by mail](/help/verify-your-identity/verify-your-address-by-mail/) which takes 5 to 10 days to arrive.
@@ -100,9 +100,9 @@ We automatically cancel requests after 30 days in order to protect applicants’
 
 ## Related Articles
 
-[Accepted State-Issued Identification](/help/verify-your-identity/accepted-state-issued-identification/)
+[Accepted State-Issued Identification](/help/verify-your-identity/accepted-identification-documents/)
 
-[Troubleshoot uploading your state-issued ID](/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
+[Troubleshoot uploading your state-issued ID](/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
 
 [Verify your identity online](/help/verify-your-identity/how-to-verify-your-identity/)
 
