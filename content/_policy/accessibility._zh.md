@@ -1,3 +1,4 @@
+---
 layout: sidenav
 sidenav: accessibility
 title: 可访问性说明
