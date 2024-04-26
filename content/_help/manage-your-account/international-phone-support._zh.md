@@ -6,8 +6,6 @@ permalink: /zh/help/manage-your-account/international-phone-support/
 order: 7 
 scripts:
   - /assets/js/country_support.js
-redirect_from:
-  - /en/help/manage-your-account/international-phone-support/
 ---
 使用以下信息确定你的国际电话号码是否可以用作一种双重身份验证方法来接受 SMS（短信）和/或接听电话。
 

@@ -4,11 +4,6 @@ title: 个人密钥
 category: manage-your-account
 permalink: /zh/help/manage-your-account/personal-key/
 order: 3 
-redirect_from:
-  - /en/help/manage-your-account/personal-key/
-  - /help/changing-settings/get-a-new-personal-key/
-  - /help/changing-settings/how-do-I-get-a-new-personal-key/
-  - /help/creating-an-account/what-is-my-personal-key/
 ---
 个人密钥是一个 16 字符的代码，对你账户的个人信息进行加密。如果你丢失或忘记了密码，个人密钥是唯一访问你信息的方法。
 

@@ -4,10 +4,6 @@ title: 更改密码
 category: manage-your-account
 permalink: /zh/help/manage-your-account/change-your-password/
 order: 2
-redirect_from:
-  - /en/help/manage-your-account/change-your-password/
-  - /help/changing-settings/change-my-password/
-  - /help/changing-settings/how-do-i-change-my-password/
 ---
 按照以下步骤更改你的 Login.gov 密码。
 

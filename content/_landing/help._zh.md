@@ -4,8 +4,6 @@ description: 得到对 Login.gov 常见问题的答案.
 layout: help_landing
 permalink: /zh/help/
 hero: true
-redirect_from:
-  - /en/help/
 ---
 <div class="container--mod grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-9 padding-bottom-1">
   <ul class="usa-card-group grid-row tablet:flex-align-center usa-list usa-list--unstyled">

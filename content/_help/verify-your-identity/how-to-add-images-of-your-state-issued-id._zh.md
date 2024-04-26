@@ -4,9 +4,6 @@ title: 如何添加州政府颁发的身份证件
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
-redirect_from:
-  - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
-  - /help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 do_list: 
   - 请使用高分辨率相机，比如智能手机或平板里的相机。你电脑摄像头不见得能拍清晰的照片。
   - 请使用固定的暗色背景。

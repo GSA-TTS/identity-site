@@ -4,11 +4,6 @@ sidenav: policies
 title: 隐私与安全
 description: 了解我们安全与隐私实践的更多信息
 permalink: /zh/policy/
-redirect_from:
-  - /en/policy/
-  - /docs/Logingov_PIA_August2019.pdf/
-  - /docs/Privacy-Impact-Assessment 9-18.pdf/
-  - /docs/privacy-impact-assessment.pdf/
 ---
 ## Login.gov 致力于保护你的隐私与安全 ## {#intro}
 

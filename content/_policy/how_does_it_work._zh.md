@@ -4,8 +4,6 @@ title: '隐私与安全: 如何实现'
 description: 了解我们如何保护你个人信息的安全。
 permalink: /zh/policy/how-does-it-work/
 sidenav: policies
-redirect_from:
-    - /en/policy/how-does-it-work/
 ---
 ## 这一点如何实现？ ## {#how-does-it-work}
 

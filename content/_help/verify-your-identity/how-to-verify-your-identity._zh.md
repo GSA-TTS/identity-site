@@ -4,11 +4,6 @@ title: 如何验证你的身份
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/how-to-verify-your-identity/
 order: 1
-redirect_from:
-  - /en/help/verify-your-identity/how-to-verify-your-identity/
-  - /help/identity-verification/how-do-i-verify-my-identity-on-logingov/
-  - /help/verify-your-identity/
-  - /help/verifying-your-identity/how-to-verify-my-identity/
 ---
 
 有的政府机构的应用程序要求身份验证。这一层额外安全保障要求你证明你是你，而不是有人假装是你。

@@ -5,14 +5,6 @@ category: verify-your-identity
 permalink: /zh/help/verify-your-identity/overview/
 meta_title: 概述
 order: 0
-redirect_from:
-  - /en/help/verify-your-identity/
-  - /en/help/verify-your-identity/overview/
-  - /help/identity-verification/i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them/
-  - /help/identity-verification/related-articles/
-  - /help/identity-verification/why-do-i-need-to-verify-my-identity/
-  - /help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
-  - /help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 ---
 
 参与本项目的有些机构要求你完成一个身份验证流程。身份验证是你证明你是你，而不是有人假装是你的流程。

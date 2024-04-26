@@ -4,9 +4,6 @@ sidenav: policies
 title: '隐私与安全: 我们的隐私法声明'
 description: 了解我们如何要求、使用、保留并保护你的个人信息以及你信息披露的义务。
 permalink: /zh/policy/our-privacy-act-statement/
-redirect_from:
-  - /en/policy/our-privacy-act-statement/
-  - /policy/our-privacy-practices/
 ---
 
 ## 我们的隐私法声明 ## {#our-privacy-act-statement}

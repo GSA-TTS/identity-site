@@ -3,8 +3,6 @@ sidenav: accessibility
 title: 可访问性说明
 description: 阅读我们的可访问性声明
 permalink: /zh/accessibility/
-redirect_from:
-  - /en/accessibility/
 ---
 
 ## 我们的承诺

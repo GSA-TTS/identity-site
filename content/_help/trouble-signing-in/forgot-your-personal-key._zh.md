@@ -4,8 +4,6 @@ title: 忘了个人密钥
 category: trouble-signing-in
 permalink: /zh/help/trouble-signing-in/forgot-your-personal-key/
 order: 4
-redirect_from:
-  - /en/help/trouble-signing-in/forgot-your-personal-key/
 ---
 个人密钥是一个 16 字符的代码，对你账户的个人信息进行加密。如果你丢失或忘记了密码，个人密钥是唯一访问你信息的方法。
 

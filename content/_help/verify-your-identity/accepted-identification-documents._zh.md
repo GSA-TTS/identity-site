@@ -4,12 +4,6 @@ title: 系统接受的身份证件
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/accepted-identification-documents/
 order: 2
-redirect_from:
-  - /help/identity-verification/i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity/
-  - /help/verifying-your-identity/dont-have-a-state-issued-id/
-  - /en/help/verify-your-identity/accepted-identification-documents/
-  - /help/verify-your-identity/accepted-state-issued-identification/
-  - /en/help/verify-your-identity/accepted-state-issued-identification/
 do_list: 
   - "美国所有50个州、哥伦比亚特区（DC）以及其他美国属地（关岛、美属维尔京岛、美属萨摩亚、马里亚纳群岛和波多黎各）的**驾照**。"
   - "**州政府颁发的非驾照身份证件卡。**这是由各州政府、哥伦比亚特区（DC）、或美国属地颁发的一种身份文件，证明你的身份但不授予驾驶特权。"

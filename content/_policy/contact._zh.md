@@ -40,6 +40,4 @@ report_issue_content: >-
 scripts:
   - /assets/js/contact.js
 permalink: /zh/contact/
-redirect_from:
-  - /en/contact/
 ---

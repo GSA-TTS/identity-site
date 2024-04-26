@@ -4,11 +4,6 @@ title: 验证你的电话号码
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/phone-number/
 order: 5
-redirect_from:
-  - /en/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
-  - /en/help/verify-your-identity/phone-number/
-  - /help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
-  - /help/verifying-your-identity/phone-plan-is-not-in-my-name-or-address/
 ---
 我们通过把你的电话号码与记录进行核对来验证你的身份。你用来验证身份的电话号码必须是美国国内（包括美国所有属地）的电话号码。
 

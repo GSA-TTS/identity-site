@@ -4,10 +4,6 @@ title: 如何登录 Login.gov
 category: trouble-signing-in
 permalink: /zh/help/trouble-signing-in/how-to-sign-in/
 order: 1
-redirect_from:
-  - /help/signing-in/
-  - /help/signing-in/how-to-sign-in/
-  - /en/help/trouble-signing-in/how-to-sign-in/
 ---
 每次你登录 Login.gov 帐户，都需要你的电子邮件地址、密码以及你设置的[身份证实选项](/help/get-started/authentication-methods/)之一。
 

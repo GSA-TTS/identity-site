@@ -4,8 +4,6 @@ title: '隐私与安全: 短信使用条款'
 description: 了解我们如何使用短信进行身份证实
 permalink: /zh/policy/messaging-terms-and-conditions/
 sidenav: policies
-redirect_from:
-    - /en/policy/messaging-terms-and-conditions/
 ---
 ## 短信使用条款 ## {#messaging-terms-and-conditions}
  你设立新账户时，Login.gov 使用 SMS 短信来验证你的身份。如果你选择电话号码作为身份证实方法之一，SMS 短信或自动拨打的语音电话也可能会被使用。

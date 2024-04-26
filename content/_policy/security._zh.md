@@ -3,16 +3,6 @@ sidenav: policies
 title: '隐私与安全: 我们的安全实践'
 description: 了解我们保护美国政府这一服务和你的数据并确保所有用户都可以使用服务的各种方法。
 permalink: /zh/policy/our-security-practices/
-redirect_from:
-  - /en/policy/our-security-practices/
-  - /help/privacy-and-security/does-logingov-share-my-information/
-  - /help/privacy-and-security/how-does-logingov-protect-my-information/
-  - /help/privacy-and-security/what-is-phishing/
-  - /help/privacy-and-security/why-do-i-have-to-use-logingov/
-  - /help/privacy-and-security/how-do-i-make-my-password-strong/
-  - /help/privacy-and-security/how-does-logingov-protect-my-data/
-  - /help/privacy-and-security/will-logingov-share-my-information/
-  - /security/
 ---
 
 ## 我们的安全实践 ## {#our-security-practices}

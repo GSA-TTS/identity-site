@@ -4,14 +4,6 @@ title: 删除你的账户
 category: manage-your-account
 permalink: /zh/help/manage-your-account/delete-your-account/
 order: 1
-redirect_from:
-  - /en/help/manage-your-account/delete-your-account/
-  - /help/changing-settings/delete-my-account/
-  - /help/changing-settings/email-address-is-already-in-use/
-  - /help/changing-settings/how-do-i-delete-my-account/
-  - /help/creating-an-account/email-address-is-already-in-use/
-  - /help/creating-an-account/what-do-i-do-if-an-account-already-exists-under-my-email-address/
-  - /help/signing-in/locked-out-of-account/
 ---
 **你可能因为各种不同原因需要删除一个账户：**
 

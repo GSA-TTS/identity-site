@@ -4,10 +4,6 @@ title: 通过普通邮件验证你的身份
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/verify-your-address-by-mail/
 order: 6
-redirect_from:
-  - /en/help/verify-your-identity/verify-your-address-by-mail/
-  - /help/creating-an-account/how-do-i-verify-my-address-by-mail/
-  - /help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 ---
 
 身份验证是你证明你是你，而不是有人假装是你的流程。  如果你无法[验证自己的电话号码，](/help/verify-your-identity/phone-number/)则可以使用你的地址通过普通邮件来验证。你会收到一封含有验证码的信件来完成验证你的身份。

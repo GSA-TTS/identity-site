@@ -3,10 +3,6 @@ layout: sidenav
 sidenav: join_us
 title: 加入我们
 permalink: /zh/join/
-redirect_from:
-  - /en/join/
-  - /join-us/
-  - /en/join-us/
 ---
 我们正在寻找不但热衷我们的使命，而且在产品开发、软件工程、网络完全、平台过程以及运营方面有优秀技能的人才。
 

@@ -4,11 +4,6 @@ title: 更改与你账户相关的电话
 category: manage-your-account
 permalink: /zh/help/manage-your-account/change-your-phone-number/
 order: 6 
-redirect_from:
-  - /en/help/manage-your-account/change-your-phone-number/
-  - /help/changing-settings/change-my-phone-number/
-  - /help/changing-settings/how-do-i-change-the-phone-number-i-am-using-with-my-account/
-  - /help/changing-settings/how-do-i-change-the-phone-number-i-use-to-sign-in/
 ---
 按照以下步骤更改与你账户相关的电话。
 

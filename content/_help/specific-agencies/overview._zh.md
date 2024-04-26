@@ -5,22 +5,6 @@ category: specific-agencies
 permalink: /zh/help/specific-agencies/overview/
 meta_title: 就具体机构获得帮助
 order: 0
-redirect_from:
-  - /en/help/specific-agencies/
-  - /en/help/specific-agencies/overview/
-  - /help/specific-agencies/
-  - /help/specific-agencies/usajobs/
-  - /help/usajobs/cant-sign-in-or-reset-my-password-usajobs-account/
-  - /help/usajobs/gov-mil-edu-email-address/
-  - /help/usajobs/how-to-receive-the-security-code/
-  - /help/usajobs/my-usajobs-information-is-not-there/
-  - /help/usajobs/profile-information/
-  - /help/usajobs/security-code/
-  - /help/usajobs/try-not-to-use-a-gov-mil-or-edu-email-address/
-  - /help/usajobs/what-email-address-do-i-use/
-  - /help/usajobs/what-email-address-should-i-use/
-  - /help/usajobs/what-happens-to-my-profile/
-  - /help/usajobs/what-will-happen-to-my-usajobs-profile/
 ---
 
 Login.gov 只用于进入账户和登录。该账户不影响你试图访问的具体机构，也没有与该机构相关的任何信息。

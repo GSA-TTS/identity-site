@@ -3,8 +3,6 @@ layout: sidenav
 sidenav: about_us 
 title: 关于我们
 permalink: /zh/about-us/
-redirect_from:
-  - /en/about-us/
 ---
 ## 我们的宗旨
 

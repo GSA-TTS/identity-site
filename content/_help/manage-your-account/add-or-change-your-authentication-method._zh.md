@@ -4,8 +4,6 @@ title: 添加或更改你身份证实方法
 category: manage-your-account
 permalink: /zh/help/manage-your-account/add-or-change-your-authentication-method/
 order: 4 
-redirect_from:
-    - /en/help/manage-your-account/add-or-change-your-authentication-method/
 ---
 [身份证实方法](/help/get-started/authentication-methods/)是你账户额外一层的安全保障。我们建议你账户至少有两种身份证实方法，以防你万一丢失其中一种。
 

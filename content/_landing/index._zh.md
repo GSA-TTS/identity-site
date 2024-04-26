@@ -1,11 +1,6 @@
 ---
 layout: landing
 permalink: /zh/
-redirect_from:
-  - /en/
-  - /playbook/
-  - /playbook/implementation/
-  - /playbook/principles/
 one_account_banner: true
 title: 公众进入政府网站只要一个账户
 description: 使用一个账号和密码来安全、私密地访问参与这个项目的政府机构。

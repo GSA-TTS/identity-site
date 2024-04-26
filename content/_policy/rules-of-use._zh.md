@@ -4,8 +4,6 @@ sidenav: policies
 title: 使用规则
 description: 使用规则。
 permalink: /zh/policy/rules-of-use/
-redirect_from:
-  - /en/policy/rules-of-use/
 ---
 ## 使用规则
 

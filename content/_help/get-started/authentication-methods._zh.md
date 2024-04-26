@@ -4,31 +4,6 @@ title: 身份证实方法
 category: get-started
 permalink: /zh/help/get-started/authentication-methods/
 order: 2
-redirect_from:
-  - /en/help/get-started/authentication-options/
-  - /help/authentication-methods/
-  - /help/authentication-methods/which-authentication-method-should-i-use/
-  - /help/changing-settings/how-do-I-set-up-an-authentication-app/
-  - /help/creating-an-account/authentication-application/
-  - /help/creating-an-account/do-i-need-a-mobile-phone-to-use-logingov/
-  - /help/creating-an-account/how-do-i-create-an-account-with-only-one-two-factor-authenticator/
-  - /help/creating-an-account/personal-key/
-  - /help/creating-an-account/security-key/
-  - /help/creating-an-account/two-factor-authentication/
-  - /help/creating-an-account/what-is-two-factor-authentication/
-  - /help/creating-an-account/why-do-i-need-to-confirm-my-email-address-and-my-phone-number/
-  - /help/get-started/authentication-options/
-  - /help/security-keys/
-  - /help/security-keys/do-i-need-a-mobile-phone-to-use-logingov/
-  - /help/security-keys/do-i-need-to-set-up-a-security-key-to-use-logingov/
-  - /help/security-keys/does-using-a-security-key-mean-im-completely-safe-from-phishing/
-  - /help/security-keys/how-do-i-protect-my-logingov-account-with-a-security-key/
-  - /help/security-keys/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
-  - /help/security-keys/related-articles/
-  - /help/security-keys/what-is-a-security-key/
-  - /help/security-keys/what-is-phishing/
-  - /help/signing-in/what-is-an-authentication-app/
-  - /help/signing-in/what-is-an-authenticator-app/
 ---
 除了你的密码之外，Login.gov 还要求你设立至少一种辅助身份证实方法来保障账户安全。这叫做多因素身份证实（MFA）我们使用 MFA 作为保护你信息安全的额外一层保障。
 

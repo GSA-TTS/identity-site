@@ -4,11 +4,6 @@ title: 设立你的 Login.gov 账户
 category: get-started
 permalink: /zh/help/get-started/create-your-account/
 order: 1
-redirect_from:
-  - /en/help/get-started/create-your-account/
-  - /help/creating-an-account/creating-a-strong-password/
-  - /help/creating-an-account/how-do-i-create-an-account-with-logingov/
-  - /help/creating-an-account/how-to-create-an-account/
 ---
 按照以下步骤创建你的 Login.gov 账户。
 

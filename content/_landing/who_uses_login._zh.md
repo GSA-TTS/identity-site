@@ -20,6 +20,4 @@ component:
     政府机构选择 Login.gov是因为我们提供了一个安全而且简单的解决方案。[阅读更多有关我们的伙伴计划的内容](/partners/)。
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
-redirect_from:
-  - /en/who-uses-login/
 ---
