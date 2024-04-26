@@ -21,7 +21,6 @@ RSpec.describe 'all pages' do
   let(:old_paths) { YAML.load_file('OLD_URLS.yml').map { |url| URI(url).path } }
   let(:redirect_froms) do
     Dir["#{REPO_ROOT}/content/**/*.md"].map do |path|
-      page = path.split(REPO_ROOT.to_s).last
       frontmatter = File.read(path).split('---', 3)[1]
       Array(YAML.load(frontmatter)['redirect_from'])
     end.flatten
