@@ -40,7 +40,7 @@ RSpec.describe 'all pages' do
         expect(doc).to properly_escape_html
       end
 
-      it 'does not link to redirect_from' do
+      it 'does not link to a placeholder redirect_from page' do
         aggregate_failures do
           doc.css('a').each do |a|
             expect(redirect_froms).not_to include(a[:href])
