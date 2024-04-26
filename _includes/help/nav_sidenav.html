@@ -14,7 +14,7 @@
       {% else %}
         {% assign page_lang = '' %}
       {% endif %}
-      <a href="{{ subpage.url | prepend: '/help/' | locale_url }}"
+      <a href="{{ subpage.url | locale_url }}"
         class="{% if page.url contains subpage.name %}usa-current{% endif %}">
         {{ site.data[page.lang]["settings"]["help_subpages"][subpage.name] }}
       </a>

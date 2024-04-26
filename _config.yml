@@ -165,15 +165,15 @@ redirect_from:
 
 help_pages:
   - name: get-started
-    url: /get-started/overview/
+    url: /help/get-started/overview/
   - name: trouble-signing-in
-    url: /trouble-signing-in/overview/
+    url: /help/trouble-signing-in/overview/
   - name: manage-your-account
-    url: /manage-your-account/overview/
+    url: /help/manage-your-account/overview/
   - name: verify-your-identity
-    url: /verify-your-identity/overview/
+    url: /help/verify-your-identity/overview/
   - name: specific-agencies
-    url: /specific-agencies/overview/
+    url: /help/specific-agencies/overview/
 
 
 url: https://www.login.gov
