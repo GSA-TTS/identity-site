@@ -8,8 +8,7 @@ languages:
   - en
   - es
   - fr
-# Do not show Chinese in dropdown yet
-# - zh
+  - zh
 
 exclude_from_localizations: ['javascript', 'images', 'css']
 
