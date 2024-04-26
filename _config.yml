@@ -164,11 +164,17 @@ redirect_from:
   json: false
 
 help_pages:
-  - get-started
-  - trouble-signing-in
-  - manage-your-account
-  - verify-your-identity
-  - specific-agencies
+  - name: get-started
+    url: /get-started/overview/
+  - name: trouble-signing-in
+    url: /trouble-signing-in/overview/
+  - name: manage-your-account
+    url: /manage-your-account/overview/
+  - name: verify-your-identity
+    url: /verify-your-identity/overview/
+  - name: specific-agencies
+    url: /specific-agencies/overview/
+
 
 url: https://www.login.gov
 

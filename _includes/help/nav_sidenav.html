@@ -2,9 +2,8 @@
 <nav class="margin-y-4 sidenav position-sticky pin-top" aria-label="{{ site.data.[page.lang].settings.accessible_labels.secondary_navigation }}">
   <ul class="usa-accordion usa-sidenav">
     {% for subpage in site.help_pages %}
-      {% assign subpage_slug = subpage | slugify %}
-      {% assign related_questions = site.help | where_exp: "item", "item.category == subpage_slug and item.lang == page.lang and item.child == nil or item.child == false" | sort:'order' %}
-      {% if page.url contains subpage_slug %}
+      {% assign related_questions = site.help | where_exp: "item", "item.category == subpage.name and item.lang == page.lang and item.child == nil or item.child == false" | sort:'order' %}
+      {% if page.url contains subpage.url %}
         {% assign is_initially_hidden = 'false' %}
       {% else %}
         {% assign is_initially_hidden = 'true' %}
@@ -15,9 +14,9 @@
       {% else %}
         {% assign page_lang = '' %}
       {% endif %}
-      <a href="{{ subpage_slug | append: '/' | prepend: '/help/' | locale_url }}"
-        class="{% if page.url contains subpage_slug %}usa-current{% endif %}">
-        {{ site.data[page.lang]["settings"]["help_subpages"][subpage] }}
+      <a href="{{ subpage.url | prepend: '/help/' | locale_url }}"
+        class="{% if page.url contains subpage.url %}usa-current{% endif %}">
+        {{ site.data[page.lang]["settings"]["help_subpages"][subpage.name] }}
       </a>
       <ul class="usa-sidenav__sublist" aria-hidden="{{ is_initially_hidden }}">
       {% for question in related_questions %}
