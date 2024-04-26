@@ -6,7 +6,7 @@ permalink: /zh/help/verify-your-identity/verify-your-address-by-mail/
 order: 6
 ---
 
-身份验证是你证明你是你，而不是有人假装是你的流程。  如果你无法[验证自己的电话号码，](/help/verify-your-identity/phone-number/)则可以使用你的地址通过普通邮件来验证。你会收到一封含有验证码的信件来完成验证你的身份。
+身份验证是你证明你是你，而不是有人假装是你的流程。  如果你无法[验证自己的电话号码，](/zh/help/verify-your-identity/phone-number/)则可以使用你的地址通过普通邮件来验证。你会收到一封含有验证码的信件来完成验证你的身份。
 
 我们会把信寄到我们验证过的并与你相关的一个地址。如果你需要更改这一地址，则需要从头开始，用新地址来验证你的身份。
 
@@ -23,4 +23,4 @@ order: 6
 2. 当系统让你输入代码时，选择“给我再发一封信”。
 
 ## 相关文章
-- [验证你的身份](/help/verify-your-identity/how-to-verify-your-identity/)
+- [验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)

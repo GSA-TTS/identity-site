@@ -25,4 +25,4 @@ alert: <strong>如果你没有有效的驾照或州政府颁发的身份证件�
 
 ## 相关文章
 
-[验证你的身份](/help/verify-your-identity/how-to-verify-your-identity/)
+[验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)

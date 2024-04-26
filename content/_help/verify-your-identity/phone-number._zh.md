@@ -27,5 +27,5 @@ order: 5
 
 ## 相关文章
 
-* [验证你的身份](/help/verify-your-identity/how-to-verify-your-identity/)
-* [通过普通邮件验证](/help/verify-your-identity/verify-your-address-by-mail/)
+* [验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
+* [通过普通邮件验证](/zh/help/verify-your-identity/verify-your-address-by-mail/)

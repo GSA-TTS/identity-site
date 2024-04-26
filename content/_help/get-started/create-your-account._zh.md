@@ -47,12 +47,12 @@ order: 1
    * 电话
    * 备用代码
    
-   [对每个身份验证实选项获得更多了解](/help/get-started/authentication-methods/)，从而选择适合你的方法。
+   [对每个身份验证实选项获得更多了解](/zh/help/get-started/authentication-methods/)，从而选择适合你的方法。
 7. 成功了！身份验证后，你的 Login.gov 账户就建好了。
    
    系统把你带到你的 Login.gov 页面或你要访问的政府机构网站。你可以在 Login.gov 帐户页面上添加其他身份证实方法、电子邮件地址或更新信息。
 
 ## 相关文章
 
-* [身份证实方法](/help/get-started/authentication-methods/)
-* [管理你的账户](/help/manage-your-account/overview/)
+* [身份证实方法](/zh/help/get-started/authentication-methods/)
+* [管理你的账户](/zh/help/manage-your-account/overview/)

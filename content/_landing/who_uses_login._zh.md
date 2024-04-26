@@ -15,7 +15,7 @@ component:
     * 薪资保护计划（小企业管理局）
     * 灾害贷款申请计划（小企业管理局）
   col2: >-
-    Login.gov 遵守由最知名的安全机构建立的最新的[安全标准](/policy/our-security-practices/) ，这些机构包括国家标准与技术研究院（[National Institute of Standards and Technology）](https://www.nist.gov/)、网络安全国家行动计划（ [Cybersecurity National Action Plan](https://www.hsdl.org/c/cybersecurity-national-action-plan/)）以及联邦采购服务局（ [Federal Acquisition Service）](https://www.gsa.gov/about-us/organization/federal-acquisition-service)
+    Login.gov 遵守由最知名的安全机构建立的最新的[安全标准](/zh/policy/) ，这些机构包括国家标准与技术研究院（[National Institute of Standards and Technology）](https://www.nist.gov/)、网络安全国家行动计划（ [Cybersecurity National Action Plan](https://www.hsdl.org/c/cybersecurity-national-action-plan/)）以及联邦采购服务局（ [Federal Acquisition Service）](https://www.gsa.gov/about-us/organization/federal-acquisition-service)
 
     政府机构选择 Login.gov是因为我们提供了一个安全而且简单的解决方案。[阅读更多有关我们的伙伴计划的内容](/partners/)。
 twitter_card: large

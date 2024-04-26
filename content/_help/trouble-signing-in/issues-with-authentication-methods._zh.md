@@ -55,4 +55,4 @@ order: 3
 
 ## 相关文章
 
-* [身份证实方法](/help/get-started/authentication-methods/)
+* [身份证实方法](/zh/help/get-started/authentication-methods/)

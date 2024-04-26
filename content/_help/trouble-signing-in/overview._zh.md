@@ -12,6 +12,6 @@ order: 0
 ## 常见疑难问题
 
 {: .help-question-list}
-* [如何登录 Login.gov](/help/trouble-signing-in/how-to-sign-in/)
-* [忘了密码](/help/trouble-signing-in/forgot-your-password/)
-* [人脸或触摸解锁问题](/help/trouble-signing-in/face-or-touch-unlock/)
+* [如何登录 Login.gov](/zh/help/trouble-signing-in/how-to-sign-in/)
+* [忘了密码](/zh/help/trouble-signing-in/forgot-your-password/)
+* [人脸或触摸解锁问题](/zh/help/trouble-signing-in/face-or-touch-unlock/)

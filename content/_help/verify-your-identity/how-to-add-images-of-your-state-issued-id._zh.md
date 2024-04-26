@@ -13,7 +13,7 @@ do_list:
 ---
 
 {% capture alert_link %}
-  <a href="/help/verify-your-identity/accepted-state-issued-identification/">有效驾照或州政府颁发的身份证件</a>
+  <a href="/zh/help/verify-your-identity/accepted-identification-documents/">有效驾照或州政府颁发的身份证件</a>
 {% endcapture %}
 
 {% capture alert_content %}

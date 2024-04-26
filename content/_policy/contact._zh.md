@@ -18,13 +18,13 @@ help_center_content: >-
   ## 找到常见问题的答案
 
     {: .help-question-list}
-  * [我无法登录自己的账户](/help/trouble-signing-in/overview/)
+  * [我无法登录自己的账户](/zh/help/trouble-signing-in/overview/)
 
-  * [我需要帮助验证身份](/help/verify-your-identity/overview/)
+  * [我需要帮助验证身份](/zh/help/verify-your-identity/overview/)
 
-  * [我需要更改自己的信息或管理我的账户](/help/manage-your-account/overview/)
+  * [我需要更改自己的信息或管理我的账户](/zh/help/manage-your-account/overview/)
 
-  * [浏览更多帮助文章](/help/)
+  * [浏览更多帮助文章](/zh/help/)
 maintenance_window_content: Login.gov 的联系中心目前正在进行维护  从 <strong>%{start_time} - %{end_time}.</strong>请访问以下常见主题获得帮助。
 phone_available_content: 你可以随时致电我们的支持中心，电话号码是 (844) 875-6446.
 unplanned_outage_content: 由于服务中断，我们无法查看网上支持请求。 

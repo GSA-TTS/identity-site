@@ -13,10 +13,10 @@ order: 7
 
 请准备好以下信息输入 Login.gov：
 
-1. 州政府颁发的身份证件。[没有州政府颁发的身份证件？](/help/verify-your-identity/accepted-state-issued-identification/)
+1. 州政府颁发的身份证件。[没有州政府颁发的身份证件？](/zh/help/verify-your-identity/accepted-identification-documents/)
 2. 社会保障号码
 3. 你的电话号码
-   a. 如果你无法完成这一步，我们可以[通过邮局给你发送验证码](/help/verify-your-identity/verify-your-address-by-mail/)，这一过程大约需要 5 到 10 天。
+   a. 如果你无法完成这一步，我们可以[通过邮局给你发送验证码](/zh/help/verify-your-identity/verify-your-address-by-mail/)，这一过程大约需要 5 到 10 天。
 
 如果你无法完成上述任一步骤，请联系我们合作伙伴机构的帮助中心来获得支持。
 
@@ -43,7 +43,7 @@ order: 7
 
 ### 你可以在全美各地和有些美国属地的参与这个工作的邮局亲身验证身份。*
 
-你在 [Login.gov](https://secure.login.gov/) 开始这一过程时，我们会帮你找到一个你家附件参与的邮局清单。你也可以[在我们的帮助中心寻找你家附件的邮局。](/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
+你在 [Login.gov](https://secure.login.gov/) 开始这一过程时，我们会帮你找到一个你家附件参与的邮局清单。你也可以[在我们的帮助中心寻找你家附件的邮局。](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
 
 你在网上收到条形码后，就可以去任何一个提供亲身验证身份服务的邮局。
 
@@ -76,11 +76,11 @@ order: 7
 
 如果你收到电邮，告诉你可以去验证身份了或者你亲身身份验证不成功，但是你实际上并没有去亲身验证身份：
 
-请马上[登录账户](https://secure.login.gov/)并[立即更改你的密码。](/help/manage-your-account/change-your-password/)如果你愿意，也可以[删除你的账户。](/help/manage-your-account/delete-your-account/)
+请马上[登录账户](https://secure.login.gov/)并[立即更改你的密码。](/zh/help/manage-your-account/change-your-password/)如果你愿意，也可以[删除你的账户。](/zh/help/manage-your-account/delete-your-account/)
 
 ### 如果你亲身验证身份未能成功，该怎么办？
 
-如果你未能成功地亲身验证身份，你可以再次[在网上验证你的身份，](/help/verify-your-identity/how-to-verify-your-identity/) 或者联系你试图访问的机构来得到有关验证身份[具体问题的帮助。](/help/specific-agencies/overview/)
+如果你未能成功地亲身验证身份，你可以再次[在网上验证你的身份，](/zh/help/verify-your-identity/how-to-verify-your-identity/) 或者联系你试图访问的机构来得到有关验证身份[具体问题的帮助。](/zh/help/specific-agencies/overview/)
 
 有关亲身验证身份的小贴士：
 
@@ -88,14 +88,14 @@ order: 7
 
 ### 要是亲身验证身份的截止日期已过，怎么办？
 
-如果你收到电邮，告诉你验证你身份的截止日期已过，请尝试[再次在网上验证身份。](/help/verify-your-identity/how-to-verify-your-identity/)
+如果你收到电邮，告诉你验证你身份的截止日期已过，请尝试[再次在网上验证身份。](/zh/help/verify-your-identity/how-to-verify-your-identity/)
 
 为了保护申请人的个人数据，我们会在 30 天后自动取消身份验证请求。你重新开始亲身验证身份这一流程后，会收到一个新截止日期。
 
 ## 相关文章
 
-[就具体机构获得帮助](/help/specific-agencies/overview/)
+[就具体机构获得帮助](/zh/help/specific-agencies/overview/)
 
-[我们接受的州政府颁发的身份证件。](/help/verify-your-identity/accepted-state-issued-identification/)
+[我们接受的州政府颁发的身份证件。](/zh/help/verify-your-identity/accepted-identification-documents/)
 
-[在网上验证你的身份](/help/verify-your-identity/how-to-verify-your-identity/)
+[在网上验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)

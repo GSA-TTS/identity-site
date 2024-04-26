@@ -29,6 +29,6 @@ Login.gov 不能重设你的密码、删除你的账户、或更改你的账户�
 ## 常见疑难问题
 
 {: .help-question-list}
-* [如何登录 Login.gov](/help/trouble-signing-in/how-to-sign-in/)
-* [更改密码](/help/manage-your-account/change-your-password/)
-* [忘了密码](/help/trouble-signing-in/forgot-your-password/)
+* [如何登录 Login.gov](/zh/help/trouble-signing-in/how-to-sign-in/)
+* [更改密码](/zh/help/manage-your-account/change-your-password/)
+* [忘了密码](/zh/help/trouble-signing-in/forgot-your-password/)

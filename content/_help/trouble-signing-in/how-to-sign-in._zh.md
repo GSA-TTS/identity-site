@@ -5,7 +5,7 @@ category: trouble-signing-in
 permalink: /zh/help/trouble-signing-in/how-to-sign-in/
 order: 1
 ---
-每次你登录 Login.gov 帐户，都需要你的电子邮件地址、密码以及你设置的[身份证实选项](/help/get-started/authentication-methods/)之一。
+每次你登录 Login.gov 帐户，都需要你的电子邮件地址、密码以及你设置的[身份证实选项](/zh/help/get-started/authentication-methods/)之一。
 
 请按以下步骤登录 Login.gov
 
@@ -25,5 +25,5 @@ order: 1
 
 ## 相关文章
 
-* [身份证实方法](/help/get-started/authentication-methods/)
-* [验证你的身份](/help/verify-your-identity/)
+* [身份证实方法](/zh/help/get-started/authentication-methods/)
+* [验证你的身份](/zh/help/verify-your-identity/overview/)

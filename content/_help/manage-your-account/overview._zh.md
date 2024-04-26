@@ -13,5 +13,5 @@ order: 0
 
 {: .help-question-list}
 
-- [更改你的密码](/help/manage-your-account/change-your-password/)
-- [删除你的 Login.gov 账户](/help/manage-your-account/delete-your-account/)
+- [更改你的密码](/zh/help/manage-your-account/change-your-password/)
+- [删除你的 Login.gov 账户](/zh/help/manage-your-account/delete-your-account/)

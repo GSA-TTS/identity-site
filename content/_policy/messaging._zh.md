@@ -14,6 +14,6 @@ sidenav: policies
 * 电信运营商可能会收短信和数据费。
 * 短信只会在你设置和登录 Login.gov 账户过程中使用。
 * 如果你不再想接受 Login.gov 的短信，收到短信后请回复 STOP（停止） 。
-* 参见[我们的隐私法声明](/policy/our-privacy-act-statement/)来了解隐私政策信息。
+* 参见[我们的隐私法声明](/zh/policy/our-privacy-act-statement/)来了解隐私政策信息。
 * 电信运营商对于迟发或未送达的短信概不负责。
-* 如果有什么问题，你可以[联系客户关怀。](/contact/)
+* 如果有什么问题，你可以[联系客户关怀。](/zh/contact/)

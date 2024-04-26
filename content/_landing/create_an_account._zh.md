@@ -18,7 +18,7 @@ steps:
     * 密码必须至少有 12 个字符，而且不应包含常用单词或短语。
 
   step3: >
-    ## 3. 一个或多个[身份证实方法](/help/get-started/authentication-methods/)
+    ## 3. 一个或多个[身份证实方法](/zh/help/get-started/authentication-methods/)
     比如:
 
     * **比较安全**

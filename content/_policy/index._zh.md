@@ -27,4 +27,4 @@ permalink: /zh/policy/
 * 信息的维护遵照联邦总务管理局（GSA）的记录保留时间表（Records Retention Schedule, GRS 03.2.）。
 * **仅限国税局（IRS）服务**当你访问国税局服务时，Login.gov 会在身份证实和身份核证过程中发送有关你成功和不成功尝试的信息，以及被认为影响你账户安全的任何活动的信息。相比之下，Login.gov 只向其他合作机构发送成功尝试的信息。上述每个事件都已只有国税局可以访问的方式分享。Login.gov 保留这些事件不超出 168 个小时，而且与国税局分享后就会把事件信息删除。要了解国税局如何使用上述尝试信息，请参见国税局《网络安全数据仓库隐私和公民自由影响评估》（Cybersecurity Data Warehouse Privacy and Civil Liberties Impact Assessment, [CSDW PCLIA](https://www.irs.gov/pub/irs-pia/csdw-pia.pdf).
 
-保护你的信息是我们的优先事项。你可以阅读对 [Login.gov 如何运营](/policy/how-does-it-work/)、 [我们的隐私法声明](/policy/our-privacy-act-statement/)、以及[我们的安全做法](/policy/our-security-practices/)更详细的解释。
+保护你的信息是我们的优先事项。你可以阅读对 [Login.gov 如何运营](/zh/policy/how-does-it-work/)、 [我们的隐私法声明](/zh/policy/our-privacy-act-statement/)、以及[我们的安全做法](/zh/policy/)更详细的解释。

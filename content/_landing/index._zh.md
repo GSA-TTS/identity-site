@@ -13,7 +13,7 @@ three_col:
     使用一个账号和密码来安全、私密地访问参与这个项目的政府机构
   
 
-    [了解 Login.gov](/what-is-login/){:class="why-more-info"}
+    [了解 Login.gov](/zh/what-is-login/){:class="why-more-info"}
   subheading2: 机构合作伙伴
   col_class2: partners
   col2: >-

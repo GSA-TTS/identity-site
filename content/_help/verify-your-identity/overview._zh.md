@@ -16,4 +16,4 @@ order: 0
 ## 常见疑难问题
 
 {: .help-question-list}
-* [如何验证你的身份](/help/verify-your-identity/how-to-verify-your-identity/)
+* [如何验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
