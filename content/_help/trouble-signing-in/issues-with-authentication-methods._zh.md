@@ -4,23 +4,6 @@ title: 身份证实方法问题
 category: trouble-signing-in
 permalink: /zh/help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
-redirect_from: 
-  - /help/creating-an-account/no-phone-or-other-authentication-method/
-  - /help/creating-an-account/phone-didnt-get-a-security-code/
-  - /help/creating-an-account/why-didnt-i-receive-a-security-code-to-confirm-my-phone/
-  - /help/signing-in/how-do-i-sign-in-if-i-dont-have-my-authentication-methods/
-  - /help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-personal-key/
-  - /help/signing-in/how-do-i-sign-in-if-i-dont-have-my-phone-or-my-phone-number-has-changed/
-  - /help/signing-in/i-cant-remember-where-my-personal-key-is-and-i-dont-have-my-phone-with-me/
-  - /help/signing-in/if-i-dont-have-my-phone-with-me-can-i-still-sign-in/
-  - /help/signing-in/personal-key-not-working/
-  - /help/signing-in/phone-didnt-get-a-security-code/
-  - /help/signing-in/phone-or-authentication-methods-not-available/
-  - /help/signing-in/security-code-not-working/
-  - /help/signing-in/why-didnt-I-receive-a-reset-password-email-from-logingov/
-  - /help/signing-in/why-didnt-i-receive-a-security-code/
-  - /help/signing-in/why-is-my-personal-key-invalid/
-  - /help/signing-in/why-is-my-security-code-invalid/
 ---
 
 取决于你设立的身份证实方法，你也许仍然能够访问你的 Login.gov 账户。你登录后，请确保自己设立了一种以上的身份证实方法以防无法访问账户。
