@@ -1,13 +1,17 @@
 require 'yaml'
 
 class MissingTranslationFinder
-  Translation = Struct.new(:key, :english, :spanish, :french) do
+  Translation = Struct.new(:key, :english, :spanish, :french, :chinese) do
     def spanish_translated?
       !spanish.nil? && spanish != ''
     end
 
     def french_translated?
       !french.nil? && french != ''
+    end
+
+    def chinese_translated?
+      !chinese.nil? && chinese != ''
     end
   end
 
@@ -25,7 +29,8 @@ class MissingTranslationFinder
         key,
         find_translation(key: key, locale: 'en'),
         find_translation(key: key, locale: 'es'),
-        find_translation(key: key, locale: 'fr')
+        find_translation(key: key, locale: 'fr'),
+        find_translation(key: key, locale: 'zh')
       )
     end
   end
