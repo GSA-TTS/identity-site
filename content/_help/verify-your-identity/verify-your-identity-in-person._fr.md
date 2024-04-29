@@ -6,7 +6,7 @@ children:
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-Login.gov offre des services de vérification d’identité en personne, plutôt qu’en ligne, dans un bureau du service des postes des États-Unis (USPS) participant près de chez vous.
+Login.gov offre des services de vérification d’identité en personne, [plutôt qu’en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/), dans un bureau du service des postes des États-Unis (USPS) participant près de chez vous.
 
 Il est également possible de confirmer votre identité en personne si vous avez essayé de le faire en ligne mais n’avez pas réussi à téléverser votre permis de conduire ou votre carte d’identité d’un État sur Login.gov.
 
@@ -105,3 +105,5 @@ Nous annulons automatiquement les demandes après 30 jours afin de protéger les
 [Problèmes de téléchargement de votre pièce d'identité délivrée par l'État](/fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
 
 [Vérifier votre identité en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/)
+
+[Trouver un bureau de poste participant](/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)

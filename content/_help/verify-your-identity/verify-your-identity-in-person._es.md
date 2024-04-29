@@ -6,7 +6,7 @@ children:
 permalink: /es/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-Login.gov ofrece la verificación de identidad en persona en una oficina cercana del Servicio Postal de los Estados Unidos (USPS) como una alternativa a la verificación de identidad en línea.
+Login.gov ofrece la verificación de identidad en persona en una oficina cercana del Servicio Postal de los Estados Unidos (USPS) como una alternativa a la [verificación de identidad en línea](/es/help/verify-your-identity/how-to-verify-your-identity/).
 
 También puede tener la opción de verificar su identidad en persona si ya intentó la verificación en línea, pero no logró cargar su licencia de conducir o tarjeta de identificación estatal en Login.gov.
 
@@ -104,3 +104,5 @@ Cancelamos automáticamente las solicitudes al cabo de 30 días para proteger lo
 [Solucionar problemas al subir el documento de identidad emitido por el estado](/es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
 
 [Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
+
+[Encuentra una oficina de correos participante](/es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
