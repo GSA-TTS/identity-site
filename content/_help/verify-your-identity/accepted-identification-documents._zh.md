@@ -14,14 +14,14 @@ dont_list:
 alert: <strong>如果你没有有效的驾照或州政府颁发的身份证件，就不能使用 Login.gov 进行身份验证。</strong>请联系我们合作机构的帮助中心来了解你该怎么办。
 ---
 
-{% include components/icon-list.html items=page.do_list size='md' icon_color='green' icon_shape='check_circle'%}
+{% include components/icon-list.html items=page.do_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 ## 我们不接受军队 ID、美国护照或其他身份证件。
 
-{% include alert.html content=page.alert type='error' role='alert' %}
+{% include alert.html content=page.alert type='error' role='alert' class='margin-bottom-2' %}
 
 
-{% include components/icon-list.html items=page.dont_list size='md' icon_color='red' icon_shape='cancel' %}
+{% include components/icon-list.html items=page.dont_list size='md' icon_color='error' icon_shape='cancel' %}
 
 ## 相关文章
 
