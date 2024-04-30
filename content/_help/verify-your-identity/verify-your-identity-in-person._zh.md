@@ -3,7 +3,7 @@ layout: help
 title: 亲身验证你的身份
 category: verify-your-identity
 children: 
-  - /help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
+  - /zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
 permalink: /zh/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
