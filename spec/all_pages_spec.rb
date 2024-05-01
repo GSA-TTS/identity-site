@@ -13,7 +13,7 @@ def external_link?(uri)
 end
 
 def get_locale(path)
-  match = %r{^(fr|es)/}.match(path)
+  match = %r{^(fr|es|zh)/}.match(path)
   match[1] if match
 end
 

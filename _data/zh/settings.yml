@@ -208,25 +208,25 @@ help_page:
         account features.
       image: /assets/img/help/get-started.svg
       title: Get started with Login.gov
-      url: /help/get-started/overview/
+      url: /zh/help/get-started/overview/
     - description: Forgot your password? Locked out of your account? We’ll help you
         resolve access issues.
       image: /assets/img/help/trouble-signing-in.svg
       title: Trouble signing in?
-      url: /help/trouble-signing-in/overview/
+      url: /zh/help/trouble-signing-in/overview/
     - description: Change your account settings including your password, phone number,
         email, and more.
       image: /assets/img/help/manage-your-account.svg
       title: Manage your account
-      url: /help/manage-your-account/overview/
+      url: /zh/help/manage-your-account/overview/
     - description: Get help with Trusted Traveler Programs (TTP) and SAM.gov.
       image: /assets/img/help/help-specific-agencies.svg
       title: Help with specific agencies
-      url: /help/specific-agencies/overview/
+      url: /zh/help/specific-agencies/overview/
     - description: Learn about options for verifying your identity.
       image: /assets/img/help/verify-your-id.svg
       title: Verify your identity
-      url: /help/verify-your-identity/overview/
+      url: /zh/help/verify-your-identity/overview/
   p_1: Browse common topics
   title: How can we help?
 help_subpages:
@@ -259,23 +259,23 @@ identifier:
 nav:
   about_us:
     sections:
-      - name: Our mission
-        url: '#our-mission'
-      - name: Our vision
-        url: '#our-vision'
-      - name: About Login.gov
-        url: '#about-logingov'
+      - name: 我们的宗旨
+        url: '#我们的宗旨'
+      - name: 我们的愿景
+        url: '#我们的愿景'
+      - name: 关于 Login.gov
+        url: '#关于-logingov'
     title: About us
   accessibility:
     sections:
-      - name: Our Commitment
-        url: '#our-commitment'
-      - name: Standards
-        url: '#standards'
-      - name: Evaluation
-        url: '#evaluation'
-      - name: Known limitations
-        url: '#known-limitations'
+      - name: 我们的承诺
+        url: '#我们的承诺'
+      - name: 标准
+        url: '#标准'
+      - name: 评估
+        url: '#评估'
+      - name: 已知局限
+        url: '#已知局限'
     title: Accessibility statement
   anchor_to_top: Back to top
   become_a_partner: Become a partner
@@ -284,14 +284,14 @@ nav:
   contact_login_gov: Contact Login.gov
   contact_us:
     sections:
-      - name: Find answers to commonly asked questions
-        url: '#find-answers-to-commonly-asked-questions'
-      - name: Get in touch
-        url: '#get-in-touch'
-      - name: Partner with Login.gov
-        url: '#partner-with-logingov'
-      - name: Report an issue
-        url: '#report-an-issue'
+      - name: 找到常见问题的答案
+        url: '#找到常见问题的答案'
+      - name: 联系
+        url: '#联系'
+      - name: 与 Login.gov 合作
+        url: '#与-logingov-合作'
+      - name: 汇报问题
+        url: '#汇报问题'
     title: Contact us
   create_an_account: Create an account
   developer_guide: Developer guide
@@ -310,10 +310,10 @@ nav:
   implementation: Implementation
   join_us:
     sections:
-      - name: Open positions
-        url: '#open-positions'
-      - name: How to apply
-        url: '#how-to-apply'
+      - name: 空缺职位
+        url: '#空缺职位'
+      - name: 如何申请
+        url: '#如何申请'
     title: Join us
   menu: Menu
   overview: Overview
@@ -321,17 +321,17 @@ nav:
   policies:
     sections:
       - name: Our commitment to your privacy and security
-        url: /policy/
+        url: /zh/policy/
       - name: How does it work?
-        url: /policy/how-does-it-work/
+        url: /zh/policy/how-does-it-work/
       - name: Our privacy act statement
-        url: /policy/our-privacy-act-statement/
+        url: /zh/policy/our-privacy-act-statement/
       - name: Messaging terms and conditions
-        url: /policy/messaging-terms-and-conditions/
+        url: /zh/policy/messaging-terms-and-conditions/
       - name: Rules of use
-        url: /policy/rules-of-use/
+        url: /zh/policy/rules-of-use/
     title: Privacy & security
-    url: /policy/
+    url: /zh/policy/
   principles: Principles
   privacy_&_security: Privacy & security
   security: Security
