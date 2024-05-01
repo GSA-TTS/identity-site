@@ -43,7 +43,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 
 You must take a photo of your accepted driver’s license or state ID card and enter your personal information to verify your identity online.
 
-You may need to take a photo of yourself with a phone or tablet to verify your identity online. This is to check that you are the person on your ID. If you don’t have a phone or tablet with a camera, you can [verify your identity in person.]('/help/verify-your-identity/verify-your-identity-in-person/')
+You may need to take a photo of yourself with a phone or tablet to verify your identity online. This is to check that you are the person on your ID. If you don’t have a phone or tablet with a camera, you can [verify your identity in person.](/help/verify-your-identity/verify-your-identity-in-person/)
 
 This article will cover the different ways you can submit images to verify your identity.
 
@@ -136,7 +136,7 @@ You may be asked to take photos of your driver’s license or state ID card __an
 * You must use a phone or tablet with a camera to take pictures of both your face and your state ID using Login.gov’s camera tool. You cannot complete this step on a desktop device.
    * iOS phones or tablets should use the [Safari web browser]({{ page.url_safari }})
    * Android phones or tablets should use the [Google Chrome web browser]({{ page.url_chrome }})
-* If you don’t have a phone or tablet with a camera, you may be able to [verify your identity in person]({{ '/help/verify-your-identity/verify-your-identity-in-person/' }}) at a United States Postal Service location near you.
+* If you don’t have a phone or tablet with a camera, you may be able to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) at a United States Postal Service location near you.
 
 ### Prepare for your photo
 

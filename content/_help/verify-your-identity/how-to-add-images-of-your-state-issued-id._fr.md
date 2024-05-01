@@ -42,7 +42,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 
 Vous devez prendre une photo de votre permis de conduire officiel ou carte d’identité d’un État et saisir vos renseignements personnels afin de confirmer votre identité en ligne.
 
-Il est possible que vous deviez prendre une photo de vous-même avec un téléphone afin de confirmer votre identité en ligne. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité. Si vous n'avez pas de téléphone équipé d'une caméra, vous pouvez confirmer votre identité en personne.
+Il est possible que vous deviez prendre une photo de vous-même avec un téléphone afin de confirmer votre identité en ligne. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité. Si vous n'avez pas de téléphone équipé d'une caméra, vous pouvez [confirmer votre identité en personne.](/fr/help/verify-your-identity/verify-your-identity-in-person/)
 
 Cet article décrit les différentes façons de transmettre des images ou photos pour confirmer votre identité.
 
@@ -137,7 +137,7 @@ Vous devez utiliser votre téléphone pour prendre des photos de votre visage et
 * Vous devez utiliser un téléphone ou une tablette pour prendre des photos de votre visage et de votre pièce d’identité d’État à l’aide de l’outil de photographie de Login.gov. Il n’est pas possible d’effectuer cette étape sur un ordinateur.
     * Les téléphones ou tablettes équipés d’iOS doivent utiliser le [navigateur Safari]({{ page.url_safari }})
     * Les téléphones ou tablettes équipés d’Android doivent utiliser le [navigateur Google Chrome]({{ page.url_chrome }})
-* Si vous n’en avez pas, vous pouvez peut-être [confirmer votre identité en personne]({{ '/fr/help/verify-your-identity/verify-your-identity-in-person/' }}) dans un bureau du service des postes des États-Unis près de chez vous.
+* Si vous n’en avez pas, vous pouvez peut-être [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau du service des postes des États-Unis près de chez vous.
 
 ### Avant de vous prendre en photo
 
