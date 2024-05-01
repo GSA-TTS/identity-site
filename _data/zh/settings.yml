@@ -1,0 +1,343 @@
+accessible_labels:
+  footer_navigation: Footer navigation
+  login_link_logo: Login.gov Homepage
+  partners_link_logo: Login.gov Partners Homepage
+  primary_navigation: Primary links
+  secondary_navigation: Secondary links
+actions:
+  search: Search
+banner:
+  already-have-an-account:
+    learn_more: Learn more about creating an account
+    one_account: Login.gov is your one account for government
+    sign_in: Sign in to manage your account
+    text: Already have an account?
+  one-account-for-govt:
+    create: Create an account
+    learn: Learn how to create an account
+    tagline: Your one account for government
+  text:
+    gov_description: A <strong>.gov</strong> website belongs to an official
+      government organization in the United States.
+    gov_heading: Official websites use .gov
+    how: Here’s how you know
+    official: An official website of the United States government
+    secure_description: 'A <strong>lock</strong> or <strong>https://</strong> means
+      you’ve safely connected to the .gov website. Share sensitive information
+      only on official, secure websites.'
+    secure_heading: Secure .gov websites use HTTPS
+contact_page:
+  call_us:
+    operating_hours: Operating hours are 24 hours a day, seven days a week.
+    title: Call us
+  operating_hours: Operating hours are 24 hours a day, seven days a week.
+  required: required
+  support_request_form:
+    agencies:
+      'Central Intelligence Agency': Central Intelligence Agency
+      'Consumer Financial Protection Bureau': Consumer Financial Protection Bureau
+      'Customs and Border Protection Jobs': Customs and Border Protection Jobs
+      'Customs and Border Protection ROAM': Customs and Border Protection ROAM
+      'Department of Commerce': Department of Commerce
+      'Department of Defense': Department of Defense
+      'Department of Education': Department of Education
+      'Department of Energy': Department of Energy
+      'Department of Homeland Security (DHS)': Department of Homeland Security (DHS)
+      'Department of Justice (DOJ)': Department of Justice (DOJ)
+      'Department of Labor': Department of Labor
+      'Department of State': Department of State
+      'Department of the Interior': Department of the Interior
+      'Department of the Treasury': Department of the Treasury
+      'Department of Transportation': Department of Transportation
+      'Department of Veterans Affairs': Department of Veterans Affairs
+      'DOI ePermits': DOI ePermits
+      'DOL Foreign Labor Application Gateway (FLAG)': DOL Foreign Labor Application Gateway (FLAG)
+      'DOT Delphi eInvoicing': DOT Delphi eInvoicing
+      'DOT FMCSA (Motor Carrier Safety)': DOT FMCSA (Motor Carrier Safety)
+      'DOT National Registry of Certified Medical Examiners': DOT National Registry of Certified Medical Examiners
+      'Environmental Protection Agency': Environmental Protection Agency
+      'FDIC Resolution Request Management Portal': FDIC Resolution Request Management Portal
+      'FEMA Disaster Assistance': FEMA Disaster Assistance
+      'General Services Administration': General Services Administration
+      'Get .gov': Get.gov
+      'GSA Sam.gov': GSA SAM.gov
+      'Health and Human Services': Health and Human Services
+      'HHS Grants.gov': HHS Grants.gov
+      'HHS National Institutes of Health (NIH)': HHS National Institues of Health (NIH)
+      'Housing and Urban Development': Housing and Urban Development
+      'Internal Revenue Service (IRS)': Internal Revenue Service (IRS)
+      'Library of Congress': Library of Congress
+      'MyTravelGov': Department of State MyTravelGov
+      'myTreasury': myTreasury
+      'National Aeronautics and Space Administration': National Aeronautics and Space Administration
+      'National Archives and Records Administration (NARA)': National Archives and Records Administration (NARA)
+      'National Credit Union Administration (NCUA)': National Credit Union Administration (NCUA)
+      'National Endowment for the Humanities (NEH)': National Endowment for the Humanities (NEH)
+      'National Labor Relations Board': National Labor Relations Board
+      'Office of Personnel Management': Office of Personnel Management (OPM)
+      'OPM Employee Express': OPM Employee Express
+      'OPM Services Online': 'OPM Services Online'
+      'Pay.gov': Pay.gov
+      'PBGC-MyPBA': 'PBGC - MyPBA'
+      'Peace Corps': Peace Corps
+      'Railroad Retirement Board': Railroad Retirement Board
+      'SBA DLAP': SBA DLAP
+      'Securities and Exchange Commission': Securities and Exchange Commission
+      'Social Security Administration (SSA)': Social Security Administration (SSA)
+      'State of Arkansas': State of Arkansas
+      'State of Colorado': State of Colorado
+      'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Trusted Traveler Programs (Global Entry/Nexus/Sentri)
+      'U.S. Agency for International Development': U.S. Agency for International Development
+      'U.S. Department of Agriculture': U.S. Department of Agriculture
+      'U.S. International Trade Commission': U.S. International Trade Commission
+      'United States Forest Service': United States Forest Services
+      'USAJOBS': USAJOBS
+    errors:
+      captcha_required: You must complete the spam prevention challenge.
+      pii_found: For your privacy, do not submit sensitive information to this form.
+        Our customer support agents can still assist you without this
+        information.
+    form_helpers:
+      select_agency: '- Agency you’re trying to access -'
+      select_issue: '- Select a specific issue -'
+      select_topic: '- Select a topic -'
+    labels:
+      agency_application: Partner Agency
+      agency_application_all: All Applications
+      agency_application_common: Common Applications
+      agency_application_other: Other Applications
+      description: Provide more detail. If you need support, please describe the steps
+        you took and the issues you encountered.
+      email: Email
+      first_name: First name
+      last_name: Last name
+      pii_warning: Do not include phone numbers, membership numbers, full names,
+        birthdays, addresses, social security numbers, or other identifying
+        information.
+      subtopic: Issue
+      topic: Topic
+    other: Other
+    required_text: Required fields are marked with an asterisk
+    reset: Clear form
+    submit: Submit
+    subtopics:
+      account_locked: My account is locked for 24 hours
+      add_family_member: How do I add a family member to my Login.gov account?
+      agency_app: Agency app issue
+      authentication_app: How do I change my authentication method?
+      authentication_app_setup: How do I set up an authentication app?
+      backup_codes: How do I use my backup codes to sign in?
+      blank_screen: I’m seeing an error/blank screen when creating my account
+      cant_proof_in_person: I could not verify my identity in person at the Post Office
+      change_email: How do I change my email?
+      change_password: How do I update my Login.gov password?
+      change_phone_number: How do I change my phone number?
+      concerned_login_email: I’m concerned about the Login.gov email I received
+      delete_account: How do I delete my Login.gov account?
+      device_notification: I have received an alert about a new sign in on my Login.gov account
+      email_delivery_issue: I am not receiving the Login.gov confirmation email
+      feedback: I have feedback about Login.gov
+      forgot_password: I forgot my Login.gov password and can’t reset it
+      how_to_create_with_verification: How do I create a Login.gov account with identity verification?
+      how_to_link: How do I link my partner agency account with Login.gov?
+      how_to_verify: How/why do I verify my identify?
+      interest_in_partnership: I’m interested in using Login.gov for my government agency
+      international_number: I have an international number and am not receiving my security code
+      invalid_email: Login.gov is not accepting my email address. It says it is invalid
+      invalid_otp: Login.gov says my security code is invalid
+      issue_with_partner_agency: I’m having an issue with this partner agency
+      issues_with_face_touch_unlock: I’m having issue with using face or touch unlock
+      letter_in_mail: I didn’t get my letter by mail or it expired
+      locked_out: I am locked out of my account
+      lost_2fa_method: Lost two-factor authentication method
+      lost_access: I’ve lost access to my phone or email address
+      multiple_otps: I am receiving many security codes when signing in
+      new_account: My email/username and password are not working
+      new_backup_codes: How do I get new backup codes?
+      new_device_notification: I’ve received a new device notification email
+      new_personal_key: How do I get a new personal key?
+      no_otp_received: No OTP received
+      no_phone: I can’t create my Login.gov account because I don’t have a phone
+      none: '--None--'
+      other: Other
+      password_issue: Password issue
+      personal_key: My personal key is not working
+      personal_key_notification: I have received an alert about my personal key being used to sign in
+      personal_key_setup: Personal key setup
+      phone_number_failure: I got a failure after entering my phone number
+      piv_cac: I am having trouble using my PIV/CAC to sign in
+      privacy_and_security: Privacy and security
+      recover_account: How do I sign into my account if I dont have my phone or personal key?
+      remember_browser: I set up remember browser but I’m still receiving security codes
+      remember_device_issue: How do I stop receiving security codes?
+      security_code: I am not receiving the security code
+      security_key: I am having trouble using my security key to sign in
+      security_question: How do you/How does Login.gov protect my privacy and security?
+      seeing_errors: I’m seeing an error/blank screen when accessing Login.gov
+      service_quality: Service quality
+      site_navigation: I don’t know where to go to create an account
+      state_issued_id_error: I got an error after uploading my state-issued ID
+      unwanted_otp: I am receiving security codes from Login.gov that I didn’t request
+      verify_identity_error: I got a failure trying to verify my identity
+      wrong_account_update: Wrong account update
+    title: Submit a help ticket
+    topics:
+      changing_settings: Changing your Login.gov information
+      creating_account: Create a Login.gov account
+      feedback: Feedback or other
+      not_login_gov: Not Login.gov
+      other: Other
+      piv_cac: PIV/CAC issue
+      security_codes: Login.gov security codes
+      signing_in: Signing in to your Login.gov account
+      verifying_identity: Verifying your identity
+feedback_form:
+  'no': 'No'
+  question: 'Was this article helpful?'
+  'yes': 'Yes'
+global:
+  language: Language
+  locales:
+    en: English
+    es: Español
+    fr: Français
+    zh: Chinese
+help_page:
+  categories:
+    - description: Create your account. Learn about authentication options and more
+        account features.
+      image: /assets/img/help/get-started.svg
+      title: Get started with Login.gov
+      url: /zh/help/get-started/overview/
+    - description: Forgot your password? Locked out of your account? We’ll help you
+        resolve access issues.
+      image: /assets/img/help/trouble-signing-in.svg
+      title: Trouble signing in?
+      url: /zh/help/trouble-signing-in/overview/
+    - description: Change your account settings including your password, phone number,
+        email, and more.
+      image: /assets/img/help/manage-your-account.svg
+      title: Manage your account
+      url: /zh/help/manage-your-account/overview/
+    - description: Get help with Trusted Traveler Programs (TTP) and SAM.gov.
+      image: /assets/img/help/help-specific-agencies.svg
+      title: Help with specific agencies
+      url: /zh/help/specific-agencies/overview/
+    - description: Learn about options for verifying your identity.
+      image: /assets/img/help/verify-your-id.svg
+      title: Verify your identity
+      url: /zh/help/verify-your-identity/overview/
+  p_1: Browse common topics
+  title: How can we help?
+help_subpages:
+  get-started: Get started with Login.gov
+  manage-your-account: Manage your account
+  specific-agencies: Help with specific agencies
+  trouble-signing-in: Trouble signing in?
+  verify-your-identity: Verify your identity
+identifier:
+  accessible_labels:
+    description: Agency description
+    gsa_link_logo: GSA homepage
+    identifier: Agency identifier
+    links: Important links
+    login_gov_logo: Login.gov logo
+    usa_gov: U.S. government information and services
+  disclaimer: An official website of the [General Services
+    Administration](https://www.gsa.gov)
+  links:
+    about_agency: About GSA
+    accessibility: Accessibility support
+    foia: FOIA requests
+    ig: Office of the Inspector General
+    no_fear_act: No FEAR Act data
+    performance: Performance reports
+    privacy: Privacy policy
+  usa_gov:
+    link: Visit USA.gov
+    text: Looking for U.S. government information and services?
+nav:
+  about_us:
+    sections:
+      - name: 我们的宗旨
+        url: '#我们的宗旨'
+      - name: 我们的愿景
+        url: '#我们的愿景'
+      - name: 关于 Login.gov
+        url: '#关于-logingov'
+    title: About us
+  accessibility:
+    sections:
+      - name: 我们的承诺
+        url: '#我们的承诺'
+      - name: 标准
+        url: '#标准'
+      - name: 评估
+        url: '#评估'
+      - name: 已知局限
+        url: '#已知局限'
+    title: Accessibility statement
+  anchor_to_top: Back to top
+  become_a_partner: Become a partner
+  business_inquiries:
+    title: Business inquiries
+  contact_login_gov: Contact Login.gov
+  contact_us:
+    sections:
+      - name: 找到常见问题的答案
+        url: '#找到常见问题的答案'
+      - name: 联系
+        url: '#联系'
+      - name: 与 Login.gov 合作
+        url: '#与-logingov-合作'
+      - name: 汇报问题
+        url: '#汇报问题'
+    title: Contact us
+  create_an_account: Create an account
+  developer_guide: Developer guide
+  developers: developers
+  faq: FAQ
+  get_started: Get started
+  groups:
+    about_login_gov: About Login.gov
+    agencies: For agencies
+    learn: Learn
+    partners: For partners
+    support: Support
+  help: Help
+  help_center: Help center
+  home: Home
+  implementation: Implementation
+  join_us:
+    sections:
+      - name: 空缺职位
+        url: '#空缺职位'
+      - name: 如何申请
+        url: '#如何申请'
+    title: Join us
+  menu: Menu
+  overview: Overview
+  playbook: Playbook
+  policies:
+    sections:
+      - name: Our commitment to your privacy and security
+        url: /zh/policy/
+      - name: How does it work?
+        url: /zh/policy/how-does-it-work/
+      - name: Our privacy act statement
+        url: /zh/policy/our-privacy-act-statement/
+      - name: Messaging terms and conditions
+        url: /zh/policy/messaging-terms-and-conditions/
+      - name: Rules of use
+        url: /zh/policy/rules-of-use/
+    title: Privacy & security
+    url: /zh/policy/
+  principles: Principles
+  privacy_&_security: Privacy & security
+  security: Security
+  security_experience: Security experience
+  sign_in: 'Sign in with'
+  skip_nav: Skip to main content
+  system_status: Login.gov system status
+  what_is_login_gov: What is Login.gov?
+  who_uses_login_gov: Who uses Login.gov?

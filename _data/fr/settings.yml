@@ -215,6 +215,7 @@ global:
     en: English
     es: Español
     fr: Français
+    zh: Chinese
 help_page:
   categories:
     - description: Créez votre compte. Découvrez les options d’authentification et

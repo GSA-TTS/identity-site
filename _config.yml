@@ -8,6 +8,7 @@ languages:
   - en
   - es
   - fr
+  - zh
 
 exclude_from_localizations: ['javascript', 'images', 'css']
 
@@ -109,6 +110,10 @@ defaults:
       path: 'content/**/*/*._fr.md'
     values:
       lang: fr
+  - scope:
+      path: 'content/**/*/*._zh.md'
+    values:
+      lang: zh
 
 include:
   # dotfiles are excluded by default
@@ -164,11 +169,17 @@ redirect_from:
   json: false
 
 help_pages:
-  - get-started
-  - trouble-signing-in
-  - manage-your-account
-  - verify-your-identity
-  - specific-agencies
+  - name: get-started
+    url: /help/get-started/overview/
+  - name: trouble-signing-in
+    url: /help/trouble-signing-in/overview/
+  - name: manage-your-account
+    url: /help/manage-your-account/overview/
+  - name: verify-your-identity
+    url: /help/verify-your-identity/overview/
+  - name: specific-agencies
+    url: /help/specific-agencies/overview/
+
 
 url: https://www.login.gov
 

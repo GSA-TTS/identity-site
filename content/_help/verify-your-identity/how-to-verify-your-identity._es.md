@@ -15,7 +15,7 @@ Si es menor de 18 años, es posible que no pueda verificar su identidad en su cu
 ## Requisitos para la verificación de identidad
 
 {: .number-list}
-1. Tu identificación oficial emitida por el estado. Puedes subir una foto de tu identificación oficial utilizando un celular o una computadora. [¿No tienes una identificación oficial emitida por el estado?](/es/help/verify-your-identity/accepted-state-issued-identification/)
+1. Tu identificación oficial emitida por el estado. Puedes subir una foto de tu identificación oficial utilizando un celular o una computadora. [¿No tienes una identificación oficial emitida por el estado?](/es/help/verify-your-identity/accepted-identification-documents/)
 1. Número de seguridad social
 1. Su número de teléfono
     * Si no podemos verificarla con su número de teléfono, [verifíquela usted por correo](/es/help/verify-your-identity/verify-your-address-by-mail/). Este proceso tarda de 5 a 10 días.

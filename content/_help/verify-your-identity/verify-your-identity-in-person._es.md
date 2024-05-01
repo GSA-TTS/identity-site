@@ -19,7 +19,7 @@ Ten en cuenta que también tienes la opción de verificar de manera presencial s
 
 Tenga preparada la siguiente información para ingresarla en Login.gov:
 
-1. Su documento de identidad emitido por su estado. [¿No tiene un documento de identidad estatal?](/es/help/verify-your-identity/accepted-state-issued-identification/)
+1. Su documento de identidad emitido por su estado. [¿No tiene un documento de identidad estatal?](/es/help/verify-your-identity/accepted-identification-documents/)
 2. Número de Seguridad Social.
 3. Su número de teléfono
    a. Cuando no pueda hacer este paso, [le enviaremos un código de verificación por correo](/es/help/verify-your-identity/verify-your-address-by-mail/), lo que tarda entre 5 y 10 días.
@@ -100,8 +100,8 @@ Cancelamos automáticamente las solicitudes al cabo de 30 días para proteger lo
 
 ## Artículos relacionados
 
-[Documentos de identidad estatales aceptados](/es/help/verify-your-identity/accepted-state-issued-identification/)
+[Documentos de identidad estatales aceptados](/es/help/verify-your-identity/accepted-identification-documents/)
 
-[Solucionar problemas al subir el documento de identidad emitido por el estado](/es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/)
+[Solucionar problemas al subir el documento de identidad emitido por el estado](/es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
 
 [Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
