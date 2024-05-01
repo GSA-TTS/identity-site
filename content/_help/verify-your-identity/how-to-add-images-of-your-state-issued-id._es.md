@@ -13,7 +13,7 @@ do_list:
   - Compruebe que los códigos de barras de la identificación no estén dañados ni sucios.
   - Trate de mantener el dispositivo fijo mientras toma las fotografías. Para mantener la estabilidad, puede apoyar los brazos en una mesa.
 url_safari: https://www.apple.com/es/safari/
-url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds
+url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds&hl=es
 url_safari_update_doc: https://support.apple.com/es-us/102665
 url_safari_clear_cache_doc: https://support.apple.com/es-us/105082
 url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DAndroid&hl=es&oco=1
@@ -158,6 +158,6 @@ Debe usar su teléfono para tomar las fotografías de su cara y de su identifica
 * Los teléfonos o las tabletas iOS deben usar el [navegador web Safari]({{ page.url_safari }})
 * Los teléfonos o las tabletas Android deben usar el [navegador web Google Chrome]({{ page.url_chrome }})
 
-### Actualice su navegador web o borre la memoria caché y las cookies de este.
+### Actualice su navegador web o borre la memoria caché y las cookies de este
 * Si usa el navegador Safari, intente [actualizarlo]({{ page.url_safari_update_doc }} ) o [borrar la memoria caché y las cookies]({{ page.url_safari_clear_cache_doc }} ) de este.
 * Si usa el navegador Google Chrome, intente [actualizarlo]({{ page.url_chrome_update_doc }}) o [borrar la memoria caché y las cookies]({{ page.url_chrome_clear_cache_doc }}) de este.
