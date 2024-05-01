@@ -42,7 +42,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 
 Debe tomar una fotografía de su licencia de conducir o tarjeta de identificación estatal, e ingresar su información personal para verificar su identidad en línea.
 
-Es posible que necesite tomarse una fotografía con un teléfono para verificar su identidad en línea. Esto se hace para revisar que usted sea la persona que figura en su identificación. Si no tiene un teléfono con cámara, puede [verificar su identidad en persona]({{ '/help/verify-your-identity/verify-your-identity-in-person/' | locale_url }}).
+Es posible que necesite tomarse una fotografía con un teléfono para verificar su identidad en línea. Esto se hace para revisar que usted sea la persona que figura en su identificación. Si no tiene un teléfono con cámara, puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/).
 
 Este artículo describe las distintas maneras de enviar imágenes para verificar su identidad.
 
@@ -136,7 +136,7 @@ Debe usar su teléfono para tomar las fotografías de su cara y de su identifica
 * Debe usar un teléfono o una tableta con cámara para tomar las fotografías de su cara y de su identificación estatal con la herramienta de la cámara. No puede efectuar este paso en un dispositivo de escritorio.
     * Los teléfonos o las tabletas iOS deben usar el [navegador web Safari]({{ page.url_safari }})
     * Los teléfonos o las tabletas Android deben usar el [navegador web Google Chrome]({{ page.url_chrome }})
-* Si no tiene un teléfono con cámara, puede [verificar su identidad en persona]('/es/help/verify-your-identity/verify-your-identity-in-person/') en una oficina cercana del Servicio Postal de los Estados Unidos.
+* Si no tiene un teléfono con cámara, puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) en una oficina cercana del Servicio Postal de los Estados Unidos.
 
 ### Preparación para tomarse su foto
 
