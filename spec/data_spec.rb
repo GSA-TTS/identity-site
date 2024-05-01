@@ -26,6 +26,7 @@ RSpec.describe 'data' do
       expect(language_map['languages']['en']).to eq('English')
       expect(language_map['languages']['es']).to eq('Spanish')
       expect(language_map['languages']['fr']).to eq('French')
+      expect(language_map['languages']['zh']).to eq('Chinese')
     end
   end
 
