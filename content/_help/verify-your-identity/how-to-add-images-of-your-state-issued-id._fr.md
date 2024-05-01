@@ -11,7 +11,13 @@ do_list:
   - Utilisez un arrière-plan sombre et uni.
   - Prenez vos photos dans un endroit bien éclairé, avec une lumière indirecte.
   - Vérifiez que les codes-barres des pièces d’identité ne soient ni endommagés, ni sales.
-  - Essayez de ne pas bouger votre téléphone pendant la prise des photos. Il peut être utile de poser vos bras sur une table pour rester stable.
+  - Essayez de ne pas bouger votre appareil pendant la prise de photos. Il peut être utile de poser vos bras sur une table pour rester stable.
+url_safari: https://www.apple.com/fr/safari/
+url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds
+url_safari_update_doc: https://support.apple.com/fr-fr/102665
+url_safari_clear_cache_doc: https://support.apple.com/fr-fr/105082
+url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DAndroid&hl=fr&oco=1
+url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&hl=fr&oco=1
 ---
 
 {% capture alert_link %}
@@ -46,7 +52,7 @@ Cet article décrit les différentes façons de transmettre des images ou photos
 
 Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez passer à un téléphone pour prendre des photos de votre pièce d'identité.
 
-### À l’aide de votre téléphone
+### À l’aide de votre téléphone ou tablette
 
 <div class="grid-row grid-gap margin-bottom-2">
   <div class="tablet:grid-col">
@@ -109,11 +115,11 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
   </div>
 </div>
 
-### Comment téléverser des photos si vous n'avez pas accès à un téléphone équipé d'un appareil photo
+### Comment téléverser des photos si vous n'avez pas accès à un téléphone ou à une tablette avec appareil photo
 
 Si vous n'avez pas accès à un téléphone équipé d'un appareil photo, vous avez peut-être la possibilité de téléverser une photo scannée de votre permis de conduire ou carte d’identité d’un État.
 
-* Suivez les [mêmes conseils pour prendre des photos avec un téléphone](#à-laide-de-votre-téléphone).
+* Suivez les [mêmes conseils pour prendre des photos avec un téléphone](#à-laide-de-votre-téléphone-ou-tablette).
 * Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser de fichier PDF. Regardez le nom de votre fichier : il devrait contenir une abréviation après le titre (ex : PhotoJeanDupont_recto.jpg).
 * Veillez à ce que vos images soient en haute résolution (environ 2 025 x 1 275 pixels).
 * Téléversez uniquement des photos en couleur.
@@ -128,8 +134,10 @@ Vous devez utiliser votre téléphone pour prendre des photos de votre visage et
 
 ### Type d’appareil requis
 
-* Pour effectuer cette étape, vous avez besoin d’un téléphone équipé d’un appareil photo.
-* Si vous n’en avez pas, vous pouvez peut-être [confirmer votre identité en personne]({{ '/help/verify-your-identity/verify-your-identity-in-person/' | locale_url }}) dans un bureau du service des postes des États-Unis près de chez vous.
+* Vous devez utiliser un téléphone ou une tablette pour prendre des photos de votre visage et de votre pièce d’identité d’État à l’aide de l’outil de photographie de Login.gov. Il n’est pas possible d’effectuer cette étape sur un ordinateur.
+    * Les téléphones ou tablettes équipés d’iOS doivent utiliser le [navigateur Safari]({{ page.url_safari }})
+    * Les téléphones ou tablettes équipés d’Android doivent utiliser le [navigateur Google Chrome]({{ page.url_chrome }})
+* Si vous n’en avez pas, vous pouvez peut-être [confirmer votre identité en personne]({{ '/fr/help/verify-your-identity/verify-your-identity-in-person/' }}) dans un bureau du service des postes des États-Unis près de chez vous.
 
 ### Avant de vous prendre en photo
 
@@ -145,22 +153,12 @@ Vous devez utiliser votre téléphone pour prendre des photos de votre visage et
 
 ---
 
-## Dépannage
+## Suggestions de dépannage
 
-Un navigateur obsolète peut être à l'origine de l’erreur. Suivez les instructions ci-dessous pour mettre à jour votre navigateur :
+### Vérifier l’association entre votre appareil et votre navigateur
+* Les téléphones ou tablettes équipés d’iOS doivent utiliser le [navigateur Safari]({{ page.url_safari }})
+* Les téléphones ou tablettes équipés d’Android doivent utiliser le [navigateur Google Chrome]({{ page.url_chrome }})
 
-* [Google Chrome](https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=fr-CA)
-* [Mozilla Firefox](https://support.mozilla.org/fr/kb/mettre-jour-firefox-derniere-version?redirectslug=update-firefox-latest-version)
-* [Safari](https://support.apple.com/fr-ca/HT204416)
-
-Veillez à redémarrer votre ordinateur, puis essayez de vous reconnecter.
-
-## Effacez la mémoire cache et les cookies de votre navigateur
-
-Essayez d’effacer la mémoire cache et les cookies de votre navigateur ou les données qu'il stocke pour résoudre l’erreur. Suivez les instructions ci-dessous pour effacer le cache et les cookies de votre navigateur :
-
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=fr)
-* [Mozilla Firefox](https://support.mozilla.org/fr/kb/comment-vider-le-cache-de-firefox)
-* [Safari](https://support.apple.com/fr-ca/HT201265)
-
-Veillez à redémarrer votre ordinateur, puis essayez de vous reconnecter.
+### Actualiser votre navigateur ou vider le cache et effacer les cookies
+* Si vous utilisez Safari, vous pouvez essayer [d’actualiser le navigateur]({{ page.url_safari_update_doc }}) ou [de vider le cache et d’effacer les cookies]({{ page.url_safari_clear_cache_doc }})
+* Si vous utilisez Google Chrome, vous pouvez essayer [d’actualiser le navigateur]({{ page.url_chrome_update_doc }}) ou [de vider le cache et d’effacer les cookies]({{ page.url_chrome_clear_cache_doc }})
