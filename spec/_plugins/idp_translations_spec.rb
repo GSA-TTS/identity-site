@@ -21,7 +21,8 @@ RSpec.describe IDP::Translations do
                 "/packs/js/document-capture-asdf.digested.js",
                 "/packs/js/document-capture-asdf.digested-qwerty.en.js",
                 "/packs/js/document-capture-asdf.digested-qwerty.es.js",
-                "/packs/js/document-capture-asdf.digested-qwerty.fr.js"
+                "/packs/js/document-capture-asdf.digested-qwerty.fr.js",
+                "/packs/js/document-capture-asdf.digested-qwerty.zh.js"
               ]
             }
           }
