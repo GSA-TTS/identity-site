@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'yaml'
 require 'spec_helper'
 
@@ -13,6 +15,17 @@ RSpec.describe 'data' do
                               "Expected `#{other_file}` to contain same keys as `#{first_file}`\n" \
                               "Difference: #{first_keys - other_keys | other_keys - first_keys}"
       end
+    end
+  end
+
+  describe 'language_map.yml' do
+    it 'contains language shortcodes and names' do
+      path = '_data/language_map.yml'
+      language_map = YAML.load_file(path)
+
+      expect(language_map['languages']['en']).to eq('English')
+      expect(language_map['languages']['es']).to eq('Spanish')
+      expect(language_map['languages']['fr']).to eq('French')
     end
   end
 
