@@ -5,6 +5,7 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
 redirect_from:
+  - /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 do_list:
   - Use una cámara de alta resolución, como la de un smartphone o de una tableta. Es posible que la cámara web de su computadora no tome fotografías nítidas.
@@ -21,14 +22,14 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 ---
 
 {% capture alert_link %}
-  <a href="/es/help/verify-your-identity/accepted-identification-documents/" class="usa-link">licencia de conducir válida o con un documento de identidad estatal</a>
+  <a href="/es/help/verify-your-identity/accepted-identification-documents/" class="usa-link">licencia de conducir válida o una tarjeta de identificación estatal</a>
 {% endcapture %}
 
 {% capture alert_content %}
   <strong>
-    Si no cuenta {{ alert_link }} no puede utilizar Login.gov para verificar su identidad.
+  Si no tiene una {{ alert_link }}, no puede usar Login.gov para verificar su identidad.
   </strong>
-  Por favor, comuníquese con el centro de ayuda de la entidad asociada para saber qué puede hacer como alternativa.
+  Comuníquese con el centro de ayuda de la agencia asociada para saber lo que puede hacer en ese caso.
 {% endcapture %}
 
 {%
@@ -40,7 +41,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 
 ## Información general
 
-Debe tomar una fotografía de su licencia de conducir o tarjeta de identificación estatal, e ingresar su información personal para verificar su identidad en línea.
+Debe tomar una fotografía de su licencia de conducir o tarjeta de identificación estatal aceptadas, e ingresar su información personal para verificar su identidad en línea.
 
 Es posible que necesite tomarse una fotografía con un teléfono para verificar su identidad en línea. Esto se hace para revisar que usted sea la persona que figura en su identificación. Si no tiene un teléfono con cámara, puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/).
 
