@@ -323,10 +323,10 @@ nav:
   implementation: Mise en œuvre
   join_us:
     sections:
-      - name: Postes ouverts
-        url: '#postes-ouverts'
-      - name: Comment s’inscrire
-        url: '#comment-sinscrire'
+      - name: Postes à pourvoir
+        url: '#postes-à-pourvoir'
+      - name: Comment déposer une candidature
+        url: '#comment-déposer-une-candidature'
     title: Rejoignez nous
   menu: Menu
   overview: Aperçu

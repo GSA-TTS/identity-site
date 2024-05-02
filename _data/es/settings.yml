@@ -327,10 +327,10 @@ nav:
   implementation: Implementación
   join_us:
     sections:
-      - name: Posiciones abiertas
-        url: '#posiciones-abiertas'
-      - name: Cómo aplicar
-        url: '#cómo-aplicar'
+      - name: Puestos vacantes
+        url: '#puestos-vacantes'
+      - name: Cómo presentar solicitud
+        url: '#cómo-presentar-solicitud'
     title: Únete a nuestro equipo
   menu: Menú
   overview: Resumen
