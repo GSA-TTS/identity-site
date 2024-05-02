@@ -1,38 +1,38 @@
 ---
 title: Créer un compte
 description: Rejoignez les millions de personnes qui font confiance à Login.gov
-  pour un accès sûr et sécurisé aux agences gouvernementales.
+  pour un accès sûr et sécurisé aux organismes gouvernementaux.
 one_account_banner: true
 class: create-an-account
 steps:
-  intro: "Lorsque vous serez prêt à créer votre compte Login.gov sécurisé, vous
-    devrez fournir quelques informations:"
+  intro: "Lorsque vous serez prêt à créer votre compte sécurisé Login.gov, vous
+  devrez fournir quelques informations :"
   step1: >-
-    ## 1. Adresse électronique
+    ## 1. Adresse e-mail
 
-    * Nous vous recommandons une adresse e-mail personnelle à laquelle vous pourrez toujours accéder plutôt qu'une adresse e-mail professionnelle.
+    * Nous recommandons l’utilisation d’une adresse e-mail personnelle, à laquelle vous pourrez toujours accéder, plutôt qu’une adresse professionnelle.
 
-    * Si vous possédez déjà un compte avec Login.gov avec cette adresse e-mail, nous vous enverrons un e-mail pour vous indiquer comment réinitialiser votre mot de passe et accéder au compte.
+    * Si vous avez déjà un compte Login.gov avec cette adresse e-mail, nous vous enverrons un courriel pour vous expliquer comment réinitialiser votre mot de passe et accéder à votre compte.
   step2: >-
     ## 2. Mot de passe sécurisé
 
-    * Les mots de passe doivent être composés d'au moins 12 caractères et ne doivent pas inclure des mots ou des phrases couramment utilisés.
+    * Votre mot de passe doit comporter au moins 12 caractères et ne pas comprendre de mots ou de groupes de mots courants.
   step3: >
-    ## 3. Une ou plusieurs [méthodes
-    d'authentification](/fr/help/get-started/authentication-methods/)
-    telles que:
+    ## 3. Au moins une [méthode
+    d’authentification](/fr/help/get-started/authentication-methods/),
+    telle que :
 
-    * __Plus sécurisé__
-      * Déverrouillage facial ou tactile
-      * Clef de sécurité
+    * __Plus sûrs__
+      * Déverrouillage par reconnaissance faciale ou tactile
+      * Clé de sécurité
       * Application d'authentification
-      * Employé du gouvernement fédéral ou identification militaire (PIV/CAC)
-    * __Moins sécurisé__
-      * Messages texte/voix
+      * Carte d'employé fédéral ou document d'identité militaire (PIV/CAC)
+    * __Moins sûrs__
+      * SMS ou message vocal
       * Codes de sauvegarde
-  info: Selon les besoins de sécurité de l'agence, vous devrez peut-être prouver
-    votre identité à l'aide d'un numéro de sécurité sociale, d'une adresse et /
-    ou d'une pièce d'identité émise par l'État américain.
+  info: En fonction des besoins de l’organisme en matière de sécurité, vous devrez peut-être prouver
+    votre identité au moyen d’un numéro de sécurité sociale, d’une adresse et/ou
+    d’une pièce d’identité délivrée par un État des États-Unis.
 permalink: /fr/create-an-account/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
