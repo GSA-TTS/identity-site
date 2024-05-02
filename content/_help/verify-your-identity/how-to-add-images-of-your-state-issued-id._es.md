@@ -5,7 +5,6 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
 redirect_from:
-  - /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 do_list:
   - Use una cámara de alta resolución, como la de un smartphone o de una tableta. Es posible que la cámara web de su computadora no tome fotografías nítidas.
