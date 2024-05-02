@@ -297,12 +297,12 @@ nav:
   contact_login_gov: Contactez Login.gov
   contact_us:
     sections:
-      - name: Trouver des réponses aux questions les plus fréquemment posées
-        url: '#trouver-des-réponses-aux-questions-les-plus-fréquemment-posées'
+      - name: Trouvez des réponses aux questions fréquemment posées
+        url: '#trouvez-des-réponses-aux-questions-fréquemment-posées'
       - name: Contactez-nous
         url: '#contactez-nous'
-      - name: Partenaire avec Login.gov
-        url: '#partenaire-avec-logingov'
+      - name: Devenez partenaire de Login.gov
+        url: '#devenez-partenaire-de-logingov'
       - name: Signaler un problème
         url: '#signaler-un-problème'
     title: Nous contacter
