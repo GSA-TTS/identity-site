@@ -21,12 +21,12 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 ---
 
 {% capture alert_link %}
-  <a href="/fr/help/verify-your-identity/accepted-identification-documents/" class="usa-link">permis de conduire ou carte d'identité en cours de validité</a>
+  <a href="/fr/help/verify-your-identity/accepted-identification-documents/" class="usa-link">permis de conduire ou de carte d'identité d'un État en cours de validité</a>
 {% endcapture %}
 
 {% capture alert_content %}
   <strong>
-    Si vous n’avez pas de {{ alert_link }}, vous ne pouvez pas utiliser Login.gov à des fins de vérification d’identité.
+   Si vous n'avez pas de {{ alert_link }}, vous ne pouvez pas utiliser Login.gov pour confirmer votre identité.
   </strong>
   Veuillez contacter le centre d'assistance de l'organisme partenaire pour découvrir les autres options qui s’offrent à vous.
 {% endcapture %}
@@ -126,7 +126,7 @@ Si vous n'avez pas accès à un téléphone équipé d'un appareil photo, vous a
 
 ---
 
-## Comment ajouter une photo de votre visage pour permettra la vérification de votre identité.
+## Comment ajouter une photo de votre visage pour permettre la vérification de votre identité.
 
 Il est possible qu’on vous demande de prendre des photos de votre permis de conduire ou carte d’identité d’un État, ainsi qu’une photo de votre visage. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité.
 
