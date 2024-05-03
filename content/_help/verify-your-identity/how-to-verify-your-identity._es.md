@@ -9,59 +9,59 @@ redirect_from:
   - /es/help/verifying-your-identity/how-to-verify-my-identity/
 ---
 
-Algunas aplicaciones gubernamentales requieren verificación de identidad. Esta capa adicional de seguridad requiere que pruebes que eres tú y no alguien que finge ser tú.
+Algunas aplicaciones gubernamentales exigen verificación de identidad. Este nivel adicional de seguridad requiere que compruebe que se trata de usted y no de alguien que se hace pasar por usted.
 
-Si es menor de 18 años, es posible que no pueda verificar su identidad en su cuenta de Login.gov. Si tiene problemas para verificar su identidad, póngase en contacto con el organismo asociado para saber qué puede hacer.
+Si tiene menos de 18 años, es posible que no pueda verificar su identidad en su cuenta de Login.gov. Si tiene problemas para verificar su identidad, póngase en contacto con la agencia asociada para saber lo que puede hacer.
 
 ## Requisitos para la verificación de identidad
 
 {: .number-list}
-1. Tu identificación oficial emitida por el estado. Puedes subir una foto de tu identificación oficial utilizando un celular o una computadora. [¿No tienes una identificación oficial emitida por el estado?](/es/help/verify-your-identity/accepted-state-issued-identification/)
-1. Número de seguridad social
-1. Su número de teléfono
-    * Si no podemos verificarla con su número de teléfono, [verifíquela usted por correo](/es/help/verify-your-identity/verify-your-address-by-mail/). Este proceso tarda de 5 a 10 días.
+1. Su identificación emitida por el estado. Puede cargar una foto de su identificación con un celular o una computadora. [¿No tiene una identificación emitida por el estado?](/es/help/verify-your-identity/accepted-state-issued-identification/)
+2. Número de Seguro Social
+3. Su número de teléfono
+   * Si no podemos verificar su identidad con su número de teléfono, usted puede [verificarla por correo](/es/help/verify-your-identity/verify-your-address-by-mail/). Esto tarda de 5 a 10 días.
 
-Si te falta alguna información de este tipo, por favor ponte en contacto con la agencia gubernamental a la que estás tratando de tener acceso.
+Si le falta parte de esta información, contacte con la agencia gubernamental a la que está intentando acceder.
 
 ## Nuestros estándares de privacidad y seguridad
-Login.gov es un sitio web gubernamental seguro que se apega a los estándares más altos en lo que se refiere a la protección de datos. La mayor parte de los datos que envías no se almacenan. Conoce cómo verificamos tu identidad y las [medidas de privacidad y seguridad](/es/policy/) que adoptamos para mantener tu información segura.
+Login.gov es un sitio web gubernamental seguro que cumple las normas más elevadas de protección de datos. La mayor parte de los datos que usted envía no se almacenan. Obtenga información acerca de cómo verificamos su identidad y las [medidas de privacidad y seguridad](/es/policy/) que adoptamos para proteger su información.
 
-## Pasos para la verificación de identidad y para asegurar tu cuenta
+## Pasos para la verificación de identidad y la protección de su cuenta
 
 {: .number-list}
-1. Lee los requisitos en la página que dice "Necesitamos verificar tu identidad", y si estás de acuerdo, marca el recuadro que se encuentra junto a la declaración de consentimiento informado de Login.gov.
-    * Haz clic en "Continuar".
-1. A continuación, sube tu identificación emitida por el estado.
-    * Nota: si comenzaste el proceso de verificación de identidad en tu computadora, tienes la opción de cambiar y utilizar tu teléfono para subir imágenes.
+1. Lea los requisitos en la página “Necesitamos verificar su identidad” y, si está de acuerdo, marque la casilla que está enseguida de la declaración de consentimiento de Login.gov.
+    * Haga clic en “Continuar”.
+2. Luego, cargue su identificación emitida por el estado.
+    * Nota: Si comenzó el proceso de verificación de identidad en su computadora, tiene la opción de cambiar y usar su teléfono para cargar imágenes.
 
-    **Continúa por computadora y sube imágenes**
-    * Sube una imagen de la parte FRONTAL de tu identificación emitida por el estado haciendo clic en "Seleccionar archivo".
-        * Selecciona el archivo de tu computadora
-    * Sube una imagen de la parte REVERSA de tu identificación emitida por el estado haciendo clic en "Seleccionar archivo".
-        * Selecciona el archivo de tu computadora.
-        * Haz clic en "Continuar".
+    **Continuar por computadora y cargar imágenes**
+    * Suba una imagen del FRENTE de su identificación emitida por el estado haciendo clic en “Seleccionar archivo”.
+        * Seleccione el archivo de su computadora.
+    * Cargue una imagen del REVERSO de su identificación emitida por el estado haciendo clic en “Seleccionar archivo”.
+        * Seleccione el archivo de su computadora.
+        * Haga clic en “Continuar”.
 
-    **Cambia de la computadora al teléfono para subir imágenes**
+    **Cambiar de la computadora al teléfono para cargar imágenes**
 
-    * Ingresa tu número telefónico.
-        * Escoge un numero telefónico en el que puedas recibir mensajes SMS o de texto y haz clic en "Continuar".
-    * Haz clic en el enlace que se envió a tu teléfono.
-    * Verás opciones ya sea para "tomar una foto" o "subir una foto".
-        * Sube una imagen de la parte FRONTAL de tu identificación desde la galería de fotos de tu teléfono o toma una imagen de la parte frontal de tu identificación.
-        * Sube una imagen de la parte REVERSA de tu identificación desde la galería de fotos de tu teléfono o toma una imagen del reverso de tu identificación.
-    * Regresa a la computadora para finalizar el proceso.
+    * Ingrese su número telefónico.
+        * Elija un numero telefónico en el que pueda recibir mensajes SMS y haga clic en “Continuar”.
+    * Haga clic en el vínculo que se envió a su teléfono.
+    * Verá las opciones para “tomar una foto” o para “cargar una foto”.
+        * Cargue una imagen del FRENTE de su identificación de la galería de fotos de su teléfono o tome una imagen del frente de su identificación.
+        * Cargue una imagen del REVERSO de su identificación de la galería de fotos de su teléfono o tome una imagen del reverso de su identificación.
+    * Vuelva a la computadora para finalizar el proceso.
 
-    **Continúa por teléfono y sube imágenes**
+    **Continuar por teléfono y cargar imágenes**
 
-    * Verás una pantalla que dice "parte frontal" y "parte reversa" en cuadros grandes y una opción ya sea para "tomar una foto" o "subir una foto".
-        * Sube una imagen de la parte FRONTAL de tu identificación desde la galería de fotos de tu teléfono o toma una imagen de la parte frontal de tu identificación.
-        * Sube una imagen de la parte REVERSA de tu identificación desde la galería de fotos de tu teléfono o toma una imagen de la parte revesa de tu identificación.
-    * Haz clic en "Continuar".
-1. Ingresa tu número de seguridad social y haz clic en "Continuar".
-1. Verifica que la información que has enviado hasta ahora es correcta y haz clic en "Continuar".
-1.  Introduzca su número de teléfono principal. Este es el último paso para verificar su identidad.
-    * Si no cuenta con un número de teléfono de los EE. UU. o no puede realizar la verificación por vía telefónica, haga clic en "Verifique su dirección por correo". Tendrá que esperar entre 5 y 10 días para recibir una carta por correo y luego seguir las instrucciones para ingresar el código de verificación.
-1. Una vez que se haya verificado tu identidad, necesitas encriptar tu cuenta. Vuelve a ingresar tu contraseña de Login.gov. Haz clic en "Continuar".
-1. Toma nota de tu clave personal y mantenla en un lugar seguro. Necesitarás ingresar tu clave personal inmediatamente en la siguiente página. Haz clic en "Continuar".
+    * Verá una pantalla del “frente” y el “reverso” en cuadros grandes y una opción para “tomar una foto” o para “cargar una foto”.
+        * Cargue una imagen del FRENTE de su identificación de la galería de fotos de su teléfono o tome una imagen del frente de su identificación.
+        * Cargue una imagen del REVERSO de su identificación de la galería de fotos de su teléfono o tome una imagen del reverso de su identificación.
+    * Haga clic en “Continuar”.
+1. Ingrese su número de Seguro Social y haga clic en “Continuar”.
+1. Verifique que la información que ha enviado hasta ahora sea la correcta y haga clic en “Continuar”.
+1. Introduzca su número de teléfono principal. Este es el último paso para verificar su identidad.
+    * Si no cuenta con un número de teléfono de los EE. UU. o no puede hacer la verificación por teléfono, haga clic en “Verifique su dirección por correo”. Tendrá que esperar de 5 a 10 días para recibir una carta por correo, y luego siga las instrucciones para ingresar el código de verificación.
+1. Una vez que se haya verificado su identidad, tendrá que cifrar su cuenta. Vuelva a ingresar su contraseña de Login.gov. Haga clic en “Continuar”.
+1. Anote su clave personal y consérvela en un lugar seguro. Necesitará ingresar su clave personal inmediatamente en la siguiente página. Haga clic en “Continuar”.
 
-Una vez que el proceso esté completo, haz clic en "Aceptar y continuar" para ser dirigido de vuelta a la página de tu cuenta de Login.gov o a la agencia a la que estás tratando de tener acceso.
+Una vez que termine el proceso, haga clic en “Aceptar y continuar” para volver a la página de su cuenta de Login.gov o a la agencia a la que está intentando acceder.
