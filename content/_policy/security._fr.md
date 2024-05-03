@@ -1,24 +1,24 @@
 ---
 sidenav: policies
-title: "Confidentialité et sécurité: nos pratiques de sécurité"
-description: Découvrez les différentes méthodes que nous utilisons pour protéger
-  ce service du gouvernement américain et vos données, et pour garantir que le
-  service reste disponible pour tous les utilisateurs.
+title: "Confidentialité et sécurité  : nos pratiques de sécurité"
+description: Pour en savoir plus sur les différentes méthodes que nous utilisons afin de protéger
+  ce service gouvernemental américain et vos données et veiller à ce que le
+  service reste disponible à l’ensemble des utilisateurs.
 permalink: /fr/policy/our-security-practices/
 redirect_from:
   - /fr/security/
 ---
 
 ## Nos pratiques de sécurité ## {#our-security-practices}
- Login.gov utilise une variété de méthodes d'authentification pour protéger ce service du gouvernement américain et vos données, et pour garantir que le service reste disponible pour tous les utilisateurs. Ces méthodes incluent la surveillance et l'enregistrement du trafic réseau (toutes les données entrant et sortant de Login.gov) pour identifier les tentatives non autorisées de modifier les informations ou de causer des dommages.
+ Login.gov utilise différentes méthodes d’authentification afin de protéger ce service gouvernemental américain et vos données et veiller à ce que le service reste disponible à l’ensemble des utilisateurs. Ces méthodes comprennent notamment la surveillance et l’enregistrement du trafic réseau (toutes les données qui rentrent dans Login.gov et en sortent) afin d’identifier les tentatives non autorisées de modification des informations ou de causer des dégâts.
 
-L'accès ou l'utilisation non autorisés de Login.gov (par exemple, l'utilisation à des fins criminelles, ou pour causer des dommages, etc.) est contraire à la loi et peut vous exposer à des poursuites et à des sanctions pénales.
+L’accès ou l’utilisation non autorisés de Login.gov (par exemple à des fins criminelles ou dans le but d’occasionner des dégâts) est contraire à la loi et peut vous exposer à des poursuites et des sanctions pénales.
 
 ### Politique de divulgation des vulnérabilités ### {#vdp}
- Login.gov autorise la communauté de sécurité extérieure à effectuer des recherches sur la sécurité dans le but de signaler les vulnérabilités de sécurité découvertes dans la plate-forme Login.gov.
+ Login.gov autorise la communauté de sécurité extérieure à effectuer des recherches sur la sécurité dans le but de signaler les vulnérabilités en matière de sécurité découvertes sur la plateforme Login.gov.
 
-Consultez notre [Politique de divulgation des vulnérabilités](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/) pour plus de détails sur cette politique et comment signaler les vulnérabilités découvertes.
+Consultez notre [Politique de divulgation des vulnérabilités](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/) pour de plus amples renseignements sur cette politique et comment signaler les vulnérabilités découvertes.
 
-### Pour plus d'informations ### {#more-info}
+### Pour plus d’informations ### {#more-info}
 
-Nous sommes heureux de répondre aux questions sur nos pratiques de sécurité et de confidentialité. Pour plus d'informations, veuillez visiter [aide](/fr/help/) ou [contactez-nous](/fr/contact/).
+Nous sommes à votre disposition pour répondre à toute questionssur nos pratiques de sécurité et de confidentialité. Pour plus d’informations, veuillez consulter les pages d’[aide](/fr/help/) ou [nous contacter](/fr/contact/).
