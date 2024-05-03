@@ -20,28 +20,28 @@ redirect_from:
   - /es/help/usajobs/what-will-happen-to-my-usajobs-profile/
 ---
 
-Login.gov es únicamente para acceder a la cuenta e iniciar sesión. Esta misma cuenta no afecta ni tiene ninguna información relacionada con la organización específica a la que está tratando de acceder.
+La cuenta de Login.gov es únicamente para acceder a esta e iniciar sesión. Esta cuenta no afecta ni tiene ninguna información relacionada con la agencia específica a la que intenta acceder.
 
-Nuestro equipo de atención al cliente está disponible para ayudarle a contestar las preguntas sobre Login.gov.
+Nuestro equipo de atención al cliente responderá a las preguntas que tenga sobre Login.gov.
 
 ## Contacte con Login.gov para:
-* Ayudarle a crear una nueva cuenta en Login.gov 
-* Compartir información sobre las modalidades de autenticación
-* Ayudarle a resolver los inconvenientes por los que no puede acceder a su cuenta
-* Proporcione indicaciones para restablecer su contraseña o eliminar su cuenta
+* Ayudarle a crear una nueva cuenta de Login.gov.
+* Obtener información acerca de las opciones de autenticación.
+* Ayudarle a solucionar los problemas que le impiden acceder a su cuenta.
+* Recibir instrucciones para restablecer su contraseña o eliminar su cuenta.
 
-Login.gov no puede restablecer su contraseña, eliminar su cuenta o modificar la información de su cuenta.
+Login.gov no puede restablecer su contraseña, eliminar su cuenta ni modificar la información de su cuenta.
 
-## Contacte con el socio de la agencia para:
-* Realizar tareas propias de una agencia, como subir su currículum, completar solicitudes o programar una cita con dicha agencia
-* Resolver las dificultades técnicas con el sitio web de un organismo asociado
-* Acceda a la información concreta de su agencia personal, como el estado de la solicitud, los servicios, los requisitos o los pagos
+## Contacte con la agencia asociada para:
+* Efectuar tareas específicas de la agencia, como cargar su currículum, llenar solicitudes o programar una cita con esa agencia.
+* Resolver los problemas técnicos que tenga con el sitio web de una agencia asociada.
+* Acceder a su información personal específica de la agencia, como estado de las solicitudes, servicios, cumplimiento de requisitos o pagos.
 
-Proporcionamos algunos elementos de ayuda específicos para nuestros socios de la agencia más grande. Le recomendamos que se ponga en contacto con la agencia en caso de tener preguntas específicas.
+Proporcionamos contenido específico de ayuda para nuestras agencias asociadas más grandes. Le recomendamos que se ponga en contacto con la agencia si tiene preguntas específicas.
 
-## Temas más comunes de solución de problemas
+## Temas comunes para la solución de problemas
 
 {: .help-question-list}
 * [Cómo iniciar sesión en Login.gov](/es/help/trouble-signing-in/how-to-sign-in/)
 * [Cambie su contraseña](/es/help/manage-your-account/change-your-password/)
-* [Ha olvidado su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
+* [Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
