@@ -35,7 +35,7 @@ partner_content: >-
 report_issue_content: >-
   ## Signaler un problème
 
-  Pour nous signaler un problème, veuillez consulter notre [politique de divulgation des vulnérabilités](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/ "Follow link") et nous contacter à l'aide de notre [formulaire](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "Follow link") prévu à cet effet.
+  Pour nous signaler un problème, veuillez consulter notre [politique de divulgation des vulnérabilités](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/) et nous contacter à l'aide de notre [formulaire](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform) prévu à cet effet.
 
 scripts:
   - /assets/js/contact.js
