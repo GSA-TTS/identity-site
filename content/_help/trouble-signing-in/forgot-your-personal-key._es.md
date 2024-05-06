@@ -1,45 +1,45 @@
 ---
 layout: help
-title: Olvidaste tu clave personal 
+title: Olvidó su clave personal
 category: trouble-signing-in
 permalink: /es/help/trouble-signing-in/forgot-your-personal-key/
 order: 4
 ---
-Una clave personal es un código de 16 caracteres que encripta tu información personal con tu cuenta. Tu clave personal es la única forma de acceder a tu información si pierdes u olvidas tu contraseña.
+Una clave personal es un código de 16 caracteres que cifra su información personal relacionada con su cuenta. Su clave personal es la única forma de acceder a su información si pierde u olvida su contraseña.
 
-Ten en cuenta que:
+Recuerde:
 
-- Tendrás que verificar tu identidad nuevamente si restableces tu contraseña sin tu clave personal.
-- Las claves personales solo se pueden usar una vez. Si anteriormente utilizaste una clave personal para restablecer tu contraseña, ya tienes una nueva clave personal.
-- Puedes revisar tu clave personal actual en la página de tu cuenta.
+- Tendrá que verificar de nuevo su identidad si restablece su contraseña sin su clave personal.
+- Las claves personales se pueden usar una sola vez. Si usó anteriormente una clave personal para restablecer su contraseña, ya tiene una nueva clave personal.
+- Puede revisar su clave personal vigente en la página de su cuenta.
 
-Recibes tu clave personal luego de verificar tu identidad. Guarda y mantén tu clave personal en un lugar seguro. Puedes copiarla, descargarla o imprimirla.
+La clave personal se obtiene cuando verifica su identidad. Guarde y conserve su clave personal en un lugar seguro. Puede copiarla, descargarla o imprimirla.
 
-## Cambiar o restablecer tu contraseña
+## Cambie o restablezca su contraseña
 
-### Si tienes una clave personal
+### Si tiene una clave personal
 
-Cuando restablezcas tu contraseña, necesitarás tu clave personal para acceder a tu información.
+Cuando restablezca su contraseña, necesitará su clave personal para acceder a su información.
 
-1. Después de que hayas restablecido tu contraseña, inicia sesión con tu nueva contraseña.
-2. En la página de tu cuenta, te aparecerá un aviso de que tu cuenta se desactivó recientemente debido a que se restableció la contraseña.
-3. Selecciona "Reactivar tu perfil ahora".
-4. Selecciona "Tengo mi clave"
-5. Ingresa tu clave personal más reciente. Si restableciste tu contraseña anteriormente, es posible que tengas una nueva clave personal.
-6. Vuelve a ingresar tu contraseña.
-7. Asegúrate de guardar tu nueva clave personal después de restablecer tu contraseña.
+1. Después de restablecer su contraseña, inicie sesión con su contraseña nueva.
+2. En la página de su cuenta, aparecerá un mensaje para advertirle que su cuenta se desactivó recientemente debido a que se restableció la contraseña.
+3. Seleccione “Reactive su perfil ahora”.
+4. Seleccione “Tengo mi clave”.
+5. Ingrese su clave personal más reciente. Si restableció su contraseña anteriormente, es posible que tenga una nueva clave personal.
+6. Vuelva a ingresar su contraseña.
+7. No olvide guardar su nueva clave personal después de restablecer su contraseña.
 
-### Si no tienes una clave personal
+### Si no tiene una clave personal
 
-Si restableces tu contraseña y no tienes tu clave personal, tendrás que verificar nuevamente tu identidad.
+Si restablece su contraseña y no tiene su clave personal, tendrá que verificar nuevamente su identidad.
 
-1. Después de que hayas restablecido tu contraseña, inicia sesión con tu nueva contraseña.
-2. En la página de tu cuenta, te aparecerá un aviso de que tu cuenta se desactivó recientemente debido a que se restableció la contraseña.
-3. Selecciona "Reactivar tu perfil ahora".
-4. Selecciona "No tengo mi clave".
-5. Selecciona "Continuar" para comenzar de nuevo el proceso de verificación de identidad.
+1. Después de restablecer su contraseña, inicie sesión con su contraseña nueva.
+2. En la página de su cuenta, aparecerá un mensaje para advertirle que su cuenta se desactivó recientemente debido a que se restableció la contraseña.
+3. Seleccione "Reactive su perfil ahora".
+4. Seleccione "No tengo mi clave".
+5. Seleccione "Continuar" para comenzar de nuevo el proceso de verificación de identidad.
 
-## Artículos relacionados
+## Otros artículos
 
 [Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
 [Cambie su contraseña](/es/help/manage-your-account/change-your-password/)

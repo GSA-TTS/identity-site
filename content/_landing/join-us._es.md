@@ -1,30 +1,29 @@
 ---
 layout: sidenav
 sidenav: join_us
-title: Únete a nuestro equipo
+title: Únase a nuestro equipo
 permalink: /es/join/
 redirect_from:
   - /es/join-us/
 ---
-Estamos buscando candidatos apasionados por nuestra misión, con habilidades de desarrollo, de productos, ingeniería de software, ciberseguridad, ingeniería de plataformas y operaciones
-de primer nivel para igualar.
+Estamos buscando candidatos entusiastas de nuestra misión, con excelentes habilidades y experiencia en desarrollo de productos, ingeniería de software, ciberseguridad, ingeniería de plataformas y operaciones.
 
-Somos un primer equipo remoto con oficinas en DC, y tenemos compañeros de equipo que trabajan en todo el país.
+Somos un equipo inicial a distancia con oficinas en Washington D. C. y compañeros de equipo que trabajan en todo el país.
 
 Si tiene alguna pregunta, comuníquese con nuestro equipo de talentos en [jointts@gsa.gov](mailto:jointts@gsa.gov).
 
-## Posiciones abiertas
+## Puestos vacantes
 
-Dirígete al [sitio web Join TTS](https://join.tts.gsa.gov/) para ver todas las posiciones abiertas y próximas de Login.gov y TTS.
+En el [sitio web Join TTS](https://join.tts.gsa.gov/), vea todos los puestos vacantes y previstos en Login.gov y en los Servicios de Transformación Tecnológica (TTS).
 
-## Cómo aplicar
+## Cómo presentar solicitud
 
-Para postularse a puestos en Login.gov y en otros lugares de los Servicios de transformación tecnológica, necesitará:
+Para solicitar puestos en Login.gov y en los Servicios de Transformación Tecnológica, necesitará:
 
-* Un [currículum estilo gobierno](https://join.tts.gsa.gov/resume/)
+* Un [currículo en una plantilla estilo gobierno](https://join.tts.gsa.gov/resume/)
 * Una solicitud completa
-* Documentos adicionales si reclama preferencia de veteranos
+* Otros documentos si solicita preferencia para veteranos
 
-Puede encontrar enlaces a estos documentos y más información en las ofertas de trabajo individuales.
+Busque los vínculos a estos documentos y más información en cada publicación de ofertas de trabajo.
 
 Vea todos los puestos vacantes y las instrucciones completas en [la página para unirse a los Servicios de Transformación Tecnológica](https://join.tts.gsa.gov/).

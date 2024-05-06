@@ -1,8 +1,8 @@
 ---
-title: Verificación de identidad
+title: Verifique su identidad
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/overview/
-meta_title: Visión general
+meta_title: Información general
 order: 0
 redirect_from:
   - /es/help/verify-your-identity/
@@ -13,13 +13,13 @@ redirect_from:
   - /es/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 ---
 
-Algunos organismos participantes requieren que usted complete un proceso de verificación de identidad. La verificación de la identidad es un proceso en el que usted demuestra que es realmente usted y no alguien que pretende ser usted.
+Algunas agencias participantes requieren que usted lleve a cabo un proceso de verificación de identidad. La verificación de la identidad es el proceso en el que comprueba que se trata de usted y no de alguien que se hace pasar por usted.
 
-Solo necesitas verificar tu identidad una vez para utilizar tu cuenta de Login.gov. Luego de verificar tu identidad con Login.gov para presentar una solicitud gubernamental, no tendrás que volver a hacerlo cuando presentes otras solicitudes gubernamentales que usen Login.gov y requieran verificar tu identidad. Actualmente no tienes que subir una foto tuya ni tomarte una selfi para verificar tu identidad. Sin embargo, es posible que debas tomar una foto de tu identificación oficial.
+Solo necesita verificar su identidad una vez para usar su cuenta de Login.gov. Después de verificar su identidad con Login.gov para una aplicación gubernamental, no tendrá que verificarla de nuevo para otras aplicaciones gubernamentales que usen Login.gov y exijan verificación de identidad. Por ahora, no tiene que cargar una foto suya ni tomarse una selfi para verificar su identidad. Sin embargo, es posible que tenga que tomar una foto de su identificación.
 
-Utilice esta sección de ayuda para conocer el proceso y los requisitos relacionados con la verificación de la identidad.
+Use esta sección de ayuda para conocer el proceso y los requisitos relacionados con la verificación de la identidad.
 
-## Temas más comunes de solución de problemas
+## Temas comunes para la solución de problemas
 
 {: .help-question-list}
 * [Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)

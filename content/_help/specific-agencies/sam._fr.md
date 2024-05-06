@@ -1,5 +1,5 @@
 ---
-title: Système de saisie des prix (SAM) Aperçu du compte
+title: SAM (System for Award Management)
 category: specific-agencies
 permalink: /fr/help/specific-agencies/sam/
 order: 2
@@ -19,23 +19,24 @@ redirect_from:
   - /fr/help/sam/reset-or-relink-my-logingov-account-for-sam/
 ---
 
-Login.gov est réservé à l'identification sécurisée. Votre compte Login.gov n’affecte pas et ne contient aucune information sur votre compte, votre candidature, votre statut, votre adhésion ou votre éligibilité au Système de capture des prix (SAM).
+Login.gov est réservé à l'identification sécurisée. Votre compte Login.gov ne contient aucune information sur votre compte SAM, votre adhésion ou demande d’adhésion à ce système, votre statut ou votre admissibilité par rapport à celui-ci et n’a aucune incidence sur ces différents points.
 
-Veuillez ne pas envoyer de données sensibles de Login.gov vous concernant ou concernant l’application SAM.
+Veuillez ne pas envoyer à Login.gov de données sensibles sur vous-même ou concernant une demande SAM.
 
-Login.gov peut uniquement répondre aux questions concernant le processus de connexion et la création d’un compte Login.gov.
+Login.gov ne peut répondre qu'aux questions concernant la création d'un compte Login.gov et le processus de connexion.
 
-Veuillez contacter directement [SAM.gov](https://sam.gov/) si vous avez des questions à ce sujet :
-* Enregistrement de la demande, éligibilité, statut ou changements
-* Fixation des rendez-vous
-* Statut d’enregistrement de l’entité
+Veuillez contacter directement [SAM.gov](https://sam.gov/) si vous avez des questions concernant :
+* L’enregistrement, l’admissibilité, le statut ou les modifications relatifs à une demande
+* La prise d’un rendez-vous
+* Le statut d’enregistrement d’une entité
 * Ou d’autres préoccupations connexes
 
-Pour apporter des modifications à votre profil de compte SAM.gov, vous devez vous connecter à <https://sam.gov>.
+Pour apporter des modifications à votre profil de compte SAM.gov, vous devez vous connecter sur <https://sam.gov>.
 
-Contactez le Federal Service Desk au 866-606-8220 (frais de péage) ou au 334-206-7828 (international) pour obtenir de l’aide, ou soumettez votre demande via le formulaire web à [www.fsd.gov](https://www.fsd.gov/).
+Contactez le Federal Service Desk au 1-866-606-8220 (numéro payant) ou au +1 334-206-7828 (depuis l’étranger) pour obtenir de l’aide, ou envoyez votre demande par le biais du formulaire Web disponible sur [www.fsd.gov](https://www.fsd.gov/).
 
-## Notes importantes pour la création de votre compte Login.gov et l’accès à votre profil SAM :
-* Si vous avez déjà un compte SAM, utilisez le même courriel que celui utilisé pour votre compte SAM pour créer votre compte Login.gov     * Si vous utilisez le même courriel pour créer votre profil Login.gov, vous conserverez tous vos dossiers, demandes d’accès aux données et recherches sauvegardées.
-    * Si vous utilisez une nouvelle adresse électronique, rien n’arrivera à votre profil SAM.gov, mais vous ne pourrez pas accéder aux informations de votre profil SAM.
-* Si vous avez déjà un compte Login.gov et que vous souhaitez ajouter votre courriel SAM, vous pouvez le faire sur la page « Mon compte » de Login.gov. Sélectionnez le bouton d’identification sur la page d’accueil de Login.gov pour accéder à cette page de compte.
+## Notes importantes concernant la création de votre compte Login.gov et l’accès à votre profil SAM :
+* Si vous avez déjà un compte SAM, utilisez, pour créer votre compte Login.gov, la même adresse e-mail que celle que vous avez utilisée pour votre compte SAM.
+  * Si vous utilisez la même adresse e-mail pour créer votre profil Login.gov, vous conserverez tous vos dossiers, demandes d’accès aux données et recherches sauvegardées.
+  * Si vous utilisez une nouvelle adresse e-mail, cela n’aura pas d’incidence sur votre profil SAM.gov, mais vous ne pourrez pas accéder aux informations de votre profil SAM.
+* Si vous avez déjà un compte Login.gov et souhaitez ajouter votre adresse e-mail pour SAM, vous pouvez le faire sur la page « Mon compte » de Login.gov. Sélectionnez le bouton de connexion sur la page d’accueil de Login.gov pour accéder à cette page de compte.

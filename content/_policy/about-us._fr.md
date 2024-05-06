@@ -1,28 +1,28 @@
 ---
 sidenav: about_us
-title: À propos de nous
+title: Qui sommes nous
 permalink: /fr/about-us/
 ---
 ## Notre mission
 
-Le seul compte public du gouvernement.
+Le seul compte du public pour l’accès aux autorités.
 
-Login.gov fournit un moyen simple, sûr et anonyme pour le public d’accéder aux sites web du gouvernement. Avec un seul compte et un seul mot de passe, les utilisateurs peuvent se connecter en toute sécurité aux sites web gouvernementaux concernés et vérifier leur identité en toute sécurité. 
+Login.gov offre au public une manière simple, privée et sécurisée d’accéder aux sites Web des autorités. Avec un seul et même compte et mot de passe, les internautes peuvent se connecter de manière sécurisée aux sites Web gouvernementaux participants et vérifier leur identité de manière sécurisée.
 
-Lorsqu’il s’agit de se connecter à des sites web gouvernementaux, les agences font confiance à Login.gov pour protéger les informations de leurs utilisateurs et le public fait confiance à Login.gov pour rationaliser leur processus de connexion. Grâce à Login.gov, plus besoin de se remémorer plusieurs mots de passe et noms d’utilisateur chaque fois que l’on se connecte aux sites web gouvernementaux impliqués.
+Pour les connexions aux sites Web gouvernementaux, les organismes gouvernementaux font confiance à Login.gov pour aider à protéger les informations de leurs utilisateurs ; le public quant à lui fait confiance à Login.gov pour simplifier le processus de connexion. L’utilisation de Login.gov permet d’éviter d’avoir à se souvenir de plusieurs identifiants et mots de passe à chaque accès aux sites Web gouvernementaux participants.
 
 ## Notre vision
 
-Le public est en mesure d’accéder simplement, en toute sécurité et en tout anonymat aux sites web et applications des gouvernements concernés.
+Le public peut se connecter aux applications et sites Web gouvernementaux participants de manière simple, privée et sécurisée.
 
 ## À propos de Login.gov 
 
-Login.gov était un projet d’innovation du General Services Administration 18F en partenariat avec les Services numériques des États-Unis (USDS). Ce service partagé, rendu possible grâce à une subvention du Trusted Identities Group (Stratégie nationale pour les identités de confiance dans le cyber-espace), est le résultat d’une collaboration entre agences qui ont cherché à développer des moyens sûrs et simples pour que le public puisse accéder aux sites web du gouvernement. ([Source](https://www.nextgov.com/digital-government/2017/01/logingov-moving-ahead/228515/))
+Login.gov était un projet d’innovation 18F de l’Administration des services généraux (GSA), en partenariat avec le Service numérique des États-Unis (USDS). Ce service partagé, rendu possible grâce à une subvention du Groupe des identités fiables (dans le cadre de la Stratégie nationale pour des identités fiables dans le cyberespace), est le fruit d’une collaboration interorganismes ayant cherché à mettre au point des méthodes conviviales sécurisées d’accéder aux sites gouvernementaux par le grand public. ([Source](https://www.nextgov.com/digital-government/2017/01/logingov-moving-ahead/228515/))
 
-Sous l’administration Obama, les agences gouvernementales ont été chargées de trouver des solutions numériques simples, sûres et efficaces. En mai 2016, l’administration a publié une circulaire administrative à l’intention des agences gouvernementales encourageant l’utilisation de services partagés. Cette ordonnance signifiait que davantage d’agences utiliseraient les mêmes outils et technologies pour les services administratifs — tels que la connexion sécurisée (authentification). La technologie partagée permet d’uniformiser les pratiques de sécurité dans toutes les agences et de soulager les utilisateurs en réduisant le nombre de comptes et de mots de passe nécessaires aux utilisateurs pour accéder aux sites web du gouvernement.
+Le gouvernement du président Obama a chargé les organismes gouvernementaux de trouver des solutions numériques conviviales, sécurisées et efficaces. En mai 2016, les pouvoirs publics ont publié un mémorandum exécutif à l’intention des organismes gouvernementaux visant à encourager l’usage de services partagés. L’intention était que davantage d’organismes utilisent les mêmes outils et la même technologie pour les services administratifs, comme la connexion sécurisée (authentification). La technologie partagée permet d’uniformiser les pratiques de sécurité dans l’ensemble des organismes et allège le fardeau placé sur les épaules des utilisateurs en réduisant le nombre de comptes et de mots de passe dont ils ont besoin pour accéder aux sites Web gouvernementaux. 
 
-Login.gov est le résultat de cet appel à l’action.
+Login.gov est le fruit de cet appel à l’action.
 
-L’équipe de Login.gov s’est associée avec les [Services numériques des États-Unis (USDS)](https://www.usds.gov/) et [18F](https://18f.gsa.gov/) pour tirer parti du code déjà en place sur le site web [MyUSCIS](https://my.uscis.gov/) — un site web qui a créé une expérience sécurisée pour les utilisateurs qui avaient besoin de services en lien avec la carte verte. L’équipe a également fait des recherches et appliqué les enseignements tirés des clients et des employés d’autres projets, tels que connect.gov, qui n’ont pas réussi à répondre aux besoins des utilisateurs. Après de nombreuses recherches et collaborations, Login.gov a été lancé en 2017 en tant que service partagé de confiance pour les agences gouvernementales qui ont adhéré aux normes les plus élevées de sécurité, de confidentialité et d’expérience utilisateur.
+L’équipe de Login.gov, en partenariat avec le [Service numérique des États-Unis (USDS)](https://www.usds.gov/) et [18F](https://18f.gsa.gov/), a ainsi utilisé le code déjà en place sur [MyUSCIS](https://my.uscis.gov/) — un site Web qui avait créé une expérience sécurisée pour les utilisateurs nécessitant des services en rapport avec leur carte verte. L’équipe a également fait des recherches et mis à profit des enseignements tirés de clients et d’employés d’autres projets, comme connect.gov, qui n’étaient pas parvenus à satisfaire les besoins de leurs utilisateurs. Après maintes recherches et collaborations, Login.gov a été lancé en 2017 en tant que service partagé fiable pour les organismes gouvernementaux répondant aux normes les plus élevées de sécurité, protection de la vie privée et expérience utilisateur. 
 
-Ce service numérique est rendu possible par le mandat des Federal Cybersecurity Requirements ([6 USC § 1523 — Federal cybersecurity requirements, part (b)(1)(D)](https://uscode.house.gov/view.xhtml?req=6+USC+1523:+Federal+cybersecurity+requirements)).
+Ce service numérique est rendu possible grâce au mandat des Exigences fédérales en matière de cybersécurité  ([6 USC § 1523 — Federal cybersecurity requirements, part (b)(1)(D)](https://uscode.house.gov/view.xhtml?req=6+USC+1523:+Federal+cybersecurity+requirements)).
