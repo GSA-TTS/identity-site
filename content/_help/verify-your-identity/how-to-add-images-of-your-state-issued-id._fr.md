@@ -14,10 +14,10 @@ do_list:
   - Essayez de ne pas bouger votre appareil pendant la prise de photos. Il peut être utile de poser vos bras sur une table pour rester stable.
 url_safari: https://www.apple.com/fr/safari/
 url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds&hl=fr
-url_safari_update_doc: https://support.apple.com/fr-fr/102665
-url_safari_clear_cache_doc: https://support.apple.com/fr-fr/105082
-url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DAndroid&hl=fr&oco=1
-url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&hl=fr&oco=1
+url_safari_update_doc: https://support.apple.com/fr-ca/HT204416
+url_safari_clear_cache_doc: https://support.apple.com/fr-ca/HT201265
+url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=fr-CA
+url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=fr
 ---
 
 {% capture alert_link %}

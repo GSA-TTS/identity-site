@@ -14,10 +14,10 @@ do_list:
   - Trate de mantener el dispositivo fijo mientras toma las fotografías. Para mantener la estabilidad, puede apoyar los brazos en una mesa.
 url_safari: https://www.apple.com/es/safari/
 url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds&hl=es
-url_safari_update_doc: https://support.apple.com/es-us/102665
-url_safari_clear_cache_doc: https://support.apple.com/es-us/105082
-url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DAndroid&hl=es&oco=1
-url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&hl=es&oco=1
+url_safari_update_doc: https://support.apple.com/es-mx/HT204416
+url_safari_clear_cache_doc: https://support.apple.com/es-mx/HT201265
+url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=es
+url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=es-419
 ---
 
 {% capture alert_link %}
