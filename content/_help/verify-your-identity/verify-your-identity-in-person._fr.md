@@ -107,3 +107,4 @@ Nous annulons automatiquement les demandes après 30 jours afin de protéger les
 [Vérifier votre identité en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/)
 
 [Trouver un bureau de poste participant](/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
+
