@@ -1,10 +1,10 @@
 ---
-layout: partners/impact-story-dol
+layout: partners/impact-story
 permalink: /partners/impact-stories/dol/
 agency:  U.S. Department of Labor (DOL)
 summary: >-
     Login.gov partnered with the Department of Labor (DOL) to offer all U.S. states the opportunity to use Login.gov to help improve access, decrease fraud, and increase security in the delivery of unemployment insurance benefits.
-logo: assets/img/partners/logos/dol-v2.svg
+logo: assets/img/partners/logos/dol.svg
 title: >-
     Impact story: DOL
 subtitle: >-
@@ -21,7 +21,7 @@ challenge: >-
     For many families, unemployment insurance (UI) can provide critical financial support, helping to pay for groceries or utilities. The COVID-19 pandemic brought this into sharp focus, especially the need for unemployment benefit recipients to receive their benefits in a timely, accessible way. At that time, many state-level UI offices were closed, presenting an additional barrier to claimants.
 
 
-    As states increased the use of online access to file for UI benefits, the delivery of benefits exposed vulnerability of online filing systems to identify fraud. States needed tools to secure equitable access to benefits while providing sufficient security to verify identity.
+    As states increased the use of online access to file for UI benefits, the delivery of benefits exposed the vulnerability of online filing systems to identify fraud. States needed tools to secure equitable access to benefits while providing sufficient security to verify identity.
 
 solution: >-
     ### The solution
@@ -53,7 +53,6 @@ impact: >-
 
 
 callout_tips: >-
-
     * Login.gov has verified over 20,000 unemployment insurance applicants from Arkansas since March 2022
 
     * Thousands of Hawaii residents have been able to receive unemployment benefits to help them recover from the tragic wildfires in summer 2023
