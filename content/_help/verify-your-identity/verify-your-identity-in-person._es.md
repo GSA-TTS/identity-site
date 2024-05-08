@@ -6,16 +6,15 @@ children:
 permalink: /es/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-Login.gov te brinda la posibilidad de verificar tu identidad de manera presencial en una oficina del servicio postal de los Estados Unidos (USPS) cerca de tu ubicación, como una alternativa a la verificación en línea de tu identidad.
+Login.gov ofrece la verificación de identidad en persona en una oficina cercana del Servicio Postal de los Estados Unidos (USPS) como una alternativa a la [verificación de identidad en línea](/es/help/verify-your-identity/how-to-verify-your-identity/).
 
-Si has tenido dificultades para cargar correctamente tu licencia de conducir o documento de identificación estatal en Login.gov, también puedes tener la opción de verificar tu identidad de manera presencial.
-
+También puede tener la opción de verificar su identidad en persona si ya intentó la verificación en línea, pero no logró cargar su licencia de conducir o tarjeta de identificación estatal en Login.gov.
 
 ## Inicie este proceso en Login.gov antes de acudir a la oficina de correos&nbsp;
 
-Antes de comenzar el proceso de verificación de identidad, tendrás que elegir entre verificar en línea o de manera presencial. Si optas por la presencial, selecciona la opción "Verificar la identidad en una oficina postal".
+Antes de comenzar el proceso de verificación de identidad, elegirá entre hacer la verificación en línea o en persona. Si desea hacerla en persona, seleccione ‘Verifique su identidad en una oficina de correos’.
 
-Ten en cuenta que también tienes la opción de verificar de manera presencial si intentas hacerlo en línea pero no puedes.
+Recuerde que también puede tener la opción de hacer la verificación en persona si intenta hacerla en línea, pero no lo logra.
 
 Tenga preparada la siguiente información para ingresarla en Login.gov:
 
@@ -32,9 +31,9 @@ Si no puede completar alguno de estos pasos, póngase en contacto con el centro 
 
 Una vez que haya completado los pasos en Login.gov, le enviaremos por correo electrónico un código de barras y una fecha límite para ir a la oficina de correos. Puede imprimir el correo electrónico o mostrarlo en su dispositivo móvil. Si va a la oficina de correos después de la fecha límite, su información ya no estará guardada y tendrá que iniciar de nuevo el proceso.
 
-### Tu licencia de conducir o tu tarjeta de identificación estatal
+### Su licencia de conducir o tarjeta de identificación estatal
 
-Lleva contigo el mismo documento de identidad que utilizaste para ingresar tu información en Login.gov. Su identificación no debe estar vencida. En este momento, solo se aceptan las siguientes identificaciones emitidas por el estado: 
+Lleve la misma identificación que usó para ingresar su información en Login.gov. Su identificación no debe estar vencida. En este momento, solo se aceptan las siguientes identificaciones emitidas por el estado: 
 
 * Licencia de conducir de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico)
 * Tarjeta de identificación emitida por el estado que no sea una licencia de conducir
@@ -62,7 +61,7 @@ Una vez que haya recibido un código de barras en línea, podrá acudir a cualqu
 
 ### Le enviaremos un correo electrónico con los siguientes pasos
 
-Recibirás un correo electrónico para informarte si tu verificación de identidad se realizó correctamente o no dentro de las 24 horas posteriores a tu visita a la oficina postal.
+En las 24 horas siguientes a su visita a la oficina de correos, recibirá un correo electrónico para informarle si se logró o no su verificación de identidad.
 
 Si no se logró la verificación de su identidad, usted puede:
 
@@ -105,3 +104,5 @@ Cancelamos automáticamente las solicitudes al cabo de 30 días para proteger lo
 [Solucionar problemas al subir el documento de identidad emitido por el estado](/es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
 
 [Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
+
+[Encuentra una oficina de correos participante](/es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
