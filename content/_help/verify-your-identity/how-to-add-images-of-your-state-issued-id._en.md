@@ -134,8 +134,8 @@ You may be asked to take photos of your driver’s license or state ID card __an
 ### Device requirements
 
 * You must use a phone or tablet with a camera to take pictures of both your face and your state ID using Login.gov’s camera tool. You cannot complete this step on a desktop device.
-   * iOS phones or tablets should use the [Safari web browser]({{ page.url_safari }})
-   * Android phones or tablets should use the [Google Chrome web browser]({{ page.url_chrome }})
+   * iOS phones or tablets should use the [Safari web browser.]({{ page.url_safari }})
+   * Android phones or tablets should use the [Google Chrome web browser.]({{ page.url_chrome }})
 * If you don’t have a phone or tablet with a camera, you may be able to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) at a United States Postal Service location near you.
 
 ### Prepare for your photo
@@ -155,9 +155,9 @@ You may be asked to take photos of your driver’s license or state ID card __an
 ## Troubleshooting ideas to try
 
 ### Check your device and browser combination
-* iOS phones or tablets should use the [Safari web browser]({{ page.url_safari }})
-* Android phones or tablets should use the [Google Chrome web browser]({{ page.url_chrome }})
+* iOS phones or tablets should use the [Safari web browser.]({{ page.url_safari }})
+* Android phones or tablets should use the [Google Chrome web browser.]({{ page.url_chrome }})
 
 ### Update your web browser, or clear your cache and cookies
-* If you’re using Safari, you can try [updating the browser]({{ page.url_safari_update_doc }}), or [clear the cache and cookies]({{ page.url_safari_clear_cache_doc }})
-* If you’re using Google Chrome, you can try [updating the browser]({{ page.url_chrome_update_doc }}), or [clear the cache and cookies]({{ page.url_chrome_clear_cache_doc }})
+* If you’re using Safari, you can try [updating the browser]({{ page.url_safari_update_doc }}), or [clear the cache and cookies.]({{ page.url_safari_clear_cache_doc }})
+* If you’re using Google Chrome, you can try [updating the browser]({{ page.url_chrome_update_doc }}), or [clear the cache and cookies.]({{ page.url_chrome_clear_cache_doc }})

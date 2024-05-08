@@ -134,8 +134,8 @@ Debe usar su teléfono para tomar las fotografías de su cara y de su identifica
 ### Requisitos del dispositivo
 
 * Debe usar un teléfono o una tableta con cámara para tomar las fotografías de su cara y de su identificación estatal con la herramienta de la cámara. No puede efectuar este paso en un dispositivo de escritorio.
-    * Los teléfonos o las tabletas iOS deben usar el [navegador web Safari]({{ page.url_safari }})
-    * Los teléfonos o las tabletas Android deben usar el [navegador web Google Chrome]({{ page.url_chrome }})
+    * Los teléfonos o las tabletas iOS deben usar el [navegador web Safari.]({{ page.url_safari }})
+    * Los teléfonos o las tabletas Android deben usar el [navegador web Google Chrome.]({{ page.url_chrome }})
 * Si no tiene un teléfono con cámara, puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) en una oficina cercana del Servicio Postal de los Estados Unidos.
 
 ### Preparación para tomarse su foto
@@ -155,9 +155,9 @@ Debe usar su teléfono para tomar las fotografías de su cara y de su identifica
 ## Ideas para solucionar problemas
 
 ### Verifique su combinación de dispositivo y navegador
-* Los teléfonos o las tabletas iOS deben usar el [navegador web Safari]({{ page.url_safari }})
-* Los teléfonos o las tabletas Android deben usar el [navegador web Google Chrome]({{ page.url_chrome }})
+* Los teléfonos o las tabletas iOS deben usar el [navegador web Safari.]({{ page.url_safari }})
+* Los teléfonos o las tabletas Android deben usar el [navegador web Google Chrome.]({{ page.url_chrome }})
 
 ### Actualice su navegador web o borre la memoria caché y las cookies de este
-* Si usa el navegador Safari, intente [actualizarlo]({{ page.url_safari_update_doc }} ) o [borrar la memoria caché y las cookies]({{ page.url_safari_clear_cache_doc }} ) de este.
-* Si usa el navegador Google Chrome, intente [actualizarlo]({{ page.url_chrome_update_doc }}) o [borrar la memoria caché y las cookies]({{ page.url_chrome_clear_cache_doc }}) de este.
+* Si usa el navegador Safari, intente [actualizarlo]({{ page.url_safari_update_doc }} ) o [borrar la memoria caché y las cookies.]({{ page.url_safari_clear_cache_doc }} ) de este.
+* Si usa el navegador Google Chrome, intente [actualizarlo]({{ page.url_chrome_update_doc }}) o [borrar la memoria caché y las cookies.]({{ page.url_chrome_clear_cache_doc }}) de este.
