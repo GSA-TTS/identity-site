@@ -5,6 +5,7 @@ module Kramdown
         def new_block_el(type, *args)
           el = super(type, *args)
           add_css_class!(el, 'usa-list') if type == :ul
+          apply_custom_classes!(el) if type == :ul
           el
         end
 
@@ -21,6 +22,11 @@ module Kramdown
 
         def add_css_class!(el, css_class)
           el.attr['class'] = [*el.attr['class'], css_class].join(' ')
+        end
+
+        def apply_custom_classes!(el)
+          custom_classes = @options[:custom_classes]
+          el.attr['class'] = [*el.attr['class'], *custom_classes].join(' ') if custom_classes
         end
       end)
     end
