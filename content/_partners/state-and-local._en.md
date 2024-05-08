@@ -4,16 +4,9 @@ permalink: /partners/state-and-local/
 title: >-
   State, local, and territories
 body: >-
-  Crises, like the COVID-19 global pandemic and ongoing natural disasters, make it more urgent than ever for the public to gain fast and easy access to their benefits and services. The General Services Administration’s (GSA) Technology Transformation Services (TTS) realizes the burden this has put on state and local governments. Our team, with deep expertise in security, product, engineering, and user experience, is seeking state, local, and territory government partners that want to take advantage of all that Login.gov has to offer.
+  Crises, like the COVID-19 global pandemic and ongoing natural disasters, make it more urgent than ever for the public to gain fast and easy access to their benefits and services. The General Services Administration’s (GSA) Technology Transformation Services (TTS) realizes the burden this has put on state and local governments. Our team, with deep expertise in security, product, engineering, and user experience, is seeking state, local, and territory government partners who are supporting the implementation of a federal program at the state or local level. If you're unsure whether your project is eligible to use Login.gov, we encourage you to contact our partnerships team at partners@login.gov.
 disclaimer: >-
-  Our team, with deep expertise in security, product, engineering, and user experience, is seeking state and local government partners that want to take advantage of all that Login.gov has to offer for their federally funded programs. **TTS must limit engagements with state and local entities to work that is linked to federal programs in which TTS is uniquely positioned to provide assistance.** As such, your program must be federally funded or linked to a federal program such as the United States Digital Services (USDS). 
-ssa_quote: |-
-  > “The SSA UXG team appreciates the willingness of the Login.gov team to listen to our goals, concerns, and questions, then work with us to identify a path forward that will benefit the customers (end users) of SSA and other federal agencies. The team’s flexibility and willingness to hear our suggestions is very much appreciated. We enjoy brainstorming together and sharing research findings as we try to help each other move forward.”
-  {:class="margin-0"}
-
-  Elizabeth Hanst
-  Former Technology Lead User Experience Specialist
-  Social Security Administration
+  Our team, with deep expertise in security, product, engineering, and user experience, is seeking state and local government partners that want to take advantage of all that Login.gov has to offer for their federally funded programs. **TTS must limit engagements with state and local entities to work that is linked to federal programs in which TTS is uniquely positioned to provide assistance.** As such, your program must be federally funded or linked to a federal program such as the United States Digital Services (USDS).
 partnership_steps_title: >-
   ## Steps to partnership
 partnership_steps_header1: >-
