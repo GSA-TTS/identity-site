@@ -53,6 +53,8 @@ impact: >-
 
 
 callout_tips: >-
+    {: .margin-top-0}
+
     * Login.gov has verified over 20,000 unemployment insurance applicants from Arkansas since March 2022
 
     * Thousands of Hawaii residents have been able to receive unemployment benefits to help them recover from the tragic wildfires in summer 2023
