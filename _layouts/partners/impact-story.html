@@ -21,7 +21,7 @@ layout: base
                     {% if page.callout_tips %}                    
                         <div class="grid-row grid-gap-6">
                             <div class="tablet:grid-col-12 partners-subtitle partners-blue-box">
-                              <div>{{ page.callout_tips | markdownify }}</div>
+                              {{ page.callout_tips | markdownify }}
                             </div>
                         </div>
                     {% endif %}
