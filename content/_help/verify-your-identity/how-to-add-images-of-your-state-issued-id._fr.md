@@ -117,16 +117,16 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
 
 ### Comment téléverser des photos si vous n'avez pas accès à un téléphone ou à une tablette avec appareil photo
 
-Si vous n'avez pas accès à un téléphone équipé d'un appareil photo, vous avez peut-être la possibilité de téléverser une photo scannée de votre permis de conduire ou carte d’identité d’un État.
+Si vous n’avez pas accès à un téléphone équipé d'un appareil photo, vous avez peut-être la possibilité de téléverser une photo scannée de votre permis de conduire ou carte d’identité d’un État.
 
-* Suivez les [mêmes conseils pour prendre des photos avec un téléphone](#à-laide-de-votre-téléphone-ou-tablette).
+* Suivez les [mêmes conseils pour prendre des photos avec un téléphone.](#à-laide-de-votre-téléphone-ou-tablette)
 * Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser de fichier PDF. Regardez le nom de votre fichier : il devrait contenir une abréviation après le titre (ex : PhotoJeanDupont_recto.jpg).
 * Veillez à ce que vos images soient en haute résolution (environ 2 025 x 1 275 pixels).
 * Téléversez uniquement des photos en couleur.
 
 ---
 
-## Comment ajouter une photo de votre visage pour permettre la vérification de votre identité.
+## Comment ajouter une photo de votre visage pour permettre la vérification de votre identité
 
 Il est possible qu’on vous demande de prendre des photos de votre permis de conduire ou carte d’identité d’un État, ainsi qu’une photo de votre visage. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité.
 

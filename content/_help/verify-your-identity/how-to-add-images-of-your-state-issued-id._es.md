@@ -42,7 +42,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 
 Debe tomar una fotografía de su licencia de conducir o tarjeta de identificación estatal aceptadas, e ingresar su información personal para verificar su identidad en línea.
 
-Es posible que necesite tomarse una fotografía con un teléfono para verificar su identidad en línea. Esto se hace para revisar que usted sea la persona que figura en su identificación. Si no tiene un teléfono con cámara, puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/).
+Es posible que necesite tomarse una fotografía con un teléfono para verificar su identidad en línea. Esto se hace para revisar que usted sea la persona que figura en su identificación. Si no tiene un teléfono con cámara, puede [verificar su identidad en persona.](/es/help/verify-your-identity/verify-your-identity-in-person/)
 
 Este artículo describe las distintas maneras de enviar imágenes para verificar su identidad.
 
@@ -78,8 +78,8 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
       image-alt-text='La identificación está sobre un fondo blanco.'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
-      do_dont_text="NO:"
-      text='use un fondo de color blanco.'
+      do_dont_text="NO"
+      text='use un fondo de color blanco'
     %}
   </div>
   <div class="tablet:grid-col">
@@ -88,8 +88,8 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
       image-alt-text='El documento de identidad se coloca sobre un fondo texturizado.'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
-      do_dont_text="NO:"
-      text='use un fondo con textura o con dibujos.'
+      do_dont_text="NO"
+      text='use un fondo con textura o con dibujos'
     %}
   </div>
 </div>
@@ -101,7 +101,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
       do_dont_text="NO"
-      text='recorte los bordes de su identificación.'
+      text='recorte los bordes de su identificación'
     %}
   </div>
   <div class="tablet:grid-col">
@@ -110,7 +110,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
       image-alt-text='La identificación tiene reflejos y proyecta sombras.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
       do_dont_text="EVITE"
-      text='que se vean reflejos y sombras.'
+      text='que se vean reflejos y sombras'
     %}
   </div>
 </div>
@@ -118,7 +118,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
 ### Cómo cargar imágenes si no tiene acceso a un teléfono o tableta con cámara
 
 Si no tiene acceso a un teléfono con cámara, puede cargar una fotografía escaneada de su licencia de conducir o tarjeta de identificación estatal.
-* Siga los mismos [consejos para tomar fotografías con un teléfono](#si-usa-su-teléfono-o-tableta).
+* Siga los mismos [consejos para tomar fotografías con un teléfono.](#si-usa-su-teléfono-o-tableta)
 * Guarde cada archivo como JPG o PNG. No puede utilizar un archivo PDF. El nombre de su archivo debe tener una abreviatura después del título (por ejemplo: JohnDoeID_Front.jpg).
 * Revise que sus imágenes sean de alta resolución (lo ideal es alrededor de 2025 x 1275 píxeles).
 * Cargue solo imágenes en color.
