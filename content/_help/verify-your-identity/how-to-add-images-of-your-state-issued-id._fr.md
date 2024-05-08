@@ -135,8 +135,8 @@ Vous devez utiliser votre téléphone pour prendre des photos de votre visage et
 ### Type d’appareil requis
 
 * Vous devez utiliser un téléphone ou une tablette pour prendre des photos de votre visage et de votre pièce d’identité d’État à l’aide de l’outil de photographie de Login.gov. Il n’est pas possible d’effectuer cette étape sur un ordinateur.
-    * Les téléphones ou tablettes équipés d’iOS doivent utiliser le [navigateur Safari]({{ page.url_safari }})
-    * Les téléphones ou tablettes équipés d’Android doivent utiliser le [navigateur Google Chrome]({{ page.url_chrome }})
+    * Les téléphones ou tablettes équipés d’iOS doivent utiliser le [navigateur Safari.]({{ page.url_safari }})
+    * Les téléphones ou tablettes équipés d’Android doivent utiliser le [navigateur Google Chrome.]({{ page.url_chrome }})
 * Si vous n’en avez pas, vous pouvez peut-être [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau du service des postes des États-Unis près de chez vous.
 
 ### Avant de vous prendre en photo
@@ -156,9 +156,9 @@ Vous devez utiliser votre téléphone pour prendre des photos de votre visage et
 ## Suggestions de dépannage
 
 ### Vérifier l’association entre votre appareil et votre navigateur
-* Les téléphones ou tablettes équipés d’iOS doivent utiliser le [navigateur Safari]({{ page.url_safari }})
-* Les téléphones ou tablettes équipés d’Android doivent utiliser le [navigateur Google Chrome]({{ page.url_chrome }})
+* Les téléphones ou tablettes équipés d’iOS doivent utiliser le [navigateur Safari.]({{ page.url_safari }})
+* Les téléphones ou tablettes équipés d’Android doivent utiliser le [navigateur Google Chrome.]({{ page.url_chrome }})
 
 ### Actualiser votre navigateur ou vider le cache et effacer les cookies
-* Si vous utilisez Safari, vous pouvez essayer [d’actualiser le navigateur]({{ page.url_safari_update_doc }}) ou [de vider le cache et d’effacer les cookies]({{ page.url_safari_clear_cache_doc }})
-* Si vous utilisez Google Chrome, vous pouvez essayer [d’actualiser le navigateur]({{ page.url_chrome_update_doc }}) ou [de vider le cache et d’effacer les cookies]({{ page.url_chrome_clear_cache_doc }})
+* Si vous utilisez Safari, vous pouvez essayer [d’actualiser le navigateur]({{ page.url_safari_update_doc }}) ou [de vider le cache et d’effacer les cookies.]({{ page.url_safari_clear_cache_doc }})
+* Si vous utilisez Google Chrome, vous pouvez essayer [d’actualiser le navigateur]({{ page.url_chrome_update_doc }}) ou [de vider le cache et d’effacer les cookies.]({{ page.url_chrome_clear_cache_doc }})
