@@ -11,11 +11,11 @@ do_list:
   - 请查看身份证件上的条形码是否无损并干净。
   - 拍照时请把手机拿稳。把胳膊支在桌面可能有助于自己的稳定。
 url_safari: https://www.apple.com/safari/
-url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds
-url_safari_update_doc: https://support.apple.com/102665
-url_safari_clear_cache_doc: https://support.apple.com/105082
-url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DAndroid&oco=1
-url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&oco=1
+url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds&hl=zh-cn
+url_safari_update_doc: https://support.apple.com/zh-cn/102665
+url_safari_clear_cache_doc: https://support.apple.com/zh-cn/105082
+url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=zh-Hans
+url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&oco=1&hl=zh-Hans
 ---
 
 {% capture alert_link %}
@@ -126,12 +126,10 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 
 你也许会被要求拍摄驾照或州身份证件的照片以及你面部照片。这是为了查看你是身份证件上的人。
 
-你必须使用手机和 Login.gov 的相机工具来拍摄自己面部和州身份证件的照片。
-
 ### 设备要求
 * 你必须使用自带相机的手机或平板电脑以及 Login.gov 的相机工具来拍摄自己面部和州身份证件的照片。你无法在桌面电脑上完成这一步。
-  * iOS 手机或平板电脑应当使用[Safari浏览器]({{ page.url_safari }})
-  * Android手机或平板电脑应当使用[Google Chrome浏览器]({{ page.url_chrome }})
+  * iOS 手机或平板电脑应当使用[Safari浏览器。]({{ page.url_safari }})
+  * Android手机或平板电脑应当使用[Google Chrome浏览器。]({{ page.url_chrome }})
 * 如果你没有带相机的手机，可能能去附近的美国邮局去[亲身验证身份。](/zh/help/verify-your-identity/verify-your-identity-in-person/)
 
 ### 准备拍照
@@ -149,10 +147,10 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 ## 尝试使用以下方法排查问题
 
 ### 检查你设备和浏览器的组合
-* iOS 手机或平板电脑应当使用[Safari浏览器]({{ page.url_safari }})
-* Android手机或平板电脑应当使用[Google Chrome浏览器]({{ page.url_chrome }})
+* iOS 手机或平板电脑应当使用[Safari浏览器。]({{ page.url_safari }})
+* Android手机或平板电脑应当使用[Google Chrome浏览器。]({{ page.url_chrome }})
 
 ### 更新你的浏览器，或者清除缓存以及魔饼（cookie)
-* 如果你在使用Safari，可以尝试[更新浏览器]({{ page.url_safari_update_doc }})，或者[清除缓存和魔饼]({{ page.url_safari_clear_cache_doc }})
-* 如果你在使用Google Chrome，可以尝试[更新浏览器]({{ page.url_chrome_update_doc }})，或者[清除缓存和魔饼]({{ page.url_chrome_clear_cache_doc }})
+* 如果你在使用Safari，可以尝试[更新浏览器]({{ page.url_safari_update_doc }})，或者[清除缓存和魔饼。]({{ page.url_safari_clear_cache_doc }})
+* 如果你在使用Google Chrome，可以尝试[更新浏览器]({{ page.url_chrome_update_doc }})，或者[清除缓存和魔饼。]({{ page.url_chrome_clear_cache_doc }})
 
