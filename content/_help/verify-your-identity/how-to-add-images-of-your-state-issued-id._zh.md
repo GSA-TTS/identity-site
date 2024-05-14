@@ -10,7 +10,7 @@ do_list:
   - 请在一个光线间接照射的明亮地方拍照。
   - 请查看身份证件上的条形码是否无损并干净。
   - 拍照时请把手机拿稳。把胳膊支在桌面可能有助于自己的稳定。
-url_safari: https://www.apple.com/safari/
+url_safari: https://www.apple.com/cn/safari/
 url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds&hl=zh-cn
 url_safari_update_doc: https://support.apple.com/zh-cn/102665
 url_safari_clear_cache_doc: https://support.apple.com/zh-cn/105082
