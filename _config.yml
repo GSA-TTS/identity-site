@@ -122,6 +122,7 @@ include:
   - docs/identity-verification-report.docx
   - docs/identity-verification-report.pdf
   - docs/login-gov-roadmap-november-2023.pdf
+  - docs/login-gov-roadmap-may-2024.pdf
 
 exclude:
   - babel.config.json
