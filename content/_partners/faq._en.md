@@ -40,12 +40,12 @@ general_accordion:
         id: a-2
         title: Who has Login.gov partnered with?
         content: >-
-            Login.gov has over 30 agency partners. Our product is integrated with over 300 live applications and services including 12 Cabinet level agencies such as the Department of Defense, Department of Homeland Security, and the Department of Energy. 
+            Login.gov has over 50 partners. Our product is integrated with over 450 live applications and services including 12 Cabinet-level agencies. 
     -
         id: a-3
         title: How many people have signed up to use Login.gov?
         content: >-
-            Over 60 million people have signed up to use Login.gov to date (Q3 of FY2022), with over 135 million sign-ins annually.
+            As of December 31, 2023, over 111 million people have signed up to use Login.gov to date, with over 324 million sign-ins in 2023.
     -
         id: a-4
         title: Is Login.gov a federal agency?
@@ -83,9 +83,9 @@ logistics_accordion:
         id: b-4
         title: Can Login.gov authenticate or verify the identity of non-U.S. citizens or non-U.S. immigrants (not a U.S. citizen, U.S. national, lawful permanent resident, or traveling to the United States on an immigrant visa)?
         content: >-
-            Non-U.S. citizens and non-U.S. immigrants can authenticate with Login.gov, though select features (e.g., SMS / voice OTP for MFA) may be restricted in certain countries. Check our [International phone number support](/help/manage-your-account/international-phone-support/){:class="external-link"} for a complete list that Login.gov supports for authenticating end-users.
+            Non-U.S. citizens and non-U.S. immigrants can authenticate with Login.gov, though select features (e.g., SMS / voice OTC for MFA) may be restricted in certain countries. Check our [International phone number support](/help/manage-your-account/international-phone-support/){:class="external-link"} for a complete list that Login.gov supports for authenticating end-users.
             
-            <p>Non-U.S. citizens and non-U.S. immigrants can verify their identity (i.e. “proof”) with Login.gov as long as they have a valid U.S. state-issued ID, Social Security number (SSN), and U.S. address.</p>
+            <p>Non-U.S. citizens and non-U.S. immigrants can verify their identity (i.e., “proof”) with Login.gov as long as they have a valid U.S. state-issued ID, Social Security number (SSN), and U.S. address.</p>
     -
         id: b-6
         title: What forms of identification can Login.gov accept for identity proofing?
@@ -103,7 +103,7 @@ development_accordion:
         id: c-1
         title: Can we have a sandbox?
         content: >-
-            Login.gov provides an open sandbox environment to create and test integrations between Login.gov and your applications. In the sandbox environment, we provide a Dashboard where you can manage your test applications. <a href="https://developers.login.gov/testing/#how-to-get-started" class="external-link">Visit the Developer guide to get started with our sandbox</a>.
+            Login.gov provides an open sandbox environment to create and test integrations between Login.gov and your applications. In the sandbox environment, we provide a Dashboard where you can manage your test applications. <a href="https://developers.login.gov/testing/#getting-access-to-the-logingov-sandbox" class="external-link">Visit the Developer guide to get started with our sandbox</a>.
     -
         id: c-2
         title: What counts as an authentication?
@@ -113,7 +113,7 @@ development_accordion:
         id: c-3
         title: How do we get our application to production?
         content: >-
-            <a href="https://developers.login.gov/production/" class="external-link">Check Production deployment for more details</a>. We deploy changes to our production configuration on Tuesday and Thursday by the close of the business day. If regular deployment is scheduled for a holiday then it will be completed on at alternate day. 
+            <a href="https://developers.login.gov/production/" class="external-link">Check Production deployment for more details</a>. We deploy changes to our production configuration on Tuesday and Thursday by the close of the business day. If regular deployment is scheduled for a holiday then it will be completed on an alternate day. 
     -
         id: c-4
         title: What do you support-SAML vs. OAuth vs. OpenID?
@@ -123,14 +123,14 @@ development_accordion:
 
             For more info see:
 
-            - <a href="https://developers.login.gov/saml/" class="external-link">SAML developer guide</a>
+            - <a href="https://developers.login.gov/saml/getting-started/" class="external-link">SAML developer guide</a>
 
-            - <a href="https://developers.login.gov/oidc/getting-started" class="external-link">OpenID Connect developer guide</a>
+            - <a href="https://developers.login.gov/oidc/getting-started/" class="external-link">OpenID Connect developer guide</a>
     -
         id: c-5
         title: Do we need an approved IAA before we can launch our integration with Login.gov?
         content: >-
-            In order to launch your integration with Login.gov, your agency must first complete an IAA. You can test your application during the IAA process. Once testing is complete and the IAA has been executed, Login.gov aims to launch your integration within two weeks. We recommend a grace period between deployment and implementation on your site. [Learn more about our IAA process](/partners/get-started/#iaa-anchor){:class="usa-nav_link caret"}
+            In order to launch your integration with Login.gov, your agency must first complete an IAA. You can test your application during the IAA process. Once testing is complete and the IAA has been executed, Login.gov aims to launch your integration within two weeks. We recommend a grace period between deployment of your Login.gov configuration and implementation on your site. [Learn more about our IAA process](/partners/get-started/#iaa-anchor){:class="usa-nav_link caret"}
     -
         id: c-6
         title: Do you integrate with Commercial Off-The-Shelf (COTS) solutions?
