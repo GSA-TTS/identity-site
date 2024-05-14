@@ -66,8 +66,6 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
   icon_shape='check_circle'
 %}
 
-### 给身份证件拍照常见问题
-
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
     {%
