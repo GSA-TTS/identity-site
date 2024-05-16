@@ -18,9 +18,11 @@ lint-assets:
 	npm run optimize-assets > /dev/null
 	git diff --quiet assets/img || (echo "Error: Optimize SVG images using 'npm run optimize-assets'"; exit 1)
 
-lint-yaml:
+lint-yaml: normalize-yaml
+	(! git diff --name-only | grep ".*\.yml$$") || (echo "Error: Run 'make normalize-yaml' to normalize YAML"; exit 1)
+
+normalize-yaml: # Normalizes YAML files (alphabetizes keys, fixes line length, smart quotes)
 	npm run normalize-yaml
-	(! git diff --name-only | grep ".*\.yml$$") || (echo "Error: Run 'make normalize_yaml' to normalize YAML"; exit 1)
 
 lint-css:
 	npm run lint:css
