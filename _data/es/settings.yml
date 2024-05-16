@@ -217,7 +217,7 @@ global:
     en: English
     es: Español
     fr: Français
-    zh: Chinese
+    zh: '中文 (简体)'
 help_page:
   categories:
     - description: Cree su cuenta. Conozca las opciones de autenticación y más

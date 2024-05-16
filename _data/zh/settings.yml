@@ -203,7 +203,7 @@ global:
     en: English
     es: Español
     fr: Français
-    zh: Chinese
+    zh: '中文 (简体)'
 help_page:
   categories:
     - description: Create your account. Learn about authentication options and more
