@@ -15,7 +15,7 @@ N'oubliez pas :
 
 - Si vous réinitialisez votre mot de passe sans votre clé personnelle, vous devrez à nouveau vérifier votre identité.
 - Les clés personnelles ne peuvent être utilisées qu'une seule fois. Si vous avez déjà utilisé une clé personnelle pour réinitialiser votre mot de passe, vous disposez d'une nouvelle clé personnelle.
-- Vous pouvez obtenir une nouvelle clé personnelle dans la page de votre compte.
+- Vous pouvez obtenir une nouvelle clé personnelle sur la page de votre compte.
 
 Vous obtenez votre clé personnelle lorsque vous vérifiez votre identité. Sauvegardez et conservez votre clé personnelle dans un endroit sûr. Vous pouvez la copier, la télécharger ou l'imprimer.
 
