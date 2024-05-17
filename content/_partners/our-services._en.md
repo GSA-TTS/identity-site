@@ -1,6 +1,8 @@
 ---
 layout: partners/our-services
 permalink: /partners/our-services/
+redirect_from:
+ - /docs/login-gov-roadmap-november-2023.pdf/
 title: >-
     Our services
 subtitle: >-
