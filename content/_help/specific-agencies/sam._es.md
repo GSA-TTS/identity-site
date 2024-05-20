@@ -26,10 +26,16 @@ No envíe a Login.gov datos confidenciales acerca de usted ni de la aplicación 
 Login.gov solo puede responder las preguntas sobre el proceso de inicio de sesión y la creación de una cuenta de Login.gov.
 
 Contacte directamente con [SAM.gov](https://sam.gov/) si tiene pregunta relacionada con:
-* Registro, cumplimiento de requisitos, estado o cambios de solicitudes
-* Programación de citas
-* Estado del registro de entidades
-* Otras consideraciones afines
+* [¿Cómo puedo ver mi registro de identificador único de entidad (UEID) o registro de entidad?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=27a95ddfdb73b990a8cb4a39139619e9)
+* Administración de entidad
+  * [¿Cómo puedo obtener la función de administrador de entidad?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=923dcc781b3a6d502fe5ed7ae54bcbe9)
+  * [¿Cómo puedo actualizar o renovar una administración de entidad en SAM.gov?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=707404621b327d90860e62cfe54bcb58)
+* Direcciones de correo electrónico y su cuenta de Login.gov
+  * [¿Qué hago si mi compañía cambia mi dirección de correo electrónico?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=6d69d674879b355065b70ed40cbb35e9)
+  * [Si actualicé mi dirección de correo electrónico en Login.gov, ¿por qué no puedo iniciar sesión en SAM.gov ni recibir mi contraseña de un solo uso (OTP)?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=da7c0c411bcdfd142fe5ed7ae54bcb4c)
+  * [¿Qué sucede con mi acceso a SAM.gov si cambio mi dirección de correo electrónico en Login.gov?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=9f6f9c311b6d7150c5c4dd39bc4bcb22)
+
+
 
 Para hacer cambios en el perfil de su cuenta de SAM.gov, es necesario que inicie sesión en <https://sam.gov>.
 
