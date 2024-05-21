@@ -40,6 +40,10 @@ RSpec.describe 'all pages' do
         expect(doc).to properly_escape_html
       end
 
+      it 'does not have broken Markdown links' do
+        expect(doc.to_s).to_not include(')]')
+      end
+
       it 'does not link to a placeholder redirect_from page' do
         aggregate_failures do
           doc.css('a').each do |a|
