@@ -1,5 +1,6 @@
 ---
-title: Vérifier votre identité
+layout: help
+title: Confirmer votre identité
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/overview/
 meta_title: Aperçu
@@ -13,13 +14,38 @@ redirect_from:
   - /fr/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 ---
 
-Certains organismes participants exigent que vous vous soumettiez à un processus de vérification d’identité. La vérification de l’identité est le processus par lequel vous prouvez que c’est bien vous — et non une tierce personne qui se fait passer pour vous.
+La vérification d'identité est le processus qui vous permet de prouver que vous êtes bien vous-même et non une tierce personne qui se fait passer pour vous. Vous devrez [créer votre compte Login.gov](/fr/create-an-account/) et confirmer votre identité pour accéder aux services de certaines autorités fédérales.
 
-Vous ne devez vérifier votre identité qu'une seule fois pour votre compte « Login.gov ». Une fois votre identité vérifiée avec Login.gov pour une application gouvernementale, vous n'avez pas à le faire à nouveau pour d'autres applications gouvernementales qui utilisent Login.gov et exigent une vérification d'identité. Vous n'êtes actuellement pas obligé de télécharger une photo de vous ou de prendre un selfie pour vérifier votre identité. Cependant, vous pourriez être amené à prendre une photo de votre pièce d'identité.
+## Ce dont vous avez besoin pour confirmer votre identité
 
-Utilisez cette rubrique d’aide pour comprendre le processus et les exigences en matière de vérification d’identité.
+Vous prendrez une photo de votre [permis de conduire officiel ou carte d’identité d’un État](/fr/help/verify-your-identity/accepted-identification-documents/) et saisirez vos renseignements personnels afin de confirmer votre identité en ligne.
 
-## Sujets de dépannage courants
+Il est possible que vous deviez prendre une [photo de vous-même](/fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/) avec un téléphone afin de confirmer votre identité en ligne. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité. Si vous n'avez pas de téléphone équipé d'une caméra, vous pouvez [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/).
 
-{: .help-question-list}
-* [Comment vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
+{%
+  include components/two-column-image-bullet-list.html
+
+  column1-image='/assets/img/help/create-an-account.svg'
+  column1-header='Ce dont vous avez besoin pour créer un compte Login.gov'
+  column1-bullets='E-mail|Mot de passe|Méthode d’authentification'
+  column1-class='padding-105 border border-info-light'
+
+  column2-image='/assets/img/help/verify-your-identity.svg'
+  column2-header='Ce dont vous avez besoin pour confirmer votre identité'
+  column2-bullets='Permis de conduire ou carte d’identité d’un État|Numéro de sécurité sociale|Numéro de téléphone ou adresse'
+  column2-footer='Certains services requièrent que vous preniez une photo de vous pour confirmer votre identité en ligne.'
+  column2-class='padding-105 border border-info-light bg-info-lighter'
+%}
+
+## Comment nous utilisons vos informations
+
+Login.gov est un site web sécurisé de l’administration qui respecte les normes les plus strictes en matière de protection des données.
+
+Login.gov ne stocke pas d’image de votre pièce d’identité ni de vous-même. Nous sollicitons votre consentement avant de partager les informations vérifiées vous concernant avec l’organisme partenaire. [En savoir davantage sur nos mesures de protection et de sécurité.](/fr/policy/)
+
+## Articles connexes
+[Comment vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
+[Documents d’identification acceptés](/fr/help/verify-your-identity/accepted-identification-documents/)
+[Comment ajouter des images de votre permis de conduire ou de votre carte d'identité de l’État](/fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
+[Vérifiez votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
+[Validez votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)

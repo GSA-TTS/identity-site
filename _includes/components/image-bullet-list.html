@@ -1,0 +1,23 @@
+{% comment %}
+includes
+- image
+- header
+- bullets
+- footer
+- container-class
+- class
+
+{% endcomment %}
+<div class="{{ include.container-class }}">
+  <img alt="" style="width: 30%; margin-left: 35%" src="{{ site.baseurl }}{{ include.image }}" />
+  <div class="{{ include.class }}">
+    <div class="text-bold">{{ include.header }}</div>
+    <ul class="usa-list">
+      {% assign bullets = include.bullets | split: "|" %}
+      {% for bullet in bullets %}
+      <li class="font-body-xs">{{ bullet }}</li>
+      {% endfor %}
+    </ul>
+    <p class="font-body-xs">{{ include.footer }}</p>
+  </div>
+</div>

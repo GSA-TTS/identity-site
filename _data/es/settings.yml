@@ -209,7 +209,7 @@ contact_page:
       verifying_identity: Verificar su identidad
 feedback_form:
   'no': 'No'
-  question: ¿Te resultó útil este artículo?
+  question: ¿Le resultó útil este artículo?
   'yes': 'Si'
 global:
   language: Idioma

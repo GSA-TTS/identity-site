@@ -1,0 +1,31 @@
+{% comment %}
+includes
+- column1-image
+- column1-header
+- column1-bullets
+- column1-class
+- column2-image
+- column2-header
+- column2-bullets
+- column2-class
+{% endcomment %}
+<div class="grid-row grid-gap measure-3">
+  {%
+    include components/image-bullet-list.html
+    image=include.column1-image
+    header=include.column1-header
+    bullets=include.column1-bullets
+    footer=include.column1-footer
+    container-class='tablet:grid-col'
+    class=include.column1-class
+  %}
+  {%
+    include components/image-bullet-list.html
+    image=include.column2-image
+    header=include.column2-header
+    bullets=include.column2-bullets
+    footer=include.column2-footer
+    container-class='tablet:grid-col'
+    class=include.column2-class
+  %}
+</div>
