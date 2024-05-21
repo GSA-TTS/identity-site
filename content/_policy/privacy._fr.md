@@ -1,15 +1,9 @@
 ---
 sidenav: policies
-title: "Confidentialité et sécurité : Notre déclaration relative à la loi sur la confidentialité"
-description: Découvrez comment nous demandons, utilisons, conservons et
-  protégeons vos informations personnelles, ainsi que votre obligation de les
-  divulguer.
-=======
 title: "Confidentialité et sécurité : notre déclaration relative à la loi sur la confidentialité"
 description: En savoir plus sur la manière dont nous sollicitions, utilisons, conservons et
   protégeons vos informations personnelles, ainsi que vos obligations par rapport à la divulgation
   de celles-ci.
->>>>>>> 0867b18870b993a93df403041c272a6dedb07d99
 permalink: /fr/policy/our-privacy-act-statement/
 redirect_from:
   - /fr/policy/our-privacy-practices/
