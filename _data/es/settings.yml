@@ -294,7 +294,7 @@ nav:
         url: '#limitaciones-conocidas'
     title: Accesibilidad
   anchor_to_top: Volver arriba
-  become_a_partner: Convertirse en un compañero
+  become_a_partner: Convertirse en un asociado
   business_inquiries:
     title: Business inquiries
 
@@ -309,7 +309,7 @@ nav:
         url: '#asóciese-con-logingov'
       - name: Informe de un problema
         url: '#informe-de-un-problema'
-    title: Contacta con nosotros
+    title: Contacte con nosotros
   create_an_account: Crea una cuenta
   developer_guide: Guía para desarrolladores
   developers: Desarrolladores
@@ -320,7 +320,7 @@ nav:
     agencies: Para agencias
     learn: Aprender
     partners: For partners # partners site does not require translations
-    support: Apoyo
+    support: Ayuda
   help: Ayuda
   help_center: Centro de ayuda
   home: Inicio
@@ -331,7 +331,7 @@ nav:
         url: '#puestos-vacantes'
       - name: Cómo presentar solicitud
         url: '#cómo-presentar-solicitud'
-    title: Únete a nuestro equipo
+    title: Únase a nuestro equipo
   menu: Menú
   overview: Resumen
   playbook: Manual
