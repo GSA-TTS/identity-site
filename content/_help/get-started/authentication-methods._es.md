@@ -76,11 +76,24 @@ En adelante, cada vez que inicie sesión en Login.gov, podrá utilizar los códi
 
 ## Clave de seguridad
 
-Por lo regular, una clave de seguridad es un dispositivo físico externo, como una memoria USB, que se conecta al equipo. La clave está vinculada a sus cuentas y solo concederá acceso a estas una vez que esté conectada y activada. Como la clave de seguridad no depende de su teléfono celular, cuenta con el nivel de protección más alto contra el *phishing* y con otras protecciones integradas contra el jaqueo en caso de pérdida o robo.
+Una clave de seguridad es un dispositivo físico que puede conectar a su computadora o dispositivo móvil para añadir un nivel más de protección a su cuenta de Login.gov. No es lo mismo que una [clave personal](/es/help/manage-your-account/personal-key/).
 
-Login.gov solo permite usar claves de seguridad que cumplan con los [estándares de FIDO (Fast Identity Online)](https://fidoalliance.org/). Usted puede agregar tantas claves de seguridad como desee para proteger su cuenta.
+El uso de una clave de seguridad es más confiable que depender de su teléfono, ya que tiene protecciones integradas contra el jaqueo y el phishing. Login.gov solo permite usar claves de seguridad que cumplan con los estándares de [FIDO (Fast Identity Online)](https://fidoalliance.org/).
 
-Para utilizar esta opción de seguridad como método de autenticación en Login.gov, conecte el dispositivo físico a un puerto USB y asígnele un nombre para identificar la clave de seguridad con su cuenta de Login.gov. En el siguiente paso, se le pedirá que active su clave. Esto se hace normalmente presionando un botón en el dispositivo físico.
+Usted puede agregar varias claves de seguridad a su cuenta para protegerla.
+
+Login.gov no proporciona a los usuarios una clave de seguridad, por lo que usted tendrá que obtener esta opción de protección por su cuenta.
+
+### ¿Cómo configuro las claves de seguridad?
+
+Para autenticarse en Login.gov usando esta opción de seguridad:
+
+{: .number-list}
+1. Asigne un alias a su clave de seguridad para identificarla fácilmente después con su cuenta de Login.gov.
+
+2. Inserte su clave de seguridad en el dispositivo.
+
+3. Siga las instrucciones de su navegador para activar su clave de seguridad. Cuando use su clave de seguridad, no tendrá que ingresar un código.
 
 ## Mensajes de texto y llamadas telefónicas
 
