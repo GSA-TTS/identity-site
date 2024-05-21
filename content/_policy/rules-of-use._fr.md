@@ -92,7 +92,7 @@ Outre valider les preuves d’identité que vous nous fournissez, nous prenons d
 
 Si une erreur se produit et que vous ne parvenez pas à terminer la procédure de vérification d’identité, des instructions de recours sont fournies avec des mesures de suivi. Login.gov ne dispose pas actuellement de procédure de vérification d’identité par l’intermédiaire de tiers de confiance (à savoir des personnes désignées pour agir en votre nom durant la vérification d’identité).
 
-#### Données biométriques
+### Données biométriques
 
 Certains partenaires exigent que la vérification d’identité s’effectue par comparaison biométrique. Dans ces cas, Login.gov recueille votre auto-photographie qui est comparée à celle qui figure sur votre carte d’identité délivrée par les autorités.
 

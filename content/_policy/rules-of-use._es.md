@@ -92,7 +92,7 @@ Además, para validar las pruebas de identidad que nos proporciona, seguimos má
 
 Si recibe un error y no puede terminar el proceso de comprobación y verificación de la identidad, se proporcionan instrucciones para la reparación y las acciones posteriores a esta. Por ahora, Login no tiene un proceso para la comprobación de identidad por medio de evaluadores de confianza (es decir, personas designadas para que actúen en nombre de usted durante la comprobación de identidad).
 
-#### Datos biométricos
+### Datos biométricos
 
 Algunos asociados exigen hacer la verificación con comparación biométrica. En estos casos, Login.gov le pedirá que se tome una fotografía para compararla con la que figura en su tarjeta de identificación emitida por el gobierno.
 

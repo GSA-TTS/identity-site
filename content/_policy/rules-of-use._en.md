@@ -94,7 +94,7 @@ In addition to validating the identity evidence you provide to us, we take addit
 
 If you get an error and are unable to complete the identity proofing and verification process, redress instructions are provided with follow-on actions. Login does not currently have  a process to identity proof through trusted referees (that is, people designated to act on your behalf during identity proofing ).
 
-#### Biometric Data
+### Biometric Data
 
 Some partners require verification through biometric comparison. In these instances, Login.gov will collect your self-photograph, which is compared to the portrait on your government-issued ID Card.
 
