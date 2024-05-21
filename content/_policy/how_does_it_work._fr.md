@@ -1,5 +1,5 @@
 ---
-title: "Confidentialité et sécurité: comment ça marche"
+title: "Confidentialité et sécurité : comment ça marche"
 description: Découvrez comment nous protégeons et sécurisons vos informations personnelles.
 permalink: /fr/policy/how-does-it-work/
 sidenav: policies

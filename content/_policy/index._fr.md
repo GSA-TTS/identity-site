@@ -1,7 +1,7 @@
 ---
 sidenav: policies
 title: Confidentialité et sécurité
-description: En savoir plus sur nos pratiques en matière de sécurité et de confidentialité
+description: En savoir plus sur nos pratiques en matière de sécurité et confidentialité
 permalink: /fr/policy/
 redirect_from:
   - /fr/policy/our-security-practices/

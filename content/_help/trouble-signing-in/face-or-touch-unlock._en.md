@@ -43,13 +43,13 @@ Depending on your device and browser combination, you may get a message about a 
 * If you get a message about a security key, but do not have access to one, choose an option that uses a different device.
 * If you see messages mentioning passkeys, they are referring to face or touch unlock. When you set up face or touch unlock, you create a passkey on your device.
 
-If you are still having trouble, you may need to [delete your account](/en/help/manage-your-account/delete-your-account/). [Contact our help desk](/en/contact/) if you need assistance.
+If you are still having trouble, you may need to [delete your account](/help/manage-your-account/delete-your-account/). [Contact our help desk](/contact/) if you need assistance.
 
 ### I lost my phone or got a new phone, and now I can’t use face or touch unlock to sign in.
 
 Face or touch unlock will only work on the original device you set it up with unless you set up face or touch unlock on a newer device and browser that supports [passkeys](https://fidoalliance.org/passkeys/), and has bluetooth or cloud sync between your accounts enabled. Having bluetooth or cloud sync enabled allows your face or touch unlock credential to be shared between your devices.
 
-If face or touch unlock is tied to your device and you don’t have access to that particular device any longer, you may need to [delete your account](/en/help/manage-your-account/delete-your-account/) and create a new one. Please [contact us](/en/contact/) if you need assistance.
+If face or touch unlock is tied to your device and you don’t have access to that particular device any longer, you may need to [delete your account](/help/manage-your-account/delete-your-account/) and create a new one. Please [contact us](/contact/) if you need assistance.
 
 To prevent having to delete your account in the future, we strongly recommend setting up more than one authentication method. That way, you have a back-up authentication method to use for signing in in case you lose one.
 

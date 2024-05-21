@@ -1,5 +1,0 @@
-{% assign file_size = include.url | size | minus: 2 %}
-{% assign page_file = include.url | slice: 1, file_size | append: '.md' %}
-{% assign url_size = include.url | size | minus: 1 %}
-{% assign page_content = include.url | replace: "/", "." | slice: 1, url_size | replace: "help.", "help_pages." %}
-{{ site.data.[page.lang].settings.page_content }}

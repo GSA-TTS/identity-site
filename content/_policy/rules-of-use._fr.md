@@ -1,11 +1,11 @@
 ---
 layout: sidenav
 sidenav: policies
-title: Règles d'utilisation
-description: Règles d'utilisation.
+title: Règles d’utilisation
+description: Règles d’utilisation.
 permalink: /fr/policy/rules-of-use/
 ---
-## Règles d'utilisation
+## Règles d’utilisation
 
 Le service Login.gov est fourni par l’Administration des services généraux des États-Unis pour offrir au public un accès en ligne privé sécurisé aux programmes participants de l’administration. Avec un seul compte Login.gov, les utilisateurs peuvent se connecter à plusieurs organismes de l’administration. Notre objectif est de faciliter et de sécuriser encore la gestion des prestations, des services et des candidatures au niveau fédéral.
 
@@ -18,11 +18,11 @@ Ces règles d’utilisation fournissent :
 
 ## 1. Définition des services généraux
 
-Le service Login.gov offre au public un accès en ligne sécurisé et privé aux programmes gouvernementaux participants. Avec un seul compte Login.gov, vous pouvez vous connecter aux services offerts par plusieurs agences gouvernementales. Notre objectif est de faciliter et de sécuriser la gestion des prestations, des services et des applications fédérales.
+Le service Login.gov offre au public un accès en ligne privé sécurisé aux programmes gouvernementaux participants. Avec un seul compte Login.gov, vous pouvez vous connecter aux services offerts par plusieurs organismes gouvernementaux. Notre objectif est de faciliter et de sécuriser encore la gestion des prestations, des services et des candidatures au niveau fédéral.
 
-Le service Login.gov s'associe à d'autres agences fédérales (« partenaires ») pour vous permettre d'accéder à ces services avec un seul compte Login.gov, éliminant ainsi la nécessité de créer plusieurs comptes distincts au sein de l'administration.
+Le service Login.gov s’associe à d’autres organismes fédéraux (« partenaires ») pour vous permettre d’accéder à ces services avec un seul compte Login.gov, éliminant ainsi la nécessité de créer plusieurs comptes distincts au sein de l’administration.
 
-Le service Login.gov protège votre compte en mettant en œuvre des mesures de sécurité strictes et protège votre vie privée en recueillant auprès de vous les informations minimales nécessaires et en ne révélant aux partenaires que les informations nécessaires à l'exécution de leur service. Login.gov ne partage jamais d'informations personnelles validées avec un partenaire fédéral, sauf si:
+Le service Login.gov protège votre compte en mettant en œuvre des mesures de sécurité strictes et protège votre vie privée en recueillant auprès de vous les informations minimales nécessaires et en ne révélant aux partenaires que les informations nécessaires à l’exécution de leur service. Login.gov ne partage jamais d’informations personnelles validées avec un partenaire fédéral, sauf si :
 
 1. Vous avez donné votre consentement explicite (que vous pouvez révoquer à tout moment) ;
 2. La divulgation est requise par la loi ; ou
@@ -80,7 +80,7 @@ Si vous oubliez votre phrase secrète, vous pouvez la réinitialiser si vous ave
 
 En cas de suspicion de fraude sur votre compte, il est possible que nous verrouillions votre compte et vous contactions. Si nous avons des raisons de penser que votre phrase secrète a été compromise, il est possible que nous vous demandions de la réinitialiser. Si votre compte a été compromis d’une quelconque manière, veuillez en informer immédiatement Login.gov sur <https://login.gov/contact/>.
 
-## 4. Preuve et vérification de l'identité
+## 4. Preuve et vérification d’identité
 
 La première fois que vous essayez de vous connecter à l’aide de Login.gov à une application partenaire qui exige un degré élevé de certitude quant à votre identité, nous lançons un processus appelé vérification d’identité. La vérification d’identité prend des informations sur vous et tente de les valider, puis de vérifier que vous, l’utilisateur, êtes bien la personne que vous prétendez être. Ces informations, que nous appelons preuves d’identité, comprennent en général votre nom, votre date de naissance, votre numéro de sécurité sociale, l’adresse de votre domicile et une image de votre pièce d’identité, telle que votre permis de conduire. Vous convenez que les informations que vous fournissez sont bien les vôtres — et non celles de quelqu’un d’autre — et qu’elles sont exactes.
 
@@ -105,9 +105,9 @@ Dans le cas peu probable où le service Login.gov serait supprimé, les renseign
 
 ## 6. Autorités
 
-Le service Login.gov est exploité aux États-Unis, mais il est accessible au public dans le monde entier. Le service Login.gov est géré par l'Administration des services généraux en vertu des pouvoirs et des directives énoncés dans [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), la loi sur le gouvernement électronique de 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim), et [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
+Le service Login.gov est exploité aux États-Unis, mais il est accessible au public dans le monde entier. Le service Login.gov est géré par l’Administration des services généraux en vertu des pouvoirs et des directives énoncés dans [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), la loi sur le gouvernement électronique de 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim) et [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
-## 7. Exploitation des services et assistance à la clientèle
+## 7. Exploitation des services et service client
 
 Le service Login.gov fonctionne avec un niveau de service élevé, tant au niveau de la prestation des services que du service client.
 
@@ -149,7 +149,7 @@ En aucun cas l’Administration des services généraux ne pourra être tenue re
 
 ## 11. Dispositions générales
 
-### 1. Intégralité de l'accord
+### 1. Intégralité de l’accord
 
 Les présentes règles d’utilisation constituent l’intégralité de l’accord entre l’Administration des services généraux et vous concernant l’utilisation du site Web et de ses services, qui ne peut être modifié que par la publication d’une version révisée sur la présente page par l’Administration des services généraux.
 

@@ -1,9 +1,10 @@
 ---
-title: "Privacidad y seguridad: términos y condiciones de mensajería"
-description: Descubra cómo usamos la mensajería de texto para la autenticación.
+title: "Privacidad y seguridad: términos y condiciones de la mensajería"
+description: Conozca cómo usamos la mensajería de texto para la autenticación.
 permalink: /es/policy/messaging-terms-and-conditions/
 sidenav: policies
 ---
+
 ## Términos y condiciones de mensajería ## {#messaging-terms-and-conditions}
 
 Login.gov utiliza mensajería de texto SMS para ayudar a verificar su identidad cuando usted crea una nueva cuenta. Los mensajes de texto SMS o las llamadas de voz automatizadas también se pueden usar si elige su número de teléfono como uno de sus métodos de autenticación.

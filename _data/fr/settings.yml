@@ -61,7 +61,7 @@ contact_page:
       'FDIC Resolution Request Management Portal': FDIC demande un portail de gestion des résolutions
       'FEMA Disaster Assistance': Assistance FEMA en cas de catastrophe
       'General Services Administration': Administration des services généraux
-      'Get .gov': Get.gov
+      'Get.gov': Get.gov
       'GSA Sam.gov': GSA SAM.gov
       'Health and Human Services': Santé et services sociaux
       'HHS Grants.gov': HHS Grants.gov
@@ -76,6 +76,7 @@ contact_page:
       'National Credit Union Administration (NCUA)': Administration nationale des coopératives de crédit (NCUA)
       'National Endowment for the Humanities (NEH)': Fondation nationale pour les sciences humaines (NEH)
       'National Labor Relations Board': Commission nationale des relations de travail
+      'National Transportation Safety Board (NTSB)': Conseil national de sécurité des transports (NTSB)
       'Office of Personnel Management': Bureau de la gestion du personnel (OPM)
       'OPM Employee Express': OPM Employé Express
       'OPM Services Online': 'Services OPM en ligne'
@@ -87,6 +88,7 @@ contact_page:
       'Securities and Exchange Commission': Commission des valeurs mobilières des États-Unis
       'Social Security Administration (SSA)': Administration de la sécurité sociale (SSA)
       'State of Arkansas': État de l’Arkansas
+      'State of California': État de Californie
       'State of Colorado': État de Colorado
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programmes pour voyageurs de confiance (Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': Agence américaine pour le développement international
@@ -213,6 +215,7 @@ global:
     en: English
     es: Español
     fr: Français
+    zh: '中文 (简体)'
 help_page:
   categories:
     - description: Créez votre compte. Découvrez les options d’authentification et
@@ -295,12 +298,12 @@ nav:
   contact_login_gov: Contactez Login.gov
   contact_us:
     sections:
-      - name: Trouver des réponses aux questions les plus fréquemment posées
-        url: '#trouver-des-réponses-aux-questions-les-plus-fréquemment-posées'
+      - name: Trouvez des réponses aux questions fréquemment posées
+        url: '#trouvez-des-réponses-aux-questions-fréquemment-posées'
       - name: Contactez-nous
         url: '#contactez-nous'
-      - name: Partenaire avec Login.gov
-        url: '#partenaire-avec-logingov'
+      - name: Devenez partenaire de Login.gov
+        url: '#devenez-partenaire-de-logingov'
       - name: Signaler un problème
         url: '#signaler-un-problème'
     title: Nous contacter
@@ -321,10 +324,10 @@ nav:
   implementation: Mise en œuvre
   join_us:
     sections:
-      - name: Postes ouverts
-        url: '#postes-ouverts'
-      - name: Comment s’inscrire
-        url: '#comment-sinscrire'
+      - name: Postes à pourvoir
+        url: '#postes-à-pourvoir'
+      - name: Comment déposer une candidature
+        url: '#comment-déposer-une-candidature'
     title: Rejoignez nous
   menu: Menu
   overview: Aperçu

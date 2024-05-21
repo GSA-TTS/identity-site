@@ -1,6 +1,6 @@
 ---
-title: "Confidentialité et sécurité: Conditions générales de messagerie"
-description: Découvrez comment nous utilisons la messagerie texte pour l'authentification.
+title: "Confidentialité et sécurité : conditions générales de la messagerie"
+description: En savoir plus sur l’usage de la messagerie textuelle à des fins d’authentification.
 permalink: /fr/policy/messaging-terms-and-conditions/
 sidenav: policies
 ---

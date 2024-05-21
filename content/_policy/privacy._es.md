@@ -1,8 +1,8 @@
 ---
 sidenav: policies
-title: "Privacidad y seguridad: nuestras prácticas de privacidad"
-description: Conozca cómo solicitamos, usamos, retenemos y protegemos su
-  información personal, así como su obligación de divulgarla.
+title: "Privacidad y seguridad: nuestra declaración de privacidad"
+description: Conozca cómo solicitamos, usamos, conservamos y protegemos su información personal, así como su
+  obligación de divulgarla.
 permalink: /es/policy/our-privacy-act-statement/
 redirect_from:
   - /es/policy/our-privacy-practices/
@@ -64,7 +64,7 @@ El fraude sucede cuando alguien se hace pasar por usted e intenta acceder a una 
 
 ### Registros: ¿Dónde puede encontrar más información? ### {#records}
 
-Consulte el aviso del sistema de registros Login.gov ([GSA/TTS–1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records)).
+Consulte el aviso sobre el sistema de registros de Login.gov ([GSA/TTS–1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records)).
 
 ### Análisis del sitio web: Otros datos que recopilamos ### {#analytics}
 

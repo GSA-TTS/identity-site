@@ -1,7 +1,7 @@
 ---
 layout: sidenav
 sidenav: policies
-title: Reglas de uso
+title: Reglas de Uso
 description: Reglas de uso.
 permalink: /es/policy/rules-of-use/
 ---

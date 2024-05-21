@@ -1,41 +1,41 @@
 ---
 layout: contact_us
 sidenav: contact_us
-title: Nous joindre
-description: Vous avez une question ou un problème concernant Login.gov?
+title: Comment nous contacter
+description: Une question, un problème sur Login.gov ?
 intro_content: >-
   ## Contactez-nous
 
-  * Contactez l'agence gouvernementale pour qu'elle vous aide à régler les questions relatives à l'état de votre demande, à votre adhésion, à votre admissibilité, aux avantages ou à toute autre préoccupation liée à votre compte auprès de cette agence gouvernementale. Vous trouverez les informations de contact sur le site Web de l'agence.
+  * Contactez l’organisme gouvernemental pertinent pour vous aider à résoudre les questions relatives au statut de votre demande, à votre adhésion, à vos avantages ou à d’autres problèmes liés à votre compte auprès de cet organisme. Vous trouverez ses coordonnées sur son site Web.
 
 
-  * Login.gov ne peut résoudre que les problèmes liés à l'ouverture de session.
+  * Login.gov ne peut vous aider à résoudre que les problèmes de connexion.
 
-  * Login.gov ne peut pas se connecter, créer, supprimer ou gérer votre compte en votre nom.
+  * Login.gov ne peut pas se connecter pour vous ni créer, supprimer ou gérer votre compte pour vous.
 
 help_center_content: >-
-  ## Trouver des réponses aux questions les plus fréquemment posées
+  ## Trouvez des réponses aux questions fréquemment posées
 
     {: .help-question-list}
   * [Je ne peux pas me connecter à mon compte](/fr/help/trouble-signing-in/overview/)
 
   * [J’ai besoin d’aide pour vérifier mon identité](/fr/help/verify-your-identity/overview/)
 
-  * [Je dois modifier mes informations ou gérer mon compte](/fr/help/manage-your-account/overview/)
+  * [J’ai besoin de modifier mes informations ou de gérer mon compte](/fr/help/manage-your-account/overview/)
 
-  * [Parcourir d’autres articles d’aide](/fr/help/)
-maintenance_window_content: Le centre de contact de Login.gov est actuellement en cours de maintenance <strong>%{start_time} au %{end_time}</strong>. Consultez les sujets courants ci-dessous pour obtenir de l'aide.
-phone_available_content: Vous pouvez appeler notre centre d'assistance à tout moment au (844) 875-6446.
-unplanned_outage_content: En raison d'une panne, nous ne pouvons pas traiter les demandes d'assistance en ligne.
+  * [Voir d’autres sujets d’assistance](/fr/help/)
+maintenance_window_content: Des travaux de maintenance sont actuellement en cours sur le centre de contact de Login.gov de <strong>%{start_time} à %{end_time}.</strong> Consultez ci-dessous certains sujets courants pour obtenir de l’aide.
+phone_available_content: Vous pouvez à tout moment appeler notre centre d’assistance au +1 (844) 875-644.
+unplanned_outage_content: En raison d’une panne, nous ne sommes pas en mesure de traiter les demandes d’assistance en ligne.
 partner_content: >-
-  ## Partenaire avec Login.gov
+  ## Devenez partenaire de Login.gov
 
-  Souhaitez-vous utiliser Login.gov dans votre agence? Veuillez [visiter le site web de nos partenaires](/partners/) ou [nous contacter](/partners/business-inquiries/).
+  Vous souhaitez utiliser Login.gov pour votre organisme ? Veuillez [visiter notre site Web pour les partenaires](/partners/) ou [nous contacter](/partners/business-inquiries/).
 
 report_issue_content: >-
   ## Signaler un problème
 
-  Si vous souhaitez signaler un problème, veuillez consulter [notre politique en matière de divulgation des vulnérabilités](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/) et nous contacter en utilisant [notre formulaire de divulgation des vulnérabilités](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform).
+  Pour nous signaler un problème, veuillez consulter notre [politique de divulgation des vulnérabilités](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/) et nous contacter à l'aide de notre [formulaire](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform) prévu à cet effet.
 
 scripts:
   - /assets/js/contact.js

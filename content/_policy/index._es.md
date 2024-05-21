@@ -13,7 +13,7 @@ Esta sección describe cómo solicitamos, usamos, conservamos y protegemos su in
 
 La información que usted envía se usa para crear o actualizar su cuenta de Login.gov y darle acceso a las agencias asociadas de Login.gov. Cuando proporciona su dirección de correo electrónico u otra prueba de identidad, como una identificación estatal, podemos estar seguros de que se trata realmente de usted y concederle acceso a la cuenta (manteniendo alejados a los actores maliciosos). Esta prueba, llamada credencial electrónica de garantía de identidad, es como poner una llave en la cerradura para abrir de forma segura la puerta de la aplicación o el servicio de la agencia gubernamental.
 
-###  Cómo trabajamos con nuestras agencias asociadas: ### {#how-we-work-with-our-partner-agencies}
+### Cómo trabajamos con nuestras agencias asociadas: ### {#how-we-work-with-our-partner-agencies}
 
 * Login.gov se asocia con agencias gubernamentales para proporcionar acceso seguro al sitio web, la aplicación o el servicio de estas. La agencia asociada (por ejemplo, la Oficina de Administración de Personal de los Estados Unidos) selecciona el tipo de información que le solicitamos a usted.
 * Pedimos principalmente información para autenticar su cuenta o comprobar su identidad.

@@ -7,13 +7,19 @@ children:
 permalink: /help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-If you are unable to successfully upload your state-issued ID on Login.gov, you may be able to verify in person at a participating United States Postal Service (USPS) location.
+Login.gov offers in-person identity verification at a United States Postal Service (USPS) location near you as an alternative to [verifying your identity online](/help/verify-your-identity/how-to-verify-your-identity/).
+
+You may also have the option to verify your identity in person if you attempted to verify your identity online but could not successfully upload your Driver’s License or state ID card on Login.gov.
 
 ## Start this process on Login.gov before going to the Post Office 
 
+Before starting the identity verification process, you’ll choose between verifying online or verifying in person. If you want to verify in person, select, ‘Verify your identity at a Post Office.’
+
+Please note, you may also have the option to verify in person if you attempt to verify online but are unable to.
+
 Please have the following information ready to enter on Login.gov:
 
-1. Your State-Issued ID. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-state-issued-identification/)
+1. Your State-Issued ID. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-identification-documents/)
 2. Social Security Number
 3. Your phone number
    a. If you cannot complete this step, we can [send you a verification code by mail](/help/verify-your-identity/verify-your-address-by-mail/) which takes 5 to 10 days to arrive.
@@ -26,9 +32,9 @@ If you’re unable to complete any of these steps, please contact the partner ag
 
 Once you complete the steps on Login.gov, we’ll email you a barcode and a deadline to go to the Post Office. You can print the email, or show the email from your mobile device. If you go to the Post Office after the deadline, your information will not be saved and you will need to restart the process.  
 
-### Your state-issued ID
+### Your driver’s license or state ID card
 
-Bring the same ID you used on Login.gov. Your ID must not be expired. At this time, only the following state-issued identification is accepted: 
+Bring the same ID you used to enter your information on Login.gov. Your ID must not be expired. At this time, only the following state-issued identification is accepted: 
 
 * Driver’s license from all 50 states, the District of Columbia (DC), and other US territories (Guam, US Virgin Islands, American Samoa, Mariana Islands and Puerto Rico)
 * A non-driver’s license state-issued ID card
@@ -51,12 +57,12 @@ Once you’ve received a barcode online, you can go to any Post Office where In-
 
 ### You can speak with any retail associate to verify your identity
 
-* Wait in line at the Post Office. The retail clerk will scan your barcode and review your documents.
-* After the retail clerk has reviewed your documents, you’re done at the Post Office. The retail clerk will not receive your results.
+* Wait in line at the Post Office. The retail associate will scan your barcode and review your documents.
+* After the retail associate has reviewed your documents, you’re done at the Post Office. The retail clerk will not receive your results.
 
 ### We’ll email you with next steps
 
-We’ll send you an email to let you know if your identity verification was successful or unsuccessful within 24 hours of your visit to the Post Office. 
+You’ll get an email to let you know if your identity verification was successful or unsuccessful within 24 hours of your visit to the Post Office. 
 
 If your identity verification was unsuccessful, you can:
 
@@ -94,8 +100,10 @@ We automatically cancel requests after 30 days in order to protect applicants’
 
 ## Related Articles
 
-[Help with specific agencies](/help/specific-agencies/overview/)
+[Accepted State-Issued Identification](/help/verify-your-identity/accepted-identification-documents/)
 
-[Accepted State-Issued Identification](/help/verify-your-identity/accepted-state-issued-identification/)
+[Troubleshoot uploading your state-issued ID](/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
 
 [Verify your identity online](/help/verify-your-identity/how-to-verify-your-identity/)
+
+[Find a Participating Post Office](/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)

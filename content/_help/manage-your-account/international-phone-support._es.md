@@ -1,15 +1,15 @@
 ---
 layout: help
-title: Soporte de número de teléfono internacional
+title: Ayuda con un número de teléfono internacional
 category: manage-your-account
 permalink: /es/help/manage-your-account/international-phone-support/
-order: 7 
+order: 7
 scripts:
   - /assets/js/country_support.js
 ---
-Utilice la siguiente información para determinar si puede utilizar su número de teléfono internacional como método de autenticación de dos factores para recibir SMS (mensajes de texto) o llamadas telefónicas.
+Use esta información para determinar si puede utilizar su número de teléfono internacional como método de autenticación de dos factores para recibir SMS (mensajes de texto) o llamadas telefónicas.
 
-Esta lista puede cambiar debido a problemas de spam o a cambios realizados por nuestros proveedores de mensajes de texto y servicios de voz, por lo que su número podría ya no ser compatible. En ocasiones, los nuevos números de teléfono tampoco son compatibles con la voz o los SMS (mensajería de texto).
+Esta lista puede cambiar debido a problemas de correo no deseado o a cambios que hagan nuestros proveedores de mensajes de texto y de voz, por lo que es posible que su número ya no sea compatible. En ocasiones, los nuevos números de teléfono tampoco son compatibles con los mensajes de voz o los SMS (mensajería de texto).
 
 Le recomendamos que configure más de un método de autenticación para evitar que se bloquee su cuenta si su número telefónico deja de ser compatible.
 
@@ -19,10 +19,10 @@ Le recomendamos que configure más de un método de autenticación para evitar q
 
 {% include country_support_table.html
            heading_country="País"
-           heading_dialing_code="Codigo para marcar"
+           heading_dialing_code="Código de marcado"
            heading_sms="Compatible con SMS"
-           heading_voice="Admite marcación por voz"
+           heading_voice="Compatible con mensajes de voz"
            option_yes="Sí"
            option_no="No"
-           error_heading="No se han podido cargar los datos"
-           error_body="Lo sentimos, hubo un error al cargar la lista de países admitidos. Por favor, inténtelo de nuevo más tarde." %}
+           error_heading="Error al cargar los datos"
+           error_body="Hubo un error al cargar la lista de países admitidos. Inténtelo de nuevo más tarde." %}

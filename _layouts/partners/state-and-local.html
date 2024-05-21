@@ -44,28 +44,13 @@ layout: base
         </div>
       </div>
     </div>
-    <div class="padding-top-8 padding-bottom-8 bg-primary-lightest">
-      <div class="container">
-        <div class="grid-row">
-          <div class="tablet:grid-col-2 padding-top-4">
-            <img
-              src="{{ site.baseurl }}/assets/img/partners/ssa-logo.svg"
-              alt="Social Security Administration"
-            />
-          </div>
-          <div class="tablet:grid-col-10 padding-left-6 partners-body">
-            {{ page.ssa_quote | markdownify }}
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="container partners-container">
       <div class="grid-row grid-gap-6">
         <div class="tablet:grid-col-12" id="intergovernmental-cooperation-act-igca-process">
           {{ page.igca_steps_title | markdownify }}
         </div>
         <div class="tablet:grid-col-6 partners-subtitle partners-blue-box">
-          <div>{{ page.igca_tips | markdownify }}</div>
+          {{ page.igca_tips | markdownify }}
         </div>
         <div class="tablet:grid-col-6 partners-body">
           <ol class="usa-process-list usa-process-list--connected">

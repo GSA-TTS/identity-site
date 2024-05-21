@@ -4,6 +4,12 @@ title: "Confidentialité et sécurité : Notre déclaration relative à la loi s
 description: Découvrez comment nous demandons, utilisons, conservons et
   protégeons vos informations personnelles, ainsi que votre obligation de les
   divulguer.
+=======
+title: "Confidentialité et sécurité : notre déclaration relative à la loi sur la confidentialité"
+description: En savoir plus sur la manière dont nous sollicitions, utilisons, conservons et
+  protégeons vos informations personnelles, ainsi que vos obligations par rapport à la divulgation
+  de celles-ci.
+>>>>>>> 0867b18870b993a93df403041c272a6dedb07d99
 permalink: /fr/policy/our-privacy-act-statement/
 redirect_from:
   - /fr/policy/our-privacy-practices/
@@ -37,7 +43,7 @@ Login.gov travaille en partenariat avec des organismes qui ont besoin d’un acc
 * Au Bureau de publication de l’administration (GPO), lorsque Login.gov doit vous envoyer par courrier un formulaire de confirmation d’adresse e-mail ou si vous demandez à être informé par courrier des modifications apportées à votre compte ou des tentatives de vérification d’identité.
 * À d’autres organismes fédéraux et à des services tiers de prévention de la fraude, dans la mesure où cela est nécessaire pour détecter les soupçons de fraude et enquêter à leur sujet, y compris pour vous offrir des voies de recours.
 
-Cette liste n'est pas exhaustive. Veuillez consulter [l'avis de système d'enregistrement GSA/TTS-1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records) pour toutes les entités et personnes.
+Cette liste n’est pas exhaustive. Veuillez consulter l’[avis de système d’enregistrement GSA/TTS-1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records) pour toutes les entités et personnes concernées.
 
 #### Qu’advient-il des informations que vous partagez ?
 
@@ -71,6 +77,6 @@ D’autres données, comme les pages que vous visitez et la durée de votre sess
 
 Nous recueillons des informations sur les appareils et des analyses comportementales pour évaluer les risques d’utilisation abusive. Ces informations sont conservées brouillées. Login.gov est en mesure d’évaluer les risques liés à l’appareil et au comportement à partir de cet ensemble de données brouillées, mais ni Login.gov, ni ses fournisseurs ne peuvent déchiffrer ou rendre lisibles les informations.
 
-### Évaluation de l'incidence sur la vie privée ### {#impact}
+### Évaluation de l’incidence sur la vie privée ### {#impact}
 
 Consultez notre évaluation de l’incidence sur la vie privée sur le site [www.gsa.gov/PIA](https://www.gsa.gov/PIA) pour obtenir de plus amples renseignements sur la manière dont Login.gov recueille, utilise, sécurise et détruit les informations de manière à protéger la vie privée.

@@ -66,7 +66,7 @@ contact_page:
         Depósitos (FDIC)
       'FEMA Disaster Assistance': Asistencia de FEMA en caso de catástrofe
       'General Services Administration': Administración de Servicios Generales
-      'Get .gov': Get.gov
+      'Get.gov': Get.gov
       'GSA Sam.gov': GSA SAM.gov
       'Health and Human Services': Departamento de Salud y Servicios Humanos
       'HHS Grants.gov': Grants.gov del HHS
@@ -81,6 +81,7 @@ contact_page:
       'National Credit Union Administration (NCUA)': Administración Nacional de Cooperativas de Crédito (NCUA)
       'National Endowment for the Humanities (NEH)': Fondo Nacional para las Humanidades (NEH, siglas en inglés)
       'National Labor Relations Board': Junta Nacional de Relaciones Laborales
+      'National Transportation Safety Board (NTSB)': Junta Nacional de Seguridad en el Transporte (NTSB)
       'Office of Personnel Management': Oficina de Administración de Personal (OPM)
       'OPM Employee Express': OPM Empleado Express
       'OPM Services Online': 'Servicios en línea de OPM'
@@ -92,6 +93,7 @@ contact_page:
       'Securities and Exchange Commission': Comisión de Bolsa y Valores
       'Social Security Administration (SSA)': Administración del Seguro Social (SSA, por su siglas en inglés)
       'State of Arkansas': Estado de Arkansas
+      'State of California': Estado de California
       'State of Colorado': Estado de Colorado
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programas de Viajero de Confianza (Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': Agencia de los Estados Unidos para el Desarrollo Internacional
@@ -215,6 +217,7 @@ global:
     en: English
     es: Español
     fr: Français
+    zh: '中文 (简体)'
 help_page:
   categories:
     - description: Cree su cuenta. Conozca las opciones de autenticación y más
@@ -298,14 +301,14 @@ nav:
   contact_login_gov: Póngase en contacto con Login.gov
   contact_us:
     sections:
-      - name: Encuentra las respuestas a las preguntas más frecuentes
-        url: '#encuentra-las-respuestas-a-las-preguntas-más-frecuentes'
-      - name: Ponte en contacto
-        url: '#ponte-en-contacto'
-      - name: Asociarse con Login.gov
-        url: '#asociarse-con-logingov'
-      - name: Reportar un problema
-        url: '#reportar-un-problema'
+      - name: Busque respuesta a las preguntas más frecuentes
+        url: '#busque-respuesta-a-las-preguntas-más-frecuentes'
+      - name: Póngase en contacto
+        url: '#póngase-en-contacto'
+      - name: Asóciese con Login.gov
+        url: '#asóciese-con-logingov'
+      - name: Informe de un problema
+        url: '#informe-de-un-problema'
     title: Contacte con nosotros
   create_an_account: Crea una cuenta
   developer_guide: Guía para desarrolladores
@@ -324,10 +327,10 @@ nav:
   implementation: Implementación
   join_us:
     sections:
-      - name: Posiciones abiertas
-        url: '#posiciones-abiertas'
-      - name: Cómo aplicar
-        url: '#cómo-aplicar'
+      - name: Puestos vacantes
+        url: '#puestos-vacantes'
+      - name: Cómo presentar solicitud
+        url: '#cómo-presentar-solicitud'
     title: Únase a nuestro equipo
   menu: Menú
   overview: Resumen
