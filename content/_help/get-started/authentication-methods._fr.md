@@ -75,11 +75,25 @@ Vous pourrez désormais utiliser les codes à usage unique générés par l'appl
 
 ## Clé de sécurité
 
-Une clé de sécurité est généralement un dispositif physique externe, comme une clé USB, que vous connectez à votre ordinateur. La clé est liée à vos comptes et ne vous permettra d'accéder à ces comptes qu'une fois connectée et activée. Comme une clé de sécurité ne dépend pas de votre téléphone portable, elle offre le plus haut niveau de protection contre les tentatives d'hameçonnage et des protections intégrées contre le piratage en cas de perte ou de vol.
+Une clé de sécurité est un dispositif physique que vous pouvez connecter à votre ordinateur ou appareil mobile pour ajouter une couche de protection supplémentaire à votre compte Login.gov. Ce n’est pas la même chose qu’une [clé personnelle](/fr/help/manage-your-account/personal-key/).
 
-Login.gov exige des clés de sécurité répondant aux normes de la [FIDO (« Fast Identity Online », identité rapide en ligne)](https://fidoalliance.org/). Vous pouvez ajouter autant de clés de sécurité que vous le souhaitez pour sécuriser votre compte.
+ Il est plus sûr d’utiliser une clé de sécurité que de compter sur votre téléphone car la première est dotée de protections intégrées contre le piratage et les attaques par hameçonnage. Login.gov requiert l’emploi de clés de sécurité répondant aux normes [FIDO (« Fast Identity Online », identité rapide en ligne)](https://fidoalliance.org/).
 
-Pour utiliser cette option sécurisée pour vous authentifier sur Login.gov, connectez la clé à un port USB et attribuez-lui un nom pour pouvoir l'identifier avec votre compte Login.gov. L'étape suivante vous invitera à activer votre clé. Cela se fait généralement en appuyant sur un bouton présent sur la clé.
+Vous pouvez ajouter plusieurs clés de sécurité à votre compte pour le sécuriser.
+
+Comme Login.gov ne fournit pas aux utilisateurs de clé de sécurité, vous devez vous en procurer une par vos propres moyens pour employer cette solution sécurisée.
+
+### Comment configurer une clé de sécurité
+
+Pour employer cette solution sécurisée afin de vous authentifier sur Login.gov :
+
+{: .number-list}
+1. Affectez un surnom à votre clé de sécurité de façon à pouvoir ultérieurement l’identifier aisément avec votre compte Login.gov.
+
+2. Insérez votre clé de sécurité dans votre appareil.
+
+3. Suivez les instructions de votre navigateur pour activer votre clé de sécurité. Vous n’aurez pas besoin de saisir un code lorsque vous utiliserez votre clé de sécurité.
+
 
 ## SMS et appels téléphoniques
 
