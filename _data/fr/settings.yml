@@ -1,22 +1,21 @@
 accessible_labels:
   footer_navigation: Navigation en bas de page
   login_link_logo: Page d’accueil de Login.gov
-  partners_link_logo: Page d’accueil de Login.gov Partners
-  primary_navigation: Liens primaires
+  partners_link_logo: Page d’accueil des partenaires de Login.gov
+  primary_navigation: Principaux liens
   secondary_navigation: Liens secondaires
 actions:
-  search: Chercher
+  search: Rechercher
 banner:
   already-have-an-account:
-    learn_more: En savoir plus concernant la création d’un compte
-    one_account: Login.gov est votre compte unique pour les services gouvernementaux
-    sign_in: Connectez-vous pour gérer votre compte et mettre à jour vos
-      informations personnelles ou vos options de sécurité
-    text: Vous disposez déjà d’un compte?
+    learn_more: En savoir plus sur la création d’un compte
+    one_account: Login.gov est le compte qui vous ouvre l’accès aux sites des autorités
+    sign_in: Se connecter pour gérer votre compte
+    text: Vous avez déjà un compte ?
   one-account-for-govt:
     create: Créer un compte
-    learn: Apprendre à créer un compte
-    tagline: Votre seul compte pour le gouvernement
+    learn: Apprendre comment créer un compte
+    tagline: Le compte qui vous ouvre l’accès aux sites des autorités
   text:
     gov_description: Un site Web .gov appartient à une organisation gouvernementale
       officielle des États-Unis.
@@ -30,184 +29,192 @@ banner:
     secure_heading: Les sites Web sécurisés .gov utilisent HTTPS
 contact_page:
   call_us:
-    operating_hours: Les heures d’ouverture sont de 24 heures par jour, sept jours par semaine.
-    title: Appelez-nous
-  operating_hours: Les heures d’ouverture sont de 24 heures par jour, sept jours par semaine.
-  required: obligatoire
+    operating_hours: Nous sommes ouverts 24 heures sur 24, 7 jours sur 7.
+    title: Nous appeler
+  operating_hours: Nous sommes ouverts 24 heures sur 24, 7 jours sur 7.
+  required: Obligatoire
   support_request_form:
     agencies:
-      'Central Intelligence Agency': Agence centrale de renseignement
-      'Consumer Financial Protection Bureau': Bureau financier de la protection des consommateurs
-      'Customs and Border Protection Jobs': Emplois dans le domaine des douanes et de la protection des frontières
-      'Customs and Border Protection ROAM': ROAM des douanes et de la protection des frontières
+      'Central Intelligence Agency': Agence centrale du renseignement
+      'Consumer Financial Protection Bureau': Bureau de protection financière des consommateurs
+      'Customs and Border Protection Jobs': Emplois avec le Service des douanes et de la protection des frontières
+      'Customs and Border Protection ROAM': Application ROAM du Service des douanes et
+        de la protection des frontières
       'Department of Commerce': Département du Commerce
       'Department of Defense': Département de la Défense
       'Department of Education': Département de l’Éducation
-      'Department of Energy': Département de l’Energie
-      'Department of Homeland Security (DHS)': Département de la sécurité intérieure (DHS)
-      'Department of Justice (DOJ)': Département de la justice (DOJ)
+      'Department of Energy': Département de l’Énergie
+      'Department of Homeland Security (DHS)': Département de la Sécurité intérieure (DHS)
+      'Department of Justice (DOJ)': Département de la Justice (DOJ)
       'Department of Labor': Département du Travail
       'Department of State': Département d’État
       'Department of the Interior': Département de l’Intérieur
       'Department of the Treasury': Département du Trésor
       'Department of Transportation': Département des Transports
-      'Department of Veterans Affairs': Ministère des Anciens Combattants
-      'DOI ePermits': DOI ePermits
-      'DOL Foreign Labor Application Gateway (FLAG)': DOL Foreign Labor Application Gateway (FLAG)
-      'DOT Delphi eInvoicing': DOT Delphi eInvoicing
-      'DOT FMCSA (Motor Carrier Safety)': FMCSA du Département des transports (Sécurité des transporteurs routiers)
-      'DOT National Registry of Certified Medical Examiners': Registre national des médecins agréés du Département des transports
+      'Department of Veterans Affairs': Département des Anciens Combattants
+      'DOI ePermits': Permis en ligne auprès du DOI (département de l’Intérieur)
+      'DOL Foreign Labor Application Gateway (FLAG)': Portail d’accès pour les
+        demandes de travail de ressortissants étrangers (FLAG) du DOL
+        (département du Travail)
+      'DOT Delphi eInvoicing': Facturation en ligne Delphi du DOT (département des Transports)
+      'DOT FMCSA (Motor Carrier Safety)': FMCSA du DOT (Sécurité des transports routiers)
+      'DOT National Registry of Certified Medical Examiners': Registre national des médecins légistes agréés du DOT
       'Environmental Protection Agency': Agence de protection de l’environnement
-      'FDIC Resolution Request Management Portal': FDIC demande un portail de gestion des résolutions
-      'FEMA Disaster Assistance': Assistance FEMA en cas de catastrophe
+      'FDIC Resolution Request Management Portal': Portail de gestion des demandes de résolution de la FDIC
+      'FEMA Disaster Assistance': Aide de la FEMA en cas de catastrophe
       'General Services Administration': Administration des services généraux
       'Get.gov': Get.gov
-      'GSA Sam.gov': GSA SAM.gov
-      'Health and Human Services': Santé et services sociaux
-      'HHS Grants.gov': HHS Grants.gov
-      'HHS National Institutes of Health (NIH)': HHS Institut national de la santé (NIH)
-      'Housing and Urban Development': Logement et développement urbain
-      'Internal Revenue Service (IRS)': L’Internal Revenue Service (IRS)
+      'GSA Sam.gov': SAM.gov de la GSA
+      'Health and Human Services': Département de la Santé et des Services humains
+      'HHS Grants.gov': Grants.gov du HHS (département de la Santé et des Services humains)
+      'HHS National Institutes of Health (NIH)': Instituts nationaux de la santé (NIH) du HHS
+      'Housing and Urban Development': Logement et urbanisme
+      'Internal Revenue Service (IRS)': Service des recettes internes (IRS)
       'Library of Congress': Bibliothèque du Congrès
-      'MyTravelGov': Département d’État MyTravelGov
+      'MyTravelGov': MyTravelGov du département d’État
       'myTreasury': myTreasury
-      'National Aeronautics and Space Administration': Administration Nationale de l’Espace et de l’Aéronautique
-      'National Archives and Records Administration (NARA)': Archives nationales et administration des documents (NARA)
+      'National Aeronautics and Space Administration': Administration nationale de l’aéronautique et de l’espace
+      'National Archives and Records Administration (NARA)': Administration nationale des archives et des dossiers (NARA)
       'National Credit Union Administration (NCUA)': Administration nationale des coopératives de crédit (NCUA)
-      'National Endowment for the Humanities (NEH)': Fondation nationale pour les sciences humaines (NEH)
-      'National Labor Relations Board': Commission nationale des relations de travail
-      'National Transportation Safety Board (NTSB)': Conseil national de sécurité des transports (NTSB)
-      'Office of Personnel Management': Bureau de la gestion du personnel (OPM)
-      'OPM Employee Express': OPM Employé Express
-      'OPM Services Online': 'Services OPM en ligne'
+      'National Endowment for the Humanities (NEH)': Fondation nationale des sciences humaines (NEH)
+      'National Labor Relations Board': Conseil national des relations du travail
+      'National Transportation Safety Board (NTSB)': Bureau national de la sécurité des transports (NTSB)
+      'Office of Personnel Management': Bureau de gestion du personnel (OPM)
+      'OPM Employee Express': OPM Employee Express
+      'OPM Services Online': Services en ligne de l’OPM
       'Pay.gov': Pay.gov
-      'PBGC-MyPBA': 'PBGC - MyPBA'
-      'Peace Corps': Corps de la Paix
-      'Railroad Retirement Board': Conseil des retraites des chemins de fer
+      'PBGC-MyPBA': PBGC - MyPBA
+      'Peace Corps': Corps de la paix
+      'Railroad Retirement Board': Conseil des retraites dans les chemins de fer
       'SBA DLAP': SBA DLAP
-      'Securities and Exchange Commission': Commission des valeurs mobilières des États-Unis
-      'Social Security Administration (SSA)': Administration de la sécurité sociale (SSA)
+      'Securities and Exchange Commission': Commission des titres et de la bourse
+      'Social Security Administration (SSA)': Administration de la Sécurité sociale (SSA)
       'State of Arkansas': État de l’Arkansas
-      'State of California': État de Californie
-      'State of Colorado': État de Colorado
-      'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programmes pour voyageurs de confiance (Global Entry/Nexus/Sentri)
-      'U.S. Agency for International Development': Agence américaine pour le développement international
-      'U.S. Department of Agriculture': Département de l’agriculture des États-Unis
+      'State of California': État de la Californie
+      'State of Colorado': État du Colorado
+      'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programmes pour voyageurs dignes de confiance (Global Entry/Nexus/Sentri)
+      'U.S. Agency for International Development': Agence des États-Unis pour le développement international
+      'U.S. Department of Agriculture': Département de l’Agriculture des États-Unis
       'U.S. International Trade Commission': Commission du commerce international des États-Unis
-      'United States Forest Service': Service forestier des États-Unis
+      'United States Forest Service': Service des forêts des États-Unis
       'USAJOBS': USAJOBS
     errors:
-      captcha_required: Vous devez relever le défi de la prévention du pourriel.
-      pii_found: Pour le respect de votre vie privée, ne soumettez pas d’informations
-        sensibles dans ce formulaire. Nos agents du service clientèle peuvent
-        toujours vous aider sans ces informations.
+      captcha_required: Vous devez nous prouver que vous n’êtes pas un robot.
+      pii_found: Pour protéger votre vie privée, ne fournissez pas de renseignements
+        sensibles dans ce formulaire. Nos agents du service d’assistance à la
+        clientèle pourront vous aider même s’ils n’ont pas ces informations.
     form_helpers:
-      select_agency: '- Sélectionnez Agence à laquelle vous essayez d’accéder -'
-      select_issue: '- Sélectionnez une question spécifique -'
-      select_topic: '- Sélectionnez un sujet -'
+      select_agency: '- Organisme auquel vous essayez d’accéder -'
+      select_issue: '- Sélectionner un problème précis -'
+      select_topic: '- Sélectionner un sujet -'
     labels:
-      agency_application: Demande à une agence
+      agency_application: Organisme partenaire
       agency_application_all: Toutes les applications
       agency_application_common: Applications courantes
       agency_application_other: Autres applications
-      description: Fournissez plus de détails. Si vous avez besoin d’aide, veuillez
-        décrire les mesures que vous avez suivies et les problèmes que vous avez
-        rencontrés.
+      description: Fournir plus de détails Si vous avez besoin d’aide, veuillez
+        décrire les étapes que vous avez effectuées et les problèmes rencontrés.
       email: E-mail
       first_name: Prénom
-      last_name: Nom
-      pii_warning: N’incluez pas les numéros de téléphone, les numéros de membre, les
-        noms complets, les anniversaires, les adresses, les numéros de sécurité
-        sociale ou toute autre information permettant d’identifier les
-        personnes.
-      subtopic: Thème de la question
-      topic: Thème de la question
-    other: Other
-    required_text: Les champs obligatoires sont marqués d’un astérisque
-    reset: Formulaire clair
-    submit: Soumettre
+      last_name: Nom de famille
+      pii_warning: Veuillez ne pas fournir de numéro de téléphone, de numéros
+        d’adhérent, de nom complet, de date de naissance, d’adresse, de numéro
+        de sécurité sociale ou toutes autres informations d’identification.
+      subtopic: Problème
+      topic: Sujet
+    other: Autre
+    required_text: Les champs requis sont marqués d’une astérisque
+    reset: Effacer le formulaire
+    submit: Valider
     subtopics:
-      account_locked: Mon compte est bloqué pendant 24 heures
-      add_family_member: Comment puis-je ajouter un membre de ma famille à mon compte Login.gov?
-      agency_app: Problème avec l’appli de l’agence
-      authentication_app: J’ai une application d’authentification mais elle ne fonctionne pas
-      authentication_app_setup: Comment configurer une application d’authentification?
-      backup_codes: Comment utiliser mes codes de sauvegarde pour me connecter?
-      blank_screen: Je vois une erreur/un écran vide lors de la création de mon compte
-      cant_proof_in_person: Je n’ai pas pu vérifier mon identité en personne au bureau de poste.
-      change_email: Comment puis-je modifier mon adresse courriel?
-      change_password: Comment puis-je mettre à jour mon mot de passe Login.gov?
-      change_phone_number: Comment modifier mon numéro de téléphone?
-      concerned_login_email: Je suis préoccupé par le courriel que j’ai reçu de Login.gov
-      delete_account: Comment supprimer mon compte Login.gov?
-      device_notification: J’ai reçu une alerte concernant une nouvelle ouverture de
-        session sur mon compte Login.gov
-      email_delivery_issue: Je ne reçois pas le courriel de confirmation de Login.gov
-      feedback: J’ai des commentaires à propos de Login.gov
-      forgot_password: J’ai oublié mon mot de passe Login.gov et je ne peux pas le réinitialiser
-      how_to_create_with_verification: Comment puis-je créer un compte Login.gov avec vérification d’identité?
-      how_to_link: Comment puis-je lier le compte de mon agence partenaire avec Login.gov?
-      how_to_verify: Comment/pourquoi dois-je vérifier mon identité?
-      interest_in_partnership: Je suis intéressé par l’utilisation de Login.gov pour
-        mon agence gouvernementale
-      international_number: J’ai un numéro international et je ne reçois pas mon code de sécurité
-      invalid_email: Login.gov n’accepte pas mon adresse courriel. Il est indiqué
-        qu’elle n’est pas valide
-      invalid_otp: Login.gov indique que mon code de sécurité n’est pas valide
-      issue_with_partner_agency: J’ai un problème avec cette agence partenaire
-      issues_with_face_touch_unlock: J’ai un problème avec le déverrouillage facial ou tactile
-      letter_in_mail: Je n’ai pas reçu ma lettre par la poste ou elle a expiré
-      locked_out: Je suis bloqué sur mon compte
-      lost_2fa_method: Authentification à deux facteurs perdue
-      lost_access: J’ai perdu l’accès à mon téléphone ou à mon adresse électronique
-      multiple_otps: Je reçois de nombreux codes de sécurité lors de l’ouverture de session
-      new_account: Mon courriel/nom d’utilisateur et mon mot de passe ne fonctionnent pas
-      new_backup_codes: Comment obtenir de nouveaux codes de sauvegarde?
-      new_device_notification: J’ai reçu une notification par adresse électronique d’un nouvel appareil
-      new_personal_key: Comment obtenir une nouvelle clé personnelle?
-      no_otp_received: Aucun OTP reçu
-      no_phone: Je ne peux pas créer mon compte Login.gov parce que je n’ai pas de
-        téléphone.
-      none: '--Aucun--'
+      account_locked: Mon compte est verrouillé pendant 24 heures
+      add_family_member: Comment puis-je ajouter un membre de ma famille à mon compte Login.gov ?
+      agency_app: Problème relevant de l’application de l’organisme
+      authentication_app: Comment puis-je modifier ma méthode d’authentification ?
+      authentication_app_setup: Comment puis-je configurer une application d’authentification ?
+      backup_codes: Comment puis-je utiliser mes codes de sauvegarde pour me connecter ?
+      blank_screen: Je vois une erreur/un écran vide quand je suis en train de créer
+        mon compte.
+      cant_proof_in_person: Je n’ai pas pu confirmer mon identité en personne au bureau de poste.
+      change_email: Comment puis-je modifier mon adresse e-mail ?
+      change_password: Comment puis-je actualiser mon mot de passe Login.gov ?
+      change_phone_number: Comment puis-je modifier mon numéro de téléphone ?
+      concerned_login_email: Je m’inquiète au sujet de l’e-mail que j’ai reçu de Login.gov.
+      delete_account: Comment puis-je supprimer mon mot de passe Login.gov ?
+      device_notification: J’ai reçu une alerte au sujet d’une nouvelle connexion à
+        mon compte Login.gov.
+      email_delivery_issue: Je ne reçois pas l’e-mail de confirmation de la part de Login.gov.
+      feedback: J’ai des commentaires à propos de Login.gov.
+      forgot_password: J’ai oublié mon mot de passe Login.gov et je ne parviens pas à
+        le réinitialiser.
+      how_to_create_with_verification: Comment puis-je créer un compte Login.gov avec vérification d’identité ?
+      how_to_link: Comment puis-je associer mon compte chez un organisme partenaire à
+        Login.gov ?
+      how_to_verify: Comment/pourquoi dois-je confirmer mon identité ?
+      interest_in_partnership: Je souhaite utiliser Login.gov pour accéder à mon organisme public.
+      international_number: J’ai un numéro de téléphone non américain (international)
+        et ne parviens pas à recevoir mon code de sécurité.
+      invalid_email: Login.gov n’accepte pas mon adresse e-mail. Il est indiqué
+        qu’elle n’est pas valable.
+      invalid_otp: Login.gov indique que mon code de sécurité n’est pas valable.
+      issue_with_partner_agency: Je rencontre un problème avec cet organisme partenaire.
+      issues_with_face_touch_unlock: Je rencontre des problèmes avec l’emploi du
+        déverrouillage facial ou tactile.
+      letter_in_mail: Je n’ai pas reçu mon courrier par la poste ou mon courrier n’est
+        plus valable.
+      locked_out: Mon compte est verrouillé.
+      lost_2fa_method: J’ai perdu ma méthode d’authentification à deux facteurs.
+      lost_access: J’ai perdu l’accès à mon téléphone ou à mon adresse e-mail.
+      multiple_otps: Je reçois plusieurs codes de sécurité au moment de me connecter.
+      new_account: Mon adresse e-mail/identifiant et mot de passe ne marchent pas.
+      new_backup_codes: Comment puis-je recevoir de nouveaux codes de sauvegarde ?
+      new_device_notification: J’ai reçu un e-mail me notifiant d’une connexion sur un nouvel appareil.
+      new_personal_key: Comment puis-je obtenir une nouvelle clé personnelle ?
+      no_otp_received: Je n’ai pas reçu d’OTP (mot de passe à usage unique)
+      no_phone: Je ne parviens pas à créer de compte Login.gov parce que je n’ai pas
+        de téléphone.
+      none: –Néant–
       other: Autre
       password_issue: Problème de mot de passe
-      personal_key: Ma clé personnelle ne fonctionne pas
-      personal_key_notification: J’ai reçu une alerte concernant l’utilisation de ma
-        clé personnelle pour me connecter
-      personal_key_setup: Configuration de la clé personnelle
-      phone_number_failure: J’ai reçu un message d’erreur après avoir entré mon numéro de téléphone
-      piv_cac: J’ai des difficultés à utiliser mon PIV/CAC pour me connecter
+      personal_key: Ma clé personnelle ne fonctionne pas.
+      personal_key_notification: J’ai reçu une alerte me notifiant que ma clé
+        personnelle a servi pour une connexion.
+      personal_key_setup: Paramétrage de la clé personnelle
+      phone_number_failure: J’ai reçu un message d’échec après avoir saisi mon numéro de téléphone.
+      piv_cac: Je rencontre des difficultés pour me connecter avec ma carte PIV/CAC.
       privacy_and_security: Confidentialité et sécurité
       recover_account: Comment puis-je me connecter à mon compte si je n’ai pas mon
-        téléphone ou ma clé personnelle?
-      remember_browser: J’ai configuré mon navigateur, mais je reçois toujours des
-        codes de sécurité
-      remember_device_issue: Comment puis-je cesser de recevoir des codes de sécurité?
-      security_code: Je ne reçois pas le code de sécurité
-      security_key: J’ai des difficultés à utiliser ma clé de sécurité pour me connecter
-      security_question: Comment protégez-vous/comment Login.gov protège-t-il ma vie
-        privée et ma sécurité?
-      seeing_errors: Je vois une erreur/un écran vide lorsque j’accède à Login.gov
-      service_quality: Qualité du service
-      site_navigation: Je ne sais pas où aller pour créer un compte
-      state_issued_id_error: J’ai eu une erreur après avoir téléchargé mon identifiant d’état
-      unwanted_otp: Je reçois des codes de sécurité de Login.gov que je n’ai pas demandés
-      verify_identity_error: J’ai reçu un message d’erreur en essayant de vérifier mon identité
-      wrong_account_update: Mise à jour de compte erronée
-    title: Soumettre un ticket d’assistance
+        téléphone ni une clé personnelle ?
+      remember_browser: J’ai paramétré « Se souvenir de ce navigateur » mais je
+        continue à recevoir des codes de sécurité.
+      remember_device_issue: Comment puis-je arrêter de recevoir des codes de sécurité ?
+      security_code: Je ne parviens pas à recevoir de code de sécurité.
+      security_key: Je rencontre des difficultés pour me connecter avec ma clé de sécurité.
+      security_question: Comment vous engagez-vous/s’engage Login.gov à protéger ma
+        sécurité et ma confidentialité ?
+      seeing_errors: Je vois une erreur/un écran vide au moment d’accéder à mon compte
+        Login.gov.
+      service_quality: Qualité de service
+      site_navigation: Je ne sais pas sur quelle page aller pour créer un compte.
+      state_issued_id_error: J’ai reçu un message d’erreur après avoir téléversé mon
+        document d’identité délivré par l’État.
+      unwanted_otp: Je reçois des codes de sécurité de Login.gov que je n’ai pas demandés.
+      verify_identity_error: J’ai reçu un message d’échec en essayant de confirmer mon identité.
+      wrong_account_update: Actualisation du compte erronée
+    title: Envoyer un ticket de demande d’assistance
     topics:
-      changing_settings: Changer vos informations de Login.gov
+      changing_settings: Modifier vos informations sur Login.gov
       creating_account: Créer un compte Login.gov
-      feedback: Commentaires ou autre
-      not_login_gov: Pas Login.gov
+      feedback: Commentaires ou autres
+      not_login_gov: Ne concerne pas Login.gov
       other: Autre
-      piv_cac: Problème de PIV/CAC
-      security_codes: Codes de sécurité de Login.gov
-      signing_in: Se connecter à votre compte Login.gov
-      verifying_identity: Vérifier votre identité
+      piv_cac: Difficultés avec une carte PIV/CAC
+      security_codes: Codes de sécurité Login.gov
+      signing_in: Vous connecter à votre compte Login.gov
+      verifying_identity: Confirmer votre identité
 feedback_form:
   'no': 'Non'
-  question: Cet article vous a-t-il été utile?
+  question: Cet article vous a-t-il été utile ?
   'yes': 'Oui'
 global:
   language: Langue
@@ -218,58 +225,61 @@ global:
     zh: '中文 (简体)'
 help_page:
   categories:
-    - description: Créez votre compte. Découvrez les options d’authentification et
-        d’autres caractéristiques du compte.
+    - description: Créez votre compte. Informez-vous sur les options
+        d’authentification et sur davantage de caractéristiques des comptes.
       image: /assets/img/help/get-started.svg
-      title: Commencez avec Login.gov
+      title: Démarrage avec Login.gov
       url: /fr/help/get-started/overview/
-    - description: Vous avez oublié votre mot de passe ? Votre compte est bloqué ?
-        Nous vous aiderons à résoudre vos problèmes d’accès.
+    - description: Mot de passe oublié ? Compte verrouillé ? Nous vous aiderons à
+        résoudre les problèmes d’accès. Nous vous aiderons à résoudre vos
+        problèmes d’accès.
       image: /assets/img/help/trouble-signing-in.svg
-      title: Des problèmes pour vous connecter?
+      title: Vous rencontrez des difficultés pour vous connecter ?
       url: /fr/help/trouble-signing-in/overview/
     - description: Modifiez les paramètres de votre compte, notamment votre mot de
-        passe, votre numéro de téléphone, votre adresse électronique, etc.
+        passe, votre numéro de téléphone, votre adresse e-mail, etc.
       image: /assets/img/help/manage-your-account.svg
-      title: Gérez votre compte
+      title: Gérer votre compte
       url: /fr/help/manage-your-account/overview/
-    - description: Obtenez de l’aide avec Trusted Traveler Programs (TTP), SAM.gov.
+    - description: Obtenez de l’aide avec les Programmes pour voyageurs dignes de
+        confiance (TTP) et SAM.gov.
       image: /assets/img/help/help-specific-agencies.svg
-      title: Assistance auprès des agences spécifiques
+      title: Aide concernant des organismes spécifiques
       url: /fr/help/specific-agencies/overview/
-    - description: Découvrez les différentes options de vérification de votre identité.
+    - description: Informez-vous sur les possibilités de vérification de votre identité.
       image: /assets/img/help/verify-your-id.svg
-      title: Vérifiez votre identité
+      title: Confirmer votre identité
       url: /fr/help/verify-your-identity/overview/
-  p_1: Parcourir les sujets communs
-  title: Comment pouvons nous aider?
+  p_1: Parcourir les thèmes courants
+  title: Que pouvons-nous faire pour vous ?
 help_subpages:
-  get-started: Commencez avec Login.gov
-  manage-your-account: Gérez votre compte
-  specific-agencies: Aide aux agences spécifiques
-  trouble-signing-in: Des problèmes pour vous connecter?
-  verify-your-identity: Vérifiez votre identité
+  get-started: Démarrage avec Login.gov
+  manage-your-account: Gérer votre compte
+  specific-agencies: Aide concernant des organismes spécifiques
+  trouble-signing-in: Vous rencontrez des difficultés pour vous connecter ?
+  verify-your-identity: Confirmer votre identité
 identifier:
   accessible_labels:
-    description: Descriptif de l’agence
-    gsa_link_logo: Page d’accueil de GSA
-    identifier: Identifiant de l’agence
+    description: Description de l’organisme
+    gsa_link_logo: Page d’accueil de la GSA
+    identifier: Identifiant de l’organisme
     links: Liens importants
     login_gov_logo: Login.gov logo
-    usa_gov: Informations et services du gouvernement américain
-  disclaimer: Un site Web officiel de [General Services
+    usa_gov: Informations et services des autorités américaines
+  disclaimer: Un site officiel de la GSA [General Services
     Administration](https://www.gsa.gov)
   links:
-    about_agency: À propos de GSA
-    accessibility: Support de l’accessibilité
-    foia: Demandes FOIA
-    ig: Bureau de l’inspecteur général
-    no_fear_act: Données No FEAR Act
-    performance: Rapports de performances
+    about_agency: À propos de la GSA
+    accessibility: Aide à l’accessibilité
+    foia: Demandes au titre de la loi FOIA
+    ig: Bureau de l’Inspecteur général
+    no_fear_act: Données au titre de la loi No FEAR
+    performance: Rapports sur les performances
     privacy: Politique de confidentialité
   usa_gov:
-    link: Visitez USA.gov
-    text: Vous recherchez des informations et des services du gouvernement américain?
+    link: Aller sur USA.gov
+    text: Vous recherchez des informations et services concernant les autorités
+      américaines ?
 nav:
   about_us:
     sections:
@@ -279,7 +289,7 @@ nav:
         url: '#notre-vision'
       - name: À propos de Login.gov
         url: '#à-propos-de-logingov'
-    title: À propos de nous
+    title: Qui sommes-nous ?
   accessibility:
     sections:
       - name: Notre engagement
@@ -290,12 +300,12 @@ nav:
         url: '#évaluation'
       - name: Limites connues
         url: '#limites-connues'
-    title: Accessibilité
-  anchor_to_top: Retour au sommet
-  become_a_partner: Devenir un partenaire
+    title: Déclaration sur l’accessibilité
+  anchor_to_top: Retour en haut de la page
+  become_a_partner: Devenir partenaire
   business_inquiries:
-    title: Business inquiries
-  contact_login_gov: Contactez Login.gov
+    title: Demandes d’informations commerciales
+  contact_login_gov: Contacter Login.gov
   contact_us:
     sections:
       - name: Trouvez des réponses aux questions fréquemment posées
@@ -311,13 +321,13 @@ nav:
   developer_guide: Guide du développeur
   developers: Développeurs
   faq: FAQ
-  get_started: Get started # parters site does not require translations
+  get_started: Get started # partners site does not require translations
   groups:
     about_login_gov: About Login.gov # partners site does not require translations
-    agencies: Pour les agences
-    learn: Apprendre
+    agencies: Pour les organismes publics
+    learn: S’informer
     partners: For partners # partners site does not require translations
-    support: Soutien
+    support: Appui
   help: Aide
   help_center: Centre d’aide
   home: Accueil
@@ -328,19 +338,19 @@ nav:
         url: '#postes-à-pourvoir'
       - name: Comment déposer une candidature
         url: '#comment-déposer-une-candidature'
-    title: Rejoignez nous
+    title: Nous rejoindre
   menu: Menu
-  overview: Aperçu
-  playbook: Guide de mise en œuvre
+  overview: Vue d’ensemble
+  playbook: Les règles d’utilisation
   policies:
     sections:
-      - name: Notre engagement envers votre confidentialité et votre sécurité
+      - name: Notre engagement en faveur de votre sécurité et de la confidentialité
         url: /fr/policy/
-      - name: Comment ça marche?
+      - name: Comment ça marche ?
         url: /fr/policy/how-does-it-work/
-      - name: Notre déclaration de confidentialité
+      - name: Notre déclaration relative à la loi sur la confidentialité
         url: /fr/policy/our-privacy-act-statement/
-      - name: Termes et conditions de la messagerie
+      - name: Conditions générales de la messagerie
         url: /fr/policy/messaging-terms-and-conditions/
       - name: Règles d’utilisation
         url: /fr/policy/rules-of-use/
@@ -350,8 +360,8 @@ nav:
   privacy_&_security: Confidentialité et sécurité
   security: Sécurité
   security_experience: Security experience # partners site does not require translations
-  sign_in: 'Connectez-vous avec'
+  sign_in: 'Se connecter avec'
   skip_nav: Passer au contenu principal
   system_status: État du système Login.gov
-  what_is_login_gov: Qu’est-ce que Login.gov?
-  who_uses_login_gov: Qui utilise Login.gov?
+  what_is_login_gov: Qu’est-ce que Login.gov ?
+  who_uses_login_gov: Qui utilise Login.gov ?
