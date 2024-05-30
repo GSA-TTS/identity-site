@@ -25,11 +25,16 @@ Veuillez ne pas envoyer à Login.gov de données sensibles sur vous-même ou con
 
 Login.gov ne peut répondre qu'aux questions concernant la création d'un compte Login.gov et le processus de connexion.
 
-Veuillez contacter directement [SAM.gov](https://sam.gov/) si vous avez des questions concernant :
-* L’enregistrement, l’admissibilité, le statut ou les modifications relatifs à une demande
-* La prise d’un rendez-vous
-* Le statut d’enregistrement d’une entité
-* Ou d’autres préoccupations connexes
+Veuillez contacter directement [SAM.gov](https://sam.gov/) si vous avez des questions concernant:
+
+* [Comment puis-je voir mon identifiant unique d'entité (UEID) ou l’enregistrement de l’inscription de mon entité?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=27a95ddfdb73b990a8cb4a39139619e9)
+* Administration de l’entité
+  * [Comment puis-je devenir administrateur d’une entité?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=923dcc781b3a6d502fe5ed7ae54bcbe9)
+  * [Comment puis-je actualiser/renouveler l’administration d’une entité dans SAM.gov?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=707404621b327d90860e62cfe54bcb58)
+* Les adresses e-mail et votre compte Login.gov
+  * [Que dois-je faire si mon entreprise modifie mon adresse e-mail?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=6d69d674879b355065b70ed40cbb35e9)
+  * [J’ai mis à jour mon adresse e-mail dans Login.gov ; pourquoi ne puis-je pas me connecter sur SAM.gov ni recevoir mon code d’accès à usage unique (OTP)?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=da7c0c411bcdfd142fe5ed7ae54bcb4c)
+  * [Qu’advient-il de mon accès à SAM.gov si je change d’adresse e-mail sur Login.gov?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=9f6f9c311b6d7150c5c4dd39bc4bcb22)
 
 Pour apporter des modifications à votre profil de compte SAM.gov, vous devez vous connecter sur <https://sam.gov>.
 

@@ -34,10 +34,16 @@ La cuenta de Login.gov es únicamente para iniciar sesión de forma segura. Su c
 Login.gov solo puede responder las preguntas sobre el proceso de inicio de sesión y la creación de una cuenta de Login.gov.
 
 Contacte directamente con los [programas para viajeros de confianza](https://help.cbp.gov/s/questions?language=es) si tiene preguntas acerca de:
-* Estado o cambios de su solicitud
-* Cumplimiento de requisitos
-* Programación o cambio de citas
-* Otras consideraciones afines
+
+* Solicitudes
+  * [Estado de la solicitud](https://help.cbp.gov/s/article/Article-1886?language=es)
+  * [Cambios en la solicitud](https://help.cbp.gov/s/article/Article-1377?language=es)
+* Citas
+  * [Programación o cambio de citas](https://help.cbp.gov/s/article/Article-1378?language=es)
+  * [Inscripción al llegar](https://help.cbp.gov/s/article/Article-1871?language=es)
+* [Tarjeta de NEXUS, SENTRI o Global Entry extraviada, robada o dañada](https://help.cbp.gov/s/article/Article-1206?language=es)
+* [Solicitud para el programa para viajeros de confianza equivocado](https://help.cbp.gov/s/article/Article-1759?language=es)
+* [Otras preguntas sobre el programa para viajeros de confianza](https://help.cbp.gov/s/all-ttp-articles?language=es)
 
 Información importante:
 * Su número de viajero conocido (KTN) no cambia cuando crea una cuenta de Login.gov.
