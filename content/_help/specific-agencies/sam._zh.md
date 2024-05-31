@@ -11,12 +11,16 @@ Login.gov 只是用于安全登录。你的 Login.gov 账户不影响你在采�
 
 Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 
-如果你有事关以下内容的问题，请直接联系 [SAM.gov：](https://sam.gov/)
+如果你有事关以下内容的问题，请直接联系 [SAM.gov:](https://sam.gov/)
 
-* 注册申请、入选资格、状态或变更。
-* 预约
-* 实体注册状态
-* 或其他相关问题。
+* [我如何看自己的独特实体身份证件（UEID）或实体注册记录？](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=27a95ddfdb73b990a8cb4a39139619e9)
+* 实体管理
+  * [我如何成为实体管理员？](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=923dcc781b3a6d502fe5ed7ae54bcbe9)
+  * [我如何在SAM.gov更新实体管理？](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=707404621b327d90860e62cfe54bcb58)
+* 电邮地址和你的Login.gov 账户
+  * [如果我的公司改了我的电邮地址，我该怎么办？](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=6d69d674879b355065b70ed40cbb35e9)
+  * [我已在Login.gov 更新了自己的电邮地址，但为什么无法登入SAM.gov 或接受一次性代码（OTP）？](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=da7c0c411bcdfd142fe5ed7ae54bcb4c)
+  * [如果我更改自己在Login.gov 的电邮地址，对SAM.gov登录权限会有什么影响？](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=9f6f9c311b6d7150c5c4dd39bc4bcb22)
 
 要更改你的 SAM.gov 账户资料，需在 <https://sam.gov> 登录。
 

@@ -38,10 +38,15 @@ Login.gov can only answer questions about the sign-in process and creating a Log
 
 Please contact the [Trusted Traveler Programs](https://help.cbp.gov/s/questions?language=en_US) directly if you have questions regarding:
 
-* Application status or changes to your application
-* Eligibility
-* Scheduling or changing appointments
-* Or other related concerns
+* Applications
+  * [Application status](https://help.cbp.gov/s/article/Article-1886?language=en_US)
+  * [Application changes](https://help.cbp.gov/s/article/Article-1377?language=en_US)
+* Appointments
+  * [Scheduling or changing appointments](https://help.cbp.gov/s/article/Article-1378?language=en_US)
+  * [Enrollment on Arrival](https://help.cbp.gov/s/article/Article-1871?language=en_US)
+* [Lost, stolen, or damaged NEXUS, SENTRI, or Global Entry card](https://help.cbp.gov/s/article/Article-1206?language=en_US)
+* [Applied for wrong Trusted Traveler Program](https://help.cbp.gov/s/article/Article-1759?language=en_US)
+* [Other Trusted Traveler Program questions](https://help.cbp.gov/s/all-ttp-articles?language=en_US)
 
 Important notes:
 
