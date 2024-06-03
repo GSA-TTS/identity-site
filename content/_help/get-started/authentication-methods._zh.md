@@ -5,7 +5,7 @@ category: get-started
 permalink: /zh/help/get-started/authentication-methods/
 order: 2
 ---
-除了你的密码之外，Login.gov 还要求你设立至少一种辅助身份证实方法来保障账户安全。这叫做多因素身份证实（MFA）我们使用 MFA 作为保护你信息安全的额外一层保障。
+除了你的密码之外，Login.gov 还要求你设立至少一种辅助身份证实方法来保障账户安全。这叫做多重身份证实（MFA)。我们使用 MFA 作为保护你信息安全的额外一层保障。
 
 **身份证实方法**
 我们鼓励你给自己的账户添加两种身份证实方法。这样万一你丢失了主身份证实方法（比如丢了电话），还有第二种方法来进入账户。如果你被锁在账户之外和/或丢失了身份证实方法，Login.gov 无法授予您访问帐户的权限。如果被锁在账户外，你就不得不删除账户，设立一个新的。
@@ -20,7 +20,7 @@ order: 2
     <p class="usa-alert__text">要用刷脸或触摸解锁在多个设备上登录 Login.gov，你可能需要在你的设备上启动云同步。</p>
   </div>
 </div>
-人脸或触摸解锁让你使用面孔或指纹扫描、输入你的 PIN 码或图案，或者扫描QR码来登录。这样你就不必使用一次性代码来做身份证实。
+人脸或触摸解锁让你使用面孔或指纹扫描、输入你的 PIN 码或图案，或者扫描二维码（QR)码来登录。这样你就不必使用一次性代码来做身份证实。
 
 如果你选择设置人脸或触摸解锁，首先需要设置基于自己面孔或指纹的凭据。这一凭据将存在你的设备里，或者存在云里（如果你使用兼容的浏览器和设备）。
 
@@ -38,7 +38,7 @@ order: 2
 
 1. 选择一个可以安装 app 的设备，比如电脑或移动设备（手机或平板电脑）。
 2. 在设备上下载并安装一个身份证实应用程序。常见选项包括：
-   
+
    * 安卓选项：[Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
    * iOS选项：[Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
    * Windows app: [1Password](https://1password.com/), [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn).
@@ -80,16 +80,17 @@ Login.gov 不给用户提供安全密钥，所以要使用这一安全选项，�
 收到代码后，请将其打入“一次性代码”域。每次你登录 Login.gov，都有通过接听电话或接受短信得到新的一次性代码的选择。每次你登录 Login.gov，都会收到一个新的一次性代码。
 
 <div id="didn-t-receive-your-one-time-code">没收到一次性代码？</div>
- 
+
 * 检查你的设备是否已开机
 * 关闭飞行模式
+
 请记住，你需要移动设备来通过短信接受一次性代码。如果你有座机电话，请选择通过接听电话接受一次性代码。
 
 选择使用“重发代码”按钮，你可以重新得到一次性代码。
 
 ## 备用代码（更不安全）
 
-备用代码是给无法使用电话的用户的一个选项。但是，备用代码是最不安全的双因素身份证实选项。备用代码必须打印出来或写下来，使其容易被盗和遭到钓鱼式攻击。
+备用代码是给无法使用电话的用户的一个选项。但是，备用代码是最不安全的双重身份证实选项。备用代码必须打印出来或写下来，使其容易被盗和遭到钓鱼式攻击。
 
 如果你选择这一不安全的选项，Login.gov 会生成一套十个代码。你使用用户名和密码登录后，系统会提示要代码。每个代码只能使用一次。第十个代码被用后，系统会提示你下载一个新的代码单。请像对待密码一样谨慎对待这些恢复代码。
 

@@ -13,10 +13,15 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 
 如果你有事关以下内容的问题，请直接联系[受信任旅客计划](https://help.cbp.gov/s/questions?language=en_US)：
 
-* 申请状态或者申请变更
-* 入选资格
-* 预约或预约变更
-* 或其他相关问题。
+* 申请
+  * [申请状态](https://help.cbp.gov/s/article/Article-1886?language=en_US)
+  * [申请变更](https://help.cbp.gov/s/article/Article-1377?language=en_US)
+* 预约
+  * [安排或变更预约时间](https://help.cbp.gov/s/article/Article-1378?language=en_US)
+  * [到达时注册](https://help.cbp.gov/s/article/Article-1871?language=en_US)
+* [NEXUS、SENTRI或全球入境（Global Entry）卡丢失、被盗或受损](https://help.cbp.gov/s/article/Article-1206?language=en_US)
+* [申请的受信任旅客计划不对](https://help.cbp.gov/s/article/Article-1759?language=en_US)
+* [其他有关受信任旅客计划的问题](https://help.cbp.gov/s/all-ttp-articles?language=en_US)
 
 注意要点：
 

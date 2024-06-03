@@ -27,14 +27,14 @@ help_center_content: >-
   * [浏览更多帮助文章](/zh/help/)
 maintenance_window_content: Login.gov 的联系中心目前正在进行维护  从 <strong>%{start_time} - %{end_time}.</strong>请访问以下常见主题获得帮助。
 phone_available_content: 你可以随时致电我们的支持中心，电话号码是 (844) 875-6446.
-unplanned_outage_content: 由于服务中断，我们无法查看网上支持请求。 
+unplanned_outage_content: 由于服务中断，我们无法查看网上支持请求。
 partner_content: >-
   ## 与 Login.gov 合作
 
   你的机构有兴趣使用 Login.gov？请[访问我们的合作伙伴网站](/partners/)或[联系我们](/partners/business-inquiries/)。
 
 report_issue_content: >-
-  ## 汇报问题
+  ## 反映问题
 
   如果你想汇报问题，请查看我们的漏洞披露政策 [漏洞披露政策](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/ "跟随链接")并使用[漏洞披露表格](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform "跟随链接")与我们联系。
 scripts:

@@ -15,3 +15,14 @@ body {
 .font-xs {
   font-size: $base-font-xs;
 }
+
+
+// Typography updates for language specific spacing
+.lang-zh {
+
+  .hero .hero__title {
+
+    font-size: 150%; // responsive text to ensure zh translations display correctly
+    white-space: nowrap; // nowrap to ensure zh translations do not line break incorrectly
+  }
+}

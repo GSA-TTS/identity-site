@@ -48,7 +48,7 @@ There may be circumstances where we are required to share certain data. Please r
 
 Even when we share the information with law enforcement, we cannot access the PII you submit because the information is encrypted in a manner that is unretrievable to the Login.gov team.
 
-Images of State IDs, however, are retrievable. Login.gov retains the image of your U.S. based State ID or driver’s license in an encrypted format. The image is only retrieved and decrypted upon the mutual determination of Login.gov and the partner agency for law enforcement purposes due to suspected fraud. 
+Images of State IDs, however, are retrievable. Login.gov retains the image of your U.S. based State ID or driver’s license in an encrypted format. The image is only retrieved and decrypted upon the mutual determination of Login.gov and the partner agency for law enforcement purposes due to suspected fraud.
 
 ### Consent - How can you control what information is shared? ### {#consent}
 
