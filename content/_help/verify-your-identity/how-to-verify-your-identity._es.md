@@ -35,30 +35,31 @@ Login.gov es un sitio web gubernamental seguro que cumple las normas más elevad
 1. Lea los requisitos en la página “Necesitamos verificar su identidad” y, si está de acuerdo, marque la casilla que está al lado de la declaración de consentimiento de Login.gov.
     * Haga clic en "Continuar".
 2. Cargue una fotografía de su licencia de conducir o tarjeta de identificación estatal.
-    * Nota: Si comienza el proceso de verificación de identidad en su computadora, tiene la opción de cambiar y usar su teléfono para cargar imágenes.
+    * Nota: Si comienza el proceso de verificación de identidad en su computadora, tiene la opción de cambiar y usar su teléfono para tomar imágenes.
 
-    **Continuar por computadora y cargar imágenes:**
+    **Si continúa en la computadora:**
+
     * Haga clic en “Seleccionar archivo” para cargar una imagen del FRENTE de su identificación.
         * Seleccione el archivo de tu computadora
     * Haga clic en “Seleccionar archivo” para cargar una imagen del REVERSO de su identificación.
         * Seleccione el archivo de tu computadora.
         * Haga clic en "Continuar".
 
-    **Cambiar de la computadora al teléfono para subir imágenes**
+    **Si cambia de la computadora al teléfono:**
+
     * Ingrese su número de teléfono.
         * Elija un numero telefónico en el que pueda recibir mensajes de texto y haga clic en “Continuar”.
     * Haga clic en el vínculo que se envió a su teléfono.
-    * Verá las opciones para “tomar una foto” o para “cargar una foto”.
-        * Cargue una imagen del FRENTE de su identificación de la galería de fotos de su teléfono o tome una imagen del frente de su identificación.
-        * Cargue una imagen del REVERSO de su identificación de la galería de fotos de su teléfono o tome una imagen del reverso de su identificación.
+    * Tome una foto del frente de su identificación.
+    * Tome una foto del reverso de su identificación.
     * Es posible que también necesite tomarse una fotografía para efectuar este paso.
     * Vuelva a la computadora para finalizar el proceso.
 
-    **Continuar por teléfono y cargar imágenes:**
+    **Si continúa por teléfono:**
 
-    * Verá una pantalla del “frente” y el “reverso” en cuadros grandes y la opción para “tomar una foto” o para “cargar una foto”.
-        * Cargue una imagen del FRENTE de su identificación de la galería de fotos de su teléfono o tome una imagen del frente de su identificación.
-        * Cargue una imagen del REVERSO de su identificación de la galería de fotos de su teléfono o tome una imagen del reverso de su identificación.
+    * Verá una pantalla del “frente” y el “reverso” en cuadros grandes.
+        * Tome una foto del frente de su identificación.
+        * Tome una foto del reverso de su identificación.
     * Es posible que también necesite tomarse una fotografía para efectuar este paso.
     * Haga clic en "Continuar".
 1. Ingrese su número de Seguro Social y haga clic en “Continuar”.

@@ -38,9 +38,9 @@ Login.gov is a secure, government website that adheres to the highest standards 
 1. On the “We need to verify your identity” page, read the requirements and, if you agree, check the box next to the Login.gov consent statement.
     * Click “Continue”
 1. Next, upload a photo of your driver's license or state ID card.
-    * Note: If you began the identity verification process on your computer, you have the option to switch and use your phone to upload images.
+    * Note: If you begin the identity verification process on your computer, you have the option to switch and use your phone to take images.
 
-    **Continue by computer and upload images**
+    **Continue by computer**
 
     * Upload an image of the FRONT of your ID by clicking on “Choose File.”
         * Select the file from your computer
@@ -48,22 +48,21 @@ Login.gov is a secure, government website that adheres to the highest standards 
         * Select the file from your computer
         * Click continue
 
-    **Switch from computer to phone to upload images**
+    **Switch from computer to phone**
 
     * Enter your phone number.
         * Choose a phone number where you can receive SMS/Text messages and click “Continue.”
     * Click on the link sent to your phone.
-    * You will see options to either “take a photo” or “upload a photo.”
-        * Upload an image of the FRONT of your ID from your phone’s photo gallery or take an image of the front of your ID
-        * Upload an image of the BACK of your ID from your phone’s photo gallery or take an image of the back of your ID
+    * Take an image of the front of your ID
+    * Take an image of the back of your ID
     * You may also need to take a photo of yourself to complete this step.
     * Return to computer to complete the process
 
-    **Continue by phone and upload images**
+    **Continue by phone**
 
-    * You will see a screen with ‘front’ and ‘back’ in large squares and an option to either “take a photo” or “upload a photo.”
-        * Upload an image of the FRONT of your ID from your phone’s photo gallery or take an image of the front of your ID
-        * Upload an image of the BACK of your ID from your phone’s photo gallery or take an image of the back of your ID
+    * You will see a screen with “front” and “back” in large squares.
+        * Take an image of the front of your ID
+        * Take an image of the back of your ID
     * You may also need to take a photo of yourself to complete this step.
     * Click “Continue”
 1.  Enter your social security number and click “Continue”
