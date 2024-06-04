@@ -38,7 +38,6 @@ Login.gov is a secure, government website that adheres to the highest standards 
 1. On the “We need to verify your identity” page, read the requirements and, if you agree, check the box next to the Login.gov consent statement.
     * Click “Continue”
 1. Next, upload a photo of your driver's license or state ID card.
-
     * Note: If you begin the identity verification process on your computer, you have the option to switch and use your phone to take images.
 
     **Continue by computer**
