@@ -1,204 +1,197 @@
 accessible_labels:
-  footer_navigation: Footer navigation
-  login_link_logo: Login.gov Homepage
-  partners_link_logo: Login.gov Partners Homepage
-  primary_navigation: Primary links
-  secondary_navigation: Secondary links
+  footer_navigation: 页脚导航
+  login_link_logo: Login.gov 主页
+  partners_link_logo: Login.gov 合作伙伴主页
+  primary_navigation: 主链接
+  secondary_navigation: 次链接
 actions:
-  search: Search
+  search: 搜索
 banner:
   already-have-an-account:
-    learn_more: Learn more about creating an account
-    one_account: Login.gov is your one account for government
-    sign_in: Sign in to manage your account
-    text: Already have an account?
+    learn_more: 了解更多关于设立账户的信息
+    one_account: Login.gov 使你只用一个账户就能与各政府部门互动
+    sign_in: 登录来管理你的账户
+    text: 已有账户？
   one-account-for-govt:
-    create: Create an account
-    learn: Learn how to create an account
-    tagline: Your one account for government
+    create: 设立账户
+    learn: 了解如何设立帐户
+    tagline: 你只用一个账户就能与各政府部门互动
   text:
-    gov_description: A <strong>.gov</strong> website belongs to an official
-      government organization in the United States.
-    gov_heading: Official websites use .gov
-    how: Here’s how you know
-    official: An official website of the United States government
-    secure_description: 'A <strong>lock</strong> or <strong>https://</strong> means
-      you’ve safely connected to the .gov website. Share sensitive information
-      only on official, secure websites.'
-    secure_heading: Secure .gov websites use HTTPS
+    gov_description: '<strong>.gov</strong> 网站属于一个美国官方政府机构。'
+    gov_heading: 官方网站使用 .gov
+    how: 这里告诉你如何知道
+    official: 美国政府的一个官方网站
+    secure_description: '一把 <strong>锁</strong> 或者 <strong>https://</strong>
+      意味着你已安全连接到 .gov 网站。只在官方、安全的网站上分享敏感信息。'
+    secure_heading: 安全的 .gov 网站使用 HTTPS
 contact_page:
   call_us:
-    operating_hours: Operating hours are 24 hours a day, seven days a week.
-    title: Call us
-  operating_hours: Operating hours are 24 hours a day, seven days a week.
-  required: required
+    operating_hours: 每周7天，每天24小时运营
+    title: 给我们打电话
+  operating_hours: 每周7天，每天24小时运营
+  required: 必需
   support_request_form:
     agencies:
-      'Central Intelligence Agency': Central Intelligence Agency
-      'Consumer Financial Protection Bureau': Consumer Financial Protection Bureau
-      'Customs and Border Protection Jobs': Customs and Border Protection Jobs
-      'Customs and Border Protection ROAM': Customs and Border Protection ROAM
-      'Department of Commerce': Department of Commerce
-      'Department of Defense': Department of Defense
-      'Department of Education': Department of Education
-      'Department of Energy': Department of Energy
-      'Department of Homeland Security (DHS)': Department of Homeland Security (DHS)
-      'Department of Justice (DOJ)': Department of Justice (DOJ)
-      'Department of Labor': Department of Labor
-      'Department of State': Department of State
-      'Department of the Interior': Department of the Interior
-      'Department of the Treasury': Department of the Treasury
-      'Department of Transportation': Department of Transportation
-      'Department of Veterans Affairs': Department of Veterans Affairs
-      'DOI ePermits': DOI ePermits
-      'DOL Foreign Labor Application Gateway (FLAG)': DOL Foreign Labor Application Gateway (FLAG)
-      'DOT Delphi eInvoicing': DOT Delphi eInvoicing
-      'DOT FMCSA (Motor Carrier Safety)': DOT FMCSA (Motor Carrier Safety)
-      'DOT National Registry of Certified Medical Examiners': DOT National Registry of Certified Medical Examiners
-      'Environmental Protection Agency': Environmental Protection Agency
-      'FDIC Resolution Request Management Portal': FDIC Resolution Request Management Portal
-      'FEMA Disaster Assistance': FEMA Disaster Assistance
-      'General Services Administration': General Services Administration
+      'Central Intelligence Agency': 中央情报局
+      'Consumer Financial Protection Bureau': 消费者金融保护局
+      'Customs and Border Protection Jobs': 海关和边境保护局工作
+      'Customs and Border Protection ROAM': 海关和边境保护局 ROAM
+      'Department of Commerce': 商务部
+      'Department of Defense': 国防部
+      'Department of Education': 教育部
+      'Department of Energy': 能源部
+      'Department of Homeland Security (DHS)': 国土安全部
+      'Department of Justice (DOJ)': 司法部
+      'Department of Labor': 劳工部
+      'Department of State': 国务院
+      'Department of the Interior': 内政部
+      'Department of the Treasury': 财政部
+      'Department of Transportation': 交通部
+      'Department of Veterans Affairs': 退伍军人事务部
+      'DOI ePermits': 内政部 ePermits
+      'DOL Foreign Labor Application Gateway (FLAG)': 劳工部外国劳工申请网关（FLAG）
+      'DOT Delphi eInvoicing': 交通部 Delphi eInvoicing
+      'DOT FMCSA (Motor Carrier Safety)': 交通部 FMCSA （机动车辆安全)
+      'DOT National Registry of Certified Medical Examiners': 交通部认证的医学检验官注册簿
+      'Environmental Protection Agency': 国家环境保护局
+      'FDIC Resolution Request Management Portal': FDIC（联邦存款保险公司）解决方案请求管理门户
+      'FEMA Disaster Assistance': FEMA （联邦紧急事务管理局）灾难救助
+      'General Services Administration': 联邦总务管理局
       'Get.gov': Get.gov
-      'GSA Sam.gov': GSA SAM.gov
-      'Health and Human Services': Health and Human Services
-      'HHS Grants.gov': HHS Grants.gov
-      'HHS National Institutes of Health (NIH)': HHS National Institues of Health (NIH)
-      'Housing and Urban Development': Housing and Urban Development
-      'Internal Revenue Service (IRS)': Internal Revenue Service (IRS)
-      'Library of Congress': Library of Congress
-      'MyTravelGov': Department of State MyTravelGov
+      'GSA Sam.gov': GSA（联邦总务管理局） SAM.gov
+      'Health and Human Services': 卫生与公众服务
+      'HHS Grants.gov': HHS（卫生与公众服务部） Grants.gov
+      'HHS National Institutes of Health (NIH)': HHS（卫生与公众服务部）国立卫生研究院（NIH）
+      'Housing and Urban Development': 住房与城市发展
+      'Internal Revenue Service (IRS)': 国家税务局（IRS）
+      'Library of Congress': 国会图书馆
+      'MyTravelGov': 国务院 MyTravelGov
       'myTreasury': myTreasury
-      'National Aeronautics and Space Administration': National Aeronautics and Space Administration
-      'National Archives and Records Administration (NARA)': National Archives and Records Administration (NARA)
-      'National Credit Union Administration (NCUA)': National Credit Union Administration (NCUA)
-      'National Endowment for the Humanities (NEH)': National Endowment for the Humanities (NEH)
-      'National Labor Relations Board': National Labor Relations Board
-      'National Transportation Safety Board (NTSB)': National Transportation Safety Board (NTSB)
-      'Office of Personnel Management': Office of Personnel Management (OPM)
-      'OPM Employee Express': OPM Employee Express
-      'OPM Services Online': 'OPM Services Online'
+      'National Aeronautics and Space Administration': 国家航空航天局
+      'National Archives and Records Administration (NARA)': 国家档案和记录管理局
+      'National Credit Union Administration (NCUA)': 国家信用合作社管理局
+      'National Endowment for the Humanities (NEH)': 国家人文基金会
+      'National Labor Relations Board': 国家劳资关系委员会
+      'National Transportation Safety Board (NTSB)': 国家运输安全委员会
+      'Office of Personnel Management': 联邦人事管理局（OPM）
+      'OPM Employee Express': OPM（联邦人事管理局）Employee Express
+      'OPM Services Online': OPM（联邦人事管理局）Services Online
       'Pay.gov': Pay.gov
-      'PBGC-MyPBA': 'PBGC - MyPBA'
-      'Peace Corps': Peace Corps
-      'Railroad Retirement Board': Railroad Retirement Board
-      'SBA DLAP': SBA DLAP
-      'Securities and Exchange Commission': Securities and Exchange Commission
-      'Social Security Administration (SSA)': Social Security Administration (SSA)
-      'State of Arkansas': State of Arkansas
-      'State of California': State of California
-      'State of Colorado': State of Colorado
-      'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Trusted Traveler Programs (Global Entry/Nexus/Sentri)
-      'U.S. Agency for International Development': U.S. Agency for International Development
-      'U.S. Department of Agriculture': U.S. Department of Agriculture
-      'U.S. International Trade Commission': U.S. International Trade Commission
-      'United States Forest Service': United States Forest Services
+      'PBGC-MyPBA': PBGC（退休金福利保障公司） - MyPBA
+      'Peace Corps': 和平队
+      'Railroad Retirement Board': 铁路退休委员会
+      'SBA DLAP': SBA （小企业管理局）DLAP
+      'Securities and Exchange Commission': 证券交易委员会
+      'Social Security Administration (SSA)': 社会保障署（SSA）
+      'State of Arkansas': 阿肯色州
+      'State of California': 加利福尼亚州
+      'State of Colorado': 科罗拉多州
+      'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': 受信任旅客计划（Global Entry/Nexus/Sentri)
+      'U.S. Agency for International Development': 美国国际开发署
+      'U.S. Department of Agriculture': 美国农业部
+      'U.S. International Trade Commission': 美国国际贸易委员会
+      'United States Forest Service': 美国国家森林局
       'USAJOBS': USAJOBS
     errors:
-      captcha_required: You must complete the spam prevention challenge.
-      pii_found: For your privacy, do not submit sensitive information to this form.
-        Our customer support agents can still assist you without this
-        information.
+      captcha_required: 你必须完成预防滥发邮件测验。
+      pii_found: 为了保护你的隐私，请勿向该表格提交敏感信息。我们的客服代表在没有这一信息的情况下，仍能帮助你。
     form_helpers:
-      select_agency: '- Agency you’re trying to access -'
-      select_issue: '- Select a specific issue -'
-      select_topic: '- Select a topic -'
+      select_agency: '- 你试图访问的机构 -'
+      select_issue: '- 选择一个具体问题 -'
+      select_topic: '- 选择一个主题 -'
     labels:
-      agency_application: Partner Agency
-      agency_application_all: All Applications
-      agency_application_common: Common Applications
-      agency_application_other: Other Applications
-      description: Provide more detail. If you need support, please describe the steps
-        you took and the issues you encountered.
-      email: Email
-      first_name: First name
-      last_name: Last name
-      pii_warning: Do not include phone numbers, membership numbers, full names,
-        birthdays, addresses, social security numbers, or other identifying
-        information.
-      subtopic: Issue
-      topic: Topic
-    other: Other
-    required_text: Required fields are marked with an asterisk
-    reset: Clear form
-    submit: Submit
+      agency_application: 合作伙伴机构
+      agency_application_all: 所有申请
+      agency_application_common: 常见申请
+      agency_application_other: 其他申请
+      description: 提供更多细节如果你需要支持，请描述你已采取的步骤以及遇到的问题。
+      email: 电邮
+      first_name: 名
+      last_name: 姓
+      pii_warning: 请勿包括电话号码、会员号码、姓名、生日、地址、社会保障号码或其他显示你身份的信息。
+      subtopic: 问题
+      topic: 主题
+    other: 其他
+    required_text: 星号标出了必填字段
+    reset: 清空表格
+    submit: 提交
     subtopics:
-      account_locked: My account is locked for 24 hours
-      add_family_member: How do I add a family member to my Login.gov account?
-      agency_app: Agency app issue
-      authentication_app: How do I change my authentication method?
-      authentication_app_setup: How do I set up an authentication app?
-      backup_codes: How do I use my backup codes to sign in?
-      blank_screen: I’m seeing an error/blank screen when creating my account
-      cant_proof_in_person: I could not verify my identity in person at the Post Office
-      change_email: How do I change my email?
-      change_password: How do I update my Login.gov password?
-      change_phone_number: How do I change my phone number?
-      concerned_login_email: I’m concerned about the Login.gov email I received
-      delete_account: How do I delete my Login.gov account?
-      device_notification: I have received an alert about a new sign in on my Login.gov account
-      email_delivery_issue: I am not receiving the Login.gov confirmation email
-      feedback: I have feedback about Login.gov
-      forgot_password: I forgot my Login.gov password and can’t reset it
-      how_to_create_with_verification: How do I create a Login.gov account with identity verification?
-      how_to_link: How do I link my partner agency account with Login.gov?
-      how_to_verify: How/why do I verify my identify?
-      interest_in_partnership: I’m interested in using Login.gov for my government agency
-      international_number: I have an international number and am not receiving my security code
-      invalid_email: Login.gov is not accepting my email address. It says it is invalid
-      invalid_otp: Login.gov says my security code is invalid
-      issue_with_partner_agency: I’m having an issue with this partner agency
-      issues_with_face_touch_unlock: I’m having issue with using face or touch unlock
-      letter_in_mail: I didn’t get my letter by mail or it expired
-      locked_out: I am locked out of my account
-      lost_2fa_method: Lost two-factor authentication method
-      lost_access: I’ve lost access to my phone or email address
-      multiple_otps: I am receiving many security codes when signing in
-      new_account: My email/username and password are not working
-      new_backup_codes: How do I get new backup codes?
-      new_device_notification: I’ve received a new device notification email
-      new_personal_key: How do I get a new personal key?
-      no_otp_received: No OTP received
-      no_phone: I can’t create my Login.gov account because I don’t have a phone
-      none: '--None--'
-      other: Other
-      password_issue: Password issue
-      personal_key: My personal key is not working
-      personal_key_notification: I have received an alert about my personal key being used to sign in
-      personal_key_setup: Personal key setup
-      phone_number_failure: I got a failure after entering my phone number
-      piv_cac: I am having trouble using my PIV/CAC to sign in
-      privacy_and_security: Privacy and security
-      recover_account: How do I sign into my account if I dont have my phone or personal key?
-      remember_browser: I set up remember browser but I’m still receiving security codes
-      remember_device_issue: How do I stop receiving security codes?
-      security_code: I am not receiving the security code
-      security_key: I am having trouble using my security key to sign in
-      security_question: How do you/How does Login.gov protect my privacy and security?
-      seeing_errors: I’m seeing an error/blank screen when accessing Login.gov
-      service_quality: Service quality
-      site_navigation: I don’t know where to go to create an account
-      state_issued_id_error: I got an error after uploading my state-issued ID
-      unwanted_otp: I am receiving security codes from Login.gov that I didn’t request
-      verify_identity_error: I got a failure trying to verify my identity
-      wrong_account_update: Wrong account update
-    title: Submit a help ticket
+      account_locked: 我的账户被锁住24小时
+      add_family_member: 我如何把家人添加到我的Login.gov账户？
+      agency_app: 机构应用程序问题
+      authentication_app: 我如何更改身份证实方法？
+      authentication_app_setup: 我如何设置身份证实应用程序？
+      backup_codes: 我如何使用备份码来登录？
+      blank_screen: 我设立账户时看到出错/黑屏
+      cant_proof_in_person: 我无法在邮局亲身验证身份。
+      change_email: 我如何更改电邮？
+      change_password: 我如何更新自己的Login.gov密码？
+      change_phone_number: 我如何更改电话号码？
+      concerned_login_email: 我对收到的Login.gov 电邮有点担心
+      delete_account: 我如何删除自己的Login.gov账户？
+      device_notification: 我收到了自己Login.gov账户有新登录情况的警报
+      email_delivery_issue: 我收不到Login.gov的确认电邮
+      feedback: 我有关于Login.gov的反馈意见
+      forgot_password: 我忘了自己的Login.gov密码而且无法重设
+      how_to_create_with_verification: 我如何通过身份验证设立一个Login.gov 账户?
+      how_to_link: 我如何把自己在Login.gov合作伙伴机构的账户与Login.gov连接起来？
+      how_to_verify: 我如何/为什么验证身份？
+      interest_in_partnership: 我想通过使用Login.gov联系自己的政府机构来
+      international_number: 我的电话是国际号码，我收不到安全代码
+      invalid_email: Login.gov 不接受我的电邮地址，说其无效
+      invalid_otp: Login.gov说我的安全代码无效
+      issue_with_partner_agency: 我在这个合作伙伴机构那里有问题
+      issues_with_face_touch_unlock: 我使用人脸或触摸解锁有问题
+      letter_in_mail: 我没收到邮寄给我的信件或者信件已过期
+      locked_out: 我被锁在账户外了
+      lost_2fa_method: 丢失了双重身份证实方法
+      lost_access: 我无法使用手机或电邮地址
+      multiple_otps: 我在登录时收到很多安全代码
+      new_account: 我的电邮/用户名和密码不行
+      new_backup_codes: 我如何获得备份码？
+      new_device_notification: 我收到了一个新设备通知电邮
+      new_personal_key: 我如何获得新的个人密钥？
+      no_otp_received: 没收到OTP
+      no_phone: 我没有手机，所以没法设立Login.gov账户
+      none: '- 都没有 -'
+      other: 其他
+      password_issue: 密码问题
+      personal_key: 我的个人密钥不行
+      personal_key_notification: 我收到了关于自己的个人密钥被用来登录的警报。
+      personal_key_setup: 个人密钥设置
+      phone_number_failure: 我输入电话号码后系统说不行
+      piv_cac: 我用PIV/CAC 登录有问题
+      privacy_and_security: 隐私与安全
+      recover_account: 如果我没有自己的电话或个人密钥，如果登录账户？
+      remember_browser: 我设置了记住浏览器但仍在收到安全代码
+      remember_device_issue: 我怎么能不再收到安全代码？
+      security_code: 我收不到安全代码
+      security_key: 我用自己的安全密钥登录时有问题
+      security_question: 你们/Login.gov怎么保护我的隐私与安全？
+      seeing_errors: 我登录Login.gov时看到的是出错/黑屏
+      service_quality: 服务质量
+      site_navigation: 我不知道到哪里去设立账户
+      state_issued_id_error: 我上传州颁发的身份证件后得到了出错信息
+      unwanted_otp: 我在从Login.gov 收到安全代码，但我并没有要求这些代码
+      verify_identity_error: 我试图验证身份时系统说失败
+      wrong_account_update: 错误账户更新
+    title: 提交寻求帮助工单
     topics:
-      changing_settings: Changing your Login.gov information
-      creating_account: Create a Login.gov account
-      feedback: Feedback or other
-      not_login_gov: Not Login.gov
-      other: Other
-      piv_cac: PIV/CAC issue
-      security_codes: Login.gov security codes
-      signing_in: Signing in to your Login.gov account
-      verifying_identity: Verifying your identity
+      changing_settings: 正在更改你的 Login.gov 信息
+      creating_account: 设立一个 Login.gov 账户
+      feedback: 反馈或其他
+      not_login_gov: 不是 Login.gov
+      other: 其他
+      piv_cac: PIV/CAC 问题
+      security_codes: Login.gov 安全代码
+      signing_in: 登录进入你的 Login.gov 账户
+      verifying_identity: 验证你的身份
 feedback_form:
-  'no': 'No'
-  question: 'Was this article helpful?'
-  'yes': 'Yes'
+  'no': '不'
+  question: '这篇文章对你有帮助吗？'
+  'yes': 对
 global:
-  language: Language
+  language: 语言
   locales:
     en: English
     es: Español
@@ -206,58 +199,54 @@ global:
     zh: '中文 (简体)'
 help_page:
   categories:
-    - description: Create your account. Learn about authentication options and more
-        account features.
+    - description: 设立你的账户了解身份证实选项以及账户的更多特点。
       image: /assets/img/help/get-started.svg
-      title: Get started with Login.gov
+      title: 开始使用Login.gov
       url: /zh/help/get-started/overview/
-    - description: Forgot your password? Locked out of your account? We’ll help you
-        resolve access issues.
+    - description: 忘了你的密码? 被锁在了账户外？我们会帮你解决登录问题。
       image: /assets/img/help/trouble-signing-in.svg
-      title: Trouble signing in?
+      title: 登录有疑难?
       url: /zh/help/trouble-signing-in/overview/
-    - description: Change your account settings including your password, phone number,
-        email, and more.
+    - description: 更改你的账户设置，包括密码、电话号码、电邮及其他。
       image: /assets/img/help/manage-your-account.svg
-      title: Manage your account
+      title: 管理你的账户
       url: /zh/help/manage-your-account/overview/
-    - description: Get help with Trusted Traveler Programs (TTP) and SAM.gov.
+    - description: 就受信任旅客计划（TTP）和SAM.gov获得帮助。
       image: /assets/img/help/help-specific-agencies.svg
-      title: Help with specific agencies
+      title: 就具体机构获得帮助
       url: /zh/help/specific-agencies/overview/
-    - description: Learn about options for verifying your identity.
+    - description: 了解验证你身份的选项。
       image: /assets/img/help/verify-your-id.svg
-      title: Verify your identity
+      title: 验证你的身份
       url: /zh/help/verify-your-identity/overview/
-  p_1: Browse common topics
-  title: How can we help?
+  p_1: 浏览常见主题
+  title: 我们能怎么帮你？
 help_subpages:
-  get-started: Get started with Login.gov
-  manage-your-account: Manage your account
-  specific-agencies: Help with specific agencies
-  trouble-signing-in: Trouble signing in?
-  verify-your-identity: Verify your identity
+  get-started: 开始使用Login.gov
+  manage-your-account: 管理你的账户
+  specific-agencies: 就具体机构获得帮助
+  trouble-signing-in: 登录有疑难?
+  verify-your-identity: 验证你的身份
 identifier:
   accessible_labels:
-    description: Agency description
-    gsa_link_logo: GSA homepage
-    identifier: Agency identifier
-    links: Important links
-    login_gov_logo: Login.gov logo
-    usa_gov: U.S. government information and services
-  disclaimer: An official website of the [General Services
-    Administration](https://www.gsa.gov)
+    description: 机构描述
+    gsa_link_logo: 联邦总务管理局主页
+    identifier: 机构识别码
+    links: 重要链接
+    login_gov_logo: Login.gov 标志
+    usa_gov: 美国政府信息与服务
+  disclaimer: 的官方网站[联邦总务管理局](https://www.gsa.gov)
   links:
-    about_agency: About GSA
-    accessibility: Accessibility support
-    foia: FOIA requests
-    ig: Office of the Inspector General
-    no_fear_act: No FEAR Act data
-    performance: Performance reports
-    privacy: Privacy policy
+    about_agency: 关于 GSA（联邦总务管理局）
+    accessibility: 无障碍支持
+    foia: 《信息自由法》（FOIA） 请求
+    ig: 监察长办公室
+    no_fear_act: 《联邦雇员反歧视、反报复告示法》数据
+    performance: 业绩报告
+    privacy: 隐私政策
   usa_gov:
-    link: Visit USA.gov
-    text: Looking for U.S. government information and services?
+    link: 访问 USA.gov
+    text: 寻找美国政府信息与服务？
 nav:
   about_us:
     sections:
@@ -267,7 +256,7 @@ nav:
         url: '#我们的愿景'
       - name: 关于 Login.gov
         url: '#关于-logingov'
-    title: About us
+    title: 关于我们
   accessibility:
     sections:
       - name: 我们的承诺
@@ -278,12 +267,12 @@ nav:
         url: '#评估'
       - name: 已知局限
         url: '#已知局限'
-    title: Accessibility statement
-  anchor_to_top: Back to top
-  become_a_partner: Become a partner
+    title: 无障碍声明
+  anchor_to_top: 回到顶部
+  become_a_partner: 成为合作伙伴
   business_inquiries:
-    title: Business inquiries
-  contact_login_gov: Contact Login.gov
+    title: 业务查询
+  contact_login_gov: 联系 Login.gov
   contact_us:
     sections:
       - name: 找到常见问题的答案
@@ -294,52 +283,52 @@ nav:
         url: '#与-logingov-合作'
       - name: 反映问题
         url: '#反映问题'
-    title: Contact us
-  create_an_account: Create an account
-  developer_guide: Developer guide
-  developers: developers
-  faq: FAQ
-  get_started: Get started
+    title: 联系我们
+  create_an_account: 设立账户
+  developer_guide: 开发人员指南
+  developers: 开发人员
+  faq: 常见问题
+  get_started: Get started # partners site does not require translations
   groups:
-    about_login_gov: About Login.gov
-    agencies: For agencies
-    learn: Learn
-    partners: For partners
-    support: Support
-  help: Help
-  help_center: Help center
-  home: Home
-  implementation: Implementation
+    about_login_gov: About Login.gov # partners site does not require translations
+    agencies: 针对机构的
+    learn: 学习
+    partners: For partners # partners site does not require translations
+    support: 支持
+  help: 帮助
+  help_center: 帮助中心
+  home: 主页
+  implementation: 执行
   join_us:
     sections:
       - name: 空缺职位
         url: '#空缺职位'
       - name: 如何申请
         url: '#如何申请'
-    title: Join us
+    title: 加入我们
   menu: Menu
-  overview: Overview
+  overview: 综述
   playbook: Playbook
   policies:
     sections:
-      - name: Our commitment to your privacy and security
+      - name: 我们保护你隐私与安全的承诺
         url: /zh/policy/
-      - name: How does it work?
+      - name: 这一点如何实现？
         url: /zh/policy/how-does-it-work/
-      - name: Our privacy act statement
+      - name: 我们的隐私法声明
         url: /zh/policy/our-privacy-act-statement/
-      - name: Messaging terms and conditions
+      - name: 短信使用条款
         url: /zh/policy/messaging-terms-and-conditions/
-      - name: Rules of use
+      - name: 使用规则
         url: /zh/policy/rules-of-use/
-    title: Privacy & security
+    title: 隐私与安全
     url: /zh/policy/
-  principles: Principles
-  privacy_&_security: Privacy & security
-  security: Security
-  security_experience: Security experience
-  sign_in: 'Sign in with'
-  skip_nav: Skip to main content
-  system_status: Login.gov system status
-  what_is_login_gov: What is Login.gov?
-  who_uses_login_gov: Who uses Login.gov?
+  principles: 原则
+  privacy_&_security: 隐私与安全
+  security: 安全
+  security_experience: Security experience # partners site does not require translations
+  sign_in: '使用…登录'
+  skip_nav: 跳到主要内容
+  system_status: Login.gov 系统状态
+  what_is_login_gov: 什么是Login.gov？
+  who_uses_login_gov: 谁使用 Login.gov?
