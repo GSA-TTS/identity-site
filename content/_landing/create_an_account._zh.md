@@ -29,7 +29,7 @@ steps:
     * **不太安全**
       * 短信或语音
       * 备用代码
-  info: 取决于一个政府机构的安全要求，你可能需要使用社会保障号码、地址、和/或美国各州颁发的身份证件
+  info: 取决于一个政府机构的安全要求，你可能需要使用社会保障号码、地址和/或美国各州颁发的身份证件
 one_account_banner: true
 twitter_card: large
 image: /assets/img/create-an-account/header/create-account-illo-header.png
