@@ -109,8 +109,8 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
       include components/image-example-incorrect.html
       image-alt-text='Il y a des reflets et des ombres sur l’image de la pièce d’identité.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      do_dont_text="ÉVITER"
-      text='Les reflets et les ombres'
+      do_dont_text="À ÉVITER"
+      text='ÉVITER Les reflets et les ombres'
     %}
   </div>
 </div>
