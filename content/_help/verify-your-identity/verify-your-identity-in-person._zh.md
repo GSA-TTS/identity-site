@@ -47,7 +47,7 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 
 ## 请在截止日期之前到一个参与本项目的邮局完成上述流程。
 
-### 你可以在全美各地和有些美国属地的参与这个工作的邮局亲身验证身份。*
+### 你可以在全美各地和有些美国属地的参与本项目的邮局亲身验证身份。*
 
 你在 [Login.gov](https://secure.login.gov/) 开始这一过程时，我们会帮你找到一个你附件参与本项目的邮局清单。你也可以[在我们的帮助中心寻找你家附件的邮局。](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
 
