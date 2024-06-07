@@ -2,7 +2,7 @@
 layout: help
 title: 亲身验证你的身份
 category: verify-your-identity
-children: 
+children:
   - /zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
 permalink: /zh/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
@@ -30,7 +30,7 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 
 ### 我们通过电邮发给你的条形码
 
-你完成 Login.gov 上的步骤后，我们会通过电邮给你发一个条形码以及一个截至日期，你必须在此日期前去邮局。你可以把该邮件打印出来，或在你的移动设施上显示这个电邮。如果你在截止日期后才去邮局，因为你的信息不会被存储，你又得从头开始这一过程。
+你完成 Login.gov 上的步骤后，我们会通过电邮给你发一个条形码以及一个截止日期，你必须在此日期前去邮局。你可以把该邮件打印出来，或在你的移动设施上显示这个电邮。如果你在截止日期后才去邮局，因为你的信息不会被存储，你又得从头开始这一过程。
 
 ### 你的驾照或州政府颁发的身份证件
 
@@ -38,22 +38,22 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 
 * 美国所有50个州、哥伦比亚特区（DC）以及其他美国属地（关岛、美属维尔京岛、美属萨摩亚、马里亚纳群岛和波多黎各）的驾照
 * 州政府颁发的非驾照身份证件卡
-  
+
   * 这是由各州政府、哥伦比亚特区（DC）、或美国属地颁发的一种身份文件，证明你的身份但不授予驾驶特权。
 
 我们目前不接受任何其他形式的身份证件，比如护照和军队身份证件。没有州颁发的身份证件， 你就无法在邮局验证身份。我们目前正在努力添加更多身份验证方式。
 
 与此同时，请联系我们合作机构的帮助中心来了解你该怎么办。
 
-## 请在截止日期之前到一个参与 Login.gov 的邮局完成上述流程。
+## 请在截止日期之前到一个参与本项目的邮局完成上述流程。
 
 ### 你可以在全美各地和有些美国属地的参与这个工作的邮局亲身验证身份。*
 
-你在 [Login.gov](https://secure.login.gov/) 开始这一过程时，我们会帮你找到一个你家附件参与的邮局清单。你也可以[在我们的帮助中心寻找你家附件的邮局。](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
+你在 [Login.gov](https://secure.login.gov/) 开始这一过程时，我们会帮你找到一个你附件参与本项目的邮局清单。你也可以[在我们的帮助中心寻找你家附件的邮局。](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
 
 你在网上收到条形码后，就可以去任何一个提供亲身验证身份服务的邮局。
 
-**\* 参与这个工作的美国属地包括:** 美属维尔京岛、美属萨摩亚、关岛、波多黎各、以及北马里亚纳群岛。
+**\* 参与本项目的美国属地包括:** 美属维尔京岛、美属萨摩亚、关岛、波多黎各、以及北马里亚纳群岛。
 
 ### 你可以找邮局任何工作人员来验证身份
 
