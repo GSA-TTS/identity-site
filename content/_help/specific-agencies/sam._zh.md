@@ -5,7 +5,7 @@ category: specific-agencies
 permalink: /zh/help/specific-agencies/sam/
 order: 2
 ---
-Login.gov 只是用于安全登录。你的 Login.gov 账户不影响你在采购合同管理系统（SAM）的账户、 申请、状态、成员身份或入选资格，也没有有关上述各项的信息。
+Login.gov 只是用于安全登录。你的 Login.gov 账户不影响你在采购合同管理系统（SAM）的账户、申请、状态、成员身份或入选资格，也没有有关上述各项的信息。
 
 请不要给 Login.gov 发送有关自己或申请 SAM 的敏感信息。
 
@@ -29,7 +29,7 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 ## 设立 Login.gov 账户和访问 SAM 账户资料时请注意：:
 
 * 如果你已有 SAM 账户，请使用你 SAM 账户电邮来设立你的 Login.gov 账户。
-  
+
   * 使用与 SAM 同样的电邮来设立 Login.gov 账户，你就能保留所有记录、数据访问请求以及已保存的搜索历史。
   * 如果你使用一个新的电邮地址，你的 SAM 账户资料不会受到影响，但你将无法访问你的 SAM 账户资料。
 * 如果你已有 Login.gov 账户而且想添加你 SAM 账户的电邮，可在 Login.gov 我的账户页面进行。在 Login.gov 主页选择登录按钮来访问我的账户页面。
