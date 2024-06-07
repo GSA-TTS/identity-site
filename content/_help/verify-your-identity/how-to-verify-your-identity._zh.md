@@ -14,10 +14,12 @@ order: 1
 
 {: .number-list}
 
-1. 州政府颁发的 身份证件。你可以通过手机或电脑上传你身份证件的照片。[没有州政府颁发的身份证件？](/zh/help/verify-your-identity/accepted-identification-documents/)
+1. 你的驾照或州颁发的身份证件。你可以通过手机或电脑上传你身份证件的照片。[没有州政府颁发的身份证件？](/zh/help/verify-your-identity/accepted-identification-documents/)
 2. 社会保障号码
 3. 你的电话号码
    * 如果我们无法验证你的电话号码，你则可以[通过普通邮件来验证](/zh/help/verify-your-identity/verify-your-address-by-mail/)。这需要 5 到 10 天。
+4. 拍一张你本人的照片
+   * 有的服务机构需要你用手机拍一张你本人的照片，来在网上验证你的身份。如果你没有带相机的手机，[可以亲身验证身份。](/zh/help/verify-your-identity/verify-your-identity-in-person/)
 
 如果你上述任何信息都没有，请联系你要访问的政府机构。
 
@@ -40,9 +42,9 @@ Login.gov 是一个安全的、遵守数据保护最高标准的政府网站。�
     * 点击“选择文件”来上传州政府颁发身份证件的背面照。
       * 在你电脑上选择要上传的文件。
       * 点击“继续”按钮。
-   
+
     **从电脑切换到手机**
-   
+
     * 输入你的电话号码。
       * 选择你能接受 SMS/短信的号码，然后点击“继续”按钮。
     * 点击发送到你手机的链接。
