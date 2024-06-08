@@ -28,7 +28,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
   <strong>
   Si no tiene una {{ alert_link }}, no puede usar Login.gov para verificar su identidad.
   </strong>
-  Por favor, comuníquese con el centro de ayuda de la entidad asociada para saber qué puede hacer como alternativa.
+  Comuníquese con el centro de ayuda de la agencia asociada para saber lo que puede hacer en ese caso.
 {% endcapture %}
 
 {%
