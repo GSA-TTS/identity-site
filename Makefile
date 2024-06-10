@@ -52,7 +52,7 @@ nu:
 validate-gemfile-lock: Gemfile Gemfile.lock
 	@echo "Validating Gemfile.lock..."
 	@bundle check
-	@git diff HEAD Gemfile.lock || (echo "Error: There are uncommitted changes after running 'bundle install'"; exit 1)
+	@git diff-index --quiet HEAD Gemfile.lock || (echo "Error: There are uncommitted changes after running 'bundle install'"; exit 1)
 
 validate-package-lock: package.json package-lock.json
 	@echo "Validating package-lock.json..."
