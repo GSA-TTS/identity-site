@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Verify your identity
+title: How to verify your identity
 category: verify-your-identity
 permalink: /help/verify-your-identity/how-to-verify-your-identity/
 order: 1
