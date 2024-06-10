@@ -108,8 +108,6 @@ GEM
     sass-embedded (1.77.4)
       google-protobuf (>= 3.25, < 5.0)
       rake (>= 13)
-    sass-embedded (1.77.4-x86_64-linux-gnu)
-      google-protobuf (>= 3.25, < 5.0)
     strscan (3.1.0)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
