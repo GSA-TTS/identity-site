@@ -128,7 +128,7 @@ exclude:
   - CONTRIBUTING.md
   - docs
   - Gemfile*
-  - jest.config.js
+  - jest.config.cjs
   - LICENSE.md
   - SECURITY.md
   - Makefile*
