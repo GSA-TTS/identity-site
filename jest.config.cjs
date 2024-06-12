@@ -1,9 +1,9 @@
 module.exports = {
+  preset: 'ts-jest',
   rootDir: 'spec',
   transformIgnorePatterns: [
     'node_modules/(?!(@18f/identity-address-search|@18f/identity-i18n|@18f/identity-components)/)',
-    '\\.pnp\\.[^\\/]+$',
-    '\\.js$'
+    '\\.pnp\\.[^\\/]+$'
   ],
   moduleNameMapper: {
     '@18f/identity-address-search':
@@ -15,5 +15,5 @@ module.exports = {
   testTimeout: 15000,
   globalSetup: '<rootDir>/e2e/support/setup.js',
   globalTeardown: '<rootDir>/e2e/support/teardown.js',
-  testEnvironment: '<rootDir>/e2e/support/puppeteer-environment.cjs'
+  testEnvironment: '<rootDir>/e2e/support/puppeteer-environment.cjs',
 };

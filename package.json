@@ -17,7 +17,7 @@
     "lint:css": "stylelint '_sass/**/*.scss' 'assets/scss/**/*.scss'",
     "typecheck": "tsc",
     "pretest": "if [ -z $SKIP_BUILD ]; then make build; fi",
-    "test": "BABEL_ENV=test jest"
+  "test": "BABEL_ENV=test jest"
   },
   "repository": {
     "type": "git",
@@ -63,6 +63,7 @@
     "serve-handler": "^6.1.5",
     "stylelint": "^15.11.0",
     "svgo": "^2.8.0",
+    "ts-jest": "^29.1.4",
     "typescript": "^4.9.4",
     "vnu-jar": "^21.10.12"
   },
