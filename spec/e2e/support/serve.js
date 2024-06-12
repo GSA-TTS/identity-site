@@ -6,8 +6,8 @@ import getPort from 'get-port';
 export default async function serve() {
   const port = await getPort();
 
-  const __dirname = import.meta.dirname;
-  const publicPath = path.relative(process.cwd(), path.resolve(__dirname, '../../../_site'));
+  const dirname = import.meta.dirname;
+  const publicPath = path.relative(process.cwd(), path.resolve(dirname, '../../../_site'));
 
   const server = createServer((request, response) =>
     handler(request, response, { public: publicPath }),
