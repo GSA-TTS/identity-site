@@ -2,11 +2,12 @@
   "name": "identity-site",
   "version": "1.0.0",
   "description": "login.gov static site",
+  "type": "module",
   "scripts": {
     "build:css": "build-sass assets/scss/*.scss --out-dir=_site/assets/css",
     "watch:css": "npm run build:css -- --watch",
-    "build:js": "webpack --config webpack.config.js",
-    "watch:js": "webpack -w --config webpack.config.js",
+    "build:js": "webpack --config webpack.config.cjs",
+    "watch:js": "webpack -w --config webpack.config.cjs",
     "build": "concurrently \"npm:build:*\"",
     "watch": "concurrently \"npm:watch:*\"",
     "pages": "npm run build",
@@ -31,7 +32,7 @@
     "node": ">=20"
   },
   "homepage": "https://github.com/GSA-TTS/identity-site#readme",
-  "main": "webpack.config.js",
+  "main": "webpack.config.cjs",
   "keywords": [],
   "devDependencies": {
     "@18f/eslint-plugin-identity": "^2.0.0",
@@ -54,6 +55,7 @@
     "get-port": "^5.1.1",
     "jest": "^29.7.0",
     "jest-axe": "^4.1.0",
+    "jest-environment-jsdom": "^29.7.0",
     "jest-environment-node": "^26.6.2",
     "prettier": "^3.1.0",
     "puppeteer": "^22.3.0",

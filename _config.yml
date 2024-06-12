@@ -144,7 +144,7 @@ exclude:
   - svgo.config.js
   - tsconfig.json
   - vendor
-  - webpack.config.js
+  - webpack.config.cjs
 
 copy_files:
   - from:

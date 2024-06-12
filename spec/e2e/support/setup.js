@@ -1,6 +1,6 @@
 import puppeteer from 'puppeteer';
-import serve from './serve';
-import crawl from './crawl';
+import serve from './serve.js';
+import crawl from './crawl.js';
 
 export default () =>
   Promise.all([
