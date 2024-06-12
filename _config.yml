@@ -141,7 +141,7 @@ exclude:
   - README.md
   - scripts
   - spec
-  - svgo.config.js
+  - svgo.config.cjs
   - tsconfig.json
   - vendor
   - webpack.config.cjs
