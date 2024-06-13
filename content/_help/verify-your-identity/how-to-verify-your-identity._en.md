@@ -25,7 +25,7 @@ do.
 1. Your phone number 
     * If we can't verify your phone number, you can [verify by mail](/help/verify-your-identity/verify-your-address-by-mail/) instead. This takes 5 to 10 days.
 1. Taking a photo of yourself
-Some services need you to take a photo of yourself with a phone to verify your identity online. If you don't have a phone with a camera, you can [verify your identiy in person.](/help/verify-your-identity/verify-your-identity-in-person/)
+Some services need you to take a photo of yourself with a phone to verify your identity online. If you don't have a phone with a camera, you can [verify your identity in person.](/help/verify-your-identity/verify-your-identity-in-person/)
 
 If you are missing any of this information, please contact the government agency you are trying to access.
 
