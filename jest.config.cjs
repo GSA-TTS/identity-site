@@ -6,7 +6,7 @@ module.exports = {
   },
   transformIgnorePatterns: [
     'node_modules/(?!(@18f/identity-address-search|@18f/identity-i18n|@18f/identity-components)/)',
-    '\\.pnp\\.[^\\/]+$'
+    '\\.pnp\\.[^\\/]+$',
   ],
   moduleNameMapper: {
     '@18f/identity-address-search':
