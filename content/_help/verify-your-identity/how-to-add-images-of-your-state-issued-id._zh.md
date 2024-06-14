@@ -4,7 +4,7 @@ title: 如何添加你驾照或州颁发身份证件的图片
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 order: 3
-do_list: 
+do_list:
   - 请使用高分辨率相机，比如像智能手机或平板电脑的相机。电脑上的网络摄像头不见得能拍出清晰照片。
   - 请使用纯深色背景。
   - 请在一个光线间接照射的明亮地方拍照。
@@ -19,12 +19,12 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 ---
 
 {% capture alert_link %}
-  <a href="/zh/help/verify-your-identity/accepted-identification-documents/">有效驾照或州政府颁发的身份证件</a>
+  <a href="/zh/help/verify-your-identity/accepted-identification-documents/">有效驾照或州颁发的身份证件</a>
 {% endcapture %}
 
 {% capture alert_content %}
   <strong>
-    如果你没有 {{ alert_link }} 就不能用 Login.gov 进行身份验证。
+    如果你没有{{ alert_link }}就不能用 Login.gov 进行身份验证。
   </strong>
   请联系我们合作机构的帮助中心来了解你该怎么办。
 {% endcapture %}
@@ -44,7 +44,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 
 ---
 
-## 如何拍摄你驾照或州颁发身份证件的照片
+## 如何拍摄你的驾照或州颁发身份证件的照片
 如果你在使用电脑验证身份，可以切换到用手机拍摄自己身份证件的照片。
 
 ### 使用你的手机或平板电脑
@@ -151,4 +151,3 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 ### 更新你的浏览器，或者清除缓存以及魔饼（cookie)
 * 如果你在使用Safari，可以尝试[更新浏览器]({{ page.url_safari_update_doc }})，或者[清除缓存和魔饼。]({{ page.url_safari_clear_cache_doc }})
 * 如果你在使用Google Chrome，可以尝试[更新浏览器]({{ page.url_chrome_update_doc }})，或者[清除缓存和魔饼。]({{ page.url_chrome_clear_cache_doc }})
-
