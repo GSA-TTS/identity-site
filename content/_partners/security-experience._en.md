@@ -41,7 +41,9 @@ considerations2: >-
 
     * Are users aware of what data they are sharing, who they are sharing it with and how it is used?
 
-    * Is language around consent for sharing their data written in <a class="external-link" href="https://www.plainlanguage.gov/">plain language</a> and [accessible](/accessibility/){:class="external-link"}?
+    * Is language around consent for sharing their data written in <a class="external-link" href="https://www.plainlanguage.gov/">plain language</a> and 
+        <!-- TODO: Review removing the following line !-->
+        [accessible](/accessibility/){:class="external-link"}?
 
     * Does the public understand that they have the right to revoke consent of the sharing of their data?
 simple: >-
