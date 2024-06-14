@@ -19,7 +19,7 @@ order: 1
 3. 你的电话号码
    * 如果我们无法验证你的电话号码，你则可以[通过普通邮件来验证](/zh/help/verify-your-identity/verify-your-address-by-mail/)。这需要 5 到 10 天。
 4. 拍一张你本人的照片
-   * 有的服务机构需要你用手机拍一张你本人的照片，来在网上验证你的身份。如果你没有带相机的手机，[可以亲身验证身份。](/zh/help/verify-your-identity/verify-your-identity-in-person/)
+   有的服务机构需要你用手机拍一张你本人的照片，来在网上验证你的身份。如果你没有带相机的手机，[可以亲身验证身份。](/zh/help/verify-your-identity/verify-your-identity-in-person/)
 
 如果你上述任何信息都没有，请联系你要访问的政府机构。
 
