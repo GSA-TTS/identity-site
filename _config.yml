@@ -36,9 +36,6 @@ dap_subagency: null
 # GSA Office of Strategic Communication (OSC) Google Analytics
 osc_analytics_ga_measurement_id: null
 
-# TTS Google Analytics
-tts_ga_ua_id: null
-
 # Google reCAPTCHA
 recaptcha_site_key: null
 
