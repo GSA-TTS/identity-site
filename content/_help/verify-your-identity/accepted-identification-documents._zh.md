@@ -11,12 +11,12 @@ dont_list:
   - 如果你的身份证件太破旧或受损，你就通不过身份验证。
   - 你不能使用延期文件代替有效身份证件。
   - 你不能使用纸质或临时身份证件。
-alert: <strong>如果你没有有效的驾照或州政府颁发的身份证件，就不能使用 Login.gov 进行身份验证。</strong>请联系我们合作机构的帮助中心来了解你该怎么办。
+alert: <strong>如果你没有有效的驾照或州颁发的身份证件，就不能使用 Login.gov 进行身份验证。</strong>请联系我们合作机构的帮助中心来了解你该怎么办。
 ---
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='success' icon_shape='check_circle'%}
 
-## 我们不接受军队 身份证件、美国护照或其他身份证件。
+## 我们不接受军队身份证件、美国护照或其他身份证件。
 
 {% include alert.html content=page.alert type='error' role='alert' class='margin-bottom-2' %}
 
