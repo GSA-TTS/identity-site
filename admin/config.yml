@@ -212,7 +212,7 @@ collections:
           name: 'sidenav',
           widget: 'select',
           default: 'policies',
-          options: ['policies', 'accessibility', 'contact_us', about_us, 'none'],
+          options: ['policies', 'contact_us', about_us, 'none'],
           i18n: duplicate,
         }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', i18n: true }
