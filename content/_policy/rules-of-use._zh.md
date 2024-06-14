@@ -7,7 +7,7 @@ permalink: /zh/policy/rules-of-use/
 ---
 ## 使用规则
 
-Login.gov 服务由联邦总务管理局提供，让公众能够安全、私密地在网上访问参与Login.gov的政府计划。用户只要一个 本项目 账户，就能进入多个政府机构。我们的目标是让管理联邦福利、服务以及申请更容易和安全。
+Login.gov 服务由联邦总务管理局提供，让公众能够安全、私密地在网上访问参与Login.gov的政府计划。用户只要一个本项目账户，就能进入多个政府机构。我们的目标是让管理联邦福利、服务以及申请更容易和安全。
 
 我们的服务条款提供：
 
@@ -92,7 +92,7 @@ Login.gov 不会续订、重新发布身份证实器或让身份证实器过期�
 
 ## 5. 终止
 
-您可以随时通过你帐户的用户资料来终止你的账户。此外，如果发生欺诈或其他违反这些使用规则的情况，我们可以撤销对你账户的访问权。如果上述情况发生，我们仍会遵照我们[隐私政策]({% link _policy/index._zh.md %}) 和[记录系统通知](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records)来保护你的账户信息。
+您可以随时通过你帐户的用户资料来终止你的账户。此外，如果发生欺诈或其他违反这些使用规则的情况，我们可以撤销对你账户的访问权。如果上述情况发生，我们仍会遵照我们[隐私政策]({% link _policy/index._zh.md %})和[记录系统通知](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records)来保护你的账户信息。
 
 万一 Login.gov 服务终止，你帐户上信息将根据我们修订后的[记录系统通知保留](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records)。具体而言，用户信息，包括用户资料、登录文件、密码文件、审计跟踪文件和数据提取、系统使用文件以及用于评估系统使用费用的过去费用文件，均根据联邦总务管理局的记录保留时间表 GRS 03.2 维护。
 
