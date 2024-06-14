@@ -256,7 +256,7 @@ identifier:
     Administration](https://www.gsa.gov)
   links:
     about_agency: Acerca de GSA
-    accessibility: Asistencia de accesibilidad
+    accessibility: Declaración de accesibilidad
     foia: Solicitudes FOIA
     ig: Oficina del Inspector General
     no_fear_act: Información sobre Ley No Fear
@@ -275,17 +275,6 @@ nav:
       - name: Acerca de Login.gov
         url: '#acerca-de-logingov'
     title: Quiénes somos
-  accessibility:
-    sections:
-      - name: Nuestro compromiso
-        url: '#nuestro-compromiso'
-      - name: Estándares
-        url: '#estándares'
-      - name: Evaluación
-        url: '#evaluación'
-      - name: Limitaciones conocidas
-        url: '#limitaciones-conocidas'
-    title: Declaración de accesibilidad
   anchor_to_top: Volver al inicio
   become_a_partner: Conviértase en asociado
   business_inquiries:

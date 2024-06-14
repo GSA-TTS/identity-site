@@ -238,7 +238,7 @@ identifier:
   disclaimer: 的官方网站[联邦总务管理局](https://www.gsa.gov)
   links:
     about_agency: 关于 GSA（联邦总务管理局）
-    accessibility: 无障碍支持
+    accessibility: 无障碍声明
     foia: 《信息自由法》（FOIA） 请求
     ig: 监察长办公室
     no_fear_act: 《联邦雇员反歧视、反报复告示法》数据
@@ -257,17 +257,6 @@ nav:
       - name: 关于 Login.gov
         url: '#关于-logingov'
     title: 关于我们
-  accessibility:
-    sections:
-      - name: 我们的承诺
-        url: '#我们的承诺'
-      - name: 标准
-        url: '#标准'
-      - name: 评估
-        url: '#评估'
-      - name: 已知局限
-        url: '#已知局限'
-    title: 无障碍声明
   anchor_to_top: 回到顶部
   become_a_partner: 成为合作伙伴
   business_inquiries:

@@ -249,7 +249,7 @@ identifier:
     Administration](https://www.gsa.gov)
   links:
     about_agency: About GSA
-    accessibility: Accessibility support
+    accessibility: Accessibility statement
     foia: FOIA requests
     ig: Office of the Inspector General
     no_fear_act: No FEAR Act data
@@ -268,17 +268,6 @@ nav:
       - name: About Login.gov
         url: '#about-logingov'
     title: About us
-  accessibility:
-    sections:
-      - name: Our Commitment
-        url: '#our-commitment'
-      - name: Standards
-        url: '#standards'
-      - name: Evaluation
-        url: '#evaluation'
-      - name: Known limitations
-        url: '#known-limitations'
-    title: Accessibility statement
   anchor_to_top: Back to top
   become_a_partner: Become a partner
   business_inquiries:
