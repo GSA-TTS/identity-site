@@ -26,4 +26,4 @@ Login.gov 是当时那一行动呼吁的结果。
 
 Login.gov 团队与[美国数字服务局](https://www.usds.gov/)（USDS）以及[18F](https://18f.gsa.gov/)合作，在业已存在的 [MyUSCIS](https://my.uscis.gov/) 网站成功的编码基础上开发。该网站为需要绿卡服务的用户提供了安全体验。该团队还对其他未能成功满足用户需要的项目，例如connect.gov 做了调研并在工作中吸取了来自这些项目客户和雇员的经验教训。经过诸多调研和合作，Login.gov 于2017年作为一个符合安全、隐私和用户体验最高标准的、政府机构信任的共享服务平台启动。
 
-这一数字服务通过《联邦网络安全规定》实现 [《联邦法典》 6 USC § 1523 — 《联邦网络安全规定》（Federal cybersecurity requirements），part (b)(1)(D)。](https://uscode.house.gov/view.xhtml?req=6+USC+1523:+Federal+cybersecurity+requirements)
+这一数字服务通过《联邦网络安全规定》实现 ([《联邦法典》 6 USC § 1523 — 《联邦网络安全规定》Federal cybersecurity requirements，part (b)(1)(D)](https://uscode.house.gov/view.xhtml?req=6+USC+1523:+Federal+cybersecurity+requirements))。
