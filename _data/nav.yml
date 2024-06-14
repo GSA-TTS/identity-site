@@ -5,7 +5,6 @@ default:
       developer_guide: 'https://developers.login.gov'
     learn:
       about_us: '$LOCALE_BASE_URL/about-us/'
-      accessibility: '$LOCALE_BASE_URL/accessibility/'
       join_us: '$LOCALE_BASE_URL/join/'
       policies: '$LOCALE_BASE_URL/policy/'
     support:
@@ -14,7 +13,6 @@ default:
 partners:
   footer:
     about_login_gov:
-      accessibility: '$BASE_URL/accessibility/'
       policies: '$BASE_URL/policy/'
       what_is_login_gov: '$BASE_URL/about-us/'
     partners:
