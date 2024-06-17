@@ -18,9 +18,7 @@ url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.P
 url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&oco=1&hl=zh-Hans
 ---
 
-{% capture alert_link %}
-  <a href="/zh/help/verify-your-identity/accepted-identification-documents/">有效驾照或州颁发的身份证件</a>
-{% endcapture %}
+{% capture alert_link %}<a href="/zh/help/verify-your-identity/accepted-identification-documents/">有效驾照或州颁发的身份证件</a>{% endcapture %}
 
 {% capture alert_content %}
   <strong>
