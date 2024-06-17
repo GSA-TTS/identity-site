@@ -1,17 +1,20 @@
-const initializeTouchpoints = () => {
+const initializeTouchpointsTranslations = () => {
   const touchpointsRoot = document.getElementById('touchpoints_feedback');
-  if (!touchpointsRoot) return;
 
-  const yesButton = document.querySelector('input[type=submit][value=yes]');
-  const noButton = document.querySelector('input[type=submit][value=no]');
-  const label = touchpointsRoot.querySelector('label');
+  if (touchpointsRoot) {
+    const { yes: yesValue, no: noValue, question } = touchpointsRoot.dataset;
 
-  yesButton.value = touchpointsRoot.dataset.yes;
-  noButton.value = touchpointsRoot.dataset.no;
+    const yesButton = document.querySelector('input[type=submit][value=yes]');
+    const noButton = document.querySelector('input[type=submit][value=no]');
+    const label = touchpointsRoot.querySelector('label');
 
-  if (label) {
-    label.innerText = touchpointsRoot.dataset.question;
+    yesButton?.setAttribute('value', yesValue);
+    noButton?.setAttribute('value', noValue);
+
+    if (label) {
+      label.innerText = question;
+    }
   }
 };
 
-document.addEventListener('onTouchpointsFormLoaded', initializeTouchpoints);
+document.addEventListener('onTouchpointsFormLoaded', initializeTouchpointsTranslations);
