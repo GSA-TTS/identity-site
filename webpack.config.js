@@ -8,10 +8,7 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
     contact_us_form_element: './assets/js/contact_us_form_element.ts',
     faqs: './assets/js/faqs.js',
     partners_contact: './assets/js/partners/contact.js',
-    touchpoints: [
-      './assets/js/touchpoints_translations.js',
-      './assets/js/touchpoints_58f51d4d.js'
-    ],
+    touchpoints: ['./assets/js/touchpoints_translations.js', './assets/js/touchpoints_58f51d4d.js'],
     country_support: './assets/js/country_support.js',
     post_office_search: './assets/js/post_office_search.tsx',
   },
