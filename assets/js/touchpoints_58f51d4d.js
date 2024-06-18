@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 // Form components are namespaced under 'fba' = 'Feedback Analytics'
 'use strict';
 
