@@ -38,7 +38,6 @@ Contacte directamente con los [programas para viajeros de confianza](https://hel
 
 * [Estado de la solicitud](https://help.cbp.gov/s/article/Article-1886?language=es)
 * [Inscripción al llegar](https://help.cbp.gov/s/article/Article-1871?language=es)
-* [Solicitud para el programa para viajeros de confianza equivocado](https://help.cbp.gov/s/article/Article-1759?language=es)
 * [Otras preguntas sobre el programa para viajeros de confianza](https://help.cbp.gov/s/all-ttp-articles?language=es)
 
 Información importante:

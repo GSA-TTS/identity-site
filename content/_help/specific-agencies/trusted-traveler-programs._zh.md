@@ -15,7 +15,6 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 
 * [申请状态](https://help.cbp.gov/s/article/Article-1886?language=en_US)
 * [到达时注册](https://help.cbp.gov/s/article/Article-1871?language=en_US)
-* [申请的受信任旅客计划不对](https://help.cbp.gov/s/article/Article-1759?language=en_US)
 * [其他有关受信任旅客计划的问题](https://help.cbp.gov/s/all-ttp-articles?language=en_US)
 
 注意要点：
