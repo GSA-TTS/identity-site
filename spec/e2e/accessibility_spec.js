@@ -1,10 +1,8 @@
+import { describe, test, it } from 'node:test';
+import assert from 'node:assert/strict';
 import { AxePuppeteer } from '@axe-core/puppeteer';
-import { toHaveNoViolations } from 'jest-axe';
-import { page as globalPage, goto } from './support/browser';
-import { getCandidateLinks, toNotHaveTargetBlank } from './support/target-blank';
-
-expect.extend(toHaveNoViolations);
-expect.extend({ toNotHaveTargetBlank });
+import { getURL } from './support/browser';
+import { getCandidateLinks } from './support/target-blank';
 
 /** @type {RegExp[]} */
 const EXCLUDE_PATTERNS = [
@@ -12,7 +10,7 @@ const EXCLUDE_PATTERNS = [
   /admin/,
 ];
 
-describe('accessibility', () => {
+describe('accessibility', { concurrency: 4 }, () => {
   const paths = JSON.parse(process.env.ALL_URLS)
     .map((url) => new URL(url).pathname)
     .filter((path) => !EXCLUDE_PATTERNS.some((pattern) => pattern.test(path)));
@@ -25,36 +23,40 @@ describe('accessibility', () => {
 
   for (const [label, viewport] of Object.entries(viewports)) {
     describe(`${label} viewport`, () => {
-      test.concurrent.each(paths)('%s', async (path) => {
-        const page = await global.browser.newPage();
-        await page.setViewport(viewport);
-        await page.goto(new URL(path, process.env.ROOT_URL).toString());
-        const runner = new AxePuppeteer(page).disableRules('frame-tested').disableFrame('*');
+      paths.forEach((path) => {
+        test(path, async () => {
+          const page = await global.browser.newPage();
+          await page.setViewport(viewport);
+          await page.goto(new URL(path, process.env.ROOT_URL).toString());
+          const runner = new AxePuppeteer(page).disableRules('frame-tested').disableFrame('*');
 
-        const results = await runner.analyze();
-        expect(results).toHaveNoViolations();
+          const results = await runner.analyze();
+          assert.deepEqual(results.violations, []);
 
-        const links = await getCandidateLinks(page);
-        links.forEach((a) => expect(a).toNotHaveTargetBlank());
-        await page.close();
+          const links = await getCandidateLinks(page);
+          links.forEach((a) => assert.notEqual(a.target, '_blank'));
+          await page.close();
+        });
       });
     });
   }
 
   describe('"Back to top" link', () => {
     it('resets focus to the beginning of content', async () => {
-      await goto('/about-us/');
-      const backToTopLinkHandle = await globalPage.$('.usa-prose .anchor-to-top');
+      const page = await global.browser.newPage();
+      await page.goto(getURL('/about-us/'));
+      const backToTopLinkHandle = await page.$('.usa-prose .anchor-to-top');
       await backToTopLinkHandle.click();
-      await globalPage.keyboard.press('Tab');
-      const isFocusBeforeBackToTop = await globalPage.evaluate(
+      await page.keyboard.press('Tab');
+      const isFocusBeforeBackToTop = await page.evaluate(
         (backToTopLink) =>
           backToTopLink.compareDocumentPosition(document.activeElement) ===
           Node.DOCUMENT_POSITION_PRECEDING,
         backToTopLinkHandle,
       );
 
-      expect(isFocusBeforeBackToTop).toEqual(true);
+      assert.equal(isFocusBeforeBackToTop, true);
+      await page.close();
     });
   });
 });

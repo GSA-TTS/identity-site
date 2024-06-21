@@ -1,16 +1,16 @@
-/**
- * @jest-environment jsdom
- */
-
+import { describe, before, beforeEach, after, test, mock } from 'node:test';
+import assert from 'node:assert/strict';
 import ContactUsFormElement from '../../assets/js/contact_us_form_element';
 
 describe('ContactUsFormElement', () => {
   const now = '2023-01-20T05:00:00Z';
 
-  beforeAll(() => {
-    jest
-      .spyOn(ContactUsFormElement.prototype, 'now', 'get')
-      .mockImplementation(() => new Date(now));
+  before(() => {
+    mock.getter(ContactUsFormElement.prototype, 'now', () => new Date(now));
+  });
+
+  after(() => {
+    mock.reset();
   });
 
   describe('when maintenance window is not specified', () => {
@@ -23,7 +23,7 @@ describe('ContactUsFormElement', () => {
     test('it does not hide', () => {
       const form = document.querySelector('contact-us-form')!;
 
-      expect(form.hasAttribute('hidden')).toStrictEqual(false);
+      assert.equal(form.hasAttribute('hidden'), false);
     });
   });
 
@@ -40,7 +40,7 @@ describe('ContactUsFormElement', () => {
     test('it does not hide', () => {
       const form = document.querySelector('contact-us-form')!;
 
-      expect(form.hasAttribute('hidden')).toStrictEqual(false);
+      assert.equal(form.hasAttribute('hidden'), false);
     });
 
     describe('with alert element present', () => {
@@ -56,7 +56,7 @@ describe('ContactUsFormElement', () => {
       });
 
       test('it removes alert element', () => {
-        expect(document.getElementById('alert-container')).toBeFalsy();
+        assert.equal(document.getElementById('alert-container'), null);
       });
     });
   });
@@ -74,7 +74,7 @@ describe('ContactUsFormElement', () => {
     test('it hides', () => {
       const form = document.querySelector('contact-us-form')!;
 
-      expect(form.hasAttribute('hidden')).toStrictEqual(true);
+      assert.equal(form.hasAttribute('hidden'), true);
     });
 
     describe('when an associated alert exists', () => {
@@ -98,13 +98,14 @@ describe('ContactUsFormElement', () => {
       test('it unhides the alert', () => {
         const alertContainer = document.getElementById('alert-container')!;
 
-        expect(alertContainer.hasAttribute('hidden')).toStrictEqual(false);
+        assert.equal(alertContainer.hasAttribute('hidden'), false);
       });
 
       test('it formats time strings in the alert text', () => {
         const alertContainer = document.getElementById('alert-container')!;
 
-        expect(alertContainer.textContent?.trim()).toMatch(
+        assert.match(
+          alertContainer.textContent!.trim(),
           /Outage from January \d+, 2023 at \d+:\d+\s[AP]M\s[A-Z]+ to January \d+, 2023 at \d+:\d+\s[AP]M\s[A-Z]+/,
         );
       });

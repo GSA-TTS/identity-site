@@ -125,7 +125,6 @@ exclude:
   - CONTRIBUTING.md
   - docs
   - Gemfile*
-  - jest.config.js
   - LICENSE.md
   - SECURITY.md
   - Makefile*
@@ -176,7 +175,6 @@ help_pages:
     url: /help/verify-your-identity/overview/
   - name: specific-agencies
     url: /help/specific-agencies/overview/
-
 
 url: https://www.login.gov
 

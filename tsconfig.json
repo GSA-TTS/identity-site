@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
     "target": "ES2022",
+    "module": "ESNext",
     "strict": true,
     "moduleResolution": "node",
     "noEmit": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
     "allowSyntheticDefaultImports": true
   },
   "include": ["./spec", "./assets/js"]

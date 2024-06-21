@@ -3,8 +3,7 @@
   "extends": ["plugin:@18f/eslint-plugin-identity/recommended"],
   "plugins": ["@18f/eslint-plugin-identity"],
   "env": {
-    "browser": true,
-    "jest": true
+    "browser": true
   },
   "parserOptions": {
     "ecmaVersion": 2021,
@@ -13,6 +12,11 @@
   "rules": {
     // ESLint is currently unable to resolve packages with the exports directive
     // See: https://github.com/import-js/eslint-plugin-import/issues/1810
-    "import/no-unresolved": ["error", { "ignore": ["@18f/identity-address-search", "@18f/identity-i18n", "@18f/identity-components"] }]
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": ["@18f/identity-address-search", "@18f/identity-i18n", "@18f/identity-components"]
+      }
+    ]
   }
 }

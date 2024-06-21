@@ -1,34 +1,43 @@
-import type { Page } from 'puppeteer';
+import { describe, it } from 'node:test';
+import assert from 'node:assert/strict';
+import type { Browser } from 'puppeteer';
 
 // @ts-ignore
-import { page as originalPage, goto as originalGoto } from './support/browser';
-
-const page = originalPage as Page;
-const goto = originalGoto as (path: string) => ReturnType<Page['goto']>;
+import { getURL } from './support/browser';
 
 describe('PO search page', () => {
   it('is accessible from the side menu', async () => {
-    await goto('/help/verify-your-identity/overview/');
+    const page = await ((global as any).browser as Browser).newPage();
+    await page.goto(getURL('/help/verify-your-identity/overview/'));
 
     const link = await page.waitForSelector(
       'xpath///a[contains(text(),"Find a Participating Post Office")]',
     );
 
-    expect(link).not.toBeUndefined();
+    assert.notEqual(link, undefined);
 
     await page.evaluate((a) => (a as HTMLAnchorElement).click(), link);
 
     await page.waitForNavigation();
 
-    expect(page!.url()).toContain(
-      '/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office',
+    assert(
+      page!
+        .url()
+        .includes(
+          '/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office',
+        ),
     );
+    await page.close();
   });
 
   it('renders a PO search component', async () => {
-    await goto(
-      '/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office',
+    const page = await ((global as any).browser as Browser).newPage();
+    await page.goto(
+      getURL(
+        '/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office',
+      ),
     );
     await page.waitForSelector('#post-office-search', { timeout: 1000 });
+    await page.close();
   });
 });
