@@ -17,7 +17,7 @@
     "lint:css": "stylelint '_sass/**/*.scss' 'assets/scss/**/*.scss'",
     "typecheck": "tsc",
     "pretest": "if [ -z $SKIP_BUILD ]; then make build; fi",
-    "test": "NODE_ENV=test node --import=esbuild-esm-loader/register --import=./spec/spec_helper.js --test spec/**/*.{js,ts,tsx}"
+    "test": "NODE_ENV=test node --import=esbuild-esm-loader/register --import=./spec/spec_helper.js --test spec/**/*.js spec/**/*.ts spec/**/*.tsx"
   },
   "repository": {
     "type": "git",
