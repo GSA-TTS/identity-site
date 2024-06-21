@@ -1,7 +1,7 @@
 import { describe, test, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { AxePuppeteer } from '@axe-core/puppeteer';
-import { getURL } from './support/browser';
+import { getURL, concurrency } from './support/browser';
 import { getCandidateLinks } from './support/target-blank';
 
 /** @type {RegExp[]} */
@@ -10,7 +10,7 @@ const EXCLUDE_PATTERNS = [
   /admin/,
 ];
 
-describe('accessibility', { concurrency: 4 }, () => {
+describe('accessibility', { concurrency }, () => {
   const paths = JSON.parse(process.env.ALL_URLS)
     .map((url) => new URL(url).pathname)
     .filter((path) => !EXCLUDE_PATTERNS.some((pattern) => pattern.test(path)));

@@ -1,5 +1,5 @@
 import { describe, test } from 'node:test';
-import { getURL } from './support/browser';
+import { getURL, concurrency } from './support/browser';
 
 /** @typedef {import('puppeteer').CustomError} PuppeteerCustomError */
 /** @typedef {import('puppeteer').ConsoleMessage} PuppeteerConsoleMessage */
@@ -24,7 +24,7 @@ function isCORSErrorOnPermittedURLs(message) {
  */
 const isExemptedConsoleMessage = (message) => isCORSErrorOnPermittedURLs(message);
 
-describe('JavaScript logging', { concurrency: 4 }, () => {
+describe('JavaScript logging', { concurrency }, () => {
   const paths = JSON.parse(process.env.ALL_URLS)
     .map((url) => new URL(url).pathname)
     .filter((path) => !EXCLUDE_PATTERNS.some((pattern) => pattern.test(path)));
