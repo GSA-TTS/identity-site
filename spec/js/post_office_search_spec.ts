@@ -83,11 +83,6 @@ describe('Post Office Search', () => {
     assert.equal(cityField.disabled, false);
     assert.equal(stateField.disabled, false);
     assert.equal(zipcodeField.disabled, false);
-
-    assert.equal(addressField.disabled, false);
-    assert.equal(cityField.disabled, false);
-    assert.equal(stateField.disabled, false);
-    assert.equal(zipcodeField.disabled, false);
     assert.equal(searchButton.disabled, false);
   });
 
