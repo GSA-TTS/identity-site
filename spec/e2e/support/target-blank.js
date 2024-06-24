@@ -23,14 +23,4 @@ function getCandidateLinks(page) {
   );
 }
 
-/**
- * @param {SimplifiedLink} a
- */
-function toNotHaveTargetBlank(a) {
-  return {
-    pass: a.target !== '_blank',
-    message: () => `Link "${a.innerText}" to ${a.href} had target=_blank, but it should not have`,
-  };
-}
-
-export { getCandidateLinks, toNotHaveTargetBlank };
+export { getCandidateLinks };

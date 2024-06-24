@@ -1,9 +1,6 @@
-/**
- * @jest-environment jsdom
- */
-
+import { describe, test } from 'node:test';
+import assert from 'node:assert/strict';
 import { render } from '@testing-library/react';
-import '@testing-library/jest-dom';
 import NoInPersonLocationsDisplay from '../../assets/js/no_in_person_locations_display';
 
 describe('NoInPersonLocationsDisplay', () => {
@@ -11,9 +8,9 @@ describe('NoInPersonLocationsDisplay', () => {
     const { container, getByRole } = await render(
       <NoInPersonLocationsDisplay address="123 Somewhere" />,
     );
-    const heading = container.querySelector('h2');
+    const heading = container.querySelector('h2')!;
 
-    expect(heading).toHaveTextContent(/none_found/);
-    expect(getByRole('status')).toBeInTheDocument();
+    assert.match(heading.textContent!, /none_found/);
+    assert(getByRole('status'));
   });
 });

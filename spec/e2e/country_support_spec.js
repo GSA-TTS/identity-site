@@ -1,4 +1,6 @@
-import { goto, page } from './support/browser';
+import { describe, test } from 'node:test';
+import assert from 'node:assert/strict';
+import { getURL } from './support/browser.js';
 
 describe('country support', () => {
   /** @type {import('../../assets/js/country_support.js').CountrySupport} */
@@ -28,6 +30,7 @@ describe('country support', () => {
   };
 
   test('renders a table of country codes', async () => {
+    const page = await global.browser.newPage();
     await page.setRequestInterception(true);
 
     page.on('request', (interceptedRequest) => {
@@ -44,25 +47,30 @@ describe('country support', () => {
       }
     });
 
-    await goto('/help/manage-your-account/international-phone-support/');
+    await page.goto(getURL('/help/manage-your-account/international-phone-support/'));
 
     const table = await page.waitForSelector('.js-country-support:not([hidden]) table');
-    expect((await table.$$('tbody tr')).length).toBe(3);
-    expect(await table.$eval('tbody tr:nth-child(1) td:nth-child(1)', (el) => el.innerText)).toBe(
+    assert.equal((await table.$$('tbody tr')).length, 3);
+    assert.equal(
+      await table.$eval('tbody tr:nth-child(1) td:nth-child(1)', (el) => el.innerText),
       'Canada (CA)',
     );
-    expect(await table.$eval('tbody tr:nth-child(2) td:nth-child(1)', (el) => el.innerText)).toBe(
+    assert.equal(
+      await table.$eval('tbody tr:nth-child(2) td:nth-child(1)', (el) => el.innerText),
       'United States (US)',
     );
-
-    expect(await table.$eval('tbody tr:nth-child(3) td:nth-child(1)', (el) => el.innerText)).toBe(
+    assert.equal(
+      await table.$eval('tbody tr:nth-child(3) td:nth-child(1)', (el) => el.innerText),
       'Uruguay (UY)',
     );
-    expect(
+    assert.equal(
       await table.$eval('tbody tr:nth-child(3) td:nth-child(3)', (el) => el.innerText.trim()),
-    ).toBe('No');
-    expect(
+      'No',
+    );
+    assert.equal(
       await table.$eval('tbody tr:nth-child(3) td:nth-child(4)', (el) => el.innerText.trim()),
-    ).toBe('No');
+      'No',
+    );
+    await page.close();
   });
 });

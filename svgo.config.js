@@ -1,4 +1,4 @@
-module.exports = /** @type {import('svgo').OptimizeOptions} */ ({
+export default /** @type {import('svgo').OptimizeOptions} */ ({
   multipass: true,
   plugins: [
     {

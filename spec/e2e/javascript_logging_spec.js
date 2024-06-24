@@ -1,9 +1,8 @@
-import { page, goto } from './support/browser';
+import { describe, test } from 'node:test';
+import { getURL, concurrency } from './support/browser';
 
 /** @typedef {import('puppeteer').CustomError} PuppeteerCustomError */
 /** @typedef {import('puppeteer').ConsoleMessage} PuppeteerConsoleMessage */
-
-const TEST_TIMEOUT_MS = 10000;
 
 /** @type {RegExp[]} */
 const EXCLUDE_PATTERNS = [/\.pdf$/, /admin/];
@@ -25,7 +24,7 @@ function isCORSErrorOnPermittedURLs(message) {
  */
 const isExemptedConsoleMessage = (message) => isCORSErrorOnPermittedURLs(message);
 
-describe('JavaScript logging', () => {
+describe('JavaScript logging', { concurrency }, () => {
   const paths = JSON.parse(process.env.ALL_URLS)
     .map((url) => new URL(url).pathname)
     .filter((path) => !EXCLUDE_PATTERNS.some((pattern) => pattern.test(path)));
@@ -48,21 +47,13 @@ describe('JavaScript logging', () => {
     throw new Error(`Unexpected console message: ${message.text()} (in ${message.location().url}`);
   }
 
-  beforeEach(() => {
-    page.on('pageerror', handleError);
-    page.on('console', handleConsole);
+  paths.forEach((path) => {
+    test(path, async () => {
+      const page = await global.browser.newPage();
+      page.on('pageerror', handleError);
+      page.on('console', handleConsole);
+      await page.goto(getURL(path));
+      await page.close();
+    });
   });
-
-  afterEach(() => {
-    page.off('pageerror', handleError);
-    page.off('console', handleConsole);
-  });
-
-  test.each(paths)(
-    '%s',
-    async (path) => {
-      await goto(path);
-    },
-    TEST_TIMEOUT_MS,
-  );
 });

@@ -1,30 +1,23 @@
-/**
- * @jest-environment jsdom
- */
-
+import { describe, beforeEach, afterEach, it, mock } from 'node:test';
+import assert from 'node:assert/strict';
 import { getByLabelText, getByRole, waitFor, getAllByText } from '@testing-library/dom';
-import '@testing-library/jest-dom';
 import { act } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { setImmediate } from 'timers/promises';
+import { render } from '../../assets/js/post_office_search';
 
 describe('Post Office Search', () => {
   // This is simulated since the test env doesn't support fetch
   const testServerPort = 9835;
   const locationsSearchUrl = `http://127.0.0.1:${testServerPort}/api/usps_locations`;
+  let fetchMock: ReturnType<typeof mock.method>;
 
   beforeEach(() => {
-    if ('fetch' in global) {
-      jest.spyOn(global, 'fetch');
-    } else {
-      // @ts-ignore
-      global.fetch = jest.fn();
-    }
-    (global.fetch as jest.Mock).mockImplementation(() => ({
+    fetchMock = mock.method(global, 'fetch', () => ({
       get ok() {
         return true;
       },
-      json: jest.fn(() => []),
+      json: mock.fn(() => []),
       get headers() {
         return new Headers();
       },
@@ -41,10 +34,7 @@ describe('Post Office Search', () => {
       container.id = 'post-office-search';
       container.dataset.locationsSearchUrl = locationsSearchUrl;
       document.body.appendChild(container);
-      jest.isolateModules(() => {
-        // eslint-disable-next-line global-require
-        require('../../assets/js/post_office_search');
-      });
+      render();
 
       // Wait for React to finish any asynchronous work
       await setImmediate();
@@ -52,6 +42,7 @@ describe('Post Office Search', () => {
   });
 
   afterEach(() => {
+    mock.restoreAll();
     if (container) {
       act(() => {
         container.remove();
@@ -59,11 +50,11 @@ describe('Post Office Search', () => {
     }
   });
 
-  const getField = function (labelName: string) {
+  const getField = function (labelName: string): HTMLInputElement {
     return getByLabelText(document.body, `in_person_proofing.body.location.po_search.${labelName}`);
   };
 
-  const getSearchButton = function () {
+  const getSearchButton = function (): HTMLButtonElement {
     return getByRole(container, 'button', {
       name: 'in_person_proofing.body.location.po_search.search_button',
     });
@@ -88,16 +79,11 @@ describe('Post Office Search', () => {
   it('renders post office search form fields that are enabled', () => {
     const { addressField, cityField, stateField, zipcodeField, searchButton } = getFormElements();
 
-    expect(addressField).toBeEnabled();
-    expect(cityField).toBeEnabled();
-    expect(stateField).toBeEnabled();
-    expect(zipcodeField).toBeEnabled();
-
-    expect(addressField).toBeVisible();
-    expect(cityField).toBeVisible();
-    expect(stateField).toBeVisible();
-    expect(zipcodeField).toBeVisible();
-    expect(searchButton).toBeVisible();
+    assert.equal(addressField.disabled, false);
+    assert.equal(cityField.disabled, false);
+    assert.equal(stateField.disabled, false);
+    assert.equal(zipcodeField.disabled, false);
+    assert.equal(searchButton.disabled, false);
   });
 
   describe('when searching', () => {
@@ -116,10 +102,10 @@ describe('Post Office Search', () => {
       });
 
       await waitFor(() => {
-        expect(addressField).toHaveValue(testData.address);
-        expect(cityField).toHaveValue(testData.city);
-        expect(stateField).toHaveValue(testData.state);
-        expect(zipcodeField).toHaveValue(testData.zipcode);
+        assert.equal(addressField.value, testData.address);
+        assert.equal(cityField.value, testData.city);
+        assert.equal(stateField.value, testData.state);
+        assert.equal(zipcodeField.value, testData.zipcode);
       });
     });
 
@@ -135,12 +121,12 @@ describe('Post Office Search', () => {
         it('shows an error', () => {
           const errorMessage = 'simple_form.required.text';
           const requiredErrorMessages = getAllByText(document.body, 'simple_form.required.text');
-          expect(container).toHaveTextContent(errorMessage);
-          expect(requiredErrorMessages).toHaveLength(4);
+          assert(container.textContent!.includes(errorMessage));
+          assert.equal(requiredErrorMessages.length, 4);
         });
 
         it('does not result in any fetch requests', () => {
-          expect(global.fetch).not.toHaveBeenCalled();
+          assert.equal(fetchMock!.mock.callCount(), 0);
         });
       });
 
@@ -164,7 +150,7 @@ describe('Post Office Search', () => {
         });
 
         it('sends at least one fetch request', () => {
-          expect(global.fetch).toHaveBeenCalled();
+          assert.notEqual(fetchMock!.mock.callCount(), 0);
         });
       });
     });

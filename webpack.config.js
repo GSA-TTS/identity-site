@@ -1,6 +1,8 @@
 const { NODE_ENV = 'production' } = process.env;
 
-module.exports = /** @type {import('webpack').Configuration} */ ({
+const { dirname } = import.meta;
+
+export default /** @type {import('webpack').Configuration} */ ({
   mode: NODE_ENV,
   entry: {
     main: './assets/js/main.js',
@@ -15,7 +17,7 @@ module.exports = /** @type {import('webpack').Configuration} */ ({
   target: ['web'],
   output: {
     filename: '[name].js',
-    path: `${__dirname}/_site/assets/js`,
+    path: `${dirname}/_site/assets/js`,
   },
   resolve: {
     extensions: ['.js', '.ts', '.tsx'],
