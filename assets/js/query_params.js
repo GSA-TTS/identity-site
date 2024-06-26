@@ -1,12 +1,13 @@
 import DOMPurify from 'dompurify';
 
-export function storeUrlQueryParams() {
+const ALLOWED_KEYS = Object.freeze(['partner', 'partnerDiv']);
+
+export function storeUrlQueryParams(allowedKeys = ALLOWED_KEYS) {
   if (typeof URLSearchParams === 'undefined' || typeof localStorage === 'undefined') {
     return;
   }
 
   const urlParams = new URLSearchParams(window.location.search);
-  const allowedKeys = ['partner', 'partnerDiv'];
 
   urlParams.forEach((value, key) => {
     if (allowedKeys.includes(key)) {
@@ -14,4 +15,18 @@ export function storeUrlQueryParams() {
       localStorage.setItem(key, sanitizedValue);
     }
   });
+}
+
+export function removeUrlQueryParams(keysToRemove = ALLOWED_KEYS) {
+  if (typeof URLSearchParams === 'undefined' || typeof window === 'undefined') {
+    return;
+  }
+
+  const url = new URL(window.location.href);
+  const urlParams = new URLSearchParams(url.search);
+
+  keysToRemove.forEach((key) => urlParams.delete(key));
+
+  url.search = urlParams.toString();
+  window.history.replaceState({}, '', url.href);
 }
