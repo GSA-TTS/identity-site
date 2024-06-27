@@ -12,6 +12,7 @@ banner:
     one_account: Login.gov is your one account for government
     sign_in: Sign in to manage your account
     text: Already have an account?
+    link: https://secure.login.gov/
   one-account-for-govt:
     create: Create an account
     learn: Learn how to create an account

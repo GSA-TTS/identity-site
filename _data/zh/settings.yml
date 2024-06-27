@@ -12,6 +12,7 @@ banner:
     one_account: Login.gov 使你只用一个账户就能与各政府部门互动
     sign_in: 登录来管理你的账户
     text: 已有账户？
+    link: https://secure.login.gov/zh
   one-account-for-govt:
     create: 设立账户
     learn: 了解如何设立帐户
