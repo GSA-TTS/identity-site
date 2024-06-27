@@ -45,7 +45,7 @@ order: 2
    * Mac app: [1Password](https://1password.com/), [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
    * Chrome 扩展程序: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en)
 
-3. 打开一个新的浏览器，在<https://secure.login.gov/>登录你的 Login.gov 账户。
+3. 打开一个新的浏览器，在<https://secure.login.gov/zh/>登录你的 Login.gov 账户。
 4. 选择“身份证实应用程序”旁边的“启用”，然后按照说明扫描或输入将身份证实应用程序与你帐户关联的代码。
 
 以后每次登录Login.gov，你就能使用这个应用程序生成的一次性密码了。
