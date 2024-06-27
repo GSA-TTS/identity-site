@@ -12,7 +12,7 @@ Siga estos pasos para cambiar el número de teléfono asociado con su cuenta.
 
 {: .number-list}
 
-1. Ingrese su dirección de correo electrónico en <https://secure.login.gov>.
+1. Ingrese su dirección de correo electrónico en <https://secure.login.gov/es>.
 2. Ingrese su contraseña.
 3. Haga clic en el botón “Iniciar sesión”.
 4. Ingrese su método de autenticación.

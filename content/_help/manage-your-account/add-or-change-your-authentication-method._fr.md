@@ -11,7 +11,7 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
 ## Ajouter ou modifier votre méthode d’authentification :
 
 {: .number-list}
-1. Saisissez votre adresse e-mail sur [https://secure.login.gov/fr/](https://secure.login.gov/).
+1. Saisissez votre adresse e-mail sur [https://secure.login.gov/fr/](https://secure.login.gov/fr).
 2. Saisissez votre mot de passe.
 3. Cliquez sur le bouton « Connexion ».
 4. Saisissez votre méthode d’authentification.

@@ -58,7 +58,7 @@ order: 5
 
 ### 如何设置人脸或触摸解锁
 
-到 [secure.login.gov](https://secure.login.gov/) ，点击“创建账户”。
+到 [secure.login.gov](https://secure.login.gov/zh) ，点击“创建账户”。
 
 {: .number-list}
 1. 输入你的电邮地址并点击提交。

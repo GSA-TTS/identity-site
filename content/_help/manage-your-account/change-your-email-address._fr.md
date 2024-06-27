@@ -13,7 +13,7 @@ Suivez les étapes ci-dessous pour modifier l'adresse e-mail associée à votre 
 ## Première partie : ajouter une adresse e-mail
 
   {: .number-list}
-  1. Connectez-vous à votre compte Login.gov <https://secure.login.gov>.
+  1. Connectez-vous à votre compte Login.gov <https://secure.login.gov/fr>.
   1. Saisissez votre mot de passe et cliquez sur « Connexion ».
   1. Cliquez sur le bouton « Connexion ».
   1. Saisissez votre méthode d'authentification.
@@ -28,7 +28,7 @@ Suivez les étapes ci-dessous pour modifier l'adresse e-mail associée à votre 
 ## Deuxième partie : supprimer l'ancienne adresse e-mail
 
   {: .number-list}
-  1. Saisissez votre adresse e-mail sur <https://secure.login.gov>.
+  1. Saisissez votre adresse e-mail sur <https://secure.login.gov/fr>.
   1. Saisissez votre mot de passe.
   1. Cliquez sur le bouton « Connexion ».
   1. Saisissez votre méthode d'authentification.

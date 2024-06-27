@@ -25,7 +25,7 @@ redirect_from:
 **Si tiene acceso a sus métodos de autenticación, siga estos pasos para eliminar su cuenta:**
 
 {: .number-list}
-1. Ingrese su dirección de correo electrónico en <https://secure.login.gov>.
+1. Ingrese su dirección de correo electrónico en <https://secure.login.gov/es>.
 2. Ingrese su contraseña.
 3. Haga clic en el botón “Iniciar sesión”.
 4. Use uno de los métodos que configuró para autenticarse.
@@ -37,7 +37,7 @@ redirect_from:
 Por motivos de seguridad, Login.gov requiere un procedimiento de dos pasos y un período de espera de 24 horas si perdió el acceso a sus métodos de autenticación y necesita eliminar su cuenta.
 
 {: .number-list}
-1. Vaya a la página de inicio de sesión de su aplicación del gobierno o a <https://secure.login.gov/>.
+1. Vaya a la página de inicio de sesión de su aplicación del gobierno o a <https://secure.login.gov/es>.
 2. Inicie sesión con su correo electrónico y contraseña.
 3. En la página de autenticación, haga clic en “Elegir otra opción de seguridad”.
 4. Vaya a la parte inferior y haga clic en el vínculo “Eliminar su cuenta”.

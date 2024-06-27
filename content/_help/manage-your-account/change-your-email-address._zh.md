@@ -11,7 +11,7 @@ order: 5
 ## 第一部分：添加电邮地址
 
 {: .number-list}
-1. 登录进入你的 Login.gov 账户 <https://secure.login.gov>。
+1. 登录进入你的 Login.gov 账户 <https://secure.login.gov/zh>。
 2. 输入密码并点击登录。
 3. 点击“登录”按钮。
 4. 输入你的身份证实方法。
@@ -26,7 +26,7 @@ order: 5
 ## 第二部分：删除老电邮地址
 
 {: .number-list}
-1. 在<https://secure.login.gov>输入你的电邮地址。
+1. 在<https://secure.login.gov/zh>输入你的电邮地址。
 2. 输入你的密码。
 3. 点击“登录”键。
 4. 输入你的身份证实方法。

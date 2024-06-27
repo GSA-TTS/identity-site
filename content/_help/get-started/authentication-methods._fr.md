@@ -68,7 +68,7 @@ Si vous choisissez cette option de sécurité, suivez les étapes suivantes pour
    * Applis Windows : [1Password](https://1password.com/), [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn).
    * Applis Mac : [1Password](https://1password.com/), [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
    * Extensions Chrome : [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
-3. Ouvrez un nouveau navigateur et connectez-vous à votre compte Login.gov à l'adresse <https://secure.login.gov/>.
+3. Ouvrez un nouveau navigateur et connectez-vous à votre compte Login.gov à l'adresse <https://secure.login.gov/fr>.
 4. Sélectionnez « Activer » à côté de « Application d'authentification » et suivez les instructions pour scanner ou saisir un code associant votre application d'authentification à votre compte.
 
 Vous pourrez désormais utiliser les codes à usage unique générés par l'application chaque fois que vous vous connecterez à Login.gov.

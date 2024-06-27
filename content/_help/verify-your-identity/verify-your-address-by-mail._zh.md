@@ -19,7 +19,7 @@ order: 6
 
 要求一个新代码:
 {: .number-list}
-1. 到 [https://secure.login.gov](https://secure.login.gov/)。
+1. 到 [https://secure.login.gov](https://secure.login.gov/zh)。
 2. 当系统让你输入代码时，选择“给我再发一封信”。
 
 ## 相关文章

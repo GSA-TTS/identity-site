@@ -13,7 +13,7 @@ Siga estos pasos para cambiar la dirección de correo electrónico asociada con 
 ## Primer paso: Agregue una dirección de correo electrónico
 
 {: .number-list}
-1. Inicie sesión en su cuenta de Login.gov en <https://secure.login.gov>.
+1. Inicie sesión en su cuenta de Login.gov en <https://secure.login.gov/es>.
 1. Ingrese su contraseña y haga clic en iniciar sesión.
 1. Haga clic en el botón “Iniciar sesión”.
 1. Ingrese su método de autenticación.
@@ -28,7 +28,7 @@ Siga estos pasos para cambiar la dirección de correo electrónico asociada con 
 ## Segundo paso: Elimine la dirección de correo electrónico anterior
 
 {: .number-list}
-1. Ingrese su dirección de correo electrónico en <https://secure.login.gov>.
+1. Ingrese su dirección de correo electrónico en <https://secure.login.gov/es>.
 1. Ingrese su contraseña.
 1. Haga clic en el botón “Iniciar sesión”.
 1. Ingrese su método de autenticación.

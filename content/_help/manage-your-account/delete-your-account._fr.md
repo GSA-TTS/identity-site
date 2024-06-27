@@ -25,7 +25,7 @@ redirect_from:
 **Si vous avez accès à vos méthodes d’authentification, suivez les étapes suivantes pour supprimer votre compte :**
 
 {: .number-list}
-1. Saisissez votre adresse e-mail sur <https://secure.login.gov>.
+1. Saisissez votre adresse e-mail sur <https://secure.login.gov/fr>.
 2. Saisissez votre mot de passe.
 3. Cliquez sur le bouton « Connexion ».
 4. Authentifiez-vous à l'aide d'une des méthodes que vous avez configurées.
@@ -38,7 +38,7 @@ redirect_from:
 Si vous avez perdu l’accès à vos méthodes d’authentification et voulez supprimer votre compte, par mesure de sécurité, Login.gov exige un processus en deux étapes et un délai d’attente de 24 heures.
 
 {: .number-list}
-1. Rendez-vous sur la page de connexion de votre application fédérale ou sur <https://secure.login.gov/>
+1. Rendez-vous sur la page de connexion de votre application fédérale ou sur <https://secure.login.gov/fr>
 2. Connectez-vous à l’aide de votre adresse e-mail et de votre mot de passe
 3. Sur la page d’authentification, cliquez sur « Choisir une autre option de sécurité »
 4. Faites défiler la page vers le bas et cliquez sur le lien « Supprimer votre compte »
