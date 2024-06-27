@@ -9,10 +9,10 @@ actions:
 banner:
   already-have-an-account:
     learn_more: Más información sobre cómo crear una cuenta
+    link: https://secure.login.gov/es
     one_account: 'Login.gov: una sola cuenta para el gobierno'
     sign_in: Inicie sesión para gestionar su cuenta
     text: ¿Ya tiene una cuenta?
-    link: https://secure.login.gov/es
   one-account-for-govt:
     create: Cree una cuenta
     learn: Más información sobre cómo crear una cuenta
