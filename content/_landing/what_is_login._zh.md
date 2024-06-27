@@ -27,7 +27,7 @@ component:
   col2: >-
     ## 让公众安全私密地进行访问
 
-    Logn.gov 使用[最高的安全标准](/zh/policy/)来保护你信息的安全，包括身份验证和[双重身份验证](/zh/help/get-started/authentication-methods/)。
+    Login.gov 使用[最高的安全标准](/zh/policy/)来保护你信息的安全，包括身份验证和[双重身份验证](/zh/help/get-started/authentication-methods/)。
 
 
     Login.gov 由[技术改造服务处(TTS)](https://www.gsa.gov/tts) 提供.
