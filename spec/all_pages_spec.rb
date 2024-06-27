@@ -13,8 +13,12 @@ def external_link?(uri)
 end
 
 def get_locale(path)
-  match = %r{^(fr|es|zh)/}.match(path)
-  match[1] if match
+  match = URI_PATH_LOCALE_REGEX.match(path)
+  if match
+    match[1]
+  else
+    'en'
+  end
 end
 
 RSpec.describe 'all pages' do
@@ -68,9 +72,9 @@ RSpec.describe 'all pages' do
         expect(doc).to link_to_valid_headers
       end
 
-      locale = get_locale(path)
-      context 'localization', if: locale do
+      context 'localization' do
         it 'maintains locale in links' do
+          locale = get_locale(path)
           expect(doc).to link_to_locale_pages(locale)
         end
       end
