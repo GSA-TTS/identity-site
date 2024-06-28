@@ -192,7 +192,7 @@ feedback_form:
   question: '这篇文章对你有帮助吗？'
   'yes': 对
 global:
-  language: 中文 (简体)
+  language: 语言
   locales:
     en: English
     es: Español
