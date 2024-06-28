@@ -39,7 +39,9 @@ RSpec::Matchers.define :link_to_locale_pages do |locale|
     doc = actual
 
     doc.css("a[href^='/'],a[href^='#{SITE_URL}']").each do |a|
-      next if a[:lang]
+      # `hreflang` implies that it's intentional for the link target language to differ from the
+      # current page language.
+      next if a[:hreflang]
       page = a[:href]
       link_path = URI::parse(page).path
       next if link_path.start_with?('/partners/')

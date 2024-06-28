@@ -26,7 +26,7 @@
   >
     {% for locale in site.languages %}
       <li>
-        <a href="{{ page.url | delocalize_url | locale_url: locale }}" lang="{{ locale }}">
+        <a href="{{ page.url | delocalize_url | locale_url: locale }}" lang="{{ locale }}" hreflang="{{ locale }}">
           {{ site.data.[locale].settings.global.locales[locale] }}
         </a>
       </li>
