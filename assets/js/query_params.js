@@ -1,6 +1,6 @@
 import DOMPurify from 'dompurify';
 
-const ALLOWED_KEYS = Object.freeze(['partner', 'partnerDiv']);
+const ALLOWED_KEYS = Object.freeze(['partner', 'partner_div']);
 
 export function storeUrlQueryParams(allowedKeys = ALLOWED_KEYS) {
   if (typeof URLSearchParams === 'undefined' || typeof localStorage === 'undefined') {
