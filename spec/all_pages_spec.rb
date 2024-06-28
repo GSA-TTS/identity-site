@@ -13,7 +13,7 @@ def external_link?(uri)
 end
 
 def get_locale(path)
-  match = URI_PATH_LOCALE_REGEX.match(path)
+  match = URI_PATH_NON_ENGLISH_LOCALE_REGEX.match(path)
   if match
     match[1]
   else

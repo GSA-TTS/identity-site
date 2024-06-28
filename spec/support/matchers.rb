@@ -48,14 +48,13 @@ RSpec::Matchers.define :link_to_locale_pages do |locale|
           broken_links << a.to_html
         end
       else
-        if link_path.match?(URI_PATH_LOCALE_REGEX) && !File.file?(File.join(REPO_ROOT, link_path))
+        if link_path.match?(URI_PATH_NON_ENGLISH_LOCALE_REGEX) && !File.file?(File.join(REPO_ROOT, link_path))
           broken_links << a.to_html
         end
       end
     end
 
     doc.css("a[href^='https://secure.login.gov']").each do |a|
-      next if a[:lang]
       page = a[:href]
       link_path = URI::parse(page).path
       if AVAILABLE_NON_ENGLISH_LOCALES.include?(locale)
@@ -63,7 +62,7 @@ RSpec::Matchers.define :link_to_locale_pages do |locale|
           broken_links << a.to_html
         end
       else
-        if link_path.match?(URI_PATH_LOCALE_REGEX) && !File.file?(File.join(REPO_ROOT, link_path))
+        if link_path.match?(URI_PATH_NON_ENGLISH_LOCALE_REGEX)
           broken_links << a.to_html
         end
       end

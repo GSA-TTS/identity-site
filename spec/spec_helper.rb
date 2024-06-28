@@ -15,7 +15,7 @@ SITE_URL = YAML.load_file(File.join(REPO_ROOT, '_config.yml'))['url']
 SITE_URI = URI(SITE_URL)
 AVAILABLE_LOCALES = YAML.load_file(File.join(REPO_ROOT, '_data/language_map.yml'))['languages'].keys
 AVAILABLE_NON_ENGLISH_LOCALES = AVAILABLE_LOCALES - ['en']
-URI_PATH_LOCALE_REGEX = %r{^/*(#{AVAILABLE_NON_ENGLISH_LOCALES.join('|')})/*}.freeze
+URI_PATH_NON_ENGLISH_LOCALE_REGEX = %r{^/*(#{AVAILABLE_NON_ENGLISH_LOCALES.join('|')})/*}.freeze
 
 
 def file_at(path)
