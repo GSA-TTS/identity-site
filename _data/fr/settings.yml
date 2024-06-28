@@ -9,6 +9,7 @@ actions:
 banner:
   already-have-an-account:
     learn_more: En savoir plus sur la création d’un compte
+    link: https://secure.login.gov/fr
     one_account: Login.gov est le compte qui vous ouvre l’accès aux sites des autorités
     sign_in: Se connecter pour gérer votre compte
     text: Vous avez déjà un compte ?

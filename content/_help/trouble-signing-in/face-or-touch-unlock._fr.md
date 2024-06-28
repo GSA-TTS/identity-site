@@ -55,7 +55,7 @@ L'activation de la synchronisation dans le cloud sur votre appareil vous permet 
 
 ### Comment configurer le déverrouillage facial ou tactile
 
-Rendez-vous sur le site [secure.login.gov](https://secure.login.gov/) et cliquez sur « Créer un compte ».
+Rendez-vous sur le site [secure.login.gov](https://secure.login.gov/fr) et cliquez sur « Créer un compte ».
 
 {: .number-list}
 1. Saisissez votre adresse e-mail et cliquez sur « Valider ».

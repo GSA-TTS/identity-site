@@ -12,7 +12,7 @@ Chaque fois que vous vous connecterez à votre compte Login.gov, vous aurez beso
 Suivez les étapes suivantes pour vous connecter à Login.gov.
 
 {: .number-list}
-1. Saisissez votre adresse e-mail sur <https://secure.login.gov>.
+1. Saisissez votre adresse e-mail sur <https://secure.login.gov/fr>.
 2. Saisissez votre mot de passe.
 3. Cliquez sur le bouton « Connexion ».
 4. Authentifiez-vous à l'aide de l'une des méthodes que vous avez configurées, par exemple :

@@ -49,7 +49,7 @@ En attendant, veuillez contacter le centre d’assistance de l’organisme parte
 
 ### La vérification en personne est disponible dans les établissements participants aux États-Unis et dans certains territoires américains.\*
 
-Lorsque vous commencerez la procédure sur [Login.gov](https://secure.login.gov/), nous vous aiderons à trouver une liste des bureaux de poste participants près de chez vous. Vous pouvez également [rechercher un bureau de poste près de chez vous dans notre Centre d’aide](/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/).
+Lorsque vous commencerez la procédure sur [Login.gov](https://secure.login.gov/fr), nous vous aiderons à trouver une liste des bureaux de poste participants près de chez vous. Vous pouvez également [rechercher un bureau de poste près de chez vous dans notre Centre d’aide](/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/).
 
 Une fois que vous avez reçu un code-barres en ligne, vous pouvez vous rendre dans n’importe quel bureau de poste où il est possible de procéder à la vérification en personne.
 
@@ -82,7 +82,7 @@ Si vous avez rencontré un problème en essayant de vérifier votre identité en
 
 Si vous avez reçu un e-mail vous informant que vous êtes prêt à vérifier votre identité ou que votre identité n’a pas pu être vérifiée en personne alors que vous n’avez pas essayé de le faire : 
 
-[Connectez-vous](https://secure.login.gov/) et [modifiez immédiatement votre mot de passe](/fr/help/manage-your-account/change-your-password/). Le cas échéant, vous pouvez également choisir de [supprimer votre compte](/fr/help/manage-your-account/delete-your-account/). 
+[Connectez-vous](https://secure.login.gov/fr) et [modifiez immédiatement votre mot de passe](/fr/help/manage-your-account/change-your-password/). Le cas échéant, vous pouvez également choisir de [supprimer votre compte](/fr/help/manage-your-account/delete-your-account/). 
 
 ### Ce qu’il faut faire si vous n’avez pas pu vérifier votre identité en personne
 

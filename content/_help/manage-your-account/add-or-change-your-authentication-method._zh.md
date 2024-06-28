@@ -12,7 +12,7 @@ order: 4
 ## 添加或更改身份证实方法：
 
 {: .number-list}
-1. 在 [https://secure.login.gov](https://secure.login.gov/) 输入你的电邮地址。
+1. 在 [https://secure.login.gov](https://secure.login.gov/zh) 输入你的电邮地址。
 2. 输入你的密码。
 3. 点击“登录”键。
 4. 输入你的身份证实方法。

@@ -41,7 +41,7 @@ Cette liste n’est pas exhaustive. Veuillez consulter l’[avis de système d�
 
 #### Qu’advient-il des informations que vous partagez ?
 
-Tous les enregistrements sont stockés électroniquement dans une base de données de l’environnement Amazon Web Services (AWS) de l’Administration des services généraux. Vous pouvez changer ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/account).
+Tous les enregistrements sont stockés électroniquement dans une base de données de l’environnement Amazon Web Services (AWS) de l’Administration des services généraux. Vous pouvez changer ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/fr/account).
 
 Vos informations personnelles, y compris les profils, fichiers de connexion, fichiers de mots de passe, fichiers et extraits d’audit, enregistrements d’utilisation du système et les données de facturation de l’organisme utilisées pour évaluer les frais d’utilisation du système, seront conservées aussi longtemps que vous aurez un compte actif, à moins qu’une conservation plus longue ne soit nécessaire à des fins commerciales, par exemple à des fins répressives ou pour d’autres questions juridiques, conformément aux directives de l’Administration nationale des archives et des dossiers (NARA). Ces informations personnelles sont nécessaires pour permettre aux utilisateurs d’accéder aux informations et aux services des organismes partenaires.
 
@@ -53,13 +53,13 @@ Toutes les informations se trouvant dans le système Login.gov sont conservées 
 
 ### Consentement : comment pouvez-vous contrôler les informations qui sont partagées ? ### {#consent}
 
-C’est vous qui décidez si vous souhaitez partager vos informations personnelles avec un organisme quel qu’il soit ; vous pouvez révoquer votre consentement à tout moment. Vous pouvez changer ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/account/).
+C’est vous qui décidez si vous souhaitez partager vos informations personnelles avec un organisme quel qu’il soit ; vous pouvez révoquer votre consentement à tout moment. Vous pouvez changer ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/fr/account/).
 
 Toutefois, le fait de ne pas fournir des informations complètes et exactes peut retarder l’accès à l’organisme partenaire. Login.gov n’effectue aucune détermination d’admissibilité ou d’aptitude ; cette responsabilité incombe aux sites Web gouvernementaux qui utilisent le service Login.gov.
 
 En dehors de ce qui est spécifié dans la présente politique de confidentialité et dans nos règles d’utilisation, nous ne partagerons jamais vos informations sans votre consentement. Vos données personnelles validées sont chiffrées et ne peuvent être partagées avec un organisme partenaire que si vous, l’utilisateur autorisé, saisissez votre mot de passe et consentez explicitement au partage de ces informations. Lorsque vous créez un compte ou que vous visitez le site Web d’une nouvel organisme partenaire après avoir créé votre compte, vous avez la possibilité de consentir au partage de vos informations avec l’organisme partenaire. Vous devez donner votre consentement tous les ans pour chaque organisme.
 
-N’oubliez pas que vous pouvez à tout moment mettre à jour vos informations personnelles, révoquer votre consentement ou supprimer entièrement votre compte à partir de la [page de votre compte](https://secure.login.gov/account).
+N’oubliez pas que vous pouvez à tout moment mettre à jour vos informations personnelles, révoquer votre consentement ou supprimer entièrement votre compte à partir de la [page de votre compte](https://secure.login.gov/fr/account).
 
 ### Réduction du risque de fraude : comment arrêtons-nous les acteurs malveillants ? ### {#fraud}
 

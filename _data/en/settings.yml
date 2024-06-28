@@ -9,6 +9,7 @@ actions:
 banner:
   already-have-an-account:
     learn_more: Learn more about creating an account
+    link: https://secure.login.gov/
     one_account: Login.gov is your one account for government
     sign_in: Sign in to manage your account
     text: Already have an account?

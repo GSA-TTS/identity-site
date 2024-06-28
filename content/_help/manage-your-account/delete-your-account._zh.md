@@ -21,7 +21,7 @@ order: 1
 
 {: .number-list}
 
-1. 在<https://secure.login.gov>输入你的电邮地址。
+1. 在<https://secure.login.gov/zh>输入你的电邮地址。
 2. 输入你的密码
 3. 点击“登录”键。
 4. 使用你设定的一个方法进行身份验证。
@@ -35,7 +35,7 @@ order: 1
 
 {: .number-list}
 
-1. 到你政府机构应用程序登录页面或者 <https://secure.login.gov/>
+1. 到你政府机构应用程序登录页面或者 <https://secure.login.gov/zh>
 2. 用你的电邮地址和密码登录
 3. 在身份证实页面，点击“选择另外一个安全选项”
 4. 滚动到底部，点击“删除你的帐户”链接

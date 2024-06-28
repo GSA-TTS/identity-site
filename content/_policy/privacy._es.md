@@ -38,7 +38,7 @@ Esta lista no es exhaustiva. Consulte el [aviso sobre el sistema de registros GS
 
 #### ¿Qué sucede con la información que usted da a conocer?
 
-Todos los registros se almacenan electrónicamente en una base de datos en el entorno de Amazon Web Services (AWS) de la GSA. Usted puede modificar, o enmendar, su dirección de correo electrónico o su número de teléfono en [la página de su cuenta](https://secure.login.gov/account).
+Todos los registros se almacenan electrónicamente en una base de datos en el entorno de Amazon Web Services (AWS) de la GSA. Usted puede modificar, o enmendar, su dirección de correo electrónico o su número de teléfono en [la página de su cuenta](https://secure.login.gov/es/account).
 
 Su información personal, incluidos los perfiles, archivos de inicio de sesión, archivos de contraseñas, archivos y extractos de registros de auditoría, registros de uso del sistema y datos de facturación de la agencia utilizados para evaluar los cargos por el uso del sistema, se conservarán mientras usted tenga una cuenta activa, a menos que se requiera una conservación más prolongada para uso comercial, como asuntos de aplicación de la ley u otras acciones legales de acuerdo con la guía de la Administración Nacional de Archivos y Registros (NARA). Esta información personal es necesaria para proporcionar a los usuarios acceso a los datos y servicios de las agencias asociadas.
 

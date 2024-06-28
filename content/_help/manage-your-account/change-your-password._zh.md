@@ -9,7 +9,7 @@ order: 2
 
 {: .number-list}
 
-1. 在<https://secure.login.gov>输入你的电邮地址。
+1. 在<https://secure.login.gov/zh>输入你的电邮地址。
 2. 输入你的密码。
 3. 点击“登录”键。
 4. 使用你设定的一个方法进行身份验证。系统就会带你到账户页面。

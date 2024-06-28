@@ -9,7 +9,7 @@ order: 2
 
 {: .number-list}
 
-1. 到<https://secure.login.gov>。
+1. 到<https://secure.login.gov/zh>。
 2. 选择靠近页面底部的“忘了你的密码？”链接。
 3. 在下个页面，输入你的电邮地址。
 4. 点击“继续”按钮。
