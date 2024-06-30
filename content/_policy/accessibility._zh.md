@@ -23,9 +23,10 @@ Login.gov 使用一系列半自动化评估工具以及专家评审员手工评�
 
 以下是我们完成的可用性评估报告：
 
-* [《IAL 1 账户设立报告》](/docs/accessibility-assessment-ial1-account-creation.pdf)
-* 下载 [身份验证报告》[DOCX, 363KB]](/docs/identity-verification-report.docx)
-* [身份验证报告[PDF, 150KB]](/docs/identity-verification-report.pdf)
+* 下载 [账户设立报告 [DOCX, 154KB]](/docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.docx)
+* [账户设立报告 [PDF, 141KB]](/docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.pdf)
+* 下载 [身份验证报告 [DOCX, 363KB]](/docs/identity-verification-report.docx)
+* [身份验证报告 [PDF, 150KB]](/docs/identity-verification-report.pdf)
 
 ## 已知局限
 以下描述了我们评价过程中发现的可用性方面的局限类型。
