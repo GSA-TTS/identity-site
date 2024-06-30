@@ -115,7 +115,8 @@ defaults:
 include:
   # dotfiles are excluded by default
   - .well-known
-  - docs/accessibility-assessment-ial1-account-creation.pdf
+  - docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.pdf
+  - docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.docx
   - docs/identity-verification-report.docx
   - docs/identity-verification-report.pdf
   - docs/login-gov-roadmap-may-2024.pdf
