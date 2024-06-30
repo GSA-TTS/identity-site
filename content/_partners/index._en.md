@@ -52,8 +52,6 @@ who_we_work_with:
   class: who-we-work-with
   label: Grid of logos for eight partner agencies.
   items:
-    - image: partners/logos/sba.png
-      alt: U.S. Small Business Administration (SBA)
     - image: partners/logos/army.png
       alt: U.S. Army
     - image: partners/logos/nasa.png
@@ -68,6 +66,8 @@ who_we_work_with:
       alt: U.S. Department of the Interior (DOI)
     - image: partners/logos/va.png
       alt: U.S. Department of Veterans Affairs (VA)
+    - image: partners/ssa-logo.svg
+      alt: U.S. Social Security Administration (SSA)
   link: >
     [Read our impact stories](/partners/impact-stories/){:class="usa-nav_link caret"}
 
