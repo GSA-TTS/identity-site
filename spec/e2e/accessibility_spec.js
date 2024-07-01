@@ -21,25 +21,34 @@ describe('accessibility', { concurrency }, () => {
     large: { width: 1280, height: 800 },
   };
 
-  for (const [label, viewport] of Object.entries(viewports)) {
-    describe(`${label} viewport`, () => {
-      paths.forEach((path) => {
-        test(path, async () => {
-          const page = await global.browser.newPage();
-          await page.setViewport(viewport);
-          await page.goto(new URL(path, process.env.ROOT_URL).toString());
-          const runner = new AxePuppeteer(page).disableRules('frame-tested').disableFrame('*');
+  paths.forEach((path) => {
+    test(path, async () => {
+      const page = await global.browser.newPage();
+      await page.goto(new URL(path, process.env.ROOT_URL).toString());
+      const runner = new AxePuppeteer(page).disableRules('frame-tested').disableFrame('*');
 
-          const results = await runner.analyze();
-          assert.deepEqual(results.violations, []);
+      // Disable reason: These need to be run sequentially to avoid conflicts.
+      /* eslint-disable no-await-in-loop */
+      for (const [label, viewport] of Object.entries(viewports)) {
+        await page.setViewport(viewport);
+        const results = await runner.analyze();
+        assert.deepEqual(
+          results.violations,
+          [],
+          [
+            `Expected no acccessibility violations at ${label} viewport.`,
+            'Violations:',
+            JSON.stringify(results.violations),
+          ].join('\n\n'),
+        );
+      }
+      /* eslint-disable no-await-in-loop */
 
-          const links = await getCandidateLinks(page);
-          links.forEach((a) => assert.notEqual(a.target, '_blank'));
-          await page.close();
-        });
-      });
+      const links = await getCandidateLinks(page);
+      links.forEach((a) => assert.notEqual(a.target, '_blank'));
+      await page.close();
     });
-  }
+  });
 
   describe('"Back to top" link', () => {
     it('resets focus to the beginning of content', async () => {
