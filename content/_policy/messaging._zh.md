@@ -11,7 +11,7 @@ sidenav: policies
 ### SMS 条款 ### {#terms}
 
 * Login.gov 提供身份证实服务，而且不会把短信或语音信息用于其他目的。
-* 电信运营商可能会收短信和数据费。
+* 您的电话运营商可能会收短信和数据费。
 * 短信只会在你设置和登录 Login.gov 账户过程中使用。
 * 如果你不再想接受 Login.gov 的短信，收到短信后请回复 STOP（停止） 。
 * 参见[我们的隐私法声明](/zh/policy/our-privacy-act-statement/)来了解隐私政策信息。
