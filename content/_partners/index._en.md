@@ -66,7 +66,7 @@ who_we_work_with:
       alt: U.S. Department of the Interior (DOI)
     - image: partners/logos/va.png
       alt: U.S. Department of Veterans Affairs (VA)
-    - image: partners/ssa-logo.svg
+    - image: partners/logos/ssa.png
       alt: U.S. Social Security Administration (SSA)
   link: >
     [Read our impact stories](/partners/impact-stories/){:class="usa-nav_link caret"}
