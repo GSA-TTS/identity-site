@@ -1,6 +1,8 @@
 ---
 layout: partners/impact-stories
 permalink: /partners/impact-stories/
+redirect_from:
+  - /partners/impact-stories/sba/
 title: >-
     Impact stories
 subtitle: >-
