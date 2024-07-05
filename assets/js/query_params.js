@@ -1,6 +1,4 @@
-import DOMPurify from 'dompurify';
-
-const ALLOWED_KEYS = Object.freeze(['partner', 'partner_div']);
+const ALLOWED_KEYS = Object.freeze(['agency', 'integration']);
 
 export function storeUrlQueryParams(allowedKeys = ALLOWED_KEYS) {
   if (typeof URLSearchParams === 'undefined' || typeof localStorage === 'undefined') {
@@ -11,8 +9,7 @@ export function storeUrlQueryParams(allowedKeys = ALLOWED_KEYS) {
 
   urlParams.forEach((value, key) => {
     if (allowedKeys.includes(key)) {
-      const sanitizedValue = DOMPurify.sanitize(value);
-      localStorage.setItem(key, sanitizedValue);
+      localStorage.setItem(key, value);
     }
   });
 }

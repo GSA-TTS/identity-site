@@ -8,6 +8,6 @@ export function setInputValueFromLocalStorage(key, inputId) {
 }
 
 export function populateFormAgencyValues() {
-  setInputValueFromLocalStorage('partner', 'agency_abbreviation');
-  setInputValueFromLocalStorage('partner_div', 'agency_division');
+  setInputValueFromLocalStorage('agency', 'agency_abbreviation');
+  setInputValueFromLocalStorage('integration', 'agency_division');
 }
