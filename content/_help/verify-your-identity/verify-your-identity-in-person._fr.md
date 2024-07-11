@@ -21,7 +21,6 @@ Veuillez préparer les informations suivantes pour les saisir sur Login.gov :
 1. Votre pièce d'identité délivrée par l'État. [Vous n'avez pas de pièce d'identité délivrée par l'État ?](/fr/help/verify-your-identity/accepted-identification-documents/)
 2. Votre numéro de sécurité sociale
 3. Votre numéro de téléphone
-   a. Si vous ne pouvez pas effectuer cette étape, nous pouvons [vous envoyer un code de vérification par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/), qui prendra 5 à 10 jours pour vous parvenir.
 
 Si vous ne parvenez pas à effectuer l'une de ces étapes, veuillez contacter le centre d'assistance de l'organisme partenaire pour obtenir de l'aide.   
 
