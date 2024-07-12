@@ -22,7 +22,6 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 1. 州政府颁发的身份证件。[没有州政府颁发的身份证件？](/zh/help/verify-your-identity/accepted-identification-documents/)
 2. 社会保障号码
 3. 你的电话号码
-   a. 如果你无法完成这一步，我们可以[通过邮局给你发送验证码](/zh/help/verify-your-identity/verify-your-address-by-mail/)，这一过程大约需要 5 到 10 天。
 
 如果你无法完成上述任一步骤，请联系我们合作伙伴机构的帮助中心来获得支持。
 
