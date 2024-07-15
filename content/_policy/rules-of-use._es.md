@@ -98,7 +98,7 @@ Algunos asociados exigen hacer la verificación con comparación biométrica. En
 
 ## 5. Cancelación 
 
-Puede cancelar su cuenta en cualquier momento en el perfil de su cuenta. Además, en caso de fraude u otras infracciones de estas Reglas de uso, podemos revocar el acceso a su cuenta. Si esto ocurre, seguiremos protegiendo la información de su cuenta de acuerdo con nuestra [Política de privacidad](/es/policy/) y el [aviso sobre el sistema de registros](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records) (en inglés).
+Puede cancelar su cuenta en cualquier momento en el perfil de su cuenta. Además, en caso de fraude u otras infracciones de estas Reglas de uso, podemos revocar el acceso a su cuenta. Si esto ocurre, seguiremos protegiendo la información de su cuenta de acuerdo con nuestra [Política de privacidad](/es/policy/) y el [aviso sobre el sistema de registros](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records) (en inglés).
 
 En el caso improbable de que se suspenda el servicio Login.gov, la información de la cuenta se conservará sujeta a nuestro aviso sobre el sistema de registros (en inglés), según sea modificado. Específicamente, la información de los usuarios, incluidos los perfiles, archivos de inicio de sesión, archivos de contraseña, archivos y extractos de registros de auditoría, archivos de uso del sistema y archivos de devolución de costos utilizados para evaluar los cargos por el uso del sistema se conservan de acuerdo con el Programa de conservación de registros de la GSA, GRS 03.2, punto 030, y se destruyen cuando termina su uso comercial.
 
