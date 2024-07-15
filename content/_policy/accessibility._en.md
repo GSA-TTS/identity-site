@@ -6,6 +6,7 @@ description: Read our accessibility statement
 permalink: /accessibility/
 redirect_from:
   - /en/accessibility/
+  - /docs/accessibility-assessment-ial1-account-creation.pdf/
 ---
 
 ## Our commitment
