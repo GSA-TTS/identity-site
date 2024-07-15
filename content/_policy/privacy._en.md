@@ -36,7 +36,7 @@ Login.gov partners with agencies that need secure and private access to their ap
 * To the Government Publishing Office (GPO), when Login.gov needs to mail you an address confirmation form or if you request mailed notifications of account changes or of proofing attempts.
 * To other federal agencies and third-party fraud prevention services as necessary to detect and investigate suspected fraud, including providing you with redress.
 
-This list is not comprehensive. Please see [system of records notice GSA/TTS-1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records) for all entities and individuals.
+This list is not comprehensive. Please see [system of records notice GSA/TTS-1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records) for all entities and individuals.
 
 #### What happens to the information you share?
 
@@ -68,7 +68,7 @@ Fraud is someone pretending to be you and attempting to access a partner agency 
 
 ### Records - Where can you find more information? ### {#records}
 
-Please see the Login.gov system of records notice ([GSA/TTS–1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records)).
+Please see the Login.gov system of records notice ([GSA/TTS–1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records)).
 
 ### Website Analytics – Other data we collect ### {#analytics}
 
