@@ -25,8 +25,8 @@ Login.gov is regularly evaluated through a series of semi-automated evaluation t
 
 Our completed accessibility assessment reports can be found below:
 
-* Download the [Authentication report [DOCX, 154KB]](/docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.docx)
-* [Authentication report [PDF, 141KB]](/docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.pdf)
+* Download the [Authentication report [DOCX, 150KB]](/docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.docx)
+* [Authentication report [PDF, 138KB]](/docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.pdf)
 * Download the [Identity verification report [DOCX, 363KB]](/docs/identity-verification-report.docx) 
 * [Identity verification report [PDF, 150KB]](/docs/identity-verification-report.pdf)
 

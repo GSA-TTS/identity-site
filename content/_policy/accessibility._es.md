@@ -22,8 +22,8 @@ Un grupo de revisores expertos evalúa Login.gov periódicamente usando un conju
 
 Estos son nuestros informes (en inglés) sobre la evaluación de la accesibilidad:
 
-* Descargue el [Informe de creación de Cuenta [DOCX, 154KB]](/docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.docx)
-* [Informe de creación de Cuenta [PDF, 141KB]](/docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.pdf)
+* Descargue el [Informe de autenticación [DOCX, 150KB]](/docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.docx)
+* [Informe de autenticación [PDF, 138KB]](/docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.pdf)
 * Descargue el [Informe de verificación de identidad \[DOCX, 363KB\]](/docs/identity-verification-report.docx)
 * [Informe de verificación de identidad \[PDF, 150KB\]](/docs/identity-verification-report.pdf)
 
