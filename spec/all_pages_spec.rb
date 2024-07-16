@@ -45,7 +45,9 @@ RSpec.describe 'all pages' do
       end
 
       it 'does not have broken Markdown links' do
-        expect(doc.to_s).to_not include(')]')
+        html = doc.to_s
+        expect(html).to_not include(')]')
+        expect(html).to_not match(/\]\((http|\/)/)
       end
 
       it 'does not link to a placeholder redirect_from page' do

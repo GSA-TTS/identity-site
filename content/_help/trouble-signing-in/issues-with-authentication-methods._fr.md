@@ -55,7 +55,7 @@ Seul le dernier code à usage unique que vous recevrez fonctionnera. Si vous dem
 
 * Il se peut que l’heure ne soit pas correctement synchronisée entre votre appareil et votre appli d’authentification. Assurez-vous que l’heure de votre appareil est correcte en utilisant une page comme [time.gov](https://www.time.gov/).
 
-  * Si vous utilisez Google Authenticator, il vous faudra peut-être synchroniser l’heure manuellement. [Suivez les [instructions de Google pour synchroniser votre heure.](https://support.google.com/accounts/answer/185834?hl=en)](https://support.google.com/accounts/answer/185834?hl=en)
+  * Si vous utilisez Google Authenticator, il vous faudra peut-être synchroniser l’heure manuellement. [Suivez les instructions de Google pour synchroniser votre heure.](https://support.google.com/accounts/answer/185834?hl=en)
 
 ## Mon code de sauvegarde ne fonctionne pas
 

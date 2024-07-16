@@ -24,8 +24,8 @@ Nos rapports d’évaluation de l’accessibilité passés sont disponibles ci-d
 
 * Télécharger le [Rapport d’authentification [DOCX, 150KB]](/docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.docx)
 * [Rapport d’authentification [PDF, 138KB]](/docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.pdf)
-* Télécharger le [Rapport sur la vérification d'identité \[DOCX, 363KB]](/docs/identity-verification-report.docx)
-* [Rapport sur la vérification d'identité \[PDF, 150KB]](/docs/identity-verification-report.pdf)
+* Télécharger le [Rapport sur la vérification d'identité [DOCX, 363KB]](/docs/identity-verification-report.docx)
+* [Rapport sur la vérification d'identité [PDF, 150KB]](/docs/identity-verification-report.pdf)
 
 ## Limites connues
 Vous trouverez ci-dessous une description des types de limites en matière d’accessibilité que nos évaluations ont permis de mettre en lumière.
