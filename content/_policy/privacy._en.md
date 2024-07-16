@@ -56,7 +56,7 @@ You decide if you want to share personal information with any agency and you can
 
 However, failure to provide complete and accurate information may delay access to the partner agency. Login.gov does not make any eligibility or suitability determinations; that is the responsibility of the government websites that use the Login.gov service.
 
-Other than as specified in this Privacy Policy and our Rules of Use, we will never share your information without your consent. Your validated personal data is encrypted and the only way to share it with a partner agency is if you, the authorized user, enter your password and explicitly grant consent to share the information. Your document images are encrypted and stored in a manner that can only be accessed if both Login and the agency agree to decrypt them. When accessing systems at the IRS, you consent to share data from each attempt you make to assert your identity as well as any future security-impacting account activities. This data is encrypted in a manner only the IRS can see.
+Other than as specified in this Privacy Policy and our Rules of Use, we will never share your information without your consent. Your validated personal data is encrypted and the only way to share it with a partner agency is if you, the authorized user, enter your password and explicitly grant consent to share the information. Your document images are encrypted and stored in a manner that can only be accessed if both Login and the agency agree to decrypt them.
 
 When you create an account or visit a new partner agency website after you have created your account, you will see the option to consent to share your information with the partner agency. You are required to give consent yearly for each agency.
 
