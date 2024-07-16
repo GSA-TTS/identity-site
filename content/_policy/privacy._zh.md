@@ -33,7 +33,7 @@ Login.gov 的合作政府机构，要求对其应用程序和服务的访问是�
 * 提供给政府出版办公室（GPO），因为Login.gov 要给你寄送地址确认表格或你请求寄出账户变更通知或试图核证身份的行动的通知，
 * 必要时提供给侦查和调查欺诈嫌疑的，包括为你提供补救措施的其他联邦机构以及提供欺诈预防服务的第三方服务机构。
 
-上面的清单并非所有我们与之分享信息的实体和个人。请参见[记录系统通知 GSA/TTS-1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records) 来查看所有实体和个人。
+上面的清单并非所有我们与之分享信息的实体和个人。请参见[记录系统通知 GSA/TTS-1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records) 来查看所有实体和个人。
 
 #### 你分享的信息会如何处理？
 
@@ -65,7 +65,7 @@ Login.gov 的合作政府机构，要求对其应用程序和服务的访问是�
 
 ### 记录 - 你在哪里可以找到更多信息?  ### {#records}
 
-请参见 Login.gov 记录系统通知（[GSA/TTS–1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records)）。
+请参见 Login.gov 记录系统通知（[GSA/TTS–1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records)）。
 
 ### 网站分析数据 - 我们收集的其他数据  ### {#analytics}
 

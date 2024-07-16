@@ -34,7 +34,7 @@ Login.gov se asocia con agencias que necesitan acceso seguro y privado a sus apl
 * A la Oficina de Publicaciones del Gobierno (GPO), cuando Login.gov necesite enviarle por correo un formulario de confirmación de dirección o si usted solicita avisos por correo de cambios en su cuenta o de intentos de comprobación.
 * A otras agencias federales y servicios de terceros para la prevención del fraude, según sea necesario para detectar e investigar sospechas de fraude, y proporcionarle a usted compensación.
 
-Esta lista no es exhaustiva. Consulte el [aviso sobre el sistema de registros GSA/TTS-1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records) (en inglés) para conocer todas las entidades e individuos.
+Esta lista no es exhaustiva. Consulte el [aviso sobre el sistema de registros GSA/TTS-1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records) (en inglés) para conocer todas las entidades e individuos.
 
 #### ¿Qué sucede con la información que usted da a conocer?
 
@@ -64,7 +64,7 @@ El fraude sucede cuando alguien se hace pasar por usted e intenta acceder a una 
 
 ### Registros: ¿Dónde puede encontrar más información? ### {#records}
 
-Consulte el aviso sobre el sistema de registros de Login.gov ([GSA/TTS–1](https://www.federalregister.gov/documents/2022/11/21/2022-25420/privacy-act-of-1974-notice-of-a-modified-system-of-records)).
+Consulte el aviso sobre el sistema de registros de Login.gov ([GSA/TTS–1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records)).
 
 ### Análisis del sitio web: Otros datos que recopilamos ### {#analytics}
 
