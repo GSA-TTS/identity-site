@@ -7,8 +7,10 @@ export function storeUrlQueryParams(allowedKeys = ALLOWED_KEYS) {
 
   const urlParams = new URLSearchParams(window.location.search);
 
-  urlParams.forEach((value, key) => {
-    if (allowedKeys.includes(key)) {
+  allowedKeys.forEach((key) => {
+    const value = urlParams.get(key) ?? '';
+
+    if (value) {
       localStorage.setItem(key, value);
     }
   });
