@@ -2,7 +2,7 @@
 <nav class="margin-y-4 sidenav position-sticky pin-top" aria-label="{{ site.data.[page.lang].settings.accessible_labels.secondary_navigation }}">
   <ul class="usa-accordion usa-sidenav">
     {% for subpage in site.help_pages %}
-      {% assign related_questions = site.help | where_exp: "item", "item.category == subpage.name and item.lang == page.lang and item.child == nil or item.child == false" | sort:'order' %}
+      {% assign related_questions = site.help | where_exp: "item", "item.category == subpage.name and item.lang == page.lang and item.child != true and item.exclude_from_nav != true" | sort:'order' %}
       {% if page.url contains subpage.name %}
         {% assign is_initially_hidden = 'false' %}
       {% else %}
