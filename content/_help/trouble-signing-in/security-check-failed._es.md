@@ -12,7 +12,7 @@ Login.gov usa [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?h
 
 ## ¿Cómo accedo a mi cuenta?
 
-"Para aumentar sus posibilidades de pasar la comprobación [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?hl=es){:class="usa-link--external"} pruebe lo siguiente:
+Para aumentar sus posibilidades de pasar la comprobación [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?hl=es){:class="usa-link--external"} pruebe lo siguiente:
 
 - Utilice el mismo dispositivo y navegador con el que creó su cuenta en Login.gov.
 - Intente [iniciar sesión con su identificación de empleado del gobierno](https://secure.login.gov/es/login/piv_cac) si es un empleado del gobierno.

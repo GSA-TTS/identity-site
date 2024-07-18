@@ -12,7 +12,7 @@ Login.gov 使用 [reCAPTCHA](https://cloud.google.com/security/products/recaptch
 
 ## 我如何访问自己的账户？
 
-"要提高您通过 [reCAPTCHA](https://cloud.google.com/security/products/recaptcha){:class="usa-link--external"} 的机会，请尝试以下方法：
+要提高您通过 [reCAPTCHA](https://cloud.google.com/security/products/recaptcha){:class="usa-link--external"} 的机会，请尝试以下方法：
 
 - 使用您设立自己 Login.gov 账户时的同一设备和浏览器。
 - 如果您是政府雇员，尝试[用您的政府雇员身份证件登录](https://secure.login.gov/zh/login/piv_cac)。
