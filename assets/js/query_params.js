@@ -8,7 +8,7 @@ export function storeUrlQueryParams(allowedKeys = ALLOWED_KEYS) {
   const urlParams = new URLSearchParams(window.location.search);
 
   allowedKeys.forEach((key) => {
-    const value = urlParams.get(key) ?? '';
+    const value = urlParams.get(key);
 
     if (value) {
       localStorage.setItem(key, value);
