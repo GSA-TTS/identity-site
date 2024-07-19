@@ -13,7 +13,6 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 
 如果你有事关以下内容的问题，请直接联系[受信任旅客计划](https://help.cbp.gov/s/questions?language=en_US)：
 
-* [申请状态](https://help.cbp.gov/s/article/Article-1886?language=en_US)
 * [到达时注册](https://help.cbp.gov/s/article/Article-1871?language=en_US)
 * [其他有关受信任旅客计划的问题](https://help.cbp.gov/s/all-ttp-articles?language=en_US)
 
