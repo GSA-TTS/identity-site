@@ -65,7 +65,7 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 
 如果不成功的话，你可以：
 
-* 再次尝试在网上验证你的身份。
+* 尝试再次验证你的身份，无论是网上还是亲身验证
 * 联系我们合作伙伴机构的帮助中心寻求支持。
 
 如果你没有收到我们电邮，可以采取以下步骤：
@@ -85,7 +85,7 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 
 ### 如果你亲身验证身份未能成功，该怎么办？
 
-如果你未能成功地亲身验证身份，你可以再次[在网上验证你的身份，](/zh/help/verify-your-identity/how-to-verify-your-identity/) 或者联系你试图访问的机构来得到有关验证身份[具体问题的帮助。](/zh/help/specific-agencies/overview/)
+如果你无法成功亲身验证你的身份，你可以尝[试在网上或再次亲身验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/), 或者你可以联系你试图访问的机构，以[获取有关验证身份具体问题的帮助](/zh/help/specific-agencies/overview/)。
 
 有关亲身验证身份的小贴士：
 
@@ -93,7 +93,7 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 
 ### 要是亲身验证身份的截止日期已过，怎么办？
 
-如果你收到电邮，告诉你验证你身份的截止日期已过，请尝试[再次在网上验证身份。](/zh/help/verify-your-identity/how-to-verify-your-identity/)
+如果你无法成功亲身验证你的身份，你可以尝试在网上或[再次在网上验证身份。](/zh/help/verify-your-identity/how-to-verify-your-identity/)
 
 为了保护申请人的个人数据，我们会在 30 天后自动取消身份验证请求。你重新开始亲身验证身份这一流程后，会收到一个新截止日期。
 

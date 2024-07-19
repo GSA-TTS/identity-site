@@ -65,7 +65,7 @@ You’ll get an email to let you know if your identity verification was successf
 
 If your identity verification was unsuccessful, you can:
 
-* Try to verify your identity online again
+* Try to verify your identity again, either online or in person
 * Contact the partner agency’s help center for support
 
 If you do not receive an email from us, there are a few steps you can take:
@@ -85,7 +85,7 @@ If you received an email informing you that you are ready to verify your identit
 
 ### What to do if you were unable to successfully verify your identity in person
 
-If you are unable to successfully verify your identity in person, you can try to [verify your identity online](/help/verify-your-identity/how-to-verify-your-identity/) again, or you can contact the agency you are trying to access for [help with specific questions](/help/specific-agencies/overview/) about verifying your identity.
+If you are unable to successfully verify your identity in person, you can try to [verify your identity again](/help/verify-your-identity/how-to-verify-your-identity/), either online or in person, or you can contact the agency you are trying to access for [help with specific questions](/help/specific-agencies/overview/) about verifying your identity.
 
 Tips for verifying your identity in person: 
 

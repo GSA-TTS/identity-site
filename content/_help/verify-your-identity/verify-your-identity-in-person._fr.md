@@ -65,7 +65,7 @@ Nous vous enverrons un e-mail vous informant si la vérification d’identité a
 
 En cas d’échec de la vérification de votre identité, vous pouvez :
 
-* Réessayer de vérifier votre identité en ligne
+* Tentez à nouveau de confirmer votre identité, en ligne ou en personne
 * Contacter le centre d’assistance de l’organisme partenaire pour obtenir de l’aide
 
 Si vous ne recevez pas d’e-mail de notre part, il y a certaines mesures que vous pouvez prendre :
@@ -85,7 +85,7 @@ Si vous avez reçu un e-mail vous informant que vous êtes prêt à vérifier vo
 
 ### Ce qu’il faut faire si vous n’avez pas pu vérifier votre identité en personne
 
-Si vous ne parvenez pas à vérifier votre identité en personne, vous pouvez réessayer de [vérifier votre identité en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/) ou contacter l’organisme auquel vous essayez d’accéder pour [obtenir de l’aide sur des questions spécifiques](/fr/help/specific-agencies/overview/) relatives à la vérification de votre identité.
+Si vous ne parvenez pas à confirmer votre identité en personne, vous pouvez [réessayer de vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/) en ligne ou en personne, ou contacter l’organisme auquel vous essayez d’accéder pour [obtenir de l’aide sur des questions spécifiques](/fr/help/specific-agencies/overview/) relatives à la vérification de votre identité.
 
 Conseils pour vérifier votre identité en personne : 
 
