@@ -93,7 +93,7 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 
 ### 要是亲身验证身份的截止日期已过，怎么办？
 
-如果你无法成功亲身验证你的身份，你可以尝试在网上或[再次在网上验证身份。](/zh/help/verify-your-identity/how-to-verify-your-identity/)
+如果你收到电邮，告诉你验证你身份的截止日期已过，请尝试[再次在网上验证身份。](/zh/help/verify-your-identity/how-to-verify-your-identity/)
 
 为了保护申请人的个人数据，我们会在 30 天后自动取消身份验证请求。你重新开始亲身验证身份这一流程后，会收到一个新截止日期。
 
