@@ -64,7 +64,7 @@ En las 24 horas siguientes a su visita a la oficina de correos, recibirá un cor
 
 Si no se logró la verificación de su identidad, usted puede:
 
-* Intentar verificar su identidad en línea de nuevo.
+* Intente verificar su identidad de nuevo, ya sea en línea o en persona
 * Ponerse en contacto con el centro de ayuda de la agencia asociada para obtener ayuda.
 
 Si no recibe un correo electrónico de nosotros, estos son algunos pasos que puede seguir:
@@ -84,7 +84,7 @@ Si recibió un correo electrónico para informarle que está listo para verifica
 
 ### Qué hacer si no pudo verificar su identidad en persona
 
-Si no logra verificar su identidad en persona, puede intentar[ verificar su identidad en línea de nuevo](/es/help/verify-your-identity/how-to-verify-your-identity/), o puede comunicarse con la agencia a la que está intentando acceder para [obtener ayuda con preguntas específicas](/es/help/specific-agencies/overview/) sobre la verificación de su identidad.
+Si no logra verificar su identidad en persona, puede intentar [verificar su identidad de nuevo](/es/help/verify-your-identity/how-to-verify-your-identity/), en línea o en persona, o puede comunicarse con la agencia a la que está intentando acceder para [obtener ayuda con preguntas específicas](/es/help/specific-agencies/overview/) sobre la verificación de su identidad.
 
 Consejos para verificar su identidad en persona:
 
