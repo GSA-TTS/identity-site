@@ -11,7 +11,9 @@ import { UsStatesTerritories } from './form_helper';
 export function render() {
   const elem = document.getElementById('post-office-search')!;
   const root = createRoot(elem);
-  const { locationsSearchUrl } = elem.dataset;
+  const { locationsSearchUrl, pageLang } = elem.dataset;
+  const localizedLocationsSearchUrl = new URL(locationsSearchUrl);
+  localizedLocationsSearchUrl.searchParams.set('locale', pageLang);
 
   root.render(
     <form>
@@ -19,7 +21,7 @@ export function render() {
         noValidate
         disabled={false}
         handleLocationSelect={null}
-        locationsURL={locationsSearchUrl}
+        locationsURL={localizedLocationsSearchUrl}
         noInPersonLocationsDisplay={NoInPersonLocationsDisplay}
         onFoundLocations={() => {}}
         registerField={() => {}}
