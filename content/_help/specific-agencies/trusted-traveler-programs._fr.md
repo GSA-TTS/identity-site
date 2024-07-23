@@ -35,7 +35,12 @@ Login.gov ne peut répondre qu'aux questions concernant la création d'un compte
 
 Veuillez contacter directement les [Programmes voyageurs sans risque](https://help.cbp.gov/s/questions?language=en_US) si vous avez des questions concernant:
 
-* [Inscription à l’arrivée](https://help.cbp.gov/s/article/Article-1871?language=en_US)
+* [État de la demande](https://help.cbp.gov/s/article/Article-1886?language=en_US)
+* Rendez-vous
+  * [Prendre ou modifier un rendez-vous](https://help.cbp.gov/s/article/Article1850?language=en_US)
+  * [Inscription à l’arrivée](https://help.cbp.gov/s/article/Article-1871?language=en_US)
+* [Carte NEXUS, SENTRI ou Global Entry perdue, volée ou endommagée](https://help.cbp.gov/s/article/Article-1453?language=en_US)
+* [Demande déposée pour le mauvais Programme pour voyageurs fiables](https://help.cbp.gov/s/article/Article-1354?language=en_US)
 * [Autres questions au sujet du Programme pour voyageurs fiables](https://help.cbp.gov/s/all-ttp-articles?language=en_US)
 
 Notes importantes :
