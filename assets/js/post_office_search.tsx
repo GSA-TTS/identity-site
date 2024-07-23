@@ -8,10 +8,16 @@ import { t } from '@18f/identity-i18n';
 import NoInPersonLocationsDisplay from './no_in_person_locations_display';
 import { UsStatesTerritories } from './form_helper';
 
+interface PostOfficeSearchElementDataset extends DOMStringMap {
+  locationsSearchUrl: string;
+}
+
 export function render() {
   const elem = document.getElementById('post-office-search')!;
   const root = createRoot(elem);
-  const { locationsSearchUrl } = elem.dataset;
+  const { locationsSearchUrl } = elem.dataset as PostOfficeSearchElementDataset;
+  const localizedLocationsSearchUrl = new URL(locationsSearchUrl);
+  localizedLocationsSearchUrl.searchParams.set('locale', document.documentElement.lang);
 
   root.render(
     <form>
@@ -19,7 +25,7 @@ export function render() {
         noValidate
         disabled={false}
         handleLocationSelect={null}
-        locationsURL={locationsSearchUrl}
+        locationsURL={localizedLocationsSearchUrl}
         noInPersonLocationsDisplay={NoInPersonLocationsDisplay}
         onFoundLocations={() => {}}
         registerField={() => {}}
