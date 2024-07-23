@@ -35,9 +35,7 @@ Login.gov solo puede responder las preguntas sobre el proceso de inicio de sesi�
 
 Contacte directamente con los [programas para viajeros de confianza](https://help.cbp.gov/s/questions?language=es) si tiene preguntas acerca de:
 
-* Solicitudes
-  * [Estado de la solicitud](https://help.cbp.gov/s/article/Article-1886?language=es)
-  * [Cambios en la solicitud](https://help.cbp.gov/s/article/Article-1377?language=es)
+* [Estado de la solicitud](https://help.cbp.gov/s/article/Article-1886?language=es)
 * Citas
   * [Programación o cambio de citas](https://help.cbp.gov/s/article/Article-1378?language=es)
   * [Inscripción al llegar](https://help.cbp.gov/s/article/Article-1871?language=es)

@@ -35,9 +35,7 @@ Login.gov ne peut répondre qu'aux questions concernant la création d'un compte
 
 Veuillez contacter directement les [Programmes voyageurs sans risque](https://help.cbp.gov/s/questions?language=en_US) si vous avez des questions concernant:
 
-* Demandes
-  * [État de la demande](https://help.cbp.gov/s/article/Article-1886?language=en_US)
-  * [Modifications de la demande](https://help.cbp.gov/s/article/Article-1377?language=en_US)
+* [État de la demande](https://help.cbp.gov/s/article/Article-1886?language=en_US)
 * Rendez-vous
   * [Prendre ou modifier un rendez-vous](https://help.cbp.gov/s/article/Article-1378?language=en_US)
   * [Inscription à l’arrivée](https://help.cbp.gov/s/article/Article-1871?language=en_US)
