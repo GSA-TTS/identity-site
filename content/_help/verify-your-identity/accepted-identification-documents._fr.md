@@ -6,6 +6,7 @@ order: 2
 redirect_from:
   - /fr/help/identity-verification/i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity/
   - /fr/help/verifying-your-identity/dont-have-a-state-issued-id/
+  - /fr/help/verify-your-identity/accepted-state-issued-identification/
 do_list:
   - « **Permis de conduire** des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, Îles Vierges des États-Unis, Samoa américaines, Îles Mariannes et Porto Rico). »
   - « **Pièce d’identité délivrée par l’État, à l’exception d’un permis de conduire.** Il s'agit d'une pièce d'identité délivrée par un État, le district de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais ne donne pas le droit de conduire. »

@@ -3,6 +3,8 @@ layout: help
 title: 系统接受的身份证件
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/accepted-identification-documents/
+redirect_from:
+  - /zh/help/verify-your-identity/accepted-state-issued-identification/
 order: 2
 do_list:
   - "美国所有50个州、哥伦比亚特区（DC）以及其他美国属地（关岛、美属维尔京岛、美属萨摩亚、马里亚纳群岛和波多黎各）的**驾照**。"

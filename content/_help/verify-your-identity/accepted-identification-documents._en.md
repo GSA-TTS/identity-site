@@ -7,6 +7,8 @@ order: 2
 redirect_from:
   - /help/identity-verification/i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity/
   - /help/verifying-your-identity/dont-have-a-state-issued-id/
+  - /help/verify-your-identity/accepted-state-issued-identification/
+  - /en/help/verify-your-identity/accepted-state-issued-identification/
   - /en/help/verify-your-identity/accepted-identification-documents/
 do_list:
   - "**Driver’s license** from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico)."
