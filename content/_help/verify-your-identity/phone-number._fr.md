@@ -7,7 +7,7 @@ redirect_from:
   - /fr/help/verifying-your-identity/phone-plan-is-not-in-my-name-or-address/
   - /fr/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 ---
-Nous comparons votre numéro de téléphone aux données enregistrées pour vérifier votre identité. Le numéro de téléphone que vous utilisez pour vérifier votre identité doit être basé aux États-Unis, y compris l’ensemble des territoires américains.
+Nous comparons votre numéro de téléphone aux données enregistrées pour vérifier votre identité. Le numéro de téléphone que vous utilisez pour confirmer votre identité doit être basé aux États-Unis.
 
 Nous pouvons plus facilement vérifier votre identité si vous saisissez votre numéro principal (le numéro que vous utilisez le plus souvent).
 
@@ -20,15 +20,18 @@ Nous pouvons plus facilement vérifier votre identité si vous saisissez votre n
 Vous pouvez utiliser un téléphone portable prépayé pour vérifier votre identité. Cependant, certains numéros de téléphone prépayés contiennent des facteurs de risque qui peuvent compromettre la vérification de votre identité.
 
 ## Vous ne pouvez pas vérifier votre identité avec :
-- Les numéros internationaux
+- Des numéros internationaux et des numéros de certains territoires américains
 - Google Voice ou des numéros VOIP (voix via le protocole internet) similaires
 - Les numéros surtaxés (payants)
 
 ## Si vous ne pouvez pas effectuer cette étape
 
-Cliquez sur « Vérifiez plutôt votre adresse par courrier ». Vous devrez attendre 5 à 10 jours pour recevoir un courrier par la poste, puis suivre les instructions pour saisir le code de vérification.
+Dans certains cas, vous pouvez sélectionner « Confirmer votre adresse par courrier » à la place. Vous devrez attendre 5 à 10 jours pour recevoir un courrier par la poste, puis suivre les instructions pour saisir le code de vérification.
+
+Dans le cas où n’avez pas la possibilité d’effectuer la vérification par courrier, vous y parviendrez en confirmant votre identité par téléphone.
 
 ## Articles connexes
 
+* [Aide concernant les numéros de téléphone internationaux](/fr/help/verify-your-identity/phone-number/)
 * [Vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
 * [Vérifier par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)
