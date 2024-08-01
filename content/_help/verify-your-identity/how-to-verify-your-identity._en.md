@@ -20,12 +20,12 @@ do.
 ## Requirements for identity verification
 
 {: .number-list}
-1. Your [drivers license or state ID card.](/help/verify-your-identity/accepted-identification-documents/) You can upload a photo of your ID by phone or by computer.
-1. Social Security number
-1. Your phone number 
-    * If we can't verify your phone number, you can [verify by mail](/help/verify-your-identity/verify-your-address-by-mail/) instead. This takes 5 to 10 days.
-1. Taking a photo of yourself
-Some services need you to take a photo of yourself with a phone to verify your identity online. If you don't have a phone with a camera, you can [verify your identity in person.](/help/verify-your-identity/verify-your-identity-in-person/)
+1. Your [driver's license or state ID card.](/help/verify-your-identity/accepted-identification-documents/) You can upload a photo of your ID by phone or by computer.
+2. Social Security number
+3. Your phone number
+   In some cases, you can [verify by mail](/help/verify-your-identity/verify-your-address-by-mail/) instead.
+4. Taking a photo of yourself
+   Some services need you to take a photo of yourself with a phone to verify your identity online. If you don't have a phone with a camera, you can [verify your identity in person.](/help/verify-your-identity/verify-your-identity-in-person/)
 
 If you are missing any of this information, please contact the government agency you are trying to access.
 
@@ -37,7 +37,7 @@ Login.gov is a secure, government website that adheres to the highest standards 
 {: .number-list}
 1. On the “We need to verify your identity” page, read the requirements and, if you agree, check the box next to the Login.gov consent statement.
     * Click “Continue”
-1. Next, upload a photo of your driver's license or state ID card.
+2. Next, upload a photo of your driver's license or state ID card.
     * Note: If you begin the identity verification process on your computer, you have the option to switch and use your phone to take images.
 
     **Continue by computer**
@@ -65,11 +65,12 @@ Login.gov is a secure, government website that adheres to the highest standards 
         * Take an image of the back of your ID
     * You may also need to take a photo of yourself to complete this step.
     * Click “Continue”
-1.  Enter your social security number and click “Continue”
-1.  Verify the information you have submitted so far is correct and click “Continue”
-1.  Enter your primary phone number. This is the last step for identity verification.
-    * If you do not have a U.S. phone number or cannot verify by phone, click on “Verify your address by mail instead.” You will have to wait 5 to 10 days to receive a letter in the mail and then follow the instructions to enter a verification code.
-1.  Once your identity is verified, you need to encrypt your account. Re-enter your Login.gov password. Click “Continue”
-1.  Take note of your personal key and keep it safe. You’ll need to enter your personal key immediately on the next page. Click “Continue”
+3.  Enter your social security number and click “Continue”
+4.  Verify the information you have submitted so far is correct and click “Continue”
+5.  Enter your primary phone number. This is the last step for identity verification.
+    * In some cases, you may be able to select “Verify your address by mail instead.”
+    * If you do not have the option to verify by mail, you must verify by phone to successfully verify your identity.
+6.  Once your identity is verified, you need to encrypt your account. Re-enter your Login.gov password. Click “Continue”
+7.  Take note of your personal key and keep it safe. You’ll need to enter your personal key immediately on the next page. Click “Continue”
 
 Once the process is complete, click “Agree and Continue” to be redirected back to your Login.gov account page or the agency you are trying to access.
