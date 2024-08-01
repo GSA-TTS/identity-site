@@ -10,7 +10,7 @@ redirect_from:
   - /help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 ---
 
-Identity verification is the process where you prove you are you - and not someone pretending to be you.  If you cannot [verify your phone number](/help/verify-your-identity/phone-number/), you can use your address to verify by mail instead. You will get a letter in the mail with a verification code to finish verifying your identity.
+In some cases, you can verify your address by mail instead of [verifying your phone number.](/help/verify-your-identity/phone-number/) You will get a letter in the mail with a verification code to finish verifying your identity.
 
 We send the letter to an address that we have verified and associated with you. If you need to change this address, you will need to start over and verify your identity again with the new address.
 
