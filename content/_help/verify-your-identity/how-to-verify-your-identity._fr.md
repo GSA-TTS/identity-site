@@ -23,13 +23,13 @@ s’offrent à vous.
 ## Exigences relatives à la vérification d'identité
 
 {: .number-list}
-1. Votre permis de conduire ou carte d’identité d’un État
-Vous pouvez téléverser une photo de votre pièce d'identité par téléphone ou par ordinateur.
+1. Votre [permis de conduire ou carte d’identité d’un État](/fr/help/verify-your-identity/accepted-identification-documents/)
+   Vous pouvez téléverser une photo de votre pièce d'identité par téléphone ou par ordinateur.
 2. Numéro de sécurité sociale
 3. Votre numéro de téléphone
    Dans certains cas, vous pouvez [confirmer votre identité par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/) à la place.
 4. Prendre une photo de vous
-   Certains services requièrent que vous preniez une photo de vous-même à l’aide de votre téléphone pour confirmer votre identité en ligne. Si vous n'avez pas de téléphone équipé d'une caméra, vous pouvez confirmer votre identité en personne.
+   Certains services requièrent que vous preniez une photo de vous-même à l’aide de votre téléphone pour confirmer votre identité en ligne. Si vous n'avez pas de téléphone équipé d'une caméra, vous pouvez [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/).
 
 S'il vous manque une de ces informations, veuillez contacter l'organisme gouvernemental auquel vous essayez d'accéder.
 

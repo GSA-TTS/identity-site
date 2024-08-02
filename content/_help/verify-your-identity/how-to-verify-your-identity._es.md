@@ -16,7 +16,8 @@ Si tiene menos de 18 años, es posible que no pueda verificar su identidad en su
 ## Requisitos para la verificación de identidad
 
 {: .number-list}
-1. Su licencia de conducir o tarjeta de identificación estatal. Puede cargar una foto de su identificación con un teléfono celular o una computadora.
+1. Su [licencia de conducir o tarjeta de identificación estatal](/es/help/verify-your-identity/accepted-identification-documents/).
+   Puede cargar una foto de su identificación con un teléfono celular o una computadora.
 2. Número de Seguro Social
 3. Su número de teléfono
    En algunos casos, puede hacer la [verificación por correo](/es/help/verify-your-identity/verify-your-address-by-mail/).
