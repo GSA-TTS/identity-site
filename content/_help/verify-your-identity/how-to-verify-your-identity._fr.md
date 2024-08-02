@@ -74,7 +74,7 @@ Login.gov est un site web sécurisé de l’administration qui respecte les norm
 3. Saisissez votre numéro de sécurité sociale, puis cliquez sur « Suite »
 4. Vérifiez que les informations que vous avez fournies jusqu'à présent sont correctes, puis cliquez sur « Suite ».
 5. Saisissez votre numéro de téléphone principal. Il s'agit de la dernière étape de la vérification d'identité.
-    * Dans certains cas, vous pouvez sélectionner « Confirmer votre adresse par courrier » à la place.
+    * Dans certains cas, vous pouvez sélectionner « Confirmer votre adresse par courrier » à la place. Vous devrez attendre de 5 à 10 jours pour recevoir une lettre par la poste, puis suivre les instructions pour entrer un code de vérification.
     * Dans le cas où n’avez pas la possibilité d’effectuer la vérification par courrier, vous y parviendrez en confirmant votre identité par téléphone.
 6. Une fois votre identité vérifiée, vous devez crypter votre compte. Saisissez à nouveau votre mot de passe Login.gov. Cliquez sur « Suite ».
 7. Prenez note de votre clé personnelle et conservez-la en lieu sûr. Vous devrez saisir votre clé personnelle immédiatement à la page suivante. Cliquez sur « Suite ».

@@ -65,7 +65,7 @@ Login.gov es un sitio web gubernamental seguro que cumple las normas más elevad
 3. Ingrese su número de Seguro Social y haga clic en “Continuar”.
 4. Verifique que la información que ha enviado hasta ahora sea la correcta y haga clic en “Continuar”.
 5. Ingrese su número de teléfono principal. Este es el último paso para verificar su identidad.
-   * En algunos casos, puede seleccionar “Verifique su domicilio a través del correo postal”.
+   * En algunos casos, puede seleccionar “Verifique su domicilio a través del correo postal”. Tendrá que esperar de 5 a 10 días para recibir una carta por correo, y luego siga las instrucciones para ingresar el código de verificación.
    * Si no tiene la opción de verificar por correo, debe hacer la verificación de su identidad por teléfono.
 6. Una vez que se haya verificado su identidad, tendrá que cifrar su cuenta. Vuelva a ingresar su contraseña de Login.gov. Haga clic en “Continuar”.
 7. Anote su clave personal y consérvela en un lugar seguro. Necesitará ingresar su clave personal inmediatamente en la siguiente página. Haga clic en “Continuar”.

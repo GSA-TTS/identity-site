@@ -69,7 +69,7 @@ Login.gov is a secure, government website that adheres to the highest standards 
 3.  Enter your social security number and click “Continue”
 4.  Verify the information you have submitted so far is correct and click “Continue”
 5.  Enter your primary phone number. This is the last step for identity verification.
-    * In some cases, you may be able to select “Verify your address by mail instead.”
+    * In some cases, you may be able to select “Verify your address by mail instead.” You will have to wait 5 to 10 days to receive a letter in the mail and then follow the instructions to enter a verification code.
     * If you do not have the option to verify by mail, you must verify by phone to successfully verify your identity.
 6.  Once your identity is verified, you need to encrypt your account. Re-enter your Login.gov password. Click “Continue”
 7.  Take note of your personal key and keep it safe. You’ll need to enter your personal key immediately on the next page. Click “Continue”
