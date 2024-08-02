@@ -88,8 +88,8 @@ GEM
     rb-inotify (0.11.1)
       ffi (~> 1.0)
     rb-readline (0.5.5)
-    rexml (3.2.8)
-      strscan (>= 3.0.9)
+    rexml (3.3.3)
+      strscan
     rouge (4.2.1)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
