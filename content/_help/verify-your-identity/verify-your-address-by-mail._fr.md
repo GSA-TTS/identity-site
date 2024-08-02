@@ -1,5 +1,5 @@
 ---
-title: Vérifier votre adresse par courrier by mail
+title: Vérifier votre adresse par courrier
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/verify-your-address-by-mail/
 order: 6
