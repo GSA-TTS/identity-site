@@ -4,9 +4,12 @@ permalink: /partners/state-and-local/
 title: >-
   State, local, and territories
 body: >-
-  Crises, like the COVID-19 global pandemic and ongoing natural disasters, make it more urgent than ever for the public to gain fast and easy access to their benefits and services. The General Services Administration’s (GSA) Technology Transformation Services (TTS) realizes the burden this has put on state and local governments. Our team, with deep expertise in security, product, engineering, and user experience, is seeking state, local, and territory government partners that want to take advantage of all that Login.gov has to offer.
+  Although Login.gov was founded to provide digital identity solutions to federal agencies, we've since begun to serve a number of state and local partners. That's because state and local governments face similar challenges when offering digital services to their constituents. Login.gov makes it easy for your constituents to access your services while protecting against cybersecurity threats and fraudulent schemes. In fact, many of them will already have a Login.gov account from their interactions with the Federal Government that they can reuse, making it even easier to do so.
+
+
+  We support a variety of use cases - anywhere from enabling a state-wide enterprise type solution to supporting a single program. And as a Government program, we only serve Government agencies, meaning that we understand and focus on supporting your use cases. We’d love to work with you, regardless of whether your applications are associated with a federal program or funding source.
 disclaimer: >-
-  Our team, with deep expertise in security, product, engineering, and user experience, is seeking state and local government partners who are supporting the implementation of a federal program at the state or local level. If you're unsure whether your project is eligible to use Login.gov, we encourage you to contact our partnerships team at <partners@login.gov>.
+  Please reach out to our partnerships team at <partners@login.gov> as you have questions.
 partnership_steps_title: >-
   ## Steps to partnership
 partnership_steps_header1: >-
