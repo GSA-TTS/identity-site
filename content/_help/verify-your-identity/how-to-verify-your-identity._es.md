@@ -16,13 +16,13 @@ Si tiene menos de 18 años, es posible que no pueda verificar su identidad en su
 ## Requisitos para la verificación de identidad
 
 {: .number-list}
-1. Su licencia de conducir o tarjeta de identificación estatal. Puede cargar una foto de su identificación con un teléfono celular o una computadora.
-1. Número de Seguro Social
-1. Su número de teléfono
-   * Si no podemos verificar su número de teléfono, puede hacer la verificación por correo. Esto tarda de 5 a 10 días.
-1. Tomarse una foto
-
-Algunos servicios requieren que se tome una fotografía con un teléfono para verificar su identidad en línea. Si no tiene un teléfono con cámara, puede [verificar su identidad en persona.](/es/help/verify-your-identity/verify-your-identity-in-person/)
+1. Su [licencia de conducir o tarjeta de identificación estatal](/es/help/verify-your-identity/accepted-identification-documents/).
+   Puede cargar una foto de su identificación con un teléfono celular o una computadora.
+2. Número de Seguro Social
+3. Su número de teléfono
+   En algunos casos, puede hacer la [verificación por correo](/es/help/verify-your-identity/verify-your-address-by-mail/).
+4. Tomarse una foto
+   Algunos servicios requieren que se tome una fotografía con un teléfono para verificar su identidad en línea. Si no tiene un teléfono con cámara, puede [verificar su identidad en persona.](/es/help/verify-your-identity/verify-your-identity-in-person/)
 
 Si le falta parte de esta información, contacte con la agencia gubernamental a la que está intentando acceder.
 
@@ -62,11 +62,12 @@ Login.gov es un sitio web gubernamental seguro que cumple las normas más elevad
         * Tome una foto del reverso de su identificación.
     * Es posible que también necesite tomarse una fotografía para efectuar este paso.
     * Haga clic en "Continuar".
-1. Ingrese su número de Seguro Social y haga clic en “Continuar”.
-1. Verifique que la información que ha enviado hasta ahora sea la correcta y haga clic en “Continuar”.
-1. Ingrese su número de teléfono principal. Este es el último paso para verificar su identidad.
-   * Si no cuenta con un número de teléfono de los EE. UU. o no puede hacer la verificación por teléfono, haga clic en “Verifique su dirección por correo”. Tendrá que esperar de 5 a 10 días para recibir una carta por correo, y luego siga las instrucciones para ingresar el código de verificación.
-1. Una vez que se haya verificado su identidad, tendrá que cifrar su cuenta. Vuelva a ingresar su contraseña de Login.gov. Haga clic en “Continuar”.
-1. Anote su clave personal y consérvela en un lugar seguro. Necesitará ingresar su clave personal inmediatamente en la siguiente página. Haga clic en “Continuar”.
+3. Ingrese su número de Seguro Social y haga clic en “Continuar”.
+4. Verifique que la información que ha enviado hasta ahora sea la correcta y haga clic en “Continuar”.
+5. Ingrese su número de teléfono principal. Este es el último paso para verificar su identidad.
+   * En algunos casos, puede seleccionar “Verifique su domicilio a través del correo postal”. Tendrá que esperar de 5 a 10 días para recibir una carta por correo, y luego siga las instrucciones para ingresar el código de verificación.
+   * Si no tiene la opción de verificar por correo, debe hacer la verificación de su identidad por teléfono.
+6. Una vez que se haya verificado su identidad, tendrá que cifrar su cuenta. Vuelva a ingresar su contraseña de Login.gov. Haga clic en “Continuar”.
+7. Anote su clave personal y consérvela en un lugar seguro. Necesitará ingresar su clave personal inmediatamente en la siguiente página. Haga clic en “Continuar”.
 
 Una vez que termine el proceso, haga clic en “Aceptar y continuar” para volver a la página de su cuenta de Login.gov o a la agencia a la que está intentando acceder.
