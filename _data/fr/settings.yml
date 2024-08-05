@@ -82,6 +82,7 @@ contact_page:
       'National Transportation Safety Board (NTSB)': Bureau national de la sécurité des transports (NTSB)
       'Office of Personnel Management': Bureau de gestion du personnel (OPM)
       'OPM Employee Express': OPM Employee Express
+      'OPM FSAFEDS': OPM FSAFEDS
       'OPM Services Online': Services en ligne de l’OPM
       'Pay.gov': Pay.gov
       'PBGC-MyPBA': PBGC - MyPBA
@@ -99,6 +100,7 @@ contact_page:
       'U.S. International Trade Commission': Commission du commerce international des États-Unis
       'United States Forest Service': Service des forêts des États-Unis
       'USAJOBS': USAJOBS
+      'VA MyHealtheVet (MHV)': VA MyHealtheVet (MHV)
     errors:
       captcha_required: Vous devez nous prouver que vous n’êtes pas un robot.
       pii_found: Pour protéger votre vie privée, ne fournissez pas de renseignements
