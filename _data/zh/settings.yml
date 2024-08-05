@@ -76,6 +76,7 @@ contact_page:
       'National Transportation Safety Board (NTSB)': 国家运输安全委员会
       'Office of Personnel Management': 联邦人事管理局（OPM）
       'OPM Employee Express': OPM（联邦人事管理局）Employee Express
+      'OPM FSAFEDS': OPM FSAFEDS
       'OPM Services Online': OPM（联邦人事管理局）Services Online
       'Pay.gov': Pay.gov
       'PBGC-MyPBA': PBGC（退休金福利保障公司） - MyPBA
@@ -93,6 +94,7 @@ contact_page:
       'U.S. International Trade Commission': 美国国际贸易委员会
       'United States Forest Service': 美国国家森林局
       'USAJOBS': USAJOBS
+      'VA MyHealtheVet (MHV)': VA MyHealtheVet (MHV)
     errors:
       captcha_required: 你必须完成预防滥发邮件测验。
       pii_found: 为了保护你的隐私，请勿向该表格提交敏感信息。我们的客服代表在没有这一信息的情况下，仍能帮助你。
