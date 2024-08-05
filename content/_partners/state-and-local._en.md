@@ -5,10 +5,10 @@ title: >-
   State, local, and territories
 body: >-
   Although Login.gov was founded to provide digital identity solutions to federal agencies, we've since begun to serve a number of state and local partners. That's because state and local governments face similar challenges when offering digital services to their constituents. Login.gov makes it easy for your constituents to access your services while protecting against cybersecurity threats and fraudulent schemes. In fact, many of them will already have a Login.gov account from their interactions with the Federal Government that they can reuse, making it even easier to do so.
-
-
-  We support a variety of use cases - anywhere from enabling a state-wide enterprise type solution to supporting a single program. And as a Government program, we only serve Government agencies, meaning that we understand and focus on supporting your use cases. We’d love to work with you, regardless of whether your applications are associated with a federal program or funding source.
 disclaimer: >-
+  We support a variety of use cases - anywhere from enabling a state-wide enterprise type solution to supporting a single program. And as a Government program, we only serve Government agencies, meaning that we understand and focus on supporting your use cases. We’d love to work with you, regardless of whether your applications are associated with a federal program or funding source.
+
+
   Please reach out to our partnerships team at <partners@login.gov> as you have questions.
 partnership_steps_title: >-
   ## Steps to partnership
