@@ -18,15 +18,24 @@ RSpec.describe 'data' do
     end
   end
 
+  it 'has directories for each supported language' do
+    SITE_CONFIG['languages'].each do |locale|
+      expect(Dir.exist?("_data/#{locale}")).to eq(true), "#{locale} _data folder does not exist"
+    end
+  end
+
   describe 'language_map.yml' do
     it 'contains language shortcodes and names' do
-      path = '_data/language_map.yml'
-      language_map = YAML.load_file(path)
+      expect(LANGUAGE_MAP_CONFIG['languages']['en']).to eq('English')
+      expect(LANGUAGE_MAP_CONFIG['languages']['es']).to eq('Spanish')
+      expect(LANGUAGE_MAP_CONFIG['languages']['fr']).to eq('French')
+      expect(LANGUAGE_MAP_CONFIG['languages']['zh']).to eq('Simplified Chinese')
+    end
 
-      expect(language_map['languages']['en']).to eq('English')
-      expect(language_map['languages']['es']).to eq('Spanish')
-      expect(language_map['languages']['fr']).to eq('French')
-      expect(language_map['languages']['zh']).to eq('Simplified Chinese')
+    it 'has language map keys for all supported languages' do
+      SITE_CONFIG['languages'].each do |locale|
+        expect(LANGUAGE_MAP_CONFIG['languages'][locale]).to_not be_nil
+      end
     end
   end
 
