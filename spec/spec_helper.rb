@@ -11,7 +11,9 @@ end
 
 REPO_ROOT = Pathname.new(File.expand_path('../..', __FILE__))
 SITE_ROOT = Pathname.new(File.expand_path('../../_site', __FILE__))
-SITE_URL = YAML.load_file(File.join(REPO_ROOT, '_config.yml'))['url']
+SITE_CONFIG = YAML.load_file(File.join(REPO_ROOT, '_config.yml'))
+LANGUAGE_MAP_CONFIG = YAML.load_file('_data/language_map.yml')
+SITE_URL = SITE_CONFIG['url']
 SITE_URI = URI(SITE_URL)
 AVAILABLE_LOCALES = YAML.load_file(File.join(REPO_ROOT, '_data/language_map.yml'))['languages'].keys
 AVAILABLE_NON_ENGLISH_LOCALES = AVAILABLE_LOCALES - ['en']

@@ -162,6 +162,12 @@ plugins:
 
 default_locale: en
 
+search_affiliate:
+  en: 'login.gov'
+  es: 'login.gov_es'
+  fr: 'login.gov_fr'
+  zh: 'login.gov_zh'
+
 redirect_from:
   json: false
 
