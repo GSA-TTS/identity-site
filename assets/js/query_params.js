@@ -22,10 +22,7 @@ export function removeUrlQueryParams(keysToRemove = ALLOWED_KEYS) {
   }
 
   const url = new URL(window.location.href);
-  const urlParams = new URLSearchParams(url.search);
 
-  keysToRemove.forEach((key) => urlParams.delete(key));
-
-  url.search = urlParams.toString();
+  keysToRemove.forEach((key) => url.searchParams.delete(key));
   window.history.replaceState({}, '', url.href);
 }
