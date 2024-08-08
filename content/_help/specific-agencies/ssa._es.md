@@ -5,7 +5,7 @@ category: specific-agencies
 permalink: /es/help/specific-agencies/ssa/
 order: 3
 ---
-Login.gov es sólo para acceder de forma segura. Su cuenta de Login.gov no afecta ni contiene información de ningún tipo acerca de su tarjeta, número o prestaciones del [Seguro Social](https://www.ssa.gov/es).
+Login.gov es sólo para acceder de forma segura. Su cuenta de Login.gov no afecta ni contiene información de ningún tipo acerca de su tarjeta, número o prestaciones del Seguro Social.
 
 No envíe a Login.gov datos confidenciales personales ni números de identificación.
 

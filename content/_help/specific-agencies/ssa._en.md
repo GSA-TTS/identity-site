@@ -8,7 +8,7 @@ order: 3
 redirect_from:
   - /en/help/specific-agencies/ssa/
 ---
-Login.gov is for secure sign in only. Your Login.gov account does not affect or have any information about your [Social Security](https://www.ssa.gov/) card, number, or benefits. 
+Login.gov is for secure sign in only. Your Login.gov account does not affect or have any information about your Social Security card, number, or benefits. 
 
 Please do not send Login.gov sensitive data about yourself or identifying numbers.
 
