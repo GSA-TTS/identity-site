@@ -12,6 +12,8 @@ redirect_from:
 ## Our commitment
 Login.gov is committed to be inclusive and accessible for all of our users. Our focus is to continuously improve how people of all abilities are able to use Login.gov to easily access government applications and services.
 
+For additional detail, please see the [U.S. General Services Administration Accessibility Statement](https://www.gsa.gov/website-information/accessibility-statement).
+
 ## Standards
 Login.gov aims to comply with the [W3C Web Content Accessibility Guidelines (WCAG) version 2.1 level AA](https://www.w3.org/TR/WCAG21/).
 

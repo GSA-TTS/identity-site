@@ -8,6 +8,8 @@ permalink: /es/accessibility/
 ## Nuestro compromiso
 El empeño de Login.gov es ser un sitio inclusivo y accesible para todos nuestros usuarios. Nuestro objetivo es mejorar continuamente la forma en que las personas con cualquier nivel de habilidad pueden usar Login.gov para acceder con facilidad a los servicios y las aplicaciones gubernamentales.
 
+Para más detalles, consulte la [Declaración de accesibilidad de la Administración de Servicios Generales de los EE.UU](https://www.gsa.gov/website-information/accessibility-statement).
+
 ## Estándares
 Login.gov se propone cumplir con las [Pautas de Accesibilidad para el Contenido Web (WCAG) de W3C, versión 2.1, nivel AA](https://www.w3.org/TR/WCAG21/).
 
