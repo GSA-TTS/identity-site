@@ -9,5 +9,6 @@ node_modules/
 .idea/
 .DS_Store
 .jekyll-cache
+.tool-versions
 .snyk
 _config.dev.yml

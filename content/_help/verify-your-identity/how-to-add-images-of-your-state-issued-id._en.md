@@ -2,10 +2,12 @@
 layout: help
 title: How to take photos to verify your identity
 category: verify-your-identity
-permalink: /help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
+permalink: /help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
 order: 3
 redirect_from:
   - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
+  - /help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
+  - /en/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
   - /help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 url_safari: https://www.apple.com/safari/
 url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds
@@ -131,8 +133,7 @@ Some partner agencies may ask you to take a photo of your face and photos of you
     {%
       include components/image-example-incorrect.html
       image-alt-text='A person wearing sunglasses. Any face covering results in a failed photo.'
-      image='/assets/img/help/preparing-to-take-your-photo/id-dont-white-background1.png'
-      bordered_image=true
+      image='/assets/img/help/preparing-to-take-your-photo/selfie-accessories-remove.png'
       text='Only wear accessories, like glasses or hats, that you also wear in your ID photo. Remove other accessories that might block your face.'
     %}
   </div>
@@ -140,8 +141,7 @@ Some partner agencies may ask you to take a photo of your face and photos of you
     {%
       include components/image-example-incorrect.html
       image-alt-text='A person with extra light or glare on their face, which results in a failed photo.'
-      image='/assets/img/help/preparing-to-take-your-photo/id-dont-textured-background1.png'
-      bordered_image=true
+      image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-glare.png'
       text='Take your photo in a well-lit place while avoiding glare.'
     %}
   </div>
@@ -151,8 +151,7 @@ Some partner agencies may ask you to take a photo of your face and photos of you
     {%
       include components/image-example-incorrect.html
       image-alt-text='A person with a blurry face, which results in a failed photo.'
-      image='/assets/img/help/preparing-to-take-your-photo/id-dont-cropped1.png'
-      bordered_image=true
+      image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-blurry.png'
       text='Remain still to avoid a blurry image.'
     %}
   </div>
@@ -160,14 +159,18 @@ Some partner agencies may ask you to take a photo of your face and photos of you
     {%
       include components/image-example-incorrect.html
       image-alt-text='A person with their face outside of the central green circle, which results in a failed photo.'
-      image='/assets/img/help/preparing-to-take-your-photo/id-dont-shadow1.png'
-      bordered_image=true
+      image='/assets/img/help/preparing-to-take-your-photo/selfie-fill-green-oval.png'
       text='Make sure your face fills the entire green oval.'
     %}
   </div>
 </div>
 
 ### Taking your photo
+<div class="grid-row grid-gap margin-bottom-2">
+  <div class="tablet:grid-col">
+    <img alt="A person with their face in a green oval. A finger taps a checkmark under the face to confirm the photo." src="{{ site.baseurl }}/assets/img/help/preparing-to-take-your-photo/selfie-do-checkmark.png" />
+  </div>
+</div>
 
 The camera will automatically take your photo. Tap the green checkmark to confirm it.
 

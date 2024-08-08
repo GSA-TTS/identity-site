@@ -15,7 +15,7 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     ffi (1.17.0)
-    ffi (1.17.0-x86_64-linux-gnu)
+    ffi (1.17.0-x86_64-linux)
     forwardable-extended (2.6.0)
     google-protobuf (4.27.1)
       bigdecimal
