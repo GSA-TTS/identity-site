@@ -10,15 +10,6 @@ El empeño de Login.gov es ser un sitio inclusivo y accesible para todos nuestro
 
 Para más detalles, consulte la [Declaración de accesibilidad de la Administración de Servicios Generales de los EE.UU](https://www.gsa.gov/website-information/accessibility-statement).
 
-## Estándares
-Login.gov se propone cumplir con las [Pautas de Accesibilidad para el Contenido Web (WCAG) de W3C, versión 2.1, nivel AA](https://www.w3.org/TR/WCAG21/).
-
-Login.gov le permite hacer lo siguiente:
-
-* Usar un lector de pantalla y leer el contenido de la página usando la tecla de flecha hacia abajo.
-* Ver y escuchar el contenido, y separar el primer plano del fondo.
-* Cambiar el tamaño de fuente con facilidad usando su navegador. (Consulte el menú de Ayuda de su navegador para aprender a cambiar el tamaño del texto).
-
 ## Evaluación
 Un grupo de revisores expertos evalúa Login.gov periódicamente usando un conjunto de herramientas de evaluación semiautomatizada y manual. Después de cada evaluación, formulamos un plan para solucionar los aspectos que podemos mejorar.
 

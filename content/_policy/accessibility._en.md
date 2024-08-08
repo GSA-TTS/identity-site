@@ -14,15 +14,6 @@ Login.gov is committed to be inclusive and accessible for all of our users. Our 
 
 For additional detail, please see the [U.S. General Services Administration Accessibility Statement](https://www.gsa.gov/website-information/accessibility-statement).
 
-## Standards
-Login.gov aims to comply with the [W3C Web Content Accessibility Guidelines (WCAG) version 2.1 level AA](https://www.w3.org/TR/WCAG21/).
-
-You should be able to do the following with Login.gov:
-
-* Use a screen reader and read the content of the page by using the down arrow key.
-* Be able to see and hear content including separating foreground from background.
-* You can change font size easily using your browser. (Please refer to your browser’s Help menu to learn how to re- size text.)
-
 ## Evaluation
 Login.gov is regularly evaluated through a series of semi-automated evaluation tools and manual evaluation by expert reviewers. After each evaluation, we develop a plan to address any areas of improvement.
 
