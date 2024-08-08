@@ -284,8 +284,6 @@ nav:
         url: '#nuestro-compromiso'
       - name: Evaluación
         url: '#evaluación'
-      - name: Limitaciones conocidas
-        url: '#limitaciones-conocidas'
     title: Accessibilidad
   anchor_to_top: Volver al inicio
   become_a_partner: Conviértase en asociado
