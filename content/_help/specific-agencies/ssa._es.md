@@ -18,7 +18,7 @@ Comuníquese directamente con [SSA.gov](https://www.ssa.gov/es) si tiene pregunt
 * [Su número de Seguro Social](https://www.ssa.gov/employer/ssnv.htm)
 * [Remplazo de su tarjeta del Seguro Social](https://www.ssa.gov/number-card/replace-card)
 * [Denuncia de un número de Seguro Social robado](https://www.ssa.gov/number-card/report-stolen-number)
-* Otras preguntas sobre beneficios (página de preguntas frecuentes de la SSA: [https://faq.ssa.gov/en-US/](https://faq.ssa.gov/en-US/))
+* [Otras preguntas sobre beneficios](https://faq.ssa.gov/en-US/)
 * Verificación de cumplimiento de los requisitos para:
   * [Jubilación](https://www.ssa.gov/retirement)
   * [Beneficios de discapacidad](https://www.ssa.gov/benefits/disability/)

@@ -19,7 +19,7 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 * [社会保障号码](https://www.ssa.gov/employer/ssnv.htm)
 * [补发社会保障卡](https://www.ssa.gov/number-card/replace-card)
 * [报告社会保障号码被盗](https://www.ssa.gov/number-card/report-stolen-number)
-* 其他有关福利的问题 (社会保障署常见问题解答页面： [https://faq.ssa.gov/en-US/](https://faq.ssa.gov/en-US/))
+* [其他有关福利的问题](https://faq.ssa.gov/en-US/)
 * 查看以下福利的资格条件：
   * [退休福利](https://www.ssa.gov/retirement)
   * [残障福利](https://www.ssa.gov/benefits/disability/)

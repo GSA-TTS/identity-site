@@ -19,7 +19,7 @@ Veuillez contacter directement [SSA.gov](https://www.ssa.gov/) si vous avez des 
 * [Votre numéro de sécurité sociale](https://www.ssa.gov/employer/ssnv.htm)
 * [Le remplacement de votre carte de sécurité sociale](https://www.ssa.gov/number-card/replace-card)
 * [Le signalement d'un vol de numéro de sécurité sociale](https://www.ssa.gov/number-card/report-stolen-number)
-* D'autres informations liées aux prestations (page FAQ de la SSA : [https://faq.ssa.gov/en-US/](https://faq.ssa.gov/en-US/))
+* [D'autres informations liées aux prestations](https://faq.ssa.gov/en-US/)
 * La vérification de vos droits en matière de :
   * [Retraite](https://www.ssa.gov/retirement)
   * [Prestations d’invalidité](https://www.ssa.gov/benefits/disability/)

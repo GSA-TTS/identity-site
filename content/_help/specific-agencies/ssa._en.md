@@ -21,7 +21,7 @@ Please contact [SSA.gov](https://www.ssa.gov/) directly if you have questions re
 * [Your Social Security number](https://www.ssa.gov/employer/ssnv.htm)
 * [Replacing your Social Security card](https://www.ssa.gov/number-card/replace-card)
 * [Reporting a stolen Social Security number](https://www.ssa.gov/number-card/report-stolen-number)
-* Other benefits questions (SSA FAQ page: [https://faq.ssa.gov/en-US/](https://faq.ssa.gov/en-US/))
+* [Other benefits questions](https://faq.ssa.gov/en-US/)
 * Checking eligibility for:
   * [Retirement](https://www.ssa.gov/retirement)
   * [Disability Benefits](https://www.ssa.gov/benefits/disability/)
