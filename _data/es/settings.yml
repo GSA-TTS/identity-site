@@ -288,7 +288,7 @@ nav:
         url: '#evaluación'
       - name: Limitaciones conocidas
         url: '#limitaciones-conocidas'
-    title: Declaración de accesibilidad
+    title: Accessibilidad
   anchor_to_top: Volver al inicio
   become_a_partner: Conviértase en asociado
   business_inquiries:
