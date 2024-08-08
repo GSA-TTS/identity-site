@@ -273,10 +273,8 @@ nav:
     title: About us
   accessibility:
     sections:
-      - name: Our Commitment
+      - name: Our commitment
         url: '#our-commitment'
-      - name: Standards
-        url: '#standards'
       - name: Evaluation
         url: '#evaluation'
       - name: Known limitations

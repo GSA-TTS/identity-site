@@ -297,8 +297,6 @@ nav:
     sections:
       - name: Notre engagement
         url: '#notre-engagement'
-      - name: Normes
-        url: '#normes'
       - name: Évaluation
         url: '#évaluation'
       - name: Limites connues

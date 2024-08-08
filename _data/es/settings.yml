@@ -282,8 +282,6 @@ nav:
     sections:
       - name: Nuestro compromiso
         url: '#nuestro-compromiso'
-      - name: Estándares
-        url: '#estándares'
       - name: Evaluación
         url: '#evaluación'
       - name: Limitaciones conocidas

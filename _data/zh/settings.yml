@@ -264,8 +264,6 @@ nav:
     sections:
       - name: 我们的承诺
         url: '#我们的承诺'
-      - name: 标准
-        url: '#标准'
       - name: 评估
         url: '#评估'
       - name: 已知局限
