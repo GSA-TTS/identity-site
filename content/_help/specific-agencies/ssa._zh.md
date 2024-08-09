@@ -6,20 +6,20 @@ permalink: /zh/help/specific-agencies/ssa/
 keywords: 社会保障、社会保障福利、补发社会保障卡、社会保障卡、ssa、社会保障卡的补发、社会保障明细表、补发社会保障卡、新的社会保障卡、新卡、补发卡、SS 明细表、社会保障账户、社会保障署、ssa.gov，我需要一个新社会保障卡
 order: 3
 ---
-Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。你的 Login.gov 账户不影响你[社会保障](https://www.ssa.gov/)卡、申请、号码或福利，也没有任何有关上述各项的信息。
+Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。你的 Login.gov 账户不影响你社会保障卡、申请、号码或福利，也没有任何有关上述各项的信息。
 
 请不要给 Login.gov 发送有关自己的敏感信息或显示自己身份的成员号码。
 
 Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 
-如果你已有 [SSA.gov](https://www.ssa.gov/) 账户，则不必创建一个 Login.gov 账户，除非社会保障署有要求。
+如果您的社会保障用户名是在3年多前创建的，则需要过渡到一个新的或现有的 Login.gov 帐户才能持续访问 SSA 在线服务。有关如何进行过渡的分步说明，请观看此[视频](https://www.youtube.com/watch?v=AMADyonYNTE)。
 
 如果你有事关以下内容的问题，请直接联系 [SSA.gov](https://www.ssa.gov/)
 
 * [社会保障号码](https://www.ssa.gov/employer/ssnv.htm)
 * [补发社会保障卡](https://www.ssa.gov/number-card/replace-card)
 * [报告社会保障号码被盗](https://www.ssa.gov/number-card/report-stolen-number)
-* 其他有关福利的问题 (社会保障署常见问题解答页面： [https://faq.ssa.gov/en-US/](https://faq.ssa.gov/en-US/))
+* [其他有关福利的问题](https://faq.ssa.gov/en-US/)
 * 查看以下福利的资格条件：
   * [退休福利](https://www.ssa.gov/retirement)
   * [残障福利](https://www.ssa.gov/benefits/disability/)
