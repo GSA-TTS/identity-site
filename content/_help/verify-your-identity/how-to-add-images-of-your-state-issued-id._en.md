@@ -111,6 +111,8 @@ If you are using a computer to verify your identity, you will be able to switch 
 
 If you have existing photos of your driver’s license or state ID card, you may upload them instead of taking new pictures. You will not have this option if you also must add a photo of your face.
 
+If you don’t have access to a camera, you may be able to verify your identity in person at a United States Postal Service location near you.
+
 * Follow the same [tips for taking photos with a phone.](#using-your-phone-or-tablet)
 * Save each file only as a JPG or PNG with a resolution of 2025 x 1275 pixels. To find your photo’s file type and resolution, look for an extension after the name of your photo, such as .jpg or .png. Or, using a computer, right-click on the file and click “Get info” (macOS) or “Properties” (Windows).
 * Upload color images only.
