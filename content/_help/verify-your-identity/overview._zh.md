@@ -13,13 +13,13 @@ redirect_from:
   - /zh/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 ---
 
-身份验证是你证明你是你，而不是有人假装是你的流程。要访问一些政府机构的服务，你需要设立Login.gov账户并验证身份。
+身份验证是你证明你是你，而不是有人假装是你的流程。要访问一些政府机构的服务，你需要[设立Login.gov账户](/zh/create-an-account/)并验证身份。
 
 ## 验证身份需要什么
 
-要在网上验证身份，你需要拍一张我们接受的驾照或州颁发的身份证件的照片，并输入你的个人信息。
+要在网上验证身份，你需要拍一张[我们接受的驾照或州颁发的身份证件](/zh/help/verify-your-identity/accepted-identification-documents/)的照片，并输入你的个人信息。
 
-要在网上验证身份，你可能需要用手机拍一张你本人的照片。这是为了查看你是身份证件上的人。如果你没有带相机的手机，可以亲身验证身份。
+要在网上验证身份，你可能需要用手机拍一张[你本人的照片](/zh/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)。这是为了查看你是身份证件上的人。如果你没有带相机的手机，可以[亲身验证身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
 
 {%
   include components/two-column-image-bullet-list.html
@@ -40,7 +40,7 @@ redirect_from:
 
 Login.gov 是一个安全的、遵守数据保护最高标准的政府网站。
 
-Login.gov 不保存你身份证件的图像或你本人的照片。在与合作伙伴机构分享你验证过的信息之前，我们会请求你的同意。了解有关我们隐私和安全措施的更多信息。
+Login.gov 不保存你身份证件的图像或你本人的照片。在与合作伙伴机构分享你验证过的信息之前，我们会请求你的同意。[了解有关我们隐私和安全措施的更多信息](/zh/policy/)。
 
 ## 相关文章
 
