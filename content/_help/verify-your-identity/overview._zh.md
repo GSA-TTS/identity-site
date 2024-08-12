@@ -48,4 +48,4 @@ Login.gov 不保存你身份证件的图像或你本人的照片。在与合作�
 [系统接受的身份证件](/zh/help/verify-your-identity/accepted-identification-documents/)
 [如何添加你驾照或州颁发身份证件的图片](/zh/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
 [验证你的电话号码](/zh/help/verify-your-identity/phone-number/)
-[通过普通邮件验证你的身份](/help/verify-your-identity/verify-your-address-by-mail/)
+[通过普通邮件验证你的身份](/zh/help/verify-your-identity/verify-your-address-by-mail/)
