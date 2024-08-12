@@ -297,13 +297,9 @@ nav:
     sections:
       - name: Notre engagement
         url: '#notre-engagement'
-      - name: Normes
-        url: '#normes'
       - name: Évaluation
         url: '#évaluation'
-      - name: Limites connues
-        url: '#limites-connues'
-    title: Déclaration sur l’accessibilité
+    title: Accessibilité
   anchor_to_top: Retour en haut de la page
   become_a_partner: Devenir partenaire
   business_inquiries:

@@ -273,15 +273,11 @@ nav:
     title: About us
   accessibility:
     sections:
-      - name: Our Commitment
+      - name: Our commitment
         url: '#our-commitment'
-      - name: Standards
-        url: '#standards'
       - name: Evaluation
         url: '#evaluation'
-      - name: Known limitations
-        url: '#known-limitations'
-    title: Accessibility statement
+    title: Accessibility
   anchor_to_top: Back to top
   become_a_partner: Become a partner
   business_inquiries:
