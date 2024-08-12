@@ -1,17 +1,13 @@
 ---
 layout: help
-title: Comment ajouter des photos de votre permis de conduire ou carte d’identité d’un État
+title: Comment prendre des photos pour confirmer votre identité
 category: verify-your-identity
-permalink: /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
+permalink: /fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
 order: 3
 redirect_from:
   - /fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
-do_list:
-  - Assurez-vous d’utiliser une caméra à haute résolution, comme celle d’un smartphone ou d’une tablette. La webcam de votre ordinateur risque en effet de ne pas prendre de photos bien nettes.
-  - Utilisez un arrière-plan sombre et uni.
-  - Prenez vos photos dans un endroit bien éclairé, avec une lumière indirecte.
-  - Vérifiez que les codes-barres des pièces d’identité ne soient ni endommagés, ni sales.
-  - Essayez de ne pas bouger votre appareil pendant la prise de photos. Il peut être utile de poser vos bras sur une table pour rester stable.
+  - /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
+  - /fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
 url_safari: https://www.apple.com/fr/safari/
 url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds&hl=fr
 url_safari_update_doc: https://support.apple.com/fr-ca/HT204416
@@ -40,19 +36,23 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 
 ## Vue d’ensemble
 
-Vous devez prendre une photo de votre permis de conduire officiel ou carte d’identité d’un État et saisir vos renseignements personnels afin de confirmer votre identité en ligne.
 
-Il est possible que vous deviez prendre une photo de vous-même avec un téléphone afin de confirmer votre identité en ligne. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité. Si vous n'avez pas de téléphone équipé d'une caméra, vous pouvez [confirmer votre identité en personne.](/fr/help/verify-your-identity/verify-your-identity-in-person/)
+Pour confirmer votre identité en ligne, vous devez :
 
-Cet article décrit les différentes façons de transmettre des images ou photos pour confirmer votre identité.
+*  Prendre une photo de votre permis de conduire ou carte d’identité d’un État en cours de validité et
+* Saisir vos renseignements personnels
+
+Il est possible que vous deviez prendre une photo de vous-même à l’aide d’un téléphone ou d’une tablette pour garantir que vous êtes bien la personne figurant sur la pièce d'identité. Si vous n'avez pas accès à un téléphone ou une tablette avec une caméra, vous pouvez confirmer votre identité en personne.
+
+Cet article explique les différentes façons de transmettre des images ou photos pour confirmer votre identité.
 
 ---
 
 ## Comment prendre des photos de votre permis de conduire ou carte d’identité d’un État
 
-Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez passer à un téléphone pour prendre des photos de votre pièce d'identité.
+Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez passer à un téléphone ou à une tablette pour prendre des photos de votre pièce d'identité.
 
-### À l’aide de votre téléphone ou tablette
+### Avec votre téléphone ou tablette
 
 <div class="grid-row grid-gap margin-bottom-2">
   <div class="tablet:grid-col">
@@ -63,13 +63,11 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
   </div>
 </div>
 
-{%
-  include components/icon-list.html
-  items=page.do_list
-  size='md'
-  icon_color='success'
-  icon_shape='check_circle'
-%}
+* Employez une caméra à haute résolution, comme celle d’un smartphone ou d’une tablette, plutôt qu’une webcam.
+* Placez votre pièce d’identité sur une surface plane et sombre.
+* Prenez vos photos dans un endroit bien éclairé, avec une lumière indirecte.
+* Vérifiez que les codes-barres de la pièce d’identité ne sont ni endommagés, ni sales.
+* Ne bougez pas votre appareil pendant la prise de photos. Il peut être utile de poser vos bras sur une table pour rester stable.
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
@@ -78,8 +76,7 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
       image-alt-text='La pièce d’identité est placée sur un fond blanc.'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
-      do_dont_text="NE PAS"
-      text='Utiliser un fond blanc'
+      text='N’utilisez pas de fond blanc.'
     %}
   </div>
   <div class="tablet:grid-col">
@@ -88,8 +85,7 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
       image-alt-text='La pièce d’identité est placée sur un fond texturé.'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
-      do_dont_text="NE PAS"
-      text='Utiliser un fond texturé ou à motif'
+      text='N’utilisez pas de fond texturé ou à motif.'
     %}
   </div>
 </div>
@@ -100,8 +96,7 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
       image-alt-text='Les bordures de votre pièce d’identité sont recadrés.'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
-      do_dont_text="NE PAS"
-      text="Rogner les bords de votre pièce d’identité"
+      text="Prenez une photo de l’ensemble de votre pièce d'identité."
     %}
   </div>
   <div class="tablet:grid-col">
@@ -109,55 +104,98 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
       include components/image-example-incorrect.html
       image-alt-text='Il y a des reflets et des ombres sur l’image de la pièce d’identité.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      do_dont_text="ÉVITER"
-      text='Les reflets et les ombres'
+      text='Évitez les reflets et les ombres.'
     %}
   </div>
 </div>
 
-### Comment téléverser des photos si vous n'avez pas accès à un téléphone ou à une tablette avec appareil photo
+### Téléverser des images existantes de votre pièce d’identité 
 
-Si vous n’avez pas accès à un téléphone équipé d'un appareil photo, vous avez peut-être la possibilité de téléverser une photo scannée de votre permis de conduire ou carte d’identité d’un État.
+Si vous disposez déjà de photos de votre permis de conduire ou carte d’identité d’un État, vous pouvez les téléverser au lieu d’en prendre de nouvelles. Cette option ne sera pas disponible s’il vous est demandé d’ajouter une photo de votre visage.
+
+Si vous n’avez pas accès à un appareil photo, vous pouvez peut-être confirmer votre identité en personne dans un bureau du service des postes des États-Unis près de chez vous.
 
 * Suivez les [mêmes conseils pour prendre des photos avec un téléphone.](#à-laide-de-votre-téléphone-ou-tablette)
-* Enregistrez chaque fichier au format JPG ou PNG. Vous ne pouvez pas utiliser de fichier PDF. Regardez le nom de votre fichier : il devrait contenir une abréviation après le titre (ex : PhotoJeanDupont_recto.jpg).
-* Veillez à ce que vos images soient en haute résolution (environ 2 025 x 1 275 pixels).
+* Sauvegardez chaque fichier en JPEG ou PNG uniquement avec une résolution de 2025 x 1275 pixels. Pour déterminer le type de fichier photo et sa résolution, localisez l’extension située après le nom de la photo, .jpg ou .png. Ou bien, à l’aide d’un ordinateur, faites un clic droit sur le fichier puis cliquez sur « Lire les informations » (MacOS) ou « Propriétés » (Windows).
 * Téléversez uniquement des photos en couleur.
 
 ---
 
-## Comment ajouter une photo de votre visage pour permettre la vérification de votre identité
+## Comment prendre des photos de vous-même
 
-Il est possible qu’on vous demande de prendre des photos de votre permis de conduire ou carte d’identité d’un État, ainsi qu’une photo de votre visage. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité.
-
-Vous devez utiliser votre téléphone pour prendre des photos de votre visage et de votre pièce d’identité d’un État à l’aide de l’outil de photographie de Login.gov.
+Certains organismes partenaires peuvent vous demander de prendre une photo de votre visage et des photos de votre permis de conduire ou carte d’identité d’un État. Ceci permet de confirmer que vous êtes la personne figurant sur votre pièce d’identité.
 
 ### Type d’appareil requis
 
+
 * Vous devez utiliser un téléphone ou une tablette pour prendre des photos de votre visage et de votre pièce d’identité d’État à l’aide de l’outil de photographie de Login.gov. Il n’est pas possible d’effectuer cette étape sur un ordinateur.
-    * Les téléphones ou tablettes équipés d’iOS doivent utiliser le [navigateur Safari.]({{ page.url_safari }})
-    * Les téléphones ou tablettes équipés d’Android doivent utiliser le [navigateur Google Chrome.]({{ page.url_chrome }})
-* Si vous n’en avez pas, vous pouvez peut-être [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau du service des postes des États-Unis près de chez vous.
+* Si vous n’avez pas de téléphone ou de tablette avec appareil photo, vous pouvez peut-être confirmer votre identité en personne dans un bureau du service des postes des États-Unis près de chez vous.
 
 ### Avant de vous prendre en photo
 
-* Retirez tous articles ou accessoires vestimentaires susceptibles de cacher votre visage. Nous vous conseillons de retirer vos lunettes ou votre couvre-chef.
-* Prenez votre photo dans un endroit bien éclairé.
-* Gardez une expression neutre (ne souriez pas).
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image-alt-text='Une personne portant des lunettes de soleil. Tout ce qui couvre le visage ou une partie du visage entraîne le rejet de la photo.'
+      image='/assets/img/help/preparing-to-take-your-photo/selfie-accessories-remove.png'
+      text='Ne portez que des accessoires, comme des lunettes ou un couvre-chef, que vous portez également sur votre photo d'identité. Retirez tous autres accessoires susceptibles de cacher votre visage.'
+    %}
+  </div>
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image-alt-text='Le visage de la personne est trop éclairé ou comporte trop de reflets : la photo est rejetée.'
+      image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-glare.png'
+      text='Prenez votre photo dans un endroit bien éclairé en évitant les reflets.'
+    %}
+  </div>
+</div>
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image-alt-text='Le visage de la personne est flou : la photo est rejetée.'
+      image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-blurry.png'
+      text='Ne bougez pas pour que la photo soit nette.'
+    %}
+  </div>
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image-alt-text='Le visage de la personne est à l’extérieur de l’ovale vert : la photo est rejetée.'
+      image='/assets/img/help/preparing-to-take-your-photo/selfie-fill-green-oval.png'
+      text='Assurez-vous que l’ensemble de votre visage remplisse l’ensemble de l’ovale vert.'
+    %}
+  </div>
+</div>
 
-### Comment utiliser l’outil de photographie
+### Prendre votre photo
 
-* Placez votre visage à l’intérieur du cercle vert. Veillez à ce que l’ensemble de votre visage soit visible, du menton au sommet de la tête.
-* Ne bougez pas pendant que l'outil de photographie prend automatiquement votre photo.
-* Cochez la case pour accepter la photo.
+<div class="grid-row grid-gap margin-bottom-2">
+  <div class="tablet:grid-col">
+    <img alt="Le visage d’une personne dans un ovale vert. Un doigt coche une case sous le visage pour valider la photo." src="{{ site.baseurl }}/assets/img/help/preparing-to-take-your-photo/selfie-do-checkmark.png" />
+  </div>
+</div>
+
+L’appareil prend automatiquement votre photo. Cochez la case verte pour valider la photo.
+
+1. Placez votre visage à l’intérieur du cercle vert. Veillez à ce que l’ensemble de votre visage soit visible, du menton au sommet de la tête.
+2. Cochez la case pour accepter la photo.
+3. Si l’outil de photographie ne prend pas automatiquement votre photo, placez le visage à l’intérieur du cercle vert et cochez le cercle rouge pour prendre une photo.
 
 ---
 
-## Suggestions de dépannage
+## Dépannage
 
-### Vérifier l’association entre votre appareil et votre navigateur
-* Les téléphones ou tablettes équipés d’iOS doivent utiliser le [navigateur Safari.]({{ page.url_safari }})
-* Les téléphones ou tablettes équipés d’Android doivent utiliser le [navigateur Google Chrome.]({{ page.url_chrome }})
+### Assurez-vous que les renseignements figurant sur la photo sont nets
+* Veillez à ce que votre nom, prénom, adresse et autres renseignements sur votre pièce d’identité soient aisément lisibles.
+* Évitez la lumière vive ou les reflets qui peuvent empêcher le balayage de la pièce d’identité.
+
+### Envisagez de confirmer votre identité en personne
+* Si les informations figurant sur votre pièce d’identité ne sont pas à jour, ou si vous paraissez très différent de la photo de votre pièce d’identité, il est possible que la confirmation de votre identité échoue.
+* Sélectionnez la possibilité de [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person) et rendez-vous dans un bureau du service des postes des États-Unis près de chez vous.
+
 
 ### Actualiser votre navigateur ou vider le cache et effacer les cookies
 * Si vous utilisez Safari, vous pouvez essayer [d’actualiser le navigateur]({{ page.url_safari_update_doc }}) ou [de vider le cache et d’effacer les cookies.]({{ page.url_safari_clear_cache_doc }})
