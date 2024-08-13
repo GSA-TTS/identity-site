@@ -139,7 +139,7 @@ Certains organismes partenaires peuvent vous demander de prendre une photo de vo
       include components/image-example-incorrect.html
       image-alt-text='Une personne portant des lunettes de soleil. Tout ce qui couvre le visage ou une partie du visage entraîne le rejet de la photo.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-accessories-remove.png'
-      text='Ne portez que des accessoires, comme des lunettes ou un couvre-chef, que vous portez également sur votre photo d'identité. Retirez tous autres accessoires susceptibles de cacher votre visage.'
+      text="Ne portez que des accessoires, comme des lunettes ou un couvre-chef, que vous portez également sur votre photo d'identité. Retirez tous autres accessoires susceptibles de cacher votre visage."
     %}
   </div>
   <div class="tablet:grid-col">
