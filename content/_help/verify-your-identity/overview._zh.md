@@ -4,13 +4,6 @@ category: verify-your-identity
 permalink: /zh/help/verify-your-identity/overview/
 meta_title: 概述
 order: 0
-redirect_from:
-  - /zh/help/verify-your-identity/
-  - /zh/help/identity-verification/i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them/
-  - /zh/help/identity-verification/related-articles/
-  - /zh/help/identity-verification/why-do-i-need-to-verify-my-identity/
-  - /zh/help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
-  - /zh/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 ---
 
 身份验证是你证明你是你，而不是有人假装是你的流程。要访问一些政府机构的服务，你需要[设立Login.gov账户](/zh/create-an-account/)并验证身份。
