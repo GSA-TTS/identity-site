@@ -7,7 +7,6 @@ order: 3
 redirect_from:
   - /fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
   - /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
-  - /fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
 url_safari: https://www.apple.com/fr/safari/
 url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds&hl=fr
 url_safari_update_doc: https://support.apple.com/fr-ca/HT204416
