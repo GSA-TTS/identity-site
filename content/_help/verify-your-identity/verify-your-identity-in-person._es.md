@@ -100,6 +100,6 @@ Cancelamos automáticamente las solicitudes al cabo de 30 días para proteger lo
 
 [Documentos de identidad estatales aceptados](/es/help/verify-your-identity/accepted-identification-documents/)
 
-[Solucionar problemas al subir el documento de identidad emitido por el estado](/es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/)
+[Solucionar problemas al subir el documento de identidad emitido por el estado](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
 
 [Verifique su identidad en línea](/es/help/verify-your-identity/how-to-verify-your-identity/)

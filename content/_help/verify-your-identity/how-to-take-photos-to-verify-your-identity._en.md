@@ -5,8 +5,6 @@ category: verify-your-identity
 permalink: /help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
 order: 3
 redirect_from:
-  - /en/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
-  - /help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /en/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
   - /help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 url_safari: https://www.apple.com/safari/

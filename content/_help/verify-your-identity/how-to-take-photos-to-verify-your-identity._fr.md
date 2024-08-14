@@ -6,7 +6,6 @@ permalink: /fr/help/verify-your-identity/how-to-take-photos-to-verify-your-ident
 order: 3
 redirect_from:
   - /fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
-  - /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 url_safari: https://www.apple.com/fr/safari/
 url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds&hl=fr
 url_safari_update_doc: https://support.apple.com/fr-ca/HT204416
@@ -114,7 +113,7 @@ Si vous disposez déjà de photos de votre permis de conduire ou carte d’ident
 
 Si vous n’avez pas accès à un appareil photo, vous pouvez peut-être confirmer votre identité en personne dans un bureau du service des postes des États-Unis près de chez vous.
 
-* Suivez les [mêmes conseils pour prendre des photos avec un téléphone.](#à-laide-de-votre-téléphone-ou-tablette)
+* Suivez les [mêmes conseils pour prendre des photos avec un téléphone.](#avec-votre-téléphone-ou-tablette)
 * Sauvegardez chaque fichier en JPEG ou PNG uniquement avec une résolution de 2025 x 1275 pixels. Pour déterminer le type de fichier photo et sa résolution, localisez l’extension située après le nom de la photo, .jpg ou .png. Ou bien, à l’aide d’un ordinateur, faites un clic droit sur le fichier puis cliquez sur « Lire les informations » (MacOS) ou « Propriétés » (Windows).
 * Téléversez uniquement des photos en couleur.
 

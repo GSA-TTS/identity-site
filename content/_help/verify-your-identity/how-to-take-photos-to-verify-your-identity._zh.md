@@ -6,7 +6,6 @@ permalink: /zh/help/verify-your-identity/how-to-take-photos-to-verify-your-ident
 order: 3
 redirect_from: 
   - /zh/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
-  - /zh/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 url_safari: https://www.apple.com/cn/safari/
 url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds&hl=zh-cn
 url_safari_update_doc: https://support.apple.com/zh-cn/102665
@@ -111,7 +110,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 
 如果您没有相机，可能能去附近的美国邮局去亲身验证身份。
 
-* [遵循使用手机拍照的相同提示。](#using-your-phone-or-tablet)
+* [遵循使用手机拍照的相同提示。](#使用您的手机或平板电脑)
 * 文件只能保存为分辨率为 2025 x 1275 像素的 JPG 或 PNG文档。要知道您照片的文件类型和分辨率，请查看照片名称后的扩展名，例如 .jpg 或 .png。或者使用电脑，右键点击文件，然后点击“获取信息”（macOS）或“属性”（Windows）。
 * 请只上传彩色照片。
 
