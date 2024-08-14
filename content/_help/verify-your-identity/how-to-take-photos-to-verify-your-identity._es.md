@@ -191,7 +191,7 @@ La cámara tomará automáticamente su fotografía. Toque la marca de verificaci
 
 ### Considere hacer la verificación de su identidad en persona.
 * Si la información en su identificación no está actualizada, o si su aspecto es muy diferente al de la foto de su identificación, es posible que la verificación de su identidad en línea no funcione.
-* Seleccione la opción de [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person y acuda a una oficina del Servicio Postal de los Estados Unidos para verificar su identidad.
+* Seleccione la opción de [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person) y acuda a una oficina del Servicio Postal de los Estados Unidos para verificar su identidad.
 
 ### Actualice su navegador web o borre la memoria caché y las cookies de este
 * Si usa el navegador Safari, intente [actualizarlo]({{ page.url_safari_update_doc }} ) o [borrar la memoria caché y las cookies.]({{ page.url_safari_clear_cache_doc }} ) de este.
