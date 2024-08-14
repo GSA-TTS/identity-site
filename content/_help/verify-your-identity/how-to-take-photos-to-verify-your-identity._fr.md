@@ -193,7 +193,7 @@ L’appareil prend automatiquement votre photo. Cochez la case verte pour valide
 
 ### Envisagez de confirmer votre identité en personne
 * Si les informations figurant sur votre pièce d’identité ne sont pas à jour, ou si vous paraissez très différent de la photo de votre pièce d’identité, il est possible que la confirmation de votre identité échoue.
-* Sélectionnez la possibilité de [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person) et rendez-vous dans un bureau du service des postes des États-Unis près de chez vous.
+* Sélectionnez la possibilité de [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) et rendez-vous dans un bureau du service des postes des États-Unis près de chez vous.
 
 
 ### Actualiser votre navigateur ou vider le cache et effacer les cookies
