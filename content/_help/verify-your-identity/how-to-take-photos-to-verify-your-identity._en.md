@@ -6,6 +6,7 @@ permalink: /help/verify-your-identity/how-to-take-photos-to-verify-your-identity
 order: 3
 redirect_from:
   - /en/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
+  - /help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 url_safari: https://www.apple.com/safari/
 url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds
