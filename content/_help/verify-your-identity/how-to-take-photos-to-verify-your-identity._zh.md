@@ -69,7 +69,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='身份证件是放在白色背景中的。'
+      image_alt_text='身份证件是放在白色背景中的。'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
       text='避免使用白色背景。'
@@ -78,7 +78,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='身份证件是放在有纹路或图案的背景中的。'
+      image_alt_text='身份证件是放在有纹路或图案的背景中的。'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
       text='不要使用有纹理、有图案的背景。'
@@ -89,7 +89,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='裁掉你身份证件的四边。'
+      image_alt_text='裁掉你身份证件的四边。'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
       text='拍摄您的整个身份证件。'
@@ -98,7 +98,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='身份证件上有炫光和阴影。'
+      image_alt_text='身份证件上有炫光和阴影。'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
       text='避免眩光或阴影。'
     %}
@@ -132,7 +132,7 @@ Login.gov的一些合作伙伴机构可能会要求您拍摄自己的面部照�
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='戴着太阳镜的一个人。面部有任何遮盖物都会导致照片失败。'
+      image_alt_text='戴着太阳镜的一个人。面部有任何遮盖物都会导致照片失败。'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-accessories-remove.png'
       text='只配戴您在身份证件照片中也配戴的用品，例如眼镜或帽子。摘掉可能遮挡您面部的其他配饰。'
     %}
@@ -140,7 +140,7 @@ Login.gov的一些合作伙伴机构可能会要求您拍摄自己的面部照�
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='人脸上有太多光或炫光，所以照片失败。'
+      image_alt_text='人脸上有太多光或炫光，所以照片失败。'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-glare.png'
       text='在光线明亮的地方给自己拍照，避免眩光。'
     %}
@@ -150,7 +150,7 @@ Login.gov的一些合作伙伴机构可能会要求您拍摄自己的面部照�
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='人脸模糊，因而照片失败。'
+      image_alt_text='人脸模糊，因而照片失败。'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-blurry.png'
       text='保持静止以避免图像模糊。'
     %}
@@ -158,7 +158,7 @@ Login.gov的一些合作伙伴机构可能会要求您拍摄自己的面部照�
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='人脸在中央绿色圆圈外，所以照片失败。'
+      image_alt_text='人脸在中央绿色圆圈外，所以照片失败。'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-fill-green-oval.png'
       text='确保您的面部填满整个绿色椭圆圈。'
     %}

@@ -72,7 +72,7 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='La pièce d’identité est placée sur un fond blanc.'
+      image_alt_text='La pièce d’identité est placée sur un fond blanc.'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
       text='N’utilisez pas de fond blanc.'
@@ -81,7 +81,7 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='La pièce d’identité est placée sur un fond texturé.'
+      image_alt_text='La pièce d’identité est placée sur un fond texturé.'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
       text='N’utilisez pas de fond texturé ou à motif.'
@@ -92,7 +92,7 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='Les bordures de votre pièce d’identité sont recadrés.'
+      image_alt_text='Les bordures de votre pièce d’identité sont recadrés.'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
       text="Prenez une photo de l’ensemble de votre pièce d'identité."
@@ -101,7 +101,7 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='Il y a des reflets et des ombres sur l’image de la pièce d’identité.'
+      image_alt_text='Il y a des reflets et des ombres sur l’image de la pièce d’identité.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
       text='Évitez les reflets et les ombres.'
     %}
@@ -136,7 +136,7 @@ Certains organismes partenaires peuvent vous demander de prendre une photo de vo
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='Une personne portant des lunettes de soleil. Tout ce qui couvre le visage ou une partie du visage entraîne le rejet de la photo.'
+      image_alt_text='Une personne portant des lunettes de soleil. Tout ce qui couvre le visage ou une partie du visage entraîne le rejet de la photo.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-accessories-remove.png'
       text="Ne portez que des accessoires, comme des lunettes ou un couvre-chef, que vous portez également sur votre photo d'identité. Retirez tous autres accessoires susceptibles de cacher votre visage."
     %}
@@ -144,7 +144,7 @@ Certains organismes partenaires peuvent vous demander de prendre une photo de vo
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='Le visage de la personne est trop éclairé ou comporte trop de reflets : la photo est rejetée.'
+      image_alt_text='Le visage de la personne est trop éclairé ou comporte trop de reflets : la photo est rejetée.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-glare.png'
       text='Prenez votre photo dans un endroit bien éclairé en évitant les reflets.'
     %}
@@ -154,7 +154,7 @@ Certains organismes partenaires peuvent vous demander de prendre une photo de vo
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='Le visage de la personne est flou : la photo est rejetée.'
+      image_alt_text='Le visage de la personne est flou : la photo est rejetée.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-blurry.png'
       text='Ne bougez pas pour que la photo soit nette.'
     %}
@@ -162,7 +162,7 @@ Certains organismes partenaires peuvent vous demander de prendre une photo de vo
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='Le visage de la personne est à l’extérieur de l’ovale vert : la photo est rejetée.'
+      image_alt_text='Le visage de la personne est à l’extérieur de l’ovale vert : la photo est rejetée.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-fill-green-oval.png'
       text='Assurez-vous que l’ensemble de votre visage remplisse l’ensemble de l’ovale vert.'
     %}

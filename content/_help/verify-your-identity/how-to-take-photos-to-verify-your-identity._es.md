@@ -71,7 +71,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='La identificación está sobre un fondo blanco.'
+      image_alt_text='La identificación está sobre un fondo blanco.'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
       text='Evite usar un fondo de color blanco.'
@@ -80,7 +80,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='El documento de identidad se coloca sobre un fondo texturizado.'
+      image_alt_text='El documento de identidad se coloca sobre un fondo texturizado.'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
       text='No use un fondo con textura ni con dibujos.'
@@ -91,7 +91,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='Los bordes del documento de identidad se encuentran recortados.'
+      image_alt_text='Los bordes del documento de identidad se encuentran recortados.'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
       text='Tome una fotografía de su identificación completa.'
@@ -100,7 +100,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='La identificación tiene reflejos y proyecta sombras.'
+      image_alt_text='La identificación tiene reflejos y proyecta sombras.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
       text='Evite que se vean reflejos o sombras.'
     %}
@@ -135,7 +135,7 @@ Es posible que algunas agencias asociadas le pidan que tome una foto de su cara 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='Una persona con anteojos de sol. Si rostro está cubierto con algún accesorio, la foto no es aceptable.'
+      image_alt_text='Una persona con anteojos de sol. Si rostro está cubierto con algún accesorio, la foto no es aceptable.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-accessories-remove.png'
       text='Solo use los accesorios (como anteojos o sombreros) que lleva puestos en la fotografía de su identificación. Quite otros accesorios que puedan cubrirle la cara.'
     %}
@@ -143,7 +143,7 @@ Es posible que algunas agencias asociadas le pidan que tome una foto de su cara 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='Una persona con demasiada luz o con reflejos en el rostro, por lo tanto, la foto no es aceptable.'
+      image_alt_text='Una persona con demasiada luz o con reflejos en el rostro, por lo tanto, la foto no es aceptable.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-glare.png'
       text='Tómese la foto en un lugar bien iluminado, pero evite los reflejos.'
     %}
@@ -153,7 +153,7 @@ Es posible que algunas agencias asociadas le pidan que tome una foto de su cara 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='Una persona con la cara borrosa, por lo tanto, la foto no es aceptable.'
+      image_alt_text='Una persona con la cara borrosa, por lo tanto, la foto no es aceptable.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-blurry.png'
       text='No se mueva para evitar una imagen borrosa.'
     %}
@@ -161,7 +161,7 @@ Es posible que algunas agencias asociadas le pidan que tome una foto de su cara 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='Una persona con el rostro fuera del círculo verde central, por lo tanto, la foto no es aceptable.'
+      image_alt_text='Una persona con el rostro fuera del círculo verde central, por lo tanto, la foto no es aceptable.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-fill-green-oval.png'
       text='Revise que su cara llene todo el óvalo verde.'
     %}

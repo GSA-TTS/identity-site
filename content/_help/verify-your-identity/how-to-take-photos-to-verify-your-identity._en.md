@@ -70,7 +70,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='ID is placed on a white background.'
+      image_alt_text='ID is placed on a white background.'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
       text='Avoid white backgrounds.'
@@ -79,7 +79,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='ID is placed on a textured background.'
+      image_alt_text='ID is placed on a textured background.'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
       text="Don't use textured, patterned backgrounds."
@@ -90,7 +90,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='ID edges are cropped out.'
+      image_alt_text='ID edges are cropped out.'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
       text='Take a picture of your entire ID.'
@@ -99,7 +99,7 @@ If you are using a computer to verify your identity, you will be able to switch 
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='ID has a glare and shadows cast over it.'
+      image_alt_text='ID has a glare and shadows cast over it.'
       image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
       text='Avoid glare or shadows.'
     %}
@@ -133,7 +133,7 @@ Some partner agencies may ask you to take a photo of your face and photos of you
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='A person wearing sunglasses. Any face covering results in a failed photo.'
+      image_alt_text='A person wearing sunglasses. Any face covering results in a failed photo.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-accessories-remove.png'
       text='Only wear accessories, like glasses or hats, that you also wear in your ID photo. Remove other accessories that might block your face.'
     %}
@@ -141,7 +141,7 @@ Some partner agencies may ask you to take a photo of your face and photos of you
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='A person with extra light or glare on their face, which results in a failed photo.'
+      image_alt_text='A person with extra light or glare on their face, which results in a failed photo.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-glare.png'
       text='Take your photo in a well-lit place while avoiding glare.'
     %}
@@ -151,7 +151,7 @@ Some partner agencies may ask you to take a photo of your face and photos of you
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='A person with a blurry face, which results in a failed photo.'
+      image_alt_text='A person with a blurry face, which results in a failed photo.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-blurry.png'
       text='Remain still to avoid a blurry image.'
     %}
@@ -159,7 +159,7 @@ Some partner agencies may ask you to take a photo of your face and photos of you
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
-      image-alt-text='A person with their face outside of the central green circle, which results in a failed photo.'
+      image_alt_text='A person with their face outside of the central green circle, which results in a failed photo.'
       image='/assets/img/help/preparing-to-take-your-photo/selfie-fill-green-oval.png'
       text='Make sure your face fills the entire green oval.'
     %}
