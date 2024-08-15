@@ -2,6 +2,6 @@
   class="{{include.mobile}} usa-button sign-in-logo"
   href="{{ site.idp_base_url }}/{% if page.lang!= 'en' %}{{page.lang}}{% endif %}"
   tabindex="0"
-  >{{ site.data.[page.lang].settings.nav.sign_in }}
-  <span>Login.gov</span>
+  >
+  {{ site.data.[page.lang].settings.nav.sign_in }}
 </a>

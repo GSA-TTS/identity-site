@@ -326,7 +326,7 @@ nav:
   privacy_&_security: 隐私与安全
   security: 安全
   security_experience: Security experience # partners site does not require translations
-  sign_in: '使用…登录'
+  sign_in: '使用 <span>Login.gov</span> 登录'
   skip_nav: 跳到主要内容
   system_status: Login.gov 系统状态
   what_is_login_gov: 什么是Login.gov？
