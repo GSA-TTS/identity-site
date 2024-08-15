@@ -38,7 +38,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 * 拍一张您有效的驾驶执照或州身份卡的照片，并且
 * 输入您的个人信息
 
-您可能还需要使用手机或平板电脑拍张自己的照片，[以显示您就是身份证件上的人。如果您没有带相机的手机或平板电脑，您可以亲身去验证身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
+您可能还需要使用手机或平板电脑拍张自己的照片，以显示您就是身份证件上的人。如果您没有带相机的手机或平板电脑，您可以[亲身去验证身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
 
 本文介绍了您如何提交图像来验证身份。
 
