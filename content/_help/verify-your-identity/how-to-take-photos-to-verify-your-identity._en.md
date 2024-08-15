@@ -39,7 +39,7 @@ To verify your identity online, you must both:
 * Take a photo of your valid driver's license or state ID card, and
 * Enter your personal information
 
-You may also need to take a photo of yourself with a phone or tablet to ensure you are the person on your ID. If you don’t have access to a phone or tablet with a camera, you can verify your identity in person.
+You may also need to take a photo of yourself with a phone or tablet to ensure you are the person on your ID. If you don’t have access to a phone or tablet with a camera, you can [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/).
 
 This article covers how you can submit images to verify your identity.
 
@@ -190,6 +190,10 @@ The camera will automatically take your photo. Tap the green checkmark to confir
 ### Consider verifying your identity in person
 * If the information on your ID is not up to date, or if you look very different from your ID photo, verifying your identity online may not work.
 * Select the option to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) and visit a local United States Postal Service location to verify your identity.
+
+### Check your device and browser combination
+* iOS phones or tablets should use the [Safari web browser.]({{ page.url_safari }})
+* Android phones or tablets should use the [Google Chrome web browser.]({{ page.url_chrome }})
 
 ### Update your web browser, or clear your cache and cookies
 * If you’re using Safari, you can try [updating the browser]({{ page.url_safari_update_doc }}), or [clear the cache and cookies.]({{ page.url_safari_clear_cache_doc }})

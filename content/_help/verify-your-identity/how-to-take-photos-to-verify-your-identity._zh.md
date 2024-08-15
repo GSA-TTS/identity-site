@@ -38,7 +38,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 * 拍一张您有效的驾驶执照或州身份卡的照片，并且
 * 输入您的个人信息
 
-您可能还需要使用手机或平板电脑拍张自己的照片，以显示您就是身份证件上的人。如果您没有带相机的手机或平板电脑，您可以亲身去验证身份。
+您可能还需要使用手机或平板电脑拍张自己的照片，[以显示您就是身份证件上的人。如果您没有带相机的手机或平板电脑，您可以亲身去验证身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
 
 本文介绍了您如何提交图像来验证身份。
 
@@ -189,6 +189,10 @@ Login.gov的一些合作伙伴机构可能会要求您拍摄自己的面部照�
 ### 考虑亲身去验证您的身份
 * 如果您身份证件上的信息不是最新的，或者您看起来与身份证件上的照片非常不同，您可能无法成功在网上验证身份。
 * [选择亲身验证身份的选项](/zh/help/verify-your-identity/verify-your-identity-in-person/)，并前往当地的美国邮局去验证您的身份。
+
+### 检查你设备和浏览器的组合
+* iOS 手机或平板电脑应当使用[Safari浏览器。]({{ page.url_safari }})
+* Android手机或平板电脑应当使用[Google Chrome浏览器。]({{ page.url_chrome }})
 
 ### 更新你的浏览器，或者清除缓存以及魔饼（cookie)
 * 如果你在使用Safari，可以尝试[更新浏览器]({{ page.url_safari_update_doc }})，或者[清除缓存和魔饼。]({{ page.url_safari_clear_cache_doc }})

@@ -40,7 +40,7 @@ Para verificar su identidad en línea, debe:
 * Tomar una fotografía de su licencia de conducir válida o una tarjeta de identificación estatal, e
 * Ingresar su información personal
 
-También necesita tomarse una fotografía con un teléfono o una tableta para comprobar que usted sea la persona que figura en su identificación. Si no tiene acceso a un teléfono o una tableta con cámara, puede verificar su información en persona.
+También necesita tomarse una fotografía con un teléfono o una tableta para comprobar que usted sea la persona que figura en su identificación. Si no tiene acceso a un teléfono o una tableta con cámara, puede [verificar su información en persona](/es/help/verify-your-identity/verify-your-identity-in-person/).
 
 Este artículo describe cómo puede enviar imágenes para verificar su identidad.
 
@@ -193,6 +193,10 @@ La cámara tomará automáticamente su fotografía. Toque la marca de verificaci
 ### Considere hacer la verificación de su identidad en persona.
 * Si la información en su identificación no está actualizada, o si su aspecto es muy diferente al de la foto de su identificación, es posible que la verificación de su identidad en línea no funcione.
 * Seleccione la opción de [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) y acuda a una oficina del Servicio Postal de los Estados Unidos para verificar su identidad.
+
+### Verifique su combinación de dispositivo y navegador
+* Los teléfonos o las tabletas iOS deben usar el [navegador web Safari.]({{ page.url_safari }})
+* Los teléfonos o las tabletas Android deben usar el [navegador web Google Chrome.]({{ page.url_chrome }})
 
 ### Actualice su navegador web o borre la memoria caché y las cookies de este
 * Si usa el navegador Safari, intente [actualizarlo]({{ page.url_safari_update_doc }} ) o [borrar la memoria caché y las cookies.]({{ page.url_safari_clear_cache_doc }} ) de este.

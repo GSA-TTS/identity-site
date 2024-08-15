@@ -41,7 +41,7 @@ Pour confirmer votre identité en ligne, vous devez :
 *  Prendre une photo de votre permis de conduire ou carte d’identité d’un État en cours de validité et
 * Saisir vos renseignements personnels
 
-Il est possible que vous deviez prendre une photo de vous-même à l’aide d’un téléphone ou d’une tablette pour garantir que vous êtes bien la personne figurant sur la pièce d'identité. Si vous n'avez pas accès à un téléphone ou une tablette avec une caméra, vous pouvez confirmer votre identité en personne.
+Il est possible que vous deviez prendre une photo de vous-même à l’aide d’un téléphone ou d’une tablette pour garantir que vous êtes bien la personne figurant sur la pièce d'identité. Si vous n'avez pas accès à un téléphone ou une tablette avec une caméra, vous pouvez [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/).
 
 Cet article explique les différentes façons de transmettre des images ou photos pour confirmer votre identité.
 
@@ -195,6 +195,9 @@ L’appareil prend automatiquement votre photo. Cochez la case verte pour valide
 * Si les informations figurant sur votre pièce d’identité ne sont pas à jour, ou si vous paraissez très différent de la photo de votre pièce d’identité, il est possible que la confirmation de votre identité échoue.
 * Sélectionnez la possibilité de [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) et rendez-vous dans un bureau du service des postes des États-Unis près de chez vous.
 
+### Vérifier l’association entre votre appareil et votre navigateur
+* Les téléphones ou tablettes équipés d’iOS doivent utiliser le [navigateur Safari.]({{ page.url_safari }})
+* Les téléphones ou tablettes équipés d’Android doivent utiliser le [navigateur Google Chrome.]({{ page.url_chrome }})
 
 ### Actualiser votre navigateur ou vider le cache et effacer les cookies
 * Si vous utilisez Safari, vous pouvez essayer [d’actualiser le navigateur]({{ page.url_safari_update_doc }}) ou [de vider le cache et d’effacer les cookies.]({{ page.url_safari_clear_cache_doc }})
