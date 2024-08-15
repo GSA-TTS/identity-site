@@ -36,7 +36,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 
 To verify your identity online, you must both:
 
-* Take a photo of your valid driver's license or state ID card, Android
+* Take a photo of your valid driver's license or state ID card, and
 * Enter your personal information
 
 You may also need to take a photo of yourself with a phone or tablet to ensure you are the person on your ID. If you don’t have access to a phone or tablet with a camera, you can verify your identity in person.
