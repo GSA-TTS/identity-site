@@ -15,6 +15,8 @@ exclude_from_localizations: ['javascript', 'images', 'css']
 # Contact form production values (overridden in Cloud.gov Pages for preview branches)
 contact_form_action: 'https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8'
 contact_form_orgid: '00DU0000000Leux'
+contact_form_agency: '00N3d0000013vIB'
+contact_form_integration: '00N3d0000013vIC'
 
 # Contact page phone number enabled (overridden in Cloud.gov Pages)
 contact_phone_number_enabled: false
