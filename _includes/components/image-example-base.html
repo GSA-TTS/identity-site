@@ -1,37 +1,23 @@
 {% comment %}
 include
-- do_dont_class
-- do_dont_icon
-- do_dont_text
 - image_alt_text
 - image 
 - bordered_image
 - text
 {% endcomment %}
 
-{% if include.bordered_image == true %}
-  {% assign bordered_image_class = 'usa-image-example__image--bordered' %}
-{% else %}
-  {% assign bordered_image_class = '' %}
-{% endif %}
-
-<div class="usa-image-example {{ include.do_dont_class }}">
+<div class="usa-image-example">
   <figure class="usa-image-example__figure">
     <img
       alt="{{ include.image_alt_text }}"
-      class="usa-image-example__image {{ bordered_image_class }}"
+      class="usa-image-example__image"
       src="{{ site.baseurl }}{{ include.image }}"
     />
     <figcaption class="usa-image-example__figcaption margin-bottom-4">
       <ul class="usa-icon-list usa-icon-list--size-md">
         <li class="usa-icon-list__item">
-          <div class="usa-icon-list__icon">
-            <svg class="usa-icon" aria-hidden="true" role="img">
-              <use xlink:href="{{ site.baseurl }}{{ include.do_dont_icon }}"></use>
-            </svg>
-          </div>
           <div class="usa-icon-list__content">
-            <span class="image-example__do-dont">{{ include.do_dont_text }}: </span>{{ include.text }}
+            {{ include.text }}
           </div>
         </li>
       </ul>

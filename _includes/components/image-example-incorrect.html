@@ -2,16 +2,12 @@
 include
 - image_alt_text
 - image 
-- do_dont_text
 - text
 - bordered_image
 {% endcomment %}
 
 {%
   include components/image-example-base.html
-  do_dont_class='usa-image-example--incorrect'
-  do_dont_icon='/assets/img/sprite.svg#cancel'
-  do_dont_text=include.do_dont_text
   image_alt_text=include.image_alt_text
   image=include.image
   bordered_image=include.bordered_image
