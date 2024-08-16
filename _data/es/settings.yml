@@ -345,7 +345,7 @@ nav:
   privacy_&_security: Privacidad y seguridad
   security: Seguridad
   security_experience: Security experience # partners site does not require translations
-  sign_in: Inicie sesión con
+  sign_in: 'Inicie sesión con {{APP_NAME}}'
   skip_nav: Saltar al contenido principal
   system_status: Estado del sistema Login.gov
   what_is_login_gov: ¿Qué es Login.gov?
