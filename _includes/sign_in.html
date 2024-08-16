@@ -3,6 +3,6 @@
   href="{{ site.idp_base_url }}/{% if page.lang!= 'en' %}{{page.lang}}{% endif %}"
   tabindex="0"
   >
-  {% assign sign_in_text = site.data[page.lang].settings.nav.sign_in | replace: '{{APP_NAME}}', '<span>Login.gov</span>'  %}
+  {% assign sign_in_text = site.data[page.lang].settings.nav.sign_in | replace: '{{APP_NAME}}', '<span>Login.gov</span>' %}
   {{ sign_in_text }}
 </a>
