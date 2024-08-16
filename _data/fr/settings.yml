@@ -359,7 +359,7 @@ nav:
   privacy_&_security: Confidentialité et sécurité
   security: Sécurité
   security_experience: Security experience # partners site does not require translations
-  sign_in: 'Se connecter avec <span>Login.gov</span>'
+  sign_in: 'Se connecter avec {{APP_NAME}}'
   skip_nav: Passer au contenu principal
   system_status: État du système Login.gov
   what_is_login_gov: Qu’est-ce que Login.gov ?

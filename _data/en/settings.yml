@@ -337,7 +337,7 @@ nav:
   privacy_&_security: Privacy & security
   security: Security
   security_experience: Security experience
-  sign_in: 'Sign in with <span>Login.gov</span>'
+  sign_in: 'Sign in with {{APP_NAME}}'
   skip_nav: Skip to main content
   system_status: Login.gov system status
   what_is_login_gov: What is Login.gov?
