@@ -6,7 +6,7 @@ export function setInputValueFromLocalStorage(key, dataForValue) {
   }
 
   const value = localStorage.getItem(key);
-  const inputElement = document.querySelector(`input[data-for='${dataForValue}'']`);
+  const inputElement = document.querySelector(`input[data-for='${dataForValue}']`);
 
   if (value && inputElement) {
     inputElement.value = value;
