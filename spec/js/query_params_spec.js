@@ -98,7 +98,7 @@ describe('URL query parameters', () => {
       setTestUrl('https://test.com/');
       storeUrlQueryParams();
 
-      assert.strictEqual(localStorage.getItem('agency'), 'gsa', 'Agency should still be stored');
+      assert.strictEqual(localStorage.getItem('agency'), 'gsa');
       assert.strictEqual(
         localStorage.getItem(CACHE_KEY),
         initialCacheTime,
