@@ -20,7 +20,7 @@ La vérification d'identité est le processus qui vous permet de prouver que vou
 
 Vous prendrez une photo de votre [permis de conduire officiel ou carte d’identité d’un État](/fr/help/verify-your-identity/accepted-identification-documents/) et saisirez vos renseignements personnels afin de confirmer votre identité en ligne.
 
-Il est possible que vous deviez prendre une [photo de vous-même](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself) avec un téléphone afin de confirmer votre identité en ligne. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité. Si vous n'avez pas de téléphone équipé d'une caméra, vous pouvez [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/).
+Il est possible que vous deviez prendre une [photo de vous-même](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#comment-prendre-des-photos-de-vous-même) avec un téléphone afin de confirmer votre identité en ligne. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité. Si vous n'avez pas de téléphone équipé d'une caméra, vous pouvez [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/).
 
 {%
   include components/two-column-image-bullet-list.html
@@ -46,6 +46,6 @@ Login.gov ne stocke pas d’image de votre pièce d’identité ni de vous-même
 ## Articles connexes
 [Comment vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
 [Documents d’identification acceptés](/fr/help/verify-your-identity/accepted-identification-documents/)
-[Comment ajouter des images de votre permis de conduire ou de votre carte d'identité de l’État](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
+[Comment ajouter des images de votre permis de conduire ou de votre carte d'identité de l’État](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#comment-prendre-des-photos-de-vous-même)
 [Vérifiez votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
 [Validez votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)
