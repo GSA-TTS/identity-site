@@ -12,7 +12,7 @@ order: 0
 
 要在网上验证身份，你需要拍一张[我们接受的驾照或州颁发的身份证件](/zh/help/verify-your-identity/accepted-identification-documents/)的照片，并输入你的个人信息。
 
-要在网上验证身份，你可能需要用手机拍一张[你本人的照片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#如何拍摄自己的照片)。这是为了查看你是身份证件上的人。如果你没有带相机的手机，可以[亲身验证身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
+要在网上验证身份，你可能需要用手机拍一张[你本人的照片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)。这是为了查看你是身份证件上的人。如果你没有带相机的手机，可以[亲身验证身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
 
 {%
   include components/two-column-image-bullet-list.html
@@ -39,6 +39,6 @@ Login.gov 不保存你身份证件的图像或你本人的照片。在与合作�
 
 [如何验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
 [系统接受的身份证件](/zh/help/verify-your-identity/accepted-identification-documents/)
-[如何添加你驾照或州颁发身份证件的图片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#如何拍摄自己的照片)
+[如何添加你驾照或州颁发身份证件的图片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
 [验证你的电话号码](/zh/help/verify-your-identity/phone-number/)
 [通过普通邮件验证你的身份](/zh/help/verify-your-identity/verify-your-address-by-mail/)

@@ -19,7 +19,7 @@ La verificación de la identidad es el proceso en el que comprueba que se trata 
 
 Tomar una fotografía de su [licencia de conducir o tarjeta de identificación estatal aceptada](/es/help/verify-your-identity/accepted-identification-documents/), e ingresar su información personal para verificar su identidad en línea.
 
-Es posible que necesite tomarse [una fotografía](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#cómo-tomarse-fotografías) con un teléfono para verificar su identidad en línea. Esto se hace para revisar que usted sea la persona que figura en su identificación. Si no tiene un teléfono con cámara, puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/).
+Es posible que necesite tomarse [una fotografía](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself) con un teléfono para verificar su identidad en línea. Esto se hace para revisar que usted sea la persona que figura en su identificación. Si no tiene un teléfono con cámara, puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/).
 
 {%
   include components/two-column-image-bullet-list.html
@@ -50,6 +50,6 @@ información sobre nuestras medidas de privacidad y seguridad.](/es/policy/)
 
 [Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
 [Documentos de identificación aceptados](/es/help/verify-your-identity/accepted-identification-documents/)
-[Cómo insertar imágenes de su licencia de conducir o identificación estatal](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#cómo-tomarse-fotografías)
+[Cómo insertar imágenes de su licencia de conducir o identificación estatal](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
 [Verifique su número de teléfono](/es/help/verify-your-identity/phone-number/)
 [Verifique su domicilio a través del correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/)

@@ -120,7 +120,7 @@ Si no tiene acceso a una cámara, puede verificar su identidad en persona en una
 
 ---
 
-## Cómo tomarse fotografías
+## Cómo tomarse fotografías {#how-to-take-photos-of-yourself}
 
 Es posible que algunas agencias asociadas le pidan que tome una foto de su cara y fotos de su licencia de conducir o tarjeta de identificación estatal. Esto comprueba que usted es la persona que figura en su identificación.
 
