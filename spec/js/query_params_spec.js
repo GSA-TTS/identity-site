@@ -1,4 +1,4 @@
-import { describe, it, beforeEach, afterEach } from 'node:test';
+import { describe, it, mock, beforeEach, afterEach } from 'node:test';
 import assert from 'node:assert';
 import { JSDOM } from 'jsdom';
 import { storeUrlQueryParams } from '../../assets/js/query_params.js';
@@ -6,7 +6,6 @@ import { storeUrlQueryParams } from '../../assets/js/query_params.js';
 describe('URL query parameters', () => {
   const FIXED_TIMESTAMP = 1724339456350;
   const CACHE_KEY = 'lastParamsUpdate';
-  let originalDateNow;
   let jsdom;
 
   function setTestUrl(newUrl = 'https://test.com/') {
@@ -15,18 +14,16 @@ describe('URL query parameters', () => {
   }
 
   beforeEach(() => {
-    originalDateNow = Date.now;
-    Date.now = () => FIXED_TIMESTAMP;
-
+    mock.timers.enable({ apis: ['Date'], now: FIXED_TIMESTAMP });
     jsdom = new JSDOM('', { url: 'https://test.com' });
+
     global.window = jsdom.window;
     global.URLSearchParams = jsdom.window.URLSearchParams;
     global.localStorage = jsdom.window.localStorage;
   });
 
   afterEach(() => {
-    Date.now = originalDateNow;
-
+    mock.timers.reset();
     jsdom.window.close();
 
     delete global.window;
@@ -70,8 +67,8 @@ describe('URL query parameters', () => {
 
       assert.strictEqual(localStorage.getItem('agency'), 'gsa');
 
-      const EIGHT_DAYS = 691200000;
-      Date.now = () => FIXED_TIMESTAMP + EIGHT_DAYS;
+      const EIGHT_DAYS_IN_MILLISECONDS = 691200000;
+      mock.timers.tick(EIGHT_DAYS_IN_MILLISECONDS);
 
       setTestUrl('https://test.com/');
       storeUrlQueryParams();
@@ -84,26 +81,17 @@ describe('URL query parameters', () => {
       setTestUrl('https://test.com/?agency=gsa');
       storeUrlQueryParams();
 
-      assert.strictEqual(
-        localStorage.getItem('agency'),
-        'gsa',
-        'Agency should be stored initially',
-      );
+      assert.strictEqual(localStorage.getItem('agency'), 'gsa');
 
       const initialCacheTime = localStorage.getItem(CACHE_KEY);
-      const SIX_DAYS = 518400000;
-      const newTime = FIXED_TIMESTAMP + SIX_DAYS;
-      Date.now = () => newTime;
+      const SIX_DAYS_IN_MILLISECONDS = 518400000;
+      mock.timers.tick(SIX_DAYS_IN_MILLISECONDS);
 
       setTestUrl('https://test.com/');
       storeUrlQueryParams();
 
       assert.strictEqual(localStorage.getItem('agency'), 'gsa');
-      assert.strictEqual(
-        localStorage.getItem(CACHE_KEY),
-        initialCacheTime,
-        'Cache time should not change',
-      );
+      assert.strictEqual(localStorage.getItem(CACHE_KEY), initialCacheTime);
     });
 
     it('updates cache key only when new params are stored', () => {
@@ -116,7 +104,7 @@ describe('URL query parameters', () => {
 
       assert.strictEqual(localStorage.getItem(CACHE_KEY), initialCacheTime);
 
-      Date.now = () => FIXED_TIMESTAMP + 1000;
+      mock.timers.tick(1000);
       setTestUrl('https://test.com/?integration=new');
       storeUrlQueryParams();
 
