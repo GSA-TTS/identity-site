@@ -23,11 +23,7 @@ function clearStoredParams(allowedKeys, urlParams) {
   if (hasAllowedParams(urlParams, allowedKeys) || isCacheExpired(lastUpdate, currentTime)) {
     allowedKeys.forEach((key) => localStorage.removeItem(key));
     localStorage.removeItem(CACHE_KEY);
-
-    return true;
   }
-
-  return false;
 }
 
 export function storeUrlQueryParams(allowedKeys = ALLOWED_KEYS) {
