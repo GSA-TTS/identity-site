@@ -21,7 +21,7 @@ Vous pouvez utiliser un téléphone portable prépayé pour vérifier votre iden
 
 ## Vous ne pouvez pas vérifier votre identité avec :
 - Des numéros internationaux et des numéros de certains territoires américains
-- Google Voice ou des numéros VOIP (voix via le protocole internet) similaires
+- Numéros Google Voice ou VOIP (voix sur IP) similaires
 - Les numéros surtaxés (payants)
 
 ## Si vous ne pouvez pas effectuer cette étape
