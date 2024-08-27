@@ -65,6 +65,10 @@ N’oubliez pas que vous pouvez à tout moment mettre à jour vos informations p
 
 Il y a fraude lorsque quelqu’un qui se fait passer pour vous tente d’accéder à une organisme partenaire en utilisant vos informations Login.gov. Login.gov protège vos données des acteurs malveillants. Notre produit travaille avec des fournisseurs tiers de confiance pour s’assurer que c’est bien vous qui accédez à votre compte — et non une tierce personne qui se fait passer pour vous. Ces fournisseurs recherchent les changements et les risques dans le comportement de l’utilisateur qui pourraient indiquer une tentative de fraude.
 
+### Enregistrements : où trouver de plus amples informations ? ### {#records}
+
+Veuillez consulter l’avis relatif au système d’enregistrement de Login.gov ([GSA/TTS–1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records)).
+
 ### Analytique Web : d’autres données que nous recueillons ### {#analytics}
 
 D’autres données, comme les pages que vous visitez et la durée de votre session, sont regroupées dans des rapports pour nous aider à mieux comprendre comment le site est utilisé et comment il peut être possible de le rendre plus utile. Les données sont rendues anonymes. Aucune information permettant d’identifier personnellement l’utilisateur n’est liée à ces données et elles ne sont partagées que de manière anonyme avec l’équipe de Login.gov.
