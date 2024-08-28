@@ -24,7 +24,7 @@ You can use a prepaid cell phone to verify your identity. However, some prepaid 
 
 ## You cannot verify your identity with:
 - International numbers and numbers in some U.S. territories
-- Google voice or similar VOIP (Voice Over Internet Protocol) numbers
+- Google voice or similar VoIP (Voice over Internet Protocol) numbers
 - Premium rate (toll) numbers
 
 ## If you cannot complete this step

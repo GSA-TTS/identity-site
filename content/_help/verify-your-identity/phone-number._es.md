@@ -21,7 +21,7 @@ Puede utilizar un teléfono celular de prepago para verificar su identidad. Sin 
 
 ## No puede verificar su identidad con:
 - Números internacionales y números en algunos territorios de EE.UU.
-- Google Voice o números VoIP (*Voice Over Internet Protocol*) similares
+- Números de teléfono de Google Voice o de voz sobre protocolo de internet (VoIP) similares
 - Números de tarifa especial
 
 ## Si no puede efectuar este paso:
