@@ -130,7 +130,7 @@ include:
   - docs/identity-verification-report.docx
   - docs/identity-verification-report.pdf
   - docs/login-gov-roadmap-may-2024.pdf
-  - docs/unlinked/login-gov-press-kit_final.pdf
+  - docs/unlinked/login-gov-press-kit.pdf
 
 exclude:
   - babel.config.json
