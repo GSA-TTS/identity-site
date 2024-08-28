@@ -113,6 +113,10 @@ defaults:
       path: 'content/**/*/*._zh.md'
     values:
       lang: zh
+  - scope:
+      path:            'admin/'
+    values:
+      sitemap:         false
 
 include:
   # dotfiles are excluded by default
