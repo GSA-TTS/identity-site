@@ -117,6 +117,10 @@ defaults:
       path:            'admin/'
     values:
       sitemap:         false
+  - scope:
+      path:            'docs/unlinked/*'
+    values:
+      sitemap:         false      
 
 include:
   # dotfiles are excluded by default
@@ -126,6 +130,7 @@ include:
   - docs/identity-verification-report.docx
   - docs/identity-verification-report.pdf
   - docs/login-gov-roadmap-may-2024.pdf
+  - docs/unlinked/login-gov-press-kit_final.pdf
 
 exclude:
   - babel.config.json
