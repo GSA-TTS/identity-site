@@ -21,7 +21,7 @@ Identity verification is the process where you prove you are you — and not som
 
 You’ll take a photo of your [accepted driver’s license or state ID card](/help/verify-your-identity/accepted-identification-documents/) and enter your personal information to verify your identity online.
 
-You may need to take a [photo of yourself](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/) with a phone to verify your identity online. This is to check that you are the person on your ID. If you don’t have a phone with a camera, you can [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/).
+You may need to take a [photo of yourself](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself) with a phone to verify your identity online. This is to check that you are the person on your ID. If you don’t have a phone with a camera, you can [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/).
 
 {%
   include components/two-column-image-bullet-list.html
@@ -49,6 +49,6 @@ Login.gov does not store images of your ID or the photo of yourself. We ask for 
 
 [How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
 [Accepted identification documents](/help/verify-your-identity/accepted-identification-documents/)
-[How to take a photo of yourself](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+[How to take a photo of yourself](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
 [Verify your phone number](/help/verify-your-identity/phone-number/)
 [Verify your address by mail](/help/verify-your-identity/verify-your-address-by-mail/)

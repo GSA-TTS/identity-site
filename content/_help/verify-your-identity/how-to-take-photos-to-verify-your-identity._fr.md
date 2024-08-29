@@ -120,7 +120,7 @@ Si vous n’avez pas accès à un appareil photo, vous pouvez peut-être confirm
 
 ---
 
-## Comment prendre des photos de vous-même
+## Comment prendre des photos de vous-même {#how-to-take-photos-of-yourself}
 
 Certains organismes partenaires peuvent vous demander de prendre une photo de votre visage et des photos de votre permis de conduire ou carte d’identité d’un État. Ceci permet de confirmer que vous êtes la personne figurant sur votre pièce d’identité.
 

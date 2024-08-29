@@ -117,7 +117,7 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 
 ---
 
-## 如何拍摄自己的照片
+## 如何拍摄自己的照片 {#how-to-take-photos-of-yourself}
 
 Login.gov的一些合作伙伴机构可能会要求您拍摄自己的面部照片以及驾照或州身份卡的照片。这是为了查看您是身份证件上的人。
 
