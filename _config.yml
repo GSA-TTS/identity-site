@@ -113,6 +113,14 @@ defaults:
       path: 'content/**/*/*._zh.md'
     values:
       lang: zh
+  - scope:
+      path: 'admin/'
+    values:
+      sitemap: false
+  - scope:
+      path: 'docs/login-gov-press-kit.pdf'
+    values:
+      sitemap: false
 
 include:
   # dotfiles are excluded by default
@@ -122,6 +130,7 @@ include:
   - docs/identity-verification-report.docx
   - docs/identity-verification-report.pdf
   - docs/login-gov-roadmap-may-2024.pdf
+  - docs/login-gov-press-kit.pdf
 
 exclude:
   - babel.config.json
