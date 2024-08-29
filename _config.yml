@@ -114,13 +114,13 @@ defaults:
     values:
       lang: zh
   - scope:
-      path:            'admin/'
+      path: 'admin/'
     values:
-      sitemap:         false
+      sitemap: false
   - scope:
-      path:            'docs/unlinked/*'
+      path: 'docs/unlinked/*'
     values:
-      sitemap:         false      
+      sitemap: false      
 
 include:
   # dotfiles are excluded by default
