@@ -114,13 +114,13 @@ defaults:
     values:
       lang: zh
   - scope:
-      path:            'admin/'
+      path: 'admin/'
     values:
-      sitemap:         false
+      sitemap: false
   - scope:
-      path:            'docs/unlinked/*'
+      path: 'docs/login-gov-press-kit.pdf'
     values:
-      sitemap:         false      
+      sitemap: false
 
 include:
   # dotfiles are excluded by default
@@ -130,7 +130,7 @@ include:
   - docs/identity-verification-report.docx
   - docs/identity-verification-report.pdf
   - docs/login-gov-roadmap-may-2024.pdf
-  - docs/unlinked/login-gov-press-kit.pdf
+  - docs/login-gov-press-kit.pdf
 
 exclude:
   - babel.config.json
