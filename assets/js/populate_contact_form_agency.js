@@ -1,12 +1,12 @@
 import { isLocalStorageAvailable } from './storage_availability.js';
 
-export function setInputValueFromLocalStorage(key, inputId) {
+export function setInputValueFromLocalStorage(key, dataForValue) {
   if (!isLocalStorageAvailable()) {
     return;
   }
 
   const value = localStorage.getItem(key);
-  const inputElement = document.getElementById(inputId);
+  const inputElement = document.querySelector(`input[data-for='${dataForValue}']`);
 
   if (value && inputElement) {
     inputElement.value = value;
@@ -14,6 +14,6 @@ export function setInputValueFromLocalStorage(key, inputId) {
 }
 
 export function populateFormAgencyValues() {
-  setInputValueFromLocalStorage('agency', '00N3d0000013vIB');
-  setInputValueFromLocalStorage('integration', '00N3d0000013vIC');
+  setInputValueFromLocalStorage('agency', 'agency');
+  setInputValueFromLocalStorage('integration', 'integration');
 }
