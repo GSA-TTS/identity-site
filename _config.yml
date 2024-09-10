@@ -67,6 +67,9 @@ collections:
   partners_impact_stories:
     output: true
     permalink: /:collection/:path/
+  program_updates:
+    output: true
+    permalink: /partners/:collection/:path/    
   policy:
     output: true
     permalink: /:collection/:path/
