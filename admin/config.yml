@@ -254,3 +254,20 @@ collections:
       - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
       - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
       - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
+  - label: Program updates
+    label_singular: 'Program update'
+    name: program_updates
+    folder: content/_program_updates
+    i18n: false
+    create: true
+    path: '{{slug}}'
+    summary: '{{title}} ({{filename}}.{{extension}})'
+    filter: { field: 'layout', value: 'sidenav' }
+    sortable_fields: ['commit_date', 'date', 'title', 'commit_author']
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav' }
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', required: true }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Publish date', name: 'date', widget: 'datetime', required: true }      
+      - { label: 'Body', name: 'body', widget: 'markdown', required: true }
+      - { label: 'Permalink', name: 'permalink', widget: 'string' }
