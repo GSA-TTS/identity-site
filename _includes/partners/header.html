@@ -69,6 +69,14 @@
           </li>
           <li class="usa-nav__primary-item">
             <a
+              class="usa-nav__link {% if page.url contains '/program-updates' %}usa-current{% endif %}"
+              href="{{ '/partners/program-updates/' | locale_url }}"
+            >
+              Program updates
+            </a>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a
               class="usa-nav__link {% if page.url contains '/faq' %}usa-current{% endif %}"
               href="{{ '/partners/faq/' | locale_url }}"
             >
