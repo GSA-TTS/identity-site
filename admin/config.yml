@@ -260,14 +260,11 @@ collections:
     folder: content/_program_updates
     i18n: false
     create: true
-    path: '{{slug}}'
     summary: '{{title}} ({{filename}}.{{extension}})'
-    filter: { field: 'layout', value: 'sidenav' }
     sortable_fields: ['commit_date', 'date', 'title', 'commit_author']
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'sidenav' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'partners/program-update' }
+      - { label: 'Language', name: 'lang', widget: 'hidden', default: 'en' }
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', required: true }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Publish date', name: 'date', widget: 'datetime', required: true }      
+      - { label: 'Date (Order)', name: 'date', widget: 'datetime', required: true }      
       - { label: 'Body', name: 'body', widget: 'markdown', required: true }
-      - { label: 'Permalink', name: 'permalink', widget: 'string' }
