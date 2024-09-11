@@ -1,0 +1,43 @@
+---
+layout: base
+---
+<header>
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include partners/header.html %}
+</header>
+
+<main id="main-content">
+    <section>
+        <div class="container partners-container">
+
+            <!-- placeholder content !-->
+
+            <div class="grid-row">
+                <h1 class="partners-title">{{ page.title }}</h1>
+                <div class="tablet:grid-col-12 partners-border"></div>
+                <div class="tablet:grid-col-12">
+                    <p>total entries found: {{ site.program_updates.size }}</p>
+                </div>
+            </div>
+
+            <ul>
+                {% assign  sorted_updates = site.program_updates | sort: 'date' | reverse %}
+                {% for program_update in sorted_updates limit: 5 %}
+
+                <li class="margin-top-4 margin-bottom-4">
+                    <hr class="usa-hr">
+                    <h2><a href="{{ program_update.url | relative_url }}">{{ program_update.title }}</a></h2>
+                    <p>{{ program_update.date | date: "%B %d, %Y" }}</p>
+
+                    <div>
+                        {{ program_update.content | markdownify | truncate: 10 }}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+</main>
+{% include partners/partners-banner.html %}
+{% include partners/footer.html %}

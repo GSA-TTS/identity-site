@@ -1,0 +1,49 @@
+---
+layout: base
+---
+<header>
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include partners/header.html %}
+</header>
+<main id="main-content">
+
+  <!-- placeholder content !-->
+  
+  <section>
+    <div class="container partners-container">
+      <nav class="usa-breadcrumb usa-breadcrumb--wrap" aria-label="Breadcrumbs,,,">
+        <ol class="usa-breadcrumb__list">
+          <li class="usa-breadcrumb__list-item">
+            <a href="" class="usa-breadcrumb__link"><span>Home</span></a>
+          </li>
+          <li class="usa-breadcrumb__list-item">
+            <a href="/partners/program-updates/" class="usa-breadcrumb__link"
+            ><span>Program updates</span></a
+            >
+          </li>
+          <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+            <span
+            >{{ page.title }}</span
+            >
+          </li>
+        </ol>
+      </nav>
+
+      <h2 class="partners-title">{{ page.title }}</h2>
+      <p>{{ page.date | date: "%B %d, %Y" }}</p>
+      <div class="grid-row">
+        <div class="tablet:grid-col-12 partners-body">
+          <div class="partners-border"></div>
+          <div class="partners-body margin-bottom-8">{{ page.content | markdownify }}</div>
+          <div>
+            <h3>More articles</h3>
+            <h3>...</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+{% include partners/partners-banner.html %}
+{% include partners/footer.html %}
