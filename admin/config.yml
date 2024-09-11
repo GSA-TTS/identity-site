@@ -3,7 +3,8 @@
 backend:
   name: github
   repo: GSA-TTS/identity-site
-  branch: main
+  # TODO: Note, temporarily modified branch config for staging tests !
+  branch: LG-13754-program-updates-ui
   base_url: https://pages.cloud.gov
   auth_endpoint: external/auth/github
   preview_context: pages/build
