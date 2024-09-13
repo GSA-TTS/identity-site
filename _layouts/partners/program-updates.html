@@ -10,13 +10,16 @@ layout: base
 <main id="main-content">
   <section>
     <div class="container partners-container">
-      <header>
+      <header class="grid-row">
         <h1 class="partners-title">{{ page.title }}</h1>
-        <div class="partners-border"></div>
-        <h2>{{ page.subtitle | markdownify }}</h2>
-        <div class="partners-subtitle">
-          {{ page.body | markdownify }}
-          <p>Total entries found: {{ site.program_updates.size }}</p>
+        <div class="tablet:grid-col-12 partners-border"></div>
+        <div class="tablet:grid-col-12">
+          <div>{{ page.subtitle | markdownify }}</div>
+          <div class="partners-subtitle">
+            {{ page.body | markdownify }}
+            
+            <p>Total entries found: {{ site.program_updates.size }}</p>
+          </div>
         </div>
       </header>
 
