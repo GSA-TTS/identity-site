@@ -8,36 +8,44 @@ layout: base
 </header>
 
 <main id="main-content">
-    <section>
-        <div class="container partners-container">
-
-            <!-- placeholder content !-->
-
-            <div class="grid-row">
-                <h1 class="partners-title">{{ page.title }}</h1>
-                <div class="tablet:grid-col-12 partners-border"></div>
-                <div class="tablet:grid-col-12">
-                    <p>total entries found: {{ site.program_updates.size }}</p>
-                </div>
-            </div>
-
-            <ul>
-                {% assign  sorted_updates = site.program_updates | sort: 'date' | reverse %}
-                {% for program_update in sorted_updates limit: 5 %}
-
-                <li class="margin-top-4 margin-bottom-4">
-                    <hr class="usa-hr">
-                    <h2><a href="{{ program_update.url | relative_url }}">{{ program_update.title }}</a></h2>
-                    <p>{{ program_update.date | date: "%B %d, %Y" }}</p>
-
-                    <div>
-                        {{ program_update.content | markdownify | truncate: 10 }}
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
+  <section>
+    <div class="container partners-container">
+      <header>
+        <h1 class="partners-title">{{ page.title }}</h1>
+        <div class="partners-border"></div>
+        <h2>{{ page.subtitle | markdownify }}</h2>
+        <div class="partners-subtitle">
+          {{ page.body | markdownify }}
+          <p>Total entries found: {{ site.program_updates.size }}</p>
         </div>
-    </section>
+      </header>
+
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-8">
+          <ul class="usa-collection partners-collection">
+            {% assign sorted_updates = site.program_updates | sort: 'date' | reverse %}
+            {% for program_update in sorted_updates %}
+              <li class="usa-collection__item partners-collection__item">
+                <div class="usa-collection__body">
+                  <h3 class="usa-collection__heading">
+                    <a class="partners-body caret" href="{{ program_update.url | relative_url }}">{{ program_update.title }}</a>
+                  </h3>
+                  <p class="usa-collection__description">{{ program_update.content | markdownify | truncate: 200 }}</p>
+                  <ul class="usa-collection__meta">
+                    <li class="usa-collection__meta-item">
+                      <time datetime="{{ program_update.date | date: '%Y-%m-%d' }}">
+                        {{ program_update.date | date: "%B %d, %Y" }}
+                      </time>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 {% include partners/partners-banner.html %}
 {% include partners/footer.html %}
