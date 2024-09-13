@@ -104,3 +104,17 @@
   background-color: rgba(0, 0, 0, 0) !important;
   box-shadow: inset 0 0 0 1px #112e51 !important;
 }
+
+.partners-collection__item {
+  @extend .usa-collection__item !optional;
+  
+  max-width: none;
+  width: 100%;
+  
+  border-top-color: $border-color;
+
+  .usa-collection__body {
+    width: 100%;
+    max-width: none;
+  }
+}
