@@ -266,6 +266,6 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'partners/program-update' }
       - { label: 'Language', name: 'lang', widget: 'hidden', default: 'en' }
-      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1', required: true }
+      - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Date (Order)', name: 'date', widget: 'datetime', required: true }      
       - { label: 'Body', name: 'body', widget: 'markdown', required: true }
