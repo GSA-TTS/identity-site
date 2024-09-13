@@ -7,43 +7,45 @@ layout: base
   {% include partners/header.html %}
 </header>
 <main id="main-content">
+  <div class="container partners-container">
+    <!-- only for draft: breadcrumbs !-->
+    {% comment %}
+    <nav class="usa-breadcrumb usa-breadcrumb--wrap" aria-label="Breadcrumbs">
+      <ol class="usa-breadcrumb__list">
+        <li class="usa-breadcrumb__list-item">
+          <a href="#" class="usa-breadcrumb__link"><span>Home</span></a>
+        </li>
+        <li class="usa-breadcrumb__list-item">
+          <a href="/partners/program-updates/" class="usa-breadcrumb__link"
+          ><span>Program updates</span></a
+          >
+        </li>
+        <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+          <span
+          >{{ page.title }}</span
+          >
+        </li>
+      </ol>
+    </nav>
+    {% endcomment %}
+    <!-- end draft !-->
 
-  <!-- placeholder content !-->
-  
-  <section>
-    <div class="container partners-container">
-      <nav class="usa-breadcrumb usa-breadcrumb--wrap" aria-label="Breadcrumbs,,,">
-        <ol class="usa-breadcrumb__list">
-          <li class="usa-breadcrumb__list-item">
-            <a href="" class="usa-breadcrumb__link"><span>Home</span></a>
-          </li>
-          <li class="usa-breadcrumb__list-item">
-            <a href="/partners/program-updates/" class="usa-breadcrumb__link"
-            ><span>Program updates</span></a
-            >
-          </li>
-          <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
-            <span
-            >{{ page.title }}</span
-            >
-          </li>
-        </ol>
-      </nav>
+    <header><h1 class="partners-title">{{ page.title }}</h1></header>
 
-      <h2 class="partners-title">{{ page.title }}</h2>
-      <p>{{ page.date | date: "%B %d, %Y" }}</p>
+    <article>
       <div class="grid-row">
-        <div class="tablet:grid-col-12 partners-body">
+        <div class="tablet:grid-col-8 partners-body">
           <div class="partners-border"></div>
-          <div class="partners-body margin-bottom-8">{{ page.content | markdownify }}</div>
-          <div>
-            <h3>More articles</h3>
-            <h3>...</h3>
+          <div class="margin-y-105">
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
           </div>
+          <div class="partners-border"></div>
+          <div class="partners-body padding-top-205">{{ page.content | markdownify }}</div>
+          <a href="{{ '/partners/program-updates/' | locale_url }}" class="partners-body caret">Read more program updates</a>
         </div>
       </div>
-    </div>
-  </section>
+    </article>
+  </div>
 </main>
 {% include partners/partners-banner.html %}
 {% include partners/footer.html %}
