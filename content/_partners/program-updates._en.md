@@ -6,5 +6,5 @@ title: >-
 subtitle: >-
     ## News for partners from the Login.gov program
 body: >-
-    Placeholder for potential description of program updates: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Informational resources for Login.gov partner agencies about Login.gov features, government-wide initiatives, and the latest in digital identity management.
 ---
