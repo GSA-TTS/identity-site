@@ -23,7 +23,7 @@ backend:
 # local_backend: true
 
 media_folder: 'assets/img/'
-public_folder: '/img/uploads'
+public_folder: '/assets/img/'
 publish_mode: editorial_workflow
 
 i18n:
