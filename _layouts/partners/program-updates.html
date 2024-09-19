@@ -17,8 +17,6 @@ layout: base
           <div>{{ page.subtitle | markdownify }}</div>
           <div class="partners-subtitle">
             {{ page.body | markdownify }}
-            
-            <p>Total entries found: {{ site.program_updates.size }}</p>
           </div>
         </div>
       </header>
@@ -33,7 +31,7 @@ layout: base
                   <h3 class="usa-collection__heading">
                     <a class="partners-body caret" href="{{ program_update.url | relative_url }}">{{ program_update.title }}</a>
                   </h3>
-                  <p class="usa-collection__description">{{ program_update.content | markdownify | truncate: 200 }}</p>
+                  <p class="usa-collection__description">{{ program_update.preview | markdownify }}</p>
                   <ul class="usa-collection__meta">
                     <li class="usa-collection__meta-item">
                       <time datetime="{{ program_update.date | date: '%Y-%m-%d' }}">
