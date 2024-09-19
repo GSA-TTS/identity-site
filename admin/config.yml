@@ -262,10 +262,11 @@ collections:
     i18n: false
     create: true
     summary: '{{title}} ({{filename}}.{{extension}})'
-    sortable_fields: ['commit_date', 'date', 'title', 'commit_author']
+    sortable_fields: ['date', 'commit_date', 'title', 'commit_author']
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'partners/program-update' }
       - { label: 'Language', name: 'lang', widget: 'hidden', default: 'en' }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Date (Order)', name: 'date', widget: 'datetime', required: true }      
+      - { label: 'Entry Preview', name: 'preview', widget: 'markdown', required: true }
       - { label: 'Body', name: 'body', widget: 'markdown', required: true }
