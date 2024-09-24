@@ -29,9 +29,11 @@ layout: base
               <li class="usa-collection__item partners-collection__item">
                 <div class="usa-collection__body">
                   <h3 class="usa-collection__heading">
-                    <a class="partners-body caret" href="{{ program_update.url | relative_url }}">{{ program_update.title }}</a>
+                    <a class="caret" href="{{ program_update.url | relative_url }}">{{ program_update.title }}</a>
                   </h3>
-                  <p class="usa-collection__description">{{ program_update.preview | markdownify }}</p>
+                  <div class="usa-collection__description">
+                    {{ program_update.preview | markdownify }}
+                  </div>
                   <ul class="usa-collection__meta">
                     <li class="usa-collection__meta-item">
                       <time datetime="{{ program_update.date | date: '%Y-%m-%d' }}">
