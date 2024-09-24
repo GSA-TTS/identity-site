@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!doctype html>
 <html>
 
@@ -90,7 +93,10 @@
         }
       });
 
-      CMS.registerPreviewStyle('/assets/css/main.css');
+      {% for style in site.styles %}
+        CMS.registerPreviewStyle("{{ style | relative_url }}");
+      {% endfor %}
+
       CMS.registerPreviewTemplate('program_updates', ProgramUpdatePreview);
     </script>
   </body>
