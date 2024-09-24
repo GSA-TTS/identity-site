@@ -10,6 +10,89 @@
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+    <script>
+      const ProgramUpdatePreview = createClass({
+        alert(content) {
+          return h('div', { className: 'usa-alert usa-alert--info' },
+            h('div', { className: 'usa-alert__body' },
+              h('p', { className: 'usa-alert__text' },
+                content
+              )
+            )
+          );
+        },
+        formatDate(date) {
+          return date ? new Date(date).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+          }) : '';
+        },
+        indexView(title, date, preview) {
+          return h('div', { class: 'index-view' },
+            h('ul', { class: 'usa-collection partners-collection' },
+              h('li', { class: 'usa-collection__item partners-collection__item' },
+                h('div', { class: 'usa-collection__body' },
+                  h('h3', { class: 'usa-collection__heading' },
+                    h('a', { class: 'partners-link caret', href: '#' }, title)
+                  ),
+                  h('div', { class: 'usa-collection__description partners-body' }, preview),
+                  h('ul', { class: 'usa-collection__meta' },
+                    h('li', { class: 'usa-collection__meta-item' },
+                      h('time', { datetime: date }, date)
+                    )
+                  )
+                )
+              )
+            )
+          );
+        },
+        entryView(title, date, body) {
+          return h('div', { class: 'entry-view' },
+            h('div', { class: 'padding-bottom-6' },
+              h('header', null,
+                h('h1', { class: 'partners-title' }, title)
+              ),
+              h('article', null,
+                h('div', { class: 'grid-row' },
+                  h('div', { class: 'tablet:grid-col-8 partners-body' },
+                    h('div', { class: 'partners-border' }),
+                    h('div', { class: 'margin-y-105' },
+                      h('time', { datetime: date }, date)
+                    ),
+                    h('div', { class: 'partners-border' }),
+                    h('div', { class: 'partners-body padding-top-3 padding-bottom-2' }, body),
+                    h('a', { href: '#', class: 'partners-body caret' }, 'Read more program updates')
+                  )
+                )
+              )
+            )
+          );
+        },
+        render() {
+          const entry = this.props.entry;
+          const title = entry.getIn(['data', 'title']) || '(Missing title)';
+          const body = this.props.widgetFor('body') || h('p', {}, '(Missing body text)');
+          const preview = this.props.widgetFor('preview') || h('p', {}, '(Missing preview text)');
+          const date = entry.getIn(['data', 'date']);
+          const formattedDate = this.formatDate(date);
+
+          return h('div', {
+            class: 'container partners-container',
+            style: { backgroundColor: '#fff' }
+          },
+            this.alert('Preview of index page listing'),
+            this.indexView(title, formattedDate, preview),
+            h('br'),
+            this.alert('Preview of program update entry'),
+            this.entryView(title, formattedDate, body),
+          );
+        }
+      });
+
+      CMS.registerPreviewStyle('/assets/css/main.css');
+      CMS.registerPreviewTemplate('program_updates', ProgramUpdatePreview);
+    </script>
   </body>
 
 </html>

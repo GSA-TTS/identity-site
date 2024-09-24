@@ -3,13 +3,13 @@
 backend:
   name: github
   repo: GSA-TTS/identity-site
-  # TODO: Note, temporarily modified branch config for staging tests !
-  branch: LG-13754-program-updates-ui
+  # TODO: Note, staging override !
+  branch: LG-13755-program-updates
   base_url: https://pages.cloud.gov
   auth_endpoint: external/auth/github
   preview_context: pages/build
   use_graphql: true
-#
+
 # Uncomment when doing local development on Netlify CMS
 # Run `npx netlify-cms-proxy-server` to start working locally
 # In another terminal, start the app with `make build && make run`
