@@ -57,13 +57,19 @@ C’est vous qui décidez si vous souhaitez partager vos informations personnell
 
 Toutefois, le fait de ne pas fournir des informations complètes et exactes peut retarder l’accès à l’organisme partenaire. Login.gov n’effectue aucune détermination d’admissibilité ou d’aptitude ; cette responsabilité incombe aux sites Web gouvernementaux qui utilisent le service Login.gov.
 
-En dehors de ce qui est spécifié dans la présente politique de confidentialité et dans nos règles d’utilisation, nous ne partagerons jamais vos informations sans votre consentement. Vos données personnelles validées sont chiffrées et ne peuvent être partagées avec un organisme partenaire que si vous, l’utilisateur autorisé, saisissez votre mot de passe et consentez explicitement au partage de ces informations. Lorsque vous créez un compte ou que vous visitez le site Web d’une nouvel organisme partenaire après avoir créé votre compte, vous avez la possibilité de consentir au partage de vos informations avec l’organisme partenaire. Vous devez donner votre consentement tous les ans pour chaque organisme.
+En dehors de ce qui est spécifié dans la présente politique de confidentialité et dans nos règles d’utilisation, nous ne partagerons jamais vos informations sans votre consentement. Vos données personnelles validées sont chiffrées et ne peuvent être partagées avec un organisme partenaire que si vous, l’utilisateur autorisé, saisissez votre mot de passe et consentez explicitement au partage de ces informations. Les images de vos documents sont chiffrées et stockées de manière à n’être accessibles que si Login.gov et l’organisme concerné acceptent tous deux de les déchiffrer.
+
+Lorsque vous créez un compte ou que vous visitez le site Web d’une nouvel organisme partenaire après avoir créé votre compte, vous avez la possibilité de consentir au partage de vos informations avec l’organisme partenaire. Vous devez donner votre consentement tous les ans pour chaque organisme.
 
 N’oubliez pas que vous pouvez à tout moment mettre à jour vos informations personnelles, révoquer votre consentement ou supprimer entièrement votre compte à partir de la [page de votre compte](https://secure.login.gov/fr/account).
 
 ### Réduction du risque de fraude : comment arrêtons-nous les acteurs malveillants ? ### {#fraud}
 
 Il y a fraude lorsque quelqu’un qui se fait passer pour vous tente d’accéder à une organisme partenaire en utilisant vos informations Login.gov. Login.gov protège vos données des acteurs malveillants. Notre produit travaille avec des fournisseurs tiers de confiance pour s’assurer que c’est bien vous qui accédez à votre compte — et non une tierce personne qui se fait passer pour vous. Ces fournisseurs recherchent les changements et les risques dans le comportement de l’utilisateur qui pourraient indiquer une tentative de fraude.
+
+### Enregistrements : où trouver de plus amples informations ? ### {#records}
+
+Veuillez consulter l’avis relatif au système d’enregistrement de Login.gov ([GSA/TTS–1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records)).
 
 ### Analytique Web : d’autres données que nous recueillons ### {#analytics}
 
