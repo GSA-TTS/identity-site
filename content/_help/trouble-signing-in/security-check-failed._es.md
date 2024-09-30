@@ -4,8 +4,6 @@ title: Falló la comprobación de seguridad (reCAPTCHA)
 category: trouble-signing-in
 permalink: /es/help/trouble-signing-in/security-check-failed/
 order: 6
-exclude_from_nav: true
-sitemap: false
 ---
 
 Login.gov usa [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?hl=es){:class="usa-link--external"} para asegurarse de que sea usted, y no alguien que se hace pasar por usted, quien accede a su cuenta.

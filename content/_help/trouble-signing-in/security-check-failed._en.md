@@ -4,8 +4,6 @@ title: Security check failed (reCAPTCHA)
 category: trouble-signing-in
 permalink: /help/trouble-signing-in/security-check-failed/
 order: 6
-exclude_from_nav: true
-sitemap: false
 ---
 
 Login.gov uses [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?hl=en){:class="usa-link--external"} to ensure your account is being accessed by you — not someone pretending to be you.
