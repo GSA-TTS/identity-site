@@ -170,7 +170,7 @@ contact_page:
       personal_key: My personal key is not working
       personal_key_notification: I have received an alert about my personal key being used to sign in
       personal_key_setup: Personal key setup
-      phone_number_failure: My phone number doesn't match records
+      phone_number_failure: My phone number doesn’t match records
       piv_cac: I am having trouble using my PIV/CAC to sign in
       privacy_and_security: Privacy and security
       recaptcha_sign_in: I failed the security check while signing in
@@ -183,9 +183,9 @@ contact_page:
       seeing_errors: I’m seeing an error/blank screen when accessing Login.gov
       service_quality: Service quality
       site_navigation: I don’t know where to go to create an account
-      state_issued_id_error: My state-issued ID wasn't accepted
+      state_issued_id_error: My state-issued ID wasn’t accepted
       unwanted_otp: I am receiving security codes from Login.gov that I didn’t request
-      verify_identity_error: My SSN or address doesn't match records
+      verify_identity_error: My SSN or address doesn’t match records
       wrong_account_update: Wrong account update
     title: Submit a help ticket
     topics:

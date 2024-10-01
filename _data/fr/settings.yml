@@ -202,7 +202,8 @@ contact_page:
       site_navigation: Je ne sais pas sur quelle page aller pour créer un compte.
       state_issued_id_error: Ma pièce d’identité d’un État n’a pas été acceptée
       unwanted_otp: Je reçois des codes de sécurité de Login.gov que je n’ai pas demandés.
-      verify_identity_error: Mon numéro de sécurité sociale ou mon adresse ne correspondent pas aux informations stockées
+      verify_identity_error: Mon numéro de sécurité sociale ou mon adresse ne
+        correspondent pas aux informations stockées
       wrong_account_update: Actualisation du compte erronée
     title: Envoyer un ticket de demande d’assistance
     topics:
