@@ -17,7 +17,7 @@ order: 1
 1. 你的驾照或州颁发的身份证件。你可以通过手机或电脑上传你身份证件的照片。[没有州政府颁发的身份证件？](/zh/help/verify-your-identity/accepted-identification-documents/)
 2. 社会保障号码
 3. 你的电话号码
-   在某些情况下，您可以改用[邮局信件验证](/zh/help/verify-your-identity/verify-your-address-by-mail/)。
+   在某些情况下，你可以改用[邮局信件验证](/zh/help/verify-your-identity/verify-your-address-by-mail/)。
 4. 拍一张你本人的照片
    有的服务机构需要你用手机拍一张你本人的照片，来在网上验证你的身份。如果你没有带相机的手机，[可以亲身验证身份。](/zh/help/verify-your-identity/verify-your-identity-in-person/)
 
