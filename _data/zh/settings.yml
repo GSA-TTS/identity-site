@@ -176,7 +176,7 @@ contact_page:
       seeing_errors: 我登录Login.gov时看到的是出错/黑屏
       service_quality: 服务质量
       site_navigation: 我不知道到哪里去设立账户
-      state_issued_id_error: 我上传州颁发的身份证件后得到了出错信息
+      state_issued_id_error: 我的州颁发的身份证件没被接受
       unwanted_otp: 我在从Login.gov 收到安全代码，但我并没有要求这些代码
       verify_identity_error: 我试图验证身份时系统说失败
       wrong_account_update: 错误账户更新

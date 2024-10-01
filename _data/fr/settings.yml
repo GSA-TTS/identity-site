@@ -201,8 +201,7 @@ contact_page:
         Login.gov.
       service_quality: Qualité de service
       site_navigation: Je ne sais pas sur quelle page aller pour créer un compte.
-      state_issued_id_error: J’ai reçu un message d’erreur après avoir téléversé mon
-        document d’identité délivré par l’État.
+      state_issued_id_error: Ma pièce d’identité d’un État n’a pas été acceptée
       unwanted_otp: Je reçois des codes de sécurité de Login.gov que je n’ai pas demandés.
       verify_identity_error: J’ai reçu un message d’échec en essayant de confirmer mon identité.
       wrong_account_update: Actualisation du compte erronée

@@ -183,7 +183,7 @@ contact_page:
       seeing_errors: I’m seeing an error/blank screen when accessing Login.gov
       service_quality: Service quality
       site_navigation: I don’t know where to go to create an account
-      state_issued_id_error: I got an error after uploading my state-issued ID
+      state_issued_id_error: My state-issued ID wasn't accepted
       unwanted_otp: I am receiving security codes from Login.gov that I didn’t request
       verify_identity_error: I got a failure trying to verify my identity
       wrong_account_update: Wrong account update

@@ -189,7 +189,7 @@ contact_page:
       seeing_errors: Veo una pantalla de error/en blanco al acceder a Login.gov
       service_quality: Calidad del servicio
       site_navigation: No sé dónde ir para crear una cuenta
-      state_issued_id_error: Error después de cargar mi documento de identidad emitido por el estado
+      state_issued_id_error: No se aceptó mi identificación emitida por el estado
       unwanted_otp: Estoy recibiendo códigos de seguridad de Login.gov que no he solicitado
       verify_identity_error: Error al tratar de verificar mi identidad
       wrong_account_update: Actualización incorrecta de la cuenta
