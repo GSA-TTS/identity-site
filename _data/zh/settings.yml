@@ -178,7 +178,7 @@ contact_page:
       site_navigation: 我不知道到哪里去设立账户
       state_issued_id_error: 我的州颁发的身份证件没被接受
       unwanted_otp: 我在从Login.gov 收到安全代码，但我并没有要求这些代码
-      verify_identity_error: 我试图验证身份时系统说失败
+      verify_identity_error: 我的社会保障号码或地址与记录不符
       wrong_account_update: 错误账户更新
     title: 提交寻求帮助工单
     topics:

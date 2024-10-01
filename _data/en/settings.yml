@@ -185,7 +185,7 @@ contact_page:
       site_navigation: I don’t know where to go to create an account
       state_issued_id_error: My state-issued ID wasn't accepted
       unwanted_otp: I am receiving security codes from Login.gov that I didn’t request
-      verify_identity_error: I got a failure trying to verify my identity
+      verify_identity_error: My SSN or address doesn't match records
       wrong_account_update: Wrong account update
     title: Submit a help ticket
     topics:
