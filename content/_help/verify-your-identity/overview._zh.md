@@ -25,7 +25,7 @@ order: 0
   column2-image='/assets/img/help/verify-your-identity.svg'
   column2-header='验证身份需要什么'
   column2-bullets='驾照或州颁发的身份证件|社会保障号码|电话号码或地址'
-  column2-footer='要在网上验证身份，你可能需要用手机拍一张你本人的照片。'
+  column2-footer='要在网上验证身份，有的机构需要你用手机拍一张你本人的照片。'
   column2-class='padding-105 border border-info-light bg-info-lighter'
 %}
 
