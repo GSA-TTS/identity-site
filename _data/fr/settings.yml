@@ -164,8 +164,7 @@ contact_page:
       issue_with_partner_agency: Je rencontre un problème avec cet organisme partenaire.
       issues_with_face_touch_unlock: Je rencontre des problèmes avec l’emploi du
         déverrouillage facial ou tactile.
-      letter_in_mail: Je n’ai pas reçu mon courrier par la poste ou mon courrier n’est
-        plus valable.
+      letter_in_mail: Je n’ai pas reçu mon courrier par la poste ou mon courrier n’est plus
       locked_out: Mon compte est verrouillé.
       lost_2fa_method: J’ai perdu ma méthode d’authentification à deux facteurs.
       lost_access: J’ai perdu l’accès à mon téléphone ou à mon adresse e-mail.
