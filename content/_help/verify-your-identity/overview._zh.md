@@ -18,7 +18,7 @@ order: 0
   include components/two-column-image-bullet-list.html
 
   column1-image='/assets/img/help/create-an-account.svg'
-  column1-header='设立你的 Login.gov 账户'
+  column1-header='设立你的 Login.gov 账户需要什么'
   column1-bullets='电邮|密码|身份证实方法'
   column1-class='padding-105 border border-info-light'
 
