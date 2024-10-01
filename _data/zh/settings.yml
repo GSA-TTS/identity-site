@@ -163,7 +163,7 @@ contact_page:
       personal_key: 我的个人密钥不行
       personal_key_notification: 我收到了关于自己的个人密钥被用来登录的警报。
       personal_key_setup: 个人密钥设置
-      phone_number_failure: 我输入电话号码后系统说不行
+      phone_number_failure: 我的电话号码与记录不符
       piv_cac: 我用PIV/CAC 登录有问题
       privacy_and_security: 隐私与安全
       recover_account: 如果我没有自己的电话或个人密钥，如果登录账户？

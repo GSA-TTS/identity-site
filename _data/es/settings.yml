@@ -174,7 +174,7 @@ contact_page:
       personal_key_notification: He recibido una alerta sobre el uso de mi clave
         personal para iniciar sesión
       personal_key_setup: Configuración de clave personal
-      phone_number_failure: Error después de introducir mi número de teléfono
+      phone_number_failure: Mi número de teléfono no coincide con los registros
       piv_cac: Tengo problemas para utilizar mi tarjeta PIV o CAC para iniciar sesión
       privacy_and_security: Privacidad y seguridad
       recover_account: ¿Cómo inicio sesión en mi cuenta si no tengo mi teléfono ni mi

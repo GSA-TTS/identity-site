@@ -184,7 +184,7 @@ contact_page:
       personal_key_notification: J’ai reçu une alerte me notifiant que ma clé
         personnelle a servi pour une connexion.
       personal_key_setup: Paramétrage de la clé personnelle
-      phone_number_failure: J’ai reçu un message d’échec après avoir saisi mon numéro de téléphone.
+      phone_number_failure: Mon numéro de téléphone ne correspond pas aux informations stockées
       piv_cac: Je rencontre des difficultés pour me connecter avec ma carte PIV/CAC.
       privacy_and_security: Confidentialité et sécurité
       recover_account: Comment puis-je me connecter à mon compte si je n’ai pas mon
