@@ -166,6 +166,7 @@ contact_page:
       phone_number_failure: 我的电话号码与记录不符
       piv_cac: 我用PIV/CAC 登录有问题
       privacy_and_security: 隐私与安全
+      recaptcha_sign_in: 我登录时没通过安全检查
       recover_account: 如果我没有自己的电话或个人密钥，如果登录账户？
       remember_browser: 我设置了记住浏览器但仍在收到安全代码
       remember_device_issue: 我怎么能不再收到安全代码？

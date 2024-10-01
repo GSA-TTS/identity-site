@@ -177,6 +177,7 @@ contact_page:
       phone_number_failure: Mi número de teléfono no coincide con los registros
       piv_cac: Tengo problemas para utilizar mi tarjeta PIV o CAC para iniciar sesión
       privacy_and_security: Privacidad y seguridad
+      recaptcha_sign_in: Falló la comprobación de seguridad al iniciar sesión
       recover_account: ¿Cómo inicio sesión en mi cuenta si no tengo mi teléfono ni mi
         clave personal?
       remember_browser: He configurado la opción recordar el navegador pero sigo

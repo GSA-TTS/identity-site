@@ -187,6 +187,7 @@ contact_page:
       phone_number_failure: Mon numéro de téléphone ne correspond pas aux informations stockées
       piv_cac: Je rencontre des difficultés pour me connecter avec ma carte PIV/CAC.
       privacy_and_security: Confidentialité et sécurité
+      recaptcha_sign_in: Je n’ai pas réussi la vérification de sécurité en me connectant
       recover_account: Comment puis-je me connecter à mon compte si je n’ai pas mon
         téléphone ni une clé personnelle ?
       remember_browser: J’ai paramétré « Se souvenir de ce navigateur » mais je

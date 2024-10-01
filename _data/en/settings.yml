@@ -173,6 +173,7 @@ contact_page:
       phone_number_failure: My phone number doesn't match records
       piv_cac: I am having trouble using my PIV/CAC to sign in
       privacy_and_security: Privacy and security
+      recaptcha_sign_in: I failed the security check while signing in
       recover_account: How do I sign into my account if I dont have my phone or personal key?
       remember_browser: I set up remember browser but I’m still receiving security codes
       remember_device_issue: How do I stop receiving security codes?
