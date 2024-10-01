@@ -126,7 +126,7 @@ contact_page:
     reset: Clear form
     submit: Submit
     subtopics:
-      account_locked: My account is locked for 24 hours
+      account_locked: My account is locked for 6 hours
       add_family_member: How do I add a family member to my Login.gov account?
       agency_app: Agency app issue
       authentication_app: How do I change my authentication method?

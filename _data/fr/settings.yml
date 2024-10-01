@@ -130,7 +130,7 @@ contact_page:
     reset: Effacer le formulaire
     submit: Valider
     subtopics:
-      account_locked: Mon compte est verrouillé pendant 24 heures
+      account_locked: Mon compte est verrouillé pendant 6 heures
       add_family_member: Comment puis-je ajouter un membre de ma famille à mon compte Login.gov ?
       agency_app: Problème relevant de l’application de l’organisme
       authentication_app: Comment puis-je modifier ma méthode d’authentification ?
