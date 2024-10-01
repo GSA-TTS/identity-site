@@ -147,6 +147,7 @@ contact_page:
       device_notification: J’ai reçu une alerte au sujet d’une nouvelle connexion à
         mon compte Login.gov.
       email_delivery_issue: Je ne reçois pas l’e-mail de confirmation de la part de Login.gov.
+      facial_matching: La photo de mon visage n’a pas été acceptée
       feedback: J’ai des commentaires à propos de Login.gov.
       forgot_password: J’ai oublié mon mot de passe Login.gov et je ne parviens pas à
         le réinitialiser.

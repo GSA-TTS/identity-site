@@ -141,6 +141,7 @@ contact_page:
       delete_account: How do I delete my Login.gov account?
       device_notification: I have received an alert about a new sign in on my Login.gov account
       email_delivery_issue: I am not receiving the Login.gov confirmation email
+      facial_matching: My photo of my face was not accepted
       feedback: I have feedback about Login.gov
       forgot_password: I forgot my Login.gov password and can’t reset it
       how_to_create_with_verification: How do I create a Login.gov account with identity verification?

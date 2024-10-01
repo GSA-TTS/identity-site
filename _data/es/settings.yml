@@ -143,6 +143,7 @@ contact_page:
       device_notification: He recibido una alerta sobre un nuevo inicio de sesión en
         mi cuenta de Login.gov
       email_delivery_issue: No recibo el correo electrónico de confirmación de Login.gov
+      facial_matching: No se aceptó la foto de mi cara
       feedback: Tengo comentarios sobre Login.gov
       forgot_password: Olvidé mi contraseña de Login.gov y no puedo restablecerla
       how_to_create_with_verification: ¿Cómo creo una cuenta en Login.gov con verificación de identidad?

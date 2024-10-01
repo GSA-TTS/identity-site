@@ -134,6 +134,7 @@ contact_page:
       delete_account: 我如何删除自己的Login.gov账户？
       device_notification: 我收到了自己Login.gov账户有新登录情况的警报
       email_delivery_issue: 我收不到Login.gov的确认电邮
+      facial_matching: 我拍的自己的面部照片没被接受
       feedback: 我有关于Login.gov的反馈意见
       forgot_password: 我忘了自己的Login.gov密码而且无法重设
       how_to_create_with_verification: 我如何通过身份验证设立一个Login.gov 账户?
