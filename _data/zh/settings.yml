@@ -192,7 +192,7 @@ contact_page:
 feedback_form:
   'no': '没有'
   question: '这篇文章对你有帮助吗？'
-  'yes': 对
+  'yes': '有'
 global:
   language: 语言
   locales:
