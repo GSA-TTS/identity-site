@@ -39,6 +39,6 @@ Login.gov 不保存你身份证件的图像或你本人的照片。在与合作�
 
 [如何验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
 [系统接受的身份证件](/zh/help/verify-your-identity/accepted-identification-documents/)
-[如何添加你驾照或州颁发身份证件的图片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
+[如何拍你本人的照片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
 [验证你的电话号码](/zh/help/verify-your-identity/phone-number/)
 [通过普通邮件验证你的身份](/zh/help/verify-your-identity/verify-your-address-by-mail/)
