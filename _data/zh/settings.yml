@@ -290,7 +290,7 @@ nav:
   get_started: Get started # partners site does not require translations
   groups:
     about_login_gov: About Login.gov # partners site does not require translations
-    agencies: 针对机构的
+    agencies: 针对机构
     learn: 学习
     partners: For partners # partners site does not require translations
     support: 支持
