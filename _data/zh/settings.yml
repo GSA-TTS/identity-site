@@ -190,7 +190,7 @@ contact_page:
       signing_in: 登录进入你的 Login.gov 账户
       verifying_identity: 验证你的身份
 feedback_form:
-  'no': '不'
+  'no': '没有'
   question: '这篇文章对你有帮助吗？'
   'yes': 对
 global:
