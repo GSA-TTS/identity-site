@@ -6,23 +6,29 @@ order: 5
 redirect_from:
   - /es/help/verifying-your-identity/phone-plan-is-not-in-my-name-or-address/
   - /es/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
+can_verify_list:
+  - Número de casa
+  - Número del trabajo
+  - Número de teléfono móvil
+  - Número de teléfono fijo
+cannot_verify_list:
+  - Números internacionales y números en algunos territorios de EE.UU.
+  - Números de teléfono de Google Voice o de voz sobre protocolo de internet (VoIP) similares
+  - Números de tarifa especial
 ---
 Comparamos su número de teléfono con los registros para verificar su identidad. El número de teléfono que use para verificar su identidad debe ser de los Estados Unidos.
 
 Si ingresa su número principal (el que usa más a menudo), es más probable que logremos verificar su identidad.
 
 ## Puede verificar su identidad con su:
-- Número de casa
-- Número del trabajo
-- Número de teléfono móvil
-- Número de teléfono fijo
+
+{% include components/icon-list.html items=page.can_verify_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 Puede utilizar un teléfono celular de prepago para verificar su identidad. Sin embargo, algunos números de teléfono de prepago tienen factores de riesgo que pueden impedir la verificación de su identidad.
 
 ## No puede verificar su identidad con:
-- Números internacionales y números en algunos territorios de EE.UU.
-- Números de teléfono de Google Voice o de voz sobre protocolo de internet (VoIP) similares
-- Números de tarifa especial
+
+{% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
 
 ## Si no puede efectuar este paso:
 

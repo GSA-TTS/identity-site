@@ -4,8 +4,6 @@ title: 安全检查未通过 (reCAPTCHA)
 category: trouble-signing-in
 permalink: /zh/help/trouble-signing-in/security-check-failed/
 order: 6
-exclude_from_nav: true
-sitemap: false
 ---
 
 Login.gov 使用 [reCAPTCHA](https://cloud.google.com/security/products/recaptcha){:class="usa-link--external"} 来确保访问您账户的是您本人，而不是别人假冒您。

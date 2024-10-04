@@ -4,8 +4,6 @@ title: Échec du test de sécurité (reCAPTCHA)
 category: trouble-signing-in
 permalink: /fr/help/trouble-signing-in/security-check-failed/
 order: 6
-exclude_from_nav: true
-sitemap: false
 ---
 
 Login.gov emploie [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?hl=fr){:class="usa-link--external"} pour vérifier que c’est bien vous qui accédez à votre compte — et pas quelqu’un qui se fait passer pour vous.
