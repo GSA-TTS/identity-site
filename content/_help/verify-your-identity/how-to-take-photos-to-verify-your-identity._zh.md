@@ -168,7 +168,7 @@ Login.gov的一些合作伙伴机构可能会要求您拍摄自己的面部照�
 ### 给您自己拍照
 <div class="grid-row grid-gap margin-bottom-2">
   <div class="tablet:grid-col">
-    <img alt="人脸在绿色椭圆中手指点击面孔下的勾选标记来确认照片。" src="{{ site.baseurl }}/assets/img/help/preparing-to-take-your-photo/selfie-do-checkmark.png" />
+    <img alt="人脸在绿色椭圆中。手指点击面孔下的勾选标记来确认照片。" src="{{ site.baseurl }}/assets/img/help/preparing-to-take-your-photo/selfie-do-checkmark.png" />
   </div>
 </div>
 
