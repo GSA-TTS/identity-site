@@ -119,6 +119,7 @@ contact_page:
     reset: 清空表格
     submit: 提交
     subtopics:
+      account_deactivated: 我的账户已被停用
       account_locked: 我的账户被锁住6小时
       add_family_member: 我如何把家人添加到我的Login.gov账户？
       agency_app: 机构应用程序问题

@@ -127,6 +127,7 @@ contact_page:
     reset: Borrar formulario
     submit: Enviar
     subtopics:
+      account_deactivated: Mi cuenta fue desactivada
       account_locked: Mi cuenta está bloqueada por 6 horas
       add_family_member: ¿Cómo añado a un familiar a mi cuenta de Login.gov?
       agency_app: Problema con aplicación de la agencia
