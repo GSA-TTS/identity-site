@@ -21,8 +21,6 @@ component:
 
     * Global Entry (Programme pour les voyageurs dignes de confiance - Département de la sécurité intérieure)
 
-    * obtenir des prêts aux petites entreprises et une assistance en cas de catastrophe (Administration des petites entreprises)
-
     * Et davantage…
   col2: >-
     ## Accès privé sécurisé pour le public
