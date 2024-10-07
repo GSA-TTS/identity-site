@@ -14,10 +14,6 @@ component:
 
 
     * USAJOBS (Oficina de Administración de Personal)
-
-    * Programa de protección de pago (Agencia Federal de Pequeños Negocios)
-
-    * Programa de solicitudes de préstamos por desastre (Agencia Federal de Pequeños Negocios)
   col2: >-
     Login.gov cumple las [normas de seguridad](/es/policy/) más recientes
     establecidas por las principales organizaciones de seguridad, como el

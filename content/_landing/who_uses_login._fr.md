@@ -14,10 +14,6 @@ component:
 
 
     * USAJOBS (Bureau de la gestion du personnel)
-
-    * Programme de protection des salaires (Administration des petites entreprises)
-
-    * Programme de demandes de prêts en cas de catastrophe (Administration des petites entreprises)
   col2: >-
     Login.gov respecte les dernières [normes de sécurité](/fr/policy/)
     mises en place par les plus grandes organisations de sécurité, telles que
