@@ -21,7 +21,7 @@ component:
     * Federal jobs (USAJOBS  - Office of Personnel Management)
 
     * Global Entry (Trusted Traveler Programs - Department of Homeland Security)
-    
+
     * And more…
   col2: >-
     ## Secure and private access for the public
