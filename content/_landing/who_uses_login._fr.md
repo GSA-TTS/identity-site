@@ -9,11 +9,11 @@ component:
   col1: >-
     ## Nos partenaires
 
-
     Les organismes fédéraux partenaires proposent toute une gamme de services tels que :
 
-
     * USAJOBS (Bureau de la gestion du personnel)
+    * ADD TRANSLATION: My Social Security (Social Security Administration)
+    * VA.gov (Affairs département des Anciens Combattants)
   col2: >-
     Login.gov respecte les dernières [normes de sécurité](/fr/policy/)
     mises en place par les plus grandes organisations de sécurité, telles que

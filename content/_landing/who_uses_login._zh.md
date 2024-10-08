@@ -12,6 +12,8 @@ component:
     参与本项目的政府伙伴提供各种各样的服务，比如：
 
     * USAJOBS（联邦人事管理局）
+    * ADD TRANSLATION: My Social Security (Social Security Administration)
+    * VA.gov (退伍军人事务部)
   col2: >-
     Login.gov 遵守由最知名的安全机构建立的最新的[安全标准](/zh/policy/)，这些机构包括国家标准与技术研究院（[National Institute of Standards and Technology](https://www.nist.gov/)）、网络安全国家行动计划 （[Cybersecurity National Action Plan](https://www.hsdl.org/c/cybersecurity-national-action-plan/)）以及联邦采购服务局（[Federal Acquisition Service](https://www.gsa.gov/about-us/organization/federal-acquisition-service)）
 
