@@ -106,6 +106,10 @@
           'Backup codes',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.backup_codes | escape_quotes }}',
         ),
+        new TopicEntry(
+          'reCAPTCHA sign in',
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.recaptcha_sign_in | escape_quotes }}',
+        ),        
         // new TopicEntry(
         //   'Remember device issue',
         //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.remember_browser }}",
@@ -217,37 +221,45 @@
       '{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.verifying_identity | escape_quotes }}',
       [
         new TopicEntry(
-          'State-issued ID error',
+          'Photo Upload Issue',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.state_issued_id_error | escape_quotes }}',
         ),
         new TopicEntry(
-          'Failure trying to verify my identity',
+          'Failing at the SSN & Address step',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.verify_identity_error | escape_quotes }}',
         ),
         new TopicEntry(
-          'Failure after entering phone number',
+          'No phone number match',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.phone_number_failure | escape_quotes }}',
         ),
         new TopicEntry(
-          "Didn't receive letter in mail",
+          "Verify by mail",
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.letter_in_mail | escape_quotes }}',
         ),
         new TopicEntry(
-          'Account locked for 24 hours',
+          'Account locked for 6 hours',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.account_locked | escape_quotes }}',
+        ),
+        new TopicEntry(
+          'Facial matching',
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.facial_matching | escape_quotes }}',
         ),
         new TopicEntry(
           'In-Person Proofing',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.cant_proof_in_person | escape_quotes }}',
         ),
-        // new TopicEntry(
-        //   'Creating an Account in IAL2',
-        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_create_with_verification | escape_quotes}}",
-        // ),
-        // new TopicEntry(
-        //   'How/Why do I verify my identity?',
-        //   '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_verify | escape_quotes }}',
-        // ),
+        new TopicEntry(
+          'Creating an identity verified account',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_create_with_verification | escape_quotes}}",
+        ),
+        new TopicEntry(
+          'How/Why do I verify my identity?',
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_verify | escape_quotes }}',
+        ),
+        new TopicEntry(
+          'Password reset with lost personal key',
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.account_deactivated | escape_quotes }}',
+        ),        
         new TopicEntry(
           'Other',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other | escape_quotes }}',

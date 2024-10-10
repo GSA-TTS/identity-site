@@ -128,7 +128,8 @@ contact_page:
     reset: Borrar formulario
     submit: Enviar
     subtopics:
-      account_locked: Mi cuenta está bloqueada por 24 horas
+      account_deactivated: Mi cuenta fue desactivada
+      account_locked: Mi cuenta está bloqueada por 6 horas
       add_family_member: ¿Cómo añado a un familiar a mi cuenta de Login.gov?
       agency_app: Problema con aplicación de la agencia
       authentication_app: ¿Cómo cambio mi método de autenticación?
@@ -144,6 +145,7 @@ contact_page:
       device_notification: He recibido una alerta sobre un nuevo inicio de sesión en
         mi cuenta de Login.gov
       email_delivery_issue: No recibo el correo electrónico de confirmación de Login.gov
+      facial_matching: No se aceptó la foto de mi cara
       feedback: Tengo comentarios sobre Login.gov
       forgot_password: Olvidé mi contraseña de Login.gov y no puedo restablecerla
       how_to_create_with_verification: ¿Cómo creo una cuenta en Login.gov con verificación de identidad?
@@ -174,9 +176,10 @@ contact_page:
       personal_key_notification: He recibido una alerta sobre el uso de mi clave
         personal para iniciar sesión
       personal_key_setup: Configuración de clave personal
-      phone_number_failure: Error después de introducir mi número de teléfono
+      phone_number_failure: Mi número de teléfono no coincide con los registros
       piv_cac: Tengo problemas para utilizar mi tarjeta PIV o CAC para iniciar sesión
       privacy_and_security: Privacidad y seguridad
+      recaptcha_sign_in: Falló la comprobación de seguridad al iniciar sesión
       recover_account: ¿Cómo inicio sesión en mi cuenta si no tengo mi teléfono ni mi
         clave personal?
       remember_browser: He configurado la opción recordar el navegador pero sigo
@@ -188,9 +191,9 @@ contact_page:
       seeing_errors: Veo una pantalla de error/en blanco al acceder a Login.gov
       service_quality: Calidad del servicio
       site_navigation: No sé dónde ir para crear una cuenta
-      state_issued_id_error: Error después de cargar mi documento de identidad emitido por el estado
+      state_issued_id_error: No se aceptó mi identificación emitida por el estado
       unwanted_otp: Estoy recibiendo códigos de seguridad de Login.gov que no he solicitado
-      verify_identity_error: Error al tratar de verificar mi identidad
+      verify_identity_error: Mi número del Seguro Social o mi dirección no coinciden con los registros
       wrong_account_update: Actualización incorrecta de la cuenta
     title: Enviar un ticket de ayuda
     topics:
