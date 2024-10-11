@@ -12,7 +12,7 @@ component:
     Nuestros socios gubernamentales participantes ofrecen una variedad de servicios como:
 
     * USAJOBS (Oficina de Administración de Personal)
-    * ADD TRANSLATION: My Social Security (Social Security Administration)
+    * My Social Security (Administración del Seguro Social)
     * VA.gov (Departamento de Asuntos de los Veteranos)
   col2: >-
     Login.gov cumple las [normas de seguridad](/es/policy/) más recientes

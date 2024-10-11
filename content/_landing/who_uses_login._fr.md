@@ -12,7 +12,7 @@ component:
     Les organismes fédéraux partenaires proposent toute une gamme de services tels que :
 
     * USAJOBS (Bureau de la gestion du personnel)
-    * ADD TRANSLATION: My Social Security (Social Security Administration)
+    * My Social Security (Administration de la Sécurité sociale)
     * VA.gov (Affairs département des Anciens Combattants)
   col2: >-
     Login.gov respecte les dernières [normes de sécurité](/fr/policy/)
