@@ -63,7 +63,7 @@
     "vnu-jar": "^21.10.12"
   },
   "dependencies": {
-    "@18f/identity-address-search": "^3.1.1",
+    "@18f/identity-address-search": "^3.2.0",
     "@18f/identity-build-sass": "^3.0.0",
     "@18f/identity-components": "^2.0.0",
     "@18f/identity-design-system": "^9.0.0",
