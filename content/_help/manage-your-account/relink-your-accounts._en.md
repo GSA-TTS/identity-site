@@ -3,7 +3,7 @@ layout: help
 title: "Relink your accounts "
 category: manage-your-account
 permalink: /help/manage-your-account/relink-your-accounts/
-order: 8 
+order: 9
 redirect_from:
   - /en/help/manage-your-account/relink-your-accounts/
   - /help/creating-an-account/email-address-confirmation-link-is-invalid/

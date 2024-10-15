@@ -3,7 +3,7 @@ layout: help
 category: manage-your-account
 permalink: /fr/help/manage-your-account/relink-your-accounts/
 title: Relier vos comptes
-order: 8
+order: 9
 redirect_from:
   - /fr/help/creating-an-account/email-address-confirmation-link-is-invalid/
   - /fr/help/usajobs/how-do-I-relink-my-USAJOBS-profile-after-deleting-my-login-account/
