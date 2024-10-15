@@ -3,7 +3,7 @@ layout: help
 title: 国际电话号码支持
 category: manage-your-account
 permalink: /zh/help/manage-your-account/international-phone-support/
-order: 7 
+order: 8
 scripts:
   - /assets/js/country_support.js
 ---
