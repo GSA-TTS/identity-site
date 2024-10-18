@@ -22,9 +22,12 @@ Letters are sent the next business day via USPS First-Class Mail. The verificati
  * Your verification code has expired
 
 To request a new verification code:
+
 {: .number-list}
 1. Go to [https://secure.login.gov](https://secure.login.gov/).  
 2. Select “Send me another letter” when asked to enter your code.
+
+Contact the government agency you are verifying for if you need to access their services before your letter arrives.
 
 ## Related articles
 - [Verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
