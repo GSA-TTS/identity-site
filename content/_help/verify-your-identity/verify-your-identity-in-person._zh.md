@@ -104,3 +104,5 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 [我们接受的州政府颁发的身份证件。](/zh/help/verify-your-identity/accepted-identification-documents/)
 
 [在网上验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
+
+[找到一个参与本项目的邮局](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
