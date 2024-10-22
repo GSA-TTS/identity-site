@@ -13,7 +13,7 @@ component:
 
     * USAJOBS（联邦人事管理局）
 
-    * My Social Security (社会保障署)
+    * 我的社会保障（My Social Security）（社会保障局）
 
     * VA.gov (退伍军人事务部)
   col2: >-
