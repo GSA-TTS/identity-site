@@ -12,7 +12,7 @@ También puede tener la opción de verificar su identidad en persona si ya inten
 
 ## Inicie este proceso en Login.gov antes de acudir a la oficina de correos&nbsp;
 
-Antes de comenzar el proceso de verificación de identidad, elegirá entre hacer la verificación en línea o en persona. Si desea hacerla en persona, seleccione ‘Verifique su identidad en una oficina de correos’.
+Antes de comenzar el proceso de verificación de identidad, elegirá entre hacer la verificación en línea o en persona. Si desea hacerla en persona, seleccione "Verifique su identidad en una oficina de correos".
 
 Recuerde que también puede tener la opción de hacer la verificación en persona si intenta hacerla en línea, pero no lo logra.
 
