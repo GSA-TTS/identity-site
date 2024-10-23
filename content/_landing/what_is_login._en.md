@@ -22,8 +22,6 @@ component:
 
     * Global Entry (Trusted Traveler Programs - Department of Homeland Security)
 
-    * Small business loans and disaster assistance (Small Business Administration)
-
     * And more…
   col2: >-
     ## Secure and private access for the public

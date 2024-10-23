@@ -21,8 +21,6 @@ component:
 
     * Global Entry (Programas para viajeros de confianza, Departamento de Seguridad Nacional)
 
-    * Préstamos para pequeñas empresas y ayuda en caso de desastres (Agencia Federal de Pequeños Negocios)
-
     * Y más…
   col2: >-
     ## Acceso seguro y privado para el público
