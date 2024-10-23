@@ -9,15 +9,13 @@ component:
   col1: >-
     ## Nuestros asociados
 
-
     Nuestros socios gubernamentales participantes ofrecen una variedad de servicios como:
-
 
     * USAJOBS (Oficina de Administración de Personal)
 
-    * Programa de protección de pago (Agencia Federal de Pequeños Negocios)
+    * My Social Security (Administración del Seguro Social)
 
-    * Programa de solicitudes de préstamos por desastre (Agencia Federal de Pequeños Negocios)
+    * VA.gov (Departamento de Asuntos de los Veteranos)
   col2: >-
     Login.gov cumple las [normas de seguridad](/es/policy/) más recientes
     establecidas por las principales organizaciones de seguridad, como el
