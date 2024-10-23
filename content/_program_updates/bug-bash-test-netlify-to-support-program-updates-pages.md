@@ -1,7 +1,9 @@
 ---
 layout: partners/program-update
 lang: en
-title: Bug Bash Test - Netlify to support Program Updates pages
+title: "Bug Bash Test - Netlify to support Program Updates pages, Netlify will
+  serve as the primary graphical user interface for creating, placing, and
+  structuring files related to program update entries. "
 date: 2024-10-23T15:12:37.841Z
 preview: >-
   ## High level overview
