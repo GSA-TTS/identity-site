@@ -36,9 +36,9 @@ partner_content: >-
 report_issue_content: >-
   ## Report a security issue
 
-  To report a security vulnerability, review the [GSA vulnerability disclosure policy](https://www.gsa.gov/vulnerability-disclosure-policy) and submit your report through the [GSA Bug Bounty Program](https://hackerone.com/gsa_bbp).
+  To report a security vulnerability, review the [GSA vulnerability disclosure policy](https://www.gsa.gov/vulnerability-disclosure-policy) and submit your report through the [GSA Bug Bounty Program](https://hackerone.com/gsa_bbp){:class="usa-link--external"}.
 
-  To report a suspected Login.gov or Partner phishing site please [contact us](https://forms.gle/uj8NwiaDrieVHa466).
+  To report a suspected Login.gov or Partner phishing site please [contact us](https://forms.gle/uj8NwiaDrieVHa466){:class="usa-link--external"}.
 scripts:
   - /assets/js/contact.js
 permalink: /contact/
