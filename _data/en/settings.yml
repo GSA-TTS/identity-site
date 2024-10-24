@@ -296,8 +296,8 @@ nav:
         url: '#get-in-touch'
       - name: Partner with Login.gov
         url: '#partner-with-logingov'
-      - name: Report an issue
-        url: '#report-an-issue'
+      - name: Report a security issue
+        url: '#report-a-security-issue'
     title: Contact us
   create_an_account: Create an account
   developer_guide: Developer guide
