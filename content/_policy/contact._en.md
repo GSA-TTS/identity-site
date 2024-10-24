@@ -34,9 +34,11 @@ partner_content: >-
   Interested in using Login.gov at your agency? Please [visit our partners website](/partners/) or [contact us](/partners/business-inquiries/).
 
 report_issue_content: >-
-  ## Report an issue
+  ## Report a security issue
 
-  If you want to report an issue, please review our vulnerability disclosure policy [vulnerability disclosure policy](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/) and contact us using our [vulnerability disclosure form](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform).
+  To report a security vulnerability, review the [GSA vulnerability disclosure policy](https://www.gsa.gov/vulnerability-disclosure-policy) and submit your report through the [GSA Bug Bounty Program](https://hackerone.com/gsa_bbp).
+
+  To report a suspected Login.gov or Partner phishing site please [contact us](https://forms.gle/uj8NwiaDrieVHa466).
 scripts:
   - /assets/js/contact.js
 permalink: /contact/
