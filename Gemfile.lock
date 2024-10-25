@@ -17,10 +17,10 @@ GEM
     ffi (1.17.0)
     ffi (1.17.0-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
-    google-protobuf (4.27.1)
+    google-protobuf (4.27.5)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.27.1-x86_64-linux)
+    google-protobuf (4.27.5-x86_64-linux)
       bigdecimal
       rake (>= 13)
     html-proofer (3.19.4)
@@ -114,7 +114,7 @@ GEM
     typhoeus (1.4.1)
       ethon (>= 0.9.0)
     unicode-display_width (2.5.0)
-    webrick (1.8.1)
+    webrick (1.8.2)
     yell (2.2.2)
 
 PLATFORMS
