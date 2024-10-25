@@ -24,6 +24,8 @@ Para solicitar un nuevo código de verificación:
 1. Vaya a [https://secure.login.gov](https://secure.login.gov/es/).
 2. Cuando se le pida que introduzca su código, seleccione la opción "Enviarme otra carta".
 
+Contacte con la agencia de gobierno para la que está haciendo la verificación si necesita acceder a los servicios de esa agencia antes de que llegue su carta.
+
 ## Otros artículos
 
 - [Verifique su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
