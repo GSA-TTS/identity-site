@@ -18,9 +18,12 @@ order: 6
  * 你的验证码已过期
 
 要求一个新代码:
+
 {: .number-list}
 1. 到 [https://secure.login.gov](https://secure.login.gov/zh)。
 2. 当系统让你输入代码时，选择“给我再发一封信”。
+
+如果收到信件之前你需要访问为之做验证的政府机构的服务，请联系他们。
 
 ## 相关文章
 - [验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
