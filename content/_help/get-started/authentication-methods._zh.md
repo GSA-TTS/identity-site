@@ -41,7 +41,7 @@ order: 2
 
    * 安卓选项：[Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
    * iOS选项：[Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
-   * Windows app: [1Password](https://1password.com/), [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn).
+   * Windows app: [1Password](https://1password.com/), [OTP Manager](https://apps.microsoft.com/detail/9nblggh6hngn?hl=zh-cn&gl=US).
    * Mac app: [1Password](https://1password.com/), [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
    * Chrome 扩展程序: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en)
 

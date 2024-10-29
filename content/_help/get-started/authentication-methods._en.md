@@ -68,7 +68,7 @@ If you choose this secure option, follow these steps to download and install one
 
    * Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
    * iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
-   * Windows apps: [1Password](https://1password.com/), [OTP Manager](https://www.microsoft.com/en-us/store/p/otp-manager/9nblggh6hngn).
+   * Windows apps: [1Password](https://1password.com/), [OTP Manager](https://apps.microsoft.com/detail/9nblggh6hngn?hl=en-us&gl=US).
    * Mac apps: [1Password](https://1password.com/), [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
    * Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
 3. Open a new browser and sign in to your Login.gov account at <https://secure.login.gov/>.
@@ -99,7 +99,7 @@ To use this secure option for Login.gov authentication:
 
 ## Text message / Phone call
 
-Text messages/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers, and other attacks. 
+Text messages/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers, and other attacks.
 
 If you choose to use this less secure option, enter a phone number at which you can receive phone calls or text messages. If you only have a landline, you must receive your one-time code by phone call. Login.gov cannot send one-time codes to extensions or voicemails.
 
@@ -108,11 +108,11 @@ We will send a unique one-time code to that phone number each time you sign in t
 After you receive the code, type it into the “One-time code” field. Each time you sign in to Login.gov you’ll have the option of getting a new one-time code by phone call or by text. You will receive a new one-time code each time you sign in to your Login.gov account.
 
 <div id="didn-t-receive-your-one-time-code"> Didn’t receive your one time code?</div>
- 
-* Check that your device is turned on
-* Turn airplane mode off 
 
-Remember you need a mobile device to receive a one-time code by text message. If you have a landline, select to receive the one-time code by phone call instead. 
+* Check that your device is turned on
+* Turn airplane mode off
+
+Remember you need a mobile device to receive a one-time code by text message. If you have a landline, select to receive the one-time code by phone call instead.
 
 You can resend a one-time code by selecting using the "resend code" button
 
