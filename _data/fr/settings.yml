@@ -317,8 +317,8 @@ nav:
         url: '#contactez-nous'
       - name: Devenez partenaire de Login.gov
         url: '#devenez-partenaire-de-logingov'
-      - name: Signaler un problème
-        url: '#signaler-un-problème'
+      - name: Signaler un problème de sécurité
+        url: '#signaler-un-problème-de-sécurité'
     title: Nous contacter
   create_an_account: Créer un compte
   developer_guide: Guide du développeur
