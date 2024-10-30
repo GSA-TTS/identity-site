@@ -285,8 +285,8 @@ nav:
         url: '#联系'
       - name: 与 Login.gov 合作
         url: '#与-logingov-合作'
-      - name: 反映问题
-        url: '#反映问题'
+      - name: 报告安全问题
+        url: '#报告安全问题'
     title: 联系我们
   create_an_account: 设立账户
   developer_guide: 开发人员指南
