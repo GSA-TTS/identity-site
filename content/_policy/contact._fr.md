@@ -37,6 +37,7 @@ report_issue_content: >-
 
   Pour signaler une faille de sécurité, veuillez consulter la [politique de divulgation des vulnérabilités de la GSA](https://www.gsa.gov/vulnerability-disclosure-policy) puis envoyer un rapport par le biais du [Programme de primes à l'initiative de la GSA](https://hackerone.com/gsa_bbp){:class="usa-link--external"}.
 
+
   Pour signaler un site de phishing suspecté d’être lié à Login.gov ou à un site partenaire, veuillez [nous contacter](https://forms.gle/uj8NwiaDrieVHa466){:class="usa-link--external"}.
 scripts:
   - /assets/js/contact.js

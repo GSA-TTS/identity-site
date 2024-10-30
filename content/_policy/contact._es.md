@@ -37,7 +37,8 @@ report_issue_content: >-
   ## Informe de un problema de seguridad
 
   Para informar de una vulnerabilidad de seguridad, lea la [política de divulgación de vulnerabilidades](https://www.gsa.gov/vulnerability-disclosure-policy) y presente su informe por medio del [Bug Bounty Program de la GSA](https://hackerone.com/gsa_bbp){:class="usa-link--external"}.
-   
+
+
   [Contáctenos](https://forms.gle/uj8NwiaDrieVHa466){:class="usa-link--external"} para informar de una sospecha de phishing en el sitio de Login.gov o de un asociado.
 scripts:
   - /assets/js/contact.js
