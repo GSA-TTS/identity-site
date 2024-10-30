@@ -34,7 +34,7 @@ partner_content: >-
   ¿Está interesado en usar Login.gov en su agencia? [Visite el sitio web de nuestros asociados](/partners/) o [contacte con nosotros](/partners/business-inquiries/).
 
 report_issue_content: >-
-  ## Informe de un problema
+  ## Informe de un problema de seguridad
 
   Para informar de una vulnerabilidad de seguridad, lea la [política de divulgación de vulnerabilidades](https://www.gsa.gov/vulnerability-disclosure-policy) y presente su informe por medio del [Bug Bounty Program de la GSA](https://hackerone.com/gsa_bbp){:class="usa-link--external"}.
    

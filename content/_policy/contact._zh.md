@@ -34,7 +34,7 @@ partner_content: >-
   你的机构有兴趣使用 Login.gov？请[访问我们的合作伙伴网站](/partners/)或[联系我们](/partners/business-inquiries/)。
 
 report_issue_content: >-
-  ## 反映问题
+  ## 报告安全问题
 
   要报告安全漏洞，请查看 [GSA 漏洞披露政策](https://www.gsa.gov/vulnerability-disclosure-policy)并通过 [GSA Bug Bounty（漏洞奖赏）](https://hackerone.com/gsa_bbp){:class="usa-link--external"}计划提交您的报告。
 
