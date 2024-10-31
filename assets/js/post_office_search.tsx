@@ -42,6 +42,7 @@ export function render() {
           </Alert>
         )}
         usStatesTerritories={UsStatesTerritories}
+        resultsSectionHeading={() => <h2>Search results for Post Offices near you</h2>}
       />
     </form>,
   );
