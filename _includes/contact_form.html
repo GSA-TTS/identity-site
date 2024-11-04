@@ -1,10 +1,12 @@
 {% comment %} include: - common_applications: array of strings (translation keys) {% endcomment %}
+{% comment %}
 <!--
   This is some slightly modified code provided by the contact center to interact
   with their support ticket intake system
 -->
+{% endcomment %}
 <script language="javascript" type="text/javascript">
-  let topicID = '00NU0000004z903';
+  let topicID = '{{ site.contact_form_topic_id }}';
   let mappedValues = {
     'Signing In;New Account': { topic: 'Create Account', sub: 'New Account' },
   };
@@ -308,7 +310,7 @@
 
   function remapvalues(frm) {
     // Get the current values for topic and subtopic
-    let topic = document.getElementById('00NU0000004z903');
+    let topic = document.getElementById('{{ site.contact_form_topic_id }}');
     let sub = document.getElementById('sub-topic');
 
     let topicValue = topic.value;
@@ -316,7 +318,6 @@
 
     let key = topicValue + ';' + subValue;
 
-    // Do we have a mapping?
     if (mappedValues[key]) {
       sub.value = mappedValues[key].sub;
       topic.value = mappedValues[key].topic;
@@ -351,7 +352,6 @@
   }
 
   function dynamicdropdown(listindex) {
-    console.log(listindex);
     let sub = document.getElementById('sub-topic');
 
     let oldvalue = sub.value;
@@ -360,9 +360,7 @@
     let selectedIndex = 0;
 
     for (let i = 0; i < topicMap.length; i++) {
-      console.log(topicMap[i].key);
       if (topicMap[i].key === listindex) {
-        console.log(topicMap[i]);
         options.push(
           new Option(
             '{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue }}',
@@ -387,7 +385,6 @@
       sub.options[sub.options.length] = options[i];
     }
 
-    // sub.options = options;
     sub.selectedIndex = selectedIndex;
 
     return true;
@@ -396,8 +393,10 @@
   window.onload = populatetopics;
 
   function doNotAnswer() {
+{% comment %}
     // this will hide the display of the honeypot Field
     // more information found here. https://help.salesforce.com/articleView?id=pardot_forms_add_honeypot.htm
+{% endcomment %}
     const noAnswer = document.querySelector('#contact-us-form #information');
     if (noAnswer) {
       noAnswer.removeAttribute('required');
@@ -440,12 +439,12 @@
     </strong>
 
     <!-- START: Topic -->
-    <label class="usa-label" for="00NU0000004z903">
+    <label class="usa-label" for="{{ site.contact_form_topic_id }}">
       {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.topic }}<abbr title="{{ site.data.[page.lang].settings.contact_page.required }}" class="usa-hint usa-hint--required">*</abbr>
     </label>
     <select
-      id="00NU0000004z903"
-      name="00NU0000004z903"
+      id="{{ site.contact_form_topic_id }}"
+      name="{{ site.contact_form_topic_id }}"
       required
       onchange="dynamicdropdown(this.options[this.selectedIndex].value);"
       class="usa-select"
