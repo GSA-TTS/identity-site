@@ -6,7 +6,7 @@
 -->
 {% endcomment %}
 <script language="javascript" type="text/javascript">
-  let topicID = '{{ site.contact_form_topic_id }}';
+  let topicId = '{{ site.contact_form_topic_id }}';
   let mappedValues = {
     'Signing In;New Account': { topic: 'Create Account', sub: 'New Account' },
   };
@@ -308,9 +308,9 @@
     ),
   ];
 
-  function remapvalues(frm) {
+  function remapFormValues(frm) {
     // Get the current values for topic and subtopic
-    let topic = document.getElementById(topicID);
+    let topic = document.getElementById(topicId);
     let sub = document.getElementById('sub-topic');
 
     let topicValue = topic.value;
@@ -327,7 +327,7 @@
   }
 
   function populatetopics() {
-    let field = document.getElementById(topicID);
+    let field = document.getElementById(topicId);
     field.options.length = 0;
     field.options[0] = new Option(
       '{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_topic }}',
@@ -415,7 +415,7 @@
     id="contact-us-form"
     action="{{ site.contact_form_action }}"
     method="POST"
-    onSubmit="return remapvalues(this); return true;"
+    onSubmit="return remapFormValues(this); return true;"
     class="usa-form"
   >
     <input type="hidden" name="00NU0000004z90b" id="00NU0000004z90b" value="{{ site.data.language_map.languages[page.lang] | default: 'English' }}" />
