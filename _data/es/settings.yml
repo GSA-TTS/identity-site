@@ -228,7 +228,7 @@ help_page:
     - description: ¿Olvidó su contraseña? ¿Está bloqueado el acceso a su cuenta? Le
         ayudaremos a resolver los problemas de acceso.
       image: /assets/img/help/trouble-signing-in.svg
-      title: ¿Tiene problemas para iniciar sesión?
+      title: ¿Tiene problema para iniciar sesión?
       url: /es/help/trouble-signing-in/overview/
     - description: Cambie la configuración de su cuenta, su contraseña, número de
         teléfono, correo electrónico y más.
@@ -250,7 +250,7 @@ help_subpages:
   get-started: Empiece a utilizar Login.gov
   manage-your-account: Administre su cuenta
   specific-agencies: Ayuda con agencias específicas
-  trouble-signing-in: ¿Tiene problemas para iniciar sesión?
+  trouble-signing-in: ¿Tiene problema para iniciar sesión?
   verify-your-identity: Verifique su identidad
 identifier:
   accessible_labels:
