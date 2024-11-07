@@ -13,7 +13,7 @@ general_accordion:
         id: a-1
         title: Who has Login.gov partnered with?
         content: >-
-            Login.gov has over 50 partners. Our product is integrated with over 450 live applications and services including 12 Cabinet-level agencies. 
+            Login.gov has over 50 partners including federal, state, and local government agencies. Our product is integrated with over 500 applications.
     -
         id: a-2
         title: How many people have signed up to use Login.gov?
