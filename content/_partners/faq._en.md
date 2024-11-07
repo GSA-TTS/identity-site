@@ -132,4 +132,26 @@ development_accordion:
             For OIDC: <a href="https://developers.login.gov/oidc/authorization/" class="external-link">https://developers.login.gov/oidc/authorization/</a>
 
             For SAML: <a href="https://developers.login.gov/saml/authentication/" class="external-link">https://developers.login.gov/saml/authentication/</a>
+    -
+        id: c-8
+        title: How does Login.gov help with agencies’ “Zero Trust” strategy?
+        content: >-
+            Login.gov can help agencies implement specific controls described in <a href="https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf" class="external-link">OMB M-22-09</a>, which provides guidance on the “Zero-Trust” Executive Order. According to that memo, agencies must use strong MFA throughout their enterprise:
+
+            - MFA must be enforced at the application layer, instead of the network layer.
+
+            - Phishing-resistant MFA is required for agency staff, contractors, and partners.
+
+            - For public users, phishing-resistant MFA must be an option.
+
+            - Password policies must not require use of special characters or regular rotation.
+
+
+            Login.gov’s implementation supports these needs in the following ways:
+
+            - For agency applications: Login.gov supports an authentication request that requires a user to authenticate with a phishing-resistant MFA supported by Login.gov–such as face/touch unlock, security key, or PIV/CAC card.
+
+            - For public applications: By default, Login.gov provides phishing-resistant MFA as an option.
+
+            - Login.gov password policies meet the latest guidelines as per NIST 800-63B 5.1.1.2, including the requirements mentioned in OMB M-22-09.
 ---
