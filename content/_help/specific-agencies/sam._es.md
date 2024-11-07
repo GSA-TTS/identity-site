@@ -27,7 +27,7 @@ Login.gov solo puede responder las preguntas sobre el proceso de inicio de sesi�
 
 Contacte directamente con [SAM.gov](https://sam.gov/) si tiene pregunta relacionada con:
 
-* [¿Cómo puedo ver mi registro de identificador único de entidad (UEID) o registro de entidad?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=27a95ddfdb73b990a8cb4a39139619e9)
+* [¿Cómo puedo ver mi registro de identificador único de entidad (UEID) o registro de entidad?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
 * Administración de entidad
   * [¿Cómo puedo obtener la función de administrador de entidad?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=923dcc781b3a6d502fe5ed7ae54bcbe9)
   * [¿Cómo puedo actualizar o renovar una administración de entidad en SAM.gov?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=707404621b327d90860e62cfe54bcb58)
