@@ -18,9 +18,7 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
   * [我如何成为实体管理员？](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016652)
   * [我如何在SAM.gov更新实体管理？](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016307)
 * 电邮地址和你的Login.gov 账户
-  * [如果我的公司改了我的电邮地址，我该怎么办？](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=6d69d674879b355065b70ed40cbb35e9)
-  * [我已在Login.gov 更新了自己的电邮地址，但为什么无法登入SAM.gov 或接受一次性代码（OTP）？](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=da7c0c411bcdfd142fe5ed7ae54bcb4c)
-  * [如果我更改自己在Login.gov 的电邮地址，对SAM.gov登录权限会有什么影响？](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=9f6f9c311b6d7150c5c4dd39bc4bcb22)
+  * [如果我更改自己在Login.gov 的电邮地址，对SAM.gov登录权限会有什么影响？](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0020259)
 
 要更改你的 SAM.gov 账户资料，需在 <https://sam.gov> 登录。
 
