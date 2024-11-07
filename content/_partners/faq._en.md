@@ -18,7 +18,7 @@ general_accordion:
         id: a-2
         title: How many people have signed up to use Login.gov?
         content: >-
-            As of December 31, 2023, over 111 million people have signed up to use Login.gov to date, with over 324 million sign-ins in 2023.
+            As of October 2024, Login.gov has over 100 million user accounts with more than 300 million sign-ins annually.
     -
         id: a-3
         title: Is Login.gov a federal agency?
