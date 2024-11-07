@@ -109,4 +109,27 @@ development_accordion:
         title: Do you integrate with Commercial Off-The-Shelf (COTS) solutions?
         content: >-
             Login.gov supports any platform that uses either the SAML or OpenID Connect (OIDC) protocol.
+    -
+        id: c-7
+        title: Can a partner application limit the types of MFA available?
+        content: >-
+            Yes, partners can configure an app to restrict MFA using one of these options: 
+
+            - Users can choose any MFA option supported by Login.gov;
+
+            - Users must sign in with a phishing-resistant MFA option. Login.gov supports the following phishing-resistant options: Face/touch unlock, security key (such as yubikeys), and PIV/CAC cards; or
+
+            - Users must sign in with a PIV/CAC card.
+
+            The default setting can be configured per application on the partner dashboard, and it can be overridden on a per-request basis.
+
+
+
+            To override the default setting, or to set it within the authentication request, please refer to our developer documentation, under the "Authentication Assurance (AAL) Values" dropdown.
+
+
+
+            For OIDC: <a href="https://developers.login.gov/oidc/authorization/" class="external-link">https://developers.login.gov/oidc/authorization/</a>
+
+            For SAML: <a href="https://developers.login.gov/saml/authentication/" class="external-link">https://developers.login.gov/saml/authentication/</a>
 ---
