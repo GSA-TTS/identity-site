@@ -15,7 +15,7 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 
 * [我如何看自己的独特实体身份证件（UEID）或实体注册记录？](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
 * 实体管理
-  * [我如何成为实体管理员？](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=923dcc781b3a6d502fe5ed7ae54bcbe9)
+  * [我如何成为实体管理员？](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016652)
   * [我如何在SAM.gov更新实体管理？](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=707404621b327d90860e62cfe54bcb58)
 * 电邮地址和你的Login.gov 账户
   * [如果我的公司改了我的电邮地址，我该怎么办？](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=6d69d674879b355065b70ed40cbb35e9)

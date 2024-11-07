@@ -30,7 +30,7 @@ Please contact [SAM.gov](https://sam.gov/) directly if you have questions regard
 
 * [How do I view my Unique Entity ID (UEID) or entity registration record?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
 * Entity administration
-  * [How do I become an entity administrator?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=923dcc781b3a6d502fe5ed7ae54bcbe9)
+  * [How do I become an entity administrator?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016652)
   * [How do I update/renew an entity administration in SAM.gov?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=707404621b327d90860e62cfe54bcb58)
 * Email addresses and your Login.gov account
   * [What do I do if my company changes my email address?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=6d69d674879b355065b70ed40cbb35e9)
