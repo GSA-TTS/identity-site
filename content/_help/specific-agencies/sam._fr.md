@@ -30,7 +30,7 @@ Veuillez contacter directement [SAM.gov](https://sam.gov/) si vous avez des ques
 * [Comment puis-je voir mon identifiant unique d'entité (UEID) ou l’enregistrement de l’inscription de mon entité?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
 * Administration de l’entité
   * [Comment puis-je devenir administrateur d’une entité?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016652)
-  * [Comment puis-je actualiser/renouveler l’administration d’une entité dans SAM.gov?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=707404621b327d90860e62cfe54bcb58)
+  * [Comment puis-je actualiser/renouveler l’administration d’une entité dans SAM.gov?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016307)
 * Les adresses e-mail et votre compte Login.gov
   * [Que dois-je faire si mon entreprise modifie mon adresse e-mail?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=6d69d674879b355065b70ed40cbb35e9)
   * [J’ai mis à jour mon adresse e-mail dans Login.gov ; pourquoi ne puis-je pas me connecter sur SAM.gov ni recevoir mon code d’accès à usage unique (OTP)?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=da7c0c411bcdfd142fe5ed7ae54bcb4c)

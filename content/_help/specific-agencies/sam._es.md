@@ -30,7 +30,7 @@ Contacte directamente con [SAM.gov](https://sam.gov/) si tiene pregunta relacion
 * [¿Cómo puedo ver mi registro de identificador único de entidad (UEID) o registro de entidad?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
 * Administración de entidad
   * [¿Cómo puedo obtener la función de administrador de entidad?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016652)
-  * [¿Cómo puedo actualizar o renovar una administración de entidad en SAM.gov?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=707404621b327d90860e62cfe54bcb58)
+  * [¿Cómo puedo actualizar o renovar una administración de entidad en SAM.gov?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016307)
 * Direcciones de correo electrónico y su cuenta de Login.gov
   * [¿Qué hago si mi compañía cambia mi dirección de correo electrónico?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=6d69d674879b355065b70ed40cbb35e9)
   * [Si actualicé mi dirección de correo electrónico en Login.gov, ¿por qué no puedo iniciar sesión en SAM.gov ni recibir mi contraseña de un solo uso (OTP)?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=da7c0c411bcdfd142fe5ed7ae54bcb4c)
