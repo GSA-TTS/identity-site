@@ -65,10 +65,10 @@ Assurance levels can be general or specific. <a href="https://pages.nist.gov/800
 ### Guidance on assurance levels from OMB and NIST
 Determining the right level of identity assurance is an important consideration when integrating your use case with Login.gov. This ensures you strike the appropriate balance between usability and identity fraud mitigation. It also ensures you are compliant. <a href="https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf" class="external-link">OMB Memo 19-17</a> requires agencies to incorporate Digital Identity Risk Management (DIRA) as defined in <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf" class="external-link">NIST Special Publication 800-63</a> into their processes. The ICAM Subcommittee developed a <a href="https://www.idmanagement.gov/playbooks/dira/" class="external-link">playbook</a> that outlines a Digital Identity Risk Assessment (DIRA) process to help federal agency Chief Information Officer (CIO) and Chief Information Security Officer (CISO) teams and business application owners: 
 
-- Update and maintain consistent processes; 
-- Determine whether an agency application requires a DIRA; 
-- Integrate DIRA into agency Risk Management Framework (RMF) processes; and 
-- Learn practices to implement DIRA processes.
+1. Update and maintain consistent processes; 
+2. Determine whether an agency application requires a DIRA; 
+3. Integrate DIRA into agency Risk Management Framework (RMF) processes; and 
+4. Learn practices to implement DIRA processes.
 
 ### What Identity Assurance Level (IAL) does your application need?
 
