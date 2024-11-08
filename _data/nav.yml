@@ -18,6 +18,7 @@ partners:
       policies: '$BASE_URL/policy/'
       what_is_login_gov: '$BASE_URL/about-us/'
     partners:
+      determining_your_assurance_level: '$BASE_URL/partners/determining-your-assurance-level/'
       developer_guide: 'https://developers.login.gov'
       get_started: '$BASE_URL/partners/get-started/'
       security_experience: '$BASE_URL/partners/security-experience/'
