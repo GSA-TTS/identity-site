@@ -42,7 +42,9 @@ export function render() {
           </Alert>
         )}
         usStatesTerritories={UsStatesTerritories}
-        resultsSectionHeading={() => <h2>Search results for Post Offices near you</h2>}
+        resultsSectionHeading={() => (
+          <h2>{t('in_person_proofing.body.location.po_search.results_heading')}</h2>
+        )}
       />
     </form>,
   );
