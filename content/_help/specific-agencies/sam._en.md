@@ -28,7 +28,7 @@ Login.gov can only answer questions about the sign-in process and creating a Log
 
 Please contact [SAM.gov](https://sam.gov/) directly if you have questions regarding:
 
-* [How do I view my Unique Entity ID (UEID) or entity registration record?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
+* [How do I view my Unique Entity ID or entity registration record?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
 * Entity administration
   * [How do I become an entity administrator?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016652)
   * [How do I update/renew an entity administration in SAM.gov?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016307)

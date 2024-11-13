@@ -27,7 +27,7 @@ Login.gov ne peut répondre qu'aux questions concernant la création d'un compte
 
 Veuillez contacter directement [SAM.gov](https://sam.gov/) si vous avez des questions concernant:
 
-* [Comment puis-je voir mon identifiant unique d'entité (UEID) ou l’enregistrement de l’inscription de mon entité?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
+* [Comment puis-je voir mon identifiant unique d'entité ou l’enregistrement de l’inscription de mon entité?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
 * Administration de l’entité
   * [Comment puis-je devenir administrateur d’une entité?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016652)
   * [Comment puis-je actualiser/renouveler l’administration d’une entité dans SAM.gov?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016307)

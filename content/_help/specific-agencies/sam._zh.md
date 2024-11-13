@@ -13,7 +13,7 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 
 如果你有事关以下内容的问题，请直接联系 [SAM.gov:](https://sam.gov/)
 
-* [我如何看自己的独特实体身份证件（UEID）或实体注册记录？](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
+* [我如何看自己的独特实体身份证件或实体注册记录？](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
 * 实体管理
   * [我如何成为实体管理员？](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016652)
   * [我如何在SAM.gov更新实体管理？](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016307)
