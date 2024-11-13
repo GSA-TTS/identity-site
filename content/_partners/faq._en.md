@@ -121,6 +121,7 @@ development_accordion:
 
             - Users must sign in with a PIV/CAC card.
 
+
             The default setting can be configured per application on the partner dashboard, and it can be overridden on a per-request basis.
 
 
