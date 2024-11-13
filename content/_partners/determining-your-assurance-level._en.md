@@ -16,9 +16,9 @@ Assurance levels can be general or specific. <a href="https://pages.nist.gov/800
 <table class="usa-table margin-bottom-4">
   <thead>
     <tr>
-      <th scope="col"><b>Assurance Level Type</b></th>
-      <th scope="col"><b>Authentication Assurance Level (AAL)</b></th>
-      <th scope="col"><b>Identity Assurance Level (IAL)</b></th>
+      <th scope="col">Assurance Level Type</th>
+      <th scope="col">Authentication Assurance Level (AAL)</th>
+      <th scope="col">Identity Assurance Level (IAL)</th>
     </tr>
   </thead>
   <tbody>
