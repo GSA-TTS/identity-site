@@ -11,53 +11,26 @@ development_section_title: >-
 general_accordion:
     -
         id: a-1
-        title: What is the benefit of partnering with Login.gov?
-        content: >
-            <h4 class="accordion-list-headings">For your agency:</h4>
-
-            - Implementation support for your team from integration to launch
-
-            - Technical troubleshooting after launch and user support
-
-            - High availability and uptime
-
-            - Secure two-factor authentication (2FA) backed by a FedRAMP Moderate ATO, which helps your agency meet the President’s “Executive Order on Improving the Nation’s Cybersecurity”
-
-            - Reduced costs through economies of scale across government
-
-            - A platform that stays up to date with current authentication and identity policies and technologies, without additional effort required from your agency
-
-            <h4 class="accordion-list-headings">For your end-users:</h4>
-
-            - One account to access all their websites and applications - eliminating the need to remember multiple passwords and usernames
-
-            - A secure and private authentication experience
-
-            - A simplistic, plain language user experience
-
-            - Simple account management, online help center and responsive user support
-    -
-        id: a-2
         title: Who has Login.gov partnered with?
         content: >-
-            Login.gov has over 50 partners. Our product is integrated with over 450 live applications and services including 12 Cabinet-level agencies. 
+            Login.gov has over 50 partners including federal, state, and local government agencies. Our product is integrated with over 500 applications.
     -
-        id: a-3
+        id: a-2
         title: How many people have signed up to use Login.gov?
         content: >-
-            As of December 31, 2023, over 111 million people have signed up to use Login.gov to date, with over 324 million sign-ins in 2023.
+            As of October 2024, Login.gov has over 100 million user accounts with more than 300 million sign-ins annually.
     -
-        id: a-4
+        id: a-3
         title: Is Login.gov a federal agency?
         content: >-
             Login.gov is not a standalone federal agency. We are a program of the [General Services Administration](https://www.gsa.gov/) (GSA), an agency of the U.S. federal government. The program is run by the [Technology Transformation Services](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services) (TTS), a group that leads the digital transformation of the federal government by helping agencies build, buy, and share technology that allows them to provide more accessible, efficient, and effective products and services for the American people.
     -
-        id: a-5
+        id: a-4
         title: Does Login.gov partner with state, local, and territory governments?
         content: >-
             Yes, Login.gov partners with state, local, and territory governments. These government entities need simple and secure solutions to help the public access services and resources, and with this partnership, they can leverage Login.gov to create a seamless and secure sign-in experience for the public to access these services and resources. [Learn more about the path to partnership](/partners/state-and-local/){:class="usa-nav_link caret"}
     -
-        id: a-6
+        id: a-5
         title: How do we partner with Login.gov?
         content: >-
             [Contact our Partnerships Team to get started](/partners/business-inquiries/){:class="external-link"}. We’ll work with you to understand and capture your needs and requirements at a high level. Together, we’ll decide whether Login.gov makes sense for your particular agency and use case. If we decide to move forward, the next step is to sign an [Interagency Agreement (IAA)](/partners/get-started/#interagency-agreement-iaa-process). This signals a mutual commitment which allows us to commit further resources to technical discovery and integration and migration planning.
@@ -136,4 +109,50 @@ development_accordion:
         title: Do you integrate with Commercial Off-The-Shelf (COTS) solutions?
         content: >-
             Login.gov supports any platform that uses either the SAML or OpenID Connect (OIDC) protocol.
+    -
+        id: c-7
+        title: Can a partner application limit the types of MFA available?
+        content: >-
+            Yes, partners can configure an app to restrict MFA using one of these options: 
+
+            - Users can choose any MFA option supported by Login.gov;
+
+            - Users must sign in with a phishing-resistant MFA option. Login.gov supports the following phishing-resistant options: Face/touch unlock, security key (such as yubikeys), and PIV/CAC cards; or
+
+            - Users must sign in with a PIV/CAC card.
+
+
+            The default setting can be configured per application on the partner dashboard, and it can be overridden on a per-request basis.
+
+
+
+            To override the default setting, or to set it within the authentication request, please refer to our developer documentation, under the "Authentication Assurance (AAL) Values" dropdown.
+
+
+
+            For OIDC: <a href="https://developers.login.gov/oidc/authorization/" class="external-link">https://developers.login.gov/oidc/authorization/</a>
+
+            For SAML: <a href="https://developers.login.gov/saml/authentication/" class="external-link">https://developers.login.gov/saml/authentication/</a>
+    -
+        id: c-8
+        title: How does Login.gov help with agencies’ “Zero Trust” strategy?
+        content: >-
+            Login.gov can help agencies implement specific controls described in <a href="https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf" class="external-link">OMB M-22-09</a>, which provides guidance on the “Zero-Trust” Executive Order. According to that memo, agencies must use strong MFA throughout their enterprise:
+
+            - MFA must be enforced at the application layer, instead of the network layer.
+
+            - Phishing-resistant MFA is required for agency staff, contractors, and partners.
+
+            - For public users, phishing-resistant MFA must be an option.
+
+            - Password policies must not require use of special characters or regular rotation.
+
+
+            Login.gov’s implementation supports these needs in the following ways:
+
+            - For agency applications: Login.gov supports an authentication request that requires a user to authenticate with a phishing-resistant MFA supported by Login.gov–such as face/touch unlock, security key, or PIV/CAC card.
+
+            - For public applications: By default, Login.gov provides phishing-resistant MFA as an option.
+
+            - Login.gov password policies meet the latest guidelines as per NIST 800-63B 5.1.1.2, including the requirements mentioned in OMB M-22-09.
 ---
