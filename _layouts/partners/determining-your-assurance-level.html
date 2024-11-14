@@ -1,0 +1,25 @@
+---
+layout: base
+---
+<header>
+  {% include skip_nav.html %}
+  {% include banner.html %}
+  {% include partners/header.html %}
+</header>
+<main id="main-content">
+    <section>
+        <div class="container partners-container" id="assurance-level">
+            <div class="grid-row">
+                <h1 class="partners-title">{{ page.title }}</h1>
+                <div class="tablet:grid-col-12 partners-border"></div>
+            </div>
+            <div class="grid-row">
+                <div class="partners-body tablet:grid-col-12">
+                  {{ content }}
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% include partners/partners-banner.html %}
+{% include partners/footer.html %}
