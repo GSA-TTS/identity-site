@@ -7,9 +7,9 @@ title: >-
 
 ## About assurance levels
 
-Assurance levels (also called “Service levels,” or “<a href="https://csrc.nist.gov/glossary/term/identity_assurance_level" class="external-link">Levels of Assurance</a>”) is a general term referring to the trustworthiness of a given transaction. Assurance levels are considered essential components of identity systems, due to the underlying complexity of identity verification processes. Generally, the higher the Service Levels, the greater the trustworthiness of the authentication and verification processes that occurred for a specific transaction and identity. 
+Assurance levels (also called “Service levels,” or “<a href="https://csrc.nist.gov/glossary/term/identity_assurance_level" class="usa-link--external">Levels of Assurance</a>”) is a general term referring to the trustworthiness of a given transaction. Assurance levels are considered essential components of identity systems, due to the underlying complexity of identity verification processes. Generally, the higher the Service Levels, the greater the trustworthiness of the authentication and verification processes that occurred for a specific transaction and identity. 
 
-Assurance levels can be general or specific. <a href="https://pages.nist.gov/800-63-FAQ/#q-1" class="external-link">NIST’s 800-63 publication</a> previously was a monolithic Level of Assurance (LOA) in revisions 1 and 2. Revision 3, the current version, distinguishes between the level of confidence in an identity proofing process (IAL), authentication assurance level (AAL), and federation assurance level (FAL).
+Assurance levels can be general or specific. <a href="https://pages.nist.gov/800-63-FAQ/#q-1" class="usa-link--external">NIST’s 800-63 publication</a> previously was a monolithic Level of Assurance (LOA) in revisions 1 and 2. Revision 3, the current version, distinguishes between the level of confidence in an identity proofing process (IAL), authentication assurance level (AAL), and federation assurance level (FAL).
 
 **Examples:**
 
@@ -42,14 +42,14 @@ Assurance levels can be general or specific. <a href="https://pages.nist.gov/800
       <td>
         <a
           href="https://pages.nist.gov/800-63-3/sp800-63b.html"
-          class="external-link"
+          class="usa-link--external"
           >NIST SP 800-63B</a
         >
       </td>
       <td>
         <a
           href="https://pages.nist.gov/800-63-3/sp800-63a.html"
-          class="external-link"
+          class="usa-link--external"
           >NIST SP 800-63A</a
         >
       </td>
@@ -63,7 +63,7 @@ Assurance levels can be general or specific. <a href="https://pages.nist.gov/800
 </table>
 
 ### Guidance on assurance levels from OMB and NIST
-Determining the right level of identity assurance is an important consideration when integrating your use case with Login.gov. This ensures you strike the appropriate balance between usability and identity fraud mitigation. It also ensures you are compliant. <a href="https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf" class="external-link">OMB Memo 19-17</a> requires agencies to incorporate Digital Identity Risk Management (DIRA) as defined in <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf" class="external-link">NIST Special Publication 800-63</a> into their processes. The ICAM Subcommittee developed a <a href="https://www.idmanagement.gov/playbooks/dira/" class="external-link">playbook</a> that outlines a Digital Identity Risk Assessment (DIRA) process to help federal agency Chief Information Officer (CIO) and Chief Information Security Officer (CISO) teams and business application owners: 
+Determining the right level of identity assurance is an important consideration when integrating your use case with Login.gov. This ensures you strike the appropriate balance between usability and identity fraud mitigation. It also ensures you are compliant. <a href="https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf" class="usa-link--external">OMB Memo 19-17</a> requires agencies to incorporate Digital Identity Risk Management (DIRA) as defined in <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf" class="usa-link--external">NIST Special Publication 800-63</a> into their processes. The ICAM Subcommittee developed a <a href="https://www.idmanagement.gov/playbooks/dira/" class="usa-link--external">playbook</a> that outlines a Digital Identity Risk Assessment (DIRA) process to help federal agency Chief Information Officer (CIO) and Chief Information Security Officer (CISO) teams and business application owners: 
 
 1. Update and maintain consistent processes; 
 2. Determine whether an agency application requires a DIRA; 
@@ -72,7 +72,7 @@ Determining the right level of identity assurance is an important consideration 
 
 ### What Identity Assurance Level (IAL) does your application need?
 
-If your application has an account, we recommend you complete the Digital Identity Risk Management (DIRA) <a href="https://www.idmanagement.gov/playbooks/dira/" class="external-link">process</a> to determine IAL-level according to NIST 800-63 revision 3. We’ve extrapolated the following from the <a href="https://www.idmanagement.gov/playbooks/dira/#play-4-shortcut-decision-trees" class="external-link">DIRA shortcut guide</a>:
+If your application has an account, we recommend you complete the Digital Identity Risk Management (DIRA) <a href="https://www.idmanagement.gov/playbooks/dira/" class="usa-link--external">process</a> to determine IAL-level according to NIST 800-63 revision 3. We’ve extrapolated the following from the <a href="https://www.idmanagement.gov/playbooks/dira/#play-4-shortcut-decision-trees" class="usa-link--external">DIRA shortcut guide</a>:
 
 **Login.gov’s Authentication-only service (IAL1 in 800-63 rev 3) may be the appropriate service if ALL of the following are true:**
 
