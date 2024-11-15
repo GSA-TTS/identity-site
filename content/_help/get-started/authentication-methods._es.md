@@ -28,7 +28,7 @@ redirect_from:
   - /es/help/signing-in/what-is-an-authentication-app/
   - /es/help/signing-in/what-is-an-authenticator-app/
 ---
-Además de su contraseña, es necesario que configure por lo menos un método de autenticación en Login.gov con el fin de mantener su cuenta segura. Se trata de la autenticación multifactor (MFA). Usamos la autenticación multifactor como un nivel más de seguridad para proteger su información.
+Además de su contraseña, es necesario que configure por lo menos un método de autenticación en Login.gov con el fin de mantener su cuenta segura. A esto se le denomina autenticación multifactor. Usamos la autenticación multifactor como un nivel más de seguridad para proteger su información.
 
 **Métodos de autenticación**
 Le recomendamos que añada dos métodos de autenticación a su cuenta. Si pierde el acceso a su método de autenticación principal (por ejemplo, si pierde su teléfono), tendrá una segunda opción para acceder a su cuenta. Login.gov no podrá concederle acceso a su cuenta si se le bloquea o si pierde su método de autenticación. Si se le bloquea, tendrá que eliminar su cuenta y crear una nueva.
@@ -55,7 +55,7 @@ Le recomendamos decididamente que añada un segundo método de autenticación po
 
 ## Aplicaciones de autenticación
 
-Las aplicaciones de autenticación se descargan en su dispositivo y generan códigos de seguridad de seis dígitos que le sirven para iniciar sesión en sus cuentas. Aunque las aplicaciones de autenticación no estarán protegidas si usted llega a perder su dispositivo o si alguien se lo roba, este método, comparado con las llamadas telefónicas o los mensajes de texto, es más seguro contra el *phishing*, el jaqueo o la interceptación de datos.
+Las aplicaciones de autenticación se descargan en su dispositivo y generan los códigos de seguridad de seis dígitos y un solo uso que usará para iniciar sesión en sus cuentas. Aunque las aplicaciones de autenticación no están protegidas si usted llega a perder su dispositivo o si alguien se lo roba, este método, comparado con los mensajes de texto o las llamadas telefónicas, es más seguro contra el phishing, el jaqueo o la interceptación de datos.
 
 Si elige esta opción de seguridad, siga estos pasos para descargar e instalar una aplicación compatible y configúrela para que funcione con Login.gov.
 
@@ -72,7 +72,7 @@ Si elige esta opción de seguridad, siga estos pasos para descargar e instalar u
 3. Abra un nuevo navegador e inicie sesión en su cuenta de Login.gov en <https://secure.login.gov/es>.
 4. Seleccione “Activar” junto a “Aplicación de autenticación” y siga las instrucciones para escanear o ingresar un código que asocie la aplicación de autenticación a su cuenta.
 
-En adelante, cada vez que inicie sesión en Login.gov, podrá utilizar los códigos de acceso de un solo uso que genera la aplicación.
+En adelante, cada vez que inicie sesión en Login.gov, podrá utilizar los códigos de un solo uso que genera la aplicación.
 
 ## Clave de seguridad
 
@@ -103,7 +103,7 @@ Si usted elige utilizar esta opción menos segura, ingrese un número de teléfo
 
 Le enviaremos un código de un solo uso a ese número de teléfono cada vez que inicie sesión en su cuenta de Login.gov. Cada código vence a los diez minutos y solo se puede utilizar una vez. Si no introduce el código de un solo uso en diez minutos, solicite otro nuevo.
 
-Después de haber recibido el código, escríbalo en el campo “Código de un solo uso”. Cada vez que inicie sesión en Login.gov tendrá la opción de obtener un nuevo código de un solo uso por medio de una llamada telefónica o un mensaje de texto. Recibirá un nuevo código de un solo uso cada vez que inicie sesión en su cuenta de Login.gov.
+Cuando reciba el código, escríbalo en el campo “Código de un solo uso”. Cada vez que inicie sesión en Login.gov tendrá la opción de obtener un nuevo código de un solo uso por medio de un mensaje de texto o una llamada telefónica. Recibirá un nuevo código de un solo uso cada vez que inicie sesión en su cuenta de Login.gov.
 
 <div id="didn-t-receive-your-one-time-code">¿No recibió su código de un solo uso?</div>
 
