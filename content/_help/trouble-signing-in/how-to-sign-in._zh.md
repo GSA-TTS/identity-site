@@ -5,7 +5,7 @@ category: trouble-signing-in
 permalink: /zh/help/trouble-signing-in/how-to-sign-in/
 order: 1
 ---
-每次你登录 Login.gov 帐户，都需要你的电子邮件地址、密码以及你设置的[身份证实选项](/zh/help/get-started/authentication-methods/)之一。
+每次你登录 Login.gov 帐户，都需要你的电子邮件地址、密码以及使用你设置的[身份证实选项](/zh/help/get-started/authentication-methods/)之一。
 
 请按以下步骤登录 Login.gov
 
@@ -13,7 +13,7 @@ order: 1
 1. 在<https://secure.login.gov/zh>输入你的电邮地址。
 2. 输入你的密码。
 3. 点击“登录”键。
-4. 使用你设定的一个方法进行身份证实:
+4. 使用你设定的一个方法进行身份证实，比如:
    
    * 扫描你的面孔或指纹
    * 输入来自你身份证实应用程序的一次性代码
