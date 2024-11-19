@@ -18,7 +18,7 @@ self_identity_auth: >-
 
     Login.gov also requires multi-factor authentication (MFA) as an additional security measure such as face or touch unlock, PIV/CAC card, physical security key, authentication application, text or voice message, or backup codes. You can configure Login.gov MFA settings for your application to correspond with either NIST’s AAL1 or AAL2 level, depending on your preferences.
 verified_identity_auth: >-
-    ### Basic Identity Verification (Non-IAL2 compliant)
+    ### Basic identity verification (Non-IAL2 compliant)
 
 
     For this service level, users create an authentication-only account (email, password, and MFA) and then go a step further to prove their identity.
