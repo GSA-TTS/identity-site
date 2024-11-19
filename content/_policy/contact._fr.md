@@ -33,10 +33,12 @@ partner_content: >-
   Vous souhaitez utiliser Login.gov pour votre organisme ? Veuillez [visiter notre site Web pour les partenaires](/partners/) ou [nous contacter](/partners/business-inquiries/).
 
 report_issue_content: >-
-  ## Signaler un problème
+  ## Signaler un problème de sécurité
 
-  Pour nous signaler un problème, veuillez consulter notre [politique de divulgation des vulnérabilités](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/responding-to-public-disclosure-vulnerabilities/) et nous contacter à l'aide de notre [formulaire](https://docs.google.com/forms/d/e/1FAIpQLScuo4xCzBlpLnoq7-bDAVAxtJci03by7S-Q-Z_JUBDloK01QA/viewform) prévu à cet effet.
+  Pour signaler une faille de sécurité, veuillez consulter la [politique de divulgation des vulnérabilités de la GSA](https://www.gsa.gov/vulnerability-disclosure-policy) puis envoyer un rapport par le biais du [Programme de primes à l'initiative de la GSA](https://hackerone.com/gsa_bbp){:class="usa-link--external"}.
 
+
+  Pour signaler un site de phishing suspecté d’être lié à Login.gov ou à un site partenaire, veuillez [nous contacter](https://forms.gle/uj8NwiaDrieVHa466){:class="usa-link--external"}.
 scripts:
   - /assets/js/contact.js
 permalink: /fr/contact/

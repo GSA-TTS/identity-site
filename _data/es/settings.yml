@@ -305,8 +305,8 @@ nav:
         url: '#póngase-en-contacto'
       - name: Asóciese con Login.gov
         url: '#asóciese-con-logingov'
-      - name: Informe de un problema
-        url: '#informe-de-un-problema'
+      - name: Informe de un problema de seguridad
+        url: '#informe-de-un-problema-de-seguridad'
     title: Contáctenos
   create_an_account: Cree una cuenta
   developer_guide: Guía para desarrolladores
