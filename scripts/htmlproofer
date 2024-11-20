@@ -48,8 +48,8 @@ while retries >= 0
     # future if it's no longer needed.
     request.options[:headers]['Accept-Language'] = '*'
   end
-  proofer.check_files
-  failed_external_urls = external_failure_urls(proofer.failures)
+  proofer.reporter.failures = proofer.check_files
+  failed_external_urls = external_failure_urls(proofer.reporter.failures)
   break if failed_external_urls.empty?
   all_external_urls = proofer.external_urls.keys
   proofer_options[:url_ignore].concat(all_external_urls - failed_external_urls)
@@ -58,5 +58,5 @@ while retries >= 0
   sleep retry_delay if retry_delay > 0
 end
 
-# HTMLProofer::Runner#print_failed_tests also sets the exit code
-proofer.print_failed_tests if !proofer.failures.empty?
+# HTMLProofer::Runner#report_failed_checks also sets the exit code
+proofer.report_failed_checks if !proofer.reporter.failures.empty?
