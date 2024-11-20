@@ -124,6 +124,10 @@ defaults:
       path: 'docs/login-gov-press-kit.pdf'
     values:
       sitemap: false
+  - scope:
+      path: 'partners/program-updates/'
+    values:
+      sitemap: false
 
 include:
   # dotfiles are excluded by default

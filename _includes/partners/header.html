@@ -67,6 +67,7 @@
               Security experience
             </a>
           </li>
+          {% if site.program_updates.size > 0 %}
           <li class="usa-nav__primary-item">
             <a
               class="usa-nav__link {% if page.url contains '/program-updates' %}usa-current{% endif %}"
@@ -75,6 +76,7 @@
               Program updates
             </a>
           </li>
+          {% endif %}
           <li class="usa-nav__primary-item">
             <a
               class="usa-nav__link {% if page.url contains '/faq' %}usa-current{% endif %}"
