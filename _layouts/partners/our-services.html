@@ -27,12 +27,20 @@ layout: base
             </div>
             <div class="grid-row padding-top-2">
                 <div class="tablet:grid-col-6">
-                    <img class="padding-top-7 padding-right-6" src="{{ site.baseurl }}/assets/img/partners/ial2.svg" alt='A person verifying their identity with an identification card.'>
+                    <img class="padding-top-7 padding-right-6" src="{{ site.baseurl }}/assets/img/partners/ial1.svg" alt='A person verifying their identity with an identification card.'>
                 </div>
                 <div class="tablet:grid-col-6 partners-body">
                     {{ page.verified_identity_auth | markdownify }}
                 </div>
             </div>
+            <div class="grid-row padding-top-2">
+                <div class="tablet:grid-col-6">
+                    <img class="padding-top-7 padding-right-6" src="{{ site.baseurl }}/assets/img/partners/ial2.svg" alt='A person verifying their identity via their phone or post office.'>
+                </div>
+                <div class="tablet:grid-col-6 partners-body">
+                    {{ page.enhanced_identity_verification | markdownify }}
+                </div>
+            </div>            
         </div>
         <div class="padding-top-2 bg-primary-lightest">
             <div class="container">
@@ -62,7 +70,15 @@ layout: base
                     <img class="padding-top-6 padding-right-6" src="{{ site.baseurl }}/assets/img/partners/customer-support.svg" alt='A customer support specialist with a headset greeting you in Spanish, English, and French.'>
                 </div>
                 <div class="tablet:grid-col-6 partners-body">
-                    {{ page.multilingual_support | markdownify }}
+                    {{ page.end_user_support | markdownify }}
+                </div>
+            </div>
+            <div class="grid-row padding-top-2">
+                <div class="tablet:grid-col-6">
+                    <img class="padding-top-6 padding-right-6" src="{{ site.baseurl }}/assets/img/partners/accessibility.svg" alt='Login.gov is available in Spanish, French, and Simplified Chinese.'>
+                </div>
+                <div class="tablet:grid-col-6 partners-body">
+                    {{ page.accessibility_multilingual_support | markdownify }}
                 </div>
             </div>
             <div class="grid-row padding-top-2">

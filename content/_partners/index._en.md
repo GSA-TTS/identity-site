@@ -23,13 +23,13 @@ services:
   col2: >-
     Verify the right person has access to the right information with secure identity verification.
 
-    [Learn about identity verification](/partners/our-services/#verified-identity-and-authentication){:class="partners-identity caret"}
+    [Learn about identity verification](/partners/our-services/#enhanced-identity-verification-ial2-compliant){:class="partners-identity caret"}
   subheading3: Multilingual user support
   col_class3: multilingual
   col3: >-
     Comprehensive, multilingual support for your end-users 24 hours a day, seven days a week.
 
-    [Learn about user support](/partners/our-services/#multilingual-support-for-your-end-users){:class="partners-multilingual caret"}
+    [Learn about user support](/partners/our-services/#end-user-support){:class="partners-multilingual caret"}
 
 roadmap: 
   title:
