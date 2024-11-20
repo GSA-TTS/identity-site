@@ -28,6 +28,14 @@
   max-width: 880px;
 }
 
+.program-update-body {
+  img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .external-link {
   background: url(../img/partners/external-link.svg) no-repeat center right;
   padding-right: 10px;
