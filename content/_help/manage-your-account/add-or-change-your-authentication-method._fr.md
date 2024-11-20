@@ -21,6 +21,6 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
 
 ## Articles connexes 
 
-[Méthodes d’authentification](/fr/help/get-started/authentication-methods/)
-[Mot de passe oublié](/fr/help/trouble-signing-in/forgot-your-password/)
-[Supprimer votre compte](/fr/help/manage-your-account/delete-your-account/)
+* [Méthodes d’authentification](/fr/help/get-started/authentication-methods/)
+* [Mot de passe oublié](/fr/help/trouble-signing-in/forgot-your-password/)
+* [Supprimer votre compte](/fr/help/manage-your-account/delete-your-account/)

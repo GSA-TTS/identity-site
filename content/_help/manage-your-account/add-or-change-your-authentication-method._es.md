@@ -21,6 +21,6 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
 
 ## Otros artículos
 
-[Métodos de autenticación](/es/help/get-started/authentication-methods/)
-[Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
-[Elimine su cuenta](/es/help/manage-your-account/delete-your-account/)
+* [Métodos de autenticación](/es/help/get-started/authentication-methods/)
+* [Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
+* [Elimine su cuenta](/es/help/manage-your-account/delete-your-account/)

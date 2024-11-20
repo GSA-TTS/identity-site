@@ -43,7 +43,7 @@ If you reset your password without your personal key, you’ll need to verify yo
 
 ## Related articles
 
-[Forgot your password](/help/trouble-signing-in/forgot-your-password/)
-[Change your password](/help/manage-your-account/change-your-password/)
-[How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
+* [Forgot your password](/help/trouble-signing-in/forgot-your-password/)
+* [Change your password](/help/manage-your-account/change-your-password/)
+* [How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
 
