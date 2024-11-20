@@ -20,7 +20,7 @@ commands:
 jobs:
   build:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.3-node
         environment:
           BUNDLER_VERSION: 2.2.20
     steps:
@@ -34,7 +34,7 @@ jobs:
 
   test:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.3-node
     steps:
       - checkout
       - install-dependencies
@@ -66,7 +66,7 @@ jobs:
 
   lint-js:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.3-node
     steps:
       - checkout
       - install-dependencies
@@ -76,7 +76,7 @@ jobs:
 
   lint-yaml:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.3-node
     steps:
       - checkout
       - install-dependencies
@@ -86,7 +86,7 @@ jobs:
 
   typecheck-js:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.3-node
     steps:
       - checkout
       - install-dependencies
@@ -96,7 +96,7 @@ jobs:
 
   lint-css:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.3-node
     steps:
       - checkout
       - install-dependencies
@@ -106,7 +106,7 @@ jobs:
 
   check-optimized-assets:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.3-node
     steps:
       - checkout
       - install-dependencies
@@ -116,7 +116,7 @@ jobs:
 
   check-lockfiles:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.3-node
     environment:
       SKIP_INSTALL: true
     steps:
@@ -128,7 +128,7 @@ jobs:
 
   nu:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.3-node
     steps:
       - checkout
       - install-dependencies
@@ -145,7 +145,7 @@ jobs:
   # but do get the feedback/info
   test-external-links:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.3-node
     steps:
       - checkout
       - install-dependencies
