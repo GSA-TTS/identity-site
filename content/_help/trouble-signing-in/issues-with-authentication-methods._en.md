@@ -42,19 +42,19 @@ We recommend you set up additional authentication methods in case you lose acces
 
 ## I'm not receiving a text or phone call
 
-* If you have a landline phone, choose to receive your one-time code by phone call instead of a text message. You’ll receive a voicemail if you can’t answer the call.
+* If you have a landline phone, choose to receive your one-time code by phone call instead of a SMS/Text message. You’ll receive a voicemail if you can’t answer the call.
 * If you have a mobile phone, make sure airplane mode is off.
 * Your code may not arrive immediately. Wait up to 10 minutes, or try the “Resend code” button to send your code again.
 * Make sure you’re not using a phone number with an extension, as Login.gov cannot send one-time codes to extensions.
 
 {% capture newest_otp_alert_content %}
-Only the newest one-time code you receive will work. If you request and receive multiple messages at the same time, you may need to try more than one code until one works.
+Only the newest one-time code you receive will work. If you request and receive multiple SMS/Text messages at the same time, you may need to try more than one code until one works.
 {% endcapture %}
 {% include alert.html class="margin-bottom-4" content=newest_otp_alert_content %}
 
-## My authenticator app isn’t working
+## My authenticator application isn’t working
 
-* The time may not be correctly synced between your device and your authenticator app. Make sure your device’s time is correct by using a page like [time.gov](https://www.time.gov/).
+* The time may not be correctly synced between your device and your authenticator application. Make sure your device’s time is correct by using a page like [time.gov](https://www.time.gov/).
 
     * If you use Google Authenticator, you may need to sync the time manually. [Follow Google’s instructions to sync your time](https://support.google.com/accounts/answer/185834?hl=en).
 
@@ -67,7 +67,7 @@ Only the newest one-time code you receive will work. If you request and receive 
 * If you are able to regain access to your phone’s original phone number, do so first and then request a one-time code. You should still receive the code, even if you’re using a new device and SIM card.
 * If you’ve lost your security key, you will have to use a different authentication method or delete your account if you have no other authentication method, unless you have already set up a backup.
 
-## My PIV/CAC card isn’t working
+## My government employee ID isn’t working
 * Login.gov may be missing an issuing certificate for your card. [Contact Login.gov support for additional help.](https://login.gov/contact/)
 
 ## Related articles

@@ -47,13 +47,13 @@ Nous vous recommandons de configurer d'autres méthodes d'authentification au ca
 * Assurez-vous de ne pas utiliser un numéro de téléphone avec un poste, car Login.gov ne peut pas envoyer de codes à usage unique à des postes.
 
 {% capture newest_otp_alert_content %}
-Seul le dernier code à usage unique que vous recevrez fonctionnera. Si vous demandez et recevez plusieurs messages en même temps, il se peut que vous deviez essayer plusieurs codes jusqu’à ce que l’un d’entre eux fonctionne.
+Seul le dernier code à usage unique que vous recevrez fonctionnera. Si vous demandez et recevez plusieurs SMS en même temps, il se peut que vous deviez essayer plusieurs codes jusqu’à ce que l’un d’eux fonctionne.
 {% endcapture %}
 {% include alert.html class="margin-bottom-4" content=newest_otp_alert_content %}
 
 ## Mon application d'authentification ne fonctionne pas
 
-* Il se peut que l’heure ne soit pas correctement synchronisée entre votre appareil et votre appli d’authentification. Assurez-vous que l’heure de votre appareil est correcte en utilisant une page comme [time.gov](https://www.time.gov/).
+* Il se peut que l’heure ne soit pas correctement synchronisée entre votre appareil et votre application d’authentification. Assurez-vous que l’heure de votre appareil est correcte en utilisant une page comme [time.gov](https://www.time.gov/).
 
   * Si vous utilisez Google Authenticator, il vous faudra peut-être synchroniser l’heure manuellement. [Suivez les instructions de Google pour synchroniser votre heure.](https://support.google.com/accounts/answer/185834?hl=en)
 
@@ -66,7 +66,7 @@ Seul le dernier code à usage unique que vous recevrez fonctionnera. Si vous dem
 * Si vous parvenez à retrouver le numéro de téléphone d’origine de votre téléphone, commencez par le faire, puis demandez un code à usage unique. Vous devriez toujours recevoir le code, même si vous utilisez un nouvel appareil et une nouvelle carte SIM.
 * Si vous avez perdu votre clé de sécurité, vous devrez utiliser une autre méthode d’authentification ou supprimer votre compte si vous n’avez pas d’autre méthode d’authentification, à moins que vous n’ayez déjà configuré une sauvegarde.
 
-## Ma carte PIV/CAC ne fonctionne pas
+## Ma carte d’employé fédéral ne fonctionne pas
 * Il se peut qu’il manque à Login.gov un certificat de délivrance pour votre carte. [Contactez le service d’assistance de Login.gov pour obtenir de l’aide supplémentaire.](https://login.gov/contact/)
 
 ## Articles connexes
