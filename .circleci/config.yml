@@ -2,31 +2,15 @@ version: 2.1
 
 orbs:
   slack: circleci/slack@3.4.2
+  node: circleci/node@6.3.0
+  ruby: circleci/ruby@2.3.0
+
 commands:
   install-dependencies:
     steps:
-      - restore_cache:
-          keys:
-            - dependencies-{{ checksum "package-lock.json" }}-{{ checksum "Gemfile.lock" }}
-      - run:
-          name: Switch Node.js version
-          command: |
-            wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
-            export NVM_DIR="$HOME/.nvm"
-            . "$NVM_DIR/nvm.sh" --install --latest-npm
-            echo 'export NVM_DIR="$HOME/.nvm"' >> $BASH_ENV;
-            echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> $BASH_ENV;
-      - run:
-          name: install dependencies
-          command: |
-            npm ci
-            bundle config set --local path 'vendor/bundle'
-            bundle install --jobs=4 --retry=3
-      - save_cache:
-          paths:
-            - ~/.npm
-            - ./vendor/bundle
-          key: dependencies-{{ checksum "package-lock.json" }}-{{ checksum "Gemfile.lock" }}
+      - node/install
+      - node/install-packages
+      - ruby/install-deps
   build-site:
     steps:
       - run:

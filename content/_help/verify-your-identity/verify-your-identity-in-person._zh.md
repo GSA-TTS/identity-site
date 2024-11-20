@@ -15,7 +15,7 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 
 在开始验证身份流程之前，你需要做出在网上还是亲身进行验证的选择。如果你想亲身验证身份，请选择“在邮局验证你的身份。”
 
-请注意，如果你试图在网上验证但无法实现，还可能还有亲身验证的选择。
+请注意，如果你试图在网上验证但无法实现，还可能有亲身验证的选择。
 
 请准备好以下信息输入 Login.gov：
 
@@ -104,3 +104,5 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 [我们接受的州政府颁发的身份证件。](/zh/help/verify-your-identity/accepted-identification-documents/)
 
 [在网上验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
+
+[找到一个参与本项目的邮局](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)

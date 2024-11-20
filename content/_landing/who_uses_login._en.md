@@ -14,8 +14,10 @@ component:
     Our participating government partners offer a variety of services such as:
 
     * USAJOBS (Office of Personnel Management)
-    * Paycheck Protection Program (Small Business Administration)
-    * Disaster Loan Applications Program (Small Business Administration)
+
+    * My Social Security (Social Security Administration)
+
+    * VA.gov (Department of Veterans Affairs)
   col2: >-
     Login.gov adheres to the latest [security standards](/policy/)
     established by top security organizations such as the [National Institute of

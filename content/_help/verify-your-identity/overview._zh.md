@@ -18,14 +18,14 @@ order: 0
   include components/two-column-image-bullet-list.html
 
   column1-image='/assets/img/help/create-an-account.svg'
-  column1-header='设立你的 Login.gov 账户'
+  column1-header='设立你的 Login.gov 账户需要什么'
   column1-bullets='电邮|密码|身份证实方法'
   column1-class='padding-105 border border-info-light'
 
   column2-image='/assets/img/help/verify-your-identity.svg'
   column2-header='验证身份需要什么'
   column2-bullets='驾照或州颁发的身份证件|社会保障号码|电话号码或地址'
-  column2-footer='要在网上验证身份，你可能需要用手机拍一张你本人的照片。'
+  column2-footer='要在网上验证身份，有的机构需要你用手机拍一张你本人的照片。'
   column2-class='padding-105 border border-info-light bg-info-lighter'
 %}
 
@@ -39,6 +39,6 @@ Login.gov 不保存你身份证件的图像或你本人的照片。在与合作�
 
 [如何验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
 [系统接受的身份证件](/zh/help/verify-your-identity/accepted-identification-documents/)
-[如何添加你驾照或州颁发身份证件的图片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
+[如何拍你本人的照片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
 [验证你的电话号码](/zh/help/verify-your-identity/phone-number/)
 [通过普通邮件验证你的身份](/zh/help/verify-your-identity/verify-your-address-by-mail/)

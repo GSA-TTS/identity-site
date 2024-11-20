@@ -28,13 +28,7 @@ You can then view the site in your browser at http://localhost:4000 .
 
 To get mock data for Post Office Search:
 
-Update identity-idp config/application.yml with:
-
-```
-in_person_public_address_search_enabled: true
-```
-
-Then, start identity-idp server locally:
+Start identity-idp server locally:
 
 ```
 make run

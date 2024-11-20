@@ -56,6 +56,7 @@ contact_page:
       'DOT National Registry of Certified Medical Examiners': 交通部认证的医学检验官注册簿
       'Environmental Protection Agency': 国家环境保护局
       'FDIC Resolution Request Management Portal': FDIC（联邦存款保险公司）解决方案请求管理门户
+      'Federal Reserve Board (FRB)': 美国联邦储备委员会（FRB）
       'FEMA Disaster Assistance': FEMA （联邦紧急事务管理局）灾难救助
       'General Services Administration': 联邦总务管理局
       'Get.gov': Get.gov
@@ -81,6 +82,7 @@ contact_page:
       'Pay.gov': Pay.gov
       'PBGC-MyPBA': PBGC（退休金福利保障公司） - MyPBA
       'Peace Corps': 和平队
+      'Postal Service Health Benefits (PSHB)': 美国邮局医疗福利（Postal Service Health Benefits） (PSHB)
       'Railroad Retirement Board': 铁路退休委员会
       'SBA': SBA
       'Securities and Exchange Commission': 证券交易委员会
@@ -120,7 +122,8 @@ contact_page:
     reset: 清空表格
     submit: 提交
     subtopics:
-      account_locked: 我的账户被锁住24小时
+      account_deactivated: 我的账户已被停用
+      account_locked: 我的账户被锁住6小时
       add_family_member: 我如何把家人添加到我的Login.gov账户？
       agency_app: 机构应用程序问题
       authentication_app: 我如何更改身份证实方法？
@@ -135,6 +138,7 @@ contact_page:
       delete_account: 我如何删除自己的Login.gov账户？
       device_notification: 我收到了自己Login.gov账户有新登录情况的警报
       email_delivery_issue: 我收不到Login.gov的确认电邮
+      facial_matching: 我拍的自己的面部照片没被接受
       feedback: 我有关于Login.gov的反馈意见
       forgot_password: 我忘了自己的Login.gov密码而且无法重设
       how_to_create_with_verification: 我如何通过身份验证设立一个Login.gov 账户?
@@ -163,9 +167,10 @@ contact_page:
       personal_key: 我的个人密钥不行
       personal_key_notification: 我收到了关于自己的个人密钥被用来登录的警报。
       personal_key_setup: 个人密钥设置
-      phone_number_failure: 我输入电话号码后系统说不行
+      phone_number_failure: 我的电话号码与记录不符
       piv_cac: 我用PIV/CAC 登录有问题
       privacy_and_security: 隐私与安全
+      recaptcha_sign_in: 我登录时没通过安全检查
       recover_account: 如果我没有自己的电话或个人密钥，如果登录账户？
       remember_browser: 我设置了记住浏览器但仍在收到安全代码
       remember_device_issue: 我怎么能不再收到安全代码？
@@ -175,9 +180,9 @@ contact_page:
       seeing_errors: 我登录Login.gov时看到的是出错/黑屏
       service_quality: 服务质量
       site_navigation: 我不知道到哪里去设立账户
-      state_issued_id_error: 我上传州颁发的身份证件后得到了出错信息
+      state_issued_id_error: 我的州颁发的身份证件没被接受
       unwanted_otp: 我在从Login.gov 收到安全代码，但我并没有要求这些代码
-      verify_identity_error: 我试图验证身份时系统说失败
+      verify_identity_error: 我的社会保障号码或地址与记录不符
       wrong_account_update: 错误账户更新
     title: 提交寻求帮助工单
     topics:
@@ -191,9 +196,9 @@ contact_page:
       signing_in: 登录进入你的 Login.gov 账户
       verifying_identity: 验证你的身份
 feedback_form:
-  'no': '不'
+  'no': '没有'
   question: '这篇文章对你有帮助吗？'
-  'yes': 对
+  'yes': '有'
 global:
   language: 语言
   locales:
@@ -281,8 +286,8 @@ nav:
         url: '#联系'
       - name: 与 Login.gov 合作
         url: '#与-logingov-合作'
-      - name: 反映问题
-        url: '#反映问题'
+      - name: 报告安全问题
+        url: '#报告安全问题'
     title: 联系我们
   create_an_account: 设立账户
   developer_guide: 开发人员指南
@@ -291,7 +296,7 @@ nav:
   get_started: Get started # partners site does not require translations
   groups:
     about_login_gov: About Login.gov # partners site does not require translations
-    agencies: 针对机构的
+    agencies: 针对机构
     learn: 学习
     partners: For partners # partners site does not require translations
     support: 支持

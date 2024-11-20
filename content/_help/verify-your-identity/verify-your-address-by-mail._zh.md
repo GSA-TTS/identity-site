@@ -1,12 +1,12 @@
 ---
 layout: help
-title: 通过普通邮件验证你的身份
+title: 通过邮局邮件验证你的身份
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/verify-your-address-by-mail/
 order: 6
 ---
 
-在某些情况下，您可以通过邮局信件验证您的地址，而不是[验证您的电话号码](/zh/help/verify-your-identity/phone-number/)。你会收到一封含有验证码的信件来完成验证你的身份。
+在某些情况下，你可以通过邮局信件验证你的地址，而不是[验证你的电话号码](/zh/help/verify-your-identity/phone-number/)。你会收到一封含有验证码的信件来完成验证你的身份。
 
 我们会把信寄到我们验证过的并与你相关的一个地址。如果你需要更改这一地址，则需要从头开始，用新地址来验证你的身份。
 
@@ -18,9 +18,12 @@ order: 6
  * 你的验证码已过期
 
 要求一个新代码:
+
 {: .number-list}
 1. 到 [https://secure.login.gov](https://secure.login.gov/zh)。
 2. 当系统让你输入代码时，选择“给我再发一封信”。
+
+如果收到信件之前你需要访问为之做验证的政府机构的服务，请联系他们。
 
 ## 相关文章
 - [验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)

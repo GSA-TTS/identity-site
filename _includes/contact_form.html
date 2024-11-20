@@ -1,10 +1,12 @@
 {% comment %} include: - common_applications: array of strings (translation keys) {% endcomment %}
+{% comment %}
 <!--
   This is some slightly modified code provided by the contact center to interact
   with their support ticket intake system
 -->
+{% endcomment %}
 <script language="javascript" type="text/javascript">
-  let topicID = '00NU0000004z903';
+  let topicId = '{{ site.contact_form_topic_id }}';
   let mappedValues = {
     'Signing In;New Account': { topic: 'Create Account', sub: 'New Account' },
   };
@@ -106,6 +108,10 @@
           'Backup codes',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.backup_codes | escape_quotes }}',
         ),
+        new TopicEntry(
+          'reCAPTCHA sign in',
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.recaptcha_sign_in | escape_quotes }}',
+        ),        
         // new TopicEntry(
         //   'Remember device issue',
         //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.remember_browser }}",
@@ -217,37 +223,45 @@
       '{{ site.data.[page.lang].settings.contact_page.support_request_form.topics.verifying_identity | escape_quotes }}',
       [
         new TopicEntry(
-          'State-issued ID error',
+          'Photo Upload Issue',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.state_issued_id_error | escape_quotes }}',
         ),
         new TopicEntry(
-          'Failure trying to verify my identity',
+          'Failing at the SSN & Address step',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.verify_identity_error | escape_quotes }}',
         ),
         new TopicEntry(
-          'Failure after entering phone number',
+          'No phone number match',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.phone_number_failure | escape_quotes }}',
         ),
         new TopicEntry(
-          "Didn't receive letter in mail",
+          "Verify by mail",
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.letter_in_mail | escape_quotes }}',
         ),
         new TopicEntry(
-          'Account locked for 24 hours',
+          'Account locked for 6 hours',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.account_locked | escape_quotes }}',
+        ),
+        new TopicEntry(
+          'Facial matching',
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.facial_matching | escape_quotes }}',
         ),
         new TopicEntry(
           'In-Person Proofing',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.cant_proof_in_person | escape_quotes }}',
         ),
-        // new TopicEntry(
-        //   'Creating an Account in IAL2',
-        //   "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_create_with_verification | escape_quotes}}",
-        // ),
-        // new TopicEntry(
-        //   'How/Why do I verify my identity?',
-        //   '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_verify | escape_quotes }}',
-        // ),
+        new TopicEntry(
+          'Creating an identity verified account',
+          "{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_create_with_verification | escape_quotes}}",
+        ),
+        new TopicEntry(
+          'How/Why do I verify my identity?',
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.how_to_verify | escape_quotes }}',
+        ),
+        new TopicEntry(
+          'Password reset with lost personal key',
+          '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.account_deactivated | escape_quotes }}',
+        ),        
         new TopicEntry(
           'Other',
           '{{ site.data.[page.lang].settings.contact_page.support_request_form.subtopics.other | escape_quotes }}',
@@ -294,9 +308,9 @@
     ),
   ];
 
-  function remapvalues(frm) {
+  function remapFormValues(frm) {
     // Get the current values for topic and subtopic
-    let topic = document.getElementById('00NU0000004z903');
+    let topic = document.getElementById(topicId);
     let sub = document.getElementById('sub-topic');
 
     let topicValue = topic.value;
@@ -304,7 +318,6 @@
 
     let key = topicValue + ';' + subValue;
 
-    // Do we have a mapping?
     if (mappedValues[key]) {
       sub.value = mappedValues[key].sub;
       topic.value = mappedValues[key].topic;
@@ -314,7 +327,7 @@
   }
 
   function populatetopics() {
-    let field = document.getElementById(topicID);
+    let field = document.getElementById(topicId);
     field.options.length = 0;
     field.options[0] = new Option(
       '{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_topic }}',
@@ -339,7 +352,6 @@
   }
 
   function dynamicdropdown(listindex) {
-    console.log(listindex);
     let sub = document.getElementById('sub-topic');
 
     let oldvalue = sub.value;
@@ -348,9 +360,7 @@
     let selectedIndex = 0;
 
     for (let i = 0; i < topicMap.length; i++) {
-      console.log(topicMap[i].key);
       if (topicMap[i].key === listindex) {
-        console.log(topicMap[i]);
         options.push(
           new Option(
             '{{ site.data.[page.lang].settings.contact_page.support_request_form.form_helpers.select_issue }}',
@@ -375,7 +385,6 @@
       sub.options[sub.options.length] = options[i];
     }
 
-    // sub.options = options;
     sub.selectedIndex = selectedIndex;
 
     return true;
@@ -384,8 +393,10 @@
   window.onload = populatetopics;
 
   function doNotAnswer() {
+{% comment %}
     // this will hide the display of the honeypot Field
     // more information found here. https://help.salesforce.com/articleView?id=pardot_forms_add_honeypot.htm
+{% endcomment %}
     const noAnswer = document.querySelector('#contact-us-form #information');
     if (noAnswer) {
       noAnswer.removeAttribute('required');
@@ -404,7 +415,7 @@
     id="contact-us-form"
     action="{{ site.contact_form_action }}"
     method="POST"
-    onSubmit="return remapvalues(this); return true;"
+    onSubmit="return remapFormValues(this); return true;"
     class="usa-form"
   >
     <input type="hidden" name="00NU0000004z90b" id="00NU0000004z90b" value="{{ site.data.language_map.languages[page.lang] | default: 'English' }}" />
@@ -428,12 +439,12 @@
     </strong>
 
     <!-- START: Topic -->
-    <label class="usa-label" for="00NU0000004z903">
+    <label class="usa-label" for="{{ site.contact_form_topic_id }}">
       {{ site.data.[page.lang].settings.contact_page.support_request_form.labels.topic }}<abbr title="{{ site.data.[page.lang].settings.contact_page.required }}" class="usa-hint usa-hint--required">*</abbr>
     </label>
     <select
-      id="00NU0000004z903"
-      name="00NU0000004z903"
+      id="{{ site.contact_form_topic_id }}"
+      name="{{ site.contact_form_topic_id }}"
       required
       onchange="dynamicdropdown(this.options[this.selectedIndex].value);"
       class="usa-select"
@@ -508,11 +519,11 @@
       id="email"
       maxlength="80"
       name="email"
-      type="text"
+      type="email"
       placeholder="example@example.com"
-      pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
       required
       class="usa-input"
+      autocomplete="email"
     />
     <!-- END: Email -->
 

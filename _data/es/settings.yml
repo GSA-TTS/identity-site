@@ -59,6 +59,7 @@ contact_page:
       'DOT National Registry of Certified Medical Examiners': Registro Nacional de Médicos Forenses Certificados del DOT
       'Environmental Protection Agency': Agencia de Protección Ambiental
       'FDIC Resolution Request Management Portal': Portal de gestión de solicitudes de resolución de FDIC
+      'Federal Reserve Board (FRB)': Junta de la Reserva Federal (FRB)
       'FEMA Disaster Assistance': Asistencia por catástrofe de FEMA
       'General Services Administration': Administración General de Servicios
       'Get.gov': Get.gov
@@ -84,6 +85,7 @@ contact_page:
       'Pay.gov': Pay.gov
       'PBGC-MyPBA': PBGC - MyPBA
       'Peace Corps': Cuerpo de Paz
+      'Postal Service Health Benefits (PSHB)': Beneficios de salud del servicio postal (PSHB)
       'Railroad Retirement Board': Junta de Jubilación de Empleados Ferroviarios
       'SBA': SBA
       'Securities and Exchange Commission': Comisión de Bolsa y Valores
@@ -128,7 +130,8 @@ contact_page:
     reset: Borrar formulario
     submit: Enviar
     subtopics:
-      account_locked: Mi cuenta está bloqueada por 24 horas
+      account_deactivated: Mi cuenta fue desactivada
+      account_locked: Mi cuenta está bloqueada por 6 horas
       add_family_member: ¿Cómo añado a un familiar a mi cuenta de Login.gov?
       agency_app: Problema con aplicación de la agencia
       authentication_app: ¿Cómo cambio mi método de autenticación?
@@ -144,6 +147,7 @@ contact_page:
       device_notification: He recibido una alerta sobre un nuevo inicio de sesión en
         mi cuenta de Login.gov
       email_delivery_issue: No recibo el correo electrónico de confirmación de Login.gov
+      facial_matching: No se aceptó la foto de mi cara
       feedback: Tengo comentarios sobre Login.gov
       forgot_password: Olvidé mi contraseña de Login.gov y no puedo restablecerla
       how_to_create_with_verification: ¿Cómo creo una cuenta en Login.gov con verificación de identidad?
@@ -174,9 +178,10 @@ contact_page:
       personal_key_notification: He recibido una alerta sobre el uso de mi clave
         personal para iniciar sesión
       personal_key_setup: Configuración de clave personal
-      phone_number_failure: Error después de introducir mi número de teléfono
+      phone_number_failure: Mi número de teléfono no coincide con los registros
       piv_cac: Tengo problemas para utilizar mi tarjeta PIV o CAC para iniciar sesión
       privacy_and_security: Privacidad y seguridad
+      recaptcha_sign_in: Falló la comprobación de seguridad al iniciar sesión
       recover_account: ¿Cómo inicio sesión en mi cuenta si no tengo mi teléfono ni mi
         clave personal?
       remember_browser: He configurado la opción recordar el navegador pero sigo
@@ -188,9 +193,9 @@ contact_page:
       seeing_errors: Veo una pantalla de error/en blanco al acceder a Login.gov
       service_quality: Calidad del servicio
       site_navigation: No sé dónde ir para crear una cuenta
-      state_issued_id_error: Error después de cargar mi documento de identidad emitido por el estado
+      state_issued_id_error: No se aceptó mi identificación emitida por el estado
       unwanted_otp: Estoy recibiendo códigos de seguridad de Login.gov que no he solicitado
-      verify_identity_error: Error al tratar de verificar mi identidad
+      verify_identity_error: Mi número del Seguro Social o mi dirección no coinciden con los registros
       wrong_account_update: Actualización incorrecta de la cuenta
     title: Enviar un ticket de ayuda
     topics:
@@ -224,7 +229,7 @@ help_page:
     - description: ¿Olvidó su contraseña? ¿Está bloqueado el acceso a su cuenta? Le
         ayudaremos a resolver los problemas de acceso.
       image: /assets/img/help/trouble-signing-in.svg
-      title: ¿Tiene problemas para iniciar sesión?
+      title: ¿Tiene problema para iniciar sesión?
       url: /es/help/trouble-signing-in/overview/
     - description: Cambie la configuración de su cuenta, su contraseña, número de
         teléfono, correo electrónico y más.
@@ -246,7 +251,7 @@ help_subpages:
   get-started: Empiece a utilizar Login.gov
   manage-your-account: Administre su cuenta
   specific-agencies: Ayuda con agencias específicas
-  trouble-signing-in: ¿Tiene problemas para iniciar sesión?
+  trouble-signing-in: ¿Tiene problema para iniciar sesión?
   verify-your-identity: Verifique su identidad
 identifier:
   accessible_labels:
@@ -300,8 +305,8 @@ nav:
         url: '#póngase-en-contacto'
       - name: Asóciese con Login.gov
         url: '#asóciese-con-logingov'
-      - name: Informe de un problema
-        url: '#informe-de-un-problema'
+      - name: Informe de un problema de seguridad
+        url: '#informe-de-un-problema-de-seguridad'
     title: Contáctenos
   create_an_account: Cree una cuenta
   developer_guide: Guía para desarrolladores

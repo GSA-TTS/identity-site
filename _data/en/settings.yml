@@ -58,6 +58,7 @@ contact_page:
       'DOT National Registry of Certified Medical Examiners': DOT National Registry of Certified Medical Examiners
       'Environmental Protection Agency': Environmental Protection Agency
       'FDIC Resolution Request Management Portal': FDIC Resolution Request Management Portal
+      'Federal Reserve Board (FRB)': Federal Reserve Board (FRB)
       'FEMA Disaster Assistance': FEMA Disaster Assistance
       'General Services Administration': General Services Administration
       'Get.gov': Get.gov
@@ -83,6 +84,7 @@ contact_page:
       'Pay.gov': Pay.gov
       'PBGC-MyPBA': 'PBGC - MyPBA'
       'Peace Corps': Peace Corps
+      'Postal Service Health Benefits (PSHB)': Postal Service Health Benefits (PSHB)
       'Railroad Retirement Board': Railroad Retirement Board
       'SBA': SBA
       'Securities and Exchange Commission': Securities and Exchange Commission
@@ -127,7 +129,8 @@ contact_page:
     reset: Clear form
     submit: Submit
     subtopics:
-      account_locked: My account is locked for 24 hours
+      account_deactivated: My account has been deactivated
+      account_locked: My account is locked for 6 hours
       add_family_member: How do I add a family member to my Login.gov account?
       agency_app: Agency app issue
       authentication_app: How do I change my authentication method?
@@ -142,6 +145,7 @@ contact_page:
       delete_account: How do I delete my Login.gov account?
       device_notification: I have received an alert about a new sign in on my Login.gov account
       email_delivery_issue: I am not receiving the Login.gov confirmation email
+      facial_matching: My photo of my face was not accepted
       feedback: I have feedback about Login.gov
       forgot_password: I forgot my Login.gov password and can’t reset it
       how_to_create_with_verification: How do I create a Login.gov account with identity verification?
@@ -170,9 +174,10 @@ contact_page:
       personal_key: My personal key is not working
       personal_key_notification: I have received an alert about my personal key being used to sign in
       personal_key_setup: Personal key setup
-      phone_number_failure: I got a failure after entering my phone number
+      phone_number_failure: My phone number doesn’t match records
       piv_cac: I am having trouble using my PIV/CAC to sign in
       privacy_and_security: Privacy and security
+      recaptcha_sign_in: I failed the security check while signing in
       recover_account: How do I sign into my account if I dont have my phone or personal key?
       remember_browser: I set up remember browser but I’m still receiving security codes
       remember_device_issue: How do I stop receiving security codes?
@@ -182,9 +187,9 @@ contact_page:
       seeing_errors: I’m seeing an error/blank screen when accessing Login.gov
       service_quality: Service quality
       site_navigation: I don’t know where to go to create an account
-      state_issued_id_error: I got an error after uploading my state-issued ID
+      state_issued_id_error: My state-issued ID wasn’t accepted
       unwanted_otp: I am receiving security codes from Login.gov that I didn’t request
-      verify_identity_error: I got a failure trying to verify my identity
+      verify_identity_error: My SSN or address doesn’t match records
       wrong_account_update: Wrong account update
     title: Submit a help ticket
     topics:
@@ -292,8 +297,8 @@ nav:
         url: '#get-in-touch'
       - name: Partner with Login.gov
         url: '#partner-with-logingov'
-      - name: Report an issue
-        url: '#report-an-issue'
+      - name: Report a security issue
+        url: '#report-a-security-issue'
     title: Contact us
   create_an_account: Create an account
   developer_guide: Developer guide

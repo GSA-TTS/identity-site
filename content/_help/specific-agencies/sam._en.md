@@ -28,14 +28,12 @@ Login.gov can only answer questions about the sign-in process and creating a Log
 
 Please contact [SAM.gov](https://sam.gov/) directly if you have questions regarding:
 
-* [How do I view my Unique Entity ID (UEID) or entity registration record?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=27a95ddfdb73b990a8cb4a39139619e9)
+* [How do I view my Unique Entity ID or entity registration record?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
 * Entity administration
-  * [How do I become an entity administrator?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=923dcc781b3a6d502fe5ed7ae54bcbe9)
-  * [How do I update/renew an entity administration in SAM.gov?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=707404621b327d90860e62cfe54bcb58)
+  * [How do I become an entity administrator?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016652)
+  * [How do I update/renew an entity administration in SAM.gov?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016307)
 * Email addresses and your Login.gov account
-  * [What do I do if my company changes my email address?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=6d69d674879b355065b70ed40cbb35e9)
-  * [I updated my email address in Login.gov, why am I unable to log in to SAM.gov or receive my One Time Passcode (OTP)?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=da7c0c411bcdfd142fe5ed7ae54bcb4c)
-  * [What happens to my SAM.gov access if I change my email address on Login.gov?](https://www.fsd.gov/gsafsd_sp?id=gsafsd_kb_articles&sys_id=9f6f9c311b6d7150c5c4dd39bc4bcb22)
+  * [What happens to my SAM.gov access if I change my email address on Login.gov?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0020259)
 
 To make changes to your SAM.gov account profile, you will need to sign in at <https://sam.gov>.
 

@@ -9,15 +9,13 @@ component:
   col1: >-
     ## Nos partenaires
 
-
     Les organismes fédéraux partenaires proposent toute une gamme de services tels que :
-
 
     * USAJOBS (Bureau de la gestion du personnel)
 
-    * Programme de protection des salaires (Administration des petites entreprises)
+    * My Social Security (Administration de la Sécurité sociale)
 
-    * Programme de demandes de prêts en cas de catastrophe (Administration des petites entreprises)
+    * VA.gov (Affairs département des Anciens Combattants)
   col2: >-
     Login.gov respecte les dernières [normes de sécurité](/fr/policy/)
     mises en place par les plus grandes organisations de sécurité, telles que

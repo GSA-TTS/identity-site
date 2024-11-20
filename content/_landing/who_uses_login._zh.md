@@ -13,9 +13,9 @@ component:
 
     * USAJOBS（联邦人事管理局）
 
-    * 薪资保护计划（小企业管理局)
+    * 我的社会保障（My Social Security）（社会保障局）
 
-    * 灾害贷款申请计划（小企业管理局）
+    * VA.gov (退伍军人事务部)
   col2: >-
     Login.gov 遵守由最知名的安全机构建立的最新的[安全标准](/zh/policy/)，这些机构包括国家标准与技术研究院（[National Institute of Standards and Technology](https://www.nist.gov/)）、网络安全国家行动计划 （[Cybersecurity National Action Plan](https://www.hsdl.org/c/cybersecurity-national-action-plan/)）以及联邦采购服务局（[Federal Acquisition Service](https://www.gsa.gov/about-us/organization/federal-acquisition-service)）
 

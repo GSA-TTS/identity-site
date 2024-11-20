@@ -62,6 +62,7 @@ contact_page:
       'DOT National Registry of Certified Medical Examiners': Registre national des médecins légistes agréés du DOT
       'Environmental Protection Agency': Agence de protection de l’environnement
       'FDIC Resolution Request Management Portal': Portail de gestion des demandes de résolution de la FDIC
+      'Federal Reserve Board (FRB)': Conseil des gouverneurs de la Réserve fédérale (FRB)
       'FEMA Disaster Assistance': Aide de la FEMA en cas de catastrophe
       'General Services Administration': Administration des services généraux
       'Get.gov': Get.gov
@@ -87,6 +88,7 @@ contact_page:
       'Pay.gov': Pay.gov
       'PBGC-MyPBA': PBGC - MyPBA
       'Peace Corps': Corps de la paix
+      'Postal Service Health Benefits (PSHB)': Prestations de santé des services postaux (PSHB)
       'Railroad Retirement Board': Conseil des retraites dans les chemins de fer
       'SBA': SBA
       'Securities and Exchange Commission': Commission des titres et de la bourse
@@ -131,7 +133,8 @@ contact_page:
     reset: Effacer le formulaire
     submit: Valider
     subtopics:
-      account_locked: Mon compte est verrouillé pendant 24 heures
+      account_deactivated: Mon compte a été désactivé
+      account_locked: Mon compte est verrouillé pendant 6 heures
       add_family_member: Comment puis-je ajouter un membre de ma famille à mon compte Login.gov ?
       agency_app: Problème relevant de l’application de l’organisme
       authentication_app: Comment puis-je modifier ma méthode d’authentification ?
@@ -148,6 +151,7 @@ contact_page:
       device_notification: J’ai reçu une alerte au sujet d’une nouvelle connexion à
         mon compte Login.gov.
       email_delivery_issue: Je ne reçois pas l’e-mail de confirmation de la part de Login.gov.
+      facial_matching: La photo de mon visage n’a pas été acceptée
       feedback: J’ai des commentaires à propos de Login.gov.
       forgot_password: J’ai oublié mon mot de passe Login.gov et je ne parviens pas à
         le réinitialiser.
@@ -164,8 +168,7 @@ contact_page:
       issue_with_partner_agency: Je rencontre un problème avec cet organisme partenaire.
       issues_with_face_touch_unlock: Je rencontre des problèmes avec l’emploi du
         déverrouillage facial ou tactile.
-      letter_in_mail: Je n’ai pas reçu mon courrier par la poste ou mon courrier n’est
-        plus valable.
+      letter_in_mail: Je n’ai pas reçu mon courrier par la poste ou mon courrier n’est plus
       locked_out: Mon compte est verrouillé.
       lost_2fa_method: J’ai perdu ma méthode d’authentification à deux facteurs.
       lost_access: J’ai perdu l’accès à mon téléphone ou à mon adresse e-mail.
@@ -184,9 +187,10 @@ contact_page:
       personal_key_notification: J’ai reçu une alerte me notifiant que ma clé
         personnelle a servi pour une connexion.
       personal_key_setup: Paramétrage de la clé personnelle
-      phone_number_failure: J’ai reçu un message d’échec après avoir saisi mon numéro de téléphone.
+      phone_number_failure: Mon numéro de téléphone ne correspond pas aux informations stockées
       piv_cac: Je rencontre des difficultés pour me connecter avec ma carte PIV/CAC.
       privacy_and_security: Confidentialité et sécurité
+      recaptcha_sign_in: Je n’ai pas réussi la vérification de sécurité en me connectant
       recover_account: Comment puis-je me connecter à mon compte si je n’ai pas mon
         téléphone ni une clé personnelle ?
       remember_browser: J’ai paramétré « Se souvenir de ce navigateur » mais je
@@ -200,10 +204,10 @@ contact_page:
         Login.gov.
       service_quality: Qualité de service
       site_navigation: Je ne sais pas sur quelle page aller pour créer un compte.
-      state_issued_id_error: J’ai reçu un message d’erreur après avoir téléversé mon
-        document d’identité délivré par l’État.
+      state_issued_id_error: Ma pièce d’identité d’un État n’a pas été acceptée
       unwanted_otp: Je reçois des codes de sécurité de Login.gov que je n’ai pas demandés.
-      verify_identity_error: J’ai reçu un message d’échec en essayant de confirmer mon identité.
+      verify_identity_error: Mon numéro de sécurité sociale ou mon adresse ne
+        correspondent pas aux informations stockées
       wrong_account_update: Actualisation du compte erronée
     title: Envoyer un ticket de demande d’assistance
     topics:
@@ -314,8 +318,8 @@ nav:
         url: '#contactez-nous'
       - name: Devenez partenaire de Login.gov
         url: '#devenez-partenaire-de-logingov'
-      - name: Signaler un problème
-        url: '#signaler-un-problème'
+      - name: Signaler un problème de sécurité
+        url: '#signaler-un-problème-de-sécurité'
     title: Nous contacter
   create_an_account: Créer un compte
   developer_guide: Guide du développeur
