@@ -37,12 +37,12 @@ end_user_support: >-
     ### End user support
 
 
-    Login.gov provides support to end users by offering a comprehensive [online help center](https://www.login.gov/help/){:class="usa-link--external"} with articles and FAQs addressing common issues - available in English, Spanish, French, and Simplified Chinese. We also operate a help desk 24 hours a day, seven days a week with agents that answer inquiries from our [contact form](https://www.login.gov/contact/){:class="usa-link--external"} and telephone calls for more complex issues, including in multiple languages via interpreters. Our team will also work together with your agency help desk to assist in providing help content for your end users. 
+    Login.gov provides support to end users by offering a comprehensive [online help center](/help/){:class="usa-link--external"} with articles and FAQs addressing common issues - available in English, Spanish, French, and Simplified Chinese. We also operate a help desk 24 hours a day, seven days a week with agents that answer inquiries from our [contact form](/contact/){:class="usa-link--external"} and telephone calls for more complex issues, including in multiple languages via interpreters. Our team will also work together with your agency help desk to assist in providing help content for your end users. 
 accessibility_multilingual_support: >-
     ### A focus on accessibility and multilingual support
 
 
-    Login.gov prioritizes [accessibility](https://www.login.gov/accessibility/), including an emphasis on Section 508 compliance, to support users with disabilities. Our application is designed to be compatible with screen readers, keyboard navigation, and other assistive technologies that make it easier for individuals with visual, motor, or cognitive impairments to access services.
+    Login.gov prioritizes [accessibility](/accessibility/), including an emphasis on Section 508 compliance, to support users with disabilities. Our application is designed to be compatible with screen readers, keyboard navigation, and other assistive technologies that make it easier for individuals with visual, motor, or cognitive impairments to access services.
 
 
     For individuals with limited English proficiency, Login.gov is available in Spanish, French, and Simplified Chinese. Our team works with human translators to ensure each translated version of Login.gov is precise and culturally-relevant.
