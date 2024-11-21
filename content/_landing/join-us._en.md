@@ -22,7 +22,7 @@ Head over to the [Join TTS website](https://tts.gsa.gov/join/) to see all open a
 
 To apply to positions at Login.gov and elsewhere in the Technology Transformation Services, you’ll need:
 
-* A [government-style resume](https://join.tts.gsa.gov/resume/)
+* A [government-style resume](https://tts.gsa.gov/join/resume/)
 * A completed application
 * Additional documents if you are claiming veterans preference
 
