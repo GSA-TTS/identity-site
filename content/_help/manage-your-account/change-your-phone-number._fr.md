@@ -22,5 +22,5 @@ Suivez les étapes suivantes pour modifier le numéro de téléphone associé à
    * N'utilisez pas de services téléphoniques par internet (Voix sur IP) ou de numéros de téléphone à tarif majoré (payant).
 7. Cochez la case « Numéro de téléphone par défaut » si vous souhaitez que ce numéro soit votre numéro par défaut.
 
-   * Le numéro de téléphone par défaut sera le numéro de téléphone principal associé à votre compte. Si vous utilisez des codes SMS pour vous authentifier et vous connecter, ces codes seront envoyés à votre numéro de téléphone par défaut.
+   * Le numéro de téléphone par défaut sera le numéro de téléphone principal associé à votre compte. Si vous utilisez des SMS ou des appels téléphoniques pour vous authentifier et vous connecter, ces codes seront envoyés à votre numéro de téléphone par défaut.
 8. Cliquez sur « Suite » et suivez les instructions pour confirmer vos modifications.
