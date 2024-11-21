@@ -18,7 +18,7 @@ permalink: /zh/join/
 
 要申请 Login.gov 以及技术改造服务处（TTS）的其他职位，你需要：
 
-* 一份[政府格式简历](https://join.tts.gsa.gov/resume/)
+* 一份[政府格式简历](https://tts.gsa.gov/join/resume/)
 * 完整的申请表
 * 如果你要得到退伍军人优先待遇，请提交额外材料。
 
