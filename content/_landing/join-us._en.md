@@ -16,7 +16,7 @@ If you have any questions, please contact our Talent Team at [jointts@gsa.gov](m
 
 ## Open positions
 
-Head over to the [Join TTS website](https://join.tts.gsa.gov/) to see all open and upcoming Login.gov and TTS positions.
+Head over to the [Join TTS website](https://tts.gsa.gov/join/) to see all open and upcoming Login.gov and TTS positions.
 
 ## How to apply
 
@@ -28,4 +28,4 @@ To apply to positions at Login.gov and elsewhere in the Technology Transformatio
 
 You can find links to these documents and more information in individual job postings.
 
-See all open positions and full instructions on the [Technology Transformation Services join page](https://join.tts.gsa.gov/).
+See all open positions and full instructions on the [Technology Transformation Services join page](https://tts.gsa.gov/join/).
