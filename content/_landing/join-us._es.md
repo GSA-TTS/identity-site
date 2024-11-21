@@ -14,7 +14,7 @@ Si tiene alguna pregunta, comuníquese con nuestro equipo de talentos en [jointt
 
 ## Puestos vacantes
 
-En el [sitio web Join TTS](https://join.tts.gsa.gov/), vea todos los puestos vacantes y previstos en Login.gov y en los Servicios de Transformación Tecnológica (TTS).
+En el [sitio web Join TTS](https://tts.gsa.gov/join/), vea todos los puestos vacantes y previstos en Login.gov y en los Servicios de Transformación Tecnológica (TTS).
 
 ## Cómo presentar solicitud
 
@@ -26,4 +26,4 @@ Para solicitar puestos en Login.gov y en los Servicios de Transformación Tecnol
 
 Busque los vínculos a estos documentos y más información en cada publicación de ofertas de trabajo.
 
-Vea todos los puestos vacantes y las instrucciones completas en [la página para unirse a los Servicios de Transformación Tecnológica](https://join.tts.gsa.gov/).
+Vea todos los puestos vacantes y las instrucciones completas en [la página para unirse a los Servicios de Transformación Tecnológica](https://tts.gsa.gov/join/).
