@@ -42,7 +42,7 @@ We recommend you set up additional authentication methods in case you lose acces
 
 ## I'm not receiving a text or phone call
 
-* If you have a landline phone, choose to receive your one-time code by phone call instead of a SMS/Text message. You’ll receive a voicemail if you can’t answer the call.
+* If you have a landline phone, choose to receive your one-time code by phone call instead of an SMS/Text message. You’ll receive a voicemail if you can’t answer the call.
 * If you have a mobile phone, make sure airplane mode is off.
 * Your code may not arrive immediately. Wait up to 10 minutes, or try the “Resend code” button to send your code again.
 * Make sure you’re not using a phone number with an extension, as Login.gov cannot send one-time codes to extensions.
