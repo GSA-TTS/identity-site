@@ -20,7 +20,7 @@ En el [sitio web Join TTS](https://tts.gsa.gov/join/), vea todos los puestos vac
 
 Para solicitar puestos en Login.gov y en los Servicios de Transformación Tecnológica, necesitará:
 
-* Un [currículo en una plantilla estilo gobierno](https://join.tts.gsa.gov/resume/)
+* Un [currículo en una plantilla estilo gobierno](https://tts.gsa.gov/join/resume/)
 * Una solicitud completa
 * Otros documentos si solicita preferencia para veteranos
 
