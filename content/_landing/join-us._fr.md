@@ -20,7 +20,7 @@ Pour découvrir tous les postes à pourvoir actuellement et prochainement chez L
 
 Pour déposer une candidature à un poste chez Login.gov ou dans un autre département des Services de transformation technologique, vous aurez besoin :
 
-* D’un [CV type services publics](https://join.tts.gsa.gov/resume/)
+* D’un [CV type services publics](https://tts.gsa.gov/join/resume/)
 * D’un formulaire de candidature dûment rempli
 * De documents complémentaires si vous vous revendiquez comme ancien combattant
 
