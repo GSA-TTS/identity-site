@@ -14,16 +14,16 @@ Pour toute question, veuillez contacter notre équipe de gestion des talents à 
 
 ## Postes à pourvoir
 
-Pour découvrir tous les postes à pourvoir actuellement et prochainement chez Login.gov et au sein des Services de transformation technologique (TTS), rendez-vous sur le [site Web du recrutement TTS](https://join.tts.gsa.gov/).
+Pour découvrir tous les postes à pourvoir actuellement et prochainement chez Login.gov et au sein des Services de transformation technologique (TTS), rendez-vous sur le [site Web du recrutement TTS](https://tts.gsa.gov/join/).
 
 ## Comment déposer une candidature
 
 Pour déposer une candidature à un poste chez Login.gov ou dans un autre département des Services de transformation technologique, vous aurez besoin :
 
-* D’un [CV type services publics](https://join.tts.gsa.gov/resume/)
+* D’un [CV type services publics](https://tts.gsa.gov/join/resume/)
 * D’un formulaire de candidature dûment rempli
 * De documents complémentaires si vous vous revendiquez comme ancien combattant
 
 Vous trouverez les liens vers ces documents ainsi que d’autres informations dans les différentes offres d’emploi.
 
-Pour voir tous les postes à pourvoir et l’ensemble des instructions connexes, rendez-vous sur la [page de recrutement TTS](https://join.tts.gsa.gov/).
+Pour voir tous les postes à pourvoir et l’ensemble des instructions connexes, rendez-vous sur la [page de recrutement TTS](https://tts.gsa.gov/join/).
