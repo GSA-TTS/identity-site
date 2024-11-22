@@ -2,7 +2,7 @@
 title: Issues with verifying your identity in person
 meta_title: Issues with verifying your identity in person
 child: true
-order: 0
+order: 2
 permalink: /zh/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 ---
 ## I received an email from Login.gov, but I did not attempt to verify my identity at a Post Office
