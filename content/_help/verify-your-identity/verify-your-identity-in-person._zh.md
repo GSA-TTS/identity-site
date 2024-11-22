@@ -4,6 +4,7 @@ title: 亲身验证你的身份
 category: verify-your-identity
 children:
   - /zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
+  - /zh/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 permalink: /zh/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
@@ -72,30 +73,6 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 
 * 检查你的垃圾邮箱，看看有没有来自 [no-reply@login.gov](mailto:no-reply@login.gov) 的邮件。
 * 如果你去邮局 24 小时后尚未收到来自我们的消息，请在[login.gov/contact](https://login.gov/contact) 联系 Login.gov 客户支持。
-
-## 亲身验证身份解疑
-
-如果你在亲身验证身份时遇到问题，我们很乐意帮你解决。以下是解决该流程中问题的一些小贴士。
-
-### 如果你收到了电邮，但却没有尝试亲身验证身份，该怎么办？
-
-如果你收到电邮，告诉你可以去验证身份了或者你亲身身份验证不成功，但是你实际上并没有去亲身验证身份：
-
-请马上[登录账户](https://secure.login.gov/zh)并[立即更改你的密码。](/zh/help/manage-your-account/change-your-password/)如果你愿意，也可以[删除你的账户。](/zh/help/manage-your-account/delete-your-account/)
-
-### 如果你亲身验证身份未能成功，该怎么办？
-
-如果你无法成功亲身验证你的身份，你可以尝[试在网上或再次亲身验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/), 或者你可以联系你试图访问的机构，以[获取有关验证身份具体问题的帮助](/zh/help/specific-agencies/overview/)。
-
-有关亲身验证身份的小贴士：
-
-* 你的州政府颁发的身份证件或驾照绝对没有过期。我们目前不接受任何其他形式的身份证件。
-
-### 要是亲身验证身份的截止日期已过，怎么办？
-
-如果你收到电邮，告诉你验证你身份的截止日期已过，请尝试[再次在网上验证身份。](/zh/help/verify-your-identity/how-to-verify-your-identity/)
-
-为了保护申请人的个人数据，我们会在 30 天后自动取消身份验证请求。你重新开始亲身验证身份这一流程后，会收到一个新截止日期。
 
 ## 相关文章
 
