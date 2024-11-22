@@ -9,7 +9,7 @@ redirect_from:
   - /help/signing-in/how-to-sign-in/
   - /en/help/trouble-signing-in/how-to-sign-in/
 ---
-Every time you sign in to your Login.gov account, you will need your email address, your password, and access to one of the [authentication options](/help/get-started/authentication-methods/) you set up.
+Every time you sign in to your Login.gov account, you will need your email address, your password, and access to one of the [authentication methods](/help/get-started/authentication-methods/) you set up.
 
 Follow these steps to sign in to Login.gov.
 
@@ -17,7 +17,7 @@ Follow these steps to sign in to Login.gov.
 1. Enter your email address at <https://secure.login.gov>.
 2. Enter your password.
 3. Click the “Sign in” button.
-4. Authenticate using one of the options you set up, such as:
+4. Authenticate using one of the methods you set up, such as:
 
    * Scanning your face or fingerprint
    * Entering a one-time code from your authentication application

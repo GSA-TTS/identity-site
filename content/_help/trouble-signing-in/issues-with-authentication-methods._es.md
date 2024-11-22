@@ -47,7 +47,7 @@ Le recomendamos que configure otros métodos de autenticación en caso de que pi
 * Cerciórese de que no está usando un número de teléfono con extensión, ya que Login.gov no puede enviar códigos de un solo uso a extensiones.
 
 {% capture newest_otp_alert_content %}
-Solo funcionará el código de un solo uso más reciente que reciba. Si solicita y recibe varios mensajes al mismo tiempo, es posible que tenga que probar más de un código hasta que uno funcione.
+Solo funcionará el código de un solo uso más reciente que reciba. Si solicita y recibe varios mensajes de texto al mismo tiempo, es posible que tenga que probar más de un código hasta que uno funcione.
 {% endcapture %}
 {% include alert.html class="margin-bottom-4" content=newest_otp_alert_content %}
 
@@ -66,7 +66,7 @@ Solo funcionará el código de un solo uso más reciente que reciba. Si solicita
 * Si puede volver a acceder al número original de su teléfono, hágalo primero y luego solicite un código de un solo uso. Debería recibir el código aunque esté usando un dispositivo y una tarjeta SIM nuevos.
 * Si perdió su clave de seguridad, tendrá que utilizar un método de autenticación diferente o eliminar su cuenta si no dispone de otro método de autenticación, a menos que ya haya configurado una copia de seguridad.
 
-## Mi tarjeta PIV o CAC no funciona
+## Mi identificación de empleado del gobierno no funciona
 * Puede ser que Login.gov no tenga un certificado de emisión para su tarjeta. [Contacte con el servicio de asistencia de Login.gov para obtener más ayuda.](https://login.gov/contact/)
 
 ## Otros artículos

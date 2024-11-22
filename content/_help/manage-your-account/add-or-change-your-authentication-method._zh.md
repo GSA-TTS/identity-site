@@ -21,6 +21,6 @@ order: 4
 7. 按照所有提示来确认你做的更改。
 
 ## 相关文章
-[身份证实选项](/zh/help/get-started/authentication-methods/) 
-[忘了密码](/zh/help/trouble-signing-in/forgot-your-password/) 
-[删除账户](/zh/help/manage-your-account/delete-your-account/)
+* [身份证实选项](/zh/help/get-started/authentication-methods/) 
+* [忘了密码](/zh/help/trouble-signing-in/forgot-your-password/) 
+* [删除账户](/zh/help/manage-your-account/delete-your-account/)

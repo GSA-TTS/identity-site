@@ -28,7 +28,7 @@ redirect_from:
   - /fr/help/signing-in/what-is-an-authentication-app/
   - /fr/help/signing-in/what-is-an-authenticator-app/
 ---
-En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d’authentification pour assurer la sécurité de votre compte. Il s’agit d’une authentification multi-facteurs (AMF). Nous utilisons l’AMF comme un niveau de protection supplémentaire pour sécuriser vos informations.
+En plus de votre mot de passe, Login.gov exige que vous mettiez en place au moins une méthode d’authentification pour assurer la sécurité de votre compte. Il s’agit de l’authentification multi-facteurs (AMF). L’AMF est un niveau de protection supplémentaire pour sécuriser vos informations.
 
 **Méthodes d’authentification**
 Nous vous recommandons fortement d’ajouter deux méthodes d’authentification à votre compte. Si vous perdez l’accès à votre principale méthode d’authentification (par exemple, si vous perdez votre téléphone), vous aurez la possibilité d’utiliser la seconde pour accéder à votre compte. Login.gov ne peut pas vous laisser accéder à votre compte si vous vous faites bloquer ou si vous oubliez votre méthode d’authentification. Si vous vous faites bloquer, vous devrez supprimer votre compte et en créer un nouveau.
@@ -54,7 +54,7 @@ Nous vous recommandons vivement d’ajouter une deuxième méthode d’authentif
 
 ## Applications d'authentification
 
-Les applications d'authentification se téléchargent sur votre appareil et génèrent des codes de sécurité à six chiffres vous permettant de vous connecter à vos comptes. Bien que les applications d'authentification ne soient pas protégées en cas de perte ou de vol de votre appareil, cette méthode offre plus de sécurité que les appels téléphoniques ou les SMS contre les tentatives d'hameçonnage, de piratage ou d'interception.
+Les applications d'authentification se téléchargent sur votre appareil et génèrent des codes de sécurité à six chiffres vous permettant de vous connecter à vos comptes. Bien que les applications d'authentification ne soient pas protégées en cas de perte ou de vol de votre appareil, cette méthode offre plus de sécurité que les SMS ou les appels téléphoniques contre les tentatives d'hameçonnage, de piratage ou d'interception.
 
 Si vous choisissez cette option de sécurité, suivez les étapes suivantes pour télécharger et installer l'une des applications prises en charge et la configurer pour qu'elle fonctionne avec Login.gov.
 
@@ -97,20 +97,20 @@ Pour employer cette solution sécurisée afin de vous authentifier sur Login.gov
 
 ## SMS et appels téléphoniques
 
-Les SMS/textos ou les appels téléphoniques sont pratiques mais extrêmement vulnérables face au vol, au piratage et à d'autres attaques.
+Les SMS ou les appels téléphoniques sont pratiques mais extrêmement vulnérables face au vol, au piratage et à d'autres attaques.
 
 Si vous choisissez d'utiliser cette option moins sécurisée, saisissez un numéro de téléphone sur lequel vous pouvez recevoir des appels téléphoniques ou des SMS. Si vous n’avez qu’une ligne de téléphone fixe, vous devrez recevoir votre code à usage unique par appel téléphonique. Login.gov ne peut pas envoyer de codes uniques à des postes ou des messageries vocales.
 
 Un code unique sera envoyé à ce numéro de téléphone chaque fois que vous vous connecterez à votre compte Login.gov. Chaque code à usage unique expire après dix minutes et ne peut être utilisé qu'une seule fois. Si vous ne saisissez pas le code à usage unique dans les dix minutes, demandez-en un nouveau.
 
-Après avoir reçu le code, saisissez-le dans le champ « Code à usage unique ». Chaque fois que vous vous connecterez à Login.gov, vous aurez la possibilité d'obtenir un nouveau code à usage unique par appel téléphonique ou par SMS. Vous recevrez un nouveau code à usage unique chaque fois que vous vous connecterez à votre compte Login.gov.
+Après avoir reçu le code, saisissez-le dans le champ « Code à usage unique ». Chaque fois que vous vous connecterez à Login.gov, vous aurez la possibilité d'obtenir un nouveau code à usage unique par SMS ou appel téléphonique. Vous recevrez un nouveau code à usage unique chaque fois que vous vous connecterez à votre compte Login.gov.
 
 <div id="didn-t-receive-your-one-time-code"> Vous n’avez pas reçu votre code à usage unique ?</div>
 
 * Vérifiez que votre appareil est allumé.
 * Désactivez le mode avion.
 
-N'oubliez pas que vous devez disposer d'un appareil mobile pour recevoir un code à usage unique par SMS. Si vous disposez d'une ligne fixe, choisissez de recevoir le code à usage unique par appel téléphonique.
+N'oubliez pas que vous devez disposer d'un appareil mobile pour recevoir un code à usage unique par SMS. Si vous disposez d'une ligne fixe, choisissez plutôt de recevoir le code à usage unique par appel téléphonique.
 
 Vous pouvez renvoyer un code à usage unique en sélectionnant le bouton « Renvoyer le code ».
 

@@ -22,5 +22,5 @@ Siga estos pasos para cambiar el número de teléfono asociado con su cuenta.
    * No use servicios telefónicos basados en la web (VoIP) ni números de teléfono de tarifa especial (cuota).
 7. Marque la casilla "Número de teléfono predeterminado" si desea establecerlo como tal.
 
-   * El número de teléfono predeterminado será el número de teléfono principal asociado con su cuenta. Si utiliza SMS o códigos de texto para autenticarse e iniciar sesión, estos códigos se enviarán al número de teléfono predeterminado.
+   * El número de teléfono predeterminado será el número de teléfono principal asociado con su cuenta. Si utiliza mensajes de texto o llamadas de teléfono para autenticarse e iniciar sesión, estos códigos se enviarán al número de teléfono predeterminado.
 8. Haga clic en "Continuar" y siga las instrucciones para confirmar los cambios.

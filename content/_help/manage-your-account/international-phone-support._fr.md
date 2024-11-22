@@ -7,9 +7,9 @@ order: 7
 scripts:
   - /assets/js/country_support.js
 ---
-Les informations ci-dessous vous serviront à déterminer si votre numéro de téléphone étranger peut être utilisé comme méthode d'authentification à deux facteurs pour recevoir des SMS ou des appels téléphoniques. 
+Utilisez les informations ci-dessous pour déterminer si votre numéro de téléphone international peut recevoir un SMS ou un appel téléphonique pour l’authentification multi-facteurs pour vérifier votre identité.
 
-En raison de problèmes de spam ou de modifications apportées par nos fournisseurs de services SMS et vocaux, il est possible que cette liste change et que votre numéro ne soit plus pris en charge. Parfois, les nouveaux numéros de téléphone ne sont pas non plus pris en charge de manière vocale ou par SMS. 
+En raison de problèmes de spam ou de modifications apportées par nos prestataires SMS et vocaux, il est possible que cette liste change et que votre numéro ne soit plus pris en charge. Il arrive que les numéros de téléphone nouveaux ne soient pas en mesure de recevoir des SMS ou des appels téléphoniques.
 
 Nous vous encourageons à configurer plus d'une méthode d'authentification pour éviter que votre compte ne soit bloqué si votre numéro de téléphone n'est plus pris en charge. 
 

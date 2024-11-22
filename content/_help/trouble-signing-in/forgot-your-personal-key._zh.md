@@ -41,6 +41,6 @@ order: 4
 
 ## 相关文章
 
-[忘了密码](/zh/help/trouble-signing-in/forgot-your-password/) 
-[更改密码](/zh/help/manage-your-account/change-your-password/) 
-[如何验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
+* [忘了密码](/zh/help/trouble-signing-in/forgot-your-password/) 
+* [更改密码](/zh/help/manage-your-account/change-your-password/) 
+* [如何验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
