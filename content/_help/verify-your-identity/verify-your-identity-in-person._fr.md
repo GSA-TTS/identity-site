@@ -73,7 +73,7 @@ En cas d’échec de la vérification de votre identité, vous pouvez :
 Si vous ne recevez pas d’e-mail de notre part, il y a certaines mesures que vous pouvez prendre :
 
 - Vérifiez dans votre dossier de pourriels ou de courriers indésirables s'il contient un e-mail de [no-reply@login.gov](mailto:no-reply@login.gov).
-- Si vous n'avez pas eu de nos nouvelles après 24 heures de votre visite au bureau de poste, veuillez contacter le service clientèle de Login.gov sur [login.gov/contact](https://login.gov/contact).
+- Si vous n'avez pas eu de nos nouvelles après 24 heures de votre visite au bureau de poste, veuillez contacter le service clientèle de Login.gov sur [login.gov/contact](/fr/contact).
 
 ## Articles connexes
 
