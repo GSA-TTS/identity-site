@@ -71,7 +71,7 @@ Si no se logró la verificación de su identidad, usted puede:
 Si no recibe un correo electrónico de nosotros, estos son algunos pasos que puede seguir:
 
 * Busque en la carpeta de correo no deseado un mensaje de [no-reply@login.gov](mailto:no-reply@login.gov).
-* Si no recibe información de nosotros en las 24 horas después de su visita a la oficina de correos, póngase en contacto con el servicio de atención al cliente de Login.gov en [login.gov/contact](/es/contact).
+* Si no recibe información de nosotros en las 24 horas después de su visita a la oficina de correos, póngase en contacto con el servicio de atención al cliente de Login.gov en [login.gov/contact](/es/contact/).
 
 ## Otros artículos
 

@@ -72,7 +72,7 @@ Login.gov 提供到你附近件的美国邮局（USPS）亲身验证身份的选
 如果你没有收到我们电邮，可以采取以下步骤：
 
 * 检查你的垃圾邮箱，看看有没有来自 [no-reply@login.gov](mailto:no-reply@login.gov) 的邮件。
-* 如果你去邮局 24 小时后尚未收到来自我们的消息，请在[login.gov/contact](/zh/contact) 联系 Login.gov 客户支持。
+* 如果你去邮局 24 小时后尚未收到来自我们的消息，请在[login.gov/contact](/zh/contact/) 联系 Login.gov 客户支持。
 
 ## 相关文章
 
