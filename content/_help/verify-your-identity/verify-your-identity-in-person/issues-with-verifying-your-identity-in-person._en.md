@@ -7,7 +7,7 @@ permalink: /help/verify-your-identity/verify-your-identity-in-person/issues-with
 ---
 ## I received an email from Login.gov, but I did not attempt to verify my identity at a Post Office
 
-Sign into your Login.gov account and [change your password immediately](https://login.gov/help/manage-your-account/change-your-password/). If you’d like, you can also [delete your account](https://login.gov/help/manage-your-account/delete-your-account/).
+Sign into your Login.gov account and [change your password immediately](/help/manage-your-account/change-your-password/). If you’d like, you can also [delete your account](/help/manage-your-account/delete-your-account/).
 
 ## I received an unsuccessful email result after going to the Post Office
 
@@ -17,7 +17,7 @@ Sign into your Login.gov account and [change your password immediately](https://
 ## I didn’t receive any emails from Login.gov after going to the Post Office
 
   * You'll get an email within 24 hours of visiting a Post Office. We'll tell you if your identity verification was successful or unsuccessful. Check your email for a message from no-reply@login.gov. 
-  * [Contact Login.gov customer support](https://login.gov/contact/) if you have not received an email after 24 hours.
+  * [Contact Login.gov customer support](/contact/) if you have not received an email after 24 hours.
 
 ## I’m having a problem with my barcode
 
