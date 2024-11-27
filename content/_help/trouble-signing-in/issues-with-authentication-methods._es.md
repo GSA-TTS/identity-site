@@ -67,7 +67,7 @@ Solo funcionará el código de un solo uso más reciente que reciba. Si solicita
 * Si perdió su clave de seguridad, tendrá que utilizar un método de autenticación diferente o eliminar su cuenta si no dispone de otro método de autenticación, a menos que ya haya configurado una copia de seguridad.
 
 ## Mi tarjeta PIV o CAC no funciona
-* Puede ser que Login.gov no tenga un certificado de emisión para su tarjeta. [Contacte con el servicio de asistencia de Login.gov para obtener más ayuda.](https://login.gov/contact/)
+* Puede ser que Login.gov no tenga un certificado de emisión para su tarjeta. [Contacte con el servicio de asistencia de Login.gov para obtener más ayuda.](/es/contact/)
 
 ## Otros artículos
 
