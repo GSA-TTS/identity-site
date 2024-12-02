@@ -25,7 +25,7 @@ component:
     Login.gov 使用[最高的安全标准](/zh/policy/)来保护你信息的安全，包括身份验证和[双重身份验证](/zh/help/get-started/authentication-methods/)。
 
 
-    Login.gov[由技术转型服务处（Technology Transformation Services - TTS）](https://tts.gsa.gov/)提供。
+    Login.gov[由技术转型服务处（Technology Transformation Services - TTS](https://tts.gsa.gov/) 提供。
   bannertext: >-
     ## 这一点如何实现？
 
