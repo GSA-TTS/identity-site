@@ -8,13 +8,10 @@ component:
     ## Un seul et même compte et mot de passe
 
 
-    Login.gov est un service de connexion sécurisé permettant au public d’accéder aux organismes fédéraux participants. Les organismes participants vous demanderont de créer un compte Login.gov afin de pouvoir accéder en toute sécurité aux informations vous concernant sur leur site Web ou application.
+    Login.gov offre une méthode sécurisée pour se connecter à de nombreux sites Web des autorités américaines à l'aide d'un seul et unique compte. Celui-ci protège vos informations en vous demandant d’effectuer des étapes supplémentaires pour vérifier que c’est bien vous qui vous connectez à votre compte.
 
 
-    Vous pouvez utiliser le même nom d'utilisateur et le même mot de passe pour accéder à n'importe quel organisme partenaire de Login.gov. Cela simplifie vos démarches et évite de devoir se souvenir de plusieurs noms d'utilisateur et mots de passe.
-
-
-    ### Login.gov sert à sécuriser votre compte lorsque vous candidatez pour
+    ### Login.gov sert à sécuriser votre compte lorsque vous accédez à :
 
 
     * des emplois fédéraux (USAJOBS - Bureau de la gestion du personnel)
@@ -29,15 +26,14 @@ component:
     Login.gov emploie [les plus hautes normes de sécurité](/fr/policy/) pour protéger vos informations, y compris lors de la vérification de l’identité et [de l’authentification à deux facteurs](/fr/help/get-started/authentication-methods/).
 
 
-    Login.gov est fourni par [les Services de transformation technologique (TTS)](https://www.gsa.gov/tts).
+    Login.gov est un service fourni par [Technology Transformation Services (TTS)](https://tts.gsa.gov/).
   bannertext: >-
     ## Comment ça marche ?
 
 
     Des organismes participants utilisent Login.gov afin de mieux protéger leurs utilisateurs. Lorsque vous essayez de vous connecter à un organisme participant, vous êtes invité à vous connecter ou à créer un compte sur Login.gov avant de pouvoir accéder à votre profil auprès de cet organisme.
   bannercol1: >-
-    ### Tous les organismes participants utilisent Login.gov pour assurer une
-    connexion sécurisée.
+    ### Comment vous connecter avec votre compte Login.gov.
 
 
     Vous devez fournir deux éléments d’information pour vous connecter en toute sécurité et protéger vos informations. 
@@ -50,10 +46,10 @@ component:
 
     Utiliser à la fois votre mot de passe et une autre méthode rend plus difficile l'accès à vos informations par des tiers.
   bannercol2: >-
-    ### Certains organismes exigent que vous vérifiez votre identité. 
+    ### Certains organismes vous demandent de fournir des documents supplémentaires afin de vérifier votre identité.
 
 
-    Login.gov vérifie votre identité pour le compte de l’organisme. En envoyant des informations personnelles identifiables telles qu’une pièce d’identité comportant votre photo, vous pourrez confirmer votre identité. Nous pouvons uniquement confirmer votre identité et ne déterminons pas l’admissibilité aux services des organismes.
+    Pour accéder à certains sites Web des autorités fédérales, il vous sera demandé de fournir des documents supplémentaires par voie électronique afin que Login.gov puisse vérifier votre identité. Par exemple, il peut vous être demandé de prendre une photo de votre pièce d'identité ou de fournir une photo de vous-même. Si vous préférez, ou si vous n’êtes pas en mesure de fournir ces photos par voie électronique, vous aurez la possibilité de présenter en personne votre pièce d'identité avec photo dans un bureau de poste participant. Nous utilisons ces documents et ces photos uniquement pour confirmer votre identité. Login.gov ne détermine pas l’admissibilité aux services des organismes.
 permalink: /fr/what-is-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
