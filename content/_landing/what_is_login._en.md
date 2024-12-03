@@ -50,7 +50,7 @@ component:
     ### Some agencies require you to provide additional documents to verify who you are.
 
 
-    To access some government websites, you will be asked to electronically  submit additional documents , so Login.gov  can verify your identity. For example, you may be asked to take a picture of your photo ID or provide a picture of yourself. If you prefer, or are unable to electronically submit these pictures, you will have the option to provide your photo ID in person at a participating U.S. Postal Service location. We only use the documents and photos to confirm your identity. Login.gov does not make any determination on eligibility for agency services.
+    To access some government websites, you will be asked to electronically submit additional documents, so Login.gov  can verify your identity. For example, you may be asked to take a picture of your photo ID or provide a picture of yourself. If you prefer, or are unable to electronically submit these pictures, you will have the option to provide your photo ID in person at a participating U.S. Postal Service location. We only use the documents and photos to confirm your identity. Login.gov does not make any determination on eligibility for agency services.
 permalink: /what-is-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
