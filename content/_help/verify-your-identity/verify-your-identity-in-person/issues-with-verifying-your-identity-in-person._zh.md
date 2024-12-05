@@ -1,28 +1,28 @@
 ---
-title: Issues with verifying your identity in person
-meta_title: Issues with verifying your identity in person
+title: 亲身验证身份相关问题
+meta_title: 亲身验证身份相关问题
 child: true
 order: 2
 permalink: /zh/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 ---
-## I received an email from Login.gov, but I did not attempt to verify my identity at a Post Office
+## 我收到了一封来自Login.gov的电邮，但我并没有想去邮局验证身份
 
-Sign into your Login.gov account and [change your password immediately](/zh/help/manage-your-account/change-your-password/). If you’d like, you can also [delete your account](/zh/help/manage-your-account/delete-your-account/).
+请登录你的Login.gov账户并[立即更改你的密码](/zh/help/manage-your-account/change-your-password/)。如果你愿意，也可以[删除你的账户](/zh/help/manage-your-account/delete-your-account/)。
 
-## I received an unsuccessful email result after going to the Post Office
+## 我去邮局后收到了一封结果未成功的电邮
 
-  * Try to verify your identity again, either online or in person. Your state-issued ID or driver’s license must not be expired. We do not currently accept any other forms of identification.
-  * Contact the partner agency’s help center for support.
+  * 请再次在网上或亲身去验证你的身份。你的州颁发的身份证件或驾照必须是没过期的。我们目前不接受任何其他形式的身份证件。
+  * 联系合作伙伴机构的帮助中心寻求支持。
 
-## I didn’t receive any emails from Login.gov after going to the Post Office
+## 我去邮局后未收到任何来自Login.gov的电邮
 
-  * You'll get an email within 24 hours of visiting a Post Office. We'll tell you if your identity verification was successful or unsuccessful. Check your email for a message from no-reply@login.gov. 
-  * [Contact Login.gov customer support](/zh/contact/) if you have not received an email after 24 hours.
+  * 你去邮局后24小时内会收到一封电邮。我们会告诉你，你身份验证是否成功。检查你的电邮中是否有来自no-reply@login.gov的一则信息。
+  * 如果24小时后你还没有收到电邮，请[联系Login.gov客户支持](/zh/contact/)。
 
-## I’m having a problem with my barcode
+## 我的条形码有问题
 
-Your barcode will not work at the Post Office if:
-  * You reset your password before visiting a Post Office. We strongly encourage you to always save your password and Personal Key in a secure location.
-  * Your deadline to visit a Post Office has passed. We cancel barcodes after 30 days to protect your personal data.
-
-You’ll have to restart the process to verify your identity from the beginning. If you verify in person, you will receive a new barcode and deadline to visit a Post Office.
+如果有以下情况，你的条形码在邮局是不能使用的：
+  * 你去邮局前重设了你的密码我们强烈鼓励你永远都把密码和个人密钥存放在一个安全的地方。
+  * 你去邮局的截止日期已过。为了保护你的个人数据，我们会在 30 天后把条形码作废。
+ 
+你必须重新从头开始身份验证流程。如果你亲身验证身份，会收到一个条形码和去邮局的截止日期。
