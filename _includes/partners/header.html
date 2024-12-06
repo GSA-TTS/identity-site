@@ -23,7 +23,11 @@
         </a>
       </div>
 
-      <div class="display-none desktop:display-block">{% include search.html id="desktop" collection="8803" %}</div>
+      <div class="display-none desktop:display-flex">
+        {% include search.html id="desktop" collection="8803" %}
+
+        <a class="usa-button margin-left-2" style="line-height: 1; font-size: .81rem; flex-shrink: 0; width: auto; padding: 0 .75rem; display: inline-flex; align-items: center; margin-right: 0;" href="{{ site.baseurl }}/partners/get-started/">Get started</a>
+      </div>
 
       <button class="usa-menu-btn">Menu</button>
     </div>
@@ -95,7 +99,12 @@
 
         <div class="partners-actions">
           <a
-            class="{{include.mobile}} usa-button {% if page.url contains '/get-started' %}usa-button--active{% endif %}"
+            class="{{include.mobile}} desktop:display-none usa-button usa-button--outline {% if page.url contains '/state-and-local' %}partners-usa-button--active{% endif %}"
+            href="{{ site.baseurl }}/partners/state-and-local/"
+            >State and local</a
+          >
+          <a
+            class="{{include.mobile}} desktop:display-none usa-button {% if page.url contains '/get-started' %}usa-button--active{% endif %}"
             href="{{ site.baseurl }}/partners/get-started/"
             >Get started</a
           >
