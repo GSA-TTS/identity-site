@@ -1,7 +1,7 @@
 ---
 title: Modifier le numéro de téléphone associé à votre compte
 category: manage-your-account
-order: 6
+order: 7
 permalink: /fr/help/manage-your-account/change-your-phone-number/
 redirect_from:
   - /fr/help/changing-settings/change-my-phone-number/
