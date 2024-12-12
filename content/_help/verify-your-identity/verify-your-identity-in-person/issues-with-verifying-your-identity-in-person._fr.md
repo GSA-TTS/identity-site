@@ -1,28 +1,29 @@
 ---
-title: Issues with verifying your identity in person
-meta_title: Issues with verifying your identity in person
+title: Problèmes rencontrés pour confirmer votre identité en personne
+meta_title: Problèmes rencontrés pour confirmer votre identité en personne
 child: true
 order: 2
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 ---
-## I received an email from Login.gov, but I did not attempt to verify my identity at a Post Office
+## J'ai reçu un e-mail de Login.gov mais je n'ai pas cherché à confirmer mon identité dans un bureau de poste
 
-Sign into your Login.gov account and [change your password immediately](/fr/help/manage-your-account/change-your-password/). If you’d like, you can also [delete your account](/fr/help/manage-your-account/delete-your-account/).
+Connectez-vous à votre compte Login.gov et [changez votre mot de passe immédiatement](/fr/help/manage-your-account/change-your-password/). Si vous le souhaitez, vous pouvez également [supprimer votre compte](/fr/help/manage-your-account/delete-your-account/). 
 
-## I received an unsuccessful email result after going to the Post Office
 
-  * Try to verify your identity again, either online or in person. Your state-issued ID or driver’s license must not be expired. We do not currently accept any other forms of identification.
-  * Contact the partner agency’s help center for support.
+## J'ai reçu un e-mail annonçant l’échec de la confirmation de mon identité après m'être rendu au bureau de poste
 
-## I didn’t receive any emails from Login.gov after going to the Post Office
+  * Essayez de confirmer à nouveau votre identité, en ligne ou en personne. Votre carte d’identité ou permis de conduire délivré par un État ne doit pas être périmé. Nous n’acceptons actuellement aucune autre pièce d’identité.
+  * Prenez contact avec le centre d’assistance de l’organisme partenaire pour obtenir de l’aide.
 
-  * You'll get an email within 24 hours of visiting a Post Office. We'll tell you if your identity verification was successful or unsuccessful. Check your email for a message from no-reply@login.gov. 
-  * [Contact Login.gov customer support](/fr/contact/) if you have not received an email after 24 hours.
+## Je n’ai pas reçu d'e-mail de Login.gov après m’être rendu au bureau de poste
 
-## I’m having a problem with my barcode
+  * Vous recevrez un e-mail dans les 24 heures suivant votre visite dans un bureau de poste. Nous vous informerons si votre vérification d’identité a réussi ou échoué. Vérifiez dans votre messagerie si vous avez reçu un message de l’adresse no-reply@login.gov. 
+  * [Contactez le service clientèle de Login.gov](/fr/contact/) si vous n'avez pas reçu d'e-mail au bout de 24 heures.
 
-Your barcode will not work at the Post Office if:
-  * You reset your password before visiting a Post Office. We strongly encourage you to always save your password and Personal Key in a secure location.
-  * Your deadline to visit a Post Office has passed. We cancel barcodes after 30 days to protect your personal data.
+## J’ai un problème avec mon code-barres
 
-You’ll have to restart the process to verify your identity from the beginning. If you verify in person, you will receive a new barcode and deadline to visit a Post Office.
+Votre code-barres ne fonctionnera pas au bureau de poste si :
+  * Vous réinitialisez votre mot de passe avant de vous rendre dans un bureau de poste. Nous vous encourageons vivement à toujours conserver votre mot de passe et clé personnelle en lieu sûr.
+  *  La date limite pour vous rendre dans un bureau de poste est dépassée. Nous annulons automatiquement les codes-barres au bout de 30 jours afin de protéger vos données personnelles.
+
+Vous devrez recommencer la procédure de vérification d'identité depuis le début. Si vous choisissez de confirmer votre identité en personne, vous recevrez un nouveau code-barres et une date limite pour vous rendre au bureau de poste.
