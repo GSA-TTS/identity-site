@@ -4,6 +4,7 @@ title: Verify your identity in person
 category: verify-your-identity
 children: 
   - /help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
+  - /help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 permalink: /help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
@@ -71,31 +72,7 @@ If your identity verification was unsuccessful, you can:
 If you do not receive an email from us, there are a few steps you can take:
 
 * Check your email’s spam or junk folder for an email from [no-reply@login.gov](mailto:no-reply@login.gov).
-* If you haven’t heard from us after 24 hours from your visit to the Post Office, please contact Login.gov customer support at [login.gov/contact](https://login.gov/contact). 
-
-## Troubleshoot verifying your identity in person
-
-If you’ve encountered an issue while trying to verify your identity in person we would like to help you resolve it. Here are some tips for troubleshooting the process. 
-
-### What to do if you received an email, but did not attempt to verify your identity in person
-
-If you received an email informing you that you are ready to verify your identity or your identity could not be verified in person, and you did not attempt this action: 
-
-[Sign in](https://secure.login.gov/) and [change your password immediately](/help/manage-your-account/change-your-password/). If you’d like, you can also [delete your account](/help/manage-your-account/delete-your-account/). 
-
-### What to do if you were unable to successfully verify your identity in person
-
-If you are unable to successfully verify your identity in person, you can try to [verify your identity again](/help/verify-your-identity/how-to-verify-your-identity/), either online or in person, or you can contact the agency you are trying to access for [help with specific questions](/help/specific-agencies/overview/) about verifying your identity.
-
-Tips for verifying your identity in person: 
-
-* Your state-issued ID or driver’s license must not be expired. We do not currently accept any other forms of identification.
-
-### What to do if the deadline to verify your identity in person passed
-
-If you received an email informing you that the deadline to verify your identity passed, try [verifying your identity online again](/help/verify-your-identity/how-to-verify-your-identity/). 
-
-We automatically cancel requests after 30 days in order to protect applicants’ personal data. When you restart the process to verify your identity in person, you will receive a new deadline. 
+* If you haven’t heard from us after 24 hours from your visit to the Post Office, please contact Login.gov customer support at [login.gov/contact](/contact/). 
 
 ## Related Articles
 

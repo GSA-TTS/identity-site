@@ -8,13 +8,10 @@ component:
     ## Una sola cuenta y contraseña
 
 
-    Login.gov es un servicio de inicio de sesión seguro que el público utiliza para iniciar sesión en agencias gubernamentales participantes. Las agencias participantes le pedirán que cree una cuenta en Login.gov para tener acceso seguro a su información en sus respectivos sitios web o aplicaciones.
+    Login.gov es una manera segura de iniciar sesión en muchos sitios web del gobierno de los EE. UU. usando una sola cuenta, ya que protege su información al pedirle que siga unos pasos más para confirmar que se trata de usted cuando inicia sesión.
 
 
-    Puede usar el mismo nombre de usuario y contraseña para acceder a cualquier agencia asociada con Login.gov, lo cual agiliza su trámite y evita tener que recordar varios nombres de usuario y contraseñas.
-
-
-    ### Login.gov se utiliza para proteger su cuenta cuando solicita:
+    ### Login.gov se usa para proteger su cuenta cuando usted accede a:
 
 
     * Empleo en el gobierno federal (USAJOBS, Oficina de Administración de Personal)
@@ -29,15 +26,14 @@ component:
     Login.gov utiliza [los más altos estándares de seguridad](/es/policy/) para mantener segura su información, incluida la verificación de identidad y [autenticación de dos factores](/es/help/get-started/authentication-methods/).
 
 
-    Login.gov is provided by [Technology Transformation Services (TTS)](https://www.gsa.gov/tts).
+    Login.gov es una solución que proporcionan los [Servicios de Transformación Tecnológica (TTS)](https://tts.gsa.gov/).
   bannertext: >-
     ## ¿Cómo funciona?
 
 
     Las agencias participantes usan Login.gov para proteger a sus usuarios. Cuando inicie sesión en una agencia participante, se le pedirá que primero inicie sesión o cree una cuenta en Login.gov para acceder a su perfil en dicha agencia.  
   bannercol1: >-
-    ### Todas las agencias participantes utilizan Login.gov para iniciar
-    sesión de forma segura.
+    ### Cómo iniciar sesión con su cuenta de Login.gov.
 
 
     Usted proporciona dos datos para iniciar sesión de forma segura y proteger su información. 
@@ -50,10 +46,10 @@ component:
 
     El uso combinado de una contraseña y otro método dificulta el acceso de terceros a su información.
   bannercol2: >-
-    ### Algunas agencias requieren que verifique su identidad.
+    ### Algunas agencias exigen que proporcione otros documentos para verificar su identidad.
 
 
-    Login.gov verifica su identidad para la agencia. Al enviar información de identificación personal (PII), como su identificación con fotografía, verifica que se trata de usted y no de alguien haciéndose pasar por usted. Nosotros nos limitamos a confirmar su identidad y no determinamos su elegibilidad para los servicios ofrecidos por la agencia.
+    Cuando acceda a algunos sitios web del gobierno, se le pedirá que envíe otros documentos electrónicamente, para que Login.gov pueda verificar su identidad. Por ejemplo, es posible que se le pida que proporcione una foto suya o que tome una fotografía de su documento de identidad. Si lo prefiere, o si no puede enviar electrónicamente esas fotografías, tendrá la opción de presentar su documento de identidad con fotografía en persona en una oficina del Servicio Postal de los EE. UU. Usamos los documentos y las fotografías únicamente para confirmar su identidad. Login.gov no determina el cumplimiento de requisitos para los servicios de las agencias.
 permalink: /es/what-is-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png

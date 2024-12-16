@@ -68,7 +68,7 @@ Only the newest one-time code you receive will work. If you request and receive 
 * If you’ve lost your security key, you will have to use a different authentication method or delete your account if you have no other authentication method, unless you have already set up a backup.
 
 ## My PIV/CAC card isn’t working
-* Login.gov may be missing an issuing certificate for your card. [Contact Login.gov support for additional help.](https://login.gov/contact/)
+* Login.gov may be missing an issuing certificate for your card. [Contact Login.gov support for additional help.](/contact/)
 
 ## Related articles
 

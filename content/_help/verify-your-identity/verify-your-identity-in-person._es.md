@@ -3,6 +3,7 @@ title: Verifique su identidad en persona
 category: verify-your-identity
 children:
   - /es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
+  - /es/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 permalink: /es/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
@@ -70,31 +71,7 @@ Si no se logró la verificación de su identidad, usted puede:
 Si no recibe un correo electrónico de nosotros, estos son algunos pasos que puede seguir:
 
 * Busque en la carpeta de correo no deseado un mensaje de [no-reply@login.gov](mailto:no-reply@login.gov).
-* Si no recibe información de nosotros en las 24 horas después de su visita a la oficina de correos, póngase en contacto con el servicio de atención al cliente de Login.gov en [login.gov/contact](https://login.gov/contact).
-
-## Solución de problemas cuando verifica su identidad en persona
-
-Si tuvo algún problema al intentar verificar su identidad en persona, nos gustaría ayudarle a resolverlo. Estos son algunos consejos para solucionar problemas del proceso.
-
-### Qué hacer si recibió un correo electrónico, pero no ha intentado verificar su identidad en persona
-
-Si recibió un correo electrónico para informarle que está listo para verificar su identidad o que su identidad no pudo ser verificada en persona, y usted no intentó esta verificación:
-
-[Inicie sesión](https://secure.login.gov/es/) y [cambie su contraseña inmediatamente](/es/help/manage-your-account/change-your-password/). Si lo desea, también puede [eliminar su cuenta](/es/help/manage-your-account/delete-your-account/).
-
-### Qué hacer si no pudo verificar su identidad en persona
-
-Si no logra verificar su identidad en persona, puede intentar [verificar su identidad de nuevo](/es/help/verify-your-identity/how-to-verify-your-identity/), en línea o en persona, o puede comunicarse con la agencia a la que está intentando acceder para [obtener ayuda con preguntas específicas](/es/help/specific-agencies/overview/) sobre la verificación de su identidad.
-
-Consejos para verificar su identidad en persona:
-
-* Su licencia de conducir o identificación emitida por el estado no debe estar vencida. Por ahora, no aceptamos ningún otro tipo de identificación.
-
-### Qué hacer si venció el plazo para verificar su identidad en persona
-
-Si recibió un correo electrónico para informarle que venció el plazo para verificar su identidad, intente [verificar su identidad en línea de nuevo](/es/help/verify-your-identity/how-to-verify-your-identity/).
-
-Cancelamos automáticamente las solicitudes al cabo de 30 días para proteger los datos personales de los solicitantes. Cuando vuelva a iniciar el proceso para verificar su identidad en persona, recibirá otra fecha límite.
+* Si no recibe información de nosotros en las 24 horas después de su visita a la oficina de correos, póngase en contacto con el servicio de atención al cliente de Login.gov en [login.gov/contact](/es/contact/).
 
 ## Otros artículos
 

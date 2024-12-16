@@ -67,7 +67,7 @@ Seul le dernier code à usage unique que vous recevrez fonctionnera. Si vous dem
 * Si vous avez perdu votre clé de sécurité, vous devrez utiliser une autre méthode d’authentification ou supprimer votre compte si vous n’avez pas d’autre méthode d’authentification, à moins que vous n’ayez déjà configuré une sauvegarde.
 
 ## Ma carte PIV/CAC ne fonctionne pas
-* Il se peut qu’il manque à Login.gov un certificat de délivrance pour votre carte. [Contactez le service d’assistance de Login.gov pour obtenir de l’aide supplémentaire.](https://login.gov/contact/)
+* Il se peut qu’il manque à Login.gov un certificat de délivrance pour votre carte. [Contactez le service d’assistance de Login.gov pour obtenir de l’aide supplémentaire.](/fr/contact/)
 
 ## Articles connexes
 
