@@ -23,7 +23,11 @@
         </a>
       </div>
 
-      <div class="display-none desktop:display-block">{% include search.html id="desktop" collection="8803" %}</div>
+      <div class="display-none desktop:display-flex">
+        {% include search.html id="desktop" collection="8803" %}
+
+        <a class="usa-button get-started margin-left-2" href="{{ site.baseurl }}/partners/get-started/">Get started</a>
+      </div>
 
       <button class="usa-menu-btn">Menu</button>
     </div>
@@ -77,6 +81,14 @@
           </li>          
           <li class="usa-nav__primary-item">
             <a
+              class="usa-nav__link {% if page.url contains '/state-and-local' %}usa-current{% endif %}"
+              href="{{ '/partners/state-and-local/' | locale_url }}"
+            >
+              State and local
+            </a>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a
               class="usa-nav__link {% if page.url contains '/faq' %}usa-current{% endif %}"
               href="{{ '/partners/faq/' | locale_url }}"
             >
@@ -87,12 +99,7 @@
 
         <div class="partners-actions">
           <a
-            class="{{include.mobile}} usa-button usa-button--outline {% if page.url contains '/state-and-local' %}partners-usa-button--active{% endif %}"
-            href="{{ site.baseurl }}/partners/state-and-local/"
-            >State and local</a
-          >
-          <a
-            class="{{include.mobile}} usa-button {% if page.url contains '/get-started' %}usa-button--active{% endif %}"
+            class="{{include.mobile}} desktop:display-none usa-button {% if page.url contains '/get-started' %}usa-button--active{% endif %}"
             href="{{ site.baseurl }}/partners/get-started/"
             >Get started</a
           >
