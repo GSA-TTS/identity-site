@@ -147,3 +147,11 @@
   background-color: color('primary-lightest');
   border-radius: radius('md');
 }
+
+.usa-button.get-started {
+  align-items: center;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 0.81rem;
+  padding: 0 1.25rem;
+}
