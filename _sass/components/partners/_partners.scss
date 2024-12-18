@@ -28,6 +28,14 @@
   max-width: 880px;
 }
 
+.program-update-body {
+  img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .external-link {
   background: url(../img/partners/external-link.svg) no-repeat center right;
   padding-right: 10px;
@@ -103,4 +111,18 @@
   color: #112e51 !important;
   background-color: rgba(0, 0, 0, 0) !important;
   box-shadow: inset 0 0 0 1px #112e51 !important;
+}
+
+.partners-collection__item {
+  @extend .usa-collection__item !optional;
+  
+  max-width: none;
+  width: 100%;
+  
+  border-top-color: $border-color;
+
+  .usa-collection__body {
+    width: 100%;
+    max-width: none;
+  }
 }
