@@ -14,7 +14,7 @@ RSpec.describe '.md files' do
       end
 
       describe 'redirects' do
-        let(:redirects) { Array(YAML.load(frontmatter, permitted_classes: [Time])['redirect_from']) }
+        let(:redirects) { Array(YAML.load(frontmatter)['redirect_from']) }
 
         it 'includes globally unique redirects' do
           redirects.each do |redirect|
@@ -24,16 +24,16 @@ RSpec.describe '.md files' do
         end
 
         it 'defines redirects in consistent format' do
-          redirects.each { |redirect| expect(redirect).to match(%r{^/.+/$}) }
+          redirects.each { |redirect| expect(redirect).to match(/^\/.+\/$/) }
         end
 
         it 'redirects from pages in the same locale', if: path.match?(/\._([a-z]{2})\.md$/) do
           locale = path.match(/\._([a-z]{2})\.md$/)[1]
-          prefix = if locale == 'en'
-                     '/'
-                   else
-                     "/#{locale}"
-                   end
+          if locale == 'en'
+            prefix = '/'
+          else
+            prefix = "/#{locale}"
+          end
 
           redirects.each { |redirect| expect(redirect).to start_with(prefix) }
         end
