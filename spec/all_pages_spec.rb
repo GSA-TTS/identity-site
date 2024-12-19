@@ -26,7 +26,7 @@ RSpec.describe 'all pages' do
   let(:redirect_froms) do
     Dir["#{REPO_ROOT}/content/**/*.md"].flat_map do |path|
       _, frontmatter, _page = File.read(path).split('---', 3)
-      Array(YAML.load(frontmatter, permitted_classes: [Time])['redirect_from'])
+      Array(YAML.load(frontmatter)['redirect_from'])
     end
   end
 

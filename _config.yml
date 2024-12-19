@@ -65,9 +65,6 @@ collections:
   partners:
     output: true
     permalink: /:collection/:path/
-  program_updates:
-    output: true
-    permalink: /partners/program-updates/:path/
   partners_impact_stories:
     output: true
     permalink: /:collection/:path/
@@ -123,10 +120,6 @@ defaults:
       sitemap: false
   - scope:
       path: 'docs/login-gov-press-kit.pdf'
-    values:
-      sitemap: false
-  - scope:
-      path: 'partners/program-updates/'
     values:
       sitemap: false
 

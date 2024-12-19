@@ -8,7 +8,7 @@ backend:
   auth_endpoint: external/auth/github
   preview_context: pages/build
   use_graphql: true
-
+#
 # Uncomment when doing local development on Netlify CMS
 # Run `npx netlify-cms-proxy-server` to start working locally
 # In another terminal, start the app with `make build && make run`
@@ -22,7 +22,7 @@ backend:
 # local_backend: true
 
 media_folder: 'assets/img/'
-public_folder: '/assets/img/'
+public_folder: '/img/uploads'
 publish_mode: editorial_workflow
 
 i18n:
@@ -254,18 +254,3 @@ collections:
       - { label: 'Permalink', name: 'permalink', widget: 'string', i18n: true }
       - { label: 'Redirect from', name: 'redirect_from', widget: list, required: false, i18n: true }
       - { label: 'Redirect to', name: 'redirect_to', widget: 'string', required: false, i18n: true }
-  - label: Program updates
-    label_singular: 'Program update'
-    name: program_updates
-    folder: content/_program_updates
-    i18n: false
-    create: true
-    summary: '{{title}} ({{filename}}.{{extension}})'
-    sortable_fields: ['date', 'commit_date', 'title', 'commit_author']
-    fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'partners/program-update' }
-      - { label: 'Language', name: 'lang', widget: 'hidden', default: 'en' }
-      - { label: 'Title', name: 'title', widget: 'string', required: true }
-      - { label: 'Date (Order)', name: 'date', widget: 'datetime', required: true }      
-      - { label: 'Preview text', name: 'preview', widget: 'markdown', required: true }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: true }
