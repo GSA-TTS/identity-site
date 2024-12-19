@@ -2,8 +2,6 @@
 layout: partners/faq
 permalink: /partners/faq/
 title: Frequently Asked Questions (FAQ)
-redirect_from:
-  - /partners/program-updates/
 general_section_title: >-
     ## General
 logistics_section_title: >-
