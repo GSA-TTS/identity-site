@@ -170,6 +170,8 @@ copy_files:
     to: assets
   - from: node_modules/@18f/identity-design-system/dist/assets/js/init.js
     to: assets/js
+  - from: assets/js/netlify-cms-2.10.192.js
+    to: assets/js
 
 keep_files:
   - assets/css
