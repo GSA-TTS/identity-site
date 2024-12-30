@@ -1,4 +1,5 @@
 assets/idp_translations/*
+assets/js/netlify-cms-2.10.192.js
 _site
 node_modules
 vendor
