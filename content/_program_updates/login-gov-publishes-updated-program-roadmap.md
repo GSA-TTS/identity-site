@@ -3,7 +3,7 @@ layout: partners/program-update
 lang: en
 title: Login.gov publishes updated program roadmap
 date: 2024-12-19T15:07:33.421Z
-preview: Learn about what Login.gov is focusing on in FY24 and beyond
+preview: Learn about what Login.gov is focusing on in FY25 and beyond
 ---
 We’re excited to share the latest edition of our publicly available [program roadmap](https://www.login.gov/partners/roadmap/). It covers some of our most significant accomplishments from FY 24, including:
 
