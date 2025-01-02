@@ -8,19 +8,17 @@ children:
 permalink: /help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
-Login.gov offers in-person identity verification at a United States Postal Service (USPS) location near you as an alternative to [verifying your identity online](/help/verify-your-identity/how-to-verify-your-identity/).
+Login.gov offers in-person identity verification with the United States Postal Service (USPS). In-person identity verification is only available for some Partner Agencies. This is an alternative to [verifying your identity completely online](/help/verify-your-identity/how-to-verify-your-identity/). You may also have the option to verify in person if you aren't able to verify online.
 
-You may also have the option to verify your identity in person if you attempted to verify your identity online but could not successfully upload your Driver’s License or state ID card on Login.gov.
+You must start this process online before going to a Post Office. Follow the steps below to get started.
 
 ## Start this process on Login.gov before going to the Post Office 
 
-Before starting the identity verification process, you’ll choose between verifying online or verifying in person. If you want to verify in person, select, ‘Verify your identity at a Post Office.’
-
-Please note, you may also have the option to verify in person if you attempt to verify online but are unable to.
+When you start the process on [Login.gov](https://secure.login.gov/), you can choose to verify your identity online, or in-person. If you want to verify in person, select, ‘Verify your identity at a Post Office.’
 
 Please have the following information ready to enter on Login.gov:
 
-1. Your State-Issued ID. [Don’t have a state issued ID?](/help/verify-your-identity/accepted-identification-documents/)
+1. Your State-Issued ID
 2. Social Security Number
 3. Your phone number
 
@@ -57,12 +55,17 @@ Once you’ve received a barcode online, you can go to any Post Office where In-
 
 ### You can speak with any retail associate to verify your identity
 
-* Wait in line at the Post Office. The retail associate will scan your barcode and review your documents.
+* Wait in line at the Post Office. The retail associate will scan your barcode and review your ID.
+  
+  * Tell the retail associate: "I received an email telling me to get this barcode scanned at this Post Office" or "I'm here to verify my information/identity". 
+  
+  * If the retail associate still does not know how to proceed, you can request a supervisor to help you.
+
 * After the retail associate has reviewed your documents, you’re done at the Post Office. The retail clerk will not receive your results.
 
 ### We’ll email you with next steps
 
-You’ll get an email to let you know if your identity verification was successful or unsuccessful within 24 hours of your visit to the Post Office. 
+You'll get an email within 24 hours of visiting a Post Office. We'll tell you if your identity verification was successful or unsuccessful. Check your email for a message from no-reply@login.gov.
 
 If your identity verification was unsuccessful, you can:
 
