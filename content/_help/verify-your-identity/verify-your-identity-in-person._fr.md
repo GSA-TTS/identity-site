@@ -7,20 +7,19 @@ children:
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/
 order: 7
 ---
+Login.gov propose la vérification d'identité en personne par l’intermédiaire du Service postal des États-Unis (USPS). La vérification d'identité en personne est uniquement disponible pour certains organismes partenaires. Ceci vous procure une solution de rechange à la [vérification de votre identité effectuée intégralement en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/). Vous pouvez également choisir de confirmer votre identité en personne si vous ne parvenez pas à le faire en ligne.
 
-Login.gov offre des services de vérification d’identité en personne, [plutôt qu’en ligne](/fr/help/verify-your-identity/how-to-verify-your-identity/), dans un bureau du service des postes des États-Unis (USPS) participant près de chez vous.
-
-Il est également possible de confirmer votre identité en personne si vous avez essayé de le faire en ligne mais n’avez pas réussi à téléverser votre permis de conduire ou votre carte d’identité d’un État sur Login.gov.
+Vous devez commencer cette procédure en ligne avant de vous rendre dans un bureau de poste. Veuillez suivre les étapes ci-dessous pour commencer. 
 
 ## Commencez cette procédure sur Login.gov avant de vous rendre au bureau de poste 
 
-Avant de commencer la procédure de vérification d’identité, vous devrez choisir entre faire cette démarche en ligne ou en personne. Si vous voulez confirmer votre identité en personne, sélectionnez «&nbsp;Confirmer votre identité dans un bureau de poste ».
+Lorsque vous démarrez la procédure sur [Login.gov](https://secure.login.gov/fr/), vous pouvez décider de confirmer votre identité en ligne ou en personne. Si vous voulez confirmer votre identité en personne, sélectionnez « Confirmer votre identité dans un bureau de poste ».
 
 Veuillez noter que vous avez aussi la possibilité de confirmer votre identité en personne si vous tentez de le faire en ligne mais n’y parvenez pas.
 
 Veuillez préparer les informations suivantes pour les saisir sur Login.gov :
 
-1. Votre pièce d'identité délivrée par l'État. [Vous n'avez pas de pièce d'identité délivrée par l'État ?](/fr/help/verify-your-identity/accepted-identification-documents/)
+1. Votre pièce d'identité délivrée par l'État
 2. Votre numéro de sécurité sociale
 3. Votre numéro de téléphone
 
@@ -36,9 +35,11 @@ Une fois que vous aurez terminé les différentes étapes sur Login.gov, nous vo
 
 Munissez-vous de la même pièce d'identité que celle que vous avez utilisée pour saisir les renseignements vous concernant sur Login.gov. Pour l'instant, seules les pièces d'identité suivantes, délivrées par l'État, sont acceptées :
 
-- Permis de conduire des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, Îles Vierges des États-Unis, Samoa américaines, Îles Mariannes et Porto Rico)
-- Pièce d’identité délivrée par l’État, à l’exception d’un permis de conduire
-  - Il s'agit d'une pièce d'identité délivrée par un État, le district de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais ne donne pas le droit de conduire.
+* Permis de conduire des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, Îles Vierges des États-Unis, Samoa américaines, Îles Mariannes et Porto Rico)
+
+* Pièce d’identité délivrée par l’État, à l’exception d’un permis de conduire
+
+  * Il s'agit d'une pièce d'identité délivrée par un État, le district de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais ne donne pas le droit de conduire.
 
 Nous n’acceptons actuellement aucune autre forme d’identification, comme les passeports et les cartes d’identité militaires. Vous ne pouvez pas vérifier votre identité à un bureau de poste sans une pièce d’identité délivrée par l’État. Nous travaillons actuellement à l’ajout d’autres moyens de vérifier votre identité.
 
@@ -58,22 +59,27 @@ Une fois que vous avez reçu un code-barres en ligne, vous pouvez vous rendre da
 
 ### Vous pouvez vous adresser à n'importe quel préposé pour vérifier votre identité
 
-- Faites la queue au bureau de poste. Le préposé scannera votre code-barres et examinera vos documents.
-- Une fois qu’il aura examiné vos documents, la procédure au bureau de poste est terminée. Le préposé ne recevra pas vos résultats.
+* Faites la queue au bureau de poste. Le préposé scannera votre code-barres et examinera vos documents.
+
+  * Dites à l’employé : « J'ai reçu un e-mail me demandant de faire scanner ce code-barres dans un bureau de poste » ou « Je suis venu pour confirmer mes coordonnées/mon identité. » 
+ 
+  * Si l’employé ne sait toujours pas comment procéder, vous pouvez demander qu’un responsable vienne vous aider.
+
+* Une fois qu’il aura examiné vos documents, la procédure au bureau de poste est terminée. Le préposé ne recevra pas vos résultats.
 
 ### Nous vous enverrons un e-mail avec les prochaines étapes
 
-Nous vous enverrons un e-mail vous informant si la vérification d’identité a abouti ou non dans les 24 heures suivant votre passage au bureau de poste.
+Vous recevrez un e-mail dans les 24 heures suivant votre visite dans un bureau de poste. Nous vous informerons si la vérification de votre identité a réussi ou échoué. Vérifiez si vous avez reçu un message de no-reply@login.gov dans votre messagerie.
 
 En cas d’échec de la vérification de votre identité, vous pouvez :
 
-- Tentez à nouveau de confirmer votre identité, en ligne ou en personne
-- Contacter le centre d’assistance de l’organisme partenaire pour obtenir de l’aide
+* Tentez à nouveau de confirmer votre identité, en ligne ou en personne
+* Contacter le centre d’assistance de l’organisme partenaire pour obtenir de l’aide
 
 Si vous ne recevez pas d’e-mail de notre part, il y a certaines mesures que vous pouvez prendre :
 
-- Vérifiez dans votre dossier de pourriels ou de courriers indésirables s'il contient un e-mail de [no-reply@login.gov](mailto:no-reply@login.gov).
-- Si vous n'avez pas eu de nos nouvelles après 24 heures de votre visite au bureau de poste, veuillez contacter le service clientèle de Login.gov sur [login.gov/contact](/fr/contact/).
+* Vérifiez dans votre dossier de pourriels ou de courriers indésirables s'il contient un e-mail de [no-reply@login.gov](mailto:no-reply@login.gov).
+* Si vous n'avez pas eu de nos nouvelles après 24 heures de votre visite au bureau de poste, veuillez contacter le service clientèle de Login.gov sur [login.gov/contact](/fr/contact/).
 
 ## Articles connexes
 

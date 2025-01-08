@@ -5,7 +5,7 @@ child: true
 order: 2
 permalink: /zh/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 ---
-## 我收到了一封来自Login.gov的电邮，但我并没有想去邮局验证身份
+## 我收到了一封来自Login.gov的电邮，但我并没有去过邮局验证身份
 
 请登录你的Login.gov账户并[立即更改你的密码](/zh/help/manage-your-account/change-your-password/)。如果你愿意，也可以[删除你的账户](/zh/help/manage-your-account/delete-your-account/)。
 
@@ -25,4 +25,4 @@ permalink: /zh/help/verify-your-identity/verify-your-identity-in-person/issues-w
   * 你去邮局前重设了你的密码我们强烈鼓励你永远都把密码和个人密钥存放在一个安全的地方。
   * 你去邮局的截止日期已过。为了保护你的个人数据，我们会在 30 天后把条形码作废。
  
-你必须重新从头开始身份验证流程。如果你亲身验证身份，会收到一个条形码和去邮局的截止日期。
+你必须重新从头开始身份验证流程。如果你亲身验证身份，会收到一个新的条形码和去邮局的截止日期。
