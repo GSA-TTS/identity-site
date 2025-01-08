@@ -12,7 +12,12 @@ layout: null
 
   <body>
     <!-- Include the script that builds the page and powers Decap CMS -->
-    <script src="{{ '/assets/js/cms.js' | relative_url }}"></script> 
+    <script src="{{ '/assets/js/cms.js' | relative_url }}" defer></script>
+    <script>
+      {% for style in site.styles %}
+        CMS.registerPreviewStyle("{{ style | relative_url }}");
+      {% endfor %}      
+    </script>
   </body>
 
 </html>
