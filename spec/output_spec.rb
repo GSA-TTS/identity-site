@@ -26,6 +26,7 @@ RSpec.describe '_site' do
       admin/config.yml
       assets/css/main.css.map
       assets/js/main.js.LICENSE.txt
+      assets/js/cms.js.LICENSE.txt
       assets/js/post_office_search.js.LICENSE.txt
       browserconfig.xml
       manifest.json
