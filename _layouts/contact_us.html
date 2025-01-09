@@ -47,9 +47,23 @@ common_applications:
     {% include contact_phone.html %}
   {% endif %}
 
-  <div class="desktop:grid-col-9">
-    {% include contact_form.html common_applications=layout.common_applications %}
-  </div>
+  {% if page.form_submitted_message %}
+    {% assign form_submitted_message = page.form_submitted_message | newline_to_br %}
+
+    {% include alert.html
+    type="success"
+    class="margin-bottom-4"
+    content=form_submitted_message
+    %}
+
+    <a class="usa-link" href="https://login.gov{{ '/contact/' | locale_url }}">{{ page.submit_help_ticket }}</a>
+  {% endif %}
+
+  {% unless page.form_submitted_message %}
+    <div class="desktop:grid-col-9">
+      {% include contact_form.html common_applications=layout.common_applications %}
+    </div>
+  {% endunless %}
 </contact-us-form>
 
 <div class="page-content__section usa-prose">{{ page.partner_content | markdownify }}</div>
