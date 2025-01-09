@@ -1,0 +1,52 @@
+---
+permalink: /es/contact/case-submitted
+styles:
+  - "/assets/css/contact_us.css"
+form_submitted_message: >-
+  Su solicitud de ayuda se envió sin problema.
+
+  Busque los pasos siguientes en su correo electrónico.
+submit_help_ticket: Envíe una nueva solicitud de ayuda.
+
+layout: contact_us
+sidenav: contact_us
+title: Contáctenos
+description: ¿Tiene una pregunta o un problema con Login.gov?
+intro_content: >-
+  ## Póngase en contacto
+
+  * Contacte con la agencia gubernamental para que le ayude con el estado de su solicitud, membresía, cumplimiento de requisitos, beneficios u otros asuntos relacionados con su cuenta en esa agencia. La información de contacto se encuentra en el sitio web de la agencia.
+
+
+  * Login.gov solo puede solucionar problemas relacionados con el inicio de sesión.
+
+
+  * Login.gov no puede crear, eliminar o administrar su cuenta por usted, ni iniciar sesión en esa cuenta.
+
+help_center_content: >-
+  ## Busque respuesta a las preguntas más frecuentes
+
+    {: .help-question-list}
+  * [No puedo iniciar sesión en mi cuenta](/es/help/trouble-signing-in/overview/)
+
+  * [Necesito ayuda para verificar mi identidad](/es/help/verify-your-identity/overview/)
+
+  * [Necesito cambiar mi información o administrar mi cuenta](/es/help/manage-your-account/overview/)
+
+  * [Ver más artículos de ayuda](/es/help/)
+maintenance_window_content: El centro de ayuda de Login.gov estará en mantenimiento de <strong>%{start_time} a %{end_time}</strong>. Consulte los temas comunes siguientes para obtener ayuda.
+phone_available_content: Puede llamar a nuestro centro de ayuda en cualquier momento al (844)&nbsp;875-6446.
+unplanned_outage_content: Debido a un problema técnico, no podemos revisar las solicitudes de ayuda en línea.
+partner_content: >-
+  ## Asóciese con Login.gov
+
+  ¿Está interesado en usar Login.gov en su agencia? [Visite el sitio web de nuestros asociados](/partners/) o [contacte con nosotros](/partners/business-inquiries/).
+
+report_issue_content: >-
+  ## Informe de un problema de seguridad
+
+  Para informar de una vulnerabilidad de seguridad, lea la [política de divulgación de vulnerabilidades](https://www.gsa.gov/vulnerability-disclosure-policy) y presente su informe por medio del [Bug Bounty Program de la GSA](https://hackerone.com/gsa_bbp){:class="usa-link--external"}.
+
+
+  [Contáctenos](https://forms.gle/uj8NwiaDrieVHa466){:class="usa-link--external"} para informar de una sospecha de phishing en el sitio de Login.gov o de un asociado.
+---
