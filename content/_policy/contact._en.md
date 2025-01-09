@@ -1,6 +1,7 @@
 ---
 layout: contact_us
 sidenav: contact_us
+contact_form_success_path: '/contact/case-submitted/#get-in-touch'
 title: Contact us
 description: Have a question or a problem with Login.gov?
 intro_content: >-

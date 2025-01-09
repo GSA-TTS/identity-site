@@ -1,5 +1,7 @@
 ---
 layout: contact_us
+contact_form_success_path: '/zh/contact/case-submitted/#联系'
+
 sidenav: contact_us
 title: '联系我们'
 description: 有问题或者关于Login.gov的问题？

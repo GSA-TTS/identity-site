@@ -1,5 +1,7 @@
 ---
 layout: contact_us
+contact_form_success_path: '/es/contact/case-submitted/#póngase-en-contacto'
+
 sidenav: contact_us
 title: Contáctenos
 description: ¿Tiene una pregunta o un problema con Login.gov?
