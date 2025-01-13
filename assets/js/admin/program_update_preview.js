@@ -78,7 +78,7 @@ const ProgramUpdatePreview = ({ entry, widgetFor }) => {
   const formattedDate = formatDate(date);
 
   return (
-    <div className="container partners-container">
+    <div className="container partners-container partners-preview">
       <Accordion
         title="Preview of index page listing"
         content={<IndexView title={title} date={formattedDate} preview={preview} />}

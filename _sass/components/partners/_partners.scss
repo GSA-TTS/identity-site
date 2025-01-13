@@ -2,6 +2,7 @@
 
 @use 'uswds-core' as *;
 @use '../../variables' as *;
+@forward 'usa-link';
 
 .partners-container {
   padding-bottom: 4rem;
@@ -124,5 +125,11 @@
   .usa-collection__body {
     width: 100%;
     max-width: none;
+  }
+}
+
+.partners-preview {
+  a {
+    @extend .usa-link;
   }
 }
