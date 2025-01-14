@@ -1,5 +1,5 @@
 ---
-permalink: /fr/contact/case-submitted
+permalink: /fr/contact/case-submitted/
 styles:
   - "/assets/css/contact_us.css"
 form_submitted_message: >-

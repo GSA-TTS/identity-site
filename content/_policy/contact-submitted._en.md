@@ -1,11 +1,8 @@
 ---
-# Note: Sharing YML variables between this file and contact._en.md does not work well.
-# Instead variables are typically shared from the data folder. Variables are duplicated for now.
-permalink: /contact/case-submitted
+# Note: Sharing YML variables in the "front matter" does not work well.
+permalink: /contact/case-submitted/
 styles:
   - "/assets/css/contact_us.css"
-redirect_from:
-  - /en/contact/case-submitted
 form_submitted_message: >-
   Your help ticket was submitted successfully.
 
