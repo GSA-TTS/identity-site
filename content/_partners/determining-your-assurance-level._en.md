@@ -81,14 +81,14 @@ If your application has an account, we recommend you complete the Digital Identi
 - Your application does not allow users to request records
 - Your application does not require users to verify their Personally Identifiable Information (PII) or Protected Health Information (PHI) of other people. 
 
-**Login.gov’s IAL2 Identity Verification (IdV) services may be the appropriate service if ANY of the following are true:**
+**Login.gov’s Enhanced Identity Verification (IAL2) services may be the appropriate service if ANY of the following are true:**
 
 - Your application provides access to Controlled Unclassified Information (CUI)
 - Your application allows users to complete a financial transaction or provide banking information
 - Your application allows users to request records
 - Your application requires users to verify their PII or PHI
 
-**Login.gov also offers a IdV service without a facial matching step.**
+**Login.gov also offers Basic Identity Verification (Non-IAL2) services without a facial matching step.**
 
 We encourage agencies to leverage our IAL2 workflow from a compliance and anti-fraud perspective. For agencies that do not need IAL2 compliance, but desire document verification in addition to a username and password, we offer a version of identity verification that does not include a facial matching step. There is no cost difference between this and our IAL2 service. 
 
