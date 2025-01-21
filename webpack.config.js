@@ -10,6 +10,7 @@ export default /** @type {import('webpack').Configuration} */ ({
     main: './assets/js/main.js',
     contact: './assets/js/contact.js',
     contact_us_form_element: './assets/js/contact_us_form_element.ts',
+    cms: './assets/js/admin/cms.js',
     faqs: './assets/js/faqs.js',
     partners_contact: './assets/js/partners/contact.js',
     touchpoints: ['./assets/js/touchpoints_translations.js', './assets/js/touchpoints_58f51d4d.js'],
