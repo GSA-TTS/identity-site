@@ -137,7 +137,7 @@ development_accordion:
         id: c-8
         title: How does Login.gov help with agencies’ “Zero Trust” strategy?
         content: >-
-            Login.gov can help agencies implement specific controls described in <a href="https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf" class="external-link">OMB M-22-09</a>, which provides guidance on the “Zero-Trust” Executive Order. According to that memo, agencies must use strong MFA throughout their enterprise:
+            Login.gov can help agencies implement specific controls described in <a href="https://www.idmanagement.gov/laws-policies-standards/m-22-09/" class="external-link">OMB M-22-09</a>, which provides guidance on the “Zero-Trust” Executive Order. According to that memo, agencies must use strong MFA throughout their enterprise:
 
             - MFA must be enforced at the application layer, instead of the network layer.
 
