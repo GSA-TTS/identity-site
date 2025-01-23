@@ -32,3 +32,16 @@ def file_at(path)
     fail "could not locate file named #{path}"
   end
 end
+
+def read_front_matter(path)
+  escaped_path = CGI.unescape(path)
+  full_path = REPO_ROOT.join('content/' + escaped_path.gsub(%r{^/}, ''))
+
+  raise "could not locate file named #{path}" unless full_path.file?
+
+  file = File.new(full_path)
+
+  content = file.read
+  front_matter = content.split('---', 3)[1]
+  YAML.load(front_matter)
+end
