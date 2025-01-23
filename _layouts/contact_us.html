@@ -47,6 +47,12 @@ common_applications:
     {% include contact_phone.html %}
   {% endif %}
 
+  <h3>{{ site.data[page.lang].settings.contact_page.support_request_form.title }}</h3>
+
+  <p>
+    {{ site.data[page.lang].settings.contact_page.operating_hours }}
+  </p>
+
   {% if page.form_submitted_message %}
     {% assign form_submitted_message = page.form_submitted_message | newline_to_br %}
 

@@ -410,7 +410,6 @@
 </script>
 
 <div>
-  <h3>{{ site.data.[page.lang].settings.contact_page.support_request_form.title }}</h3>
   <form
     id="contact-us-form"
     action="{{ site.contact_form_action }}"
@@ -429,10 +428,6 @@
     {% unless site.recaptcha_site_key %}
     <input type="hidden" name="debug" value="1" />
     {% endunless %}
-
-    <p>
-      {{ site.data.[page.lang].settings.contact_page.operating_hours }}
-    </p>
 
     <strong>
       {{ site.data.[page.lang].settings.contact_page.support_request_form.required_text }}<abbr title="{{ site.data.[page.lang].settings.contact_page.required }}" class="usa-hint usa-hint--required">*</abbr>
