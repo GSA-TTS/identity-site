@@ -72,8 +72,8 @@ common_applications:
   {% endif %}
 </contact-us-form>
 
-<div class="page-content__section usa-prose">{{ site.data[page.lang].partner_content | markdownify }}</div>
-<div class="page-content__section usa-prose">{{ site.data[page.lang].report_issue_content | markdownify }}</div>
+<div class="page-content__section usa-prose">{{ site.data[page.lang].contact.partner_content | markdownify }}</div>
+<div class="page-content__section usa-prose">{{ site.data[page.lang].contact.report_issue_content | markdownify }}</div>
 
 {% if site.contact_maintenance_start_time and site.contact_maintenance_end_time %}
   <script src="{{ '/assets/js/contact_us_form_element.js' | relative_url }}"></script>

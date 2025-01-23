@@ -39,9 +39,9 @@ def read_front_matter(path)
 
   raise "could not locate file named #{path}" unless full_path.file?
 
-  file = File.new(full_path)
+  file = File.read(full_path)
 
-  content = file.read
-  front_matter = content.split('---', 3)[1]
+  front_matter = file.split('---', 3)[1]
   YAML.load(front_matter)
 end
+
