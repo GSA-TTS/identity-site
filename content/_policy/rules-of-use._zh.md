@@ -98,7 +98,7 @@ Login.gov 不会续订、重新发布身份证实器或让身份证实器过期�
 
 ## 6. 授权
 
-Login.gov 服务在美国国内运营，但在全球各地都能访问，便于公众使用。Login.gov 服务由联邦总务管理局运营，其授权和指南来自 [《美国法典》6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), 2002年电子政府法（the E-Government Act of 2002） (Pub.L. 107–347, 44 U.S.C. 3501 note)、 [《美国法典》40 USC § 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim)、 以及 [OMB M-19-17](https://bidenwhitehouse.archives.gov/wp-content/uploads/2019/05/M-19-17.pdf).
+Login.gov 服务在美国国内运营，但在全球各地都能访问，便于公众使用。Login.gov 服务由联邦总务管理局运营，其授权和指南来自 [《美国法典》6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), 2002年电子政府法（the E-Government Act of 2002） (Pub.L. 107–347, 44 U.S.C. 3501 note)、 [《美国法典》40 USC § 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim)、 以及 [OMB M-19-17](https://www.idmanagement.gov/laws-policies-standards/m-19-17/).
 
 ## 7. 服务运营及客户支持
 
