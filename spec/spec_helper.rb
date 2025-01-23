@@ -33,7 +33,7 @@ def file_at(path)
   end
 end
 
-def read_front_matter(path)
+def front_matter(path)
   escaped_path = CGI.unescape(path)
   full_path = REPO_ROOT.join('content/' + escaped_path.gsub(%r{^/}, ''))
 

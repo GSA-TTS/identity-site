@@ -26,7 +26,7 @@ RSpec.describe 'Contact us' do
       let(:lang) { 'en' }
 
       it 'includes permalink' do
-        content = read_front_matter(path)
+        content = front_matter(path)
 
         expect(content['permalink']).to eq('/contact/case-submitted/')
       end
@@ -36,7 +36,7 @@ RSpec.describe 'Contact us' do
       let(:lang) { 'es' }
 
       it 'includes permalink' do
-        content = read_front_matter(path)
+        content = front_matter(path)
 
         expect(content['permalink']).to eq('/es/contact/case-submitted/')
       end
@@ -46,7 +46,7 @@ RSpec.describe 'Contact us' do
       let(:lang) { 'fr' }
 
       it 'includes permalink' do
-        content = read_front_matter(path)
+        content = front_matter(path)
 
         expect(content['permalink']).to eq('/fr/contact/case-submitted/')
       end
@@ -56,7 +56,7 @@ RSpec.describe 'Contact us' do
       let(:lang) { 'zh' }
 
       it 'includes permalink' do
-        content = read_front_matter(path)
+        content = front_matter(path)
 
         expect(content['permalink']).to eq('/zh/contact/case-submitted/')
       end
