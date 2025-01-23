@@ -427,7 +427,8 @@
     <input type="hidden" id="external" name="external" value="1" />
     <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu" />
     {% unless site.recaptcha_site_key %}
-    <input type="hidden" name="debug" value="1" />
+    <!-- Todo: Note: Temp override. !-->
+    <input type="hidden" name="debug" value="0" />
     {% endunless %}
 
     <strong>
