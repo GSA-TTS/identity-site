@@ -32,7 +32,7 @@ common_applications:
   {% include alert.html type="warning" content=outage_alert_content %}
 {% endif %}
 
-{{ page.help_center_content | markdownify }}
+{{ site.data[page.lang].contact.help_center_content | markdownify }}
 
 <contact-us-form
   maintenance-alert-id="contact-us-maintenance-alert"
@@ -41,19 +41,33 @@ common_applications:
   maintenance-end-time="{{ site.contact_maintenance_end_time }}"
   class="page-content__section usa-prose"
 >
-  {{ page.intro_content | markdownify }}
+  {{ site.data[page.lang].contact.intro_content | markdownify }}
 
   {% if site.contact_phone_number_enabled and site.contact_phone_number %}
     {% include contact_phone.html %}
   {% endif %}
 
-  <div class="desktop:grid-col-9">
-    {% include contact_form.html common_applications=layout.common_applications %}
-  </div>
+  {% if page.form_submitted_message %}
+    {% assign form_submitted_message = page.form_submitted_message | newline_to_br %}
+
+    {% 
+      include alert.html
+      id="success"
+      type="success"
+      class="margin-bottom-4"
+      content=form_submitted_message
+    %}
+
+    <a class="usa-link" href="{{ '/contact/' | locale_url }}">{{ page.submit_help_ticket }}</a>
+  {% else %}
+    <div class="desktop:grid-col-9">
+      {% include contact_form.html common_applications=layout.common_applications %}
+    </div>
+  {% endif %}
 </contact-us-form>
 
-<div class="page-content__section usa-prose">{{ page.partner_content | markdownify }}</div>
-<div class="page-content__section usa-prose">{{ page.report_issue_content | markdownify }}</div>
+<div class="page-content__section usa-prose">{{ site.data[page.lang].partner_content | markdownify }}</div>
+<div class="page-content__section usa-prose">{{ site.data[page.lang].report_issue_content | markdownify }}</div>
 
 {% if site.contact_maintenance_start_time and site.contact_maintenance_end_time %}
   <script src="{{ '/assets/js/contact_us_form_element.js' | relative_url }}"></script>
