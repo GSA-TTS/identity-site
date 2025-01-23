@@ -1,0 +1,37 @@
+intro_content: >-
+  ## 联系
+
+  * 有关你在某个政府机构的申请状态、成员情况、资格条件、福利或其他与你在该机构账户相关的问题，请联系该机构来获得帮助。其联系信息可在机构网站上得到。
+
+
+  * Login.gov 只能解决登录相关问题。
+
+
+  * Login.gov 无法代表你去登录、设立、删除或管理你的账户。
+
+help_center_content: >-
+  ## 找到常见问题的答案
+
+    {: .help-question-list}
+  * [我无法登录自己的账户](/zh/help/trouble-signing-in/overview/)
+
+  * [我需要帮助验证身份](/zh/help/verify-your-identity/overview/)
+
+  * [我需要更改自己的信息或管理我的账户](/zh/help/manage-your-account/overview/)
+
+  * [浏览更多帮助文章](/zh/help/)
+maintenance_window_content: Login.gov 的联系中心目前正在进行维护  从 <strong>%{start_time} - %{end_time}.</strong>请访问以下常见主题获得帮助。
+phone_available_content: 你可以随时致电我们的支持中心，电话号码是 (844) 875-6446.
+unplanned_outage_content: 由于服务中断，我们无法查看网上支持请求。
+partner_content: >-
+  ## 与 Login.gov 合作
+
+  你的机构有兴趣使用 Login.gov？请[访问我们的合作伙伴网站](/partners/)或[联系我们](/partners/business-inquiries/)。
+
+report_issue_content: >-
+  ## 报告安全问题
+
+  要报告安全漏洞，请查看 [GSA 漏洞披露政策](https://www.gsa.gov/vulnerability-disclosure-policy)并通过 [GSA Bug Bounty（漏洞奖赏）](https://hackerone.com/gsa_bbp){:class="usa-link--external"}计划提交您的报告。
+
+
+  要报告可疑的假冒 Login.gov 或 Login.gov 合作伙伴的钓鱼网站，请[联系我们](https://forms.gle/uj8NwiaDrieVHa466){:class="usa-link--external"}。
