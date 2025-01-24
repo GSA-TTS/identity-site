@@ -1,11 +1,7 @@
 require 'spec_helper'
 
 RSpec.describe 'Contact us' do
-  let(:doc) { page('contact/index.html') }
-
-  def page(relative_path)
-    Nokogiri::HTML(file_at(relative_path))
-  end
+  let(:doc) { page_at('contact/index.html') }
 
   it 'includes Salesforce form action' do
     form = doc.at_css('form#contact-us-form')
@@ -21,13 +17,12 @@ RSpec.describe 'Contact us' do
 
   context 'Contact form success' do
     let(:path) { "/_policy/contact-submitted._#{lang}.md" }
+    let(:content) { front_matter(path) }
 
     describe 'English' do
       let(:lang) { 'en' }
 
       it 'includes permalink' do
-        content = front_matter(path)
-
         expect(content['permalink']).to eq('/contact/case-submitted/')
       end
     end
@@ -36,8 +31,6 @@ RSpec.describe 'Contact us' do
       let(:lang) { 'es' }
 
       it 'includes permalink' do
-        content = front_matter(path)
-
         expect(content['permalink']).to eq('/es/contact/case-submitted/')
       end
     end
@@ -46,8 +39,6 @@ RSpec.describe 'Contact us' do
       let(:lang) { 'fr' }
 
       it 'includes permalink' do
-        content = front_matter(path)
-
         expect(content['permalink']).to eq('/fr/contact/case-submitted/')
       end
     end
@@ -56,8 +47,6 @@ RSpec.describe 'Contact us' do
       let(:lang) { 'zh' }
 
       it 'includes permalink' do
-        content = front_matter(path)
-
         expect(content['permalink']).to eq('/zh/contact/case-submitted/')
       end
     end
