@@ -1,7 +1,7 @@
 ---
 permalink: /es/contact/case-submitted/
 styles:
-  - "/assets/css/contact_us.css"
+  - '/assets/css/contact_us.css'
 form_submitted_message: >-
   Su solicitud de ayuda se envió sin problema.
 

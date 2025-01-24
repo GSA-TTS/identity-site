@@ -1,7 +1,7 @@
 ---
 permalink: /fr/contact/case-submitted/
 styles:
-  - "/assets/css/contact_us.css"
+  - '/assets/css/contact_us.css'
 form_submitted_message: >-
   Votre ticket d'aide a été envoyé avec succès.
 

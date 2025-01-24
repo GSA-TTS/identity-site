@@ -1,7 +1,7 @@
 ---
 permalink: /zh/contact/case-submitted/
 styles:
-  - "/assets/css/contact_us.css"
+  - '/assets/css/contact_us.css'
 form_submitted_message: >-
   您的求助工单已成功提交。
   
