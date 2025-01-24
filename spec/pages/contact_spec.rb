@@ -1,6 +1,8 @@
 require 'spec_helper'
 
 RSpec.describe 'Contact us' do
+  let(:md_path) { "/_policy/contact._#{lang}.md" }
+  let(:settings) { front_matter(md_path) }
   let(:doc) { page_at('contact/index.html') }
 
   it 'includes Salesforce form action' do
@@ -15,6 +17,38 @@ RSpec.describe 'Contact us' do
     expect(ret_url['value']).to end_with('/contact/case-submitted/#success')
   end
 
+  describe 'English' do
+    let(:lang) { 'en' }
+
+    it 'includes permalink' do
+      expect(settings['permalink']).to eq('/contact/')
+    end
+  end
+
+  describe 'Spanish' do
+    let(:lang) { 'es' }
+
+    it 'includes permalink' do
+      expect(settings['permalink']).to eq('/es/contact/')
+    end
+  end
+
+  describe 'French' do
+    let(:lang) { 'fr' }
+
+    it 'includes permalink' do
+      expect(settings['permalink']).to eq('/fr/contact/')
+    end
+  end
+
+  describe 'Chinese' do
+    let(:lang) { 'zh' }
+
+    it 'includes permalink' do
+      expect(settings['permalink']).to eq('/zh/contact/')
+    end
+  end
+
   context 'Contact form success' do
     let(:md_path) { "/_policy/contact-submitted._#{lang}.md" }
     let(:settings) { front_matter(md_path) }
@@ -24,7 +58,7 @@ RSpec.describe 'Contact us' do
       alert = doc.at_css('p.usa-alert__text')
 
       expect(alert.text.strip).to start_with('Your help ticket')
-    end    
+    end
 
     describe 'English' do
       let(:lang) { 'en' }
