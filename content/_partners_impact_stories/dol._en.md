@@ -21,7 +21,7 @@ challenge: >-
     For many families, unemployment insurance (UI) can provide critical financial support, helping to pay for groceries or utilities. The COVID-19 pandemic brought this into sharp focus, especially the need for unemployment benefit recipients to receive their benefits in a timely, accessible way. At that time, many state-level UI offices were closed, presenting an additional barrier to claimants.
 
 
-    As states increased the use of online access to file for UI benefits, the delivery of benefits exposed the vulnerability of online filing systems to identify fraud. States needed tools to secure equitable access to benefits while providing sufficient security to verify identity.
+    As states increased the use of online access to file for UI benefits, the delivery of benefits exposed the vulnerability of online filing systems to identify fraud. States needed tools to secure access to benefits while providing sufficient security to verify identity.
 
 solution: >-
     ### The solution
