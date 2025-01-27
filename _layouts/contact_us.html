@@ -10,9 +10,9 @@ common_applications:
 
 {% if site.contact_maintenance_start_time and site.contact_maintenance_end_time %}
   {% capture maintenance_alert_content %}
-    {{ page.maintenance_window_content }}
+    {{ site.data[page.lang].contact.maintenance_window_content }}
     {% if site.contact_maintenance_phone_available %}
-      {{ page.phone_available_content }}
+      {{ site.data[page.lang].contact.phone_available_content }}
     {% endif %}
   {% endcapture %}
   {% include alert.html
@@ -24,9 +24,9 @@ common_applications:
 
 {% if site.contact_unplanned_outage %}
   {% capture outage_alert_content %}
-    {{ page.unplanned_outage_content }}
+    {{ site.data[page.lang].contact.unplanned_outage_content }}
     {% if site.contact_unplanned_outage_phone_available %}
-      {{ page.phone_available_content }}
+      {{ site.data[page.lang].contact.phone_available_content }}
     {% endif %}
   {% endcapture %}
   {% include alert.html type="warning" content=outage_alert_content %}
