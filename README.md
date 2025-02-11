@@ -8,7 +8,7 @@ The static marketing site for Login.gov
 - [Configuring Site Settings](./docs/development-workflows/configuring-site-settings.md)
 - [Contact Form Outages](./docs/development-workflows/contact-form-outages.md)
 - [Nested Help Articles](./docs/development-workflows/nested-help-articles.md)
-- [Netlify CMS](./docs/development-workflows/netlify-cms.md)
+- [Decap CMS](./docs/development-workflows/decap-netlify-cms.md)
 
 ## Development
 
