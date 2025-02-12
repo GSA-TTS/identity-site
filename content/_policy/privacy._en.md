@@ -17,7 +17,7 @@ By accessing the Login.gov service, you acknowledge and agree to this Privacy Po
 
 ### The Authority - Who authorizes the collection of this data?  ### {#authority}
 
-The information you provide is collected pursuant to 6 USC § 1523 (b)(1)(A)-(E), the E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), 40 USC § 501, 40 USC § 502, and OMB M-19-17.
+The information you provide is collected pursuant to 6 USC § 1523 (b)(1)(A)-(E), the E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title40-section501&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim), [40 USC § 502](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title40-section502&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim), and [OMB M-19-17](https://www.idmanagement.gov/laws-policies-standards/m-19-17/).
 
 ### The Purpose - Why do we need your information? ### {#purpose}
 
