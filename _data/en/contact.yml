@@ -1,0 +1,37 @@
+help_center_content: >-
+  ## Find answers to commonly asked questions
+
+    {: .help-question-list}
+  * [I can’t sign in to my account](/help/trouble-signing-in/overview/)
+
+  * [I need help verifying my identity](/help/verify-your-identity/overview/)
+
+  * [I need to change my information or manage my account](/help/manage-your-account/overview/)
+
+  * [Browse more help articles](/help/)
+intro_content: >-
+  ## Get in touch
+
+  * Contact the government agency to help you with your application status, membership, eligibility, benefits or other concerns related to your account with that government agency. You can find the contact information on the agency’s website.
+
+
+  * Login.gov can only resolve issues related to signing-in.
+
+
+  * Login.gov cannot sign in, create, delete or manage your account on your behalf.
+maintenance_window_content: Login.gov’s Contact Center is currently undergoing
+  maintenance from <strong>%{start_time} - %{end_time}.</strong> Visit some
+  common topics below for assistance.
+partner_content: >-
+  ## Partner with Login.gov
+
+  Interested in using Login.gov at your agency? Please [visit our partners website](/partners/) or [contact us](/partners/business-inquiries/).
+phone_available_content: You can call our support center anytime at (844) 875-6446.
+report_issue_content: >-
+  ## Report a security issue
+
+  To report a security vulnerability, review the [GSA vulnerability disclosure policy](https://www.gsa.gov/vulnerability-disclosure-policy) and submit your report through the [GSA Bug Bounty Program](https://hackerone.com/gsa_bbp){:class=“usa-link--external”}.
+
+
+  To report a suspected Login.gov or Partner phishing site please [contact us](https://forms.gle/uj8NwiaDrieVHa466){:class=“usa-link--external”}.
+unplanned_outage_content: Due to an outage, we can’t review online support requests.

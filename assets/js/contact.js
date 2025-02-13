@@ -1,6 +1,8 @@
 import { populateFormAgencyValues } from './populate_contact_form_agency.js';
 
 function verifyCanSubmitEntry() {
+  // TODO: Note: Temp override.
+  return true;
   const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
   if (debug && +debug.value) {
     return;
