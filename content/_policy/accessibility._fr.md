@@ -6,7 +6,7 @@ permalink: /fr/accessibility/
 ---
 
 ## Notre engagement
-Login.gov s’engage à être inclusif et accessible à tous ses utilisateurs. Nous mettons l’accent sur l’amélioration constante de la manière dont chacun peut utiliser Login.gov, quelle que soit ses capacités, pour accéder facilement aux applications et services publics.
+Login.gov s’engage à être accessible à tous ses utilisateurs. Nous mettons l’accent sur l’amélioration constante de la manière dont chacun peut utiliser Login.gov, quelle que soit ses capacités, pour accéder facilement aux applications et services publics.
 
 Pour plus de détails, veuillez consulter la [Déclaration d’accessibilité de l’Administration des services généraux des États-Unis](https://www.gsa.gov/website-information/accessibility-statement).
 
