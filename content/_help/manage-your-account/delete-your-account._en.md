@@ -50,3 +50,10 @@ As a security measure, Login.gov requires a two-step process and 24 hour waiting
 7. You will receive two emails.
 * The first email confirms we received your request. Your account is not yet deleted. Additional action is required.
 * The second email is sent to you 24 hours later. Follow the directions in that email to complete the deletion process.
+
+## Related articles
+
+* [Change your password](/help/manage-your-account/change-your-password/)
+* [Relink your accounts](/help/manage-your-account/relink-your-accounts/)
+* [Change the email address associated with your account](/help/manage-your-account/change-your-email-address/)
+* [Forgot your password](/help/trouble-signing-in/forgot-your-password/)

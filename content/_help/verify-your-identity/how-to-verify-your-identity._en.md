@@ -75,3 +75,9 @@ Login.gov is a secure, government website that adheres to the highest standards 
 7.  Take note of your personal key and keep it safe. You’ll need to enter your personal key immediately on the next page. Click “Continue”
 
 Once the process is complete, click “Agree and Continue” to be redirected back to your Login.gov account page or the agency you are trying to access.
+
+## Related articles
+
+* [Accepted identification documents](/help/verify-your-identity/accepted-identification-documents/)
+* [Verify your address by mail](/help/verify-your-identity/verify-your-address-by-mail/)
+* [Verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/)
