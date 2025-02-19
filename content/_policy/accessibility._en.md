@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 ## Our commitment
-Login.gov is committed to be accessible for all of our users. Our focus is to continuously improve how people of all abilities are able to use Login.gov to easily access government applications and services.
+Login.gov is committed to being accessible for all of our users. Our focus is to continuously improve how people of all abilities are able to use Login.gov to easily access government applications and services.
 
 For additional detail, please see the [U.S. General Services Administration Accessibility Statement](https://www.gsa.gov/website-information/accessibility-statement).
 
