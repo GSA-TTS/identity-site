@@ -202,3 +202,8 @@ L’appareil prend automatiquement votre photo. Cochez la case verte pour valide
 ### Actualiser votre navigateur ou vider le cache et effacer les cookies
 * Si vous utilisez Safari, vous pouvez essayer [d’actualiser le navigateur]({{ page.url_safari_update_doc }}) ou [de vider le cache et d’effacer les cookies.]({{ page.url_safari_clear_cache_doc }})
 * Si vous utilisez Google Chrome, vous pouvez essayer [d’actualiser le navigateur]({{ page.url_chrome_update_doc }}) ou [de vider le cache et d’effacer les cookies.]({{ page.url_chrome_clear_cache_doc }})
+
+## Related articles
+
+* [Comment confirmer votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
+* [Documents d’identification acceptés](/fr/help/verify-your-identity/accepted-identification-documents/)

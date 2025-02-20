@@ -24,3 +24,8 @@ Suivez les étapes suivantes pour modifier le numéro de téléphone associé à
 
    * Le numéro de téléphone par défaut sera le numéro de téléphone principal associé à votre compte. Si vous utilisez des codes SMS pour vous authentifier et vous connecter, ces codes seront envoyés à votre numéro de téléphone par défaut.
 8. Cliquez sur « Suite » et suivez les instructions pour confirmer vos modifications.
+
+## Related articles
+
+* [Problèmes avec les méthodes d’authentification](/fr/help/trouble-signing-in/issues-with-authentication-methods/)
+* [Prise en charge des numéros de téléphone étrangers](/fr/help/manage-your-account/international-phone-support/)

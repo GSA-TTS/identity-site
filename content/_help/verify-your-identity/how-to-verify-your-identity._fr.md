@@ -80,3 +80,9 @@ Login.gov est un site web sécurisé de l’administration qui respecte les norm
 7. Prenez note de votre clé personnelle et conservez-la en lieu sûr. Vous devrez saisir votre clé personnelle immédiatement à la page suivante. Cliquez sur « Suite ».
 
 Une fois ce processus terminé, cliquez sur « Accepter et continuer » pour être redirigé vers la page de votre compte Login.gov ou vers l'organisme auquel vous essayez d'accéder.
+
+## Related articles
+
+* [Documents d’identification acceptés](/fr/help/verify-your-identity/accepted-identification-documents/)
+* [Vérifier votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)
+* [Vérifier votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/)
