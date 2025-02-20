@@ -7,7 +7,7 @@ permalink: /zh/accessibility/
 ---
 
 ## 我们的承诺
-Login.gov 致力于普惠所有用户并对所有用户都可使易用。我们的工作重点是不断改善能力各异的人们使用 Login.gov 来轻松访问政府应用程序和服务的过程。
+Login.gov 致力于让我们所有用户都能无障碍使用。我们的工作重点是不断改善能力各异的人们使用 Login.gov 来轻松访问政府应用程序和服务的过程。
 
 有关更多详细信息，请参阅[美国总务管理局无障碍声明](https://www.gsa.gov/website-information/accessibility-statement)。
 
