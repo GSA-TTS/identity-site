@@ -201,3 +201,8 @@ La cámara tomará automáticamente su fotografía. Toque la marca de verificaci
 ### Actualice su navegador web o borre la memoria caché y las cookies de este
 * Si usa el navegador Safari, intente [actualizarlo]({{ page.url_safari_update_doc }} ) o [borrar la memoria caché y las cookies.]({{ page.url_safari_clear_cache_doc }} ) de este.
 * Si usa el navegador Google Chrome, intente [actualizarlo]({{ page.url_chrome_update_doc }}) o [borrar la memoria caché y las cookies.]({{ page.url_chrome_clear_cache_doc }}) de este.
+
+## Related articles
+
+* [Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
+* [Documentos de identificación aceptados](/es/help/verify-your-identity/accepted-identification-documents/)
