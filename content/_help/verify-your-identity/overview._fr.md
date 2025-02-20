@@ -44,8 +44,9 @@ Login.gov est un site web sécurisé de l’administration qui respecte les norm
 Login.gov ne stocke pas d’image de votre pièce d’identité ni de vous-même. Nous sollicitons votre consentement avant de partager les informations vérifiées vous concernant avec l’organisme partenaire. [En savoir davantage sur nos mesures de protection et de sécurité.](/fr/policy/)
 
 ## Articles connexes
-[Comment vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
-[Documents d’identification acceptés](/fr/help/verify-your-identity/accepted-identification-documents/)
-[Comment ajouter des images de votre permis de conduire ou de votre carte d'identité de l’État](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
-[Vérifiez votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
-[Validez votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)
+
+* [Comment vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
+* [Documents d’identification acceptés](/fr/help/verify-your-identity/accepted-identification-documents/)
+* [Comment ajouter des images de votre permis de conduire ou de votre carte d'identité de l’État](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
+* [Vérifiez votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
+* [Validez votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)
