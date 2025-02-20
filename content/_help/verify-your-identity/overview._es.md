@@ -48,8 +48,8 @@ información sobre nuestras medidas de privacidad y seguridad.](/es/policy/)
 
 ## Artículos relacionados
 
-[Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
-[Documentos de identificación aceptados](/es/help/verify-your-identity/accepted-identification-documents/)
-[Cómo insertar imágenes de su licencia de conducir o identificación estatal](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
-[Verifique su número de teléfono](/es/help/verify-your-identity/phone-number/)
-[Verifique su domicilio a través del correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/)
+* [Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
+* [Documentos de identificación aceptados](/es/help/verify-your-identity/accepted-identification-documents/)
+* [Cómo insertar imágenes de su licencia de conducir o identificación estatal](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
+* [Verifique su número de teléfono](/es/help/verify-your-identity/phone-number/)
+* [Verifique su domicilio a través del correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/)

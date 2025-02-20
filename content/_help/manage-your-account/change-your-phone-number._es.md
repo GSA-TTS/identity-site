@@ -24,3 +24,8 @@ Siga estos pasos para cambiar el número de teléfono asociado con su cuenta.
 
    * El número de teléfono predeterminado será el número de teléfono principal asociado con su cuenta. Si utiliza SMS o códigos de texto para autenticarse e iniciar sesión, estos códigos se enviarán al número de teléfono predeterminado.
 8. Haga clic en "Continuar" y siga las instrucciones para confirmar los cambios.
+
+## Related articles
+
+* [Problemas con los métodos de autenticación](/es/help/trouble-signing-in/issues-with-authentication-methods/)
+* [Ayuda con un número de teléfono internacional](/es/help/manage-your-account/international-phone-support/)

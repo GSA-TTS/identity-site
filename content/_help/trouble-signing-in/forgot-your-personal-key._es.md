@@ -41,6 +41,6 @@ Si restablece su contraseña y no tiene su clave personal, tendrá que verificar
 
 ## Otros artículos
 
-[Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
-[Cambie su contraseña](/es/help/manage-your-account/change-your-password/)
-[Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
+* [Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
+* [Cambie su contraseña](/es/help/manage-your-account/change-your-password/)
+* [Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)

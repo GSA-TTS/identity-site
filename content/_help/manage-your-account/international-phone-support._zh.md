@@ -27,3 +27,7 @@ scripts:
            option_no="不支持"
            error_heading="加载数据出错"
            error_body="抱歉，加载支持国家列表时出错。请随后再试。" %}
+
+## Related articles
+
+* [更改与你账户相关的电话](/zh/help/manage-your-account/change-your-phone-number/)

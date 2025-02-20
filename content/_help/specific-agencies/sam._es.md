@@ -43,3 +43,8 @@ Contacte con el Servicio Federal de Atención al Cliente al 866-606-8220 (llamad
   * Si usa el mismo correo electrónico para crear su perfil en Login.gov, conservará todos sus registros, solicitudes de acceso a datos y búsquedas guardadas.
   * Si usa una nueva dirección de correo electrónico, su perfil de SAM.gov no se verá afectado, pero no podrá acceder a la información que tenga en este.
 * Si ya tiene una cuenta de Login.gov y desea añadir su correo electrónico de SAM, puede hacerlo en la página “Mi cuenta” de Login.gov. Seleccione el botón “Iniciar sesión” en la página principal de Login.gov para acceder a la página de esa cuenta.
+
+## Related articles
+
+* [Ayuda con agencias específicas](/es/help/specific-agencies/overview/)
+* [Vuelva a vincular sus cuentas](/es/help/manage-your-account/relink-your-accounts/)

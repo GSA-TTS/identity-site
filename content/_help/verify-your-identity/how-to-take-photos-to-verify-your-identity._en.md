@@ -198,3 +198,8 @@ The camera will automatically take your photo. Tap the green checkmark to confir
 ### Update your web browser, or clear your cache and cookies
 * If you’re using Safari, you can try [updating the browser]({{ page.url_safari_update_doc }}), or [clear the cache and cookies.]({{ page.url_safari_clear_cache_doc }})
 * If you’re using Google Chrome, you can try [updating the browser]({{ page.url_chrome_update_doc }}), or [clear the cache and cookies.]({{ page.url_chrome_clear_cache_doc }})
+
+## Related articles
+
+* [How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
+* [Accepted identification documents](/help/verify-your-identity/accepted-identification-documents/)

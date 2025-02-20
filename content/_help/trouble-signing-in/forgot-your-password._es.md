@@ -32,3 +32,7 @@ Siga estos pasos para restablecer su contraseña.
      * Partes de su dirección de correo electrónico o fechas personales, como su cumpleaños
      * La misma contraseña, o partes de esta, que use para otras cuentas, como su cuenta bancaria o correo electrónico
 8. Haga clic en el botón “Cambiar contraseña”.
+
+## Related articles
+
+* [Olvidó su clave personal](/es/help/trouble-signing-in/forgot-your-personal-key/)

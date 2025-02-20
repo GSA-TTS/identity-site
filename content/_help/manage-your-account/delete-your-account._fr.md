@@ -47,3 +47,10 @@ Si vous avez perdu l’accès à vos méthodes d’authentification et voulez su
 7. Vous recevrez deux e-mails.
 * Le premier e-mail confirme que nous avons bien reçu votre demande. Votre compte n’est pas encore supprimé. Il est nécessaire de prendre des mesures supplémentaires.
 * Le second e-mail vous est envoyé 24 heures plus tard. Suivez les instructions qu’il contient pour terminer le processus de suppression.
+
+## Related articles
+
+* [Modifier votre mot de passe](/fr/help/manage-your-account/change-your-password/)
+* [Relier vos comptes](/fr/help/manage-your-account/relink-your-accounts/)
+* [Modifier l’adresse e-mail associée à votre compte](/fr/help/manage-your-account/change-your-email-address/)
+* [Mot de passe oublié](/fr/help/trouble-signing-in/forgot-your-password/)

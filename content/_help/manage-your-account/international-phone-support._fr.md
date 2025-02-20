@@ -26,3 +26,7 @@ Nous vous encourageons à configurer plus d'une méthode d'authentification pour
            option_no="Non" error_heading="Erreur lors du chargement des données"
            error_heading="Erreur lors du chargement des données"
            error_body="Désolé, une erreur s'est produite lors du chargement de la liste des pays pris en charge. Veuillez réessayer ultérieurement." %}
+
+## Related articles
+
+* [Modifier le numéro de téléphone associé à votre compte](/fr/help/manage-your-account/change-your-phone-number/)

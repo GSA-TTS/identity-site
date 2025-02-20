@@ -26,3 +26,7 @@ Le recomendamos que configure más de un método de autenticación para evitar q
            option_no="No"
            error_heading="Error al cargar los datos"
            error_body="Hubo un error al cargar la lista de países admitidos. Inténtelo de nuevo más tarde." %}
+
+## Related articles
+
+* [Cambie el número de teléfono asociado con su cuenta](/es/help/manage-your-account/change-your-phone-number/)

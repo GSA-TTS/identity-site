@@ -72,3 +72,8 @@ order: 5
     ![设置或使用人脸或触摸解锁时可能遇到的一个提示示例：一条通行密钥信息截屏，该信息让用户在使用iCloud keychain 或手机或平板之间做选择](/assets/img/help/face-touch-unlock/iphone-screen-lock.png){: .display-block margin-top-5}
     ![设置或使用人脸或触摸解锁时可能遇到的一个提示示例：QR 码截屏](/assets/img/help/face-touch-unlock/passkey-screen-shot.png){: .display-block margin-top-5}
 6. 按照步骤来设立另外一种身份证实方法。
+
+## Related articles
+
+* [身份证实方法](/zh/help/get-started/authentication-methods/)
+* [添加或更改你身份证实方法](/zh/help/manage-your-account/add-or-change-your-authentication-method/)

@@ -133,3 +133,9 @@ Si vous ne pouvez pas utiliser de téléphone, d'application d'authentification,
 Lors de la création de votre compte, vous accéderez à la page « Sécuriser votre compte ». C'est là que vous devez choisir votre principale méthode d'authentification. Si vous ne pouvez utiliser aucune des autres options, sélectionnez « Codes de sauvegarde », puis cliquez sur « Suite ».
 
 Sur la page « Ajouter une autre méthode », sélectionnez « Je ne dispose d'aucune des options ci-dessus », puis cliquez sur « Suite ».
+
+## Related articles
+
+* [Comment se connecter à Login.gov](/fr/help/trouble-signing-in/how-to-sign-in/)
+* [Problèmes avec les méthodes d’authentification](/fr/help/trouble-signing-in/issues-with-authentication-methods/)
+* [Problèmes avec le déverrouillage facial ou tactile](/fr/help/trouble-signing-in/face-or-touch-unlock/)

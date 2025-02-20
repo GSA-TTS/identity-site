@@ -39,3 +39,6 @@ Follow these steps to change the email address associated with your account.
 1. Follow the prompts to confirm that you are deleting the correct address by reentering your password and authentication method.
 1. Click the “Delete email address” button.
 
+## Related articles
+
+* [How to sign in to Login.gov](/help/trouble-signing-in/how-to-sign-in/)

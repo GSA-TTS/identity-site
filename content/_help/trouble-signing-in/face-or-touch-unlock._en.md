@@ -75,4 +75,7 @@ Go to [secure.login.gov](https://secure.login.gov/) and click on "Create an acco
     ![Example of a prompt that may be encountered upon setting up or using face or touch unlock: Screenshot of a QR code](/assets/img/help/face-touch-unlock/passkey-screen-shot.png){: .display-block margin-top-5}
 6. Follow the steps to set up another authentication method.
 
- 
+## Related articles
+
+* [Authentication methods](/help/get-started/authentication-methods/)
+* [Add or change your authentication method](/help/manage-your-account/add-or-change-your-authentication-method/)

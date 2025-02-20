@@ -26,3 +26,8 @@ Follow these steps to change the phone number associated with your account.
 
    * The default phone number will be the primary phone number associated with your account. If you use SMS/text codes to authenticate and sign in, those codes will be sent to the default phone number.
 8. Click “Continue” and follow the prompts to confirm your changes.
+
+## Related articles
+
+* [Issues with authentication methods](/help/trouble-signing-in/issues-with-authentication-methods/)
+* [International phone number support](/help/manage-your-account/international-phone-support/)
