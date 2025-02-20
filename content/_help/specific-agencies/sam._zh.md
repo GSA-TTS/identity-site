@@ -31,3 +31,8 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
   * 使用与 SAM 同样的电邮来设立 Login.gov 账户，你就能保留所有记录、数据访问请求以及已保存的搜索历史。
   * 如果你使用一个新的电邮地址，你的 SAM 账户资料不会受到影响，但你将无法访问你的 SAM 账户资料。
 * 如果你已有 Login.gov 账户而且想添加你 SAM 账户的电邮，可在 Login.gov 我的账户页面进行。在 Login.gov 主页选择登录按钮来访问我的账户页面。
+
+## Related articles
+
+* [与具体政府机构相关的帮助](/zh/help/specific-agencies/overview/)
+* [重新关联你的账户](/zh/help/manage-your-account/relink-your-accounts/)
