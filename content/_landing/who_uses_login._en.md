@@ -23,7 +23,7 @@ component:
     established by top security organizations such as the [National Institute of
     Standards and Technology](https://www.nist.gov/), the [Cybersecurity
     National Action
-    Plan](https://www.hsdl.org/c/cybersecurity-national-action-plan/) and the
+    Plan](https://obamawhitehouse.archives.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan) and the
     [Federal Acquisition
     Service](https://www.gsa.gov/about-us/organization/federal-acquisition-service)
 

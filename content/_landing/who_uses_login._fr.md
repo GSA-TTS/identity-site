@@ -21,7 +21,7 @@ component:
     mises en place par les plus grandes organisations de sécurité, telles que
     l’[Institut national des normes et de la technologie](https://www.nist.gov/), le
     [Plan national d’action pour la
-    cybersécurité](https://www.hsdl.org/c/cybersecurity-national-action-plan/) et le
+    cybersécurité](https://obamawhitehouse.archives.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan) et le
     [Service fédéral des
     acquisitions](https://www.gsa.gov/about-us/organization/federal-acquisition-service).
 

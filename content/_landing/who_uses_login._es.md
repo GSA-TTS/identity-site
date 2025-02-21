@@ -21,7 +21,7 @@ component:
     establecidas por las principales organizaciones de seguridad, como el
     [Instituto Nacional de Estándares y Tecnología](https://www.nist.gov/), el
     [Plan de Acción Nacional de
-    Ciberseguridad](https://www.hsdl.org/c/cybersecurity-national-action-plan/) y el
+    Ciberseguridad](https://obamawhitehouse.archives.gov/the-press-office/2016/02/09/fact-sheet-cybersecurity-national-action-plan) y el
     [Servicio Federal de
     Adquisiciones](https://www.gsa.gov/about-us/organization/federal-acquisition-service).
 
