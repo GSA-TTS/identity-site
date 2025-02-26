@@ -1,4 +1,4 @@
-# Netlify CMS Settings
+# Decap CMS Settings
 ## Comment out when doing local development
 backend:
   name: github
@@ -9,10 +9,10 @@ backend:
   preview_context: pages/build
   use_graphql: true
 
-# Uncomment when doing local development on Netlify CMS
-# Run `npx netlify-cms-proxy-server` to start working locally
+# Uncomment when doing local development on Decap CMS
+# Run `npx decap-server` to start working locally
 # In another terminal, start the app with `make build && make run`
-# See https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+# See https://decapcms.org/docs/working-with-a-local-git-repository/
 #
 #
 # backend:

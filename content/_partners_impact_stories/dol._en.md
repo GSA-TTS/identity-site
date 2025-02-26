@@ -21,7 +21,7 @@ challenge: >-
     For many families, unemployment insurance (UI) can provide critical financial support, helping to pay for groceries or utilities. The COVID-19 pandemic brought this into sharp focus, especially the need for unemployment benefit recipients to receive their benefits in a timely, accessible way. At that time, many state-level UI offices were closed, presenting an additional barrier to claimants.
 
 
-    As states increased the use of online access to file for UI benefits, the delivery of benefits exposed the vulnerability of online filing systems to identify fraud. States needed tools to secure equitable access to benefits while providing sufficient security to verify identity.
+    As states increased the use of online access to file for UI benefits, the delivery of benefits exposed the vulnerability of online filing systems to identify fraud. States needed tools to secure access to benefits while providing sufficient security to verify identity.
 
 solution: >-
     ### The solution
@@ -40,7 +40,7 @@ impact: >-
     Soon after this announcement, Login.gov began planning an integration with the Department of Labor and the State of Hawaii. When the tragic wildfires hit Maui, we accelerated our rollout in order to help folks who would be turning to that service to help them recover. Thousands of Hawaii residents were able to quickly get what they needed in the midst of a crisis, while also having the peace of mind knowing that Login.gov’s security and anti-fraud controls were protecting them.
 
 
-    And because Login.gov is also used for FEMA services via Department of Homeland Security, and disaster assistance loans via Small Business Association, residents of Hawaii could use a single Login.gov account to simplify their interactions with Government services when it mattered most.
+    And because Login.gov is also used for FEMA services via Department of Homeland Security, and disaster assistance loans via Small Business Administration, residents of Hawaii could use a single Login.gov account to simplify their interactions with Government services when it mattered most.
 
 
     State unemployment insurance offices are on the front lines of providing critical services, and the success of this partnership with the Department of Labor highlights the importance of digital identity solutions in supporting this important work. Utah and Massachusetts have joined Arkansas and Hawaii in offering UI identity verification through Login.gov. To date, more than 112,000 digital claimants have been served.**  GSA looks forward to continued work with the Department of Labor to support more states and their residents.
