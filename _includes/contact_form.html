@@ -410,7 +410,6 @@
 </script>
 
 <div>
-  <h3>{{ site.data.[page.lang].settings.contact_page.support_request_form.title }}</h3>
   <form
     id="contact-us-form"
     action="{{ site.contact_form_action }}"
@@ -421,7 +420,7 @@
     <input type="hidden" name="00NU0000004z90b" id="00NU0000004z90b" value="{{ site.data.language_map.languages[page.lang] | default: 'English' }}" />
     <input type="hidden" name="{{ site.contact_form_agency }}" id="{{ site.contact_form_agency }}" value="" data-for="agency" />
     <input type="hidden" name="{{ site.contact_form_integration }}" id="{{ site.contact_form_integration }}" value="" data-for="integration" />
-    <input type="hidden" name="retURL" value="https://login.gov{{ '/' | locale_url }}" />
+    <input type="hidden" name="retURL" value="{{ 'https://login.gov' | append: page.permalink | append: 'contact-submitted/#success'}}" />
     <input type="hidden" name="orgid" value="{{ site.contact_form_orgid }}" />
     <input type="hidden" name="status" id="status" value="New" />
     <input type="hidden" id="external" name="external" value="1" />
@@ -429,10 +428,6 @@
     {% unless site.recaptcha_site_key %}
     <input type="hidden" name="debug" value="1" />
     {% endunless %}
-
-    <p>
-      {{ site.data.[page.lang].settings.contact_page.operating_hours }}
-    </p>
 
     <strong>
       {{ site.data.[page.lang].settings.contact_page.support_request_form.required_text }}<abbr title="{{ site.data.[page.lang].settings.contact_page.required }}" class="usa-hint usa-hint--required">*</abbr>
