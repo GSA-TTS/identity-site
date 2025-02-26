@@ -14,7 +14,7 @@ Login.gov 服务由联邦总务管理局（GSA）提供，让公众可以安全�
 
 ### 授权：谁授权我们收集这些数据?  ### {#authority}
 
-对你提供的信息进行收集，依照的是《美国法典》6 USC § 1523 (b)(1)(A)-(E), 2002年电子政府法 (Pub.L. 107–347, 44 U.S.C. 3501 note)以及 40 USC § 501。
+你提供的信息是根据《美国法典》编号6 USC § 1523 (b)(1)(A)-(E)、2002 年《电子政务法》（公法编号107-347、《美国法典》编号 44 USC 3501 note）、《美国法典》编号[40 USC § 501](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title40-section501&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim)和[40 USC § 502](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title40-section502&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim)以及白宫行政管理和预算局[OMB M-19-17](https://www.idmanagement.gov/laws-policies-standards/m-19-17/) 收集的。
 
 ### 目的：我们为什么需要你的信息?  ### {#purpose}
 
