@@ -29,3 +29,8 @@ Veuillez contacter directement [SSA.gov](https://www.ssa.gov/) si vous avez des 
 Appelez le 1-800-772-1213 de 8 à 19 h du lundi au vendredi ou appelez le numéro de télex/l’ATME au 1-800-325-0778. Vous pouvez également [envoyer votre demande via le formulaire Web](https://secure.ssa.gov/emailus/).
 
 Si vous vivez à l'étranger, [les coordonnées sont disponibles par pays sur SSA.gov](https://www.ssa.gov/foreign/).
+
+## Related articles
+
+* [Aide concernant des organismes spécifiques](/fr/help/specific-agencies/overview/)
+* [Relier vos comptes](/fr/help/manage-your-account/relink-your-accounts/)

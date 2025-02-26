@@ -197,3 +197,8 @@ Login.gov的一些合作伙伴机构可能会要求您拍摄自己的面部照�
 ### 更新你的浏览器，或者清除缓存以及魔饼（cookie)
 * 如果你在使用Safari，可以尝试[更新浏览器]({{ page.url_safari_update_doc }})，或者[清除缓存和魔饼。]({{ page.url_safari_clear_cache_doc }})
 * 如果你在使用Google Chrome，可以尝试[更新浏览器]({{ page.url_chrome_update_doc }})，或者[清除缓存和魔饼。]({{ page.url_chrome_clear_cache_doc }})
+
+## Related articles
+
+* [如何验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
+* [系统接受的身份证件](/zh/help/verify-your-identity/accepted-identification-documents/)

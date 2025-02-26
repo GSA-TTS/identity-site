@@ -69,3 +69,8 @@ Vaya a [secure.login.gov](https://secure.login.gov/es) y haga clic en “Crear u
     ![Ejemplo de un aviso que puede aparecer después de configurar o utilizar el desbloqueo facial o táctil: Captura de pantalla de un código QR](/assets/img/help/face-touch-unlock/passkey-screen-shot.png){: .display-block margin-top-5}
 
 6. Siga estos pasos para configurar otro método de autenticación.
+
+## Related articles
+
+* [Métodos de autenticación](/es/help/get-started/authentication-methods/)
+* [Añada o cambie su método de autenticación](/es/help/manage-your-account/add-or-change-your-authentication-method/)

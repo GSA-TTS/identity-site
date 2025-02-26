@@ -29,3 +29,8 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 要查询你的受信任旅客计划账户信息，请访问 <https://ttp.cbp.dhs.gov/>。
 
 如果直接从 Login.gov 主页登录，你只会看到自己的 Login.gov 账户信息。
+
+## Related articles
+
+* [与具体政府机构相关的帮助](/zh/help/specific-agencies/overview/)
+* [重新关联你的账户](/zh/help/manage-your-account/relink-your-accounts/)

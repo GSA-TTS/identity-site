@@ -27,3 +27,7 @@ order: 2
      * 你电邮地址的一部分或者个人相关日期，比如你的生日
      * 你用于其他账户（比如银行账户或电邮）的密码或者这些密码的一部分。
 8. 点击“更改密码”键。
+
+## Related articles
+
+* [忘了个人密钥](/zh/help/trouble-signing-in/forgot-your-personal-key/)

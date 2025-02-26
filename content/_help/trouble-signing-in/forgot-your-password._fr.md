@@ -32,3 +32,7 @@ Pour réinitialiser votre mot de passe, suivez les étapes ci-dessous.
      * Les parties de votre adresse e-mail ou des dates personnelles, comme votre date de naissance
      * Le même mot de passe, ou des parties de celui-ci, que vous utilisez pour d’autres comptes, tels que votre compte bancaire ou votre adresse e-mail
 8. Cliquez sur le bouton « Changer le mot de passe ».
+
+## Related articles
+
+* [Clé personnelle oubliée](/fr/help/trouble-signing-in/forgot-your-personal-key/)

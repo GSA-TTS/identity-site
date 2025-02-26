@@ -33,3 +33,7 @@ order: 5
 5. 在账户页面，选择你要删除电邮地址旁边的“删除”。
 6. 按照提示通过重新输入你的密码和身份证实方法来确认你要删除的地址是对的。
 7. 点击“删除电邮地址”按钮。
+
+## Related articles
+
+* [如何登录 Login.gov](/zh/help/trouble-signing-in/how-to-sign-in/)

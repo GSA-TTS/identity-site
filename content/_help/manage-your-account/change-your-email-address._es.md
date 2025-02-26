@@ -35,3 +35,7 @@ Siga estos pasos para cambiar la dirección de correo electrónico asociada con 
 1. Una vez que esté en la página de la cuenta, seleccione “Eliminar” que aparece junto a la dirección de correo electrónico que desea eliminar.
 1. Siga las instrucciones e ingrese de nuevo su contraseña y su método de autenticación para confirmar que está eliminando la dirección correcta.
 1. Haga clic en el botón “Eliminar dirección de correo electrónico”.
+
+## Related articles
+
+* [Cómo iniciar sesión en Login.gov](/es/help/trouble-signing-in/how-to-sign-in/)

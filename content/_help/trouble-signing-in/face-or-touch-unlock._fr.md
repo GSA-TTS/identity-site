@@ -69,3 +69,8 @@ Rendez-vous sur le site [secure.login.gov](https://secure.login.gov/fr) et cliqu
     ![Exemple d’indication éventuelle lors de la configuration ou de l’utilisation du déverrouillage facial ou tactile : Capture d’écran d’un QR code](/assets/img/help/face-touch-unlock/passkey-screen-shot.png){: .display-block margin-top-5}
 
 6. Suivez les différentes étapes pour configurer une autre méthode d’authentification.
+
+## Related articles
+
+* [Méthodes d’authentification](/fr/help/get-started/authentication-methods/)
+* [Ajouter ou modifier votre méthode d’authentification](/fr/help/manage-your-account/add-or-change-your-authentication-method/)

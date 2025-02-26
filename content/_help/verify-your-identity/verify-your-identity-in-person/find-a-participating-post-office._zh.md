@@ -15,3 +15,8 @@ translations:
 ---
 
 {% include components/post-office-search.html %}
+
+## Related articles
+
+* [亲身验证你的身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)
+* [亲身验证身份相关问题](/zh/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/)

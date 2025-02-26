@@ -46,3 +46,10 @@ Por motivos de seguridad, Login.gov requiere un procedimiento de dos pasos y un 
 7. Recibirá dos correos electrónicos.
 * El primer correo electrónico confirma que recibimos su solicitud. Su cuenta aún no ha sido eliminada; se necesitan medidas adicionales.
 * El segundo correo electrónico se el enviará 24 horas más tarde. Siga las instrucciones de ese mensaje para completar el proceso de eliminación.
+
+## Related articles
+
+* [Cambie su contraseña](/es/help/manage-your-account/change-your-password/)
+* [Vuelva a vincular sus cuentas](/es/help/manage-your-account/relink-your-accounts/)
+* [Cambie la dirección de correo electrónico asociada con su cuenta](/es/help/manage-your-account/change-your-email-address/)
+* [Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)

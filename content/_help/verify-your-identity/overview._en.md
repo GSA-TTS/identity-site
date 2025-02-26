@@ -47,8 +47,8 @@ Login.gov does not store images of your ID or the photo of yourself. We ask for 
 
 ## Related articles
 
-[How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
-[Accepted identification documents](/help/verify-your-identity/accepted-identification-documents/)
-[How to take a photo of yourself](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
-[Verify your phone number](/help/verify-your-identity/phone-number/)
-[Verify your address by mail](/help/verify-your-identity/verify-your-address-by-mail/)
+* [How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
+* [Accepted identification documents](/help/verify-your-identity/accepted-identification-documents/)
+* [How to take a photo of yourself](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
+* [Verify your phone number](/help/verify-your-identity/phone-number/)
+* [Verify your address by mail](/help/verify-your-identity/verify-your-address-by-mail/)

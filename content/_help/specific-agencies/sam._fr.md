@@ -43,3 +43,8 @@ Contactez le Federal Service Desk au 1-866-606-8220 (numéro payant) ou au +1 33
   * Si vous utilisez la même adresse e-mail pour créer votre profil Login.gov, vous conserverez tous vos dossiers, demandes d’accès aux données et recherches sauvegardées.
   * Si vous utilisez une nouvelle adresse e-mail, cela n’aura pas d’incidence sur votre profil SAM.gov, mais vous ne pourrez pas accéder aux informations de votre profil SAM.
 * Si vous avez déjà un compte Login.gov et souhaitez ajouter votre adresse e-mail pour SAM, vous pouvez le faire sur la page « Mon compte » de Login.gov. Sélectionnez le bouton de connexion sur la page d’accueil de Login.gov pour accéder à cette page de compte.
+
+## Related articles
+
+* [Aide concernant des organismes spécifiques](/fr/help/specific-agencies/overview/)
+* [Relier vos comptes](/fr/help/manage-your-account/relink-your-accounts/)

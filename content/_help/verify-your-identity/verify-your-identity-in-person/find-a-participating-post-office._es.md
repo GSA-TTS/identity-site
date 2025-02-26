@@ -14,3 +14,8 @@ translations:
 ---
 
 {% include components/post-office-search.html %}
+
+## Related articles
+
+* [Verifique su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/)
+* [Problemas con la verificación de su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/)
