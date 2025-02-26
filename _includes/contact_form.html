@@ -420,15 +420,13 @@
     <input type="hidden" name="00NU0000004z90b" id="00NU0000004z90b" value="{{ site.data.language_map.languages[page.lang] | default: 'English' }}" />
     <input type="hidden" name="{{ site.contact_form_agency }}" id="{{ site.contact_form_agency }}" value="" data-for="agency" />
     <input type="hidden" name="{{ site.contact_form_integration }}" id="{{ site.contact_form_integration }}" value="" data-for="integration" />
-    <!-- Note: Temp hardcode env var !-->
-    <input type="hidden" name="retURL" value="https://federalist-17bd62cc-77b7-4687-9c62-39b462ce6fd5.sites.pages.cloud.gov/preview/gsa-tts/identity-site/LG-13880-add-confirmation-fallback{{ page.permalink | append: 'case-submitted/#success' }}" />
+    <input type="hidden" name="retURL" value="{{ page.permalink | append: 'contact-submitted/#success' | absolute_url }}" />
     <input type="hidden" name="orgid" value="{{ site.contact_form_orgid }}" />
     <input type="hidden" name="status" id="status" value="New" />
     <input type="hidden" id="external" name="external" value="1" />
     <input type="hidden" name="recordType" id="recordType" value="012t00000004JFu" />
     {% unless site.recaptcha_site_key %}
-    <!-- Todo: Note: Temp override. !-->
-    <input type="hidden" name="debug" value="0" />
+    <input type="hidden" name="debug" value="1" />
     {% endunless %}
 
     <strong>

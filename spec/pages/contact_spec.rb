@@ -14,7 +14,7 @@ RSpec.describe 'Contact us' do
   it 'includes the return url' do
     ret_url = doc.at_css("input[name='retURL']")
 
-    expect(ret_url['value']).to end_with('/contact/case-submitted/#success')
+    expect(ret_url['value']).to end_with('/contact/contact-submitted/#success')
   end
 
   describe 'English' do
@@ -52,7 +52,7 @@ RSpec.describe 'Contact us' do
   context 'Contact form success' do
     let(:md_path) { "/_policy/contact-submitted._#{lang}.md" }
     let(:settings) { front_matter(md_path) }
-    let(:doc) { page_at('contact/case-submitted/index.html') }
+    let(:doc) { page_at('contact/contact-submitted/index.html') }
 
     it 'includes success alert' do
       alert = doc.at_css('p.usa-alert__text')
@@ -64,7 +64,7 @@ RSpec.describe 'Contact us' do
       let(:lang) { 'en' }
 
       it 'includes permalink' do
-        expect(settings['permalink']).to eq('/contact/case-submitted/')
+        expect(settings['permalink']).to eq('/contact/contact-submitted/')
       end
     end
 
@@ -72,7 +72,7 @@ RSpec.describe 'Contact us' do
       let(:lang) { 'es' }
 
       it 'includes permalink' do
-        expect(settings['permalink']).to eq('/es/contact/case-submitted/')
+        expect(settings['permalink']).to eq('/es/contact/contact-submitted/')
       end
     end
 
@@ -80,7 +80,7 @@ RSpec.describe 'Contact us' do
       let(:lang) { 'fr' }
 
       it 'includes permalink' do
-        expect(settings['permalink']).to eq('/fr/contact/case-submitted/')
+        expect(settings['permalink']).to eq('/fr/contact/contact-submitted/')
       end
     end
 
@@ -88,7 +88,7 @@ RSpec.describe 'Contact us' do
       let(:lang) { 'zh' }
 
       it 'includes permalink' do
-        expect(settings['permalink']).to eq('/zh/contact/case-submitted/')
+        expect(settings['permalink']).to eq('/zh/contact/contact-submitted/')
       end
     end
   end
