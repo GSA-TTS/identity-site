@@ -18,9 +18,9 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
 
 Login.gov le pedirá que proporcione su dirección de correo electrónico a una agencia asociada después de que inicie sesión por primera vez en esa agencia. En este paso, tiene la opción de cambiar el correo electrónico que proporciona.
 
-- En la página “Está iniciando sesión por primera vez”, busque la sección de la dirección de correo electrónico y haga clic en el vínculo ”Cambiar” (si tiene dos o más correos electrónicos) o en el vínculo “Agregar nuevo correo electrónico” (si solo tiene un correo electrónico) para actualizarlo.
+- En la página “Está iniciando sesión por primera vez”, busque la sección de la dirección de correo electrónico y haga clic en el vínculo ”Cambiar” para actualizarlo.
 - En la página “Seleccione su correo electrónico preferido”, haga clic en la dirección de correo electrónico que desea proporcionar y luego en el botón “Seleccionar correo electrónico” para continuar.
-- También puede agregar otra dirección de correo electrónico para proporcionarla a una agencia asociada haciendo clic en el vínculo “Agregar nuevo correo electrónico” (en la página “Está iniciando sesión por primera vez”) o en el botón “Agregar nuevo correo electrónico” (en la página “Seleccione su correo electrónico preferido”).
+- También puede agregar otra dirección de correo electrónico para proporcionarla a una agencia asociada haciendo clic en el vínculo “Cambiar” (en la página “Está iniciando sesión por primera vez”) o en el botón “Agregar nuevo correo electrónico” (en la página “Seleccione su correo electrónico preferido”).
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
@@ -45,9 +45,9 @@ Login.gov le pedirá que proporcione su dirección de correo electrónico a una 
 
 Login.gov le pedirá que proporcione su dirección de correo electrónico y otra información necesaria después de que verifique su identidad para la agencia asociada. En este paso, tiene la opción de cambiar el correo electrónico que proporciona.
 
-- En la página “Conecte su información verificada a...”, busque la sección de la dirección de correo electrónico y haga clic en el vínculo ”Cambiar” (si tiene dos o más correos electrónicos) o en el vínculo “Agregar nuevo correo electrónico” (si solo tiene un correo electrónico) para actualizarlo.
+- En la página “Conecte su información verificada a...”, busque la sección de la dirección de correo electrónico y haga clic en el vínculo ”Cambiar” para actualizarlo.
 - En la página “Seleccione su correo electrónico preferido”, haga clic en la dirección de correo electrónico que desea proporcionar y luego en el botón “Seleccionar correo electrónico” para continuar.
-- También puede agregar otra dirección de correo electrónico para proporcionarla a una agencia asociada haciendo clic en el vínculo “Agregar nuevo correo electrónico” (en la página “Conecte su información verificada a...”) o en el botón “Agregar nuevo correo electrónico” (en la página “Seleccione su correo electrónico preferido”).
+- También puede agregar otra dirección de correo electrónico para proporcionarla a una agencia asociada haciendo clic en el vínculo “Cambiar” (en la página “Conecte su información verificada a...”) o en el botón “Agregar nuevo correo electrónico” (en la página “Seleccione su correo electrónico preferido”).
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
@@ -78,9 +78,9 @@ En la página “Sus cuentas conectadas”, puede ver todas las direcciones de c
 1. Haga clic en el botón “Iniciar sesión”.
 1. Use uno de los métodos que configuró para autenticarse. Aparecerá la página de su cuenta.
 1. En el menú, haga clic en “Sus cuentas conectadas”.
-1. En cada agencia asociada, haga clic en el vínculo ”Cambiar” (si tiene dos o más correos electrónicos) o en el vínculo “Agregar nuevo correo electrónico” (si solo tiene un correo electrónico) para actualizar su correo electrónico.
+1. En cada agencia asociada, haga clic en el vínculo ”Cambiar” para actualizar su correo electrónico.
 1. En la página “Seleccione su correo electrónico preferido”, haga clic en la dirección de correo electrónico que desea proporcionar y luego en el botón “Seleccionar correo electrónico” para continuar.
-1. También puede agregar otra dirección de correo electrónico para proporcionarla a una agencia asociada haciendo clic en el vínculo “Agregar nuevo correo electrónico” (en la página “Sus cuentas conectadas”) o en el botón “Agregar nuevo correo electrónico” (en la página “Seleccione su correo electrónico preferido”).
+1. También puede agregar otra dirección de correo electrónico para proporcionarla a una agencia asociada haciendo clic en el vínculo “Cambiar” (en la página “Sus cuentas conectadas”) o en el botón “Agregar nuevo correo electrónico” (en la página “Seleccione su correo electrónico preferido”).
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">

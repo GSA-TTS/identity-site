@@ -18,9 +18,9 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
 
 Login.gov vous demandera de communiquer votre adresse e-mail à un organisme partenaire une fois que vous vous serez inscrit auprès d'un nouvel organisme partenaire pour la première fois. Vous avez la possibilité de modifier l'adresse e-mail qui est communiquée au cours de cette étape.
 
-- Sur la page « Vous vous connectez pour la première fois », trouvez la rubrique concernant l'adresse e-mail et cliquez sur le lien « Modifier » (si vous avez deux adresses e-mail ou plus) ou sur le lien « Ajouter une nouvelle adresse e-mail » (si vous n'en avez qu'une seule) pour la mettre à jour.
+- Sur la page « Vous vous connectez pour la première fois », trouvez la rubrique concernant l'adresse e-mail et cliquez sur le lien « Modifier » pour la mettre à jour.
 - Sur la page « Sélectionner l’adresse de votre choix », cliquez sur l’adresse que vous souhaitez communiquer, puis sur le bouton « Sélectionner cette adresse » pour continuer.
-- Vous pouvez également ajouter une nouvelle adresse e-mail à communiquer à un organisme partenaire en cliquant sur le lien « Ajouter une nouvelle adresse e-mail » (sur la page « Vous vous connectez pour la première fois ») ou « Ajouter une nouvelle adresse e-mail » (sur la page « Sélectionner l’adresse de votre choix »).
+- Vous pouvez également ajouter une nouvelle adresse e-mail à communiquer à un organisme partenaire en cliquant sur le lien « Modifier » (sur la page « Vous vous connectez pour la première fois ») ou « Ajouter une nouvelle adresse e-mail » (sur la page « Sélectionner l’adresse de votre choix »).
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
@@ -45,9 +45,9 @@ Login.gov vous demandera de communiquer votre adresse e-mail à un organisme par
 
 Login.gov vous demandera de communiquer votre adresse e-mail et d’autres renseignements nécessaires une fois que vous aurez confirmé votre identité auprès d'une agence partenaire. Vous avez la possibilité de modifier l'adresse e-mail qui est communiquée au cours de cette étape.
 
-- Sur la page « Connecter vos renseignements confirmés à… », trouvez la rubrique concernant l'adresse e-mail et cliquez sur le lien « Modifier » (si vous avez deux adresses e-mail ou plus) ou sur le lien « Ajouter une nouvelle adresse e-mail » (si vous n'en avez qu'une seule) pour la mettre à jour.
+- Sur la page « Connecter vos renseignements confirmés à… », trouvez la rubrique concernant l'adresse e-mail et cliquez sur le lien « Modifier » pour la mettre à jour.
 - Sur la page « Sélectionner l’adresse de votre choix », cliquez sur l'e-mail que vous souhaitez communiquer, puis sur le bouton « Sélectionner cette adresse » pour continuer.
-- Vous pouvez également ajouter une nouvelle adresse e-mail à communiquer à un organisme partenaire en cliquant sur le lien « Ajouter une nouvelle adresse e-mail » (sur la page « Connecter vos renseignements confirmés ») ou « Ajouter une nouvelle adresse e-mail » (sur la page « Sélectionner l’adresse de votre choix »).
+- Vous pouvez également ajouter une nouvelle adresse e-mail à communiquer à un organisme partenaire en cliquant sur le lien « Modifier » (sur la page « Connecter vos renseignements confirmés ») ou « Ajouter une nouvelle adresse e-mail » (sur la page « Sélectionner l’adresse de votre choix »).
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
@@ -78,9 +78,9 @@ Vous pouvez gérer toutes les adresses e-mail que vous communiquez à chaque org
 1. Cliquez sur le bouton « Connexion ».
 1. Authentifiez-vous à l'aide d'une des méthodes que vous avez configurées. Vous serez ensuite dirigé vers la page de votre compte.
 1. Dans le menu, cliquez sur « Vos comptes connectés ».
-1. Cliquez sur le lien « Modifier » (si vous avez deux adresses e-mail ou plus) ou « Ajouter une nouvelle adresse e-mail » (si vous n'en avez qu'une seule) pour la mettre à jour auprès de chaque organisme partenaire.
+1. Cliquez sur le lien « Modifier » pour la mettre à jour auprès de chaque organisme partenaire.
 1. Sur la page « Sélectionner l’adresse de votre choix », cliquez sur l'adresse que vous souhaitez communiquer, puis sur le bouton « Sélectionner cette adresse » pour continuer.
-1. Vous pouvez également ajouter une nouvelle adresse e-mail à communiquer à un organisme partenaire en cliquant sur le lien « Ajouter une nouvelle adresse e-mail » (sur la page « Connecter vos renseignements confirmés ») ou « Ajouter une nouvelle adresse e-mail » (sur la page « Sélectionner l’adresse de votre choix »).
+1. Vous pouvez également ajouter une nouvelle adresse e-mail à communiquer à un organisme partenaire en cliquant sur le lien « Modifier » (sur la page « Connecter vos renseignements confirmés ») ou « Ajouter une nouvelle adresse e-mail » (sur la page « Sélectionner l’adresse de votre choix »).
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
