@@ -3,7 +3,7 @@ layout: help
 category: manage-your-account
 permalink: /es/help/manage-your-account/relink-your-accounts/
 title: "Vuelva a vincular sus cuentas"
-order: 8
+order: 9
 redirect_from:
   - /es/help/creating-an-account/email-address-confirmation-link-is-invalid/
   - /es/help/usajobs/how-do-I-relink-my-USAJOBS-profile-after-deleting-my-login-account/
