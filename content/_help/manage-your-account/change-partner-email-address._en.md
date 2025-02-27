@@ -20,9 +20,9 @@ You can add multiple email addresses to your Login.gov account and you can delet
 
 Login.gov will ask you to share your email address with a partner agency after you sign in to a new partner agency for the first time. You have the option to change which email is shared during this step.
 
-- On the “You are signing in for the first time” page, find the email address section and click either the ”Change” link (if you have two or more emails) or the “Add new email” link (if you have just one email) to update your email.
+- On the “You are signing in for the first time” page, find the email address section and click the ”Change” link to update your email.
 - On the “Select your preferred email” page, click the email you wish to share then click the “Select email” button to continue.
-- You can also add a new email to share with a partner agency by either clicking the “Add new email” link (on the “You are signing in for the first time” page) or the “Add new email” button (on the “Select your preferred email” page).
+- You can also add a new email to share with a partner agency by either clicking the “Change” link (on the “You are signing in for the first time” page) or the “Add new email” button (on the “Select your preferred email” page).
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
@@ -47,9 +47,9 @@ Login.gov will ask you to share your email address with a partner agency after y
 
 Login.gov will ask you to share your email address and other required information after you verify your identity for a partner agency. You have the option to change which email is shared during this step.
 
-- On the “Connect your verified information to...” page, find the email address section and click either the ”Change” link (if you have two or more emails) or the “Add new email” link (if you have just one email) to update your email.
+- On the “Connect your verified information to...” page, find the email address section and click the ”Change” link to update your email.
 - On the “Select your preferred email” page, click the email you wish to share then click the “Select email” button to continue.
-- You can also add a new email to share with a partner agency by either clicking the “Add new email” link (on the “Connect your verified information to...” page) or the “Add new email” button (on the “Select your preferred email” page).
+- You can also add a new email to share with a partner agency by either clicking the “Change” link (on the “Connect your verified information to...” page) or the “Add new email” button (on the “Select your preferred email” page).
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
@@ -80,9 +80,9 @@ You can manage all the emails you are sharing with each connected partner agency
 1. Click the “Sign in” button.
 1. Authenticate using one of the methods you set up. You will then be taken to your account page.
 1. Click “Your connected accounts” from the menu.
-1. Click either the ”Change” link (if you have two or more emails) or the “Add new email” link (if you have just one email) under each partner agency to update your email.
+1. Click the ”Change” link under each partner agency to update your email.
 1. On the “Select your preferred email” page, click the email you wish to share then click the “Select email” button to continue.
-1. You can also add a new email to share with a partner agency by either clicking the “Add new email” link (on the “Your connected accounts” page) or the “Add new email” button (on the “Select your preferred email” page).
+1. You can also add a new email to share with a partner agency by either clicking the “Change” link (on the “Your connected accounts” page) or the “Add new email” button (on the “Select your preferred email” page).
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
