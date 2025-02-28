@@ -12,7 +12,7 @@ steps:
 
     * Nous recommandons l’utilisation d’une adresse e-mail personnelle, à laquelle vous pourrez toujours accéder, plutôt qu’une adresse professionnelle.
 
-    * Si vous avez déjà un compte Login.gov avec cette adresse e-mail, nous vous enverrons un courriel pour vous expliquer comment réinitialiser votre mot de passe et accéder à votre compte.
+    * Si vous utilisez une adresse e-mail déjà associée à un compte Login.gov, nous vous enverrons par e-mail des instructions pour réinitialiser votre mot de passe et accéder à nouveau à votre compte.
   step2: >-
     ## 2. Mot de passe sécurisé
 
