@@ -16,7 +16,7 @@ Login.gov 使用一系列半自动化评估工具以及专家评审员手工评�
 
 以下是我们完成的可用性评估报告：
 
-* 下载 [身份证实报告 [DOCX, 150KB]](/docs/2025-02-26_VPAT2.5Rev508-Identity-Authentication.docx)
-* [身份证实报告 [PDF, 138KB]](/docs/2025-02-26_VPAT2.5Rev508-Identity-Authentication.pdf)
-* 下载 [身份验证报告 [DOCX, 363KB]](/docs/2025-02-26_VPAT2.4Rev508-Identity-Verification-IdV.docx)
-* [身份验证报告 [PDF, 150KB]](/docs/identity-verification-report.pdf)
+* 下载 [身份证实报告 [DOCX, 168KB]](/docs/2025-02-26_VPAT2.5Rev508-Identity-Authentication.docx)
+* [身份证实报告 [PDF, 259KB]](/docs/2025-02-26_VPAT2.5Rev508-Identity-Authentication.pdf)
+* 下载 [身份验证报告 [DOCX, 354KB]](/docs/2025-02-26_VPAT2.4Rev508-Identity-Verification-IdV.docx)
+* [身份验证报告 [PDF, 220KB]](/docs/identity-verification-report.pdf)

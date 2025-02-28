@@ -15,7 +15,7 @@ Login.gov fait régulièrement l’objet d’évaluations grâce à toute une s�
 
 Nos rapports d’évaluation de l’accessibilité passés sont disponibles ci-dessous :
 
-* Télécharger le [Rapport d’authentification [DOCX, 150KB]](/docs/2025-02-26_VPAT2.5Rev508-Identity-Authentication.docx)
-* [Rapport d’authentification [PDF, 138KB]](/docs/2025-02-26_VPAT2.5Rev508-Identity-Authentication.pdf)
-* Télécharger le [Rapport sur la vérification d'identité [DOCX, 363KB]](/docs/2025-02-26_VPAT2.4Rev508-Identity-Verification-IdV.docx)
-* [Rapport sur la vérification d'identité [PDF, 150KB]](/docs/2025-02-26_VPAT2.4Rev508-Identity-Verification-IdV.pdf)
+* Télécharger le [Rapport d’authentification [DOCX, 168KB]](/docs/2025-02-26_VPAT2.5Rev508-Identity-Authentication.docx)
+* [Rapport d’authentification [PDF, 259KB]](/docs/2025-02-26_VPAT2.5Rev508-Identity-Authentication.pdf)
+* Télécharger le [Rapport sur la vérification d'identité [DOCX, 354KB]](/docs/2025-02-26_VPAT2.4Rev508-Identity-Verification-IdV.docx)
+* [Rapport sur la vérification d'identité [PDF, 220KB]](/docs/2025-02-26_VPAT2.4Rev508-Identity-Verification-IdV.pdf)
