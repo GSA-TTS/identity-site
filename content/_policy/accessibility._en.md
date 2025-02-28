@@ -6,7 +6,8 @@ description: Read our accessibility statement
 permalink: /accessibility/
 redirect_from:
   - /en/accessibility/
-  - /docs/accessibility-assessment-ial1-account-creation.pdf/
+  - /docs/2024-05-15_VPAT2.5Rev508-Identity-Authentication.pdf/
+  - /docs/identity-verification-report.pdf/
 ---
 
 ## Our commitment
