@@ -12,7 +12,7 @@ steps:
 
     * Recomendamos usar una dirección de correo electrónico personal a la que siempre pueda acceder, en lugar de una dirección de correo electrónico del trabajo.
 
-    * Si ya tiene una cuenta en Login.gov con esa dirección de correo electrónico, le enviaremos un correo electrónico para informarle cómo restablecer su contraseña y acceder a la cuenta.
+    * Si usa una dirección de correo electrónico que ya está asociada con una cuenta de Login.gov, le enviaremos instrucciones por correo electrónico para que pueda restablecer su contraseña y recuperar el acceso a su cuenta.
   step2: >-
     ## 2. Contraseña segura
 
