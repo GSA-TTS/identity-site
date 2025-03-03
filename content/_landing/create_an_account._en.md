@@ -13,7 +13,7 @@ steps:
 
     * We recommend a personal email address that you’ll always be able to access rather than a work email address.
 
-    * If you already have an account with Login.gov with that email address, we’ll send you an email to let you know how you can reset your password and access the account.
+    * If you use an email address that is already associated with a Login.gov account, we’ll email instructions on how you can reset your password and regain access to your account.
   step2: >-
     ## 2. Secure password
 
