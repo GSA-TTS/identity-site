@@ -107,3 +107,9 @@ PIV（个人身份验证）卡或CAC（通用访问卡）是给联邦政府雇�
 设立账户时，你会到达“保护你的账户安全”页面。在这里你必须选择主要身份证实方法。如果你无法使用其他任何选项，选择“备用代码”并点击“继续”。
 
 在“添加另外一种方法”页，选择“我没有上述任何方法”并点击“继续”。
+
+## Related articles
+
+* [如何登录 Login.gov](/zh/help/trouble-signing-in/how-to-sign-in/)
+* [身份证实方法问题](/zh/help/trouble-signing-in/issues-with-authentication-methods/)
+* [人脸或触摸解锁问题](/zh/help/trouble-signing-in/face-or-touch-unlock/)

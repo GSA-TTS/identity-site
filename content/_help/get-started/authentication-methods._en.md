@@ -135,3 +135,9 @@ If you do not have access to a phone, authentication application, security key, 
 When you create your account, you will reach the “Secure your account” page. This is where you must choose your primary authentication method. If you do not have access to any of the other options, select “Backup codes” and click “Continue.”
 
 On the “Add another method” page, select “I don’t have any of the above” and click “Continue.”
+
+## Related articles
+
+* [How to sign in to Login.gov](/help/trouble-signing-in/how-to-sign-in/)
+* [Issues with authentication methods](/help/trouble-signing-in/issues-with-authentication-methods/)
+* [Issues with face or touch unlock](/help/trouble-signing-in/face-or-touch-unlock/)

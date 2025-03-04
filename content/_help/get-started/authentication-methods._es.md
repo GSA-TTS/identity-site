@@ -132,3 +132,9 @@ Si no tiene acceso a un teléfono, aplicación de autenticación, clave de segur
 Cuando crea su cuenta, aparece la página “Proteja su cuenta”, en la que debe elegir su método de autenticación principal. Si no tiene acceso a ninguna de las otras opciones, seleccione “Códigos de recuperación” y haga clic en “Continuar”.
 
 En la página “Añada otro método”, seleccione “No tengo ninguno de los anteriores” y haga clic en “Continuar”.
+
+## Related articles
+
+* [Cómo iniciar sesión en Login.gov](/es/help/trouble-signing-in/how-to-sign-in/)
+* [Problemas con los métodos de autenticación](/es/help/trouble-signing-in/issues-with-authentication-methods/)
+* [Problemas con el desbloqueo facial o táctil](/es/help/trouble-signing-in/face-or-touch-unlock/)

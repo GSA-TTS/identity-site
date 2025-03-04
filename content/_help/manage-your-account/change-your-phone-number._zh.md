@@ -21,3 +21,8 @@ order: 7
 
    * 默认电话号码是与你账户相关的主电话号码。如果你使用 SMS/短信代码来验证身份和登录，那些代码会发送到你的默认电话号码。
 8. 点击“继续”并按照提示来确认你做的更改。
+
+## Related articles
+
+* [身份证实方法问题](/zh/help/trouble-signing-in/issues-with-authentication-methods/)
+* [国际电话号码支持](/zh/help/manage-your-account/international-phone-support/)

@@ -35,3 +35,7 @@ Suivez les étapes ci-dessous pour modifier l'adresse e-mail associée à votre 
   1. Une fois sur la page du compte, sélectionnez « Supprimer » à côté de l'adresse e-mail à supprimer.
   1. Suivez les indications pour confirmer que vous supprimez la bonne adresse en saisissant à nouveau votre mot de passe et votre méthode d'authentification.
   1. Cliquez sur le bouton « Supprimer l'adresse e-mail ».
+
+## Related articles
+
+* [Comment se connecter à Login.gov](/fr/help/trouble-signing-in/how-to-sign-in/)

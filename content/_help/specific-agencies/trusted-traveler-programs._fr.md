@@ -50,3 +50,8 @@ Notes importantes :
 Pour accéder aux informations relatives à votre compte du Programme pour les voyageurs dignes de confiance, rendez-vous sur <https://ttp.cbp.dhs.gov/>.
 
 En cas de connexion directe depuis la page d'accueil de Login.gov, seules les informations de votre compte Login.gov s’afficheront.
+
+## Related articles
+
+* [Aide concernant des organismes spécifiques](/fr/help/specific-agencies/overview/)
+* [Relier vos comptes](/fr/help/manage-your-account/relink-your-accounts/)

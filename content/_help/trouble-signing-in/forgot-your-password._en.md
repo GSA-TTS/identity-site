@@ -34,3 +34,7 @@ Follow these steps to reset your password.
      * Parts of your email address or personal dates, like your birthday
      * The same password, or parts of it, that you use for other accounts, such as your bank account or email
 8. Click the “Change password” button.
+
+## Related articles
+
+* [Forgot your personal key](/help/trouble-signing-in/forgot-your-personal-key/)

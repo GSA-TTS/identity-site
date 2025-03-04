@@ -28,3 +28,7 @@ We encourage you to set up more than one authentication method to avoid getting 
            option_no="No"
            error_heading="Error loading data"
            error_body="Sorry, there was an error loading the list of supported countries. Please try again later." %}
+
+## Related articles
+
+* [Change the phone number associated with your account](/help/manage-your-account/change-your-phone-number/)

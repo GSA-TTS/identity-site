@@ -44,3 +44,10 @@ order: 1
 7. 你就会收到两封电邮。
 * 第一封确认我们收到了你的请求。但你的账户尚未删除。还需要其他行动。
 * 第二封电邮 24 小时之后会发给你。请按照电邮中指示来完成删除流程。
+
+## Related articles
+
+* [更改密码](/zh/help/manage-your-account/change-your-password/)
+* [重新关联你的账户](/zh/help/manage-your-account/relink-your-accounts/)
+* [更改与你账户相关的电邮地址](/zh/help/manage-your-account/change-your-email-address/)
+* [忘了你的密码](/zh/help/trouble-signing-in/forgot-your-password/)

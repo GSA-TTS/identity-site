@@ -28,3 +28,8 @@ Comuníquese directamente con [SSA.gov](https://www.ssa.gov/es) si tiene pregunt
 Llame al 1-800-772-1213 entre las&nbsp;8:00 a.m. y las&nbsp;7:00 p.m. de lunes a viernes, o al número TTY 1-800-325-0778. O [envíe su solicitud por medio de un formulario web](https://secure.ssa.gov/emailus/).
 
 Si reside en el extranjero, el sitio [SSA.gov ofrece información de contacto por país](https://www.ssa.gov/foreign/).
+
+## Related articles
+
+* [Ayuda con agencias específicas](/es/help/specific-agencies/overview/)
+* [Vuelva a vincular sus cuentas](/es/help/manage-your-account/relink-your-accounts/)

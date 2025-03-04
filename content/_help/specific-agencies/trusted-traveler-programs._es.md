@@ -50,3 +50,8 @@ Información importante:
 Para acceder a la información de su cuenta en los programas de viajeros de confianza, visite <https://ttp.cbp.dhs.gov/>.
 
 Si inicia sesión directamente en la página principal de Login.gov, solo verá la información de su cuenta de Login.gov.
+
+## Related articles
+
+* [Ayuda con agencias específicas](/es/help/specific-agencies/overview/)
+* [Vuelva a vincular sus cuentas](/es/help/manage-your-account/relink-your-accounts/)
