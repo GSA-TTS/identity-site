@@ -27,9 +27,9 @@ steps:
     * **More secure**
       * Face or touch unlock
       * Security key
-      * Authentication application
       * Federal government employee or military identification (PIV/CAC)
     * **Less secure**
+      * Authentication application
       * Text/voice message
       * Backup codes
   info: Depending on the security needs of the agency, you may need to prove your

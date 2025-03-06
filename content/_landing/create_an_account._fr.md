@@ -25,9 +25,9 @@ steps:
     * __Plus sûrs__
       * Déverrouillage par reconnaissance faciale ou tactile
       * Clé de sécurité
-      * Application d'authentification
       * Carte d'employé fédéral ou document d'identité militaire (PIV/CAC)
     * __Moins sûrs__
+      * Application d'authentification
       * SMS ou message vocal
       * Codes de sauvegarde
   info: En fonction des besoins de l’organisme en matière de sécurité, vous devrez peut-être prouver

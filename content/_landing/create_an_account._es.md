@@ -26,10 +26,10 @@ steps:
     * **Más seguro**
       * Desbloqueo facial o táctil
       * Clave de seguridad
-      * Aplicación de autenticación
       * Identificación militar o de empleado del gobierno federal (PIV/CAC)
 
     * **Menos seguro**
+      * Aplicación de autenticación
       * Mensajes de texto o de voz
       * Códigos de recuperación
   info: Según las necesidades de seguridad de la agencia, es posible que
