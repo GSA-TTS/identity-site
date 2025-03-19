@@ -22,7 +22,6 @@ Sign into your Login.gov account and [change your password immediately](/help/ma
 ## I’m having a problem with my barcode
 
 Your barcode will not work at the Post Office if:
-  * You reset your password before visiting a Post Office. We strongly encourage you to always save your password and Personal Key in a secure location.
   * Your deadline to visit a Post Office has passed. We cancel barcodes after 30 days to protect your personal data.
 
 You’ll have to restart the process to verify your identity from the beginning. If you verify in person, you will receive a new barcode and deadline to visit a Post Office.
