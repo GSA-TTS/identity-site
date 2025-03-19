@@ -22,7 +22,6 @@ Inicie sesión en su cuenta de Login.gov y [cambie su contraseña de inmediato](
 ## Tengo problemas con mi código de barras 
 
 Su código de barras no funcionará en la oficina de correos si:
-  * Restableció su contraseña antes de acudir a la oficina de correos. Le recomendamos decididamente que guarde siempre su contraseña y su clave personal en un lugar seguro.
   * Venció su plazo para hacer la verificación en la oficina de correos. Cancelamos los códigos de barras al cabo de 30 días para proteger sus datos personales.
  
 Tendrá que volver a iniciar el proceso de verificación de su identidad desde el principio. Si hace la verificación en persona, recibirá un código de barras nuevo y otra fecha límite para acudir a la oficina de correos.

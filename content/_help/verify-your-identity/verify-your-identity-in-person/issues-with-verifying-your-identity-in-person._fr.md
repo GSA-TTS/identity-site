@@ -23,7 +23,6 @@ Connectez-vous à votre compte Login.gov et [changez votre mot de passe immédia
 ## J’ai un problème avec mon code-barres
 
 Votre code-barres ne fonctionnera pas au bureau de poste si :
-  * Vous réinitialisez votre mot de passe avant de vous rendre dans un bureau de poste. Nous vous encourageons vivement à toujours conserver votre mot de passe et clé personnelle en lieu sûr.
   *  La date limite pour vous rendre dans un bureau de poste est dépassée. Nous annulons automatiquement les codes-barres au bout de 30 jours afin de protéger vos données personnelles.
 
 Vous devrez recommencer la procédure de vérification d'identité depuis le début. Si vous choisissez de confirmer votre identité en personne, vous recevrez un nouveau code-barres et une date limite pour vous rendre au bureau de poste.
