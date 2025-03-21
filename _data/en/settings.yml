@@ -35,6 +35,8 @@ contact_page:
   required: required
   support_request_form:
     agencies:
+      'BENEFEDS': BENEFEDS
+      'Bureau of Indian Affairs': Bureau of Indian Affairs
       'Central Intelligence Agency': Central Intelligence Agency
       'Consumer Financial Protection Bureau': Consumer Financial Protection Bureau
       'Customs and Border Protection Jobs': Customs and Border Protection Jobs
@@ -69,6 +71,7 @@ contact_page:
       'Housing and Urban Development': Housing and Urban Development
       'Internal Revenue Service (IRS)': Internal Revenue Service (IRS)
       'Library of Congress': Library of Congress
+      'LTCFEDS': LTCFEDS
       'MyTravelGov': Department of State MyTravelGov
       'myTreasury': myTreasury
       'National Aeronautics and Space Administration': National Aeronautics and Space Administration
@@ -95,6 +98,8 @@ contact_page:
       'State of Maryland': State of Maryland
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Trusted Traveler Programs (Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': U.S. Agency for International Development
+      'U.S. Citizenship and Immigration Services (USCIS) - E-Verify': U.S. Citizenship and Immigration Services (USCIS) - E-Verify
+      'U.S. Citizenship and Immigration Services (USCIS) - SAVE ': U.S. Citizenship and Immigration Services (USCIS) - SAVE
       'U.S. Department of Agriculture': U.S. Department of Agriculture
       'U.S. International Trade Commission': U.S. International Trade Commission
       'United States Forest Service': United States Forest Services
