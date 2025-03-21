@@ -33,6 +33,8 @@ contact_page:
   required: 必需
   support_request_form:
     agencies:
+      'BENEFEDS': BENEFEDS
+      'Bureau of Indian Affairs': 印第安事务局
       'Central Intelligence Agency': 中央情报局
       'Consumer Financial Protection Bureau': 消费者金融保护局
       'Customs and Border Protection Jobs': 海关和边境保护局工作
@@ -67,6 +69,7 @@ contact_page:
       'Housing and Urban Development': 住房与城市发展
       'Internal Revenue Service (IRS)': 国家税务局（IRS）
       'Library of Congress': 国会图书馆
+      'LTCFEDS': LTCFEDS
       'MyTravelGov': 国务院 MyTravelGov
       'myTreasury': myTreasury
       'National Aeronautics and Space Administration': 国家航空航天局
@@ -93,6 +96,8 @@ contact_page:
       'State of Maryland': 马里兰州
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': 受信任旅客计划（Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': 美国国际开发署
+      'U.S. Citizenship and Immigration Services (USCIS) - E-Verify': 美国公民及移民服务局 (USCIS) - E-Verify（电子验证）
+      'U.S. Citizenship and Immigration Services (USCIS) - SAVE ': 美国公民及移民服务局 (USCIS) – SAVE（系统化外国人权益核实）
       'U.S. Department of Agriculture': 美国农业部
       'U.S. International Trade Commission': 美国国际贸易委员会
       'United States Forest Service': 美国国家森林局
