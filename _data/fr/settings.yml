@@ -102,7 +102,9 @@ contact_page:
       'State of Maryland': État du Maryland
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programmes pour voyageurs dignes de confiance (Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': Agence des États-Unis pour le développement international
-      'U.S. Citizenship and Immigration Services (USCIS) - E-Verify': Services de citoyenneté et d’immigration des États-Unis (USCIS) - E-Verify
+      'U.S. Citizenship and Immigration Services (USCIS) - E-Verify':
+        Services de citoyenneté et d’immigration des États-Unis (USCIS) -
+        E-Verify
       'U.S. Citizenship and Immigration Services (USCIS) - SAVE ': Services de citoyenneté et d’immigration des États-Unis (USCIS) - SAVE
       'U.S. Department of Agriculture': Département de l’Agriculture des États-Unis
       'U.S. International Trade Commission': Commission du commerce international des États-Unis

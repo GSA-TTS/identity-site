@@ -71,8 +71,8 @@ contact_page:
       'HHS National Institutes of Health (NIH)': Institutos Nacionales de la Salud (NIH) de HHS
       'Housing and Urban Development': Vivienda y Desarrollo Urbano
       'Internal Revenue Service (IRS)': Servicio de Impuestos Internos (IRS)
-      'LTCFEDS': Programa LTCFEDS
       'Library of Congress': Biblioteca del Congreso
+      'LTCFEDS': Programa LTCFEDS
       'MyTravelGov': MyTravelGov del Departamento de Estado
       'myTreasury': myTreasury
       'National Aeronautics and Space Administration': Administración Nacional de Aeronáutica y el Espacio
@@ -99,7 +99,9 @@ contact_page:
       'State of Maryland': Estado de Maryland
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programas para viajeros de confianza (Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': Agencia de Estados Unidos para el Desarrollo Internacional
-      'U.S. Citizenship and Immigration Services (USCIS) - E-Verify': 'Servicio de Ciudadanía e Inmigración de los EE. UU. (USCIS): Verificación electrónica'
+      'U.S. Citizenship and Immigration Services (USCIS) - E-Verify':
+        'Servicio de Ciudadanía e Inmigración de los EE. UU. (USCIS):
+        Verificación electrónica'
       'U.S. Citizenship and Immigration Services (USCIS) - SAVE ': 'Servicio de Ciudadanía e Inmigración de los EE. UU. (USCIS): Guardar'
       'U.S. Department of Agriculture': Departamento de Agricultura de Estados Unidos
       'U.S. International Trade Commission': Comisión de Comercio Internacional de los Estados Unidos
