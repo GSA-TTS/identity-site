@@ -69,6 +69,7 @@ contact_page:
       'Health and Human Services': Salud y Servicios Humanos
       'HHS Grants.gov': Grants.gov de HHS
       'HHS National Institutes of Health (NIH)': Institutos Nacionales de la Salud (NIH) de HHS
+      'Homeland Security Information Network (HSIN)': Red de Información de Seguridad Nacional (HSIN)
       'Housing and Urban Development': Vivienda y Desarrollo Urbano
       'Internal Revenue Service (IRS)': Servicio de Impuestos Internos (IRS)
       'Library of Congress': Biblioteca del Congreso
@@ -102,6 +103,7 @@ contact_page:
       'U.S. Citizenship and Immigration Services (USCIS) - E-Verify':
         'Servicio de Ciudadanía e Inmigración de los EE. UU. (USCIS):
         Verificación electrónica'
+      'U.S. Citizenship and Immigration Services (USCIS) - myAccount': 'Servicio de Ciudadanía e Inmigración de los EE. UU. (USCIS): Mi cuenta'
       'U.S. Citizenship and Immigration Services (USCIS) - SAVE ': 'Servicio de Ciudadanía e Inmigración de los EE. UU. (USCIS): Guardar'
       'U.S. Department of Agriculture': Departamento de Agricultura de Estados Unidos
       'U.S. International Trade Commission': Comisión de Comercio Internacional de los Estados Unidos
