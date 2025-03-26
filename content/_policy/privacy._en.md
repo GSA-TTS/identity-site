@@ -11,9 +11,9 @@ redirect_from:
 ---
 ## Our privacy act statement ## {#our-privacy-act-statement}
 
-The Login.gov service is provided by the U.S. General Services Administration to offer the public secure and private online access to participating government programs. Using only one Login.gov account, users can sign into multiple government agency sites. Our goal is to make managing federal benefits, services, and applications faster, easier, and more secure
+The Login.gov service is provided by the U.S. General Services Administration to offer the public secure and private online access to participating government programs. Using only one Login.gov account, users can sign into multiple government agency sites. Our goal is to make managing federal benefits, services, and applications faster, easier, and more secure.
 
-By accessing the Login.gov service, you acknowledge and agree to this Privacy Policy and the Login.gov Rules of Use. We will post any changes to these terms to this page. If the changes affect our handling of your personal information or are otherwise deemed significant, we will notify you by email. If we cannot reach you by email, we reserve the right to contact you by other means, including postal mail. If at any time you no longer agree to this Privacy Policy or any other relevant terms of the Login.gov service, you may delete your account.
+By accessing the Login.gov service, you acknowledge and agree to this Privacy Act Statement and the Login.gov Rules of Use. We will post any changes to these terms to this page. If the changes affect our handling of your personal information or are otherwise deemed significant, we will notify you by email. If we cannot reach you by email, we reserve the right to contact you by other means, including postal mail. If at any time you no longer agree to this Privacy Act Statement or any other relevant terms of the Login.gov service, you may delete your account.
 
 ### The Authority - Who authorizes the collection of this data?  ### {#authority}
 
@@ -56,7 +56,7 @@ You decide if you want to share personal information with any agency and you can
 
 However, failure to provide complete and accurate information may delay access to the partner agency. Login.gov does not make any eligibility or suitability determinations; that is the responsibility of the government websites that use the Login.gov service.
 
-Other than as specified in this Privacy Policy and our Rules of Use, we will never share your information without your consent. Your validated personal data is encrypted and the only way to share it with a partner agency is if you, the authorized user, enter your password and explicitly grant consent to share the information. Your document images are encrypted and stored in a manner that can only be accessed if both Login and the agency agree to decrypt them.
+Other than as specified in this Privacy Act Statement and our Rules of Use, we will never share your information without your consent. Your validated personal data is encrypted and the only way to share it with a partner agency is if you, the authorized user, enter your password and explicitly grant consent to share the information. Your document images are encrypted and stored in a manner that can only be accessed if both Login and the agency agree to decrypt them.
 
 When you create an account or visit a new partner agency website after you have created your account, you will see the option to consent to share your information with the partner agency. You are required to give consent yearly for each agency.
 
