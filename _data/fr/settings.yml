@@ -36,6 +36,8 @@ contact_page:
   required: Obligatoire
   support_request_form:
     agencies:
+      'BENEFEDS': BENEFEDS
+      'Bureau of Indian Affairs': Bureau des affaires autochtones (BIA)
       'Central Intelligence Agency': Agence centrale du renseignement
       'Consumer Financial Protection Bureau': Bureau de protection financière des consommateurs
       'Customs and Border Protection Jobs': Emplois avec le Service des douanes et de la protection des frontières
@@ -73,6 +75,7 @@ contact_page:
       'Housing and Urban Development': Logement et urbanisme
       'Internal Revenue Service (IRS)': Service des recettes internes (IRS)
       'Library of Congress': Bibliothèque du Congrès
+      'LTCFEDS': LTCFEDS
       'MyTravelGov': MyTravelGov du département d’État
       'myTreasury': myTreasury
       'National Aeronautics and Space Administration': Administration nationale de l’aéronautique et de l’espace
@@ -99,6 +102,10 @@ contact_page:
       'State of Maryland': État du Maryland
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programmes pour voyageurs dignes de confiance (Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': Agence des États-Unis pour le développement international
+      'U.S. Citizenship and Immigration Services (USCIS) - E-Verify':
+        Services de citoyenneté et d’immigration des États-Unis (USCIS) -
+        E-Verify
+      'U.S. Citizenship and Immigration Services (USCIS) - SAVE ': Services de citoyenneté et d’immigration des États-Unis (USCIS) - SAVE
       'U.S. Department of Agriculture': Département de l’Agriculture des États-Unis
       'U.S. International Trade Commission': Commission du commerce international des États-Unis
       'United States Forest Service': Service des forêts des États-Unis
