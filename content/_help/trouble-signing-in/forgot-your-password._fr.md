@@ -9,6 +9,13 @@ redirect_from:
   - /fr/help/signing-in/forgot-my-password/
   - /fr/help/signing-in/my-reset-password-link-is-invalid/
 ---
+
+{% capture reset_password_warning %}
+Si vous avez confirmé votre identité, vous aurez besoin de votre clé personnelle pour vous connecter après avoir réinitialisé votre mot de passe. <a href="{{ '/help/trouble-signing-in/forgot-your-personal-key/' | locale_url }}">Que faire si vous n'avez pas votre clé personnelle.</a>
+{% endcapture %}
+
+{% include alert.html type="warning" class="margin-bottom-4" content=reset_password_warning %}
+
 Pour réinitialiser votre mot de passe, suivez les étapes ci-dessous.
 
 {: .number-list}

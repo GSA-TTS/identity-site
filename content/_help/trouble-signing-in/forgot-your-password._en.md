@@ -11,6 +11,13 @@ redirect_from:
   - /help/signing-in/my-reset-password-link-is-invalid/
   - /en/help/trouble-signing-in/forgot-your-password/
 ---
+
+{% capture reset_password_warning %}
+If you’ve verified your identity, you will need your personal key to sign in after resetting your password. <a href="{{ '/help/trouble-signing-in/forgot-your-personal-key/' | locale_url }}">Learn what to do if you don’t have your personal key.</a>
+{% endcapture %}
+
+{% include alert.html type="warning" class="margin-bottom-4" content=reset_password_warning %}
+
 Follow these steps to reset your password.
 
 {: .number-list}
