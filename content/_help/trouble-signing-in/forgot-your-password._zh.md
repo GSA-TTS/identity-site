@@ -5,6 +5,13 @@ category: trouble-signing-in
 permalink: /zh/help/trouble-signing-in/forgot-your-password/
 order: 2
 ---
+
+{% capture reset_password_warning %}
+如果你已验证了身份，则在重置密码后，需要个人密钥才能登录。了解如果没有个人密钥该怎么办。<a href="{{ '/help/trouble-signing-in/forgot-your-personal-key/' | locale_url }}">了解如果没有个人密钥该怎么办。</a>
+{% endcapture %}
+
+{% include alert.html type="warning" class="margin-bottom-4" content=reset_password_warning %}
+
 按照以下步骤重设你的密码。
 
 {: .number-list}
