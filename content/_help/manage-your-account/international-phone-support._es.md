@@ -7,9 +7,10 @@ order: 8
 scripts:
   - /assets/js/country_support.js
 ---
-Use esta información para determinar si puede utilizar su número de teléfono internacional como método de autenticación de dos factores para recibir SMS (mensajes de texto) o llamadas telefónicas.
 
-Esta lista puede cambiar debido a problemas de correo no deseado o a cambios que hagan nuestros proveedores de mensajes de texto y de voz, por lo que es posible que su número ya no sea compatible. En ocasiones, los nuevos números de teléfono tampoco son compatibles con los mensajes de voz o los SMS (mensajería de texto).
+Use esta información para determinar si puede utilizar su número de teléfono internacional como método de autenticación multifactor para recibir mensajes de texto (SMS) o llamadas telefónicas.
+
+Esta lista puede cambiar debido a problemas de correo no deseado o a cambios que hagan nuestros proveedores de mensajes de texto y de llamadas telefónicas, por lo que es posible que su número ya no sea compatible. En ocasiones, los nuevos números de teléfono tampoco son compatibles con los mensajes de texto o las llamadas telefónicas.
 
 Le recomendamos que configure más de un método de autenticación para evitar que se bloquee su cuenta si su número telefónico deja de ser compatible.
 

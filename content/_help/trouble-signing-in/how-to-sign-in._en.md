@@ -22,7 +22,7 @@ Follow these steps to sign in to Login.gov.
    * Scanning your face or fingerprint
    * Entering a one-time code from your authentication application
    * Using your security key
-   * Entering a one-time code that you receive by text or by phone call
+   * Entering a one-time code that you receive by SMS/text or by phone call
    * Entering a backup code
    * Using your federal government employee or military ID (PIV or CAC)
 5. You will then be taken to your Login.gov account page.

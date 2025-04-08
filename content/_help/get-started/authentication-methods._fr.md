@@ -71,7 +71,7 @@ Si vous choisissez cette option de sécurité, suivez les étapes suivantes pour
 3. Ouvrez un nouveau navigateur et connectez-vous à votre compte Login.gov à l'adresse <https://secure.login.gov/fr>.
 4. Sélectionnez « Activer » à côté de « Application d'authentification » et suivez les instructions pour scanner ou saisir un code associant votre application d'authentification à votre compte.
 
-Vous pourrez désormais utiliser les codes à usage unique générés par l'application chaque fois que vous vous connecterez à Login.gov.
+Vous pourrez désormais utiliser le code à usage unique généré par l'application chaque fois que vous vous connecterez à Login.gov.
 
 ## Clé de sécurité
 
@@ -97,7 +97,7 @@ Pour employer cette solution sécurisée afin de vous authentifier sur Login.gov
 
 ## SMS et appels téléphoniques
 
-Les SMS/textos ou les appels téléphoniques sont pratiques mais extrêmement vulnérables face au vol, au piratage et à d'autres attaques.
+Les SMS ou les appels téléphoniques sont pratiques mais extrêmement vulnérables face au vol, au piratage et à d'autres attaques.
 
 Si vous choisissez d'utiliser cette option moins sécurisée, saisissez un numéro de téléphone sur lequel vous pouvez recevoir des appels téléphoniques ou des SMS. Si vous n’avez qu’une ligne de téléphone fixe, vous devrez recevoir votre code à usage unique par appel téléphonique. Login.gov ne peut pas envoyer de codes uniques à des postes ou des messageries vocales.
 

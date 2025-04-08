@@ -48,7 +48,7 @@ Login.gov es un sitio web gubernamental seguro que cumple las normas más elevad
     **Si cambia de la computadora al teléfono:**
 
     * Ingrese su número de teléfono.
-        * Elija un numero telefónico en el que pueda recibir mensajes de texto y haga clic en “Continuar”.
+        * Elija un número telefónico en el que pueda recibir mensajes de texto (SMS) y haga clic en “Continuar”.
     * Haga clic en el vínculo que se envió a su teléfono.
     * Tome una foto del frente de su identificación.
     * Tome una foto del reverso de su identificación.

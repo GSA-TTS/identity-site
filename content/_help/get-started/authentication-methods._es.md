@@ -55,7 +55,7 @@ Le recomendamos decididamente que añada un segundo método de autenticación po
 
 ## Aplicaciones de autenticación
 
-Las aplicaciones de autenticación se descargan en su dispositivo y generan códigos de seguridad de seis dígitos que le sirven para iniciar sesión en sus cuentas. Aunque las aplicaciones de autenticación no estarán protegidas si usted llega a perder su dispositivo o si alguien se lo roba, este método, comparado con las llamadas telefónicas o los mensajes de texto, es más seguro contra el *phishing*, el jaqueo o la interceptación de datos.
+Las aplicaciones de autenticación se descargan en su dispositivo y generan los códigos de seguridad de seis dígitos y un solo uso que usará para iniciar sesión en sus cuentas. Aunque las aplicaciones de autenticación no estarán protegidas si usted llega a perder su dispositivo o si alguien se lo roba, este método, comparado con las llamadas telefónicas o los mensajes de texto, es más seguro contra el *phishing*, el jaqueo o la interceptación de datos.
 
 Si elige esta opción de seguridad, siga estos pasos para descargar e instalar una aplicación compatible y configúrela para que funcione con Login.gov.
 
@@ -72,7 +72,7 @@ Si elige esta opción de seguridad, siga estos pasos para descargar e instalar u
 3. Abra un nuevo navegador e inicie sesión en su cuenta de Login.gov en <https://secure.login.gov/es>.
 4. Seleccione “Activar” junto a “Aplicación de autenticación” y siga las instrucciones para escanear o ingresar un código que asocie la aplicación de autenticación a su cuenta.
 
-En adelante, cada vez que inicie sesión en Login.gov, podrá utilizar los códigos de acceso de un solo uso que genera la aplicación.
+En adelante, cada vez que inicie sesión en Login.gov, podrá utilizar el código de un solo uso que genera la aplicación.
 
 ## Clave de seguridad
 
