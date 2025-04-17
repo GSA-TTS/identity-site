@@ -25,7 +25,7 @@ Login.gov partners with agencies that need secure and private access to their ap
 
 #### What information do we need?
 
-* For authentication to establish a secure account, we need your name, email address, and an authentication method. Your authentication method could be a phone number where we share a SMS code, USB Security Key, or another option.
+* For authentication to establish a secure account, we need your email address and an authentication method. Your authentication method could be a phone number where we share a SMS code, USB Security Key, or another option.
 * Identity proofing requires more sensitive information such as a social security number, address, phone number, and U.S. based state ID or driver’s license. A self-photograph may be needed to validate the state ID or driver’s license as further proof of your identity by comparing it to the portrait on your government-issued ID.
 * During identity proofing, your phone carrier may disclose your mobile number, name, address, email, network status, customer type, customer role, billing type, mobile device identifiers (IMSI and IMEI) and other subscriber status and device details, if available, to our third party service provider, solely to verify your identity for the duration of the business relationship.
 * To mitigate fraud, we also analyze the device used to access Login.gov, metadata associated with your login.gov session, and behavior such as how you interact with forms on the page.
@@ -40,15 +40,11 @@ This list is not comprehensive. Please see [system of records notice GSA/TTS-1](
 
 #### What happens to the information you share?
 
-All records are stored electronically in a database in GSA’s Amazon Web Services (AWS) environment. You can modify, or amend, either your email address or phone number on [your account page](https://secure.login.gov/account).
+All records are stored electronically in a database in GSA’s Amazon Web Services (AWS) environment. Login.gov’s vendors also store personal information for 90 days for the purpose of detecting and mitigating fraud in the system. Vendors may retain data longer than 90 days if needed to investigate or prevent suspected fraud or if otherwise required by law.  You can modify, or amend, either your email address or phone number on [your account page](https://secure.login.gov/account).
 
 Your personal information, including profiles, log-in files, password files, audit trail files and extracts, system usage records, and agency billing data used to assess charges for system use, will be maintained for as long as you have an active account, unless longer retention is required for business use, such as for law enforcement matters or other legal actions in accordance with National Archives and Records Administration (NARA) guidance. This personal information is necessary to provide users access to information and services at partner agencies.
 
 There may be circumstances where we are required to share certain data. Please refer to the “routine uses” section of the system of records notice linked above for more information on those circumstances.
-
-Even when we share the information with law enforcement, we cannot access the PII you submit because the information is encrypted in a manner that is unretrievable to the Login.gov team.
-
-Images of State IDs, however, are retrievable. Login.gov retains the image of your U.S. based State ID or driver’s license in an encrypted format. The image is only retrieved and decrypted upon the mutual determination of Login.gov and the partner agency for law enforcement purposes due to suspected fraud.
 
 ### Consent - How can you control what information is shared? ### {#consent}
 
@@ -56,7 +52,7 @@ You decide if you want to share personal information with any agency and you can
 
 However, failure to provide complete and accurate information may delay access to the partner agency. Login.gov does not make any eligibility or suitability determinations; that is the responsibility of the government websites that use the Login.gov service.
 
-Other than as specified in this Privacy Act Statement and our Rules of Use, we will never share your information without your consent. Your validated personal data is encrypted and the only way to share it with a partner agency is if you, the authorized user, enter your password and explicitly grant consent to share the information. Your document images are encrypted and stored in a manner that can only be accessed if both Login and the agency agree to decrypt them.
+Other than as specified in this Privacy Act Statement and our Rules of Use, we will never share your information without your consent. Your validated personal data is encrypted and the only way to share it with a partner agency is if you, the authorized user, enter your password and explicitly grant consent to share the information.
 
 When you create an account or visit a new partner agency website after you have created your account, you will see the option to consent to share your information with the partner agency. You are required to give consent yearly for each agency.
 
@@ -64,7 +60,7 @@ Remember you can update your personal information, revoke consent, or delete you
 
 ### Fraud mitigation - How do we stop bad actors? ### {#fraud}
 
-Fraud is someone pretending to be you and attempting to access a partner agency using your Login.gov information. Login.gov protects your data from bad actors. Our product works with trusted third-party vendors to make sure it is you - and not someone pretending to be you - accessing your account. These vendors look for changes and risks in user behavior that might indicate a fraud attempt.
+Identity fraud is someone pretending to be you and attempting to access a partner agency using your Login.gov information. Login.gov protects your data from bad actors. Our product works with trusted third-party vendors to make sure it is you - and not someone pretending to be you - accessing your account. These vendors look for changes and risks in user behavior that might indicate a fraud attempt.
 
 ### Records - Where can you find more information? ### {#records}
 
