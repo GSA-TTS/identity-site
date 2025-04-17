@@ -51,7 +51,7 @@ Asimismo, acepta que NO falseará su identidad ni tergiversará la información 
 
 También acepta que está sujeto a estas condiciones, a la Política de privacidad y a otras condiciones relacionadas con el servicio Login.gov.
 
-En esta página, publicaremos cualquier cambio que se haga a estas condiciones. Si los cambios afectan nuestro manejo de su información personal o si se consideran importantes por otro motivo, se lo notificaremos por correo electrónico. Si no podemos ponernos en contacto con usted por correo electrónico, nos reservamos el derecho de hacerlo por otros medios, incluido el correo postal. Si en algún momento deja de estar de acuerdo con estas condiciones o con cualquier otra condición pertinente del servicio Login.gov, puede cerrar su cuenta.
+En esta página, publicaremos cualquier cambio que se haga a estas condiciones. Si en algún momento deja de estar de acuerdo con estas condiciones o con cualquier otra condición pertinente del servicio Login.gov, puede cerrar su cuenta.
 
 ## 3. Autenticación
 
@@ -88,7 +88,7 @@ Una vez que nos proporciona estas pruebas de identidad, intentamos validarlas co
 
 Asimismo, compararemos la información que nos facilite con otros registros para estar más seguros de su identidad. Podemos, por ejemplo, verificar que su nombre, fecha de nacimiento, dirección y número de Seguro Social coincidan en los registros de una oficina de crédito. Aunque no verificamos su crédito, nos aseguramos de que exista tal persona para protegerle contra el fraude de identidad. También podemos consultar otras fuentes para confirmar la información que nos proporcione. Si no podemos validar su dirección por otros medios, es posible que confirmemos que vive allí enviándole una carta con un código que deberá introducir en el servicio Login.gov.
 
-Además, para validar las pruebas de identidad que nos proporciona, seguimos más pasos para detectar y evitar la creación fraudulenta de cuentas. Evaluamos el dispositivo que se utiliza para acceder a Login.gov, la identidad que se está comprobando y su comportamiento durante la comprobación de la identidad. Recopilamos información del dispositivo para efectuar esta evaluación. Su información personal se almacena de forma que Login.gov no pueda leerla. No obstante, Login.gov sí puede evaluar la información sobre su dispositivo. En nuestra [Política de privacidad](/es/policy/), detallamos la manera en que utilizamos su información
+Además, para validar las pruebas de identidad que nos proporciona, seguimos más pasos para detectar y evitar la creación fraudulenta de cuentas. Evaluamos el dispositivo que se utiliza para acceder a Login.gov, la identidad que se está comprobando y su comportamiento durante la comprobación de la identidad. Recopilamos información del dispositivo para efectuar esta evaluación. En nuestra [Política de privacidad](/es/policy/), detallamos la manera en que utilizamos su información
 
 Si recibe un error y no puede terminar el proceso de comprobación y verificación de la identidad, se proporcionan instrucciones para la reparación y las acciones posteriores a esta. Por ahora, Login no tiene un proceso para la comprobación de identidad por medio de evaluadores de confianza (es decir, personas designadas para que actúen en nombre de usted durante la comprobación de identidad).
 

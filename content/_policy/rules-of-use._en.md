@@ -53,7 +53,7 @@ You further agree that you will NOT misrepresent your identity or any informatio
 
 You also agree that you are bound by these terms and the [Privacy Policy]({% link _policy/index._en.md %}), and other terms related to the Login.gov service.
 
-We will post any changes to these terms to this page. If the changes affect our handling of your personal information or are otherwise deemed significant, we will notify you by email. If we cannot reach you by email, we reserve the right to contact you by other means, including postal mail. If at any time you no longer agree to these terms or any other relevant terms of the Login.gov service, you may close your Login.gov account.
+We will post any changes to these terms to this page. If at any time you no longer agree to these terms or any other relevant terms of the Login.gov service, you may close your Login.gov account.
 
 ## 3. Authentication
 
@@ -90,7 +90,7 @@ After you provide us with this identity evidence, we attempt to validate it agai
 
 Similarly, we’ll compare the information you give us to other records for added confidence in your identity. We may, for instance, verify that your name, date of birth, address, and social security number all match in records with a credit bureau. While we won’t check your credit, we will ensure that such a person exists to protect you from identity fraud. We may also check with other sources to confirm the information you provide us. If we can’t validate your address in other ways, we may confirm you live there by sending you a letter with a code that you enter into the Login.gov service.
 
-In addition to validating the identity evidence you provide to us, we take additional steps to detect and prevent fraudulent account creation. We assess the device being used to access Login.gov, the identity being proofed, and your behavior during identity proofing. We collect information from the device to perform this assessment. Your personal information is stored in a manner which precludes Login.gov from reading it. However, Login.gov can still assess information about your device. We further detail how we use your information in our [Privacy Policy]({% link _policy/index._en.md %})
+In addition to validating the identity evidence you provide to us, we take additional steps to detect and prevent fraudulent account creation. We assess the device being used to access Login.gov, the identity being proofed, and your behavior during identity proofing. We collect information from the device to perform this assessment. We further detail how we use your information in our [Privacy Policy]({% link _policy/index._en.md %})
 
 If you get an error and are unable to complete the identity proofing and verification process, redress instructions are provided with follow-on actions. Login does not currently have  a process to identity proof through trusted referees (that is, people designated to act on your behalf during identity proofing ).
 
