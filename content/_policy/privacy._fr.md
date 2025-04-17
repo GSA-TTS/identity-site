@@ -24,11 +24,10 @@ Login.gov travaille en partenariat avec des organismes qui ont besoin d’un acc
 
 #### Quelles sont les informations dont nous avons besoin ? 
 
-* Pour que l’authentification puisse établir un compte sécurisé, nous avons besoin de votre nom, de votre adresse e-mail et d’une méthode d’authentification. Votre méthode d’authentification peut être un numéro de téléphone vers lequel nous envoyons un code par SMS, une clé de sécurité USB ou une autre option.
+* Pour que l’authentification puisse établir un compte sécurisé, nous avons besoin de votre adresse e-mail et d’une méthode d’authentification. Votre méthode d’authentification peut être un numéro de téléphone vers lequel nous envoyons un code par SMS, une clé de sécurité USB ou une autre option.
 * La vérification d’identité requiert des informations plus sensibles, telles que le numéro de sécurité sociale, l’adresse, le numéro de téléphone et la carte d’identité ou le permis de conduire américain. Une auto-photographie peut être nécessaire pour valider votre document d’identité ou permis de conduire délivré par les autorités comme preuve supplémentaire de votre identité en la comparant à la photo figurant sur votre pièce d’identité officielle.
 * Lors de la vérification de votre identité, votre opérateur téléphonique peut divulguer à notre prestataire de services tiers votre numéro de téléphone mobile, votre nom, votre adresse, votre adresse e-mail, votre statut de réseau, votre type de client, votre rôle de client, votre type de facturation, les identifiants de votre appareil mobile (IMSI et IMEI) et d’autres détails relatifs à votre statut d’abonné et à l’appareil, le cas échéant, uniquement pour vérifier votre identité pendant la durée de la relation professionnelle.
 * Pour limiter les fraudes, nous analysons également l’appareil utilisé pour accéder à Login.gov, les métadonnées associées à votre session Login.gov, l’identité et le comportement, comme la façon dont vous interagissez avec les formulaires de la page.
-
 
 ### Utilisations courantes : avec qui les informations sont-elles régulièrement partagées ? ### {#routine-uses}
 
@@ -41,15 +40,11 @@ Cette liste n’est pas exhaustive. Veuillez consulter l’[avis de système d�
 
 #### Qu’advient-il des informations que vous partagez ?
 
-Tous les enregistrements sont stockés électroniquement dans une base de données de l’environnement Amazon Web Services (AWS) de l’Administration des services généraux. Vous pouvez changer ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/fr/account).
+Tous les enregistrements sont stockés électroniquement dans une base de données de l’environnement Amazon Web Services (AWS) de l’Administration des services généraux. Les prestataires de Login.gov conservent également les données personnelles pendant 90 jours afin de déceler et de lutter contre les fraudes dans le système. Les prestataires sont autorisés à conserver les données au-delà de 90 jours si nécessaire pour enquêter sur des fraudes soupçonnées ou les prévenir, ou encore si la loi l’exige. Vous pouvez changer ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/fr/account).
 
 Vos informations personnelles, y compris les profils, fichiers de connexion, fichiers de mots de passe, fichiers et extraits d’audit, enregistrements d’utilisation du système et les données de facturation de l’organisme utilisées pour évaluer les frais d’utilisation du système, seront conservées aussi longtemps que vous aurez un compte actif, à moins qu’une conservation plus longue ne soit nécessaire à des fins commerciales, par exemple à des fins répressives ou pour d’autres questions juridiques, conformément aux directives de l’Administration nationale des archives et des dossiers (NARA). Ces informations personnelles sont nécessaires pour permettre aux utilisateurs d’accéder aux informations et aux services des organismes partenaires.
 
 Dans certains cas, nous pouvons être tenus de partager certaines données. Pour plus d’informations à ce sujet, veuillez vous reporter à la section « utilisations courantes » de l’avis relatif au système d’enregistrement dont le lien figure ci-dessus.
-
-Même lorsque nous partageons ces informations avec les forces de l’ordre, nous ne pouvons pas accéder aux IPI que vous envoyez, car elles sont chiffrées de manière à ce que l’équipe de Login.gov ne puisse pas les récupérer.
-
-Toutes les informations se trouvant dans le système Login.gov sont conservées conformément au calendrier de conservation des documents de l’Administration des services généraux, GRS 03.2, point 030. Les documents sont détruits lorsqu’ils n’ont plus d’utilité professionnelle. Pour plus d’informations, veuillez consulter l’Analyse d'impact sur la confidentialité de Login.gov sur le site du Programme de protection de la confidentialité de la GSA.
 
 ### Consentement : comment pouvez-vous contrôler les informations qui sont partagées ? ### {#consent}
 
@@ -57,7 +52,7 @@ C’est vous qui décidez si vous souhaitez partager vos informations personnell
 
 Toutefois, le fait de ne pas fournir des informations complètes et exactes peut retarder l’accès à l’organisme partenaire. Login.gov n’effectue aucune détermination d’admissibilité ou d’aptitude ; cette responsabilité incombe aux sites Web gouvernementaux qui utilisent le service Login.gov.
 
-En dehors de ce qui est spécifié dans la présente Déclaration relative à la loi sur la confidentialité et dans nos règles d’utilisation, nous ne partagerons jamais vos informations sans votre consentement. Vos données personnelles validées sont chiffrées et ne peuvent être partagées avec un organisme partenaire que si vous, l’utilisateur autorisé, saisissez votre mot de passe et consentez explicitement au partage de ces informations. Les images de vos documents sont chiffrées et stockées de manière à n’être accessibles que si Login.gov et l’organisme concerné acceptent tous deux de les déchiffrer.
+En dehors de ce qui est spécifié dans la présente Déclaration relative à la loi sur la confidentialité et dans nos règles d’utilisation, nous ne partagerons jamais vos informations sans votre consentement. Vos données personnelles validées sont chiffrées et ne peuvent être partagées avec un organisme partenaire que si vous, l’utilisateur autorisé, saisissez votre mot de passe et consentez explicitement au partage de ces informations.
 
 Lorsque vous créez un compte ou que vous visitez le site Web d’une nouvel organisme partenaire après avoir créé votre compte, vous avez la possibilité de consentir au partage de vos informations avec l’organisme partenaire. Vous devez donner votre consentement tous les ans pour chaque organisme.
 
@@ -65,7 +60,7 @@ N’oubliez pas que vous pouvez à tout moment mettre à jour vos informations p
 
 ### Réduction du risque de fraude : comment arrêtons-nous les acteurs malveillants ? ### {#fraud}
 
-Il y a fraude lorsque quelqu’un qui se fait passer pour vous tente d’accéder à une organisme partenaire en utilisant vos informations Login.gov. Login.gov protège vos données des acteurs malveillants. Notre produit travaille avec des fournisseurs tiers de confiance pour s’assurer que c’est bien vous qui accédez à votre compte — et non une tierce personne qui se fait passer pour vous. Ces fournisseurs recherchent les changements et les risques dans le comportement de l’utilisateur qui pourraient indiquer une tentative de fraude.
+Il y a usurpation d’identité lorsque quelqu’un se faisant passer pour vous tente d’accéder à un organisme partenaire en utilisant vos informations Login.gov. Login.gov protège vos données des acteurs malveillants. Notre produit travaille avec des fournisseurs tiers de confiance pour s’assurer que c’est bien vous qui accédez à votre compte — et non une tierce personne qui se fait passer pour vous. Ces fournisseurs recherchent les changements et les risques dans le comportement de l’utilisateur qui pourraient indiquer une tentative de fraude.
 
 ### Enregistrements : où trouver de plus amples informations ? ### {#records}
 

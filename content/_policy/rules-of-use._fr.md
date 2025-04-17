@@ -51,7 +51,7 @@ Vous acceptez en outre de ne PAS représenter faussement votre identité ou les 
 
 Vous acceptez également d’être lié par ces règles et par la [Politique de confidentialité](/fr/policy/), ainsi que par d’autres conditions liées au service Login.gov.
 
-Toute modification de ces conditions sera publiée sur la présente page. Si ces modifications ont une incidence sur la manière dont nous gérons vos informations personnelles ou sont considérées comme étant importantes, nous vous en informerons par e-mail. Si nous ne pouvons pas vous joindre par e-mail, nous nous réservons le droit de vous contacter par d’autres moyens, y compris par courrier postal. Si, à tout moment, vous n’acceptez plus ces conditions ou toutes autres conditions pertinentes du service Login.gov, vous pouvez supprimer votre compte Login.gov.
+Toute modification de ces conditions sera publiée sur la présente page. Si, à tout moment, vous n’acceptez plus ces conditions ou toutes autres conditions pertinentes du service Login.gov, vous pouvez supprimer votre compte Login.gov.
 
 ## 3. Authentification
 
@@ -88,7 +88,7 @@ Une fois que vous nous avez fourni ces preuves d’identité, nous tentons de le
 
 De même, nous comparons les informations que vous nous fournirez à d’autres dossiers pour mieux nous assurer de votre identité. Nous pouvons, par exemple, vérifier que votre nom, votre date de naissance, votre adresse et votre numéro de sécurité sociale correspondent à ceux d’un bureau de crédit. Nous ne vérifierons pas votre solvabilité, mais nous nous assurerons de l’existence de la personne en question afin de vous protéger contre l’usurpation d’identité. Nous pouvons également contacter d’autres sources pour confirmer les informations que vous nous fournissez. Si nous ne pouvons pas valider votre adresse par d’autres moyens, nous pouvons essayer de confirmer que vous y habitez en vous envoyant un courrier contenant un code à saisir sur Login.gov.
 
-Outre valider les preuves d’identité que vous nous fournissez, nous prenons des mesures supplémentaires pour détecter et prévenir la création de comptes frauduleux. Nous évaluons l’appareil utilisé pour accéder à Login.gov, l’identité vérifiée et votre comportement pendant la vérification d’identité. Pour effectuer cette évaluation, nous recueillons des informations à partir de l’appareil. Vos informations personnelles sont conservées de telle manière que Login.gov n’est pas en mesure de les lire. Cependant, Login.gov peut toujours évaluer les informations concernant votre appareil. Nous expliquons plus en détail comment nous utilisons vos informations dans notre [Politique de confidentialité](/fr/policy/).
+Outre valider les preuves d’identité que vous nous fournissez, nous prenons des mesures supplémentaires pour détecter et prévenir la création de comptes frauduleux. Nous évaluons l’appareil utilisé pour accéder à Login.gov, l’identité vérifiée et votre comportement pendant la vérification d’identité. Pour effectuer cette évaluation, nous recueillons des informations à partir de l’appareil. Nous expliquons plus en détail comment nous utilisons vos informations dans notre [Politique de confidentialité](/fr/policy/).
 
 Si une erreur se produit et que vous ne parvenez pas à terminer la procédure de vérification d’identité, des instructions de recours sont fournies avec des mesures de suivi. Login.gov ne dispose pas actuellement de procédure de vérification d’identité par l’intermédiaire de tiers de confiance (à savoir des personnes désignées pour agir en votre nom durant la vérification d’identité).
 
