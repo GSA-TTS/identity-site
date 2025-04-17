@@ -29,7 +29,6 @@ Login.gov travaille en partenariat avec des organismes qui ont besoin d’un acc
 * Lors de la vérification de votre identité, votre opérateur téléphonique peut divulguer à notre prestataire de services tiers votre numéro de téléphone mobile, votre nom, votre adresse, votre adresse e-mail, votre statut de réseau, votre type de client, votre rôle de client, votre type de facturation, les identifiants de votre appareil mobile (IMSI et IMEI) et d’autres détails relatifs à votre statut d’abonné et à l’appareil, le cas échéant, uniquement pour vérifier votre identité pendant la durée de la relation professionnelle.
 * Pour limiter les fraudes, nous analysons également l’appareil utilisé pour accéder à Login.gov, les métadonnées associées à votre session Login.gov, l’identité et le comportement, comme la façon dont vous interagissez avec les formulaires de la page.
 
-
 ### Utilisations courantes : avec qui les informations sont-elles régulièrement partagées ? ### {#routine-uses}
 
 * À des tiers fournissant des services d’authentification et de vérification d’identité à distance ou en personne, y compris à d’autres organismes fédéraux fournissant de tels services, dans la mesure où cela est nécessaire pour vous authentifier ou vérifier votre identité afin d’accéder à une application ou un site Web gouvernemental participant.
