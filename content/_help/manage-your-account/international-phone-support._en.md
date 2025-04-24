@@ -11,7 +11,7 @@ redirect_from:
 ---
 Use the information below to determine if your international phone number can be used as a multifactor authentication method to receive SMS/text and/or phone calls.
 
-Due to spam issues, or changes made our SMS/text and phone call providers, this list can change and your number may no longer be supported. Sometimes new phone numbers are also not supported for SMS/text or phone calls.
+Due to spam issues, or changes made by our SMS/text and phone call providers, this list can change and your number may no longer be supported. Sometimes new phone numbers are also not supported for SMS/text or phone calls.
 
 We encourage you to set up more than one authentication method to avoid getting locked out of your account if your phone number is no longer supported. 
 
