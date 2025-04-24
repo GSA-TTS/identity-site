@@ -9,6 +9,13 @@ redirect_from:
   - /es/help/signing-in/forgot-my-password/
   - /es/help/signing-in/my-reset-password-link-is-invalid/
 ---
+
+{% capture reset_password_warning %}
+Si verificó su identidad, necesitará su clave personal para iniciar sesión después de restablecer su contraseña. <a href="{{ '/help/trouble-signing-in/forgot-your-personal-key/' | locale_url }}">Si no tiene una clave personal, obtenga información sobre lo que debe hacer.</a>
+{% endcapture %}
+
+{% include alert.html type="warning" class="margin-bottom-4" content=reset_password_warning %}
+
 Siga estos pasos para restablecer su contraseña.
 
 {: .number-list}
