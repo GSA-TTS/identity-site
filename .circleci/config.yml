@@ -153,7 +153,7 @@ jobs:
           at: '.'
       - run:
           name: Run htmlproofer (external links only)
-          command: bundle exec scripts/htmlproofer --external --retry-external 3 --retry-external-delay 8 --url-ignore congress.gov --url-ignore lastpass.com --url-ignore zendesk.login.gov --url-ignore apps.microsoft.com --url-ignore faq.ssa.gov --url-ignore nccoe.nist.gov
+          command: bundle exec scripts/htmlproofer --external --retry-external 3 --retry-external-delay 8 --url-ignore congress.gov --url-ignore lastpass.com --url-ignore zendesk.login.gov --url-ignore apps.microsoft.com --url-ignore ssa.gov --url-ignore nccoe.nist.gov
       - slack/status:
           fail_only: true
           failure_message: ':login-gov::red_circle: external link check failed'
