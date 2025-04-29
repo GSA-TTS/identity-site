@@ -25,6 +25,7 @@ proofer_options.merge!(
     ssl_verifypeer: false,
     ssl_verifyhost: 0,
     followlocation: false,
+    headers: { 'User-Agent' => 'Mozilla/5.0 (X11; Linux i686; rv:138.0) Gecko/20100101 Firefox/138.0' }
   },
   internal_domains: [
     "localhost:#{site_config['port']}",
