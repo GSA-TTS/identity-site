@@ -253,34 +253,33 @@ help_page:
       image: /assets/img/help/get-started.svg
       title: Démarrage avec Login.gov
       url: /fr/help/get-started/overview/
+      slug: get-started
     - description: Mot de passe oublié ? Compte verrouillé ? Nous vous aiderons à
         résoudre les problèmes d’accès. Nous vous aiderons à résoudre vos
         problèmes d’accès.
       image: /assets/img/help/trouble-signing-in.svg
       title: Vous rencontrez des difficultés pour vous connecter ?
       url: /fr/help/trouble-signing-in/overview/
+      slug: trouble-signing-in
     - description: Modifiez les paramètres de votre compte, notamment votre mot de
         passe, votre numéro de téléphone, votre adresse e-mail, etc.
       image: /assets/img/help/manage-your-account.svg
       title: Gérer votre compte
       url: /fr/help/manage-your-account/overview/
+      slug: manage-your-account
     - description: Obtenez de l’aide avec les Programmes pour voyageurs dignes de
         confiance (TTP) et SAM.gov.
       image: /assets/img/help/help-specific-agencies.svg
       title: Aide concernant des organismes spécifiques
       url: /fr/help/specific-agencies/overview/
+      slug: specific-agencies
     - description: Informez-vous sur les possibilités de vérification de votre identité.
       image: /assets/img/help/verify-your-id.svg
       title: Confirmer votre identité
       url: /fr/help/verify-your-identity/overview/
+      slug: verify-your-identity
   p_1: Parcourir les thèmes courants
   title: Que pouvons-nous faire pour vous ?
-help_subpages:
-  get-started: Démarrage avec Login.gov
-  manage-your-account: Gérer votre compte
-  specific-agencies: Aide concernant des organismes spécifiques
-  trouble-signing-in: Vous rencontrez des difficultés pour vous connecter ?
-  verify-your-identity: Confirmer votre identité
 identifier:
   accessible_labels:
     description: Description de l’organisme

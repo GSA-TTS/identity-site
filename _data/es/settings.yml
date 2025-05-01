@@ -239,33 +239,32 @@ help_page:
       image: /assets/img/help/get-started.svg
       title: Empiece a utilizar Login.gov
       url: /es/help/get-started/overview/
+      slug: get-started
     - description: ¿Olvidó su contraseña? ¿Está bloqueado el acceso a su cuenta? Le
         ayudaremos a resolver los problemas de acceso.
       image: /assets/img/help/trouble-signing-in.svg
       title: ¿Tiene problema para iniciar sesión?
       url: /es/help/trouble-signing-in/overview/
+      slug: trouble-signing-in
     - description: Cambie la configuración de su cuenta, su contraseña, número de
         teléfono, correo electrónico y más.
       image: /assets/img/help/manage-your-account.svg
       title: Administre su cuenta
       url: /es/help/manage-your-account/overview/
+      slug: manage-your-account
     - description: Obtenga ayuda con los Programas para viajeros de confianza (TTP) y
         SAM.gov.
       image: /assets/img/help/help-specific-agencies.svg
       title: Ayuda con agencias específicas
       url: /es/help/specific-agencies/overview/
+      slug: specific-agencies
     - description: Infórmese sobre las opciones para verificar su identidad.
       image: /assets/img/help/verify-your-id.svg
       title: Verifique su identidad
       url: /es/help/verify-your-identity/overview/
+      slug: verify-your-identity
   p_1: Explorar temas comunes
   title: ¿Cómo podemos ayudarle?
-help_subpages:
-  get-started: Empiece a utilizar Login.gov
-  manage-your-account: Administre su cuenta
-  specific-agencies: Ayuda con agencias específicas
-  trouble-signing-in: ¿Tiene problema para iniciar sesión?
-  verify-your-identity: Verifique su identidad
 identifier:
   accessible_labels:
     description: Descripción de la agencia

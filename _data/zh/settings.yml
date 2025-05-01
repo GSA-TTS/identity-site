@@ -223,30 +223,29 @@ help_page:
       image: /assets/img/help/get-started.svg
       title: 开始使用Login.gov
       url: /zh/help/get-started/overview/
+      slug: get-started
     - description: 忘了你的密码? 被锁在了账户外？我们会帮你解决登录问题。
       image: /assets/img/help/trouble-signing-in.svg
       title: 登录有疑难?
       url: /zh/help/trouble-signing-in/overview/
+      slug: trouble-signing-in
     - description: 更改你的账户设置，包括密码、电话号码、电邮及其他。
       image: /assets/img/help/manage-your-account.svg
       title: 管理你的账户
       url: /zh/help/manage-your-account/overview/
+      slug: manage-your-account
     - description: 就受信任旅客计划（TTP）和SAM.gov获得帮助。
       image: /assets/img/help/help-specific-agencies.svg
       title: 就具体机构获得帮助
       url: /zh/help/specific-agencies/overview/
+      slug: specific-agencies
     - description: 了解验证你身份的选项。
       image: /assets/img/help/verify-your-id.svg
       title: 验证你的身份
       url: /zh/help/verify-your-identity/overview/
+      slug: verify-your-identity
   p_1: 浏览常见主题
   title: 我们能怎么帮你？
-help_subpages:
-  get-started: 开始使用Login.gov
-  manage-your-account: 管理你的账户
-  specific-agencies: 就具体机构获得帮助
-  trouble-signing-in: 登录有疑难?
-  verify-your-identity: 验证你的身份
 identifier:
   accessible_labels:
     description: 机构描述
