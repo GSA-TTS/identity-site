@@ -1,58 +1,49 @@
-{% include search.html id="sidenav" collection="8801" %}
-<nav class="margin-y-4 sidenav position-sticky pin-top" aria-label="{{ site.data.[page.lang].settings.accessible_labels.secondary_navigation }}">
-  <ul class="usa-accordion usa-sidenav">
-    {% for subpage in site.help_pages %}
-      {% assign related_questions = site.help | where_exp: "item", "item.category == subpage.name and item.lang == page.lang and item.child != true and item.exclude_from_nav != true" | sort:'order' %}
-      {% if page.url contains subpage.name %}
-        {% assign is_initially_hidden = 'false' %}
-      {% else %}
-        {% assign is_initially_hidden = 'true' %}
-      {% endif %}
-      <li class="usa-sidenav__item usa-parent">
-      {% if page.lang != 'en' %}
-        {% assign page_lang = page.lang + '/' %}
-      {% else %}
-        {% assign page_lang = '' %}
-      {% endif %}
-      <a href="{{ subpage.url | locale_url }}"
-        class="{% if page.url contains subpage.name %}usa-current{% endif %}">
-        {{ site.data[page.lang]["settings"]["help_subpages"][subpage.name] }}
-      </a>
-      <ul class="usa-sidenav__sublist" aria-hidden="{{ is_initially_hidden }}">
-      {% for question in related_questions %}
-      <li class="usa-sidenav__item">
-        <a class="{% if question.url == page.url %}usa-current{% endif %}"
-            href="{{ question.url | prepend: site.baseurl }}">
-            {% if question.meta_title %}
-              {{ question.meta_title }}
-            {% else %}
-              {{ question.title }}
-            {% endif %}
-        </a>
-        {% assign children = site.help
-          | where_exp: 'item', 'item.lang == page.lang
-            and question.children contains item.url'
-          | sort: 'order' %}
-        {% if children.size > 0 %}
-          <ul class="usa-sidenav__sublist">
-            {% for child in children %}
+{% assign current_subpage = site.help_pages | where_exp: "item", "page.url contains item.name" | first %}
+
+{% if current_subpage %}
+  {% assign related_questions = site.help
+    | where_exp: "item", "item.category == current_subpage.name and item.lang == page.lang and item.child != true and item.exclude_from_nav != true"
+    | sort: 'order' %}
+
+  {% if related_questions.size > 0 %}
+    <aside class="position-sticky tablet-lg:height-viewport" style="top: 1rem;">
+      <nav class="usa-sidenav" aria-label="{{ site.data[page.lang].settings.accessible_labels.secondary_navigation }}">
+        <ul class="usa-sidenav">
+          {% for question in related_questions %}
             <li class="usa-sidenav__item">
-              <a class="{% if child.url == page.url %}usa-current{% endif %}"
-                  href="{{ child.url | prepend: site.baseurl }}">
-                  {% if child.meta_title %}
-                    {{ child.meta_title }}
-                  {% else %}
-                    {{ child.title }}
-                  {% endif %}
+              <a class="{% if question.url == page.url %}text-bold{% endif %}"
+                  href="{{ question.url | prepend: site.baseurl }}">
+                {% if question.meta_title %}
+                  {{ question.meta_title }}
+                {% else %}
+                  {{ question.title }}
+                {% endif %}
               </a>
+
+              {% assign children = site.help
+                | where_exp: 'item', 'item.lang == page.lang and question.children contains item.url'
+                | sort: 'order' %}
+
+              {% if children.size > 0 %}
+                <ul class="usa-sidenav__sublist">
+                  {% for child in children %}
+                    <li class="usa-sidenav__item">
+                      <a class="{% if child.url == page.url %}text-bold{% endif %}"
+                          href="{{ child.url | prepend: site.baseurl }}">
+                        {% if child.meta_title %}
+                          {{ child.meta_title }}
+                        {% else %}
+                          {{ child.title }}
+                        {% endif %}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
             </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </li>
-      {% endfor %}
-      </ul>
-    </li>
-    {% endfor %}
-  </ul>
-</nav>
+          {% endfor %}
+        </ul>
+      </nav>
+    </aside>
+  {% endif %}
+{% endif %}
