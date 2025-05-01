@@ -55,10 +55,17 @@
   padding: 0.15625rem 0.75rem;
 }
 
-.usa-logo__img {
+// TODO: Confirm dimensions with design
+//.usa-logo__img {
+//  .help-page & {
+//    display: block;
+//    height: 0.875rem;
+//  }
+//}
+
+.usa-logo__text {
   .help-page & {
-    display: block;
-    height: 0.875rem;
+    color: #205493;
   }
 }
 
