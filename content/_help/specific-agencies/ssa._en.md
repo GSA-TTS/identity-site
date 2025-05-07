@@ -14,7 +14,7 @@ Please do not send Login.gov sensitive data about yourself or identifying number
 
 Login.gov can only answer questions about the sign-in process and creating a Login.gov account.
 
-If you created a Social Security username more than 3 years ago, you will need to transition to a new or existing Login.gov account to have continuous access to SSA online services. For step-by-step instructions on how to make the transition, watch this [video](https://www.youtube.com/watch?v=AMADyonYNTE).
+If you created a Social Security username more than 3 years ago, you will need to transition to a new or existing Login.gov account to have continuous access to SSA online services. For step-by-step instructions on how to make the transition, watch this [video](https://www.youtube.com/watch?v=ntUtk160MtY).
 
 Please contact [SSA.gov](https://www.ssa.gov/) directly if you have questions regarding:
 

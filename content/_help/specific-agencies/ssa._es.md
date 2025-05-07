@@ -11,7 +11,7 @@ No envíe a Login.gov datos confidenciales personales ni números de identificac
 
 Login.gov solo puede responder las preguntas sobre el proceso de inicio de sesión y la creación de una cuenta de Login.gov.
 
-Si creó un nombre de usuario del Seguro Social hace más de 3 años, tendrá que cambiar a una cuenta nueva o existente de Login.gov para tener acceso continuo a los servicios en línea de la SSA. Para obtener instrucciones paso a paso sobre cómo realizar la transición, vea este [video](https://www.youtube.com/watch?v=AMADyonYNTE).
+Si creó un nombre de usuario del Seguro Social hace más de 3 años, tendrá que cambiar a una cuenta nueva o existente de Login.gov para tener acceso continuo a los servicios en línea de la SSA. Para obtener instrucciones paso a paso sobre cómo realizar la transición, vea este [video](https://www.youtube.com/watch?v=ntUtk160MtY).
 
 Comuníquese directamente con [SSA.gov](https://www.ssa.gov/es) si tiene preguntas sobre:
 
