@@ -57,7 +57,7 @@ We strongly recommend you add a second authentication method in case you change 
 
 ## Authentication application
 
-Authentication applications are downloaded to your device and generate secure, six digit one-time codes you use to sign in to your accounts. While authentication applications are not protected if your device is lost or stolen, this method offers more security than phone calls or text messaging against phishing, hacking, or interception.
+Authentication applications are downloaded to your device and generate secure, six-digit one-time codes you use to sign in to your accounts. While authentication applications are not protected if your device is lost or stolen, this method offers more security than phone calls or text messaging against phishing, hacking, or interception.
 
 If you choose this secure option, follow these steps to download and install one of the supported applications and configure it to work with Login.gov.
 
