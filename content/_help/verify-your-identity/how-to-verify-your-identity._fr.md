@@ -57,7 +57,7 @@ Login.gov est un site web sécurisé de l’administration qui respecte les norm
     **Passer d'un ordinateur à un téléphone**
 
     * Saisissez votre numéro de téléphone.
-        * Choisissez un numéro de téléphone où vous pouvez recevoir des messages SMS/texte et cliquez sur « Continuer ».
+        * Choisissez un numéro de téléphone sur lequel vous pouvez recevoir des SMS, puis cliquez sur « Suite ».
     * Cliquez sur le lien envoyé à votre téléphone.
     * Prendre une photo du recto de votre carte d'identité
     * Prendre une photo du verso de votre carte d'identité

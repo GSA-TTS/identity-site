@@ -20,7 +20,7 @@ Suivez les étapes suivantes pour vous connecter à Login.gov.
    * Le balayage de votre visage ou de votre empreinte digitale
    * La saisie d'un code de sécurité à usage unique à partir de votre application d'authentification
    * Utilisation de votre clé de sécurité
-   * La saisie d’un code à usage unique que vous recevez par SMS ou par appel téléphonique
+   * Saisir un code à usage unique que vous recevez par SMS ou par appel téléphonique
    * Saisie d'un code de sauvegarde
    * Utilisation de votre carte d'employé fédéral ou de votre document d'identité militaire (PIV ou CAC)
 5. Vous serez ensuite dirigé vers la page de votre compte Login.gov.

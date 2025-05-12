@@ -52,7 +52,7 @@ Login.gov is a secure, government website that adheres to the highest standards 
     **Switch from computer to phone**
 
     * Enter your phone number.
-        * Choose a phone number where you can receive SMS/Text messages and click “Continue.”
+        * Choose a phone number where you can receive SMS/text and click “Continue.”
     * Click on the link sent to your phone.
     * Take an image of the front of your ID
     * Take an image of the back of your ID
