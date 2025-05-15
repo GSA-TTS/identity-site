@@ -108,18 +108,6 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
   </div>
 </div>
 
-### Téléverser des images existantes de votre pièce d’identité 
-
-Si vous disposez déjà de photos de votre permis de conduire ou carte d’identité d’un État, vous pouvez les téléverser au lieu d’en prendre de nouvelles. Cette option ne sera pas disponible s’il vous est demandé d’ajouter une photo de votre visage.
-
-Si vous n’avez pas accès à un appareil photo, vous pouvez peut-être confirmer votre identité en personne dans un bureau du service des postes des États-Unis près de chez vous.
-
-* Suivez les [mêmes conseils pour prendre des photos avec un téléphone.](#avec-votre-téléphone-ou-tablette)
-* Sauvegardez chaque fichier en JPEG ou PNG uniquement avec une résolution de 2025 x 1275 pixels. Pour déterminer le type de fichier photo et sa résolution, localisez l’extension située après le nom de la photo, .jpg ou .png. Ou bien, à l’aide d’un ordinateur, faites un clic droit sur le fichier puis cliquez sur « Lire les informations » (MacOS) ou « Propriétés » (Windows).
-* Téléversez uniquement des photos en couleur.
-
----
-
 ## Comment prendre des photos de vous-même {#how-to-take-photos-of-yourself}
 
 Certains organismes partenaires peuvent vous demander de prendre une photo de votre visage et des photos de votre permis de conduire ou carte d’identité d’un État. Ceci permet de confirmer que vous êtes la personne figurant sur votre pièce d’identité.
