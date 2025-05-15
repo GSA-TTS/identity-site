@@ -24,7 +24,6 @@ s’offrent à vous.
 
 {: .number-list}
 1. Votre [permis de conduire ou carte d’identité d’un État](/fr/help/verify-your-identity/accepted-identification-documents/)
-   Vous pouvez téléverser une photo de votre pièce d'identité par téléphone ou par ordinateur.
 2. Numéro de sécurité sociale
 3. Votre numéro de téléphone
    Dans certains cas, vous pouvez [confirmer votre identité par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/) à la place.

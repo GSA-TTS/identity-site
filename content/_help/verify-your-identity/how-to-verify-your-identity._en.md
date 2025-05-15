@@ -21,7 +21,6 @@ do.
 
 {: .number-list}
 1. Your [driver's license or state ID card.](/help/verify-your-identity/accepted-identification-documents/)
-   You can upload a photo of your ID by phone or by computer.
 2. Social Security number
 3. Your phone number
    In some cases, you can [verify by mail](/help/verify-your-identity/verify-your-address-by-mail/) instead.
