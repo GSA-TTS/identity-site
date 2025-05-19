@@ -21,7 +21,6 @@ do.
 
 {: .number-list}
 1. Your [driver's license or state ID card.](/help/verify-your-identity/accepted-identification-documents/)
-   You can upload a photo of your ID by phone or by computer.
 2. Social Security number
 3. Your phone number
    In some cases, you can [verify by mail](/help/verify-your-identity/verify-your-address-by-mail/) instead.
@@ -36,45 +35,23 @@ Login.gov is a secure, government website that adheres to the highest standards 
 ## Steps for identity verification and securing your account
 
 {: .number-list}
-1. On the “We need to verify your identity” page, read the requirements and, if you agree, check the box next to the Login.gov consent statement.
-    * Click “Continue”
-2. Next, upload a photo of your driver's license or state ID card.
-    * Note: If you begin the identity verification process on your computer, you have the option to switch and use your phone to take images.
+1. When you are prompted to verify your identity for a government agency, read the requirements and, if you agree, check the box next to the Login.gov consent statement.
+2. [Add photos](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/) of the front and back of your driver’s license or state ID.
 
-    **Continue by computer**
+    Taking photos of your ID with a phone is best. If you don’t have a smartphone with a camera, you may have the option to upload photos on a computer, or you can [verify your identity in person.](/help/verify-your-identity/verify-your-identity-in-person/)
 
-    * Upload an image of the FRONT of your ID by clicking on “Choose File.”
-        * Select the file from your computer
-    * Upload an image of the BACK of your ID by clicking on “Choose File.”
-        * Select the file from your computer
-        * Click continue
-
-    **Switch from computer to phone**
-
-    * Enter your phone number.
-        * Choose a phone number where you can receive SMS/text and click “Continue.”
-    * Click on the link sent to your phone.
-    * Take an image of the front of your ID
-    * Take an image of the back of your ID
-    * You may also need to take a photo of yourself to complete this step.
-    * Return to computer to complete the process
-
-    **Continue by phone**
-
-    * You will see a screen with “front” and “back” in large squares.
-        * Take an image of the front of your ID
-        * Take an image of the back of your ID
-    * You may also need to take a photo of yourself to complete this step.
-    * Click “Continue”
-3.  Enter your social security number and click “Continue”
-4.  Verify the information you have submitted so far is correct and click “Continue”
-5.  Enter your primary phone number. This is the last step for identity verification.
+    If you begin the identity verification process on your computer, you can switch to a phone to take photos of your ID.
+    * Enter your phone number where you can receive SMS/Text messages.
+    * Click on the link in the text message to open the Login.gov website on your phone.
+    * After you take photos of your ID, you will be prompted to return to your computer to complete the process.
+3.  Enter your Social Security number. Then review and submit all the information you have provided so far.
+4.  Enter your primary phone number.
     * In some cases, you may be able to select “Verify your address by mail instead.” You will have to wait 5 to 10 days to receive a letter in the mail and then follow the instructions to enter a verification code.
     * If you do not have the option to verify by mail, you must verify by phone to successfully verify your identity.
-6.  Once your identity is verified, you need to encrypt your account. Re-enter your Login.gov password. Click “Continue”
-7.  Take note of your personal key and keep it safe. You’ll need to enter your personal key immediately on the next page. Click “Continue”
+5.  Once your identity is verified, re-enter your Login.gov password to encrypt your account.
+6.  Take note of your personal key and keep it safe. You’ll need to enter your personal key immediately on the next page.
 
-Once the process is complete, click “Agree and Continue” to be redirected back to your Login.gov account page or the agency you are trying to access.
+Once the process is complete, click “Agree and Continue” to connect your information to the agency you are trying to access.
 
 ## Related articles
 

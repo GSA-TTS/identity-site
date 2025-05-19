@@ -107,19 +107,6 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
   </div>
 </div>
 
-### Para cargar imágenes existentes de su identificación
-
-Si ya tiene fotos de su licencia de conducir o tarjeta de identificación estatal, puede cargarlas en lugar de tomar otras fotografías. No tendrá esta opción si también debe agregar una fotografía de su cara.
-
-Si no tiene acceso a una cámara, puede verificar su identidad en persona en una oficina cercana del Servicio Postal de los Estados Unidos.
-
-* Siga los mismos [consejos para tomar fotografías con un teléfono.](#si-usa-su-teléfono-o-tableta)
-* Guarde cada archivo como JPG o PNG únicamente, con una resolución de 2025 x 1275 píxeles. Para buscar el tipo y la resolución del archivo de su fotografía, vea la extensión después del nombre, por ejemplo, .jpg o .png. O bien, en su computadora, haga clic con el botón derecho del ratón en “Obtener información” (macOS) o en “Propiedades” (Windows). 
-* Revise que sus imágenes sean de alta resolución (lo ideal es alrededor de 2025 x 1275 píxeles).
-* Cargue solo imágenes en color.
-
----
-
 ## Cómo tomarse fotografías {#how-to-take-photos-of-yourself}
 
 Es posible que algunas agencias asociadas le pidan que tome una foto de su cara y fotos de su licencia de conducir o tarjeta de identificación estatal. Esto comprueba que usted es la persona que figura en su identificación.

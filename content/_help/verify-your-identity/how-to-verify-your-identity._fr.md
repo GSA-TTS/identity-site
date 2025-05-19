@@ -24,7 +24,6 @@ s’offrent à vous.
 
 {: .number-list}
 1. Votre [permis de conduire ou carte d’identité d’un État](/fr/help/verify-your-identity/accepted-identification-documents/)
-   Vous pouvez téléverser une photo de votre pièce d'identité par téléphone ou par ordinateur.
 2. Numéro de sécurité sociale
 3. Votre numéro de téléphone
    Dans certains cas, vous pouvez [confirmer votre identité par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/) à la place.
@@ -39,47 +38,23 @@ Login.gov est un site web sécurisé de l’administration qui respecte les norm
 ## Étapes de la vérification d'identité et de la sécurisation de votre compte
 
 {: .number-list}
-1. Sur la page « Nous devons vérifier votre identité », lisez les
-   conditions et, si vous êtes d'accord, cochez la case située à côté
-   de la déclaration de consentement de Login.gov.
-    * Cliquez sur « Suite ».
-2. Téléversez ensuite votre permis de conduire ou votre carte d’identité d’un État.
-    * Remarque : Si vous commencez le processus de vérification d’identité sur votre ordinateur, vous avez la possibilité de passer à votre téléphone pour prendre des photos.
+1. Quand vous êtes invité à confirmer votre identité pour un organisme de l’administration, veuillez lire les conditions requises et, si vous êtes d'accord, cocher la case située à côté de la déclaration de consentement de Login.gov.
+2. [Ajoutez des photos](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/) du recto et du verso de votre permis de conduire ou carte d’identité d’un État.
+ 
+    Il est conseillé de prendre des photos de votre pièce d’identité à l’aide d’un téléphone. Si vous n’avez pas de smartphone équipé d’une caméra, vous pouvez peut-être téléverser des photos depuis un ordinateur ou encore confirmer [votre identité en personne.](/fr/help/verify-your-identity/verify-your-identity-in-person/)
+    
+    Si vous commencez la procédure de vérification d’identité sur votre ordinateur, vous pouvez passer à un téléphone pour prendre des photos de votre pièce d’identité.
+    * Saisissez le numéro de téléphone sur lequel vous pouvez recevoir des SMS.
+    * Cliquez sur le lien contenu dans le message pour ouvrir le site Login.gov sur votre téléphone.
+    * Après avoir pris les photos de votre pièce d’identité, vous serez invité à repasser sur votre ordinateur pour mener la procédure à bien.
+3. Saisissez votre numéro de sécurité sociale. Vérifiez ensuite tous les renseignements fournis jusqu’à présent puis envoyez-les.
+4. Saisissez votre numéro de téléphone principal.
+    * Dans certains cas, vous pouvez sélectionner « Confirmer plutôt votre adresse par courrier ». Vous devrez attendre de 5 à 10 jours pour recevoir un courrier par la poste, puis suivre les instructions pour saisir un code de vérification.
+    * Dans le cas où n’avez pas la possibilité d’effectuer la vérification par courrier, vous devrez confirmer votre identité par téléphone.
+5. Une fois votre identité vérifiée, saisissez à nouveau votre mot de passe Login.gov pour chiffrer votre compte.
+6. Prenez note de votre clé personnelle et conservez-la en lieu sûr. Vous devrez saisir votre clé personnelle immédiatement à la page suivante.
 
-    **Continuer sur un ordinateur**
-
-    * Téléversez une image du RECTO de votre carte d'identité en cliquant sur « Choisir un fichier ».
-        * Sélectionnez le fichier sur votre ordinateu.
-    * Téléversez une image du VERSO de votre carte d'identité en cliquant sur « Choisir un fichier ».
-        * Sélectionnez le fichier sur votre ordinateur.
-        * Cliquez sur « Suite ».
-
-    **Passer d'un ordinateur à un téléphone**
-
-    * Saisissez votre numéro de téléphone.
-        * Choisissez un numéro de téléphone sur lequel vous pouvez recevoir des SMS, puis cliquez sur « Suite ».
-    * Cliquez sur le lien envoyé à votre téléphone.
-    * Prendre une photo du recto de votre carte d'identité
-    * Prendre une photo du verso de votre carte d'identité
-    * Vous aurez peut-être aussi besoin de prendre une photo de vous-même pour effectuer cette étape.
-    * Retournez à l'ordinateur pour achever le processus.
-
-    **Continuer avec un téléphone**
-
-    * Vous verrez un écran avec de grands carrés « recto » et « verso ».
-        * Prendre une photo du recto de votre carte d'identité
-        * Prendre une photo du verso de votre carte d'identité
-    * Vous aurez peut-être aussi besoin de prendre une photo de vous-même pour effectuer cette étape.
-    * Cliquez sur « Suite ».
-3. Saisissez votre numéro de sécurité sociale, puis cliquez sur « Suite »
-4. Vérifiez que les informations que vous avez fournies jusqu'à présent sont correctes, puis cliquez sur « Suite ».
-5. Saisissez votre numéro de téléphone principal. Il s'agit de la dernière étape de la vérification d'identité.
-    * Dans certains cas, vous pouvez sélectionner « Confirmer votre adresse par courrier » à la place. Vous devrez attendre de 5 à 10 jours pour recevoir une lettre par la poste, puis suivre les instructions pour entrer un code de vérification.
-    * Dans le cas où n’avez pas la possibilité d’effectuer la vérification par courrier, vous y parviendrez en confirmant votre identité par téléphone.
-6. Une fois votre identité vérifiée, vous devez crypter votre compte. Saisissez à nouveau votre mot de passe Login.gov. Cliquez sur « Suite ».
-7. Prenez note de votre clé personnelle et conservez-la en lieu sûr. Vous devrez saisir votre clé personnelle immédiatement à la page suivante. Cliquez sur « Suite ».
-
-Une fois ce processus terminé, cliquez sur « Accepter et continuer » pour être redirigé vers la page de votre compte Login.gov ou vers l'organisme auquel vous essayez d'accéder.
+Une fois ce processus terminé, cliquez sur « Accepter et continuer » pour connecter vos renseignements à l'organisme auquel vous tentez d'accéder.
 
 ## Related articles
 
