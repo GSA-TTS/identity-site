@@ -239,6 +239,15 @@ help_page:
       image: /assets/img/help/verify-your-id.svg
       title: 验证你的身份
       url: /zh/help/verify-your-identity/overview/
+  popular_topics:
+    - title: 登录有困难
+      url: /zh/help/trouble-signing-in/issues-with-authentication-methods/
+    - title: Issues verifying your identity
+      url: /zh/help/verify-your-identity/how-to-verify-your-identity/
+    - title: Help with Social Security Administration (SSA)
+      url: /zh/help/specific-agencies/ssa/
+    - title: Help with Trusted Traveler Programs (TTP)
+      url: /zh/help/specific-agencies/trusted-traveler-programs/
   p_1: 浏览常见主题
   title: 我们能怎么帮你？
 help_subpages:
