@@ -10,7 +10,7 @@ redirect_from:
 <div class="container--mod grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-5 padding-bottom-1">
   <!-- TODO: Request translation of the following title. !-->
   <h1 class="text-center">Popular topics</h1>
-  <div class="border-primary border-1px radius-lg  padding-2 margin-bottom-9">
+  <div class="border-primary border-1px radius-lg padding-2 margin-bottom-9">
     <ul class="usa--list usa-list--unstyled spaced-list">
       {% for item in site.data[page.lang].settings["help_page"]["popular_topics"] %}
       <li>
