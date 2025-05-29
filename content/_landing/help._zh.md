@@ -5,7 +5,18 @@ layout: help_landing
 permalink: /zh/help/
 hero: true
 ---
-<div class="container--mod grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-9 padding-bottom-1">
+<div class="container--mod grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-5 padding-bottom-1">
+  <!-- TODO: Request translation of the following title. !-->
+  <h1 class="text-center">Popular topics</h1>
+  <div class="popular-topics-border padding-2 margin-bottom-9 margin-x-auto">
+    <ul class="usa--list usa-list--unstyled spaced-list">
+      {% for item in site.data[page.lang].settings["help_page"]["popular_topics"] %}
+      <li>
+        <a href="{{ item.url | prepend: site.baseurl }}" class="usa-link">{{ item.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
   <ul class="usa-card-group grid-row tablet:flex-align-center usa-list usa-list--unstyled">
     {% for item in site.data[page.lang].settings["help_page"]["categories"] %}
     <li class="card">
