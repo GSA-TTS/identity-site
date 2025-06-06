@@ -224,9 +224,9 @@ help_page:
   categories:
     - description: Create your account. Learn about authentication options and more
         account features.
-      image: /assets/img/help/get-started.svg
-      title: Get started with Login.gov
-      url: /help/get-started/overview/
+      image: /assets/img/help/create-account.svg
+      title: Create my account
+      url: /help/create-account/overview/
     - description: Forgot your password? Locked out of your account? We’ll help you
         resolve access issues.
       image: /assets/img/help/trouble-signing-in.svg
@@ -248,7 +248,7 @@ help_page:
   p_1: Browse common topics
   title: How can we help?
 help_subpages:
-  get-started: Get started with Login.gov
+  create-account: Creating an account
   manage-your-account: Manage your account
   specific-agencies: Help with specific agencies
   trouble-signing-in: Trouble signing in?
