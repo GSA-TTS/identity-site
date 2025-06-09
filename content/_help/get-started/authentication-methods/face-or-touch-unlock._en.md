@@ -27,6 +27,7 @@ To set up Face or Touch Unlock when creating a Login.gov account:
 6. Choose a device nickname for Face or Touch Unlock.
 
 Face or touch unlock has different experiences for mobile and desktop.
+
 After setting a device nickname, please follow the appropriate steps below, depending on which device you are using to create your account.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">

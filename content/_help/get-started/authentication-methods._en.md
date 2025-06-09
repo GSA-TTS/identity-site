@@ -2,6 +2,7 @@
 layout: help
 title: Authentication methods
 category: create-account
+permalink: /help/create-account/authentication-methods/
 children:
   - /help/create-account/authentication-methods/face-or-touch-unlock/
   - /help/create-account/authentication-methods/authentication-application/
@@ -9,7 +10,6 @@ children:
   - /help/create-account/authentication-methods/text-sms-or-phone-call/
   - /help/create-account/authentication-methods/backup-codes/
   - /help/create-account/authentication-methods/piv-cac/
-permalink: /help/create-account/authentication-methods/
 order: 2
 redirect_from:
   - /help/get-started/authentication-methods/
@@ -54,9 +54,10 @@ Although you can choose from several authentication options, some authentication
 * [Backup codes (less secure)](/help/create-account/authentication-methods/backup-codes/)
 * [Government employee IDs (PIV/CAC)](/help/create-account/authentication-methods/piv-cac/)
 
+!!! TODO: FILL IN LINKS !!!
+
 ## Related articles
 
-!!! TODO: FILL IN LINKS !!!
 * [Issues creating an account](#)
 * [Manage account](#)
 * [Trouble signing in](#)
