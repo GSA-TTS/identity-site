@@ -11,8 +11,7 @@
         <ul class="usa-sidenav">
           {% for question in related_questions %}
             <li class="usa-sidenav__item">
-              <a class="{% if question.url == page.url %}text-bold{% endif %}"
-                  href="{{ question.url | prepend: site.baseurl }}">
+              <a class="{% if question.url == page.url or question.children contains page.url %}usa-current{% endif %}" href="{{ question.url | prepend: site.baseurl }}">
                 {% if question.meta_title %}
                   {{ question.meta_title }}
                 {% else %}
