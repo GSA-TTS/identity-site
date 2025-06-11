@@ -1,8 +1,7 @@
 ---
-title: Gérer votre compte
+title: Gérer un compte
 category: manage-your-account
 permalink: /fr/help/manage-your-account/overview/
-meta_title: Gérer votre compte
 order: 0
 redirect_from:
   - /fr/help/changing-settings/i-got-an-error-message-when-i-added-an-email/
@@ -14,8 +13,16 @@ redirect_from:
 
 Gérez les paramètres de votre compte, notamment votre mot de passe, votre numéro de téléphone, votre adresse e-mail, etc.
 
-## Sujets de dépannage courants
+Ayez toujours les renseignements concernant votre compte Login.gov à jour pour en assurer la sécurité et l'accessibilité.
+
+Une adresse mail ou un numéro de téléphone obsolète peut vous empêcher de récupérer votre compte si vous oubliez votre mot de passe ou le bloquer. Mettez régulièrement à jour vos identifiants de connexion pour vous protéger contre tout accès non autorisé et vous assurer de recevoir les notifications importantes relatives à votre compte.
 
 {: .help-question-list}
-- [Changer votre mot de passe](/fr/help/manage-your-account/change-your-password/)
-- [Supprimer votre compte Login.gov](/fr/help/manage-your-account/delete-your-account/)
+- [Comment puis-je ajouter une méthode d’authentification ou la modifier sur mon compte ?](#)
+- [Changer votre mot de passe](#)
+- [Modifier l'adresse e-mail associée à votre compte](#)
+
+## Articles connexes
+
+* [Difficultés pour se connecter](#)
+* [Créer un compte](#)
