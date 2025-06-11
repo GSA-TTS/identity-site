@@ -1,17 +1,23 @@
 ---
 layout: help
-title: 管理你的账户
+title: 管理帐户
 category: manage-your-account
 permalink: /zh/help/manage-your-account/overview/
-meta_title: 管理你的账户
 order: 0
 ---
 
-管理你的账户设置，包括密码、电话号码、电邮及其他。
+管理你的账户设置，包括密码、电话号码、电邮等等。
 
-## 常见疑难问题
+保证你的 Login.gov 帐户信息是最新信息，以确保安全性和可访问性。
+
+如果你忘记密码或帐户被锁住，电邮地址或电话号码过期可能会导致你无法恢复帐户。定期更新你的登录凭据，以预防未经授权的访问，并确保你收到与自己帐户相关的重要通知。
 
 {: .help-question-list}
+- [如何添加或更改我帐户上的身份证实方法？](#)
+- [更改密码](#)
+- [更改与你帐户关联的电邮地址](#)
 
-- [更改你的密码](/zh/help/manage-your-account/change-your-password/)
-- [删除你的 Login.gov 账户](/zh/help/manage-your-account/delete-your-account/)
+## 相关文章
+
+* [登录有困难](#)
+* [设立账户](#)
