@@ -1,9 +1,8 @@
 ---
 layout: help
-title: Manage your account
+title: Manage account
 category: manage-your-account
 permalink: /help/manage-your-account/overview/
-meta_title: Manage your account
 order: 0
 redirect_from:
   - /en/help/manage-your-account/
@@ -17,8 +16,18 @@ redirect_from:
 
 Manage your account settings including your password, phone number, email, and more.
 
-## Common troubleshooting topics
+Keep your Login.gov account information up to date to ensure security and accessibility.
+
+Having an outdated email address or phone number can prevent you from recovering your account if you forget your password or get locked out. Regularly update your login credentials to help protect against unauthorized access and ensure you receive important notifications related to your account.
 
 {: .help-question-list}
-- [Change your password](/help/manage-your-account/change-your-password/)
-- [Delete your Login.gov account](/help/manage-your-account/delete-your-account/)
+- [How do I add or change the authentication method on my account?](#)
+- [Change your password](#)
+- [Change the email address associated with your account](#)
+
+## Related articles
+
+* [Trouble signing in](#)
+* [Create an account](#)
+
+
