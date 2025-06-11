@@ -221,29 +221,29 @@ help_page:
   categories:
     - description: 设立你的账户了解身份证实选项以及账户的更多特点。
       image: /assets/img/help/get-started.svg
+      slug: get-started
       title: 设立账户
       url: /zh/help/get-started/overview/
-      slug: get-started
     - description: 忘了你的密码? 被锁在了账户外？我们会帮你解决登录问题。
       image: /assets/img/help/trouble-signing-in.svg
+      slug: trouble-signing-in
       title: 登录有困难
       url: /zh/help/trouble-signing-in/overview/
-      slug: trouble-signing-in
     - description: 更改你的账户设置，包括密码、电话号码、电邮及其他。
       image: /assets/img/help/manage-your-account.svg
+      slug: manage-your-account
       title: 管理帐户
       url: /zh/help/manage-your-account/overview/
-      slug: manage-your-account
     - description: 就受信任旅客计划（TTP）和SAM.gov获得帮助。
       image: /assets/img/help/help-specific-agencies.svg
+      slug: specific-agencies
       title: 从具体机构获得帮助
       url: /zh/help/specific-agencies/overview/
-      slug: specific-agencies
     - description: 了解验证你身份的选项。
       image: /assets/img/help/verify-your-id.svg
+      slug: verify-your-identity
       title: 验证我的身份
       url: /zh/help/verify-your-identity/overview/
-      slug: verify-your-identity
   p_1: 浏览常见主题
   title: 我们能怎么帮你？
 identifier:

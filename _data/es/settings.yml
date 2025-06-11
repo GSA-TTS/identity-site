@@ -237,32 +237,32 @@ help_page:
     - description: Cree su cuenta. Más información sobre las opciones de autenticación
         y otras funciones de la cuenta.
       image: /assets/img/help/get-started.svg
+      slug: get-started
       title: Cree una cuenta
       url: /es/help/get-started/overview/
-      slug: get-started
     - description: ¿Olvidó su contraseña? ¿Está bloqueado el acceso a su cuenta? Le
         ayudaremos a resolver los problemas de acceso.
       image: /assets/img/help/trouble-signing-in.svg
+      slug: trouble-signing-in
       title: Problemas para iniciar sesión
       url: /es/help/trouble-signing-in/overview/
-      slug: trouble-signing-in
     - description: Cambie la configuración de su cuenta, su contraseña, número de
         teléfono, correo electrónico y más.
       image: /assets/img/help/manage-your-account.svg
+      slug: manage-your-account
       title: Administrar una cuenta
       url: /es/help/manage-your-account/overview/
-      slug: manage-your-account
     - description: Obtenga ayuda con los Programas para viajeros de confianza (TTP) y
         SAM.gov.
       image: /assets/img/help/help-specific-agencies.svg
+      slug: specific-agencies
       title: Ayuda con agencias
       url: /es/help/specific-agencies/overview/
-      slug: specific-agencies
     - description: Infórmese sobre las opciones para verificar su identidad.
       image: /assets/img/help/verify-your-id.svg
+      slug: verify-your-identity
       title: Verificar mi identidad
       url: /es/help/verify-your-identity/overview/
-      slug: verify-your-identity
   p_1: Explorar temas comunes
   title: ¿Cómo podemos ayudarle?
 identifier:

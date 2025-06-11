@@ -1,7 +1,8 @@
 <section class="language-search">
   <div class="container">
     <div class="grid-col display-flex flex-justify-end flex-align-center">
-      {% include language_picker.html dropdown=true id="dropdown" %} {% include sign_in.html %}
+      {% include language_picker.html dropdown=true id="dropdown" %}
+      {% include sign_in.html %}
     </div>
   </div>
 </section>
@@ -23,8 +24,8 @@
         {% include search.html id="header-nav" %}
 
         <a
-        class="usa-button get-started margin-left-2"
-        href="{{ '/contact/' | locale_url }}"
+          class="usa-button get-started margin-left-2"
+          href="{{ '/contact/' | locale_url }}"
         >
           {{ site.data.[page.lang].settings.nav.contact_us.title }}
         </a>
@@ -42,62 +43,64 @@
             {% for category in site.data[page.lang].settings["help_page"]["categories"] %}
               {% assign articles = site.help | where_exp: "item", "item.category == category.slug and item.lang == page.lang and item.child != true and item.exclude_from_nav != true" | sort: 'order' %}
 
-              {% assign subpage_has_current = 'false' %}
-              {% assign found_match_size = site.help
-                | where: "category", category.slug
-                | where: "lang", page.lang
-                | where: "permalink", page.url
-                | where_exp: "item", "item.child != true and item.exclude_from_nav != true"
-                | size %}
-              {% if found_match_size == 1 %}
-                {% assign subpage_has_current = 'true' %}
-              {% endif %}
-
-            <li class="usa-nav__primary-item">
-              <button
-                class="usa-accordion__button usa-nav__link"
-                aria-expanded="{{ subpage_has_current }}"
-                aria-controls="help-header-nav-{{ category.slug }}"
-              >
-                <span>{{ category.title }}</span>
-              </button>
-              <ul id="help-header-nav-{{ category.slug }}" class="usa-nav__submenu">
-                {% for article in articles %}
-                <li class="usa-nav__submenu-item">
-                  <a
-                    href="{{ article.url | prepend: site.baseurl }}"
-                    class="{% if page.url == article.url %}usa-current{% endif %}"
-                  >
-                    {% if article.meta_title %}
-                      {{ article.meta_title }}
-                    {% else %}
-                      {{ article.title }}
-                    {% endif %}
-                  </a>
-                </li>
-                  {% assign children = site.help
-                     | where_exp: 'item', 'item.lang == page.lang
-                       and question.children contains item.url'
-                     | sort: 'order' %}
-                  {% if children.size > 0 %}
-                    <ul class="usa-nav__submenu">
-                      {% for child in children %}
-                      <li class="usa-nav__submenu-item border-0">
-                        <a class="{% if child.url == page.url %}usa-current{% endif %}"
-                            href="{{ child.url | prepend: site.baseurl }}">
-                            {% if child.meta_title %}
-                              {{ child.meta_title }}
-                            {% else %}
-                              {{ child.title }}
-                            {% endif %}
-                        </a>
-                      </li>
-                      {% endfor %}
-                    </ul>
+              {% assign subpage_has_current = false %}
+              {% for article in articles %}
+                {% if article.url == page.url %}
+                  {% assign subpage_has_current = true %}
+                {% endif %}
+                {% assign children = site.help | where_exp: "item", "item.lang == page.lang and article.children contains item.url" | sort: 'order' %}
+                {% for child in children %}
+                  {% if child.url == page.url %}
+                    {% assign subpage_has_current = true %}
                   {% endif %}
                 {% endfor %}
-              </ul>
-            </li>
+              {% endfor %}
+
+              <li class="usa-nav__primary-item">
+                <button
+                  class="usa-accordion__button usa-nav__link"
+                  aria-expanded="{{ subpage_has_current }}"
+                  aria-controls="help-header-nav-{{ category.slug }}"
+                >
+                  <span>{{ category.title }}</span>
+                </button>
+                <ul id="help-header-nav-{{ category.slug }}" class="usa-nav__submenu">
+                  {% for article in articles %}
+                  <li class="usa-nav__submenu-item">
+                    <a
+                      href="{{ article.url | prepend: site.baseurl }}"
+                      class="{% if page.url == article.url %}usa-current{% endif %}"
+                    >
+                      {% if article.meta_title %}
+                        {{ article.meta_title }}
+                      {% else %}
+                        {{ article.title }}
+                      {% endif %}
+                    </a>
+                    {% assign children = site.help
+                       | where_exp: 'item', 'item.lang == page.lang
+                         and article.children contains item.url'
+                       | sort: 'order' %}
+                    {% if children.size > 0 %}
+                      <ul class="usa-nav__submenu">
+                        {% for child in children %}
+                        <li class="usa-nav__submenu-item border-0">
+                          <a class="{% if child.url == page.url %}usa-current{% endif %}"
+                              href="{{ child.url | prepend: site.baseurl }}">
+                              {% if child.meta_title %}
+                                {{ child.meta_title }}
+                              {% else %}
+                                {{ child.title }}
+                              {% endif %}
+                          </a>
+                        </li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </li>
+                  {% endfor %}
+                </ul>
+              </li>
             {% endfor %}
           </ul>
         </div>
@@ -110,7 +113,7 @@
         </a>
 
         <div class="desktop:display-none">
-          {% include search.html id="header-nav" collection="8801" %}
+          {% include search.html id="header-small-nav" collection="8801" %}
         </div>
 
         <div class="desktop:display-none margin-top-3">
@@ -120,18 +123,20 @@
         <div class="display-none desktop:display-block">
           <ul class="usa-nav__primary usa-accordion">
             {% for category in site.data[page.lang].settings["help_page"]["categories"] %}
+              {% assign articles = site.help | where_exp: "item", "item.category == category.slug and item.lang == page.lang and item.child != true and item.exclude_from_nav != true" | sort: 'order' %}
+
               {% assign subpage_has_current = false %}
-
-              {% assign found_match_size = site.help
-                | where: "category", category.slug
-                | where: "lang", page.lang
-                | where: "permalink", page.url
-                | where_exp: "item", "item.child != true and item.exclude_from_nav != true"
-                | size %}
-
-                {% if found_match_size == 1 %}
+              {% for article in articles %}
+                {% if article.url == page.url %}
                   {% assign subpage_has_current = true %}
                 {% endif %}
+                {% assign children = site.help | where_exp: "item", "item.lang == page.lang and article.children contains item.url" | sort: 'order' %}
+                {% for child in children %}
+                  {% if child.url == page.url %}
+                    {% assign subpage_has_current = true %}
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
 
               <li class="usa-nav__primary-item">
                 <a
