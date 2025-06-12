@@ -3,7 +3,7 @@ layout: help
 title: Comment puis-je modifier l’adresse e-mail communiquée à un organisme partenaire ?
 category: manage-your-account
 permalink: /fr/help/manage-your-account/change-partner-email-address/
-order: 6
+order: 4
 ---
 
 Login.gov vous permet de choisir l’adresse e-mail que vous communiquez à chaque organisme partenaire. Vous pouvez sélectionner une adresse existante ou en ajouter une nouvelle à partir des pages suivantes :
