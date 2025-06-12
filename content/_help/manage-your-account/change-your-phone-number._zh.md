@@ -3,7 +3,7 @@ layout: help
 title: 如何更改与我帐户相关的电话号码？
 category: manage-your-account
 permalink: /zh/help/manage-your-account/change-your-phone-number/
-order: 7
+order: 2
 ---
 
 按照以下步骤更改与你账户相关的电话。
