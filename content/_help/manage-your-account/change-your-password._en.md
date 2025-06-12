@@ -3,7 +3,7 @@ layout: help
 title: How do I change my password?
 category: manage-your-account
 permalink: /help/manage-your-account/change-your-password/
-order: 2
+order: 3
 redirect_from:
   - /en/help/manage-your-account/change-your-password/
   - /help/changing-settings/change-my-password/
