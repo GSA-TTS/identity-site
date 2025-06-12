@@ -2,7 +2,7 @@
 title: Comment puis-je changer mon mot de passe ?
 category: manage-your-account
 permalink: /fr/help/manage-your-account/change-your-password/
-order: 2
+order: 3
 redirect_from:
   - /fr/help/changing-settings/change-my-password/
   - /fr/help/changing-settings/how-do-i-change-my-password/
