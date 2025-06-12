@@ -3,7 +3,7 @@ layout: help
 title: 如何更改与我帐户相关的电邮地址？
 category: manage-your-account
 permalink: /zh/help/manage-your-account/change-your-email-address/
-order: 5
+order: 1
 ---
 
 按照以下步骤更改与你账户相关的电邮地址。
