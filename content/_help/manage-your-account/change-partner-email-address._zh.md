@@ -3,7 +3,7 @@ layout: help
 title: 我如何更改与合作伙伴机构分享的电邮地址
 category: manage-your-account
 permalink: /zh/help/manage-your-account/change-partner-email-address/
-order: 6
+order: 4
 ---
 
 Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。你可以在下边的页面上选择现有电邮或添加新电邮：
