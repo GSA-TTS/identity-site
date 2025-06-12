@@ -116,7 +116,7 @@ You can add multiple email addresses to your Login.gov account and you can delet
       <li>Enter your email address at https://secure.login.gov.</li>
       <li>Enter your password.</li>
       <li>Click the “Sign in” button.</li>
-      <li>Authenticate using one of the methods you set up. You be taken to your account page.</li>
+      <li>Authenticate using one of the methods you set up. You will be taken to your account page.</li>
       <li>Click “Your connected accounts” from the menu.</li>
       <li>Click the ”Change” link under each partner agency to update your email.</li>
       <li>On the “Select your preferred email” page, click the email you wish to share then click the “Select email” button to continue.</li>
