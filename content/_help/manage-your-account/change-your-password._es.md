@@ -2,7 +2,7 @@
 title: ¿Cómo cambio mi contraseña?
 category: manage-your-account
 permalink: /es/help/manage-your-account/change-your-password/
-order: 2
+order: 3
 redirect_from:
   - /es/help/changing-settings/change-my-password/
   - /es/help/changing-settings/how-do-i-change-my-password/
