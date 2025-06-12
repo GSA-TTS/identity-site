@@ -64,5 +64,5 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
 
 ## Otros artículos
 
-[Métodos de autenticación](/help/get-started/authentication-methods/)
-[Problemas con el desbloqueo facial y táctil](#)
+* [Métodos de autenticación](/help/get-started/authentication-methods/)
+* [Problemas con el desbloqueo facial y táctil](#)

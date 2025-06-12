@@ -65,6 +65,6 @@ If you lost your authentication method and do not have a backup connected to you
   </div>
 </div>
 
-## Related articles 
-[Authentication methods](/help/get-started/authentication-methods/)
-[Issues with face and touch unlock](#)
+## Related articles
+* [Authentication methods](/help/get-started/authentication-methods/)
+* [Issues with face and touch unlock](#)

@@ -64,5 +64,5 @@ order: 5
 
 ## 相关文章
 
-[身份证实方法](/zh/help/get-started/authentication-methods/)
-[人脸和触摸解锁问题](#)
+* [身份证实方法](/zh/help/get-started/authentication-methods/)
+* [人脸和触摸解锁问题](#)
