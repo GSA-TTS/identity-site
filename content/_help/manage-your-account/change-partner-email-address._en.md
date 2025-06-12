@@ -3,7 +3,7 @@ layout: help
 title: How do I change the email address shared with a partner agency?
 category: manage-your-account
 permalink: /help/manage-your-account/change-partner-email-address/
-order: 6
+order: 4
 redirect_from:
   - /en/help/manage-your-account/change-partner-email-address/
 ---
