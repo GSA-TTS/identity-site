@@ -2,7 +2,7 @@
 title: Comment puis-je modifier l’e-mail associé à mon compte ?
 category: manage-your-account
 permalink: /fr/help/manage-your-account/change-your-email-address/
-order: 5
+order: 1
 redirect_from:
   - /fr/help/changing-settings/add-or-remove-email-address/
   - /fr/help/changing-settings/change-my-email-address/
