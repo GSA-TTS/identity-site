@@ -3,7 +3,7 @@ layout: help
 title: ¿Cómo cambio la dirección de correo electrónico que proporcioné a una agencia asociada?
 category: manage-your-account
 permalink: /es/help/manage-your-account/change-partner-email-address/
-order: 6
+order: 4
 ---
 
 Login.gov le permite controlar cuál dirección de correo electrónico se proporciona a cada agencia asociada. Puede seleccionar un correo electrónico que ya tenga o agregar uno nuevo en las páginas siguientes:
