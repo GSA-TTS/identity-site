@@ -12,7 +12,7 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。�
 
 Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 
-如果您的社会保障用户名是在3年多前创建的，则需要过渡到一个新的或现有的 Login.gov 帐户才能持续访问 SSA 在线服务。有关如何进行过渡的分步说明，请观看此[视频](https://www.youtube.com/watch?v=ntUtk160MtY)。
+如果您的社会保障用户名是在3年多前创建的，则需要过渡到一个新的或现有的 Login.gov 帐户才能持续访问 SSA 在线服务。
 
 如果你有事关以下内容的问题，请直接联系 [SSA.gov](https://www.ssa.gov/)
 
