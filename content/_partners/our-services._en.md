@@ -2,7 +2,7 @@
 layout: partners/our-services
 permalink: /partners/our-services/
 redirect_from:
- - /docs/login-gov-roadmap-may-2024.pdf/
+ - /docs/login-gov-roadmap-dec-2024.pdf/
 title: >-
     Our services
 subtitle: >-
