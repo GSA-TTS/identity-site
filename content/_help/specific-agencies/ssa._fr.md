@@ -12,7 +12,7 @@ Veuillez ne pas envoyer à Login.gov de données sensibles vous concernant ou de
 
 Login.gov ne peut répondre qu'aux questions concernant la création d'un compte Login.gov et le processus de connexion.
 
-Si vous avez créé votre nom d’utilisateur de l’Administration de la sécurité sociale il y a plus de 3 ans, vous devrez passer à un compte Login.gov, nouveau ou existant, pour continuer à accéder aux services en ligne de la SSA. Pour des instructions détaillées sur cette transition, veuillez regarder cette [vidéo](https://www.youtube.com/watch?v=ntUtk160MtY).
+Si vous avez créé votre nom d’utilisateur de l’Administration de la sécurité sociale il y a plus de 3 ans, vous devrez passer à un compte Login.gov, nouveau ou existant, pour continuer à accéder aux services en ligne de la SSA.
 
 Veuillez contacter directement [SSA.gov](https://www.ssa.gov/) si vous avez des questions concernant :
 

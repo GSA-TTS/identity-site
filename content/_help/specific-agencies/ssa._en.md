@@ -8,16 +8,15 @@ order: 3
 redirect_from:
   - /en/help/specific-agencies/ssa/
 ---
-Login.gov is for secure sign in only. Your Login.gov account does not affect or have any information about your Social Security card, number, or benefits. 
+Login.gov is for secure sign in only. Your Login.gov account does not affect or have any information about your Social Security card, number, or benefits.
 
 Please do not send Login.gov sensitive data about yourself or identifying numbers.
 
 Login.gov can only answer questions about the sign-in process and creating a Login.gov account.
 
-If you created a Social Security username more than 3 years ago, you will need to transition to a new or existing Login.gov account to have continuous access to SSA online services. For step-by-step instructions on how to make the transition, watch this [video](https://www.youtube.com/watch?v=ntUtk160MtY).
+If you created a Social Security username more than 3 years ago, you will need to transition to a new or existing Login.gov account to have continuous access to SSA online services.
 
 Please contact [SSA.gov](https://www.ssa.gov/) directly if you have questions regarding:
-
 * [Your Social Security number](https://www.ssa.gov/employer/ssnv.htm)
 * [Replacing your Social Security card](https://www.ssa.gov/number-card/replace-card)
 * [Reporting a stolen Social Security number](https://www.ssa.gov/number-card/report-stolen-number)
@@ -34,5 +33,5 @@ If you live abroad, [SSA.gov provides contact information by country](https://ww
 
 ## Related articles
 
-* [Help with specific agencies](/help/specific-agencies/overview/)
-* [Relink your accounts](/help/manage-your-account/relink-your-accounts/)
+* [Help with agencies?](/help/specific-agencies/overview/)
+* [How do I relink my account with a partner agency?](/help/manage-your-account/relink-your-accounts/)
