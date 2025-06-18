@@ -110,62 +110,11 @@ If you are using a computer to verify your identity, you will be able to switch 
 
 Some partner agencies may ask you to take a photo of your face and photos of your driver’s license or state ID card. This checks that you are the person on your ID.
 
-### Device requirements
-
-* You must use a phone or tablet with a camera to take pictures of both your face and your state ID using Login.gov’s camera tool. You cannot complete this step on a desktop device. 
-* If you don’t have a phone or tablet with a camera, you may be able to verify your identity in person at a United States Postal Service location near you.
-
-### Preparing to take your photo
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='A person wearing sunglasses. Any face covering results in a failed photo.'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-accessories-remove.png'
-      text='Only wear accessories, like glasses or hats, that you also wear in your ID photo. Remove other accessories that might block your face.'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='A person with extra light or glare on their face, which results in a failed photo.'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-glare.png'
-      text='Take your photo in a well-lit place while avoiding glare.'
-    %}
-  </div>
-</div>
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='A person with a blurry face, which results in a failed photo.'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-blurry.png'
-      text='Remain still to avoid a blurry image.'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='A person with their face outside of the central green circle, which results in a failed photo.'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-fill-green-oval.png'
-      text='Make sure your face fills the entire green oval.'
-    %}
-  </div>
-</div>
-
-### Taking your photo
-<div class="grid-row grid-gap margin-bottom-2">
-  <div class="tablet:grid-col">
-    <img alt="A person with their face in a green oval. A finger taps a checkmark under the face to confirm the photo." src="{{ site.baseurl }}/assets/img/help/preparing-to-take-your-photo/selfie-do-checkmark.png" />
-  </div>
-</div>
-
-The camera will automatically take your photo. Tap the green checkmark to confirm it.
-
-1. Line up your face with the green circle. Make sure your entire face is visible, from your chin to the top of your head.
-2. Tap the check mark to accept the photo.
-3. If the camera tool does not automatically take your photo, position your face so that it fills the green circle and tap the red circle to take a photo.
+1. Take your photo in a well-lit place, while avoiding glare.
+2. Make sure your entire face is visible, from your chin to the top of your head. Only wear accessories, like glasses, that you also wear in your ID photo. Remove any other items covering your face.
+3. Line up your face with the guidelines. Keep your expression neutral and remain still.
+4. Follow the instructions to take a photo. The camera tool may automatically take a photo, or you may need to tap a button to take the photo.
+5. Tap the checkmark or follow the instructions to accept the photo.
 
 ---
 

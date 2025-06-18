@@ -109,62 +109,11 @@ url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=
 
 Login.gov的一些合作伙伴机构可能会要求您拍摄自己的面部照片以及驾照或州身份卡的照片。这是为了查看您是身份证件上的人。
 
-### 设备要求
-
-* 您必须使用带相机的手机或平板电脑以及 Login.gov 的相机工具来拍摄自己面部和州身份证件的照片。您无法在桌面电脑上完成这一步。
-* 如果您没有带相机的手机或平板电脑，可能能去附近的美国邮局去亲身验证身份。
-
-### 准备拍照
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='戴着太阳镜的一个人。面部有任何遮盖物都会导致照片失败。'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-accessories-remove.png'
-      text='只配戴您在身份证件照片中也配戴的用品，例如眼镜或帽子。摘掉可能遮挡您面部的其他配饰。'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='人脸上有太多光或炫光，所以照片失败。'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-glare.png'
-      text='在光线明亮的地方给自己拍照，避免眩光。'
-    %}
-  </div>
-</div>
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='人脸模糊，因而照片失败。'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-blurry.png'
-      text='保持静止以避免图像模糊。'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='人脸在中央绿色圆圈外，所以照片失败。'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-fill-green-oval.png'
-      text='确保您的面部填满整个绿色椭圆圈。'
-    %}
-  </div>
-</div>
-
-### 给您自己拍照
-<div class="grid-row grid-gap margin-bottom-2">
-  <div class="tablet:grid-col">
-    <img alt="人脸在绿色椭圆中。手指点击面孔下的勾选标记来确认照片。" src="{{ site.baseurl }}/assets/img/help/preparing-to-take-your-photo/selfie-do-checkmark.png" />
-  </div>
-</div>
-
-相机将自动拍摄您的照片。点击绿色打勾标记进行确认。
-
-1. 将您的面部与绿色圆圈对齐。确保您整个面部 - 从下巴到头顶 - 都可以看见。
-2. 点击打勾标记来接受照片。
-3. 如果相机工具没有自动拍摄您的照片，请调整您的面部以使其填满绿色圆圈，然后点击红色圆圈进行拍照。
+1. 在光线明亮的地方拍你的照片，避免眩光。
+2. 确保你整个面部 - 从下巴到头顶 - 都没有遮掩。只佩戴你在 ID 照片中也佩戴的用品，例如眼镜。取下遮盖面部的任何其他东西。
+3. 把你的面部放在指导线之内。保持中性表情，不要动。
+4. 按照说明拍照。相机工具可能会自动拍照，或者你可能需要点一个按钮。
+5. 点击勾选框或按照说明接受照片。
 
 ---
 

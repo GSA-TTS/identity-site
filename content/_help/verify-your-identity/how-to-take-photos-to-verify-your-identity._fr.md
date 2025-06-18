@@ -112,64 +112,11 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
 
 Certains organismes partenaires peuvent vous demander de prendre une photo de votre visage et des photos de votre permis de conduire ou carte d’identité d’un État. Ceci permet de confirmer que vous êtes la personne figurant sur votre pièce d’identité.
 
-### Type d’appareil requis
-
-
-* Vous devez utiliser un téléphone ou une tablette pour prendre des photos de votre visage et de votre pièce d’identité d’État à l’aide de l’outil de photographie de Login.gov. Il n’est pas possible d’effectuer cette étape sur un ordinateur.
-* Si vous n’avez pas de téléphone ou de tablette avec appareil photo, vous pouvez peut-être confirmer votre identité en personne dans un bureau du service des postes des États-Unis près de chez vous.
-
-### Avant de vous prendre en photo
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='Une personne portant des lunettes de soleil. Tout ce qui couvre le visage ou une partie du visage entraîne le rejet de la photo.'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-accessories-remove.png'
-      text="Ne portez que des accessoires, comme des lunettes ou un couvre-chef, que vous portez également sur votre photo d'identité. Retirez tous autres accessoires susceptibles de cacher votre visage."
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='Le visage de la personne est trop éclairé ou comporte trop de reflets : la photo est rejetée.'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-glare.png'
-      text='Prenez votre photo dans un endroit bien éclairé en évitant les reflets.'
-    %}
-  </div>
-</div>
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='Le visage de la personne est flou : la photo est rejetée.'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-blurry.png'
-      text='Ne bougez pas pour que la photo soit nette.'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='Le visage de la personne est à l’extérieur de l’ovale vert : la photo est rejetée.'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-fill-green-oval.png'
-      text='Assurez-vous que l’ensemble de votre visage remplisse l’ensemble de l’ovale vert.'
-    %}
-  </div>
-</div>
-
-### Prendre votre photo
-
-<div class="grid-row grid-gap margin-bottom-2">
-  <div class="tablet:grid-col">
-    <img alt="Le visage d’une personne dans un ovale vert. Un doigt coche une case sous le visage pour valider la photo." src="{{ site.baseurl }}/assets/img/help/preparing-to-take-your-photo/selfie-do-checkmark.png" />
-  </div>
-</div>
-
-L’appareil prend automatiquement votre photo. Cochez la case verte pour valider la photo.
-
-1. Placez votre visage à l’intérieur du cercle vert. Veillez à ce que l’ensemble de votre visage soit visible, du menton au sommet de la tête.
-2. Cochez la case pour accepter la photo.
-3. Si l’outil de photographie ne prend pas automatiquement votre photo, placez le visage à l’intérieur du cercle vert et cochez le cercle rouge pour prendre une photo.
+1. Prenez votre photo dans un endroit bien éclairé et évitez les reflets.
+2. Veillez à ce que l’ensemble de votre visage soit visible, du menton au sommet de la tête. Ne portez que des accessoires, comme des lunettes, que vous portez également sur votre photo d'identité. Retirez tout autre article vous couvrant le visage.
+3. Placez votre visage à l’intérieur du cadre. Gardez une expression neutre et ne bougez pas.
+4. Suivez les instructions pour prendre la photo. Soit l’outil caméra prendra automatiquement une photo, soit vous devrez appuyer sur un bouton pour la prendre.
+5. Cochez la case prévue à cet effet pour valider la photo ou suivez les instructions pour le faire.
 
 ---
 

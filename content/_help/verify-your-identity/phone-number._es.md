@@ -32,6 +32,8 @@ Puede utilizar un teléfono celular de prepago para verificar su identidad. Sin 
 
 ## Si no puede efectuar este paso:
 
+Si su número de teléfono es correcto, desactive el desvío de llamadas mientras esté verificando su identidad (puede volver a activarlo cuando haya terminado). Intente con otro número que esté asociado con su nombre.
+
 En algunos casos, puede seleccionar “Verifique su domicilio a través del correo postal”. Tendrá que esperar de 5 a 10 días para recibir una carta por correo, y luego siga las instrucciones para ingresar el código de verificación.
 
 Si no tiene la opción de verificar por correo, debe hacer la verificación de su identidad por teléfono.

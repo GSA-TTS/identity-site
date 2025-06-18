@@ -34,6 +34,9 @@ You can use a prepaid cell phone to verify your identity. However, some prepaid 
 {% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
 
 ## If you cannot complete this step
+
+If your phone number is correct, turn off call forwarding while you are verifying your identity (you can turn call forwarding back on when you are done). Try another number that is associated with your name.
+
 In some cases, you may be able to select “Verify your address by mail instead.” You will have to wait 5 to 10 days to receive a letter in the mail and then follow the instructions to enter the verification code.
 
 If you do not have the option to verify by mail, you must verify by phone to successfully verify your identity.

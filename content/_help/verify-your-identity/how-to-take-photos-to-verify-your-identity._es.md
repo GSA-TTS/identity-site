@@ -111,63 +111,11 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
 
 Es posible que algunas agencias asociadas le pidan que tome una foto de su cara y fotos de su licencia de conducir o tarjeta de identificación estatal. Esto comprueba que usted es la persona que figura en su identificación.
 
-### Requisitos del dispositivo
-
-* Debe usar un teléfono o una tableta con cámara para tomar las fotografías de su cara y de su identificación estatal con la herramienta de la cámara de Login.gov. No puede efectuar este paso en un dispositivo de escritorio.
-* Si no tiene un teléfono o una tableta con cámara, puede verificar su identidad en persona en una oficina cercana del Servicio Postal de los Estados Unidos.
-
-### Preparación para tomarse su foto
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='Una persona con anteojos de sol. Si rostro está cubierto con algún accesorio, la foto no es aceptable.'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-accessories-remove.png'
-      text='Solo use los accesorios (como anteojos o sombreros) que lleva puestos en la fotografía de su identificación. Quite otros accesorios que puedan cubrirle la cara.'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='Una persona con demasiada luz o con reflejos en el rostro, por lo tanto, la foto no es aceptable.'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-glare.png'
-      text='Tómese la foto en un lugar bien iluminado, pero evite los reflejos.'
-    %}
-  </div>
-</div>
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='Una persona con la cara borrosa, por lo tanto, la foto no es aceptable.'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-avoid-blurry.png'
-      text='No se mueva para evitar una imagen borrosa.'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='Una persona con el rostro fuera del círculo verde central, por lo tanto, la foto no es aceptable.'
-      image='/assets/img/help/preparing-to-take-your-photo/selfie-fill-green-oval.png'
-      text='Revise que su cara llene todo el óvalo verde.'
-    %}
-  </div>
-</div>
-
-### Para tomar su fotografía
-
-<div class="grid-row grid-gap margin-bottom-2">
-  <div class="tablet:grid-col">
-    <img alt="Una persona con el rostro dentro de un óvalo verde. Un dedo toca una marca de verificación debajo de la cara para confirmar la foto." src="{{ site.baseurl }}/assets/img/help/preparing-to-take-your-photo/selfie-do-checkmark.png" />
-  </div>
-</div>
-
-La cámara tomará automáticamente su fotografía. Toque la marca de verificación para confirmar.
-
-1. Alinee su cara con el círculo verde. Revise que se vea su cara completa, desde la barbilla hasta la parte superior de la cabeza. 
-2. Toque la marca de verificación para aceptar la fotografía.
-3. Si la cámara no toma automáticamente su fotografía, coloque la cara de manera que llene el círculo verde, y toque el círculo rojo para tomar la foto.
+1. Tómese la foto en un lugar bien iluminado, pero evite los reflejos.
+2. Revise que se vea su cara completa, desde la barbilla hasta la parte superior de la cabeza. Solo use los accesorios (como anteojos) que lleva puestos en la fotografía de su identificación. Quite cualquier prenda que le cubra la cara.
+3. Alinee su cara con las marcas de guía. Mantenga una expresión neutral y no se mueva.
+4. Siga las instrucciones para tomar una fotografía. La cámara puede tomar automáticamente una foto, o es posible que usted tenga que tocar un botón para tomarla.
+5. Toque la marca de verificación o siga las instrucciones para aceptar la foto.
 
 ---
 

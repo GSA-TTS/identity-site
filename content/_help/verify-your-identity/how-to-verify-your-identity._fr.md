@@ -41,9 +41,7 @@ Login.gov est un site web sécurisé de l’administration qui respecte les norm
 1. Quand vous êtes invité à confirmer votre identité pour un organisme de l’administration, veuillez lire les conditions requises et, si vous êtes d'accord, cocher la case située à côté de la déclaration de consentement de Login.gov.
 2. [Ajoutez des photos](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/) du recto et du verso de votre permis de conduire ou carte d’identité d’un État.
  
-    Il est conseillé de prendre des photos de votre pièce d’identité à l’aide d’un téléphone. Si vous n’avez pas de smartphone équipé d’une caméra, vous pouvez peut-être téléverser des photos depuis un ordinateur ou encore confirmer [votre identité en personne.](/fr/help/verify-your-identity/verify-your-identity-in-person/)
-    
-    Si vous commencez la procédure de vérification d’identité sur votre ordinateur, vous pouvez passer à un téléphone pour prendre des photos de votre pièce d’identité.
+    Si vous commencez la procédure de vérification d’identité sur votre ordinateur, vous pouvez passer à un téléphone pour prendre des photos de votre pièce d’identité. Si vous n'avez pas de téléphone équipé d'une caméra, vous pouvez [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/).
     * Saisissez le numéro de téléphone sur lequel vous pouvez recevoir des SMS.
     * Cliquez sur le lien contenu dans le message pour ouvrir le site Login.gov sur votre téléphone.
     * Après avoir pris les photos de votre pièce d’identité, vous serez invité à repasser sur votre ordinateur pour mener la procédure à bien.
