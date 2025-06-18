@@ -110,6 +110,7 @@ If you are using a computer to verify your identity, you will be able to switch 
 
 Some partner agencies may ask you to take a photo of your face and photos of your driver’s license or state ID card. This checks that you are the person on your ID.
 
+{: .number-list}
 1. Take your photo in a well-lit place, while avoiding glare.
 2. Make sure your entire face is visible, from your chin to the top of your head. Only wear accessories, like glasses, that you also wear in your ID photo. Remove any other items covering your face.
 3. Line up your face with the guidelines. Keep your expression neutral and remain still.

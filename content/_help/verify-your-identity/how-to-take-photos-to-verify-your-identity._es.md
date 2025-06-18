@@ -111,6 +111,7 @@ Si está usando una computadora para verificar su identidad, podrá cambiar a un
 
 Es posible que algunas agencias asociadas le pidan que tome una foto de su cara y fotos de su licencia de conducir o tarjeta de identificación estatal. Esto comprueba que usted es la persona que figura en su identificación.
 
+{: .number-list}
 1. Tómese la foto en un lugar bien iluminado, pero evite los reflejos.
 2. Revise que se vea su cara completa, desde la barbilla hasta la parte superior de la cabeza. Solo use los accesorios (como anteojos) que lleva puestos en la fotografía de su identificación. Quite cualquier prenda que le cubra la cara.
 3. Alinee su cara con las marcas de guía. Mantenga una expresión neutral y no se mueva.

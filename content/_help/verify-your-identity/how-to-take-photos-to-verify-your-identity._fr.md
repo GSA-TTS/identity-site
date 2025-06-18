@@ -112,6 +112,7 @@ Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez pass
 
 Certains organismes partenaires peuvent vous demander de prendre une photo de votre visage et des photos de votre permis de conduire ou carte d’identité d’un État. Ceci permet de confirmer que vous êtes la personne figurant sur votre pièce d’identité.
 
+{: .number-list}
 1. Prenez votre photo dans un endroit bien éclairé et évitez les reflets.
 2. Veillez à ce que l’ensemble de votre visage soit visible, du menton au sommet de la tête. Ne portez que des accessoires, comme des lunettes, que vous portez également sur votre photo d'identité. Retirez tout autre article vous couvrant le visage.
 3. Placez votre visage à l’intérieur du cadre. Gardez une expression neutre et ne bougez pas.
