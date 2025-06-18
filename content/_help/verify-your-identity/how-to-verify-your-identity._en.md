@@ -38,7 +38,7 @@ Login.gov is a secure, government website that adheres to the highest standards 
 1. When you are prompted to verify your identity for a government agency, read the requirements and, if you agree, check the box next to the Login.gov consent statement.
 2. [Add photos](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/) of the front and back of your driver’s license or state ID.
  
-    If you begin the identity verification process on your computer, you can switch to a phone to take photos of your ID. If you don’t have a smartphone with a camera, you can [verify your identity in person](help/verify-your-identity/verify-your-identity-in-person/).
+    If you begin the identity verification process on your computer, you can switch to a phone to take photos of your ID. If you don’t have a smartphone with a camera, you can [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/).
     * Enter your phone number where you can receive SMS/Text messages.
     * Click on the link in the text message to open the Login.gov website on your phone.
     * After you take photos of your ID, you will be prompted to return to your computer to complete the process.
