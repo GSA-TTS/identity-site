@@ -33,10 +33,8 @@ Login.gov es un sitio web gubernamental seguro que cumple las normas más elevad
 {: .number-list}
 1. Cuando se le pida que verifique su identidad para una agencia de gobierno, lea los requisitos y, si está de acuerdo, marque la casilla que está enseguida de la declaración de consentimiento de Login.gov.
 2. [Agregue las fotografías](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/) del frente y el reverso de su licencia de conducir o de su identificación estatal.
- 
-    Lo mejor es tomar las fotos de su identificación con un teléfono. Si no tiene un smartphone con cámara, es posible que tenga la opción de cargar las fotos en una computadora, o bien puede [verificar su identidad en persona.](/es/help/verify-your-identity/verify-your-identity-in-person/)
-    
-    Si comienza el proceso de verificación de identidad en su computadora, puede cambiar a un teléfono para tomar las fotos de su identificación.
+     
+    Si comienza el proceso de verificación de identidad en su computadora, puede cambiar a un teléfono para tomar las fotos de su identificación. Si no tiene un smartphone con cámara, puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/).
     * Ingrese su número de teléfono en el que pueda recibir mensajes de texto.
     * Haga clic en el vínculo del mensaje de texto para abrir el sitio web de Login.gov en su teléfono.
     * Después de tomar las fotos de su identificación, se le pedirá que vuelva a la computadora para terminar el proceso.

@@ -31,10 +31,8 @@ Login.gov 是一个安全的、遵守数据保护最高标准的政府网站。�
 {: .number-list}
 1. 当系统提示你为某个政府机构验证身份时，请阅读规定，如果你同意，请选择 Login.gov 同意声明旁边的方框。
 2. [添加你的驾照或州颁发的 ID 的正面和背面照片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
-
-    最好用手机拍摄你 ID 的照片。如果你没有带相机的智能手机，可以选择在电脑上上传照片，[或者亲身去验证你的身份。](/zh/help/verify-your-identity/verify-your-identity-in-person/)
-
-    如果你在电脑上开始身份验证流程，可以切换到用手机拍摄自己 ID 的照片。
+ 
+    如果你在电脑上开始身份验证流程，可以切换到用手机拍摄自己 ID 的照片。如果你没有带相机的智能手机，[可以亲身验证你的身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
     * 输入你可以接收SMS/短信的电话号码。
     * 点击短信中的链接以在你的手机上打开 Login.gov 网站。
     * 拍摄ID照片后，系统将提示你返回电脑以完成流程。

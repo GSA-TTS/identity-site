@@ -32,6 +32,8 @@ Vous pouvez utiliser un téléphone portable prépayé pour vérifier votre iden
 
 ## Si vous ne pouvez pas effectuer cette étape
 
+Si votre numéro de téléphone est correct, désactivez le transfert d’appel pendant que vous confirmez votre identité (une fois cette démarche terminée, vous pourrez réactiver cette fonction). Essayez un autre numéro associé à votre nom.
+
 Dans certains cas, vous pouvez sélectionner « Confirmer votre adresse par courrier » à la place. Vous devrez attendre 5 à 10 jours pour recevoir un courrier par la poste, puis suivre les instructions pour saisir le code de vérification.
 
 Dans le cas où n’avez pas la possibilité d’effectuer la vérification par courrier, vous y parviendrez en confirmant votre identité par téléphone.

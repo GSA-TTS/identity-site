@@ -29,6 +29,9 @@ cannot_verify_list:
 {% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
 
 ## 如果你无法完成这一步：
+
+如果你的电话号码是对的，请在验证身份时关闭呼叫转移功能（验证完成后，你可以重新开启该功能）。试试和你的的姓名关联的另外一个号码。
+
 在某些情况下，您可能可以选择“改用邮局信件验证你的地址”。你得等 5 到 10 天才能收到邮寄的信件，收到后请按照其中指示输入验证码。
 
 如果你没有通过邮局信件验证的选项，则必须通过电话验证才能成功验证你的身份。
