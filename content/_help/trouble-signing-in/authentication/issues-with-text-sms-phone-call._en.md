@@ -25,13 +25,6 @@ You can resend a one-time code by selecting using the “resend code” button.
 * Your code may not arrive immediately. Wait up to 10 minutes, or try the “Resend code” button to send your code again.
 * Make sure you’re not using a phone number with an extension, as Login.gov cannot send one-time codes to extensions.
 
-
-<div class="usa-alert usa-alert--info margin-bottom-4" role="status">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">You may need to enable cloud sync on your device if you want to use face or touch unlock to sign in to Login.gov across multiple devices.</p>
-  </div>
-</div>
-
 {% capture one_time_code_alert_content %}
 Only the newest one-time code you receive will work. If you request and receive multiple messages at the same time, you may need to try more than one code until one works.
 {% endcapture %}
