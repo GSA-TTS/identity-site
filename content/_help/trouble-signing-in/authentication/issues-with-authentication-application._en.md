@@ -9,7 +9,7 @@ permalink: /help/trouble-signing-in/authentication/issues-with-authentication-ap
 
 ## My Authentication application isn’t working
 
-The time may not be correctly synced between your device and your Authentication application. Make sure your device’s time is correct by using a page like time.gov.
+The time may not be correctly synced between your device and your Authentication application. Make sure your device’s time is correct by using a page like [time.gov](https://time.gov){:class="usa-link--external"}.
 
 * If you use Google Authenticator, you may need to sync the time manually. Follow Google’s instructions to sync your time.
 
