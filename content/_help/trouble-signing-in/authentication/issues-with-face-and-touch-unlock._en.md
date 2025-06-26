@@ -24,7 +24,6 @@ redirect_from:
   </h4>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Face or touch unlock works best on the following devices and browsers, especially with combinations that match between device and browser. If you are using Firefox and cannot authenticate with face or touch unlock, switch to using Safari if on an Apple device or Chrome if on a Windows or Android device.</p>
-
     <ul>
       <li>
         Devices
@@ -121,5 +120,3 @@ We recommend you set up additional authentication methods in case you lose acces
 
 * [How do I sign in if I lost my phone or personal key?](#)
 * [How do I add or change the authentication method on my account?](#)
-
-
