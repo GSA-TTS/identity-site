@@ -20,4 +20,5 @@ To increase your chances of passing [reCAPTCHA](https://cloud.google.com/securit
 - If none of the above help, [contact Login.gov support](/contact/).
 
 ## Related articles
+
 * [Fraud concerns](#)
