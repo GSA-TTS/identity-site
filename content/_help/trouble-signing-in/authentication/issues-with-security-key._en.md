@@ -15,7 +15,7 @@ If you’ve lost your security key, use your second authentication method to acc
 
 If a message displays that your security key does not appear to be FIDO compliant, please make sure your device is listed as [FIDO-certified](https://fidoalliance.org/certification/fido-certified-products/){:class="usa-link--external"}.
 
-If you believe the error is ours, please [contact us](https://login.gov/contact/).
+If you believe the error is ours, please [contact us](/contact/).
 
 ## Browser is not supported
 
