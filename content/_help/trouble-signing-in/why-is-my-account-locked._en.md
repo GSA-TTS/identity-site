@@ -22,14 +22,12 @@ You'll need to wait six hours before you can try to verify your identity again.
 **After six hours:**
 {: .number-list}
 
-# TODO: REVIEW ADDITION OF LINKS BELOW !!!
-
 1. Go back to the partner agency website you were trying to access.
 1. Sign in with your email address, password, and authentication method. Do not create a new account.
 1. You will be prompted to verify your identity again.
-1. When you add photos of your ID, make sure that your name, address, and other information on your ID can be easily read before you submit it.
-1. When you verify your personal information, check that all of your information is correct on the confirmation screen. If your address or Social Security number are wrong, you can update that information before you submit it.
-1. When you verify your phone number, check that your phone number is entered correctly and you are using an accepted type of phone number.
+1. When you [add photos of your ID](#), make sure that your name, address, and other information on your ID can be easily read before you submit it.
+1. When you [verify your personal information](#), check that all of your information is correct on the confirmation screen. If your address or Social Security number are wrong, you can update that information before you submit it.
+1. When you [verify your phone number](#), check that your phone number is entered correctly and you are using an accepted type of phone number.
 
 ## Related articles
 
