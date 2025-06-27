@@ -15,7 +15,7 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-security-key/
 
 如果系统显示一条信息说你的安全密钥似乎不符合 FIDO 标准，请确保你的设备已获得 [FIDO 认证](https://fidoalliance.org/certification/fido-certified-products/){:class="usa-link--external"}。
 
-如果你认为是我们的错误，请[联系我们](https://login.gov/zh/contact/)。
+如果你认为是我们的错误，请[联系我们](/zh/contact/)。
 
 ## 浏览器不支持
 
