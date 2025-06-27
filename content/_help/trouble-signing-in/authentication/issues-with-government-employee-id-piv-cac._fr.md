@@ -15,7 +15,7 @@ Voici différentes raisons possibles expliquant pourquoi votre carte PIV/CAC ne 
 * Vous devez renouveler votre certificat (tous les 3 ans)
 * Vous devez remplacer votre carte PIV/CAC (tous les 5 ans)
 
-[Contactez le service d’assistance de Login.gov](https://login.gov/fr/contact/) pour obtenir de l’aide.
+[Contactez le service d’assistance de Login.gov](/fr/contact/) pour obtenir de l’aide.
 
 Si vous avez récemment reçu une nouvelle carte PIV/CAC, vous devrez supprimer l’ancienne et la remplacer par la nouvelle.
 * Vous devez avoir configuré une autre méthode d’authentification avant de désactiver une ancienne carte PIV/CAC et d’activer la nouvelle.
