@@ -15,7 +15,7 @@ Si vous avez perdu votre clé de sécurité, utilisez votre seconde méthode d�
 
 Si un message s’affiche indiquant que votre clé de sécurité ne semble pas conforme à la norme FIDO, veuillez vous assurer que votre appareil est répertorié comme étant [certifié FIDO](https://fidoalliance.org/certification/fido-certified-products/){:class="usa-link--external"}.
 
-Si vous pensez que l’erreur vient de nous, veuillez [nous contacter](https://login.gov/fr/contact/).
+Si vous pensez que l’erreur vient de nous, veuillez [nous contacter](/fr/contact/).
 
 ## Navigateur non pris en charge
 
