@@ -5,7 +5,6 @@ order: 2
 permalink: /es/help/trouble-signing-in/how-to-sign-in/
 redirect_from:
   - /es/help/trouble-signing-in/forgot-your-personal-key/
-  - /en/help/trouble-signing-in/forgot-your-personal-key/
   - /es/help/signing-in/
   - /es/help/signing-in/how-to-sign-in/
 ---
