@@ -26,7 +26,6 @@ Vous pouvez faire renvoyer un code à usage unique en sélectionnant le bouton �
 * Assurez-vous de ne pas utiliser un numéro de téléphone avec un poste, car Login.gov ne peut pas envoyer de codes à usage unique à des postes.
 
 {% capture one_time_code_alert_content %}
-**Info :**  
 Seul le dernier code à usage unique que vous recevrez fonctionnera. Si vous demandez et recevez plusieurs messages en même temps, il se peut que vous deviez essayer plusieurs codes jusqu’à ce que l’un d’entre eux fonctionne.
 {% endcapture %}
 {% include alert.html type="info" class="margin-bottom-4" content=one_time_code_alert_content %}
