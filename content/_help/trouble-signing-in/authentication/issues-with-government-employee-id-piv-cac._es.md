@@ -15,7 +15,7 @@ Estos son algunos motivos por los que su tarjeta PIV o CAC no funciona al autent
 * Es necesario que usted renueve su certificado (cada tres años).
 * Usted debe reemplazar su tarjeta PIV o CAC (cada cinco años)
 
-[Contacte con el servicio de asistencia de Login.gov](https://login.gov/es/contact/) para obtener más ayuda.
+[Contacte con el servicio de asistencia de Login.gov](/es/contact/) para obtener más ayuda.
 
 Si recibió recientemente una nueva tarjeta PIV o CAC, tendrá que borrar el certificado de la tarjeta PIV o CAC anterior y añadir el nuevo.
 * Debe tener configurado otro método de autenticación para desactivar la tarjeta PIV o CAC anterior y activar una nueva.
