@@ -15,7 +15,7 @@ Some possible reasons your PIV/CAC isn’t working when authenticating include:
 * You need to renew your certificate (every 3 years)
 * You have to replace your PIV/CAC (every 5 years)
 
-[Contact Login.gov support](https://login.gov/contact/) for additional help.
+[Contact Login.gov support](/contact/) for additional help.
 
 If you have recently received a new PIV/CAC card, you will need to remove the old PIV/CAC and add the new PIV/CAC card.
 * You must have one other authentication method set up to disable an old PIV/CAC card and enable a new PIV/CAC card.
