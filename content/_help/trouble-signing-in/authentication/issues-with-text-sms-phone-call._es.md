@@ -26,7 +26,6 @@ Puede volver a recibir un código de un solo uso seleccionando el botón “Reen
 * Cerciórese de que no está usando un número de teléfono con extensión, ya que Login.gov no puede enviar códigos de un solo uso a extensiones.
 
 {% capture one_time_code_alert_content %}
-**Información:**  
 Solo el código de un solo uso más reciente funcionará. Si solicita y recibe varios mensajes de texto al mismo tiempo, es posible que tenga que probar más de un código hasta que uno funcione.
 {% endcapture %}
 {% include alert.html type="info" class="margin-bottom-4" content=one_time_code_alert_content %}
