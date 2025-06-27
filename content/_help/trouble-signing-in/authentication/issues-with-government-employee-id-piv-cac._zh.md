@@ -15,7 +15,7 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-government-emp
 * 你需要更新证书（每 3 年一次）
 * 你需要更换 PIV/CAC（每 5 年一次）
 
-[联系 Login.gov 支持](https://login.gov/zh/contact/) 以获得更多帮助。
+[联系 Login.gov 支持](/zh/contact/) 以获得更多帮助。
 
 如果你最近收到了新的 PIV/CAC 卡，则需要去除旧的 PIV/CAC 卡并添加新的 PIV/CAC 卡。
 * 要取除旧的 PIV/CAC 卡并启用新的 PIV/CAC 卡，你必须设置了另一种身份证实方法。
