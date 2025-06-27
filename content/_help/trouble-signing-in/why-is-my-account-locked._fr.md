@@ -25,9 +25,9 @@ Il vous faudra attendre six heures avant de pouvoir tenter à nouveau de confirm
 1. Retournez sur le site Web de l’organisme partenaire auquel vous cherchiez à accéder.
 1. Connectez-vous avec votre adresse e-mail, mot de passe et méthode d’authentification. Ne créez pas de nouveau compte.
 1. Vous serez à nouveau invité à confirmer votre identité.
-1. Quand vous ajoutez des photos de votre pièce d’identité, veillez à ce que votre nom, prénom, adresse et autres renseignements figurant sur votre pièce d’identité soient aisément lisibles avant de les envoyer.
-1. Lorsque vous confirmez vos renseignements personnels, vérifiez que toutes les informations sont correctes sur l’écran de confirmation. Si l’adresse ou le numéro de sécurité sociale est faux, vous pouvez actualiser ces informations avant de les envoyer.
-1. Lorsque vous confirmez votre numéro de téléphone, vérifiez que vous l’avez correctement saisi et que vous fournissez un type de numéro accepté.
+1. Quand vous [ajoutez des photos de votre pièce d’identité](#), veillez à ce que votre nom, prénom, adresse et autres renseignements figurant sur votre pièce d’identité soient aisément lisibles avant de les envoyer.
+1. Lorsque vous [confirmez vos renseignements personnels](#), vérifiez que toutes les informations sont correctes sur l’écran de confirmation. Si l’adresse ou le numéro de sécurité sociale est faux, vous pouvez actualiser ces informations avant de les envoyer.
+1. Lorsque vous [confirmez votre numéro de téléphone](#), vérifiez que vous l’avez correctement saisi et que vous fournissez un type de numéro accepté.
 
 ## Articles connexes
 
