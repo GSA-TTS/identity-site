@@ -15,7 +15,7 @@ Si perdió su clave de seguridad, use su segundo método de autenticación para 
 
 Si aparece un mensaje para indicar que su clave de seguridad no cumple con los protocolos FIDO, revise que su dispositivo figure en esta [lista de productos certificados por FIDO](https://fidoalliance.org/certification/fido-certified-products/){:class="usa-link--external"}.
 
-Si considera que se trata de un error nuestro, [contáctenos](https://login.gov/es/contact/).
+Si considera que se trata de un error nuestro, [contáctenos](/es/contact/).
 
 ## Navegador no compatible
 
