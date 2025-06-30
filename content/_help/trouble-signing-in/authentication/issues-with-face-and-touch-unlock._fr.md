@@ -105,14 +105,35 @@ redirect_from:
   </div>
 </div>
 
-## Le déverrouillage facial ou tactile ne fonctionne pas
-
-Vous pouvez utiliser le déverrouillage facial ou tactile sur plusieurs appareils si votre appareil et votre navigateur prennent en charge la synchronisation dans le cloud. Sinon, le déverrouillage facial ou tactile ne fonctionne que sur l'appareil et le navigateur où vous l'avez configuré.
-* Si vous avez configuré le déverrouillage facial ou tactile sur un appareil qui ne prend pas en charge la synchronisation dans le cloud, essayez d'utiliser le même appareil et le même navigateur pour déverrouiller votre compte. Si vous n'y avez plus accès, vous devrez utiliser une autre méthode d'authentification.
-* Si vous avez configuré le déverrouillage facial ou tactile sur un appareil connecté à un service dans le cloud tel qu'iCloud ou votre compte Google, vous pourrez peut-être vous connecter sur n'importe quel autre appareil, à condition qu'il soit également connecté à ce service dans le cloud.
-* Si vous avez configuré le déverrouillage facial ou tactile sur un autre appareil, mais vous ne voyez pas le déverrouillage facial ou tactile lorsque vous vous connectez à Login.gov, c'est que votre appareil actuel ne prend pas en charge le déverrouillage facial ou tactile. Essayez d'utiliser le même appareil et le même navigateur que ceux que vous avez utilisés pour la configuration.
-
-Nous vous recommandons de configurer d'autres méthodes d'authentification au cas où vous perdriez l'accès à un appareil prenant en charge le déverrouillage facial ou tactile.
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="true"
+      aria-controls="b-a5"
+    >
+      Le déverrouillage facial ou tactile ne fonctionne pas
+    </button>
+  </h4>
+  <div id="b-a5" class="usa-accordion__content usa-prose">
+    <p>Vous pouvez utiliser le déverrouillage facial ou tactile sur plusieurs appareils si votre appareil et votre navigateur prennent en charge la synchronisation dans le cloud. Sinon, le déverrouillage facial ou tactile ne fonctionne que sur l'appareil et le navigateur où vous l'avez configuré.</p>
+    <ul>
+      <li>
+        Si vous avez configuré le déverrouillage facial ou tactile sur un appareil qui ne prend pas en charge la synchronisation dans le cloud, essayez d'utiliser le même appareil et le même navigateur pour déverrouiller votre compte. Si vous n'y avez plus accès, vous devrez utiliser une autre méthode d'authentification.
+      </li>
+      <li>
+        Si vous avez configuré le déverrouillage facial ou tactile sur un appareil connecté à un service dans le cloud tel qu'iCloud ou votre compte Google, vous pourrez peut-être vous connecter sur n'importe quel autre appareil, à condition qu'il soit également connecté à ce service dans le cloud.
+      </li>
+      <li>
+        Si vous avez configuré le déverrouillage facial ou tactile sur un autre appareil, mais vous ne voyez pas le déverrouillage facial ou tactile lorsque vous vous connectez à Login.gov, c'est que votre appareil actuel ne prend pas en charge le déverrouillage facial ou tactile. Essayez d'utiliser le même appareil et le même navigateur que ceux que vous avez utilisés pour la configuration.
+      </li>
+    </ul>
+    <p>
+      Nous vous recommandons de configurer d'autres méthodes d'authentification au cas où vous perdriez l'accès à un appareil prenant en charge le déverrouillage facial ou tactile.
+    </p>
+  </div>
+</div>
 
 ## Articles connexes
 
