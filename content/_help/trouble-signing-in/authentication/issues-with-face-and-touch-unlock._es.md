@@ -105,14 +105,35 @@ redirect_from:
   </div>
 </div>
 
-## El desbloqueo facial o táctil no funciona
-
-Si su dispositivo y navegador admiten la sincronización en la nube, puede utilizar el desbloqueo facial o táctil en varios dispositivos. De lo contrario, el desbloqueo facial o táctil solo funciona en el mismo dispositivo y navegador donde lo configuró.
-* Si configuró el desbloqueo facial o táctil en un dispositivo que no admite la sincronización en la nube, intente utilizar el mismo dispositivo y navegador para desbloquear su cuenta. Si ya no tiene acceso a ellos, deberá usar otro método de autenticación.
-* Si configuró el desbloqueo facial o táctil en un dispositivo en el que había iniciado sesión en un servicio en la nube, como iCloud o su cuenta de Google, es posible que pueda iniciar sesión en cualquier otro dispositivo siempre que también haya iniciado sesión en ese servicio en la nube.
-* Si configuró el desbloqueo facial o táctil en otro dispositivo, pero no ve el desbloqueo facial o táctil al iniciar sesión en Login.gov, su dispositivo actual no admite el desbloqueo facial o táctil. Trate de usar el mismo dispositivo y navegador que utilizó para configurarlo.
-
-Le recomendamos que configure otros métodos de autenticación en caso de que pierda el acceso a un dispositivo compatible con el desbloqueo facial o táctil.
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="true"
+      aria-controls="b-a5"
+    >
+      El desbloqueo facial o táctil no funciona
+    </button>
+  </h4>
+  <div id="b-a5" class="usa-accordion__content usa-prose">
+    <p>Si su dispositivo y navegador admiten la sincronización en la nube, puede utilizar el desbloqueo facial o táctil en varios dispositivos. De lo contrario, el desbloqueo facial o táctil solo funciona en el mismo dispositivo y navegador donde lo configuró.</p>
+    <ul>
+      <li>
+        Si configuró el desbloqueo facial o táctil en un dispositivo que no admite la sincronización en la nube, intente utilizar el mismo dispositivo y navegador para desbloquear su cuenta. Si ya no tiene acceso a ellos, deberá usar otro método de autenticación.
+      </li>
+      <li>
+        Si configuró el desbloqueo facial o táctil en un dispositivo en el que había iniciado sesión en un servicio en la nube, como iCloud o su cuenta de Google, es posible que pueda iniciar sesión en cualquier otro dispositivo siempre que también haya iniciado sesión en ese servicio en la nube.
+      </li>
+      <li>
+        Si configuró el desbloqueo facial o táctil en otro dispositivo, pero no ve el desbloqueo facial o táctil al iniciar sesión en Login.gov, su dispositivo actual no admite el desbloqueo facial o táctil. Trate de usar el mismo dispositivo y navegador que utilizó para configurarlo.
+      </li>
+    </ul>
+    <p>
+      Le recomendamos que configure otros métodos de autenticación en caso de que pierda el acceso a un dispositivo compatible con el desbloqueo facial o táctil.
+    </p>
+  </div>
+</div>
 
 ## Otros artículos
 
