@@ -107,14 +107,35 @@ redirect_from:
   </div>
 </div>
 
-## Face or touch unlock isn’t working
-
-If your device and browser supports cloud sync, you can use face or touch unlock on multiple devices. Otherwise, face or touch unlock only works on the same device and browser where you set it up.
-* If you set up face or touch unlock on a device that doesn’t support cloud sync, try using the same device and browser to unlock your account. If you no longer have access to them, you will need to use another authentication method.
-* If you set up face or touch unlock on a device that was signed into a cloud service such as iCloud or your Google Account, you may be able to sign in on any other device as long as it’s also signed into that cloud service.
-* If you set up face or touch unlock on another device, but don’t see face or touch unlock when signing into Login.gov, your current device does not support face or touch unlock. Try using the same device and browser you used to set it up.
-
-We recommend you set up additional authentication methods in case you lose access to a device that supports face or touch unlock.
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="true"
+      aria-controls="b-a5"
+    >
+      Face or touch unlock isn’t working
+    </button>
+  </h4>
+  <div id="b-a5" class="usa-accordion__content usa-prose">
+    <p>If your device and browser supports cloud sync, you can use face or touch unlock on multiple devices. Otherwise, face or touch unlock only works on the same device and browser where you set it up.</p>
+    <ul>
+      <li>
+        If you set up face or touch unlock on a device that doesn’t support cloud sync, try using the same device and browser to unlock your account. If you no longer have access to them, you will need to use another authentication method.
+      </li>
+      <li>
+        If you set up face or touch unlock on a device that was signed into a cloud service such as iCloud or your Google Account, you may be able to sign in on any other device as long as it’s also signed into that cloud service.
+      </li>
+      <li>
+        If you set up face or touch unlock on another device, but don’t see face or touch unlock when signing into Login.gov, your current device does not support face or touch unlock. Try using the same device and browser you used to set it up.
+      </li>
+    </ul>
+    <p>
+      We recommend you set up additional authentication methods in case you lose access to a device that supports face or touch unlock.
+    </p>
+  </div>
+</div>
 
 ## Related articles
 
