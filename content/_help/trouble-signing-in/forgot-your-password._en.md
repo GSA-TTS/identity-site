@@ -58,6 +58,7 @@ When you reset your password, you’ll need your personal key to access your inf
       <li>Once you have reset your password, sign in using your new password.</li>
       <li>You will see a message on your account page alerting you that your account was recently deactivated due to a password reset.</li>
       <li>Select “Reactivate your profile now.”</li>
+      <li>Select “I have my key.”</li>
       <li>Enter your most recent personal key. If you’ve reset your password in the past, you may have a new personal key.</li>
       <li>Re-enter your password.</li>
       <li>Be sure to save your new personal key after you reset your password.</li>
