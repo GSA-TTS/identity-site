@@ -254,9 +254,14 @@ help_page:
       image: /assets/img/help/verify-your-id.svg
       title: Verifique su identidad
       url: /es/help/verify-your-identity/overview/
+    - description: Sepa cómo protegerse y proteger su cuenta de Login.gov contra el fraude.
+      image: /assets/img/help/fraud-concerns.svg
+      title: Preocupaciones de fraude
+      url: /es/help/fraud-concerns/overview/
   p_1: Explorar temas comunes
   title: ¿Cómo podemos ayudarle?
 help_subpages:
+  fraud-concerns: Preocupaciones de fraude
   get-started: Empiece a utilizar Login.gov
   manage-your-account: Administre su cuenta
   specific-agencies: Ayuda con agencias específicas
