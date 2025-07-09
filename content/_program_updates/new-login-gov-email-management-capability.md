@@ -2,7 +2,7 @@
 layout: partners/program-update
 lang: en
 title: New Login.gov email management capability
-date: 2025-06-06T07:44:00.000Z
+date: 2025-07-09T11:44:00.000Z
 preview: Login.gov users can now choose which email address they share with
   partner agencies.
 ---
