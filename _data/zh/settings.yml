@@ -58,6 +58,7 @@ contact_page:
       'DOT National Registry of Certified Medical Examiners': 交通部认证的医学检验官注册簿
       'Environmental Protection Agency': 国家环境保护局
       'FDIC Resolution Request Management Portal': FDIC（联邦存款保险公司）解决方案请求管理门户
+      'Federal Aviation Administration (FAA)': 联邦航空管理局（FAA）
       'Federal Reserve Board (FRB)': 美国联邦储备委员会（FRB）
       'FEMA Disaster Assistance': FEMA （联邦紧急事务管理局）灾难救助
       'General Services Administration': 联邦总务管理局
@@ -78,6 +79,7 @@ contact_page:
       'National Credit Union Administration (NCUA)': 国家信用合作社管理局
       'National Endowment for the Humanities (NEH)': 国家人文基金会
       'National Labor Relations Board': 国家劳资关系委员会
+      'National Oceanic and Atmospheric Administration (NOAA)': 国家海洋和大气管理局（NOAA）
       'National Transportation Safety Board (NTSB)': 国家运输安全委员会
       'Office of Personnel Management': 联邦人事管理局（OPM）
       'OPM Employee Express': OPM（联邦人事管理局）Employee Express
@@ -95,6 +97,8 @@ contact_page:
       'State of California': 加利福尼亚州
       'State of Colorado': 科罗拉多州
       'State of Maryland': 马里兰州
+      'State of Utah': 犹他州
+      'State of Wyoming': 怀俄明州
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': 受信任旅客计划（Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': 美国国际开发署
       'U.S. Citizenship and Immigration Services (USCIS) - E-Verify': 美国公民及移民服务局 (USCIS) - E-Verify（电子验证）
