@@ -18,4 +18,4 @@ Users can update their email information at three key points:
 
 This feature makes it easier for users to manage what information they share with different agencies and helps agencies connect with people by using their preferred email address.
 
-![Screenshot displaying selection options for users to choose a specific email when logging into an agency application. ](/assets/img/screenshot-2025-06-05-at-11.48.38 am.png "Email management screenshot")
+![Screenshot displaying selection options for users to choose a specific email when logging into an agency application.](/assets/img/screenshot-2025-06-05-at-11.48.38 am.png "Email management screenshot")
