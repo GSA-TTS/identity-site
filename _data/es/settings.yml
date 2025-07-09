@@ -61,6 +61,7 @@ contact_page:
       'DOT National Registry of Certified Medical Examiners': Registro Nacional de Médicos Forenses Certificados del DOT
       'Environmental Protection Agency': Agencia de Protección Ambiental
       'FDIC Resolution Request Management Portal': Portal de gestión de solicitudes de resolución de FDIC
+      'Federal Aviation Administration (FAA)': Administración Federal de Aviación (FAA)
       'Federal Reserve Board (FRB)': Junta de la Reserva Federal (FRB)
       'FEMA Disaster Assistance': Asistencia por catástrofe de FEMA
       'General Services Administration': Administración General de Servicios
@@ -81,6 +82,7 @@ contact_page:
       'National Credit Union Administration (NCUA)': Administración Nacional de Cooperativas de Crédito (NCUA)
       'National Endowment for the Humanities (NEH)': Fondo Nacional para las Humanidades (NEH)
       'National Labor Relations Board': Junta Nacional de Relaciones del Trabajo
+      'National Oceanic and Atmospheric Administration (NOAA)': Oficina Nacional de Administración Oceánica y Atmosférica (NOAA)
       'National Transportation Safety Board (NTSB)': Junta Nacional de Seguridad del Transporte (NTSB)
       'Office of Personnel Management': Oficina de Administración del Personal (OPM)
       'OPM Employee Express': Employee Express de OPM
@@ -94,10 +96,12 @@ contact_page:
       'SBA': SBA
       'Securities and Exchange Commission': Comisión de Bolsa y Valores
       'Social Security Administration (SSA)': Administración del Seguro Social (SSA)
-      'State of Arkansas': estado de Arkansas
-      'State of California': estado de California
-      'State of Colorado': estado de Colorado
+      'State of Arkansas': Estado de Arkansas
+      'State of California': Estado de California
+      'State of Colorado': Estado de Colorado
       'State of Maryland': Estado de Maryland
+      'State of Utah': Estado de Utah
+      'State of Wyoming': Estado de Wyoming
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programas para viajeros de confianza (Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': Agencia de Estados Unidos para el Desarrollo Internacional
       'U.S. Citizenship and Immigration Services (USCIS) - E-Verify':
