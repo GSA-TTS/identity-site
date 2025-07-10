@@ -64,6 +64,7 @@ contact_page:
       'DOT National Registry of Certified Medical Examiners': Registre national des médecins légistes agréés du DOT
       'Environmental Protection Agency': Agence de protection de l’environnement
       'FDIC Resolution Request Management Portal': Portail de gestion des demandes de résolution de la FDIC
+      'Federal Aviation Administration (FAA)': Agence fédérale de l’aviation (FAA)
       'Federal Reserve Board (FRB)': Conseil des gouverneurs de la Réserve fédérale (FRB)
       'FEMA Disaster Assistance': Aide de la FEMA en cas de catastrophe
       'General Services Administration': Administration des services généraux
@@ -84,6 +85,7 @@ contact_page:
       'National Credit Union Administration (NCUA)': Administration nationale des coopératives de crédit (NCUA)
       'National Endowment for the Humanities (NEH)': Fondation nationale des sciences humaines (NEH)
       'National Labor Relations Board': Conseil national des relations du travail
+      'National Oceanic and Atmospheric Administration (NOAA)': Administration nationale de l’atmosphère et des océans (NOAA)
       'National Transportation Safety Board (NTSB)': Bureau national de la sécurité des transports (NTSB)
       'Office of Personnel Management': Bureau de gestion du personnel (OPM)
       'OPM Employee Express': OPM Employee Express
@@ -101,6 +103,8 @@ contact_page:
       'State of California': État de la Californie
       'State of Colorado': État du Colorado
       'State of Maryland': État du Maryland
+      'State of Utah': État de l’Utah
+      'State of Wyoming': État du Wyoming
       'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programmes pour voyageurs dignes de confiance (Global Entry/Nexus/Sentri)
       'U.S. Agency for International Development': Agence des États-Unis pour le développement international
       'U.S. Citizenship and Immigration Services (USCIS) - E-Verify':
