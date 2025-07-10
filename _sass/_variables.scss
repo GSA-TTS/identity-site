@@ -18,7 +18,7 @@ $space-1: 0.5rem !default;
 
 $bold-font-weight: bold;
 
-$container-size: 'desktop-lg';
+$container-size: 'widescreen';
 $max-width: units($container-size);
 $max-width-sm: 368px; // used in footer .questions_addl_info
 $max-width-custom: ($max-width - 7); // 1168px
