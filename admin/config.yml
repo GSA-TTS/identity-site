@@ -65,6 +65,7 @@ collections:
               { label: 'Trouble signing in?', value: 'trouble-signing-in' },
               { label: 'Verify your identity', value: 'verify-your-identity' },
               { label: 'Help with specific agencies', value: 'specific-agencies' },
+              { label: 'Fraud concerns', value: 'fraud-concerns'},
             ],
           default: 'get-started',
           i18n: duplicate,
