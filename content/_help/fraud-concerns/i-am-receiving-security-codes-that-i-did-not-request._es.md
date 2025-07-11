@@ -19,3 +19,5 @@ Para verificar que su cuenta esté segura, recomendamos que inicie sesión en su
 Si sigue recibiendo esos códigos o sospecha que se trata de un problema de seguridad, [contacte con nosotros](https://login.gov/es/contact/)
 
 ## **Otros artículos**
+* [Cómo cambio mi contraseña](/es/help/manage-your-account/change-your-password/)
+* [Cómo añado o cambio el método de autenticación en mi cuenta](/es/help/manage-your-account/add-or-change-your-authentication-method/)

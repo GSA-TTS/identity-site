@@ -19,4 +19,6 @@ Pour assurer la sécurité de votre compte, nous vous recommandons de vous conne
 
 Si vous continuez à recevoir ces codes et soupçonnez l’existence d’un problème de sécurité, [veuillez nous contacter](https://login.gov/fr/contact/)
 
-**Articles connexes**
+## Articles connexes**
+* [Comment modifier mon mot de passe](/fr/help/manage-your-account/change-your-password/)
+* [Comment ajouter une méthode d’authentification ou la modifier sur mon compte](/fr/help/manage-your-account/add-or-change-your-authentication-method/)

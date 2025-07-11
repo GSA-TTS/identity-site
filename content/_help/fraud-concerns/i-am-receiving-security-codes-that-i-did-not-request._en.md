@@ -20,3 +20,5 @@ To make sure your account is safe, we recommend signing in to your account at se
 If you continue to receive these codes or suspect there is a security problem, please [contact us](https://login.gov/contact/).
 
 ## Related articles
+* [How do I change my password](/help/manage-your-account/change-your-password/)
+* [How do I add or change the authentication method on my account](/help/manage-your-account/add-or-change-your-authentication-method/)

@@ -18,4 +18,6 @@ order: 1
 
 如果你继续收到这些代码或怀疑存在安全问题，请联系我们
 
-相关文章
+## 相关文章
+* [如何更改我的密码？](/zh/help/manage-your-account/change-your-password/)
+* [如何添加或更改我帐户上的身份证实方法](/zh/help/manage-your-account/add-or-change-your-authentication-method/)
