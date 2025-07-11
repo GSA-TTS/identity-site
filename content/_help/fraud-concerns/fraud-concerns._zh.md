@@ -28,7 +28,7 @@ Login.gov 无法调查涉及其他机构或服务部门的欺诈举报。但是�
 
 ### 欺诈举报联邦资源
    * **身份盗窃**
-      * **网站：** [网站](http://identitytheft.gov)
+      * **网站：** [网站](https://identitytheft.gov)
       * **电话：** 1-877-438-4338 (FTC)
    * **网络犯罪**
       * [**互联网犯罪投诉中心 (IC3)**](https://www.ic3.gov/)
@@ -37,7 +37,7 @@ Login.gov 无法调查涉及其他机构或服务部门的欺诈举报。但是�
       * [美国卫生与公众服务部监察长办公室 (OIG) 反欺诈热线](https://oig.hhs.gov/fraud/report-fraud/)
       * **电话：** 1-800-HHS-TIPS (1-800-447-8477)
    * **其他严重身份犯罪**
-      * [美国特勤局分局](https://www.secretservice.gov/contact/field-offices/)
+      * [美国特勤局分局](https://secretservice.gov/contact/field-offices)
 
 ## 相关文章
 * [从各机构获得帮助](/zh/help/specific-agencies/overview/)
