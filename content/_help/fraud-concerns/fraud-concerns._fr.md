@@ -20,7 +20,7 @@ Si un appareil ou une connexion que vous ne reconnaissez pas s’affiche, nous v
    * **De vérifier vos méthodes d’authentification** pour veiller à ce qu’elles soient à jour et sécurisées.
 
 ### Protéger votre compte
-Notre priorité est votre sécurité. Login.gov a recours à des méthodes de détection de la fraude et d’authentification sécurisées pour protéger votre compte. Il nous est important de protéger votre compte. Pour en savoir plus sur (notre engagement à protéger les informations vous concernant)[https://login.gov/fr/policy/].
+Notre priorité est votre sécurité. Login.gov a recours à des méthodes de détection de la fraude et d’authentification sécurisées pour protéger votre compte. Il nous est important de protéger votre compte. Pour en savoir plus sur [notre engagement à protéger les informations vous concernant](https://login.gov/fr/policy/).
 
 ### Signaler une activité suspecte ou frauduleuse
 Login.gov ne peut enquêter sur les plaintes pour fraude impliquant d’autres organismes ou services. Toutefois, si vous pensez que vos informations personnelles ont été utilisées de manière frauduleuse, ou que quelqu’un a créé un compte à votre nom, vous devez le signaler aux autorités compétentes :
