@@ -71,7 +71,7 @@ Su código de barras no funcionará en la oficina de correos si venció el plazo
 
 ## Otros artículos
 
-* [4.1 Problemas al tomar fotografías de mi identificación](#)
-* [4.3 Problemas al verificar mi información personal](#)
-* [4.4 Problemas al verificar mi número de teléfono](#)
-* [4.7 Busque una oficina de correos colaboradora](#)
+* [Problemas al tomar fotografías de mi identificación](#)
+* [Problemas al verificar mi información personal](#)
+* [Problemas al verificar mi número de teléfono](#)
+* [Busque una oficina de correos colaboradora](#)
