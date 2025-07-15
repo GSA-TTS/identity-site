@@ -22,41 +22,38 @@ reject_id_list:
 - Les pièces d’identité d’un pays autre que les États-Unis
 ---
 
-Identity verification is the process where you prove you are you — and not someone pretending to be you. After [you create your Login.gov account](/fr/create-an-account/) or sign in, you may need to verify your identity to access services at some agencies.
+La vérification d'identité est le processus qui vous permet de prouver que vous êtes bien vous-même et non une tierce personne qui se fait passer pour vous. Après avoir [créé votre compte Login.gov](/fr/create-an-account/) ou vous être connecté, il peut vous être nécessaire de confirmer votre identité auprès de certains organismes pour accéder à leurs services.
 
-## What do I need to verify my identity?
+## De quoi ai-je besoin pour confirmer mon identité ?
 
-You will need a driver’s license or state ID, a Social Security number, and a U.S. phone number or mailing address to verify your identity with Login.gov.
+Vous avez besoin d’un permis de conduire ou d’une carte d’identité d’un État, ainsi que d’un numéro de téléphone des États-Unis ou d’une adresse pour confirmer votre identité auprès de Login.gov.
 
-If you don’t have all of these requirements, contact the agency you are trying to access to find out what you can do instead.
+Si vous ne remplissez pas toutes ces conditions, prenez contact avec l’organisme auquel vous cherchez à vous connecter pour trouver une autre solution.
 
-## What ID can I use?
+## Quelle pièce d’identité puis-je utiliser ?
 
-### Login.gov accepts these ID types:
-
+### Login.gov accepte les types de pièces d’identité suivants :
 
 {% include components/icon-list.html items=page.accept_id_list size='md' icon_color='success' icon_shape='check_circle'%}
 
-### We do not accept:
-
+### Nous n’acceptons pas :
 
 {% include components/icon-list.html items=page.reject_id_list size='md' icon_color='error' icon_shape='cancel' %}
 
-## How does identity verification work?
-
+## Comment s’effectue la vérification d’identité ?
 
 {: .number-list}
 
-1. Take [photos of your ID online](#). You may also be asked to [take a photo of yourself](#) to confirm that you are the owner of your ID. If you have trouble taking photos of your ID and yourself, you may also be able to [verify your identity in person](#) at a United States Post Office near you.
-1. Enter your Social Security number and we will [verify your personal information](#) against public and proprietary records.
-1. We will [verify your phone number](#) and send a one-time code to your phone. If that doesn’t work, we may be able to [verify your address by mail](#).
-1. Re-enter your password to store your verified information in your account, and connect your information to the partner agency you are trying to access.
+1. Prenez des [photos de votre pièce d’identité en ligne](#). Il peut également vous être demandé de [vous prendre en photo](#) afin de confirmer que vous êtes le titulaire de votre pièce d’identité. Si vous rencontrez des difficultés pour prendre des photos de votre pièce d’identité ou vous prendre en photo, vous devriez pouvoir [confirmer votre identité en personne](#) dans un bureau de poste des États-Unis près de chez vous.
+1. Saisissez votre numéro de Sécurité sociale et nous vérifierons que vos [renseignements personnels](#) correspondent aux informations enregistrées sur les registres publics et privés.
+1. Nous confirmerons votre [numéro de téléphone](#) en envoyant un code à usage unique à ce numéro. Si cette méthode ne marche pas, il est possible de [vérifier votre adresse par courrier](#).
+1. Saisissez à nouveau votre mot de passe pour enregistrer les renseignements déjà vérifiés dans votre compte, puis connectez ces informations à l’organisme partenaire auquel vous tentez de vous connecter.
 
-## How does Login.gov use my information?
+## Comment Login.gov utilise-t-il mes renseignements ?
 
-Login.gov is a secure, government website that adheres to the highest standards in data protection. We ask for your consent before we share your verified information with the partner agency. [Learn more about our privacy and security measures](/fr/policy/).
+Login.gov est un site Web sécurisé de l’administration qui respecte les normes les plus strictes en matière de protection des données. Nous sollicitons votre consentement avant de partager les informations vérifiées vous concernant avec l’organisme partenaire. [En savoir plus sur nos mesures de confidentialité et de sécurité](/fr/policy/).
 
-## Related articles
+## Articles connexes
 
 * [Issues taking photos of my ID](#)
 * [Issues verifying my personal information](#)
