@@ -1,5 +1,5 @@
 ---
-title: Problemas al verificar mi información personal
+title: Issues verifying my personal information
 category: verify-your-identity
 permalink: /help/verify-your-identity/issues-verifying-my-personal-information/
 order: 3
