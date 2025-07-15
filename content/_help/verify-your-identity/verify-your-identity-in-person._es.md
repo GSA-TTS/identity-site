@@ -1,87 +1,77 @@
 ---
-title: Verifique su identidad en persona
+title: Problemas al verificar mi identidad en persona
 category: verify-your-identity
-children:
-  - /es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
-  - /es/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 permalink: /es/help/verify-your-identity/verify-your-identity-in-person/
-order: 7
+order: 6
 ---
-Login.gov ofrece la verificación de identidad en persona por medio del Servicio Postal de los EE. UU. (USPS). La verificación de identidad en persona solo se puede hacer en algunas agencias asociadas. Es una alternativa a efectuar [la verificación de su identidad por completo en línea](/es/help/verify-your-identity/how-to-verify-your-identity/). Si no puede verificarla en línea, es posible que también tenga la opción de hacerla en persona.
 
-Debe comenzar este proceso en línea antes de acudir a la oficina de correos. Siga estos pasos para empezar. 
+Login.gov ofrece la verificación de identidad en persona por medio del Servicio Postal de los EE. UU. (USPS). La verificación de identidad en persona solo se puede hacer para algunas agencias asociadas.
 
-## Inicie este proceso en Login.gov antes de acudir a la oficina de correos&nbsp;
+## ¿Cómo verifico mi identidad en persona?
 
-Cuando empieza el proceso en [Login.gov](https://secure.login.gov/es/), tiene la opción de verificar su identidad en línea o en persona. Si desea hacerla en persona, seleccione ‘Verifique su identidad en una oficina de correos’.
+Puede optar por verificar su identidad en persona en lugar de tomar fotografías de su documento de identificación en línea, o bien, si está teniendo problema para tomar las fotos, puede cambiar a la verificación de identidad en persona.
 
-Recuerde que también puede tener la opción de hacer la verificación en persona si intenta hacerla en línea, pero no lo logra.
+Antes de acudir a la oficina de correos, necesitamos [verificar su información personal](#) y la información de su identificación. Luego [verificamos su número de teléfono](#) y le enviamos un código de un solo uso para confirmar que el teléfono es el suyo.
 
-Tenga preparada la siguiente información para ingresarla en Login.gov:
+Una vez que haya verificado su información en línea, le enviaremos por correo electrónico un código de barras y una fecha límite para ir a la oficina de correos.
 
-1. Su identificación emitida por el estado
-2. Número de Seguro Social
-3. Su número de teléfono
+Cuando vaya a la oficina de correos, lleve:
 
-Si no puede completar alguno de estos pasos, póngase en contacto con el centro de ayuda de la agencia asociada.
+- La misma identificación que usó para ingresar su información en Login.gov.
+- El código de barras que Login.gov le envió por correo electrónico. Puede imprimir el correo electrónico o mostrarlo en su dispositivo móvil.
 
-## Lleve lo siguiente a la oficina de correos
+## ¿Qué identificación puedo usar para verificar mi identidad en persona?
 
-### Una copia del código de barras enviado a su correo electrónico
+Login.gov acepta estos tipos de identificación:
 
-Una vez que haya completado los pasos en Login.gov, le enviaremos por correo electrónico un código de barras y una fecha límite para ir a la oficina de correos. Puede imprimir el correo electrónico o mostrarlo en su dispositivo móvil. Si va a la oficina de correos después de la fecha límite, su información ya no estará guardada y tendrá que iniciar de nuevo el proceso.
+- Licencia de conducir de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico).
+- Tarjeta de identificación emitida por el estado que no sea una licencia de conducir, es decir, un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no otorga privilegios para conducir.
 
-### Su licencia de conducir o tarjeta de identificación estatal
+No se aceptan:
 
-Lleve la misma identificación que usó para ingresar su información en Login.gov. Su identificación no debe estar vencida. En este momento, solo se aceptan las siguientes identificaciones emitidas por el estado: 
+- Pasaportes estadounidenses
+- Identificaciones militares
+- Identificaciones vencidas o documentos de prórroga
+- Identificaciones en papel o temporales
+- Identificaciones que no sean de los EE. UU.
 
-* Licencia de conducir de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico)
-* Tarjeta de identificación emitida por el estado que no sea una licencia de conducir
+Su identificación no debe estar vencida. Si no tiene uno de estos tipos de identificación, no puede usar Login.gov para la verificación de identidad en persona. Contacte con la agencia a la que está intentando acceder para saber lo que puede hacer en ese caso.
 
-  * Es un documento de identificación emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no otorga privilegios para conducir.
+## ¿En qué oficina de correos puedo verificar mi identidad?
 
-Actualmente no aceptamos otras formas de identificación, como pasaportes o identificaciones militares. No podrá verificar su identidad en la oficina de correos sin una identificación emitida por el estado. Estamos trabajando para añadir más formas de verificar su identidad.
+Cuando comience el proceso en Login.gov, puede seleccionar una oficina de correos colaboradora cercana a su domicilio. También puede [buscar una oficina de correos cercana](#) en el centro de ayuda de Login.gov.
 
-Mientras tanto, póngase en contacto con el centro de ayuda de la agencia asociada para saber lo que puede hacer.
+Una vez que haya recibido un código de barras en línea, podrá acudir a cualquier oficina de correos donde esté disponible la verificación de identidad en persona. La verificación de identidad en persona está disponible en los 50 estados y los siguientes territorios de los Estados Unidos: Islas Vírgenes de los EE. UU., Samoa Americana, Guam, Puerto Rico y las Islas Marianas del Norte.
 
-## Finalice el proceso en una oficina de correos participante antes de la fecha límite
+## ¿Con quién debo hablar en la oficina de correos?
 
-### La verificación de la identidad en persona está disponible en las oficinas participantes de los Estados Unidos y algunos de sus territorios*.
+Espere en la fila de la oficina de correos. El empleado escaneará su código de barras y revisará su identificación.
 
-Cuando comience el proceso en [Login.gov](https://secure.login.gov/es/), le ayudaremos a encontrar una lista de las oficinas de correos participantes más cercanas. También puede [buscar una oficina de correos cercana en nuestro centro de ayuda](/es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/).
+Diga al empleado: “Recibí un correo electrónico diciéndome que escaneara este código de barras en esta oficina de correos” o “Vengo a verificar mis datos y mi identidad”. Si el empleado no sabe qué hacer, puede pedir ayuda a un supervisor.
 
-Una vez que haya recibido un código de barras en línea, podrá acudir a cualquier oficina de correos donde esté disponible la verificación en persona.
+Después de que el empleado haya revisado sus documentos, usted habrá terminado el proceso en la oficina de correos. El empleado no recibirá sus resultados.
 
-**\* Territorios de los EE. UU. con verificación disponible:** Islas Vírgenes de los EE. UU., Samoa Americana, Guam, Puerto Rico y las Islas Marianas del Norte.
+## ¿Qué sucede después de mi visita a la oficina de correos?
 
-### Puede hablar con cualquier empleado de la oficina para verificar su identidad
+Recibirá un correo electrónico de Login.gov en las 24 horas después de su visita a la oficina de correos para informarle si se logró o no la verificación de su identidad. Busque un mensaje de [no-reply@login.gov](mailto:no-reply@login.gov) en su correo electrónico.
 
-* Espere en la fila de la oficina de correos. El empleado de la oficina escaneará su código de barras y revisará sus documentos.
+## Recibí un correo electrónico acerca de un resultado fallido después de ir a la oficina de correos
 
-    * Diga al empleado: “Recibí un correo electrónico para informarme que debo escanear este código de barras en esta oficina de correos” o “Vengo a verificar mi información y mi identidad”. 
+Puede intentar verificar su identidad de nuevo, ya sea en línea o en persona. Compruebe que está usando un tipo válido de identificación que no haya vencido.
 
-    * Si el empleado sigue sin saber qué hacer, solicite la ayuda de un supervisor. 
+## No recibí ningún correo electrónico de Login.gov después de ir a la oficina de correos
 
-* Después de que el empleado haya revisado sus documentos, usted habrá terminado el proceso en la oficina de correos. El empleado no recibirá sus resultados.
+Recibirá un correo electrónico en las 24 horas después de su visita a la oficina de correos para informarle si se logró o no la verificación de su identidad.
 
-### Le enviaremos un correo electrónico con los siguientes pasos
+Busque un mensaje de [no-reply@login.gov](mailto:no-reply@login.gov) en su correo electrónico. Si no recibe un correo electrónico en las 24 horas siguientes, contacte con el servicio de asistencia de Login.gov.
 
-En las 24 horas siguientes a su visita a la oficina de correos, recibirá un correo electrónico para informarle si se logró o no su verificación de identidad. Busque un mensaje de no-reply@login.gov en su correo electrónico.
+## Tengo problema con mi código de barras
 
-Si no se logró la verificación de su identidad, usted puede:
-
-* Intente verificar su identidad de nuevo, ya sea en línea o en persona
-* Ponerse en contacto con el centro de ayuda de la agencia asociada para obtener ayuda
-
-Si no recibe un correo electrónico de nosotros, estos son algunos pasos que puede seguir:
-
-* Busque en la carpeta de correo no deseado un mensaje de [no-reply@login.gov](mailto:no-reply@login.gov).
-* Si no recibe información de nosotros en las 24 horas después de su visita a la oficina de correos, póngase en contacto con el servicio de atención al cliente de Login.gov en [login.gov/contact](/es/contact/).
+Su código de barras no funcionará en la oficina de correos si venció el plazo (30 días después de verificar su información en línea) para acudir en persona a la oficina de correos. Tendrá que volver a iniciar el proceso de verificación de su identidad desde el principio para obtener un nuevo código de barras.
 
 ## Otros artículos
 
-[Documentos de identidad estatales aceptados](/es/help/verify-your-identity/accepted-identification-documents/)
-
-[Solucionar problemas al subir el documento de identidad emitido por el estado](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
-
-[Verifique su identidad en línea](/es/help/verify-your-identity/how-to-verify-your-identity/)
+* [4.1 Problemas al tomar fotografías de mi identificación](#)
+* [4.3 Problemas al verificar mi información personal](#)
+* [4.4 Problemas al verificar mi número de teléfono](#)
+* [4.7 Busque una oficina de correos colaboradora](#)
