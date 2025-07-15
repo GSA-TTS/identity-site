@@ -1,8 +1,7 @@
 ---
-title: Verifique su identidad
+title: ¿Cómo verifico mi identidad?
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/overview/
-meta_title: Información general
 order: 0
 redirect_from:
   - /es/help/verify-your-identity/
@@ -11,45 +10,51 @@ redirect_from:
   - /es/help/identity-verification/why-do-i-need-to-verify-my-identity/
   - /es/help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
   - /es/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
+accept_id_list:
+- Licencia de conducir de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico).
+- Tarjeta de identificación emitida por el estado que no sea una licencia de conducir, es decir, un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no otorga privilegios para conducir.
+reject_id_list:
+- Pasaportes estadounidenses
+- Identificaciones militares
+- Identificaciones vencidas o documentos de prórroga
+- Identificaciones en papel o temporales
+- Identificaciones que no sean de los EE. UU.
 ---
 
-La verificación de la identidad es el proceso en el que comprueba que se trata de usted y no de alguien que se hace pasar por usted. Necesitará [crear su cuenta de Login.gov](/es/create-an-account/) y verificar su identidad para acceder a los servicios en algunas agencias gubernamentales.
+La verificación de identidad es el proceso por el cual usted demuestra que es quien dice que es y no alguien que se hace pasar por usted. Después de [crear su cuenta de Login.gov](/es/create-an-account/) o iniciar sesión, es posible que necesite verificar su identidad para acceder a los servicios de algunas agencias.
 
-## Lo que necesitará para verificar su identidad:
+## ¿Qué necesito para verificar mi identidad?
 
-Tomar una fotografía de su [licencia de conducir o tarjeta de identificación estatal aceptada](/es/help/verify-your-identity/accepted-identification-documents/), e ingresar su información personal para verificar su identidad en línea.
+Para verificar su identidad en Login.gov, necesitará una licencia de conducir o identificación estatal, un número de Seguro Social y un número de teléfono o dirección postal en los EE. UU.
 
-Es posible que necesite tomarse [una fotografía](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself) con un teléfono para verificar su identidad en línea. Esto se hace para revisar que usted sea la persona que figura en su identificación. Si no tiene un teléfono con cámara, puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/).
+Si no tiene todos estos requisitos, contacte con la agencia a la que está intentando acceder para saber lo que puede hacer en ese caso.
 
-{%
-  include components/two-column-image-bullet-list.html
+## ¿Qué identificación puedo usar?
 
-  column1-image='/assets/img/help/create-an-account.svg'
-  column1-header='Lo que necesitará para crear una cuenta de inicio de sesión:'
-  column1-bullets='Correo electrónico|Contraseña|Método de autenticación'
-  column1-class='padding-105 border border-info-light'
+### Login.gov acepta estos tipos de identificación:
 
-  column2-image='/assets/img/help/verify-your-identity.svg'
-  column2-header='Lo que necesitará para verificar su identidad:'
-  column2-bullets='Licencia de conducir o tarjeta de identificación estatal|Número de Seguro Social|Número de teléfono o domicilio'
-  column2-footer='Algunos servicios requieren que se tome una fotografía con un teléfono para verificar su identidad en línea.'
-  column2-class='padding-105 border border-info-light bg-info-lighter'
-%}
+{% include components/icon-list.html items=page.accept_id_list size='md' icon_color='success' icon_shape='check_circle'%}
 
-## Cómo usamos su información
+### No se aceptan:
 
-Login.gov es un sitio web gubernamental seguro que cumple las normas más elevadas de protección de datos.
+{% include components/icon-list.html items=page.reject_id_list size='md' icon_color='error' icon_shape='cancel' %}
 
-Login.gov no almacena las imágenes de su identificación ni la
-fotografía de usted. Antes de divulgar su información verificada a una
-agencia asociada, le pedimos a usted su consentimiento. [Obtenga más
-información sobre nuestras medidas de privacidad y seguridad.](/es/policy/)
+## ¿Cómo funciona la verificación de identidad?
 
+{: .number-list}
 
-## Artículos relacionados
+1. Tome [fotografías de su identificación en línea](#). Es posible que también se le pida que [se tome una foto](#) para confirmar que usted es el titular de la identificación. Si tiene problemas para tomar fotos de su identificación o de usted mismo, también puede [verificar su identidad en persona](#) en una oficina del Servicio Postal de los Estados Unidos cercana.
+1. Ingrese su número de Seguro Social y [verificaremos su información personal](#) en registros públicos y privados.
+1. [Verificaremos su número de teléfono](#) y le enviaremos un código de un solo uso a su teléfono. Si eso no funciona, podemos [verificar su dirección por correo postal](#).
+1. Vuelva a ingresar su contraseña para almacenar la información verificada en su cuenta y conectar su información con la agencia asociada a la que está intentando acceder.
 
-* [Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
-* [Documentos de identificación aceptados](/es/help/verify-your-identity/accepted-identification-documents/)
-* [Cómo insertar imágenes de su licencia de conducir o identificación estatal](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
-* [Verifique su número de teléfono](/es/help/verify-your-identity/phone-number/)
-* [Verifique su domicilio a través del correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/)
+## ¿Cómo usa Login.gov mi información?
+
+Login.gov es un sitio web gubernamental seguro que cumple las máximas normas de protección de datos. Antes de divulgar su información verificada a una agencia asociada, le pedimos su consentimiento. [Obtenga más información sobre nuestras medidas de privacidad y seguridad](/es/policy/).
+
+## Otros artículos
+
+* [Problemas al tomar fotografías de mi identificación](#)
+* [Problemas al verificar mi información personal](#)
+* [Problemas al verificar mi número de teléfono](#)
+* [Problemas al verificar mi identidad en persona](#)
