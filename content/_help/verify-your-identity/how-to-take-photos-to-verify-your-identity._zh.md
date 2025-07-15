@@ -1,142 +1,143 @@
 ---
 layout: help
-title: 如何拍照来验证身份
+title: 拍摄我的 ID 照片问题
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
-order: 3
+order: 1
 redirect_from: 
   - /zh/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
   - /zh/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
-url_safari: https://www.apple.com/cn/safari/
-url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds&hl=zh-cn
-url_safari_update_doc: https://support.apple.com/zh-cn/102665
-url_safari_clear_cache_doc: https://support.apple.com/zh-cn/105082
-url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=zh-Hans
-url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&oco=1&hl=zh-Hans
 ---
 
-{% capture alert_link %}<a href="/zh/help/verify-your-identity/accepted-identification-documents/">有效驾照或州颁发的身份证件</a>{% endcapture %}
+为了验证你的身份，你需要在网上拍摄你的 ID 的照片，或[亲身携带 ID 前往](#)美国邮局。
 
-{% capture alert_content %}
-  <strong>
-    如果你没有{{ alert_link }}就不能用 Login.gov 进行身份验证。
-  </strong>
-  请联系我们合作机构的帮助中心来了解你该怎么办。
-{% endcapture %}
+## 我拍摄 ID 照片有困难
 
-{%
-  include alert.html
-  content=alert_content
-  type='error'
-  role='alert'
-%}
-
-## 概述
-
-要在网上验证身份，您必须同时完成以下操作：
- 
-* 拍一张您有效的驾驶执照或州身份卡的照片，并且
-* 输入您的个人信息
-
-您可能还需要使用手机或平板电脑拍张自己的照片，以显示您就是身份证件上的人。如果您没有带相机的手机或平板电脑，您可以[亲身去验证身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
-
-本文介绍了您如何提交图像来验证身份。
-
----
-
-## 如何拍摄您驾照或州身份卡的照片
-
-如果您使用电脑来验证身份，则可以切换到手机或平板电脑来拍摄您的身份证件。
-
-### 使用您的手机或平板电脑
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    <img alt="身份证件正面处于取景框中间而且置放在暗色背景中。" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
-  </div>
-  <div class="tablet:grid-col">
-    <img alt="身份证件背面处于取景框中间而且置放在暗色背景中。" src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
-  </div>
-</div>
-
-* 请使用高分辨率相机（如智能手机或平板电脑的相机），而不是网络摄像头。
-* 将您的身份证件放在纯色、深色背景上。
-* 在有间接光线的明亮的地方拍照。
-* 检查身份证件条形码是否有损坏或脏污。
-* 拍照时请把设备拿稳。将手臂撑在桌子上以保持身体稳定可能会有所帮助。
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='身份证件是放在白色背景中的。'
-      image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
-      bordered_image=true
-      text='避免使用白色背景。'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='身份证件是放在有纹路或图案的背景中的。'
-      image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
-      bordered_image=true
-      text='不要使用有纹理、有图案的背景。'
-    %}
-  </div>
-</div>
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='裁掉你身份证件的四边。'
-      image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
-      bordered_image=true
-      text='拍摄您的整个身份证件。'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='身份证件上有炫光和阴影。'
-      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      text='避免眩光或阴影。'
-    %}
-  </div>
-</div>
-
-## 如何拍摄自己的照片 {#how-to-take-photos-of-yourself}
-
-Login.gov的一些合作伙伴机构可能会要求您拍摄自己的面部照片以及驾照或州身份卡的照片。这是为了查看您是身份证件上的人。
+你需要一部带相机的手机或平板电脑，使用 Login.gov 的相机工具（而不是网络摄像头）拍摄你的 ID 的照片。  如果你使用的是电脑，我们会向你发送一个链接，以便你在手机或平板电脑上打开 Login.gov。拍照后，你将切换回电脑。
 
 {: .number-list}
-1. 在光线明亮的地方拍你的照片，避免眩光。
-2. 确保你整个面部 - 从下巴到头顶 - 都没有遮掩。只佩戴你在 ID 照片中也佩戴的用品，例如眼镜。取下遮盖面部的任何其他东西。
-3. 把你的面部放在指导线之内。保持中性表情，不要动。
-4. 按照说明拍照。相机工具可能会自动拍照，或者你可能需要点一个按钮。
-5. 点击勾选框或按照说明接受照片。
 
----
+1. 将你的 ID 放在纯深色背景上。
 
-## 故障排除
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image_alt_text='ID is placed on a white background.'
+      image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
+      bordered_image=true
+      text='请勿：使用白色背景'
+    %}
+  </div>
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image_alt_text='ID is placed on a textured background.'
+      image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
+      bordered_image=true
+      text="请勿：使用有纹路或图案的背景"
+    %}
+  </div>
+</div>
 
-### 确保您照片中的信息清晰
-* 确保您的姓名、地址和身份证件上的其他信息可被轻松读取。
-* 避免强光或眩光，因为这可能会妨碍身份证件扫描。
+2. 在有间接光照的明亮的地方拍照。
 
-### 考虑亲身去验证您的身份
-* 如果您身份证件上的信息不是最新的，或者您看起来与身份证件上的照片非常不同，您可能无法成功在网上验证身份。
-* [选择亲身验证身份的选项](/zh/help/verify-your-identity/verify-your-identity-in-person/)，并前往当地的美国邮局去验证您的身份。
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image_alt_text='ID has a glare and shadows cast over it.'
+      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
+      text='请勿：使用带有眩光或阴影的照片'
+    %}
+  </div>
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image_alt_text='ID edges are cropped out.'
+      image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
+      bordered_image=true
+      text='请勿：裁掉你 ID 的四边'
+    %}
+  </div>
+</div>
 
-### 检查你设备和浏览器的组合
-* iOS 手机或平板电脑应当使用[Safari浏览器。]({{ page.url_safari }})
-* Android手机或平板电脑应当使用[Google Chrome浏览器。]({{ page.url_chrome }})
+3. 拍照时请把设备拿稳。将手臂撑在桌子上以保持身体稳定可能会有所帮助。
 
-### 更新你的浏览器，或者清除缓存以及魔饼（cookie)
-* 如果你在使用Safari，可以尝试[更新浏览器]({{ page.url_safari_update_doc }})，或者[清除缓存和魔饼。]({{ page.url_safari_clear_cache_doc }})
-* 如果你在使用Google Chrome，可以尝试[更新浏览器]({{ page.url_chrome_update_doc }})，或者[清除缓存和魔饼。]({{ page.url_chrome_clear_cache_doc }})
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    {% assign image_alt_text_front = 'ID front is centered in the camera frame and placed on a dark background.' %}
+    {% assign image_front = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-front.png' %}
+    {% assign text_front = '请务必：把你的 ID 和指导线对齐' %}
 
-## Related articles
+    {% include components/image-example-base.html
+      image_alt_text=image_alt_text_front
+      image=image_front
+      bordered_image=true
+      text=text_front
+    %}
+  </div>
+  <div class="tablet:grid-col">
+    {% assign image_alt_text_back = 'ID back is centered in the camera frame and placed on a dark background.' %}
+    {% assign image_back = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-back.png' %}
+    {% assign text_back = '请务必：检查条形码是否损坏或脏污' %}
 
-* [如何验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
-* [系统接受的身份证件](/zh/help/verify-your-identity/accepted-identification-documents/)
+    {% include components/image-example-base.html
+      image_alt_text=image_alt_text_back
+      image=image_back
+      bordered_image=true
+      text=text_back
+    %}
+  </div>
+</div>
+
+## 我没有带相机的手机或平板电脑
+
+如果你没有带相机的手机或平板电脑，也许可以去附近的美国邮局亲身验证身份。
+
+## 相机工具无法使用
+
+如果 Login.gov 的相机工具不能拍摄你的 ID 照片，请检查你使用的是否是最新版本的 iOS 或安卓操作系统，以及是否是推荐使用的手机或平板电脑网络浏览器。
+
+你可能需要更新你的操作系统或网络浏览器，清除缓存或魔饼，或者授权 Login.gov 使用相机。
+
+### 如果你用的是 iOS 手机或平板电脑
+
+- 更新至最新版本的 iOS 系统
+- 使用Safari 网络浏览器
+- 如果你在使用Safari，可以尝试 更新浏览器，或者清除缓存和魔饼
+- 要赋予 Login.gov 使用相机的权限，请在 Safari 中允许使用相机
+
+### 如果你用的是安卓手机或平板电脑
+
+- 更新至最新版本的安卓系统
+- 使用Chrome网络浏览器
+- 如果你在使用Google Chrome，可以尝试更新浏览器，或者清除缓存和魔饼。
+- 如果要授权 Login.gov 使用相机，请在 Chrome上允许使用相机
+
+## 我收到出错信息，说 Login.gov 无法验证我的 ID
+
+如果你提交照片，收到一条出错信息，说我们无法验证你的 ID，请检查一下你使用的 ID 是否是可接受的类型。
+
+## 可接受的 ID 类型
+
+### Login.gov 接受以下类型的 ID ：
+
+- 美国所有50个州、哥伦比亚特区（DC）以及其他美国属地（关岛、美属维尔京岛、美属萨摩亚、马里亚纳群岛和波多黎各）的驾照
+- 州颁发的非驾照 ID 卡。这是由各州政府、哥伦比亚特区（DC）、或美国属地颁发的一种身份文件，证明你的身份但不授予驾驶特权。
+
+### 我们不接受：
+
+- 美国护照
+- 军人 ID
+- 过期的 ID 或 ID 延期文件
+- 纸质或临时 ID
+- 非美国 ID
+
+确保你 ID上的姓名、地址和其他信息可以轻松读取。避免强光、眩光或阴影，以免ID难以读取。
+
+## 相关文章
+
+* [4.0 我如何验证身份？](#)
+* [4.2 拍我本人照片问题](#)
+* [4.6 亲身验证我的身份问题](#)
