@@ -19,11 +19,28 @@ redirect_from:
   - /help/usajobs/im-trying-to-sign-in-but-it-doesnt-work/
 ---
 
-Forgot your password? Locked out of your account? We'll help you resolve account access issues.
+Forgot your password? Locked out of your account? We’ll help you resolve account access issues.
 
-## Common troubleshooting topics
+Depending on the authentication methods you’ve set up, you may still be able to access your Login.gov account. After you’re able to sign in, make sure you’ve set up more than one authentication method to avoid losing access to your account.
 
-{: .help-question-list}
-* [How to sign in to Login.gov](/help/trouble-signing-in/how-to-sign-in/)
-* [Forgot your password](/help/trouble-signing-in/forgot-your-password/)
-* [Issues with face or touch unlock](/help/trouble-signing-in/face-or-touch-unlock/)
+## How to sign in to Login.gov
+
+{: .number-list}
+
+1. Enter your email address at <https://secure.login.gov>.
+2. Enter your password.
+3. Click the “Sign in” button.
+4. Authenticate using one of the options you set up, such as:
+   * Scanning your face or fingerprint
+   * Entering a one-time code from your authentication application
+   * Using your security key
+   * Entering a one-time code that you receive by text or by phone call
+   * Entering a backup code
+   * Using your federal government employee or military ID (PIV or CAC)
+5. You will then be taken to your Login.gov account page.
+
+## Related articles
+
+* [Issues with email and password](#)
+* [I’m having trouble authenticating](#)
+* [Issue with Face and Touch unlock](#)
