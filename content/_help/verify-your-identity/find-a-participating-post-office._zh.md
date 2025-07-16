@@ -1,5 +1,6 @@
 ---
 title: 找到一个参与本项目的邮局
+category: verify-your-identity
 order: 7
 permalink: /zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/  
 idp_translations_file: /assets/idp_translations/zh.js

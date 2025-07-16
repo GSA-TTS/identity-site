@@ -1,5 +1,6 @@
 ---
 title: Trouver un bureau de poste participant
+category: verify-your-identity
 order: 7
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
 idp_translations_file: /assets/idp_translations/fr.js
