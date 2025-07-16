@@ -1,6 +1,7 @@
 ---
 title: Find a participating Post Office
 meta_title: Find a Participating Post Office
+category: verify-your-identity
 order: 7
 permalink: /help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
 idp_translations_file: /assets/idp_translations/en.js

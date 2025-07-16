@@ -1,5 +1,6 @@
 ---
 title: Encuentre una oficina de correos colaboradora
+category: verify-your-identity
 order: 7
 permalink: /es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
 idp_translations_file: /assets/idp_translations/es.js
