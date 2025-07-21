@@ -22,7 +22,7 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 
 要更改你的 SAM.gov 账户资料，需在 <https://sam.gov> 登录。
 
-需要帮助的话，请联系联邦服务台（免费拨打866-606-8220，国际拨打 334-206-7828）获得帮助，或在 [www.fsd.gov](https://www.fsd.gov/) 通过网上表格提交请求。
+需要帮助的话，请联系联邦服务台（免费拨打866-606-8220，国际拨打 334-206-7828）获得帮助，或在 <https://www.fsd.gov/> 通过网上表格提交请求。
 
 ## 设立 Login.gov 账户和访问 SAM 账户资料时请注意：:
 
@@ -32,7 +32,7 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
   * 如果你使用一个新的电邮地址，你的 SAM 账户资料不会受到影响，但你将无法访问你的 SAM 账户资料。
 * 如果你已有 Login.gov 账户而且想添加你 SAM 账户的电邮，可在 Login.gov 我的账户页面进行。在 Login.gov 主页选择登录按钮来访问我的账户页面。
 
-## Related articles
+## 相关文章
 
 * [与具体政府机构相关的帮助](/zh/help/specific-agencies/overview/)
-* [重新关联你的账户](/zh/help/manage-your-account/relink-your-accounts/)
+* [我如何把自己的帐户和合作伙伴机构重新关联？](#)
