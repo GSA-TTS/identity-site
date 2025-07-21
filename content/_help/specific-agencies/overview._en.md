@@ -1,9 +1,8 @@
 ---
 layout: help
-title: Help with specific agencies
+title: Help with agencies
 category: specific-agencies
 permalink: /help/specific-agencies/overview/
-meta_title: Help with specific agencies
 order: 0
 redirect_from:
   - /en/help/specific-agencies/
@@ -42,9 +41,8 @@ Login.gov cannot reset your password, delete your account, or change your accoun
 
 We provide some specific help content for our larger agency partners. We encourage you to contact the agency with specific questions.
 
-## Common troubleshooting topics
+## Related articles
 
-{: .help-question-list}
-* [How to sign in to Login.gov](/help/trouble-signing-in/how-to-sign-in/)
-* [Change your password](/help/manage-your-account/change-your-password/)
-* [Forgot your password](/help/trouble-signing-in/forgot-your-password/)
+* [How do I relink my account with a partner agency?](#)
+* [How do I change my password?](#)
+* [How do I change the email address shared with a partner agency](#)
