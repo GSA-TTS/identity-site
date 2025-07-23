@@ -67,7 +67,7 @@ Vous avez besoin d’un téléphone ou d’une tablette avec caméra pour prendr
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
     {% assign image_alt_text_front = 'ID front is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_front = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-front.png' %}
+    {% assign image_front = '/assets/img/help/id-dos-and-donts/id-do-front.png' %}
     {% assign text_front = 'MAIS : Placez votre pièce d’identité à l’intérieur du cadre' %}
 
     {% include components/image-example-base.html
@@ -79,7 +79,7 @@ Vous avez besoin d’un téléphone ou d’une tablette avec caméra pour prendr
   </div>
   <div class="tablet:grid-col">
     {% assign image_alt_text_back = 'ID back is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_back = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-back.png' %}
+    {% assign image_back = '/assets/img/help/id-dos-and-donts/id-do-back.png' %}
     {% assign text_back = 'MAIS : Vérifiez que le code-barres de la pièce d’identité n’est ni endommagé, ni sale' %}
 
     {% include components/image-example-base.html
