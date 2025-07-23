@@ -67,7 +67,7 @@ redirect_from:
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
     {% assign image_alt_text_front = 'ID front is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_front = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-green-front.png' %}
+    {% assign image_front = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-front.png' %}
     {% assign text_front = '请务必：把你的 ID 和指导线对齐' %}
 
     {% include components/image-example-base.html
@@ -79,7 +79,7 @@ redirect_from:
   </div>
   <div class="tablet:grid-col">
     {% assign image_alt_text_back = 'ID back is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_back = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-green-back.png' %}
+    {% assign image_back = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-back.png' %}
     {% assign text_back = '请务必：检查条形码是否损坏或脏污' %}
 
     {% include components/image-example-base.html
