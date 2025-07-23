@@ -252,7 +252,7 @@ help_page:
         d’authentification et sur davantage de caractéristiques des comptes.
       image: /assets/img/help/get-started.svg
       slug: get-started
-      title: Créer un compte
+      title: Créer mon compte
       url: /fr/help/get-started/overview/
     - description: Mot de passe oublié ? Compte verrouillé ? Nous vous aiderons à
         résoudre les problèmes d’accès. Nous vous aiderons à résoudre vos
@@ -265,19 +265,19 @@ help_page:
         passe, votre numéro de téléphone, votre adresse e-mail, etc.
       image: /assets/img/help/manage-your-account.svg
       slug: manage-your-account
-      title: Gérer un compte
+      title: Gérer mon compte
       url: /fr/help/manage-your-account/overview/
+    - description: Informez-vous sur les possibilités de vérification de votre identité.
+      image: /assets/img/help/verify-your-id.svg
+      slug: verify-your-identity
+      title: Confirmer mon identité
+      url: /fr/help/verify-your-identity/overview/
     - description: Obtenez de l’aide avec les Programmes pour voyageurs dignes de
         confiance (TTP) et SAM.gov.
       image: /assets/img/help/help-specific-agencies.svg
       slug: specific-agencies
       title: Aide avec les organismes
       url: /fr/help/specific-agencies/overview/
-    - description: Informez-vous sur les possibilités de vérification de votre identité.
-      image: /assets/img/help/verify-your-id.svg
-      slug: verify-your-identity
-      title: Confirmer mon identité
-      url: /fr/help/verify-your-identity/overview/
   p_1: Parcourir les thèmes courants
   title: Que pouvons-nous faire pour vous ?
 identifier:
