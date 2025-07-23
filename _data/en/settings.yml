@@ -229,34 +229,33 @@ help_page:
     - description: Create your account. Learn about authentication options and more
         account features.
       image: /assets/img/help/get-started.svg
-      title: Get started with Login.gov
+      slug: get-started
+      title: Create my account
       url: /help/get-started/overview/
     - description: Forgot your password? Locked out of your account? We’ll help you
         resolve access issues.
       image: /assets/img/help/trouble-signing-in.svg
-      title: Trouble signing in?
+      slug: trouble-signing-in
+      title: Trouble signing in
       url: /help/trouble-signing-in/overview/
     - description: Change your account settings including your password, phone number,
         email, and more.
       image: /assets/img/help/manage-your-account.svg
-      title: Manage your account
+      slug: manage-your-account
+      title: Manage my account
       url: /help/manage-your-account/overview/
-    - description: Get help with Trusted Traveler Programs (TTP) and SAM.gov.
-      image: /assets/img/help/help-specific-agencies.svg
-      title: Help with specific agencies
-      url: /help/specific-agencies/overview/
     - description: Learn about options for verifying your identity.
       image: /assets/img/help/verify-your-id.svg
-      title: Verify your identity
+      slug: verify-your-identity
+      title: Verify my identity
       url: /help/verify-your-identity/overview/
+    - description: Get help with Trusted Traveler Programs (TTP) and SAM.gov.
+      image: /assets/img/help/help-specific-agencies.svg
+      slug: specific-agencies
+      title: Help with agencies
+      url: /help/specific-agencies/overview/
   p_1: Browse common topics
   title: How can we help?
-help_subpages:
-  get-started: Get started with Login.gov
-  manage-your-account: Manage your account
-  specific-agencies: Help with specific agencies
-  trouble-signing-in: Trouble signing in?
-  verify-your-identity: Verify your identity
 identifier:
   accessible_labels:
     description: Agency description
