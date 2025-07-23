@@ -68,7 +68,7 @@ You need a phone or tablet with a camera to take photos of your ID using Login.g
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
     {% assign image_alt_text_front = 'ID front is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_front = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-front.png' %}
+    {% assign image_front = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-green-front.png' %}
     {% assign text_front = 'DO: Line up your ID with the guidelines' %}
 
     {% include components/image-example-base.html
@@ -80,7 +80,7 @@ You need a phone or tablet with a camera to take photos of your ID using Login.g
   </div>
   <div class="tablet:grid-col">
     {% assign image_alt_text_back = 'ID back is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_back = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-back.png' %}
+    {% assign image_back = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-green-back.png' %}
     {% assign text_back = 'DO: Check that the barcode is not damaged or dirty' %}
 
     {% include components/image-example-base.html

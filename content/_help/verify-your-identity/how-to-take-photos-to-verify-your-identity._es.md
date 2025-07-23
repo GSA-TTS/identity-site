@@ -67,7 +67,7 @@ Necesita un teléfono o una tableta con cámara para tomar las fotografías de s
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
     {% assign image_alt_text_front = 'ID front is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_front = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-front.png' %}
+    {% assign image_front = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-green-front.png' %}
     {% assign text_front = 'SÍ: Alinee su identificación con las marcas de guía' %}
 
     {% include components/image-example-base.html
@@ -79,7 +79,7 @@ Necesita un teléfono o una tableta con cámara para tomar las fotografías de s
   </div>
   <div class="tablet:grid-col">
     {% assign image_alt_text_back = 'ID back is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_back = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-back.png' %}
+    {% assign image_back = site.baseurl | append: '/assets/img/help/id-dos-and-donts/id-do-green-back.png' %}
     {% assign text_back = 'SÍ: Revise que el código de barras no esté dañado ni sucio' %}
 
     {% include components/image-example-base.html
