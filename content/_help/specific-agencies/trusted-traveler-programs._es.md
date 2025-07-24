@@ -54,4 +54,4 @@ Si inicia sesión directamente en la página principal de Login.gov, solo verá 
 ## Otros artículos
 
 * [Ayuda con agencias](/es/help/specific-agencies/overview/)
-* [¿Cómo vuelvo a vincular mi cuenta a una agencia asociada?](#)
+* [¿Cómo vuelvo a vincular mi cuenta a una agencia asociada?](/es/help/manage-your-account/relink-your-accounts/)
