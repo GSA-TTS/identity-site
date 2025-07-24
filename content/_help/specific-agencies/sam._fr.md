@@ -47,4 +47,4 @@ Contactez le Federal Service Desk au 1-866-606-8220 (numéro payant) ou au +1 33
 ## Articles connexes
 
 * [Aide concernant des organismes spécifiques](/fr/help/specific-agencies/overview/)
-* [Comment puis-je associer à nouveau mon compte à un organisme partenaire ?](#)
+* [Comment puis-je associer à nouveau mon compte à un organisme partenaire ?](/fr/help/manage-your-account/relink-your-accounts/)
