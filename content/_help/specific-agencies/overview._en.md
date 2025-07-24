@@ -43,6 +43,6 @@ We provide some specific help content for our larger agency partners. We encoura
 
 ## Related articles
 
-* [How do I relink my account with a partner agency?](#)
-* [How do I change my password?](#)
-* [How do I change the email address shared with a partner agency](#)
+* [How do I relink my account with a partner agency?](/help/manage-your-account/relink-your-accounts/)
+* [How do I change my password?](/help/manage-your-account/change-your-password/)
+* [How do I change the email address shared with a partner agency](/help/manage-your-account/change-partner-email-address/)
