@@ -23,10 +23,10 @@ Follow these steps to create your Login.gov account.
 4. Click the **“Confirm your email address”** button in the message. This will take you back to the Login.gov website.
 5. Create your Login.gov password.
 
-   * To help prevent identity theft, consider strengthening your password by using: 
-     * Unique phrases that only you recognize 
-     * Multiple words with spaces to get to 12 characters 
-     * Numbers and special characters 
+   * To help prevent identity theft, consider strengthening your password by using:
+     * Unique phrases that only you recognize
+     * Multiple words with spaces to get to 12 characters
+     * Numbers and special characters
 
 
    * Your password must have 12 or more characters and avoid combinations such as:
@@ -56,8 +56,6 @@ Follow these steps to create your Login.gov account.
 7. Success! Once you have authenticated, you have created your Login.gov account.
 
    You will be taken to your Login.gov account page or the government agency you are trying to access. You can add additional authentication methods, email addresses or update your information on the Login.gov account page.
-
-!!! TODO: FILL IN LINKS !!!
 
 ## Related articles
 

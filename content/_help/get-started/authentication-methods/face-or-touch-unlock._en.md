@@ -93,8 +93,6 @@ After setting a device nickname, please follow the appropriate steps below, depe
   </div>
 </div>
 
-!!! TODO: FILL IN LINKS !!!
-
 ## Related articles
 * [Issues with Face and touch unlock](#)
 * [Authentication methods](#)

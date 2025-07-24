@@ -26,7 +26,6 @@ Puede volver a recibir un código de un solo uso seleccionando el botón “Reen
 
 ## Otros artículos
 
-!!! TODO: FILL IN LINKS !!!
 * [Problemas con el mensaje de texto (SMS) o la llamada telefónica](#)
 * [Métodos de autenticación](#)
 * [Problemas al crear una cuenta](#)

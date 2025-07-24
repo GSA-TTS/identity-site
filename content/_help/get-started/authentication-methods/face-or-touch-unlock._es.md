@@ -94,9 +94,8 @@ Después de configurar el alias del dispositivo, siga los pasos que se indican a
   </div>
 </div>
 
-!!! TODO: FILL IN LINKS !!!
-
 ## Otros artículos
+
 * [Problemas con el desbloqueo facial y táctil](#)
 * [Métodos de autenticación](#)
 * [Problemas al crear una cuenta](#)

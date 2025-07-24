@@ -25,7 +25,6 @@ Login.gov does not provide users with a security key, so you will need to obtain
 
 ## Related articles
 
-!!! TODO: FILL IN LINKS !!!
 * [Issues with Security Key](#)
 * [Authentication methods](#)
 * [Issues creating an account](#)

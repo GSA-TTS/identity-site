@@ -57,8 +57,6 @@ Siga estos pasos para crear su cuenta de Login.gov.
 
    Aparecerá la página de su cuenta de Login.gov o de la agencia gubernamental a la que está intentando acceder. En la página de su cuenta de Login.gov, puede agregar otros métodos de autenticación y direcciones de correo electrónico, o bien actualizar su información.
 
-!!! TODO: FILL IN LINKS !!!
-
 ## Otros artículos
 
 * [Métodos de autenticación](/es/help/get-started/authentication-methods/)

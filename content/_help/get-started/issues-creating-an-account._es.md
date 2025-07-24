@@ -46,8 +46,6 @@ Su contraseña debe tener **12 caracteres** o más. No use frases comunes ni car
 
 **Evite usar las mismas contraseñas** de sus otras cuentas, como las de su banco, correo electrónico y redes sociales. Si llegan a jaquear sus otras contraseñas, su cuenta de Login.gov puede quedar expuesta. No incluya palabras de su dirección de correo electrónico.
 
-!!! TODO: FILL IN LINKS !!!
-
 ## Otros artículos
 
 * [Métodos de autenticación](#)

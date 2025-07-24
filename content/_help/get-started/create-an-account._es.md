@@ -24,7 +24,6 @@ Login.gov requiere que todos los usuarios usen métodos de autenticación multif
 
 Si no tiene un teléfono que pueda usar para esto, seleccione uno de los demás métodos de autenticación (opciones de seguridad) disponibles. Puede usar una aplicación de autenticación, códigos de recuperación o una clave de seguridad, Los empleados del gobierno también pueden usar su tarjeta PIV o CAC.
 
-
 {: .help-question-list}
 * [Cree su cuenta de Login.gov](/es/help/get-started/create-your-account/)
 * [Cómo selecciono el método de autenticación apropiado](/es/help/get-started/authentication-methods/)

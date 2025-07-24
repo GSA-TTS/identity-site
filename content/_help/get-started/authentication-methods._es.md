@@ -53,8 +53,6 @@ Aunque puede elegir entre varias opciones de autenticación, algunos métodos de
 * [Códigos de recuperación (menos seguros)](/es/help/create-account/authentication-methods/backup-codes/)
 * [Identificación de empleado del gobierno (tarjeta PIV o CAC)](/es/help/create-account/authentication-methods/piv-cac)
 
-!!! TODO: FILL IN LINKS !!!
-
 ## Related articles
 
 * [Problemas al crear una cuenta](#)

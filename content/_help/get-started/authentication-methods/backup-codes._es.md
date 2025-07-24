@@ -15,8 +15,6 @@ Si selecciona esta opción menos segura, Login.gov generará un conjunto de diez
 
 Cuando los haya utilizado todos, se le pedirá que descargue otra lista de diez códigos. Proteja sus códigos de recuperación tanto como su contraseña.
 
-!!! TODO: FILL IN LINKS !!!
-
 ## Otros artículos
 
 * [Problemas con los códigos de recuperación](#)

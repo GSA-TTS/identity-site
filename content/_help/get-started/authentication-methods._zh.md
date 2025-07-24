@@ -30,8 +30,6 @@ order: 2
 * [备用代码（不太安全）](/zh/help/create-account/authentication-methods/backup-codes/)
 * [政府雇员 ID（PIV/CAC）](/zh/help/create-account/authentication-methods/piv-cac/)
 
-!!! TODO: FILL IN LINKS !!!
-
 ## 相关文章
 
 * [设立帐户问题](#)

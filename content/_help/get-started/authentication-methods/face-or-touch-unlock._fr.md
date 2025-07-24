@@ -93,8 +93,6 @@ Après avoir donné un surnom à votre appareil, veuillez suivre les étapes ci-
   </div>
 </div>
 
-!!! TODO: FILL IN LINKS !!!
-
 ## Articles connexes
 
 * [Problèmes avec le déverrouillage facial et tactile](#)

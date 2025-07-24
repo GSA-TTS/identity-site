@@ -15,8 +15,6 @@ If you select this less secure option, Login.gov will generate a set of ten code
 
 When the tenth code has been used you will be prompted to download a new list. Treat your recovery codes with the same level of care as you would your password.
 
-!!! TODO: FILL IN LINKS !!!
-
 ## Related articles
 * [Issues with Backup codes](#)
 * [Authentication methods](#)

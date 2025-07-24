@@ -53,8 +53,6 @@ Bien que vous ayez le choix entre plusieurs options d’authentification, certai
 * [Codes de sauvegarde (moins sécurisés)](/fr/help/create-account/authentication-methods/backup-codes/)
 * [Cartes d'employé fédéral (PIV/CAC)](/fr/help/create-account/authentication-methods/piv-cac/)
 
-!!! TODO: FILL IN LINKS !!!
-
 ## Articles connexes
 
 * [Problèmes liés à la création d'un compte](#)
