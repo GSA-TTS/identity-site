@@ -23,7 +23,7 @@ Il peut arriver que le renvoi ne fonctionne pas pour tous les e-mails.
 
 ## Je reçois un e-mail qui m’indique que j’ai déjà un compte
 
-Si vous avez reçu un avis indiquant qu'un compte Login.gov est déjà associé à votre adresse e-mail, mais ne vous souvenez pas de l'avoir créé, [réinitialisez votre mot de passe](/help/trouble-signing-in/forgot-your-password/) par l'intermédiaire de Login.gov.
+Si vous avez reçu un avis indiquant qu'un compte Login.gov est déjà associé à votre adresse e-mail, mais ne vous souvenez pas de l'avoir créé, [réinitialisez votre mot de passe](/fr/help/trouble-signing-in/forgot-your-password/) par l'intermédiaire de Login.gov.
 
 ## Login.gov refuse de m’authentifier à l’aide de mon adresse e-mail ou de mon numéro de téléphone
 
