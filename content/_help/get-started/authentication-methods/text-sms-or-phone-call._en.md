@@ -26,6 +26,6 @@ You can resend a one-time code by selecting using the “resend code” button.
 
 ## Related articles
 
-* [Issues with Text/SMS or phon call](#)
+* [Issues with Text/SMS or phone call](#)
 * [Authentication methods](#)
 * [Issues creating an account](#)
