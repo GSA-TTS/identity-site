@@ -23,7 +23,7 @@ order: 3
 
 ## 我收到一封电邮，提示我已有一个帐户。
 
-如果你收到通知，提示已有一个与你电邮地址相关的 Login.gov 帐户，但你不记得设立过该帐户，请通过 Login.gov [重置密码](/help/trouble-signing-in/forgot-your-password/)。
+如果你收到通知，提示已有一个与你电邮地址相关的 Login.gov 帐户，但你不记得设立过该帐户，请通过 Login.gov [重置密码](/zh/help/trouble-signing-in/forgot-your-password/)。
 
 ## Login.gov 身份证实不接受我的电邮地址或电话号码。
 
