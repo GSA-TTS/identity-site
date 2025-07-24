@@ -41,6 +41,6 @@ Proporcionamos contenido específico de ayuda para nuestras agencias asociadas m
 
 ## Otros artículos
 
-* [¿Cómo vuelvo a vincular mi cuenta a una agencia asociada?](#)
+* [¿Cómo vuelvo a vincular mi cuenta a una agencia asociada?](/es/help/manage-your-account/relink-your-accounts/)
 * [¿Cómo cambio mi contraseña?](/es/help/manage-your-account/change-your-password/)
-* [¿Cómo cambio la dirección de correo electrónico que proporcioné a una agencia asociada?](#)
+* [¿Cómo cambio la dirección de correo electrónico que proporcioné a una agencia asociada?](/es/help/manage-your-account/change-partner-email-address/)
