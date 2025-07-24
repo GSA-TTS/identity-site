@@ -33,7 +33,7 @@ redirect_from:
       Si tiene acceso a sus métodos de autenticación, siga estos pasos para eliminar su cuenta:
     </button>
   </h4>
-  <div id="b-a3" class="usa-accordion__content usa-prose">
+  <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
       <li>Ingrese su dirección de correo electrónico en <https://secure.login.gov/es>.</li>
       <li>Ingrese su contraseña.</li>
@@ -57,7 +57,7 @@ redirect_from:
       Si NO tiene acceso a sus métodos de autenticación, siga estos pasos para eliminar la cuenta:
     </button>
   </h4>
-  <div id="b-a3" class="usa-accordion__content usa-prose">
+  <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>Por motivos de seguridad, Login.gov requiere un proceso de dos pasos y un período de espera de 24 horas si perdió el acceso a sus métodos de autenticación y necesita eliminar su cuenta.</p>
     <ol class="number-list">
       <li>Vaya a la página de inicio de sesión de su aplicación del gobierno o a <https://secure.login.gov/es>.</li>

@@ -27,7 +27,7 @@ order: 6
       如果你能使用自己的身份证实方法，请按照以下步骤删除你的账户：
     </button>
   </h4>
-  <div id="b-a3" class="usa-accordion__content usa-prose">
+  <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
       <li>在 <https://secure.login.gov/zh> 输入你的电邮地址。</li>
       <li>输入你的密码。</li>
@@ -51,7 +51,7 @@ order: 6
       如果你不能使用自己的身份证实方法，请按照以下步骤删除你的账户：
     </button>
   </h4>
-  <div id="b-a3" class="usa-accordion__content usa-prose">
+  <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>如果你丢失了身份证实方法，需要删除账户，作为保安措施，Login.gov 要求你走一个有两个步骤的流程并等待 24 小时。</p>
     <ol class="number-list">
       <li>到你政府机构应用程序的登录页面或者 <https://secure.login.gov/zh></li>

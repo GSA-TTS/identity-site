@@ -34,7 +34,7 @@ redirect_from:
       If you do have access to your authentication methods, follow these steps to delete your account:
     </button>
   </h4>
-  <div id="b-a3" class="usa-accordion__content usa-prose">
+  <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
       <li>Enter your email address at <https://secure.login.gov>.</li>
       <li>Enter your password.</li>
@@ -58,7 +58,7 @@ redirect_from:
       Follow these steps to delete your account if you do NOT have access to your authentication methods:
     </button>
   </h4>
-  <div id="b-a3" class="usa-accordion__content usa-prose">
+  <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>As a security measure, Login.gov requires a two-step process and 24 hour waiting period if you have lost access to your authentication methods and need to delete your account.</p>
     <ol class="number-list">
       <li>Go to your government application sign in page or to <https://secure.login.gov/></li>
