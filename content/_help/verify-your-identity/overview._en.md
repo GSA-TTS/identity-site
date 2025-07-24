@@ -1,8 +1,7 @@
 ---
-title: Verify your identity
+title: How do I verify my identity?
 category: verify-your-identity
 permalink: /help/verify-your-identity/overview/
-meta_title: How do I verify my identity?
 order: 0
 redirect_from:
 - /help/verify-your-identity/
