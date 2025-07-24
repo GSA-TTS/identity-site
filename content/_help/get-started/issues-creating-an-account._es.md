@@ -22,7 +22,7 @@ El reenvío de correo electrónico no funciona a veces para todos los mensajes.
 
 ## Recibo un correo electrónico que indica que ya tengo una cuenta
 
-Si recibe un aviso de que ya hay una cuenta de Login.gov asociada con su dirección de correo electrónico, pero usted no recuerda haberla creado, [restablezca su contraseña](/help/trouble-signing-in/forgot-your-password/) por medio de Login.gov.
+Si recibe un aviso de que ya hay una cuenta de Login.gov asociada con su dirección de correo electrónico, pero usted no recuerda haberla creado, [restablezca su contraseña](/es/help/trouble-signing-in/forgot-your-password/) por medio de Login.gov.
 
 ## Login.gov no está aceptando mi dirección de correo electrónico ni mi número de teléfono para la autenticación
 
