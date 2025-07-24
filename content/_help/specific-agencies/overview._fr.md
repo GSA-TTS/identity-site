@@ -41,6 +41,6 @@ Nous fournissons un contenu d'aide spécifique pour nos organismes partenaires l
 
 ## Articles connexes
 
-* [Comment puis-je associer à nouveau mon compte à un organisme partenaire ?](#)
-* [Comment puis-je changer mon mot de passe ?](#)
-* [Comment puis-je modifier l’adresse e-mail communiquée à un organisme partenaire ?](#)
+* [Comment puis-je associer à nouveau mon compte à un organisme partenaire ?](/fr/help/manage-your-account/relink-your-accounts/)
+* [Comment puis-je changer mon mot de passe ?](/fr/help/manage-your-account/change-your-password/)
+* [Comment puis-je modifier l’adresse e-mail communiquée à un organisme partenaire ?](/fr/help/manage-your-account/change-partner-email-address/)
