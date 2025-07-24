@@ -47,4 +47,4 @@ Contacte con el Servicio Federal de Atención al Cliente al 866-606-8220 (llamad
 ## Otros artículos
 
 * [Ayuda con agencias específicas](/es/help/specific-agencies/overview/)
-* [¿Cómo vuelvo a vincular mi cuenta a una agencia asociada?](#)
+* [¿Cómo vuelvo a vincular mi cuenta a una agencia asociada?](/es/help/manage-your-account/relink-your-accounts/)
