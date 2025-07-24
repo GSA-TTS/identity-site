@@ -22,7 +22,7 @@ Para crear una cuenta, necesita una dirección de correo electrónico, una contr
 
 Login.gov requiere que todos los usuarios usen métodos de autenticación multifactor cuando crean una cuenta e inician sesión.
 
-Si no tiene un teléfono que pueda usar para esto, seleccione uno de los demás métodos de autenticación (opciones de seguridad) disponibles. Puede usar una aplicación de autenticación, códigos de recuperación o una clave de seguridad, Los empleados del gobierno también pueden usar su tarjeta PIV o CAC.
+Si no tiene un teléfono que pueda usar para esto, seleccione uno de los demás métodos de autenticación (opciones de seguridad) disponibles. Puede usar una aplicación de autenticación, códigos de recuperación o una clave de seguridad. Los empleados del gobierno también pueden usar su tarjeta PIV o CAC.
 
 {: .help-question-list}
 * [Cree su cuenta de Login.gov](/es/help/get-started/create-your-account/)
