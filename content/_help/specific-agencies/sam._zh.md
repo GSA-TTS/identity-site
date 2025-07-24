@@ -35,4 +35,4 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 ## 相关文章
 
 * [与具体政府机构相关的帮助](/zh/help/specific-agencies/overview/)
-* [我如何把自己的帐户和合作伙伴机构重新关联？](#)
+* [我如何把自己的帐户和合作伙伴机构重新关联？](/zh/help/manage-your-account/relink-your-accounts/)
