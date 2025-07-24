@@ -54,4 +54,4 @@ En cas de connexion directe depuis la page d'accueil de Login.gov, seules les in
 ## Articles connexes
 
 * [Aide concernant des organismes spécifiques](/fr/help/specific-agencies/overview/)
-* [Comment puis-je associer à nouveau mon compte à un organisme partenaire ?](#)
+* [Comment puis-je associer à nouveau mon compte à un organisme partenaire ?](/fr/help/manage-your-account/relink-your-accounts/)
