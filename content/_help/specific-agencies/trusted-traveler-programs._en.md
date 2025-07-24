@@ -58,4 +58,4 @@ If you sign in directly from the Login.gov homepage, you will only see your Logi
 ## Related articles
 
 * [Help with agencies?](/help/specific-agencies/overview/)
-* [How do I relink my account with a partner agency?](#)
+* [How do I relink my account with a partner agency?](/help/manage-your-account/relink-your-accounts/)
