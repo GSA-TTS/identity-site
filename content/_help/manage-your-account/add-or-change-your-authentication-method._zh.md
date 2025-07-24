@@ -29,7 +29,7 @@ order: 5
       我可以关闭第二种身份证实方法吗？
     </button>
   </h4>
-  <div id="b-a3" class="usa-accordion__content usa-prose">
+  <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Login.gov 不允许你关闭双重身份证实，但你可以在浏览器中设置“记住浏览器”功能。如果你保持浏览器窗口打开，“记住浏览器”让你无需输入安全代码即可登录。如果你关闭了浏览器窗口，则需要通过常规的双重身份证实步骤并选择“记住浏览器”来更新浏览器。</p>
 
     <ol class="number-list">

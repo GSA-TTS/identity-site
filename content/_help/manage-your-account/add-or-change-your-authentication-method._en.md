@@ -32,7 +32,7 @@ If you lost your authentication method and do not have a backup connected to you
       Can I turn off the second authentication method?
     </button>
   </h4>
-  <div id="b-a3" class="usa-accordion__content usa-prose">
+  <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Login.gov does not allow you to turn off two-factor authentication, but you can set up the “remember browser” feature on your browser. “Remember browser” allows you to sign in without entering a security code if you keep the browser window open. If you close the browser window, you will be required to renew your browser by going through the normal two-factor authentication steps and selecting “remember browser.”</p>
 
     <ol class="number-list">

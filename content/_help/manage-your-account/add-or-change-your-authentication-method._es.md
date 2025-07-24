@@ -29,7 +29,7 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
       ¿Puedo desactivar el segundo método de autenticación?
     </button>
   </h4>
-  <div id="b-a3" class="usa-accordion__content usa-prose">
+  <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Login.gov no le permite desactivar la autenticación de dos factores, pero usted puede configurar la función “Recordar navegador” en su navegador. Con la función “Recordar navegador”, puede iniciar sesión sin ingresar un código de seguridad si mantiene abierta la ventana del navegador. Si cierra la ventana del navegador, se le pedirá que renueve su navegador siguiendo los pasos habituales para la autenticación de dos factores y seleccionando “Recordar navegador”.</p>
 
     <ol class="number-list">

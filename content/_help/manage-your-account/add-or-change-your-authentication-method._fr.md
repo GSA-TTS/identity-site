@@ -29,7 +29,7 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
       Puis-je désactiver la deuxième méthode d'authentification ?
     </button>
   </h4>
-  <div id="b-a3" class="usa-accordion__content usa-prose">
+  <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Login.gov ne vous autorise pas à désactiver l'authentification à deux facteurs, mais vous pouvez configurer la fonction « Se souvenir de ce navigateur » sur votre navigateur. « Se souvenir de ce navigateur » vous permet de vous connecter sans saisir de code de sécurité si vous maintenez le fenêtre de navigation ouverte. Si vous fermez la fenêtre du navigateur, vous devrez renouveler votre navigateur en suivant les étapes normales d’authentification à deux facteurs et en sélectionnant « Se souvenir de ce navigateur ».</p>
 
     <ol class="number-list">
