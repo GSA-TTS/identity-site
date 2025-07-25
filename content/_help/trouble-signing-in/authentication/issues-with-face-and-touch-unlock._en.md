@@ -139,5 +139,5 @@ redirect_from:
 
 ## Related articles
 
-* [How do I sign in if I lost my phone or personal key?](#)
-* [How do I add or change the authentication method on my account?](#)
+* [How do I sign in if I lost my phone or personal key?](/help/trouble-signing-in/how-to-sign-in/)
+* [How do I add or change the authentication method on my account?](/help/manage-your-account/add-or-change-your-authentication-method/)
