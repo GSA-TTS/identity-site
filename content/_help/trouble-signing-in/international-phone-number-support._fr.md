@@ -32,6 +32,6 @@ Nous vous encourageons à configurer plus d'une méthode d'authentification pour
 
 ## Articles connexes
 
-* [Comment puis-je me connecter si j’ai perdu mon téléphone ou ma clé personnelle ?](#)
-* [Comment puis-je modifier le numéro de téléphone associé à mon compte ?](#)
-* [Je reçois des codes de sécurité que je n’ai pas demandés](#)
+* [Comment puis-je me connecter si j’ai perdu mon téléphone ou ma clé personnelle ?](/fr/help/trouble-signing-in/how-to-sign-in/)
+* [Comment puis-je modifier le numéro de téléphone associé à mon compte ?](/fr/help/manage-your-account/change-your-phone-number/)
+* [Je reçois des codes de sécurité que je n’ai pas demandés](/fr/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/)
