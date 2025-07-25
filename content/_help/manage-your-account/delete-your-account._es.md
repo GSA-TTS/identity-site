@@ -78,4 +78,4 @@ redirect_from:
 
 ## Otros artículos
 
-* [¿Cómo inicio sesión si perdí mi teléfono o mi clave personal?](#)
+* [¿Cómo inicio sesión si perdí mi teléfono o mi clave personal?](/es/help/trouble-signing-in/how-to-sign-in/)
