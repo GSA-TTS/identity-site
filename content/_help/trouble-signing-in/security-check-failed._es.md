@@ -10,16 +10,15 @@ Login.gov usa [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?h
 
 ## ¿Cómo accedo a mi cuenta?
 
-Para aumentar sus posibilidades de pasar la comprobación [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?hl=es){:class="usa-link--external"} pruebe lo siguiente:
+Para aumentar sus probabilidades de pasar la comprobación reCAPTCHA, intente lo siguiente:
 
-- Utilice el mismo dispositivo y navegador con el que creó su cuenta en Login.gov.
-- Intente [iniciar sesión con su identificación de empleado del gobierno](https://secure.login.gov/es/login/piv_cac) si es un empleado del gobierno.
-- Desactive cualquier VPN, bloqueador de anuncios y borre su caché.
-- Pruebe otro momento del día, un navegador diferente o actualice su navegador a la última versión.
-- Le recomendamos que instale y ejecute un software antivirus en su dispositivo por si algún malware interfiriera en las comprobaciones de seguridad de Login.gov.
-- Si nada de lo anterior le ayuda, [póngase en contacto con el servicio de asistencia de Login.gov](/es/contact/).
+- Utilice el mismo dispositivo y navegador que usó para crear su cuenta de Login.gov.
+- Intente iniciar sesión con su identificación de empleado del gobierno si usted es un funcionario público.
+- Desactive cualquier VPN, bloqueador de anuncios y borre su memoria caché.
+- Intente el acceso a otra hora del día o con un navegador diferente, o bien actualice su navegador a la versión más reciente.
+- Le recomendamos que instale y ejecute un software antivirus en su dispositivo por si algún programa malicioso estuviera interfiriendo con las comprobaciones de seguridad de Login.gov.
+- Si nada de lo anterior funciona, [contacte con el servicio de asistencia de Login.gov](/es/contact/).
 
 ## Otros artículos
 
-* [Cómo iniciar sesión en Login.gov](/es/help/trouble-signing-in/how-to-sign-in/)
-* [Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
+* [Preocupaciones de fraude](/es/help/fraud-concerns/overview/)

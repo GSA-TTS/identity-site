@@ -13,7 +13,7 @@ Login.gov uses [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?
 To increase your chances of passing [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?hl=en){:class="usa-link--external"} try the following:
 
 - Use the same device and browser you created your Login.gov account with.
-- Try [signing in with your government employee ID](https://secure.login.gov/login/piv_cac) if you are a government employee.
+- Try signing in with your government employee ID if you are a government employee.
 - Turn off any VPN, ad blockers, and clear your cache.
 - Try a different time of day, a different browser or update your browser to the latest version.
 - We recommend installing and running antivirus software on your device in case malware is interfering with Login.gov’s security checks.
@@ -21,5 +21,4 @@ To increase your chances of passing [reCAPTCHA](https://cloud.google.com/securit
 
 ## Related articles
 
-* [How to sign in to Login.gov](/help/trouble-signing-in/how-to-sign-in/)
-* [Forgot your password](/help/trouble-signing-in/forgot-your-password/)
+* [Fraud concerns](/help/fraud-concerns/overview/)

@@ -1,58 +1,37 @@
 ---
 layout: help
-title: 身份证实方法问题
+title: 我无法进行身份证实
 category: trouble-signing-in
+children:
+  - /zh/help/trouble-signing-in/authentication/issues-with-authentication-application/
+  - /zh/help/trouble-signing-in/authentication/issues-with-backup-codes/
+  - /zh/help/trouble-signing-in/authentication/face-and-touch-unlock/
+  - /zh/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/
+  - /zh/help/trouble-signing-in/authentication/issues-with-security-key/
+  - /zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/
 permalink: /zh/help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
 ---
 
-取决于你设立的身份证实方法，你也许仍然能够访问你的 Login.gov 账户。你登录后，请确保自己设立了一种以上的身份证实方法以防无法访问账户。
+## 忘记或丢失了你的个人密钥
+
+取决于你设置的身份证实方法，你也许仍然能够访问你的 Login.gov 账户。你能够登录后，请确保自己设置了一种以上的身份证实方法，以防无法访问账户。
 
 {% capture delete_account_alert_content %}
-如果你无法使用自己唯一的身份证实方法登录，就得删除账户并创建一个新账户。Login.gov 无法帮你做账户解锁或代表你登录。
+WARNING:
+如果你无法使用自己唯一的身份证实方法登录，就得删除账户并创建一个新账户。出于安全考虑，Login.gov 无法为你解锁帐户或代表你登录。
 {% endcapture %}
 {% include alert.html type="warning" class="margin-bottom-4" content=delete_account_alert_content %}
 
-## 人脸或触摸解锁不行
-
-如果你的设备和浏览器支持云同步，就可以跨设备使用人脸或触摸解锁。否则的话，人脸或触摸解锁只能在你当时做设置的同一设备和浏览器上使用。
-
-* 如果你在不支持云同步的设备上设置了人脸或触摸解锁，请尝试使用该设备和浏览器来解锁你的账户。如果你无法使用原来做设置的设备和浏览器，就得使用另外一种身份证实方法。
-* 如果你在一个登入云服务（比如iCloud）或你的谷歌账户的设备上设置了人脸或触摸解锁，你也许可以在任何其他设备上登录，只要该设备也是登入那一云服务的。
-* 如果你在另一个设备上设置了人脸或触摸解锁，但登录 Login.gov 时看不到人脸或触摸解锁，那么你目前这台设备不支持人脸或触摸解锁。试试使用你当时设置人脸或触摸解锁的那一设备和浏览器。
-
-我们推荐你设置另外一种身份证实方法，以防你无法使用支持人脸或触摸解锁的那台设备。
-
-## 我收不到短信或电话
-
-* 如果你有座机电话，请选择通过接听电话而不是短信接受一次性代码。如果你不能接听电话，会收到电话留言。
-* 如果你的是手机，请确保关掉飞行模式。
-* 你的代码不见得会马上到达。最多等 10 分钟，或者试试“重发代码”按钮来再次要求发送代码。
-* 请确保你用的电话没有分机，因为Login.gov 不能给分机发送一次性代码。
-
-{% capture newest_otp_alert_content %}
-只有你收到的最新代码才能奏效。如果你同时要求并接收到了多条信息，则可能需要尝试收到的每个代码来找到那个可以奏效。
-{% endcapture %}
-{% include alert.html class="margin-bottom-4" content=newest_otp_alert_content %}
-
-## 我的身份证实 app 不行
-
-* 你的设备和身份证实 app 里的时间可能没有正确同步。使用 [time.gov](https://www.time.gov/) 这样的页面来确保你设备上的时间是正确的。
-
-  * 如果你使用 Google Authenticator，则可能需要手工来同步时间。[按照Google的说明来对时间做同步](https://support.google.com/accounts/answer/185834?hl=en)
-
-## 我的备用代码不行
-
-* 确保你使用的备用代码尚未被自己用过。你把所有 10 个代码用完后，我们会给你提供一个新备用代码清单。
-
-## 我的安全密钥或电话丢失或被盗
-
-* 如果你能重新使用自己原来的电话号码，那请先这样做，然后要求一个一次性代码。你应当仍然能收到代码，即便你在用一个新的设备和 SIM 卡。
-* 如果你丢失了自己的安全密钥，则必须用一个不同的身份证实方法，或者如果没有别的身份证实方法的话，请删除你的账户，除非你已设置了备份。
-
-## 我的 PIV/CAC 卡不行
-* Login.gov 可能缺乏你卡的发放证书。[联系 Login.gov 支持来获得更多帮助。](/zh/contact/)
+{: .help-question-list}
+* [人脸或触摸解锁问题](/zh/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [身份证实应用程序问题](/zh/help/trouble-signing-in/authentication/issues-with-authentication-application/)
+* [安全密钥问题](/zh/help/trouble-signing-in/authentication/issues-with-security-key/)
+* [电话/SMS问题](/zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
+* [备用代码（安全性较低）问题](/zh/help/trouble-signing-in/authentication/issues-with-backup-codes/)
+* [政府雇员 ID  (PIV/CAC) 问题](/zh/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 
 ## 相关文章
 
-* [身份证实方法](/zh/help/get-started/authentication-methods/)
+* [如何更改与我帐户相关的电邮地址？](/zh/help/manage-your-account/change-your-email-address/)
+* [如何更改与我帐户相关的电话号码？](/zh/help/manage-your-account/change-your-phone-number/)
