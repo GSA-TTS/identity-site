@@ -64,6 +64,6 @@ Si se trata de un trámite urgente (por ejemplo, revisar el estado de una solici
 
 ## Otros artículos
 
-* [¿Cómo cambio la dirección de correo electrónico asociada con mi cuenta?](#)
-* [¿Cómo cambio mi contraseña?](#)
-* [¿Cómo cambio la dirección de correo electrónico que proporcioné a una agencia asociada?](#)
+* [¿Cómo cambio la dirección de correo electrónico asociada con mi cuenta?](/es/help/manage-your-account/change-your-email-address/)
+* [¿Cómo cambio mi contraseña?](/es/help/manage-your-account/change-your-password/)
+* [¿Cómo cambio la dirección de correo electrónico que proporcioné a una agencia asociada?](/es/help/manage-your-account/change-partner-email-address/)
