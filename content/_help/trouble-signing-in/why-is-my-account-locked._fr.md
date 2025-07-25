@@ -31,5 +31,5 @@ Il vous faudra attendre six heures avant de pouvoir tenter à nouveau de confirm
 
 ## Articles connexes
 
-* [Pourquoi mon compte est-il désactivé ?](#)
-* [Comment puis-je supprimer mon compte ?](#)
+* [Pourquoi mon compte est-il désactivé ?](/fr/help/manage-your-account/deactivated/)
+* [Comment puis-je supprimer mon compte ?](/fr/help/manage-your-account/delete-your-account/)
