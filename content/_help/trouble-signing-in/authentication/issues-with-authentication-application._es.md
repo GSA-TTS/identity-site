@@ -24,5 +24,5 @@ Login.gov no puede ayudarle a solucionar este problema. Contacte con el desarrol
 
 ## Otros artículos
 
-* [¿Cómo inicio sesión si perdí mi teléfono o mi clave personal?](#)
-* [Estoy recibiendo códigos de seguridad que no solicité](#)
+* [¿Cómo inicio sesión si perdí mi teléfono o mi clave personal?](/es/help/trouble-signing-in/how-to-sign-in/)
+* [Estoy recibiendo códigos de seguridad que no solicité](/es/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/)
