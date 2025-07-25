@@ -48,6 +48,6 @@ Su contraseña debe tener **12 caracteres** o más. No use frases comunes ni car
 
 ## Otros artículos
 
-* [Métodos de autenticación](#)
-* [Cómo creo una cuenta de Login.gov](#)
+* [Métodos de autenticación](/es/help/create-account/authentication-methods/)
+* [Cómo creo una cuenta de Login.gov](/es/help/create-account/how-do-i-create-an-account/)
 * [Problemas para iniciar sesión](#)
