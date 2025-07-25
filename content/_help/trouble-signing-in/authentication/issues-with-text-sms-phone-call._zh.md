@@ -37,5 +37,5 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone
 ## 相关文章
 
 * [如果我丢失了手机或个人密钥，如何登录](#)
-* [国际电话号码支持](#)
-* [我收到了安全码，但我没要求过安全码](#)
+* [国际电话号码支持](/zh/help/trouble-signing-in/international-phone-number-support/)
+* [我收到了安全码，但我没要求过安全码](/zh/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/)
