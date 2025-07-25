@@ -31,5 +31,5 @@ order: 5
 
 ## 相关文章
 
-* [为什么我的帐户被停用？](#)
-* [我如何删除自己的账户？](#)
+* [为什么我的帐户被停用？](/zh/help/manage-your-account/deactivated/)
+* [我如何删除自己的账户？](/zh/help/manage-your-account/delete-your-account/)
