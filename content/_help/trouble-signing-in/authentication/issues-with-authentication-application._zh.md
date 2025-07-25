@@ -24,5 +24,5 @@ Login.gov 无法帮助你解决这个问题。请联系你身份证实应用程�
 
 ## 相关文章
 
-* [如果我丢失了电话或个人密钥，如何登录账户？](#)
-* [我收到了安全码，但我没要求过安全码](#)
+* [如果我丢失了电话或个人密钥，如何登录账户？](/zh/help/trouble-signing-in/how-to-sign-in/)
+* [我收到了安全码，但我没要求过安全码](/zh/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/)
