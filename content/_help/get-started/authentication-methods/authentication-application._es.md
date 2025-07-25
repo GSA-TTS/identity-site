@@ -30,6 +30,6 @@ En adelante, cada vez que inicie sesión en Login.gov, podrá utilizar los códi
 
 ## Related articles
 
-* [Problemas con la aplicación de autenticación](#)
-* [Métodos de autenticación](#)
-* [Problemas al crear una cuenta](#)
+* [Problemas con la aplicación de autenticación](/es/help/trouble-signing-in/authentication/issues-with-authentication-application/)
+* [Métodos de autenticación](/es/help/create-account/authentication-methods/)
+* [Problemas al crear una cuenta](/es/help/create-account/issues-creating-an-account/)
