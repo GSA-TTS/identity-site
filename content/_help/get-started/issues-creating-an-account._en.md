@@ -47,6 +47,6 @@ Your password must be **12 characters** or longer. Don’t use common phrases or
 **Avoid reusing passwords** from your other accounts, such as your banks, email and social media. If your other passwords get hacked, your Login.gov account may be compromised. Don’t include words from your email address.
 
 ## Related articles
-* [Authentication methods](#)
-* [How do I create a Login.gov account](#)
-* [Trouble signing in](#)
+* [Authentication methods](/help/create-account/authentication-methods/)
+* [How do I create a Login.gov account](/help/create-account/how-do-i-create-an-account/)
+* [Trouble signing in](/help/trouble-signing-in/overview/)
