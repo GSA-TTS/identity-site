@@ -40,7 +40,7 @@ If you cannot sign in with your only authentication method, you will have to del
 {% include alert.html type="warning" class="margin-bottom-4" content=delete_account_alert_content %}
 
 {: .help-question-list}
-* [Issues with Face or touch unlock ](/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Issues with Face or touch unlock](/help/trouble-signing-in/authentication/face-and-touch-unlock/)
 * [Issues with Authentication application](/help/trouble-signing-in/authentication/issues-with-authentication-application/)
 * [Issues with Security key](/help/trouble-signing-in/authentication/issues-with-security-key/)
 * [Issues with Phone/SMS](/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
