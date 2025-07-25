@@ -36,5 +36,5 @@ If you want to make changes to your current PIV/CAC card as an authentication me
 
 ## Related articles
 
-* [Trouble signing in](#)
-* [How do I add or change the authentication method on my account?](#)
+* [Trouble signing in](/help/trouble-signing-in/overview/)
+* [How do I add or change the authentication method on my account?](/help/manage-your-account/add-or-change-your-authentication-method/)
