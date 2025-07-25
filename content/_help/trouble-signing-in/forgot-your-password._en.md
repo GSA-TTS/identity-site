@@ -74,6 +74,6 @@ For urgent matters — for example, to check the status of an in-progress applic
 
 ## Related articles
 
-* [How do I change the email address associated with my account?](#)
-* [How do I change my password?](#)
-* [How do I change the email address shared with a partner agency?](#)
+* [How do I change the email address associated with my account?](/help/manage-your-account/change-your-email-address/)
+* [How do I change my password?](/help/manage-your-account/change-your-password/)
+* [How do I change the email address shared with a partner agency?](/help/manage-your-account/change-partner-email-address/)
