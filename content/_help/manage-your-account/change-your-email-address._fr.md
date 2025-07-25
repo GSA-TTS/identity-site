@@ -40,5 +40,5 @@ Comment [modifier l’adresse e-mail communiquée aux organismes partenaires](#)
 
 ## Articles connexes
 
-* [Comment puis-je associer à nouveau mon compte à un organisme partenaire ?](#)
-* [Comment puis-je modifier l’adresse e-mail communiquée à un organisme partenaire ?](#)
+* [Comment puis-je associer à nouveau mon compte à un organisme partenaire ?](/fr/help/manage-your-account/relink-your-accounts/)
+* [Comment puis-je modifier l’adresse e-mail communiquée à un organisme partenaire ?](/fr/help/manage-your-account/change-partner-email-address/)
