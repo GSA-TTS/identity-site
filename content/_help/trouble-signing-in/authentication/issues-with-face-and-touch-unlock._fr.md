@@ -137,5 +137,5 @@ redirect_from:
 
 ## Articles connexes
 
-* [Comment puis-je me connecter si j’ai perdu mon téléphone ou ma clé personnelle ?](#)
-* [Comment puis-je ajouter une méthode d’authentification ou la modifier sur mon compte ?](#)
+* [Comment puis-je me connecter si j’ai perdu mon téléphone ou ma clé personnelle ?](/fr/help/trouble-signing-in/how-to-sign-in/)
+* [Comment puis-je ajouter une méthode d’authentification ou la modifier sur mon compte ?](/fr/help/manage-your-account/add-or-change-your-authentication-method/)
