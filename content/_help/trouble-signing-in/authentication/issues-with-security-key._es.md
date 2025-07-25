@@ -30,4 +30,4 @@ Solo puede registrar la misma clave de seguridad una vez para su cuenta. Añada 
 ## Otros artículos
 
 * [¿Cómo selecciono el método de autenticación apropiado?](#)
-* [¿Cómo añado o cambio el método de autenticación en mi cuenta?](#)
+* [¿Cómo añado o cambio el método de autenticación en mi cuenta?](/es/help/manage-your-account/add-or-change-your-authentication-method/)
