@@ -17,6 +17,6 @@ Lorsque le dixième code aura été utilisé, vous serez invité à télécharge
 
 ## Articles connexes
 
-* [Problèmes avec les codes de sauvegarde](#)
-* [Méthodes d’authentification](#)
-* [Problèmes liés à la création d'un compte](#)
+* [Problèmes avec les codes de sauvegarde](/fr/help/trouble-signing-in/authentication/issues-with-backup-codes/)
+* [Méthodes d’authentification](/fr/help/create-account/authentication-methods/)
+* [Problèmes liés à la création d'un compte](/fr/help/create-account/issues-creating-an-account/)
