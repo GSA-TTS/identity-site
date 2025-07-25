@@ -1,5 +1,5 @@
 ---
-title: ¿Tiene problema para iniciar sesión? 
+title: ¿Tiene problema para iniciar sesión?
 category: trouble-signing-in
 permalink: /es/help/trouble-signing-in/overview/
 meta_title: ¿Tiene problema para iniciar sesión? 
