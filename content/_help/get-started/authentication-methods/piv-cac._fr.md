@@ -34,5 +34,5 @@ Les cartes physiques PIV (personal identity verification, vérification d'identi
 ## Articles connexes
 
 * [Problèmes avec la carte d'employé fédéral](#)
-* [Méthodes d’authentification](#)
-* [Problèmes liés à la création d'un compte](#)
+* [Méthodes d’authentification](/fr/help/create-account/authentication-methods/)
+* [Problèmes liés à la création d'un compte](/fr/help/create-account/issues-creating-an-account/)
