@@ -30,5 +30,5 @@ order: 0
 ## 相关文章
 
 * [邮箱和密码问题](#)
-* [我无法进行身份证实](#)
-* [人脸或触摸解锁问题](#)
+* [我无法进行身份证实](/zh/help/trouble-signing-in/issues-with-authentication-methods/)
+* [人脸或触摸解锁问题](/zh/help/trouble-signing-in/authentication/face-and-touch-unlock/)
