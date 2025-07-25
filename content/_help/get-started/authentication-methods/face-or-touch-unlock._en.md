@@ -94,6 +94,6 @@ After setting a device nickname, please follow the appropriate steps below, depe
 </div>
 
 ## Related articles
-* [Issues with Face and touch unlock](#)
-* [Authentication methods](#)
-* [Issues creating an account](#)
+* [Issues with Face and touch unlock](/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Authentication methods](/help/create-account/authentication-methods/)
+* [Issues creating an account](/help/create-account/issues-creating-an-account/)
