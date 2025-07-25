@@ -27,5 +27,5 @@ Vous pouvez renvoyer un code à usage unique en sélectionnant le bouton « Renv
 ## Articles connexes
 
 * [Problèmes pour recevoir le texto/SMS ou l’appel téléphonique](#)
-* [Méthodes d’authentification](#)
-* [Problèmes liés à la création d'un compte](#)
+* [Méthodes d’authentification](/fr/help/create-account/authentication-methods/)
+* [Problèmes liés à la création d'un compte](/fr/help/create-account/issues-creating-an-account/)
