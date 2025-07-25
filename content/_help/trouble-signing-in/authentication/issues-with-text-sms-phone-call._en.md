@@ -36,6 +36,6 @@ You can opt-in your phone number 30 days after the opt-out date to receive a sec
 
 ## Related articles
 
-* [How do I sign in if I lost my phone or personal key](#)
+* [How do I sign in if I lost my phone or personal key](/help/trouble-signing-in/how-to-sign-in/)
 * [Intentional phone number support](#)
 * [I’m receiving security codes I did not request](#)
