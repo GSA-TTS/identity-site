@@ -55,4 +55,4 @@ Suivez les étapes ci-dessous pour changer votre mot de passe Login.gov.
 
 ## Articles connexes
 
-* [Comment puis-je me connecter si j’ai perdu mon téléphone ou ma clé personnelle ?](#)
+* [Comment puis-je me connecter si j’ai perdu mon téléphone ou ma clé personnelle ?](/fr/help/trouble-signing-in/how-to-sign-in/)
