@@ -31,5 +31,5 @@ You'll need to wait six hours before you can try to verify your identity again.
 
 ## Related articles
 
-* [Why is my account deactivated?](#)
-* [How do I delete my account?](#)
+* [Why is my account deactivated?](/help/manage-your-account/deactivated/)
+* [How do I delete my account?](/help/manage-your-account/delete-your-account/)
