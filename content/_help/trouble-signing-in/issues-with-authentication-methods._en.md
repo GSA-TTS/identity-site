@@ -49,5 +49,5 @@ If you cannot sign in with your only authentication method, you will have to del
 
 ## Related articles
 
-* [How do I change the email address associated with my account?](#)
-* [How do I change the phone number associated with my account?](#)
+* [How do I change the email address associated with my account?](/help/manage-your-account/change-your-email-address/)
+* [How do I change the phone number associated with my account?](/help/manage-your-account/change-your-phone-number/)
