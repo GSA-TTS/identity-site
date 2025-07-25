@@ -25,5 +25,5 @@ Login.gov cannot help resolve this issue. Please contact the developer of your a
 
 ## Related articles
 
-* [How do I sign in if I lost my phone or personal key?](#)
+* [How do I sign in if I lost my phone or personal key?](/help/trouble-signing-in/how-to-sign-in/)
 * [I’m receiving security codes I did not request](#)
