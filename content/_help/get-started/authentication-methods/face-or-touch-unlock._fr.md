@@ -95,6 +95,6 @@ Après avoir donné un surnom à votre appareil, veuillez suivre les étapes ci-
 
 ## Articles connexes
 
-* [Problèmes avec le déverrouillage facial et tactile](#)
-* [Méthodes d’authentification](#)
-* [Problèmes liés à la création d'un compte](#)
+* [Problèmes avec le déverrouillage facial et tactile](/fr/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Méthodes d’authentification](/fr/help/create-account/authentication-methods/)
+* [Problèmes liés à la création d'un compte](/fr/help/create-account/issues-creating-an-account/)
