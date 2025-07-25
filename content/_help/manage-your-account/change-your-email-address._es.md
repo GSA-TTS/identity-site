@@ -40,5 +40,5 @@ Obtenga información sobre cómo [cambiar la dirección de correo electrónico p
 
 ## Otros artículos
 
-* [¿Cómo vuelvo a vincular mi cuenta a una agencia asociada?](#)
-* [¿Cómo cambio la dirección de correo electrónico que proporcioné a una agencia asociada?](#)
+* [¿Cómo vuelvo a vincular mi cuenta a una agencia asociada?](/es/help/manage-your-account/relink-your-accounts/)
+* [¿Cómo cambio la dirección de correo electrónico que proporcioné a una agencia asociada?](/es/help/manage-your-account/change-partner-email-address/)
