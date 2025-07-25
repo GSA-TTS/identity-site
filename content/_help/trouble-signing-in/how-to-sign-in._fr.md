@@ -37,6 +37,6 @@ Si vous aviez choisi l’appel téléphonique ou le SMS comme méthode d’authe
 
 ## Articles connexes
 
-* [Je n’arrive pas à m’authentifier](#)
-* [Gérer un compte](#)
-* [Comment puis-je ajouter une méthode d’authentification ou la modifier sur mon compte](#)
+* [Je n’arrive pas à m’authentifier](/fr/help/trouble-signing-in/issues-with-authentication-methods/)
+* [Gérer un compte](/fr/help/manage-your-account/overview/)
+* [Comment puis-je ajouter une méthode d’authentification ou la modifier sur mon compte](/fr/help/manage-your-account/add-or-change-your-authentication-method/)
