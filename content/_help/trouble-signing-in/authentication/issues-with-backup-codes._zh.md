@@ -23,6 +23,6 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-backup-codes/
 
 ## 相关文章
 
-* [我如何删除自己的账户](#)
-* [我无法进行身份证实](#)
+* [我如何删除自己的账户](/zh/help/manage-your-account/delete-your-account/)
+* [我无法进行身份证实](/zh/help/trouble-signing-in/issues-with-authentication-methods/)
 * [如何在我的帐户中添加或更改身份证实方法？](#)
