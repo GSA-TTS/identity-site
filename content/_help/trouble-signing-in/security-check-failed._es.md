@@ -21,4 +21,4 @@ Para aumentar sus probabilidades de pasar la comprobación reCAPTCHA, intente lo
 
 ## Otros artículos
 
-* [Preocupaciones de fraude](#)
+* [Preocupaciones de fraude](/es/help/fraud-concerns/overview/)
