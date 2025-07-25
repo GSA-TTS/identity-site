@@ -33,5 +33,5 @@ WARNING:
 
 ## 相关文章
 
-* [如何更改与我帐户相关的电邮地址？](#)
-* [如何更改与我帐户相关的电话号码？](#)
+* [如何更改与我帐户相关的电邮地址？](/zh/help/manage-your-account/change-your-email-address/)
+* [如何更改与我帐户相关的电话号码？](/zh/help/manage-your-account/change-your-phone-number/)
