@@ -41,6 +41,6 @@ If you selected phone call or text message as your authentication method, your p
 
 ## Related articles
 
-* [I’m having trouble authenticating](#)
-* [Manage account](#)
-* [How do I add or change the authentication method on my account](#)
+* [I’m having trouble authenticating](/help/trouble-signing-in/issues-with-authentication-methods/)
+* [Manage account](/help/manage-your-account/overview/)
+* [How do I add or change the authentication method on my account](/help/manage-your-account/add-or-change-your-authentication-method/)
