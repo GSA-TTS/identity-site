@@ -49,4 +49,4 @@ Si vous ne parvenez pas vous connecter avec la seule méthode d’authentificati
 ## Articles connexes
 
 * [Comment puis-je modifier l’adresse e-mail associée à mon compte ?](#)
-* [Comment puis-je modifier le numéro de téléphone associé à mon compte ?](#)
+* [Comment puis-je modifier le numéro de téléphone associé à mon compte ?](/fr/help/manage-your-account/change-your-phone-number/)
