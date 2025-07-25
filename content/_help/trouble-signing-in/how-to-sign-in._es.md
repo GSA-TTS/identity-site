@@ -37,6 +37,6 @@ Si seleccionó la llamada telefónica o el mensaje de texto como su método de a
 
 ## Otros artículos
 
-* [Tengo problemas para autenticarme](#)
-* [Administre su cuenta](#)
-* [¿Cómo añado o cambio el método de autenticación en mi cuenta?](#)
+* [Tengo problemas para autenticarme](/es/help/trouble-signing-in/issues-with-authentication-methods/)
+* [Administre su cuenta](/es/help/manage-your-account/overview/)
+* [¿Cómo añado o cambio el método de autenticación en mi cuenta?](/es/help/manage-your-account/add-or-change-your-authentication-method/)
