@@ -137,5 +137,5 @@ redirect_from:
 
 ## Otros artículos
 
-* [¿Cómo inicio sesión si perdí mi teléfono o mi clave personal?](#)
-* [¿Cómo añado o cambio el método de autenticación en mi cuenta?](#)
+* [¿Cómo inicio sesión si perdí mi teléfono o mi clave personal?](/es/help/trouble-signing-in/how-to-sign-in/)
+* [¿Cómo añado o cambio el método de autenticación en mi cuenta?](/es/help/manage-your-account/add-or-change-your-authentication-method/)
