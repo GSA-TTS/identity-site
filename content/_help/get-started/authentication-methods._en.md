@@ -56,6 +56,6 @@ Although you can choose from several authentication options, some authentication
 
 ## Related articles
 
-* [Issues creating an account](#)
-* [Manage account](#)
-* [Trouble signing in](#)
+* [Issues creating an account](/help/create-account/issues-creating-an-account/)
+* [Manage account](/help/manage-your-account/overview/)
+* [Trouble signing in](/help/trouble-signing-in/overview/)
