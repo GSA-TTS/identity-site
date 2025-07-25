@@ -54,6 +54,6 @@ order: 1
 
 ## 相关文章
 
-* [身份证实方法](#)
-* [管理帐户](#)
-* [设立帐户问题](#)
+* [身份证实方法](/zh/help/create-account/authentication-methods/)
+* [管理帐户](/zh/help/manage-your-account/overview/)
+* [设立帐户问题](/zh/help/create-account/issues-creating-an-account/)
