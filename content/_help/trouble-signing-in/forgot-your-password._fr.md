@@ -65,5 +65,5 @@ Pour les questions urgentes, par exemple, pour vérifier le statut d'une demande
 ## Articles connexes
 
 * [Comment puis-je modifier l’adresse e-mail associée à mon compte ?](#)
-* [Comment puis-je changer mon mot de passe ?](#)
-* [Comment puis-je modifier l’adresse e-mail communiquée à un organisme partenaire ?](#)
+* [Comment puis-je changer mon mot de passe ?](/fr/help/manage-your-account/change-your-password/)
+* [Comment puis-je modifier l’adresse e-mail communiquée à un organisme partenaire ?](/fr/help/manage-your-account/change-partner-email-address/)
