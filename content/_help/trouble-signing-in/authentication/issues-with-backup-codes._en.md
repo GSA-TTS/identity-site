@@ -23,6 +23,6 @@ Please visit <https://login.gov/help/manage-your-account/delete-your-account/> f
 
 ## Related articles
 
-* [How do I delete my account](#)
-* [I’m having trouble authenticating](#)
-* [How do I add or change the authentication method on my account?](#)
+* [How do I delete my account](/help/manage-your-account/delete-your-account/)
+* [I’m having trouble authenticating](/help/trouble-signing-in/issues-with-authentication-methods/)
+* [How do I add or change the authentication method on my account?](/help/manage-your-account/add-or-change-your-authentication-method/)
