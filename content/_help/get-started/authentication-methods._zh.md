@@ -32,6 +32,6 @@ order: 2
 
 ## 相关文章
 
-* [设立帐户问题](#)
-* [管理帐户](#)
+* [设立帐户问题](/zh/help/create-account/issues-creating-an-account/)
+* [管理帐户](/zh/help/manage-your-account/overview/)
 * [登录有困难](#)
