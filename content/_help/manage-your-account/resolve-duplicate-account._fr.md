@@ -24,7 +24,7 @@ account using the same verified information, you’ll need to delete the duplica
     If you [forgot your password](/fr/help/trouble-signing-in/forgot-your-password/), try resetting it from the sign in page.
 
     If you can’t authenticate into the duplicate account:
-    * Click “Choose another method” during sign-in.
+    * Click “Choose another method” when signing in.
     * Scroll to the bottom of the page and select “Delete your account”.
 
 3. ### Sign in with your remaining account
