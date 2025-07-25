@@ -33,6 +33,6 @@ Las tarjetas físicas de verificación de identidad personal (PIV) o las tarjeta
 
 ## Otros artículos
 
-* [Problemas con la identificación de empleado del gobierno](#)
-* [Métodos de autenticación](#)
-* [Problemas al crear una cuenta](#)
+* [Problemas con la identificación de empleado del gobierno](/es/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
+* [Métodos de autenticación](/es/help/create-account/authentication-methods/)
+* [Problemas al crear una cuenta](/es/help/create-account/issues-creating-an-account/)
