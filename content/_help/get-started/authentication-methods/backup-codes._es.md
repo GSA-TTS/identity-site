@@ -17,6 +17,6 @@ Cuando los haya utilizado todos, se le pedirá que descargue otra lista de diez 
 
 ## Otros artículos
 
-* [Problemas con los códigos de recuperación](#)
-* [Métodos de autenticación](#)
-* [Problemas al crear una cuenta](#)
+* [Problemas con los códigos de recuperación](/es/help/trouble-signing-in/authentication/issues-with-backup-codes/)
+* [Métodos de autenticación](/es/help/create-account/authentication-methods/)
+* [Problemas al crear una cuenta](/es/help/create-account/issues-creating-an-account/)
