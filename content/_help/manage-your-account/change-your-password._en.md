@@ -57,4 +57,4 @@ Follow these steps to change your Login.gov password.
 
 ## Related articles
 
-* [How do I sign in if I lost my phone or personal key?](#)
+* [How do I sign in if I lost my phone or personal key?](/help/trouble-signing-in/how-to-sign-in/)
