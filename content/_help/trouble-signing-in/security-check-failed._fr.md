@@ -21,4 +21,4 @@ Pour augmenter vos chances de réussir le test reCAPTCHA, essayez comme suit :
 
 ## Articles connexes
 
-* [Problèmes liés à la fraude](#)
+* [Problèmes liés à la fraude](/fr/help/fraud-concerns/overview/)
