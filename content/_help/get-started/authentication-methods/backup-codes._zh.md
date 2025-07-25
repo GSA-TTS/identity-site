@@ -17,6 +17,6 @@ order: 5
 
 ## 相关文章
 
-* [备用代码问题](#)
-* [身份证实方法](#)
-* [设立帐户问题](#)
+* [备用代码问题](/zh/help/trouble-signing-in/authentication/issues-with-backup-codes/)
+* [身份证实方法](/zh/help/create-account/authentication-methods/)
+* [设立帐户问题](/zh/help/create-account/issues-creating-an-account/)
