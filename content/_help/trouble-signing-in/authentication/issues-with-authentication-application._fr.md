@@ -24,5 +24,5 @@ Login.gov ne peut pas vous aider à résoudre ce problème. Veuillez contacter l
 
 ## Articles connexes
 
-* [Comment puis-je me connecter si j’ai perdu mon téléphone ou ma clé personnelle ?](#)
-* [Je reçois des codes de sécurité que je n’ai pas demandés](#)
+* [Comment puis-je me connecter si j’ai perdu mon téléphone ou ma clé personnelle ?](/fr/help/trouble-signing-in/how-to-sign-in/)
+* [Je reçois des codes de sécurité que je n’ai pas demandés](/fr/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/)
