@@ -23,6 +23,6 @@ En <https://login.gov/es/help/manage-your-account/delete-your-account/>, consult
 
 ## Otros artículos
 
-* [¿Cómo elimino mi cuenta?](#)
-* [Tengo problemas para autenticarme](#)
-* [¿Cómo añado o cambio el método de autenticación en mi cuenta?](#)
+* [¿Cómo elimino mi cuenta?](/es/help/manage-your-account/delete-your-account/)
+* [Tengo problemas para autenticarme](/es/help/trouble-signing-in/issues-with-authentication-methods/)
+* [¿Cómo añado o cambio el método de autenticación en mi cuenta?](/es/help/manage-your-account/add-or-change-your-authentication-method/)
