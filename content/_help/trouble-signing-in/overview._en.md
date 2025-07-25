@@ -42,5 +42,5 @@ Depending on the authentication methods you’ve set up, you may still be able t
 ## Related articles
 
 * [Issues with email and password](#)
-* [I’m having trouble authenticating](#)
+* [I’m having trouble authenticating](/help/trouble-signing-in/issues-with-authentication-methods/)
 * [Issue with Face and Touch unlock](#)
