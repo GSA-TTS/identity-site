@@ -30,4 +30,4 @@ You can only register the same security key once to your account. Add a differen
 ## Related articles
 
 * [How do I choose the right authentication method](#)
-* [How do I add or change the authentication method on my account?](#)
+* [How do I add or change the authentication method on my account?](/help/manage-your-account/add-or-change-your-authentication-method/)
