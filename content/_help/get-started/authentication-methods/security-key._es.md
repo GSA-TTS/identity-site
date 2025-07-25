@@ -25,6 +25,6 @@ Login.gov no proporciona a los usuarios una clave de seguridad, por lo que usted
 
 ## Otros artículos
 
-* [Problemas con la clave de seguridad](#)
-* [Métodos de autenticación](#)
-* [Problemas al crear una cuenta](#)
+* [Problemas con la clave de seguridad](/es/help/trouble-signing-in/authentication/issues-with-security-key/)
+* [Métodos de autenticación](/es/help/create-account/authentication-methods/)
+* [Problemas al crear una cuenta](/es/help/create-account/issues-creating-an-account/)
