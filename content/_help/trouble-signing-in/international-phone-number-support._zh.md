@@ -32,6 +32,6 @@ redirect_from:
 
 ## 相关文章
 
-* [如果我丢失了电话或个人密钥，如何登录账户？](#)
-* [如何更改与我帐户相关的电话号码？](#)
-* [我收到了安全码，但我没要求过安全码](#)
+* [如果我丢失了电话或个人密钥，如何登录账户？](/zh/help/trouble-signing-in/how-to-sign-in/)
+* [如何更改与我帐户相关的电话号码？](/zh/help/manage-your-account/change-your-phone-number/)
+* [我收到了安全码，但我没要求过安全码](/zh/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/)
