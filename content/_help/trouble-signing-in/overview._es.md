@@ -2,7 +2,7 @@
 title: ¿Tiene problema para iniciar sesión?
 category: trouble-signing-in
 permalink: /es/help/trouble-signing-in/overview/
-meta_title: ¿Tiene problema para iniciar sesión? 
+meta_title: ¿Tiene problema para iniciar sesión?
 order: 0
 redirect_from:
   - /es/help/signing-in/forgot-my-email-address/
