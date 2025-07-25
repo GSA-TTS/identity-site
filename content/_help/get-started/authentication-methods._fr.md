@@ -55,6 +55,6 @@ Bien que vous ayez le choix entre plusieurs options d’authentification, certai
 
 ## Articles connexes
 
-* [Problèmes liés à la création d'un compte](#)
-* [Gérer un compte](#)
+* [Problèmes liés à la création d'un compte](/fr/help/create-account/issues-creating-an-account/)
+* [Gérer un compte](/fr/help/manage-your-account/overview/)
 * [Difficultés pour se connecter](#)
