@@ -27,5 +27,5 @@ Puede volver a recibir un código de un solo uso seleccionando el botón “Reen
 ## Otros artículos
 
 * [Problemas con el mensaje de texto (SMS) o la llamada telefónica](#)
-* [Métodos de autenticación](#)
-* [Problemas al crear una cuenta](#)
+* [Métodos de autenticación](/es/help/create-account/authentication-methods/)
+* [Problemas al crear una cuenta](/es/help/create-account/issues-creating-an-account/)
