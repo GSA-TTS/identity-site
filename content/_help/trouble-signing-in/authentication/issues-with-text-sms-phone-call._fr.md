@@ -37,5 +37,5 @@ Vous pouvez décider de recevoir à nouveau des codes de sécurité sur votre t�
 ## Articles connexes
 
 * [Comment me connecter si j’ai perdu mon téléphone ou ma clé personnelle](#)
-* [Assistance pour les numéros de téléphone internationaux](#)
-* [Je reçois des codes de sécurité que je n’ai pas demandés](#)
+* [Assistance pour les numéros de téléphone internationaux](/fr/help/trouble-signing-in/international-phone-number-support/)
+* [Je reçois des codes de sécurité que je n’ai pas demandés](/fr/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/)
