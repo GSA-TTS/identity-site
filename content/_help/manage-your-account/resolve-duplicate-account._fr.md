@@ -6,9 +6,7 @@ permalink: /fr/help/manage-your-account/resolve-duplicate-account/
 order: 10
 ---
 Some government agencies only allow you to have one verified Login.gov account. If you have more than one Login.gov
-account using the same verified information, you’ll need to delete the duplicate account(s).
-
-## How to delete duplicate accounts
+account using the same verified information, you’ll need to delete the duplicate accounts.
 
 {: .number-list}
 1. ### Choose an account to keep
@@ -16,7 +14,7 @@ account using the same verified information, you’ll need to delete the duplica
 
     To see which agencies an account is connected to, sign in and click on the “Your connected accounts” in the left sidebar.
 
-2. ### Delete the duplicate account(s)
+2. ### Delete the duplicate accounts
     To [delete an account](/fr/help/manage-your-account/delete-your-account/):
     * Sign into the account you are going to delete.
     * Go to “Your account” and choose “Delete your account” in the left sidebar.
