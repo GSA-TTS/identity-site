@@ -65,4 +65,4 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
 ## Articles connexes
 
 * [Méthodes d’authentification](/help/get-started/authentication-methods/)
-* [Problèmes avec le déverrouillage facial et tactile](#)
+* [Problèmes avec le déverrouillage facial et tactile](/fr/help/trouble-signing-in/authentication/face-and-touch-unlock/)
