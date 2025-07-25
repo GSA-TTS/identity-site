@@ -21,4 +21,4 @@ To increase your chances of passing [reCAPTCHA](https://cloud.google.com/securit
 
 ## Related articles
 
-* [Fraud concerns](#)
+* [Fraud concerns](/help/fraud-concerns/overview/)
