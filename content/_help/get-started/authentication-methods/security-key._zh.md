@@ -25,6 +25,6 @@ Login.gov 不给用户提供安全密钥，所以要使用这一安全选项，�
 
 ## 相关文章
 
-* [安全密钥问题](#)
-* [身份证实方法](#)
-* [设立帐户问题](#)
+* [安全密钥问题](/zh/help/trouble-signing-in/authentication/issues-with-security-key/)
+* [身份证实方法](/zh/help/create-account/authentication-methods/)
+* [设立帐户问题](/zh/help/create-account/issues-creating-an-account/)
