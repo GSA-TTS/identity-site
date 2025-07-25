@@ -13,11 +13,11 @@ order: 0
 如果你忘记密码或帐户被锁住，电邮地址或电话号码过期可能会导致你无法恢复帐户。定期更新你的登录凭据，以预防未经授权的访问，并确保你收到与自己帐户相关的重要通知。
 
 {: .help-question-list}
-- [如何添加或更改我帐户上的身份证实方法？](#)
+- [如何添加或更改我帐户上的身份证实方法？](/zh/help/manage-your-account/add-or-change-your-authentication-method/)
 - [更改密码](#)
 - [更改与你帐户关联的电邮地址](#)
 
 ## 相关文章
 
 * [登录有困难](#)
-* [设立账户](#)
+* [设立账户](/zh/help/create-account/overview/)
