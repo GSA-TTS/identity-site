@@ -11,7 +11,7 @@ For example, someone may have accidentally entered your phone number instead of 
 
 If someone is trying to sign in to your account, they can't sign in without your authentication method. This means that they need the security code you received on your phone or access to one of your other enabled authentication methods.
 
-To make sure your account is safe, we recommend signing in to your account at secure.login.gov and doing the following:
+To make sure your account is safe, we recommend signing in to your account at [secure.login.gov](https://secure.login.gov) and doing the following:
 
 * Change your password
 * Make sure your authentication methods are correct, up to date, and secure

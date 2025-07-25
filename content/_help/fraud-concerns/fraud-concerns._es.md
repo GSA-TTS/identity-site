@@ -19,7 +19,7 @@ Puede revisar los inicios de sesión recientes y los dispositivos asociados con 
 Si ve algún dispositivo o inicio de sesión que no reconozca, le recomendamos encarecidamente que:
 
    * **Cambie su contraseña de inmediato**, y
-   * Frases que solo usted conozca
+   * **Frases que solo usted conozca**
    * **Revise sus métodos de autenticación** para comprobar que estén actualizados y protegidos.
 
 ### Proteja su cuenta

@@ -10,15 +10,15 @@ Par exemple, votre numéro de téléphone a pu être saisi par erreur par un tie
 
 Une personne cherchant à se connecter à votre compte ne peut pas le faire sans votre méthode d’authentification. Ainsi, le code de sécurité que vous aurez reçu sur votre téléphone, ou l’accès à l’une de vos autres méthodes d’authentification, lui sera nécessaire.
 
-Pour assurer la sécurité de votre compte, nous vous recommandons de vous connecter à votre compte sur secure.login.gov/fr et de procéder comme suit :
+Pour assurer la sécurité de votre compte, nous vous recommandons de vous connecter à votre compte sur [secure.login.gov/fr](https://secure.login.gov/fr) et de procéder comme suit :
 
 * Changez votre mot de passe
 * Vérifiez que vos méthodes d’authentification sont bonnes, à jour et sécurisées.
 * Si vous avez configuré les codes de sauvegarde comme méthode d’authentification, régénérez-les et sauvegardez-en de nouveaux.
 
 
-Si vous continuez à recevoir ces codes et soupçonnez l’existence d’un problème de sécurité, [veuillez nous contacter](https://login.gov/fr/contact/)
+Si vous continuez à recevoir ces codes et soupçonnez l’existence d’un problème de sécurité, [veuillez nous contacter](https://login.gov/fr/contact/).
 
-## Articles connexes**
+## Articles connexes
 * [Comment modifier mon mot de passe](/fr/help/manage-your-account/change-your-password/)
 * [Comment ajouter une méthode d’authentification ou la modifier sur mon compte](/fr/help/manage-your-account/add-or-change-your-authentication-method/)
