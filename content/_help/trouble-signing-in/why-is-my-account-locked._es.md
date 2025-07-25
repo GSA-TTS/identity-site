@@ -31,5 +31,5 @@ Tendrá que esperar seis horas antes de volver a intentar verificar su identidad
 
 ## Otros artículos
 
-* [¿Por qué está desactivada mi cuenta?](#)
-* [¿Cómo elimino mi cuenta?](#)
+* [¿Por qué está desactivada mi cuenta?](/es/help/manage-your-account/deactivated/)
+* [¿Cómo elimino mi cuenta?](/es/help/manage-your-account/delete-your-account/)
