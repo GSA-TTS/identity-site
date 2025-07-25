@@ -36,6 +36,6 @@ Puede volver a introducir su número de teléfono 30 días después de darse de 
 
 ## Otros artículos
 
-* [¿Cómo inicio sesión si perdí mi teléfono o mi clave personal?](#)
-* [Asistencia para números de teléfono internacionales](#)
-* [Estoy recibiendo códigos de seguridad que no solicité](#)
+* [¿Cómo inicio sesión si perdí mi teléfono o mi clave personal?](/es/help/trouble-signing-in/how-to-sign-in/)
+* [Asistencia para números de teléfono internacionales](/es/help/trouble-signing-in/international-phone-number-support/)
+* [Estoy recibiendo códigos de seguridad que no solicité](/es/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/)
