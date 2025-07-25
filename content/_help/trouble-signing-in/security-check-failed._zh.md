@@ -21,4 +21,4 @@ Login.gov 使用 [reCAPTCHA](https://cloud.google.com/security/products/recaptch
 
 ## 相关文章
 
-* [欺诈担忧](#)
+* [欺诈担忧](/zh/help/fraud-concerns/overview/)
