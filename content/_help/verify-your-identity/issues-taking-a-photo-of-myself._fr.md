@@ -26,6 +26,6 @@ Si vous recevez encore des messages d’erreur, ou si vous semblez très différ
 
 ## Articles connexes
 
-* [Comment puis-je confirmer mon identité ?](#)
-* [Problèmes pour prendre les photos de ma pièce d’identité](#)
-* [Problèmes liés à la vérification de mon identité en personne](#)
+* [Comment puis-je confirmer mon identité ?](/fr/help/verify-your-identity/overview/)
+* [Problèmes pour prendre les photos de ma pièce d’identité](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [Problèmes liés à la vérification de mon identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/)
