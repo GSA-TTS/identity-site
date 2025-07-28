@@ -50,4 +50,4 @@ Su contraseña debe tener **12 caracteres** o más. No use frases comunes ni car
 
 * [Métodos de autenticación](/es/help/create-account/authentication-methods/)
 * [Cómo creo una cuenta de Login.gov](/es/help/create-account/how-do-i-create-an-account/)
-* [Problemas para iniciar sesión](#)
+* [Problemas para iniciar sesión](/es/help/trouble-signing-in/overview/)
