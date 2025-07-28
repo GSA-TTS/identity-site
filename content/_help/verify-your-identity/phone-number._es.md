@@ -44,5 +44,5 @@ Si no tiene la opción de hacer la verificación por correo, debe verificar su n
 
 ## Otros artículos
 
-* [Problemas al verificar mi información personal](#)
-* [Problemas al verificar mi dirección por correo postal](#)
+* [Problemas al verificar mi información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Problemas al verificar mi dirección por correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/)
