@@ -32,5 +32,5 @@ Si votre adresse postale est différente de votre adresse résidentielle, saisis
 
 ## Articles connexes
 
-* [Problèmes en lien avec la vérification de mon numéro de téléphone](#)
-* [Problèmes liés à la vérification de mon adresse par courrier](#)
+* [Problèmes en lien avec la vérification de mon numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
+* [Problèmes liés à la vérification de mon adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)
