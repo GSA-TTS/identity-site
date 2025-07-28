@@ -17,4 +17,4 @@ order: 8
 ## 相关文章
 
 * [验证你的身份](/zh/help/verify-your-identity/overview/)
-* [验证身份问题](#)
+* [验证身份问题](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)
