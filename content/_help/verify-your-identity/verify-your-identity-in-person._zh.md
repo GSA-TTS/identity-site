@@ -72,7 +72,7 @@ ID 必须尚未过期。如果你以上任何一种 ID 都没有 ，则无法使
 
 ## 相关文章
 
-* [拍摄我的 ID 照片问题](#)
-* [验证我的个人信息问题](#)
-* [验证我的电话号码问题](#)
-* [找到一个参与本项目的邮局](#)
+* [拍摄我的 ID 照片问题](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [验证我的个人信息问题](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [验证我的电话号码问题](/zh/help/verify-your-identity/phone-number/)
+* [找到一个参与本项目的邮局](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
