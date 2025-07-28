@@ -39,7 +39,7 @@ Follow these steps to change the email address associated with your account.
 1. Follow the prompts to confirm that you are deleting the correct address by reentering your password and authentication method.
 1. Click the “Delete email address” button.
 
-Learn how to [change the email address shared with partner agencies](#).
+Learn how to [change the email address shared with partner agencies](/help/manage-your-account/change-partner-email-address/).
 
 ## Related articles
 
