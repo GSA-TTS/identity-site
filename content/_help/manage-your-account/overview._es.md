@@ -20,10 +20,10 @@ Tener una dirección de correo electrónico o un teléfono no actualizados puede
 
 {: .help-question-list}
 - [¿Cómo añado o cambio el método de autenticación en mi cuenta?](/es/help/manage-your-account/add-or-change-your-authentication-method/)
-- [Cambie su contraseña](#)
-- [Cambie la dirección de correo electrónico asociada con su cuenta](#)
+- [Cambie su contraseña](/es/help/manage-your-account/change-your-password/)
+- [Cambie la dirección de correo electrónico asociada con su cuenta](/es/help/manage-your-account/change-your-email-address/)
 
 ## Otros artículos
 
-* [Problemas para iniciar sesión](#)
+* [Problemas para iniciar sesión](/es/help/trouble-signing-in/overview/)
 * [Crear una cuenta](/es/help/create-account/overview/)
