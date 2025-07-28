@@ -14,5 +14,5 @@ A deactivated Login.gov account can happen for a few reasons including password 
 
 ## Related articles
 
-* [Verify your identity](#)
-* [Issues verifying your identity](#)
+* [Verify your identity](/help/verify-your-identity/overview/)
+* [Issues verifying your identity](/help/verify-your-identity/issues-verifying-my-personal-information/)
