@@ -26,6 +26,6 @@ order: 4
 
 ## 相关文章
 
-* [短信/SMS或者接听电话问题](#)
+* [短信/SMS或者接听电话问题](/zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
 * [身份证实方法](/zh/help/create-account/authentication-methods/)
 * [设立帐户问题](/zh/help/create-account/issues-creating-an-account/)
