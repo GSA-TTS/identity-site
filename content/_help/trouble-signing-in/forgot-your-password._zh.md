@@ -63,6 +63,6 @@ order: 1
 
 ## 相关文章
 
-* [如何更改与我帐户相关的邮箱地址？](#)
-* [如何更改我的密码？](#)
-* [如何更改与合作伙伴机构分享的邮箱地址？](#)
+* [如何更改与我帐户相关的邮箱地址？](/zh/help/manage-your-account/change-your-email-address/)
+* [如何更改我的密码？](/zh/help/manage-your-account/change-your-password/)
+* [如何更改与合作伙伴机构分享的邮箱地址？](/zh/help/manage-your-account/change-partner-email-address/)
