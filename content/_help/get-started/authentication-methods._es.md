@@ -57,4 +57,4 @@ Aunque puede elegir entre varias opciones de autenticación, algunos métodos de
 
 * [Problemas al crear una cuenta](/es/help/create-account/issues-creating-an-account/)
 * [Administre su cuenta](/es/help/manage-your-account/overview/)
-* [Problemas para iniciar sesión](#)
+* [Problemas para iniciar sesión](/es/help/trouble-signing-in/overview/)
