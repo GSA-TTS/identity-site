@@ -25,5 +25,4 @@ Suivez les étapes suivantes pour modifier le numéro de téléphone associé à
 
 ## Articles connexes
 
-* [Comment puis-je changer la méthode d’authentification à mon compte ?](#)
-
+* [Comment puis-je changer la méthode d’authentification à mon compte ?](/fr/help/manage-your-account/add-or-change-your-authentication-method/)
