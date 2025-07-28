@@ -27,5 +27,5 @@ redirect_from:
 ## 相关文章
 
 * [我如何验证身份？](#)
-* [拍摄我的 ID 照片问题](#)
-* [亲身验证我的身份问题](#)
+* [拍摄我的 ID 照片问题](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [亲身验证我的身份问题](/zh/help/verify-your-identity/verify-your-identity-in-person/)
