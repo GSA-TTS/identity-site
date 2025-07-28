@@ -139,5 +139,5 @@ redirect_from:
 ## 相关文章
 
 * [我如何验证身份？](#)
-* [拍我本人照片问题](#)
-* [亲身验证我的身份问题](#)
+* [拍我本人照片问题](/zh/help/verify-your-identity/issues-taking-a-photo-of-myself/)
+* [亲身验证我的身份问题](/zh/help/verify-your-identity/verify-your-identity-in-person/)
