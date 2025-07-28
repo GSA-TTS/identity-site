@@ -42,5 +42,5 @@ If you started verifying your identity more than 30 days ago, you will need to s
 
 ## Related articles
 
-* [Issues verifying my personal information](#)
-* [Issues verifying my phone number](#)
+* [Issues verifying my personal information](/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Issues verifying my phone number](/help/verify-your-identity/phone-number/)
