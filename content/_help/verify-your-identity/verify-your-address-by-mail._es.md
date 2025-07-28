@@ -40,5 +40,5 @@ Si comenzó la verificación de su identidad hace más de 30 días, tendrá que 
 
 ## Otros artículos
 
-* [Problemas al verificar mi información personal](#)
-* [Problemas al verificar mi número de teléfono](#)
+* [Problemas al verificar mi información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Problemas al verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
