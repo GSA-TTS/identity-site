@@ -38,6 +38,6 @@ Según los métodos de autenticación que haya configurado, es posible que todav
 
 ## Otros artículos
 
-* Problemas con el correo electrónico y la contraseña
-* Tengo problemas para autenticarme
-* Problema con el desbloqueo facial y táctil
+* [Problemas con el correo electrónico y la contraseña](/es/help/trouble-signing-in/forgot-your-password/)
+* [Tengo problemas para autenticarme](/es/help/trouble-signing-in/issues-with-authentication-methods/)
+* [Problema con el desbloqueo facial y táctil](/es/help/trouble-signing-in/authentication/face-and-touch-unlock/)
