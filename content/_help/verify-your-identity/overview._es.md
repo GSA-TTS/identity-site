@@ -54,7 +54,7 @@ Login.gov es un sitio web gubernamental seguro que cumple las máximas normas de
 
 ## Otros artículos
 
-* [Problemas al tomar fotografías de mi identificación](#)
-* [Problemas al verificar mi información personal](#)
-* [Problemas al verificar mi número de teléfono](#)
-* [Problemas al verificar mi identidad en persona](#)
+* [Problemas al tomar fotografías de mi identificación](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [Problemas al verificar mi información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Problemas al verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
+* [Problemas al verificar mi identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/)
