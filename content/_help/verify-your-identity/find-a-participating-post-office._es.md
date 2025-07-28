@@ -16,4 +16,4 @@ translations:
 
 ## Otros artículos
 
-* [Problemas al verificar mi identidad en persona](#)
+* [Problemas al verificar mi identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/)
