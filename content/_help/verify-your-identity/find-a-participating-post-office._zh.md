@@ -17,4 +17,4 @@ translations:
 
 ## 相关文章
 
-* [亲身验证我的身份问题](#)
+* [亲身验证我的身份问题](/zh/help/verify-your-identity/verify-your-identity-in-person/)
