@@ -27,7 +27,7 @@ If you continue to get errors, or if you look very different from your ID photo,
 
 ## Related articles
 
-* [How do I verify my identity?](#)
-* [Issues taking photos of my ID](#)
-* [Issues verifying my identity in person](#)
+* [How do I verify my identity?](/help/verify-your-identity/overview/)
+* [Issues taking photos of my ID](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [Issues verifying my identity in person](/help/verify-your-identity/verify-your-identity-in-person/)
 
