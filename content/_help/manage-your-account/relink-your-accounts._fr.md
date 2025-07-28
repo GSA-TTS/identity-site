@@ -21,5 +21,5 @@ Les solutions suivantes sont possibles :
 
 ## Articles connexes
 
-* [Confirmer votre identité](#)
-* [Problèmes liés à la confirmation de votre identité](#)
+* [Confirmer votre identité](/fr/help/verify-your-identity/overview/)
+* [Problèmes liés à la confirmation de votre identité](/fr/help/verify-your-identity/issues-verifying-my-personal-information/)
