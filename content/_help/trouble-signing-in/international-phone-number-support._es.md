@@ -33,5 +33,5 @@ Le recomendamos que configure más de un método de autenticación para evitar q
 ## Otros artículos
 
 * [¿Cómo inicio sesión si perdí mi teléfono o mi clave personal?](/es/help/trouble-signing-in/how-to-sign-in/)
-* [¿Cómo cambio el número de teléfono asociado con mi cuenta?](#)
+* [¿Cómo cambio el número de teléfono asociado con mi cuenta?](/es/help/manage-your-account/change-your-phone-number/)
 * [Estoy recibiendo códigos de seguridad que no solicité](/es/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/)
