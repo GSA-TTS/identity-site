@@ -71,7 +71,7 @@ Si vous présentez votre code-barres au bureau de poste après le délai limite 
 
 ## Articles connexes
 
-* [Problèmes pour prendre les photos de ma pièce d’identité](#)
-* [Problèmes liés à la vérification de mes renseignements personnels](#)
-* [Problèmes en lien avec la vérification de mon numéro de téléphone](#)
-* [Trouver un bureau de poste participant](#)
+* [Problèmes pour prendre les photos de ma pièce d’identité](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [Problèmes liés à la vérification de mes renseignements personnels](/fr/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Problèmes en lien avec la vérification de mon numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
+* [Trouver un bureau de poste participant](/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
