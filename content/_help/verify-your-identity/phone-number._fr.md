@@ -44,5 +44,5 @@ Si vous n’avez pas la possibilité d’effectuer cette démarche par courrier,
 
 ## Articles connexes
 
-* [Problèmes liés à la vérification de mes renseignements personnels](#)
-* [Problèmes liés à la vérification de mon adresse par courrier](#)
+* [Problèmes liés à la vérification de mes renseignements personnels](/fr/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Problèmes liés à la vérification de mon adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)
