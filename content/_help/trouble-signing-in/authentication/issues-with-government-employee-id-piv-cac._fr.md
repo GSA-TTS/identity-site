@@ -36,5 +36,5 @@ Si vous souhaitez modifier votre carte PIV/CAC comme méthode d'authentification
 
 ## Articles connexes
 
-* [Difficultés pour se connecter](#)
+* [Difficultés pour se connecter](/fr/help/trouble-signing-in/overview/)
 * [Comment puis-je ajouter une méthode d’authentification ou la modifier sur mon compte ?](/fr/help/manage-your-account/add-or-change-your-authentication-method/)
