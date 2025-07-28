@@ -47,5 +47,5 @@ If you do not have the option to verify by mail, you must verify your phone numb
 
 ## Related articles
 
-* [Issues verifying my personal information](#)
-* [Issues verifying my address by mail](#)
+* [Issues verifying my personal information](/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Issues verifying my address by mail](/help/verify-your-identity/verify-your-address-by-mail/)
