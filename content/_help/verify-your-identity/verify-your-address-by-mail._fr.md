@@ -40,5 +40,5 @@ Si vous avez commencé la procédure de vérification d’identité il y a plus 
 
 ## Articles connexes
 
-* [Problèmes liés à la vérification de mes renseignements personnels](#)
-* [Problèmes en lien avec la vérification de mon numéro de téléphone](#)
+* [Problèmes liés à la vérification de mes renseignements personnels](/fr/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Problèmes en lien avec la vérification de mon numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
