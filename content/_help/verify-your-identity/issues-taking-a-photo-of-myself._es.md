@@ -26,6 +26,6 @@ Si sigue recibiendo errores, o si su aspecto es muy diferente al de la foto de s
 
 ## Otros artículos
 
-* [¿Cómo verifico mi identidad?](#)
-* [Problemas al tomar fotografías de mi identificación](#)
-* [Problemas al verificar mi identidad en persona](#)
+* [¿Cómo verifico mi identidad?](/es/help/verify-your-identity/overview/)
+* [Problemas al tomar fotografías de mi identificación](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [Problemas al verificar mi identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/)
