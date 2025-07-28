@@ -22,4 +22,4 @@ order: 2
 
 ## 相关文章
 
-* [我如何更改帐户上的身份证实方法？](#)
+* [我如何更改帐户上的身份证实方法？](/zh/help/manage-your-account/add-or-change-your-authentication-method/)
