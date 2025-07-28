@@ -38,5 +38,5 @@ order: 5
 
 ## 相关文章
 
-* [验证我的个人信息问题](#)
-* [验证我的电话号码问题](#)
+* [验证我的个人信息问题](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [验证我的电话号码问题](/zh/help/verify-your-identity/phone-number/)
