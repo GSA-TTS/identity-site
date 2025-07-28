@@ -42,5 +42,5 @@ Login.gov 接受：
 
 ## 相关文章
 
-* [验证我的个人信息问题](#)
-* [通过邮局信件验证我的地址问题](#)
+* [验证我的个人信息问题](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [通过邮局信件验证我的地址问题](/zh/help/verify-your-identity/verify-your-address-by-mail/)
