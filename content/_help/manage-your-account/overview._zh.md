@@ -14,10 +14,10 @@ order: 0
 
 {: .help-question-list}
 - [如何添加或更改我帐户上的身份证实方法？](/zh/help/manage-your-account/add-or-change-your-authentication-method/)
-- [更改密码](#)
-- [更改与你帐户关联的电邮地址](#)
+- [更改密码](/zh/help/manage-your-account/change-your-password/)
+- [更改与你帐户关联的电邮地址](/zh/help/manage-your-account/change-your-email-address/)
 
 ## 相关文章
 
-* [登录有困难](#)
+* [登录有困难](/zh/help/trouble-signing-in/overview/)
 * [设立账户](/zh/help/create-account/overview/)
