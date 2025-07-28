@@ -19,10 +19,10 @@ Une adresse mail ou un numéro de téléphone obsolète peut vous empêcher de r
 
 {: .help-question-list}
 - [Comment puis-je ajouter une méthode d’authentification ou la modifier sur mon compte ?](/fr/help/manage-your-account/add-or-change-your-authentication-method/)
-- [Changer votre mot de passe](#)
-- [Modifier l'adresse e-mail associée à votre compte](#)
+- [Changer votre mot de passe](/fr/help/manage-your-account/change-your-password/)
+- [Modifier l'adresse e-mail associée à votre compte](/fr/help/manage-your-account/change-your-email-address/)
 
 ## Articles connexes
 
-* [Difficultés pour se connecter](#)
+* [Difficultés pour se connecter](/fr/help/trouble-signing-in/overview/)
 * [Créer un compte](/fr/help/create-account/overview/)
