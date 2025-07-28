@@ -29,5 +29,5 @@ Une clé de sécurité ne peut être enregistrée sur votre compte qu’une seul
 
 ## Articles connexes
 
-* [Comment puis-je choisir la méthode d’authentification la plus adaptée](#)
+* [Comment puis-je choisir la méthode d’authentification la plus adaptée](/fr/help/create-account/authentication-methods/)
 * [Comment puis-je ajouter une méthode d’authentification ou la modifier sur mon compte ?](/fr/help/manage-your-account/add-or-change-your-authentication-method/)
