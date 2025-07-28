@@ -32,5 +32,5 @@ Si su dirección postal no es la misma que la de su domicilio, ingrese la direcc
 
 ## Otros artículos
 
-* [Problemas al verificar mi número de teléfono](#)
-* [Problemas al verificar mi dirección por correo postal](#)
+* [Problemas al verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
+* [Problemas al verificar mi dirección por correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/)
