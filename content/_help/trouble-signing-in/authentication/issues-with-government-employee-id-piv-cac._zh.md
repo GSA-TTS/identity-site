@@ -36,5 +36,5 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-government-emp
 
 ## 相关文章
 
-* [登录问题](#)
-* [如何在我的帐户中添加或更改身份证实方法？](#)
+* [登录问题](/zh/help/trouble-signing-in/overview/)
+* [如何在我的帐户中添加或更改身份证实方法？](/zh/help/manage-your-account/add-or-change-your-authentication-method/)
