@@ -38,4 +38,4 @@ redirect_from:
 
 * [我无法进行身份证实](/zh/help/trouble-signing-in/issues-with-authentication-methods/)
 * [管理帐户](/zh/help/manage-your-account/overview/)
-* [如何在我的帐户中添加或更改身份证实方法](#)
+* [如何在我的帐户中添加或更改身份证实方法](/zh/help/manage-your-account/add-or-change-your-authentication-method/)
