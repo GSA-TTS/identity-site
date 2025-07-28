@@ -22,12 +22,10 @@ Having an outdated email address or phone number can prevent you from recovering
 
 {: .help-question-list}
 - [How do I add or change the authentication method on my account?](/help/manage-your-account/add-or-change-your-authentication-method/)
-- [Change your password](#)
-- [Change the email address associated with your account](#)
+- [Change your password](/help/manage-your-account/change-your-password/)
+- [Change the email address associated with your account](/help/manage-your-account/change-your-email-address/)
 
 ## Related articles
 
 * [Trouble signing in](/help/trouble-signing-in/overview/)
 * [Create an account](/help/create-account/overview/)
-
-
