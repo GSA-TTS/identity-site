@@ -58,7 +58,7 @@ Login.gov is a secure, government website that adheres to the highest standards 
 
 ## Related articles
 
-* [Issues taking photos of my ID](#)
-* [Issues verifying my personal information](#)
-* [Issues verifying my phone number](#)
-* [Issues verifying my identity in person](#)
+* [Issues taking photos of my ID](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [Issues verifying my personal information](/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Issues verifying my phone number](/help/verify-your-identity/phone-number/)
+* [Issues verifying my identity in person](/help/verify-your-identity/verify-your-identity-in-person/)
