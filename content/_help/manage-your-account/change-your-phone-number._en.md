@@ -27,4 +27,4 @@ Follow these steps to change the phone number associated with your account.
 
 ## Related articles
 
-* [How do I change the authentication method on my account?](#)
+* [How do I change the authentication method on my account?](/help/manage-your-account/add-or-change-your-authentication-method/)
