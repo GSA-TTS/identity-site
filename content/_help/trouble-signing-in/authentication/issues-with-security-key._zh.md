@@ -29,5 +29,5 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-security-key/
 
 ## 相关文章
 
-* [如何选择正确的身份证实方法](#)
-* [如何在我的帐户中添加或更改身份证实方法？](#)
+* [如何选择正确的身份证实方法](/zh/help/create-account/authentication-methods/)
+* [如何在我的帐户中添加或更改身份证实方法？](/zh/help/manage-your-account/add-or-change-your-authentication-method/)
