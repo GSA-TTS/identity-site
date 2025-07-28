@@ -138,4 +138,4 @@ redirect_from:
 ## 相关文章
 
 * [如果我丢失了电话或个人密钥，如何登录账户？](/zh/help/trouble-signing-in/how-to-sign-in/)
-* [如何在我的帐户中添加或更改身份证实方法？](#)
+* [如何在我的帐户中添加或更改身份证实方法？](/zh/help/manage-your-account/add-or-change-your-authentication-method/)
