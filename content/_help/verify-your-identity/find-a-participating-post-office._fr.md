@@ -17,4 +17,4 @@ translations:
 
 ## Articles connexes
 
-* [Problèmes liés à la vérification de mon identité en personne](#)
+* [Problèmes liés à la vérification de mon identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/)
