@@ -34,4 +34,4 @@ order: 2
 
 * [设立帐户问题](/zh/help/create-account/issues-creating-an-account/)
 * [管理帐户](/zh/help/manage-your-account/overview/)
-* [登录有困难](#)
+* [登录有困难](/zh/help/trouble-signing-in/overview/)
