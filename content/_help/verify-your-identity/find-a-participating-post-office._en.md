@@ -17,4 +17,4 @@ translations:
 
 ## Related articles
 
-* [Issues verifying my identity in person](#)
+* [Issues verifying my identity in person](/help/verify-your-identity/verify-your-identity-in-person/)
