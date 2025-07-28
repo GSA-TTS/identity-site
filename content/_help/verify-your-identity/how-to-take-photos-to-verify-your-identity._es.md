@@ -138,6 +138,6 @@ Revise que su nombre, domicilio y demás información en su identificación se p
 
 ## Otros artículos
 
-* [¿Cómo verifico mi identidad?](#)
-* [Problemas para tomarme una foto](#)
-* [Problemas al verificar mi identidad en persona](#)
+* [¿Cómo verifico mi identidad?](/es/help/verify-your-identity/overview/)
+* [Problemas para tomarme una foto](/es/help/verify-your-identity/issues-taking-a-photo-of-myself/)
+* [Problemas al verificar mi identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/)
