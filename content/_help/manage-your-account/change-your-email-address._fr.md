@@ -36,7 +36,7 @@ Suivez les étapes ci-dessous pour modifier l'adresse e-mail associée à votre 
 1. Suivez les indications pour confirmer que vous supprimez la bonne adresse en saisissant à nouveau votre mot de passe et votre méthode d'authentification.
 1. Cliquez sur le bouton « Supprimer l'adresse e-mail ».
 
-Comment [modifier l’adresse e-mail communiquée aux organismes partenaires](#).  
+Comment [modifier l’adresse e-mail communiquée aux organismes partenaires](/fr/help/manage-your-account/change-partner-email-address/).
 
 ## Articles connexes
 
