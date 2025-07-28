@@ -36,5 +36,5 @@ Si desea hacer cambios a su tarjeta PIV o CAC vigente como método de autenticac
 
 ## Otros artículos
 
-* [¿Tiene problemas para iniciar sesión?](#)
+* [¿Tiene problemas para iniciar sesión?](/es/help/trouble-signing-in/overview/)
 * [¿Cómo añado o cambio el método de autenticación en mi cuenta?](/es/help/manage-your-account/add-or-change-your-authentication-method/)
