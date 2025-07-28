@@ -13,5 +13,5 @@ Una cuenta de Login.gov se puede desactivar por varios motivos, como los restabl
 
 ## Otros artículos
 
-* [Verifique su identidad](#)
-* [Problemas para verificar su identidad](#)
+* [Verifique su identidad](/es/help/verify-your-identity/overview/)
+* [Problemas para verificar su identidad](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
