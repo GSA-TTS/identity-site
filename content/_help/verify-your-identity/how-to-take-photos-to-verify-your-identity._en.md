@@ -139,6 +139,6 @@ Make sure that your name, address, and other information on your ID can be easil
 
 ## Related articles
 
-* [How do I verify my identity?](#)
-* [Issues taking a photo of myself](#)
-* [Issues verifying my identity in person](#)
+* [How do I verify my identity?](/help/verify-your-identity/overview/)
+* [Issues taking a photo of myself](/help/verify-your-identity/issues-taking-a-photo-of-myself/)
+* [Issues verifying my identity in person](/help/verify-your-identity/verify-your-identity-in-person/)
