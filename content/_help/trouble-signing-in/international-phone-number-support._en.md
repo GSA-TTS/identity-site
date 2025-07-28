@@ -35,4 +35,4 @@ We encourage you to set up more than one authentication method to avoid getting 
 
 * [How do I sign in if I lost my phone or personal key?](/help/trouble-signing-in/how-to-sign-in/)
 * [How do I change the phone number associated with my account?](/help/manage-your-account/change-your-phone-number/)
-* [I’m receiving security codes I did not request](#)
+* [I’m receiving security codes I did not request](/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/)
