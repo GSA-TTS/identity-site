@@ -32,5 +32,5 @@ If your mailing address is different from your residential address, enter the ad
 
 ## Related articles
 
-* [Issues verifying my phone number](#)
-* [Issues verifying my address by mail](#)
+* [Issues verifying my phone number](/help/verify-your-identity/phone-number/)
+* [Issues verifying my address by mail](/help/verify-your-identity/verify-your-address-by-mail/)
