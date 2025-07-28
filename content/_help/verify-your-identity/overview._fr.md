@@ -55,7 +55,7 @@ Login.gov est un site Web sécurisé de l’administration qui respecte les norm
 
 ## Articles connexes
 
-* [Issues taking photos of my ID](#)
-* [Issues verifying my personal information](#)
-* [Issues verifying my phone number](#)
-* [Issues verifying my identity in person](#)
+* [Problèmes pour prendre les photos de ma pièce d’identité](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [Problèmes liés à la vérification de mes renseignements personnels](/fr/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Problèmes en lien avec la vérification de mon numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
+* [Problèmes liés à la vérification de mon identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/)
