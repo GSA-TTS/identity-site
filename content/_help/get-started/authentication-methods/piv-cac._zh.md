@@ -33,6 +33,6 @@ PIV（个人身份验证）卡或 CAC（通用访问卡）是给联邦政府雇�
 
 ## 相关文章
 
-* [政府雇员 ID问题](#)
+* [政府雇员 ID问题](/zh/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 * [身份证实方法](/zh/help/create-account/authentication-methods/)
 * [设立帐户问题](/zh/help/create-account/issues-creating-an-account/)
