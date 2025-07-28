@@ -29,6 +29,6 @@ Vous pourrez désormais utiliser les codes à usage unique générés par l'appl
 
 ## Articles connexes
 
-* [Problèmes avec l’application d'authentification](#)
+* [Problèmes avec l’application d'authentification](/fr/help/trouble-signing-in/authentication/issues-with-authentication-application/)
 * [Méthodes d’authentification](/fr/help/create-account/authentication-methods/)
 * [Problèmes liés à la création d'un compte](/fr/help/create-account/issues-creating-an-account/)
