@@ -23,6 +23,6 @@ Veuillez consulter <https://login.gov/fr/help/manage-your-account/delete-your-ac
 
 ## Articles connexes
 
-* [Comment supprimer mon compte](#)
+* [Comment supprimer mon compte](/fr/help/manage-your-account/delete-your-account/)
 * [Je n’arrive pas à m’authentifier](/fr/help/trouble-signing-in/issues-with-authentication-methods/)
 * [Comment puis-je ajouter une méthode d’authentification ou la modifier sur mon compte ?](/fr/help/manage-your-account/add-or-change-your-authentication-method/)
