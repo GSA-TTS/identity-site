@@ -36,7 +36,7 @@ Siga estos pasos para cambiar la dirección de correo electrónico asociada con 
 1. Siga las instrucciones e ingrese de nuevo su contraseña y su método de autenticación para confirmar que está eliminando la dirección correcta.
 1. Haga clic en el botón “Eliminar dirección de correo electrónico”.
 
-Obtenga información sobre cómo [cambiar la dirección de correo electrónico proporcionada a las agencias asociadas](#).
+Obtenga información sobre cómo [cambiar la dirección de correo electrónico proporcionada a las agencias asociadas](/es/help/manage-your-account/change-partner-email-address/).
 
 ## Otros artículos
 
