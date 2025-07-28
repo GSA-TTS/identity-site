@@ -51,4 +51,4 @@ Votre mot de passe doit comporter au moins **12 caractères**. N’utilisez pas 
 
 * [Méthodes d’authentification](/fr/help/create-account/authentication-methods/)
 * [Comment puis-je créer un compte Login.gov](/fr/help/create-account/how-do-i-create-an-account/)
-* [Difficultés pour se connecter](#)
+* [Difficultés pour se connecter](/fr/help/trouble-signing-in/overview/)
