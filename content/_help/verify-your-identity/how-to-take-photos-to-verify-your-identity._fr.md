@@ -138,6 +138,6 @@ Veillez à ce que votre nom, prénom, adresse et autres renseignements figurant 
 
 ## Articles connexes
 
-* [Comment puis-je confirmer mon identité ?](#)
-* [Problèmes pour me prendre en photo](#)
-* [Problèmes liés à la vérification de mon identité en personne](#)
+* [Comment puis-je confirmer mon identité ?](/fr/help/verify-your-identity/overview/)
+* [Problèmes pour me prendre en photo](/fr/help/verify-your-identity/issues-taking-a-photo-of-myself/)
+* [Problèmes liés à la vérification de mon identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/)
