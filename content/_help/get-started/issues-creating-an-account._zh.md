@@ -50,5 +50,5 @@ order: 3
 ## 相关文章
 
 * [身份证实方法](/zh/help/create-account/authentication-methods/)
-* [我如何重设自己的Login.gov账户](#)
-* [登录有困难](#)
+* [我如何重设自己的Login.gov账户](/zh/help/create-account/how-do-i-create-an-account/)
+* [登录有困难](/zh/help/trouble-signing-in/overview/)
