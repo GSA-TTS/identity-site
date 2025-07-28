@@ -78,4 +78,4 @@ redirect_from:
 
 ## Articles connexes
 
-* [Comment puis-je me connecter si j’ai perdu mon téléphone ou ma clé personnelle ?](#)
+* [Comment puis-je me connecter si j’ai perdu mon téléphone ou ma clé personnelle?](/fr/help/trouble-signing-in/how-to-sign-in/)
