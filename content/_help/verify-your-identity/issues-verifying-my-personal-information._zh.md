@@ -32,5 +32,5 @@ id_info_list:
 
 ## 相关文章
 
-* [验证我的电话号码问题](#)
-* [通过邮局信件验证我的地址问题](#)
+* [验证我的电话号码问题](/zh/help/verify-your-identity/phone-number/)
+* [通过邮局信件验证我的地址问题](/zh/help/verify-your-identity/verify-your-address-by-mail/)
