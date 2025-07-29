@@ -22,10 +22,10 @@ redirect_from:
 
 如果你提交照片后收到“我们无法将你本人的照片与你的 ID 匹配”的出错信息，请检查你的面部照片是否清晰易读。避免强光、眩光或阴影。
 
-如果你仍然收到出错信息，或者你的样子与 ID 照片差异很大，可以前往附近的美国邮局[亲身验证你的身份](#)。
+如果你仍然收到出错信息，或者你的样子与 ID 照片差异很大，可以前往附近的美国邮局[亲身验证你的身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
 
 ## 相关文章
 
-* [我如何验证身份？](#)
+* [我如何验证身份？](/zh/help/verify-your-identity/overview/)
 * [拍摄我的 ID 照片问题](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
 * [亲身验证我的身份问题](/zh/help/verify-your-identity/verify-your-identity-in-person/)
