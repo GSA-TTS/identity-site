@@ -9,7 +9,7 @@ redirect_from:
   - /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 ---
 
-Pour confirmer votre identité, vous devrez prendre des photos de votre pièce d’identité en ligne ou présenter en personne votre pièce d’identité dans un bureau de poste des États-Unis.
+Pour confirmer votre identité, vous devrez prendre des photos de votre pièce d’identité en ligne ou [présenter en personne votre pièce d’identité](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau de poste des États-Unis.
 
 ## Je n’arrive pas à prendre des photos de ma pièce d’identité
 
@@ -93,7 +93,7 @@ Vous avez besoin d’un téléphone ou d’une tablette avec caméra pour prendr
 
 ## Je n’ai pas de téléphone ni de tablette avec caméra
 
-Si vous n’avez pas de téléphone ni de tablette avec caméra, vous pouvez peut-être [confirmer votre identité en personne](#) dans un bureau de poste des États-Unis près de chez vous.
+Si vous n’avez pas de téléphone ni de tablette avec caméra, vous pouvez peut-être [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau de poste des États-Unis près de chez vous.
 
 ## L’outil caméra ne fonctionne pas
 
