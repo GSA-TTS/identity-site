@@ -38,7 +38,7 @@ Vérifiez que votre numéro de téléphone est saisi correctement et que vous ut
 
 Si votre numéro de téléphone est correct, désactivez le transfert d’appels pendant que vous confirmez votre identité (une fois cette démarche terminée, vous pourrez réactiver cette fonction). Essayez un autre numéro associé à votre nom.
 
-Dans certains cas, vous pouvez [confirmer votre adresse par courrier](#). Vous devrez attendre 5 à 10 jours pour recevoir un courrier par la poste, puis suivre les instructions pour saisir le code de vérification.
+Dans certains cas, vous pouvez [confirmer votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/). Vous devrez attendre 5 à 10 jours pour recevoir un courrier par la poste, puis suivre les instructions pour saisir le code de vérification.
 
 Si vous n’avez pas la possibilité d’effectuer cette démarche par courrier, votre numéro de téléphone doit être vérifié pour que votre identité puisse être confirmée avec Login.gov. Si vous ne pouvez pas essayer avec un autre numéro de téléphone, contactez l’organisme auquel vous cherchez à vous connecter pour trouver une autre solution.
 
