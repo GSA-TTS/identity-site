@@ -6,7 +6,7 @@ permalink: /zh/help/verify-your-identity/verify-your-address-by-mail/
 order: 5
 ---
 
-在某些情况下，你可以通过邮局信件验证你的地址，而不是[验证你的电话号码](#)。你将收到一封包含验证码的邮局信件，用于验证邮寄的地址属于你。
+在某些情况下，你可以通过邮局信件验证你的地址，而不是[验证你的电话号码](/zh/help/verify-your-identity/phone-number/)。你将收到一封包含验证码的邮局信件，用于验证邮寄的地址属于你。
 
 ## 如何通过邮局信件验证我的地址？
 
