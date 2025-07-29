@@ -12,7 +12,7 @@ Login.gov 与美国邮局（USPS）合作，提供在邮局亲身验证身份的
 
 你可以选择亲身验证你的 ID ，而不是在网上拍摄 ID 的照片；或者你拍照时有困难时也可以转换去亲身验证。
 
-在你前往邮局之前，我们需要[验证你的个人信息](#)和 ID 上的信息。然后，我们[验证你的电话号码](/zh/help/verify-your-identity/phone-number/)并向你发送一次性代码，以验证该电话号码是否属于你。
+在你前往邮局之前，我们需要[验证你的个人信息](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)和 ID 上的信息。然后，我们[验证你的电话号码](/zh/help/verify-your-identity/phone-number/)并向你发送一次性代码，以验证该电话号码是否属于你。
 
 你在网上验证信息后，我们会电邮给你一个条形码以及你必须去邮局的截至日期。
 
@@ -40,7 +40,7 @@ ID 必须尚未过期。如果你以上任何一种 ID 都没有 ，则无法使
 
 ## 我可以去哪个邮局验证我的身份？
 
-你在 Login.gov 开始这一流程时，可以选择去你家附近的参与本项目的邮局。你也可以在Login.gov的帮助中心[搜索你家附件的邮局](#)。
+你在 Login.gov 开始这一流程时，可以选择去你家附近的参与本项目的邮局。你也可以在Login.gov的帮助中心[搜索你家附件的邮局](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)。
 
 你在网上收到条形码后，可以去任何一个提供亲身验证身份服务的邮局。美国所有 50 个州和以下美国属地均提供亲身身份验证：美属维尔京岛、美属萨摩亚、关岛、波多黎各、以及北马里亚纳群岛。
 
