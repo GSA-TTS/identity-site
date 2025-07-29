@@ -22,7 +22,7 @@ Es posible que algunas agencias asociadas le pidan que tome una fotografía de s
 
 Si envía sus fotos y recibe un mensaje de error que indica que “No pudimos comprobar que su foto coincide con la de su identificación”, compruebe que la foto de su rostro sea clara y pueda ser reconocida con facilidad. Evite luces brillantes, reflejos o sombras.
 
-Si sigue recibiendo errores, o si su aspecto es muy diferente al de la foto de su documento de identificación, es posible que pueda [verificar su identidad en persona](#) en una oficina cercana del Servicio Postal de los Estados Unidos.
+Si sigue recibiendo errores, o si su aspecto es muy diferente al de la foto de su documento de identificación, es posible que pueda [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) en una oficina cercana del Servicio Postal de los Estados Unidos.
 
 ## Otros artículos
 
