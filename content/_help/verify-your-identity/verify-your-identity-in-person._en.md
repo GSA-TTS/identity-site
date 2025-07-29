@@ -12,7 +12,7 @@ Login.gov offers in-person identity verification with the United States Postal S
 
 You can choose to verify your ID in person instead of taking photos of your ID online, or switch to in-person identity verification if you are having trouble taking photos.
 
-We need to [verify your personal information](#) and the information on your ID before you go to the Post Office. Then we [verify your phone number](#) and send you a one-time code to verify that the phone number belongs to you.
+We need to [verify your personal information](/help/verify-your-identity/issues-verifying-my-personal-information/) and the information on your ID before you go to the Post Office. Then we [verify your phone number](/help/verify-your-identity/phone-number/) and send you a one-time code to verify that the phone number belongs to you.
 
 Once you verify your information online, we will email you a barcode and a deadline to go to the Post Office.
 
