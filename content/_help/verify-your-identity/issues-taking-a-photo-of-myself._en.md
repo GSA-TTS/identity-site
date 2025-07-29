@@ -23,7 +23,7 @@ Some partner agencies may ask you to take a photo of your face when you take pho
 
 If you submit your photos and get an error message that “We could not match the photo of yourself to your ID”, check that the photo of your face is clear and can be easily read. Avoid bright light, glare, or shadows.
 
-If you continue to get errors, or if you look very different from your ID photo, you may be able to [verify your identity in person](#) at a United States Post Office near you.
+If you continue to get errors, or if you look very different from your ID photo, you may be able to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) at a United States Post Office near you.
 
 ## Related articles
 
