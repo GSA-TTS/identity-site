@@ -36,9 +36,9 @@ reject_id_list:
 
 {: .number-list}
 
-1. 在网上[拍摄你的 ID 照片](#)。你可能还需要[拍摄你本人的照片](#)以确认你是 ID 的所有者。如果你拍摄身份证件和你本人的照片有困难，也可以[前往附近的美国邮局亲身验证你的身份](#)。
-1. 输入你的社会保障号码，我们将[根据公开和专有记录验证你的个人信息](#)。
-1. 我们将[验证你的电话号码](#)，并向你的手机发送一次性代码。如果这种作法不行，我们可能会[通过邮局邮件验证你的地址](#)。
+1. 在网上[拍摄你的 ID 照片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)。你可能还需要[拍摄你本人的照片](/zh/help/verify-your-identity/issues-taking-a-photo-of-myself/)以确认你是 ID 的所有者。如果你拍摄身份证件和你本人的照片有困难，也可以[前往附近的美国邮局亲身验证你的身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
+1. 输入你的社会保障号码，我们将[根据公开和专有记录验证你的个人信息](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)。
+1. 我们将[验证你的电话号码](/zh/help/verify-your-identity/phone-number/)，并向你的手机发送一次性代码。如果这种作法不行，我们可能会[通过邮局邮件验证你的地址](/zh/help/verify-your-identity/verify-your-address-by-mail/)。
 1. 重新输入你的密码，以把已验证的信息存储在你帐户中，并将你的信息关联到你试图访问的合作伙伴机构。
 
 ## Login.gov 如何使用我的信息？
