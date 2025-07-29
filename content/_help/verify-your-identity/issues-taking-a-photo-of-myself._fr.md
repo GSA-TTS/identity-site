@@ -22,7 +22,7 @@ Certains organismes partenaires peuvent vous demander de vous prendre en photo l
 
 Si vous envoyez vos photos et recevez un message d’erreur selon lequel « Nous n’avons pas pu trouver de correspondance entre la photo de vous-même et votre pièce d’identité », vérifiez que la photo de votre visage est nette et que votre pièce d’identité est lisible. Évitez la lumière vive, les reflets ou les ombres.
 
-Si vous recevez encore des messages d’erreur, ou si vous semblez très différent de la photo sur votre pièce d’identité, vous devriez pouvoir [confirmer votre identité en personne](#) dans un bureau de poste des États-Unis près de chez vous.
+Si vous recevez encore des messages d’erreur, ou si vous semblez très différent de la photo sur votre pièce d’identité, vous devriez pouvoir [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau de poste des États-Unis près de chez vous.
 
 ## Articles connexes
 
