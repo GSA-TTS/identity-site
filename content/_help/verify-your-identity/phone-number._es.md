@@ -38,7 +38,7 @@ Revise haber ingresado su número de teléfono correctamente y que está usando 
 
 Si su número de teléfono es correcto, desactive el desvío de llamadas mientras esté verificando su identidad (puede volver a activarlo cuando haya terminado). Intente utilizar otro número que esté asociado con su nombre.
 
-En algunos casos, es posible que pueda [verificar su dirección por correo postal](#). Tendrá que esperar de 5 a 10 días para recibir una carta por correo, y luego siga las instrucciones para ingresar el código de verificación.
+En algunos casos, es posible que pueda [verificar su dirección por correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/). Tendrá que esperar de 5 a 10 días para recibir una carta por correo, y luego siga las instrucciones para ingresar el código de verificación.
 
 Si no tiene la opción de hacer la verificación por correo, debe verificar su número de teléfono para lograr verificar su identidad con Login.gov. Si no tiene otro número de teléfono para intentarlo, contacte con la agencia a la que está intentando acceder para saber lo que puede hacer en ese caso.
 
