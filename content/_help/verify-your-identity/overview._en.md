@@ -47,9 +47,9 @@ If you don’t have all of these requirements, contact the agency you are trying
 
 {: .number-list}
 
-1. Take [photos of your ID online](#). You may also be asked to [take a photo of yourself](#) to confirm that you are the owner of your ID. If you have trouble taking photos of your ID and yourself, you may also be able to [verify your identity in person](#) at a United States Post Office near you.
-1. Enter your Social Security number and we will [verify your personal information](#) against public and proprietary records.
-1. We will [verify your phone number](#) and send a one-time code to your phone. If that doesn’t work, we may be able to [verify your address by mail](#).
+1. Take [photos of your ID online](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/). You may also be asked to [take a photo of yourself](/help/verify-your-identity/issues-taking-a-photo-of-myself/) to confirm that you are the owner of your ID. If you have trouble taking photos of your ID and yourself, you may also be able to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) at a United States Post Office near you.
+1. Enter your Social Security number and we will [verify your personal information](/help/verify-your-identity/issues-verifying-my-personal-information/) against public and proprietary records.
+1. We will [verify your phone number](/help/verify-your-identity/phone-number/) and send a one-time code to your phone. If that doesn’t work, we may be able to [verify your address by mail](/help/verify-your-identity/verify-your-address-by-mail/).
 1. Re-enter your password to store your verified information in your account, and connect your information to the partner agency you are trying to access.
 
 ## How does Login.gov use my information?
