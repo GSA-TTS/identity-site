@@ -9,7 +9,7 @@ redirect_from:
   - /zh/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 ---
 
-为了验证你的身份，你需要在网上拍摄你的 ID 的照片，或[亲身携带 ID 前往](#)美国邮局。
+为了验证你的身份，你需要在网上拍摄你的 ID 的照片，或[亲身携带 ID 前往](/zh/help/verify-your-identity/verify-your-identity-in-person/)美国邮局。
 
 ## 我拍摄 ID 照片有困难
 
@@ -93,7 +93,7 @@ redirect_from:
 
 ## 我没有带相机的手机或平板电脑
 
-如果你没有带相机的手机或平板电脑，也许可以去附近的美国邮局亲身验证身份。
+如果你没有带相机的手机或平板电脑，也许可以去附近的美国邮局[亲身验证身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
 
 ## 相机工具无法使用
 
@@ -138,6 +138,6 @@ redirect_from:
 
 ## 相关文章
 
-* [我如何验证身份？](#)
+* [我如何验证身份？](/zh/help/verify-your-identity/overview/)
 * [拍我本人照片问题](/zh/help/verify-your-identity/issues-taking-a-photo-of-myself/)
 * [亲身验证我的身份问题](/zh/help/verify-your-identity/verify-your-identity-in-person/)
