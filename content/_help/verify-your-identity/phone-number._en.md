@@ -41,7 +41,7 @@ Check that your phone number is entered correctly and you are using an accepted 
 
 If your phone number is correct, turn off call forwarding while you are verifying your identity (you can turn call forwarding back on when you are done). Try another number that is associated with your name.
 
-In some cases, you may be able to [verify your address by mail](#). You will have to wait 5 to 10 days to receive a letter in the mail and then follow the instructions to enter the verification code.
+In some cases, you may be able to [verify your address by mail](/help/verify-your-identity/verify-your-address-by-mail/). You will have to wait 5 to 10 days to receive a letter in the mail and then follow the instructions to enter the verification code.
 
 If you do not have the option to verify by mail, you must verify your phone number to successfully verify your identity with Login.gov. If you don’t have another phone number to try, contact the agency you are trying to access to find out what you can do instead.
 
