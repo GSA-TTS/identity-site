@@ -9,7 +9,7 @@ redirect_from:
   - /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 ---
 
-Para verificar su identidad, necesitará tomar fotografías de su identificación en línea, o [llevar su identificación en persona](/es//help/verify-your-identity/verify-your-identity-in-person/) a una oficina del Servicio Postal de los Estados Unidos.
+Para verificar su identidad, necesitará tomar fotografías de su identificación en línea, o [llevar su identificación en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) a una oficina del Servicio Postal de los Estados Unidos.
 
 ## Tengo problemas para tomar fotografías de mi identificación
 
