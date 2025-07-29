@@ -9,7 +9,7 @@ redirect_from:
   - /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 ---
 
-Para verificar su identidad, necesitará tomar fotografías de su identificación en línea, o [llevar su identificación en persona](#) a una oficina del Servicio Postal de los Estados Unidos.
+Para verificar su identidad, necesitará tomar fotografías de su identificación en línea, o [llevar su identificación en persona](/es//help/verify-your-identity/verify-your-identity-in-person/) a una oficina del Servicio Postal de los Estados Unidos.
 
 ## Tengo problemas para tomar fotografías de mi identificación
 
@@ -93,7 +93,7 @@ Necesita un teléfono o una tableta con cámara para tomar las fotografías de s
 
 ## No tengo un teléfono ni una tableta con cámara
 
-Si no tiene un teléfono ni una tableta con cámara, es posible que pueda [verificar su identidad en persona](#) en una oficina cercana del Servicio Postal de los Estados Unidos.
+Si no tiene un teléfono ni una tableta con cámara, es posible que pueda [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) en una oficina cercana del Servicio Postal de los Estados Unidos.
 
 ## La herramienta de la cámara no funciona
 
