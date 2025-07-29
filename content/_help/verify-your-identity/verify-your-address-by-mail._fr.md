@@ -8,7 +8,7 @@ redirect_from:
   - /fr/help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 ---
 
-Dans certains cas, vous pouvez confirmer votre adresse par courrier au lieu de [confirmer votre numéro de téléphone](#). Vous recevrez un courrier par la poste contenant un code de vérification pour confirmer que l’adresse est bien la vôtre.
+Dans certains cas, vous pouvez confirmer votre adresse par courrier au lieu de [confirmer votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/). Vous recevrez un courrier par la poste contenant un code de vérification pour confirmer que l’adresse est bien la vôtre.
 
 ## Comment puis-je confirmer mon adresse par courrier ?
 
