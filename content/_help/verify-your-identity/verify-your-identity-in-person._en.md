@@ -40,7 +40,7 @@ Your ID must not be expired. If you do not have one of these ID types, you canno
 
 ## Which Post Office can I visit to verify my identity?
 
-When you start the process on Login.gov, you can select a participating Post Office near you. You can also [search for a Post Office near you](#) in Login.gov’s Help Center.
+When you start the process on Login.gov, you can select a participating Post Office near you. You can also [search for a Post Office near you](/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/) in Login.gov’s Help Center.
 
 Once you have received a barcode online, you can go to any Post Office where in-person identity verification is available. In-person identity verification is available in all 50 states and the following U.S. Territories: U.S. Virgin Islands, American Samoa, Guam, Puerto Rico and the Northern Mariana Islands.
 
