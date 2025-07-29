@@ -44,9 +44,9 @@ Si vous ne remplissez pas toutes ces conditions, prenez contact avec l’organis
 
 {: .number-list}
 
-1. Prenez des [photos de votre pièce d’identité en ligne](#). Il peut également vous être demandé de [vous prendre en photo](#) afin de confirmer que vous êtes le titulaire de votre pièce d’identité. Si vous rencontrez des difficultés pour prendre des photos de votre pièce d’identité ou vous prendre en photo, vous devriez pouvoir [confirmer votre identité en personne](#) dans un bureau de poste des États-Unis près de chez vous.
-1. Saisissez votre numéro de Sécurité sociale et nous vérifierons que vos [renseignements personnels](#) correspondent aux informations enregistrées sur les registres publics et privés.
-1. Nous confirmerons votre [numéro de téléphone](#) en envoyant un code à usage unique à ce numéro. Si cette méthode ne marche pas, il est possible de [vérifier votre adresse par courrier](#).
+1. Prenez des [photos de votre pièce d’identité en ligne](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/). Il peut également vous être demandé de [vous prendre en photo](/fr/help/verify-your-identity/issues-taking-a-photo-of-myself/) afin de confirmer que vous êtes le titulaire de votre pièce d’identité. Si vous rencontrez des difficultés pour prendre des photos de votre pièce d’identité ou vous prendre en photo, vous devriez pouvoir [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau de poste des États-Unis près de chez vous.
+1. Saisissez votre numéro de Sécurité sociale et nous vérifierons que vos [renseignements personnels](/fr/help/verify-your-identity/issues-verifying-my-personal-information/) correspondent aux informations enregistrées sur les registres publics et privés.
+1. Nous confirmerons votre [numéro de téléphone](/fr/help/verify-your-identity/phone-number/) en envoyant un code à usage unique à ce numéro. Si cette méthode ne marche pas, il est possible de [vérifier votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/).
 1. Saisissez à nouveau votre mot de passe pour enregistrer les renseignements déjà vérifiés dans votre compte, puis connectez ces informations à l’organisme partenaire auquel vous tentez de vous connecter.
 
 ## Comment Login.gov utilise-t-il mes renseignements ?
