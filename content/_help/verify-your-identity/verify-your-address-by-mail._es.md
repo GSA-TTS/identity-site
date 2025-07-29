@@ -8,7 +8,7 @@ redirect_from:
   - /es/help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 ---
 
-En algunos casos, puede verificar su dirección por correo postal en lugar de [verificar su número de teléfono](#). Recibirá una carta por correo con un código de verificación para confirmar que la dirección sea la suya.
+En algunos casos, puede verificar su dirección por correo postal en lugar de [verificar su número de teléfono](/es/help/verify-your-identity/phone-number/). Recibirá una carta por correo con un código de verificación para confirmar que la dirección sea la suya.
 
 ## ¿Cómo verifico mi dirección por correo postal?
 
