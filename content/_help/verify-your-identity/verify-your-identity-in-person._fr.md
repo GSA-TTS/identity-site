@@ -11,7 +11,7 @@ Login.gov propose la vérification d'identité en personne par l’intermédiair
 
 Vous pouvez décider de confirmer votre identité en personne au lieu de prendre des photos de votre pièce d’identité en ligne, ou passer à la vérification de votre identité en personne si vous rencontrez des difficultés pour prendre des photos.
 
-Nous devons [vérifier vos renseignements personnels](#) et les informations figurant sur votre pièce d'identité avant que vous ne vous rendiez dans un bureau de poste. Ensuite, nous [vérifions votre numéro de téléphone](#) en vous envoyant un code à usage unique pour confirmer que ce numéro est bien le vôtre.
+Nous devons [vérifier vos renseignements personnels](/fr/help/verify-your-identity/issues-verifying-my-personal-information/) et les informations figurant sur votre pièce d'identité avant que vous ne vous rendiez dans un bureau de poste. Ensuite, nous [vérifions votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/) en vous envoyant un code à usage unique pour confirmer que ce numéro est bien le vôtre.
 
 Une fois que vos renseignements auront été confirmés en ligne, nous vous enverrons par e-mail un code-barres et une date limite pour vous rendre au bureau de poste.
 
@@ -39,7 +39,7 @@ Votre pièce d’identité ne doit pas être périmée. Si vous ne possédez auc
 
 ## À quel bureau de poste puis-je me rendre pour confirmer mon identité ?
 
-Lorsque vous commencez la procédure sur Login.gov, vous pouvez choisir un bureau de poste participant près de chez vous. Vous pouvez également [rechercher un bureau de poste près de chez vous](#) dans le Centre d’aide de Login.gov.
+Lorsque vous commencez la procédure sur Login.gov, vous pouvez choisir un bureau de poste participant près de chez vous. Vous pouvez également [rechercher un bureau de poste près de chez vous](/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/) dans le Centre d’aide de Login.gov.
 
 Une fois que vous avez reçu un code-barres en ligne, vous pouvez vous rendre dans n’importe quel bureau de poste offrant un service de vérification d’identité en personne. La vérification d’identité en personne est disponible dans les 50 États ainsi que les territoires des États-Unis suivants : îles Vierges américaines, Samoa américaines, Guam, Porto Rico et îles Mariannes du Nord.
 
