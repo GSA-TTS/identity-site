@@ -10,7 +10,7 @@ redirect_from:
   - /help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
 ---
 
-To verify your identity, you will need to take photos of your ID online, or [bring your ID in person](#) to a United States Post Office.
+To verify your identity, you will need to take photos of your ID online, or [bring your ID in person](/help/verify-your-identity/verify-your-identity-in-person/) to a United States Post Office.
 
 ## I am having trouble taking photos of my ID
 
@@ -94,7 +94,7 @@ You need a phone or tablet with a camera to take photos of your ID using Login.g
 
 ## I don’t have a phone or tablet with a camera
 
-If you don’t have a phone or tablet with a camera, you may be able to [verify your identity in person](#) at a United States Post Office near you.
+If you don’t have a phone or tablet with a camera, you may be able to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) at a United States Post Office near you.
 
 ## The camera tool is not working
 
