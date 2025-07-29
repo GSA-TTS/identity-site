@@ -11,7 +11,7 @@ Login.gov ofrece la verificación de identidad en persona por medio del Servicio
 
 Puede optar por verificar su identidad en persona en lugar de tomar fotografías de su documento de identificación en línea, o bien, si está teniendo problema para tomar las fotos, puede cambiar a la verificación de identidad en persona.
 
-Antes de acudir a la oficina de correos, necesitamos [verificar su información personal](#) y la información de su identificación. Luego [verificamos su número de teléfono](#) y le enviamos un código de un solo uso para confirmar que el teléfono es el suyo.
+Antes de acudir a la oficina de correos, necesitamos [verificar su información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/) y la información de su identificación. Luego [verificamos su número de teléfono](/es/help/verify-your-identity/phone-number/) y le enviamos un código de un solo uso para confirmar que el teléfono es el suyo.
 
 Una vez que haya verificado su información en línea, le enviaremos por correo electrónico un código de barras y una fecha límite para ir a la oficina de correos.
 
@@ -39,7 +39,7 @@ Su identificación no debe estar vencida. Si no tiene uno de estos tipos de iden
 
 ## ¿En qué oficina de correos puedo verificar mi identidad?
 
-Cuando comience el proceso en Login.gov, puede seleccionar una oficina de correos colaboradora cercana a su domicilio. También puede [buscar una oficina de correos cercana](#) en el centro de ayuda de Login.gov.
+Cuando comience el proceso en Login.gov, puede seleccionar una oficina de correos colaboradora cercana a su domicilio. También puede [buscar una oficina de correos cercana](/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/) en el centro de ayuda de Login.gov.
 
 Una vez que haya recibido un código de barras en línea, podrá acudir a cualquier oficina de correos donde esté disponible la verificación de identidad en persona. La verificación de identidad en persona está disponible en los 50 estados y los siguientes territorios de los Estados Unidos: Islas Vírgenes de los EE. UU., Samoa Americana, Guam, Puerto Rico y las Islas Marianas del Norte.
 
