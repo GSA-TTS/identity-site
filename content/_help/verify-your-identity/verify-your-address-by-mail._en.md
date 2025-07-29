@@ -10,7 +10,7 @@ redirect_from:
   - /help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 ---
 
-In some cases, you can verify your address by mail instead of [verifying your phone number](#). You will get a letter in the mail with a verification code to verify that the address belongs to you.
+In some cases, you can verify your address by mail instead of [verifying your phone number](/help/verify-your-identity/phone-number/). You will get a letter in the mail with a verification code to verify that the address belongs to you.
 
 ## How do I verify my address by mail?
 
