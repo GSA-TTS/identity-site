@@ -228,10 +228,10 @@ help_page:
   categories:
     - description: Create your account. Learn about authentication options and more
         account features.
-      image: /assets/img/help/get-started.svg
-      slug: get-started
+      image: /assets/img/help/create-account.svg
+      slug: create-account
       title: Create my account
-      url: /help/get-started/overview/
+      url: /help/create-account/overview/
     - description: Forgot your password? Locked out of your account? We’ll help you
         resolve access issues.
       image: /assets/img/help/trouble-signing-in.svg
