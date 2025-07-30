@@ -1,90 +1,78 @@
 ---
 layout: help
-title: 亲身验证你的身份
+title: 亲身验证我的身份问题
 category: verify-your-identity
-children:
-  - /zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
-  - /zh/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 permalink: /zh/help/verify-your-identity/verify-your-identity-in-person/
-order: 7
+order: 6
 ---
-Login.gov 与美国邮局（USPS）合作，提供在邮寄亲身进行身份验证的服务。只有一些合作伙伴机构有亲身身份验证。这是[完全在网上验证身份的一个替代方法](/zh/help/verify-your-identity/how-to-verify-your-identity/)。如果你无法在网上进行身份验证，可能有亲身验证的选择。
- 
-你必须在去邮局之前就在网上开始这一流程。按照下面的步骤来开始。
 
-## 去邮局之前就在 Login.gov 开始这一流程
+Login.gov 与美国邮局（USPS）合作，提供在邮局亲身验证身份的服务。只有一些合作伙伴机构有亲身身份验证。
 
-你在[Login.gov](https://secure.login.gov/zh/)上开始这一流程时，可以选择在网上还是去亲身验证你的身份。如果你想亲身验证身份，请选择“在邮局验证你的身份。”
+## 我如何亲身验证身份？
 
-请注意，如果你试图在网上验证但无法实现，还可能有亲身验证的选择。
+你可以选择亲身验证你的 ID ，而不是在网上拍摄 ID 的照片；或者你拍照时有困难时也可以转换去亲身验证。
 
-请准备好以下信息输入 Login.gov：
+在你前往邮局之前，我们需要[验证你的个人信息](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)和 ID 上的信息。然后，我们[验证你的电话号码](/zh/help/verify-your-identity/phone-number/)并向你发送一次性代码，以验证该电话号码是否属于你。
 
-1. 州政府颁发的身份证件
-2. 社会保障号码
-3. 你的电话号码
+你在网上验证信息后，我们会电邮给你一个条形码以及你必须去邮局的截至日期。
 
-如果你无法完成上述任一步骤，请联系我们合作伙伴机构的帮助中心来获得支持。
+你去邮局时，请带上：
 
-## 请携带以下东西到邮局
+- 你用来在 Login.gov 上输入你信息的同一 ID。
+- Login.gov 电邮给你的那个条形码。你可以把电邮打印出来，或在你的移动设施上显示。
 
-### 我们通过电邮发给你的条形码
+## 我可以使用什么 ID 来亲身验证身份？
 
-你完成 Login.gov 上的步骤后，我们会通过电邮给你发一个条形码以及一个截止日期，你必须在此日期前去邮局。你可以把该邮件打印出来，或在你的移动设施上显示这个电邮。如果你在截止日期后才去邮局，因为你的信息不会被存储，你又得从头开始这一过程。
+Login.gov 接受以下类型的 ID ：
 
-### 你的驾照或州政府颁发的身份证件
+- 美国所有50个州、哥伦比亚特区（DC）以及其他美国属地（关岛、美属维尔京岛、美属萨摩亚、马里亚纳群岛和波多黎各）的驾照
+- 州颁发的非驾照 ID 卡。这是由各州、哥伦比亚特区（DC）、或美国属地颁发的一种身份文件，证明你的身份但不授予驾驶特权。
 
-请带上你用来在Login.gov上输入信息的同一身份证件：
+我们不接受：
 
-* 美国所有50个州、哥伦比亚特区（DC）以及其他美国属地（关岛、美属维尔京岛、美属萨摩亚、马里亚纳群岛和波多黎各）的驾照
-* 州政府颁发的非驾照身份证件卡
+- 美国护照
+- 军人 ID
+- 过期的 ID 或 ID 延期文件
+- 纸质或临时 ID
+- 非美国 ID
 
-  * 这是由各州政府、哥伦比亚特区（DC）、或美国属地颁发的一种身份文件，证明你的身份但不授予驾驶特权。
+ID 必须尚未过期。如果你以上任何一种 ID 都没有 ，则无法使用 Login.gov 亲身验证身份。请联系你想登录的合作伙伴机构，了解你该怎么办。
 
-我们目前不接受任何其他形式的身份证件，比如护照和军队身份证件。没有州颁发的身份证件， 你就无法在邮局验证身份。我们目前正在努力添加更多身份验证方式。
+## 我可以去哪个邮局验证我的身份？
 
-与此同时，请联系我们合作机构的帮助中心来了解你该怎么办。
+你在 Login.gov 开始这一流程时，可以选择去你家附近的参与本项目的邮局。你也可以在Login.gov的帮助中心[搜索你家附件的邮局](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)。
 
-## 请在截止日期之前到一个参与本项目的邮局完成上述流程。
+你在网上收到条形码后，可以去任何一个提供亲身验证身份服务的邮局。美国所有 50 个州和以下美国属地均提供亲身身份验证：美属维尔京岛、美属萨摩亚、关岛、波多黎各、以及北马里亚纳群岛。
 
-### 你可以在全美各地和有些美国属地的参与本项目的邮局亲身验证身份。*
+## 我应该在邮局找谁？
 
-你在 [Login.gov](https://secure.login.gov/zh) 开始这一过程时，我们会帮你找到一个你附近参与本项目的邮局清单。你也可以[在我们的帮助中心寻找你家附件的邮局。](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
+在邮局排队等待。邮局工作人员会扫描你的条形码并审查你的 ID 。
 
-你在网上收到条形码后，就可以去任何一个提供亲身验证身份服务的邮局。
+请告诉邮局工作人员：“我收到了一封电邮，告诉我要在这个邮局扫描这个条形码”或“我来这里是为了验证我的信息/身份”。如果邮局工作人员仍然不知道如何处理，你可以要求一位主管来帮你。
 
-**\* 参与本项目的美国属地包括:** 美属维尔京岛、美属萨摩亚、关岛、波多黎各、以及北马里亚纳群岛。
+邮局工作人员审查完你的文件后，你就可以走了。邮局工作人员不会得到你验证结果。
 
-### 你可以找邮局任何工作人员来验证身份
+## 我去完邮局后会发生什么？
 
-* 在邮局排队等待。邮局工作人员会扫描你的条形码并审查你的文件。
+你去邮局后的 24 小时内会收到来自 Login.gov 的一封电邮，告知你身份验证是否成功。查看你的电邮中是否有来自 [no-reply@login.gov](mailto:no-reply@login.gov) 的一则信息。
 
-  *  告诉邮局工作人员：“我收到了一封电邮，告诉我要在这个邮局扫描这个条形码”或“我来这里是为了验证我的信息/身份”。
+## 我去邮局后收到一封电邮，显示身份验证失败。
 
-  * 如果邮局工作人员仍然不知道如何处理，你可以要求一位主管来帮你。
+你可以再次试试在网上或者亲身验证你的身份。请确保你用的 ID 是我们接受的类型而且没有过期。
 
-* 邮局工作人员审查完你的文件后，你就可以走了。邮局工作人员不会得到你验证结果。
+## 我去邮局后没有收到来自 Login.gov 的电邮
 
-### 我们会通过电邮告诉你下几个步骤
+你去邮局后24小时内会收到一封电邮。我们会告诉你身份验证是否成功。
 
-你去邮局后24小时内会收到一封电邮。我们会告诉你你身份验证是否成功。检查你的电邮中是否有来自no-reply@login.gov的一则信息。
+查看你的电邮中是否有来自 [no-reply@login.gov](mailto:no-reply@login.gov) 的一则信息。如果你在 24 小时后仍未收到电邮，请联系 Login.gov support。
 
-如果不成功的话，你可以：
+## 我的条形码有问题
 
-* 尝试再次验证你的身份，无论是网上还是亲身验证
-* 联系我们合作伙伴机构的帮助中心寻求支持。
-
-如果你没有收到我们电邮，可以采取以下步骤：
-
-* 检查你的垃圾邮箱，看看有没有来自 [no-reply@login.gov](mailto:no-reply@login.gov) 的邮件。
-* 如果你去邮局 24 小时后尚未收到来自我们的消息，请在[login.gov/contact](/zh/contact/) 联系 Login.gov 客户支持。
+如果你在网上验证信息后 30 天后才去邮局，这已经过了前往邮局的截止日期，你的条形码将无法在邮局使用。你必须再次从头开始身份验证流程，以得到一个新的条形码。
 
 ## 相关文章
 
-[就具体机构获得帮助](/zh/help/specific-agencies/overview/)
-
-[我们接受的州政府颁发的身份证件。](/zh/help/verify-your-identity/accepted-identification-documents/)
-
-[在网上验证你的身份](/zh/help/verify-your-identity/how-to-verify-your-identity/)
-
-[找到一个参与本项目的邮局](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
+* [拍摄我的 ID 照片问题](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [验证我的个人信息问题](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [验证我的电话号码问题](/zh/help/verify-your-identity/phone-number/)
+* [找到一个参与本项目的邮局](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)

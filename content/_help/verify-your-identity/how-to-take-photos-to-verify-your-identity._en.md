@@ -1,70 +1,24 @@
 ---
 layout: help
-title: How to take photos to verify your identity
+title: Issues taking photos of my ID
 category: verify-your-identity
 permalink: /help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
-order: 3
+order: 1
 redirect_from:
   - /en/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
   - /help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
-url_safari: https://www.apple.com/safari/
-url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds
-url_safari_update_doc: https://support.apple.com/en-us/102665
-url_safari_clear_cache_doc: https://support.apple.com/en-us/105082
-url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DAndroid&hl=en&oco=1
-url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&hl=en&oco=1
 ---
 
-{% capture alert_link %}
-  <a href="/help/verify-your-identity/accepted-identification-documents/" class="usa-link">valid state-issued ID, such as a driver's license or state ID card</a>
-{% endcapture %}
+To verify your identity, you will need to take photos of your ID online, or [bring your ID in person](/help/verify-your-identity/verify-your-identity-in-person/) to a United States Post Office.
 
-{% capture alert_content %}
-  If you do not have a {{ alert_link }}, you cannot use Login.gov for identity verification.
-  Please contact the partner agency’s help center to find out what you can do instead.
-{% endcapture %}
+## I am having trouble taking photos of my ID
 
-{%
-  include alert.html
-  content=alert_content
-  type='error'
-  role='alert'
-%}
+You need a phone or tablet with a camera to take photos of your ID using Login.gov’s camera tool, not a webcam.  If you are using a computer, we will text you a link to open Login.gov on your phone or tablet. You will switch back to your computer after you take photos.
 
-## Overview
+{: .number-list}
 
-To verify your identity online, you must both:
-
-* Take a photo of your valid driver's license or state ID card, and
-* Enter your personal information
-
-You may also need to take a photo of yourself with a phone or tablet to ensure you are the person on your ID. If you don’t have access to a phone or tablet with a camera, you can [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/).
-
-This article covers how you can submit images to verify your identity.
-
----
-
-## How to take photos of your driver’s license or state ID card
-
-If you are using a computer to verify your identity, you will be able to switch to a phone or tablet to take photos of your ID.
-
-### Using your phone or tablet
-
-<div class="grid-row grid-gap margin-bottom-2">
-  <div class="tablet:grid-col">
-    <img alt="ID front is centered in the camera frame and placed on a dark background." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
-  </div>
-  <div class="tablet:grid-col">
-    <img alt="ID back is centered in the camera frame and placed on a dark background." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
-  </div>
-</div>
-
-* Use a high resolution camera like a smartphone or tablet camera, rather than a webcam.
-* Place your ID on a solid, dark background.
-* Take your photos in a well-lit area with indirect light.
-* Check that ID barcodes are not damaged or dirty.
-* Hold your device still while taking the photos. It may help to prop your arms on the table to steady yourself.
+1. Place your ID on a solid, dark background.
 
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
@@ -73,7 +27,7 @@ If you are using a computer to verify your identity, you will be able to switch 
       image_alt_text='ID is placed on a white background.'
       image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
       bordered_image=true
-      text='Avoid white backgrounds.'
+      text='DON’T: Use a white background'
     %}
   </div>
   <div class="tablet:grid-col">
@@ -82,62 +36,109 @@ If you are using a computer to verify your identity, you will be able to switch 
       image_alt_text='ID is placed on a textured background.'
       image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
       bordered_image=true
-      text="Don't use textured, patterned backgrounds."
+      text="DON’T: Use textured, patterned backgrounds."
     %}
   </div>
 </div>
+
+2. Take your photos in a well-lit area with indirect light.
+
 <div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    {%
+      include components/image-example-incorrect.html
+      image_alt_text='ID has a glare and shadows cast over it.'
+      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
+      text='DON’T: Use photos with glare or shadows'
+    %}
+  </div>
   <div class="tablet:grid-col">
     {%
       include components/image-example-incorrect.html
       image_alt_text='ID edges are cropped out.'
       image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
       bordered_image=true
-      text='Take a picture of your entire ID.'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID has a glare and shadows cast over it.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      text='Avoid glare or shadows.'
+      text='DON’T: Crop the edges of your ID'
     %}
   </div>
 </div>
 
-## How to take photos of yourself
+3. Hold your device still while taking the photos. It may help to prop your arms on the table to steady yourself.
 
-Some partner agencies may ask you to take a photo of your face and photos of your driver’s license or state ID card. This checks that you are the person on your ID.
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col">
+    {% assign image_alt_text_front = 'ID front is centered in the camera frame and placed on a dark background.' %}
+    {% assign image_front = '/assets/img/help/id-dos-and-donts/id-do-front.png' %}
+    {% assign text_front = 'DO: Line up your ID with the guidelines' %}
 
-{: .number-list}
-1. Take your photo in a well-lit place, while avoiding glare.
-2. Make sure your entire face is visible, from your chin to the top of your head. Only wear accessories, like glasses, that you also wear in your ID photo. Remove any other items covering your face.
-3. Line up your face with the guidelines. Keep your expression neutral and remain still.
-4. Follow the instructions to take a photo. The camera tool may automatically take a photo, or you may need to tap a button to take the photo.
-5. Tap the checkmark or follow the instructions to accept the photo.
+    {% include components/image-example-base.html
+      image_alt_text=image_alt_text_front
+      image=image_front
+      bordered_image=true
+      text=text_front
+    %}
+  </div>
+  <div class="tablet:grid-col">
+    {% assign image_alt_text_back = 'ID back is centered in the camera frame and placed on a dark background.' %}
+    {% assign image_back = '/assets/img/help/id-dos-and-donts/id-do-back.png' %}
+    {% assign text_back = 'DO: Check that the barcode is not damaged or dirty' %}
 
----
+    {% include components/image-example-base.html
+      image_alt_text=image_alt_text_back
+      image=image_back
+      bordered_image=true
+      text=text_back
+    %}
+  </div>
+</div>
 
-## Troubleshooting
+## I don’t have a phone or tablet with a camera
 
-### Ensure the information in your photo is clear
-* Make sure your name, address, and other information on your ID can be easily read.
-* Avoid bright light or glare that may impede the ID scan.
+If you don’t have a phone or tablet with a camera, you may be able to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) at a United States Post Office near you.
 
-### Consider verifying your identity in person
-* If the information on your ID is not up to date, or if you look very different from your ID photo, verifying your identity online may not work.
-* Select the option to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) and visit a local United States Postal Service location to verify your identity.
+## The camera tool is not working
 
-### Check your device and browser combination
-* iOS phones or tablets should use the [Safari web browser.]({{ page.url_safari }})
-* Android phones or tablets should use the [Google Chrome web browser.]({{ page.url_chrome }})
+If Login.gov’s camera tool to take a photo of your ID is not working, check that you are using the latest version of your iOS or Android operating system, and that you are using the recommended web browser for your phone or tablet.
 
-### Update your web browser, or clear your cache and cookies
-* If you’re using Safari, you can try [updating the browser]({{ page.url_safari_update_doc }}), or [clear the cache and cookies.]({{ page.url_safari_clear_cache_doc }})
-* If you’re using Google Chrome, you can try [updating the browser]({{ page.url_chrome_update_doc }}), or [clear the cache and cookies.]({{ page.url_chrome_clear_cache_doc }})
+You may need to update your operating system or web browser, clear your cache or cookies, or give Login.gov permission to use the camera.
+
+## For iOS phones or tablets
+
+- Update to the latest version of iOS
+- Use the Safari web browser
+- If you’re using Safari, you can try updating the browser, or clear the cache and cookies
+- To give Login.gov permission to use the camera, allow access to the camera in Safari
+
+## For Android phones or tablets
+
+- Update to the latest version of Android
+- Use the Chrome web browser
+- If you’re using Chrome, you can try updating the browser, or clear the cache and cookies.
+- To give Login.gov permission to use the camera, allow access to the camera in Chrome
+
+## I got an error that Login.gov could not verify my ID
+
+If you submit your photos and get an error message that we could not verify your ID, check that you are using an accepted ID type.
+
+## Accepted ID types
+
+### Login.gov accepts these ID types:
+
+- Driver’s license from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico).
+- Non-driver’s license state-issued ID card. This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges.
+
+### We do not accept:
+
+- U.S. passports
+- military IDs
+- expired IDs or extension documents
+- paper or temporary IDs
+- non-U.S. IDs
+
+Make sure that your name, address, and other information on your ID can be easily read. Avoid bright light, glare, or shadows that make it hard to read the ID.
 
 ## Related articles
 
-* [How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
-* [Accepted identification documents](/help/verify-your-identity/accepted-identification-documents/)
+* [How do I verify my identity?](/help/verify-your-identity/overview/)
+* [Issues taking a photo of myself](/help/verify-your-identity/issues-taking-a-photo-of-myself/)
+* [Issues verifying my identity in person](/help/verify-your-identity/verify-your-identity-in-person/)
