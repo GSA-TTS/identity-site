@@ -244,6 +244,10 @@ help_page:
       slug: specific-agencies
       title: 从具体机构获得帮助
       url: /zh/help/specific-agencies/overview/
+    - description: 了解如何保护你自己和你的 Login.gov 帐户免受欺诈。
+      image: /assets/img/help/fraud-concerns.svg
+      title: 欺诈担忧
+      url: /zh/help/fraud-concerns/overview/
   p_1: 浏览常见主题
   title: 我们能怎么帮你？
 identifier:

@@ -277,6 +277,11 @@ help_page:
       slug: specific-agencies
       title: Aide avec les organismes
       url: /fr/help/specific-agencies/overview/
+    - description: Apprendre comment vous protéger ainsi que votre compte Login.gov
+        contre la fraude.
+      image: /assets/img/help/fraud-concerns.svg
+      title: Problèmes liés à la fraude
+      url: /fr/help/fraud-concerns/overview/
   p_1: Parcourir les thèmes courants
   title: Que pouvons-nous faire pour vous ?
 identifier:

@@ -254,6 +254,10 @@ help_page:
       slug: specific-agencies
       title: Help with agencies
       url: /help/specific-agencies/overview/
+    - description: Learn how to protect yourself and your Login.gov account from fraud.
+      image: /assets/img/help/fraud-concerns.svg
+      title: Fraud concerns
+      url: /help/fraud-concerns/overview/
   p_1: Browse common topics
   title: How can we help?
 identifier:
