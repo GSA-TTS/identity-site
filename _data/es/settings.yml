@@ -234,7 +234,7 @@ help_page:
         y otras funciones de la cuenta.
       image: /assets/img/help/create-account.svg
       title: Empiece a utilizar Login.gov
-      url: /es/help/get-started/overview/
+      url: /es/help/create-account/overview/
     - description: ¿Olvidó su contraseña? ¿Está bloqueado el acceso a su cuenta? Le
         ayudaremos a resolver los problemas de acceso.
       image: /assets/img/help/trouble-signing-in.svg

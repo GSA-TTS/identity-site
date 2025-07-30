@@ -248,7 +248,7 @@ help_page:
         d’authentification et sur davantage de caractéristiques des comptes.
       image: /assets/img/help/create-account.svg
       title: Démarrage avec Login.gov
-      url: /fr/help/get-started/overview/
+      url: /fr/help/create-account/overview/
     - description: Mot de passe oublié ? Compte verrouillé ? Nous vous aiderons à
         résoudre les problèmes d’accès. Nous vous aiderons à résoudre vos
         problèmes d’accès.

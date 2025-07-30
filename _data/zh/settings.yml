@@ -218,7 +218,7 @@ help_page:
     - description: 设立你的账户了解身份证实选项以及账户的更多特点。
       image: /assets/img/help/create-account.svg
       title: 开始使用Login.gov
-      url: /zh/help/get-started/overview/
+      url: /zh/help/create-account/overview/
     - description: 忘了你的密码? 被锁在了账户外？我们会帮你解决登录问题。
       image: /assets/img/help/trouble-signing-in.svg
       title: 登录有疑难?
