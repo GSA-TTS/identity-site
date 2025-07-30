@@ -255,8 +255,7 @@ help_page:
       title: Créer mon compte
       url: /fr/help/get-started/overview/
     - description: Mot de passe oublié ? Compte verrouillé ? Nous vous aiderons à
-        résoudre les problèmes d’accès. Nous vous aiderons à résoudre vos
-        problèmes d’accès.
+        résoudre les problèmes d’accès.
       image: /assets/img/help/trouble-signing-in.svg
       slug: trouble-signing-in
       title: Difficultés pour se connecter
