@@ -251,36 +251,34 @@ help_page:
     - description: Créez votre compte. Informez-vous sur les options
         d’authentification et sur davantage de caractéristiques des comptes.
       image: /assets/img/help/get-started.svg
-      title: Démarrage avec Login.gov
+      slug: get-started
+      title: Créer mon compte
       url: /fr/help/get-started/overview/
     - description: Mot de passe oublié ? Compte verrouillé ? Nous vous aiderons à
-        résoudre les problèmes d’accès. Nous vous aiderons à résoudre vos
-        problèmes d’accès.
+        résoudre les problèmes d’accès.
       image: /assets/img/help/trouble-signing-in.svg
-      title: Vous rencontrez des difficultés pour vous connecter ?
+      slug: trouble-signing-in
+      title: Difficultés pour se connecter
       url: /fr/help/trouble-signing-in/overview/
     - description: Modifiez les paramètres de votre compte, notamment votre mot de
         passe, votre numéro de téléphone, votre adresse e-mail, etc.
       image: /assets/img/help/manage-your-account.svg
-      title: Gérer votre compte
+      slug: manage-your-account
+      title: Gérer mon compte
       url: /fr/help/manage-your-account/overview/
+    - description: Informez-vous sur les possibilités de vérification de votre identité.
+      image: /assets/img/help/verify-your-id.svg
+      slug: verify-your-identity
+      title: Confirmer mon identité
+      url: /fr/help/verify-your-identity/overview/
     - description: Obtenez de l’aide avec les Programmes pour voyageurs dignes de
         confiance (TTP) et SAM.gov.
       image: /assets/img/help/help-specific-agencies.svg
-      title: Aide concernant des organismes spécifiques
+      slug: specific-agencies
+      title: Aide avec les organismes
       url: /fr/help/specific-agencies/overview/
-    - description: Informez-vous sur les possibilités de vérification de votre identité.
-      image: /assets/img/help/verify-your-id.svg
-      title: Confirmer votre identité
-      url: /fr/help/verify-your-identity/overview/
   p_1: Parcourir les thèmes courants
   title: Que pouvons-nous faire pour vous ?
-help_subpages:
-  get-started: Démarrage avec Login.gov
-  manage-your-account: Gérer votre compte
-  specific-agencies: Aide concernant des organismes spécifiques
-  trouble-signing-in: Vous rencontrez des difficultés pour vous connecter ?
-  verify-your-identity: Confirmer votre identité
 identifier:
   accessible_labels:
     description: Description de l’organisme
