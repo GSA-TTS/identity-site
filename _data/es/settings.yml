@@ -265,6 +265,7 @@ help_page:
       url: /es/help/specific-agencies/overview/
     - description: Sepa cómo protegerse y proteger su cuenta de Login.gov contra el fraude.
       image: /assets/img/help/fraud-concerns.svg
+      slug: fraud-concerns
       title: Preocupaciones de fraude
       url: /es/help/fraud-concerns/overview/
   p_1: Explorar temas comunes
