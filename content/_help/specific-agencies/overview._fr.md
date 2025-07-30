@@ -39,9 +39,8 @@ Login.gov ne peut pas réinitialiser votre mot de passe, supprimer votre compte 
 
 Nous fournissons un contenu d'aide spécifique pour nos organismes partenaires les plus importants. Pour toute question spécifique, nous vous encourageons à contacter l'organisme concerné.
 
-## Sujets de dépannage courants
+## Articles connexes
 
-{: .help-question-list}
-* [Comment se connecter à Login.gov](/fr/help/trouble-signing-in/how-to-sign-in/)
-* [Modifier votre mot de passe](/fr/help/manage-your-account/change-your-password/)
-* [Mot de passe oublié](/fr/help/trouble-signing-in/forgot-your-password/)
+* [Comment puis-je associer à nouveau mon compte à un organisme partenaire ?](/fr/help/manage-your-account/relink-your-accounts/)
+* [Comment puis-je changer mon mot de passe ?](/fr/help/manage-your-account/change-your-password/)
+* [Comment puis-je modifier l’adresse e-mail communiquée à un organisme partenaire ?](/fr/help/manage-your-account/change-partner-email-address/)
