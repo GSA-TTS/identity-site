@@ -12,6 +12,7 @@ cannot_verify_list:
   - 国际电话号码和部分美国属地的号码
   - 谷歌语音或类似 VoIP（基于 IP 的语音传输）号码
   - 高价（收费）电话号码
+  - 你可以尝试用预付费手机号码进行验证，但大多数这样的号码没有匹配记录。
 ---
 
 我们会将你的电话号码和其他个人信息与公共和专有记录进行核对，并向你发送一个一次性代码，以验证该电话号码属于你。
@@ -27,8 +28,6 @@ cannot_verify_list:
 ### 我们不接受：
 
 {% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
-
-你可以尝试用预付费手机号码进行验证，但大多数这样的号码没有匹配记录。
 
 ## 我收到出错信息，说Login.gov无法将我与这个号码匹配。
 

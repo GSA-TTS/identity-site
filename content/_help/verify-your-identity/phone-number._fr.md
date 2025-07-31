@@ -14,6 +14,7 @@ cannot_verify_list:
   - Numéros internationaux et de certains territoires des États-Unis
   - Numéros Google Voice ou VOIP (voix sur IP) similaires
   - Les numéros surtaxés (payants)
+  - Vous pouvez essayer avec un numéro de portable prépayé mais la plupart ne correspondent à aucune entrée dans les registres
 ---
 
 Nous comparons votre numéro de téléphone et d’autres renseignements personnels avec les entrées des registres publics et privés et vous envoyons un code à usage unique pour vérifier que le numéro de téléphone est bien le vôtre.
@@ -29,8 +30,6 @@ Le numéro de téléphone que vous utilisez doit être basé aux États-Unis. No
 ### Nous n’acceptons pas :
 
 {% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
-
-Vous pouvez essayer avec un numéro de portable prépayé mais la plupart ne correspondent à aucune entrée dans les registres
 
 ## J’ai reçu un message d’erreur selon lequel Login.gov n’a pas trouvé de correspondance entre mon nom et ce numéro
 

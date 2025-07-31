@@ -14,6 +14,7 @@ cannot_verify_list:
   - Números internacionales ni números de algunos territorios de los EE. UU.
   - Números de teléfono de Google Voice o de voz sobre protocolo de internet (VoIP) similares
   - Números de teléfono de tarifa especial
+  - Puede intentar hacer la verificación con un teléfono celular prepagado, pero la mayoría no se pueden cotejar con los registros
 ---
 
 Revisamos su número de teléfono y otra información personal en registros públicos y privados, y le enviamos un código de un solo uso para confirmar que el número de teléfono es el suyo.
@@ -29,8 +30,6 @@ El número de teléfono que use para verificar su identidad debe ser de los Esta
 ### No se aceptan:
 
 {% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
-
-Puede intentar hacer la verificación con un teléfono celular prepagado, pero la mayoría no se pueden cotejar con los registros
 
 ## Recibí un mensaje de error que dice que Login.gov no pudo relacionarme con este número
 

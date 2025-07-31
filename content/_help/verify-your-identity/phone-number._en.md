@@ -17,6 +17,7 @@ cannot_verify_list:
   - International numbers and numbers in some U.S. territories
   - Google Voice or similar VoIP (Voice over Internet Protocol) numbers
   - Premium rate (toll) numbers
+  - You can try to verify a prepaid cell phone, but most cannot be matched to records
 ---
 
 We check your phone number and other personal information with public and proprietary records and send you a one-time code to verify that the phone number belongs to you.
@@ -32,8 +33,6 @@ The phone number that you use to verify must be based in the United States. We a
 ### We do not accept:
 
 {% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
-
-You can try to verify a prepaid cell phone, but most cannot be matched to records
 
 ## I got an error that Login.gov could not match me to this number
 
