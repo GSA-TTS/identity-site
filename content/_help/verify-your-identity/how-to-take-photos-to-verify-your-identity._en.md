@@ -95,38 +95,76 @@ If Login.gov’s camera tool to take a photo of your ID is not working, check th
 
 You may need to update your operating system or web browser, clear your cache or cookies, or give Login.gov permission to use the camera.
 
-## For iOS phones or tablets
-
-- Update to the latest version of iOS
-- Use the Safari web browser
-- If you’re using Safari, you can try updating the browser, or clear the cache and cookies
-- To give Login.gov permission to use the camera, allow access to the camera in Safari
-
-## For Android phones or tablets
-
-- Update to the latest version of Android
-- Use the Chrome web browser
-- If you’re using Chrome, you can try updating the browser, or clear the cache and cookies.
-- To give Login.gov permission to use the camera, allow access to the camera in Chrome
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="ios-accordion"
+    >
+      For iOS phones or tablets
+    </button>
+  </h4>
+  <div id="ios-accordion" class="usa-accordion__content usa-prose">
+    <ul>
+      <li>Update to the latest version of iOS</li>
+      <li>Use the Safari web browser</li>
+      <li>If you’re using Safari, you can try updating the browser, or clear the cache and cookies</li>
+      <li>To give Login.gov permission to use the camera, allow access to the camera in Safari</li>
+    </ul>
+  </div>
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="android-accordion"
+    >
+      For Android phones or tablets
+    </button>
+  </h4>
+  <div id="android-accordion" class="usa-accordion__content usa-prose">
+    <ul>
+      <li>Update to the latest version of Android</li>
+      <li>Use the Chrome web browser</li>
+      <li>If you’re using Chrome, you can try updating the browser, or clear the cache and cookies.</li>
+      <li>To give Login.gov permission to use the camera, allow access to the camera in Chrome</li>
+    </ul>
+  </div>
+</div>
 
 ## I got an error that Login.gov could not verify my ID
 
 If you submit your photos and get an error message that we could not verify your ID, check that you are using an accepted ID type.
 
-## Accepted ID types
-
-### Login.gov accepts these ID types:
-
-- Driver’s license from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico).
-- Non-driver’s license state-issued ID card. This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges.
-
-### We do not accept:
-
-- U.S. passports
-- military IDs
-- expired IDs or extension documents
-- paper or temporary IDs
-- non-U.S. IDs
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="id-types-accordion"
+    >
+      Accepted ID types
+    </button>
+  </h4>
+  <div id="id-types-accordion" class="usa-accordion__content usa-prose">
+    <p><strong>Login.gov accepts these ID types:</strong></p>
+    <ul>
+      <li>Driver’s license from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico).</li>
+      <li>Non-driver’s license state-issued ID card. This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges.</li>
+    </ul>
+    <p><strong>We do not accept:</strong></p>
+    <ul>
+      <li>U.S. passports</li>
+      <li>military IDs</li>
+      <li>expired IDs or extension documents</li>
+      <li>paper or temporary IDs</li>
+      <li>non-U.S. IDs</li>
+    </ul>
+  </div>
+</div>
 
 Make sure that your name, address, and other information on your ID can be easily read. Avoid bright light, glare, or shadows that make it hard to read the ID.
 

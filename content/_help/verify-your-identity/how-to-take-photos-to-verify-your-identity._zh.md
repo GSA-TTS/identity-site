@@ -94,19 +94,44 @@ redirect_from:
 
 你可能需要更新你的操作系统或网络浏览器，清除缓存或魔饼，或者授权 Login.gov 使用相机。
 
-### 如果你用的是 iOS 手机或平板电脑
-
-- 更新至最新版本的 iOS 系统
-- 使用Safari 网络浏览器
-- 如果你在使用Safari，可以尝试 更新浏览器，或者清除缓存和魔饼
-- 要赋予 Login.gov 使用相机的权限，请在 Safari 中允许使用相机
-
-### 如果你用的是安卓手机或平板电脑
-
-- 更新至最新版本的安卓系统
-- 使用Chrome网络浏览器
-- 如果你在使用Google Chrome，可以尝试更新浏览器，或者清除缓存和魔饼。
-- 如果要授权 Login.gov 使用相机，请在 Chrome上允许使用相机
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="ios-accordion"
+    >
+      如果你用的是 iOS 手机或平板电脑
+    </button>
+  </h4>
+  <div id="ios-accordion" class="usa-accordion__content usa-prose">
+    <ul>
+      <li>更新至最新版本的 iOS 系统</li>
+      <li>使用 Safari 网络浏览器</li>
+      <li>如果你在使用 Safari，可以尝试更新浏览器，或者清除缓存和 Cookie</li>
+      <li>要赋予 Login.gov 使用相机的权限，请在 Safari 中允许使用相机</li>
+    </ul>
+  </div>
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="android-accordion"
+    >
+      如果你用的是安卓手机或平板电脑
+    </button>
+  </h4>
+  <div id="android-accordion" class="usa-accordion__content usa-prose">
+    <ul>
+      <li>更新至最新版本的安卓系统</li>
+      <li>使用 Chrome 网络浏览器</li>
+      <li>如果你在使用 Google Chrome，可以尝试更新浏览器，或者清除缓存和 Cookie。</li>
+      <li>如果要授权 Login.gov 使用相机，请在 Chrome 上允许使用相机</li>
+    </ul>
+  </div>
+</div>
 
 ## 我收到出错信息，说 Login.gov 无法验证我的 ID
 
@@ -114,18 +139,33 @@ redirect_from:
 
 ## 可接受的 ID 类型
 
-### Login.gov 接受以下类型的 ID ：
-
-- 美国所有50个州、哥伦比亚特区（DC）以及其他美国属地（关岛、美属维尔京岛、美属萨摩亚、马里亚纳群岛和波多黎各）的驾照
-- 州颁发的非驾照 ID 卡。这是由各州政府、哥伦比亚特区（DC）、或美国属地颁发的一种身份文件，证明你的身份但不授予驾驶特权。
-
-### 我们不接受：
-
-- 美国护照
-- 军人 ID
-- 过期的 ID 或 ID 延期文件
-- 纸质或临时 ID
-- 非美国 ID
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="id-types-accordion"
+    >
+      可接受的 ID 类型
+    </button>
+  </h4>
+  <div id="id-types-accordion" class="usa-accordion__content usa-prose">
+    <p><strong>Login.gov 接受以下类型的 ID ：</strong></p>
+    <ul>
+      <li>美国所有 50 个州、哥伦比亚特区（DC）以及其他美国属地（关岛、美属维尔京岛、美属萨摩亚、马里亚纳群岛和波多黎各）的驾照</li>
+      <li>州颁发的非驾照 ID 卡。这是由各州政府、哥伦比亚特区（DC）、或美国属地颁发的一种身份文件，证明你的身份但不授予驾驶特权。</li>
+    </ul>
+    <p><strong>我们不接受：</strong></p>
+    <ul>
+      <li>美国护照</li>
+      <li>军人 ID</li>
+      <li>过期的 ID 或 ID 延期文件</li>
+      <li>纸质或临时 ID</li>
+      <li>非美国 ID</li>
+    </ul>
+  </div>
+</div>
 
 确保你 ID上的姓名、地址和其他信息可以轻松读取。避免强光、眩光或阴影，以免ID难以读取。
 

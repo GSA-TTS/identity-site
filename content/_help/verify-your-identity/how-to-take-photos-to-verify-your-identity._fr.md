@@ -94,38 +94,76 @@ Si l’outil caméra de Login.gov permettant de prendre une photo de votre pièc
 
 Il est possible que vous deviez mettre à jour votre système d’exploitation ou votre navigateur web, vider votre cache ou supprimer vos cookies, ou autoriser Login.gov à utiliser la caméra.
 
-### Pour les téléphones ou tablettes iOS
-
-- Installez la dernière version d’iOS
-- Utilisez le navigateur Safari
-- Si vous utilisez Safari, vous pouvez essayer de mettre le navigateur à jour ou  vider le cache et effacer les cookies
-- Pour permettre à Login.gov d’utiliser la caméra, autorisez l’accès à la caméra dans Safari
-
-### Pour les téléphones ou tablettes Android
-
-- Installez la dernière version d’Android
-- Utilisez le navigateur Chrome
-- Si vous utilisez Chrome, vous pouvez essayer de mettre le navigateur à jour ou vider le cache et effacer les cookies.
-- Pour permettre à Login.gov d’utiliser la caméra, autorisez l’accès à la caméra dans Chrome
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="ios-accordion"
+    >
+      Pour les téléphones ou tablettes iOS
+    </button>
+  </h4>
+  <div id="ios-accordion" class="usa-accordion__content usa-prose">
+    <ul>
+      <li>Installez la dernière version d’iOS</li>
+      <li>Utilisez le navigateur Safari</li>
+      <li>Si vous utilisez Safari, vous pouvez essayer de mettre le navigateur à jour ou vider le cache et effacer les cookies</li>
+      <li>Pour permettre à Login.gov d’utiliser la caméra, autorisez l’accès à la caméra dans Safari</li>
+    </ul>
+  </div>
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="android-accordion"
+    >
+      Pour les téléphones ou tablettes Android
+    </button>
+  </h4>
+  <div id="android-accordion" class="usa-accordion__content usa-prose">
+    <ul>
+      <li>Installez la dernière version d’Android</li>
+      <li>Utilisez le navigateur Chrome</li>
+      <li>Si vous utilisez Chrome, vous pouvez essayer de mettre le navigateur à jour ou vider le cache et effacer les cookies.</li>
+      <li>Pour permettre à Login.gov d’utiliser la caméra, autorisez l’accès à la caméra dans Chrome</li>
+    </ul>
+  </div>
+</div>
 
 ## J’ai reçu un message d’erreur selon lequel Login.gov ne parvenait pas à vérifier ma pièce d’identité
 
 Si vous envoyez vos photos et recevez un message d’erreur selon lequel nous n’avons pas pu vérifier votre pièce d’identité, assurez-vous que le type de pièce d’identité que vous utilisez est accepté.
 
-## Types de pièces d’identité acceptés
-
-### Login.gov accepte les types de pièces d’identité suivants :
-
-- Permis de conduire des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, îles Vierges des États-Unis, Samoa américaines, îles Mariannes et Porto Rico)
-- Carte d’identité délivrée par un État. Il s'agit d'une pièce d'identité délivrée par un État, le District de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais n’autorise pas à conduire.
-
-### Nous n’acceptons pas :
-
-- Les passeports américains
-- Les cartes d'identité militaires
-- Les pièces d’identité expirées ou les documents prorogés
-- Les documents d’identité papier ou provisoires
-- Les pièces d’identité d’un pays autre que les États-Unis
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="id-types-accordion"
+    >
+      Types de pièces d’identité acceptés
+    </button>
+  </h4>
+  <div id="id-types-accordion" class="usa-accordion__content usa-prose">
+    <p><strong>Login.gov accepte les types de pièces d’identité suivants :</strong></p>
+    <ul>
+      <li>Permis de conduire des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, îles Vierges des États-Unis, Samoa américaines, îles Mariannes et Porto Rico)</li>
+      <li>Carte d’identité délivrée par un État. Il s'agit d'une pièce d'identité délivrée par un État, le District de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais n’autorise pas à conduire.</li>
+    </ul>
+    <p><strong>Nous n’acceptons pas :</strong></p>
+    <ul>
+      <li>Les passeports américains</li>
+      <li>Les cartes d'identité militaires</li>
+      <li>Les pièces d’identité expirées ou les documents prorogés</li>
+      <li>Les documents d’identité papier ou provisoires</li>
+      <li>Les pièces d’identité d’un pays autre que les États-Unis</li>
+    </ul>
+  </div>
+</div>
 
 Veillez à ce que votre nom, prénom, adresse et autres renseignements figurant sur votre pièce d’identité soient aisément lisibles. Évitez la lumière vive, les reflets ou les ombres qui rendent la pièce d’identité difficile à lire.
 

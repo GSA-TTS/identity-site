@@ -94,38 +94,76 @@ Si la herramienta de la cámara de Login.gov para tomar una fotografía de su id
 
 Si necesita actualizar el sistema operativo o navegador web, borre la memoria caché o las cookies, o dé a Login.gov permiso para usar la cámara.
 
-### Para teléfonos o tabletas iOS
-
-- Actualice el dispositivo iOS a la versión más reciente.
-- Use el navegador web Safari.
-- Si está usando Safari, intente actualizar el navegador o borrar la memoria caché y las cookies.
-- Para aceptar que Login.gov use la cámara, permita el acceso a la cámara en Safari.
-
-### Para teléfonos o tabletas Android
-
-- Actualice el dispositivo Android a la versión más reciente.
-- Use el navegador web Chrome.
-- Si está usando Chrome, intente actualizar el navegador o borrar la memoria caché y las cookies.
-- Para aceptar que Login.gov use la cámara, permita el acceso a la cámara en Chrome.
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="ios-accordion"
+    >
+      Para teléfonos o tabletas iOS
+    </button>
+  </h4>
+  <div id="ios-accordion" class="usa-accordion__content usa-prose">
+    <ul>
+      <li>Actualice el dispositivo iOS a la versión más reciente.</li>
+      <li>Use el navegador web Safari.</li>
+      <li>Si está usando Safari, intente actualizar el navegador o borrar la memoria caché y las cookies.</li>
+      <li>Para aceptar que Login.gov use la cámara, permita el acceso a la cámara en Safari.</li>
+    </ul>
+  </div>
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="android-accordion"
+    >
+      Para teléfonos o tabletas Android
+    </button>
+  </h4>
+  <div id="android-accordion" class="usa-accordion__content usa-prose">
+    <ul>
+      <li>Actualice el dispositivo Android a la versión más reciente.</li>
+      <li>Use el navegador web Chrome.</li>
+      <li>Si está usando Chrome, intente actualizar el navegador o borrar la memoria caché y las cookies.</li>
+      <li>Para aceptar que Login.gov use la cámara, permita el acceso a la cámara en Chrome.</li>
+    </ul>
+  </div>
+</div>
 
 ## Recibí un mensaje de error que dice que Login.gov no pudo verificar mi identificación
 
 Si envía sus fotos y recibe un mensaje de error que indica que su identificación no se pudo verificar, asegúrese de que está usando un tipo identificación aceptable.
 
-## Tipos de identificación aceptables
-
-### Login.gov acepta estos tipos de identificación:
-
-- Licencia de conducir de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico).
-- Tarjeta de identificación emitida por el estado que no sea una licencia de conducir, es decir, un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no otorga privilegios para conducir.
-
-### No se aceptan:
-
-- Pasaportes estadounidenses
-- Identificaciones militares
-- Identificaciones vencidas o documentos de prórroga
-- Identificaciones en papel o temporales
-- Identificaciones que no sean de los EE. UU.
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="id-types-accordion"
+    >
+      Tipos de identificación aceptables
+    </button>
+  </h4>
+  <div id="id-types-accordion" class="usa-accordion__content usa-prose">
+    <p><strong>Login.gov acepta estos tipos de identificación:</strong></p>
+    <ul>
+      <li>Licencia de conducir de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico).</li>
+      <li>Tarjeta de identificación emitida por el estado que no sea una licencia de conducir, es decir, un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no otorga privilegios para conducir.</li>
+    </ul>
+    <p><strong>No se aceptan:</strong></p>
+    <ul>
+      <li>Pasaportes estadounidenses</li>
+      <li>Identificaciones militares</li>
+      <li>Identificaciones vencidas o documentos de prórroga</li>
+      <li>Identificaciones en papel o temporales</li>
+      <li>Identificaciones que no sean de los EE. UU.</li>
+    </ul>
+  </div>
+</div>
 
 Revise que su nombre, domicilio y demás información en su identificación se pueda leer fácilmente. Evite luces brillantes, reflejos o sombras que dificulten la lectura de la identificación.
 
