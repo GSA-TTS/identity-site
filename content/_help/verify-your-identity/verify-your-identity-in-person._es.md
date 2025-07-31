@@ -3,6 +3,9 @@ title: Problemas al verificar mi identidad en persona
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/verify-your-identity-in-person/
 order: 6
+accept_list:
+- La misma identificación que usó para ingresar su información en Login.gov.
+- El código de barras que Login.gov le envió por correo electrónico. Puede imprimir el correo electrónico o mostrarlo en su dispositivo móvil.
 ---
 
 Login.gov ofrece la verificación de identidad en persona por medio del Servicio Postal de los EE. UU. (USPS). La verificación de identidad en persona solo se puede hacer para algunas agencias asociadas.
@@ -15,10 +18,9 @@ Antes de acudir a la oficina de correos, necesitamos [verificar su información 
 
 Una vez que haya verificado su información en línea, le enviaremos por correo electrónico un código de barras y una fecha límite para ir a la oficina de correos.
 
-Cuando vaya a la oficina de correos, lleve:
+### Cuando vaya a la oficina de correos, lleve:
 
-- La misma identificación que usó para ingresar su información en Login.gov.
-- El código de barras que Login.gov le envió por correo electrónico. Puede imprimir el correo electrónico o mostrarlo en su dispositivo móvil.
+{% include components/icon-list.html items=page.accept_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h4 class="usa-accordion__heading">

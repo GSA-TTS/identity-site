@@ -4,6 +4,9 @@ title: 亲身验证我的身份问题
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/verify-your-identity-in-person/
 order: 6
+accept_list:
+- 你用来在 Login.gov 上输入你信息的同一 ID。
+- Login.gov 电邮给你的那个条形码。你可以把电邮打印出来，或在你的移动设施上显示。
 ---
 
 Login.gov 与美国邮局（USPS）合作，提供在邮局亲身验证身份的服务。只有一些合作伙伴机构有亲身身份验证。
@@ -16,10 +19,9 @@ Login.gov 与美国邮局（USPS）合作，提供在邮局亲身验证身份的
 
 你在网上验证信息后，我们会电邮给你一个条形码以及你必须去邮局的截至日期。
 
-你去邮局时，请带上：
+### 你去邮局时，请带上：
 
-- 你用来在 Login.gov 上输入你信息的同一 ID。
-- Login.gov 电邮给你的那个条形码。你可以把电邮打印出来，或在你的移动设施上显示。
+{% include components/icon-list.html items=page.accept_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h4 class="usa-accordion__heading">

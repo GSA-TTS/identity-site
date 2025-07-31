@@ -3,6 +3,9 @@ title: Problèmes liés à la vérification de mon identité en personne
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/
 order: 6
+accept_list:
+- La même pièce d'identité que celle que vous avez utilisée pour saisir les renseignements vous concernant sur Login.gov.
+- Le code-barres que Login.gov vous a envoyé par e-mail. Vous pouvez imprimer l’e-mail ou le montrer depuis votre téléphone portable.
 ---
 
 Login.gov propose la vérification d'identité en personne par l’intermédiaire du Service postal des États-Unis (USPS). La vérification d'identité en personne est uniquement disponible pour certains organismes partenaires.
@@ -15,10 +18,9 @@ Nous devons [vérifier vos renseignements personnels](/fr/help/verify-your-ident
 
 Une fois que vos renseignements auront été confirmés en ligne, nous vous enverrons par e-mail un code-barres et une date limite pour vous rendre au bureau de poste.
 
-Quand vous allez au bureau de poste, apportez :
+### Quand vous allez au bureau de poste, apportez :
 
-- La même pièce d'identité que celle que vous avez utilisée pour saisir les renseignements vous concernant sur Login.gov.
-- Le code-barres que Login.gov vous a envoyé par e-mail. Vous pouvez imprimer l’e-mail ou le montrer depuis votre téléphone portable.
+{% include components/icon-list.html items=page.accept_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h4 class="usa-accordion__heading">

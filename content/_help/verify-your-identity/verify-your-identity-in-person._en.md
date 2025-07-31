@@ -4,6 +4,9 @@ title: Issues verifying my identity in person
 category: verify-your-identity
 permalink: /help/verify-your-identity/verify-your-identity-in-person/
 order: 6
+accept_list:
+- The same ID that you used to enter your information on Login.gov.
+- The barcode that Login.gov emailed to you. You can print the email or show the email from your mobile device.
 ---
 
 Login.gov offers in-person identity verification with the United States Postal Service (USPS). In-person identity verification is only available for some partner agencies.
@@ -16,10 +19,9 @@ We need to [verify your personal information](/help/verify-your-identity/issues-
 
 Once you verify your information online, we will email you a barcode and a deadline to go to the Post Office.
 
-When you go to the Post Office, bring:
+### When you go to the Post Office, bring:
 
-- The same ID that you used to enter your information on Login.gov.
-- The barcode that Login.gov emailed to you. You can print the email or show the email from your mobile device.
+{% include components/icon-list.html items=page.accept_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h4 class="usa-accordion__heading">
