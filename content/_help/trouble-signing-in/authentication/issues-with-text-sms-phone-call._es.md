@@ -5,6 +5,8 @@ category: trouble-signing-in
 child: true
 order: 2
 permalink: /es/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/
+redirect_from:
+  - /es/help/manage-your-account/personal-key/
 ---
 
 Los mensajes de texto (SMS) o las llamadas telefónicas son opciones prácticas, pero sumamente vulnerables a robos, jaqueos y otras intrusiones.

@@ -5,6 +5,8 @@ category: trouble-signing-in
 child: true
 order: 2
 permalink: /fr/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/
+redirect_from:
+  - /fr/help/manage-your-account/personal-key/
 ---
 
 Les SMS ou les appels téléphoniques sont pratiques mais extrêmement vulnérables face au vol, au piratage et à d'autres attaques.

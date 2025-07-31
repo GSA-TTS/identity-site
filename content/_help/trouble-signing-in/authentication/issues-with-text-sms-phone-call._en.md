@@ -5,6 +5,8 @@ category: trouble-signing-in
 child: true
 order: 2
 permalink: /help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/
+redirect_from:
+  - /help/manage-your-account/personal-key/
 ---
 
 Text messages/SMS or phone calls are convenient but are extremely vulnerable to theft, hackers, and other attacks.

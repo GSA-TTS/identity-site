@@ -5,6 +5,8 @@ category: trouble-signing-in
 child: true
 order: 2
 permalink: /zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/
+redirect_from:
+  - /zh/help/manage-your-account/personal-key/
 ---
 
 短信/SMS 或接听电话很方便，但极易遭到盗窃以及黑客和其他攻击。
