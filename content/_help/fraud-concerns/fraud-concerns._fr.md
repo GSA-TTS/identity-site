@@ -25,7 +25,7 @@ Notre priorité est votre sécurité. Login.gov a recours à des méthodes de d�
 ### Signaler une activité suspecte ou frauduleuse
 Login.gov ne peut enquêter sur les plaintes pour fraude impliquant d’autres organismes ou services. Toutefois, si vous pensez que vos informations personnelles ont été utilisées de manière frauduleuse, ou que quelqu’un a créé un compte à votre nom, vous devez le signaler aux autorités compétentes :
 
-### Federal Resources for Reporting Fraud
+### Ressources fédérales pour le signalement des fraudes
    * **Identity Theft**
       * **Website:** [IdentityTheft.gov](http://identitytheft.gov/)
       * **Phone:** 1-877-438-4338 (FTC)
