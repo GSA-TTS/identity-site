@@ -19,7 +19,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       Comment puis-je gérer quelle adresse e-mail est communiquée à un organisme partenaire lorsque je m'inscris auprès d'un nouvel organisme partenaire ?
@@ -60,7 +60,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       Comment puis-je choisir quelle adresse e-mail est communiquée à un organisme partenaire après avoir confirmé mon identité ?
@@ -101,7 +101,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a3"
     >
       Comment puis-je choisir quelle adresse e-mail est communiquée à un organisme partenaire auprès duquel je me suis connecté ?

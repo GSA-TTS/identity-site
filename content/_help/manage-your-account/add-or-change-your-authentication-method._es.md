@@ -23,7 +23,7 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       ¿Puedo desactivar el segundo método de autenticación?
@@ -45,7 +45,7 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       ¿Por qué sigo recibiendo solicitudes de autenticación después de configurar la función “Recordar navegador”?

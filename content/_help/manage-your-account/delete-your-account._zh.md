@@ -21,7 +21,7 @@ order: 6
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       如果你能使用自己的身份证实方法，请按照以下步骤删除你的账户：
@@ -45,7 +45,7 @@ order: 6
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       如果你不能使用自己的身份证实方法，请按照以下步骤删除你的账户：

@@ -34,7 +34,7 @@ Follow these steps to change your Login.gov password.
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       How to reset your password if you have a personal key (verified your identity)

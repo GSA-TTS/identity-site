@@ -19,7 +19,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       ¿Cómo controlo cuál correo electrónico se proporciona al iniciar sesión en una agencia nueva?
@@ -60,7 +60,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       ¿Cómo selecciono cuál correo electrónico se proporciona a una agencia asociada después de verificar mi identidad?
@@ -101,7 +101,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a3"
     >
       ¿Cómo selecciono cuál correo electrónico puedo proporcionar a una agencia asociada con la que me conecté?

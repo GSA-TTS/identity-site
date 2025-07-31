@@ -27,7 +27,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       Si vous avez accès à vos méthodes d’authentification, suivez les étapes suivantes pour supprimer votre compte :
@@ -51,7 +51,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       Si vous n’avez PAS accès à vos méthodes d’authentification, suivez les étapes ci-dessous pour supprimer votre compte :

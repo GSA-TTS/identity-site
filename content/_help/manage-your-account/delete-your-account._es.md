@@ -27,7 +27,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       Si tiene acceso a sus métodos de autenticación, siga estos pasos para eliminar su cuenta:
@@ -51,7 +51,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       Si NO tiene acceso a sus métodos de autenticación, siga estos pasos para eliminar la cuenta:

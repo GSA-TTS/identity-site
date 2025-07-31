@@ -19,7 +19,7 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       当我登录新的合作伙伴网站后，如何管理与其分享哪个电邮？
@@ -60,7 +60,7 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       我验证了身份后，如何选择与合作伙伴机构分享哪个电邮？
@@ -101,7 +101,7 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a3"
     >
       我如何选择把哪个电邮与一个已连接的合作伙伴机构分享？

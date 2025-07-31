@@ -32,7 +32,7 @@ Suivez les étapes ci-dessous pour changer votre mot de passe Login.gov.
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       Comment réinitialiser votre mot de passe si vous disposez d’une clé personnelle (vous avez confirmé votre identité)

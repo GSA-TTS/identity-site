@@ -28,7 +28,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       If you do have access to your authentication methods, follow these steps to delete your account:
@@ -52,7 +52,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       Follow these steps to delete your account if you do NOT have access to your authentication methods:

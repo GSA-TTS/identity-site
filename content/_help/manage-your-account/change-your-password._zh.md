@@ -30,7 +30,7 @@ order: 3
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       如果你有个人密钥（已验证你的身份），如何重置密码

@@ -21,7 +21,7 @@ You can add multiple email addresses to your Login.gov account and you can delet
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       How do I manage which email gets shared when signing in to a new partner agency?
@@ -62,7 +62,7 @@ You can add multiple email addresses to your Login.gov account and you can delet
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       How do I choose which email gets shared with a partner agency after I verify my identity?
@@ -103,7 +103,7 @@ You can add multiple email addresses to your Login.gov account and you can delet
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a3"
     >
       How do I choose which email gets shared with a partner agency I connected with?

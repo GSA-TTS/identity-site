@@ -23,7 +23,7 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       Puis-je désactiver la deuxième méthode d'authentification ?
@@ -45,7 +45,7 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       Pourquoi est-ce que je reçois des demandes d’authentification après avoir cliqué sur « Se souvenir de ce navigateur »

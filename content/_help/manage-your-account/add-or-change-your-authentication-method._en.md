@@ -26,7 +26,7 @@ If you lost your authentication method and do not have a backup connected to you
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       Can I turn off the second authentication method?
@@ -48,7 +48,7 @@ If you lost your authentication method and do not have a backup connected to you
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       Why am I still receiving requests to authenticate after setting up “remember browser”

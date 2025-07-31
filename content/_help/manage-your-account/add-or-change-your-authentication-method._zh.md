@@ -23,7 +23,7 @@ order: 5
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       我可以关闭第二种身份证实方法吗？
@@ -45,7 +45,7 @@ order: 5
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       为什么我在设置“记住浏览器”后仍然收到身份证实要求
