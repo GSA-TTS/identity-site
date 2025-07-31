@@ -5,6 +5,7 @@ category: trouble-signing-in
 permalink: /help/trouble-signing-in/how-to-sign-in/
 order: 2
 redirect_from:
+  - /help/manage-your-account/personal-key/
   - /help/trouble-signing-in/forgot-your-personal-key/
   - /en/help/trouble-signing-in/forgot-your-personal-key/
   - /help/signing-in/
