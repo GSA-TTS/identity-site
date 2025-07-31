@@ -35,7 +35,7 @@ After setting a device nickname, please follow the appropriate steps below, depe
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       Mobile devices
@@ -53,7 +53,7 @@ After setting a device nickname, please follow the appropriate steps below, depe
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       Desktop computers

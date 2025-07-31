@@ -36,7 +36,7 @@ Después de configurar el alias del dispositivo, siga los pasos que se indican a
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       Dispositivos móviles
@@ -54,7 +54,7 @@ Después de configurar el alias del dispositivo, siga los pasos que se indican a
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       Computadoras de escritorio

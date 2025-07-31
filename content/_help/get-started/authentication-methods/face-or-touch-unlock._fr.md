@@ -35,7 +35,7 @@ Après avoir donné un surnom à votre appareil, veuillez suivre les étapes ci-
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       Appareils mobiles
@@ -53,7 +53,7 @@ Après avoir donné un surnom à votre appareil, veuillez suivre les étapes ci-
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       Ordinateurs de bureau
