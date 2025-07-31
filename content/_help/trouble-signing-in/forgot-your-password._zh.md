@@ -36,7 +36,7 @@ order: 1
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       如果你有个人密钥，如何重设密码

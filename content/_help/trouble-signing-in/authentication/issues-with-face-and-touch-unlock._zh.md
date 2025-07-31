@@ -16,7 +16,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       我设置人脸或触摸解锁或用其登录有困难
@@ -52,7 +52,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       我收到了一条关于 PIN 码、图案、QR 码、安全密钥或通行密钥的信息。我不明白这是什么意思和/或不记得设置这些东西。
@@ -75,7 +75,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a3"
     >
       我不明白“云同步”是什么意思或者与人脸或触摸解锁有什么关系。
@@ -92,7 +92,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a4"
     >
       我的手机丢了或者我换了个新手机，现在无法使用人脸或触摸解锁来登录。
@@ -110,7 +110,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a5"
     >
       人脸或触摸解锁不管用

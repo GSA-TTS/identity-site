@@ -16,7 +16,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       Tengo problemas para configurar o para iniciar sesión con el desbloqueo facial o táctil.
@@ -52,7 +52,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       Recibo un mensaje sobre un PIN, patrón, código QR, clave de seguridad o clave de paso. No sé a qué se refiere, ni recuerdo haberlo configurado.
@@ -75,7 +75,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a3"
     >
       No sé qué significa “sincronización en la nube” ni cómo se relaciona con el desbloqueo facial o táctil.
@@ -92,7 +92,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a4"
     >
       Perdí mi teléfono o tengo uno nuevo, y ahora no puedo usar el desbloqueo facial o táctil para iniciar sesión.
@@ -110,7 +110,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a5"
     >
       El desbloqueo facial o táctil no funciona

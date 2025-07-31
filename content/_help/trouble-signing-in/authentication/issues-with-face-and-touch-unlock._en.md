@@ -16,7 +16,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       I’m having trouble setting up or signing in with face or touch unlock.
@@ -54,7 +54,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       I’m getting a message about a PIN, pattern, QR code, security key, or passkey. I don’t know what this is and/or I don’t remember setting this up.
@@ -77,7 +77,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a3"
     >
       I don’t know what “cloud sync” means or how it relates to Face or touch unlock.
@@ -94,7 +94,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a4"
     >
       I lost my phone or got a new phone, and now I can’t use face or touch unlock to sign in.
@@ -112,7 +112,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a5"
     >
       Face or touch unlock isn’t working

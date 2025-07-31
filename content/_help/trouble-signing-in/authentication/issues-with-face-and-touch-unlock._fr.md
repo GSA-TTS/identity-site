@@ -16,7 +16,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       Je ne parviens pas à configurer le déverrouillage facial ou tactile ou à me connecter à l’aide de cette méthode.
@@ -52,7 +52,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a2"
     >
       Je reçois un message concernant un PIN, un schéma, un QR code, une clé de sécurité ou une clé d'accès. Je ne sais pas de quoi il s'agit et/ou je ne me souviens pas d'avoir configuré cela.
@@ -75,7 +75,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a3"
     >
       Je ne sais pas ce que signifie « synchronisation dans le cloud », ni en quoi c’est lié au déverrouillage facial ou tactile.
@@ -92,7 +92,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a4"
     >
       J'ai perdu mon téléphone ou j'en ai changé, et maintenant je ne peux plus utiliser le déverrouillage facial ou tactile pour me connecter.
@@ -110,7 +110,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a5"
     >
       Le déverrouillage facial ou tactile ne fonctionne pas

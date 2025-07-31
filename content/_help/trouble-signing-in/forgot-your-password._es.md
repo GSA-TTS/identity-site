@@ -36,7 +36,7 @@ redirect_from:
     <button
       type="button"
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="b-a1"
     >
       Cómo restablecer su contraseña si tiene una clave personal
