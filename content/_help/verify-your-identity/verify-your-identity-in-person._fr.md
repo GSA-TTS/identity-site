@@ -20,40 +20,85 @@ Quand vous allez au bureau de poste, apportez :
 - La même pièce d'identité que celle que vous avez utilisée pour saisir les renseignements vous concernant sur Login.gov.
 - Le code-barres que Login.gov vous a envoyé par e-mail. Vous pouvez imprimer l’e-mail ou le montrer depuis votre téléphone portable.
 
-## Quelle pièce d’identité puis-je apporter pour confirmer mon identité en personne ?
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="b-a1"
+    >
+      Quelle pièce d’identité puis-je apporter pour confirmer mon identité en personne ?
+    </button>
+  </h4>
+  <div id="b-a1" class="usa-accordion__content usa-prose">
+    <p>Login.gov accepte les types de pièces d’identité suivants :</p>
+    <ul>
+      <li>Permis de conduire des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, îles Vierges des États-Unis, Samoa américaines, îles Mariannes et Porto Rico)</li>
+      <li>Carte d’identité délivrée par un État. Il s'agit d'une pièce d'identité délivrée par un État, le District de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais n’autorise pas à conduire.</li>
+    </ul>
+    <p>Nous n’acceptons pas :</p>
+    <ul>
+      <li>Les passeports américains</li>
+      <li>Les cartes d'identité militaires</li>
+      <li>Les pièces d’identité expirées ou les documents prorogés</li>
+      <li>Les documents d’identité papier ou provisoires</li>
+      <li>Les pièces d’identité d’un pays autre que les États-Unis</li>
+    </ul>
+    <p>Votre pièce d’identité ne doit pas être périmée. Si vous ne possédez aucune pièce d’identité parmi les types ci-dessus, vous ne pourrez pas utiliser Login.gov pour confirmer votre identité en personne. Veuillez contacter l'organisme auquel vous souhaitez accéder pour trouver une autre solution.</p>
+  </div>
+</div>
 
-Login.gov accepte les types de pièces d’identité suivants :
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="b-a2"
+    >
+      À quel bureau de poste puis-je me rendre pour confirmer mon identité ?
+    </button>
+  </h4>
+  <div id="b-a2" class="usa-accordion__content usa-prose">
+    <p>Lorsque vous commencez la procédure sur Login.gov, vous pouvez choisir un bureau de poste participant près de chez vous. Vous pouvez également <a href="/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/">rechercher un bureau de poste près de chez vous</a> dans le Centre d’aide de Login.gov.</p>
+    <p>Une fois que vous avez reçu un code-barres en ligne, vous pouvez vous rendre dans n’importe quel bureau de poste offrant un service de vérification d’identité en personne. La vérification d’identité en personne est disponible dans les 50 États ainsi que les territoires des États-Unis suivants : îles Vierges américaines, Samoa américaines, Guam, Porto Rico et îles Mariannes du Nord.</p>
+  </div>
+</div>
 
-- Permis de conduire des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, îles Vierges des États-Unis, Samoa américaines, îles Mariannes et Porto Rico)
-- Carte d’identité délivrée par un État. Il s'agit d'une pièce d'identité délivrée par un État, le District de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais n’autorise pas à conduire.
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="b-a3"
+    >
+      À qui dois-je m’adresser au bureau de poste ?
+    </button>
+  </h4>
+  <div id="b-a3" class="usa-accordion__content usa-prose">
+    <p>Faites la queue au bureau de poste. L'employé scannera votre code-barres et vérifiera votre pièce d’identité.</p>
+    <p>Dites à l’employé : « J'ai reçu un e-mail me demandant de faire scanner ce code-barres dans ce bureau de poste » ou « Je suis venu pour confirmer mes coordonnées/mon identité ». Si l’employé ne sait toujours pas comment procéder, vous pouvez demander qu’un responsable vous aide.</p>
+    <p>Une fois que l’employé a vérifié vos documents, la procédure au bureau de poste est terminée. L'employé ne recevra pas vos résultats.</p>
+  </div>
+</div>
 
-Nous n’acceptons pas :
-
-- Les passeports américains
-- Les cartes d'identité militaires
-- Les pièces d’identité expirées ou les documents prorogés
-- Les documents d’identité papier ou provisoires
-- Les pièces d’identité d’un pays autre que les États-Unis
-
-Votre pièce d’identité ne doit pas être périmée. Si vous ne possédez aucune pièce d’identité parmi les types ci-dessus, vous ne pourrez pas utiliser Login.gov pour confirmer votre identité en personne. Veuillez contacter l'organisme auquel vous souhaitez accéder pour trouver une autre solution.
-
-## À quel bureau de poste puis-je me rendre pour confirmer mon identité ?
-
-Lorsque vous commencez la procédure sur Login.gov, vous pouvez choisir un bureau de poste participant près de chez vous. Vous pouvez également [rechercher un bureau de poste près de chez vous](/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/) dans le Centre d’aide de Login.gov.
-
-Une fois que vous avez reçu un code-barres en ligne, vous pouvez vous rendre dans n’importe quel bureau de poste offrant un service de vérification d’identité en personne. La vérification d’identité en personne est disponible dans les 50 États ainsi que les territoires des États-Unis suivants : îles Vierges américaines, Samoa américaines, Guam, Porto Rico et îles Mariannes du Nord.
-
-## À qui dois-je m’adresser au bureau de poste ?
-
-Faites la queue au bureau de poste. L'employé scannera votre code-barres et vérifiera votre pièce d’identité.
-
-Dites à l’employé : « J'ai reçu un e-mail me demandant de faire scanner ce code-barres dans ce bureau de poste » ou « Je suis venu pour confirmer mes coordonnées/mon identité ». Si l’employé ne sait toujours pas comment procéder, vous pouvez demander qu’un responsable vous aide.
-
-Une fois que l’employé a vérifié vos documents, la procédure au bureau de poste est terminée. L'employé ne recevra pas vos résultats.
-
-## Que se passe-t-il après ma visite au bureau de poste ?
-
-Vous recevrez un e-mail de Login.gov dans un délai de 24 heures après votre visite pour vous informer que votre identité a été confirmée, ou non. Vérifiez si vous avez reçu un message de [no-reply@login.gov](mailto:no-reply@login.gov) dans votre messagerie.
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="b-a4"
+    >
+      Que se passe-t-il après ma visite au bureau de poste ?
+    </button>
+  </h4>
+  <div id="b-a4" class="usa-accordion__content usa-prose">
+    <p>Vous recevrez un e-mail de <a href="https://secure.login.gov/">Login.gov</a> dans un délai de 24 heures après votre visite pour vous informer que votre identité a été confirmée, ou non. Vérifiez si vous avez reçu un message de <a href="mailto:no-reply@login.gov">no-reply@login.gov</a> dans votre messagerie.</p>
+  </div>
+</div>
 
 ## Après m’être rendu au bureau de poste, j’ai reçu un e-mail m’informant que mon identité n’avait pas pu être vérifiée
 

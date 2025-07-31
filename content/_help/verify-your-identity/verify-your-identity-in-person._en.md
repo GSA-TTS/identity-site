@@ -21,40 +21,85 @@ When you go to the Post Office, bring:
 - The same ID that you used to enter your information on Login.gov.
 - The barcode that Login.gov emailed to you. You can print the email or show the email from your mobile device.
 
-## What ID can I use to verify my identity in person?
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="b-a1"
+    >
+      What ID can I use to verify my identity in person?
+    </button>
+  </h4>
+  <div id="b-a1" class="usa-accordion__content usa-prose">
+    <p>Login.gov accepts these ID types:</p>
+    <ul>
+      <li>Driver’s license from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico).</li>
+      <li>Non-driver’s license state-issued ID card. This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges.</li>
+    </ul>
+    <p>We do not accept:</p>
+    <ul>
+      <li>U.S. passports</li>
+      <li>military IDs</li>
+      <li>expired IDs or extension documents</li>
+      <li>paper or temporary IDs</li>
+      <li>non-U.S. IDs</li>
+    </ul>
+    <p>Your ID must not be expired. If you do not have one of these ID types, you cannot use Login.gov for in-person identity verification. Please contact the agency you are trying to access to find out what you can do instead.</p>
+  </div>
+</div>
 
-Login.gov accepts these ID types:
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="b-a2"
+    >
+      Which Post Office can I visit to verify my identity?
+    </button>
+  </h4>
+  <div id="b-a2" class="usa-accordion__content usa-prose">
+    <p>When you start the process on Login.gov, you can select a participating Post Office near you. You can also <a href="/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/">search for a Post Office near you</a> in Login.gov’s Help Center.</p>
+    <p>Once you have received a barcode online, you can go to any Post Office where in-person identity verification is available. In-person identity verification is available in all 50 states and the following U.S. Territories: U.S. Virgin Islands, American Samoa, Guam, Puerto Rico and the Northern Mariana Islands.</p>
+  </div>
+</div>
 
-* Driver’s license from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico).
-* Non-driver’s license state-issued ID card. This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges.
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="b-a3"
+    >
+      Who do I speak to at the Post Office?
+    </button>
+  </h4>
+  <div id="b-a3" class="usa-accordion__content usa-prose">
+    <p>Wait in line at the Post Office. The retail associate will scan your barcode and review your ID.</p>
+    <p>Tell the retail associate: “I received an email telling me to get this barcode scanned at this Post Office” or “I’m here to verify my information/identity”. If the retail associate still does not know how to proceed, you can request a supervisor to help you.</p>
+    <p>After the retail associate has reviewed your documents, you’re done at the Post Office. The retail associate will not receive your results.</p>
+  </div>
+</div>
 
-We do not accept:
-
-* U.S. passports
-* military IDs
-* expired IDs or extension documents
-* paper or temporary IDs
-* non-U.S. IDs
-
-Your ID must not be expired. If you do not have one of these ID types, you cannot use Login.gov for in-person identity verification. Please contact the agency you are trying to access to find out what you can do instead.
-
-## Which Post Office can I visit to verify my identity?
-
-When you start the process on Login.gov, you can select a participating Post Office near you. You can also [search for a Post Office near you](/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/) in Login.gov’s Help Center.
-
-Once you have received a barcode online, you can go to any Post Office where in-person identity verification is available. In-person identity verification is available in all 50 states and the following U.S. Territories: U.S. Virgin Islands, American Samoa, Guam, Puerto Rico and the Northern Mariana Islands.
-
-## Who do I speak to at the Post Office?
-
-Wait in line at the Post Office. The retail associate will scan your barcode and review your ID.
-
-Tell the retail associate: “I received an email telling me to get this barcode scanned at this Post Office” or “I’m here to verify my information/identity”. If the retail associate still does not know how to proceed, you can request a supervisor to help you.
-
-After the retail associate has reviewed your documents, you’re done at the Post Office. The retail associate will not receive your results.
-
-## What happens after I go to the Post Office?
-
-You’ll get an email from [Login.gov](https://secure.login.gov/) within 24 hours of visiting a Post Office telling you if your identity verification was successful or unsuccessful. Check your email for a message from [no-reply@login.gov](mailto:no-reply@login.gov).
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="b-a4"
+    >
+      What happens after I go to the Post Office?
+    </button>
+  </h4>
+  <div id="b-a4" class="usa-accordion__content usa-prose">
+    <p>You’ll get an email from <a href="https://secure.login.gov/">Login.gov</a> within 24 hours of visiting a Post Office telling you if your identity verification was successful or unsuccessful. Check your email for a message from <a href="mailto:no-reply@login.gov">no-reply@login.gov</a>.</p>
+  </div>
+</div>
 
 ## I received an unsuccessful email result after going to the Post Office
 
