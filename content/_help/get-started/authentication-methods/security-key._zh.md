@@ -7,7 +7,7 @@ child: true
 order: 3
 ---
 
-安全密钥是一个实体设备，可以连接到电脑或移动设备上，为你的Login.gov 账户提供额外一层保护。安全密钥与[个人密钥](/help/manage-your-account/personal-key/)不同。
+安全密钥是一个实体设备，可以连接到电脑或移动设备上，为你的Login.gov 账户提供额外一层保护。安全密钥与[个人密钥](/zh/help/trouble-signing-in/how-to-sign-in/)不同。
 
 使用安全密钥比依赖你手机更安全，因为安全密钥有防止黑客攻击和网上钓鱼的内置保护机制。Login.gov 要求符合 [FIDO (线上快速身份证实) 标准](https://fidoalliance.org/) 的安全密钥。
 

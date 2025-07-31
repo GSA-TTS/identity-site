@@ -7,7 +7,7 @@ child: true
 order: 3
 ---
 
-A security key is a physical device that you can connect to your computer or mobile device to add an extra layer of protection to your Login.gov account. It is not the same as a [personal key](/help/manage-your-account/personal-key/).
+A security key is a physical device that you can connect to your computer or mobile device to add an extra layer of protection to your Login.gov account. It is not the same as a [personal key](/help/trouble-signing-in/how-to-sign-in/).
 
 Using a security key is more secure than relying on your phone because it has built-in protections against hacking and phishing attacks. Login.gov requires security keys that meet the [FIDO (Fast Identity Online) standards](https://fidoalliance.org/).
 

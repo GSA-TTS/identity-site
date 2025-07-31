@@ -7,7 +7,7 @@ child: true
 order: 3
 ---
 
-Una clave de seguridad es un dispositivo físico que puede conectar a su computadora o dispositivo móvil para añadir un nivel más de protección a su cuenta de Login.gov. No es lo mismo que una [clave personal](/es/help/manage-your-account/personal-key/).
+Una clave de seguridad es un dispositivo físico que puede conectar a su computadora o dispositivo móvil para añadir un nivel más de protección a su cuenta de Login.gov. No es lo mismo que una [clave personal](/es/help/trouble-signing-in/how-to-sign-in/).
 
 El uso de una clave de seguridad es más seguro que depender de su teléfono, ya que tiene protecciones integradas contra el jaqueo y el phishing. Login.gov solo permite usar claves de seguridad que cumplan con los [estándares de FIDO (Fast Identity Online)](https://fidoalliance.org/).
 

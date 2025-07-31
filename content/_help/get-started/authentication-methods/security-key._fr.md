@@ -7,7 +7,7 @@ child: true
 order: 3
 ---
 
-Une clé de sécurité est un dispositif physique que vous pouvez connecter à votre ordinateur ou appareil mobile pour ajouter une couche de protection supplémentaire à votre compte Login.gov. Ce n’est pas la même chose qu’une [clé personnelle](/help/manage-your-account/personal-key/).
+Une clé de sécurité est un dispositif physique que vous pouvez connecter à votre ordinateur ou appareil mobile pour ajouter une couche de protection supplémentaire à votre compte Login.gov. Ce n’est pas la même chose qu’une [clé personnelle](/fr/help/trouble-signing-in/how-to-sign-in/).
 
 Il est plus sûr d’utiliser une clé de sécurité que de compter sur votre téléphone car la première est dotée de protections intégrées contre le piratage et les attaques par hameçonnage. Login.gov requiert l’emploi de clés de sécurité répondant aux [normes FIDO (« Fast Identity Online », identité rapide en ligne)](https://fidoalliance.org/).
 
