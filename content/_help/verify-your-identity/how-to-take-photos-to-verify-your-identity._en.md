@@ -16,81 +16,74 @@ To verify your identity, you will need to take photos of your ID online, or [bri
 
 You need a phone or tablet with a camera to take photos of your ID using Login.gov’s camera tool, not a webcam.  If you are using a computer, we will text you a link to open Login.gov on your phone or tablet. You will switch back to your computer after you take photos.
 
-{: .number-list}
-
-1. Place your ID on a solid, dark background.
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID is placed on a white background.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
-      bordered_image=true
-      text='DON’T: Use a white background'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID is placed on a textured background.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
-      bordered_image=true
-      text="DON’T: Use textured, patterned backgrounds."
-    %}
-  </div>
-</div>
-
-2. Take your photos in a well-lit area with indirect light.
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID has a glare and shadows cast over it.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      text='DON’T: Use photos with glare or shadows'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID edges are cropped out.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
-      bordered_image=true
-      text='DON’T: Crop the edges of your ID'
-    %}
-  </div>
-</div>
-
-3. Hold your device still while taking the photos. It may help to prop your arms on the table to steady yourself.
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {% assign image_alt_text_front = 'ID front is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_front = '/assets/img/help/id-dos-and-donts/id-do-front.png' %}
-    {% assign text_front = 'DO: Line up your ID with the guidelines' %}
-
-    {% include components/image-example-base.html
-      image_alt_text=image_alt_text_front
-      image=image_front
-      bordered_image=true
-      text=text_front
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {% assign image_alt_text_back = 'ID back is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_back = '/assets/img/help/id-dos-and-donts/id-do-back.png' %}
-    {% assign text_back = 'DO: Check that the barcode is not damaged or dirty' %}
-
-    {% include components/image-example-base.html
-      image_alt_text=image_alt_text_back
-      image=image_back
-      bordered_image=true
-      text=text_back
-    %}
-  </div>
-</div>
+<ol class="number-list">
+  <li>
+    Place your ID on a solid, dark background.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID is placed on a white background.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
+          bordered_image=true
+          text='Use a white background'
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID is placed on a textured background.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
+          bordered_image=true
+          text="Use textured, patterned backgrounds."
+        %}
+      </div>
+    </div>
+  </li>
+  <li>
+    Take your photos in a well-lit area with indirect light.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID has a glare and shadows cast over it.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
+          text='Use photos with glare or shadows'
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID edges are cropped out.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
+          bordered_image=true
+          text='Crop the edges of your ID'
+        %}
+      </div>
+    </div>
+  </li>
+  <li>
+    Hold your device still while taking the photos. It may help to prop your arms on the table to steady yourself.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-correct.html
+          image_alt_text="ID front is centered in the camera frame and placed on a dark background."
+          image="/assets/img/help/id-dos-and-donts/id-do-front.png"
+          text="Line up your ID with the guidelines"
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-correct.html
+          image_alt_text="ID back is centered in the camera frame and placed on a dark background."
+          image="/assets/img/help/id-dos-and-donts/id-do-back.png"
+          text="Check that the barcode is not damaged or dirty"
+        %}
+      </div>
+    </div>
+  </li>
+</ol>
 
 ## I don’t have a phone or tablet with a camera
 

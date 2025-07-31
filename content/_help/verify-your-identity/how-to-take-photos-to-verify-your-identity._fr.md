@@ -15,81 +15,74 @@ Pour confirmer votre identité, vous devrez prendre des photos de votre pièce d
 
 Vous avez besoin d’un téléphone ou d’une tablette avec caméra pour prendre des photos de votre pièce d’identité à l’aide de l’outil caméra de Login.gov (et non d’une webcam).  Si vous utilisez un ordinateur, nous vous enverrons un SMS contenant un lien sur lequel cliquer pour ouvrir Login.gov sur votre téléphone ou tablette. Vous pourrez retourner sur votre ordinateur après avoir pris les photos.
 
-{: .number-list}
-
-1. Placez votre pièce d’identité sur une surface unie et sombre.
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID is placed on a white background.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
-      bordered_image=true
-      text='NE PAS Utiliser un fond blanc'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID is placed on a textured background.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
-      bordered_image=true
-      text="NE PAS Utiliser un fond texturé ou à motif"
-    %}
-  </div>
-</div>
-
-1. Prenez vos photos dans un endroit bien éclairé, avec une lumière indirecte.
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID has a glare and shadows cast over it.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      text='NE PAS Utiliser de photos avec des reflets ou des ombres'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID edges are cropped out.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
-      bordered_image=true
-      text='NE PAS Rogner les bords de votre pièce d’identité'
-    %}
-  </div>
-</div>
-
-1. Ne bougez pas votre appareil pendant la prise des photos. Il peut être utile de poser vos bras sur une table pour rester stable.
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {% assign image_alt_text_front = 'ID front is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_front = '/assets/img/help/id-dos-and-donts/id-do-front.png' %}
-    {% assign text_front = 'MAIS : Placez votre pièce d’identité à l’intérieur du cadre' %}
-
-    {% include components/image-example-base.html
-      image_alt_text=image_alt_text_front
-      image=image_front
-      bordered_image=true
-      text=text_front
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {% assign image_alt_text_back = 'ID back is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_back = '/assets/img/help/id-dos-and-donts/id-do-back.png' %}
-    {% assign text_back = 'MAIS : Vérifiez que le code-barres de la pièce d’identité n’est ni endommagé, ni sale' %}
-
-    {% include components/image-example-base.html
-      image_alt_text=image_alt_text_back
-      image=image_back
-      bordered_image=true
-      text=text_back
-    %}
-  </div>
-</div>
+<ol class="number-list">
+  <li>
+    Placez votre pièce d’identité sur une surface unie et sombre.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID is placed on a white background.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
+          bordered_image=true
+          text='Utiliser un fond blanc'
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID is placed on a textured background.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
+          bordered_image=true
+          text="Utiliser un fond texturé ou à motif"
+        %}
+      </div>
+    </div>
+  </li>
+  <li>
+    Prenez vos photos dans un endroit bien éclairé, avec une lumière indirecte.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID has a glare and shadows cast over it.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
+          text='Utiliser de photos avec des reflets ou des ombres'
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID edges are cropped out.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
+          bordered_image=true
+          text='Rogner les bords de votre pièce d’identité'
+        %}
+      </div>
+    </div>
+  </li>
+  <li>
+    Ne bougez pas votre appareil pendant la prise des photos. Il peut être utile de poser vos bras sur une table pour rester stable.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-correct.html
+          image_alt_text="ID front is centered in the camera frame and placed on a dark background."
+          image="/assets/img/help/id-dos-and-donts/id-do-front.png"
+          text="Placez votre pièce d’identité à l’intérieur du cadre"
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-correct.html
+          image_alt_text="ID back is centered in the camera frame and placed on a dark background."
+          image="/assets/img/help/id-dos-and-donts/id-do-back.png"
+          text="Vérifiez que le code-barres de la pièce d’identité n’est ni endommagé, ni sale"
+        %}
+      </div>
+    </div>
+  </li>
+</ol>
 
 ## Je n’ai pas de téléphone ni de tablette avec caméra
 

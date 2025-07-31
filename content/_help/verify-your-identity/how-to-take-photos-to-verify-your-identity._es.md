@@ -15,81 +15,74 @@ Para verificar su identidad, necesitará tomar fotografías de su identificació
 
 Necesita un teléfono o una tableta con cámara para tomar las fotografías de su identificación con la herramienta de la cámara de Login.gov, no con una cámara web. Si usa una computadora, le enviaremos un mensaje de texto con un vínculo para abrir Login.gov en su teléfono o tableta. Después de tomar las fotografías, volverá a su computadora.
 
-{: .number-list}
-
-1. Coloque su identificación sobre un fondo oscuro de un solo color.
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID is placed on a white background.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
-      bordered_image=true
-      text='NO: Use un fondo de color blanco'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID is placed on a textured background.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
-      bordered_image=true
-      text="NO: Use un fondo con textura ni con dibujos"
-    %}
-  </div>
-</div>
-
-2. Tome sus fotografías en un lugar bien iluminado con luz indirecta.
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID has a glare and shadows cast over it.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      text='NO: Use fotos con reflejos o sombras'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID edges are cropped out.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
-      bordered_image=true
-      text='NO: Recorte los bordes de su identificación'
-    %}
-  </div>
-</div>
-
-3. Mantenga fijo su dispositivo mientras toma las fotografías. Para mantener la estabilidad, puede apoyar los brazos en una mesa.
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {% assign image_alt_text_front = 'ID front is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_front = '/assets/img/help/id-dos-and-donts/id-do-front.png' %}
-    {% assign text_front = 'SÍ: Alinee su identificación con las marcas de guía' %}
-
-    {% include components/image-example-base.html
-      image_alt_text=image_alt_text_front
-      image=image_front
-      bordered_image=true
-      text=text_front
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {% assign image_alt_text_back = 'ID back is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_back = '/assets/img/help/id-dos-and-donts/id-do-back.png' %}
-    {% assign text_back = 'SÍ: Revise que el código de barras no esté dañado ni sucio' %}
-
-    {% include components/image-example-base.html
-      image_alt_text=image_alt_text_back
-      image=image_back
-      bordered_image=true
-      text=text_back
-    %}
-  </div>
-</div>
+<ol class="number-list">
+  <li>
+    Coloque su identificación sobre un fondo oscuro de un solo color.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID is placed on a white background.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
+          bordered_image=true
+          text='Use un fondo de color blanco'
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID is placed on a textured background.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
+          bordered_image=true
+          text="Use un fondo con textura ni con dibujos"
+        %}
+      </div>
+    </div>
+  </li>
+  <li>
+    Tome sus fotografías en un lugar bien iluminado con luz indirecta.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID has a glare and shadows cast over it.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
+          text='Use fotos con reflejos o sombras'
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID edges are cropped out.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
+          bordered_image=true
+          text='Recorte los bordes de su identificación'
+        %}
+      </div>
+    </div>
+  </li>
+  <li>
+    Mantenga fijo su dispositivo mientras toma las fotografías. Para mantener la estabilidad, puede apoyar los brazos en una mesa.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-correct.html
+          image_alt_text="ID front is centered in the camera frame and placed on a dark background."
+          image="/assets/img/help/id-dos-and-donts/id-do-front.png"
+          text="Alinee su identificación con las marcas de guía"
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-correct.html
+          image_alt_text="ID back is centered in the camera frame and placed on a dark background."
+          image="/assets/img/help/id-dos-and-donts/id-do-back.png"
+          text="Revise que el código de barras no esté dañado ni sucio"
+        %}
+      </div>
+    </div>
+  </li>
+</ol>
 
 ## No tengo un teléfono ni una tableta con cámara
 

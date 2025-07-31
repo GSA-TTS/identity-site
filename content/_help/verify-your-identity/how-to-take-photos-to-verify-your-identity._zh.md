@@ -15,81 +15,74 @@ redirect_from:
 
 你需要一部带相机的手机或平板电脑，使用 Login.gov 的相机工具（而不是网络摄像头）拍摄你的 ID 的照片。  如果你使用的是电脑，我们会向你发送一个链接，以便你在手机或平板电脑上打开 Login.gov。拍照后，你将切换回电脑。
 
-{: .number-list}
-
-1. 将你的 ID 放在纯深色背景上。
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID is placed on a white background.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
-      bordered_image=true
-      text='请勿：使用白色背景'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID is placed on a textured background.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
-      bordered_image=true
-      text="请勿：使用有纹路或图案的背景"
-    %}
-  </div>
-</div>
-
-2. 在有间接光照的明亮的地方拍照。
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID has a glare and shadows cast over it.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      text='请勿：使用带有眩光或阴影的照片'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='ID edges are cropped out.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
-      bordered_image=true
-      text='请勿：裁掉你 ID 的四边'
-    %}
-  </div>
-</div>
-
-3. 拍照时请把设备拿稳。将手臂撑在桌子上以保持身体稳定可能会有所帮助。
-
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {% assign image_alt_text_front = 'ID front is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_front = '/assets/img/help/id-dos-and-donts/id-do-front.png' %}
-    {% assign text_front = '请务必：把你的 ID 和指导线对齐' %}
-
-    {% include components/image-example-base.html
-      image_alt_text=image_alt_text_front
-      image=image_front
-      bordered_image=true
-      text=text_front
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {% assign image_alt_text_back = 'ID back is centered in the camera frame and placed on a dark background.' %}
-    {% assign image_back = '/assets/img/help/id-dos-and-donts/id-do-back.png' %}
-    {% assign text_back = '请务必：检查条形码是否损坏或脏污' %}
-
-    {% include components/image-example-base.html
-      image_alt_text=image_alt_text_back
-      image=image_back
-      bordered_image=true
-      text=text_back
-    %}
-  </div>
-</div>
+<ol class="number-list">
+  <li>
+    将你的 ID 放在纯深色背景上。
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID is placed on a white background.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
+          bordered_image=true
+          text='使用白色背景'
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID is placed on a textured background.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
+          bordered_image=true
+          text="使用有纹路或图案的背景"
+        %}
+      </div>
+    </div>
+  </li>
+  <li>
+    在有间接光照的明亮的地方拍照。
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID has a glare and shadows cast over it.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
+          text='使用带有眩光或阴影的照片'
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID edges are cropped out.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
+          bordered_image=true
+          text='裁掉你 ID 的四边'
+        %}
+      </div>
+    </div>
+  </li>
+  <li>
+    拍照时请把设备拿稳。将手臂撑在桌子上以保持身体稳定可能会有所帮助。
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-correct.html
+          image_alt_text="ID front is centered in the camera frame and placed on a dark background."
+          image="/assets/img/help/id-dos-and-donts/id-do-front.png"
+          text="把你的 ID 和指导线对齐"
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-correct.html
+          image_alt_text="ID back is centered in the camera frame and placed on a dark background."
+          image="/assets/img/help/id-dos-and-donts/id-do-back.png"
+          text="检查条形码是否损坏或脏污"
+        %}
+      </div>
+    </div>
+  </li>
+</ol>
 
 ## 我没有带相机的手机或平板电脑
 
