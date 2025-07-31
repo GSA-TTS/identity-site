@@ -51,7 +51,7 @@ Pour accéder aux informations relatives à votre compte du Programme pour les v
 
 En cas de connexion directe depuis la page d'accueil de Login.gov, seules les informations de votre compte Login.gov s’afficheront.
 
-## Related articles
+## Articles connexes
 
 * [Aide concernant des organismes spécifiques](/fr/help/specific-agencies/overview/)
-* [Relier vos comptes](/fr/help/manage-your-account/relink-your-accounts/)
+* [Comment puis-je associer à nouveau mon compte à un organisme partenaire ?](/fr/help/manage-your-account/relink-your-accounts/)
