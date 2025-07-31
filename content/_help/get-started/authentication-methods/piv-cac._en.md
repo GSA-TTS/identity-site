@@ -24,6 +24,9 @@ Physical PIV (personal identity verification) cards or CACs (common access cards
 
 
 ## Setting up your PIV/CAC Card on an existing Login.gov account
+
+{: .number-list}
+
 1. Go to <https://secure.login.gov/>.
 2. Sign in to your account using your username, password, and authentication method.
 3. On the "Your account" page, click on "Add federal employee ID" under "Your authentication methods".

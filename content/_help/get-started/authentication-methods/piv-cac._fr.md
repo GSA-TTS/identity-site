@@ -24,6 +24,8 @@ Les cartes physiques PIV (personal identity verification, vérification d'identi
 
 ## Configurer votre carte PIV/CAC pour un compte Login.gov existant
 
+{: .number-list}
+
 1. Rendez-vous sur <https://secure.login.gov/fr/>
 2. Connectez-vous à votre compte Login.gov à l’aide de votre identifiant, mot de passe et méthode d’authentification.
 3. Sur la page « Votre compte », cliquez sur la rubrique « Ajouter une carte d’employé fédéral » sous « Vos méthodes d’authentification ».
