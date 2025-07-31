@@ -22,11 +22,11 @@ Nous comparons votre numéro de téléphone et d’autres renseignements personn
 
 Le numéro de téléphone que vous utilisez doit être basé aux États-Unis. Nous pourrons plus facilement vérifier votre numéro de téléphone si vous saisissez votre numéro principal (le numéro que vous utilisez le plus souvent).
 
-Login.gov accepte les :
+### Login.gov accepte les :
 
 {% include components/icon-list.html items=page.can_verify_list size='md' icon_color='success' icon_shape='check_circle'%}
 
-Nous n’acceptons pas :
+### Nous n’acceptons pas :
 
 {% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
 

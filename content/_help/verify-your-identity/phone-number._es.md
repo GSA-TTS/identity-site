@@ -22,11 +22,11 @@ Revisamos su número de teléfono y otra información personal en registros púb
 
 El número de teléfono que use para verificar su identidad debe ser de los Estados Unidos. Si ingresa su número principal que usa más a menudo, es más probable que logremos verificar su número de teléfono.
 
-Login.gov acepta:
+### Login.gov acepta:
 
 {% include components/icon-list.html items=page.can_verify_list size='md' icon_color='success' icon_shape='check_circle'%}
 
-No se aceptan:
+### No se aceptan:
 
 {% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
 

@@ -20,11 +20,11 @@ cannot_verify_list:
 
 你用来验证的电话号码必须是美国国内的号码。如果你输入自己最常用的主要号码，我们最有可能成功验证你的电话号码。
 
-Login.gov 接受：
+### Login.gov 接受：
 
 {% include components/icon-list.html items=page.can_verify_list size='md' icon_color='success' icon_shape='check_circle'%}
 
-我们不接受：
+### 我们不接受：
 
 {% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
 

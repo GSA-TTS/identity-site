@@ -25,11 +25,11 @@ We check your phone number and other personal information with public and propri
 
 The phone number that you use to verify must be based in the United States. We are most likely to successfully verify your phone number if you enter your primary number that you use most often.
 
-Login.gov accepts:
+### Login.gov accepts:
 
 {% include components/icon-list.html items=page.can_verify_list size='md' icon_color='success' icon_shape='check_circle'%}
 
-We do not accept:
+### We do not accept:
 
 {% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
 
