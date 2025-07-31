@@ -14,7 +14,7 @@ Login.gov allows you to control which email address is shared with each partner 
 - On the “Connect your verified information to…” page after you verify your identity
 - On the “Your connected accounts” page, click on the “Change” link next to the email address you want below the listed partner agency.
 
-You can add multiple email addresses to your Login.gov account and you can delete any email address associated with your Login.gov account. Go to the [Change the email address associated with your account page](help/manage-your-account/change-your-email-address/) to learn more.
+You can add multiple email addresses to your Login.gov account and you can delete any email address associated with your Login.gov account. Go to the [Change the email address associated with your account page](/help/manage-your-account/change-your-email-address/) to learn more.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h4 class="usa-accordion__heading">
