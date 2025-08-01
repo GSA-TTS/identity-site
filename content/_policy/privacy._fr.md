@@ -16,7 +16,7 @@ En accédant au service Login.gov, vous prenez acte et convenez de la présente 
 
 ### L’autorité : qui autorise la collecte de ces données ? ### {#authority}
 
-Les informations que vous fournissez sont recueillies conformément à 6 USC § 1523 (b)(1)(A)-(E), à la loi sur l’administration électronique (E-Government Act) de 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid:USC-prelim-title40-section501&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim), [40 USC § 502](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid:USC-prelim-title40-section502&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim) et [OMB M-19-17](https://www.idmanagement.gov/laws-policies-standards/m-19-17/).
+Les informations que vous fournissez sont recueillies conformément à 6 USC § 1523 (b)(1)(A)-(E), à la loi sur l’administration électronique (E-Government Act) de 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid:USC-prelim-title40-section501&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim), [40 USC § 502](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid:USC-prelim-title40-section502&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim) et [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
 ### L’objectif : pourquoi avons-nous besoin de vos informations ? ### {#purpose}
 

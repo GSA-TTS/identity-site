@@ -105,7 +105,7 @@ Dans le cas peu probable où le service Login.gov serait supprimé, les renseign
 
 ## 6. Autorités
 
-Le service Login.gov est exploité aux États-Unis, mais il est accessible au public dans le monde entier. Le service Login.gov est géré par l’Administration des services généraux en vertu des pouvoirs et des directives énoncés dans [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), la loi sur le gouvernement électronique de 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim) et [OMB M-19-17](https://www.idmanagement.gov/laws-policies-standards/m-19-17/).
+Le service Login.gov est exploité aux États-Unis, mais il est accessible au public dans le monde entier. Le service Login.gov est géré par l’Administration des services généraux en vertu des pouvoirs et des directives énoncés dans [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), la loi sur le gouvernement électronique de 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim) et [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
 ## 7. Exploitation des services et service client
 
