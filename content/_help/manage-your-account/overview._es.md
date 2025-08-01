@@ -14,8 +14,16 @@ redirect_from:
 
 Administre la configuración de su cuenta, su contraseña, número de teléfono, correo electrónico y más.
 
-## Temas comunes para la solución de problemas
+Mantenga actualizada la información de su cuenta de Login.gov para proteger la seguridad y la accesibilidad.
+
+Tener una dirección de correo electrónico o un teléfono no actualizados pueden impedir que recupere el acceso a su cuenta si este se bloquea o si usted olvida su contraseña. Actualice periódicamente sus credenciales de Login.gov para proteger su cuenta de accesos no autorizados y recibir notificaciones importantes relacionadas con esta.
 
 {: .help-question-list}
+- [¿Cómo añado o cambio el método de autenticación en mi cuenta?](/es/help/manage-your-account/add-or-change-your-authentication-method/)
 - [Cambie su contraseña](/es/help/manage-your-account/change-your-password/)
-- [Elimine su cuenta de Login.gov](/es/help/manage-your-account/delete-your-account/)
+- [Cambie la dirección de correo electrónico asociada con su cuenta](/es/help/manage-your-account/change-your-email-address/)
+
+## Otros artículos
+
+* [Problemas para iniciar sesión](/es/help/trouble-signing-in/overview/)
+* [Crear una cuenta](/es/help/create-account/overview/)
