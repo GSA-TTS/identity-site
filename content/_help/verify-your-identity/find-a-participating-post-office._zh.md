@@ -1,8 +1,7 @@
 ---
-title: 找到一个参与本项目的邮局来完成身份验证  
-meta_title: 找到一个参与本项目的邮局  
-child: true  
-order: 1  
+title: 找到一个参与本项目的邮局
+category: verify-your-identity
+order: 7
 permalink: /zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/  
 idp_translations_file: /assets/idp_translations/zh.js
 translations:  
@@ -16,7 +15,6 @@ translations:
 
 {% include components/post-office-search.html %}
 
-## Related articles
+## 相关文章
 
-* [亲身验证你的身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)
-* [亲身验证身份相关问题](/zh/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/)
+* [亲身验证我的身份问题](/zh/help/verify-your-identity/verify-your-identity-in-person/)
