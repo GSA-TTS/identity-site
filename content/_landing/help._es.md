@@ -6,11 +6,10 @@ permalink: /es/help/
 hero: true
 ---
 <div class="container--mod grid-container-tablet-lg tablet-lg:padding-x-0 margin-top-5 padding-bottom-1">
-  <!-- TODO: Request translation of the following title. !-->
-  <h1 class="text-center">Popular topics</h1>
+  <h1 class="text-center">{{ site.data[page.lang].settings["help_page"]["popular_topics"] }}</h1>
   <div class="popular-topics-border padding-2 margin-bottom-9 margin-x-auto">
     <ul class="usa--list usa-list--unstyled spaced-list">
-      {% for item in site.data[page.lang].settings["help_page"]["popular_topics"] %}
+      {% for item in site.data[page.lang].settings["help_page"]["popular_topics_links"] %}
       <li>
         <a href="{{ item.url | prepend: site.baseurl }}" class="usa-link">{{ item.title }}</a>
       </li>
