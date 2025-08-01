@@ -1,10 +1,11 @@
 ---
 layout: help
-title: Create your Login.gov account
-category: get-started
-permalink: /help/get-started/create-your-account/
+title: How do I create a Login.gov account
+category: create-account
+permalink: /help/create-account/how-do-i-create-an-account/
 order: 1
 redirect_from:
+  - /help/get-started/create-your-account/
   - /en/help/get-started/create-your-account/
   - /help/creating-an-account/creating-a-strong-password/
   - /help/creating-an-account/how-do-i-create-an-account-with-logingov/
@@ -22,10 +23,10 @@ Follow these steps to create your Login.gov account.
 4. Click the **“Confirm your email address”** button in the message. This will take you back to the Login.gov website.
 5. Create your Login.gov password.
 
-   * To help prevent identity theft, consider strengthening your password by using: 
-     * Unique phrases that only you recognize 
-     * Multiple words with spaces to get to 12 characters 
-     * Numbers and special characters 
+   * To help prevent identity theft, consider strengthening your password by using:
+     * Unique phrases that only you recognize
+     * Multiple words with spaces to get to 12 characters
+     * Numbers and special characters
 
 
    * Your password must have 12 or more characters and avoid combinations such as:
@@ -60,3 +61,4 @@ Follow these steps to create your Login.gov account.
 
 * [Authentication methods](/help/get-started/authentication-methods/)
 * [Manage your account](/help/manage-your-account/overview/)
+* [Issues creating an account ](/help/create-account/issues-creating-an-account/)
