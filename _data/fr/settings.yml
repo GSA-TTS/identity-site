@@ -273,7 +273,7 @@ help_page:
       image: /assets/img/help/verify-your-id.svg
       title: Confirmer votre identité
       url: /fr/help/verify-your-identity/overview/
-  popular_topics:
+  popular_topics_links:
     - title: Difficultés pour se connecter
       url: /fr/help/trouble-signing-in/issues-with-authentication-methods/
     - title: Issues verifying your identity
@@ -282,6 +282,7 @@ help_page:
       url: /fr/help/specific-agencies/ssa/
     - title: Help with Trusted Traveler Programs (TTP)
       url: /fr/help/specific-agencies/trusted-traveler-programs/
+  popular_topics: Thématiques populaires
   p_1: Parcourir les thèmes courants
   title: Que pouvons-nous faire pour vous ?
 help_subpages:
