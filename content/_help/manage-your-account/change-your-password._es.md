@@ -1,4 +1,5 @@
 ---
+layout: help
 title: ¿Cómo cambio mi contraseña?
 category: manage-your-account
 permalink: /es/help/manage-your-account/change-your-password/

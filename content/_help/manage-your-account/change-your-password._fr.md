@@ -1,4 +1,5 @@
 ---
+layout: help
 title: Comment puis-je changer mon mot de passe ?
 category: manage-your-account
 permalink: /fr/help/manage-your-account/change-your-password/

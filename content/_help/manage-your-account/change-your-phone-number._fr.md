@@ -1,4 +1,5 @@
 ---
+layout: help
 title: Comment puis-je modifier le numéro de téléphone associé à mon compte ?
 category: manage-your-account
 order: 2

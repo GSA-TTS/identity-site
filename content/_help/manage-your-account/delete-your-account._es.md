@@ -1,4 +1,5 @@
 ---
+layout: help
 title: ¿Cómo elimino mi cuenta?
 category: manage-your-account
 permalink: /es/help/manage-your-account/delete-your-account/

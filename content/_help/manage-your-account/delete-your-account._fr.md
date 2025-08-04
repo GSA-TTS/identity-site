@@ -1,4 +1,5 @@
 ---
+layout: help
 title: Comment puis-je supprimer mon compte ?
 category: manage-your-account
 permalink: /fr/help/manage-your-account/delete-your-account/

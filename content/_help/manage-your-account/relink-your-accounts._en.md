@@ -23,3 +23,4 @@ Try the following:
 ## Related articles
 
 * [Help with agencies](/help/specific-agencies/overview/)
+* [Issues verifying my personal information](/help/verify-your-identity/issues-verifying-my-personal-information/)
