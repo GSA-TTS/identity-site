@@ -220,10 +220,10 @@ global:
 help_page:
   categories:
     - description: 设立你的账户了解身份证实选项以及账户的更多特点。
-      image: /assets/img/help/get-started.svg
-      slug: get-started
-      title: 设立我的账户
-      url: /zh/help/get-started/overview/
+      image: /assets/img/help/create-account.svg
+      slug: create-account
+      title: 开始使用Login.gov
+      url: /zh/help/create-account/overview/
     - description: 忘了你的密码? 被锁在了账户外？我们会帮你解决登录问题。
       image: /assets/img/help/trouble-signing-in.svg
       slug: trouble-signing-in
@@ -244,6 +244,11 @@ help_page:
       slug: specific-agencies
       title: 从具体机构获得帮助
       url: /zh/help/specific-agencies/overview/
+    - description: 了解如何保护你自己和你的 Login.gov 帐户免受欺诈。
+      image: /assets/img/help/fraud-concerns.svg
+      slug: fraud-concerns
+      title: 欺诈担忧
+      url: /zh/help/fraud-concerns/overview/
   p_1: 浏览常见主题
   title: 我们能怎么帮你？
 identifier:

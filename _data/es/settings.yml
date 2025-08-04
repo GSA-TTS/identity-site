@@ -236,10 +236,10 @@ help_page:
   categories:
     - description: Cree su cuenta. Más información sobre las opciones de autenticación
         y otras funciones de la cuenta.
-      image: /assets/img/help/get-started.svg
-      slug: get-started
-      title: Crear mi cuenta
-      url: /es/help/get-started/overview/
+      image: /assets/img/help/create-account.svg
+      slug: create-account
+      title: Empiece a utilizar Login.gov
+      url: /es/help/create-account/overview/
     - description: ¿Olvidó su contraseña? ¿Está bloqueado el acceso a su cuenta? Le
         ayudaremos a resolver los problemas de acceso.
       image: /assets/img/help/trouble-signing-in.svg
@@ -263,6 +263,11 @@ help_page:
       slug: specific-agencies
       title: Ayuda con agencias
       url: /es/help/specific-agencies/overview/
+    - description: Sepa cómo protegerse y proteger su cuenta de Login.gov contra el fraude.
+      image: /assets/img/help/fraud-concerns.svg
+      slug: fraud-concerns
+      title: Preocupaciones de fraude
+      url: /es/help/fraud-concerns/overview/
   p_1: Explorar temas comunes
   title: ¿Cómo podemos ayudarle?
 identifier:

@@ -187,8 +187,8 @@ redirect_from:
   json: false
 
 help_pages:
-  - name: get-started
-    url: /help/get-started/overview/
+  - name: create-account
+    url: /help/create-account/overview/
   - name: trouble-signing-in
     url: /help/trouble-signing-in/overview/
   - name: manage-your-account

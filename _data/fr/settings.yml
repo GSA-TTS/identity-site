@@ -250,10 +250,10 @@ help_page:
   categories:
     - description: Créez votre compte. Informez-vous sur les options
         d’authentification et sur davantage de caractéristiques des comptes.
-      image: /assets/img/help/get-started.svg
-      slug: get-started
-      title: Créer mon compte
-      url: /fr/help/get-started/overview/
+      image: /assets/img/help/create-account.svg
+      slug: create-account
+      title: Démarrage avec Login.gov
+      url: /fr/help/create-account/overview/
     - description: Mot de passe oublié ? Compte verrouillé ? Nous vous aiderons à
         résoudre les problèmes d’accès.
       image: /assets/img/help/trouble-signing-in.svg
@@ -277,6 +277,12 @@ help_page:
       slug: specific-agencies
       title: Aide avec les organismes
       url: /fr/help/specific-agencies/overview/
+    - description: Apprendre comment vous protéger ainsi que votre compte Login.gov
+        contre la fraude.
+      image: /assets/img/help/fraud-concerns.svg
+      slug: fraud-concerns
+      title: Problèmes liés à la fraude
+      url: /fr/help/fraud-concerns/overview/
   p_1: Parcourir les thèmes courants
   title: Que pouvons-nous faire pour vous ?
 identifier:
