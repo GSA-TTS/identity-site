@@ -197,6 +197,8 @@ help_pages:
     url: /help/verify-your-identity/overview/
   - name: specific-agencies
     url: /help/specific-agencies/overview/
+  - name: fraud-concerns
+    url: /help/fraud-concerns/overview/
 
 url: https://www.login.gov
 
