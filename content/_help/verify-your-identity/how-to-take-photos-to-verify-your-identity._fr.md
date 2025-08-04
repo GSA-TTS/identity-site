@@ -1,145 +1,174 @@
 ---
 layout: help
-title: Comment prendre des photos pour confirmer votre identité
+title: Problèmes pour prendre les photos de ma pièce d’identité
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
-order: 3
+order: 1
 redirect_from:
   - /fr/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
   - /fr/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
-url_safari: https://www.apple.com/fr/safari/
-url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds&hl=fr
-url_safari_update_doc: https://support.apple.com/fr-ca/HT204416
-url_safari_clear_cache_doc: https://support.apple.com/fr-ca/HT201265
-url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=fr-CA
-url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=fr
 ---
 
-{% capture alert_link %}
-  <a href="/fr/help/verify-your-identity/accepted-identification-documents/" class="usa-link">permis de conduire ou de carte d'identité d'un État en cours de validité</a>
-{% endcapture %}
+Pour confirmer votre identité, vous devrez prendre des photos de votre pièce d’identité en ligne ou [présenter en personne votre pièce d’identité](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau de poste des États-Unis.
 
-{% capture alert_content %}
-  <strong>
-   Si vous n'avez pas de {{ alert_link }}, vous ne pouvez pas utiliser Login.gov pour confirmer votre identité.
-  </strong>
-  Veuillez contacter le centre d'assistance de l'organisme partenaire pour découvrir les autres options qui s’offrent à vous.
-{% endcapture %}
+## Je n’arrive pas à prendre des photos de ma pièce d’identité
 
-{%
-  include alert.html
-  content=alert_content
-  type='error'
-  role='alert'
-%}
+Vous avez besoin d’un téléphone ou d’une tablette avec caméra pour prendre des photos de votre pièce d’identité à l’aide de l’outil caméra de Login.gov (et non d’une webcam).  Si vous utilisez un ordinateur, nous vous enverrons un SMS contenant un lien sur lequel cliquer pour ouvrir Login.gov sur votre téléphone ou tablette. Vous pourrez retourner sur votre ordinateur après avoir pris les photos.
 
-## Vue d’ensemble
+<ol class="number-list">
+  <li>
+    Placez votre pièce d’identité sur une surface unie et sombre.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID is placed on a white background.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
+          bordered_image=true
+          text='Utiliser un fond blanc'
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID is placed on a textured background.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
+          bordered_image=true
+          text="Utiliser un fond texturé ou à motif"
+        %}
+      </div>
+    </div>
+  </li>
+  <li>
+    Prenez vos photos dans un endroit bien éclairé, avec une lumière indirecte.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID has a glare and shadows cast over it.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
+          text='Utiliser de photos avec des reflets ou des ombres'
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID edges are cropped out.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
+          bordered_image=true
+          text='Rogner les bords de votre pièce d’identité'
+        %}
+      </div>
+    </div>
+  </li>
+  <li>
+    Ne bougez pas votre appareil pendant la prise des photos. Il peut être utile de poser vos bras sur une table pour rester stable.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-correct.html
+          image_alt_text="ID front is centered in the camera frame and placed on a dark background."
+          image="/assets/img/help/id-dos-and-donts/id-do-front.png"
+          text="Placez votre pièce d’identité à l’intérieur du cadre"
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-correct.html
+          image_alt_text="ID back is centered in the camera frame and placed on a dark background."
+          image="/assets/img/help/id-dos-and-donts/id-do-back.png"
+          text="Vérifiez que le code-barres de la pièce d’identité n’est ni endommagé, ni sale"
+        %}
+      </div>
+    </div>
+  </li>
+</ol>
 
+## Je n’ai pas de téléphone ni de tablette avec caméra
 
-Pour confirmer votre identité en ligne, vous devez :
+Si vous n’avez pas de téléphone ni de tablette avec caméra, vous pouvez peut-être [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau de poste des États-Unis près de chez vous.
 
-*  Prendre une photo de votre permis de conduire ou carte d’identité d’un État en cours de validité et
-* Saisir vos renseignements personnels
+## L’outil caméra ne fonctionne pas
 
-Il est possible que vous deviez prendre une photo de vous-même à l’aide d’un téléphone ou d’une tablette pour garantir que vous êtes bien la personne figurant sur la pièce d'identité. Si vous n'avez pas accès à un téléphone ou une tablette avec une caméra, vous pouvez [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/).
+Si l’outil caméra de Login.gov permettant de prendre une photo de votre pièce d'identité ne fonctionne pas, vérifiez que vous utilisez la dernière version de votre système d'exploitation iOS ou Android, et que vous utilisez le navigateur Web recommandé pour votre téléphone ou votre tablette.
 
-Cet article explique les différentes façons de transmettre des images ou photos pour confirmer votre identité.
+Il est possible que vous deviez mettre à jour votre système d’exploitation ou votre navigateur web, vider votre cache ou supprimer vos cookies, ou autoriser Login.gov à utiliser la caméra.
 
----
-
-## Comment prendre des photos de votre permis de conduire ou carte d’identité d’un État
-
-Si vous utilisez un ordinateur pour confirmer votre identité, vous pourrez passer à un téléphone ou à une tablette pour prendre des photos de votre pièce d'identité.
-
-### Avec votre téléphone ou tablette
-
-<div class="grid-row grid-gap margin-bottom-2">
-  <div class="tablet:grid-col">
-    <img alt="Le recto de la pièce d’identité doit être cadré au centre sur un arrière plan foncé." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="ios-accordion"
+    >
+      Pour les téléphones ou tablettes iOS
+    </button>
+  </h4>
+  <div id="ios-accordion" class="usa-accordion__content usa-prose">
+    <ul>
+      <li>Installez la dernière version d’iOS</li>
+      <li>Utilisez le navigateur Safari</li>
+      <li>Si vous utilisez Safari, vous pouvez essayer de mettre le navigateur à jour ou vider le cache et effacer les cookies</li>
+      <li>Pour permettre à Login.gov d’utiliser la caméra, autorisez l’accès à la caméra dans Safari</li>
+    </ul>
   </div>
-  <div class="tablet:grid-col">
-    <img alt="Le verso de la pièce d’identité doit être cadré au centre sur un arrière plan foncé." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="android-accordion"
+    >
+      Pour les téléphones ou tablettes Android
+    </button>
+  </h4>
+  <div id="android-accordion" class="usa-accordion__content usa-prose">
+    <ul>
+      <li>Installez la dernière version d’Android</li>
+      <li>Utilisez le navigateur Chrome</li>
+      <li>Si vous utilisez Chrome, vous pouvez essayer de mettre le navigateur à jour ou vider le cache et effacer les cookies.</li>
+      <li>Pour permettre à Login.gov d’utiliser la caméra, autorisez l’accès à la caméra dans Chrome</li>
+    </ul>
   </div>
 </div>
 
-* Employez une caméra à haute résolution, comme celle d’un smartphone ou d’une tablette, plutôt qu’une webcam.
-* Placez votre pièce d’identité sur une surface plane et sombre.
-* Prenez vos photos dans un endroit bien éclairé, avec une lumière indirecte.
-* Vérifiez que les codes-barres de la pièce d’identité ne sont ni endommagés, ni sales.
-* Ne bougez pas votre appareil pendant la prise de photos. Il peut être utile de poser vos bras sur une table pour rester stable.
+## J’ai reçu un message d’erreur selon lequel Login.gov ne parvenait pas à vérifier ma pièce d’identité
 
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='La pièce d’identité est placée sur un fond blanc.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
-      bordered_image=true
-      text='N’utilisez pas de fond blanc.'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='La pièce d’identité est placée sur un fond texturé.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
-      bordered_image=true
-      text='N’utilisez pas de fond texturé ou à motif.'
-    %}
-  </div>
-</div>
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='Les bordures de votre pièce d’identité sont recadrés.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
-      bordered_image=true
-      text="Prenez une photo de l’ensemble de votre pièce d'identité."
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='Il y a des reflets et des ombres sur l’image de la pièce d’identité.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      text='Évitez les reflets et les ombres.'
-    %}
+Si vous envoyez vos photos et recevez un message d’erreur selon lequel nous n’avons pas pu vérifier votre pièce d’identité, assurez-vous que le type de pièce d’identité que vous utilisez est accepté.
+
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="id-types-accordion"
+    >
+      Types de pièces d’identité acceptés
+    </button>
+  </h4>
+  <div id="id-types-accordion" class="usa-accordion__content usa-prose">
+    <p><strong>Login.gov accepte les types de pièces d’identité suivants :</strong></p>
+    <ul>
+      <li>Permis de conduire des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, îles Vierges des États-Unis, Samoa américaines, îles Mariannes et Porto Rico)</li>
+      <li>Carte d’identité délivrée par un État. Il s'agit d'une pièce d'identité délivrée par un État, le District de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais n’autorise pas à conduire.</li>
+    </ul>
+    <p><strong>Nous n’acceptons pas :</strong></p>
+    <ul>
+      <li>Les passeports américains</li>
+      <li>Les cartes d'identité militaires</li>
+      <li>Les pièces d’identité expirées ou les documents prorogés</li>
+      <li>Les documents d’identité papier ou provisoires</li>
+      <li>Les pièces d’identité d’un pays autre que les États-Unis</li>
+    </ul>
   </div>
 </div>
 
-## Comment prendre des photos de vous-même {#how-to-take-photos-of-yourself}
+Veillez à ce que votre nom, prénom, adresse et autres renseignements figurant sur votre pièce d’identité soient aisément lisibles. Évitez la lumière vive, les reflets ou les ombres qui rendent la pièce d’identité difficile à lire.
 
-Certains organismes partenaires peuvent vous demander de prendre une photo de votre visage et des photos de votre permis de conduire ou carte d’identité d’un État. Ceci permet de confirmer que vous êtes la personne figurant sur votre pièce d’identité.
+## Articles connexes
 
-{: .number-list}
-1. Prenez votre photo dans un endroit bien éclairé et évitez les reflets.
-2. Veillez à ce que l’ensemble de votre visage soit visible, du menton au sommet de la tête. Ne portez que des accessoires, comme des lunettes, que vous portez également sur votre photo d'identité. Retirez tout autre article vous couvrant le visage.
-3. Placez votre visage à l’intérieur du cadre. Gardez une expression neutre et ne bougez pas.
-4. Suivez les instructions pour prendre la photo. Soit l’outil caméra prendra automatiquement une photo, soit vous devrez appuyer sur un bouton pour la prendre.
-5. Cochez la case prévue à cet effet pour valider la photo ou suivez les instructions pour le faire.
-
----
-
-## Dépannage
-
-### Assurez-vous que les renseignements figurant sur la photo sont nets
-* Veillez à ce que votre nom, prénom, adresse et autres renseignements sur votre pièce d’identité soient aisément lisibles.
-* Évitez la lumière vive ou les reflets qui peuvent empêcher le balayage de la pièce d’identité.
-
-### Envisagez de confirmer votre identité en personne
-* Si les informations figurant sur votre pièce d’identité ne sont pas à jour, ou si vous paraissez très différent de la photo de votre pièce d’identité, il est possible que la confirmation de votre identité échoue.
-* Sélectionnez la possibilité de [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) et rendez-vous dans un bureau du service des postes des États-Unis près de chez vous.
-
-### Vérifier l’association entre votre appareil et votre navigateur
-* Les téléphones ou tablettes équipés d’iOS doivent utiliser le [navigateur Safari.]({{ page.url_safari }})
-* Les téléphones ou tablettes équipés d’Android doivent utiliser le [navigateur Google Chrome.]({{ page.url_chrome }})
-
-### Actualiser votre navigateur ou vider le cache et effacer les cookies
-* Si vous utilisez Safari, vous pouvez essayer [d’actualiser le navigateur]({{ page.url_safari_update_doc }}) ou [de vider le cache et d’effacer les cookies.]({{ page.url_safari_clear_cache_doc }})
-* Si vous utilisez Google Chrome, vous pouvez essayer [d’actualiser le navigateur]({{ page.url_chrome_update_doc }}) ou [de vider le cache et d’effacer les cookies.]({{ page.url_chrome_clear_cache_doc }})
-
-## Related articles
-
-* [Comment confirmer votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
-* [Documents d’identification acceptés](/fr/help/verify-your-identity/accepted-identification-documents/)
+* [Comment puis-je confirmer mon identité ?](/fr/help/verify-your-identity/overview/)
+* [Problèmes pour me prendre en photo](/fr/help/verify-your-identity/issues-taking-a-photo-of-myself/)
+* [Problèmes liés à la vérification de mon identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/)

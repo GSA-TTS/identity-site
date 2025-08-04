@@ -1,144 +1,174 @@
 ---
 layout: help
-title: Cómo tomar fotografías para verificar su identidad
+title: Problemas al tomar fotografías de mi identificación
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
-order: 3
+order: 1
 redirect_from:
   - /es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
   - /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
-url_safari: https://www.apple.com/es/safari/
-url_chrome: https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds&hl=es
-url_safari_update_doc: https://support.apple.com/es-mx/HT204416
-url_safari_clear_cache_doc: https://support.apple.com/es-mx/HT201265
-url_chrome_update_doc: https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop&hl=es
-url_chrome_clear_cache_doc: https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=es-419
 ---
 
-{% capture alert_link %}
-  <a href="/es/help/verify-your-identity/accepted-identification-documents/" class="usa-link">licencia de conducir válida o una tarjeta de identificación estatal</a>
-{% endcapture %}
+Para verificar su identidad, necesitará tomar fotografías de su identificación en línea, o [llevar su identificación en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) a una oficina del Servicio Postal de los Estados Unidos.
 
-{% capture alert_content %}
-  <strong>
-  Si no tiene una {{ alert_link }}, no puede usar Login.gov para verificar su identidad.
-  </strong>
-  Comuníquese con el centro de ayuda de la agencia asociada para saber lo que puede hacer en ese caso.
-{% endcapture %}
+## Tengo problemas para tomar fotografías de mi identificación
 
-{%
-  include alert.html
-  content=alert_content
-  type='error'
-  role='alert'
-%}
+Necesita un teléfono o una tableta con cámara para tomar las fotografías de su identificación con la herramienta de la cámara de Login.gov, no con una cámara web. Si usa una computadora, le enviaremos un mensaje de texto con un vínculo para abrir Login.gov en su teléfono o tableta. Después de tomar las fotografías, volverá a su computadora.
 
-## Información general
+<ol class="number-list">
+  <li>
+    Coloque su identificación sobre un fondo oscuro de un solo color.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID is placed on a white background.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
+          bordered_image=true
+          text='Use un fondo de color blanco'
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID is placed on a textured background.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
+          bordered_image=true
+          text="Use un fondo con textura ni con dibujos"
+        %}
+      </div>
+    </div>
+  </li>
+  <li>
+    Tome sus fotografías en un lugar bien iluminado con luz indirecta.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID has a glare and shadows cast over it.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
+          text='Use fotos con reflejos o sombras'
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-incorrect.html
+          image_alt_text='ID edges are cropped out.'
+          image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
+          bordered_image=true
+          text='Recorte los bordes de su identificación'
+        %}
+      </div>
+    </div>
+  </li>
+  <li>
+    Mantenga fijo su dispositivo mientras toma las fotografías. Para mantener la estabilidad, puede apoyar los brazos en una mesa.
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-correct.html
+          image_alt_text="ID front is centered in the camera frame and placed on a dark background."
+          image="/assets/img/help/id-dos-and-donts/id-do-front.png"
+          text="Alinee su identificación con las marcas de guía"
+        %}
+      </div>
+      <div class="tablet:grid-col">
+        {%
+          include components/image-example-correct.html
+          image_alt_text="ID back is centered in the camera frame and placed on a dark background."
+          image="/assets/img/help/id-dos-and-donts/id-do-back.png"
+          text="Revise que el código de barras no esté dañado ni sucio"
+        %}
+      </div>
+    </div>
+  </li>
+</ol>
 
-Para verificar su identidad en línea, debe:
- 
-* Tomar una fotografía de su licencia de conducir válida o una tarjeta de identificación estatal, e
-* Ingresar su información personal
+## No tengo un teléfono ni una tableta con cámara
 
-También necesita tomarse una fotografía con un teléfono o una tableta para comprobar que usted sea la persona que figura en su identificación. Si no tiene acceso a un teléfono o una tableta con cámara, puede [verificar su información en persona](/es/help/verify-your-identity/verify-your-identity-in-person/).
+Si no tiene un teléfono ni una tableta con cámara, es posible que pueda [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) en una oficina cercana del Servicio Postal de los Estados Unidos.
 
-Este artículo describe cómo puede enviar imágenes para verificar su identidad.
+## La herramienta de la cámara no funciona
 
----
+Si la herramienta de la cámara de Login.gov para tomar una fotografía de su identificación no funciona, revise si usted está usando la versión más reciente del sistema operativo de iOS o Android, y el navegador web recomendado para su teléfono o tableta.
 
-## Cómo tomar fotografías de su licencia de conducir o tarjeta de identificación estatal
+Si necesita actualizar el sistema operativo o navegador web, borre la memoria caché o las cookies, o dé a Login.gov permiso para usar la cámara.
 
-Si está usando una computadora para verificar su identidad, podrá cambiar a un teléfono o una tableta para tomar fotografías de su identificación.
-
-### Si usa su teléfono o tableta
-
-<div class="grid-row grid-gap margin-bottom-2">
-  <div class="tablet:grid-col">
-    <img alt="El frente de su identificación está centrado en el marco de la cámara y sobre un fondo de color oscuro." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-front.png" />
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="ios-accordion"
+    >
+      Para teléfonos o tabletas iOS
+    </button>
+  </h4>
+  <div id="ios-accordion" class="usa-accordion__content usa-prose">
+    <ul>
+      <li>Actualice el dispositivo iOS a la versión más reciente.</li>
+      <li>Use el navegador web Safari.</li>
+      <li>Si está usando Safari, intente actualizar el navegador o borrar la memoria caché y las cookies.</li>
+      <li>Para aceptar que Login.gov use la cámara, permita el acceso a la cámara en Safari.</li>
+    </ul>
   </div>
-  <div class="tablet:grid-col">
-    <img alt="El reverso del documento de identidad está centrado en el marco de la cámara y sobre un fondo de color oscuro." src="{{ site.baseurl }}/assets/img/help/id-dos-and-donts/id-do-back.png" />
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="android-accordion"
+    >
+      Para teléfonos o tabletas Android
+    </button>
+  </h4>
+  <div id="android-accordion" class="usa-accordion__content usa-prose">
+    <ul>
+      <li>Actualice el dispositivo Android a la versión más reciente.</li>
+      <li>Use el navegador web Chrome.</li>
+      <li>Si está usando Chrome, intente actualizar el navegador o borrar la memoria caché y las cookies.</li>
+      <li>Para aceptar que Login.gov use la cámara, permita el acceso a la cámara en Chrome.</li>
+    </ul>
   </div>
 </div>
 
-* Use una cámara de alta resolución, como la de un smartphone o de una tableta, en lugar de una cámara web.
-* Coloque su identificación sobre un fondo de un solo color oscuro.
-* Tome sus fotografías en un lugar bien iluminado con luz indirecta.
-* Compruebe que los códigos de barras de la identificación no estén dañados ni sucios.
-* Mantenga fijo su dispositivo mientras toma las fotografías. Para mantener la estabilidad, puede apoyar los brazos en una mesa.
+## Recibí un mensaje de error que dice que Login.gov no pudo verificar mi identificación
 
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='La identificación está sobre un fondo blanco.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
-      bordered_image=true
-      text='Evite usar un fondo de color blanco.'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='El documento de identidad se coloca sobre un fondo texturizado.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
-      bordered_image=true
-      text='No use un fondo con textura ni con dibujos.'
-    %}
-  </div>
-</div>
-<div class="grid-row grid-gap">
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='Los bordes del documento de identidad se encuentran recortados.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
-      bordered_image=true
-      text='Tome una fotografía de su identificación completa.'
-    %}
-  </div>
-  <div class="tablet:grid-col">
-    {%
-      include components/image-example-incorrect.html
-      image_alt_text='La identificación tiene reflejos y proyecta sombras.'
-      image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-      text='Evite que se vean reflejos o sombras.'
-    %}
+Si envía sus fotos y recibe un mensaje de error que indica que su identificación no se pudo verificar, asegúrese de que está usando un tipo identificación aceptable.
+
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h4 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="id-types-accordion"
+    >
+      Tipos de identificación aceptables
+    </button>
+  </h4>
+  <div id="id-types-accordion" class="usa-accordion__content usa-prose">
+    <p><strong>Login.gov acepta estos tipos de identificación:</strong></p>
+    <ul>
+      <li>Licencia de conducir de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico).</li>
+      <li>Tarjeta de identificación emitida por el estado que no sea una licencia de conducir, es decir, un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no otorga privilegios para conducir.</li>
+    </ul>
+    <p><strong>No se aceptan:</strong></p>
+    <ul>
+      <li>Pasaportes estadounidenses</li>
+      <li>Identificaciones militares</li>
+      <li>Identificaciones vencidas o documentos de prórroga</li>
+      <li>Identificaciones en papel o temporales</li>
+      <li>Identificaciones que no sean de los EE. UU.</li>
+    </ul>
   </div>
 </div>
 
-## Cómo tomarse fotografías {#how-to-take-photos-of-yourself}
+Revise que su nombre, domicilio y demás información en su identificación se pueda leer fácilmente. Evite luces brillantes, reflejos o sombras que dificulten la lectura de la identificación.
 
-Es posible que algunas agencias asociadas le pidan que tome una foto de su cara y fotos de su licencia de conducir o tarjeta de identificación estatal. Esto comprueba que usted es la persona que figura en su identificación.
+## Otros artículos
 
-{: .number-list}
-1. Tómese la foto en un lugar bien iluminado, pero evite los reflejos.
-2. Revise que se vea su cara completa, desde la barbilla hasta la parte superior de la cabeza. Solo use los accesorios (como anteojos) que lleva puestos en la fotografía de su identificación. Quite cualquier prenda que le cubra la cara.
-3. Alinee su cara con las marcas de guía. Mantenga una expresión neutral y no se mueva.
-4. Siga las instrucciones para tomar una fotografía. La cámara puede tomar automáticamente una foto, o es posible que usted tenga que tocar un botón para tomarla.
-5. Toque la marca de verificación o siga las instrucciones para aceptar la foto.
-
----
-
-## Solución de problemas
-
-### Asegúrese de que la información en su fotografía se vea clara.
-* Revise que su nombre, dirección y demás información en su identificación se pueda leer fácilmente.
-* Evite luces brillantes o reflejos que impidan escanear la identificación.
-
-### Considere hacer la verificación de su identidad en persona.
-* Si la información en su identificación no está actualizada, o si su aspecto es muy diferente al de la foto de su identificación, es posible que la verificación de su identidad en línea no funcione.
-* Seleccione la opción de [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) y acuda a una oficina del Servicio Postal de los Estados Unidos para verificar su identidad.
-
-### Verifique su combinación de dispositivo y navegador
-* Los teléfonos o las tabletas iOS deben usar el [navegador web Safari.]({{ page.url_safari }})
-* Los teléfonos o las tabletas Android deben usar el [navegador web Google Chrome.]({{ page.url_chrome }})
-
-### Actualice su navegador web o borre la memoria caché y las cookies de este
-* Si usa el navegador Safari, intente [actualizarlo]({{ page.url_safari_update_doc }} ) o [borrar la memoria caché y las cookies.]({{ page.url_safari_clear_cache_doc }} ) de este.
-* Si usa el navegador Google Chrome, intente [actualizarlo]({{ page.url_chrome_update_doc }}) o [borrar la memoria caché y las cookies.]({{ page.url_chrome_clear_cache_doc }}) de este.
-
-## Related articles
-
-* [Cómo verificar su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
-* [Documentos de identificación aceptados](/es/help/verify-your-identity/accepted-identification-documents/)
+* [¿Cómo verifico mi identidad?](/es/help/verify-your-identity/overview/)
+* [Problemas para tomarme una foto](/es/help/verify-your-identity/issues-taking-a-photo-of-myself/)
+* [Problemas al verificar mi identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/)
