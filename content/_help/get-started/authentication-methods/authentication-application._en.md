@@ -11,6 +11,8 @@ Authentication applications are downloaded to your device and generate secure, s
 
 If you choose this secure option, follow these steps to download and install one of the supported applications and configure it to work with Login.gov.
 
+## How to set up an authentication application
+
 {: .number-list}
 
 1. Choose a device, such as a computer or mobile device (phone or tablet), on which you can install apps.
