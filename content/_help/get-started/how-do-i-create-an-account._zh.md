@@ -11,7 +11,7 @@ order: 1
 
 {: .number-list}
 
-1. 首先在 <https://secure.login.gov/sign_up/enter_email> 输入你的电邮地址。
+1. 首先在 <https://secure.login.gov/zh/sign_up/enter_email> 输入你的电邮地址。
    选择一个你永远可以使用的电邮地址。账户设立后，你可以再添加一个电邮地址，比如工作电邮或另外一个个人电邮，用来访问你的账户。
 
 2. 点击“提交”按钮。
