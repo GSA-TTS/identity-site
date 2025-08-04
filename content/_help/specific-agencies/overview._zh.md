@@ -26,9 +26,8 @@ Login.gov 不能重设你的密码、删除你的账户、或更改你的账户�
 
 我们为较大的合作伙伴机构提供一些具体帮助内容。我们鼓励你联系该机构来解决具体问题。
 
-## 常见疑难问题
+## 相关文章
 
-{: .help-question-list}
-* [如何登录 Login.gov](/zh/help/trouble-signing-in/how-to-sign-in/)
-* [更改密码](/zh/help/manage-your-account/change-your-password/)
-* [忘了密码](/zh/help/trouble-signing-in/forgot-your-password/)
+* [我如何把自己的帐户和合作伙伴机构重新关联？](/zh/help/manage-your-account/relink-your-accounts/)
+* [我如何更改密码？](/zh/help/manage-your-account/change-your-password/)
+* [我如何更改与合作伙伴机构分享的电邮地址](/zh/help/manage-your-account/change-partner-email-address/)

@@ -20,6 +20,7 @@ redirect_from:
   - /help/sam/reset-or-relink-my-logingov-account-for-sam/
   - /en/help/specific-agencies/sam/
 ---
+
 Login.gov is for secure sign in only. Your Login.gov account does not affect or have any information about your System for Award Management (SAM) account, application, status, membership, or eligibility.
 
 Please do not send Login.gov sensitive data about yourself or SAM application.
@@ -37,7 +38,7 @@ Please contact [SAM.gov](https://sam.gov/) directly if you have questions regard
 
 To make changes to your SAM.gov account profile, you will need to sign in at <https://sam.gov>.
 
-Contact the Federal Service Desk at 866-606-8220 (toll-free) or 334-206-7828 (internationally) for assistance, or submit your request via web form at [www.fsd.gov](https://www.fsd.gov/).
+Contact the Federal Service Desk at 866-606-8220 (toll-free) or 334-206-7828 (internationally) for assistance, or submit your request via web form at <https://www.fsd.gov/>.
 
 ## Important notes for creating your Login.gov account and accessing your SAM profile:
 
@@ -49,5 +50,5 @@ Contact the Federal Service Desk at 866-606-8220 (toll-free) or 334-206-7828 (in
 
 ## Related articles
 
-* [Help with specific agencies](/help/specific-agencies/overview/)
-* [Relink your accounts](/help/manage-your-account/relink-your-accounts/)
+* [Help with agencies?](/help/specific-agencies/overview/)
+* [How do I relink my account with a partner agency?](/help/manage-your-account/relink-your-accounts/)
