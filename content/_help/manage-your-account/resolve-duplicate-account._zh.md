@@ -1,32 +1,32 @@
 ---
 layout: help
-title: How do I fix duplicate accounts?
+title: 如何解决重复帐户问题？
 category: manage-your-account
-permalink: /zh/help/manage-your-account/resolve-duplicate-account/
+permalink: /zh/help/manage-your-account/resolve-duplicate-accounts/
 order: 10
 ---
-Some government agencies only allow you to have one verified Login.gov account. If you have more than one Login.gov account using the same verified information, you’ll need to delete the duplicate accounts.
+有些政府机构只允许你拥有一个经过验证的Login.gov帐户。如果你有一个以上使用同样验证过的信息的 Login.gov 帐户，则需要删除重复帐户。
 
 {: .number-list}
-1. **Choose an account to keep**
-    Keep the account you use the most. For example, the one tied to the most services. That way, you won’t have to reconnect services.
+1. **选择要保留的帐户**
+    保留你最常用的那个帐户。例如，与最多机构绑定的那个帐户。这样，你就无需再重新连接这些机构。
 
-    To see which agencies an account is connected to, sign in and click on “Your connected accounts” in the left sidebar.
+    要查看一个帐户连接了哪些机构，请登录并点击左侧边栏中的“你已连接的帐户”。
 
-2. **Delete the duplicate accounts**
-    To [delete an account](/zh/help/manage-your-account/delete-your-account/):
-    * Sign into the account you are going to delete.
-    * Go to “Your account” and choose “Delete your account” in the left sidebar.
+2. **删除重复帐户**
+    [要删除一个帐户](/zh/help/manage-your-account/delete-your-account/):
+    * 登录你要删除的帐户。
+    * 前往“你的帐户”，然后在左侧边栏中选择“删除你的帐户”。
 
-    If you [forgot your password](/zh/help/trouble-signing-in/forgot-your-password/), try resetting it from the sign in page.
+    如果你[忘记了密码](/zh/help/trouble-signing-in/forgot-your-password/)，请尝试在登录页面重置密码。
 
-    If you can’t authenticate into the duplicate account:
-    * Click “Choose another method” when signing in.
-    * Scroll to the bottom of the page and select “Delete your account”.
+    如果你无法通过身份证实，进入不了重复帐户：
+    * 在登录过程中点击“选择另外一个方法”。
+    * 滚动到页面底部并选择“删除你的帐户”。
 
-3. **Sign in with your remaining account**
-    Go back to the agency’s website and sign in using the one Login.gov account you kept.
+3. **使用你保留的账户登录**
+    返回机构网站，使用你保留的那个Login.gov 账户登录。
 
 
-## What if I don’t recognize or can’t delete an account?
-If you don’t recognize or can’t delete one of the duplicate accounts you saw on the multiple accounts page, call our contact center at **(844)&nbsp;875&#8209;6446** and provide them with the error code **LG33**.
+## 如果我不认识或无法删除某个账户怎么办？
+如果你不认识或无法删除在列出多个帐户的那一页面上看到的某个重复帐户，请拨打 **(844)&nbsp;875&#8209;6446** 致电我们的联系中心并提供出错代码 **LG33**。

@@ -1,32 +1,32 @@
 ---
 layout: help
-title: How do I fix duplicate accounts?
+title: ¿Cómo puedo solucionar las cuentas duplicadas?
 category: manage-your-account
-permalink: /es/help/manage-your-account/resolve-duplicate-account/
+permalink: /es/help/manage-your-account/resolve-duplicate-accounts/
 order: 10
 ---
-Some government agencies only allow you to have one verified Login.gov account. If you have more than one Login.gov account using the same verified information, you’ll need to delete the duplicate accounts.
+Algunas agencias gubernamentales solo le permiten tener una cuenta de Login.gov verificada. Si tiene más de una cuenta de Login.gov que usa la misma información verificada, tendrá que eliminar las cuentas duplicadas.
 
 {: .number-list}
-1. **Choose an account to keep**
-    Keep the account you use the most. For example, the one tied to the most services. That way, you won’t have to reconnect services.
+1. **Elija la cuenta que desea conservar**
+    Conserve la cuenta que más usa. Por ejemplo, la que está vinculada a más servicios. Así, no tendrá que volver a conectar los servicios.
 
-    To see which agencies an account is connected to, sign in and click on “Your connected accounts” in the left sidebar.
+    Para ver a cuáles agencias está conectada una cuenta, inicie sesión y haga clic en “Sus cuentas conectadas” en el lado izquierdo.
 
-2. **Delete the duplicate accounts**
-    To [delete an account](/es/help/manage-your-account/delete-your-account/):
-    * Sign into the account you are going to delete.
-    * Go to “Your account” and choose “Delete your account” in the left sidebar.
+2. **Elimine las cuentas duplicadas**
+    [Para eliminar una cuenta:](/es/help/manage-your-account/delete-your-account/):
+    * Inicie sesión en la cuenta que va a eliminar.
+    * Vaya a “Su cuenta” y elija “Elimine su cuenta” en el lado izquierdo.
 
-    If you [forgot your password](/es/help/trouble-signing-in/forgot-your-password/), try resetting it from the sign in page.
+    Si [olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/), intente restablecerla en la página de inicio de sesión.
 
-    If you can’t authenticate into the duplicate account:
-    * Click “Choose another method” when signing in.
-    * Scroll to the bottom of the page and select “Delete your account”.
+    Si no puede autenticarse en la cuenta duplicada:
+    * Al iniciar sesión, haga clic en “Elija otro método de autenticación”.
+    * Vaya a la parte inferior de la página y seleccione “Elimine su cuenta”.
 
-3. **Sign in with your remaining account**
-    Go back to the agency’s website and sign in using the one Login.gov account you kept.
+3. **Inicie sesión con la cuenta de Login.gov que le queda**
+    Vuelva al sitio web de la agencia e inicie sesión usando la cuenta de Login.gov que conservó.
 
 
-## What if I don’t recognize or can’t delete an account?
-If you don’t recognize or can’t delete one of the duplicate accounts you saw on the multiple accounts page, call our contact center at **(844)&nbsp;875&#8209;6446** and provide them with the error code **LG33**.
+## ¿Qué hago si no reconozco o no puedo eliminar una cuenta?
+Si no reconoce o no puede eliminar una de las cuentas duplicadas que vio en la página que muestra varias cuentas, llame a nuestro centro de contacto al **(844)&nbsp;875&#8209;6446** y mencione el código de error **LG33**.

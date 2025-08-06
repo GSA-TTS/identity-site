@@ -1,32 +1,32 @@
 ---
 layout: help
-title: How do I fix duplicate accounts?
+title: Comment résoudre le problème des comptes en double ?
 category: manage-your-account
-permalink: /fr/help/manage-your-account/resolve-duplicate-account/
+permalink: /fr/help/manage-your-account/resolve-duplicate-accounts/
 order: 10
 ---
-Some government agencies only allow you to have one verified Login.gov account. If you have more than one Login.gov account using the same verified information, you’ll need to delete the duplicate accounts.
+Certains organismes ne vous autorisent à disposer que d'un seul compte Login.gov vérifié. Si vous possédez plusieurs comptes Login.gov avec les mêmes renseignements vérifiés, vous devrez supprimer les comptes en double.
 
 {: .number-list}
-1. **Choose an account to keep**
-    Keep the account you use the most. For example, the one tied to the most services. That way, you won’t have to reconnect services.
+1. **Choisir le compte que vous voulez conserver**
+    Conservez le compte que vous utilisez le plus. Par exemple, celui qui est connecté au plus grand nombre de services. Ainsi, vous n’aurez pas à recommencer les démarches pour vous reconnecter à des services.
 
-    To see which agencies an account is connected to, sign in and click on “Your connected accounts” in the left sidebar.
+    Pour voir à quels organismes est lié un compte, connectez-vous-y et cliquez sur « Vos comptes connectés » dans la barre latérale gauche.
 
-2. **Delete the duplicate accounts**
-    To [delete an account](/fr/help/manage-your-account/delete-your-account/):
-    * Sign into the account you are going to delete.
-    * Go to “Your account” and choose “Delete your account” in the left sidebar.
+2. **Supprimer les comptes en double**
+    [Pour supprimer un compte](/fr/help/manage-your-account/delete-your-account/):
+    * Connectez-vous au compte que vous allez supprimer.
+    * Allez sur « Votre compte » et sélectionnez « Supprimer votre compte » dans la barre latérale gauche.
 
-    If you [forgot your password](/fr/help/trouble-signing-in/forgot-your-password/), try resetting it from the sign in page.
+    Si vous avez [oublié votre mot de passe](/fr/help/trouble-signing-in/forgot-your-password/), essayez de le réinitialiser depuis la page de connexion.
 
-    If you can’t authenticate into the duplicate account:
-    * Click “Choose another method” when signing in.
-    * Scroll to the bottom of the page and select “Delete your account”.
+    Si vous ne pouvez pas vous authentifier pour vous connecter au compte en double :
+    * Cliquez sur « Choisir une autre méthode » au moment de vous connecter.
+    * Faites défiler la page vers le bas et sélectionnez « Supprimer votre compte ».
 
-3. **Sign in with your remaining account**
-    Go back to the agency’s website and sign in using the one Login.gov account you kept.
+3. **Vous connecter à l’aide du compte que vous conservez**
+    Retournez sur le site web de l’organisme et connectez-vous à l’aide du compte Login.gov que vous avez conservé.
 
 
-## What if I don’t recognize or can’t delete an account?
-If you don’t recognize or can’t delete one of the duplicate accounts you saw on the multiple accounts page, call our contact center at **(844)&nbsp;875&#8209;6446** and provide them with the error code **LG33**.
+## Que faire si je ne reconnais pas un compte ou ne parviens pas à le supprimer ?
+Si vous ne reconnaissez pas un compte ou ne pouvez pas accéder à l’un des comptes que vous avez identifiés sur la page détaillant vos différents comptes, veuillez appeler notre centre de contact au **(844)&nbsp;875&#8209;6446** en fournissant le code d’erreur **LG33**.
