@@ -2,6 +2,8 @@
 title: Problemas al verificar mi identidad en persona
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/verify-your-identity-in-person/
+redirect_from:
+- /es/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 order: 6
 accept_list:
 - La misma identificación que usó para ingresar su información en Login.gov.

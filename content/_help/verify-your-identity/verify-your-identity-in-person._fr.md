@@ -2,6 +2,8 @@
 title: Problèmes liés à la vérification de mon identité en personne
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/verify-your-identity-in-person/
+redirect_from:
+- /fr/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 order: 6
 accept_list:
 - La même pièce d'identité que celle que vous avez utilisée pour saisir les renseignements vous concernant sur Login.gov.
