@@ -36,20 +36,16 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
 
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect.svg">
-          <img
-            alt="“你现在正在首次登录”页面"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="“你现在正在首次登录”页面"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect.svg"
+          class="shadow-2" />
       </div>
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg">
-          <img
-            alt="“选择你更愿意分享的电邮”页面"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="“选择你更愿意分享的电邮”页面"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
+          class="shadow-2" />
       </div>
     </div>    
   </div>
@@ -77,20 +73,16 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
 
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect-verified.svg">
-          <img
-            alt="“把你验证过的信息连接到合作伙伴机构”页面"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect-verified.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="“把你验证过的信息连接到合作伙伴机构”页面"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect-verified.svg"
+          class="shadow-2" />
       </div>
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg">
-          <img
-            alt="“选择你更愿意分享的电邮”页面"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="“选择你更愿意分享的电邮”页面"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
+          class="shadow-2" />
       </div>
     </div>   
   </div>
@@ -123,20 +115,16 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
 
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connected-accounts.svg">
-          <img
-            alt="“你已连接的账户”页面"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connected-accounts.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="“你已连接的账户”页面"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connected-accounts.svg"
+          class="shadow-2" />
       </div>
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg">
-          <img
-            alt="“选择你更愿意分享的电邮”页面"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="“选择你更愿意分享的电邮”页面"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
+          class="shadow-2" />
       </div>
     </div>   
   </div>

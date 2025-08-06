@@ -38,20 +38,16 @@ You can add multiple email addresses to your Login.gov account and you can delet
 
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect.svg">
-          <img
-            alt="The “You are now signing in for the first time” page"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="The “You are now signing in for the first time” page"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect.svg"
+          class="shadow-2" />
       </div>
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg">
-          <img
-            alt="The “Select your preferred email” page"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="The “Select your preferred email” page"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
+          class="shadow-2" />
       </div>
     </div>    
   </div>
@@ -79,20 +75,16 @@ You can add multiple email addresses to your Login.gov account and you can delet
 
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect-verified.svg">
-          <img
-            alt="The “Connect your verified information to partner agency” page"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect-verified.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="The “Connect your verified information to partner agency” page"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect-verified.svg"
+          class="shadow-2" />
       </div>
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg">
-          <img
-            alt="The “Select your preferred email” page"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="The “Select your preferred email” page"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
+          class="shadow-2" />
       </div>
     </div>   
   </div>
@@ -125,20 +117,16 @@ You can add multiple email addresses to your Login.gov account and you can delet
 
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connected-accounts.svg">
-          <img
-            alt="The “Your connected accounts” page"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connected-accounts.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="The “Your connected accounts” page"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connected-accounts.svg"
+          class="shadow-2" />
       </div>
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg">
-          <img
-            alt="The “Select your preferred email” page"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="The “Select your preferred email” page"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
+          class="shadow-2" />
       </div>
     </div>   
   </div>
