@@ -107,10 +107,10 @@ Si necesita actualizar el sistema operativo o navegador web, borre la memoria ca
   </h4>
   <div id="ios-accordion" class="usa-accordion__content usa-prose">
     <ul>
-      <li>Actualice el dispositivo iOS a la versión más reciente.</li>
-      <li>Use el navegador web Safari.</li>
-      <li>Si está usando Safari, intente actualizar el navegador o borrar la memoria caché y las cookies.</li>
-      <li>Para aceptar que Login.gov use la cámara, permita el acceso a la cámara en Safari.</li>
+      <li><a href="https://support.apple.com/en-us/118575" class="external-link">Actualice el dispositivo iOS a la versión más reciente.</a></li>
+      <li>Use el <a href="https://www.apple.com/safari/" class="external-link">navegador web Safari</a>.</li>
+      <li>Si está usando Safari, puede intentar <a href="https://support.apple.com/en-us/102665" class="external-link">actualizar el navegador</a> o <a href="https://support.apple.com/en-us/105082" class="external-link">borrar la memoria caché y las cookies</a>.</li>
+      <li>Para aceptar que Login.gov use la cámara, <a href="https://support.apple.com/en-mt/guide/iphone/iphb01fc3c85/ios" class="external-link">permita el acceso a la cámara</a> en Safari.</li>
     </ul>
   </div>
   <h4 class="usa-accordion__heading">
@@ -125,13 +125,12 @@ Si necesita actualizar el sistema operativo o navegador web, borre la memoria ca
   </h4>
   <div id="android-accordion" class="usa-accordion__content usa-prose">
     <ul>
-      <li>Actualice el dispositivo Android a la versión más reciente.</li>
-      <li>Use el navegador web Chrome.</li>
-      <li>Si está usando Chrome, intente actualizar el navegador o borrar la memoria caché y las cookies.</li>
-      <li>Para aceptar que Login.gov use la cámara, permita el acceso a la cámara en Chrome.</li>
+      <li><a href="https://support.google.com/android/answer/7680439?hl=en" class="external-link">Actualice el dispositivo Android a la versión más reciente.</a></li>
+      <li>Use el <a href="https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds" class="external-link">navegador web Chrome</a>.</li>
+      <li>Si está usando Chrome, puede intentar <a href="https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DAndroid&hl=en&oco=1" class="external-link">actualizar el navegador</a> o <a href="https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&hl=en&oco=1" class="external-link">borrar la memoria caché y las cookies</a>.</li>
+      <li>Para aceptar que Login.gov use la cámara, <a href="https://support.google.com/chrome/answer/2693767?hl=en&co=GENIE.Platform%3DAndroid&oco=1" class="external-link">permita el acceso a la cámara en Chrome</a>.</li>
     </ul>
   </div>
-</div>
 
 ## Recibí un mensaje de error que dice que Login.gov no pudo verificar mi identificación
 

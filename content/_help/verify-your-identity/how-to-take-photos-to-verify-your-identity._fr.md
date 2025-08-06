@@ -107,10 +107,10 @@ Il est possible que vous deviez mettre à jour votre système d’exploitation o
   </h4>
   <div id="ios-accordion" class="usa-accordion__content usa-prose">
     <ul>
-      <li>Installez la dernière version d’iOS</li>
-      <li>Utilisez le navigateur Safari</li>
-      <li>Si vous utilisez Safari, vous pouvez essayer de mettre le navigateur à jour ou vider le cache et effacer les cookies</li>
-      <li>Pour permettre à Login.gov d’utiliser la caméra, autorisez l’accès à la caméra dans Safari</li>
+      <li><a href="https://support.apple.com/en-us/118575" class="external-link">Installez la dernière version d’iOS</a></li>
+      <li>Utilisez le <a href="https://www.apple.com/safari/" class="external-link">navigateur Safari</a></li>
+      <li>Si vous utilisez Safari, vous pouvez essayer de <a href="https://support.apple.com/en-us/102665" class="external-link">mettre le navigateur à jour</a> ou <a href="https://support.apple.com/en-us/105082" class="external-link">vider le cache et effacer les cookies</a></li>
+      <li>Pour permettre à Login.gov d’utiliser la caméra, <a href="https://support.apple.com/en-mt/guide/iphone/iphb01fc3c85/ios" class="external-link">autorisez l’accès à la caméra</a> dans Safari</li>
     </ul>
   </div>
   <h4 class="usa-accordion__heading">
@@ -125,13 +125,12 @@ Il est possible que vous deviez mettre à jour votre système d’exploitation o
   </h4>
   <div id="android-accordion" class="usa-accordion__content usa-prose">
     <ul>
-      <li>Installez la dernière version d’Android</li>
-      <li>Utilisez le navigateur Chrome</li>
-      <li>Si vous utilisez Chrome, vous pouvez essayer de mettre le navigateur à jour ou vider le cache et effacer les cookies.</li>
-      <li>Pour permettre à Login.gov d’utiliser la caméra, autorisez l’accès à la caméra dans Chrome</li>
+      <li><a href="https://support.google.com/android/answer/7680439?hl=en" class="external-link">Installez la dernière version d’Android</a></li>
+      <li>Utilisez le <a href="https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds" class="external-link">navigateur Chrome</a></li>
+      <li>Si vous utilisez Chrome, vous pouvez essayer de <a href="https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DAndroid&hl=en&oco=1" class="external-link">mettre le navigateur à jour</a> ou <a href="https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&hl=en&oco=1" class="external-link">vider le cache et effacer les cookies</a></li>
+      <li>Pour permettre à Login.gov d’utiliser la caméra, <a href="https://support.google.com/chrome/answer/2693767?hl=en&co=GENIE.Platform%3DAndroid&oco=1" class="external-link">autorisez l’accès à la caméra dans Chrome</a></li>
     </ul>
   </div>
-</div>
 
 ## J’ai reçu un message d’erreur selon lequel Login.gov ne parvenait pas à vérifier ma pièce d’identité
 

@@ -108,10 +108,10 @@ You may need to update your operating system or web browser, clear your cache or
   </h4>
   <div id="ios-accordion" class="usa-accordion__content usa-prose">
     <ul>
-      <li>Update to the latest version of iOS</li>
-      <li>Use the Safari web browser</li>
-      <li>If you’re using Safari, you can try updating the browser, or clear the cache and cookies</li>
-      <li>To give Login.gov permission to use the camera, allow access to the camera in Safari</li>
+      <li><a href="https://support.apple.com/en-us/118575" class="external-link">Update to the latest version of iOS</a></li>
+      <li>Use the <a href="https://www.apple.com/safari/" class="external-link">Safari web browser</a></li>
+      <li>If you’re using Safari, you can try <a href="https://support.apple.com/en-us/102665" class="external-link">updating the browser</a>, or <a href="https://support.apple.com/en-us/105082" class="external-link">clear the cache and cookies</a></li>
+      <li>To give Login.gov permission to use the camera, <a href="https://support.apple.com/en-mt/guide/iphone/iphb01fc3c85/ios" class="external-link">allow access to the camera</a> in Safari</li>
     </ul>
   </div>
   <h4 class="usa-accordion__heading">
@@ -126,10 +126,10 @@ You may need to update your operating system or web browser, clear your cache or
   </h4>
   <div id="android-accordion" class="usa-accordion__content usa-prose">
     <ul>
-      <li>Update to the latest version of Android</li>
-      <li>Use the Chrome web browser</li>
-      <li>If you’re using Chrome, you can try updating the browser, or clear the cache and cookies.</li>
-      <li>To give Login.gov permission to use the camera, allow access to the camera in Chrome</li>
+      <li><a href="https://support.google.com/android/answer/7680439?hl=en" class="external-link">Update to the latest version of Android</a></li>
+      <li>Use the <a href="https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds" class="external-link">Chrome web browser</a></li>
+      <li>If you’re using Chrome, you can try <a href="https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DAndroid&hl=en&oco=1" class="external-link">updating the browser</a>, or <a href="https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&hl=en&oco=1" class="external-link">clear the cache and cookies</a>.</li>
+      <li>To give Login.gov permission to use the camera, <a href="https://support.google.com/chrome/answer/2693767?hl=en&co=GENIE.Platform%3DAndroid&oco=1" class="external-link">allow access to the camera in Chrome</a></li>
     </ul>
   </div>
 </div>
