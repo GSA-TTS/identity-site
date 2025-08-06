@@ -3,6 +3,9 @@ title: 验证你的身份
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/overview/
 order: 0
+redirect_from:
+  - /zh/help/verify-your-identity/accepted-identification-documents/
+  - /zh/help/verify-your-identity/how-to-verify-your-identity/
 accept_id_list:
 - 美国所有50个州、哥伦比亚特区（DC）以及其他美国属地（关岛、美属维尔京岛、美属萨摩亚、马里亚纳群岛和波多黎各）的驾照
 - 州颁发的非驾照 ID 卡。这是由各州政府、哥伦比亚特区（DC）、或美国属地颁发的一种身份文件，证明你的身份但不授予驾驶特权。

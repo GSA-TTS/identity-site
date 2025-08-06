@@ -3,6 +3,8 @@ layout: help
 title: Issues verifying my identity in person
 category: verify-your-identity
 permalink: /help/verify-your-identity/verify-your-identity-in-person/
+redirect_from:
+- /help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 order: 6
 accept_list:
 - The same ID that you used to enter your information on Login.gov.

@@ -4,6 +4,8 @@ category: verify-your-identity
 permalink: /help/verify-your-identity/overview/
 order: 0
 redirect_from:
+- /help/verify-your-identity/how-to-verify-your-identity/
+- /help/verify-your-identity/accepted-identification-documents/
 - /help/verify-your-identity/
 - /en/help/verify-your-identity/
 - /en/help/verify-your-identity/overview/

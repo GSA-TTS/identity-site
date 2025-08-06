@@ -3,6 +3,8 @@ layout: help
 title: 亲身验证我的身份问题
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/verify-your-identity-in-person/
+redirect_from:
+- /zh/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 order: 6
 accept_list:
 - 你用来在 Login.gov 上输入你信息的同一 ID。

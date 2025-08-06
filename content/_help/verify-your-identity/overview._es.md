@@ -4,6 +4,8 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/overview/
 order: 0
 redirect_from:
+  - /es/help/verify-your-identity/how-to-verify-your-identity/
+  - /es/help/verify-your-identity/accepted-identification-documents/
   - /es/help/verify-your-identity/
   - /es/help/identity-verification/i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them/
   - /es/help/identity-verification/related-articles/
