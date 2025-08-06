@@ -36,20 +36,16 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
 
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect.svg">
-          <img
-            alt="La página “Está iniciando sesión por primera vez”"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="La página “Está iniciando sesión por primera vez”"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect.svg"
+          class="shadow-2" />
       </div>
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg">
-          <img
-            alt="La página “Seleccione su correo electrónico preferido”"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="La página “Seleccione su correo electrónico preferido”"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
+          class="shadow-2" />
       </div>
     </div>    
   </div>
@@ -77,20 +73,16 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
 
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect-verified.svg">
-          <img
-            alt="La página “Conecte su información verificada a la agencia asociada”"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect-verified.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="La página “Conecte su información verificada a la agencia asociada”"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connect-verified.svg"
+          class="shadow-2" />
       </div>
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg">
-          <img
-            alt="La página “Seleccione su correo electrónico preferido”"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="La página “Seleccione su correo electrónico preferido”"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
+          class="shadow-2" />
       </div>
     </div>   
   </div>
@@ -123,20 +115,16 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
 
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connected-accounts.svg">
-          <img
-            alt="La página “Sus cuentas conectadas”"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connected-accounts.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="La página “Sus cuentas conectadas”"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connected-accounts.svg"
+          class="shadow-2" />
       </div>
       <div class="tablet:grid-col-6">
-        <a href="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg">
-          <img
-            alt="La página “Seleccione su correo electrónico preferido”"
-            src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
-            class="shadow-2" />
-        </a>
+        <img
+          alt="La página “Seleccione su correo electrónico preferido”"
+          src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/select-email.svg"
+          class="shadow-2" />
       </div>
     </div>   
   </div>
