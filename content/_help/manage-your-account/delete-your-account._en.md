@@ -36,7 +36,7 @@ redirect_from:
   </h4>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
-      <li>Enter your email address at <https://secure.login.gov>.</li>
+      <li>Enter your email address at <a href="https://secure.login.gov">https://secure.login.gov</a>.</li>
       <li>Enter your password.</li>
       <li>Click the “Sign in” button.</li>
       <li>Authenticate using one of the methods you set up.</li>
@@ -61,7 +61,7 @@ redirect_from:
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>As a security measure, Login.gov requires a two-step process and 24 hour waiting period if you have lost access to your authentication methods and need to delete your account.</p>
     <ol class="number-list">
-      <li>Go to your government application sign in page or to <https://secure.login.gov/></li>
+      <li>Go to your government application sign in page or to <a href="https://secure.login.gov">https://secure.login.gov</a></li>
       <li>Sign in with your email and password</li>
       <li>On the authentication page, click on “Choose another security option”</li>
       <li>Scroll to the bottom and click on the “deleting your account” link</li>

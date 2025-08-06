@@ -9,8 +9,6 @@ redirect_from:
   - /es/help/changing-settings/how-do-i-change-the-phone-number-i-use-to-sign-in/
 ---
 
-Follow these steps to change the phone number associated with your account.
-
 Siga estos pasos para cambiar el número de teléfono asociado con su cuenta.
 
 {: .number-list}

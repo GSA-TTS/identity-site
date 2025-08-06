@@ -13,7 +13,7 @@ redirect_from:
 
 Si vous rencontrez des problèmes pour vous connecter à un site Web partenaire de Login.gov après avoir changé votre adresse e-mail, il se peut que le partenaire ait lié votre compte à une adresse e-mail différente. Pour accéder à vos informations ou à votre profil sur le site Web partenaire, il est possible de relier votre compte.
 
-Les solutions suivantes sont possibles :
+**Les solutions suivantes sont possibles :**
 
 {: .number-list}
 1. Connectez-vous en utilisant l’adresse e-mail utilisée précédemment pour vous inscrire auprès de l’organisme partenaire.
