@@ -1,0 +1,7 @@
+@use '../colors' as *;
+
+.popular-topics-border {
+  border: 1px solid $blue;
+  border-radius: 0.5rem;
+  max-width: 38.625rem;
+}
