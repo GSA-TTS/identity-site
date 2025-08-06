@@ -280,7 +280,7 @@ help_subpages:
   manage-your-account: Gérer votre compte
   specific-agencies: Aide concernant des organismes spécifiques
   trouble-signing-in: Vous rencontrez des difficultés pour vous connecter ?
-  verify-your-identity: Confirmer votre identité
+  verify-your-identity: Confirmer mon identité
 identifier:
   accessible_labels:
     description: Description de l’organisme

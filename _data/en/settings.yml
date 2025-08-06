@@ -256,7 +256,7 @@ help_subpages:
   manage-your-account: Manage your account
   specific-agencies: Help with specific agencies
   trouble-signing-in: Trouble signing in?
-  verify-your-identity: Verify your identity
+  verify-your-identity: Verify my identity
 identifier:
   accessible_labels:
     description: Agency description

@@ -246,7 +246,7 @@ help_subpages:
   manage-your-account: 管理你的账户
   specific-agencies: 就具体机构获得帮助
   trouble-signing-in: 登录有疑难?
-  verify-your-identity: 验证你的身份
+  verify-your-identity: 验证我的身份
 identifier:
   accessible_labels:
     description: 机构描述
