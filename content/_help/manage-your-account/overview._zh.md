@@ -1,6 +1,6 @@
 ---
 layout: help
-title: 管理帐户
+title: 管理我的账户
 category: manage-your-account
 permalink: /zh/help/manage-your-account/overview/
 order: 0

@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Manage account
+title: Manage my account
 category: manage-your-account
 permalink: /help/manage-your-account/overview/
 order: 0

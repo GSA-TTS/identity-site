@@ -1,5 +1,5 @@
 ---
-title: Gérer un compte
+title: Gérer mon compte
 category: manage-your-account
 permalink: /fr/help/manage-your-account/overview/
 order: 0

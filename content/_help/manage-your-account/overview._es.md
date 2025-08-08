@@ -1,8 +1,7 @@
 ---
-title: Administre su cuenta
+title: Administrar una cuenta
 category: manage-your-account
 permalink: /es/help/manage-your-account/overview/
-meta_title: Administre su cuenta
 order: 0
 redirect_from:
   - /es/help/changing-settings/i-got-an-error-message-when-i-added-an-email/
