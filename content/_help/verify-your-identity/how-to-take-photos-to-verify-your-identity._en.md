@@ -18,7 +18,7 @@ You need a phone or tablet with a camera to take photos of your ID using Login.g
 
 <ol class="number-list">
   <li>
-    Place your ID on a solid, dark background.
+    <p>Place your ID on a solid, dark background.</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%
@@ -41,7 +41,7 @@ You need a phone or tablet with a camera to take photos of your ID using Login.g
     </div>
   </li>
   <li>
-    Take your photos in a well-lit area with indirect light.
+    <p>Take your photos in a well-lit area with indirect light.</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%
@@ -63,7 +63,7 @@ You need a phone or tablet with a camera to take photos of your ID using Login.g
     </div>
   </li>
   <li>
-    Hold your device still while taking the photos. It may help to prop your arms on the table to steady yourself.
+    <p>Hold your device still while taking the photos. It may help to prop your arms on the table to steady yourself.</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%

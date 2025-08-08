@@ -17,7 +17,7 @@ Vous avez besoin d’un téléphone ou d’une tablette avec caméra pour prendr
 
 <ol class="number-list">
   <li>
-    Placez votre pièce d’identité sur une surface unie et sombre.
+    <p>Placez votre pièce d’identité sur une surface unie et sombre.</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%
@@ -40,7 +40,7 @@ Vous avez besoin d’un téléphone ou d’une tablette avec caméra pour prendr
     </div>
   </li>
   <li>
-    Prenez vos photos dans un endroit bien éclairé, avec une lumière indirecte.
+    <p>Prenez vos photos dans un endroit bien éclairé, avec une lumière indirecte.</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%
@@ -62,7 +62,7 @@ Vous avez besoin d’un téléphone ou d’une tablette avec caméra pour prendr
     </div>
   </li>
   <li>
-    Ne bougez pas votre appareil pendant la prise des photos. Il peut être utile de poser vos bras sur une table pour rester stable.
+    <p> bougez pas votre appareil pendant la prise des photos. Il peut être utile de poser vos bras sur une table pour rester stable.</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%

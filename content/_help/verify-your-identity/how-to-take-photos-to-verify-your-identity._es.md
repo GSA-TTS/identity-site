@@ -17,7 +17,7 @@ Necesita un teléfono o una tableta con cámara para tomar las fotografías de s
 
 <ol class="number-list">
   <li>
-    Coloque su identificación sobre un fondo oscuro de un solo color.
+    <p>Coloque su identificación sobre un fondo oscuro de un solo color.</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%
@@ -40,7 +40,7 @@ Necesita un teléfono o una tableta con cámara para tomar las fotografías de s
     </div>
   </li>
   <li>
-    Tome sus fotografías en un lugar bien iluminado con luz indirecta.
+    <p>Tome sus fotografías en un lugar bien iluminado con luz indirecta.</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%
@@ -62,7 +62,7 @@ Necesita un teléfono o una tableta con cámara para tomar las fotografías de s
     </div>
   </li>
   <li>
-    Mantenga fijo su dispositivo mientras toma las fotografías. Para mantener la estabilidad, puede apoyar los brazos en una mesa.
+    <p>Mantenga fijo su dispositivo mientras toma las fotografías. Para mantener la estabilidad, puede apoyar los brazos en una mesa.</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%

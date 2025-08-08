@@ -17,7 +17,7 @@ redirect_from:
 
 <ol class="number-list">
   <li>
-    将你的 ID 放在纯深色背景上。
+    <p>将你的 ID 放在纯深色背景上。</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%
@@ -40,7 +40,7 @@ redirect_from:
     </div>
   </li>
   <li>
-    在有间接光照的明亮的地方拍照。
+    <p>在有间接光照的明亮的地方拍照。</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%
@@ -62,7 +62,7 @@ redirect_from:
     </div>
   </li>
   <li>
-    拍照时请把设备拿稳。将手臂撑在桌子上以保持身体稳定可能会有所帮助。
+    <p>拍照时请把设备拿稳。将手臂撑在桌子上以保持身体稳定可能会有所帮助。</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%
