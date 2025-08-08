@@ -37,6 +37,7 @@ Suivez les étapes suivantes pour créer votre compte Login.gov.
      * Le même mot de passe, ou des parties de celui-ci, que vous utilisez pour d’autres comptes, tels que votre compte bancaire ou votre adresse e-mail
 
 6. Configurez une deuxième couche de sécurité.
+
    Comme couche de protection supplémentaire, Login.gov exige que vous mettiez en place une méthode d'authentification secondaire pour assurer la sécurité de votre compte. Cette méthode est appelée authentification multi-facteurs (AMF).
    Nous vous encourageons à disposer de plus d'une seule méthode d'authentification sur votre compte. Vous avez le choix parmi plusieurs possibilités d’authentification.
 

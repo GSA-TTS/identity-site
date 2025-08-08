@@ -32,6 +32,7 @@ Follow these steps to change the email address associated with your account.
 1. Click the “Submit” button.
 
 1. We will send an email to your new email address.
+
    * Follow the prompts to confirm your email address.
    * If you do not confirm your email address, you will not be able to use it with your Login.gov account.
    * Do not remove the old email address until you have confirmed your new email address.

@@ -27,6 +27,7 @@ redirect_from:
 6. Cliquez sur le bouton « Réinitialiser votre mot de passe » contenu dans le message. Vous serez redirigé vers le site Login.gov.
 
 7. Saisissez votre nouveau mot de passe.
+
    * Pour prévenir l’usurpation d’identité, pensez à renforcer votre mot de passe en utilisant :
      * Des séquences uniques de caractères que vous êtes le seul à reconnaître
      * Plusieurs mots séparés par des espaces pour atteindre 12 caractères

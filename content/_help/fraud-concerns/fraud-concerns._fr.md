@@ -22,6 +22,7 @@ Vous pouvez passer en revue les connexions récentes et les appareils associés 
 3. Sélectionnez **« Historique »** pour visualiser **vos appareils récemment utilisés ou dernières connexions.**
 
 Si un appareil ou une connexion que vous ne reconnaissez pas s’affiche, nous vous recommandons vivement :
+
    * **De modifier immédiatement votre mot de passe** et
    * **De vérifier vos méthodes d’authentification** pour veiller à ce qu’elles soient à jour et sécurisées.
 

@@ -18,6 +18,7 @@ Voici différentes raisons possibles expliquant pourquoi votre carte PIV/CAC ne 
 [Contactez le service d’assistance de Login.gov](/fr/contact/) pour obtenir de l’aide.
 
 Si vous avez récemment reçu une nouvelle carte PIV/CAC, vous devrez supprimer l’ancienne et la remplacer par la nouvelle.
+
 * Vous devez avoir configuré une autre méthode d’authentification avant de désactiver une ancienne carte PIV/CAC et d’activer la nouvelle.
 * Si vous rencontrez un problème avec votre code PIN ou votre certificat, prenez contact avec votre service informatique. Login.gov n’a aucun contrôle sur ces informations.
 * Votre carte PIV/CAC ne peut être associée qu’à un seul et unique compte Login.gov.

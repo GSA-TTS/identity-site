@@ -11,6 +11,7 @@ Here are solutions to the issues you may run into when creating a Login.gov acco
 ## I’m not receiving a confirmation email
 
 **If you did not receive your confirmation email:**
+
 - Check your spam folder for an email from no-reply@login.gov or an email from the @mail.login.gov domain, as our emails are sometimes incorrectly put there.
 - Add “no-reply@login.gov” to your contact list. Once this is done, request another email.
 - Use a different email address to create your account
@@ -32,12 +33,14 @@ If your email address or phone number isn't accepted, it is possible that the in
 Here's a more detailed breakdown of potential issues and solutions:
 
 **Incorrect Information:**
+
 - Double-check for typos. Ensure your email address and phone number are entered correctly, including any special characters or formatting.
 - Make sure your email address is a functional one you can access.
 - Ensure your phone number is valid and that you can receive text messages or phone calls on it. Do not use web-based (VOIP) phone services or premium rate (toll) phone numbers.
 - If you're receiving a phone/SMS verification code, double-check that you're entering it correctly.
 
 **System Issues:**
+
 - Login.gov may be experiencing temporary technical difficulties, so try again later.
 - Check if there are any known outages or maintenance on the <https://status.login.gov/> website.
 

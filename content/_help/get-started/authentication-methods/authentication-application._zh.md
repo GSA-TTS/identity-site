@@ -18,6 +18,7 @@ order: 2
 1. 选择一个可以安装应用程序的设备，比如电脑或移动设备（手机或平板电脑）。
 
 2. 在设备上下载并安装一个身份证实应用程序。常见的一些选项包括：
+
    * 安卓选项：[Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
    * iOS选项：[Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
    * Windows app: [1Password](https://1password.com/), [OTP Manager](https://apps.microsoft.com/detail/9nblggh6hngn?hl=zh-cn&gl=US).

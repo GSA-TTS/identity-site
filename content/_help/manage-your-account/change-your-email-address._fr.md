@@ -29,6 +29,7 @@ Suivez les étapes ci-dessous pour modifier l'adresse e-mail associée à votre 
 1. Cliquez sur le bouton « Valider ».
 
 1. Nous enverrons un e-mail à votre nouvelle adresse e-mail.
+
    * Suivez les indications pour confirmer votre adresse e-mail.
    * Si vous ne confirmez pas votre adresse e-mail, vous ne pourrez pas l'utiliser avec votre compte Login.gov.
    * Ne supprimez pas votre ancienne adresse e-mail tant que vous n'avez pas confirmé la nouvelle.

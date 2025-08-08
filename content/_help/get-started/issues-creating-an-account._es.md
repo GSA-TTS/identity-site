@@ -32,12 +32,14 @@ Si no se acepta su dirección de correo electrónico o su número de teléfono, 
 Esta es una descripción más detallada de los posibles problemas y soluciones:
 
 **Información incorrecta:**  
+
 - Vuelva a revisar que no haya errores; verifique que su dirección de correo electrónico y su número de teléfono estén escritos correctamente, y que tengan el formato y los caracteres especiales.
 - Revise que su dirección de correo electrónico funcione bien y que puede acceder a esta.
 - Confirme que su número de teléfono es el correcto y que puede recibir en él mensajes de texto o llamadas telefónicas. No use servicios telefónicos de voz sobre protocolo de internet (VoIP) ni números de teléfono de tarifa especial.
 - Si recibe un código de verificación por teléfono o por mensaje de texto, revise de nuevo que lo está introduciendo correctamente.
 
 **Problemas con el sistema:**  
+
 - Es posible que Login.gov esté teniendo problemas técnicos temporales, así que vuelva a intentarlo más tarde.
 - Revise si hay interrupciones eléctricas o por mantenimiento en el sitio web <https://status.login.gov/>.
 

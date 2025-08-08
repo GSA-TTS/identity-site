@@ -25,9 +25,11 @@ Siga estos pasos para cambiar el número de teléfono asociado con su cuenta.
 1. Seleccione “Agregar número de teléfono”.
 
 1. Ingrese el nuevo número de teléfono.
+
    * No use servicios telefónicos de voz sobre protocolo de internet (VoIP) ni números de teléfono de tarifa especial.
 
 1. Marque la casilla “Número de teléfono predeterminado” si desea establecerlo como tal.
+
    * El número de teléfono predeterminado será el número de teléfono principal asociado con su cuenta. Si utiliza mensajes de texto (SMS) o códigos de texto para autenticarse e iniciar sesión, estos códigos se enviarán al número de teléfono predeterminado.
 
 1. Haga clic en el botón “Cambiar contraseña”.

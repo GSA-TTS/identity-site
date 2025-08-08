@@ -11,6 +11,7 @@ Vous trouverez ci-dessous des solutions aux problèmes que vous pouvez rencontre
 ## Je ne reçois pas d’e-mail de confirmation
 
 **Si vous n’avez pas reçu votre e-mail de confirmation :**  
+
 - Vérifiez dans votre dossier des indésirables s’il s’y trouve un e-mail envoyé par no-reply@login.gov ou du domaine @mail.login.gov ; nos courriels y arrivent parfois par erreur.
 - Ajoutez « no-reply@login.gov » à votre liste de contacts. Ceci étant fait, demandez à recevoir un autre e-mail.
 - Utilisez une adresse e-mail différente pour créer votre compte.
@@ -32,12 +33,14 @@ Si votre adresse e-mail ou votre numéro de téléphone n'est pas accepté, il e
 Vous trouverez ci-dessous une liste des problèmes et solutions possibles :
 
 **Renseignements erronés :**  
+
 - Vérifiez s’il y a des fautes de frappe. Assurez-vous que votre adresse e-mail et numéro de téléphone sont correctement saisis, notamment les caractères spéciaux ou le formatage.
 - Assurez-vous que votre adresse e-mail fonctionne et qu’elle est accessible.
 - Vérifiez que votre numéro de téléphone est correct et qu’il peut recevoir des messages texte ou des appels téléphoniques. N'utilisez pas de services téléphoniques par internet (Voix sur IP) ou de numéros de téléphone à tarif majoré (payant).
 - Si vous recevez un code de vérification par téléphone/SMS, faites attention à le saisir correctement.
 
 **Problèmes liés au système :**  
+
 - Login.gov rencontre peut-être des problèmes techniques temporaires. Veuillez réessayer ultérieurement.
 - Vérifiez s’il y a des pannes ou travaux de maintenance signalés sur le site web <https://status.login.gov/>.
 

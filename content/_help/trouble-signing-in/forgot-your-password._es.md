@@ -27,6 +27,7 @@ redirect_from:
 6. Haga clic en el botón “Restablezca su contraseña” del mensaje para volver al sitio web de Login.gov.
 
 7. Ingrese su nueva contraseña.
+
    * Para prevenir el robo de identidad, considere reforzar su contraseña utilizando:
      * Frases que solo usted conozca
      * Varias palabras con espacios hasta completar los 12 caracteres

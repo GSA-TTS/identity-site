@@ -29,6 +29,7 @@ Siga estos pasos para cambiar la dirección de correo electrónico asociada con 
 1. Haga clic en el botón “Enviar”.
 
 1. Enviaremos un correo electrónico a su nueva dirección de correo electrónico.
+
    * Siga las instrucciones para confirmar su dirección de correo electrónico.
    * Si no confirma su dirección de correo electrónico, no podrá utilizarla con su cuenta de Login.gov.
    * No elimine la dirección de correo electrónico anterior hasta que haya confirmado la nueva.
