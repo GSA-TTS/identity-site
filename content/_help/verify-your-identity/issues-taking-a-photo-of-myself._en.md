@@ -13,11 +13,10 @@ Some partner agencies may ask you to take a photo of your face when you take pho
 {: .number-list}
 
 1. Take your photo in a well-lit place, while avoiding glare.
-1. Make sure your entire face is visible, from your chin to the top of your head.
-1. Only wear accessories, like glasses, that you also wear in your ID photo. Remove any other items covering your face.
-1. Line up your face with the guidelines. Keep your expression neutral and remain still.
-1. Follow the instructions to take a photo. The camera tool may automatically take a photo, or you may need to tap a button to take the photo.
-1. Tap the checkmark or follow the instructions to accept the photo.
+2. Make sure your entire face is visible, from your chin to the top of your head. Only wear accessories, like glasses, that you also wear in your ID photo. Remove any other items covering your face.
+4. Line up your face with the guidelines. Keep your expression neutral and remain still.
+5. Follow the instructions to take a photo. The camera tool may automatically take a photo, or you may need to tap a button to take the photo.
+6. Tap the checkmark or follow the instructions to accept the photo.
 
 ## I got an error that Login.gov could not match the photo of me to my ID
 
