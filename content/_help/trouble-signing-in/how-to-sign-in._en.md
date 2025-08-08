@@ -37,7 +37,9 @@ If you selected phone call or text message as your authentication method, your p
 {: .number-list}
 
 1. If you have added more than one authentication method, sign in with your email address and password.
+
 1. When it asks you for the security code sent to your phone, select “Choose another security option”.
+
 1. Select any of the other security options you have previously configured, then follow the steps to sign in.
 
 ## Related articles

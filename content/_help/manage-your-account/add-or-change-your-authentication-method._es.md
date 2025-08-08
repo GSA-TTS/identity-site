@@ -10,12 +10,19 @@ order: 5
 Si perdió su método de autenticación y no tiene una copia de seguridad conectada a su cuenta, debe [eliminar su cuenta actual de Login.gov](/es/help/manage-your-account/delete-your-account/) y crear una nueva.
 
 {: .number-list}
+
 1. Ingrese su dirección de correo electrónico en <https://secure.login.gov/es>.
+
 2. Ingrese su contraseña.
+
 3. Haga clic en el botón “Iniciar sesión”.
+
 4. Use uno de los métodos que configuró para autenticarse. Aparecerá la página de su cuenta.
+
 5. En la página de su cuenta de Login.gov, revise las opciones del menú “Sus métodos de autenticación” en el lado izquierdo de la página.
+
 6. Seleccione el nuevo método que desea añadir. [Obtenga más información sobre los métodos de autenticación.](/es/help/get-started/authentication-methods/)
+
 7. Siga todas las indicaciones para confirmar sus cambios.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">

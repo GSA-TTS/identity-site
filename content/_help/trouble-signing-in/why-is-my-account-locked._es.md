@@ -20,13 +20,19 @@ Su cuenta quedó bloqueada porque limitamos el número de veces que puede intent
 Tendrá que esperar seis horas antes de volver a intentar verificar su identidad.
 
 **Después de seis horas:**
+
 {: .number-list}
 
 1. Vuelva al sitio web de la agencia asociada al que estaba intentando acceder.
+
 1. Inicie sesión con su dirección de correo electrónico, contraseña y método de autenticación. No cree una cuenta nueva.
+
 1. Se le pedirá que vuelva a verificar su identidad.
+
 1. Cuando [añada las fotos de su identificación](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/), revise que su nombre, domicilio y demás información en su identificación se pueda leer fácilmente antes de enviarla.
+
 1. Cuando [verifique su información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/), revise que toda su información sea correcta en la pantalla de confirmación. Si su dirección o su número de Seguro Social están equivocados, puede modificar esa información antes de enviarla.
+
 1. Cuando [verifique su número de teléfono](/es/help/verify-your-identity/phone-number/), compruebe haber ingresado el número correctamente y que se trata de un tipo aceptado de número de teléfono.
 
 ## Otros artículos

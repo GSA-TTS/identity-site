@@ -12,8 +12,11 @@ Si sospecha que su cuenta de Login.gov se ha visto comprometida, o si observa ac
 Puede revisar los inicios de sesión recientes y los dispositivos asociados con su cuenta de Login.gov:
 
 {: .number-list}
+
 1. Inicie sesión en [Login.gov](https://secure.login.gov/es/).
+
 2. Navegue a la **página de su cuenta**.
+
 3. Seleccione **“Historial”** para ver los **dispositivos utilizados recientemente y los inicios de sesión**.
 
 Si ve algún dispositivo o inicio de sesión que no reconozca, le recomendamos encarecidamente que:

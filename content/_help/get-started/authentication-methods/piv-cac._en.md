@@ -28,10 +28,15 @@ Physical PIV (personal identity verification) cards or CACs (common access cards
 {: .number-list}
 
 1. Go to <https://secure.login.gov/>.
+
 2. Sign in to your account using your username, password, and authentication method.
+
 3. On the "Your account" page, click on "Add federal employee ID" under "Your authentication methods".
+
 4. Enter your government employee ID into the reader and click on "Add PIV/CAC card".
+
 5. A dialog box may pop up and prompt you to select a certificate. Login.gov cannot determine which certificate you must select. We can only advise you to pick one and then try another if it doesn’t work.
+
 6. You might be asked to enter the PIN associated with your PIV/CAC. This is a PIN that you have set up with your PIV/CAC credentials.
 
 

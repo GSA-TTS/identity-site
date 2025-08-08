@@ -20,7 +20,9 @@ Login.gov does not provide users with a security key, so you will need to obtain
 {: .number-list}
 
 1. Assign a nickname to your security key so that you can easily identify it with your Login.gov account later.
+
 2. Insert your security key into your device.
+
 3. Follow your browser’s instructions to activate your security key. You won’t need to enter a code when using your security key.
 
 ## Related articles

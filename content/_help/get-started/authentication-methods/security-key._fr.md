@@ -20,7 +20,9 @@ Comme Login.gov ne fournit pas aux utilisateurs de clé de sécurité, vous deve
 {: .number-list}
 
 1. Affectez un surnom à votre clé de sécurité de façon à pouvoir ultérieurement l’identifier aisément avec votre compte Login.gov.
+
 2. Insérez votre clé de sécurité dans votre appareil.
+
 3. Suivez les instructions de votre navigateur pour activer votre clé de sécurité. Vous n’aurez pas besoin de saisir un code lorsque vous utiliserez votre clé de sécurité.
 
 ## Articles connexes

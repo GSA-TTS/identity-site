@@ -46,8 +46,11 @@ Si no tiene todos estos requisitos, contacte con la agencia a la que está inten
 {: .number-list}
 
 1. Tome [fotografías de su identificación en línea](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/). Es posible que también se le pida que [se tome una foto](/es/help/verify-your-identity/issues-taking-a-photo-of-myself/) para confirmar que usted es el titular de la identificación. Si tiene problemas para tomar fotos de su identificación o de usted mismo, también puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) en una oficina del Servicio Postal de los Estados Unidos cercana.
+
 1. Ingrese su número de Seguro Social y [verificaremos su información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/) en registros públicos y privados.
+
 1. [Verificaremos su número de teléfono](/es/help/verify-your-identity/phone-number/) y le enviaremos un código de un solo uso a su teléfono. Si eso no funciona, podemos [verificar su dirección por correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/).
+
 1. Vuelva a ingresar su contraseña para almacenar la información verificada en su cuenta y conectar su información con la agencia asociada a la que está intentando acceder.
 
 ## ¿Cómo usa Login.gov mi información?

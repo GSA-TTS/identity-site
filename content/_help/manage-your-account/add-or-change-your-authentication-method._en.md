@@ -13,12 +13,19 @@ redirect_from:
 If you lost your authentication method and do not have a backup connected to your account, you will need to [delete your current Login.gov account](/help/manage-your-account/delete-your-account/) and create a new one.
 
 {: .number-list}
+
 1. Enter your email address at <https://secure.login.gov>.
+
 2. Enter your password.
+
 3. Click the “Sign in” button.
+
 4. Authenticate using one of the methods you set up. You will be taken to your account page.
+
 5. On your Login.gov account page, review the “Your authentication methods” menu options on the left side of the page.
+
 6. Select a new method to add. [Learn more about authentication methods](/help/get-started/authentication-methods/)
+
 7. Follow all prompts to confirm your changes.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">

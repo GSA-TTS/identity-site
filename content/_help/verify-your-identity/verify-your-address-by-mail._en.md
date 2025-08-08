@@ -17,9 +17,13 @@ In some cases, you can verify your address by mail instead of [verifying your ph
 {: .number-list}
 
 1. Confirm that you want to request a letter to the address you verified earlier.
+
 1. Re-enter your password to save the information you verified so far and send your letter.
+
 1. When you see a screen that your letter is on the way, you can sign out of Login.gov for now and wait for your letter to arrive.
+
 1. Letters are sent the next business day via USPS First-Class Mail. It takes about 5-10 days to get your letter in the mail. The verification code will expire 30 days after the date when you submit your request.
+
 1. Sign back in and enter the verification code when your letter arrives.
 
 ## I cannot receive mail to the address listed
@@ -33,7 +37,9 @@ If you didn't get a letter after 5-10 days, or if your verification code expired
 To request a new verification code:
 
 {: .number-list}
+
 1. Go to <https://secure.login.gov> and sign in.
+
 1. Select “Send me another letter” when asked to enter your code.
 
 Contact the agency you are trying to access if you need to access their services before your letter arrives.

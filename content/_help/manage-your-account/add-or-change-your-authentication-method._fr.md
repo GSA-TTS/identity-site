@@ -10,12 +10,19 @@ order: 5
 Si vous avez perdu votre méthode d’authentification et n’avez pas de seconde méthode reliée à votre compte, il vous faudra [supprimer votre compte Login.gov actuel](/fr/help/manage-your-account/delete-your-account/) et en créer un nouveau.
 
 {: .number-list}
+
 1. Saisissez votre adresse e-mail sur <https://secure.login.gov/fr/>.
+
 2. Saisissez votre mot de passe.
+
 3. Cliquez sur le bouton « Connexion ».
+
 4. Authentifiez-vous à l'aide d'une des méthodes que vous avez configurées. Vous serez dirigé vers la page de votre compte.
+
 5. Sur la page de votre compte Login.gov, passez en revue les options du menu « Vos méthodes d’authentification » sur le côté gauche de la page.
+
 6. Choisissez une nouvelle méthode à ajouter. [En savoir plus sur les méthodes d’authentification](/fr/help/get-started/authentication-methods/)
+
 7. Suivez toutes les instructions pour confirmer vos modifications.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">

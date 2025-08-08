@@ -15,9 +15,13 @@ En algunos casos, puede verificar su dirección por correo postal en lugar de [v
 {: .number-list}
 
 1. Confirme que desea solicitar una carta a la dirección que verificó antes.
+
 1. Vuelva a ingresar su contraseña para guardar la información que ha verificado hasta ahora y enviar su carta.
+
 1. Cuando vea una pantalla que indica que su carta está en camino, puede cerrar la sesión de Login.gov por ahora, y esperar a que llegue su carta.
+
 1. Las cartas se envían el día hábil siguiente por First-Class Mail del Servicio Postal de los Estados Unidos (USPS). La carta tarda de 5 a 10 días en llegar por correo postal. El código de verificación vencerá 30 días después de la fecha en que usted envíe su solicitud.
+
 1. Cuando reciba su carta, vuelva a iniciar sesión e ingrese el código de verificación.
 
 ## No puedo recibir correo en la dirección indicada
@@ -31,7 +35,9 @@ Si no recibió una carta después de 5 o 10 días, o si su código de verificaci
 Para solicitar otro código de verificación:
 
 {: .number-list}
+
 1. Vaya a <https://secure.login.gov/es> e inicie sesión.
+
 1. Cuando se le pida que introduzca su código, seleccione la opción “Enviarme otra carta”.
 
 Contacte con la agencia a la que está intentando acceder si necesita recibir los servicios de esa agencia antes de que llegue su carta.

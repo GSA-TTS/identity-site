@@ -15,11 +15,17 @@ redirect_from:
 {: .number-list}
 
 1. Vaya a <https://secure.login.gov/es>.
+
 2. Seleccione el vínculo que dice “¿Olvidó su contraseña?” en la parte inferior de la página.
+
 3. En la pantalla siguiente, ingrese su dirección de correo electrónico.
+
 4. Haga clic en el botón “Continuar”.
+
 5. Busque un mensaje de Login.gov en su correo electrónico.
+
 6. Haga clic en el botón “Restablezca su contraseña” del mensaje para volver al sitio web de Login.gov.
+
 7. Ingrese su nueva contraseña.
    * Para prevenir el robo de identidad, considere reforzar su contraseña utilizando:
      * Frases que solo usted conozca
@@ -29,6 +35,7 @@ redirect_from:
      * Frases comunes o caracteres repetidos, como abc o 111
      * Partes de su dirección de correo electrónico o fechas personales, como su cumpleaños
      * La misma contraseña, o partes de esta, que use para otras cuentas, como su cuenta bancaria o correo electrónico
+
 8. Haga clic en el botón “Cambiar contraseña”.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">

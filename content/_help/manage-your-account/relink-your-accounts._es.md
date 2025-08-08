@@ -16,7 +16,9 @@ Si tiene problemas para iniciar sesión en el sitio web de una agencia asociada 
 **Pruebe lo siguiente:**
 
 {: .number-list}
+
 1. Inicie sesión con la dirección de correo electrónico anterior que usó para registrarse en la agencia asociada.
+
 2. Contacte con la agencia asociada y pídale que vincule su cuenta a la nueva dirección de correo electrónico.
 
 ## Otros artículos

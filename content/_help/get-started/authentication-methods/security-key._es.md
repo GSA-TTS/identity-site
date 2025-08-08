@@ -20,7 +20,9 @@ Login.gov no proporciona a los usuarios una clave de seguridad, por lo que usted
 {: .number-list}
 
 1. Asigne un alias a su clave de seguridad para que pueda identificarla fácilmente después con su cuenta de Login.gov.
+
 2. Inserte su clave de seguridad en el dispositivo.
+
 3. Siga las instrucciones de su navegador para activar su clave de seguridad. Cuando use su clave de seguridad, no tendrá que ingresar un código.
 
 ## Otros artículos

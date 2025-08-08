@@ -10,12 +10,19 @@ order: 5
 如果你丢失了身份证实方法，又没有与自己账户连接的备份，则需要[删除目前的login.gov 账户](/zh/help/manage-your-account/delete-your-account/)，设立一个新账户。
 
 {: .number-list}
+
 1. 在<https://secure.login.gov/zh> 输入你的电邮地址。
+
 2. 输入你的密码。
+
 3. 点击“登录”按钮。
+
 4. 使用你设定的一个方法进行身份证实。系统会带你到你的账户页面。
+
 5. 在你的 Login.gov 账户页面，查看左侧“你的身份证实方法”菜单选项。
+
 6. 选择一个要添加的新方法。[了解更多有关身份证实方法的信息](/zh/help/get-started/authentication-methods/)。
+
 7. 按照所有提示来确认你做的更改。
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">

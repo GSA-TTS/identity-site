@@ -16,13 +16,16 @@ order: 2
 {: .number-list}
 
 1. 选择一个可以安装应用程序的设备，比如电脑或移动设备（手机或平板电脑）。
+
 2. 在设备上下载并安装一个身份证实应用程序。常见的一些选项包括：
    * 安卓选项：[Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
    * iOS选项：[Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
    * Windows app: [1Password](https://1password.com/), [OTP Manager](https://apps.microsoft.com/detail/9nblggh6hngn?hl=zh-cn&gl=US).
    * Mac app: [1Password](https://1password.com/), [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
    * Chrome 扩展程序: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en)
+
 3. 打开一个新的浏览器，在 <https://secure.login.gov/zh> 登录你的 Login.gov 账户。
+
 4. 选择“身份证实应用程序”旁边的“启用”，然后按照说明扫描或输入将身份证实应用程序与你帐户关联的代码。
 
 以后每次登录 Login.gov，你就能使用这个应用程序生成的一次性密码了。

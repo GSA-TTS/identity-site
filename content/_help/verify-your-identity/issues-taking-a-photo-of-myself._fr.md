@@ -13,9 +13,13 @@ Certains organismes partenaires peuvent vous demander de vous prendre en photo l
 {: .number-list}
 
 1. Prenez votre photo dans un endroit bien éclairé et évitez les reflets.
+
 2. Veillez à ce que l’ensemble de votre visage soit visible, du menton au sommet de la tête. Ne portez que des accessoires, comme des lunettes, que vous portez également sur votre photo d'identité. Retirez tout autre article vous couvrant le visage.
+
 3. Placez votre visage à l’intérieur du cadre. Gardez une expression neutre et ne bougez pas.
+
 4. Suivez les instructions pour prendre la photo. Soit l’outil caméra prendra automatiquement une photo, soit vous devrez appuyer sur un bouton pour la prendre.
+
 5. Cochez la case prévue à cet effet pour valider la photo ou suivez les instructions pour le faire.
 
 ## J’ai reçu un message d’erreur selon lequel Login.gov ne trouvait pas de correspondance entre ma photo et ma pièce d’identité

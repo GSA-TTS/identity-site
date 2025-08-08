@@ -13,15 +13,23 @@ redirect_from:
 Suivez les étapes suivantes pour modifier le numéro de téléphone associé à votre compte.
 
 {: .number-list}
+
 1. Saisissez votre adresse e-mail sur <https://secure.login.gov/fr/>.
+
 1. Saisissez votre mot de passe.
+
 1. Cliquez sur le bouton « Connexion ».
+
 1. Authentifiez-vous à l'aide d'une des méthodes que vous avez configurées. Vous serez dirigé vers la page de votre compte.
+
 1. Sélectionnez « Ajouter un numéro de téléphone ».
+
 1. Saisissez le nouveau numéro de téléphone.
    * N'utilisez pas de services téléphoniques par internet (Voix sur IP) ou de numéros de téléphone à tarif majoré (payant).
+
 1. Cochez la case « Numéro de téléphone par défaut » si vous souhaitez que ce numéro soit votre numéro par défaut.
    * Le numéro de téléphone par défaut sera le numéro de téléphone principal associé à votre compte. Si vous utilisez des codes SMS pour vous authentifier et vous connecter, ces codes seront envoyés à votre numéro de téléphone par défaut.
+
 1. Cliquez sur le bouton « Changer le mot de passe ».
 
 ## Articles connexes

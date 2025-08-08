@@ -12,8 +12,11 @@ If you suspect that your Login.gov account has been compromised—or you’ve no
 You can review recent sign-ins and devices associated with your Login.gov account:
 
 {: .number-list}
+
 1. **Sign in** at [Login.gov](https://secure.login.gov/)
+
 2. Navigate to your **account page**.
+
 3. Select **"History"** to view your recently used devices and sign-ins.
 
 If you see any device or sign-in that you don’t recognize, we strongly recommend you:

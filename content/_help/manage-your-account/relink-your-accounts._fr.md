@@ -16,7 +16,9 @@ Si vous rencontrez des problèmes pour vous connecter à un site Web partenaire 
 **Les solutions suivantes sont possibles :**
 
 {: .number-list}
+
 1. Connectez-vous en utilisant l’adresse e-mail utilisée précédemment pour vous inscrire auprès de l’organisme partenaire.
+
 2. Contactez l’organisme partenaire pour lui demander de lier votre compte à la nouvelle adresse e-mail.
 
 ## Articles connexes

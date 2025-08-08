@@ -18,12 +18,17 @@ To set up Face or Touch Unlock when creating a Login.gov account:
 {: .number-list}
 
 1. Go to <https://secure.login.gov/> and click on "Create an account".
+
 2. Enter your email address and click submit.
+
 3. You will receive an email. Click on the link to confirm your email address.
+
 4. Create password. It must be at least 12 characters long.
+
 5. On the “Secure your account” page, select Face or Touch Unlock.
 
    If you try to set up face or touch unlock as your only MFA method, you will see an alert advising you to set up a second method immediately after setting up face or touch unlock. This is to help prevent you from failing face or touch unlock in the future and forcing an account deletion, especially if your device does not have cloud sync capability.
+
 6. Choose a device nickname for Face or Touch Unlock.
 
 Face or touch unlock has different experiences for mobile and desktop.

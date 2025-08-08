@@ -19,12 +19,17 @@ Para configurar el desbloqueo facial o táctil cuando crea una cuenta de Login.g
 {: .number-list}
 
 1. Vaya a <https://secure.login.gov/es> y haga clic en “Crear una cuenta”.
+
 2. Introduzca su dirección de correo electrónico y haga clic en “Enviar”.
+
 3. Recibirá un correo electrónico. Haga clic en el vínculo para conﬁrmar su dirección de correo electrónico.
+
 4. Cree una contraseña que tenga al menos 12 caracteres.
+
 5. En la página “Proteja su cuenta”, seleccione el desbloqueo facial o táctil.
 
    Si intenta configurar el desbloqueo facial o táctil como su único método de autenticación multifactor (MFA), aparecerá un mensaje de alerta para indicarle que configure de inmediato un segundo método después de configurar el desbloqueo facial o táctil. Esto ayuda a evitar que falle el desbloqueo facial o táctil más adelante y que usted tenga que eliminar la cuenta, especialmente si su dispositivo no tiene la funcionalidad de sincronización en la nube.
+
 6. Elija el alias del dispositivo para el desbloqueo facial o táctil.
 
 El desbloqueo facial o táctil funciona de manera diferente en un dispositivo móvil y en una computadora de escritorio.

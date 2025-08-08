@@ -25,8 +25,11 @@ Según los métodos de autenticación que haya configurado, es posible que todav
 {: .number-list}
 
 1. Ingrese su dirección de correo electrónico en <https://secure.login.gov/es>.
+
 2. Ingrese su contraseña.
+
 3. Haga clic en el botón “Iniciar sesión”.
+
 4. Use una de las opciones que configuró para autenticarse, por ejemplo:
    * Escanear su rostro o huella dactilar
    * Ingresar un código de un solo uso de su aplicación de autenticación
@@ -34,6 +37,7 @@ Según los métodos de autenticación que haya configurado, es posible que todav
    * Ingresar un código de un solo uso que recibirá en un mensaje de texto o una llamada telefónica
    * Ingresar un código de recuperación
    * Usar su identificación de empleado del gobierno federal o de personal militar (tarjeta PIV o CAC)
+
 5. A continuación aparecerá la página de su cuenta de Login.gov.
 
 ## Otros artículos

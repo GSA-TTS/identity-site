@@ -33,7 +33,9 @@ Si seleccionó la llamada telefónica o el mensaje de texto como su método de a
 {: .number-list}
 
 1. Si añadió más de un método de autenticación, inicie sesión con su dirección de correo electrónico y su contraseña.
+
 1. Cuando se le pida el código de seguridad enviado a su teléfono, seleccione “Elegir otra opción de seguridad”.
+
 1. Seleccione otra de las opciones de seguridad que haya configurado y siga los pasos para iniciar sesión.
 
 ## Otros artículos

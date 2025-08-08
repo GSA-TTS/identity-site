@@ -18,12 +18,17 @@ Pour configurer le déverrouillage facial ou tactile lors de la création d’un
 {: .number-list}
 
 1. Rendez-vous sur le site <https://secure.login.gov/> et cliquez sur « Créer un compte ».
+
 2. Saisissez votre adresse e-mail et cliquez sur « Valider ».
+
 3. Vous recevrez un e-mail. Cliquez sur le lien qu’il contient pour confirmer votre adresse e-mail.
+
 4. Créez un mot de passe. Il doit comporter au moins 12 caractères.
+
 5. Sur la page « Sécuriser votre compte », sélectionnez le déverrouillage facial ou tactile.
 
    Si vous essayez de configurer le déverrouillage facial ou tactile comme seule méthode d'authentification multi-facteurs, une alerte s’affichera pour vous conseiller d’en configurer une deuxième immédiatement après avoir configuré le déverrouillage facial ou tactile. Cela permet d’éviter que le déverrouillage facial ou tactile échoue et vous force à supprimer votre compte, en particulier si votre appareil n'est pas équipé d’une fonctionnalité de synchronisation dans le cloud.
+
 6. Choisissez un surnom pour votre appareil afin de configurer le déverrouillage facial ou tactile.
 
 L’expérience utilisateur n’est pas la même sur un appareil mobile que sur un ordinateur de bureau.

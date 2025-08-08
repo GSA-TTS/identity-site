@@ -33,7 +33,9 @@ Si vous aviez choisi l’appel téléphonique ou le SMS comme méthode d’authe
 {: .number-list}
 
 1. Si vous avez ajouté plusieurs méthodes d’authentification, connectez-vous avec votre adresse e-mail et mot de passe.
+
 1. Quand vous êtes invité à fournir le code de sécurité envoyé à votre téléphone, sélectionnez « Choisir une autre option de sécurité ».
+
 1. Choisissez l’une des autres options de sécurité déjà configurées puis suivez les étapes requises pour vous connecter.
 
 ## Articles connexes

@@ -11,8 +11,11 @@ Si vous soupçonnez que votre compte Login.gov a été compromis, ou si vous ave
 Vous pouvez passer en revue les connexions récentes et les appareils associés à votre compte Login.gov :
 
 {: .number-list}
+
 1. Connectez-vous à [Login.gov](https://secure.login.gov/fr/)
+
 2. Rendez-vous sur la **page de votre compte.**
+
 3. Sélectionnez **« Historique »** pour visualiser **vos appareils récemment utilisés ou dernières connexions.**
 
 Si un appareil ou une connexion que vous ne reconnaissez pas s’affiche, nous vous recommandons vivement :
