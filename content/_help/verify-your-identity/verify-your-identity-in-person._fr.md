@@ -112,7 +112,7 @@ Vous pouvez tenter à nouveau de confirmer votre identité, en ligne ou en perso
 
 Vous recevrez un e-mail dans les 24 heures suivant votre visite dans un bureau de poste. Celui-ci vous indiquera si votre identité a pu être confirmée.
 
-Vérifiez si vous avez reçu un message de [no-reply@login.gov](mailto:no-reply@login.gov) dans votre messagerie. Si vous n’avez pas reçu d’e-mail sous 24 heures, prenez contact avec l’assistance de Login.gov.
+Vérifiez si vous avez reçu un message de [no-reply@login.gov](mailto:no-reply@login.gov) dans votre messagerie. Si vous n’avez pas reçu d’e-mail sous 24 heures, prenez contact [avec l’assistance de Login.gov](https://login.gov/fr/contact/).
 
 ## J’ai un problème avec mon code-barres
 
