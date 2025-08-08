@@ -113,6 +113,8 @@ Il est possible que vous deviez mettre à jour votre système d’exploitation o
       <li>Pour permettre à Login.gov d’utiliser la caméra, <a href="https://support.apple.com/en-mt/guide/iphone/iphb01fc3c85/ios" class="external-link">autorisez l’accès à la caméra</a> dans Safari</li>
     </ul>
   </div>
+</div>
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h4 class="usa-accordion__heading">
     <button
       type="button"

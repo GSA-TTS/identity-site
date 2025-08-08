@@ -113,6 +113,8 @@ redirect_from:
       <li>要赋予 Login.gov 使用相机的权限，请在 <a href="https://support.apple.com/en-mt/guide/iphone/iphb01fc3c85/ios" class="external-link">Safari 中允许使用相机</a></li>
     </ul>
   </div>
+</div>
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h4 class="usa-accordion__heading">
     <button
       type="button"
