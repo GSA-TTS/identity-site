@@ -10,7 +10,7 @@ Login.gov emploie [reCAPTCHA](https://cloud.google.com/security/products/recaptc
 
 ## Comment faire pour accéder à mon compte ?
 
-Pour augmenter vos chances de réussir le test reCAPTCHA, essayez comme suit :
+Pour augmenter vos chances de réussir le test [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?hl=fr){:class="usa-link--external"}, essayez comme suit :
 
 - Utilisez le même appareil et le même navigateur que ceux avec lesquels vous aviez créé votre compte Login.gov.
 - Essayez de vous connecter avec votre carte d’employé fédéral si vous êtes employé fédéral.

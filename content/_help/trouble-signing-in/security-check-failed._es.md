@@ -10,7 +10,7 @@ Login.gov usa [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?h
 
 ## ¿Cómo accedo a mi cuenta?
 
-Para aumentar sus probabilidades de pasar la comprobación reCAPTCHA, intente lo siguiente:
+Para aumentar sus probabilidades de pasar la comprobación [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?hl=es){:class="usa-link--external"}, intente lo siguiente:
 
 - Utilice el mismo dispositivo y navegador que usó para crear su cuenta de Login.gov.
 - Intente iniciar sesión con su identificación de empleado del gobierno si usted es un funcionario público.

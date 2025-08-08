@@ -36,8 +36,6 @@ redirect_from:
      * The same password, or parts of it, that you use for other accounts, such as your bank account or email
 8. Click the “Change password” button.
 
-## How to reset your password if you have a personal key (accordion)
-
 When you reset your password, you’ll need your personal key to access your information.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
