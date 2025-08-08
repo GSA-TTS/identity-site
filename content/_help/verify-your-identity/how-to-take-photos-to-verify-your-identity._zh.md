@@ -137,8 +137,6 @@ redirect_from:
 
 如果你提交照片，收到一条出错信息，说我们无法验证你的 ID，请检查一下你使用的 ID 是否是可接受的类型。
 
-## 可接受的 ID 类型
-
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h4 class="usa-accordion__heading">
     <button
