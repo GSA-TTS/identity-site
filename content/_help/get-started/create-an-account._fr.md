@@ -14,7 +14,7 @@ redirect_from:
 
 Login.gov propose un compte et mot de passe uniques pour permettre au public d’accéder à tous les organismes administratifs. Login.gov est un service partagé et approuvé par les organismes administratifs. Avec un unique compte Login.gov, vous pouvez accéder aux sites web et applications des organismes partenaires participants.
 
-Pour créer un compte, il vous faut une adresse e-mail, un mot de passe et une [méthode d’authentification multi-facteurs](/fr/help/get-started/authentication-methods/). 
+Pour créer un compte, il vous faut une adresse e-mail, un mot de passe et une [méthode d’authentification multi-facteurs](/fr/help/create-account/authentication-methods/).
 
 - Choisissez une adresse e-mail à laquelle vous aurez toujours accès (par exemple, une adresse e-mail personnelle plutôt que professionnelle, sauf si vous y êtes obligé).
 - Les mots de passe doivent comporter au moins 12 caractères.
@@ -26,7 +26,7 @@ Si vous ne disposez pas d’un téléphone, vous pouvez aussi utiliser l’une d
 
 {: .help-question-list}
 
-* [Comment puis-je créer un compte Login.gov](/fr/help/get-started/create-your-account/)
-* [Comment puis-je choisir la méthode d’authentification la plus adaptée](/fr/help/get-started/authentication-methods/)
+* [Comment puis-je créer un compte Login.gov](/fr/help/create-account/how-do-i-create-an-account/)
+* [Comment puis-je choisir la méthode d’authentification la plus adaptée](/fr/help/create-account/authentication-methods/)
 * [Pourquoi il vous est demandé d'utiliser Login.gov](/fr/what-is-login/)
 * [Qu’est-ce que Login.gov ?](https://www.youtube.com/watch?v=ayDtFd5Ugyk){:class="usa-link--external"}

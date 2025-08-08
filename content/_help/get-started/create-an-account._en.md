@@ -17,7 +17,7 @@ redirect_from:
 
 Login.gov is the public’s one account and password for the government. Login.gov is a shared service and trusted by government agencies. With one Login.gov account you can access websites and applications from participating government partners.
 
-You need an email address, password and a multi-factor [authentication method](/help/get-started/authentication-methods/) (MFA) to create an account.
+You need an email address, password and a multi-factor [authentication method](/help/create-account/authentication-methods/) (MFA) to create an account.
 
 - Choose an email address that you’ll always be able to access (ex: a personal e-mail, rather than work unless required to do so)
 - Passwords must be 12 characters
@@ -29,7 +29,7 @@ If you do not have a phone that you can use for this, you can choose to use one 
 
 {: .help-question-list}
 
-* [How to create a Login.gov account](/help/get-started/create-your-account/)
-* [How do I choose the right authentication method](/help/get-started/authentication-methods/)
+* [How to create a Login.gov account](/help/create-account/how-do-i-create-an-account/)
+* [How do I choose the right authentication method](/help/create-account/authentication-methods/)
 * [Why am I being asked to use Login.gov](/what-is-login/)
 * [What is Login.gov?](https://www.youtube.com/watch?v=ayDtFd5Ugyk){:class="usa-link--external"}

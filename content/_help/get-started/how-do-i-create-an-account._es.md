@@ -56,7 +56,7 @@ Siga estos pasos para crear su cuenta de Login.gov.
    * Llamada telefónica
    * Códigos de recuperación
 
-   [Obtenga más información sobre cada opción de autenticación](/es/help/get-started/authentication-methods/) para elegir la que sea apropiada para usted.
+   [Obtenga más información sobre cada opción de autenticación](/es/help/create-account/authentication-methods/) para elegir la que sea apropiada para usted.
 
 7. Con esto termina el proceso. Una vez que se haya autenticado, habrá creado su cuenta de Login.gov.
 

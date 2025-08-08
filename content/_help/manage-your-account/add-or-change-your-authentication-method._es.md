@@ -5,7 +5,7 @@ permalink: /es/help/manage-your-account/add-or-change-your-authentication-method
 order: 5
 ---
 
-[Un método de autenticación](/es/help/get-started/authentication-methods/) es nivel adicional de seguridad para su cuenta. Le recomendamos que tenga al menos dos métodos de autenticación para su cuenta en caso de que pierda uno de ellos.
+[Un método de autenticación](/es/help/create-account/authentication-methods/) es nivel adicional de seguridad para su cuenta. Le recomendamos que tenga al menos dos métodos de autenticación para su cuenta en caso de que pierda uno de ellos.
 
 Si perdió su método de autenticación y no tiene una copia de seguridad conectada a su cuenta, debe [eliminar su cuenta actual de Login.gov](/es/help/manage-your-account/delete-your-account/) y crear una nueva.
 
@@ -21,7 +21,7 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
 
 5. En la página de su cuenta de Login.gov, revise las opciones del menú “Sus métodos de autenticación” en el lado izquierdo de la página.
 
-6. Seleccione el nuevo método que desea añadir. [Obtenga más información sobre los métodos de autenticación.](/es/help/get-started/authentication-methods/)
+6. Seleccione el nuevo método que desea añadir. [Obtenga más información sobre los métodos de autenticación.](/es/help/create-account/authentication-methods/)
 
 7. Siga todas las indicaciones para confirmar sus cambios.
 
@@ -72,5 +72,5 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
 
 ## Otros artículos
 
-* [Métodos de autenticación](/es/help/get-started/authentication-methods/)
+* [Métodos de autenticación](/es/help/create-account/authentication-methods/)
 * [Problemas con el desbloqueo facial y táctil](/es/help/trouble-signing-in/authentication/face-and-touch-unlock/)

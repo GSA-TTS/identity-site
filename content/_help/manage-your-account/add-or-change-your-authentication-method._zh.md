@@ -6,7 +6,7 @@ permalink: /zh/help/manage-your-account/add-or-change-your-authentication-method
 order: 5
 ---
 
-[身份证实方法](/zh/help/get-started/authentication-methods/) 是你账户额外一层的安全保障。我们建议你账户至少有两种身份证实方法，以防你万一丢失其中一种。
+[身份证实方法](/zh/help/create-account/authentication-methods/) 是你账户额外一层的安全保障。我们建议你账户至少有两种身份证实方法，以防你万一丢失其中一种。
 
 如果你丢失了身份证实方法，又没有与自己账户连接的备份，则需要[删除目前的login.gov 账户](/zh/help/manage-your-account/delete-your-account/)，设立一个新账户。
 
@@ -22,7 +22,7 @@ order: 5
 
 5. 在你的 Login.gov 账户页面，查看左侧“你的身份证实方法”菜单选项。
 
-6. 选择一个要添加的新方法。[了解更多有关身份证实方法的信息](/zh/help/get-started/authentication-methods/)。
+6. 选择一个要添加的新方法。[了解更多有关身份证实方法的信息](/zh/help/create-account/authentication-methods/)。
 
 7. 按照所有提示来确认你做的更改。
 
@@ -73,5 +73,5 @@ order: 5
 
 ## 相关文章
 
-* [身份证实方法](/zh/help/get-started/authentication-methods/)
+* [身份证实方法](/zh/help/create-account/authentication-methods/)
 * [人脸和触摸解锁问题](/zh/help/trouble-signing-in/authentication/face-and-touch-unlock/)

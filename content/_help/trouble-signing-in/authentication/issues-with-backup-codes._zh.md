@@ -19,7 +19,7 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-backup-codes/
 
 删除帐户后，你需要等待 24 小时才能使用同一电邮地址重新创建新帐户。 
 
-请访问 <https://login.gov/zh/help/manage-your-account/delete-your-account/> 获取有关如何删除你的 Login.gov 帐户的说明，并访问 <https://login.gov/zh/help/get-started/create-your-account/> 重新创建你的 Login.gov 帐户。
+请访问 <https://login.gov/zh/help/manage-your-account/delete-your-account/> 获取有关如何删除你的 Login.gov 帐户的说明，并访问 <https://login.gov/zh/help/create-account/how-do-i-create-an-account/> 重新创建你的 Login.gov 帐户。
 
 
 ## 相关文章

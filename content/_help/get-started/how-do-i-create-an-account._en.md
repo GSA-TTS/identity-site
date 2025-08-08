@@ -58,7 +58,7 @@ Follow these steps to create your Login.gov account.
    * Phone call
    * Backup codes
 
-   [Learn more about each authentication option](/help/get-started/authentication-methods/) to choose the one that is right for you.
+   [Learn more about each authentication option](/help/create-account/authentication-methods/) to choose the one that is right for you.
 
 7. Success! Once you have authenticated, you have created your Login.gov account.
 

@@ -49,7 +49,7 @@ order: 1
    * 接听电话
    * 备用代码
 
-   [就每个身份证实选项了解更多信息](/zh/help/get-started/authentication-methods/)，从而选择适合你的方法。
+   [就每个身份证实选项了解更多信息](/zh/help/create-account/authentication-methods/)，从而选择适合你的方法。
 
 7. 成功了！身份证实之后，你的 Login.gov 账户就设好了。
    系统会带你到你的 Login.gov 账户页面或你要访问的政府机构网站。你可以在 Login.gov 帐户页面上添加其他身份证实方法和电邮地址或更新信息。

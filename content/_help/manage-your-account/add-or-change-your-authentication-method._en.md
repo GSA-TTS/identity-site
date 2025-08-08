@@ -8,7 +8,7 @@ redirect_from:
     - /en/help/manage-your-account/add-or-change-your-authentication-method/
 ---
 
-[An authentication method](/help/get-started/authentication-methods/) is an additional layer of security for your account. We recommend having at least two authentication methods for your account in case you lose one method.
+[An authentication method](/help/create-account/authentication-methods/) is an additional layer of security for your account. We recommend having at least two authentication methods for your account in case you lose one method.
 
 If you lost your authentication method and do not have a backup connected to your account, you will need to [delete your current Login.gov account](/help/manage-your-account/delete-your-account/) and create a new one.
 
@@ -24,7 +24,7 @@ If you lost your authentication method and do not have a backup connected to you
 
 5. On your Login.gov account page, review the “Your authentication methods” menu options on the left side of the page.
 
-6. Select a new method to add. [Learn more about authentication methods](/help/get-started/authentication-methods/)
+6. Select a new method to add. [Learn more about authentication methods](/help/create-account/authentication-methods/)
 
 7. Follow all prompts to confirm your changes.
 
@@ -75,5 +75,5 @@ If you lost your authentication method and do not have a backup connected to you
 
 ## Related articles
 
-* [Authentication methods](/help/get-started/authentication-methods/)
+* [Authentication methods](/help/create-account/authentication-methods/)
 * [Issues with face and touch unlock](/help/trouble-signing-in/authentication/face-and-touch-unlock/)

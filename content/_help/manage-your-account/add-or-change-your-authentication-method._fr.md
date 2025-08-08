@@ -5,7 +5,7 @@ permalink: /fr/help/manage-your-account/add-or-change-your-authentication-method
 order: 5
 ---
 
-[Une méthode d’authentification](/fr/help/get-started/authentication-methods/) est une couche supplémentaire de sécurité pour votre compte. Nous vous recommandons d’avoir au moins deux méthodes d’authentification pour votre compte au cas où vous en perdriez une.
+[Une méthode d’authentification](/fr/help/create-account/authentication-methods/) est une couche supplémentaire de sécurité pour votre compte. Nous vous recommandons d’avoir au moins deux méthodes d’authentification pour votre compte au cas où vous en perdriez une.
 
 Si vous avez perdu votre méthode d’authentification et n’avez pas de seconde méthode reliée à votre compte, il vous faudra [supprimer votre compte Login.gov actuel](/fr/help/manage-your-account/delete-your-account/) et en créer un nouveau.
 
@@ -21,7 +21,7 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
 
 5. Sur la page de votre compte Login.gov, passez en revue les options du menu « Vos méthodes d’authentification » sur le côté gauche de la page.
 
-6. Choisissez une nouvelle méthode à ajouter. [En savoir plus sur les méthodes d’authentification](/fr/help/get-started/authentication-methods/)
+6. Choisissez une nouvelle méthode à ajouter. [En savoir plus sur les méthodes d’authentification](/fr/help/create-account/authentication-methods/)
 
 7. Suivez toutes les instructions pour confirmer vos modifications.
 
@@ -72,5 +72,5 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
 
 ## Articles connexes
 
-* [Méthodes d’authentification](/fr/help/get-started/authentication-methods/)
+* [Méthodes d’authentification](/fr/help/create-account/authentication-methods/)
 * [Problèmes avec le déverrouillage facial et tactile](/fr/help/trouble-signing-in/authentication/face-and-touch-unlock/)
