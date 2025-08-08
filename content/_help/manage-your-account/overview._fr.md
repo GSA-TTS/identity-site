@@ -18,6 +18,7 @@ Ayez toujours les renseignements concernant votre compte Login.gov à jour pour 
 Une adresse mail ou un numéro de téléphone obsolète peut vous empêcher de récupérer votre compte si vous oubliez votre mot de passe ou le bloquer. Mettez régulièrement à jour vos identifiants de connexion pour vous protéger contre tout accès non autorisé et vous assurer de recevoir les notifications importantes relatives à votre compte.
 
 {: .help-question-list}
+
 - [Comment puis-je ajouter une méthode d’authentification ou la modifier sur mon compte ?](/fr/help/manage-your-account/add-or-change-your-authentication-method/)
 - [Changer votre mot de passe](/fr/help/manage-your-account/change-your-password/)
 - [Modifier l'adresse e-mail associée à votre compte](/fr/help/manage-your-account/change-your-email-address/)

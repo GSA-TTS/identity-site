@@ -36,6 +36,7 @@ Your security is our priority. Login.gov uses advanced fraud detection and secur
 Login.gov cannot investigate claims of fraud involving other agencies or services. However, if you believe your personal information was used fraudulently—or that someone created an account in your name—you should report it to the appropriate authorities:
 
 ### Federal Resources for Reporting Fraud
+
    * **Identity Theft**
       * **Website:** [IdentityTheft.gov](https://IdentityTheft.gov)
       * **Phone:** 1-877-438-4338 (FTC)

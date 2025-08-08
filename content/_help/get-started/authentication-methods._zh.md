@@ -24,6 +24,7 @@ order: 2
 **警告：**我们不建议将备用代码作为你唯一的身份证实方法。万一丢失备用代码，你就无法登录你的账户。
 
 {: .help-question-list}
+
 * [人脸或触摸解锁](/zh/help/create-account/authentication-methods/face-or-touch-unlock/)
 * [身份证实应用程序](/zh/help/create-account/authentication-methods/authentication-application/)
 * [安全密钥](/zh/help/create-account/authentication-methods/security-key/)

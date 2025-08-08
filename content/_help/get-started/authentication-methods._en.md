@@ -47,6 +47,7 @@ Although you can choose from several authentication options, some authentication
 **Warning**: We don't recommend backup codes are your only authentication method. If you ever lose your backup codes, you will not be able to sign in to your account.
 
 {: .help-question-list}
+
 * [Face or touch unlock](/help/create-account/authentication-methods/face-or-touch-unlock/)
 * [Authentication application](/help/create-account/authentication-methods/authentication-application/)
 * [Security key](/help/create-account/authentication-methods/security-key/)
