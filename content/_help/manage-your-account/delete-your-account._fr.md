@@ -36,7 +36,7 @@ redirect_from:
   </h4>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
-      <li>Saisissez votre adresse e-mail sur <a href="https://secure.login.gov/fr">https://secure.login.gov</a>>.</li>
+      <li>Saisissez votre adresse e-mail sur <a href="https://secure.login.gov/fr">https://secure.login.gov</a>.</li>
       <li>Saisissez votre mot de passe.</li>
       <li>Cliquez sur le bouton « Connexion ».</li>
       <li>Authentifiez-vous à l'aide d'une des méthodes que vous avez configurées.</li>
