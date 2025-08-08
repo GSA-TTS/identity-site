@@ -11,8 +11,8 @@ permalink: /es/help/trouble-signing-in/authentication/issues-with-government-emp
 
 Estos son algunos motivos por los que su tarjeta PIV o CAC no funciona al autenticarse:
 
-* Login.gov no tiene su certificado.
-* Es necesario que usted renueve su certificado (cada tres años).
+* Login.gov no tiene su certificado
+* Es necesario que usted renueve su certificado (cada tres años)
 * Usted debe reemplazar su tarjeta PIV o CAC (cada cinco años)
 
 [Contacte con el servicio de asistencia de Login.gov](/es/contact/) para obtener más ayuda.

@@ -32,7 +32,7 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-government-emp
 1. 输入你的 Login.gov 密码以确认更改。
 1. 当你看到“你确定要删除这个身份证实方法吗？”时，请选择“OK”。
 1. 为你的 PIV/CAC 卡取个别名。
-1. 插入 PIV/CAC 卡
+1. 插入 PIV/CAC 卡。
 
 ## 相关文章
 

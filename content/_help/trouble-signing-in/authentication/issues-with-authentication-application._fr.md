@@ -9,7 +9,8 @@ permalink: /fr/help/trouble-signing-in/authentication/issues-with-authentication
 
 ## Mon application d'authentification ne fonctionne pas
 
-Il est possible que l’heure ne soit pas parfaitement synchronisée entre votre appareil et votre application d’authentification. Assurez-vous que l’heure de votre appareil est correcte en utilisant un site web comme [time.gov](https://time.gov).
+Il est possible que l’heure ne soit pas parfaitement synchronisée entre votre appareil et votre application d’authentification. Assurez-vous que l’heure de votre appareil est correcte en utilisant un site web comme [time.gov](https://time.gov){:class="usa-link--external"}.
+
 * Si vous utilisez Google Authenticator, il vous faudra peut-être synchroniser l’heure manuellement. Suivez les instructions de Google pour synchroniser votre heure.
 
 ## J’ai un nouveau téléphone et mon application d’authentification ne marche pas

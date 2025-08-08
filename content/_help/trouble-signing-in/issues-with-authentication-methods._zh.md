@@ -18,7 +18,6 @@ order: 3
 取决于你设置的身份证实方法，你也许仍然能够访问你的 Login.gov 账户。你能够登录后，请确保自己设置了一种以上的身份证实方法，以防无法访问账户。
 
 {% capture delete_account_alert_content %}
-WARNING:
 如果你无法使用自己唯一的身份证实方法登录，就得删除账户并创建一个新账户。出于安全考虑，Login.gov 无法为你解锁帐户或代表你登录。
 {% endcapture %}
 {% include alert.html type="warning" class="margin-bottom-4" content=delete_account_alert_content %}
@@ -29,7 +28,7 @@ WARNING:
 * [安全密钥问题](/zh/help/trouble-signing-in/authentication/issues-with-security-key/)
 * [电话/SMS问题](/zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
 * [备用代码（安全性较低）问题](/zh/help/trouble-signing-in/authentication/issues-with-backup-codes/)
-* [政府雇员 ID  (PIV/CAC) 问题](/zh/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
+* [政府雇员 ID (PIV/CAC) 问题](/zh/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 
 ## 相关文章
 

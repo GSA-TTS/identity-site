@@ -27,8 +27,6 @@ order: 1
      * 你用于其他账户（比如银行账户或电邮）的密码或者这些密码的一部分。
 8. 点击“更改密码”键。
 
-## 如果你有个人密钥，如何重设密码
-
 你重设密码时，需要个人密钥来访问自己的信息。
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
