@@ -271,7 +271,7 @@ help_page:
       url: /fr/help/specific-agencies/overview/
     - description: Informez-vous sur les possibilités de vérification de votre identité.
       image: /assets/img/help/verify-your-id.svg
-      title: Confirmer votre identité
+      title: Confirmer mon identité
       url: /fr/help/verify-your-identity/overview/
   p_1: Parcourir les thèmes courants
   title: Que pouvons-nous faire pour vous ?
@@ -280,7 +280,7 @@ help_subpages:
   manage-your-account: Gérer votre compte
   specific-agencies: Aide concernant des organismes spécifiques
   trouble-signing-in: Vous rencontrez des difficultés pour vous connecter ?
-  verify-your-identity: Confirmer votre identité
+  verify-your-identity: Confirmer mon identité
 identifier:
   accessible_labels:
     description: Description de l’organisme

@@ -1,45 +1,47 @@
 ---
-title: Verifique su número de teléfono
+title: Problemas al verificar mi número de teléfono
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/phone-number/
-order: 5
+order: 4
 redirect_from:
   - /es/help/verifying-your-identity/phone-plan-is-not-in-my-name-or-address/
   - /es/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 can_verify_list:
-  - Número de casa
-  - Número del trabajo
-  - Número de teléfono móvil
-  - Número de teléfono fijo
+  - Números de teléfono de casa
+  - Números de teléfono móvil
+  - Números de teléfono fijo
 cannot_verify_list:
-  - Números internacionales y números en algunos territorios de EE.UU.
+  - Números internacionales ni números de algunos territorios de los EE. UU.
   - Números de teléfono de Google Voice o de voz sobre protocolo de internet (VoIP) similares
-  - Números de tarifa especial
+  - Números de teléfono de tarifa especial
+  - Puede intentar hacer la verificación con un teléfono celular prepagado, pero la mayoría no se pueden cotejar con los registros
 ---
-Comparamos su número de teléfono con los registros para verificar su identidad. El número de teléfono que use para verificar su identidad debe ser de los Estados Unidos.
 
-Si ingresa su número principal (el que usa más a menudo), es más probable que logremos verificar su identidad.
+Revisamos su número de teléfono y otra información personal en registros públicos y privados, y le enviamos un código de un solo uso para confirmar que el número de teléfono es el suyo.
 
-## Puede verificar su identidad con su:
+## ¿Qué número de teléfono puedo usar?
+
+El número de teléfono que use para verificar su identidad debe ser de los Estados Unidos. Si ingresa su número principal que usa más a menudo, es más probable que logremos verificar su número de teléfono.
+
+### Login.gov acepta:
 
 {% include components/icon-list.html items=page.can_verify_list size='md' icon_color='success' icon_shape='check_circle'%}
 
-Puede utilizar un teléfono celular de prepago para verificar su identidad. Sin embargo, algunos números de teléfono de prepago tienen factores de riesgo que pueden impedir la verificación de su identidad.
-
-## No puede verificar su identidad con:
+### No se aceptan:
 
 {% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
 
-## Si no puede efectuar este paso:
+## Recibí un mensaje de error que dice que Login.gov no pudo relacionarme con este número
 
-Si su número de teléfono es correcto, desactive el desvío de llamadas mientras esté verificando su identidad (puede volver a activarlo cuando haya terminado). Intente con otro número que esté asociado con su nombre.
+Revise haber ingresado su número de teléfono correctamente y que está usando un tipo de número de teléfono aceptable.
 
-En algunos casos, puede seleccionar “Verifique su domicilio a través del correo postal”. Tendrá que esperar de 5 a 10 días para recibir una carta por correo, y luego siga las instrucciones para ingresar el código de verificación.
+Si su número de teléfono es correcto, desactive el desvío de llamadas mientras esté verificando su identidad (puede volver a activarlo cuando haya terminado). Intente utilizar otro número que esté asociado con su nombre.
 
-Si no tiene la opción de verificar por correo, debe hacer la verificación de su identidad por teléfono.
+En algunos casos, es posible que pueda [verificar su dirección por correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/). Tendrá que esperar de 5 a 10 días para recibir una carta por correo, y luego siga las instrucciones para ingresar el código de verificación.
+
+Si no tiene la opción de hacer la verificación por correo, debe verificar su número de teléfono para lograr verificar su identidad con Login.gov. Si no tiene otro número de teléfono para intentarlo, contacte con la agencia a la que está intentando acceder para saber lo que puede hacer en ese caso.
 
 ## Otros artículos
 
-* [Asistencia para números de teléfono internacionales](/es/help/verify-your-identity/phone-number/)
-* [Verifique su identidad](/es/help/verify-your-identity/how-to-verify-your-identity/)
-* [Verificar por correo](/es/help/verify-your-identity/verify-your-address-by-mail/)
+* [Problemas al verificar mi información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Problemas al verificar mi dirección por correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/)

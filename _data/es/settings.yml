@@ -256,7 +256,7 @@ help_page:
       url: /es/help/specific-agencies/overview/
     - description: Infórmese sobre las opciones para verificar su identidad.
       image: /assets/img/help/verify-your-id.svg
-      title: Verifique su identidad
+      title: Verificar mi identidad
       url: /es/help/verify-your-identity/overview/
   p_1: Explorar temas comunes
   title: ¿Cómo podemos ayudarle?
@@ -265,7 +265,7 @@ help_subpages:
   manage-your-account: Administre su cuenta
   specific-agencies: Ayuda con agencias específicas
   trouble-signing-in: ¿Tiene problema para iniciar sesión?
-  verify-your-identity: Verifique su identidad
+  verify-your-identity: Verificar mi identidad
 identifier:
   accessible_labels:
     description: Descripción de la agencia

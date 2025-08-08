@@ -1,8 +1,7 @@
 ---
-title: Encuentre una oficina de correos participante para finalizar la verificación de identidad
-meta_title: Encuentre una oficina de correos participante
-child: true
-order: 1
+title: Encuentre una oficina de correos colaboradora
+category: verify-your-identity
+order: 7
 permalink: /es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
 idp_translations_file: /assets/idp_translations/es.js
 translations:
@@ -15,7 +14,6 @@ translations:
 
 {% include components/post-office-search.html %}
 
-## Related articles
+## Otros artículos
 
-* [Verifique su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/)
-* [Problemas con la verificación de su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/)
+* [Problemas al verificar mi identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/)

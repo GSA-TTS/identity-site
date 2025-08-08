@@ -16,19 +16,19 @@ include
     <figcaption class="usa-image-example__figcaption margin-bottom-4">
       <ul class="usa-icon-list usa-icon-list--size-md">
         <li class="usa-icon-list__item">
-          <span class="usa-icon-list__icon text-error" aria-hidden="true">
-            {% include components/icon.html icon="cancel" icon_size="md" %}
+          <span class="usa-icon-list__icon text-success" aria-hidden="true">
+            {% include components/icon.html icon="check_circle" icon_size="md" %}
           </span>
           <div class="usa-icon-list__content">
             {% case page.lang %}
             {% when "en" %}
-            <strong class="text-error">DON’T:</strong> {{ include.text }}
+            <strong class="text-success">DO:</strong> {{ include.text }}
             {% when "es" %}
-            <strong class="text-error">NO:</strong> {{ include.text }}
+            <strong class="text-success">SÍ:</strong> {{ include.text }}
             {% when "fr" %}
-            <strong class="text-error">NE PAS</strong> {{ include.text }}
+            <strong class="text-success">MAIS :</strong> {{ include.text }}
             {% when "zh" %}
-            <strong class="text-error">请勿</strong> {{ include.text }}
+            <strong class="text-success">请务必</strong> {{ include.text }}
             {% else %}
             {{ include.text }}
             {% endcase %}
