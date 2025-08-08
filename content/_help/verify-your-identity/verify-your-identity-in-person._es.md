@@ -112,7 +112,7 @@ Puede intentar verificar su identidad de nuevo, ya sea en línea o en persona. C
 
 Recibirá un correo electrónico en las 24 horas después de su visita a la oficina de correos para informarle si se logró o no la verificación de su identidad.
 
-Busque un mensaje de [no-reply@login.gov](mailto:no-reply@login.gov) en su correo electrónico. Si no recibe un correo electrónico en las 24 horas siguientes, contacte con el servicio de asistencia de Login.gov.
+Busque un mensaje de [no-reply@login.gov](mailto:no-reply@login.gov) en su correo electrónico. Si no recibe un correo electrónico en las 24 horas siguientes, contacte con [el servicio de asistencia de Login.gov](https://login.gov/es/contact/).
 
 ## Tengo problema con mi código de barras
 

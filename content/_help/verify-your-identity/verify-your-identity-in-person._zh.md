@@ -113,7 +113,7 @@ Login.gov 与美国邮局（USPS）合作，提供在邮局亲身验证身份的
 
 你去邮局后24小时内会收到一封电邮。我们会告诉你身份验证是否成功。
 
-查看你的电邮中是否有来自 [no-reply@login.gov](mailto:no-reply@login.gov) 的一则信息。如果你在 24 小时后仍未收到电邮，请联系 Login.gov support。
+查看你的电邮中是否有来自 [no-reply@login.gov](mailto:no-reply@login.gov) 的一则信息。如果你在 24 小时后仍未收到电邮，请联系 [Login.gov support](https://login.gov/zh/contact/)。
 
 ## 我的条形码有问题
 

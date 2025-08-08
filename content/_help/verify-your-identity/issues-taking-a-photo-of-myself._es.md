@@ -13,10 +13,10 @@ Es posible que algunas agencias asociadas le pidan que tome una fotografía de s
 {: .number-list}
 
 1. Tómese la foto en un lugar bien iluminado, pero evite los reflejos.
-1. Revise que se vea su cara completa, desde la barbilla hasta la parte superior de la cabeza. Solo use los accesorios (como anteojos) que lleva puestos en la fotografía de su identificación. Quite cualquier otro artículo que le cubra la cara.
-1. Alinee su cara con las marcas de guía. Mantenga una expresión neutral y no se mueva.
-1. Siga las instrucciones para tomar una fotografía. La cámara puede tomar automáticamente una foto, o puede que tenga que pulsar un botón para tomarla.
-1. Pulse la marca de verificación o siga las instrucciones para aceptar la foto.
+2. Revise que se vea su cara completa, desde la barbilla hasta la parte superior de la cabeza. Solo use los accesorios (como anteojos) que lleva puestos en la fotografía de su identificación. Quite cualquier otro artículo que le cubra la cara.
+3. Alinee su cara con las marcas de guía. Mantenga una expresión neutral y no se mueva.
+4. Siga las instrucciones para tomar una fotografía. La cámara puede tomar automáticamente una foto, o puede que tenga que pulsar un botón para tomarla.
+5. Pulse la marca de verificación o siga las instrucciones para aceptar la foto.
 
 ## Recibí un mensaje de error que dice que Login.gov no pudo comprobar que mi foto coincide con la de mi identificación
 
