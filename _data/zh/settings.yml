@@ -249,6 +249,8 @@ help_page:
       slug: fraud-concerns
       title: 欺诈担忧
       url: /zh/help/fraud-concerns/overview/
+  p_1: 浏览常见主题
+  popular_topics: 热门话题
   popular_topics_links:
     - title: 登录有困难
       url: /zh/help/trouble-signing-in/issues-with-authentication-methods/
@@ -258,8 +260,6 @@ help_page:
       url: /zh/help/specific-agencies/ssa/
     - title: Help with Trusted Traveler Programs (TTP)
       url: /zh/help/specific-agencies/trusted-traveler-programs/
-  popular_topics: 热门话题
-  p_1: 浏览常见主题
   title: 我们能怎么帮你？
 identifier:
   accessible_labels:

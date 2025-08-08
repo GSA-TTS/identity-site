@@ -283,6 +283,8 @@ help_page:
       slug: fraud-concerns
       title: Problèmes liés à la fraude
       url: /fr/help/fraud-concerns/overview/
+  p_1: Parcourir les thèmes courants
+  popular_topics: Thématiques populaires
   popular_topics_links:
     - title: Difficultés pour se connecter
       url: /fr/help/trouble-signing-in/issues-with-authentication-methods/
@@ -292,8 +294,6 @@ help_page:
       url: /fr/help/specific-agencies/ssa/
     - title: Help with Trusted Traveler Programs (TTP)
       url: /fr/help/specific-agencies/trusted-traveler-programs/
-  popular_topics: Thématiques populaires
-  p_1: Parcourir les thèmes courants
   title: Que pouvons-nous faire pour vous ?
 identifier:
   accessible_labels:

@@ -259,8 +259,10 @@ help_page:
       slug: fraud-concerns
       title: Fraud concerns
       url: /help/fraud-concerns/overview/
+  p_1: Browse common topics
+  popular_topics: Popular topics
   popular_topics_links:
-    - title: I'm having trouble authenticating
+    - title: I’m having trouble authenticating
       url: /help/trouble-signing-in/issues-with-authentication-methods/
     - title: Issues verifying your identity
       url: /help/verify-your-identity/how-to-verify-your-identity/
@@ -268,8 +270,6 @@ help_page:
       url: /help/specific-agencies/ssa/
     - title: Help with Trusted Traveler Programs (TTP)
       url: /help/specific-agencies/trusted-traveler-programs/
-  popular_topics: Popular topics
-  p_1: Browse common topics
   title: How can we help?
 identifier:
   accessible_labels:
