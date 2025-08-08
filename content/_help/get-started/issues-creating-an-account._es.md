@@ -5,6 +5,7 @@ category: create-account
 permalink: /es/help/create-account/issues-creating-an-account/
 order: 3
 ---
+
 Estas son algunas soluciones a los problemas que pueden surgir cuando crea una cuenta de Login.gov:
 
 ## No estoy recibiendo el correo electrónico de confirmación
@@ -45,6 +46,7 @@ Esta es una descripción más detallada de los posibles problemas y soluciones:
 Su contraseña debe tener **12 caracteres** o más. No use frases comunes ni caracteres repetidos, como abc o 111. Una buena contraseña debe ser una combinación de números, letras y símbolos especiales (!, @, %).
 
 **Evite usar las mismas contraseñas** de sus otras cuentas, como las de su banco, correo electrónico y redes sociales. Si llegan a jaquear sus otras contraseñas, su cuenta de Login.gov puede quedar expuesta. No incluya palabras de su dirección de correo electrónico.
+
 
 ## Otros artículos
 

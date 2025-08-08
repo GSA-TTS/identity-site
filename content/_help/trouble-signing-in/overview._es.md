@@ -31,6 +31,7 @@ Según los métodos de autenticación que haya configurado, es posible que todav
 3. Haga clic en el botón “Iniciar sesión”.
 
 4. Use una de las opciones que configuró para autenticarse, por ejemplo:
+
    * Escanear su rostro o huella dactilar
    * Ingresar un código de un solo uso de su aplicación de autenticación
    * Usar su clave de seguridad
@@ -39,6 +40,7 @@ Según los métodos de autenticación que haya configurado, es posible que todav
    * Usar su identificación de empleado del gobierno federal o de personal militar (tarjeta PIV o CAC)
 
 5. A continuación aparecerá la página de su cuenta de Login.gov.
+
 
 ## Otros artículos
 

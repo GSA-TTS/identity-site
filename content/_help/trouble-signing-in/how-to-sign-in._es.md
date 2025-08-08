@@ -38,6 +38,7 @@ Si seleccionó la llamada telefónica o el mensaje de texto como su método de a
 
 1. Seleccione otra de las opciones de seguridad que haya configurado y siga los pasos para iniciar sesión.
 
+
 ## Otros artículos
 
 * [Tengo problemas para autenticarme](/es/help/trouble-signing-in/issues-with-authentication-methods/)

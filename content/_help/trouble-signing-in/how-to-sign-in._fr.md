@@ -38,6 +38,7 @@ Si vous aviez choisi l’appel téléphonique ou le SMS comme méthode d’authe
 
 1. Choisissez l’une des autres options de sécurité déjà configurées puis suivez les étapes requises pour vous connecter.
 
+
 ## Articles connexes
 
 * [Je n’arrive pas à m’authentifier](/fr/help/trouble-signing-in/issues-with-authentication-methods/)

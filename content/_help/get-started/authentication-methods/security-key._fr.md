@@ -25,6 +25,7 @@ Comme Login.gov ne fournit pas aux utilisateurs de clé de sécurité, vous deve
 
 3. Suivez les instructions de votre navigateur pour activer votre clé de sécurité. Vous n’aurez pas besoin de saisir un code lorsque vous utiliserez votre clé de sécurité.
 
+
 ## Articles connexes
 
 * [Problèmes avec une clé de sécurité](/fr/help/trouble-signing-in/authentication/issues-with-security-key/)

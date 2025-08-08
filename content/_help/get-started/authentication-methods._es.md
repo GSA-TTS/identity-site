@@ -37,6 +37,7 @@ redirect_from:
   - /es/help/signing-in/what-is-an-authentication-app/
   - /es/help/signing-in/what-is-an-authenticator-app/
 ---
+
 Además de su contraseña, Login.gov le pide que use al menos un método de autenticación multifactor (MFA) como un nivel más de protección para su información.
 
 Le recomendamos que añada dos métodos de autenticación a su cuenta. Si pierde el acceso a su método de autenticación principal (por ejemplo, si pierde su teléfono), tendrá una segunda opción para acceder a su cuenta. Login.gov no puede concederle acceso a su cuenta si queda bloqueado o si pierde su método de autenticación. **Si se bloquea el acceso, tendrá que [eliminar su cuenta](/es/help/manage-your-account/delete-your-account/) y crear una nueva**.
@@ -46,12 +47,14 @@ Aunque puede elegir entre varias opciones de autenticación, algunos métodos de
 **Advertencia**: No recomendamos que los códigos de recuperación sean su único método de autenticación. Si llega a perder sus códigos de recuperación, no podrá iniciar sesión en su cuenta.
 
 {: .help-question-list}
+
 * [Desbloqueo facial o táctil](/es/help/create-account/authentication-methods/face-or-touch-unlock/)
 * [Aplicación de autenticación](/es/help/create-account/authentication-methods/authentication-application/)
 * [Clave de seguridad](/es/help/create-account/authentication-methods/security-key/)
 * [Llamada telefónica o mensaje de texto (SMS)](/es/help/create-account/authentication-methods/text-sms-or-phone-call/)
 * [Códigos de recuperación (menos seguros)](/es/help/create-account/authentication-methods/backup-codes/)
 * [Identificación de empleado del gobierno (tarjeta PIV o CAC)](/es/help/create-account/authentication-methods/piv-cac/)
+
 
 ## Otros artículos
 

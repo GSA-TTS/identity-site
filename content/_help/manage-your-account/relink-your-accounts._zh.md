@@ -16,6 +16,7 @@ order: 8
 
 2. 与该合作机构联系，请他们将你帐户与新电邮地址关联起来。
 
+
 ## 相关文章
 
 * [验证你的身份](/zh/help/verify-your-identity/overview/)

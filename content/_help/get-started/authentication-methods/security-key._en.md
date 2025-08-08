@@ -25,6 +25,7 @@ Login.gov does not provide users with a security key, so you will need to obtain
 
 3. Follow your browser’s instructions to activate your security key. You won’t need to enter a code when using your security key.
 
+
 ## Related articles
 
 * [Issues with Security Key](/help/trouble-signing-in/authentication/issues-with-security-key/)

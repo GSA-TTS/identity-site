@@ -4,6 +4,7 @@ category: fraud-concerns
 permalink: /fr/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/
 order: 1
 ---
+
 Vous pourriez recevoir sur votre téléphone des codes de sécurité que vous n’avez pas demandés pour diverses raisons.
 
 Par exemple, votre numéro de téléphone a pu être saisi par erreur par un tiers qui souhaite créer un compte ; ou quelqu’un qui a accès à votre téléphone peut s’en servir pour se connecter à son compte (comme un conjoint, un parent ou un enfant).
@@ -19,6 +20,8 @@ Pour assurer la sécurité de votre compte, nous vous recommandons de vous conne
 
 Si vous continuez à recevoir ces codes et soupçonnez l’existence d’un problème de sécurité, [veuillez nous contacter](https://login.gov/fr/contact/).
 
+
 ## Articles connexes
+
 * [Comment modifier mon mot de passe](/fr/help/manage-your-account/change-your-password/)
 * [Comment ajouter une méthode d’authentification ou la modifier sur mon compte](/fr/help/manage-your-account/add-or-change-your-authentication-method/)

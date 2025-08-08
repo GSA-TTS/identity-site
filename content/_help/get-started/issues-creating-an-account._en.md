@@ -42,11 +42,14 @@ Here's a more detailed breakdown of potential issues and solutions:
 - Check if there are any known outages or maintenance on the <https://status.login.gov/> website.
 
 ## I’m having trouble creating a password
+
 Your password must be **12 characters** or longer. Don’t use common phrases or repeated characters, like abc or 111. A strong password should include a combination of numbers, letters, and special symbols (!, @, %).
 
 **Avoid reusing passwords** from your other accounts, such as your banks, email and social media. If your other passwords get hacked, your Login.gov account may be compromised. Don’t include words from your email address.
 
+
 ## Related articles
+
 * [Authentication methods](/help/create-account/authentication-methods/)
 * [How do I create a Login.gov account](/help/create-account/how-do-i-create-an-account/)
 * [Trouble signing in](/help/trouble-signing-in/overview/)

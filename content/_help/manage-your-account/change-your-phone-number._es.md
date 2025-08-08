@@ -32,6 +32,7 @@ Siga estos pasos para cambiar el número de teléfono asociado con su cuenta.
 
 1. Haga clic en el botón “Cambiar contraseña”.
 
+
 ## Otros artículos
 
 * [¿Cómo cambio el método de autenticación en mi cuenta?](/es/help/manage-your-account/add-or-change-your-authentication-method/)

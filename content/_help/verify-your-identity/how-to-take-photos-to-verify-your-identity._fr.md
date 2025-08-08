@@ -169,6 +169,7 @@ Si vous envoyez vos photos et recevez un message d’erreur selon lequel nous n�
 
 Veillez à ce que votre nom, prénom, adresse et autres renseignements figurant sur votre pièce d’identité soient aisément lisibles. Évitez la lumière vive, les reflets ou les ombres qui rendent la pièce d’identité difficile à lire.
 
+
 ## Articles connexes
 
 * [Comment puis-je confirmer mon identité ?](/fr/help/verify-your-identity/overview/)

@@ -14,11 +14,13 @@ redirect_from:
 ---
 
 **Il peut exister différentes raisons de vouloir supprimer un compte :**
+
 * Vous vous rendez compte que vous avez plusieurs comptes associés à différentes adresses e-mail et vous voulez n’en avoir qu’un
 * Votre compte a été bloqué et vous avez perdu l’accès à vos méthodes d’authentification
 * Vous n’avez plus besoin d’un compte Login.gov
 
 **Si vous supprimez votre compte :**
+
 * Nous supprimerons votre adresse e-mail, votre mot de passe et votre numéro de téléphone
 * Vous ne pourrez pas vous connecter aux organismes partenaires qui nécessitent un compte Login.gov
 * Vous ne perdrez pas vos renseignements sauvegardés auprès d’organismes partenaires, mais devrez créer un nouveau compte Login.gov
@@ -76,6 +78,7 @@ redirect_from:
     </ol>
   </div>
 </div>
+
 
 ## Articles connexes
 

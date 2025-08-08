@@ -10,6 +10,7 @@ redirect_from:
   - /fr/help/creating-an-account/how-do-i-create-an-account-with-logingov/
   - /fr/help/creating-an-account/how-to-create-an-account/
 ---
+
 Suivez les étapes suivantes pour créer votre compte Login.gov.
 
 {: .number-list}
@@ -54,6 +55,7 @@ Suivez les étapes suivantes pour créer votre compte Login.gov.
 
 7. Bravo ! Une fois que vous vous êtes authentifié, vous avez créé votre compte Login.gov.
    Vous serez redirigé vers la page de votre compte Login.gov ou vers l'organisme fédéral auquel vous essayez d'accéder. Vous pouvez ajouter des méthodes d'authentification supplémentaires, des adresses e-mail ou mettre à jour vos coordonnées sur la page de votre compte Login.gov.
+
 
 ## Articles connexes
 

@@ -14,6 +14,7 @@ redirect_from:
   - /zh/help/get-started/authentication-methods/
 order: 2
 ---
+
 除了密码之外，Login.gov 还要求你使用至少一种多重身份证实方法 (MFA)，作为保护你信息安全的额外一层保障。
 
 我们鼓励你给自己的账户添加两种身份证实方法。这样万一你丢失了主身份证实方法（比如丢了电话），还有第二种方法来进入账户。如果你被锁在账户之外和/或丢失了身份证实方法，Login.gov 无法授予你访问帐户的权限。如果被锁在账户外，你就不得不[删除帐户](/zh/help/manage-your-account/delete-your-account/)，设立一个新的。
@@ -29,6 +30,7 @@ order: 2
 * [电话/短信](/zh/help/create-account/authentication-methods/text-sms-or-phone-call/)
 * [备用代码（不太安全）](/zh/help/create-account/authentication-methods/backup-codes/)
 * [政府雇员 ID（PIV/CAC）](/zh/help/create-account/authentication-methods/piv-cac/)
+
 
 ## 相关文章
 

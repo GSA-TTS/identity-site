@@ -27,6 +27,7 @@ If you see an error message when trying to set up your security key, try again u
 
 You can only register the same security key once to your account. Add a different security key.
 
+
 ## Related articles
 
 * [How do I choose the right authentication method](/help/create-account/authentication-methods/)

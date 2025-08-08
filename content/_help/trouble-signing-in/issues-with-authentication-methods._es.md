@@ -39,11 +39,17 @@ Si no puede iniciar sesión con sus métodos de autenticación, tendrá que borr
 {% include alert.html type="warning" class="margin-bottom-4" content=delete_account_alert_content %}
 
 {: .help-question-list}
+
 * [Problemas con el desbloqueo facial o táctil](/es/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+
 * [Problemas con la aplicación de autenticación](/es/help/trouble-signing-in/authentication/issues-with-authentication-application/)
+
 * [Problemas con la clave de seguridad](/es/help/trouble-signing-in/authentication/issues-with-security-key/)
+
 * [Problemas con los mensajes de texto (SMS) o las llamadas telefónicas](/es/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
+
 * [Problemas con los códigos de recuperación (menos seguros)](/es/help/trouble-signing-in/authentication/issues-with-backup-codes/)
+
 * [Problemas con la identificación de empleado del gobierno (tarjeta PIV o CAC)](/es/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 
 ## Otros artículos

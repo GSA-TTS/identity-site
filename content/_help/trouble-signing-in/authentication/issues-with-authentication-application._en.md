@@ -23,6 +23,7 @@ You should not be charged for using authenticator applications like Microsoft Au
 
 Login.gov cannot help resolve this issue. Please contact the developer of your authentication application.
 
+
 ## Related articles
 
 * [How do I sign in if I lost my phone or personal key?](/help/trouble-signing-in/how-to-sign-in/)

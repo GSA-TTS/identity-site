@@ -45,6 +45,7 @@ Les cartes physiques PIV (personal identity verification, vérification d'identi
 
 6. Il est possible qu’on vous demande de saisir le code PIN associé à votre carte PIV/CAC. C’est un code PIN que vous avez configuré avec votre carte PIV/CAC.
 
+
 ## Articles connexes
 
 * [Problèmes avec la carte d'employé fédéral](/fr/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)

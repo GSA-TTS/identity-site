@@ -28,6 +28,7 @@ Si envía sus fotos y recibe un mensaje de error que indica que “No pudimos co
 
 Si sigue recibiendo errores, o si su aspecto es muy diferente al de la foto de su documento de identificación, es posible que pueda [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) en una oficina cercana del Servicio Postal de los Estados Unidos.
 
+
 ## Otros artículos
 
 * [¿Cómo verifico mi identidad?](/es/help/verify-your-identity/overview/)

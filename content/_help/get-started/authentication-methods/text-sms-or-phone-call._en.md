@@ -24,6 +24,7 @@ Remember you need a mobile device to receive a one-time code by text message. If
 
 You can resend a one-time code by selecting using the “resend code” button.
 
+
 ## Related articles
 
 * [Issues with Text/SMS or phone call](/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)

@@ -5,7 +5,8 @@ category: manage-your-account
 permalink: /zh/help/manage-your-account/add-or-change-your-authentication-method/
 order: 5
 ---
-[身份证实方法](/zh/help/get-started/authentication-methods/)是你账户额外一层的安全保障。我们建议你账户至少有两种身份证实方法，以防你万一丢失其中一种。
+
+[身份证实方法](/zh/help/get-started/authentication-methods/) 是你账户额外一层的安全保障。我们建议你账户至少有两种身份证实方法，以防你万一丢失其中一种。
 
 如果你丢失了身份证实方法，又没有与自己账户连接的备份，则需要[删除目前的login.gov 账户](/zh/help/manage-your-account/delete-your-account/)，设立一个新账户。
 
@@ -68,6 +69,7 @@ order: 5
     </ul>
   </div>
 </div>
+
 
 ## 相关文章
 

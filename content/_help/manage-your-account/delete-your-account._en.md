@@ -13,12 +13,15 @@ redirect_from:
   - /help/creating-an-account/what-do-i-do-if-an-account-already-exists-under-my-email-address/
   - /help/signing-in/locked-out-of-account/
 ---
+
  **There might be different reasons why you need to delete an account:**
+
 * You realize you have multiple accounts using different email addresses and you want to have one account
 * You are locked out of your account and have lost access to your authentication methods
 * You no longer need a Login.gov account
 
 **If you delete your account:**
+
 * We’ll delete your email address, password, and phone number
 * You won’t be able to sign into partner agencies that require a Login.gov account
 * You won’t lose your information saved with partner agencies, but you will need to create a new Login.gov account
@@ -76,6 +79,7 @@ redirect_from:
     </ol>
   </div>
 </div>
+
 
 ## Related articles
 

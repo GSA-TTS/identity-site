@@ -30,6 +30,7 @@ Si vous choisissez cette option de sécurité, suivez les étapes suivantes pour
 
 Vous pourrez désormais utiliser les codes à usage unique générés par l'application chaque fois que vous vous connecterez à Login.gov.
 
+
 ## Articles connexes
 
 * [Problèmes avec l’application d'authentification](/fr/help/trouble-signing-in/authentication/issues-with-authentication-application/)

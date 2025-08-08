@@ -45,6 +45,7 @@ PIV（个人身份验证）卡或 CAC（通用访问卡）是给联邦政府雇�
 
 6. 你可能会被要求输入与你的 PIV/CAC 关联的个人识别号码（PIN）。这是你为 PIV/CAC 凭据设置的PIN；
 
+
 ## 相关文章
 
 * [政府雇员 ID问题](/zh/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)

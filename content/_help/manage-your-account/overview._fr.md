@@ -22,6 +22,7 @@ Une adresse mail ou un numéro de téléphone obsolète peut vous empêcher de r
 - [Changer votre mot de passe](/fr/help/manage-your-account/change-your-password/)
 - [Modifier l'adresse e-mail associée à votre compte](/fr/help/manage-your-account/change-your-email-address/)
 
+
 ## Articles connexes
 
 * [Difficultés pour se connecter](/fr/help/trouble-signing-in/overview/)

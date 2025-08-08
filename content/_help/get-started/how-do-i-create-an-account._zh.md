@@ -7,6 +7,7 @@ redirect_from:
   - /zh/help/get-started/create-your-account/
 order: 1
 ---
+
 按照以下步骤设立你的 Login.gov 账户。
 
 {: .number-list}
@@ -51,6 +52,7 @@ order: 1
 
 7. 成功了！身份证实之后，你的 Login.gov 账户就设好了。
    系统会带你到你的 Login.gov 账户页面或你要访问的政府机构网站。你可以在 Login.gov 帐户页面上添加其他身份证实方法和电邮地址或更新信息。
+
 
 ## 相关文章
 

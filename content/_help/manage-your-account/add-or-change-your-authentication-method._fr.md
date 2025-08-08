@@ -69,6 +69,7 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
   </div>
 </div>
 
+
 ## Articles connexes
 
 * [Méthodes d’authentification](/fr/help/get-started/authentication-methods/)

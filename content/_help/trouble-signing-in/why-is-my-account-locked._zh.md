@@ -35,6 +35,7 @@ order: 5
 
 1. [验证你的电话号码](/zh/help/verify-your-identity/phone-number/)时，请检查你输入的电话号码是否正确以及你使用的是否是可接受的一类号码。
 
+
 ## 相关文章
 
 * [为什么我的帐户被停用？](/zh/help/manage-your-account/deactivated/)

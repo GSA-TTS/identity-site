@@ -30,6 +30,7 @@ Si su dirección actual es distinta de la que aparece en su identificación, pue
 
 Si su dirección postal no es la misma que la de su domicilio, ingrese la dirección donde vive.
 
+
 ## Otros artículos
 
 * [Problemas al verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)

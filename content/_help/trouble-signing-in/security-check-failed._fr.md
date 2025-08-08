@@ -19,6 +19,7 @@ Pour augmenter vos chances de réussir le test [reCAPTCHA](https://cloud.google.
 - Nous vous recommandons d'installer et d'exécuter un logiciel antivirus sur votre appareil au cas où un logiciel malveillant interférerait avec les contrôles de sécurité de Login.gov.
 - Si aucune des solutions ci-dessus ne donne de résultat, [contactez le service d’assistance de Login.gov](/fr/contact/).
 
+
 ## Articles connexes
 
 * [Problèmes liés à la fraude](/fr/help/fraud-concerns/overview/)

@@ -14,6 +14,7 @@ redirect_from:
   - /help/creating-an-account/why-is-my-confirmation-link-invalid/
   - /help/get-started/
 ---
+
 Login.gov is the public’s one account and password for the government. Login.gov is a shared service and trusted by government agencies. With one Login.gov account you can access websites and applications from participating government partners.
 
 You need an email address, password and a multi-factor [authentication method](/help/get-started/authentication-methods/) (MFA) to create an account.
@@ -27,6 +28,7 @@ Login.gov requires all users to use  Multi-factor authentication when creating a
 If you do not have a phone that you can use for this, you can choose to use one of the other authentication methods (security options) available. You can use an authentication application, backup codes, or a security key. Government employees can also use their PIV or CAC cards.
 
 {: .help-question-list}
+
 * [How to create a Login.gov account](/help/get-started/create-your-account/)
 * [How do I choose the right authentication method](/help/get-started/authentication-methods/)
 * [Why am I being asked to use Login.gov](/what-is-login/)

@@ -23,12 +23,19 @@ order: 3
 {% include alert.html type="warning" class="margin-bottom-4" content=delete_account_alert_content %}
 
 {: .help-question-list}
+
 * [人脸或触摸解锁问题](/zh/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+
 * [身份证实应用程序问题](/zh/help/trouble-signing-in/authentication/issues-with-authentication-application/)
+
 * [安全密钥问题](/zh/help/trouble-signing-in/authentication/issues-with-security-key/)
+
 * [电话/SMS问题](/zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
+
 * [备用代码（安全性较低）问题](/zh/help/trouble-signing-in/authentication/issues-with-backup-codes/)
+
 * [政府雇员 ID (PIV/CAC) 问题](/zh/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
+
 
 ## 相关文章
 

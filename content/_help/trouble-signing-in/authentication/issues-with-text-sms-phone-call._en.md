@@ -34,6 +34,7 @@ Only the newest one-time code you receive will work. If you request and receive 
 
 You can opt-in your phone number 30 days after the opt-out date to receive a security code again. We recommend you choose another authentication method to access your account.
 
+
 ## Related articles
 
 * [How do I sign in if I lost my phone or personal key](/help/trouble-signing-in/how-to-sign-in/)

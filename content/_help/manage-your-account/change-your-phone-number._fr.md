@@ -32,6 +32,7 @@ Suivez les étapes suivantes pour modifier le numéro de téléphone associé à
 
 1. Cliquez sur le bouton « Changer le mot de passe ».
 
+
 ## Articles connexes
 
 * [Comment puis-je changer la méthode d’authentification à mon compte ?](/fr/help/manage-your-account/add-or-change-your-authentication-method/)

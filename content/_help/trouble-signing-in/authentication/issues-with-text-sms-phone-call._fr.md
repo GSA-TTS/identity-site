@@ -34,6 +34,7 @@ Seul le dernier code à usage unique que vous recevrez fonctionnera. Si vous dem
 
 Vous pouvez décider de recevoir à nouveau des codes de sécurité sur votre téléphone 30 jours après avoir choisi de ne plus en recevoir. Nous vous recommandons de choisir une autre méthode d’authentification pour accéder à votre compte.
 
+
 ## Articles connexes
 
 * [Comment me connecter si j’ai perdu mon téléphone ou ma clé personnelle](/fr/help/trouble-signing-in/how-to-sign-in/)

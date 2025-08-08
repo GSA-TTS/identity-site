@@ -27,6 +27,7 @@ Si un message d’erreur s’affiche lorsque vous essayez de configurer votre cl
 
 Une clé de sécurité ne peut être enregistrée sur votre compte qu’une seule fois. Ajouter une différente clé de sécurité
 
+
 ## Articles connexes
 
 * [Comment puis-je choisir la méthode d’authentification la plus adaptée](/fr/help/create-account/authentication-methods/)

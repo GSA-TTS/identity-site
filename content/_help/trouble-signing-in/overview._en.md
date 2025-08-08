@@ -34,6 +34,7 @@ Depending on the authentication methods you’ve set up, you may still be able t
 3. Click the “Sign in” button.
 
 4. Authenticate using one of the options you set up, such as:
+
    * Scanning your face or fingerprint
    * Entering a one-time code from your authentication application
    * Using your security key
@@ -42,6 +43,7 @@ Depending on the authentication methods you’ve set up, you may still be able t
    * Using your federal government employee or military ID (PIV or CAC)
 
 5. You will then be taken to your Login.gov account page.
+
 
 ## Related articles
 

@@ -169,6 +169,7 @@ redirect_from:
 
 确保你 ID上的姓名、地址和其他信息可以轻松读取。避免强光、眩光或阴影，以免ID难以读取。
 
+
 ## 相关文章
 
 * [我如何验证身份？](/zh/help/verify-your-identity/overview/)

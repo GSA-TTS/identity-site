@@ -47,6 +47,7 @@ Votre mot de passe doit comporter au moins **12 caractères**. N’utilisez pas 
 
 **Évitez de réutiliser les mots de passe** de vos autres comptes, tels que ceux de vos banques, adresses e-mail et comptes de réseaux sociaux. Si vos autres mots de passe sont piratés, votre compte Login.gov pourrait être compromis. N’incluez pas de mots figurant dans votre adresse e-mail.
 
+
 ## Articles connexes
 
 * [Méthodes d’authentification](/fr/help/create-account/authentication-methods/)

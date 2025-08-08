@@ -53,6 +53,7 @@ Suivez les étapes ci-dessous pour modifier l'adresse e-mail associée à votre 
 
 Comment [modifier l’adresse e-mail communiquée aux organismes partenaires](/fr/help/manage-your-account/change-partner-email-address/).
 
+
 ## Articles connexes
 
 * [Comment puis-je associer à nouveau mon compte à un organisme partenaire ?](/fr/help/manage-your-account/relink-your-accounts/)

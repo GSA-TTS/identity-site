@@ -30,6 +30,7 @@ order: 2
 
 以后每次登录 Login.gov，你就能使用这个应用程序生成的一次性密码了。
 
+
 ## 相关文章
 
 * [身份证实应用程序问题](/zh/help/trouble-signing-in/authentication/issues-with-authentication-application/)

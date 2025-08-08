@@ -24,6 +24,7 @@ order: 4
 
 通过选择使用“重发代码”按钮，你可以把一次性代码再发一次。
 
+
 ## 相关文章
 
 * [短信/SMS或者接听电话问题](/zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)

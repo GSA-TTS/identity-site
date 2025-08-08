@@ -19,6 +19,7 @@ To increase your chances of passing [reCAPTCHA](https://cloud.google.com/securit
 - We recommend installing and running antivirus software on your device in case malware is interfering with Login.gov’s security checks.
 - If none of the above help, [contact Login.gov support](/contact/).
 
+
 ## Related articles
 
 * [Fraud concerns](/help/fraud-concerns/overview/)

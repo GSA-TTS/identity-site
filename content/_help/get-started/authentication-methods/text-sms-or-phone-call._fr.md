@@ -24,6 +24,7 @@ N'oubliez pas que vous devez disposer d'un appareil mobile pour recevoir un code
 
 Vous pouvez renvoyer un code à usage unique en sélectionnant le bouton « Renvoyer le code ».
 
+
 ## Articles connexes
 
 * [Problèmes pour recevoir le texto/SMS ou l’appel téléphonique](/fr/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)

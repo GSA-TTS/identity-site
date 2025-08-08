@@ -35,6 +35,7 @@ Il vous faudra attendre six heures avant de pouvoir tenter à nouveau de confirm
 
 1. Lorsque vous [confirmez votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/), vérifiez que vous l’avez correctement saisi et que vous fournissez un type de numéro accepté.
 
+
 ## Articles connexes
 
 * [Pourquoi mon compte est-il désactivé ?](/fr/help/manage-your-account/deactivated/)

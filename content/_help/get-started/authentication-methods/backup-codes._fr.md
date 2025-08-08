@@ -15,6 +15,7 @@ Si vous sélectionnez cette option moins sécurisée, Login.gov générera un en
 
 Lorsque le dixième code aura été utilisé, vous serez invité à télécharger une nouvelle liste. Traitez vos codes de sauvegarde avec les mêmes précautions que votre mot de passe.
 
+
 ## Articles connexes
 
 * [Problèmes avec les codes de sauvegarde](/fr/help/trouble-signing-in/authentication/issues-with-backup-codes/)

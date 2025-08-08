@@ -21,6 +21,7 @@ Un délai de 24 heures devra s’écouler après la suppression de votre compte 
 
 Veuillez consulter <https://login.gov/fr/help/manage-your-account/delete-your-account/> pour obtenir les instructions pour supprimer votre compte Login.gov, ainsi que <https://login.gov/fr/help/get-started/create-your-account/> pour créer un nouveau compte Login.gov.
 
+
 ## Articles connexes
 
 * [Comment supprimer mon compte](/fr/help/manage-your-account/delete-your-account/)

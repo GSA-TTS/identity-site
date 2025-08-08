@@ -11,6 +11,7 @@ redirect_from:
   - /es/help/creating-an-account/why-is-my-confirmation-link-invalid/
   - /es/help/get-started/
 ---
+
 Login.gov es una sola cuenta con contraseña para el acceso del público a los sitios del gobierno. Login.gov es un servicio público y confiable que ofrecen las agencias gubernamentales. Con una sola cuenta de Login.gov, usted puede acceder a los sitios web y las aplicaciones de las agencias asociadas participantes.
 
 Para crear una cuenta, necesita una dirección de correo electrónico, una contraseña y un [método de autenticación multifactor (MFA)](/es/help/get-started/authentication-methods/).
@@ -25,6 +26,7 @@ Login.gov requiere que todos los usuarios usen métodos de autenticación multif
 Si no tiene un teléfono que pueda usar para esto, seleccione uno de los demás métodos de autenticación (opciones de seguridad) disponibles. Puede usar una aplicación de autenticación, códigos de recuperación o una clave de seguridad. Los empleados del gobierno también pueden usar su tarjeta PIV o CAC.
 
 {: .help-question-list}
+
 * [Cree su cuenta de Login.gov](/es/help/get-started/create-your-account/)
 * [Cómo selecciono el método de autenticación apropiado](/es/help/get-started/authentication-methods/)
 * [Por qué se le pide que use Login.gov](/es/what-is-login/)

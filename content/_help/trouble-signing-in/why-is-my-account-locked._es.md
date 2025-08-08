@@ -35,6 +35,7 @@ Tendrá que esperar seis horas antes de volver a intentar verificar su identidad
 
 1. Cuando [verifique su número de teléfono](/es/help/verify-your-identity/phone-number/), compruebe haber ingresado el número correctamente y que se trata de un tipo aceptado de número de teléfono.
 
+
 ## Otros artículos
 
 * [¿Por qué está desactivada mi cuenta?](/es/help/manage-your-account/deactivated/)

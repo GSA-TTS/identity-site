@@ -21,6 +21,7 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-backup-codes/
 
 请访问 <https://login.gov/zh/help/manage-your-account/delete-your-account/> 获取有关如何删除你的 Login.gov 帐户的说明，并访问 <https://login.gov/zh/help/get-started/create-your-account/> 重新创建你的 Login.gov 帐户。
 
+
 ## 相关文章
 
 * [我如何删除自己的账户](/zh/help/manage-your-account/delete-your-account/)

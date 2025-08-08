@@ -51,6 +51,7 @@ order: 1
 
 了解如何[更改与合作伙伴机构分享的电邮地址](/zh/help/manage-your-account/change-partner-email-address/)。
 
+
 ## 相关文章
 
 * [我如何把自己的帐户和合作伙伴机构重新关联？](/zh/help/manage-your-account/relink-your-accounts/)

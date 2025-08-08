@@ -4,10 +4,13 @@ category: fraud-concerns
 permalink: /fr/help/fraud-concerns/overview/
 order: 0
 ---
+
 ## La fraude ou les activités non autorisées vous inquiètent ?
+
 Si vous soupçonnez que votre compte Login.gov a été compromis, ou si vous avez remarqué une activité suspecte, nous sommes là pour vous aider à prendre immédiatement des mesures pour assurer la protection de votre identité et la sécurité de votre compte.
 
 ### Détecter l’existence d’une activité suspecte
+
 Vous pouvez passer en revue les connexions récentes et les appareils associés à votre compte Login.gov :
 
 {: .number-list}
@@ -23,6 +26,7 @@ Si un appareil ou une connexion que vous ne reconnaissez pas s’affiche, nous v
    * **De vérifier vos méthodes d’authentification** pour veiller à ce qu’elles soient à jour et sécurisées.
 
 ### Protéger votre compte
+
 Notre priorité est votre sécurité. Login.gov a recours à des méthodes de détection de la fraude et d’authentification sécurisées pour protéger votre compte. Il nous est important de protéger votre compte. Pour en savoir plus sur [notre engagement à protéger les informations vous concernant](https://login.gov/fr/policy/).
 
 ### Signaler une activité suspecte ou frauduleuse

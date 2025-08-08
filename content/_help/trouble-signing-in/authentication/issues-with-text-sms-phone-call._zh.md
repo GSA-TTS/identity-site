@@ -34,6 +34,7 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone
 
 你可以在退出日期 30 天以后，选择使用你的电话号码再次接收安全码。我们建议你选择另一种身份证实方法来登录帐户。
 
+
 ## 相关文章
 
 * [如果我丢失了手机或个人密钥，如何登录](/zh/help/trouble-signing-in/how-to-sign-in/)

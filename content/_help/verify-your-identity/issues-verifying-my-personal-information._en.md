@@ -30,6 +30,7 @@ If your current address is different from the address on your ID, you can change
 
 If your mailing address is different from your residential address, enter the address where you live.
 
+
 ## Related articles
 
 * [Issues verifying my phone number](/help/verify-your-identity/phone-number/)

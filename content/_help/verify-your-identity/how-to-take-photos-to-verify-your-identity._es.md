@@ -169,6 +169,7 @@ Si envía sus fotos y recibe un mensaje de error que indica que su identificaci�
 
 Revise que su nombre, domicilio y demás información en su identificación se pueda leer fácilmente. Evite luces brillantes, reflejos o sombras que dificulten la lectura de la identificación.
 
+
 ## Otros artículos
 
 * [¿Cómo verifico mi identidad?](/es/help/verify-your-identity/overview/)

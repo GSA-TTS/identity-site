@@ -30,6 +30,7 @@ Nous vous encourageons à configurer plus d'une méthode d'authentification pour
            error_heading="Erreur lors du chargement des données"
            error_body="Désolé, une erreur s'est produite lors du chargement de la liste des pays pris en charge. Veuillez réessayer ultérieurement." %}
 
+
 ## Articles connexes
 
 * [Comment puis-je me connecter si j’ai perdu mon téléphone ou ma clé personnelle ?](/fr/help/trouble-signing-in/how-to-sign-in/)

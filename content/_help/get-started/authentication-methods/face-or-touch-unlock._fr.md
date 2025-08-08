@@ -98,6 +98,7 @@ Après avoir donné un surnom à votre appareil, veuillez suivre les étapes ci-
   </div>
 </div>
 
+
 ## Articles connexes
 
 * [Problèmes avec le déverrouillage facial et tactile](/fr/help/trouble-signing-in/authentication/face-and-touch-unlock/)

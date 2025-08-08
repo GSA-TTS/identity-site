@@ -31,6 +31,7 @@ En fonction des méthodes d’authentification que vous avez configurées, vous 
 3. Cliquez sur le bouton « Connexion ».
 
 4. Authentifiez-vous à l'aide de l'une des méthodes que vous avez configurées, par exemple :
+
    * La vérification de votre visage ou de votre empreinte digitale
    * La saisie d'un code de sécurité à usage unique à partir de votre application d'authentification
    * L'utilisation de votre clé de sécurité
@@ -39,6 +40,7 @@ En fonction des méthodes d’authentification que vous avez configurées, vous 
    * Utilisation de votre carte d'employé fédéral ou de d'identité militaire (PIV ou CAC)
 
 5. Vous serez ensuite dirigé vers la page de votre compte Login.gov.
+
 
 ## Articles connexes
 

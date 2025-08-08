@@ -27,6 +27,7 @@ Si ve un mensaje de error al tratar de configurar su clave de seguridad, vuelva 
 
 Solo puede registrar la misma clave de seguridad una vez para su cuenta. Añada una clave de seguridad distinta.
 
+
 ## Otros artículos
 
 * [¿Cómo selecciono el método de autenticación apropiado?](/es/help/create-account/authentication-methods/)

@@ -34,6 +34,7 @@ Solo el código de un solo uso más reciente funcionará. Si solicita y recibe v
 
 Puede volver a introducir su número de teléfono 30 días después de darse de baja para recibir de nuevo un código de seguridad. Le recomendamos que elija otro método de autenticación para acceder a su cuenta.
 
+
 ## Otros artículos
 
 * [¿Cómo inicio sesión si perdí mi teléfono o mi clave personal?](/es/help/trouble-signing-in/how-to-sign-in/)

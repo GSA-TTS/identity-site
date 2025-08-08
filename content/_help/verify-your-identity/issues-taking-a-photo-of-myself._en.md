@@ -28,6 +28,7 @@ If you submit your photos and get an error message that “We could not match th
 
 If you continue to get errors, or if you look very different from your ID photo, you may be able to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) at a United States Post Office near you.
 
+
 ## Related articles
 
 * [How do I verify my identity?](/help/verify-your-identity/overview/)

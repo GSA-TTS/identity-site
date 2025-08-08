@@ -23,6 +23,7 @@ No se le debería cobrar por el uso de aplicaciones de autenticación como Micro
 
 Login.gov no puede ayudarle a solucionar este problema. Contacte con el desarrollador de su aplicación de autenticación.
 
+
 ## Otros artículos
 
 * [¿Cómo inicio sesión si perdí mi teléfono o mi clave personal?](/es/help/trouble-signing-in/how-to-sign-in/)

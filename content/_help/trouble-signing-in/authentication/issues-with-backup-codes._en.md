@@ -21,6 +21,7 @@ You will need to wait 24 hours after you delete your account to recreate a new a
 
 Please visit <https://login.gov/help/manage-your-account/delete-your-account/> for instructions on how to delete your Login.gov account and <https://login.gov/help/get-started/create-your-account/> to recreate your Login.gov account.
 
+
 ## Related articles
 
 * [How do I delete my account](/help/manage-your-account/delete-your-account/)

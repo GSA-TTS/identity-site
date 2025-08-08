@@ -69,6 +69,7 @@ Si no tiene acceso a la dirección de correo electrónico que usó para crear su
 
 Si se trata de un trámite urgente (por ejemplo, revisar el estado de una solicitud en curso) contacte directamente con la agencia del gobierno.
 
+
 ## Otros artículos
 
 * [¿Cómo cambio la dirección de correo electrónico asociada con mi cuenta?](/es/help/manage-your-account/change-your-email-address/)

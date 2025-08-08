@@ -37,6 +37,7 @@ redirect_from:
   - /fr/help/signing-in/what-is-an-authentication-app/
   - /fr/help/signing-in/what-is-an-authenticator-app/
 ---
+
 En plus de votre mot de passe, Login.gov requiert l’utilisation d’au moins une méthode d’authentification multi-facteurs afin de procurer une couche de protection supplémentaire pour sécuriser vos renseignements.
 
 Nous vous recommandons d’ajouter deux méthodes d’authentification à votre compte. Si vous perdez l’accès à votre principale méthode d’authentification (par exemple, si vous perdez votre téléphone), vous aurez la possibilité d’utiliser la seconde pour accéder à votre compte. Login.gov ne peut pas vous laisser accéder à votre compte si vous vous faites bloquer ou si vous oubliez votre méthode d’authentification. **Si votre compte est bloqué, vous devrez [supprimer votre compte](/fr/help/manage-your-account/delete-your-account/) et en créer un nouveau.**
@@ -46,12 +47,14 @@ Bien que vous ayez le choix entre plusieurs options d’authentification, certai
 **Attention :** Nous ne recommandons pas l’utilisation de codes de sauvegarde comme unique méthode d’authentification. Si jamais vous perdiez vos codes de sauvegarde, vous ne pourrez plus vous connecter à votre compte.
 
 {: .help-question-list}
+
 * [Déverrouillage facial ou tactile](/fr/help/create-account/authentication-methods/face-or-touch-unlock/)
 * [Application d'authentification](/fr/help/create-account/authentication-methods/authentication-application/)
 * [Clé de sécurité](/fr/help/create-account/authentication-methods/security-key/)
 * [Téléphone/SMS](/fr/help/create-account/authentication-methods/text-sms-or-phone-call/)
 * [Codes de sauvegarde (moins sécurisés)](/fr/help/create-account/authentication-methods/backup-codes/)
 * [Cartes d'employé fédéral (PIV/CAC)](/fr/help/create-account/authentication-methods/piv-cac/)
+
 
 ## Articles connexes
 

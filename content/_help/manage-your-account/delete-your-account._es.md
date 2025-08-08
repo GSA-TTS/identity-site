@@ -14,11 +14,13 @@ redirect_from:
 ---
 
 **Es posible que tenga que eliminar una cuenta por distintos motivos:**
+
 * Se da cuenta de que tiene varias cuentas con direcciones de correo electrónico diferentes y quiere tener una sola cuenta.
 * Su cuenta está bloqueada y no puede acceder a sus métodos de autenticación.
 * Ya no necesita una cuenta de Login.gov.
 
 **Si elimina su cuenta:**
+
 * Eliminaremos su dirección de correo electrónico, contraseña y número de teléfono.
 * No podrá iniciar sesión en las agencias asociadas que requieran una cuenta de Login.gov.
 * No perderá la información que haya guardado en las agencias asociadas, pero tendrá que crear una nueva cuenta de Login.gov.
@@ -76,6 +78,7 @@ redirect_from:
     </ol>
   </div>
 </div>
+
 
 ## Otros artículos
 

@@ -24,15 +24,26 @@ Si recibió recientemente una nueva tarjeta PIV o CAC, tendrá que borrar el cer
 
 Si desea hacer cambios a su tarjeta PIV o CAC vigente como método de autenticación, siga estos pasos:
 
+{: .number-list}
+
 1. Vaya a <https://secure.login.gov/es> e inicie sesión en su cuenta de Login.gov.
+
 1. Verifique que haya otro método de autenticación configurado en su cuenta antes de borrar una tarjeta.
+
 1. Si desea agregar una tarjeta nueva, haga clic en “Agregar identificación” debajo de la tarjeta PIV o CAC vigente, o en “Agregue su identificación de empleado del gobierno” debajo de “Sus métodos de autenticación” en el menú de navegación en el lado izquierdo (menú de tres líneas en los dispositivos móviles).
+
 1. Para eliminar una tarjeta, haga clic en “Administrar” a la derecha de la tarjeta de identificación de empleado gubernamental que desea borrar. Siga los pasos para borrar el certificado de la tarjeta.
+
 1. Para cambiar una tarjeta, siga los pasos 3 y 4 anteriores.
+
 1. Ingrese su contraseña de Login.gov para confirmar el cambio.
+
 1. Cuando vea el mensaje “¿Está seguro de que desea eliminar este método de autenticación?”, seleccione “Aceptar”.
+
 1. Dé un alias a su tarjeta PIV o CAC.
+
 1. Inserte su tarjeta PIV o CAC.
+
 
 ## Otros artículos
 

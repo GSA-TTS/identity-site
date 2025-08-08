@@ -30,6 +30,7 @@ id_info_list:
 
 如果你的邮寄地址与居住地址不同，请输入你的居住地址。
 
+
 ## 相关文章
 
 * [验证我的电话号码问题](/zh/help/verify-your-identity/phone-number/)

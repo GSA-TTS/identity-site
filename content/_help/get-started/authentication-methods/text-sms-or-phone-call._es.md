@@ -24,6 +24,7 @@ Recuerde que necesita un dispositivo móvil para recibir un código de un solo u
 
 Puede volver a recibir un código de un solo uso seleccionando el botón “Reenviar código”.
 
+
 ## Otros artículos
 
 * [Problemas con el mensaje de texto (SMS) o la llamada telefónica](/es/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)

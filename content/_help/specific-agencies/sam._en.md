@@ -46,7 +46,9 @@ Contact the Federal Service Desk at 866-606-8220 (toll-free) or 334-206-7828 (in
 
   * If you use the same email to create your Login.gov profile, you will keep all of your records, data access requests, and saved searches.
   * If you use a new email address, nothing will happen to your SAM.gov profile, but you will be unable to access your SAM profile information.
+
 * If you already have a Login.gov account and want to add your SAM email, you can do so on the Login.gov My Account page. Select the sign in button on the Login.gov homepage to access that account page.
+
 
 ## Related articles
 

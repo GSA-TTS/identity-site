@@ -42,6 +42,7 @@ If you selected phone call or text message as your authentication method, your p
 
 1. Select any of the other security options you have previously configured, then follow the steps to sign in.
 
+
 ## Related articles
 
 * [I’m having trouble authenticating](/help/trouble-signing-in/issues-with-authentication-methods/)

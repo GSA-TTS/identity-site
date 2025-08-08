@@ -25,6 +25,7 @@ Login.gov 不给用户提供安全密钥，所以要使用这一安全选项，�
 
 3. 按照浏览器说明来激活你的安全密钥。你在使用自己的安全密钥时，无需输入代码。
 
+
 ## 相关文章
 
 * [安全密钥问题](/zh/help/trouble-signing-in/authentication/issues-with-security-key/)

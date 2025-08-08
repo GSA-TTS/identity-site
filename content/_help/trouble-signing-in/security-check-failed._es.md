@@ -19,6 +19,7 @@ Para aumentar sus probabilidades de pasar la comprobación [reCAPTCHA](https://c
 - Le recomendamos que instale y ejecute un software antivirus en su dispositivo por si algún programa malicioso estuviera interfiriendo con las comprobaciones de seguridad de Login.gov.
 - Si nada de lo anterior funciona, [contacte con el servicio de asistencia de Login.gov](/es/contact/).
 
+
 ## Otros artículos
 
 * [Preocupaciones de fraude](/es/help/fraud-concerns/overview/)

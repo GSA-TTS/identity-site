@@ -35,6 +35,7 @@ You'll need to wait six hours before you can try to verify your identity again.
 
 1. When you [verify your phone number](/help/verify-your-identity/phone-number/), check that your phone number is entered correctly and you are using an accepted type of phone number.
 
+
 ## Related articles
 
 * [Why is my account deactivated?](/help/manage-your-account/deactivated/)

@@ -30,6 +30,7 @@ Si votre adresse actuelle est différente de celle figurant sur votre pièce d�
 
 Si votre adresse postale est différente de votre adresse résidentielle, saisissez l’adresse du lieu où vous vivez.
 
+
 ## Articles connexes
 
 * [Problèmes en lien avec la vérification de mon numéro de téléphone](/fr/help/verify-your-identity/phone-number/)

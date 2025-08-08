@@ -170,6 +170,7 @@ If you submit your photos and get an error message that we could not verify your
 
 Make sure that your name, address, and other information on your ID can be easily read. Avoid bright light, glare, or shadows that make it hard to read the ID.
 
+
 ## Related articles
 
 * [How do I verify my identity?](/help/verify-your-identity/overview/)

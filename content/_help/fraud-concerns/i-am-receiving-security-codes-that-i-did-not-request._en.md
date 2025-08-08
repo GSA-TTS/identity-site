@@ -5,6 +5,7 @@ category: fraud-concerns
 permalink: /help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/
 order: 1
 ---
+
 There are a few reasons why you may be receiving Login.gov security codes to your phone that you didn’t request.
 
 For example, someone may have accidentally entered your phone number instead of their own when creating their account or, someone else who has access to your phone may be using it to sign in to their account (like a spouse, parent, or child).
@@ -19,6 +20,8 @@ To make sure your account is safe, we recommend signing in to your account at [s
 
 If you continue to receive these codes or suspect there is a security problem, please [contact us](https://login.gov/contact/).
 
+
 ## Related articles
+
 * [How do I change my password](/help/manage-your-account/change-your-password/)
 * [How do I add or change the authentication method on my account](/help/manage-your-account/add-or-change-your-authentication-method/)

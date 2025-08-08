@@ -21,9 +21,11 @@ Keep your Login.gov account information up to date to ensure security and access
 Having an outdated email address or phone number can prevent you from recovering your account if you forget your password or get locked out. Regularly update your login credentials to help protect against unauthorized access and ensure you receive important notifications related to your account.
 
 {: .help-question-list}
+
 - [How do I add or change the authentication method on my account?](/help/manage-your-account/add-or-change-your-authentication-method/)
 - [Change your password](/help/manage-your-account/change-your-password/)
 - [Change the email address associated with your account](/help/manage-your-account/change-your-email-address/)
+
 
 ## Related articles
 

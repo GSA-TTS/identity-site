@@ -54,6 +54,7 @@ Although you can choose from several authentication options, some authentication
 * [Backup codes (less secure)](/help/create-account/authentication-methods/backup-codes/)
 * [Government employee IDs (PIV/CAC)](/help/create-account/authentication-methods/piv-cac/)
 
+
 ## Related articles
 
 * [Issues creating an account](/help/create-account/issues-creating-an-account/)

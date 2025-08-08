@@ -37,6 +37,7 @@ redirect_from:
 
 1. 选择你之前设置的任何一个其他安全选项，然后按照步骤登录。
 
+
 ## 相关文章
 
 * [我无法进行身份证实](/zh/help/trouble-signing-in/issues-with-authentication-methods/)

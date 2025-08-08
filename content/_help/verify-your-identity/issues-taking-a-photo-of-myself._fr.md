@@ -28,6 +28,7 @@ Si vous envoyez vos photos et recevez un message d’erreur selon lequel « Nous
 
 Si vous recevez encore des messages d’erreur, ou si vous semblez très différent de la photo sur votre pièce d’identité, vous devriez pouvoir [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau de poste des États-Unis près de chez vous.
 
+
 ## Articles connexes
 
 * [Comment puis-je confirmer mon identité ?](/fr/help/verify-your-identity/overview/)

@@ -23,6 +23,7 @@ Les applications d’authentification comme Microsoft Authenticator ou Google Au
 
 Login.gov ne peut pas vous aider à résoudre ce problème. Veuillez contacter le développeur de votre application d’authentification.
 
+
 ## Articles connexes
 
 * [Comment puis-je me connecter si j’ai perdu mon téléphone ou ma clé personnelle ?](/fr/help/trouble-signing-in/how-to-sign-in/)

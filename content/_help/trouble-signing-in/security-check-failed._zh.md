@@ -19,6 +19,7 @@ Login.gov 使用 [reCAPTCHA](https://cloud.google.com/security/products/recaptch
 - 我们建议你在设备上安装并运行防病毒软件，以防恶意软件干扰 Login.gov 的安全检查。
 - 如果上述方法都不行，请[联系 Login.gov 支持部门](/zh/contact/)。
 
+
 ## 相关文章
 
 * [欺诈担忧](/zh/help/fraud-concerns/overview/)

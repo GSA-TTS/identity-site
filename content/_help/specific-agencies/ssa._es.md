@@ -30,6 +30,7 @@ Llame al 1-800-772-1213 entre las&nbsp;8:00 a.m. y las&nbsp;7:00 p.m. de lunes a
 
 Si reside en el extranjero, el sitio [SSA.gov ofrece información de contacto por país](https://www.ssa.gov/foreign/).
 
+
 ## Otros artículos
 
 * [Ayuda con agencias específicas](/es/help/specific-agencies/overview/)

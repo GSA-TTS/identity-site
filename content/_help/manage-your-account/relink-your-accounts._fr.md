@@ -21,6 +21,7 @@ Si vous rencontrez des problèmes pour vous connecter à un site Web partenaire 
 
 2. Contactez l’organisme partenaire pour lui demander de lier votre compte à la nouvelle adresse e-mail.
 
+
 ## Articles connexes
 
 * [Confirmer votre identité](/fr/help/verify-your-identity/overview/)
