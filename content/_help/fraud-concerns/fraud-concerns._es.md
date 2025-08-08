@@ -12,7 +12,7 @@ Si sospecha que su cuenta de Login.gov se ha visto comprometida, o si observa ac
 Puede revisar los inicios de sesión recientes y los dispositivos asociados con su cuenta de Login.gov:
 
 {: .number-list}
-1. Inicie sesión en [Login.gov](http://secure.login.gov/es/).
+1. Inicie sesión en [Login.gov](https://secure.login.gov/es/).
 2. Navegue a la **página de su cuenta**.
 3. Seleccione **“Historial”** para ver los **dispositivos utilizados recientemente y los inicios de sesión**.
 
@@ -29,7 +29,7 @@ Login.gov no puede investigar las denuncias de fraude relacionado con otras agen
 
 ### Recursos federales para denunciar fraudes
 * **Robo de identidad**
-   * Sitio web: [IdentityTheft.gov](http://identitytheft.gov)
+   * Sitio web: [IdentityTheft.gov](https://identitytheft.gov)
    * Teléfono: 1-877-438-4338 (FTC)
 * **Delitos en línea o delitos informáticos**
    * [Centro del FBI para denuncias de delitos (IC3, Internet Crime Complaint Center) (en inglés)](https://www.ic3.gov/)
@@ -38,7 +38,7 @@ Login.gov no puede investigar las denuncias de fraude relacionado con otras agen
    * [Línea directa de la Oficina del Inspector General (OIG) del Departamento de Salud y Servicios Humanos (HHS) para la denuncia de fraudes (en inglés)](https://oig.hhs.gov/fraud/report-fraud/)
    * Teléfono: 1-800-HHS-TIPS (1-800-447-8477)
 * **Otros delitos graves contra la identidad**
-   * [Oficinas locales del Servicio Secreto de los EE.UU.(en inglés)](https://www.secretservice.gov/contact/field-offices/)
+   * [Oficinas locales del Servicio Secreto de los EE.UU. (en inglés)](https://www.secretservice.gov/contact/field-offices/)
 
 ## Otros artículos
 
