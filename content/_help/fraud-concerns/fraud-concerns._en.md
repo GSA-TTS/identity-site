@@ -29,7 +29,7 @@ Login.gov cannot investigate claims of fraud involving other agencies or service
 
 ### Federal Resources for Reporting Fraud
    * **Identity Theft**
-      * **Website:** [IdentityTheft.gov](http://IdentityTheft.gov)
+      * **Website:** [IdentityTheft.gov](https://IdentityTheft.gov)
       * **Phone:** 1-877-438-4338 (FTC)
    * **Online or Cyber Crime**
       * [Internet Crime Complaint Center (IC3)](https://www.ic3.gov/)

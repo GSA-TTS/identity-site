@@ -27,7 +27,7 @@ Login.gov ne peut enquêter sur les plaintes pour fraude impliquant d’autres o
 
 ### Ressources fédérales pour le signalement des fraudes
    * **Identity Theft**
-      * **Website:** [IdentityTheft.gov](http://identitytheft.gov/)
+      * **Website:** [IdentityTheft.gov](https://identitytheft.gov/)
       * **Phone:** 1-877-438-4338 (FTC)
    * **Online or Cyber Crime**
       * [Internet Crime Complaint Center (IC3, centre de signalement de la criminalité sur internet)](https://www.ic3.gov/)
