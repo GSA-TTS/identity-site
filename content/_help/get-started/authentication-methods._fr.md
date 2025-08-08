@@ -39,7 +39,7 @@ redirect_from:
 ---
 En plus de votre mot de passe, Login.gov requiert l’utilisation d’au moins une méthode d’authentification multi-facteurs afin de procurer une couche de protection supplémentaire pour sécuriser vos renseignements.
 
-Nous vous recommandons d’ajouter deux méthodes d’authentification à votre compte. Si vous perdez l’accès à votre principale méthode d’authentification (par exemple, si vous perdez votre téléphone), vous aurez la possibilité d’utiliser la seconde pour accéder à votre compte. Login.gov ne peut pas vous laisser accéder à votre compte si vous vous faites bloquer ou si vous oubliez votre méthode d’authentification. Si votre compte est bloqué, vous devrez [supprimer votre compte](/fr/help/manage-your-account/delete-your-account/) et en créer un nouveau.
+Nous vous recommandons d’ajouter deux méthodes d’authentification à votre compte. Si vous perdez l’accès à votre principale méthode d’authentification (par exemple, si vous perdez votre téléphone), vous aurez la possibilité d’utiliser la seconde pour accéder à votre compte. Login.gov ne peut pas vous laisser accéder à votre compte si vous vous faites bloquer ou si vous oubliez votre méthode d’authentification. **Si votre compte est bloqué, vous devrez [supprimer votre compte](/fr/help/manage-your-account/delete-your-account/) et en créer un nouveau.**
 
 Bien que vous ayez le choix entre plusieurs options d’authentification, certaines méthodes d’authentification telles que déverrouillage facial ou tactile, les clés de sécurité, et les cartes PIV/CAC sont plus efficaces contre les tentatives d’hameçonnage et le vol.
 

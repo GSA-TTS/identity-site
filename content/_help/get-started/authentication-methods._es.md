@@ -51,9 +51,9 @@ Aunque puede elegir entre varias opciones de autenticación, algunos métodos de
 * [Clave de seguridad](/es/help/create-account/authentication-methods/security-key/)
 * [Llamada telefónica o mensaje de texto (SMS)](/es/help/create-account/authentication-methods/text-sms-or-phone-call/)
 * [Códigos de recuperación (menos seguros)](/es/help/create-account/authentication-methods/backup-codes/)
-* [Identificación de empleado del gobierno (tarjeta PIV o CAC)](/es/help/create-account/authentication-methods/piv-cac)
+* [Identificación de empleado del gobierno (tarjeta PIV o CAC)](/es/help/create-account/authentication-methods/piv-cac/)
 
-## Related articles
+## Otros artículos
 
 * [Problemas al crear una cuenta](/es/help/create-account/issues-creating-an-account/)
 * [Administre su cuenta](/es/help/manage-your-account/overview/)

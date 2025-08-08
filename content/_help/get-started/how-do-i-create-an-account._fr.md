@@ -57,6 +57,6 @@ Suivez les étapes suivantes pour créer votre compte Login.gov.
 
 ## Articles connexes
 
-* [Méthodes d’authentification](/fr/help/get-started/authentication-methods/)
+* [Méthodes d’authentification](/fr/help/create-account/authentication-methods/)
 * [Gérer un compte](/fr/help/manage-your-account/overview/)
 * [Problèmes liés à la création d'un compte](/fr/help/create-account/issues-creating-an-account/)
