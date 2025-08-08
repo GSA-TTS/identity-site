@@ -17,14 +17,14 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 * 实体管理
   * [我如何成为实体管理员？](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016652)
   * [我如何在SAM.gov更新实体管理？](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0016307)
-* 电邮地址和你的Login.gov 账户
+* 电邮地址和你的 Login.gov 账户
   * [如果我更改自己在Login.gov 的电邮地址，对SAM.gov登录权限会有什么影响？](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0020259)
 
 要更改你的 SAM.gov 账户资料，需在 <https://sam.gov> 登录。
 
 需要帮助的话，请联系联邦服务台（免费拨打866-606-8220，国际拨打 334-206-7828）获得帮助，或在 <https://www.fsd.gov/> 通过网上表格提交请求。
 
-## 设立 Login.gov 账户和访问 SAM 账户资料时请注意：:
+## 设立 Login.gov 账户和访问 SAM 账户资料时请注意：
 
 * 如果你已有 SAM 账户，请使用你 SAM 账户电邮来设立你的 Login.gov 账户。
 

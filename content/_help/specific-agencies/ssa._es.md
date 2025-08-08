@@ -5,6 +5,7 @@ category: specific-agencies
 permalink: /es/help/specific-agencies/ssa/
 order: 3
 ---
+
 Login.gov es sólo para acceder de forma segura. Su cuenta de Login.gov no afecta ni contiene información de ningún tipo acerca de su tarjeta, número o prestaciones del Seguro Social.
 
 No envíe a Login.gov datos confidenciales personales ni números de identificación.
@@ -29,7 +30,7 @@ Llame al 1-800-772-1213 entre las&nbsp;8:00 a.m. y las&nbsp;7:00 p.m. de lunes a
 
 Si reside en el extranjero, el sitio [SSA.gov ofrece información de contacto por país](https://www.ssa.gov/foreign/).
 
-## Related articles
+## Otros artículos
 
 * [Ayuda con agencias específicas](/es/help/specific-agencies/overview/)
 * [Vuelva a vincular sus cuentas](/es/help/manage-your-account/relink-your-accounts/)
