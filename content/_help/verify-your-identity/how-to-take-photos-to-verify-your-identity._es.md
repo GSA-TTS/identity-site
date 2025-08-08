@@ -131,6 +131,7 @@ Si necesita actualizar el sistema operativo o navegador web, borre la memoria ca
       <li>Para aceptar que Login.gov use la cámara, <a href="https://support.google.com/chrome/answer/2693767?hl=en&co=GENIE.Platform%3DAndroid&oco=1" class="external-link">permita el acceso a la cámara en Chrome</a>.</li>
     </ul>
   </div>
+</div>
 
 ## Recibí un mensaje de error que dice que Login.gov no pudo verificar mi identificación
 

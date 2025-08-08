@@ -131,6 +131,7 @@ Il est possible que vous deviez mettre à jour votre système d’exploitation o
       <li>Pour permettre à Login.gov d’utiliser la caméra, <a href="https://support.google.com/chrome/answer/2693767?hl=en&co=GENIE.Platform%3DAndroid&oco=1" class="external-link">autorisez l’accès à la caméra dans Chrome</a></li>
     </ul>
   </div>
+</div>
 
 ## J’ai reçu un message d’erreur selon lequel Login.gov ne parvenait pas à vérifier ma pièce d’identité
 
