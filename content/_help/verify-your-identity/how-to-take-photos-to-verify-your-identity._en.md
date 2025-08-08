@@ -114,6 +114,8 @@ You may need to update your operating system or web browser, clear your cache or
       <li>To give Login.gov permission to use the camera, <a href="https://support.apple.com/en-mt/guide/iphone/iphb01fc3c85/ios" class="external-link">allow access to the camera</a> in Safari</li>
     </ul>
   </div>
+</div>
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h4 class="usa-accordion__heading">
     <button
       type="button"

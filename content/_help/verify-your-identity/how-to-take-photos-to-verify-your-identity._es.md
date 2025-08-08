@@ -113,6 +113,8 @@ Si necesita actualizar el sistema operativo o navegador web, borre la memoria ca
       <li>Para aceptar que Login.gov use la cámara, <a href="https://support.apple.com/en-mt/guide/iphone/iphb01fc3c85/ios" class="external-link">permita el acceso a la cámara</a> en Safari.</li>
     </ul>
   </div>
+</div>
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h4 class="usa-accordion__heading">
     <button
       type="button"
