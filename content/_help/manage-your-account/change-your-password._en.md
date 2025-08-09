@@ -37,7 +37,7 @@ Follow these steps to change your Login.gov password.
 1. Click the “Change password” button.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -46,7 +46,7 @@ Follow these steps to change your Login.gov password.
     >
       How to reset your password if you have a personal key (verified your identity)
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     When you reset your password, you’ll need your personal key to access your information.
 

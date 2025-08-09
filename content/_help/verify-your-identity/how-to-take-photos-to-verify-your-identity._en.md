@@ -96,7 +96,7 @@ If Login.gov’s camera tool to take a photo of your ID is not working, check th
 You may need to update your operating system or web browser, clear your cache or cookies, or give Login.gov permission to use the camera.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -105,7 +105,7 @@ You may need to update your operating system or web browser, clear your cache or
     >
       For iOS phones or tablets
     </button>
-  </h4>
+  </h3>
   <div id="ios-accordion" class="usa-accordion__content usa-prose">
     <ul>
       <li><a href="https://support.apple.com/en-us/118575" class="external-link">Update to the latest version of iOS</a></li>
@@ -116,7 +116,7 @@ You may need to update your operating system or web browser, clear your cache or
   </div>
 </div>
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -125,7 +125,7 @@ You may need to update your operating system or web browser, clear your cache or
     >
       For Android phones or tablets
     </button>
-  </h4>
+  </h3>
   <div id="android-accordion" class="usa-accordion__content usa-prose">
     <ul>
       <li><a href="https://support.google.com/android/answer/7680439?hl=en" class="external-link">Update to the latest version of Android</a></li>
@@ -141,7 +141,7 @@ You may need to update your operating system or web browser, clear your cache or
 If you submit your photos and get an error message that we could not verify your ID, check that you are using an accepted ID type.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -150,7 +150,7 @@ If you submit your photos and get an error message that we could not verify your
     >
       Accepted ID types
     </button>
-  </h4>
+  </h3>
   <div id="id-types-accordion" class="usa-accordion__content usa-prose">
     <p><strong>Login.gov accepts these ID types:</strong></p>
     <ul>

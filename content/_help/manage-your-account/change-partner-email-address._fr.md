@@ -15,7 +15,7 @@ Login.gov vous permet de choisir l’adresse e-mail que vous communiquez à chaq
 Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en supprimer d’autres qui sont associées à votre compte Login.gov. Rendez-vous sur la page [Modifier l'adresse e-mail associée à votre compte](/fr/help/manage-your-account/change-your-email-address/) pour plus d’informations.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h1 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -24,7 +24,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
     >
       Comment puis-je gérer quelle adresse e-mail est communiquée à un organisme partenaire lorsque je m'inscris auprès d'un nouvel organisme partenaire ?
     </button>
-  </h4>
+  </h1>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Login.gov vous demandera de communiquer votre adresse e-mail à un organisme partenaire une fois que vous vous serez inscrit auprès d'un nouvel organisme partenaire pour la première fois. Vous avez la possibilité de modifier l'adresse e-mail qui est communiquée au cours de cette étape.</p>
 
@@ -52,7 +52,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h1 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -61,7 +61,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
     >
       Comment puis-je choisir quelle adresse e-mail est communiquée à un organisme partenaire après avoir confirmé mon identité ?
     </button>
-  </h4>
+  </h1>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>Login.gov vous demandera de communiquer votre adresse e-mail et d’autres renseignements nécessaires une fois que vous aurez confirmé votre identité auprès d'une agence partenaire. Vous avez la possibilité de modifier l'adresse e-mail qui est communiquée au cours de cette étape.</p>
 
@@ -89,7 +89,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h1 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -98,7 +98,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
     >
       Comment puis-je choisir quelle adresse e-mail est communiquée à un organisme partenaire auprès duquel je me suis connecté ?
     </button>
-  </h4>
+  </h1>
   <div id="b-a3" class="usa-accordion__content usa-prose">
     <p>Vous pouvez gérer toutes les adresses e-mail que vous communiquez à chaque organisme partenaire sur la page « Vos comptes connectés ».</p>
 

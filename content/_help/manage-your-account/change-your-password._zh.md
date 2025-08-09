@@ -33,7 +33,7 @@ order: 3
 1. 点击“更改密码”键。
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -42,7 +42,7 @@ order: 3
     >
       如果你有个人密钥（已验证你的身份），如何重置密码
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     你重设密码时，需要个人密钥来访问自己的信息。
 

@@ -26,7 +26,7 @@ redirect_from:
 * No perderá la información que haya guardado en las agencias asociadas, pero tendrá que crear una nueva cuenta de Login.gov.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -35,7 +35,7 @@ redirect_from:
     >
       Si tiene acceso a sus métodos de autenticación, siga estos pasos para eliminar su cuenta:
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
       <li>Ingrese su dirección de correo electrónico en <a href="https://secure.login.gov/es">https://secure.login.gov</a>.</li>
@@ -50,7 +50,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -59,7 +59,7 @@ redirect_from:
     >
       Si NO tiene acceso a sus métodos de autenticación, siga estos pasos para eliminar la cuenta:
     </button>
-  </h4>
+  </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>Por motivos de seguridad, Login.gov requiere un proceso de dos pasos y un período de espera de 24 horas si perdió el acceso a sus métodos de autenticación y necesita eliminar su cuenta.</p>
     <ol class="number-list">

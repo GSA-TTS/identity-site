@@ -27,7 +27,7 @@ redirect_from:
 * You won’t lose your information saved with partner agencies, but you will need to create a new Login.gov account
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -36,7 +36,7 @@ redirect_from:
     >
       If you do have access to your authentication methods, follow these steps to delete your account:
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
       <li>Enter your email address at <a href="https://secure.login.gov">https://secure.login.gov</a>.</li>
@@ -51,7 +51,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -60,7 +60,7 @@ redirect_from:
     >
       Follow these steps to delete your account if you do NOT have access to your authentication methods:
     </button>
-  </h4>
+  </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>As a security measure, Login.gov requires a two-step process and 24 hour waiting period if you have lost access to your authentication methods and need to delete your account.</p>
     <ol class="number-list">

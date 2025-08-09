@@ -38,7 +38,7 @@ order: 1
 你重设密码时，需要个人密钥来访问自己的信息。
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -47,7 +47,7 @@ order: 1
     >
       如果你有个人密钥，如何重设密码
     </button>
-  </h4>
+  </h3>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
       <li>重设密码后，请用新密码登录。</li>

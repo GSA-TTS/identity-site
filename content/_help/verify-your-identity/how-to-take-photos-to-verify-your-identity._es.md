@@ -95,7 +95,7 @@ Si la herramienta de la cámara de Login.gov para tomar una fotografía de su id
 Si necesita actualizar el sistema operativo o navegador web, borre la memoria caché o las cookies, o dé a Login.gov permiso para usar la cámara.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -104,7 +104,7 @@ Si necesita actualizar el sistema operativo o navegador web, borre la memoria ca
     >
       Para teléfonos o tabletas iOS
     </button>
-  </h4>
+  </h3>
   <div id="ios-accordion" class="usa-accordion__content usa-prose">
     <ul>
       <li><a href="https://support.apple.com/en-us/118575" class="external-link">Actualice el dispositivo iOS a la versión más reciente.</a></li>
@@ -115,7 +115,7 @@ Si necesita actualizar el sistema operativo o navegador web, borre la memoria ca
   </div>
 </div>
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -124,7 +124,7 @@ Si necesita actualizar el sistema operativo o navegador web, borre la memoria ca
     >
       Para teléfonos o tabletas Android
     </button>
-  </h4>
+  </h3>
   <div id="android-accordion" class="usa-accordion__content usa-prose">
     <ul>
       <li><a href="https://support.google.com/android/answer/7680439?hl=en" class="external-link">Actualice el dispositivo Android a la versión más reciente.</a></li>
@@ -140,7 +140,7 @@ Si necesita actualizar el sistema operativo o navegador web, borre la memoria ca
 Si envía sus fotos y recibe un mensaje de error que indica que su identificación no se pudo verificar, asegúrese de que está usando un tipo identificación aceptable.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -149,7 +149,7 @@ Si envía sus fotos y recibe un mensaje de error que indica que su identificaci�
     >
       Tipos de identificación aceptables
     </button>
-  </h4>
+  </h3>
   <div id="id-types-accordion" class="usa-accordion__content usa-prose">
     <p><strong>Login.gov acepta estos tipos de identificación:</strong></p>
     <ul>

@@ -36,7 +36,7 @@ Face or touch unlock has different experiences for mobile and desktop.
 After setting a device nickname, please follow the appropriate steps below, depending on which device you are using to create your account.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -45,7 +45,7 @@ After setting a device nickname, please follow the appropriate steps below, depe
     >
       Mobile devices
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>
       With compatible devices, instead of picking an option between using “This device” or “Phone or tablet”, after clicking continue, you will see the opportunity to authenticate by using your device screen lock. This could be face or touch, such as with Apple’s TouchID/FaceID, or it could be a PIN number.
@@ -54,7 +54,7 @@ After setting a device nickname, please follow the appropriate steps below, depe
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -63,7 +63,7 @@ After setting a device nickname, please follow the appropriate steps below, depe
     >
       Desktop computers
     </button>
-  </h4>
+  </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>
       After creating your device nickname, you will see a pop-up appear immediately after clicking Continue. (Only in compatible browsers, such as Chrome, Safari, and Edge)

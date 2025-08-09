@@ -12,7 +12,7 @@ redirect_from:
 ## Questions fréquemment posées sur le déverrouillage facial ou tactile
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -21,7 +21,7 @@ redirect_from:
     >
       Je ne parviens pas à configurer le déverrouillage facial ou tactile ou à me connecter à l’aide de cette méthode.
     </button>
-  </h4>
+  </h3>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Le déverrouillage facial ou tactile fonctionne mieux avec les appareils et navigateurs suivants, en particulier avec des combinaisons identiques entre l'appareil et le navigateur. Si vous utilisez Firefox et ne pouvez pas vous authentifier avec le déverrouillage facial ou tactile, utilisez Safari si vous utilisez un appareil Apple ou Chrome si vous utilisez un appareil Windows ou Android.</p>
     <ul>
@@ -48,7 +48,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -57,7 +57,7 @@ redirect_from:
     >
       Je reçois un message concernant un PIN, un schéma, un QR code, une clé de sécurité ou une clé d'accès. Je ne sais pas de quoi il s'agit et/ou je ne me souviens pas d'avoir configuré cela.
     </button>
-  </h4>
+  </h3>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>En fonction de la combinaison appareil-navigateur dont vous disposez, il se peut que vous receviez un message concernant un PIN, un schéma, un QR code, une clé de sécurité ou une clé d'accès :</p>
     <ul>
@@ -71,7 +71,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -80,7 +80,7 @@ redirect_from:
     >
       Je ne sais pas ce que signifie « synchronisation dans le cloud », ni en quoi c’est lié au déverrouillage facial ou tactile.
     </button>
-  </h4>
+  </h3>
   <div id="b-a3" class="usa-accordion__content usa-prose">
     <p>L'activation de la synchronisation dans le cloud sur votre appareil vous permet de vous connecter à l'aide du déverrouillage facial ou tactile sur différents appareils. La synchronisation dans le cloud enregistre votre identifiant de déverrouillage facial ou tactile dans un gestionnaire de mots de passe tel que iCloud Keychain, Windows Hello ou 1Password. Vous pouvez ainsi accéder à votre identifiant sur n'importe quel appareil que vous possédez qui est connecté au cloud.</p>
     <p>Pour en savoir plus sur la configuration de la synchronisation dans le cloud, veuillez consulter la page d'assistance de votre plateforme.</p>
@@ -88,7 +88,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -97,7 +97,7 @@ redirect_from:
     >
       J'ai perdu mon téléphone ou j'en ai changé, et maintenant je ne peux plus utiliser le déverrouillage facial ou tactile pour me connecter.
     </button>
-  </h4>
+  </h3>
   <div id="b-a4" class="usa-accordion__content usa-prose">
     <p>Le déverrouillage facial ou tactile fonctionne uniquement sur l'appareil sur lequel vous l'avez initialement configuré, à moins que vous ne configuriez le déverrouillage facial ou tactile sur un appareil et un navigateur plus récents qui prennent en charge les clés d’accès et que la synchronisation Bluetooth ou sur le cloud entre vos comptes ne soit activée. L'activation de la synchronisation Bluetooth ou sur le cloud permet de partager vos identifiants de déverrouillage facial ou tactile entre vos appareils.</p>
     <p>Si le déverrouillage facial ou tactile est lié à un appareil auquel vous n'avez plus accès, vous pourriez avoir besoin de supprimer votre compte et d’en créer un nouveau. Si vous avez besoin d’aide, veuillez nous contacter.</p>
@@ -106,7 +106,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -115,7 +115,7 @@ redirect_from:
     >
       Le déverrouillage facial ou tactile ne fonctionne pas
     </button>
-  </h4>
+  </h3>
   <div id="b-a5" class="usa-accordion__content usa-prose">
     <p>Vous pouvez utiliser le déverrouillage facial ou tactile sur plusieurs appareils si votre appareil et votre navigateur prennent en charge la synchronisation dans le cloud. Sinon, le déverrouillage facial ou tactile ne fonctionne que sur l'appareil et le navigateur où vous l'avez configuré.</p>
     <ul>

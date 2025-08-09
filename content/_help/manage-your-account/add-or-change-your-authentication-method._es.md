@@ -26,7 +26,7 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
 7. Siga todas las indicaciones para confirmar sus cambios.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -35,7 +35,7 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
     >
       ¿Puedo desactivar el segundo método de autenticación?
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Login.gov no le permite desactivar la autenticación de dos factores, pero usted puede configurar la función “Recordar navegador” en su navegador. Con la función “Recordar navegador”, puede iniciar sesión sin ingresar un código de seguridad si mantiene abierta la ventana del navegador. Si cierra la ventana del navegador, se le pedirá que renueve su navegador siguiendo los pasos habituales para la autenticación de dos factores y seleccionando “Recordar navegador”.</p>
 
@@ -48,7 +48,7 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -57,7 +57,7 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
     >
       ¿Por qué sigo recibiendo solicitudes de autenticación después de configurar la función “Recordar navegador”?
     </button>
-  </h4>
+  </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <ul>
       <li>Hace 30 días que configuró la función “Recordar navegador”. La función “Recordar navegador” dura 30 días, después de los cuales usted debe autenticarse de nuevo. Puede activar la función de nuevo, pero solo después de haberse autenticado con su métodos de autenticación.</li>

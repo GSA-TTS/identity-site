@@ -37,7 +37,7 @@ order: 1
 设备昵称设好后，请根据你设立帐户所使用的是哪个设备，按照以下相应步骤操作。
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -46,7 +46,7 @@ order: 1
     >
       移动设备
     </button>
-  </h4>
+  </h3>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>
       对于兼容的设备，无需在“此设备”或“手机或平板电脑”之间选择；点击“继续”后，你将有机会使用设备屏幕锁定进行身份证实。这可以是人脸或触摸，例如苹果的 TouchID/FaceID，也可以是 PIN 码。
@@ -55,7 +55,7 @@ order: 1
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -64,7 +64,7 @@ order: 1
     >
       台式电脑
     </button>
-  </h4>
+  </h3>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>
       设备昵称设好后，点击“继续”后会立即弹出一个窗口。（仅限兼容的浏览器，例如 Chrome、Safari 和 Edge）

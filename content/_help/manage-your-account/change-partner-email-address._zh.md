@@ -15,7 +15,7 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
 你可以往你的 Login.gov 账户上添加多个电邮地址，也可以删除与你 Login.gov 账户相关的任何电邮地址。请到[更改与你账户相关的电邮地址页面](/zh/help/manage-your-account/change-your-email-address/)了解更多信息。
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h1 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -24,7 +24,7 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
     >
       当我登录新的合作伙伴网站后，如何管理与其分享哪个电邮？
     </button>
-  </h4>
+  </h1>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>你首次登录任何新合作伙伴机构网站后， Login.gov 会请你与合作伙伴机构分享你的电邮地址。在这一步你有更改分享哪个电邮的选项。</p>
 
@@ -52,7 +52,7 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h1 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -61,7 +61,7 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
     >
       我验证了身份后，如何选择与合作伙伴机构分享哪个电邮？
     </button>
-  </h4>
+  </h1>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>你为一个合作伙伴机构验证了身份后，Login.gov 会请你分享电邮地址和其他必要信息。在这一步你有更改分享哪个电邮的选项。</p>
 
@@ -89,7 +89,7 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h1 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -98,7 +98,7 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
     >
       我如何选择把哪个电邮与一个已连接的合作伙伴机构分享？
     </button>
-  </h4>
+  </h1>
   <div id="b-a3" class="usa-accordion__content usa-prose">
     <p>你可以在“你已连接的账户”页面，管理你与每个已连接的合作伙伴机构分享的所有电邮。</p>
 

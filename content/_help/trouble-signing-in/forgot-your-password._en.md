@@ -46,7 +46,7 @@ redirect_from:
 When you reset your password, you’ll need your personal key to access your information.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -55,7 +55,7 @@ When you reset your password, you’ll need your personal key to access your inf
     >
       How to reset your password if you have a personal key
     </button>
-  </h4>
+  </h3>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>When you reset your password, you’ll need your personal key to access your information.</p>
 

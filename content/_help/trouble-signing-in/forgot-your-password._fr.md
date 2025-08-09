@@ -40,7 +40,7 @@ redirect_from:
 8. Cliquez sur le bouton «  Changer le mot de passe  ».
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -49,7 +49,7 @@ redirect_from:
     >
       Comment réinitialiser votre mot de passe si vous disposez d’une clé personnelle
     </button>
-  </h4>
+  </h3>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Lorsque vous réinitialisez votre mot de passe, vous avez besoin de votre clé personnelle pour accéder à vos informations.</p>
     <ol class="number-list">

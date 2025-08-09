@@ -26,7 +26,7 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
 7. Suivez toutes les instructions pour confirmer vos modifications.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -35,7 +35,7 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
     >
       Puis-je désactiver la deuxième méthode d'authentification ?
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Login.gov ne vous autorise pas à désactiver l'authentification à deux facteurs, mais vous pouvez configurer la fonction « Se souvenir de ce navigateur » sur votre navigateur. « Se souvenir de ce navigateur » vous permet de vous connecter sans saisir de code de sécurité si vous maintenez le fenêtre de navigation ouverte. Si vous fermez la fenêtre du navigateur, vous devrez renouveler votre navigateur en suivant les étapes normales d’authentification à deux facteurs et en sélectionnant « Se souvenir de ce navigateur ».</p>
 
@@ -48,7 +48,7 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -57,7 +57,7 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
     >
       Pourquoi est-ce que je reçois des demandes d’authentification après avoir cliqué sur « Se souvenir de ce navigateur »
     </button>
-  </h4>
+  </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <ul>
       <li>Il y a 30 jours que vous avez activé la fonction « Se souvenir de ce navigateur » : La fonction « Se souvenir de ce navigateur » reste active pendant 30 jours ; vous devez vous authentifier à nouveau une fois ce délai écoulé. Vous pourrez à nouveau activer « Se souvenir de ce navigateur » après vous être authentifié avec votre méthode habituelle.</li>

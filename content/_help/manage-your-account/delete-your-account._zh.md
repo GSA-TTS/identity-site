@@ -19,7 +19,7 @@ order: 6
 * 你不会失去存在合作伙伴机构的信息，但你需要设立一个新的 Login.gov 账户。
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -28,7 +28,7 @@ order: 6
     >
       如果你能使用自己的身份证实方法，请按照以下步骤删除你的账户：
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
       <li>在 <a href="https://secure.login.gov/zh">https://secure.login.gov</a> 输入你的电邮地址。</li>
@@ -43,7 +43,7 @@ order: 6
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -52,7 +52,7 @@ order: 6
     >
       如果你不能使用自己的身份证实方法，请按照以下步骤删除你的账户：
     </button>
-  </h4>
+  </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>如果你丢失了身份证实方法，需要删除账户，作为保安措施，Login.gov 要求你走一个有两个步骤的流程并等待 24 小时。</p>
     <ol class="number-list">

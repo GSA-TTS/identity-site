@@ -40,7 +40,7 @@ redirect_from:
 8. Haga clic en el botón “Cambiar contraseña”.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -49,7 +49,7 @@ redirect_from:
     >
       Cómo restablecer su contraseña si tiene una clave personal
     </button>
-  </h4>
+  </h3>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Cuando restablezca su contraseña, necesitará su clave personal para acceder a su información.</p>
     <ol class="number-list">

@@ -27,7 +27,7 @@ order: 5
 7. 按照所有提示来确认你做的更改。
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -36,7 +36,7 @@ order: 5
     >
       我可以关闭第二种身份证实方法吗？
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Login.gov 不允许你关闭双重身份证实，但你可以在浏览器中设置“记住浏览器”功能。如果你保持浏览器窗口打开，“记住浏览器”让你无需输入安全代码即可登录。如果你关闭了浏览器窗口，则需要通过常规的双重身份证实步骤并选择“记住浏览器”来更新浏览器。</p>
 
@@ -49,7 +49,7 @@ order: 5
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -58,7 +58,7 @@ order: 5
     >
       为什么我在设置“记住浏览器”后仍然收到身份证实要求
     </button>
-  </h4>
+  </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <ul>
       <li>你在 30 天前设置了“记住浏览器”：“记住浏览器”功能有效期为 30 天，之后你需要重新进行身份证实。你可以再次启用“记住浏览器”，但必须是在使用你的身份证实方法进行身份证实后才行。</li>

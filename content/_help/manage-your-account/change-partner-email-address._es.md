@@ -15,7 +15,7 @@ Login.gov le permite controlar cuál dirección de correo electrónico se propor
 Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov y eliminar cualquier dirección de correo electrónico asociada con su cuenta de Login.gov. Obtenga más información en la página [“Cambie la dirección de correo electrónico asociada con su cuenta”](/es/help/manage-your-account/change-your-email-address/).
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h1 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -24,7 +24,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
     >
       ¿Cómo controlo cuál correo electrónico se proporciona al iniciar sesión en una agencia nueva?
     </button>
-  </h4>
+  </h1>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Login.gov le pedirá que proporcione su dirección de correo electrónico a una agencia asociada después de que inicie sesión por primera vez en esa agencia. En este paso, tiene la opción de cambiar el correo electrónico que proporciona.</p>
 
@@ -52,7 +52,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h1 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -61,7 +61,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
     >
       ¿Cómo selecciono cuál correo electrónico se proporciona a una agencia asociada después de verificar mi identidad?
     </button>
-  </h4>
+  </h1>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>Login.gov le pedirá que proporcione su dirección de correo electrónico y otra información necesaria después de que usted verifique su identidad para una agencia asociada. En este paso, tiene la opción de cambiar el correo electrónico que proporciona.</p>
 
@@ -89,7 +89,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h1 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -98,7 +98,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
     >
       ¿Cómo selecciono cuál correo electrónico puedo proporcionar a una agencia asociada con la que me conecté?
     </button>
-  </h4>
+  </h1>
   <div id="b-a3" class="usa-accordion__content usa-prose">
     <p>En la página “Sus cuentas conectadas”, puede ver todas las direcciones de correo electrónico que ha proporcionado a cada agencia asociada con la que está conectado.</p>
 

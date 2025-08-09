@@ -12,7 +12,7 @@ redirect_from:
 ## Preguntas frecuentes acerca del desbloqueo facial o táctil
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -21,7 +21,7 @@ redirect_from:
     >
       Tengo problemas para configurar o para iniciar sesión con el desbloqueo facial o táctil.
     </button>
-  </h4>
+  </h3>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>El desbloqueo facial o táctil funciona mejor en los siguientes dispositivos y navegadores, especialmente con combinaciones compatibles de dispositivo y navegador. Si está usando Firefox y no puede autenticarse con el desbloqueo facial o táctil, cambie a Safari si utiliza un dispositivo Apple, o a Chrome si utiliza un dispositivo Windows o Android.</p>
     <ul>
@@ -48,7 +48,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -57,7 +57,7 @@ redirect_from:
     >
       Recibo un mensaje sobre un PIN, patrón, código QR, clave de seguridad o clave de paso. No sé a qué se refiere, ni recuerdo haberlo configurado.
     </button>
-  </h4>
+  </h3>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>Según la combinación de dispositivo y navegador, es posible que reciba un mensaje sobre un PIN, patrón, código QR, clave de seguridad o clave de paso:</p>
     <ul>
@@ -71,7 +71,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -80,7 +80,7 @@ redirect_from:
     >
       No sé qué significa “sincronización en la nube” ni cómo se relaciona con el desbloqueo facial o táctil.
     </button>
-  </h4>
+  </h3>
   <div id="b-a3" class="usa-accordion__content usa-prose">
     <p>Si activa la sincronización en la nube en su dispositivo, podrá iniciar sesión utilizando el desbloqueo facial o táctil en varios dispositivos. La sincronización en la nube guarda sus credenciales de desbloqueo facial o táctil en un administrador de contraseñas, como iCloud Keychain, Windows Hello o 1Password. De este modo, puede acceder a su credencial en cualquier dispositivo que posea y que esté conectado a la nube.</p>
     <p>Para obtener más información sobre la configuración de la sincronización en la nube, consulte la página de asistencia de su plataforma.</p>
@@ -88,7 +88,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -97,7 +97,7 @@ redirect_from:
     >
       Perdí mi teléfono o tengo uno nuevo, y ahora no puedo usar el desbloqueo facial o táctil para iniciar sesión.
     </button>
-  </h4>
+  </h3>
   <div id="b-a4" class="usa-accordion__content usa-prose">
     <p>El desbloqueo facial o táctil solo funcionará en el dispositivo original en el que lo configuró, a menos que lo configure en un dispositivo y un navegador más recientes que admitan claves de paso, y que tengan habilitada la sincronización de Bluetooth o en la nube entre sus cuentas. Tener habilitada la sincronización de Bluetooth o en la nube le permite usar su credencial de desbloqueo facial o táctil de manera compartida entre sus dispositivos.</p>
     <p>Si el desbloqueo facial o táctil está vinculado a su dispositivo y ya no tiene acceso a ese dispositivo en particular, es posible que tenga que eliminar su cuenta y crear una nueva. Contacte con nosotros si necesita ayuda.</p>
@@ -106,7 +106,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -115,7 +115,7 @@ redirect_from:
     >
       El desbloqueo facial o táctil no funciona
     </button>
-  </h4>
+  </h3>
   <div id="b-a5" class="usa-accordion__content usa-prose">
     <p>Si su dispositivo y navegador admiten la sincronización en la nube, puede utilizar el desbloqueo facial o táctil en varios dispositivos. De lo contrario, el desbloqueo facial o táctil solo funciona en el mismo dispositivo y navegador donde lo configuró.</p>
     <ul>

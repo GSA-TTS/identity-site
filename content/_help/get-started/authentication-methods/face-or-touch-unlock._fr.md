@@ -36,7 +36,7 @@ L’expérience utilisateur n’est pas la même sur un appareil mobile que sur 
 Après avoir donné un surnom à votre appareil, veuillez suivre les étapes ci-dessous, selon l’appareil que vous utilisez pour créer votre compte.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -45,7 +45,7 @@ Après avoir donné un surnom à votre appareil, veuillez suivre les étapes ci-
     >
       Appareils mobiles
     </button>
-  </h4>
+  </h3>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>
       Avec des appareils compatibles, au lieu de devoir choisir entre utiliser « Cet appareil » ou un « Téléphone ou tablette », après avoir cliqué sur « Suite », vous pourrez vous authentifier en utilisant le verrouillage de l'écran de votre appareil. Il peut s’agir du déverrouillage facial ou tactile, comme avec Apple TouchID/FaceID, ou d’un code PIN.
@@ -54,7 +54,7 @@ Après avoir donné un surnom à votre appareil, veuillez suivre les étapes ci-
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -63,7 +63,7 @@ Après avoir donné un surnom à votre appareil, veuillez suivre les étapes ci-
     >
       Ordinateurs de bureau
     </button>
-  </h4>
+  </h3>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>
       Après avoir attribué un surnom à votre appareil, cliquez sur « Suite » et une fenêtre contextuelle s’affichera immédiatement (uniquement sur des navigateurs compatibles comme Chrome, Safari et Edge).

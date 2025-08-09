@@ -26,7 +26,7 @@ redirect_from:
 * Vous ne perdrez pas vos renseignements sauvegardés auprès d’organismes partenaires, mais devrez créer un nouveau compte Login.gov
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -35,7 +35,7 @@ redirect_from:
     >
       Si vous avez accès à vos méthodes d’authentification, suivez les étapes suivantes pour supprimer votre compte :
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
       <li>Saisissez votre adresse e-mail sur <a href="https://secure.login.gov/fr">https://secure.login.gov</a>.</li>
@@ -50,7 +50,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -59,7 +59,7 @@ redirect_from:
     >
       Si vous n’avez PAS accès à vos méthodes d’authentification, suivez les étapes ci-dessous pour supprimer votre compte :
     </button>
-  </h4>
+  </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>Si vous avez perdu l’accès à vos méthodes d’authentification et voulez supprimer votre compte, par mesure de sécurité, Login.gov exige un processus en deux étapes et une période d’attente de 24 heures.</p>
     <ol class="number-list">

@@ -12,7 +12,7 @@ redirect_from:
 ## Commonly asked questions for face or touch unlock
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -21,7 +21,7 @@ redirect_from:
     >
       I’m having trouble setting up or signing in with face or touch unlock.
     </button>
-  </h4>
+  </h3>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Face or touch unlock works best on the following devices and browsers, especially with combinations that match between device and browser. If you are using Firefox and cannot authenticate with face or touch unlock, switch to using Safari if on an Apple device or Chrome if on a Windows or Android device.</p>
     <ul>
@@ -50,7 +50,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -59,7 +59,7 @@ redirect_from:
     >
       I’m getting a message about a PIN, pattern, QR code, security key, or passkey. I don’t know what this is and/or I don’t remember setting this up.
     </button>
-  </h4>
+  </h3>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>Depending on your device and browser combination, you may get a message about a PIN, pattern, QR code, security key, or passkey:</p>
     <ul>
@@ -73,7 +73,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -82,7 +82,7 @@ redirect_from:
     >
       I don’t know what “cloud sync” means or how it relates to Face or touch unlock.
     </button>
-  </h4>
+  </h3>
   <div id="b-a3" class="usa-accordion__content usa-prose">
     <p>Enabling cloud sync on your device allows you to sign in using face or touch unlock on different devices. Cloud syncing saves your face or touch unlock credentials to a password manager such as iCloud Keychain, Windows Hello, or 1Password. In doing so, you’re able to access your credential on any device you own that is connected to the cloud.</p>
     <p>To learn more about setting up cloud sync, please check out your platform’s support page.</p>
@@ -90,7 +90,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -99,7 +99,7 @@ redirect_from:
     >
       I lost my phone or got a new phone, and now I can’t use face or touch unlock to sign in.
     </button>
-  </h4>
+  </h3>
   <div id="b-a4" class="usa-accordion__content usa-prose">
     <p>Face or touch unlock will only work on the original device you set it up with unless you set up face or touch unlock on a newer device and browser that supports passkeys, and has bluetooth or cloud sync between your accounts enabled. Having bluetooth or cloud sync enabled allows your face or touch unlock credential to be shared between your devices.</p>
     <p>If face or touch unlock is tied to your device and you don’t have access to that particular device any longer, you may need to delete your account and create a new one. Please contact us if you need assistance.</p>
@@ -108,7 +108,7 @@ redirect_from:
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -117,7 +117,7 @@ redirect_from:
     >
       Face or touch unlock isn’t working
     </button>
-  </h4>
+  </h3>
   <div id="b-a5" class="usa-accordion__content usa-prose">
     <p>If your device and browser supports cloud sync, you can use face or touch unlock on multiple devices. Otherwise, face or touch unlock only works on the same device and browser where you set it up.</p>
     <ul>

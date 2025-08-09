@@ -36,7 +36,7 @@ Suivez les étapes ci-dessous pour changer votre mot de passe Login.gov.
 1. Cliquez sur le bouton « Changer le mot de passe ».
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -45,7 +45,7 @@ Suivez les étapes ci-dessous pour changer votre mot de passe Login.gov.
     >
       Comment réinitialiser votre mot de passe si vous disposez d’une clé personnelle (vous avez confirmé votre identité)
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     Lorsque vous réinitialisez votre mot de passe, vous avez besoin de votre clé personnelle pour accéder à vos informations.
 

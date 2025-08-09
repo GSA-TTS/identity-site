@@ -37,7 +37,7 @@ El desbloqueo facial o táctil funciona de manera diferente en un dispositivo m�
 Después de configurar el alias del dispositivo, siga los pasos que se indican a continuación, según el dispositivo que esté usando para crear su cuenta.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -46,7 +46,7 @@ Después de configurar el alias del dispositivo, siga los pasos que se indican a
     >
       Dispositivos móviles
     </button>
-  </h4>
+  </h3>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>
       Con los dispositivos compatibles, en lugar de elegir entre la opción de usar “Este dispositivo” o “Usar un teléfono o tableta”, después de hacer clic en “Continuar”, tendrá la oportunidad de autenticarse usando el desbloqueo de pantalla de su dispositivo. Esto podría ser un desbloqueo facial o táctil, como TouchID o FaceID de Apple, o un número de identificación personal (PIN).
@@ -55,7 +55,7 @@ Después de configurar el alias del dispositivo, siga los pasos que se indican a
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -64,7 +64,7 @@ Después de configurar el alias del dispositivo, siga los pasos que se indican a
     >
       Computadoras de escritorio
     </button>
-  </h4>
+  </h3>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>
       Después de crear el alias de su dispositivo y de hacer clic en “Continuar”, aparecerá una ventana emergente (solo en los navegadores compatibles, como Chrome, Safari y Edge).

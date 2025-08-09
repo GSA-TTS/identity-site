@@ -95,7 +95,7 @@ redirect_from:
 你可能需要更新你的操作系统或网络浏览器，清除缓存或魔饼，或者授权 Login.gov 使用相机。
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -104,7 +104,7 @@ redirect_from:
     >
       如果你用的是 iOS 手机或平板电脑
     </button>
-  </h4>
+  </h3>
   <div id="ios-accordion" class="usa-accordion__content usa-prose">
     <ul>
       <li><a href="https://support.apple.com/en-us/118575" class="external-link">更新至最新版本的 iOS 系统</a></li>
@@ -115,7 +115,7 @@ redirect_from:
   </div>
 </div>
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -124,7 +124,7 @@ redirect_from:
     >
       如果你用的是安卓手机或平板电脑
     </button>
-  </h4>
+  </h3>
   <div id="android-accordion" class="usa-accordion__content usa-prose">
     <ul>
       <li><a href="https://support.google.com/android/answer/7680439?hl=en" class="external-link">更新至最新版本的安卓系统</a></li>
@@ -140,7 +140,7 @@ redirect_from:
 如果你提交照片，收到一条出错信息，说我们无法验证你的 ID，请检查一下你使用的 ID 是否是可接受的类型。
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -149,7 +149,7 @@ redirect_from:
     >
       可接受的 ID 类型
     </button>
-  </h4>
+  </h3>
   <div id="id-types-accordion" class="usa-accordion__content usa-prose">
     <p><strong>Login.gov 接受以下类型的 ID ：</strong></p>
     <ul>

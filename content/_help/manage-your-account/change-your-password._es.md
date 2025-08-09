@@ -36,7 +36,7 @@ Siga estos pasos para cambiar su contraseña de Login.gov.
 1. Haga clic en el botón “Cambiar contraseña”.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -45,7 +45,7 @@ Siga estos pasos para cambiar su contraseña de Login.gov.
     >
       Cómo restablecer su contraseña si tiene una clave personal (que recibió cuando verificó su identidad)
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     Cuando restablezca su contraseña, necesitará su clave personal para acceder a su información.
 

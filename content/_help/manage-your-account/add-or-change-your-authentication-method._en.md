@@ -29,7 +29,7 @@ If you lost your authentication method and do not have a backup connected to you
 7. Follow all prompts to confirm your changes.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -38,7 +38,7 @@ If you lost your authentication method and do not have a backup connected to you
     >
       Can I turn off the second authentication method?
     </button>
-  </h4>
+  </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Login.gov does not allow you to turn off two-factor authentication, but you can set up the “remember browser” feature on your browser. “Remember browser” allows you to sign in without entering a security code if you keep the browser window open. If you close the browser window, you will be required to renew your browser by going through the normal two-factor authentication steps and selecting “remember browser.”</p>
 
@@ -51,7 +51,7 @@ If you lost your authentication method and do not have a backup connected to you
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h2 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -60,7 +60,7 @@ If you lost your authentication method and do not have a backup connected to you
     >
       Why am I still receiving requests to authenticate after setting up “remember browser”
     </button>
-  </h4>
+  </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <ul>
       <li>You set up “remember browser” 30 days ago: The “remember browser” feature lasts for 30 days, after which you are required to authenticate again. You can enable “remember browser” again, but only after you authenticate using your authentication method.</li>

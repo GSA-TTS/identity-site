@@ -17,7 +17,7 @@ Login.gov allows you to control which email address is shared with each partner 
 You can add multiple email addresses to your Login.gov account and you can delete any email address associated with your Login.gov account. Go to the [Change the email address associated with your account page](/help/manage-your-account/change-your-email-address/) to learn more.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h1 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -26,7 +26,7 @@ You can add multiple email addresses to your Login.gov account and you can delet
     >
       How do I manage which email gets shared when signing in to a new partner agency?
     </button>
-  </h4>
+  </h1>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Login.gov will ask you to share your email address with a partner agency after you sign in to a new partner agency for the first time. You have the option to change which email is shared during this step.</p>
 
@@ -54,7 +54,7 @@ You can add multiple email addresses to your Login.gov account and you can delet
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h1 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -63,7 +63,7 @@ You can add multiple email addresses to your Login.gov account and you can delet
     >
       How do I choose which email gets shared with a partner agency after I verify my identity?
     </button>
-  </h4>
+  </h1>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>Login.gov will ask you to share your email address and other required information after you verify your identity for a partner agency. You have the option to change which email is shared during this step.</p>
 
@@ -91,7 +91,7 @@ You can add multiple email addresses to your Login.gov account and you can delet
 </div>
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h1 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -100,7 +100,7 @@ You can add multiple email addresses to your Login.gov account and you can delet
     >
       How do I choose which email gets shared with a partner agency I connected with?
     </button>
-  </h4>
+  </h1>
   <div id="b-a3" class="usa-accordion__content usa-prose">
     <p>You can manage all the emails you are sharing with each connected partner agency on the “Your connected accounts” page.</p>
 

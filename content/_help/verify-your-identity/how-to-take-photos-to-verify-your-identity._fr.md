@@ -95,7 +95,7 @@ Si l’outil caméra de Login.gov permettant de prendre une photo de votre pièc
 Il est possible que vous deviez mettre à jour votre système d’exploitation ou votre navigateur web, vider votre cache ou supprimer vos cookies, ou autoriser Login.gov à utiliser la caméra.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -104,7 +104,7 @@ Il est possible que vous deviez mettre à jour votre système d’exploitation o
     >
       Pour les téléphones ou tablettes iOS
     </button>
-  </h4>
+  </h3>
   <div id="ios-accordion" class="usa-accordion__content usa-prose">
     <ul>
       <li><a href="https://support.apple.com/en-us/118575" class="external-link">Installez la dernière version d’iOS</a></li>
@@ -115,7 +115,7 @@ Il est possible que vous deviez mettre à jour votre système d’exploitation o
   </div>
 </div>
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -124,7 +124,7 @@ Il est possible que vous deviez mettre à jour votre système d’exploitation o
     >
       Pour les téléphones ou tablettes Android
     </button>
-  </h4>
+  </h3>
   <div id="android-accordion" class="usa-accordion__content usa-prose">
     <ul>
       <li><a href="https://support.google.com/android/answer/7680439?hl=en" class="external-link">Installez la dernière version d’Android</a></li>
@@ -140,7 +140,7 @@ Il est possible que vous deviez mettre à jour votre système d’exploitation o
 Si vous envoyez vos photos et recevez un message d’erreur selon lequel nous n’avons pas pu vérifier votre pièce d’identité, assurez-vous que le type de pièce d’identité que vous utilisez est accepté.
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h4 class="usa-accordion__heading">
+  <h3 class="usa-accordion__heading">
     <button
       type="button"
       class="usa-accordion__button"
@@ -149,7 +149,7 @@ Si vous envoyez vos photos et recevez un message d’erreur selon lequel nous n�
     >
       Types de pièces d’identité acceptés
     </button>
-  </h4>
+  </h3>
   <div id="id-types-accordion" class="usa-accordion__content usa-prose">
     <p><strong>Login.gov accepte les types de pièces d’identité suivants :</strong></p>
     <ul>
