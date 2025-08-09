@@ -10,7 +10,7 @@ order: 0
 
 Login.gov 是公众与政府互动的一个账户和密码。Login.gov 是一种共享服务，享有政府机构的信任。只使用一个 Login.gov 账户，你就能访问参与该项目的政府合作伙伴的网站和应用程序。
 
-你需要一个电邮地址、一个密码和一种多重 [身份证实方法](/zh/help/help/create-account/authentication-methods/) (MFA) 来设立帐户。
+你需要一个电邮地址、一个密码和一种多重 [身份证实方法](/zh/help/create-account/authentication-methods/) (MFA) 来设立帐户。
 
 - 选择一个你永远可以使用的电邮地址（例如：个人电邮, 除非有规定，否则不要使用工作电邮）。
 - 密码必须包含12个字符。
@@ -23,6 +23,6 @@ Login.gov 要求所有用户在设立帐户和登录时使用多重身份证实�
 {: .help-question-list}
 
 * [如何设立 Login.gov 帐户](/zh/help/create-account/how-do-i-create-an-account/)
-* [如何选择正确的身份证实方法](/zh/help/help/create-account/authentication-methods/)
+* [如何选择正确的身份证实方法](/zh/help/create-account/authentication-methods/)
 * [为什么请你使用 Login.gov](/zh/what-is-login/)
 * [Login.gov 是什么?](https://www.youtube.com/watch?v=ayDtFd5Ugyk){:class="usa-link--external"}
