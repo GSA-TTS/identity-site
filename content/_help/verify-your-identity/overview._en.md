@@ -4,6 +4,16 @@ category: verify-your-identity
 permalink: /help/verify-your-identity/overview/
 order: 0
 redirect_from:
+- /help/identity-verification/i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity/
+- /help/verifying-your-identity/dont-have-a-state-issued-id/
+- /help/verify-your-identity/accepted-state-issued-identification/
+- /en/help/verify-your-identity/accepted-state-issued-identification/
+- /en/help/verify-your-identity/accepted-identification-documents/
+- /en/help/verify-your-identity/how-to-verify-your-identity/
+- /en/help/verifying-your-identity/how-to-verify-my-identity/
+- /en/help/identity-verification/how-do-i-verify-my-identity-on-logingov/
+- /help/identity-verification/how-do-i-verify-my-identity-on-logingov/
+- /help/verifying-your-identity/how-to-verify-my-identity/
 - /help/verify-your-identity/how-to-verify-your-identity/
 - /help/verify-your-identity/accepted-identification-documents/
 - /help/verify-your-identity/

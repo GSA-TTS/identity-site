@@ -4,6 +4,9 @@ category: verify-your-identity
 permalink: /zh/help/verify-your-identity/overview/
 order: 0
 redirect_from:
+  - /zh/help/verify-your-identity/accepted-state-issued-identification/
+  - /zh/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
+  - /zh/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /zh/help/verify-your-identity/accepted-identification-documents/
   - /zh/help/verify-your-identity/how-to-verify-your-identity/
 accept_id_list:

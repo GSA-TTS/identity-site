@@ -4,6 +4,11 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/overview/
 order: 0
 redirect_from:
+  - /es/help/identity-verification/i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity/
+  - /es/help/verifying-your-identity/dont-have-a-state-issued-id/
+  - /es/help/verify-your-identity/accepted-state-issued-identification/
+  - /es/help/verify-your-identity/troubleshoot-uploading-your-state-issued-id/
+  - /es/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
   - /es/help/verify-your-identity/how-to-verify-your-identity/
   - /es/help/verify-your-identity/accepted-identification-documents/
   - /es/help/verify-your-identity/
