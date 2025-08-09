@@ -19,7 +19,7 @@ Le système génère automatiquement pour vous de nouveaux codes de sauvegarde l
 
 Un délai de 24 heures devra s’écouler après la suppression de votre compte pour que vous puissiez en créer un nouveau à l’aide de la même adresse e-mail. 
 
-Veuillez consulter <https://login.gov/fr/help/manage-your-account/delete-your-account/> pour obtenir les instructions pour supprimer votre compte Login.gov, ainsi que <https://login.gov/fr/help/create-account/how-do-i-create-an-account/> pour créer un nouveau compte Login.gov.
+Veuillez consulter [Comment puis-je supprimer mon compte ?](/fr/help/manage-your-account/delete-your-account/) pour obtenir les instructions pour supprimer votre compte Login.gov, ainsi que [Comment puis-je créer un compte Login.gov](/fr/help/create-account/how-do-i-create-an-account/) pour créer un nouveau compte Login.gov.
 
 
 ## Articles connexes

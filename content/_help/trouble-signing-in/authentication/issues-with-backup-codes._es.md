@@ -19,7 +19,7 @@ La última vez que inició sesión en su cuenta, el sistema generó automáticam
 
 Después de eliminar su cuenta, tendrá que esperar 24 horas para crear otra nueva con la misma dirección de correo electrónico. 
 
-En <https://login.gov/es/help/manage-your-account/delete-your-account/>, consulte las instrucciones para eliminar su cuenta de Login.gov, y visite <https://login.gov/es/help/create-account/how-do-i-create-an-account/> para crearla de nuevo.
+En [¿Cómo elimino mi cuenta?](/es/help/manage-your-account/delete-your-account/), consulte las instrucciones para eliminar su cuenta de Login.gov, y visite [Cómo creo una cuenta de Login.gov](/es/help/create-account/how-do-i-create-an-account/) para crearla de nuevo.
 
 
 ## Otros artículos
