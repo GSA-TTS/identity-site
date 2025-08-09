@@ -56,7 +56,7 @@ logistics_accordion:
         id: b-4
         title: Can Login.gov authenticate or verify the identity of non-U.S. citizens or non-U.S. immigrants (not a U.S. citizen, U.S. national, lawful permanent resident, or traveling to the United States on an immigrant visa)?
         content: >-
-            Non-U.S. citizens and non-U.S. immigrants can authenticate with Login.gov, though select features (e.g., SMS / voice OTC for MFA) may be restricted in certain countries. Check our [International phone number support](/help/manage-your-account/international-phone-support/){:class="external-link"} for a complete list that Login.gov supports for authenticating end-users.
+            Non-U.S. citizens and non-U.S. immigrants can authenticate with Login.gov, though select features (e.g., SMS / voice OTC for MFA) may be restricted in certain countries. Check our [International phone number support](/help/trouble-signing-in/international-phone-number-support/){:class="external-link"} for a complete list that Login.gov supports for authenticating end-users.
             
             <p>Non-U.S. citizens and non-U.S. immigrants can verify their identity (i.e., “proof”) with Login.gov as long as they have a valid U.S. state-issued ID, Social Security number (SSN), and U.S. address.</p>
     -
@@ -70,7 +70,7 @@ logistics_accordion:
             - A non-driver’s license state-issued ID card
               - This is an identity document issued by the state/U.S. territory that asserts identity but does not give driving privileges.
 
-            Users cannot verify their identity on Login.gov without a state-issued ID. We’re currently working to add more ways to verify identity. <a href="https://login.gov/help/verify-your-identity/how-to-verify-your-identity/" class="external-link">Learn more about the requirements for verifying identity</a>
+            Users cannot verify their identity on Login.gov without a state-issued ID. We’re currently working to add more ways to verify identity. <a href="https://login.gov/help/verify-your-identity/overview/" class="external-link">Learn more about the requirements for verifying identity</a>
 development_accordion:
     -
         id: c-1

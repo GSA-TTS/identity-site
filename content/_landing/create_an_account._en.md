@@ -20,7 +20,7 @@ steps:
     * Passwords must be at least 12 characters and should not include commonly used words or phrases.
   step3: >
     ## 3. One or more [authentication
-    methods](/help/get-started/authentication-methods/)
+    methods](/help/create-account/authentication-methods/)
     such as:
 
 

@@ -55,7 +55,8 @@ To access your Trusted Traveler Programs account information, visit <https://ttp
 
 If you sign in directly from the Login.gov homepage, you will only see your Login.gov account information.
 
+
 ## Related articles
 
-* [Help with specific agencies](/help/specific-agencies/overview/)
-* [Relink your accounts](/help/manage-your-account/relink-your-accounts/)
+* [Help with agencies?](/help/specific-agencies/overview/)
+* [How do I relink my account with a partner agency?](/help/manage-your-account/relink-your-accounts/)

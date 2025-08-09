@@ -19,7 +19,7 @@ steps:
     * Votre mot de passe doit comporter au moins 12 caractères et ne pas comprendre de mots ou de groupes de mots courants.
   step3: >
     ## 3. Au moins une [méthode
-    d’authentification](/fr/help/get-started/authentication-methods/),
+    d’authentification](/fr/help/create-account/authentication-methods/),
     telle que :
 
     * __Plus sûrs__

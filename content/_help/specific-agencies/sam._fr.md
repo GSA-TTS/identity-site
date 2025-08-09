@@ -36,15 +36,17 @@ Veuillez contacter directement [SAM.gov](https://sam.gov/) si vous avez des ques
 
 Pour apporter des modifications à votre profil de compte SAM.gov, vous devez vous connecter sur <https://sam.gov>.
 
-Contactez le Federal Service Desk au 1-866-606-8220 (numéro payant) ou au +1 334-206-7828 (depuis l’étranger) pour obtenir de l’aide, ou envoyez votre demande par le biais du formulaire Web disponible sur [www.fsd.gov](https://www.fsd.gov/).
+Contactez le Federal Service Desk au 1-866-606-8220 (numéro payant) ou au +1 334-206-7828 (depuis l’étranger) pour obtenir de l’aide, ou envoyez votre demande par le biais du formulaire Web disponible sur <https://www.fsd.gov/>.
 
 ## Notes importantes concernant la création de votre compte Login.gov et l’accès à votre profil SAM :
+
 * Si vous avez déjà un compte SAM, utilisez, pour créer votre compte Login.gov, la même adresse e-mail que celle que vous avez utilisée pour votre compte SAM.
   * Si vous utilisez la même adresse e-mail pour créer votre profil Login.gov, vous conserverez tous vos dossiers, demandes d’accès aux données et recherches sauvegardées.
   * Si vous utilisez une nouvelle adresse e-mail, cela n’aura pas d’incidence sur votre profil SAM.gov, mais vous ne pourrez pas accéder aux informations de votre profil SAM.
 * Si vous avez déjà un compte Login.gov et souhaitez ajouter votre adresse e-mail pour SAM, vous pouvez le faire sur la page « Mon compte » de Login.gov. Sélectionnez le bouton de connexion sur la page d’accueil de Login.gov pour accéder à cette page de compte.
 
-## Related articles
+
+## Articles connexes
 
 * [Aide concernant des organismes spécifiques](/fr/help/specific-agencies/overview/)
-* [Relier vos comptes](/fr/help/manage-your-account/relink-your-accounts/)
+* [Comment puis-je associer à nouveau mon compte à un organisme partenaire ?](/fr/help/manage-your-account/relink-your-accounts/)
