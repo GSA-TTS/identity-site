@@ -15,6 +15,7 @@ function isCORSErrorOnPermittedURLs(message) {
   const { pathname } = new URL(message.location().url);
   return (
     (text.includes('CORS policy') && pathname.endsWith('/international-phone-support/')) ||
+    (text.includes('CORS policy') && pathname.endsWith('/international-phone-number-support/')) ||
     (text.includes('Failed to load resource') && pathname === '/api/country-support')
   );
 }
