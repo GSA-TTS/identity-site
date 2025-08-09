@@ -255,7 +255,7 @@ help_page:
     - title: 登录有困难
       url: /zh/help/trouble-signing-in/issues-with-authentication-methods/
     - title: Issues verifying your identity
-      url: /zh/help/verify-your-identity/how-to-verify-your-identity/
+      url: /zh/help/verify-your-identity/overview/
     - title: Help with Social Security Administration (SSA)
       url: /zh/help/specific-agencies/ssa/
     - title: Help with Trusted Traveler Programs (TTP)

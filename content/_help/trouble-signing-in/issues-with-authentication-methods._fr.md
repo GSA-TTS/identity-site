@@ -40,8 +40,7 @@ Si vous ne parvenez pas vous connecter avec la seule méthode d’authentificati
 
 {: .help-question-list}
 
-* [Problèmes avec le déverrouillage facial ou tactile](/fr/help/trouble-signing-in/authentication/
-face-and-touch-unlock/)
+* [Problèmes avec le déverrouillage facial ou tactile](/fr/help/trouble-signing-in/authentication/face-and-touch-unlock/)
 
 * [Problèmes avec une application d'authentification](/fr/help/trouble-signing-in/authentication/issues-with-authentication-application/)
 

@@ -265,7 +265,7 @@ help_page:
     - title: I’m having trouble authenticating
       url: /help/trouble-signing-in/issues-with-authentication-methods/
     - title: Issues verifying your identity
-      url: /help/verify-your-identity/how-to-verify-your-identity/
+      url: /help/help/verify-your-identity/overview/
     - title: Help with Social Security Administration (SSA)
       url: /help/specific-agencies/ssa/
     - title: Help with Trusted Traveler Programs (TTP)

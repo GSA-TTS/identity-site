@@ -101,7 +101,7 @@ Login.gov 与美国邮局（USPS）合作，提供在邮局亲身验证身份的
     </button>
   </h4>
   <div id="b-a4" class="usa-accordion__content usa-prose">
-    <p>你去邮局后的 24 小时内会收到来自 <a href="https://secure.login.gov/">Login.gov</a> 的一封电邮，告知你身份验证是否成功。查看你的电邮中是否有来自 <a href="mailto:no-reply@login.gov">no-reply@login.gov</a> 的一则信息。</p>
+    <p>你去邮局后的 24 小时内会收到来自 <a href="https://secure.login.gov/zh/">Login.gov</a> 的一封电邮，告知你身份验证是否成功。查看你的电邮中是否有来自 <a href="mailto:no-reply@login.gov">no-reply@login.gov</a> 的一则信息。</p>
   </div>
 </div>
 

@@ -100,7 +100,7 @@ Una vez que haya verificado su información en línea, le enviaremos por correo 
     </button>
   </h4>
   <div id="b-a4" class="usa-accordion__content usa-prose">
-    <p>Recibirá un correo electrónico de <a href="https://secure.login.gov/">Login.gov</a> en las 24 horas después de su visita a la oficina de correos para informarle si se logró o no la verificación de su identidad. Busque un mensaje de <a href="mailto:no-reply@login.gov">no-reply@login.gov</a> en su correo electrónico.</p>
+    <p>Recibirá un correo electrónico de <a href="https://secure.login.gov/es/">Login.gov</a> en las 24 horas después de su visita a la oficina de correos para informarle si se logró o no la verificación de su identidad. Busque un mensaje de <a href="mailto:no-reply@login.gov">no-reply@login.gov</a> en su correo electrónico.</p>
   </div>
 </div>
 

@@ -103,7 +103,7 @@ Login.gov 允许你控制与每个合作伙伴机构分享哪个电邮地址。�
     <p>你可以在“你已连接的账户”页面，管理你与每个已连接的合作伙伴机构分享的所有电邮。</p>
 
     <ol class="number-list">
-      <li>在<https://secure.login.gov/zh> 输入你的电邮地址。</li>
+      <li>在<a href="https://secure.login.gov/zh/">https://secure.login.gov/zh/</a> 输入你的电邮地址。</li>
       <li>输入你的密码。</li>
       <li>点击“登录”按钮。</li>
       <li>使用你设定的一个方法来进行身份证实。系统就会带你到你的账户页面。</li>

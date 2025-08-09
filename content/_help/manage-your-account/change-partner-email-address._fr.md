@@ -103,7 +103,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
     <p>Vous pouvez gérer toutes les adresses e-mail que vous communiquez à chaque organisme partenaire sur la page « Vos comptes connectés ».</p>
 
     <ol class="number-list">
-      <li>Saisissez votre adresse e-mail sur <https://secure.login.gov/fr/>.</li>
+      <li>Saisissez votre adresse e-mail sur <a href="https://secure.login.gov/fr/">https://secure.login.gov/fr/</a>.</li>
       <li>Saisissez votre mot de passe.</li>
       <li>Cliquez sur le bouton « Connexion ».</li>
       <li>Authentifiez-vous à l'aide d'une des méthodes que vous avez configurées. Vous serez dirigé vers la page de votre compte.</li>

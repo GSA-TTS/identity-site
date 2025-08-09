@@ -17,7 +17,7 @@ Pour configurer le déverrouillage facial ou tactile lors de la création d’un
 
 {: .number-list}
 
-1. Rendez-vous sur le site <https://secure.login.gov/> et cliquez sur « Créer un compte ».
+1. Rendez-vous sur le site <https://secure.login.gov/fr/> et cliquez sur « Créer un compte ».
 
 2. Saisissez votre adresse e-mail et cliquez sur « Valider ».
 

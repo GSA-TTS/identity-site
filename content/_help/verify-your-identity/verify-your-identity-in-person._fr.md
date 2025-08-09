@@ -100,7 +100,7 @@ Une fois que vos renseignements auront été confirmés en ligne, nous vous enve
     </button>
   </h4>
   <div id="b-a4" class="usa-accordion__content usa-prose">
-    <p>Vous recevrez un e-mail de <a href="https://secure.login.gov/">Login.gov</a> dans un délai de 24 heures après votre visite pour vous informer que votre identité a été confirmée, ou non. Vérifiez si vous avez reçu un message de <a href="mailto:no-reply@login.gov">no-reply@login.gov</a> dans votre messagerie.</p>
+    <p>Vous recevrez un e-mail de <a href="https://secure.login.gov/fr/">Login.gov</a> dans un délai de 24 heures après votre visite pour vous informer que votre identité a été confirmée, ou non. Vérifiez si vous avez reçu un message de <a href="mailto:no-reply@login.gov">no-reply@login.gov</a> dans votre messagerie.</p>
   </div>
 </div>
 
