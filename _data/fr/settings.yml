@@ -247,7 +247,7 @@ help_page:
     - description: Créez votre compte. Informez-vous sur les options
         d’authentification et sur davantage de caractéristiques des comptes.
       image: /assets/img/help/create-account.svg
-      title: Créer un compte
+      title: Créer mon compte
       url: /fr/help/create-account/overview/
     - description: Mot de passe oublié ? Compte verrouillé ? Nous vous aiderons à
         résoudre les problèmes d’accès. Nous vous aiderons à résoudre vos
