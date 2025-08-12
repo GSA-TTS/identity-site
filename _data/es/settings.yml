@@ -233,7 +233,7 @@ help_page:
     - description: Cree su cuenta. Más información sobre las opciones de autenticación
         y otras funciones de la cuenta.
       image: /assets/img/help/create-account.svg
-      title: Empiece a utilizar Login.gov
+      title: Crear una cuenta
       url: /es/help/create-account/overview/
     - description: ¿Olvidó su contraseña? ¿Está bloqueado el acceso a su cuenta? Le
         ayudaremos a resolver los problemas de acceso.
