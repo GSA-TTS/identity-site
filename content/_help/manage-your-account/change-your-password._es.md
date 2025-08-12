@@ -24,6 +24,7 @@ Siga estos pasos para cambiar su contraseña de Login.gov.
 1. Seleccione “Editar” junto al campo de la contraseña.
 
 1. Ingrese su nueva contraseña.
+
    * Para prevenir el robo de identidad, recomendamos que refuerce su contraseña utilizando: 
      * Frases que solo usted conozca 
      * Varias palabras con espacios hasta completar los 12 caracteres 

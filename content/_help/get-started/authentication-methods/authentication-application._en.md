@@ -24,6 +24,7 @@ If you choose this secure option, follow these steps to download and install one
    * Windows apps: [1Password](https://1password.com/), [OTP Manager](https://apps.microsoft.com/detail/9nblggh6hngn?hl=en-us&gl=US).
    * Mac apps: [1Password](https://1password.com/), [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
    * Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
+
 3. Open a new browser and sign in to your Login.gov account at <https://secure.login.gov/>.
 
 4. Select “Enable” next to “Authentication app” and follow the instructions to scan or enter a code associating your authentication app with your account.

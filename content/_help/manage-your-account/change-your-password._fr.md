@@ -24,6 +24,7 @@ Suivez les étapes ci-dessous pour changer votre mot de passe Login.gov.
 1. Sélectionnez « Modifier » à côté du champ de mot de passe.
 
 1. Saisissez votre nouveau mot de passe.
+
    * Pour prévenir l’usurpation d’identité, pensez à renforcer votre mot de passe en utilisant : 
      * Des séquences uniques de caractères que vous êtes le seul à reconnaître 
      * Plusieurs mots séparés par des espaces pour atteindre 12 caractères 

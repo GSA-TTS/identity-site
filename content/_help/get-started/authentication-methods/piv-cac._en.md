@@ -14,12 +14,19 @@ Physical PIV (personal identity verification) cards or CACs (common access cards
 {: .number-list}
 
 1. Enter your federal government email address and follow the link in the confirmation email.
+
 2. Confirm your email address by clicking on the link in the email you receive.
+
 3. On the “First authentication method setup” page, select the "government employees" option.
+
 4. Create your password.
+
 5. When prompted, present your government employee ID.
+
 6. A dialog box may pop up and prompt you to select a certificate. Login.gov does not know which certificate you should select. We can only advise you to pick one and if it doesn’t work, to try another one.
+
 7. You might be asked to enter the PIN associated with your government employee ID. This is something Login.gov does not have control over.
+
 8. Once you have set up your government employee ID, you are required to set up another authentication method (security option) as a recovery method.
 
 
