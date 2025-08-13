@@ -3,7 +3,6 @@ title: Problemas al verificar mi información personal
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/issues-verifying-my-personal-information/
 order: 3
-redirect_from:
 id_info_list:
 - Su nombre, fecha de nacimiento y la información en su identificación están escritos correctamente.
 - Su número de Seguro Social se ingresó correctamente.

@@ -14,7 +14,7 @@ redirect_from:
   - /help/signing-in/locked-out-of-account/
 ---
 
- **There might be different reasons why you need to delete an account:**
+**There might be different reasons why you need to delete an account:**
 
 * You realize you have multiple accounts using different email addresses and you want to have one account
 * You are locked out of your account and have lost access to your authentication methods

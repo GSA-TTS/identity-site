@@ -44,14 +44,12 @@ Siga estos pasos para crear su cuenta de Login.gov.
    Le recomendamos que tenga más de un método de autenticación en su cuenta. Puede elegir entre varias opciones de autenticación.
 
    **Más seguro:**
-
    * Clave de seguridad
    * Desbloqueo facial o táctil
    * Aplicación de autenticación
    * Tarjeta PIV o CAC para empleados del gobierno federal o personal militar
 
    **Menos seguro:**
-
    * Mensaje de texto
    * Llamada telefónica
    * Códigos de recuperación

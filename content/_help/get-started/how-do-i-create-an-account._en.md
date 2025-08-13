@@ -46,14 +46,12 @@ Follow these steps to create your Login.gov account.
    We encourage you to have more than one authentication method on your account. You can choose from several authentication options.
 
    **More secure:**
-
    * Security key
    * Face or touch unlock
    * Authentication application
    * PIV or CAC card for federal government employees or military
 
    **Less secure:**
-
    * Text message
    * Phone call
    * Backup codes

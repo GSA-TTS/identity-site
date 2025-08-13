@@ -3,7 +3,6 @@ title: 验证我的个人信息问题
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/issues-verifying-my-personal-information/
 order: 3
-redirect_from:
 id_info_list:
 - 你的姓名、生日和 ID 信息是否拼写正确。
 - 你的社会保障号码是否输入正确。

@@ -19,11 +19,11 @@ The system automatically generated new backup codes for you the last time you lo
 
 You will need to wait 24 hours after you delete your account to recreate a new account with the same email address.
 
-Please visit [How do I delete my account?](/help/manage-your-account/delete-your-account/) for instructions on how to delete your Login.gov account and [How do I delete my account?](/help/manage-your-account/delete-your-account/) to recreate your Login.gov account.
+Please visit [How do I delete my account?](/help/manage-your-account/delete-your-account/) for instructions on how to delete your Login.gov account and [How do I create an account?](/help/create-account/how-do-i-create-an-account/) to recreate your Login.gov account.
 
 
 ## Related articles
 
-* [How do I delete my account](/help/manage-your-account/delete-your-account/)
+* [How do I delete my account?](/help/manage-your-account/delete-your-account/)
 * [I’m having trouble authenticating](/help/trouble-signing-in/issues-with-authentication-methods/)
 * [How do I add or change the authentication method on my account?](/help/manage-your-account/add-or-change-your-authentication-method/)

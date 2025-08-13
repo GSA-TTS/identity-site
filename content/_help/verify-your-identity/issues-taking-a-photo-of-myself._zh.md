@@ -3,7 +3,6 @@ title: 拍我本人照片问题
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/issues-taking-a-photo-of-myself/
 order: 2
-redirect_from:
 ---
 
 一些合作伙伴机构可能会要求你在拍摄 ID 照片时拍摄你的面部照片。这是为了查看你的确是 ID 上的人。

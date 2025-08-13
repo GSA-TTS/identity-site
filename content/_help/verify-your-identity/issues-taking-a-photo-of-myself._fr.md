@@ -3,7 +3,6 @@ title: Problèmes pour me prendre en photo
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/issues-taking-a-photo-of-myself/
 order: 2
-redirect_from:
 ---
 
 Certains organismes partenaires peuvent vous demander de vous prendre en photo lorsque vous prenez des photos de votre pièce d’identité. Ceci permet de confirmer que vous êtes la personne figurant sur votre pièce d’identité.

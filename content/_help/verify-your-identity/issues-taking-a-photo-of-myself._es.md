@@ -3,7 +3,6 @@ title: Problemas para tomarme una foto
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/issues-taking-a-photo-of-myself/
 order: 2
-redirect_from:
 ---
 
 Es posible que algunas agencias asociadas le pidan que tome una fotografía de su cara cuando tome las fotos de su identificación. Esto comprueba que usted es la persona que figura en su identificación.

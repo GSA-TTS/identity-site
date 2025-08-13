@@ -43,8 +43,6 @@ redirect_from:
 
 8. Click the “Change password” button.
 
-When you reset your password, you’ll need your personal key to access your information.
-
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h3 class="usa-accordion__heading">
     <button

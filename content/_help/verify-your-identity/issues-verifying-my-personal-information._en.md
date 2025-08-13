@@ -3,7 +3,6 @@ title: Issues verifying my personal information
 category: verify-your-identity
 permalink: /help/verify-your-identity/issues-verifying-my-personal-information/
 order: 3
-redirect_from:
 id_info_list:
 - Your name, date of birth, and ID information are spelled correctly.
 - Your Social Security number is entered correctly.

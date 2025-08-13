@@ -21,7 +21,7 @@ If you believe the error is ours, please [contact us](/contact/).
 
 Currently, Chrome, Safari, and Firefox support the security key functionality. It will not work on Internet Explorer (Edge) or other browsers.
 
-If you see an error message when trying to set up your security key, try again using a recent version of either Chrome, Safari,  or Firefox.
+If you see an error message when trying to set up your security key, try again using a recent version of either Chrome, Safari, or Firefox.
 
 ## Trying to register a security key twice
 

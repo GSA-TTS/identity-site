@@ -15,7 +15,7 @@ We will send a unique one-time code to that phone number each time you sign in t
 
 After you receive the code, type it into the “One-time code” field. Each time you sign in to Login.gov you’ll have the option of getting a new one-time code by phone call or by text. You will receive a new one-time code each time you sign in to your Login.gov account.
 
-<div id="didn-t-receive-your-one-time-code"> Didn’t receive your one-time code?</div>
+<div id="didn-t-receive-your-one-time-code">Didn’t receive your one-time code?</div>
 
 * Check that your device is turned on
 * Turn airplane mode off

@@ -3,7 +3,6 @@ title: Problèmes liés à la vérification de mes renseignements personnels
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/issues-verifying-my-personal-information/
 order: 3
-redirect_from:
 id_info_list:
 - Votre nom, date de naissance et les renseignements vous identifiant sont justes et orthographiés correctement.
 - Votre numéro de sécurité sociale est correct.

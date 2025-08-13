@@ -14,7 +14,7 @@ To verify your identity, you will need to take photos of your ID online, or [bri
 
 ## I am having trouble taking photos of my ID
 
-You need a phone or tablet with a camera to take photos of your ID using Login.gov’s camera tool, not a webcam.  If you are using a computer, we will text you a link to open Login.gov on your phone or tablet. You will switch back to your computer after you take photos.
+You need a phone or tablet with a camera to take photos of your ID using Login.gov’s camera tool, not a webcam. If you are using a computer, we will text you a link to open Login.gov on your phone or tablet. You will switch back to your computer after you take photos.
 
 <ol class="number-list">
   <li>
