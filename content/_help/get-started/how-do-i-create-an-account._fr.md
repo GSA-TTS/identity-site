@@ -16,6 +16,7 @@ Suivez les étapes suivantes pour créer votre compte Login.gov.
 {: .number-list}
 
 1. Saisissez votre adresse e-mail sur la page <https://secure.login.gov/fr/sign_up/enter_email> pour commencer.
+
    Choisissez une adresse e-mail à laquelle vous aurez toujours accès. Une fois votre compte créé, vous pouvez ajouter une adresse e-mail supplémentaire, telle qu'une adresse professionnelle ou une autre adresse personnelle, pour accéder à votre compte.
 
 2. Cliquez sur le bouton « Valider ».
@@ -56,6 +57,7 @@ Suivez les étapes suivantes pour créer votre compte Login.gov.
    [En savoir plus sur chaque option d’authentification](/fr/help/create-account/authentication-methods/) pour choisir celle qui vous convient le mieux.
 
 7. Bravo ! Une fois que vous vous êtes authentifié, vous avez créé votre compte Login.gov.
+
    Vous serez redirigé vers la page de votre compte Login.gov ou vers l'organisme fédéral auquel vous essayez d'accéder. Vous pouvez ajouter des méthodes d'authentification supplémentaires, des adresses e-mail ou mettre à jour vos coordonnées sur la page de votre compte Login.gov.
 
 

@@ -13,6 +13,7 @@ order: 1
 {: .number-list}
 
 1. 首先在 <https://secure.login.gov/zh/sign_up/enter_email> 输入你的电邮地址。
+
    选择一个你永远可以使用的电邮地址。账户设立后，你可以再添加一个电邮地址，比如工作电邮或另外一个个人电邮，用来访问你的账户。
 
 2. 点击“提交”按钮。
@@ -52,6 +53,7 @@ order: 1
    [就每个身份证实选项了解更多信息](/zh/help/create-account/authentication-methods/)，从而选择适合你的方法。
 
 7. 成功了！身份证实之后，你的 Login.gov 账户就设好了。
+
    系统会带你到你的 Login.gov 账户页面或你要访问的政府机构网站。你可以在 Login.gov 帐户页面上添加其他身份证实方法和电邮地址或更新信息。
 
 
