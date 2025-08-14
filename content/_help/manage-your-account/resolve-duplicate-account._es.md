@@ -14,7 +14,7 @@ Algunas agencias gubernamentales solo le permiten tener una cuenta de Login.gov 
     Para ver a cuáles agencias está conectada una cuenta, inicie sesión y haga clic en “Sus cuentas conectadas” en el lado izquierdo.
 
 2. **Elimine las cuentas duplicadas**
-    [Para eliminar una cuenta:](/es/help/manage-your-account/delete-your-account/):
+    [Para eliminar una cuenta](/es/help/manage-your-account/delete-your-account/):
     * Inicie sesión en la cuenta que va a eliminar.
     * Vaya a “Su cuenta” y elija “Elimine su cuenta” en el lado izquierdo.
 
