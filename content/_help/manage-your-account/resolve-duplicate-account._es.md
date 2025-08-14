@@ -33,4 +33,5 @@ Algunas agencias gubernamentales solo le permiten tener una cuenta de Login.gov 
 
 
 ## ¿Qué hago si no reconozco o no puedo eliminar una cuenta?
+
 Si no reconoce o no puede eliminar una de las cuentas duplicadas que vio en la página que muestra varias cuentas, llame a nuestro centro de contacto al **(844)&nbsp;875&#8209;6446** y mencione el código de error **LG33**.
