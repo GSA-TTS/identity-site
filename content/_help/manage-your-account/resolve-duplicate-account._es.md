@@ -24,7 +24,7 @@ Algunas agencias gubernamentales solo le permiten tener una cuenta de Login.gov 
     Si [olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/), intente restablecerla en la página de inicio de sesión.
 
     Si no puede autenticarse en la cuenta duplicada:
-    * Al iniciar sesión, haga clic en “Elija otro método de autenticación”.
+    * Después de iniciar sesión, haga clic en “Elija otro método de autenticación”.
     * Vaya a la parte inferior de la página y seleccione “Elimine su cuenta”.
 
 3. **Inicie sesión con la cuenta de Login.gov que le queda**

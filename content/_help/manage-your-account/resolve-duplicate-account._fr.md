@@ -24,7 +24,7 @@ Certains organismes ne vous autorisent à disposer que d'un seul compte Login.go
     Si vous avez [oublié votre mot de passe](/fr/help/trouble-signing-in/forgot-your-password/), essayez de le réinitialiser depuis la page de connexion.
 
     Si vous ne pouvez pas vous authentifier pour vous connecter au compte en double :
-    * Cliquez sur « Choisir une autre méthode » au moment de vous connecter.
+    * Cliquez sur « Choisir une autre méthode » après vous être connecté.
     * Faites défiler la page vers le bas et sélectionnez « Supprimer votre compte ».
 
 3. **Vous connecter à l’aide du compte que vous conservez**
