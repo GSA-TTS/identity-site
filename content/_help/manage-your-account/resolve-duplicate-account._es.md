@@ -5,16 +5,19 @@ category: manage-your-account
 permalink: /es/help/manage-your-account/resolve-duplicate-accounts/
 order: 10
 ---
+
 Algunas agencias gubernamentales solo le permiten tener una cuenta de Login.gov verificada. Si tiene más de una cuenta de Login.gov que usa la misma información verificada, tendrá que eliminar las cuentas duplicadas.
 
 {: .number-list}
 1. **Elija la cuenta que desea conservar**
+
     Conserve la cuenta que más usa. Por ejemplo, la que está vinculada a más servicios. Así, no tendrá que volver a conectar los servicios.
 
     Para ver a cuáles agencias está conectada una cuenta, inicie sesión y haga clic en “Sus cuentas conectadas” en el lado izquierdo.
 
 2. **Elimine las cuentas duplicadas**
-    [Para eliminar una cuenta:](/es/help/manage-your-account/delete-your-account/):
+
+    [Para eliminar una cuenta](/es/help/manage-your-account/delete-your-account/):
     * Inicie sesión en la cuenta que va a eliminar.
     * Vaya a “Su cuenta” y elija “Elimine su cuenta” en el lado izquierdo.
 
@@ -25,6 +28,7 @@ Algunas agencias gubernamentales solo le permiten tener una cuenta de Login.gov 
     * Vaya a la parte inferior de la página y seleccione “Elimine su cuenta”.
 
 3. **Inicie sesión con la cuenta de Login.gov que le queda**
+
     Vuelva al sitio web de la agencia e inicie sesión usando la cuenta de Login.gov que conservó.
 
 
