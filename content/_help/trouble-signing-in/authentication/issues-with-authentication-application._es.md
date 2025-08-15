@@ -11,7 +11,7 @@ permalink: /es/help/trouble-signing-in/authentication/issues-with-authentication
 
 Puede ser que la hora no esté sincronizada correctamente entre su dispositivo y su aplicación de autenticación. Confirme que la hora de su dispositivo sea la correcta utilizando una página como [time.gov](https://time.gov){:class="usa-link--external"}.
 
-* Si usa Google Authenticator, es posible que tenga que sincronizar la hora manualmente. Siga las instrucciones de Google para sincronizar la hora.
+Si usa Google Authenticator, es posible que tenga que sincronizar la hora manualmente. Siga las instrucciones de Google para sincronizar la hora.
 
 ## Tengo un teléfono nuevo y mi aplicación de autenticación no funciona
 

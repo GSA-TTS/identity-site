@@ -11,7 +11,7 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-authentication
 
 你的设备和身份证实应用程序的时间可能没有正确同步。使用 [time.gov](https://time.gov){:class="usa-link--external"} 这样的页面来确保你设备上的时间是正确的。
 
-* 如果你使用 Google Authenticator，则可能需要手工来同步时间。按照 Google 的说明来对时间做同步。
+如果你使用 Google Authenticator，则可能需要手工来同步时间。按照 Google 的说明来对时间做同步。
 
 ## 我的手机是新的，我的身份证实应用程序不管用。
 
