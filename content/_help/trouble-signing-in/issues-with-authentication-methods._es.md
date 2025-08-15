@@ -40,17 +40,17 @@ Si no puede iniciar sesión con sus métodos de autenticación, tendrá que borr
 
 {: .help-question-list}
 
-* [Problemas con el desbloqueo facial o táctil](/es/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Problemas con el desbloqueo facial y táctil](/es/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+
+* [Problemas con mensajes de texto (SMS) o llamadas telefónicas](/es/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
 
 * [Problemas con la aplicación de autenticación](/es/help/trouble-signing-in/authentication/issues-with-authentication-application/)
 
+* [Problemas con los códigos de recuperación](/es/help/trouble-signing-in/authentication/issues-with-backup-codes/)
+
 * [Problemas con la clave de seguridad](/es/help/trouble-signing-in/authentication/issues-with-security-key/)
 
-* [Problemas con los mensajes de texto (SMS) o las llamadas telefónicas](/es/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
-
-* [Problemas con los códigos de recuperación (menos seguros)](/es/help/trouble-signing-in/authentication/issues-with-backup-codes/)
-
-* [Problemas con la identificación de empleado del gobierno (tarjeta PIV o CAC)](/es/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
+* [Problemas con la identificación de empleado del gobierno](/es/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 
 ## Otros artículos
 

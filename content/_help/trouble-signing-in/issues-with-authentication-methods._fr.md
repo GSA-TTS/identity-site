@@ -40,17 +40,17 @@ Si vous ne parvenez pas vous connecter avec la seule méthode d’authentificati
 
 {: .help-question-list}
 
-* [Problèmes avec le déverrouillage facial ou tactile](/fr/help/trouble-signing-in/authentication/face-and-touch-unlock/)
-
-* [Problèmes avec une application d'authentification](/fr/help/trouble-signing-in/authentication/issues-with-authentication-application/)
-
-* [Problèmes avec une clé de sécurité](/fr/help/trouble-signing-in/authentication/issues-with-security-key/)
+* [Problèmes avec le déverrouillage facial et tactile](/fr/help/trouble-signing-in/authentication/face-and-touch-unlock/)
 
 * [Problème liés aux SMS ou aux appels téléphoniques](/fr/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
 
-* [Problèmes avec les codes de sauvegarde (moins sécurisés)](/fr/help/trouble-signing-in/authentication/issues-with-backup-codes/)
+* [Problèmes avec une application d'authentification](/fr/help/trouble-signing-in/authentication/issues-with-authentication-application/)
 
-* [Problèmes avec des cartes d'employés fédéraux (PIV/CAC)](/fr/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
+* [Problèmes avec les codes de sauvegarde](/fr/help/trouble-signing-in/authentication/issues-with-backup-codes/)
+
+* [Problèmes avec une clé de sécurité](/fr/help/trouble-signing-in/authentication/issues-with-security-key/)
+
+* [Problèmes liés à la carte d'employé fédéral](/fr/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 
 
 ## Articles connexes

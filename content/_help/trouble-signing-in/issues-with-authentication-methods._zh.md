@@ -26,15 +26,15 @@ order: 3
 
 * [人脸或触摸解锁问题](/zh/help/trouble-signing-in/authentication/face-and-touch-unlock/)
 
+* [短信/SMS 或者接听电话问题](/zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
+
 * [身份证实应用程序问题](/zh/help/trouble-signing-in/authentication/issues-with-authentication-application/)
+
+* [备用代码问题](/zh/help/trouble-signing-in/authentication/issues-with-backup-codes/)
 
 * [安全密钥问题](/zh/help/trouble-signing-in/authentication/issues-with-security-key/)
 
-* [电话/SMS问题](/zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
-
-* [备用代码（安全性较低）问题](/zh/help/trouble-signing-in/authentication/issues-with-backup-codes/)
-
-* [政府雇员 ID (PIV/CAC) 问题](/zh/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
+* [政府雇员 ID 问题](/zh/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 
 
 ## 相关文章
