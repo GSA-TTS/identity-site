@@ -38,7 +38,8 @@ redirect_from:
   - /help/signing-in/what-is-an-authentication-app/
   - /help/signing-in/what-is-an-authenticator-app/
 ---
-In addition to your password, Login.gov requires that you use at  least one multi-factor authentication method (MFA) as an added layer of protection to secure your information.
+
+In addition to your password, Login.gov requires that you use at least one multi-factor authentication method (MFA) as an added layer of protection to secure your information.
 
 We encourage you to add two authentication methods to your account. If you lose access to your primary authentication method (e.g. losing your phone), you’ll have a second option to use to access your account. Login.gov cannot grant you access to your account if you get locked out and/or lose your authentication method. **If you get locked out, you’ll have to [delete your account](/help/manage-your-account/delete-your-account/) and create a new one.**
 
