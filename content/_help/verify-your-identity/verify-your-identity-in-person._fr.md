@@ -65,7 +65,7 @@ Une fois que vos renseignements auront été confirmés en ligne, nous vous enve
     </button>
   </h4>
   <div id="b-a2" class="usa-accordion__content usa-prose">
-    <p>Lorsque vous commencez la procédure sur Login.gov, vous pouvez choisir un bureau de poste participant près de chez vous. Vous pouvez également <a href="/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/">rechercher un bureau de poste près de chez vous</a> dans le Centre d’aide de Login.gov.</p>
+    <p>Lorsque vous commencez la procédure sur Login.gov, vous pouvez choisir un bureau de poste participant près de chez vous. Vous pouvez également <a href="{{ '/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/' | prepend: site.baseurl }}">rechercher un bureau de poste près de chez vous</a> dans le Centre d’aide de Login.gov.</p>
     <p>Une fois que vous avez reçu un code-barres en ligne, vous pouvez vous rendre dans n’importe quel bureau de poste offrant un service de vérification d’identité en personne. La vérification d’identité en personne est disponible dans les 50 États ainsi que les territoires des États-Unis suivants : îles Vierges américaines, Samoa américaines, Guam, Porto Rico et îles Mariannes du Nord.</p>
   </div>
 </div>

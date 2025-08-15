@@ -66,7 +66,7 @@ Login.gov 与美国邮局（USPS）合作，提供在邮局亲身验证身份的
     </button>
   </h4>
   <div id="b-a2" class="usa-accordion__content usa-prose">
-    <p>你在 Login.gov 开始这一流程时，可以选择去你家附近的参与本项目的邮局。你也可以在 Login.gov 的帮助中心<a href="/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/">搜索你家附近的邮局</a>。</p>
+    <p>你在 Login.gov 开始这一流程时，可以选择去你家附近的参与本项目的邮局。你也可以在 Login.gov 的帮助中心<a href="{{ '/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/' | prepend: site.baseurl }}">搜索你家附近的邮局</a>。</p>
     <p>你在网上收到条形码后，可以去任何一个提供亲身验证身份服务的邮局。美国所有 50 个州和以下美国属地均提供亲身身份验证：美属维尔京岛、美属萨摩亚、关岛、波多黎各、以及北马里亚纳群岛。</p>
   </div>
 </div>

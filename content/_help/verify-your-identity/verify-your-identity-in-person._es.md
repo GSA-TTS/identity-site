@@ -65,7 +65,7 @@ Una vez que haya verificado su información en línea, le enviaremos por correo 
     </button>
   </h4>
   <div id="b-a2" class="usa-accordion__content usa-prose">
-    <p>Cuando comience el proceso en Login.gov, puede seleccionar una oficina de correos colaboradora cercana a su domicilio. También puede <a href="/es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/">buscar una oficina de correos cercana</a> en el centro de ayuda de Login.gov.</p>
+    <p>Cuando comience el proceso en Login.gov, puede seleccionar una oficina de correos colaboradora cercana a su domicilio. También puede <a href="{{ '/es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/' | prepend: site.baseurl }}">buscar una oficina de correos cercana</a> en el centro de ayuda de Login.gov.</p>
     <p>Una vez que haya recibido un código de barras en línea, podrá acudir a cualquier oficina de correos donde esté disponible la verificación de identidad en persona. La verificación de identidad en persona está disponible en los 50 estados y los siguientes territorios de los Estados Unidos: Islas Vírgenes de los EE. UU., Samoa Americana, Guam, Puerto Rico y las Islas Marianas del Norte.</p>
   </div>
 </div>

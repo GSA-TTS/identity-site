@@ -66,7 +66,7 @@ Once you verify your information online, we will email you a barcode and a deadl
     </button>
   </h4>
   <div id="b-a2" class="usa-accordion__content usa-prose">
-    <p>When you start the process on Login.gov, you can select a participating Post Office near you. You can also <a href="/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/">search for a Post Office near you</a> in Login.gov’s Help Center.</p>
+    <p>When you start the process on Login.gov, you can select a participating Post Office near you. You can also <a href="{{ '/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/' | prepend: site.baseurl }}">search for a Post Office near you</a> in Login.gov’s Help Center.</p>
     <p>Once you have received a barcode online, you can go to any Post Office where in-person identity verification is available. In-person identity verification is available in all 50 states and the following U.S. Territories: U.S. Virgin Islands, American Samoa, Guam, Puerto Rico and the Northern Mariana Islands.</p>
   </div>
 </div>
