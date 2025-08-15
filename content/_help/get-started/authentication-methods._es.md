@@ -1,9 +1,18 @@
 ---
+layout: help
 title: Métodos de autenticación
-category: get-started
-permalink: /es/help/get-started/authentication-methods/
+category: create-account
+permalink: /es/help/create-account/authentication-methods/
+children:
+  - /es/help/create-account/authentication-methods/face-or-touch-unlock/
+  - /es/help/create-account/authentication-methods/authentication-application/
+  - /es/help/create-account/authentication-methods/security-key/
+  - /es/help/create-account/authentication-methods/text-sms-or-phone-call/
+  - /es/help/create-account/authentication-methods/backup-codes/
+  - /es/help/create-account/authentication-methods/piv-cac/
 order: 2
 redirect_from:
+  - /es/help/get-started/authentication-methods/
   - /es/help/authentication-methods/
   - /es/help/authentication-methods/which-authentication-method-should-i-use/
   - /es/help/changing-settings/how-do-I-set-up-an-authentication-app/
@@ -28,113 +37,27 @@ redirect_from:
   - /es/help/signing-in/what-is-an-authentication-app/
   - /es/help/signing-in/what-is-an-authenticator-app/
 ---
-Además de su contraseña, es necesario que configure por lo menos un método de autenticación en Login.gov con el fin de mantener su cuenta segura. Se trata de la autenticación multifactor (MFA). Usamos la autenticación multifactor como un nivel más de seguridad para proteger su información.
 
-**Métodos de autenticación**
-Le recomendamos que añada dos métodos de autenticación a su cuenta. Si pierde el acceso a su método de autenticación principal (por ejemplo, si pierde su teléfono), tendrá una segunda opción para acceder a su cuenta. Login.gov no podrá concederle acceso a su cuenta si se le bloquea o si pierde su método de autenticación. Si se le bloquea, tendrá que eliminar su cuenta y crear una nueva.
+Además de su contraseña, Login.gov le pide que use al menos un método de autenticación multifactor (MFA) como un nivel más de protección para su información.
 
-**Seguridad**
-Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como desbloqueo facial o táctil, claves de seguridad, tarjetas de verificación de identidad personal (PIV) y tarjetas de acceso común (CAC), son más seguros contra el *phishing* y el robo.
+Le recomendamos que añada dos métodos de autenticación a su cuenta. Si pierde el acceso a su método de autenticación principal (por ejemplo, si pierde su teléfono), tendrá una segunda opción para acceder a su cuenta. Login.gov no puede concederle acceso a su cuenta si queda bloqueado o si pierde su método de autenticación. **Si se bloquea el acceso, tendrá que [eliminar su cuenta](/es/help/manage-your-account/delete-your-account/) y crear una nueva**.
 
-## Desbloqueo facial o táctil
+Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como el desbloqueo facial o táctil, las claves de seguridad y las tarjetas de verificación de identidad personal (PIV) o de acceso común (CAC), son más seguros contra el phishing y el robo.
 
-<div class="usa-alert usa-alert--info margin-bottom-4" role="status">
-  <div class="usa-alert__body">
-    <p class="usa-alert__text">Es posible que tenga que activar la sincronización con la nube en su dispositivo si desea usar el desbloqueo facial o táctil para acceder a Login.gov en varios dispositivos.</p>
-  </div>
-</div>
+**Advertencia**: No recomendamos que los códigos de recuperación sean su único método de autenticación. Si llega a perder sus códigos de recuperación, no podrá iniciar sesión en su cuenta.
 
-El desbloqueo facial o táctil le permite iniciar sesión escaneando su rostro o huella dactilar, ingresando su PIN o patrón, o escaneando un código QR. Esto le permite autenticarse sin utilizar un código de un solo uso.
+{: .help-question-list}
+
+* [Desbloqueo facial o táctil](/es/help/create-account/authentication-methods/face-or-touch-unlock/)
+* [Aplicación de autenticación](/es/help/create-account/authentication-methods/authentication-application/)
+* [Clave de seguridad](/es/help/create-account/authentication-methods/security-key/)
+* [Llamada telefónica o mensaje de texto (SMS)](/es/help/create-account/authentication-methods/text-sms-or-phone-call/)
+* [Códigos de recuperación (menos seguros)](/es/help/create-account/authentication-methods/backup-codes/)
+* [Identificación de empleado del gobierno (tarjeta PIV o CAC)](/es/help/create-account/authentication-methods/piv-cac/)
 
 
-Cuando elija configurar el desbloqueo facial o táctil, empezará configurando una credencial de reconocimiento facial o de huella dactilar. Esta credencial se guardará en su dispositivo, o en la nube si usa un navegador y un dispositivo compatibles.
+## Otros artículos
 
-Si su credencial se guarda únicamente en su dispositivo, deberá utilizar siempre el mismo dispositivo y navegador para autenticarse en Login.gov con el desbloqueo facial o táctil. Si su credencial se guarda en la nube, podrá autenticarse utilizando el desbloqueo facial o táctil en varios dispositivos.
-
-Le recomendamos decididamente que añada un segundo método de autenticación por si cambia o pierde su dispositivo. Si pierde el acceso a su único método de autenticación, será necesario que [elimine su cuenta y cree una nueva](/es/help/manage-your-account/delete-your-account/).
-
-## Aplicaciones de autenticación
-
-Las aplicaciones de autenticación se descargan en su dispositivo y generan los códigos de seguridad de seis dígitos y un solo uso que usará para iniciar sesión en sus cuentas. Aunque las aplicaciones de autenticación no estarán protegidas si usted llega a perder su dispositivo o si alguien se lo roba, este método, comparado con las llamadas telefónicas o los mensajes de texto, es más seguro contra el *phishing*, el jaqueo o la interceptación de datos.
-
-Si elige esta opción de seguridad, siga estos pasos para descargar e instalar una aplicación compatible y configúrela para que funcione con Login.gov.
-
-{: .number-list}
-
-1. Elija un dispositivo, como una computadora o un dispositivo móvil (teléfono o tableta), en el que pueda instalar aplicaciones.
-2. Descargue e instale una aplicación de autenticación en su dispositivo. Algunas de las opciones preferidas son:
-
-   * Opciones para Android: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/) y [1Password](https://1password.com/)
-   * Opciones para iOS: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://lastpass.com/) y [1Password](https://1password.com/)
-   * Aplicaciones para Windows: [1Password](https://1password.com/), [OTP Manager](https://apps.microsoft.com/detail/9nblggh6hngn?hl=es-es&gl=US)
-   * Aplicaciones para Mac: [1Password](https://1password.com/), [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12)
-   * Extensiones para Chrome: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en)
-3. Abra un nuevo navegador e inicie sesión en su cuenta de Login.gov en <https://secure.login.gov/es>.
-4. Seleccione “Activar” junto a “Aplicación de autenticación” y siga las instrucciones para escanear o ingresar un código que asocie la aplicación de autenticación a su cuenta.
-
-En adelante, cada vez que inicie sesión en Login.gov, podrá utilizar el código de un solo uso que genera la aplicación.
-
-## Clave de seguridad
-
-Una clave de seguridad es un dispositivo físico que puede conectar a su computadora o dispositivo móvil para añadir un nivel más de protección a su cuenta de Login.gov. No es lo mismo que una [clave personal](/es/help/manage-your-account/personal-key/).
-
-El uso de una clave de seguridad es más confiable que depender de su teléfono, ya que tiene protecciones integradas contra el jaqueo y el phishing. Login.gov solo permite usar claves de seguridad que cumplan con los estándares de [FIDO (Fast Identity Online)](https://fidoalliance.org/).
-
-Usted puede agregar varias claves de seguridad a su cuenta para protegerla.
-
-Login.gov no proporciona a los usuarios una clave de seguridad, por lo que usted tendrá que obtener esta opción de protección por su cuenta.
-
-### ¿Cómo configuro las claves de seguridad?
-
-Para autenticarse en Login.gov usando esta opción de seguridad:
-
-{: .number-list}
-1. Asigne un alias a su clave de seguridad para identificarla fácilmente después con su cuenta de Login.gov.
-
-2. Inserte su clave de seguridad en el dispositivo.
-
-3. Siga las instrucciones de su navegador para activar su clave de seguridad. Cuando use su clave de seguridad, no tendrá que ingresar un código.
-
-## Mensajes de texto y llamadas telefónicas
-
-Los mensajes de texto (SMS) o las llamadas telefónicas son opciones prácticas, pero sumamente vulnerables a robos, jaqueos y otros ataques.
-
-Si usted elige utilizar esta opción menos segura, ingrese un número de teléfono en el que pueda recibir llamadas telefónicas o mensajes de texto. Si únicamente tiene un teléfono fijo, debe recibir su código de un solo uso por medio de una llamada telefónica. Login.gov no puede enviar códigos de un solo uso a extensiones ni a buzones de voz.
-
-Le enviaremos un código de un solo uso a ese número de teléfono cada vez que inicie sesión en su cuenta de Login.gov. Cada código vence a los diez minutos y solo se puede utilizar una vez. Si no introduce el código de un solo uso en diez minutos, solicite otro nuevo.
-
-Después de haber recibido el código, escríbalo en el campo “Código de un solo uso”. Cada vez que inicie sesión en Login.gov tendrá la opción de obtener un nuevo código de un solo uso por medio de una llamada telefónica o un mensaje de texto. Recibirá un nuevo código de un solo uso cada vez que inicie sesión en su cuenta de Login.gov.
-
-<div id="didn-t-receive-your-one-time-code">¿No recibió su código de un solo uso?</div>
-
-* Compruebe que el dispositivo está encendido
-* Desactive el modo avión
-Recuerde que necesita un dispositivo móvil para recibir un código de un solo uso por mensaje de texto. Si tiene un teléfono fijo, seleccione recibir el código de un solo uso por llamada telefónica.
-
-Puede volver a enviar un código de un solo uso seleccionando el botón “Volver a enviar código”.
-
-## Códigos de recuperación (menos seguros)
-
-Los códigos de recuperación son una opción disponible para los usuarios que no tienen acceso a un teléfono; sin embargo, son la opción menos segura para la autenticación de dos factores. Los códigos de recuperación se deben imprimir o escribir, y esto los hace más vulnerables al robo y al *phishing*.
-
-Si selecciona esta opción menos segura, Login.gov generará un conjunto de diez códigos. Después de que inicie sesión con su nombre de usuario y contraseña, se le pedirá un código. Cada código se puede usar solo una vez. Cuando haya utilizado los diez códigos, se le pedirá que descargue una lista nueva de códigos. Proteja sus códigos de recuperación tanto como su contraseña.
-
-## Tarjetas PIV o CAC para empleados del gobierno federal y personal militar
-
-Las tarjetas físicas de verificación de identidad personal (PIV) y las tarjetas de acceso común (CAC) son opciones seguras para los empleados del gobierno federal y el personal militar. Estas tarjetas, con tecnología de chip cifrado, están protegidas contra el *phishing* y son difíciles de jaquear en caso de robo.
-
-## Sin teléfono ni otro método de autenticación
-
-Si no tiene acceso a un teléfono, aplicación de autenticación, clave de seguridad o alguna otra opción de autenticación, puede configurar su cuenta con códigos de recuperación únicamente.
-
-**Advertencia:** No se recomienda que configure su cuenta con los códigos de recuperación como único método de autenticación. Si llega a perder sus códigos de recuperación, no podrá iniciar sesión en su cuenta.
-
-Cuando crea su cuenta, aparece la página “Proteja su cuenta”, en la que debe elegir su método de autenticación principal. Si no tiene acceso a ninguna de las otras opciones, seleccione “Códigos de recuperación” y haga clic en “Continuar”.
-
-En la página “Añada otro método”, seleccione “No tengo ninguno de los anteriores” y haga clic en “Continuar”.
-
-## Related articles
-
-* [Cómo iniciar sesión en Login.gov](/es/help/trouble-signing-in/how-to-sign-in/)
-* [Problemas con los métodos de autenticación](/es/help/trouble-signing-in/issues-with-authentication-methods/)
-* [Problemas con el desbloqueo facial o táctil](/es/help/trouble-signing-in/face-or-touch-unlock/)
+* [Problemas al crear una cuenta](/es/help/create-account/issues-creating-an-account/)
+* [Administre su cuenta](/es/help/manage-your-account/overview/)
+* [Problemas para iniciar sesión](/es/help/trouble-signing-in/overview/)

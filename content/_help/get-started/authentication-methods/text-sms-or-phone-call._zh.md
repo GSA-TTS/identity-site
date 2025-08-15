@@ -1,0 +1,32 @@
+---
+layout: help
+title: 接受短信或接听电话
+category: create-account
+permalink: /zh/help/create-account/authentication-methods/text-sms-or-phone-call/
+child: true
+order: 4
+---
+
+短信/SMS或接听电话很方便，但极易遭到盗窃、黑客和其他攻击。
+
+如果你选择使用这一安全性较低的选项，请输入一个电话号码，以便你接听电话或接受短信。如果你只有座机电话，必须通过接听电话来接受一次性代码。Login.gov 无法向分机或留言箱发送一次性代码。
+
+每次你登录 Login.gov 账户时，我们会给那个电话号码发送一个独一无二的一次性代码。每个一次性代码 10 分钟后作废，而且只能用一次。如果你没有在 10 分钟内输入该一次性代码，请提出新代码请求。
+
+收到代码后，请将其输入“一次性代码”字段。每次你登录 Login.gov，都有通过接听电话或接受短信得到新的一次性代码的选择。每次你登录 Login.gov，都会收到一个新的一次性代码。
+
+<div id="didn-t-receive-your-one-time-code">没收到一次性代码？</div>
+
+* 检查你的设备是否已开启
+* 关掉飞行模式
+
+请记住，你需要移动设备来通过短信接受一次性代码。如果你用座机电话，请选择通过接听电话接受一次性代码。
+
+通过选择使用“重发代码”按钮，你可以把一次性代码再发一次。
+
+
+## 相关文章
+
+* [短信/SMS或者接听电话问题](/zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
+* [身份证实方法](/zh/help/create-account/authentication-methods/)
+* [设立帐户问题](/zh/help/create-account/issues-creating-an-account/)

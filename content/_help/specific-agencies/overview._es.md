@@ -39,9 +39,9 @@ Login.gov no puede restablecer su contraseña, eliminar su cuenta ni modificar l
 
 Proporcionamos contenido específico de ayuda para nuestras agencias asociadas más grandes. Le recomendamos que se ponga en contacto con la agencia si tiene preguntas específicas.
 
-## Temas comunes para la solución de problemas
 
-{: .help-question-list}
-* [Cómo iniciar sesión en Login.gov](/es/help/trouble-signing-in/how-to-sign-in/)
-* [Cambie su contraseña](/es/help/manage-your-account/change-your-password/)
-* [Olvidó su contraseña](/es/help/trouble-signing-in/forgot-your-password/)
+## Otros artículos
+
+* [¿Cómo vuelvo a vincular mi cuenta a una agencia asociada?](/es/help/manage-your-account/relink-your-accounts/)
+* [¿Cómo cambio mi contraseña?](/es/help/manage-your-account/change-your-password/)
+* [¿Cómo cambio la dirección de correo electrónico que proporcioné a una agencia asociada?](/es/help/manage-your-account/change-partner-email-address/)

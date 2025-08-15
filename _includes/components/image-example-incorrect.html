@@ -6,10 +6,35 @@ include
 - bordered_image
 {% endcomment %}
 
-{%
-  include components/image-example-base.html
-  image_alt_text=include.image_alt_text
-  image=include.image
-  bordered_image=include.bordered_image
-  text=include.text
-%}
+<div class="usa-image-example">
+  <figure class="usa-image-example__figure">
+    <img
+    alt="{{ include.image_alt_text }}"
+    class="usa-image-example__image"
+    src="{{ site.baseurl }}{{ include.image }}"
+    />
+    <figcaption class="usa-image-example__figcaption margin-bottom-4">
+      <ul class="usa-icon-list usa-icon-list--size-md">
+        <li class="usa-icon-list__item">
+          <span class="usa-icon-list__icon text-error" aria-hidden="true">
+            {% include components/icon.html icon="cancel" icon_size="md" %}
+          </span>
+          <div class="usa-icon-list__content">
+            {% case page.lang %}
+            {% when "en" %}
+            <strong class="text-error">DON’T:</strong> {{ include.text }}
+            {% when "es" %}
+            <strong class="text-error">NO:</strong> {{ include.text }}
+            {% when "fr" %}
+            <strong class="text-error">NE PAS</strong> {{ include.text }}
+            {% when "zh" %}
+            <strong class="text-error">请勿</strong> {{ include.text }}
+            {% else %}
+            {{ include.text }}
+            {% endcase %}
+          </div>
+        </li>
+      </ul>
+    </figcaption>
+  </figure>
+</div>
