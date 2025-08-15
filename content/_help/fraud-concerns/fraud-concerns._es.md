@@ -19,11 +19,11 @@ Puede revisar los inicios de sesión recientes y los dispositivos asociados con 
 
 2. Navegue a la **página de su cuenta**.
 
-3. Seleccione **“Historial”** para ver los **dispositivos utilizados recientemente y los inicios de sesión**.
+3. Seleccione **“Historial”** para ver los dispositivos utilizados recientemente y los inicios de sesión.
 
 Si ve algún dispositivo o inicio de sesión que no reconozca, le recomendamos encarecidamente que:
 
-   * **Cambie su contraseña de inmediato**, y
+   * Cambie su contraseña **de inmediato**, y
    * **Revise sus métodos de autenticación** para comprobar que estén actualizados y protegidos.
 
 ### Proteja su cuenta
@@ -37,16 +37,16 @@ Login.gov no puede investigar las denuncias de fraude relacionado con otras agen
 ### Recursos federales para denunciar fraudes
 
 * **Robo de identidad**
-   * Sitio web: [IdentityTheft.gov](https://identitytheft.gov)
-   * Teléfono: 1-877-438-4338 (FTC)
+   * **Sitio web:** [IdentityTheft.gov](https://identitytheft.gov)
+   * **Teléfono:** 1-877-438-4338 (FTC)
 * **Delitos en línea o delitos informáticos**
    * [Centro del FBI para denuncias de delitos (IC3, Internet Crime Complaint Center) (en inglés)](https://www.ic3.gov/)
    * Oficinas locales del FBI
-* **Federal Program Fraud (e.g., healthcare benefits)**
+* **Fraude en los programas federales (por ejemplo, beneficios de atención médica)**
    * [Línea directa de la Oficina del Inspector General (OIG) del Departamento de Salud y Servicios Humanos (HHS) para la denuncia de fraudes (en inglés)](https://oig.hhs.gov/fraud/report-fraud/)
-   * Teléfono: 1-800-HHS-TIPS (1-800-447-8477)
+   * **Teléfono:** 1-800-HHS-TIPS (1-800-447-8477)
 * **Otros delitos graves contra la identidad**
-   * [Oficinas locales del Servicio Secreto de los EE.UU. (en inglés)](https://www.secretservice.gov/contact/field-offices/)
+   * [Oficinas locales del Servicio Secreto de los EE. UU. (en inglés)](https://www.secretservice.gov/contact/field-offices/)
 
 
 ## Otros artículos

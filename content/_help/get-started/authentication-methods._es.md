@@ -42,7 +42,7 @@ Además de su contraseña, Login.gov le pide que use al menos un método de aute
 
 Le recomendamos que añada dos métodos de autenticación a su cuenta. Si pierde el acceso a su método de autenticación principal (por ejemplo, si pierde su teléfono), tendrá una segunda opción para acceder a su cuenta. Login.gov no puede concederle acceso a su cuenta si queda bloqueado o si pierde su método de autenticación. **Si se bloquea el acceso, tendrá que [eliminar su cuenta](/es/help/manage-your-account/delete-your-account/) y crear una nueva**.
 
-Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como el desbloqueo facial o táctil, las llaves de seguridad y las tarjetas de verificación de identidad personal (PIV) o de acceso común (CAC), son más seguros contra el phishing y el robo.
+Aunque puede elegir entre varias opciones de autenticación, algunos métodos de autenticación, como el desbloqueo facial o táctil, las claves de seguridad y las tarjetas de verificación de identidad personal (PIV) o de acceso común (CAC), son más seguros contra el phishing y el robo.
 
 **Advertencia**: No recomendamos que los códigos de recuperación sean su único método de autenticación. Si llega a perder sus códigos de recuperación, no podrá iniciar sesión en su cuenta.
 

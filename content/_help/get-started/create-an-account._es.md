@@ -27,7 +27,7 @@ Si no tiene un teléfono que pueda usar para esto, seleccione uno de los demás 
 
 {: .help-question-list}
 
-* [Cree su cuenta de Login.gov](/es/help/create-account/how-do-i-create-an-account/)
+* [Cómo creo una cuenta de Login.gov](/es/help/create-account/how-do-i-create-an-account/)
 * [Cómo selecciono el método de autenticación apropiado](/es/help/create-account/authentication-methods/)
 * [Por qué se le pide que use Login.gov](/es/what-is-login/)
 * [¿Qué es Login.gov? (video en inglés)](https://www.youtube.com/watch?v=ayDtFd5Ugyk){:class="usa-link--external"}

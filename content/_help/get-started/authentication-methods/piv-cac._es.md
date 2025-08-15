@@ -35,7 +35,7 @@ Las tarjetas físicas de verificación de identidad personal (PIV) o las tarjeta
 
 1. Vaya a <https://secure.login.gov/es>.
 
-2. Inicie sesión con su nombre de usuario, su contraseña y su método de autenticación.
+2. Inicie sesión en su cuenta con su nombre de usuario, su contraseña y su método de autenticación.
 
 3. En la página de “Su cuenta”, haga clic en “Agregar identificación de empleado federal” donde dice “Sus métodos de autenticación”.
 

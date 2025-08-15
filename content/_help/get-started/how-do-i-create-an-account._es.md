@@ -19,7 +19,7 @@ Siga estos pasos para crear su cuenta de Login.gov.
 
    Elija una dirección de correo electrónico a la que pueda tener acceso siempre. Una vez que se crea su cuenta, puede agregar otra dirección de correo electrónico para acceder a ella, por ejemplo, la dirección de correo electrónico de su trabajo u otra dirección personal.
 
-2. Haga clic en el botón **“Enviar”**.
+2. Haga clic en el botón “Enviar”.
 
 3. Busque un mensaje de Login.gov en su correo electrónico.
 

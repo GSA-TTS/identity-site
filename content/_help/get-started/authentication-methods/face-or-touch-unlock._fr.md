@@ -66,7 +66,7 @@ Après avoir donné un surnom à votre appareil, veuillez suivre les étapes ci-
   </h3>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>
-      Après avoir attribué un surnom à votre appareil, cliquez sur « Suite » et une fenêtre contextuelle s’affichera immédiatement (uniquement sur des navigateurs compatibles comme Chrome, Safari et Edge).
+      Après avoir attribué un surnom à votre appareil, cliquez sur « Suite » et une fenêtre pop-up s’affichera immédiatement (uniquement sur des navigateurs compatibles comme Chrome, Safari et Edge).
     </p>
     <p>
       Vous serez invité à créer une clé d’accès en choisissant l’une des deux options disponibles : « Cet appareil » ou « Utiliser un téléphone ou une tablette ».
@@ -76,10 +76,10 @@ Après avoir donné un surnom à votre appareil, veuillez suivre les étapes ci-
         Si vous choisissez d’utiliser une clé d’accès à l’aide de « Cet appareil », vous pourrez continuer en utilisant un scan facial ou tactile, ou bien un mot de passe de l’appareil permettant le déverrouillage facial ou tactile.
       </li>
       <li>
-        Si vous choisissez « Utiliser un téléphone ou une tablette », vous verrez plutôt s’afficher un QR Code sur votre écran.
+        Si vous choisissez « Utiliser un téléphone ou une tablette », vous verrez s’afficher un QR Code sur votre écran.
         <ul>
           <li>
-            Le scan de ce QR code avec l’application de l’appareil photo sur Android ou iOS vous permettra d’utiliser votre téléphone comme clé d’accès plutôt que de scanner votre visage ou empreintes digitales.
+            Le scan de ce QR code avec l’application de l’appareil photo sur Android ou iOS vous permettra d’utiliser votre téléphone comme clé d’accès plutôt que de scanner votre visage ou vos empreintes digitales.
           </li>
           <li>
             Cette action dépendra du type de verrouillage de l’écran de votre téléphone, comme un code PIN ou une empreinte digitale.

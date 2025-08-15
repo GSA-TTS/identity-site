@@ -44,7 +44,7 @@ Nous vous recommandons d’ajouter deux méthodes d’authentification à votre 
 
 Bien que vous ayez le choix entre plusieurs options d’authentification, certaines méthodes d’authentification telles que déverrouillage facial ou tactile, les clés de sécurité, et les cartes PIV/CAC sont plus efficaces contre les tentatives d’hameçonnage et le vol.
 
-**Attention :** Nous ne recommandons pas l’utilisation de codes de sauvegarde comme unique méthode d’authentification. Si jamais vous perdiez vos codes de sauvegarde, vous ne pourrez plus vous connecter à votre compte.
+**Attention :** Nous ne recommandons pas l’utilisation de codes de sauvegarde comme unique méthode d’authentification. Si jamais vous perdez vos codes de sauvegarde, vous ne pourrez plus vous connecter à votre compte.
 
 {: .help-question-list}
 

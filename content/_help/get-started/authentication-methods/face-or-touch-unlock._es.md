@@ -9,8 +9,7 @@ order: 1
 
 El desbloqueo facial o táctil le permite iniciar sesión sea escaneando su rostro o huella dactilar, ingresando su PIN o patrón, o escaneando un código QR. Esto le permite autenticarse sin utilizar un código de un solo uso.
 
-Cuando elija configurar el desbloqueo facial o táctil, empezará configurando una credencial de reconocimiento facial o de huella dactilar. 
-Esta credencial se guardará en su dispositivo, o en la nube si usa un navegador y un dispositivo compatibles.
+Cuando elija configurar el desbloqueo facial o táctil, empezará configurando una credencial de reconocimiento facial o de huella dactilar. Esta credencial se guardará en su dispositivo, o en la nube si usa un navegador y un dispositivo compatibles.
 
 ## Cómo configurar el desbloqueo facial o táctil
 

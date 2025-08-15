@@ -20,7 +20,7 @@ Follow these steps to create your Login.gov account.
 
    Choose an email address that you’ll always be able to access. Once your account is created, you can add an additional email address, such as a work email or alternate personal address, to access your account.
 
-2. Click the **“Submit”** button.
+2. Click the “Submit” button.
 
 3. Check your email for a message from Login.gov.
 

@@ -36,16 +36,16 @@ Login.gov ne peut enquêter sur les plaintes pour fraude impliquant d’autres o
 
 ### Ressources fédérales pour le signalement des fraudes
 
-   * **Identity Theft**
-      * **Website:** [IdentityTheft.gov](https://identitytheft.gov/)
-      * **Phone:** 1-877-438-4338 (FTC)
-   * **Online or Cyber Crime**
+   * **Usurpation d'identité**
+      * **site Web:** [IdentityTheft.gov](https://identitytheft.gov/)
+      * **Téléphone:** 1-877-438-4338 (FTC)
+   * **Criminalité en ligne ou cybercriminalité**
       * [Internet Crime Complaint Center (IC3, centre de signalement de la criminalité sur internet)](https://www.ic3.gov/)
       * Bureaux locaux du FBI
-   * **Federal Program Fraud (e.g., healthcare benefits)**
+   * **Fraude aux programmes fédéraux (par exemple, avantages santé)**
       * [HHS OIG Fraud Hotline (Ligne d’assistance téléphonique contre la fraude du Bureau de l’inspecteur général HHS)](https://oig.hhs.gov/fraud/report-fraud/)
       * **Téléphone :** 1-800-HHS-TIPS (1-800-447-8477)
-   * **Other Serious Identity Crimes**
+   * **Autres infractions graves liées à l'identité**
       * [Bureaux locaux des services secrets des États-Unis](https://www.secretservice.gov/contact/field-offices/)
 
 

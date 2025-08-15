@@ -24,5 +24,5 @@ Login.gov 要求所有用户在设立帐户和登录时使用多重身份证实�
 
 * [如何设立 Login.gov 帐户](/zh/help/create-account/how-do-i-create-an-account/)
 * [如何选择正确的身份证实方法](/zh/help/create-account/authentication-methods/)
-* [为什么请你使用 Login.gov](/zh/what-is-login/)
+* [为什么要我使用 Login.gov](/zh/what-is-login/)
 * [Login.gov 是什么?](https://www.youtube.com/watch?v=ayDtFd5Ugyk){:class="usa-link--external"}

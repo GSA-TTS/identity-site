@@ -12,7 +12,7 @@ Vous trouverez ci-dessous des solutions aux problèmes que vous pouvez rencontre
 
 **Si vous n’avez pas reçu votre e-mail de confirmation :**  
 
-- Vérifiez dans votre dossier des indésirables s’il s’y trouve un e-mail envoyé par no-reply@login.gov ou du domaine @mail.login.gov ; nos courriels y arrivent parfois par erreur.
+- Vérifiez dans vos spams s’il s’y trouve un e-mail envoyé par no-reply@login.gov ou du domaine @mail.login.gov ; nos e-mails y arrivent parfois par erreur.
 - Ajoutez « no-reply@login.gov » à votre liste de contacts. Ceci étant fait, demandez à recevoir un autre e-mail.
 - Utilisez une adresse e-mail différente pour créer votre compte.
 

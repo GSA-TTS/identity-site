@@ -1,6 +1,6 @@
 ---
 layout: help
-title: 信息/短讯或者打电话
+title: 接受短信或接听电话
 category: create-account
 permalink: /zh/help/create-account/authentication-methods/text-sms-or-phone-call/
 child: true
