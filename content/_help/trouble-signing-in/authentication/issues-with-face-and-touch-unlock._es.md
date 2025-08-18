@@ -43,7 +43,7 @@ redirect_from:
       </li>
     </ul>
     <p><b>Importante:</b> Tendrá que habilitar la sincronización en la nube en su dispositivo (por ejemplo, iCloud o Windows Hello) si desea utilizar el desbloqueo facial o táctil para iniciar sesión en Login.gov en varios dispositivos.</p>
-    <p>Es altamente recomendable que añada un segundo método de autenticación en caso de que pierda o reemplace su dispositivo. Si pierde el acceso a su único método de autenticación, tendrá que eliminar su cuenta y crear una nueva.</p>
+    <p>Es muy recomendable que añada un segundo método de autenticación en caso de que pierda o reemplace su dispositivo. Si pierde el acceso a su único método de autenticación, tendrá que eliminar su cuenta y crear una nueva.</p>
   </div>
 </div>
 
@@ -101,7 +101,7 @@ redirect_from:
   <div id="b-a4" class="usa-accordion__content usa-prose">
     <p>El desbloqueo facial o táctil solo funcionará en el dispositivo original en el que lo configuró, a menos que lo configure en un dispositivo y un navegador más recientes que admitan claves de paso, y que tengan habilitada la sincronización de Bluetooth o en la nube entre sus cuentas. Tener habilitada la sincronización de Bluetooth o en la nube le permite usar su credencial de desbloqueo facial o táctil de manera compartida entre sus dispositivos.</p>
     <p>Si el desbloqueo facial o táctil está vinculado a su dispositivo y ya no tiene acceso a ese dispositivo en particular, es posible que tenga que eliminar su cuenta y crear una nueva. Contacte con nosotros si necesita ayuda.</p>
-    <p>Para evitar tener que eliminar su cuenta en el futuro, es altamente recomendable que configure más de un método de autenticación. Así tendrá un método de autenticación de reserva para iniciar sesión en caso de que pierda uno.</p>
+    <p>Para evitar tener que eliminar su cuenta en el futuro, es muy recomendable que configure más de un método de autenticación. Así tendrá un método de autenticación de reserva para iniciar sesión en caso de que pierda uno.</p>
   </div>
 </div>
 

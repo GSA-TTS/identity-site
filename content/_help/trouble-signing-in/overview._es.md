@@ -39,7 +39,7 @@ Según los métodos de autenticación que haya configurado, es posible que todav
    * Ingresar un código de recuperación
    * Usar su identificación de empleado del gobierno federal o de personal militar (tarjeta PIV o CAC)
 
-5. A continuación aparecerá la página de su cuenta de Login.gov.
+5. A continuación, aparecerá la página de su cuenta de Login.gov.
 
 
 ## Otros artículos

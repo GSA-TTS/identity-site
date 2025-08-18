@@ -17,9 +17,9 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-government-emp
 
 [联系 Login.gov 支持](/zh/contact/) 以获得更多帮助。
 
-如果你最近收到了新的 PIV/CAC 卡，则需要去除旧的 PIV/CAC 卡并添加新的 PIV/CAC 卡。
+如果你最近收到了新的 PIV/CAC 卡，则需要撤除旧的 PIV/CAC 卡并添加新的 PIV/CAC 卡。
 
-* 要取除旧的 PIV/CAC 卡并启用新的 PIV/CAC 卡，你必须设置了另一种身份证实方法。
+* 要禁用旧的 PIV/CAC 卡并启用新的 PIV/CAC 卡，你必须设置了另一种身份证实方法。
 * 如果你的 PIN 码或证书出现问题，请联系你的 IT 部门。Login.gov 不控制这种信息。
 * 你的 PIV/CAC 卡只能与一个 Login.gov 帐户相关。
 

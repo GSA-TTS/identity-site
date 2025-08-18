@@ -25,7 +25,7 @@ Si ve un mensaje de error al tratar de configurar su clave de seguridad, vuelva 
 
 ## Intento de registrar una clave de seguridad dos veces
 
-Solo puede registrar la misma clave de seguridad una vez para su cuenta. Añada una clave de seguridad distinta.
+Solo puede registrar la misma clave de seguridad una vez en su cuenta. Añada una clave de seguridad distinta.
 
 
 ## Otros artículos

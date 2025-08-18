@@ -23,7 +23,7 @@ Actuellement, Chrome, Safari et Firefox prennent en charge la fonctionnalité de
 
 Si un message d’erreur s’affiche lorsque vous essayez de configurer votre clé de sécurité, veuillez essayer avec une version récente de Chrome, Safari ou Firefox.
 
-## Tenter d’enregistrer une clé de sécurité deux fois
+## Si vous avez tenté d’enregistrer une clé de sécurité deux fois
 
 Une clé de sécurité ne peut être enregistrée sur votre compte qu’une seule fois. Ajouter une différente clé de sécurité
 

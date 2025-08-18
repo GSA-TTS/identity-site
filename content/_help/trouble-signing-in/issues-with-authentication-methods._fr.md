@@ -34,7 +34,7 @@ redirect_from:
 En fonction des méthodes d’authentification que vous avez configurées, vous pourrez peut-être encore accéder à votre compte Login.gov. Une fois que vous avez pu vous connecter, assurez-vous d’avoir configuré plusieurs méthodes d’authentification pour éviter de perdre l’accès à votre compte.
 
 {% capture delete_account_alert_content %}
-Si vous ne parvenez pas vous connecter avec la seule méthode d’authentification dont vous disposez, vous devrez supprimer votre compte et en créer un nouveau. Pour des raisons de sécurité, Login.gov ne peut pas déverrouiller votre compte ou se connecter à votre place.
+Si vous ne parvenez pas à vous connecter avec la seule méthode d’authentification dont vous disposez, vous devrez supprimer votre compte et en créer un nouveau. Pour des raisons de sécurité, Login.gov ne peut pas déverrouiller votre compte ou se connecter à votre place.
 {% endcapture %}
 {% include alert.html type="warning" class="margin-bottom-4" content=delete_account_alert_content %}
 

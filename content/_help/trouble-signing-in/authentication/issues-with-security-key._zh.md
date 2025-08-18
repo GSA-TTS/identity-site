@@ -25,7 +25,7 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-security-key/
 
 ## 尝试注册安全密钥两次
 
-你只能将同一个安全密钥注册到你的帐户一次。添加一个不同的安全密钥。
+你只能将同一个安全密钥注册到你的帐户一次。请添加一个不同的安全密钥。
 
 
 ## 相关文章

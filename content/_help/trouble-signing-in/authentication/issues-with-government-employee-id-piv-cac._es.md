@@ -17,7 +17,7 @@ Estos son algunos motivos por los que su tarjeta PIV o CAC no funciona al autent
 
 [Contacte con el servicio de asistencia de Login.gov](/es/contact/) para obtener más ayuda.
 
-Si recibió recientemente una nueva tarjeta PIV o CAC, tendrá que borrar el certificado de la tarjeta PIV o CAC anterior y añadir el nuevo.
+Si recibió recientemente una nueva tarjeta PIV o CAC, tendrá que borrar la tarjeta PIV o CAC anterior y añadir la nueva.
 
 * Debe tener configurado otro método de autenticación para desactivar la tarjeta PIV o CAC anterior y activar una nueva.
 * Si tiene problema con su número de identificación personal (PIN) o con su certificado, deberá contactar con su departamento de TI. Login.gov no controla esta información.
@@ -29,7 +29,7 @@ Si desea hacer cambios a su tarjeta PIV o CAC vigente como método de autenticac
 
 1. Vaya a <https://secure.login.gov/es> e inicie sesión en su cuenta de Login.gov.
 
-1. Verifique que haya otro método de autenticación configurado en su cuenta antes de borrar una tarjeta.
+1. Verifique que haya otro método de autenticación configurado en su cuenta antes de eliminar una tarjeta.
 
 1. Si desea agregar una tarjeta nueva, haga clic en “Agregar identificación” debajo de la tarjeta PIV o CAC vigente, o en “Agregue su identificación de empleado del gobierno” debajo de “Sus métodos de autenticación” en el menú de navegación en el lado izquierdo (menú de tres líneas en los dispositivos móviles).
 

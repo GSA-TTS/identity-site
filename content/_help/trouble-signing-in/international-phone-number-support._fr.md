@@ -12,7 +12,7 @@ redirect_from:
 
 Les informations ci-dessous vous serviront à déterminer si votre numéro de téléphone étranger peut être utilisé comme méthode d'authentification à deux facteurs pour recevoir des SMS ou des appels téléphoniques. 
 
-En raison de problèmes de spam ou de modifications apportées par nos prestataires de services SMS et vocaux, il est possible que cette liste change et que votre numéro ne soit plus pris en charge. Parfois, les nouveaux numéros de téléphone ne sont pas non plus pris en charge de manière vocale ou par SMS. 
+En raison de problèmes de spam ou de modifications apportées par nos prestataires de services SMS et vocaux, il est possible que cette liste change et que votre numéro ne soit plus pris en charge. Parfois, les nouveaux numéros de téléphone ne sont pas non plus pris en charge pour les appels vocaux ou les SMS.
 
 Nous vous encourageons à configurer plus d'une méthode d'authentification pour éviter que votre compte ne soit bloqué si votre numéro de téléphone n'est plus pris en charge.
 

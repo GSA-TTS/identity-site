@@ -19,7 +19,7 @@ permalink: /zh/help/trouble-signing-in/authentication/issues-with-authentication
 
 ## 为什么我的身份证实应用程序代码要收费？
 
-使用 Microsoft Authenticator 或 Google Authenticator 等身份证实应用程序不应该收费。如果你被收费，可能是你安装了诈骗应用程序或者一个有些功能需要收费的应用程序，而你没有购买这些功能。
+使用 Microsoft Authenticator 或 Google Authenticator 等身份证实应用程序不应该收费。如果你被收费，可能是你安装了诈骗性应用程序或者一个有些功能需要收费的应用程序，而你没有购买这些功能。
 
 Login.gov 无法帮助你解决这个问题。请联系你身份证实应用程序的开发商。
 
