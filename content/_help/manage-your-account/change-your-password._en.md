@@ -25,6 +25,7 @@ Follow these steps to change your Login.gov password.
 1. Select “Edit” next to the password field.
 
 1. Enter your new password.
+
    * To help prevent identity theft, consider strengthening your password by using: 
      * Unique phrases that only you recognize 
      * Multiple words with spaces to get to 12 characters 

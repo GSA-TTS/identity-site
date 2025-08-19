@@ -21,7 +21,7 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
 
 5. Sur la page de votre compte Login.gov, passez en revue les options du menu « Vos méthodes d’authentification » sur le côté gauche de la page.
 
-6. Choisissez une nouvelle méthode à ajouter. [En savoir plus sur les méthodes d’authentification](/fr/help/create-account/authentication-methods/)
+6. Choisissez une nouvelle méthode à ajouter. [En savoir plus sur les méthodes d’authentification](/fr/help/create-account/authentication-methods/).
 
 7. Suivez toutes les instructions pour confirmer vos modifications.
 

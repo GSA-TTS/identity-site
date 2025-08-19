@@ -24,7 +24,7 @@ If you lost your authentication method and do not have a backup connected to you
 
 5. On your Login.gov account page, review the “Your authentication methods” menu options on the left side of the page.
 
-6. Select a new method to add. [Learn more about authentication methods](/help/create-account/authentication-methods/)
+6. Select a new method to add. [Learn more about authentication methods](/help/create-account/authentication-methods/).
 
 7. Follow all prompts to confirm your changes.
 

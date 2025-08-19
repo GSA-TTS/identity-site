@@ -21,7 +21,7 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
 
 5. En la página de su cuenta de Login.gov, revise las opciones del menú “Sus métodos de autenticación” en el lado izquierdo de la página.
 
-6. Seleccione el nuevo método que desea añadir. [Obtenga más información sobre los métodos de autenticación.](/es/help/create-account/authentication-methods/)
+6. Seleccione el nuevo método que desea añadir. [Obtenga más información sobre los métodos de autenticación](/es/help/create-account/authentication-methods/).
 
 7. Siga todas las indicaciones para confirmar sus cambios.
 
