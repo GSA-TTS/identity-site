@@ -60,11 +60,11 @@ collections:
           widget: 'select',
           options:
             [
-              { label: 'Get started with Login.gov', value: 'get-started' },
-              { label: 'Manage your account', value: 'manage-your-account' },
+              { label: 'Create my account', value: 'create-account' },
               { label: 'Trouble signing in?', value: 'trouble-signing-in' },
-              { label: 'Verify your identity', value: 'verify-your-identity' },
-              { label: 'Help with specific agencies', value: 'specific-agencies' },
+              { label: 'Manage my account', value: 'manage-your-account' },
+              { label: 'Verify my identity', value: 'verify-your-identity' },
+              { label: 'Help with agencies', value: 'specific-agencies' },
               { label: 'Fraud concerns', value: 'fraud-concerns'},
             ],
           default: 'get-started',
