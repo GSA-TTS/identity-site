@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Fraud Concerns
+title: Fraud concerns
 category: fraud-concerns
 permalink: /help/fraud-concerns/overview/
 order: 0
