@@ -19,7 +19,7 @@ steps:
     * Las contraseñas deben tener al menos 12 caracteres y no deben incluir palabras o frases de uso común.
   step3: >-
     ## 3. Uno o más [métodos de
-    autenticación](/es/help/get-started/authentication-methods/)
+    autenticación](/es/help/create-account/authentication-methods/)
     como:
 
 

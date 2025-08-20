@@ -63,3 +63,9 @@ ol.number-list {
     }
   }
 }
+
+ul.spaced-list {
+  li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}

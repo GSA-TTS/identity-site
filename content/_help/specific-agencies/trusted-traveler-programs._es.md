@@ -51,7 +51,8 @@ Para acceder a la información de su cuenta en los programas de viajeros de conf
 
 Si inicia sesión directamente en la página principal de Login.gov, solo verá la información de su cuenta de Login.gov.
 
-## Related articles
 
-* [Ayuda con agencias específicas](/es/help/specific-agencies/overview/)
-* [Vuelva a vincular sus cuentas](/es/help/manage-your-account/relink-your-accounts/)
+## Otros artículos
+
+* [Ayuda con agencias](/es/help/specific-agencies/overview/)
+* [¿Cómo vuelvo a vincular mi cuenta a una agencia asociada?](/es/help/manage-your-account/relink-your-accounts/)

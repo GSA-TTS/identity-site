@@ -2,6 +2,7 @@
 
 @use 'uswds-core' as *;
 @use '../../variables' as *;
+@use '../../colors' as *;
 @forward 'usa-link';
 
 .partners-container {
@@ -91,7 +92,7 @@
 
 .partners-blue-box {
   border-radius: 25px;
-  background: #205493;
+  background: $blue-mid;
   color: white;
   height: 100%;
   padding-left: 20px;

@@ -1,52 +1,69 @@
 ---
 layout: help
-title: Confirmer votre identité
+title: Comment puis-je confirmer mon identité ?
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/overview/
-meta_title: Aperçu
 order: 0
 redirect_from:
+  - /fr/help/identity-verification/i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity/
+  - /fr/help/verifying-your-identity/dont-have-a-state-issued-id/
+  - /fr/help/verify-your-identity/accepted-state-issued-identification/
+  - /fr/help/verify-your-identity/how-to-verify-your-identity/
+  - /fr/help/verify-your-identity/accepted-identification-documents/
   - /fr/help/verify-your-identity/
   - /fr/help/identity-verification/i-have-more-than-one-logingov-account-can-I-verify-my-identity-for-all-of-them/
   - /fr/help/identity-verification/related-articles/
   - /fr/help/identity-verification/why-do-i-need-to-verify-my-identity/
   - /fr/help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
   - /fr/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
+accept_id_list:
+- Permis de conduire des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, îles Vierges des États-Unis, Samoa américaines, îles Mariannes et Porto Rico)
+- Carte d’identité délivrée par un État. Il s'agit d'une pièce d'identité délivrée par un État, le District de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais n’autorise pas à conduire.
+reject_id_list:
+- Les passeports américains
+- Les cartes d'identité militaires
+- Les pièces d’identité expirées ou les documents prorogés
+- Les documents d’identité papier ou provisoires
+- Les pièces d’identité d’un pays autre que les États-Unis
 ---
 
-La vérification d'identité est le processus qui vous permet de prouver que vous êtes bien vous-même et non une tierce personne qui se fait passer pour vous. Vous devrez [créer votre compte Login.gov](/fr/create-an-account/) et confirmer votre identité pour accéder aux services de certaines autorités fédérales.
+La vérification d'identité est le processus qui vous permet de prouver que vous êtes bien vous-même et non une tierce personne qui se fait passer pour vous. Après avoir [créé votre compte Login.gov](/fr/create-an-account/) ou vous être connecté, il peut vous être nécessaire de confirmer votre identité auprès de certains organismes pour accéder à leurs services.
 
-## Ce dont vous avez besoin pour confirmer votre identité
+## De quoi ai-je besoin pour confirmer mon identité ?
 
-Vous prendrez une photo de votre [permis de conduire officiel ou carte d’identité d’un État](/fr/help/verify-your-identity/accepted-identification-documents/) et saisirez vos renseignements personnels afin de confirmer votre identité en ligne.
+Vous avez besoin d’un permis de conduire ou d’une carte d’identité d’un État, ainsi que d’un numéro de téléphone des États-Unis ou d’une adresse pour confirmer votre identité auprès de Login.gov.
 
-Il est possible que vous deviez prendre une [photo de vous-même](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself) avec un téléphone afin de confirmer votre identité en ligne. Ceci a pour but de confirmer que vous êtes la personne figurant sur votre pièce d’identité. Si vous n'avez pas de téléphone équipé d'une caméra, vous pouvez [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/).
+Si vous ne remplissez pas toutes ces conditions, prenez contact avec l’organisme auquel vous cherchez à vous connecter pour trouver une autre solution.
 
-{%
-  include components/two-column-image-bullet-list.html
+## Quelle pièce d’identité puis-je utiliser ?
 
-  column1-image='/assets/img/help/create-an-account.svg'
-  column1-header='Ce dont vous avez besoin pour créer un compte Login.gov'
-  column1-bullets='E-mail|Mot de passe|Méthode d’authentification'
-  column1-class='padding-105 border border-info-light'
+### Login.gov accepte les types de pièces d’identité suivants :
 
-  column2-image='/assets/img/help/verify-your-identity.svg'
-  column2-header='Ce dont vous avez besoin pour confirmer votre identité'
-  column2-bullets='Permis de conduire ou carte d’identité d’un État|Numéro de sécurité sociale|Numéro de téléphone ou adresse'
-  column2-footer='Certains services requièrent que vous preniez une photo de vous pour confirmer votre identité en ligne.'
-  column2-class='padding-105 border border-info-light bg-info-lighter'
-%}
+{% include components/icon-list.html items=page.accept_id_list size='md' icon_color='success' icon_shape='check_circle'%}
 
-## Comment nous utilisons vos informations
+### Nous n’acceptons pas :
 
-Login.gov est un site web sécurisé de l’administration qui respecte les normes les plus strictes en matière de protection des données.
+{% include components/icon-list.html items=page.reject_id_list size='md' icon_color='error' icon_shape='cancel' %}
 
-Login.gov ne stocke pas d’image de votre pièce d’identité ni de vous-même. Nous sollicitons votre consentement avant de partager les informations vérifiées vous concernant avec l’organisme partenaire. [En savoir davantage sur nos mesures de protection et de sécurité.](/fr/policy/)
+## Comment s’effectue la vérification d’identité ?
+
+{: .number-list}
+
+1. Prenez des [photos de votre pièce d’identité en ligne](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/). Il peut également vous être demandé de [vous prendre en photo](/fr/help/verify-your-identity/issues-taking-a-photo-of-myself/) afin de confirmer que vous êtes le titulaire de votre pièce d’identité. Si vous rencontrez des difficultés pour prendre des photos de votre pièce d’identité ou vous prendre en photo, vous devriez pouvoir [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau de poste des États-Unis près de chez vous.
+
+1. Saisissez votre numéro de Sécurité sociale et nous vérifierons que vos [renseignements personnels](/fr/help/verify-your-identity/issues-verifying-my-personal-information/) correspondent aux informations enregistrées sur les registres publics et privés.
+
+1. Nous confirmerons votre [numéro de téléphone](/fr/help/verify-your-identity/phone-number/) en envoyant un code à usage unique à ce numéro. Si cette méthode ne marche pas, il est possible de [vérifier votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/).
+
+1. Saisissez à nouveau votre mot de passe pour enregistrer les renseignements déjà vérifiés dans votre compte, puis connectez ces informations à l’organisme partenaire auquel vous tentez de vous connecter.
+
+## Comment Login.gov utilise-t-il mes renseignements ?
+
+Login.gov est un site Web sécurisé de l’administration qui respecte les normes les plus strictes en matière de protection des données. Nous sollicitons votre consentement avant de partager les informations vérifiées vous concernant avec l’organisme partenaire. [En savoir plus sur nos mesures de confidentialité et de sécurité](/fr/policy/).
 
 ## Articles connexes
 
-* [Comment vérifier votre identité](/fr/help/verify-your-identity/how-to-verify-your-identity/)
-* [Documents d’identification acceptés](/fr/help/verify-your-identity/accepted-identification-documents/)
-* [Comment ajouter des images de votre permis de conduire ou de votre carte d'identité de l’État](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
-* [Vérifiez votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
-* [Validez votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)
+* [Problèmes pour prendre les photos de ma pièce d’identité](/fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [Problèmes liés à la vérification de mes renseignements personnels](/fr/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Problèmes en lien avec la vérification de mon numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
+* [Problèmes liés à la vérification de mon identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/)

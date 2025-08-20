@@ -1,6 +1,13 @@
 ---
-title: Problemas con los métodos de autenticación
+title: Tengo problemas para autenticarme
 category: trouble-signing-in
+children:
+  - /es/help/trouble-signing-in/authentication/issues-with-authentication-application/
+  - /es/help/trouble-signing-in/authentication/issues-with-backup-codes/
+  - /es/help/trouble-signing-in/authentication/face-and-touch-unlock/
+  - /es/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/
+  - /es/help/trouble-signing-in/authentication/issues-with-security-key/
+  - /es/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/
 permalink: /es/help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
 redirect_from:
@@ -22,53 +29,30 @@ redirect_from:
   - /es/help/signing-in/why-is-my-security-code-invalid/
 ---
 
-Según los métodos de autenticación que haya configurado, es posible que todavía pueda acceder a su cuenta de Login.gov. Una vez que pueda iniciar sesión, cerciórese de haber configurado más de un método de autenticación para evitar perder el acceso a su cuenta.
+## Si olvidó o perdió su clave personal
+
+Según los métodos de autenticación que haya configurado, es posible que todavía pueda acceder a su cuenta de Login.gov. Una vez que pueda iniciar sesión, asegúrese de haber configurado más de un método de autenticación para evitar perder el acceso a su cuenta.
 
 {% capture delete_account_alert_content %}
-Si no puede iniciar sesión con su único método de autenticación, tendrá que eliminar su cuenta y crear una nueva. Login.gov no puede desbloquear su cuenta ni iniciar sesión por usted.
+Si no puede iniciar sesión con sus métodos de autenticación, tendrá que borrar su cuenta y crear una nueva. Por motivos de seguridad, Login.gov no puede desbloquear su cuenta ni iniciar sesión por usted.
 {% endcapture %}
 {% include alert.html type="warning" class="margin-bottom-4" content=delete_account_alert_content %}
 
-## El desbloqueo facial o táctil no funciona
+{: .help-question-list}
 
-Si su dispositivo y navegador admiten la sincronización en la nube, puede utilizar el desbloqueo facial o táctil en varios dispositivos. De lo contrario, el desbloqueo facial o táctil solo funciona en el mismo dispositivo y navegador donde lo configuró.
+* [Problemas con el desbloqueo facial y táctil](/es/help/trouble-signing-in/authentication/face-and-touch-unlock/)
 
-* Si configura el desbloqueo facial o táctil en un dispositivo que no admite la sincronización en la nube, intente utilizar el mismo dispositivo y navegador para desbloquear su cuenta. Si ya no tiene acceso a ellos, deberá usar otro método de autenticación.
-* Si configuró el desbloqueo facial o táctil en un dispositivo en el que había iniciado sesión en un servicio en la nube, como iCloud o su cuenta de Google, es posible que pueda iniciar sesión en cualquier otro dispositivo siempre que también haya iniciado sesión en ese servicio en la nube.
-* Si configura el desbloqueo facial o táctil en otro dispositivo, pero no ve el desbloqueo facial o táctil al iniciar sesión en Login.gov, su dispositivo actual no admite el desbloqueo facial o táctil. Trate de usar el mismo dispositivo y navegador que utilizó para configurarlo.
+* [Problemas con mensajes de texto (SMS) o llamadas telefónicas](/es/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
 
-Le recomendamos que configure otros métodos de autenticación en caso de que pierda el acceso a un dispositivo compatible con el desbloqueo facial o táctil.
+* [Problemas con la aplicación de autenticación](/es/help/trouble-signing-in/authentication/issues-with-authentication-application/)
 
-## No recibo mensajes de texto ni llamadas telefónicas
+* [Problemas con los códigos de recuperación](/es/help/trouble-signing-in/authentication/issues-with-backup-codes/)
 
-* Si tiene un teléfono fijo, elija recibir su código de un solo uso mediante una llamada telefónica en lugar de un mensaje de texto. Recibirá un mensaje de voz si no puede contestar la llamada.
-* Si tiene un teléfono móvil, asegúrese de que el modo de avión esté desactivado.
-* Es posible que su código no llegue inmediatamente. Espere hasta 10 minutos, o pruebe el botón “Reenviar código” para volver a enviar su código.
-* Cerciórese de que no está usando un número de teléfono con extensión, ya que Login.gov no puede enviar códigos de un solo uso a extensiones.
+* [Problemas con la clave de seguridad](/es/help/trouble-signing-in/authentication/issues-with-security-key/)
 
-{% capture newest_otp_alert_content %}
-Solo funcionará el código de un solo uso más reciente que reciba. Si solicita y recibe varios mensajes al mismo tiempo, es posible que tenga que probar más de un código hasta que uno funcione.
-{% endcapture %}
-{% include alert.html class="margin-bottom-4" content=newest_otp_alert_content %}
-
-## Mi aplicación de autenticación no funciona
-
-* Puede ser que la hora no esté correctamente sincronizada entre su dispositivo y su aplicación de autenticación. Confirme que la hora de su dispositivo sea la correcta utilizando una página como [time.gov](https://www.time.gov/).
-
-  * Si usa Google Authenticator, es posible que tenga que sincronizar la hora manualmente. [Siga las instrucciones de Google para sincronizar la hora](https://support.google.com/accounts/answer/185834?hl=en).
-
-## Mi código de recuperación no funciona
-
-* Asegúrese de que está usando un código de recuperación que aún no ha utilizado. Cuando utilice los diez códigos de recuperación, le proporcionaremos una lista nueva de códigos.
-
-## Perdí o me robaron la clave de seguridad o el teléfono
-
-* Si puede volver a acceder al número original de su teléfono, hágalo primero y luego solicite un código de un solo uso. Debería recibir el código aunque esté usando un dispositivo y una tarjeta SIM nuevos.
-* Si perdió su clave de seguridad, tendrá que utilizar un método de autenticación diferente o eliminar su cuenta si no dispone de otro método de autenticación, a menos que ya haya configurado una copia de seguridad.
-
-## Mi tarjeta PIV o CAC no funciona
-* Puede ser que Login.gov no tenga un certificado de emisión para su tarjeta. [Contacte con el servicio de asistencia de Login.gov para obtener más ayuda.](/es/contact/)
+* [Problemas con la identificación de empleado del gobierno](/es/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 
 ## Otros artículos
 
-* [Métodos de autenticación](/es/help/get-started/authentication-methods/)
+* [¿Cómo cambio la dirección de correo electrónico asociada con mi cuenta?](/es/help/manage-your-account/change-your-email-address/)
+* [¿Como cambio el número de teléfono asociado con mi cuenta?](/es/help/manage-your-account/change-your-phone-number/)

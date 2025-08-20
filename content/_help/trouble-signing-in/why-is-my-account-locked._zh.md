@@ -1,0 +1,42 @@
+---
+layout: help
+title: 为什么我的帐户被锁？
+category: trouble-signing-in
+permalink: /zh/help/trouble-signing-in/why-is-my-account-locked/
+order: 5
+---
+
+## 如果你在尝试登录时帐户被锁：
+
+* 你可能输入错误的密码次数过多。请等待 10 分钟，然后再试。
+  * 如果你忘记了密码，请按照密码重设流程操作。
+* 你可能在这段时间内要求了过多安全码。请等待 10 分钟，然后再试。
+* 你可能输入安全码的次数过多。请等待 10 分钟，然后再试。
+
+## 如果你的帐户在身份验证期间被锁：
+
+你的帐户被锁，是因为我们限制你在网上尝试验证 ID、个人信息或电话号码的次数。这种安全预防措施旨在防止别人企图使用他人的个人信息访问 Login.gov。
+
+你需要等待 6 个小时才能再次尝试验证你的身份。
+
+**6 小时后：**
+
+{: .number-list}
+
+1. 返回你想访问的合作伙伴机构网站。
+
+1. 使用你的电邮地址、密码和身份证实方法登录。请勿创建新帐户。
+
+1. 系统将提示你再次验证身份。
+
+1. [添加你的 ID 照片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)时，请确保 ID 上的姓名、地址和其他信息都清晰易读，然后再提交。
+
+1. [验证个人信息](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)时，请查看屏幕上所有信息是否都正确。如果你的地址或社会保障号码有误，你可以在提交前更新这些信息。
+
+1. [验证你的电话号码](/zh/help/verify-your-identity/phone-number/)时，请检查你输入的电话号码是否正确以及你使用的是否是可接受的一类号码。
+
+
+## 相关文章
+
+* [为什么我的帐户被停用？](/zh/help/manage-your-account/deactivated/)
+* [我如何删除自己的账户？](/zh/help/manage-your-account/delete-your-account/)

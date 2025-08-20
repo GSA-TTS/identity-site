@@ -1,10 +1,21 @@
 ---
-title: Verify your identity
+title: How do I verify my identity?
 category: verify-your-identity
 permalink: /help/verify-your-identity/overview/
-meta_title: Overview
 order: 0
 redirect_from:
+- /help/identity-verification/i-do-not-have-a-state-issued-id-can-i-still-verify-my-identity/
+- /help/verifying-your-identity/dont-have-a-state-issued-id/
+- /help/verify-your-identity/accepted-state-issued-identification/
+- /en/help/verify-your-identity/accepted-state-issued-identification/
+- /en/help/verify-your-identity/accepted-identification-documents/
+- /en/help/verify-your-identity/how-to-verify-your-identity/
+- /en/help/verifying-your-identity/how-to-verify-my-identity/
+- /en/help/identity-verification/how-do-i-verify-my-identity-on-logingov/
+- /help/identity-verification/how-do-i-verify-my-identity-on-logingov/
+- /help/verifying-your-identity/how-to-verify-my-identity/
+- /help/verify-your-identity/how-to-verify-your-identity/
+- /help/verify-your-identity/accepted-identification-documents/
 - /help/verify-your-identity/
 - /en/help/verify-your-identity/
 - /en/help/verify-your-identity/overview/
@@ -13,42 +24,56 @@ redirect_from:
 - /help/identity-verification/why-do-i-need-to-verify-my-identity/
 - /help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
 - /help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
+accept_id_list:
+- Driver’s license from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico).
+- Non-driver’s license state-issued ID card. This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges.
+reject_id_list:
+- U.S. passports
+- military IDs
+- expired IDs or extension documents paper or temporary IDs
+- non-U.S. IDs
 ---
 
-Identity verification is the process where you prove you are you — and not someone pretending to be you. You will need to [create your Login.gov account](/create-an-account/) and verify your identity to access services at some government agencies.
+Identity verification is the process where you prove you are you — and not someone pretending to be you. After [you create your Login.gov account](/create-an-account/) or sign in, you may need to verify your identity to access services at some agencies.
 
-## What you’ll need to verify your identity
+## What do I need to verify my identity?
 
-You’ll take a photo of your [accepted driver’s license or state ID card](/help/verify-your-identity/accepted-identification-documents/) and enter your personal information to verify your identity online.
+You will need a driver’s license or state ID, a Social Security number, and a U.S. phone number or mailing address to verify your identity with Login.gov.
 
-You may need to take a [photo of yourself](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself) with a phone to verify your identity online. This is to check that you are the person on your ID. If you don’t have a phone with a camera, you can [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/).
+If you don’t have all of these requirements, contact the agency you are trying to access to find out what you can do instead.
 
-{%
-  include components/two-column-image-bullet-list.html
+## What ID can I use?
 
-  column1-image='/assets/img/help/create-an-account.svg'
-  column1-header='What you’ll need to create a Login.gov account'
-  column1-bullets='Email|Password|Authentication method'
-  column1-class='padding-105 border border-info-light'
+### Login.gov accepts these ID types:
 
-  column2-image='/assets/img/help/verify-your-identity.svg'
-  column2-header='What you’ll need to verify your identity'
-  column2-bullets='Driver’s license or state ID card|Social Security Number|Phone number or address'
-  column2-footer='Some services need you to take a photo of yourself with a phone to verify your identity online.'
-  column2-class='padding-105 border border-info-light bg-info-lighter'
-%}
 
-## How we use your information
+{% include components/icon-list.html items=page.accept_id_list size='md' icon_color='success' icon_shape='check_circle'%}
 
-Login.gov is a secure, government website that adheres to the highest standards in data protection.
+### We do not accept:
 
-Login.gov does not store images of your ID or the photo of yourself. We ask for your consent before we share your verified information with the partner agency. [Learn more about our privacy and security measures](/policy/).
 
+{% include components/icon-list.html items=page.reject_id_list size='md' icon_color='error' icon_shape='cancel' %}
+
+## How does identity verification work?
+
+
+{: .number-list}
+
+1. Take [photos of your ID online](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/). You may also be asked to [take a photo of yourself](/help/verify-your-identity/issues-taking-a-photo-of-myself/) to confirm that you are the owner of your ID. If you have trouble taking photos of your ID and yourself, you may also be able to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) at a United States Post Office near you.
+
+1. Enter your Social Security number and we will [verify your personal information](/help/verify-your-identity/issues-verifying-my-personal-information/) against public and proprietary records.
+
+1. We will [verify your phone number](/help/verify-your-identity/phone-number/) and send a one-time code to your phone. If that doesn’t work, we may be able to [verify your address by mail](/help/verify-your-identity/verify-your-address-by-mail/).
+
+1. Re-enter your password to store your verified information in your account, and connect your information to the partner agency you are trying to access.
+
+## How does Login.gov use my information?
+
+Login.gov is a secure, government website that adheres to the highest standards in data protection. We ask for your consent before we share your verified information with the partner agency. [Learn more about our privacy and security measures](/policy/).
 
 ## Related articles
 
-* [How to verify your identity](/help/verify-your-identity/how-to-verify-your-identity/)
-* [Accepted identification documents](/help/verify-your-identity/accepted-identification-documents/)
-* [How to take a photo of yourself](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/#how-to-take-photos-of-yourself)
-* [Verify your phone number](/help/verify-your-identity/phone-number/)
-* [Verify your address by mail](/help/verify-your-identity/verify-your-address-by-mail/)
+* [Issues taking photos of my ID](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [Issues verifying my personal information](/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Issues verifying my phone number](/help/verify-your-identity/phone-number/)
+* [Issues verifying my identity in person](/help/verify-your-identity/verify-your-identity-in-person/)

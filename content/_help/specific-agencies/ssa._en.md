@@ -8,6 +8,7 @@ order: 3
 redirect_from:
   - /en/help/specific-agencies/ssa/
 ---
+
 Login.gov is for secure sign in only. Your Login.gov account does not affect or have any information about your Social Security card, number, or benefits.
 
 Please do not send Login.gov sensitive data about yourself or identifying numbers.
@@ -30,6 +31,7 @@ Please contact [SSA.gov](https://www.ssa.gov/) directly if you have questions re
 Call 1-800-772-1213 between 8:00 a.m. – 7:00 p.m. Monday through Friday, or the TTY number at 1-800-325-0778. Or, [submit your request via web form](https://secure.ssa.gov/emailus/).
 
 If you live abroad, [SSA.gov provides contact information by country](https://www.ssa.gov/foreign/).
+
 
 ## Related articles
 

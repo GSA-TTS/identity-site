@@ -6,6 +6,7 @@ permalink: /zh/help/specific-agencies/ssa/
 keywords: 社会保障、社会保障福利、补发社会保障卡、社会保障卡、ssa、社会保障卡的补发、社会保障明细表、补发社会保障卡、新的社会保障卡、新卡、补发卡、SS 明细表、社会保障账户、社会保障署、ssa.gov，我需要一个新社会保障卡
 order: 3
 ---
+
 Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。你的 Login.gov 账户不影响你社会保障卡、申请、号码或福利，也没有任何有关上述各项的信息。
 
 请不要给 Login.gov 发送有关自己的敏感信息或显示自己身份的成员号码。
@@ -28,9 +29,10 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 
 请在周一到周五早8点到晚7点期间拨打 1-800-772-1213，或 TTY 号码 1-800-325-0778。或者， [通过网上表格提交你的请求](https://secure.ssa.gov/emailus/)。
 
-如果你住在海外， [SSA.gov 有按国别提供的联系消息。](https://www.ssa.gov/foreign/)
+如果你住在海外，[SSA.gov 有按国别提供的联系消息。](https://www.ssa.gov/foreign/)
 
-## Related articles
+
+## 相关文章
 
 * [与具体政府机构相关的帮助](/zh/help/specific-agencies/overview/)
 * [重新关联你的账户](/zh/help/manage-your-account/relink-your-accounts/)
