@@ -1,5 +1,5 @@
 ---
-title: ¿Cómo verifico mi identidad?
+title: Verificar mi identidad
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/overview/
 order: 0
@@ -16,11 +16,13 @@ redirect_from:
   - /es/help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
   - /es/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 accept_id_list:
-- Licencia de conducir de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico).
-- Tarjeta de identificación emitida por el estado que no sea una licencia de conducir, es decir, un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no otorga privilegios para conducir.
+- __Licencia de conducir__ de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico).
+- __Tarjeta de identificación estatal que no sea una licencia de conducir.__ Un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no concede permiso para conducir.
+- __Libreta de pasaporte de los EE. UU.__ En algunos casos, se aceptan los pasaportes. Si no ve la opción de verificar su identidad con un pasaporte, utilice su licencia de conducir o una identificación estatal, o bien intente verificar su identidad más tarde.
 reject_id_list:
-- Pasaportes estadounidenses
+- Tarjetas de pasaporte de los EE. UU. y pasaportes que no sean de los Estados Unidos
 - Identificaciones militares
+- Tarjetas de permiso o de licencia para portar armas de fuego
 - Identificaciones vencidas o documentos de prórroga
 - Identificaciones en papel o temporales
 - Identificaciones que no sean de los EE. UU.
@@ -31,6 +33,11 @@ La verificación de identidad es el proceso por el cual usted demuestra que es q
 ## ¿Qué necesito para verificar mi identidad?
 
 Para verificar su identidad en Login.gov, necesitará una licencia de conducir o identificación estatal, un número de Seguro Social y un número de teléfono o dirección postal en los EE. UU.
+
+Para verificar su identidad con Login.gov, necesitará su: 
+* Licencia de conducir, identificación estatal o libreta de pasaporte de los EE. UU.
+* Número de Seguro Social
+* Número de teléfono o dirección postal en los EE. UU.
 
 Si no tiene todos estos requisitos, contacte con la agencia a la que está intentando acceder para saber lo que puede hacer en ese caso.
 
@@ -44,7 +51,7 @@ Si no tiene todos estos requisitos, contacte con la agencia a la que está inten
 
 {% include components/icon-list.html items=page.reject_id_list size='md' icon_color='error' icon_shape='cancel' %}
 
-## ¿Cómo funciona la verificación de identidad?
+## ¿Cómo verifico mi identidad?
 
 {: .number-list}
 

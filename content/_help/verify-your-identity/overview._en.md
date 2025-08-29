@@ -1,5 +1,5 @@
 ---
-title: How do I verify my identity?
+title: Verify my identity
 category: verify-your-identity
 permalink: /help/verify-your-identity/overview/
 order: 0
@@ -25,13 +25,16 @@ redirect_from:
 - /help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
 - /help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 accept_id_list:
-- Driver’s license from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico).
-- Non-driver’s license state-issued ID card. This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges.
+- __Driver’s license__ from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico).
+- __Non-driver’s license state ID card.__ This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges.
+- __U.S. Passport book.__ Passports are accepted in some cases. If you don’t see the option to verify your identity with a passport, use a driver’s license or state ID, or try to verify your identity again later. 
 reject_id_list:
-- U.S. passports
-- military IDs
-- expired IDs or extension documents paper or temporary IDs
-- non-U.S. IDs
+- U.S. passport cards and non-U.S. passports
+- Military IDs
+- Firearm license or permit cards
+- Expired IDs or extension documents
+- Paper or temporary IDs
+- Non-U.S. IDs
 ---
 
 Identity verification is the process where you prove you are you — and not someone pretending to be you. After [you create your Login.gov account](/create-an-account/) or sign in, you may need to verify your identity to access services at some agencies.
@@ -39,6 +42,11 @@ Identity verification is the process where you prove you are you — and not som
 ## What do I need to verify my identity?
 
 You will need a driver’s license or state ID, a Social Security number, and a U.S. phone number or mailing address to verify your identity with Login.gov.
+
+To verify your identity with Login.gov, you will need a:
+* Driver’s license, state ID, or U.S. passport book
+* Social Security number
+* U.S. phone number or mailing address 
 
 If you don’t have all of these requirements, contact the agency you are trying to access to find out what you can do instead.
 
@@ -54,7 +62,7 @@ If you don’t have all of these requirements, contact the agency you are trying
 
 {% include components/icon-list.html items=page.reject_id_list size='md' icon_color='error' icon_shape='cancel' %}
 
-## How does identity verification work?
+## How do I verify my identity?
 
 
 {: .number-list}

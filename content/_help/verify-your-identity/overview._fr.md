@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Comment puis-je confirmer mon identité ?
+title: Confirmer mon identité
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/overview/
 order: 0
@@ -17,12 +17,14 @@ redirect_from:
   - /fr/help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
   - /fr/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 accept_id_list:
-- Permis de conduire des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, îles Vierges des États-Unis, Samoa américaines, îles Mariannes et Porto Rico)
-- Carte d’identité délivrée par un État. Il s'agit d'une pièce d'identité délivrée par un État, le District de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais n’autorise pas à conduire.
+- Un __permis de conduire__ de l’un des 50 États des États-Unis, du District de Columbia (DC) et d’autres territoires des États-Unis (Guam, îles Vierges des États-Unis, Samoa américaines, îles Mariannes et Porto Rico).
+- Une __carte d’identité d’un État qui n’est pas un permis de conduire.__ Il s'agit d'une pièce d'identité délivrée par un État, le District de Columbia (DC) ou un territoire américain, qui atteste de l'identité mais n’autorise pas à conduire.
+- Un __passeport américain au format livret.__ Le passeport est accepté dans certains cas. Si vous ne voyez pas l’option permettant de confirmer votre identité à l’aide d’un passeport, utilisez un permis de conduire ou une carte d’identité d’un État ou essayez de confirmer votre identité ultérieurement.
 reject_id_list:
-- Les passeports américains
+- Les cartes de passeport américain et les passeports étrangers
 - Les cartes d'identité militaires
-- Les pièces d’identité expirées ou les documents prorogés
+- Les cartes ou permis de port d’arme à feu
+- Les pièces d’identité expirées ou prorogées
 - Les documents d’identité papier ou provisoires
 - Les pièces d’identité d’un pays autre que les États-Unis
 ---
@@ -32,6 +34,11 @@ La vérification d'identité est le processus qui vous permet de prouver que vou
 ## De quoi ai-je besoin pour confirmer mon identité ?
 
 Vous avez besoin d’un permis de conduire ou d’une carte d’identité d’un État, ainsi que d’un numéro de téléphone des États-Unis ou d’une adresse pour confirmer votre identité auprès de Login.gov.
+
+Pour confirmer votre identité auprès de Login.gov, il vous faut :
+* Un permis de conduire, une carte d’identité d’un État ou un passeport américain (livret)
+* Un numéro de sécurité sociale
+* Un numéro de téléphone des États-Unis ou une adresse postale
 
 Si vous ne remplissez pas toutes ces conditions, prenez contact avec l’organisme auquel vous cherchez à vous connecter pour trouver une autre solution.
 
@@ -45,7 +52,7 @@ Si vous ne remplissez pas toutes ces conditions, prenez contact avec l’organis
 
 {% include components/icon-list.html items=page.reject_id_list size='md' icon_color='error' icon_shape='cancel' %}
 
-## Comment s’effectue la vérification d’identité ?
+## Comment puis-je confirmer mon identité ?
 
 {: .number-list}
 

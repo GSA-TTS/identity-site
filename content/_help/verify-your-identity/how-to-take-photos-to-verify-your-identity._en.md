@@ -12,7 +12,7 @@ redirect_from:
 
 To verify your identity, you will need to take photos of your ID online, or [bring your ID in person](/help/verify-your-identity/verify-your-identity-in-person/) to a United States Post Office.
 
-## I am having trouble taking photos of my ID
+## I’m having trouble taking photos of my ID
 
 You need a phone or tablet with a camera to take photos of your ID using Login.gov’s camera tool, not a webcam. If you are using a computer, we will text you a link to open Login.gov on your phone or tablet. You will switch back to your computer after you take photos.
 
@@ -89,9 +89,9 @@ You need a phone or tablet with a camera to take photos of your ID using Login.g
 
 If you don’t have a phone or tablet with a camera, you may be able to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) at a United States Post Office near you.
 
-## The camera tool is not working
+## The camera tool isn’t working
 
-If Login.gov’s camera tool to take a photo of your ID is not working, check that you are using the latest version of your iOS or Android operating system, and that you are using the recommended web browser for your phone or tablet.
+If Login.gov’s camera tool to take a photo of your ID isn’t working, check that you are using the latest version of your iOS or Android operating system, and that you are using the recommended web browser for your phone or tablet.
 
 You may need to update your operating system or web browser, clear your cache or cookies, or give Login.gov permission to use the camera.
 
@@ -136,7 +136,7 @@ You may need to update your operating system or web browser, clear your cache or
   </div>
 </div>
 
-## I got an error that Login.gov could not verify my ID
+## Login.gov couldn't verify my ID
 
 If you submit your photos and get an error message that we could not verify your ID, check that you are using an accepted ID type.
 
@@ -154,16 +154,18 @@ If you submit your photos and get an error message that we could not verify your
   <div id="id-types-accordion" class="usa-accordion__content usa-prose">
     <p><strong>Login.gov accepts these ID types:</strong></p>
     <ul>
-      <li>Driver’s license from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico).</li>
-      <li>Non-driver’s license state-issued ID card. This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges.</li>
+      <li><strong>Driver’s license</strong> from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico).</li>
+      <li><strong>Non-driver’s license state ID card.</strong> This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges.</li>
+      <li><strong>U.S. Passport book.</strong> Passports are accepted in some cases. If you don’t see the option to verify your identity with a passport, use a driver’s license or state ID, or try to verify your identity again later.</li>
     </ul>
     <p><strong>We do not accept:</strong></p>
     <ul>
-      <li>U.S. passports</li>
-      <li>military IDs</li>
-      <li>expired IDs or extension documents</li>
-      <li>paper or temporary IDs</li>
-      <li>non-U.S. IDs</li>
+      <li>U.S. passport cards and non-U.S. passports</li>
+      <li>Military IDs</li>
+      <li>Firearm license or permit cards</li>
+      <li>Expired IDs or extension documents</li>
+      <li>Paper or temporary IDs</li>
+      <li>Non-U.S. IDs</li>
     </ul>
   </div>
 </div>
