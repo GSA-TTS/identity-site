@@ -153,14 +153,16 @@ Si vous envoyez vos photos et recevez un message d’erreur selon lequel nous n�
   <div id="id-types-accordion" class="usa-accordion__content usa-prose">
     <p><strong>Login.gov accepte les types de pièces d’identité suivants :</strong></p>
     <ul>
-      <li>Permis de conduire des 50 États des États-Unis, du District de Columbia (D.C.) et d’autres territoires des États-Unis (Guam, îles Vierges des États-Unis, Samoa américaines, îles Mariannes et Porto Rico)</li>
-      <li>Carte d’identité délivrée par un État. Il s'agit d'une pièce d'identité délivrée par un État, le District de Columbia (D.C.) ou un territoire américain, qui atteste de l'identité mais n’autorise pas à conduire.</li>
+      <li>Un <strong>permis de conduire</strong> de l’un des 50 États des États-Unis, du District de Columbia (DC) et d’autres territoires des États-Unis (Guam, îles Vierges des États-Unis, Samoa américaines, îles Mariannes et Porto Rico).</li>
+      <li>Une <strong>carte d’identité d’un État qui n’est pas un permis de conduire.</strong> Il s'agit d'une pièce d'identité délivrée par un État, le District de Columbia (DC) ou un territoire américain, qui atteste de l'identité mais n’autorise pas à conduire.</li>
+      <li>Un <strong>passeport américain au format livret.</strong> Le passeport est accepté dans certains cas. Si vous ne voyez pas l’option permettant de confirmer votre identité à l’aide d’un passeport, utilisez un permis de conduire ou une carte d’identité d’un État ou essayez de confirmer votre identité ultérieurement.</li>
     </ul>
     <p><strong>Nous n’acceptons pas :</strong></p>
     <ul>
-      <li>Les passeports américains</li>
+      <li>Les cartes de passeport américain et les passeports étrangers</li>
       <li>Les cartes d'identité militaires</li>
-      <li>Les pièces d’identité expirées ou les documents prorogés</li>
+      <li>Les cartes ou permis de port d’arme à feu</li>
+      <li>Les pièces d’identité expirées ou prorogées</li>
       <li>Les documents d’identité papier ou provisoires</li>
       <li>Les pièces d’identité d’un pays autre que les États-Unis</li>
     </ul>

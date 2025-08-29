@@ -153,13 +153,15 @@ Si envía sus fotos y recibe un mensaje de error que indica que su identificaci�
   <div id="id-types-accordion" class="usa-accordion__content usa-prose">
     <p><strong>Login.gov acepta estos tipos de identificación:</strong></p>
     <ul>
-      <li>Licencia de conducir de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico).</li>
-      <li>Tarjeta de identificación emitida por el estado que no sea una licencia de conducir, es decir, un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no otorga privilegios para conducir.</li>
+      <li><strong>Licencia de conducir</strong> de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico).</li>
+      <li><strong>Tarjeta de identificación estatal que no sea una licencia de conducir.</strong> Un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no concede permiso para conducir.</li>
+      <li><strong>Libreta de pasaporte de los EE. UU.</strong> En algunos casos, se aceptan los pasaportes. Si no ve la opción de verificar su identidad con un pasaporte, utilice su licencia de conducir o una identificación estatal, o bien intente verificar su identidad más tarde.</li>
     </ul>
     <p><strong>No se aceptan:</strong></p>
     <ul>
-      <li>Pasaportes estadounidenses</li>
+      <li>Tarjetas de pasaporte de los EE. UU. y pasaportes que no sean de los Estados Unidos</li>
       <li>Identificaciones militares</li>
+      <li>Tarjetas de permiso o de licencia para portar armas de fuego</li>
       <li>Identificaciones vencidas o documentos de prórroga</li>
       <li>Identificaciones en papel o temporales</li>
       <li>Identificaciones que no sean de los EE. UU.</li>
