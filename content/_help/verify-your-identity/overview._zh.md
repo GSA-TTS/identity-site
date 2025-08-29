@@ -1,5 +1,5 @@
 ---
-title: 验证你的身份
+title: 验证我的身份
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/overview/
 order: 0
@@ -8,12 +8,14 @@ redirect_from:
   - /zh/help/verify-your-identity/accepted-identification-documents/
   - /zh/help/verify-your-identity/how-to-verify-your-identity/
 accept_id_list:
-- 美国所有50个州、哥伦比亚特区（DC）以及其他美国属地（关岛、美属维尔京岛、美属萨摩亚、马里亚纳群岛和波多黎各）的驾照
-- 州颁发的非驾照 ID 卡。这是由各州政府、哥伦比亚特区（DC）、或美国属地颁发的一种身份文件，证明你的身份但不授予驾驶特权。
+- 美国50个州、哥伦比亚特区（DC）以及美国属地（关岛、美属维尔京岛、美属萨摩亚、马里亚纳群岛和波多黎各）颁发的<strong>驾照</strong>
+- <strong>州颁发的非驾照 ID 卡。</strong>这是由各州、哥伦比亚特区（DC）、或美国属地颁发的一种身份文件，证明你的身份但不授予驾驶特权。
+- <strong>美国护照。</strong>在某些情况下，护照也可以使用。如果你没有看到使用护照验证身份的选项，请使用驾照或州 ID，或者稍后再次尝试验证你的身份。
 reject_id_list:
-- 美国护照
+- 美国护照卡和非美国护照
 - 军人 ID
-- 过期的 ID 或 ID 延期文件
+- 枪支执照或许可证
+- 过期的 ID 或延期文件
 - 纸质或临时 ID
 - 非美国 ID
 ---
@@ -23,6 +25,11 @@ reject_id_list:
 ## 我验证身份需要什么？
 
 要在 Login.gov 上验证你的身份, 你需要驾照或州 ID、社会保障号码以及美国电话号码或邮寄地址。
+
+要在 Login.gov 验证你的身份，你需要： 
+* 驾照、州 ID 或美国护照
+* 社会保障号码
+* 美国电话号码或邮政地址
 
 如果你上述这些要求都满足不了，请联系你想访问的机构，了解可以采取的替代措施。
 
@@ -36,7 +43,7 @@ reject_id_list:
 
 {% include components/icon-list.html items=page.reject_id_list size='md' icon_color='error' icon_shape='cancel' %}
 
-## 身份验证如何进行？
+## 我如何验证身份？
 
 {: .number-list}
 
