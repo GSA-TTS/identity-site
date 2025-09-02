@@ -27,18 +27,18 @@ reject_id_list:
 - Les pièces d’identité expirées ou prorogées
 - Les documents d’identité papier ou provisoires
 - Les pièces d’identité d’un pays autre que les États-Unis
+verify_identity_list:
+- Un permis de conduire, une carte d’identité d’un État ou un passeport américain (livret)
+- Un numéro de sécurité sociale
+- Un numéro de téléphone des États-Unis ou une adresse postale
 ---
 
 La vérification d'identité est le processus qui vous permet de prouver que vous êtes bien vous-même et non une tierce personne qui se fait passer pour vous. Après avoir [créé votre compte Login.gov](/fr/create-an-account/) ou vous être connecté, il peut vous être nécessaire de confirmer votre identité auprès de certains organismes pour accéder à leurs services.
 
 ## De quoi ai-je besoin pour confirmer mon identité ?
 
-Vous avez besoin d’un permis de conduire ou d’une carte d’identité d’un État, ainsi que d’un numéro de téléphone des États-Unis ou d’une adresse pour confirmer votre identité auprès de Login.gov.
-
 Pour confirmer votre identité auprès de Login.gov, il vous faut :
-* Un permis de conduire, une carte d’identité d’un État ou un passeport américain (livret)
-* Un numéro de sécurité sociale
-* Un numéro de téléphone des États-Unis ou une adresse postale
+{% include components/icon-list.html items=page.verify_identity_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 Si vous ne remplissez pas toutes ces conditions, prenez contact avec l’organisme auquel vous cherchez à vous connecter pour trouver une autre solution.
 

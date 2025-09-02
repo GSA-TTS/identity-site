@@ -35,18 +35,18 @@ reject_id_list:
 - Expired IDs or extension documents
 - Paper or temporary IDs
 - Non-U.S. IDs
+verify_identity_list:
+- Driver’s license, state ID, or U.S. passport book
+- Social Security number
+- U.S. phone number or mailing address
 ---
 
 Identity verification is the process where you prove you are you — and not someone pretending to be you. After [you create your Login.gov account](/create-an-account/) or sign in, you may need to verify your identity to access services at some agencies.
 
 ## What do I need to verify my identity?
 
-You will need a driver’s license or state ID, a Social Security number, and a U.S. phone number or mailing address to verify your identity with Login.gov.
-
 To verify your identity with Login.gov, you will need a:
-* Driver’s license, state ID, or U.S. passport book
-* Social Security number
-* U.S. phone number or mailing address 
+{% include components/icon-list.html items=page.verify_identity_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 If you don’t have all of these requirements, contact the agency you are trying to access to find out what you can do instead.
 
