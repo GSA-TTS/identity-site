@@ -26,18 +26,18 @@ reject_id_list:
 - Identificaciones vencidas o documentos de prórroga
 - Identificaciones en papel o temporales
 - Identificaciones que no sean de los EE. UU.
+verify_identity_list:
+- Licencia de conducir, identificación estatal o libreta de pasaporte de los EE. UU.
+- Número de Seguro Social
+- Número de teléfono o dirección postal en los EE. UU.
 ---
 
 La verificación de identidad es el proceso por el cual usted demuestra que es quien dice que es y no alguien que se hace pasar por usted. Después de [crear su cuenta de Login.gov](/es/create-an-account/) o iniciar sesión, es posible que necesite verificar su identidad para acceder a los servicios de algunas agencias.
 
 ## ¿Qué necesito para verificar mi identidad?
 
-Para verificar su identidad en Login.gov, necesitará una licencia de conducir o identificación estatal, un número de Seguro Social y un número de teléfono o dirección postal en los EE. UU.
-
 Para verificar su identidad con Login.gov, necesitará su: 
-* Licencia de conducir, identificación estatal o libreta de pasaporte de los EE. UU.
-* Número de Seguro Social
-* Número de teléfono o dirección postal en los EE. UU.
+{% include components/icon-list.html items=page.verify_identity_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 Si no tiene todos estos requisitos, contacte con la agencia a la que está intentando acceder para saber lo que puede hacer en ese caso.
 

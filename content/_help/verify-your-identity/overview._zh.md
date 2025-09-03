@@ -18,18 +18,18 @@ reject_id_list:
 - 过期的 ID 或延期文件
 - 纸质或临时 ID
 - 非美国 ID
+verify_identity_list:
+- 驾照、州 ID 或美国护照
+- 社会保障号码
+- 美国电话号码或邮政地址
 ---
 
 身份验证是你证明你是你，而不是有人冒充你的流程。设立 [Login.gov 帐户](/zh/create-an-account/) 或登录后，你可能需要验证身份才能访问某些机构的服务。
 
 ## 我验证身份需要什么？
 
-要在 Login.gov 上验证你的身份, 你需要驾照或州 ID、社会保障号码以及美国电话号码或邮寄地址。
-
 要在 Login.gov 验证你的身份，你需要： 
-* 驾照、州 ID 或美国护照
-* 社会保障号码
-* 美国电话号码或邮政地址
+{% include components/icon-list.html items=page.verify_identity_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 如果你上述这些要求都满足不了，请联系你想访问的机构，了解可以采取的替代措施。
 
