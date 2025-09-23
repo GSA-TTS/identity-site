@@ -18,12 +18,12 @@ banner:
     learn: 了解如何设立帐户
     tagline: 你只用一个账户就能与各政府部门互动
   text:
-    gov_description: "<strong>.gov</strong> 网站属于一个美国官方政府机构。"
+    gov_description: '<strong>.gov</strong> 网站属于一个美国官方政府机构。'
     gov_heading: 官方网站使用 .gov
     how: 这里告诉你如何知道
     official: 美国政府的一个官方网站
-    secure_description: "一把 <strong>锁</strong> 或者 <strong>https://</strong>
-      意味着你已安全连接到 .gov 网站。只在官方、安全的网站上分享敏感信息。"
+    secure_description: '一把 <strong>锁</strong> 或者 <strong>https://</strong>
+      意味着你已安全连接到 .gov 网站。只在官方、安全的网站上分享敏感信息。'
     secure_heading: 安全的 .gov 网站使用 HTTPS
 contact_page:
   call_us:
@@ -33,90 +33,90 @@ contact_page:
   required: 必需
   support_request_form:
     agencies:
-      "BENEFEDS": BENEFEDS
-      "Bureau of Indian Affairs": 印第安事务局
-      "Central Intelligence Agency": 中央情报局
-      "Consumer Financial Protection Bureau": 消费者金融保护局
-      "Customs and Border Protection Jobs": 海关和边境保护局工作
-      "Customs and Border Protection ROAM": 海关和边境保护局 ROAM
-      "Department of Commerce": 商务部
-      "Department of Defense": 国防部
-      "Department of Education": 教育部
-      "Department of Energy": 能源部
-      "Department of Homeland Security (DHS)": 国土安全部
-      "Department of Justice (DOJ)": 司法部
-      "Department of Labor": 劳工部
-      "Department of State": 国务院
-      "Department of the Interior": 内政部
-      "Department of the Treasury": 财政部
-      "Department of Transportation": 交通部
-      "Department of Veterans Affairs": 退伍军人事务部
-      "DOI ePermits": 内政部 ePermits
-      "DOL Foreign Labor Application Gateway (FLAG)": 劳工部外国劳工申请网关（FLAG）
-      "DOT Delphi eInvoicing": 交通部 Delphi eInvoicing
-      "DOT FMCSA (Motor Carrier Safety)": 交通部 FMCSA （机动车辆安全)
-      "DOT National Registry of Certified Medical Examiners": 交通部认证的医学检验官注册簿
-      "Environmental Protection Agency": 国家环境保护局
-      "FDIC Resolution Request Management Portal": FDIC（联邦存款保险公司）解决方案请求管理门户
-      "Federal Aviation Administration (FAA)": 联邦航空管理局（FAA）
-      "Federal Reserve Board (FRB)": 美国联邦储备委员会（FRB）
-      "FEMA Disaster Assistance": FEMA （联邦紧急事务管理局）灾难救助
-      "General Services Administration": 联邦总务管理局
-      "Get.gov": Get.gov
-      "GSA Sam.gov": GSA（联邦总务管理局） SAM.gov
-      "Health and Human Services": 卫生与公众服务
-      "HHS Grants.gov": HHS（卫生与公众服务部） Grants.gov
-      "HHS National Institutes of Health (NIH)": HHS（卫生与公众服务部）国立卫生研究院（NIH）
-      "Homeland Security Information Network (HSIN)": 国土安全信息网络 (HSIN)
-      "Housing and Urban Development": 住房与城市发展
-      "Internal Revenue Service (IRS)": 国家税务局（IRS）
-      "Library of Congress": 国会图书馆
-      "LTCFEDS": LTCFEDS
-      "MyTravelGov": 国务院 MyTravelGov
-      "myTreasury": myTreasury
-      "National Aeronautics and Space Administration": 国家航空航天局
-      "National Archives and Records Administration (NARA)": 国家档案和记录管理局
-      "National Credit Union Administration (NCUA)": 国家信用合作社管理局
-      "National Endowment for the Humanities (NEH)": 国家人文基金会
-      "National Labor Relations Board": 国家劳资关系委员会
-      "National Oceanic and Atmospheric Administration (NOAA)": 国家海洋和大气管理局（NOAA）
-      "National Transportation Safety Board (NTSB)": 国家运输安全委员会
-      "Office of Personnel Management": 联邦人事管理局（OPM）
-      "OPM Employee Express": OPM（联邦人事管理局）Employee Express
-      "OPM FSAFEDS": OPM FSAFEDS
-      "OPM Retirement Services Online": 联邦人事管理局（OPM）在线退休服务 (Retirement Services Online)
-      "OPM Services Online": OPM（联邦人事管理局）Services Online
-      "Pay.gov": Pay.gov
-      "PBGC-MyPBA": PBGC（退休金福利保障公司） - MyPBA
-      "Peace Corps": 和平队
-      "Postal Service Health Benefits (PSHB)": 美国邮局医疗福利（Postal Service Health Benefits） (PSHB)
-      "Railroad Retirement Board": 铁路退休委员会
-      "SBA": SBA
-      "Securities and Exchange Commission": 证券交易委员会
-      "Social Security Administration (SSA)": 社会保障署（SSA）
-      "State of Arkansas": 阿肯色州
-      "State of California": 加利福尼亚州
-      "State of Colorado": 科罗拉多州
-      "State of Maryland": 马里兰州
-      "State of Utah": 犹他州
-      "State of Wyoming": 怀俄明州
-      "Trusted Traveler Programs (Global Entry/Nexus/Sentri)": 受信任旅客计划（Global Entry/Nexus/Sentri)
-      "U.S. Agency for International Development": 美国国际开发署
-      "U.S. Citizenship and Immigration Services (USCIS) - E-Verify": 美国公民及移民服务局 (USCIS) - E-Verify（电子验证）
-      "U.S. Citizenship and Immigration Services (USCIS) - myAccount": 美国公民及移民服务局 (USCIS) - myAccount
-      "U.S. Citizenship and Immigration Services (USCIS) - SAVE ": 美国公民及移民服务局 (USCIS) – SAVE（系统化外国人权益核实）
-      "U.S. Department of Agriculture": 美国农业部
-      "U.S. International Trade Commission": 美国国际贸易委员会
-      "United States Forest Service": 美国国家森林局
-      "USAJOBS": USAJOBS
-      "VA MyHealtheVet (MHV)": VA MyHealtheVet (MHV)
+      'BENEFEDS': BENEFEDS
+      'Bureau of Indian Affairs': 印第安事务局
+      'Central Intelligence Agency': 中央情报局
+      'Consumer Financial Protection Bureau': 消费者金融保护局
+      'Customs and Border Protection Jobs': 海关和边境保护局工作
+      'Customs and Border Protection ROAM': 海关和边境保护局 ROAM
+      'Department of Commerce': 商务部
+      'Department of Defense': 国防部
+      'Department of Education': 教育部
+      'Department of Energy': 能源部
+      'Department of Homeland Security (DHS)': 国土安全部
+      'Department of Justice (DOJ)': 司法部
+      'Department of Labor': 劳工部
+      'Department of State': 国务院
+      'Department of the Interior': 内政部
+      'Department of the Treasury': 财政部
+      'Department of Transportation': 交通部
+      'Department of Veterans Affairs': 退伍军人事务部
+      'DOI ePermits': 内政部 ePermits
+      'DOL Foreign Labor Application Gateway (FLAG)': 劳工部外国劳工申请网关（FLAG）
+      'DOT Delphi eInvoicing': 交通部 Delphi eInvoicing
+      'DOT FMCSA (Motor Carrier Safety)': 交通部 FMCSA （机动车辆安全)
+      'DOT National Registry of Certified Medical Examiners': 交通部认证的医学检验官注册簿
+      'Environmental Protection Agency': 国家环境保护局
+      'FDIC Resolution Request Management Portal': FDIC（联邦存款保险公司）解决方案请求管理门户
+      'Federal Aviation Administration (FAA)': 联邦航空管理局（FAA）
+      'Federal Reserve Board (FRB)': 美国联邦储备委员会（FRB）
+      'FEMA Disaster Assistance': FEMA （联邦紧急事务管理局）灾难救助
+      'General Services Administration': 联邦总务管理局
+      'Get.gov': Get.gov
+      'GSA Sam.gov': GSA（联邦总务管理局） SAM.gov
+      'Health and Human Services': 卫生与公众服务
+      'HHS Grants.gov': HHS（卫生与公众服务部） Grants.gov
+      'HHS National Institutes of Health (NIH)': HHS（卫生与公众服务部）国立卫生研究院（NIH）
+      'Homeland Security Information Network (HSIN)': 国土安全信息网络 (HSIN)
+      'Housing and Urban Development': 住房与城市发展
+      'Internal Revenue Service (IRS)': 国家税务局（IRS）
+      'Library of Congress': 国会图书馆
+      'LTCFEDS': LTCFEDS
+      'MyTravelGov': 国务院 MyTravelGov
+      'myTreasury': myTreasury
+      'National Aeronautics and Space Administration': 国家航空航天局
+      'National Archives and Records Administration (NARA)': 国家档案和记录管理局
+      'National Credit Union Administration (NCUA)': 国家信用合作社管理局
+      'National Endowment for the Humanities (NEH)': 国家人文基金会
+      'National Labor Relations Board': 国家劳资关系委员会
+      'National Oceanic and Atmospheric Administration (NOAA)': 国家海洋和大气管理局（NOAA）
+      'National Transportation Safety Board (NTSB)': 国家运输安全委员会
+      'Office of Personnel Management': 联邦人事管理局（OPM）
+      'OPM Employee Express': OPM（联邦人事管理局）Employee Express
+      'OPM FSAFEDS': OPM FSAFEDS
+      'OPM Retirement Services Online': 联邦人事管理局（OPM）在线退休服务 (Retirement Services Online)
+      'OPM Services Online': OPM（联邦人事管理局）Services Online
+      'Pay.gov': Pay.gov
+      'PBGC-MyPBA': PBGC（退休金福利保障公司） - MyPBA
+      'Peace Corps': 和平队
+      'Postal Service Health Benefits (PSHB)': 美国邮局医疗福利（Postal Service Health Benefits） (PSHB)
+      'Railroad Retirement Board': 铁路退休委员会
+      'SBA': SBA
+      'Securities and Exchange Commission': 证券交易委员会
+      'Social Security Administration (SSA)': 社会保障署（SSA）
+      'State of Arkansas': 阿肯色州
+      'State of California': 加利福尼亚州
+      'State of Colorado': 科罗拉多州
+      'State of Maryland': 马里兰州
+      'State of Utah': 犹他州
+      'State of Wyoming': 怀俄明州
+      'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': 受信任旅客计划（Global Entry/Nexus/Sentri)
+      'U.S. Agency for International Development': 美国国际开发署
+      'U.S. Citizenship and Immigration Services (USCIS) - E-Verify': 美国公民及移民服务局 (USCIS) - E-Verify（电子验证）
+      'U.S. Citizenship and Immigration Services (USCIS) - myAccount': 美国公民及移民服务局 (USCIS) - myAccount
+      'U.S. Citizenship and Immigration Services (USCIS) - SAVE ': 美国公民及移民服务局 (USCIS) – SAVE（系统化外国人权益核实）
+      'U.S. Department of Agriculture': 美国农业部
+      'U.S. International Trade Commission': 美国国际贸易委员会
+      'United States Forest Service': 美国国家森林局
+      'USAJOBS': USAJOBS
+      'VA MyHealtheVet (MHV)': VA MyHealtheVet (MHV)
     errors:
       captcha_required: 你必须完成预防滥发邮件测验。
       pii_found: 为了保护你的隐私，请勿向该表格提交敏感信息。我们的客服代表在没有这一信息的情况下，仍能帮助你。
     form_helpers:
-      select_agency: "- 你试图访问的机构 -"
-      select_issue: "- 选择一个具体问题 -"
-      select_topic: "- 选择一个主题 -"
+      select_agency: '- 你试图访问的机构 -'
+      select_issue: '- 选择一个具体问题 -'
+      select_topic: '- 选择一个主题 -'
     labels:
       agency_application: 合作伙伴机构
       agency_application_all: 所有申请
@@ -173,7 +173,7 @@ contact_page:
       new_personal_key: 我如何获得新的个人密钥？
       no_otp_received: 没收到OTP
       no_phone: 我没有手机，所以没法设立Login.gov账户
-      none: "- 都没有 -"
+      none: '- 都没有 -'
       other: 其他
       password_issue: 密码问题
       personal_key: 我的个人密钥不行
@@ -208,16 +208,16 @@ contact_page:
       signing_in: 登录进入你的 Login.gov 账户
       verifying_identity: 验证你的身份
 feedback_form:
-  "no": "没有"
-  question: "这篇文章对你有帮助吗？"
-  "yes": "有"
+  'no': '没有'
+  question: '这篇文章对你有帮助吗？'
+  'yes': '有'
 global:
   language: 语言
   locales:
     en: English
     es: Español
     fr: Français
-    zh: "中文 (简体)"
+    zh: '中文 (简体)'
 help_page:
   categories:
     - description: 设立你的账户了解身份证实选项以及账户的更多特点。
@@ -286,18 +286,18 @@ nav:
   about_us:
     sections:
       - name: 我们的宗旨
-        url: "#我们的宗旨"
+        url: '#我们的宗旨'
       - name: 我们的愿景
-        url: "#我们的愿景"
+        url: '#我们的愿景'
       - name: 关于 Login.gov
-        url: "#关于-logingov"
+        url: '#关于-logingov'
     title: 关于我们
   accessibility:
     sections:
       - name: 我们的承诺
-        url: "#我们的承诺"
+        url: '#我们的承诺'
       - name: 评估
-        url: "#评估"
+        url: '#评估'
     title: 无障碍
   anchor_to_top: 回到顶部
   become_a_partner: 成为合作伙伴
@@ -307,13 +307,13 @@ nav:
   contact_us:
     sections:
       - name: 找到常见问题的答案
-        url: "#找到常见问题的答案"
+        url: '#找到常见问题的答案'
       - name: 联系
-        url: "#联系"
+        url: '#联系'
       - name: 与 Login.gov 合作
-        url: "#与-logingov-合作"
+        url: '#与-logingov-合作'
       - name: 报告安全问题
-        url: "#报告安全问题"
+        url: '#报告安全问题'
     title: 联系我们
   create_an_account: 设立账户
   developer_guide: 开发人员指南
@@ -333,9 +333,9 @@ nav:
   join_us:
     sections:
       - name: 空缺职位
-        url: "#空缺职位"
+        url: '#空缺职位'
       - name: 如何申请
-        url: "#如何申请"
+        url: '#如何申请'
     title: 加入我们
   menu: Menu
   overview: 综述
@@ -358,7 +358,7 @@ nav:
   privacy_&_security: 隐私与安全
   security: 安全
   security_experience: Security experience # partners site does not require translations
-  sign_in: "使用 {{APP_NAME}} 登录"
+  sign_in: '使用 {{APP_NAME}} 登录'
   skip_nav: 跳到主要内容
   system_status: Login.gov 系统状态
   what_is_login_gov: 什么是Login.gov？

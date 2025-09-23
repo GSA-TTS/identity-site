@@ -23,10 +23,9 @@ banner:
     gov_heading: Official websites use .gov
     how: Here’s how you know
     official: An official website of the United States government
-    secure_description:
-      "A <strong>lock</strong> or <strong>https://</strong> means
+    secure_description: 'A <strong>lock</strong> or <strong>https://</strong> means
       you’ve safely connected to the .gov website. Share sensitive information
-      only on official, secure websites."
+      only on official, secure websites.'
     secure_heading: Secure .gov websites use HTTPS
 contact_page:
   call_us:
@@ -36,100 +35,98 @@ contact_page:
   required: required
   support_request_form:
     agencies:
-      "BENEFEDS": BENEFEDS
-      "Bureau of Indian Affairs": Bureau of Indian Affairs
-      "Central Intelligence Agency": Central Intelligence Agency
-      "Consumer Financial Protection Bureau": Consumer Financial Protection Bureau
-      "Customs and Border Protection Jobs": Customs and Border Protection Jobs
-      "Customs and Border Protection ROAM": Customs and Border Protection ROAM
-      "Department of Commerce": Department of Commerce
-      "Department of Defense": Department of Defense
-      "Department of Education": Department of Education
-      "Department of Energy": Department of Energy
-      "Department of Homeland Security (DHS)": Department of Homeland Security (DHS)
-      "Department of Justice (DOJ)": Department of Justice (DOJ)
-      "Department of Labor": Department of Labor
-      "Department of State": Department of State
-      "Department of the Interior": Department of the Interior
-      "Department of the Treasury": Department of the Treasury
-      "Department of Transportation": Department of Transportation
-      "Department of Veterans Affairs": Department of Veterans Affairs
-      "DOI ePermits": DOI ePermits
-      "DOL Foreign Labor Application Gateway (FLAG)": DOL Foreign Labor Application Gateway (FLAG)
-      "DOT Delphi eInvoicing": DOT Delphi eInvoicing
-      "DOT FMCSA (Motor Carrier Safety)": DOT FMCSA (Motor Carrier Safety)
-      "DOT National Registry of Certified Medical Examiners": DOT National Registry of Certified Medical Examiners
-      "Environmental Protection Agency": Environmental Protection Agency
-      "FDIC Resolution Request Management Portal": FDIC Resolution Request Management Portal
-      "Federal Aviation Administration (FAA)": Federal Aviation Administration (FAA)
-      "Federal Reserve Board (FRB)": Federal Reserve Board (FRB)
-      "FEMA Disaster Assistance": FEMA Disaster Assistance
-      "General Services Administration": General Services Administration
-      "Get.gov": Get.gov
-      "GSA Sam.gov": GSA SAM.gov
-      "Health and Human Services": Health and Human Services
-      "HHS Grants.gov": HHS Grants.gov
-      "HHS National Institutes of Health (NIH)": HHS National Institues of Health (NIH)
-      "Homeland Security Information Network (HSIN)": Homeland Security Information Network (HSIN)
-      "Housing and Urban Development": Housing and Urban Development
-      "Internal Revenue Service (IRS)": Internal Revenue Service (IRS)
-      "Library of Congress": Library of Congress
-      "LTCFEDS": LTCFEDS
-      "MyTravelGov": Department of State MyTravelGov
-      "myTreasury": myTreasury
-      "National Aeronautics and Space Administration": National Aeronautics and Space Administration
-      "National Archives and Records Administration (NARA)": National Archives and Records Administration (NARA)
-      "National Credit Union Administration (NCUA)": National Credit Union Administration (NCUA)
-      "National Endowment for the Humanities (NEH)": National Endowment for the Humanities (NEH)
-      "National Labor Relations Board": National Labor Relations Board
-      "National Oceanic and Atmospheric Administration (NOAA)": National Oceanic and Atmospheric Administration (NOAA)
-      "National Transportation Safety Board (NTSB)": National Transportation Safety Board (NTSB)
-      "Office of Personnel Management": Office of Personnel Management (OPM)
-      "OPM Employee Express": OPM Employee Express
-      "OPM FSAFEDS": OPM FSAFEDS
-      "OPM Retirement Services Online": OPM Retirement Services Online
-      "OPM Services Online": "OPM Services Online"
-      "Pay.gov": Pay.gov
-      "PBGC-MyPBA": "PBGC - MyPBA"
-      "Peace Corps": Peace Corps
-      "Postal Service Health Benefits (PSHB)": Postal Service Health Benefits (PSHB)
-      "Railroad Retirement Board": Railroad Retirement Board
-      "SBA": SBA
-      "Securities and Exchange Commission": Securities and Exchange Commission
-      "Social Security Administration (SSA)": Social Security Administration (SSA)
-      "State of Arkansas": State of Arkansas
-      "State of California": State of California
-      "State of Colorado": State of Colorado
-      "State of Maryland": State of Maryland
-      "State of Utah": State of Utah
-      "State of Wyoming": State of Wyoming
-      "Trusted Traveler Programs (Global Entry/Nexus/Sentri)": Trusted Traveler Programs (Global Entry/Nexus/Sentri)
-      "U.S. Agency for International Development": U.S. Agency for International Development
-      "U.S. Citizenship and Immigration Services (USCIS) - E-Verify": U.S. Citizenship and Immigration Services (USCIS) - E-Verify
-      "U.S. Citizenship and Immigration Services (USCIS) - myAccount": U.S. Citizenship and Immigration Services (USCIS) - myAccount
-      "U.S. Citizenship and Immigration Services (USCIS) - SAVE ": U.S. Citizenship and Immigration Services (USCIS) - SAVE
-      "U.S. Department of Agriculture": U.S. Department of Agriculture
-      "U.S. International Trade Commission": U.S. International Trade Commission
-      "United States Forest Service": United States Forest Services
-      "USAJOBS": USAJOBS
-      "VA MyHealtheVet (MHV)": VA MyHealtheVet (MHV)
+      'BENEFEDS': BENEFEDS
+      'Bureau of Indian Affairs': Bureau of Indian Affairs
+      'Central Intelligence Agency': Central Intelligence Agency
+      'Consumer Financial Protection Bureau': Consumer Financial Protection Bureau
+      'Customs and Border Protection Jobs': Customs and Border Protection Jobs
+      'Customs and Border Protection ROAM': Customs and Border Protection ROAM
+      'Department of Commerce': Department of Commerce
+      'Department of Defense': Department of Defense
+      'Department of Education': Department of Education
+      'Department of Energy': Department of Energy
+      'Department of Homeland Security (DHS)': Department of Homeland Security (DHS)
+      'Department of Justice (DOJ)': Department of Justice (DOJ)
+      'Department of Labor': Department of Labor
+      'Department of State': Department of State
+      'Department of the Interior': Department of the Interior
+      'Department of the Treasury': Department of the Treasury
+      'Department of Transportation': Department of Transportation
+      'Department of Veterans Affairs': Department of Veterans Affairs
+      'DOI ePermits': DOI ePermits
+      'DOL Foreign Labor Application Gateway (FLAG)': DOL Foreign Labor Application Gateway (FLAG)
+      'DOT Delphi eInvoicing': DOT Delphi eInvoicing
+      'DOT FMCSA (Motor Carrier Safety)': DOT FMCSA (Motor Carrier Safety)
+      'DOT National Registry of Certified Medical Examiners': DOT National Registry of Certified Medical Examiners
+      'Environmental Protection Agency': Environmental Protection Agency
+      'FDIC Resolution Request Management Portal': FDIC Resolution Request Management Portal
+      'Federal Aviation Administration (FAA)': Federal Aviation Administration (FAA)
+      'Federal Reserve Board (FRB)': Federal Reserve Board (FRB)
+      'FEMA Disaster Assistance': FEMA Disaster Assistance
+      'General Services Administration': General Services Administration
+      'Get.gov': Get.gov
+      'GSA Sam.gov': GSA SAM.gov
+      'Health and Human Services': Health and Human Services
+      'HHS Grants.gov': HHS Grants.gov
+      'HHS National Institutes of Health (NIH)': HHS National Institues of Health (NIH)
+      'Homeland Security Information Network (HSIN)': Homeland Security Information Network (HSIN)
+      'Housing and Urban Development': Housing and Urban Development
+      'Internal Revenue Service (IRS)': Internal Revenue Service (IRS)
+      'Library of Congress': Library of Congress
+      'LTCFEDS': LTCFEDS
+      'MyTravelGov': Department of State MyTravelGov
+      'myTreasury': myTreasury
+      'National Aeronautics and Space Administration': National Aeronautics and Space Administration
+      'National Archives and Records Administration (NARA)': National Archives and Records Administration (NARA)
+      'National Credit Union Administration (NCUA)': National Credit Union Administration (NCUA)
+      'National Endowment for the Humanities (NEH)': National Endowment for the Humanities (NEH)
+      'National Labor Relations Board': National Labor Relations Board
+      'National Oceanic and Atmospheric Administration (NOAA)': National Oceanic and Atmospheric Administration (NOAA)
+      'National Transportation Safety Board (NTSB)': National Transportation Safety Board (NTSB)
+      'Office of Personnel Management': Office of Personnel Management (OPM)
+      'OPM Employee Express': OPM Employee Express
+      'OPM FSAFEDS': OPM FSAFEDS
+      'OPM Retirement Services Online': OPM Retirement Services Online
+      'OPM Services Online': 'OPM Services Online'
+      'Pay.gov': Pay.gov
+      'PBGC-MyPBA': 'PBGC - MyPBA'
+      'Peace Corps': Peace Corps
+      'Postal Service Health Benefits (PSHB)': Postal Service Health Benefits (PSHB)
+      'Railroad Retirement Board': Railroad Retirement Board
+      'SBA': SBA
+      'Securities and Exchange Commission': Securities and Exchange Commission
+      'Social Security Administration (SSA)': Social Security Administration (SSA)
+      'State of Arkansas': State of Arkansas
+      'State of California': State of California
+      'State of Colorado': State of Colorado
+      'State of Maryland': State of Maryland
+      'State of Utah': State of Utah
+      'State of Wyoming': State of Wyoming
+      'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Trusted Traveler Programs (Global Entry/Nexus/Sentri)
+      'U.S. Agency for International Development': U.S. Agency for International Development
+      'U.S. Citizenship and Immigration Services (USCIS) - E-Verify': U.S. Citizenship and Immigration Services (USCIS) - E-Verify
+      'U.S. Citizenship and Immigration Services (USCIS) - myAccount': U.S. Citizenship and Immigration Services (USCIS) - myAccount
+      'U.S. Citizenship and Immigration Services (USCIS) - SAVE ': U.S. Citizenship and Immigration Services (USCIS) - SAVE
+      'U.S. Department of Agriculture': U.S. Department of Agriculture
+      'U.S. International Trade Commission': U.S. International Trade Commission
+      'United States Forest Service': United States Forest Services
+      'USAJOBS': USAJOBS
+      'VA MyHealtheVet (MHV)': VA MyHealtheVet (MHV)
     errors:
       captcha_required: You must complete the spam prevention challenge.
-      pii_found:
-        For your privacy, do not submit sensitive information to this form.
+      pii_found: For your privacy, do not submit sensitive information to this form.
         Our customer support agents can still assist you without this
         information.
     form_helpers:
-      select_agency: "- Agency you’re trying to access -"
-      select_issue: "- Select a specific issue -"
-      select_topic: "- Select a topic -"
+      select_agency: '- Agency you’re trying to access -'
+      select_issue: '- Select a specific issue -'
+      select_topic: '- Select a topic -'
     labels:
       agency_application: Partner Agency
       agency_application_all: All Applications
       agency_application_common: Common Applications
       agency_application_other: Other Applications
-      description:
-        Provide more detail. If you need support, please describe the steps
+      description: Provide more detail. If you need support, please describe the steps
         you took and the issues you encountered.
       email: Email
       first_name: First name
@@ -183,7 +180,7 @@ contact_page:
       new_personal_key: How do I get a new personal key?
       no_otp_received: No OTP received
       no_phone: I can’t create my Login.gov account because I don’t have a phone
-      none: "--None--"
+      none: '--None--'
       other: Other
       password_issue: Password issue
       personal_key: My personal key is not working
@@ -218,34 +215,31 @@ contact_page:
       signing_in: Signing in to your Login.gov account
       verifying_identity: Verifying your identity
 feedback_form:
-  "no": "No"
-  question: "Was this article helpful?"
-  "yes": "Yes"
+  'no': 'No'
+  question: 'Was this article helpful?'
+  'yes': 'Yes'
 global:
   language: Language
   locales:
     en: English
     es: Español
     fr: Français
-    zh: "中文 (简体)"
+    zh: '中文 (简体)'
 help_page:
   categories:
-    - description:
-        Create your account. Learn about authentication options and more
+    - description: Create your account. Learn about authentication options and more
         account features.
       image: /assets/img/help/create-account.svg
       slug: create-account
       title: Create my account
       url: /help/create-account/overview/
-    - description:
-        Forgot your password? Locked out of your account? We’ll help you
+    - description: Forgot your password? Locked out of your account? We’ll help you
         resolve access issues.
       image: /assets/img/help/trouble-signing-in.svg
       slug: trouble-signing-in
       title: Trouble signing in
       url: /help/trouble-signing-in/overview/
-    - description:
-        Change your account settings including your password, phone number,
+    - description: Change your account settings including your password, phone number,
         email, and more.
       image: /assets/img/help/manage-your-account.svg
       slug: manage-your-account
@@ -303,18 +297,18 @@ nav:
   about_us:
     sections:
       - name: Our mission
-        url: "#our-mission"
+        url: '#our-mission'
       - name: Our vision
-        url: "#our-vision"
+        url: '#our-vision'
       - name: About Login.gov
-        url: "#about-logingov"
+        url: '#about-logingov'
     title: About us
   accessibility:
     sections:
       - name: Our commitment
-        url: "#our-commitment"
+        url: '#our-commitment'
       - name: Evaluation
-        url: "#evaluation"
+        url: '#evaluation'
     title: Accessibility
   anchor_to_top: Back to top
   become_a_partner: Become a partner
@@ -324,13 +318,13 @@ nav:
   contact_us:
     sections:
       - name: Find answers to commonly asked questions
-        url: "#find-answers-to-commonly-asked-questions"
+        url: '#find-answers-to-commonly-asked-questions'
       - name: Get in touch
-        url: "#get-in-touch"
+        url: '#get-in-touch'
       - name: Partner with Login.gov
-        url: "#partner-with-logingov"
+        url: '#partner-with-logingov'
       - name: Report a security issue
-        url: "#report-a-security-issue"
+        url: '#report-a-security-issue'
     title: Contact us
   create_an_account: Create an account
   developer_guide: Developer guide
@@ -350,9 +344,9 @@ nav:
   join_us:
     sections:
       - name: Open positions
-        url: "#open-positions"
+        url: '#open-positions'
       - name: How to apply
-        url: "#how-to-apply"
+        url: '#how-to-apply'
     title: Join us
   menu: Menu
   overview: Overview
@@ -375,7 +369,7 @@ nav:
   privacy_&_security: Privacy & security
   security: Security
   security_experience: Security experience
-  sign_in: "Sign in with {{APP_NAME}}"
+  sign_in: 'Sign in with {{APP_NAME}}'
   skip_nav: Skip to main content
   system_status: Login.gov system status
   what_is_login_gov: What is Login.gov?
