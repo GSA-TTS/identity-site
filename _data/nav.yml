@@ -1,26 +1,26 @@
 default:
   footer:
     agencies:
-      become_a_partner: '$BASE_URL/partners/'
-      developer_guide: 'https://developers.login.gov'
+      become_a_partner: "$BASE_URL/partners/"
+      developer_guide: "https://developers.login.gov"
     learn:
-      about_us: '$LOCALE_BASE_URL/about-us/'
-      accessibility: '$LOCALE_BASE_URL/accessibility/'
-      join_us: '$LOCALE_BASE_URL/join/'
-      policies: '$LOCALE_BASE_URL/policy/'
+      about_us: "$LOCALE_BASE_URL/about-us/"
+      accessibility: "$LOCALE_BASE_URL/accessibility/"
+      join_us: "$LOCALE_BASE_URL/join/"
+      policies: "$LOCALE_BASE_URL/policy/"
     support:
-      contact_us: '$LOCALE_BASE_URL/contact/'
-      help_center: '$LOCALE_BASE_URL/help/'
+      contact_us: "$LOCALE_BASE_URL/contact/"
+      help_center: "$LOCALE_BASE_URL/help/"
 partners:
   footer:
     about_login_gov:
-      accessibility: '$BASE_URL/accessibility/'
-      policies: '$BASE_URL/policy/'
-      what_is_login_gov: '$BASE_URL/about-us/'
+      accessibility: "$BASE_URL/accessibility/"
+      policies: "$BASE_URL/policy/"
+      what_is_login_gov: "$BASE_URL/about-us/"
     partners:
-      developer_guide: 'https://developers.login.gov'
-      get_started: '$BASE_URL/partners/get-started/'
-      security_experience: '$BASE_URL/partners/security-experience/'
+      developer_guide: "https://developers.login.gov"
+      get_started: "$BASE_URL/partners/get-started/"
+      security_experience: "$BASE_URL/partners/security-experience/"
     support:
-      business_inquiries: '$BASE_URL/partners/business-inquiries/'
-      faq: '$BASE_URL/partners/faq/'
+      business_inquiries: "$BASE_URL/partners/business-inquiries/"
+      faq: "$BASE_URL/partners/faq/"

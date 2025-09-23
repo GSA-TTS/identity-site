@@ -19,18 +19,23 @@ intro_content: >-
 
 
   * Login.gov 无法代表你去登录、设立、删除或管理你的账户。
-maintenance_window_content: Login.gov 的联系中心目前正在进行维护  从 <strong>%{start_time} -
+maintenance_window_content:
+  Login.gov 的联系中心目前正在进行维护  从 <strong>%{start_time} -
   %{end_time}.</strong>请访问以下常见主题获得帮助。
 partner_content: >-
   ## 与 Login.gov 合作
 
-  你的机构有兴趣使用 Login.gov？请[访问我们的合作伙伴网站](/partners/)或[联系我们](/partners/business-inquiries/)。
+  你的机构有兴趣使用
+  Login.gov？请[访问我们的合作伙伴网站](/partners/)或[联系我们](/partners/business-inquiries/)。
 phone_available_content: 你可以随时致电我们的支持中心，电话号码是 (844) 875-6446.
 report_issue_content: >-
   ## 报告安全问题
 
-  要报告安全漏洞，请查看 [GSA 漏洞披露政策](https://www.gsa.gov/vulnerability-disclosure-policy)并通过 [GSA Bug Bounty（漏洞奖赏）](https://hackerone.com/gsa_bbp){:class=“usa-link--external”}计划提交您的报告。
+  要报告安全漏洞，请查看 [GSA
+  漏洞披露政策](https://www.gsa.gov/vulnerability-disclosure-policy)并通过 [GSA Bug
+  Bounty（漏洞奖赏）](https://hackerone.com/gsa_bbp){:class=“usa-link--external”}计划提交您的报告。
 
 
-  要报告可疑的假冒 Login.gov 或 Login.gov 合作伙伴的钓鱼网站，请[联系我们](https://forms.gle/uj8NwiaDrieVHa466){:class=“usa-link--external”}。
+  要报告可疑的假冒 Login.gov 或 Login.gov
+  合作伙伴的钓鱼网站，请[联系我们](https://forms.gle/uj8NwiaDrieVHa466){:class=“usa-link--external”}。
 unplanned_outage_content: 由于服务中断，我们无法查看网上支持请求。

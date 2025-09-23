@@ -18,15 +18,16 @@ banner:
     learn: Apprendre comment créer un compte
     tagline: Le compte qui vous ouvre l’accès aux sites des autorités
   text:
-    gov_description: Un site Web .gov appartient à une organisation gouvernementale
+    gov_description:
+      Un site Web .gov appartient à une organisation gouvernementale
       officielle des États-Unis.
     gov_heading: Les sites Web officiels utilisent .gov
     how: Voici comment vous savez
     official: Un site officiel du gouvernement américain
-    secure_description: 'Un <strong>verrou</strong> ou <strong>https://</strong>
+    secure_description: "Un <strong>verrou</strong> ou <strong>https://</strong>
       signifie que vous êtes connecté en toute sécurité au site Web .gov.
       Partagez des informations sensibles uniquement sur des sites Web officiels
-      et sécurisés.'
+      et sécurisés."
     secure_heading: Les sites Web sécurisés .gov utilisent HTTPS
 contact_page:
   call_us:
@@ -36,99 +37,101 @@ contact_page:
   required: Obligatoire
   support_request_form:
     agencies:
-      'BENEFEDS': BENEFEDS
-      'Bureau of Indian Affairs': Bureau des affaires autochtones (BIA)
-      'Central Intelligence Agency': Agence centrale du renseignement
-      'Consumer Financial Protection Bureau': Bureau de protection financière des consommateurs
-      'Customs and Border Protection Jobs': Emplois avec le Service des douanes et de la protection des frontières
-      'Customs and Border Protection ROAM': Application ROAM du Service des douanes et
+      "BENEFEDS": BENEFEDS
+      "Bureau of Indian Affairs": Bureau des affaires autochtones (BIA)
+      "Central Intelligence Agency": Agence centrale du renseignement
+      "Consumer Financial Protection Bureau": Bureau de protection financière des consommateurs
+      "Customs and Border Protection Jobs": Emplois avec le Service des douanes et de la protection des frontières
+      "Customs and Border Protection ROAM":
+        Application ROAM du Service des douanes et
         de la protection des frontières
-      'Department of Commerce': Département du Commerce
-      'Department of Defense': Département de la Défense
-      'Department of Education': Département de l’Éducation
-      'Department of Energy': Département de l’Énergie
-      'Department of Homeland Security (DHS)': Département de la Sécurité intérieure (DHS)
-      'Department of Justice (DOJ)': Département de la Justice (DOJ)
-      'Department of Labor': Département du Travail
-      'Department of State': Département d’État
-      'Department of the Interior': Département de l’Intérieur
-      'Department of the Treasury': Département du Trésor
-      'Department of Transportation': Département des Transports
-      'Department of Veterans Affairs': Département des Anciens Combattants
-      'DOI ePermits': Permis en ligne auprès du DOI (département de l’Intérieur)
-      'DOL Foreign Labor Application Gateway (FLAG)': Portail d’accès pour les
+      "Department of Commerce": Département du Commerce
+      "Department of Defense": Département de la Défense
+      "Department of Education": Département de l’Éducation
+      "Department of Energy": Département de l’Énergie
+      "Department of Homeland Security (DHS)": Département de la Sécurité intérieure (DHS)
+      "Department of Justice (DOJ)": Département de la Justice (DOJ)
+      "Department of Labor": Département du Travail
+      "Department of State": Département d’État
+      "Department of the Interior": Département de l’Intérieur
+      "Department of the Treasury": Département du Trésor
+      "Department of Transportation": Département des Transports
+      "Department of Veterans Affairs": Département des Anciens Combattants
+      "DOI ePermits": Permis en ligne auprès du DOI (département de l’Intérieur)
+      "DOL Foreign Labor Application Gateway (FLAG)": Portail d’accès pour les
         demandes de travail de ressortissants étrangers (FLAG) du DOL
         (département du Travail)
-      'DOT Delphi eInvoicing': Facturation en ligne Delphi du DOT (département des Transports)
-      'DOT FMCSA (Motor Carrier Safety)': FMCSA du DOT (Sécurité des transports routiers)
-      'DOT National Registry of Certified Medical Examiners': Registre national des médecins légistes agréés du DOT
-      'Environmental Protection Agency': Agence de protection de l’environnement
-      'FDIC Resolution Request Management Portal': Portail de gestion des demandes de résolution de la FDIC
-      'Federal Aviation Administration (FAA)': Agence fédérale de l’aviation (FAA)
-      'Federal Reserve Board (FRB)': Conseil des gouverneurs de la Réserve fédérale (FRB)
-      'FEMA Disaster Assistance': Aide de la FEMA en cas de catastrophe
-      'General Services Administration': Administration des services généraux
-      'Get.gov': Get.gov
-      'GSA Sam.gov': SAM.gov de la GSA
-      'Health and Human Services': Département de la Santé et des Services humains
-      'HHS Grants.gov': Grants.gov du HHS (département de la Santé et des Services humains)
-      'HHS National Institutes of Health (NIH)': Instituts nationaux de la santé (NIH) du HHS
-      'Homeland Security Information Network (HSIN)': Réseau d’information du département de la Sécurité intérieure (HSIN)
-      'Housing and Urban Development': Logement et urbanisme
-      'Internal Revenue Service (IRS)': Service des recettes internes (IRS)
-      'Library of Congress': Bibliothèque du Congrès
-      'LTCFEDS': LTCFEDS
-      'MyTravelGov': MyTravelGov du département d’État
-      'myTreasury': myTreasury
-      'National Aeronautics and Space Administration': Administration nationale de l’aéronautique et de l’espace
-      'National Archives and Records Administration (NARA)': Administration nationale des archives et des dossiers (NARA)
-      'National Credit Union Administration (NCUA)': Administration nationale des coopératives de crédit (NCUA)
-      'National Endowment for the Humanities (NEH)': Fondation nationale des sciences humaines (NEH)
-      'National Labor Relations Board': Conseil national des relations du travail
-      'National Oceanic and Atmospheric Administration (NOAA)': Administration nationale de l’atmosphère et des océans (NOAA)
-      'National Transportation Safety Board (NTSB)': Bureau national de la sécurité des transports (NTSB)
-      'Office of Personnel Management': Bureau de gestion du personnel (OPM)
-      'OPM Employee Express': OPM Employee Express
-      'OPM FSAFEDS': OPM FSAFEDS
-      'OPM Retirement Services Online': Services de retraite en ligne de l’OPM
-      'OPM Services Online': Services en ligne de l’OPM
-      'Pay.gov': Pay.gov
-      'PBGC-MyPBA': PBGC - MyPBA
-      'Peace Corps': Corps de la paix
-      'Postal Service Health Benefits (PSHB)': Prestations de santé des services postaux (PSHB)
-      'Railroad Retirement Board': Conseil des retraites dans les chemins de fer
-      'SBA': SBA
-      'Securities and Exchange Commission': Commission des titres et de la bourse
-      'Social Security Administration (SSA)': Administration de la Sécurité sociale (SSA)
-      'State of Arkansas': État de l’Arkansas
-      'State of California': État de la Californie
-      'State of Colorado': État du Colorado
-      'State of Maryland': État du Maryland
-      'State of Utah': État de l’Utah
-      'State of Wyoming': État du Wyoming
-      'Trusted Traveler Programs (Global Entry/Nexus/Sentri)': Programmes pour voyageurs dignes de confiance (Global Entry/Nexus/Sentri)
-      'U.S. Agency for International Development': Agence des États-Unis pour le développement international
-      'U.S. Citizenship and Immigration Services (USCIS) - E-Verify':
+      "DOT Delphi eInvoicing": Facturation en ligne Delphi du DOT (département des Transports)
+      "DOT FMCSA (Motor Carrier Safety)": FMCSA du DOT (Sécurité des transports routiers)
+      "DOT National Registry of Certified Medical Examiners": Registre national des médecins légistes agréés du DOT
+      "Environmental Protection Agency": Agence de protection de l’environnement
+      "FDIC Resolution Request Management Portal": Portail de gestion des demandes de résolution de la FDIC
+      "Federal Aviation Administration (FAA)": Agence fédérale de l’aviation (FAA)
+      "Federal Reserve Board (FRB)": Conseil des gouverneurs de la Réserve fédérale (FRB)
+      "FEMA Disaster Assistance": Aide de la FEMA en cas de catastrophe
+      "General Services Administration": Administration des services généraux
+      "Get.gov": Get.gov
+      "GSA Sam.gov": SAM.gov de la GSA
+      "Health and Human Services": Département de la Santé et des Services humains
+      "HHS Grants.gov": Grants.gov du HHS (département de la Santé et des Services humains)
+      "HHS National Institutes of Health (NIH)": Instituts nationaux de la santé (NIH) du HHS
+      "Homeland Security Information Network (HSIN)": Réseau d’information du département de la Sécurité intérieure (HSIN)
+      "Housing and Urban Development": Logement et urbanisme
+      "Internal Revenue Service (IRS)": Service des recettes internes (IRS)
+      "Library of Congress": Bibliothèque du Congrès
+      "LTCFEDS": LTCFEDS
+      "MyTravelGov": MyTravelGov du département d’État
+      "myTreasury": myTreasury
+      "National Aeronautics and Space Administration": Administration nationale de l’aéronautique et de l’espace
+      "National Archives and Records Administration (NARA)": Administration nationale des archives et des dossiers (NARA)
+      "National Credit Union Administration (NCUA)": Administration nationale des coopératives de crédit (NCUA)
+      "National Endowment for the Humanities (NEH)": Fondation nationale des sciences humaines (NEH)
+      "National Labor Relations Board": Conseil national des relations du travail
+      "National Oceanic and Atmospheric Administration (NOAA)": Administration nationale de l’atmosphère et des océans (NOAA)
+      "National Transportation Safety Board (NTSB)": Bureau national de la sécurité des transports (NTSB)
+      "Office of Personnel Management": Bureau de gestion du personnel (OPM)
+      "OPM Employee Express": OPM Employee Express
+      "OPM FSAFEDS": OPM FSAFEDS
+      "OPM Retirement Services Online": Services de retraite en ligne de l’OPM
+      "OPM Services Online": Services en ligne de l’OPM
+      "Pay.gov": Pay.gov
+      "PBGC-MyPBA": PBGC - MyPBA
+      "Peace Corps": Corps de la paix
+      "Postal Service Health Benefits (PSHB)": Prestations de santé des services postaux (PSHB)
+      "Railroad Retirement Board": Conseil des retraites dans les chemins de fer
+      "SBA": SBA
+      "Securities and Exchange Commission": Commission des titres et de la bourse
+      "Social Security Administration (SSA)": Administration de la Sécurité sociale (SSA)
+      "State of Arkansas": État de l’Arkansas
+      "State of California": État de la Californie
+      "State of Colorado": État du Colorado
+      "State of Maryland": État du Maryland
+      "State of Utah": État de l’Utah
+      "State of Wyoming": État du Wyoming
+      "Trusted Traveler Programs (Global Entry/Nexus/Sentri)": Programmes pour voyageurs dignes de confiance (Global Entry/Nexus/Sentri)
+      "U.S. Agency for International Development": Agence des États-Unis pour le développement international
+      "U.S. Citizenship and Immigration Services (USCIS) - E-Verify":
         Services de citoyenneté et d’immigration des États-Unis (USCIS) -
         E-Verify
-      'U.S. Citizenship and Immigration Services (USCIS) - myAccount':
+      "U.S. Citizenship and Immigration Services (USCIS) - myAccount":
         Services de citoyenneté et d’immigration des États-Unis (USCIS) -
         myAccount
-      'U.S. Citizenship and Immigration Services (USCIS) - SAVE ': Services de citoyenneté et d’immigration des États-Unis (USCIS) - SAVE
-      'U.S. Department of Agriculture': Département de l’Agriculture des États-Unis
-      'U.S. International Trade Commission': Commission du commerce international des États-Unis
-      'United States Forest Service': Service des forêts des États-Unis
-      'USAJOBS': USAJOBS
-      'VA MyHealtheVet (MHV)': VA MyHealtheVet (MHV)
+      "U.S. Citizenship and Immigration Services (USCIS) - SAVE ": Services de citoyenneté et d’immigration des États-Unis (USCIS) - SAVE
+      "U.S. Department of Agriculture": Département de l’Agriculture des États-Unis
+      "U.S. International Trade Commission": Commission du commerce international des États-Unis
+      "United States Forest Service": Service des forêts des États-Unis
+      "USAJOBS": USAJOBS
+      "VA MyHealtheVet (MHV)": VA MyHealtheVet (MHV)
     errors:
       captcha_required: Vous devez nous prouver que vous n’êtes pas un robot.
-      pii_found: Pour protéger votre vie privée, ne fournissez pas de renseignements
+      pii_found:
+        Pour protéger votre vie privée, ne fournissez pas de renseignements
         sensibles dans ce formulaire. Nos agents du service d’assistance à la
         clientèle pourront vous aider même s’ils n’ont pas ces informations.
     form_helpers:
-      select_agency: '- Organisme auquel vous essayez d’accéder -'
-      select_issue: '- Sélectionner un problème précis -'
-      select_topic: '- Sélectionner un sujet -'
+      select_agency: "- Organisme auquel vous essayez d’accéder -"
+      select_issue: "- Sélectionner un problème précis -"
+      select_topic: "- Sélectionner un sujet -"
     labels:
       agency_application: Organisme partenaire
       agency_application_all: Toutes les applications
@@ -156,7 +159,8 @@ contact_page:
       authentication_app: Comment puis-je modifier ma méthode d’authentification ?
       authentication_app_setup: Comment puis-je configurer une application d’authentification ?
       backup_codes: Comment puis-je utiliser mes codes de sauvegarde pour me connecter ?
-      blank_screen: Je vois une erreur/un écran vide quand je suis en train de créer
+      blank_screen:
+        Je vois une erreur/un écran vide quand je suis en train de créer
         mon compte.
       cant_proof_in_person: Je n’ai pas pu confirmer mon identité en personne au bureau de poste.
       change_email: Comment puis-je modifier mon adresse e-mail ?
@@ -164,19 +168,23 @@ contact_page:
       change_phone_number: Comment puis-je modifier mon numéro de téléphone ?
       concerned_login_email: Je m’inquiète au sujet de l’e-mail que j’ai reçu de Login.gov.
       delete_account: Comment puis-je supprimer mon mot de passe Login.gov ?
-      device_notification: J’ai reçu une alerte au sujet d’une nouvelle connexion à
+      device_notification:
+        J’ai reçu une alerte au sujet d’une nouvelle connexion à
         mon compte Login.gov.
       email_delivery_issue: Je ne reçois pas l’e-mail de confirmation de la part de Login.gov.
       facial_matching: La photo de mon visage n’a pas été acceptée
       feedback: J’ai des commentaires à propos de Login.gov.
-      forgot_password: J’ai oublié mon mot de passe Login.gov et je ne parviens pas à
+      forgot_password:
+        J’ai oublié mon mot de passe Login.gov et je ne parviens pas à
         le réinitialiser.
       how_to_create_with_verification: Comment puis-je créer un compte Login.gov avec vérification d’identité ?
-      how_to_link: Comment puis-je associer mon compte chez un organisme partenaire à
+      how_to_link:
+        Comment puis-je associer mon compte chez un organisme partenaire à
         Login.gov ?
       how_to_verify: Comment/pourquoi dois-je confirmer mon identité ?
       interest_in_partnership: Je souhaite utiliser Login.gov pour accéder à mon organisme public.
-      international_number: J’ai un numéro de téléphone non américain (international)
+      international_number:
+        J’ai un numéro de téléphone non américain (international)
         et ne parviens pas à recevoir mon code de sécurité.
       invalid_email: Login.gov n’accepte pas mon adresse e-mail. Il est indiqué
         qu’elle n’est pas valable.
@@ -194,7 +202,8 @@ contact_page:
       new_device_notification: J’ai reçu un e-mail me notifiant d’une connexion sur un nouvel appareil.
       new_personal_key: Comment puis-je obtenir une nouvelle clé personnelle ?
       no_otp_received: Je n’ai pas reçu d’OTP (mot de passe à usage unique)
-      no_phone: Je ne parviens pas à créer de compte Login.gov parce que je n’ai pas
+      no_phone:
+        Je ne parviens pas à créer de compte Login.gov parce que je n’ai pas
         de téléphone.
       none: –Néant–
       other: Autre
@@ -207,16 +216,19 @@ contact_page:
       piv_cac: Je rencontre des difficultés pour me connecter avec ma carte PIV/CAC.
       privacy_and_security: Confidentialité et sécurité
       recaptcha_sign_in: Je n’ai pas réussi la vérification de sécurité en me connectant
-      recover_account: Comment puis-je me connecter à mon compte si je n’ai pas mon
+      recover_account:
+        Comment puis-je me connecter à mon compte si je n’ai pas mon
         téléphone ni une clé personnelle ?
       remember_browser: J’ai paramétré « Se souvenir de ce navigateur » mais je
         continue à recevoir des codes de sécurité.
       remember_device_issue: Comment puis-je arrêter de recevoir des codes de sécurité ?
       security_code: Je ne parviens pas à recevoir de code de sécurité.
       security_key: Je rencontre des difficultés pour me connecter avec ma clé de sécurité.
-      security_question: Comment vous engagez-vous/s’engage Login.gov à protéger ma
+      security_question:
+        Comment vous engagez-vous/s’engage Login.gov à protéger ma
         sécurité et ma confidentialité ?
-      seeing_errors: Je vois une erreur/un écran vide au moment d’accéder à mon compte
+      seeing_errors:
+        Je vois une erreur/un écran vide au moment d’accéder à mon compte
         Login.gov.
       service_quality: Qualité de service
       site_navigation: Je ne sais pas sur quelle page aller pour créer un compte.
@@ -237,16 +249,16 @@ contact_page:
       signing_in: Vous connecter à votre compte Login.gov
       verifying_identity: Confirmer votre identité
 feedback_form:
-  'no': 'Non'
+  "no": "Non"
   question: Cet article vous a-t-il été utile ?
-  'yes': 'Oui'
+  "yes": "Oui"
 global:
   language: Langue
   locales:
     en: English
     es: Español
     fr: Français
-    zh: '中文 (简体)'
+    zh: "中文 (简体)"
 help_page:
   categories:
     - description: Créez votre compte. Informez-vous sur les options
@@ -255,13 +267,15 @@ help_page:
       slug: create-account
       title: Créer mon compte
       url: /fr/help/create-account/overview/
-    - description: Mot de passe oublié ? Compte verrouillé ? Nous vous aiderons à
+    - description:
+        Mot de passe oublié ? Compte verrouillé ? Nous vous aiderons à
         résoudre les problèmes d’accès.
       image: /assets/img/help/trouble-signing-in.svg
       slug: trouble-signing-in
       title: Difficultés pour se connecter
       url: /fr/help/trouble-signing-in/overview/
-    - description: Modifiez les paramètres de votre compte, notamment votre mot de
+    - description:
+        Modifiez les paramètres de votre compte, notamment votre mot de
         passe, votre numéro de téléphone, votre adresse e-mail, etc.
       image: /assets/img/help/manage-your-account.svg
       slug: manage-your-account
@@ -272,13 +286,15 @@ help_page:
       slug: verify-your-identity
       title: Confirmer mon identité
       url: /fr/help/verify-your-identity/overview/
-    - description: Obtenez de l’aide avec les Programmes pour voyageurs dignes de
+    - description:
+        Obtenez de l’aide avec les Programmes pour voyageurs dignes de
         confiance (TTP) et SAM.gov.
       image: /assets/img/help/help-specific-agencies.svg
       slug: specific-agencies
       title: Aide avec les organismes
       url: /fr/help/specific-agencies/overview/
-    - description: Apprendre comment vous protéger ainsi que votre compte Login.gov
+    - description:
+        Apprendre comment vous protéger ainsi que votre compte Login.gov
         contre la fraude.
       image: /assets/img/help/fraud-concerns.svg
       slug: fraud-concerns
@@ -322,18 +338,18 @@ nav:
   about_us:
     sections:
       - name: Notre mission
-        url: '#notre-mission'
+        url: "#notre-mission"
       - name: Notre vision
-        url: '#notre-vision'
+        url: "#notre-vision"
       - name: À propos de Login.gov
-        url: '#à-propos-de-logingov'
+        url: "#à-propos-de-logingov"
     title: Qui sommes-nous ?
   accessibility:
     sections:
       - name: Notre engagement
-        url: '#notre-engagement'
+        url: "#notre-engagement"
       - name: Évaluation
-        url: '#évaluation'
+        url: "#évaluation"
     title: Accessibilité
   anchor_to_top: Retour en haut de la page
   become_a_partner: Devenir partenaire
@@ -343,13 +359,13 @@ nav:
   contact_us:
     sections:
       - name: Trouvez des réponses aux questions fréquemment posées
-        url: '#trouvez-des-réponses-aux-questions-fréquemment-posées'
+        url: "#trouvez-des-réponses-aux-questions-fréquemment-posées"
       - name: Contactez-nous
-        url: '#contactez-nous'
+        url: "#contactez-nous"
       - name: Devenez partenaire de Login.gov
-        url: '#devenez-partenaire-de-logingov'
+        url: "#devenez-partenaire-de-logingov"
       - name: Signaler un problème de sécurité
-        url: '#signaler-un-problème-de-sécurité'
+        url: "#signaler-un-problème-de-sécurité"
     title: Nous contacter
   create_an_account: Créer un compte
   developer_guide: Guide du développeur
@@ -369,9 +385,9 @@ nav:
   join_us:
     sections:
       - name: Postes à pourvoir
-        url: '#postes-à-pourvoir'
+        url: "#postes-à-pourvoir"
       - name: Comment déposer une candidature
-        url: '#comment-déposer-une-candidature'
+        url: "#comment-déposer-une-candidature"
     title: Nous rejoindre
   menu: Menu
   overview: Vue d’ensemble
@@ -394,7 +410,7 @@ nav:
   privacy_&_security: Confidentialité et sécurité
   security: Sécurité
   security_experience: Security experience # partners site does not require translations
-  sign_in: 'Se connecter avec {{APP_NAME}}'
+  sign_in: "Se connecter avec {{APP_NAME}}"
   skip_nav: Passer au contenu principal
   system_status: État du système Login.gov
   what_is_login_gov: Qu’est-ce que Login.gov ?
