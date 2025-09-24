@@ -36,5 +36,5 @@ Envoyez une demande d’aide sur la page [Contacter les Services de retraite de 
 
 ## Articles connexes
 
-* [Aide concernant des organismes spécifiques](/help/specific-agencies/overview/)
-* [Relier à nouveau vos comptes](/help/manage-your-account/relink-your-accounts/)
+* [Aide concernant des organismes spécifiques](/fr/help/specific-agencies/overview/)
+* [Relier à nouveau vos comptes](/fr/help/manage-your-account/relink-your-accounts/)

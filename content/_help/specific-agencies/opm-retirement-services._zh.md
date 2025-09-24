@@ -37,5 +37,5 @@ Login.gov 只能解答有关 Retirement Services Online 登录流程和设立 Lo
 
 ## 相关文章
 
-* [就具体机构获得帮助](/help/specific-agencies/overview/)
-* [重新连接你的账户](/help/manage-your-account/relink-your-accounts/)
+* [就具体机构获得帮助](/zh/help/specific-agencies/overview/)
+* [重新连接你的账户](/zh/help/manage-your-account/relink-your-accounts/)
