@@ -117,7 +117,7 @@ Check your email for a message from [no-reply@login.gov](mailto:no-reply@login.g
 
 ## I am having a problem with my barcode
 
-Your barcode will not work at the Post Office if your deadline to visit a Post Office has passed, 30 days after you verify your information online. You’ll have to restart the process to verify your identity from the beginning to get a new barcode.
+Your barcode will not work at the Post Office if your deadline to visit a Post Office has passed, 7 days after you verify your information online. You’ll have to restart the process to verify your identity from the beginning to get a new barcode.
 
 ## Related articles
 

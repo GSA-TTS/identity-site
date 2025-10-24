@@ -116,7 +116,7 @@ Busque un mensaje de [no-reply@login.gov](mailto:no-reply@login.gov) en su corre
 
 ## Tengo problema con mi código de barras
 
-Su código de barras no funcionará en la oficina de correos si venció el plazo (30 días después de verificar su información en línea) para acudir en persona a la oficina de correos. Tendrá que volver a iniciar el proceso de verificación de su identidad desde el principio para obtener un nuevo código de barras.
+Su código de barras no funcionará en la oficina de correos si venció el plazo (7 días después de verificar su información en línea) para acudir en persona a la oficina de correos. Tendrá que volver a iniciar el proceso de verificación de su identidad desde el principio para obtener un nuevo código de barras.
 
 ## Otros artículos
 
