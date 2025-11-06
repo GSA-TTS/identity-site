@@ -116,7 +116,7 @@ Vérifiez si vous avez reçu un message de [no-reply@login.gov](mailto:no-reply@
 
 ## J’ai un problème avec mon code-barres
 
-Si vous présentez votre code-barres au bureau de poste après le délai limite de 30 jours après avoir confirmé votre identité en ligne, il ne fonctionnera pas. Vous devrez recommencer la procédure de vérification d'identité depuis le début pour obtenir un code-barres.
+Si vous présentez votre code-barres au bureau de poste après le délai limite de 7 jours après avoir confirmé votre identité en ligne, il ne fonctionnera pas. Vous devrez recommencer la procédure de vérification d'identité depuis le début pour obtenir un code-barres.
 
 ## Articles connexes
 
