@@ -19,6 +19,10 @@ Pour toute question, veuillez contacter directement l'IRS en consultant la page 
 {% endcapture %}
 {% include alert.html type="warning" class="margin-bottom-4" content=sensitive_data_alert_content %}
 
+## IRS Code d'erreur
+A continuación se muestra una lista de códigos de error comunes del IRS que puede encontrar al usar Login.gov y los próximos pasos sugeridos:
+
+
 | **Code d'erreur** | **Étapes suivantes** |
 |5001|Essayez de vous connecter à nouveau à votre compte Login.gov. Si vous rencontrez des difficultés, consultez la page [Problèmes de connexion ? &#124; Login.gov](https://www.login.gov/help/trouble-signing-in/overview/)|
 |6000|Un problème de sécurité vous empêche d'accéder à ce service en ligne de l'IRS. Vous ne pourrez pas l'utiliser pour le moment. Sélectionnez [Besoin d'aide?](https://www.irs.gov/node/13318) pour découvrir d'autres solutions pour effectuer votre transaction.|

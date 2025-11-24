@@ -20,7 +20,7 @@ Si tiene alguna pregunta, comuníquese directamente con el IRS visitando [Permí
 {% include alert.html type="warning" class="margin-bottom-4" content=sensitive_data_alert_content %}
 
 ## IRS Códigos de error
-Missing content
+A continuación se muestra una lista de códigos de error comunes del IRS que puede encontrar al usar Login.gov y los próximos pasos sugeridos:
 
 |  **Codigo de error**    | **Siguientes pasos** |
 |5001 | Intenta iniciar sesión de nuevo en tu cuenta de Login.gov. Si tienes problemas, visita [¿Problemas para iniciar sesión? &#124; Login.gov](https://www.login.gov/help/trouble-signing-in/overview/)|

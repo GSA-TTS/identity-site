@@ -19,8 +19,8 @@ Login.gov 仅用于安全登录。您的 Login.gov 帐户允许您访问使用�
 {% endcapture %}
 {% include alert.html type="warning" class="margin-bottom-4" content=sensitive_data_alert_content %}
 
-## IRS error codes
-Mising content
+## IRS 错误代码
+以下列出了您在使用 Login.gov 时可能遇到的常见 IRS 错误代码以及建议的后续步骤：
 
 |**错误代码**|**后续步骤**|
 |5001 |请尝试再次登录您的 Login.gov 帐户。如果遇到问题，请访问[“登录遇到问题？&#124; Login.gov”](https://www.login.gov/help/trouble-signing-in/overview/)。|
