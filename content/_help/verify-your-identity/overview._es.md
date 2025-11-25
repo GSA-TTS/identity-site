@@ -32,7 +32,7 @@ verify_identity_list:
 - Número de teléfono o dirección postal en los EE. UU.
 ---
 
-La verificación de identidad es el proceso por el cual usted demuestra que es quien dice que es y no alguien que se hace pasar por usted. Después de [crear su cuenta de Login.gov](/es/create-an-account/) o iniciar sesión, es posible que necesite verificar su identidad para acceder a los servicios de algunas agencias.
+La verificación de identidad es el proceso en el que comprueba que se trata de usted y no de alguien que se hace pasar por usted. Después de [crear su cuenta de Login.gov](/es/create-an-account/) o de iniciar sesión, es posible que necesite verificar su identidad para acceder a los servicios de algunas agencias.
 
 ## ¿Qué necesito para verificar mi identidad?
 
@@ -55,7 +55,7 @@ Si no tiene todos estos requisitos, contacte con la agencia a la que está inten
 
 {: .number-list}
 
-1. Tome [fotografías de su identificación en línea](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/). Es posible que también se le pida que [se tome una foto](/es/help/verify-your-identity/issues-taking-a-photo-of-myself/) para confirmar que usted es el titular de la identificación. Si tiene problemas para tomar fotos de su identificación o de usted mismo, también puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) en una oficina del Servicio Postal de los Estados Unidos cercana.
+1. Tome [fotografías de su identificación en línea](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/). Es posible que también se le pida que [se tome una foto](/es/help/verify-your-identity/issues-taking-a-photo-of-myself/) para confirmar que usted es el titular de su identificación. Si tiene problemas para tomar fotos de su identificación o de usted mismo, también puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) en una oficina del Servicio Postal de los Estados Unidos cercana.
 
 1. Ingrese su número de Seguro Social y [verificaremos su información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/) en registros públicos y privados.
 
@@ -65,7 +65,7 @@ Si no tiene todos estos requisitos, contacte con la agencia a la que está inten
 
 ## ¿Cómo usa Login.gov mi información?
 
-Login.gov es un sitio web gubernamental seguro que cumple las máximas normas de protección de datos. Antes de divulgar su información verificada a una agencia asociada, le pedimos su consentimiento. [Obtenga más información sobre nuestras medidas de privacidad y seguridad](/es/policy/).
+Login.gov es un sitio web gubernamental seguro que cumple las normas más elevadas de  protección de datos. Antes de divulgar su información verificada a una agencia asociada, le pedimos a usted su consentimiento. [Obtenga más información sobre nuestras medidas de privacidad y seguridad](/es/policy/).
 
 ## Otros artículos
 
