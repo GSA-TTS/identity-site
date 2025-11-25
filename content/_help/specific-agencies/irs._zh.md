@@ -13,7 +13,7 @@ Login.gov 仅用于安全登录。您的 Login.gov 帐户允许您访问使用�
 如有任何疑问，[请访问“让我们帮助您 &#124; 美国国税局”直接联系 IRS](https://www.irs.gov/help/let-us-help-you){:class="usa-link--external"}.
 
 {% capture sensitive_data_alert_content %}
-联系 Login.gov 时，请勿分享地址、电话号码、社会安全号码或其他身份识别信息等敏感数据。
+<strong>联系 Login.gov 时，请勿分享地址</strong>、电话号码、社会安全号码或其他身份识别信息等敏感数据。
 {% endcapture %}
 {% include alert.html type="warning" class="margin-bottom-4" content=sensitive_data_alert_content %}
 
