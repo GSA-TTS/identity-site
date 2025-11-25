@@ -3,7 +3,7 @@ layout: help
 title: Service des impôts internes (IRS)
 category: specific-agencies
 permalink: /fr/help/specific-agencies/irs/
-order: 5
+order: 2
 ---
 
 Login.gov sert uniquement à vous connecter en toute sécurité. Votre compte Login.gov vous donne accès aux applications web de l'IRS qui utilisent notre service. 

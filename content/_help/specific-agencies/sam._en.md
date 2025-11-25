@@ -3,7 +3,7 @@ layout: help
 title: System for Award Management (SAM)
 category: specific-agencies
 permalink: /help/specific-agencies/sam/
-order: 2
+order: 5
 redirect_from:
   - /help/sam/have-account-different-email/
   - /help/sam/no-longer-have-email/

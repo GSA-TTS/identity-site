@@ -3,7 +3,7 @@ layout: help
 title: Internal Revenue Service (IRS)
 category: specific-agencies
 permalink: /help/specific-agencies/irs/
-order: 5
+order: 2
 ---
 
 Login.gov is for secure sign in only. Your Login.gov account grants you access to IRS web applications that use our service.
