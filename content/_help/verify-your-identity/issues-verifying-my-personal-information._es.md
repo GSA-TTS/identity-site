@@ -4,8 +4,8 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/issues-verifying-my-personal-information/
 order: 3
 id_info_list:
-- Su nombre, fecha de nacimiento y la información en su identificación están escritos correctamente.
-- Su número de Seguro Social se ingresó correctamente.
+- Su nombre, fecha de nacimiento y la información en su identificación estén escritos correctamente.
+- Su número de Seguro Social se haya ingresado correctamente.
 - Su dirección es la correcta y está actualizada.
 ---
 
@@ -23,7 +23,7 @@ Si su nombre, apellido o fecha de nacimiento no son los correctos, puede ser que
 
 ## Recibí un mensaje de error que dice que Login.gov no encontró registros que coincidan con mi dirección
 
-Si recibió un mensaje de error que indica que “No pudimos encontrar registros que coincidan con su dirección”, verifique que su dirección es la correcta y está actualizada. Si se mudó en fecha reciente, inténtelo utilizando una dirección anterior.
+Si recibió un mensaje de error que indica que “No pudimos encontrar registros que coincidan con su dirección”, verifique que su dirección sea la correcta y esté actualizada. Si se mudó en fecha reciente, inténtelo utilizando una dirección anterior.
 
 Si su dirección actual es distinta de la que aparece en su identificación, puede modificarla después de ingresar su número de Seguro Social.
 
