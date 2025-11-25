@@ -147,7 +147,7 @@ Si envía sus fotos y recibe un mensaje de error que indica que su identificaci�
       aria-expanded="false"
       aria-controls="id-types-accordion"
     >
-      Tipos de identificación aceptables
+      Tipos de identificación aceptados
     </button>
   </h3>
   <div id="id-types-accordion" class="usa-accordion__content usa-prose">
