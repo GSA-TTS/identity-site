@@ -4,7 +4,7 @@ title: 社会保障署 (SSA)
 category: specific-agencies
 permalink: /zh/help/specific-agencies/ssa/
 keywords: 社会保障、社会保障福利、补发社会保障卡、社会保障卡、ssa、社会保障卡的补发、社会保障明细表、补发社会保障卡、新的社会保障卡、新卡、补发卡、SS 明细表、社会保障账户、社会保障署、ssa.gov，我需要一个新社会保障卡
-order: 4
+order: 3
 ---
 
 Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。你的 Login.gov 账户不影响你社会保障卡、申请、号码或福利，也没有任何有关上述各项的信息。

@@ -3,7 +3,7 @@ layout: help
 title: Services de retraite en ligne de l’OPM
 category: specific-agencies
 permalink: /fr/help/specific-agencies/opm-retirement-services-online/
-order: 3
+order: 5
 ---
 
 Login.gov est réservé à l'identification sécurisée. Votre compte Login.gov n'a aucune incidence et ne contient aucune information sur vos prestations de retraite.

@@ -3,7 +3,7 @@ title: Programme pour les voyageurs dignes de confiance (TTP)
 category: specific-agencies
 permalink: /fr/help/specific-agencies/trusted-traveler-programs/
 keywords: global entry, demande de global entry, renouveler global entry, nexus, TSA, Sentri, voyageurs dignes de confiance, TTP, renouvellement global entry
-order: 6
+order: 4
 redirect_from:
   - /fr/help/trusted-traveler-programs/another-question/
   - /fr/help/trusted-traveler-programs/aol-verizon/

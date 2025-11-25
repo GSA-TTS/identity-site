@@ -3,7 +3,7 @@ title: Programas para viajeros de confianza (TTP)
 category: specific-agencies
 permalink: /es/help/specific-agencies/trusted-traveler-programs/
 keywords: global entry, global entry application, renew global entry, nexus, tsa, sentri, trusted traveler, ttp, global entry renewal
-order: 6
+order: 4
 redirect_from:
   - /es/help/trusted-traveler-programs/another-question/
   - /es/help/trusted-traveler-programs/aol-verizon/
