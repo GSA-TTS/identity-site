@@ -18,7 +18,7 @@ Pour toute question, veuillez contacter directement l'IRS en consultant la page 
 {% include alert.html type="warning" class="margin-bottom-4" content=sensitive_data_alert_content %}
 
 ## IRS Code d'erreur
-A continuación se muestra una lista de códigos de error comunes del IRS que puede encontrar al usar Login.gov y los próximos pasos sugeridos
+Vous trouverez ci-dessous une liste des codes d'erreur courants de l'IRS que vous pourriez rencontrer lors de l'utilisation de Login.gov, ainsi que les étapes suivantes suggérées :
 
 
 | **Code d'erreur** | **Étapes suivantes** |
