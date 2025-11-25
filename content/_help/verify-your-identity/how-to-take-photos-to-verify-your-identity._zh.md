@@ -9,7 +9,7 @@ redirect_from:
   - /zh/help/verify-your-identity/how-to-add-images-of-your-state-issued-id/
 ---
 
-为了验证你的身份，你需要在网上拍摄你的 ID 的照片，或[亲身携带 ID 前往](/zh/help/verify-your-identity/verify-your-identity-in-person/)美国邮局。
+为了验证你的身份，你需要在网上拍摄你的 ID 的照片，或[亲身携带 ID](/zh/help/verify-your-identity/verify-your-identity-in-person/) 前往美国邮局。
 
 ## 我拍摄自己 ID 照片有困难
 
@@ -92,7 +92,7 @@ redirect_from:
 
 如果 Login.gov 的相机工具不能拍摄你的 ID 照片，请检查你使用的是否是最新版本的 iOS 或安卓操作系统，以及你手机或平板电脑使用的是否是我们建议的网络浏览器。
 
-你可能需要更新你的操作系统或网络浏览器，清除缓存或魔饼，或者授权 Login.gov 使用相机。
+你可能需要更新你的操作系统或网络浏览器，清除缓存或 Cookie，或者授权 Login.gov 使用相机。
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h3 class="usa-accordion__heading">
@@ -169,7 +169,7 @@ redirect_from:
   </div>
 </div>
 
-确保你 ID 上的姓名、地址和其他信息可以轻松读取。避免强光、眩光或阴影，以免 ID 难以读取。
+确保你 ID 上的姓名、地址和其他信息可以轻松读取。照片应避免强光、眩光或阴影，以免 ID 难以读取。
 
 
 ## 相关文章
