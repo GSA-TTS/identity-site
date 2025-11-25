@@ -33,7 +33,7 @@ El número de teléfono que use para verificar su identidad debe ser de los Esta
 
 ## Recibí un mensaje de error que dice que Login.gov no pudo relacionarme con este número
 
-Revise haber ingresado su número de teléfono correctamente y que está usando un tipo de número de teléfono aceptable.
+Revise haber ingresado su número de teléfono correctamente y que está usando un tipo de número de teléfono aceptado.
 
 Si su número de teléfono es correcto, desactive el desvío de llamadas mientras esté verificando su identidad (puede volver a activarlo cuando haya terminado). Intente utilizar otro número que esté asociado con su nombre.
 
