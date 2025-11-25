@@ -41,7 +41,7 @@ order: 3
       aria-expanded="false"
       aria-controls="b-a1"
     >
-      如果你有个人密钥（已验证你的身份），如何重置密码
+      如果你有个人密钥（已验证你的身份），如何重设密码
     </button>
   </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
