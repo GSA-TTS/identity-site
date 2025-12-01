@@ -65,7 +65,7 @@ Si no tiene todos estos requisitos, contacte con la agencia a la que está inten
 
 ## ¿Cómo usa Login.gov mi información?
 
-Login.gov es un sitio web gubernamental seguro que cumple las normas más elevadas de  protección de datos. Antes de divulgar su información verificada a una agencia asociada, le pedimos a usted su consentimiento. [Obtenga más información sobre nuestras medidas de privacidad y seguridad](/es/policy/).
+Login.gov es un sitio web gubernamental seguro que cumple las normas más elevadas de protección de datos. Antes de divulgar su información verificada a una agencia asociada, le pedimos a usted su consentimiento. [Obtenga más información sobre nuestras medidas de privacidad y seguridad](/es/policy/).
 
 ## Otros artículos
 
