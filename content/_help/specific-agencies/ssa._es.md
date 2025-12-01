@@ -6,15 +6,15 @@ permalink: /es/help/specific-agencies/ssa/
 order: 3
 ---
 
-Login.gov es sólo para acceder de forma segura. Su cuenta de Login.gov no afecta ni contiene información de ningún tipo acerca de su tarjeta, número o prestaciones del Seguro Social.
+Login.gov es sólo para acceder de forma segura. Su cuenta de Login.gov no afecta su tarjeta, número o beneficios del Seguro Social ni tiene información alguna al respecto.
 
-No envíe a Login.gov datos confidenciales personales ni números de identificación.
+No envíe a Login.gov datos confidenciales acerca de usted ni números de identificación.
 
 Login.gov solo puede responder las preguntas sobre el proceso de inicio de sesión y la creación de una cuenta de Login.gov.
 
 Si creó un nombre de usuario del Seguro Social hace más de 3 años, tendrá que cambiar a una cuenta nueva o existente de Login.gov para tener acceso continuo a los servicios en línea de la SSA.
 
-Comuníquese directamente con [SSA.gov](https://www.ssa.gov/es) si tiene preguntas sobre:
+Comuníquese directamente con [SSA.gov](https://www.ssa.gov/es) si tiene preguntas relacionadas con:
 
 * [Su número de Seguro Social](https://www.ssa.gov/employer/ssnv.htm)
 * [Remplazo de su tarjeta del Seguro Social](https://www.ssa.gov/number-card/replace-card)
@@ -33,5 +33,5 @@ Si reside en el extranjero, el sitio [SSA.gov ofrece información de contacto po
 
 ## Otros artículos
 
-* [Ayuda con agencias específicas](/es/help/specific-agencies/overview/)
+* [Ayuda con agencias](/es/help/specific-agencies/overview/)
 * [Vuelva a vincular sus cuentas](/es/help/manage-your-account/relink-your-accounts/)
