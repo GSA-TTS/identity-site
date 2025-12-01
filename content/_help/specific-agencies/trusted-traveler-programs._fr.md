@@ -29,19 +29,19 @@ redirect_from:
   - /fr/help/trusted-traveler-programs/will-my-ktn-known-traveler-number-change/
 ---
 
-Login.gov est réservé à l'identification sécurisée. Votre compte Login.gov n’a pas d’incidence et ne contient aucune information sur votre demande d’adhésion au [Programme pour les voyageurs dignes de confiance ](https://ttp.dhs.gov/)(TTP) ou votre adhésion ou admissibilité à ces programmes. Veuillez ne pas envoyer à Login.gov de données sensibles vous concernant ou de numéros d’adhérent permettant de vous identifier.
+Login.gov est réservé à l'identification sécurisée. Votre compte Login.gov n’a pas d’incidence et ne contient aucune information sur votre demande d’adhésion au [Programme pour les voyageurs dignes de confiance](https://ttp.dhs.gov/) (TTP) ou votre adhésion ou admissibilité à ces programmes. Veuillez ne pas envoyer à Login.gov de données sensibles vous concernant ou de numéros d’adhérent permettant de vous identifier.
 
 Login.gov ne peut répondre qu'aux questions concernant la création d'un compte Login.gov et le processus de connexion.
 
-Veuillez contacter directement les [Programmes voyageurs sans risque](https://help.cbp.gov/s/questions?language=en_US) si vous avez des questions concernant:
+Veuillez contacter directement les [Programmes voyageurs dignes de confiance](https://help.cbp.gov/s/questions?language=en_US) si vous avez des questions concernant:
 
 * [État de la demande](https://help.cbp.gov/s/article/Article-1886?language=en_US)
 * Rendez-vous
   * [Prendre ou modifier un rendez-vous](https://help.cbp.gov/s/article/Article1850?language=en_US)
   * [Inscription à l’arrivée](https://help.cbp.gov/s/article/Article-1871?language=en_US)
 * [Carte NEXUS, SENTRI ou Global Entry perdue, volée ou endommagée](https://help.cbp.gov/s/article/Article-1453?language=en_US)
-* [Demande déposée pour le mauvais Programme pour voyageurs fiables](https://help.cbp.gov/s/article/Article-1354?language=en_US)
-* [Autres questions au sujet du Programme pour voyageurs fiables](https://help.cbp.gov/s/all-ttp-articles?language=en_US)
+* [Demande déposée pour le mauvais Programme pour voyageurs dignes de confiance](https://help.cbp.gov/s/article/Article-1354?language=en_US)
+* [Autres questions au sujet du Programme pour voyageurs dignes de confiance](https://help.cbp.gov/s/all-ttp-articles?language=en_US)
 
 Notes importantes :
 * Votre numéro de voyageur connu (KTN) ne change pas lorsque vous créez un compte Login.gov.
