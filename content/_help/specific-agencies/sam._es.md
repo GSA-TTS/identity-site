@@ -21,11 +21,11 @@ redirect_from:
 
 La cuenta de Login.gov es únicamente para iniciar sesión de forma segura. Su cuenta de Login.gov no afecta la cuenta, solicitud, estado, membresía o cumplimiento de requisitos del Sistema para la Administración de Subvenciones (SAM), ni tiene información alguna al respecto.
 
-No envíe a Login.gov datos confidenciales acerca de usted ni de la aplicación del SAM.
+No envíe a Login.gov datos confidenciales acerca de usted ni de la solicitud del SAM.
 
 Login.gov solo puede responder las preguntas sobre el proceso de inicio de sesión y la creación de una cuenta de Login.gov.
 
-Contacte directamente con [SAM.gov](https://sam.gov/) si tiene pregunta relacionada con:
+Contacte directamente con [SAM.gov](https://sam.gov/) si tiene preguntas relacionadas con:
 
 * [¿Cómo puedo ver mi registro de identificador único de entidad o registro de entidad?](https://www.fsd.gov/gsafsd_sp?id=kb_article_view&sysparm_article=KB0041254)
 * Administración de entidad
@@ -48,5 +48,5 @@ Contacte con el Servicio Federal de Atención al Cliente al 866-606-8220 (llamad
 
 ## Otros artículos
 
-* [Ayuda con agencias específicas](/es/help/specific-agencies/overview/)
+* [Ayuda con agencias](/es/help/specific-agencies/overview/)
 * [¿Cómo vuelvo a vincular mi cuenta a una agencia asociada?](/es/help/manage-your-account/relink-your-accounts/)
