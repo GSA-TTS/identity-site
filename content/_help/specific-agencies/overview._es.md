@@ -1,8 +1,8 @@
 ---
-title: Ayuda con agencias específicas
+title: Ayuda con agencias
 category: specific-agencies
 permalink: /es/help/specific-agencies/overview/
-meta_title: Ayuda con agencias específicas
+meta_title: Ayuda con agencias
 order: 0
 redirect_from:
   - /es/help/specific-agencies/
