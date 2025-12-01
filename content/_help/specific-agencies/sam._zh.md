@@ -3,7 +3,7 @@ layout: help
 title: 政府合同管理系统（SAM）
 category: specific-agencies
 permalink: /zh/help/specific-agencies/sam/
-order: 2
+order: 6
 ---
 Login.gov 只是用于安全登录。你的 Login.gov 账户不影响你在采购合同管理系统（SAM）的账户、申请、状态、成员身份或入选资格，也没有有关上述各项的信息。
 

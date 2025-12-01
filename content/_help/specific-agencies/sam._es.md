@@ -1,7 +1,7 @@
 ---
 title: Sistema para la Administración de Subvenciones (SAM)
 category: specific-agencies
-order: 2
+order: 6
 permalink: /es/help/specific-agencies/sam/
 redirect_from:
   - /es/help/sam/have-account-different-email/

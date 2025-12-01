@@ -2,7 +2,7 @@
 title: SAM (System for Award Management)
 category: specific-agencies
 permalink: /fr/help/specific-agencies/sam/
-order: 2
+order: 6
 redirect_from:
   - /fr/help/sam/have-account-different-email/
   - /fr/help/sam/no-longer-have-email/
