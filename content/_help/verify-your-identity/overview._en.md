@@ -24,19 +24,8 @@ redirect_from:
 - /help/identity-verification/why-do-i-need-to-verify-my-identity/
 - /help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
 - /help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
-accept_id_list:
-- __Driver’s license__ from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico).
-- __Non-driver’s license state ID card.__ This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges.
-- __U.S. Passport book.__ Passports are accepted in some cases. If you don’t see the option to verify your identity with a passport, use a driver’s license or state ID, or try to verify your identity again later.
-reject_id_list:
-- U.S. passport cards and non-U.S. passports
-- Military IDs
-- Firearm license or permit cards
-- Expired IDs or extension documents
-- Paper or temporary IDs
-- Non-U.S. IDs
 verify_identity_list:
-- Driver’s license, state ID, or U.S. passport book
+- U.S. Driver’s license, state ID, or passport book
 - Social Security number
 - U.S. phone number or mailing address
 ---
@@ -46,32 +35,20 @@ Identity verification is the process where you prove you are you — and not som
 ## What do I need to verify my identity?
 
 To verify your identity with Login.gov, you will need a:
-{% include components/icon-list.html items=page.verify_identity_list size='md' icon_color='success' icon_shape='check_circle'%}
+{% include components/large-icon-check-list.html large_icon=verify_document items=page.verify_identity_list image_alt_text='verify-document' image='/assets/img/verify-document.svg' %}
 
 If you don’t have all of these requirements, contact the agency you are trying to access to find out what you can do instead.
-
-## What ID can I use?
-
-### Login.gov accepts these ID types:
-
-
-{% include components/icon-list.html items=page.accept_id_list size='md' icon_color='success' icon_shape='check_circle'%}
-
-### We do not accept:
-
-
-{% include components/icon-list.html items=page.reject_id_list size='md' icon_color='error' icon_shape='cancel' %}
 
 ## How do I verify my identity?
 
 
 {: .number-list}
 
-1. Take [photos of your ID online](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/). You may also be asked to [take a photo of yourself](/help/verify-your-identity/issues-taking-a-photo-of-myself/) to confirm that you are the owner of your ID. If you have trouble taking photos of your ID and yourself, you may also be able to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) at a United States Post Office near you.
+1. Take [photos of your ID online](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/). Use an [accepted ID type](/help/verify-your-identity/accepted-id-type/). In some cases, you’ll be asked to [take a selfie](/help/verify-your-identity/issues-taking-a-photo-of-myself/) to confirm that you are the owner of your ID. If you have trouble taking photos, you may also be able to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) at a United States Post Office near you.
 
 1. Enter your Social Security number and we will [verify your personal information](/help/verify-your-identity/issues-verifying-my-personal-information/) against public and proprietary records.
 
-1. We will [verify your phone number](/help/verify-your-identity/phone-number/) and send a one-time code to your phone. If that doesn’t work, we may be able to [verify your address by mail](/help/verify-your-identity/verify-your-address-by-mail/).
+1. [Verify your phone number](/help/verify-your-identity/phone-number/) and send a one-time code to your phone. If that doesn’t work, we may be able to [verify your address by mail](/help/verify-your-identity/verify-your-address-by-mail/) instead.
 
 1. Re-enter your password to store your verified information in your account, and connect your information to the partner agency you are trying to access.
 
@@ -81,7 +58,7 @@ Login.gov is a secure, government website that adheres to the highest standards 
 
 ## Related articles
 
-* [Issues taking photos of my ID](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [Take photos of my ID](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
 * [Verify my information](/help/verify-your-identity/issues-verifying-my-personal-information/)
 * [Verify my phone number](/help/verify-your-identity/phone-number/)
 * [Issues verifying my identity in person](/help/verify-your-identity/verify-your-identity-in-person/)
