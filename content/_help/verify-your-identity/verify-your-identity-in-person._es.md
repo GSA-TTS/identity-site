@@ -121,6 +121,6 @@ Su código de barras no funcionará en la oficina de correos si venció el plazo
 ## Otros artículos
 
 * [Problemas al tomar fotografías de mi identificación](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
-* [Problemas al verificar mi información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
-* [Problemas al verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
+* [Verificar mi información](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
 * [Busque una oficina de correos colaboradora](/es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)

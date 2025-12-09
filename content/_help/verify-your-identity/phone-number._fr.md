@@ -1,5 +1,5 @@
 ---
-title: Problèmes en lien avec la vérification de mon numéro de téléphone
+title: Confirmer mon numéro de téléphone
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/phone-number/
 order: 4
@@ -14,7 +14,8 @@ cannot_verify_list:
   - Numéros internationaux et de certains territoires des États-Unis
   - Numéros Google Voice ou VOIP (voix sur IP) similaires
   - Les numéros surtaxés (payants)
-  - Vous pouvez essayer avec un numéro de portable prépayé mais la plupart ne correspondent à aucune entrée dans les registres
+maybe_verify_list:
+  - La plupart des numéros de téléphone prépayés
 ---
 
 Nous comparons votre numéro de téléphone et d’autres renseignements personnels avec les entrées des registres publics et privés et vous envoyons un code à usage unique pour vérifier que le numéro de téléphone est bien le vôtre.
@@ -25,23 +26,26 @@ Le numéro de téléphone que vous utilisez doit être basé aux États-Unis. No
 
 ### Login.gov accepte les :
 
-{% include components/icon-list.html items=page.can_verify_list size='md' icon_color='success' icon_shape='check_circle'%}
+{% include components/icon-list.html items=page.can_verify_list size='md' icon_color='success' icon_shape='check_circle' class='margin-top-2' %}
 
 ### Nous n’acceptons pas :
 
-{% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' %}
+{% include components/icon-list.html items=page.cannot_verify_list size='md' icon_color='error' icon_shape='cancel' class='margin-top-2' %}
+{% include components/icon-list.html items=page.maybe_verify_list size='md' icon_color='warning' icon_shape='warning' class='warning-list-margin' %}
 
-## J’ai reçu un message d’erreur selon lequel Login.gov n’a pas trouvé de correspondance entre mon nom et ce numéro
+## Dépannage
 
-Vérifiez que votre numéro de téléphone est saisi correctement et que vous utilisez un type de numéro accepté.
+### Login.gov n’a pas pu m’associer à mon numéro de téléphone
 
-Si votre numéro de téléphone est correct, désactivez le transfert d’appels pendant que vous confirmez votre identité (une fois cette démarche terminée, vous pourrez réactiver cette fonction). Essayez un autre numéro associé à votre nom.
+* Vérifiez que :
+    * Votre numéro de téléphone est correctement saisi.
+    * Vous utilisez un type de numéro de téléphone autorisé.
+* Désactivez le renvoi d'appel pendant la vérification de votre identité.
+* Essayez un autre numéro associé à votre nom.
 
-Dans certains cas, vous pouvez [confirmer votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/). Vous devrez attendre 5 à 10 jours pour recevoir un courrier par la poste, puis suivre les instructions pour saisir le code de vérification.
-
-Si vous n’avez pas la possibilité d’effectuer cette démarche par courrier, votre numéro de téléphone doit être vérifié pour que votre identité puisse être confirmée avec Login.gov. Si vous ne pouvez pas essayer avec un autre numéro de téléphone, contactez l’organisme auquel vous cherchez à vous connecter pour trouver une autre solution.
+Certains agences n'acceptent pas la [vérification d'adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/) ; la vérification par numéro de téléphone est obligatoire. Pour l'agences, la vérification de votre numéro de téléphone est indispensable pour valider votre identité sur Login.gov. Si vous ne pouvez pas essayer avec un autre numéro de téléphone, contactez l’organisme auquel vous cherchez à vous connecter pour trouver une autre solution.
 
 ## Articles connexes
 
-* [Problèmes liés à la vérification de mes renseignements personnels](/fr/help/verify-your-identity/issues-verifying-my-personal-information/)
-* [Problèmes liés à la vérification de mon adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)
+* [Vérifier mes informations](/fr/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Confirmer mon adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)

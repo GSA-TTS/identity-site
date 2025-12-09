@@ -122,6 +122,6 @@ Login.gov 与美国邮局（USPS）合作，提供在邮局亲身验证身份的
 ## 相关文章
 
 * [拍摄我的 ID 照片问题](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
-* [验证我的个人信息问题](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)
-* [验证我的电话号码问题](/zh/help/verify-your-identity/phone-number/)
+* [验证我的信息](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [验证我的电话号码](/zh/help/verify-your-identity/phone-number/)
 * [找到一个参与本项目的邮局](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)

@@ -122,6 +122,6 @@ Your barcode will not work at the Post Office if your deadline to visit a Post O
 ## Related articles
 
 * [Issues taking photos of my ID](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
-* [Issues verifying my personal information](/help/verify-your-identity/issues-verifying-my-personal-information/)
-* [Issues verifying my phone number](/help/verify-your-identity/phone-number/)
+* [Verify my information](/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Verify my phone number](/help/verify-your-identity/phone-number/)
 * [Find a participating Post Office](/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)

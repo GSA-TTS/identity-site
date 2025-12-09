@@ -27,7 +27,7 @@ redirect_from:
 accept_id_list:
 - __Driver’s license__ from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico).
 - __Non-driver’s license state ID card.__ This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges.
-- __U.S. Passport book.__ Passports are accepted in some cases. If you don’t see the option to verify your identity with a passport, use a driver’s license or state ID, or try to verify your identity again later. 
+- __U.S. Passport book.__ Passports are accepted in some cases. If you don’t see the option to verify your identity with a passport, use a driver’s license or state ID, or try to verify your identity again later.
 reject_id_list:
 - U.S. passport cards and non-U.S. passports
 - Military IDs
@@ -82,6 +82,6 @@ Login.gov is a secure, government website that adheres to the highest standards 
 ## Related articles
 
 * [Issues taking photos of my ID](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
-* [Issues verifying my personal information](/help/verify-your-identity/issues-verifying-my-personal-information/)
-* [Issues verifying my phone number](/help/verify-your-identity/phone-number/)
+* [Verify my information](/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Verify my phone number](/help/verify-your-identity/phone-number/)
 * [Issues verifying my identity in person](/help/verify-your-identity/verify-your-identity-in-person/)

@@ -30,6 +30,6 @@ dont_list:
 ## 相关文章
 
 * [拍摄我的 ID 照片问题](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
-* [验证我的个人信息问题](/zh/help/verify-your-identity/overview/)
-* [验证我的电话号码问题](/zh/help/verify-your-identity/phone-number/)
+* [验证我的信息](/zh/help/verify-your-identity/overview/)
+* [验证我的电话号码](/zh/help/verify-your-identity/phone-number/)
 * [亲身验证我的身份问题](/zh/help/verify-your-identity/verify-your-identity-in-person/)

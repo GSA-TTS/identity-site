@@ -36,7 +36,7 @@ La verificación de identidad es el proceso por el cual usted demuestra que es q
 
 ## ¿Qué necesito para verificar mi identidad?
 
-Para verificar su identidad con Login.gov, necesitará su: 
+Para verificar su identidad con Login.gov, necesitará su:
 {% include components/icon-list.html items=page.verify_identity_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 Si no tiene todos estos requisitos, contacte con la agencia a la que está intentando acceder para saber lo que puede hacer en ese caso.
@@ -70,6 +70,6 @@ Login.gov es un sitio web gubernamental seguro que cumple las máximas normas de
 ## Otros artículos
 
 * [Problemas al tomar fotografías de mi identificación](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
-* [Problemas al verificar mi información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
-* [Problemas al verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
+* [Verificar mi información](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
 * [Problemas al verificar mi identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/)
