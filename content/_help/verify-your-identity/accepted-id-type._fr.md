@@ -19,11 +19,11 @@ dont_list:
 
 ## Quelle pièce d'identité puis-je utiliser ?
 
-## Login.gov accepte les types de pièces d'identité suivants :
+### Login.gov accepte les types de pièces d'identité suivants :
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='success' icon_shape='check_circle' %}
 
-## Nous n'acceptons pas :
+### Nous n'acceptons pas :
 
 {% include components/icon-list.html items=page.dont_list size='md' icon_color='error' icon_shape='cancel' %}
 

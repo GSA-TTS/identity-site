@@ -19,11 +19,11 @@ dont_list:
 
 ## ¿Qué identificación puedo usar?
 
-## Login.gov acepta estos tipos de identificación:
+### Login.gov acepta estos tipos de identificación:
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='success' icon_shape='check_circle' %}
 
-## No se aceptan:
+### No se aceptan:
 
 {% include components/icon-list.html items=page.dont_list size='md' icon_color='error' icon_shape='cancel' %}
 

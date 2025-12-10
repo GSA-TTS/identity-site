@@ -19,11 +19,11 @@ dont_list:
 
 ## What ID can I use?
 
-## Login.gov accepts these ID types:
+### Login.gov accepts these ID types:
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='success' icon_shape='check_circle' %}
 
-## We do not accept:
+### We do not accept:
 
 {% include components/icon-list.html items=page.dont_list size='md' icon_color='error' icon_shape='cancel' %}
 

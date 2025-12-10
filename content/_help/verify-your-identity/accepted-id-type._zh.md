@@ -19,11 +19,11 @@ dont_list:
 
 ## 我可以使用什么 ID？
 
-## Login.gov 接受以下类型的 ID ：
+### Login.gov 接受以下类型的 ID ：
 
 {% include components/icon-list.html items=page.do_list size='md' icon_color='success' icon_shape='check_circle' %}
 
-## 我们不接受以下证件：
+### 我们不接受以下证件：
 
 {% include components/icon-list.html items=page.dont_list size='md' icon_color='error' icon_shape='cancel' %}
 
