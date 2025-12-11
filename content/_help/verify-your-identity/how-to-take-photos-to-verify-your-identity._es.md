@@ -25,7 +25,7 @@ Necesita un teléfono o una tableta con cámara para tomar las fotografías de s
           image_alt_text='ID is placed on a white background.'
           image='/assets/img/help/id-dos-and-donts/id-dont-white-background.png'
           bordered_image=true
-          text='Use un fondo de color blanco'
+          text='use un fondo de color blanco'
         %}
       </div>
       <div class="tablet:grid-col">
@@ -34,7 +34,7 @@ Necesita un teléfono o una tableta con cámara para tomar las fotografías de s
           image_alt_text='ID is placed on a textured background.'
           image='/assets/img/help/id-dos-and-donts/id-dont-textured-background.png'
           bordered_image=true
-          text="Use un fondo con textura ni con dibujos"
+          text="use un fondo con textura ni con dibujos"
         %}
       </div>
     </div>
@@ -47,7 +47,7 @@ Necesita un teléfono o una tableta con cámara para tomar las fotografías de s
           include components/image-example-incorrect.html
           image_alt_text='ID has a glare and shadows cast over it.'
           image='/assets/img/help/id-dos-and-donts/id-dont-shadow.png'
-          text='Use fotos con reflejos o sombras'
+          text='use fotos con reflejos o sombras'
         %}
       </div>
       <div class="tablet:grid-col">
@@ -56,7 +56,7 @@ Necesita un teléfono o una tableta con cámara para tomar las fotografías de s
           image_alt_text='ID edges are cropped out.'
           image='/assets/img/help/id-dos-and-donts/id-dont-cropped.png'
           bordered_image=true
-          text='Recorte los bordes de su identificación'
+          text='recorte los bordes de su identificación'
         %}
       </div>
     </div>
