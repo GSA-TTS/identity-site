@@ -1,5 +1,5 @@
 ---
-title: Problèmes liés à la vérification de mon adresse par courrier
+title: Confirmer mon adresse par courrier
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/verify-your-address-by-mail/
 order: 5
@@ -8,9 +8,9 @@ redirect_from:
   - /fr/help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 ---
 
-Dans certains cas, vous pouvez confirmer votre adresse par courrier au lieu de [confirmer votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/). Vous recevrez un courrier par la poste contenant un code de vérification pour confirmer que l’adresse est bien la vôtre.
+Certains agences vous permettent de vérifier votre adresse par courrier plutôt que votre numéro de téléphone. Vous recevrez un courrier sous 5 à 10 jours ouvrables contenant un code de vérification vous permettant de confirmer que l'adresse vous appartient.
 
-## Comment puis-je confirmer mon adresse par courrier ?
+## Comment confirmer une adresse
 
 {: .number-list}
 
@@ -24,15 +24,17 @@ Dans certains cas, vous pouvez confirmer votre adresse par courrier au lieu de [
 
 1. Une fois ce courrier reçu, reconnectez-vous pour saisir le code de vérification qui y figure.
 
-## Je ne peux pas recevoir le courrier à l’adresse indiquée
+## Dépannage
+
+### Je ne peux pas recevoir de courrier à l’adresse indiquée
 
 Nous envoyons ce courrier à une adresse que nous avons vérifiée et à laquelle nous avons pu vous associer. Si vous devez modifier cette adresse, vous aurez besoin de recommencer à faire vérifier vos renseignements personnels avec la nouvelle adresse.
 
-## Je n’ai pas reçu de lettre par la poste
+### Je n’ai pas reçu de lettre par la poste
 
 Si vous n’avez pas reçu le courrier sous un délai de 5 à 10 jours, ou si votre code de vérification a expiré, vous pouvez en demander un nouveau.
 
-Pour demander un nouveau code de vérification :
+#### Pour demander un nouveau code de vérification :
 
 {: .number-list}
 
@@ -46,5 +48,5 @@ Si vous avez commencé la procédure de vérification d’identité il y a plus 
 
 ## Articles connexes
 
-* [Problèmes liés à la vérification de mes renseignements personnels](/fr/help/verify-your-identity/issues-verifying-my-personal-information/)
-* [Problèmes en lien avec la vérification de mon numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
+* [Vérifier mes informations](/fr/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Confirmer mon numéro de téléphone](/fr/help/verify-your-identity/phone-number/)

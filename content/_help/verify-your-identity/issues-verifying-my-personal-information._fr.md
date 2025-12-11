@@ -1,5 +1,5 @@
 ---
-title: Problèmes liés à la vérification de mes renseignements personnels
+title: Vérifier mes informations
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/issues-verifying-my-personal-information/
 order: 3
@@ -11,7 +11,9 @@ id_info_list:
 
 Une fois la vérification de votre identité effectuée, vous saisirez votre numéro de Sécurité sociale pour que nous puissions comparer que les renseignements figurant sur votre pièce d’identité et ceux que vous avez saisis correspondent aux informations enregistrées sur les registres publics et privés.
 
-## J’ai reçu un message d’erreur selon lequel Login.gov n’a pas trouvé d'informations correspondant à mes renseignements personnels.
+## Dépannage
+
+### Login.gov n’a pas trouvé de dossiers correspondant à mes informations personnelles
 
 Si vous recevez le message d’erreur « Nous n’avons pas trouvé d’informations correspondant à vos renseignements personnels », veuillez vérifier ce qui suit :
 
@@ -21,9 +23,9 @@ Si le numéro de sécurité sociale ou l’adresse sont incorrects, veuillez rec
 
 Si votre nom, prénom ou date de naissance sont incorrects, il est possible que ces données aient été lues de façon erronée sur votre pièce d’identité. Recommencez la procédure pour faire à nouveau des photos de votre pièce d’identité. Il n’est pas possible de modifier le nom ou la date de naissance figurant sur votre pièce d’identité.
 
-## J’ai reçu un message d’erreur selon lequel Login.gov n’a pas trouvé d’enregistrements correspondant à mon adresse.
+### Login.gov n’a pas trouvé d’informations correspondant à mon adresse
 
-Si vous recevez le message d’erreur « Nous n’avons pas trouvé d’informations correspondant à vos renseignements personnels », veuillez vérifier que vous avez saisi correctement votre adresse actuelle. Si vous avez récemment déménagé, essayez en saisissant une ancienne adresse.
+Si vous recevez le message d’erreur « Nous n’avons pas trouvé d’informations correspondant à votre adresse », veuillez vérifier que vous avez saisi correctement votre adresse actuelle. Si vous avez récemment déménagé, essayez en saisissant une ancienne adresse.
 
 Si votre adresse actuelle est différente de celle figurant sur votre pièce d’identité, vous pourrez la modifier après avoir saisi votre numéro de sécurité sociale.
 
@@ -32,5 +34,5 @@ Si votre adresse postale est différente de votre adresse résidentielle, saisis
 
 ## Articles connexes
 
-* [Problèmes en lien avec la vérification de mon numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
-* [Problèmes liés à la vérification de mon adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)
+* [Confirmer mon numéro de téléphone](/fr/help/verify-your-identity/phone-number/)
+* [Confirmer mon adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/)

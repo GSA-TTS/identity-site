@@ -28,7 +28,7 @@ verify_identity_list:
 
 ## 我验证身份需要什么？
 
-要在 Login.gov 验证你的身份，你需要： 
+要在 Login.gov 验证你的身份，你需要：
 {% include components/icon-list.html items=page.verify_identity_list size='md' icon_color='success' icon_shape='check_circle'%}
 
 如果你上述这些要求都满足不了，请联系你想访问的机构，了解可以采取的替代措施。
@@ -62,6 +62,6 @@ Login.gov 是一个安全的、遵守数据保护最高标准的政府网站。�
 ## 相关文章
 
 * [拍摄我的 ID 照片问题](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
-* [验证我的个人信息问题](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)
-* [验证我的电话号码问题](/zh/help/verify-your-identity/phone-number/)
+* [验证我的信息](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [验证我的电话号码](/zh/help/verify-your-identity/phone-number/)
 * [亲身验证我的身份问题](/zh/help/verify-your-identity/verify-your-identity-in-person/)

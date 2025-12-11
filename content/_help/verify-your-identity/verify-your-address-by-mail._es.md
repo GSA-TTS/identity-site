@@ -1,5 +1,5 @@
 ---
-title: Problemas al verificar mi dirección por correo postal
+title: Verificar mi dirección por correo postal
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/verify-your-address-by-mail/
 order: 5
@@ -8,9 +8,9 @@ redirect_from:
   - /es/help/creating-an-account/how-do-i-verify-my-identity-by-mail/
 ---
 
-En algunos casos, puede verificar su dirección por correo postal en lugar de [verificar su número de teléfono](/es/help/verify-your-identity/phone-number/). Recibirá una carta por correo con un código de verificación para confirmar que la dirección sea la suya.
+Algunas agencias permiten verificar la dirección por correo postal en lugar de por teléfono. Recibirá una carta en un plazo de 5 a 10 días laborales con un código de verificación para confirmar que la dirección le pertenece.
 
-## ¿Cómo verifico mi dirección por correo postal?
+## Cómo verificar una dirección
 
 {: .number-list}
 
@@ -24,15 +24,17 @@ En algunos casos, puede verificar su dirección por correo postal en lugar de [v
 
 1. Cuando reciba su carta, vuelva a iniciar sesión e ingrese el código de verificación.
 
-## No puedo recibir correo en la dirección indicada
+## Solución de problemas
+
+### No puedo recibir correo postal en la dirección indicada
 
 Enviamos la carta a una dirección que hemos verificado y cotejado con el resto de su información. Si necesita cambiar esta dirección, tendrá que verificar de nuevo su información personal con la nueva dirección.
 
-## No recibí una carta por correo
+### No recibí una carta por correo postal.
 
 Si no recibió una carta después de 5 o 10 días, o si su código de verificación venció, puede solicitar otro código.
 
-Para solicitar otro código de verificación:
+#### Para solicitar otro código de verificación:
 
 {: .number-list}
 
@@ -46,5 +48,5 @@ Si comenzó la verificación de su identidad hace más de 30 días, tendrá que 
 
 ## Otros artículos
 
-* [Problemas al verificar mi información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
-* [Problemas al verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
+* [Verificar mi información](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
