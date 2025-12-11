@@ -90,9 +90,9 @@ redirect_from:
 
 ## 相机工具无法使用
 
-如果 Login.gov 的相机工具不能拍摄你的 ID 照片，请检查你使用的是否是最新版本的 iOS 或安卓操作系统，以及你手机或平板电脑使用的是否是我们建议的网络浏览器。
+如果 Login.gov 的相机工具不能拍摄你的 ID 照片，请检查你使用的是否是最新版本的 iOS 或安卓操作系统，以及是否是下面推荐使用的手机或平板电脑网络浏览器。
 
-你可能需要更新你的操作系统或网络浏览器，清除缓存或 Cookie，或者授权 Login.gov 使用相机。
+你可能需要更新你的操作系统或网络浏览器，清除缓存或魔饼Cookies，或者授权 Login.gov 使用相机。
 
 <div class="usa-accordion usa-accordion--bordered margin-y-4">
   <h3 class="usa-accordion__heading">
@@ -109,7 +109,7 @@ redirect_from:
     <ul>
       <li><a href="https://support.apple.com/en-us/118575" class="external-link">更新至最新版本的 iOS 系统</a></li>
       <li>使用 <a href="https://www.apple.com/safari/" class="external-link">Safari 网络浏览器</a></li>
-      <li>如果你在使用 Safari，可以尝试 <a href="https://support.apple.com/en-us/102665" class="external-link">更新浏览器</a>，或者 <a href="https://support.apple.com/en-us/105082" class="external-link">清除缓存和 Cookie</a></li>
+      <li>如果你在使用 Safari，可以尝试 <a href="https://support.apple.com/en-us/102665" class="external-link">更新浏览器</a>，或者 <a href="https://support.apple.com/en-us/105082" class="external-link">清除缓存和魔饼Cookies</a></li>
       <li>要赋予 Login.gov 使用相机的权限，请在 <a href="https://support.apple.com/en-mt/guide/iphone/iphb01fc3c85/ios" class="external-link">Safari 中允许使用相机</a></li>
     </ul>
   </div>
@@ -129,7 +129,7 @@ redirect_from:
     <ul>
       <li><a href="https://support.google.com/android/answer/7680439?hl=en" class="external-link">更新至最新版本的安卓系统</a></li>
       <li>使用 <a href="https://www.google.com/chrome/?brand=WDIF&ds_kid=43700078347700321&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccAvZWVPqrBawjLCJp6uWvrMplezDwWVR7AnWXZhu-4He4V3oXJBOrRoCtTwQAvD_BwE&gclsrc=aw.ds" class="external-link">Chrome 网络浏览器</a></li>
-      <li>如果你在使用 Google Chrome，可以尝试 <a href="https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DAndroid&hl=en&oco=1" class="external-link">更新浏览器</a>，或者 <a href="https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&hl=en&oco=1" class="external-link">清除缓存和 Cookie</a></li>
+      <li>如果你在使用 Google Chrome，可以尝试 <a href="https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DAndroid&hl=en&oco=1" class="external-link">更新浏览器</a>，或者 <a href="https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DAndroid&hl=en&oco=1" class="external-link">清除缓存和魔饼Cookies。</a></li>
       <li>如果要授权 Login.gov 使用相机，请在 <a href="https://support.google.com/chrome/answer/2693767?hl=en&co=GENIE.Platform%3DAndroid&oco=1" class="external-link">Chrome 上允许使用相机</a></li>
     </ul>
   </div>
