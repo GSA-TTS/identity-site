@@ -6,7 +6,7 @@ order: 3
 id_info_list:
 - Su nombre, fecha de nacimiento y la información en su identificación estén escritos correctamente.
 - Su número de Seguro Social se haya ingresado correctamente.
-- Su dirección es la correcta y está actualizada.
+- Su dirección sea la correcta y esté actualizada.
 ---
 
 Después de verificar su identificación, ingrese su número de Seguro Social y verificaremos la información de su identificación y la que ingresó en registros públicos y privados.
