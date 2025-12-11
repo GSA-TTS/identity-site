@@ -9,7 +9,7 @@ id_info_list:
 - Vous avez saisi correctement votre adresse actuelle.
 ---
 
-Une fois la vérification de votre identité effectuée, vous saisirez votre numéro de Sécurité sociale pour que nous puissions comparer que les renseignements figurant sur votre pièce d’identité et ceux que vous avez saisis correspondent aux informations enregistrées sur les registres publics et privés.
+Une fois la vérification de votre identité effectuée, vous saisirez votre numéro de Sécurité sociale pour que nous puissions vérifier que les renseignements figurant sur votre pièce d’identité et ceux que vous avez saisis correspondent aux informations enregistrées sur les registres publics et privés.
 
 ## J’ai reçu un message d’erreur selon lequel Login.gov n’a pas trouvé d'informations correspondant à mes renseignements personnels.
 
@@ -21,7 +21,7 @@ Si le numéro de sécurité sociale ou l’adresse sont incorrects, veuillez rec
 
 Si votre nom, prénom ou date de naissance sont incorrects, il est possible que ces données aient été lues de façon erronée sur votre pièce d’identité. Recommencez la procédure pour faire à nouveau des photos de votre pièce d’identité. Il n’est pas possible de modifier le nom ou la date de naissance figurant sur votre pièce d’identité.
 
-## J’ai reçu un message d’erreur selon lequel Login.gov n’a pas trouvé d’enregistrements correspondant à mon adresse.
+## J’ai reçu un message d’erreur selon lequel Login.gov n’a pas trouvé de dossier correspondant à mon adresse.
 
 Si vous recevez le message d’erreur « Nous n’avons pas trouvé d’informations correspondant à vos renseignements personnels », veuillez vérifier que vous avez saisi correctement votre adresse actuelle. Si vous avez récemment déménagé, essayez en saisissant une ancienne adresse.
 

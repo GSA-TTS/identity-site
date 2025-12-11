@@ -8,8 +8,8 @@ redirect_from:
   - /fr/help/verify-your-identity/phone-number-and-phone-plan-in-your-name/
 can_verify_list:
   - Numéros personnels
-  - Numéros de téléphones portables
-  - Numéros de téléphones fixes
+  - Numéros de téléphone portable
+  - Numéros de téléphone fixe
 cannot_verify_list:
   - Numéros internationaux et de certains territoires des États-Unis
   - Numéros Google Voice ou VOIP (voix sur IP) similaires

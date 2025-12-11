@@ -38,7 +38,7 @@ redirect_from:
   </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
-      <li>Ingrese su dirección de correo electrónico en <a href="https://secure.login.gov/es">https://secure.login.gov</a>.</li>
+      <li>Ingrese su dirección de correo electrónico en <a href="https://secure.login.gov/es" class="usa-link">https://secure.login.gov/es</a>.</li>
       <li>Ingrese su contraseña.</li>
       <li>Haga clic en el botón “Iniciar sesión”.</li>
       <li>Use uno de los métodos que configuró para autenticarse.</li>
@@ -57,13 +57,13 @@ redirect_from:
       aria-expanded="false"
       aria-controls="b-a2"
     >
-      Si NO tiene acceso a sus métodos de autenticación, siga estos pasos para eliminar la cuenta:
+      Si NO tiene acceso a sus métodos de autenticación, siga estos pasos para eliminar su cuenta:
     </button>
   </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>Por motivos de seguridad, Login.gov requiere un proceso de dos pasos y un período de espera de 24 horas si perdió el acceso a sus métodos de autenticación y necesita eliminar su cuenta.</p>
     <ol class="number-list">
-      <li>Vaya a la página de inicio de sesión de su aplicación del gobierno o a <a href="https://secure.login.gov/es">https://secure.login.gov</a>.</li>
+      <li>Vaya a la página de inicio de sesión de su aplicación del gobierno o a <a href="https://secure.login.gov/es" class="usa-link">https://secure.login.gov/es</a>.</li>
       <li>Inicie sesión con su correo electrónico y su contraseña.</li>
       <li>En la página de autenticación, haga clic en “Elegir otra opción de seguridad”.</li>
       <li>Vaya a la parte inferior y haga clic en el vínculo “Eliminar su cuenta”.</li>

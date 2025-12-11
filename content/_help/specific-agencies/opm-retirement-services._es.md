@@ -34,5 +34,5 @@ Envíe una solicitud de ayuda a la página (en inglés) [Contact OPM Retirement 
 
 ## Otros artículos
 
-* [Ayuda con agencias específicas](/es/help/specific-agencies/overview/)
+* [Ayuda con agencias](/es/help/specific-agencies/overview/)
 * [Vuelva a vincular sus cuentas](/es/help/manage-your-account/relink-your-accounts/)

@@ -30,7 +30,7 @@ reject_id_list:
 verify_identity_list:
 - Un permis de conduire, une carte d’identité d’un État ou un passeport américain (livret)
 - Un numéro de sécurité sociale
-- Un numéro de téléphone des États-Unis ou une adresse postale
+- Un numéro de téléphone des États-Unis ou une adresse postale aux États-Unis
 ---
 
 La vérification d'identité est le processus qui vous permet de prouver que vous êtes bien vous-même et non une tierce personne qui se fait passer pour vous. Après avoir [créé votre compte Login.gov](/fr/create-an-account/) ou vous être connecté, il peut vous être nécessaire de confirmer votre identité auprès de certains organismes pour accéder à leurs services.

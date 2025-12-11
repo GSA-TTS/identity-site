@@ -16,12 +16,12 @@ Login.gov 只能回答有关登录过程和设立 Login.gov 账户的问题。
 * [申请状态](https://help.cbp.gov/s/article/Article-1886?language=en_US)
 * 预约
   * [安排或变更预约时间](https://help.cbp.gov/s/article/Article1850?language=en_US)
-  * [到达时注册](https://help.cbp.gov/s/article/Article-1871?language=en_US)
+  * [抵达注册](https://help.cbp.gov/s/article/Article-1871?language=en_US)
 * [NEXUS、SENTRI或全球入境（Global Entry）卡丢失、被盗或受损](https://help.cbp.gov/s/article/Article-1453?language=en_US)
 * [申请的受信任旅客计划不对](https://help.cbp.gov/s/article/Article-1354?language=en_US)
 * [其他有关受信任旅客计划的问题](https://help.cbp.gov/s/all-ttp-articles?language=en_US)
 
-注意要点：
+请注意：
 
 * 你设立 Login.gov 账户时，自己的已知旅客号码（KNT）不会发生改变。
 * 你设立 Login.gov 账户时，无需就 KNT 再付款，除非需要重续你的成员身份。

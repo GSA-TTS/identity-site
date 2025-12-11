@@ -31,7 +31,7 @@ order: 6
   </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
-      <li>在 <a href="https://secure.login.gov/zh">https://secure.login.gov</a> 输入你的电邮地址。</li>
+      <li>在 <a href="https://secure.login.gov/zh" class="usa-link">https://secure.login.gov</a> 输入你的电邮地址。</li>
       <li>输入你的密码。</li>
       <li>点击“登录”按钮。</li>
       <li>使用你设定的一个方法进行身份证实。</li>
@@ -56,9 +56,9 @@ order: 6
   <div id="b-a2" class="usa-accordion__content usa-prose">
     <p>如果你丢失了身份证实方法，需要删除账户，作为保安措施，Login.gov 要求你走一个有两个步骤的流程并等待 24 小时。</p>
     <ol class="number-list">
-      <li>到你政府机构应用程序的登录页面或者 <a href="https://secure.login.gov/zh">https://secure.login.gov</a></li>
+      <li>到你政府机构应用程序的登录页面或者 <a href="https://secure.login.gov/zh" class="usa-link">https://secure.login.gov</a></li>
       <li>用你的电邮地址和密码登录。</li>
-      <li>在身份证实页面，点击“选择另外一个安全选项”</li>
+      <li>在身份证实页面，点击“选择另一个安全选项”</li>
       <li>滚动到底部，点击“删除你的帐户”链接</li>
       <li>仔细阅读所有的信息，以确保删除账户是你唯一的选项。</li>
       <li>点击“是的，继续删除“。</li>

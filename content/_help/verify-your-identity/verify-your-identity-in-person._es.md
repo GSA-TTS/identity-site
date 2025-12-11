@@ -16,7 +16,7 @@ Login.gov ofrece la verificación de identidad en persona por medio del Servicio
 
 Puede optar por verificar su identidad en persona en lugar de tomar fotografías de su documento de identificación en línea, o bien, si está teniendo problema para tomar las fotos, puede cambiar a la verificación de identidad en persona.
 
-Antes de acudir a la oficina de correos, necesitamos [verificar su información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/) y la información de su identificación. Luego [verificamos su número de teléfono](/es/help/verify-your-identity/phone-number/) y le enviamos un código de un solo uso para confirmar que el teléfono es el suyo.
+Antes de acudir a la oficina de correos, necesitamos [verificar su información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/) y la información de su identificación. Luego [verificamos su número de teléfono](/es/help/verify-your-identity/phone-number/) y le enviamos un código de un solo uso para confirmar que el teléfono sea el suyo.
 
 Una vez que haya verificado su información en línea, le enviaremos por correo electrónico un código de barras y una fecha límite para ir a la oficina de correos.
 
@@ -38,8 +38,8 @@ Una vez que haya verificado su información en línea, le enviaremos por correo 
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <p>Login.gov acepta estos tipos de identificación:</p>
     <ul>
-      <li>Licencia de conducir de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico).</li>
-      <li>Tarjeta de identificación emitida por el estado que no sea una licencia de conducir, es decir, un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no otorga privilegios para conducir.</li>
+      <li>Licencia de conducir de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE.&nbsp;UU., Samoa Americana, Islas Marianas y Puerto Rico).</li>
+      <li>Tarjeta de identificación emitida por el estado que no sea una licencia de conducir, es decir, un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no concede permiso para conducir.</li>
     </ul>
     <p>No se aceptan:</p>
     <ul>
@@ -65,7 +65,7 @@ Una vez que haya verificado su información en línea, le enviaremos por correo 
     </button>
   </h4>
   <div id="b-a2" class="usa-accordion__content usa-prose">
-    <p>Cuando comience el proceso en Login.gov, puede seleccionar una oficina de correos colaboradora cercana a su domicilio. También puede <a href="{{ '/es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/' | prepend: site.baseurl }}">buscar una oficina de correos cercana</a> en el centro de ayuda de Login.gov.</p>
+    <p>Cuando comience el proceso en Login.gov, puede seleccionar una oficina de correos participante cercana a su domicilio. También puede <a href="{{ '/es/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/' | prepend: site.baseurl }}">buscar una oficina de correos cercana</a> en el centro de ayuda de Login.gov.</p>
     <p>Una vez que haya recibido un código de barras en línea, podrá acudir a cualquier oficina de correos donde esté disponible la verificación de identidad en persona. La verificación de identidad en persona está disponible en los 50 estados y los siguientes territorios de los Estados Unidos: Islas Vírgenes de los EE. UU., Samoa Americana, Guam, Puerto Rico y las Islas Marianas del Norte.</p>
   </div>
 </div>
