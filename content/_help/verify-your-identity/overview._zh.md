@@ -47,7 +47,7 @@ verify_identity_list:
 
 {: .number-list}
 
-1. 在网上[拍摄你的 ID 照片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)。你可能还需要[拍摄你本人的照片](/zh/help/verify-your-identity/issues-taking-a-photo-of-myself/)以确认你是 ID 的所有者。如果你拍摄 ID 和你本人的照片有困难，也可以前往附近的美国邮寄[局亲身验证你的身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
+1. 在网上[拍摄你的 ID 照片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)。你可能还需要[拍摄你本人的照片](/zh/help/verify-your-identity/issues-taking-a-photo-of-myself/)以确认你是 ID 的所有者。如果你拍摄 ID 和你本人的照片有困难，也可以前往附近的美国邮[局亲身验证你的身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
 
 1. 输入你的社会保障号码，我们将根据公开和专有记录[验证你的个人信息](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)。
 
