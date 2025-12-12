@@ -1,0 +1,14 @@
+{% comment %}
+include
+- large_icon
+- items
+{% endcomment %}
+
+<div class="large-icon-check-list">
+  <div class="large-icon-check-list__large-icon">
+    <img alt="{{ include.image_alt_text }}" class="usa-image-example__image" src="{{ site.baseurl }}{{ include.image }}" />
+  </div>
+  <div class="large-icon-check-list__check-list">
+    {% include components/icon-list.html items=include.items size='md' icon_color='success' icon_shape='check_circle'%}
+  </div>
+</div>

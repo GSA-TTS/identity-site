@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Problèmes pour prendre les photos de ma pièce d’identité
+title: Prendre des photos de ma pièce d’identité
 category: verify-your-identity
 permalink: /fr/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
 order: 1
@@ -11,9 +11,9 @@ redirect_from:
 
 Pour confirmer votre identité, vous devrez prendre des photos de votre pièce d’identité en ligne ou [présenter en personne votre pièce d’identité](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau de poste des États-Unis.
 
-## Je n’arrive pas à prendre des photos de ma pièce d’identité
+## Comment prendre des photos
 
-Vous avez besoin d’un téléphone ou d’une tablette avec caméra pour prendre des photos de votre pièce d’identité à l’aide de l’outil caméra de Login.gov (et non d’une webcam).  Si vous utilisez un ordinateur, nous vous enverrons un SMS contenant un lien sur lequel cliquer pour ouvrir Login.gov sur votre téléphone ou tablette. Vous pourrez retourner sur votre ordinateur après avoir pris les photos.
+Vous avez besoin d’un téléphone ou d’une tablette avec caméra pour prendre des photos de votre pièce d’identité à l’aide de l’outil caméra de Login.gov. Vous ne pouvez pas utiliser de webcam. Si vous utilisez un ordinateur, nous vous enverrons un SMS contenant un lien sur lequel cliquer pour ouvrir Login.gov sur votre téléphone ou tablette. Vous pourrez retourner sur votre ordinateur après avoir pris les photos.
 
 <ol class="number-list">
   <li>
@@ -84,11 +84,13 @@ Vous avez besoin d’un téléphone ou d’une tablette avec caméra pour prendr
   </li>
 </ol>
 
-## Je n’ai pas de téléphone ni de tablette avec caméra
+## Dépannage
+
+### Je n’ai pas de téléphone ni de tablette avec caméra
 
 Si vous n’avez pas de téléphone ni de tablette avec caméra, vous pouvez peut-être [confirmer votre identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/) dans un bureau de poste des États-Unis près de chez vous.
 
-## L’outil caméra ne fonctionne pas
+### L’outil caméra ne fonctionne pas
 
 Si l’outil caméra de Login.gov permettant de prendre une photo de votre pièce d'identité ne fonctionne pas, vérifiez que vous utilisez la dernière version de votre système d'exploitation iOS ou Android, et que vous utilisez le navigateur Web recommandé pour votre téléphone ou votre tablette.
 
@@ -135,45 +137,15 @@ Il est possible que vous deviez mettre à jour votre système d’exploitation o
   </div>
 </div>
 
-## J’ai reçu un message d’erreur selon lequel Login.gov ne parvenait pas à vérifier ma pièce d’identité
+### Login.gov n’a pas pu vérifier ma pièce d’identité
 
-Si vous envoyez vos photos et recevez un message d’erreur selon lequel nous n’avons pas pu vérifier votre pièce d’identité, assurez-vous que le type de pièce d’identité que vous utilisez est accepté.
-
-<div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h3 class="usa-accordion__heading">
-    <button
-      type="button"
-      class="usa-accordion__button"
-      aria-expanded="false"
-      aria-controls="id-types-accordion"
-    >
-      Types de pièces d’identité acceptés
-    </button>
-  </h3>
-  <div id="id-types-accordion" class="usa-accordion__content usa-prose">
-    <p><strong>Login.gov accepte les types de pièces d’identité suivants :</strong></p>
-    <ul>
-      <li>Un <strong>permis de conduire</strong> de l’un des 50 États des États-Unis, du District de Columbia (DC) et d’autres territoires des États-Unis (Guam, îles Vierges des États-Unis, Samoa américaines, îles Mariannes et Porto Rico).</li>
-      <li>Une <strong>carte d’identité d’un État qui n’est pas un permis de conduire.</strong> Il s'agit d'une pièce d'identité délivrée par un État, le District de Columbia (DC) ou un territoire américain, qui atteste de l'identité mais n’autorise pas à conduire.</li>
-      <li>Un <strong>passeport américain au format livret.</strong> Le passeport est accepté dans certains cas. Si vous ne voyez pas l’option permettant de confirmer votre identité à l’aide d’un passeport, utilisez un permis de conduire ou une carte d’identité d’un État ou essayez de confirmer votre identité ultérieurement.</li>
-    </ul>
-    <p><strong>Nous n’acceptons pas :</strong></p>
-    <ul>
-      <li>Les cartes de passeport américain et les passeports étrangers</li>
-      <li>Les cartes d'identité militaires</li>
-      <li>Les cartes ou permis de port d’arme à feu</li>
-      <li>Les pièces d’identité expirées ou prorogées</li>
-      <li>Les documents d’identité papier ou provisoires</li>
-      <li>Les pièces d’identité d’un pays autre que les États-Unis</li>
-    </ul>
-  </div>
-</div>
+Si vous envoyez vos photos et recevez un message d’erreur selon lequel nous n’avons pas pu vérifier votre pièce d’identité, assurez-vous que le [type de pièce d’identité que vous utilisez est accepté](/fr/help/verify-your-identity/accepted-id-type/).
 
 Veillez à ce que votre nom, prénom, adresse et autres renseignements figurant sur votre pièce d’identité soient aisément lisibles. Évitez la lumière vive, les reflets ou les ombres qui rendent la pièce d’identité difficile à lire.
 
 
 ## Articles connexes
 
-* [Comment puis-je confirmer mon identité ?](/fr/help/verify-your-identity/overview/)
-* [Problèmes pour me prendre en photo](/fr/help/verify-your-identity/issues-taking-a-photo-of-myself/)
+* [Confirmer mon identité](/fr/help/verify-your-identity/overview/)
+* [Prendre un selfie](/fr/help/verify-your-identity/issues-taking-a-photo-of-myself/)
 * [Problèmes liés à la vérification de mon identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/)
