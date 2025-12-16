@@ -1,13 +1,13 @@
 ---
-title: 拍我本人照片问题
+title: 自拍
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/issues-taking-a-photo-of-myself/
 order: 2
 ---
 
-一些合作伙伴机构可能会要求你在拍摄 ID 照片时拍摄你的面部照片。这是为了查看你的确是 ID 上的人。
+有些合作机构可能会要求你在拍摄身份证照片时自拍一张（一张你的脸部照片）。这是为了查看你的确是 ID 上的人。
 
-## 我如何拍自己的照片？
+## 如何自拍
 
 {: .number-list}
 
@@ -21,15 +21,17 @@ order: 2
 
 1. 点击勾选框或按照说明接受照片。
 
-## 我收到出错信息，说 Login.gov 无法将我的照片与我的 ID 匹配
+## 故障排除
 
-如果你提交照片后收到“我们无法将你本人的照片与你的 ID 匹配”的出错信息，请检查你的面部照片是否清晰易读。避免强光、眩光或阴影。
+### Login.gov无法将我的自拍照与我的身份证件进行匹配
+
+如果你提交照片后收到一条出错信息说“我们无法将你的自拍照与你的身份证件进行匹配”，请检查你的整个面部是否清晰可见。避免强光、眩光或阴影。
 
 如果你仍然收到出错信息，或者你的样子与 ID 照片差异很大，可以前往附近的美国邮局[亲身验证你的身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
 
 
 ## 相关文章
 
-* [我如何验证身份？](/zh/help/verify-your-identity/overview/)
-* [拍摄我的 ID 照片问题](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [验证我的身份](/zh/help/verify-your-identity/overview/)
+* [拍你身份证件的照片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
 * [亲身验证我的身份问题](/zh/help/verify-your-identity/verify-your-identity-in-person/)

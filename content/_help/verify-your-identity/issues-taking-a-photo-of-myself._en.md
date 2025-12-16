@@ -1,13 +1,13 @@
 ---
-title: Issues taking a photo of myself
+title: Take a selfie
 category: verify-your-identity
 permalink: /help/verify-your-identity/issues-taking-a-photo-of-myself/
 order: 2
 ---
 
-Some partner agencies may ask you to take a photo of your face when you take photos of your ID. This checks that you are the person on your ID.
+Some partner agencies may ask you to take a selfie (a photo of your face) when you take photos of your ID. This checks that you are the person on your ID.
 
-## How do I take my photo?
+## How to take a selfie
 
 {: .number-list}
 
@@ -21,16 +21,18 @@ Some partner agencies may ask you to take a photo of your face when you take pho
 
 1. Tap the checkmark or follow the instructions to accept the photo.
 
-## I got an error that Login.gov could not match the photo of me to my ID
+## Troubleshooting
 
-If you submit your photos and get an error message that “We could not match the photo of yourself to your ID”, check that the photo of your face is clear and can be easily read. Avoid bright light, glare, or shadows.
+### Login.gov couldn't match my selfie to my ID
+
+If you submit your photos and get an error message that “We couldn't match your selfie to your ID”, check that your entire face is visible and clear in the photo. Avoid bright light, glare, or shadows.
 
 If you continue to get errors, or if you look very different from your ID photo, you may be able to [verify your identity in person](/help/verify-your-identity/verify-your-identity-in-person/) at a United States Post Office near you.
 
 
 ## Related articles
 
-* [How do I verify my identity?](/help/verify-your-identity/overview/)
-* [Issues taking photos of my ID](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [Verify my identity](/help/verify-your-identity/overview/)
+* [Take photos of my ID](/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
 * [Issues verifying my identity in person](/help/verify-your-identity/verify-your-identity-in-person/)
 
