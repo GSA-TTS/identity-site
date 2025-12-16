@@ -140,7 +140,7 @@ You may need to update your operating system or web browser, clear your cache or
 
 ### Login.gov couldn't verify my ID
 
-If you submit your photos and get an error message that we could not verify your ID, check that you are using an [accepted ID type](/help/verify-your-identity/accepted-id-type/).
+If you submit your photos and get an error message that we couldn't verify your ID, check that you are using an [accepted ID type](/help/verify-your-identity/accepted-id-type/).
 
 Make sure that your name, address, and other information on your ID can be easily read. Avoid bright light, glare, or shadows that make it hard to read the ID.
 
