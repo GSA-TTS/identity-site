@@ -7,7 +7,7 @@ preview: The latest Login.gov program roadmap highlights key FY25
   accomplishments and early FY26 progress along with priorities for advancing
   secure, digital identity in the year ahead.
 ---
-![blue text on white background with Login.gov program logo, stating December 2025 roadmap update](/assets/img/screenshot-2025-12-17-at-5.11.22 pm.png "Login Program Roadmap cover - December 2025")
+![blue text on white background with Login.gov program logo, stating December 2025 roadmap update](/assets/img/program-update-program-roadmap-dec-2025.png "Login Program Roadmap cover - December 2025")
 
 We’re excited to share the latest update of our publicly-available [program roadmap](https://login.gov/partners/roadmap/). It covers some of our most significant accomplishments from FY25 and the beginning of FY26, including:
 
