@@ -14,9 +14,9 @@ We’re excited to share the latest update of our publicly-available [program ro
 * **More ways to proof** now that Login.gov accepts U.S. passport booklets, with plans to reuse existing government proofing mechanisms (e.g., PIV/CAC) for identity verification.
 
 
-* **Significant advancements toward NIST 800-63 Revision 4 alignment**, ensuring Login.gov remains a trusted and standards-driven service
+* **Significant advancements toward NIST 800-63 Revision 4 alignment**, ensuring Login.gov remains a trusted and standards-driven service.
 
 
-* **An improved help center** for a more seamless user experience
+* **An improved help center** for a more seamless user experience.
 
-The roadmap also includes our areas of focus for the current fiscal year and beyond such as developing our collaboration with NCCoE and NIST to further the adoption of verifiable digital credentials like **mobile drivers licenses within the Login.gov platform in 2026**.
+The roadmap also includes our areas of focus for the current fiscal year and beyond, such as developing our collaboration with NCCoE and NIST to further the adoption of verifiable digital credentials like **mobile driver's licenses within the Login.gov platform in 2026**.
