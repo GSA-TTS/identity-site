@@ -3,8 +3,7 @@ layout: partners/program-update
 lang: en
 title: Login.gov publishes updated program roadmap
 date: 2025-12-19T12:08:00.000Z
-preview: The [latest Login.gov program
-  roadmap](https://login.gov/partners/roadmap/) highlights key FY25
+preview: The latest Login.gov program roadmap highlights key FY25
   accomplishments and early FY26 progress along with priorities for advancing
   secure, digital identity in the year ahead.
 ---
