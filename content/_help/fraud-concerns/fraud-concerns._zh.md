@@ -32,7 +32,7 @@ order: 0
 
 ## 相关文章
 
-- 常见的诈骗手段有哪些？
-- 如何保护我的账户免受欺诈？
-- 如何确保收到的信息真实可靠？
+- [常见的诈骗手段有哪些？](/zh/help/fraud-concerns/common-scams/)
+- [如何保护我的账户免受欺诈？](/zh/help/fraud-concerns/protect-account-from-fraud/)
+- [如何确保收到的信息真实可靠？](/zh/help/fraud-concerns/verify-messages/)
 - [如何举报可疑活动？](/zh/contact/)
