@@ -11,7 +11,7 @@ describe('PO search page', () => {
     await page.goto(getURL('/help/verify-your-identity/overview/'));
 
     const link = await page.waitForSelector(
-      'xpath///a[contains(text(),"Find a Participating Post Office")]',
+      'xpath///a[contains(text(),"Find a participating Post Office")]',
     );
 
     assert.notEqual(link, undefined);

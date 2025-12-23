@@ -1,5 +1,5 @@
 ---
-title: Find a Participating Post Office
+title: Find a participating Post Office
 category: verify-your-identity
 order: 7
 permalink: /help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/
