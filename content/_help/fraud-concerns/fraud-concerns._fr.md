@@ -1,55 +1,39 @@
 ---
-title: Problèmes liés à la fraude 
+layout: help
+title: Fraude et sécurité
 category: fraud-concerns
 permalink: /fr/help/fraud-concerns/overview/
 order: 0
 ---
 
-## La fraude ou les activités non autorisées vous inquiètent ?
+Se tenir informé est la meilleure façon de protéger votre identité. Vous trouverez ici des ressources pour vous aider à identifier les arnaques courantes, protéger votre compte, vérifier la légitimité d’un message et [signaler une activité suspecte](#).
 
-Si vous soupçonnez que votre compte Login.gov a été compromis, ou si vous avez remarqué une activité suspecte, nous sommes là pour vous aider à prendre immédiatement des mesures pour assurer la protection de votre identité et la sécurité de votre compte.
+## Signaler une activité suspecte
 
-### Détecter l’existence d’une activité suspecte
+Si vous avez constaté une activité suspecte sur votre compte, il est possible que votre compte Login.gov ait été compromis. Vous pouvez prendre des mesures immédiates pour protéger votre identité et la sécurité de votre compte.
 
-Vous pouvez passer en revue les connexions récentes et les appareils associés à votre compte Login.gov :
+### Consulter l’historique d’activité
+
+Dans l’historique du compte, vous pouvez voir à quelle date une personne s’est connectée à votre compte Login.gov, ainsi que les appareils utilisés. Pour accéder à l’historique du compte :
 
 {: .number-list}
 
-1. Connectez-vous à [Login.gov](https://secure.login.gov/fr/)
+1. Connectez-vous sur la [page de connexion de Login.gov](https://secure.login.gov/fr/).
+2. Dans le menu, sélectionnez « Historique ».
+   - Sur les grands écrans, le menu se trouve dans la barre latérale gauche.
+   - Sur les petits écrans ou les appareils mobiles, vous devrez peut-être d’abord cliquer sur le bouton « Menu ».
+3. Vous verrez la liste des appareils et des connexions récemment utilisés sur votre compte. À côté de chaque appareil, vous pouvez sélectionner « Événements » pour afficher des informations supplémentaires, comme la fréquence d’utilisation de l’appareil pour vous connecter.
 
-2. Rendez-vous sur la **page de votre compte.**
+Si vous remarquez un appareil ou une activité que vous ne reconnaissez pas :
 
-3. Sélectionnez **« Historique »** pour visualiser **vos appareils récemment utilisés ou dernières connexions.**
-
-Si un appareil ou une connexion que vous ne reconnaissez pas s’affiche, nous vous recommandons vivement :
-
-   * **De modifier immédiatement votre mot de passe** et
-   * **De vérifier vos méthodes d’authentification** pour veiller à ce qu’elles soient à jour et sécurisées.
-
-### Protéger votre compte
-
-Notre priorité est votre sécurité. Login.gov a recours à des méthodes de détection de la fraude et d’authentification sécurisées pour protéger votre compte. Il nous est important de protéger votre compte. Pour en savoir plus sur [notre engagement à protéger les informations vous concernant](https://login.gov/fr/policy/).
-
-### Signaler une activité suspecte ou frauduleuse
-
-Login.gov ne peut enquêter sur les plaintes pour fraude impliquant d’autres organismes ou services. Toutefois, si vous pensez que vos informations personnelles ont été utilisées de manière frauduleuse, ou que quelqu’un a créé un compte à votre nom, vous devez le signaler aux autorités compétentes :
-
-### Ressources fédérales pour le signalement des fraudes
-
-   * **Usurpation d'identité**
-      * **site Web:** [IdentityTheft.gov](https://identitytheft.gov/)
-      * **Téléphone:** 1-877-438-4338 (FTC)
-   * **Criminalité en ligne ou cybercriminalité**
-      * [Internet Crime Complaint Center (IC3, centre de signalement de la criminalité sur internet)](https://www.ic3.gov/)
-      * Bureaux locaux du FBI
-   * **Fraude aux programmes fédéraux (par exemple, avantages santé)**
-      * [HHS OIG Fraud Hotline (Ligne d’assistance téléphonique contre la fraude du Bureau de l’inspecteur général HHS)](https://oig.hhs.gov/fraud/report-fraud/)
-      * **Téléphone :** 1-800-HHS-TIPS (1-800-447-8477)
-   * **Autres infractions graves liées à l'identité**
-      * [Bureaux locaux des services secrets des États-Unis](https://www.secretservice.gov/contact/field-offices/)
-
+- Changez immédiatement votre [mot de passe](/fr/help/manage-your-account/change-your-password/).
+- Vérifiez vos [méthodes d’authentification](/fr/help/create-account/authentication-methods/) pour vous assurer qu’elles sont à jour et sécurisées.
+- Contactez Login.gov en utilisant le formulaire de contact ou le numéro de téléphone sur notre page [Contactez-nous](/fr/contact/).
 
 ## Articles connexes
 
-* [Aide avec les organismes](/fr/help/specific-agencies/overview/)
+- Quelles sont les techniques d’arnaque les plus courantes ?
+- Comment protéger mon compte contre la fraude ?
+- Comment confirmer qu’un message provient d’une administration ?
+- [Signaler une activité suspecte ou frauduleuse](/fr/contact/)
 
