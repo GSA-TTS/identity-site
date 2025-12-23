@@ -1,26 +1,31 @@
 ---
-title: Estoy recibiendo códigos de seguridad que no solicité
+layout: help
+title: Estoy recibiendo códigos de un solo uso que no solicité
 category: fraud-concerns
 permalink: /es/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/
 order: 1
 ---
 
-Hay algunas razones por las que puede estar recibiendo en su teléfono códigos de seguridad de Login.gov que usted no solicitó.
+Si recibe de Login.gov códigos de un solo uso en su teléfono que no solicitó:
 
-Por ejemplo, es posible que, al crear su propia cuenta, alguien haya ingresado por error el número de teléfono de usted en lugar del suyo propio, o puede ser que alguien más que tiene acceso al teléfono de usted (por ejemplo, su cónyuge, padre, madre o hijo) lo esté usando para iniciar sesión en su propia cuenta.
+- Es posible que alguien haya ingresado accidentalmente su número de teléfono en lugar del suyo al crear su cuenta.
+- Es posible que otra persona que tenga acceso a su teléfono lo esté usando para iniciar una sesión en su cuenta (como su cónyuge, padres o hijos).
 
-Si alguien está tratando de iniciar sesión en la cuenta de usted, no lo logrará si no tiene el método de autenticación de esa cuenta, es decir, necesita el código de seguridad que usted recibió en su teléfono, o acceso a uno de los demás métodos de autenticación que usted tenga habilitados.
+Si alguien intenta iniciar sesión en su cuenta, no podrá hacerlo sin su [método de autenticación](/es/help/create-account/authentication-methods/), como códigos de un solo uso por mensaje de texto o llamada. Esto significa que necesita el código de un solo uso que usted recibió en su teléfono o acceso a uno de sus otros métodos de autenticación habilitados. No comparta estos códigos con nadie.
 
-Para verificar que su cuenta esté segura, recomendamos que inicie sesión en su cuenta en [secure.login.gov/es](https://secure.login.gov/es) y haga lo siguiente:
+Para garantizar la seguridad de su cuenta, [inicie sesión en Login.gov](https://secure.login.gov/es) y siga estos pasos:
 
-* Cambie su contraseña.
-* Revise que sus métodos de autenticación sean los correctos y estén actualizados y protegidos.
-* Si tiene códigos de recuperación configurados como método de autenticación, vuelva a generarlos y guarde los nuevos códigos de recuperación.
+{: .number-list}
 
-Si sigue recibiendo esos códigos o sospecha que se trata de un problema de seguridad, [contacte con nosotros](https://login.gov/es/contact/).
+1. [Cambie su contraseña.](/es/help/manage-your-account/change-your-password/)
+2. Asegúrese de que sus métodos de autenticación sean correctos, estén actualizados y sean seguros.
+3. Si tiene [códigos de recuperación](/es/help/create-account/authentication-methods/backup-codes/) configurados como método de autenticación, regenere y guarde los nuevos códigos de recuperación.
+
+Si continúa recibiendo estos códigos de un solo uso o sospecha que tiene un problema de seguridad, [contáctenos](/es/contact/).
 
 
 ## Otros artículos
 
-* [Cómo cambio mi contraseña](/es/help/manage-your-account/change-your-password/)
 * [Cómo añado o cambio el método de autenticación en mi cuenta](/es/help/manage-your-account/add-or-change-your-authentication-method/)
+* [Ayuda con agencias](/es/help/specific-agencies/overview/)
+* [Cómo cambio mi contraseña](/es/help/manage-your-account/change-your-password/)
