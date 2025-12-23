@@ -32,7 +32,7 @@ Si ve algún dispositivo o actividad que no reconoce:
 
 ## Otros artículos
 
-- ¿Cuáles son algunas estafas comunes?
-- ¿Cómo protejo mi cuenta del fraude?
-- ¿Cómo puedo asegurarme de que los mensajes que recibo son reales?
+- [¿Cuáles son algunas estafas comunes?](/es/help/fraud-concerns/common-scams/)
+- [¿Cómo protejo mi cuenta del fraude?](/es/help/fraud-concerns/protect-account-from-fraud/)
+- [¿Cómo puedo asegurarme de que los mensajes que recibo son reales?](/fr/help/fraud-concerns/verify-messages/)
 - [¿Cómo puedo reportar una actividad sospechosa?](/es/contact/)
