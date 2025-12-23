@@ -32,8 +32,8 @@ If you see any device or activity that you don’t recognize:
 
 ## Related articles
 
-- Learn about the latest scam techniques
-- How do I protect my account from fraud?
-- How do I confirm if a message came from an agency?
+- [Learn about the latest scam techniques](/help/fraud-concerns/common-scams/)
+- [How do I protect my account from fraud?](/help/fraud-concerns/protect-account-from-fraud/)
+- [How do I confirm if a message came from an agency?](/help/fraud-concerns/verify-messages/)
 - [Report suspicious or fraudulent activity](/contact/)
 
