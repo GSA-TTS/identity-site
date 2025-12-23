@@ -11,23 +11,23 @@ Scammers often create emails, texts, or phone calls that look like they are from
 {: .number-list}
 
 1. Check the sender’s details
-- Email: Official agency emails typically end with .gov (e.g., name@agency.gov).
-- Phone calls: Caller ID can be faked, so don’t rely on the number alone.
-- Text messages: Most agencies do not request sensitive information by text.
+  - Email: Official agency emails typically end with .gov (e.g., name@agency.gov).
+  - Phone calls: Caller ID can be faked, so don’t rely on the number alone.
+  - Text messages: Most agencies do not request sensitive information by text.
 
 2. Look for signs of fraudulent messaging
-- Urgent language like “Act now” or “Immediate action required”
-- Requests for personal information, such as Social Security numbers or banking details
-- Threats of arrest, loss of benefits, or legal action
-- Payment requests via gift cards, wire transfers, or cryptocurrency
+  - Urgent language like “Act now” or “Immediate action required”
+  - Requests for personal information, such as Social Security numbers or banking details
+  - Threats of arrest, loss of benefits, or legal action
+  - Payment requests via gift cards, wire transfers, or cryptocurrency
 
 3. Do not click links or download attachments
-- Scammers often include malicious links or files in emails and texts.
-- Avoid clicking links or downloading attachments until you confirm the message is real.
+  - Scammers often include malicious links or files in emails and texts.
+  - Avoid clicking links or downloading attachments until you confirm the message is real.
 
 4. Verify using official sources
-- Call us directly: Use the official number listed on our [Contact Page](https://login.gov/contact/).
-- Check your account: Sign in through the official [Login.gov](https://login.gov/) website, rather than by clicking links in the suspicious message.
+  - Call us directly: Use the official number listed on our [Contact Page](https://login.gov/contact/).
+  - Check your account: Sign in through the official [Login.gov](https://login.gov/) website, rather than by clicking links in the suspicious message.
 
 5. Report the fraud
    - To report identity theft:
