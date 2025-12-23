@@ -34,5 +34,5 @@ Si ve algún dispositivo o actividad que no reconoce:
 
 - [¿Cuáles son algunas estafas comunes?](/es/help/fraud-concerns/common-scams/)
 - [¿Cómo protejo mi cuenta del fraude?](/es/help/fraud-concerns/protect-account-from-fraud/)
-- [¿Cómo puedo asegurarme de que los mensajes que recibo son reales?](/fr/help/fraud-concerns/verify-messages/)
+- [¿Cómo puedo asegurarme de que los mensajes que recibo son reales?](/es/help/fraud-concerns/verify-messages/)
 - [¿Cómo puedo reportar una actividad sospechosa?](/es/help/fraud-concerns/report-suspicious-activity/)
