@@ -31,16 +31,16 @@ Los estafadores suelen crear correos electrónicos, mensajes de texto o llamadas
 
 5. Reportar el fraude
    - Para denunciar el robo de identidad:
-     - Sitio web: [IdentityTheft.gov](https://www.identitytheft.gov/)){:class="usa-link--external"}
+     - Sitio web: [IdentityTheft.gov](https://www.identitytheft.gov/){:class="usa-link--external"}
      - Teléfono: 1-877-438-4338
    - Para denunciar delitos cibernéticos o en línea:
-     - [Centro de Denuncias de Delitos en Internet (IC3)](https://www.ic3.gov/)){:class="usa-link--external"}
+     - [Centro de Denuncias de Delitos en Internet (IC3)](https://www.ic3.gov/){:class="usa-link--external"}
      - Oficinas locales del FBI
    - Para denunciar fraudes a programas federales (por ejemplo, beneficios médicos):
-     - [Línea directa de fraude de la Oficina del Inspector General del HHS](https://oig.hhs.gov/fraud/report-fraud/)){:class="usa-link--external"}
+     - [Línea directa de fraude de la Oficina del Inspector General del HHS](https://oig.hhs.gov/fraud/report-fraud/){:class="usa-link--external"}
      - Teléfono: 1-800-HHS-TIPS (1-800-447-8477)
    - Para denunciar otros delitos graves contra la identidad:
-     - [Oficinas de Campo del Servicio Secreto de EE. UU.](https://www.secretservice.gov/contact/field-offices/)){:class="usa-link--external"}
+     - [Oficinas de Campo del Servicio Secreto de EE. UU.](https://www.secretservice.gov/contact/field-offices/){:class="usa-link--external"}
 
 Su precaución protegerá su información personal y ayudará a detener el fraude.
 
