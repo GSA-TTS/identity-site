@@ -6,7 +6,7 @@ permalink: /es/help/fraud-concerns/overview/
 order: 0
 ---
 
-Mantenerse informado es la mejor manera de proteger su identidad. Aquí encontrará recursos para ayudarle a identificar estafas comunes, proteger su cuenta, confirmar la legitimidad de un mensaje y [reportar actividades sospechosas](#).
+Mantenerse informado es la mejor manera de proteger su identidad. Aquí encontrará recursos para ayudarle a identificar estafas comunes, proteger su cuenta, confirmar la legitimidad de un mensaje y [reportar actividades sospechosas](/es/help/fraud-concerns/report-suspicious-activity/).
 
 ## Reportar actividades sospechosas
 
@@ -35,4 +35,4 @@ Si ve algún dispositivo o actividad que no reconoce:
 - [¿Cuáles son algunas estafas comunes?](/es/help/fraud-concerns/common-scams/)
 - [¿Cómo protejo mi cuenta del fraude?](/es/help/fraud-concerns/protect-account-from-fraud/)
 - [¿Cómo puedo asegurarme de que los mensajes que recibo son reales?](/fr/help/fraud-concerns/verify-messages/)
-- [¿Cómo puedo reportar una actividad sospechosa?](/es/contact/)
+- [¿Cómo puedo reportar una actividad sospechosa?](/es/help/fraud-concerns/report-suspicious-activity/)

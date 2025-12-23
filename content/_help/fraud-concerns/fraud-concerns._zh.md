@@ -6,7 +6,7 @@ permalink: /zh/help/fraud-concerns/overview/
 order: 0
 ---
 
-随时了解最新信息是保护您身份安全的最佳途径。 在这里，您可以找到相关资源，帮助您识别常见诈骗、保护您的帐户、确认消息的真伪以及[举报可疑活动](#)。
+随时了解最新信息是保护您身份安全的最佳途径。 在这里，您可以找到相关资源，帮助您识别常见诈骗、保护您的帐户、确认消息的真伪以及[举报可疑活动](/zh/help/fraud-concerns/report-suspicious-activity/)。
 
 ## 举报可疑活动
 
@@ -35,4 +35,4 @@ order: 0
 - [常见的诈骗手段有哪些？](/zh/help/fraud-concerns/common-scams/)
 - [如何保护我的账户免受欺诈？](/zh/help/fraud-concerns/protect-account-from-fraud/)
 - [如何确保收到的信息真实可靠？](/zh/help/fraud-concerns/verify-messages/)
-- [如何举报可疑活动？](/zh/contact/)
+- [如何举报可疑活动？](/zh/help/fraud-concerns/report-suspicious-activity/)

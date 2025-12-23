@@ -6,7 +6,7 @@ permalink: /help/fraud-concerns/overview/
 order: 0
 ---
 
-Staying informed is the best way to keep your identity safe. Here, you’ll find resources to help you identify common scams, protect your account, confirm if a message is legitimate, and [report suspicious activity](#).
+Staying informed is the best way to keep your identity safe. Here, you’ll find resources to help you identify common scams, protect your account, confirm if a message is legitimate, and [report suspicious activity](/help/fraud-concerns/report-suspicious-activity/).
 
 ## Reporting suspicious activity
 
@@ -35,5 +35,5 @@ If you see any device or activity that you don’t recognize:
 - [Learn about the latest scam techniques](/help/fraud-concerns/common-scams/)
 - [How do I protect my account from fraud?](/help/fraud-concerns/protect-account-from-fraud/)
 - [How do I confirm if a message came from an agency?](/help/fraud-concerns/verify-messages/)
-- [Report suspicious or fraudulent activity](/contact/)
+- [Report suspicious or fraudulent activity](/help/fraud-concerns/report-suspicious-activity/)
 

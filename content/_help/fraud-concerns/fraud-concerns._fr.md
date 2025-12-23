@@ -6,7 +6,7 @@ permalink: /fr/help/fraud-concerns/overview/
 order: 0
 ---
 
-Se tenir informé est la meilleure façon de protéger votre identité. Vous trouverez ici des ressources pour vous aider à identifier les arnaques courantes, protéger votre compte, vérifier la légitimité d’un message et [signaler une activité suspecte](#).
+Se tenir informé est la meilleure façon de protéger votre identité. Vous trouverez ici des ressources pour vous aider à identifier les arnaques courantes, protéger votre compte, vérifier la légitimité d’un message et [signaler une activité suspecte](/fr/help/fraud-concerns/report-suspicious-activity/).
 
 ## Signaler une activité suspecte
 
@@ -35,5 +35,5 @@ Si vous remarquez un appareil ou une activité que vous ne reconnaissez pas :
 - [Quelles sont les techniques d’arnaque les plus courantes ?](/fr/help/fraud-concerns/common-scams/)
 - [Comment protéger mon compte contre la fraude ?](/fr/help/fraud-concerns/protect-account-from-fraud/)
 - [Comment confirmer qu’un message provient d’une administration ?](/fr/help/fraud-concerns/verify-messages/)
-- [Signaler une activité suspecte ou frauduleuse](/fr/contact/)
+- [Signaler une activité suspecte ou frauduleuse](/fr/help/fraud-concerns/report-suspicious-activity/)
 
