@@ -32,8 +32,8 @@ Si vous remarquez un appareil ou une activité que vous ne reconnaissez pas :
 
 ## Articles connexes
 
-- Quelles sont les techniques d’arnaque les plus courantes ?
-- Comment protéger mon compte contre la fraude ?
-- Comment confirmer qu’un message provient d’une administration ?
+- [Quelles sont les techniques d’arnaque les plus courantes ?](/fr/help/fraud-concerns/common-scams/)
+- [Comment protéger mon compte contre la fraude ?](/fr/help/fraud-concerns/protect-account-from-fraud/)
+- [Comment confirmer qu’un message provient d’une administration ?](/fr/help/fraud-concerns/verify-messages/)
 - [Signaler une activité suspecte ou frauduleuse](/fr/contact/)
 
