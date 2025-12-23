@@ -36,4 +36,4 @@ Keeping your account secure helps prevent identity theft and financial loss. Fol
 ## Related articles
 
 * [How do I report suspicious activities](/help/fraud-concerns/report-suspicious-activity/)
-* [Manage account](https://login.gov/help/manage-your-account/overview/)
+* [Manage account](/help/manage-your-account/overview/)
