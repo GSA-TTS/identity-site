@@ -34,6 +34,5 @@ Sécuriser votre compte permet de prévenir l'usurpation d'identité et les pert
   - Évitez d'utiliser les réseaux Wi‑Fi publics, qui peuvent être surveillés ou compromis, pour vous connecter à votre compte.
 
 ## Articles connexes
-
-* [Gérer le compte](/fr/help/manage-your-account/overview/)
 * [Comment signaler une activité suspecte ?](/fr/help/fraud-concerns/report-suspicious-activity/)
+* [Gérer mon compte](/fr/help/manage-your-account/overview/)

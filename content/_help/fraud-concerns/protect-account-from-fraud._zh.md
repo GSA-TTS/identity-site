@@ -36,4 +36,4 @@ order: 3
 ## 相关文章
 
 * [如何举报可疑活动？](/zh/help/fraud-concerns/report-suspicious-activity/)
-* [管理账户](/zh/help/manage-your-account/overview/)
+* [管理我的账户](/zh/help/manage-your-account/overview/)

@@ -20,7 +20,7 @@ Keeping your account secure helps prevent identity theft and financial loss. Fol
 
 3. Monitor your account regularly
 	- [Sign in](https://secure.login.gov/) frequently to check for unfamiliar changes such as new email addresses or MFA methods added to your account.
-	- Check your Login.gov account History for unusual logins.
+	- Check your Login.gov account history for unusual logins.
 	- Review your linked agencies and services to ensure nothing unexpected is connected.
 	- Keep your email address and authentication methods up to date in case you lose access to them.
 
@@ -35,5 +35,5 @@ Keeping your account secure helps prevent identity theft and financial loss. Fol
 
 ## Related articles
 
-* [How do I report suspicious activities](/help/fraud-concerns/report-suspicious-activity/)
-* [Manage account](/help/manage-your-account/overview/)
+* [How do I report suspicious activity?](/help/fraud-concerns/report-suspicious-activity/)
+* [Manage my account](/help/manage-your-account/overview/)

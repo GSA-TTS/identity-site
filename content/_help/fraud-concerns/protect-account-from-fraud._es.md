@@ -20,7 +20,7 @@ Mantener su cuenta segura ayuda a prevenir el robo de identidad y pérdidas fina
 
 3. Supervise su cuenta regularmente
   - [Inicie sesión](https://secure.login.gov/es/) con frecuencia para comprobar si hay cambios inusuales, como nuevas direcciones de correo electrónico o métodos de autenticación multifactor añadidos a su cuenta.
-  - Revise el Historial de su cuenta de Login.gov para detectar inicios de sesión inusuales.
+  - Revise el historial de su cuenta de Login.gov para detectar inicios de sesión inusuales.
   - Revise las agencias y servicios vinculados para asegurarse de que no haya ninguna conexión inesperada.
   - Mantenga su dirección de correo electrónico y métodos de autenticación actualizados en caso de que pierda el acceso a ellos.
 
@@ -35,5 +35,5 @@ Mantener su cuenta segura ayuda a prevenir el robo de identidad y pérdidas fina
 
 ## Otros artículos
 
-* [¿Cómo denuncio actividades sospechosas?](/es/help/fraud-concerns/report-suspicious-activity/)
-* [Administrar cuenta](/es/help/manage-your-account/overview/)
+* [¿Cómo puedo reportar actividad sospechosa?](/es/help/fraud-concerns/report-suspicious-activity/)
+* [Administrar una cuenta](/es/help/manage-your-account/overview/)
