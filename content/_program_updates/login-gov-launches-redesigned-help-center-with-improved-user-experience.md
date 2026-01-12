@@ -2,9 +2,9 @@
 layout: partners/program-update
 lang: en
 title: Login.gov Launches Redesigned Help Center with Improved User Experience
-date: 2025-11-24T07:09:00.000Z
-preview: "**Our new Help Center is live! With a user-focused design, it’s easier
-  than ever for users and partners to find answers.**"
+date: 2026-01-22T12:55:00.000Z
+preview: Our new Help Center is live! With a user-focused design, it’s easier
+  than ever for users and partners to find answers.
 ---
 ![Screenshot of help center website with white text: "How can we help?"](/assets/img/screenshot-2025-11-18-at-12.11.02 pm.png "Login help center redesign screenshot")
 
