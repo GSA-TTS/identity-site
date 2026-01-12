@@ -2,9 +2,10 @@
 layout: partners/program-update
 lang: en
 title: "Login.gov YouTube video: What is Login.gov?"
-date: 2025-11-19T11:26:00.000Z
-preview: "**“[What is Login.gov?](https://www.youtube.com/watch?v=ayDtFd5Ugyk)”
-  video available on YouTube**"
+date: 2026-01-12T12:23:00.000Z
+preview: "**“[What is
+  Login.gov?](https://www.youtube.com/watch?v=ayDtFd5Ugyk)”** video available on
+  YouTube"
 ---
 ![Blue background with white text next to program logo: "What is Login.gov?"](/assets/img/what-is-login-youtube-video.png "What is Login.gov video screenshot")
 
