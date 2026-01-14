@@ -1,5 +1,5 @@
 ---
-title: Issues verifying my personal information
+title: Verify my information
 category: verify-your-identity
 permalink: /help/verify-your-identity/issues-verifying-my-personal-information/
 order: 3
@@ -11,19 +11,21 @@ id_info_list:
 
 After you verify your ID, you will enter your Social Security number and we will verify the information on your ID and the information you entered against public and proprietary records.
 
-## I got an error that Login.gov could not find records matching my personal information
+## Troubleshooting
 
-If you receive an error message stating that “We could not find records matching your personal information,” please verify that:
+### Login.gov couldn't find records matching my personal information
 
-{% include components/icon-list.html items=page.id_info_list size='md' icon_color='success' icon_shape='check_circle'%}
+If you get the error message “We couldn't find records matching your personal information,” please verify that:
+
+{% include components/icon-list.html items=page.id_info_list size='md' icon_color='success' icon_shape='check_circle' %}
 
 If your Social Security number or address is incorrect, you can update your information before you submit your information again.
 
 If your first name, last name, or birth date are incorrect, it may have been read incorrectly from your ID. Start over and add images of your ID again. You cannot change the name or birth date listed on your ID.
 
-## I got an error that Login.gov could not find records matching my address
+### Login.gov couldn't find records matching my address
 
-If you receive an error message stating that “We could not find records matching your address,” please verify that your address is correct and up-to-date. If you have moved recently, try a previous address.
+If you get the error message “We couldn't find records matching your address,” please verify that your address is correct and up-to-date. If you have moved recently, try a previous address.
 
 If your current address is different from the address on your ID, you can change your address after you enter your Social Security number.
 
@@ -32,5 +34,5 @@ If your mailing address is different from your residential address, enter the ad
 
 ## Related articles
 
-* [Issues verifying my phone number](/help/verify-your-identity/phone-number/)
-* [Issues verifying my address by mail](/help/verify-your-identity/verify-your-address-by-mail/)
+* [Verify my phone number](/help/verify-your-identity/phone-number/)
+* [Verify my address by mail](/help/verify-your-identity/verify-your-address-by-mail/)

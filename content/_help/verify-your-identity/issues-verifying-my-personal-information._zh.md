@@ -1,5 +1,5 @@
 ---
-title: 验证我的个人信息问题
+title: 验证我的信息
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/issues-verifying-my-personal-information/
 order: 3
@@ -11,7 +11,9 @@ id_info_list:
 
 你验证了自己的 ID 后将输入你的社会保障号码，我们会根据公共和专有记录验证你 ID 上的信息以及你输入的信息。
 
-## 我收到出错信息，说 Login.gov 找不到与我个人信息匹配的记录。
+## 故障排除
+
+### Login.gov找不到与你个人信息匹配的记录
 
 如果你收到一条出错消息说“我们找不到与你个人信息匹配的记录”，请验证：
 
@@ -21,9 +23,9 @@ id_info_list:
 
 如果你的名、姓或生日不正确，可能是从你的 ID 上读取的不正确。请重新开始并再次添加你的 ID 图片。你无法更改 ID 上显示的姓名或生日。
 
-## 我收到出错信息，说 Login.gov 无法找到与我的地址匹配的记录。
+### Login.gov找不到与我的地址匹配的记录
 
-如果你收到“我们找不到与你地址匹配的记录”的出错信息，请确认你的地址正确并且是最新地址。如果你最近搬家了，请试试使用前一个地址。
+如果你收到出错信息说“我们找不到与你地址匹配的记录”，请核实你的地址是否正确并且是最新地址。
 
 如果你当前的地址与 ID 上的地址不同，你可以在输入社会保障号码后更改地址。
 
@@ -32,5 +34,5 @@ id_info_list:
 
 ## 相关文章
 
-* [验证我的电话号码问题](/zh/help/verify-your-identity/phone-number/)
-* [通过邮局信件验证我的地址问题](/zh/help/verify-your-identity/verify-your-address-by-mail/)
+* [验证我的电话号码](/zh/help/verify-your-identity/phone-number/)
+* [通过邮局信件验证我的地址](/zh/help/verify-your-identity/verify-your-address-by-mail/)

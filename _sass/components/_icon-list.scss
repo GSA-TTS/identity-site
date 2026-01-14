@@ -2,4 +2,10 @@ ul.usa-icon-list {
   .usa-prose & {
     padding-left: 0;
   }
+
+  .usa-icon-list__icon {
+    display: flex;
+    align-items: center;
+    height: 1.05lh;
+  }
 }

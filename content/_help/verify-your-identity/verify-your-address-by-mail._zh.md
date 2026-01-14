@@ -1,14 +1,14 @@
 ---
 layout: help
-title: 通过邮局信件验证我的地址问题
+title: 通过邮局信件验证我的地址
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/verify-your-address-by-mail/
 order: 5
 ---
 
-在某些情况下，你可以通过邮局信件验证你的地址，而不是[验证你的电话号码](/zh/help/verify-your-identity/phone-number/)。你将收到一封包含验证码的邮局信件，用于验证邮寄的地址属于你。
+有些机构允许您通过邮寄方式验证地址，而无需验证电话号码。您将在 5-10 个工作日内收到一封包含验证码的信件，用于验证该地址是否属于您本人。
 
-## 如何通过邮局信件验证我的地址？
+## 如何验证地址
 
 {: .number-list}
 
@@ -22,15 +22,17 @@ order: 5
 
 1. 收到信后请重新登录并输入验证码。
 
-## 我不能在所列地址接受邮局信件
+## 故障排除
+
+### 我不能在所列地址接受邮局信件
 
 我们会把信寄到我们验证过的并与你其他信息相符的地址。如果你需要更改这一地址，则需要用新地址再次验证你的个人信息。
 
-## 我没有收到邮局信件
+### 我没有收到邮局信件
 
 如果你在 5-10 天后仍未收到信件，或者你的验证码已过期，你可以要求一个新的验证码。
 
-要求一个新验证码:
+#### 要求一个新验证码:
 
 {: .number-list}
 
@@ -44,5 +46,5 @@ order: 5
 
 ## 相关文章
 
-* [验证我的个人信息问题](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)
-* [验证我的电话号码问题](/zh/help/verify-your-identity/phone-number/)
+* [验证我的信息](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [验证我的电话号码](/zh/help/verify-your-identity/phone-number/)

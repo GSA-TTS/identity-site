@@ -1,6 +1,6 @@
 ---
 layout: help
-title: 拍摄我的 ID 照片问题
+title: 拍你身份证件的照片
 category: verify-your-identity
 permalink: /zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/
 order: 1
@@ -11,9 +11,9 @@ redirect_from:
 
 为了验证你的身份，你需要在网上拍摄你的 ID 的照片，或[亲身携带 ID](/zh/help/verify-your-identity/verify-your-identity-in-person/) 前往美国邮局。
 
-## 我拍摄自己 ID 照片有困难
+## 如何拍摄照片
 
-你需要一部带相机的手机或平板电脑，使用 Login.gov 的相机工具（而不是网络摄像头）拍摄你的 ID 的照片。  如果你使用的是电脑，我们会向你发送一个链接，以便你在手机或平板电脑上打开 Login.gov。拍照后，你将切换回电脑。
+你需要一部带相机的手机或平板电脑，使用 Login.gov 的相机工具 拍摄你的 ID 的照片。你不能使用网络摄像头。如果你使用的是电脑，我们会向你发送一个链接，以便你在手机或平板电脑上打开 Login.gov。拍照后，你将切换回电脑。
 
 <ol class="number-list">
   <li>
@@ -84,11 +84,13 @@ redirect_from:
   </li>
 </ol>
 
-## 我没有带相机的手机或平板电脑
+## 故障排除
+
+### 我没有带相机的手机或平板电脑
 
 如果你没有带相机的手机或平板电脑，也许可以去附近的美国邮局[亲身验证身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
 
-## 相机工具无法使用
+### 相机工具无法使用
 
 如果 Login.gov 的相机工具不能拍摄你的 ID 照片，请检查你使用的是否是最新版本的 iOS 或安卓操作系统，以及是否是下面推荐使用的手机或平板电脑网络浏览器。
 
@@ -135,45 +137,15 @@ redirect_from:
   </div>
 </div>
 
-## 我收到出错信息，说 Login.gov 无法验证我的 ID
+### Login.gov无法验证你的身份证件。
 
-如果你提交照片，收到一条出错信息，说我们无法验证你的 ID，请检查一下你使用的 ID 是否是可接受的类型。
-
-<div class="usa-accordion usa-accordion--bordered margin-y-4">
-  <h3 class="usa-accordion__heading">
-    <button
-      type="button"
-      class="usa-accordion__button"
-      aria-expanded="false"
-      aria-controls="id-types-accordion"
-    >
-      可接受的 ID 类型
-    </button>
-  </h3>
-  <div id="id-types-accordion" class="usa-accordion__content usa-prose">
-    <p><strong>Login.gov 接受以下类型的 ID ：</strong></p>
-    <ul>
-      <li>美国50个州、哥伦比亚特区（DC）以及美国属地（关岛、美属维尔京岛、美属萨摩亚、马里亚纳群岛和波多黎各）颁发的<strong>驾照</strong></li>
-      <li><strong>州颁发的非驾照 ID 卡。</strong>这是由各州、哥伦比亚特区（DC）、或美国属地颁发的一种身份文件，证明你的身份但不授予驾驶特权。</li>
-      <li><strong>美国护照。</strong>在某些情况下，护照也可以使用。如果你没有看到使用护照验证身份的选项，请使用驾照或州 ID，或者稍后再次尝试验证你的身份。</li>
-    </ul>
-    <p><strong>我们不接受：</strong></p>
-    <ul>
-      <li>美国护照卡和非美国护照</li>
-      <li>军人 ID</li>
-      <li>枪支执照或许可证</li>
-      <li>过期的 ID 或延期文件</li>
-      <li>纸质或临时 ID</li>
-      <li>非美国 ID</li>
-    </ul>
-  </div>
-</div>
+如果你提交照片，收到一条出错信息，说我们无法验证你的 ID，请检查一下你使用的 [ID 是否是可接受的类型](/zh/help/verify-your-identity/accepted-id-type/)。
 
 确保你 ID 上的姓名、地址和其他信息可以轻松读取。照片应避免强光、眩光或阴影，以免 ID 难以读取。
 
 
 ## 相关文章
 
-* [我如何验证身份？](/zh/help/verify-your-identity/overview/)
-* [拍我本人照片问题](/zh/help/verify-your-identity/issues-taking-a-photo-of-myself/)
+* [验证我的身份](/zh/help/verify-your-identity/overview/)
+* [自拍](/zh/help/verify-your-identity/issues-taking-a-photo-of-myself/)
 * [亲身验证我的身份问题](/zh/help/verify-your-identity/verify-your-identity-in-person/)

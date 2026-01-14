@@ -15,19 +15,8 @@ redirect_from:
   - /es/help/identity-verification/why-do-i-need-to-verify-my-identity/
   - /es/help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
   - /es/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
-accept_id_list:
-- __Licencia de conducir__ de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico).
-- __Tarjeta de identificación estatal que no sea una licencia de conducir.__ Un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no concede permiso para conducir.
-- __Libreta de pasaporte de los EE. UU.__ En algunos casos, se aceptan los pasaportes. Si no ve la opción de verificar su identidad con un pasaporte, utilice su licencia de conducir o una identificación estatal, o bien intente verificar su identidad más tarde.
-reject_id_list:
-- Tarjetas de pasaporte de los EE. UU. y pasaportes que no sean de los Estados Unidos
-- Identificaciones militares
-- Tarjetas de permiso o de licencia para portar armas de fuego
-- Identificaciones vencidas o documentos de prórroga
-- Identificaciones en papel o temporales
-- Identificaciones que no sean de los EE. UU.
 verify_identity_list:
-- Licencia de conducir, identificación estatal o libreta de pasaporte de los EE. UU.
+- Licencia de conducir, identificación estatal o libreta de pasaporte
 - Número de Seguro Social
 - Número de teléfono o dirección postal en los EE. UU.
 ---
@@ -36,30 +25,20 @@ La verificación de identidad es el proceso en el que comprueba que se trata de 
 
 ## ¿Qué necesito para verificar mi identidad?
 
-Para verificar su identidad con Login.gov, necesitará su: 
-{% include components/icon-list.html items=page.verify_identity_list size='md' icon_color='success' icon_shape='check_circle'%}
+Para verificar su identidad con Login.gov, necesitará su:
+{% include components/large-icon-check-list.html large_icon=verify_document items=page.verify_identity_list image_alt_text='verify-document' image='/assets/img/verify-document.svg' %}
 
 Si no tiene todos estos requisitos, contacte con la agencia a la que está intentando acceder para saber lo que puede hacer en ese caso.
-
-## ¿Qué identificación puedo usar?
-
-### Login.gov acepta estos tipos de identificación:
-
-{% include components/icon-list.html items=page.accept_id_list size='md' icon_color='success' icon_shape='check_circle'%}
-
-### No se aceptan:
-
-{% include components/icon-list.html items=page.reject_id_list size='md' icon_color='error' icon_shape='cancel' %}
 
 ## ¿Cómo verifico mi identidad?
 
 {: .number-list}
 
-1. Tome [fotografías de su identificación en línea](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/). Es posible que también se le pida que [se tome una foto](/es/help/verify-your-identity/issues-taking-a-photo-of-myself/) para confirmar que usted es el titular de su identificación. Si tiene problemas para tomar fotos de su identificación o de usted mismo, también puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) en una oficina del Servicio Postal de los Estados Unidos cercana.
+1. Tome [fotos de su identificación en línea](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/). Use un [tipo de identificación aceptada](/es/help/verify-your-identity/accepted-id-type/). En algunos casos, se le pedirá que [se tome una selfi](/es/help/verify-your-identity/issues-taking-a-photo-of-myself/) para confirmar que es el propietario de su identificación. Si tiene problemas para tomarse fotos, también puede [verificar su identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/) en una oficina cercana del Servicio Postal de los Estados Unidos.
 
 1. Ingrese su número de Seguro Social y [verificaremos su información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/) en registros públicos y privados.
 
-1. [Verificaremos su número de teléfono](/es/help/verify-your-identity/phone-number/) y le enviaremos un código de un solo uso a su teléfono. Si eso no funciona, podemos [verificar su dirección por correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/).
+1. [Verifique su número de teléfono](/es/help/verify-your-identity/phone-number/) y reciba un código de un solo uso en su móvil. Algunas agencias permiten [verificar su dirección por correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/).
 
 1. Vuelva a ingresar su contraseña para almacenar la información verificada en su cuenta y conectar su información con la agencia asociada a la que está intentando acceder.
 
@@ -69,7 +48,7 @@ Login.gov es un sitio web gubernamental seguro que cumple las normas más elevad
 
 ## Otros artículos
 
-* [Problemas al tomar fotografías de mi identificación](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
-* [Problemas al verificar mi información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
-* [Problemas al verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
+* [Tomar fotos de mi identificación](/es/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)
+* [Verificar mi información](/es/help/verify-your-identity/issues-verifying-my-personal-information/)
+* [Verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
 * [Problemas al verificar mi identidad en persona](/es/help/verify-your-identity/verify-your-identity-in-person/)

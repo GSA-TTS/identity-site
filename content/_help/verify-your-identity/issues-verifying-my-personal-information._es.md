@@ -1,5 +1,5 @@
 ---
-title: Problemas al verificar mi información personal
+title: Verificar mi información
 category: verify-your-identity
 permalink: /es/help/verify-your-identity/issues-verifying-my-personal-information/
 order: 3
@@ -11,7 +11,9 @@ id_info_list:
 
 Después de verificar su identificación, ingrese su número de Seguro Social y verificaremos la información de su identificación y la que ingresó en registros públicos y privados.
 
-## Recibí un mensaje de error que dice que Login.gov no encontró registros que coincidan con mi información personal
+## Solución de problemas
+
+### Login.gov no pudo encontrar registros que coincidan con mi información personal
 
 Si recibe un mensaje de error que indica que “No pudimos encontrar registros que coincidan con su información personal”, verifique que:
 
@@ -21,9 +23,9 @@ Si su dirección o su número del Seguro Social están equivocados, puede modifi
 
 Si su nombre, apellido o fecha de nacimiento no son los correctos, puede ser que se hayan leído incorrectamente en su identificación. Comience de nuevo y agregue de nuevo las fotos de su identificación. Usted no puede cambiar el nombre ni la fecha de nacimiento que figuran en su identificación.
 
-## Recibí un mensaje de error que dice que Login.gov no encontró registros que coincidan con mi dirección
+### Login.gov no pudo encontrar registros que coincidan con mi dirección
 
-Si recibió un mensaje de error que indica que “No pudimos encontrar registros que coincidan con su dirección”, verifique que su dirección sea la correcta y esté actualizada. Si se mudó en fecha reciente, inténtelo utilizando una dirección anterior.
+Si recibe un mensaje de error que indica que "No pudimos encontrar registros que coincidan con su dirección", compruebe que su dirección es correcta y está actualizada.
 
 Si su dirección actual es distinta de la que aparece en su identificación, puede modificarla después de ingresar su número de Seguro Social.
 
@@ -32,5 +34,5 @@ Si su dirección postal no es la misma que la de su domicilio, ingrese la direcc
 
 ## Otros artículos
 
-* [Problemas al verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
-* [Problemas al verificar mi dirección por correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/)
+* [Verificar mi número de teléfono](/es/help/verify-your-identity/phone-number/)
+* [Verificar mi dirección por correo postal](/es/help/verify-your-identity/verify-your-address-by-mail/)
