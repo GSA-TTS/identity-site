@@ -33,5 +33,5 @@ Login.gov cannot investigate claims of fraud involving other agencies or service
 
 * [I’m receiving one-time codes that I didn't request](/help/fraud-concerns/i-am-receiving-security-codes-that-i-did-not-request/)
 * [How do I make sure the messages I'm receiving are real?](/help/fraud-concerns/verify-messages/)
-* [How do I change my password](/help/manage-your-account/change-your-password/)
+* [How do I change my password?](/help/manage-your-account/change-your-password/)
 
