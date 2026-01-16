@@ -8,7 +8,9 @@ preview: "**“[What is
   YouTube"
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ayDtFd5Ugyk?si=ZnmMvEJuwjiUEdVk" title="What is Login.gov video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<figure>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ayDtFd5Ugyk?cc_load_policy=1" title="What is Login.gov video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
 
 Designed to help briefly introduce what Login.gov is and how it works, this “What is Login.gov,” video offers an overview of our secure sign-in service. It highlights different ways we help people access government benefits and services online.
 
