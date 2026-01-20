@@ -26,12 +26,12 @@ verify_identity_list:
 
 {: .number-list}
 
-1. 在网上[拍摄你 ID的照片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)。有时会请你自[拍你本人的照片](/zh/help/verify-your-identity/issues-taking-a-photo-of-myself/)以确认你是你的身份证件的所有者。如果你拍照片有困难，也可以[前往你附近的美国邮局亲身验证你的身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
+1. 在网上[拍摄你的 ID 照片](/zh/help/verify-your-identity/how-to-take-photos-to-verify-your-identity/)。有时会请你[拍你本人的照片](/zh/help/verify-your-identity/issues-taking-a-photo-of-myself/)以确认你是你的身份证件的所有者。如果你拍照片有困难，也可以[前往你附近的美国邮局亲身验证你的身份](/zh/help/verify-your-identity/verify-your-identity-in-person/)。
 1. 使用[可接受的身份证件类型](/zh/help/verify-your-identity/accepted-id-type/)。
 
 1. 输入你的社会保障号码，我们将根据公开和专有记录[验证你的个人信息](/zh/help/verify-your-identity/issues-verifying-my-personal-information/)。
 
-1. [验证你的电话号码](/zh/help/verify-your-identity/phone-number/) 并向您的手机发送一次性验证码。部分机构允许[您通过邮寄方式验证地址](/zh/help/verify-your-identity/verify-your-address-by-mail/)。
+1. [验证你的电话号码](/zh/help/verify-your-identity/phone-number/) 并向你的手机发送一次性验证码。部分机构允许[你通过邮寄方式验证地址](/zh/help/verify-your-identity/verify-your-address-by-mail/)。
 
 1. 重新输入你的密码，以把已验证的信息存储在你帐户中，并将你的信息关联到你试图访问的合作伙伴机构。
 
