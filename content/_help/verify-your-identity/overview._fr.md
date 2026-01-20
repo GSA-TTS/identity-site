@@ -39,7 +39,7 @@ Si vous ne remplissez pas toutes ces conditions, prenez contact avec l’organis
 
 1. Saisissez votre numéro de Sécurité sociale et nous vérifierons que vos [renseignements personnels](/fr/help/verify-your-identity/issues-verifying-my-personal-information/) correspondent aux informations enregistrées sur les registres publics et privés.
 
-1. [Vérifiez votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/) et recevez un code à usage unique à ce numéro. Certains agences vous permettent également de [vérifier votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/).
+1. [Vérifiez votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/) et recevez un code à usage unique à ce numéro. Certaines agences vous permettent également de [vérifier votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/).
 
 1. Saisissez à nouveau votre mot de passe pour enregistrer les renseignements déjà vérifiés dans votre compte, puis connectez ces informations à l’organisme partenaire auquel vous tentez de vous connecter.
 

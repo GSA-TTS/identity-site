@@ -62,7 +62,7 @@ Vous avez besoin d’un téléphone ou d’une tablette avec caméra pour prendr
     </div>
   </li>
   <li>
-    <p> bougez pas votre appareil pendant la prise des photos. Il peut être utile de poser vos bras sur une table pour rester stable.</p>
+    <p> Ne bougez pas votre appareil pendant la prise des photos. Il peut être utile de poser vos bras sur une table pour rester stable.</p>
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         {%

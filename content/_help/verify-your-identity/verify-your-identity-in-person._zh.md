@@ -7,7 +7,7 @@ redirect_from:
 - /zh/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 order: 6
 bring_list:
-- __你用来在[Login.gov](/zh/)上输入你信息的同一身份证件。__ Login.gov仅接受驾驶执照或州身份证进行亲身验证。虽然美国护照属于可[接受的身份证件类型](/zh/help/verify-your-identity/accepted-id-type/)，但你目前无法使用美国护照在邮局亲身验证。
+- __你用来在[Login.gov](/zh/)上输入你信息的同一身份证件。__ Login.gov 仅接受驾驶执照或州身份证进行亲身验证。虽然美国护照属于可[接受的身份证件类型](/zh/help/verify-your-identity/accepted-id-type/)，但你目前无法使用美国护照在邮局亲身验证。
 - __Login.gov电邮给你的那个条形码。__ 你可以把电邮打印出来，或在你的移动设施上显示。
 ---
 
@@ -27,7 +27,7 @@ Login.gov 与美国邮局（USPS）合作，提供在邮局亲身验证身份的
 
 ### 我可以去哪个邮局验证我的身份？
 
-你收到条形码后，可以去任何一个提供亲身验证身份服务的邮局。[找到一个参与本项目的邮局](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/).
+你收到条形码后，可以去任何一个提供亲身验证身份服务的邮局。[找到一个参与本项目的邮局](/zh/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)。
 
 美国所有50个州以及美国属地波多黎各、美属维尔京群岛、美属萨摩亚、关岛和北马里亚纳群岛的邮局均提供亲身身份验证服务。
 
@@ -35,13 +35,13 @@ Login.gov 与美国邮局（USPS）合作，提供在邮局亲身验证身份的
 
 {: .number-list}
 
-1.在邮局排队等待。
+1. 在邮局排队等待。
 
-2.请告诉邮局工作人员：“我收到了一封电邮，告诉我要在这个邮局扫描这个条形码”或“我来这里是为了验证我的信息/身份”。如果邮局工作人员仍然不知道如何处理，你可以要求一位主管来帮你。
+2. 请告诉邮局工作人员：“我收到了一封电邮，告诉我要在这个邮局扫描这个条形码”或“我来这里是为了验证我的信息/身份”。如果邮局工作人员仍然不知道如何处理，你可以要求一位主管来帮你。
 
-3.邮局工作人员会扫描你的条形码并审查你的身份证件。邮局工作人员审查完你的文件后，你就可以走了。邮局工作人员不会得到你验证结果。
+3. 邮局工作人员会扫描你的条形码并审查你的身份证件。邮局工作人员审查完你的文件后，你就可以走了。邮局工作人员不会得到你验证结果。
 
-4.你去邮局后的 24 小时内会收到来自[Login.gov](/zh/)的一封电邮，告知你身份验证是否成功。检查你的电邮中是否有来自[no-reply@login.gov](mailto:no-reply@login.gov)的一则信息。
+4. 你去邮局后的 24 小时内会收到来自[Login.gov](/zh/)的一封电邮，告知你身份验证是否成功。检查你的电邮中是否有来自[no-reply@login.gov](mailto:no-reply@login.gov)的一则信息。
 
 ## 故障排除
 

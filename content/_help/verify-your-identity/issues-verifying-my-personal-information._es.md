@@ -17,7 +17,7 @@ Después de verificar su identificación, ingrese su número de Seguro Social y 
 
 Si recibe un mensaje de error que indica que “No pudimos encontrar registros que coincidan con su información personal”, verifique que:
 
-{% include components/icon-list.html items=page.id_info_list size='md' icon_color='success' icon_shape='check_circle'%}
+{% include components/icon-list.html items=page.id_info_list size='md' icon_color='success' icon_shape='check_circle' %}
 
 Si su dirección o su número del Seguro Social están equivocados, puede modificar su información antes de enviarla de nuevo.
 

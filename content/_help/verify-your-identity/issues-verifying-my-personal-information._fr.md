@@ -17,7 +17,7 @@ Une fois la vérification de votre identité effectuée, vous saisirez votre num
 
 Si vous recevez le message d’erreur « Nous n’avons pas trouvé d’informations correspondant à vos renseignements personnels », veuillez vérifier ce qui suit :
 
-{% include components/icon-list.html items=page.id_info_list size='md' icon_color='success' icon_shape='check_circle'%}
+{% include components/icon-list.html items=page.id_info_list size='md' icon_color='success' icon_shape='check_circle' %}
 
 Si le numéro de sécurité sociale ou l’adresse sont incorrects, veuillez rectifier ces informations avant de les valider à nouveau.
 

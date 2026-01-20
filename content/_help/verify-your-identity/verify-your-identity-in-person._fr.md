@@ -26,7 +26,7 @@ Une fois que vos renseignements auront été confirmés en ligne, nous vous enve
 
 ### À quel bureau de poste puis-je me rendre pour confirmer mon identité ?
 
-Une fois que vous avez votre code-barres, vous pouvez vous rendre dans n’importe quel bureau de poste participant qui offre un service de vérification d’identité en personne. [Trouver un bureau de poste participant](/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/)
+Une fois que vous avez votre code-barres, vous pouvez vous rendre dans n’importe quel bureau de poste participant qui offre un service de vérification d’identité en personne. [Trouver un bureau de poste participant](/fr/help/verify-your-identity/verify-your-identity-in-person/find-a-participating-post-office/).
 
 Il est possible de confirmer son identité dans des bureaux de poste des 50 États des États-Unis et dans les territoires américains de Porto Rico, des îles Vierges américaines, des Samoa américaines, de Guam et des îles Mariannes du Nord.
 
