@@ -1,56 +1,39 @@
 ---
 layout: help
-title: Fraud concerns
+title: Fraud and security
 category: fraud-concerns
 permalink: /help/fraud-concerns/overview/
 order: 0
 ---
 
-## Concerned About Fraud or Unauthorized Activity?
+Staying informed is the best way to keep your identity safe. Here, you’ll find resources to help you identify common scams, protect your account, confirm if a message is legitimate, and [report suspicious activity](/help/fraud-concerns/report-suspicious-activity/).
 
-If you suspect that your Login.gov account has been compromised—or you’ve noticed suspicious activity—we’re here to help you take immediate steps to protect your identity and account security.
+## Reporting suspicious activity
 
-### Check for Suspicious Activity
+If you’ve noticed suspicious activity on your account, your Login.gov account may have been compromised. You can take immediate steps to protect your identity and account security.
 
-You can review recent sign-ins and devices associated with your Login.gov account:
+### Review recent activity
+
+In Account History, you can see when someone might have signed into your Login.gov account, as well as the devices used to sign in. To access Account History:
 
 {: .number-list}
 
-1. **Sign in** at [Login.gov](https://secure.login.gov/)
+1. Sign in at Login.gov’s [sign-in page](https://secure.login.gov/).
+2. On the menu, navigate to “History.”
+   - On larger screens, the menu is on the left sidebar.
+   - On smaller screens or mobile devices, you may need to navigate to a button labeled “Menu” first.
+3. You will see a list of recently used devices and sign-ins on your account. Next to each device, you can select “Events” to see additional detail, such as how often a device was used to sign in.
 
-2. Navigate to your **account page**.
+If you see any device or activity that you don’t recognize:
 
-3. Select **"History"** to view your recently used devices and sign-ins.
-
-If you see any device or sign-in that you don’t recognize, we strongly recommend you:
-
-   * **Immediately** change your password, and
-   * **Review your authentication methods** to ensure they are up to date and secure.
-
-### Protecting Your Account
-
-Your security is our priority. Login.gov uses advanced fraud detection and secure authentication methods to safeguard your account. Protecting your account is important to us. You can learn more about [our commitment to keep your information safe](https://login.gov/policy/).
-
-### Report Suspicious or Fraudulent Activity
-
-Login.gov cannot investigate claims of fraud involving other agencies or services. However, if you believe your personal information was used fraudulently—or that someone created an account in your name—you should report it to the appropriate authorities:
-
-### Federal Resources for Reporting Fraud
-
-   * **Identity Theft**
-      * **Website:** [IdentityTheft.gov](https://IdentityTheft.gov)
-      * **Phone:** 1-877-438-4338 (FTC)
-   * **Online or Cyber Crime**
-      * [Internet Crime Complaint Center (IC3)](https://www.ic3.gov/)
-      * FBI Field Offices
-   * **Federal Program Fraud (e.g., healthcare benefits)**
-      * [HHS OIG Fraud Hotline](https://oig.hhs.gov/fraud/report-fraud/)
-      * **Phone:** 1-800-HHS-TIPS (1-800-447-8477)
-   * **Other Serious Identity Crimes**
-      * [U.S. Secret Service Field Offices](https://www.secretservice.gov/contact/field-offices/)
-
+- Immediately [change your password](/help/manage-your-account/change-your-password/)
+- Review your [authentication methods](/help/create-account/authentication-methods/) to ensure they are up to date and secure
+- Contact Login.gov using the contact form or phone number on our [Contact us](/contact/) page
 
 ## Related articles
 
-* [Help with agencies](/help/specific-agencies/overview/)
+- [Learn about the latest scam techniques](/help/fraud-concerns/common-scams/)
+- [How do I protect my account from fraud?](/help/fraud-concerns/protect-account-from-fraud/)
+- [How do I confirm if a message came from an agency?](/help/fraud-concerns/verify-messages/)
+- [Report suspicious or fraudulent activity](/help/fraud-concerns/report-suspicious-activity/)
 
