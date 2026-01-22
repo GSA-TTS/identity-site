@@ -82,31 +82,35 @@ Si sospechamos que hubo fraude en su cuenta, podemos bloquearla y ponernos en co
 
 ## 4. Comprobación y verificación de la identidad
 
-La primera vez que usted intenta iniciar sesión usando Login.gov en una aplicación asociada que requiere un nivel elevado de certeza de que usted es quien dice ser, iniciamos un proceso denominado comprobación de identidad. La comprobación de identidad obtiene información sobre usted e intenta validarla y luego verificar que usted, el usuario, es la persona que dice ser. A esta información la llamamos prueba de identidad y generalmente incluye su nombre, fecha de nacimiento, número de Seguro Social, domicilio y una imagen de identificación, como su licencia de conducir. Usted acepta que la información que proporciona es suya, no de otra persona, y que es correcta.
+La primera vez que intente iniciar sesión usando en una aplicación de una agencia asociada que requiera su identidad, iniciaremos un proceso llamado verificación de identidad. La comprobación de identidad obtiene información sobre usted e intenta validarla y luego verificar que usted, el usuario, es la persona que dice ser. A esta información la llamamos prueba de identidad y generalmente incluye su nombre, fecha de nacimiento, número de Seguro Social, domicilio y una imagen de identificación, como su licencia de conducir. Usted acepta que la información que proporciona es suya, no de otra persona, y que es correcta.
 
-Una vez que nos proporciona estas pruebas de identidad, intentamos validarlas con diversas fuentes autorizadas. Utilizamos la ayuda de servicios de comprobación de identidad de terceros para esta validación. Por ejemplo, si nos envía una imagen de su licencia de conducir de su estado de residencia, compararemos la información que aparece en ella con los datos autorizados del Departamento de Vehículos de Motor (DMV) de su estado, la Administración de Vehículos de Motor (MVA) o la agencia estatal equivalente para verificar que usted existe en esos registros. También utilizaremos tecnología para buscar ciertas características de seguridad en la licencia de conducir y asegurarnos de que no es falsa.
+Después de proporcionarnos esta prueba de identidad, intentamos validarla con diversas fuentes fidedignas y confiables. Utilizamos servicios de verificación de identidad de terceros para facilitarnos esta validación. Por ejemplo, si envía una imagen de su licencia de conducir de su estado de residencia, compararemos la información con los datos fidedignos del Departamento de Vehículos Motorizados (DMV), la Administración de Vehículos Motorizados (MVA) o la agencia estatal equivalente de su estado para garantizar que su información coincida con dichos registros. También utilizaremos tecnología para buscar ciertas características de seguridad en la licencia de conducir y garantizar su legitimidad.
 
-Asimismo, compararemos la información que nos facilite con otros registros para estar más seguros de su identidad. Podemos, por ejemplo, verificar que su nombre, fecha de nacimiento, dirección y número de Seguro Social coincidan en los registros de una oficina de crédito. Aunque no verificamos su crédito, nos aseguramos de que exista tal persona para protegerle contra el fraude de identidad. También podemos consultar otras fuentes para confirmar la información que nos proporcione. Si no podemos validar su dirección por otros medios, es posible que confirmemos que vive allí enviándole una carta con un código que deberá introducir en el servicio Login.gov.
+Asimismo, compararemos la información que nos facilite con otros registros para estar más seguros de su identidad. Podemos, por ejemplo, verificar que su nombre, fecha de nacimiento, dirección y número de Seguro Social coincidan en los registros de una oficina de crédito. Aunque no verificamos su crédito, nos aseguramos de que exista tal persona para protegerle contra el fraude de identidad. También podemos consultar otras fuentes para confirmar la información que nos proporcione. SSi no podemos validar su dirección de otras maneras, en algunos casos podremos confirmar que usted vive allí enviándole una carta con un código que deberá ingresar en el servicio.
 
 Además, para validar las pruebas de identidad que nos proporciona, seguimos más pasos para detectar y evitar la creación fraudulenta de cuentas. Evaluamos el dispositivo que se utiliza para acceder a Login.gov, la identidad que se está comprobando y su comportamiento durante la comprobación de la identidad. Recopilamos información del dispositivo para efectuar esta evaluación. En nuestra [Política de privacidad](/es/policy/), detallamos la manera en que utilizamos su información.
 
-Si recibe un error y no puede terminar el proceso de comprobación y verificación de la identidad, se proporcionan instrucciones para la reparación y las acciones posteriores a esta. Por ahora, Login no tiene un proceso para la comprobación de identidad por medio de evaluadores de confianza (es decir, personas designadas para que actúen en nombre de usted durante la comprobación de identidad).
+Si recibe un error y no puede completar el proceso de verificación de identidad, se proporcionan instrucciones para solucionarlo y los pasos a seguir. Actualmente, Login no cuenta con un proceso para eludir los requisitos estándar de verificación de identidad.
 
 ### Datos biométricos
 
 Algunos asociados exigen hacer la verificación con comparación biométrica. En estos casos, Login.gov le pedirá que se tome una fotografía para compararla con la que figura en su tarjeta de identificación emitida por el gobierno.
 
-## 5. Cancelación 
+## 5. Acceso automatizado
+
+El acceso automatizado a está estrictamente prohibido para garantizar seguridad e integridad. Esto incluye la creación automatizada de cuentas, la autenticación, la extracción de datos, el envío de formularios y la elusión de medidas de seguridad. es un sitio web para la interacción humana, y los usuarios deben acceder manualmente para mantener un entorno seguro.
+
+## 6. Terminación 
 
 Puede cancelar su cuenta en cualquier momento en el perfil de su cuenta. Además, en caso de fraude u otras infracciones de estas Reglas de uso, podemos revocar el acceso a su cuenta. Si esto ocurre, seguiremos protegiendo la información de su cuenta de acuerdo con nuestra [Política de privacidad](/es/policy/) y el [aviso sobre el sistema de registros](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records) (en inglés).
 
 En el caso improbable de que se suspenda el servicio Login.gov, la información de la cuenta se conservará sujeta a nuestro [aviso sobre el sistema de registros](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records) (en inglés), según sea modificado. Específicamente, la información de los usuarios, incluidos los perfiles, archivos de inicio de sesión, archivos de contraseña, archivos y extractos de registros de auditoría, archivos de uso del sistema y archivos de devolución de costos utilizados para evaluar los cargos por el uso del sistema se conservan de acuerdo con el Programa de conservación de registros de la GSA, GRS 03.2, punto 030, y se destruyen cuando termina su uso comercial.
 
-## 6. Autoridades
+## 7. Autoridades
 
 El servicio Login.gov es operado en el interior de los Estados Unidos, pero es accesible para uso público en todo el mundo. El funcionamiento del servicio Login.gov está a cargo de la Administración General de Servicios conforme a las autoridades y guías que se figuran en el [título 6 del USC sección 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), la Ley de gobierno electrónico de 2002 (Ley pública 107–347, nota del título 44 del USC sección 3501), el [título 40 del USC sección 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim), el [título 40 del USC seccióe 502](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title40-section502&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim) y el [memorando M-19-17 de la OMB](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
-## 7. Funcionamiento del servicio y atención al cliente
+## 8. Funcionamiento del servicio y atención al cliente
 
 El servicio Login.gov funciona con un nivel elevado de calidad, tanto en la prestación del servicio como en la atención al cliente.
 
@@ -118,21 +122,21 @@ Como sistema de autenticación y puerta de enlace a las aplicaciones federales, 
 
 La atención al cliente y los servicios de asistencia están siempre disponibles en <https://login.gov/es/contact/>. Cuando solicite atención al cliente, usaremos toda la información que nos proporcione para responder a su pregunta o comentario, y es posible que usemos sus aportaciones para mejorar nuestro servicio o para otros fines que consideremos oportunos, por ejemplo, para mercadotecnia. Al hacerlo, no divulgaremos nunca su información personal fuera del servicio Login.gov, excepto cuando lo exijan las leyes aplicables o se indique en otra sección de estas condiciones.
 
-## 8. Responsabilidades de nuestros asociados
+## 9. Responsabilidades de nuestros asociados
 
 El servicio Login.gov conecta más fácilmente al público con las agencias del gobierno permitiendo a los usuarios acceder a varios programas gubernamentales con una sola cuenta de Login.gov.
 
 Las agencias asociadas seleccionan la información que necesitan de la lista de atributos que admitimos. Si aún no la tenemos, le solicitamos esa información a usted, la validamos y le pedimos su consentimiento para divulgarla a la agencia asociada. Los asociados pueden solicitar una serie de datos, como nombre, dirección, fecha de nacimiento, número de teléfono y dirección de correo electrónico. De acuerdo con la ley y la política federales, las agencias asociadas deben proteger esa información.
  
-Nunca divulgaremos información de identificación personal (IIP) validada a un asociado sin el consentimiento explícito de usted, según lo exija la ley o según se indique de otro modo en estas Reglas de uso. Usted puede revocar este consentimiento en cualquier momento, y nosotros revocaremos el acceso del asociado a la información. No obstante, el asociado puede conservar esta información conforme a sus políticas de conservación de datos. El servicio Login.gov no recopila ninguna información que usted proporcione directamente al asociado.
+Nunca compartiremos su información personal identificable con un socio sin su consentimiento, como lo exige la ley, o a menos que la divulgación sea necesaria para investigar un fraude relacionado con su cuenta. Usted puede revocar este consentimiento en cualquier momento, y nosotros revocaremos el acceso del asociado a la información. No obstante, el asociado puede conservar esta información conforme a sus políticas de conservación de datos. El servicio Login.gov no recopila ninguna información que usted proporcione directamente al asociado.
 
 Los posibles asociados y otras partes interesadas pueden obtener más información sobre el proceso de integración de los asociados en la [guía para desarrolladores](https://developers.login.gov/) (en inglés) de Login.gov.
 
-## 9. Tarifas
+## 10. Tarifas
 
 No se le cobra ninguna tarifa por registrarse ni por utilizar el servicio Login.gov. Tampoco existe ninguna tarifa por conectarse a nuestros asociados, aunque estos pueden cobrar tarifas por algunos de sus servicios, como hacer una reservación, comprar un artículo o solicitar un servicio.
 
-## 10. Declaraciones, garantías y responsabilidades
+## 11. Declaraciones, garantías y responsabilidades
 
 Renuncia de garantías
 
@@ -146,7 +150,7 @@ Usted garantiza por este medio que: (1) su uso del sitio web y de los servicios 
 
 En ningún caso, la GSA asumirá la responsabilidad de ningún asunto de este acuerdo conforme a cualquier contrato, negligencia, responsabilidad estricta u otra teoría legal o equitativa por: (1) todo daño especial, incidental o consecuente; (2) el costo de adquisición de productos o servicios sustitutos; o (3) por interrupción del uso o la pérdida o corrupción de datos.
 
-## 11. Disposiciones generales
+## 12. Disposiciones generales
 
 ### 1. Acuerdo completo
 
