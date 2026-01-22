@@ -93,7 +93,7 @@ Similarly, we’ll compare the information you give us to other records for adde
 
 In addition to validating the identity evidence you provide to us, we take additional steps to detect and prevent fraudulent account creation. We assess the device being used to access Login.gov, the identity being proofed, and your behavior during identity proofing. We collect information from the device to perform this assessment. We further detail how we use your information in our [Privacy Policy]({% link _policy/index._en.md %}).
 
-If you get an error and are unable to complete the identity proofing and verification process, redress instructions are provided with follow-on actions. Login does not currently have a process to bypass standard identity proofing requirements
+If you get an error and are unable to complete the identity proofing and verification process, redress instructions are provided with follow-on actions. Login does not currently have a process to bypass standard identity proofing requirements.
 
 ### Biometric Data
 
