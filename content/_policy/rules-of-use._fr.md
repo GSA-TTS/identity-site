@@ -82,11 +82,11 @@ En cas de suspicion de fraude sur votre compte, il est possible que nous verroui
 
 ## 4. Preuve et vérification d’identité
 
-La première fois que vous essayez de vous connecter à l’aide de Login.gov à une application partenaire qui exige un degré élevé de certitude quant à votre identité, nous lançons un processus appelé vérification d’identité. La vérification d’identité prend des informations sur vous et tente de les valider, puis de vérifier que vous, l’utilisateur, êtes bien la personne que vous prétendez être. Ces informations, que nous appelons preuves d’identité, comprennent en général votre nom, votre date de naissance, votre numéro de sécurité sociale, l’adresse de votre domicile et une image de votre pièce d’identité, telle que votre permis de conduire. Vous convenez que les informations que vous fournissez sont bien les vôtres — et non celles de quelqu’un d’autre — et qu’elles sont exactes.
+Lors de votre première tentative de connexion via à une application partenaire nécessitant votre identité, nous lançons une procédure de vérification d'identité.  La vérification d’identité prend des informations sur vous et tente de les valider, puis de vérifier que vous, l’utilisateur, êtes bien la personne que vous prétendez être. Ces informations, que nous appelons preuves d’identité, comprennent en général votre nom, votre date de naissance, votre numéro de sécurité sociale, l’adresse de votre domicile et une image de votre pièce d’identité, telle que votre permis de conduire. Vous convenez que les informations que vous fournissez sont bien les vôtres — et non celles de quelqu’un d’autre — et qu’elles sont exactes.
 
-Une fois que vous nous avez fourni ces preuves d’identité, nous tentons de les valider à l’aide de diverses sources faisant autorité. Nous faisons appel à des services de vérification d’identité tiers pour nous aider dans cette validation. Par exemple, si vous nous envoyez une image de votre permis de conduire de votre État de résidence, nous comparerons les informations qu’il contient aux données faisant autorité du Département des véhicules à moteur (DMV), de l’Administration des véhicules à moteur (MVA) ou d’un organisme équivalent de votre État, afin de nous assurer que vous existez bien dans ces dossiers. Nous ferons également appel à la technologie pour rechercher certaines caractéristiques de sécurité sur le permis de conduire afin de nous assurer qu’il ne s’agit pas d’un faux.
+Après réception de votre justificatif d'identité, nous procédons à sa validation auprès de diverses sources officielles et crédibles. Pour ce faire, nous avons recours à des services tiers de vérification d'identité. Par exemple, si vous nous soumettez une image de votre permis de conduire de votre État de résidence, nous comparerons les informations qu'il contient aux données officielles du service des immatriculations (ou de l'administration des véhicules à moteur) de votre État afin de garantir leur conformité avec les registres. Nous utilisons également des outils technologiques pour vérifier la présence de certains éléments de sécurité sur le permis de conduire et ainsi nous assurer de son authenticité.
 
-De même, nous comparons les informations que vous nous fournirez à d’autres dossiers pour mieux nous assurer de votre identité. Nous pouvons, par exemple, vérifier que votre nom, votre date de naissance, votre adresse et votre numéro de sécurité sociale correspondent à ceux d’un bureau de crédit. Nous ne vérifierons pas votre solvabilité, mais nous nous assurerons de l’existence de la personne en question afin de vous protéger contre l’usurpation d’identité. Nous pouvons également contacter d’autres sources pour confirmer les informations que vous nous fournissez. Si nous ne pouvons pas valider votre adresse par d’autres moyens, nous pouvons essayer de confirmer que vous y habitez en vous envoyant un courrier contenant un code à saisir sur Login.gov.
+De même, nous comparons les informations que vous nous fournirez à d’autres dossiers pour mieux nous assurer de votre identité. Nous pouvons, par exemple, vérifier que votre nom, votre date de naissance, votre adresse et votre numéro de sécurité sociale correspondent à ceux d’un bureau de crédit. Nous ne vérifierons pas votre solvabilité, mais nous nous assurerons de l’existence de la personne en question afin de vous protéger contre l’usurpation d’identité. Nous pouvons également contacter d’autres sources pour confirmer les informations que vous nous fournissez. Si nous ne parvenons pas à valider votre adresse par d'autres moyens, nous pourrons, dans certains cas, confirmer que vous y habitez en vous envoyant une lettre contenant un code à saisir dans le service.
 
 Outre valider les preuves d’identité que vous nous fournissez, nous prenons des mesures supplémentaires pour détecter et prévenir la création de comptes frauduleux. Nous évaluons l’appareil utilisé pour accéder à Login.gov, l’identité vérifiée et votre comportement pendant la vérification d’identité. Pour effectuer cette évaluation, nous recueillons des informations à partir de l’appareil. Nous expliquons plus en détail comment nous utilisons vos informations dans notre [Politique de confidentialité](/fr/policy/).
 
@@ -94,20 +94,23 @@ Si une erreur se produit et que vous ne parvenez pas à terminer la procédure d
 
 ### Données biométriques
 
-Certains partenaires exigent que la vérification d’identité s’effectue par comparaison biométrique. Dans ces cas, Login.gov recueille votre auto-photographie qui est comparée à celle qui figure sur votre carte d’identité délivrée par les autorités.
+Si vous rencontrez une erreur et que vous ne parvenez pas à finaliser la procédure de vérification d'identité, des instructions de correction ainsi que les actions à entreprendre vous seront fournies. La connexion ne propose actuellement aucune procédure permettant de contourner les exigences standard de vérification d'identité.
 
+## 5. Accès automatisé
 
-## 5. Résiliation
+L'accès automatisé à est strictement interdit afin de garantir la sécurité et l'intégrité du système. Ceci inclut la création automatisée de comptes, l'authentification, l'extraction de données, la soumission de formulaires et le contournement des mesures de sécurité. est un service destiné aux interactions humaines ; les utilisateurs doivent donc y accéder manuellement pour maintenir un environnement sécurisé.
+
+## 6. Résiliation
 
 Vous pouvez résilier votre compte à tout moment par l’intermédiaire de votre profil de compte. En outre, en cas de fraude ou d’autres violations des présentes règles d’utilisation, nous pouvons révoquer l’accès à votre compte. Si cela se produit, nous continuerons à protéger les informations de votre compte conformément à notre [Politique de confidentialité](/fr/policy/) et à l’[avis relatif au système d’enregistrement](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records).
 
 Dans le cas peu probable où le service Login.gov serait supprimé, les renseignements sur le compte seront conservés conformément à notre [avis relatif au système d’enregistrement](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records), tel que modifié. Plus précisément, les informations relatives aux utilisateurs, y compris les profils, les fichiers de connexion, les fichiers de mots de passe, les fichiers et les extraits d’audit, les fichiers d’utilisation du système et les fichiers de rétablissement des coûts utilisés pour évaluer les frais d’utilisation du système sont conservés conformément au calendrier de conservation des documents de l’Administration des services généraux, GRS 03.2., point 030, qui sont détruits lorsqu’ils n’ont plus d’utilité professionnelle.
 
-## 6. Autorités
+## 7. Autorités
 
 Le service Login.gov est exploité aux États-Unis, mais il est accessible au public dans le monde entier. Le service Login.gov est géré par l’Administration des services généraux en vertu des pouvoirs et des directives énoncés dans [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), la loi sur le gouvernement électronique de 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim) et [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
-## 7. Exploitation des services et service client
+## 8. Exploitation des services et service client
 
 Le service Login.gov fonctionne avec un niveau de service élevé, tant au niveau de la prestation des services que du service client.
 
@@ -119,21 +122,21 @@ En tant que système d’authentification et passerelle vers les applications f�
 
 Les services client et d’assistance sont toujours disponibles depuis la page <https://login.gov/contact/>. Lorsque vous demanderez à avoir recours au service client, nous utiliserons toutes les informations que vous fournirez pour répondre à votre question ou à votre commentaire, et nous pourrons utiliser vos commentaires pour améliorer notre service ou à d’autres fins comme bon nous semblera, par exemple à des fins de marketing. Ce faisant, nous ne divulguerons jamais vos informations personnelles en dehors du service Login.gov, sauf tel que la loi applicable l’exige ou conformément à d’autres dispositions des présentes conditions.
 
-## 8. Responsabilités de nos partenaires
+## 9. Responsabilités de nos partenaires
 
 Le service Login.gov relie plus facilement le public aux organismes de l’administration en permettant aux utilisateurs d’accéder à plusieurs programmes de l’administration par le biais d’un seul et même compte Login.gov.
 
 Les organismes partenaires sélectionnent les informations dont ils ont besoin dans la liste des attributs que nous prenons en charge. Si nous ne les possédons pas déjà, nous vous demandons ces informations, nous les validons et nous vous demandons votre accord pour les partager avec l’organisme partenaire. Les partenaires peuvent demander diverses informations telles que le nom, l’adresse, la date de naissance, le numéro de téléphone et l’adresse e-mail. Les partenaires sont tenus de protéger ces informations conformément à la législation et à la politique fédérales.
  
-Nous ne partagerons jamais d’IPI validées avec un partenaire sans votre consentement explicite, comme l’exige la loi, ou conformément aux présentes règles d’utilisation. Il vous est possible de révoquer ce consentement à tout moment, et nous révoquerons alors l’accès du partenaire à ces informations. Le partenaire peut toutefois conserver ces informations conformément à sa politique de conservation des données. Le service Login.gov ne recueille pas les informations que vous fournissez directement au partenaire.
+Nous ne partagerons jamais vos informations personnelles avec un partenaire sans votre consentement, sauf si la loi l'exige ou si cette divulgation est nécessaire pour enquêter sur une fraude liée à votre compte. Il vous est possible de révoquer ce consentement à tout moment, et nous révoquerons alors l’accès du partenaire à ces informations. Le partenaire peut toutefois conserver ces informations conformément à sa politique de conservation des données. Le service Login.gov ne recueille pas les informations que vous fournissez directement au partenaire.
 
 Les partenaires potentiels et les autres parties intéressées peuvent obtenir de plus amples renseignements sur le processus d’intégration des partenaires dans le [guide du développeur](https://developers.login.gov/) de Login.gov.
 
-## 9. Frais
+## 10. Frais
 
 L’inscription ou l’utilisation du service Login.gov est gratuite. La connexion à nos partenaires est gratuite, mais les partenaires eux-mêmes peuvent facturer des frais pour certains de leurs services, tels que la réservation, l’achat d’un article ou la demande d’un service.
 
-## 10. Déclarations, garanties et responsabilités
+## 11. Déclarations, garanties et responsabilités
 
 Exclusion de garantie
 
@@ -147,7 +150,7 @@ Vous garantissez par la présente que 1) votre utilisation du site Web et de ses
 
 En aucun cas l’Administration des services généraux ne pourra être tenue responsable de tout objet du présent accord en vertu d’un contrat, d’une négligence, d’une responsabilité stricte ou d’une autre théorie juridique ou équitable pour : 1) tout dommage spécial, accessoire ou consécutif ; 2) le coût d’acquisition de produits ou services de substitution ; ou 3) l’interruption de l’utilisation ou la perte ou la corruption de données.
 
-## 11. Dispositions générales
+## 12. Dispositions générales
 
 ### 1. Intégralité de l’accord
 
