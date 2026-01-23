@@ -13,8 +13,6 @@ permalink: /zh/help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
 ---
 
-## 忘记或丢失了你的个人密钥
-
 取决于你设置的身份证实方法，你也许仍然能够访问你的 Login.gov 账户。你能够登录后，请确保自己设置了不止一种的身份证实方法，以防无法访问账户。
 
 {% capture delete_account_alert_content %}
