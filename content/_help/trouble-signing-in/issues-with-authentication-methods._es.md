@@ -29,8 +29,6 @@ redirect_from:
   - /es/help/signing-in/why-is-my-security-code-invalid/
 ---
 
-## Si olvidó o perdió su clave personal
-
 Según los métodos de autenticación que haya configurado, es posible que todavía pueda acceder a su cuenta de Login.gov. Una vez que pueda iniciar sesión, asegúrese de haber configurado más de un método de autenticación para evitar perder el acceso a su cuenta.
 
 {% capture delete_account_alert_content %}

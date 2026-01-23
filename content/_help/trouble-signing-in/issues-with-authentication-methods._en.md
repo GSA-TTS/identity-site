@@ -30,8 +30,6 @@ redirect_from:
   - /help/signing-in/why-is-my-security-code-invalid/
 ---
 
-## Forgot or lost your personal key
-
 Depending on the authentication methods you’ve set up, you may still be able to access your Login.gov account. After you’re able to sign in, make sure you’ve set up more than one authentication method to avoid losing access to your account.
 
 {% capture delete_account_alert_content %}
