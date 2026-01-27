@@ -4,9 +4,9 @@ category: verify-your-identity
 permalink: /es/help/verify-your-identity/issues-verifying-my-personal-information/
 order: 3
 id_info_list:
-- Su nombre, fecha de nacimiento y la información en su identificación están escritos correctamente.
-- Su número de Seguro Social se ingresó correctamente.
-- Su dirección es la correcta y está actualizada.
+- Su nombre, fecha de nacimiento y la información en su identificación estén escritos correctamente.
+- Su número de Seguro Social se haya ingresado correctamente.
+- Su dirección sea la correcta y esté actualizada.
 ---
 
 Después de verificar su identificación, ingrese su número de Seguro Social y verificaremos la información de su identificación y la que ingresó en registros públicos y privados.
@@ -17,7 +17,7 @@ Después de verificar su identificación, ingrese su número de Seguro Social y 
 
 Si recibe un mensaje de error que indica que “No pudimos encontrar registros que coincidan con su información personal”, verifique que:
 
-{% include components/icon-list.html items=page.id_info_list size='md' icon_color='success' icon_shape='check_circle'%}
+{% include components/icon-list.html items=page.id_info_list size='md' icon_color='success' icon_shape='check_circle' %}
 
 Si su dirección o su número del Seguro Social están equivocados, puede modificar su información antes de enviarla de nuevo.
 

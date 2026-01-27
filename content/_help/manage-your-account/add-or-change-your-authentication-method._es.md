@@ -5,7 +5,7 @@ permalink: /es/help/manage-your-account/add-or-change-your-authentication-method
 order: 5
 ---
 
-[Un método de autenticación](/es/help/create-account/authentication-methods/) es nivel adicional de seguridad para su cuenta. Le recomendamos que tenga al menos dos métodos de autenticación para su cuenta en caso de que pierda uno de ellos.
+[Un método de autenticación](/es/help/create-account/authentication-methods/) es un nivel adicional de seguridad para su cuenta. Le recomendamos que tenga al menos dos métodos de autenticación para su cuenta en caso de que pierda uno de ellos.
 
 Si perdió su método de autenticación y no tiene una copia de seguridad conectada a su cuenta, debe [eliminar su cuenta actual de Login.gov](/es/help/manage-your-account/delete-your-account/) y crear una nueva.
 

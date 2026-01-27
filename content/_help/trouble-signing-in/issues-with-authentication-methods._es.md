@@ -53,4 +53,4 @@ Si no puede iniciar sesión con sus métodos de autenticación, tendrá que borr
 ## Otros artículos
 
 * [¿Cómo cambio la dirección de correo electrónico asociada con mi cuenta?](/es/help/manage-your-account/change-your-email-address/)
-* [¿Como cambio el número de teléfono asociado con mi cuenta?](/es/help/manage-your-account/change-your-phone-number/)
+* [¿Cómo cambio el número de teléfono asociado con mi cuenta?](/es/help/manage-your-account/change-your-phone-number/)

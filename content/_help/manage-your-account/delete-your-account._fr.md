@@ -38,7 +38,7 @@ redirect_from:
   </h2>
   <div id="b-a1" class="usa-accordion__content usa-prose">
     <ol class="number-list">
-      <li>Saisissez votre adresse e-mail sur <a href="https://secure.login.gov/fr">https://secure.login.gov</a>.</li>
+      <li>Saisissez votre adresse e-mail sur <a href="https://secure.login.gov/fr" class="usa-link">https://secure.login.gov</a>.</li>
       <li>Saisissez votre mot de passe.</li>
       <li>Cliquez sur le bouton « Connexion ».</li>
       <li>Authentifiez-vous à l'aide d'une des méthodes que vous avez configurées.</li>
@@ -61,9 +61,9 @@ redirect_from:
     </button>
   </h2>
   <div id="b-a2" class="usa-accordion__content usa-prose">
-    <p>Si vous avez perdu l’accès à vos méthodes d’authentification et voulez supprimer votre compte, par mesure de sécurité, Login.gov exige un processus en deux étapes et une période d’attente de 24 heures.</p>
+    <p>Si vous avez perdu l’accès à vos méthodes d’authentification et voulez supprimer votre compte, par mesure de sécurité, Login.gov exige un processus en deux étapes et un délai d’attente de 24 heures.</p>
     <ol class="number-list">
-      <li>Rendez-vous sur la page de connexion de votre application fédérale ou sur <a href="https://secure.login.gov/fr">https://secure.login.gov</a></li>
+      <li>Rendez-vous sur la page de connexion de votre application fédérale ou sur <a href="https://secure.login.gov/fr" class="usa-link">https://secure.login.gov</a></li>
       <li>Connectez-vous à l’aide de votre adresse e-mail et de votre mot de passe</li>
       <li>Sur la page d’authentification, cliquez sur « Choisir une autre option de sécurité »</li>
       <li>Faites défiler la page vers le bas et cliquez sur le lien « Supprimer votre compte »</li>

@@ -13,11 +13,11 @@ Es posible que algunas agencias asociadas le pidan que tome un selfi (una fotogr
 
 1. Tómese la foto en un lugar bien iluminado, pero evite los reflejos.
 
-2. Revise que se vea su cara completa, desde la barbilla hasta la parte superior de la cabeza. Solo use los accesorios (como anteojos) que lleva puestos en la fotografía de su identificación. Quite cualquier otro artículo que le cubra la cara.
+2. Revise que se vea su cara completa, desde la barbilla hasta la parte superior de la cabeza. Solo use los accesorios (como anteojos) que lleva puestos en la fotografía de su identificación. Quite cualquier prenda que le cubra la cara.
 
 3. Alinee su cara con las marcas de guía. Mantenga una expresión neutral y no se mueva.
 
-4. Siga las instrucciones para tomar una fotografía. La cámara puede tomar automáticamente una foto, o puede que tenga que pulsar un botón para tomarla.
+4. Siga las instrucciones para tomar una fotografía. La cámara puede tomar automáticamente una foto, o es posible que usted tenga que pulsar un botón para tomarla.
 
 5. Pulse la marca de verificación o siga las instrucciones para aceptar la foto.
 

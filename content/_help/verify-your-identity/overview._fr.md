@@ -19,7 +19,7 @@ redirect_from:
 verify_identity_list:
 - Un permis de conduire, une carte d’identité d’un État ou un passeport (livret)
 - Un numéro de sécurité sociale
-- Un numéro de téléphone des États-Unis ou une adresse postale
+- Un numéro de téléphone des États-Unis ou une adresse postale aux États-Unis
 ---
 
 La vérification d'identité est le processus qui vous permet de prouver que vous êtes bien vous-même et non une tierce personne qui se fait passer pour vous. Après avoir [créé votre compte Login.gov](/fr/create-an-account/) ou vous être connecté, il peut vous être nécessaire de confirmer votre identité auprès de certains organismes pour accéder à leurs services.
@@ -39,7 +39,7 @@ Si vous ne remplissez pas toutes ces conditions, prenez contact avec l’organis
 
 1. Saisissez votre numéro de Sécurité sociale et nous vérifierons que vos [renseignements personnels](/fr/help/verify-your-identity/issues-verifying-my-personal-information/) correspondent aux informations enregistrées sur les registres publics et privés.
 
-1. [Vérifiez votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/) et recevez un code à usage unique à ce numéro. Certains agences vous permettent également de [vérifier votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/).
+1. [Vérifiez votre numéro de téléphone](/fr/help/verify-your-identity/phone-number/) et recevez un code à usage unique à ce numéro. Certaines agences vous permettent également de [vérifier votre adresse par courrier](/fr/help/verify-your-identity/verify-your-address-by-mail/).
 
 1. Saisissez à nouveau votre mot de passe pour enregistrer les renseignements déjà vérifiés dans votre compte, puis connectez ces informations à l’organisme partenaire auquel vous tentez de vous connecter.
 

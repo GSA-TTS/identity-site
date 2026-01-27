@@ -17,9 +17,9 @@ id_info_list:
 
 如果你收到一条出错消息说“我们找不到与你个人信息匹配的记录”，请验证：
 
-{% include components/icon-list.html items=page.id_info_list size='md' icon_color='success' icon_shape='check_circle'%}
+{% include components/icon-list.html items=page.id_info_list size='md' icon_color='success' icon_shape='check_circle' %}
 
-如果你的社会保障号码或地址不正确，你可以在再次提交信息之前更新你的信息。
+如果你的社会保障号码或地址不正确，你可以更新你的信息，然后再此提交。
 
 如果你的名、姓或生日不正确，可能是从你的 ID 上读取的不正确。请重新开始并再次添加你的 ID 图片。你无法更改 ID 上显示的姓名或生日。
 

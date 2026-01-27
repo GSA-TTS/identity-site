@@ -16,7 +16,7 @@ Login.gov ofrece la verificación de identidad en persona por medio del Servicio
 
 Puede optar por verificar su identidad en persona en lugar de tomar fotografías de su documento de identificación en línea, o bien, si está teniendo problema para tomar las fotos, puede cambiar a la verificación de identidad en persona.
 
-Antes de acudir a la oficina de correos, necesitamos [verificar su información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/) y la información de su identificación. Luego [verificamos su número de teléfono](/es/help/verify-your-identity/phone-number/) y le enviamos un código de un solo uso para confirmar que el teléfono es el suyo.
+Antes de acudir a la oficina de correos, necesitamos [verificar su información personal](/es/help/verify-your-identity/issues-verifying-my-personal-information/) y la información de su identificación. Luego [verificamos su número de teléfono](/es/help/verify-your-identity/phone-number/) y le enviamos un código de un solo uso para confirmar que el teléfono sea el suyo.
 
 Una vez que haya verificado su información en línea, le enviaremos por correo electrónico un código de barras y una fecha límite para ir a la oficina de correos.
 

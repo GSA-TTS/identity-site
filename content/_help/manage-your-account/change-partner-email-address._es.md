@@ -22,7 +22,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
       aria-expanded="false"
       aria-controls="b-a1"
     >
-      ¿Cómo controlo cuál correo electrónico se proporciona al iniciar sesión en una agencia nueva?
+      ¿Cómo controlo cuál correo electrónico se proporciona al iniciar sesión en una agencia asociada nueva?
     </button>
   </h1>
   <div id="b-a1" class="usa-accordion__content usa-prose">
@@ -103,7 +103,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
     <p>En la página “Sus cuentas conectadas”, puede ver todas las direcciones de correo electrónico que ha proporcionado a cada agencia asociada con la que está conectado.</p>
 
     <ol class="number-list">
-      <li>Ingrese su dirección de correo electrónico en <a href="https://secure.login.gov/es/">https://secure.login.gov/es/</a>.</li>
+      <li>Ingrese su dirección de correo electrónico en <a href="https://secure.login.gov/es/" class="usa-link">https://secure.login.gov/es/</a>.</li>
       <li>Ingrese su contraseña.</li>
       <li>Haga clic en el botón “Iniciar sesión”.</li>
       <li>Use uno de los métodos que configuró para autenticarse. Aparecerá la página de su cuenta.</li>

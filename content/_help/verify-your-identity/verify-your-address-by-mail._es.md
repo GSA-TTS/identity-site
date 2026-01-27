@@ -16,7 +16,7 @@ Algunas agencias permiten verificar la dirección por correo postal en lugar de 
 
 1. Confirme que desea solicitar una carta a la dirección que verificó antes.
 
-1. Vuelva a ingresar su contraseña para guardar la información que ha verificado hasta ahora y enviar su carta.
+1. Vuelva a ingresar su contraseña para guardar la información que ha verificado hasta ahora y que se le envíe su carta.
 
 1. Cuando vea una pantalla que indica que su carta está en camino, puede cerrar la sesión de Login.gov por ahora, y esperar a que llegue su carta.
 
