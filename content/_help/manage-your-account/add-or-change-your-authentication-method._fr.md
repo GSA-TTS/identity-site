@@ -69,6 +69,30 @@ Si vous avez perdu votre méthode d’authentification et n’avez pas de second
   </div>
 </div>
 
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h2 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="b-a3"
+    >
+      Que dois-je faire si j'ai perdu mon téléphone, ma carte PIV/CAC ou ma clé de sécurité ?
+    </button>
+  </h2>
+  <div id="b-a3" class="usa-accordion__content usa-prose">
+    <p>Pour garantir la sécurité de votre compte, supprimez immédiatement toutes les méthodes d'authentification que vous avez perdues.</p>
+    <p>Voici comment supprimer une méthode d'authentification de votre compte:</p>
+    <ol class="number-list">
+      <li>Connectez-vous et authentifiez-vous avec votre compte Login.gov sur <a href="https://secure.login.gov/fr" class="usa-link">https://secure.login.gov</a>.</li>
+      <li>Faites défiler vers le bas et cliquez sur le bouton « Gérer » situé à côté de la méthode d’authentification que vous souhaitez supprimer de votre compte.</li>
+      <li>Cliquez sur le bouton « Supprimer » situé sous la méthode d’authentification que vous souhaitez supprimer.</li>
+    </ol>
+    <p>Si vous avez perdu tous vos moyens d'authentification, vous devrez peut-être <a href="https://www.login.gov/fr/help/manage-your-account/delete-your-account/" class="usa-link">supprimer votre compte.</a></p>
+    <p>Veillez à toujours conserver au moins deux méthodes d'authentification à jour sur votre compte. Ainsi, même si vous en perdez une, vous pourrez toujours accéder à votre compte.</p>
+  </div>
+</div>
+
 
 ## Articles connexes
 
