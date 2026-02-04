@@ -86,11 +86,11 @@ If you lost your authentication method and do not have a backup connected to you
     <p>To keep your account safe, immediately remove any authentication methods that you've lost from your account.</p>
     <p>Here’s how to remove an authentication method from your account:</p>
     <ol class="number-list">
-      <li>Sign in and authenticate with your Login.gov account at <a href="https://secure.login.gov/zh" class="usa-link">https://secure.login.gov</a>.</li>
+      <li>Sign in and authenticate with your Login.gov account at <a href="https://secure.login.gov/" class="usa-link">https://secure.login.gov</a>.</li>
       <li>Scroll down and click the “Manage” button next to the authentication method you want to remove from your account.</li>
       <li>Click the “Delete” button under the authentication method you want to remove.</li>
     </ol>
-    <p>If you have lost all of your authentication methods in your possession, you may have to <a href="https://www.login.gov/es/help/manage-your-account/delete-your-account/" class="usa-link">delete your account.</a></p>
+    <p>If you have lost all of your authentication methods in your possession, you may have to <a href="https://www.login.gov/help/manage-your-account/delete-your-account/" class="usa-link">delete your account.</a></p>
     <p>Make sure that you always keep at least two up-to-date authentication methods on your account, so that even if you lose one, you can still access your account.</p>
   </div>
 </div>
