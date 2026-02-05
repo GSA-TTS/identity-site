@@ -70,6 +70,30 @@ order: 5
   </div>
 </div>
 
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h2 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="b-a3"
+    >
+      如果我丢失了手机、PIV/CAC 卡或安全密钥，该怎么办？
+    </button>
+  </h2>
+  <div id="b-a3" class="usa-accordion__content usa-prose">
+    <p>为了保护您的账户安全，请立即从您的账户中移除所有已丢失的身份验证方式。</p>
+    <p>以下是如何从您的帐户中删除身份验证方法：</p>
+    <ol class="number-list">
+      <li> 访问 <a href="https://secure.login.gov/zh" class="usa-link">https://secure.login.gov</a>，使用您的 Login.gov 帐户登录并进行身份验证。</li>
+      <li>向下滚动页面，点击您想要从帐户中移除的身份验证方法旁边的“管理”按钮。</li>
+      <li>点击您想要删除的身份验证方法下方的“删除”按钮。</li>
+    </ol>
+    <p>如果您丢失了所有身份验证方式，您可能需要<a href="https://www.login.gov/zh/help/manage-your-account/delete-your-account/" class="usa-link">删除您的帐户。</a></p>
+    <p>请确保您的账户始终至少保留两种最新的身份验证方法，这样即使您丢失其中一种方法，仍然可以访问您的账户。</p>
+  </div>
+</div>
+
 
 ## 相关文章
 

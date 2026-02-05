@@ -69,6 +69,30 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
   </div>
 </div>
 
+<div class="usa-accordion usa-accordion--bordered margin-y-4">
+  <h2 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="b-a3"
+    >
+      ¿Qué debo hacer si he perdido mi teléfono, mi tarjeta PIV/CAC o mi clave de seguridad?
+    </button>
+  </h2>
+  <div id="b-a3" class="usa-accordion__content usa-prose">
+    <p>Para mantener su cuenta segura, elimine de inmediato cualquier método de autenticación que haya perdido de su cuenta.</p>
+    <p>A continuación le indicamos cómo eliminar un método de autenticación de su cuenta:</p>
+    <ol class="number-list">
+      <li>Inicie sesión y autentíquese con su cuenta de Login.gov en <a href="https://secure.login.gov/es" class="usa-link">https://secure.login.gov</a>.</li>
+      <li>Desplácese hacia abajo y haga clic en el botón "Administrar" junto al método de autenticación que desea eliminar de su cuenta.</li>
+      <li>Haga clic en el botón "Eliminar" debajo del método de autenticación que desea eliminar.</li>
+    </ol>
+    <p>Si ha perdido todos sus métodos de autenticación, es posible que tenga que <a href="https://www.login.gov/es/help/manage-your-account/delete-your-account/" class="usa-link">eliminar su cuenta.</a></p>
+    <p>Asegúrese de mantener siempre al menos dos métodos de autenticación actualizados en su cuenta, para que, incluso si pierde uno, pueda seguir accediendo a su cuenta.</p>
+  </div>
+</div>
+
 
 ## Otros artículos
 
