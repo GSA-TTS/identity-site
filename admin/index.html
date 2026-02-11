@@ -12,11 +12,17 @@ layout: null
 
   <body>
     <!-- Include the script that builds the page and powers Decap CMS -->
-    <script src="{{ '/assets/js/cms.js' | relative_url }}"></script>
+    <script src="https://unpkg.com/decap-cms@3.6.0/dist/decap-cms.js" defer></script>
+    <!-- Load site-specific CMS setup (depends on global CMS) -->
+    <script src="{{ '/assets/js/cms.js' | relative_url }}" defer></script>
     <script>
       window.onload = function() {
+        if (!window.CMS) {
+          console.error('Decap CMS failed to load: window.CMS is undefined');
+          return;
+        }
         {% for style in site.styles %}
-          CMS.registerPreviewStyle("{{ style | relative_url }}");
+          window.CMS.registerPreviewStyle("{{ style | relative_url }}");
         {% endfor %}
       };
     </script>

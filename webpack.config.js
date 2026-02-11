@@ -34,5 +34,8 @@ export default /** @type {import('webpack').Configuration} */ ({
       },
     ],
   },
+  externals: {
+    'decap-cms': 'CMS',
+  },
   devtool: 'source-map',
 });
