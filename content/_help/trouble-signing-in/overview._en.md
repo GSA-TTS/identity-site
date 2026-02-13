@@ -49,4 +49,4 @@ Depending on the authentication methods you’ve set up, you may still be able t
 
 * [Issues with email and password](/help/trouble-signing-in/forgot-your-password/)
 * [I’m having trouble authenticating](/help/trouble-signing-in/issues-with-authentication-methods/)
-* [Issue with Face and Touch unlock](/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Issues with face or touch unlock](/help/trouble-signing-in/authentication/face-or-touch-unlock/)

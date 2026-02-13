@@ -46,4 +46,4 @@ En fonction des méthodes d’authentification que vous avez configurées, vous 
 
 * [Problèmes liés à l’adresse e-mail et au mot de passe](/fr/help/trouble-signing-in/forgot-your-password/)
 * [Je n’arrive pas à m’authentifier](/fr/help/trouble-signing-in/issues-with-authentication-methods/)
-* [Problèmes avec le déverrouillage facial et tactile](/fr/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Problèmes avec le déverrouillage facial ou tactile](/fr/help/trouble-signing-in/authentication/face-or-touch-unlock/)

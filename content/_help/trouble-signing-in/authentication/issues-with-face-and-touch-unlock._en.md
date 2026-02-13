@@ -4,7 +4,7 @@ title: Issues with Face and touch unlock
 category: trouble-signing-in
 child: true
 order: 1
-permalink: /help/trouble-signing-in/authentication/face-and-touch-unlock/
+permalink: /help/trouble-signing-in/authentication/face-or-touch-unlock/
 redirect_from:
   - /help/trouble-signing-in/face-or-touch-unlock/
 ---

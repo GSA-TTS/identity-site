@@ -5,7 +5,7 @@ category: trouble-signing-in
 children:
   - /zh/help/trouble-signing-in/authentication/issues-with-authentication-application/
   - /zh/help/trouble-signing-in/authentication/issues-with-backup-codes/
-  - /zh/help/trouble-signing-in/authentication/face-and-touch-unlock/
+  - /zh/help/trouble-signing-in/authentication/face-or-touch-unlock/
   - /zh/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/
   - /zh/help/trouble-signing-in/authentication/issues-with-security-key/
   - /zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/
@@ -22,7 +22,7 @@ order: 3
 
 {: .help-question-list}
 
-* [人脸或触摸解锁问题](/zh/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [人脸或触摸解锁问题](/zh/help/trouble-signing-in/authentication/face-or-touch-unlock/)
 
 * [短信/SMS 或者接听电话问题](/zh/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
 

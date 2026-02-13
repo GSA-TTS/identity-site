@@ -4,7 +4,7 @@ category: trouble-signing-in
 children:
   - /fr/help/trouble-signing-in/authentication/issues-with-authentication-application/
   - /fr/help/trouble-signing-in/authentication/issues-with-backup-codes/
-  - /fr/help/trouble-signing-in/authentication/face-and-touch-unlock/
+  - /fr/help/trouble-signing-in/authentication/face-or-touch-unlock/
   - /fr/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/
   - /fr/help/trouble-signing-in/authentication/issues-with-security-key/
   - /fr/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/
@@ -38,7 +38,7 @@ Si vous ne parvenez pas à vous connecter avec la seule méthode d’authentific
 
 {: .help-question-list}
 
-* [Problèmes avec le déverrouillage facial et tactile](/fr/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Problèmes avec le déverrouillage facial et tactile](/fr/help/trouble-signing-in/authentication/face-or-touch-unlock/)
 
 * [Problème liés aux SMS ou aux appels téléphoniques](/fr/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
 

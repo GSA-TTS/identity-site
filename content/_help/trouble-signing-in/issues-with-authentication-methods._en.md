@@ -5,7 +5,7 @@ category: trouble-signing-in
 children:
   - /help/trouble-signing-in/authentication/issues-with-authentication-application/
   - /help/trouble-signing-in/authentication/issues-with-backup-codes/
-  - /help/trouble-signing-in/authentication/face-and-touch-unlock/
+  - /help/trouble-signing-in/authentication/face-or-touch-unlock/
   - /help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/
   - /help/trouble-signing-in/authentication/issues-with-security-key/
   - /help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/
@@ -39,7 +39,7 @@ If you cannot sign in with your only authentication method, you will have to del
 
 {: .help-question-list}
 
-* [Issues with Face or touch unlock](/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Issues with Face or touch unlock](/help/trouble-signing-in/authentication/face-or-touch-unlock/)
 
 * [Issues with text/SMS or phone call](/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
 
