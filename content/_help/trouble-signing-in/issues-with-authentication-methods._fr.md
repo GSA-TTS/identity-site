@@ -6,7 +6,7 @@ children:
   - /fr/help/trouble-signing-in/authentication/issues-with-backup-codes/
   - /fr/help/trouble-signing-in/authentication/face-or-touch-unlock/
   - /fr/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/
-  - /fr/help/trouble-signing-in/authentication/issues-with-security-key/
+  - /fr/help/trouble-signing-in/authentication/issues-with-security-keys/
   - /fr/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/
 permalink: /fr/help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
@@ -46,7 +46,7 @@ Si vous ne parvenez pas à vous connecter avec la seule méthode d’authentific
 
 * [Problèmes avec les codes de sauvegarde](/fr/help/trouble-signing-in/authentication/issues-with-backup-codes/)
 
-* [Problèmes avec une clé de sécurité](/fr/help/trouble-signing-in/authentication/issues-with-security-key/)
+* [Problèmes avec une clé de sécurité](/fr/help/trouble-signing-in/authentication/issues-with-security-keys/)
 
 * [Problèmes liés à la carte d'employé fédéral](/fr/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 

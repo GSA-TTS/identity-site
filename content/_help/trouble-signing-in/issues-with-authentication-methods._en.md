@@ -7,7 +7,7 @@ children:
   - /help/trouble-signing-in/authentication/issues-with-backup-codes/
   - /help/trouble-signing-in/authentication/face-or-touch-unlock/
   - /help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/
-  - /help/trouble-signing-in/authentication/issues-with-security-key/
+  - /help/trouble-signing-in/authentication/issues-with-security-keys/
   - /help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/
 permalink: /help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
@@ -47,7 +47,7 @@ If you cannot sign in with your only authentication method, you will have to del
 
 * [Issues with Backup codes](/help/trouble-signing-in/authentication/issues-with-backup-codes/)
 
-* [Issues with security key](/help/trouble-signing-in/authentication/issues-with-security-key/)
+* [Issues with security key](/help/trouble-signing-in/authentication/issues-with-security-keys/)
 
 * [Issues with government employee ID](/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 

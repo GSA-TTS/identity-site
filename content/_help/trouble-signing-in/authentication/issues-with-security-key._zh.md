@@ -4,7 +4,7 @@ title: 安全密钥问题
 category: trouble-signing-in
 child: true
 order: 5
-permalink: /zh/help/trouble-signing-in/authentication/issues-with-security-key/
+permalink: /zh/help/trouble-signing-in/authentication/issues-with-security-keys/
 ---
 
 ## 我的安全密钥丢失或被盗

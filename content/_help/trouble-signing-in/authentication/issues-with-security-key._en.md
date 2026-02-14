@@ -1,10 +1,10 @@
 ---
 layout: help
-title: Issues with security key
+title: Issues with security keys
 category: trouble-signing-in
 child: true
 order: 5
-permalink: /help/trouble-signing-in/authentication/issues-with-security-key/
+permalink: /help/trouble-signing-in/authentication/issues-with-security-keys/
 ---
 
 ## My security key was lost or stolen
