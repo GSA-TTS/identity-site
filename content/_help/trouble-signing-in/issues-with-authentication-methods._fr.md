@@ -46,7 +46,7 @@ Si vous ne parvenez pas à vous connecter avec la seule méthode d’authentific
 
 * [Problèmes avec les codes de sauvegarde](/fr/help/trouble-signing-in/authentication/issues-with-backup-codes/)
 
-* [Problèmes avec une clé de sécurité](/fr/help/trouble-signing-in/authentication/issues-with-security-keys/)
+* [Problèmes avec les clés de sécurité](/fr/help/trouble-signing-in/authentication/issues-with-security-keys/)
 
 * [Problèmes liés à la carte d'employé fédéral](/fr/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 

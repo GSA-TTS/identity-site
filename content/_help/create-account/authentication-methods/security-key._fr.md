@@ -28,6 +28,6 @@ Comme Login.gov ne fournit pas aux utilisateurs de clé de sécurité, vous deve
 
 ## Articles connexes
 
-* [Problèmes avec une clé de sécurité](/fr/help/trouble-signing-in/authentication/issues-with-security-keys/)
+* [Problèmes avec les clés de sécurité](/fr/help/trouble-signing-in/authentication/issues-with-security-keys/)
 * [Méthodes d’authentification](/fr/help/create-account/authentication-methods/)
 * [Problèmes liés à la création d'un compte](/fr/help/create-account/issues-creating-an-account/)

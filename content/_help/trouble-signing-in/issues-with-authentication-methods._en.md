@@ -45,7 +45,7 @@ If you cannot sign in with your only authentication method, you will have to del
 
 * [Issues with Authentication application](/help/trouble-signing-in/authentication/issues-with-authentication-application/)
 
-* [Issues with Backup codes](/help/trouble-signing-in/authentication/issues-with-backup-codes/)
+* [Issues with backup codes](/help/trouble-signing-in/authentication/issues-with-backup-codes/)
 
 * [Issues with security key](/help/trouble-signing-in/authentication/issues-with-security-keys/)
 
