@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Issues with Face and touch unlock
+title: Issues with face or touch unlock
 category: trouble-signing-in
 child: true
 order: 1
