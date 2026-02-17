@@ -46,4 +46,4 @@ Según los métodos de autenticación que haya configurado, es posible que todav
 
 * [Problemas con el correo electrónico y la contraseña](/es/help/trouble-signing-in/forgot-your-password/)
 * [Tengo problemas para autenticarme](/es/help/trouble-signing-in/issues-with-authentication-methods/)
-* [Problema con el desbloqueo facial y táctil](/es/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Problemas con el desbloqueo facial o táctil](/es/help/trouble-signing-in/authentication/face-or-touch-unlock/)

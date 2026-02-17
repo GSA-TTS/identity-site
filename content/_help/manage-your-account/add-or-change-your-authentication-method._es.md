@@ -97,4 +97,4 @@ Si perdió su método de autenticación y no tiene una copia de seguridad conect
 ## Otros artículos
 
 * [Métodos de autenticación](/es/help/create-account/authentication-methods/)
-* [Problemas con el desbloqueo facial y táctil](/es/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Problemas con el desbloqueo facial y táctil](/es/help/trouble-signing-in/authentication/face-or-touch-unlock/)

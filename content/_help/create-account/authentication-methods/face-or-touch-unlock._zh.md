@@ -102,6 +102,6 @@ order: 1
 
 ## 相关文章
 
-* [人脸或触摸解锁问题](/zh/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [人脸或触摸解锁问题](/zh/help/trouble-signing-in/authentication/face-or-touch-unlock/)
 * [身份证实方法](/zh/help/create-account/authentication-methods/)
 * [设立账户问题](/zh/help/create-account/issues-creating-an-account/)

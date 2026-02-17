@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Problemas con la aplicación de autenticación
+title: Problemas con las aplicaciones de autenticación
 category: trouble-signing-in
 child: true
 order: 3

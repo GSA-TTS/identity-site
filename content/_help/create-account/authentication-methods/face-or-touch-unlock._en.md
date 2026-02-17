@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Face or touch unlock
+title: Issues with face or touch unlock
 category: create-account
 permalink: /help/create-account/authentication-methods/face-or-touch-unlock/
 child: true
@@ -11,7 +11,7 @@ Face or touch unlock lets you sign in by using a scan of your face or fingerprin
 
 When you choose to set up face or touch unlock, you’ll start by setting up a face- or fingerprint-based credential. This credential will be saved to your device, or to the cloud if you’re using a compatible browser and device.
 
-## How to set up face and touch unlock
+## How to set up face or touch unlock
 
 To set up Face or Touch Unlock when creating a Login.gov account:
 
@@ -101,6 +101,6 @@ After setting a device nickname, please follow the appropriate steps below, depe
 
 ## Related articles
 
-* [Issues with Face and touch unlock](/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Issues with face or touch unlock](/help/trouble-signing-in/authentication/face-or-touch-unlock/)
 * [Authentication methods](/help/create-account/authentication-methods/)
 * [Issues creating an account](/help/create-account/issues-creating-an-account/)

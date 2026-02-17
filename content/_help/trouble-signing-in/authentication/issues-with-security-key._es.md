@@ -1,10 +1,12 @@
 ---
 layout: help
-title: Problemas con la clave de seguridad
+title: Problemas con las claves de seguridad
 category: trouble-signing-in
 child: true
 order: 5
-permalink: /es/help/trouble-signing-in/authentication/issues-with-security-key/
+permalink: /es/help/trouble-signing-in/authentication/issues-with-security-keys/
+redirect_from:
+    - /es/help/trouble-signing-in/authentication/issues-with-security-key/
 ---
 
 ## Perdí o me robaron la clave de seguridad

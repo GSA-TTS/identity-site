@@ -49,6 +49,6 @@ Physical PIV (personal identity verification) cards or CACs (common access cards
 
 ## Related articles
 
-* [Issues with Government employee ID](/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
+* [Issues with government employee ID](/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 * [Authentication methods](/help/create-account/authentication-methods/)
 * [Issues creating an account](/help/create-account/issues-creating-an-account/)

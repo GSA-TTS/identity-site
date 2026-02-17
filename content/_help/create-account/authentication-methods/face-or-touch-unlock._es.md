@@ -101,6 +101,6 @@ Después de configurar el alias del dispositivo, siga los pasos que se indican a
 
 ## Otros artículos
 
-* [Problemas con el desbloqueo facial y táctil](/es/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Problemas con el desbloqueo facial o táctil](/es/help/trouble-signing-in/authentication/face-or-touch-unlock/)
 * [Métodos de autenticación](/es/help/create-account/authentication-methods/)
 * [Problemas al crear una cuenta](/es/help/create-account/issues-creating-an-account/)

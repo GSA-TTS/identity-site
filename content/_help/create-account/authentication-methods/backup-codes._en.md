@@ -18,6 +18,6 @@ When the tenth code has been used you will be prompted to download a new list. T
 
 ## Related articles
 
-* [Issues with Backup codes](/help/trouble-signing-in/authentication/issues-with-backup-codes/)
+* [Issues with backup codes](/help/trouble-signing-in/authentication/issues-with-backup-codes/)
 * [Authentication methods](/help/create-account/authentication-methods/)
 * [Issues creating an account](/help/create-account/issues-creating-an-account/)

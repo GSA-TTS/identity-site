@@ -4,9 +4,9 @@ category: trouble-signing-in
 children:
   - /es/help/trouble-signing-in/authentication/issues-with-authentication-application/
   - /es/help/trouble-signing-in/authentication/issues-with-backup-codes/
-  - /es/help/trouble-signing-in/authentication/face-and-touch-unlock/
+  - /es/help/trouble-signing-in/authentication/face-or-touch-unlock/
   - /es/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/
-  - /es/help/trouble-signing-in/authentication/issues-with-security-key/
+  - /es/help/trouble-signing-in/authentication/issues-with-security-keys/
   - /es/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/
 permalink: /es/help/trouble-signing-in/issues-with-authentication-methods/
 order: 3
@@ -38,7 +38,7 @@ Si no puede iniciar sesión con sus métodos de autenticación, tendrá que borr
 
 {: .help-question-list}
 
-* [Problemas con el desbloqueo facial y táctil](/es/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Problemas con el desbloqueo facial y táctil](/es/help/trouble-signing-in/authentication/face-or-touch-unlock/)
 
 * [Problemas con mensajes de texto (SMS) o llamadas telefónicas](/es/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
 
@@ -46,7 +46,7 @@ Si no puede iniciar sesión con sus métodos de autenticación, tendrá que borr
 
 * [Problemas con los códigos de recuperación](/es/help/trouble-signing-in/authentication/issues-with-backup-codes/)
 
-* [Problemas con la clave de seguridad](/es/help/trouble-signing-in/authentication/issues-with-security-key/)
+* [Problemas con la clave de seguridad](/es/help/trouble-signing-in/authentication/issues-with-security-keys/)
 
 * [Problemas con la identificación de empleado del gobierno](/es/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 

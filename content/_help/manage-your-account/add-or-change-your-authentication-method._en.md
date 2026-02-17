@@ -99,4 +99,4 @@ If you lost your authentication method and do not have a backup connected to you
 ## Related articles
 
 * [Authentication methods](/help/create-account/authentication-methods/)
-* [Issues with face and touch unlock](/help/trouble-signing-in/authentication/face-and-touch-unlock/)
+* [Issues with face or touch unlock](/help/trouble-signing-in/authentication/face-or-touch-unlock/)
