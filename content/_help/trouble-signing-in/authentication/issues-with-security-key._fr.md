@@ -5,6 +5,8 @@ category: trouble-signing-in
 child: true
 order: 5
 permalink: /fr/help/trouble-signing-in/authentication/issues-with-security-keys/
+redirect_from:
+    - /fr/help/trouble-signing-in/authentication/issues-with-security-key/
 ---
 
 ## J’ai perdu ma clé de sécurité ou elle a été volée

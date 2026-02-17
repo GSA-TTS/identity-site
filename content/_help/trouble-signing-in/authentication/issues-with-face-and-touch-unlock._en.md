@@ -7,6 +7,7 @@ order: 1
 permalink: /help/trouble-signing-in/authentication/face-or-touch-unlock/
 redirect_from:
   - /help/trouble-signing-in/face-or-touch-unlock/
+  - /help/trouble-signing-in/authentication/face-or-touch-unlock/
 ---
 
 ## Commonly asked questions for face or touch unlock

@@ -7,6 +7,7 @@ order: 1
 permalink: /zh/help/trouble-signing-in/authentication/face-or-touch-unlock/
 redirect_from:
   - /zh/help/trouble-signing-in/face-or-touch-unlock/
+  - /zh/help/trouble-signing-in/authentication/face-and-touch-unlock/
 ---
 
 ## 人脸或触摸解锁常见问题

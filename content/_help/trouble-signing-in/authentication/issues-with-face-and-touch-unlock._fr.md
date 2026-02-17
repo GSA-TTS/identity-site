@@ -7,6 +7,7 @@ order: 1
 permalink: /fr/help/trouble-signing-in/authentication/face-or-touch-unlock/
 redirect_from:
   - /fr/help/trouble-signing-in/face-or-touch-unlock/
+  - /fr/help/trouble-signing-in/authentication/face-and-touch-unlock/
 ---
 
 ## Questions fréquemment posées sur le déverrouillage facial ou tactile
