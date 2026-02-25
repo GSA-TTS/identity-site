@@ -8,4 +8,10 @@ set -euo pipefail
 # so this script gets the path to the .jar
 vnu_jar_path=$(node -e 'console.log(require("vnu-jar"))')
 
+if [[ ! -f "$vnu_jar_path" ]]; then
+	echo "vnu.jar missing, downloading via vnu-jar..." >&2
+	node node_modules/vnu-jar/vnu-java-downloader.js
+	vnu_jar_path=$(node -e 'console.log(require("vnu-jar"))')
+fi
+
 exec java -jar "$vnu_jar_path" "$@"
