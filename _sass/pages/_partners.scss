@@ -2,10 +2,10 @@
 @use '../colors' as *;
 
 .login-developers-links {
-  & span {
+  span {
     padding-bottom: 0;
   }
-  & .links-separator {
+  .links-separator {
     color: $blue;
     margin: 0 0.5rem;
   }
@@ -18,7 +18,7 @@
 .partners-actions {
   display: block;
   @include at-media('card') {
-    & a {
+    a {
       width: 100%;
       &:first-child {
         margin-bottom: 0.5rem;
@@ -29,7 +29,7 @@
     position: absolute;
     bottom: 1rem;
     right: 0;
-    & a {
+    a {
       width: auto;
       &:first-child {
         margin-bottom: 0;

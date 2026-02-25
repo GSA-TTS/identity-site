@@ -1,11 +1,12 @@
 {
-  "extends": "@18f/identity-stylelint-config",
+  "customSyntax": "postcss-scss",
+  "plugins": ["stylelint-scss"],
+  "ignoreFiles": "**/fixtures/**/*",
   "rules": {
-    "selector-class-pattern": [
-      "^(tablet:)?[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
-      {
-        "message": "Class selectors should be named using \"Two Dashes Style\" BEM format. See: https://en.bem.info/methodology/naming-convention/#two-dashes-style"
-      }
-    ]
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "scss/dollar-variable-pattern": "^[a-z0-9-]+$",
+    "scss/percent-placeholder-pattern": "^[a-z0-9-]+$",
+    "scss/selector-no-redundant-nesting-selector": true
   }
 }
