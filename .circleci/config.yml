@@ -1,5 +1,10 @@
 version: 2.1
 
+parameters:
+  run_debug:
+    type: boolean
+    default: false
+
 orbs:
   slack: circleci/slack@3.4.2
   node: circleci/node@6.3.0
@@ -159,6 +164,67 @@ jobs:
           failure_message: ':login-gov::red_circle: external link check failed'
           only_for_branches: 'main' # don't notify Slack on a branch build
 
+  debug-pipeline:
+    docker:
+      - image: cimg/ruby:3.1-node
+    steps:
+      - checkout
+      - install-dependencies
+      - run:
+          name: Run staged debug checks (streamed output)
+          command: |
+            set -u
+
+            echo "=== Date ==="
+            date -u
+            echo "=== OS ==="
+            uname -a
+            echo "=== Versions ==="
+            node -v
+            npm -v
+            ruby -v
+            bundle -v
+            bundle exec jekyll -v
+            echo "=== git status (initial) ==="
+            git status --porcelain=v1
+
+            failures=0
+            failed_stages=""
+
+            run_stage() {
+              local name="$1"
+              shift
+              echo "=== Running stage: ${name} ==="
+              if "$@"; then
+                echo "=== Stage succeeded: ${name} ==="
+              else
+                echo "=== Stage failed: ${name} ==="
+                failed_stages="${failed_stages}${name}\n"
+                failures=$((failures + 1))
+              fi
+            }
+
+            run_stage "01-validate-lockfiles" make validate-lockfiles
+            run_stage "02-build-js" npm run build:js
+            run_stage "03-build-css" npm run build:css
+            run_stage "04-build-jekyll" bundle exec jekyll build --trace --verbose --config _config.yml
+            run_stage "05-lint-js" make lint-js
+            run_stage "06-lint-css" make lint-css
+            run_stage "07-typecheck-js" make typecheck-js
+            run_stage "08-tests" env SKIP_BUILD=1 npm test
+
+            echo "=== git status (final) ==="
+            git status --porcelain=v1
+
+            if [ "$failures" -gt 0 ]; then
+              echo "Detected ${failures} failing stage(s):"
+              printf "%b" "$failed_stages"
+              exit 1
+            fi
+      - store_artifacts:
+          path: _site
+          destination: ci-debug-site
+
 workflows:
   version: 2
   release:
@@ -195,3 +261,7 @@ workflows:
             branches:
               only:
                 - main
+  debug:
+    when: << pipeline.parameters.run_debug >>
+    jobs:
+      - debug-pipeline
