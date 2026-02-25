@@ -13,6 +13,17 @@ orbs:
 commands:
   install-dependencies:
     steps:
+      - run:
+          name: Check preinstalled Node versions
+          command: |
+            set -eu
+            which node || true
+            command -v node && node -v || true
+            npm config get cache || true
+            echo "NVM_DIR=${NVM_DIR:-<unset>}"
+            command -v nvm >/dev/null && nvm ls || true
+            ls -1 "${NVM_DIR:-$HOME/.nvm}/versions/node" 2>/dev/null || true
+            ls -1 /opt/circleci/.nvm/versions/node 2>/dev/null || true
       - node/install
       - node/install-packages
       - ruby/install-deps
