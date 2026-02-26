@@ -9,7 +9,9 @@ commands:
   install-dependencies:
     steps:
       - node/install
-      - node/install-packages
+      - run:
+          name: Install Node dependencies (including dev)
+          command: npm install --include=dev --include=optional
       - ruby/install-deps
   build-site:
     steps:
