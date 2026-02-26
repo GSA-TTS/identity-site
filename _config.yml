@@ -151,7 +151,6 @@ exclude:
   - OLD_URLS.yml
   - package-lock.json
   - package.json
-  - pages.json
   - README.md
   - scripts
   - spec
