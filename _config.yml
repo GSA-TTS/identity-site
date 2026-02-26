@@ -84,6 +84,7 @@ styles:
   - /assets/css/main.css
 
 # Build settings
+future: true
 kramdown:
   hard_wrap: true
 
