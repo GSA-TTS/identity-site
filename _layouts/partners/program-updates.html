@@ -24,7 +24,8 @@ layout: base
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-8">
           <ul class="usa-collection partners-collection">
-            {% assign sorted_updates = site.program_updates | sort: 'date' | reverse %}
+            {% assign visible_updates = site.program_updates | where_exp: "u", "u.date <= site.time" %}
+            {% assign sorted_updates = visible_updates | sort: 'date' | reverse %}
             {% for program_update in sorted_updates %}
               <li class="usa-collection__item partners-collection__item">
                 <div class="usa-collection__body">
