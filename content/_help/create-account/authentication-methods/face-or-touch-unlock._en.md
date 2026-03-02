@@ -13,7 +13,7 @@ When you choose to set up face or touch unlock, you’ll start by setting up a f
 
 ## How to set up face or touch unlock
 
-To set up Face or Touch Unlock when creating a Login.gov account:
+To set up face or touch Unlock when creating a Login.gov account:
 
 {: .number-list}
 
@@ -25,11 +25,11 @@ To set up Face or Touch Unlock when creating a Login.gov account:
 
 4. Create password. It must be at least 12 characters long.
 
-5. On the “Secure your account” page, select Face or Touch Unlock.
+5. On the “Secure your account” page, select face or touch Unlock.
 
    If you try to set up face or touch unlock as your only MFA method, you will see an alert advising you to set up a second method immediately after setting up face or touch unlock. This is to help prevent you from failing face or touch unlock in the future and forcing an account deletion, especially if your device does not have cloud sync capability.
 
-6. Choose a device nickname for Face or Touch Unlock.
+6. Choose a device nickname for face or touch Unlock.
 
 Face or touch unlock has different experiences for mobile and desktop.
 
