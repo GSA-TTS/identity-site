@@ -14,13 +14,13 @@ Please do not send Login.gov sensitive data about yourself or your Medicare appl
 
 Login.gov can only answer questions about:
 
-* [Creating a Login.gov account](https://login.gov/help/create-account/overview/)
-* [Trouble signing into Medicare using Login.gov](https://login.gov/help/trouble-signing-in/overview/)
-* [Managing your Login.gov account](https://login.gov/help/manage-your-account/overview/)
-* [Verifying your identity](https://login.gov/help/verify-your-identity/overview/)
+* [Creating a Login.gov account](/help/create-account/overview/)
+* [Trouble signing into Medicare using Login.gov](/help/trouble-signing-in/overview/)
+* [Managing your Login.gov account](/help/manage-your-account/overview/)
+* [Verifying your identity](/help/verify-your-identity/overview/)
 
 
-Contact Login.gov at [https://login.gov/contact/](https://login.gov/contact/). You can call the Login.gov Contact Center or submit a help desk ticket 24 hours a day, 7 days a week, including federal holidays.
+Contact Login.gov at [https://login.gov/contact/](/contact/). You can call the Login.gov Contact Center or submit a help desk ticket 24 hours a day, 7 days a week, including federal holidays.
 
 Contact [Medicare.gov](https://Medicare.gov) if you need help with:
 

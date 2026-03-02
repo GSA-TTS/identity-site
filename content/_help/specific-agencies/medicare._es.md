@@ -12,13 +12,13 @@ No envíe a Login.gov información confidencial sobre usted o su solicitud de Me
 
 Login.gov solo puede responder preguntas sobre:
 
-* [Crear una cuenta de Login.gov](https://login.gov/es/help/create-account/overview/)
-* [Problemas iniciando su sesión en Medicare.gov através de Login.gov](https://login.gov/es/help/trouble-signing-in/overview/)
-* [Administrar su cuenta de Login.gov](https://login.gov/es/help/manage-your-account/overview/)
-* [Verificar su identidad](https://login.gov/es/help/verify-your-identity/overview/)
+* [Crear una cuenta de Login.gov](/es/help/create-account/overview/)
+* [Problemas iniciando su sesión en Medicare.gov através de Login.gov](/es/help/trouble-signing-in/overview/)
+* [Administrar su cuenta de Login.gov](/es/help/manage-your-account/overview/)
+* [Verificar su identidad](/es/help/verify-your-identity/overview/)
 
 
-Comuníquese con Login.gov en [https://login.gov/contact/](https://login.gov/es/contact/). Puede llamar al Centro de Contacto de Login.gov o enviar un ticket al servicio de asistencia las 24 horas del día, los 7 días de la semana, incluidos los días festivos federales.
+Comuníquese con Login.gov en [https://login.gov/contact/](/es/contact/). Puede llamar al Centro de Contacto de Login.gov o enviar un ticket al servicio de asistencia las 24 horas del día, los 7 días de la semana, incluidos los días festivos federales.
 
 Comuníquese con [Medicare.gov](https://Medicare.gov) si necesita ayuda con:
 

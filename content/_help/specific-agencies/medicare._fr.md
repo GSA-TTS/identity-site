@@ -12,13 +12,13 @@ Veuillez ne pas envoyer de données sensibles vous concernant ou concernant votr
 
 Login.gov peut uniquement répondre aux questions concernant :
 
-* [La création d'un compte Login.gov](https://login.gov/fr/help/create-account/overview/)
-* [Les problèmes de connexion à Medicare via Login.gov](https://login.gov/fr/help/trouble-signing-in/overview/)
-* [La gestion de votre compte Login.gov](https://login.gov/fr/help/manage-your-account/overview/)
-* [La vérification de votre identité](https://login.gov/fr/help/verify-your-identity/overview/)
+* [La création d'un compte Login.gov](/fr/help/create-account/overview/)
+* [Les problèmes de connexion à Medicare via Login.gov](/fr/help/trouble-signing-in/overview/)
+* [La gestion de votre compte Login.gov](/fr/help/manage-your-account/overview/)
+* [La vérification de votre identité](/fr/help/verify-your-identity/overview/)
 
 
-Contactez Login.gov à l'adresse [https://login.gov/contact/](https://login.gov/fr/contact/). Vous pouvez appeler le centre de contact Login.gov ou soumettre une demande d'assistance 24 h/24 et 7 j/7, y compris les jours fériés fédéraux.
+Contactez Login.gov à l'adresse [https://login.gov/contact/](/fr/contact/). Vous pouvez appeler le centre de contact Login.gov ou soumettre une demande d'assistance 24 h/24 et 7 j/7, y compris les jours fériés fédéraux.
 
 Contactez [Medicare.gov](https://Medicare.gov) si vous avez besoin d'aide concernant :
 
