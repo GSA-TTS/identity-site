@@ -3,7 +3,7 @@ layout: help
 title: Administración del Seguro Social (SSA)
 category: specific-agencies
 permalink: /es/help/specific-agencies/ssa/
-order: 3
+order: 4
 ---
 
 Login.gov es sólo para acceder de forma segura. Su cuenta de Login.gov no afecta su tarjeta, número o beneficios del Seguro Social ni tiene información alguna al respecto.
