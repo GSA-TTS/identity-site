@@ -46,7 +46,7 @@ Si no puede iniciar sesión con sus métodos de autenticación, tendrá que borr
 
 * [Problemas con los códigos de recuperación](/es/help/trouble-signing-in/authentication/issues-with-backup-codes/)
 
-* [Problemas con la clave de seguridad](/es/help/trouble-signing-in/authentication/issues-with-security-keys/)
+* [Problemas con las claves de seguridad](/es/help/trouble-signing-in/authentication/issues-with-security-keys/)
 
 * [Problemas con la identificación de empleado del gobierno](/es/help/trouble-signing-in/authentication/issues-with-government-employee-id-piv-cac/)
 

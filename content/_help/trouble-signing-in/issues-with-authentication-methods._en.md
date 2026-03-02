@@ -43,7 +43,7 @@ If you cannot sign in with your only authentication method, you will have to del
 
 * [Issues with text/SMS or phone call](/help/trouble-signing-in/authentication/issues-with-text-sms-phone-call/)
 
-* [Issues with Authentication application](/help/trouble-signing-in/authentication/issues-with-authentication-application/)
+* [Issues with authentication applications](/help/trouble-signing-in/authentication/issues-with-authentication-application/)
 
 * [Issues with backup codes](/help/trouble-signing-in/authentication/issues-with-backup-codes/)
 
