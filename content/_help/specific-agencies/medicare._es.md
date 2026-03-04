@@ -18,7 +18,7 @@ Login.gov solo puede responder preguntas sobre:
 * [Verificar su identidad](/es/help/verify-your-identity/overview/)
 
 
-Comuníquese con Login.gov en [https://login.gov/contact/](/es/contact/). Puede llamar al Centro de Contacto de Login.gov o enviar un ticket al servicio de asistencia las 24 horas del día, los 7 días de la semana, incluidos los días festivos federales.
+Comuníquese con Login.gov través de nuestra [página de contacto](/es/contact/). Puede llamar al Centro de Contacto de Login.gov o enviar un ticket al servicio de asistencia las 24 horas del día, los 7 días de la semana, incluidos los días festivos federales.
 
 Comuníquese con [Medicare.gov](https://Medicare.gov) si necesita ayuda con:
 
@@ -26,7 +26,7 @@ Comuníquese con [Medicare.gov](https://Medicare.gov) si necesita ayuda con:
 * Su cuenta de Medicare
 
 
-Comuníquese con Medicare.gov al 800-633-4227 para obtener ayuda o inicie un chat en vivo en [https://www.medicare.gov/talk-to-someone](https://www.medicare.gov/talk-to-someone). Puedes hablar o chatear en vivo con una persona real, las 24 horas del día, los 7 días de la semana (excepto algunos días festivos federales).
+Comuníquese con Medicare.gov al 800-633-4227 para obtener ayuda o inicie un [chat en vivo](https://www.medicare.gov/talk-to-someone). Puedes hablar o chatear en vivo con una persona real, las 24 horas del día, los 7 días de la semana (excepto algunos días festivos federales).
 
 
 ## Otros artículos

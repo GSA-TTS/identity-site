@@ -18,7 +18,7 @@ Login.gov 只能回答以下问题：
 * [验证您的身份](/zh/help/verify-your-identity/overview/)
 
 
-请访问 [https://login.gov/contact/](/zh/contact/) 联系 Login.gov。您可以致电 Login.gov 联系中心或提交帮助台工单，服务时间为每周 7 天，每天 24 小时，包括联邦假日。
+请通过我们的联系[页面联系](/contact/) Login.gov。您可以致电 Login.gov 联系中心或提交帮助台工单，服务时间为每周 7 天，每天 24 小时，包括联邦假日。
 
 如果您需要以下方面的帮助，请联系 [Medicare.gov](https://Medicare.gov)：
 
@@ -26,7 +26,7 @@ Login.gov 只能回答以下问题：
 * 您的 Medicare 帐户
 
 
-联系 Medicare.gov 寻求帮助,请致电 800-633-4227，或访问 [https://www.medicare.gov/talk-to-someone](https://www.medicare.gov/talk-to-someone) 开始在线聊天。您可以每周 7 天、每天 24 小时（部分联邦假日除外）与真人进行语音或在线聊天。
+联系 Medicare.gov 寻求帮助,请致电 800-633-4227，或访问开始在[线聊天](https://www.medicare.gov/talk-to-someone)。您可以每周 7 天、每天 24 小时（部分联邦假日除外）与真人进行语音或在线聊天。
 
 
 ## 相关文章

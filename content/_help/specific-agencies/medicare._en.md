@@ -20,7 +20,7 @@ Login.gov can only answer questions about:
 * [Verifying your identity](/help/verify-your-identity/overview/)
 
 
-Contact Login.gov at [https://login.gov/contact/](/contact/). You can call the Login.gov Contact Center or submit a help desk ticket 24 hours a day, 7 days a week, including federal holidays.
+Contact Login.gov through our [contact page](/contact/). You can call the Login.gov Contact Center or submit a help desk ticket 24 hours a day, 7 days a week, including federal holidays.
 
 Contact [Medicare.gov](https://Medicare.gov) if you need help with:
 
@@ -28,7 +28,7 @@ Contact [Medicare.gov](https://Medicare.gov) if you need help with:
 * Your Medicare account
 
 
-Contact Medicare.gov at 800-633-4227 for assistance, or start a live chat at [https://www.medicare.gov/talk-to-someone](https://www.medicare.gov/talk-to-someone). You can talk or live chat with a real person, 24 hours a day, 7 days a week (except some federal holidays.)
+Contact Medicare.gov at 800-633-4227 for assistance, or start a [live chat](https://www.medicare.gov/talk-to-someone). You can talk or live chat with a real person, 24 hours a day, 7 days a week (except some federal holidays.)
 
 
 ## Related articles

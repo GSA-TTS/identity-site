@@ -18,7 +18,7 @@ Login.gov peut uniquement répondre aux questions concernant :
 * [La vérification de votre identité](/fr/help/verify-your-identity/overview/)
 
 
-Contactez Login.gov à l'adresse [https://login.gov/contact/](/fr/contact/). Vous pouvez appeler le centre de contact Login.gov ou soumettre une demande d'assistance 24 h/24 et 7 j/7, y compris les jours fériés fédéraux.
+Contactez Login.gov via notre [page de contact](/fr/contact/). Vous pouvez appeler le centre de contact Login.gov ou soumettre une demande d'assistance 24 h/24 et 7 j/7, y compris les jours fériés fédéraux.
 
 Contactez [Medicare.gov](https://Medicare.gov) si vous avez besoin d'aide concernant :
 
@@ -26,7 +26,7 @@ Contactez [Medicare.gov](https://Medicare.gov) si vous avez besoin d'aide concer
 * Votre compte Medicare
 
 
-Contactez Medicare.gov au 800-633-4227 pour obtenir de l'aide ou démarrez une discussion instantanée à l'adresse [https://www.medicare.gov/talk-to-someone](https://www.medicare.gov/talk-to-someone). Vous pouvez parler ou discuter en direct avec une vraie personne, 24 heures sur 24, 7 jours sur 7 (sauf certains jours fériés fédéraux).
+Contactez Medicare.gov au 800-633-4227 pour obtenir de l'aide ou démarrez une [discussion instantanée](https://www.medicare.gov/talk-to-someone). Vous pouvez parler ou discuter en direct avec une vraie personne, 24 heures sur 24, 7 jours sur 7 (sauf certains jours fériés fédéraux).
 
 
 ## Articles connexes
