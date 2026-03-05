@@ -4,8 +4,18 @@ set -euo pipefail
 # This script is a wrapper for the Nu HTML Checker (v.Nu)
 # https://github.com/validator/validator
 
+get_vnu_jar_path() {
+  node -e 'process.stdout.write(String(require("vnu-jar")))'
+}
+
 # The checker is distributed as a .jar, that we install as an npm package (vnu-jar),
 # so this script gets the path to the .jar
-vnu_jar_path=$(node -e 'console.log(require("vnu-jar"))')
+vnu_jar_path=$(get_vnu_jar_path)
+
+if [[ ! -f "$vnu_jar_path" ]]; then
+	echo "vnu.jar missing, downloading via vnu-jar..." >&2
+	node node_modules/vnu-jar/vnu-java-downloader.js
+	vnu_jar_path=$(get_vnu_jar_path)
+fi
 
 exec java -jar "$vnu_jar_path" "$@"

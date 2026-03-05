@@ -3,11 +3,6 @@ export default /** @type {import('svgo').OptimizeOptions} */ ({
   plugins: [
     {
       name: 'preset-default',
-      params: {
-        overrides: {
-          removeViewBox: false,
-        },
-      },
     },
   ],
 });
