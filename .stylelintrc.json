@@ -1,5 +1,8 @@
 {
-  "extends": "@18f/identity-stylelint-config",
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "customSyntax": "postcss-scss",
   "rules": {
     "selector-class-pattern": [
       "^(tablet:)?[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
