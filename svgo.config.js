@@ -4,9 +4,5 @@ export default /** @type {import('svgo').OptimizeOptions} */ ({
     {
       name: 'preset-default',
     },
-    {
-      name: 'removeViewBox',
-      active: false,
-    },
   ],
 });

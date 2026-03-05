@@ -10,9 +10,15 @@ commands:
     steps:
       - node/install
       - run:
-          name: Install Node dependencies (including dev)
-          command: npm install --include=dev --include=optional
+          name: Install Node dependencies
+          command: npm install --include=optional
       - ruby/install-deps
+  install-test-dependencies:
+    steps:
+      - install-dependencies
+      - run:
+          name: Install Node dev dependencies
+          command: npm install --include=dev --include=optional
   build-site:
     steps:
       - run:
@@ -59,7 +65,7 @@ jobs:
       SKIP_BUILD: true
     steps:
       - checkout
-      - install-dependencies
+      - install-test-dependencies
       - attach_workspace:
           at: '.'
       - run:
@@ -71,7 +77,7 @@ jobs:
       - image: cimg/ruby:3.1-node
     steps:
       - checkout
-      - install-dependencies
+      - install-test-dependencies
       - run:
           name: Lint JavaScript
           command: make lint-js
@@ -81,7 +87,7 @@ jobs:
       - image: cimg/ruby:3.1-node
     steps:
       - checkout
-      - install-dependencies
+      - install-test-dependencies
       - run:
           name: Lint YAML
           command: make lint-yaml
@@ -91,7 +97,7 @@ jobs:
       - image: cimg/ruby:3.1-node
     steps:
       - checkout
-      - install-dependencies
+      - install-test-dependencies
       - run:
           name: Typecheck JavaScript
           command: make typecheck-js
@@ -101,7 +107,7 @@ jobs:
       - image: cimg/ruby:3.1-node
     steps:
       - checkout
-      - install-dependencies
+      - install-test-dependencies
       - run:
           name: Lint stylesheets
           command: make lint-css
@@ -111,7 +117,7 @@ jobs:
       - image: cimg/ruby:3.1-node
     steps:
       - checkout
-      - install-dependencies
+      - install-test-dependencies
       - run:
           name: check optimized images
           command: make lint-assets
@@ -119,8 +125,6 @@ jobs:
   check-lockfiles:
     docker:
       - image: cimg/ruby:3.1-node
-    environment:
-      SKIP_INSTALL: true
     steps:
       - checkout
       - install-dependencies
@@ -133,7 +137,7 @@ jobs:
       - image: cimg/ruby:3.1-node
     steps:
       - checkout
-      - install-dependencies
+      - install-test-dependencies
       - attach_workspace:
           at: '.'
       - run:

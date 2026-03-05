@@ -60,7 +60,7 @@
     "serve-handler": "^6.1.5",
     "stylelint": "^17.4.0",
     "stylelint-scss": "^7.0.0",
-    "svgo": "^4.0.0",
+    "svgo": "^4.0.1",
     "typescript": "^5.9.3",
     "vnu-jar": "^26.2.20"
   },

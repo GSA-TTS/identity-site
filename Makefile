@@ -6,6 +6,9 @@ clean:
 
 setup:
 	bundle check || bundle install
+	npm install
+
+setup-test: setup
 	npm install --include=dev
 
 lint-js:
