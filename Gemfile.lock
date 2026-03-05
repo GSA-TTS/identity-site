@@ -90,7 +90,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
       reline (>= 0.6.0)
-    public_suffix (7.0.5)
+    public_suffix (6.0.2)
     racc (1.8.1)
     rainbow (3.1.1)
     rake (13.3.1)
@@ -140,6 +140,7 @@ DEPENDENCIES
   jekyll-sitemap (>= 1.4.0)
   nokogiri (>= 1.11.0)
   pry
+  public_suffix (< 7)
   rb-readline
   rspec (~> 3.5.0)
 
