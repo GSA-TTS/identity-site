@@ -22,9 +22,9 @@ commands:
 jobs:
   build:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.4-node
         environment:
-          BUNDLER_VERSION: 2.2.20
+          BUNDLER_VERSION: 2.7.2
     steps:
       - checkout
       - install-dependencies
@@ -36,7 +36,7 @@ jobs:
 
   test:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.4-node
     steps:
       - checkout
       - install-dependencies
@@ -54,7 +54,7 @@ jobs:
 
   e2e:
     docker:
-      - image: cimg/ruby:3.1-browsers
+      - image: cimg/ruby:3.4-browsers
     environment:
       SKIP_BUILD: true
     steps:
@@ -68,7 +68,7 @@ jobs:
 
   lint-js:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.4-node
     steps:
       - checkout
       - install-dependencies
@@ -78,7 +78,7 @@ jobs:
 
   lint-yaml:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.4-node
     steps:
       - checkout
       - install-dependencies
@@ -88,7 +88,7 @@ jobs:
 
   typecheck-js:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.4-node
     steps:
       - checkout
       - install-dependencies
@@ -98,7 +98,7 @@ jobs:
 
   lint-css:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.4-node
     steps:
       - checkout
       - install-dependencies
@@ -108,7 +108,7 @@ jobs:
 
   check-optimized-assets:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.4-node
     steps:
       - checkout
       - install-dependencies
@@ -118,7 +118,7 @@ jobs:
 
   check-lockfiles:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.4-node
     steps:
       - checkout
       - install-dependencies
@@ -128,7 +128,7 @@ jobs:
 
   nu:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.4-node
     steps:
       - checkout
       - install-dependencies
@@ -145,7 +145,7 @@ jobs:
   # but do get the feedback/info
   test-external-links:
     docker:
-      - image: cimg/ruby:3.1-node
+      - image: cimg/ruby:3.4-node
     steps:
       - checkout
       - install-dependencies
