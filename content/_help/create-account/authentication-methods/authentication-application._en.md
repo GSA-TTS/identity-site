@@ -22,7 +22,7 @@ If you choose this secure option, follow these steps to download and install one
    * Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
    * iOS options: [Google Authenticator](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/).
    * Windows apps: [1Password](https://1password.com/), [OTP Manager](https://apps.microsoft.com/detail/9nblggh6hngn?hl=en-us&gl=US).
-   * Mac apps: [1Password](https://1password.com/), [OTP Manager](https://itunes.apple.com/us/app/otp-manager/id928941247?mt=12).
+   * Mac apps: [1Password](https://1password.com/), [Dashlane](https://apps.apple.com/us/app/dashlane-password-manager/id517914548?platform=mac).
    * Chrome extensions: [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en).
 
 3. Open a new browser and sign in to your Login.gov account at <https://secure.login.gov/>.
