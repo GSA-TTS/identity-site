@@ -1,6 +1,6 @@
 ---
 layout: help
-title: Issues with face or touch unlock
+title: Face or touch unlock
 category: create-account
 permalink: /help/create-account/authentication-methods/face-or-touch-unlock/
 child: true
