@@ -26,7 +26,7 @@ Contacte con los Servicios de Jubilación de la OPM directamente (en inglés) si
 * Cambios de su información personal o de correo
 * Estatus de su reclamación
 * Verificación de anualidades
-*Impuestos
+* Impuestos
 
 Envíe una solicitud de ayuda a la página (en inglés) [Contact OPM Retirement Services (Contactar con los servicios de jubilación de la OPM)](https://www.opm.gov/support/retirement/contact/), o llame al 1-888-767-6738 (TTY: 711) de lunes a viernes, de 7:40 a. m. a 5:00 p. m., hora del este. Las horas de más actividad del centro de llamadas son de las 10:30 a. m. a la 1:30 p. m., hora del este, y el centro de llamadas cierra los días feriados federales.
 
