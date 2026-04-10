@@ -28,7 +28,7 @@ Please contact OPM Retirement Services directly for questions about:
 * Taxes
 
 
-Submit a help request on the [Contact OPM Retirement Services](https://www.opm.gov/support/retirement/contact/) page, or call 1-888-767-6738 (TTY: 711) Monday–Friday, 7:40 a.m. to 5:00 p.m. ET. The busiest caller center time is 10:30 a.m. to 1:30 p.m. ET, and the call center is closed on federal holidays.
+Submit a help request on the [Contact OPM Retirement Services](https://www.opm.gov/support/retirement/contact/) page, or call 1-888-767-6738 (TTY: 711) Monday–Friday, 7:40 a.m. to 5:00 p.m. ET. The busiest call center time is 10:30 a.m. to 1:30 p.m. ET, and the call center is closed on federal holidays.
 
 ## Related articles
 
