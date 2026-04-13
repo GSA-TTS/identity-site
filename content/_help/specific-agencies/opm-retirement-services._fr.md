@@ -12,7 +12,10 @@ Veuillez ne pas envoyer à Login.gov de données sensibles ou de numéros d'iden
 
 Login.gov peut uniquement répondre aux questions concernant le processus de connexion aux Retirement Services Online (Services de retraite en ligne) et la création d'un compte Login.gov.
 
-Lorsque vous vous connectez pour la première fois (ou si votre compte a été desactivé en raison d’une inactivité prolongée), vous devrez relier votre compte des services de retaites en ligne à Login.gov. Le bureau de gestion du personnel (Office of Personnel Management en anglais) vous enverra un code d'activation pour lier votre compte. Le services de retraite peut également vous demander de vérifier vos informations personnelles.
+Remarques importantes concernant l’accès aux Services de retraite en ligne :
+* Connectez-vous directement sur le site [Retirement Services Online](https://www.servicesonline.opm.gov/). Ne vous connectez pas à Login.gov pour ensuite vous rendre sur le site Retirement Services Online.
+
+* Lorsque vous vous connectez pour la première fois (ou si votre compte a été desactivé en raison d’une inactivité prolongée), vous devrez relier votre compte des services de retaites en ligne à Login.gov. Le bureau de gestion du personnel (Office of Personnel Management en anglais) vous enverra un code d'activation pour lier votre compte. Le services de retraite peut également vous demander de vérifier vos informations personnelles.
 
 Veuillez contacter directement le services de retraite du bureau de gestion de personnel (Office of Personnel Management en anglais) pour toute question concernant :
 
