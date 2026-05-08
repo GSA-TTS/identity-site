@@ -23,7 +23,7 @@ general_accordion:
         id: a-3
         title: Is Login.gov a federal agency?
         content: >-
-            Login.gov is not a standalone federal agency. We are a program of the [General Services Administration](https://www.gsa.gov/) (GSA), an agency of the U.S. federal government. The program is run by the [Technology Transformation Services](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services) (TTS), a group that leads the digital transformation of the federal government by helping agencies build, buy, and share technology that allows them to provide more accessible, efficient, and effective products and services for the American people.
+            Login.gov is not a standalone federal agency. We are a program of the [General Services Administration](https://www.gsa.gov/) (GSA), an agency of the U.S. federal government. The program is run by the [Technology Transformation Services](https://tts.gsa.gov/) (TTS), a group that leads the digital transformation of the federal government by helping agencies build, buy, and share technology that allows them to provide more accessible, efficient, and effective products and services for the American people.
     -
         id: a-4
         title: Does Login.gov partner with state, local, and territory governments?
