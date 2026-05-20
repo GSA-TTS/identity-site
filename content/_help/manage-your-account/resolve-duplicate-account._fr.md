@@ -27,7 +27,13 @@ Certains organismes ne vous autorisent à disposer que d'un seul compte Login.go
     * Cliquez sur « Choisir une autre méthode » après vous être connecté.
     * Faites défiler la page vers le bas et sélectionnez « Supprimer votre compte ».
 
-3. **Vous connecter à l’aide du compte que vous conservez**
+3. **Facultatif : Ajoutez l'adresse e-mail du compte que vous avez supprimé au compte que vous avez conservé**
+
+    Plusieurs adresses e-mail peuvent être associées à un même compte Login.gov. Pour [associer cette adresse e-mail](/fr/help/manage-your-account/change-your-email-address/) au compte que vous souhaitez conserver :
+    * Connectez-vous au compte sur [https://secure.login.gov](https://secure.login.gov).
+    * Rendez-vous dans « Votre compte » et sélectionnez « Ajouter une adresse e-mail » dans le menu de gauche.
+
+4. **Vous connecter à l’aide du compte que vous conservez**
 
     Retournez sur le site web de l’organisme et connectez-vous à l’aide du compte Login.gov que vous avez conservé.
 

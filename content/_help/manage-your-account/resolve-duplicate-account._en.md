@@ -27,7 +27,13 @@ Some government agencies only allow you to have one verified Login.gov account. 
     * Click “Choose another method” after signing in.
     * Scroll to the bottom of the page and select “Delete your account”.
 
-3. **Sign in with your remaining account**
+3. **Optional: Add the email from the account you deleted to the account you kept**
+    
+    Login.gov accounts support multiple emails. To [add that email](/help/manage-your-account/change-your-email-address/) to the account you kept:
+    * Sign into the account at [https://secure.login.gov](https://secure.login.gov).
+    * Go to “Your account” and select "Add email address" from the left side menu.
+
+4. **Sign in with your remaining account**
 
     Go back to the agency’s website and sign in using the one Login.gov account you kept.
 
