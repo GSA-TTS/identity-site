@@ -1,6 +1,6 @@
 ---
 layout: help
-title: How do I change the email address associated with my account?
+title: How do I change or add email addresses associated with my account?
 category: manage-your-account
 permalink: /help/manage-your-account/change-your-email-address/
 order: 1
@@ -11,9 +11,9 @@ redirect_from:
   - /en/help/manage-your-account/change-your-email-address/
 ---
 
-Follow these steps to change the email address associated with your account.
+Follow the steps below to add and delete email addresses associated with your account.
 
-## Part 1: Add email address
+## How to add an email address
 
 {: .number-list}
 
@@ -37,7 +37,7 @@ Follow these steps to change the email address associated with your account.
    * If you do not confirm your email address, you will not be able to use it with your Login.gov account.
    * Do not remove the old email address until you have confirmed your new email address.
 
-## Part 2: Delete the outdated email address
+## How to delete an email address
 
 {: .number-list}
 
