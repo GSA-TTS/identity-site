@@ -29,7 +29,7 @@ Algunas agencias gubernamentales solo le permiten tener una cuenta de Login.gov 
 
 3. **Opcional: Añade el correo electrónico de la cuenta que eliminó a la cuenta que deseas conservar**
 
-    Las cuentas de Login.gov permiten múltiples direcciones de correo electrónico. Para [agregar ese correo electrónico](es/help/manage-your-account/change-your-email-address/) a la cuenta que conservó:
+    Las cuentas de Login.gov permiten múltiples direcciones de correo electrónico. Para [agregar ese correo electrónico](/es/help/manage-your-account/change-your-email-address/) a la cuenta que conservó:
     * Inicie sesión en la cuenta en [https://secure.login.gov](https://secure.login.gov/es).
     * Vaya a «Su cuenta» y seleccione «Añadir dirección de correo electrónico» en el menú del lado izquierdo.
 
