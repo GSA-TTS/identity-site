@@ -30,9 +30,9 @@ order: 10
 3. **（可选）请将您已删除帐户的电子邮件地址添加到您保留的帐户中**
 
     Login.gov 账户支持绑定多个电子邮件地址。[如需将该电子邮件](/zh/help/manage-your-account/change-your-email-address/)地址添加到您保留的账户中：
-    * 请登录 [https://secure.login.gov](https://secure.login.gov) 上的账户。
+    * 请登录 [https://secure.login.gov](https://secure.login.gov/zh) 上的账户。
     * 前往“您的账户”，并从左侧菜单中选择“添加电子邮件地址”。
-    
+
 4. **使用你保留的账户登录**
 
     返回机构网站，使用你保留的那个 Login.gov 账户登录。

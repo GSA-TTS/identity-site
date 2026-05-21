@@ -30,7 +30,7 @@ Certains organismes ne vous autorisent à disposer que d'un seul compte Login.go
 3. **Facultatif : Ajoutez l'adresse e-mail du compte que vous avez supprimé au compte que vous avez conservé**
 
     Plusieurs adresses e-mail peuvent être associées à un même compte Login.gov. Pour [associer cette adresse e-mail](/fr/help/manage-your-account/change-your-email-address/) au compte que vous souhaitez conserver :
-    * Connectez-vous au compte sur [https://secure.login.gov](https://secure.login.gov).
+    * Connectez-vous au compte sur [https://secure.login.gov](https://secure.login.gov/fr).
     * Rendez-vous dans « Votre compte » et sélectionnez « Ajouter une adresse e-mail » dans le menu de gauche.
 
 4. **Vous connecter à l’aide du compte que vous conservez**
