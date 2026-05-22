@@ -1,5 +1,5 @@
 ---
-title: ¿Cómo cambio la dirección de correo electrónico asociada con mi cuenta?
+title: ¿Cómo cambio o agrego direcciones de correo electrónico asociadas a mi cuenta?
 category: manage-your-account
 permalink: /es/help/manage-your-account/change-your-email-address/
 order: 1
@@ -8,9 +8,9 @@ redirect_from:
   - /es/help/changing-settings/change-my-email-address/
 ---
 
-Siga estos pasos para cambiar la dirección de correo electrónico asociada con su cuenta.
+Siga los pasos a continuación para agregar y eliminar direcciones de correo electrónico asociadas a su cuenta.
 
-## Primera parte: Agregar la dirección de correo electrónico
+## Cómo agregar una dirección de correo electrónico
 
 {: .number-list}
 
@@ -34,7 +34,7 @@ Siga estos pasos para cambiar la dirección de correo electrónico asociada con 
    * Si no confirma su dirección de correo electrónico, no podrá utilizarla con su cuenta de Login.gov.
    * No elimine la dirección de correo electrónico anterior hasta que haya confirmado la nueva.
 
-## Segunda parte: Eliminar la dirección de correo electrónico anterior
+## Cómo eliminar una dirección de correo electrónico
 
 {: .number-list}
 

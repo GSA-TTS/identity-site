@@ -1,5 +1,5 @@
 ---
-title: Comment puis-je modifier l’e-mail associé à mon compte ?
+title: Comment modifier ou ajouter des adresses e-mail associées à mon compte ?
 category: manage-your-account
 permalink: /fr/help/manage-your-account/change-your-email-address/
 order: 1
@@ -8,9 +8,9 @@ redirect_from:
   - /fr/help/changing-settings/change-my-email-address/
 ---
 
-Suivez les étapes ci-dessous pour modifier l'adresse e-mail associée à votre compte.
+Suivez les étapes ci-dessous pour ajouter et supprimer des adresses e-mail associées à votre compte.
 
-## Première partie : ajouter une adresse e-mail
+## Comment ajouter une adresse e-mail
 
 {: .number-list}
 
@@ -34,7 +34,7 @@ Suivez les étapes ci-dessous pour modifier l'adresse e-mail associée à votre 
    * Si vous ne confirmez pas votre adresse e-mail, vous ne pourrez pas l'utiliser avec votre compte Login.gov.
    * Ne supprimez pas votre ancienne adresse e-mail tant que vous n'avez pas confirmé la nouvelle.
 
-## Deuxième partie : supprimer l'ancienne adresse e-mail
+## Comment supprimer une adresse e-mail
 
 {: .number-list}
 

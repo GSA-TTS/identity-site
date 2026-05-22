@@ -1,14 +1,14 @@
 ---
 layout: help
-title: 如何更改与我帐户相关的电邮地址？
+title: 我该如何更改或添加与我的账户关联的电子邮件地址？
 category: manage-your-account
 permalink: /zh/help/manage-your-account/change-your-email-address/
 order: 1
 ---
 
-按照以下步骤更改与你账户相关的电邮地址。
+请按照以下步骤添加和删除与您的账户关联的电子邮件地址。
 
-## 第1部分：添加电邮地址
+## 如何添加电子邮件地址
 
 {: .number-list}
 
@@ -32,7 +32,7 @@ order: 1
    * 如果你不确认电邮地址，则不能将其用于你的 Login.gov 账户。
    * 确认新电邮地址之前，请勿删除老电邮地址。
 
-## 第2部分：删除老电邮地址
+## 如何删除电子邮件地址
 
 {: .number-list}
 
