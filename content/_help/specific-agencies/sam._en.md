@@ -38,7 +38,7 @@ Please contact [SAM.gov](https://sam.gov/) directly if you have questions regard
 
 To make changes to your SAM.gov account profile, you will need to sign in at <https://sam.gov>.
 
-Contact the Federal Service Desk at 866-606-8220 (toll-free) or 334-206-7828 (internationally) for assistance, or submit your request via web form at <https://www.fsd.gov/>.
+Contact the Federal Service Desk via web form at <https://www.fsd.gov>.
 
 ## Important notes for creating your Login.gov account and accessing your SAM profile:
 

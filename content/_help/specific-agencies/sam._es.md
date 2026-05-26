@@ -36,8 +36,7 @@ Contacte directamente con [SAM.gov](https://sam.gov/) si tiene preguntas relacio
 
 Para hacer cambios en el perfil de su cuenta de SAM.gov, es necesario que inicie sesión en <https://sam.gov>.
 
-Contacte con el Servicio Federal de Atención al Cliente al 866-606-8220 (llamada sin costo) o al 334-206-7828 (llamada internacional) para pedir ayuda o envíe su solicitud por medio de un formulario web en <https://www.fsd.gov/>.
-
+Comuníquese con el Federal Service Desk para recibir asistencia a través del formulario en línea através de <https://www.fsd.gov>.
 ## Notas importantes para crear su cuenta de Login.gov y acceder a su perfil de SAM:
 
 * Si ya tiene una cuenta de SAM, use el mismo correo electrónico que configuró en su cuenta de SAM para crear su cuenta de Login.gov.
