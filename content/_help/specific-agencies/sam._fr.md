@@ -36,7 +36,7 @@ Veuillez contacter directement [SAM.gov](https://sam.gov/) si vous avez des ques
 
 Pour apporter des modifications à votre profil de compte SAM.gov, vous devez vous connecter sur <https://sam.gov>.
 
-Contactez le Federal Service Desk au 1-866-606-8220 (numéro payant) ou au +1 334-206-7828 (depuis l’étranger) pour obtenir de l’aide, ou envoyez votre demande par le biais du formulaire Web disponible sur <https://www.fsd.gov/>.
+Contactez le Federal Service Desk pour obtenir de l'aide via le formulaire en ligne disponible ici: <https://www.fsd.gov>.
 
 ## Notes importantes concernant la création de votre compte Login.gov et l’accès à votre profil SAM :
 
