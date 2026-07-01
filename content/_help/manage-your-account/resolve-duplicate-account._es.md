@@ -13,7 +13,7 @@ Algunas agencias gubernamentales solo le permiten tener una cuenta de Login.gov 
 
     Conserve la cuenta que más usa. Por ejemplo, la que está vinculada a más servicios. Así, no tendrá que volver a conectar los servicios.
 
-    Para ver a cuáles agencias está conectada una cuenta, inicie sesión y haga clic en “Sus cuentas conectadas” en el lado izquierdo.
+    Para ver a qué agencias está conectada una cuenta, inicie sesión y haga clic en "Sus servicios conectados" en la barra lateral izquierda.
 
 2. **Elimine las cuentas duplicadas**
 

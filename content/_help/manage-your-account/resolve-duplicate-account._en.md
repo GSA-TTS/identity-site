@@ -13,7 +13,7 @@ Some government agencies only allow you to have one verified Login.gov account. 
 
     Keep the account you use the most. For example, the one tied to the most services. That way, you won’t have to reconnect services.
 
-    To see which agencies an account is connected to, sign in and click on “Your connected accounts” in the left sidebar.
+    To see which agencies an account is connected to, sign in and click on “Your connected services” in the left sidebar.
 
 2. **Delete the duplicate accounts**
 

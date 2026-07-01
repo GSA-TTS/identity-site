@@ -14,7 +14,7 @@ Users can update their email information at three key points:
 
 1. When signing into a new partner agency for the first time
 2. During the consent screen after verifying their identity
-3. Anytime, on the "Your connected accounts" page in their Login.gov account
+3. Anytime, on the "Your connected services" page in their Login.gov account
 
 This feature makes it easier for users to manage what information they share with different agencies and helps agencies connect with people by using their preferred email address.
 

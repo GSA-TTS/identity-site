@@ -13,7 +13,7 @@ Certains organismes ne vous autorisent à disposer que d'un seul compte Login.go
 
     Conservez le compte que vous utilisez le plus. Par exemple, celui qui est connecté au plus grand nombre de services. Ainsi, vous n’aurez pas à recommencer les démarches pour vous reconnecter à des services.
 
-    Pour voir à quels organismes est lié un compte, connectez-vous-y et cliquez sur « Vos comptes connectés » dans la barre latérale gauche.
+    Pour voir à quels organismes un compte est connecté, connectez-vous et cliquez sur « Vos services connectés » dans la barre latérale gauche.
 
 2. **Supprimer les comptes en double**
 
