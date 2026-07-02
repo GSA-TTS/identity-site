@@ -10,7 +10,7 @@ Login.gov vous permet de choisir l’adresse e-mail que vous communiquez à chaq
 
 - Sur la page « Vous vous connectez pour la première fois », lorsque vous vous connectez pour la première fois au nouvel organisme partenaire
 - Sur la page « Connectez vos renseignements vérifiés à… » après avoir confirmé votre identité
-- Sur la page « Vos comptes connectés », cliquez sur le lien « Changer » à côté de l'adresse e-mail que vous souhaitez voir figurer pour l’organisme partenaire répertorié.
+- Sur la page « Vos comptes connectés », cliquez sur le lien « Modifier » situé à côté de l'adresse e-mail souhaitée, sous l'agence partenaire indiquée.
 
 Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en supprimer d’autres qui sont associées à votre compte Login.gov. Rendez-vous sur la page [Modifier l'adresse e-mail associée à votre compte](/fr/help/manage-your-account/change-your-email-address/) pour plus d’informations.
 
