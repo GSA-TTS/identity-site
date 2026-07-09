@@ -71,7 +71,7 @@
     "@18f/identity-design-system": "^9.4.0",
     "@18f/identity-i18n": "^1.0.1",
     "@babel/core": "^7.23.9",
-    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-env": "^7.29.0",
     "@babel/preset-react": "^7.23.3",
     "@babel/preset-typescript": "^7.23.3",
     "babel-loader": "^10.0.0",
