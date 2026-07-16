@@ -7,9 +7,9 @@ order: 2
 do_list:
   - "Un **permis de conduire** de l'un des 50 États des États-Unis, du District de Columbia (DC) et d'autres territoires des États-Unis (Guam, îles Vierges des États-Unis, Samoa américaines, îles Mariannes et Porto Rico)."
   - "Une **carte d'identité d'un État qui n'est pas un permis de conduire.** Il s'agit d'une pièce d'identité délivrée par un État, le District de Columbia (DC) ou un territoire américain, qui atteste de l'identité mais n'autorise pas à conduire."
-  - "Un **passeport américain au format livret.** Le passeport n'est pas encore accepté pour la [vérification d'identité en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/). Si vous ne voyez pas l'option permettant de confirmer votre identité à l'aide d'un passeport, utilisez un permis de conduire ou une carte d'identité d'un État ou essayez de confirmer votre identité ultérieurement."
+  - "**Passeports américains (livret ou carte).** Les passeports ne sont pas encore acceptés pour la [vérification en personne](/fr/help/verify-your-identity/verify-your-identity-in-person/). Si l'option de vérifier votre identité à l'aide d'un passeport ne s'affiche pas, veuillez utiliser un permis de conduire ou une carte d'identité délivrée par un État, ou réessayez de vérifier votre identité ultérieurement."
 dont_list:
-  - Les cartes de passeport américain et les passeports étrangers
+  - Passeports non américains
   - Les cartes d'identité militaires
   - Les cartes ou permis de port d'arme à feu
   - Les pièces d'identité expirées ou prorogées
