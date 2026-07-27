@@ -10,7 +10,7 @@ Login.gov le permite controlar cuál dirección de correo electrónico se propor
 
 - En la página “Está iniciando sesión por primera vez”, cuando inicie sesión por primera vez en alguna agencia asociada nueva.
 - En la página “Conecte su información verificada a...”, después de verificar su identidad.
-- En la página "Sus cuentas conectadas", haz clic en el enlace "Cambiar" que aparece junto a la dirección de correo electrónico que deseas modificar, debajo de la agencia asociada que se muestra en la lista.
+- En la página «Sus servicios conectados», haga clic en el enlace «Cambiar» situado junto a la dirección de correo electrónico que desee, debajo de la agencia asociada listada.
 
 Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov y eliminar cualquier dirección de correo electrónico asociada con su cuenta de Login.gov. Obtenga más información en la página [“Cambie la dirección de correo electrónico asociada con su cuenta”](/es/help/manage-your-account/change-your-email-address/).
 
@@ -107,7 +107,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
       <li>Ingrese su contraseña.</li>
       <li>Haga clic en el botón “Iniciar sesión”.</li>
       <li>Use uno de los métodos que configuró para autenticarse. Aparecerá la página de su cuenta.</li>
-      <li>En el menú, haga clic en “Sus cuentas conectadas”.</li>
+      <li>Haz clic en «Sus servicios conectados» en el menú.</li>
       <li>Haga clic en el vínculo “Cambiar” de cada agencia asociada para actualizar su correo electrónico.</li>
       <li>En la página “Seleccione su correo electrónico preferido”, haga clic en la dirección de correo electrónico que desea proporcionar y luego en el botón “Seleccionar correo electrónico” para continuar.</li>
       <li>También puede agregar otra dirección de correo electrónico para proporcionarla a una agencia asociada haciendo clic en el vínculo “Cambiar” (en la página “Sus cuentas conectadas”) o en el botón “Agregar nuevo correo electrónico” (en la página “Seleccione su correo electrónico preferido”).</li>
@@ -116,7 +116,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6">
         <img
-          alt="La página “Sus cuentas conectadas”"
+          alt="La página “Sus servicios conectados”"
           src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connected-accounts.svg"
           class="shadow-2" />
       </div>
