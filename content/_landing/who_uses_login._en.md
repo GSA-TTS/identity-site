@@ -13,9 +13,9 @@ component:
 
     Our participating government partners offer a variety of services such as:
 
-    * USAJOBS (Office of Personnel Management)
+    * Medicare (Health and Human services) 
 
-    * My Social Security (Social Security Administration)
+    * [My Social Security (Social Security Administration)](https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa)
 
     * VA.gov (Department of Veterans Affairs)
   col2: >-

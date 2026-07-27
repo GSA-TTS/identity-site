@@ -11,9 +11,9 @@ component:
 
     Les organismes fédéraux partenaires proposent toute une gamme de services tels que :
 
-    * USAJOBS (Bureau de la gestion du personnel)
+    * Medicare (Département de la Santé et des Services sociaux)
 
-    * My Social Security (Administration de la Sécurité sociale)
+    * [My Social Security (Administration de la Sécurité sociale)](https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa)
 
     * VA.gov (Affairs département des Anciens Combattants)
   col2: >-
