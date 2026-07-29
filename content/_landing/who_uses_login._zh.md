@@ -13,7 +13,7 @@ component:
 
     * 联邦医疗保险（卫生与公众服务部）
 
-    * [我的社会保障（My Social Security）（社会保障局）]((https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa))
+    * [我的社会保障（My Social Security）（社会保障局）](https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa)
 
     * VA.gov (退伍军人事务部)
   col2: >-
