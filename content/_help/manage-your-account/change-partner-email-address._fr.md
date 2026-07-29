@@ -10,7 +10,7 @@ Login.gov vous permet de choisir l’adresse e-mail que vous communiquez à chaq
 
 - Sur la page « Vous vous connectez pour la première fois », lorsque vous vous connectez pour la première fois au nouvel organisme partenaire
 - Sur la page « Connectez vos renseignements vérifiés à… » après avoir confirmé votre identité
-- Sur la page « Vos comptes connectés », cliquez sur le lien « Modifier » situé à côté de l'adresse e-mail souhaitée, sous l'agence partenaire indiquée.
+- Sur la page « Vos services connectés », cliquez sur le lien « Modifier » situé à côté de l'adresse e-mail souhaitée, en dessous de l'agence partenaire listée.
 
 Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en supprimer d’autres qui sont associées à votre compte Login.gov. Rendez-vous sur la page [Modifier l'adresse e-mail associée à votre compte](/fr/help/manage-your-account/change-your-email-address/) pour plus d’informations.
 
@@ -107,7 +107,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
       <li>Saisissez votre mot de passe.</li>
       <li>Cliquez sur le bouton « Connexion ».</li>
       <li>Authentifiez-vous à l'aide d'une des méthodes que vous avez configurées. Vous serez dirigé vers la page de votre compte.</li>
-      <li>Dans le menu, cliquez sur « Vos comptes connectés ».</li>
+      <li>Cliquez sur « Vos services connectés » dans le menu.</li>
       <li>Cliquez sur le lien « Modifier » sous chaque organisme partenaire pour modifier votre adresse e-mail.</li>
       <li>Sur la page « Sélectionner l’adresse de votre choix », cliquez sur l'adresse que vous souhaitez communiquer, puis sur le bouton « Sélectionner cette adresse » pour continuer.</li>
       <li>Vous pouvez également ajouter une nouvelle adresse e-mail à communiquer à un organisme partenaire en cliquant sur le lien « Modifier » (sur la page « Vos comptes connectés ») ou le bouton « Ajouter une nouvelle adresse e-mail » (sur la page « Sélectionner l’adresse de votre choix »).</li>
@@ -116,7 +116,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6">
         <img
-          alt="La page « Vos comptes connectés »"
+          alt="La page « Vos services connectés »"
           src="{{ site.baseurl }}/assets/img/help/change-partner-email-address/connected-accounts.svg"
           class="shadow-2" />
       </div>
