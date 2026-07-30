@@ -44,7 +44,7 @@ If you didn't get a letter after 5-10 days, or if your verification code expired
 
 1. Select “Send me another letter” when asked to enter your code.
 
-Contact the agency you are trying to access if you need to access their services before your letter arrives.
+Contact the agency you are trying you need to access their services before your letter arrives.
 
 If you started verifying your identity more than 30 days ago, you will need to start over and verify your identity again before you can request a new letter.
 
