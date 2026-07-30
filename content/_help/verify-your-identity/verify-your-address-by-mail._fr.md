@@ -20,7 +20,7 @@ Certains agences vous permettent de vérifier votre adresse par courrier plutôt
 
 1. Quand un écran s’affiche pour indiquer que votre lettre est en cours d’acheminement, vous pouvez vous déconnecter de Login.gov en attendant de la recevoir.
 
-1. Ces courriers sont envoyés le jour ouvrable suivant par courrier prioritaire via USPS. Il faut compter de 5 à 10 jours pour la recevoir. Le code de vérification expirera 30 jours après la date à laquelle vous avez envoyé votre demande.
+1. Ces courriers sont envoyés le jour ouvrable suivant par courrier prioritaire via USPS. Il faut compter de 5 à 10 jours pour la recevoir. Le code de vérification expirera 21 jours après la date à laquelle vous avez envoyé votre demande.
 
 1. Une fois ce courrier reçu, reconnectez-vous pour saisir le code de vérification qui y figure.
 
@@ -44,7 +44,7 @@ Si vous n’avez pas reçu le courrier sous un délai de 5 à 10 jours, ou si vo
 
 Contactez l’organisme auquel vous tentez d’accéder si vous devez accéder à ses services avant que votre courrier n’arrive.
 
-Si vous avez commencé la procédure de vérification d’identité il y a plus de 30 jours, vous devrez recommencer toute la procédure de vérification de votre identité avant de pouvoir demander de recevoir un nouveau courrier.
+Si vous avez commencé la procédure de vérification d’identité il y a plus de 21 jours, vous devrez recommencer toute la procédure de vérification de votre identité avant de pouvoir demander de recevoir un nouveau courrier.
 
 ## Articles connexes
 

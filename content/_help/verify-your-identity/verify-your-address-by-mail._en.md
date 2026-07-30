@@ -22,7 +22,7 @@ Some agencies allow you to verify your address by mail instead of verifying your
 
 1. When you see a screen that your letter is on the way, you can sign out of Login.gov for now and wait for your letter to arrive.
 
-1. Letters are sent the next business day via USPS First-Class Mail. It takes about 5-10 days to get your letter in the mail. The verification code will expire 30 days after the date when you submit your request.
+1. Letters are sent the next business day via USPS First-Class Mail. It takes about 5-10 days to get your letter in the mail. The verification code will expire 21 days after the date when you submit your request.
 
 1. Sign back in and enter the verification code when your letter arrives.
 
@@ -46,7 +46,7 @@ If you didn't get a letter after 5-10 days, or if your verification code expired
 
 Contact the agency you are trying to access if you need to access their services before your letter arrives.
 
-If you started verifying your identity more than 30 days ago, you will need to start over and verify your identity again before you can request a new letter.
+If you started verifying your identity more than 21 days ago, you will need to start over and verify your identity again before you can request a new letter.
 
 ## Related articles
 
