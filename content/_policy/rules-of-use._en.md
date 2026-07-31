@@ -42,12 +42,14 @@ Prior to using the Login.gov service, you are required to agree to these Rules o
 
 In addition to details about your consent stated elsewhere in these terms, by accepting these Rules of Use and using the Login.gov service, you agree that:
 
-1. You are not a child under 13 years of age,
-2. Any information you provide to us is complete and accurate,
-3. If you verify your identity, the identity you claim when using the service is your own,
-4. You will comply with applicable local, state, and federal laws in your use of the service,
-5. You will keep your personal and login information confidential, and
-6. You will maintain accurate information in your account at all times.
+1. You are at least 13 years of age and eligible to use Login.gov authentication services,
+2. If you use Login.gov identity proofing services, you are at least 18 years of age,
+3. You will use a valid email address that you own or control and that is capable of receiving ongoing communications, and you will not use disposable, temporary, or single-use email addresses or domains,
+4. Any information you provide to us is complete and accurate,
+5. If you verify your identity, the identity you claim when using the service is your own,
+6. You will comply with applicable local, state, and federal laws in your use of the service,
+7. You will keep your personal and login information confidential, and
+8. You will maintain accurate information in your account at all times.
 
 You further agree that you will NOT misrepresent your identity or any information you present in the Login.gov service, including through customer support channels.
 
@@ -78,13 +80,13 @@ When you register an authenticator with the Login.gov service, you agree to allo
 
 For physical authenticators such as printed out backup codes, a hardware token, or a phone, protect them by keeping them in a safe place or with you. Don’t let them get damaged. If they get lost, broken, or damaged, you may lose access to your account.
 
-If you forget your passphrase, you can reset it if you have access to your registered email address. If you don’t have any of your other authenticators available, you can still access your account, but we will delete any information contained in it. You can change your passphrase at any time from your account profile. If you lose another authenticator or no longer wish to use it, you can deactivate it in your account profile at any time.
+If you forget your passphrase, you can reset it if you have access to your registered email address. You can change your passphrase at any time from your account profile. If you lose another authenticator or no longer wish to use it, you can deactivate it in your account profile at any time.
 
 If we suspect fraud on your account, we may lock your account and contact you. If we have reason to believe your passphrase has been compromised, we may require that you reset it. If your account has been compromised in any way, please notify Login.gov immediately at https://login.gov/contact/. 
 
 ## 4. Identity Proofing and Verification
 
-The first time you try to log in using Login.gov at a partner application that requires knowing your identity, we initiate a process called identity proofing. Identity proofing takes information about you and attempts to validate that information and then verify that you, the user, are the individual you claim to be. We call this information identity evidence and it generally includes your name, date of birth, social security number, home address, and an image of identification, such as your driver’s license. You agree the information that you provide is your information - not someone else’s - and accurate.
+The first time you try to log in using Login.gov at a partner application that requires knowing your identity, we initiate a process called identity proofing. Identity proofing services are available only to individuals who are at least 18 years of age. If you are under 18, you may use Login.gov authentication services, but you are not eligible to complete identity proofing, and you will not be able to access partner applications that require identity proofing until you meet the age requirement. Identity proofing takes information about you and attempts to validate that information and then verify that you, the user, are the individual you claim to be. We call this information identity evidence and it generally includes your name, date of birth, social security number, home address, and an image of identification (ID), such as your driver’s license. You agree the information that you provide is your information - not someone else’s - and accurate.
 
 After you provide us with this identity evidence, we attempt to validate it against various authoritative and credible sources. We use third party identity proofing services to assist us with this validation. For instance, if you submit an image of your driver’s license from your state of residence, we’ll compare the information on it to the authoritative data from your state Department of Motor Vehicles (DMV), Motor Vehicle Administration (MVA), or equivalent state agency to ensure that you information is consistent with those records. We’ll also use technology to look for certain security features on the driver’s license to ensure that it’s legitimate.
 
@@ -131,7 +133,7 @@ The Login.gov service connects the public to government agencies more easily by 
 
 Partner agencies select the information they require from the list of attributes we support. If we don’t already have it, we request that information from you; validate it, and ask for your consent to share it with the partner agency. Partners can request a variety of information such as name, address, birth date, phone number and email address. Partners are required to protect this information in compliance with federal law and policy.
 
-We will never share your PII with a partner without your consent, as required by law, or unless disclosure is necessary to investigate fraud related to your account. You may revoke this consent at any time, and we will revoke the partner’s access to the information. The partner may, however, retain this information subject to their data retention policies. The Login.gov service does not collect any information you provide directly to the partner.
+We will never share your PII with a partner without your consent outside of the routine uses described in our Privacy Act Statement and our system of records notice GSA/TTS-1 (for example, if disclosure is necessary to investigate fraud related to your account). You may revoke this consent at any time, and we will revoke the partner’s access to the information. The partner may, however, retain this information subject to their data retention policies. The Login.gov service does not collect any information you provide directly to the partner.
 
 Prospective partners and other interested parties can find more information about the partner onboarding process from the Login.gov [developer guide](https://developers.login.gov/).
 
