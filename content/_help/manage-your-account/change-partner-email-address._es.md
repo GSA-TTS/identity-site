@@ -10,7 +10,7 @@ Login.gov le permite controlar cuál dirección de correo electrónico se propor
 
 - En la página “Está iniciando sesión por primera vez”, cuando inicie sesión por primera vez en alguna agencia asociada nueva.
 - En la página “Conecte su información verificada a...”, después de verificar su identidad.
-- En la página "Sus servicios conectados", haga clic en el enlace «Cambiar» situado junto a la dirección de correo electrónico que desee, debajo de la agencia asociada listada.
+- En la página "Sus servicios conectados", haga clic en el enlace "Cambiar" situado junto a la dirección de correo electrónico que desee, debajo de la agencia asociada listada.
 
 Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov y eliminar cualquier dirección de correo electrónico asociada con su cuenta de Login.gov. Obtenga más información en la página [“Cambie la dirección de correo electrónico asociada con su cuenta”](/es/help/manage-your-account/change-your-email-address/).
 
