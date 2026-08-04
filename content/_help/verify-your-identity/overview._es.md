@@ -16,7 +16,7 @@ redirect_from:
   - /es/help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
   - /es/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 verify_identity_list:
-- Licencia de conducir, identificación estatal o libreta de pasaporte
+- Licencia de conducir, identificación estatal o pasaporte (libreta o tarjeta) de EE. UU.
 - Número de Seguro Social
 - Número de teléfono o dirección postal en los EE. UU.
 ---
