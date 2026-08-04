@@ -11,9 +11,9 @@ component:
 
     Nuestros socios gubernamentales participantes ofrecen una variedad de servicios como:
 
-    * USAJOBS (Oficina de Administración de Personal)
+    * Medicare (Salud y Servicios Humanos)
 
-    * My Social Security (Administración del Seguro Social)
+    * [My Social Security (Administración del Seguro Social)](https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa)
 
     * VA.gov (Departamento de Asuntos de los Veteranos)
   col2: >-

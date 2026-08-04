@@ -7,9 +7,9 @@ order: 2
 do_list:
   - "**Driver's license** from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico)."
   - "**Non-driver's license state-issued ID card.** This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges."
-  - "**U.S. Passport book.** Passports are not yet accepted for [verifying in person](/help/verify-your-identity/verify-your-identity-in-person/). If you don't see the option to verify your identity with a passport, use a driver's license or state ID, or try to verify your identity again later."
+  - "**U.S. Passport book and cards.** Passports are not yet accepted for [verifying in person](/help/verify-your-identity/verify-your-identity-in-person/). If you don't see the option to verify your identity with a passport, use a driver's license or state ID, or try to verify your identity again later."
 dont_list:
-  - U.S. passport cards and non-U.S. passports
+  - Non-U.S. passports
   - Military IDs
   - Firearm license or permit cards
   - Expired IDs or extension documents

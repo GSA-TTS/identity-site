@@ -40,12 +40,14 @@ Antes de usar el servicio Login.gov, debe aceptar estas Reglas de uso. En caso d
 
 Además de los detalles sobre su consentimiento indicados en otras partes de estas condiciones, al aceptar estas Reglas de uso y usar el servicio Login.gov, usted confirma que:
 
-1. no es una persona menor de 13 años,
-2. toda la información que nos facilite es completa y correcta,
-3. si verifica su identidad, la identidad que declara al utilizar el servicio es la suya,
-4. al usar el servicio, cumplirá con las leyes locales, estatales y federales aplicables,
-5. preservará la confidencialidad de su información personal y de inicio de sesión, y
-6. mantendrá información precisa en su cuenta en todo momento.
+1. Debe tener al menos 13 años de edad para usar los servicios de autenticación de Login.gov,
+2. Si usa los servicios de verificación de identidad de Login.gov, debe tener al menos 18 años de edad,
+3. Debe usar una dirección de correo electrónico válida de la cual usted es el proprietario o bajo su control, donde pueda recibir comunicaciones de forma continua, y no debe usar direcciones de correo electrónico o dominios desechables, temporeros o de un sólo uso,
+4. Toda la información que nos proporcione debe ser completa y precisa,
+5. Si verifica su identidad, la identidad que declare al usar el servicio debe ser la suya,
+6. Debe cumplir con las leyes locales, estatales y federales aplicables al usar el servicio,
+7. Debe mantener la confidencialidad de su información personal y de inicio de sesión, y
+8. Debes mantener la información de su cuenta actualizada en todo momento.
 
 Asimismo, acepta que NO falseará su identidad ni tergiversará la información que presente en el servicio Login.gov y a través de los canales de atención al cliente.
 
@@ -76,13 +78,13 @@ Cuando registra un autenticador en el servicio Login.gov, acepta que lo utilicem
 
 Es necesario que proteja los autenticadores físicos (como códigos de recuperación impresos, un token de hardware o un teléfono) conservándolos en un lugar seguro o llevándolos con usted. No permita que se dañen. Si se pierden, rompen o dañan, puede perder el acceso a su cuenta.
 
-Si olvida su frase de contraseña, puede restablecerla si tiene acceso a su dirección de correo electrónico registrada. Si no dispone de ninguno de sus otros autenticadores, podrá seguir accediendo a su cuenta, pero eliminaremos toda la información que esta contenga. Puede cambiar su frase de contraseña en cualquier momento en el perfil de su cuenta. Si pierde otro autenticador o ya no desea utilizarlo, puede desactivarlo en el perfil de su cuenta en cualquier momento.
+Si olvidas su contraseña, puede restablecerla si tiene acceso a su correo electrónico registrado. Puede cambiar su contraseña en cualquier momento desde su perfil de cuenta. Si pierde otro método de autenticación o ya no desea usarlo, puedes desactivarlo en su perfil de cuenta cuando quiera.
 
 Si sospechamos que hubo fraude en su cuenta, podemos bloquearla y ponernos en contacto con usted. Si tenemos motivos para creer que su frase de contraseña se ha visto comprometida, es posible que le pidamos que la restablezca. Si su cuenta se ha visto comprometida de alguna manera, informe de inmediato a Login.gov en <https://login.gov/es/contact/>.
 
 ## 4. Comprobación y verificación de la identidad
 
-La primera vez que intente iniciar sesión usando en una aplicación de una agencia asociada que requiera su identidad, iniciaremos un proceso llamado verificación de identidad. La comprobación de identidad obtiene información sobre usted e intenta validarla y luego verificar que usted, el usuario, es la persona que dice ser. A esta información la llamamos prueba de identidad y generalmente incluye su nombre, fecha de nacimiento, número de Seguro Social, domicilio y una imagen de identificación, como su licencia de conducir. Usted acepta que la información que proporciona es suya, no de otra persona, y que es correcta.
+La primera vez que intente iniciar sesión con Login.gov en una aplicación asociada que requiera conocer su identidad, iniciaremos un proceso llamado verificación de identidad. Los servicios de verificación de identidad están disponibles solo para personas mayores de 18 años. Si es menor de 18 años, puede usar los servicios de autenticación de Login.gov, pero no podrá completar la verificación de identidad y no podrá acceder a las aplicaciones asociadas que la requieran hasta que cumpla con el requisito de edad. La verificación de identidad toma información sobre usted e intenta validarla y luego verificar que usted, el usuario, es la persona que dice ser. A esta información la llamamos evidencia de identidad y generalmente incluye su nombre, fecha de nacimiento, número de seguro social, domicilio y una imagen de una identificación (ID), como su licencia de conducir. Usted acepta que la información que proporciona es suya, no de otra persona, y que es precisa.
 
 Después de proporcionarnos esta prueba de identidad, intentamos validarla con diversas fuentes fidedignas y confiables. Utilizamos servicios de verificación de identidad de terceros para facilitarnos esta validación. Por ejemplo, si envía una imagen de su licencia de conducir de su estado de residencia, compararemos la información con los datos fidedignos del Departamento de Vehículos Motorizados (DMV), la Administración de Vehículos Motorizados (MVA) o la agencia estatal equivalente de su estado para garantizar que su información coincida con dichos registros. También utilizaremos tecnología para buscar ciertas características de seguridad en la licencia de conducir y garantizar su legitimidad.
 
@@ -127,8 +129,8 @@ La atención al cliente y los servicios de asistencia están siempre disponibles
 El servicio Login.gov conecta más fácilmente al público con las agencias del gobierno permitiendo a los usuarios acceder a varios programas gubernamentales con una sola cuenta de Login.gov.
 
 Las agencias asociadas seleccionan la información que necesitan de la lista de atributos que admitimos. Si aún no la tenemos, le solicitamos esa información a usted, la validamos y le pedimos su consentimiento para divulgarla a la agencia asociada. Los asociados pueden solicitar una serie de datos, como nombre, dirección, fecha de nacimiento, número de teléfono y dirección de correo electrónico. De acuerdo con la ley y la política federales, las agencias asociadas deben proteger esa información.
- 
-Nunca compartiremos su información personal identificable con un socio sin su consentimiento, como lo exige la ley, o a menos que la divulgación sea necesaria para investigar un fraude relacionado con su cuenta. Usted puede revocar este consentimiento en cualquier momento, y nosotros revocaremos el acceso del asociado a la información. No obstante, el asociado puede conservar esta información conforme a sus políticas de conservación de datos. El servicio Login.gov no recopila ninguna información que usted proporcione directamente al asociado.
+
+Nunca compartiremos su información personal con un socio sin su consentimiento, salvo para los usos habituales descritos en nuestra Declaración de Privacidad y en nuestro aviso del sistema de registros GSA/TTS-1 (por ejemplo, si la divulgación es necesaria para investigar un fraude relacionado con su cuenta). Puede revocar este consentimiento en cualquier momento, y nosotros revocaremos el acceso del socio a la información. Sin embargo, el socio podrá conservar esta información de acuerdo con sus políticas de retención de datos. El servicio Login.gov no recopila ninguna información que usted proporcione directamente al socio.
 
 Los posibles asociados y otras partes interesadas pueden obtener más información sobre el proceso de integración de los asociados en la [guía para desarrolladores](https://developers.login.gov/) (en inglés) de Login.gov.
 

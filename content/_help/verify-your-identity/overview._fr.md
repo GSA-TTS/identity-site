@@ -17,7 +17,7 @@ redirect_from:
   - /fr/help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
   - /fr/help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 verify_identity_list:
-- Un permis de conduire, une carte d’identité d’un État ou un passeport (livret)
+- Permis de conduire américain, carte d’identité délivrée par un État ou passeport américain (livret ou carte)
 - Un numéro de sécurité sociale
 - Un numéro de téléphone des États-Unis ou une adresse postale aux États-Unis
 ---

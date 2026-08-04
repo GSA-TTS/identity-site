@@ -20,7 +20,7 @@ Algunas agencias permiten verificar la dirección por correo postal en lugar de 
 
 1. Cuando vea una pantalla que indica que su carta está en camino, puede cerrar la sesión de Login.gov por ahora, y esperar a que llegue su carta.
 
-1. Las cartas se envían el día hábil siguiente por First-Class Mail del Servicio Postal de los Estados Unidos (USPS). La carta tarda de 5 a 10 días en llegar por correo postal. El código de verificación vencerá 30 días después de la fecha en que usted envíe su solicitud.
+1. Las cartas se envían el día hábil siguiente por First-Class Mail del Servicio Postal de los Estados Unidos (USPS). La carta tarda de 5 a 10 días en llegar por correo postal. El código de verificación vencerá 21 días después de la fecha en que usted envíe su solicitud.
 
 1. Cuando reciba su carta, vuelva a iniciar sesión e ingrese el código de verificación.
 
@@ -44,7 +44,7 @@ Si no recibió una carta después de 5 o 10 días, o si su código de verificaci
 
 Contacte con la agencia a la que está intentando acceder si necesita recibir los servicios de esa agencia antes de que llegue su carta.
 
-Si comenzó la verificación de su identidad hace más de 30 días, tendrá que comenzar de nuevo y volver a verificar su identidad antes de poder solicitar otra carta.
+Si comenzó la verificación de su identidad hace más de 21 días, tendrá que comenzar de nuevo y volver a verificar su identidad antes de poder solicitar otra carta.
 
 ## Otros artículos
 

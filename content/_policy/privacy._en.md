@@ -13,7 +13,7 @@ redirect_from:
 
 The Login.gov service is provided by the U.S. General Services Administration to offer the public secure and private online access to participating government programs. Using only one Login.gov account, users can sign into multiple government agency sites. Our goal is to make managing federal benefits, services, and applications faster, easier, and more secure.
 
-By accessing the Login.gov service, you acknowledge and agree to this Privacy Act Statement and the Login.gov Rules of Use. We will post any changes to these terms to this page. If the changes affect our handling of your personal information or are otherwise deemed significant, we will notify you by email. If we cannot reach you by email, we reserve the right to contact you by other means, including postal mail. If at any time you no longer agree to this Privacy Act Statement or any other relevant terms of the Login.gov service, you may delete your account.
+By accessing the Login.gov service, you acknowledge and agree to this Privacy Act Statement and the Login.gov Rules of Use. We will post any changes to these terms to this page. If at any time you no longer agree to this Privacy Act Statement or any other relevant terms of the Login.gov service, you may delete your account.
 
 ### The Authority - Who authorizes the collection of this data?  ### {#authority}
 

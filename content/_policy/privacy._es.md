@@ -11,7 +11,7 @@ redirect_from:
 
 La Administración General de Servicios de los EE. UU. proporciona el servicio Login.gov para ofrecer al público un acceso en línea seguro y privado a los programas gubernamentales participantes. Con una sola cuenta de Login.gov, los usuarios pueden iniciar sesión en muchos sitios de agencias del gobierno. Nuestra meta es facilitar, agilizar y hacer más segura la administración de beneficios, servicios y aplicaciones federales.
 
-Al acceder al servicio Login.gov, usted reconoce y acepta esta Declaración de privacidad y las Reglas de uso de Login.gov. En esta página, publicaremos cualquier cambio que se haga a estas condiciones. Si los cambios afectan nuestro manejo de su información personal o si se consideran importantes por otro motivo, se lo notificaremos por correo electrónico. Si no podemos ponernos en contacto con usted por correo electrónico, nos reservamos el derecho de hacerlo por otros medios, incluido el correo postal. Si en algún momento deja de estar de acuerdo con esta Declaración de privacidad o con cualquier otra condición pertinente del servicio Login.gov, puede eliminar su cuenta.
+Al acceder al servicio Login.gov, usted reconoce y acepta esta Declaración de Privacidad y las Reglas de Uso de Login.gov. Publicaremos cualquier modificación a estos términos en esta página. Si en algún momento deja de estar de acuerdo con esta Declaración de Privacidad o con cualquier otro término relevante del servicio Login.gov, puede eliminar su cuenta.
 
 ### Autoridad: ¿Quién autoriza la recopilación de estos datos? ### {#authority}
 

@@ -7,9 +7,9 @@ order: 2
 do_list:
   - "**Licencia de conducir** de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico)."
   - "**Tarjeta de identificación estatal que no sea una licencia de conducir.** Un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no concede permiso para conducir."
-  - "**Libreta de pasaporte de los EE. UU.** Aun no se aceptan pasaportes para [verificar en persona](/es/help/verify-your-identity/verify-your-identity-in-person/). Si no ve la opción de verificar su identidad con un pasaporte, utilice su licencia de conducir o una identificación estatal, o bien intente verificar su identidad más tarde."
+  - "**Libretas y tarjetas de pasaporte de EE. UU.** Los pasaportes aún no se aceptan para la [verificación en persona](/es/help/verify-your-identity/verify-your-identity-in-person/). Si no ve la opción para verificar su identidad con un pasaporte, utilice una licencia de conducir o una identificación estatal, o intente verificar su identidad nuevamente más tarde."
 dont_list:
-  - Tarjetas de pasaporte de los EE. UU. y pasaportes que no sean de los Estados Unidos
+  - Pasaportes de otros países
   - Identificaciones militares
   - Tarjetas de permiso o de licencia para portar armas de fuego
   - Identificaciones vencidas o documentos de prórroga
