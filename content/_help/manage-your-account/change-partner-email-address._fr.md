@@ -100,7 +100,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
     </button>
   </h1>
   <div id="b-a3" class="usa-accordion__content usa-prose">
-    <p>Vous pouvez gérer toutes les adresses e-mail que vous communiquez à chaque organisme partenaire sur la page « Vos comptes connectés ».</p>
+    <p>Vous pouvez gérer toutes les adresses e-mail que vous communiquez à chaque organisme partenaire sur la page « Vos services connectés ».</p>
 
     <ol class="number-list">
       <li>Saisissez votre adresse e-mail sur <a href="https://secure.login.gov/fr/" class="usa-link">https://secure.login.gov/fr/</a>.</li>
@@ -110,7 +110,7 @@ Vous pouvez ajouter plusieurs adresses e-mail à votre compte Login.gov et en su
       <li>Cliquez sur « Vos services connectés » dans le menu.</li>
       <li>Cliquez sur le lien « Modifier » sous chaque organisme partenaire pour modifier votre adresse e-mail.</li>
       <li>Sur la page « Sélectionner l’adresse de votre choix », cliquez sur l'adresse que vous souhaitez communiquer, puis sur le bouton « Sélectionner cette adresse » pour continuer.</li>
-      <li>Vous pouvez également ajouter une nouvelle adresse e-mail à communiquer à un organisme partenaire en cliquant sur le lien « Modifier » (sur la page « Vos comptes connectés ») ou le bouton « Ajouter une nouvelle adresse e-mail » (sur la page « Sélectionner l’adresse de votre choix »).</li>
+      <li>Vous pouvez également ajouter une nouvelle adresse e-mail à communiquer à un organisme partenaire en cliquant sur le lien « Modifier » (sur la page « Vos services connectés ») ou le bouton « Ajouter une nouvelle adresse e-mail » (sur la page « Sélectionner l’adresse de votre choix »).</li>
     </ol>
 
     <div class="grid-row grid-gap">

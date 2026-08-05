@@ -100,7 +100,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
     </button>
   </h1>
   <div id="b-a3" class="usa-accordion__content usa-prose">
-    <p>En la página “Sus cuentas conectadas”, puede ver todas las direcciones de correo electrónico que ha proporcionado a cada agencia asociada con la que está conectado.</p>
+    <p>En la página “Sus servicios conectados”, puede ver todas las direcciones de correo electrónico que ha proporcionado a cada agencia asociada con la que está conectado.</p>
 
     <ol class="number-list">
       <li>Ingrese su dirección de correo electrónico en <a href="https://secure.login.gov/es/" class="usa-link">https://secure.login.gov/es/</a>.</li>
@@ -110,7 +110,7 @@ Puede agregar varias direcciones de correo electrónico a su cuenta de Login.gov
       <li>Haz clic en «Sus servicios conectados» en el menú.</li>
       <li>Haga clic en el vínculo “Cambiar” de cada agencia asociada para actualizar su correo electrónico.</li>
       <li>En la página “Seleccione su correo electrónico preferido”, haga clic en la dirección de correo electrónico que desea proporcionar y luego en el botón “Seleccionar correo electrónico” para continuar.</li>
-      <li>También puede agregar otra dirección de correo electrónico para proporcionarla a una agencia asociada haciendo clic en el vínculo “Cambiar” (en la página “Sus cuentas conectadas”) o en el botón “Agregar nuevo correo electrónico” (en la página “Seleccione su correo electrónico preferido”).</li>
+      <li>También puede agregar otra dirección de correo electrónico para proporcionarla a una agencia asociada haciendo clic en el vínculo “Cambiar” (en la página “Sus servicios conectados”) o en el botón “Agregar nuevo correo electrónico” (en la página “Seleccione su correo electrónico preferido”).</li>
     </ol>
 
     <div class="grid-row grid-gap">
