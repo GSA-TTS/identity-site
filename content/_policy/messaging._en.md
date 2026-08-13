@@ -18,4 +18,4 @@ redirect_from:
 * To opt out of receiving text messages from Login.gov reply with the message STOP to the unwanted text message.
 * See [Our privacy act statement](/policy/our-privacy-act-statement/) for privacy policy information.
 * Carriers are not liable for delayed or undelivered messages.
-* You may [contact customer care](/contact/) if you have questions or concerns.
+* You may [contact help center](/contact/) if you have questions or concerns.
