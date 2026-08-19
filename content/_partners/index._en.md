@@ -6,7 +6,6 @@ redirect_from:
 - /partners/learn/
 - /partners/our-agency-partners/
 - /partners/why-login-gov/
-- /partners/determining-your-assurance-level/
 title: Simple, secure online access for the public
 description: Login.gov adds the public’s one account for government to your agency.
 class: partners
