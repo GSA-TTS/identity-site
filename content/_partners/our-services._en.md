@@ -8,7 +8,7 @@ title: >-
 subtitle: >-
     ## Understanding our service levels
 subsection: >-
-    Login.gov provides three service levels for partners: authentication, basic identity verification, and enhanced identity verification. Login.gov leverages the [NIST Digital Identity Guidelines](https://pages.nist.gov/800-63-3/){:class="usa-link--external"} for Identity Assurance Level (IAL) and Authenticator Assurance Level (AAL). Login.gov allows you to configure your service depending on the needs of your application.
+    Login.gov provides three service levels for partners: authentication, basic identity verification, and enhanced identity verification. Login.gov leverages the [NIST Digital Identity Guidelines](https://pages.nist.gov/800-63-4/){:class="usa-link--external"} for Identity Assurance Level (IAL) and Authenticator Assurance Level (AAL). Login.gov allows you to configure your service depending on the needs of your application.
 self_identity_auth: >-
     ### Self-asserted identity and authentication
 
@@ -29,7 +29,7 @@ enhanced_identity_verification: >-
     ### Enhanced identity verification (IAL2 compliant)
 
 
-    For this service level, users create an authentication-only account, and then go further by supplying identity documentation and a selfie. Login.gov uses proven facial matching technology that compares the selfie exclusively with the user’s photo ID—and does not use the image for any other purpose. Users also have the option to choose in-person identity verification at a participating U.S. Postal Service location. The enhanced identity verification service has been certified as compliant at the [NIST IAL2 level](https://pages.nist.gov/800-63-3/){:class="usa-link--external"} by an independent, third-party assessor [Kantara Initiative](https://kantarainitiative.org/trust-status-list/){:class="usa-link--external"}.
+    For this service level, users create an authentication-only account, and then go further by supplying identity documentation and a selfie. Login.gov uses proven facial matching technology that compares the selfie exclusively with the user’s photo ID—and does not use the image for any other purpose. Users also have the option to choose in-person identity verification at a participating U.S. Postal Service location. The enhanced identity verification service has been certified as compliant at the [NIST IAL2 level](https://pages.nist.gov/800-63-4/){:class="usa-link--external"} by an independent, third-party assessor [Kantara Initiative](https://kantarainitiative.org/trust-status-list/){:class="usa-link--external"}.
 
 
     ![Kantara logo](/assets/img/partners/kantara_logo.png){: .display-block .margin-x-auto}
