@@ -8,10 +8,6 @@ twitter_card: large
 image: /assets/img/login-gov-600x314.png
 ---
 
-## Designed to make every step better
-
-We are refreshing the Login.gov user experience to make it easier to use.
-
 <div class="grid-row grid-gap flex-align-center margin-y-4">
   <div class="tablet:grid-col-6">
     <img alt="The refreshed Login.gov sign-in screen with a cleaner layout, larger text, and clearer visual hierarchy." src="{{ site.baseurl }}/assets/img/refreshed-sign-in-ui.png" class="width-full">
