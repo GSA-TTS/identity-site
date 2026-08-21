@@ -24,7 +24,7 @@ The updated style creates clearer handoff points between agency websites and Log
 
 ## Better guidance through identity verification
 
-A new progress indicator is designed to help people understand where they are in the identity verification process. Updated instructions and visual explanations also make it easier to compare and select multifactor authentication methods.
+A new progress indicator is designed to help people understand where they are in the identity verification process. Updated instructions and visual explanations also make it easier to compare and select multi-factor authentication methods.
 
 ![The updated identity verification screen with a progress indicator showing where the user is in the verification process.](/assets/img/better-guidance-ui.png){: .display-block .margin-x-auto}
 
