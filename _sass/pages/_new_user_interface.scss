@@ -8,13 +8,4 @@
   img {
     border-radius: $border-radius;
   }
-
-  .full-measure {
-    max-width: none;
-
-    > *,
-    .usa-list li {
-      max-width: none;
-    }
-  }
 }

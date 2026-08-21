@@ -43,7 +43,6 @@ Larger buttons and text, stronger color contrast, and clearer visual hierarchy m
   </div>
 </div>
 
-<div class="usa-prose full-measure margin-y-4" markdown="1">
 ## A new look. The same trusted Login.gov.
 
 Login.gov is a service of the U.S. General Services Administration. We protect your Login.gov account, safeguard your personal information, and provide secure access to participating government services.
@@ -52,9 +51,7 @@ Login.gov is a service of the U.S. General Services Administration. We protect y
 - **Same destination** — You will still return to the government agency or service you were trying to access after signing in or verifying your identity.
 - **Same protections** — Login.gov’s security, privacy, identity, and accessibility requirements continue to apply.
 - **No action required** — You do not need to create a new account because the interface looks different.
-</div>
 
-<div class="usa-prose full-measure margin-y-4" markdown="1">
 ## FAQ
 
 ### Why does Login.gov look different?
@@ -72,4 +69,3 @@ Login.gov may show different versions during user testing and phased rollout. Th
 ### How were these updates developed?
 
 Login.gov collaborated with the National Design Studio to create a clearer, more user-friendly experience. This work supports the federal [America by Design initiative](https://www.whitehouse.gov/presidential-actions/2025/08/improving-our-nation-through-better-design/){:class="external-link"}.
-</div>
