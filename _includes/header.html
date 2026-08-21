@@ -57,6 +57,14 @@
           </li>
           <li class="usa-nav__primary-item">
             <a
+              class="usa-nav__link {% if page.url contains '/new-user-interface/' %}usa-current{% endif %}"
+              href="{{ '/new-user-interface/' | locale_url }}"
+            >
+              {{ site.data.[page.lang].settings.nav.new_experience }}
+            </a>
+          </li>
+          <li class="usa-nav__primary-item">
+            <a
               class="usa-nav__link {% if page.url contains '/help/' %}usa-current{% endif %}"
               href="{{ '/help/' | locale_url }}"
             >

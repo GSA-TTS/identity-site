@@ -18,6 +18,8 @@ layout: base
     {% include components/who-uses-login.html class=page.class col1=page.component.col1 col2=page.component.col2%}
   {% elsif page.class == 'create-an-account' %}
     {% include components/create-an-account.html class=page.class intro=page.steps.intro step1=page.steps.step1 step2=page.steps.step2 step3=page.steps.step3 info=page.steps.info %}
+  {% elsif page.class == 'new-user-interface' %}
+    {% include components/new-user-interface.html class=page.class body=content %}
   {% else %}
     {{ content }}
   {% endif %}

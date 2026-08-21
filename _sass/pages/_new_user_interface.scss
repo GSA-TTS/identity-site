@@ -1,0 +1,7 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+
+.new-user-interface {
+  padding-top: $container-spacing;
+  padding-bottom: $container-spacing;
+}
