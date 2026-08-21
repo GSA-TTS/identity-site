@@ -14,7 +14,7 @@ We are refreshing the Login.gov user experience to make it easier to use.
 
 <div class="grid-row grid-gap flex-align-center margin-y-4">
   <div class="tablet:grid-col-6">
-    <img alt="The refreshed Login.gov sign-in screen with a cleaner layout, larger text, and clearer visual hierarchy." src="/assets/img/refreshed-sign-in-ui.png" class="width-full">
+    <img alt="The refreshed Login.gov sign-in screen with a cleaner layout, larger text, and clearer visual hierarchy." src="{{ site.baseurl }}/assets/img/refreshed-sign-in-ui.png" class="width-full">
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 ## A cleaner, more intuitive design
@@ -25,7 +25,7 @@ The updated style creates clearer handoff points between agency websites and Log
 
 <div class="grid-row grid-gap flex-align-center margin-y-4">
   <div class="tablet:grid-col-6">
-    <img alt="Animation showing the more intuitive Login.gov design, with focused screens and clearer handoff points between an agency website and Login.gov." src="/assets/img/more-intuitive-design.gif" class="width-full">
+    <img alt="Animation showing the more intuitive Login.gov design, with focused screens and clearer handoff points between an agency website and Login.gov." src="{{ site.baseurl }}/assets/img/more-intuitive-design.gif" class="width-full">
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 ## Better guidance through identity verification
@@ -36,7 +36,7 @@ A new progress indicator is designed to help people understand where they are in
 
 <div class="grid-row grid-gap flex-align-center margin-y-4">
   <div class="tablet:grid-col-6">
-    <img alt="The updated identity verification screen with a progress indicator showing where the user is in the verification process." src="/assets/img/better-guidance-ui.png" class="width-full">
+    <img alt="The updated identity verification screen with a progress indicator showing where the user is in the verification process." src="{{ site.baseurl }}/assets/img/better-guidance-ui.png" class="width-full">
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 ## Usability improvements
