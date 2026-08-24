@@ -1,0 +1,16 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+
+.new-user-interface {
+  padding-top: $container-spacing;
+  padding-bottom: $container-spacing;
+
+  img {
+    border-radius: $border-radius;
+  }
+
+  .media-frame {
+    outline: 1px solid #dadbde;
+    outline-offset: -1px;
+  }
+}

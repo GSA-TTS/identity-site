@@ -11,19 +11,15 @@ component:
 
     Les organismes fédéraux partenaires proposent toute une gamme de services tels que :
 
-    * Medicare (Département de la Santé et des Services sociaux)
+    * [My Social Security (Administration de la Sécurité sociale)](https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa){:class="external-link"}
 
-    * [My Social Security (Administration de la Sécurité sociale)](https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa)
+    * Medicare ([Medicare.gov](https://www.medicare.gov/){:class="external-link"} - Département de la Santé et des Services sociaux)
 
-    * VA.gov (Affairs département des Anciens Combattants)
+    * [VA.gov](https://www.va.gov/){:class="external-link"} (Affairs département des Anciens Combattants)
   col2: >-
     Login.gov respecte les dernières [normes de sécurité](/fr/policy/)
     mises en place par les plus grandes organisations de sécurité, telles que
-    l’[Institut national des normes et de la technologie](https://www.nist.gov/), le
-    [Plan national d’action pour la
-    cybersécurité](https://www.nccoe.nist.gov/news-insights/cybersecurity-national-action-plan) et le
-    [Service fédéral des
-    acquisitions](https://www.gsa.gov/about-us/organization/federal-acquisition-service).
+    l’[Institut national des normes et de la technologie](https://www.nist.gov/).
 
 
     Les organismes choisissent Login.gov parce que notre solution est sécurisée — et simple. [En savoir plus au sujet des programmes de nos partenaires](/partners/).

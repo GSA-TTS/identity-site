@@ -13,19 +13,15 @@ component:
 
     Our participating government partners offer a variety of services such as:
 
-    * Medicare (Health and Human services) 
+    * [My Social Security (Social Security Administration)](https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa){:class="external-link"}
 
-    * [My Social Security (Social Security Administration)](https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa)
+    * Medicare ([Medicare.gov](https://www.medicare.gov/){:class="external-link"} - Health and Human services) 
 
-    * VA.gov (Department of Veterans Affairs)
+    * [VA.gov](https://www.va.gov/){:class="external-link"} (Department of Veterans Affairs)
   col2: >-
-    Login.gov adheres to the latest [security standards](/policy/)
-    established by top security organizations such as the [National Institute of
-    Standards and Technology](https://www.nist.gov/), the [Cybersecurity
-    National Action
-    Plan](https://www.nccoe.nist.gov/news-insights/cybersecurity-national-action-plan) and the
-    [Federal Acquisition
-    Service](https://www.gsa.gov/about-us/organization/federal-acquisition-service)
+    Login.gov adheres to the latest [security standards](https://login.gov/policy/)
+    established by top security organizations including the [National Institute
+    of Standards and Technology](https://www.nist.gov/).
 
 
     Agencies choose Login.gov because we provide a secure — and simple — solution. [Read more about our partner program](/partners/).
