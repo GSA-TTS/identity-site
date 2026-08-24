@@ -9,7 +9,7 @@
     border-radius: $border-radius;
   }
 
-  img[src$='.gif'] {
+  .media-frame {
     outline: 1px solid #dadbde;
     outline-offset: -1px;
   }

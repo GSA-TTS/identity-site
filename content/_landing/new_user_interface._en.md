@@ -6,8 +6,6 @@ permalink: /new-user-interface/
 class: new-user-interface
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
-redirect_from:
-  - /en/new-user-interface/
 ---
 
 <div class="grid-row grid-gap flex-align-center margin-y-4">
@@ -23,7 +21,7 @@ The updated style creates clearer handoff points between agency websites and Log
 
 <div class="grid-row grid-gap flex-align-center margin-y-4">
   <div class="tablet:grid-col-6">
-    <img alt="Animation showing the more intuitive Login.gov design, with focused screens and clearer handoff points between an agency website and Login.gov." src="{{ site.baseurl }}/assets/img/more-intuitive-design.gif" class="width-full">
+    <img alt="Animation showing the more intuitive Login.gov design, with focused screens and clearer handoff points between an agency website and Login.gov." src="{{ site.baseurl }}/assets/img/more-intuitive-design.gif" class="width-full media-frame">
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 ## Better guidance through identity verification
