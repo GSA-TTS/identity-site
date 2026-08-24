@@ -11,13 +11,13 @@ component:
 
     参与本项目的政府伙伴提供各种各样的服务，比如：
 
-    * 联邦医疗保险（卫生与公众服务部）
+    * [我的社会保障（My Social Security）（社会保障局）](https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa){:class="external-link"}
 
-    * [我的社会保障（My Social Security）（社会保障局）](https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa)
+    * 联邦医疗保险（[Medicare.gov](https://www.medicare.gov/){:class="external-link"}）（卫生与公众服务部）
 
-    * VA.gov (退伍军人事务部)
+    * [VA.gov](https://www.va.gov/){:class="external-link"} (退伍军人事务部)
   col2: >-
-    Login.gov 遵守由最知名的安全机构建立的最新的[安全标准](/zh/policy/)，这些机构包括国家标准与技术研究院（[National Institute of Standards and Technology](https://www.nist.gov/)）、网络安全国家行动计划 （[Cybersecurity National Action Plan](https://www.nccoe.nist.gov/news-insights/cybersecurity-national-action-plan)）以及联邦采购服务局（[Federal Acquisition Service](https://www.gsa.gov/about-us/organization/federal-acquisition-service)）
+    Login.gov 遵守由最知名的安全机构建立的最新的[安全标准](/zh/policy/)，这些机构包括国家标准与技术研究院（[National Institute of Standards and Technology](https://www.nist.gov/)）。
 
 
     政府机构选择 Login.gov是因为我们提供了一个安全而且简单的解决方案。[阅读更多有关我们的伙伴计划的内容](/partners/)。

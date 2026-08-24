@@ -11,19 +11,15 @@ component:
 
     Nuestros socios gubernamentales participantes ofrecen una variedad de servicios como:
 
-    * Medicare (Salud y Servicios Humanos)
+    * [My Social Security (Administración del Seguro Social)](https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa){:class="external-link"}
 
-    * [My Social Security (Administración del Seguro Social)](https://www.ssa.gov/myaccount?utm_source=ds&utm_medium=website&utm_content=gsa_brochure&utm_id=myssa)
+    * Medicare ([Medicare.gov](https://www.medicare.gov/){:class="external-link"} - Salud y Servicios Humanos)
 
-    * VA.gov (Departamento de Asuntos de los Veteranos)
+    * [VA.gov](https://www.va.gov/){:class="external-link"} (Departamento de Asuntos de los Veteranos)
   col2: >-
     Login.gov cumple las [normas de seguridad](/es/policy/) más recientes
     establecidas por las principales organizaciones de seguridad, como el
-    [Instituto Nacional de Estándares y Tecnología](https://www.nist.gov/), el
-    [Plan de Acción Nacional de
-    Ciberseguridad](https://www.nccoe.nist.gov/news-insights/cybersecurity-national-action-plan) y el
-    [Servicio Federal de
-    Adquisiciones](https://www.gsa.gov/about-us/organization/federal-acquisition-service).
+    [Instituto Nacional de Estándares y Tecnología](https://www.nist.gov/).
 
 
     Las agencias eligen Login.gov porque ofrecemos una solución segura y sencilla. [Lea más sobre nuestro programa de socios](/partners/).
