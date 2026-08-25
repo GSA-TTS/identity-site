@@ -1,6 +1,8 @@
 {% include osc_analytics.html %}
 {% include dap.html %}
 {% include gtm_head.html %}
-{% include google_recaptcha.html %}
+{% if page.recaptcha %}
+  {% include google_recaptcha.html %}
+{% endif %}
 
 <script src="{{ '/assets/js/init.js' | relative_url }}"></script>

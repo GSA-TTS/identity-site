@@ -1,6 +1,7 @@
 ---
 layout: contact_us
 sidenav: contact_us
+recaptcha: true
 title: '联系我们'
 description: 有问题或者关于Login.gov的问题？
 scripts:
