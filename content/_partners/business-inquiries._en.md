@@ -1,5 +1,6 @@
 ---
 layout: partners/contact
+recaptcha: true
 permalink: /partners/business-inquiries/
 title: >-
     Business inquiries

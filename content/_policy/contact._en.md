@@ -1,6 +1,7 @@
 ---
 layout: contact_us
 sidenav: contact_us
+recaptcha: true
 title: Contact us
 description: Have a question or a problem with Login.gov?
 scripts:
