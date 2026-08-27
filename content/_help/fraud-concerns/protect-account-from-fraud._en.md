@@ -19,7 +19,7 @@ Keeping your account secure helps prevent identity theft and financial loss. Fol
 	- Use authentication methods like [face or touch unlock](/help/create-account/authentication-methods/face-or-touch-unlock/) when possible, which are resistant to phishing attacks: people pretending to be someone you trust to gain access to your account.
 
 3. Monitor your account regularly
-	- [Sign in](https://secure.login.gov/) frequently to check for unfamiliar changes such as new email addresses or MFA methods added to your account.
+	- [Sign in](https://secure.login.gov/) frequently to check for unfamiliar changes such as new email addresses or multi-factor authentication methods added to your account.
 	- Check your Login.gov account history for unusual logins.
 	- Review your linked agencies and services to ensure nothing unexpected is connected.
 	- Keep your email address and authentication methods up to date in case you lose access to them.
