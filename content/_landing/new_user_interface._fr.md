@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: Preview the New Login.gov Experience
-description: We are refreshing the Login.gov user experience to make it easier to use.
+title: Aperçu de la nouvelle expérience Login.gov
+description: Nous modernisons l’expérience utilisateur Login.gov afin de la rendre plus simple.
 permalink: /fr/new-user-interface/
 class: new-user-interface
 twitter_card: large
@@ -14,9 +14,9 @@ image: /assets/img/login-gov-600x314.png
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 
-## A cleaner, more intuitive design
+## Un design épuré et plus intuitif
 
-The updated style creates clearer handoff points between agency websites and Login.gov. More focused screens emphasize the information and actions users need at each step.
+Cette nouvelle présentation permet de mieux identifier les points de transition entre les sites web des administrations et Login.gov. Chaque écran met davantage en avant les informations et les actions utiles à l’utilisateur à chaque étape.
 
   </div>
 </div>
@@ -27,9 +27,9 @@ The updated style creates clearer handoff points between agency websites and Log
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 
-## Better guidance through identity verification
+## Un meilleur accompagnement tout au long de la vérification d’identité
 
-A new progress indicator is designed to help people understand where they are in the identity verification process. Updated instructions and visual explanations also make it easier to compare and select multi-factor authentication methods.
+Un nouvel indicateur de progression permet aux utilisateurs de mieux se repérer dans le processus de vérification d’identité. Des instructions actualisées et des explications visuelles facilitent également la comparaison et le choix des méthodes d’authentification multifacteur.
 
   </div>
 </div>
@@ -40,9 +40,9 @@ A new progress indicator is designed to help people understand where they are in
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 
-## Usability improvements
+## Une utilisation plus simple
 
-Larger buttons and text, stronger color contrast, and clearer visual hierarchy make Login.gov easier to use for more people and across more devices.
+Des boutons et des textes plus grands, des contrastes de couleurs plus marqués et une hiérarchie visuelle plus claire facilitent l’utilisation de Login.gov sur différents appareils et pour tous les utilisateurs.
 
   </div>
 </div>
@@ -51,32 +51,32 @@ Larger buttons and text, stronger color contrast, and clearer visual hierarchy m
   <div class="tablet:grid-col-6"></div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 
-## A new look. The same trusted Login.gov.
+## Un nouvel aspect, mais toujours aussi fiable : Login.gov.
 
-Login.gov is a service of the U.S. General Services Administration. We protect your Login.gov account, safeguard your personal information, and provide secure access to participating government services.
+Login.gov est un service de l'Administration des services généraux américains. Nous protégeons votre compte Login.gov, protégeons vos informations personnelles et fournissons un accès sécurisé aux services gouvernementaux participants.
 
-- **Same account** — Your Login.gov email address, password, and authentication methods continue to work.
-- **Same destination** — You will still return to the government agency or service you were trying to access after signing in or verifying your identity.
-- **Same protections** — Login.gov’s security, privacy, identity, and accessibility requirements continue to apply.
-- **No action required** — You do not need to create a new account because the interface looks different.
+- **Même compte** — Votre adresse e-mail Login.gov, votre mot de passe et vos méthodes d’authentification restent inchangés.
+- **Même destination** — Après vous être connecté ou avoir vérifié votre identité, vous serez toujours redirigé vers l’administration ou le service auquel vous souhaitiez accéder.
+- **Mêmes protections** — Les exigences de sécurité, de confidentialité, d’identité et d’accessibilité de Login.gov restent en vigueur.
+- **Aucune action requise** — Vous n’avez pas besoin de créer un nouveau compte simplement parce que l’interface a changé.
 
 ## FAQ
 
-### Why does Login.gov look different?
+### Pourquoi Login.gov a-t-il changé d’apparence ?
 
-We updated the design to make Login.gov clearer, easier to navigate, and more accessible. Some users may see the refreshed design while testing and rollout are underway.
+Nous avons mis à jour le design de Login.gov pour le rendre plus clair, plus facile à naviguer et plus accessible. Il se peut que certains utilisateurs voient déjà la nouvelle interface, actuellement en phase de test et de déploiement progressif.
 
-### Do I need to create a new account?
+### Dois-je créer un nouveau compte ?
 
-No. Your existing Login.gov account and authentication methods continue to work.
+Non. Votre compte Login.gov actuel et vos méthodes d’authentification restent inchangés.
 
-### Why am I seeing a different design than someone else?
+### Pourquoi l’interface que je vois est-elle différente de celle d’un autre utilisateur ?
 
-Login.gov may show different versions during user testing and phased rollout. This allows us to compare experiences, identify issues, and introduce changes carefully.
+Login.gov peut afficher différentes versions lors des tests utilisateurs et des phases de déploiement. Cela nous permet de comparer les expériences utilisateur, de repérer les éventuels problèmes et d’introduire les changements de façon progressive et maîtrisée.
 
-### How were these updates developed?
+### Comment ces mises à jour ont-elles été développées ?
 
-Login.gov collaborated with the National Design Studio to create a clearer, more user-friendly experience. This work supports the federal [America by Design initiative](https://www.whitehouse.gov/presidential-actions/2025/08/improving-our-nation-through-better-design/){:class="external-link"}.
+Login.gov a collaboré avec le National Design Studio afin de proposer une expérience plus claire et plus intuitive. Ce travail s'inscrit dans le cadre de l’initiative fédérale [America by Design](https://www.whitehouse.gov/presidential-actions/2025/08/improving-our-nation-through-better-design/){:class="external-link"}.
 
   </div>
 </div>
