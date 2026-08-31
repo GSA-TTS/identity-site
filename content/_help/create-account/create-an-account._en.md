@@ -19,11 +19,11 @@ Login.gov is the public’s one account and password for the government. Login.g
 
 You need an email address, password and a multi-factor [authentication method](/help/create-account/authentication-methods/) (MFA) to create an account.
 
-- Choose an email address that you’ll always be able to access (ex: a personal e-mail, rather than work unless required to do so)
+- Choose an email address that you’ll always be able to access (for example: a personal e-mail, rather than work unless required to do so)
 - Passwords must be 12 characters
 - An authentication method is an added layer of protection to your account. Review the authentication methods available and select the most accessible and secure choice for your account.
 
-Login.gov requires all users to use Multi-factor authentication when creating an account and signing in.
+Login.gov requires all users to use multi-factor authentication when creating an account and signing in.
 
 If you do not have a phone that you can use for this, you can choose to use one of the other authentication methods (security options) available. You can use an authentication application, backup codes, or a security key. Government employees can also use their PIV or CAC cards.
 
