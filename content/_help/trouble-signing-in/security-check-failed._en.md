@@ -6,7 +6,7 @@ permalink: /help/trouble-signing-in/security-check-failed/
 order: 6
 ---
 
-Login.gov uses [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?hl=en){:class="usa-link--external"} to ensure your account is being accessed by you — not someone pretending to be you.
+Login.gov uses [reCAPTCHA](https://cloud.google.com/security/products/recaptcha?hl=en){:class="usa-link--external"} and other security tools to help make sure it’s really you accessing your account, not someone else.
 
 ## How do I access my account?
 
