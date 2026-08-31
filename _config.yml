@@ -126,6 +126,10 @@ defaults:
       path: 'docs/login-gov-press-kit.pdf'
     values:
       sitemap: false
+  - scope:
+      path: 'docs/fact-sheet.pdf'
+    values:
+      sitemap: false
 
 include:
   # dotfiles are excluded by default
@@ -137,6 +141,7 @@ include:
   - docs/login-gov-roadmap-august-2026.pdf
   - docs/login-gov-roadmap-dec-2025.pdf
   - docs/login-gov-press-kit.pdf
+  - docs/fact-sheet.pdf
 
 exclude:
   - babel.config.json
