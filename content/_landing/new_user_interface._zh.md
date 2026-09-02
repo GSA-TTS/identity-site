@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: Preview the New Login.gov Experience
-description: We are refreshing the Login.gov user experience to make it easier to use.
+title: 预览全新 Login.gov 使用体验
+description: 我们正在升级 Login.gov 用户体验，使其更便于使用。
 permalink: /zh/new-user-interface/
 class: new-user-interface
 twitter_card: large
@@ -14,9 +14,9 @@ image: /assets/img/login-gov-600x314.png
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 
-## A cleaner, more intuitive design
+## 更简洁直观的设计
 
-The updated style creates clearer handoff points between agency websites and Login.gov. More focused screens emphasize the information and actions users need at each step.
+全新优化的界面样式，让政府机构网站与 Login.gov 之间的跳转衔接更加清晰。 页面内容更加聚焦，突出用户在每一步所需查看的信息与需要执行的操作。
 
   </div>
 </div>
@@ -27,9 +27,9 @@ The updated style creates clearer handoff points between agency websites and Log
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 
-## Better guidance through identity verification
+## 身份验证指引更完善
 
-A new progress indicator is designed to help people understand where they are in the identity verification process. Updated instructions and visual explanations also make it easier to compare and select multi-factor authentication methods.
+新增进度指示器，帮助用户了解自己在身份验证流程中所处的阶段。 优化后的操作说明与图示注解，也便于用户对比并选择多因素身份鉴别方式。
 
   </div>
 </div>
@@ -40,9 +40,9 @@ A new progress indicator is designed to help people understand where they are in
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 
-## Usability improvements
+## 可用性优化
 
-Larger buttons and text, stronger color contrast, and clearer visual hierarchy make Login.gov easier to use for more people and across more devices.
+增大按钮与文字、强化色彩对比度、优化视觉层级，让更多用户可以在更多设备上更顺畅地使用 Login.gov。
 
   </div>
 </div>
@@ -51,32 +51,32 @@ Larger buttons and text, stronger color contrast, and clearer visual hierarchy m
   <div class="tablet:grid-col-6"></div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 
-## A new look. The same trusted Login.gov.
+## 界面焕然一新。 安全可靠一如既往。
 
-Login.gov is a service of the U.S. General Services Administration. We protect your Login.gov account, safeguard your personal information, and provide secure access to participating government services.
+Login.gov 是由美国 联邦总务管理局提供的一项服务。 我们保护你的 Login.gov 账户，守护你的个人信息，为你安全接入合作政府服务提供保障。
 
-- **Same account** — Your Login.gov email address, password, and authentication methods continue to work.
-- **Same destination** — You will still return to the government agency or service you were trying to access after signing in or verifying your identity.
-- **Same protections** — Login.gov’s security, privacy, identity, and accessibility requirements continue to apply.
-- **No action required** — You do not need to create a new account because the interface looks different.
+- **账户保持不变** — 你的 Login.gov 电邮、密码以及各类身份验证方式均可继续正常使用。
+- **跳转目标不变** — 登录或完成身份核验后，你仍会回到原本想要访问的政府机构或服务页面。
+- **安全防护不变** — Login.gov 在安全、隐私保护、身份认证以及无障碍访问方面的各项要求维持不变。
+- **无需额外操作** — 界面改版后，你无需注册新账户。
 
-## FAQ
+## 常见问题
 
-### Why does Login.gov look different?
+### 为什么 Login.gov 界面发生了变化？
 
-We updated the design to make Login.gov clearer, easier to navigate, and more accessible. Some users may see the refreshed design while testing and rollout are underway.
+我们更新了设计，旨在让 Login.gov 界面更清晰、导航更便捷、无障碍访问能力更强。 目前处于测试与逐步上线阶段，部分用户会率先看到新版界面。
 
-### Do I need to create a new account?
+### 我需要注册新账户吗？
 
-No. Your existing Login.gov account and authentication methods continue to work.
+不需要。 你现有的 Login.gov 账户与身份验证方式均可继续使用。
 
-### Why am I seeing a different design than someone else?
+### 为何我看到的界面和其他人的不一样？
 
-Login.gov may show different versions during user testing and phased rollout. This allows us to compare experiences, identify issues, and introduce changes carefully.
+在用户测试与分阶段上线期间，Login.gov 会展示不同版本界面。 藉此我们可以对比使用体验、排查问题，稳妥地完成版本迭代。
 
-### How were these updates developed?
+### 本次更新是如何开发完成的？
 
-Login.gov collaborated with the National Design Studio to create a clearer, more user-friendly experience. This work supports the federal [America by Design initiative](https://www.whitehouse.gov/presidential-actions/2025/08/improving-our-nation-through-better-design/){:class="external-link"}.
+Login.gov 携手国家设计工作室，共同打造界面更清晰、对用户更友好的使用体验。 本次升级属于美国联邦 [America by Design](https://www.whitehouse.gov/presidential-actions/2025/08/improving-our-nation-through-better-design/){:class="external-link"}（美国设计）倡议的落地实践。
 
   </div>
 </div>

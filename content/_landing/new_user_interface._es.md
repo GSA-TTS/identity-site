@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: Preview the New Login.gov Experience
-description: We are refreshing the Login.gov user experience to make it easier to use.
+title: Descubra la nueva experiencia de Login.gov
+description: Estamos actualizando la experiencia del usuario en Login.gov para que sea más sencilla.
 permalink: /es/new-user-interface/
 class: new-user-interface
 twitter_card: large
@@ -14,9 +14,9 @@ image: /assets/img/login-gov-600x314.png
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 
-## A cleaner, more intuitive design
+## Un diseño más claro e intuitivo
 
-The updated style creates clearer handoff points between agency websites and Login.gov. More focused screens emphasize the information and actions users need at each step.
+El nuevo estilo hace más evidente la transición entre los sitios web de las agencias y Login.gov. Las pantallas se centran más en la información que el usuario necesita y en las acciones que debe realizar en cada paso.
 
   </div>
 </div>
@@ -27,9 +27,9 @@ The updated style creates clearer handoff points between agency websites and Log
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 
-## Better guidance through identity verification
+## Más orientación durante la verificación de identidad
 
-A new progress indicator is designed to help people understand where they are in the identity verification process. Updated instructions and visual explanations also make it easier to compare and select multi-factor authentication methods.
+Hemos diseñado un nuevo indicador de progreso para que los usuarios sepan en qué punto del proceso de verificación de identidad se encuentran. Con los cambios en las instrucciones y las explicaciones visuales también resulta más fácil comparar y seleccionar los métodos de autenticación multifactor.
 
   </div>
 </div>
@@ -40,9 +40,9 @@ A new progress indicator is designed to help people understand where they are in
   </div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 
-## Usability improvements
+## Mejoras en la usabilidad
 
-Larger buttons and text, stronger color contrast, and clearer visual hierarchy make Login.gov easier to use for more people and across more devices.
+Con unos botones y texto más grandes, un mayor contraste de color y una jerarquía visual mejor definida, más personas pueden usar Login.gov con mayor facilidad y desde más dispositivos.
 
   </div>
 </div>
@@ -51,32 +51,32 @@ Larger buttons and text, stronger color contrast, and clearer visual hierarchy m
   <div class="tablet:grid-col-6"></div>
   <div class="tablet:grid-col-6 usa-prose" markdown="1">
 
-## A new look. The same trusted Login.gov.
+## Un nuevo aspecto. El mismo Login.gov, la misma confianza.
 
-Login.gov is a service of the U.S. General Services Administration. We protect your Login.gov account, safeguard your personal information, and provide secure access to participating government services.
+Login.gov es un servicio de la Administración General de Servicios de los EE. UU. Protegemos su cuenta de Login.gov, mantenemos a salvo su información personal y le proporcionamos acceso seguro a los servicios gubernamentales participantes.
 
-- **Same account** — Your Login.gov email address, password, and authentication methods continue to work.
-- **Same destination** — You will still return to the government agency or service you were trying to access after signing in or verifying your identity.
-- **Same protections** — Login.gov’s security, privacy, identity, and accessibility requirements continue to apply.
-- **No action required** — You do not need to create a new account because the interface looks different.
+- **Misma cuenta** - Su dirección de correo electrónico, contraseña y métodos de autenticación de Login.gov siguen funcionando.
+- **Mismo destino** - Tras iniciar sesión o verificar su identidad, regresará a la agencia o al servicio gubernamental al que intentaba acceder.
+- **Mismas protecciones** - Los requisitos de Login.gov en materia de seguridad, privacidad, identidad y accesibilidad siguen vigentes.
+- **No es necesario hacer nada** - Aunque la interfaz tenga un aspecto diferente, no tiene que crear una cuenta nueva.
 
-## FAQ
+## Preguntas frecuentes
 
-### Why does Login.gov look different?
+### ¿Por qué Login.gov tiene otro aspecto?
 
-We updated the design to make Login.gov clearer, easier to navigate, and more accessible. Some users may see the refreshed design while testing and rollout are underway.
+Hemos renovado el diseño para que Login.gov sea más claro, fácil de navegar y accesible. Es posible que algunos usuarios ya vean el nuevo diseño mientras continúan las pruebas y el lanzamiento.
 
-### Do I need to create a new account?
+### ¿Tengo que crear una cuenta nueva?
 
-No. Your existing Login.gov account and authentication methods continue to work.
+No. Su cuenta de Login.gov y sus métodos de autenticación actuales siguen funcionando.
 
-### Why am I seeing a different design than someone else?
+### ¿Por qué veo un diseño distinto al de otra persona?
 
-Login.gov may show different versions during user testing and phased rollout. This allows us to compare experiences, identify issues, and introduce changes carefully.
+Es posible que Login.gov muestre distintas versiones durante las pruebas con usuarios y el lanzamiento por fases. Esto nos permite comparar experiencias, detectar problemas y aplicar cambios de forma controlada.
 
-### How were these updates developed?
+### ¿Cómo se desarrollaron estos cambios?
 
-Login.gov collaborated with the National Design Studio to create a clearer, more user-friendly experience. This work supports the federal [America by Design initiative](https://www.whitehouse.gov/presidential-actions/2025/08/improving-our-nation-through-better-design/){:class="external-link"}.
+Login.gov colaboró con National Design Studio para crear una experiencia más clara y fácil de usar. Este trabajo se suma a la iniciativa federal [America by Design](https://www.whitehouse.gov/presidential-actions/2025/08/improving-our-nation-through-better-design/){:class="external-link"}.
 
   </div>
 </div>

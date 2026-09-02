@@ -76,7 +76,7 @@ Login.gov may show different versions during user testing and phased rollout. Th
 
 ### How were these updates developed?
 
-Login.gov collaborated with the National Design Studio to create a clearer, more user-friendly experience. This work supports the federal [America by Design initiative](https://www.whitehouse.gov/presidential-actions/2025/08/improving-our-nation-through-better-design/){:class="external-link"}.
+Login.gov collaborated with the National Design Studio to create a clearer, more user-friendly experience. This work supports the federal [America by Design](https://www.whitehouse.gov/presidential-actions/2025/08/improving-our-nation-through-better-design/){:class="external-link"} initiative.
 
   </div>
 </div>
