@@ -6,7 +6,7 @@ redirect_from:
 - /es/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 order: 6
 bring_list:
-- __La misma identificación que utilizó para introducir su información en Login.gov.__ Login solo acepta la licencia de conducir o la tarjeta de identificación estatal para la verificación en persona. Aunque es un [tipo de identificación aceptado](/es/help/verify-your-identity/accepted-id-type/), actualmente no se puede utilizar una libreta de pasaporte de los EE. UU. para verificar en persona en la oficina de correos.
+- __El mismo documento de identidad que utilizó para ingresar su información en Login.gov.__ Para la verificación en persona, solo se aceptan la licencia de conducir o la identificación estatal. Si bien son [documentos de identidad aceptados](/es/help/verify-your-identity/accepted-id-type/), actualmente no puede utilizar el pasaporte estadounidense (libreta o tarjeta) ni la licencia de conducir móvil (mDL) para verificar su identidad en persona en la oficina de correos.
 - __El código de barras que Login.gov le envió por correo electrónico.__ Puede imprimir el correo electrónico o mostrarlo en su dispositivo móvil.
 ---
 

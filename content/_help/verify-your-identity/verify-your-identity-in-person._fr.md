@@ -6,7 +6,7 @@ redirect_from:
 - /fr/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 order: 6
 bring_list:
-- __La même pièce d'identité que celle que vous avez utilisée pour saisir les renseignements vous concernant sur [Login.gov](/fr/).__ Pour la confirmation d’identité en personne, Login.gov n’accepte que le permis de conduire ou la carte d’identité d’un État. Bien que ce soit un [type de pièce d’identité accepté](/fr/help/verify-your-identity/accepted-id-type/), il n’est actuellement pas possible d’utiliser un livret de passeport des États-Unis pour confirmer votre identité en personne dans un bureau de poste.
+- __Le même justificatif d'identité que celui utilisé pour saisir vos informations sur Login.gov.__ Pour une vérification en personne, seuls le permis de conduire ou la carte d'identité d'État sont acceptés. Bien qu'ils soient [des pièces d'identité acceptées](/fr/help/verify-your-identity/accepted-id-type/), le passeport américain (livret ou carte) et le permis de conduire mobile (mDL) ne sont actuellement pas acceptés pour une vérification en personne au bureau de poste.
 - __Le code-barres que Login.gov vous a envoyé par e-mail.__ Vous pouvez imprimer l’e-mail ou le montrer depuis votre téléphone portable.
 ---
 
