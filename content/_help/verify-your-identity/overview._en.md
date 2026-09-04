@@ -25,7 +25,7 @@ redirect_from:
 - /help/verifying-your-identity/multiple-accounts-to-verifying-my-identity-for/
 - /help/verifying-your-identity/why-do-i-need-to-verify-my-identity/
 verify_identity_list:
-- U.S. Driver’s license, state ID, or passport book/card
+- U.S. Driver’s license, mobile driver’s license (mDL), state ID, or passport book/card
 - Social Security number
 - U.S. phone number or mailing address
 ---

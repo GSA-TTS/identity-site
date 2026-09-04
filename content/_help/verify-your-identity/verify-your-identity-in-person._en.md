@@ -7,7 +7,7 @@ redirect_from:
 - /help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 order: 6
 bring_list:
-- __The same ID that you used to enter your information on [Login.gov](/).__ Login only accepts a driver’s license or state ID card for verifying in person. Although it is an [accepted ID type](/help/verify-your-identity/accepted-id-type/), you cannot currently use a U.S. passport book to verify in person at the Post Office.
+- __The same ID that you used to enter your information on Login.gov.__ For verifying in person, only driver’s license or state ID are accepted. Although they are an [accepted ID type](/help/verify-your-identity/accepted-id-type/), you cannot currently use a U.S. passport book/card nor mobile driver’s license (mDL) to verify in person at the Post Office.
 - __The barcode that Login.gov emailed to you.__ You can print the email or show the email from your mobile device.
 ---
 
