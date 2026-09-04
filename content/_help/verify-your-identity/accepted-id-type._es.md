@@ -8,6 +8,7 @@ do_list:
   - "**Licencia de conducir** de los 50 estados, el Distrito de Columbia (DC) y otros territorios de los Estados Unidos (Guam, Islas Vírgenes de los EE. UU., Samoa Americana, Islas Marianas y Puerto Rico)."
   - "**Tarjeta de identificación estatal que no sea una licencia de conducir.** Un documento de identidad emitido por el estado, el Distrito de Columbia (DC) o un territorio de los EE. UU. que confirma la identidad, pero no concede permiso para conducir."
   - "**Libretas y tarjetas de pasaporte de EE. UU.** Los pasaportes aún no se aceptan para la [verificación en persona](/es/help/verify-your-identity/verify-your-identity-in-person/). Si no ve la opción para verificar su identidad con un pasaporte, utilice una licencia de conducir o una identificación estatal, o intente verificar su identidad nuevamente más tarde."
+  - "**Licencia de conducir móvil (mDL) o identificación estatal en una billetera digital.** Se acepta sólo de algunas billeteras digitales, como Apple Wallet, Google Wallet y Samsung Wallet. La disponibilidad depende de su estado, dispositivo y billetera. Estamos trabajando para apoyar billeteras digitales adicionales. Si su estado o billetera no es compatible, puede usar otro tipo de identificación aceptada."
 dont_list:
   - Pasaportes de otros países
   - Identificaciones militares

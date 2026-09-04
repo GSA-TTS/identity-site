@@ -8,7 +8,7 @@ redirect_from:
   - /zh/help/verify-your-identity/accepted-identification-documents/
   - /zh/help/verify-your-identity/how-to-verify-your-identity/
 verify_identity_list:
-- 美国驾驶执照、州身份证，或护照本/卡
+- 美国驾照、移动驾照 (mDL)、州身份证或护照/护照卡
 - 社会保障号码
 - 美国电话号码或邮政地址
 ---

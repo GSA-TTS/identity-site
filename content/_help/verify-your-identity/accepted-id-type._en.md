@@ -8,6 +8,7 @@ do_list:
   - "**Driver's license** from all 50 states, the District of Columbia (DC), and other U.S. territories (Guam, U.S. Virgin Islands, American Samoa, Mariana Islands, and Puerto Rico)."
   - "**Non-driver's license state-issued ID card.** This is an identity document issued by the state, the District of Columbia (DC), or U.S. territory that asserts identity but does not give driving privileges."
   - "**U.S. Passport book and cards.** Passports are not yet accepted for [verifying in person](/help/verify-your-identity/verify-your-identity-in-person/). If you don't see the option to verify your identity with a passport, use a driver's license or state ID, or try to verify your identity again later."
+  - "**Mobile driver’s license (mDL) or state ID in a digital wallet.** Accepted in select digital wallets, including Apple Wallet, Google Wallet, and Samsung Wallet. Availability depends on your state, device, and wallet. We’re working to support additional digital wallets. If your state or wallet is not supported, you can use another accepted ID type."
 dont_list:
   - Non-U.S. passports
   - Military IDs
