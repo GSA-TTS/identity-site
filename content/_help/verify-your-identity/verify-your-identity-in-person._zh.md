@@ -7,7 +7,7 @@ redirect_from:
 - /zh/help/verify-your-identity/verify-your-identity-in-person/issues-with-verifying-your-identity-in-person/
 order: 6
 bring_list:
-- __你用来在[Login.gov](/zh/)上输入你信息的同一身份证件。__ Login.gov 仅接受驾驶执照或州身份证进行亲身验证。虽然美国护照属于可[接受的身份证件类型](/zh/help/verify-your-identity/accepted-id-type/)，但你目前无法使用美国护照在邮局亲身验证。
+- __您在 Login.gov 上输入信息时使用的同一 ID。__ 如需现场验证，仅接受驾照或州身份证。虽然美国护照簿/卡或移动驾照 (mDL) 也属于可[接受的证件类型](/zh/help/verify-your-identity/accepted-id-type/)，但目前您无法使用它们在邮局进行现场验证。
 - __Login.gov电邮给你的那个条形码。__ 你可以把电邮打印出来，或在你的移动设施上显示。
 ---
 
