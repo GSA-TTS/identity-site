@@ -48,13 +48,13 @@ There may be circumstances where we are required to share certain data. Please r
 
 ### Consent - How can you control what information is shared? ### {#consent}
 
-You decide if you want to share personal information with any agency and you can revoke consent at any time. You can modify, or amend, either your email address or phone number on [your account page](https://secure.login.gov/account).
+You decide if you want to share your validated personal information with any agency and you can revoke consent for that information at any time. You can modify, or amend, either your email address or phone number on [your account page](https://secure.login.gov/account).
 
 However, failure to provide complete and accurate information may delay access to the partner agency. Login.gov does not make any eligibility or suitability determinations; that is the responsibility of the government websites that use the Login.gov service.
 
-Other than as specified in this Privacy Act Statement and our Rules of Use, we will never share your information without your consent. Your validated personal data is encrypted and the only way to share it with a partner agency is if you, the authorized user, enter your password and explicitly grant consent to share the information.
+Other than as specified in this Privacy Act Statement and our Rules of Use, we will never share your validated information without your consent. Your validated personal data is encrypted and the only way to share it with a partner agency is if you, the authorized user, enter your password and explicitly grant consent to share the information.
 
-When you create an account or visit a new partner agency website after you have created your account, you will see the option to consent to share your information with the partner agency. You are required to give consent yearly for each agency.
+When you create an account or visit a new partner agency website after you have created your account, you will see the option to consent to share your validated information with the partner agency. You are required to give consent yearly for each agency.
 
 Remember you can update your personal information, revoke consent, or delete your account entirely at any time through [your account page](https://secure.login.gov/account).
 
