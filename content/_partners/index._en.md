@@ -1,7 +1,7 @@
 ---
 layout: partners/landing
 permalink: /partners/
-redirect_to: https://partners.login.gov/hc/en-us
+redirect_to: https://partners.login.gov/
 redirect_from:
 - /en/partners/
 - /partners/learn/
