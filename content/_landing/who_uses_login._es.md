@@ -22,7 +22,7 @@ component:
     [Instituto Nacional de Estándares y Tecnología](https://www.nist.gov/).
 
 
-    Las agencias eligen Login.gov porque ofrecemos una solución segura y sencilla. [Lea más sobre nuestro programa de socios](/partners/).
+    Las agencias eligen Login.gov porque ofrecemos una solución segura y sencilla. [Lea más sobre nuestro programa de socios](https://partners.login.gov/).
 permalink: /es/who-uses-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png

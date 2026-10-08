@@ -28,7 +28,7 @@ three_col:
     no tenga que hacerlo.
 
 
-    [Conviértase en una agencia asociada](/partners/){:class="why-more-info"}
+    [Conviértase en una agencia asociada](https://partners.login.gov/){:class="why-more-info"}
   subheading3: Desarrolladores de agencias
   col_class3: developers
   col3: >-

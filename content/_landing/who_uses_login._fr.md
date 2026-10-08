@@ -22,7 +22,7 @@ component:
     l’[Institut national des normes et de la technologie](https://www.nist.gov/).
 
 
-    Les organismes choisissent Login.gov parce que notre solution est sécurisée — et simple. [En savoir plus au sujet des programmes de nos partenaires](/partners/).
+    Les organismes choisissent Login.gov parce que notre solution est sécurisée — et simple. [En savoir plus au sujet des programmes de nos partenaires](https://partners.login.gov/).
 permalink: /fr/who-uses-login/
 twitter_card: large
 image: /assets/img/login-gov-600x314.png
