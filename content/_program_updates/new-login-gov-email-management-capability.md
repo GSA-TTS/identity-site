@@ -1,5 +1,6 @@
 ---
 layout: partners/program-update
+redirect_to: https://partners.login.gov/hc/en-us/categories/54018883787412-What-s-New-at-Login-gov
 lang: en
 title: New Login.gov email management capability
 date: 2025-07-09T11:44:00.000Z

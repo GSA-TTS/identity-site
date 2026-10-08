@@ -1,6 +1,7 @@
 ---
 layout: partners/get-started
 permalink: /partners/get-started/
+redirect_to: https://partners.login.gov/hc/en-us/articles/51138621274644-Partnering-with-Login-gov
 title: >-
     Get started
 body: >-

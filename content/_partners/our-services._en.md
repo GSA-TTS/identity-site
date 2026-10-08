@@ -1,6 +1,7 @@
 ---
 layout: partners/our-services
 permalink: /partners/our-services/
+redirect_to: https://partners.login.gov/hc/en-us/articles/51138621274644-Partnering-with-Login-gov
 redirect_from:
  - /docs/login-gov-roadmap-june-2025.pdf/
 title: >-

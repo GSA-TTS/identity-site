@@ -1,5 +1,6 @@
 ---
 layout: partners/program-update
+redirect_to: https://partners.login.gov/hc/en-us/articles/52084691018388-Login-gov-Launches-State-and-Local-Working-Group-Feb-2026
 lang: en
 title: Login.gov Launches State and Local Working Group
 date: 2026-02-27T11:26:00.000Z
