@@ -330,11 +330,13 @@ nav:
     title: Qui sommes-nous ?
   accessibility:
     sections:
-      - name: Notre engagement
-        url: '#notre-engagement'
+      - name: Accessibilité
+        url: '#accessibilité'
       - name: Évaluation
         url: '#évaluation'
-    title: Accessibilité
+      - name: Langues
+        url: '#langues'
+    title: Accessibilité et langues
   anchor_to_top: Retour en haut de la page
   become_a_partner: Devenir partenaire
   business_inquiries:
