@@ -1,7 +1,7 @@
 ---
 layout: partners/impact-stories
 permalink: /partners/impact-stories/
-redirect_to: https://partners.login.gov/hc/en-us
+redirect_to: https://partners.login.gov/
 redirect_from:
   - /partners/impact-stories/sba/
 title: >-
