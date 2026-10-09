@@ -1,6 +1,5 @@
 ---
 layout: partners/roadmap
-redirect_to: https://partners.login.gov/hc/en-us/p/roadmap
 permalink: /partners/roadmap/
 title: >-
   Roadmap

@@ -28,7 +28,7 @@ three_col:
     pour que vous n’ayez pas à vous en occuper.
 
 
-    [Devenir partenaire](https://partners.login.gov/){:class="why-more-info"}
+    [Devenir partenaire](/partners/){:class="why-more-info"}
   subheading3: Développeurs des organismes
   col_class3: developers
   col3: >-

@@ -1,6 +1,5 @@
 ---
 layout: partners/program-update
-redirect_to: https://partners.login.gov/hc/en-us/articles/52096580852372-Login-gov-Launches-Redesigned-Help-Center-with-Improved-User-Experience-Jan-2026
 lang: en
 title: Login.gov Launches Redesigned Help Center with Improved User Experience
 date: 2026-01-26T15:24:00.000Z

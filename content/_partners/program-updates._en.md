@@ -1,7 +1,6 @@
 ---
 layout: partners/program-updates
 permalink: /partners/program-updates/
-redirect_to: https://partners.login.gov/hc/en-us/categories/54018883787412-What-s-New-at-Login-gov
 title: >-
     Program updates
 subtitle: >-

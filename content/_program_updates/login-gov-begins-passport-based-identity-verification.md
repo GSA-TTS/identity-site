@@ -1,6 +1,5 @@
 ---
 layout: partners/program-update
-redirect_to: https://partners.login.gov/hc/en-us/articles/54053818410772-Mobile-Driver-s-Licenses-and-Passport-Cards-are-now-accepted
 lang: en
 title: Login.gov Begins Passport-based Identity Verification
 date: 2025-08-21T14:28:00.000Z

@@ -1,6 +1,5 @@
 ---
 layout: partners/program-update
-redirect_to: https://partners.login.gov/hc/en-us/articles/50197562566036-Enhanced-identity-verification-with-biometric-facial-matching-IAL2
 lang: en
 title: Login.gov now offers an IAL2-compliant identity verification service
 date: 2024-10-09T18:34:19.096Z

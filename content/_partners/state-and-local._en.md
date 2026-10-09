@@ -1,7 +1,6 @@
 ---
 layout: partners/state-and-local
 permalink: /partners/state-and-local/
-redirect_to: https://partners.login.gov/hc/en-us/p/our-services
 title: >-
   State, local, and territories
 body: >-

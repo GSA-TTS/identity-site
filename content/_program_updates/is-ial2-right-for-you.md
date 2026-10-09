@@ -1,6 +1,5 @@
 ---
 layout: partners/program-update
-redirect_to: https://partners.login.gov/hc/en-us/articles/52650610471828-Determining-your-assurance-level
 lang: en
 title: Is IAL2 right for you?
 date: 2025-06-05T16:35:00.000Z

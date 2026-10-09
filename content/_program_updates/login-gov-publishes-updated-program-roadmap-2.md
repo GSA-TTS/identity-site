@@ -1,6 +1,5 @@
 ---
 layout: partners/program-update
-redirect_to: https://partners.login.gov/hc/en-us/articles/52611984563732-Login-gov-publishes-updated-program-roadmap-Dec-2025
 lang: en
 title: Login.gov publishes updated program roadmap
 date: 2025-12-19T12:08:00.000Z

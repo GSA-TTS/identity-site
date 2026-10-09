@@ -1,7 +1,7 @@
 default:
   footer:
     agencies:
-      become_a_partner: 'https://partners.login.gov/'
+      become_a_partner: '$BASE_URL/partners/'
       developer_guide: 'https://developers.login.gov'
     learn:
       about_us: '$LOCALE_BASE_URL/about-us/'

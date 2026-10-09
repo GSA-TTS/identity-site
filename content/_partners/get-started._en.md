@@ -1,7 +1,6 @@
 ---
 layout: partners/get-started
 permalink: /partners/get-started/
-redirect_to: https://partners.login.gov/hc/en-us/p/our-services
 title: >-
     Get started
 body: >-
