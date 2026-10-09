@@ -19,7 +19,7 @@ three_col:
   col2: >-
     用数字安全和用户体验的最高标准来保护你的用户信息。Login.gov 管理软件开发、安全运营、以及客户支持，使你没必要做这些事情。
 
-    [成为合作伙伴](/partners/){:class="why-more-info"}
+    [成为合作伙伴](https://partners.login.gov/){:class="why-more-info"}
   subheading3: 机构开发商
   col_class3: developers
   col3: >-

@@ -1,6 +1,7 @@
 ---
 layout: partners/security-experience
 permalink: /partners/security-experience/
+redirect_to: https://partners.login.gov/hc/en-us/articles/53867625386388-Security-experience
 title: >-
     Security experience
 subtitle: >-

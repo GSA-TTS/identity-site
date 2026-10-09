@@ -1,4 +1,4 @@
 ---
 permalink: /partners/faq/
-redirect_to: https://zendesk.login.gov/
+redirect_to: https://partners.login.gov/
 ---

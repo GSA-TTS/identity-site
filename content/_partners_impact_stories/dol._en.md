@@ -1,6 +1,7 @@
 ---
 layout: partners/impact-story
 permalink: /partners/impact-stories/dol/
+redirect_to: https://partners.login.gov/
 agency:  U.S. Department of Labor (DOL)
 summary: >-
     Login.gov partnered with the Department of Labor (DOL) to offer all U.S. states the opportunity to use Login.gov to help improve access, decrease fraud, and increase security in the delivery of unemployment insurance benefits.

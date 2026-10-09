@@ -1,5 +1,6 @@
 ---
 layout: partners/program-update
+redirect_to: https://partners.login.gov/hc/en-us/categories/54018883787412-What-s-New-at-Login-gov
 lang: en
 title: Login.gov adds new languages to provide expanded access and assistance to
   the public

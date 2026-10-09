@@ -1,5 +1,6 @@
 ---
 layout: partners/program-update
+redirect_to: https://partners.login.gov/hc/en-us/categories/54018883787412-What-s-New-at-Login-gov
 lang: en
 title: "Login.gov YouTube video: What is Login.gov?"
 date: 2026-01-12T12:23:00.000Z
