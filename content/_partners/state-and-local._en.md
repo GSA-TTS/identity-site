@@ -1,7 +1,7 @@
 ---
 layout: partners/state-and-local
 permalink: /partners/state-and-local/
-redirect_to: https://partners.login.gov/hc/en-us/articles/51138621274644-Partnering-with-Login-gov
+redirect_to: https://partners.login.gov/hc/en-us/p/our-services
 title: >-
   State, local, and territories
 body: >-
