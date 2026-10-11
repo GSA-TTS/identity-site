@@ -48,13 +48,13 @@ Dans certains cas, nous pouvons être tenus de partager certaines données. Pour
 
 ### Consentement : comment pouvez-vous contrôler les informations qui sont partagées ? ### {#consent}
 
-C’est vous qui décidez si vous souhaitez partager vos informations personnelles avec un organisme quel qu’il soit ; vous pouvez révoquer votre consentement à tout moment. Vous pouvez changer ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/fr/account/).
+Vous décidez si vous souhaitez partager vos informations personnelles validées avec une quelconque agence, et vous pouvez révoquer votre consentement relatif à ces informations à tout moment. Vous pouvez changer ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/fr/account/).
 
 Toutefois, le fait de ne pas fournir des informations complètes et exactes peut retarder l’accès à l’organisme partenaire. Login.gov n’effectue aucune détermination d’admissibilité ou d’aptitude ; cette responsabilité incombe aux sites Web gouvernementaux qui utilisent le service Login.gov.
 
-En dehors de ce qui est spécifié dans la présente Déclaration relative à la loi sur la confidentialité et dans nos règles d’utilisation, nous ne partagerons jamais vos informations sans votre consentement. Vos données personnelles validées sont chiffrées et ne peuvent être partagées avec un organisme partenaire que si vous, l’utilisateur autorisé, saisissez votre mot de passe et consentez explicitement au partage de ces informations.
+Sauf indication contraire dans la présente Déclaration relative à la Loi sur la protection des renseignements personnels et dans nos Règles d'utilisation, nous ne partagerons jamais vos renseignements validés sans votre consentement. Vos données personnelles validées sont chiffrées et ne peuvent être partagées avec un organisme partenaire que si vous, l’utilisateur autorisé, saisissez votre mot de passe et consentez explicitement au partage de ces informations.
 
-Lorsque vous créez un compte ou que vous visitez le site Web d’une nouvel organisme partenaire après avoir créé votre compte, vous avez la possibilité de consentir au partage de vos informations avec l’organisme partenaire. Vous devez donner votre consentement tous les ans pour chaque organisme.
+Lorsque vous créez un compte ou que vous visitez le site web d'une nouvelle agence partenaire après avoir créé votre compte, vous verrez l'option de consentir au partage de vos informations validées avec cette agence partenaire. Vous devez donner votre consentement tous les ans pour chaque organisme.
 
 N’oubliez pas que vous pouvez à tout moment mettre à jour vos informations personnelles, révoquer votre consentement ou supprimer entièrement votre compte à partir de la [page de votre compte](https://secure.login.gov/fr/account).
 

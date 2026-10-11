@@ -47,13 +47,13 @@ Puede haber circunstancias en las que estemos obligados a divulgar ciertos datos
 
 ### Consentimiento: ¿Cómo puede controlar la información que se divulga? ### {#consent}
 
-Usted decide si desea divulgar información personal a alguna agencia, y puede revocar su consentimiento en cualquier momento. Usted puede modificar, o enmendar, su dirección de correo electrónico o su número de teléfono en [la página de su cuenta](https://secure.login.gov/es/account).
+Usted decide si desea compartir su información personal validada con cualquier agencia, y puede revocar el consentimiento para dicha información en cualquier momento. Usted puede modificar, o enmendar, su dirección de correo electrónico o su número de teléfono en [la página de su cuenta](https://secure.login.gov/es/account).
 
 Sin embargo, cuando no se proporciona información completa y precisa, puede demorar el acceso a la agencia asociada. Login.gov no hace ninguna determinación de cumplimiento de requisitos o idoneidad; eso es responsabilidad de los sitios web gubernamentales que utilizan el servicio Login.gov.
 
-Aparte de lo especificado en esta Declaración de privacidad y en nuestras Reglas de uso, nunca divulgaremos su información sin su consentimiento. Sus datos personales validados están cifrados y la única forma de divulgarlos a una agencia asociada es si usted, el usuario autorizado, introduce su contraseña y otorga explícitamente su consentimiento para divulgar la información.
+Salvo lo especificado en esta Declaración de la Ley de Privacidad y en nuestras Normas de Uso, nunca compartiremos su información validada sin su consentimiento. Sus datos personales validados están cifrados y la única forma de divulgarlos a una agencia asociada es si usted, el usuario autorizado, introduce su contraseña y otorga explícitamente su consentimiento para divulgar la información.
 
-Cuando cree una cuenta o cuando visite el sitio web de una nueva agencia asociada después de haber creado su cuenta, verá la opción de dar su consentimiento para divulgar su información a la agencia asociada. Deberá dar su consentimiento anualmente para cada agencia.
+Al crear una cuenta, o al visitar el sitio web de una nueva agencia asociada después de haber creado su cuenta, verá la opción de dar su consentimiento para compartir su información validada con dicha agencia asociada. Deberá dar su consentimiento anualmente para cada agencia.
 
 Recuerde que puede actualizar su información personal, revocar su consentimiento o eliminar su cuenta por completo en cualquier momento por medio de [la página de su cuenta](https://secure.login.gov/es/account).
 
