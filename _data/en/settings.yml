@@ -305,11 +305,13 @@ nav:
     title: About us
   accessibility:
     sections:
-      - name: Our commitment
-        url: '#our-commitment'
+      - name: Accessibility
+        url: '#accessibility'
       - name: Evaluation
         url: '#evaluation'
-    title: Accessibility
+      - name: Languages
+        url: '#languages'
+    title: Accessibility & languages
   anchor_to_top: Back to top
   become_a_partner: Become a partner
   business_inquiries:
