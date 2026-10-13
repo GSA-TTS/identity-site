@@ -314,11 +314,13 @@ nav:
     title: Quiénes somos
   accessibility:
     sections:
-      - name: Nuestro compromiso
-        url: '#nuestro-compromiso'
+      - name: Accesibilidad
+        url: '#accesibilidad'
       - name: Evaluación
         url: '#evaluación'
-    title: Accessibilidad
+      - name: Idiomas
+        url: '#idiomas'
+    title: Accesibilidad e idiomas
   anchor_to_top: Volver al inicio
   become_a_partner: Conviértase en asociado
   business_inquiries:

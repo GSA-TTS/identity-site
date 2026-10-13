@@ -294,11 +294,13 @@ nav:
     title: 关于我们
   accessibility:
     sections:
-      - name: 我们的承诺
-        url: '#我们的承诺'
+      - name: 无障碍
+        url: '#无障碍'
       - name: 评估
         url: '#评估'
-    title: 无障碍
+      - name: 语言
+        url: '#语言'
+    title: 无障碍与语言
   anchor_to_top: 回到顶部
   become_a_partner: 成为合作伙伴
   business_inquiries:
