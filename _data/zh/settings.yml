@@ -294,8 +294,8 @@ nav:
     title: 关于我们
   accessibility:
     sections:
-      - name: 无障碍
-        url: '#无障碍'
+      - name: 可访问性说明
+        url: '#可访问性说明'
       - name: 评估
         url: '#评估'
       - name: 语言
