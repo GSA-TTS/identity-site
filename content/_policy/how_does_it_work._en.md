@@ -7,6 +7,7 @@ sidenav: policies
 redirect_from:
     - /en/policy/how-does-it-work/
 ---
+### TEST CHANGE - do not merge
 ## How does it work ## {#how-does-it-work}
 
 Login.gov encrypts your personal information in transit and at rest and asks you before sharing your data with a partner agency. Many government agencies can reuse identity assurance credentials across their websites, and Login.gov continues to develop its service to meet the various needs of these agency partners.
