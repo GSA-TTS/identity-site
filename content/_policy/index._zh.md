@@ -1,28 +1,29 @@
 ---
 layout: sidenav
 sidenav: policies
-title: 隐私与安全
-description: 了解我们安全与隐私实践的更多信息
+title: Privacy & security
+description: Learn more about our security and privacy practices
 permalink: /zh/policy/
 ---
-## Login.gov 致力于保护你的隐私与安全 ## {#intro}
+## Login.gov is committed to your privacy and security ## {#intro}
 
-这里描述了我们如何请求、使用、保留以及保护你的个人信息。保护你的信息是我们在 Login.gov 的优先事项。
+This describes how we ask for, use, retain, and protect your personal information. Protecting your information is our priority at Login.gov.
 
-你提交的信息被用来设立或更新你的 Login.gov账户，并赋予你到 Login.gov 合作政府机构网站的访问权。当你提供自己的电邮地址或其他身份证明（比如州颁发的身份证件），我们就能确定真地是你并授予你对账户的访问权，同时也防范坏人使用账户。你提供的证明（叫做电子身份保障凭证），就像把钥匙插入锁内来安全地打开政府机构应用程序或服务的大门。
+The information that you submit is used to create or update your Login.gov account and give you access to Login.gov’s partner agencies. When you provide your email address or other proof of identity like a state ID, we can be sure it’s really you and grant you access to the account — and keep the bad actors away. This proof, called an electronic identity assurance credential, is like putting a key into a lock to securely open the door to the government agency’s application or service.
 
-### 我们如何与合作机构合作 ### {#how-we-work-with-our-partner-agencies}
+### How we work with our partner agencies: ### {#how-we-work-with-our-partner-agencies}
 
-* Login.gov 与政府机构合作来提供对其网站、应用程序或服务的安全访问。我们的合作机构（例如联邦人事管理局 - OPM）选择我们向你要求的信息类型。
-* 我们要求的主要是能验证你账户和/或证明你身份的信息。
-* 你设立 Login.gov 账户时，即同意分享可显示你个人身份的信息（PII）。你需分享的信息取决于我们合作机构的要求。
-* 要进行建立安全账户所需的身份证实，我们需要你的名字、电邮地址以及一种身份证实方法。你的身份证实方法可以是我们发送 SMS 代码的一个电话号码、USB 安全密钥或其他选项。
-* 身份核证要求更为敏感的信息，比如社会保障号码、地址、电话号码、美国各州颁发的身份证件或驾照。
-* 你的州身份证件或驾照图片以加密形式保存两年。这些图片只有在 Login.gov 和合作机构共同决定后才会被检索和解密，通常是为了调查欺诈嫌疑活动的执法目的。
-* 当你到美国邮局（USPS）办公室亲身去完成身份核证时，我们会把你验证了的名字和地址与美国邮局分享，以便那里的工作人员现场确认你的身份。
-* 为了防止帐户盗用和身份冒充等欺诈行为，Login.gov 采用控制措施，通过检查使用中的设备、正在被核证的身份以及你在与 Login.gov 网站互动时的行为来评估风险。
-* 你访问 Login.gov 时，我们以匿名形式汇集一些数据，这意味着汇集的数据没有可以显示相关个人身份的信息。我们汇集受访页面、网络浏览器类型和版本以及每次访问时长，以帮助我们改善 Login.gov 的用户体验。例如，如果你遇到故障，而我们知道你网络浏览器类型和版本，则可以更好地确定如何解决你的问题。
-* 你存储的账户信息在两个层次加密。加密把你的数据转换为只有你 - Login.com 用户 - 才能访问的代码。这意味着你是唯一可以查看并更改自己账户信息的人。
-* Login.gov 运营方（例如我们的联系帮助中心）无法查看你的信息或做出任何更改。
+* Login.gov partners with government agencies to provide secure access to their website, application, or service. The partner agency (for example, the United States Office of Personnel Management) selects the type of information we request from you.
+* We ask for information to authenticate your account, prove your identity, and protect against fraud.
+* When you create a Login.gov account and verify your identity, you consent to Login.gov collecting, using, keeping, and sharing your personal information as described here and in our Privacy Act Statement and Rules of Use — including to verify your identity and to help detect and prevent fraud. What you need to share depends on what the partner agency requires. 
+* For authentication to establish a secure account, we need your name, email address, and an authentication method. Your authentication method could be a phone number where we share an SMS code, USB Security Key, or other options.
+* Identity proofing requires more sensitive information such as a social security number, address, phone number, and a U.S. based federal or state ID. A self-photograph is needed in cases where partners require verification through biometric comparison as further proof of your identity. Biometric comparison involves comparing your self-photograph to the portrait on your government-issued ID card.
+* When completing identity proofing in person at the United States Postal Service (USPS) Office, we share your validated name and address with USPS so that clerks can confirm your identity in person.
+* Identity fraud happens when someone tries to use your information to pretend to be you. To prevent it, we look at the device you're using, how you interact with the page, and the information you provide during identity verification.
+* We keep a secure, encrypted copy of the identity documents you submit, along with information about your verification attempts. We keep attempt information decryptable by Login for up to one year, and the encrypted documents for partner agencies longer because identity theft is often discovered later, when a victim or an agency reports it. Keeping this record allows us to investigate and provide redress.
+* If you started at a partner agency that receives information about verification attempts from Login.gov to help prevent fraud, information about your verification attempts — including attempts you don't finish — is shared with that agency to help it detect fraud. That agency may also request the identity documents you submitted to investigate suspected fraud. When you visit Login.gov, we anonymously aggregate some data, which means that no individually identifying information is attached to it. We aggregate the pages visited, web browser type and version, and the length of the session to help us improve the Login.gov experience. For example, if you experience an error and we know your web browser type and version, we can better identify how to fix your issue.
+* Your stored account information is encrypted at two levels. Most of your account information can only be decrypted with your password; you are the only one who can view and change it.However, to detect and prevent identity fraud, authorized Login.gov fraud operations personnel can access information about identity verification attempts, including the personal information you provided. This information is hidden by default and viewed only when needed for a fraud investigation, and all access is logged and monitored. For the first year, authorized personnel can also access the identity documents you submitted; after one year, Login.gov can no longer access them.
+* Our contact help center cannot view or change your account information.
+* The Login.gov operators (that is, our contact help center) cannot view your information or make any changes.
 
-保护你的信息是我们的优先事项。你可以阅读对 [Login.gov 如何运营](/zh/policy/how-does-it-work/)、 以及[我们的隐私法声明](/zh/policy/our-privacy-act-statement/)更详细的解释。
+Protecting your information is our priority. You can read more detailed explanations about [how Login.gov works](/zh/policy/how-does-it-work/), and [our privacy act statement](/zh/policy/our-privacy-act-statement/).

@@ -1,29 +1,31 @@
 ---
 sidenav: policies
-title: Confidentialité et sécurité
-description: En savoir plus sur nos pratiques en matière de sécurité et confidentialité
+title: Privacy & security
+description: Learn more about our security and privacy practices
 permalink: /fr/policy/
 redirect_from:
   - /fr/policy/our-security-practices/
   - /fr/security/
 ---
-## Login.gov s’engage en faveur de votre sécurité et de votre confidentialité ## {#intro}
+## Login.gov is committed to your privacy and security ## {#intro}
 
-Le présent document décrit la manière dont nous sollicitions, utilisons, conservons et protégeons vos informations personnelles. À Login.gov, la protection de vos informations constitue notre priorité.
+This describes how we ask for, use, retain, and protect your personal information. Protecting your information is our priority at Login.gov.
 
-Les informations que vous nous envoyez servent à créer ou mettre à jour votre compte Login.gov et à vous donner accès aux organismes partenaires de Login.gov. Lorsque vous fournissez votre adresse e-mail ou une autre preuve d’identité telle qu’une carte d’identité, nous pouvons être sûr qu’il s’agit bien de vous et vous donner accès au compte, en tenant à l’écart les acteurs malveillants. Cette preuve, qu’on appelle un certificat de garantie d’identité électronique, équivaut à introduire une clé dans une serrure pour ouvrir en toute sécurité la porte de l’application ou du service de l’organisme gouvernemental.
+The information that you submit is used to create or update your Login.gov account and give you access to Login.gov’s partner agencies. When you provide your email address or other proof of identity like a state ID, we can be sure it’s really you and grant you access to the account — and keep the bad actors away. This proof, called an electronic identity assurance credential, is like putting a key into a lock to securely open the door to the government agency’s application or service.
 
-###  Notre méthode de travail avec nos organismes partenaires: ### {#how-we-work-with-our-partner-agencies}
+### How we work with our partner agencies: ### {#how-we-work-with-our-partner-agencies}
 
-* Login.gov s’associe à des organismes de l’administration pour fournir un accès sécurisé à leur site Web, application ou service. C’est l’organisme partenaire (par exemple, le Bureau de gestion du personnel des États-Unis) qui sélectionne le type d’informations que nous vous demandons.
-* Nous sollicitons principalement des informations pour authentifier votre compte et/ou prouver votre identité.
-* Lorsque vous créez un compte Login.gov, vous consentez à partager des informations personnelles identifiables (IPI). Les informations que vous devez partager dépendent de ce que demande l’organisme partenaire.
-* Pour que l’authentification puisse établir un compte sécurisé, nous avons besoin de votre nom, de votre adresse e-mail et d’une méthode d’authentification. Votre méthode d’authentification peut être un numéro de téléphone vers lequel nous envoyons un code par SMS ou une clé de sécurité USB, entre autres options.
-* La vérification d’identité requiert des informations plus sensibles, telles que le numéro de sécurité sociale, l’adresse, le numéro de téléphone et la carte d’identité ou le permis de conduire américain. Une auto-photographie est nécessaire dans les cas où des partenaires ont besoin de vérifier l’identité par l’intermédiaire de la comparaison biométrique comme preuve supplémentaire de votre identité. La comparaison biométrique consiste à comparer votre auto-photographie à la photo qui figure sur votre carte d’identité délivrée par les autorités.
-* Lors de la vérification d’identité en personne à un bureau de poste des États-Unis (USPS), nous partageons votre nom et votre adresse validés avec l’USPS afin que les préposés puissent confirmer votre identité en personne.
-* Pour se prémunir contre les fraudes telles que la prise de contrôle de compte et l’usurpation d’identité, Login.gov utilise des contrôles qui évaluent les risques par l’examen de l’appareil utilisé, l’identité en cours de vérification et les données relatives à vos interactions avec le site  Login.gov (comme les mouvements de votre curseur et les clics de votre souris).
-* Lorsque vous visitez le site Login.gov, nous agrégeons certaines données de manière anonyme, ce qui signifie qu’aucune information d’identification individuelle n’y est reliée. Nous agrégeons les pages que vous avez visitées, le type et la version du navigateur Internet et la durée de la session afin de nous aider à améliorer l’expérience sur Login.gov. Par exemple, si vous rencontrez une erreur et que nous connaissons le type et la version de votre navigateur, nous pouvons mieux identifier la solution à votre problème.
-* Les informations stockées sur votre compte sont chiffrées à deux niveaux. Le chiffrement traduit vos données en un code qui n’est accessible qu’à vous, le titulaire du compte Login.gov. En d’autres termes, vous êtes le seul à pouvoir consulter et modifier les informations de votre compte.
-* Les opérateurs de Login.gov (c’est-à-dire notre centre d’assistance) ne peuvent pas consulter vos informations ni les modifier.
+* Login.gov partners with government agencies to provide secure access to their website, application, or service. The partner agency (for example, the United States Office of Personnel Management) selects the type of information we request from you.
+* We ask for information to authenticate your account, prove your identity, and protect against fraud.
+* When you create a Login.gov account and verify your identity, you consent to Login.gov collecting, using, keeping, and sharing your personal information as described here and in our Privacy Act Statement and Rules of Use — including to verify your identity and to help detect and prevent fraud. What you need to share depends on what the partner agency requires. 
+* For authentication to establish a secure account, we need your name, email address, and an authentication method. Your authentication method could be a phone number where we share an SMS code, USB Security Key, or other options.
+* Identity proofing requires more sensitive information such as a social security number, address, phone number, and a U.S. based federal or state ID. A self-photograph is needed in cases where partners require verification through biometric comparison as further proof of your identity. Biometric comparison involves comparing your self-photograph to the portrait on your government-issued ID card.
+* When completing identity proofing in person at the United States Postal Service (USPS) Office, we share your validated name and address with USPS so that clerks can confirm your identity in person.
+* Identity fraud happens when someone tries to use your information to pretend to be you. To prevent it, we look at the device you're using, how you interact with the page, and the information you provide during identity verification.
+* We keep a secure, encrypted copy of the identity documents you submit, along with information about your verification attempts. We keep attempt information decryptable by Login for up to one year, and the encrypted documents for partner agencies longer because identity theft is often discovered later, when a victim or an agency reports it. Keeping this record allows us to investigate and provide redress.
+* If you started at a partner agency that receives information about verification attempts from Login.gov to help prevent fraud, information about your verification attempts — including attempts you don't finish — is shared with that agency to help it detect fraud. That agency may also request the identity documents you submitted to investigate suspected fraud. When you visit Login.gov, we anonymously aggregate some data, which means that no individually identifying information is attached to it. We aggregate the pages visited, web browser type and version, and the length of the session to help us improve the Login.gov experience. For example, if you experience an error and we know your web browser type and version, we can better identify how to fix your issue.
+* Your stored account information is encrypted at two levels. Most of your account information can only be decrypted with your password; you are the only one who can view and change it.However, to detect and prevent identity fraud, authorized Login.gov fraud operations personnel can access information about identity verification attempts, including the personal information you provided. This information is hidden by default and viewed only when needed for a fraud investigation, and all access is logged and monitored. For the first year, authorized personnel can also access the identity documents you submitted; after one year, Login.gov can no longer access them.
+* Our contact help center cannot view or change your account information.
+* The Login.gov operators (that is, our contact help center) cannot view your information or make any changes.
 
-La protection de vos informations constitue notre priorité. Vous pouvez obtenir des explications plus détaillées sur [le fonctionnement de Login.gov](/fr/policy/how-does-it-work/) et [notre déclaration sur la protection de la vie privée](/fr/policy/our-privacy-act-statement/).
+Protecting your information is our priority. You can read more detailed explanations about [how Login.gov works](/fr/policy/how-does-it-work/), and [our privacy act statement](/fr/policy/our-privacy-act-statement/).
