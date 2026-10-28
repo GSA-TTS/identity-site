@@ -1,18 +1,28 @@
 ---
 layout: sidenav
-title: '隐私与安全: 如何实现'
-description: 了解我们如何保护你个人信息的安全。
+title: "Privacy & security: How it works"
+description: Learn how we protect and secure your personal information.
 permalink: /zh/policy/how-does-it-work/
 sidenav: policies
 ---
-## 这一点如何实现？ ## {#how-does-it-work}
+## How does it work ## {#how-does-it-work}
 
-Login.gov 对传输中和处于静态的你的个人信息都加密，并会在与合作伙伴机构共享数据之前询问你的意见。为了在各政府网站上重复使用身份保证凭据，Login.gov 在继续朝着从第三方评估机构获得符合 NIST的IAL2 标准认证的目标努力。
+Login.gov encrypts your personal information in transit and at rest and asks you before sharing your data with a partner agency. Many government agencies can reuse identity assurance credentials across their websites, and Login.gov continues to develop its service to meet the various needs of these agency partners.
 
-在身份核证期间，你的身份证件的真实性也得到核查。然后，个人信息在颁发机构（例如：州的机动车管理局（DMV））或权威资料（例如：信用、财务、电话记录）那里得到验证。鉴于上述很严格的要求，Login.gov 目前支持州政府颁发的身份证件以及联邦政府雇员证件。随着时间推移，Login.gov也会支持其他证件。
+During identity proofing, the ID is also checked for authenticity. Then, the personal information is validated with the issuing source (for example: state DMVs, Department of State) or authoritative sources (for example: credit, telephone records). A self-photograph is used as further proof of your identity by comparing it to the portrait on your government-issued ID, which is also done by our service providers. Login.gov currently supports state IDs and U.S. Passports. Over time, Login.gov will support additional IDs.
 
-你的地址在此过程中也得到验证。地址验证可以使用与该地址相关的电话号码，或向账户持有人地址发送一封带有注册代码的信件来远程实现。请注意，注册代码有效期是30天。（5-10天用于信件送达，10天时间用于完成在 [https://secure.login.gov](https://secure.login.gov/zh)的地址验证)。验证后，Login.gov 身份凭据将使用帐户持有人的密码进行加密。加密确保只有你 - 账户持有人 - 能用你的密码访问你的信息。
+Your address is also validated during this process. This can be done remotely using a telephone number associated with the address or through a letter with an enrollment code sent to the account holder’s address. Once validated, Login.gov identity credentials are encrypted with the account holder’s password. This means that for most of your account information, only you can unlock and access it with your password.
 
-通过加密来保护隐私的确也有代价。Login.gov 运营方（例如我们的联系中心团队）无法代你做出任何更改，例如解锁帐户、更改密码或更新电子邮件地址或电话号码。我们因此鼓励你保管好自己的身份证实方法。尽管这意味着 Login.gov 无法提供上述级别的客户支持，但如果给客户支持团队这些选择的话，将使我们的系统更易受到黑客和其他不良行为者的攻击。
+Protecting your privacy through encryption does come at a cost. Login.gov operators, such as our Contact Center team, cannot make changes on your behalf: they cannot unlock your account, change your password, or update your email address or phone number. We encourage you to safeguard your authentication method for this reason. While this means Login.gov cannot provide that level of customer support, doing this helps protect your identity: if we chose to make these options available to our customer support team, our system would be more vulnerable to hacking and more at risk from bad actors.
 
-你给 Login.gov 提供的信息将与适当合作伙伴机构共享，以便该机构持有的有关你的信息能被访问，如相关记录系统通知中所述。请注意 Login.gov 将记录有关你使用服务的某些访问层次的信息，包括但不限于网络浏览器类型和版本，以及你每次访问的时长。这些信息使 Login.gov 能更好地了解人们如何使用网站以及如何使网站更有用。
+There is a limited exception for fraud prevention. Authorized Login.gov fraud operations personnel can access information about identity verification attempts, including the personal information you provided, in order to detect and investigate identity fraud. This information is hidden by default and viewed only when needed for an investigation, and all access is logged and monitored. For the first year, authorized personnel can also access the identity documents you submitted; after one year, Login.gov can no longer access them.
+
+The information you give Login.gov will be shared with the applicable partner agency to provide access to information about you held by that agency as described in the associated systems of records notices. 
+
+**Fraud prevention protects you.** Individuals and organized criminal groups continuously attempt to steal people's identities and defraud government programs - filing false claims, redirecting benefits, or opening accounts in someone else’s name. Our fraud prevention practices are designed to detect and stop these attacks while respecting your privacy.
+
+Large agencies maintain their own anti-fraud teams that investigate fraud against their programs. These teams need information about how an identity was verified in order to detect fraud patterns and investigate suspected cases. Login.gov requires strong written agreements and security practices before sharing this information with a partner agency.
+
+If you began or attempted to access a partner agency’s service and that agency receives verification attempt information from Login.gov to help prevent fraud, information about your identity - including attempts you do not complete - is shared with that agency at the time of your attempt. That agency may also request the identity documents you submitted to investigate suspected fraud.
+
+Please note that the Login.gov system will record certain session-level information about your use of the service, including but not limited to, web browser type and version, and the length of your session. This information allows Login.gov to better understand how the site is being used and how it can be made more helpful. Login.gov also collects information about your device and how you interact with the service to detect and prevent fraud. 

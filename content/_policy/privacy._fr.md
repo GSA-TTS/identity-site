@@ -1,77 +1,80 @@
 ---
 sidenav: policies
-title: "Confidentialité et sécurité : notre déclaration relative à la loi sur la confidentialité"
-description: En savoir plus sur la manière dont nous sollicitions, utilisons, conservons et
-  protégeons vos informations personnelles, ainsi que vos obligations par rapport à la divulgation
-  de celles-ci.
+title: "Privacy & security: Our privacy act statement"
+description: Learn how we ask for, use, retain, and protect your personal
+  information, as well as your obligation to disclose it.
 permalink: /fr/policy/our-privacy-act-statement/
 redirect_from:
   - /fr/policy/our-privacy-practices/
 ---
-## Notre déclaration relative à la loi sur la confidentialité ## {#our-privacy-act-statement}
+## Our privacy act statement ## {#our-privacy-act-statement}
 
-Le service Login.gov est fourni par l’Administration des services généraux des États-Unis pour offrir au public un accès en ligne privé sécurisé aux programmes gouvernementaux participants. Grâce à un seul compte Login.gov, les utilisateurs peuvent se connecter à plusieurs organismes de l’administration. Notre objectif est de faciliter et de sécuriser encore davantage la gestion des prestations, des services et des candidatures au niveau fédéral et ce, plus rapidement.
+The Login.gov service is provided by the U.S. General Services Administration to offer the public secure and private online access to participating government programs. Using only one Login.gov account, users can sign into multiple government agency sites. Our goal is to make managing federal benefits, services, and applications faster, easier, and more secure.
 
-En accédant au service Login.gov, vous reconnaissez avoir pris connaissance de la présente Déclaration relative à la protection des données personnelles et des Règles d'utilisation de Login.gov et vous les acceptez. Toute modification apportée à ces conditions sera publiée sur cette page. Si, à tout moment, vous n'acceptez plus la présente Déclaration relative à la protection des données personnelles ou toute autre condition d'utilisation du service Login.gov, vous pouvez supprimer votre compte.
+By accessing the Login.gov service, you acknowledge and agree to this Privacy Act Statement and the Login.gov Rules of Use, which together describe how your information is collected, used, and shared. We will post any changes to these terms to this page. If at any time you no longer agree to this Privacy Act Statement or any other relevant terms of the Login.gov service, you may delete your account.
 
-### L’autorité : qui autorise la collecte de ces données ? ### {#authority}
+### The Authority - Who authorizes the collection of this data?  ### {#authority}
 
-Les informations que vous fournissez sont recueillies conformément à 6 USC § 1523 (b)(1)(A)-(E), à la loi sur l’administration électronique (E-Government Act) de 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid:USC-prelim-title40-section501&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim), [40 USC § 502](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid:USC-prelim-title40-section502&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim) et [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
+The information you provide is collected pursuant to 6 USC § 1523 (b)(1)(A)-(E), the E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title40-section501&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim), [40 USC § 502](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title40-section502&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim), and [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
-### L’objectif : pourquoi avons-nous besoin de vos informations ? ### {#purpose}
+### The Purpose - Why do we need your information? ### {#purpose}
 
-Login.gov travaille en partenariat avec des organismes qui ont besoin d’un accès privé sécurisé à leurs applications et services. Chaque organisme peut demander différents niveaux de sécurité en fonction de ses besoins. Lorsque vous créez un compte Login.gov et que vous vous y connectez, vous recevez un certificat de garantie d’identité électronique. Nous avons besoin de vos informations d’identification personnelle (IPI) pour générer ce certificat, qui est comme une clé que vous êtes le seul à pouvoir utiliser. Cette clé permet l’ouverture sécurisée de la porte du service ou de l’application d’un organisme partenaire. Nous avons également besoin d’informations pour nous assurer que les données relatives à votre identité sont exactes, et qu’elles n’appartiennent pas à quelqu’un d’autre.
+Login.gov partners with agencies that need secure and private access to their applications and services. Each agency may request different levels of security depending on their needs. When you create and sign in to a Login.gov account, you’re provided with an electronic identity assurance credential. We need your personally identifying information, or PII, to generate that credential. Imagine this credential like a key that only you can use. The key securely opens the door to a partner agency’s service or application. We also need information to ensure that your identity information is accurate - and not someone else’s.
 
-#### Quelles sont les informations dont nous avons besoin ? 
+#### What information do we need?
 
-* Pour que l’authentification puisse établir un compte sécurisé, nous avons besoin de votre adresse e-mail et d’une méthode d’authentification. Votre méthode d’authentification peut être un numéro de téléphone vers lequel nous envoyons un code par SMS, une clé de sécurité USB ou une autre option.
-* La vérification d’identité requiert des informations plus sensibles, telles que le numéro de sécurité sociale, l’adresse, le numéro de téléphone et la carte d’identité ou le permis de conduire américain. Une auto-photographie peut être nécessaire pour valider votre document d’identité ou permis de conduire délivré par les autorités comme preuve supplémentaire de votre identité en la comparant à la photo figurant sur votre pièce d’identité officielle.
-* Lors de la vérification de votre identité, votre opérateur téléphonique peut divulguer à notre prestataire de services tiers votre numéro de téléphone mobile, votre nom, votre adresse, votre adresse e-mail, votre statut de réseau, votre type de client, votre rôle de client, votre type de facturation, les identifiants de votre appareil mobile (IMSI et IMEI) et d’autres détails relatifs à votre statut d’abonné et à l’appareil, le cas échéant, uniquement pour vérifier votre identité pendant la durée de la relation professionnelle.
-* Pour limiter les fraudes, nous analysons également l’appareil utilisé pour accéder à Login.gov, les métadonnées associées à votre session Login.gov, l’identité et le comportement, comme la façon dont vous interagissez avec les formulaires de la page.
+* For authentication to establish a secure account, we need your email address and an authentication method. Your authentication method could be a phone number where we share a SMS code, USB Security Key, or another option.
+* Identity proofing requires more sensitive information such as a Social Security number, address, phone number, and an ID (such as your driver's license, state ID, or U.S. passport). For access to certain partner agency systems or applications, a self-photograph may be needed to verify the U.S. based federal or state ID as further proof of your identity by comparing it to the portrait on your government-issued ID.
+* During identity proofing, your phone carrier may disclose your mobile number, name, address, email, network status, customer type, customer role, billing type, mobile device identifiers (IMSI and IMEI) and other subscriber status and device details, if available, to our third party service provider, solely to verify your identity for the duration of the business relationship.
+* To mitigate fraud, we also analyze the device used to access Login.gov, metadata associated with your login.gov session, and behavior such as how you interact with forms on the page.
+* When you go through identity verification, we keep a secure, encrypted copy of the identity documents you submit (such as your state ID, driver’s license, or passport, and any self-photographs.) We also keep information about your verification attempts. This information is maintained and may be disclosed to other authorized federal agencies to help detect and prevent identity fraud. Disclosures are made in accordance with the Privacy Act of 1974 and the routine uses described in our System of Records Notice (GSA/TTS-1), and are governed by written agreements requiring the receiving agency to protect the information consistent with the Privacy Act and applicable federal law and policy.
 
-### Utilisations courantes : avec qui les informations sont-elles régulièrement partagées ? ### {#routine-uses}
+The information described above is collected and maintained to detect and prevent identity fraud. Identity fraud against government programs is often committed using stolen or synthetic identities across multiple verification attempts; detecting it requires analyzing attempt information, including attempts that aren’t complete. This information is disclosed to partner agencies for use in detecting and investigating fraud against their programs and in providing redress to affected individuals. 
 
-* À des tiers fournissant des services d’authentification et de vérification d’identité à distance ou en personne, y compris à d’autres organismes fédéraux fournissant de tels services, dans la mesure où cela est nécessaire pour vous authentifier ou vérifier votre identité afin d’accéder à une application ou un site Web gouvernemental participant.
-* À un expert, consultant ou contractuel de l’Administration des services généraux (GSA) dans le cadre de ses fonctions au niveau fédéral pour lesquelles ces informations sont pertinentes.
-* Au Bureau de publication de l’administration (GPO), lorsque Login.gov doit vous envoyer par courrier un formulaire de confirmation d’adresse e-mail ou si vous demandez à être informé par courrier des modifications apportées à votre compte ou des tentatives de vérification d’identité.
-* À d’autres organismes fédéraux et à des services tiers de prévention de la fraude, dans la mesure où cela est nécessaire pour détecter les soupçons de fraude et enquêter à leur sujet, y compris pour vous offrir des voies de recours.
+### Routine Uses - With whom is the information routinely shared? ### {#routine-uses}
+* To third parties providing remote or in-person authentication and identity proofing services, including other federal agencies providing such services, as necessary to authenticate or identity proof you for access to a participating government website or application.
+* To an expert, consultant, or contractor of GSA in the performance of a Federal duty to which the information is relevant.
+* To the Government Publishing Office (GPO), when Login.gov needs to mail you an address confirmation form or if you request mailed notifications of account changes or of proofing attempts.
+* To other federal agencies and third-party fraud prevention services as necessary to detect and investigate suspected fraud, including providing you with redress.
 
-Cette liste n’est pas exhaustive. Veuillez consulter l’[avis de système d’enregistrement GSA/TTS-1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records) pour toutes les entités et personnes concernées.
+This list is not comprehensive. Please see [system of records notice GSA/TTS-1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records) for all entities and individuals to whom the information may be routinely shared.
 
-#### Qu’advient-il des informations que vous partagez ?
+#### What happens to the information you share?
 
-Tous les enregistrements sont stockés électroniquement dans une base de données de l’environnement Amazon Web Services (AWS) de l’Administration des services généraux. Les prestataires de Login.gov conservent également les données personnelles pendant 90 jours afin de déceler et de lutter contre les fraudes dans le système. Les prestataires sont autorisés à conserver les données au-delà de 90 jours si nécessaire pour enquêter sur des fraudes soupçonnées ou les prévenir, ou encore si la loi l’exige. Vous pouvez changer ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/fr/account).
+All records are stored electronically in a database in GSA’s Amazon Web Services (AWS) environment. Login.gov’s vendors store personal information used for fraud detection for a limited period, not to exceed one year, after which it is deleted unless needed to investigate or prevent suspected fraud or as otherwise required by law. 
 
-Vos informations personnelles, y compris les profils, fichiers de connexion, fichiers de mots de passe, fichiers et extraits d’audit, enregistrements d’utilisation du système et les données de facturation de l’organisme utilisées pour évaluer les frais d’utilisation du système, seront conservées aussi longtemps que vous aurez un compte actif, à moins qu’une conservation plus longue ne soit nécessaire à des fins commerciales, par exemple à des fins répressives ou pour d’autres questions juridiques, conformément aux directives de l’Administration nationale des archives et des dossiers (NARA). Ces informations personnelles sont nécessaires pour permettre aux utilisateurs d’accéder aux informations et aux services des organismes partenaires.
+Login.gov retains the personal information from your verification attempts (such as your name, address, and any other information you provide) for up to one year for fraud detection and investigation, unless a longer period is required by law or to support an active fraud investigation. The encrypted copies of the identity documents you submit (such as your state ID, driver’s license, or passport, and any self-photograph) are retained for a longer period, until their business use ceases, in accordance with National Archives and Records Administration (NARA) guidance. During the first year, Login.gov can access these documents. After one year, Login.gov can no longer access them, though they remain stored in encrypted form. A participating agency that received information about your verification may retrieve these documents for fraud investigations for as long as the information is needed for that purpose.
 
-Dans certains cas, nous pouvons être tenus de partager certaines données. Pour plus d’informations à ce sujet, veuillez vous reporter à la section « utilisations courantes » de l’avis relatif au système d’enregistrement dont le lien figure ci-dessus.
+Your personal information, including profiles, log-in files, password files, audit trail files and extracts, system usage records, and agency billing data used to assess charges for system use, will be maintained for as long as you have an active account, unless longer retention is required for business use, such as for law enforcement matters or other legal actions in accordance with National Archives and Records Administration (NARA) guidance. This personal information is necessary to provide users access to information and services at partner agencies.
 
-### Consentement : comment pouvez-vous contrôler les informations qui sont partagées ? ### {#consent}
+There may be circumstances where we are required to share certain data. Please refer to the “routine uses” section of the system of records notice linked above for more information on those circumstances.
 
-C’est vous qui décidez si vous souhaitez partager vos informations personnelles avec un organisme quel qu’il soit ; vous pouvez révoquer votre consentement à tout moment. Vous pouvez changer ou modifier votre adresse e-mail ou votre numéro de téléphone sur la [page de votre compte](https://secure.login.gov/fr/account/).
+### Consent - How can you control what information is shared? ### {#consent}
 
-Toutefois, le fait de ne pas fournir des informations complètes et exactes peut retarder l’accès à l’organisme partenaire. Login.gov n’effectue aucune détermination d’admissibilité ou d’aptitude ; cette responsabilité incombe aux sites Web gouvernementaux qui utilisent le service Login.gov.
+You provide consent at two points. First, by agreeing to this Privacy Act Statement and the Rules of Use before you begin, you consent to Login.gov collecting and using your information as described here, including sharing information about your identity verification attempts (including attempts you do not complete), with an agency authorized to receive this data where you begin or attempt to access that agency’s service, to help that agency detect and prevent fraud. Second, your validated personal data is encrypted, and it is shared with a partner agency only when you, the authorized user, explicitly grants consent to share the information. You decide if you want to share personal information with any agency and you can revoke consent at any time. Revoking consent stops future sharing of your information with an agency. It does not delete information that has already been shared, and it does not affect information retained for fraud detection and investigation as described above. You can modify, or amend, either your email address or phone number on [your account page](https://secure.login.gov/fr/account).
 
-En dehors de ce qui est spécifié dans la présente Déclaration relative à la loi sur la confidentialité et dans nos règles d’utilisation, nous ne partagerons jamais vos informations sans votre consentement. Vos données personnelles validées sont chiffrées et ne peuvent être partagées avec un organisme partenaire que si vous, l’utilisateur autorisé, saisissez votre mot de passe et consentez explicitement au partage de ces informations.
+However, failure to provide complete and accurate information may delay access to the partner agency. Login.gov does not make any eligibility or suitability determinations; that is the responsibility of the government websites that use the Login.gov service. Other than as specified in this Privacy Act Statement, our Rules of Use, and the routine uses in our System of Records Notice,  we will never share your information without your consent. 
 
-Lorsque vous créez un compte ou que vous visitez le site Web d’une nouvel organisme partenaire après avoir créé votre compte, vous avez la possibilité de consentir au partage de vos informations avec l’organisme partenaire. Vous devez donner votre consentement tous les ans pour chaque organisme.
+When you create an account or visit a new partner agency website after you have created your account, you will see the option to consent to share your information with the partner agency. You are required to give consent yearly for each agency.
 
-N’oubliez pas que vous pouvez à tout moment mettre à jour vos informations personnelles, révoquer votre consentement ou supprimer entièrement votre compte à partir de la [page de votre compte](https://secure.login.gov/fr/account).
+Remember you can update your personal information, revoke consent, or delete your account at any time through [your account page](https://secure.login.gov/fr/account).
 
-### Réduction du risque de fraude : comment arrêtons-nous les acteurs malveillants ? ### {#fraud}
+### Fraud mitigation - How do we stop bad actors? ### {#fraud}
 
-Il y a usurpation d’identité lorsque quelqu’un se faisant passer pour vous tente d’accéder à un organisme partenaire en utilisant vos informations Login.gov. Login.gov protège vos données des acteurs malveillants. Notre produit travaille avec des fournisseurs tiers de confiance pour s’assurer que c’est bien vous qui accédez à votre compte — et non une tierce personne qui se fait passer pour vous. Ces fournisseurs recherchent les changements et les risques dans le comportement de l’utilisateur qui pourraient indiquer une tentative de fraude.
+Identity fraud is someone pretending to be you and attempting to access a partner agency using your Login.gov information. Login.gov protects your data from bad actors. Our product works with trusted third-party vendors to make sure it is you - and not someone pretending to be you - accessing your account. These vendors look for changes and risks in user behavior that might indicate a fraud attempt.
 
-### Enregistrements : où trouver de plus amples informations ? ### {#records}
+To support fraud detection and investigation, authorized Login.gov fraud operations personnel and authorized agencies may review information about verification attempts. Within Login.gov, your personal information is restricted to authorized personnel, hidden by default, and viewed only when needed for a fraud investigation. 
 
-Veuillez consulter l’avis relatif au système d’enregistrement de Login.gov ([GSA/TTS–1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records)).
+### Records - Where can you find more information? ### {#records}
 
-### Analytique Web : d’autres données que nous recueillons ### {#analytics}
+Please see the Login.gov system of records notice ([GSA/TTS–1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records)).
 
-D’autres données, comme les pages que vous visitez et la durée de votre session, sont regroupées dans des rapports pour nous aider à mieux comprendre comment le site est utilisé et comment il peut être possible de le rendre plus utile. Les données sont rendues anonymes. Aucune information permettant d’identifier personnellement l’utilisateur n’est liée à ces données et elles ne sont partagées que de manière anonyme avec l’équipe de Login.gov.
+### Website Analytics – Other data we collect ### {#analytics}
 
-Nous recueillons des informations sur les appareils et des analyses comportementales pour évaluer les risques d’utilisation abusive. Ces informations sont conservées brouillées. Login.gov est en mesure d’évaluer les risques liés à l’appareil et au comportement à partir de cet ensemble de données brouillées, mais ni Login.gov, ni ses fournisseurs ne peuvent déchiffrer ou rendre lisibles les informations.
+Other data, like the pages you visit and the length of your session, are aggregated into reports to help us better understand how the site is being used and how we can make it more helpful. The data is anonymized. No personally identifying user information is tied to this data and it is only shared anonymously with the Login.gov team.
 
-### Évaluation de l’incidence sur la vie privée ### {#impact}
+We collect device information and behavioral analytics to assess for risk of misuse. This information is stored in an obfuscated manner. Login.gov is able to assess device and behavioral risk from this obscured data store, but neither Login.gov nor its providers can read the information.
 
-Consultez notre évaluation de l’incidence sur la vie privée sur le site [www.gsa.gov/PIA](https://www.gsa.gov/PIA) pour obtenir de plus amples renseignements sur la manière dont Login.gov recueille, utilise, sécurise et détruit les informations de manière à protéger la vie privée.
+### Privacy Impact Assessment ### {#impact}
+
+View our privacy impact assessment at [www.gsa.gov/PIA](https://www.gsa.gov/PIA) for further details on how Login.gov collects, uses, secures, and deletes information in ways that protect privacy.

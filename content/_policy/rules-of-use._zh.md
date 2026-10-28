@@ -1,173 +1,192 @@
 ---
 layout: sidenav
 sidenav: policies
-title: 使用规则
-description: 使用规则。
+title: Rules of Use
+description: Rules of use.
 permalink: /zh/policy/rules-of-use/
 ---
-## 使用规则
+## Rules of Use
 
-Login.gov 服务由联邦总务管理局提供，让公众能够安全、私密地在网上访问参与Login.gov的政府计划。用户只要一个本项目账户，就能进入多个政府机构。我们的目标是让管理联邦福利、服务以及申请更容易和安全。
+The Login.gov service is provided by the U.S. General Services Administration to offer the public secure and private online access to participating government programs. With one Login.gov account, users can sign into multiple government agencies. Our goal is to make managing federal benefits, services, and applications easier and more secure.
 
-我们的服务条款提供：
+These Rules of Use provide:
 
-* Login.gov 服务如何运行以及你对其应有什么期望等信息，
-* 我们为你提供 Login.gov 服务的条款和细则，
-* 我们如何使用你的信息以及你获得此信息的权力，以及
-* 你在 Login.go v采取某些行动时同意接受的条件。
+* Information on how the Login.gov service works and what you can expect from it,
+* The terms under which we provide the Login.gov service to you,
+* How we use your information and your rights to that information, and
+* The conditions you agree to when you take certain actions on the Login.gov service.
 
-## 1. 一般服务定义
+## 1. General Service Definition
 
-Login.gov 服务让公众能够安全、私密地在网上访问参与本项目的政府计划。你只要一个 Login.gov 账户就能登录访问多个政府机构的服务。我们的目标是让管理联邦福利、服务以及申请更容易和安全。
+The Login.gov service offers the public secure and private online access to participating government programs. With one Login.gov account, you can sign into services offered by multiple government agencies. Our goal is to make managing federal benefits, services, and applications easier and more secure.
 
-Login.gov 服务与其他联邦机构（“合作伙伴”)合作，使你只用一个 Login.gov 账户就可以访问那些服务，从而消除了在不同政府机构设立多个不同账户的需要。
+The Login.gov service partners with other government agencies (“partners”) to allow you to access those services with just one Login.gov account, eliminating the need to create many separate accounts across government.
 
-Login.gov 服务通过实施强有力的安全措施来保护你的帐户，并通过从你那里收集最低限度的必要信息来保护你的隐私，从而仅向合作伙伴披露其执行服务所必需的信息。Login.gov 从来不会与联邦合作伙伴分享验证过的个人信息，除非：
+The Login.gov service protects your account by implementing strong security measures and protects your privacy by collecting the minimally necessary information from you and, in turn, revealing to partners only the information necessary for those partners to execute their service. And Login.gov does not share your personal information with a partner unless:
 
-1. 你明确表示同意（同意可以随时撤回）；
-2. 法律要求披露；或者
-3. 披露对于调查与你账号相关的骗局很有必要。
+1. You provided explicit consent (which you can revoke that at any time);
+2. Disclosure is required by law; or
+3. Disclosure is necessary to investigate fraud related to your account.
+4. You began or attempted to access that partner's service and the partner has an agreement with Login.gov to receive this information for fraud prevention, in which case information about your identity verification attempts — including attempts you do not complete — is shared with that partner at the time of your attempt to help detect and prevent fraud, as described in Section 4.
 
-使用 Login.gov 服务的有些政府应用程序要求你验证身份。这意味着你必须证明你是你说的你。这样的证明有助于确保只有合适的人员才能访问敏感信息。
+Some government applications that use Login.gov require you to verify your identity. This means that you must prove that you are who you say you are. That proof helps ensure that only the right people get access to sensitive information.
 
-你仅在首次登录某些政府应用程序时才会被要求验证身份。你在 Login.gov 针对一个政府应用程序验证身份后，通常就不必要再针对其他政府应用程序再做身份验证。但是，当您首次登录 IRS.gov 时，即使你已针对其他应用程序验证了您的身份，你始终需要验证自己的身份。通过向 Login.gov 服务提供验证你帐户所需的信息，你授权 Login.gov 使用该信息执行确保你身份所必要的活动，包括与某些第三方共享信息，即身份核证服务。如我们[隐私政策]({% link _policy/privacy._zh.md %})中所详述，Login.gov 服务要求那些第三方对你的信息保密并不将其用于其他目的。
+You will only be asked to verify your identity the first time you sign into certain government applications. After you verify your identity with Login.gov for one government application, you usually don’t need to do it again for other government applications. By providing the Login.gov service with the information needed to verify your account, you authorize it to use that information to conduct activities necessary to ensure your identity, including sharing information with certain third parties, namely identity proofing services. The Login.gov service requires those parties to hold your information confidentially and not to use it for other purposes, as detailed in our [Privacy Policy]({% link _policy/privacy._zh.md %}).
 
-Login.gov 使用公认的安全和隐私最佳行为规范。
+The Login.gov service employs recognized security and privacy best practices.
 
-你使用 Login.gov 服务之前，我们会要求你同意接受这些服务条款。如果 Login.gov 更改服务条款，你下次登陆时会有同意或谢绝接受更新后的服务条款的选择。同样，你在 Login.gov 服务中从事某些活动时，例如首次提供个人信息，Login.gov服务可能会要求你重新确认你对其如何使用你信息的理解。
+Prior to using the Login.gov service, you are required to agree to these Rules of Use. In the event Login.gov significantly changes its Rules of Use, you will be given the option to agree or to decline the updated Rules of Use the next time you login. Similarly, when conducting certain activities in the Login.gov service, such as providing personal information for the first time, the Login.gov service may require you to re-confirm your understanding of how it uses your information.
 
-## 2. 你同意的协议
+## 2. Your Agreement
 
-接受这些条款并使用 Login.gov 服务，意味着除了条款中规定的其他你同意接受的细节内容之外，你还同意：
- 	
-1. 您必须年满 13 周岁，并符合使用 Login.gov 身份验证服务的资格；
-2. 如果您使用 Login.gov 身份验证服务，您必须年满 18 周岁；
-3. 您必须使用您拥有或控制的有效电子邮件地址，该地址能够接收持续的通信，并且您不得使用一次性、临时或仅使用一次的电子邮件地址或域名；
-4. 您向我们提供的任何信息都必须完整且准确；
-5. 如果您验证了您的身份，您在使用该服务时所声明的身份必须是您本人的身份；
-6. 您在使用该服务时必须遵守适用的地方、州和联邦法律；
-7. 您必须对您的个人信息和登录信息保密；以及
-8. 您必须始终保持您帐户中信息的准确性。
+In addition to details about your consent stated elsewhere in these terms, by accepting these Rules of Use and using the Login.gov service, you agree that:
 
-你进一步同意**不会**在 Login.gov 提供虚假身份或虚假信息，包括通过客户支持渠道提供的信息。
+1. You understand and agree that, to help detect and prevent fraud, Login.gov keeps information about your identity verification attempts and the identity documents you submit, and may share information about your verification attempts — including attempts you do not complete — with the partner agency where you began or attempted access, as described in Section 4.
+2. You are at least 13 years of age and eligible to use Login.gov authentication services,
+3. If you use Login.gov identity proofing services, you are at least 18 years of age,
+4. You will use a valid email address that you own or control and that is capable of receiving ongoing communications, and you will not use disposable, temporary, or single-use email addresses or domains,
+5. Any information you provide to us is complete and accurate,
+6. If you verify your identity, the identity you claim when using the service is your own,
+7. You will comply with applicable local, state, and federal laws in your use of the service,
+8. You will keep your personal and login information confidential, and
+9. You will maintain accurate information in your account at all times.
 
-你还同意你接受这些条款和[隐私政策]({% link _policy/index._zh.md %})以及与 Login.gov 服务相关的其他条款的约束。
+You further agree that you will NOT misrepresent your identity or any information you present in the Login.gov service, including through customer support channels.
 
-这些条款如有更改，我们都会在本页面公布。你任何时候如果不再同意上述条款或 Login.gov 服务的其他相关条款，都可以关闭自己的账户。
+You also agree that you are bound by these terms and the [Privacy Policy]({% link _policy/index._zh.md %}), and other terms related to the Login.gov service.
 
-## 3. 身份证实
+We will post any changes to these terms to this page. If at any time you no longer agree to these terms or any other relevant terms of the Login.gov service, you may close your Login.gov account.
 
-访问在 Login.gov 上的账户叫做身份证实。Login.gov 身份证实要求使用多重身份证实（或双重身份证实）作为提供防止恶意访问你账号和信息企图的有力保护办法。
+## 3. Authentication
 
-我们提供进行多重身份证实的几种方法，这些方法称为身份证实器。你总会被要求设立一个密码片语作为身份证实器之一，并使用该密码对你帐户进行验证（仅适用于联邦人员的 PIV/CAC 使用除外）。密码片语类似密码，但给你更多灵活性，比如可以使用字词和空格，而且通常没有诸如要求使用数字或特别字符的组合规则。
+Accessing an account on the Login.gov service is called authentication. Authentication to the Login.gov service requires multi-factor authentication (or two factor authentication) as a means of providing strong protection against malicious attempts to access your account and information.
 
-我们鼓励你设置多个额外的身份证实器。这样的话，如果你丢失了一个验证器，你仍然可以进入你的账户并且不会丢失任何信息。
+We provide several ways to establish multi-factor authentication, called authenticators. You will always be required to create a passphrase as one of your authenticators and to use that passphrase to authenticate to your account (except for PIV/CAC use, which is applicable to federal personnel only). Passphrases are like passwords, but they allow you more flexibility, such as by using words and spaces, and generally don’t have composition rules such as requiring the use of numbers or special characters.
 
-Login.gov 目前供你使用的身份证实器有：
+We encourage you to set up multiple additional authenticators. This way, if you misplace one authenticator, you can still get into your account and won’t lose any information.
 
-1. 密码片语;
-2. 备用代码;
-3. 通过SMS（短信）或语音信息发到你控制的移动设备上的一次性代码;
-4. 通过身份证实器 App（比如Google Authenticator 或Authy）得到的一次性代码，下载到你自己的移动设备上而且在 Login.gov 做了登记;
-5. 只供联邦和军事人员使用的 PIV 和 CAC卡;
-6. 由你获取并在 Login.gov 登记的 WebauthN 安全设备和软件，例如 FIDO（“网上快速身份验证”）令牌、Yubikeys 以及 Google 的 Titan 安全密钥;
+The authenticators currently available to you in the Login.gov service are:
 
-Login.gov 不会续订、重新发布身份证实器或让身份证实器过期，但你可以随时撤销与你帐户关联的身份证实器，而且随后如果愿意的话，也可以再添加。Login.gov服务不发布实物身份证实器。密码片语或备用代码之外的身份证实器要求你自己提供软硬件。
+* A passphrase;
+* Backup codes;
+* One-time passcodes through SMS (text) or voice messaging, sent to a mobile device you control;
+* One-time passcodes through authenticator apps downloaded to a mobile device of your own and registered with Login.gov;
+* PIV and CAC cards, for federal and armed forces personnel only;
+* WebauthN security devices and software, such as FIDO (“Fast IDentity Online”) tokens, Yubikeys, and Google’s Titan Security Keys, obtained by you and registered with Login.gov;
+* FIDO2-compliant security keys, obtained by you and registered with Login.gov;
+* Passkeys.
 
-在 Login.gov 登记身份证实器时，你同意允许我们将其用作访问你帐户的身份证实器。如果你登记了短信或语音信息，即表示你授权我们向你的电话号码发送短信和拨打电话。
+Login.gov does not renew, reissue, or expire authenticators, but you can revoke an authenticator associated with your account at any time and, if desired, re-add it later. The Login.gov service does not issue physical authenticators. Authenticators other than passphrases or backup codes require hardware or software that you provide yourself.
 
-对于实物身份证实器，例如打印的备份代码、硬件令牌或电话，请将其保存在安全的地方或随身携带来保护它们。请勿让其受到损害。如果丢失、坏掉或受损，你有可能失去对账户的访问权。
+When you register an authenticator with the Login.gov service, you agree to allow us to use it as an authenticator to access your account. If you register for SMS or voice messaging, you authorize us to send text messages and make phone calls to your phone number.
 
-如果您忘记了密码，只要能访问注册邮箱，就可以重置密码。您也可以随时在账户个人资料中更改密码。如果您丢失了其他验证器或不再需要使用，也可以随时在账户个人资料中将其停用。
+For physical authenticators such as printed out backup codes, a hardware token, or a phone, protect them by keeping them in a safe place or with you. Don’t let them get damaged. If they get lost, broken, or damaged, you may lose access to your account.
 
-如果我们怀疑你的账户存在欺诈现象，我们可能会锁住你的账户并与你联系。如果我们有理由相信你的密码片语已被盗用，我们可能会要求你重设。
+If you forget your passphrase, you can reset it if you have access to your registered email address. You can change your passphrase at any time from your account profile. If you lose another authenticator or no longer wish to use it, you can deactivate it in your account profile at any time.
 
-## 4. 身份核证和验证
+If we suspect fraud on your account, we may lock your account and contact you. If we have reason to believe your passphrase has been compromised, we may require that you reset it. If your account has been compromised in any way, please notify Login.gov immediately at https://login.gov/contact/. 
 
-当您首次尝试使用 Login.gov 登录需要身份验证的合作应用程序时，我们会启动身份验证流程。身份验证服务仅面向年满 18 周岁的用户开放。如果您未满 18 周岁，可以使用 Login.gov 身份验证服务，但您无法完成身份验证，并且在满足年龄要求之前，您将无法访问需要身份验证的合作应用程序。身份验证流程会收集您的相关信息，并尝试验证这些信息，以确认您（用户）的身份。我们将这些信息称为身份证明，通常包括您的姓名、出生日期、社会安全号码、家庭住址以及身份证件（例如驾驶执照）的图像。您同意您提供的信息是您本人的信息，而非他人的信息，并且准确无误。
+## 4. Identity Proofing and Verification
 
-在您提供身份证明后，我们会尝试通过各种权威可信的来源对其进行验证。我们会使用第三方身份验证服务来协助我们进行验证。例如，如果您提交了居住州的驾照照片，我们会将驾照上的信息与您所在州的车辆管理部门 (DMV)、机动车辆管理局 (MVA) 或同等州级机构的权威数据进行比对，以确保您的信息与这些记录一致。我们还会使用技术手段来检查驾照上的某些安全特征，以确保其合法性。
+The first time you try to log in using Login.gov at a partner application that requires knowing your identity, we initiate a process called identity proofing. Identity proofing services are available only to individuals who are at least 18 years of age. If you are under 18, you may use Login.gov authentication services, but you are not eligible to complete identity proofing, and you will not be able to access partner applications that require identity proofing until you meet the age requirement. Identity proofing takes information about you and attempts to validate that information and then verify that you, the user, are the individual you claim to be. We call this information identity evidence and it generally includes your name, date of birth, social security number, home address, and an image of identification (ID), such as your driver’s license. You agree the information that you provide is your information - not someone else’s - and accurate.
 
-同样，我们也会把你给我们的信息与其他记录比较，来获得对你身份更多的信任。比如，我们也许会验证你的姓名、生日、地址以及社会保障号码都与信用机构的记录相符。虽然我们不会查看你的信用状况，我们会确保这一个人的确存在，以保护你不受身份欺诈之害。我们也许还会与其他资料来源进行核对，来确认你提供给我们的信息。如果我们无法通过其他方式验证您的地址，在某些情况下，我们可以通过向您发送一封包含验证码的信件来确认您居住在那里，您需要将该验证码输入到 服务中。
+After you provide us with this identity evidence, we attempt to validate it against various authoritative and credible sources. We use third party identity proofing services to assist us with this validation. For instance, if you submit an image of your driver’s license from your state of residence, we’ll compare the information on it to the authoritative data from your state Department of Motor Vehicles (DMV), Motor Vehicle Administration (MVA), or equivalent state agency to ensure that your information is consistent with those records. We’ll also use technology to look for certain security features on the driver’s license to ensure that it’s legitimate.
 
-除了验证你提供给我们的身份证据之外，我们也验证你的确是那个人。我们会对你访问 Login.gov 所使用的设备、核证中的身份、以及你在身份核证过程中的行为进行评估。我们从该设备收集信息来进行这一评估。我们在[隐私政策]({% link _policy/index._zh.md %})进一步详细说明我们如何使用你信息。
+Similarly, we’ll compare the information you give us to other records for added confidence in your identity. We may, for instance, verify that your name, date of birth, address, and social security number all match in records with a credit bureau. While we won’t check your credit, we will ensure that such a person exists to protect you from identity fraud. We may also check with other sources to confirm the information you provide us. If we can’t validate your address in other ways, we may, in some instances, be able to confirm you live there by sending you a letter with a code that you enter into the service.
 
-如果您遇到错误且无法完成身份验证流程，系统会提供相应的补救说明和后续操作指南。目前登录系统没有绕过标准身份验证要求的流程。
 
-### 生物识别数据
+In addition to validating the identity evidence you provide to us, we take additional steps to detect and prevent fraudulent account creation. We assess the device being used to access Login.gov, the identity being proofed, and your behavior during identity proofing. We collect information from the device to perform this assessment. We further detail how we use your information in our [Privacy Policy]({% link _policy/index._zh.md %}).
 
-部分合作伙伴要求通过生物识别比对进行身份验证。在这种情况下，Login.gov 将收集您的自拍照，并将其与您政府颁发的身份证件上的照片进行比对。
+### Information we keep and share for fraud prevention
 
-## 5. 自动访问
+When you go through identity proofing, we keep a secure, encrypted copy of the identity documents you submit (such as your driver's license, state ID, or passport, and any self-photograph), along with information about your identity verification attempts. We keep information from your verification attempts for up to one year. We keep the encrypted copies of your identity documents for a longer period, until their business use ceases, because identity fraud is sometimes not discovered until years after an attempt.
 
-为确保安全性和完整性，严禁使用任何自动方式访问。这包括自动创建账户、身份验证、数据抓取、表单提交以及绕过安全措施。Login.gov 仅供人交互使用，用户必须手动访问才能维护安全的环境。
+If you began or attempted to access a partner agency's service and that partner agency has an agreement with Login.gov to receive this information for fraud prevention, information about your identity verification attempts — including attempts you do not complete — is shared with that partner at the time of your attempt, to help that partner detect and prevent fraud. That partner may also request the identity documents you submitted for use in an active fraud investigation, and may be able to do so for as long as the information is needed for that purpose.
 
-## 6. 终止
+Within Login.gov, access to this information is restricted to authorized fraud operations personnel, hidden by default, and viewed only when needed for a fraud investigation. Login.gov's own ability to access your submitted identity documents ends after one year, though the encrypted copies remain stored.
 
-您可以随时通过你帐户的用户资料来终止你的账户。此外，如果发生欺诈或其他违反这些使用规则的情况，我们可以撤销对你账户的访问权。如果上述情况发生，我们仍会遵照我们[隐私政策]({% link _policy/index._zh.md %})和[记录系统通知](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records)来保护你的账户信息。
+If you get an error and are unable to complete the identity proofing and verification process, redress instructions are provided with follow-on actions. Login.gov does not currently have a process to bypass standard identity proofing requirements.
 
-万一 Login.gov 服务终止，你帐户上信息将根据我们修订后的[记录系统通知保留](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records)。具体而言，用户信息，包括用户资料、登录文件、密码文件、审计跟踪文件和数据提取、系统使用文件以及用于评估系统使用费用的过去费用文件，均根据联邦总务管理局的记录保留时间表 GRS 03.2 维护。
+### Biometric Data
 
-## 7. 授权
+Some partners require verification through biometric comparison. In these instances, Login.gov will collect your self-photograph, which is compared to the portrait on your government-issued ID Card.
 
-Login.gov 服务在美国国内运营，但在全球各地都能访问，便于公众使用。Login.gov 服务由联邦总务管理局运营，其授权和指南来自 [《美国法典》6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), 2002年电子政府法（the E-Government Act of 2002） (Pub.L. 107–347, 44 U.S.C. 3501 note)、 [《美国法典》40 USC § 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim)、 以及 [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
+Your self-photograph is retained in encrypted form for the same period as the other identity documents you submit, as described above. We also collect information about how you interact with your device during identity proofing (such as keyboard, mouse, and touchscreen behavior) to detect automated or fraudulent activity. This behavioral information is stored in a form that does not identify you individually and is retained for as long as it is needed to protect the service against fraud. Identity documents and self photographs are deleted at the end of their retention period unless needed for an active fraud investigation or as otherwise required by law. 
 
-## 8. 服务运营及客户支持
+## 5. Automated Access
 
-Login.gov 按照很高的服务标准运行，无论是服务提供还是客户支持。
+Automated access to Login.gov is strictly prohibited to ensure security and integrity. This includes automated account creation, authentication, data scraping, form submissions, and circumventing security. Login.gov is for human interaction, and users must access it manually to maintain a secure environment.
 
-### 1. 可用性和正常运行时间
+## 6. Termination
 
-作为一个身份验证体系以及通往联邦应用程序的门户，我们努力实现高水平的可用性和正常运行时间。我们的目标是所有网站和系统都维持99.9%的正常服务运行时间。请参加我们的[状态页面](https://status.login.gov/)来了解实时统计数据和事故报告，并订阅更新信息。
+You can terminate your account at any time through your account profile. Additionally, in the event of fraud or other violations of these Rules of Use, we may revoke access to your account. If this occurs, we will still protect your account information consistent with our [Privacy Policy]({% link _policy/index._zh.md %}) and [System of Records Notice](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records).
 
-### 2. 客户支持
+In the unlikely event that the Login.gov service is discontinued, information on the account will be retained subject to our [System of Records Notice](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records), as amended. Specifically, user information, including profiles, log-in files, password files, audit trail files and extracts, system usage files, and cost-back files used to assess charges for system use are maintained in accordance with GSA’s Records Retention Schedule, GRS 03.2 item 030, and are destroyed when business use ceases.
 
-客户支持和服务台服务总能通过 [https://login.gov/contact/]({% link _policy/contact._zh.md %}) 获得。当您提交客户支持请求时，我们将使用你提供的任何信息来解决你的问题或应对你的意见，并可能使用你的反馈意见来改进我们的服务或用于我们认为合适的其他目的，例如营销。在此过程中，我们绝不会在 Login.gov 服务之外透露你个人信息，除非适用法律要求或使用条款另有规定。
+Terminating your account does not delete information retained for fraud detection and investigation. Information from your identity verification attempts is retained for up to one year, and encrypted copies of the identity documents you submitted are retained until their business use ceases, as described in Section 4. Information already shared with a partner agency remains subject to that agency's retention policies. 
 
-## 9. 我们合作伙伴的责任
+## 7. Authorities
 
-Login.gov让用户使用一个 Login.gov 帐户就能访问多个政府项目，从而更容易地将公众与联邦机构联系起来。
+The Login.gov service is operated within the United States, but is accessible globally for public use. The Login.gov service is operated by the General Services Administration under authorities and guidance found in [6 USC § 1523 (b)(1)(A)-(E)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title6-section1523&num=0&edition=prelim), the E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title40-section501&num=0&edition=prelim), [40 USC § 502](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title40-section502&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim), and [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
-我们的合作伙伴机构从我们支持的属性列表中选择其所需要的信息。如果信息我们还没有，我们会要求你提供，对其进行验证，并征求你的同意以与合作伙伴机构共享这些信息。合作伙伴可以要求各种信息，例如姓名、地址、出生日期、电话号码和电子邮件地址。合作伙伴必须遵照联邦法律和政策保护上述信息。
+## 8. Service Operation and Customer Support
 
-在一个机构成为 Login.gov 合作伙伴的过程中，我们会从该机构收集其提供的访问权限类型的信息，并根据该信息与合作伙伴就应用程序的风险和对个人信息的需求达成一致。在此基础上，我们确定合作伙伴可能收到的信息级别。
+The Login.gov service operates with a high standard of service, both in service delivery and customer support.
 
-未经您的同意，我们绝不会将您的个人身份信息 (PII) 与合作伙伴共享，除非是《隐私法案声明》和我们的记录系统通知 GSA/TTS-1 中所述的常规用途（例如，如果为了调查与您的帐户相关的欺诈行为而必须披露信息）。您可以随时撤销此同意，我们将撤销合作伙伴对该信息的访问权限。但是，合作伙伴可以根据其数据保留政策保留此信息。Login.gov 服务不会收集您直接提供给合作伙伴的任何信息。
+### 1. Availability and Uptime
 
-潜在的合作伙伴和其他感兴趣方可以在 Login.gov [开发指南（developer guide)](https://developers.login.gov/)找到有关合作伙伴加盟流程的更多信息。
+As an authentication system and gateway to federal applications, we strive for high availability and uptime. Our goal is to maintain a service uptime of 99.9% across all sites and systems. See our [status page](https://status.login.gov/) for live statistics, incident reports, and subscribe to updates.
 
-## 10. 收费
+### 2. Customer Support
 
-注册和使用 Login.gov 服务是免费的。连接到的我们合作伙伴也是免费的，虽然这些合作伙伴本身可能会就其某些服务收费，比如预定、购买某个东西、或申请得到服务。
+Customer support and help desk services are always available through [https://login.gov/contact/]({% link _policy/contact._zh.md %}). When you submit for customer support, we will use any information you provide to address your question or comment, and may use your feedback to improve our service or for other purposes as we see fit, such as for marketing. In doing so, we will not reveal your personal information outside of the Login.gov service except as required by applicable law or as stated elsewhere in these terms.
 
-## 11. 陈述、保证和责任
+## 9. Responsibilities of Our Partners
 
-免责声明
+The Login.gov service connects the public to government agencies more easily by allowing users to access multiple government programs with one Login.gov account.
 
-Login.gov 服务以“现有状态”并在“现有”的基础上提供。联邦总务管理局特此否认任何明示或暗示的保证，包括但不限于商品化、特定用途适用性和不侵权的保证。联邦总务管理局不保证服务没有错误，也不保证服务访问会是连续的或不间断的。
+Partner agencies select the information they require from the list of attributes we support. If we don’t already have it, we request that information from you; validate it, and ask for your consent to share it with the partner agency. Partners can request a variety of information such as name, address, birth date, phone number and email address. Partners are required to protect this information in compliance with federal law and policy.
 
-### 1. 总陈述
+We do not share your PII with a partner without your consent outside of the routine uses described in our Privacy Act Statement and our system of records notice GSA/TTS-1 (for example, if disclosure is necessary to investigate fraud related to your account). You may revoke this consent at any time, and we will stop sharing your information with the partner going forward. Revoking consent does not delete information already shared, and does not affect information already provided to a partner for fraud detection and investigation. The partner may retain information it has already received subject to its own data retention policies. The Login.gov service does not collect any information you provide directly to the partner.
 
-你在此保证（1）你对本网站和服务的使用将严格遵照本协议和所有适用法律法规；以及（2）你对本网站和服务的使用将不会侵犯或盗用任何第三方的知识产权。
+Prospective partners and other interested parties can find more information about the partner onboarding process from the Login.gov [developer guide](https://developers.login.gov/).
 
-### 2. 责任限制
+## 10. Fees
 
-在任何情况下，联邦总务管理局均不根据任何合同、疏忽、严格责任或其他法律或衡平法理论，对本协议的任何标的物承担以下责任：（1） 任何特殊的、偶然的或间接的损害;（2）采购替代产品或服务的成本;或 （3） 使用中断或者数据丢失和损坏。
+There are no fees charged to you for registering or using the Login.gov service. There is no fee associated with connecting to our partners, though the partners themselves may charge fees for some of their services, such as making a reservation, purchasing an item, or applying for a service.
 
-## 12. 总则
+## 11. Representations, Warranties and Liabilities
 
-### 1. 完整协议
+Disclaimer of Warranties
 
-本协议构成联邦总务管理局与你之间关于使用本网站和服务的完整协议，并且只能通过联邦总务管理局在本页面上发布修订版本进行修改。
+Login.gov services are provided “as is” and on an “as-available” basis. GSA hereby disclaims all warranties of any kind, express or implied, including without limitation the warranties of merchantability, fitness for a particular purpose, and non-infringement. GSA makes no warranty that the services will be error free or that access thereto will be continuous or uninterrupted.
 
-### 2. 争议
+### 1. General Representations
 
-因本协议以及访问或使用服务而引起的任何争议均应受联邦法律管辖。
+You hereby warrant that (1) your use of the website and services will be in strict accordance with the Rules of Use and all applicable laws and regulations, and (2) your use of the website and services will not infringe or misappropriate the intellectual property rights of any third party.
 
-### 3. 不放弃权力
+### 2. Limitations on Liability
 
-联邦总务管理局未能行使或执行本协议的任何权利或条款，并不构成对此类权利或条款的放弃。
+In no event will GSA be liable with respect to any subject matter of this agreement under any contract, negligence, strict liability or other legal or equitable theory for: (1) any special, incidental, or consequential damages; (2) the cost of procurement of substitute products or services; or (3) for interruption of use or loss or corruption of data.
 
-### 4. 联系我们
+## 12. General Provisions
 
-如果你对这些条款或 Login.gov 服务的任何其他方面有疑问，可以在 <https://login.gov/contact>联系我们。
+### 1. Entire Agreement
+
+This Rules of Use constitutes the entire agreement between GSA and you concerning the use of the Login.gov website and services, and may only be modified by the posting of a revised version on this page by GSA.
+
+### 2. Disputes
+
+Any disputes arising out of this Rules of Use and access to or use of the services shall be governed by federal law.
+
+### 3. No Waiver of Rights
+
+GSA’s failure to exercise or enforce any right or provision of these Rules of Use shall not constitute waiver of such right or provision.
+
+### 4. Severability
+
+If any provision of these Rules of Use is held to be invalid or unenforceable by a court of law, the remaining provisions of these Rules of Use shall be severable from the invalid or unenforceable provision and will remain in effect. 
+
+### 5. Contacting Us
+
+If you have questions about these terms or any other aspect of the Login.gov service, you can contact us at <https://login.gov/contact>.

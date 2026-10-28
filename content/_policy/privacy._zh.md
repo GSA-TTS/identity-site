@@ -1,74 +1,80 @@
 ---
 layout: sidenav
 sidenav: policies
-title: '隐私与安全: 我们的隐私法声明'
-description: 了解我们如何要求、使用、保留并保护你的个人信息以及你信息披露的义务。
+title: "Privacy & security: Our privacy act statement"
+description: Learn how we ask for, use, retain, and protect your personal
+  information, as well as your obligation to disclose it.
 permalink: /zh/policy/our-privacy-act-statement/
 ---
 
-## 我们的隐私法声明 ## {#our-privacy-act-statement}
+## Our privacy act statement ## {#our-privacy-act-statement}
 
-Login.gov 服务由联邦总务管理局（GSA）提供，让公众可以安全和私密地在网上访问参与本项目的政府计划。用户只要一个本项目账户，就能登录多个政府机构。我们的目标是让管理联邦福利、服务以及申请更容易和安全。
+The Login.gov service is provided by the U.S. General Services Administration to offer the public secure and private online access to participating government programs. Using only one Login.gov account, users can sign into multiple government agency sites. Our goal is to make managing federal benefits, services, and applications faster, easier, and more secure.
 
-访问 Login.gov 服务即表示您已阅读并同意本隐私声明和 Login.gov 使用规则。我们将在此页面发布任何条款变更。如果您在任何时候不再同意本隐私声明或 Login.gov 服务的任何其他相关条款，您可以删除您的帐户。
+By accessing the Login.gov service, you acknowledge and agree to this Privacy Act Statement and the Login.gov Rules of Use, which together describe how your information is collected, used, and shared. We will post any changes to these terms to this page. If at any time you no longer agree to this Privacy Act Statement or any other relevant terms of the Login.gov service, you may delete your account.
 
-### 授权：谁授权我们收集这些数据?  ### {#authority}
+### The Authority - Who authorizes the collection of this data?  ### {#authority}
 
-你提供的信息是根据《美国法典》编号6 USC § 1523 (b)(1)(A)-(E)、2002 年《电子政务法》（公法编号107-347、《美国法典》编号 44 USC 3501 note）、《美国法典》编号[40 USC § 501](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title40-section501&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim)和[40 USC § 502](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title40-section502&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim)以及白宫行政管理和预算局[OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf) 收集的。
+The information you provide is collected pursuant to 6 USC § 1523 (b)(1)(A)-(E), the E-Government Act of 2002 (Pub. L. 107–347, 44 U.S.C. 3501 note), [40 USC § 501](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title40-section501&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim), [40 USC § 502](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title40-section502&num=0&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGU0MC1zZWN0aW9uNTAx%7C%7C%7C0%7Cfalse%7Cprelim), and [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
 
-### 目的：我们为什么需要你的信息?  ### {#purpose}
+### The Purpose - Why do we need your information? ### {#purpose}
 
-Login.gov 的合作政府机构，要求对其应用程序和服务的访问是安全和私密的。每个机构按其需要可能有不同层次的安全要求。当你设立和登录 Login.gov 账户时，会得到一个电子身份保障凭证。我们需要能够识别你身份的个人信息（也叫PII），来生成那一凭证。可以把这一凭证想象为只有你能使用的一把钥匙。这把钥匙能够安全地打开通往我们合作伙伴机构服务或应用程序的大门。我们也需要信息来确保你身份信息的准确性，并确保你的身份不是别人的。
+Login.gov partners with agencies that need secure and private access to their applications and services. Each agency may request different levels of security depending on their needs. When you create and sign in to a Login.gov account, you’re provided with an electronic identity assurance credential. We need your personally identifying information, or PII, to generate that credential. Imagine this credential like a key that only you can use. The key securely opens the door to a partner agency’s service or application. We also need information to ensure that your identity information is accurate - and not someone else’s.
 
-#### 我们需要什么信息？
+#### What information do we need?
 
-* 为了通过身份验证建立安全帐户，我们需要你的电子邮件地址和身份验证方法。你的身份证实方法可以是我们发送 SMS 代码的电话号码、USB 安全密钥或其他选项。
-* 身份核证要求更敏感的信息，比如社会保障号码、地址、电话号码、美国各州颁发的身份证件或驾照。电话运营商可能会把你的手机号码、名字、地址、网络状态、客户类型、客户角色、收费类型、移动设施识别器（IMSI和IMEI）、以及其他可得的客户状态及设备细节，向我们的第三方服务提供商披露，目的纯粹是为了在你保持业务关系期间验证你的身份。
-* 为了减少欺诈现象，我们也会分析访问 Login.gov 所使用的设备、身份、以及比如你与网页上表格互动的行为。
+* For authentication to establish a secure account, we need your email address and an authentication method. Your authentication method could be a phone number where we share a SMS code, USB Security Key, or another option.
+* Identity proofing requires more sensitive information such as a Social Security number, address, phone number, and an ID (such as your driver's license, state ID, or U.S. passport). For access to certain partner agency systems or applications, a self-photograph may be needed to verify the U.S. based federal or state ID as further proof of your identity by comparing it to the portrait on your government-issued ID.
+* During identity proofing, your phone carrier may disclose your mobile number, name, address, email, network status, customer type, customer role, billing type, mobile device identifiers (IMSI and IMEI) and other subscriber status and device details, if available, to our third party service provider, solely to verify your identity for the duration of the business relationship.
+* To mitigate fraud, we also analyze the device used to access Login.gov, metadata associated with your login.gov session, and behavior such as how you interact with forms on the page.
+* When you go through identity verification, we keep a secure, encrypted copy of the identity documents you submit (such as your state ID, driver’s license, or passport, and any self-photographs.) We also keep information about your verification attempts. This information is maintained and may be disclosed to other authorized federal agencies to help detect and prevent identity fraud. Disclosures are made in accordance with the Privacy Act of 1974 and the routine uses described in our System of Records Notice (GSA/TTS-1), and are governed by written agreements requiring the receiving agency to protect the information consistent with the Privacy Act and applicable federal law and policy.
 
-### 常规使用：信息我们一般与谁分享?  ### {#routine-uses}
+The information described above is collected and maintained to detect and prevent identity fraud. Identity fraud against government programs is often committed using stolen or synthetic identities across multiple verification attempts; detecting it requires analyzing attempt information, including attempts that aren’t complete. This information is disclosed to partner agencies for use in detecting and investigating fraud against their programs and in providing redress to affected individuals. 
 
-* 提供给远程或亲身身份证实和身份核证服务的第三方，包括必要时提供这种服务的其他联邦机构，以证实或核证你的身份，使你能访问参与本项目的政府机构网站或应用程序。
-* 提供给联邦总务管理局（GSA）的专家、顾问或合同商，上述信息与他们从事联邦工作有关。
-* 提供给政府出版办公室（GPO），因为Login.gov 要给你寄送地址确认表格或你请求寄出账户变更通知或试图核证身份的行动的通知，
-* 必要时提供给侦查和调查欺诈嫌疑的，包括为你提供补救措施的其他联邦机构以及提供欺诈预防服务的第三方服务机构。
+### Routine Uses - With whom is the information routinely shared? ### {#routine-uses}
+* To third parties providing remote or in-person authentication and identity proofing services, including other federal agencies providing such services, as necessary to authenticate or identity proof you for access to a participating government website or application.
+* To an expert, consultant, or contractor of GSA in the performance of a Federal duty to which the information is relevant.
+* To the Government Publishing Office (GPO), when Login.gov needs to mail you an address confirmation form or if you request mailed notifications of account changes or of proofing attempts.
+* To other federal agencies and third-party fraud prevention services as necessary to detect and investigate suspected fraud, including providing you with redress.
 
-上面的清单并非所有我们与之分享信息的实体和个人。请参见[记录系统通知 GSA/TTS-1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records) 来查看所有实体和个人。
+This list is not comprehensive. Please see [system of records notice GSA/TTS-1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records) for all entities and individuals to whom the information may be routinely shared.
 
-#### 你分享的信息会如何处理？
+#### What happens to the information you share?
 
-所有记录都以电子方式存储在联邦总务署（GSA）的亚马逊网络服务(AWS) 的一个数据库中。Login.gov 的供应商还会将个人信息存储 90 天，以便监测和减少系统中的欺诈行为。如果调查或防止疑似欺诈行为需要，或法律另有规定，供应商可能会将数据保留90天以上。 你可以[在帐户页面上](https://secure.login.gov/zh/account)修改或更正你的电子邮件地址或电话号码。
+All records are stored electronically in a database in GSA’s Amazon Web Services (AWS) environment. Login.gov’s vendors store personal information used for fraud detection for a limited period, not to exceed one year, after which it is deleted unless needed to investigate or prevent suspected fraud or as otherwise required by law. 
 
-你的个人信息（包括用户资料、登录文件、密码文件、审计跟踪文件和摘录、系统使用记录以及用于评估系统使用费用的机构账单发出数据），只要你有一个正在使用的账户，都会得到维护，除非出于业务使用需要存储时间更长，比如为了执法事务或依照国家档案和记录管理局（NARA）指南的其他法律行动。这些个人信息对向用户提供访问我们合作伙伴机构的信息和服务都有必要。
+Login.gov retains the personal information from your verification attempts (such as your name, address, and any other information you provide) for up to one year for fraud detection and investigation, unless a longer period is required by law or to support an active fraud investigation. The encrypted copies of the identity documents you submit (such as your state ID, driver’s license, or passport, and any self-photograph) are retained for a longer period, until their business use ceases, in accordance with National Archives and Records Administration (NARA) guidance. During the first year, Login.gov can access these documents. After one year, Login.gov can no longer access them, though they remain stored in encrypted form. A participating agency that received information about your verification may retrieve these documents for fraud investigations for as long as the information is needed for that purpose.
 
-有些情况下我们必须分享某些数据。要了解那些情况的更多信息，请参见上边记录系统通知链接的“常规使用”部分。
+Your personal information, including profiles, log-in files, password files, audit trail files and extracts, system usage records, and agency billing data used to assess charges for system use, will be maintained for as long as you have an active account, unless longer retention is required for business use, such as for law enforcement matters or other legal actions in accordance with National Archives and Records Administration (NARA) guidance. This personal information is necessary to provide users access to information and services at partner agencies.
 
-### 同意 - 我们如何控制分享什么信息?  ### {#consent}
+There may be circumstances where we are required to share certain data. Please refer to the “routine uses” section of the system of records notice linked above for more information on those circumstances.
 
-你自己决定是否想与任何机构分享个人信息，而且可以随时撤销你的同意。你可以在[你的账户页面](https://secure.login.gov/zh/account)修改或改变你的电邮地址或电话号码。
+### Consent - How can you control what information is shared? ### {#consent}
 
-但是，不提供完整准确的信息可能会延误你对我们合作伙伴机构的访问。Login.gov 不做任何资格或适合性的决定，这是使用 Login.gov 服务的政府机构网站的责任。
+You provide consent at two points. First, by agreeing to this Privacy Act Statement and the Rules of Use before you begin, you consent to Login.gov collecting and using your information as described here, including sharing information about your identity verification attempts (including attempts you do not complete), with an agency authorized to receive this data where you begin or attempt to access that agency’s service, to help that agency detect and prevent fraud. Second, your validated personal data is encrypted, and it is shared with a partner agency only when you, the authorized user, explicitly grants consent to share the information. You decide if you want to share personal information with any agency and you can revoke consent at any time. Revoking consent stops future sharing of your information with an agency. It does not delete information that has already been shared, and it does not affect information retained for fraud detection and investigation as described above. You can modify, or amend, either your email address or phone number on [your account page](https://secure.login.gov/zh/account).
 
-除了本《隐私法声明》和我们的使用规则中规定的情况外，未经你的同意，我们绝不会分享你的信息。你验证过的个人数据是加密的，而且唯一与合作伙伴机构分享这些数据的方法就是你 - 授权用户 - 输入你的密码并明确给出分享此信息的同意。
+However, failure to provide complete and accurate information may delay access to the partner agency. Login.gov does not make any eligibility or suitability determinations; that is the responsibility of the government websites that use the Login.gov service. Other than as specified in this Privacy Act Statement, our Rules of Use, and the routine uses in our System of Records Notice,  we will never share your information without your consent. 
 
-当你设立一个账户或设立好账户后访问新的合作伙伴机构网站时，都会看到同意与合作伙伴机构分享自己信息的选择。你必须每年都给予每个机构授权同意一次。
+When you create an account or visit a new partner agency website after you have created your account, you will see the option to consent to share your information with the partner agency. You are required to give consent yearly for each agency.
 
-请记着，你可以随时通过[你的账户页面](https://secure.login.gov/zh/account)更新个人信息、撤销同意或完全删除你的账户。
+Remember you can update your personal information, revoke consent, or delete your account at any time through [your account page](https://secure.login.gov/zh/account).
 
-### 减少欺诈 - 我们如何防止坏人?  ### {#fraud}
+### Fraud mitigation - How do we stop bad actors? ### {#fraud}
 
-身份欺诈是指有人冒充你并试图使用你的 Login.gov 信息登录合作机构。Login.gov 保护你的数据不受坏人冒用。我们的产品与受信任的第三方供应商合作，来确保是你，而不是别人假冒你来访问你的账户。这些供应商寻找用户行为中可能显示欺诈企图的变化和风险。
+Identity fraud is someone pretending to be you and attempting to access a partner agency using your Login.gov information. Login.gov protects your data from bad actors. Our product works with trusted third-party vendors to make sure it is you - and not someone pretending to be you - accessing your account. These vendors look for changes and risks in user behavior that might indicate a fraud attempt.
 
-### 记录 - 你在哪里可以找到更多信息?  ### {#records}
+To support fraud detection and investigation, authorized Login.gov fraud operations personnel and authorized agencies may review information about verification attempts. Within Login.gov, your personal information is restricted to authorized personnel, hidden by default, and viewed only when needed for a fraud investigation. 
 
-请参见 Login.gov 记录系统通知（[GSA/TTS–1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records)）。
+### Records - Where can you find more information? ### {#records}
 
-### 网站分析数据 - 我们收集的其他数据  ### {#analytics}
+Please see the Login.gov system of records notice ([GSA/TTS–1](https://www.federalregister.gov/documents/2024/05/13/2024-10404/privacy-act-of-1974-system-of-records)).
 
-其他数据，比如你访问的页面和你每次访问的时长，都汇集成报告，帮助我们更好地了解人们如何使用网站以及我们如何能够使网站更有帮助。这些数据都是匿名的。这些数据不与任何可以显示个人身份的信息相关联，而且只是与 Login.gov 团队匿名分享。
+### Website Analytics – Other data we collect ### {#analytics}
 
-我们收集设备信息和行为分析数据来评估滥用的风险。这一信息是以模糊形式存储的。Login.gov 能够从这些模糊数据中评估设备和行为风险，但 Login.gov 本身及其服务提供商都无法读这些信息
+Other data, like the pages you visit and the length of your session, are aggregated into reports to help us better understand how the site is being used and how we can make it more helpful. The data is anonymized. No personally identifying user information is tied to this data and it is only shared anonymously with the Login.gov team.
 
-### 隐私影响评估  ### {#impact}
+We collect device information and behavioral analytics to assess for risk of misuse. This information is stored in an obfuscated manner. Login.gov is able to assess device and behavioral risk from this obscured data store, but neither Login.gov nor its providers can read the information.
 
-请到 [www.gsa.gov/PIA](https://www.gsa.gov/PIA) 阅读我们的隐私影响评估，来了解 Login.gov 如何以保护隐私的方式来收集、使用、保护以及销毁信息。
+### Privacy Impact Assessment ### {#impact}
+
+View our privacy impact assessment at [www.gsa.gov/PIA](https://www.gsa.gov/PIA) for further details on how Login.gov collects, uses, secures, and deletes information in ways that protect privacy.
