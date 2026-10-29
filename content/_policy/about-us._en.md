@@ -20,7 +20,7 @@ The public is able to simply, securely and privately log in to participating gov
 
 ## About Login.gov 
 
-Login.gov was launched in 2017 in response to the Federal Cybersecurity Requirements statutory mandate ([6 USC § 1523 — Federal cybersecurity requirements, part (b)(1)(D)](https://uscode.house.gov/view.xhtml?req=6+USC+1523:+Federal+cybersecurity+requirements)) that instructed agencies to “implement a single sign-on trusted identity platform for individuals accessing each public website of the agency that requires user authentication as developed by the Administrator of General Services ” and “implement identity management…including multi-factor authentication.”
+Login.gov was launched in 2017 in response to the Federal Cybersecurity Requirements statutory mandate ([6 USC § 1523 — Federal cybersecurity requirements, part (b)(1)(D)](https://www.govinfo.gov/content/pkg/USCODE-2024-title6/html/USCODE-2024-title6-chap6-subchapII-sec1523.htm)) that instructed agencies to “implement a single sign-on trusted identity platform for individuals accessing each public website of the agency that requires user authentication as developed by the Administrator of General Services ” and “implement identity management…including multi-factor authentication.”
 
 Initially developed as a combined effort by technologists at the General Services Administration (18F) and the U.S. Digital Service, the team included engineers, designers, user experience experts, and product managers with experience in similar authentication systems in the government and in the private sector. Today, the Login.gov program is operated as a standalone division within the GSA’s Technology Transformation Services.
 
