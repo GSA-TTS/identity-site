@@ -320,4 +320,3 @@ If any provision of these Rules of Use is held to be invalid or unenforceable by
 ### 5. Contacting Us
 
 If you have questions about these terms or any other aspect of the Login.gov service, you can contact us at <https://login.gov/contact>.
-
