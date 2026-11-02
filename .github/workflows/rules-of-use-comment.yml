@@ -1,0 +1,51 @@
+name: Rules of Use change notice
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'content/_policy/rules-of-use*'
+
+permissions:
+  pull-requests: write
+
+jobs:
+  notify:
+    name: Post Rules of Use change comment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post or update sticky comment
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const marker = '<!-- rules-of-use-change-notice -->';
+            const body = `${marker}
+            This PR modifies Login.gov's Rules of Use (\`content/_policy/rules-of-use*\`).
+
+            Please make a corresponding update to identity-idp's rules-of-use-updated-at configuration.
+
+            See the runbook for instructions: https://docs.google.com/document/d/1--S_rGB2eES7DDlO9wUuUKRnDKQyYYa-zEcUJMcTpa4/edit?usp=sharing`;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const existing = comments.find((c) => c.body.includes(marker));
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+            }
