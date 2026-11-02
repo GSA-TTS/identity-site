@@ -7,5 +7,5 @@
 {% for _list in _styles %}{% for _style in _list %}
 <link rel="stylesheet"
   href="{{ _style.href | default: _style | relative_url }}"
-  media="{{ _style.media | default: 'screen' }}">
+  media="{{ _style.media | default: 'all' }}">
 {% endfor %}{% endfor %}
