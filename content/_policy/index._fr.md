@@ -6,6 +6,10 @@ permalink: /fr/policy/
 redirect_from:
   - /fr/policy/our-security-practices/
   - /fr/security/
+  - /fr/policy/messaging-terms-and-conditions/
+  - /fr/policy/how-does-it-work/
+  - /fr/policy/our-privacy-act-statement/
+  - /fr/policy/rules-of-use/
 ---
 ## Login.gov is committed to your privacy and security ## {#intro}
 
@@ -134,7 +138,7 @@ Login.gov utilise les messages textuels SMS pour aider à vérifier votre identi
 * Les tarifs de messagerie et de données de votre opérateur peuvent s’appliquer.
 * Les messages ne seront envoyés que dans le cadre de la configuration de votre compte Login.gov et de la connexion à celui-ci.
 * Pour refuser de recevoir des messages textes de Login.gov, répondez par le message STOP au SMS indésirable.
-* Voir [notre déclaration de confidentialité](/fr/policy/our-privacy-act-statement/) pour obtenir des informations sur la politique de confidentialité.
+* Voir [notre déclaration de confidentialité](#our-privacy-act-statement) pour obtenir des informations sur la politique de confidentialité.
 * Les opérateurs ne sont pas responsables du retard ou de la non-livraison des messages.
 * Si vous avez des questions ou des inquiétudes, vous pouvez [contacter le service clientèle](/fr/contact/).
 

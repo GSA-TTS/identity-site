@@ -6,8 +6,16 @@ description: Learn more about our security and privacy practices
 permalink: /policy/
 redirect_from:
   - /policy/our-security-practices/
+  - /policy/messaging-terms-and-conditions/
+  - /policy/how-does-it-work/
+  - /policy/our-privacy-act-statement/
+  - /policy/rules-of-use/
   - /en/policy/our-security-practices/
   - /en/policy/
+  - /en/policy/messaging-terms-and-conditions/
+  - /en/policy/how-does-it-work/
+  - /en/policy/our-privacy-act-statement/
+  - /en/policy/rules-of-use/
   - /docs/Logingov_PIA_August2019.pdf/
   - /docs/Privacy-Impact-Assessment 9-18.pdf/
   - /docs/privacy-impact-assessment.pdf/
