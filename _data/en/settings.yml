@@ -357,15 +357,15 @@ nav:
   policies:
     sections:
       - name: Our commitment to your privacy and security
-        url: /policy/
+        url: '#intro'
       - name: How does it work?
-        url: /policy/how-does-it-work/
+        url: '#how-does-it-work'
       - name: Our privacy act statement
-        url: /policy/our-privacy-act-statement/
+        url: '#our-privacy-act-statement'
       - name: Messaging terms and conditions
-        url: /policy/messaging-terms-and-conditions/
+        url: '#messaging-terms-and-conditions'
       - name: Rules of use
-        url: /policy/rules-of-use/
+        url: '#rules-of-use'
     title: Privacy & security
     url: /policy/
   principles: Principles

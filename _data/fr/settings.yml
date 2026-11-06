@@ -382,15 +382,15 @@ nav:
   policies:
     sections:
       - name: Notre engagement en faveur de votre sécurité et de la confidentialité
-        url: /fr/policy/
+        url: '#intro'
       - name: Comment ça marche ?
-        url: /fr/policy/how-does-it-work/
+        url: '#how-does-it-work'
       - name: Notre déclaration relative à la loi sur la confidentialité
-        url: /fr/policy/our-privacy-act-statement/
+        url: '#our-privacy-act-statement'
       - name: Conditions générales de la messagerie
-        url: /fr/policy/messaging-terms-and-conditions/
+        url: '#messaging-terms-and-conditions'
       - name: Règles d’utilisation
-        url: /fr/policy/rules-of-use/
+        url: '#rules-of-use'
     title: Confidentialité et sécurité
     url: /fr/policy/
   principles: Principes
