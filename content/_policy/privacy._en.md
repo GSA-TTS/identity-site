@@ -8,5 +8,5 @@ permalink: /policy/our-privacy-act-statement/
 redirect_from:
   - /en/policy/our-privacy-act-statement/
   - /policy/our-privacy-practices/
-redirect_to: /en/policy/#our-privacy-act-statement
+redirect_to: /policy/#our-privacy-act-statement
 ---

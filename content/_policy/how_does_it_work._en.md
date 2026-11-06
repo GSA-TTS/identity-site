@@ -6,5 +6,5 @@ permalink: /policy/how-does-it-work/
 sidenav: policies
 redirect_from:
     - /en/policy/how-does-it-work/
-redirect_to: /en/policy/#how-does-it-work
+redirect_to: /policy/#how-does-it-work
 ---
