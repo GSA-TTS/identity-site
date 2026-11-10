@@ -346,15 +346,15 @@ nav:
   policies:
     sections:
       - name: 我们保护你隐私与安全的承诺
-        url: /zh/policy/
+        url: '#intro'
       - name: 这一点如何实现？
-        url: /zh/policy/how-does-it-work/
+        url: '#how-does-it-work'
       - name: 我们的隐私法声明
-        url: /zh/policy/our-privacy-act-statement/
+        url: '#our-privacy-act-statement'
       - name: 短信使用条款
-        url: /zh/policy/messaging-terms-and-conditions/
+        url: '#messaging-terms-and-conditions'
       - name: 使用规则
-        url: /zh/policy/rules-of-use/
+        url: '#rules-of-use'
     title: 隐私与安全
     url: /zh/policy/
   principles: 原则

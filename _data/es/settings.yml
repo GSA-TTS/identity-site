@@ -367,15 +367,15 @@ nav:
   policies:
     sections:
       - name: Nuestro compromiso con su privacidad y seguridad
-        url: /es/policy/
+        url: '#intro'
       - name: ¿Cómo funciona?
-        url: /es/policy/how-does-it-work/
+        url: '#how-does-it-work'
       - name: Nuestra declaración de privacidad
-        url: /es/policy/our-privacy-act-statement/
+        url: '#our-privacy-act-statement'
       - name: Términos y condiciones de mensajería
-        url: /es/policy/messaging-terms-and-conditions/
+        url: '#messaging-terms-and-conditions'
       - name: Reglas de uso
-        url: /es/policy/rules-of-use/
+        url: '#rules-of-use'
     title: Privacidad y seguridad
     url: /es/policy/
   principles: Principios
