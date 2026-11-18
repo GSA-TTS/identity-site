@@ -314,8 +314,6 @@ nav:
     title: Accessibility & languages
   anchor_to_top: Back to top
   become_a_partner: Become a partner
-  business_inquiries:
-    title: Business inquiries
   contact_login_gov: Contact Login.gov
   contact_us:
     sections:
@@ -323,8 +321,6 @@ nav:
         url: '#find-answers-to-commonly-asked-questions'
       - name: Get in touch
         url: '#get-in-touch'
-      - name: Partner with Login.gov
-        url: '#partner-with-logingov'
       - name: Report a security issue
         url: '#report-a-security-issue'
     title: Contact us
