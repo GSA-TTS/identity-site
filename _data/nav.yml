@@ -11,16 +11,3 @@ default:
     support:
       contact_us: '$LOCALE_BASE_URL/contact/'
       help_center: '$LOCALE_BASE_URL/help/'
-partners:
-  footer:
-    about_login_gov:
-      accessibility: '$BASE_URL/accessibility/'
-      policies: '$BASE_URL/policy/'
-      what_is_login_gov: '$BASE_URL/about-us/'
-    partners:
-      developer_guide: 'https://developers.login.gov'
-      get_started: '$BASE_URL/partners/get-started/'
-      security_experience: '$BASE_URL/partners/security-experience/'
-    support:
-      business_inquiries: '$BASE_URL/partners/business-inquiries/'
-      faq: '$BASE_URL/partners/faq/'

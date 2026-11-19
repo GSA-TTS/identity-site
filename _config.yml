@@ -62,15 +62,6 @@ collections:
   developers:
     output: true
     permalink: /:collection/:path/
-  partners:
-    output: true
-    permalink: /:collection/:path/
-  program_updates:
-    output: true
-    permalink: /partners/program-updates/:path/
-  partners_impact_stories:
-    output: true
-    permalink: /:collection/:path/
   policy:
     output: true
     permalink: /:collection/:path/

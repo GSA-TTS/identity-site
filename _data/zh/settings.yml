@@ -303,8 +303,6 @@ nav:
     title: 可访问性说明和和语言
   anchor_to_top: 回到顶部
   become_a_partner: 成为合作伙伴
-  business_inquiries:
-    title: 业务查询
   contact_login_gov: 联系 Login.gov
   contact_us:
     sections:
@@ -312,8 +310,6 @@ nav:
         url: '#找到常见问题的答案'
       - name: 联系
         url: '#联系'
-      - name: 与 Login.gov 合作
-        url: '#与-logingov-合作'
       - name: 报告安全问题
         url: '#报告安全问题'
     title: 联系我们
