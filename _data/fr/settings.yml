@@ -346,8 +346,6 @@ nav:
         url: '#trouvez-des-réponses-aux-questions-fréquemment-posées'
       - name: Contactez-nous
         url: '#contactez-nous'
-      - name: Devenez partenaire de Login.gov
-        url: '#devenez-partenaire-de-logingov'
       - name: Signaler un problème de sécurité
         url: '#signaler-un-problème-de-sécurité'
     title: Nous contacter
