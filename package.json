@@ -55,7 +55,7 @@
     "jsdom": "^28.1.0",
     "postcss-scss": "^4.0.9",
     "prettier": "^3.1.0",
-    "puppeteer": "^24.37.5",
+    "puppeteer": "^25.18.1",
     "saxophonist": "^2.0.0",
     "serve-handler": "^6.1.5",
     "stylelint": "^17.4.0",
