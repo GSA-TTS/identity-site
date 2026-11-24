@@ -312,8 +312,6 @@ nav:
         url: '#找到常见问题的答案'
       - name: 联系
         url: '#联系'
-      - name: 与 Login.gov 合作
-        url: '#与-logingov-合作'
       - name: 报告安全问题
         url: '#报告安全问题'
     title: 联系我们
