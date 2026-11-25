@@ -22,7 +22,7 @@ jobs:
             const body = `${marker}
             This PR modifies Login.gov's Rules of Use (\`content/_policy/rules-of-use*\`).
 
-            Please make a corresponding update to identity-idp's rules-of-use-updated-at configuration.
+            Please check with the PO & Policy Point of Contact to check if a corresponding update to identity-idp's rules-of-use-updated-at configuration is needed.
 
             See the runbook for instructions: https://docs.google.com/document/d/1--S_rGB2eES7DDlO9wUuUKRnDKQyYYa-zEcUJMcTpa4/edit?usp=sharing`;
 
